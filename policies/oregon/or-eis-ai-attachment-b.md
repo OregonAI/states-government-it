@@ -5,7 +5,7 @@ jurisdiction: oregon
 id: or-eis-ai-attachment-b
 title: 'State of Oregon Responsible AI Usage Policy: Artificial Intelligence Risk Management Framework'
 doc_type: policy
-citation: 'Statewide Policy 107-004-190, Attachment B: AI Risk Management Framework'
+citation: 'Responsible AI Usage Policy, Supporting Attachments: AI Risk Management Framework'
 authority_level: ''
 issuing_body: Enterprise Information Services
 source_url: https://www.oregon.gov/eis/Documents/Attachment-B-AI-Risk-Management-Framework.pdf
@@ -33,11 +33,11 @@ tags:
 
 > **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
 
-# State of Oregon Responsible AI Usage Policy: Artificial Intelligence Risk Management Framework (Statewide Policy 107-004-190, Attachment B: AI Risk Management Framework)
+# State of Oregon Responsible AI Usage Policy: Artificial Intelligence Risk Management Framework (Responsible AI Usage Policy, Supporting Attachments: AI Risk Management Framework)
 
 ## At a glance
 
-Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence page; sets requirements agencies follow when using AI.
+Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow when using AI. The attachment letter is not printed in the PDF; it comes from the official file name (Attachment-X-...pdf).
 
 ## Full text
 

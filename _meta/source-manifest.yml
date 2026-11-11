@@ -117,8 +117,8 @@ sources:
     tags: [cybersecurity, governance]
     recheck: monthly
     stub: true
-    stub_reason: The PDF is a scanned image with no text layer (pdftotext returned zero words when fetched
-      2026-11-10); the toolkit has no OCR and rejects stub documents, so no text can be mirrored.
+    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
+      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
     why_relevant: Directs the transfer of executive department IT security functions to the Office of the
       State CIO. Listed on the Governor's order list; no rescission found.
   - id: or-eo-23-26
@@ -132,8 +132,8 @@ sources:
     tags: [ai, governance]
     recheck: monthly
     stub: true
-    stub_reason: The PDF is a scanned image with no text layer (pdftotext returned zero words when fetched
-      2026-11-10); the toolkit has no OCR and rejects stub documents, so no text can be mirrored.
+    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
+      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
     why_relevant: 'Governor''s order on government use of AI: establishes the State Government AI Advisory
       Council to recommend an action plan. Whether it remains operative is for the owner to judge; it is
       on the Governor''s list and not marked rescinded.'
@@ -148,8 +148,8 @@ sources:
     tags: [ai, procurement]
     recheck: monthly
     stub: true
-    stub_reason: The PDF is a scanned image with no text layer (pdftotext returned zero words when fetched
-      2026-11-10); the toolkit has no OCR and rejects stub documents, so no text can be mirrored.
+    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
+      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
     why_relevant: Governor's order setting state policy to buy or use frontier AI models that have had independent
       third-party safety review and directing the State CIO to propose implementation. Listed on the Governor's
       order list (item modified 2026-09-24).
@@ -239,8 +239,8 @@ sources:
     tags: [cybersecurity]
     recheck: monthly
     stub: true
-    stub_reason: The PDF is a scanned image with no text layer (pdftotext returned zero words when fetched
-      2026-11-10); the toolkit has no OCR and rejects stub documents, so no text can be mirrored.
+    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
+      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
     why_relevant: Agencies must physically control and protect portable and removable storage devices and
       the sensitive information on them.
   - id: or-das-107-004-052
@@ -278,8 +278,8 @@ sources:
     tags: [cybersecurity]
     recheck: monthly
     stub: true
-    stub_reason: The PDF is a scanned image with no text layer (pdftotext returned zero words when fetched
-      2026-11-10); the toolkit has no OCR and rejects stub documents, so no text can be mirrored.
+    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
+      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
     why_relevant: Agency policy requirements for personnel screening, access removal and awareness training
       to protect information assets.
   - id: or-das-107-004-100
@@ -293,8 +293,8 @@ sources:
     tags: [cybersecurity, data]
     recheck: monthly
     stub: true
-    stub_reason: The PDF is a scanned image with no text layer (pdftotext returned zero words when fetched
-      2026-11-10); the toolkit has no OCR and rejects stub documents, so no text can be mirrored.
+    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
+      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
     why_relevant: Security controls for transporting sensitive information assets (physical media).
   - id: or-das-107-004-110
     sha256: "00e49c9b62ac8b2506b66162e3397e956c383864b40faf3850d1052b32ec3507"
@@ -535,12 +535,12 @@ sources:
       information held by state agencies. Guidance rather than a numbered policy: the owner may prefer to
       drop it.'
 
-  # ---- Supporting attachments to the Responsible AI Usage Policy (107-004-190); attachments A and C are blank templates and are left out
+  # ---- Supporting attachments to the Responsible AI Usage Policy (107-004-190); attachments A and C are left out (docx sources, see the left-out notes below)
   - id: or-eis-ai-attachment-b
     sha256: "c0078206890a0a5acaa8c13091c9aa18d63347617d3d013b67c0ae0869145f42"
     url: https://www.oregon.gov/eis/Documents/Attachment-B-AI-Risk-Management-Framework.pdf
     format: pdf
-    citation: 'Statewide Policy 107-004-190, Attachment B: AI Risk Management Framework'
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: AI Risk Management Framework'
     title: 'State of Oregon Responsible AI Usage Policy: Artificial Intelligence Risk Management Framework'
     doc_type: policy
     jurisdiction: oregon
@@ -549,12 +549,14 @@ sources:
     recheck: monthly
     identity_text: Risk Management Framework   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
-      page; sets requirements agencies follow when using AI.
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
   - id: or-eis-ai-attachment-d
     sha256: "2d2a8b6ea554861f7463acb348e9fb638d6da68a849192ef5868cc1f9b0e2a8a"
     url: https://www.oregon.gov/eis/Documents/Attachment-D-User-Disclosure.pdf
     format: pdf
-    citation: 'Statewide Policy 107-004-190, Attachment D: User Disclosure'
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: Use Disclosure'
     title: 'State of Oregon Responsible AI Usage Policy: User disclosure mechanism'
     doc_type: policy
     jurisdiction: oregon
@@ -563,12 +565,14 @@ sources:
     recheck: monthly
     identity_text: User disclosure mechanism   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
-      page; sets requirements agencies follow when using AI.
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
   - id: or-eis-ai-attachment-e
     sha256: "e51c8bd387abece39d81cf71cbf0e560df9c4d8db21662d50567a33072eae93c"
     url: https://www.oregon.gov/eis/Documents/Attachment-E-User-Feedback.pdf
     format: pdf
-    citation: 'Statewide Policy 107-004-190, Attachment E: User Feedback'
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: User Feedback'
     title: 'State of Oregon Responsible AI Usage Policy: User Feedback'
     doc_type: policy
     jurisdiction: oregon
@@ -577,12 +581,14 @@ sources:
     recheck: monthly
     identity_text: User Feedback   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
-      page; sets requirements agencies follow when using AI.
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
   - id: or-eis-ai-attachment-f
     sha256: "58898b40bc73ee4762e2f520b2cd14713bed48e8936efddf2972d483d1f4ec7d"
     url: https://www.oregon.gov/eis/Documents/Attachment-F-Human-in-the-Loop%20Documentation.pdf
     format: pdf
-    citation: 'Statewide Policy 107-004-190, Attachment F: Human in the Loop Documentation'
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: Human in the Loop Documentation'
     title: 'State of Oregon Responsible AI Usage Policy: Human in the loop documentation'
     doc_type: policy
     jurisdiction: oregon
@@ -591,12 +597,14 @@ sources:
     recheck: monthly
     identity_text: Human in the loop documentation   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
-      page; sets requirements agencies follow when using AI.
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
   - id: or-eis-ai-attachment-g
     sha256: "0c78535ede45808aeb34ee40e80742aaebfc17b73121fa1471201665b64442eb"
     url: https://www.oregon.gov/eis/Documents/Attachment-G-Higher-Risk-Use-Cases-Requirements.pdf
     format: pdf
-    citation: 'Statewide Policy 107-004-190, Attachment G: Higher-risk Use Cases Requirements'
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: Higher-risk Use Cases Requirements'
     title: 'State of Oregon Responsible AI Usage Policy: Higher-risk use cases requirements'
     doc_type: policy
     jurisdiction: oregon
@@ -605,7 +613,9 @@ sources:
     recheck: monthly
     identity_text: Higher-risk use cases requirements   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
-      page; sets requirements agencies follow when using AI.
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
 
   # ---- Statewide IT policies and procedures (State CIO policy library; DAS statewide policy numbers 107-004)
   - id: or-eis-107-004-180-budget-categories
@@ -635,8 +645,8 @@ sources:
     tags: [cybersecurity, procurement]
     recheck: monthly
     stub: true
-    stub_reason: The PDF is a scanned image with no text layer (pdftotext returned zero words when fetched
-      2026-11-10); the toolkit has no OCR and rejects stub documents, so no text can be mirrored.
+    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
+      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
     why_relevant: State CIO directive pausing section 4 (offshore and foreign services) of statewide policy
       107-004-052 to allow procurement to continue. Probably overtaken by the 2026-10-01 version of the
       policy; owner to confirm.
@@ -707,6 +717,68 @@ sources:
     identity_text: Mandatory Cloud Services   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Requires agency public cloud use to go through the EIS Cloud Service unless the State
       CIO authorizes an exception. Listed on the EIS page as 'EIS Cloud Strategy Utilization'.
+
+  # ---- Found and left out (each was seen on an official page on 2026-11-10; the reason is recorded here)
+  #
+  # Docx sources (the ingester has no docx `to_text` yet; each can be seeded once it has one):
+  #  - Attachment A to the Responsible AI Usage Policy, 'Agency AI Adoption Strategy Template and
+  #    Instructions' (https://www.oregon.gov/eis/Documents/Attachment-A-AI-Adoption-Strategy-Template.docx).
+  #    Not blank: instructions, required components and a revision history. Candidate to seed once docx
+  #    is readable.
+  #  - Attachment C, 'AI Use Form' (https://www.oregon.gov/eis/Documents/Attachment-C-AI-Use-Form.docx).
+  #    A form of required questions, not a template. OWNER DECISION: whether forms enter the corpus.
+  #
+  # Forms and workbooks (forms to fill in, not instruments; owner may overrule):
+  #  - 107-004-130 'IT Investment Form' (https://www.oregon.gov/das/Policies/107-004-130_Attachment.docx).
+  #  - 107-004-150_PR 'Cloud and Hosted Systems Workbook form'
+  #    (https://www.oregon.gov/das/Policies/107-004-150_PR_Attachment.doc).
+  #  - 107-004-160 'Data Governance Plan Template' (https://www.oregon.gov/das/Policies/Data%20Governance%20Plan%20Template.docx)
+  #    and 'Data Governance Maturity Model' (https://www.oregon.gov/das/Policies/Data%20Governance%20Maturity%20Model.xlsx).
+  #  - 107-004-180 budget category workbook and transmittal form (already noted on the entry above).
+  #
+  # Out of scope (not IT governance of state agencies):
+  #  - 107-001-016 'Mobile Communication Device Usage While Driving' (https://www.oregon.gov/das/Policies/107-001-016.pdf;
+  #    effective 1/1/2010 in the DAS feed; listed in both the DAS IT-category feed and the EIS policy
+  #    feed). By its title a rule about driving, not about IT governance; the number is in DAS's general (107-001) series.
+  #    OWNER DECISION: it is tagged IT by DAS, so it could enter.
+  #  - State CIO memo 'Enterprise Telephony System - Amendments, Changes'
+  #    (https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-telecom-20220223.pdf).
+  #    The EIS page lists it as 2022/02/23; the PDF prints 'Date: February 25, 2022'. Directs telephony
+  #    contract changes and exceptions; telecom service procurement is borderline out of scope.
+  #    OWNER DECISION.
+  #
+  # Drafts, not in force (the EIS policy page, 'Closed Comment Period: drafts are available until
+  # approved'; the page says no policies are currently out for comment):
+  #  - IT Asset Management (Software) Policy 107-004-010 and IT Asset Management (Software) Procedure
+  #    107-004-010_software_PR (draft for comment).
+  #  - Cloud Security (Tracked Changes) 107-004-150 and Cloud Security Procedure 107-004-150_PR
+  #    (tracked-changes drafts for comment).
+  #  The in-force 107-004-010 and 107-004-150 policies are seeded above. When a draft is approved the
+  #  monthly drift run on the EIS policy page will show it.
+  #
+  # Executive orders, contested category (the Governor's EO feed lists both as 'Public Records'):
+  #  - EO 2016-6 (https://www.oregon.gov/gov/eo/eo_16-06.pdf) and EO 2018-5
+  #    (https://www.oregon.gov/gov/eo/eo_18-05.pdf). Public records are a records-management matter
+  #    rather than IT governance. OWNER DECISION: not seeded, no text read to decide.
+  #
+  # Statute outside chapter 276A (each page fetched from oregonlegislature.gov, 2025 Edition). All pass
+  # the inclusion test as state-agency IT procurement and governance, but the ingester mirrors a whole
+  # chapter per page, and each chapter is mostly unrelated law (ch. 291 about 26,000 words; ch. 279A
+  # and 279B about 19,500 each). OWNER DECISION whether partial-chapter statutes enter, and how
+  # (a whole-chapter mirror, or provision-level entries with oversight/procurement tags):
+  #  - ORS 291.032 'Providing technical services involving management and organization' and ORS 291.034
+  #    'Providing technical services involving data processing' (chapter 291, https://www.oregonlegislature.gov/bills_laws/ors/ors291.html).
+  #  - ORS 291.042 'Copyright, patent or other use of state data processing programs, information or
+  #    materials; disposition of moneys collected' (chapter 291).
+  #  - ORS 291.047 'Public contract approval by Attorney General; exemptions; rules': the Attorney General
+  #    approves information technology contracts calling for payment in excess of $75,000 (chapter 291).
+  #  - ORS 279A.050 'Procurement authority': the State CIO may review any solicitation document for
+  #    procuring information technology or telecommunications before it issues
+  #    (https://www.oregonlegislature.gov/bills_laws/ors/ors279A.html).
+  #  - ORS 279B.030(4): materials from a cost analysis for IT services go to the State CIO, who adopts
+  #    rules (https://www.oregonlegislature.gov/bills_laws/ors/ors279B.html).
+  #
+  # OAR chapter 128 division 10 (broadband) is left out, noted at the top of the rules section.
 
   # ---- Index pages to watch (additions and removals go through seed-list review)
   - id: or-watch-eis-policies-page

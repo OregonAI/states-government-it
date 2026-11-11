@@ -5,7 +5,7 @@ jurisdiction: oregon
 id: or-eis-ai-attachment-g
 title: 'State of Oregon Responsible AI Usage Policy: Higher-risk use cases requirements'
 doc_type: policy
-citation: 'Statewide Policy 107-004-190, Attachment G: Higher-risk Use Cases Requirements'
+citation: 'Responsible AI Usage Policy, Supporting Attachments: Higher-risk Use Cases Requirements'
 authority_level: ''
 issuing_body: Enterprise Information Services
 source_url: https://www.oregon.gov/eis/Documents/Attachment-G-Higher-Risk-Use-Cases-Requirements.pdf
@@ -33,11 +33,11 @@ tags:
 
 > **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
 
-# State of Oregon Responsible AI Usage Policy: Higher-risk use cases requirements (Statewide Policy 107-004-190, Attachment G: Higher-risk Use Cases Requirements)
+# State of Oregon Responsible AI Usage Policy: Higher-risk use cases requirements (Responsible AI Usage Policy, Supporting Attachments: Higher-risk Use Cases Requirements)
 
 ## At a glance
 
-Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence page; sets requirements agencies follow when using AI.
+Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow when using AI. The attachment letter is not printed in the PDF; it comes from the official file name (Attachment-X-...pdf).
 
 ## Full text
 

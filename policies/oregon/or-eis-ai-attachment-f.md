@@ -5,7 +5,7 @@ jurisdiction: oregon
 id: or-eis-ai-attachment-f
 title: 'State of Oregon Responsible AI Usage Policy: Human in the loop documentation'
 doc_type: policy
-citation: 'Statewide Policy 107-004-190, Attachment F: Human in the Loop Documentation'
+citation: 'Responsible AI Usage Policy, Supporting Attachments: Human in the Loop Documentation'
 authority_level: ''
 issuing_body: Enterprise Information Services
 source_url: https://www.oregon.gov/eis/Documents/Attachment-F-Human-in-the-Loop%20Documentation.pdf
@@ -33,11 +33,11 @@ tags:
 
 > **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
 
-# State of Oregon Responsible AI Usage Policy: Human in the loop documentation (Statewide Policy 107-004-190, Attachment F: Human in the Loop Documentation)
+# State of Oregon Responsible AI Usage Policy: Human in the loop documentation (Responsible AI Usage Policy, Supporting Attachments: Human in the Loop Documentation)
 
 ## At a glance
 
-Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence page; sets requirements agencies follow when using AI.
+Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow when using AI. The attachment letter is not printed in the PDF; it comes from the official file name (Attachment-X-...pdf).
 
 ## Full text
 
