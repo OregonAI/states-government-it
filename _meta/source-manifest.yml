@@ -2751,6 +2751,7 @@ sources:
   # ---- entry is a slice of it: `slice: {article: n}` or `{article: n, part: m}` (crs_html_to_text in src/ingest.py).
   # ---- Entries cut from one title file share its url on purpose; the seed check keys uniqueness on url plus slice.
   - id: co-crs-24-37-5
+    sha256: "5679f4e4d99e376a783af2697f19afb11a07298fecb048dbbd60d92aa5f1fe7c"
     url: https://olls.info/crs/crs2026-title-24.htm
     format: html
     citation: "C.R.S. title 24, article 37.5"
@@ -2763,6 +2764,7 @@ sources:
     slice: {article: "37.5"}
     why_relevant: "The enabling statute of the Governor's Office of Information Technology (OIT) and its chief information officer: creation of the office and the information technology revolving fund (24-37.5-103), the office's roles and its duty to establish, maintain and enforce information technology oversight and standards (24-37.5-105), state agency responsibilities (24-37.5-105.2), the CIO's duties and rulemaking power (24-37.5-106), the information security part (part 4: chief information security officer, agency information security plans, security incidents), the interdepartmental data protocol and government data advisory board (part 7), asset inventory, budget request and technical debt reports (part 8). The source file serves the whole article, so the Colorado broadband office (part 9, out of scope) comes with it, as the broadband sections came with ORS chapter 276A."
   - id: co-crs-24-37-7
+    sha256: "5679f4e4d99e376a783af2697f19afb11a07298fecb048dbbd60d92aa5f1fe7c"
     url: https://olls.info/crs/crs2026-title-24.htm
     format: html
     citation: "C.R.S. title 24, article 37.7"
@@ -2775,6 +2777,7 @@ sources:
     slice: {article: "37.7"}
     why_relevant: "Creates the statewide internet portal authority and sets its mission: the officially recognized statewide internet portal giving the public, state agencies and local governments one-stop electronic access to information, products and services (24-37.7-105)."
   - id: co-crs-24-33-5-pt19
+    sha256: "5679f4e4d99e376a783af2697f19afb11a07298fecb048dbbd60d92aa5f1fe7c"
     url: https://olls.info/crs/crs2026-title-24.htm
     format: html
     citation: "C.R.S. title 24, article 33.5, part 19"
@@ -2787,6 +2790,7 @@ sources:
     slice: {article: "33.5", part: "19"}
     why_relevant: "Creates the Colorado cybersecurity council within the Department of Public Safety, as a steering group developing cybersecurity policy guidance for the Governor and a whole-of-state cybersecurity approach for the state and local governments (24-33.5-1902), and the cyber operation center, cybersecurity education and research provisions and cybersecurity cash fund (24-33.5-1903 to 1906)."
   - id: co-crs-24-73
+    sha256: "5679f4e4d99e376a783af2697f19afb11a07298fecb048dbbd60d92aa5f1fe7c"
     url: https://olls.info/crs/crs2026-title-24.htm
     format: html
     citation: "C.R.S. title 24, article 73"
@@ -2799,6 +2803,7 @@ sources:
     slice: {article: "73"}
     why_relevant: "Duties of every governmental entity that holds personal identifying information: a written disposal policy (24-73-101), reasonable security procedures and practices, including for third-party service providers (24-73-102), and notification of a security breach (24-73-103). A governmental entity is the state and any state agency or institution, and local governments (24-73-101 (4)(a))."
   - id: co-crs-24-74
+    sha256: "5679f4e4d99e376a783af2697f19afb11a07298fecb048dbbd60d92aa5f1fe7c"
     url: https://olls.info/crs/crs2026-title-24.htm
     format: html
     citation: "C.R.S. title 24, article 74"
@@ -2811,6 +2816,7 @@ sources:
     slice: {article: "74"}
     why_relevant: "Limits on how state agencies and political subdivisions share personal identifying information, an instruction to reduce the personal identifying information they collect, limits on access to their records, and a civil penalty for data privacy breaches (24-74-103 to 24-74-107). Government-held data privacy; the legislative declaration ties it to the enforcement of federal immigration law."
   - id: co-crs-24-85
+    sha256: "5679f4e4d99e376a783af2697f19afb11a07298fecb048dbbd60d92aa5f1fe7c"
     url: https://olls.info/crs/crs2026-title-24.htm
     format: html
     citation: "C.R.S. title 24, article 85"
@@ -2823,6 +2829,7 @@ sources:
     slice: {article: "85"}
     why_relevant: "State information technology accessibility: accessibility standards for individuals with a disability (24-85-103) and accessibility criteria and contract terms in the procurement of information technology (24-85-104)."
   - id: co-crs-2-3-pt17
+    sha256: "da1cb86ba9d7e5549a314c294404229a0bb07399511225bd13e6ae6a35723c8f"
     url: https://olls.info/crs/crs2026-title-02.htm
     format: html
     citation: "C.R.S. title 2, article 3, part 17"

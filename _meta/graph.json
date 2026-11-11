@@ -1,9 +1,51 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 156,
+ "n_nodes": 163,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
+  {
+   "id": "co-crs-2-3-pt17",
+   "title": "Joint Technology Committee",
+   "doc_type": "statute",
+   "path": "statutes/colorado/co-crs-2-3-pt17.md"
+  },
+  {
+   "id": "co-crs-24-33-5-pt19",
+   "title": "Colorado Cybersecurity",
+   "doc_type": "statute",
+   "path": "statutes/colorado/co-crs-24-33-5-pt19.md"
+  },
+  {
+   "id": "co-crs-24-37-5",
+   "title": "Office of Information Technology",
+   "doc_type": "statute",
+   "path": "statutes/colorado/co-crs-24-37-5.md"
+  },
+  {
+   "id": "co-crs-24-37-7",
+   "title": "Statewide Internet Portal Authority",
+   "doc_type": "statute",
+   "path": "statutes/colorado/co-crs-24-37-7.md"
+  },
+  {
+   "id": "co-crs-24-73",
+   "title": "Security Breaches and Personal Information",
+   "doc_type": "statute",
+   "path": "statutes/colorado/co-crs-24-73.md"
+  },
+  {
+   "id": "co-crs-24-74",
+   "title": "Protection of Personal Identifying Information",
+   "doc_type": "statute",
+   "path": "statutes/colorado/co-crs-24-74.md"
+  },
+  {
+   "id": "co-crs-24-85",
+   "title": "Information Technology Access for Individuals Who are Blind or Visually Impaired",
+   "doc_type": "statute",
+   "path": "statutes/colorado/co-crs-24-85.md"
+  },
   {
    "id": "or-ors-276a",
    "title": "Chapter 276A - Information Technology (2025 Edition)",

@@ -8,11 +8,11 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 |---|---|
 | policy | 84 |
 | standard | 57 |
-| statute | 6 |
+| statute | 13 |
 | executive_order | 5 |
 | rule | 4 |
 
-**Total: 156**
+**Total: 163**
 
 ## Source manifest
 
@@ -20,10 +20,17 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 ## Freshness (reverify every 90 days)
 
-156 of 156 document(s) overdue for re-verification.
+163 of 163 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
+| co-crs-2-3-pt17 | statute | never |
+| co-crs-24-33-5-pt19 | statute | never |
+| co-crs-24-37-5 | statute | never |
+| co-crs-24-37-7 | statute | never |
+| co-crs-24-73 | statute | never |
+| co-crs-24-74 | statute | never |
+| co-crs-24-85 | statute | never |
 | or-ors-276a | statute | never |
 | wa-rcw-39-26-340 | statute | never |
 | wa-rcw-39-34-240 | statute | never |
@@ -67,12 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | or-eis-ai-attachment-b | policy | never |
 | or-eis-ai-attachment-d | policy | never |
 | or-eis-ai-attachment-e | policy | never |
-| or-eis-ai-attachment-f | policy | never |
-| or-eis-ai-attachment-g | policy | never |
-| or-eis-memo-20220812-cloud | policy | never |
-| or-eis-memo-20230518-personal-devices | policy | never |
-| or-eis-memo-20230713-zscaler | policy | never |
-| or-eis-memo-20241028-css-directive | policy | never |
-| or-eis-memo-20250212-deepseek | policy | never |
-| … | *106 more* | |
+| … | *113 more* | |
 
