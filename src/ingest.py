@@ -801,6 +801,8 @@ def effective_date(text: str, doc_type: str = "", jurisdiction: str = "") -> str
         return None
     if jurisdiction == "california" and (printed := _ca_dates(text, doc_type)[0]):
         return printed
+    if jurisdiction == "colorado":
+        return _co_effective_date(text, doc_type)
     m = _EFFECTIVE_LABEL.search(text)
     if not m:
         return None
@@ -819,6 +821,35 @@ def effective_date(text: str, doc_type: str = "", jurisdiction: str = "") -> str
     if not (1 <= mon <= 12 and 1 <= d <= 31):
         return None
     return f"{y:04d}-{mon:02d}-{d:02d}"
+
+
+# Colorado. A Code of Colorado Regulations PDF ends with `Editor's Notes / History` lines such as `New rule eff.
+# 04/14/2024.` and `Entire rule eff. 06/30/2025.`: the rule in force is the one the last `eff.` line dates
+# (a `repealed eff.` line is a repeal, which `check_identity` refuses). An OIT policy PDF prints a
+# `Effective Date: Nov. 30, 2018` label (month abbreviated, with a full stop) or, when it prints none, an
+# `Updated: Feb 23, 2026` or `Published January 2020` line, which is a source_version (a month or a
+# revision stamp, not an effective date).
+_CO_EFF = re.compile(r"^(?!.*repealed).*\beff\.\s+(\d{2})/(\d{2})/(\d{4})", flags=re.M | re.I)
+_CO_LABEL = re.compile(r"Effective\s+Date:\s*([A-Za-z]{3,9})\.?\s+(\d{1,2}),\s+(\d{4})")
+_CO_STAMP = re.compile(rf"^\s*((?:Updated:\s*[A-Za-z]{{3,9}}\.?\s+\d{{1,2}},\s+\d{{4}})"
+                       rf"|(?:Published\s+(?:{_MONTHS})\s+\d{{4}}))", flags=re.M)
+
+
+def _co_effective_date(text: str, doc_type: str) -> str | None:
+    if doc_type == "rule":
+        history = text[text.rfind("History"):] if "History" in text else ""
+        hits = _CO_EFF.findall(history)
+        if not hits:
+            return None
+        mon, day, year = hits[-1]
+        return f"{year}-{mon}-{day}" if 1 <= int(mon) <= 12 and 1 <= int(day) <= 31 else None
+    m = _CO_LABEL.search(text)
+    if not m:
+        return None
+    months = [x[:3].casefold() for x in _MONTHS.split("|")]
+    if m.group(1)[:3].casefold() not in months or not 1 <= int(m.group(2)) <= 31:
+        return None
+    return f"{int(m.group(3)):04d}-{months.index(m.group(1)[:3].casefold()) + 1:02d}-{int(m.group(2)):02d}"
 
 
 # What California letters and orders print instead of an effective date (read from the text as
@@ -875,6 +906,9 @@ def source_version(text: str, doc_type: str, jurisdiction: str = "") -> str:
             return f"{m.group(1)} Edition"
     if jurisdiction == "california":
         return _ca_dates(text, doc_type)[1]
+    if jurisdiction == "colorado" and doc_type in ("policy", "standard"):
+        m = _CO_STAMP.search(text)
+        return " ".join(m.group(1).split()) if m else ""
     return ""
 
 
@@ -914,6 +948,10 @@ def check_identity(src: dict, text: str, fmt: str | None = None) -> None:
             raise ValueError(f"{src['id']}: seed title {src['title']!r} is not "
                              f"{prefix!r} followed by the chapter's title in the manual's contents page")
         return
+    if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
+        return _check_co_rule_identity(src, text, what_is)
+    if src["jurisdiction"] == "colorado" and src["doc_type"] in ("policy", "standard"):
+        return _check_co_policy_identity(src, text, what_is)
     if src["doc_type"] in ("policy", "standard"):
         number = _POLICY_NUMBER.search(src["citation"])
         if src.get("identity_text"):
@@ -994,6 +1032,38 @@ def check_identity(src: dict, text: str, fmt: str | None = None) -> None:
             raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
 
 
+def _check_co_rule_identity(src: dict, text: str, what_is: str) -> None:
+    """A Code of Colorado Regulations PDF prints the department, the agency, the rule's title and its
+    number (`8 CCR 1501-9`) on its cover, before the first rule. The cover must carry the cited number
+    on a line of its own and the seed title (whitespace and case do not matter: the cover wraps and
+    capitalises it), and must not be a repeal notice: the Secretary of State keeps a repealed rule's
+    number, with a one-page PDF whose cover says `REPEALED EFF.`, as its current version."""
+    cover = [" ".join(l.split()) for l in text.splitlines() if l.strip()][:30]
+    head = _squash(" ".join(cover))
+    if (not re.fullmatch(r"\d+ CCR \d+-\d+", src["citation"]) or src["citation"] not in cover
+            or _squash(src["title"]) not in head):
+        raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {src['citation']!r} and "
+                         f"{src['title']!r} are not both on the rule's cover")
+    if re.search(r"repealed eff\.", head):
+        raise ValueError(f"{src['id']}: {src['citation']} is repealed (its cover says so): not in force")
+
+
+_OIT = re.compile(r"\bOIT\b|Office of Information Technology")
+
+
+def _check_co_policy_identity(src: dict, text: str, what_is: str) -> None:
+    """An OIT policy PDF prints its own title in its head (the first 1,500 characters), which a document
+    that only cites the policy further down does not, and names OIT (or the Office of Information
+    Technology) somewhere: the files are found through OIT's page, so the file must say whose it is."""
+    phrase = src.get("identity_text") or src["title"]
+    if _squash(phrase) not in _squash(text[:1500]):
+        raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {phrase!r} "
+                         f"is not in the first 1,500 characters of its text")
+    if not _OIT.search(text):
+        raise ValueError(f"{src['id']}: {what_is} never names OIT or the Office of Information Technology: "
+                         f"not shown to be OIT's")
+
+
 def _is_cdt(src: dict) -> bool:
     return src["jurisdiction"] == "california" \
         and urllib.parse.urlsplit(src.get("url") or "").hostname == "www.cdt.ca.gov"
@@ -1052,6 +1122,11 @@ def doc_path(src: dict, config=CONFIG) -> Path:
 
 def conversion_notes(src: dict, fmt: str, text: str) -> str:
     notes = _conversion_notes(src, fmt, text)
+    if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
+        notes += (" The PDF is the copy the Secretary of State's page calls the official version of the rule "
+                  "(it governs in all cases). Its cover's Secretary of State mark prints as a few scattered "
+                  "letter fragments before the heading, kept as extracted. effective_date is the date of the "
+                  "last `eff.` line of the rule's Editor's Notes History.")
     if src["jurisdiction"] == "california":
         if src["doc_type"] == "executive_order" and effective_date(text, src["doc_type"], "california"):
             notes += (" effective_date is the date the Governor signed the order, as its closing paragraph "
