@@ -947,13 +947,25 @@ def same_words(a: str, b: str) -> bool:
 # text to agree with that reading (OCR_RECHECK), and it recomputes the two-engine agreement from the
 # committed texts. The dictionary ratio is a gate at ingest only: it is judged against the rest of the
 # corpus's non-OCR text, which changes as the corpus grows, so the recorded value is not re-derived.
+#
+# What `--check` can and cannot catch. CI installs the same Ubuntu 24.04 apt packages (tesseract 5.3.4,
+# ocrmypdf 15.2.0) that made the text, and their re-run is byte-identical (measured for all eight scans), so
+# while the installed tools are the recorded ones the re-run must give the committed text's word sequence
+# and figure sequence EXACTLY: an edited number or word fails even when text_sha256 is updated beside it.
+# When the apt packages move (recorded tool versions differ from the installed ones) a reading may shift by
+# a word, so the bar relaxes to OCR_RECHECK on words with the figure sequence still exact, and the message
+# says so. The remedy is to re-ingest the scan (`python3 src/ingest.py --refetch`) so the record is renewed
+# under the new tools; never to relax the bar. Figure agreement between the engines is a gate at ingest
+# (OCR_MIN_FIGURES) and again here, because the word score cannot see digits.
 
 OCR_WORD = re.compile(r"[a-z]{2,}")
 OCR_FIGURE = re.compile(r"\$?-?\d[\d,]*(?:\.\d+)?%?")
+OCR_TOKEN = re.compile(r"[A-Za-z]+|\$?\d[\d,]*(?:\.\d+)?%?")   # words and figures, for listing disagreements
 OCR_MIN_AGREEMENT = 0.80    # the platform's bar for two engines on the word sequence
 OCR_MIN_DICT = 0.80
 OCR_MIN_WORDS = 100
-OCR_RECHECK = 0.95          # tesseract run again by --check against the committed tesseract text
+OCR_MIN_FIGURES = 0.90      # figure agreement between the engines (Oregon EO 16-13 read 0.75 and was wrong)
+OCR_RECHECK = 0.995         # word bar of the re-run when the installed tools are not the recorded ones
 OCR_ENGINES = ("tesseract (ocrmypdf)", "paddleocr PP-OCRv6")
 OCR_CAVEAT = ("NOT human-verified \u2014 treat every number as unchecked against the source")
 
@@ -965,7 +977,8 @@ def ocr_score(primary: str, cross: str, vocab: set) -> dict:
     wa, wb = OCR_WORD.findall(primary.lower()), OCR_WORD.findall(cross.lower())
     fa, fb = OCR_FIGURE.findall(primary.lower()), OCR_FIGURE.findall(cross.lower())
     ratio = lambda a, b: difflib.SequenceMatcher(None, a, b, autojunk=False).ratio() if a and b else 0.0
-    return {"words": len(wa), "agreement": ratio(wa, wb), "figures": len(fa), "figure_agreement": ratio(fa, fb),
+    return {"words": len(wa), "agreement": ratio(wa, wb), "figures": len(fa),
+            "figure_agreement": 1.0 if not fa and not fb else ratio(fa, fb),
             "dict_ratio": sum(1 for w in wa if w in vocab) / len(wa) if wa else 0.0,
             "glued": len(re.findall(r"\b[A-Za-z]{18,}\b", primary))}
 
@@ -982,6 +995,39 @@ def ocr_vocabulary(config) -> set:
     return vocab
 
 
+def ocr_disagreements(primary: str, cross: str) -> list[dict]:
+    """Every position where the two engines read a different token (word or figure): what tesseract (the
+    committed reading) and paddle read there, and the four tesseract tokens before it. A reader can see
+    where the committed reading is contested."""
+    a, b = OCR_TOKEN.findall(primary), OCR_TOKEN.findall(cross)
+    ops = difflib.SequenceMatcher(None, [t.casefold() for t in a], [t.casefold() for t in b], autojunk=False)
+    return [{"tesseract": " ".join(a[i1:i2]), "paddle": " ".join(b[j1:j2]), "before": a[max(0, i1 - 4):i1]}
+            for tag, i1, i2, j1, j2 in ops.get_opcodes() if tag != "equal"]
+
+
+_SIGNATURE_FIELD = re.compile(r"^APPROVED:(.*)$")
+
+
+def _drop_signature_glyphs(page: str) -> str:
+    """The DAS policies' `APPROVED:` field holds a handwritten signature. What an engine reads from it
+    (`A, Bath`, `Yun |`, `fh eat M`) is glyph noise that looks like a name, so it is not committed: the
+    label stays, the reading after it (on the line, or on the next non-blank line when that holds no word of
+    four letters) goes."""
+    lines = page.split("\n")
+    out, i = [], 0
+    while i < len(lines):
+        m = _SIGNATURE_FIELD.match(lines[i])
+        out.append("APPROVED:" if m else lines[i])
+        i += 1
+        if m:
+            j = i
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines) and len(lines[j].split()) <= 4 and not re.search(r"[A-Za-z]{4,}", lines[j]):
+                i = j + 1
+    return "\n".join(out)
+
+
 def _tool_version(cmd: list) -> str:
     try:
         out = subprocess.run(cmd, capture_output=True, check=False)
@@ -994,21 +1040,24 @@ def _clean_pages(pages: list[str]) -> list[str]:
     return ["\n".join(l.rstrip() for l in page.splitlines()).strip("\n") for page in pages]
 
 
-def ocr_tesseract(raw: bytes, force_rotate: bool = False) -> str:
+def ocr_tesseract(raw: bytes, force_rotate: bool = False, psm: int | None = None) -> str:
     """The text tesseract reads from a scan, one text block per page (see `ocr_tesseract_pages`)."""
-    text = "\n\n".join(ocr_tesseract_pages(raw, force_rotate))
+    text = "\n\n".join(ocr_tesseract_pages(raw, force_rotate, psm))
     return re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
 
 
-def ocr_tesseract_pages(raw: bytes, force_rotate: bool = False) -> list[str]:
+def ocr_tesseract_pages(raw: bytes, force_rotate: bool = False, psm: int | None = None) -> list[str]:
     """What tesseract reads from each page of a scan, through ocrmypdf on a COPY. `force_rotate` applies
     tesseract's orientation call even where it is unsure (a page scanned upside down is otherwise read as
-    confident nonsense)."""
+    confident nonsense). `psm` is tesseract's page-segmentation mode, the seed entry's `ocr_psm`: 4 reads a
+    two-column layout by rows, so a label column stays beside its text (the default, 3, sets the label
+    column apart as a block). Signature-field glyphs are not kept (`_drop_signature_glyphs`)."""
     with tempfile.TemporaryDirectory() as tmp:
         src, out, side = Path(tmp, "in.pdf"), Path(tmp, "out.pdf"), Path(tmp, "side.txt")
         src.write_bytes(raw)
         cmd = ["ocrmypdf", "-l", "eng", "--optimize", "0", "--output-type", "pdf", "--rotate-pages",
-               "--deskew", "--sidecar", str(side)] + (["--rotate-pages-threshold", "0"] if force_rotate else [])
+               "--deskew", "--sidecar", str(side)] + (["--rotate-pages-threshold", "0"] if force_rotate else []) \
+            + (["--tesseract-pagesegmode", str(psm)] if psm else [])
         try:
             proc = subprocess.run(cmd + [str(src), str(out)], capture_output=True, check=False, timeout=1800)
         except FileNotFoundError:
@@ -1020,7 +1069,7 @@ def ocr_tesseract_pages(raw: bytes, force_rotate: bool = False) -> list[str]:
         pages = side.read_text(encoding="utf-8").split("\f")
     if len(pages) > 1 and not pages[-1].strip():
         pages.pop()
-    return _clean_pages(pages)
+    return [_drop_signature_glyphs(p) for p in _clean_pages(pages)]
 
 
 def _pdf_pages(raw: bytes) -> int:
@@ -1089,6 +1138,7 @@ def ocr_scan(src: dict, raw: bytes, config, paddle=None, vocab: set | None = Non
     vocab = ocr_vocabulary(config) if vocab is None else vocab
     paddle = paddle or ocr_paddle
     pages = sorted(set(src["ocr"])) if isinstance(src.get("ocr"), list) else None
+    psm = src.get("ocr_psm")
     scan = raw
     if pages:
         for n in range(1, _pdf_pages(raw) + 1):
@@ -1105,13 +1155,17 @@ def ocr_scan(src: dict, raw: bytes, config, paddle=None, vocab: set | None = Non
         cross = paddle(pdf)
     why, ocr_pages, score, forced = "", [], {}, False
     for forced in (False, True):
-        ocr_pages = ocr_tesseract_pages(scan, force_rotate=forced)
+        ocr_pages = ocr_tesseract_pages(scan, force_rotate=forced, psm=psm)
         score = ocr_score("\n\n".join(ocr_pages), cross, vocab)
         if score["words"] < OCR_MIN_WORDS:
             why = f"tesseract read only {score['words']} words (needs {OCR_MIN_WORDS})"
         elif score["agreement"] < OCR_MIN_AGREEMENT:
             why = (f"the two OCR engines agree on only {score['agreement']:.0%} of the word sequence "
                    f"(needs {OCR_MIN_AGREEMENT:.0%})")
+        elif score["figure_agreement"] < OCR_MIN_FIGURES:
+            why = (f"the two OCR engines agree on only {score['figure_agreement']:.0%} of the "
+                   f"{score['figures']} figures (needs {OCR_MIN_FIGURES:.0%}): the words agree but the numbers "
+                   f"(section numbers, dates, citations) are contested")
         elif score["dict_ratio"] < OCR_MIN_DICT:
             why = (f"only {score['dict_ratio']:.0%} of the words are in the corpus's non-OCR dictionary "
                    f"(needs {OCR_MIN_DICT:.0%})")
@@ -1125,8 +1179,9 @@ def ocr_scan(src: dict, raw: bytes, config, paddle=None, vocab: set | None = Non
     else:
         text = re.sub(r"\n{3,}", "\n\n", "\n\n".join(ocr_pages)).strip("\n") + "\n"
     check_identity(src, text, "pdf")
+    contested = ocr_disagreements("\n\n".join(ocr_pages), cross)
     report = dict({k: (round(v, 4) if isinstance(v, float) else v) for k, v in score.items()},
-                  engines=list(OCR_ENGINES), forced_rotation=forced,
+                  engines=list(OCR_ENGINES), forced_rotation=forced, psm=psm, disagreements=contested,
                   tools={"tesseract": _tool_version(["tesseract", "--version"]),
                          "ocrmypdf": _tool_version(["ocrmypdf", "--version"])},
                   pdf_sha256=hashlib.sha256(raw).hexdigest(),
@@ -1154,8 +1209,27 @@ def ocr_notes(report: dict) -> str:
             f"({' + '.join(report['engines'])}) agree on {report['agreement']:.0%} of the word sequence and "
             f"{report['figure_agreement']:.0%} of the {report['figures']} figures"
             f"{' of the scanned pages' if pages else ''}, "
-            f"{report['dict_ratio']:.0%} dictionary-recognizable{glued}. effective_date and source_version are "
+            f"{report['dict_ratio']:.0%} dictionary-recognizable{glued}.{_contested(report)} "
+            f"Reading order of labelled or two-column layouts, bullet glyphs (read as 'e' or 'o'), letterhead logos, handwriting "
+            f"and signatures are not reliably read or placed; the glyphs read from a signature field are "
+            f"not committed. effective_date and source_version are "
             f"left empty: a date read from a scan is not transcribed from the source. {OCR_CAVEAT}")
+
+
+def _contested(report: dict) -> str:
+    """Where the committed reading is contested: the count, every figure the engines read differently
+    (up to 12) and where the rest are."""
+    found = report.get("disagreements")
+    if found is None:
+        return ""
+    figures = [d for d in found if any(t[0].isdigit() or t[0] == "$" for t in (d["tesseract"] + " " + d["paddle"]).split())]
+    shown = "; ".join(f"tesseract read {d['tesseract'] or 'nothing'} where paddle read {d['paddle'] or 'nothing'} "
+                      f"(after \"{' '.join(d['before'])}\")" for d in figures[:12])
+    more = f" and {len(figures) - 12} more" if len(figures) > 12 else ""
+    return (f" {len(found)} position(s) where the two engines read a different word or figure are listed in the "
+            f"scan's ocr.json report (disagreements): the committed reading is tesseract's and is contested "
+            f"there." + (f" Figures read differently: {shown}{more}." if figures else
+                         " The engines read every figure alike."))
 
 
 def _ocr_paths(config, sid: str) -> tuple[Path, Path, Path]:
@@ -1179,6 +1253,35 @@ def write_ocr_snapshot(config, src: dict, raw: bytes, text: str, report: dict):
         side.write_text(json.dumps({k: v for k, v in report.items() if k != "paddle_text"},
                                    indent=2, sort_keys=True) + "\n", encoding="utf-8")
     return snap
+
+
+def _recheck(sid: str, committed: str, again: str, recorded: dict) -> list[str]:
+    """Compare tesseract's re-run on the snapshot with the committed reading. With the recorded tools
+    installed the word and figure sequences must be equal; with other versions the figures must still be
+    equal and the words agree at OCR_RECHECK (see the section note)."""
+    same_tools = (recorded.get("tesseract") == _tool_version(["tesseract", "--version"])
+                  and recorded.get("ocrmypdf") == _tool_version(["ocrmypdf", "--version"]))
+    words = lambda t: OCR_WORD.findall(t.lower())
+    figures = lambda t: OCR_FIGURE.findall(t.lower())
+    problems = []
+    if figures(committed) != figures(again):
+        problems.append(f"{sid}: the figures of the committed text are not the figures tesseract reads from the "
+                        f"snapshot PDF (committed {len(figures(committed))}, re-read {len(figures(again))}): "
+                        f"a number was edited or the text is not a reading of this PDF")
+    if same_tools:
+        if words(committed) != words(again):
+            ratio = difflib.SequenceMatcher(None, words(committed), words(again), autojunk=False).ratio()
+            problems.append(f"{sid}: with the recorded tools installed, tesseract re-reading the snapshot PDF gives a "
+                            f"different word sequence from the committed text (agreement {ratio:.4f}, needs exact): "
+                            f"the words were edited, or the text is not a reading of this PDF")
+    else:
+        ratio = difflib.SequenceMatcher(None, words(committed), words(again), autojunk=False).ratio()
+        if ratio < OCR_RECHECK:
+            problems.append(f"{sid}: the installed tesseract/ocrmypdf are not the recorded ones; its re-reading of the "
+                            f"snapshot PDF agrees with the committed words on only {ratio:.3f} (needs "
+                            f"{OCR_RECHECK}): re-ingest this scan to renew the record, or the text is not a reading "
+                            f"of this PDF")
+    return problems
 
 
 def check_ocr(src: dict, raw: bytes, config) -> tuple[str | None, list[str]]:
@@ -1210,15 +1313,15 @@ def check_ocr(src: dict, raw: bytes, config) -> tuple[str | None, list[str]]:
     if score["agreement"] < OCR_MIN_AGREEMENT or abs(score["agreement"] - report["agreement"]) > 0.005:
         problems.append(f"{sid}: tesseract text and paddle text agree on {score['agreement']:.3f}, the report "
                         f"says {report['agreement']:.3f} (bar {OCR_MIN_AGREEMENT})")
+    if score["figure_agreement"] < OCR_MIN_FIGURES:
+        problems.append(f"{sid}: the two engines agree on only {score['figure_agreement']:.3f} of the figures "
+                        f"(bar {OCR_MIN_FIGURES})")
     if report["dict_ratio"] < OCR_MIN_DICT or score["words"] < OCR_MIN_WORDS:
         problems.append(f"{sid}: the recorded OCR quality is below the gate")
     try:
         scan = _subset_pdf(raw, pages) if pages else raw
-        again = ocr_score(ocr_text, ocr_tesseract(scan, force_rotate=report.get("forced_rotation", False)),
-                          set())["agreement"]
-        if again < OCR_RECHECK:
-            problems.append(f"{sid}: tesseract re-reading the snapshot PDF agrees with the committed text on only "
-                            f"{again:.3f} (needs {OCR_RECHECK}): the text is not a reading of this PDF")
+        again = ocr_tesseract(scan, force_rotate=report.get("forced_rotation", False), psm=report.get("psm"))
+        problems += _recheck(sid, ocr_text, again, report.get("tools") or {})
     except ValueError as e:
         problems.append(f"{sid}: cannot re-run tesseract on the snapshot: {e}")
     try:
@@ -1381,19 +1484,52 @@ def _ca_dates(text: str, doc_type: str) -> tuple[str | None, str]:
     return None, ""
 
 
-def source_version(text: str, doc_type: str, jurisdiction: str = "") -> str:
+_DATED = re.compile(rf"^Dated\s+((?:{_MONTHS})\s+\d{{1,2}},\s+\d{{4}})\s*$", flags=re.M)
+_LAST_REVIEW = re.compile(rf"^Last Review Date \| ((?:{_MONTHS})\s+\d{{4}})\s*$", flags=re.M)
+_REVISION_ROW = re.compile(rf"^([^|\n]+?) \| ((?:{_MONTHS})\s+(?:\d{{1,2}},\s+)?\d{{4}})(?: \|.*)?$")
+
+
+def _printed_version(text: str) -> str:
+    """The date a Word file prints about itself where it prints no effective date: a front-table
+    `Last Review Date | July 2024` row, a cover line `Dated April 1, 2025`, or the last row of a
+    `Revision History` table headed `Version | Date`. Transcribed as printed; empty when none is."""
+    if m := _LAST_REVIEW.search(text):
+        return f"Last Review Date: {m.group(1)}"
+    if m := _DATED.search(text):
+        return f"Dated {m.group(1)}"
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        if line.strip().casefold() == "revision history":
+            head = next((n for n in range(i + 1, min(i + 4, len(lines))) if lines[n].strip()), None)
+            if head is None or not re.match(r"Version \| Date\b", lines[head]):
+                continue
+            rows = []
+            for row in lines[head + 1:]:
+                if not row.strip():
+                    break
+                if m := _REVISION_ROW.match(row):
+                    rows.append(m.groups())
+            if rows:
+                return f"Version {rows[-1][0].strip()}, {rows[-1][1]}"
+    return ""
+
+
+def source_version(text: str, doc_type: str, jurisdiction: str = "", fmt: str = "") -> str:
     """ORS pages print their edition ("2025 EDITION"); California letters and pages print a
-    month (see `_ca_dates`); nothing else here prints a version."""
+    month (see `_ca_dates`); Colorado policies a stamp; a Word file may print a review date, a cover
+    date or a revision history (`_printed_version`, only when `fmt` is "docx": a web page's or PDF's revision
+    table is not read as its version); nothing else here prints a version."""
     if doc_type == "statute":
         m = re.search(r"^(\d{4}) EDITION$", text, flags=re.M)
         if m:
             return f"{m.group(1)} Edition"
     if jurisdiction == "california":
-        return _ca_dates(text, doc_type)[1]
+        return _ca_dates(text, doc_type)[1] or (_printed_version(text) if fmt == "docx" else "")
     if jurisdiction == "colorado" and doc_type in ("policy", "standard"):
         m = _CO_STAMP.search(text)
-        return " ".join(m.group(1).split()) if m else ""
-    return ""
+        if m:
+            return " ".join(m.group(1).split())
+    return _printed_version(text) if fmt == "docx" else ""
 
 
 _POLICY_NUMBER = re.compile(r"(?<!\d)\d{3}-\d{3}-\d{3}(?!\d)")   # 107-004-190, also before _PR
@@ -1629,9 +1765,12 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
                       "prints it (this Nth day of Month Year); the order prints no other date.")
         elif effective_date(text, src["doc_type"], "california"):
             notes += " effective_date is the date the letter prints as issued (DATE ISSUED)."
-        if source_version(text, src["doc_type"], "california"):
+        if source_version(text, src["doc_type"], "california", fmt):
             notes += (" source_version is the month, or the revision month, the document prints "
                       "(a month with no day is not made into a date).")
+    if fmt == "docx" and _printed_version(text) and source_version(text, src["doc_type"], src["jurisdiction"], fmt) == _printed_version(text):
+        notes += (" source_version is the date the Word file prints about itself, as printed (a review date, a "
+                  "cover date or the last row of its revision history); it prints no effective date.")
     return notes
 
 
@@ -1754,7 +1893,7 @@ def doc_dates(src: dict, text: str) -> tuple[str | None, str]:
     if src.get("_ocr"):
         return None, ""
     return (effective_date(text, src["doc_type"], src["jurisdiction"]),
-            source_version(text, src["doc_type"], src["jurisdiction"]))
+            source_version(text, src["doc_type"], src["jurisdiction"], src.get("format") or ""))
 
 
 def frontmatter_for(src: dict, fmt: str, text: str, snap, path: Path, config=CONFIG) -> dict:

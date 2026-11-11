@@ -29,7 +29,8 @@ VOCAB = ing.ocr_vocabulary(ing.CONFIG)      # this corpus's own non-OCR text, as
 SRC = {"id": "or-das-107-004-053", "format": "pdf", "ocr": True, "doc_type": "policy", "jurisdiction": "oregon",
        "url": "https://www.oregon.gov/das/Policies/107-004-053.pdf", "citation": "Statewide Policy 107-004-053",
        "title": "Employee Security", "tags": ["cybersecurity"], "issuing_body": "Department of Administrative Services",
-       "why_relevant": "Personnel screening, access removal and awareness training."}
+       "why_relevant": "Personnel screening, access removal and awareness training.",
+       "ocr_psm": 4}
 
 needs_ocr = pytest.mark.skipif(shutil.which("ocrmypdf") is None and not os.environ.get("CI"),
                                reason="ocrmypdf not installed")
@@ -106,6 +107,96 @@ def test_the_second_engine_missing_is_a_refusal_not_a_silent_pass(tmp_path, monk
     monkeypatch.setenv("OCR_PADDLE_PYTHON", str(tmp_path / "no-such-python"))
     with pytest.raises(ValueError, match="PaddleOCR"):
         ing.ocr_paddle(tmp_path / "x.pdf")
+
+
+# ---- the gates: figures, layout, signatures, contested positions ----------------------------------------
+
+@needs_ocr
+def test_engines_that_disagree_on_the_figures_leave_no_text_even_when_the_words_agree(tmp_path):
+    """Executive Order 16-13 was promoted at figure agreement 0.75 with its section numbers dropped: the
+    word score cannot see digits, so figure agreement is a gate of its own."""
+    cfg = corpus(tmp_path)
+    digits_off = ing.re.sub(r"\d", lambda m: str((int(m.group()) + 1) % 10), PADDLE)
+    with pytest.raises(ValueError, match="figure"):
+        ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(digits_off), vocab=VOCAB)
+
+
+@needs_ocr
+def test_a_two_column_policy_keeps_each_label_with_its_text_and_signature_glyphs_are_not_committed(tmp_path):
+    """Seed `ocr_psm: 4` reads the DAS layout by rows: the label column stays beside its paragraph, and the
+    glyphs read from the handwritten APPROVED signature are not committed as if they were a name."""
+    cfg = corpus(tmp_path)
+    text, report = ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab=VOCAB)
+    assert "AUTHORITY: This policy is established under the authority of 2005 Oregon Laws" in text
+    assert "APPLICABILITY: This policy applies to all Executive Branch agencies" in text
+    assert report["psm"] == 4
+    approved = [l for l in text.splitlines() if l.startswith("APPROVED:")]
+    assert approved == ["APPROVED:"] and "Bath" not in text
+
+
+@needs_ocr
+def test_every_position_where_the_engines_read_differently_is_recorded_and_named_in_the_notes(tmp_path):
+    cfg = corpus(tmp_path)
+    paddle = PADDLE.replace("7/30/07", "7/30/08", 1)
+    text, report = ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(paddle), vocab=VOCAB)
+    assert report["disagreements"], "the engines never agree on every token of a scan"
+    fig = [d for d in report["disagreements"] if "08" in d["paddle"] and "07" in d["tesseract"]]
+    assert fig and "EFFECTIVE DATE" in " ".join(fig[0]["before"]).upper()
+    notes = ing.ocr_notes(report)
+    assert f"{len(report['disagreements'])} position" in notes and "ocr.json" in notes
+    assert "tesseract read 07" in notes and "paddle read 08" in notes
+    assert "signatures" in notes and "reading order" in notes.lower()
+
+
+@needs_ocr
+def test_check_fails_when_figures_are_edited_and_the_hash_beside_them_is_updated_too(tmp_path):
+    """The old re-check scored letters only (digits invisible) at 0.95: every number could change and
+    the document still passed when text_sha256 was updated beside it."""
+    cfg = ingested(tmp_path)
+    ing.write_ocr_document(SRC, cfg)
+    snap = cfg.snapshot_dir
+    text = (snap / "or-das-107-004-053.txt").read_text()
+    edited = text.replace("2005", "2006").replace("739", "740").replace("7/30/07", "8/31/08")
+    assert edited != text
+    (snap / "or-das-107-004-053.txt").write_text(edited)
+    rep = json.loads((snap / "or-das-107-004-053.ocr.json").read_text())
+    rep["text_sha256"] = ing.hashlib.sha256(edited.encode()).hexdigest()
+    (snap / "or-das-107-004-053.ocr.json").write_text(json.dumps(rep))
+    ing.write_ocr_document(SRC, cfg)
+    assert any("figures" in m for m in ing.check([SRC], cfg))
+
+
+@needs_ocr
+def test_check_fails_when_a_few_words_are_edited_and_the_hash_is_updated_too(tmp_path):
+    cfg = ingested(tmp_path)
+    snap = cfg.snapshot_dir
+    text = (snap / "or-das-107-004-053.txt").read_text()
+    edited = text.replace("will develop", "may develop", 1).replace("must, at a minimum", "may, at a minimum", 1)
+    assert edited != text
+    (snap / "or-das-107-004-053.txt").write_text(edited)
+    rep = json.loads((snap / "or-das-107-004-053.ocr.json").read_text())
+    rep["text_sha256"] = ing.hashlib.sha256(edited.encode()).hexdigest()
+    (snap / "or-das-107-004-053.ocr.json").write_text(json.dumps(rep))
+    ing.write_ocr_document(SRC, cfg)
+    assert any("words" in m for m in ing.check([SRC], cfg))
+
+
+@needs_ocr
+def test_when_the_installed_tesseract_is_not_the_recorded_one_the_recheck_relaxes_to_the_loose_bar(tmp_path):
+    """The documented fallback: an apt update moves the engine, a reading may shift by a word or two. The
+    figures must still match exactly and the words at 0.995; the message says to re-ingest to renew."""
+    cfg = ingested(tmp_path)
+    snap = cfg.snapshot_dir
+    text = (snap / "or-das-107-004-053.txt").read_text()
+    edited = text.replace("will develop", "shall develop", 1)      # one word in 600: inside 0.995
+    assert edited != text
+    (snap / "or-das-107-004-053.txt").write_text(edited)
+    rep = json.loads((snap / "or-das-107-004-053.ocr.json").read_text())
+    rep["tools"]["tesseract"] = "tesseract 9.9.9"
+    rep["text_sha256"] = ing.hashlib.sha256(edited.encode()).hexdigest()
+    (snap / "or-das-107-004-053.ocr.json").write_text(json.dumps(rep))
+    ing.write_ocr_document(SRC, cfg)
+    assert ing.check([SRC], cfg) == []
 
 
 # ---- the document, and --check -------------------------------------------------------------

@@ -187,3 +187,38 @@ def test_without_pandoc_the_word_file_is_refused_with_the_remedy(monkeypatch):
     monkeypatch.setenv("PATH", "")
     with pytest.raises(ValueError, match="pandoc is not installed"):
         ing.docx_to_text(METADATA)
+
+
+# ---- the date a Word file prints, when it prints no effective date ------------------------------------
+# Three layouts, lines as `docx_to_text` renders them from the real files (fetched 2026-11-11): the DES
+# clauses' cover, the CDT SIMM 5310-C's front table, and Oregon Attachment A's revision history.
+
+def test_a_cover_that_says_dated_is_a_source_version_never_an_effective_date():
+    cover = "Generative AI Contract Clauses\nfor\nIT Procurement Contracts\nfor\nWashington State Agencies\n\nDated April 1, 2025\n"
+    assert ing.source_version(cover, "policy", "washington", "docx") == "Dated April 1, 2025"
+    assert ing.effective_date(cover, "policy", "washington") is None
+
+
+def test_a_revision_history_table_gives_its_last_row_as_the_source_version():
+    text = ("Revision History\n\nVersion | Date | Change Log\n1.0 | June 12, 2026 | Initial version\n\nOverview\n")
+    assert ing.source_version(text, "policy", "oregon", "docx") == "Version 1.0, June 12, 2026"
+    two = text.replace("Initial version\n", "Initial version\n1.1 | July 2, 2026 | Fix\n")
+    assert ing.source_version(two, "policy", "oregon", "docx") == "Version 1.1, July 2, 2026"
+
+
+@needs_pandoc
+def test_a_cdt_standard_prints_its_last_review_date_in_a_table_at_the_top():
+    raw = (FIX / "cdt-simm-5310-c.docx").read_bytes()
+    text = ing.docx_to_text(raw)
+    assert "Last Review Date | July 2024" in text
+    assert ing.source_version(text, "standard", "california", "docx") == "Last Review Date: July 2024"
+
+
+def test_text_with_no_printed_date_keeps_an_empty_source_version():
+    assert ing.source_version("Policy\n\nA paragraph about revision history.\n", "policy", "oregon", "docx") == ""
+
+
+def test_a_revision_table_on_a_web_page_or_pdf_is_not_read_as_its_version():
+    text = "Revision History\n\nVersion | Date | Change Log\n1.0 | June 12, 2026 | Initial version\n"
+    assert ing.source_version(text, "policy", "california", "html") == ""
+    assert ing.source_version(text, "policy", "oregon", "pdf") == ""
