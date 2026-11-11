@@ -1,6 +1,6 @@
 # Spec: states-it-governance pilot
 
-Status: agreed in grilling on 2026-11-10. Research behind it is in `docs/research/01`–`03`.
+Status: agreed in grilling on 2026-11-10. Work items are GitHub issues. Research behind it is in `docs/research/01`–`03`.
 
 ## Purpose
 
@@ -88,8 +88,8 @@ non-authoritative mirror and says so.
   test questions.
 - **corpus-toolkit** provides fetch, frontmatter schema, validation gates, drift
   detection, PDF text extraction, index build, hybrid search and the MCP server.
-- **Toolkit changes needed**, built as general features and released under the normal
-  toolkit release process:
+- **Toolkit changes needed** (OregonAI/corpus-toolkit#210 to #213), built as general
+  features and released under the normal toolkit release process:
   - documents in one corpus may carry different jurisdictions (`us-or`, `us-wa`, ...);
   - `search` filters on jurisdiction and tag;
   - `compare` and `coverage` tools;
@@ -124,7 +124,8 @@ Any addition or removal goes through seed-list approval.
 
 ## Open
 
-- GitHub repo, visibility and licence: on hold.
+- The repo is private. Whether it becomes public is an owner decision, taken before
+  deploy (issue #10).
 - Whether a toolkit plugin could add the filters without a toolkit change was not
   confirmed; the decision is to change the toolkit either way.
 - The two Hugging Face datasets have not been downloaded or checked.
