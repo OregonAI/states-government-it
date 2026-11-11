@@ -100,10 +100,10 @@ def test_ccr_text_is_the_chapter_headings_then_each_regulation_in_source_order()
     assert "Note: Authority cited: Section 16.5, Government Code. Reference: Section 16.5, Government Code." in lines
 
 
-def test_ccr_nested_lists_keep_their_letters_and_numbers_and_the_text_has_no_site_chrome():
+def test_ccr_nested_lists_use_the_designators_the_page_draws_and_the_text_has_no_site_chrome():
     t = ccr(CCR_10)
     assert "a. For purposes of this chapter, and unless the context expressly indicates otherwise" in t.splitlines()
-    assert '  1. “Digitally signed communication” is a message' in t
+    assert '  (1) “Digitally signed communication” is a message' in t
     for chrome in ("Skip to", "Certification Authorities", "Career Opportunities", "<", "\xa0", "&ldquo;"):
         assert chrome not in t
 
@@ -143,3 +143,46 @@ def test_ccr_conversion_notes_describe_the_sos_page_not_the_oar_page():
 
 def test_ccr_has_no_effective_date_label_to_misread():
     assert ing.effective_date(ccr(CCR_10), "rule") is None
+
+
+# ---- list markers: the real SAM 4900 page (snapshot of 2026-11-11) -----------------------------
+
+SNAP = Path(__file__).resolve().parent.parent / "_meta" / "snapshots"
+SAM_4900 = (SNAP / "ca-sam-4900.html").read_bytes()
+
+
+def test_sam_lower_latin_list_is_lettered_like_lower_alpha():
+    """SAM 4983: <ol style="list-style-type: lower-latin;"> shows a. b. c. in a browser."""
+    t = sam(SAM_4900)
+    assert "  a. Data classification (e.g., public, private, internal, confidential, restricted) of information assets" in t
+    assert "  b. Host location (e.g., on-premises, off-premises, hybrid, or multi-cloud)" in t
+    assert "  1. Data classification" not in t
+
+
+def test_sam_list_style_with_a_second_property_still_sets_the_marker():
+    """`upper-roman; margin-left: 40px` shows I. II. III.; `lower-roman; margin-left: 80px` shows i. ii."""
+    t = sam(SAM_4900)
+    assert "I. Identify and define the cloud computing technical and security requirements" in t
+    assert "II. Identify a cloud service model" in t
+    assert "III. The use of cloud services must be consistent" in t
+    # the real page's `upper-roman; margin-left: 40px` and `lower-roman; margin-left: 80px` lists
+    assert "I. Four CDT managed Internet connections" in t
+    assert "II. The CDT SD-WAN Service, required for the use of Internet circuits" in t
+    assert "i. CDT may allow the direct offloading through a CDT SD-WAN edge device" in t
+    assert "iii. Traffic must be inspected by CDT or CDT approved cloud inspection point." in t
+
+
+def test_sam_every_list_marker_of_chapter_4900_is_known():
+    # no list item of 4900 falls back to a decimal marker when its source style says otherwise
+    html = (b'<main><h1>Chapter 1 - Chapter-View</h1><div>Please wait... We are generating the manual...</div>'
+            b'<div class="row"><ol style="list-style-type: lower-latin;"><li>x</li></ol>'
+            b'<ol style="list-style-type: upper-latin;"><li>y</li></ol>'
+            b'<ol style="margin-left: 40px;"><li>z</li></ol></div><hr /><script>1</script></main>')
+    assert sam(html).splitlines()[1:] == ["a. x", "A. y", "1. z"]
+
+
+def test_sam_unknown_list_style_is_an_error_not_a_decimal_list():
+    html = (b'<main><h1>Chapter 1 - Chapter-View</h1><div>Please wait... We are generating the manual...</div>'
+            b'<div class="row"><ol style="list-style-type: hebrew;"><li>x</li></ol></div><hr /><script>1</script></main>')
+    with pytest.raises(ValueError, match="hebrew"):
+        sam(html)

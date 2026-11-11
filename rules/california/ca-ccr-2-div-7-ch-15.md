@@ -11,7 +11,7 @@ issuing_body: California Secretary of State
 source_url: https://www.sos.ca.gov/administration/regulations/current-regulations/technology/trustworthy-electronic-document-or-record-preservation
 source_format: html
 retrieved: '2026-11-11'
-source_sha256: 528e55844dc20ece6c4001fa1ae39e789502a0d05d8f85335df79f4740b724b2
+source_sha256: c8fc8e5e23a52b9158482178f64c9325d56644e03af5ab18bf8de8c946a63d13
 effective_date: null
 source_version: ''
 status: current
@@ -19,8 +19,9 @@ content_mode: verbatim
 conversion_notes: 'Text taken from the Secretary of State''s page for the chapter of the California Code
   of Regulations: the title, division and chapter headings, the chapter''s contents list and each regulation
   with its note, one line per paragraph, with markup, the site menu, side navigation, footer and non-breaking
-  spaces removed. List numbers and letters, which the page draws with style rules, are written out (1.,
-  a., i.).'
+  spaces removed. The page''s stylesheet draws each subdivision designator, so they are written as it
+  shows them: (a), (1), (A), (i). A list with none of the stylesheet''s classes keeps the browser''s own
+  marker (a.).'
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -62,21 +63,21 @@ The purpose of this chapter is to identify the uniform statewide standards adopt
 Authority Cited: Government Code section 12168.7
 Reference: sections 25105, 26205, 26205.1, 26205.5, 26907, 27001, 27322.2, 34090.5, and 60203, Government Code; section 102235, Health and Safety Code; and section 10851, Welfare and Institutions Code.
 22620.2. Applicability of Electronic Document or Record Standards
-1. The provisions of this chapter shall apply to all electronic documents or records created or stored as the official record six months after the effective date of these regulations.
-2. The provisions of this chapter shall apply where the intent is to destroy the original hardcopy and to maintain an electronic version as the official record.
-3. The provisions of this chapter shall also apply to electronically originated documents or records that are maintained as official documents or records.
+(a) The provisions of this chapter shall apply to all electronic documents or records created or stored as the official record six months after the effective date of these regulations.
+(b) The provisions of this chapter shall apply where the intent is to destroy the original hardcopy and to maintain an electronic version as the official record.
+(c) The provisions of this chapter shall also apply to electronically originated documents or records that are maintained as official documents or records.
 Authority Cited: Government Code section 12168.7
 Reference: sections 25105, 26205, 26205.1, 26205.5, 26907, 27001, 27322.2, 34090.5, and 60203, Government Code; section 102235, Health and Safety Code; and section 10851, Welfare and Institutions Code.
 22620.3. Definitions.
 As used in this chapter, the following words have the following definitions:
-1. “AIIM” means the Association for Information and Image Management.
-2. “ANSI” means the American National Standards Institute.
-3. “Electronically originated documents or records” includes any document or record created without first having originated in hard copy format. It includes all documents or records generated through electronic submissions.
-4. “ISO” means the International Organization for Standardization.
-5. (e) “PDF/A” means Portable Document Format/Archive, which is an electronic file format whereby documents are self-contained allowing them to be reproduced with all of the document coding embedded within the file.
-6. “CGATS” means Committee for Graphic Arts Technologies Standards administered by NPES, the Association for Suppliers of Printing, Publishing, and Converting Technologies.
-7. Trusted System is defined in section 5.3.3 Trusted system and legal considerations of “AIIM ARP1-2009 Analysis, Selection, and Implementation of Electronic Document Management Systems,” approved June 5, 2009, which is incorporated by reference in this section.
-8. “Official documents” or “official records” are those defined as such in applicable statutes and in business practices of the entity responsible for retaining said documents or records. In the absence of applicable statutes, official records or documents are those defined in the entity’s business practices.
+(a) “AIIM” means the Association for Information and Image Management.
+(b) “ANSI” means the American National Standards Institute.
+(c) “Electronically originated documents or records” includes any document or record created without first having originated in hard copy format. It includes all documents or records generated through electronic submissions.
+(d) “ISO” means the International Organization for Standardization.
+(e) (e) “PDF/A” means Portable Document Format/Archive, which is an electronic file format whereby documents are self-contained allowing them to be reproduced with all of the document coding embedded within the file.
+(f) “CGATS” means Committee for Graphic Arts Technologies Standards administered by NPES, the Association for Suppliers of Printing, Publishing, and Converting Technologies.
+(g) Trusted System is defined in section 5.3.3 Trusted system and legal considerations of “AIIM ARP1-2009 Analysis, Selection, and Implementation of Electronic Document Management Systems,” approved June 5, 2009, which is incorporated by reference in this section.
+(h) “Official documents” or “official records” are those defined as such in applicable statutes and in business practices of the entity responsible for retaining said documents or records. In the absence of applicable statutes, official records or documents are those defined in the entity’s business practices.
 Authority Cited: Government Code section 12168.7
 Reference: sections 25105, 26205, 26205.1, 26205.5, 26907, 27001, 27322.2, 34090.5, and 60203, Government Code; section 102235, Health and Safety Code; and section 10851, Welfare and Institutions Code.
 22620.4. Official Document or Record Storage Using Electronic Technologies.
@@ -107,4 +108,4 @@ Reference: sections 25105, 26205, 26205.1, 26205.5, 26907, 27001, 27322.2, 34090
 
 ## Curator notes
 
-Text taken from the Secretary of State's page for the chapter of the California Code of Regulations: the title, division and chapter headings, the chapter's contents list and each regulation with its note, one line per paragraph, with markup, the site menu, side navigation, footer and non-breaking spaces removed. List numbers and letters, which the page draws with style rules, are written out (1., a., i.).
+Text taken from the Secretary of State's page for the chapter of the California Code of Regulations: the title, division and chapter headings, the chapter's contents list and each regulation with its note, one line per paragraph, with markup, the site menu, side navigation, footer and non-breaking spaces removed. The page's stylesheet draws each subdivision designator, so they are written as it shows them: (a), (1), (A), (i). A list with none of the stylesheet's classes keeps the browser's own marker (a.).

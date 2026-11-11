@@ -165,13 +165,25 @@ class _SamParser(HTMLParser):
     indented two spaces per level."""
 
     BLOCK = {"p", "div", "h1", "h2", "h3", "h4", "li", "ol", "ul", "br", "tr"}
+    # CSS `list-style-type` values a browser prints as letters or numbers; `lower-latin` is
+    # `lower-alpha` under another name. Any other value is an error, never a silent decimal.
+    STYLES = {"decimal": "decimal", "lower-alpha": "lower-alpha", "lower-latin": "lower-alpha",
+              "upper-alpha": "upper-alpha", "upper-latin": "upper-alpha",
+              "lower-roman": "lower-roman", "upper-roman": "upper-roman"}
+    # The Secretary of State's stylesheet hides the browser marker on these list classes and
+    # draws `(a)`, `(1)`, `(A)`, `(i)`, `(I)` itself: class -> counter style. Used only when
+    # `paren_classes` is set (the CCR pages); a list with none of these classes keeps its style.
+    PAREN_CLASSES = {"alphaLwr": "lower-alpha", "alphaLwrInline": "lower-alpha",
+                     "numPrnthsis": "decimal", "numPrnthsisInline": "decimal",
+                     "alphaUppr": "upper-alpha", "romanLwr": "lower-roman", "romanUppr": "upper-roman"}
 
-    def __init__(self):
+    def __init__(self, paren_classes: bool = False):
         super().__init__(convert_charrefs=True)
         self.lines: list[str] = []
         self.cur: list[str] = []
-        self.lists: list[list] = []          # [style, next number]
+        self.lists: list[list] = []          # [style, next number, parenthesized]
         self.skip = 0                         # inside <style> or <script>
+        self.paren_classes = paren_classes
 
     def _flush(self):
         raw = "".join(self.cur)
@@ -181,18 +193,22 @@ class _SamParser(HTMLParser):
             self.lines.append(" " * (len(raw) - len(raw.lstrip(" "))) + line)
 
     @staticmethod
-    def _marker(style: str, n: int) -> str:
-        if style == "lower-alpha":
-            return "abcdefghijklmnopqrstuvwxyz"[(n - 1) % 26] + "."
-        if style == "upper-alpha":
-            return "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[(n - 1) % 26] + "."
-        if style in ("lower-roman", "upper-roman"):
+    def _marker(style: str, n: int, paren: bool = False) -> str:
+        if style in ("lower-alpha", "upper-alpha"):
+            letters = "abcdefghijklmnopqrstuvwxyz"
+            out = letters[(n - 1) % 26]
+            out = out if style == "lower-alpha" else out.upper()
+        elif style in ("lower-roman", "upper-roman"):
             out, rest = "", n
             for v, r in ((10, "x"), (9, "ix"), (5, "v"), (4, "iv"), (1, "i")):
                 while rest >= v:
                     out, rest = out + r, rest - v
-            return (out if style == "lower-roman" else out.upper()) + "."
-        return f"{n}."
+            out = out if style == "lower-roman" else out.upper()
+        elif style == "decimal":
+            out = str(n)
+        else:
+            raise ValueError(f"list style {style!r} is not one the ingester knows: add it with a test")
+        return f"({out})" if paren else f"{out}."
 
     def handle_starttag(self, tag, attrs):
         if tag in ("style", "script"):
@@ -200,15 +216,30 @@ class _SamParser(HTMLParser):
             return
         if tag in ("ol", "ul"):
             self._flush()
-            style = dict(attrs).get("style") or ""
-            kind = "bullet" if tag == "ul" else (
-                style.split("list-style-type:")[1].strip(" ;") if "list-style-type:" in style
-                else "decimal")
-            self.lists.append([kind, 1])
+            a = dict(attrs)
+            paren = False
+            if tag == "ul":
+                kind = "bullet"
+            else:
+                classes = (a.get("class") or "").split()
+                drawn = [self.PAREN_CLASSES[c] for c in classes if c in self.PAREN_CLASSES] \
+                    if self.paren_classes else []
+                found = re.search(r"list-style-type:\s*([a-z-]+)", a.get("style") or "")
+                if drawn:
+                    kind, paren = drawn[0], True
+                elif found:
+                    if found.group(1) not in self.STYLES:
+                        raise ValueError(f"list style {found.group(1)!r} is not one the ingester "
+                                         f"knows: add it with a test")
+                    kind = self.STYLES[found.group(1)]
+                else:
+                    kind = "decimal"
+            start = a.get("start")
+            self.lists.append([kind, int(start) if start and start.isdigit() else 1, paren])
         elif tag == "li":
             self._flush()
-            kind, n = self.lists[-1] if self.lists else ("bullet", 1)
-            mark = "\u2022" if kind == "bullet" else self._marker(kind, n)
+            kind, n, paren = self.lists[-1] if self.lists else ("bullet", 1, False)
+            mark = "\u2022" if kind == "bullet" else self._marker(kind, n, paren)
             if self.lists:
                 self.lists[-1][1] += 1
             self.cur.append("  " * max(len(self.lists) - 1, 0) + mark + " ")
@@ -501,8 +532,10 @@ def sos_html_to_text(raw: bytes) -> str:
     headings, the chapter's contents list and every regulation with its note. The region is the
     page's content column (a page may print a `California Code of Regulations` line above the
     headings); text the page keeps inside an HTML comment is not shown and not taken; the site menu,
-    breadcrumb, side navigation and footer are not the regulations. Lists are written like the SAM
-    page's (the page styles them with CSS)."""
+    breadcrumb, side navigation and footer are not the regulations. The page's stylesheet hides the
+    browser's list markers on its `alphaLwr`, `numPrnthsis`, `alphaUppr`, `romanLwr` (and `Inline`
+    and `romanUppr`) lists and draws `(a)`, `(1)`, `(A)`, `(i)` with `::before`; those lists are
+    written that way, the form the regulations cite their subdivisions in."""
     page = _decode(raw)
     start = page.find('id="main-content-normal"')
     side = page.find('id="left-sidebar"', start) if start >= 0 else -1
@@ -511,7 +544,7 @@ def sos_html_to_text(raw: bytes) -> str:
                          "the page layout changed")
     start = page.index(">", start) + 1
     end = page.rindex("<div", 0, side)
-    parser = _SamParser()
+    parser = _SamParser(paren_classes=True)
     parser.feed(page[start:end])
     parser._flush()
     return "\n".join(parser.lines) + "\n"
@@ -741,8 +774,9 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
         return ("Text taken from the Secretary of State's page for the chapter of the California Code of "
                 "Regulations: the title, division and chapter headings, the chapter's contents list and each "
                 "regulation with its note, one line per paragraph, with markup, the site menu, side "
-                "navigation, footer and non-breaking spaces removed. List numbers and letters, which the "
-                "page draws with style rules, are written out (1., a., i.).")
+                "navigation, footer and non-breaking spaces removed. The page's stylesheet draws each "
+                "subdivision designator, so they are written as it shows them: (a), (1), (A), (i). A list with none of the "
+                "stylesheet's classes keeps the browser's own marker (a.).")
     if src["doc_type"] == "policy" and src["jurisdiction"] == "california":
         return ("Text taken from the Department of General Services' State Administrative Manual chapter "
                 "view page: the chapter line, then each section's heading, revision line and "
