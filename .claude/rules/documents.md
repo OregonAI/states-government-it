@@ -25,7 +25,12 @@ approved seed entry. Start from `_meta/templates/document.md`.
 - **A stub has no document file yet.** It lives only in the seed list. The toolkit
   (v1.36.4) rejects a policy without a snapshot and verbatim text; stub documents arrive
   with the toolkit's stub support (see the `coverage` issue in `OregonAI/corpus-toolkit`).
-- **Scanned PDFs** go through the two-engine OCR procedure in the corpus-template
-  `AGENTS.md` ("OCR" section); record the engines and agreement in `conversion_notes`.
+- **Scanned PDFs** go through the two-engine OCR procedure in the corpus-template `AGENTS.md`
+  ("OCR" section). A seed entry says `ocr: true` (every page is a scan) or `ocr: [2, 3, 4]` (those
+  pages are; the rest have a text layer). `src/ingest.py` runs it; `docs/research/08` records the
+  engines and what CI can re-check. The document carries `text_source: ocr`, a body warning and
+  conversion notes ending `NOT human-verified`. Never hand-edit the OCR text.
+- **Word files** (`.docx`) are read with pandoc by the ingester. A form or blank template is not an
+  instrument: it stays a stub with that reason. A legacy `.doc` stays a stub (nothing reads it).
 - The file name equals `id`: lowercase letters, digits and hyphens.
 - Only documents live in these folders: every `.md` here is validated as one.

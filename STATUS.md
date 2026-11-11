@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 212 |
+| policy | 215 |
 | standard | 91 |
 | statute | 28 |
+| executive_order | 15 |
 | rule | 11 |
-| executive_order | 10 |
 
-**Total: 352**
+**Total: 360**
 
 ## Source manifest
 
-518 declared source(s) across 1 group(s) in `source-manifest.yml`.
+517 declared source(s) across 1 group(s) in `source-manifest.yml`.
 
 ## Freshness (reverify every 90 days)
 
-352 of 352 document(s) overdue for re-verification.
+360 of 360 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -64,15 +64,15 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | or-oar-128-40 | rule | never |
 | or-oar-128-50 | rule | never |
 | ca-eo-b-34-15 | executive_order | never |
+| ca-eo-n-04-19 | executive_order | never |
 | ca-eo-n-12-23 | executive_order | never |
+| ca-eo-n-30-25 | executive_order | never |
 | ca-eo-n-5-26 | executive_order | never |
 | ca-eo-n-6-26 | executive_order | never |
 | ca-eo-n-9-26 | executive_order | never |
+| or-eo-16-13 | executive_order | never |
+| or-eo-23-26 | executive_order | never |
+| or-eo-26-26 | executive_order | never |
 | wa-eo-00-02 | executive_order | never |
-| wa-eo-16-01 | executive_order | never |
-| wa-eo-19-04 | executive_order | never |
-| wa-eo-24-01 | executive_order | never |
-| wa-eo-91-10 | executive_order | never |
-| ca-genai-guidelines | policy | never |
-| … | *302 more* | |
+| … | *310 more* | |
 

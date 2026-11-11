@@ -4608,7 +4608,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: 'the PDF is a one-page diagram with no text layer (pdftotext extracts 4 words): a scan or image needs OCR, which has not been done'
+    stub_reason: 'the PDF is a one-page process diagram (pdftotext extracts 4 words). Read by OCR on 2026-11-11 it yields only box labels (Submit, IT Project Journey, Executive Transmittal, ...) with no sentences or reading order, which is not the text of an instrument; it stays a stub rather than a document of fragments'
     why_relevant: 'SIMM 19H, Project Delivery Lifecycle (PDL) Framework: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19h-transmittal
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19H-Project-Delivery-Lifecycle-Executive-Transmittal.pdf
@@ -6839,6 +6839,7 @@ sources:
     recheck: monthly
     why_relevant: 'Executive Order N-6-26, ''AI Workforce Impact'': an executive order of the Governor of California; the order''s own text is the PDF the Governor''s website publishes.'
   - id: ca-eo-n-30-25
+    sha256: "1a3aa4dc9951cb704fb06639743157d04cdec011028caa46c37053e8d72191ba"
     url: https://www.gov.ca.gov/wp-content/uploads/2025/07/2025-7-15.Efficient-and-Effective-Government-EO.FINAL_.signed.pdf
     format: pdf
     citation: Executive Order N-30-25
@@ -6848,8 +6849,7 @@ sources:
     issuing_body: Governor of California
     tags: [governance]
     recheck: monthly
-    stub: true
-    stub_reason: 'pages 2-4 are scans with no text layer: needs the two-engine OCR procedure (the PDF has 4 pages; pdftotext finds 466 words on page 1 and none on pages 2, 3 and 4; page 1 is only the preamble)'
+    ocr: [2, 3, 4]   # pages 2-4 are scans (page 1 has a text layer): read by the two-engine OCR procedure
     why_relevant: 'Executive Order N-30-25, ''Government Efficiency and Innovation'': an executive order of the Governor of California; the order''s own text is the PDF the Governor''s website publishes.'
   - id: ca-eo-n-9-26
     sha256: "32d93e137418c8c6899f3fadcdaf13b76f94bfd3686b56085c372b9722324061"
@@ -6864,6 +6864,7 @@ sources:
     recheck: monthly
     why_relevant: 'Executive Order N-9-26, ''Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch'': an executive order of the Governor of California; the order''s own text is the PDF the Governor''s website publishes.'
   - id: ca-eo-n-04-19
+    sha256: "2eab57988b7606251fbcc672068341b508f5351f945ebcd9f198cda1d2856377"
     url: https://www.gov.ca.gov/wp-content/uploads/2019/01/1.8.19-EO-N-04-19.pdf
     format: pdf
     citation: Executive Order N-04-19
@@ -6873,8 +6874,7 @@ sources:
     issuing_body: Governor of California
     tags: [procurement, oversight, governance]
     recheck: monthly
-    stub: true
-    stub_reason: 'the PDF is a scan with no text layer (pdftotext extracts no words from its 4 pages): it needs the two-engine OCR procedure, which has not been done'
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure
     why_relevant: 'Executive Order N-04-19, ''Innovation Procurement Sprint'': an executive order of the Governor of California; the order''s own text is the PDF the Governor''s website publishes.'
   - id: ca-eo-s-03-10
     url: https://www.cdt.ca.gov/policy/executive-orders-related-to-it/#S-03-10

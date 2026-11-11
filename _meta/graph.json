@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 352,
+ "n_nodes": 360,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -245,10 +245,22 @@
    "path": "executive-orders/california/ca-eo-b-34-15.md"
   },
   {
+   "id": "ca-eo-n-04-19",
+   "title": "Innovation Procurement Sprint",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-n-04-19.md"
+  },
+  {
    "id": "ca-eo-n-12-23",
    "title": "Generative Artificial Intelligence",
    "doc_type": "executive_order",
    "path": "executive-orders/california/ca-eo-n-12-23.md"
+  },
+  {
+   "id": "ca-eo-n-30-25",
+   "title": "Government Efficiency and Innovation",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-n-30-25.md"
   },
   {
    "id": "ca-eo-n-5-26",
@@ -267,6 +279,24 @@
    "title": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch",
    "doc_type": "executive_order",
    "path": "executive-orders/california/ca-eo-n-9-26.md"
+  },
+  {
+   "id": "or-eo-16-13",
+   "title": "Unifying Cyber Security in Oregon",
+   "doc_type": "executive_order",
+   "path": "executive-orders/oregon/or-eo-16-13.md"
+  },
+  {
+   "id": "or-eo-23-26",
+   "title": "Establishing a State Government Artificial Intelligence Advisory Council",
+   "doc_type": "executive_order",
+   "path": "executive-orders/oregon/or-eo-23-26.md"
+  },
+  {
+   "id": "or-eo-26-26",
+   "title": "Establishing Responsible Artificial Intelligence Procurement Standards for State Government",
+   "doc_type": "executive_order",
+   "path": "executive-orders/oregon/or-eo-26-26.md"
   },
   {
    "id": "wa-eo-00-02",
@@ -1067,6 +1097,12 @@
    "path": "policies/oregon/or-das-107-004-050.md"
   },
   {
+   "id": "or-das-107-004-051",
+   "title": "Controlling Portable and Removable Storage Devices",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-051.md"
+  },
+  {
    "id": "or-das-107-004-052-pr",
    "title": "Cyber and Information Security Procedure",
    "doc_type": "policy",
@@ -1077,6 +1113,18 @@
    "title": "Cyber and Information Security Policy",
    "doc_type": "policy",
    "path": "policies/oregon/or-das-107-004-052.md"
+  },
+  {
+   "id": "or-das-107-004-053",
+   "title": "Employee Security",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-053.md"
+  },
+  {
+   "id": "or-das-107-004-100",
+   "title": "Transporting Information Assets",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-100.md"
   },
   {
    "id": "or-das-107-004-110",

@@ -1,0 +1,135 @@
+partnering with the U.S. Department of Defense to use satellites for
+O
+wildfire detection;
+investing in LiDAR technology to create detailed 3D maps of high-
+O
+risk areas, which helps firefighters better understand and navigate
+complex terrains;
+leveraging Al-powered tools to identify fires faster and developing
+O
+the Fire Integrated Real-Time Intelligence System (FIRIS) to provide
+real-time mapping and modeling of wildfires;
+doubling deployment of drones for critical tasks like aerial ignition
+O
+during prescribed burns, wildfire containment, and real-time
+assessments; and
+expanding capabilities for incident reporting at fire.ca.gov,
+O
+updating the incident map with near real time information about
+firefighting aircraft activity, 3-D maps with evacuation orders, local
+shelter information, road closures, and more;
+In 2023, I issued Executive Order N-12-23, which directed the Government
+Operations Agency, the California Department of General Services, and
+the CDT to update the state's project approval, procurement, and
+contracting processes for GenAl; CDT recently updated its statewide
+policies, including safeguards required by my Executive Order to ensure
+the responsible use of GenAl; and CDT also implemented a Project
+Delivery Lifecycle (PDL) to update the state's project approval process for
+GenAl projects to meet the requirements of my Executive Order, offering
+opportunities to expand that new procurement process to non-GenAl
+projects; and
+The California Department of Tax and Fee Administration (CDTFA) has
+streamlined processes and harnessed technology to drastically improve
+efficiency, improving revenue collection on existing taxes while using
+fewer resources, cutting the department's cost to administer a dollar of
+revenue by more than 24 percent since 2019; and
+WHEREAs the efforts to date are important, but state government can and
+should do more to meet Californians' high expectations; and
+WHEREAs this transformation will require re-engineering state government
+with a focus on human-centered design and user experience; data collection
+to establish or confirm baselines and transparently track progress; and the
+subject matter expertise of program leaders and frontline staff who serve
+Californians daily; and
+WHEREAs California led the nation in safely testing and implementing
+GenAl in the public sector, harnessing the power of transformative new
+technologies to drive efficiency and effectiveness at scale; and
+WHEREAs California has recently launched a first-in-the-nation deliberative
+democracy program, Engaged California, to hear directly from Californians and
+to inform policymakers about the issues that affect them the most; and
+WHEREAs California, endeavors to attract, retain, and develop employees
+who will support a modern and responsive state government and provide an
+excellent customer experience to all Californians, and our state workforce has
+deep expertise in the programs they run that can inform improvements to how
+the State delivers services to Californians.
+NOw, THEREfORE, I, GAVIN NEWsOM, Governor of the State of California,
+in accordance with the authority vested in me by the State Constitution and
+statutes of the State of California, do hereby issue the following Order to
+become effective immediately:
+IT IS HEREBY ORDERED THAT:
+1. The Government Operations Agency (GovOps) shall work with the
+Department of Human Resources (CalHR), the Department of
+General Services (DGS), the Department of Technology (CDT), and
+the State Personnel Board (SPB) to improve operational
+effectiveness, boost efficiency, and enhance customer experience,
+enabling innovation in delivery of services and prioritizing at least
+the following areas:
+a. CalHR, in consultation with SPB, shall identify options to
+streamline and modernize civil service hiring, modernize state
+exams, and remove or improve administrative processes that
+are unnecessary to meet legal requirements under civil
+service and other applicable rules.
+b. CDT shall identify options to simplify IT project approval and IT
+procurement, develop shared IT contracting vehicles to
+reduce costs, and establish an enterprise marketplace for
+business tools, including tools utilizing artificial intelligence.
+c. DGS shall identify options to further streamline procurement
+practices to ease administrative burdens on both state
+agencies and potential vendors, expedite necessary
+contracts, and lower costs, including assessing changes to
+streamline the approval process for Inter-Agency
+Agreements.
+GovOps shall provide an update to the Governor's Office on
+implementation of this Paragraph, including any recommendations
+to pursue options identified by the departments, no later than
+August 15, 2025.
+2. Each agency within my Administration shall, within 90 days of this
+Order, submit to the Governor's Office at least one proposal for a
+no-cost or low-cost idea to improve efficiency of operations within
+the agency or a constituent department, board, or office within the
+agency.
+3. The Office of Data Innovation (ODI), in partnership with CalHR, shall
+leverage the Engaged California deliberative democracy platform
+to engage the state workforce to source innovative ideas to
+improve efficiency, effectiveness, and customer engagement in
+state programs. ODI shall launch a pilot project pursuant to this
+Paragraph no later than August 15, 2025.
+4. ODI shall establish the Innovation Fellows Program (IFP) to create a
+sustainable framework for incorporating a focus on innovation
+around efficient and effective delivery of services in state
+government, as follows:
+a. The IFP will be comprised of "Innovation Fellows," supervisors
+and exempt staff selected from departments and agencies,
+who will focus on fixing unique challenges facing their
+departments and agencies through innovative ideas to solve
+those challenges. The Fellows will receive training and support
+through the IFP, including from the other Fellows to identify
+the challenge, develop ideas to address it, and present the
+recommendation to agency or departmental leadership, as
+appropriate, for potential adoption.
+b. Department executives shall support the IFP by granting
+identified Innovation Fellows the opportunity to participate in
+the IFP on a dedicated basis, independent of their other
+duties.
+c. ODI shall invite each agency within my Administration to
+select at least one person to participate in the initial cohort of
+Innovation Fellows and launch that cohort no later than
+August 15, 2025.
+All State agencies subject to my authority shall, and all other public
+entities are requested to, assist ODI in administering the IFP.
+IT IS FURTHER ORDERED that, as soon as hereafter possible, this Order be
+filed in the Office of the Secretary of State and that widespread publicity and
+notice be given of this Order.
+This Order is not intended to, and does not, create any rights or benefits,
+substantive or procedural, enforceable at law or in equity, against the State of
+California, its agencies, departments, entities, officers, employees, or any other
+person.
+IN WITNESS WHEREOF I have
+hereunto set my hand and caused
+the Great Seal of the State of
+California to be affixed this 15th day
+of July 2025.
+GAVIN NEWSOM
+Governor of California
+ATTEST:
+SHIRLEY N.WEBER, PH. D
+Secretary of State

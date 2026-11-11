@@ -95,8 +95,15 @@ jobs:
       # and requires the same words in the same order as the committed text (layout may differ),
       # so a changed word, a dropped paragraph or an edited .txt still fails it. pandoc is missing
       # => the check fails with "pandoc is not installed", it never passes unread.
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils pandoc
-      - run: pandoc --version | head -1
+      #
+      # Scanned PDFs (a seed entry with `ocr:`) are checked by re-running tesseract on the committed scan:
+      # the committed text must agree with that reading on 95% of the word sequence (src/ingest.py,
+      # check_ocr). Ubuntu 24.04's tesseract 5.3.4 and ocrmypdf 15.2.0 are the versions that made the
+      # committed text. The second engine, PaddleOCR, is not installed here: its text is committed
+      # beside the snapshot (<id>.paddle.txt) and the agreement between the two texts is recomputed
+      # from the committed files, so an edited text or a swapped second reading still fails.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils pandoc ocrmypdf tesseract-ocr tesseract-ocr-eng tesseract-ocr-osd
+      - run: pandoc --version | head -1 && tesseract --version | head -1 && ocrmypdf --version
       - run: python3 src/ingest.py --check
 
   unit-tests:
@@ -112,5 +119,7 @@ jobs:
       # install it explicitly rather than rely on what the runner image happens to ship. The Word
       # file tests (tests/test_ingest_docx.py) need pandoc and skip without it, so CI installs it:
       # a skipped test here would be a gate that cannot fail.
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils pandoc
+      # The OCR tests (tests/test_ingest_ocr.py) run tesseract through ocrmypdf on real scans, for the
+      # same reason.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils pandoc ocrmypdf tesseract-ocr tesseract-ocr-eng tesseract-ocr-osd
       - run: python3 -m pytest tests/ -q
