@@ -25,6 +25,7 @@ import json
 import re
 import subprocess
 import sys
+import weakref
 import zipfile
 from html.parser import HTMLParser
 from pathlib import Path
@@ -348,8 +349,15 @@ def ca_open(fetcher: Fetcher, url: str):
     return zf, raw
 
 
-def _ca_table(zf, name: str) -> list[str]:
-    return zf.read(name).decode("utf-8").splitlines()
+_CA_ROWS: "weakref.WeakKeyDictionary" = weakref.WeakKeyDictionary()   # zip -> {table: [(line, fields)]}
+
+
+def _ca_table(zf, name: str) -> list[tuple[str, list]]:
+    """A table of the zip, parsed once per open zip (the section table alone is 43 MB)."""
+    tables = _CA_ROWS.setdefault(zf, {})
+    if name not in tables:
+        tables[name] = [(l, _ca_fields(l)) for l in zf.read(name).decode("utf-8").splitlines()]
+    return tables[name]
 
 
 def ca_bundle(zf, slice_: dict, url: str, last_modified: str = "") -> bytes:
@@ -362,10 +370,8 @@ def ca_bundle(zf, slice_: dict, url: str, last_modified: str = "") -> bytes:
     code, path, number = slice_.get("code"), slice_.get("path"), slice_.get("section")
     if not code or bool(path) == bool(number):
         raise ValueError("a California statute slice needs a code and exactly one of path or section")
-    toc = [(l, _ca_fields(l)) for l in _ca_table(zf, "LAW_TOC_TBL.dat")]
-    toc = [(l, f) for l, f in toc if f[0] == code]
-    sec_list = [(l, _ca_fields(l)) for l in _ca_table(zf, "LAW_TOC_SECTIONS_TBL.dat")]
-    sec_list = [(l, f) for l, f in sec_list if f[1] == code]
+    toc = [(l, f) for l, f in _ca_table(zf, "LAW_TOC_TBL.dat") if f[0] == code]
+    sec_list = [(l, f) for l, f in _ca_table(zf, "LAW_TOC_SECTIONS_TBL.dat") if f[1] == code]
     if number:
         want = [(l, f) for l, f in sec_list if (f[3] or "").rstrip(".") == number.rstrip(".")]
         if not want:
@@ -386,9 +392,9 @@ def ca_bundle(zf, slice_: dict, url: str, last_modified: str = "") -> bytes:
             raise ValueError(f"no section under {code} {path} in the download")
     nodes.sort(key=lambda lf: int(lf[1][10]))
     by_version = {}
-    for l in _ca_table(zf, "LAW_SECTION_TBL.dat"):
-        f = _ca_fields(l)
-        if f[1] == code and f[7] in {w[1][11] for w in want}:
+    versions = {w[1][11] for w in want}
+    for l, f in _ca_table(zf, "LAW_SECTION_TBL.dat"):
+        if f[1] == code and f[7] in versions:
             by_version[f[7]] = (l, f)
     sections = []
     order = {n[1][13]: int(n[1][10]) for n in nodes}

@@ -2985,6 +2985,7 @@ sources:
   # that slice's raw rows and section files; the zip is not committed. The url is the zip, so a drift run would try to download 1.2 GB per
   # entry: see the problems list of the run that added this block.
   - id: ca-gov-11531-11544
+    sha256: "991bf4ab85daf144df8df71a73f11aaef171ae53d4f2e9c9b82ad57f4d9e4b24"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code §§ 11531-11544
@@ -2997,6 +2998,7 @@ sources:
     slice: {code: GOV, path: 3.3.1.8}
     why_relevant: 'The Office of Technology Services within the Department of Technology, the state''s general-purpose technology services provider (11534 ''to serve the common technology needs of executive branch entities''): its chief reports to the Director of Technology (11538), rates are proposed by the Director of Technology and approved by the Director of Finance (11540), the state data centers are consolidated into it (11542), and the Technology Services Revolving Fund receives its revenue (11544).'
   - id: ca-gov-11545-11548
+    sha256: "31dc965e0684e4958a4fb3ba55704c98269a5898d4bd904fcbef83a039ba6f3c"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code §§ 11545-11548
@@ -3009,6 +3011,7 @@ sources:
     slice: {code: GOV, path: 3.3.1.9}
     why_relevant: 'The enabling statute for the central IT body and the state CIO: 11545 creates the Department of Technology within the Government Operations Agency, with a Director appointed by the Governor ''subject to Senate confirmation'' who ''shall be the State Chief Information Officer''; 11546 makes it responsible for approval and oversight of IT projects and for state IT strategic plans, policies and standards; 11546.1 requires a chief information officer in each state agency and state entity; 11546.2 annual IT cost reports; 11546.45 high-risk, critical IT systems modernization; 11546.45.5 inventory of high-risk automated decision systems and definitions of artificial intelligence; 11546.46 state digital equity plan; 11546.8 the CalCompute consortium; 11547 Department of Finance fiscal oversight of IT projects. Two versions of 11546.1 are printed, as the Legislature''s table holds them.'
   - id: ca-gov-11549-11549-10
+    sha256: "22a66b072954f66b9dc6e122fa63bfd0e0da832ad5ad9a3c23d91feed8f6980e"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code §§ 11549-11549.10
@@ -3021,6 +3024,7 @@ sources:
     slice: {code: GOV, path: 3.3.1.10}
     why_relevant: 'The cybersecurity statute for state agencies: 11549 creates the Office of Information Security in the Department of Technology ''to ensure the confidentiality, integrity, and availability of state systems and applications''; 11549.3 has its chief establish an information security program, publishing information security and privacy policies, standards and procedures for state agencies in the State Administrative Manual. Article 2 (11549.5-11549.10) creates the Office of Privacy Protection.'
   - id: ca-gov-11549-63-11549-66
+    sha256: "4b7693b9426a66d4800ec06ea7576121492ab3b5792152c3a042f4fe0ec5114f"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code §§ 11549.63-11549.66
@@ -3033,6 +3037,7 @@ sources:
     slice: {code: GOV, path: 3.3.1.12}
     why_relevant: 'The statute on state agency use of generative AI (SB 896, 2024): legislative findings (11549.63), definitions (11549.64), the Department of Technology''s reporting and update duties with the Government Operations Agency, the Office of Data and Innovation and the Department of Human Resources (11549.65), and the requirement that a state agency using GenAI to communicate directly with a person about government services and benefits include a disclaimer (11549.66).'
   - id: ca-gov-8592-30-8592-50
+    sha256: "979eb7e61dbfd00bb16a9c6d38175253444fc08b5bf71026112586373af398e2"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code §§ 8592.30-8592.50
@@ -3045,6 +3050,7 @@ sources:
     slice: {code: GOV, path: 3.1.27.20}
     why_relevant: 'Cybersecurity of state agencies'' critical infrastructure controls: definitions (8592.30), the Department of Technology''s update of the Technology Recovery Plan element of the State Administrative Manual with cybersecurity incident response standards (8592.35), agency compliance reporting (8592.40), confidentiality of the reports (8592.45), and an outreach plan by the California Cybersecurity Integration Center for the food and agriculture and water sectors (8592.50).'
   - id: ca-gov-8586-5
+    sha256: "cd3b0e7e0bbdbf36f8044206b3db2d9ab8b0ad1836cbb02719e9c1eef6b2ff39"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code § 8586.5
@@ -3057,6 +3063,7 @@ sources:
     slice: {code: GOV, section: '8586.5'}
     why_relevant: Establishes the California Cybersecurity Integration Center under the Office of Emergency Services as 'the central organizing hub of state government's cybersecurity activities', to reduce the likelihood and severity of cyber incidents against the state's economy, critical infrastructure and public and private sector computer networks.
   - id: ca-gov-7405
+    sha256: "b646210af17f14b8a185d5850efd768caa34990ad270abf2be50e9272cf5e1c5"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code § 7405
@@ -3069,6 +3076,7 @@ sources:
     slice: {code: GOV, path: 2.10.52}
     why_relevant: Requires state governmental entities, in developing, procuring, maintaining or using electronic or information technology, to comply with the accessibility requirements of Section 508 of the federal Rehabilitation Act (29 U.S.C. Sec. 794d) and 36 CFR Part 1194.
   - id: ca-gov-11015-5
+    sha256: "f193e4a4932034763918ba1d6b43b868c792f1820843da834c280fd4de2917e0"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code § 11015.5
@@ -3081,6 +3089,7 @@ sources:
     slice: {code: GOV, section: '11015.5'}
     why_relevant: Every state agency that uses a method, device, identifier or database application on the internet to collect personal information electronically must prominently display a notice at the point of communication with the user.
   - id: ca-gov-11019-9
+    sha256: "ebc9656b01a15914ffa368522fbe87630af93275880cdfa28507e97c5386c961"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code § 11019.9
@@ -3093,6 +3102,7 @@ sources:
     slice: {code: GOV, section: '11019.9'}
     why_relevant: Each state department and state agency must enact and maintain a permanent privacy policy, in adherence with the Information Practices Act of 1977, and post it conspicuously on its Internet Web site; the section sets the principles the policy must include.
   - id: ca-gov-11786-11786-6
+    sha256: "50062601bfbb389884997e6ef376e952520023bbe94af13bd49082ea711c1791"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code §§ 11786-11786.6
@@ -3105,6 +3115,7 @@ sources:
     slice: {code: GOV, path: 3.3.1.14}
     why_relevant: 'An IT grant program for state agencies: the Information Technology Innovation Council (11786), grant guidelines and applications (11786.1), evaluation and funding notice (11786.2, 11786.3), independent evaluation (11786.4), and funding subject to appropriation (11786.6). The chapter still names the Department of Information Technology, which no longer exists; it is in force as published.'
   - id: ca-gov-7929-210
+    sha256: "dfc7d74aabc6f12f6df64e9b4173cfe1543d2f4a5cf0b07422f43194e9310c0e"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code § 7929.210
@@ -3117,6 +3128,7 @@ sources:
     slice: {code: GOV, section: '7929.210'}
     why_relevant: The Public Records Act's exemption for a public agency's information security record whose disclosure 'would reveal vulnerabilities to, or otherwise increase the potential for an attack on, an information technology system of a public agency'; records stored within an IT system that are not otherwise exempt stay disclosable. The one IT-specific provision of the Act; the rest of the Act is out of scope.
   - id: ca-civ-1798-1798-78
+    sha256: "6692000fc633ce7856150be793836be257aaca3c3e7187022489f1e6e095322f"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Civ. Code §§ 1798-1798.78
@@ -3129,6 +3141,7 @@ sources:
     slice: {code: CIV, path: 8.4.34.1}
     why_relevant: 'The statute that governs how state agencies collect, maintain, use and disclose personal information about individuals: agency requirements, conditions of disclosure, accounting of disclosures, individual access and correction, civil remedies and penalties, and the agency breach notification requirement of section 1798.29.'
   - id: ca-pcc-12100-12113
+    sha256: "b43479eca250bfdb1a520b60a46421883ce0b5089d97d65a56194921a9c267de"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Pub. Contract Code §§ 12100-12113
@@ -3147,6 +3160,7 @@ sources:
   # loads for the Fetcher), under Title 2, Division 7. No Department of Technology or Office of Information Security regulation was found (a web search on 2026-11-11
   # found only conflict-of-interest codes under Title 2, Division 8, which are out of scope).
   - id: ca-ccr-2-div-7-ch-10
+    sha256: "f3ae411940f66114f952b81a69ea344b24facbee60eebd3316893f1c97be2d57"
     url: https://www.sos.ca.gov/administration/regulations/current-regulations/technology/digital-signatures
     format: html
     citation: Cal. Code Regs., tit. 2, div. 7, ch. 10
@@ -3158,6 +3172,7 @@ sources:
     recheck: monthly
     why_relevant: 'The Secretary of State''s regulations (sections 22000-22005) on digital signatures used with public entities: a digital signature must be created by a technology acceptable for use by the State of California (22001), the criteria for acceptable technologies (22002, 22003), and the criteria a public entity must apply before accepting a digital signature (22005: security of identifying the signer, security of transmission, certificate format).'
   - id: ca-ccr-2-div-7-ch-15
+    sha256: "be1e67fec16a707ad2707affed77990c9dec94037d39f805d4314497440f48fd"
     url: https://www.sos.ca.gov/administration/regulations/current-regulations/technology/trustworthy-electronic-document-or-record-preservation
     format: html
     citation: Cal. Code Regs., tit. 2, div. 7, ch. 15
@@ -3174,6 +3189,7 @@ sources:
   # contents (https://www.dgs.ca.gov/Resources/SAM/TOC), read on 2026-11-11; the IT chapters are 4800 to 5300 and 5900. SAM is the policy
   # manual the Department of Technology and the Office of Information Security write their policies into (Gov. Code 11549.3 (a)(1)).
   - id: ca-sam-4800
+    sha256: "ca4df28e13bccfa659d663a8ef7e889b8805373c36710cd4f477ec73d48762a1"
     url: https://www.dgs.ca.gov/Resources/SAM/TOC/4800/Chapter-View
     format: html
     citation: SAM chapter 4800
@@ -3185,6 +3201,7 @@ sources:
     recheck: monthly
     why_relevant: State information management principles (4800); agency information officer and state entity CIO responsibilities (4815); the definition of IT and the state information management authority (4819.2-4819.3); IT project approval authority, lifecycle, reporting and oversight, delegation, cost delegation and certification of compliance with IT policies (4819.34-4819.41); the IT accessibility policy and its exceptions (4833-4833.2); the IT infrastructure policy (4834); the California software management policy (4846-4846.2); IT training (4854).
   - id: ca-sam-4900
+    sha256: "72ed93adcc80db53c9fa9eb8ad749c1235b056bd41635583827c2098fc943925"
     url: https://www.dgs.ca.gov/Resources/SAM/TOC/4900/Chapter-View
     format: html
     citation: SAM chapter 4900
@@ -3196,6 +3213,7 @@ sources:
     recheck: monthly
     why_relevant: 'Agency information management strategy (4900-4904); enterprise architecture (4906); project management and the Project Approval Lifecycle (4910-4930); IT project oversight, independent verification and validation, compliance review and audit (4940-4943); special project, maintenance and operations and post-implementation reports (4945-4947); data center consolidation (4982); cloud computing policy (4983); open source and code reuse (4984); internet policy (4985); the generative AI policy (4986-4986.13: use identification and high-risk inventory, training data, hosting, project approval, procurement, privacy, security, acceptable use, workforce training); desktop and mobile computing (4989).'
   - id: ca-sam-5000
+    sha256: "10c68050f2e9a9a14f199e45ebd4b8c707bc8e0c531700e568f288acc70b8822"
     url: https://www.dgs.ca.gov/Resources/SAM/TOC/5000/Chapter-View
     format: html
     citation: SAM chapter 5000
@@ -3207,6 +3225,7 @@ sources:
     recheck: monthly
     why_relevant: State policy on IT equipment acquisition, maintenance and disposition (5001) and on recording repair and maintenance data (5010).
   - id: ca-sam-5100
+    sha256: "4fb10ca75101382ec244e7b17494022b64d3566498d28a1b2c598921367a95ab"
     url: https://www.dgs.ca.gov/Resources/SAM/TOC/5100/Chapter-View
     format: html
     citation: SAM chapter 5100
@@ -3218,6 +3237,7 @@ sources:
     recheck: monthly
     why_relevant: 'Technology standards (5100: ANSI, NIST and FIPS standards for agency planning and operations); the open data policy (5160-5160.2); the workgroup collaboration platform policy (5170); website standards and the California state website template (5190-5190.2); the internet domain name policy (5195-5195.2).'
   - id: ca-sam-5200
+    sha256: "ada26be430769d365ede578c72e066c18deb782d9d0ec78b855f9f8321240282"
     url: https://www.dgs.ca.gov/Resources/SAM/TOC/5200/Chapter-View
     format: html
     citation: SAM chapter 5200
@@ -3229,6 +3249,7 @@ sources:
     recheck: monthly
     why_relevant: 'Policy for information technology procurements under Public Contract Code 12100 et seq.: responsibilities and authority (5200.5), acquisition authority for IT goods and services and Department of Technology review of procurement documents (5210-5211), uniform standards, acquisition planning, principles for IT procurement and exemptions (5230-5230.6), and leveraged procurement agreements (5291).'
   - id: ca-sam-5300
+    sha256: "f298b5aecfbc49f5e5323289a663239ec2c511c49fb4a377f8cba94ec25c3482"
     url: https://www.dgs.ca.gov/Resources/SAM/TOC/5300/Chapter-View
     format: html
     citation: SAM chapter 5300
@@ -3240,6 +3261,7 @@ sources:
     recheck: monthly
     why_relevant: 'The state''s information security and privacy policy for state entities: governing provisions, applicability and minimum security controls (5300-5300.5); the information security program, roles, risk management and metrics (5305); privacy statements, limiting collection, use and disclosure, individual access, retention and privacy impact assessments (5310); security integration in acquisition and the system development lifecycle (5315); training and awareness (5320); technology recovery planning (5325); compliance and monitoring (5330-5335); incident management and reporting (5340); vulnerability management, encryption, endpoint defense, identity and access management and physical security (5345-5365).'
   - id: ca-sam-5900
+    sha256: "915408817ed88b2bbc5a02d0977d19374cc68e85c7c5c6b9de48e7bee7d20281"
     url: https://www.dgs.ca.gov/Resources/SAM/TOC/5900/Chapter-View
     format: html
     citation: SAM chapter 5900

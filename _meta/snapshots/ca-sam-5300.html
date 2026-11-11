@@ -1,0 +1,2455 @@
+
+<!doctype html>
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if (gt IE 9)]><!-->
+<html lang="en" class="not-rich-text-editor">
+    <!--<![endif]-->
+    <head>
+        
+
+
+
+
+    <meta charset="utf-8">
+
+    <title>Chapter-View</title>
+
+
+
+
+
+
+
+    <!-- General purpose 16x16 .ico shortcut icon -->
+    <link rel="icon" href="/assets/img/icon/favicon.ico">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Use highest compatibility mode -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<!-- for Blackberry, AvantGo -->
+<meta name="MobileOptimized" content="320">
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+
+<!-- jQueryUI Stylesheet -->
+<link rel="stylesheet" href="/assets/libs/jquery-ui/1.13.2/jquery-ui.min.css?v=2" type="text/css">
+
+<!-- Do not include the extension with cssPath -->
+<link href="/assets/css/app.min.css?v=1" rel="stylesheet">
+<link rel="stylesheet" href="/css/AuthoringUIExperience/sitecore-extra.css" type="text/css">
+
+    <!-- modernizr.com, feature detection -->
+    <script src="/assets/js/modernizr-custom.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="/assets/css/custom.css" type="text/css">
+
+
+
+
+
+<script>
+  function loadGoogleTranslate() {
+    if (window.google && window.google.translate) return;
+
+    var s = document.createElement('script');
+    s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    s.async = true;
+    s.onerror = function () {
+      console.warn('Google Translate script blocked by browser tracking prevention.');
+    };
+    document.head.appendChild(s);
+  }
+
+  // Call this only after consent/click:
+  // loadGoogleTranslate();
+</script>
+        
+    </head>
+    <body>
+
+        <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+        
+
+
+<nav class="utility-header "
+     aria-label="Utility Links">
+    <ul class="utility-header__menu">
+                    <li>
+
+
+
+
+    <div class="branding ">
+<a href ='http://www.ca.gov'>
+
+
+
+
+
+        <img style="height:28px;" class="icon" src="/assets/img/icons/cagov-logo-white.png" alt="CA.gov"/>
+
+<span class="sr-only">CA.gov</span>
+</a>    </div>
+
+</li>
+                    <li>
+        <div class="social-share">
+                <a href="#" class="social-share-facebook icon-facebook"><span class="social-share-label">Share via Facebook</span></a>
+                <a href="#" class="social-share-twitter-x icon-twitter-x"><span class="social-share-label">Share via X</span></a>
+                <a href="#" class="social-share-google-plus icon-google-plus"><span class="social-share-label">Share via Google+</span></a>
+                <a href="#" class="social-share-email icon-email"><span class="social-share-label">Share via Email</span></a>
+        </div>
+
+
+
+</li>
+                    <li>
+                        <button type="button" class="utility-header__drawer-toggle "
+                                aria-controls='translate' aria-haspopup = 'true' aria-expanded='false'>
+                            <span class='utlility-header_toggle-text'>Translate</span>
+                        </button>
+                    </li>
+    </ul>
+
+                <div id="translate" class="utility-header__drawer"><div>Translate this website to your preferred language:<br><div id="google_translate_element"></div></div></div>
+</nav>
+
+        <!-- Begin Content -->
+        
+
+
+
+
+
+
+
+    <header class="global-header ">
+        
+            <div style="float: left; margin-top: 4px; margin-left: -12px;">
+                <a href="/">
+                    <img src="/assets/img/logo/DGS_Logo.png?v=2" style="vertical-align: middle;" alt="California Department of General Services" />
+                </a>
+            </div>
+
+        
+
+
+
+
+<div class="site-search" >
+
+        <button id="site-search__toggle"
+                class="site-search__toggle button  "
+                type="button"
+                aria-controls="site-search__form9607820402224956bb8d2c7b036ffd3e"
+                aria-haspopup="true"
+                
+                >
+            <span class="site-search__text sr-only">Site Search</span>
+                <span class="site-search__hamburger"><span class="site-search__hamburger-inner"></span></span>
+                            <span class="site-search__icon" aria-hidden="true"></span>
+                    </button>
+
+        <form class="site-search__form" id="site-search__form9607820402224956bb8d2c7b036ffd3e"  aria-labelledby="site-search__toggle" method="get" action="">
+            <span>
+                <label for="9607820402224956bb8d2c7b036ffd3e">Search this site:</label>
+            </span>
+            <span>
+                <input name="q" type="text"  id="9607820402224956bb8d2c7b036ffd3e" placeholder="For example, how to sell to the state?">
+            </span>
+
+            <input type="hidden" name="sitesearch" value="" />
+            <span class="site-search__submit">
+                
+
+
+
+
+    <button class="button "
+            type="submit"
+            name='Search'
+            value='Search'
+            
+            
+            
+            
+>
+        <span class="button__text ">Search</span>
+                    </button>
+
+            </span>
+            <button class="site-search__reset-search" aria-describedby="9607820402224956bb8d2c7b036ffd3e" type="reset" style="display: none">Clear Search</button>
+        </form>
+
+</div>    </header>
+
+
+
+<!-- Navigation Main Navigation -->
+
+
+
+
+
+    <nav class="navigation navigation--main " aria-label="Main Menu">
+
+        
+        <button id="navigation-main-toggle"
+                class="navigation__toggle "
+                type="button"
+                tabindex="0"
+                aria-controls="navigation__list-main"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                <span class="navigation__toggle-text"><span class="navigation__toggle-open">View All</span><span class="navigation__toggle-close">Close</span></span>
+                            <span class="navigation__toggle-hamburger"><span class="navigation__toggle-hamburger-inner"></span></span>
+                    </button>
+        <ul id="navigation__list-main" class="navigation__list" aria-labelledby="navigation-main-toggle" role="menubar" aria-orientation="horizontal" >
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/"
+                               tabindex="0"
+                               >
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Services"
+                               tabindex="0"
+                               >
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <button class="navigation__item-link"
+                                    type="button"
+                                    role="menuitem"
+                                    tabindex="0"
+                                    aria-controls="E6ED6841C803456E8383CF3FC4CC49C7-sub-nav"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    aria-label="Divisions &amp; Offices">
+                                Divisions &amp; Offices
+                                <span class="navigation__sub-nav-toggle"></span>
+                                <span class="icon-plus"></span><span class="icon-minus"></span>
+                                <span class="sr-only">Sub Menu Toggle</span>
+                            </button>
+
+                            <ul id="E6ED6841C803456E8383CF3FC4CC49C7-sub-nav" class="navigation__sub-nav" role="menu" aria-label="Divisions &amp; Offices">
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/BSC"
+                                           tabindex="-1"
+                                           >
+                                            Building Standards Commission
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/CCDA"
+                                           tabindex="-1"
+                                           >
+                                            California Commission on Disability Access
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/DSA"
+                                           tabindex="-1"
+                                           >
+                                            Division of the State Architect
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/FMD"
+                                           tabindex="-1"
+                                           >
+                                            Facilities Management Division
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OAH"
+                                           tabindex="-1"
+                                           >
+                                            Office of Administrative Hearings
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Audit Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OBAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Business and Acquisition Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OFS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Fiscal Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OFAM"
+                                           tabindex="-1"
+                                           >
+                                            Office of Fleet and Asset Management
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OHR"
+                                           tabindex="-1"
+                                           >
+                                            Office of Human Resources
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OLS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Legal Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OPSC"
+                                           tabindex="-1"
+                                           >
+                                            Office of Public School Construction
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/ORIM"
+                                           tabindex="-1"
+                                           >
+                                            Office of Risk and Insurance Management
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OSP"
+                                           tabindex="-1"
+                                           >
+                                            Office of State Publishing
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OoS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Sustainability
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OTAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Training and Administrative Standards
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/PD"
+                                           tabindex="-1"
+                                           >
+                                            Procurement Division
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/RESD"
+                                           tabindex="-1"
+                                           >
+                                            Real Estate Services Division
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <button class="navigation__item-link"
+                                    type="button"
+                                    role="menuitem"
+                                    tabindex="0"
+                                    aria-controls="033543813F6B4CCBAD196EA91F5FCE30-sub-nav"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    aria-label="Resources">
+                                Resources
+                                <span class="navigation__sub-nav-toggle"></span>
+                                <span class="icon-plus"></span><span class="icon-minus"></span>
+                                <span class="sr-only">Sub Menu Toggle</span>
+                            </button>
+
+                            <ul id="033543813F6B4CCBAD196EA91F5FCE30-sub-nav" class="navigation__sub-nav" role="menu" aria-label="Resources">
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/E-Signature-Toolkit"
+                                           tabindex="-1"
+                                           >
+                                            E-Signature Toolkit
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/RESD/Projects/Page-Content/Projects-List-Folder/Executive-Order-N-06-19-Affordable-Housing-Development"
+                                           tabindex="-1"
+                                           >
+                                            Affordable Housing Development
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/Legislative-Reports"
+                                           tabindex="-1"
+                                           >
+                                            Legislative Reports
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/ManagementMemos"
+                                           tabindex="-1"
+                                           >
+                                            Management Memos
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/SAM"
+                                           tabindex="-1"
+                                           aria-current="page">
+                                            State Administrative Manual (SAM)
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual"
+                                           tabindex="-1"
+                                           >
+                                            State Contracting Manual
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/Statewide-Forms"
+                                           tabindex="-1"
+                                           >
+                                            Statewide Forms Program
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/About/Strategic-Plan"
+                                           tabindex="-1"
+                                           >
+                                            Strategic Plan
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Press-Releases"
+                               tabindex="0"
+                               >
+                                <span>Press Releases</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/OHR/Careers"
+                               tabindex="0"
+                               >
+                                <span>Careers</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/About"
+                               tabindex="0"
+                               >
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Contact"
+                               tabindex="0"
+                               >
+                                <span>Contact</span>
+                            </a>
+                        </li>
+        </ul>
+    </nav>
+
+<div id="main-content" class="main-content">
+    <!--This works because the fields aren't present in child templates.  Field value is never "" or null-->
+    <main class="main-primary" id="printarea">
+        
+        <div>
+
+    <ol class="breadcrumb">
+            <li><a href="/Resources/SAM"> SAM</a></li>
+            <li><a href="/Resources/SAM/TOC"> TOC</a></li>
+            <li><a href="/Resources/SAM/TOC/5300"> 5300</a></li>
+        <li class="active"><a href="/Resources/SAM/TOC/5300/Chapter-View">Chapter-View</a></li>
+    </ol>
+</div>
+
+<style>
+    .breadcrumb {
+       background-color: #ffffff !important;
+    }
+</style>
+
+    <h1>Chapter 5300 - Chapter-View</h1>
+<div class="pull-right" style="padding-bottom: 5px;">
+    <button id="btn" type="button" class="btn btn-primary" onclick="printChapterView()">Print Chapter</button>
+  
+    
+</div>
+    <div class="row">
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th colspan="6" scope="col">Subject</th>
+                    <th scope="col">Section</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td colspan="6" scope="row">INTRODUCTION</td>
+                        <td>5300</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ARRANGEMENT OF CHAPTER</td>
+                        <td>5300.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">GOVERNING PROVISIONS</td>
+                        <td>5300.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">APPLICABILITY</td>
+                        <td>5300.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">DEFINITIONS</td>
+                        <td>5300.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">MINIMUM SECURITY CONTROLS</td>
+                        <td>5300.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SECURITY PROGRAM</td>
+                        <td>5305</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SECURITY PROGRAM MANAGEMENT</td>
+                        <td>5305.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">POLICY, PROCEDURE AND STANDARDS MANAGEMENT</td>
+                        <td>5305.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SECURITY ROLES AND RESPONSIBILITIES</td>
+                        <td>5305.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PERSONNEL MANAGEMENT</td>
+                        <td>5305.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION ASSET MANAGEMENT</td>
+                        <td>5305.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">RISK MANAGEMENT</td>
+                        <td>5305.6</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">RISK ASSESSMENT</td>
+                        <td>5305.7</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PROVISIONS FOR AGREEMENTS WITH STATE AND NON-STATE ENTITIES</td>
+                        <td>5305.8</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SECURITY PROGRAM METRICS</td>
+                        <td>5305.9</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PRIVACY</td>
+                        <td>5310</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">STATE ENTITY PRIVACY STATEMENT AND NOTICE ON COLLECTION</td>
+                        <td>5310.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">LIMITING COLLECTION</td>
+                        <td>5310.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">LIMITING USE AND DISCLOSURE</td>
+                        <td>5310.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INDIVIDUAL ACCESS TO PERSONAL INFORMATION</td>
+                        <td>5310.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION INTEGRITY</td>
+                        <td>5310.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">DATA RETENTION AND DESTRUCTION</td>
+                        <td>5310.6</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SECURITY SAFEGUARDS</td>
+                        <td>5310.7</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PRIVACY THRESHOLD AND PRIVACY IMPACT ASSESSMENTS</td>
+                        <td>5310.8</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SECURITY INTEGRATION</td>
+                        <td>5315</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SYSTEM AND SERVICES ACQUISITION</td>
+                        <td>5315.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SYSTEM DEVELOPMENT LIFECYCLE (SDLC)</td>
+                        <td>5315.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION ASSET DOCUMENTATION</td>
+                        <td>5315.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SYSTEM DEVELOPER SECURITY TESTING</td>
+                        <td>5315.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">CONFIGURATION MANAGEMENT</td>
+                        <td>5315.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ACTIVATE ONLY ESSENTIAL FUNCTIONALITY</td>
+                        <td>5315.6</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SOFTWARE USAGE RESTRICTIONS</td>
+                        <td>5315.7</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION ASSET CONNECTIONS</td>
+                        <td>5315.8</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SECURITY AUTHORIZATION</td>
+                        <td>5315.9</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">TRAINING AND AWARENESS FOR INFORMATION SECURITY AND PRIVACY</td>
+                        <td>5320</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SECURITY AND PRIVACY AWARENESS</td>
+                        <td>5320.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SECURITY AND PRIVACY TRAINING</td>
+                        <td>5320.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SECURITY AND PRIVACY TRAINING RECORDS</td>
+                        <td>5320.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PERSONNEL SECURITY</td>
+                        <td>5320.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">BUSINESS CONTINUITY WITH TECHNOLOGY RECOVERY</td>
+                        <td>5325</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">TECHNOLOGY RECOVERY PLAN</td>
+                        <td>5325.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">TECHNOLOGY RECOVERY TRAINING</td>
+                        <td>5325.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">TECHNOLOGY RECOVERY TESTING</td>
+                        <td>5325.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ALTERNATE STORAGE AND PROCESSING SITE</td>
+                        <td>5325.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">TELECOMMUNICATIONS SERVICES</td>
+                        <td>5325.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SYSTEM BACKUPS</td>
+                        <td>5325.6</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SECURITY COMPLIANCE</td>
+                        <td>5330</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SECURITY ASSESSMENTS</td>
+                        <td>5330.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">COMPLIANCE REPORTING</td>
+                        <td>5330.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SECURITY MONITORING</td>
+                        <td>5335</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">CONTINUOUS MONITORING</td>
+                        <td>5335.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">AUDITABLE EVENTS</td>
+                        <td>5335.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION SECURITY INCIDENT MANAGEMENT</td>
+                        <td>5340</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INCIDENT RESPONSE TRAINING</td>
+                        <td>5340.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INCIDENT RESPONSE TESTING</td>
+                        <td>5340.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INCIDENT HANDLING</td>
+                        <td>5340.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INCIDENT REPORTING</td>
+                        <td>5340.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">VULNERABILITY AND THREAT MANAGEMENT</td>
+                        <td>5345</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">OPERATIONAL SECURITY</td>
+                        <td>5350</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ENCRYPTION</td>
+                        <td>5350.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ENDPOINT DEFENSE</td>
+                        <td>5355</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">MALICIOUS CODE PROTECTION</td>
+                        <td>5355.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SECURITY ALERTS, ADVISORIES, AND DIRECTIVES</td>
+                        <td>5355.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">IDENTITY AND ACCESS MANAGEMENT</td>
+                        <td>5360</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">REMOTE ACCESS</td>
+                        <td>5360.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">WIRELESS ACCESS</td>
+                        <td>5360.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PHYSICAL SECURITY</td>
+                        <td>5365</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ACCESS CONTROL FOR OUTPUT DEVICES</td>
+                        <td>5365.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">MEDIA PROTECTION</td>
+                        <td>5365.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">MEDIA DISPOSAL</td>
+                        <td>5365.3</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal">Please wait... We are generating the manual...</div>
+<style>
+    .scWebEditInput {
+    
+    width:auto;
+    }
+
+
+</style>
+<div class="row">
+    <h1>INTRODUCTION - 5300</h1>
+        <p>
+            <strong>(Revised: 12/2013 )</strong>
+        </p>
+    <p>
+        <p><span>Information security refers to the protection of information, information systems, equipment, software, and people from a wide spectrum of threats and risks. Implementing appropriate security measures and controls to provide for the confidentiality, integrity, and availability of information, regardless of its form (electronic, optical, oral, print, or other media), is critical to ensure business continuity, and protect information assets against unauthorized access, use, disclosure, disruption, modification, or destruction. Information security is also the means by which privacy of personal information held by state entities is protected.</span></p>
+<p><span>The state's information assets, including its data processing capabilities, information technology infrastructure and data are an essential public resource. For many state entities, program operations would effectively cease in the absence of key computer systems. In some cases, public health and safety would be immediately jeopardized by the failure or disruption of a system. The non-availability of state information systems and resources can also have a detrimental impact on the state economy and the&nbsp; citizens who rely on state programs. Furthermore, the unauthorized acquisition, access, modification, deletion, or disclosure of information included in state entity files and databases can compromise the integrity of state programs, violate individual right to privacy, and constitute a criminal act.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ARRANGEMENT OF CHAPTER - 5300.1</h1>
+        <p>
+            <strong>(Revised: 12/2013 )</strong>
+        </p>
+    <p>
+        <p><span>This Chapter and its corresponding sections are organized as follows:</span></p>
+<p><strong><span>Introduction</span></strong><span>: A brief description introducing the section, when necessary.</span></p>
+<p><strong><span>Policy</span></strong><span>: A clear and unambiguous &ldquo;Policy&rdquo; statement which directs state entities at a high level as to required actions and outcomes.</span></p>
+<p><strong><span>Governing Provisions</span></strong><span>: Identifies any additional overarching laws, regulations or policies governing or related to the specific policy requirement.</span></p>
+<p><strong><span>Implementation Controls</span></strong><span>: Refers to the standards, instructions, procedures, and forms directing state entities in the &ldquo;how&rdquo; to comply with policy set forth in this Chapter.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>GOVERNING PROVISIONS - 5300.2</h1>
+        <p>
+            <strong>(Revised: 12/2021 )</strong>
+        </p>
+    <p>
+        <p style="background: white; margin-bottom: 9pt;"><strong><span style="color: black;"><br />
+Policy:&nbsp;</span></strong><span style="color: black;">As set forth in Government Code section&nbsp;</span><span style="color: black;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11549.3"><span style="color: #0066aa;">11549.3</span></a></span><span style="color: black;">, state entities shall comply with the information security and privacy policies, standards and procedures issued by the California Information Security Office (CISO). In addition to compliance with the information security and privacy policies, standards, procedures, and filing requirements issued by the CISO, state entities shall ensure compliance with all security and privacy laws, regulations, rules, and standards specific to and governing the administration of their programs. Program administrators shall work with their general counsel, Information Security Officer (ISO), and Privacy Program Officer/Coordinator to identify all security and privacy requirements applicable to their programs and ensure implementation of the requisite controls.</span></p>
+<p style="background: white; margin-bottom: 9pt;"><strong><span style="color: black;">Governing Provisions:&nbsp;</span></strong><span style="color: black;">Government Code section&nbsp;</span><span style="color: black;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11549.3"><span style="color: #0066aa;">11549.3</span></a></span><span style="color: black;">&nbsp;provides the CISO with the responsibility and authority to create, issue, and maintain policies, standards, and procedures; direct each state entity to effectively manage risk; advise and consult with each state entity on security issues; and ensure each state entity is in compliance with the requirements specified in the State Administrative Manual (SAM) Chapter 5300.</span></p>
+<p style="background: white; margin-bottom: 9pt;"><span style="color: black;">Government Code section&nbsp;</span><span style="color: black;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11549.3"><span style="color: #0066aa;">11549.3</span></a></span><span style="color: black;">&nbsp;also provides the CISO with the responsibility to coordinate the activities of state entity ISOs for purposes of integrating statewide security initiatives and ensuring compliance with information security and privacy policies and standards. The CISO is also provided with the authority to conduct, or require to be conducted, independent security assessments or audits of any entity. The cost of such assessments or audits shall be funded by the state entity being assessed or audited.</span></p>
+<p style="background: white; margin-bottom: 9pt;"><span style="color: black;">Many information security and privacy requirements are program specific; thus, the legal and regulatory requirements may vary from one program to another. For example, the laws governing security and privacy for health care programs differ from the laws governing energy programs. The following overarching laws, which affect the categorization, classification, protection, and dissemination of information, are applicable to most state entities:</span></p>
+<ol>
+    <li style="color: black; background: white;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&amp;sectionNum=SECTION%201.&amp;article=I"><span style="color: #0066aa;">Article 1, Section 1</span></a><span>, of the Constitution of the State of California defines pursuing and obtaining privacy as an inalienable right.</span></li>
+    <li style="color: black; background: white;"><span>The Information Practices Act of 1977 (Civil Code section&nbsp;</span><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&amp;sectionNum=1798"><span style="color: #0066aa;">1798</span></a><span>, et seq.) places specific requirements on each state entity in the collection, use, maintenance, and dissemination of information relating to individuals.</span></li>
+    <li style="color: black; background: white;"><span>The California Public Records Act (Government Code sections </span><a href="https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=GOV&amp;division=10.&amp;title=1.&amp;part=&amp;chapter=&amp;article="><span>7920.000-7931.000</span></a><span>) provides for the inspection of public records and authorizes specific exemptions for not disclosing certain records or portions of certain records.</span></li>
+    <li style="color: black; background: white;"><span>The State Records Management Act (Government Code sections </span><a href="https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=GOV&amp;division=3.&amp;title=2.&amp;part=5.5.&amp;chapter=5.&amp;article="><span>14740-14770</span></a><span>) provides for the application of management methods to the creation, utilization, maintenance, retention, preservation, and disposal of state records, including determination of records essential to the continuation of state government in the event of a major disaster. (</span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/1600"><span style="color: #0066aa;">SAM sections 1601 through 1699&nbsp;</span></a><span>contain administrative regulations in support of the Records Management Act.)</span></li>
+    <li style="color: black; background: white;"><span>The Comprehensive Computer Data Access and Fraud Act (Penal Code section&nbsp;</span><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PEN&amp;sectionNum=502"><span style="color: #0066aa; background: white;">502</span></a><span>) affords protection to individuals, businesses, and governmental entities from tampering, interference, damage, and unauthorized access to computer data and computer systems. It allows for civil action against any person convicted of violating the criminal provisions for compensatory damages.</span></li>
+</ol>
+<p>&nbsp;</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>APPLICABILITY - 5300.3</h1>
+        <p>
+            <strong>(Revised: 12/2013 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy:&nbsp; </span></strong><span>SAM Chapter 5300 shall apply to the following:</span></p>
+<ol>
+    <li><span>All state entities unless otherwise specifically exempted by law or state policy.</span></li>
+    <li><span>All categories of automated and paper information, including, but not limited to, records, files, and databases.</span></li>
+    <li><span>Information technology facilities, software, and equipment, including personal computer systems owned or leased by state entities.</span></li>
+</ol>
+<p><span>For the purposes of this Chapter, the term &ldquo;state entity&rdquo; shall denote a State of California agency, department, office, board, bureau, or other distinct governmental organization in the executive branch. Where a requirement, obligation, or responsibility is assigned to a state entity, the state entity head shall accept or delegate that requirement to an individual or individuals fully qualified to effectively ensure compliance with the requirement, and ensure the obligation and responsibility is met. Ultimately, the state entity head shall be responsible for policy compliance.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>DEFINITIONS - 5300.4</h1>
+        <p>
+            <strong>(Revised: 06/2018 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall use the information security and privacy definitions issued by the CISO in implementing information security and privacy policy in their daily operations. The definitions are located on the CISO website at </span><a href="https://cdt.ca.gov/security/technical-definitions/"><span>Security Technical Definitions</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>MINIMUM SECURITY CONTROLS - 5300.5</h1>
+        <p>
+            <strong>(Revised: 12/2019 )</strong>
+        </p>
+    <p>
+        <p style="margin-right: 7.4pt;"><strong>Policy: </strong>California has adopted the <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"><span style="color: blue;">National Institute of Standards and Technology</span></a><span style="color: blue;"> </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"><span style="color: blue;">(NIST) Special Publication (SP) 800-53</span><span style="text-decoration: none; color: blue;"> </span></a>as minimum information security control requirements to support implementation and compliance with the Federal Information Processing Standards (<a href="https://csrc.nist.gov/publications/PubsFIPS.html">FIPS</a>)<span style="color: blue;"></span>. Each state entity shall use the <a href="https://csrc.nist.gov/publications/PubsFIPS.html"><span style="color: blue;">FIPS</span><span style="text-decoration: none; color: blue;"> </span></a>and <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"><span style="color: blue;">NIST SP 800-53</span></a><span style="color: blue;"> </span>in the planning, development, implementation, and maintenance of their information security programs. Adoption of these standards will facilitate a more consistent, comparable, and repeatable approach for securing state assets; and, create a foundation from which standardized assessment methods and procedures may be used to measure security program effectiveness.</p>
+<p style="margin-right: 12.7pt;">The CISO has also adopted additional standards and procedures to address more specific requirements or needs unique to California.<span>&nbsp; </span>These additional standards are referenced in the applicable policy section and maintained in the <a href="https://cdt.ca.gov/policy/simm/#SIMM">Statewide Information Management Manual (SIMM)</a>. Entities shall ensure their security control selections and tailoring, at a minimum, comply with the State-defined Security Parameters for NIST SP 800-53 (SIMM 5300-A) and the prioritization of their information security program development and implementation align with the Foundational Framework for Information Security (SIMM 5300-B).</p>
+<p style="margin-top: 4.6pt;"><strong>Governing Provisions: </strong><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/5100/5100"><span style="text-decoration: none; color: blue;">SAM Section </span><span style="color: blue;">5100</span><span style="text-decoration: none; color: blue;"> </span></a>requires state entities to use the <a href="https://www.ansi.org/"><span style="color: blue;">American</span></a><span style="color: blue;"> </span><a href="https://www.ansi.org/"><span style="color: blue;">National Standards Institute (ANSI) </span></a>and the <a href="https://csrc.nist.gov/publications/PubsFIPS.html"><span style="color: blue;">FIPS</span><span style="text-decoration: none; color: blue;"> </span></a>standards in their information management planning and operations.</p>
+<p><strong>Implementation Controls: </strong><a href="https://www.ansi.org/"><span style="color: blue;">ANSI</span></a>; <a href="https://csrc.nist.gov/publications/PubsFIPS.html"><span style="color: blue;">FIPS</span></a>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"><span style="color: blue;">NIST SP 800-53</span></a><span style="color: blue;">; </span><span style="color: blue;"><a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM</a> </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>5300-A</span></a><span style="color: blue;"> and <a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM</a> </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>5300-B</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SECURITY PROGRAM - 5305</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity is responsible for establishing an information security program. The program shall include planning, oversight, and coordination of its information security program activities to effectively manage risk, provide for the protection of information assets, and prevent illegal activity, fraud, waste, and abuse in the use of information assets.</span></p>
+<p><span>Each state entity shall:</span></p>
+<ol>
+    <li><span>Align the information security program, its activities, and staff with the requirements of this Chapter;</span></li>
+    <li><span>Establish a governance body to direct the development of state entity specific information security plans, policies, standards, and other authoritative documents;</span></li>
+    <li><span>Oversee the creation, maintenance, and enforcement of established information security policies, standards, procedures, and guidelines;</span></li>
+    <li><span>Ensure the state entity&rsquo;s security policies and procedures are fully documented and state entity staff is aware of, has agreed to comply with, and understands the consequences of failure to comply with policies and procedures;</span></li>
+    <li><span>Identify and integrate or align information security goals and objectives to the state entity&rsquo;s strategic and tactical plans;</span></li>
+    <li><span>Develop and track information security and privacy risk key performance indicators;</span></li>
+    <li><span>Develop and disseminate security and privacy metrics and risk information to state entity executives and other managers for decision making purposes; and</span></li>
+    <li><span>Coordinate state entity security efforts with local government entities and other branches of government as applicable.</span></li>
+</ol>
+<p><strong><span>Implementation Controls: </span></strong><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"><span>NIST SP 800-53</span></a><span>: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=221">Planning (PL)</a>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=230">Program Management (PM)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SECURITY PROGRAM MANAGEMENT - 5305.1</h1>
+        <p>
+            <strong>(Revised: 08/2015 )</strong>
+        </p>
+    <p>
+        <p style="margin: 0in 0in 8pt;"><strong><span>Policy: </span></strong><span>Each state entity must provide for the proper use and protection of its information assets. Accordingly each state entity shall:</span></p>
+<ol style="list-style-type: decimal;">
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Develop, implement, and maintain a state entity-wide Information Security Program Plan.</span></p>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Ensure the plan documentation provides the following:</span></p>
+    <ol style="list-style-type: lower-alpha;">
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>an overview of the requirements for the state entity&rsquo;s information security program;</span></p>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>a description of the state entity&rsquo;s strategy and prioritization approach to information security, privacy, and risk management;</span></p>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>a plan for integrating information security resource needs into the state entity&rsquo;s capital planning and funding request processes; and</span></p>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>a plan of action and milestones (POAM) process for addressing program deficiencies. State entities shall use the standardized POAM reporting instructions and tool (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span style="text-decoration: underline;">SIMM 5305-B and SIMM 5305-C</span></a><span>, respectively).</span></p>
+        </li>
+    </ol>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Ensure the plan is approved and disseminated by the state entity head responsible and accountable for risks incurred to the state entity&rsquo;s mission, functions, assets, image and reputation.</span></p>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Identify roles and responsibilities, and assign management responsibilities for information security program management consistent with the roles and responsibilities described in the Information Security Program Management Standard (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span style="text-decoration: underline;">SIMM 5305-A</span></a><span>).</span></p>
+    <p style="margin-top: 0in; margin-bottom: 8pt;"><strong><span>Implementation Controls: </span></strong><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"><span style="text-decoration: underline;">NIST SP 800-53</span></a><span>: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=221"><span style="text-decoration: underline;">Planning (PL)</span></a><span>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=230"><span style="text-decoration: underline;">Program Management (PM)</span></a>; </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span style="text-decoration: underline;">Information Security Program Management Standard (SIMM 5305-A)</span></a><span>; <a href="https://cdt.ca.gov/policy/simm/#SIMM"><span style="text-decoration: underline;">Plan of Action and Milestones (SIMM 5305-B and SIMM 5305-C) <br />
+    </span></a></span></p>
+    </li>
+</ol>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>POLICY, PROCEDURE AND STANDARDS MANAGEMENT - 5305.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity must provide for the protection of its information assets by establishing appropriate administrative, operational and technical policies, standards, and procedures to ensure its operations conform with business requirements, laws, and administrative policies, and personnel maintain a standard of due care to prevent misuse, loss, disruption or compromise of state entity information assets. Each state entity shall adopt, maintain and enforce internal administrative, operational and technical policies, standards and procedures in accordance with </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5305-A</span></a><span style="text-decoration: underline;"> </span><span>to support information security program plan goals and objectives.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"><span>NIST SP 800-53</span></a><span>: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=221"><span>Planning (PL)</span></a><span>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=230">Program Management (PM)</a>; </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5305-A</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SECURITY ROLES AND RESPONSIBILITIES - 5305.3</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Information security is a shared responsibility. All personnel have a role and responsibility in the proper use and protection of state information assets. Each state entity shall ensure information security program roles and responsibilities identified in </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5305-A</span></a><span style="text-decoration: underline;"> </span><span>are acknowledged and understood by all state entity personnel.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf"><span>NIST SP 800-53</span></a><span>: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=221"><span>Planning (PL)</span></a><span>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=230">Program Management (PM)</a>; </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5305-A</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PERSONNEL MANAGEMENT - 5305.4</h1>
+        <p>
+            <strong>(Revised: 12/2013 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity must identify security and privacy roles and responsibilities for all personnel. This will ensure personnel are informed of their roles and responsibilities for using state entity information assets, to reduce the risk of inappropriate use, and a documented process to remove access when changes occur. Personnel practices related to security management must include:</span></p>
+<ol>
+    <li><span>Employment history, fingerprinting, and/or criminal background checks on personnel who work with or have access to confidential, personal, or sensitive information or critical applications may be necessary for a particular state entity. Each state entity should consult the California Human Resources Department and the Department of Justice for specific rules and regulations relative to employment history, fingerprinting, or criminal background checks.</span></li>
+    <li><span>Initial training of state entity personnel with respect to individual, state entity, and statewide security and privacy responsibilities and policies before being granted access to information assets, and annually thereafter.</span></li>
+    <li><span>Signing of acknowledgments of security and privacy responsibility by all personnel.</span></li>
+    <li><span>Transfer procedures that ensure access rights and permissions to state entity information assets are reviewed for appropriateness and reauthorized by program management when personnel is transferred within the state entity, so that access to information assets is limited to that which is needed by personnel in the performance of their job-related duties.</span></li>
+    <li><span>Termination procedures that ensure state entity information assets are not accessible to separated personnel.</span></li>
+</ol>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION ASSET MANAGEMENT - 5305.5</h1>
+        <p>
+            <strong>(Revised: 10/2023 )</strong>
+        </p>
+    <p>
+        <p style="margin-bottom: 9pt;"><strong><br />
+</strong></p>
+<p style="margin-bottom: 9pt;"><strong><span>Introduction:&nbsp;</span></strong><span>Information Asset Management (IAM) is a collection of knowledge or data that is organized, managed, and valuable. It involves safeguarding sensitive data ensuring that information is readily available to support decision-making, innovation, and operational efficiency.</span></p>
+<p style="margin-bottom: 9pt;"><strong><span>Policy:&nbsp;</span></strong><span>Each Agency/state entity must understand the value of its information assets and the level of protection those assets require. To this end, each Agency/state entity shall establish and maintain an inventory of all its information assets, including information systems, information system components, and information repositories (both electronic and paper). The inventory shall list all programs and information systems identified as collecting, using, maintaining, or sharing Agency/state entity information. The inventory must include categorization and classification of the information assets by program management and based on the Information Security Program Management Standard (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5305-A</span></a><span>), California Public Records Act (Government Code sections </span><a href="https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=GOV&amp;division=10.&amp;title=1.&amp;part=&amp;chapter=&amp;article="><span>7920.000-7931.000</span></a><span>), Information Practices Act of 1977 (Civil Code Section&nbsp;</span><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&amp;sectionNum=1798"><span>1798</span></a><span>, et seq.),&nbsp;</span><a href="https://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf"><span>FIPS Publication 199</span></a><span>, and laws governing administration of the Agency/state entity&rsquo;s programs.</span></p>
+<p style="margin-bottom: 9pt;"><span>The categorization and classification of information assets shall be to determine an asset&rsquo;s needed level of protection. If the information asset&rsquo;s level of protection is not clear, the Agency/state entity is to protect the asset to the categorization level of &ldquo;Moderate&rdquo; as defined by&nbsp;</span><a href="https://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf"><span>FIPS Publication 199</span></a><span>. Where the Agency/state entity is the custodian or user of the information asset and not the owner, as in the case of Federal Tax Information, Criminal Justice Information Services information, and so forth the Agency/state entity shall ensure the data owner specifies the level of protection. The Agency/state entity shall adhere to the data owner&rsquo;s classification and level of protection requirements.</span></p>
+<p style="margin-bottom: 9pt;"><span>Each information asset for which the Agency/state entity has ownership responsibility shall be inventoried and identified to include the following:</span></p>
+<ol>
+    <li><span>Description and value of the information asset.</span></li>
+    <li><span>Owner of the information asset.</span></li>
+    <li><span>Custodians of the information asset.</span></li>
+    <li><span>Users of the information asset.</span></li>
+    <li><span>Classification of information.</span></li>
+    <li><a href="https://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf"><span>FIPS Publication 199&nbsp;</span></a><span>categorization and level of protection (Low, Moderate, or High).</span></li>
+    <li><span>Importance of information assets to the execution of the Agency/state entity&rsquo;s mission and program function.</span></li>
+    <li><span>Potential consequences and impacts if confidentiality, integrity, and availability of the information asset were compromised.</span></li>
+</ol>
+<p style="margin-bottom: 9pt;"><span>The Agency/state entity must protect all personal information defined by the California Information Practices Act (Civil Code Sections 1798.3 and 1798.29), and medical information and individually identifiable information defined by the California Medical Information Act (Civil Code Section 56.05) to a minimum FIPS Publication 199 categorization level of &ldquo;Moderate&rdquo;.</span></p>
+<p style="margin-bottom: 9pt;"><strong> <strong><span>Implementation Controls:&nbsp;</span></strong><span>NIST SP 800-53:&nbsp;</span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=221"><span>Planning (PL)</span></a></span><span>;&nbsp;</span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=230"><span>Program Management (PM)</span></a></span><span>;&nbsp;</span><span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>Information Security Program Management Standard (SIMM 5305-A)</span></a></span><span>; and&nbsp;</span><span><a href="https://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf"><span>FIPS Publication 199</span></a></span><span>.</span></strong></p>
+<p style="margin-bottom: 9pt;"><strong><span></span></strong></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>RISK MANAGEMENT - 5305.6</h1>
+    <p>
+        <div>
+<p><strong><span>Policy: </span></strong><span>Each state entity shall create a state entity-wide information security, privacy and risk management strategy which includes a clear expression of risk tolerance for the organization, acceptable risk assessment methodologies, risk mitigation strategies, and a process for consistently evaluating risk across the organization with respect to the state entity&rsquo;s risk tolerance, and approaches for monitoring risk over time.</span></p>
+<p><span>The state entity&rsquo;s risk management strategy and methodologies shall be consistent with </span><a href="https://csrc.nist.gov/publications/nistpubs/800-30-rev1/sp800_30_r1.pdf"><span>NIST SP 800-30</span></a><span style="text-decoration: underline;"> </span><span>and </span><a href="https://csrc.nist.gov/publications/detail/sp/800-39/final"><span>NIST SP 800-39</span></a><span>, and must include:</span></p>
+<ol>
+    <li><span>Risk assessments conducted at the three various levels of the risk management hierarchy, including:</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Organizational level;</span></li>
+        <li><span>Mission/Business process level; and</span></li>
+        <li><span>Information asset level.</span></li>
+    </ol>
+    </li>
+    <li><span>A risk assessment process to identify and assess risks associated with its information assets and define a cost-effective approach to managing such risks; including, but not limited to:</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Risk associated with introducing new information processes, systems and technology into the state entity environment;</span></li>
+        <li><span>Accidental and deliberate acts on the part of state entity personnel and outsiders;</span></li>
+        <li><span></span>Fire, flooding, and electric disturbances; and,</li>
+        <li>Loss or disruption of data communications capabilities.</li>
+    </ol>
+    </li>
+</ol>
+</div>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=221"><span>Planning (PL)</span></a><span>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=230">Program Management (PM)</a>; and <a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM 5305-A</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>RISK ASSESSMENT - 5305.7</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall conduct an assessment of risk, including the likelihood and magnitude of harm from the unauthorized access, use, disclosure, disruption, modification, or destruction of the information system/asset and the information it processes, stores, or transmits. Each state entity shall conduct a comprehensive risk assessment once every two years which assesses the state entity&rsquo;s risk management strategy for all three levels and documents the risk assessment results in a risk assessment report.</span></p>
+<p><span>The risk assessment process must include the following:</span></p>
+<ol>
+    <li><span>Assignment of responsibilities for risk assessment, including appropriate participation of executive, technical, and program management.</span></li>
+    <li><span>Identification of the state entity information assets that are at risk, with particular emphasis on the applications of information technology that are critical to state entity program operations. Identification of the threats to which the information assets could be exposed.</span></li>
+    <li><span>Assessment of the vulnerabilities, e.g., the points where information assets lack sufficient protection from identified threats.</span></li>
+    <li><span>Determination of the probable loss or consequences, based upon quantitative and qualitative evaluation, of a realized threat for each vulnerability and estimation of the likelihood of such occurrence.</span></li>
+    <li><span>Identification and estimation of the cost of protective measures which would eliminate or reduce the vulnerabilities to an acceptable level.</span></li>
+    <li><span>Selection of cost-effective security management measures to be implemented.</span></li>
+    <li><span>Preparation of a report, to be submitted to the state entity head and to be kept on file within the state entity, documenting the risk assessment, the proposed security management measures, the resources necessary for security management, and the amount of residual risk to be accepted by the state entity.</span></li>
+</ol>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=265"><span>Risk Assessment (RA)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PROVISIONS FOR AGREEMENTS WITH STATE AND NON-STATE ENTITIES - 5305.8</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <div>
+<p><strong><span>Introduction: </span></strong><span>State entities are required to enter into written agreements with state and non-state entities when they engage such entities in the development, use, or maintenance of information systems, products, solutions, or services.</span></p>
+</div>
+<span><br clear="all" />
+</span>
+<p><strong><span>Policy: </span></strong><span>Each state entity shall ensure agreements with state and non-state entities include provisions which protect and minimize risk to the state. Agreements shall include, at a minimum, provisions which cover the following:</span></p>
+<ol>
+    <li><span>Appropriate levels of security (confidentiality, integrity and availability) for the data based on data categorization and classification and </span><a href="https://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf"><span>FIPS Publication 199 </span></a><span>protection levels.</span></li>
+    <li><span>Standards for transmission and storage of the data, including encryption and destruction, if applicable.</span></li>
+    <li><span>Agreements to comply with statewide policies and laws regarding the use and protection of information resources and data, including those set forth in this Chapter.</span></li>
+    <li><span>Signed confidentiality statements.</span></li>
+    <li><span>Agreements to apply security patches and upgrades, and keep virus software up- to-date on all systems on which data may be used.</span></li>
+    <li><span>Agreements to notify the state data owners promptly if a security incident involving the information system or data occurs.</span></li>
+    <li><span>Agreements that the data owner shall have the right to participate in the investigation of a security incident involving its data or conduct its own independent investigation, and that data custodian shall cooperate fully in such investigations.</span></li>
+    <li><span>Agreements that the data custodian shall be responsible for all costs incurred by the data owner due to security incident resulting from the data custodian&rsquo;s failure to perform or negligent acts of its personnel, and resulting in an unauthorized disclosure, release, access, review, or destruction; or loss, theft or misuse of an information asset. If the contractor experiences a loss or breach of data, the contractor shall immediately report the loss or breach to the data owner. If the data owner determines that notice to the individuals whose data has been lost or breached is appropriate, the contractor will bear any and all costs associated with the notice or any mitigation selected by the data owner. These costs include, but are not limited to, staff time, material costs, postage, media announcements, and other identifiable costs associated with the breach or loss of data.</span></li>
+    <li><span>Agreements that the data custodian shall immediately notify and work cooperatively with the data owner to respond timely and correctly to public records act requests.</span></li>
+    <li><span>Agreements between the data custodian and data owner to address the appropriate disposition of records held by the data custodian during the term of its agreement with the data owner.</span></li>
+</ol>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53, </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276"><span>System and Services Acquisition (SA)</span></a>, <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SECURITY PROGRAM METRICS - 5305.9</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <div>
+<p><strong><span>Introduction: </span></strong><span>Performance with respect to security controls must be measured to determine whether the needs of the state entity are being met. Security metrics assist with adjustments to security controls in order to improve effectiveness.</span></p>
+</div>
+&nbsp;
+<p><strong><span>Policy: </span></strong><span>Each state entity shall establish outcome-based metrics to measure the effectiveness and efficiency of the state entity&rsquo;s information security program, and the security controls deployed.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276"><span>System and Services Acquisition (SA)</span></a><span>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=110">Assessment, Authorization, and Monitoring (CA)</a>&nbsp;</span><span>; </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=142"><span>Contingency Planning (CP)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PRIVACY - 5310</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Introduction: </span></strong><span>Privacy can be understood as the rights of individuals, as defined by law, to control the collection and use of their personal information. This privacy policy is based generally on the Information Practices Act of 1977 (Civil Code section </span><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&amp;sectionNum=1798"><span>1798</span></a><span>, et seq.). In addition to its general application, the Information Practices Act of 1977 is broad in scope, drawing from the <a href="http://www.oecdprivacy.org/">Fair Information Practice Principles (FIPPs)</a>,&nbsp;which form the basis for most privacy laws in the United States and around the world. The FIPPs help entities attain public trust and mitigate loss and risk stemming from privacy incidents.</span></p>
+<p><span>Included among the principles are transparency, notice, and choice. Some state entities are also subject to additional state and federal privacy laws related to particular types of personal information.</span></p>
+<p><strong><span>Governing Authority: </span></strong><span>The following overarching privacy laws are applicable to state entities:</span></p>
+<ol>
+    <li><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CONS&amp;sectionNum=SECTION%201.&amp;article=I"><span>Article 1, Section 1</span></a><span>, of the Constitution of the State of California defines pursuing and obtaining privacy as an inalienable right.</span></li>
+    <li><span>The Information Practices Act of 1977 (Civil Code section </span><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&amp;sectionNum=1798"><span>1798</span></a><span>, et seq.) places specific requirements on each state entity in the collection, use, maintenance, and dissemination of information relating to individuals.</span></li>
+    <li><span>Government Code Section </span><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11019.9"><span>11019.9 </span></a><span>requires state agencies to enact and to maintain a privacy policy and to designate an employee to be responsible for the policy. The policy must describe the agency's practices for handling personal information, as further required in the Information Practices Act.</span></li>
+</ol>
+<p><strong><span>Policy: </span></strong><span>State entity heads shall direct the establishment of an entity-specific Privacy Program. The Privacy Program shall ensure, and privacy coordinators shall confirm, that the requirements contained in the California Information Practices Act, this policy and the associated standards are adhered to by the state entity and its personnel.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>STATE ENTITY PRIVACY STATEMENT AND NOTICE ON COLLECTION - 5310.1</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Information asset owners shall be open about state entity information handling practices, including the purposes for which the state entity collects, uses, and discloses personal information of individuals. Each state entity Privacy Program Coordinator shall prepare, publish, and maintain a General Privacy Policy Statement and a Privacy Notice on Collection for each personal information collection in accordance with the Privacy Statement and Notices Standard (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5310-A</span></a><span>).</span></p>
+<p><span style="text-decoration: underline;">General Privacy Policy Statement</span></p>
+<p><span style="text-decoration: underline;"></span>Each state entity&rsquo;s general privacy policy, as required by Government Code section <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11019.9" style="background-color: #ffffff;">11019.9</a>, shall apply to the entire state entity and its subdivisions.</p>
+<p><span style="text-decoration: underline;">Privacy Notice on Collection</span></p>
+<p><span>When personal information is collected from an individual on or with any form, the information asset owner shall ensure that notice is provided to the individual at or before the time of collection. The content and presentation of the notice shall comply with requirements outlined in the Privacy Statement and Notices Standard (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5310-A</span></a><span>).</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span><span>, and <a name="LIMITING_COLLECTION_5310.2"></a><a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM 5310-A</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>LIMITING COLLECTION - 5310.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Information asset owners shall collect the least amount of personal information that is required to fulfill the purposes for which it is being collected. Information asset owners shall obtain personal information only through lawful means and shall collect personal information to the greatest extent practicable directly from the individual who is the subject of the information rather than from another source. Information asset owners shall endeavor to collect non-personal information, instead of personal information, if it is able to fulfill the same requirements.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>LIMITING USE AND DISCLOSURE - 5310.3</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <div>
+<p><strong><span>Policy: </span></strong><span>Information asset owners, custodians and users shall not disclose, use, or make available personal information collected from individuals for purposes other than those for which it was originally collected, except in the following situations:</span></p>
+<ol>
+    <li><span>The disclosure is made to the individual who is the subject of the information;</span></li>
+    <li><span>The nature of the disclosure is included in the Privacy Notice on Collection provided at or before the time of collection;</span></li>
+    <li><span>The individual who is the subject of the information, subsequent to collection, provides explicit consent to the disclosure or use; or</span></li>
+    <li><span>The use or disclosure is explicitly allowed under Civil Code section </span><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&amp;sectionNum=1798.24"><span>1798.24</span></a><span>.</span></li>
+</ol>
+<p><span style="text-decoration: underline;">Accounting of Disclosures</span></p>
+<p><span>Information asset owners shall keep an accurate accounting of the date, nature, and purpose of each disclosure of a record made under exception number 4 above.&nbsp;The&nbsp;</span>accounting shall include the date of the disclosure, and the name, title, and business address of the individual or state entity to which the disclosure was made.</p>
+</div>
+<p><span>Information asset owners shall retain the above referenced accounting for at least three years after the disclosure for which the accounting is made, or until the record is destroyed in accordance with the state entity record retention policy, whichever is shorter.</span></p>
+<p><span>Information asset owners shall inform any individual or state entity to whom a record containing personal information has been disclosed during the preceding three years of any correction of an error in the record or notation of a dispute about its accuracy.</span></p>
+<p><span style="text-decoration: underline;">Use of Information by Third Parties</span></p>
+<p><span>Information asset owners and users shall apply the requirements of this policy to any third party who handles personal information collected by the state entity, in order to accomplish a state entity function that is consistent with the original purposes for which it was collected. Any such third party and its personnel or agent with access to the personal information shall formally agree to be subject to the state entity&rsquo;s privacy policies and practices in the same manner as an employee of the state entity.</span></p>
+<p><span style="text-decoration: underline;">Social Security Numbers</span></p>
+<p><span>Information asset owners shall minimize the collection and use of Social Security numbers. Information asset owners shall not publicly post or publicly display in any manner an individual's Social Security number or otherwise permit handling of Social Security numbers in any manner inconsistent with the Privacy Individual Access Standard (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5310-B</span></a><span>).</span></p>
+<p><span>Information asset owners shall not permit Social Security numbers to be either entered into systems as authentication credentials or used as user unique identifiers within systems. This requirement shall apply to all new systems, and major changes or upgrades to existing systems.</span></p>
+<strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span><span>, and </span><span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5310-B</span></a></span>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INDIVIDUAL ACCESS TO PERSONAL INFORMATION - 5310.4</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <div>
+<p><strong><span>Policy: </span></strong><span>Each state entity shall ensure individuals are provided with information about their access rights and the procedures for exercising those rights.</span></p>
+<p><span style="text-decoration: underline;">Individuals Right to Access</span></p>
+<p><span>Each state entity Privacy Program Coordinator shall publish procedures for individuals to follow in exercising their rights to access records held by the state entity which contain their personal information. Such rights include the right to inquire and be informed as to whether the state entity maintains a record about the individual and the right to request a correction of or an amendment to their personal information. Such procedures shall be made available online if the state entity has a website, and shall otherwise comply with the Privacy Individual Access Standard (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5310-B</span></a><span>).</span></p>
+<p><span></span><span style="text-decoration: underline;">Personal Information in Public Records</span></p>
+</div>
+<p><span>Each state entity head shall include in the state entity&rsquo;s procedures for access to public records, a provision requiring the redaction of personal information prior to allowing inspection or releasing records in response to a California Public Records Act request.</span></p>
+<p><span></span><span style="text-decoration: underline;">Mailing Lists</span></p>
+<p><span style="text-decoration: underline;"></span>Upon written request of an individual, an information asset owner maintaining a mailing list shall remove the individual's name and contact information from such list, unless such name and contact information is exclusively used by the state entity to directly contact the individual. Information asset owners shall inform individuals, in the requisite Privacy Notice on Collection forms used to collect personal information, of their right to have their information removed from such mailing lists.</p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span><span>, and </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5310-B</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION INTEGRITY - 5310.5</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <div>
+<p><strong><span>Policy: </span></strong><span>Information asset owners shall maintain all records with accuracy, relevance, timeliness, and completeness.</span></p>
+<p><span style="text-decoration: underline;">Maintaining Record Integrity</span></p>
+<p><span>When an information asset owner uses a record to make a determination about an individual or transfers a record to another state or non-state entity, the owner shall correct, update, withhold, or delete any portion of the record that it knows or has reason to believe is inaccurate or out of date.</span></p>
+<p><span style="text-decoration: underline;">Maintaining Information Sources</span></p>
+<p><span>Whenever an information asset owner collects personal information, the owner shall either ensure that the individual is provided a copy of the source document or shall record and maintain the source of the information, unless the source is the individual record subject.</span></p>
+<p><span style="text-decoration: underline;">Ownership of Stored Records and State Archived Records</span></p>
+<ol>
+    <li><span>Stored Records: When records that contain personal information are transferred to the Department of General Services (DGS) for storage, information asset owners for the state entity transferring the records shall retain all owner responsibilities for the protection of the record as provided in this Chapter. The DGS shall not disclose the record except to the information asset owner or his designee, or in accordance with their instructions which must be in accordance with this policy and relevant laws.</span></li>
+    <li><span>State Archives: Information asset owners shall transfer a record pertaining to an identifiable individual to the State Archives only after determining, with concurrence by the state entity head, that the record has sufficient historical or other value to warrant its continued preservation by the California state government. In the event of this transfer, information asset ownership shall be formally transferred to an information asset owner in the State Archives, who shall accept all owner responsibilities contained in the enterprise information security and privacy policies and standards.</span></li>
+</ol>
+</div>
+<p><strong><span>Implementation Controls:&nbsp;</span></strong><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>DATA RETENTION AND DESTRUCTION - 5310.6</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Information asset owners shall retain and/or destroy records of personal information in accordance with the state entity&rsquo;s record retention and destruction policy and the </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>Privacy Individual Access Standard (SIMM 5310-B)</span></a><span>. Information asset owners shall take reasonable steps to keep personal information only as long as is necessary to carry out the purposes for which the information was collected.</span></p>
+<p><span>However, no record of personal information shall be destroyed or otherwise disposed of by any state entity unless:</span></p>
+<ol style="list-style-type: lower-alpha;">
+    <li><span>It is determined by the state entity head that the record has no further administrative, legal, or fiscal value;</span></li>
+    <li><span>The state entity head has determined that an audit has been performed forany record subject to audit; and</span></li>
+    <li><span>The Secretary of State has determined that the record is inappropriate for preservation in the State Archives.</span></li>
+</ol>
+<p><span style="text-decoration: underline;">Destruction of Electronically Collected Personal Information</span></p>
+<p><span>An information asset owner shall, upon request by the record subject, securely discard without reuse or distribution, any personal information collected through a state entity&rsquo;s website.</span></p>
+<strong><span>Implementation Controls:&nbsp;</span></strong><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a>, and <a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM 5310-B</a></span>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SECURITY SAFEGUARDS - 5310.7</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Information asset owners shall apply all applicable statewide and state entity information security laws, policies, standards, and procedures in order to protect personal information under the information asset owner&rsquo;s responsibility.</span></p>
+<p><strong><span>Implementation Controls:&nbsp;</span></strong><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PRIVACY THRESHOLD AND PRIVACY IMPACT ASSESSMENTS - 5310.8</h1>
+        <p>
+            <strong>(New: 11/2019 )</strong>
+        </p>
+    <p>
+        <p><strong>Policy: </strong>Information asset owners shall apply all applicable statewide and state entity information privacy and security laws, policies, standards, and procedures in order to protect personal information under the information asset owner&rsquo;s responsibility. This includes, but is not limited to conducting a Privacy Threshold Assessment (PTA) and if necessary, a Privacy Impact Assessment (PIA) when the collection, use, maintenance, storage, sharing, disclosure or disposal of personal information, as defined by Civil Code section 1798.3, is involved.<span>&nbsp; </span>A PTA and PIA shall be performed upon the development or procurement of new information system, and when proposing changes to an existing system. Information systems in this context may be manual or technology based.<span>&nbsp; </span>State entities shall use SIMM 5310-C or an equivalent tool to meet this requirement.</p>
+<p style="margin-right: 5.05pt;">Governing Provisions:&nbsp; Civil Code Sections 1798.21 and 1798.30</p>
+<p><strong><span>Implementation Controls:</span></strong></p>
+<p>NIST SP 800-53<span style="color: blue;">&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span></p>
+<p><a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM 5310-C</a><strong><span>&nbsp; </span></strong></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SECURITY INTEGRATION - 5315</h1>
+        <p>
+            <strong>(Revised: 10/2018 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity is responsible for the integration of information security and privacy within the organization. This includes, but is not limited to, the designing of appropriate security controls in new systems, or systems that are undergoing substantial redesign, including both in-house and outsourced solutions. Each state entity shall ensure its ISO, and where applicable its Privacy Program Coordinator and Technology Recovery Coordinator, are actively engaged with the owners of information, and project, procurement and technical personnel involved with information asset acquisition, development, operations, maintenance and disposal to:</span></p>
+<ol>
+    <li><span>Ensure information security is considered throughout the asset lifecycle, from acquisition and development through maintenance and operations, to retirement.</span></li>
+    <li><span>Integrate information security design requirements into both manual information handling and information processing functions, and information technology activities, including throughout the system development lifecycle (SDLC);</span></li>
+    <li><span>Create system security plans outlining key information security controls to mitigate risks;</span></li>
+    <li><span>Create and maintain residual risk documentation consistent with the State Information Management Principles, Record of Decisions (SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4800"><span>4800</span></a><span>);</span></li>
+    <li><span>Integrate information security (confidentiality, integrity, and availability) requirements into contracts for outsourced products and services, and any agreements with state and non-state entities;</span></li>
+    <li><span>Create, maintain, and enforce information security policies, standards, procedures, and guidelines;</span></li>
+    <li><span>Create secure configuration standards for hardware, software, and network devices; and</span></li>
+    <li><span>Implement administrative, technical, and physical controls for the protection of information assets as part of the system engineering process.</span></li>
+</ol>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276">System and Services Acquisition (SA)</a>, <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a>,&nbsp;<a href="https://cdt.ca.gov/policy/simm/#SIMM">Email Threat Protection Standard (SIMM 5315-A)</a>, <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-150.pdf">NIST SP 800-150: Guide to Cyber Threat Information Sharing</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SYSTEM AND SERVICES ACQUISITION - 5315.1</h1>
+        <p>
+            <strong>(Revised: 08/2020 )</strong>
+        </p>
+    <p>
+        <p style="margin-left: 11pt;"><strong>Policy: </strong>Each state entity shall determine the information security requirements (confidentiality, integrity, and availability) for its information assets in mission/business process planning; determine, document and allocate the resources required to protect the information assets as part of its capital planning and investment control process; and, establish organizational programming and budgeting documentation.</p>
+<p>&nbsp;</p>
+<p style="margin: 0in 5.25pt 0.0001pt 11pt; text-align: justify;">For all information system acquisitions, the state entity shall identify security functional, strength and assurance requirements; privacy protection requirements; security-related documentation requirements; a description of the information system development and intended operational environments; and acceptance criteria.</p>
+<p style="margin: 0in 5.25pt 0.0001pt 11pt; text-align: justify;">&nbsp;</p>
+<p style="margin: 0in 5.25pt 0.0001pt 11pt; text-align: justify;">Use of alternative technological solutions, such as cloud computing services shall comply with the Technological Alternatives &ndash; Cloud Computing Policy (SAM Sections 4983-4983.1), SAM Section 5315.2, and the Cloud Security Standard (SIMM Section 5315-B). </p>
+<p style="margin: 0in 5.25pt 0.0001pt 11pt; text-align: justify;">&nbsp;</p>
+<p style="margin-top: 0.25pt;">&nbsp;</p>
+<p style="margin-left: 11pt; text-align: justify;"><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276">System and Services Acquisition (SA)</a></span><span style="color: blue;">; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256">Personally Identifiable Information Processing and Transparency (PT)</a></span><span style="color: blue;">, </span><a href="https://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf"><span>FIPS</span></a><span style="color: blue;">, </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span style="color: blue;">SIMM<span style="letter-spacing: -0.1pt;"> </span>5310-C</span></a><span style="color: blue;">, and </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5315-B</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SYSTEM DEVELOPMENT LIFECYCLE (SDLC) - 5315.2</h1>
+        <p>
+            <strong>(Revised: 09/2025 )</strong>
+        </p>
+    <p>
+        <p>&nbsp;</p>
+<p style="margin: 0in 15.7pt 9pt 0in;"><strong><span>Policy:&nbsp;</span></strong><span>Each state entity shall manage its information assets using a<span style="letter-spacing: -1.4pt;"></span>documented SDLC methodology<span style="letter-spacing: -0.35pt;"></span>that:</span></p>
+<ol>
+    <li><span>Incorporates information security (data confidentiality, integrity and availability) including business impact analysis requirements and considerations.</span></li>
+    <li><span>Incorporates information privacy protection requirements and considerations.</span></li>
+    <li><span>Incorporates technology recovery requirements and considerations, per SAM Sections 5325-5325.6 and SIMM Section 5325-A and SIMM Section 5325-B.</span></li>
+    <li><span>Defines and documents operational information security roles and responsibilities throughout the information asset lifecycle including, but not limited to, adoption of secure coding practices and security and vulnerability testing during test phases.</span></li>
+    <li><span>Defines and documents operational information privacy roles and responsibilities throughout the information asset lifecycle.</span></li>
+    <li><span>Identifies individuals having information security roles and responsibilities.</span></li>
+    <li><span>Identifies individuals having information privacy roles and responsibilities.</span></li>
+    <li><span>Identifies individuals and entities having technology recovery roles and responsibilities.</span></li>
+    <li><span>Integrates the organizational information security risk management process into the development lifecycle activities.</span></li>
+    <li><span>Integrates the Privacy Threshold Assessment (PTA) for all information system projects and proposals, and the Privacy Impact Assessment (PIA) into the system development lifecycle activities when personal information or a privacy risk is involved. PTA and PIA shall be through the use of SIMM 5310-C. </span></li>
+    <li><span>Integrates the organizational technology recovery solution that meets the business recovery requirements and the recovery plan within the security risk management process into the development lifecycle activities.</span></li>
+</ol>
+<p> <strong><span>Implementation Controls:&nbsp;&nbsp;</span></strong><span>NIST SP 800-53: </span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276"><span>System and Services Acquisition (SA)</span></a></span><span>;&nbsp;</span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=256"><span>Personally Identifiable Information Processing and Transparency (PT)</span></a></span><span>,&nbsp;</span><span><a href="https://csrc.nist.gov/publications/fips/fips199/FIPS-PUB-199-final.pdf"><span>FIPS 199</span><span>,</span></a></span><span style="color: #0066aa;"> </span><span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5310-C</span></a></span></p>
+<p><span>&nbsp;</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION ASSET DOCUMENTATION - 5315.3</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>In conjunction with Records Management (SAM Chapter 1600) and Property Accounting (SAM Chapter 8600) requirements, each state entity shall ensure information security documentation is prepared and maintained as part of the overall documentation for all information assets. Documentation shall include a description of the effective use and maintenance of security controls and the state entity&rsquo;s responsibilities in maintaining the security of the information assets. Each state entity shall obtain administrator and user documentation for each information system, and provisions for the protection of documentation from loss, theft, damage, or misuse.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276"><span>System and Services Acquisition (SA)</span></a><span>; SAM Chapters </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/1600"><span>1600</span></a><span>&nbsp;and </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/8600"><span>8600</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SYSTEM DEVELOPER SECURITY TESTING - 5315.4</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall require that system developers create and implement a security test and evaluation plan as part of the system design and build. When a contract is required, it shall specify the acceptance criteria for security test and evaluation plans and vulnerability remediation processes.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276"><span>System and Services Acquisition (SA)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>CONFIGURATION MANAGEMENT - 5315.5</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall establish a documented process regarding controlled modifications to hardware, firmware, and software to protect the information asset against improper modification before, during, and after system implementation.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=123"><span>Configuration Management (CM)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ACTIVATE ONLY ESSENTIAL FUNCTIONALITY - 5315.6</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall configure information assets to provide only essential capabilities and functionality, and shall adhere to the principle of least privilege and restrict the use of unnecessary ports, protocols, and/or services to minimize the state entity&rsquo;s risk.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=123"><span>Configuration Management (CM)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SOFTWARE USAGE RESTRICTIONS - 5315.7</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall ensure its Software Management Plan (SAM sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800"><span>4846.1 and 4846.2</span></a><span>) addresses the following:</span></p>
+<ol>
+    <li><span>Use of software and associated documentation in accordance with contract agreements and copyright laws;</span></li>
+    <li><span>Enforcement of explicit rules governing the authorized installation of software by users; and</span></li>
+    <li><span>Maintaining control over the types of software installed by identifying permitted and prohibited software installations.</span></li>
+</ol>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=123"><span>Configuration Management (CM)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION ASSET CONNECTIONS - 5315.8</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall carefully consider the risks that may be introduced when information assets are connected to other systems with different security requirements and security controls, both within the state entity and external to the state entity.</span></p>
+<p><span>Each state entity shall identify and maintain an inventory of its authorized information system connections with other state entities which establish authorized connections from information assets as defined by their authorization boundary, to other information systems. Each state entity shall document, for each connection, the interface characteristics, security requirements, the nature of the information communicated, and ensure written agreements are established and maintained which include the minimum provisions for agreements with state and non-state entities as outlined in SAM Section 5305.8.</span></p>
+<p><span>This policy applies to dedicated connections between information assets and does not apply to transitory, user-controlled connections such as email and website browsing.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=45">Access Control (AC)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SECURITY AUTHORIZATION - 5315.9</h1>
+        <p>
+            <strong>(Revised: 12/2013 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Introduction: </span></strong><span>The authorizing official(s) provide budgetary oversight for state entity information assets and assume responsibility for the mission/business operations supported by those systems.</span></p>
+<p><strong><span>Policy: </span></strong><span>Consistent with the State Information Management Principles, Record of Decisions (SAM section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4800"><span>4800</span></a><span>), each state entity shall establish a documented security authorization method which tracks official management decisions authorizing the operation of information assets and explicit acceptance of risks based on implementation of agreed-upon information security measures. The state entity head shall assign senior-level executive(s) or manager(s) as the authorizing official(s).</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>TRAINING AND AWARENESS FOR INFORMATION SECURITY AND PRIVACY - 5320</h1>
+        <p>
+            <strong>(Revised: 10/2020 )</strong>
+        </p>
+    <p>
+        <p class="Default"><strong><span>Policy: </span></strong><span>Each state entity must establish and maintain an information security and privacy training and awareness program. State entity personnel must possess the knowledge and skills necessary to use information technology to the best advantage for the state. Each state entity must regularly assess the skills and knowledge of its personnel in relation to job requirements, identify and document training and professional development needs, and provide suitable training within the limits of available resources. </span></p>
+<p class="Default">The training and awareness program shall ensure:</p>
+<ol>
+    <li><span>All personnel receive general security and privacy awareness training so that they understand the state entity information security policies, standards, procedures, and practices; and are knowledgeable about the various management, operational, and technical controls required to protect the information assets for which they are responsible. </span></li>
+    <li><span>Groups of personnel with special security training needs, such as application developers receive the necessary training. </span></li>
+    <li><span>Assessments of personnel awareness, knowledge and skills shall include simulated phishing exercises in compliance with the SIMM 5320-A, Phishing Exercise Standard. </span></li>
+    <li><span>Training records are maintained to support corrective action, audit and assessment processes. </span></li>
+    <li><span>The program content is maintained and evaluated for effectiveness on an ongoing basis. </span></li>
+</ol>
+<p class="Default">State entity heads, Chief Information Officers (CIOs), Information Security Officers (ISOs), management, and information asset owners have key roles in information security training and awareness. The state entity head is responsible for ensuring an effective program is implemented state entity-wide. The scope and content of the awareness program must align with statewide policy, and with any state entity specific security needs and requirements.</p>
+<p><strong>Implementation Controls: </strong>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=86">Awareness and Training (AT)</a>,<span style="color: blue;"> </span><a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM 5320-A</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SECURITY AND PRIVACY AWARENESS - 5320.1</h1>
+        <p>
+            <strong>(Revised: 12/2013 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall provide basic security and privacy awareness training to all information asset users (all personnel, including managers and senior executives) as part of initial training for new users and annually thereafter.</span></p>
+<p><span>Each state entity shall determine the appropriate content of security awareness training based on statewide requirements, specific state entity requirements, and the information processes and assets to which personnel have access.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SECURITY AND PRIVACY TRAINING - 5320.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall determine the appropriate content of security and privacy training based on the assigned roles and responsibilities of individuals and the specific security requirements of the state entity and the information assets to which personnel have access. Privacy training content will ensure personnel understand their responsibility for compliance with the Information Practices Act of 1977 and the penalties for non-compliance.</span></p>
+<p><strong><span>Governing Provisions:&nbsp; </span></strong><span>Civil Code section </span><a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=CIV&amp;sectionNum=1798.24"><span>1798</span></a></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=86">Awareness and Training (AT)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SECURITY AND PRIVACY TRAINING RECORDS - 5320.3</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall document and monitor individual information security and privacy training activities including basic security and privacy awareness training and specific information system security training; and retain individual training records to support corrective action, audit and assessment processes. The ISO will be responsible for ensuring that training content is maintained and updated as necessary to address the latest security challenges that may impact users.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=86"><span>Awareness and Training (AT)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PERSONNEL SECURITY - 5320.4</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall establish processes and procedures to ensure that individual access to information assets is commensurate with job-related responsibilities, and individuals requiring access to information assets sign appropriate user agreements prior to being granted access.</span></p>
+<p><span>Access agreements shall include acceptable use provisions, and may also include nondisclosure agreements and conflict-of-interest agreements. If required by law, regulation or policy, each state entity must ensure individuals obtain applicable security clearances.</span></p>
+<p><span>Personnel transfers or reassignments to other positions within the state entity must be reviewed to prevent accumulation of access and support least access privilege.</span></p>
+<p><span>Returning and issuing keys, identification cards, and building passes; closing information system accounts and establishing new accounts; and changing information system access authorizations are all examples of personnel security practices related to staff transfer or reassignment.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=249"><span>Personnel Security (PS)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>BUSINESS CONTINUITY WITH TECHNOLOGY RECOVERY - 5325</h1>
+        <p>
+            <strong>(Revised: 04/2026 )</strong>
+        </p>
+    <p>
+        <h4>&nbsp;</h4>
+<h4>Legal Authority</h4>
+<p style="margin-left: 40px;">Government Code section <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11549.3&amp;lawCode=GOV">11549.3</a></p>
+<h4>Definitions</h4>
+<p style="margin-left: 40px;">See SAM <a href="https://www.dgs.ca.gov/Resources/SAM/TOC/5300/5300-4">5300.4</a></p>
+<h4>Introduction</h4>
+<p style="margin-left: 40px;">Continuity planning establishes procedures to sustain business and mission-essential functions during and after a significant disruption or disaster. A Business Impact Analysis (BIA) is a critical input to effective continuity planning, providing the foundation for contingency strategies and the development of a Technology Recovery Plan (TRP).</p>
+<p style="margin-left: 40px;">The BIA identifies and prioritizes system components by mapping them to the business or mission processes they support, enabling organizations to assess the potential impact if those systems become unavailable. The TRP is an official, detailed plan that supports technology-related continuity, recovery, and restoration objectives defined through the BIA and broader Continuity Planning efforts. </p>
+<h4 style="margin-top: 0in; margin-right: 0in; margin-bottom: 6pt; line-height: 18.4px;">Policy</h4>
+<p style="margin-left: 40px;">Each state agency or entity must ensure that individuals with subject matter expertise in business and mission-essential functions lead and actively participate in continuity and technology recovery planning efforts. These individuals must:</p>
+<ol>
+    <li style="margin-left: 40px;">Conduct an enterprise-wide BIA to support the development of a comprehensive inventory of IT system(s) consistent with SIMM 5325-B categories that enable business and mission essential functions; The BIA should identify key components such as dependencies, recovery, criticality, resource requirements, and recovery time objectives (RTOs), and sequencing priorities; These elements should align with the requirements outlined in SAM 5325.1 and SIMM 5325-A.</li>
+    <li style="margin-left: 40px;">Develop a Continuity Plan that outlines procedures for how the state agency or entity will maintain essential functions and continue delivering necessary services during a significant disruption or disaster. The Continuity Plan should align with the California Office of Emergency Services (CalOES) State Continuity Planning Objectives, as outlined in Executive Order S-04-06. For guidance or assistance, contact Cal OES Continuity Planning at <a href="mailto:continuity@caloes.ca.gov" style="background-color: #ffffff;">continuity@caloes.ca.gov</a>.</li>
+    <li style="margin-left: 40px;">Leverage the BIA and Continuity Plan to develop a TRP that includes detailed recovery procedures and supporting documentation, in accordance with SAM 5325.1 and SIMM 5325-A requirements. The TRP must ensure that critical systems and services can be restored to support business and mission essential functions.<br />
+    <p style="margin: 0px 0px 12px 40px;">a. To facilitate recovery and restoration efforts, ensure the following are developed or conducted for critical systems to support TRP activities:</p>
+    <p style="margin: 0px 0px 12px 80px;">i. Information system recovery plans are developed and included in the TRP.</p>
+    <p style="margin: 0px 0px 12px 80px;">ii. System security plans (SSP), developed in accordance with SAM 5315, SIMM 5325-A, and SIMM 5355-B, are maintained and available for inspection upon request by OIS. Self-assessments of NIST controls for SSPs have been completed and documented in Cal-CSIRS.</p>
+    <p style="margin: 0px 0px 12px 80px;">iii. Privacy Threshold Assessment (PTAs) and, where applicable, Privacy Impact Assessments (PIAs), consistent with SAM 5310.8 and SIMM 5310-C requirements, are conducted and available for inspection upon OIS request.</p>
+    <p style="margin: 0px 0px 12px 80px;">iv. TRP training is developed and delivered at least annually, consistent with SAM 5325.2, to ensure personnel are prepared to execute recovery procedures.</p>
+    <p style="margin: 0px 0px 12px 80px;">v. TRP testing is conducted at least annually, in accordance with SAM 5325.3 and SIMM 5325-A, to validate the effectiveness of recovery strategies and identify areas for improvement.</p>
+    </li>
+    <li style="margin-left: 40px;">Develop and document procedures to ensure the BIA, Continuity Plan, and TRP with supporting documentation, are maintained and updated annually or when necessary, as significant changes or lessons learned resulting from post-incident analysis, training, testing, or TRP review occur.</li>
+</ol>
+<p style="margin-left: 40px;">
+<strong>Note:</strong>   Continuity Plans must address CalOES&rsquo; Continuity Planning requirements available at:<br />
+<a href="https://www.caloes.ca.gov/office-of-the-director/operations/planning-preparedness-prevention/planning-preparedness/continuity-planning/">https://www.caloes.ca.gov/office-of-the-director/operations/planning-preparedness-prevention/planning-preparedness/continuity-planning/</a></p>
+<p style="margin-left: 40px;"><strong>Implementation Controls:&nbsp; <br />
+</strong><a href="https://csrc.nist.gov/pubs/sp/800/34/r1/upd1/final" style="background-color: #ffffff;">NIST SP 800-34</a>; <a href="https://csrc.nist.gov/pubs/sp/800/53/r5/upd1/final" style="background-color: #ffffff;">NIST SP 800-53</a>;&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=142" style="background-color: #ffffff;">Contingency Planning (CP)</a>&nbsp;section described in NIST SP 800-53;&nbsp;<a href="https://csrc.nist.gov/pubs/ir/8286/d/upd1/final" style="background-color: #ffffff;">NIST IR 8286D</a>; NIST CSF 2.0 IDENTIFY (ID), PROTECT (PR), RESPOND (RS), RECOVER (RC); SIMM 5325-A; SIMM 5355-B; SIMM
+5310-C; SAM 5300.4; SAM 5305.6; SAM 5305.7; SAM 5305.5, SAM 5310.8, SAM 5315, SAM 5325.1, SAM 5325.2; <a href="https://www.caloes.ca.gov/wp-content/uploads/Preparedness/Documents/S-04-06-Executive-Order.pdf" style="background-color: #ffffff;">Executive Order S-04-06</a></p>
+&nbsp;
+<p style="margin-left: 40px;">&nbsp;</p>
+<p style="margin-left: 40px;"><a href="-/media/6202DAF45A144DE7A9204143D40FDAF6.ashx">Tracked Changes Version</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>TECHNOLOGY RECOVERY PLAN - 5325.1</h1>
+        <p>
+            <strong>(Revised: 10/2025 )</strong>
+        </p>
+    <p>
+        <h4 style="color: #000000;">Legal Authority</h4>
+<p style="margin-left: 40px;">Government Code section&nbsp;<a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11549.3&amp;lawCode=GOV">11549.3</a></p>
+<h4 style="color: #000000;">Definitions</h4>
+<p style="margin-left: 40px;">See SAM&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/5300/5300-4">5300.4</a></p>
+<h4 style="color: #000000;">Introduction</h4>
+<p style="margin-left: 40px;">As a sub-set of a state agency or entity&rsquo;s Continuity Plan, the Technology Recovery Plan (TRP) i<a title="Indent" class="reTool" href="/EditorPage.aspx?da=core&amp;id=%7BF0217663-FF1C-4D21-9552-9062BD0EF7F8%7D&amp;ed=FIELD1861261439&amp;vs&amp;la=en&amp;fld=%7BB9D1B70E-0D63-433E-B78A-EDC4631A5D53%7D&amp;so&amp;di=0&amp;hdl=H1861262234&amp;mo&amp;pe=0&amp;fbd=1#" unselectable="on"><span class="Indent" unselectable="on"></span></a>s activated immediately after a significant disruption or disaster and focuses on priority recovery and restoration of systems, services, and data supporting mission and business essential functions identified as part of a Business Impact Analysis (BIA)</p>
+<h4>Policy</h4>
+<p style="margin-left: 40px;">
+</p>
+<p style="margin-left: 40px;"><span style="line-height: 107%;">Each state agency or entity must develop a TRP in support of the state agency or entity&rsquo;s BIA, Continuity Plan, and the business need to protect information assets to ensure their availability following a significant disruption or disaster. Each state agency or entity must keep its BIA, Continuity Plan, and TRP documentation up to date and comply with the following requirements, in accordance with SIMM 5330-C&nbsp;Information Security Compliance Reporting Schedule.</span></p>
+<ol style="margin-left: 40px;">
+    <li><span style="line-height: 107%;">Each state agency or entity must annually file a copy of the following: </span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span style="line-height: 107%;">SIMM 5325-B Technology Recovery Program Compliance Certification. </span></li>
+        <li><span style="line-height: 107%;">SIMM 5325-A compliant TRP with supporting materials including: </span>
+        <ol style="list-style-type: lower-roman;">
+            <li><span style="line-height: 107%;">California Office of Emergency Services (CalOES) Continuity Program Assessment Tool (CPAT) Submittal Confirmation Report to confirm Business Continuity Plan submission.</span></li>
+            <li><span style="line-height: 107%;">An enterprise-wide BIA for all business processes and critical infrastructure, supporting systems, and their dependencies to include:</span></li>
+            <li><span style="line-height: 107%;">SIMM 5325-B IT System(s) Inventory category labels and details: </span>
+            <p><span style="'line-height:;">(1)&nbsp; Critical system labels: state critical, mission critical, public facing, and critical infrastructure control systems.<br />
+            (2)&nbsp;&nbsp;Other IT systems: dependencies and/or non-essential systems</span></p>
+            </li>
+        </ol>
+        </li>
+    </ol>
+    </li>
+    <li><span style="line-height: 107%;">If the state agency or entity contracts for services, it must work with the provider and document TRP coordination procedures. This includes, but is not limited to, any state or non-state service provider delivering infrastructure, platform, software, storage, or monitoring as a service to another state agency or entity.</span></li>
+    <li><span style="line-height: 107%;">Each state agency or entity TRP must cover, at a minimum, the sections which are listed and described in SIMM 5325-A, Technology Recovery Plan Instructions. If the TRP does not follow the format in SIMM 5325-A, the Technology Recovery Plan Cross Reference Tool located in SIMM 5325-B, must be completed to indicate where required information is located within the TRP.</span></li>
+    <li><span style="line-height: 107%;">The TRP must outline a planned approach to managing risks to the state agency or entity&rsquo;s mission, including risk and potential impact to processes and their underpinning technology systems and services. The TRP must be derived from the state agency or entity&rsquo;s BIA and Continuity Plan. Instructions for preparing the TRP are described in SIMM 5325-A.</span></li>
+    <li><span style="line-height: 107%;">All state agencies or entities must individually meet SAM 5325, Continuity Planning with Technology Recovery, requirements to ensure recovery and restoration of their mission and business essential functions in a timely manner.</span></li>
+</ol>
+<p style="margin-left: 40px;"><strong>Note:&nbsp;<br />
+</strong>CalOES&rsquo; CPAT and continuity planning requirements are available at:<br />
+<span style="color: #0066aa;"><a href="https://www.caloes.ca.gov/office-of-the-director/operations/planning-preparedness-prevention/planning-preparedness/continuity-planning/">https://www.caloes.ca.gov/office-of-the-director/operations/planning-preparedness-prevention/planning-preparedness/continuity-planning</a></span></p>
+<p style="margin-left: 40px;"><span style="color: #0066aa;"></span><strong>Implementation Controls:&nbsp;<br />
+</strong><a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-34r1.pdf" style="background-color: #ffffff;">NIST&nbsp;</a><a href="https://nvlpubs.nist.gov/nistpubs/Legacy/SP/nistspecialpublication800-34r1.pdf" style="background-color: #ffffff;">SP 800-34</a>; NIST SP 800-53:&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=142" style="background-color: #ffffff;">Contingency Planning (CP)</a>, <a href="https://csrc.nist.gov/pubs/ir/8286/d/upd1/final" style="background-color: #ffffff;">NIST IR 8286D</a>; NIST CSF 2.0 IDENTIFY (ID), PROTECT (PR), RESPOND (RS), RECOVER (RC); SAM 5325; SIMM 5325-A; SIMM 5325-B; SIMM 5300-C; SAM 5300.4; SIMM 5330-C;&nbsp; <a href="https://www.caloes.ca.gov/wp-content/uploads/Preparedness/Documents/S-04-06-Executive-Order.pdf" style="background-color: #ffffff;">Executive Order S-04-06</a></p>
+<p>&nbsp;</p>
+<p><a href="-/media/B38CACFF868F44ED89226E4A636EB3A2.ashx">Tracked Changes Version</a></p>
+<p>&nbsp;</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>TECHNOLOGY RECOVERY TRAINING - 5325.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall establish technology recovery training and exercises for personnel involved in technology recovery, to ensure availability of skilled staff. The training exercises shall include a crisis communication plan, event status reporting requirements, and focused role-based training for managers and system administrators.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=142"><span>Contingency Planning (CP)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>TECHNOLOGY RECOVERY TESTING - 5325.3</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall test the TRP to determine its effectiveness and the state entity&rsquo;s readiness to execute the TRP in the event of a disaster. Each state entity shall initiate corrective actions and improvements to the TRP based upon deficiencies identified during testing and exercises.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=142"><span>Contingency Planning (CP)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ALTERNATE STORAGE AND PROCESSING SITE - 5325.4</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall establish an alternate storage site, including the necessary agreements to permit the storage and recovery of backup information. Each state entity shall ensure that the alternate storage site provides information security safeguards equivalent to that of the primary site.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=142"><span>Contingency Planning (CP)</span></a>, <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>TELECOMMUNICATIONS SERVICES - 5325.5</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall ensure they have alternate telecommunications services including necessary agreements to permit the resumption of information asset operations for essential missions and business functions when the primary telecommunications capabilities are unavailable at either the primary or alternate processing or storage sites.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=142"><span>Contingency Planning (CP)</span></a>, <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SYSTEM BACKUPS - 5325.6</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall perform regularly scheduled backups of system and user-level information. Backups shall be:</span></p>
+<ol>
+    <li><span>Conducted at the operating system, application, and user level;</span></li>
+    <li><span>Conducted of information system documentation including security-related documentation;</span></li>
+    <li><span>Stored in a protected location; and</span></li>
+    <li><span>Securely destroyed upon expiration of retention period.</span></li>
+</ol>
+<p><span>System-level information includes system-state information, operating system and application software, and software licenses. User-level information includes any information other than system-level information. Mechanisms to protect the integrity of information system backups shall include digital signatures and cryptographic hashes. Information system backups shall reflect the requirements in contingency plans as well as other state entity requirements for backing up information.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=142"><span>Contingency Planning (CP)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SECURITY COMPLIANCE - 5330</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall validate compliance with statewide information security policy, standards, and procedures as set forth in this Chapter, and the state entity&rsquo;s internal information security policies to verify that security measures are in place and functioning as intended. Each state entity&rsquo;s validation processes shall include:</span></p>
+<ol>
+    <li><span>Ongoing assessments of key security measures and controls in both in-house and outsourced systems;</span></li>
+    <li><span>Completion of independent &ldquo;pre-production&rdquo; assessments of security controls in new systems or systems that are undergoing substantial redesign;</span></li>
+    <li><span>Adherence to the CISO reporting requirements;</span></li>
+    <li><span>Coordination of all IT audit and assessment work done by third-party auditors; and</span></li>
+    <li><span>Monitoring of third-party auditors&rsquo; compliance to statewide information security requirements as set forth in this Chapter.</span></li>
+</ol>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=110">Assessment, Authorization, and Monitoring (CA)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SECURITY ASSESSMENTS - 5330.1</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall perform security assessments to determine whether the security controls selected by the state entity are implemented correctly and working as intended to mitigate risk. Security assessments conducted by the state entity shall include, but are not limited to, the following:</span></p>
+<ol>
+    <li><span>Legal, policy, standards, and procedure compliance review;</span></li>
+    <li><span>Vulnerability scanning; and</span></li>
+    <li><span>Penetration testing.</span></li>
+</ol>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=110">Assessment, Authorization, and Monitoring&nbsp;</a></span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=110">(CA)</a>, <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>COMPLIANCE REPORTING - 5330.2</h1>
+        <p>
+            <strong>(Revised: 01/2018 )</strong>
+        </p>
+    <p>
+        <h4></h4>
+<p>
+<p><strong>Policy: </strong>Each state entity shall comply with the following reporting requirements:</p>
+<ol>
+    <li><strong>Designation Letter (SIMM 5330-A) </strong>&ndash; Annual submissions are due to the Office of Information Security (OIS) on the last business day of the state entity&rsquo;s scheduled reporting month, as outlined in the Information Security Compliance Reporting Schedule (SIMM 5330-C). The state entity head shall designate the Chief Information Officer (CIO), Information Security Officer (ISO), Technology Recovery Coordinator and Privacy Officer/Coordinator, along with their back-up designees, using SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5330-</a><a href="https://cdt.ca.gov/policy/simm/#SIMM">A</a>. Upon the designation of a new CIO, ISO, Technology Recovery Coordinator, and a Privacy Officer/Coordinator, the state entity must submit an updated SIMM 5330-A to OIS within ten (10) business days.</li>
+    <li><strong>Information Security and Privacy Program Compliance Certification (SIMM 5330-B) </strong>&ndash; Annual submissions are due to OIS on the last business day of the state entity&rsquo;s scheduled reporting month, as outlined in SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5330-C</a>. The state entity head shall certify that the entity is in compliance with state policy governing information security, risk management and privacy program compliance by submitting the SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5330-</a><a href="https://cdt.ca.gov/policy/simm/#SIMM">B</a>.</li>
+    <li><strong>Technology Recovery Plan (TRP) and Technology Recovery Program Compliance Certification (SIMM 5325-B) </strong>&ndash; Each year the state entity head shall submit a copy of its TRP, along with the SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5325-B </a>to OIS by the last business day of the state entity&rsquo;s scheduled reporting month, as outlined in SIMM 5330-C. If the state entity employs the services of a data center, it must also provide the data center with a copy of its TRP or subset of the relevant recovery information from the state entity's TRP.</li>
+    <li><strong>Incident Report </strong>&ndash; Incidents must be immediately reported in accordance with SAM Sections 5340-5340.4 requirements through the California Compliance and Security Incident Reporting System (Cal-CSIRS). The OIS may require, in conjunction with its assessment of the incident, that the state entity provide additional information.</li>
+</ol>
+<p>Program deficiencies identified through compliance certification reporting, risk assessments, audits, incidents or oversight reviews also require the submission of a Plan of Action and Milestones Worksheet (POAM) (SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5305-C</a>). State entities shall follow the standardized POAM Instructions (SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5305-B</a>) when completing SIMM 5305-C. Unless otherwise directed, each state entity shall, at a minimum, provide quarterly updates on progress toward completion of the plans.</p>
+<p>Quarterly submissions are due on the last business day of the following months; January, April, July and October.</p>
+<p><strong>Implementation Controls: </strong>Designation Letter (SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5330-A</a>); Information Security and Privacy Program Compliance Certification (SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5330-B</a>); Information Security Compliance Reporting Schedule (SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5330-C</a>); Technology Recovery Program Compliance Certification (SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5325-B</a>);&nbsp;&nbsp;<a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM </a><a href="https://cdt.ca.gov/policy/simm/#SIMM">5340-A</a> - Incident Reporting and Response Instructions; and Plan of Action and Milestones Instructions and Worksheet (SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5305-B</a><span style="text-decoration: underline;"> </span>and SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5305-C</a>).</p>
+</p>
+<h4></h4>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SECURITY MONITORING - 5335</h1>
+        <p>
+            <strong>(Revised: 03/2021 )</strong>
+        </p>
+    <p>
+        <div><strong>Policy:</strong>&nbsp; Each state entity is responsible for continuous monitoring of its networks and other information assets for signs of attack, anomalies, and suspicious or inappropriate activities.</div>
+<div>&nbsp;</div>
+<div>Each state entity shall ensure:</div>
+<div>&nbsp;</div>
+<div style="margin-left: 40px;">1.<span> </span>An event logging and monitoring strategy, which provides for audit trails and auditability of events and appropriate segregation and separation of duties;</div>
+<div style="margin-left: 40px;">2.<span> </span>Event logging and log monitoring are performed with sufficient regularity that signs of attack, anomalies, and suspicious or inappropriate activities are identified and acted upon in a timely manner;</div>
+<div style="margin-left: 40px;">3.<span> </span>Sensors, agents, and security monitoring software are placed at strategic locations throughout the network;</div>
+<div style="margin-left: 40px;">4.<span> </span>Situational awareness information from security monitoring and event correlation tools are monitored to identify events that require investigation and response;&nbsp;</div>
+<div style="margin-left: 40px;">5.<span> </span>Potential security events are reported immediately to the security incident response team;</div>
+<div style="margin-left: 40px;">6.<span> </span>Response to security event notifications from OIS and other third parties comply with the Security Event Notification and Response Protocols, SIMM 5335-A.</div>
+<div>&nbsp;</div>
+<strong>Implementation Controls: NIST SP 800-53:</strong>&nbsp; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=92">Audit and Accountability (AU)</a>;&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=206">Physical and Environmental Protection (PE)</a>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=265">Risk Assessment (RA)</a>,&nbsp; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a>, SIMM <a href="https://cdt.ca.gov/policy/simm/#SIMM">5335-A</a>.&nbsp;
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>CONTINUOUS MONITORING - 5335.1</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Introduction: </span></strong><span>Continuous monitoring programs facilitate ongoing awareness of threats, vulnerabilities, and information security to support state entity risk management decisions.</span></p>
+<p><strong><span>Policy: </span></strong><span>Each state entity shall develop a continuous monitoring strategy and implement a continuous monitoring program.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=92"><span>Audit and Accountability (AU)</span></a><span>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=206">Physical and Environmental Protection (PE)</a>; </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=265"><span>Risk Assessment (RA)</span></a><span>; </span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=110">Security Assessment and</a></span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=110">&nbsp;Monitoring<span>&nbsp;(CA)</span></a>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>AUDITABLE EVENTS - 5335.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Introduction: </span></strong><span>Audit records can be generated at various levels of abstraction, including at the packet level as information traverses the network. Selecting the right level of abstraction is a critical aspect of an audit capability and can facilitate the identification of root causes to events. Each state entity may determine that information systems must have the capability to log every file access, both successful and unsuccessful, but not activate that capability except for specific circumstances due to the extreme burden on system performance.</span></p>
+<p><strong><span>Policy: </span></strong><span>Each state entity shall ensure that information systems are capable of being audited and the events necessary to reconstruct transactions and support after-the-fact investigations are maintained. This includes the auditing necessary to cover related events, such as the various steps in distributed, transaction-based processes (e.g., processes that are distributed across multiple organizations) and actions in service- oriented architectures.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=92"><span>Audit and Accountability (AU)</span></a><span>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=206">Physical and Environmental Protection (PE)</a>; </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=265"><span>Risk Assessment (RA)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION SECURITY INCIDENT MANAGEMENT - 5340</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity must promptly investigate incidents involving loss, theft, damage, misuse of information assets, or improper dissemination of information. All state entities are required to report information security incidents consistent with the security reporting requirements in this policy and manage information security incidents to determine the cause, scope, and impact of incidents to stop unwanted activity, limit loss and damage, and prevent recurrence. Additionally, each state entity shall develop, disseminate, and maintain a formal, documented incident response plan that provides for the timely assembly of appropriate staff that is capable of developing a response to, appropriate reporting about, and successful recovery from a variety of incidents.</span></p>
+<p><span>Each state entity shall develop documented procedures to facilitate the implementation of the incident response plan and associated incident response controls including, but are not limited to:</span></p>
+<ol>
+    <li><span>Immediately reporting suspected and actual security incidents in accordance with the criteria and procedures set forth in </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5340-A </span></a><span>and other applicable laws and regulations;</span></li>
+    <li><span>Managing security incident case assignments and the security investigation process in a timely and effective manner;</span></li>
+    <li><span>Managing security incidents involving a breach of personal information in accordance with the criteria and procedures set forth in SIMM 5340-C.</span></li>
+    <li><span>Mobilizing emergency and third party investigation and response processes if necessary;</span></li>
+    <li><span>Consulting with system owners to help quarantine incidents and limit damage;</span></li>
+    <li><span>Consulting with Personnel Management if there is a violation of appropriate use policy; and</span></li>
+    <li><span>Communicating with law enforcement when actual or suspected criminal activity is involved.</span></li>
+</ol>
+<p> <strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=176"><span>Incident Response (IR)</span></a></span><span>; </span><span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5340-A</span></a></span><span>; <a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM 5340-C</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INCIDENT RESPONSE TRAINING - 5340.1</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall provide incident response training to information system users consistent with assigned roles and responsibilities.</span></p>
+<p><span>Incident response training shall be at an appropriate level for the assigned roles and responsibilities of state entity personnel. For example, regular users may only need to know who to call or how to recognize an incident; system administrators may require additional training on how to handle/remediate incidents; and incident responders may need more specific training on chain of custody, forensics, reporting, system recovery, and restoration. Incident response training shall include, at a minimum, user training in the identification and reporting of suspicious activities, both from external and internal sources.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=176"><span>Incident Response (IR)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INCIDENT RESPONSE TESTING - 5340.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Introduction: </span></strong><span>Incident response testing includes an assessment of the effects on state entity operations (e.g., reduction in mission capabilities), state entity assets, and individuals due to incident response, and involves the use of checklists, walk-through or tabletop exercises, and simulations to prepare personnel and mitigate the impacts of actual incidents.</span></p>
+<p><strong><span>Policy: </span></strong><span>Each state entity shall exercise or test their incident response capability to determine its effectiveness, document the results and incorporate lessons learned to continually improve the plan.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=176"><span>Incident Response (IR)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INCIDENT HANDLING - 5340.3</h1>
+        <p>
+            <strong>(Revised: 08/2015 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall implement incident handling for information security and privacy incidents that includes preparation, detection and analysis, containment, eradication, and recovery. Incident handling shall coordinate with business continuity planning activities (SAM section 5325). Incident handling capability shall include procedures for coordination among many groups within a state entity, for example, mission/business owners, information system owners, authorizing officials, human resources offices, physical and personnel security offices, legal departments, operations, personnel, procurement offices, and executive management.</span></p>
+<p><span>If during the recovery and lessons learned phase of an incident, the state entity uncovers a deficiency in their program, the state entity shall take action to prevent reoccurrence and report their action plan through the Plan of Action and Milestone (POAM) process. State entities shall use the standardized POAM reporting instructions and tool (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5305-B and SIMM 5305-C, respectively</span></a><span>)</span></p>
+<p> <strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: </span><span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=176"><span>Incident Response (IR)</span></a></span><span style="text-decoration: underline;">;</span> Plan of Action and Milestones <span style="text-decoration: underline;">(</span><span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5305-B and SIMM 5305-C</span></a></span><span style="text-decoration: underline;">).</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INCIDENT REPORTING - 5340.4</h1>
+        <p>
+            <strong>(Revised: 08/2015 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall follow the incident reporting procedures as described in </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5340-A</span></a><span>.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=176"><span>Incident Response (IR)</span></a><span>; </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5340-A</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>VULNERABILITY AND THREAT MANAGEMENT - 5345</h1>
+        <p>
+            <strong>(Revised: 01/2021 )</strong>
+        </p>
+    <p>
+        <p style="margin-left: 5pt;"><strong>Introduction: </strong>Threats and vulnerabilities provide the primary inputs to the state entity&rsquo;s risk assessment process.</p>
+<p style="margin: 5pt 2.7pt 5pt 5pt;"><strong>Policy: </strong>Each state entity shall continuously identify and remediate vulnerabilities before they can be exploited. Vulnerability and threat management include, but not limited to, the following:</p>
+<ol>
+    <li><span>Strategic placement of scanning tools to continuously assess all information technology assets;</span></li>
+    <li><span>Implementation of appropriate scan schedules, based on asset criticality;</span></li>
+    <li><span>Communication of vulnerability information to system owners or other individuals responsible for remediation;</span></li>
+    <li><span>Dissemination of timely threat advisories <span style="letter-spacing: 0.1pt;">to </span>system owners or other individuals responsible for remediation; </span></li>
+    <li><span>Consultation with system owners on mitigation strategies; and</span></li>
+    <li><span>Implementation of mitigation measures in accordance with the Vulnerability Management Standard (SIMM 5345-A).</span></li>
+</ol>
+<strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=265"><span style="color: blue;">Risk Assessment (RA)</span></a>; <span style="color: blue;"><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276">System and</a></span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=276"><span style="color: blue;"> </span><span style="color: blue;">Services Acquisition (SA)</span></a>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=319"><span style="color: blue;">System and Communication Protection (SC)</span></a><span style="text-decoration: underline; color: blue;">;</span>&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a>; Vulnerability Management Standard&nbsp;<span style="text-decoration: underline; color: blue;">(</span><a href="https://cdt.ca.gov/policy/simm/#SIMM">SIMM 5345-A</a><span style="text-decoration: underline; color: blue;">) </span></span>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>OPERATIONAL SECURITY - 5350</h1>
+        <p>
+            <strong>(Revised: 09/2025 )</strong>
+        </p>
+    <p>
+        <p>&nbsp;</p>
+<p style="background: white; margin: 0in 0in 9pt;"><strong><span style="color: black;">Introduction:&nbsp;</span></strong><span style="color: black;">In order to mitigate against successful attacks, each state entity is responsible for separating and controlling access to various systems and networks with different threat levels and sets of users which may operate or interface within their technology environment.</span></p>
+<p style="background: white; margin: 0in 0in 9pt;"><strong><span style="color: black;">Policy:&nbsp;</span></strong><span style="color: black;">Each state entity shall develop, implement, and document, disseminate, and maintain operational security practices which include, but are not limited to:</span></p>
+<ol>
+    <li style="color: black; background: white;"><span style="color: black;">A network security architecture that:</span></li>
+    <p style="color: black; background: white;"><span style="color: black;">a.&nbsp; includes distinct zones to separate internal, external, and DMZ traffic; and<br />
+    b.&nbsp;&nbsp;segments internal networks to limit damage, should a security incident occur.</span></p>
+    <li style="color: black; background: white;"><span style="color: black;">Firewall, router, and other perimeter security tools which enforce network security architecture decisions.</span></li>
+    <li style="color: black; background: white;"><span style="color: black;">Periodic review of perimeter security access control rules to identify those that are no longer needed or provide overly broad access.</span></li>
+</ol>
+<p style="background: white; margin: 0in 0in 9pt;"><span style="color: black;">Each state entity&rsquo;s security architecture shall align with the following security controls and best practices:</span></p>
+<ol>
+    <li style="color: black; background: white;"><span style="color: black;">Application partitioning</span></li>
+    <li style="color: black; background: white;"><span style="color: black;">Denial of service protection</span></li>
+    <li style="color: black; background: white;"><span style="color: black;">Boundary protection</span></li>
+    <li style="color: black; background: white;"><span style="color: black;">Confidentiality of transmitted information or appropriate compensating security controls if protection assurances cannot be guaranteed</span></li>
+    <li style="color: black; background: white;"><span style="color: black;">Cryptographic protections using modules that comply with FIPS-validated cryptography.</span></li>
+    <li style="color: black; background: white;"><span>Zero Trust Architecture for all data, hardware, software, internal systems, and essential third-party software, including for on-premises, cloud, and hybrid environments.</span></li>
+</ol>
+<p style="background: white; margin: 0in 0in 9pt;"><strong><span style="color: black;">Implementation Controls:&nbsp;</span></strong><span style="color: black;">NIST SP 800-53:&nbsp;</span><span style="color: black;"><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=359"><span style="color: #0066aa;">System and Information Integrity (SI)</span></a></span><span style="color: black;">;&nbsp;</span><span style="color: black;"><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=319"><span style="color: #0066aa;">System and Communications Protection (SC)</span></a></span><span style="color: black;">;&nbsp;</span><span style="color: black;"><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390"><span style="color: #0066aa;">Supply Chain Risk Management (SR)</span></a></span></p>
+<p style="background: white; margin: 0in 0in 9pt;">&nbsp;</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ENCRYPTION - 5350.1</h1>
+        <p>
+            <strong>(Revised: 06/2025 )</strong>
+        </p>
+    <p>
+        <p>&nbsp;</p>
+<p><strong>Policy:&nbsp;</strong>End-to-end encryption or approved compensating security control(s) shall be used to protect confidential, sensitive, or personal information that is transmitted or accessed outside the secure internal network (e.g., email, remote access, file transfer, Internet/website communication tools) of the state entity, or stored on portable electronic storage media (e.g., USB flash drives, tapes, CDs, DVDs, disks, SD cards, portable hard drives), mobile computing devices (e.g., laptops, netbooks, tablets, and smartphones), and other mobile electronic devices. In rare instances where encryption cannot be implemented, compensating control(s) or alternatives to encryption must be in place. Compensating controls and alternatives to encryption must be reviewed on a case-by-case basis and approved in writing by the state entity ISO, after a thorough risk analysis.</p>
+<p> <strong><span>Implementation Controls:&nbsp;</span></strong><span>FIPS 140-3, FIPS 197, NIST SP 800-53:&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=45">Access Control (AC)</a>, and&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=319">System and Communications Protection Controls (SC)</a></span></p>
+<p><span>&nbsp;</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ENDPOINT DEFENSE - 5355</h1>
+        <p>
+            <strong>(Revised: 01/2019 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall be responsible for protecting information on computers that routinely interact with untrusted devices on the internet or may be prone to loss or theft.</span></p>
+<p><span>Each state entity shall develop and implement capabilities, methods and techniques to manage processes and tools to:</span></p>
+<ol>
+    <li><span>Detect malicious software;</span></li>
+    <li><span>Permit only trusted software to run on a device, commonly referred to as white listing;</span></li>
+    <li><span>Prevent certain software from running on a device, commonly referred to as blacklisting;</span></li>
+    <li><span>Identify unauthorized changes to secure configurations;</span></li>
+    <li><span>Encrypt confidential and sensitive data; and</span></li>
+    <li><span>Comply with the Endpoint Protection Standard (SIMM 5355-A)</span></li>
+</ol>
+<p><strong><span>Implementation Controls: Endpoint Protection Standard (SIMM 5355-A); </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=359"><span>System and Information Integrity (SI)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>MALICIOUS CODE PROTECTION - 5355.1</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall employ malicious code protection mechanisms at information asset entry and exit points and at workstations, servers, or mobile computing devices on the network to detect and eradicate malicious code.</span></p>
+<p><span>Malicious code protection mechanisms may not always detect malicious code; therefore, each state entity shall implement additional safeguards to help ensure that software does not perform functions other than those intended. Examples of additional safeguard include, but are not limited to, secure coding practices, configuration management and control, trusted procurement processes, and monitoring practices.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=359"><span>System and Information Integrity (SI)</span></a>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SECURITY ALERTS, ADVISORIES, AND DIRECTIVES - 5355.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall receive information asset security alerts, advisories, and directives from various legitimate external sources and shall act on those to mitigate state entity risk, including generating internal security alerts, advisories, and directives as deemed necessary.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=359"><span>System and Information Integrity (SI)</span></a>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=390">Supply Chain Risk Management (SR)</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>IDENTITY AND ACCESS MANAGEMENT - 5360</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall safeguard access to information assets by managing the identities of users and devices and controlling access to resources and data bases on a need to know basis throughout the identity lifecycle. Each state entity shall establish processes and procedures to ensure:</span></p>
+<ol>
+    <li><span>Maintenance of user identities, including both provisioning and de-provisioning;</span></li>
+    <li><span>Enforcement of password policies or more advanced multifactor mechanisms to authenticate users and devices;</span></li>
+    <li><span>Management of access control rules, limiting access to the minimum necessary to complete defined responsibilities;</span></li>
+    <li><span>Separation of duties to avoid functional conflicts;</span></li>
+    <li><span>Periodic recertification of access control rules to identify those that are no longer needed or provide overly broad clearance;</span></li>
+    <li><span>Use of privileged accounts that can bypass security are restricted and audited;</span></li>
+    <li><span>Systems to administer access based on roles are defined and installed; and</span></li>
+    <li><span>Encryption keys and system security certificates are effectively generated, exchanged, stored and safeguarded.</span></li>
+</ol>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=359"><span>System and Information Integrity (SI)</span></a>; <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=45">Access Control (AC)</a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>REMOTE ACCESS - 5360.1</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each entity shall establish and document allowed methods of remote access to its information systems; establish usage restrictions and implementation guidance for each allowed remote access method; and monitor the information asset for unauthorized remote access. Allowed methods shall comply with the Telework and Remote Access Security Standard (</span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5360-A</span></a><span>).</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=45"><span>Access Control (AC)</span></a><span>; </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5360-A</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>WIRELESS ACCESS - 5360.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall establish appropriate restrictions and implementation instructions for wireless access, and enforce requirements for wireless connections to information systems. Each state entity shall also proactively search for unauthorized wireless connections including scans for unauthorized Wi-Fi access points.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=45"><span>Access Control (AC)</span></a><span>; </span><a href="https://cdt.ca.gov/policy/simm/#SIMM"><span>SIMM 5360-A</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PHYSICAL SECURITY - 5365</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall establish and implement physical security and environmental protection controls to safeguard information assets against unauthorized access, use, disclosure, disruption, modification, or destruction.&nbsp;</span>Physical security and environmental controls shall include management and maintenance of:</p>
+<ol>
+    <li><span>Facility entry controls and badging systems for personnel and visitors;</span></li>
+    <li><span>Equipment and media handling/destruction processes;</span></li>
+    <li><span>Building emergency procedures;</span></li>
+    <li><span>Screening and/or background check processes;</span></li>
+    <li><span>Ventilation and temperature control systems; and</span></li>
+    <li><span>Fire suppression, water damage prevention, and electrical power fluctuation or failure detection systems.</span></li>
+</ol>
+<p><span>Each state entity shall issue physical access authorization credentials to state entity personnel and visitors, as appropriate. Personnel with long-term physical access authorization credentials are not considered visitors. Authorization credentials include, but are not limited to, badges, identification cards and smart cards. The strength of authorization credentials necessary, including level of forge-proof badges, smart cards, or identification cards, shall be determined through a risk assessment.</span></p>
+<p><span>Each state entity shall monitor physical access to information systems to detect and respond to physical security incidents; review physical access logs and, upon occurrence of an incident, coordinate results of reviews and investigations with the state entity incident response capability.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=206">Physical and Environmental Protection (PE)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ACCESS CONTROL FOR OUTPUT DEVICES - 5365.1</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall control access to information system output devices, such as printers and facsimile devices, to prevent unauthorized individuals from obtaining the output.</span></p>
+<p><strong><span>Implementation Controls: </span></strong><span>NIST SP 800-53: <a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=206">Physical and Environmental Protection (PE)</a></span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>MEDIA PROTECTION - 5365.2</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Policy: </span></strong><span>Each state entity shall safeguard media in digital and/or non-digital form from unauthorized access, use, modification or disposal, inside or outside of the state entity&rsquo;s control areas whether in storage or transport.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=198"><span>Media Protection (MP)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>MEDIA DISPOSAL - 5365.3</h1>
+        <p>
+            <strong>(Revised: 06/2014 )</strong>
+        </p>
+    <p>
+        <p><strong><span>Introduction: </span></strong><span>Sanitization techniques, including clearing, purging, and destruction, prevent the disclosure of information to unauthorized individuals when such media is reused or released for disposal. Sanitization of non-digital media include, but are not limited to, removing a classified appendix from an otherwise unclassified document, deleting meta data or tags embedded in the document properties that may reveal sources of the document, or redacting selected sections or words from a document.</span></p>
+<p><strong><span>Policy: </span></strong><span>Each state entity shall sanitize digital and non-digital media prior to disposal or release for reuse, in accordance with applicable standards and policies, including media found in devices such as hard drives, mobile devices, scanners, copiers, and printers.</span></p>
+<p><strong><span>Implementation Controls:&nbsp; </span></strong><span>NIST SP 800-53: </span><a href="https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-53r5.pdf#page=198"><span>Media Protection (MP)</span></a></p>
+    </p>
+    
+</div>
+            <hr />
+         
+            <script type="text/javascript">
+                function printChapterView() {                 
+                    var divToPrint = document.getElementById("printarea");
+                    newWin = window.open("");
+                    newWin.document.write(divToPrint.outerHTML);
+                    newWin.print();
+                }
+            </script>
+
+
+        
+    </main>
+
+    <div class="main-secondary">
+
+        
+
+
+
+<script src="/Assets/js/jquery/jquery-3.6.3.min.js"></script>
+<div class="cta-panel">
+    <div class="panel">
+        <div class="panel-heading">
+            <h2 class="panel-title">Search Entire Manual</h2>
+        </div>
+        <div class="panel-body">
+            <div class="manual-search-body">
+                <div class="site-manual-search">
+                    <form id="site-search__form" aria-labelledby="site-search__toggle" method="get" action="">
+                        <label for="5d1449a7dad94f4f869b24de0ed39abf" value="Search Box" class="hidden">Search Manual</label>
+                        <span>
+                            <input name="q" type="text" id="5d1449a7dad94f4f869b24de0ed39abf" placeholder="Search Manual">
+                        </span>
+                        <input type="hidden" name="sitesearch" value="" />
+                        <span>
+                            <button class="button "
+                                    type="submit"
+                                    name='Search'
+                                    value='Search'>
+                                <span class="button__text ">Search</span>
+                            </button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+
+            <input id="manualSearchPageItemPath" type="hidden" class="searchPageitem" value="/Resources/SAM/SearchResult" />
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/assets/js/mansearch.js">
+
+
+</script>
+
+
+
+
+
+
+
+<div class="cta-panel">
+
+
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h2 class="panel-title">Print Entire SAM Manual</h2>
+        </div>
+        <div class="panel-body">
+            <div>
+                
+                <button id="printinit" class="btn btn-primary" type="button" onclick='PrintMan()'>Print Entire Manual</button>
+                <div id="printdiv" class="hidden">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal"><span class="loadmsg">Please bear with us, generating the entire SAM for printing will take approximately two minutes.</span></div>
+<script type="text/javascript">
+    function PrintMan() {
+        $.ajax(
+            {
+                type: 'GET',
+                url: '/api/sitecore/Manual/FullPrint?manualName=SAM',
+                dataType: 'json',
+                //Refactor -  Needs to query root node name and pass value.  Content Tree >  Page Title.
+                //Pass value of the manual box.
+                data: { manualName: $("#printinit").val() },
+                beforeSend: function () {
+                    $(".modal").addClass("show")
+                },
+                complete: function () {
+                    $(".modal").removeClass("show")
+                },
+                success: function (result) {
+                    if (result.length < 1) {
+
+
+
+                    }
+                    else {
+                        $("#printdiv").html("");
+                        $("#printdiv").append("<h1>State Administrative Manual</h1>");
+                        for (i = 0; i < result.length; i++) {
+                            //Append Each Chapter Summary
+                            var chap;
+                            if (chap != result[i].Chapter) {
+                                chap = result[i].Chapter;
+                                $("#printdiv").append("<h1>Chapter - " + result[i].Chapter + "</h1>");
+                                $("#printdiv").append('<table class="table table-sm"' + 'id="cp-' + result[i].Chapter + '">');
+                                $('#cp-' + chap).append('<thead><tr><th align="left">Subject</th><th align="left">Section</th></tr></thead>');
+                                $('#cp-' + chap).append('<tbody>');
+                            }
+                            if (chap = result[i].Chapter) {
+                                $('#cp-' + chap).append('<tr><td>' + result[i].Subject + '</td><td>' + result[i].Section + '</td></tr>');
+                            }
+                            else {
+                            }
+                            $("#printdiv").append('</tbody>');
+                            $("#printdiv").append('</table>');
+                            $("#printdiv").append("<h2>" + result[i].Subject + "-" + result[i].Section + "</h2>");
+                            $("#printdiv").append(result[i].PrintContent);
+                            //Append Full Section
+
+                        }
+                    }
+                    printData();
+                }
+            });
+    }
+
+    function printData() {
+        var divToPrint = document.getElementById("printdiv");
+        newWin = window.open("");
+        newWin.document.write(divToPrint.outerHTML);
+        newWin.print();
+        /*newWin.close();*/
+    }
+
+</script>
+
+<style>
+    #printdiv th {
+        width: 50%;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba( 255, 255, 255, .8 ) url('/Assets/img/loader.gif') 50% 50% no-repeat;
+    }
+
+    .show {
+        display: block
+    }
+
+    .loadmsg {
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background: #06a;
+        color: white;
+        padding: 5px;
+    }
+</style>
+    </div>
+</div>
+        
+        
+
+<script async src="https://siteimproveanalytics.com/js/siteanalyze_6339819.js"></script>
+<footer class="footer" role="contentinfo">
+    <div class="footer-links">
+        <ul class="footer-links-list">
+            <li><a href="#skip-to-content">Back to Top</a></li>
+                <li><a href="/Configuration/Footer-Utility-Links/Accessibility/Accessibility">Accessibility</a></li>
+                <li><a href="/Certification">Certification</a></li>
+                <li><a href="/Employee-Corner">Employee Corner</a></li>
+                <li><a href="/Privacy">Privacy Policy Statement</a></li>
+        </ul>
+    </div>
+    <div class="footer-social">
+        
+
+
+        <div class="social-connect social-connect--standout">
+            
+                <ul class="social-connect-body">
+                        <li><a href="https://www.facebook.com/CalDGS/?ref=settings"><span class="social-connect-icon icon-facebook" aria-hidden="true"></span><span class="social-connect-label">Facebook</span></a></li>
+                        <li><a href="https://x.com/califdgs?lang=en"><span class="social-connect-icon icon-twitter-x" aria-hidden="true"></span><span class="social-connect-label">X</span></a></li>
+                        <li><a href="https://www.youtube.com/user/CalifDGS"><span class="social-connect-icon icon-youtube" aria-hidden="true"></span><span class="social-connect-label">YouTube</span></a></li>
+                        <li><a href="https://www.instagram.com/dgscalif/?hl=en"><span class="social-connect-icon icon-instagram" aria-hidden="true"></span><span class="social-connect-label">Instagram</span></a></li>
+                        <li><a href="https://www.linkedin.com/company/cadgs"><span class="social-connect-icon icon-linkedin" aria-hidden="true"></span><span class="social-connect-label">LinkedIn</span></a></li>
+                </ul>
+        </div>
+
+    </div>
+    <div class="footer-copyright">Copyright &#169; 2018 State of California</div>
+</footer>
+
+
+        <!-- CDT emergency alerts : Start -->
+        <script defer src="https://alert.cdt.ca.gov"></script>
+        <!-- CDT emergency alerts : End -->
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push(
+                    { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+                ); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5D4N99T');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D4N99T"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <script src="/assets/js/jquery/jquery-3.6.3.min.js"></script>
+        <script src="/assets/libs/handlebars/4.7.9/handlebars.min.js"></script>
+        <script src="/assets/js/app.js?v=21"></script>
+        <script src="/assets/js/search.js"></script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+
+        <script src="/assets/libs/jquery-ui/1.13.2/jquery-ui.min.js"></script>
+        <!-- Your Script -->
+        <script type='text/javascript'>
+            $(function () {
+                // This will apply the datepicker to all input elements of the date type and then it will remove the date attribute to avoid jQuery / browser conflicts
+                $("input[type='date']").datepicker().attr('type', 'text');
+            });
+        </script>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <script src="/assets/js/custom.js"></script>
+
+        <!-- Google Analytics -->
+        <!-- Uncomment out the following portion when it's in production -->
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19802602-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-19802602-2', {
+                cookie_flags: 'max-age=7200;secure'
+            });
+        </script>
+
+        <script id="accordionclick" type="text/javascript"></script>
+        <script id="bread-crumbhtml" type="text/javascript"></script>
+        <script id="local-navhtml" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+
+                var accordionContents = "";
+                var breadCrumbContents = "";
+                var navContents = "";
+
+                $('.accordionclick').each(function () {
+                    accordionContents += $(this).html();
+                });
+
+                $('.bread-crumbhtml').each(function () {
+                    breadCrumbContents += $(this).html();
+                });
+
+                $('.local-navhtml').each(function () {
+                    navContents += $(this).html();
+                });
+
+                $('#accordionclick').html(accordionContents);
+                $('#bread-crumbhtml').html(breadCrumbContents);
+                $('#local-navhtml').html(navContents);
+
+            });
+
+        </script>
+
+        <!-- Hiddenfield holding department id-->
+        <input id="divisionId" type="hidden" class="divisionId" value="" />
+            <input id="searchPageItemPath" type="hidden" class="searchPageitem" value="/SearchResult" />
+        <input id="isGlobalSearchPage" type="hidden" class="searchPageitem" value="true" />
+
+    </body>
+</html>

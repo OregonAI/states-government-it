@@ -6,13 +6,13 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 84 |
+| policy | 91 |
 | standard | 57 |
-| statute | 13 |
+| statute | 26 |
+| rule | 6 |
 | executive_order | 5 |
-| rule | 4 |
 
-**Total: 163**
+**Total: 185**
 
 ## Source manifest
 
@@ -20,10 +20,23 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 ## Freshness (reverify every 90 days)
 
-163 of 163 document(s) overdue for re-verification.
+185 of 185 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
+| ca-civ-1798-1798-78 | statute | never |
+| ca-gov-11015-5 | statute | never |
+| ca-gov-11019-9 | statute | never |
+| ca-gov-11531-11544 | statute | never |
+| ca-gov-11545-11548 | statute | never |
+| ca-gov-11549-11549-10 | statute | never |
+| ca-gov-11549-63-11549-66 | statute | never |
+| ca-gov-11786-11786-6 | statute | never |
+| ca-gov-7405 | statute | never |
+| ca-gov-7929-210 | statute | never |
+| ca-gov-8586-5 | statute | never |
+| ca-gov-8592-30-8592-50 | statute | never |
+| ca-pcc-12100-12113 | statute | never |
 | co-crs-2-3-pt17 | statute | never |
 | co-crs-24-33-5-pt19 | statute | never |
 | co-crs-24-37-5 | statute | never |
@@ -37,6 +50,8 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | wa-rcw-40-26 | statute | never |
 | wa-rcw-42-56-590 | statute | never |
 | wa-rcw-43-105 | statute | never |
+| ca-ccr-2-div-7-ch-10 | rule | never |
+| ca-ccr-2-div-7-ch-15 | rule | never |
 | or-oar-128-20 | rule | never |
 | or-oar-128-30 | rule | never |
 | or-oar-128-40 | rule | never |
@@ -46,33 +61,18 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | wa-eo-19-04 | executive_order | never |
 | wa-eo-24-01 | executive_order | never |
 | wa-eo-91-10 | executive_order | never |
+| ca-sam-4800 | policy | never |
+| ca-sam-4900 | policy | never |
+| ca-sam-5000 | policy | never |
+| ca-sam-5100 | policy | never |
+| ca-sam-5200 | policy | never |
+| ca-sam-5300 | policy | never |
+| ca-sam-5900 | policy | never |
 | or-das-107-004-010 | policy | never |
 | or-das-107-004-015-pr | policy | never |
 | or-das-107-004-015 | policy | never |
 | or-das-107-004-030-pr | policy | never |
 | or-das-107-004-030 | policy | never |
 | or-das-107-004-050 | policy | never |
-| or-das-107-004-052-pr | policy | never |
-| or-das-107-004-052 | policy | never |
-| or-das-107-004-110 | policy | never |
-| or-das-107-004-120 | policy | never |
-| or-das-107-004-130-pr | policy | never |
-| or-das-107-004-130 | policy | never |
-| or-das-107-004-140 | policy | never |
-| or-das-107-004-150-pr | policy | never |
-| or-das-107-004-150 | policy | never |
-| or-das-107-004-155-pr | policy | never |
-| or-das-107-004-155 | policy | never |
-| or-das-107-004-160 | policy | never |
-| or-das-107-004-180-pr | policy | never |
-| or-das-107-004-180 | policy | never |
-| or-das-107-004-190-pr | policy | never |
-| or-das-107-004-190 | policy | never |
-| or-das-107-004-200-pr | policy | never |
-| or-das-107-004-200 | policy | never |
-| or-eis-107-004-180-budget-categories | policy | never |
-| or-eis-ai-attachment-b | policy | never |
-| or-eis-ai-attachment-d | policy | never |
-| or-eis-ai-attachment-e | policy | never |
-| … | *113 more* | |
+| … | *135 more* | |
 

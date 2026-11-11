@@ -1,0 +1,1192 @@
+
+<!doctype html>
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if (gt IE 9)]><!-->
+<html lang="en" class="not-rich-text-editor">
+    <!--<![endif]-->
+    <head>
+        
+
+
+
+
+    <meta charset="utf-8">
+
+    <title>Chapter-View</title>
+
+
+
+
+
+
+
+    <!-- General purpose 16x16 .ico shortcut icon -->
+    <link rel="icon" href="/assets/img/icon/favicon.ico">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Use highest compatibility mode -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<!-- for Blackberry, AvantGo -->
+<meta name="MobileOptimized" content="320">
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+
+<!-- jQueryUI Stylesheet -->
+<link rel="stylesheet" href="/assets/libs/jquery-ui/1.13.2/jquery-ui.min.css?v=2" type="text/css">
+
+<!-- Do not include the extension with cssPath -->
+<link href="/assets/css/app.min.css?v=1" rel="stylesheet">
+<link rel="stylesheet" href="/css/AuthoringUIExperience/sitecore-extra.css" type="text/css">
+
+    <!-- modernizr.com, feature detection -->
+    <script src="/assets/js/modernizr-custom.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="/assets/css/custom.css" type="text/css">
+
+
+
+
+
+<script>
+  function loadGoogleTranslate() {
+    if (window.google && window.google.translate) return;
+
+    var s = document.createElement('script');
+    s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    s.async = true;
+    s.onerror = function () {
+      console.warn('Google Translate script blocked by browser tracking prevention.');
+    };
+    document.head.appendChild(s);
+  }
+
+  // Call this only after consent/click:
+  // loadGoogleTranslate();
+</script>
+        
+    </head>
+    <body>
+
+        <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+        
+
+
+<nav class="utility-header "
+     aria-label="Utility Links">
+    <ul class="utility-header__menu">
+                    <li>
+
+
+
+
+    <div class="branding ">
+<a href ='http://www.ca.gov'>
+
+
+
+
+
+        <img style="height:28px;" class="icon" src="/assets/img/icons/cagov-logo-white.png" alt="CA.gov"/>
+
+<span class="sr-only">CA.gov</span>
+</a>    </div>
+
+</li>
+                    <li>
+        <div class="social-share">
+                <a href="#" class="social-share-facebook icon-facebook"><span class="social-share-label">Share via Facebook</span></a>
+                <a href="#" class="social-share-twitter-x icon-twitter-x"><span class="social-share-label">Share via X</span></a>
+                <a href="#" class="social-share-google-plus icon-google-plus"><span class="social-share-label">Share via Google+</span></a>
+                <a href="#" class="social-share-email icon-email"><span class="social-share-label">Share via Email</span></a>
+        </div>
+
+
+
+</li>
+                    <li>
+                        <button type="button" class="utility-header__drawer-toggle "
+                                aria-controls='translate' aria-haspopup = 'true' aria-expanded='false'>
+                            <span class='utlility-header_toggle-text'>Translate</span>
+                        </button>
+                    </li>
+    </ul>
+
+                <div id="translate" class="utility-header__drawer"><div>Translate this website to your preferred language:<br><div id="google_translate_element"></div></div></div>
+</nav>
+
+        <!-- Begin Content -->
+        
+
+
+
+
+
+
+
+    <header class="global-header ">
+        
+            <div style="float: left; margin-top: 4px; margin-left: -12px;">
+                <a href="/">
+                    <img src="/assets/img/logo/DGS_Logo.png?v=2" style="vertical-align: middle;" alt="California Department of General Services" />
+                </a>
+            </div>
+
+        
+
+
+
+
+<div class="site-search" >
+
+        <button id="site-search__toggle"
+                class="site-search__toggle button  "
+                type="button"
+                aria-controls="site-search__form3f3b2b87424b4e5286e5c92e85d83f5d"
+                aria-haspopup="true"
+                
+                >
+            <span class="site-search__text sr-only">Site Search</span>
+                <span class="site-search__hamburger"><span class="site-search__hamburger-inner"></span></span>
+                            <span class="site-search__icon" aria-hidden="true"></span>
+                    </button>
+
+        <form class="site-search__form" id="site-search__form3f3b2b87424b4e5286e5c92e85d83f5d"  aria-labelledby="site-search__toggle" method="get" action="">
+            <span>
+                <label for="3f3b2b87424b4e5286e5c92e85d83f5d">Search this site:</label>
+            </span>
+            <span>
+                <input name="q" type="text"  id="3f3b2b87424b4e5286e5c92e85d83f5d" placeholder="For example, how to sell to the state?">
+            </span>
+
+            <input type="hidden" name="sitesearch" value="" />
+            <span class="site-search__submit">
+                
+
+
+
+
+    <button class="button "
+            type="submit"
+            name='Search'
+            value='Search'
+            
+            
+            
+            
+>
+        <span class="button__text ">Search</span>
+                    </button>
+
+            </span>
+            <button class="site-search__reset-search" aria-describedby="3f3b2b87424b4e5286e5c92e85d83f5d" type="reset" style="display: none">Clear Search</button>
+        </form>
+
+</div>    </header>
+
+
+
+<!-- Navigation Main Navigation -->
+
+
+
+
+
+    <nav class="navigation navigation--main " aria-label="Main Menu">
+
+        
+        <button id="navigation-main-toggle"
+                class="navigation__toggle "
+                type="button"
+                tabindex="0"
+                aria-controls="navigation__list-main"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                <span class="navigation__toggle-text"><span class="navigation__toggle-open">View All</span><span class="navigation__toggle-close">Close</span></span>
+                            <span class="navigation__toggle-hamburger"><span class="navigation__toggle-hamburger-inner"></span></span>
+                    </button>
+        <ul id="navigation__list-main" class="navigation__list" aria-labelledby="navigation-main-toggle" role="menubar" aria-orientation="horizontal" >
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/"
+                               tabindex="0"
+                               >
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Services"
+                               tabindex="0"
+                               >
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <button class="navigation__item-link"
+                                    type="button"
+                                    role="menuitem"
+                                    tabindex="0"
+                                    aria-controls="E6ED6841C803456E8383CF3FC4CC49C7-sub-nav"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    aria-label="Divisions &amp; Offices">
+                                Divisions &amp; Offices
+                                <span class="navigation__sub-nav-toggle"></span>
+                                <span class="icon-plus"></span><span class="icon-minus"></span>
+                                <span class="sr-only">Sub Menu Toggle</span>
+                            </button>
+
+                            <ul id="E6ED6841C803456E8383CF3FC4CC49C7-sub-nav" class="navigation__sub-nav" role="menu" aria-label="Divisions &amp; Offices">
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/BSC"
+                                           tabindex="-1"
+                                           >
+                                            Building Standards Commission
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/CCDA"
+                                           tabindex="-1"
+                                           >
+                                            California Commission on Disability Access
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/DSA"
+                                           tabindex="-1"
+                                           >
+                                            Division of the State Architect
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/FMD"
+                                           tabindex="-1"
+                                           >
+                                            Facilities Management Division
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OAH"
+                                           tabindex="-1"
+                                           >
+                                            Office of Administrative Hearings
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Audit Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OBAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Business and Acquisition Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OFS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Fiscal Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OFAM"
+                                           tabindex="-1"
+                                           >
+                                            Office of Fleet and Asset Management
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OHR"
+                                           tabindex="-1"
+                                           >
+                                            Office of Human Resources
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OLS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Legal Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OPSC"
+                                           tabindex="-1"
+                                           >
+                                            Office of Public School Construction
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/ORIM"
+                                           tabindex="-1"
+                                           >
+                                            Office of Risk and Insurance Management
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OSP"
+                                           tabindex="-1"
+                                           >
+                                            Office of State Publishing
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OoS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Sustainability
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OTAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Training and Administrative Standards
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/PD"
+                                           tabindex="-1"
+                                           >
+                                            Procurement Division
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/RESD"
+                                           tabindex="-1"
+                                           >
+                                            Real Estate Services Division
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <button class="navigation__item-link"
+                                    type="button"
+                                    role="menuitem"
+                                    tabindex="0"
+                                    aria-controls="033543813F6B4CCBAD196EA91F5FCE30-sub-nav"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    aria-label="Resources">
+                                Resources
+                                <span class="navigation__sub-nav-toggle"></span>
+                                <span class="icon-plus"></span><span class="icon-minus"></span>
+                                <span class="sr-only">Sub Menu Toggle</span>
+                            </button>
+
+                            <ul id="033543813F6B4CCBAD196EA91F5FCE30-sub-nav" class="navigation__sub-nav" role="menu" aria-label="Resources">
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/E-Signature-Toolkit"
+                                           tabindex="-1"
+                                           >
+                                            E-Signature Toolkit
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/RESD/Projects/Page-Content/Projects-List-Folder/Executive-Order-N-06-19-Affordable-Housing-Development"
+                                           tabindex="-1"
+                                           >
+                                            Affordable Housing Development
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/Legislative-Reports"
+                                           tabindex="-1"
+                                           >
+                                            Legislative Reports
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/ManagementMemos"
+                                           tabindex="-1"
+                                           >
+                                            Management Memos
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/SAM"
+                                           tabindex="-1"
+                                           aria-current="page">
+                                            State Administrative Manual (SAM)
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual"
+                                           tabindex="-1"
+                                           >
+                                            State Contracting Manual
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/Statewide-Forms"
+                                           tabindex="-1"
+                                           >
+                                            Statewide Forms Program
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/About/Strategic-Plan"
+                                           tabindex="-1"
+                                           >
+                                            Strategic Plan
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Press-Releases"
+                               tabindex="0"
+                               >
+                                <span>Press Releases</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/OHR/Careers"
+                               tabindex="0"
+                               >
+                                <span>Careers</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/About"
+                               tabindex="0"
+                               >
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Contact"
+                               tabindex="0"
+                               >
+                                <span>Contact</span>
+                            </a>
+                        </li>
+        </ul>
+    </nav>
+
+<div id="main-content" class="main-content">
+    <!--This works because the fields aren't present in child templates.  Field value is never "" or null-->
+    <main class="main-primary" id="printarea">
+        
+        <div>
+
+    <ol class="breadcrumb">
+            <li><a href="/Resources/SAM"> SAM</a></li>
+            <li><a href="/Resources/SAM/TOC"> TOC</a></li>
+            <li><a href="/Resources/SAM/TOC/5200"> 5200</a></li>
+        <li class="active"><a href="/Resources/SAM/TOC/5200/Chapter-View">Chapter-View</a></li>
+    </ol>
+</div>
+
+<style>
+    .breadcrumb {
+       background-color: #ffffff !important;
+    }
+</style>
+
+    <h1>Chapter 5200 - Chapter-View</h1>
+<div class="pull-right" style="padding-bottom: 5px;">
+    <button id="btn" type="button" class="btn btn-primary" onclick="printChapterView()">Print Chapter</button>
+  
+    
+</div>
+    <div class="row">
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th colspan="6" scope="col">Subject</th>
+                    <th scope="col">Section</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td colspan="6" scope="row">INTRODUCTION</td>
+                        <td>5200</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">RESPONSIBILITIES AND AUTHORITY</td>
+                        <td>5200.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">GENERAL PROCUREMENT PROCEDURES: PROCUREMENT OF GOODS AND SERVICES ACQUISITIONS AUTHORITY FOR IT GOODS AND SERVICES RELATED TO IT PROJECTS</td>
+                        <td>5210</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">DEPARTMENT OF TECHNOLOGY REVIEW OF PROCUREMENT DOCUMENTS</td>
+                        <td>5211</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">UNIFORM STANDARDS</td>
+                        <td>5230</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ACQUISITION PLANNING</td>
+                        <td>5230.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ACQUISITION PHASE</td>
+                        <td>5230.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">POST-AWARD ACTIVITY</td>
+                        <td>5230.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PRINCIPLES FOR IT PROCUREMENT</td>
+                        <td>5230.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PUBLIC POLICY CONSIDERATION</td>
+                        <td>5230.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">EXEMPTION</td>
+                        <td>5230.6</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">LEVERAGED PROCUREMENT AGREEMENTS</td>
+                        <td>5291</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal">Please wait... We are generating the manual...</div>
+<style>
+    .scWebEditInput {
+    
+    width:auto;
+    }
+
+
+</style>
+<div class="row">
+    <h1>INTRODUCTION - 5200</h1>
+        <p>
+            <strong>(Revised: 11/2006 )</strong>
+        </p>
+    <p>
+        <p><span>This chapter provides policy direction applicable to information technology (IT) procurements pursuant to Public Contract Code section <a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12100.&amp;lawCode=PCC">12100</a> et seq. IT as defined in SAM Sections <a href="https://www.dgs.ca.gov/Resources/SAM">4819 through 4819.42</a> includes telecommunications goods and services</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>RESPONSIBILITIES AND AUTHORITY - 5200.5</h1>
+        <p>
+            <strong>(Revised: 09/2018 )</strong>
+        </p>
+    <p>
+        <p><span>The Department of Finance (</span><a href="http://www.dof.ca.gov/"><span>Finance</span></a><span>) is responsible for review and approval of funding related to IT project proposals.</span></p>
+<p><span>Pursuant to Public Contract Code (PCC) 12100(g), the Department of General Services (DGS) has statutory authority in the determination of IT procurement procedures for the purchase of IT goods and services that are;</span></p>
+<ol>
+    <li><span>Not related to IT projects</span></li>
+    <li><span>Related to delegated IT projects</span></li>
+    <li><span>Related to non-delegated IT projects that the California Department of Technology (Department of Technology) has authorized to be conducted by Agencies/state entities under acquisition authority granted by DGS.</span></li>
+</ol>
+<p><span>These procedures apply to acquisitions conducted by DGS&rsquo; Procurement Division (PD) and by Agencies/state entities under acquisition authority granted by DGS.</span></p>
+<p><span>Pursuant to Public Contract Code section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=12104.&amp;lawCode=PCC"><span>12104</span></a><span>(a), the DGS/PD has published procurement procedures in the State Contracting Manual (</span><a href="https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual-Volume-2-3-FI$Cal#@ViewBag.JumpTo"><span>SCM</span></a><span>). The DGS/PD, Office of Policies, Procedures and Legislation (</span><a href="https://www.dgs.ca.gov/PD/About/Page-Content/PD-Branch-Intro-Accordion-List/Policy-Training-and-Customer-Service/Office-of-Policies-Procedures-and-Legislation#@ViewBag.JumpTo"><span>OPPL</span></a><span>), is the entity responsible for the maintenance of the SCM.</span></p>
+<p><span>Pursuant to Public Contract Code (PCC) 12102.2(e), the DGS has statutory authority, in consultation with the Department of Technology, to delegate IT purchasing authority to those Agencies/state entities demonstrating the capability to make purchases that adhere to state statutes, regulations, policies, and DGS procedures. Procedures for granting purchasing authority to Agencies/state entities are described in the SCM. The DGS will consult with the Department of Technology when granting purchasing authority to a new Agency/state entity and when granting a general increase to IT purchasing authority (i.e. when a state agency moves from one Tier to another Tier). DGS may consult with the Department of Technology for transaction-based requests to increase purchasing authority (i.e. one-time increases in purchasing authority for specific acquisitions).</span></p>
+<p><span>Pursuant to Public Contract Code (PCC) 12100(c), the Department of Technology has statutory authority in the determination of IT procurement policy for all IT acquisitions.</span></p>
+<p><span>Pursuant to Public Contract Code (PCC) 12100(d), the Department of Technology has statutory authority in the determination of IT procurement procedures for the purchase of IT goods and services related to IT projects when the acquisitions are conducted by the Department of Technology. The Office Statewide of Project Delivery was established within the Department of Technology to provide oversight, guidance, and direction to Agencies/state entities in all aspects of non-delegated IT project procurements, including maintenance and operation procurements associated with new or previously approved non-delegated IT Projects. Agencies/state entities must obtain required approval as appropriate before an IT procurement cycle commences.</span></p>
+<p>&nbsp;</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>GENERAL PROCUREMENT PROCEDURES: PROCUREMENT OF GOODS AND SERVICES ACQUISITIONS AUTHORITY FOR IT GOODS AND SERVICES RELATED TO IT PROJECTS - 5210</h1>
+        <p>
+            <strong>(New: 09/2018 )</strong>
+        </p>
+    <p>
+        <p style="margin-top: 12pt;"><span>Pursuant to Public Contract Code (PCC) 12100(b), all contracts for the acquisition of Information Technology (IT) goods and services related to IT projects, as defined in SAM Section 4819.2, shall be made by or under the supervision of the Department of Technology. The Department of Technology will conduct acquisitions on behalf of Agencies/state entities that are related to non-delegated IT projects, unless the Department of Technology authorizes an Agency/state entity to conduct the acquisition under purchasing authority granted by the Department of General Services (DGS).</span></p>
+<p style="margin-top: 12pt;"><span>Pursuant to Public Contract Code (PCC) 12102.2(e)(1), Agencies/state entities shall not conduct an acquisition for IT goods and services related to an IT project under acquisition authority (aka &ldquo;purchasing authority) granted by DGS unless the Department of Technology has either;</span></p>
+<ol>
+    <li><span>Delegated project authority to the Agency/state entity; or</span></li>
+    <li><span>Authorized the Agency/state entity to conduct the acquisition.</span></li>
+</ol>
+<p style="margin-top: 12pt;"><span>The Department of Technology may authorize Agencies/state entities to conduct acquisitions related to non-delegated IT projects under the purchasing authority granted by DGS. Written authorization provided by the Department of Technology must be maintained in the Agency/state entity&rsquo;s procurement file. Agencies/state entities must adhere to DGS procurement procedures in the State Contracting Manual (SCM) when conducting acquisitions.</span></p>
+<p style="margin-top: 12pt;"><span>The Department of Technology will consult with DGS prior to delegating IT projects with procurements over the Agency/state entity&rsquo;s DGS Delegated Purchasing Authority.</span></p>
+<p style="margin-top: 12pt;"><span>Pursuant to Public Contract Code (PCC) 12100(g)(2), the DGS Procurement Division (PD) will conduct acquisitions on behalf of Agencies/state entities in accordance with SCM procurement procedures for acquisitions related to delegated IT projects when the acquisition dollar value exceeds purchasing authority granted by DGS (as referenced in each Agency/state entity&rsquo;s purchasing Authority Approval Letter).</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>DEPARTMENT OF TECHNOLOGY REVIEW OF PROCUREMENT DOCUMENTS - 5211</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <p><span>The California Department of Technology (Department of Technology) Information Technology Project Oversight Division (ITPOD) may decide to review specifications in procurement documents before they are advertised to ensure that the specifications are consistent with the requirements and specifications identified in the Project Approval Lifecycle Stage/Gate deliverables (</span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>see SIMM Section 19</span></a><span>) or Special Project Reports (</span><a href="http://www.cio.ca.gov/Government/IT_Policy/pdf/SIMM_30_Special_Project_Report_Preparation_Instructions_03092011.pdf"><span>SPR</span></a><span>) for the projects.&nbsp; The Department of Technology&rsquo;s decision to review procurement documents will be based on whether it believes a project requires special oversight during the procurement process.&nbsp; Procurement documents that the Department of Technology determines are subject to its oversight under this section may not be released until the Department of Technology has approved their release.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>UNIFORM STANDARDS - 5230</h1>
+        <p>
+            <strong>(New: 06/2007 )</strong>
+        </p>
+    <p>
+        <p><span>Uniform standards are applicable to acquisitions of IT goods and/or services pursuant to Public Contract Code section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=PCC&amp;sectionNum=12100."><span>12100 </span></a><span>et seq., regardless of dollar amount, type of IT goods/services, and acquisition approach. The following standards shall apply throughout the IT procurement process:</span></p>
+<ul style="list-style-type: square;">
+    <li><span>Acquisitions shall be conducted in a manner consistent with applicable laws, regulations, policies, and procedures.</span></li>
+    <li><span>Acquisitions shall be conducted to advance the public policy purpose of the State program that the technology will serve.</span></li>
+    <li><span>Acquisitions shall be conducted in a professional manner that promotes direct, straightforward, and cooperative communication with the supplier community.</span></li>
+    <li><span>Contracting opportunities shall be enhanced, whenever possible, for eligible certified small businesses and Disabled Veteran Business Enterprises (DVBEs).</span></li>
+    <li><span>Acquisitions and projects shall comply with Americans with Disabilities Act (</span><a href="http://www.ada.gov/"><span>ADA</span></a><span>) requirements.</span></li>
+    <li><span>New systems should be conceived in terms of a solution.</span></li>
+    <li><span>Regardless of the acquisition approach, the procurement process shall consist of three stages:</span>
+    <ul style="list-style-type: circle;">
+        <li><span>Acquisition Planning</span></li>
+        <li><span>Acquisition Phase</span></li>
+        <li><span>Post-award Activity</span></li>
+    </ul>
+    </li>
+</ul>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ACQUISITION PLANNING - 5230.1</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <div>
+<p><span>Elements of the Acquisition Planning stage include:</span></p>
+<ul style="list-style-type: square;">
+    <li><span>Defining the program need</span></li>
+    <li><span>Assessing operational needs</span></li>
+    <li><span>Selecting the acquisition method</span></li>
+    <li><span>IT General Provisions (GSPD 401-IT) and Cloud Computing Special Provisions (as applicable)</span></li>
+    <li><span>Obtaining approvals</span></li>
+</ul>
+<p><span>1. Defining the Program Need</span></p>
+<p>For all IT acquisitions, these steps shall be followed:</p>
+<ul style="list-style-type: circle;">
+    <li><span>Define the business need that solutions are to address.</span></li>
+    <li><span>Determine whether the acquisition is justified.</span></li>
+    <li><span>Verify that the goods and/or services to be acquired are IT.</span></li>
+</ul>
+<p><span>Additional issues and requirements for defining the need are discussed in Chapter 1 of </span><a href="https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual-Volume-2-3-FI$Cal#@ViewBag.JumpTo"><span>SCM Volume 3</span></a><span>.</span></p>
+<p><span>In planning a new IT system procurement the focus should be towards a &ldquo;solution&rdquo; approach so that the State may consider and select from a potential array of IT goods and/or services to meet the public policy and business needs of a State program, rather than specifying a particular product design.</span></p>
+<p><span>2. Assessing Operational Needs</span></p>
+<p>In assessing operational needs, these steps shall be followed:</p>
+<ul style="list-style-type: square;">
+    <li><span>Consider fiscal and budgetary issues.</span></li>
+    <li><span>Assess the timeframe in which the acquisition must be completed and determine the schedule for delivery and/or implementation.</span></li>
+    <li><span>Assess the impact on physical facilities.</span></li>
+    <li><span>Consider the risks associated with the procurement and the goods and/or services to be acquired.</span></li>
+    <li><span>Consider risk protection strategies that will both protect the State and encourage competition.</span></li>
+    <li><span>Determine whether there are available sources of the goods and/or services to be acquired (including existing State sources and contracts), and whether there is competition in the marketplace.</span></li>
+</ul>
+<p><span>Additional issues and requirements for defining the need are discussed in Chapter 1 of SCM Volume 3.</span></p>
+</div>
+<p><span>3. Selecting the Acquisition Method: See </span><a href="https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual-Volume-2-3-FI$Cal#@ViewBag.JumpTo"><span>SCM Volume 3 2.B3.0</span></a></p>
+<p>4. IT General Provisions (GSPD 401-IT)</p>
+<p>The State&rsquo;s IT General Provisions (GSPD-401IT, as applicable) shall be used or incorporated by reference in all competitive solicitations and purchase documents for IT goods and services (written or verbal) valued in excess of $4,999.99 (See SCM Volume 3 Section 4.B8.1). Under certain circumstances, the IT General Provisions associated with Reportable Projects (non-delegated), may be modified to meet project specific needs. These modifications are in addition to the supplemental language that may be added to the Statement of Work modifying certain sections of the IT General Provisions. All such modifications are to be approved by the California Department of Technology Statewide Technology Procurement Division (STPD) and Legal Services Division, before the contract may be considered valid and final.</p>
+<p>5. Obtaining Approvals</p>
+<p>For many IT acquisitions, it is necessary to obtain approvals before starting the procurement process. These approvals shall be obtained, as applicable, before releasing solicitation or purchase documents:</p>
+<ul style="list-style-type: square;">
+    <li><span>Verify the authority to initiate the acquisition and to sign the resulting purchase document.</span></li>
+    <li><span>Obtain and/or verify necessary approvals or delegated authority from the following Control Agencies: Department of Finance (</span><a href="http://www.dof.ca.gov/"><span>Finance</span></a><span>), California Department of Technology and/or Department of General Services (DGS).</span></li>
+    <li><span>If the acquisition involves telecommunications goods and/or services, verify necessary authority or approvals from the Office of Technology Services (</span><a href="http://www.cio.ca.gov/"><span>OTech</span></a><span>), Statewide Telecommunications and Network Division (</span><a href="http://www.dts.ca.gov/STND/default.asp"><span>STND</span></a><span>).</span></li>
+    <li><span>If the acquisition is being conducted via the NCB process or requires Control Agency approval, verify there is an approved NCB request and/or Project Approval Lifecycle Stage 3 Solution Development deliverable prior to releasing solicitation or purchase documents.</span>
+    <p><span>&nbsp;</span></p>
+    </li>
+    <li><span>If the acquisition is being conducted using a procurement method, verify there is an approved procurement request and/or Project Approval Lifecycle Stage 3 Solution Development deliverable prior to release of the solicitation.</span></li>
+</ul>
+<p><span>Further details on required approvals are contained in SCM Volume 3 and SIMM 19C.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ACQUISITION PHASE - 5230.2</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <p><span>The Acquisition Phase is when the acquisition is conducted. Acquisitions shall be conducted in a manner that complies with State policies and meets the State&rsquo;s needs. In conducting acquisitions, the State shall follow these requirements:</span></p>
+<ul style="list-style-type: square;">
+    <li><span>Acquisition documents shall clearly set forth the rules and authority governing the acquisition.</span></li>
+    <li><span>Competitive solicitation documents shall clearly set forth the:</span>
+    <ul style="list-style-type: circle;">
+        <li><span>Business and technical requirements</span></li>
+        <li><span>Evaluation methodology to be used</span></li>
+        <li><span>Applicable protest procedures</span></li>
+        <li><span>Contract award procedures</span></li>
+    </ul>
+    </li>
+    <li><span>If the acquisition is for a personal services contract pursuant to Government Code &sect;19130(a), the acquiring department must notify the State Personnel Board pursuant to Government Code &sect;</span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=19131."><span>19131 </span></a><span>prior to contract execution.</span></li>
+    <li><span>Protests shall be handled in a manner consistent with law, regulation and policy. Requirements for protests are in Chapter 7 of </span><a href="https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual-Volume-2-3-FI$Cal#@ViewBag.JumpTo"><span>SCM Volume 3</span></a><span>.</span></li>
+</ul>
+<p><span>Various chapters of SCM Volume 3 spell out requirements and procedures for specific acquisition approaches and methods. See SIMM 19C for additional requirements and procedures for reportable IT projects.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>POST-AWARD ACTIVITY - 5230.3</h1>
+        <p>
+            <strong>(Revised: 12/2019 )</strong>
+        </p>
+    <p>
+        <p><span>Post-award Activity includes elements such as contract management, project management, and reporting. Effective contract and project management ensures that the State and its contractors honor their agreements and collaborate with one another in good faith. Following the award of the contract, the acquiring department shall:</span></p>
+<ul style="list-style-type: square;">
+    <li><span>Adhere to the provisions of the contract and comply with statutory requirements, policies and procedures.</span></li>
+    <li><span>Enforce contractual requirements.</span></li>
+    <li><span>Follow plans for project management and risk management, if applicable.</span></li>
+    <li><span>Manage implementation of the goods and/or services in accordance with the level of project oversight directed by the California Department of Technology.</span></li>
+    <li><span>Fulfill all reporting requirements.</span></li>
+    <li><span>Prepare and submit all post evaluations for IT services contracts totaling $500,000 or more associated with IT projects in accordance with the governing statutory requirements, policy and procedures.</span></li>
+</ul>
+<p><a href="https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual-Volume-2-3-FI$Cal"><span style="text-decoration: none; color: windowtext;">SCM Volume 3 </span></a><span>&nbsp;Additional Post-award Activity information is available in the State Contracting Manual Volume 3.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PRINCIPLES FOR IT PROCUREMENT - 5230.4</h1>
+        <p>
+            <strong>(New: 06/2007 )</strong>
+        </p>
+    <p>
+        <p><span>The general principles for IT procurement are as follows:</span></p>
+<ul style="list-style-type: square;">
+    <li><span>The State obtains IT goods and/or services that meet its needs and advance its policy goals, in a timely fashion, within budget, and with the least possible administrative burden.</span></li>
+    <li><span>Procurements are conducted with integrity and in a manner consistent with the State&rsquo;s requirements and policies, including its commitment to small businesses and Disabled Veteran Business Enterprises (</span><a href="https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/Small_Business_and_Disabled_Veteran_Business_Enterprise_Best_Practices#@ViewBag.JumpTo"><span>DVBEs</span></a><span>).</span></li>
+    <li><span>The State harnesses its expertise and purchasing power to obtain the best values available in the marketplace.</span></li>
+    <li><span>The State communicates clearly and consistently from procurement to procurement with interested parties so that they understand its goals.</span></li>
+    <li><span>The benefits of competition, which include obtaining a broad array of solutions to program and policy challenges, are maximized.</span></li>
+    <li><span>The State is appropriately protected from risk.</span></li>
+</ul>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PUBLIC POLICY CONSIDERATION - 5230.5</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <p><span>Consideration shall be given to each of the following priorities to advance public policy for IT procurements:</span></p>
+<ul style="list-style-type: square;">
+    <li><span>Business need</span></li>
+    <li><span>Business requirements (mandatory or desirable)</span></li>
+    <li><span>Functionality</span></li>
+    <li><span>IT environment</span></li>
+</ul>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>EXEMPTION - 5230.6</h1>
+        <p>
+            <strong>(New: 06/2007 )</strong>
+        </p>
+    <p>
+        <p><span>Procurements necessary to meet the requirements of the Hawkins Data Center in the Department of Justice are exempt from the requirements of Section 5230 Uniform Standards.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>LEVERAGED PROCUREMENT AGREEMENTS - 5291</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <p><span>There are instances when many State departments require goods or services to perform essentially the same functions. Individual procurements would require duplicative effort and extend lead times.</span></p>
+<p><span>(</span><a href="http://www.dgs.ca.gov/pd/Programs/Leveraged.aspx"><span>LPAs</span></a><span>) combine State departments&rsquo; requirements for the same items or similar items thus providing standardization and leveraging the State&rsquo;s buying power. LPAs also enable streamlined purchases by removing repetitive, resource intensive, costly and time consuming solicitation processes by departments.</span></p>
+<p><span>Types of LPAs include Master Agreements, IT Master Agreement (ITMSA), Statewide Contracts, State Price Schedules, Software Licensing Programs (SLP), the California Multiple Award Schedules (CMAS), and Cooperative Agreements. Unless identified as a mandatory contract, the use of LPAs is optional. State departments must have approved purchasing authority for the applicable LPA category in order to place orders against an agreement in that category.</span></p>
+    </p>
+    
+</div>
+            <hr />
+         
+            <script type="text/javascript">
+                function printChapterView() {                 
+                    var divToPrint = document.getElementById("printarea");
+                    newWin = window.open("");
+                    newWin.document.write(divToPrint.outerHTML);
+                    newWin.print();
+                }
+            </script>
+
+
+        
+    </main>
+
+    <div class="main-secondary">
+
+        
+
+
+
+<script src="/Assets/js/jquery/jquery-3.6.3.min.js"></script>
+<div class="cta-panel">
+    <div class="panel">
+        <div class="panel-heading">
+            <h2 class="panel-title">Search Entire Manual</h2>
+        </div>
+        <div class="panel-body">
+            <div class="manual-search-body">
+                <div class="site-manual-search">
+                    <form id="site-search__form" aria-labelledby="site-search__toggle" method="get" action="">
+                        <label for="5d1449a7dad94f4f869b24de0ed39abf" value="Search Box" class="hidden">Search Manual</label>
+                        <span>
+                            <input name="q" type="text" id="5d1449a7dad94f4f869b24de0ed39abf" placeholder="Search Manual">
+                        </span>
+                        <input type="hidden" name="sitesearch" value="" />
+                        <span>
+                            <button class="button "
+                                    type="submit"
+                                    name='Search'
+                                    value='Search'>
+                                <span class="button__text ">Search</span>
+                            </button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+
+            <input id="manualSearchPageItemPath" type="hidden" class="searchPageitem" value="/Resources/SAM/SearchResult" />
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/assets/js/mansearch.js">
+
+
+</script>
+
+
+
+
+
+
+
+<div class="cta-panel">
+
+
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h2 class="panel-title">Print Entire SAM Manual</h2>
+        </div>
+        <div class="panel-body">
+            <div>
+                
+                <button id="printinit" class="btn btn-primary" type="button" onclick='PrintMan()'>Print Entire Manual</button>
+                <div id="printdiv" class="hidden">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal"><span class="loadmsg">Please bear with us, generating the entire SAM for printing will take approximately two minutes.</span></div>
+<script type="text/javascript">
+    function PrintMan() {
+        $.ajax(
+            {
+                type: 'GET',
+                url: '/api/sitecore/Manual/FullPrint?manualName=SAM',
+                dataType: 'json',
+                //Refactor -  Needs to query root node name and pass value.  Content Tree >  Page Title.
+                //Pass value of the manual box.
+                data: { manualName: $("#printinit").val() },
+                beforeSend: function () {
+                    $(".modal").addClass("show")
+                },
+                complete: function () {
+                    $(".modal").removeClass("show")
+                },
+                success: function (result) {
+                    if (result.length < 1) {
+
+
+
+                    }
+                    else {
+                        $("#printdiv").html("");
+                        $("#printdiv").append("<h1>State Administrative Manual</h1>");
+                        for (i = 0; i < result.length; i++) {
+                            //Append Each Chapter Summary
+                            var chap;
+                            if (chap != result[i].Chapter) {
+                                chap = result[i].Chapter;
+                                $("#printdiv").append("<h1>Chapter - " + result[i].Chapter + "</h1>");
+                                $("#printdiv").append('<table class="table table-sm"' + 'id="cp-' + result[i].Chapter + '">');
+                                $('#cp-' + chap).append('<thead><tr><th align="left">Subject</th><th align="left">Section</th></tr></thead>');
+                                $('#cp-' + chap).append('<tbody>');
+                            }
+                            if (chap = result[i].Chapter) {
+                                $('#cp-' + chap).append('<tr><td>' + result[i].Subject + '</td><td>' + result[i].Section + '</td></tr>');
+                            }
+                            else {
+                            }
+                            $("#printdiv").append('</tbody>');
+                            $("#printdiv").append('</table>');
+                            $("#printdiv").append("<h2>" + result[i].Subject + "-" + result[i].Section + "</h2>");
+                            $("#printdiv").append(result[i].PrintContent);
+                            //Append Full Section
+
+                        }
+                    }
+                    printData();
+                }
+            });
+    }
+
+    function printData() {
+        var divToPrint = document.getElementById("printdiv");
+        newWin = window.open("");
+        newWin.document.write(divToPrint.outerHTML);
+        newWin.print();
+        /*newWin.close();*/
+    }
+
+</script>
+
+<style>
+    #printdiv th {
+        width: 50%;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba( 255, 255, 255, .8 ) url('/Assets/img/loader.gif') 50% 50% no-repeat;
+    }
+
+    .show {
+        display: block
+    }
+
+    .loadmsg {
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background: #06a;
+        color: white;
+        padding: 5px;
+    }
+</style>
+    </div>
+</div>
+        
+        
+
+<script async src="https://siteimproveanalytics.com/js/siteanalyze_6339819.js"></script>
+<footer class="footer" role="contentinfo">
+    <div class="footer-links">
+        <ul class="footer-links-list">
+            <li><a href="#skip-to-content">Back to Top</a></li>
+                <li><a href="/Configuration/Footer-Utility-Links/Accessibility/Accessibility">Accessibility</a></li>
+                <li><a href="/Certification">Certification</a></li>
+                <li><a href="/Employee-Corner">Employee Corner</a></li>
+                <li><a href="/Privacy">Privacy Policy Statement</a></li>
+        </ul>
+    </div>
+    <div class="footer-social">
+        
+
+
+        <div class="social-connect social-connect--standout">
+            
+                <ul class="social-connect-body">
+                        <li><a href="https://www.facebook.com/CalDGS/?ref=settings"><span class="social-connect-icon icon-facebook" aria-hidden="true"></span><span class="social-connect-label">Facebook</span></a></li>
+                        <li><a href="https://x.com/califdgs?lang=en"><span class="social-connect-icon icon-twitter-x" aria-hidden="true"></span><span class="social-connect-label">X</span></a></li>
+                        <li><a href="https://www.youtube.com/user/CalifDGS"><span class="social-connect-icon icon-youtube" aria-hidden="true"></span><span class="social-connect-label">YouTube</span></a></li>
+                        <li><a href="https://www.instagram.com/dgscalif/?hl=en"><span class="social-connect-icon icon-instagram" aria-hidden="true"></span><span class="social-connect-label">Instagram</span></a></li>
+                        <li><a href="https://www.linkedin.com/company/cadgs"><span class="social-connect-icon icon-linkedin" aria-hidden="true"></span><span class="social-connect-label">LinkedIn</span></a></li>
+                </ul>
+        </div>
+
+    </div>
+    <div class="footer-copyright">Copyright &#169; 2018 State of California</div>
+</footer>
+
+
+        <!-- CDT emergency alerts : Start -->
+        <script defer src="https://alert.cdt.ca.gov"></script>
+        <!-- CDT emergency alerts : End -->
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push(
+                    { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+                ); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5D4N99T');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D4N99T"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <script src="/assets/js/jquery/jquery-3.6.3.min.js"></script>
+        <script src="/assets/libs/handlebars/4.7.9/handlebars.min.js"></script>
+        <script src="/assets/js/app.js?v=21"></script>
+        <script src="/assets/js/search.js"></script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+
+        <script src="/assets/libs/jquery-ui/1.13.2/jquery-ui.min.js"></script>
+        <!-- Your Script -->
+        <script type='text/javascript'>
+            $(function () {
+                // This will apply the datepicker to all input elements of the date type and then it will remove the date attribute to avoid jQuery / browser conflicts
+                $("input[type='date']").datepicker().attr('type', 'text');
+            });
+        </script>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <script src="/assets/js/custom.js"></script>
+
+        <!-- Google Analytics -->
+        <!-- Uncomment out the following portion when it's in production -->
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19802602-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-19802602-2', {
+                cookie_flags: 'max-age=7200;secure'
+            });
+        </script>
+
+        <script id="accordionclick" type="text/javascript"></script>
+        <script id="bread-crumbhtml" type="text/javascript"></script>
+        <script id="local-navhtml" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+
+                var accordionContents = "";
+                var breadCrumbContents = "";
+                var navContents = "";
+
+                $('.accordionclick').each(function () {
+                    accordionContents += $(this).html();
+                });
+
+                $('.bread-crumbhtml').each(function () {
+                    breadCrumbContents += $(this).html();
+                });
+
+                $('.local-navhtml').each(function () {
+                    navContents += $(this).html();
+                });
+
+                $('#accordionclick').html(accordionContents);
+                $('#bread-crumbhtml').html(breadCrumbContents);
+                $('#local-navhtml').html(navContents);
+
+            });
+
+        </script>
+
+        <!-- Hiddenfield holding department id-->
+        <input id="divisionId" type="hidden" class="divisionId" value="" />
+            <input id="searchPageItemPath" type="hidden" class="searchPageitem" value="/SearchResult" />
+        <input id="isGlobalSearchPage" type="hidden" class="searchPageitem" value="true" />
+
+    </body>
+</html>

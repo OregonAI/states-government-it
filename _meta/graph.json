@@ -1,9 +1,87 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 163,
+ "n_nodes": 185,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
+  {
+   "id": "ca-civ-1798-1798-78",
+   "title": "Civil Code, Division 3, Part 4, Title 1.8, Chapter 1: Information Practices Act of 1977",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-civ-1798-1798-78.md"
+  },
+  {
+   "id": "ca-gov-11015-5",
+   "title": "Government Code section 11015.5: Electronic collection of personal information by state agencies",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-11015-5.md"
+  },
+  {
+   "id": "ca-gov-11019-9",
+   "title": "Government Code section 11019.9: Privacy policy of each state department and agency",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-11019-9.md"
+  },
+  {
+   "id": "ca-gov-11531-11544",
+   "title": "Government Code, Title 2, Division 3, Part 1, Chapter 5.5: Technology (Technology Act of 2005; Office of Technology Services)",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-11531-11544.md"
+  },
+  {
+   "id": "ca-gov-11545-11548",
+   "title": "Government Code, Title 2, Division 3, Part 1, Chapter 5.6: Department of Technology",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-11545-11548.md"
+  },
+  {
+   "id": "ca-gov-11549-11549-10",
+   "title": "Government Code, Title 2, Division 3, Part 1, Chapter 5.7: Office of Information Security and Office of Privacy Protection",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-11549-11549-10.md"
+  },
+  {
+   "id": "ca-gov-11549-63-11549-66",
+   "title": "Government Code, Title 2, Division 3, Part 1, Chapter 5.9: Generative Artificial Intelligence Tools",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-11549-63-11549-66.md"
+  },
+  {
+   "id": "ca-gov-11786-11786-6",
+   "title": "Government Code, Title 2, Division 3, Part 1, Chapter 7.2: Information Technology Innovation Grants Program",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-11786-11786-6.md"
+  },
+  {
+   "id": "ca-gov-7405",
+   "title": "Government Code, Title 1, Division 7, Chapter 18.1: Electronic and Information Technology",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-7405.md"
+  },
+  {
+   "id": "ca-gov-7929-210",
+   "title": "Government Code section 7929.210: Information security records of a public agency (California Public Records Act)",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-7929-210.md"
+  },
+  {
+   "id": "ca-gov-8586-5",
+   "title": "Government Code section 8586.5: California Cybersecurity Integration Center",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-8586-5.md"
+  },
+  {
+   "id": "ca-gov-8592-30-8592-50",
+   "title": "Government Code, Title 2, Division 1, Chapter 7, Article 6.4: Cybersecurity",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-8592-30-8592-50.md"
+  },
+  {
+   "id": "ca-pcc-12100-12113",
+   "title": "Public Contract Code, Division 2, Part 2, Chapter 3: Acquisition of Information Technology Goods and Services",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-pcc-12100-12113.md"
+  },
   {
    "id": "co-crs-2-3-pt17",
    "title": "Joint Technology Committee",
@@ -83,6 +161,18 @@
    "path": "statutes/washington/wa-rcw-43-105.md"
   },
   {
+   "id": "ca-ccr-2-div-7-ch-10",
+   "title": "Digital Signatures",
+   "doc_type": "rule",
+   "path": "rules/california/ca-ccr-2-div-7-ch-10.md"
+  },
+  {
+   "id": "ca-ccr-2-div-7-ch-15",
+   "title": "Trustworthy Electronic Document or Record Preservation",
+   "doc_type": "rule",
+   "path": "rules/california/ca-ccr-2-div-7-ch-15.md"
+  },
+  {
    "id": "or-oar-128-20",
    "title": "State Information Technology Asset Protection - Covered Vendors",
    "doc_type": "rule",
@@ -135,6 +225,48 @@
    "title": "Establishing the Governor's Policy on Electronic Message Systems",
    "doc_type": "executive_order",
    "path": "executive-orders/washington/wa-eo-91-10.md"
+  },
+  {
+   "id": "ca-sam-4800",
+   "title": "State Administrative Manual chapter 4800: Department of Technology",
+   "doc_type": "policy",
+   "path": "policies/california/ca-sam-4800.md"
+  },
+  {
+   "id": "ca-sam-4900",
+   "title": "State Administrative Manual chapter 4900: Information Technology - California Department of Technology",
+   "doc_type": "policy",
+   "path": "policies/california/ca-sam-4900.md"
+  },
+  {
+   "id": "ca-sam-5000",
+   "title": "State Administrative Manual chapter 5000: Information Technology - Maintenance Records",
+   "doc_type": "policy",
+   "path": "policies/california/ca-sam-5000.md"
+  },
+  {
+   "id": "ca-sam-5100",
+   "title": "State Administrative Manual chapter 5100: Information Technology - Department of Technology",
+   "doc_type": "policy",
+   "path": "policies/california/ca-sam-5100.md"
+  },
+  {
+   "id": "ca-sam-5200",
+   "title": "State Administrative Manual chapter 5200: Information Technology - California Department of General Services",
+   "doc_type": "policy",
+   "path": "policies/california/ca-sam-5200.md"
+  },
+  {
+   "id": "ca-sam-5300",
+   "title": "State Administrative Manual chapter 5300: Information Technology - Office of Information Security",
+   "doc_type": "policy",
+   "path": "policies/california/ca-sam-5300.md"
+  },
+  {
+   "id": "ca-sam-5900",
+   "title": "State Administrative Manual chapter 5900: Information Technology - Disposal of IT Equipment",
+   "doc_type": "policy",
+   "path": "policies/california/ca-sam-5900.md"
   },
   {
    "id": "or-das-107-004-010",

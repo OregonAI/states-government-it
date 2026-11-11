@@ -1,0 +1,1359 @@
+
+<!doctype html>
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if (gt IE 9)]><!-->
+<html lang="en" class="not-rich-text-editor">
+    <!--<![endif]-->
+    <head>
+        
+
+
+
+
+    <meta charset="utf-8">
+
+    <title>Chapter-View</title>
+
+
+
+
+
+
+
+    <!-- General purpose 16x16 .ico shortcut icon -->
+    <link rel="icon" href="/assets/img/icon/favicon.ico">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Use highest compatibility mode -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<!-- for Blackberry, AvantGo -->
+<meta name="MobileOptimized" content="320">
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+
+<!-- jQueryUI Stylesheet -->
+<link rel="stylesheet" href="/assets/libs/jquery-ui/1.13.2/jquery-ui.min.css?v=2" type="text/css">
+
+<!-- Do not include the extension with cssPath -->
+<link href="/assets/css/app.min.css?v=1" rel="stylesheet">
+<link rel="stylesheet" href="/css/AuthoringUIExperience/sitecore-extra.css" type="text/css">
+
+    <!-- modernizr.com, feature detection -->
+    <script src="/assets/js/modernizr-custom.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="/assets/css/custom.css" type="text/css">
+
+
+
+
+
+<script>
+  function loadGoogleTranslate() {
+    if (window.google && window.google.translate) return;
+
+    var s = document.createElement('script');
+    s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    s.async = true;
+    s.onerror = function () {
+      console.warn('Google Translate script blocked by browser tracking prevention.');
+    };
+    document.head.appendChild(s);
+  }
+
+  // Call this only after consent/click:
+  // loadGoogleTranslate();
+</script>
+        
+    </head>
+    <body>
+
+        <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+        
+
+
+<nav class="utility-header "
+     aria-label="Utility Links">
+    <ul class="utility-header__menu">
+                    <li>
+
+
+
+
+    <div class="branding ">
+<a href ='http://www.ca.gov'>
+
+
+
+
+
+        <img style="height:28px;" class="icon" src="/assets/img/icons/cagov-logo-white.png" alt="CA.gov"/>
+
+<span class="sr-only">CA.gov</span>
+</a>    </div>
+
+</li>
+                    <li>
+        <div class="social-share">
+                <a href="#" class="social-share-facebook icon-facebook"><span class="social-share-label">Share via Facebook</span></a>
+                <a href="#" class="social-share-twitter-x icon-twitter-x"><span class="social-share-label">Share via X</span></a>
+                <a href="#" class="social-share-google-plus icon-google-plus"><span class="social-share-label">Share via Google+</span></a>
+                <a href="#" class="social-share-email icon-email"><span class="social-share-label">Share via Email</span></a>
+        </div>
+
+
+
+</li>
+                    <li>
+                        <button type="button" class="utility-header__drawer-toggle "
+                                aria-controls='translate' aria-haspopup = 'true' aria-expanded='false'>
+                            <span class='utlility-header_toggle-text'>Translate</span>
+                        </button>
+                    </li>
+    </ul>
+
+                <div id="translate" class="utility-header__drawer"><div>Translate this website to your preferred language:<br><div id="google_translate_element"></div></div></div>
+</nav>
+
+        <!-- Begin Content -->
+        
+
+
+
+
+
+
+
+    <header class="global-header ">
+        
+            <div style="float: left; margin-top: 4px; margin-left: -12px;">
+                <a href="/">
+                    <img src="/assets/img/logo/DGS_Logo.png?v=2" style="vertical-align: middle;" alt="California Department of General Services" />
+                </a>
+            </div>
+
+        
+
+
+
+
+<div class="site-search" >
+
+        <button id="site-search__toggle"
+                class="site-search__toggle button  "
+                type="button"
+                aria-controls="site-search__formec6c05350921489680d71d4144fe19fc"
+                aria-haspopup="true"
+                
+                >
+            <span class="site-search__text sr-only">Site Search</span>
+                <span class="site-search__hamburger"><span class="site-search__hamburger-inner"></span></span>
+                            <span class="site-search__icon" aria-hidden="true"></span>
+                    </button>
+
+        <form class="site-search__form" id="site-search__formec6c05350921489680d71d4144fe19fc"  aria-labelledby="site-search__toggle" method="get" action="">
+            <span>
+                <label for="ec6c05350921489680d71d4144fe19fc">Search this site:</label>
+            </span>
+            <span>
+                <input name="q" type="text"  id="ec6c05350921489680d71d4144fe19fc" placeholder="For example, how to sell to the state?">
+            </span>
+
+            <input type="hidden" name="sitesearch" value="" />
+            <span class="site-search__submit">
+                
+
+
+
+
+    <button class="button "
+            type="submit"
+            name='Search'
+            value='Search'
+            
+            
+            
+            
+>
+        <span class="button__text ">Search</span>
+                    </button>
+
+            </span>
+            <button class="site-search__reset-search" aria-describedby="ec6c05350921489680d71d4144fe19fc" type="reset" style="display: none">Clear Search</button>
+        </form>
+
+</div>    </header>
+
+
+
+<!-- Navigation Main Navigation -->
+
+
+
+
+
+    <nav class="navigation navigation--main " aria-label="Main Menu">
+
+        
+        <button id="navigation-main-toggle"
+                class="navigation__toggle "
+                type="button"
+                tabindex="0"
+                aria-controls="navigation__list-main"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                <span class="navigation__toggle-text"><span class="navigation__toggle-open">View All</span><span class="navigation__toggle-close">Close</span></span>
+                            <span class="navigation__toggle-hamburger"><span class="navigation__toggle-hamburger-inner"></span></span>
+                    </button>
+        <ul id="navigation__list-main" class="navigation__list" aria-labelledby="navigation-main-toggle" role="menubar" aria-orientation="horizontal" >
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/"
+                               tabindex="0"
+                               >
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Services"
+                               tabindex="0"
+                               >
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <button class="navigation__item-link"
+                                    type="button"
+                                    role="menuitem"
+                                    tabindex="0"
+                                    aria-controls="E6ED6841C803456E8383CF3FC4CC49C7-sub-nav"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    aria-label="Divisions &amp; Offices">
+                                Divisions &amp; Offices
+                                <span class="navigation__sub-nav-toggle"></span>
+                                <span class="icon-plus"></span><span class="icon-minus"></span>
+                                <span class="sr-only">Sub Menu Toggle</span>
+                            </button>
+
+                            <ul id="E6ED6841C803456E8383CF3FC4CC49C7-sub-nav" class="navigation__sub-nav" role="menu" aria-label="Divisions &amp; Offices">
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/BSC"
+                                           tabindex="-1"
+                                           >
+                                            Building Standards Commission
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/CCDA"
+                                           tabindex="-1"
+                                           >
+                                            California Commission on Disability Access
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/DSA"
+                                           tabindex="-1"
+                                           >
+                                            Division of the State Architect
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/FMD"
+                                           tabindex="-1"
+                                           >
+                                            Facilities Management Division
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OAH"
+                                           tabindex="-1"
+                                           >
+                                            Office of Administrative Hearings
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Audit Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OBAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Business and Acquisition Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OFS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Fiscal Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OFAM"
+                                           tabindex="-1"
+                                           >
+                                            Office of Fleet and Asset Management
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OHR"
+                                           tabindex="-1"
+                                           >
+                                            Office of Human Resources
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OLS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Legal Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OPSC"
+                                           tabindex="-1"
+                                           >
+                                            Office of Public School Construction
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/ORIM"
+                                           tabindex="-1"
+                                           >
+                                            Office of Risk and Insurance Management
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OSP"
+                                           tabindex="-1"
+                                           >
+                                            Office of State Publishing
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OoS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Sustainability
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OTAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Training and Administrative Standards
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/PD"
+                                           tabindex="-1"
+                                           >
+                                            Procurement Division
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/RESD"
+                                           tabindex="-1"
+                                           >
+                                            Real Estate Services Division
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <button class="navigation__item-link"
+                                    type="button"
+                                    role="menuitem"
+                                    tabindex="0"
+                                    aria-controls="033543813F6B4CCBAD196EA91F5FCE30-sub-nav"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    aria-label="Resources">
+                                Resources
+                                <span class="navigation__sub-nav-toggle"></span>
+                                <span class="icon-plus"></span><span class="icon-minus"></span>
+                                <span class="sr-only">Sub Menu Toggle</span>
+                            </button>
+
+                            <ul id="033543813F6B4CCBAD196EA91F5FCE30-sub-nav" class="navigation__sub-nav" role="menu" aria-label="Resources">
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/E-Signature-Toolkit"
+                                           tabindex="-1"
+                                           >
+                                            E-Signature Toolkit
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/RESD/Projects/Page-Content/Projects-List-Folder/Executive-Order-N-06-19-Affordable-Housing-Development"
+                                           tabindex="-1"
+                                           >
+                                            Affordable Housing Development
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/Legislative-Reports"
+                                           tabindex="-1"
+                                           >
+                                            Legislative Reports
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/ManagementMemos"
+                                           tabindex="-1"
+                                           >
+                                            Management Memos
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/SAM"
+                                           tabindex="-1"
+                                           aria-current="page">
+                                            State Administrative Manual (SAM)
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual"
+                                           tabindex="-1"
+                                           >
+                                            State Contracting Manual
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/Statewide-Forms"
+                                           tabindex="-1"
+                                           >
+                                            Statewide Forms Program
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/About/Strategic-Plan"
+                                           tabindex="-1"
+                                           >
+                                            Strategic Plan
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Press-Releases"
+                               tabindex="0"
+                               >
+                                <span>Press Releases</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/OHR/Careers"
+                               tabindex="0"
+                               >
+                                <span>Careers</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/About"
+                               tabindex="0"
+                               >
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Contact"
+                               tabindex="0"
+                               >
+                                <span>Contact</span>
+                            </a>
+                        </li>
+        </ul>
+    </nav>
+
+<div id="main-content" class="main-content">
+    <!--This works because the fields aren't present in child templates.  Field value is never "" or null-->
+    <main class="main-primary" id="printarea">
+        
+        <div>
+
+    <ol class="breadcrumb">
+            <li><a href="/Resources/SAM"> SAM</a></li>
+            <li><a href="/Resources/SAM/TOC"> TOC</a></li>
+            <li><a href="/Resources/SAM/TOC/5100"> 5100</a></li>
+        <li class="active"><a href="/Resources/SAM/TOC/5100/Chapter-View">Chapter-View</a></li>
+    </ol>
+</div>
+
+<style>
+    .breadcrumb {
+       background-color: #ffffff !important;
+    }
+</style>
+
+    <h1>Chapter 5100 - Chapter-View</h1>
+<div class="pull-right" style="padding-bottom: 5px;">
+    <button id="btn" type="button" class="btn btn-primary" onclick="printChapterView()">Print Chapter</button>
+  
+    
+</div>
+    <div class="row">
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th colspan="6" scope="col">Subject</th>
+                    <th scope="col">Section</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td colspan="6" scope="row">TECHNOLOGY STANDARDS</td>
+                        <td>5100</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">COMPUTER PROGRAMMING LANGUAGES</td>
+                        <td>5101</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">OPEN DATA POLICY INTRODUCTION</td>
+                        <td>5160</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">OPEN DATA POLICY REQUIREMENTS</td>
+                        <td>5160.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">OPEN DATA EXCEPTIONS</td>
+                        <td>5160.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">WORKGROUP COLLABORATION PLATFORM POLICY</td>
+                        <td>5170</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">OPERATING SOFTWARE, UTILITIES AND PROGRAMMING AIDS</td>
+                        <td>5175.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">APPLICATION PACKAGES</td>
+                        <td>5175.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">COMPLIANCE WITH UNITED STATES POSTAL SERVICE, OPTICAL CHARACTER RECOGNITION GUIDELINES</td>
+                        <td>5179</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">UNITED STATES POSTAL SERVICE ZIP+4 GUIDELINES</td>
+                        <td>5180</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">WEBSITE STANDARDS INTRODUCTION</td>
+                        <td>5190</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">WEBSITE STANDARDS</td>
+                        <td>5190.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">CALIFORNIA STATE WEBSITE TEMPLATE</td>
+                        <td>5190.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INTERNET DOMAIN NAME POLICY</td>
+                        <td>5195</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INTERNET DOMAIN NAME REQUIREMENTS</td>
+                        <td>5195.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INTERNET DOMAIN NAME ANNUAL CERTIFICATION</td>
+                        <td>5195.2</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal">Please wait... We are generating the manual...</div>
+<style>
+    .scWebEditInput {
+    
+    width:auto;
+    }
+
+
+</style>
+<div class="row">
+    <h1>TECHNOLOGY STANDARDS - 5100</h1>
+        <p>
+            <strong>(Revised: 10/2023 )</strong>
+        </p>
+    <p>
+        <p style="margin-bottom: 9pt;"><span>&nbsp;</span></p>
+<p style="margin-bottom: 9pt;"><span>The Department of Technology embraces the American National Standards Institute (</span><a href="http://www.ansi.org/"><span>ANSI</span></a><span>) management information standards, the National Institute of Standards and Technology (NIST) standards, and the Federal Information Processing Standards (</span><a href="http://csrc.nist.gov/publications/PubsFIPS.html"><span>FIPS</span></a><span>). The ANSI standards are national consensus standards which provide guidance on a variety of issues central to the public and industrial sectors. The NIST standards are developed to </span><span>promote U.S. innovation and industrial competitiveness by advancing measurement science, standards, and technology to enhance economic security and improve our quality of life. </span><span>The FIPS standards are adopted and promulgated by NIST under the provision of Public Law 89&ndash;306 (Brooks Act) and&nbsp;</span><a href="https://www.ecfr.gov/cgi-bin/text-idx?SID=667f607c64f11fa0feb25b209ba63dfa&amp;node=15:1.1.1.1.8&amp;rgn=div5"><span>Part 6 of Title 15, Code of Federal Regulations</span></a><span>, and serve to improve the utilization and management of computers and automated data processing in the Federal Government.</span></p>
+<p>
+<span>Agencies/state entities must use the ANSI, NIST and FIPS standards in their information management planning and operations. Adopting these standards will facilitate the inter-organizational sharing and exchanging of equipment, data, software, and personnel.&nbsp;Use of these standards will also facilitate communication (1) among Agencies/state entities; (2) between the state and its IT vendors; and (3) between the state and its IT information providers/recipients.</span></p>
+<p><span>&nbsp;</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>COMPUTER PROGRAMMING LANGUAGES - 5101</h1>
+        <p>
+            <strong>(Revised: 03/2011 )</strong>
+        </p>
+    <p>
+        <p><span>The Department of Technology encourages the use of vendor supplied packages versus in-house development whenever vendor supplied packages can be demonstrated to be the most cost beneficial solution to IT project problems or opportunities.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>OPEN DATA POLICY INTRODUCTION - 5160</h1>
+        <p>
+            <strong>(Revised: 03/2019 )</strong>
+        </p>
+    <p>
+        <p><span>The Public Records Act, Government Code (GC) Sections 6250- 6270, provides public access to information that is collected and maintained by state and local entities, mindful of the right of individuals to privacy. The State of California is committed to unlocking the value of government data to propel innovation, improve the delivery of public services and empower the people of California while protecting privacy. Information is a valuable resource and a strategic asset to State Government, its partners, and the public.&nbsp;</span>Managing government information as an asset will increase operational efficiencies, enhance performance planning, improve services, support mission needs, inform policy decisions, safeguard personal information, and increase public access to valuable government information. Open data helps ensure that all public datasets are discoverable and fuels entrepreneurship, economic development and scientific discovery. To ensure that State Government is taking full advantage of its information resources, Agencies/state entities shall manage their data as an asset from the start and, wherever possible, release it to the public in a way that makes it open, discoverable and usable.</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>OPEN DATA POLICY REQUIREMENTS - 5160.1</h1>
+        <p>
+            <strong>(Revised: 03/2019 )</strong>
+        </p>
+    <p>
+        <p><span>Effective July 1st, 2019, as part of the Open Data policy, each Agency/state entity shall:</span></p>
+<ol>
+    <li><span>Build or modernize Information Technology (IT) solutions in a way that maximizes interoperability and information accessibility. Although this policy does not require Agency/state entities to modernize existing IT solutions, it does require data considerations identified in this section be applied when a state entity undertakes a modernization effort that substantially modifies an existing IT solution.</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Exercise forethought when architecting, building, or substantially modifying an IT system to facilitate data distribution to the public, where appropriate.</span></li>
+        <li><span>Use machine-readable and open formats for information as it is collected or created. Where applicable, machine-readable and open formats must be used in conjunction with electronic or paper-based information collection efforts.</span></li>
+        <li><span>Prioritize the use of open formats that are non-proprietary, publicly available, and that place no restrictions upon their use.</span></li>
+        <li><span>Apply open licenses, such as Creative Commons Zero (CC0), to information as it is collected or created so that if data are made public there are no restrictions on copying, publishing, distributing, transmitting, and adapting.</span></li>
+        <li><span>Systems must be scalable, flexible, and facilitate extraction of data in multiple formats and for a range of uses as internal and external needs change, including potential uses not accounted for in the original design (e.g. leveraging standards and industry best practices for information sharing, separation of data from the application layer to maximize data reuse opportunities.)</span></li>
+    </ol>
+    </li>
+    <li><span>Whenever feasible, make data broadly available to the public through the Agency/state entity&rsquo;s open data site or portal, pursuant to the limited exceptions outlined in SAM Section 5160.2.</span></li>
+    <li><span>Describe information using standard metadata as the data is collected or created.</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Open Data shall include Project Open Data Catalog Vocabulary (DCAT) standards modified for California, see </span><a href="https://handbook.data.ca.gov/"><span>Open Data Handbook </span></a><span>for specifications and formats.</span></li>
+        <li><span>Agencies/state entities may expand upon metadata and data dictionaries based on standards, specifications, or formats developed within different communities (e.g., financial, health, geospatial, law enforcement). Groups that develop and promulgate these metadata specifications must review them for compliance with DCAT specifications and formats</span></li>
+        <li><span>Metadata and data dictionaries shall be in a machine-readable format to provide users the ability to export when needed.</span></li>
+    </ol>
+    </li>
+    <li><span>Adopt effective governance and data asset portfolio management approaches, including data management and release practices to ensure consistency.</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Create and maintain an Agency/state entity enterprise data inventory, see <a href="https://handbook.data.ca.gov/">Open Data Handbook</a> for inventory specifications and formats.</span></li>
+        <li><span>The inventory shall indicate, as appropriate, if the Agency/state entity has determined that the individual datasets may be made publicly available (i.e., release is permitted by law, subject to all privacy, confidentiality, security, Agency/state entity has ownership of data, and other valid requirements) and whether they are currently available to the public.</span></li>
+        <li><span>The inventory shall list any datasets that can be made publicly available at the Agency/state entity&rsquo;s open data site or portal in a format that enables automatic aggregation by Data.ca.gov and other services (known as &ldquo;harvestable files&rdquo;), to the extent practicable. See </span><a href="https://handbook.data.ca.gov/"><span>Open Data Handbook </span></a><span>for best practices, tools, and schema to implement the public data listing and harvestable files.</span></li>
+        <li><span>Public data listing should include, to the extent permitted by law and existing terms and conditions, datasets that were produced as a result of legislative mandates, state grants, contracts, and cooperative agreements (excluding any data submitted primarily for the purpose of contract monitoring and administration), and, where feasible, be accompanied by standard citation information, preferably in the form of a persistent identifier.</span></li>
+        <li><span>Assign a Data Coordinator to coordinate and maintain Agency/state entity&rsquo;s public data. The Data Coordinator&rsquo;s contact information must be identified in the enterprise data inventory.</span></li>
+    </ol>
+    </li>
+    <li><span>Prioritize the collection of data sets.</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Agencies/state entities shall identify and engage stakeholders as part of the intake process.</span></li>
+        <li><span>Create a process to engage with customers to solicit help in identifying data sets of value to the public, in prioritizing the release of public datasets&nbsp;</span>and determining the most usable and appropriate formats for release. Agencies/state entities should make public data available in multiple file formats according to their customer needs (e.g. high-volume datasets of interest to developers should be released using bulk downloads as well as Application Programming Interfaces (APIs)).</li>
+    </ol>
+    </li>
+    <li><span>Ensure that privacy and confidentiality are fully protected, and that data is properly secured.</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Leverage an internal data governance process to determine if information collected or created can be made publicly available or is subject to restrictions (e.g. privacy, confidentiality, security, trade secret, contractual). See </span><a href="https://handbook.data.ca.gov/"><span>Open Data Handbook </span></a><span>for additional information.</span></li>
+        <li><span>If the Agency/state entity determines that information should not be made publicly available on one of these grounds, the Agency/state entity must document this determination through its internal data governance process.</span></li>
+        <li><span>Consider security-related restrictions including National Institute of Standards and Technology (NIST) Federal Information Processing Standard (FIPS) Publication 199 &ldquo;Standards for Security Categorization of Federal Information and Information Systems,&rdquo; which includes guidance and definitions for confidentiality, integrity, and availability.</span></li>
+        <li><span>Collect or create only that information necessary for the proper performance and evaluation of Agency/state entity functions and which has practical utility. Limit the collection or creation of information which identifies individuals to that which is legally authorized and necessary for the proper performance of Agency/state entity functions.</span></li>
+        <li><span>Limit the sharing of information that identifies individuals or contains proprietary information to that which is legally authorized and impose appropriate conditions on use where a continuing obligation to ensure the confidentiality of the information exists. </span><a href="https://chhsdata.github.io/dataplaybook/resource_library/#datasharing"><span>Data sharing agreements </span></a><span>must be created to exchange information across Agencies/state entities and with research institutions in compliance with the State&rsquo;s information security and privacy policy and standards, see SAM Section 5300 and Statewide Information Management Manual (SIMM) Section 5305-A.</span></li>
+        <li><span>Ensure that information is protected commensurate with the risk and magnitude of the harm that would result from the loss, misuse, or unauthorized access to or modification of such information. Agencies/state entities shall consider the standard for information classification detailed in SIMM Section 5305-A and other publicly available information when determining whether information should be considered Personally Identifiable Information.</span></li>
+    </ol>
+    </li>
+</ol>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>OPEN DATA EXCEPTIONS - 5160.2</h1>
+        <p>
+            <strong>(Revised: 03/2019 )</strong>
+        </p>
+    <p>
+        <p><span>The Information Practices Act (IPA) of 1977 (Civil Code Section 1798, et seq.) provides measures to assure fair treatment of individuals who are the subject of state entity records, providing specific requirements for the collection, use, maintenance and dissemination of information relating to individuals. Nothing in SAM Section 5160 shall be construed to require Agencies/state entities to make data available to the public, if, on the facts of the particular case, disclosure of that data would increase the potential to harm an Agency/state entity or the public. The exceptions provided below may be applied, in specific instances, to exempt an Agency/state entity from sharing data with the public.</span></p>
+<p><span>Any exceptions used must be approved through the Agency/state entity&rsquo;s internal data governance process and documented in the enterprise data inventory for the purposes of ensuring effective oversight and management of information assets.</span></p>
+<p><span>Applicable exceptions are as follows:</span></p>
+<ol>
+    <li><span>The sharing of the data is restricted by statute, practice or legal precedent, including&mdash; but not limited to&mdash;patent or intellectual property law, the Export Asset Regulations, the International Traffic in Arms Regulation, and the Federal laws and regulations governing classified information;</span></li>
+    <li><span>The sharing of the data would create an identifiable risk to the detriment of national security, confidentiality of Government information, or individual privacy;</span></li>
+    <li><span>The sharing of the data would create an identifiable risk to the stability, security, or integrity of the Agency/state entity&rsquo;s systems or personnel;</span></li>
+    <li><span>The sharing of data would create an identifiable risk to the Agency/state entity&rsquo;s mission, programs, or operations.</span></li>
+</ol>
+<p>&nbsp;</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>WORKGROUP COLLABORATION PLATFORM POLICY - 5170</h1>
+        <p>
+            <strong>(New: 01/2020 )</strong>
+        </p>
+    <p>
+        <p><span>The increased utilization of collaborative tools that emphasize and enable teamwork continues to improve the way government communicates and collaborates. Unified communications platforms promote capabilities that allow remote collaboration. These platforms combine features such as chat, conferencing, calendaring, notes, and attachments into a single enterprise platform enabling the rapid provisioning of shared workspaces and facilitating distribution of topic based information.&nbsp; </span></p>
+<p><span>Each agency/state entity shall develop and implement internal policies and procedures to ensure proper use of Workgroup Collaboration Platforms, as defined in SAM Section 4819.2. These policies and procedures must comply with SAM Sections 4846 and 5300, which provide that all computer software purchased with state funds is procured in accordance with state law and used in compliance with licenses, contract terms and applicable copyright laws. In addition, management should ensure all staff understand and adhere to proper software management policies which address, at a minimum, the following key areas: acceptable use, public records act considerations, key roles and responsibilities, security/privacy, workspaces and records retention and management of Workgroup Collaboration Platforms. Statewide Information Management Manual (SIMM) Section 130 provides guidelines to assist agencies/state entities in developing policies and procedures for the proper use of Workgroup Collaboration Platforms.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>OPERATING SOFTWARE, UTILITIES AND PROGRAMMING AIDS - 5175.1</h1>
+        <p>
+            <strong>(Reviewed: 03/2011 )</strong>
+        </p>
+    <p>
+        <p><span>It is state policy that standard, unmodified, vendor-supplied-and-maintained software aids be used in lieu of developing unique programs. The objective is to minimize and control the development of specialized programs that allocate, schedule and control the <a name="APPLICATION_PACKAGES_5175.2"></a>CPU, memory, peripherals, communication, data storage and retrieval.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>APPLICATION PACKAGES - 5175.2</h1>
+        <p>
+            <strong>(Reviewed: 03/2011 )</strong>
+        </p>
+    <p>
+        <p><span>It is the state policy that all feasibility studies will address the availability, usability, maintainability and cost effectiveness of prewritten and tested application programs in lieu of developing major programs in-house. The objective is to minimize the development time and costs of major application programs when such programs are available from other sources.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>COMPLIANCE WITH UNITED STATES POSTAL SERVICE, OPTICAL CHARACTER RECOGNITION GUIDELINES - 5179</h1>
+        <p>
+            <strong>(Reviewed: 03/2011 )</strong>
+        </p>
+    <p>
+        <div>
+<p><span>The United States Postal Service (</span><a href="https://www.usps.com/"><span>USPS</span></a><span>) has adopted guidelines to allow for optical character recognition of alphanumeric data contained in mailing addresses.</span></p>
+<p><span>Government agencies are strongly encouraged to follow these guidelines as a means of ensuring more efficient and accurate mail processing; more consistent mail delivery; and more stable postal operating costs.</span></p>
+<p><span>To the extent that it is determined to be cost-effective, agencies must follow the USPS Optical Character Recognition (OCR) guidelines in the design and operation of automated information systems that include preparation of mailing addresses.</span></p>
+<p><span>The OCR guidelines apply to letter mail within the following dimensions;</span></p>
+<ol>
+    <li><span>Height at least 3&ndash;1/2" and no more than 6&ndash;1/8";</span></li>
+    <li><span>Length at least 5" and no more than 11&ndash;1/2";</span></li>
+    <li><span>Thickness at least 0.007" and no more than 0.25"; and,</span></li>
+    <li><span>Aspect ratio (length divided by height) of from 1.3 to 2.5.</span></li>
+</ol>
+<p><span>The details of the guidelines are set forth in the USPS publication, "A Guide to Business Mail Preparation" (</span><a href="http://about.usps.com/publications/pub25.pdf"><span>Publication 25</span></a><span>), which is available without charge. Agencies should contact their USPS Commercial Account Representative to obtain the current edition.</span></p>
+</div>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>UNITED STATES POSTAL SERVICE ZIP+4 GUIDELINES - 5180</h1>
+        <p>
+            <strong>(Reviewed: 03/2011 )</strong>
+        </p>
+    <p>
+        <p><span>The USPS offers a reduced postage rate to organizations for first-class mailings that use the 9-digit zip code (ZIP +4) in the mailing address. Both unsorted and sorted mailings are eligible for the reduced rate.</span></p>
+<p><span>To the extent that it is cost-effective (taking into account the potential postage discount), agencies must provide for ZIP + 4 address coding and sorting of printed addresses in ZIP + 4 order in the design and operation of automated information systems that include preparation of mailing addresses.</span></p>
+<p><span>There are two preliminary requirements for eligibility for the ZIP + 4 discount;</span></p>
+<ol>
+    <li><span>"Machinability," which includes quality of paper stock and adherence to the USPS standards for envelope size; and,</span></li>
+    <li><span>Optical Character Recognition (OCR) readability, which consists of adherence to the USPS OCR mailing guidelines.</span></li>
+</ol>
+<p><span>Detailed specifications for these and other ZIP + 4 requirements are available from the USPS Commercial Account Representative assigned to each agency. Additional information is also contained in Section 324 of the </span><a href="https://pe.usps.com/cpim/ftp/manuals/dmm300/full/MailingStandards.pdf"><span>USPS Domestic Mail Manual</span></a><span>.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>WEBSITE STANDARDS INTRODUCTION - 5190</h1>
+        <p>
+            <strong>(Revised: 03/2019 )</strong>
+        </p>
+    <p>
+        <p><span>Websites are an essential tool for government to interact with the public and deliver information and services to the people of California. The Website Standards policy is designed to strengthen the security, usability, accessibility and quality of State of California websites through standardization and adoption of best practices.&nbsp; This policy will foster a consistent look and feel and a common navigational framework across government, helping users recognize they are accessing official State of California information. This policy also encourages Agencies/state entities to design and develop websites that are accessible to people with disabilities and promotes the adoption of usability principles that adhere to California&rsquo;s usability standards for website development.</span></p>
+<p>&nbsp;</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>WEBSITE STANDARDS - 5190.1</h1>
+        <p>
+            <strong>(Revised: 08/2018 )</strong>
+        </p>
+    <p>
+        <p style="margin: 0in 0in 8pt;"><span>As part of the Website Standards Policy, Agencies/state entities must incorporate the mandatory website elements identified in this section for all public-facing websites within the CA.GOV domain. These elements include the following requirements: design, accessibility, domain, profile, usability, security, and analytics. See webstandards.ca.gov for standard and web template resources.<a name="Mandatory_Website_Elements:"></a></span></p>
+<p style="margin: 0in 0in 8pt;"><strong><span>Mandatory Website Elements:</span></strong></p>
+<ol style="list-style-type: decimal;">
+    <li style="color: #000000;">
+    <p style="text-align: right; color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Design</span></strong><span>: Websites shall include a strong brand presence for the State of California and the Agency/state entity. The use of consistent design elements will help promote a standard look-and-feel while also improving the overall user experience.</span></p>
+    <ol style="list-style-type: lower-alpha;">
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Header </span></strong><span>&ndash; The header provides a consistent, seamless look-and-feel to the State&rsquo;s web presence. Key elements of the header shall include:</span></p>
+        <ol style="list-style-type: lower-roman;">
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>State Branding &ndash; The CA.GOV logo shall be placed in the top left corner of the header area inside a horizontal band that is at least 40 pixels high. The CA.GOV logo must be at least 34 pixels high and contain a hyperlink to the CA.GOV web portal. A hypertext only link is not permitted in place of the hyperlinked graphic logo image.</span></p>
+            </li>
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Agency/state entity Branding &ndash; An Agency/state entity logo must be used for identification. The logo must be clear and contain legible text. When an Agency/state entity logo is not available, the state seal should be used in its place followed by the Agency/state entity title.</span></p>
+            </li>
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Navigation &ndash; Provide a direct link to the most utilized landing pages or services within the website. Ensure link names are clear and concise and accurately represent the destination content. Ensure that the primary and secondary navigational elements are consistent and provides navigation on all webpages throughout the website.</span></p>
+            </li>
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Search &ndash; A search button or hyperlink must be present inside the main navigation or header area.</span></p>
+            </li>
+        </ol>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Footer </span></strong><span>&ndash; The footer must appear at the bottom of all Agency/state entity web pages. Key elements of the footer shall include:</span></p>
+        <ol style="list-style-type: lower-roman;">
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Link to Agency/state entity&rsquo;s Privacy Policy specific to the published website.</span></p>
+            </li>
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Link to Agency/state entity&rsquo;s Conditions of Use specific to the published website.</span></p>
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Contact information or link to contact information. Contact information must identify the name of the Agency/state entity that owns the website so there is no question as to which Agency/state entity the user may contact.</span></p>
+            </li>
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Online Voter Registration hyperlink to the California Secretary of State&rsquo;s </span><a href="https://registertovote.ca.gov/"><span style="text-decoration: underline;">Online Voter Registration webpage</span></a><span>.</span></p>
+            </li>
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Link to user visible sitemap which presents a systematic hierarchical view of the website.&nbsp; The sitemaps shall be made available to users and search engine crawlers. A user visible sitemap, which presents a systematic hierarchical view of the website, shall be linked in the footer section. A user visible sitemap does not need to contain every page on the website if there are a large number of resources, especially application generated dynamic pages. A system or XML sitemap shall be available and placed into the root folder of the website and should include all of the available links. Sitemaps shall regularly be updated when new pages are published. It is recommended that XML sitemaps be submitted to all major search engines.</span></p>
+            </li>
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Link to Website Accessibility Certification, see </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4833-2"><span style="text-decoration: underline;">SAM Section 4833.2</span></a><span>.</span></p>
+            </li>
+        </ol>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Content Area </span></strong><span>&ndash; The content area in the Agency/state entity&rsquo;s homepage provides a space for Agencies/state entities to include program specific content using a variety of elements and layouts. Key elements of the content area shall include:</span></p>
+        <ol style="list-style-type: lower-roman;">
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Agency/state entity&rsquo;s essential programs or digital service offerings targeting California residents, visitors, businesses, and government entities. Digital services include the delivery of digital information (e.g., data or content) and transactional services (e.g., online forms, benefits applications) across a variety of platforms, devices, and delivery mechanisms (e.g., websites, mobile applications, and social media).</span></p>
+            </li>
+            <li style="color: #000000;">
+            <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Link to current Governor's website.</span></p>
+            </li>
+        </ol>
+        </li>
+    </ol>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Accessibility: </span></strong><span>Per </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4833"><span style="text-decoration: underline;">SAM Section 4833</span></a><span>, all Agencies/entities are responsible for ensuring their public websites are accessible to people with disabilities. Key elements of web accessibility shall include:</span></p>
+    <ol style="list-style-type: lower-alpha;">
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>IT Accessibility Guidelines </span></strong><span>- All Agency/State entity websites must comply with web accessibility guidelines defined in </span><a href="https://cdt.ca.gov/policy/simm/"><span style="text-decoration: underline;">SIMM Section 25 </span></a><span>IT Accessibility Resource Guide.</span></p>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Accessibility Page </span></strong><span>&ndash; All Agency/state entity websites must include information regarding accessibility features and resources pertinent to the Agency/state entity website.&nbsp; See webstandards.ca.gov for sample information.</span></p>
+        </li>
+    </ol>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>CA.GOV Domain</span></strong><span>: Per </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/5100/5195"><span style="text-decoration: underline;">SAM Section 5195</span></a><span>, web domains occupying the CA.GOV domain zone must comply with domain name requirements, see </span><a href="https://cdt.ca.gov/policy/simm/"><span style="text-decoration: underline;">SIMM Section 40A</span></a><span style="text-decoration: underline;"> </span><span>for additional information on naming conventions and protocols. Key elements of domain name policy compliance shall include:</span></p>
+    <ol style="list-style-type: lower-alpha;">
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Domain Name Certification </span></strong><span>- All entities that use the CA.GOV web domain are required to annually certify compliance with state and federal policy and guidelines and confirm that domain contact information is current through the CDT </span><a href="https://domainnamerequest.cdt.ca.gov/"><span style="text-decoration: underline;">Domain Name Request System</span></a><span>.</span></p>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Agency/state Entity Profile </span></strong><span>- All Agencies/state entities that use the CA.GOV domain are required to annually verify the accuracy of their Agency/state entity profile through the </span><a href="https://stateentityprofile.ca.gov/Account/Login"><span style="text-decoration: underline;">CDT State Entity Profile Application</span></a><span>. See </span><a href="https://webstandards.ca.gov/"><span style="text-decoration: underline;">WebStandards.ca.gov </span></a><span>for additional information<strong>.</strong></span></p>
+        </li>
+    </ol>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Usability</span></strong><span>: All public facing websites and digital services should be designed around user needs with data-driven analysis influencing management and development decisions. Agencies/state entities should use qualitative and quantitative data to determine user goals, needs, and behaviors, and continually test websites and digital services to ensure that user needs are addressed. Key elements of usability and user feedback shall include:</span></p>
+    <ol style="list-style-type: lower-alpha;">
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Responsive Design </span></strong><span>- Ensure public websites and digital services are readily available to users on various devices and platforms. Websites must leverage responsive and adaptive capabilities that allow users of mobile devices, of varying sizes, equivalent access to government information and services available to desktop devices.</span></p>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>User Feedback </span></strong><span>&ndash; Leverage user feedback and analytics to prioritize the modernization and optimization of legacy websites and digital services that are most frequently accessed by users<strong>.</strong></span></p>
+        </li>
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Usability Principles </span></strong><span>- Leverage State web usability principles and standards featured at </span><a href="https://webstandards.ca.gov/"><span style="text-decoration: underline;">WebStandards.ca.gov </span></a><span>and Federal principles featured at </span><a href="https://www.usability.gov/"><span style="text-decoration: underline;">usability.gov</span></a><span>.</span></p>
+        </li>
+    </ol>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Security</span></strong><span>: Agencies/state entities must protect user privacy, data integrity and sensitive information. Key elements of website security shall include:</span></p>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Transport Layer Security </span></strong><span>- Websites shall, at minimum, use Transport Layer Security (TLS) certificates (formerly referred to as Secure Socket Layer (SSL) certificates) that adhere to a minimum Secure Hash Algorithm (SHA) 2 and 2048-bit key encryption. At minimum the full Agency/state entity name shall be provided as the &ldquo;unit&rdquo; for TLS certificate purposes. The contact person(s) named in a TLS certificate must be consistent with the contact(s) registered for the domain. Agency/state entities shall verify contacts are consistent as part of the annual Domain Name Certification process, see SAM Section 5195.</span></p>
+    <ol style="list-style-type: lower-alpha;">
+        <li style="color: #000000;">
+        <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Extended Validation </span></strong><span>- Websites that process, store or transmit financial transactions and/or Personal Information, as defined by Civil Code Section 1798.3, shall use an Extended Validation (EV) TLS certificate.</span></p>
+        </li>
+    </ol>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span>Analytics</span></strong><span>: Agencies/state entities must participate in statewide analytics by deploying the statewide analytics tracking code on all public-facing websites. Participation in statewide analytics does not preclude Agency/state entities from using other analytics programs. The statewide analytics tracking code is available at </span><a href="https://webstandards.ca.gov/"><span style="text-decoration: underline;">WebStandards.ca.gov</span></a><span>.<a name="Optional_Website_Elements:"></a></span></p>
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><strong><span style="text-decoration: underline;">Optional Website Elements:</span></strong></p>
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Agencies/state entities are encouraged, but not required, to include the following elements in the content area of their websites:</span></p>
+    </li>
+</ol>
+<ol style="list-style-type: decimal;">
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Governor&rsquo;s picture/graphical banner near the top of the content area.</span></p>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Agency Secretary and/or State Entity Director&rsquo;s picture/banner (or equivalent).</span></p>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Essential Services highlighting key information of importance to the Agency/state entity.</span></p>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Tribal Liaison contact information on the contact page.</span></p>
+    </li>
+    <li style="color: #000000;">
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;"><span>Small Business &amp; Disabled Veteran Business Enterprise (DVBE) Advocate Information on the contact page if applicable.</span></p>
+    <p style="color: #000000; margin-top: 0in; margin-bottom: 8pt;">&nbsp;</p>
+    </li>
+</ol>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>CALIFORNIA STATE WEBSITE TEMPLATE - 5190.2</h1>
+        <p>
+            <strong>(New: 07/2018 )</strong>
+        </p>
+    <p>
+        <p><span>Agencies/state entities are strongly encouraged to use the latest version of the standard CA.GOV website template to achieve many of the requirements identified in SAM Section 5190.1. The standard template is designed to promote a responsive and standard look and feel to ensure a uniform user experience. The template includes many usability, security and accessibility requirements and is updated regularly to meet evolving industry standards and best practices. Agencies/state entities that utilize the standard CA.GOV website template shall ensure that the latest version of the template is implemented within one year from the date of the latest template release.</span></p>
+<p><span>The standard CA.GOV website template and instructions related to this policy can be found at </span><a href="http://www.webstandards.ca.gov/"><span>WebStandards.ca.gov</span></a><span>. This online resource is a toolkit that provides standards, code, functionality, implementation guidelines and best practices for Agencies/state entities to implement the Website Standards policy.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INTERNET DOMAIN NAME POLICY - 5195</h1>
+        <p>
+            <strong>(Revised: 11/2021 )</strong>
+        </p>
+    <p>
+        <span>The State of California has been authorized to administer the &ldquo;ca.gov&rdquo; Domain Name Service (DNS) Zone by the United States General Services Administration (GSA). As of April 2021, the United States Cybersecurity and Infrastructure Security Agency (CISA) has taken over responsibility of .gov internet domain name management from GSA. Web domains occupying this zone can only be acquired by an official state entity, county, city, state-recognized tribal government, Joint Powers Authority, or independent local district within the State of California. The Government Operations Agency (GovOps) has statewide responsibility to oversee the ca.gov domain name program and the California Department of Technology manages the registration, change, and renewal process for ca.gov domains. This policy applies to all second-level and third-level domain names within the ca.gov domain.</span>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INTERNET DOMAIN NAME REQUIREMENTS - 5195.1</h1>
+        <p>
+            <strong>(Revised: 08/2023 )</strong>
+        </p>
+    <p>
+        <p style="margin-bottom: 9pt;"><span>California Department of Technology (CDT) approval is required for any state entity, city, county, and government group that requests to use the ca.gov web domain. Web domains occupying the ca.gov domain zone must comply with all of the following requirements. See&nbsp;</span><a href="https://cdt.ca.gov/policy/simm/"><span style="color: #0070c0;">SIMM&nbsp;</span></a><span>Section 40A&nbsp;for additional information on naming conventions and protocols.</span></p>
+<ul style="list-style-type: disc;">
+    <li><span>Domain names must be owned by a California state entity, county, city, state-recognized tribal government, Joint Powers Authority, or independent local district within the State of California.</span></li>
+    <li><span>Domain names must match the organization&rsquo;s official name.</span></li>
+    <li><span>Domain names must be consistent with federal policy and guidelines including, but not limited to,&nbsp;</span><a href="https://www.ecfr.gov/cgi-bin/text-idx?SID=e6d6ecf102cbdaa725760cf148c555de&amp;mc=true&amp;node=pt41.3.102_6173&amp;rgn=div5"><span>41 Code of Federal Regulations, Part 102-173</span></a><span>, the United States Cybersecurity and Infrastructure Security Agency&rsquo;s DotGov Registrar domain policy,&nbsp;and the Federal Interagency Committee on Government Information&rsquo;s Recommendations for Federal Public Websites.</span></li>
+    <li><span>All websites in the &ldquo;ca.gov&rdquo; DNS Zone must contain a direct link. to&nbsp;</span><a href="https://www.ca.gov/"><span>https://www.ca.gov/</span></a><span>&nbsp;and must provide both general information and details on digital services to be used on&nbsp;</span><a href="https://www.ca.gov/"><span>https://www.ca.gov/</span></a><span>.</span></li>
+    <li><span>In case of an official organization name change, the previous domain name must be relinquished when requesting a new domain to correspond with the new organization name.&nbsp;</span></li>
+    <li><span>Domain names must explicitly and unambiguously identify the origin of service.</span></li>
+    <li><span>Domain names must not be likely to mislead or confuse the general public.</span></li>
+    <li><span>Each entity shall have only one ca.gov domain (except for approved legacy domain names). If an entity already has one or more domain names, additional domains will not be granted for that entity.&nbsp;</span></li>
+    <li><span>If multiple entities are involved, identify the lead entity and use a subdirectory or sub-domain within the domain that the lead entity already has, instead of requesting a new domain. Collaborations and interagency agreements exist across all state entities, they do not necessitate or entitle a separate domain.&nbsp;&nbsp;</span></li>
+    <li><span>Ca.gov must be the primary domain name even if an agency/state entity also operates non-ca.gov domains such as .com, .org, etc., ca.gov. The non-ca.gov domain(s) can redirect to the ca.gov site.</span></li>
+    <li><span>Domain names for state agencies cannot consist solely of generic terms. </span></li>
+    <li><span>Existing domain names that do not comply with current policies&nbsp;may not be used as precedent for requesting new non-compliant domains.&nbsp;</span></li>
+    <li><span>Domain names must not be used for commercial purposes, such as advertising benefiting private individuals or entities.&nbsp;</span></li>
+    <li><span>Domain names must not be used for political campaign purposes.&nbsp;</span></li>
+    <li><span>Domain names must not be used to distribute or promote materials whose distribution violates applicable law.</span></li>
+    <li><span>Domain names must not be used for malicious cyber activity, such as activity that affects the integrity, security, and overall trustworthiness of the ca.gov domain.</span></li>
+</ul>
+<p style="margin-bottom: 9pt;"><span> In the case of a domain name conflict, CDT will allocate domain name to the most appropriate party, at CDT and/or California Government Operations Agency&rsquo;s (GovOps) discretion. It is not on &ldquo;first come, first served&rdquo; basis.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INTERNET DOMAIN NAME ANNUAL CERTIFICATION - 5195.2</h1>
+        <p>
+            <strong>(New: 05/2017 )</strong>
+        </p>
+    <p>
+        <p><span>All entities that use the ca.gov web domain are required to annually certify compliance with federal policy and guidelines and confirm that domain contact information is current. Any entity that fails to complete this annual certification requirement risks having their ca.gov domain name removed. See SIMM </span><a href="https://cdt.ca.gov/policy/simm/"><span>Section 40A </span></a><span>for additional information and instructions regarding the annual certification process.</span></p>
+    </p>
+    
+</div>
+            <hr />
+         
+            <script type="text/javascript">
+                function printChapterView() {                 
+                    var divToPrint = document.getElementById("printarea");
+                    newWin = window.open("");
+                    newWin.document.write(divToPrint.outerHTML);
+                    newWin.print();
+                }
+            </script>
+
+
+        
+    </main>
+
+    <div class="main-secondary">
+
+        
+
+
+
+<script src="/Assets/js/jquery/jquery-3.6.3.min.js"></script>
+<div class="cta-panel">
+    <div class="panel">
+        <div class="panel-heading">
+            <h2 class="panel-title">Search Entire Manual</h2>
+        </div>
+        <div class="panel-body">
+            <div class="manual-search-body">
+                <div class="site-manual-search">
+                    <form id="site-search__form" aria-labelledby="site-search__toggle" method="get" action="">
+                        <label for="5d1449a7dad94f4f869b24de0ed39abf" value="Search Box" class="hidden">Search Manual</label>
+                        <span>
+                            <input name="q" type="text" id="5d1449a7dad94f4f869b24de0ed39abf" placeholder="Search Manual">
+                        </span>
+                        <input type="hidden" name="sitesearch" value="" />
+                        <span>
+                            <button class="button "
+                                    type="submit"
+                                    name='Search'
+                                    value='Search'>
+                                <span class="button__text ">Search</span>
+                            </button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+
+            <input id="manualSearchPageItemPath" type="hidden" class="searchPageitem" value="/Resources/SAM/SearchResult" />
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/assets/js/mansearch.js">
+
+
+</script>
+
+
+
+
+
+
+
+<div class="cta-panel">
+
+
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h2 class="panel-title">Print Entire SAM Manual</h2>
+        </div>
+        <div class="panel-body">
+            <div>
+                
+                <button id="printinit" class="btn btn-primary" type="button" onclick='PrintMan()'>Print Entire Manual</button>
+                <div id="printdiv" class="hidden">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal"><span class="loadmsg">Please bear with us, generating the entire SAM for printing will take approximately two minutes.</span></div>
+<script type="text/javascript">
+    function PrintMan() {
+        $.ajax(
+            {
+                type: 'GET',
+                url: '/api/sitecore/Manual/FullPrint?manualName=SAM',
+                dataType: 'json',
+                //Refactor -  Needs to query root node name and pass value.  Content Tree >  Page Title.
+                //Pass value of the manual box.
+                data: { manualName: $("#printinit").val() },
+                beforeSend: function () {
+                    $(".modal").addClass("show")
+                },
+                complete: function () {
+                    $(".modal").removeClass("show")
+                },
+                success: function (result) {
+                    if (result.length < 1) {
+
+
+
+                    }
+                    else {
+                        $("#printdiv").html("");
+                        $("#printdiv").append("<h1>State Administrative Manual</h1>");
+                        for (i = 0; i < result.length; i++) {
+                            //Append Each Chapter Summary
+                            var chap;
+                            if (chap != result[i].Chapter) {
+                                chap = result[i].Chapter;
+                                $("#printdiv").append("<h1>Chapter - " + result[i].Chapter + "</h1>");
+                                $("#printdiv").append('<table class="table table-sm"' + 'id="cp-' + result[i].Chapter + '">');
+                                $('#cp-' + chap).append('<thead><tr><th align="left">Subject</th><th align="left">Section</th></tr></thead>');
+                                $('#cp-' + chap).append('<tbody>');
+                            }
+                            if (chap = result[i].Chapter) {
+                                $('#cp-' + chap).append('<tr><td>' + result[i].Subject + '</td><td>' + result[i].Section + '</td></tr>');
+                            }
+                            else {
+                            }
+                            $("#printdiv").append('</tbody>');
+                            $("#printdiv").append('</table>');
+                            $("#printdiv").append("<h2>" + result[i].Subject + "-" + result[i].Section + "</h2>");
+                            $("#printdiv").append(result[i].PrintContent);
+                            //Append Full Section
+
+                        }
+                    }
+                    printData();
+                }
+            });
+    }
+
+    function printData() {
+        var divToPrint = document.getElementById("printdiv");
+        newWin = window.open("");
+        newWin.document.write(divToPrint.outerHTML);
+        newWin.print();
+        /*newWin.close();*/
+    }
+
+</script>
+
+<style>
+    #printdiv th {
+        width: 50%;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba( 255, 255, 255, .8 ) url('/Assets/img/loader.gif') 50% 50% no-repeat;
+    }
+
+    .show {
+        display: block
+    }
+
+    .loadmsg {
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background: #06a;
+        color: white;
+        padding: 5px;
+    }
+</style>
+    </div>
+</div>
+        
+        
+
+<script async src="https://siteimproveanalytics.com/js/siteanalyze_6339819.js"></script>
+<footer class="footer" role="contentinfo">
+    <div class="footer-links">
+        <ul class="footer-links-list">
+            <li><a href="#skip-to-content">Back to Top</a></li>
+                <li><a href="/Configuration/Footer-Utility-Links/Accessibility/Accessibility">Accessibility</a></li>
+                <li><a href="/Certification">Certification</a></li>
+                <li><a href="/Employee-Corner">Employee Corner</a></li>
+                <li><a href="/Privacy">Privacy Policy Statement</a></li>
+        </ul>
+    </div>
+    <div class="footer-social">
+        
+
+
+        <div class="social-connect social-connect--standout">
+            
+                <ul class="social-connect-body">
+                        <li><a href="https://www.facebook.com/CalDGS/?ref=settings"><span class="social-connect-icon icon-facebook" aria-hidden="true"></span><span class="social-connect-label">Facebook</span></a></li>
+                        <li><a href="https://x.com/califdgs?lang=en"><span class="social-connect-icon icon-twitter-x" aria-hidden="true"></span><span class="social-connect-label">X</span></a></li>
+                        <li><a href="https://www.youtube.com/user/CalifDGS"><span class="social-connect-icon icon-youtube" aria-hidden="true"></span><span class="social-connect-label">YouTube</span></a></li>
+                        <li><a href="https://www.instagram.com/dgscalif/?hl=en"><span class="social-connect-icon icon-instagram" aria-hidden="true"></span><span class="social-connect-label">Instagram</span></a></li>
+                        <li><a href="https://www.linkedin.com/company/cadgs"><span class="social-connect-icon icon-linkedin" aria-hidden="true"></span><span class="social-connect-label">LinkedIn</span></a></li>
+                </ul>
+        </div>
+
+    </div>
+    <div class="footer-copyright">Copyright &#169; 2018 State of California</div>
+</footer>
+
+
+        <!-- CDT emergency alerts : Start -->
+        <script defer src="https://alert.cdt.ca.gov"></script>
+        <!-- CDT emergency alerts : End -->
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push(
+                    { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+                ); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5D4N99T');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D4N99T"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <script src="/assets/js/jquery/jquery-3.6.3.min.js"></script>
+        <script src="/assets/libs/handlebars/4.7.9/handlebars.min.js"></script>
+        <script src="/assets/js/app.js?v=21"></script>
+        <script src="/assets/js/search.js"></script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+
+        <script src="/assets/libs/jquery-ui/1.13.2/jquery-ui.min.js"></script>
+        <!-- Your Script -->
+        <script type='text/javascript'>
+            $(function () {
+                // This will apply the datepicker to all input elements of the date type and then it will remove the date attribute to avoid jQuery / browser conflicts
+                $("input[type='date']").datepicker().attr('type', 'text');
+            });
+        </script>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <script src="/assets/js/custom.js"></script>
+
+        <!-- Google Analytics -->
+        <!-- Uncomment out the following portion when it's in production -->
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19802602-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-19802602-2', {
+                cookie_flags: 'max-age=7200;secure'
+            });
+        </script>
+
+        <script id="accordionclick" type="text/javascript"></script>
+        <script id="bread-crumbhtml" type="text/javascript"></script>
+        <script id="local-navhtml" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+
+                var accordionContents = "";
+                var breadCrumbContents = "";
+                var navContents = "";
+
+                $('.accordionclick').each(function () {
+                    accordionContents += $(this).html();
+                });
+
+                $('.bread-crumbhtml').each(function () {
+                    breadCrumbContents += $(this).html();
+                });
+
+                $('.local-navhtml').each(function () {
+                    navContents += $(this).html();
+                });
+
+                $('#accordionclick').html(accordionContents);
+                $('#bread-crumbhtml').html(breadCrumbContents);
+                $('#local-navhtml').html(navContents);
+
+            });
+
+        </script>
+
+        <!-- Hiddenfield holding department id-->
+        <input id="divisionId" type="hidden" class="divisionId" value="" />
+            <input id="searchPageItemPath" type="hidden" class="searchPageitem" value="/SearchResult" />
+        <input id="isGlobalSearchPage" type="hidden" class="searchPageitem" value="true" />
+
+    </body>
+</html>
