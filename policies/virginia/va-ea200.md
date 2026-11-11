@@ -1,0 +1,531 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-ea200
+title: Enterprise Architecture Policy (EA200)
+doc_type: policy
+citation: EA Policy EA200
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/EA200.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 22442641f67a78a32169913ffac5486a0d7462caeaee9d64176de2d49a92c294
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Enterprise Architecture Policy (EA200) (EA Policy EA200)
+
+## At a glance
+
+Item of the VITA library, topic 'Enterprise Architecture': the policy that guides how executive branch agencies acquire, use and manage information technology resources and defines the Commonwealth's enterprise architecture.
+
+## Full text
+
+COMMONWEALTH OF VIRGINIA
+Enterprise Architecture
+Information Technology
+Resource Management
+
+               Enterprise
+               Architecture
+               Policy
+
+                         EA Policy (EA200)
+                          December 2024
+
+Enterprise Architecture Policy                                                             EA Policy (EA200)
+                                                                                           July __ 2024
+
+                                                         Preface
+                                                                   Commonwealth (CIO)
+Publication Designation
+                                                                   Agency head of VITA. Responsible for and approves
+Enterprise Architecture Policy (EA200)
+                                                                   statewide technical and data policies, standards,
+                                                                   guidelines, and requirements for IT, including with
+Subject                                                            respect to IT planning, procurement, and security.
+Enterprise Architecture
+                                                                   Virginia Information Technologies Agency (VITA)
+Effective Date                                                     At the direction of the CIO, VITA leads efforts that
+December 2024                                                      draft, review, and update technical and data policies,
+                                                                   standards, guidelines, and requirements for IT.
+Supersedes
+Past versions (page iii)                                           VITA uses requirements in IT technical and data
+                                                                   related documents when establishing contracts;
+Scheduled VITA Review                                              reviewing procurement project, and security and
+Periodically or as needed.                                         budget requests and strategic plans, and when
+                                                                   developing and managing IT enterprise and
+Authority                                                          infrastructure services.
+
+Code of Virginia, §2.2-2006                                        Executive Branch Agencies
+(Definitions)                                                      Provide input and review during the formulation,
+                                                                   adoption and update of statewide technical and data
+Code of Virginia, §2.2-2007                                        policies, standards and guidelines for IT.
+(Powers of the CIO)
+                                                                   Comply with the requirements established by COV
+                                                                   policies and standards. Apply for exceptions to
+Code of Virginia, §2.2-2007.1
+                                                                   requirements when necessary.
+(Additional duties of the CIO relating to information
+technology (IT)planning and budgeting)
+
+Code of Virginia, § 2.2-2009
+(Additional duties of the CIO relating to security of
+government information)
+
+Code of Virginia, § 2.2-2012
+(Additional powers and duties related to the
+procurement of IT)
+
+Code of Virginia, §2.2-603(F)
+(Authority of agency directors, with respect to IT and
+data security and risk management)
+
+Scope
+Standard applies to all Executive Branch agencies
+(hereinafter "agencies") that are responsible for the
+management, development, purchase, and use of IT
+resources in the Commonwealth of Virginia (COV).
+
+Purpose
+Establishes the framework for enterprise architecture
+direction and technical requirements, which govern the
+acquisition, use and management of IT resources by
+agencies.
+
+General Responsibilities
+
+Chief Information Officer of the
+                                                             ii
+
+ Enterprise Architecture Policy                                                                  EA Policy (EA200)
+                                                                                                 July __ 2024
+
+ Publication Version Control
+Please direct questions related to this publication to VITA’s Enterprise Architecture (EA) Division at ea@vita.virginia.gov.
+VITA notifies the Agency Information Technology Resources (AITRs) at all agencies, and other interested parties of revisions.
+
+The following table contains a history of the revisions to this publication.
+      Version         Date       Revision Description
+      220-v3           3/1/2023    Last versioned copy of webpage in T4
+
+      220-v4           7/17/2024   Administrative revision, focused on reformatting the document to delineate the guidance
+                                   document framework from the individual technical publications.
+
+                                                               iii
+
+ Enterprise Architecture Policy                                                                                       EA Policy (EA200)
+                                                                                                                      July __ 2024
+
+                                                     Table of Contents
+
+Preface......................................................................................................................... 2
+     Reviews ............................................................................................................... Error! Bookmark not defined.
+     Publication Version Control ............................................................................................................................... 3
+
+Table of Contents......................................................................................................... 4
+
+Enterprise Architecture Purpose .................................................................................. 5
+
+Overview ..................................................................................................................... 5
+
+Enterprise Business Architecture ................................................................................. 6
+
+Enterprise Information Architecture ............................................................................ 6
+
+Enterprise Solutions Architecture ................................................................................ 6
+
+Enterprise Technical Architecture ................................................................................ 6
+
+Enterprise Architecture Policy Statements ................................................................... 7
+
+Future Enterprise Architecture Vision .......................................................................... 7
+
+Enterprise Information Architecture Domain ............................................................... 8
+
+Applications Domain - Systems Development .............................................................. 8
+
+Applications Domain – Open Source Software ............................................................. 8
+
+EA Change/Exception Requests.................................................................................... 9
+
+Processing Change/Exception Requests ..................................................................... 10
+     Receive Architecture Change /Exception .................................................................................................................... 10
+     Research, Review and Respond to EA Change/Exception Request ............................................................................. 10
+     Exception Requests ......................................................................................................................................... 10
+     Change Requests and Other Requests ............................................................................................................ 11
+     Communicate and Document Review Decisions ............................................................................................. 11
+
+                                                                            iv
+
+ Enterprise Architecture Policy                                                          EA Policy (EA200)
+                                                                                         July __ 2024
+
+Enterprise Architecture Purpose
+The EA Policy establishes an IT framework to develop, maintain and use the EA as a tool for making decisions around IT
+changes and investments. The EA Policy implements the requirements specified for agencies within EA standards,
+incorporating related laws, regulations, and other mandatory guidance as well as best practice related to EA. The primary
+intent of the IT framework is to meet the following objectives:
+
+    •     Provide description and documentation of the current, transitional, and desired relationships among business,
+          management processes and IT.
+    •     Support decision making that ensures IT investments and technology support COV mission, strategy, and annual
+          performance goals.
+    •     Evaluate IT investments and technology to ensure they maximize business value, support business transformation,
+          are not redundant and adhere to appropriate IT standards.
+    •     Assist in the improvement of identified performance objectives and optimizing the use of IT by identifying
+          capability gaps, eliminating IT redundancies, and improving business and IT alignment.
+    •     Outlines the framework and responsibilities for gathering data necessary to link the IT portfolio with
+          Commonwealth vision, mission, performance goals and priorities.
+    •     Ensure alignment of the requirements for information systems with the processes that support the Agency’s
+          missions
+    •     Ensure adequate interoperability, redundancy and security of information systems
+    •     Support and enforcement of EA requirements during agency evaluation and acquisition new systems.
+
+Overview
+EA is a management best practice that provides a consistent view across all program and service areas to support planning,
+business transformation and IT investment decision making. EA promotes mission success by serving as an authoritative
+reference, promoting functional integration and resource optimization with internal and external service partners.
+
+Achieving EA objectives requires collaboration, cooperation and coordination among agency business stakeholders,
+systems developers, partners, and technology providers. The Commonwealth’s EA is strategic and operational direction
+used to manage and align business processes and IT infrastructure/solutions with strategy.
+
+The EA requirements implements an IT framework and repository which defines:
+
+    •     the models that specify the current (“as-is”) and target (“to-be”) architecture environments;
+    •     the information necessary to perform the Commonwealth’s mission, the solutions, and technologies necessary to
+          perform that mission; and
+    •     the processes necessary for implementing new technologies in response to the Commonwealth’s changing
+          business needs.
+
+The EA contains four components as shown in Figure 1.
+
+                                                             5
+
+ Enterprise Architecture Policy                                                           EA Policy (EA200)
+                                                                                          July __ 2024
+
+                                                   Figure 1: COV EA Model
+
+Enterprise Business Architecture
+The Business Architecture drives the Information Architecture which prescribes the Solutions Architecture all of which is
+supported by the Technical (or technology) Architecture.
+
+Enterprise Information Architecture
+The Enterprise Information Architecture (EIA) promotes the governance, management and sharing of the Commonwealth’s
+data assets with primary focus on consistency and extensibility of data within the enterprise.
+
+Enterprise Solutions Architecture
+An Enterprise Solutions Architecture is the collection of information systems (applications and components, purchased or
+custom-developed) supporting or related to the business functions defined in the Enterprise Business Architecture and the
+Enterprise Business Model.
+
+Enterprise Technical Architecture
+The Enterprise Technical Architecture (ETA) consists of technical domains that provide direction, recommendations, and
+requirements for supporting the Solutions Architecture and for implementing the ETA. The ETA establishes requirements
+for the development and support of an organization’s information systems and technology software services, and
+infrastructure.
+
+Figure 2 shows the ETA relationship to the EA.
+
+                                                             6
+
+ Enterprise Architecture Policy                                                            EA Policy (EA200)
+                                                                                           July __ 2024
+
+                                              Figure 2: ETA Relationship to the EA
+
+Each of the domains is a critical piece of the ETA. The Network and Telecommunications, and the Platform Domains address
+the infrastructure base and provide the foundation for the distributed computing. The Enterprise Systems Management,
+Database, Applications, and Information Domains address the business functionality and management of the technical
+architecture. The Integration Domain addresses the interfacing of disparate platforms, systems, databases, and applications
+in a distributed environment. The Security Domain addresses approaches for establishing, maintaining, and enhancing
+information security across the ETA.
+
+Enterprise Architecture Policy Statements
+Achieving the “to be” EA requires collaboration, cooperation and coordination among agency business stakeholders,
+systems developers, partners, and technology infrastructure providers.
+
+Future Enterprise Architecture Vision
+The EA component reports and the corresponding EA Standard provide guidance and technical direction for achieving the
+envisioned future EA. Executive branch agencies shall comply with the direction provided by the EA in developing and
+implementing technology solutions and the corresponding IT infrastructure required to support the Commonwealth’s
+business needs.
+
+To ensure that the EA remains relevant and current, and that the state progresses future state EA, agencies and other
+interested parties or stakeholders will collaborate, and work with the VITA Policy, Practice and Architecture Division to
+identify:
+
+    •     emerging technologies to be included;
+    •     emerging technologies to be considered strategic technologies;
+    •     technologies that should be considered obsolete/rejected or transitional/contained; requirements and
+          recommended practices to be added, and changes/enhancements to existing requirements and recommended
+          practices, and products/tools that support the standards/requirements in the EA.
+
+It is the intent of the EA to standardize and simplify the many technologies used in the Commonwealth. This will require
+reducing the number of technologies used to develop and support production systems based on the EA. The
+
+                                                               7
+
+ Enterprise Architecture Policy                                                            EA Policy (EA200)
+                                                                                           July __ 2024
+
+Commonwealth will accomplish this through the ongoing development and implementation of its EA and related standards.
+
+The Commonwealth will use the process defined below to govern changes and exceptions to the EA and to ensure that all
+recommendations and requests for changes or exceptions are logged, reviewed, evaluated, considered, and responded to
+in a timely manner.
+
+Enterprise Information Architecture Domain
+Information continues to be a critical resource. Agencies gather and process data to create information needed to support
+their missions. The EIA provides a governance framework, information model, shared vocabulary and methodology
+supporting each agency’s ability to efficiently discover, access, share and utilize Commonwealth data assets.
+
+The EIA is designed to provide a common framework for the cost-effective exchange of information across organizational
+lines while ensuring security, privacy, and appropriate use of that information. The EIA enables agency leaders to manage
+Commonwealth data assets to better serve the citizens of Virginia. EIA supports a great agency capacity and efficiency for
+using data assets to accomplish the Commonwealth’s core strategies.
+
+The EIA provides technical direction and benchmarks to achieve the future state described at the Enterprise Level of the EIA
+Maturity Model. Agencies shall comply with the direction established in the EIA in the design, development,
+implementation, and integration of data-management solutions.
+
+Applications Domain - Systems Development
+This policy recognizes that the ultimate responsibility for the management, control, development, maintenance,
+enhancement, and use of information systems rests with the agencies. Accordingly, it is the policy of the Commonwealth
+that agencies must adopt written standards for the development, maintenance, and enhancement of all information
+systems. The purpose of written standards is to ensure that quality, effective and maintainable information systems are
+developed by agencies.
+
+Applications Domain – Open-Source Software
+Within the Commonwealth, “open-source software” is treated the same as any other type of software. All software
+including “open source” that is used for development and support of “mission critical applications” must be at a
+version/release level that has vendor or equivalent quality level support available. This support should include security hot
+fixes and updates.
+
+Open source doesn't just mean access to the source code. The distribution terms of open-source software must comply
+with the following criteria: (as recommended by the Open Source Initiative (OSI)).
+
+    1.    Free Redistribution. The license shall not restrict any party from selling or giving away the software as a
+          component of an aggregate software distribution containing programs from several different sources. The license
+          shall not require a royalty or other fee for such sale.
+    2.    Source Code. The program must include source code and must allow distribution in source code as well as
+          compiled form. Where some form of a product is not distributed with source code, there must be a well-publicized
+          means of obtaining the source code for no more than a reasonable reproduction cost–preferably, downloading via
+          the Internet without charge. The source code must be the preferred form in which a programmer would modify
+          the program. Deliberately obfuscated source code is not allowed. Intermediate forms such as the output of a
+          preprocessor or translator are not allowed.
+    3.    Derived Works. The license must allow modifications and derived works and must allow them to be distributed
+
+                                                              8
+
+ Enterprise Architecture Policy                                                           EA Policy (EA200)
+                                                                                          July __ 2024
+
+        under the same terms as the license of the original software.
+    4.  Integrity of The Author's Source Code. The license may restrict source-code from being distributed in modified
+        form only if the license allows the distribution of "patch files" with the source code for the purpose of modifying
+        the program at build time. The license must explicitly permit distribution of software built from modified source
+        code. The license may require derived works to carry a different name or version number from the original
+        software.
+    5. No Discrimination Against Persons or Groups. The license must not discriminate against any person or group of
+        persons.
+    6. No Discrimination Against Fields of Endeavor. The license must not restrict anyone from making use of the
+        program in a specific field of endeavor. For example, it may not restrict the program from being used in a business,
+        or from being used for genetic research.
+    7. Distribution of License. The rights attached to the program must apply to all to whom the program is redistributed
+        without the need for execution of an additional license by those parties.
+    8. License Must Not Be Specific to a Product. The rights attached to the program must not depend on the program's
+        being part of a particular software distribution. If the program is extracted from that distribution and used or
+        distributed within the terms of the program's license, all parties to whom the program is redistributed should have
+        the same rights as those that are granted in conjunction with the original software distribution.
+    9. License Must Not Restrict Other Software. The license must not place restrictions on other software that is
+        distributed along with the licensed software. For example, the license must not insist that all other programs
+        distributed on the same medium must be open-source software.
+    10. License Must Be Technology-Neutral. No provision of the license may be predicated on any individual technology
+        or style of interface.
+
+EA Change/Exception Requests
+The EA Change/Exception Request Process defines the roles and processes to be used to review, debate, discuss, and make
+decisions concerning requests for additions, changes and exceptions to the Commonwealth’s EA.
+
+Roles of the key players in the EA Change/Exception Request Review Process are:
+
+    •     CIO - final authority for approving exceptions and change requests related to the EA.
+    •     Chief Enterprise Architect – Responsible for reviewing proposed changes and requests for exceptions to the EA
+          standard requirements and, as appropriate, making recommendations to the CIO to approve/reject. This role
+          resides with the Director of EA at VITA. When there is a difference in opinion and/or recommendations between
+          subject matter experts (SMEs)/business owners and the assigned enterprise architects that cannot be resolved, EA
+          can escalate the issue and/or concern to the CIO.
+    •     Enterprise Architect – assigned responsibility to ensure appropriate research and recommendations are developed
+          in a timely manner for each assigned Change/Exception Request.
+    •     EA Teams – responsible for researching and reviewing new or emerging technologies and requested
+          changes/additions related to the ETA or to other EA component architectures, domains and topics, and for
+          developing revised reports requirements and standards for review and comment.
+    •     SMEs – IT and business experts on various subjects and topics from agencies, partners, and VITA that support the
+          process.
+
+Agencies and other stakeholders can initiate potential changes to the EA by:
+
+    •     requesting an exception(s) for one of more EA requirements or technology/data standards;
+    •     proposing architecture changes (add new requirements or technology/data standards or change existing
+          requirements or technology/data standards); or
+    •     requesting a topic, technology, or data standard area be researched and/or evaluated.
+
+                                                             9
+
+ Enterprise Architecture Policy                                                             EA Policy (EA200)
+                                                                                            July __ 2024
+
+All requests for EA exceptions or proposed changes must be submitted electronically using Archer. Requestors should
+attach any additional project or research materials or documentation that supports their request.
+
+Processing Change/Exception Requests
+When an agency or other stakeholder initiates an EA Change/Exception Request that can cause a potential change to the
+EA, the Chief Enterprise Architect uses the following processes to ensure all such received requests are logged, evaluated,
+and responded to in a timely manner:
+
+ Receive Architecture Change /Exception
+The Chief Enterprise Architect will ensure all change/exception requests received are logged and assigned to an Enterprise
+Architect within three business days after receipt. The assigned Enterprise Architect will notify the submitting organization
+of receipt and the start of work within two business days of receiving the assignment.
+
+ Research, Review and Respond to EA Change/Exception Request
+ Exception Requests
+
+Exception requests come in two forms; those that ask for a temporary exception for some period of time or until an event
+occurs; or those that seek a permanent exception to one or more EA requirements or standards.
+
+The assigned Enterprise Architect is responsible for conducting appropriate research, consulting with SMEs, developing
+recommendations and forwarding those recommendations to SMEs for review within seven business days after the request
+was assigned.
+
+SMEs will review the request and Enterprise Architect’s recommendations and provide comments and/or
+recommendations to the Chief Enterprise Architect within five workdays of receiving the request from the assigned
+Enterprise Architect.
+
+If the assigned Enterprise Architect and SMEs recommendations are different or they identify one or more issues,and the
+Chief Enterprise Architect cannot facilitate a consensus, the Chief Enterprise Architect can escalate the request to the CIO
+for resolution.
+
+The Chief Enterprise Architect, after reviewing the recommendations of the assigned Enterprise Architect and SMEs, and
+additional consulting as needed, , will recommend a course of action on the request to the CIO within three business days
+of receiving all appropriate recommendations.
+
+It is VITA’s intent that all research, reviews and recommendations required to make an informed decision be completed
+and provided to the CIO within four weeks of receipt of the request for exception.
+
+The CIO of the Commonwealth will take one of the following actions related to an exception request:
+
+    •     Approved
+    •     Denied
+    •     Returned – the CIO may return the request to the original sender or one of the involved individuals/groups
+          (assigned Enterprise Architect, SMEs or Chief Enterprise Architect) with a request for additional information,
+          including development of new or revised recommendations.
+
+If the exception request is approved by the CIO and the analysis or recommendations cause a change to an ITRM Policy,
+Standard or Guideline, then that policy, standard or guideline shall be revised using the process defined in the current
+version of the COV ITRM Standard GOV 101. The CIO’s approval decision shall also be provided immediately to the
+                                                              10
+
+ Enterprise Architecture Policy                                                            EA Policy (EA200)
+                                                                                           July __ 2024
+
+requesting agency so that they may proceed in a timely manner.
+
+ Change Requests and Other Requests
+
+This includes all types of requests other than exceptions. The assigned Enterprise Architect will work with the appropriate
+EA team(s) and/or business owners for research and SMEs to develop a solution/recommendation that addresses the
+request.
+
+Depending on the type of request, the assigned Enterprise Architect/EA team/business owner recommendation is due to
+the Chief Enterprise Architect as follows:
+
+    •     Approve emerging technology for pilot – no later than 15 workdays after date assigned to the Enterprise Architect.
+    •     Alternative technology proposal and/or change language/definition in an policies, standards or guidelines – no
+          later than 25 workdays after date assigned to the Enterprise Architect.
+    •     Alternative data standard proposal and or change language/definition in an existing data standard – no later than
+          5 25 workdays after date assigned to the Enterprise Architect
+
+Requests to change language/definitions in an EA report or requests for research/review of a topic or technology will be
+handled by the Chief Enterprise Architect based on recommendations received from the assigned Enterprise Architect.
+These types of requests do not require CIO approval, but require the requested language change, topic or technology be
+added to the potential workload of the EA Division.
+
+For alternative technology proposal requests and approve emerging technology for pilot requests, the request will be
+forwarded to appropriate SMEs for review and recommendation development at the same time the request is assigned to
+the Enterprise Architect. The SMEs recommendation should be provided to the assigned Enterprise Architect and the Chief
+Enterprise Architect.
+
+For alternative data standard related proposal requests, the request will be forwarded to the VITA manager responsible for
+coordinating data owner/SMEs reviews and recommendations development at the same time the request is assigned to
+the Enterprise Architect. The designated VITA manager shall provide SMEs recommendations to the assigned Enterprise
+Architect and to the Chief Enterprise Architect.
+
+As appropriate and after reviewing input recommendation(s) and as needed, consulting with SMEs, the Chief Enterprise
+Architect will recommend a course of action to the CIO within three business days of receiving the recommendation(s).
+
+The CIO of the Commonwealth will take one of the following actions related to the request:
+
+    •     Approved
+    •     Denied
+    •     Returned – the CIO may return the request to the original sender or one of the individuals/groups (assigned
+          Enterprise Architect, ETA Domain Team, or Chief Enterprise Architect) that provided recommendations with a
+          request for additional information, including possible development of a new or revised recommendation.
+
+If the change request is approved by the CIO and the analysis or recommendations cause a change to an ITRM Policy,
+Standard or Guideline, the corresponding policy, standard or guideline shall be revised using the process defined in the
+current version of the COV ITRM GOV 102 Standard.
+
+ Communicate and Document Review Decisions
+
+Final decision results of all received EA change/exception requests will be documented and posted on VITA’s website under
+the EA Library. This provides a record of the evolution of the EA decision process and history.
+
+                                                             11
+
+ Enterprise Architecture Policy                                                         EA Policy (EA200)
+                                                                                        July __ 2024
+
+EA change/exception requests are logged as part of the receiving process and their corresponding outcomes shall be
+documented and published regardless of whether a request was accepted or rejected.
+
+The assigned Enterprise Architect will:
+
+    •     Update the EA Change/Exception Request log on VITA’s website with pertinent information that documents the
+          outcome of a request within three business days after the request has been evaluated and finalized.
+    •     Ensure that all appropriate EA teams, and enterprise architects have any outcomes and approved
+          recommendations that may impact their areas of responsibility.
+    •     Communicate the final outcome and recommendations related to a request to all appropriate stakeholders within
+          two business days after the request has been finalized.
+    •     A complete, up-to-date log of all EA change/exception requests can be viewed in Archer.
+
+                                                           12
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

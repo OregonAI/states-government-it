@@ -6,6 +6,7 @@ from __future__ import annotations
 import re
 
 from src.ingest_common import _clean_line, _decode
+from src.states import UNHANDLED
 
 _BLOCK = re.compile(r"<(?:/?)(?:div|p|h[1-6]|li|ul|ol|tr|table|section|article|button|br|b)\b[^>]*>|<br\s*/?>", re.I)
 
@@ -111,3 +112,16 @@ def notes(src, fmt, text):
                 "header, navigation, breadcrumb and footer were removed, as were the targets of links. "
                 "The page prints no effective date.")
     return None
+
+
+_PLACEHOLDER_DATE = re.compile(r"Effective Date[^\n]*\n[^\n]{0,60}\b[A-Z][a-z]+ x,", re.M)
+
+
+def effective_date(text, doc_type):
+    """ITRM documents print an `Effective Date` row in their publication-designation table and the shared
+    label reader takes it. Two shapes are not one date and give none: a placeholder date in the row
+    ('January x, 2023' beside the real date, GOV 101-04), and a list of dated milestones headed
+    'Effective Dates:' (the Legacy IT Solutions report)."""
+    if doc_type == "statute" or re.search(r"^\s*Effective Dates:", text, flags=re.M) or _PLACEHOLDER_DATE.search(text):
+        return None
+    return UNHANDLED

@@ -1,0 +1,2679 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-eta-network-telecom
+title: Network and Telecommunications
+doc_type: standard
+citation: 'EA requirements document: Network and Telecommunications'
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/Network-and-Telecommunications.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 5a5a07499e9ff7af8b403c5f8439ca8c4ad0eeb61ab7895a42a75929fdcb6d13
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Network and Telecommunications (EA requirements document: Network and Telecommunications)
+
+## At a glance
+
+Item of VITA's Enterprise Architecture page, group 'ETA - Enterprise Technical Requirements': an EA requirements document under the Enterprise Architecture Standard (EA225), whose requirement statements are mandatory for executive branch agencies. The PDF prints: Networking and Telecommunications Domain Requirements, Version 2.1, April 28, 2023.
+
+## Full text
+
+  Commonwealth of Virginia
+Enterprise Technical Architecture [ETA]
+
+    Networking and Telecommunications
+          Domain Requirements
+
+ vita.virginia.gov            April 28, 2023
+
+Networking and Telecommunication Domain Requirements
+                                                                                  Version 2.1 04-28-2023
+
+            Networking and Telecommunications Domain Requirements: Version History
+ Revision       Date              Description
+ 1.0            12-07-2001        Initial document (Formally known known as the Networking,
+                                  Telecommunications and Cabling Standard)
+ 1.1            04-22-2003        Addendum to add Cat 6 wiring specification
+ 2.0            07-10-2006         Networking and Telecommunication Domain Report (replaces above
+                                  three documents)
+ 2.1            10-01-2008        Networking and Telecommunication Domain Report updated
+ 2.1            04-28-2023        Administrative update for accessibility
+
+Review Process
+This requirements document was posted on VITA’s Online Review and Comment Application (ORCA). All
+agencies, stakeholders, and the public were encouraged to provide their comments through ORCA. All
+comments were evaluated and individual commenters were notified of action(s) taken.
+
+Standards and Agency Exceptions
+These standards are incorporated within the COV Enterprise Architecture Standard (EA-225), and the
+requirements defined within this document are mandatory for Executive Branch agencies. Agencies
+deviating from these requirements must request an exception for each desired deviation, and receive an
+approved Enterprise Architecture Exception via Archer, prior to developing, procuring, or deploying such
+technology, or not complying with a requirement specified in this document.
+
+Glossary
+As appropriate, terms and definitions used in this document are in the COV ITRM IT Glossary. The COV
+ITRM IT Glossary is available on the ITRM Policies, Standards, and Guidelines web page at the VITA
+website: https://www.vita.virginia.gov/it-governance/glossary/cov-itrm-glossary/
+
+                                              Page 2 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                                                                                                   Version 2.1 04-28-2023
+
+Contents
+  Purpose ......................................................................................................................................................................................................................... 4
+  Authority ....................................................................................................................................................................................................................... 4
+  Scope.............................................................................................................................................................................................................................. 4
+  Executive Summary ................................................................................................................................................................................................. 5
+  Overview.........................................................................................................................................................................................................................7
+  Networking and Telecommunications Domain Scope .............................................................................................................................. 9
+  Methodology ............................................................................................................................................................................................................... 9
+  As-IS and To-Be Architecture for Networking and Telecommunications Infrastructure and Services .............................. 11
+  Commonwealth Networking and Telecommunications in 2005 and 2008 ................................................................................... 15
+       Higher Education in 2005 and 2008 ......................................................................................................................................................... 15
+  To-be Architecture ................................................................................................................................................................................................... 17
+  Domain-Wide Principles, Recommended Practices and Requirements .......................................................................................... 19
+  Networking and Telecommunications Domain Technical Topics ........................................................................................................ 21
+  Facilities Telecommunications Infrastructure ............................................................................................................................................ 21
+  Data Center Cabling and Pathways .............................................................................................................................................................. 24
+  Definitions and Terminology .............................................................................................................................................................................. 41
+  Terminology Sources and Links....................................................................................................................................................................... 53
+  Appendix A. 2007-8 Network Domain Team Analysis of Technology Trends ............................................................................... 53
+  Appendix B. Vita Network Migration Plan Overview ............................................................................................................................... 54
+  Appendix C: Protocols by Generation.............................................................................................................................................................55
+  Appendix D: References, Links and Recommended Reading ............................................................................................................. 56
+
+                                                                                                   Page 3 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                     Version 2.1 04-28-2023
+
+Purpose
+The intent of these requirements is to guide the purchase, design, implementation, and on-going
+operation of COV IT services and utilized technologies. For further information on the perspectives,
+please reference the most recent version of the Enterprise Technical Architecture (ETA) Requirements
+document.
+
+Authority
+    •   Code of Virginia, §2.2-2007. Powers of the CIO
+    •   Code of Virginia, §2.2-2007.1. Additional duties of the CIO relating to information technology
+        planning and budgeting
+    •   Code of Virginia, §2.2-2009(A). Additional duties of the CIO relating to security of government
+        information
+    •   Code of Virginia, §2.2-2012(A). Additional powers and duties related to the procurement of
+        information technology
+
+Scope
+This standard is applicable to all Executive Branch state agencies (hereinafter collectively referred to as
+"agencies") that are responsible for the management, development, purchase and use of information
+technology resources in the Commonwealth of Virginia. This standard does not apply to research
+projects, research initiatives, or instructional programs at public institutions of higher education.
+In addition to the requirements below all COV IT technology solutions comply with the standards found
+on the VITA Policies Standards & Guidelines page.
+
+                                                Page 4 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                  Version 2.1 04-28-2023
+
+Executive Summary
+
+This document addresses networking and telecommunications requirements recommended
+practices and technology standards for agencies in the Commonwealth of Virginia. The networking
+and telecommunications domain is part of Virginia’s Enterprise Technical Architecture (ETA). The
+ETA provides current state and future vision for the technical architecture that will meet agency
+business needs. It also provides requirements that will assist VITA-served agencies in meeting
+their needs while moving towards the future vision. For networking and telecommunications, the
+future vision for VITA-served agencies is simple. Future networks will be highly integrated,
+providing end-to-end services that coexist in a common infrastructure. Conceptually, the future
+network for VITA-served agencies will be one network. Institutions of higher education will strive
+for greater consistency and unity within the institutions with use of shared services across
+institutions when cost effective or when appropriate for meeting business needs.
+
+The networking and telecommunications domain report represents the work and decisions of the
+2006-2008 Network Domain Team, which was comprised of knowledgeable state, local, higher
+education institution, and contract personnel. The domain team identified two topics:
+
+    •   Facilities Telecommunications Infrastructure (i.e., cable plant)
+    •   Telecommunications
+             o Local Area Networking (LANs)
+             o Wide Area Networking (WANs)
+             o Wireless Considerations
+             o Other Telecommunications Services (e.g., phone, data, multimedia)
+In general, the document provides assistance to agencies in the following ways:
+    • Descriptions of the current state of networking and telecommunications
+    • Overviews of the technical topics and technical trends
+    • Recommendations for actions that will improve future connectivity and services
+    • A glossary of technical terms
+    • Web links for more information
+
+Facilities telecommunications infrastructure addresses industry standards for build out and
+management of cabled and wireless networks. Telecommunications addresses a variety of
+business needs and services. The general approach to telecommunications is to move towards
+common practices and services. LANs and WANs across agencies should be integrated and
+managed centrally. This can be accomplished by focusing on common protocols, documentation,
+upgrade paths, services and management. The Commonwealth’s LANs are typically switched
+Ethernet with IP (internet Protocol) addressing. Although the IP addressing makes some use of the
+private address space at an agency level, the WAN routing for these agencies is able to keep these
+local addresses hidden by wrapping packets in a label switching protocol. WAN services newly
+deployed in the Commonwealth at this time are usually Multiprotocol Label Switching (MPLS)
+networks and MPLS Virtual Private Networks (VPNs). MPLS may also be used to wrap older
+Asynchronous Transfer Mode (ATM) and Frame Relay cells and packets. Facility cabling typically
+follows international standards with minor deviations. Wireless connectivity is growing in
+importance to agencies attempting to improve business processes and has become an
+expectation of the workforce. Improved mobility and interoperability of networks encountered by
+the mobile workforce will be the next great challenge.
+
+In this document, the telecommunications and networking service options presently available in
+the Commonwealth are discussed along with bandwidth, connectivity, throughput, and issues of
+future capabilities. The document also addresses a wide array of business-critical multimedia,
+voice, email, teleconferencing and other services along with their impact on the future
+infrastructure and its management.
+
+                                              Page 5 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                      Version 2.1 04-28-2023
+
+As networking and telecommunications services are implemented across agencies, across remote
+offices and telework settings, and within/across universities, the Commonwealth will move toward:
+
+    •    common networks designed and managed across all agencies that participate in central
+         network services, across university departments; and across universities for cooperative
+         state, local and national ventures.
+    •    Internet Protocol or IP driven networks and services;
+    •    wired and wireless networks seamlessly integrated;
+    •    roaming capabilities seamlessly provided;
+    •    a network supporting LAN speeds and LAN quality throughput for WAN connectivity;
+    •    increases in carrier-based connectivity, management and services;
+    •    adequate security for wired and wireless LANs/WANs whether components are carrier-
+         provided or Commonwealth-provided;
+    •    quality of service provided using a variety of tools to meet integrated voice, video and data
+         needs transparently;
+    •    24x7 availability with continuous connectivity for all;
+    •    ever increasing service reliability, quality, and throughput performance;
+    •    remote provision of quality troubleshooting and service problem resolution, and
+    •    network services that allow and promote connectivity between local government and
+         state government resources.
+
+New and modified requirements and recommendations for Networking and Telecommunications
+are noted in this document by a line in the left margin or the word “Updated” in requirement tables.
+The requirements as revised following approval by the Information Technology Investment Board
+will be revised both in this document and in the Enterprise Technical Architecture Standard, ITRM
+Standard EA225-02.
+
+                                                Page 6 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                        Version 2.1 04-28-2023
+
+Overview
+
+The Commonwealth’s Enterprise Architecture is a strategic asset used to manage and align the
+Commonwealth’s business processes and Information Technology (IT) infrastructure/solutions
+with the State’s overall strategy.
+
+The Enterprise Architecture is also a comprehensive framework and repository which defines:
+   • the models that specify the current (as-is) and target (to-be) architecture environments,
+   • the information necessary to perform the Commonwealth’s mission,
+   • the technologies necessary to perform that mission, and
+   • the processes necessary for implementing new technologies in response to the
+       Commonwealth’s changing business needs.
+
+The Enterprise Architecture contains four components as shown in the model in Figure 1.
+
+                                         Figure 1
+                    Commonwealth of Virginia Enterprise Architecture Model
+
+The Business Architecture drives the Information Architecture which prescribes the Solutions
+Architecture that is supported by the Technical (technology) Architecture .
+
+1
+  This report provides hyperlinks to the domain report Glossary in the electronic version. In the electronic and printed
+versions, the hyperlinks will have the appearance established by the preferences set in the viewing/printing software (e.g.,
+Word) and permitted by the printer. For example, the hyperlinks may be blue and underlined in the screen version and gray
+and underlined in the printed version.
+2The Glossary entry for agency is critical to understanding ETA requirements and standards identified in this report. This
+
+glossary entry is repeated here. State agency or agency - Any agency, institution, board, bureau, commission, council, or
+instrumentality of state government in the executive branch listed in the appropriation act. ETA requirements/standards
+identified in this report are applicable to all agencies
+
+                                                           Page 7 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                    Version 2.1 04-28-2023
+
+This report was developed by the Networking and Telecommunications Domain team, which was
+commissioned to identify domain related requirements and recommendations. Identified
+requirements and technology product standards from this domain team are combined with
+requirements and technology product standards from other technical domain reports into a single
+ETA Standard for review and acceptance by the Information Technology Investment Board (ITIB).
+
+Concerning local governments, courts, legislative agencies, and other public bodies, while they are
+not required to comply with a requirement unless the requirement is a prerequisite for using a VITA
+service or for participating in other state-provided connectivity and service programs, their
+consideration of relevant requirements is highly recommended. This architecture was designed
+with participation of local government and other public body representatives with the intent of
+encouraging its use in state and local interconnectivity efforts.
+
+including the administrative functions (does not include instructional or research functions) of institutions of higher
+education, unless exempted by language contained in a specific requirement/standard.
+
+                                                        Page 8 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+Networking and Telecommunications Domain Scope
+
+The mission of the domain team was to define a networking and telecommunications model as a
+foundation for meeting the present and future business communications needs of the Commonwealth.
+The Networking and Telecommunications Domain Report provides guidance and requirements regarding
+connectivity and communications components (e.g., services and protocols used). This guidance
+supplements and repeats the Networking and Telecommunications standards that are reported in the
+Enterprise Technical Architecture Standard, which is published separately and includes all technical
+domains.
+
+The audiences for this domain report are the business and technical leaders in individual state and local
+agencies (universities, colleges, local governments, and agencies from all branches of government) and
+those involved in centralization and consolidation activities. This information will assist those who make
+technical decisions related to the communications and connectivity in being responsive to changing
+business needs and services.
+
+The domain report represents the work and decisions of the 2006-2008 Network Domain Team, which
+was comprised of knowledgeable state, local, higher education, and contract personnel. The domain
+team identified two topics:
+    •   Facilities Telecommunications Infrastructure (i.e., cable plant)
+    •   Telecommunications
+            o   Local Area Networking (LANs)
+            o   Wide Area Networking (WANs)
+            o   Wireless Considerations
+            o   Other Telecommunications Services (e.g., phone, data, multimedia)
+In general, the document provides assistance to agencies in the following ways:
+    •   Recommendations for actions that will improve future connectivity and services
+    •   Descriptions of the current state of networking and telecommunications
+    •   Overviews of the technical topics and technical trends
+    •   A glossary of technical terms
+    •   Web links for more information
+
+Methodology
+
+The first domain team began its work by defining the networking and telecommunications portion of the
+ETA and by delineating the team’s goals, objectives, and scope of work. Successive domain teams have
+considered the continuing relevance of the earlier efforts and have provided revisions to the scope when
+needed along with recommendations for updates and improvements.
+Networking and Telecommunications Domain Definition
+The networking and telecommunications domain provides a communications infrastructure model for the
+Commonwealth. It defines the various technologies and services required to provide the networking and
+telecommunications needed for addressing the business of state and local governments, their citizen
+customers, and their business sector constituents.
+
+                                               Page 9 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                      Version 2.1 04-28-2023
+
+Objectives
+The networking and telecommunications domain addresses communications related requirements
+implied by the Commonwealth’s business strategies and methods. The domain team addressed the
+following objectives in its initial work and continues to do so during its reviews. The objectives are to:
+    •   promote simplicity across network solutions;
+    •   promote interoperability (e.g., sharing information) among networks and networked services;
+    •   provide a long-term vision with opportunities for short-term payoffs;
+    •   enable the “leveraging of network infrastructure investments” by business users rather than just
+        the “saving of money;”
+    •   expand citizen/customer services by improving networking and telecommunications
+        infrastructure and service functionality in the Commonwealth;
+    •   improve decision making (through improved information flows) for all Commonwealth network
+        users;
+    •   help with technical decision making at the agency and Commonwealth levels;
+    •   encourage acquisition patterns within and across agencies that will result in economies of scale;
+    •   influence standards selection and development in areas such as wide area networking, wireless,
+        and mobile connectivity where ever standards are still evolving; and
+    •   enable the convergence of voice, video, multimedia and data services in the Commonwealth over
+        one, end-to-end network.
+
+                                                Page 10 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+As-IS and To-Be Architecture for Networking and Telecommunications
+Infrastructure and Services
+
+As-Is Architecture
+
+The data available for describing current and past networking and telecommunications in the
+Commonwealth are primarily from 2005 and 2008. The 2005 information was compiled for a due
+diligence effort in preparation for negotiating partnerships with several companies interested in helping
+the Commonwealth modernize its infrastructure. The data displayed here provide a picture of networking
+and telecommunications in the Commonwealth at the start of the partnership with a private company for
+the provision of many of the networking and telecommunications services covered by this domain report.
+Current data are from VITA and partnership sources.
+
+Agencies as a whole have employees in every county and city in the Commonwealth. Most towns also
+have some state services. Nearly all of the state employees, who are spread across the Commonwealth,
+use local area and wide area networking services in addition to local and long distance telephone
+services. Local governments and schools also use the state-coordinated networking and
+telecommunications services.
+
+It should be recognized that the local government business model is somewhat complex, thus requiring
+network solutions to be creative and flexible. State programs are often administered at the local level.
+They may be housed in local government facilities and permitted to use local government IT resources.
+Several different business models are present in local governments which require careful thought and
+consideration when designing state/local government technology solutions.
+
+    •   There are local government departments and local school divisions that need access to state
+        government data to perform their jobs effectively. These include local police who need access
+        to VCIN, Treasurer’s Office personnel who need access to DMV, and school divisions that need
+        connectivity to DOE for student reporting.
+    •   There are state offices/agencies which are out of scope to VITA services but located in local
+        government buildings or campuses. These state offices access state applications and often ask
+        for help and support from the local government IT department. The court system is an example
+        of this business model.
+    •   There are state mandated and state funded programs that are operated by local government
+        and some state employees and may be housed in local government facilities. The state will
+        often have central IT systems to support these programs and both state and local program staff
+        will need access to state systems and the state network. The local agency will also have local
+        (non-state supported) applications to support their operations. The local Departments of Health
+        and Social Services are examples of these types of agencies.
+    •   There are state mandated programs operated with a mix of state and local funds and operated
+        by local employees. These include local and regional programs outside of the central
+        agency IT office’s scope. An example of this is the Virginia Department of Health’s
+        implementation of health planning using local government GIS systems and data. Payroll, check
+        printing and other services are performed at the local IT department. Email is provided by local IT
+        staffs.
+    •   There are multiple state and local agencies working together on a common program. An
+        example is the Hampton Healthy Families Partnership program which focuses state and local
+        resources on improving the health of children from conception to entry into the public schools.
+        State and local health programs, local libraries, physicians, hospitals, schools and others work
+        together to support families.
+
+                                              Page 11 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+Present facilities and services include the following:
+    •   Cabling plants (these are often provided by the agencies, local governments, and the building
+        owners)
+    •   LANs within each state agency, within most local offices of state agencies, and within local
+        governments including LAN-based services (e.g., print services) and connectivity (e.g., email)
+    •   Wireless access within offices and across campuses
+    •   Teleworker-provided wired and wireless LAN and Internet connectivity to state VPN to LAN
+        services, Web-based email, application connections and more
+
+    •   Wide area connectivity including regional area networking (RANs), WANs, WAN building to
+        building connections, campus WANs, MANs, and LAN to LAN connections
+
+    •   LAN and WAN connectivity between local government and state central data centers and local
+        program offices.
+
+    •   Telephone services provided to local agency offices by local governments
+    •   LAN and WAN-based services including data transfer, connecting distributed applications,
+        connecting business partners, and providing multimedia services including Internet connectivity,
+        voice over IP (VoIP), audio and video conferencing, and more.
+Available statistics from the 2005 due diligence effort may be used to describe the scope of government
+networking and telecommunications. The 2008 estimates column provides the 2005 data as the best
+estimate when there is no available information on changes. New inventory information from VITA’s
+partner regarding service changes and infrastructure transformations that have taken place through the
+end of 2008 will be available soon. Changed data and confirmed but unchanged data are presented in
+bold in the 2008 column. This information is provided separately for state agencies that participate in the
+partnership and higher education agencies unless otherwise noted. Commonwealth networking supports
+the following persons, agencies, and infrastructure:
+
+                                               Page 12 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                     Version 2.1 04-28-2023
+
+As Is Networking and Telecommunications Data
+ Units                 Unit Detail                   2005 Estimates           2008                   Expected
+ Counted                                                                      Estimates*             Change
+                                                     60
+                       Total non-higher                                                              Changed by
+                       education Executive           (agencies such as all                           GA/Governor
+                       Branch agencies. Note         prisons are counted as                          proposed
+                       that institutions such as     1 with DOC;                                     reorganizations or
+                       prisons are counted as        DMHMRSAS                                        voluntary agency
+                       part of their central         facilities are counted                          participation
+ State Agencies        control agency.               as 1with DMHMRSS)        67**                   decisions only
+                                                     1,627 presence           1,627 presence
+ State Agency
+ Locations             Total locations               1,562 locations          1,562 locations        Some reductions
+ State Agency                                                                                        Agency business
+ Applications          Total applications            1,645                    1,645                  determined
+                                                                                                     Increase up to 100%
+                       Number of agencies using                                                      of participating
+ State Agencies        some VoIP services            13                       37                     agencies
+                       Number of agencies using
+                       separate agency-based                                                         Decrease to 0% of
+ State Agencies        VoIP                          13                       13                     VoIP agencies
+                                                     59,0001                  59,000
+                       VITA Executive branch
+ State Agency          customers (non-higher         based on FTE salary      based on FTE           Agency business
+ Employees             education agencies)           and wage                 salary and wage        determined
+
+                                                                              10,602 (not HE)        Agency business
+ State Agency                                                                                        determined, but
+ Employees             Cell users                    13,000                     1,956 (HE)           increases expected
+ State Agency                                                                                        100% of participating
+ Employees             Central VoIP users            1,600                    1,600                  office phone users
+                                                                                                     Expect 100% to
+                                                                                                     move to central
+ State Agency                                                                                        services at equipment
+ Employees             Premises VoIP users           4,500                    4,500                  end-of-life
+ Network Devices                                                                                     Eventually, reduce to
+ and Infrastructure    Wired PCs                     50,000                   50,000                 5%
+ Network Devices       Wireless/Docked                                                               Eventually increase
+ and Infrastructure    PCs/Laptops                   300                      300                    to 95%
+ Network Devices
+ and Infrastructure    Connected servers             3,000                    3,000                  Decrease to 33%
+                       Wired analog and digital
+ Network Devices       phone lines (mainly
+ and Infrastructure    Centrex)                      90,000                   90,000                 Decrease to 10%
+ Network Devices       Wireless multiservice                                                         Increase to 90% of
+ and Infrastructure    phones                        0                        1,040                  wireless phone users
+                                                                                                     Decrease due to
+ Network Devices                                                                                     network
+ and Infrastructure    Switch devices                6,000                    6,000                  centralization
+ Network Devices       Wired hubs                    1,500                    1,500                  Decrease due to
+
+3 Estimates using DHRM FTE data include classified FTE of agencies served plus 4/3 of wage FTEs for a total of 58,521 for 2003
+
+and 58,803 for 2008. Not all staff have computers or services.
+
+                                                          Page 13 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                     Version 2.1 04-28-2023
+
+ Units                 Unit Detail                  2005 Estimates            2008                   Expected
+ Counted                                                                      Estimates*             Change
+ and Infrastructure                                                                                  future wireless
+                                                                                                     Combined decrease
+ Network Devices                                                                                     due to network
+ and Infrastructure    Routers/MPLS devices         2,500                     2,500                  centralization
+                       Token ring network
+ Network Devices       devices (e.g., MAUs,                                                          Decrease to 0% due
+ and Infrastructure    switches)                    430                       430                    to policy
+                       VoIP network devices
+ Network Devices       (e.g., media servers and
+ and Infrastructure    call managers)               65                        65                     Increase
+                                                                                                     Increase followed by
+ Network Devices       Wireless network access                                                       decrease due to
+ and Infrastructure    points (802.11 a,b,g)        Unknown                   Unknown                technology change
+                                                                                                     Future increase due
+                                                                                                     to technology
+ Network Devices       Wireless access points                                                        change/standards
+ and Infrastructure    (802.11n)                    0                         0                      approval
+                       Other wireless network                                                        Increase due to
+ Network Devices       devices (e.g., scanners,                                                      technology
+ and Infrastructure    PAN devices,                 Unknown                   Unknown                improvements
+ Network Devices                                                                                     Large decrease
+ and Infrastructure    Printers, shared             12,000                    12,000                 (>50%) due to policy
+ Network Devices                                                                                     Decrease to 5% due
+ and Infrastructure    Printers, personal           17,000                    17,000                 to policy
+ Network Devices                                                                                     Decrease due to
+ and Infrastructure    Infrared Point to Point      Unknown                   Unknown                technology changes
+ Other Devices         Unconnected field laptops    Unknown                   Unknown                Decrease to 0
+                                                                                                     Decrease if cost
+                                                                                                     effective due to
+                       WAN physical circuits                                                         technology changes
+                       (ATM, Frame Relay,                                                            including wireless
+ Network Services      FRASI, T1, etc.)             4,700                     4,700                  options
+                                                                                                     Reduce to 2 for
+ Network Services      Internet connections         85                        85                     unified network
+                                                                                                     Minimize the number
+                                                                                                     of directories such as
+                       Separate Microsoft                                                            Active Directories
+ Network Services      directories                  Unknown                   Unknown                due to centralization
+                                                                                                     Increase if cost
+                                                    Pilot agencies                                   effective and
+                       MPLS wrapped                 including numerous        405 of agency          improves business
+ Network Services      connections                  central Richmond sites    sites                  services
+  * Additional 2008 data are expected later during the 2008-2009 Fiscal Year. Complete LAN migration is scheduled for January
+2009.
+** See bold numbers in the 2008 column for change or confirmation of numbers using new data
+
+                                                         Page 14 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+Commonwealth Networking and Telecommunications in 2005 and 2008
+In 2005, although the Commonwealth’s LANs were primarily switched Ethernet LANs, there were also
+users, devices, and network segments that were not switched or not Ethernet. Two large agencies
+operated significant token ring environments. These two agencies had been slowly moving towards
+Ethernet solutions. One was then about 30 percent Ethernet. The other agency ran parallel Ethernet and
+token ring networks and intended to continue doing so until it was able to replace network printers and
+modify mission-critical applications, which relied on token ring connectivity for redundancy and
+mainframe access solutions. Both agencies had network operations throughout the Commonwealth.
+Also, in 2005, the majority of cabling in agency sites, whether used for token ring or Ethernet services,
+was Category 5 twisted pair. Although some agencies had Category 5e or Category 6 capable cabling,
+these were the exception. Plant upgrades in agencies are the responsibility of the agency and are typically
+the result of a facility move or a new application such as VoIP. Category 6 cabling and fiber would have
+been in use for many agency backbones.
+A small agency in 2005 might have had a simple LAN for sharing printers, Internet, and email. Often the
+services were provided by another, larger agency. A complex agency would have had LANs, MANs and
+WANs, wired and wireless connectivity, multiple public and private services throughout the state, agency-
+owned IP address blocks or RFC (Request for Comment) 1918 addressing with NAT translation, traffic
+segregation to address quality of service (QoS) for video and voice, and complex, multifunction switches
+and routers.
+Remote connectivity in 2005 was provided via public telephone dial-up, agency owned wired and wireless
+connections, and leased infrastructure with or without services. Services purchased or provided by the
+agency included Internet, Intranet, Extranet, VPN access to LANs/WANs, email, wireless email, VoIP, thin
+client access to hosted applications, and remote server access.
+Most non-higher education agencies had some Wi-Fi (IEEE 802.11) and/or Bluetooth (IEEE 802.15)
+wireless connectivity for conference rooms, laptops, BlackBerry devices, or PDAs. Some also had infrared
+building to building connections. Cell services and other wireless networking connectivity (e.g., police
+communications, 2-way radios) were also used extensively in certain agencies.
+Since 2005, those agencies that have been involved in network transformation activities have seen
+changes to their infrastructure. In 2008, the following changes have been documented:
+             •   Network services offered to some agencies now include MPLS WAN connectivity to the
+                 data center and certain other resources.
+             •   Twenty percent of agency networks have been connected to the MPLS services
+             •   Plans are being developed to assign new IP addresses to all server resources in the data
+                 center and at agencies.
+             •   Agency network transformations are ongoing and include equipment upgrades when
+                 needed.
+
+    Higher Education in 2005 and 2008
+For higher education, little Virginia data is available centrally to describe the networking and
+telecommunications physical architectures and services that were in place in 2005 or that are in place
+currently. National data from EDUCAUSE and similar sources provide the best picture of higher education
+trends in networking. The 2005-2006 EDUCAUSE survey results are available, but 2006-2007 have not yet
+been published. Like all colleges and universities in the nation, Virginia’s higher education institutions
+have massive, campus-wide and inter-campus infrastructures providing connectivity, distance learning,
+voice, streaming video, data, and high-end research capabilities whenever programs demand. Virginia’s
+public institutions support more than 300,000 students, 60,000 faculty and staff, and often, multiple
+
+                                              Page 15 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                   Version 2.1 04-28-2023
+
+campuses for each of the 39 institutions. Most colleges have gained central control over all LANs and are
+making progress towards or have achieved centralization of student, faculty and staff directory services
+enabling central authentication and authorization. Now they are moving to expand wireless network
+access across interior and exterior campus spaces and are deploying numerous campus-wide services
+including VoIP, IPTV, electronic libraries, and more. The following describe current higher education
+networking and telecommunications services.
+    •    Ethernet and a variety of non-Ethernet WAN services are used (e.g., layer 3 MPLS)
+    •    Substantial bandwidth is provided to on-campus faculty, staff and student users
+    •    Bandwidth is shaped to meet traffic type needs
+    •    Efforts provide continuing growth in wireless connectivity throughout campuses
+    •    There is continued growth in the use of VPNs for faculty remote access
+    •    Increasing Internet access is provided via central authentication and authorization to numerous
+         library and similar resources for students and faculty
+    •    Pervasive videoconferencing is possible using desktop solutions for those needing
+         videoconferencing due to good bandwidth availability. Slow growth of high-end (high cost)
+         videoconferencing solutions continues.
+    •    VoIP/IPTV/Video-over-IP continue to grow replacing other voice and video services
+    •    Increasing centralization of directories permits central control of networks and resources on
+         them
+
+National higher education groups such as EDUCAUSE are proposing greater cooperation across
+the nation’s colleges and communities espousing efforts such as “Big Broadband ,” which
+recommends the joint sponsorship of broadband resources nationwide by governments and the
+private sector enabling 100Mbps to 1Gbps for every home and business.
+
+Networking and Telecommunications for VITA-served State Agencies in 2008
+VITA reports the following results of network build-out and transformation efforts in the Commonwealth
+as of early 2008.
+    • Establishment of the MPLS core network in Richmond
+    • Networked data centers opened in 2007 and connected to MPLS services
+    • Servers physically migrated to the Commonwealth Enterprise Solution Center (CESC) data center
+    • Network migration including connection to MPLS services was completed for 405 agency sites of
+        1,942 targeted networks (20%). The target for January 2009 is 90%. This migration included:
+             o Network equipment due diligence and upgrades enable MPLS/network management
+             o Messaging rollover to a central system
+             o Applications with hard-coded IP addresses verified
+    • IP re-addressing of servers
+             o Planning initiated
+             o Implementation targeted for 2008
+
+4 A Blueprint for Big Broadband; An EDUCAUSE White Paper; John Windhausen Jr. President, Telepoly Consulting; January 2008;
+
+http://www.educause.edu/ir/library/pdf/EPO0801.pdf
+5 Network Work Plan Overview: Sherilyn Whiting, Booz Allen Hamilton, May 19, 2006
+
+https://vitaweb.virginia.gov/C17/COIN/Document%20Library/Forms/WebFldr.asp
+
+                                                       Page 16 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                  Version 2.1 04-28-2023
+
+     •    Altiris Asset Control is to be the system of record (integrated with service delivery via Peregrine)
+               o Network-connected assets being tracked include
+                       ▪ Desktops
+                       ▪ Laptops
+                       ▪ Servers
+                       ▪ Printers
+                       ▪ BlackBerry devices/PDAs
+                       ▪ Networking devices
+               o Non-network connected devices are also tracked
+
+To-be Architecture
+The future architecture envisions the unification of all networking, network management, and network
+services. Future networks will be highly integrated, providing valuable end-to-end services that coexist in a
+common infrastructure. Conceptually, the future network for participating agencies will be one network.
+Premises lines will blur as carrier-provided services move into LAN and MAN spaces. Wired and wireless
+services will merge as well, with a common management and security framework. Mobility will be fully
+accommodated.
+
+These goals are now supported in both the Commonwealth’s Strategic Plan for Information Technology,
+by the Chief Information Officer’s (CIO’s) objectives and by VITA’s partnership plans. Strategic initiatives
+emphasize productivity improvements from mobilizing the workforce and access to government through
+networking and telecommunications technologies. Partnership efforts emphasize milestones for the
+transformation of networking and telecommunications infrastructure and services not only for state
+agencies but also for local government and education. Also, partnership efforts envision integrated voice
+and data networks and centralized management
+
+As technical architecture requirements are implemented across the converging networks, agencies and
+central services will move towards:
+
+      •    one common network designed and managed across participating agencies;
+      •    an IP supporting network;
+      •    wired and wireless networks seamlessly integrated;
+      •    roaming capabilities (mobile services ) seamlessly provided on multifunction devices;
+      •    a network supporting LAN speeds and throughput for WAN connectivity;
+      •    increases in carrier-based connectivity, management and services;
+      •    security for wired and wireless LANs/WANs with carrier-provided and Commonwealth provided
+           components;
+      •    quality of service provided using a variety of tools to meet integrated voice, video and data needs
+           transparently;
+      •    24x7 availability as standard;
+      •    ever increasing service reliability, quality, and throughput performance;
+      •    remote provision of quality troubleshooting and service problem resolution; and
+      •    extranet or single pipeline connectivity to local government network resources.
+
+A roadmap of past and anticipated future progress in Commonwealth networking is provided in Table 1
+below. Additional information on networking trends is provided in Appendix A. VITA/Partnership plans for
+network migration/centralization are provided in Appendix B. Detailed information on network protocol
+“generations” is provided in Appendix C. Appendix D provides Internet links to network topic resources
+6 Strategic Plan Goals:http://www.vita.virginia.gov/uploadedFiles/Library/COVStrategicPlanInformationTechnology07.pdf
+Partner Goals http://www.vita.virginia.gov/itpartnership/default.aspx?id=231#Network
+CIO Objectives http://www.vita.virginia.gov/uploadedFiles/ITIB/Meetings/2008/F-
+2007CIOObjectivesIndependentInputandDependencies.pdf
+
+                                                      Page 17 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                      Version 2.1 04-28-2023
+
+Table 1: Anticipated LAN-WAN Solutions over Time
+ 1980-2000          2001-2005           2006-2010                                 2011-2015
+ 10 Mb              100 Mb              GB+ Ethernet/ Cat 5e, 6, fiber            xGB Ethernet/ Cat 6a; fiber
+ Ethernet/ Cat      Ethernet/ Cat
+ 5                  5e, fiber           10GB Ethernet                             Buildings built and leased with
+                                                                                  comprehensive wired and wireless
+ Bridges,           Hubs, Switches      Switches and multi-function               infrastructure
+ Routers, and       and Routers         Routers; multiband access points;
+ Gateways                                                                         Movement to wireless everything
+                    Frame Relay,        Carrier MPLS (Frame Relay and
+ Token              T1, ATM             ATM, VPN)                                 Pervasive mobile networking;
+ ring/Cat 5                                                                       synching replaced by secure access
+                    Analog and          Digital to analog voice; all-in-one       everywhere to everything.
+ Appletalk/Cat      digital voice;      wireless multitasking devices with
+ 5                  cellular            voice, internet, email, camera,           Telco providers move to global
+                                        video, music, podcast and storage.        standards
+ Hubs/MAUs          VPN                 (smartphones; VoFi)
+                                                                                  Wireless recharging of wireless
+ Frame Relay,       Limited             Site-based and Carrier VoIP               devices is pervasive
+ T1                 wireless            within agencies; wired and wireless
+                    (typically          VoIP; cellular expansion with all         Digital voice; wireless phone
+ analog voice       802.11b/g)          services                                  roaming across
+                                                                                  cellular/VoIP/Other; multitasking
+                    IP based            Pervasive self-healing, dense             devices only.
+                                        deployed wireless; mixed
+                    Site-based          802.11a/b/g/n designs (with n             Carrier Ethernet Line/LAN
+                    VoIP                approval expected in 2008 and             (Ethernet private line, Ethernet
+                                        rapid deployment to follow);              virtual private line)
+                                        integration of wired and wireless         Carrier VoIP wireless pervasive;
+                                        management; some wireless only            Cellular and wireless pervasive;
+                                        networks; no more site surveys.           Fully integrated wireless and
+                                        3GPP LTE and WiMAX (but                   wired pervasive
+                                        WiMAX will decline)                       Mature, 4th generation mobility
+                                        Wireless bridges ( point to point)        solutions; multi carrier mobility
+                                        replacing line of sight, short            IPv6 will begin to emerge in state
+                                        distance outdoor connections              government agencies as a planned
+                                        Ratification of standards- based          future migration
+                                        management (e.g., LWAPP); edge
+                                        intelligence
+                                        Wide area storage area networks
+                                        or SANs
+                                        Increased satellite use in rural
+                                        solutions
+                                        Agency Caution: building leases           Agency Caution: must know
+                                        should include network and wiring         bandwidth needs to the application
+                                        closet service quality guarantees         level or risk overbuying highly
+                                        for wireless and wired LAN                scaled bandwidth services; must
+                                        provision. Agency leases should           know business security needs or
+                                        include requirements for access to        risk overbuying. Must know
+                                        documentation and testing results         security risks of wireless for your
+                                        for all cable plants. Agencies            business.
+                                        should be held harmless for
+                                        expenses required for removing old
+                                        cable to upgrade cabled services or
+                                        electrical services. NEC requires
+                                        removal of abandoned cable which
+                                        also may have disposal costs due to
+                                        lead.
+
+7 A variety of sources including Gartner Hype Cycles are used to prepare this table of anticipated government strategies. Examples
+
+include Gartner’s Hype Cycle for Networking and Communications, 2007 and numerous articles from websites whose links are
+displayed in this publication following the Glossary.
+
+                                                         Page 18 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+Domain-Wide Principles, Recommended Practices and Requirements
+Domain-specific principles, recommended practices and requirements are presented for the networking
+and telecommunications domain as a whole in this section. This section is then followed by a discussion
+of two technical topics along with recommended practices and requirements specific to each topic. The
+technical topics are facilities telecommunications infrastructure and telecommunications.
+
+Principles are guiding beliefs. They are intended as guidance for the domain teams. They are less specific
+than recommended practices, which are intended to guide agency decisions. Requirements are those
+controls that will help the Commonwealth move towards it future vision for networking and
+telecommunications.
+
+Domain-wide Principles
+In addition to the principles identified in the “Commonwealth of Virginia Enterprise Architecture –
+Conceptual Architecture”, the Networking and Telecommunications Domain team identified the following
+seven domain-specific principles:
+
+    NET-P-01:         The networking and telecommunications ETA should be based on a set of industry
+                      standards.
+
+    NET-P-02:         Standardization on layered protocols provides user transparency.
+
+    NET-P-03:         The networking and telecommunications standards should support the use of
+                      networks for integrated voice, video, multimedia and data transmission.
+
+    NET-P-04:         The Commonwealth must actively work to enable the convergence of voice with
+                      data traffic over LANs and WANs. This convergence will require a quality of service
+                      level for voice that approaches what is provided by the existing Public Switched
+                      Telephone Network
+
+    NET-P-05:         The Commonwealth should seek to meet service quality guarantees within its
+                      networking and telecommunications Enterprise Technical Architectures.
+
+    NET-P-06:         The key to ensuring affordable interoperability is the promulgation of standards,
+                      and the adoption of these standards.
+
+    NET-P-07:         Telecommunications infrastructure planning is an integral part of facilities
+                      planning, leasing, maintenance, construction, and renovation.
+
+Domain-wide Recommended Practices
+
+The following are two Domain-wide Recommended Practices for the Network and Telecommunications
+Domain:
+
+    NET-RP-01:        State and local agencies should ensure that network planning is well integrated
+                      with applications design/acquisition and roll out. Agencies should have regularly
+                      scheduled meetings to review and document changes in each application’s
+                      bandwidth requirements, real-time data flow needs, and expected system capacity
+                      changes over time.
+
+    NET-RP-02:        State and local agency business leaders should review anticipated business
+                      changes with networking and telecommunications staff or service providers to
+                      ensure that networking implications are addressed in a timely manner. Changes in
+
+                                              Page 19 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+                      business volume, staffing levels, applications, or facilities (e.g., relocation,
+                      construction, or renovations) may affect networking and telecommunications
+                      services. Eighteen months lead time is often needed to ensure services availability
+                      for complex projects
+
+Domain-Wide Recommended Practices
+
+The following are the three domain-wide requirements identified for the Network and
+Telecommunications Domain:
+
+        NET-R-01        Agencies planning facilities changes must provide timely notification to appropriate
+                        networking and telecommunications authorities to ensure the availability of
+                        business critical telecommunications and networking services. Networking and
+                        telecommunications infrastructure requirement changes are an integral part of
+                        agency office change plans, whether the changes involve moving, expansion,
+                        construction, renovation, or lease changes Agencies served by VITA that are
+                        planning changes must involve VITA in the early planning to determine the lead
+                        time required. When state-owned or state-leased buildings are involved, agencies
+                        must notify the Department of General Services, Division of Engineering and
+                        Buildings. When local government-owned buildings are involved, agencies must
+                        notify the local government entity responsible for networking and
+                        telecommunications.
+
+Rationale:
+Notifications to involved government authorities helps to avoid delays and inflated expenses. Agencies
+need to provide a six month advanced notice for minor changes and an eighteen month notice for major
+changes to ensure that delays will be avoided
+
+        NET-R-02:       Agencies, except for institutions of higher education, which Require network
+                        interconnections between two or more buildings, shall work with VITA to
+                        determine a solution. The Department of General Services, Division of
+                        Engineering and Buildings shall be a participant in the discussion whenever
+                        Commonwealth owned or leased buildings are involved. The local government
+                        shall be a participant in discussions whenever local government owned or leased
+                        buildings are involved.
+
+        NET-R-03:       Agencies are required to report state to local connectivity information and
+                        connection usage data when requested by the Commonwealth’s Chief
+                        Information Officer (CIO). Such reporting requirements must have pre-defined,
+                        decision-based uses.
+
+Rationale:
+The future network vision for the Commonwealth includes reductions in state required connectivity costs
+for local governments, local government agencies, local branches of state courts, and branch offices for
+state agencies. The enterprise network redesign shall include considerations of a simplified design for
+required local connectivity, which is often referenced as a “single pipeline” between state and local
+government. To consider possible single pipeline solutions for the Commonwealth, requirements must be
+assessed.
+
+                                              Page 20 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                      Version 2.1 04-28-2023
+
+Networking and Telecommunications Domain Technical Topics
+There are two topics within the networking and telecommunications domain: facilities
+telecommunications infrastructure and telecommunications services. Facilities telecommunications
+infrastructure addresses the cabling, pathways and documentation that are tied to a physical location
+(e.g., building, office space, outdoor space, or campus of buildings). Facilities telecommunications
+infrastructure is currently limited to cabling plants and their documentation. In the future, wireless
+infrastructure may become a common part of the infrastructure which is typically provided as part of a
+facility lease and will remain with the facility at the termination of the lease. Within both networking and
+telecommunications, wireless issues are addressed. Telecommunications addresses all other
+infrastructure and services, whether provided by the Commonwealth or by external service providers.
+Included in services are Local Area Networking (LAN), Wide Area Networking (WAN), and other
+telecommunications services (e.g., phone, data, multimedia).
+In the past, a local area network or LAN has generally been a private network under the control of the
+owner and used by a set of related individuals and/or workgroups, typically within a single building or over
+a group of neighboring buildings. As networks become more integrated, public support of LANs will
+increase.
+A wide area network or WAN is a geographically dispersed telecommunications network. The network
+may be physical or virtual. It may use public and private infrastructure. The public telephone systems and
+wireless systems may be incorporated.
+Telecommunications are services and applications that run on local and wide area networks.
+Telecommunications services connect people, servers, work groups, meeting participants, applications
+tiers, businesses, security services, and more.
+
+Facilities Telecommunications Infrastructure
+
+This topic addresses requirements for infrastructure that is typically used by an agency but not owned by
+the agency. When an agency is occupying a facility, it will have use of the building cabling, electrical
+systems, and access closets that together constitute much of the physical portion of the agency’s
+premises networking and telecommunications solution. When teleworkers are involved, home networking
+and telecommunications may become part of the worker’s business infrastructure. Other possibilities for
+the teleworker and mobile worker include public hoteling facilities, public hotspots and mobile services.
+The physical cabling component of telecommunications infrastructure in the Commonwealth is typically
+under the control of individual agencies. The Department of General Services (DGS) is responsible for
+managing and leasing many of the agency-occupied buildings and works with agencies to ensure their
+networking needs are met. DGS provides management of most state-owned facilities. The Department
+also oversees leasing of non-state-owned space.
+For institutions of higher education, telecommunications infrastructure typically spans business,
+academic, residential, public safety, food service, public access, and recreational spaces, often across
+numerous buildings and multiple campuses. Specialized nationwide infrastructure for research initiatives
+is also common. Infrastructure for non-higher education agencies may also span multiple buildings and
+include connectivity to multiple locations within and across numerous localities. Spaces served by higher
+education and other agencies may extend beyond the walls of buildings into outdoor gathering areas,
+most typically through wireless connectivity
+The Commonwealth, to maximize its ability to provide low cost, high quality telecommunications services
+statewide to its agencies, localities, and higher education institutions must ensure that the
+telecommunications infrastructure is standards-based and capable of delivering certain throughput,
+speed, reliability, security, and availability. The Commonwealth’s future network is a statewide mesh of
+local and wide area networking. For this mesh to work as a unit, agencies must tighten their controls over
+
+                                                Page 21 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                     Version 2.1 04-28-2023
+
+facility providers and demand modern electrical and networking infrastructures that will support wired
+and wireless communications needs into the future.
+Individual agencies may obtain their LAN/WAN premises infrastructure via lease agreements, building
+plan specifications, or service contracts for premises modifications. These same leases, contracts and
+specifications should include requirements for standards-based cabling (electrical and networking) and
+standards-based documentation. Also, state and local agencies should ensure that leases hold them
+harmless with respect to costs for removal and disposal of old cable and wiring when they require
+improvements to their networks during a lease. In cases where a state agency, local agency, partner
+company or other external business is a guest or subleaser in a state or local government building, the
+charge for the guest’s or subleaser’s building change requirements should include any required cabling
+removal and disposal costs.
+Central availability of documentation of cable plants in a common format across agencies is needed.
+This will enable estimation of the costs and savings for new network services and capabilities. Such
+estimates could be used to support a request to the General Assembly for state facilities upgrades based
+on volume discounts, for example. As the Commonwealth moves towards one network, the central
+storage of and access to such documentation will become increasingly important.
+Electrical and cooling plants in agency buildings must be adequate to support premises networking
+equipment and wireless implementations in addition to meeting office space requirements. Often,
+agencies will find it convenient to address electrical and cooling deficiencies related to networking at the
+same time they are addressing modification or upgrade needs for the cable plant.
+
+Central wiring closets and distributed service areas are important factors for the state or local agency to
+consider in determining the adequacy of space leased or occupied. As applications such as VoIP are
+implemented in the Commonwealth, air-conditioned, well-ventilated and highly accessible wiring closets
+become a necessity. New network services will continue to increase the demands for network
+capabilities. State and local agencies should take care to pass all such facility change costs, including
+wiring closet and air conditioning change costs on to subleaser.
+
+                                               Page 22 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                    Version 2.1 04-28-2023
+
+Reasons to Upgrade a Cable Plant
+
+There are many good reasons to upgrade a cable plant. From and agency perspective, the following may
+support upgrading:
+
+    • Fire hazards
+    • Service outages for phones or networks related to the premises cabling
+    • Inadequate electrical service to offices and equipment closets
+    • Present network cable does not support Voice over IP (VoIP)
+    • Present network cable does not support switched Ethernet
+    • Future plans include multimedia applications such as videoconferencing to the desktop
+    • Gigabit Ethernet is required to meet future converged voice, video and data needs
+The building owner may view cable plants from a building management perspective. The owner may
+envision:
+    • Remote management of systems problems
+    • Computer controlled heating, ventilating and air conditioning (HVAC), elevators, security, lighting
+    • Video security building-wide
+    • State of the art cabling as a selling point to customers
+    • Passing building inspections
+
+Of course, upgrades must be worthwhile for business improvements, monetary return on investments, or
+improved customer satisfaction. When an agency is ready to make a change, experts should be consulted
+for determining a cost-effective design. It may be possible, for example, to share cable over high-density,
+low-speed applications such as those used in a call center or a school setting. Typically, the agency will
+upgrade with the future in mind, and will consider Category 5e, Category 6 and higher cable plant
+implementations.2 The Department of General Services (DGS) can assist agencies with these issues.
+Also, agencies may wish to request upgrades through DGS as a group for funding of building
+improvements by the General Assembly.
+
+8 Categories (Cat) of cabling:
+
+Cat 1:  Currently unrecognized by TIA/EIA. Previously used for POTS telephone communications, ISDN and doorbell wiring.
+Cat 2:  Currently unrecognized by TIA/EIA. Previously was frequently used on 4 Mbps token ring networks.
+Cat 3:  Currently defined in TIA/EIA-568-B, used for data networks using frequencies up to 16 MHz. Historically popular for 10
+         Mbps Ethernet networks.
+Cat 4: Currently unrecognized by TIA/EIA. Provided performance of up to 20 MHz, and was frequently used on 16 Mbps token ring
+         networks.
+Cat 5: Currently unrecognized by TIA/EIA. Provided performance of up to 100 MHz, and was frequently used on 100 Mbps
+         Ethernet networks. May be unsuitable for 1000BASE-T gigabit Ethernet.
+Cat 5e: Currently defined in TIA/EIA-568-B. Provides performance of up to 100 MHz, and is frequently used for both 100 Mbps and
+         gigabit Ethernet networks.
+Cat 6: Currently defined in TIA/EIA-568-B. It provides performance of up to 250 MHz, more than double category 5 and 5e. This is
+         the minimum recommended for horizontal cabling.
+Cat 6a: Future specification for 10 Gbps applications. Ratification expected in 2008.
+Cat 7: An informal name applied to ISO/IEC 11801 Class F cabling. This standard specifies four individually-shielded pairs (STP)
+         inside an overall shield. Class F is being designed for transmission at frequencies up to 600 MHz.
+
+                                                       Page 23 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                       Version 2.1 04-28-2023
+
+Data Center Cabling and Pathways
+In 2006, the Telecommunications Industry Association (TIA) released TIA-942, a
+Telecommunications Infrastructure Standard for Data Centers. This was really the first standard
+that specifically addressed data centers and their in infrastructure. It is mainly a
+telecommunications standard, but a considerable portion of the standard deals with facilities and
+facility requirements for space, power, layout, etc. For this domain, the focus is only on that part
+of the standard that addresses cabling and pathways and for the purposes of classification and
+communication, the part of the standard that deals with data center tiers. Tiers address
+redundancy and quality of services. The structured cabling standards build on existing standards.
+The Commonwealth can use these standards in interpreting contracts with datacenter providers.
+When a tier 1 (lower), tier 2 (middle), or tier 3 (higher) data center is specified in a contract, this
+standard is presumed to be referenced.
+
+The state requirements (NET-R) and recommended practices (NET-RP) that will help agencies to
+meet the network infrastructure demands of the future are provided below.
+
+Recommended Practices
+
+Following are the five recommended practices for the Facilities Telecommunications Infrastructure
+Topic:
+
+NET-RP-03:       When modifying cable plants, agencies should encourage the use of integrated
+                 documentation software and hardware by their staff and contractors. Tool sets
+                 may facilitate infrastructure documentation and lower the cost of cable labeling.
+
+NET-RP-04:       Agencies should assess the adequacy of electrical infrastructure for networking
+                 when considering modifications to their network cabling plants.
+
+NET-RP-05:       When renegotiating space leases or space occupation agreements, agencies
+                 should consider networking needs for the term of the agreement.
+
+NET-RP-06:       (e.g., Telecommunications closets, wiring closets and similar spaces.) Whenever
+                 state and local agencies house networking, telecommunications, and related
+                 equipment within their facilities, the agencies should provide a secure, climate-
+                 controlled telecommunications room for the equipment (e.g., switches, routers,
+                 etc.). Agencies or their contractors are encouraged to use racks or cabinets to
+                 maximize the utility of space available and to ensure adequate space for easy
+                 access to the front and rear of the equipment. Telecommunications rooms and
+                 space considerations are addressed in TIA/EIA-569.
+
+NET-RP-20:       Data center application hosting options provided should support a
+                 range of networking and telecommunications services to meet cost-effectively, the
+                 varying connectivity needs of agencies. Agency needs for connectivity, throughput,
+                 secure transmission and other application networking and telecommunications
+                 infrastructure services vary substantially from application to application
+
+Requirements
+Following are the three requirements for the Facilities Telecommunications Infrastructure Topic:
+
+NET-R-04:        Agencies must ensure the availability of standards-based
+                 structured cabling systems for all agency telecommunications in agency occupied
+                 space. Agencies must ensure the deployment of ANSI/TIA/EIA standards-based
+                 designs, topologies, components, distances, installation methods, cable testing,
+
+                                                Page 24 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                               Version 2.1 04-28-2023
+
+              and cable administration. All related minimum requirements or mandatory criteria
+              that must be met (unless exceptions are noted in this document) are addressed in
+              the following Commonwealth adopted international standards (ANSI/TIA/EIA
+              standards):
+                          • ANSI/TIA/EIA 568-B.1, Commercial Building
+                              Telecommunications Cabling Standard, Part 1: General
+                              Requirements. These standard addresses cabling infrastructure
+                              design, installation and field testing for horizontal cabling,
+                              backbone cabling, and work areas. It also covers requirements
+                              for telecommunications rooms, equipment rooms, and entrance
+                              facilities. This standard recommends the use of ANSI/TIA/EIA
+                              T568A, which specifies the wiring scheme to be used with the
+                              RJ-45 modular plug (8 position jack) and optionally allows use of
+                              T568B. The 568-B.1 standard is typically used in conjunction
+                              with the National Electric Code to provide an appropriate cable
+                              plant.
+
+                             Exceptions
+                             Agencies except for institutions of higher education shall ensure
+                             use of the ANSI/TIA/EIA T568A wiring scheme for RJ-45 modular
+                             plugs in agency occupied space and shall not use T568B.
+                             Agencies are required to use T568A consistently throughout their
+                             cabling plant. T568A provides backwards compatibility with both
+                             one pair and two pair USOC wiring schemes. Institutions of higher
+                             education, which prior to 1991 cabled their entire campus using
+                             the T568B wiring scheme (pin pair assignment), may continue
+                             using T568B without an exception. Other agencies require an
+                             exception for any new installation of cabling using T568B except
+                             when the installation is accommodating the needs of existing
+                             users. Agencies that have mixed T568A and T568B cabling plants
+                             are required to carefully document (see ANSI/TIA/EIA-606-A) the
+                             mixture and have clear rules for adding or partially replacing
+                             cabling in a building. In addition, an agency with a mixed plant
+                             must have a plan for switching to T568A as building cabling is
+                             replaced. When an agency is replacing all horizontal cabling, the
+                             agency is required to implement the T568A standard.
+
+                         •   ANSI/TIA/EIA 568-B.2 Commercial Building Telecommunications
+                             Cabling Standard, Part 2: Balanced Twisted Pair Cabling
+                             Components. Addresses specifications for horizontal 4-pair cables
+                             and backbone multi-pair cables and components. All Category 6,
+                             Category 5e and Category 3 cable specifications and testing are
+                             addressed.
+
+                             Exception
+                             Agencies must ensure a minimum of certified Category 5e cable
+                             when installing new or replacement telecommunications horizontal
+                             cabling in agency occupied space.
+
+                         •   ANSI/TIA/EIA 568-B.3, Commercial Building Telecommunications
+                             Cabling Standard, Part 3: Optical Fiber Cabling Components
+                             Standard. Addresses multi-mode (50/125µm and 62.5/125µm)
+
+                                           Page 25 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+                            and single-mode fiber optic cabling components, transmission
+                            standards, and field testers.
+
+                            Exceptions
+                            Agencies shall use 50/125µm multi-mode fiber optic cable for all
+                            new and replacement backbone building runs. Even though
+                            62.5/125µm multi-mode cabling is permitted in this standard,
+                            agencies shall not install this cable type in agency occupied space.
+                            For the devices connected to the backbone fiber system via
+                            50/125µm multi-mode fiber, agencies shall provide a minimum of 4
+                            fibers (2 pair) run to each device. This will enable the use of
+                            redundant connections for equipment that may be deemed critical
+                            at a later point (e.g., implementation of Voice over Internet Protocol,
+                            VoIP). Consideration should be given to having 2 dark fibers (1 pair)
+                            for every 4 active fibers (2 pair) installed, this will provide adequate
+                            backup for critical equipment if a problem occurs on one of the
+                            active pair.
+
+                        •   ANSI/TIA/EIA 569-B, Commercial Building Standard for
+                            Telecommunications Pathways and Spaces. These Standard
+                            addresses specific pathway and space design and construction
+                            practices in support of telecommunications media and equipment
+                            within buildings.
+
+                            Agencies are also required to implement all specifications in related
+                            addenda to ANSI/TIA/EIA 569-B for agency occupied office space
+                            that has an average office density (one office per 100 square feet).
+                            Pathway and room size requirements must be adjusted for higher
+                            and lower densities of telecommunications outlets or equipment
+                            than are expected in the average situation.
+
+                            Exception
+                            None
+
+                        •   ANSI/TIA/EIA 606-A, Administration Standard for Commercial
+                            Telecommunications Infrastructure. This standard specifies
+                            administration for a generic telecommunication cabling system
+                            that will support a multi-product, multi-vendor environment. It also
+                            provides information that may be used for design of administration
+                            products.
+
+                            Exception
+                            When an agency alters its cabling plant, the agency must
+                            develop/maintain cable plant documentation that meets the
+                            minimum requirements of ANSI/TIA/EIA-606-A Class 3
+                            administration as indicated in Clause 7 of the standard. In addition,
+                            agencies shall provide all cable plant documentation to the
+                            Department of General Services (DGS) central repository for cable
+                            plant documentation (see NET-R-05) using the documentation
+                            format (e.g., data names, data elements, data tables, data types,
+                            and/or spreadsheet column order) as specified by NET-R-05 and
+                            NET-R-06 below.
+
+                                           Page 26 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                      Version 2.1 04-28-2023
+
+                             •   J-STD-607-A, Commercial Building Grounding (Earthing) and
+                                 Bonding Requirements for Telecommunications. The purpose of
+                                 this standard is to enable the planning, design, and installation of a
+                                 telecommunications grounding and bonding system which
+                                 supports a multi-vendor environment and implements various
+                                 system installation practices.
+
+                                 Exception
+                                 None
+
+NET-R-05:       DGS shall provide a central repository for agency cable plant documentation (see
+NET-R-04,       ANSI/TIA/EIA-606-A documentation). The DGS repository must be accessible to
+                the Virginia Information Technologies Agency for planning purposes.
+
+NET-R-06:       The Department of General Services (DGS), Division Engineering and Buildings, in
+                conjunction with the Virginia Information Technologies Agency shall provide a
+                spreadsheet template (flat file) and optional database schema for use by
+                agencies in providing required data to the DGS central repository. (See related
+                requirements in NET-R-04 ANSI/TIA/EIA 606-A and NET-R-05).
+Rationale:
+Common data and formats are needed to ensure cable plant data can be aggregated across agencies
+for analysis.
+
+Telecommunications
+
+The Telecommunications topic includes the hardware, software, services, and documentation
+related to electronic transmissions of data, voice, and multimedia content for the purpose of
+conducting agency business. Components included in this topic are telecommunications
+protocols, wired and wireless services, switches, routers and similar items. Also included are
+applications that provide end to end telecommunications services such as Voice over Internet
+Protocol (VoIP).
+
+In the late 1980’s to middle 1990’s, state agencies were installing their first local-area networks
+(LAN). Prior to this time, personal computers were used as stand-alone machines or were
+connected directly to mainframes and minicomputers for use as terminals. Printers were not
+shared. And, the Internet was a text-based service available to those who acquired their own
+onramp access. Along with LAN connectivity came an explosion of tools, services and shared
+devices, both internally and externally provided, that resulted in the present highly-interconnected,
+always-on, electronic workplace of today. At that time, WANs and LANs were clearly differentiated;
+today, it is no longer possible to draw clean lines between them. Today, LAN and WAN
+telecommunications services may be provided by internal or external means or by a combination.
+
+Voice, data, and multimedia telecommunications services have been under central control in the
+Commonwealth for many years. Today, the network design and management is also under central
+control. In 2003, the General Assembly created VITA and placed much of the responsibility for
+platforms, platform services and networking under VITA. Table 2 provides a guide to the current
+breakout of responsibilities for various activities
+
+                                               Page 27 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                              Version 2.1 04-28-2023
+
+Table 2: Responsibilities for Networking and Telecommunications
+
+ Activity                      VITA as    Higher     Executive     Other       Local
+                               Central    Ed.        Branch, not   State       Govern-
+                               Services   Agencies   Higher Ed.    Agencies    ments
+ Provide building cabling,
+ plant documentation,
+ and electrical connec-
+ tions (i.e., infrastructure
+ that is part of a facility)                 X            X           X             X
+ through lease agree-
+ ments, space occupa-
+ tion agreements or other
+ methods
+ Provide business re-
+ quirements for telecom-                     X            X           X             X
+ munications services
+ Provide and manage
+ routers, hubs, firewalls,
+ bridges, interfaces,
+ directors, switches,             X          X                        X             X
+ software stacks, and
+ related network
+ equipment
+ Provide and manage
+ LAN services                     X          X                        X             X
+ Provide contracts for
+ building cabling/ wiring         X          X                                      X
+ Provide volume-based
+ service contracts and
+ approve alternate
+ contracts for LAN and
+ WAN services including
+ installation and
+ management of wired              X                                                 X
+ and wireless, voice,
+ data, and multimedia
+ services (e.g., PSTN
+ voice, Internet, packet,
+ VoIP, cellular, etc.)
+ Provide telecommunica-
+ tions help desk                  X          X                        X             X
+ Purchase from VITA
+ telecommunications
+ contracts or VITA                X          X            X           X             X
+ approved contracts
+
+Today many agencies are replacing, reconfiguring, or upgrading their LANs to:
+   • expand existing services;
+   • redesign services due to relocation;
+   • improve throughput, availability or reliability of services; or
+   • accommodate a new mix of applications and services (e.g., adding voice or multimedia
+       applications or services).
+
+                                              Page 28 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+To provide guidance appropriate to business needs in state and local agencies, this report focuses
+on the widely deployed LAN and WAN solutions, services that use these solutions, and options for
+improving them.
+
+LANs use the cabled and wireless infrastructure in buildings or across campuses. LANs also use
+signaling and signal management services to provide the communications foundation for
+numerous practical office applications that rely on LANs. These services include providing Internet
+connections to the desktop, enabling the receiving and sending of emails, enabling the saving and
+backup of documents, supporting network printing, supporting certain types of information
+storage, providing Voice over Internet Protocol (VoIP) telephony, providing remote access,
+providing security and privacy of communications, enabling applications to work, and more.
+
+WANs enable telecommunications among separate LANs and over greater than LAN distances.
+Wide area networking infrastructure may be privately owned (i.e., may belong to the
+Commonwealth), rented, or provided as part of a connectivity service. The term usually connotes
+the inclusion of public networks such as the public switched telephone system (PSTN) or public
+backbones for MPLS. In the past, WANs have often been referred to as a data services, T1 lines,
+packet services, etc. Some metropolitan area networks (MANs) employ LAN technologies (e.g.,
+Gigabit Ethernet) to connect LANs to LANs and buildings to buildings. Other MANs employ WAN
+services (e.g., an MPLS VPN). Most agencies procure public WAN services through contracts
+developed by VITA. The services are selected and scaled to meet the particular business needs of
+the agency for bandwidth, reliability, security and throughput.
+
+The complexity of the communications infrastructure extends well beyond the simple LANs and
+purchased WAN connections of yesterday. Many common office services may require both WAN
+and LAN infrastructure to achieve end-to-end communications. Example services include VoIP,
+Internet, remote access, and desktop conferencing. Certain telecommunications services operate
+on infrastructure that is reserved for the particular connection. Examples include storage area
+networks (SANs) and certain police communications systems. Blade systems and wireless
+infrastructures further complicate the picture. In higher education, networks such as the national
+LambdaRail have specialized users and uses. A given agency may use several of these network
+subsystems.
+
+A future vision of one network for VITA-served agencies and one network within each higher
+education organization does not mean one network to meet all needs. Instead, the concept
+includes centralizing and unifying as much as possible across users, uses and technologies.
+LambdaRail, for example, will always have restricted uses and users. However, it may have
+centralized controls over uses and users or centralized usage tracking. An initial aspect of
+unification may be striving for centralized control and management of the unified network
+components. This could include common procedures, practices, protocol suites, documentation of
+systems, service level agreement measures, and controls of uses and users.
+
+10 Gigabit Ethernet, IP, and switching are technical enablers of networking and
+telecommunications unification across agencies and across departments within an agency. The
+Commonwealth should leverage its statewide weight in numbers of users, bandwidth
+requirements, and infrastructure requirements to support cost-effective pursuit of both VITA and
+higher education network unification efforts.
+
+Ethernet is today and will be for the foreseeable future the dominant networking technology for
+private and public communications infrastructure. Backplane Ethernet standards, wireless power-
+over-Ethernet (PoE) plus standards, carrier Ethernet-Line and other current and promised standards
+will strengthen Ethernet’s hold on the future of networking. However, without unified planning,
+central documentation, and central management of bandwidth, throughput, quality/class of
+
+                                              Page 29 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                         Version 2.1 04-28-2023
+
+service, security, reliability, and other application needs at the application level, the business
+improvements and cost savings of the unified network will not be realized. As the Commonwealth
+makes future infrastructure decisions, it should keep in mind the benefits of one, unified network
+each step of the way.
+
+The following requirements (NET-R) and recommended practices (NET-RP) address LAN, WAN and
+telecommunication services issues. Because the services of VITA may be used by local agencies
+and by branches of government other than the executive branch, some of the requirements may
+reference users of centrally provided services rather than the agencies of the executive branch.
+
+Anticipated Wireless Changes
+From 2008 to 2015, the world will experience significant changes in wireless technologies. From
+consumer perspectives and from business viewpoints, the nature and impact of the coming
+changes can be hypothesized as follows:
+
+     •    Devices used to access the wireless networks
+              o Users will have multifunctional handheld devices more capable than the present
+                  day iPhone
+              o The handheld device will meet the mobility and in-office communications needs
+                  of a very large proportions of Commonwealth employees and will even replace
+                  multiple devices for some (e.g., laptops, cells, desk phones, and BlackBerry
+                  devices)
+              o The device, whether a phone-type handheld or a lightweight notebook in form
+                  factor, will seamlessly interconnect with LAN and phone systems at the office.
+                  This connectivity will include Internet connectivity, video conferencing, and
+                  streaming multimedia.
+              o The device battery may even be recharged wirelessly as employees roam the
+                  office building
+     •    The personal office space
+              o At the agency’s building, it will be possible to have no wires in personal offices for
+                  phones or computing equipment
+              o Between the teleworker’s home office and the agency’s office, it may be
+     •    The office building networks
+              o The LAN will continue to have wired and wireless components.
+              o The building-based systems and storage will be wired to the 10 gigabits, switched
+                  Ethernet.
+     •    On the move
+              o All devices will be mobile
+              o You will step outside, get into your commuter van, head out on the highway and
+                  you will be able to remain connected. You transfer to the high-speed train and you
+                  will still be connected through to your destination. Internet, multimedia, data,
+                  phone, and everything works as it should. You will have total mobility.
+     •    Fourth Generation (4G) versus third generation (3G)
+
+9
+  MIT Scientists Pave the Way For Wireless Battery Charging; Wall Street Journal; William M. Bulkeley;
+http://online.wsj.com/article/SB118123955549228045.html?mod=googlenews_wsj
+
+                                                         Page 30 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                                     Version 2.1 04-28-2023
+
+Typically, distant future wireless is referred to as 4G or 4th generation. Existing services are
+generally 2G or 3G (2nd/3rd generation). Changes that are being implemented or that will be
+implemented in the near future are considered to be between 3rd and 4th generation; these
+transitional technologies and services are referenced by a variety of names such as “post 3G” or
+“pre 4G.”
+             o 4G will provide seamless integration across networks (“The real technical step-up
+                 of 4G with respect to 3G can be summarized with the word integration — seamless
+                 integration of already existing and new networks, services, and terminals, in order
+                 to satisfy ever-increasing user demands.”3)
+             o Order of magnitude technical changes (“4G should not be seen exclusively as a
+                 linear extension of 3G”4)
+
+The aforementioned 4G changes will be made possible by the availability of new user devices, new
+telecommunications standards (protocols), and wireless advances in commercial products that
+move wireless broadband into territory previously served only by wired infrastructure. From a
+customer perspective and from a business perspective, the next generation of changes will be
+groundbreaking.
+There are several families of protocols that are competing to become the widely adopted future
+direction. These families are typically referenced in the news by the latest technology developed,
+which will be the adopting company’s future direction. For example, lately, there has been much
+talk about Verizon adopting LTE, Sprint wavering on its original decision to support WiMAX
+development, and Qualcomm’s recent UMB advances. For the Commonwealth, decisions regarding
+the use of interim technologies require weighing various pros and cons due to the fact that none
+of the technologies has met all of the requirements for “4G” and each is, therefore, lacking in some
+important quality needed to meet future communication needs.
+
+There are so many protocols in use across companies that sell wireless services, that it is difficult
+to address them in detail. For agencies, understanding the service enabled is more important than
+understanding the protocols. However, it can be helpful to understand what is new and what is old.
+A table that lists the protocols by acronym and by generation is provided in Appendix A for general
+reference.
+
+Current wireless devices are based on the 802.11 a, b, and g standard. Customers understand that
+their wireless is “a, b, or g.” One very important new protocol, the Institute of Electrical and
+Electronic Engineering’s IEEE 802.11n specification, is anticipated to clear the approval process by
+2009. Equipment manufacturers have been placing 802.11n devices on the market in anticipation
+of what will be approved for more than a year. However, the use of these devices in Commonwealth
+agencies is prohibited by Virginia wireless standards unless a waiver is obtained for the purpose
+of testing adequacy for future business needs. This protocol will enable significant advances in
+throughput, data rates, and distances. The following are anticipated:
+    • Speed—at 74 Mbps, 802.11n has more than three times the throughput of predecessor
+         802.11 a/b/g Wi-Fi
+    • Data Rate—at 254 Mbps, 802.11n will have a maximum rate that is nearly 5 times current
+         Wi-Fi
+    • Transmission Distance—at maximums of about 70 meters indoors and 250 meters
+         outdoors, transmission distances will double
+    • Performance—using Multiple Input Multiple Output (MIMO) technology, 802.11n improves
+         overall performance by having multiple transmitters and receivers at the physical layer
+
+10  IEEE Network ; Defining 4G Technology from the User’s Perspective; Simone Frattasi, Hanane Fathi, Frank H.P Fitzek, and Ramjee
+Prasad, Aalborg University Marcos D. Katz, Samsung Electronics; January/February 2006 0890-8044/06/$20.00 © 2006 IEEE; p. 38.
+11
+   Ibid. (p. 35).
+
+                                                        Page 31 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                    Version 2.1 04-28-2023
+
+The world is moving rapidly to increase the use of wireless applications throughout businesses,
+buildings, campuses, enterprise wide area networks and public networks. Technologies will
+eventually come together to enable the bandwidth increases to help wireless solutions to meet
+more of the business needs that previously could only be met with wired infrastructure.
+
+Where wireless networking and telecommunications are headed and how fast depends on the
+interplay of multiple complex factors including end-user device development, network device
+development, protocol completion, standards body progress, marketplace competition,
+telecommunication company decisions, adoption rates, partnerships, and product transitioning.
+Other factors include customer appeal, business needs, and economic trends. Currently, the
+economic downturn is having a major effect. Companies need more time to recoup their
+investments in earlier technologies before going in altogether new directions with fourth generation
+or 4G technologies.
+
+Protocols
+The following are three Requirements for the Protocols component of the Telecommunications
+topic.
+
+Requirements
+       NET-R-07:        Agencies modifying their LAN services must migrate to
+                        the minimum Virginia standard of IEEE 802.3 Fast Ethernet (100 Mbps
+                        Switched Ethernet) or to a higher bandwidth Ethernet service (e.g., up to
+                        802.3an 10GBASE-T 10 Gbit/s (1,250 MB/s) Ethernet over unshielded
+                        twisted pair (UTP)).
+
+        NET-R-08:       Agencies must ensure that each agency LAN
+                        node and LAN segment may be accessed using IP addressing.
+Note:
+This mandatory requirement was to have been met in December of 2003.
+
+        NET-R-09:       Agencies must employ IP as the standard addressing protocol
+                        for all routed transmissions. Agencies establishing new and replacement
+                        connections to external business partners, local governments, and state
+                        agencies must employ IP addressing. If other protocols are used as a
+                        transitional strategy, when routed, these protocols must be tunneled
+                        through IP.
+
+Switches, Routers and Similar Items
+
+The following are two Recommended Practices and four Requirements for the Switches, Routers,
+and Similar Items component of the Telecommunications Topic:
+
+Recommended Practices
+
+        NET-RP-07:      Agencies that provide servers and networking equipment are strongly
+                        encouraged to use continuous inversion, uninterruptible power supply
+                        units (UPSs) with power conditioning for network-attached servers and
+                        networking equipment. The UPS units should provide 15 minutes of
+                        battery backup for most network equipment and 30 minutes for servers.
+                        UPS units that automatically shut down in a controlled manner are
+                        preferred for servers.
+
+                                               Page 32 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                        Version 2.1 04-28-2023
+
+        NET-RP-08:      Agencies that provide web hosting or network services should provide for
+                        all served entities a secondary DNS server which resides on a separate
+                        network from agency primary DNS servers (required for domain
+                        registration). This will enable an entity’s public-facing services to remain
+                        visible to users if the network is down.
+
+        NET-RP-09:      If an agency or its network service provider has
+                        responsibility for procurement of network device types (e.g., a type of
+                        switch) that are acquired in large quantities but in numbers fewer than
+                        500, that agency or service provider may benefit from having comparison
+                        price, quality, availability, service quality, reliability and support costs data
+                        on a small number of a competitor’s device to use in acquisition and
+                        maintenance negotiations. (See requirement NET-R-12.)
+
+Requirements
+       NET-R-10:        Agencies acquiring new network hardware (i.e.
+                        firewalls, routers, switches, etc.) must ensure that the devices are Simple
+                        Network Management Protocol (SNMP) compliant.
+
+        NET-R-11:       All agencies that manage networks must employ Simple
+                        Network Management Protocol (SNMP) compliant device management.
+                        SNMP is a protocol that enables management information for a network
+                        element such as a switch to be inspected by a remote manager.
+
+        NET-R-12:       Agencies and their network service providers who
+                        establish contracts for 500 or more of a single network device type (e.g.,
+                        a particular router, switch or hub), must have validated performance and
+                        cost comparison data (e.g., price, quality, availability, service quality,
+                        reliability and support costs) for a second brand for the device type during
+                        a particular acquisition cycle. This data may be obtained from a small-
+                        dedicated network segment, a separate network, or from a third party (e.g.
+                        University, local government, etc.). The intent is that the Agencies or their
+                        service providers be able to use comparison results in acquisition and
+                        maintenance negotiations.
+Rationale:
+In networking, it is often desirable to use a single networking devices vendor across interacting
+communications equipment. When there is a problem, it may be resolved by contacting one vendor.
+However, this same situation leads to a monopoly with little leverage for price controls. The above
+requirement is not intended to force a mixed networking infrastructure, but instead is intended as
+a controlled comparison or evaluation opportunity.
+
+        NET-R-13        Agencies served by any portion of the VITA enterprise network shall
+                        acquire IPv4 address space from VITA or gain VITA approval for using its
+                        own address space. Any served agency with its own address space must
+                        notify VITA of the address space renewal date. No served agency may
+                        increase their use of RFC1918 addresses without also using route
+                        distinguishers (i.e., VPN-IPv4 RD). Any served agency currently using the
+                        private address range (RFC1918) must record this use with VITA and
+                        prepare to discontinue this use when the served agency’s network is
+                        integrated with other agencies’ networks for     the purpose of common
+                        management. Served agencies are required to use only registered IPv6
+                        addresses assigned by VITA when they switch to IPv6. Also, VITA reserves
+                        the right to revoke and reassign address space as dictated by future
+
+                                               Page 33 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                      Version 2.1 04-28-2023
+
+                       network designs. Notes: An RFC is a document distributed as a request
+                       comments. In many instances, RFCs are treated as industry standard
+                       recommendations. Many standards groups issue RFCs.
+
+                       VITA must provide agencies with assurance that recorded IP address
+                       information will not be shared with anyone who may be required to divulge
+                       the information to the public.
+
+Wired and Wireless Services
+The following are ten Recommended Practices and the one Requirement for the Wired and Wireless
+Services component of the Telecommunications Topic:
+
+Recommended Practices
+
+       NET-RP-10:      When designing new networks, state and local agencies should design for
+                       voice, data, and multimedia traffic on the network. Designs should enable
+                       good management strategies for wired and wireless. Examples of other
+                       design components that will address future business needs and business
+                       solutions are Category 6e cabling and fiber, switched Ethernet service,
+                       layer three intelligent switches, building and campus wide planning; layer
+                       four bandwidth management facilities, and intelligent routers. Although x-
+                       Gigabit Ethernet is rarely provided to the desktop today, it will be in the
+                       near future and is in common use for LAN and WAN backbones at present.
+
+       NET-RP-12:      In general, the WLANs using Industrial, Scientific, and Medical (ISM)
+                       unlicensed frequency bands (i.e., 802.11b and g) will experience greater
+                       interference than those using the Unlicensed National Information
+                       Infrastructure (U-NII) frequency bands (i.e., 802.11a). 802.11a also
+                       addresses coverage with its greater number of channels while 802.11b
+                       and g offer better range. Agencies may wish to consider implementing
+                       802.11a, b and g together if both coverage and capacity are issues.
+
+       NET-RP-13:      State and local agencies should implement
+                       wireless LANs in addition to existing wired LANs whenever they have good
+                       business reasons to do so. Wireless system design and redesign plans
+                       should never be based solely on an access point’s coverage radius.
+                       Designs should take into account user densities, use types, use peaks,
+                       physical interference, electrical interference, electrical connectivity plans,
+                       and security requirements. Designers should also consider useable
+                       throughputs rather than maximum protocol throughputs in calculations
+                       (e.g., 30Mbs instead of 54Mbs to accommodate overhead); continuous
+                       escalation in connectivity and bandwidth requirements as wireless access
+                       needs multiply over time; and downward adjustments in anticipated
+                       throughput whenever channels must be reused within a plan. For many
+                       new implementations, the IEEE 802.11a standard should be considered
+                       for taking advantage of the greater number of WLAN channels and
+                       decreased interference. Continued use of 802.11b and g along with
+                       802.11a may help in meeting bandwidth requirements despite
+                       interference. (For more discussion of security issues see the security
+                       domain report.)
+
+       NET-RP-14:      All devices used for wireless LANs should carry the Wi-
+                       Fi Alliance’s interoperability certification. For a current list see:
+
+                                              Page 34 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                  Version 2.1 04-28-2023
+
+                     http://certifications.wi-fi.org/wbcs_certified_products.php
+
+       NET-RP-15:    State and local agencies deploying new wireless
+                     LAN/WAN services may want to consider implementing Cisco LWAPP-
+                     based management of LWAPP wireless access points (or Cisco LWAPP-
+                     based systems implemented by another company) to enhance security
+                     and improve services. While the IETF has not ratified LWAPP (LWAPP is
+                     called CAPWAP by the IETF, Control and Provisioning of Wireless Access
+                     Points), it is currently considering the Cisco LWAPP design as a standard.
+                     Management needs for security purposes may outweigh the lack of
+                     ratification of a standard in this instance. At present, each company’s
+                     device-management solution is proprietary and only able to manage its
+                     company’s own access points. If LWAPP is ratified, all access points will
+                     be built to enable LWAPP management.
+
+       NET-RP-16:    State and local agencies should allow security and risk planning decisions
+                     to drive decisions regarding network design for redundancy, fail-over, and
+                     disaster recovery.
+
+       NET-RP-17:    State and local agencies should test the effects of new
+                     or modified applications on their networks using a test environment. The
+                     test environment should not exceed the requirements of the planned
+                     operational environment. An alternative to a test environment would be
+                     use of a controlled, measured implementation.
+
+       NET-RP-18:    State and local agencies should redesign their local
+                     and wide area networks to meet changing business needs, reduce costs,
+                     integrate wireless, replace outdated equipment, and ready the
+                     environment for new applications (e.g., VoIP). The redesign should include
+                     central documentation of wired and wireless infrastructure across
+                     solutions from blades to storage area networks (SANs), to power over
+                     Ethernet.
+
+       NET-RP-19:    state and local agencies that need to communicate with one another,
+                     use of COVANET (and/or its successor) is strongly recommended as a
+                     cost-effective vehicle. Agencies may be responsible for providing the
+                     gateway between their network and COVANET. Institutions of higher
+                     education may have alternate school-to-school connections for distance
+                     education or research (e.g., Internet 2 or LambdaRail) that should be
+                     leveraged rather than using COVANET. Also, agencies may require
+                     redundant, independent pathways in addition to COVANET for increased
+                     availability of connectivity or risk reduction.
+
+       NET-RP-21     Category 6 cabling is recommended for new and
+                     replacement cabling in anticipation of distance benefits for IEEE’s yet-to-be
+                     completed power over Ethernet plus proposal (IEEE 802.3at, PoE Plus).
+
+Requirement
+       NET-R-14:     Agencies implementing VoIP must provide well-ventilated and air-
+                     conditioned premises wiring closets to protect investments and to ensure
+                     services.
+
+                                           Page 35 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                      Version 2.1 04-28-2023
+
+Rationale:
+In the future, VoIP will be provided as a purchased service. Certain services such as VoIP will have
+components addressed by the network provider, the voice service provider and the premises space
+provider. In the case of VoIP, agencies and/or their lease holders are responsible for the premises
+space. Agencies may have wiring closets that are adequate to meet their current needs, but the
+addition of VoIP will change the wiring closet environment by adding significant heat and
+increasing electrical demands. VoIP will not work unless the demands of the service are addressed.
+Because agencies will be responsible for ensuring that their space can meet the required demands,
+they must plan for this premises cost when considering VoIP service savings.
+
+Technology Component Standards
+The technology component standard tables below provide strategic technology and service
+directions for agencies that are acquiring technical components or services for local area
+networking, wide area networking or other telecommunications. Agencies may acquire these
+components via purchasing, office space rental, leasing, facilities construction or modification, or
+other acquisition methods. Both wired and wireless components and services are addressed.
+Subtopics are noted in table headings.
+
+                    Table NET-S-01: Wired Local Area Networks (LANs)
+                            Technology Component Standard
+                                 Reviewed October 1, 2008
+     Strategic:
+     IEEE 802.3 Fast Ethernet (100 Mbps Switched Ethernet)
+     Higher bandwidth Ethernet service (802.3 Full duplex Fast Ethernet, 802.3ab Gigabit Ethernet
+     over copper, 802.3ad, or 802.3z Gigabit Ethernet over fiber)
+     10 Gigabit Ethernet LAN (little need but becoming highly cost effective—see FTTE-H5 or Fiber to
+     the Telecommunication Enclosure)
+     VoIP Centrex (cost reductions)
+     Note: Category 5e LAN is the minimum required for enabling VoIP.
+     Emerging:
+
+     Transitional/Contained:
+     Ethernet 10Mbps (IEEE 802.3)
+     ATM 25 Mbps (LAN emulation or LANE, an element of Multiprotocol over ATM (MPOA)
+     Note: Category 5 LAN cable is transitional because VoIP is not supported.
+     Obsolescent/Rejected:
+     Token Ring (IEEE 802.4)
+     AppleTalk
+     All Other Non-Strategic Protocols
+                                             Waiver History:
+
+                  Table NET-S-02: Wireless Local Area Networks (WLANs)
+                            Technology Component Standard
+
+12
+  FTTE-H cabling architecture discussion that addresses cost reductions is available at
+http://www.bicsi.org/events/conferences/dublin/2007/pdf/presentations/Eric%20Valade.pdf
+
+                                                Page 36 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                             Version 2.1 04-28-2023
+
+                                      Reviewed October 1, 2008
+   Strategic:
+   Wi-Fi using Access Points
+   Frequency Hopping Spread Spectrum (FHSS, IEEE 802.11)
+   Direct Sequence Spread Spectrum (DSSS, IEEE 802.11 and 802.11b)
+   Orthogonal Frequency Division Multiplexing (OFDM, IEEE, 802.11a used for Access Points)
+   Emerging:
+   WiMAX (802.16e) (security and other issues)
+   Transitional/Contained:
+   Infrared (Point to Point, IEEE 802.11)
+   Obsolescent/Rejected:
+
+                                            Waiver History:
+
+                                              Page 37 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                            Version 2.1 04-28-2023
+
+                  Table NET-S-03: Cabled Wide Area Networking (WAN)
+                           Technology Component Standard
+                                Reviewed October 1, 2008
+   Strategic:
+   Data and VoIP example WANs
+          Frame Relay T1 (128 Kbps-1.5 Mbps)
+          ATM T1 (1.5 Mbps) with IMA (Inverse Multiplexing over ATM)
+          Aggregated Frame Relay, i.e., 2, 3, or 4 T1s (3-6 Mbps)
+          ATM DS3 (22-45 Mbps)
+          ATM SONET (synchronous optical network) over OC3 (optical carrier) to OC12 (155-
+          622+ Mbps)
+          PoS (Packet over SONET)
+          FRASI (FR to ATM Services Internetworking)
+          xGb Ethernet (e.g., MAN, carrier backbone)
+          LAN speed Ethernet interconnection over public backbone
+          xDSL (128 Kbps—8 Mbps)
+          Cable Modem (300 Kbps—10 Mbps)
+          MPLS
+   VoIP Centrex
+   Emerging:
+
+   Transitional/Contained:
+   Data WAN
+          Frame Relay 56 Kbps
+          ISDN—narrow band (64—128 Kbps)
+          Frame Relay DS3
+   Obsolescent/Rejected:
+
+                                        Waiver History:
+
+                                           Page 38 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                Version 2.1 04-28-2023
+
+   Table NET-S-04: Mobile and Remote Access to Local Area Networks (LANs)
+                      Technology Component Standard
+                            Reviewed October 1, 2008
+   Strategic:
+   Dial up (e.g., remote access service (RAS))
+   VPN (e.g., IP VPN)
+   BlackBerry Services
+   Microsoft Exchange Direct Push Mail via SPS
+   Other BlackBerry Competitors (Good, Nokia, Sybase)
+   Wi-Fi
+   Emerging:
+   Intel integrated wireless chipsets (Wi-Fi, WiMAX and HSDPA in one chipset)
+   Transitional/Contained:
+
+   Obsolescent/Rejected:
+
+                                         Waiver History:
+
+                                            Page 39 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                           Version 2.1 04-28-2023
+
+   Table NET-S-05: Wireless Telecommunications (Voice, Image, Data, Conference,
+   and Other Multimedia)
+   Technology Component Standard
+   Reviewed October 1, 2008
+   Strategic:
+   VITA Negotiated Services (current and anticipated services provided below)
+   VoIP Service (using MPLS)
+   Digital Voice, Image, Data, Centrex and PBX
+   Digital Cellular Service: 800 MHz, CDMA, WCDMA, CDMA 2000, CDMA EV-DO,
+   GSM/GPRS
+   PCS Service: (1900 MHz, personal communications services—Sprint, digital wireless)
+   Cingular or Ntelos Service: GSM/GPRS) this is not cellular but provides cell-type
+   services at a different frequency; uses trimode phones (1900/800 MHz, analog and
+   digital)
+   Nextel Service: 800 MHz iDEN; wireless telephone service (note: this is not cellular but
+   is Enhanced Specialized Mobile Radio (ESMR)—2 way radio)
+   Analog Voice, Centrex, PBX (still strategic for some locations)
+   Wi-Fi (802.11a,b,g)
+   Emerging:
+   VoIP Wireless (high mobility in building is a place to start—e.g., forensic lab,
+   corrections, hospital)
+   Video Conference over IP
+   VoWLAN (802.11r)
+   WiMAX (802.16e)
+   WLAN (802.11n)
+   High speed uplink and downlink, HSDPA
+   QoS for voice/video 802.11e, WSM an WME
+   Mesh Networks
+   Wireless Video Conferencing
+   Wireless PBX
+   200 Mbps WLAN links
+   IP Multimedia, IMS and SIP
+   Fixed mobile convergence service
+   Transitional/Contained:
+   Analog Cellular (AMPS)
+   Mobitex is currently a Cingular packet data service that uses MASC protocol and has a
+   limited service area (9.6—19.6 Kbps)
+   Obsolescent/Rejected:
+   CDPD
+   Waiver History:
+
+                                         Page 40 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                    Version 2.1 04-28-2023
+
+Definitions and Terminology
+[Include any needed definitions – all will be added to glossary before posting to ORCA.]
+
+ 3GPP LTE              3GPP LTE – Long Term Evolution is the name given to a project within the
+                       Third Generation Partnership Project to improve the UMTS mobile phone
+                       standard to cope with future technology evolutions. Goals include improving
+                       spectral efficiency, lowering costs, improving services, making use of new
+                       spectrum and refarmed spectrum opportunities, and improving integration with
+                       other open standards. The LTE project is not a standard, but it will result in the
+                       new evolved Release 8 of the 3GPP specifications, including mostly or wholly
+                       extensions and modifications of the UMTS system. The architecture that will
+                       result from this work is called EPS (Evolved Packet System) and comprises E-
+                       UTRAN (Evolved UTRAN) on the access side and EPC (Evolved Packet Core) on
+                       the core side.
+ Agency                State agency or agency – Any agency, institution, board, bureau, commission,
+                       council, or instrumentality of state government in the executive branch listed in
+                       the appropriation act. ETA requirements/standards identified in this report are
+                       applicable to all agencies including the administrative functions (does not
+                       include instructional or research functions) of institutions of higher education,
+                       unless exempted by language contained in a specific requirement/standard.
+ AMPS                  Analog Mobile Phone Service or AMPS is defined in EIA/TIA-553 standards. In
+                       2006, AMPs is still the most extensive wireless coverage available for
+                       nationwide service in the US. However, in 2002, the FCC made the drastic
+                       decision to no longer require A and B carriers to support AMPS cellular service
+                       as of March 1, 2008. Since the AMPS standard is analog technology, it suffers
+                       from an inherently inefficient use of the frequency spectrum. All AMPS carriers
+                       have converted most of their consumer base to a digital standard such as
+                       CDMA or GSM and continue to do so at a rapid pace. Digital technologies such
+                       as CDMA support multiple voice calls on the same channel, superior call
+                       quality, enhanced features such as two-way text messaging, voicemail
+                       indicator, internet, and GPS services; whereas, AMPS can only support one call
+                       per channel and a basic one-way short message service.
+                       AMPS cellular service operates in the 800 MHZ FM band. In 1989, the Federal
+                       Communications Commission granted carriers an expansion from the current
+                       666 channels to the now 832 (416 per carrier). The additional frequency was
+                       available in the upper 800 MHz band which also was home to UHF channels 70-
+                       83. This meant that these UHF channels could no longer be used for UHF TV
+                       transmission as these frequencies were to be used for AMPS transmission.
+                       (Adapted from Wikipedia.)
+ ANSI                  A voluntary non-profit organization that coordinates and supports the U.S.
+                       voluntary consensus standards for industry.
+ ARDIS                 A company that provides a cellular packet-switched radio data service in the
+                       U.S. Now completely owned by Motorola. (It used to be a joint venture with
+                       IBM.) Initially (1984), the network was designed by Motorola for IBM field
+                       service technicians. The radio protocol is proprietary (designed by IBM and
+                       Motorola). Has about 34,000 subscribers, about 10 times the number that RAM
+                       Mobile has. Data transmission is at 4,800 bits/s (using 240-byte packets,
+                       resulting in about 2,000 to 3,000 bits/s of user-data throughput) or 19,200
+                       bits/s (in larger U.S. centers) using 512-byte packets, resulting in up to 8,000
+                       bits/s of user-data throughput. Usage charges are per kbyte of data transferred.
+
+                                              Page 41 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                  Version 2.1 04-28-2023
+
+                    Sometimes called Datatac. Competes with RAM Mobile Data's Mobitex system
+                    and CDPD. Ardis is at http://www.ardis.com/. (Taken from O’Reilly)
+ Asynchronous       A cell switching technology that transports data at high speeds in small,
+ Transfer Mode      uniform cells (packets). ATM may be used in LAN and WAN communications.
+ (ATM)
+ ATM/SONET          Asynchronous Transfer Mode cells carried over Synchronous Optical Network
+                    packets.
+ Backbone           A high-speed computer network designed to interconnect lower-speed
+                    networks or clusters of dispersed user devices.
+ Backplane          A backplane is an electronic circuit board containing circuitry and sockets into
+                    which additional electronic devices on other circuit boards or card can be
+                    plugged.
+ Bandwidth          The carrying capacity of a circuit, usually measured in bits per second for digital
+                    circuits or hertz for analog circuits.
+ Bluetooth          Bluetooth is a telecommunications industry specification (IEEE 802.15) that
+                    describes how mobile phones, computers, and personal digital assistants
+                    (PDAs) can be easily interconnected using a short-range wireless connection.
+                    Using this technology, users of cellular phones, pagers, and personal digital
+                    assistants can buy a three-in-one phone that can double as a portable phone at
+                    home or in the office, get quickly synchronized with information in a desktop or
+                    notebook computer, initiate the sending or receiving of a fax, initiate a print-out,
+                    and, in general, have all mobile and fixed computer devices be totally
+                    coordinated.
+                    Bluetooth requires that a low-cost transceiver chip be included in each device.
+                    The transceiver transmits and receives in a previously unused frequency band
+                    of 2.45 GHz that is available globally (with some variation of bandwidth in
+                    different countries). In addition to data, up to three voice channels are available.
+                    Each device has a unique 48-bit address from the IEEE 802 standard.
+                    Connections can be point-to-point or multipoint. The maximum range is 10
+                    meters. Data can be exchanged at a rate of 1 megabit per second (up to 2
+                    Mbps in the second generation of the technology). A frequency hop scheme
+                    allows devices to communicate even in areas with a great deal of
+                    electromagnetic interference. Built-in encryption and verification is provided.
+
+                    The technology got its unusual name in honor of Harald Bluetooth, king of
+                    Denmark in the mid-tenth century.
+                    (Adapted from Whatis.com.)
+ Cable Modem        A cable modem provides variable speed transmission depending on the
+                    number of simultaneous users on the same cable.
+ CAPWAP             The Control And Provisioning of Wireless Access Points (CAPWAP) protocol is
+                    under development within the IETF to enable an Access Controller (AC) to
+                    manage a collection of Wireless Termination Points (WTPs). CAPWAP aims at
+                    simplifying the deployment and control of large scale, possibly heterogeneous,
+                    wireless networks.
+ Cat 5e             Category 5e standard wiring.
+ CDMA               Code division multiple access. A form of multiplexing where the transmitter
+                    encodes the signal using a pseudo-random sequence which the receiver also
+
+                                            Page 42 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                  Version 2.1 04-28-2023
+
+                    knows and can use to decode the received signal. Each different random
+                    sequence corresponds to a different communication channel. Motorola uses
+                    CDMA for digital cellular phones. Qualcomm pioneered the introduction of
+                    CDMA into wireless telephone services.
+ CDMA 2000          Code division multiple access (CDMA) version of the IMT-2000 standard
+                    developed by the International Telecommunication Union (ITU). The CDMA2000
+                    is third-generation (3-G) mobile wireless technology that can provide mobile
+                    data communications at speeds ranging from 144 Kbps to 2 Mbps. Deployment
+                    is in the planning stages.
+ CDPD               A wireless standard that provides two-way, 19.2 kbps packet data transmission
+                    over existing cellular telephone channels. A method proposed (1993) and
+                    developed by IBM and McCaw Cellular Communications, Inc. (now owned by
+                    AT&T) to more efficiently carry data on existing analog (AMPS) cellular radio
+                    systems. 138-byte packets of data are sent at 19,200 bits/s during gaps in
+                    conversations or on unused (no voice conversation established at that time)
+                    channels, using the full 30-kHz bandwidth of the channel. Voice always has
+                    priority. Actual air traffic consists of blocks of 63 (47 are information, 16 are
+                    forward error correction information) six-bit symbols, resulting in a user data
+                    rate of about 9,000 to 14,400 bits/s. The forward error correction can correct up
+                    to eight six-bit symbol errors. Advantages over Ardis and Mobitex include the
+                    following: use of the existing cellular radio infrastructure (CDPD overlays it),
+                    resulting in lower usage charges; built-in encryption and authentication; the
+                    land-line interface is TCP/IP; security, since the data for a conversation are
+                    carried over many cellular radio channels (according to whichever has spare
+                    capacity), so it would be difficult to monitor the communication; V.42bis data
+                    compression; multicasting (to subsets of users); and a full-duplex option. Will
+                    be an open specification that will compete with the proprietary systems from
+                    Ardis and Mobitex (RAM). Is a packet-oriented service, so the call setup time is
+                    fast (much faster than circuit-switched), charging is by the kilobyte of traffic
+                    carried, and it is best-suited to smaller transactions (up to 5 Kbytes of data--
+                    larger transfers are better handled by circuit-switched methods, such as analog
+                    cellular with modems). Promoted by five of the seven U.S. RBOCs and
+                    Motorola, Microcom, and some cable TV companies.
+ COTS               Council on Technology Services. An advisory group for Virginia’s Secretary of
+                    Technology
+ COVANET            A comprehensive array of communications services - voice long distance, data,
+                    and Internet services to local and county governments, state agencies,
+                    universities, and quasi-government agencies.
+ DID                Direct Inward Dialing (DID) is a service of a local phone company (or local
+                    exchange carrier) that provides a block of telephone numbers for calling into a
+                    company's private branch exchange (PBX) system. Using DID, a company can
+                    offer its customers individual phone numbers for each person or workstation
+                    within the company without requiring a physical line into the PBX for each
+                    possible connection. For example, a company might rent 100 phone numbers
+                    from the phone company that could be called over eight physical telephone
+                    lines (these are called "trunk lines"). This would allow up to eight ongoing calls
+                    at a time; additional inbound calls would get a busy signal until one of the calls
+                    completed or be able to leave a voice mail message. The PBX automatically
+                    switches a call for a given phone number to the appropriate workstation in the
+                    company. A PBX switchboard operator is not involved. A DID system can be
+
+                                            Page 43 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                Version 2.1 04-28-2023
+
+                    used for fax and voice mail as well as for live voice connections. Compared to
+                    regular PBX services DID saves the cost of a switchboard operator, calls go
+                    through faster, and callers feel they are calling a person rather than a company.
+ DS3                A signal with a transmission rate of 44.736 Mbps (672 voice channels)
+                    provided over T3.
+ DSSS               Direct Sequence Spread Spectrum. A method of providing wireless connectivity
+                    as specified in IEEE 802.11b.
+ EIA                The Electronic Industries Alliance (EIA) is a non-profit organization that
+                    functions as an association of other organizations, one of which is TIA, EIA’s
+                    communications arm. The EIA is certified by ANSI to develop standards. The
+                    EIA is well known for having produced certain electrical wiring and data
+                    transmission standards. Standards are just one part of the organization’s
+                    mission, however. The EIA often jointly recommends standards with the
+                    Telecommunications Industry Association (TIA). An example standard put forth
+                    by both groups is EIA/TIA-232 (also known as EIA-232 and RS-232). This
+                    standard establishes how two devices communicate—for example, via the 9
+                    and 25 pin connectors still commonly used on PCs along with USB connectors.
+ EoIP               Everything over IP.
+ ESMR               Enhanced Specialized Mobile Radio (ESMR) is a wireless communication
+                    system in which numerous mobile/portable transceivers are linked in a network
+                    of repeaters. Each repeater has a range of approximately 5 to 10 miles.
+                    Operating frequencies are in the UHF (ultra-high-frequency) range, that is,
+                    between approximately 300 MHz and 3 GHz. Usually, the working band is near
+                    900 MHz.
+                    ESMR can function like its fundamentally simpler cousin, SMR, but it can also
+                    offer features similar to those of a cellular telephone network. The PTT (push-
+                    to-talk), half-duplex mode can be used; in this case the operation resembles
+                    communications between old style two-way radios. Full-duplex mode can also
+                    be used, so either party can listen and talk at the same time. Interconnection
+                    with the telephone networks is commonly done. In addition to voice
+                    communication, an ESMR system can offer paging, wireless fax, and data
+                    transmission.
+                    ESMR systems use digital radio transmission. Spread-spectrum modes, such
+                    as frequency hopping, are common. In a well-designed ESMR system,
+                    connection is almost instantaneous, compared with the typical 15 to 20
+                    seconds required to dial and set up a call in a public cellular network. The
+                    coverage of an ESMR system depends on the geographical distribution and
+                    needs of the users. Some systems are confined to single municipalities; others
+                    cover selected groups of metro areas; others operate over entire states or
+                    regions of a country.
+                    Examples of ESMR networks include Ericsson's EDACS (Enhanced Digital
+                    Access Communications System), Motorola's IDEN (Integrated Dispatch
+                    Enhanced Network), and the Sprint Nextel System. (Adapted from Whatis.com).
+ ETA                The Enterprise Architecture has business and technical components. All of the
+                    technical components taken together are called the Enterprise Technical
+                    Architecture.
+ Ethernet           A local-area network (LAN) protocol that is specified in IEEE 802.3 and that
+                    uses CSMA-CD to provide 10 Mbps service over copper.
+
+                                           Page 44 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                               Version 2.1 04-28-2023
+
+ FHSS               Frequency Hopping Spread Spectrum. A method of providing wireless
+                    connectivity as specified in IEEE 802.11.
+ Frame Relay        A data communications interface that provides high speed transmission with
+                    minimum delay and efficient use of bandwidth. It does not have error detection
+                    or error control and it assumes that connections are reliable.
+ FRASI              Frame Relay to Asynchronous Transfer Mode (ATM) service internetworking
+ GPRS               General Packet Radio Services (GPRS) is a packet-based wireless
+                    communication service that promises data rates from 56 up to 114 Kbps and
+                    continuous connection to the Internet for mobile phone and computer users.
+                    The data rates will allow users to take part in video conferences and interact
+                    with multimedia Web sites and similar applications using mobile handheld
+                    devices as well as notebook computers. GPRS is based on Global System for
+                    Mobile (GSM) communication and will complement existing services such
+                    circuit-switched cellular phone connections and the Short Message Service
+                    (SMS).
+                    In theory, GPRS packet-based service should cost users less than circuit-
+                    switched services since communication channels are being used on a shared-
+                    use, as-packets-are-needed basis rather than dedicated only to one user at a
+                    time. It should also be easier to make applications available to mobile users
+                    because the faster data rate means that middleware currently needed to adapt
+                    applications to the slower speed of wireless systems will no longer be needed.
+                    As GPRS becomes available, mobile users of a virtual private network (VPN)
+                    will be able to access the private network continuously rather than through a
+                    dial-up connection.
+                    GPRS will also complement Bluetooth, a standard for replacing wired
+                    connections between devices with wireless radio connections. In addition to
+                    the Internet Protocol (IP), GPRS supports X.25, a packet-based protocol that is
+                    used mainly in Europe. GPRS is an evolutionary step toward Enhanced Data
+                    GSM Environment (EDGE) and Universal Mobile Telephone Service (UMTS).
+                    (Modified from Whatis.com)
+ GSM                1. Groupe Spéciale Mobile—the European standards group for wireless
+                    connectivity.
+                    2. Digital cellular telephone standard developed by the European
+                    Telecommunications Standards Institute's (ETSI) Groupe Spécial Mobile. Also
+                    used in some Middle Eastern countries and parts of Australia. The frequencies
+                    allocated to the service are divided into 200-kHz blocks, each of which supports
+                    eight simultaneous users (by using a form of TDMA that lets a handset transmit
+                    a few bytes of data or digitized voice, 217 times per second).
+ HSDPA              High Speed Downlink Packet Access (HSDPA) is a UMTS packet-based
+                    broadband data service feature of the WCDMA standard. HSDPA provides an
+                    improved downlink for the UMTS data service. It improves speed and system
+                    capacity by making better use of the bandwidth. Data transmission speeds are
+                    up to 8-10 Mbps over a 5 MHz bandwidth or more than 20 Mbps for systems
+                    that use multiple transmitters and receivers (Multiple Input Multiple Output or
+                    MIMO systems (802.11n)). The high speeds of HSDPA are achieved through
+                    techniques including 16 Quadrature Amplitude Modulation, variable error
+                    coding, and incremental redundancy. HSDPA use requires technology upgrades
+                    to sending and receiving devices in UMTS networks. This broadband service is
+                    provided by Cingular in limited locations in 2006.
+
+                                           Page 45 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                  Version 2.1 04-28-2023
+
+ Hub                 A LAN wiring concentrator that connects cables from numerous network
+                     devices. An intelligent hub can monitor and report on network activity, typically
+                     using SNMP.
+ IEEE                Institute of Electrical and Electronics Engineers, Inc. www.ieee.org
+ IMS                 The IP Multimedia Subsystem (IMS) is a next-generation network for carriers
+                     from the 3GPP that uses the IP protocol as its foundation. IMS supports data,
+                     video, SIP-based voice over IP (VoIP) and non-SIP packetized voice, such as
+                     H.323 and MGCP. IMS was designed to integrate with the PSTN and provide
+                     traditional telephony services such as 800 numbers, caller ID and local number
+                     portability. (Adapted from PCMag.com).
+ Infrared            Electromagnetic waves in the frequency range just below visible light
+                     corresponding to radiated heat.
+ Integrated          A set of communications standards allowing a single wire or optical fiber to
+ Services Digital    carry voice, digital network services and video
+ Network (ISDN)
+ International       An intergovernmental organization through which public and private
+ Telecommunicatio    organizations develop telecommunications.
+ n Union (ITU)
+ Internet            1. A wide area network connecting disparate networks world wide.
+                     2. An international network of millions of web sites that uses TCP/IP.
+ Internet            A large, open, international community of network designers, operators,
+ Engineering Task    vendors, and researchers concerned with the evolution of the Internet
+ Force (IETF)        architecture and the smooth operation of the Internet. IETF is generally
+                     recognized as the standards organization for the Internet.
+ Internet Protocol   A communication protocol which routes packets of data from one node on the
+ (IP)                Internet to another. IPv4 routes each packet based on a 32 bit destination
+                     address called an IP address (e.g., 123.122.211.111).
+ IPv4                Four octet 32 bit IP address in the form 255.255.255.255
+ IPv6                Sixteen octet 128 bit IP address. For a discussion and comparison with IPv4
+                     see NCS http://www.ncs.gov/n6/content/tibs/html/tib97_1/sec5_0.htm.
+ ISM                 Industrial, Scientific and Medical (IMS) radio spectrum bands can be used by
+                     anyone without a license. Multiple bands are set aside for this use. Some
+                     commonly used bands are 902 to 928MHz, 2.4 to 2.4835GHz, and 5.725 to
+                     5.850GHz.
+ LambdaRail          National LambdaRail is a high-speed national computer network infrastructure
+                     in the United States that runs over fiber-optic lines, and is the first
+                     transcontinental Ethernet network. The name is shared by the organization of
+                     research institutions that developed the network, and, to date, plans to continue
+                     developing it. LambdaRail is similar to the Abilene Network, but LambdaRail
+                     permits deeper experimentation than Abilene does.
+
+                     It is primarily oriented to aid terascale computing efforts and to be used as a
+                     network testbed for experimentation with next-generation large-scale networks.
+                     National LambdaRail is a university-based and -owned initiative, in contrast with
+                     Abilene and Internet2, which are university-corporate sponsorships. This gives
+                     universities more control to use the network for these research projects.
+
+                                            Page 46 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+                    National LambdaRail also supports a production layer on its infrastructure.
+
+                    Links in the network use dense wavelength-division multiplexing (DWDM),
+                    which allows up to 32 or 40 individual optical wavelengths to be used
+                    (depending on hardware configuration at each end). At present, individual
+                    wavelengths are used to carry a 10-gigabit Ethernet signal.
+
+                    Erv Blythe is the Chair of the LambdaRail Board of Directors. In 2004,
+                    LambdaRail completed its first main "phase".
+ Local Area         A private computer network generally on a user's premises and operated within
+ Network (LAN)      a limited geographical area.
+ LWAPP              The Light Weight Access Point Protocol (LWAPP) is a yet-to-be ratified
+                    standard of the IETF (see CAPWAP) that defines interactions between wireless
+                    termination points and wireless access controllers. Ratification is expected in
+                    mid-2006.
+ MAN                A Metropolitan Area Network (MAN) is a network that interconnects users with
+                    computer resources in a geographic area or region larger than that covered by
+                    even a large local area network (LAN) but smaller than the area covered by a
+                    wide area network (WAN). The term is applied to the interconnection of
+                    networks in a city into a single larger network (which may then also offer
+                    efficient connection to a wide area network). It is also used to mean the
+                    interconnection of several local area networks by bridging them with backbone
+                    lines. The latter usage is also sometimes referred to as a campus network.
+                    (Adapted from Whatis.com).
+ MAU                A multi-station Access Unit (MAU) is a central hub in a Token Ring local area
+                    network. (Adapted from PCMag.com).
+ MIMO               Multiple input multiple output is the use of multiple antennas at both the
+                    transmitter and receiver to improve communication performance
+ Mobile             The standard form of communicating between a Mobitex wireless data
+ Asynchronous       subscriber device and the computing platform. MASC allows applications
+ Communications     developed on the computing device to provide high levels of control and
+ (MASC) protocol    management of the wireless modem. The MASC protocol is used when
+                    developing highly efficient, commercial wireless application software.
+ Mobitex            Ericsson's Eritel subsidiary's cellular land-radio-based packet-switched data
+                    communication system. Used by RAM mobile data. The raw data transmission
+                    bit rate was originally 8,000 bits/s (using 512-byte packets) for all installations,
+                    which provides a user data throughput of about 2.4 to 5 kbits/s, but this has
+                    been upgraded to 19,200 bits/s in some larger cities. Usage charges are per
+                    kilobyte. More open that the competing Ardis system, since all specifications
+                    are developed by the Mobitex Operators Association. Was designed by L.M.
+                    Ericsson and Swedish Telecom. Uses 896 to 901 MHz and 935 to 940 MHz.
+                    Cantel offers the service in Canada. Available in about 11 countries, but
+                    different frequencies are used, so roaming is complicated. L.M. Ericsson server
+                    is http://www.ericsson.nl/. (Taken from O’Reilly.)
+ Network            1. A configuration of data processing devices and software connected for
+                    information interchange.
+                    2. A group of two or more computer systems linked together.
+
+                                            Page 47 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                    Version 2.1 04-28-2023
+
+ MPLS               Multiprotocol Label Switching (MPLS) is a communications technology for
+                    speeding up wide-area network traffic flow and making it easier to manage.
+                    This technology is typically a backbone technology provided by a carrier. MPLS
+                    involves setting up a specific path for a given sequence of packets, identified by
+                    a label put in each packet, thus saving the time needed for a router to look up
+                    the address to the next node for packet forwarding. MPLS is called
+                    multiprotocol because it works with the Internet Protocol (IP), Asynchronous
+                    Transport Mode (ATM), and frame relay network protocols. With reference to
+                    the standard model for a network (the Open Systems Interconnection, or OSI
+                    model), MPLS allows most packets to be forwarded at the layer 2 (switching)
+                    level rather than at the layer 3 (routing) level. In addition to moving traffic faster
+                    overall, MPLS makes it easy to manage a network for quality of service (QoS).
+                    (Adapted from Whatis.com).
+ Open System        A system whose characteristics comply with standards made available
+                    throughout the industry and therefore can be connected to other systems
+                    complying with the same standards.
+ OSI                Open System Interconnection.
+ Packet             A collection of payload data and transport information that is transmitted as a
+                    bundle across a network connection.
+ Packet Switching   The process of routing and transferring data by means of addressed packets
+                    so that a channel is occupied only during transmission of a packet. On
+                    completion of the transmission, the channel is made available for transfer of
+                    other packets.
+ PAN                A Personal Area Network (PAN) or Wireless Personal Area Network (WPAN) is
+                    the set of transmission technologies used by a person for interconnecting
+                    devices they use in a home, in a workplace, in the car, in the gym, or in a mobile
+                    setting. Typically, a wireless personal area network uses one or more
+                    technologies that permit communication within about 10 meters - in other
+                    words, a very short range. One such technology is Bluetooth, which is the basis
+                    for IEEE 802.15. A PAN could interconnect all the ordinary computing and
+                    communications devices that many people have on their desk or carry with
+                    them today - or it could serve a more specialized purpose such as allowing the
+                    surgeon and other team members to communicate during an operation.
+                    (Adapted from Whatis.com).
+ PBX                Private Branch Exchange – a premises voice switch.
+ PCS                Sprint’s Personal Communications Services. It operates in the 1.9 MHz band. It
+                    is not a cellular service. (600mhz, 900mhz)
+ PoE                Power-over-Ethernet is (PoE) is a technology for wired Ethernet LANs that
+                    allows the electrical current, necessary for the operation of each device, to be
+                    carried by the data cables rather than by power cords. For PoE to work, the
+                    electrical current must go into the data cable at the power-supply end, and
+                    come out at the device end, in such a way that the current is kept separate from
+                    the data signal so that neither interferes with the other. The current enters the
+                    cable by means of a component called an injector. If the device at the other end
+                    of the cable is PoE compatible, then that device will function properly without
+                    modification. If the device is not PoE compatible, then a component called a
+                    picker or tap must be installed to remove the current from the cable. This
+                    "picked-off" current is routed to the power jack. To minimize the possibility of
+
+                                            Page 48 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                 Version 2.1 04-28-2023
+
+                    damage to equipment in the event of a malfunction, the more sophisticated
+                    PoE systems employ fault protection. This feature shuts off the power supply if
+                    excessive current or a short circuit is detected. (Adapted from Whatis.com).
+ PSTN               The Public Switched Telephone Network (PSTN) is the worldwide voice
+                    communications system.
+ QoS                Quality of Service - The performance of a network service such as throughput,
+                    delay, and priority. Some protocols allow packets or streams to include QoS
+                    requirements (e.g., ATM).
+ RAM Mobile Data    A wireless service. A company jointly owned by RAM Broadcasting, Inc.,
+                    Ericsson, and BellSouth Corp. that provides a cellular-radio-based packet data
+                    service called Mobitex. Competes with Ardis and CDPD. Ericsson encourages
+                    others to manufacture compatible equipment (people prefer an open standard).
+                    (Taken from O’Reilly.)
+ Router             1. An attaching device that connects two LAN segments, which use similar or
+                    different architectures, at the reference model network layer.
+                    2. (IRM) The combination of hardware and software that links LANs and WANs
+                    together.
+ SAN                A Storage Area Network (SAN) is a storage model typically characterized by a
+                    use of switching and transmission facilities that are separate from the local
+                    area network where the server of data to be stored and retrieved resides. The
+                    network communications for a SAN may include fibre channel, iSCSI, Ethernet
+                    or other technologies. The SAN also includes the storage management, storage
+                    device and storage access technologies.
+ Segment            1. vt. to isolate traffic on a LAN;
+                    2. n., the LAN devices and media isolated.
+ Simple Network     A set of network communication specifications that cover all the basics of
+ Management         network management. It is a simple and expandable protocol designed to give
+ Protocol (SNMP)    the capability to remotely manage a computer network by polling, setting
+                    terminal values, and monitoring network events. It is comprised of three
+                    elements, an MIB, a manager, and the agents. The manager is located on the
+                    host computer on the network. Its role is to poll the agents and request
+                    information concerning the networks status. Agents run off each network node
+                    and collect network and terminal information as specified in the MIB.
+ SIP                Session Initiation Protocol (SIP) is a signaling protocol developed by the IETF.
+                    The SIP protocol has not yet been ratified as a standard. SIP is primarily used
+                    for voice over IP (VoIP) calls but also may be used for other communications
+                    including video, instant messaging, and gaming.
+                    SIP is a text-based protocol that is based on HTTP and MIME. SIP is used as
+                    one part of a protocol stack that is intended to provide seamless, continuous,
+                    end-to-end communications similar to what is provided by the PSTN. SIP is
+                    responsible for setting up and taking down the connection. SIP also provides
+                    services such as dialing a number, causing a phone to ring, and providing ring
+                    back tones or busy signals. SIP is included as part of the IMS subsystem.
+ Switch             1. n., a circuit switching hub.
+                    2. vt., A communications paradigm in which a dedicated communication path is
+                    established between the sender and receiver along which all packets travel. The
+                    telephone system is an example of a circuit switched network. Also called
+
+                                           Page 49 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                  Version 2.1 04-28-2023
+
+                    connection-oriented.
+ Synchronous        Two or more processes that depend upon the occurrences of specific events
+                    such as common timing signals.
+ Synchronous        1. A new and growing body of standards that define all aspects of transporting
+ Optical Network    and managing digital traffic over fiber-optic facilities in the public network.
+ (SONET)            2. A network communication technology offering fiber optic transmission
+                    system for high-speed digital traffic.
+ T1                 An AT&T Bell Labs term originally used in 1962 for the first digitally multiplexed
+                    transmission system for voice signals. Present day use indicates a digital
+                    carrier facility used to transmit a digital signal 1 or DS1 formatted digital signal
+                    at 1.544 megabits per second. This is equivalent to 24 analog lines. T1
+                    transmission uses a bipolar Return To Zero alternate mark inversion line coding
+                    scheme.
+ TCP                Transmission Control Protocol. An OSI layer 4 protocol
+
+ TDMA               Time Division Multiple Access
+ TIA                Telecommunications Industry Association. A standards body. An association
+                    that sets standards for communications cabling.
+ Token Ring         An IEEE 802.5 standard for media access. Conflicts in the transmission of
+                    messages are avoided by the granting of "tokens" which give permission to
+                    send.
+ UMB                UMB (Ultra Mobile Broadband) is the brand name for the project within 3GPP2
+                    to improve the CDMA2000 mobile phone standard for next generation
+                    applications and requirements. The system is based upon Internet (TCP/IP)
+                    networking technologies running over a next generation radio system, with
+                    peak rates of up to 280 Mbit/s. Its designers intend for the system to be more
+                    efficient and capable of providing more services than the technologies it
+                    replaces. Commercialization is unlikely as Qualcomm, its main developer,
+                    3GPP2 and major CDMA carriers are concentrating on LTE instead.
+
+                    To provide compatibility with the systems it replaces, UMB supports handoffs
+                    with other technologies including existing CDMA2000 1X and 1xEV-DO
+                    systems. However 3GPP2 added this functionality to LTE, allowing LTE to
+                    become the single upgrade path for all wireless networks.
+
+                    According to the technology market research firm ABI Research, Ultra-Mobile
+                    Broadband might be "dead on arrival." No carrier has announced plans to adopt
+                    UMB, and most CDMA carriers in Australia, USA, China, Japan and Korea have
+                    already announced plans to adopt HSPA or LTE.
+ U-NII              Unlicensed National Information Infrastructure bands (U-NII) are designated by
+                    the FCC to provide short-range, high-speed wireless networking communication
+                    at low cost. U-NII consists of three frequency bands of 100 MHz each in the 5
+                    GHz band: 5.15-5.25GHz (for indoor use only), 5.25-5.35 GHz and 5.725-
+                    5.825GHz. The three frequency bands were set aside by the FCC in 1997 to help
+                    schools connect to the Internet without the need for hard wiring
+                    (Adapted from Wi-Fi Planet).
+ USOC               Universal Service Ordering Code
+
+                                            Page 50 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                   Version 2.1 04-28-2023
+
+ Vo-Fi              Voice over Wi-Fi (or wireless VoIP). This is used successfully in hospitals or
+                    areas when no hand offs are needed.
+ VoIP               Voice over Internet Protocol (VoIP) is a service that permits voice connections
+                    and the transmission of voice conversations using IP packets that are sent over
+                    public and private cabled infrastructure. A set of equipment and protocols is
+                    required to accomplish quality voice communications using VoIP. A major
+                    advantage of VoIP and Internet telephony is that it avoids the tolls charged by
+                    ordinary telephone service.
+                    VoIP derives from the VoIP Forum, an effort by major equipment providers,
+                    including Cisco, VocalTec, 3Com, and Netspeak to promote the use of ITU-T
+                    H.323, the standard for sending voice (audio) and video using IP on the public
+                    Internet and within an intranet. The Forum also promotes the user of directory
+                    service standards so that users can locate other users and the use of touch-
+                    tone signals for automatic call distribution and voice mail.
+                    Using VoIP, an enterprise positions a "VoIP device" at a gateway. The gateway
+                    receives packetized voice transmissions from users within the company and
+                    then routes them to other parts of its intranet (local area or wide area network)
+                    or, using a T-carrier system or E-carrier interface, sends them over the public
+                    switched telephone network.
+ VoWLAN             Voice over Wireless LAN is an implementation of Voice over IP using wireless
+                    rather than wired infrastructure.
+ VPN                A Virtual Private Network (VPN) is a communications service that affords
+                    various levels of privacy over public or private infrastructure. Secure VPNs may
+                    use cryptographic tunneling protocols to preventing snooping, sender
+                    authentication to preventing identity spoofing, and message integrity
+                    (preventing message alteration) to achieve the privacy intended.
+                    Trusted VPNs do not use cryptographic tunneling. Instead, they rely on the
+                    security of a single provider's network to protect the traffic. Multi-protocol label
+                    switching (MPLS), layer 2 forwarding, and layer 2 tunneling are commonly used
+                    to build trusted VPNs.
+ WCDMA              Wide-band Code-Division Multiple Access (WCDMA) is a 3G technology that
+                    increases data transmission rates in GSM systems by using the CDMA air
+                    interface instead of TDMA. WCDMA is based on CDMA and is the technology
+                    used in UMTS. WCDMA was adopted as a standard by the ITU under the name
+                    "IMT-2000 direct spread". (Adapted from Wi-Fi Planet.)
+ Wide Area          1. A network that provides communication services to a geographic area larger
+ Network (WAN)      than that served by a local area network or a metropolitan area network, and
+                    that may use or provide public communication facilities.
+                    2. A data communications network designed to serve an area of hundreds or
+                    thousands of miles; for example, public and private packet-switching networks,
+                    and national telephone networks. 3. (IRM) A computer network that links
+                    multiple workstations and other devices across a large geographical area. A
+                    WAN typically consists of multiple LANs that are linked together.
+ Wi-Fi              Wi-Fi is a brand logo of the Wi-Fi Alliance used in their certification of products
+                    as compliant with the 802.11 wireless connectivity standards. The Wi-Fi
+                    Alliance was originally called WECA or the Wireless Ethernet Compatibility
+                    Alliance. The term Wi-Fi is widely used in common parlance to refer to all things
+                    wireless. Wi-Fi does not stand for Wireless Fidelity. (Adapted from Wikipedia).
+ WiMAX              WiMAX is an acronym for Worldwide Interoperability for Microwave Access.
+
+                                            Page 51 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                Version 2.1 04-28-2023
+
+                    WiMAX is a logo used by the WiMAX Forum for certifying product compatibility
+                    with the IEEE 802.16 standard. The 802.16 working group of IEEE specializes in
+                    point-to-multipoint broadband wireless access. IEEE 802.16 or WiMAX is a
+                    standard for wireless technology that provides high-throughput broadband
+                    connections over long distances. WiMAX can be used for a number of
+                    applications, including "last mile" broadband connections, hotspots and cellular
+                    backhaul, and high-speed enterprise connectivity for business. (Adapted from
+                    Whatis.com).
+ WLAN               Wireless Local Area Network
+
+                                           Page 52 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                    Version 2.1 04-28-2023
+
+Terminology Sources and Links
+
+ Information provided in this Glossary was liberally borrowed from a number of Internet sources including
+the following highly recommended sources:
+
+   •    O’Reilly’s (search box at the bottom of the page)
+        http://www.oreilly.com/reference/dictionary/tsearch.cgi
+
+   •    What Is? http://whatis.techtarget.com/
+
+   •    Cisco’s Glossary of LAN terms
+        http://www.cisco.com/univercd/cc/td/doc/product/lan/trsrb/glossary.htm
+
+   •    MobilInfo.Com Glossary http://www.mobileinfo.com/Glossary/
+
+   •    Free Online Dictionary of Computing http://foldoc.doc.ic.ac.uk/foldoc/index.html
+
+   •    North Carolina ITS Glossary http://www.its.state.nc.us/Information/Glossary/GlossMain.asp
+
+   •    U. of Colorado Computing Standards with Links http://itp-
+        www.colorado.edu/~scig/std_glossary.html
+
+   •    www.wikipedia.org
+
+Appendix A. 2007-8 Network Domain Team Analysis of Technology Trends
+
+The 2007-8 network domain team identified nine critical technology trends that will shape networking in
+the future. These critical trends are as follows:
+     •      Wireless communications will escalate eventually replacing many wired networks.
+     •      Mobile networking will increase, and the workforce will expect anytime, anywhere connectivity.
+     •      The line between public and private communications will blur.
+     •      Bandwidth needs will increase geometrically as data, voice and video converge to everything
+            over IP (EoIP).
+     •      Bandwidth needs will continue to exceed availability on average, thus driving the need for
+            improved pathways between locations.
+     •      Centralized management will change the way we design networks to meet business needs.
+     •      The last mile of connectivity will continue to divide state and local agencies into those who
+            have needs met and those who cannot afford needed connectivity.
+     •      Over time, the LAN will continue to decrease in importance and the WAN will take over more
+            and more LAN functions.
+     •      Networks will continue to be sources of business risk.
+     •      Network service consolidation will continue as a vehicle for mitigating risks (e.g., one network
+            with one Internet onramp
+
+                                               Page 53 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                           Version 2.1 04-28-2023
+
+Appendix B. Vita Network Migration Plan Overview
+
+   Network Work Plan Overview
+       Service Commencement                                             SCD + 0 months      July-06
+       Temporary NOC                                                    SCD + 4 months    November-06
+       Submit Arch Network Blueprint Addressing Plan                    SCD + 7 months    February-07
+       Connectivity to CESC                                             SCD + 12 months     July-07
+       MPLS Core established, begin Agency migration                    SCD + 14 months   September-07
+       15% Lan Migration                                                SCD + 15 months    October-07
+       Connectivity to SWESC                                            SCD + 16 months   November-07
+       Enterprise NOC                                                   SCD + 16 months   November-07
+       30% Lan Migration                                                SCD + 18 months    January-08
+       45% Lan Migration                                                SCD + 21 months     April-08
+       60% Lan Migration                                                SCD + 24 months     July-08
+       75% Lan Migration                                                SCD + 27 months    October-08
+       Complete Agency LAN migration (90%) (Critical)                   SCD + 30 months    January-09
+
+Network Work Plan Overview
+Sherilyn Whiting
+Booz Allen Hamilton
+May 19, 2006
+https://vitaweb.virginia.gov/C17/COIN/Document%20Library/Forms/WebFldr.aspx
+
+                                                        Page 54 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                                  Version 2.1 04-28-2023
+
+Appendix C: Protocols by Generation
+(Modified from Wikipedia http://en.wikipedia.org/wiki/Comparison_of_wireless_data_standards)
+
+ Family            Past 0, 1, 2G:        Present 2G     Present 3G          Present/Future
+                                                                            (Post 3G; Pre 4G)
+                   Typically Voice and   Typically      Typically Digital   Mobile and Digital with
+                   often Analog          Commercial     Voice or Data       IP Packet-based
+                                         and Digital                        transmission of
+                                                                            everything
+ GSM/UMTS                                GSM            UMTS (3GSM)         UMTS Rev. 8 (Pre-4G)
+ (3GPP) Family                           GPRS           HSPA                   LTE
+                                         EDGE            HSDPA (3.5)           HSOPA
+                                          (EGPRS         HSUPA (3.5)           (Super 3G)
+                                         2.75G)          HSPA+
+                                           EDGE         UMTS-TDD
+                                           Evolution     TD-CDMA
+                                         CSD             TD-SCDMA
+                                         HSCSD          FOMA
+ cdmaOne /                               cdmaOne (2G)   CDMA2000 (3G)       UMB (Pre-4G)
+ CDMA2000                                                 EV-DO (1x) IS-
+ (3GPP2) Family                                           856
+
+ AMPS Family       AMPS (1G)             D-AMPS (2G)    n/a                 n/a
+                   TACS / ETACS
+
+ Other Families    PTT (0G)              2G             GAN (UMA)           iBurst (Pre-4G)
+                   MTS (0G)              iDEN                               HIPERMAN (Pre-4G)
+                   IMTS (0G)             PDC                                WiMAX (Pre-4G)
+                   AMTS (0G)             CSD                                WiBro (Pre-4G)
+                   OLT (0G)              PHS
+                   MTD (0G)              WiDEN
+                   Autotel / PALM(0G)
+                   ARP (0G)
+                   NMT (1G)
+                   Hicap (1G)
+                   CDPD (1G)
+                   Mobitex (1G)
+                   DataTAC (1G)
+
+                                            Page 55 of 56
+
+Networking and Telecommunication Domain Requirements
+                                                                        Version 2.1 04-28-2023
+
+Appendix D: References, Links and Recommended Reading
+
+General Networking and Telecommunications References:
+   Forrester:
+   http://www.forrester.com/
+   Gartner Group:
+   http://www.gartner.com/
+   Government Computer News:
+   http://www.gcn.com/
+   Network World:
+   http://www.networkworld.com/
+   Techworld:
+   http://www.techworld.com/
+   Information Week:
+   http://www.informationweek.com/whitepaper/index.jhtml?catID=600001
+
+Standards
+   Bicsi:
+   http://www.ietf.org/rfc.html
+   IEEE:
+   http://standards.ieee.org/
+   IETF:
+   http://www.ietf.org/
+   http://www.ietf.org/rfc.html
+   National Institute of Standards and Technology (NIST):
+   http://www.nist.gov/
+
+                                           Page 56 of 56
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

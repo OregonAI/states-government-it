@@ -1,0 +1,318 @@
+Prohibited Hardware, Software and Services Policy                  ITRM Policy SEC528-00.4
+                                                                   September 1, 2025
+
+                              COMMONWEALTH OF VIRGINIA
+
+                  Information Technology Resource Management
+
+                Prohibited Hardware, Software and Services Policy
+                 Information Technology Security
+
+                       Virginia Information Technologies Agency (VITA)
+
+                                                    i
+
+Prohibited Hardware, Software and Services Policy                                             ITRM Policy SEC528-00.4
+                                                                                              September 1, 2025
+
+                                        ITRM Publication Version Control
+
+ITRM Publication Version Control: It is the User's responsibility to ensure they have the latest version of
+this ITRM publication. Questions should be directed to VITA’s Director for Enterprise Architecture (EA)
+Division within the Commonwealth Security and Risk Management Directorate. EA will issue a Change
+Notice Alert and post on the VITA Web site, provide an email announcement to the Agency Information
+Technology Resources (AITRs) and Information Security Officers (ISOs) at all state agencies and
+institutions of higher education as well as other parties EA considers to be interested in the change.
+
+This chart contains a history of this ITRM publication’s revisions.
+
+ Version         Date                 Purpose of Revision
+                 September 14,
+ 00                                   Initial Policy
+                 2021
+ Revision 00.1   November 4, 2021     Administrative Update Adding Banned Entities per Federal Register 2021-24123
+ Revision 00.2   December 16, 2022    Administrative Update Adding TikTok
+ Revision 00.3   April 24, 2023       Administrative Rewrite for Clarification
+                                      Administrative Update: Updated references from SEC501 to SEC530 and removed
+ Revision 00.4   September 1, 2025
+                                      SEC525; Updated glossary hyperlink; Added DeepSeek prohibition to section 1.2 & 2.
+
+Identifying Changes in This Document
+
+See the latest entry in the table above
+
+Vertical lines in the left margin indicate that the paragraph has changes or additions.
+Specific changes in wording are noted using italics and underlines; with italics only indicating new/added
+language and italics that is underlined indicating language that has changed. Deleted language shall be
+noted by striking it through.
+
+The following examples demonstrate how the reader may identify updates and changes:
+
+      EXA-R-01            Example with No Change – The text is the same.
+
+      EXA-R-02            Example with Revision – This text is the same. A wording change, update or
+                          clarification has been made in this text.
+
+      EXA-R-03            Example of New Text – This language is new.
+
+      EXA-R-04            Example of Deleted Requirement – This requirement was rescinded on
+                          m/dd/yyyy.
+
+Review Process
+Enterprise Architecture (EA) Review
+The Enterprise Architecture team provided the initial review of the policy.
+
+Agency Online Review
+The initial policy was posted on VITA’s Online Review and Comment Application (ORCA) for 30 days. All
+agencies, stakeholders, and the public were encouraged to provide their comments through ORCA. All
+comments were carefully evaluated and individuals that provided comments were notified of the action
+taken.
+
+                                                           ii
+
+Prohibited Hardware, Software and Services Policy                                                    ITRM Policy SEC528-00.4
+                                                                                                     September 1, 2025
+
+                                                                  PREFACE
+
+    Publication Designation                                                 technical and data related policies and standards when
+    ITRM Policy SEC528                                                      establishing contracts, reviewing procurement
+                                                                            requests, agency IT projects, budget requests and
+    Subject                                                                 strategic plans, and when developing and managing IT
+    Information Security Policy                                             related services.
+
+    Effective Date                                                          Executive Branch Agencies
+    9/15/2021                                                                Provide input and review during the development,
+                                                                            adoption and update of statewide technical and data
+    Compliance Date                                                         policies, standards and guidelines for information
+    9/15/2021                                                               technology and related systems.
+
+    Supersedes                                                              Judicial and Legislative Branches
+    COV ITRM Policy SEC528-00.3                                              In accordance with the Code of Virginia §2.2-2009:
+                                                                            “The CIO shall work with representatives of the Chief
+    Scheduled Review                                                        Justice of the Supreme Court and Joint Rules
+    Two (2) years from effective date                                       Committee of the General Assembly to identify their
+                                                                            needs.”
+    Most Recent Review
+    9/1/2025                                                                Glossary of Security Definitions
+                                                                            As appropriate, terms and definitions used in this
+    Authority                                                               document can be found in the COV ITRM IT Glossary.
+    Code of Virginia, §2.2-2009(H) (Additional Powers of the                The COV ITRM IT Glossary may be referenced on the
+    CIO relating to security)                                               ITRM Policies, Standards and Guidelines web page at
+    Code of Virginia, §2.2-603                                              https://www.vita.virginia.gov/policy--
+    (Authority of Agency Directors)                                         governance/governance/cov-it-glossary/
+
+    Scope                                                                   Related ITRM Policy
+    This policy is applicable to all public bodies covered by                Current version of the COV ITRM Policy: SEC519 IT
+    Virginia Code § 2.2-5514, including the                                 Information Security Policy; SEC530 Information
+    Commonwealth’s executive, legislative, and judicial                     Security Standard; SEC525 Hosted Information Security
+    branches, as well as independent agencies and,                          Standard; SEC520 Risk Management Standard.
+    institutions of higher education (collectively referred to
+    as “Agency”.) This policy is offered only as guidance to
+    local government entities.
+
+    Purpose
+    To protect the Commonwealth by notifying public
+    bodies of any hardware, software or services that have
+    been prohibited for use in the Commonwealth.
+
+    General Responsibilities
+    (Italics indicate quote from the Code of Virginia
+    requirements).
+
+    Chief Information Officer of the Commonwealth
+    In accordance with Code of Virginia, § 2.2-2009,
+    section H, The CIO shall promptly notify all public
+    bodies as defined in § 2.2-5514 of hardware, software,
+    or services that have been prohibited pursuant to
+    Chapter 55.3 (§ 2.2-5514).
+
+    Chief Information Security Officer
+    The Chief Information Officer (CIO) has designated the
+    Chief Information Security Officer (CISO) to develop
+    Information Security policies, procedures, and
+    standards to protect the confidentiality, integrity, and
+    availability of the Commonwealth’s information assets.
+
+    Virginia Information Technologies Agency (VITA)
+    At the direction of the CIO, VITA leads efforts that draft,
+    review and update technical and data policies,
+    standards, and guidelines for information technology
+    and related systems. VITA uses requirements in IT
+
+                                                                    iii
+
+Prohibited Hardware, Software and Services Policy                                                                                        ITRM Policy SEC528-00.4
+                                                                                                                                         September 1, 2025
+
+                                                                         TABLE OF CONTENTS
+
+1. PROHIBITED TECHNOLOGIES POLICY ......................................................................................................................1
+    1.1 BACKGROUND ...........................................................................................................................................................1
+    1.2 GUIDANCE .................................................................................................................................................................1
+    1.3 STATEMENT OF POLICY ............................................................................................................................................ 2
+2. PROHIBITED SERVICES, HARDWARE AND SOFTWARE ..................................................................................... 2
+3. COMPLIANCE ................................................................................................................................................................. 3
+4. PROCESS FOR REQUESTING EXCEPTIONS ........................................................................................................... 3
+
+                                                                                       iv
+
+Prohibited Hardware, Software and Services Policy                                    ITRM Policy SEC528-00.4
+                                                                                     September 1, 2025
+
+1.    PROHIBITED TECHNOLOGIES POLICY
+
+1.1     Background
+
+        The Commonwealth of Virginia (COV) utilizes numerous information technology services,
+        hardware and software to support the missions of its agencies.
+
+        The Commonwealth and the federal government have identified some services, hardware and
+        software that are prohibited for Commonwealth usage. The CIO is charged to promote awareness
+        of prohibited hardware, software, or services, per Virginia Code § 2.2-2009(H): The CIO shall
+        promptly notify all public bodies as defined in § 2.2-5514 of hardware, software, or services that
+        have been prohibited pursuant to Chapter 55.3 (§ 2.2-5514).
+
+        Virginia public bodies may not use (directly or indirectly) hardware, software, or services that are
+        prohibited, as listed in this policy. Virginia public bodies also should ensure that their contractors
+        do not use such hardware, software, or services.
+
+1.2     Guidance
+
+        Some hardware, software, or services are prohibited by federal authorities and, as a result, by
+        Virginia law. See Va. Code § 2.2-5514. This policy provides a central list.
+
+        The Commonwealth also may prohibit information technology that is not prohibited by the federal
+        government.
+
+        Various federal entities and sources provide identification of certain prohibited services,
+        hardware, and software, including:
+
+                 -   Section 889 of the of the John S. McCain National Defense Authorization Act (NDAA)
+                     for Fiscal Year (FY) 2019 (Pub. L. 115-232) and implementing Federal Acquisition
+                     Regulation (FAR) rules and guidance from the Department of Defense (DoD), General
+                     Services Administration (GSA), and National Aeronautics and Space Agency (NASA).
+                     More information about federal contracting requirements and rules may be found
+                     from the above entities and/or by visiting https://www.acquisition.gov/Section-889-
+                     Policies.
+                 -   Division R of the December 2022 omnibus spending bill (the Consolidated
+                     Appropriations Act, 2023), and implementing standards and guidelines led by the
+                     Office of Management and Budget (OMB).
+                 -   The Federal Acquisition Security Council (FASC), an interagency federal body
+                     focused on supply chain risk management.
+                 -   The Cybersecurity & Infrastructure Security Agency (CISA), a component of the
+                     Department of Homeland Security.
+
+        Federal government prohibitions bar obtaining (through a contract or other instrument) certain
+        telecommunications equipment (including video surveillance equipment) or services produced by
+        the covered entities and their subsidiaries and affiliates.
+
+        Note that TikTok is prohibited both by the Consolidated Appropriations Act, 2023 and by
+        Executive Order 24 (EO24), issued by Governor Youngkin on December 16, 2022, and available
+        from the Governor’s Office’s website.
+
+                                                      1
+
+Prohibited Hardware, Software and Services Policy                                   ITRM Policy SEC528-00.4
+                                                                                    September 1, 2025
+
+          Note that DeepSeek is prohibited by Executive Order 46 (EO46), issued by Governor Youngkin on
+          February 11, 2025, and available from the website of the Governor’s Office.
+
+1.3       Statement of Policy
+
+          It is the policy of the COV (see Virginia Code §2.2-603(F) that each Agency Head is responsible
+          for securing the electronic data that is held by the agency and shall comply with the requirements
+          of Virginia Code § 2.2-2009. Information security policies, standards, and guidelines promulgated
+          pursuant to § 2.2009 shall apply to the Commonwealth's executive, legislative, and judicial
+          branches and independent agencies. Per §2.2-2009 (H), the CIO shall promptly notify all public
+          bodies as defined in § 2.2-5514 of hardware, software, or services that have been prohibited
+          pursuant to Chapter 55.3 (§ 2.2-5514).
+
+          This policy notifies public bodies that they may not use (directly or indirectly) prohibited
+          hardware, software, or services and informs public bodies of current prohibitions. Public bodies
+          also should not enter into, extend, or renew a contract with an entity that uses covered
+          telecommunications equipment or services as a substantial or essential component of any
+          system, or as critical technology as part of any system.
+
+2.     Prohibited Services, Hardware, and Software
+
+          Currently Prohibited:
+
+          Telecommunications equipment, systems, or services, or video surveillance and
+          telecommunications equipment produced by any of the following entities, or any subsidiary or
+          affiliate of such entities:
+
+                  ● Huawei Technologies Company
+                  ● ZTE Corporation
+                  ● Hytera Communications Corporation
+                  ● Hangzhou Hikvision Digital Technology Company
+                  ● Dahua Technology Company
+
+          Any hardware, software, or service developed by or provided in whole or in part by the following or
+          any successor or related entity:
+                 ● Kaspersky (formerly known as Kaspersky Lab)1
+
+          Virginia public bodies should also note the Export Administration Regulations provisions related
+          to the following entities (with the associated country in parentheses): 2
+                   ● Candiru (Israel)
+                   ● NSO Group (Israel)
+                   ● Positive Technologies (Russia)
+                   ● Computer Security Initiative Consultancy PTE LTD, a.k.a. COSEINC (Singapore)
+
+          TikTok and any successor application or service developed by ByteDance Limited or any other
+          entity owned by ByteDance Limited. (federal prohibition)
+
+1
+    See https://www.acquisition.gov/far/52.204-23.
+2
+  For more information, see https://www.federalregister.gov/documents/2021/11/04/2021-
+24123/addition-of-certain-entities-to-the-entity-list.
+
+                                                      2
+
+Prohibited Hardware, Software and Services Policy                                ITRM Policy SEC528-00.4
+                                                                                 September 1, 2025
+
+        TikTok, WeChat, and other applications developed by ByteDance Limited or Tencent Holdings
+        Limited on government-issued devices, state-owned or leased equipment, and Commonwealth
+        owned, operated, or maintained networks. (state prohibition)
+
+        DeepSeek AI Application, and other applications developed by Hangzhou DeepSeek Artificial
+        Intelligence Basic Technology Research Co., Ltd., on government-issued devices, state-owned or
+        leased equipment, and Commonwealth owned, operated, or maintained networks. (state
+        prohibition)
+
+Note that the Commonwealth and the federal government may add new suppliers, contractors, or
+technologies to the prohibited list.
+
+Questions about prohibitions may be directed to CommonwealthSecurity@vita.virginia.gov.
+
+3. Compliance
+
+Compliance with applicable prohibitions on use and contracting is mandatory for all public bodies, as
+defined in Virginia Code § 2.2-5514(A).
+
+4. Process for Requesting Exceptions
+
+        A state public body may request an exception through the following process. If the head of an
+        agency determines that compliance with the provisions of this policy or any related information
+        security standards would adversely impact a business process, the agency head may request
+        approval to deviate from a specific requirement by submitting an exception request to the CISO.
+        For each exception, the requesting agency shall fully document:
+
+             •   The business need;
+             •   The scope and extent;
+             •   Mitigating safeguards;
+             •   Residual risks;
+             •   The specific duration; and
+             •   Agency head approval.
+
+        Each request shall be approved by the agency head, indicating acceptance of the defined residual
+        risks, prior to submission to the CISO. Requests for exception shall be evaluated and decided
+        upon by the CISO, and the requesting party informed of the action taken. An exception cannot be
+        processed unless all residual risks have been identified and the agency head has approved,
+        indicating acceptance of these risks. Denied exception requests may be appealed to the CIO of
+        the Commonwealth.
+
+                                                    3

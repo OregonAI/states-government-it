@@ -95,3 +95,22 @@ def test_vita_page_identity_is_its_title():
     src = {"id": "c", "doc_type": "policy", "jurisdiction": "virginia", "title": "Cloud Third Party Use Policy",
            "citation": "VITA Cloud Third Party Use Policy"}
     states.check_identity(src, text(CLOUD, "policy"), "html")
+
+
+# ---- effective dates: the shared reader takes the first date after an `Effective Date` label. Two Virginia
+# documents print something that is not one date, and the label reader must not invent one. Fixtures are
+# the real pdftotext lines of the documents' publication-designation tables.
+def _eff(name):
+    return states.effective_date((FIX / name).read_text(), "standard", "virginia")
+
+
+def test_effective_date_is_read_from_the_publication_designation_table():
+    assert _eff("sec519-publication-designation.txt") == "2021-09-15"
+
+
+def test_effective_date_left_empty_when_the_table_prints_a_placeholder_date():
+    assert _eff("gov101-publication-designation.txt") is None      # 'January x, 2023 June 23, 2020'
+
+
+def test_effective_date_left_empty_when_the_document_prints_a_list_of_effective_dates():
+    assert _eff("legacy-it-effective-dates.txt") is None           # 'Effective Dates:' then four milestones

@@ -1,0 +1,559 @@
+                                                        Version 1.0
+                                                  September 1, 2015
+
+       COMMONWEALTH OF VIRGINIA
+
+ Information Technology Resource Management (ITRM)
+
+VIRGINIA GEOGRAPHIC INFORMATION NETWORK (VGIN)
+
+            ADMINISTRATIVE BOUNDARY
+
+            GEOSPATIAL DATA STANDARD
+
+      Virginia Information Technologies Agency (VITA)
+
+                                                                                                          Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)                                  September 1, 2015
+
+                                           Table of Contents
+1    Publication Version Control .............................................................................. 1
+2    Reviews ............................................................................................................ 1
+3    Definitions ........................................................................................................ 2
+4    Background ...................................................................................................... 2
+5    Scope................................................................................................................ 3
+6    Governance ...................................................................................................... 3
+7    Components ..................................................................................................... 3
+8    Authority .......................................................................................................... 4
+9    Overview .......................................................................................................... 5
+10 Compliance ....................................................................................................... 8
+
+                                                             ii
+
+                                                                                 Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)         September 1, 2015
+
+1 Publication Version Control
+
+The following table contains a history of revisions to this publication.
+
+Version       Date       Revision Description                                     Contact
+     1.0   01/27/2015    Initial Document                                        Joe Grubbs
+
+Identifying Changes in This Document
+
+   See the latest entry in the revision table above
+   Vertical lines in the left margin indicate the paragraph has changes or additions.
+    Specific changes in wording are noted using italics and underlines; with italics only
+    indicating new/added language and italics that is underlined indicating language that has
+    changed.
+
+The following examples demonstrate how the reader may identify updates and changes:
+
+    Example with No Change – The text is the same. The text is the same.
+
+    Example with Revision – The text is the same. A wording change, update or clarification
+    is made in this text.
+
+    Example of New Text – This text is new.
+
+    Example of deleted text – This text was deleted
+
+2 Reviews
+   VITA’s Commonwealth Data Governance (CDG) staff prepared the first draft of this
+    publication based on information provided by the Virginia Geographic Information
+    Network (VGIN) and its stakeholder community.
+
+                                                1
+
+                                                                                      Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)              September 1, 2015
+
+3 Definitions
+
+The terms used in this Business Narrative comply with the adopted definitions maintained in
+the Commonwealth of Virginia’s Information Technology Resource Management (ITRM)
+Glossary. The ITRM Glossary can be accessed at
+http://www.vita.virginia.gov/uploadedFiles/VITA_Main_Public/Library/PSGs/PSG_Sections/C
+OV_ITRM_Glossary.pdf
+
+4      Background
+
+The Virginia Geographic Information Network (VGIN) is a division under VITA’s Integrated
+Services Program (ISP). Pursuant to § 2.2-2026, Code of Virginia, the VGIN Coordinator
+has been tasked to “Oversee the development of and recommend to VITA the promulgation
+of those policies and guidelines required to support state and local government exchange,
+acquisition, storage, use, sharing and distribution of geographic or base map data and
+related technologies.” Additional duties and responsibilities for VGIN are codified under §
+2.2-2026, and the VGIN Advisory Board under § 2.2-2423, Code of Virginia. Details relating
+to VGIN can be accessed at
+
+http://www.vita.virginia.gov/ISP
+
+The purpose of VGIN Administrative Boundary Geospatial Data Standard is to define the
+data file naming conventions, geometry, map projection system, common set of attributes,
+dataset type and specifications, and level of precision for the Virginia Administrative
+Boundaries Dataset, which will be the data source of record at the state level for
+administrative boundary spatial features within the Commonwealth of Virginia.
+
+Administrative Boundaries shall be defined as boundaries that delineate geographic areas
+for uses such as governance and the general provision of services (e.g. counties, cities,
+towns), administration and/or for a specific purpose (e.g., Congressional Districts, school
+districts, fire districts, voting districts, etc.), and/or provision of statistical data (census
+tracts, census blocks, metropolitan statistical areas, etc.). Boundaries for these various
+types of geographic areas are defined through documented criteria and guidelines.
+
+VGIN produced an initial version of the Virginia Administrative Boundaries Dataset, and a
+corresponding map product for Virginia’s administrative boundary features, covering the
+base period (time point zero, or T 0 ) using a combination of geospatial data from the U.S.
+Census Bureau’s Boundary and Annexation Survey (BAS) and locality boundary
+submissions. The BAS data were structured on the Census Bureau’s Topologically
+Integrated Geographic Encoding and Referencing (TIGER) model.
+
+The Census Bureau conducts the BAS annually to collect geospatial data on selected
+geographic areas. BAS data are used to update information about the boundaries and
+names of all governmental units within the United States. For the base period dataset and
+map product, VGIN reprocessed the BAS data to align with the Virginia Administrative
+Boundaries Dataset schema.
+
+Localities have been invited to submit boundary data information for incorporation into
+Virginia Administrative Boundaries Dataset, and can do so by email submission to
+vbmp@vgin.virginia.gov.
+
+                                                 2
+
+                                                                                 Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)         September 1, 2015
+
+As administrative boundaries change, VGIN will update the Virginia Administrative
+Boundaries Dataset based on the VGIN Administrative Boundary Geospatial Data Standard
+to reflect the new boundaries. Before being accepted by VGIN, boundary changes, as
+opposed to boundary corrections, must be submitted by localities, approved by the Circuit
+Court, and confirmed by notification from the Secretary of the Commonwealth. VGIN has set
+an annual release schedule for updates to the dataset, with the version denoted by year in
+the title (i.e., “Virginia Administrative Boundaries Dataset 2015”).
+
+5      Scope
+The VGIN Administrative Boundary Geospatial Data Standard implements, as a
+Commonwealth ITRM Standard, the data file naming conventions, coordinate systems,
+geometry, attributes, dataset type and specifications for the Virginia Administrative
+Boundaries Dataset. The standard shall be applicable to Commonwealth agencies and serve
+as the data source of record at the state level for administrative boundary spatial features
+within the Commonwealth of Virginia. The VGIN Administrative Boundary Geospatial Data
+Standard does not specify a legal boundary and the product shall not be used as one.
+
+6 Governance
+
+The VGIN Administrative Boundary Geospatial Data Standard has been developed by VITA
+Commonwealth Data Governance (CDG) staff in conjunction with VGIN. VITA/CDG staff
+developed the Business Narrative for the standard, with direction and technical information
+provided by VGIN.
+
+VGIN, acting under guidance from the VGIN Advisory Board, shall be the designated owner
+of the VGIN Administrative Boundary Geospatial Data Standard. As such, VGIN shall have
+authority to interpret and apply the standard. VITA/CDG, acting in its governance capacity
+for Commonwealth data standardization, will continue to support VGIN in the development,
+refinement and maintenance of the standard. VITA/CDG will work with VGIN to ensure
+compliance with the standard by Commonwealth agencies.
+
+The VGIN Administrative Boundary Geospatial Data Standard documentation and review
+package may be accessed in the Enterprise Data Standards Repository at
+http://www.vita.virginia.gov/oversight/dm/default.aspx?id=10344.
+
+7 Components
+The VGIN Administrative Boundary Geospatial Data Standard consists of the following
+components:
+
+    1. Business Narrative describing the standard (this document)
+    2. Metadata on the feature classes represented in the Virginia Administrative
+       Boundaries Dataset (Appendix 1 of this document)
+
+                                              3
+
+                                                                                   Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)           September 1, 2015
+
+8      Authority
+
+The following section references the statutory authority established in the Code of Virginia
+for the Secretary of Technology to adopt the VGIN Administrative Boundary Geospatial Data
+Standard. The section also cites provisions in statute relating to the role of the Secretary of
+Technology, the Chief Information Officer of the Commonwealth (CIO), VITA, VGIN and the
+VGIN Advisory Board in the development, review, adoption and implementation of
+Commonwealth geospatial data standards.
+
+The Secretary of Technology
+
+§ 2.2-225. Position established; Agencies for which responsible; additional powers
+(As Amended)
+http://leg1.state.va.us/cgi-bin/legp504.exe?000+cod+2.2-225
+
+The Chief Information Officer of the Commonwealth (CIO)
+
+§ 2.2-2007. Powers of the CIO (As Amended)
+http://lis.virginia.gov/cgi-bin/legp604.exe?000+cod+2.2-2007
+
+The Virginia Information Technologies Agency
+
+§ 2.2-2010. Additional powers of VITA (As Amended)
+http://lis.virginia.gov/cgi-bin/legp604.exe?000+cod+2.2-2010
+
+The Virginia Geographic Information Network
+
+§ 2.2-2027. Powers and duties of the Division (VGIN); Division coordinator. (As Amended)
+http://leg1.state.va.us/cgi-bin/legp504.exe?000+cod+2.2-2027
+
+The Virginia Geographic Information Network Advisory Board
+
+§ 2.2-2423. Virginia Geographic Information Network Advisory Board; membership; terms;
+quorum; compensation and expenses (As Amended)
+http://leg1.state.va.us/cgi-bin/legp504.exe?000+cod+2.2-2423
+
+                                               4
+
+                                                                                      Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)              September 1, 2015
+
+9 Overview
+
+The VGIN Administrative Boundary Geospatial Data Standard implements, as a
+Commonwealth ITRM Standard, the data file naming conventions, coordinate systems,
+geometry, attributes, dataset type and specifications for the Virginia Administrative
+Boundaries Dataset. The standard shall be applicable to Commonwealth agencies and serve
+as the data source of record at the state level for administrative boundary spatial features
+within the Commonwealth of Virginia.
+
+Administrative Boundaries shall be defined as boundaries that delineate geographic areas
+for uses such as governance and the general provision of services (e.g. counties, cities,
+towns), administration and/or for a specific purpose (e.g., Congressional Districts, school
+districts, fire districts, voting districts, etc.), and/or provision of statistical data (census
+tracts, census blocks, metropolitan statistical areas, etc.). Boundaries for these various
+types of geographic areas are defined through documented criteria and guidelines.
+
+The VGIN Administrative Boundary Geospatial Data Standard shall consist of the following
+elements. VGIN’s metadata for the feature classes have been provided in Appendix 1.
+
+File and Feature Naming Conventions
+
+Dataset Published Title          “Virginia Administrative Boundary Dataset YYYY”
+(Release in YYYY Format)
+Dataset Type                     ESRI-compatible Layer Package
+Feature Geodatabase              “VA_Admin_Boundaries”
+File Name
+Geodatabase Feature              “ADOPTION_LINES” – Contains locality boundary lines that
+Classes and Contents             took precedence during updates to the VA_COUNTY feature
+                                 class
+
+                                 “VA_TOWN” – Contains geometry and attribute information
+                                 for town boundaries in Virginia
+
+                                 “VA_COUNTY” – Contains geometry and attribute
+                                 information for counties and cities in Virginia
+
+Coordinate Systems and Geometry
+
+Projected Coordinate             Lambert Conformal Conic Virginia
+System
+Geographic Coordinate            GCS North American 1983
+System
+Geometry Type                    ESRI True Curves
+
+                                                 5
+
+                                                                                    Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)            September 1, 2015
+
+Feature Classes and Attributes
+
+Feature Class: “ADOPTION_LINES”
+   Field Name           Data Type                           Description
+                                         Global unique identifier (GUI) for the feature.
+     OJECTID                GUI          Internal feature number. Sequential unique
+                                         whole numbers that are automatically generated.
+                                         Feature geometry. Coordinates defining the
+      Shape              Geometry
+                                         features.
+                                         Length of feature in internal units. Positive real
+  Shape_Length             Double
+                                         numbers that are automatically generated
+                                         Administrative boundary adopted for the feature.
+ ADOPTION_FIPS              Text
+                                         Coded based on “FIPS_COUNTY”
+                                         Date stamp denoting the most recent update to
+   LASTUPDATE               Date
+                                         the feature.
+    COMMENT                 Text         General comment field.
+Feature Class: “VA_TOWN”
+   Field Name           Data Type                           Description
+                                         Global unique identifier (GUI) for the feature.
+     OJECTID                GUI          Internal feature number. Sequential unique
+                                         whole numbers that are automatically generated.
+                                         Feature geometry. Coordinates defining the
+      Shape              Geometry
+                                         features.
+                                         Length of feature in internal units. Positive real
+  Shape_Length             Double
+                                         numbers that are automatically generated
+                                         Area of feature in internal units squared. Positive
+   Shape_Area              Double
+                                         real numbers that are automatically generated.
+    STPLFIPS                Text         State-Town FIPS Code.
+                                         Geographic Names Information System (GNIS)
+       GNIS                 Text
+                                         identifier for the feature.
+      NAME                  Text         Jurisdiction name for the feature.
+    NAMELSAD                Text         Full jurisdiction name for the feature.
+                                         Source code for the feature geometry. Coded
+    GSOURCE                 Text
+                                         based on “GEOMETRY_SOURCE”
+     LADOPT                 Text         Local data adoption.
+    AREASQMI               Double        Calculated square mileage of the feature.
+                                         Date stamp denoting the most recent update to
+   LASTUPDATE               Date
+                                         the feature.
+
+                                              6
+
+                                                                                    Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)            September 1, 2015
+
+Feature Class: “VA_COUNTY”
+   Field Name           Data Type                           Description
+                                         Global unique identifier (GUI) for the feature.
+     OJECTID                GUI          Internal feature number. Sequential unique
+                                         whole numbers that are automatically generated.
+      Shape              Geometry        Feature geometry. Coordinates defining the
+                                         features.
+
+  Shape_Length             Double        Length of feature in internal units. Positive real
+                                         numbers that are automatically generated
+   Shape_Area              Double        Area of feature in internal units squared. Positive
+                                         real numbers that are automatically generated.
+    STCOFIPS                Text         State-County FIPS Code.
+                                         Geographic Names Information System (GNIS)
+       GNIS                 Text
+                                         identifier for the feature.
+      NAME                  Text         Jurisdiction name for the feature.
+
+    NAMELSAD                Text         Full jurisdiction name for the feature.
+
+    GSOURCE                 Text         Source code for the feature geometry. Coded
+                                         based on “GEOMETRY_SOURCE”
+     LADOPT                 Text         Local data adoption.
+
+    AREASQMI               Double        Calculated square mileage of the feature.
+
+   LASTUPDATE               Date         Date stamp denoting the most recent update to
+                                         the feature.
+    JURISTYPE               Text         Type of jurisdiction for the feature.
+
+List of Values / Domains
+LOV:
+“GEOMETRY_SOURCE”
+         Code                                       Description
+           L                                  Local Government source
+          V                               VGIN & Local Government source
+           T                             U.S. Census Bureau (TIGER) source
+
+                                              7
+
+                                                                                 Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)         September 1, 2015
+
+10 Compliance
+The VGIN Administrative Boundary Geospatial Data Standard implements, as a
+Commonwealth ITRM Standard, the data file naming conventions, coordinate systems,
+geometry, attributes, dataset type and specifications for the Virginia Administrative
+Boundaries Dataset.
+
+The VGIN Administrative Boundary Geospatial Data Standard shall be applicable to
+Commonwealth agencies and serve as the data source of record at the state level for
+administrative boundary spatial features within the Commonwealth of Virginia.
+
+Agencies not able to comply with the VGIN Administrative Boundary Geospatial Data
+Standard and seeking to implement an alternate compliance strategy may request an
+exception using the VITA Exception Form available on the Web at
+
+http://www.vita.virginia.gov/uploadedFiles/Oversight/EA/Data_Management_Group/EA%20
+Change-Exception%20Request%20Form.doc
+
+Email the completed form to ea@vita.virginia.gov.
+
+As part of the exception request, the requesting agency must state a valid business case for
+the alternate compliance strategy and demonstrate an efficient cost-benefit ratio warranting
+the compliance method.
+
+All exception requests and alternate compliance strategies shall be considered by VITA
+Enterprise Architecture and VGIN staff. However, granting of exceptions and certification of
+compliant data-exchange or transformation schemas shall be at the discretion of VGIN.
+
+                                              8
+
+                                                                                        Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)                September 1, 2015
+
+APPENDIX 1: VGIN ADMINISTRATIVE BOUNDARIES DATASET METADATA
+
+                                        ADOPTION_LINES
+                                       File Geodatabase Feature Class
+
+                                                    Tags
+                                         boundaries, Nation, Polygon
+
+Summary
+
+The ADOPTION_LINE feature class is a representation of the VGIN-adopted boundaries that
+compose the Virginia Administrative Boundaries Dataset. This data set accompanies the
+VA_COUNTY and VA_TOWN feature classes and its recommended use is within an ArcGIS
+environment.
+
+Description
+
+The ADOPTION_LINE feature class is meant to show which locality boundary line took
+precedence when updating the VBMP Administrative Boundary VA_COUNTY feature class. A
+single line represents the locality that was used in incorporation. Generally interior cities were
+used wholesale. Some county boundaries that included ridge lines and hydrography were used
+where available.
+
+Credits
+
+Virginia Geographic Information Network (VGIN)
+
+Use limitations
+The ADOPTION_LINES feature class is not a legal boundary and shall not be used as one. Best
+efforts were undertaken to ensure the correctness of Administrative Boundary data by using the
+best source available throughout the Commonwealth of Virginia, however, all warranties
+regarding the accuracy of the map data and any representation or inferences derived there from
+are hereby expressly disclaimed.
+
+Extent
+
+ West    -83.837899   East     -75.722738
+ North 39.471582      South 36.524413
+
+Scale Range
+
+ Maximum (zoomed in)         1:5,000
+ Minimum (zoomed out) 1:150,000,000
+
+                                                     9
+
+                                                                                     Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)             September 1, 2015
+
+                                          VA_TOWN
+                               File Geodatabase Feature Class
+
+                                               Tags
+                 Virginia, administrative, boundary, boundaries, Nation, Polygon
+
+Summary
+
+VA_TOWN is a feature class representing town boundaries in the Commonwealth of Virginia. This
+dataset was derived from Census TIGER data supplemented with locality data made available
+from the towns involved or the counties containing the towns.
+
+Description
+
+The VA_TOWN dataset is a feature class component of the Virginia Administrative Boundaries
+dataset from the Virginia Geographic Information Network (VGIN). VA_TOWN represents the
+best available town boundary information to VGIN.
+
+VGIN initially sought to develop an improved locality and town boundary dataset in late 2013,
+spurred by response of the Virginia Administrative Boundaries Workgroup community. The
+feature class initially started from an extraction of town features from the Census TIGER dataset
+for Virginia. VGIN solicited input from localities in Virginia through the Road Centerlines data
+submission process as well as through public forums such as the Virginia Administrative
+Boundaries Workgroup and VGIN listservs. Data received were analyzed and incorporated into
+the VA_TOWN feature class where locality data were a superior representation of town
+boundaries. In cases of unresolved contention between data sources, the VGIN Coordinator will
+be arbiter for the selected representation.
+
+                                               10
+
+                                                                                   Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)           September 1, 2015
+
+Credits
+
+Virginia Geographic Information Network (VGIN), the U.S. Census Bureau, and the Localities and
+Towns submitting data to the project
+
+Use limitations
+The VA_TOWN feature class is not a legal boundary and shall not be used as one. Best efforts
+were undertaken to ensure the correctness of Administrative Boundary data by using the best
+source available throughout the Commonwealth of Virginia, however, all warranties regarding the
+accuracy of the map data and any representation or inferences derived there from are hereby
+expressly disclaimed.
+
+Extent
+
+ West    -83.260079   East     -75.181949
+ North 39.300237      South 36.468479
+
+Scale Range
+
+ Maximum (zoomed in)         1:5,000
+ Minimum (zoomed out) 1:150,000,000
+
+                                              11
+
+                                                                                   Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)           September 1, 2015
+
+                                       VA_COUNTY
+                              File Geodatabase Feature Class
+
+                                              Tags
+                Virginia, administrative, boundary, boundaries, Nation, Polygon
+
+Summary
+
+VA_COUNTY is a feature class representing locality (county and city) boundaries in the
+Commonwealth of Virginia. This dataset was derived from Census TIGER data supplemented with
+data made available from the cities and counties themselves.
+
+Description
+
+The VA_COUNTY dataset is a feature class component of the Virginia Administrative Boundaries
+dataset from the Virginia Geographic Information Network (VGIN). VA_COUNTY represents the
+best available city and county boundary information to VGIN.
+
+VGIN initially sought to develop an improved locality and town boundary dataset in late 2013,
+spurred by response of the Virginia Administrative Boundaries Workgroup community. The
+feature class initially started from the locality boundaries from the Census TIGER dataset for
+Virginia. VGIN solicited input from localities in Virginia through the Road Centerlines data
+submission process as well as through public forums such as the Virginia Administrative
+Boundaries Workgroup and VGIN listservs. Data received were analyzed and incorporated into
+the VA_COUNTY feature class where locality data were a superior representation of the city or
+county boundary. In cases of unresolved contention between data sources, the VGIN Coordinator
+will be arbiter for the selected representation.
+
+                                              12
+
+                                                                                   Version 1.0
+VGIN Administrative Boundary Geospatial Data Standard (OTH 702-00)           September 1, 2015
+
+Credits
+
+Virginia Geographic Information Network (VGIN), the U.S. Census Bureau, and the Localities and
+Towns submitting data to the project
+
+Use limitations
+The VA_COUNTY feature class is not a legal boundary and shall not be used as one. Best efforts
+were undertaken to ensure the correctness of Administrative Boundary data by using the best
+source available throughout the Commonwealth of Virginia, however, all warranties regarding the
+accuracy of the map data and any representation or inferences derived there from are hereby
+expressly disclaimed.
+
+Extent
+
+ West    -83.837899   East     -75.084197
+ North 39.471582      South 36.462210
+
+Scale Range
+
+ Maximum (zoomed in)         1:5,000
+ Minimum (zoomed out) 1:150,000,000
+
+                                              13
