@@ -16,6 +16,7 @@ from pathlib import Path
 from src.ingest_common import _clean_line, _decode, _squash
 
 API_HOST = "legislation.nysenate.gov"
+LAW = "STT"                    # the State Technology Law: the only law this state holds; the seed slice names the article
 KEY_FILE = "~/.config/oregonai/ny_openleg_key"
 ROMAN = {1: "I", 2: "II", 3: "III", 4: "IV", 5: "V", 6: "VI", 7: "VII", 8: "VIII", 9: "IX", 10: "X"}
 
@@ -42,8 +43,8 @@ def law_tree_to_text(raw: bytes, slice_: dict | None) -> str:
         law = tree["result"]["info"]["lawId"]
     except (ValueError, KeyError, TypeError):
         raise ValueError("not a law tree: the API did not answer with the article's document tree") from None
-    if law != slice_.get("law") or root.get("locationId") != slice_.get("location"):
-        raise ValueError(f"not the article the seed entry cites ({slice_.get('law')} {slice_.get('location')}): "
+    if law != LAW or root.get("locationId") != slice_.get("article"):
+        raise ValueError(f"not the article the seed entry cites ({LAW} {slice_.get('article')}): "
                          f"the API answered {law} {root.get('locationId')}")
     parts = [root.get("text") or ""] + [c.get("text") or "" for c in (root.get("documents") or {}).get("items", [])]
     blocks = []
@@ -82,7 +83,7 @@ def its_page_to_text(raw: bytes) -> str:
 def to_text(raw, fmt, doc_type, slice_, host):
     if fmt == "json" and doc_type == "statute":
         return law_tree_to_text(raw, slice_)
-    if fmt == "html" and doc_type == "rule":
+    if fmt == "html" and doc_type in ("rule", "executive_order"):
         return its_page_to_text(raw)
     return None
 
@@ -128,6 +129,11 @@ def notes(src, fmt, text):
                 "per source paragraph, the section and subdivision labels kept as printed. The official NYCRR "
                 "(govt.westlaw.com/nycrr) refused the Fetcher with a Cloudflare managed challenge (HTTP 403), "
                 "so this agency copy is the text of record here.")
+    if src["doc_type"] == "executive_order" and fmt == "html":
+        return ("Text taken from the page's title and body area (the `page-body` block) on its.ny.gov, where ITS "
+                "prints the order; site navigation, footer and scripts removed, one line per source paragraph. The "
+                "Governor's own PDF of the order is a scan and did not pass the two-engine OCR gates (the engines "
+                "agreed on 43% of its 14 figures, bar 90%), so this agency copy is the text of record here.")
     return None
 
 

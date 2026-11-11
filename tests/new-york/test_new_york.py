@@ -18,7 +18,7 @@ NY = "new-york"
 
 
 def statute_text(raw, location):
-    return ing.to_text(raw, "json", "statute", NY, {"law": "STT", "location": location})
+    return ing.to_text(raw, "json", "statute", NY, {"article": location})
 
 
 def test_the_state_is_found_by_its_hyphenated_name():
@@ -50,12 +50,12 @@ def lines_of(t):
 
 def test_statute_to_text_refuses_json_that_is_not_the_cited_article():
     with pytest.raises(ValueError, match="not the article"):
-        ing.to_text(ART4, "json", "statute", NY, {"law": "STT", "location": "A5"})
+        ing.to_text(ART4, "json", "statute", NY, {"article": "A5"})
     with pytest.raises(ValueError, match="not the article"):
-        ing.to_text(ART4, "json", "statute", NY, {"law": "EXC", "location": "A4"})
+        ing.to_text(ART4.replace(b'"lawId" : "STT"', b'"lawId" : "EXC"'), "json", "statute", NY, {"article": "A4"})
     with pytest.raises(ValueError, match="not a law tree"):
         ing.to_text(b'{"success": false, "message": "Invalid key"}', "json", "statute", NY,
-                    {"law": "STT", "location": "A4"})
+                    {"article": "A4"})
 
 
 def src_for(**kw):
@@ -181,3 +181,30 @@ def test_an_error_that_quotes_the_request_url_does_not_carry_the_key(tmp_path, k
 def test_other_pages_are_one_plain_get(tmp_path, keyed):
     assert states.hook(NY, "snapshot")({"url": "https://its.ny.gov/x", "doc_type": "rule"},
                                        FakeFetcher(), tmp_path / "a.html", False) is None
+
+
+# ---- an executive order ITS prints on its own site -------------------------------------------
+
+EO117 = (FIX / "its-executive-order-117.html").read_bytes()
+
+
+def test_executive_order_page_text_is_the_order_from_its_heading_to_the_signature_block():
+    t = ing.to_text(EO117, "html", "executive_order", NY)
+    lines = t.splitlines()
+    assert lines[0] == "Executive Order 117"
+    assert "ESTABLISHING THE POSITION OF CHIEF INFORMATION OFFICER (CIO)" in lines
+    assert any(l.startswith("NOW, THEREFORE, I, GEORGE E. PATAKI, Governor of the State of New York") for l in lines)
+    assert "Overseeing and supervising the management and operations of the Office for Technology;" in lines
+    assert any(l.startswith("/s/ Bradford J. Race") for l in lines)
+    for furniture in ("Skip to main", "Facebook", "Press Releases", "<", "\xa0"):
+        assert furniture not in t
+    src = {"id": "ny-eo-117", "jurisdiction": NY, "doc_type": "executive_order",
+           "citation": "Executive Order No. 117", "title": "t"}
+    ing.check_identity(src, t, "html")
+
+
+def test_executive_order_notes_say_the_copy_is_itss_and_why_not_the_governors_scan():
+    src = {"id": "ny-eo-117", "jurisdiction": NY, "doc_type": "executive_order",
+           "citation": "Executive Order No. 117", "title": "t"}
+    n = ing.conversion_notes(src, "html", "x")
+    assert "its.ny.gov" in n and "scan" in n and "OCR" in n
