@@ -232,7 +232,7 @@ sources:
   tags:
   - governance
   identity_text: ITRM Standard (GOV 101-04)
-  why_relevant: 'Item of the VITA library, section ''ITRM Supporting Documents'': the standard for the formulation of ITRM policies, standards and guidelines; applies to Executive Branch agencies as defined in Va. Code 2.2-2006.'
+  why_relevant: 'Item of the VITA library, section ''ITRM Supporting Documents'': the standard for the formulation of ITRM policies, standards and guidelines; applies to Executive Branch agencies as defined in Va. Code 2.2-2006. The PDF prints two dates in its Effective Date row (''January x, 2023'' and ''June 23, 2020''; no effective_date is recorded); Town Hall lists the Policy, Standard, and Guideline Formulation Standard (GOV 101) in effect from 2/29/2024.'
   jurisdiction: virginia
   recheck: monthly
 - id: va-ea200
@@ -247,7 +247,7 @@ sources:
   - governance
   - cloud-resilience
   identity_text: EA Policy (EA200)
-  why_relevant: 'Item of the VITA library, topic ''Enterprise Architecture'': the policy that guides how executive branch agencies acquire, use and manage information technology resources and defines the Commonwealth''s enterprise architecture.'
+  why_relevant: 'Item of the VITA library, topic ''Enterprise Architecture'': the policy that guides how executive branch agencies acquire, use and manage information technology resources and defines the Commonwealth''s enterprise architecture. The PDF prints ''December 2024'' as its Effective Date (a month with no day, so no effective_date is recorded); Town Hall lists the Enterprise Architecture Policy (EA 200) in effect from 3/13/2025.'
   jurisdiction: virginia
   recheck: monthly
 - id: va-ea225
@@ -262,7 +262,7 @@ sources:
   - governance
   - cloud-resilience
   identity_text: EA Standard (EA225)
-  why_relevant: 'Item of the VITA library, topic ''Enterprise Architecture'': the mandatory technical direction and requirement statements agencies follow when planning, acquiring, developing or modifying IT solutions; the umbrella of the EA requirements documents also seeded here.'
+  why_relevant: 'Item of the VITA library, topic ''Enterprise Architecture'': the mandatory technical direction and requirement statements agencies follow when planning, acquiring, developing or modifying IT solutions; the umbrella of the EA requirements documents also seeded here. The PDF prints ''Completion of guidance document process, expected to be July 2024'' as its Effective Date (no effective_date recorded); Town Hall lists the Enterprise Architecture Standard (EA225) in effect from 7/18/2024.'
   jurisdiction: virginia
   recheck: monthly
 - id: va-ea300-01
@@ -356,7 +356,7 @@ sources:
   url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/psgs/pdf/SEC530_Information_Security_Standard.pdf
   format: pdf
   citation: ITRM Standard SEC530-01.2
-  title: Information Security Standard (SEC530.01.1)
+  title: Information Security Standard (SEC530)
   doc_type: standard
   issuing_body: Virginia Information Technologies Agency (VITA)
   tags:
@@ -413,7 +413,7 @@ sources:
   sha256: "bcbb7ef4b6d8798875a14ba8402f84109686b71a79242659706e9bee6fc01b92"
   url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/psgs/pdf/ITStandardNonCOVteleworkSEC511-1.pdf
   format: pdf
-  citation: ITRM Standard SEC511
+  citation: ITRM Standard SEC511-1
   title: IT Standard Use of Non-Commonwealth Computing Devices to Telework (SEC511)
   doc_type: standard
   issuing_body: Virginia Information Technologies Agency (VITA)
@@ -436,36 +436,6 @@ sources:
   - data
   identity_text: ITRM Standard SEC514-5.03
   why_relevant: 'Item of the VITA library, topic ''Information Security'', Information Security Standards: the Removal of Commonwealth Data from Electronic Media Standard.'
-  jurisdiction: virginia
-  recheck: monthly
-- id: va-sec503
-  sha256: "9b9f065aad1747e460a1d924b8cda77a7eb173a8c971bbadcbc6de686cd59364"
-  url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/psgs/pdf/RemoteAccessDocsCrtContrdSEC503.pdf
-  format: pdf
-  citation: ITRM Standard SEC503
-  title: Secure Remote Access to Online Court Documents Standard (SEC503)
-  doc_type: standard
-  issuing_body: Virginia Information Technologies Agency (VITA)
-  tags:
-  - cybersecurity
-  - digital-services
-  identity_text: SEC503
-  why_relevant: 'Item of the VITA library, topic ''Information Security'', Information Security Standards: security standard for remote access to online court documents. The obligated parties are the clerks and courts that offer remote access, not executive branch agencies; seeded because the library lists it as a standard.'
-  jurisdiction: virginia
-  recheck: monthly
-- id: va-sec505-00-3
-  sha256: "be6117607e4d53097bfbefd5315f7afe5f5641eef938983a569c3fa5cbe2d381"
-  url: https://www.vita.virginia.gov/media/vitavirginiagov/commonwealth-security/pdf/SEC505-Virginia-Real-Property-Electronic-Recording-Standard.pdf
-  format: pdf
-  citation: ITRM Standard SEC505-00.3
-  title: Virginia Real Property Electronic Recording Standard (SEC505)
-  doc_type: standard
-  issuing_body: Virginia Information Technologies Agency (VITA)
-  tags:
-  - cybersecurity
-  - digital-services
-  identity_text: SEC 505-00.3
-  why_relevant: 'Item of the VITA library, topic ''Information Security'', Information Security Standards: the standard for electronic recording of real property documents. The obligated parties are the clerks of court that record them; seeded because the library lists it as a standard.'
   jurisdiction: virginia
   recheck: monthly
 - id: va-sec540-01
@@ -494,7 +464,7 @@ sources:
   tags:
   - oversight
   identity_text: CPM 110-05
-  why_relevant: Item of the VITA library, topic 'Project Management'. A guideline (the document prints 'Project Management Guideline' and designator CPM 110-05), seeded because the library lists it. The library also links a Word version of it, which is the same document (see the left-out notes).
+  why_relevant: Item of the VITA library, topic 'Project Management'. A guideline (the document prints 'Project Management Guideline'; its page headers print CPM 110-04 and its revision table lists CPM 110-05), seeded because the library lists it; byte-identical to Town Hall guidance document 7354 ('CPM 110-04', in effect from 11/15/2021). The library also links a Word version, which serves an alternate PDF copy of the same guideline (see the left-out notes).
   jurisdiction: virginia
   recheck: monthly
 - id: va-cpm112-04-8
@@ -508,7 +478,7 @@ sources:
   tags:
   - oversight
   identity_text: CPM 112-04.8
-  why_relevant: 'Item of the VITA library, topic ''Project Management'': its stated purpose is to establish minimum requirements for managing IT projects.'
+  why_relevant: 'Item of the VITA library, topic ''Project Management'': its stated purpose is to establish minimum requirements for managing IT projects. The PDF prints ''Confirmed after guidance document process'' as its Effective Date (no effective_date recorded); Town Hall lists the Project Management Standard (CPM 112-04) in effect from 7/4/2024.'
   jurisdiction: virginia
   recheck: monthly
 - id: va-cpm111-05
@@ -552,7 +522,7 @@ sources:
   - oversight
   - funding
   identity_text: CPM 516-04
-  why_relevant: Item of the VITA library, topic 'Technology Management'. The library links this copy on the Virginia Regulatory Town Hall (townhall.virginia.gov, the state's guidance-document register), not a VITA file. It prints 'ITIM Standard (CPM 516-04)' on its cover with the placeholder date 'Month xx, 2024', and its revision table lists CPM 516-04 as 9/6/2024. VITA's own ITIM page links an older file, CPM 516-03 of August 3, 2021 (see the left-out notes).
+  why_relevant: 'Item of the VITA library, topic ''Technology Management''. The library links this copy on the Virginia Regulatory Town Hall (townhall.virginia.gov, the state''s guidance-document register), not a VITA file. It prints ''ITIM Standard (CPM 516-04)'' on its cover with the placeholder date ''Month xx, 2024'', and its revision table lists CPM 516-04 as 9/6/2024. VITA''s own ITIM page links an older file, CPM 516-03 of August 3, 2021 (see the left-out notes). The PDF prints a placeholder Effective Date (''Month xx, 2024''); Town Hall lists CPM 516-04 in effect from 1/30/2025.'
   jurisdiction: virginia
   recheck: monthly
 - id: va-ai-standard
@@ -580,7 +550,7 @@ sources:
   tags:
   - ai
   identity_text: EA Policy (EA400)
-  why_relevant: 'Listed on VITA''s Artificial Intelligence page under ''Standards''. The AI Utilization Policy (cover: ''EA Policy (EA400)'', June 2026); its stated scope is Executive Branch state agencies and institutions of higher education that manage, develop, purchase and use IT.'
+  why_relevant: 'Listed on VITA''s Artificial Intelligence page under ''Standards''. The AI Utilization Policy (cover: ''EA Policy (EA400)'', June 2026); its stated scope is Executive Branch state agencies and institutions of higher education that manage, develop, purchase and use IT. In-force status (owner decision): the PDF prints its Effective Date as the placeholder ''(Date)'' (version 1.1, 6/30/2026 in its revision table), and Town Hall''s list of VITA guidance documents in effect (read 2026-11-11) does not carry it. No effective_date is recorded; whether it is in force is the owner''s call.'
   jurisdiction: virginia
   recheck: monthly
 - id: va-eia-framework
@@ -886,6 +856,149 @@ sources:
   why_relevant: 'Linked from VITA''s Governance page. The rules that apply to suppliers'' performance or delivery of all information technology goods and services under a VITA contract (a vendor under a state contract is in scope): compliance with Commonwealth and federal laws, the ITRM policies and standards and EA roadmaps, listed federal and industry standards, and the Service Management Manuals. A web page; its lists of federal and industry standards are links to outside sites, whose text is not part of this document.'
   jurisdiction: virginia
   recheck: monthly
+- id: va-it-authority-delegation
+  sha256: "2dcf323ad3734c4dabc4ea85c271578cf4fb1b57cebfa70b1d110074a41470c8"
+  url: https://www.vita.virginia.gov/media/vitavirginiagov/supply-chain/pdf/Authority-and-Delegation-Policy.pdf
+  format: pdf
+  citation: 'VITA IT Procurement: Authority and Delegation Policies'
+  title: 'IT Procurement: Authority and Delegation Policies'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  - governance
+  identity_text: 'IT Procurement: Authority and Delegation Policies'
+  why_relevant: 'Linked from VITA''s Procurement Policies page (vita.virginia.gov/procurement/forms-policies/procurement-policies/) as ''Authority & Delegation''. VITA''s statutory responsibility for IT procurement (Va. Code 2.2-2012) and the purchasing authority it delegates to executive branch agencies, with the procurements that need CIO approval. Town Hall (guidance document 7324) lists it in effect from 7/1/2021; its copy (GDoc_VITA_7324_v1.pdf) has the same effective date and small wording differences from this VITA file, which is the one seeded.'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-it-small-purchase
+  sha256: "803b9dafe3a985a4ed7e25f3c479e287c19ffdc0e46849537d4489cdff61b568"
+  url: https://www.vita.virginia.gov/media/vitavirginiagov/supply-chain/pdf/Small-Purchase-Policy-2024-01-23.pdf
+  format: pdf
+  citation: 'VITA IT Procurement: Small Purchase Policy'
+  title: 'Small Purchase Policy'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  identity_text: 'Small Purchase Policy'
+  why_relevant: 'Linked from VITA''s Procurement Policies page (vita.virginia.gov/procurement/forms-policies/procurement-policies/) as ''Small Purchase Policy''. VITA''s small purchase policy for executive branch agencies (Va. Code 2.2-2006, 2.2-2012). This VITA file prints ''Effective Date 01/23/2024''. Town Hall (guidance document 7321) lists the policy in effect from 12/7/2023, and its copy prints the placeholder ''Effective Date xx/xx/2023''; the VITA file is the one seeded.'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-it-joint-cooperative-procurement
+  sha256: "e3fc420d28aceebed3b01fbdb01c581591c340a4bf40b95aabcd68ec962caac6"
+  url: https://www.vita.virginia.gov/media/vitavirginiagov/supply-chain/pdf/Joint-and-Cooperative-Procurement-Policy.pdf
+  format: pdf
+  citation: 'VITA IT Procurement: Joint and Cooperative Procurement Policy'
+  title: 'IT Procurement: Joint and Cooperative Procurement Policy'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  identity_text: 'Joint and Cooperative Procurement Policy'
+  why_relevant: 'Linked from VITA''s Procurement Policies page (vita.virginia.gov/procurement/forms-policies/procurement-policies/) as ''Joint and Cooperative Procurement (including GSA)''. Procedures for sponsoring and using jointly and cooperatively procured contracts to buy IT goods and services, including CIO approval; it states that it covers all public bodies (Va. Code 2.2-4301). Byte-identical to the Town Hall copy (guidance document 7320, in effect from 7/1/2022).'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-it-sole-source
+  sha256: "555397919c032d5dbc87eff0024d4fa3e0d45f1c848c5060921ae58d0d68dbc9"
+  url: https://www.vita.virginia.gov/media/vitavirginiagov/supply-chain/pdf/Sole-Source-Policy-2024-12-04.pdf
+  format: pdf
+  citation: 'VITA IT Procurement: Sole Source Policy'
+  title: 'IT Procurement: Sole Source Policy'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  identity_text: 'Sole Source Policy'
+  why_relevant: 'Linked from VITA''s Procurement Policies page (vita.virginia.gov/procurement/forms-policies/procurement-policies/) as ''Sole Source Procurement Policy''. Sole source procurements of IT goods and services: authority, justification and approval, negotiation and high-risk contracts. Byte-identical to the Town Hall copy (guidance document 7319, listed in effect from 7/1/2020 although the PDF''s cover prints ''07/2024'').'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-it-emergency-procurement
+  sha256: "273d79fb6d689d4e75350d80edc24290cfdfb5f3aeab29b41b957d711c1fdee2"
+  url: https://www.vita.virginia.gov/media/vitavirginiagov/supply-chain/pdf/Emergency-Procurement-Policy.pdf
+  format: pdf
+  citation: 'VITA IT Procurement: Emergency Procurement'
+  title: 'IT Procurement: Emergency Procurement'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  identity_text: 'Emergency Procurement'
+  why_relevant: 'Linked from VITA''s Procurement Policies page (vita.virginia.gov/procurement/forms-policies/procurement-policies/) as ''Emergency Procurement Policy''. Procurement of IT goods and services in an emergency under Va. Code 2.2-4303(F): notice of award, documentation and prohibitions. Byte-identical to the Town Hall copy (guidance document 7317, listed in effect from 7/1/2021 although the PDF''s cover prints ''07/2024'').'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-it-swam-procurement
+  sha256: "ce475f32b69df0938b97b95cb1294a34ed43671a9e66f0297ba8aed9b5bc67c6"
+  url: https://www.vita.virginia.gov/media/vitavirginiagov/supply-chain/pdf/IT-Procurement-Policy-Enhancing-SWaM-Businesses.pdf
+  format: pdf
+  citation: 'VITA IT Procurement Policy for Enhancing Opportunities for Small, Women, and Minority-Owned Businesses'
+  title: 'IT Procurement Policy for Enhancing Opportunities for Small, Women, and Minority-Owned Businesses'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  identity_text: 'Enhancing Opportunities for Small, Women, and Minority'
+  why_relevant: 'Linked from VITA''s Procurement Policies page (vita.virginia.gov/procurement/forms-policies/procurement-policies/). Set-asides, competitive requirements and subcontracting plans for small, women- and minority-owned IT suppliers. This VITA file prints ''Effective Date: 07/01/2022'' under the title ''IT Procurement Policy for Enhancing Opportunities for Small, Women, and Minority-Owned Businesses''. Town Hall (guidance document 7314) lists a different file, titled ''IT Procurement Policy for Enhancing and Expanding Contracting Opportunities for Small, Women- and Minority-owned Businesses'', in effect from 12/7/2020 (its PDF prints ''Effective Date: 12/07/2020''). Owner decision: which of the two is the policy in force; the VITA file, which VITA links today, is the one seeded and the Town Hall file is not.'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-it-contingent-labor
+  sha256: "c1e1ed1829ea70fc2c67eabf9e3cca8c9e878b9dbf1a56d16660ececee93ecef"
+  url: https://townhall.virginia.gov/L/GetFile.cfm?File=C:%5CTownHall%5Cdocroot%5CGuidanceDocs%5C136%5CGDoc_VITA_7309_v2.pdf
+  format: pdf
+  citation: 'VITA ITCL Policy for Procuring and Managing Contingent Labor Resources'
+  title: 'ITCL Policy for Procuring and Managing Contingent Labor Resources'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  identity_text: 'POLICY FOR PROCURING AND MANAGING CONTINGENT LABOR RESOURCES'
+  why_relevant: 'Not linked from VITA''s Procurement Policies page; taken from the Virginia Regulatory Town Hall (townhall.virginia.gov, the state''s guidance-document register), guidance document 7309, in effect from 10/26/2023 (file GDoc_VITA_7309_v2.pdf). Policy for staff augmentation and statement-of-work contingent labor through VITA''s IT contingent labor contract (Va. Code 2.2-2012, 2.2-2020, 2.2-4300 et seq., 2.2-4308.2).'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-it-telecom-waiver
+  sha256: "160dfaf80d54c0c5a00bac888d4274b42fe94a5a9c1cad8f75c6541b997c7c5c"
+  url: https://townhall.virginia.gov/L/GetFile.cfm?File=C:%5CTownHall%5Cdocroot%5CGuidanceDocs%5C136%5CGDoc_VITA_7323_v1.pdf
+  format: pdf
+  citation: 'VITA IT Procurement: Telecommunications Waiver Policy'
+  title: 'IT Procurement: Telecommunications Waiver Policy'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  identity_text: 'Telecommunications Waiver Policy'
+  why_relevant: 'Not linked from VITA''s Procurement Policies page; taken from the Virginia Regulatory Town Hall, guidance document 7323, in effect from 8/8/2018 (file GDoc_VITA_7323_v1.pdf; the PDF prints ''EFFECTIVE DATE: 08/08/2018'' and ''Amended: Rev. 06, 09/27/2017''). Governs the waivers that let agencies use non-VITA contracts for telecommunications goods and services; it is a procurement policy for agencies, not telecom infrastructure policy (the domain leaves broadband, 911 and telecom out).'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-it-commonwealth-security-cloud
+  sha256: "6aa0020ca9bd1d4af85e578f4d313bc00b84cea241c9d6152f2e782e0720dfbf"
+  url: https://townhall.virginia.gov/L/GetFile.cfm?File=C:%5CTownHall%5Cdocroot%5CGuidanceDocs%5C136%5CGDoc_VITA_7383_v1.pdf
+  format: pdf
+  citation: 'VITA Commonwealth Security and Cloud Requirements'
+  title: 'Commonwealth Security and Cloud Requirements'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  - cybersecurity
+  - cloud-resilience
+  identity_text: 'What Commonwealth Procurement Officers Need to Know About Commonwealth Security and Cloud'
+  why_relevant: 'Not linked from VITA''s Procurement Policies page; taken from the Virginia Regulatory Town Hall, guidance document 7383, in effect from 7/1/2018 (file GDoc_VITA_7383_v1.pdf; cites Va. Code 2.2-2009). A two-page guidance for procurement officers on compliance with Commonwealth security and cloud requirements in IT contracts. Owner decision: it is guidance rather than a numbered policy; seeded because Town Hall registers it as a VITA guidance document in effect.'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-buy-it-manual
+  sha256: "63da1d75ca1eb55c6f419d3a590905fd6b3ed3c2550200134ac4289064635dc9"
+  url: https://townhall.virginia.gov/L/GetFile.cfm?File=C:%5CTownHall%5Cdocroot%5CGuidanceDocs%5C136%5CGDoc_VITA_7675_v2.pdf
+  format: pdf
+  citation: 'VITA Buy IT: IT Procurement Manual'
+  title: 'IT procurement manual - Buy IT'
+  doc_type: policy
+  issuing_body: Virginia Information Technologies Agency (VITA)
+  tags:
+  - procurement
+  identity_text: 'Buy IT: IT Procurement Manual'
+  why_relevant: 'Not linked from VITA''s Procurement Policies page; taken from the Virginia Regulatory Town Hall, guidance document 7675 (file GDoc_VITA_7675_v2.pdf, posted 6/20/2025; Town Hall lists its effective date as 3/28/2024 while the PDF''s cover reads ''Spring 2025 update''). VITA''s IT procurement manual for executive branch agencies: authority, delegation, procurement methods, contracts and contract administration, 248 pages. Owner decision: a 34 MB manual of procedures, seeded in full because Town Hall registers it as a guidance document in effect and the corpus mirrors full text.'
+  jurisdiction: virginia
+  recheck: monthly
 - id: va-enterprise-data-standards
   url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/psgs/pdf/COV_Adopted_Standards.xlsx
   format: xlsx
@@ -909,7 +1022,7 @@ sources:
   tags:
   - governance
   watch_only: true
-  why_relevant: 'The statewide ITRM policy library index (67 links on 2026-11-11: 25 seeded as documents, 1 stub, 41 left out; see the left-out notes). A policy or standard added, replaced or moved to the superseded list raises a review-the-seed-list report.'
+  why_relevant: 'The statewide ITRM policy library index (67 links on 2026-11-11: 23 seeded as documents, 1 stub, 43 left out; see the left-out notes). A policy or standard added, replaced or moved to the superseded list raises a review-the-seed-list report.'
   jurisdiction: virginia
   recheck: monthly
 - id: va-watch-vita-governance
@@ -999,11 +1112,48 @@ sources:
   jurisdiction: virginia
   recheck: monthly
 
+- id: va-watch-vita-procurement-policies
+  url: https://www.vita.virginia.gov/procurement/forms-policies/procurement-policies/
+  format: html
+  citation: 'VITA Procurement Policies page'
+  title: 'VITA: Procurement Policies'
+  doc_type: policy
+  tags:
+  - procurement
+  watch_only: true
+  why_relevant: 'The page that links VITA''s IT procurement policies (authority and delegation, small purchase, joint and cooperative, sole source, emergency, small-business), the how-to sheets, request forms, the EU data privacy memo and the IT goods and services list (6 policies seeded, the rest left out; see the left-out notes). A policy added or replaced here raises a review-the-seed-list report.'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-watch-townhall-vita-guidance
+  url: https://townhall.virginia.gov/L/GDocs.cfm?agencynumber=136
+  format: html
+  citation: 'Virginia Regulatory Town Hall: VITA guidance documents in effect'
+  title: 'Virginia Regulatory Town Hall: Guidance Documents in Effect for the Virginia Information Technologies Agency'
+  doc_type: policy
+  tags:
+  - governance
+  - procurement
+  watch_only: true
+  why_relevant: 'The state''s register of VITA guidance documents in effect (21 on 2026-11-11: 10 procurement documents, 4 project-management and investment standards, 3 enterprise architecture documents, GOV 101, GOV 102-02, SEC503-03 and SEC505; reconciled row by row in the left-out notes). A guidance document added, revised or withdrawn here raises a review report.'
+  jurisdiction: virginia
+  recheck: monthly
+- id: va-watch-admincode-title1
+  url: https://law.lis.virginia.gov/admincode/title1/
+  format: html
+  citation: 'Virginia Administrative Code Title 1 contents'
+  title: 'Virginia Administrative Code: Title 1 (Administration) contents'
+  doc_type: rule
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: 'VITA is Agency 40 of Title 1 (1VAC40) in the Administrative Code''s agency list, but Title 1''s contents list no Agency 40 chapters (fetched 2026-11-11; the agency page https://law.lis.virginia.gov/admincode/title1/agency40/ redirects to this page). A chapter added for Agency 40 raises a review report.'
+  jurisdiction: virginia
+  recheck: monthly
 left_out:
 - text: |-
     ---- Virginia: found and left out (each was seen on an official page on 2026-11-11; the reason is recorded here). 'Owner decision' marks a judgment call a reviewer should confirm.
 - text: |-
-    Rules: none. Virginia's Administrative Code (law.lis.virginia.gov/admincode, read through the portal's documented JSON API, AdministrativeCodeGetTitleListOfJson and AdministrativeCodeGetAgencyListOfJson) lists 24 titles and 152 agencies; none of the agency names contains 'Information', 'Technolog', 'VITA', 'Cyber' or 'Data'. Va. Code 2.2-2007 says the CIO shall promulgate regulations, but VITA publishes its requirements as ITRM policies, standards and guidelines (seeded), not as regulations. VITA's own 'VITA Rules' page is a supplier-rules instrument, seeded as a policy. No rule watch page is seeded because there is no VITA agency page to watch.
+    Rules: none in force. Virginia's Administrative Code agency list (https://law.lis.virginia.gov/admincodeagencylist, 147 agency links, fetched 2026-11-11 through the Fetcher) names the 'Virginia Information Technologies Agency' at /admincode/title1/agency40/ (1VAC40). That agency page redirects to the Title 1 contents page (https://law.lis.virginia.gov/admincode/title1/), which lists Agencies 7, 17, 20, 30, 42, 45, 50, 55, 65, 75 and 80 and no Agency 40: VITA has no chapters, so no rule in force. (The first pass of this record said that no agency name contained 'Information' or 'Technolog'; that measurement was wrong, the agency is listed, and the conclusion rests on the Title 1 contents.) Title 1's contents page is watched, so a new 1VAC40 chapter raises a report. Va. Code 2.2-2007 says the CIO shall promulgate regulations, but VITA publishes its requirements as ITRM policies, standards and guidelines (seeded) and as Town Hall guidance documents, not as regulations. VITA's own 'VITA Rules' page is a supplier-rules instrument, seeded as a policy.
 - text: |-
     Statutes about AI: none found that binds state agencies. The texts fetched in this run (Va. Code chapters 20.1, 35, 38, 38.1, 38.2, 4.3 and 55.3 of title 2.2, sections 2.2-2699.5, 2.2-2699.6, 2.2-203.2:4 and 18.2-186.6) contain neither 'artificial intelligence' nor 'generative'. VITA's AI standard and AI policy and the executive orders are the Virginia instruments on government AI. A web search (discovery only, nothing fetched from it) reported a 2026 act on independent AI verification organizations (SB 384 / HB 797) described as a study and verification-organization measure, which would bind private organizations and the Joint Commission on Technology and Science rather than state agencies; it was not found in the Code pages read and is a lead, not a finding. Owner decision: whether to look for 2026 session laws that are not yet codified.
 - text: |-
@@ -1013,9 +1163,17 @@ left_out:
 - text: |-
     Executive orders and directives: the Governor's Executive Actions page (read 2026-11-11, Governor Abigail D. Spanberger) lists 22 executive orders (EO-1 to EO-22) and 6 executive directives (ED-1 to ED-6). All 28 PDFs were fetched and scanned for 'information technology', 'cyber', 'artificial intell', 'VITA' and 'chief information'. Seeded: EO-22 and ED-6. Left out: the other 26, which do not govern state IT, cybersecurity, data or AI. EO-19 (Unified Readiness Framework, all-hazards preparedness) names cyber incidents and cybersecurity as hazards the framework covers; it is emergency management, not IT governance (owner decision). EO-10 rescinds Executive Order 47 (not read as IT). Orders of former governors that remain in effect are listed at the Library of Virginia in a script-rendered collection that could not be read, so no earlier order could be confirmed in force; Executive Order 46 (2025, DeepSeek) is a stub for that reason and EO 30 (2024, AI) is listed on VITA's AI page as RESCINDED (not seeded: not in force).
 - text: |-
-    Policy library (VITA Policies, Standards & Guidelines, 67 links read row by row on 2026-11-11): 25 documents (24 PDFs and the Cloud Third Party Use Policy page), 1 stub (Enterprise Data Standards, a spreadsheet), 41 left out, listed in the next items. Reconciliation: 25 + 1 + 41 = 67.
+    Policy library (VITA Policies, Standards & Guidelines, 67 links read row by row on 2026-11-11): 23 documents (22 PDFs and the Cloud Third Party Use Policy page), 1 stub (Enterprise Data Standards, a spreadsheet), 43 left out, listed in the next items. Reconciliation: 23 + 1 + 43 = 67. The 43 are the 8 rows of the next item, the 2 circuit-court-clerk standards (SEC503, SEC505) and the 33 Tools and Templates rows.
 - text: |-
-    Policy library, left out (8 rows): 'COV ITRM PSG and Supporting Documents Overview' (a Word file, January 25, 2022, that explains the ITRM document framework and lifecycle process; an overview, not an instrument); the 'COV IT Glossary' page (a glossary); the 'EO 30' link in the Artificial Intelligence topic (rescinded); 'Hosted Environment Information Security Standard (SEC525)' and 'Information Security Standard (SEC501)', both listed under 'Superseded Standards' (the fetched PDFs print SEC525-5.0 and SEC501-12.0, August 25, 2022; superseded, so not in force); the Word-version link for the Commonwealth Project Management Guideline (CPM 110-05), which the Fetcher found to serve the same 98-page PDF as the PDF link (a duplicate); and the 'Project Management Division (PMD)' and 'IT Investment Management' links, which are pages (watched, with the Project Management and IT Investment Management pages).
+    Policy library, left out (8 rows; the two clerk standards follow in their own item): 'COV ITRM PSG and Supporting Documents Overview' (a Word file, January 25, 2022, that explains the ITRM document framework and lifecycle process; an overview, not an instrument); the 'COV IT Glossary' page (a glossary); the 'EO 30' link in the Artificial Intelligence topic (rescinded); 'Hosted Environment Information Security Standard (SEC525)' and 'Information Security Standard (SEC501)', both listed under 'Superseded Standards' (the fetched PDFs print SEC525-5.0 and SEC501-12.0, August 25, 2022; superseded, so not in force); the Word-version link for the Commonwealth Project Management Guideline (CPM 110-05), which the Fetcher found to serve a 98-page PDF (5,194,917 bytes, sha256 d2c57f36...) under a .docx name: an alternate copy of the same guideline with small text differences (an earlier export: it reads 'Virginia Information Technology Agency' and lacks '(ITRM Project Management Guideline CPM 110-05)' in revision 5; 19 diff lines against the seeded PDF, sha256 59b9169c...); the PDF link is the one seeded; and the 'Project Management Division (PMD)' and 'IT Investment Management' links, which are pages (watched, with the Project Management and IT Investment Management pages).
+- text: |-
+    Policy library, SEC503 and SEC505 (moved from documents to left out): 'Secure Remote Access to Online Court Documents Standard (SEC503)' and 'Virginia Real Property Electronic Recording Standard (SEC505)'. Both fail the inclusion test: the obligated parties are courts' clerks, not a state executive entity (domain.yml leaves out 'legislative and judicial branch IT' and 'local government instruments'). SEC503 prints that it covers 'circuit court clerks' offices or application service providers' under Va. Code 17.1-279 and 17.1-294; SEC505 prints that it 'is applicable to all Clerks of the Circuit Courts'. Town Hall lists both in its VITA list in effect (SEC503-03 from 4/24/2025, SEC505 from 3/27/2025). Owner decision: keep them out, or seed them as VITA-published standards (the files are in the library and the Town Hall register).
+- text: |-
+    Procurement Policies page (https://www.vita.virginia.gov/procurement/forms-policies/procurement-policies/, 15 links read 2026-11-11, watched). Seeded (6 policy PDFs, all under /media/vitavirginiagov/supply-chain/pdf/): Authority & Delegation, Small Purchase Policy, Joint and Cooperative Procurement (including GSA), Sole Source Procurement Policy, Emergency Procurement Policy, and the IT Procurement Policy for Enhancing Opportunities for Small, Women-and Minority-Owned Businesses. Left out (9): the 'VITA SCM Memo EU Data Privacy' (rev 2018-11-06; PDF titled 'Guidance on Questions Regarding New EU Data Privacy Regulations', a memo of guidance on the GDPR rather than an instrument; owner decision); two how-to sheets (How to Get an IT Joint and Cooperative Procurement Approved; How to Get an IT Sole Source Procurement Approved); four request forms in Word (IT Joint and Cooperative Procurement Approval Request Form, Sole Source Procurement Approval Request Form, Emergency Procurement Notification Form, Supplier Procurement Subcontracting Plan); the page 'Summary of VITA's Procurement Delegation and Where to Submit Forms for Approval' (a page about the PGR review process; its link was not followed in this run); and 'VITA's IT Goods and Services List' (a list file, IT-Goods-and-Services-Commodity-Codes.docx).
+- text: |-
+    Virginia Regulatory Town Hall, guidance documents in effect for the Virginia Information Technologies Agency (https://townhall.virginia.gov/L/GDocs.cfm?agencynumber=136, '21 guidance documents', read 2026-11-11, watched), reconciled row by row (document id, title, effective date as listed). Procurement, seeded (10): 7309 ITCL Policy for Procuring and Managing Contingent Labor Resources (10/26/2023; seeded from the Town Hall file); 7314 IT Procurement Policy for Enhancing and Expanding Contracting Opportunities for Small, Women- and Minority-owned Businesses (12/7/2020; Town Hall's file is NOT seeded, VITA's linked file with a different title and a 07/01/2022 date is, owner decision); 7317 IT Procurement: Emergency Procurement (7/1/2021; VITA's file is byte-identical); 7319 IT Procurement: Sole Source Policy (7/1/2020; byte-identical); 7320 IT Procurement: Joint and Cooperative Procurement Policy (7/1/2022; byte-identical); 7321 IT Procurement: Small Purchase Policy (12/7/2023; VITA's file is the later 01/23/2024 text); 7323 IT Procurement: Telecommunications Waiver Policy (8/8/2018; Town Hall file); 7324 IT Procurement: Authority and Delegation Policies (7/1/2021; VITA's file, small wording differences); 7383 Commonwealth Security and Cloud Requirements (7/1/2018; Town Hall file); 7675 IT procurement manual - Buy IT (3/28/2024; Town Hall file, 34 MB). Other rows, seeded from the VITA library (8): CPM 111-05 Project Manager Selection and Training Standard (4/19/2022); CPM 112-04 Project Management Standard (7/4/2024; seeded as CPM 112-04.8); CPM 516-04 Information Technology Investment Management Standard (1/30/2025; seeded from the Town Hall copy); EA 200 Enterprise Architecture Policy (3/13/2025); EA 300-01 Cloud Based Hosting Services Information Technology Solutions Policy (10/15/2018); EA225 Enterprise Architecture Standard (7/18/2024); GOV 101 Policy, Standard, and Guideline Formulation Standard (2/29/2024); GOV 102-02 Information Technology Resource Management Policy (6/1/2016) (rows matched to the seeds by designator and title; the file bytes were compared only for CPM 110-04 and the ten procurement rows). CPM 110-04 Project Management Guideline (7354, 11/15/2021): the Town Hall file is byte-identical (sha256 59b9169c...) to the seeded CPM 110-05 PDF, which prints 'CPM 110-04' in its page headers and 'CPM 110-05' in its revision table (seeded once, as va-cpm110-05). SEC503-03 Security Standard for Remote Access to Court Documents Online (7884, 4/24/2025) and SEC505 Virginia Real Property Electronic Recording Standard (7877, 3/27/2025): left out, see the clerk-standards item above. Total: 10 procurement + 8 library rows + CPM 110-04 + 2 clerk standards = 21 of 21.
+- text: |-
+    ODGA Agency Resources page (https://www.odga.virginia.gov/agency-resources/, read 2026-11-11, watched), reconciled section by section; every link is left out, nothing there is seeded. (a) 'Data Governance and Literacy Site' (1): a SharePoint library for Commonwealth employees and contractors only, sign-in-only, not read. (b) 'AI Governance' (10): templates, forms and guidebooks (AI Model Card, AI Explainability Model Card Instructions, AI Incident Response Form, AI Incident Response Playbook Template, AI System Implementation & Operations Plan, AI Vendor Assessment Plan, AI Bias and Fairness Guidebook, Algorithmic Impact Assessment, Data to AI Governance Map, GDCDPA Compliance Guidebook for AI Systems). (c) 'Commonwealth of Virginia Policy Templates and Guidelines' (11): seven policy templates (Data Quality Policy Template, Data Ethics Policy Template, Data Retention Policy Template, Data Security Policy Template, Information Data Privacy Policy Template, Data Stewardship Policy Template, Metadata Policy Template: templates for an agency to adapt, not instruments); three documents that are not templates by name, left out as OWNER DECISIONS, each a Word file fetched 2026-11-11: 'COV Data Governance Guidelines' (prints 'This policy applies to all executive branch agencies and their employees who handle, manage, or access data'), 'Data Quality Standards' (prints that it applies to 'Office of Data Governance and Analytics (ODGA) employees who create, manage, or use data as well as contractors and consultants', so ODGA's own staff) and 'Data Classification Framework' (prints 'Compliance with this standard is mandatory for (1) agencies required to comply with Commonwealth security standards, and (2) entities that participate in the Commonwealth Data Trust'; it is based on SEC540, which is seeded); one link to the Government Data Collection and Dissemination Practices Act on law.lis.virginia.gov (chapter 38 of title 2.2, seeded). (d) 'Sample Job Descriptions' (6): Data Analyst, Data Curation Analyst, Data Steward, Data Governance Lead, Data Engineer, Data Scientist (job descriptions). (e) 'Training' (5): The 6 Dimensions of Data Quality posters, Data Governance Roles, ASU Data Literacy YouTube Course (an outside video course), Data Governance Roles Poster, What is NIEM Poster (training and posters). (f) 'Data Management and Inventory' (5): Data Inventory Template, Records Management Best Practices, Data Modeling Guidebook, Data Management Maturity Assessment, its 'Prescription' (templates, workbooks and guidebooks). (g) 'Data Governance and Strategy' (9): Business Glossary Sample Terms, BI Reporting Governance Guidebook, Data Governance Council Guidebook, Data Strategy Template, Data Governance RACI Template, Data Risk Assessment Template, Data Governance Guidebook, Data Governance Balanced Scorecard, Data Ethics Review Checklist (guidebooks, templates, workbooks, a checklist). (h) 'Prompt Library' (2), 'Data Protection and Privacy' (3: Understanding PII Guidebook, Protecting Structured Data Guidebook, Protecting Unstructured Data Guidebook), 'Data Quality and Readiness' (3: Data Quality Sample Rules Guidebook, Data Quality SQL Scripts, AI Data Readiness Checklist), 'Miscellaneous' (4: How to Host a Datathon, Understanding Ribbon Charts, Data Trust User Agreement, Data Trust Member Agreement: how-to material and two agreements for Data Trust participants).
 - text: |-
     Policy library, Tools and Templates (33 rows, all left out as forms, templates, workbooks and guidance rather than instruments). Forms (4): Agency Security Awareness Training Solution Form, Agency Security Awareness Training Verification and Compliance Form (SEC527), Annual Risk Assessment Review and Certification, COV Security Standard Exception Form. Templates and worksheets (20): Application Template, Audit Corrective Action Plan Quarterly, Audit Corrective Action Plan Initial, BIA Template, Data Set Template, Interoperability Security Agreement Template, IT Risk Assessment Plan Template, IT Security Audit Plan Template, IT Security Audit Resources Template, Mission Essential Function Identification Worksheets, Public Kiosk Guideline Template, Risk Treatment Plan Template, Scan Treatment Plan Template, the four SEC530 SSP templates (All Controls, Organization Controls, Non-Sensitive System Specific, Sensitive System Specific), Security Roles and Responsibilities Template, System Inventory and Definition Template, VDEM Continuity Plan Template. Workbooks (3): COV Risk Register, SEC527 Crosswalk, SEC530 Control Summaries. Other (6): Archer User Manual (a software manual), COV ISO Certification and Continuing Education Requirements (a Commonwealth Security and Risk Management guideline, February 2026, on becoming a certified ISO; a guideline for a certification, owner decision), Resources for the Removal of Commonwealth Data from Electronic Media (a list of tools), VDEM Guide to Identifying Mission Essential Functions (a 2011 Virginia Department of Emergency Management guide, not a VITA instrument), Vulnerability Scanning and Intrusion Detection System (IDS) Reporting FAQs (an FAQ), and the 'Data Removal' page (a page of tool links that points to SEC514).
 - text: |-
@@ -1027,4 +1185,4 @@ left_out:
 - text: |-
     IT Investment Management, Project Management and Commonwealth Technology Portfolio pages, left out by type (link counts on 2026-11-11): strategy documents (COV Technology Strategy 2023-2027 and the 2019 Commonwealth Technology Business Plan); reports (the quarterly lists of major IT projects and their presentations (28 PDFs on that page) and a Planview release note); job aids, process steps and training (18 files on the Agency IT Strategic Planning page, the training and presentation PDFs on the Project Management Training page, the ITIM and AITR training pages); the Project Management Templates & Tools page (58 files: templates, directions and worksheets); the IV&V statement-of-work templates and attachments on the PMD page. The PM standards CPM 110-05, CPM 111-05 and CPM 112-04.8 are seeded from the library. The sub-pages of these sections were read only as far as their link lists.
 - text: |-
-    Owner decisions, summary: (1) guidelines OTH 701-00 and CPM 110-05 are seeded as standards because the library lists them; (2) SEC503 and SEC505 bind circuit court clerks, not executive branch agencies; (3) the footer of VITA's library page reads '©2026 Virginia IT Agency. All Rights Reserved.' (recorded for the owner, as the issue asks); VITA's pages and PDFs are mirrored in full by this corpus, so the owner decides before the repo goes public; (4) the Town Hall copy of CPM 516-04 is a state-run host other than VITA; (5) the section-level statute takes and the three small chapters above; (6) EO-19 and EO 46 above.
+    Owner decisions, summary: (1) guidelines OTH 701-00 and CPM 110-05 are seeded as standards because the library lists them; (2) SEC503 and SEC505 (circuit court clerks) are left out; keep out or seed; (3) the footer of VITA's library page reads '©2026 Virginia IT Agency. All Rights Reserved.' (recorded for the owner, as the issue asks); VITA's pages and PDFs are mirrored in full by this corpus, so the owner decides before the repo goes public; (4) the Town Hall copies of CPM 516-04 and four procurement documents (7309, 7323, 7383, 7675) are on a state-run host other than VITA; (5) the section-level statute takes and the three small chapters above; (6) EO-19 and EO 46 above; (7) EA400 (AI Utilization Policy): its Effective Date prints '(Date)' and Town Hall's in-effect list does not carry it; (8) the two small-business procurement policy files (Town Hall 7314 versus the file VITA links) and the Buy IT manual (34 MB, 248 pages, Town Hall effective date 3/28/2024 on a Spring 2025 update); (9) the EU data privacy memo and three ODGA documents left out (Data Governance Guidelines, Data Quality Standards, Data Classification Framework).

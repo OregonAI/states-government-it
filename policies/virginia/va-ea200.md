@@ -39,7 +39,7 @@ tags:
 
 ## At a glance
 
-Item of the VITA library, topic 'Enterprise Architecture': the policy that guides how executive branch agencies acquire, use and manage information technology resources and defines the Commonwealth's enterprise architecture.
+Item of the VITA library, topic 'Enterprise Architecture': the policy that guides how executive branch agencies acquire, use and manage information technology resources and defines the Commonwealth's enterprise architecture. The PDF prints 'December 2024' as its Effective Date (a month with no day, so no effective_date is recorded); Town Hall lists the Enterprise Architecture Policy (EA 200) in effect from 3/13/2025.
 
 ## Full text
 

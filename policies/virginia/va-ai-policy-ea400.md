@@ -38,7 +38,7 @@ tags:
 
 ## At a glance
 
-Listed on VITA's Artificial Intelligence page under 'Standards'. The AI Utilization Policy (cover: 'EA Policy (EA400)', June 2026); its stated scope is Executive Branch state agencies and institutions of higher education that manage, develop, purchase and use IT.
+Listed on VITA's Artificial Intelligence page under 'Standards'. The AI Utilization Policy (cover: 'EA Policy (EA400)', June 2026); its stated scope is Executive Branch state agencies and institutions of higher education that manage, develop, purchase and use IT. In-force status (owner decision): the PDF prints its Effective Date as the placeholder '(Date)' (version 1.1, 6/30/2026 in its revision table), and Town Hall's list of VITA guidance documents in effect (read 2026-11-11) does not carry it. No effective_date is recorded; whether it is in force is the owner's call.
 
 ## Full text
 

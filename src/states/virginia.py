@@ -127,18 +127,21 @@ def _left_column_date(text):
     left column and the right column's paragraphs run between them (191 and 260 characters in CPM 110-05 and
     SEC527-02), beyond the shared reader's window. Read the left-column cells below the label, in order, until
     the next label, and take the first long date."""
-    lines = text.splitlines()
-    for i, line in enumerate(lines):
-        if not re.match(r"Effective Date\b", line.strip()) or line.startswith(" " * 4):
-            continue
-        for cell_line in lines[i + 1:i + 6]:
-            cell = re.split(r"\s{3,}", cell_line.strip())[0] if cell_line[:1] != " " else ""
-            if _NEXT_LABEL.match(cell):
-                break
-            if m := _LEFT_DATE.search(cell):
-                mon = _MONTH.split("|").index(m.group(1)) + 1
-                return f"{int(m.group(3)):04d}-{mon:02d}-{int(m.group(2)):02d}"
+    first = re.search(r"effective date", text, flags=re.I)
+    if not first:
         return None
+    lines = text.splitlines()
+    i = text[:first.start()].count("\n")
+    label_line = lines[i].strip()
+    if not re.fullmatch(r"Effective Date(\s{3,}.*)?", label_line) or _LEFT_DATE.search(label_line):
+        return None          # a running header ('Effective Date: June 01, 2016') or a date on the label line: the shared reader's
+    for cell_line in lines[i + 1:i + 6]:
+        cell = re.split(r"\s{3,}", cell_line.strip())[0] if cell_line[:1] != " " else ""
+        if _NEXT_LABEL.match(cell):
+            break
+        if m := _LEFT_DATE.search(cell):
+            mon = _MONTH.split("|").index(m.group(1)) + 1
+            return f"{int(m.group(3)):04d}-{mon:02d}-{int(m.group(2)):02d}"
     return None
 
 

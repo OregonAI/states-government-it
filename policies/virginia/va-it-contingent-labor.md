@@ -1,0 +1,652 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-it-contingent-labor
+title: ITCL Policy for Procuring and Managing Contingent Labor Resources
+doc_type: policy
+citation: VITA ITCL Policy for Procuring and Managing Contingent Labor Resources
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://townhall.virginia.gov/L/GetFile.cfm?File=C:%5CTownHall%5Cdocroot%5CGuidanceDocs%5C136%5CGDoc_VITA_7309_v2.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: c1e1ed1829ea70fc2c67eabf9e3cca8c9e878b9dbf1a56d16660ececee93ecef
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# ITCL Policy for Procuring and Managing Contingent Labor Resources (VITA ITCL Policy for Procuring and Managing Contingent Labor Resources)
+
+## At a glance
+
+Not linked from VITA's Procurement Policies page; taken from the Virginia Regulatory Town Hall (townhall.virginia.gov, the state's guidance-document register), guidance document 7309, in effect from 10/26/2023 (file GDoc_VITA_7309_v2.pdf). Policy for staff augmentation and statement-of-work contingent labor through VITA's IT contingent labor contract (Va. Code 2.2-2012, 2.2-2020, 2.2-4300 et seq., 2.2-4308.2).
+
+## Full text
+
+                            FOR ITCL AUTHORIZED USERS
+                            POLICY FOR PROCURING AND
+                            MANAGING CONTINGENT LABOR
+                            RESOURCES
+ Table of Contents
+  I        Purpose
+  II       Definitions
+  III      VITA’s Statutory Purchasing Authority
+  IV       VITA’s Statutory Policy Authority
+  V        VITA’s IT Contingent Labor Contract
+  VI       Authorized Users of VITA’s ITCL Contract
+  VII      Requirement of Competition
+  VIII     Staff Augmentation
+  IX       Engaging a Staff Augmentation Resource
+  X        Use of Exception Job Title
+  XI       Engaging a Named Resource or Supplier
+  XII      On-boarding the Contingent Worker
+  XIII     Managing the Staff Augmentation Contingent Worker
+  XIV      Off boarding the Contingent Worker
+  XV       Statements of Work
+  XVI      Beginning the SOW Process
+  XVII     SOW or Deliverables Based IT Contingent Labor Budget
+  XVIII    Obtaining SOW Services
+  XIX      SOWs Additional Terms and Conditions
+  XX       SOWs require Competition
+  XXI      Selection of Named Firms or Resources for SOW Services
+  XXII     SOW Approvals
+  XXIII    SOW Designation of Key Personnel or Project Managers
+  XXIV     On-Boarding of SOW Resources
+  XXV      SOW Change Orders
+  XXVI     Acceptance of Services and Deliverables under an SOW
+  XXVII Termination of an SOW
+  XXVIII SOW Customer Satisfaction Survey
+  XXIX     Authority References
+
+I. Purpose. This document covers policies for procuring information technology
+   (IT) contingent workers through Staff Augmentation or a Statement of Work
+   (SOW) utilizing VITA’s managed service provider (MSP) program. All executive
+
+                                         1
+ [2023-08 revision]
+
+    branch agencies and institutions of higher education are subject to these policies,
+    except those agencies and institutions explicitly exempted by the Code of Virginia.
+
+    The purpose of the IT contingent labor staff augmentation and the IT Contingent
+    Labor SOW policies include:
+        • Enabling a common acquisition process for agencies and institutions to
+           obtain IT staff augmentation services and deliverables-based SOW
+           services through a managed service provider program.
+        • Providing improved and standardized IT job descriptions and bill rates to
+           reduce costs and create efficiencies for the Commonwealth
+        • Leveraging competition so that agencies obtain highly qualified contingent
+           workers at market rates
+        • Establishing the distinction between ordering staff augmentation services
+           vs. contracting for a project (turn-key approach)
+        • Providing a process for deliverables-based SOW procurements that reduce
+           costs to the Commonwealth
+
+II. Definitions. (These definitions were taken from Staffing Industry Analysts
+    “Contingent Workforce Lexicon of Terms,” available at
+    http://lexicon.staffingindustry.com/. URL provided for convenient reference only.)
+
+    •   Assignment - A task or duty being performed by a contingent worker (i.e., a
+        requisition for a temp, or each on boarded consultant associated with a
+        consulting engagement). Assignment may also refer to the period that a
+        temporary employee is working at an organization’s facility; however, change
+        orders such as extensions, do not count as separate assignments.
+    •   Contingent Work/Worker - Used to describe work arrangements that differ
+        from regular/permanent, direct wage and salary employment. Contingent work
+        and workers are primarily distinguished by having an explicitly defined or
+        limited tenure. Contingent workers include temporary personnel provided by
+        an outside staffing agency and independent contingent workers. Contingent
+        workers may also include temporary workers from an internal pool, and others
+        (such as summer interns, seasonal workers, freelancers, “crowd-sourced”
+        workers, etc.) employed directly by an organization for an intentionally limited
+        time period. For purposes of this policy, the term “contingent worker” also
+        includes statement-of-work (SOW) contingent workers who provide SOW
+        services. While the SOW contingent workers themselves may or may not have
+        an expectation of ongoing employment with their consulting firm, their work
+        for the client is considered contingent.
+    •   E-Verify Program - For purposes of this program and pursuant to §2.2-
+        4308.2 of the Code of Virginia, "E-Verify program" means the electronic
+        verification of work authorization program of the Illegal Immigration Reform
+        and Immigrant Responsibility Act of 1996 (P.L. 104-208), Division C, Title IV,
+        § 403(a), as amended, operated by the U.S. Department of Homeland
+        Security, or a successor work authorization program designated by the U.S.
+        Department of Homeland Security or other federal agency authorized to verify
+
+                                             2
+  [2023-08 revision]
+
+     the work authorization status of newly hired employees under the Immigration
+     Reform and Control Act of 1986 (P.L. 99-603).
+ •   Fixed Price SOW - A Fixed Price SOW should be used when the Authorized
+     User’s requirements can be set forth in sufficient detail as to allow for a fixed
+     price to be developed. A Fixed Price SOW should include Deliverables and a
+     milestone payment schedule associated with such Deliverables.
+ •   Managed Service Provider (MSP) - A company that takes on primary
+     responsibility for managing an organization’s contingent workforce program.
+     Typical responsibilities of an MSP include overall program management,
+     reporting and tracking, supplier selection and management, order distribution
+     and often consolidated billing.
+ •   Off-boarding - the processes required to disengage a contingent worker at
+     the close of an assignment. May include final compensation, equipment and
+     security badge return, deleting access to systems and applications, and an exit
+     interview among other tasks.
+ •   On-boarding - the process of bringing a worker into a position with a goal of
+     providing all necessary tools to be productive as soon as possible. It includes
+     activities, such as criminal background checks, security training and other
+     Commonwealth or agency specific policy related items required as part of
+     compliance requirements for contingent workers before starting their
+     engagements.
+ •   Staff Augmentation - staffing services that supplement internal staffing
+     teams where either part of the talent acquisition process is managed by an
+     external supplier.
+ •   Statement of Work (SOW) - A document that captures the work products
+     and services, including, but not limited to the work activities and deliverables
+     to be supplied under a contract or as part of a project timeline. In contrast to a
+     typical temp or contingent work arrangement which is billed based on time
+     worked, SOW agreements are usually billed based on a fixed price deliverable
+     or for delivery of specific milestones. Under VITA’s contract with CAI, IT
+     services are to be performed at the times and locations set forth in the
+     applicable SOW and at the payments set forth therein.
+ •   Telecommuting - Working at home, or at another off-site (satellite) location,
+     for an organization whose office is located elsewhere, with one-way or
+     (usually) two-way electronic linkage to that organization via phone and/or the
+     Internet or a company Intranet. Such work may be full-time, occasional, or for
+     a scheduled part of the workweek. May also be referred to as Telework.
+
+ •   Vendor Management System (VMS) - An Internet-enabled, often Web-
+     based application that acts as a mechanism for business to manage and
+     procure staffing services as well as outside contract or contingent labor.
+     Typical features of a VMS include order distribution, consolidated billing and
+     significant enhancements in reporting capability over manual systems and
+     processes.
+
+                                           3
+[2023-08 revision]
+
+III. VITA’s Statutory Purchasing Authority. VITA has sole statutory authority to
+    procure all information technology (IT) and telecommunications goods and
+    services (including agency-specific applications) for executive branch agencies
+    and institutions, except those explicitly exempted by the Code of Virginia or the
+    Appropriations Act.
+
+    •   All agencies can request VITA’s assistance with IT procurements and all public
+        bodies can utilize statewide contracts developed by VITA.
+    •   All IT procurements conducted by VITA are pursuant to the laws of the
+        Commonwealth of Virginia and applicable policy or regulation.
+    •   All IT and telecommunications goods and services procured by any executive
+        branch agency or institution pursuant to Public Private Facilities and
+        Infrastructure Act (PPEA) or Public-Private Transportation Act (PPTA) efforts
+        are subject to VITA’s procurement authority.
+IV. VITA’s Statutory Policy Authority.       § 2.2-2007 of the Code of Virginia
+    requires the Chief Information Officer to “Develop policies, standards, and
+    guidelines for the planning, budgeting, procurement, development, maintenance,
+    security and operations of information technology for executive branch agencies.”
+    As directed by § 2.2-2012 of the Code of Virginia, VITA has established this IT
+    contingent labor contract as “Mandatory Use” for the procurement of IT-related
+    contingent labor by all executive branch agencies and institutions of higher
+    education that are subject to, VITA’s IT procurement authority. Executive branch
+    agencies and institutions do not have authority to sponsor, conduct or administer
+    an IT contingent labor contract unless such authority is delegated by VITA.
+
+ V. VITA’s IT Contingent Labor Contract. After conducting a competitive
+    procurement in 2021, VITA awarded a five-year managed services provider (MSP)
+    contract to Computer Aid, Inc. (CAI). The contract is structured for maximum
+    flexibility to allow for needed adjustments in the dynamic IT staffing industry.
+    The agreement places emphasis on two areas: assuring the availability of high-
+    quality resources and driving effective cost containment.
+
+    Examples of services that are NOT included in the ITCL contract:
+
+          •   Software licensing
+          •   Hardware and hardware maintenance
+          •   Non-IT staff augmentation and non-IT projects
+          •   Projects that total greater than $3,000,000
+
+VI. Authorized Users of VITA’s IT Contingent Labor Contract. Authorized Users
+    for VITA’s IT contingent labor contract include all public bodies, including VITA, as
+    defined by §2.2-4301 and referenced by §2.2-4304 of the Code of Virginia.
+    Authorized Users may have additional policies, rules and/or regulations that are to
+    be followed by any contingent worker performing services for that Authorized
+    User under this contract.
+
+                                             4
+   [2023-08 revision]
+
+VII. Requirement of Competition. Authorized Users engaging staff augmentation
+      and SOW services are strongly encouraged to compete for resources or suppliers
+      through the CAI subcontractor network. Authorized Users are to avoid
+      preselecting named resources or named suppliers.
+
+VIII. Staff Augmentation. Contingent workers provided by the MSP that are engaged
+      to address short term temporary needs such as backfill for absences or provide
+      specialized expertise or skills, accommodate work volume fluctuations. Staff
+      augmentation services provide IT resources at hourly market rates based on
+      region, job classification, experience, and type of technology.
+
+ IX. Engaging a Staff Augmentation Resource. CAI, as the Managed Service
+     Provider (MSP) assists agencies with the classification of the contingent worker
+     job title based on the agency’s needed skills and requirements. Through an open
+     subcontractor network, CAI competes the Authorized User’s request, providing
+     screened qualified candidates within 4 days. Requisition approval is in accordance
+     with each Authorized User’s approval process. Additional purchase order
+     information is available on VITA’s website at: eVA Resources.
+  X. Use of “Non-Standard Job Title” and use of “Rate Exception” in
+      requisitions
+       1. Use of “Non-Standard Job Title” Requisition Class. There may be situations
+          where an Authorized User requires a new category of IT skills not
+          represented on the rate card. The agency will work with CAI to clarify
+          whether use of the “Non-Standard Job Title” requisition class is warranted.
+          Use of this requisition class requires Agency Head approval. These
+          engagements will be tracked and reported to understand if additional Job
+          Titles are needed to support competition within the program and alignment
+          with the Not to Exceed Rate Card.
+
+       2. Use of “Rate Exception” Requisition Class. There may be situations where
+          prevailing labor rates have changed for pre-defined job titles represented on
+          the rate card, or an Authorized User requires a unique skill for a pre-defined
+          job title that requires a rate exception. The agency will work with CAI to
+          determine whether a rate exception is warranted. Use of this requisition class
+          requires Agency Head approval. These engagements will be tracked and
+          reported to understand if adjustments need to be made to the ITCL Rate
+          Card to support competition within the program and alignment with the Not
+          to Exceed Rate Card.
+
+       3. Example No. 1:
+
+           Agency is hiring an IT Project Manager and has negotiated directly with a
+           vendor and agreed to an hourly rate of $180.00. The rate exceeds the NTE
+           rate on the established rate card.
+           The hiring Manager will be required to get agency head approval for use of
+           the “rate exception” req class.
+
+                                             5
+    [2023-08 revision]
+
+      4. Example No. 2
+
+          Agency is hiring an Oracle EBS functional expert at the agency rate of $240.
+          This job title is not represented on the rate card. The agency will use the
+          “Non-Standard Job Title” req class in Vector when creating the requirement.
+          The hiring Manager is required to get agency head approval for use of this
+          req class and the rate.
+
+XI. Engaging a Named Resource or Supplier. Requesting a named resource or
+    named supplier for any staff augmentation or SOW engagement is discouraged.
+    Requesting named resources/suppliers is contrary to the competitive principles of
+    the ITCL program public procurement best practices. Requesting named
+    resources without competition increases risk and drives up costs for Authorized
+    User. Use of Named Firms or Named Resources for SOWs requires Agency Head
+    approval.
+XII. On boarding the Contingent Worker.
+         A. Background Checks – All contingent worker candidates are to
+            successfully pass a criminal background check before they can begin to
+            perform work for any Commonwealth agency/Authorized User. All CAI
+            subcontractors are required to complete a National Criminal Background
+            check in compliance with CAI requirements.
+         B. Sexual Harassment Training – As of July 1, 2020, the Code of
+            Virginia requires contractors with the Commonwealth who spend
+            significant time working with or near state employees to complete sexual
+            harassment training. As a result, the Department of Human Resource
+            Management (DHRM) requires that all contractors working through the
+            ITCL contract complete DHRM's "Preventing Sexual Harassment"
+            training. This training is available as either a short video or a written
+            transcript on the DHRM website: https://www.dhrm.virginia.gov/public-
+            interest/contractor-sexual-harassment-training. This training once
+            completed is tracked by CAI as a part of the onboarding process.
+         C. Contingent Worker Code of Conduct – The Code of Conduct outlines
+            expectations for ethical and professional conduct for all contingent workers
+            engaged through the ITCL contract. All staff augmentation contingent
+            workers will be required to review and acknowledge receipt and agreement
+            as part of the onboarding process and before beginning their engagement.
+            All SOWs include language where the supplier acknowledges that all
+            resources have reviewed and agreed to the Code of Conduct. Agency
+            managers can access and download the signed document from the
+            candidate’s record in VectorVMS (the central repository for all ITCL
+            program data).
+         D. E-VERIFY – Pursuant to § 2.2-4308.2 of the Code of Virginia Registration
+            and use of federal employment eligibility verification program required;
+            debarment, the E-Verify program is required of any company entering into
+            a contract more than $50,000 to perform work or provide services to the
+
+                                             6
+   [2023-08 revision]
+
+          Commonwealth. All contingent workers are to be verified as eligible for
+          employment through the e-verify system. This verification will be
+          performed by the resource’s supplier and provided to CAI during the on-
+          boarding process.
+      E. Agency Policies – It is incumbent on each Authorized User to provide
+         each new contingent worker(s) with a copy of all policies that would be
+         applicable to the contingent worker providing services.
+      F. Equipment/Access for New Resources – Part of the on-boarding
+         process may involve providing security access/badging for new contingent
+         workers. Contingent workers should not be provided access to any
+         agency facility prior to completion of the ITCL Program On-Boarding
+         processes, including e-Verify.
+      G. Telework or Telecommuting Agreement - The Authorized User and the
+         contingent worker are to agree to a telecommuting or telework agreement
+         that specifies where the contingent worker may provide services to the
+         Authorized User. The Commonwealth of Virginia’s Telework Policy and
+         VITA’s Telework Policy do not apply to any contingent worker.
+
+XIII. Managing the Contingent Worker. The Contingent Worker Code of
+Conduct establishes expectations for ethical and professional conduct for resources
+while performing services for an Authorized User.
+
+     A. Treatment of Contingent Worker While on Premises of Authorized
+        User
+                1. Authorized Users do not approve vacation requests or approve
+                   contingent workers’ absence or the need to work from home.
+                   Contingent Workers may only work 40 hours a week (staff
+                   augmentation) unless prior approval is granted by the Authorized
+                   User.
+                     IT is recommended that Contingent workers:
+                     • NOT serve in management roles or supervise any employee of
+                       an Authorized User.
+                     • NOT write or deliver performance reviews – participate or
+                       contribute to any disciplinary action, communicate feedback to
+                       MSP if needed.
+                     • NOT participate in decisions related to hiring or termination.
+                     • NOT access any employee or contingent worker personal
+                       information (salary, performance reviews, etc.)
+                2. Contingent workers are to wear their contingent worker badge
+                   indicating always that they are a contingent worker and return
+                   their badge to the Authorized User upon termination of the
+                   assignment.
+
+                                            7
+[2023-08 revision]
+
+                3. Contingent Workers are not eligible to participate in Authorized
+                   User’s recognition programs.
+                4. Contingent workers are not eligible to participate in any agency’s
+                   employee benefits plans and are not eligible for Commonwealth
+                   benefits.
+                5. Careful consideration should be given to whether contingent
+                   workers should attend meetings of employees of the Authorized
+                   User. Authorized Users are to invite contingent workers only to
+                   meetings that directly pertain to their assignment.
+                6. Careful consideration should also be given as to whether to
+                   permit contingent workers to attend Authorized User’s non-work-
+                   related functions or participate in any event that is not open to
+                   visitors, guests or the public.
+
+     B. Use of Title/Name in E-Mails, Presentations and Correspondence –
+        No contingent worker is allowed to use Authorized User’s titles, sign
+        documents on behalf of the Authorized User, obtain or use Authorized
+        User’s business cards. In addition, all contingent workers are to denote
+        their role in all e-mails, presentation and correspondence prepared during
+        their assignment as “contingent worker” to “X” Authorized User.” At all
+        times, the contingent worker/resource are to identify themselves as a
+        “contingent worker”.
+     C. Wage or Pay Rates – Contingent workers are not allowed to negotiate
+        their hourly rate with the Authorized User. Hourly rates are based on
+        contractual rate cards and no individual increases are allowed. Suppliers
+        are not eligible for any other remuneration. The Authorized User is not
+        allowed to provide additional compensation to a Supplier under any
+        circumstances.
+     D. Contingent Worker Evaluation – Authorized Users should be careful not
+        to conduct performance evaluations or attempt to discuss or resolve
+        performance or contract related issues directly with the contingent worker.
+        Performance related issues should be directed to CAI. The Vector VMS
+        system automatically generates a survey for the engagement manager to
+        evaluate and provide feedback directly to CAI about the contingent
+        worker’s performance. A link to the survey is emailed to the engagement
+        manager after the resource has been engaged for 30 days, six months and
+        annually thereafter. A final evaluation is sent once the engagement ends.
+        Engagement managers are encouraged to promptly complete these surveys
+        so that a record of performance is captured, and any issues or concerns can
+        be appropriately addressed in a timely manner.
+     E. Travel or Business Reimbursement – All travel and business expense
+        reimbursements require prior approval of the Authorized User.
+        Reimbursements are only allowed where the expense has been approved in
+        advance and is a line item on the PO. Suppliers should submit expense
+        reports with receipts in Vector VMS which will be approved by the
+
+                                           8
+[2023-08 revision]
+
+              Authorized User; CAI will then invoice the Authorized User. No
+              reimbursement payments are to be requested by or paid directly to the
+              Contingent Worker. All executive branch agencies should ensure their
+              agency acts consistently with Department of Accounts (DOA) travel rules,
+              regulations, and guidelines, where those are applicable. Authorized Users
+              are not to approve travel related expenses within the Richmond metro area
+              or for parking at the workplace. Expenses for spouses or relocation are not
+              reimbursable. Contingent workers are not reimbursed for travel expenses
+              incurred from their telecommuting or telework location to the Authorized
+              User’s location unless the Authorized User approves such reimbursement in
+              advance. All reimbursed expenses will be billed by the MSP to the
+              Authorized User on a pass-through basis. No relocation expenses will be
+              reimbursed.
+        F. Training - Only Authorized User-specific training is to be provided to any
+           contingent worker. This requirement includes that no training is to be
+           provided except for unique requirements necessary to perform the specific
+           work requested allowed. Authorized Users may provide instruction related
+           to their specific procedures and policies that are necessary and essential to
+           the contingent worker to perform work. Training for skills and
+           competencies needed for the contingent worker are the responsibility of the
+           contingent worker. The Authorized User is to identify any specific training
+           requirements expected to be paid by the Supplier at the time the
+           requisition is submitted.
+XIV. Off Boarding the Contingent Worker. When a Contingent Worker’s
+        engagement is about to end, the engagement manager has the responsibility
+        to notify CAI to confirm the steps required to close out the assignment. The
+        manager is to follow their agency processes for collecting Commonwealth
+        assets such as laptop, cell phone and security badges, and send the
+        appropriate requests to delete all security, system, and application access on
+        the engagement end date. The engagement manager may receive a final
+        timesheet for approval for the Contingent Worker’s last week and are to
+        complete the assignment closeout evaluation which will be automatically sent
+        by email via Vector VMS.
+
+XV. Statements of Work. Authorized Users may obtain IT project-based services
+        utilizing a Statement of Work (SOW) through the managed service provider
+        (MSP) program. The SOW process is designed to assist Authorized Users with
+        the following:
+          • Providing a common acquisition process for Authorized Users to obtain
+              deliverables-based services utilizing a SOW through the MSP program.
+          •    Establishing distinction between ordering staff augmentation services vs.
+               contracting for a project (turn-key approach)
+          •    Providing a process for deliverables-based SOW procurement that reduces
+               costs to the Authorized User or the Commonwealth
+          •    Leveraging competition so that Authorized Users obtain high quality
+               project-based consulting services at market rates.
+
+                                               9
+   [2023-08 revision]
+
+           The following list provides examples of specialty areas that may be used for
+           SOWs:
+                 • Application Development
+                 • Business Continuity Planning
+                 • Business Intelligence
+                 • Business Process Reengineering
+                 • Enterprise Architecture
+                 • Enterprise Content Management
+                 • Back Office Solutions
+                 • Geographical Info Systems
+                 • Information Security
+                 • IT Infrastructure
+                 • IT Strategic Planning
+                 • Project Management
+                 • Public Safety Communications
+                 • Radio Engineering Services
+                 • IV&V Services
+
+           All work performed on an hourly basis is considered a staff
+           augmentation engagement, NOT an SOW-based engagement.
+XVI. Beginning the SOW Process. In order to start the SOW process, a statement
+     of requirements (SOR) is created by the Engagement Manager in collaboration
+     with their Procurement Officer. Since a formal SOW will document the supplier’s
+     commitment to satisfy the agency’s SOR, the SOR should reflect all requirements
+     and outcomes desired from the engagement, rather than the effort involved in
+     producing the outcomes. SORs are to be complete, comprehensive and provide
+     sufficient detail to enable the supplier to understand the outcomes and the
+     environment and to propose a fixed price engagement. Payments to the supplier
+     are based on deliverables and may include interim milestones payments after the
+     Authorized User has accepted each milestone and corresponding deliverables.
+     The SOR template that agencies should use as a starting point can be downloaded
+     by all Authorized Users from:
+     SOR Template.
+
+     The SOR template is designed for the Authorized User to easily describe the IT
+     project requirements. It includes criteria such as project roles and
+     responsibilities, scope, schedule and deliverables.
+     The Authorized User fills in the areas designated for entry by Authorized User
+     personnel and saves it under a unique name. This document is the expression of
+     need by the Authorized User and can be used for any internal approvals.
+
+XVII. Statement of Work (SOW) or Deliverables-Based IT Contingent Labor
+     Budget. The maximum value for an SOW under the program is $3 million. All
+     project phases and change orders are expected to fall within that limit. Projects
+     exceeding $3M and that are highly complex should be publicly competed through
+
+                                             10
+    [2023-08 revision]
+
+      a VPPA solicitation, and not through the ITCL Program. To assist the MSP in
+      engaging the appropriate Subcontractors, users are requested to provide the
+      estimated size of their project by selecting from the following three tiers:
+
+                   Tier 1: Consulting firms are eligible for engagements up to $300,000
+
+                   Tier 2: Consulting firms are eligible for engagements up to $1,000,000
+
+                   Tier 3: Consulting firms are eligible for SOWs up to $3 million.
+
+      This tiered classification allows smaller firms and SWaMs to be able to participate
+      in SOW opportunities.
+
+XVIII. Obtaining SOW Services (Engagement Phase). The Engagement Phase
+      begins with the review of the Supplier submissions in response to the SOR. CAI
+      will review all responses for completeness and forward to Authorized User for
+      evaluation. Authorized User evaluates the responses. Using pre-determined
+      evaluation criteria, the Authorized User will determine which Supplier will be
+      awarded the SOW. If a named Supplier is used for the SOW work, agency head
+      approval is required. CAI will work with the Authorized User on any required
+      changes before the SOW is executed between CAI and the Authorized User.
+      After signatures are obtained, the Authorized User will then create a purchase
+      order, and will attach the signed SOW. When the PO is approved, and CAI
+      confirms that all on-boarding tasks have been completed, the project requirement
+      is ready to be “Engaged. ‟
+ XIX. SOWs Additional Terms and Conditions. A SOW from an Authorized User may
+      contain additional terms and conditions; however, to the extent that the terms
+      and conditions of the Authorized User’s order are inconsistent with the terms and
+      conditions of the Contract, the terms of this Contract will supersede. In no event
+      will any SOW or any modification thereto require the Supplier to perform any
+      work beyond the defined scope of the contract between the Commonwealth and
+      CAI.
+  XX. SOWs Require Competition and Negotiation. Selection of SOW suppliers is
+      based on competition. Authorized Users are to ensure fair competition for each
+      engagement and should not pre-select named resources or named suppliers. All
+      SOWs are required to be negotiated to ensure that the price being paid is fair and
+      reasonable. The negotiation should be documented. VITA may audit such
+      documentation at any time.
+ XXI. Selection of Named Firms or Named Resources for SOWs. The selection of
+      named firms and/or named resources to perform services under an SOW is
+      discouraged. Use of Named Firms or Named Resources for SOWs requires Agency
+      Head approval.
+XXII. Statement of Work Approvals. Requisition approval is in accordance with each
+      Authorized User’s approval process. Additional purchase order information is
+      available on VITA’s website at: Additional Purchase Order Information.
+
+                                               11
+     [2023-08 revision]
+
+XXIII.SOW Designation of Key Personnel or Project Managers. An SOW may
+      designate certain of Supplier’s personnel as Key Personnel or Project Managers.
+      Supplier’s obligations with respect to Key Personnel and Project Managers are to
+      be described in the SOW.
+
+   XXIV. On-Boarding of SOW Resources. Section XIV (above) of On-Boarding Staff
+          Augmentation Resources, including background checks, e-Verify, etc. is also
+          applicable to SOW on-boarding.
+
+    XXV. SOW Change Orders. Any changes to the services, cost or deliverables in an
+          SOW are to be described in a written change request. Any Party to an SOW
+          may initiate a change request that will be subject to written approval of the
+          other Party before it becomes effective. Change Orders are not to be used to
+          increase the original price of the SOW by more than 50%.
+
+   XXVI. Acceptance of Services and Deliverables Under a SOW. Service(s) and
+          Deliverables are deemed accepted when the Authorized User determines that
+          they meet the Requirements or written criteria set forth in the applicable SOW.
+          At a minimum, Acceptance criteria for Services and Deliverables ensures that
+          the functionality described in the Requirements set forth in the applicable
+          Statement of Work has been delivered to the Authorized User. If applicable, the
+          SOW Supplier is responsible for ensuring that any individual Deliverable
+          functions properly with any other Deliverable provided pursuant to the
+          Statement of Work. Should a previously Accepted Deliverable require further
+          modification to work properly with any other Deliverable, Supplier is responsible
+          for all costs associated with such modification.
+
+          The Authorized User agrees to commence Acceptance testing within a
+          reasonable period after receipt of the Service or Deliverable or within such
+          other time period mutually agreed upon by the Parties to the SOW. The SOW
+          Supplier agrees to provide to the Authorized User such assistance and advice
+          as the Authorized User may reasonably require, at no additional cost, during
+          such Acceptance testing. The Authorized User gives the SOW Supplier written
+          notice of Acceptance upon completion of installation and successful Acceptance
+          testing.
+
+  XXVII. Termination of an SOW. SOWs can at times, need to be terminated.            In
+          this case, the Authorized User will have worked with CAI to resolve issues or
+          circumstances, and the decision is reached to end the project prior to its
+          planned completion. The Authorized User should work with CAI to determine
+          what deliverables, milestones or refunds are appropriate to terminate the SOW
+          engagement in an orderly manner.
+ XXVIII. SOW Customer Satisfaction Survey. The Finalization Phase of a project
+          begins after the invoice/payment tasks for the final milestone have been
+          completed.
+
+                                              12
+     [2023-08 revision]
+
+   The last task in the closeout of a project is the completion of the Customer
+   Satisfaction Survey by the agency or Authorized User. Within seven (7) days of
+   the project completion, the agency or authorized user will receive the Customer
+   Satisfaction Survey. Agencies and users will have two (2) weeks to complete the
+   survey and return it to the CAI Account Manager.
+
+XXIX. Authority References.
+
+   §2.2-2012 of the Code of Virginia; Procurement of information technology and
+   telecommunications goods and services; Information technology and
+   telecommunications goods and services of every description shall be procured by
+   (i) VITA for its own benefit or on behalf of other state agencies and institutions or
+   (ii) such other agencies or institutions to the extent authorized by VITA.
+
+   §2.2-2020 of the Code of Virginia; Procurement approval for major information
+   technology projects.
+
+   §2.2-4300 et seq. of the Code of Virginia; Virginia Public Procurement Act and
+   specifically §2.2-4301 and §2.2-4304.
+
+   §2.2-4308.2 of the Code of Virginia; requirement for e-Verify
+
+                                            13
+  [2023-08 revision]
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

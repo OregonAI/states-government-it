@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 234 |
-| standard | 166 |
+| policy | 244 |
+| standard | 164 |
 | statute | 39 |
 | executive_order | 16 |
 | rule | 11 |
 
-**Total: 466**
+**Total: 474**
 
 ## Source manifest
 
-588 declared source(s) across 5 group(s) in `sources`.
+599 declared source(s) across 5 group(s) in `sources`.
 
 ## Freshness (reverify every 90 days)
 
-466 of 466 document(s) overdue for re-verification.
+474 of 474 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -74,5 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | or-oar-128-30 | rule | never |
 | or-oar-128-40 | rule | never |
 | or-oar-128-50 | rule | never |
-| … | *416 more* | |
+| … | *424 more* | |
 

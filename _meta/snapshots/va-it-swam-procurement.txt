@@ -1,0 +1,262 @@
+                                   IT Procurement Policy for Enhancing Opportunities for
+                                   Small, Women, and Minority –Owned Businesses
+
+                                                  Table of Contents
+
+                                                                               Effective Date: 07/01/2022
+ I               Purpose
+ II              Definitions
+ III             Enhancing Opportunities for Small, Women-and Minority-owned Businesses
+
+ IV              Initiatives
+ V               Competitive Requirements
+ VI              Award to Other than the Lowest Price Bidder or Highest Ranking Offeror over $100,000
+
+ VII             Set Asides
+ VIII            Prime Contractor Supplier Procurement and Subcontracting Plan
+ IX              VITA’s Small Purchase Procedures – up to $100,000
+ X               Solicitations over $100,000
+ XI              Commitment to Removing Barriers
+ XII             Optional Use and Mandatory Statewide Contracts
+ XIII            Mandatory Statewide Contracts
+ XIV             Cooperative Procurements
+                 Authority References
+
+I. Purpose.
+   This document provides procurement guidelines designed to enhance and expand contracting
+   opportunities for small businesses, including micro businesses, women-owned, minority owned, and
+   service-disabled veterans (SWaM) owned information technology (IT) and telecommunications small
+   businesses, to participate in the Commonwealth’s procurement process. All executive branch
+   agencies are subject to this policy for the procurement of IT except those agencies explicitly
+   exempted by the Code of Virginia or the Appropriations Act.
+II. Definitions.
+   A. For the purposes of this policy, “small businesses” shall include, but not be limited to small, any
+      category of small, small women-owned, small minority-owned, or small service-disabled
+      veteran-owned businesses. (SWaM). A small business is defined as: i) a DSBSD-certified
+      business with 250 or fewer employees, or gross receipts of $10 million or less averaged over
+      the previous three years, ii) a cooperative association organized pursuant to Chapter 3
+      (Cooperative Associations) of Title 13.1 as a nonstock corporation if it is at least 51 percent
+      independently controlled by one or more members who are U.S. citizens or legal resident aliens
+      and, together with affiliates, has 250 or fewer employees or average annual gross receipts of
+      $10 million or less averaged over the previous three years. A small business shall also include,
+      but not be limited to, DSBSD-certified minority-owned and women-owned businesses and
+      businesses owned by service-disabled veterans that meet the small business definition as
+      defined by § 2.2-4310 of the Code of Virginia.
+                                                   Page 1 of 6
+
+B. “Micro Businesses” – shall include those DSBSD designated and certified small businesses that have
+    no more than twenty-five (25) employees and no more than $3 million in annual revenue over the
+    three-year period prior to their certification.
+C. “DSBSD” – Department of Small Business and Supplier Diversity
+D. SWaM or small businesses – small, small women-owned, and small minority-owned businesses
+    (including small businesses owned by service-disabled veterans) and including micro
+    businesses.
+III. Enhancing Opportunities for Small, Women-and Minority-owned Businesses.
+VITA is committed to enhancing and expanding contracting opportunities for small (including micro
+businesses) women-owned, and minority-owned (SWaM) businesses as well as small businesses
+owned by service-disabled veterans. The Commonwealth has a target goal of 42% of discretionary
+spending for Executive Branch Agencies with DSBSD Certified small businesses. This percentage
+applies to discretionary spending in categories from which the Commonwealth derives procurement
+orders, prime contracts and subcontracts. VITA works closely with DBSBD to identify small businesses
+that provide information technology goods and services to support this goal and to develop means to
+provide outreach to the small business community. In line with these efforts, VITA has set a goal of a
+minimum of three percent (3%) participation by small businesses owned by service disabled veterans
+as defined in § 2.2-2001 and § 2.2-4310 of the Code of Virginia when contracting for information
+technology goods and services.
+
+In accordance with § 2.2-4310 of the Code of Virginia, any enhancement or remedial measure
+authorized by the Governor for state public bodies may allow for small businesses certified by the
+DSBSD or a subcategory of small businesses established as a part of the enhancement program to
+have a price preference over noncertified businesses competing for the same contract award,
+provided that the certified small business or the business in such subcategory of small businesses
+does not exceed the low bid by more than five percent.
+
+VITA will work with the Commonwealth’s certified SWaM and designated micro-businesses IT and
+telecommunications suppliers to increase the number of contracts awarded to these suppliers. VITA’s
+procurement guidelines provide for increasing SWaM participation on VITA’s small procurements by
+implementing a set aside program for micro and other SWaM businesses. VITA will promote greater
+representation of small businesses on all IT contracts by actively recruiting SWaM businesses to bid on
+statewide cooperative procurement agreements and/or all contracts. As required by the Code of Virginia,
+VITA will post solicitations on eVA to enable small businesses to prepare potential bids or proposals.
+
+IV. Initiatives.
+VITA will support and encourage the participation of SWaM businesses through utilization of the
+following initiatives:
+
+A. Identification and Outreach to potential SWaM IT businesses. VITA will offer to assist these
+   businesses with DBSBD certification, eVA registration and provide education on VITA’s
+   procurement procedures.
+
+B. All VITA solicitations will promote the use of partnerships with SWaM businesses and the use of
+   SWaM subcontractors in providing IT goods and services to the Commonwealth.
+
+C. VITA will provide procurement outreach and educational opportunities for SWaM businesses.
+   Such opportunities will include, but not be limited to the following:
+
+     1.   Coordinate with DBSBD and the Department of General Services (DGS) for SWAM- related
+          seminars and/or fairs for consistent, statewide communications;
+
+                                                   Page 2 of 6
+
+   2.   Hosting and participating in IT related procurement fairs and educational opportunities;
+
+   3.   Meet with SWaM-supplier organizations for input and perspective.
+
+   4.   Participate in a SWaM procurement advisory committee comprised of IT SWaM businesses
+        which will assist VITA in enhancing opportunities for IT SWaM businesses as needed;
+   5.   Engage and educate internal sourcing consultants and purchasing specialists regarding
+        SWaM policies and practices;
+
+   6.   Update and maintain externally accessible web site for SWAMs;
+
+   7.   Identify and publicize VITA’s future contracting needs and procurement planning to assist
+        SWaM suppliers in preparing to participate in upcoming VITA procurements;
+
+   8.   Develop appropriate contract terms related to use of SWaM and SWaM subcontract spend
+        reporting;
+
+V. Competitive Requirements.
+All solicitations up to $10,000 shall be set aside for DBSBD certified micro businesses when the price
+quoted is fair and reasonable and does not exceed five percent (5%) of the lowest responsive and
+responsible noncertified bidder. These set asides would require soliciting a minimum of one (1) DBSBD-
+certified micro business, if available for all procurements up to $10,000.
+
+Solicitations for IT goods and services greater than $10,000 and up to $100,000 shall be set aside for
+qualified DBSDB-certified Small businesses when the price quoted is fair and reasonable and does not
+exceed five percent (5%) of the lowest responsive and responsible noncertified bidder. Purchases over
+$10,000 and up to $100,000 require soliciting at least four (4) DBSBD-certified small business sources, if
+available, through eVA. In the event two or more DBSBD-certified small businesses cannot be identified as
+qualified to set aside the procurement under $100,000, the procurement file shall be documented with the
+efforts through eVA and DBSBD to obtain the number of required sources and a competitive procurement
+will then be conducted. In estimating the total cost of the procurement, all possible renewal periods on a
+term contract must be considered to determine if the procurement will exceed $100,000.
+
+VI. Award to Other than the Lowest Price Bidder or Highest Ranking - Offeror over
+$100,000.
+Contracts over $100,000 may be awarded to a reasonably priced or reasonably ranked DBSBD-certified
+and qualified small business bidder or offeror that is other than the lowest price bidder or highest-ranking
+offeror. All potential awards to other than the lowest price bidder or highest-ranking offeror must be
+approved in writing by VITA’s Supply Chain Management Director or his designee before issuance of such
+award. In those instances, where an award is made to other than the lowest price bidder or highest ranked
+offeror, the award shall be made to the DBSBD-certified small business that is the lowest priced
+responsive and responsible bidder, or the DBSBD-certified highest-ranking offeror.
+
+VII. Set Asides.
+All solicitations up to $10,000 shall be set aside for DBSBD certified micro businesses. All solicitations
+between $10,000 and $100,000 shall be set-aside for qualified DBSBD- certified IT small businesses.
+Resulting awards may be made if the price quoted is fair and reasonable and does not exceed five percent
+(5%) of the lowest responsive and responsible noncertified bidder. Set asides, regardless of the amount of
+the solicitation or resulting contract, will not apply when the IT product or service has been previously
+competitively procured and may be ordered from a VITA statewide contract.
+
+VIII. Prime Contractor Supplier Procurement and Subcontracting Plan.
+                                                     Page 3 of 6
+
+    All solicitations for contracts, regardless of amount, shall contain the requirement that the prime contractor
+    must submit a “Supplier Procurement and Subcontracting Plan” to show all subcontractors the Supplier
+    intends to use for direct performance of the contract. Such plans shall identify all planned utilization of (i)
+    small businesses, (ii) subcategory of small businesses, (iii) small women-owned businesses, (iv) small
+    minority-owned businesses, and (v) small service-disabled veteran-owned businesses. For RFPs, small
+    business participation may be an evaluation criterion. If Supplier will not be utilizing small businesses in its
+    proposal, the Supplier shall submit the Supplier Procurement and Subcontracting Plan but indicate that no
+    small businesses will be utilized in its provision of IT goods and services to the Commonwealth.
+
+    Any resulting contract, regardless of amount will require that the following be included as a
+    contractual requirement of the prime contractor who receives the contract award:
+
+    Small Business Procurement and Subcontracting Spend - Prime contractors shall submit to
+    VITA a report of monthly subcontracting spend data. This data must include the prime
+    contractor's total spend to all subcontractors who provide direct performance for obligations
+    under the contract. Prime contractor’s monthly subcontracting spend data must be submitted
+    via the SRS webpage located at: http://vita2.virginia.gov/procurement/srs/.
+    Before final payment is made, the purchasing agency shall confirm that the prime contractor has certified
+    compliance with the contract’s Supplier Procurement and Subcontracting Plan. If there are any variances
+    between the contract’s Supplier Procurement and Subcontracting Plan and the reported actual small
+    business (SWaM) participation, the prime contractor shall provide a written explanation for the contract
+    file.
+
+    VITA’s contracts and renewals may include a provision allowing final payment to be withheld until the
+    prime contractor is in compliance with its Supplier Procurement and Subcontracting Plan. Prior to entering
+    into a new contract or renewing a contract with a prime contractor, VITA shall review the prime
+    contractor’s record of compliance with its Supplier Procurement and Subcontracting Plan commitments.
+    A prime contractor’s failure to satisfactorily meet designated Supplier Procurement and Subcontracting
+    Plan small business (SWaM) commitments shall be considered in determining the Supplier’s eligibility for
+    future contact awards and/or renewal of any existing contracts.
+
+VIII.    VITA’s Small Purchase Procedures – up to $100,000.
+A. IT Solicitations up to $10,000 will be set aside for micro-businesses.
+   A minimum of one quotation from a qualified DBSBD-certified micro business, if available, is required and
+   the award shall be made to that DBSBD-certified small business if the price is fair and reasonable and
+   does not exceed five percent (5%) of the lowest responsive and responsible noncertified bidder. If more
+   than one quote is solicited, the award will be made to the lowest responsive and responsible qualified
+   DBSBD-certified micro business bidder. If the procurement is set aside and agencies, as defined by § 2.2-
+   2006 of the Code of Virginia receive no acceptable bids or offers from micro businesses, the set aside
+   may be withdrawn and the procurement resolicited utilizing non-set-aside procedures.
+
+B. IT Solicitations from $10,000 to $100,000 will be set aside for small businesses.
+   If available, four (4) qualified DBSBD-certified small business sources should be solicited for all
+   procurements between $10,000 and $100,000. If two or more DBSBD- certified small businesses cannot be
+   identified as qualified to set aside the procurement under $100,000, the procurement file shall be
+   documented with VITA’s efforts through eVA to obtain the number of required sources. An award may be
+   made to a qualified, reasonably ranked small, minority or women- owned offeror, if available, that is other
+   than the highest-ranking offeror if the price submitted is fair and reasonable and does not exceed five
+   percent (5%) of the lowest responsive and responsible noncertified bidder. If an informal RFP is utilized in
+   lieu of Quick Quote the award shall be made to the highest ranking and qualified small, woman-or minority-
+   owned offeror. If the procurement is set aside and agencies, as defined by § 2.2-2006 of the Code of
+   Virginia, receive no acceptable bids or offers, the set aside may be withdrawn and the procurement
+   resolicited utilizing non-set-aside procedures.
+                                                           Page 4 of 6
+
+IX. Solicitations over $250,000.
+        IT Procurements up to $250,000 are delegated to agencies by VITA. Procurements up to $200,000 are
+        small purchases as defined by 2.2-4303(G)(I) of the Code of Virginia. Procurements between $200,000 and
+        $250,000 must be procured competitively.
+
+X. Commitment to Removing Barriers.
+    VITA will review all solicitations prior to posting in order to identify and remove, whenever possible, any
+    potential barriers or limitations to small business participation. In addition, VITA’s annual SWaM plan shall
+    outline ways in which VITA will work with procurement personnel to ensure nondiscrimination in the
+    solicitation and awarding of contracts. To the extent allowed by law, this public body does not discriminate
+    against faith-based organizations in accordance with the Code of Virginia, § 2.2-4343.1 or against a bidder
+    or offeror because of race, religion, color, sex, national origin, age, disability, sexual orientation, gender
+    identity or expression, political affiliation, or status as a service disabled veteran or any other basis
+    prohibited by state law relating to discrimination in employment.
+
+XI. Optional Use and Mandatory Statewide Contracts.
+        Set asides do not apply to orders placed against VITA’s statewide contracts.
+
+XII. Mandatory Statewide Contracts.
+    In the event VITA awards a statewide contract for IT goods and/or services to a qualified DSBSD-
+    certified small business VITA may, at its discretion, make the use of such contract mandatory for
+    agencies as defined by § 2.2-2006 of the Code of Virginia. Mandatory Contracts are designated as such
+    on VITA’s website and in eVA.
+
+XIII.        Joint and Cooperative Procurements.
+    Purchases from joint and cooperatively procured contracts may be approved by the Chief Information
+    Officer only if the purchase request satisfies the following criteria:
+
+A. there is no VITA statewide contract available, or;
+
+B. there is no qualified DBSBD-certified small business available that can provide the requested
+   goods and services at a fair and reasonable price, or;
+
+C. a VPPA-compliant joint and cooperatively procured contract is available for use.
+
+                                                            Page 5 of 6
+
+XVI. Authority Reference(s)
+Executive Order 35. Advancing Equity for Small-, Women-, Minority-, and Service-Disabled Veteran-Owned
+Business in State Contracting
+
+§ 2.2-2001 of the Code of Virginia. Contracting for information technology goods and services
+
+§ 2.2-2006 of the Code of Virginia. Definitions of “information technology” and “agency”
+
+§ 2.2-2012 of the Code of Virginia. Procurement of information technology
+
+§ 2.2-4303 of the Code of Virginia. Methods of Procurement
+
+§ 2.2-4310 of the Code of Virginia. Discrimination prohibited; participation of small, women-owned,
+minority-owned, and service disabled veteran-owned business.
+
+                                                    Page 6 of 6

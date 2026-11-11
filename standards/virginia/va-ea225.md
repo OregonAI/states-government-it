@@ -39,7 +39,7 @@ tags:
 
 ## At a glance
 
-Item of the VITA library, topic 'Enterprise Architecture': the mandatory technical direction and requirement statements agencies follow when planning, acquiring, developing or modifying IT solutions; the umbrella of the EA requirements documents also seeded here.
+Item of the VITA library, topic 'Enterprise Architecture': the mandatory technical direction and requirement statements agencies follow when planning, acquiring, developing or modifying IT solutions; the umbrella of the EA requirements documents also seeded here. The PDF prints 'Completion of guidance document process, expected to be July 2024' as its Effective Date (no effective_date recorded); Town Hall lists the Enterprise Architecture Standard (EA225) in effect from 7/18/2024.
 
 ## Full text
 

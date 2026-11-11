@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 466,
+ "n_nodes": 474,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -1439,6 +1439,12 @@
    "path": "policies/virginia/va-ai-policy-ea400.md"
   },
   {
+   "id": "va-buy-it-manual",
+   "title": "IT procurement manual - Buy IT",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-buy-it-manual.md"
+  },
+  {
    "id": "va-cloud-third-party-use-policy",
    "title": "Cloud Third Party Use Policy",
    "doc_type": "policy",
@@ -1467,6 +1473,60 @@
    "title": "Technology Management Policy (GOV105-05)",
    "doc_type": "policy",
    "path": "policies/virginia/va-gov105-05.md"
+  },
+  {
+   "id": "va-it-authority-delegation",
+   "title": "IT Procurement: Authority and Delegation Policies",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-authority-delegation.md"
+  },
+  {
+   "id": "va-it-commonwealth-security-cloud",
+   "title": "Commonwealth Security and Cloud Requirements",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-commonwealth-security-cloud.md"
+  },
+  {
+   "id": "va-it-contingent-labor",
+   "title": "ITCL Policy for Procuring and Managing Contingent Labor Resources",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-contingent-labor.md"
+  },
+  {
+   "id": "va-it-emergency-procurement",
+   "title": "IT Procurement: Emergency Procurement",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-emergency-procurement.md"
+  },
+  {
+   "id": "va-it-joint-cooperative-procurement",
+   "title": "IT Procurement: Joint and Cooperative Procurement Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-joint-cooperative-procurement.md"
+  },
+  {
+   "id": "va-it-small-purchase",
+   "title": "Small Purchase Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-small-purchase.md"
+  },
+  {
+   "id": "va-it-sole-source",
+   "title": "IT Procurement: Sole Source Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-sole-source.md"
+  },
+  {
+   "id": "va-it-swam-procurement",
+   "title": "IT Procurement Policy for Enhancing Opportunities for Small, Women, and Minority-Owned Businesses",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-swam-procurement.md"
+  },
+  {
+   "id": "va-it-telecom-waiver",
+   "title": "IT Procurement: Telecommunications Waiver Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-telecom-waiver.md"
   },
   {
    "id": "va-sec519-01",
@@ -2387,18 +2447,6 @@
    "path": "standards/virginia/va-sec502-05.md"
   },
   {
-   "id": "va-sec503",
-   "title": "Secure Remote Access to Online Court Documents Standard (SEC503)",
-   "doc_type": "standard",
-   "path": "standards/virginia/va-sec503.md"
-  },
-  {
-   "id": "va-sec505-00-3",
-   "title": "Virginia Real Property Electronic Recording Standard (SEC505)",
-   "doc_type": "standard",
-   "path": "standards/virginia/va-sec505-00-3.md"
-  },
-  {
    "id": "va-sec511",
    "title": "IT Standard Use of Non-Commonwealth Computing Devices to Telework (SEC511)",
    "doc_type": "standard",
@@ -2424,7 +2472,7 @@
   },
   {
    "id": "va-sec530-01-2",
-   "title": "Information Security Standard (SEC530.01.1)",
+   "title": "Information Security Standard (SEC530)",
    "doc_type": "standard",
    "path": "standards/virginia/va-sec530-01-2.md"
   },

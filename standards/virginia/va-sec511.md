@@ -5,7 +5,7 @@ jurisdiction: virginia
 id: va-sec511
 title: IT Standard Use of Non-Commonwealth Computing Devices to Telework (SEC511)
 doc_type: standard
-citation: ITRM Standard SEC511
+citation: ITRM Standard SEC511-1
 authority_level: ''
 issuing_body: Virginia Information Technologies Agency (VITA)
 source_url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/psgs/pdf/ITStandardNonCOVteleworkSEC511-1.pdf
@@ -34,7 +34,7 @@ tags:
 
 > **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
 
-# IT Standard Use of Non-Commonwealth Computing Devices to Telework (SEC511) (ITRM Standard SEC511)
+# IT Standard Use of Non-Commonwealth Computing Devices to Telework (SEC511) (ITRM Standard SEC511-1)
 
 ## At a glance
 

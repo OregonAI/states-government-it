@@ -1,0 +1,201 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-it-joint-cooperative-procurement
+title: 'IT Procurement: Joint and Cooperative Procurement Policy'
+doc_type: policy
+citation: 'VITA IT Procurement: Joint and Cooperative Procurement Policy'
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://www.vita.virginia.gov/media/vitavirginiagov/supply-chain/pdf/Joint-and-Cooperative-Procurement-Policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: e3fc420d28aceebed3b01fbdb01c581591c340a4bf40b95aabcd68ec962caac6
+effective_date: '2022-07-01'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# IT Procurement: Joint and Cooperative Procurement Policy (VITA IT Procurement: Joint and Cooperative Procurement Policy)
+
+## At a glance
+
+Linked from VITA's Procurement Policies page (vita.virginia.gov/procurement/forms-policies/procurement-policies/) as 'Joint and Cooperative Procurement (including GSA)'. Procedures for sponsoring and using jointly and cooperatively procured contracts to buy IT goods and services, including CIO approval; it states that it covers all public bodies (Va. Code 2.2-4301). Byte-identical to the Town Hall copy (guidance document 7320, in effect from 7/1/2022).
+
+## Full text
+
+                                           IT Procurement:
+                                           Joint and Cooperative Procurement Policy
+
+                                                                                    EFFECTIVE DATE: 07/01/2022
+
+                                             TABLE OF CONTENTS
+                     I                              Purpose
+
+                     II                             General Information
+
+                     III                            Conducting an IT Joint Procurement
+
+                     IV                             Purchasing from IT Joint and Cooperative
+                                                    Procurements
+
+                     V                              Joint and Cooperative Procurements
+                                                    Resulting in High Risk Contracts
+
+                     VI                             CIO Approval
+
+                     VII                            Enterprise Cloud Oversight Services
+                                                    (ECOS) process
+
+                     VIII                           Joint and Cooperative Procurement
+                                                    Requests
+
+                     Authority
+                     References
+
+    I.     Purpose.
+           This document covers the Virginia IT Agency (VITA) procurement policies and procedures for
+           sponsoring and using jointly and cooperatively procured contracts to purchase IT goods and
+           services., All public bodies, as defined by §2.2-4301 of the Code of Virginia are subject to
+           these policies and procedures, except those agencies and institutions explicitly exempted by
+           the Code of Virginia.
+
+         Policies- What you need to do
+
+    II. General Information.
+        §2.2-4304 The Code of Virginia authorizes public bodies to sponsor, conduct or administer a
+           joint procurement agreement with other public bodies for the purpose of combining
+           requirements to increase efficiency or reduce administrative expenses in any acquisition of IT
+           goods and services. . Jointly and cooperatively procured contracts are to be used to procure
+           IT goods and services only if the original solicitation and resulting contract contain language
+           that the joint and cooperative procurement was being conducted on behalf of other public
+           bodies.
+
+                                                      Page 1 of 4
+Joint and Cooperative Procurement Policy
+
+    III. Conducting an IT Joint and Cooperative Procurement.
+         Public bodies do not have authority to sponsor, conduct or administer a joint and cooperative
+          procurement arrangement for IT goods or services for any amount unless such authority is
+          delegated by VITA and such procurement arrangement is approved in advance by the Chief
+          Information Officer (CIO) of the Commonwealth.
+
+    IV. Purchasing from IT Joint and Cooperative Procurements.
+        Joint and cooperative procurement agreements, including GSA contracts or other United
+          States government contracts, may be used, when appropriate, to increase cost savings or
+          expedite the acquisition of IT goods and services. Purchasing from joint and cooperatively
+          procured contracts is only permitted if the terms of that contract allow for such purchases.
+          Purchasing from joint and cooperatively procured contracts is not permitted for IT goods and
+          services available on an existing VITA statewide contract or available through a DSBSD-
+          certified small business, including certified small businesses owned by women, minorities,
+          and service-disabled veterans, if the procurement is below $100,000. The use of joint and
+          cooperatively procured contracts is not permitted for IT goods and services available through
+          a DSBSD-certified micro- business, if the procurement is below $10,000. Joint and
+          Cooperative procurement agreements typically should not be used for software purchases or
+          ongoing service level agreements.
+
+          (GSA Contracts only)- Where appropriate, GSA contracts or contracts awarded by any other
+          agency of the United States government may be reviewed for a joint or cooperative
+          procurement. To participate in the GSA contract, competition is required, and the contractor
+          must agree to all of VITA’s statutorily mandated terms and conditions. When an agency
+          purchases from a Multiple Award Schedule the terms and conditions of the underlying GSA
+          contract are incorporated by reference in the state’s contract with the GSA supplier. Agencies
+          may add terms and conditions to the GSA contracts., to the extent that they do not conflict
+          with GSA Schedule 70 terms and conditions; however, if a required state term and condition
+          conflicts with a GSA term, then an agency cannot purchase from that GSA supplier. The CIO or
+          his designee must approve in writing and in advance of the procurement all procurements
+          from GSA contracts for IT goods and services.
+
+      V. Joint and Cooperative Procurements Resulting in High-Risk Contracts
+         Any IT contract with a cost in excess of $5 million over the initial term of the contract where
+          the IT goods and/or services that is the subject of the contract is being procured by two or
+          more state public bodies is a “high risk contract” pursuant to Section 2.2-4303.01 of the Code
+          of Virginia. § 2.2-4303.01 (A) defines “high risk contracts” and provides review and evaluation
+          criteria for all solicitations and contracts which may result in a high-risk contract.
+
+          If a public body is conducting a VITA-delegated IT procurement with another state public body
+          and the solicitation is anticipated to result in a high-risk contract, VITA and the Office of the
+          Attorney General must review the solicitation before it can be issued. Such a review will be
+          conducted within 30 business days to determine the contract’s compliance with state law and
+          policy, as well as the legality and appropriateness of the contract terms and conditions.
+
+          Prior to the award of a high-risk contract, VITA and the Office of the Attorney General must
+          complete a review of the contract within 30 business days to determine the contract’s
+
+                                                     Page 2 of 4
+Joint and Cooperative Procurement Policy
+
+          compliance with state law and policy, as well as the legality and appropriateness of the
+          contract terms and conditions.
+
+          The review will also ensure the inclusion of distinct and measurable performance metrics and
+          clear enforcement provisions in all high-risk solicitations and contracts, as well as clearly
+          outlined enforcement provisions, including remedies, to be used in the event that contract
+          performance metrics are not met.
+
+          Agencies are required to contact VITA’s SCM division at: scminfo@vita.virginia.gov to conduct
+          high risk contract evaluation.
+
+  VI.     CIO Approval.
+          Regardless of amount, all joint and cooperative procurements and procurement
+          arrangements for IT goods and services shall be approved under the authority of the CIO
+          pursuant to § 2.2-4304 of the Code of Virginia.
+  VII. Enterprise Cloud Oversight Services (ECOS) process.
+       Regardless of the amount, if the Joint and Cooperative Procurement involves an off-premise
+          (cloud hosted) solution, agencies must follow the ECOS Process and Third Party Policy
+          Workflow. A Security Assessment of the cloud service will need to be completed by the
+          supplier and approved by ECOS, via a work request 1-003, and special Cloud Services Terms &
+          Conditions must be included in the contract prior to award.
+
+     Procedure- How you implement the policies
+
+  VIII. Joint and Cooperative Procurement Requests.
+        Public bodies as defined by §2.2-4301 of the Code of Virginia, must utilize the following
+          approval process to request use of other joint and cooperative procurement agreements:
+
+          1. Forward a completed IT Joint and Cooperative Procurement Approval Request form to
+             VITA’s Supply Chain Management (SCM) at scminfo@vita.virginia.gov. This form is located
+              on the web at: https://www.vita.virginia.gov/procurement/policies-
+              procedures/procurement-policies/.
+          2. After CIO approval is obtained, agencies, as defined by § 2.2-2006 of the Code of Virginia,
+             may proceed with the purchase utilizing eVA.
+
+Authority Reference(s)
+
+                                                     Page 3 of 4
+Joint and Cooperative Procurement Policy
+
+§2.2-4301 of the Code of Virginia; Defines “public bodies.”
+§ 2.2-2012 of the Code of Virginia; Defines the CIO’s authority to approve or disapprove, all
+executive branch agency procurements of information technology.
+§ 2.2-4303.01 of the Code of Virginia; Defines high-risk contracts and provides review and
+evaluation criteria for high-risk solicitations and resulting contracts.
+§ 2.2-4304 of the Code of Virginia; Outlines the joint and cooperative procurement process and
+requisite approvals needed.
+Executive Order 35 (2019) – Advancing Equity for Small-, Women-, Minority-, and Service
+Disabled Veteran-Owned Businesses in State Contracting.
+
+                                                    Page 4 of 4
+Joint and Cooperative Procurement Policy
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

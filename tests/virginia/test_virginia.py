@@ -144,3 +144,8 @@ def test_vita_page_identity_refuses_a_page_with_another_title():
         states.check_identity(rules, text(CLOUD, "policy"), "html")
     with pytest.raises(ValueError):
         states.check_identity(cloud, text(RULES, "policy"), "html")
+
+
+def test_effective_date_header_date_is_kept_when_the_table_row_prints_two_dates():
+    # GOV 102-02 prints 'Effective Date: June 01, 2016' in its running header and 'July 24, 2009 June 01, 2016' in the table
+    assert _eff("gov102-publication-designation.txt") == "2016-06-01"
