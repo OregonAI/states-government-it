@@ -1,0 +1,25 @@
+Technology Letter 22-02
+December 2022
+SUBJECT:
+Internet Access Policy
+REFERENCES:
+Government Code Sections 11532(c), 11534-11543, 11546.1, 11549.3
+State Administrative Manual (SAM) Sections 4985, 4895.1, 4985.2, 4985.3, 5300, 5100 and 5305.5
+BACKGROUND:
+Pursuant to Government Code (GC), Section 11541(d), the California Department of Technology (CDT), Office of Technology Services has the authority and responsibility of developing, implementing, and maintaining business telecommunications systems, services, and policy.
+The purpose of this policy is to ensure that access to state assets, including business telecommunications systems and services, are safe, secure and cost effective as defined in GC Sections 11541 and 11549.3.
+SAM Sections 4985–4985.3 are being introduced to document the Internet Access policy, the requirements, and the cloud and internet access methods.
+Agencies/state entities as defined in GC 11546.1, are required to comply with SAM 4985-4985.3.
+PURPOSE:
+The purpose of this Technology Letter (TL) is to announce:
+•
+  • New SAM Section 4985 to introduce the Internet Access policy.
+  • New SAM Section 4985.1 that describes the purpose of the Internet Access policy.
+  • New SAM Section 4985.2 that defines the Internet Access Requirements.
+  • New SAM Section 4985.3 that describes the Cloud and Internet Access Methods.
+QUESTIONS:
+Direct questions regarding this Technology Letter to the Department of Technology, Office of Technology Services at InternetAccess@state.ca.gov.
+SIGNATURE:
+On file
+Liana Bailey-Crimmins, Director
+California Department of Technology

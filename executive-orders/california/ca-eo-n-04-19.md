@@ -1,0 +1,251 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: california
+id: ca-eo-n-04-19
+title: Innovation Procurement Sprint
+doc_type: executive_order
+citation: Executive Order N-04-19
+authority_level: ''
+issuing_body: Governor of California
+source_url: https://www.gov.ca.gov/wp-content/uploads/2019/01/1.8.19-EO-N-04-19.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: c5a03fbe60171463f7d8f95d7cfe3d737aab53b04d748cd70c3ade0a38166b7b
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'no text layer in the source PDF; text recovered by OCR. Two independent engines (tesseract
+  (ocrmypdf) + paddleocr PP-OCRv6) agree on 98% of the word sequence and 93% of the 21 figures, 97% dictionary-recognizable.
+  16 position(s) where the two engines read a different word or figure are listed in the scan''s ocr.json
+  report (disagreements): the committed reading is tesseract''s and is contested there. Figures read differently:
+  tesseract read 1 S where paddle read IS (after "become effective immediately IT"); tesseract read GAMIN
+  NEWSO where paddle read set my hand and caused the Great Sealof the State of California to be affixed
+  this 8 th dayof January 2019 GAVIN NEWSOM (after "WITNESS WHEREOF have hereunto"). Reading order of
+  labelled or two-column layouts, bullet glyphs (read as ''e'' or ''o''), letterhead logos, handwriting
+  and signatures are not reliably read or placed; the glyphs read from a signature field are not committed.
+  effective_date and source_version are left empty: a date read from a scan is not transcribed from the
+  source. NOT human-verified — treat every number as unchecked against the source'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+- oversight
+- governance
+text_source: ocr
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+> **MACHINE READING OF A SCAN.** The source PDF has no text layer: it is an image. The full text below was read from the image by OCR (two engines, see the curator notes) and is not the document's own text. Expect character-level errors in words and figures, and treat every number as unchecked against the source. `source_sha256` hashes this transcription; the scan is the snapshot.
+
+# Innovation Procurement Sprint (Executive Order N-04-19)
+
+## At a glance
+
+Executive Order N-04-19, 'Innovation Procurement Sprint': an executive order of the Governor of California; the order's own text is the PDF the Governor's website publishes.
+
+## Full text
+
+EXECUTIVE DEPARTMENT
+STATE OF CALIFORNIA
+
+EXECUTIVE ORDER N-04-19
+
+WHEREAS, California is the 5th largest economy in the world and home to
+some of the most innovative, progressive, and productive companies,
+academic institutions, nonprofit organizations, and engaged citizens
+anywhere in the world;
+
+WHEREAS, California is facing unprecedented challenges to the way it
+orotects the health, welfare, safety, and sensitive information of its
+residents, and we must respond to these new challenges with a
+commensurate level of innovation and intentionality;
+
+WHEREAS, technology and innovation can be deployed to address some
+of the State’s most pressing challenges, but only if we modernize our
+procurement processes to ensure that solutions fit the problems they are
+designed to solve;
+
+WHEREAS, instead of asking for a particular technology product, as with
+traditional procurement, we can ask for solutions to a problem we face,
+convene State experts, vendors, entrepreneurs, and scientists from a
+range of industries, and challenge them to propose innovative,
+technological solutions to yield more comprehensive and effective results;
+
+WHEREAS, this new approach to procurement capitalizes upon California’s
+innovation economy by asking better questions, leading to new and
+better outcomes for our State’s residents;
+
+WHEREAS, the State should develop a new flexible approach to
+procurement, called an RFI2, or Request for Innovative Ideas. In certain
+cases when an RFI2 is warranted, the State will ask innovators to design
+solutions to our most complex problems, instead of the traditional RFP
+process, wherein the State predefines the solution and vendors bid for a
+narrowly defined contract;
+
+WHEREAS, the RFI2 process will challenge innovators and entrepreneurs to
+provide California with leading-edge solutions by aligning our
+procurement methods with the pace of change of our State’s greatest
+innovators in academia and the private sector;
+
+WHEREAS, the State must foster a culture conducive to innovation,
+including communicating and collaborating with the private and public
+sectors at the outset of a project to better clarify the State’s business
+requirements and social imperatives, and then evaluating working
+solutions before the State invests significant taxpayer dollars;
+
+WHEREAS, by embracing this new flexible aqoproach to procurement, the
+State and its partners—including but not limited to the vendor, academic,
+scientific, and entrepreneurial communities—learn from each other and
+collaborate to find solutions in the best interests of the people of
+California; and
+
+WHEREAS, the State will reward delivery of working solutions and carry forth
+a model of service delivery to current and future generations of
+
+Californians that emphasizes outcomes through collaborative and
+iterative learning.
+
+NOW, THEREFORE, I, GAVIN NEWSOM, Governor of the State of California,
+by virtue of the power and authority vested in me by the Constitution and
+statutes of the State of California, do hereby issue this Order to become
+effective immediately.
+
+IT 1S HEREBY ORDERED THAT:
+
+1. State agencies shall develop a new iterative procurement
+approach called an Innovation Procurement Sprint, to be
+employed when such an approach is suitable. This approach will be
+governed by Public Contract Code section 6611, a statute that
+grants broad authority to the California Department of General
+Services (DGS} and the California Department of Technology (CDT)
+to utilize flexible approaches on behalf of the State and other state
+agencies.
+
+2. The first Innovation Procurement Sprint will be executed by the DGS
+and CDT on behalf of the California Department of Forestry and Fire
+Protection (CalFire), to identify innovative solutions to the State’s
+wildfire crisis, with a goal of working-solutions deployments in 2019
+and final awarded deployments by Spring 2020. In the last two
+years, California has experienced some of the most destructive and
+record-breaking fires in the State's history. There is a pressing need
+for the State to identify innovative and sustainable solutions to
+address the State’s challenges of severe wildfires and degradation
+of forest health.
+
+3. Innovation Procurement Sprints will occur in partnership between
+State agencies, working with the private sector and all appropriate
+levels of government and non-government entities, including but
+not limited to vendors, academic and scientific experts, and
+entrepreneurs (“solution providers”) to spur innovation, promote
+collaboration, and entice partnership in solving the State’s most
+complex business and technology challenges.
+
+4. Innovation Procurement Sprints, fo be conducted by the DGS or the
+CDT, as appropriate, on behalf of the State agency, may include,
+but not be limited to:
+
+First Phase:
+
+a. Developing a problem statement in consultation with experts
+and governmental leaders to clearly define the issue that
+needs solving.
+
+b. Issuing a Request for Innovative Ideas (RFI2) to meet the
+State's problem statement.
+
+c. Communicating effectively with solution providers about
+potential solutions, including innovative traditional and non-
+traditional partnering opportunities, such as between the
+scientific and entrepreneurial communities.
+
+d. Convening a panel of subject-matter experts (who may work
+outside of State government) to advise qualified State
+personnel in evaluating the RFI2 responses and determining
+
+i
+CBB
+
+which entity (or entities) shall qualify to make prototypes
+and/or conduct demonstrations to verify and validate the
+proposed solutions.
+
+second Phase:
+e. Once selected, the solution provider(s) will partner with the
+
+State to further understand and define the State's
+requirements and business needs.
+
+f. Solution provider(s) will build working-solutions prototypes,
+conduct demonstrations, and provide other necessary
+responses to the State. Working solutions can lead to more
+effective procurement than traditional methods of scoring
+RFP submissions.
+
+g. The State will observe and evaluate the working solutions and
+award contract(s) based on these working-solutions
+evaluations.
+
+5. The DGS and the CDT shall issue guidance on this approach, which
+shall maximize the grant of authority provided to them under Public
+Contract Code section 6611.
+
+6. When the iterative approach is used, the State shall consider for
+each procurement whether solution providers that qualify to enter
+into negotiations and provide prototypes and/or conduct
+demonstrations may be compensated for their develoomental
+efforts, in the amount as determined by the DGS or the CDT, as
+appropriate.
+
+7. It is the intent of this Order that any successor agency or
+department with technology and contracting functions similar to
+the DGS or CDT would use and maximize the same authority to
+undertake an Innovation Procurement Sprint negotiation process
+pursuant to Public Contract Code section 6611.
+
+IT IS FURTHER ORDERED that State Agencies shall cooperate in the
+implementation of this Order. Other entities of State government not
+under my direct executive authority, including the California Public Utilities
+Commission, the University of California, the California State University,
+California Community Colleges, constitutional officers, and legislative and
+judicial branches are requested fo assist in its implementation.
+
+This Order is not intended to, and does not, create any rights or benefits,
+substantive or a procedural, enforceable at law or in equity, against the
+State of California, its departments, agencies, or other entities, its officers
+or employees, or any other person.
+
+IT IS FURTHER ORDERED that soon as hereafter possible, this Order shall be
+
+filed with the Office of the Secretary of State and that widespread
+publicity and notice shall be given to this Order.
+
+St ee
+ee
+
+IN WITNESS WHEREOF | have hereunto
+
+~GAMIN NEWSO
+Governor of California
+
+ATTEST:
+
+ALEX PATFILLA
+Secretary of State
+
+iting:
+ates S> bd
+“Sine
+
+## Curator notes
+
+no text layer in the source PDF; text recovered by OCR. Two independent engines (tesseract (ocrmypdf) + paddleocr PP-OCRv6) agree on 98% of the word sequence and 93% of the 21 figures, 97% dictionary-recognizable. 16 position(s) where the two engines read a different word or figure are listed in the scan's ocr.json report (disagreements): the committed reading is tesseract's and is contested there. Figures read differently: tesseract read 1 S where paddle read IS (after "become effective immediately IT"); tesseract read GAMIN NEWSO where paddle read set my hand and caused the Great Sealof the State of California to be affixed this 8 th dayof January 2019 GAVIN NEWSOM (after "WITNESS WHEREOF have hereunto"). Reading order of labelled or two-column layouts, bullet glyphs (read as 'e' or 'o'), letterhead logos, handwriting and signatures are not reliably read or placed; the glyphs read from a signature field are not committed. effective_date and source_version are left empty: a date read from a scan is not transcribed from the source. NOT human-verified — treat every number as unchecked against the source

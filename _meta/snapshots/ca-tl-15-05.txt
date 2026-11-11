@@ -1,0 +1,70 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                                        NUMBER:                    DATE ISSUED:
+
+TECHNOLOGY LETTER                                                          TL 15-05                   NOVEMBER 2015
+SUBJECT:                                                                   REFERENCES:
+WEB ACCESSIBILITY                                                          Government Code (GC) Sections 11135
+                                                                           and 11545
+                                                                           State Administrative Manual (SAM)
+                                                                           Sections 4819.2 and 4833
+                                                                           Statewide Information Management Manual
+                                                                           (SIMM) Section 20, 25, 30
+
+BACKGROUND
+
+State law (GC § 11135) directs all state entities (in developing, procuring, maintaining, or using
+electronic or information technology, either indirectly or through the use of state funds by other entities)
+to comply with the accessibility requirements of Section 508 of the federal Rehabilitation Act of 1973, as
+amended (29 U.S.C. Sec. 794d), and regulations implementing that act as set forth in Part 1194 of Title
+36 of the Code of Federal Regulations. In requiring compliance with Section 508, GC § 11135
+mandates that Electronic and Information Technology1 (EIT) be accessible to individuals with
+disabilities. GC § 11135 applies the same requirements to state agencies and employees that
+Section 508 applies to federal agencies or employees. SAM Section 4833 includes the IT policy in
+support of regulations on accessibility in state government IT.
+Agencies/state entities and contractors working on their behalf are responsible for ensuring that their
+Agency/state entity public websites are accessible to the general public, and that their internal
+information technology systems are accessible by state employees with disabilities. SIMM Section 25
+IT Accessibility Resource Guide includes state web accessibility standards that Agencies/state entities
+must use to comply with IT policy. These standards are based on the World Wide Web Consortium’s
+Web Content Accessibility Guidelines (WCAG).
+
+PURPOSE
+The purpose of this Technology Letter (TL) is to remind all Agencies/state entities of the statutory
+requirements related to web accessibility and to provide information to assist in immediate
+implementation:
+        Website and web-based application developers, designers, programmers, and content providers
+         must be familiar with the standards and guidelines for achieving universal web accessibility and
+         must comply with applicable Digital Accessibility Laws as described in SIMM Section 25.
+        California Agencies/state entities must design and develop websites and web-based
+         applications that are equally accessible to people with disabilities as well as those without
+         disabilities.
+        By July 1, 2016, all public facing websites maintained by California Agencies/state entities2 shall
+         include a webpage that lists standard browser usability features and links to additional pertinent
+         information. A hyperlink to this webpage shall be included in the header or footer and be
+         consistently displayed on all webpages, including the homepage. The hyperlink should not be
+         included in any slideshow or rotating carousel display.
+
+1
+  For the purposes of this policy, “EIT” is limited to IT that is within the scope of authority of the California Department of
+Technology.
+2
+  Agency/State entity: Includes every state office, officer, department, division, bureau, board, and commission, including
+Constitutional Officers. “State entity” does not include the University of California, California State University, the State
+Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel Bureau.
+
+TL 15-05 Web Accessibility                                                                                                Page 1
+
+      Instructions to assist Agencies/state entities to comply with this requirement and methods by
+       which they can conduct web accessibility testing can be found on the Department of Technology
+       Web Services Unit’s Webtools website.
+
+QUESTIONS
+Questions regarding this Technology Letter should be directed to the Department of Technology, Policy
+Office at ITPolicy@state.ca.gov.
+
+SIGNATURE
+
+                  __/s/_______________________________________________________________
+                  Carlos Ramos, Director
+                  California Department of Technology
+
+TL 15-05 Web Accessibility                                                                    Page 2

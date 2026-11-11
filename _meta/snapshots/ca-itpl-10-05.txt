@@ -1,0 +1,247 @@
+OFFICE OF THE STATE CIO
+
+                                                                     NUMBER:
+
+IT POLICY LETTER                                                     ITPL 10-05
+SUBJECT:                                                             DATE ISSUED:
+
+INFORMATION TECHNOLOGY PROJECT OVERSIGHT                             MARCH 25, 2010
+FRAMEWORK
+Emphasis: Project Oversight Resources And Alignment With             EXPIRES:
+The California Project Management Methodology                        Until Rescinded
+REFERENCES:                                                          ISSUING AGENCY:
+
+Government Code Sections 11545 and 19130                             OFFICE OF THE STATE CHIEF
+Governor’s Reorganization Plan #1 of 2009                            INFORMATION OFFICER
+State Administrative Manual Sections 4819.2, 4819.30-.39,
+4819.42, 4940, 4944
+Statewide Information Management Manual Sections 17 and 45
+Information Technology Policy Letter 09-01
+
+DISTRIBUTION           Agency Secretaries
+                       Department Directors
+                       Agency Chief Information Officers
+                       Department Chief Information Officers
+
+                       The purpose of this Information Technology Policy Letter (ITPL) is to
+PURPOSE
+                       announce:
+
+                              Changes to the project oversight requirement of high criticality/risk
+                              information technology (IT) projects. The changes eliminate the
+                              requirement to use contractors for project oversight. Rather, IT
+                              project oversight will now be assessed on a project-by-project basis
+                              by the Office of the State Chief Information Officer (OCIO), Program
+                              Management Office (PMO) to determine oversight resources
+                              required for each IT project.
+                              A new requirement to include the California Project Management
+                              Methodology (CA-PMM) Complexity Assessment1 when submitting
+                              Feasibility Study Reports (FSR), Special Project Reports (SPR), or
+                              equivalent documents to the OCIO PMO for review.
+                              The addition of new definitions to Section 4819.2 of the State
+                              Administrative Manual (SAM) for Project Oversight, Verification, and
+                              Validation.
+                              Modifications to the Information Technology Project Oversight
+                              Framework (Oversight Framework) included as Section 45 of the
+                              Statewide Information Management Manual (SIMM) as described in
+                              Attachment A.
+
+1
+ The CA-PMM Complexity Assessment is included in Section 17 of the Statewide Information Management
+Manual (SIMM).
+                                                                                             Page 1
+
+BACKGROUND                Within the authority of Government Code Section 11545 and the
+                          Governor’s Reorganization Plan #1 of 2009, the OCIO has responsibility
+                          and authority for the establishment and enforcement of state information
+                          technology in California State Government. This includes establishing and
+                          enforcing state IT policies regarding the approval and oversight of IT
+                          projects.
+                          In February 2003, the OCIO’s predecessor organization within the
+                          Department of Finance released the Oversight Framework, which included
+                          requirements for IT project management. Subsequently, the OCIO
+                          established the CA-PMM as the State’s standard for IT project
+                          management in April 2009 pursuant to ITPL 09-01.
+
+                          The OCIO establishes the following policy changes for IT Project
+POLICY
+                          Oversight:
+
+                              1. State agencies2 that have assessed IT projects as high
+                                 criticality/risk are required to consult with the OCIO PMO to
+                                 determine the appropriate state employee or consultant resources
+                                 required for project oversight responsibilities. Use of consultants is
+                                 not required for oversight of every such project.
+
+                                   Note: The OCIO PMO will make the final determination as to how
+                                   project oversight and resources will be applied to individual IT
+                                   projects and may revise the criticality/risk level upon review of any
+                                   project documents.
+
+                              2. State agencies shall include a completed CA-PMM Complexity
+                                 Assessment when submitting FSRs, SPRs, or equivalent
+                                 documents to the OCIO PMO.
+
+                              3. State agencies will apply the definitions for Verification and
+                                 Validation used by the Institute of Electrical and Electronics
+                                 Engineers (IEEE) in accordance with IEEE Standard 6103.
+
+                                   Note: The OCIO recommends that V&V responsibilities and
+                                   activities be consistent with IEEE Standard 10124. However, it
+                                   should be noted that IEEE Standard 1012 may be more rigorous
+                                   than is needed on most State IT projects. Therefore, the OCIO
+                                   recommends that V&V scope and complexity be scaled as
+                                   appropriate to the size and complexity of individual IT projects.
+
+2
+  When capitalized, the term “Agency” refers to one of the state’s super Agencies such as the State and Consumer
+Services Agency or the Health and Human Services Agency. When used in lower case, the term “agency” refers to
+any office, department, board, bureau, commission or other organizational entity within state government. Within
+this ITPL, “agency” and “department” are used interchangeably.
+3
+  IEEE Standard 610 is the Computer Dictionary - Compilation of IEEE Standard Computer Glossaries.
+4
+  IEEE Standard 1012 is the standard for Software Verification and Validation
+                                                                                                            Page 2
+
+SAM and SIMM    SAM Changes:
+CHANGES
+                SAM Section 4819.2, Definitions, will be amended to include the definitions
+                of Project Oversight, Verification, and Validation, as follows:
+                        Project Oversight – An independent review and analysis to
+                        determine if the project is on track to be completed within the
+                        estimated schedule and cost, and will provide the functionality
+                        required by the sponsoring business entity. Project oversight
+                        identifies and quantifies any issues and risks affecting these project
+                        components.
+                        Verification – The process of evaluating software to determine
+                        whether the products of a given development phase satisfy the
+                        conditions imposed at the start of that phase. [IEEE-STD-610].
+                        Validation – The process of evaluating software during or at the
+                        end of the development process to determine whether it satisfies
+                        specified requirements. [IEEE-STD-610]
+                SIMM Changes:
+                Changes to the SIMM Section 45, Information Technology Project
+                Oversight Framework include:
+                       Alignment with the CA-PMM.
+                       Criticality/Risk Assessment
+                       Revision to oversight resource requirements.
+                       Addition of definition and recommended standards for V&V.
+                       Global change to replace relevant references to the Department of
+                       Finance with the OCIO.
+                A summary of the SIMM changes is included as Attachment A. The
+                changes have been incorporated into Section 45 of the SIMM located at
+                http://www.cio.ca.gov/Government/IT_Policy/SIMM.html.
+                As previously discussed, the Complexity Assessment must be submitted
+                with the FSR, SPR, or equivalent document. In addition, the OCIO PMO
+                may revise the criticality/risk level determined by the agency upon review of
+                any project documents. These and additional changes to the SIMM
+                Sections 20 and 30 (FSR and SPR Preparation Instructions) will be
+                addressed in a separate ITPL.
+
+APPLICABILITY   The Oversight Framework applies to all reportable IT projects as defined in
+                the SAM Section 4800.
+
+CONTACT         Questions regarding this policy should be directed to your OCIO PMO
+                representative. A listing of PMO Managers and Principals, their
+                departmental assignments, and department delegated cost thresholds can
+                be found at the OCIO Web site located at:
+                http://www.cio.ca.gov/Contact_Us/staff_assignments.html
+
+SIGNATURE       /s/
+                ___________________________________
+                Teri Takai,
+                                                                                      Page 3
+
+                    Chief Information Officer
+                    State of California
+
+Attachment A
+
+     Summary of Changes to the Statewide Information Management Manual (SIMM)
+                                    March 2010
+SIMM Section        Action Type Changes
+SIMM Section 45, IT Change         Globally replaced references to the Department of
+Project Oversight                  Finance with OCIO, where appropriate.
+Framework
+                                   Section 1: Introduction and Overview
+                                          Deleted obsolete introductory language and
+                                          added current GC 11545 OCIO authority.
+                                          Added recommendation for use of IEEE
+                                          Standard 1012 for Independent Verification
+                                          and Validation practices.
+                                          Added definitions for Verification and
+                                          Validation from IEEE Standard 610.
+                                          Replaced Forms and Template references to
+                                          the CA-PMM, SIMM Section 17, where
+                                          appropriate.
+
+                                      Section 2: Project Classification for Oversight
+                                             Replaced in its entirety with a requirement to
+                                             use the CA-PMM Complexity Assessment,
+                                             SIMM Section 17A.
+
+                                      Section 3: Department Project Management
+                                      Requirements
+                                             Replaced in its entirety with the CA-PMM,
+                                             SIMM Section 17.
+
+                                      Section 4: Project Management Practices
+                                      Assessment.
+                                             Revised to be used by independent project
+                                             oversight rather than the Department of
+                                             Finance or OCIO.
+                                             Updated to match CA-PMM requirements.
+
+                                      Section 5: Risk Management and Escalation
+                                      Procedures
+                                             Replaced in its entirety with the CA-PMM,
+                                             SIMM Section 17A, Section 3.1.6 for minimum
+                                             Risk Management Plan requirements.
+                                             Retained Oversight Framework Appendices C
+                                             and E for references and optional tools.
+
+                                      Section 6: Independent Oversight Requirements
+                                             Modified the description of Independent
+                                             Oversight.
+                                             Changed references to the CA-PMM, where
+                                             appropriate.
+
+                                                                                       Page 4
+
+Appendix A: Required Project Management Practices
+and Products
+       Replaced in its entirety by the CA-PMM, SIMM
+       Section 17.
+
+Appendix B: Department Project Management
+Assessment Form
+      Minor language modifications regarding use
+      and references to CA-PMM.
+
+Appendix C: Categories and Examples of Risk
+      No change.
+
+Appendix D: Project Risk List
+      Replaced in its entirety by the CA-PMM.
+
+Appendix E: Risk Management Form
+      Retained as an optional tool for documenting
+      risk analysis.
+
+Appendix F: Project Oversight Review Checklist
+      Minor changes for OCIO and CA-PMM
+      references.
+
+Appendix G: Independent Project Oversight Report
+      Minor changes for OCIO references only.
+
+Appendix G: Independent Project Oversight Report –
+Instructions
+        Minor changes for OCIO references and
+        contact information.
+
+Appendix H: Definition of Terms
+      Added CA-PMM.
+
+                                                 Page 5

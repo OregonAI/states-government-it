@@ -1,0 +1,78 @@
+CALIFORNIA TECHNOLOGY AGENCY                                   NUMBER:          DATE ISSUED:
+
+TECHNOLOGY LETTER                                              TL 12-07         JUNE 5, 2012
+SUBJECT:                                                       REFERENCES:
+SUSPEND ENTERPRISE ARCHITECTURE REPORTING                      Government Code Section 11545
+Statewide Enterprise Architecture                              SAM 4819.31 and 4906
+                                                               SIMM 05A, 58, and 158
+                                                               IT Policy Letter 09-03, 10-15
+
+BACKGROUND
+Information Technology Policy Letter (ITPL) 09-03 and ITPL 10-15 announced a framework for a
+statewide enterprise architecture (EA). The EA framework required departments to provide information
+needed for a Business Reference Model (BRM), Service Component Reference Model (SRM), and
+Technical Reference Model (TRM). Departments and agencies are required to annually submit updated
+EA information to the California Technology Agency by the last Friday of June.
+
+PURPOSE AND DESCRIPTION
+The purpose of this Technology Letter (TL) is to suspend the requirement for agencies and
+departments to report BRM, TRM and SRM-related information as the Technology Agency reviews the
+EA program to optimize its value for agencies, departments, and the state as a whole. Effective with the
+release of this Technology Letter, agencies and departments are not required to complete or submit the
+Business Template, Services Template or the Technology Template. References to the reporting
+requirement will be updated in the Statewide Information Management Manual (SIMM) Section 05A to
+reflect the suspension. Revised SIMM Section 05A is included as Attachment A.
+
+PROCESS
+Agencies and departments are not required to prepare or provide updated EA reports until further
+notice. The Technology Agency will update the statewide EA program in collaboration with agencies,
+departments, and the state’s EA community and will provide further instructions in advance of any
+required reports.
+
+The Technology Agency delegates to agency or department CIO’s the authorization to retain or create
+agency or departmental policies or processes associated with EA reporting.
+
+QUESTIONS
+Questions should be directed to your Technology Agency PMO Principal or Manager. A listing of PMO
+Managers and Principals and their departmental assignments can be found at the Technology Agency
+Web site located at: Technology_Agency_PMO_Assignments.
+
+SIGNATURE
+
+                  _____/S/__________________________________________________________
+                  Carlos Ramos, Secretary
+                  California Technology Agency
+
+                                                                                                      1
+
+                                                                                        Attachment A
+
+   STATEWIDE INFORMATION MANAGEMENT MANUAL EXCERPTS
+
+   [Note: Text to be deleted is shown in strikethrough; text to be added appears in bold, italic font.]
+
+     SIMM Section 05 A- SUMMARY OF REQUIRED INFORMATION TECHNOLOGY REPORTS AND
+                                       ACTIVITIES
+
+                                           Revised June 2012
+
+                                                 Instructions to
+    Report/Activity            Source                                    Send to            Due Dates
+                                                  Departments
+
+Organizational/Planning Documents
+                                                                                      Annually, last Friday in
+                                             Submit electronically to
+                                                                                      June. Report
+                          SAM Section        the Technology Agency
+                                                                                      completion and
+Enterprise Architecture   4819.31.5 and 4906 Enterprise Architect.    Technology
+                                                                                      submittal is
+Inventory Package                            Reporting instructions Agency EA▼
+                                                                                      suspended until
+                          ITPL 09-03         will be provided at a
+                                                                                      further notice from the
+                                             later date.
+                                                                                      Technology Agency.
+
+                                                                                                      2

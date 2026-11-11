@@ -1,0 +1,212 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: colorado
+id: co-oit-ts-dbs-013
+title: DBMS Server Inventory
+doc_type: standard
+citation: TS-DBS-013
+authority_level: ''
+issuing_body: Governor's Office of Information Technology
+source_url: https://drive.google.com/uc?export=download&id=1SPnw-xz2E1KITFhwgyHXbVS1bpolqXoQ
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: e779116d9d6b58743eb32b169328da18633203cef1e15aeb78bc90672eab24f3
+effective_date: '2021-05-01'
+source_version: 4.0, last updated 07-01-2026
+status: current
+content_mode: verbatim
+conversion_notes: 'Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). OIT''s page (https://oit.colorado.gov/standards-policies-guides/technical-standards), where
+  the list item reads ''TS-DBS-013: DBMS Server Inventory'', links this file as https://drive.google.com/file/d/1SPnw-xz2E1KITFhwgyHXbVS1bpolqXoQ/view?usp=sharing;
+  the text was fetched from Google Drive''s direct-download form of the same file, https://drive.google.com/uc?export=download&id=1SPnw-xz2E1KITFhwgyHXbVS1bpolqXoQ
+  (the source URL above).'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# DBMS Server Inventory (TS-DBS-013)
+
+## At a glance
+
+OIT technical standard TS-DBS-013 (Data and Databases): DBMS Server Inventory. OIT's Technical Standards page lists it as issued by the Office of Enterprise Architecture and approved by the OIT Architecture Review Board; the file prints its own effective date, version and last-updated date.
+
+## Full text
+
+TS-DBS-013: DBMS Server Inventory
+  Document ID                    TS-DBS-013
+  Title                          DBMS Server Inventory
+  Executive Sponsor              Database Services Management, DBS Manager
+  Issuing Authority              Governor's Office of Information Technology (OIT)
+  Applies to                     OIT, state agencies as defined in C.R.S. 24-37.5-101(28), and
+                                 vendors contracted by OIT or its stakeholders.
+  Instrument Type                Standard
+  Version                        4.0
+  Effective Date                 05-01-2021
+  Last Updated                   07-01-2026
+
+Purpose
+This standard is issued under the authority of the Governor's Office of Information Technology
+(OIT)(C.R.S. 24-37.5, et seq.), Office of Enterprise Architecture (Rule 8 CCR 1501-7).
+The purpose of this document is to communicate the standards that the Governor's Office of
+Information Technology (OIT) has developed with the intent of providing enterprise standard
+configurations for a Database Server Inventory. Standards are based on a best-of-value decision
+assessment involving multifarious factors, such as stakeholder needs, hardware configurations that
+are serviced and supported by OIT, as well as operational and security best practices guidelines.
+The ultimate purpose of the Database Server Inventory standard is to maintain an accurate inventory
+of all the database instances and databases that the Database Services team supports.
+
+Scope
+These standards apply to OIT, state agencies as defined in C.R.S. 24-37.5-101(28) and vendors
+contracted by OIT or its stakeholders, as a means to enforce technology standardization and assist in
+making the usage, support, and/or purchase of technologies more consistent and efficient.
+The standards assigned and prescribed by this document, instituted for use by the approval of the
+OIT Architecture Review Board (ARB), should be used to govern purchase and deployment decisions
+deemed as “go-forward” or “net-new” strategies or implementations, and are not intended for use
+as retroactively enforceable mandate or policy for immediate conformance (especially in cases
+where cost implications may be prohibitive). This standard shall in no way require OIT to support any
+products and services not approved by OIT.
+
+                                                                                          Page 1 of 4
+
+Roles and Responsibilities
+Enterprise Architecture - Chief Enterprise Architect
+   ●   Chairs and conducts business of the Architecture Review Board (ARB).
+   ●   Update effective date and/or last review date.
+   ●   Publish the ARB approved Standard to the OIT public facing website.
+
+Architecture Review Board (ARB)
+   ●   Engage stakeholders and subject matter experts to determine standard.
+   ●   Review/Approve Standard (this document).
+
+Database Services Management - DBS Manager
+   ●   Owner of Standard.
+   ●   Engage stakeholders and subject matter experts to determine standard.
+   ●   Update document standards and version number.
+   ●   Present to the Architecture Review Board for approval and adoption.
+
+DBS Team
+   ●   Baseline Documentation of all Database servers.
+   ●   Document changes to configuration after events that cause the changes, including but not
+       limited to:
+          ○   Installation of new databases or database servers
+          ○   Changes in the environment affecting the DBMS or server.
+          ○   Periodic maintenance such as patching
+          ○   Ad-hoc changes – planned and unplanned.
+   ●   Make documentation available when needed.
+
+Server Team
+   ●   Notify the DBMS team of potential or actual changes in the server environment so they can be
+       documented.
+
+Additional Assignments
+All OIT staff are responsible to be aware of the existence of this (and all) standard(s) and its
+purposes of authority and governance in support of OIT's statutorily mandated mission in service of
+Colorado State Government affairs.
+
+Standards
+   ●   Each database system configuration will be inventoried.
+   ●   Baseline Configuration: A baseline configuration inventory of all Database Servers will be
+       created and stored.
+          ○   All baseline configuration inventories that can be discovered in ServiceHub will be
+              maintained in the ServiceHub CMDB tables. Baseline configuration inventories of
+              database platforms not discoverable in ServiceHub will be stored in a secure, central
+              repository.
+
+                                                                                           Page 2 of 4
+
+   ●   Inventory data discovered by ServiceHub will be verified and documented in a consistent way
+       across agencies.
+          ○     Only DBA team members and other authorized OIT personnel will have access to the
+                configurations.
+          ○     DBA staff will identify what elements will be included in the inventory and how these
+                elements will be collected.
+          ○     The elements must meet the requirements of all applicable OIT/State/Federal policies
+                for configuration and asset management.
+   ●   The inventory must be kept as updated as possible by identifying specific activities that result
+       in changes to the elements in the inventory. Some of these activities include but are not
+       restricted to:
+          ○     Lifecycle: installing a new database server instance, creating/installing a new
+                database, routine patching and updates, upgrading to new database server versions,
+                decommissioning a database, instance, or server
+          ○     Application changes: design changes, new features, application migration to new
+                technology
+          ○     Performance management, monitoring, and troubleshooting: bug fixes, disaster
+                recovery, routine monitoring reveals issues
+   ●   Wherever possible automated processes and tools should be used to collect and update
+       inventories and that these tools be kept in a common repository and only be available to DBAs
+       and other authorized OIT personnel.
+   ●   Tools:
+          ○     ServiceHub CMDB discovery
+          ○     Scripts (e.g. PowerShell, Python)
+          ○     Database platform-specific scripts (e.g. TSQL for SQL Server, PL/SQL for Oracle)
+          ○     3rd party applications
+
+Exceptions and Variance
+Requests for variances from any provisions with this Standard must be requested using the Technical
+Standard End User Exception Request Procedure.
+The purpose of the Exception Request process is to address business or technical reasons for the
+inability to adhere to one or more requirements in this standard.
+Requests for exceptions should include compensating controls, that is, processes, technologies, or
+procedures proposed used to mitigate any deviation from the standard requirement. The Secure
+Configuration Exception Request form must be submitted to oit_ciso@state.co.us. Exception requests
+will be processed and recommended for approval, conditional approval, or denial.
+
+References
+OIT documents and policies
+   ●   Colorado Information Security Policies (CISPs)
+   ●   Enforcement Category Chart
+   ●   TS-CISO-001 – Data Security Categorization
+
+                                                                                            Page 3 of 4
+
+Definitions
+Standard: A rule that specifies a particular course of action or response to a given situation.
+Standards are mandatory directives to carry out management's policies and are used to measure
+compliance with policies. Standards serve as specifications for the implementation of policies and
+are designed to promote implementation of high-level organization policy rather than to create new
+policy in themselves.
+CMDB: ServiceHub's Configuration Management Database (CMDB) is a centralized repository that acts
+as a data warehouse for information technology (IT) installations. It is designed to store and manage
+data related to IT assets, including hardware, software, networks, facilities, and personnel, as well
+as the relationships between these assets. The CMDB allows organizations to maintain a detailed
+inventory of their IT environment and provides a comprehensive view of how these components
+interact.
+DBS: Database Services.
+Database Server: An interconnected system of hardware and DBMS software designed to manage
+collection of data in such a manner as to maintain the confidentiality, integrity and availability of
+said data.
+Host Server: The hardware/software that hosts a Database server.
+Database: A relational collection of tables, stored procedures, views, indexes, constraints, jobs,
+maintenance plans that contain and manage a discrete set of data, i.e. for a single application.
+Data Classification: The process of defining a collection of data based on an assessment of the
+potential impact on State organizations, assets or operations that a potential loss of confidentiality,
+integrity, or availability might have. See Technical Standard TS-CISO-001.
+Element: A single piece of information about the configuration of a database system that is collected
+during the inventory process.
+Element Category: The type element information such as database server, database, Host server.
+OEA (Office of Enterprise Architecture): The Office of Enterprise Architecture was formed as an
+office under OIT by Governor's Rule 8 CCR 1501-7.
+OIT (Office of Information Technology): The Governor's Office of Information Technology was
+created and governed by C.R.S. 24-37.5, et seq.
+Exception request: A document requesting an exception to a recognized standard, requiring a
+business or technical justification for granting the exception. Typically an exception request is
+subject to review and approval by an authority in the area.
+
+                                                                                             Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). OIT's page (https://oit.colorado.gov/standards-policies-guides/technical-standards), where the list item reads 'TS-DBS-013: DBMS Server Inventory', links this file as https://drive.google.com/file/d/1SPnw-xz2E1KITFhwgyHXbVS1bpolqXoQ/view?usp=sharing; the text was fetched from Google Drive's direct-download form of the same file, https://drive.google.com/uc?export=download&id=1SPnw-xz2E1KITFhwgyHXbVS1bpolqXoQ (the source URL above).

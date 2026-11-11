@@ -1,0 +1,57 @@
+CALIFORNIA TECHNOLOGY AGENCY                                    NUMBER:          ORIGINAL DATE:
+                                                                                 JUNE 8, 2012
+TECHNOLOGY LETTER                                               TL 12-08         REVISED DATE:
+                                                                                 JULY 9, 2012
+                                                                                 REVISED DATE:
+                                                                                 AUGUST 9, 2012
+SUBJECT:                                                        REFERENCES:
+EXEMPTION PROCESS WHEN NO MANDATORY IT                          Government Code 11545
+LEVERAGED PROCUREMENT AGREEMENT EXISTS                          TL 12-8
+Clarify Technology Agency policy on IT procurement
+exemption approvals
+
+BACKGROUND
+
+The Technology Agency has authority over Information Technology (IT) procurement policies, while the
+Department of General Services (DGS) has authority over IT procurement procedures.
+
+The state has developed many mandatory IT leveraged procurement agreements (LPA) (e.g. IT Master
+Agreements, California Multiple Award Schedule, Statewide Contracts and Western States Contracting
+Alliance agreements) to leverage the state’s buying power and enable agencies to procure high-
+demand IT goods and services in the most efficient manner possible. These contracts are mandatory
+and must be used by departments and agencies. Exceptions to the use of these IT leveraged
+procurement vehicles should be infrequent and will require Technology Agency approval. If an offered
+product does not meet agency or department business needs (e.g. business need for ruggedized
+laptops), the procurement of nonstandard technology requires an exemption. Procurement of IT goods
+and services not available on a mandatory LPA that meet the business needs of a state entity, are cost
+effective, and increase state efficiency, do not require an exemption.
+
+PURPOSE AND DESCRIPTION
+
+The purpose of this Technology Letter is to clarify that exemption approval from the Technology Agency
+is not needed for procurements of goods and services when a mandatory LPA does not exist for that
+good or service. Therefore, departments and agencies do not need to submit an exemption request,
+nor does the Technology Agency need to review or approve an exemption request. However, agencies
+and departments must still follow procedures established by DGS in conducting such procurements.
+The goal is to minimize redundancy and cost in state operations by promoting the efficient and effective
+procurement of information technology.
+
+PROCESS
+
+Agencies and departments are not required to submit an exemption request when a mandatory LPA for
+the procurement of an IT good or service does not exist, where the procurement meets the business
+needs of a state entity, is cost effective, and increases state efficiency. Agencies and departments will
+refer to the User Instructions of the individual mandatory LPA contract to determine if any other DGS
+exemption process steps are required.
+
+QUESTIONS
+
+Questions should be directed to your Technology Agency Program Management Office (PMO) Principal
+or Manager. A listing of PMO Principals and Managers and their departmental assignments can be
+found on the Technology Agency Web site located at: Technology_Agency_PMO_Assignments.
+
+SIGNATURE
+
+                 _      /s/                                                              _
+                 Carlos Ramos, Secretary
+                 California Technology Agency

@@ -1,0 +1,117 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                          NUMBER:                 DATE ISSUED:
+
+                                                             TL 16-07                AUGUST 2016
+TECHNOLOGY LETTER
+SUBJECT:                                                     REFERENCES:
+PROJECT APPROVAL LIFECYCLE,                                  Government Code Sections 11545, 11546
+STAGE 4 PROJECT READINESS AND APPROVAL                       State Administrative Manual (SAM)
+                                                             Sections 4927 and 4928
+                                                             Statewide Information Management Manual
+                                                             (SIMM) Sections 05A, 10, 19, 170 and 180
+                                                             Technology Letters 15-02 and 16-02
+                                                             State Contracting Manual, Volume 3
+
+BACKGROUND
+As part of the reforms to the state’s Information Technology (IT) project approval process, the California
+Department of Technology (CDT) released the Stage 1 Business Analysis and Stage 2 Alternatives
+Analysis in June 2015 followed by the release of the Stage 3 Solution Development in January 2016.
+As documented in Statewide Information Management Manual (SIMM) Section 19, the Project Approval
+Lifecycle (PAL) adopted a Stage/Gate Model to improve the quality, value and likelihood of success for
+technology projects being undertaken by the State of California. The Stage/Gate Model divides the
+PAL into four stages, each separated by a gate approved by the CDT. As additional information is
+collected and refined through the lifecycle, the cost estimates, schedules, and business objectives are
+progressively updated and evaluated to determine if the project is still practical and if the investment
+should continue to move forward towards project approval. See Attachment A for a diagram of the
+Project Approval Lifecycle Framework.
+As the fourth and final stage of the PAL, the Stage 4 Project Readiness and Approval provides a basis
+for how the intended awardee will contribute towards the successful achievement of the project’s
+business objectives and yield the highest probability of success. Stage 4 will also help ensure the
+Agency/state entity’s readiness to execute the project and establish realistic schedule and cost
+baselines. Previous to the PAL, project baselines were established before a vendor/solution was
+identified through IT project procurement activities, resulting in projects starting out behind schedule
+and over budget. The reformed PAL process establishes cost and schedule baselines after
+procurement activities are completed and a vendor/solution has been selected, providing better budget
+and schedule estimates and helping ensure projects get started with realistic baselines.
+While this release constitutes the final stage of PAL, continuous improvement will remain a core
+component of the state’s new IT project approval process. The CDT will continuously review the
+process and make frequent enhancements to respond to evolving technology and Agency/state entity
+feedback.
+
+PURPOSE
+The purpose of this Technology Letter (TL) is to announce:
+   •   State Administrative Manual (SAM) Sections 4927 and 4928 have been updated to incorporate
+       Stage 4 Project Readiness and Approval.
+   •   New SIMM Section 19D, which includes instructions for the preparation and submission of
+       Stage 4 Project Readiness and Approval, including Gate 4 Collaborative Review Guidelines.
+
+                                                                                                    Page 1
+
+   •   Revised SIMM Section 19B (Stage 2 Alternative Analysis Preparation Instructions) to include
+       enhancement to the Stage 3 Solution Development Preliminary Assessment Preparation
+       Instructions.
+   •   Revised SIMM Section 19C (Stage 3 Solution Development Preparation Instructions) to include
+       Stage 4 Project Readiness and Approval Preliminary Assessment Preparation Instructions.
+   •   Revised SIMM Section 19C, which includes an updated Stage 3 Template, Preparation
+       Instructions and a new Evaluation Scorecard. Improvements were made as a result of
+       feedback from early adopters and critical partners.
+   •   Revised SIMM Section 19 Frequently Asked Questions to include Stage 4 Project Readiness
+       and Approval question and answers.
+   •   Revised SIMM Section 05A to remove the constraint of the PAL stage exit dates, allowing
+       Agencies/state entities to establish their own dates based on their experience and needs.
+   •   Revised SIMM Section 10 to include Stage 4 Project Readiness and Approval within the
+       process flow.
+   •   New SIMM Section 170 Requirements Guidelines and Instructions which includes step-by-step
+       guidelines for developing requirements, including samples and style guide recommendations.
+   •   New SIMM Section 180 Statement of Work (SOW) Guidelines, which includes general
+       information, recommendations and instructions for completing SOWs for reportable IT projects.
+   The link to SIMM is as follows: http://www.cio.ca.gov/Government/IT_Policy/SIMM.html.
+
+QUESTIONS
+Questions should be directed to your CDT IT Project Oversight Division Manager; assignments can be
+found at: http://www.cio.ca.gov/Contact_Us/staff_assignments.asp
+
+SIGNATURE
+                  _____________/s/_____________________________________
+                  Amy Tong, Director
+                  California Department of Technology
+
+                                                                                               Page 2
+
+Attachment A:
+
+Project Approval Lifecycle Framework
+       Stage 1                 Stage 2                Stage 3               Stage 4
+  Business Analysis      Alternatives Analysis       Solution           Project Readiness
+                            Assess Existing        Development            and Approval
+   Identify Problem/
+                          Business Processes           Part A               Solicitation
+      Opportunity               Market              Procurement              Release
+                               Research                Profile
+                                                                           Select Vendor
+                            Mid-level Solution    Detailed Solution
+                             Requirements          Requirements              Contract
+  Establish Business                                                       Management
+                            Identify Solution
+     Case/Need                                                              Readiness
+                              Alternatives          Statement of
+                                                        Work              Baseline Project
+                             COTS/MOTS
+                                                        PartB                   Cost
+   Ensure Strategic             Custom
+                                                 Solicitation Package
+      Alignment                                                              Schedule
+                                Existing             Evaluation
+                                                    Methodology
+                             Recommend                                   Project Readiness
+                               Solution             Cost/Payment
+       Assess                                          Model
+    Organizational         Procurement and                              Risk Register
+     Readiness             Staffing Strategy
+                                                    State Staffing             DOF/
+                            Project Timeline          Allocation        Legislative Approval
+
+                                                                                               Award Contract
+                                                                                                    and         Page 3
+                                                                                                Start Project
+
+             Department of Technology Oversight and State Entity Collaboration

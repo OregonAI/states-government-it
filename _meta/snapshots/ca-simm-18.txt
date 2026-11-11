@@ -1,0 +1,20 @@
+SIMM 18 IT Exemptions
+Overview
+IT policy exemptions are used to allow certain resources or processes to operate outside of the standard compliance requirements. These exemptions are granted by the California Department of Technology for specific situations where compliance would significantly impair the organization’s ability to meet its missions.
+SIMM 18A: IT Contract Exemptions
+Executive Order S-09-09
+On June 8, 2009, the Governor issued Executive Order (EO) S-09-09 concerning state contract expenditures. EO S-09-09 provides general and specific exemptions to its provisions, including contract exemptions for IT system or service contracts approved by the California Technology Agency (Technology Agency). This transmittal provides state departments with the timelines and instructions for completing and submitting IT contract exemption requests to the Technology Agency.
+Exemption request submission timelines
+1. IT contracts included in the 2008-09 Legal Liability Exception Certifications do not require approval by the Technology Agency.
+2. IT contract exemption requests in support of other 2008-09 exemption requests must be submitted to the Technology Agency by June 19, 2009.
+3. IT contract exemption requests in support of 2009-10 Contract Reductions Plans must be submitted to the Technology Agency as soon as possible, but no later than 5 days following passage of a revised 2009-10 budget.
+4. IT contract exemption requests submitted after the 2009-10 Contract Reductions Plans are approved by the Department of Finance must be submitted to the Technology Agency on a flow basis with sufficient lead-time to allow 10 working days for the Technology Agency to evaluate the exemption request.
+The IT contract exemption request is included in an Excel Workbook consisting of two worksheet tabs: The first tab includes the instructions for completing and submitting exemption requests; the second tab includes the IT contract exemption request. IT contract exemption requests should be approved by the Department CIO or the Agency CIO if the exemption request is from an Agency.
+Departments should submit their requests electronically to their assigned Technology Agency Project Management Office representative. A listing of PMO Managers and Principals and their departmental assignments can be found at the Technology Agency Web site located at: IT Project Oversight Division Staff Assignments. Questions should be directed to your Technology Agency Project Management Office (PMO) representative.
+IT Contract Exemption Request (XLS)
+SIMM 18B: Cloud Computing
+Policy Exemption Instructions (DOCX) Updated October 2023
+SAM references
+SAM section | Title | SIMM section/document relation
+4983 | Cloud Computing Introduction | SIMM 18B Cloud Computing
+4983.1 | Cloud Computing Policy | SIMM 18B Cloud Computing

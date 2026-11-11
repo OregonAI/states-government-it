@@ -1,0 +1,270 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: washington
+id: wa-des-genai-contract-clauses
+title: Generative AI Contract Clauses for IT
+doc_type: policy
+citation: Generative AI Contract Clauses for IT (Department of Enterprise Services)
+authority_level: ''
+issuing_body: Department of Enterprise Services
+source_url: https://des.wa.gov/sites/default/files/2025-04/WA-Procurement-AI-contract-clauses.docx
+source_format: docx
+retrieved: '2026-11-11'
+source_sha256: 1a9c160f9ce7f0b061670eb299ccf223d3e2f3a1f2d6010830cd7d3765fb802c
+effective_date: null
+source_version: Dated April 1, 2025
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes
+  accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's
+  cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet
+  character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside
+  text boxes (such as a cover-page title) are not read. Headings carry no markup. source_version is the
+  date the Word file prints about itself, as printed (a review date, a cover date or the last row of its
+  revision history); it prints no effective date.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Generative AI Contract Clauses for IT (Generative AI Contract Clauses for IT (Department of Enterprise Services))
+
+## At a glance
+
+Model AI contract clauses for state IT procurement, linked first on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources).
+
+## Full text
+
+Generative AI Contract Clauses
+for
+IT Procurement Contracts
+for
+Washington State Agencies
+
+Dated April 1, 2025
+
+Table of Contents
+
+Definition: 3
+
+Generative AI use disclosure/notification: 4
+
+Alternative language for notification 4
+
+Only allow public Data to be used for development: 4
+
+Assessment for modification/change: 4
+
+Regular testing of the model: 4
+
+Alternative for more active testing for higher risk uses: 4
+
+Alternative for Contractor testing: 5
+
+Transparency of GenAI records: 5
+
+Audit trails 5
+
+Alternative for Agency requesting audit trails 5
+
+Data Ownership 5
+
+General data ownership – state owns all data 5
+
+State ownership of generated data (end result of GenAI only) 5
+
+Data usages for training GenAI 6
+
+Sharing data to improve the Contractor’s model 6
+
+Use of agency approved data for training 6
+
+Agency ownership of data for training 6
+
+Use of only public data for training 6
+
+Barring use of state data for training 6
+
+GenAI Prompt ownership 6
+
+Prompt ownership 6
+
+Alternative based on which entity provides prompts 6
+
+Alternative for work product 6
+
+Prompt confidentiality 7
+
+Ownership of generated data as derivative work 7
+
+Identification of Data 7
+
+Cease use of AI until approved by the agency 7
+
+IP Rights for AI 7
+
+Non-discriminatory use 7
+
+Alternative for reasonable control 7
+
+Alternative for risk management plan 7
+
+Language for solicitations on GenAI use 8
+
+Simple option 8
+
+Complex narrative option 8
+
+Template Generative AI Contract Clauses
+
+This document includes template contract clauses that Washington state agencies can include in contracts that utilize Generative Artificial Intelligence (“GenAI”). There are a variety of use cases for GenAI in State contracts and the use of these clauses is not a one size fits all. Not all clauses should be included in each contract. Agencies should determine which clauses to include in the contract that are relevant to that use case and risk. Some clauses have alternative clauses for the potential use case which gives agency’s options to fit the contract clauses to their needs. There is a likelihood of negotiation on clauses, especially regarding data ownership, with the Contractors that may require changes or additional clarification for the agency’s use case. All clauses may be modified to fit the use case and desired outcome of the agency.
+
+For more information about GenAI, or for questions about this template, visit the Washington State Procurement Manual.
+
+Definition:
+
+Generative AI (“Gen AI”) is a technology that can create content, including text, images, audio, or video, when prompted by a user. Generative AI systems learn patterns and relationships from large amounts of data, which enables systems to generate new content that may be similar, but not identical, to the underlying training data.
+
+Generative AI use disclosure/notification:
+
+Contract must disclose to [Agency] the use of Generative AI in applications utilized on this Contract.
+
+Alternative language for notification
+
+Contractor must notify [Agency] if their solution or service includes, or makes available, any GenAI including Gen AI from third parties or subcontractors. Contractor must provide: the model name, product owner, product description, use case, and the intended information use for the GenAI included in Contractor’s services. [Agency] reserves the right to terminate any contract that presents an unacceptable level of risk to the Agency.
+
+During the term of the contract, Contractor must notify the [Agency] in writing if their services or any work under this contract includes, or makes available, any previously unreported GenAI technology, including GenAI from third parties or subcontractors. [Agency] reserves the right to terminate any contract that presents an unacceptable level of risk to the Agency.
+
+Only allow public Data to be used for development:
+
+Contractor shall not use non-public data or information in any data inputs in development of the Generative AI system.
+
+Assessment for modification/change:
+
+Contractor shall notify [Agency] within [30] days of any modification made to the Generative AI system itself or to the data collection process (including new training data) that informs the model with a plain text detail of the changes made and the impact of the changes. Upon [Agency] request, Contractor shall provide reasonable access to [Agency] or its designated representative to assess the extent of the changes and impact on [Agency]’s use.
+
+Regular testing of the model:
+
+Contractor shall perform [annual/biennial] testing to identify any indications of inaccuracies, biases, or unequal outcomes that may arise from the system and provide result summaries to [Agency]. If indications of inaccuracies, biases, or unequal outcomes are discovered by Contractor, Contractor shall provide a detailed response to [Agency] with the details of the discovered issues and process for addressing those issues.
+
+Alternative for more active testing for higher risk uses:
+
+Contractor shall perform [an agreed period of time is decided, e.g. annually; on June 30 of each year; on March 15 and August 15 of each year; every calendar quarter] testing to identify any indications of inaccuracies, biases, or unequal outcomes that may arise from the system and provide result summaries to [Agency]. If indications of inaccuracies, biases, or unequal outcomes are discovered by Contractor, Contractor shall provide a detailed response to [Agency] with the details of the discovered issues and process for addressing those issues.
+
+Alternative for Contractor testing:
+
+Contractor shall track and disclose the quality of the GenAI data used for any GenAI in relation to this
+Contract, using suitable metrics and methods to measure the accuracy, relevance, and bias of the data over time. Contractor shall share such metrics and methods, as well as the underlying data, with [Agency] upon [Agency’s] request.
+
+Transparency of GenAI records:
+
+Upon advance written request, Contractor shall grant [Agency] or its designated representative reasonable access to the Services’ operational documentation, records, and databases. Contractor shall allow [Agency] reasonable access to training data; algorithm; inputs; outputs; and audit trails, logs, or hashes that document the inputs and outputs in its Gen AI process and other related operational data related to this Contract, at no cost to [Agency].
+
+Audit trails
+
+Contractor shall produce audit trails, logs, or hashes that document the inputs and outputs in its Gen AI process that are contained in system logs.
+
+Alternative for Agency requesting audit trails
+Contractor shall provide audit trails, logs, or hashes that document the inputs and outputs in its Gen AI process that are contained in system logs upon request from Agency.
+
+Data Ownership
+
+General data ownership – state owns all data
+
+Data Ownership and Use. Agency data (“Data”) shall include data collected, used, processed, stored, or generate as the result of the use of the Services. Data is and shall remain the sole and exclusive property of Agency. Contractor is provided a limited, non-exclusive license to access and use Data solely for performing its obligations under the Contract. Contractor shall: (a) keep and maintain Data in strict confidence and as further described in this Contract and applicable law to avoid unauthorized access, use, disclosure, or loss; (b) not use, sell, rent, transfer, distribute, or otherwise disclose or make available Data for Contractor’s own purposes or for the benefit of anyone other than Agency without Agency’s prior written consent; and (c) not store, use, and transmit agency Data outside of the United States.
+
+State ownership of generated data (end result of GenAI only)
+
+Data Ownership and Use. Agency data (“Data”) shall include data generated as the result of the use of the Services. Data is and shall remain the sole and exclusive property of Agency. Contractor is provided a limited, non-exclusive license to access and use Data solely for performing its obligations under the Contract. Contractor shall: (a) keep and maintain Data in strict confidence and as further described in this Contract and applicable law to avoid unauthorized access, use, disclosure, or loss; (b) not use, sell, rent, transfer, distribute, or otherwise disclose or make available Data for Contractor’s own purposes or for the benefit of anyone other than Agency without Agency’s prior written consent; and (c) not store, use, and transmit agency Data outside of the United States.
+
+Data usages for training GenAI
+
+Sharing data to improve the Contractor’s model
+
+Contractor shall incorporate the [State/Agency] [explanation of the type of data] data into GenAI training data to train, tune, maintain, improve, or develop GenAI to [outcome of training desired]. Contractor shall not use [State/Agency] for training beyond the stated purpose.
+
+Use of agency approved data for training
+
+Contractor shall incorporate approved [State/Agency] data into GenAI training data to train, tune, maintain, improve, or develop GenAI.
+
+Agency ownership of data for training
+
+[Agency] shall have the right to augment the GenAI Training Data provided by Contractor with [Agency] Data. [Agency] retains all ownership and intellectual property rights in [Agency] Data used to augment GenAI training data.
+
+Use of only public data for training
+
+Contractor shall only incorporate any public [State/Agency] data into GenAI training data and shall not use non-public [State/Agency] data to train, tune, maintain, improve, or develop GenAI, except with the express written authorization from the [Agency] specifying the non-public data that may be used along with the acceptable scope of such usage.
+
+Barring use of state data for training
+
+Contractor shall not incorporate any [State/Agency] data into GenAI training data and shall not use [State/Agency] data to train, tune, maintain, improve, or develop GenAI, except with the express written authorization from the [Agency] specifying the [Agency] data that may be used along with the acceptable scope of such usage.
+
+GenAI Prompt ownership
+
+Prompt ownership
+
+To the extent Contractor provided prompts or generated Data resulting from such prompts constitute work product, Contractor shall not use, copy, modify, distribute, or disclose any such prompts or generated Data for any purpose other than performing its obligations under this Contract, unless expressly authorized by the State in writing.
+
+Alternative based on which entity provides prompts
+Contractor shall retain ownership of any Contractor provided prompts. Agency provided prompts and generated Data created from an Agency provided prompt is considered Agency data.
+
+Alternative for work product
+Prompts or generated Data developed or produced by the Contractor as deliverables pursuant to this Contract constitute Work Product. To the extent any prompts or generated Data constitute work product, State shall retain intellectual rights to such prompts or generated Data.
+
+Prompt confidentiality
+
+Contractor shall protect from unauthorized use and disclosure any prompts Contractor provides to any GenAI in connection with this Contract, as well as any Generated Data that is created based on Contractor provided prompts.
+
+Ownership of generated data as derivative work
+
+Data created from a State provided prompt is not a derivative work of the GenAI training data. In the event a court of competent jurisdiction determines that Data created from a State-provided prompt constitutes a derivative work of the GenAI Training Data, Contractor agrees to grant the State an unlimited, irrevocable, worldwide, perpetual, royalty-free, non-exclusive right, and license to use, modify, reproduce, perform, release, display, create derivative works from, and disclose the Generated Data for any State Government Purpose Rights.
+
+Identification of Data
+
+Contractor shall ensure that all data that materially impacts deliverables created pursuant to this Contract contain a digital watermark or other identification that clearly identifies that the data was created by GenAI.
+
+Cease use of AI until approved by the agency
+
+Contractor shall discontinue the use of any new or previously undisclosed GenAI technology that materially impacts functionality, risk or contract performance, until use of such GenAI technology has been approved by [Agency].
+
+IP Rights for AI
+
+Contractor shall ensure that it has obtained all necessary consents, permissions, and licenses from data subjects and third parties to use the GenAI for this Contract. Subject to Section 11, Contractor represents and warrants, it will have the appropriate U.S. Intellectual Property Rights associated with any GenAI used in the Deliverables provided under the Contract.
+
+Non-discriminatory use
+
+Contractor shall ensure that the GenAI utilized, or made available, as part of this Contract is equitable, non-discriminatory, and reasonably well-designed to avoid harmful, offensive, dangerous, and unlawful impact.
+
+Alternative for reasonable control
+Contractor shall take reasonable steps to ensure that the GenAI utilized, or made available, as part of this Contract is equitable, non-discriminatory, and reasonably well-designed to avoid harmful, offensive, dangerous, and unlawful impact.
+
+Alternative for risk management plan
+Upon Agency request Contractor shall provide information on the risk management process to make the GenAI equitable, non-discriminatory, and reasonably well-designed to avoid harmful, offensive, dangerous, and unlawful impact.
+
+Language for solicitations on GenAI use
+
+Simple option
+
+Bidder must identify and describe the use of artificial intelligence (AI) within or used to develop the Solution.
+
+Or
+
+Complex narrative option
+
+Bidder must provide an explanation of the GenAI model name, product owner, product description (including purpose, functionality, and key characteristics), use case (or goal e.g. image recognition, natural language processing, text summarization), and the intended information use (context for how information is used in the model) for the GenAI included in Contractor’s services.
+
+## Curator notes
+
+Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup. source_version is the date the Word file prints about itself, as printed (a review date, a cover date or the last row of its revision history); it prints no effective date.

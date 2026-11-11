@@ -1,0 +1,67 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                         NUMBER:               DATE ISSUED:
+
+TECHNOLOGY LETTER                                           TL 21-01              March 2021
+
+SUBJECT:                                                    REFERENCES:
+Project Cost Delegation                                     Government Code Sections § 11545 and
+                                                            11546
+                                                            Public Contract Code (PCC) Section 12100
+                                                            State Administrative Manual (SAM) Section
+                                                            4819.2, 4819.34, 4819.37, 4819.39,
+                                                            4819.41, 4942, 5200.5, 5210
+                                                            Technology Letter 18-06 IT Project
+                                                            Procurement Authority
+                                                            Statewide Information Management Manual
+                                                            (SIMM) Section 15
+
+BACKGROUND
+
+Pursuant to Government Code (GC), Sections 11545 and 11546, the California Department of Technology
+(CDT) has the authority and responsibility to oversee and assign an IT Project Cost Delegation to
+Agencies/state entities. State Administrative Manual (SAM) Section 4819.39 describes and outlines the
+authority that the CDT has to assign project cost thresholds for oversight and reporting purposes.
+
+In an effort to increase autonomy and promote high quality and successful IT projects, the CDT has defined
+processes and procedures to determine the Project Cost Delegation, previously known as the Delegated
+Cost Threshold. Statewide Information Management Manual (SIMM) Section 15 has been updated to
+include a new process whereby Agency/state entities can complete the Project Cost Delegation assessment
+if they would like to request a change to their current Project Cost Delegation. Each Agency/state entity is
+designated by the CDT a minimum total project development cost based on the completion of the Project
+Cost Delegation Accreditation. The Project Cost Delegation Accreditation template should be completed
+from the perspective of the Agency/state entity that is requesting the change.
+
+Pursuant to Public Contract Code (PCC) Section 12100 (g) and 12102.2 (e), IT project acquisition (aka
+“procurement”) authority is dependent upon Project Cost Delegation. Acquisitions related to delegated IT
+projects are conducted under the Department of General Services’ (DGS) procurement authority. SAM
+Sections 5200.5 and 5210 describe the acquisition authority for IT goods and services related to IT projects.
+Increases to Project Cost Delegations may increase autonomy for project oversight; however, the
+acquisitions related to delegated IT projects are subject to DGS oversight and procurement authority. The
+process in SIMM Section 15, specifies that CDT will consult with the DGS Procurement Division before
+changing the Project Cost Delegation for an Agency/state entity.
+
+PURPOSE
+
+The purpose of this Technology Letter (TL) is to announce:
+   •   Updated SIMM Section 15, to include the materials for requesting a change to an Agency’s/state
+       entity’s Project Cost Delegation.
+   •   New SIMM Section 15A, Project Cost Delegation Accreditation Instructions.
+   •   New SIMM Section 15B, Project Cost Delegation Accreditation Template.
+   •   New SIMM Section 15C, Project Cost Delegation Historical Projects Worksheet.
+   •   New SIMM Section 15D, Project Cost Delegation Executive Transmittal.
+   •   Updated SAM Sections 4819.2, 4819.34, 4819.37, 4819.39, 4819.41 and 4942 documenting the
+       name change from Delegated Cost Threshold to Project Cost Delegation and updated the
+       definition of development cost.
+
+QUESTIONS
+
+Questions regarding this Technology Letter should be directed to your CDT IT Project Oversight
+Manager. Assignments can be found at: https://cdt.ca.gov/project-approvals-and-oversight-contact/ or
+California Department of Technology, Office of Statewide Project Delivery, Project Approval and
+Oversight at ProjectOversight@state.ca.gov.
+
+SIGNATURE
+
+                  _________________________________
+                           /S/
+                  Amy Tong, Director
+                  California Department of Technology

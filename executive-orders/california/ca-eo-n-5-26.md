@@ -1,0 +1,212 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: california
+id: ca-eo-n-5-26
+title: Responsible AI Procurement
+doc_type: executive_order
+citation: Executive Order N-5-26
+authority_level: ''
+issuing_body: Governor of California
+source_url: https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: cfa126bd62f1f4337914ecc8ed0a63aee57b3a27a9852787be5fb91018e047ba
+effective_date: '2026-03-30'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). effective_date is the date the Governor signed the order, as its closing paragraph prints
+  it (this Nth day of Month Year); the order prints no other date.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- procurement
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Responsible AI Procurement (Executive Order N-5-26)
+
+## At a glance
+
+Executive Order N-5-26, 'Responsible AI Procurement': an executive order of the Governor of California; the order's own text is the PDF the Governor's website publishes.
+
+## Full text
+
+                      EXEC UTI V E D EP AR TM EN T
+                        STATE OF CALIFORNIA
+
+                             EXECUTIVE ORDER N-5-26
+
+        WHEREAS California is the global epicenter of artificial intelligence (“AI”)
+innovation, home to 33 of the 50 top artificial intelligence companies, leading
+academic and research institutions including five of the world’s top fifteen
+artificial intelligence higher education programs, and a vibrant ecosystem that
+drives economic growth and scientific advancement; and
+
+        WHEREAS on September 6, 2023, I issued Executive Order N-12-23 outlining
+how the State would safely learn, innovate, and use Generative Artificial
+Intelligence (“GenAI”) for the benefit of Californians and state workers, and in
+response my Administration has analyzed the most significant beneficial use
+cases for deployment; issued guidelines, policies, and procedures for responsible
+public sector procurement, uses, and required trainings; published guidelines for
+State agencies and departments to analyze the impact of GenAI tools on
+marginalized and vulnerable communities; and launched pilots of GenAI
+projects to reduce highway congestion, improve roadway safety, enhance
+customer service, accelerate the approval process for rebuilding permits, and
+improve firefighting detection and response; and
+
+      WHEREAS my administration has leveraged GenAI to foster greater
+collaboration and co-creation between the state and people of California
+through Engage California, a first-in-the-nation deliberative democracy program
+empowering Californians to help inform policy decisions and program design,
+and to strengthen public health innovation, collaboration, and communication
+through the Public Health Network Information Exchange (PHNIX); and
+
+      WHEREAS no state has taken more aggressive action to strengthen the
+safety and security of technology and online platforms, including through
+enacting legislation addressing AI trust and safety, children's safety online, data
+privacy, cybersecurity, and consumer protection; and
+
+        WHEREAS the rapid development and adoption of GenAI since I issued
+Executive Order N-12-23 presents novel opportunities to make government more
+efficient, effective, and engaged; strengthen government transparency,
+accessibility, and accountability, including identifying and preventing fraud;
+support scientific research, especially in drug discovery, material science, fusion,
+quantum, energy, and climate change; and advance public health and safety,
+while simultaneously posing new risks if developed or deployed without
+appropriate safeguards or if misused, including the potential for mass
+surveillance, manipulation of information, and violations of civil rights and civil
+liberties; and
+
+      WHEREAS public procurement represents one of the most powerful tools
+available to governments to shape market behavior and encourage
+responsible innovation; and
+
+       WHEREAS the State of California has a responsibility to both leverage
+GenAI for the benefit of Californians and to ensure these tools are deployed
+transparently and in ways that protect privacy and civil liberties, demonstrating
+that innovation and democratic values are not mutually exclusive.
+
+      NOW, THEREFORE, I, GAVIN NEWSOM, Governor of the State of California,
+in accordance with the authority vested in me by the State Constitution and
+statutes of the State of California, do hereby issue the following Order to
+become effective immediately:
+
+IT IS HEREBY ORDERED THAT:
+  1. Within 120 days of the issuance of this Order, the Department of General
+     Services (DGS) and the Department of Technology (CDT) shall submit
+     recommendations to the Governor for new certifications that may be
+     incorporated into state contracting processes, where consistent with
+     existing procurement statutes and regulations, allowing entities seeking to
+     do business with the state of California to attest to and explain their
+     policies and safeguards to protect public safety while preventing the
+     misuse of their technologies, as applicable, including but not limited to:
+
+        a. Exploitation or distribution of illegal content, such as child sexual
+           abuse material and non-consensual intimate imagery;
+
+        b. Utilization of models that display harmful bias or lack governance to
+           reduce the risk of such harmful bias; and
+
+        c. Violation of civil rights and civil liberties such as free speech, voting,
+           human autonomy, and protections against unlawful discrimination,
+           detention, and surveillance.
+
+  2. The CDT State Chief Information Security Officer (CISO) shall review any
+     new designations of companies as supply chain risks by the federal
+     government. If the CISO concludes that the designation is improper, DGS
+     and CDT will jointly issue guidance ensuring that departments and
+     agencies can continue to easily procure from that company. The CISO
+     may also review other federal procurement changes to assess whether
+     they improperly restrict procurement and to recommend appropriate
+     measures in response.
+
+  3. Within 120 days of the issuance of this Order, the Government Operations
+     Agency (GovOps), in consultation with DGS and CDT, shall submit
+     recommendations to the Governor on any reforms to contractor
+     responsibility provisions, including suspension and ineligibility authorities,
+     needed to ensure state entities do not contract with entities judicially
+     determined to have unlawfully undermined privacy or civil liberties, as
+     applicable, such as but not limited to freedom of speech, voting, and
+     protections from unlawful discrimination and surveillance.
+
+  4. Within 120 days of the issuance of this Order, GovOps, including CDT, the
+     Office of Data and Innovation (ODI), DGS, and the California Department
+     of Human Resources (CalHR), shall:
+
+        a. Facilitate employee access to vetted GenAI tools for general use
+           cases with appropriate privacy and cybersecurity safeguards, and
+           in accordance with procedures specified in the Budget Act of 2025;
+
+        b. Leverage the State Technology Council and the AI Community of
+           Practice to share best practices on responsible AI procurement and
+           adoption while protecting public safety, civil liberties, and privacy;
+
+        c. Update the State Digital Strategy to identify opportunities for GenAI
+           to strengthen government transparency and accountability,
+           improve performance, and make government services easily
+           accessible for every Californian;
+
+        d. Develop a pilot of an application or website using GenAI to provide
+           Californians with streamlined and user-friendly access to
+
+            government services organized by life event, such as disaster relief,
+            starting a business, and finding a job;
+
+         e. Expand trainings on emerging technology, including artificial
+            intelligence, leveraging partnerships with industry and nonprofit
+            partners; and
+
+         f. Publish a data minimization toolkit for departments and agencies
+            with best practices, templates, special contract provisions, and
+            program review checklists, and support select departments with
+            sensitive data collection to implement this toolkit.
+
+   5. Within 120 days, CDT, in collaboration with GovOps, shall issue best
+      practice guidance for departments and agencies to appropriately
+      watermark, according to industry best practices and in line with the
+      requirements outlined in California Business & Professional Code §§
+      22757.2 & 22757.3, AI-generated or significantly manipulated images or
+      video.
+
+      I FURTHER DIRECT that as soon as hereafter possible, this Order be filed in
+the Office of the Secretary of State and that widespread publicity and notice
+be given of this Order.
+
+      This Order is not intended to, and does not, create any rights or benefits,
+substantive or procedural, enforceable at law or in equity, against the State of
+California, its agencies, departments, entities, officers, employees, or any other
+person.
+
+                                      IN WITNESS WHEREOF I have
+                                      hereunto set my hand and caused
+                                      the Great Seal of the State of
+                                      California to be affixed this 30th day
+                                      of March 2026.
+
+                                      _________________________
+                                      GAVIN NEWSOM
+                                      Governor of California
+
+                                      ATTEST:
+
+                                      _____________________________
+                                      SHIRLEY N. WEBER, PH. D
+                                      Secretary of State
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the date the Governor signed the order, as its closing paragraph prints it (this Nth day of Month Year); the order prints no other date.

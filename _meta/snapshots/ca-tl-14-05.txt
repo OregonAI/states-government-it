@@ -1,0 +1,79 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                                          NUMBER:                        DATE ISSUED:
+
+TECHNOLOGY LETTER                                                            TL 14-05                       AUGUST 2014
+
+SUBJECT:                                                                     REFERENCES:
+                                                                             Government Code Sections 11545 and
+SIMM SECTION 57, INFORMATION TECHNOLOGY
+                                                                             11546
+CAPITAL PLAN (ITCP) INSTRUCTIONS
+                                                                             State Administrative Manual (SAM)
+                                                                             Sections 4904 and 4925
+                                                                             Statewide Information Management Manual
+                                                                             (SIMM) Sections 57, 19, 19A, and 05A
+                                                                             Technology Letters 13-02 and 14-02
+
+BACKGROUND
+Government Code Section 11545 states that the California Department of Technology (Department of
+Technology) must develop an annual California Information Technology (IT) Strategic Plan which
+guides the acquisition, management, and use of IT. To achieve the required integration of multi-agency
+business and strategic technology planning, each Agency/state entity1 is required to develop a five-year
+IT Capital Plan (ITCP) that must be submitted to the Department of Technology. This planning process
+was implemented in 2008 and is updated annually.
+
+The Department of Technology uses the information submitted by Agencies/state entities to build the
+annual Statewide ITCP, thus achieving the required integration of multi-agency business and strategic
+technology planning. The Statewide ITCP represents the state's plan for strategic IT investments and
+supports the Governor's Budget and the California IT Strategic Plan.
+
+In September 2013, the Department of Technology released Technology Letter (TL) 13-02 which
+announced the restructuring of the IT project approval process and introduced a Stage/Gate model and
+new SIMM Sections 19 and 19A.
+
+SIMM Section 19A contains the Stage 1 Business Analysis, which is the first stage of the Project
+Approval Lifecycle process and is used to generate the annual Statewide ITCP. The Stage 1 Business
+Analysis provides a basis for project management, program management, executive management, and
+state-level control agencies to understand and agree on business problems or opportunities, and the
+objectives to address them. Agencies/state entities must receive approval of their Stage 1 Business
+Analysis by the Department of Technology prior to starting work on their feasibility study.
+
+In June 2014, the Department of Technology released TL 14-02 which replaces Section 3 of the
+Feasibility Study Report with the Stage 1 Business Analysis, placing more emphasis on building a
+strong business case including the business drivers, business problems or opportunities, business
+objectives, business owners, key stakeholders, and executive sponsors.
+
+ITCP requirements are defined in SAM Section 4904. SIMM Section 57 provides instructions to
+Agencies/state entities on the specifics of how to develop and submit annual ITCPs.
+
+1
+ State entity: Includes every state office, officer, department, division, bureau, board, and commission, including
+Constitutional Officers. “State entity” does not include the University of California, California State University, the State
+Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel Bureau.
+                                                                                                                                Page 1
+
+PURPOSE
+ The purpose of this TL is to announce:
+
+       This TL supersedes TL 13-05.
+       Calendar year 2014 ITCP and Stage 1 Business Analysis submission processes will continue
+        to follow the 2013 processes and will be unchanged.
+       For calendar year 2014 only, the ITCP and Stage 1 Business Analysis submission deadline to
+        the Department of Technology is extended to October 31, 2014.
+       ITCPs are to be submitted electronically to: CIOPMOSubmission@state.ca.gov with a cc to
+        the assigned Department of Technology IT Project Oversight and Consulting (ITPOC)
+        Manager.
+       ITCP and Stage 1 Business Analysis submissions to the Department of Technology must be
+        completed per the instructions in SIMM Sections 57 and 19A or they will be returned.
+        The link to SIMM is as follows: http://www.cio.ca.gov/Government/IT_Policy/SIMM.html.
+QUESTIONS
+Questions should be directed to your Department of Technology, ITPOC Manager. A listing of ITPOC
+Managers and their respective assignments can be found at:
+http://www.cio.ca.gov/Contact_Us/staff_assignments.html
+
+SIGNATURE
+
+                  _____/s/____________________________________________________________
+                  Carlos Ramos, Director
+                  California Department of Technology
+
+                                                                                            Page 2

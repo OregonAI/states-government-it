@@ -1,0 +1,239 @@
+Delegation of Authority Procedure
+  Document ID                      PROC-ENT-001
+  Title                            Delegation of Authority Procedure
+  Executive Sponsor                David Edinger, Chief Information Officer & Executive Director
+  Issuing Authority                Governor’s Office of Information Technology (OIT)
+  Applies to                       State agencies as defined in C.R.S. 24-37.5-102(28) — all
+                                   departments, divisions, commissions, boards, bureaus, and
+                                   institutions in the executive branch of state government,
+                                   excluding the legislative and judicial departments, the
+                                   department of education, the department of law, the
+                                   department of state, the department of the treasury, and state-
+                                   supported institutions of higher education.
+  Instrument Type                  Procedure
+  Version                          1.0
+  Effective Date                   10/01/2021
+  Last Updated                     03/31/2026
+
+1. Purpose
+This procedure outlines the process, requirements and responsibilities for the delegation of
+authority of certain information technology (IT) functions from the Governor's Office of
+Information Technology (OIT) to another state agency.
+
+2. Applicability
+This procedure applies to state agencies as defined in C.R.S. 24-37.5-102(28) as “all of the
+departments, divisions, commissions, boards, bureaus, and institutions in the executive
+branch of the state government” — not including the legislative or judicial departments, the
+department of education, the department of law, the department of state, the department of
+the treasury, or state-supported institutions of higher education.
+
+Requirements
+For delegation of authority requests to be considered, OIT requires confirmation that the
+agency can fulfill the following requirements:
+   ●      The state agency has requested that the function be delegated and the Agency's
+          Executive Director supports the request.
+
+                                                                                    Page 1 of 6
+
+   ●   The state agency has the necessary resources to perform or control the function
+       requesting to be delegated.
+   ●   The IT function being requested for delegation is a unique or mission-critical function
+       of the state agency requesting delegation of authority.
+   ●   The delegation of authority results in net cost savings or improved service delivery to
+       the state as a whole, or for the unique, mission-critical function of the state agency.
+   ●   The IT function is not otherwise provided in OIT's oversight and standards governance
+       developed pursuant to C.R.S. 24-37.5-105(4).
+
+3. Process
+Submissions
+   ●   The agency's Information Technology Director (ITD) needs to receive a written request
+       for delegation of authority from the Agency Executive Director.
+   ●   All requests must be submitted using the OIT Delegation of Authority Request Form.
+       The form will be received and processed by OIT.
+   ●   OIT's Chief Information Officer and Executive Director (CIO) will make a decision to
+       deny, approve to proceed, or seek additional information regarding a delegation of
+       authority request within 30 calendar days of receipt of the full submission (written
+       request plus completed form), unless the request requires expedited approval in
+       support of a declared emergency or matters related to public safety pursuant to C.R.S.
+       24-33.5-704.
+
+Potential Outcomes
+After consideration of a request, the CIO will make one of the following decisions and notify
+the state agency submitting the request:
+   ●   Denied: OIT will summarize why the request is being denied and cite the specific
+       instances where the request fails to meet the requirements set forth in this procedure
+       and/or C.R.S. 24-37.5-105.4.
+   ●   Approval to Proceed: OIT will indicate the request has approval to proceed and initiate
+       negotiations and the execution of the delegation of authority interagency agreement.
+
+Disputes
+In the event a dispute arises between the state agency and OIT in relation to the request,
+including a denial of the request:
+   ●   The CIO and the Agency's Executive Director will attempt to resolve the dispute.
+   ●   If the CIO and the Agency's Executive Director are unable to resolve the dispute within
+       10 business days from the date the dispute arises, the dispute will be referred to the
+       Governor for final resolution.
+
+Execution of Delegation of Authority Interagency Agreement
+The delegation of authority interagency agreement explicitly delegates authority of the
+requested IT function to the agency and shifts full responsibility, including an
+acknowledgment by the agency that it has assumed responsibility for ensuring ongoing
+compliance with state and federal IT policies and standards pursuant to section 24-37.5-
+105(4), and all liability associated with the delegated IT function. Pursuant to C.R.S. 24-37.5-
+105.4(3), upon an approval-to-proceed determination:
+
+                                                                                     Page 2 of 6
+
+   ●   OIT and the requesting agency representatives will negotiate and execute a written
+       delegation of authority interagency agreement that must contain: a precise definition
+       of the IT function to be delegated; a clear description of the standards to be met in
+       performing the delegated function; designation of the state agency responsible for
+       ensuring operational security and validating compliance with state and federal security
+       policies and standards; a provision for periodic administrative audits by OIT; the date
+       on which the agreement terminates; and designation of the appointed authority
+       responsible for the delegated services, including rates to be charged for staff, if any.
+   ●   OIT will distribute the signed contract to the Agency Executive Director, ITD, and OIT
+       Procurement.
+
+Negotiation of Delegation of Authority Interagency Agreement
+OIT maintains an interagency agreement framework for delegation of authority. Using that
+framework, OIT and the requesting agency will negotiate necessary details and execute the
+agreement. If OIT and the requesting agency are unable to come to an agreement, approval
+to proceed will be revoked.
+
+Renewal of Delegation of Authority Interagency Agreement
+Six months prior to expiration of an existing agreement, the renewal process begins:
+   ●   The ITD will alert the agency that the agreement will expire in six months and ask
+       whether the agency intends to request renewal.
+   ●   The ITD will meet with the agency to discuss any changes to the agreement and submit
+       the renewal form.
+   ●   OIT will review the renewal form following the same process as the initial request.
+
+Annual Review and Administrative Audits
+OIT will conduct an annual review and complete additional administrative audits as needed
+with the agency to assess compliance with the delegation of authority interagency
+agreement. If needed, OIT will terminate an agreement if an annual review or administrative
+audit reveals a lack of compliance by the state agency, pursuant to C.R.S. 24-37.5-105.4(4).
+
+4. Definitions and Descriptions
+The following definitions and descriptions are for the sole purpose of the delegation of
+authority policy and procedure.
+
+Titles and Positions
+   ●   State Chief Information Officer (CIO): The State Chief Information Officer appointed
+       pursuant to C.R.S. 24-37.5-103.
+   ●   Executive Director: The executive director of the executive branch agency requesting
+       delegation of authority.
+   ●   State Auditor: The Colorado State Auditor appointed pursuant to C.R.S. 2-3-102.
+   ●   Information Technology Director (ITD): Senior technology staff member serving as a
+       liaison between their assigned customer agency and OIT.
+
+Unique or Mission Critical Functions of State Agencies
+These functions cannot be interrupted for 12 hours or must be resumed within 30 days. They
+are organization-level functions that must be continued throughout, or resumed rapidly after,
+a disruption of normal activities, where any interruption or potential loss of data could be
+                                                                                      Page 3 of 6
+
+detrimental to an organization's operations or statutory responsibilities. They require real-
+time or constant action to ensure an agency's operations or authorities, are typically
+monitored and/or staffed 24/7, and rely on command centers or other central operations
+facilities.
+
+Necessary Resources to Perform Information Technology Functions
+Documentation must be provided demonstrating that the requesting agency has all necessary
+resources specified below:
+   ●   Staff: The requesting agency must already have in place the necessary and/or
+       appropriated FTE to perform and fully administer the function being requested,
+       including contracts, procurement, finance, accounting, human resources, operations,
+       and management staff. OIT employees whose work is not solely attributed to the
+       function being requested cannot be used to determine if the agency has the necessary
+       resources.
+   ●   Financial: The requesting agency must already have direct authority or responsibility
+       for funding designated by federal, state, or local level appropriations.
+   ●   Audit Findings: The agency must not have unimplemented critical findings or
+       deficiencies related to the function being delegated that resulted from performance,
+       financial, and/or IT audits performed by the State Auditor.
+
+Additional Definitions
+   ●   Net Cost Savings: Documentation, using qualitative and quantitative metrics,
+       demonstrating the current cost services model compared to a potential cost services
+       model, with clear and convincing evidence that savings cannot be achieved under the
+       current supervision or structure. Net cost savings will be verified by OIT's Chief
+       Financial Officer.
+   ●   Improved Service Delivery: Documentation, using qualitative and quantitative metrics,
+       demonstrating the current service delivery model and environment compared to a
+       potential model, with clear and convincing evidence of improved service delivery
+       potential.
+   ●   Delegation of Authority Request Form: The form provided by OIT to agencies that want
+       to make a request.
+   ●   Delegation of Authority Interagency Agreement: An agreement between two or more
+       state agencies pursuant to C.R.S. 24-37.5-105.4(3) (delegation of authority) and 1 CCR
+       101-1-3-5 (interagency agreements), including any exhibits and other necessary
+       details.
+
+5. Responsibilities
+State Agency Responsibilities
+   ●   Agencies must not implement plans or make strategic decisions in isolation on any IT
+       function until an executed delegation of authority interagency agreement is in place.
+   ●   Agencies must not take action or make public communications that would otherwise
+       impact OIT's ability to review and make a determination for delegation of authority
+       requests.
+   ●   Agencies must coordinate with OIT before submitting budget decision items, budget
+       amendments, supplemental budget requests, and legislative proposals that derive
+       from a delegation of authority request pursuant to C.R.S. 24-37.5-105.4.
+
+                                                                                     Page 4 of 6
+
+   ●   Agencies with delegated authority accept the role and responsibility to report and
+       respond to the Joint Technology Committee and other legislative committees, boards,
+       or commissions.
+   ●   Agencies with delegated authority must ensure agency compliance with all laws, OIT's
+       Colorado Information Security Policies, the Statewide GenAI Policy and any successor
+       or related AI policies, and the terms of the executed delegation of authority
+       interagency agreement.
+   ●   Agencies with delegated authority must designate a point of contact responsible for
+       responding to OIT inquiries and providing OIT with access to any reports, data,
+       contracts, agreements, or other documentation used to execute the delegated
+       function.
+
+OIT Responsibilities
+   ●   Establish and maintain clear procedures for handling delegation of authority requests.
+   ●   Provide a framework for the delegation of authority interagency agreement.
+   ●   Under the authority of the State Chief Information Officer, evaluate delegation of
+       authority requests and supporting documentation in line with statutory requirements
+       to determine denial or approval to proceed.
+   ●   Ensure clear communication at all times on issues regarding delegation of authority
+       requests.
+   ●   Review the OIT Delegation of Authority Policy and this procedure every 12 months.
+   ●   Annually review existing delegation of authority interagency agreements with the
+       agency.
+   ●   Review and perform periodic administrative audits of delegated functions with
+       agencies as necessary.
+   ●   Facilitate the review of existing delegation of authority interagency agreements
+       following the beginning of a Governor's new term in office.
+   ●   Terminate a delegation of authority interagency agreement if an administrative audit
+       reveals a lack of compliance by the state agency, pursuant to C.R.S. 24-37.5-105.4(4).
+   ●   Report annually to the Joint Technology Committee and other appropriate entities of
+       the Colorado General Assembly regarding IT functions that have delegated authority.
+
+6. Compliance
+Failure to follow this procedure and comply with the associated OIT Delegation of Authority
+Policy will result in automatic denial of a request and may risk placing the requesting agency,
+OIT and/or the State out of statutory and/or legal compliance.
+
+7. References
+   ●   Delegation of Authority Policy
+   ●   HB21-1236, State Information Technology
+   ●   C.R.S. 24-37.5-105.4 - Delegation of Authority
+   ●   C.R.S. 24-37.5-105(4) - OIT Governance
+   ●   1 CCR 101-1-3-5 - Interagency Agreements
+   ●   OIT Technical Standards and Policies
+   ●   Delegation of Authority Request Form
+
+                                                                                    Page 5 of 6
+
+8. Expiration
+This procedure remains in effect until superseded or rescinded by the State Chief Information
+Officer & Executive Director of OIT.
+
+                                                                                  Page 6 of 6

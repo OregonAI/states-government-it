@@ -1,0 +1,77 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                                         NUMBER:                         DATE ISSUED:
+
+TECHNOLOGY LETTER                                                           TL 15-04                        OCTOBER 2015
+
+SUBJECT:                                                                    REFERENCES:
+                                                                            Government Code Sections 11545 and
+CONCEPTUALLY APPROVED INFORMATION
+                                                                            11546
+TECHNOLOGY (IT) PROJECT PROPOSALS REPORT;
+                                                                            State Administrative Manual (SAM)
+RETIRE STATEWIDE INFORMATION MANAGEMENT
+                                                                            Sections 4904, 4925 and 4928
+MANUAL 57
+                                                                            Statewide Information Management Manual
+                                                                            (SIMM) Sections 57, 19, 19A, and 05A
+                                                                            Technology Letters 14-05 and 15-02
+
+BACKGROUND
+
+Since 2008, the California Department of Technology (Department of Technology) required each
+Agency/state entity1 to develop and submit a five-year IT Capital Plan (ITCP) annually. The annual
+ITCPs, along with the corresponding Stage 1 Business Analysis proposals, were used to achieve multi-
+agency business and strategic technology planning. Supported proposals were integrated into the
+Statewide ITCP to represent the state's plan for strategic IT investments and support the Governor's
+Budget. This information was also used to develop an annual California IT Strategic Plan, which guides
+the acquisition, management, and use of IT as required by Government Code Section 11545.
+
+SIMM Section 19A contains the Stage 1 Business Analysis which is the first stage of the Project
+Approval Lifecycle process and is used to generate the annual Statewide ITCP. The Stage 1 Business
+Analysis provides a basis for project management, program management, executive management, and
+state-level control agencies to understand and agree on business problems or opportunities, and the
+objectives to address them.
+
+The improvements to the Project Approval Lifecycle have resulted in greater emphasis on project
+planning and organizational readiness. These enhancements have incorporated much of the
+investment prioritization, business planning and strategic integration that the annual ITCP was intended
+to achieve at the Agency/state entity level. Changes to the ITCP policies are necessary to better align
+this process with the new Project Approval Lifecycle.
+
+PURPOSE
+    The purpose of this TL is to announce that:
+
+          Agency/state entities are no longer required to submit an ITCP annually to the Department of
+           Technology.
+          The Department of Technology will publish, quarterly, an updated Conceptually Approved IT
+           Project Proposals report which will incorporate all approved Stage 1 Business Analyses as of
+           the quarter end.
+          Stage 1 Business Analyses may be submitted any time of the year.
+          Stage 1 Business Analysis submissions to the Department of Technology must be completed
+           per the instructions in SIMM Section 19A or they will be returned. The link to SIMM is as
+           follows:https://cdt.ca.gov/policy/simm/
+
+1
+ State entity: Includes every state office, officer, department, division, bureau, board, and commission, including
+Constitutional Officers. “State entity” does not include the University of California, California State University, the State
+Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel Bureau.
+                                                                                                                                Page 1
+
+       Stage 1 Business Analysis documents should be submitted electronically
+        to: ProjectOversight@state.ca.gov .
+       SIMM Section 57 (Information Technology Capital Plan) has been retired.
+       SAM 4904 has been modified to reflect the discontinuation of the requirement that
+        departments submit an annual ITCP and to establish the quarterly publication of the
+        Conceptually Approved IT Project Proposals report by the Department of Technology.
+
+QUESTIONS
+Questions should be directed to your Department of Technology, IT Project Oversight Division
+(ITPOD) Manager. A listing of ITPOD Managers and their respective assignments can be found at:
+https://cdt.ca.gov/project-approvals-and-oversight-contact/
+
+SIGNATURE
+
+                    /s/
+                 Carlos Ramos, Director
+                 California Department of Technology
+
+                                                                                              Page 2

@@ -1,0 +1,218 @@
+{
+  "agreement": 0.9952,
+  "dict_ratio": 0.9608,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "to",
+        "use",
+        "satellites",
+        "for"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "satellites",
+        "for",
+        "wildfire",
+        "detection"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "D",
+        "maps",
+        "of",
+        "high"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "navigate",
+        "complex",
+        "terrains"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "fires",
+        "faster",
+        "and",
+        "developing"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "modeling",
+        "of",
+        "wildfires"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "tasks",
+        "like",
+        "aerial",
+        "ignition"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "real",
+        "time",
+        "assessments",
+        "and"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "at",
+        "fire",
+        "ca",
+        "gov"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "road",
+        "closures",
+        "and",
+        "more"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "more",
+        "e",
+        "In",
+        "2023,"
+      ],
+      "paddle": "I",
+      "tesseract": "1"
+    },
+    {
+      "before": [
+        "non",
+        "GenAl",
+        "projects",
+        "and"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "safely",
+        "testing",
+        "and",
+        "implementing"
+      ],
+      "paddle": "GenAl",
+      "tesseract": "GenaAl"
+    },
+    {
+      "before": [
+        "person",
+        "IN",
+        "WITNESS",
+        "WHEREOF"
+      ],
+      "paddle": "I",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Governor",
+        "of",
+        "California",
+        "ATTEST"
+      ],
+      "paddle": "SHIRLEY",
+      "tesseract": "YARLEY"
+    },
+    {
+      "before": [
+        "California",
+        "ATTEST",
+        "YARLEY",
+        "N"
+      ],
+      "paddle": "WEBER",
+      "tesseract": "EBER"
+    },
+    {
+      "before": [
+        "N",
+        "EBER",
+        "PH",
+        "D"
+      ],
+      "paddle": "Secretary",
+      "tesseract": "ecretary"
+    },
+    {
+      "before": [
+        "PH",
+        "D",
+        "ecretary",
+        "of"
+      ],
+      "paddle": "State",
+      "tesseract": "Stafe"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9756,
+  "figures": 21,
+  "forced_rotation": true,
+  "glued": 0,
+  "ocr_page_texts": [
+    "o partnering with the U.S. Department of Defense to use satellites for\nwildfire detection;\n\no investing in LIDAR technology to create detailed 3D maps of high-\nrisk areas, which helps firefighters better understand and navigate\ncomplex terrains;\n\no leveraging Al-powered tools to identify fires faster and developing\nthe Fire Integrated Real-Time Intelligence System (FIRIS) to provide\nreal-time mapping and modeling of wildfires;\n\no doubling deployment of drones for critical tasks like aerial ignition\nduring prescribed burns, wildfire containment, and real-time\nassessments; and\n\no expanding capabilities for incident reporting at fire.ca.gov,\nupdating the incident map with near real time information about\nfirefighting aircraft activity, 3-D maps with evacuation orders, local\nshelter information, road closures, and more;\n\ne In 2023, 1 issued Executive Order N-12-23, which directed the Government\nOperations Agency, the California Department of General Services, and\nthe CDT to update the state\u2019s project approval, procurement, and\ncontracting processes for GenAl; CDT recently updated its statewide\npolicies, including safeguards required by my Executive Order to ensure\nthe responsible use of GenAl; and CDT also implemented a Project\nDelivery Lifecycle (PDL) to update the state\u2019s project approval process for\nGenAl projects to meet the requirements of my Executive Order, offering\nopportunities to expand that new procurement process to non-GenAl\nprojects; and\n\ne The California Department of Tax and Fee Administration (CDTFA) has\nstreamlined processes and harnessed technology to drastically improve\nefficiency, improving revenue collection on existing taxes while using\nfewer resources, cutting the department's cost to administer a dollar of\nrevenue by more than 24 percent since 2019; and\n\nWHEREAS the efforts to date are important, but state government can and\nshould do more to meet Californians\u2019 high expectations; and\n\nWHEREAS this transformation will require re-engineering state government\nwith a focus on human-centered design and user experience; data collection\nto establish or confirm baselines and transparently track progress; and the\nsubject matter expertise of program leaders and frontline staff who serve\nCalifornians daily; and\n\nWHEREAS California led the nation in safely testing and implementing\nGenaAl in the public sector, harnessing the power of transformative new\ntechnologies to drive efficiency and effectiveness at scale; and\n\nWHEREAS California has recently launched a first-in-the-nation deliberative\ndemocracy program, Engaged California, to hear directly from Californians and\nto inform policymakers about the issues that affect them the most; and\n\nWHEREAS California, endeavors to attract, retain, and develop employees\nwho will support a modern and responsive state government and provide an\nexcellent customer experience to all Californians, and our state workforce has\ndeep expertise in the programs they run that can inform improvements to how\nthe State delivers services to Californians.\n\nNOW, THEREFORE, I, GAVIN NEWSOM, Governor of the State of California,\nin accordance with the authority vested in me by the State Constitution and\nstatutes of the State of California, do hereby issue the following Order to\nbecome effective immediately:",
+    "IT IS HEREBY ORDERED THAT:\n\n1. The Government Operations Agency (GovOps) shall work with the\nDepartment of Human Resources (CalHR), the Department of\nGeneral Services (DGS), the Department of Technology (CDT), and\nthe State Personnel Board (SPB) to improve operational\neffectiveness, boost efficiency, and enhance customer experience,\nenabling innovation in delivery of services and prioritizing at least\nthe following areas:\n\na. CalHR, in consultation with SPB, shall identify options to\nstreamline and modernize civil service hiring, modernize state\nexams, and remove or improve administrative processes that\nare unnecessary to meet legal requirements under civil\nservice and other applicable rules.\n\nb. CDT shall identify options to simplify IT project approval and IT\nprocurement, develop shared IT contracting vehicles to\nreduce costs, and establish an enterprise marketplace for\nbusiness tools, including tools utilizing artificial intelligence.\n\nc. DGS shall identify options to further streamline procurement\npractices to ease administrative burdens on both state\nagencies and potential vendors, expedite necessary\ncontracts, and lower costs, including assessing changes to\nstreamline the approval process for Inter-Agency\nAgreements.\n\nGovOps shall provide an update to the Governor's Office on\nimplementation of this Paragraph, including any recommendations\nto pursue options identified by the departments, no later than\nAugust 15, 2025.\n\n2. Each agency within my Administration shall, within 90 days of this\nOrder, submit to the Governor\u2019s Office at least one proposal for a\nno-cost or low-cost idea to improve efficiency of operations within\nthe agency or a constituent department, board, or office within the\nagency.\n\n3. The Office of Data Innovation (ODI), in partnership with CalHR, shall\nleverage the Engaged California deliberative democracy platform\nto engage the state workforce to source innovative ideas to\nimprove efficiency, effectiveness, and customer engagement in\nstate programs. ODI shall launch a pilot project pursuant to this\nParagraph no later than August 15, 2025.\n\n4. ODI shall establish the Innovation Fellows Program (IFP) to create a\nsustainable framework for incorporating a focus on innovation\naround efficient and effective delivery of services in state\ngovernment, as follows:\n\na. The IFP will be comprised of \u201cInnovation Fellows,\u201d supervisors\nand exempt staff selected from departments and agencies,\nwho will focus on fixing unique challenges facing their\ndepartments and agencies through innovative ideas to solve\nthose challenges. The Fellows will receive training and support\nthrough the IFP, including from the other Fellows to identify",
+    "the challenge, develop ideas to address it, and present the\nrecommendation to agency or departmental leadership, as\nappropriate, for potential adoption.\n\nb. Department executives shall support the IFP by granting\nidentified Innovation Fellows the opportunity to participate in\nthe IFP on a dedicated basis, independent of their other\nduties.\n\nc. ODI shall invite each agency within my Administration to\nselect at least one person to participate in the initial cohort of\nInnovation Fellows and launch that cohort no later than\nAugust 15, 2025.\n\nAll State agencies subject to my authority shall, and all other public\nentities are requested to, assist ODI in administering the IFP.\n\nIT IS FURTHER ORDERED that, as soon as hereafter possible, this Order be\nfiled in the Office of the Secretary of State and that widespread publicity and\nnotice be given of this Order.\n\nThis Order is not intended to, and does not, create any rights or benefits,\nsubstantive or procedural, enforceable at law or in equity, against the State of\nCalifornia, its agencies, departments, entities, officers, employees, or any other\nperson.\n\nIN WITNESS WHEREOF | have\nhereunto set my hand and caused\nthe Great Seal of the State of\nCalifornia to be affixed this 15th day\nof July 2025.\n\nGAVIN NEWSOM\nGovernor of California\n\nATTEST:\n\nYARLEY N EBER, PH. D\necretary of Stafe"
+  ],
+  "paddle_sha256": "3752d5e86986def38ac57d5e3de50b92a25546eb28447b817ac84c6303c7361c",
+  "pages": [
+    2,
+    3,
+    4
+  ],
+  "pdf_sha256": "bc731711538bce50bbb94f653be901e0eb5493b82b7512a69c11f87cfd7d4a5e",
+  "psm": null,
+  "text_sha256": "12b40fcba4209dc6595bc088c3b63aa33841a46a94caad28645d427351bce350",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 1045
+}

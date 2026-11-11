@@ -1,0 +1,47 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                    NUMBER:               DATE ISSUED:
+
+TECHNOLOGY LETTER                                       TL 18-04               JULY 2018
+
+SUBJECT:                                               REFERENCES:
+WEBSITE STANDARDS                                      Government Code Sections § 11135 and
+                                                       7405
+
+                                                       State Administrative Manual (SAM) Sections
+                                                       5190, 5190.1 and 5190.2
+
+                                                       State Information Management Manual
+                                                       (SIMM) Section 25
+
+BACKGROUND
+
+As state government continues to expand access to online services, websites are an essential tool to
+interact with the public and deliver information to the people of California. The Website Standards
+policy ensures standardization and adoption of best practices to strengthen the security, usability,
+accessibility and quality of State of California websites. This policy will foster a consistent look and
+feel, and a common navigational framework across government, helping visitors recognize they are
+accessing official State of California information. This policy also promotes reasonable steps to
+design and develop websites that are accessible to people with disabilities and supports the
+adoption of usability principles that adhere to California’s usability standards for website
+development.
+
+PURPOSE
+
+The purpose of this Technology Letter (TL) is to announce:
+   •   State Administrative Manual (SAM) Section 5190, which introduces the Website Standards
+       Policy for the State of California.
+   •   SAM Section 5190.1, which outlines website standards and requirements.
+   •   SAM Section 5190.2, which encourages Agencies/state entities to use the standard CA.GOV
+       website template to achieve many of the website standards identified in this policy.
+   •   New Webstandards.ca.gov website provides standards, code, functionality, implementation
+       guidelines and best practices for Agencies/state entities to implement this policy.
+
+QUESTIONS
+
+Questions regarding this Technology Letter should be directed to the Department of Technology,
+Office of Digital Governmental Affairs at ITPolicy@state.ca.gov.
+
+SIGNATURE
+
+                            /s/
+                 Amy Tong, Director
+                 California Department of Technology

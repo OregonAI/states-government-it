@@ -19,12 +19,17 @@ and the entry is skipped: the seed entry is then marked a stub by hand, with the
 from __future__ import annotations
 
 import argparse
+import difflib
+import hashlib
 import html as html_mod
+import inspect
 import io
 import json
 import re
+import os
 import subprocess
 import sys
+import tempfile
 import urllib.parse
 import weakref
 import zipfile
@@ -33,7 +38,7 @@ from pathlib import Path
 
 from corpus_toolkit import config as config_mod
 from corpus_toolkit.documents import DocumentError, write_document
-from corpus_toolkit.repo import parse_frontmatter
+from corpus_toolkit.repo import hash_snapshot, parse_frontmatter
 import httpx
 
 from corpus_toolkit.sources.fetch import UNSUPPORTED, Challenge, FetchError, Fetcher, Refused, sniff
@@ -145,12 +150,28 @@ _LIGATURES = {"\ufb00": "ff", "\ufb01": "fi", "\ufb02": "fl", "\ufb03": "ffi",
               "\ufb04": "ffl", "\ufb05": "st", "\ufb06": "st"}
 
 
-def pdf_to_text(raw: bytes) -> str:
+def pdf_to_text(raw: bytes, no_text_pages=()) -> str:
     """`pdftotext -layout`, as the drift detector reads PDFs, with form feeds and trailing
     space removed and ligature glyphs written as their letters. Page headers, footers and
-    column layout are kept: removing furniture per document would be editing the instrument."""
+    column layout are kept: removing furniture per document would be editing the instrument.
+    A page with no words (a scanned page) makes the whole PDF a refusal, because the text
+    would silently lack that page; only pages the seed entry lists in `no_text_pages` (a
+    figure, a blank page or a scanned form it has looked at) are let through, and a listed page
+    that does have text is refused too, so the list stays true."""
     text = subprocess.run(["pdftotext", "-layout", "-", "-"], input=raw, capture_output=True,
                           check=True).stdout.decode("utf-8", "replace")
+    pages = text.split("\f")
+    if len(pages) > 1 and not pages[-1].strip():
+        pages.pop()
+    empty = [n for n, page in enumerate(pages, 1) if not page.split()]
+    listed = sorted(set(no_text_pages))
+    if [n for n in empty if n not in listed]:
+        raise ValueError(f"PDF page(s) {', '.join(str(n) for n in empty if n not in listed)} "
+                         f"have no text layer (a scan): needs OCR, make the entry a stub, or list the "
+                         f"page as no_text_pages if it is a figure or blank")
+    if [n for n in listed if n not in empty]:
+        raise ValueError(f"seed entry lists page(s) {', '.join(str(n) for n in listed if n not in empty)} "
+                         f"as no_text_pages but the PDF has text there")
     text = text.translate(str.maketrans(_LIGATURES))
     text = "\n".join(line.rstrip() for line in text.replace("\f", "\n").split("\n"))
     text = re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
@@ -315,6 +336,111 @@ def archive_eo_html_to_text(raw: bytes) -> str:
     parser.feed(page[head.start():tail.end()])
     parser._flush()
     return "\n".join(parser.lines) + "\n"
+
+
+# ---- Colorado Office of Information Technology: pages on oit.colorado.gov ---------------------
+#
+# oit.colorado.gov is a Drupal site behind colorado.gov's shared firewall, which answers the toolkit's
+# crawler-form User-Agent (toolkit ADR-0019) and refused the earlier one. A page that states an instrument
+# is its <h1> (in the header region) and the page body (`field--name-body`), up to the end of the content
+# column; the breadcrumb and side navigation, which list the neighbouring pages, are not the page.
+
+def oit_html_to_text(raw: bytes) -> str:
+    page = _decode(raw)
+    heading = re.search(r"<h1[^>]*>\s*(.*?)\s*</h1>", page, flags=re.S)
+    region = page.find("region-content")           # an earlier field--name-body is the language selector
+    start = page.find("field--name-body", region) if region >= 0 else -1
+    start = page.rfind("<div", 0, start) if start >= 0 else -1
+    end = page.find("</section>", start) if start >= 0 else -1
+    if not heading or start < 0 or end < 0:
+        raise ValueError("page has no heading and body region: the page layout changed")
+    parser = _SamParser()
+    parser.feed(f"<h1>{heading.group(1)}</h1>" + page[start:end])
+    parser._flush()
+    return "\n".join(parser.lines) + "\n"
+
+
+# ---- California Department of Technology: Technology Letters and SIMM pages --------------
+#
+# www.cdt.ca.gov answers the toolkit's httpx client with a Cloudflare managed challenge and answers
+# system curl, sending the same User-Agent, with HTTP 200 (the Fetcher's opt-in curl transport,
+# see `make_fetcher`). Its letters and SIMM sections are WordPress pages built with Divi: the
+# instrument is the page from its <h1> to the department's footer section, minus the side and
+# "On this page" navigation (<nav>) and the print button.
+
+class _CdtParser(_SamParser):
+    """The text of a CDT page region. Block elements start a line (as in the SAM parser); a table
+    row is one line with its cells joined by ` | `; <nav> elements and the print button are
+    not text of the instrument."""
+
+    def __init__(self):
+        super().__init__()
+        self.nav = 0
+        self.print_button = False
+        self.cells = 0
+
+    def _flush(self):
+        """As the SAM parser, except that spaces the page's markup puts before a line are not
+        indentation: only a nested list item (a bullet or a number) is indented."""
+        raw = "".join(self.cur)
+        self.cur = []
+        line = " ".join(raw.split())
+        if line:
+            lead = len(raw) - len(raw.lstrip(" "))
+            self.lines.append(" " * lead + line if lead and re.match(r"(\u2022|\d+\.|[a-z]+\.) ", line) else line)
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "nav":
+            self._flush()
+            self.nav += 1
+            return
+        if self.nav:
+            return
+        if tag == "span" and dict(attrs).get("id") == "printbutton":
+            self.print_button = True
+            return
+        if tag in ("td", "th"):
+            if self.cells:
+                self.cur.append(" | ")
+            self.cells += 1
+            return
+        if tag == "tr":
+            self.cells = 0
+        super().handle_starttag(tag, attrs)
+
+    def handle_endtag(self, tag):
+        if tag == "nav":
+            self.nav = max(self.nav - 1, 0)
+            return
+        if self.nav:
+            return
+        if tag == "span" and self.print_button:
+            self.print_button = False
+            return
+        if tag in ("td", "th"):
+            return
+        super().handle_endtag(tag)
+
+    def handle_data(self, data):
+        if not self.nav and not self.print_button:
+            super().handle_data(data)
+
+
+def cdt_html_to_text(raw: bytes) -> str:
+    """A Department of Technology page (`www.cdt.ca.gov`): the page's <h1> to the start of the
+    footer section (the Divi section that holds the `footer-heading` headings), one line per
+    paragraph, heading, list item and table row. The site menu, the side navigation, the page's
+    contents list ("On this page"), the print button, scripts and the footer are not the instrument."""
+    page = _decode(raw)
+    start = page.find("<h1")
+    foot = page.find("footer-heading")
+    end = page.rfind('<div class="et_pb_section', 0, foot) if foot >= 0 else -1
+    if start < 0 or end <= start:
+        raise ValueError("no CDT page region (heading to footer section): the page layout changed")
+    parser = _CdtParser()
+    parser.feed(page[start:end])
+    parser._flush()
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(parser.lines)).strip("\n") + "\n"
 
 
 # ---- California statutes: the Legislature's official bulk download ------------------------
@@ -652,20 +778,609 @@ def crs_html_to_text(raw: bytes, slice_: dict | None) -> str:
     return "\n".join(lines) + "\n"
 
 
+# ---- Word files (.docx) -----------------------------------------------------------------
+#
+# pandoc reads the file into its JSON syntax tree; this module renders the tree, so that the
+# layout (tables as one line per row, lists, notes) is this corpus's and does not depend on
+# pandoc's own plain-text writer, whose output changes between releases. The tree is also far
+# steadier across releases than the writer's output; `check` still compares word for word, not
+# byte for byte, because the pandoc that CI installs (Ubuntu's) is not the one that made the text.
+
+_BULLET = "\u2022 "
+
+
+def _roman(n: int) -> str:
+    out = ""
+    for value, sym in ((1000, "m"), (900, "cm"), (500, "d"), (400, "cd"), (100, "c"), (90, "xc"),
+                       (50, "l"), (40, "xl"), (10, "x"), (9, "ix"), (5, "v"), (4, "iv"), (1, "i")):
+        while n >= value:
+            out, n = out + sym, n - value
+    return out
+
+
+def _alpha(n: int) -> str:
+    out = ""
+    while n > 0:
+        n, r = divmod(n - 1, 26)
+        out = chr(97 + r) + out
+    return out
+
+
+def _marker(n: int, style: str, delim: str) -> str:
+    body = {"LowerAlpha": _alpha(n), "UpperAlpha": _alpha(n).upper(), "LowerRoman": _roman(n),
+            "UpperRoman": _roman(n).upper()}.get(style, str(n))
+    return {"OneParen": f"{body})", "TwoParens": f"({body})"}.get(delim, f"{body}.") + " "
+
+
+class _Pandoc:
+    """Renders one pandoc syntax tree (the `blocks` list) to lines, collecting footnotes."""
+
+    def __init__(self):
+        self.notes: list[str] = []
+
+    def inlines(self, items) -> str:
+        return "".join(self.inline(i) for i in items)
+
+    def inline(self, i) -> str:
+        t, c = i["t"], i.get("c")
+        if t == "Str":
+            return c
+        if t == "Space" or t == "SoftBreak":
+            return " "
+        if t == "LineBreak":
+            return "\n"
+        if t in ("Emph", "Strong", "Underline", "Strikeout", "Superscript", "Subscript", "SmallCaps"):
+            return self.inlines(c)
+        if t == "Span":
+            return self.inlines(c[1])
+        if t == "Link":
+            return self.inlines(c[1])
+        if t == "Cite":
+            return self.inlines(c[1])
+        if t == "Quoted":
+            q = ("\u201c", "\u201d") if c[0]["t"] == "DoubleQuote" else ("\u2018", "\u2019")
+            return q[0] + self.inlines(c[1]) + q[1]
+        if t in ("Code", "Math"):
+            return c[1]
+        if t in ("Image", "RawInline"):
+            return ""                     # a picture or markup is not the instrument's words
+        if t == "Note":
+            n = len(self.notes) + 1
+            self.notes.append("")         # reserve the number: a note may hold a note
+            self.notes[n - 1] = " ".join(self.blocks(c)).strip()
+            return f"[{n}]"
+        raise ValueError(f"Word file holds an inline element this reader does not know: {t}")
+
+    def text_lines(self, inlines) -> list[str]:
+        return [" ".join(p.split()) for p in self.inlines(inlines).replace("\xa0", " ").split("\n")
+                if p.strip()]
+
+    def blocks(self, blocks, tight=False) -> list[str]:
+        """Lines of a block list; blocks are separated by a blank line unless `tight`."""
+        out: list[str] = []
+        for b in blocks:
+            lines = self.block(b)
+            if lines:
+                if out and not tight:
+                    out.append("")
+                out += lines
+        return out
+
+    def item(self, marker: str, blocks) -> list[str]:
+        lines = self.blocks(blocks, tight=True)
+        pad = " " * len(marker)
+        return [(marker if k == 0 else pad) + l if l else l for k, l in enumerate(lines)]
+
+    def cell_text(self, cell) -> str:
+        return " ".join(l.strip() for l in self.blocks(cell[4], tight=True) if l.strip())
+
+    def table(self, c) -> list[str]:
+        _, caption, _, head, bodies, foot = c
+        rows = list(head[1])
+        for body in bodies:
+            rows += body[2] + body[3]
+        rows += foot[1]
+        lines = self.blocks(caption[1], tight=True)
+        for row in rows:
+            cells = [self.cell_text(cell) for cell in row[1]]
+            if any(cells):
+                lines.append(" | ".join(cells))
+        return lines
+
+    def block(self, b) -> list[str]:
+        t, c = b["t"], b.get("c")
+        if t in ("Plain", "Para"):
+            return self.text_lines(c)
+        if t == "Header":
+            return self.text_lines(c[2])
+        if t == "BlockQuote":
+            return self.blocks(c)
+        if t == "BulletList":
+            return [l for item in c for l in self.item(_BULLET, item)]
+        if t == "OrderedList":
+            (start, style, delim), items = c
+            return [l for k, item in enumerate(items)
+                    for l in self.item(_marker(start + k, style["t"], delim["t"]), item)]
+        if t == "DefinitionList":
+            return [l for term, defs in c for l in
+                    self.text_lines(term) + [x for d in defs for x in self.blocks(d, tight=True)]]
+        if t == "Div":
+            return self.blocks(c[1])
+        if t == "LineBlock":
+            return [l for line in c for l in self.text_lines(line)]
+        if t == "CodeBlock":
+            return [l.rstrip() for l in c[1].splitlines() if l.strip()]
+        if t == "Table":
+            return self.table(c)
+        if t == "Figure":
+            return self.blocks(c[2])
+        if t in ("HorizontalRule", "RawBlock", "Null"):
+            return []
+        raise ValueError(f"Word file holds a block element this reader does not know: {t}")
+
+
+def render_pandoc_ast(tree: dict) -> str:
+    """A pandoc syntax tree (`pandoc -t json`) as text: one line per paragraph, heading, list
+    item and table row (cells joined by ` | `), a blank line between blocks, footnotes after the
+    body as `[n] text`. Pictures, rules and raw markup are not text. A construct this does not
+    know is refused, so a new kind of content is noticed instead of dropped."""
+    r = _Pandoc()
+    lines = r.blocks(tree["blocks"])
+    if r.notes:
+        lines += [""] + [f"[{n}] {t}" for n, t in enumerate(r.notes, 1)]
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(l.rstrip() for l in lines)).strip("\n") + "\n"
+
+
+def docx_to_text(raw: bytes) -> str:
+    """The body text of a Word file, through pandoc's docx reader with tracked changes accepted
+    (what the document reads as). Running headers and footers, pictures and text boxes' frames are
+    not read by pandoc and are not text here (the conversion notes say so)."""
+    try:
+        proc = subprocess.run(["pandoc", "-f", "docx", "-t", "json", "--track-changes=accept"],
+                              input=raw, capture_output=True, check=False)
+    except FileNotFoundError:
+        raise ValueError("pandoc is not installed: it reads the Word files (apt-get install pandoc)") from None
+    if proc.returncode != 0:
+        raise ValueError(f"not readable as a Word file: {proc.stderr.decode('utf-8', 'replace').strip()[:200]}")
+    text = render_pandoc_ast(json.loads(proc.stdout))
+    if len(text.split()) < MIN_PDF_WORDS:
+        raise ValueError("Word file has no text (fewer than 30 words): make the entry a stub")
+    return text
+
+
+def same_words(a: str, b: str) -> bool:
+    """The same words in the same order, whatever the line breaks and spacing. How `--check`
+    compares a Word file's committed text with what the installed pandoc makes of it."""
+    return a.split() == b.split()
+
+
+# ---- scanned PDFs: the two-engine OCR procedure ---------------------------------------------
+#
+# corpus-template AGENTS.md, "OCR": tesseract (through ocrmypdf) is the primary engine and PaddleOCR
+# PP-OCRv6 reads the ORIGINAL scan as the cross-check; a single engine's output is never promoted. The
+# seed entry says `ocr: true` for a PDF known to be a scan. What is committed:
+#   <id>.pdf         the scan as the source served it (source_sha256 never hashes a derived copy)
+#   <id>.txt         the tesseract text: this is the document's text and what the provenance gate reads
+#   <id>.paddle.txt  the second engine's text. CI has no PaddleOCR, so its text is kept and the agreement
+#                    is recomputed from the two committed texts
+#   <id>.ocr.json    the report: tools, the PDF's and both texts' sha256, agreement, figure agreement,
+#                    dictionary ratio
+# `--check` re-derives what CI can: it re-runs tesseract on the committed PDF and requires the committed
+# text to agree with that reading (OCR_RECHECK), and it recomputes the two-engine agreement from the
+# committed texts. The dictionary ratio is a gate at ingest only: it is judged against the rest of the
+# corpus's non-OCR text, which changes as the corpus grows, so the recorded value is not re-derived.
+#
+# What `--check` can and cannot catch. CI installs the same Ubuntu 24.04 apt packages (tesseract 5.3.4,
+# ocrmypdf 15.2.0) that made the text, and their re-run is byte-identical (measured for all eight scans), so
+# while the installed tools are the recorded ones the re-run must give the committed text's word sequence
+# and figure sequence EXACTLY: an edited number or word fails even when text_sha256 is updated beside it.
+# When the apt packages move (recorded tool versions differ from the installed ones) a reading may shift by
+# a word, so the bar relaxes to OCR_RECHECK on words with the figure sequence still exact, and the message
+# says so. The remedy is to re-ingest the scan (`python3 src/ingest.py --refetch`) so the record is renewed
+# under the new tools; never to relax the bar. Figure agreement between the engines is a gate at ingest
+# (OCR_MIN_FIGURES) and again here, because the word score cannot see digits.
+
+OCR_WORD = re.compile(r"[a-z]{2,}")
+OCR_FIGURE = re.compile(r"\$?-?\d[\d,]*(?:\.\d+)?%?")
+OCR_TOKEN = re.compile(r"[A-Za-z]+|\$?\d[\d,]*(?:\.\d+)?%?")   # words and figures, for listing disagreements
+OCR_MIN_AGREEMENT = 0.80    # the platform's bar for two engines on the word sequence
+OCR_MIN_DICT = 0.80
+OCR_MIN_WORDS = 100
+OCR_MIN_FIGURES = 0.90      # figure agreement between the engines (Oregon EO 16-13 read 0.75 and was wrong)
+OCR_RECHECK = 0.995         # word bar of the re-run when the installed tools are not the recorded ones
+OCR_ENGINES = ("tesseract (ocrmypdf)", "paddleocr PP-OCRv6")
+OCR_CAVEAT = ("NOT human-verified \u2014 treat every number as unchecked against the source")
+
+
+def ocr_score(primary: str, cross: str, vocab: set) -> dict:
+    """Word-sequence agreement of two engines, figure agreement scored separately (digits are where
+    engines diverge and the word score hides it), and the share of the primary text's words the corpus's
+    own non-OCR vocabulary knows."""
+    wa, wb = OCR_WORD.findall(primary.lower()), OCR_WORD.findall(cross.lower())
+    fa, fb = OCR_FIGURE.findall(primary.lower()), OCR_FIGURE.findall(cross.lower())
+    ratio = lambda a, b: difflib.SequenceMatcher(None, a, b, autojunk=False).ratio() if a and b else 0.0
+    return {"words": len(wa), "agreement": ratio(wa, wb), "figures": len(fa),
+            "figure_agreement": 1.0 if not fa and not fb else ratio(fa, fb),
+            "dict_ratio": sum(1 for w in wa if w in vocab) / len(wa) if wa else 0.0,
+            "glued": len(re.findall(r"\b[A-Za-z]{18,}\b", primary))}
+
+
+def ocr_vocabulary(config) -> set:
+    """Words of this corpus's own text that was NOT produced by OCR, sampled evenly: the reference a
+    reading is judged against. Text read by OCR is excluded, or its misreadings would become vocabulary."""
+    ocr_ids = {p.name[:-len(".ocr.json")] for p in config.snapshot_dir.glob("*.ocr.json")}
+    files = sorted(p for p in config.snapshot_dir.glob("*.txt")
+                   if p.stem not in ocr_ids and not p.name.endswith(".paddle.txt"))
+    vocab: set = set()
+    for p in files[::max(1, len(files) // 400)]:
+        vocab |= set(OCR_WORD.findall(p.read_text(encoding="utf-8", errors="replace").lower()))
+    return vocab
+
+
+def ocr_disagreements(primary: str, cross: str) -> list[dict]:
+    """Every position where the two engines read a different token (word or figure): what tesseract (the
+    committed reading) and paddle read there, and the four tesseract tokens before it. A reader can see
+    where the committed reading is contested."""
+    a, b = OCR_TOKEN.findall(primary), OCR_TOKEN.findall(cross)
+    ops = difflib.SequenceMatcher(None, [t.casefold() for t in a], [t.casefold() for t in b], autojunk=False)
+    return [{"tesseract": " ".join(a[i1:i2]), "paddle": " ".join(b[j1:j2]), "before": a[max(0, i1 - 4):i1]}
+            for tag, i1, i2, j1, j2 in ops.get_opcodes() if tag != "equal"]
+
+
+_SIGNATURE_FIELD = re.compile(r"^APPROVED:(.*)$")
+
+
+def _drop_signature_glyphs(page: str) -> str:
+    """The DAS policies' `APPROVED:` field holds a handwritten signature. What an engine reads from it
+    (`A, Bath`, `Yun |`, `fh eat M`) is glyph noise that looks like a name, so it is not committed: the
+    label stays, the reading after it (on the line, or on the next non-blank line when that holds no word of
+    four letters) goes."""
+    lines = page.split("\n")
+    out, i = [], 0
+    while i < len(lines):
+        m = _SIGNATURE_FIELD.match(lines[i])
+        out.append("APPROVED:" if m else lines[i])
+        i += 1
+        if m:
+            j = i
+            while j < len(lines) and not lines[j].strip():
+                j += 1
+            if j < len(lines) and len(lines[j].split()) <= 4 and not re.search(r"[A-Za-z]{4,}", lines[j]):
+                i = j + 1
+    return "\n".join(out)
+
+
+def _tool_version(cmd: list) -> str:
+    try:
+        out = subprocess.run(cmd, capture_output=True, check=False)
+    except FileNotFoundError:
+        return "not installed"
+    return (out.stdout or out.stderr).decode("utf-8", "replace").strip().splitlines()[0]
+
+
+def _clean_pages(pages: list[str]) -> list[str]:
+    return ["\n".join(l.rstrip() for l in page.splitlines()).strip("\n") for page in pages]
+
+
+def ocr_tesseract(raw: bytes, force_rotate: bool = False, psm: int | None = None) -> str:
+    """The text tesseract reads from a scan, one text block per page (see `ocr_tesseract_pages`)."""
+    text = "\n\n".join(ocr_tesseract_pages(raw, force_rotate, psm))
+    return re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
+
+
+def ocr_tesseract_pages(raw: bytes, force_rotate: bool = False, psm: int | None = None) -> list[str]:
+    """What tesseract reads from each page of a scan, through ocrmypdf on a COPY. `force_rotate` applies
+    tesseract's orientation call even where it is unsure (a page scanned upside down is otherwise read as
+    confident nonsense). `psm` is tesseract's page-segmentation mode, the seed entry's `ocr_psm`: 4 reads a
+    two-column layout by rows, so a label column stays beside its text (the default, 3, sets the label
+    column apart as a block). Signature-field glyphs are not kept (`_drop_signature_glyphs`)."""
+    with tempfile.TemporaryDirectory() as tmp:
+        src, out, side = Path(tmp, "in.pdf"), Path(tmp, "out.pdf"), Path(tmp, "side.txt")
+        src.write_bytes(raw)
+        cmd = ["ocrmypdf", "-l", "eng", "--optimize", "0", "--output-type", "pdf", "--rotate-pages",
+               "--deskew", "--sidecar", str(side)] + (["--rotate-pages-threshold", "0"] if force_rotate else []) \
+            + (["--tesseract-pagesegmode", str(psm)] if psm else [])
+        try:
+            proc = subprocess.run(cmd + [str(src), str(out)], capture_output=True, check=False, timeout=1800)
+        except FileNotFoundError:
+            raise ValueError("ocrmypdf is not installed: it runs tesseract on the scans "
+                             "(apt-get install ocrmypdf tesseract-ocr)") from None
+        if proc.returncode != 0 or not side.is_file():
+            raise ValueError("tesseract could not read the PDF (ocrmypdf exit "
+                             f"{proc.returncode}): {proc.stderr.decode('utf-8', 'replace').strip()[-200:]}")
+        pages = side.read_text(encoding="utf-8").split("\f")
+    if len(pages) > 1 and not pages[-1].strip():
+        pages.pop()
+    return [_drop_signature_glyphs(p) for p in _clean_pages(pages)]
+
+
+def _pdf_pages(raw: bytes) -> int:
+    out = subprocess.run(["pdfinfo", "-"], input=raw, capture_output=True, check=True).stdout.decode("utf-8", "replace")
+    return int(re.search(r"^Pages:\s+(\d+)", out, flags=re.M).group(1))
+
+
+def _layer_page(raw: bytes, n: int) -> str:
+    """Page n's text layer as `pdf_to_text` reads it (pdftotext -layout, ligatures written as letters)."""
+    text = subprocess.run(["pdftotext", "-layout", "-f", str(n), "-l", str(n), "-", "-"], input=raw,
+                          capture_output=True, check=True).stdout.decode("utf-8", "replace")
+    text = text.translate(str.maketrans(_LIGATURES)).replace("\f", "")
+    return "\n".join(l.rstrip() for l in text.split("\n")).strip("\n")
+
+
+def _subset_pdf(raw: bytes, pages: list[int]) -> bytes:
+    """A PDF of just these pages, in order (poppler's pdfseparate and pdfunite)."""
+    with tempfile.TemporaryDirectory() as tmp:
+        whole = Path(tmp, "whole.pdf")
+        whole.write_bytes(raw)
+        parts = []
+        for n in pages:
+            part = Path(tmp, f"p-{n}.pdf")
+            subprocess.run(["pdfseparate", "-f", str(n), "-l", str(n), str(whole), str(part)], check=True,
+                           capture_output=True)
+            parts.append(str(part))
+        out = Path(tmp, "subset.pdf")
+        subprocess.run(["pdfunite", *parts, str(out)], check=True, capture_output=True)
+        return out.read_bytes()
+
+
+def _compose(raw: bytes, pages: list[int], ocr_pages: list[str]) -> str:
+    """The text of a PDF with some scanned pages: each page in order, the text layer's where the page has
+    one and the OCR reading's where it is listed in `pages`."""
+    by_page = dict(zip(pages, ocr_pages))
+    blocks = [by_page[n] if n in by_page else _layer_page(raw, n) for n in range(1, _pdf_pages(raw) + 1)]
+    return re.sub(r"\n{3,}", "\n\n", "\n\n".join(blocks)).strip("\n") + "\n"
+
+
+def ocr_paddle(pdf_path: Path) -> str:
+    """The cross-check engine's text, by `src/ocr_paddle.py` under a Python that has PaddleOCR
+    (`OCR_PADDLE_PYTHON`, default /usr/bin/python3: the repo's .venv has none). Refused, never skipped,
+    when it is not there: unchecked OCR is not promotable."""
+    python = os.environ.get("OCR_PADDLE_PYTHON", "/usr/bin/python3")
+    env = dict(os.environ, PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK="True")
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            proc = subprocess.run([python, str(ROOT / "src" / "ocr_paddle.py"), str(pdf_path)], cwd=tmp,
+                                  capture_output=True, check=False, timeout=3600, env=env)
+    except FileNotFoundError:
+        raise ValueError(f"PaddleOCR (the second OCR engine) is not available: {python} does not exist "
+                         f"(set OCR_PADDLE_PYTHON to a Python with paddleocr)") from None
+    if proc.returncode != 0:
+        raise ValueError("PaddleOCR (the second OCR engine) failed: "
+                         + proc.stderr.decode("utf-8", "replace").strip()[-300:])
+    return proc.stdout.decode("utf-8", "replace")
+
+
+def ocr_scan(src: dict, raw: bytes, config, paddle=None, vocab: set | None = None) -> tuple[str, dict]:
+    """(text, report) for a scanned PDF, or ValueError. `ocr: true` in the seed entry says every page is a
+    scan; `ocr: [2, 3, 4]` lists the scanned pages of a PDF whose other pages have a text layer (their text
+    is pdftotext's). Both engines read the scan; the text is tesseract's, promoted only when the engines
+    agree on at least OCR_MIN_AGREEMENT of the word sequence, at least OCR_MIN_DICT of the words are known
+    words, there are OCR_MIN_WORDS words, and the text is the cited instrument. A page scanned upside down
+    is read again with orientation forced when the first reading fails."""
+    vocab = ocr_vocabulary(config) if vocab is None else vocab
+    paddle = paddle or ocr_paddle
+    pages = sorted(set(src["ocr"])) if isinstance(src.get("ocr"), list) else None
+    psm = src.get("ocr_psm")
+    scan = raw
+    if pages:
+        for n in range(1, _pdf_pages(raw) + 1):
+            has_layer = bool(_layer_page(raw, n).split())
+            if n in pages and has_layer:
+                raise ValueError(f"{src['id']}: PDF page {n} has a text layer but the seed entry lists it in ocr")
+            if n not in pages and not has_layer:
+                raise ValueError(f"{src['id']}: PDF page {n} has no text layer (a scan) and the seed entry's "
+                                 f"ocr list does not name it")
+        scan = _subset_pdf(raw, pages)
+    with tempfile.TemporaryDirectory() as tmp:
+        pdf = Path(tmp, "scan.pdf")
+        pdf.write_bytes(scan)
+        cross = paddle(pdf)
+    why, ocr_pages, score, forced = "", [], {}, False
+    for forced in (False, True):
+        ocr_pages = ocr_tesseract_pages(scan, force_rotate=forced, psm=psm)
+        score = ocr_score("\n\n".join(ocr_pages), cross, vocab)
+        if score["words"] < OCR_MIN_WORDS:
+            why = f"tesseract read only {score['words']} words (needs {OCR_MIN_WORDS})"
+        elif score["agreement"] < OCR_MIN_AGREEMENT:
+            why = (f"the two OCR engines agree on only {score['agreement']:.0%} of the word sequence "
+                   f"(needs {OCR_MIN_AGREEMENT:.0%})")
+        elif score["figure_agreement"] < OCR_MIN_FIGURES:
+            why = (f"the two OCR engines agree on only {score['figure_agreement']:.0%} of the "
+                   f"{score['figures']} figures (needs {OCR_MIN_FIGURES:.0%}): the words agree but the numbers "
+                   f"(section numbers, dates, citations) are contested")
+        elif score["dict_ratio"] < OCR_MIN_DICT:
+            why = (f"only {score['dict_ratio']:.0%} of the words are in the corpus's non-OCR dictionary "
+                   f"(needs {OCR_MIN_DICT:.0%})")
+        else:
+            why = ""
+            break
+    if why:
+        raise ValueError(f"{src['id']}: OCR is not promotable: {why}")
+    if pages:
+        text = _compose(raw, pages, ocr_pages)
+    else:
+        text = re.sub(r"\n{3,}", "\n\n", "\n\n".join(ocr_pages)).strip("\n") + "\n"
+    check_identity(src, text, "pdf")
+    contested = ocr_disagreements("\n\n".join(ocr_pages), cross)
+    report = dict({k: (round(v, 4) if isinstance(v, float) else v) for k, v in score.items()},
+                  engines=list(OCR_ENGINES), forced_rotation=forced, psm=psm, disagreements=contested,
+                  tools={"tesseract": _tool_version(["tesseract", "--version"]),
+                         "ocrmypdf": _tool_version(["ocrmypdf", "--version"])},
+                  pdf_sha256=hashlib.sha256(raw).hexdigest(),
+                  text_sha256=hashlib.sha256(text.encode("utf-8")).hexdigest(),
+                  paddle_sha256=hashlib.sha256(cross.encode("utf-8")).hexdigest())
+    if pages:
+        report.update(pages=pages, ocr_page_texts=ocr_pages)
+    return text, dict(report, paddle_text=cross)
+
+
+def _page_list(pages: list) -> str:
+    return ", ".join(str(n) for n in pages)
+
+
+def ocr_notes(report: dict) -> str:
+    """`conversion_notes` for text read by OCR: wording of the reference implementation (oregon-kpm)."""
+    glued = (f"; {report['glued']} heading/letterhead token(s) lost their word spacing and are left as-is "
+             f"rather than reconstructed" if report.get("glued") else "")
+    pages = report.get("pages")
+    head = (f"Pages {_page_list(pages)} of the PDF have no text layer (they are scans) and their text was "
+            f"recovered by OCR; the other pages' text is the text layer, extracted with pdftotext -layout "
+            f"(trailing spaces and form feeds removed, ligature glyphs written as their letters)."
+            if pages else "no text layer in the source PDF; text recovered by OCR.")
+    return (f"{head} Two independent engines "
+            f"({' + '.join(report['engines'])}) agree on {report['agreement']:.0%} of the word sequence and "
+            f"{report['figure_agreement']:.0%} of the {report['figures']} figures"
+            f"{' of the scanned pages' if pages else ''}, "
+            f"{report['dict_ratio']:.0%} dictionary-recognizable{glued}.{_contested(report)} "
+            f"Reading order of labelled or two-column layouts, bullet glyphs (read as 'e' or 'o'), letterhead logos, handwriting "
+            f"and signatures are not reliably read or placed; the glyphs read from a signature field are "
+            f"not committed. effective_date and source_version are "
+            f"left empty: a date read from a scan is not transcribed from the source. {OCR_CAVEAT}")
+
+
+def _contested(report: dict) -> str:
+    """Where the committed reading is contested: the count, every figure the engines read differently
+    (up to 12) and where the rest are."""
+    found = report.get("disagreements")
+    if found is None:
+        return ""
+    figures = [d for d in found if any(t[0].isdigit() or t[0] == "$" for t in (d["tesseract"] + " " + d["paddle"]).split())]
+    shown = "; ".join(f"tesseract read {d['tesseract'] or 'nothing'} where paddle read {d['paddle'] or 'nothing'} "
+                      f"(after \"{' '.join(d['before'])}\")" for d in figures[:12])
+    more = f" and {len(figures) - 12} more" if len(figures) > 12 else ""
+    return (f" {len(found)} position(s) where the two engines read a different word or figure are listed in the "
+            f"scan's ocr.json report (disagreements): the committed reading is tesseract's and is contested "
+            f"there." + (f" Figures read differently: {shown}{more}." if figures else
+                         " The engines read every figure alike."))
+
+
+def _ocr_paths(config, sid: str) -> tuple[Path, Path, Path]:
+    d = config.snapshot_dir
+    return d / f"{sid}.txt", d / f"{sid}.paddle.txt", d / f"{sid}.ocr.json"
+
+
+def load_ocr_report(config, sid: str) -> dict | None:
+    _, _, side = _ocr_paths(config, sid)
+    return json.loads(side.read_text(encoding="utf-8")) if side.is_file() else None
+
+
+def write_ocr_snapshot(config, src: dict, raw: bytes, text: str, report: dict):
+    """Record the scan, its OCR text (the toolkit writes `<id>.pdf`, `<id>.txt`, both hashes and the drift
+    baseline), then the second engine's text and the report beside them."""
+    snap = record_snapshot(config, src["id"], raw, "pdf", text)
+    txt, paddle, side = _ocr_paths(config, src["id"])
+    if snap.fresh or not side.is_file():
+        txt.write_text(text, encoding="utf-8")
+        paddle.write_text(report["paddle_text"], encoding="utf-8")
+        side.write_text(json.dumps({k: v for k, v in report.items() if k != "paddle_text"},
+                                   indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return snap
+
+
+def _recheck(sid: str, committed: str, again: str, recorded: dict) -> list[str]:
+    """Compare tesseract's re-run on the snapshot with the committed reading. With the recorded tools
+    installed the word and figure sequences must be equal; with other versions the figures must still be
+    equal and the words agree at OCR_RECHECK (see the section note)."""
+    same_tools = (recorded.get("tesseract") == _tool_version(["tesseract", "--version"])
+                  and recorded.get("ocrmypdf") == _tool_version(["ocrmypdf", "--version"]))
+    words = lambda t: OCR_WORD.findall(t.lower())
+    figures = lambda t: OCR_FIGURE.findall(t.lower())
+    problems = []
+    if figures(committed) != figures(again):
+        problems.append(f"{sid}: the figures of the committed text are not the figures tesseract reads from the "
+                        f"snapshot PDF (committed {len(figures(committed))}, re-read {len(figures(again))}): "
+                        f"a number was edited or the text is not a reading of this PDF")
+    if same_tools:
+        if words(committed) != words(again):
+            ratio = difflib.SequenceMatcher(None, words(committed), words(again), autojunk=False).ratio()
+            problems.append(f"{sid}: with the recorded tools installed, tesseract re-reading the snapshot PDF gives a "
+                            f"different word sequence from the committed text (agreement {ratio:.4f}, needs exact): "
+                            f"the words were edited, or the text is not a reading of this PDF")
+    else:
+        ratio = difflib.SequenceMatcher(None, words(committed), words(again), autojunk=False).ratio()
+        if ratio < OCR_RECHECK:
+            problems.append(f"{sid}: the installed tesseract/ocrmypdf are not the recorded ones; its re-reading of the "
+                            f"snapshot PDF agrees with the committed words on only {ratio:.3f} (needs "
+                            f"{OCR_RECHECK}): re-ingest this scan to renew the record, or the text is not a reading "
+                            f"of this PDF")
+    return problems
+
+
+def check_ocr(src: dict, raw: bytes, config) -> tuple[str | None, list[str]]:
+    """Offline re-derivation of a scan's document text: (committed text, problems). See the section note."""
+    sid = src["id"]
+    txt, paddle, side = _ocr_paths(config, sid)
+    report = load_ocr_report(config, sid)
+    if report is None or not txt.is_file() or not paddle.is_file():
+        return None, [f"{sid}: OCR record missing ({sid}.ocr.json, {sid}.txt and {sid}.paddle.txt are all required)"]
+    text, cross = txt.read_text(encoding="utf-8"), paddle.read_text(encoding="utf-8")
+    sha = lambda t: hashlib.sha256(t.encode("utf-8")).hexdigest()
+    problems = []
+    if report["pdf_sha256"] != hashlib.sha256(raw).hexdigest():
+        problems.append(f"{sid}: the snapshot PDF's sha256 is not the one the OCR report was made from")
+    if report["text_sha256"] != sha(text):
+        problems.append(f"{sid}: {sid}.txt differs from the OCR text recorded in {sid}.ocr.json (text_sha256)")
+    if report["paddle_sha256"] != sha(cross):
+        problems.append(f"{sid}: {sid}.paddle.txt (second engine) differs from the text recorded in {sid}.ocr.json")
+    pages = report.get("pages")
+    ocr_text = "\n\n".join(report["ocr_page_texts"]) if pages else text
+    if pages:
+        try:
+            if _compose(raw, pages, report["ocr_page_texts"]) != text:
+                problems.append(f"{sid}: {sid}.txt is not the text layer of the snapshot PDF's other pages (pdftotext) "
+                                f"with the recorded OCR reading of pages {_page_list(pages)}")
+        except (subprocess.CalledProcessError, FileNotFoundError) as e:
+            problems.append(f"{sid}: cannot read the snapshot PDF's text layer with pdftotext: {e}")
+    score = ocr_score(ocr_text, cross, set())
+    if score["agreement"] < OCR_MIN_AGREEMENT or abs(score["agreement"] - report["agreement"]) > 0.005:
+        problems.append(f"{sid}: tesseract text and paddle text agree on {score['agreement']:.3f}, the report "
+                        f"says {report['agreement']:.3f} (bar {OCR_MIN_AGREEMENT})")
+    if score["figure_agreement"] < OCR_MIN_FIGURES:
+        problems.append(f"{sid}: the two engines agree on only {score['figure_agreement']:.3f} of the figures "
+                        f"(bar {OCR_MIN_FIGURES})")
+    if report["dict_ratio"] < OCR_MIN_DICT or score["words"] < OCR_MIN_WORDS:
+        problems.append(f"{sid}: the recorded OCR quality is below the gate")
+    try:
+        scan = _subset_pdf(raw, pages) if pages else raw
+        again = ocr_tesseract(scan, force_rotate=report.get("forced_rotation", False), psm=report.get("psm"))
+        problems += _recheck(sid, ocr_text, again, report.get("tools") or {})
+    except ValueError as e:
+        problems.append(f"{sid}: cannot re-run tesseract on the snapshot: {e}")
+    try:
+        check_identity(src, text, "pdf")
+    except ValueError as e:
+        problems.append(str(e))
+    return text, problems
+
+
+def with_ocr(src: dict, config) -> dict:
+    """The seed entry with its OCR report attached (`_ocr`) when it is a scan read by OCR."""
+    report = load_ocr_report(config, src["id"]) if src.get("ocr") else None
+    return dict(src, _ocr=report) if report else src
+
+
 def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
-            slice_: dict | None = None) -> str:
+            slice_: dict | None = None, host: str = "", no_text_pages=()) -> str:
     """Bytes to the text committed as `<id>.txt` and hashed. A source this corpus has no
     cleanup for is refused: a generic tag-strip would commit navigation as law."""
     if fmt == "pdf":
-        return pdf_to_text(raw)
+        return pdf_to_text(raw, no_text_pages)
+    if fmt == "docx":
+        return docx_to_text(raw)
     if fmt == "json" and doc_type == "statute" and jurisdiction == "california":
         return ca_bundle_to_text(raw)
     if fmt == "html" and doc_type == "rule" and jurisdiction == "california":
         return sos_html_to_text(raw)
+    if fmt == "html" and doc_type in ("policy", "standard") and jurisdiction == "california" \
+            and host == "www.cdt.ca.gov":
+        return cdt_html_to_text(raw)
     if fmt == "html" and doc_type == "policy" and jurisdiction == "california":
         return sam_html_to_text(raw)
     if fmt == "html" and doc_type == "executive_order" and jurisdiction == "california":
         return archive_eo_html_to_text(raw)
+    if fmt == "html" and doc_type in ("policy", "standard") and jurisdiction == "colorado" \
+            and host == "oit.colorado.gov":
+        return oit_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "washington":
         return rcw_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "colorado":
@@ -686,15 +1401,20 @@ _US_DATE = re.compile(r"\b(\d{1,2})[/-](\d{1,2})[/-](\d{4})\b")   # 1/1/2010 or 
 _EFFECTIVE_LABEL = re.compile(r"effective\s+date|\beffective\s*:", flags=re.I)
 
 
-def effective_date(text: str, doc_type: str = "") -> str | None:
+def effective_date(text: str, doc_type: str = "", jurisdiction: str = "") -> str | None:
     """An ISO date, only when the source labels it `EFFECTIVE DATE` or `Effective:` and prints
     it with a month name or a four-digit year (slashes or hyphens). `09-08-08` is not guessed
     at; a memo's `Date:` is not an effective date; "effective immediately" is prose, not a
     label. The first date within 200 characters after the first label is taken. A statute never
     gets one: a chapter is many sections, and the "Effective date" notes printed under them
-    (RCW) belong to the amending acts, not to the document."""
+    (RCW) belong to the amending acts, not to the document. California letters and orders
+    carry no such label, and the date their header prints comes first: see `_ca_dates`."""
     if doc_type == "statute":
         return None
+    if jurisdiction == "california" and (printed := _ca_dates(text, doc_type)[0]):
+        return printed
+    if jurisdiction == "colorado":
+        return _co_effective_date(text, doc_type)
     m = _EFFECTIVE_LABEL.search(text)
     if not m:
         return None
@@ -715,13 +1435,140 @@ def effective_date(text: str, doc_type: str = "") -> str | None:
     return f"{y:04d}-{mon:02d}-{d:02d}"
 
 
-def source_version(text: str, doc_type: str) -> str:
-    """ORS pages print their edition ("2025 EDITION"); nothing else here prints a version."""
+# Colorado. A Code of Colorado Regulations PDF ends with `Editor's Notes / History` lines such as `New rule eff.
+# 04/14/2024.` and `Entire rule eff. 06/30/2025.`: the rule in force is the one the last `eff.` line dates
+# (a `repealed eff.` line is a repeal, which `check_identity` refuses). An OIT policy PDF prints a
+# `Effective Date: Nov. 30, 2018` label (month abbreviated, with a full stop) or, when it prints none, an
+# `Updated: Feb 23, 2026` or `Published January 2020` line, which is a source_version (a month or a
+# revision stamp, not an effective date).
+_CO_EFF = re.compile(r"^(?!.*repealed).*\beff\.\s+(\d{2})/(\d{2})/(\d{4})", flags=re.M | re.I)
+_CO_LABEL = re.compile(r"Effective\s+Date:\s*([A-Za-z]{3,9})\.?\s+(\d{1,2}),\s+(\d{4})")
+_CO_STAMP = re.compile(rf"^\s*((?:Updated:\s*[A-Za-z]{{3,9}}\.?\s+\d{{1,2}},\s+\d{{4}})"
+                       rf"|(?:Published\s+(?:{_MONTHS})\s+\d{{4}}))", flags=re.M)
+
+
+_CO_HEAD = 2500   # OIT's instrument PDFs print their header table at the top
+_CO_ROW_DATE = re.compile(r"^[ \t]*Effective Date[ \t]{2,}(\d{1,2})[/-](\d{1,2})[/-](\d{4})[ \t]*$", flags=re.M)
+_CO_ROW_VERSION = re.compile(r"^[ \t]*Version[ \t]{2,}(\S.*?)[ \t]*$", flags=re.M)
+_CO_ROW_UPDATED = re.compile(r"^[ \t]*Last Updated[ \t]{2,}(\d{1,2}[/-]\d{1,2}[/-]\d{4})[ \t]*$", flags=re.M)
+
+
+def _co_effective_date(text: str, doc_type: str) -> str | None:
+    if doc_type == "rule":
+        history = text[text.rfind("History"):] if "History" in text else ""
+        hits = _CO_EFF.findall(history)
+        if not hits:
+            return None
+        mon, day, year = hits[-1]
+        return f"{year}-{mon}-{day}" if 1 <= int(mon) <= 12 and 1 <= int(day) <= 31 else None
+    row = _CO_ROW_DATE.search(text[:_CO_HEAD])
+    if row:         # the header table of a TS-/CISP-/POL- PDF: 'Effective Date   11/19/2015' (or 07-01-2026)
+        mon, day, year = row.groups()
+        return f"{year}-{int(mon):02d}-{int(day):02d}" if 1 <= int(mon) <= 12 and 1 <= int(day) <= 31 else None
+    m = _CO_LABEL.search(text)
+    if not m:
+        return None
+    months = [x[:3].casefold() for x in _MONTHS.split("|")]
+    if m.group(1)[:3].casefold() not in months or not 1 <= int(m.group(2)) <= 31:
+        return None
+    return f"{int(m.group(3)):04d}-{months.index(m.group(1)[:3].casefold()) + 1:02d}-{int(m.group(2)):02d}"
+
+
+# What California letters and orders print instead of an effective date (read from the text as
+# `derive` makes it): an ITPL or letter PDF prints `DATE ISSUED:` with a date (a day, or only a
+# month and year) a few lines on, in its second column; a Technology Letter web page prints its
+# month and year as line 2; a SIMM page's heading says `Revised May 2023`; a SIMM PDF's cover prints its month under the title; an executive order
+# prints `this 30th day of March 2026` where the Governor signs. A day is an effective_date; a
+# month alone is a source_version, never a day made up.
+_CA_ISSUED = re.compile(r"DATE\s+ISSUED:", flags=re.I)
+_CA_WIN = 150
+_CA_FULL = re.compile(rf"\b({_MONTHS})\s+(\d{{1,2}}),\s+(\d{{4}})\b", flags=re.I)
+_CA_MONTH = re.compile(rf"\b({_MONTHS})\s+(\d{{4}})\b", flags=re.I)
+_CA_SIGNED = re.compile(rf"\bthis\s+(\d{{1,2}})(?:st|nd|rd|th)\s+day\s+of\s+({_MONTHS})\s+(\d{{4}})\b")
+_CA_REVISED = re.compile(rf"\b((?:Revised|Updated)\s+(?:{_MONTHS})\s+\d{{4}})\s*$")
+
+
+def _iso(month: str, day: str, year: str) -> str | None:
+    mon = [m.casefold() for m in _MONTHS.split("|")].index(month.casefold()) + 1
+    return f"{int(year):04d}-{mon:02d}-{int(day):02d}" if 1 <= int(day) <= 31 else None
+
+
+def _ca_dates(text: str, doc_type: str) -> tuple[str | None, str]:
+    """(effective_date, source_version) as a California letter, page or order prints them."""
+    if doc_type == "executive_order":
+        m = _CA_SIGNED.search(" ".join(text.split()))
+        return (_iso(m.group(2), m.group(1), m.group(3)) if m else None), ""
+    lines = text.splitlines()
+    m = _CA_ISSUED.search(text)
+    if m:
+        window = " ".join(text[m.end():m.end() + 4 * _CA_WIN].split())[:_CA_WIN]
+        full, month = _CA_FULL.search(window), _CA_MONTH.search(window)
+        if full and (not month or full.start() <= month.start()):
+            return _iso(full.group(1), full.group(2), full.group(3)), ""
+        if month:
+            return None, f"{month.group(1).title()} {month.group(2)}"
+    if len(lines) > 1 and re.fullmatch(rf"({_MONTHS}) \d{{4}}", lines[1].strip()):
+        return None, lines[1].strip()
+    if lines and (m := _CA_REVISED.search(lines[0])):
+        return None, m.group(1)
+    head = [l.strip() for l in lines if l.strip()][:15]
+    if head and head[0].startswith("State of California"):      # a SIMM section's cover page
+        m = re.search(rf"\b((?:Revised\s+|Updated\s+)?(?:{_MONTHS})\s+\d{{4}})\b", " ".join(head))
+        if m:
+            return None, m.group(1)
+    return None, ""
+
+
+_DATED = re.compile(rf"^Dated\s+((?:{_MONTHS})\s+\d{{1,2}},\s+\d{{4}})\s*$", flags=re.M)
+_LAST_REVIEW = re.compile(rf"^Last Review Date \| ((?:{_MONTHS})\s+\d{{4}})\s*$", flags=re.M)
+_REVISION_ROW = re.compile(rf"^([^|\n]+?) \| ((?:{_MONTHS})\s+(?:\d{{1,2}},\s+)?\d{{4}})(?: \|.*)?$")
+
+
+def _printed_version(text: str) -> str:
+    """The date a Word file prints about itself where it prints no effective date: a front-table
+    `Last Review Date | July 2024` row, a cover line `Dated April 1, 2025`, or the last row of a
+    `Revision History` table headed `Version | Date`. Transcribed as printed; empty when none is."""
+    if m := _LAST_REVIEW.search(text):
+        return f"Last Review Date: {m.group(1)}"
+    if m := _DATED.search(text):
+        return f"Dated {m.group(1)}"
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        if line.strip().casefold() == "revision history":
+            head = next((n for n in range(i + 1, min(i + 4, len(lines))) if lines[n].strip()), None)
+            if head is None or not re.match(r"Version \| Date\b", lines[head]):
+                continue
+            rows = []
+            for row in lines[head + 1:]:
+                if not row.strip():
+                    break
+                if m := _REVISION_ROW.match(row):
+                    rows.append(m.groups())
+            if rows:
+                return f"Version {rows[-1][0].strip()}, {rows[-1][1]}"
+    return ""
+
+
+def source_version(text: str, doc_type: str, jurisdiction: str = "", fmt: str = "") -> str:
+    """ORS pages print their edition ("2025 EDITION"); California letters and pages print a
+    month (see `_ca_dates`); Colorado policies a stamp; a Word file may print a review date, a cover
+    date or a revision history (`_printed_version`, only when `fmt` is "docx": a web page's or PDF's revision
+    table is not read as its version); nothing else here prints a version."""
     if doc_type == "statute":
         m = re.search(r"^(\d{4}) EDITION$", text, flags=re.M)
         if m:
             return f"{m.group(1)} Edition"
-    return ""
+    if jurisdiction == "california":
+        return _ca_dates(text, doc_type)[1] or (_printed_version(text) if fmt == "docx" else "")
+    if jurisdiction == "colorado" and doc_type in ("policy", "standard"):
+        m = _CO_STAMP.search(text)
+        if m:
+            return " ".join(m.group(1).split())
+        head = text[:_CO_HEAD]
+        ver, upd = _CO_ROW_VERSION.search(head), _CO_ROW_UPDATED.search(head)
+        if ver:
+            return ver.group(1) + (f", last updated {upd.group(1)}" if upd else "")
+    return _printed_version(text) if fmt == "docx" else ""
 
 
 _POLICY_NUMBER = re.compile(r"(?<!\d)\d{3}-\d{3}-\d{3}(?!\d)")   # 107-004-190, also before _PR
@@ -733,13 +1580,22 @@ def _squash(s: str) -> str:
     return " ".join(s.split()).casefold()
 
 
-def check_identity(src: dict, text: str) -> None:
+def check_identity(src: dict, text: str, fmt: str | None = None) -> None:
     """The fetched bytes must be the instrument the seed entry cites, or nothing is written.
     A statute page opens with its chapter, a rule page carries the division title, and a
     policy or standard PDF carries the seed entry's `identity_text` (a phrase the document
     prints, for when its printed title differs from the seed title), else the citation's policy
-    number (107-004-190 for 107-004-190_PR), else, when the citation has none, the seed title."""
-    if src["doc_type"] == "policy" and src["jurisdiction"] == "california":
+    number (107-004-190 for 107-004-190_PR), else, when the citation has none, the seed title.
+    The Department of Technology's pages and PDFs and the Governor's orders are checked by where
+    the document prints its own identity (see `_check_cdt_identity`), not by a phrase anywhere in the
+    text, which another document that cites it would also carry. `fmt` words the refusal ("PDF" or
+    "page"); it defaults to the seed entry's declared format."""
+    fmt = fmt or src.get("format") or "html"
+    what_is = {"pdf": "PDF", "docx": "Word file"}.get(fmt, "page")
+    if _is_cdt(src) and src["doc_type"] in ("policy", "standard"):
+        return _check_cdt_identity(src, text, what_is)
+    if src["doc_type"] == "policy" and src["jurisdiction"] == "california" \
+            and src["citation"].startswith("SAM chapter"):
         chapter = re.fullmatch(r"SAM chapter (\d+)", src["citation"])
         if not chapter or not text.startswith(f"Chapter {chapter.group(1)} - Chapter-View\n"):
             raise ValueError(f"{src['id']}: page is not the cited instrument: "
@@ -751,6 +1607,10 @@ def check_identity(src: dict, text: str) -> None:
             raise ValueError(f"{src['id']}: seed title {src['title']!r} is not "
                              f"{prefix!r} followed by the chapter's title in the manual's contents page")
         return
+    if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
+        return _check_co_rule_identity(src, text, what_is)
+    if src["jurisdiction"] == "colorado" and src["doc_type"] in ("policy", "standard"):
+        return _check_co_policy_identity(src, text, what_is)
     if src["doc_type"] in ("policy", "standard"):
         number = _POLICY_NUMBER.search(src["citation"])
         if src.get("identity_text"):
@@ -763,7 +1623,7 @@ def check_identity(src: dict, text: str) -> None:
             what = repr(src["title"])
             found = _squash(src["title"]) in _squash(text)
         if not found:
-            raise ValueError(f"{src['id']}: PDF is not the cited instrument: {what} "
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {what} "
                              f"does not appear in its text")
     if src["doc_type"] == "rule" and src["jurisdiction"] == "california":
         cite = re.fullmatch(r"Cal\. Code Regs\., tit\. (\d+), div\. (\d+), ch\. ([\d.]+)", src["citation"])
@@ -779,9 +1639,26 @@ def check_identity(src: dict, text: str) -> None:
         raise ValueError(f"{src['id']}: page does not carry the seed title {src['title']!r}")
     if src["doc_type"] == "executive_order" and src["jurisdiction"] == "california":
         cite = re.fullmatch(r"Executive Order ([A-Z]-\d{1,2}-\d{2})", src["citation"])
-        if not cite or text.splitlines()[:1] != [f"EXECUTIVE ORDER {cite.group(1)}"]:
-            raise ValueError(f"{src['id']}: page is not the cited instrument: {src['citation']!r} "
-                             f"does not match the order's heading line")
+        # the order prints its heading on a line of its own after the "EXECUTIVE DEPARTMENT / STATE OF
+        # CALIFORNIA" letterhead (which pdftotext sometimes splits into odd words) and before the first
+        # WHEREAS; a page prints it as its first line. A letter that cites the order has no WHEREAS.
+        lines = [_squash(l) for l in text.splitlines() if l.strip()]
+        first = next((i for i, l in enumerate(lines) if l.startswith("whereas")), None)
+        head = lines[:first] if first is not None else []
+        if not cite or f"executive order {cite.group(1).casefold()}" not in head[:8]:
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {src['citation']!r} "
+                             f"does not match the order's heading line (the line after the letterhead, before "
+                             f"the first WHEREAS)")
+        return
+    if src["doc_type"] == "executive_order" and src["jurisdiction"] == "oregon":
+        # the Governor's order prints its heading as the first line of its own, "EXECUTIVE ORDER NO. 23-26"
+        # (a scan may read it with its spacing and punctuation slightly off); an order that cites it
+        # further down is not it
+        number = re.search(r"\d{2,4}-\d{2}", src["citation"])
+        head = [_squash(l) for l in text.splitlines() if l.strip()][:8]
+        if not number or not any(re.fullmatch(rf"executive order (?:no[.,]? ?)?{number.group(0)}", l) for l in head):
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: "
+                             f"{src['citation']!r} is not the order's heading line (its first lines)")
         return
     if src["doc_type"] == "executive_order":
         number = re.search(r"\d{2,4}-\d{2}", src["citation"])
@@ -824,6 +1701,105 @@ def check_identity(src: dict, text: str) -> None:
             raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
 
 
+def _check_co_rule_identity(src: dict, text: str, what_is: str) -> None:
+    """A Code of Colorado Regulations PDF prints the department, the agency, the rule's title and its
+    number (`8 CCR 1501-9`) on its cover, before the first rule. The cover must carry the cited number
+    on a line of its own and the seed title (whitespace and case do not matter: the cover wraps and
+    capitalises it), and must not be a repeal notice: the Secretary of State keeps a repealed rule's
+    number, with a one-page PDF whose cover says `REPEALED EFF.`, as its current version."""
+    cover = [" ".join(l.split()) for l in text.splitlines() if l.strip()][:30]
+    head = _squash(" ".join(cover))
+    if (not re.fullmatch(r"\d+ CCR \d+-\d+", src["citation"]) or src["citation"] not in cover
+            or _squash(src["title"]) not in head):
+        raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {src['citation']!r} and "
+                         f"{src['title']!r} are not both on the rule's cover")
+    if re.search(r"repealed eff\.", head):
+        raise ValueError(f"{src['id']}: {src['citation']} is repealed (its cover says so): not in force")
+
+
+_OIT = re.compile(r"\bOIT\b|Office of Information Technology")
+
+
+def _check_co_policy_identity(src: dict, text: str, what_is: str) -> None:
+    """An OIT policy PDF prints its own title in its head (the first 1,500 characters), which a document
+    that only cites the policy further down does not, and names OIT (or the Office of Information
+    Technology) somewhere: the files are found through OIT's page, so the file must say whose it is."""
+    phrase = src.get("identity_text") or src["title"]
+    if _squash(phrase) not in _squash(text[:1500]):
+        raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {phrase!r} "
+                         f"is not in the first 1,500 characters of its text")
+    if not _OIT.search(text):
+        raise ValueError(f"{src['id']}: {what_is} never names OIT or the Office of Information Technology: "
+                         f"not shown to be OIT's")
+    if src.get("document_id"):
+        # An OIT instrument PDF opens with a header table: Document ID, Title, Issuing Authority, Version.
+        head = text[:_CO_HEAD]
+        ident = re.search(r"^[ \t]*Document ID[ \t]+(\S+)[ \t]*$", head, flags=re.M)
+        if not ident or ident.group(1) != src["document_id"]:
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: its header prints Document ID "
+                             f"{ident.group(1) if ident else None!r}, the seed entry cites {src['document_id']!r}")
+        issuer = re.search(r"^[ \t]*Issuing Authority[ \t]+(\S.*)$", head, flags=re.M)
+        if not issuer or not _OIT.search(issuer.group(1)):
+            raise ValueError(f"{src['id']}: {what_is} has no Issuing Authority line naming OIT in its header "
+                             f"(it prints {issuer.group(1) if issuer else None!r})")
+        ver = _CO_ROW_VERSION.search(head)
+        if ver and re.search(r"draft", ver.group(1), flags=re.I):
+            raise ValueError(f"{src['id']}: {what_is} prints its version as {ver.group(1)!r}: a Draft is not "
+                             f"shown to be in force")
+        # A header table that calls the file a draft on its Last Updated row says the same (TS-DBS-001).
+        upd = re.search(r"^[ \t]*Last Updated[ \t]{2,}(\S.*?)[ \t]*$", head, flags=re.M)
+        if upd and re.search(r"draft", upd.group(1), flags=re.I):
+            raise ValueError(f"{src['id']}: {what_is} prints its Last Updated row as {upd.group(1)!r}: a Draft "
+                             f"is not shown to be in force")
+
+
+def _is_cdt(src: dict) -> bool:
+    return src["jurisdiction"] == "california" \
+        and urllib.parse.urlsplit(src.get("url") or "").hostname == "www.cdt.ca.gov"
+
+
+_COVER_NUMBER = re.compile(r"(?:statewide information management manual|\bsimm)\s*[\u2013-]?\s*(?:section\s+)?"
+                           r"(\d+[a-z]?(?:-[a-z])?)(?![\w.-])", flags=re.I)
+_CITED_NUMBER = re.compile(r"SIMM (\d+[A-Z]?(?:-[A-Z])?)(?![\w-])(?: Appendix ([A-Z]))?")   # 'SIMM 45 Appendix F' is section 45F
+_LETTER = re.compile(r"^(TL|ITPL) ", flags=re.I)
+
+
+def _check_cdt_identity(src: dict, text: str, what_is: str) -> None:
+    """A Department of Technology document is the cited one when it prints the identity where its
+    own heading is: a web page's first line (the h1) starts with the citation or `identity_text`
+    and goes no further into a longer number (SIMM 40 is not the page headed SIMM 40A); a letter
+    PDF (TL, ITPL) carries `identity_text` in its header block, before its SUBJECT and REFERENCES
+    (a letter that cites another prints that number in its references); any other PDF or Word file (a SIMM
+    section) carries `identity_text` or the seed title on its cover, the first 15 lines, and, when
+    the cover prints a SIMM section number (`Statewide Information Management Manual - Section 19F`),
+    it is the citation's (SIMM 19E.1 is section 19E)."""
+    key = src.get("identity_text")
+    fmt_pdf = what_is in ("PDF", "Word file")      # a Word file has a cover, as a PDF does
+    lines = [l for l in text.splitlines() if l.strip()]
+
+    def refuse(want: str):
+        raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {want}")
+
+    if not fmt_pdf:
+        want = key or src["citation"]
+        first = _squash(lines[0]) if lines else ""
+        if not re.match(re.escape(_squash(want)) + r"(?![\w.-])", first):
+            refuse(f"{want!r} is not what the page's first line starts with")
+        return
+    if what_is == "PDF" and _LETTER.match(src["citation"]) and key:
+        header = re.split(r"SUBJECT:|REFERENCES:", " ".join(lines[:12]), maxsplit=1, flags=re.I)[0]
+        if not re.search(r"(?<![\w-])" + re.escape(_squash(key)) + r"(?![\w-])", _squash(header)):
+            refuse(f"{key!r} is not in the letter's header block (before SUBJECT and REFERENCES)")
+        return
+    want = key or src["title"]
+    cover = " ".join(lines[:15])
+    if _squash(want) not in _squash(cover):
+        refuse(f"{want!r} is not on the cover (the first 15 lines)")
+    printed, cited = _COVER_NUMBER.search(cover), _CITED_NUMBER.match(src["citation"])
+    if printed and cited and printed.group(1).casefold() != (cited.group(1) + (cited.group(2) or "")).casefold():
+        refuse(f"the cover prints SIMM section {printed.group(1)}, the citation is {src['citation']!r}")
+
+
 # ---- the document -----------------------------------------------------------------------
 
 def doc_path(src: dict, config=CONFIG) -> Path:
@@ -834,10 +1810,64 @@ def doc_path(src: dict, config=CONFIG) -> Path:
 
 
 def conversion_notes(src: dict, fmt: str, text: str) -> str:
+    notes = _conversion_notes(src, fmt, text)
+    if src.get("_ocr"):
+        return notes
+    if src.get("oit_link"):
+        notes += (f" OIT's page ({src.get('found_via', 'its index')}), where the list item reads "
+                  f"{src.get('listed_as', 'its title')!r}, links this file as {src['oit_link']}; the text "
+                  f"was fetched from Google Drive's direct-download form of the same file, {src['url']} (the source URL above).")
+    if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
+        notes += (" The PDF is the copy the Secretary of State's page calls the official version of the rule "
+                  "(it governs in all cases). Its cover's Secretary of State mark prints as a few scattered "
+                  "letter fragments before the heading, kept as extracted. effective_date is the date of the "
+                  "last `eff.` line of the rule's Editor's Notes History.")
+    if src["jurisdiction"] == "california":
+        if src["doc_type"] == "executive_order" and effective_date(text, src["doc_type"], "california"):
+            notes += (" effective_date is the date the Governor signed the order, as its closing paragraph "
+                      "prints it (this Nth day of Month Year); the order prints no other date.")
+        elif effective_date(text, src["doc_type"], "california"):
+            notes += " effective_date is the date the letter prints as issued (DATE ISSUED)."
+        if source_version(text, src["doc_type"], "california", fmt):
+            notes += (" source_version is the month, or the revision month, the document prints "
+                      "(a month with no day is not made into a date).")
+    if fmt == "docx" and _printed_version(text) and source_version(text, src["doc_type"], src["jurisdiction"], fmt) == _printed_version(text):
+        notes += (" source_version is the date the Word file prints about itself, as printed (a review date, a "
+                  "cover date or the last row of its revision history); it prints no effective date.")
+    return notes
+
+
+def _conversion_notes(src: dict, fmt: str, text: str) -> str:
+    if src.get("_ocr"):
+        return ocr_notes(src["_ocr"])
+    if fmt == "docx":
+        return ("Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted "
+                "and the result rendered one line per paragraph, heading, list item and table row (a table "
+                "row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets "
+                "as a bullet character; footnotes follow the text as [n]). Running headers and footers, "
+                "pictures and the text inside text boxes (such as a cover-page title) are not read. Headings "
+                "carry no markup.")
     if fmt == "pdf":
+        pages = sorted(set(src.get("no_text_pages") or ()))
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
                 "kept as extracted; form feeds and trailing spaces removed; ligature glyphs such "
-                "as fi and fl written as their letters).")
+                "as fi and fl written as their letters)."
+                + (f" Pages {', '.join(str(n) for n in pages)} of the PDF have no text layer "
+                   f"(figures, blank pages or scanned forms) and add no text here." if pages else ""))
+    if fmt == "html" and src["jurisdiction"] == "california" \
+            and urllib.parse.urlsplit(src.get("url") or "").hostname == "www.cdt.ca.gov":
+        return ("Text taken from the California Department of Technology's web page for the instrument: "
+                "from the page heading to the end of the page's content, one line per paragraph, heading, "
+                "list item and table row (a table row's cells are joined by ' | '), with markup, the site "
+                "menu, the side navigation, the page's contents list ('On this page'), the print button, "
+                "scripts, the footer and non-breaking spaces removed.")
+    if fmt == "html" and src["jurisdiction"] == "colorado" \
+            and urllib.parse.urlsplit(src.get("url") or "").hostname == "oit.colorado.gov":
+        return ("Text taken from the Office of Information Technology's web page: the page heading, then the "
+                "page body, one line per paragraph, heading and list item (list items marked with a bullet, "
+                "nested lists indented), with markup, the site menu, breadcrumb, side navigation of the "
+                "neighbouring guide pages, language selector, footer and scripts removed. The page prints no "
+                "document number, version or effective date.")
     if src["doc_type"] == "rule" and src["jurisdiction"] == "california":
         return ("Text taken from the Secretary of State's page for the chapter of the California Code of "
                 "Regulations: the title, division and chapter headings, the chapter's contents list and each "
@@ -884,10 +1914,21 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
             "removed. One line per source line; a blank line before each rule number.")
 
 
+def _ocr_warning(report: dict) -> str:
+    pages = report.get("pages")
+    what = (f"Pages {_page_list(pages)} of the source PDF are images with no text layer; their text below"
+            if pages else "The source PDF has no text layer: it is an image. The full text below")
+    return (f"> **MACHINE READING OF A SCAN.** {what} was read from the image by OCR (two engines, see the "
+            f"curator notes) and is not the document's own text. Expect character-level errors in words and "
+            f"figures, and treat every number as unchecked against the source. `source_sha256` hashes this "
+            f"transcription; the scan is the snapshot.\n\n")
+
+
 def body_for(src: dict, text: str, notes: str, config=CONFIG) -> str:
     return (f"> **{config.disclaimer_marker}.** This is a convenience copy for machine reading. "
             f"The official text is published at the source URL above. Verify at source before "
-            f"relying on it.\n\n# {src['title']} ({src['citation']})\n\n"
+            f"relying on it.\n\n" + (_ocr_warning(src["_ocr"]) if src.get("_ocr") else "") +
+            f"# {src['title']} ({src['citation']})\n\n"
             f"## At a glance\n\n{src['why_relevant'].strip()}\n\n"
             f"## Full text\n\n{text.rstrip()}\n\n"
             f"## Curator notes\n\n{notes}\n")
@@ -905,33 +1946,31 @@ def derive(src: dict, raw: bytes) -> tuple[str, str]:
     text that is committed, shared by `ingest` and `--check`."""
     declared = src.get("format") or "html"
     fmt = sniff(raw, declared)                       # the bytes decide, the manifest is corrected
-    if fmt in UNSUPPORTED:
+    if fmt in UNSUPPORTED - {"docx"}:
         raise ValueError(f"{fmt} is not a format this corpus can read")
     if fmt != declared:
         print(f"  {src['id']}: manifest says {declared}, bytes say {fmt} -- correct the manifest")
-    text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"], src.get("slice"))
-    check_identity(src, text)
+    text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"], src.get("slice"),
+                   urllib.parse.urlsplit(src.get("url") or "").hostname or "",
+                   src.get("no_text_pages") or ())
+    check_identity(src, text, fmt)
     return fmt, text
 
 
-def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
-    sid = src["id"]
-    declared = src.get("format") or "html"
-    snap_path = config.snapshot_dir / f"{sid}.{declared}"
-    if src["doc_type"] == "statute" and src["jurisdiction"] == "california":
-        raw, fresh = ca_snapshot(src, fetcher, snap_path, refetch)
-    else:
-        raw, fresh = fetcher.snapshot(src["url"], snap_path, refetch=refetch)
-    try:
-        fmt, text = derive(src, raw)
-    except ValueError:
-        if fresh:                                    # leave no snapshot for a source we refuse
-            snap_path.unlink(missing_ok=True)
-        raise
-    snap = record_snapshot(config, sid, raw, fmt, text)
-    path = doc_path(src, config)
-    frontmatter = {
-        "id": sid,
+def doc_dates(src: dict, text: str) -> tuple[str | None, str]:
+    """(effective_date, source_version) the text prints. A scan read by OCR gets neither: a date
+    read from an image is a machine's reading of digits, not a transcription."""
+    if src.get("_ocr"):
+        return None, ""
+    return (effective_date(text, src["doc_type"], src["jurisdiction"]),
+            source_version(text, src["doc_type"], src["jurisdiction"], src.get("format") or ""))
+
+
+def frontmatter_for(src: dict, fmt: str, text: str, snap, path: Path, config=CONFIG) -> dict:
+    """The document's frontmatter: everything the seed entry, the snapshot and the text determine."""
+    eff, version = doc_dates(src, text)
+    fm = {
+        "id": src["id"],
         "jurisdiction": src["jurisdiction"],
         "title": src["title"],
         "doc_type": src["doc_type"],
@@ -942,8 +1981,8 @@ def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
         "source_format": fmt,
         "retrieved": retrieved_date(snap.fresh, path, snap.raw_path),
         "source_sha256": snap.sha256,
-        "effective_date": effective_date(text, src["doc_type"]),
-        "source_version": source_version(text, src["doc_type"]),
+        "effective_date": eff,
+        "source_version": version,
         "status": "current",
         "content_mode": "verbatim",
         "conversion_notes": conversion_notes(src, fmt, text),
@@ -952,7 +1991,54 @@ def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
                           "references_external": [], "related": [], "supersedes": []},
         "tags": list(src["tags"]),
     }
-    return write_document(config, path, frontmatter,
+    if src.get("_ocr"):
+        fm["text_source"] = "ocr"       # extra_document_fields in corpus.yml lets the server show it
+    return fm
+
+
+def write_ocr_document(src: dict, config=CONFIG, fresh: bool = True) -> Path:
+    """The document for a scan whose OCR snapshot is written (see `write_ocr_snapshot`)."""
+    src = with_ocr(src, config)
+    txt = config.snapshot_dir / f"{src['id']}.txt"
+    text = txt.read_text(encoding="utf-8")
+    path = doc_path(src, config)
+    raw_path = config.snapshot_dir / f"{src['id']}.pdf"
+    snap = type("Snap", (), {"fresh": fresh, "raw_path": raw_path,
+                             "sha256": hash_snapshot(src["id"], "pdf", config.snapshot_dir)})
+    notes = conversion_notes(src, "pdf", text)
+    return write_document(config, path, frontmatter_for(src, "pdf", text, snap, path, config),
+                          body_for(src, text, notes, config))
+
+
+def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
+    sid = src["id"]
+    declared = src.get("format") or "html"
+    snap_path = config.snapshot_dir / f"{sid}.{declared}"
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "california":
+        raw, fresh = ca_snapshot(src, fetcher, snap_path, refetch)
+    else:
+        raw, fresh = fetcher.snapshot(src["url"], snap_path, refetch=refetch)
+    if src.get("ocr"):
+        try:
+            prior = load_ocr_report(config, sid)
+            if not (prior and prior["pdf_sha256"] == hashlib.sha256(raw).hexdigest() and not refetch):
+                text, report = ocr_scan(src, raw, config)
+                snap = write_ocr_snapshot(config, src, raw, text, report)
+                return write_ocr_document(src, config, snap.fresh)
+        except ValueError:
+            if fresh:
+                snap_path.unlink(missing_ok=True)
+            raise
+        return write_ocr_document(src, config, False)
+    try:
+        fmt, text = derive(src, raw)
+    except ValueError:
+        if fresh:                                    # leave no snapshot for a source we refuse
+            snap_path.unlink(missing_ok=True)
+        raise
+    snap = record_snapshot(config, sid, raw, fmt, text)
+    path = doc_path(src, config)
+    return write_document(config, path, frontmatter_for(src, fmt, text, snap, path, config),
                           body_for(src, text, conversion_notes(src, fmt, text), config))
 
 
@@ -972,12 +2058,27 @@ def check(sources, config=CONFIG) -> list[str]:
         if raw_path is None:
             problems.append(f"{sid}: raw snapshot missing in {config.snapshot_dir.name}/")
             continue
-        try:
-            fmt, text = derive(src, raw_path.read_bytes())
-        except (ValueError, subprocess.CalledProcessError) as e:
-            problems.append(f"{sid}: cannot re-derive text from the snapshot: {e}")
-            continue
-        if not txt_path.is_file():
+        if src.get("ocr"):
+            fmt = "pdf"
+            text, ocr_problems = check_ocr(src, raw_path.read_bytes(), config)
+            problems += ocr_problems
+            if text is None:
+                continue
+            src = with_ocr(src, config)
+        else:
+            try:
+                fmt, text = derive(src, raw_path.read_bytes())
+            except (ValueError, subprocess.CalledProcessError) as e:
+                problems.append(f"{sid}: cannot re-derive text from the snapshot: {e}")
+                continue
+        if fmt == "docx" and txt_path.is_file() and same_words(txt_path.read_text(encoding="utf-8"), text):
+            # The committed text was made by the maintainer's pandoc; CI's is another release and may lay
+            # the same words out differently. The same words in the same order are current; any other
+            # difference is reported below. The document is then compared with the committed text.
+            text = txt_path.read_text(encoding="utf-8")
+        if src.get("_ocr"):
+            pass                                     # check_ocr compared the committed text already
+        elif not txt_path.is_file():
             problems.append(f"{sid}: {sid}.txt missing")
         elif txt_path.read_text(encoding="utf-8") != text:
             problems.append(f"{sid}: {sid}.txt differs from to_text(raw snapshot)")
@@ -989,9 +2090,10 @@ def check(sources, config=CONFIG) -> list[str]:
         if body.strip() != body_for(src, text, notes, config).strip():
             problems.append(f"{sid}: document body differs from what the ingester derives "
                             f"from the snapshot and seed entry")
-        for key, want in (("effective_date", effective_date(text, src["doc_type"])),
-                          ("source_version", source_version(text, src["doc_type"])),
-                          ("source_format", fmt), ("conversion_notes", notes)):
+        eff, version = doc_dates(src, text)
+        for key, want in (("effective_date", eff), ("source_version", version),
+                          ("source_format", fmt), ("conversion_notes", notes),
+                          *((("text_source", "ocr"),) if src.get("_ocr") else ())):
             if fm.get(key) != want:
                 problems.append(f"{sid}: document frontmatter {key} is {fm.get(key)!r}, "
                                 f"the ingester derives {want!r}")
@@ -1023,6 +2125,16 @@ def orphans(all_sources, config=CONFIG) -> list[str]:
                 problems.append(f"{md.relative_to(config.root)}: document has no ingestable seed "
                                 f"entry (removed, or marked stub or watch-only)")
     return problems
+
+
+def make_fetcher(config, cls=Fetcher):
+    """The Fetcher, with the toolkit's curl transport (ADR-0018) when the pinned toolkit has it.
+    cdt.ca.gov and gov.ca.gov challenge the Python client and answer system curl, with the same
+    honest User-Agent, with HTTP 200; a corpus on a toolkit without `curl_on_challenge` (v1.36.4)
+    gets the plain Fetcher and a challenged host stays a refusal. Passing the flag to a toolkit
+    that lacks it would be a TypeError, so the signature is read first."""
+    kwargs = {"curl_on_challenge": True} if "curl_on_challenge" in inspect.signature(cls.__init__).parameters else {}
+    return cls(config, **kwargs)
 
 
 def run(sources, fetcher, refetch, config=CONFIG):
@@ -1058,7 +2170,7 @@ def main() -> int:
         print(f"{len(problems)} ingest problem(s)" if problems
               else f"ingest current: {len(sources)} documents re-derived from their snapshots")
         return 1 if problems else 0
-    with Fetcher(CONFIG) as fetcher:
+    with make_fetcher(CONFIG) as fetcher:
         done, failed = run(sources, fetcher, args.refetch)
     print(f"{len(done)} ingested, {len(failed)} failed")
     return 1 if failed else 0

@@ -1,0 +1,63 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                          NUMBER:                  DATE ISSUED:
+
+                                                             TL 18-02                 MAY 2018
+TECHNOLOGY LETTER
+SUBJECT:                                                     REFERENCES:
+OPEN SOURCE AND CODE REUSE                                   Government Code § 11545 and § 11546
+                                                             State Administrative Manual (SAM)
+                                                             Sections 4819.2, 4984, 4984.1 and 4984.2
+                                                             Technology Letter 10-01
+
+BACKGROUND
+The California Department of Technology (CDT) is committed to improving the way Agencies/state
+entities acquire, build, and deliver information technology (IT) solutions, to better support cost
+efficiency, effectiveness, and the public’s experience with government programs. Currently, when
+Agencies/state entities produce custom-developed source code, they do not make their new code
+broadly available for state government-wide reuse. These challenges have resulted in duplicative
+acquisitions for substantially similar code and the inefficient use of taxpayer dollars. Enhanced reuse of
+custom-developed code across state government can have significant benefits for taxpayers, including
+decreasing duplicative costs for the same code and reducing vendor lock-in. This policy seeks to
+address these challenges by ensuring new source code, which has been custom-developed by the
+State of California, be broadly available for reuse across state government in a consistent manner.
+In January 2010 CDT’s predecessor organization, the Office of the Chief Information Officer (OCIO),
+permitted the use of Open Source Software (OSS) in state government. While the benefits of custom-
+developed code reuse are significant, additional benefits can accrue when custom-developed code is
+also made available to the public for inspection, improvement, and reuse as OSS. When possible,
+making source code available as OSS can enable continual improvement of state software
+development efforts as a result of a broader user community implementing the code for its own
+purposes and publishing improvements. This collaborative atmosphere can make it easier to conduct
+software peer review and security testing, to reuse existing solutions, and to share technical
+knowledge.
+
+PURPOSE
+The purpose of this Technology Letter (TL) is to announce:
+   •   New SAM Section 4984, provides an overview of the Open Source and Code Reuse Policy.
+   •   New SAM Section 4984.1, outlines Agency/state entity requirements for the Open Source and
+       Code Reuse Policy.
+   •   New SAM Section 4984.2, includes exceptions to the Open Source and Code Reuse Policy.
+   •   Updated SAM Section 4819.2 to include new definitions of “Code Repository”, “Custom-
+       Developed Code”, “Source Code” and modified definition of “Open Source Software”.
+   •   Establishment of CDT’s public code repository, code.ca.gov, to host all new custom-developed
+       open source code and related information and make this information available to all other
+       Agencies/state entities.
+   •   Agencies/state entities shall use best practices to ensure custom-developed code,
+       documentation, and other associated materials are delivered from developers throughout the
+       software development lifecycle and made available for reuse across state government through
+       code.ca.gov.
+
+                                                                                                     Page 1
+
+   •   Agencies/state entities shall, whenever possible, make code custom-developed by the State of
+       California available to the public as OSS, pursuant to the limited exceptions outlined in SAM
+       Section 4984.2.
+
+QUESTIONS
+Questions regarding this Technology Letter should be directed to the Department of Technology, Office
+of Governmental Affairs at ITPolicy@state.ca.gov. Additional information regarding this policy is
+available at https://code.ca.gov/.
+SIGNATURE
+                  ____________/s/______________________________________
+                  Amy Tong, Director
+                  California Department of Technology
+
+                                                                                              Page 2

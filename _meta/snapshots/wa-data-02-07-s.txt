@@ -1,0 +1,74 @@
+Standard Number 161.04
+
+Geospatial Data Standards
+
+Effective Date: September 5, 2014
+
+Related Documents:
+
+• Geospatial Policy & Standards Procedure 162.00
+• Waiver Process 101.00
+
+Statutory Authority and Scope
+
+The provisions of RCW 43.105.041 detail the powers and duties of the Technology Services Board (TSB), including the authority to develop statewide or interagency information services and technical policies, standards, and procedures.
+
+These standards apply to state of Washington executive branch agencies, agencies headed by separately elected officials, and institutions of higher education referred to as “agencies” throughout this document. Academic and research applications at institutions of higher education are exempt.
+
+Purpose
+
+This standard establishes and requires the use of all the Federal Geographic Data Committee (FGDC) standards in state government. This applies to all state agency location based data/databases, geospatial data, geographic information systems, and geospatial data exchanges.
+
+This standard is designed to improve interoperability across agencies, to improve data quality and accuracy, and to simplify the exchange of data among state agencies, local, tribal, state, and federal users and producers.
+
+Standard
+
+Washington State adopts all the Federal Geographic Data Committee (FGDC) data standards and guidelines as its spatial data standards for all applicable spatial data collection efforts. Adopting these data standards assures the greatest compatibility between data that are developed and maintained within and across government entities.
+
+FGDC has developed over 45 data standards for geospatially referenced data. For a full list that apply under this standard can be found at: http://www.fgdc.gov/standards/projects/FGDC-standards-projects
+
+Washington State agencies are expected to follow these recognized standards when creating and/or redeveloping existing location based data/databases, spatial datasets, geographic information systems and geospatial data exchanges starting in 2014.
+
+Creating physical implementations of the accepted standards can be time consuming and challenging. ​As​ ​a​ ​result,​​ there are recognized data​ ​models available that provide​ ​ready-to-use​ ​nonproprietary​ ​frameworks​ ​built on​ ​FGDC​ ​data standards in​ ​various​ ​specialty​ ​fields​ ​such​ ​as hydrography, cadastral and addressing. These data models provide an acceptable starting point. Additionally, when FGDC standards do not exist, state agencies are encouraged to use recognized data models to promote consistency and data sharing.
+
+FGDC data standards already adopted and in use in Washington State government include:
+
+• Hydrography,
+• Addressing,
+• Geodetic Control, and
+• Cadastral Standards.
+
+Data Model Tools
+
+• Existing physical FGDC compliant data models and additional recognized data models can be found at: http://www.esri.com/software/arcgis/geodatabase/data-models
+
+​
+
+References
+
+• Federal Geographic Data Committee website: http://www.fgdc.gov/standards/projects/FGDC-standards-projects
+• National Spatial Data Infrastructure (NSDI) website: http://www.fgdc.gov/nsdi/nsdi.html
+
+Definition
+
+Federal Geographic Data Committee (FGDC) – is an interagency committee that promotes the coordinated development, use, sharing and dissemination of geospatial data on a national basis.
+
+Geospatial Data Model – is a description of the geospatial objects represented in a computer system together with their properties and relationships.
+
+National Spatial Data Infrastructure (NSDI) – the FGDC nationwide data publishing effort. NSDI is a physical, organizational and virtual network designed to enable the development and sharing of this nation’s digital geographic information resources.
+
+Contact Information
+
+For questions about this standard, please contact the Office of the CIO’s Geospatial Program Office.
+
+Revision History
+
+Date | Action Taken
+September 5, 2014 | Standard adopted by the State CIO
+June 5, 2014 | Adopted by the Geographic Information Technology (GIT) Committee
+
+Approving Authority
+
+Chief Information Officer Date
+
+Chair, Technology Services Board

@@ -25,7 +25,16 @@ approved seed entry. Start from `_meta/templates/document.md`.
 - **A stub has no document file yet.** It lives only in the seed list. The toolkit
   (v1.36.4) rejects a policy without a snapshot and verbatim text; stub documents arrive
   with the toolkit's stub support (see the `coverage` issue in `OregonAI/corpus-toolkit`).
-- **Scanned PDFs** go through the two-engine OCR procedure in the corpus-template
-  `AGENTS.md` ("OCR" section); record the engines and agreement in `conversion_notes`.
+- **Scanned PDFs** go through the two-engine OCR procedure in the corpus-template `AGENTS.md`
+  ("OCR" section). A seed entry says `ocr: true` (every page is a scan) or `ocr: [2, 3, 4]` (those
+  pages are; the rest have a text layer). `ocr_psm: 4` sets tesseract's page-segmentation mode for a
+  two-column layout. Promotion needs word agreement, figure agreement (OCR_MIN_FIGURES) and a dictionary
+  ratio; `--check` re-runs tesseract and requires the committed words and figures to match. `src/ingest.py` runs it; `docs/research/08` records the
+  engines and what CI can re-check. The document carries `text_source: ocr`, a body warning and
+  conversion notes ending `NOT human-verified`. Never hand-edit the OCR text.
+- **Word files** (`.docx`) are read with pandoc by the ingester. Interim practice, pending the owner's
+  decision on forms (`docs/spec.md`, Open): a form or blank template stays a stub, and its `stub_reason`
+  names what it holds (drop-downs, placeholders, check boxes). A legacy `.doc` stays a stub (nothing
+  installed reads it; antiword and catdoc are apt packages, so that is a choice).
 - The file name equals `id`: lowercase letters, digits and hyphens.
 - Only documents live in these folders: every `.md` here is validated as one.

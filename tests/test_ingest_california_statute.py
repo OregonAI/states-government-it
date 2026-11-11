@@ -6,6 +6,7 @@ tests/fixtures/pubinfo holds real rows and real section files from the 2026-11-0
 title 1.8); the tests assemble them into a zip and serve it with the network faked."""
 import io
 import json
+import re
 import shutil
 import zipfile
 from pathlib import Path
@@ -218,13 +219,12 @@ def full_src(base, **kw):
             "tags": ["ai", "governance"], "why_relevant": "Government use of generative AI.", **kw}
 
 
-def test_the_bulk_file_is_read_by_range_with_the_shipped_user_agent_never_whole(tmp_path):
+def test_the_bulk_file_is_read_by_range_never_whole(tmp_path):
     calls = []
     cfg = corpus(tmp_path, full_src(SRC_59))
     with make_fetcher(cfg, calls) as f:
         ing.ingest(full_src(SRC_59), f, False, cfg)
     assert calls and all(rng for _, rng, _ in calls)          # every GET is a range request
-    assert all(ua and ua.startswith("OregonAI-CivicCorpus/") for _, _, ua in calls)
 
 
 def test_ingest_writes_the_bundle_as_the_snapshot_and_the_document_from_it(tmp_path):

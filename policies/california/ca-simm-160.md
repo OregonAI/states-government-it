@@ -1,0 +1,259 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: california
+id: ca-simm-160
+title: Maintenance & Operations Plan Guidelines
+doc_type: policy
+citation: SIMM 160
+authority_level: ''
+issuing_body: California Department of Technology
+source_url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-160-Maintenance-Operations-Plan-Guidelines.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: f345fcb3741dd184df5e929d0b25d58420ba5a966ffb9cab8cc776bbbed98bce
+effective_date: null
+source_version: April 2011
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). source_version is the month, or the revision month, the document prints (a month with no day
+  is not made into a date).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Maintenance & Operations Plan Guidelines (SIMM 160)
+
+## At a glance
+
+SIMM 160, Maintenance & Operations Plan Guidelines: an item of the SIMM's guidelines, the California Department of Technology's library of statewide IT policies, standards, instructions, forms and templates.
+
+## Full text
+
+         State of California
+    California Technology Agency
+
+Maintenance & Operations Plan
+             Guidelines
+             April 2011
+
+                               Maintenance and Operations Plan
+                                         Guidelines
+
+1.0 Overview
+
+The State Administrative Manual (SAM) Section 4946 establishes the Maintenance and
+Operations (M&O) Plan as a vehicle for obtaining California Technology
+Agency(Technology Agency) approval for ongoing M&O activities for IT systems.
+
+The M&O Policy applies only to those IT systems identified by the Technology Agency
+as requiring an M&O Plan. IT projects that may require an M&O Plan are those that
+involve major application development and system integration components that will
+require ongoing program software modifications and changes to the operational
+components of the IT system.
+
+An M&O Plan will span a one- to five-year timeframe.
+
+2.0 M&O Plan Scope
+
+The M&O plan outlines the anticipated application or system changes required to
+support:
+
+                Workload Growth: Workload growth for IT systems will use substantially
+                the same resources (i.e., equipment, facilities, personnel, supplies, and
+                software) to process a greater volume of the same or similar information.
+                The results of the processing are the same or similar outputs distributed
+                to additional, comparable users.
+
+                Maintenance: Maintenance involves activities or costs associated with
+                the ongoing upkeep of operational applications in information technology.
+                Maintenance includes correcting flaws, optimizing existing systems,
+                responding to minor changes in specified user requirements, and renewal
+                of equipment maintenance agreements using substantially the same
+                equipment, facilities, personnel, supplies and software.
+
+                Operations: Operations consist of activities or costs associated with the
+                continued use of applications of information technology. Operations
+                includes personnel associated with computer operations, including
+                network operations, job control, scheduling, key entry, and the costs of
+                computer time or other resources for processing.
+
+                Hardware/Software: Hardware and software maintenance and
+                operations includes the addition of server or client processor
+                performance, memory, storage or peripheral enhancements as long as
+                the architecture of the server is not changed; activities associated with
+                new releases of vendor-provided software are included in the original
+                system with engineering or software driver changes associated with
+                hardware included in the original system; and changes to accommodate
+
+California Technology Agency                                                                1
+M&O Plan Guidelines
+SIMM Section 160                                                                  April 2011
+
+                new peripheral or support hardware, such as printers, communications
+                components and backup and recovery systems.
+
+2.1 M&O Plan Exclusions
+
+The following activities are not appropriate in an M&O Plan and should be addressed
+using the normal IT project submittal and approval process:
+
+    a. Changes to the architecture or the type of operating environment of the system.
+       These include, but are not limited to, changes of the type or location of central or
+       distributed hardware, or to the type and manufacturer of operating system,
+       database management system, middleware, application-programming language,
+       and communications, network protocol and client desktop software.
+
+    b. Addition of support for new business functions not included and completed in the
+       original system as described in the last approved IT project proposal; i.e.,
+       Feasibility Study Report (FSR) or Special Project Report (SPR).
+
+    c. Projects which include the provision of electronic access to private information
+       concerning individuals or entities by entities other than the data owner or by other
+       entities whose access is specifically authorized by law.
+
+    d. Changes to the provider of network or server system operations services, unless
+       those changes are in response to a change in statewide provider contracts
+       administered by the Department of General Services or a state data center.
+
+3.0 When to Submit an M&O Plan
+
+When an agency has completed the activities described in an FSR, or any subsequently
+approved SPR, the Technology Agency will regard the IT project as complete pending
+receipt and approval of the required Post Implementation Evaluation Report (PIER). The
+M&O Plan must be submitted to the Technology Agency prior to placing the IT system
+into operation.
+
+4.0 M&O Plan Components
+
+M&O Plans submitted to the Technology Agency for approval must contain the following
+components:
+
+    a. Project Identifiers: Identifying information regarding the project, including the
+       project name and project acronym as originally approved with the FSR. This
+       information should also include the project number assigned to the original
+       project.
+
+    b. PIER Date: The date that the agency received approval of a PIER for the
+       development project or when the agency expects to submit the project PIER.
+
+    c. List of Incomplete Activities: If the initial M&O Plan is submitted before the
+       PIER submittal, the agency must identify any activities approved in the last
+       approved project document that will be reported in the PIER as incomplete.
+
+California Technology Agency                                                               2
+M&O Plan Guidelines
+SIMM Section 160                                                                   April 2011
+
+    d. M&O Plan Duration: The proposed start and end dates of the period that will be
+       described in the M&O Plan.
+
+    e. Anticipated Workload Growth: If the M&O Plan addresses workload growth,
+       provide an estimate of the maximum overall growth, or the amount of growth that
+       can be accommodated for a particular function or facility, before changes to the
+       system architecture or operating environment are required.
+
+4.1 Additional M&O information requirements.
+
+Provide the following additional information for each discrete activity included in the
+M&O Plan:
+
+    a. Change Activity Description: The description of that activity, including all
+       components that must be acquired, and the major staff or vendor activities that
+       must be performed.
+
+    b. Reason: The reason for the proposed activity, and for any activity that will be
+       performed contingent on an external event, the description of that event, and the
+       manner in which a decision to proceed will be made
+
+    c. Consequences: The consequences of delay or failure to complete each activity.
+
+    d. Risks: The risks that are likely to affect the IT system and the range of possible
+       outcomes.
+
+    e. Dates: The planned date of each activity, if the activities will be performed
+       according to a schedule.
+
+    f.   Costs: The estimated costs of all external contracts and procurements required
+         for each activity.
+
+    g. Funding Source: The various funding sources that are supporting the system
+       operations.
+
+    h. Procurement Method: The method planned for any required procurement
+       activities for maintenance and operations of the IT system.
+
+    i.   Personnel Resources: The internal personnel resources, including time, skill
+         and classification level required for each activity.
+
+5.0 California Technology Agency Responsibilities
+
+The Technology Agency will:
+
+    a. Identify which IT projects require an M&O Plan;
+
+    b. Notify the agency that the M&O Plan is required in support of the IT system;
+
+    c. Review the M&O Plan to determine whether:
+
+California Technology Agency                                                                3
+M&O Plan Guidelines
+SIMM Section 160                                                                    April 2011
+
+            (1) All described activities are within the scope of an M&O Plan;
+
+            (2) All described activities are necessary;
+
+            (3) All necessary activities are included;
+
+            (4) All necessary contracts and procurements can be successfully completed
+                in compliance with state procurement policies and regulations;
+
+            (5) All cost and resource estimates are reasonable and sufficient; and
+
+            (6) The M&O Plan includes appropriate measures to ensure success.
+
+    d. Issue a decision letter to the agency. The decision letter may include conditions
+       that:
+
+            (1) Withhold approval for one or more M&O Plan components;
+
+            (2) Limit the duration of the M&O Plan to a period shorter than proposed; or
+
+            (3) Require certain activities including but not necessarily limited to reports
+                before one or more M&O Plan components are approved.
+
+6.0 Agency Responsibilities
+
+Agencies that have been notified that an M&O Plan is required will:
+
+    a. Prepare an M&O Plan in accordance with SAM Policy and SIMM Guidelines.
+
+    b. Submit an M&O Plan to the Technology Agency in the timeframe required by the
+       Technology Agency.
+
+    c. Update the M&O Plan and submit it to the Technology Agency annually
+       throughout the life of the IT system indicating what components have been
+       completed or deferred and identifying any problems that have surfaced in the last
+       year.
+
+California Technology Agency                                                                  4
+M&O Plan Guidelines
+SIMM Section 160                                                                     April 2011
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the month, or the revision month, the document prints (a month with no day is not made into a date).

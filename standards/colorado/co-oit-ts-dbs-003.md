@@ -1,0 +1,188 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: colorado
+id: co-oit-ts-dbs-003
+title: Database Patch Management
+doc_type: standard
+citation: TS-DBS-003
+authority_level: ''
+issuing_body: Governor's Office of Information Technology
+source_url: https://drive.google.com/uc?export=download&id=1B6y8LqeNQjSbDN34T-1ihcgwPEC6_GdK
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 9567539a97ff070f6a9b171811e86b203843d757178ca40a4bf25eb02dc05606
+effective_date: '2021-01-27'
+source_version: 5.0, last updated 07/01/2026
+status: current
+content_mode: verbatim
+conversion_notes: 'Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). OIT''s page (https://oit.colorado.gov/standards-policies-guides/technical-standards), where
+  the list item reads ''TS-DBS-003: Database Patch Management'', links this file as https://drive.google.com/file/d/1B6y8LqeNQjSbDN34T-1ihcgwPEC6_GdK/view?usp=sharing;
+  the text was fetched from Google Drive''s direct-download form of the same file, https://drive.google.com/uc?export=download&id=1B6y8LqeNQjSbDN34T-1ihcgwPEC6_GdK
+  (the source URL above).'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Database Patch Management (TS-DBS-003)
+
+## At a glance
+
+OIT technical standard TS-DBS-003 (Data and Databases): Database Patch Management. OIT's Technical Standards page lists it as issued by the Office of Enterprise Architecture and approved by the OIT Architecture Review Board; the file prints its own effective date, version and last-updated date.
+
+## Full text
+
+TS-DBS-003: Database Patch Management
+  Document ID                    TS-DBS-003
+  Title                          Database Patch Management
+  Executive Sponsor              Database Services Management, DBS Manager
+  Issuing Authority              Governor’s Office of Information Technology (OIT)
+  Applies to                     OIT and OIT-supported agencies, including employees of OIT,
+                                 agencies supported by OIT, and vendors contracted by OIT or its
+                                 stakeholders.
+  Instrument Type                Standard
+  Version                        5.0
+  Effective Date                 01/27/2021
+  Last Updated                   07/01/2026
+
+Purpose
+This standard is issued under the authority of the Governor's Office of Information Technology
+(OIT) (C.R.S. 24-37.5, et seq.) and the Office of Enterprise Architecture (Rule 8 CCR 1501-7).
+It communicates the standards OIT has developed for providing DBMS platform patching
+requirements.
+Standards are based on a best-of-value decision assessment involving multiple factors, such as
+stakeholder needs, hardware configurations serviced and supported by OIT, and operational
+and security best practices.
+
+Scope
+These standards apply to OIT and OIT-supported agencies. This standard shall be used by
+employees of OIT, agencies supported by OIT, and vendors contracted by OIT or its
+stakeholders as a means to enforce technology standardization and assist in making the usage,
+support, and/or purchase of technologies more consistent and efficient.
+Standards instituted for use by approval of the OIT Architecture Review Board (ARB) govern
+purchase and deployment decisions deemed “go-forward” or “net-new”, and are not intended
+as a retroactively enforceable mandate for immediate conformance, especially where cost
+implications may be prohibitive. This standard shall in no way require OIT to support any
+products and services not approved by OIT.
+For the purpose of enforcement, this standard is rated CAT 1 according to the Enforcement
+Category Chart.
+
+                                                                                   Page 1 of 4
+
+Roles and Responsibilities
+Enterprise Architecture - Chief Enterprise Architect
+   ●   Chairs and conducts business of the Architecture Review Board (ARB).
+   ●   Updates effective date and/or last review date.
+   ●   Publishes the ARB-approved Standard to the OIT public-facing website.
+
+Architecture Review Board (ARB)
+   ●   Engages stakeholders and subject matter experts to determine the standard.
+   ●   Reviews/approves the Standard (this document).
+
+Database Services Management - DBS Manager
+    ● Owner of Standard.
+    ● Engages stakeholders and subject matter experts to determine the standard.
+    ● Updates document standards and version number.
+    ● Presents to the Architecture Review Board for approval and adoption.
+All OIT staff are responsible for being aware of the existence of this (and all) standard(s) and
+its purposes of authority and governance in support of OIT's statutorily mandated mission in
+service of Colorado State Government affairs.
+
+Standards
+The Database Administrator must contact the Infrastructure Operations team, including the
+Infrastructure Operations Manager, and advise of the proposed patch deployment dates for
+development, test, and production to confirm these dates.
+Patching levels are to be maintained at the highest level available for the database
+technology employed, particularly as it pertains to security updates.
+
+Patching Requirements
+Prior to patching production, patches will be applied to non-production environments, tested
+and confirmed by the Infrastructure Operations team and Technical Owner, in the following
+order:
+    ● Sandbox*
+    ● Development*
+    ● Test/Staging/UAT/Training*
+    ● Production
+*In the absence of an existing environment or disparity between non-production environments
+and production, the next server in sequence may be substituted.
+The Database Administrator must contact the OIT Service Desk (SD) with information on the
+upcoming maintenance using the Service Desk Outage Notification template, to notify the
+business, and must send an email reminder notification to the Infrastructure Operations team
+to confirm nothing has changed that would prevent the planned database unavailability.
+
+                                                                                       Page 2 of 4
+
+Post-Patching Requirements
+Upon completion of database patching, if any errors or warnings are discovered, the cause
+must be investigated and, if necessary, the patching process rolled back and repeated with a
+resolution in place. Completed patches must not contain any errors or warnings.
+The Database Administrator must initiate communication with the Infrastructure Operations
+team and Database Administrator group to communicate patching success or failure. If a
+failure occurs, the Database Administrator will work with the Infrastructure Operations team
+to either reschedule the patch or provide a completion time if it can be resolved the same
+day.
+
+Revision History
+This standard is to be reviewed every 12 months by the document owner and remains in
+effect until otherwise noted.
+
+Variance and Exception Process
+Requests for variances from any provision of this standard must be requested using the
+Technical Standard End User Exception Request Procedure.
+The Exception Request process addresses business or technical reasons for the inability to
+adhere to one or more requirements in this standard. Requests for exceptions should include
+compensating controls used to mitigate any deviation from the standard requirement. The
+Secure Configuration Exception Request form must be submitted to oit_ciso@state.co.us.
+Exception requests will be processed and recommended for approval, conditional approval, or
+denial.
+
+References
+   ●   State documents and policies
+   ●   C.R.S. 24-37.5-101, et seq.
+   ●   OIT documents and policies
+   ●   Enforcement Category Chart
+   ●   OIT Database Backup and Recovery Technical Policy
+   ●   Database Services documents and policies
+   ●   IAW Technology Standards
+
+Definitions
+   ●   Standard: A rule that specifies a particular course of action or response to a given
+       situation. Standards are mandatory directives to carry out management's policies and
+       are used to measure compliance with policies.
+   ●   Production Database: State Agency database used for production purposes to conduct
+       State business.
+   ●   Non-Production Database: State Agency database used for non-production purposes
+       such as development, testing, staging, demonstration, or training.
+   ●   Business: Employees of supported State agencies, and their respective stakeholders,
+       who use DBS-supported databases.
+   ●   Infrastructure Operations Team: Enterprise Application development team responsible
+       for application development.
+
+                                                                                  Page 3 of 4
+
+●   OEA (Office of Enterprise Architecture): Formed as an office under OIT by Governor's
+    Rule 8 CCR 1501-7.
+●   OIT (Office of Information Technology): Created and governed by C.R.S. 24-37.5, et
+    seq.
+●   Exception request: A document requesting an exception to a recognized standard,
+    requiring a business or technical justification for granting the exception, subject to
+    review and approval by an authority in the area.
+
+                                                                                 Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). OIT's page (https://oit.colorado.gov/standards-policies-guides/technical-standards), where the list item reads 'TS-DBS-003: Database Patch Management', links this file as https://drive.google.com/file/d/1B6y8LqeNQjSbDN34T-1ihcgwPEC6_GdK/view?usp=sharing; the text was fetched from Google Drive's direct-download form of the same file, https://drive.google.com/uc?export=download&id=1B6y8LqeNQjSbDN34T-1ihcgwPEC6_GdK (the source URL above).

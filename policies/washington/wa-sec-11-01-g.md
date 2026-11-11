@@ -18,7 +18,8 @@ status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). Pages 2, 4 of the PDF have no text layer (figures, blank pages or scanned forms) and add no
+  text here.
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -1065,4 +1066,4 @@ evaluating the use of software as a service.
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Pages 2, 4 of the PDF have no text layer (figures, blank pages or scanned forms) and add no text here.

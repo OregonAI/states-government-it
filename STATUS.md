@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 91 |
-| standard | 57 |
+| policy | 225 |
+| standard | 128 |
 | statute | 28 |
-| rule | 6 |
-| executive_order | 6 |
+| executive_order | 14 |
+| rule | 11 |
 
-**Total: 188**
+**Total: 406**
 
 ## Source manifest
 
-391 declared source(s) across 1 group(s) in `source-manifest.yml`.
+518 declared source(s) across 1 group(s) in `source-manifest.yml`.
 
 ## Freshness (reverify every 90 days)
 
-188 of 188 document(s) overdue for re-verification.
+406 of 406 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -54,25 +54,25 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | wa-rcw-43-105 | statute | never |
 | ca-ccr-2-div-7-ch-10 | rule | never |
 | ca-ccr-2-div-7-ch-15 | rule | never |
+| co-ccr-8-1501-11 | rule | never |
+| co-ccr-8-1501-12 | rule | never |
+| co-ccr-8-1501-5 | rule | never |
+| co-ccr-8-1501-7 | rule | never |
+| co-ccr-8-1501-9 | rule | never |
 | or-oar-128-20 | rule | never |
 | or-oar-128-30 | rule | never |
 | or-oar-128-40 | rule | never |
 | or-oar-128-50 | rule | never |
 | ca-eo-b-34-15 | executive_order | never |
+| ca-eo-n-04-19 | executive_order | never |
+| ca-eo-n-12-23 | executive_order | never |
+| ca-eo-n-30-25 | executive_order | never |
+| ca-eo-n-5-26 | executive_order | never |
+| ca-eo-n-6-26 | executive_order | never |
+| ca-eo-n-9-26 | executive_order | never |
+| or-eo-23-26 | executive_order | never |
+| or-eo-26-26 | executive_order | never |
 | wa-eo-00-02 | executive_order | never |
 | wa-eo-16-01 | executive_order | never |
-| wa-eo-19-04 | executive_order | never |
-| wa-eo-24-01 | executive_order | never |
-| wa-eo-91-10 | executive_order | never |
-| ca-sam-4800 | policy | never |
-| ca-sam-4900 | policy | never |
-| ca-sam-5000 | policy | never |
-| ca-sam-5100 | policy | never |
-| ca-sam-5200 | policy | never |
-| ca-sam-5300 | policy | never |
-| ca-sam-5900 | policy | never |
-| or-das-107-004-010 | policy | never |
-| or-das-107-004-015-pr | policy | never |
-| or-das-107-004-015 | policy | never |
-| … | *138 more* | |
+| … | *356 more* | |
 

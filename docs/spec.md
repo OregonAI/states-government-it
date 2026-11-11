@@ -134,3 +134,10 @@ Any addition or removal goes through seed-list approval.
   revisit before the repo is made public.
 - California's administrative rules are published only through Westlaw and will likely
   be stubs.
+- Whether forms and blank templates enter the corpus. Interim practice: they stay stubs with
+  the reason (14 California Word files, plus California PDF forms). The boundary is unclear
+  at model documents: DES's model Generative AI Contract Clauses
+  (`wa-des-genai-contract-clauses`) is ingested, while CDT SIMM 45A, a model Independent
+  Verification and Validation Statement of Work (14,797 words, 166 lines with shall or must),
+  is a stub; SIMM 18B (instructions for completing a form) is ingested. The owner decides
+  where the line falls.

@@ -1,0 +1,71 @@
+TS-CISO-003: Remote Access Standard
+  Document ID                    TS-CISO-003
+  Title                          Remote Access Standard v2026
+  Executive Sponsor              Jill Fraser, Chief Information Security Officer
+  Issuing Authority              Governor’s Office of Information Technology (OIT)
+  Applies to                     All state government agencies, employees, contractors, vendors,
+                                 and external users who access state government information
+                                 systems and applications, regardless of location or device,
+                                 including all applications, hosting environments, and physical and
+                                 connected technologies.
+  Instrument Type                Standard
+  Version                        4.0
+  Effective Date                 01/31/2026
+  Last Updated                   05/14/2026
+
+Purpose
+This standard defines security requirements for remote access to State information systems
+and applications, including on-premises and cloud environments. It supports compliance with
+the Colorado Information Security Policies (CISPs).
+
+Scope
+This standard applies to all state government agencies, employees, contractors, vendors, and
+external users who access state government information systems and applications, regardless
+of location or device. This includes all applications and hosting environments, and access to
+physical and connected technologies.
+
+Requirements
+The appropriate Remote Access standard requirements are listed below. Additional
+requirements must be implemented based on the regulated data type(s).
+
+Remote Access Methods
+The following methods, with the stated restrictions, are allowed:
+ Device Type             Access Method/Protocol    Requirement
+ State-Managed Devices   State-managed VPN         Must adhere to all applicable state security
+                         (client-to-site)          standards and configurations. Any endpoints
+                                                   that connect to internal resources must use
+
+                                                                                     Page 1 of 2
+
+ Device Type              Access Method/Protocol       Requirement
+                                                       the approved state client-to-site (individual)
+                                                       VPN.
+ External/Edge Networks   State-approved site-to-      Must use the state-approved site-to-site VPN
+                          site VPN                     to connect to any internal state resources.
+ Non-State-Managed        State-managed Virtual        Must connect to a virtual desktop solution
+ Devices                  Desktop Solution             managed by the state.
+
+Security Requirements
+ Requirement               Detail
+ Strong Authentication     All external remote access connections shall require multi-factor
+                           authentication (MFA) (e.g., username/password + hardware token,
+                           biometric authentication).
+ Session Management        Enforcing strong session IDs, timeouts, and locks.
+ Least Privilege           Remote access users shall only be granted the minimum necessary
+                           privileges to perform their job duties.
+ Data Encryption           All data transmitted over the remote access connection shall be
+                           encrypted using strong encryption protocols.
+
+Data Handling
+Remote access users shall adhere to all applicable data security policies and standards,
+including data classification, handling, and storage requirements.
+
+Exceptions
+All exceptions must be documented, justified, and approved by the State of Colorado's Chief
+Information Security Officer (CISO) or other designated authority. Compensating controls must
+be documented, implemented, and maintained.
+
+Compliance
+The Information Security Office will monitor and advise on compliance with this standard.
+
+                                                                                           Page 2 of 2

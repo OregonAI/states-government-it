@@ -1,0 +1,65 @@
+Delegation of Authority Policy
+  Document ID                     POL-ENT-001
+  Title                           Delegation of Authority Policy
+  Executive Sponsor               David Edinger, Chief Information Officer & Executive Director
+  Issuing Authority               Governor’s Office of Information Technology (OIT)
+  Applies to                      State agencies as defined in C.R.S. 24-37.5-102(28) — all
+                                  departments, divisions, commissions, boards, bureaus, and
+                                  institutions in the executive branch of state government,
+                                  excluding the legislative and judicial departments, the
+                                  department of education, the department of law, the
+                                  department of state, the department of the treasury, and state-
+                                  supported institutions of higher education.
+  Instrument Type                 Policy
+  Version                         3.0
+  Effective Date                  10/01/2021
+  Last Updated                    07/20/2026
+
+1. Purpose
+To establish the Governor's Office of Information Technology (OIT) policy for delegation of
+authority for certain information technology functions from OIT to another state agency.
+
+2. Policy
+It is the policy of OIT, within the sole discretion and judgment of the State Chief Information
+Officer, to delegate information technology functions from OIT to another state agency in
+accordance with C.R.S. 24-37.5-105.4. For an information technology function to receive
+delegated authority, it must have its own delegation of authority request approved, and a
+corresponding delegation of authority interagency agreement must be fully executed by both
+the State Chief Information Officer and the agency's Executive Director.
+
+3. Applicability
+This policy applies to state agencies as defined in C.R.S. 24-37.5-102(28) as “all of the
+departments, divisions, commissions, boards, bureaus, and institutions in the executive
+branch of the state government” — not including the legislative or judicial departments, the
+department of education, the department of law, the department of state, the department of
+the treasury, or state-supported institutions of higher education.
+
+                                                                                     Page 1 of 2
+
+4. References
+   ●   Delegation of Authority Procedure
+   ●   HB21-1236, State Information Technology
+   ●   C.R.S. 24-37.5-105.4 - Delegation of Authority
+   ●   C.R.S. 24-37.5-105(4) - OIT Governance
+   ●   1 CCR 101-1-3-5 - Interagency Agreements
+   ●   OIT Technical Standards and Policies
+   ●   Delegation of Authority Request Form
+
+5. Definitions
+Reference the Delegation of Authority Procedure for definitions.
+
+6. Responsibilities
+Reference the Delegation of Authority Procedure for responsibilities.
+
+7. Compliance
+An agency does not have authority to assume responsibility for, or exercise authority over,
+any information technology function until the associated delegation of authority interagency
+agreement is fully executed. Failure to comply with this policy and follow the associated
+Delegation of Authority Procedure may risk placing the requesting agency, OIT and/or the
+State out of statutory and/or legal compliance.
+
+8. Expiration
+This policy remains in effect until superseded or rescinded by the State Chief Information
+Officer & Executive Director of OIT.
+
+                                                                                   Page 2 of 2

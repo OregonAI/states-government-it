@@ -1,0 +1,57 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                             NUMBER:                   DATE ISSUED:
+
+TECHNOLOGY LETTER                                               TL 18-03                  June 2018
+
+SUBJECT:                                                        REFERENCES:
+RECOVERY AND RESPONSE PLANS FOR                                 Government Code Sections 8592.30 –
+CRITICAL INFRASTRUCTURE                                         8592.45
+                                                                State Administrative Manual (SAM)
+                                                                Sections 4501, 4819.32, 5300.4, 5325 and
+                                                                5340
+                                                                Statewide Information Management Manual
+                                                                (SIMM) Sections 5325-A, 5325-B and 5340-A
+
+BACKGROUND
+
+Assembly Bill 1841 (Chapter 508, Statutes of 2016) amended the California Emergency Services Act
+(Government Code Sections § 8592.30 and § 8592.45) to require the California Department of Technology
+(CDT), Office of Information Security (OIS) in consultation with the Governor’s Office of Emergency Services
+and the Department of General Services, to enhance the cybersecurity incident response strategy for the
+State of California and assist Agencies/state entities secure critical infrastructure controls and information.
+
+This policy updates the Technology Recovery Plan elements of state policy, requiring each Agency/state
+entity to provide updated Technology Recovery Plans to CDT and report compliance with updated
+standards. This policy also defines the terms “Critical Infrastructure Controls” and “Critical Infrastructure
+Information” to support these provision. Additionally, this policy prohibits the public disclosure of reports and
+public records related to the cybersecurity strategies and requires Agencies/state entities to protect critical
+infrastructure from interference, compromise, or incapacitation.
+
+PURPOSE
+
+The purpose of this Technology Letter (TL) is to announce:
+
+     •     Revised SAM Sections 5325 and 5340 to enhance technology recovery and incident response
+           planning program requirements and direct Agencies/state entities to review and ensure these
+           updates are incorporated into their incident reporting and response plans, Technology
+           Recovery Plans (TRPs), and corresponding processes and procedures to comply with the new
+           requirements.
+     •     Revised SAM Section 5300.4 to include new definitions for “Critical Infrastructure Controls” and
+           “Critical Infrastructure Information”
+     •     Revised SAM Sections 4501 and 4819.32 to align current public safety telecommunications
+           policy authority and information technology project reporting exclusion references.
+     •     Revised SIMM Sections 5325-A, 5325-B, and 5340-A to include critical infrastructure controls
+           and critical infrastructure information.
+     •     Updated Technology Recovery Plans are due to CDT by no later than July 1, 2019.
+     •     New Frequently Asked Questions (FAQs) document serves as a resource to assist
+           Agencies/state entities with compliance.
+
+QUESTIONS
+
+Questions regarding this Technology Letter should be directed to the California Department of
+Technology, Office of Information Security at (916) 445-5239 or Security@state.ca.gov.
+
+SIGNATURE
+
+                           /s/
+             Amy Tong, Director
+            California Department of Technology

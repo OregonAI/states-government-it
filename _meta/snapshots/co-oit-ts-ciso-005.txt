@@ -1,0 +1,66 @@
+TS-CISO-005: Patch Management Standard
+  Document ID                      TS-CISO-005
+  Title                            Patch Management Standard
+  Executive Sponsor                Jill Fraser, Chief Information Security Officer
+  Issuing Authority                Governor’s Office of Information Technology (OIT)
+  Applies to                       All state government employees, contractors, vendors, and
+                                   external users who access state government information systems
+                                   and applications, regardless of location or device, including all
+                                   applications, hosting environments, and physical and connected
+                                   technologies.
+  Instrument Type                  Standard
+  Version                          2.0
+  Effective Date                   01/31/2026
+  Last Updated                     05/13/2026
+
+Purpose
+This standard defines security requirements for the timely application of patches and updates
+across all State-managed information systems and applications, including on-premises and
+cloud environments. It supports compliance with the Colorado Information Security Policies
+(CISPs).
+
+Scope
+This standard applies to all state government employees, contractors, vendors, and external
+users who access state government information systems and applications, regardless of
+location or device. This includes all applications and hosting environments, and access to
+physical and connected technologies.
+
+Requirements
+The appropriate patch management standard requirements are listed below. Additional
+requirements must be implemented based on the regulated data type(s).
+
+Vulnerability Scanning
+ Requirement              Detail
+ Frequency                Vulnerability scans shall be conducted regularly, at least weekly.
+ Tools                    Scans shall be conducted using an industry-approved vulnerability
+                          scanner.
+
+                                                                                         Page 1 of 2
+
+ Requirement              Detail
+ Results                  Scan results must be made available to the appropriate staff.
+
+Patching Timeframes
+ Severity Level          System Type          Timeframe                      Configuration
+                                                                             Requirement
+ Critical, High, and     Servers              Patches applied within 30      All configurations
+ Medium                                       days of patch release.         required to make a
+                                                                             patch “active” must
+                                                                             be fully applied in
+                                                                             the same timeframe.
+ Critical, High, and     Workstations         Patches pushed to them         —
+ Medium                                       within 30 days.
+ Low-Severity & Secure   All systems          May be applied on a            —
+ Configuration                                scheduled basis or as
+                                              resources permit, as
+                                              determined by team SOPs.
+
+Exceptions
+All exceptions must be documented, justified, and approved by the State of Colorado's Chief
+Information Security Officer (CISO) or other designated authority. Compensating controls must
+be documented, implemented, and maintained.
+
+Compliance
+The Information Security Office will monitor and advise on compliance with this standard.
+
+                                                                                          Page 2 of 2

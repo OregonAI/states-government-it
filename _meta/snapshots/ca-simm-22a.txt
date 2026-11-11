@@ -1,0 +1,153 @@
+               State of California
+          Department of Technology
+
+COTS/SaaS Acquisition Information
+            Form
+
+            Preparation Instructions
+Statewide Information Management Manual – Section 22A
+
+                   February 2015
+
+Table of Contents
+
+1.0    Overview ......................................................................................................................... 2
+2.0    COTS/SaaS Acquisition Information Form....................................................................... 2
+2.1    General Information......................................................................................................... 2
+2.2    Business Case ................................................................................................................ 3
+2.3    Security ........................................................................................................................... 3
+3.0    CIO and AIO Signature and Date .................................................................................... 4
+4.0    Request Submission........................................................................................................ 4
+
+California Department of Technology
+COTS/SaaS Acquisition Information Form Preparation Instructions                                                                                 1
+SIMM Section 22A                                                                                                         February 2015
+
+    COTS/SaaS ACQUISITION INFORMATION FORM PREPARATION INSTRUCTIONS
+
+1.0      OVERVIEW
+
+Per State Administrative Manual (SAM) Section 4819.34, information regarding the
+acquisition of Commercial-off-the-Shelf (COTS) software and Cloud Software-as-a-
+Service (SaaS) solutions must be submitted to the California Department of Technology
+(Department of Technology). Following is the process an Agency/state entity1 must
+follow to acquire a cloud solution:
+
+      1. Before proceeding with the acquisition of COTS or SaaS, an Agency or state
+         entity must submit a completed and signed COTS/SaaS Acquisition Information
+         Form to the Department of Technology, Information Technology Project
+         Oversight and Consulting (ITPOC) Division using the template found in Statewide
+         Information Management Manual (SIMM) Section 22.
+
+      2. The Agency/state entity must acknowledge that the use of COTS or SaaS
+         complies with all of the conditions identified in SAM Section 4819.34.
+
+      3. The Agency/state entity must acknowledge that the use of the COTS or SaaS
+         complies with state security policies and standards, including SAM Sections 5100
+         and 5300 through 5399.
+
+2.0      COTS/SAAS ACQUISITION INFORMATION FORM
+
+2.1      General Information
+
+      Agency/State Entity Name: Enter the name of the Agency or state entity that is submitting
+      the COTS/SaaS Acquisition Form.
+
+      Submission Date: Enter the date the COTS/SaaS Acquisition Information Form is being
+      submitted to the Department of Technology.
+
+      Contact First Name: Enter the first name of the Agency or state entity person that will be
+      the primary point-of-contact for Department of Technology questions and comments.
+
+      Contact Last Name: Enter the last name of the Agency or state entity person that will be
+      the primary point-of-contact for Department of Technology questions and comments.
+
+1
+ State entity: Includes every state office, officer, department, division, bureau, board, and commission, including
+Constitutional Officers. “State entity” does not include the University of California, California State University, the
+State Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel
+Bureau.
+California Department of Technology
+COTS/SaaS Acquisition Information Form Preparation Instructions                                                           2
+SIMM Section 22A                                                                                          February 2015
+
+      Contact Email: Enter the email address of the contact provided above.
+
+      Contact Phone: Enter the ten-digit phone number of the contact provided above.
+
+      Vendor Name: Enter the name of the vendor that developed the COTS/SaaS solution.
+
+      Solution Name: Enter the name of the COTS/SaaS solution, please specify any module or
+      component within the COTS/SaaS solution (e.g. Salesforce SRM).
+
+      Total One-Time Cost: Enter the total estimated one-time cost of the COTS/SaaS
+      acquisition.
+
+      Total Annual Ongoing Cost: Enter the total estimated annual ongoing cost of the
+      COTS/SaaS acquisition.
+
+2.2       Business Case
+
+Provide a brief summary of the business need or business problem that the COTS/SaaS
+solution will address. Describe why the solution is vital for the continued success and growth of
+the business program that this acquisition will enable, support, and/or enhance. Additionally,
+describe how the purchase of the solution will benefit the business program.
+
+2.3       Security
+
+Indicate the Agency or state entity’s compliance in meeting requisite information security and
+privacy laws, policies, standards, and processes. Checking the following checkboxes is an
+acknowledgement that the Agency/state entity Information Security Officer (ISO) reviewed this
+form and confirms that there are auditable and traceable artifacts that support compliance.
+
+Identify the information security requirements for which the COTS/SaaS solution is in
+compliance:
+
+         State Administrative Manual (SAM) Sections 5100 and 5300 through 5399.
+
+         Statewide Information Management Manual (SIMM) Section 5360-A.
+
+         National Institute of Standards and Technology (NIST), Special Publication 800-53 (rev.
+          4) security controls.
+
+         California Privacy Policy and Privacy Notice on Collection Requirements, (Government
+          Code Sections 11015.5 and 11019.9, and Civil Code Section 1798.17, when personal
+          information is involved.
+
+         Federal Risk and Authorization Management Program (FedRAMP) Version 2.0.
+
+         Health Insurance Portability and Accountability Act (HIPAA), when applicable.
+
+California Department of Technology
+COTS/SaaS Acquisition Information Form Preparation Instructions                                      3
+SIMM Section 22A                                                                     February 2015
+
+         Federal Information Processing Standards (FIPS).
+
+         IRS Publication 1075, Safeguards for Federal Tax Information, when applicable.
+
+         Specify others as applicable to meet business need.
+
+3.0       CIO AND AIO SIGNATURE AND DATE
+
+By signing this document, the signatory is confirming that the requesting Agency/state entity
+certifies that the planned acquisition or use of the described commercial software does not
+require prior approval from the Department of Technology as defined by SAM
+4819.34. Additionally, the signatory confirms that the Agency/state entity meets all Department
+of Technology published security and privacy policies (SAM Sections 5100 and 5300 through
+5399) and that the significant business need merits the acquisition of this solution. State entities
+not governed by Agencies are not required to include an AIO’s signature.
+
+4.0       REQUEST SUBMISSION
+
+Submit the completed COTS/SaaS Acquisition Information Form in PDF format to
+CIOPMOSubmission@state.ca.gov. Include “COTS/SaaS Acquisition Information Form” within
+the subject line. After the form has been submitted the Agency/state entity can continue the
+COTS/SaaS acquisition process. Although the Department of Technology may request further
+information or clarification, no decision will be provided. The Department of Technology will
+maintain the information provided and monitor the extent and frequency of COTS or SaaS use
+to help other Agencies/state entities that have a similar business need.
+
+California Department of Technology
+COTS/SaaS Acquisition Information Form Preparation Instructions                                        4
+SIMM Section 22A                                                                      February 2015

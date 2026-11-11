@@ -1,0 +1,30 @@
+Technology Letter 25-02
+May 2025
+Subject:
+SIMM 5330-A Designation Letter and SIMM 5330-D Designation Letter Instructions
+References:
+Government Code (GC) § 11549.3
+State Administration Manual (SAM) 5330.2
+State Information Management Manual (SIMM) 5330-A, 5330-D, 5330-E, 5330-G
+Background
+As outlined in Government Code (GC) § 11549.3, the State Office of Information Security (OIS) is entrusted with developing, issuing, and maintaining policies, standards, and procedures. Overseeing information security risk management for agencies and state entities, providing information security and privacy guidance, and ensuring compliance with State Administrative Manual (SAM) Chapter 5300 and Statewide Information Management Manual (SIMM) § 5300.
+Through the SIMM 5330-A Designation Letter, entities must report annually the names of designated signers and points of contact that fulfill the state entity’s security and privacy requirements. Additionally, they must disclose whether they receive support from another entity to fulfill these requirements.
+This Technology Letter announces updates to the SIMM 5330 series with the intention of clearing ambiguity and increasing efficiency. What was formerly three required forms has been consolidated into a single form via updates to SIMM 5330-A Designation Letter.
+Purpose:
+The purpose of this Technology Letter (TL) is to announce:
+• The following policies have been retired, and their submissions are no longer required:
+  • SIMM 5330-A – Attachment D Part 2
+  • SIMM 5330-A – Attachment D Part 3
+  • SIMM 5330-E – Host/Hosted Self Certification
+  • SIMM 5330-G – Supported Technology Program Agreement
+• Update to SIMM 5330-A Designation Letter and SIMM 5330-D Designation Letter Instructions:
+  • Introduce the definitions and requirements for newly established service types: Active Directory Environment, Security Boundary, and Policy Boundary.
+  • Entities are now required to designate the service type for each responsible entity or entities.
+  • The State OIS will categorize each state entity into one of five categories: Self-Supporting, Self-Supporting with Sub-Entity, Limited Technical, Limited Program, or Host/Hosted. This will be based on where service responsibilities reside.
+The State OIS will utilize these categories to identify ownership of roles and responsibilities for the purposes of an Information Security Agreements (ISA), Information Security and Privacy Agreements (ISPA), Risk and Compliance activities, and, where applicable, scores inheritance. Further information on the State OIS categorization can be found in Appendix B of 5330-A Designation Letter.
+Questions:
+Direct questions regarding this Technology Letter to the Department of Technology, Office of Information Security at security@state.ca.gov.
+Signature:
+On file
+Liana Bailey-Crimmins, State CIO and Director
+California Department of Technology

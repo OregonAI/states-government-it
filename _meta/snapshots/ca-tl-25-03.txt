@@ -1,0 +1,23 @@
+Technology Letter 25-03
+June 2025
+Subject:
+SIMM 5320-A Phishing Exercise Standard
+References:
+Government Code (GC) § 11549.3
+State Administration Manual (SAM) 5320
+State Information Management Manual (SIMM) 5300-A, 5320-A, 5340-A, 5340-C
+Background
+As outlined in Government Code (GC) § 11549.3, the State Office of Information Security (OIS) is entrusted with developing, issuing, and maintaining policies, standards, and procedures. Overseeing information security risk management for agencies and state entities, providing information security and privacy guidance, and ensuring compliance with State Administrative Manual (SAM) Chapter 5300 and Statewide Information Management Manual (SIMM) § 5300.
+The SIMM 5320-A Phishing Exercise Standard defines the requirements for simulated phishing exercise plans, including guidelines for collaborating with third-party vendors to conduct phishing simulations. It also establishes protocols for coordinating phishing exercise plans with an entity’s Human Resources and Legal departments.
+This Technology Letter announces the updates to the SIMM 5320-A Phishing Exercise Standard policy.
+Purpose:
+The purpose of this Technology Letter (TL) is to highlight the revisions to the SIMM 5320-A Phishing Exercise Standard. Key updates include:
+• Eliminating the requirement for the Office of Information Security (OIS) and California Cybersecurity Integration Center (Cal-CSIC) approval requirements before conducting a simulated phishing campaign, while maintaining the 72-hour advanced notification email requirement to Cal-CSIC.
+• Clarifying the approval process, which now requires written approval from the Information Security Officer (ISO) or Chief Information Officer (CIO) following internal entity coordination.
+• Removing non-relevant items, specifically those related to general phishing and do not pertain to simulated phishing exercise plans.
+Questions:
+Direct questions regarding this Technology Letter to the Department of Technology, Office of Information Security at security@state.ca.gov.
+Signature:
+On file
+Liana Bailey-Crimmins, State CIO and Director
+California Department of Technology
