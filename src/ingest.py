@@ -25,6 +25,7 @@ import json
 import re
 import subprocess
 import sys
+import urllib.parse
 import weakref
 import zipfile
 from html.parser import HTMLParser
@@ -33,7 +34,9 @@ from pathlib import Path
 from corpus_toolkit import config as config_mod
 from corpus_toolkit.documents import DocumentError, write_document
 from corpus_toolkit.repo import parse_frontmatter
-from corpus_toolkit.sources.fetch import UNSUPPORTED, FetchError, Fetcher, sniff
+import httpx
+
+from corpus_toolkit.sources.fetch import UNSUPPORTED, Challenge, FetchError, Fetcher, Refused, sniff
 from corpus_toolkit.sources.snapshots import record_snapshot, retrieved_date
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -325,15 +328,40 @@ class CaZip(io.RawIOBase):
     def __init__(self, fetcher: Fetcher, url: str):
         self.fetcher, self.url, self.pos = fetcher, url, 0
         self.blocks: dict[int, bytes] = {}
-        self._throttle()
-        r = fetcher.client().get(url, headers={"Range": "bytes=0-0"})
+        r = self._range_get("bytes=0-0")
         if r.status_code != 206:
             raise FetchError(f"{url}: no range support (HTTP {r.status_code})")
         self.size = int(r.headers["Content-Range"].rsplit("/", 1)[1])
         self.last_modified = r.headers.get("Last-Modified", "")
 
-    def _throttle(self):
-        self.fetcher._throttle(self.url)
+    def _range_get(self, rng: str) -> httpx.Response:
+        """One ranged GET with what `Fetcher.get` does for a plain one: the per-host rate limit, a 429
+        waited out (`Retry-After`, else the Fetcher's backoff steps) and retried, then `Refused`; a
+        401/403 is `Refused`, or `Challenge` under Cloudflare's `cf-mitigated`; a connection dropped
+        without an answer is `Refused`. (The toolkit has no ranged get yet; when it does, this goes.)"""
+        f, host = self.fetcher, urllib.parse.urlsplit(self.url).netloc
+        for attempt in range(len(f.backoff) + 1):
+            f._throttle(self.url)
+            try:
+                r = f.client().get(self.url, headers={"Range": rng})
+            except httpx.RemoteProtocolError as e:
+                raise Refused(f"{self.url}: connection closed without a response ({e})") from e
+            code = r.status_code
+            if code == 429 and attempt < len(f.backoff):
+                try:
+                    wait = float(r.headers.get("Retry-After", ""))
+                except ValueError:
+                    wait = f.backoff[attempt]
+                f._log(f"    429 from {host} -- backing off {wait:g}s (attempt {attempt + 1}/{len(f.backoff)})")
+                f._sleep(wait)
+                continue
+            if code in (401, 403, 429):
+                mitigated = r.headers.get("cf-mitigated", "")
+                raise (Challenge if mitigated == "challenge" else Refused)(
+                    f"{self.url}: HTTP {code} on range {rng}"
+                    f"{' (Cloudflare managed challenge)' if mitigated else ''}")
+            return r
+        raise FetchError(f"{self.url}: unreachable after backoff")   # pragma: no cover
 
     def seekable(self): return True
     def readable(self): return True
@@ -348,8 +376,7 @@ class CaZip(io.RawIOBase):
             if len(self.blocks) >= 4:
                 self.blocks.pop(next(iter(self.blocks)))
             start, end = n * _CA_BLOCK, min((n + 1) * _CA_BLOCK, self.size) - 1
-            self._throttle()
-            r = self.fetcher.client().get(self.url, headers={"Range": f"bytes={start}-{end}"})
+            r = self._range_get(f"bytes={start}-{end}")
             if r.status_code != 206:
                 raise FetchError(f"{self.url}: range {start}-{end} answered HTTP {r.status_code}")
             self.blocks[n] = r.content

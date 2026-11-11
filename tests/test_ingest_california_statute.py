@@ -304,3 +304,51 @@ def test_seed_check_still_treats_one_zip_with_different_slices_as_different_docu
     assert csl.check(two, DOMAIN) == []
     same = {"sources": [seed(slice=CH59)["sources"][0], dict(seed(slice=CH59)["sources"][0], id="ca-y")]}
     assert any("duplicate url" in e for e in csl.check(same, DOMAIN))
+
+
+# ---- the fetch discipline the Fetcher's own get has: refusal, challenge, 429 backoff -------------
+
+def status_fetcher(statuses, headers=None, sleeps=None):
+    """A Fetcher whose first range request (the 1-byte probe) answers per `statuses`, then 206."""
+    seq = list(statuses)
+
+    def handler(request):
+        code = seq.pop(0) if seq else 206
+        if code != 206:
+            return httpx.Response(code, headers=headers or {})
+        return httpx.Response(206, content=b"x", headers={"Content-Range": f"bytes 0-0/{len(ZIP)}"})
+    return Fetcher(None, min_interval=0, transport=httpx.MockTransport(handler),
+                   sleep=(sleeps.append if sleeps is not None else (lambda s: None)))
+
+
+def test_a_403_on_a_range_request_is_a_refusal_not_a_generic_error():
+    from corpus_toolkit.sources.fetch import Refused
+    with status_fetcher([403]) as f, pytest.raises(Refused, match="403"):
+        ing.CaZip(f, URL)
+
+
+def test_a_cloudflare_challenge_on_a_range_request_is_a_challenge():
+    from corpus_toolkit.sources.fetch import Challenge
+    with status_fetcher([403], headers={"cf-mitigated": "challenge"}) as f, pytest.raises(Challenge):
+        ing.CaZip(f, URL)
+
+
+def test_a_429_on_a_range_request_is_waited_out_then_retried():
+    sleeps = []
+    with status_fetcher([429, 429], headers={"Retry-After": "7"}, sleeps=sleeps) as f:
+        z = ing.CaZip(f, URL)
+    assert z.size == len(ZIP) and sleeps == [7.0, 7.0]
+
+
+def test_a_429_that_never_clears_is_refused_after_the_backoff_steps():
+    from corpus_toolkit.sources.fetch import Refused
+    with status_fetcher([429] * 20) as f, pytest.raises(Refused, match="429"):
+        ing.CaZip(f, URL)
+
+
+def test_a_later_block_read_gets_the_same_discipline():
+    from corpus_toolkit.sources.fetch import Refused
+    with status_fetcher([206, 403]) as f:
+        z = ing.CaZip(f, URL)
+        with pytest.raises(Refused, match="403"):
+            z.read(10)
