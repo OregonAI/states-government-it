@@ -11,15 +11,17 @@ issuing_body: Colorado General Assembly; published by the Office of Legislative 
 source_url: https://olls.info/crs/crs2026-title-24.htm
 source_format: html
 retrieved: '2026-11-11'
-source_sha256: b1954599f117f307029af3b30c91e1e7530fd063df5a048783b0dfd1bb7ec283
+source_sha256: f167fdeeb91889252cf6a5032f3a04bf4d18ae23aa67359058921e4e9c059768
 effective_date: null
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: The source is the Office of Legislative Legal Services' title file (one file for the
   whole of the title); this document is the one article (or part) named in the citation, from its ARTICLE
-  (or PART) heading line to the next one, one line per source paragraph, with markup, spacing paragraphs
-  and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations are kept.
+  (or PART) heading line to the next one (an article stops before the title-level group heading, such
+  as LIBRARIES, that the file prints between articles), one line per source paragraph, with markup, spacing
+  paragraphs and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations
+  are kept.
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -96,8 +98,7 @@ Source: L. 2000: Entire article added, p. 1505, § 1, effective August 2. L. 200
 (II) The contractor shall indemnify, hold harmless, and assume liability on behalf of the state agency or public entity, and the state agency's or public entity's officers, employees, and agents, for all costs, expenses, claims, damages, liabilities, court awards, attorney fees and related costs, and any other amounts incurred by the state agency or public entity in relation to the contractor's noncompliance with the accessibility standards for an individual with a disability adopted by the office of information technology pursuant to section 24-85-103.
 (d) The state agency or public entity may require that the contractor's compliance with accessibility standards for an individual with a disability adopted by the office of information technology pursuant to section 24-85-103 is determined and attested to by a qualified third party selected by the state agency or public entity.
 Source: L. 2000: Entire article added, p. 1505, § 1, effective August 2. L. 2007: (1) amended, p. 917, § 18, effective May 17. L. 2021: Entire section amended, (HB 21-1110), ch. 402, p. 2678, § 6, effective June 30. L. 2025: (5) added, (HB 25-1152), ch. 246, p. 1240, § 2, effective August 6.
-LIBRARIES
 
 ## Curator notes
 
-The source is the Office of Legislative Legal Services' title file (one file for the whole of the title); this document is the one article (or part) named in the citation, from its ARTICLE (or PART) heading line to the next one, one line per source paragraph, with markup, spacing paragraphs and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations are kept.
+The source is the Office of Legislative Legal Services' title file (one file for the whole of the title); this document is the one article (or part) named in the citation, from its ARTICLE (or PART) heading line to the next one (an article stops before the title-level group heading, such as LIBRARIES, that the file prints between articles), one line per source paragraph, with markup, spacing paragraphs and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations are kept.

@@ -167,7 +167,8 @@ def _only(lines: list[str], want: str, what: str) -> int:
 def crs_html_to_text(raw: bytes, slice_: dict | None) -> str:
     """The Office of Legislative Legal Services' C.R.S. title file (Word-exported HTML, one file
     per title, so the same paragraph handling as the ORS page). A document is one slice of it:
-    `{article: "73"}` runs from the line `ARTICLE 73` to the next `ARTICLE n` heading line, and
+    `{article: "73"}` runs from the line `ARTICLE 73` to the next `ARTICLE n` heading line (or to
+    the title-level group heading printed before it, which belongs to neither article), and
     `{article: "33.5", part: "19"}` runs from the body line `PART 19` inside that article to the
     next `PART n` body line. (The article's caption list prints `PART 19 COLORADO CYBERSECURITY`
     on one line; only the body heading is a line of its own.) Nothing inside a slice is dropped:
@@ -175,11 +176,21 @@ def crs_html_to_text(raw: bytes, slice_: dict | None) -> str:
     if not slice_ or not slice_.get("article"):
         raise ValueError("a Colorado statute entry needs a slice: {article: ...} or "
                          "{article: ..., part: ...}")
-    lines = ors_html_to_text(raw).splitlines()
+    all_lines = ors_html_to_text(raw).splitlines()
+    lines = all_lines
     start = _only(lines, f"ARTICLE {slice_['article']}", f"article {slice_['article']}")
     end = next((i for i in range(start + 1, len(lines)) if _CRS_ARTICLE.fullmatch(lines[i])),
                len(lines))
-    lines = lines[start:end]
+    # The file prints a title-level group heading (LIBRARIES, STATE FUNDS, ...) between the last
+    # article of one group and the next ARTICLE line, so a slice would take it as its own last
+    # line. The contents list at the top of the file names every group heading (an all-caps
+    # line followed by `Art. n` lines); an article ends before the first one of them.
+    groups = {line for i, line in enumerate(all_lines[:-1])
+              if line == line.upper() and line != line.lower()
+              and all_lines[i + 1].startswith("Art. ")}
+    lines = all_lines[start:end]
+    cut = next((i for i, line in enumerate(lines) if i and line in groups), len(lines))
+    lines = lines[:cut]
     if slice_.get("part"):
         start = _only(lines, f"PART {slice_['part']}", f"part {slice_['part']}")
         end = next((i for i in range(start + 1, len(lines)) if _CRS_PART.fullmatch(lines[i])),
@@ -329,8 +340,9 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
     if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado":
         return ("The source is the Office of Legislative Legal Services' title file (one file for the whole of "
                 "the title); this document is the one article (or part) named in the citation, "
-                "from its ARTICLE (or PART) heading line to the next one, one line per source "
-                "paragraph, with markup, spacing paragraphs and non-breaking spaces removed. "
+                "from its ARTICLE (or PART) heading line to the next one (an article stops "
+                "before the title-level group heading, such as LIBRARIES, that the file prints "
+                "between articles), one line per source paragraph, with markup, spacing paragraphs and non-breaking spaces removed. "
                 "Caption lists, source notes, editor's notes and annotations are kept.")
     if src["doc_type"] == "statute" and src["jurisdiction"] == "washington":
         return ("Text taken from the Legislature's RCW page: the citation and title, then each "

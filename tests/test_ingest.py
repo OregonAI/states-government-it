@@ -514,6 +514,21 @@ def test_crs_last_article_in_the_file_runs_to_the_end():
     assert t.splitlines()[0] == "ARTICLE 74.1" and "24-74.1-103" in t
 
 
+CRS_85 = (FIX / "crs-title-24-articles-85-90.html").read_bytes()   # contents list + arts 85, 90
+
+
+def test_crs_article_slice_stops_before_the_title_level_group_heading_of_the_next_article():
+    # Real bytes: the file prints the group heading LIBRARIES between article 85 and ARTICLE 90.
+    # It is not text of article 85 (nor of 90): the slice must end at article 85's last line.
+    lines = crs(CRS_85, {"article": "85"}).splitlines()
+    assert lines[0] == "ARTICLE 85" and lines[-1].startswith("Source: L. 2000: Entire article added")
+    assert "LIBRARIES" not in lines and "ARTICLE 90" not in lines
+    # the group heading that sits before ARTICLE 85 is not its text either
+    assert "INFORMATION TECHNOLOGY ACCESS FOR BLIND" not in lines
+    # a heading word inside ordinary text is left alone
+    assert any("libraries" in l.lower() for l in crs(CRS_85, {"article": "90"}).splitlines()[:3])
+
+
 def test_crs_part_slice_is_the_body_of_that_part_only():
     t = crs(CRS_P19, {"article": "33.5", "part": "19"})
     lines = t.splitlines()

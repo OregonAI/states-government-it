@@ -18,8 +18,10 @@ status: current
 content_mode: verbatim
 conversion_notes: The source is the Office of Legislative Legal Services' title file (one file for the
   whole of the title); this document is the one article (or part) named in the citation, from its ARTICLE
-  (or PART) heading line to the next one, one line per source paragraph, with markup, spacing paragraphs
-  and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations are kept.
+  (or PART) heading line to the next one (an article stops before the title-level group heading, such
+  as LIBRARIES, that the file prints between articles), one line per source paragraph, with markup, spacing
+  paragraphs and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations
+  are kept.
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -121,4 +123,4 @@ Source: L. 2018: Entire article added, (HB 18-1128), ch. 266, p. 1641, § 4, eff
 
 ## Curator notes
 
-The source is the Office of Legislative Legal Services' title file (one file for the whole of the title); this document is the one article (or part) named in the citation, from its ARTICLE (or PART) heading line to the next one, one line per source paragraph, with markup, spacing paragraphs and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations are kept.
+The source is the Office of Legislative Legal Services' title file (one file for the whole of the title); this document is the one article (or part) named in the citation, from its ARTICLE (or PART) heading line to the next one (an article stops before the title-level group heading, such as LIBRARIES, that the file prints between articles), one line per source paragraph, with markup, spacing paragraphs and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations are kept.
