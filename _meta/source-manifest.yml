@@ -2972,3 +2972,2240 @@ sources:
     recheck: monthly
     watch_only: true
     why_relevant: "The page that lists the official title files (HTM, PDF, DOCX) the statute entries are cut from, 'current with the changes made ... at its Second Regular Session in 2026'. Its address carries the year, so the 2027 edition will be a new page: a missing page here means the seed urls (olls.info/crs/crs2026-title-nn.htm) need moving to the new edition."
+
+  # ================================================================ California
+  # Seed list for California (issue #6). Evidence base: pages read on 2026-11-11; see each block comment for what the toolkit Fetcher could and could not reach.
+
+  # ---- Statutes: California Government, Civil and Public Contract Codes (document = one slice of the Legislature's bulk download)
+  # leginfo.legislature.ca.gov (the per-section code pages) answers the toolkit's Fetcher with HTTP 403 (Cloudflare managed challenge).
+  # The Legislature's own bulk download does load: downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip (the 2025-26 session's law
+  # tables, 1.2 GB, last modified 2026-11-08 21:26 on the directory listing). Each statute entry below is one slice of it, read by HTTP
+  # range requests with the Fetcher's client (the zip's directory, three tables, one small file per section): `slice.path` is a table-of-
+  # contents node of LAW_TOC_TBL.dat (every section under it), `slice.section` is one section number. The snapshot is a JSON bundle of
+  # that slice's raw rows and section files; the zip is not committed. The url is the zip, so a drift run would try to download 1.2 GB per
+  # entry: see the problems list of the run that added this block.
+  - id: ca-gov-11531-11544
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code §§ 11531-11544
+    title: 'Government Code, Title 2, Division 3, Part 1, Chapter 5.5: Technology (Technology Act of 2005; Office of Technology Services)'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [governance, funding, cloud-resilience]
+    recheck: monthly
+    slice: {code: GOV, path: 3.3.1.8}
+    why_relevant: 'The Office of Technology Services within the Department of Technology, the state''s general-purpose technology services provider (11534 ''to serve the common technology needs of executive branch entities''): its chief reports to the Director of Technology (11538), rates are proposed by the Director of Technology and approved by the Director of Finance (11540), the state data centers are consolidated into it (11542), and the Technology Services Revolving Fund receives its revenue (11544).'
+  - id: ca-gov-11545-11548
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code §§ 11545-11548
+    title: 'Government Code, Title 2, Division 3, Part 1, Chapter 5.6: Department of Technology'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [governance, oversight, ai, digital-services]
+    recheck: monthly
+    slice: {code: GOV, path: 3.3.1.9}
+    why_relevant: 'The enabling statute for the central IT body and the state CIO: 11545 creates the Department of Technology within the Government Operations Agency, with a Director appointed by the Governor ''subject to Senate confirmation'' who ''shall be the State Chief Information Officer''; 11546 makes it responsible for approval and oversight of IT projects and for state IT strategic plans, policies and standards; 11546.1 requires a chief information officer in each state agency and state entity; 11546.2 annual IT cost reports; 11546.45 high-risk, critical IT systems modernization; 11546.45.5 inventory of high-risk automated decision systems and definitions of artificial intelligence; 11546.46 state digital equity plan; 11546.8 the CalCompute consortium; 11547 Department of Finance fiscal oversight of IT projects. Two versions of 11546.1 are printed, as the Legislature''s table holds them.'
+  - id: ca-gov-11549-11549-10
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code §§ 11549-11549.10
+    title: 'Government Code, Title 2, Division 3, Part 1, Chapter 5.7: Office of Information Security and Office of Privacy Protection'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [cybersecurity, data, governance]
+    recheck: monthly
+    slice: {code: GOV, path: 3.3.1.10}
+    why_relevant: 'The cybersecurity statute for state agencies: 11549 creates the Office of Information Security in the Department of Technology ''to ensure the confidentiality, integrity, and availability of state systems and applications''; 11549.3 has its chief establish an information security program, publishing information security and privacy policies, standards and procedures for state agencies in the State Administrative Manual. Article 2 (11549.5-11549.10) creates the Office of Privacy Protection.'
+  - id: ca-gov-11549-63-11549-66
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code §§ 11549.63-11549.66
+    title: 'Government Code, Title 2, Division 3, Part 1, Chapter 5.9: Generative Artificial Intelligence Tools'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [ai, governance]
+    recheck: monthly
+    slice: {code: GOV, path: 3.3.1.12}
+    why_relevant: 'The statute on state agency use of generative AI (SB 896, 2024): legislative findings (11549.63), definitions (11549.64), the Department of Technology''s reporting and update duties with the Government Operations Agency, the Office of Data and Innovation and the Department of Human Resources (11549.65), and the requirement that a state agency using GenAI to communicate directly with a person about government services and benefits include a disclaimer (11549.66).'
+  - id: ca-gov-8592-30-8592-50
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code §§ 8592.30-8592.50
+    title: 'Government Code, Title 2, Division 1, Chapter 7, Article 6.4: Cybersecurity'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [cybersecurity]
+    recheck: monthly
+    slice: {code: GOV, path: 3.1.27.20}
+    why_relevant: 'Cybersecurity of state agencies'' critical infrastructure controls: definitions (8592.30), the Department of Technology''s update of the Technology Recovery Plan element of the State Administrative Manual with cybersecurity incident response standards (8592.35), agency compliance reporting (8592.40), confidentiality of the reports (8592.45), and an outreach plan by the California Cybersecurity Integration Center for the food and agriculture and water sectors (8592.50).'
+  - id: ca-gov-8586-5
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code § 8586.5
+    title: 'Government Code section 8586.5: California Cybersecurity Integration Center'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    slice: {code: GOV, section: '8586.5'}
+    why_relevant: Establishes the California Cybersecurity Integration Center under the Office of Emergency Services as 'the central organizing hub of state government's cybersecurity activities', to reduce the likelihood and severity of cyber incidents against the state's economy, critical infrastructure and public and private sector computer networks.
+  - id: ca-gov-7405
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code § 7405
+    title: 'Government Code, Title 1, Division 7, Chapter 18.1: Electronic and Information Technology'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [digital-services]
+    recheck: monthly
+    slice: {code: GOV, path: 2.10.52}
+    why_relevant: Requires state governmental entities, in developing, procuring, maintaining or using electronic or information technology, to comply with the accessibility requirements of Section 508 of the federal Rehabilitation Act (29 U.S.C. Sec. 794d) and 36 CFR Part 1194.
+  - id: ca-gov-11015-5
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code § 11015.5
+    title: 'Government Code section 11015.5: Electronic collection of personal information by state agencies'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [data, digital-services]
+    recheck: monthly
+    slice: {code: GOV, section: '11015.5'}
+    why_relevant: Every state agency that uses a method, device, identifier or database application on the internet to collect personal information electronically must prominently display a notice at the point of communication with the user.
+  - id: ca-gov-11019-9
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code § 11019.9
+    title: 'Government Code section 11019.9: Privacy policy of each state department and agency'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [data]
+    recheck: monthly
+    slice: {code: GOV, section: '11019.9'}
+    why_relevant: Each state department and state agency must enact and maintain a permanent privacy policy, in adherence with the Information Practices Act of 1977, and post it conspicuously on its Internet Web site; the section sets the principles the policy must include.
+  - id: ca-gov-11786-11786-6
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code §§ 11786-11786.6
+    title: 'Government Code, Title 2, Division 3, Part 1, Chapter 7.2: Information Technology Innovation Grants Program'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [funding, oversight]
+    recheck: monthly
+    slice: {code: GOV, path: 3.3.1.14}
+    why_relevant: 'An IT grant program for state agencies: the Information Technology Innovation Council (11786), grant guidelines and applications (11786.1), evaluation and funding notice (11786.2, 11786.3), independent evaluation (11786.4), and funding subject to appropriation (11786.6). The chapter still names the Department of Information Technology, which no longer exists; it is in force as published.'
+  - id: ca-gov-7929-210
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Gov. Code § 7929.210
+    title: 'Government Code section 7929.210: Information security records of a public agency (California Public Records Act)'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [cybersecurity, data]
+    recheck: monthly
+    slice: {code: GOV, section: '7929.210'}
+    why_relevant: The Public Records Act's exemption for a public agency's information security record whose disclosure 'would reveal vulnerabilities to, or otherwise increase the potential for an attack on, an information technology system of a public agency'; records stored within an IT system that are not otherwise exempt stay disclosable. The one IT-specific provision of the Act; the rest of the Act is out of scope.
+  - id: ca-civ-1798-1798-78
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Civ. Code §§ 1798-1798.78
+    title: 'Civil Code, Division 3, Part 4, Title 1.8, Chapter 1: Information Practices Act of 1977'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [data]
+    recheck: monthly
+    slice: {code: CIV, path: 8.4.34.1}
+    why_relevant: 'The statute that governs how state agencies collect, maintain, use and disclose personal information about individuals: agency requirements, conditions of disclosure, accounting of disclosures, individual access and correction, civil remedies and penalties, and the agency breach notification requirement of section 1798.29.'
+  - id: ca-pcc-12100-12113
+    url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
+    format: json
+    citation: Cal. Pub. Contract Code §§ 12100-12113
+    title: 'Public Contract Code, Division 2, Part 2, Chapter 3: Acquisition of Information Technology Goods and Services'
+    doc_type: statute
+    jurisdiction: california
+    issuing_body: California Legislature
+    tags: [procurement]
+    recheck: monthly
+    slice: {code: PCC, path: 3.2.6}
+    why_relevant: 'The state''s information technology acquisition law: 12100 finds that ''the unique aspects of information technology goods and services'' warrant a separate chapter; the Department of General Services and the Department of Technology maintain IT acquisition policies in the State Administrative Manual (12102, 12102.1), award rules for large-scale systems integration projects (12102.2), and postevaluation of IT services contracts (12102.3).'
+
+  # ---- Administrative rules: California Code of Regulations (CCR)
+  # The CCR is published only through Westlaw (OAL contract with Thomson Reuters; oal.ca.gov answered the toolkit's Fetcher with HTTP 403, Cloudflare managed challenge), so
+  # the expectation was that every California rule is a stub. Two chapters are the exception: the Secretary of State publishes them on its own site (www.sos.ca.gov, which
+  # loads for the Fetcher), under Title 2, Division 7. No Department of Technology or Office of Information Security regulation was found (a web search on 2026-11-11
+  # found only conflict-of-interest codes under Title 2, Division 8, which are out of scope).
+  - id: ca-ccr-2-div-7-ch-10
+    url: https://www.sos.ca.gov/administration/regulations/current-regulations/technology/digital-signatures
+    format: html
+    citation: Cal. Code Regs., tit. 2, div. 7, ch. 10
+    title: Digital Signatures
+    doc_type: rule
+    jurisdiction: california
+    issuing_body: California Secretary of State
+    tags: [digital-services, cybersecurity]
+    recheck: monthly
+    why_relevant: 'The Secretary of State''s regulations (sections 22000-22005) on digital signatures used with public entities: a digital signature must be created by a technology acceptable for use by the State of California (22001), the criteria for acceptable technologies (22002, 22003), and the criteria a public entity must apply before accepting a digital signature (22005: security of identifying the signer, security of transmission, certificate format).'
+  - id: ca-ccr-2-div-7-ch-15
+    url: https://www.sos.ca.gov/administration/regulations/current-regulations/technology/trustworthy-electronic-document-or-record-preservation
+    format: html
+    citation: Cal. Code Regs., tit. 2, div. 7, ch. 15
+    title: Trustworthy Electronic Document or Record Preservation
+    doc_type: rule
+    jurisdiction: california
+    issuing_body: California Secretary of State
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    why_relevant: The uniform statewide standards (sections 22620.1-22620.8) adopted by the Secretary of State, in consultation with the Department of General Services, for recording, storing and reproducing documents and records in electronic media; they apply to state agencies under Government Code section 12168.7 (b) and (d) and set the conditions of a trusted system.
+
+  # ---- Policy: State Administrative Manual (SAM) chapters on information technology, from the Department of General Services
+  # www.dgs.ca.gov serves each chapter as one page (/Resources/SAM/TOC/<chapter>/Chapter-View). The chapter list is the SAM table of
+  # contents (https://www.dgs.ca.gov/Resources/SAM/TOC), read on 2026-11-11; the IT chapters are 4800 to 5300 and 5900. SAM is the policy
+  # manual the Department of Technology and the Office of Information Security write their policies into (Gov. Code 11549.3 (a)(1)).
+  - id: ca-sam-4800
+    url: https://www.dgs.ca.gov/Resources/SAM/TOC/4800/Chapter-View
+    format: html
+    citation: SAM chapter 4800
+    title: 'State Administrative Manual chapter 4800: Department of Technology'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of General Services (publisher); chapter policy of the Department of Technology and the Office of Information Security
+    tags: [governance, oversight, digital-services, cloud-resilience]
+    recheck: monthly
+    why_relevant: State information management principles (4800); agency information officer and state entity CIO responsibilities (4815); the definition of IT and the state information management authority (4819.2-4819.3); IT project approval authority, lifecycle, reporting and oversight, delegation, cost delegation and certification of compliance with IT policies (4819.34-4819.41); the IT accessibility policy and its exceptions (4833-4833.2); the IT infrastructure policy (4834); the California software management policy (4846-4846.2); IT training (4854).
+  - id: ca-sam-4900
+    url: https://www.dgs.ca.gov/Resources/SAM/TOC/4900/Chapter-View
+    format: html
+    citation: SAM chapter 4900
+    title: 'State Administrative Manual chapter 4900: Information Technology - California Department of Technology'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of General Services (publisher); chapter policy of the Department of Technology and the Office of Information Security
+    tags: [oversight, governance, ai, cloud-resilience, procurement]
+    recheck: monthly
+    why_relevant: 'Agency information management strategy (4900-4904); enterprise architecture (4906); project management and the Project Approval Lifecycle (4910-4930); IT project oversight, independent verification and validation, compliance review and audit (4940-4943); special project, maintenance and operations and post-implementation reports (4945-4947); data center consolidation (4982); cloud computing policy (4983); open source and code reuse (4984); internet policy (4985); the generative AI policy (4986-4986.13: use identification and high-risk inventory, training data, hosting, project approval, procurement, privacy, security, acceptable use, workforce training); desktop and mobile computing (4989).'
+  - id: ca-sam-5000
+    url: https://www.dgs.ca.gov/Resources/SAM/TOC/5000/Chapter-View
+    format: html
+    citation: SAM chapter 5000
+    title: 'State Administrative Manual chapter 5000: Information Technology - Maintenance Records'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of General Services (publisher); chapter policy of the Department of Technology and the Office of Information Security
+    tags: [governance]
+    recheck: monthly
+    why_relevant: State policy on IT equipment acquisition, maintenance and disposition (5001) and on recording repair and maintenance data (5010).
+  - id: ca-sam-5100
+    url: https://www.dgs.ca.gov/Resources/SAM/TOC/5100/Chapter-View
+    format: html
+    citation: SAM chapter 5100
+    title: 'State Administrative Manual chapter 5100: Information Technology - Department of Technology'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of General Services (publisher); chapter policy of the Department of Technology and the Office of Information Security
+    tags: [cloud-resilience, data, digital-services]
+    recheck: monthly
+    why_relevant: 'Technology standards (5100: ANSI, NIST and FIPS standards for agency planning and operations); the open data policy (5160-5160.2); the workgroup collaboration platform policy (5170); website standards and the California state website template (5190-5190.2); the internet domain name policy (5195-5195.2).'
+  - id: ca-sam-5200
+    url: https://www.dgs.ca.gov/Resources/SAM/TOC/5200/Chapter-View
+    format: html
+    citation: SAM chapter 5200
+    title: 'State Administrative Manual chapter 5200: Information Technology - California Department of General Services'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of General Services (publisher); chapter policy of the Department of Technology and the Office of Information Security
+    tags: [procurement]
+    recheck: monthly
+    why_relevant: 'Policy for information technology procurements under Public Contract Code 12100 et seq.: responsibilities and authority (5200.5), acquisition authority for IT goods and services and Department of Technology review of procurement documents (5210-5211), uniform standards, acquisition planning, principles for IT procurement and exemptions (5230-5230.6), and leveraged procurement agreements (5291).'
+  - id: ca-sam-5300
+    url: https://www.dgs.ca.gov/Resources/SAM/TOC/5300/Chapter-View
+    format: html
+    citation: SAM chapter 5300
+    title: 'State Administrative Manual chapter 5300: Information Technology - Office of Information Security'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of General Services (publisher); chapter policy of the Department of Technology and the Office of Information Security
+    tags: [cybersecurity, data, cloud-resilience]
+    recheck: monthly
+    why_relevant: 'The state''s information security and privacy policy for state entities: governing provisions, applicability and minimum security controls (5300-5300.5); the information security program, roles, risk management and metrics (5305); privacy statements, limiting collection, use and disclosure, individual access, retention and privacy impact assessments (5310); security integration in acquisition and the system development lifecycle (5315); training and awareness (5320); technology recovery planning (5325); compliance and monitoring (5330-5335); incident management and reporting (5340); vulnerability management, encryption, endpoint defense, identity and access management and physical security (5345-5365).'
+  - id: ca-sam-5900
+    url: https://www.dgs.ca.gov/Resources/SAM/TOC/5900/Chapter-View
+    format: html
+    citation: SAM chapter 5900
+    title: 'State Administrative Manual chapter 5900: Information Technology - Disposal of IT Equipment'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of General Services (publisher); chapter policy of the Department of Technology and the Office of Information Security
+    tags: [governance]
+    recheck: monthly
+    why_relevant: 'Policy on the disposal of surplus IT equipment (5901-5903) and of surplus IT supplies (5951-5953): Department of General Services approval, reutilization before disposal, and property accounting.'
+
+  # ---- Policy stubs: Statewide Information Management Manual (SIMM), California Department of Technology
+  # SIMM is the Department of Technology's library of statewide IT policies, standards, instructions, forms and templates. The list of items below is the
+  # SIMM index https://www.cdt.ca.gov/policy/simm/ (37 items) plus the document list of its SIMM 5300 page and the sub-pages of SIMM 19, read on
+  # 2026-11-11 with a web-reading tool. Granularity: one entry per SIMM section, except SIMM 19 (one per sub-section 19A to 19H) and SIMM 5300 (one per
+  # numbered standard, form or worksheet the page lists). Each entry's own page may carry further attachments (forms, templates, worksheets); those are
+  # not separate entries. Every entry is a stub: see stub_reason.
+  - id: ca-simm-05
+    url: https://www.cdt.ca.gov/policy/simm/simm-05a/
+    format: html
+    citation: SIMM 05
+    title: Reporting Schedules
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 05, Reporting Schedules: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-10
+    url: https://www.cdt.ca.gov/policy/simm/simm-10/
+    format: html
+    citation: SIMM 10
+    title: Project Reporting Flow Process
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 10, Project Reporting Flow Process: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-15
+    url: https://www.cdt.ca.gov/policy/simm/simm-15/
+    format: html
+    citation: SIMM 15
+    title: Project Cost Delegation (PCB)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 15, Project Cost Delegation (PCB): an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-17
+    url: https://www.cdt.ca.gov/policy/simm/simm-17/
+    format: html
+    citation: SIMM 17
+    title: California Project Management Framework (CA-PMF)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 17, California Project Management Framework (CA-PMF): an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-18
+    url: https://www.cdt.ca.gov/policy/simm/simm-18/
+    format: html
+    citation: SIMM 18
+    title: IT Exemptions
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 18, IT Exemptions: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/
+    format: html
+    citation: SIMM 19
+    title: Project Approval Lifecycle (PAL) and Project Delivery Lifecycle (PDL)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19, Project Approval Lifecycle (PAL) and Project Delivery Lifecycle (PDL): an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19a
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/simm-19a
+    format: html
+    citation: SIMM 19A
+    title: Business Analysis
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19A, Business Analysis: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19b
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/simm-19b
+    format: html
+    citation: SIMM 19B
+    title: Alternatives Analysis
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19B, Alternatives Analysis: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19c
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/simm-19c
+    format: html
+    citation: SIMM 19C
+    title: Solution Analysis
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19C, Solution Analysis: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19d
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/simm-19d
+    format: html
+    citation: SIMM 19D
+    title: Project Readiness and Approval
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19D, Project Readiness and Approval: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19e
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/simm-19e
+    format: html
+    citation: SIMM 19E
+    title: Project Delegation Request
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19E, Project Delegation Request: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19f
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/simm-19f
+    format: html
+    citation: SIMM 19F
+    title: Financial Analysis Worksheets
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, funding]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19F, Financial Analysis Worksheets: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19g
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/simm-19g
+    format: html
+    citation: SIMM 19G
+    title: 'Project approval: Executive Transmittal'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19G, Project approval: Executive Transmittal: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-19h
+    url: https://www.cdt.ca.gov/policy/simm/simm-19/simm-19h
+    format: html
+    citation: SIMM 19H
+    title: Project Delivery Lifecycle
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 19H, Project Delivery Lifecycle: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-22
+    url: https://www.cdt.ca.gov/policy/simm/simm-22/
+    format: html
+    citation: SIMM 22
+    title: COTS/SaaS Acquisition
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [procurement, oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 22, COTS/SaaS Acquisition: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-25
+    url: https://www.cdt.ca.gov/policy/simm/simm-25/
+    format: html
+    citation: SIMM 25
+    title: IT Accessibility Resources
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 25, IT Accessibility Resources: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-30
+    url: https://www.cdt.ca.gov/policy/simm/simm-30/
+    format: html
+    citation: SIMM 30
+    title: Special Project Report (SPR)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 30, Special Project Report (SPR): an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-40
+    url: https://www.cdt.ca.gov/policy/simm/simm-40/
+    format: html
+    citation: SIMM 40
+    title: Internet Domain Name Taxonomy
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 40, Internet Domain Name Taxonomy: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-45
+    url: https://www.cdt.ca.gov/policy/simm/simm-45/
+    format: html
+    citation: SIMM 45
+    title: IT Project Oversight Framework
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 45, IT Project Oversight Framework: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-50
+    url: https://www.cdt.ca.gov/policy/simm/simm-50/
+    format: html
+    citation: SIMM 50
+    title: Post Implementation Evaluation Report (PIER)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 50, Post Implementation Evaluation Report (PIER): an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-55
+    url: https://www.cdt.ca.gov/policy/simm/simm-55/
+    format: html
+    citation: SIMM 55
+    title: IT Cost Report
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, funding]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 55, IT Cost Report: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-58
+    url: https://www.cdt.ca.gov/policy/simm/simm-58/
+    format: html
+    citation: SIMM 58
+    title: Statewide Enterprise Architecture
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 58, Statewide Enterprise Architecture: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-60
+    url: https://www.cdt.ca.gov/policy/simm/simm-60/
+    format: html
+    citation: SIMM 60
+    title: Agency Information Management Strategy (AIMS)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 60, Agency Information Management Strategy (AIMS): an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-66
+    url: https://www.cdt.ca.gov/policy/simm/simm-66B
+    format: html
+    citation: SIMM 66
+    title: Social Media Standards
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 66, Social Media Standards: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-71
+    url: https://www.cdt.ca.gov/policy/simm/simm-71/
+    format: html
+    citation: SIMM 71
+    title: Certification of Compliance with IT Policies
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [governance, oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 71, Certification of Compliance with IT Policies: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-80
+    url: https://www.cdt.ca.gov/policy/simm/simm-80/
+    format: html
+    citation: SIMM 80
+    title: California Software Management Policy Annual Statement of Compliance
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 80, California Software Management Policy Annual Statement of Compliance: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-110
+    url: https://www.cdt.ca.gov/policy/simm/simm-110/
+    format: html
+    citation: SIMM 110
+    title: AIMS Documentation Guidelines
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 110, AIMS Documentation Guidelines: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-120
+    url: https://www.cdt.ca.gov/policy/simm/simm-120/
+    format: html
+    citation: SIMM 120
+    title: Software Management Plan Guidelines
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 120, Software Management Plan Guidelines: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-130
+    url: https://www.cdt.ca.gov/policy/simm/simm-130/
+    format: html
+    citation: SIMM 130
+    title: Workgroup Collaboration Platform Guidelines
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 130, Workgroup Collaboration Platform Guidelines: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-140
+    url: https://www.cdt.ca.gov/policy/simm/simm-140/
+    format: html
+    citation: SIMM 140
+    title: Cloud Security Guide
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 140, Cloud Security Guide: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-141
+    url: https://www.cdt.ca.gov/policy/simm/simm-141/
+    format: html
+    citation: SIMM 141
+    title: CA Cloud Services Assessment Guide
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 141, CA Cloud Services Assessment Guide: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-160
+    url: https://www.cdt.ca.gov/policy/simm/simm-160/
+    format: html
+    citation: SIMM 160
+    title: Maintenance and Operations Plan Guidelines
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 160, Maintenance and Operations Plan Guidelines: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-170
+    url: https://www.cdt.ca.gov/policy/simm/simm-170/
+    format: html
+    citation: SIMM 170
+    title: Requirements Guidelines Set
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 170, Requirements Guidelines Set: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-180
+    url: https://www.cdt.ca.gov/policy/simm/simm-180/
+    format: html
+    citation: SIMM 180
+    title: Statement of Work (SOW) Guidelines
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 180, Statement of Work (SOW) Guidelines: an item of the California Department of Technology''s statewide IT policy library.'
+  - id: ca-simm-150
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-150-GenAI-Risk-Assessment-for-General-Office-Productivity.pdf
+    format: pdf
+    citation: SIMM 150
+    title: Generative Artificial Intelligence Risk Assessment for General Office Productivity
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [ai, cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 150 (listed on the SIMM index as ''Generative Artificial Intelligence Risk Assessment: EZ Forms''; the PDF on the SIMM 150 page is dated September 2025): the GenAI risk assessment state entities complete for general office productivity tools.'
+  - id: ca-simm-158
+    url: https://www.cdt.ca.gov/services/ea-home/
+    format: html
+    citation: SIMM 158
+    title: Enterprise Architecture Practices
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 158, Enterprise Architecture Practices: the SIMM index links this item to the Department of Technology''s enterprise architecture home page, not to a /policy/simm/ page.'
+  - id: ca-simm-5300-a
+    url: https://www.cdt.ca.gov/policy/simm/simm-5300/
+    format: html
+    citation: SIMM 5300-A
+    title: SIMM 5300-A (title not published; classified confidential)
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: 'www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit''s Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site''s robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level. NOT PUBLIC: the SIMM 5300 page says ''SIMM 5300-A contains detailed security control content and classified as confidential'', ''available to designated personnel listed on SIMM 5330-A'' and ''Vendor access will only be provided under Non-Disclosure Agreement during state entity procurement processes''. The url is the SIMM 5300 page that says so; the other documents that page lists are separate entries.'
+    why_relevant: 'SIMM 5300-A, the detailed security control content behind SAM chapter 5300: not public.'
+  - id: ca-simm-5300-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5300-B-Foundational-Framework.pdf
+    format: pdf
+    citation: SIMM 5300-B
+    title: Foundational Framework
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level. The page also lists an .xlsm version of the same item.
+    why_relevant: 'SIMM 5300-B, Foundational Framework: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5300-c
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5300-C-CACybersecurity-Maturity-Metrics.xlsx
+    format: xlsx
+    citation: SIMM 5300-C
+    title: CA Cybersecurity Maturity Metrics
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5300-C, CA Cybersecurity Maturity Metrics: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5305-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5305-A-Information-Security-Program-Management-Standard.pdf
+    format: pdf
+    citation: SIMM 5305-A
+    title: Information Security Program Management Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5305-A, Information Security Program Management Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5305-c-worksheet
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5305-C-Risk-Register-and-Plan-of-Action-and-Milestones-POAM-Worksheet.xlsx
+    format: xlsx
+    citation: SIMM 5305-C
+    title: Risk Register and Plan of Action and Milestones (POAM) Worksheet
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5305-C, Risk Register and Plan of Action and Milestones (POAM) Worksheet: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5305-c-certification
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5305-C-Risk-Register-and-Plan-of-Action-and-Milestones-POAM-Certification.pdf
+    format: pdf
+    citation: SIMM 5305-C
+    title: Risk Register and Plan of Action and Milestones (POAM) Certification
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5305-C, Risk Register and Plan of Action and Milestones (POAM) Certification: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5305-f
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5305-F-Generative-Artificial-Intelligence-Risk-Assessment.pdf
+    format: pdf
+    citation: SIMM 5305-F
+    title: Generative Artificial Intelligence Risk Assessment
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [ai, cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5305-F, Generative Artificial Intelligence Risk Assessment: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5310-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5310-A-Privacy-Statement-and-Notices-Standard.pdf
+    format: pdf
+    citation: SIMM 5310-A
+    title: Privacy Statement and Notices Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [data]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5310-A, Privacy Statement and Notices Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5310-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5310-B-Privacy-Individual-Access-Standard.pdf
+    format: pdf
+    citation: SIMM 5310-B
+    title: Privacy Individual Access Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [data]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5310-B, Privacy Individual Access Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5310-c
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5310-C-Privacy-Threshold-Assessment-and-Privacy-Impact-Assessments.docx
+    format: docx
+    citation: SIMM 5310-C
+    title: Privacy Threshold Assessment and Privacy Impact Assessments
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [data]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5310-C, Privacy Threshold Assessment and Privacy Impact Assessments: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5315-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5315-A-Email-Threat-Protection-Standard.pdf
+    format: pdf
+    citation: SIMM 5315-A
+    title: Email Threat Protections Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5315-A, Email Threat Protections Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5315-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5315-B-Cloud-Security-Standard.pdf
+    format: pdf
+    citation: SIMM 5315-B
+    title: Cloud Security Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5315-B, Cloud Security Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5320-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5320-A-Phishing-Exercise-Standard.pdf
+    format: pdf
+    citation: SIMM 5320-A
+    title: Phishing Exercise Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5320-A, Phishing Exercise Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5325-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5325-A-Technology-Recovery-Plan-Instructions.pdf
+    format: pdf
+    citation: SIMM 5325-A
+    title: Technology Recovery Plan Instructions
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5325-A, Technology Recovery Plan Instructions: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5325-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5325-B-Technology-Recovery-Plan-Certification.pdf
+    format: pdf
+    citation: SIMM 5325-B
+    title: Technology Recovery Program Certification
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5325-B, Technology Recovery Program Certification: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5330-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-A-Designation-Letter.pdf
+    format: pdf
+    citation: SIMM 5330-A
+    title: Designation Letter
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5330-A, Designation Letter: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5330-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-B-Information-Security-and-Privacy-Program-Compliance-Certification.pdf
+    format: pdf
+    citation: SIMM 5330-B
+    title: Information Security and Privacy Program Compliance Certification
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, data]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5330-B, Information Security and Privacy Program Compliance Certification: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5330-c
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-C-Information-Security-Compliance-Reporting-Schedule.pdf
+    format: pdf
+    citation: SIMM 5330-C
+    title: Information Security Compliance Reporting Schedule
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5330-C, Information Security Compliance Reporting Schedule: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5330-d
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-D-Designation-Letter-Instructions.pdf
+    format: pdf
+    citation: SIMM 5330-D
+    title: Designation Letter Instructions
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5330-D, Designation Letter Instructions: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5330-f
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-F-Information-Security-and-Privacy-Program-Compliance-Certification-for-Independents-and-Constitutionals.pdf
+    format: pdf
+    citation: SIMM 5330-F
+    title: Compliance Certification for Independents and Constitutionals
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, data]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5330-F, Compliance Certification for Independents and Constitutionals: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5330-h
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-H-Information-Security-Compliance-and-Enforcement-Standard.pdf
+    format: pdf
+    citation: SIMM 5330-H
+    title: Information Security Policy Compliance and Enforcement Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5330-H, Information Security Policy Compliance and Enforcement Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5335-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5335-A-Incident-Reporting-and-Response-Instructions.pdf
+    format: pdf
+    citation: SIMM 5335-A
+    title: Security Event Notification and Response Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5335-A, Security Event Notification and Response Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5335-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5335-B-Continuous-Monitoring-and-Event-Management-Standard.pdf
+    format: pdf
+    citation: SIMM 5335-B
+    title: Continuous Monitoring and Event Management Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5335-B, Continuous Monitoring and Event Management Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5335-c
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5335-C-MITRE-ATTCK-Framework.xlsx
+    format: xlsx
+    citation: SIMM 5335-C
+    title: MITRE ATT&CK Framework
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5335-C, MITRE ATT&CK Framework: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5340-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5340-A-Information-Security-Incident-Response-and-Reporting.pdf
+    format: pdf
+    citation: SIMM 5340-A
+    title: Information Security Incident Response and Reporting
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5340-A, Information Security Incident Response and Reporting: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5340-c
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5340-C-Requirements-to-Respond-to-Incidents-Involving-a-Breach-of-Personal-Information.pdf
+    format: pdf
+    citation: SIMM 5340-C
+    title: Requirements to Respond to Incidents Involving a Breach of Personal Information
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, data]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5340-C, Requirements to Respond to Incidents Involving a Breach of Personal Information: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5345-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5345-A-Vulnerability-Management-Standard.pdf
+    format: pdf
+    citation: SIMM 5345-A
+    title: Vulnerability Management Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5345-A, Vulnerability Management Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5350-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5350-A-Zero-Trust-Architecture-Standard.pdf
+    format: pdf
+    citation: SIMM 5350-A
+    title: Zero Trust Architecture Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5350-A, Zero Trust Architecture Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5350-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5350-B-Zero-Trust-Architecture-Roadmap.xlsx
+    format: xlsx
+    citation: SIMM 5350-B
+    title: Zero Trust Architecture Roadmap
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5350-B, Zero Trust Architecture Roadmap: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5355-a
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5355-A-Endpoint-Protection-Standard.pdf
+    format: pdf
+    citation: SIMM 5355-A
+    title: Endpoint Protection Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5355-A, Endpoint Protection Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5355-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5355-B-Server-Hardening-Standard.pdf
+    format: pdf
+    citation: SIMM 5355-B
+    title: Server Hardening Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5355-B, Server Hardening Standard: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5360-b
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5360-B-Remote-Access-Agreement.pdf
+    format: pdf
+    citation: SIMM 5360-B
+    title: Remote Access Agreement
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5360-B, Remote Access Agreement: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5360-c
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5360-C-Multi-Factor-Authenticaiton.pdf
+    format: pdf
+    citation: SIMM 5360-C
+    title: Multi-Factor Authentication
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5360-C, Multi-Factor Authentication: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5360-d
+    url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5360-D-Multi-Factor-Authenticaiton-Supplemental.pdf
+    format: pdf
+    citation: SIMM 5360-D
+    title: Multi-Factor Authentication Supplemental
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5360-D, Multi-Factor Authentication Supplemental: a document of the California Department of Technology''s SIMM 5300 information security series.'
+  - id: ca-simm-5305-b-instructions
+    url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5305-b-risk-register-and-plan-of-action-and-milestones-instructions/
+    format: html
+    citation: SIMM 5305-B
+    title: Risk Register and Plan of Action and Milestones Instructions
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5305-B, Risk Register and Plan of Action and Milestones Instructions: a page under the California Department of Technology''s SIMM 5300 information security series (url confirmed in the CDT sitemap fetched by the toolkit''s Fetcher on 2026-11-11 for the SIMM 5355-B, 5360-A, 5330-H and 5305 pages that appear in it).'
+  - id: ca-simm-5305-bc-faqs
+    url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5305-b-and-c-risk-register-and-plan-of-action-and-milestones-frequently-asked-questions-faqs/
+    format: html
+    citation: SIMM 5305-B and 5305-C FAQs
+    title: Risk Register and Plan of Action and Milestones Frequently Asked Questions
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5305-B and 5305-C FAQs, Risk Register and Plan of Action and Milestones Frequently Asked Questions: a page under the California Department of Technology''s SIMM 5300 information security series (url confirmed in the CDT sitemap fetched by the toolkit''s Fetcher on 2026-11-11 for the SIMM 5355-B, 5360-A, 5330-H and 5305 pages that appear in it).'
+  - id: ca-simm-5355-b-page
+    url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5355-b-office-of-information-security-server-hardening-standard/
+    format: html
+    citation: SIMM 5355-B (page)
+    title: Office of Information Security Server Hardening Standard (page)
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5355-B (page), Office of Information Security Server Hardening Standard (page): a page under the California Department of Technology''s SIMM 5300 information security series (url confirmed in the CDT sitemap fetched by the toolkit''s Fetcher on 2026-11-11 for the SIMM 5355-B, 5360-A, 5330-H and 5305 pages that appear in it).'
+  - id: ca-simm-5360-a
+    url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5360-a-telework-and-remote-access-security-standard/
+    format: html
+    citation: SIMM 5360-A
+    title: Telework and Remote Access Security Standard
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5360-A, Telework and Remote Access Security Standard: a page under the California Department of Technology''s SIMM 5300 information security series (url confirmed in the CDT sitemap fetched by the toolkit''s Fetcher on 2026-11-11 for the SIMM 5355-B, 5360-A, 5330-H and 5305 pages that appear in it).'
+  - id: ca-simm-5330-h-page
+    url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5330-h-office-of-information-security-information-security-policy-compliance-and-enforcement-standard/
+    format: html
+    citation: SIMM 5330-H (page)
+    title: Office of Information Security Information Security Policy Compliance and Enforcement Standard (page)
+    doc_type: standard
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'SIMM 5330-H (page), Office of Information Security Information Security Policy Compliance and Enforcement Standard (page): a page under the California Department of Technology''s SIMM 5300 information security series (url confirmed in the CDT sitemap fetched by the toolkit''s Fetcher on 2026-11-11 for the SIMM 5355-B, 5360-A, 5330-H and 5305 pages that appear in it).'
+
+  # ---- Policy stubs: Technology Letters (TL), California Department of Technology
+  # The Technology Letters index https://www.cdt.ca.gov/policy/technology-letters/ lists 84 entries (TL 11-01 to 26-02), each marked Active or Superseded, read
+  # on 2026-11-11 with a web-reading tool. Only the Active ones are seeded ('in force only'); the Superseded ones are in the left-out record. The titles are as
+  # the index printed them (the reading tool's transcription: unconfirmed at the byte level). A Technology Letter announces or changes a SIMM or SAM item.
+  - id: ca-tl-26-02
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-26-02/
+    format: html
+    citation: Technology Letter 26-02
+    title: Project Approval Lifecycle (PAL) and Project Delivery Lifecycle (PDL) Pathway Options
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 26-02, ''Project Approval Lifecycle (PAL) and Project Delivery Lifecycle (PDL) Pathway Options'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-26-01
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-26-01/
+    format: html
+    citation: Technology Letter 26-01
+    title: SIMM 5340-A Information Security Incident Response and Reporting
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 26-01, ''SIMM 5340-A Information Security Incident Response and Reporting'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-25-05
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-05/
+    format: html
+    citation: Technology Letter 25-05
+    title: SIMM 5350-A Zero Trust Architecture Standard and SIMM 5350-B Zero Trust Architecture Roadmap
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 25-05, ''SIMM 5350-A Zero Trust Architecture Standard and SIMM 5350-B Zero Trust Architecture Roadmap'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-25-04
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-04/
+    format: html
+    citation: Technology Letter 25-04
+    title: New SIMM 5335-B Continuous Security Monitoring and Event Management Standard and SIMM 5335-C MITRE ATT&CK Framework
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 25-04, ''New SIMM 5335-B Continuous Security Monitoring and Event Management Standard and SIMM 5335-C MITRE ATT&CK Framework'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-25-03
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-03/
+    format: html
+    citation: Technology Letter 25-03
+    title: SIMM 5320-A Phishing Exercise Standard
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 25-03, ''SIMM 5320-A Phishing Exercise Standard'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-25-02
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-02/
+    format: html
+    citation: Technology Letter 25-02
+    title: SIMM 5330-A Designation Letter and SIMM 5330-D Designation Letter Instructions
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 25-02, ''SIMM 5330-A Designation Letter and SIMM 5330-D Designation Letter Instructions'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-25-01
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-01/
+    format: html
+    citation: Technology Letter 25-01
+    title: Information Technology (IT) Policies for Generative Artificial Intelligence (GenAI)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [ai, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 25-01, ''Information Technology (IT) Policies for Generative Artificial Intelligence (GenAI)'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-24-05
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-05/
+    format: html
+    citation: Technology Letter 24-05
+    title: New SIMM 5330-H Information Security Policy Compliance and Enforcement Standard
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 24-05, ''New SIMM 5330-H Information Security Policy Compliance and Enforcement Standard'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-24-04
+    url: https://www.cdt.ca.gov/policy/technology-letter-24-04/
+    format: html
+    citation: Technology Letter 24-04
+    title: New SIMM 5355-B Server Hardening Standard & SIMM 5330-G Supported Technology Program Agreement
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 24-04, ''New SIMM 5355-B Server Hardening Standard & SIMM 5330-G Supported Technology Program Agreement'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-24-03
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-03/
+    format: html
+    citation: Technology Letter 24-03
+    title: Technology Letter 24-03 (GenAI inventory, procurement and risk assessment update to TL 24-01; full title not read)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [ai]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 24-03, ''Technology Letter 24-03 (GenAI inventory, procurement and risk assessment update to TL 24-01; full title not read)'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-24-02
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-02/
+    format: html
+    citation: Technology Letter 24-02
+    title: IT Training and Employee Development Policy Update
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 24-02, ''IT Training and Employee Development Policy Update'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-24-01
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-01/
+    format: html
+    citation: Technology Letter 24-01
+    title: Generative Artificial Intelligence (GenAI) Inventory, Procurement, and Risk Assessment for Executive Order N-12-23
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [ai]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 24-01, ''Generative Artificial Intelligence (GenAI) Inventory, Procurement, and Risk Assessment for Executive Order N-12-23'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-23-03
+    url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-23-03/
+    format: html
+    citation: Technology Letter 23-03
+    title: Update To Cloud Computing Policy – Cloud Smart
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 23-03, ''Update To Cloud Computing Policy – Cloud Smart'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-23-01
+    url: https://www.cdt.ca.gov/technology-letter-23-01/
+    format: html
+    citation: Technology Letter 23-01
+    title: Multi-Factor Authentication Standard
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 23-01, ''Multi-Factor Authentication Standard'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-22-02
+    url: https://www.cdt.ca.gov/policy/technology-letters/22-02/
+    format: html
+    citation: Technology Letter 22-02
+    title: Internet Access Policy
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 22-02, ''Internet Access Policy'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-21-02
+    url: https://www.cdt.ca.gov/policy/technology-letters/21-02/
+    format: html
+    citation: Technology Letter 21-02
+    title: Internet Domain Name Policy Update
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 21-02, ''Internet Domain Name Policy Update'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-21-01
+    url: https://www.cdt.ca.gov/wp-content/uploads/2021/03/TL-21-01-Project-Cost-Delegation_3.21_2021.pdf
+    format: pdf
+    citation: Technology Letter 21-01
+    title: Project Cost Delegation
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 21-01, ''Project Cost Delegation'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-20-01
+    url: https://www.cdt.ca.gov/wp-content/uploads/2020/01/TL-20-01.pdf
+    format: pdf
+    citation: Technology Letter 20-01
+    title: Workgroup Collaboration Platform
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 20-01, ''Workgroup Collaboration Platform'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-19-02
+    url: https://www.cdt.ca.gov/wp-content/uploads/2019/12/TL-19-02.pdf
+    format: pdf
+    citation: Technology Letter 19-02
+    title: Post Evaluation for IT Services Contracts
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [procurement, oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 19-02, ''Post Evaluation for IT Services Contracts'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-19-01
+    url: https://www.cdt.ca.gov/wp-content/uploads/2019/03/TL-19-01.pdf
+    format: pdf
+    citation: Technology Letter 19-01
+    title: Open Data
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [data]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 19-01, ''Open Data'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-18-06
+    url: https://www.cdt.ca.gov/wp-content/uploads/2018/09/TL-18-06.pdf
+    format: pdf
+    citation: Technology Letter 18-06
+    title: IT Project Procurement Authority
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 18-06, ''IT Project Procurement Authority'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-18-05
+    url: https://www.cdt.ca.gov/wp-content/uploads/2021/04/TL-18-05.pdf
+    format: pdf
+    citation: Technology Letter 18-05
+    title: Website Accessibility Certification
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 18-05, ''Website Accessibility Certification'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-18-04
+    url: https://www.cdt.ca.gov/wp-content/uploads/2018/07/TL-18-04_2018-0725.pdf
+    format: pdf
+    citation: Technology Letter 18-04
+    title: Website Standards
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 18-04, ''Website Standards'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-18-03
+    url: https://www.cdt.ca.gov/wp-content/uploads/2018/06/TL18-03RecoveryResponse-June2018-1.pdf
+    format: pdf
+    citation: Technology Letter 18-03
+    title: Recovery and Response Plans for Critical Infrastructure
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 18-03, ''Recovery and Response Plans for Critical Infrastructure'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-18-02
+    url: https://www.cdt.ca.gov/wp-content/uploads/2018/05/TL-18-02-OSCodeReuse_2018-0419.pdf
+    format: pdf
+    citation: Technology Letter 18-02
+    title: Open Source and Code Reuse
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 18-02, ''Open Source and Code Reuse'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-17-07
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/12/TL-17-07_2017-1212.pdf
+    format: pdf
+    citation: Technology Letter 17-07
+    title: Updated Project Status Report and Independent Project Oversight Report
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 17-07, ''Updated Project Status Report and Independent Project Oversight Report'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-17-04
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/04/TL-17-04-IT-Project-Oversight_Final_2017-0410.pdf
+    format: pdf
+    citation: Technology Letter 17-04
+    title: Updated IT Project Oversight Framework
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 17-04, ''Updated IT Project Oversight Framework'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-17-03
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_17-03_Updates_to_PI_Breach_Notification.pdf
+    format: pdf
+    citation: Technology Letter 17-03
+    title: Updates to Personal Information Breach Notification Requirements
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [data, cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 17-03, ''Updates to Personal Information Breach Notification Requirements'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-17-02
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_17-02_Mobile_Phone_Mobile_Computing_Device.pdf
+    format: pdf
+    citation: Technology Letter 17-02
+    title: Mobile Phone & Mobile Computing Device Requests
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 17-02, ''Mobile Phone & Mobile Computing Device Requests'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-17-01
+    url: https://www.cdt.ca.gov/wp-content/uploads/2023/10/TL_17-01_IT_Cost_Reporting-2-1.pdf
+    format: pdf
+    citation: Technology Letter 17-01
+    title: Updated Information Technology Cost Report
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, funding]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 17-01, ''Updated Information Technology Cost Report'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-16-08
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_16-08_Stage_1_Business_Analysis_Delegation_final_signed.pdf
+    format: pdf
+    citation: Technology Letter 16-08
+    title: Project Approval Lifecycle, Stage 1 Business Analysis Delegation
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 16-08, ''Project Approval Lifecycle, Stage 1 Business Analysis Delegation'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-16-07
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_16-07_Project_Approval_Lifecycle_Stage_4.pdf
+    format: pdf
+    citation: Technology Letter 16-07
+    title: Project Approval Lifecycle, Stage 4 Project Readiness and Approval
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 16-07, ''Project Approval Lifecycle, Stage 4 Project Readiness and Approval'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-16-06
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-06.pdf
+    format: pdf
+    citation: Technology Letter 16-06
+    title: Updated IT Accessibility Resource Guide
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 16-06, ''Updated IT Accessibility Resource Guide'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-16-05
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-05-CAL-CSIRS.pdf
+    format: pdf
+    citation: Technology Letter 16-05
+    title: California Compliance and Security Incident Reporting System (CAL-CSIRS)
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 16-05, ''California Compliance and Security Incident Reporting System (CAL-CSIRS)'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-16-04
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-04-CA-PMF.pdf
+    format: pdf
+    citation: Technology Letter 16-04
+    title: California Project Management Framework
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 16-04, ''California Project Management Framework'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-16-03
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-03-Updates_to_Personal_Information_Breach_Notification_Requirements.pdf
+    format: pdf
+    citation: Technology Letter 16-03
+    title: Updates to Personal Information Breach Notification Requirements
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [data, cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 16-03, ''Updates to Personal Information Breach Notification Requirements'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-16-02
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-02-Project_Approval_Lifecycle_Stage_3.pdf
+    format: pdf
+    citation: Technology Letter 16-02
+    title: Project Approval Lifecycle, Stage 3 Solution Development
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 16-02, ''Project Approval Lifecycle, Stage 3 Solution Development'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-15-05
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-15-05-Web-Accessibility.pdf
+    format: pdf
+    citation: Technology Letter 15-05
+    title: Web Accessibility
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 15-05, ''Web Accessibility'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-15-04
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/Final-IT-Cap-Plan-TL-2015.pdf
+    format: pdf
+    citation: Technology Letter 15-04
+    title: Conceptually Approved Information Technology (IT) Project Proposals Report
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 15-04, ''Conceptually Approved Information Technology (IT) Project Proposals Report'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-15-03
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_15_03_POAM_August2015.pdf
+    format: pdf
+    citation: Technology Letter 15-03
+    title: Plan of Action and Milestones Standard
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 15-03, ''Plan of Action and Milestones Standard'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-15-02
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-15-02-Project-Approval-Lifecycle-Stage-1-and-Stage-2.pdf
+    format: pdf
+    citation: Technology Letter 15-02
+    title: Revised Project Approval Lifecycle, Stage 1 Business Analysis and Stage 2 Alternatives Analysis
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 15-02, ''Revised Project Approval Lifecycle, Stage 1 Business Analysis and Stage 2 Alternatives Analysis'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-15-01
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-15-01-COTS-SaaS-Project-Approval-Delegation.pdf
+    format: pdf
+    citation: Technology Letter 15-01
+    title: COTS/SaaS Project Approval Delegation
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 15-01, ''COTS/SaaS Project Approval Delegation'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-14-05
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/IT_Cap_Plan_TL_2014_v2.pdf
+    format: pdf
+    citation: Technology Letter 14-05
+    title: Information Technology Capital Plan (ITCP) Instructions
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, funding]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 14-05, ''Information Technology Capital Plan (ITCP) Instructions'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-13-04
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL13-04_Update_Info_Security_Policy_SAM_5300.pdf
+    format: pdf
+    citation: Technology Letter 13-04
+    title: Update to Information Security Policy
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 13-04, ''Update to Information Security Policy'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-17
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/02/TL_12-17_FSR_Improvement_Final_Remediated.pdf
+    format: pdf
+    citation: Technology Letter 12-17
+    title: Update to Feasibility Study Report (FSR) Procurement Planning
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight, procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-17, ''Update to Feasibility Study Report (FSR) Procurement Planning'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-16
+    url: https://www.cdt.ca.gov/wp-content/uploads/2021/04/TL_12-16_Incident-Response_Final_Remediated.pdf
+    format: pdf
+    citation: Technology Letter 12-16
+    title: Incident Response Requirements
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-16, ''Incident Response Requirements'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-15
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-15_Tape_Encryption_Final_Remediated.pdf
+    format: pdf
+    citation: Technology Letter 12-15
+    title: Encrypting Mainframe and Server Tapes
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-15, ''Encrypting Mainframe and Server Tapes'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-11
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-11_ImprovedSecurityRiskAssessmentTool_Final.pdf
+    format: pdf
+    citation: Technology Letter 12-11
+    title: Improved Security Risk Assessment Tool
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-11, ''Improved Security Risk Assessment Tool'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-10
+    url: https://www.cdt.ca.gov/wp-content/uploads/2021/04/TL-12-10_ComplianceFormsUpdateandRescission_remediated.pdf
+    format: pdf
+    citation: Technology Letter 12-10
+    title: Streamline Security Compliance Forms
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-10, ''Streamline Security Compliance Forms'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-09
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-9_Updated_Project_Definitions_Final.pdf
+    format: pdf
+    citation: Technology Letter 12-09
+    title: 'Updating SAM Definitions Pertaining to IT Projects: Feasibility Study Report (FSR) Improvement Quick Win'
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-09, ''Updating SAM Definitions Pertaining to IT Projects: Feasibility Study Report (FSR) Improvement Quick Win'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-08
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_2-8-No_Mandatory_LPA_Update-8-9-12-Final.pdf
+    format: pdf
+    citation: Technology Letter 12-08
+    title: Exemption Process When No Mandatory IT Leveraged Procurement Agreement Exists
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-08, ''Exemption Process When No Mandatory IT Leveraged Procurement Agreement Exists'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-07
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-07_EA_Suspend_Reporting_Final.pdf
+    format: pdf
+    citation: Technology Letter 12-07
+    title: Suspend Enterprise Architecture Reporting
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-07, ''Suspend Enterprise Architecture Reporting'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-05
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/10/TL-12-5-Computer-Room-Construct.pdf
+    format: pdf
+    citation: Technology Letter 12-05
+    title: Supersede Computer Room Construction Approval Process with New Process
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-05, ''Supersede Computer Room Construction Approval Process with New Process'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-04
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-4_Supersede_SCIT_Final.pdf
+    format: pdf
+    citation: Technology Letter 12-04
+    title: Supersede Service Contracts with Information Technology (SCIT) Components Review with New Process
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [procurement, oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-04, ''Supersede Service Contracts with Information Technology (SCIT) Components Review with New Process'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-03
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-3_Low_Power_Supersession_Final.pdf
+    format: pdf
+    citation: Technology Letter 12-03
+    title: Supersede Low Power Computing Directive
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-03, ''Supersede Low Power Computing Directive'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-12-02
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-2_Data_Center_Asignments_Final_3-8-12.pdf
+    format: pdf
+    citation: Technology Letter 12-02
+    title: Data Center Assignments and Consolidation
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [cloud-resilience, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 12-02, ''Data Center Assignments and Consolidation'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-11-04
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_11-4_Delegated_Cost_Thresholds_12-6-11.pdf
+    format: pdf
+    citation: Technology Letter 11-04
+    title: IT Delegated Cost Thresholds
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 11-04, ''IT Delegated Cost Thresholds'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-11-03
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_11-3_ITAP_Rescission_12-6-11.pdf
+    format: pdf
+    citation: Technology Letter 11-03
+    title: Rescission of IT Acquisition Plan Policies
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 11-03, ''Rescission of IT Acquisition Plan Policies'': marked Active on the California Department of Technology''s Technology Letters index.'
+  - id: ca-tl-11-01
+    url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_11-1_Technology_Letter_Establishment_12-6-11.pdf
+    format: pdf
+    citation: Technology Letter 11-01
+    title: Establishment of the Technology Letter Format and Process
+    doc_type: policy
+    jurisdiction: california
+    issuing_body: California Department of Technology
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    stub_reason: www.cdt.ca.gov answered HTTP 403 (Cloudflare managed challenge) to the toolkit's Fetcher with its shipped User-Agent for every page and file path tried on 2026-11-11 (the site's robots.txt and sitemap.xml were the only paths that loaded), so this item could not be fetched. Its title and url were read on the CDT page named in the comment above by a web-reading tool, not by the Fetcher, and are unconfirmed at the byte level.
+    why_relevant: 'Technology Letter 11-01, ''Establishment of the Technology Letter Format and Process'': marked Active on the California Department of Technology''s Technology Letters index.'
+
+  # ---- Executive orders (stubs): the Governor's website answers the Fetcher with HTTP 403 (Cloudflare managed challenge)
+  # gov.ca.gov, genai.ca.gov and govops.ca.gov all answered the toolkit's Fetcher with HTTP 403 (Cloudflare managed challenge) on 2026-11-11, for the page and the PDF
+  # paths tried. The list of orders is the CDT page https://www.cdt.ca.gov/policy/executive-orders-related-to-it/ ('Executive Orders related to IT', 20 orders, none
+  # marked rescinded), read with a web-reading tool. Only orders with an official per-order url found by a web search are seeded; whether each is still in force
+  # could not be checked at gov.ca.gov.
+  - id: ca-eo-n-12-23
+    url: https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf
+    format: pdf
+    citation: Executive Order N-12-23
+    title: Generative Artificial Intelligence
+    doc_type: executive_order
+    jurisdiction: california
+    issuing_body: Governor of California
+    tags: [ai, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: The Governor's website answers the toolkit's Fetcher with HTTP 403 (Cloudflare managed challenge). The title is the one the CDT executive orders page prints; the url was returned by a web search, not fetched; whether the order is still in force was not checked at an official page.
+    why_relevant: 'Executive Order N-12-23 (signed 2023-09-06 per web search results): directs state agencies to assess generative AI use cases and risks, and the Government Operations Agency, the Department of General Services, the Department of Technology and the California Cybersecurity Integration Center to issue guidelines for adoption and use of generative AI; the basis of Technology Letter 24-01.'
+  - id: ca-eo-n-5-26
+    url: https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf
+    format: pdf
+    citation: Executive Order N-5-26
+    title: Responsible AI Procurement
+    doc_type: executive_order
+    jurisdiction: california
+    issuing_body: Governor of California
+    tags: [ai, procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: 'The Governor''s website answers the toolkit''s Fetcher with HTTP 403 (Cloudflare managed challenge). The title is the one the CDT executive orders page prints; the url was returned by a web search, not fetched; whether the order is still in force was not checked at an official page. DATE CONFLICT: the CDT page gives the issue date as 3/20/2026; a web search result dates it March 30, 2026 (the PDF file name begins ''3.30''). Neither was read at the Governor''s website.'
+    why_relevant: Executive Order N-5-26 on AI procurement; a web search result calls it the 'Trusted AI Procurement' order and cites N-12-23 as its foundation.
+  - id: ca-eo-n-04-19
+    url: https://www.gov.ca.gov/wp-content/uploads/2019/01/1.8.19-EO-N-04-19.pdf
+    format: pdf
+    citation: Executive Order N-04-19
+    title: Innovation Procurement Sprint
+    doc_type: executive_order
+    jurisdiction: california
+    issuing_body: Governor of California
+    tags: [procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: The Governor's website answers the toolkit's Fetcher with HTTP 403 (Cloudflare managed challenge). The title is the one the CDT executive orders page prints; the url was returned by a web search, not fetched; whether the order is still in force was not checked at an official page.
+    why_relevant: 'Executive Order N-04-19 (signed 2019-01-08 per web search results): directs the Department of General Services and the Department of Technology to develop an iterative technology procurement approach (the Innovation Procurement Sprint).'
+  - id: ca-eo-b-34-15
+    url: https://www.archive.gov.ca.gov/archive/gov39/2015/08/31/news19082/index.html
+    format: html
+    citation: Executive Order B-34-15
+    title: California Cybersecurity Integration Center
+    doc_type: executive_order
+    jurisdiction: california
+    issuing_body: Governor of California
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: The Governor's website answers the toolkit's Fetcher with HTTP 403 (Cloudflare managed challenge). The title is the one the CDT executive orders page prints; the url was returned by a web search, not fetched; whether the order is still in force was not checked at an official page.
+    why_relevant: 'Executive Order B-34-15 (signed 2015-08-31 per web search results): directs the Governor''s Office of Emergency Services to establish and lead the California Cybersecurity Integration Center. The url is the Governor''s archived press release carrying the order''s text, not a copy of the order. Statute now covers the Center (Gov. Code 8586.5, ingested above).'
+
+  # ---- California found and left out (the reason is recorded here)
+  #
+  # What could not be reached on 2026-11-11 (the toolkit Fetcher, shipped User-Agent), and so was not read at its official page:
+  #  - leginfo.legislature.ca.gov (the code pages), www.cdt.ca.gov (every page and file), www.gov.ca.gov, www.genai.ca.gov, www.govops.ca.gov, oal.ca.gov and www.sco.ca.gov:
+  #    HTTP 403, Cloudflare managed challenge (cf-mitigated). robots.txt and the sitemap of cdt.ca.gov loaded; nothing else did. Reached: www.dgs.ca.gov (SAM),
+  #    downloads.leginfo.legislature.ca.gov (bulk download), www.sos.ca.gov.
+  #  - The whole SIMM, Technology Letter and executive order layer is therefore stubs. Each stub's title and url came from a web-reading tool, not the Fetcher.
+  #    SIMM 5300-A is also non-public ('classified as confidential'; the research note's lead is confirmed on the SIMM 5300 page).
+  #
+  # Statutes found and not seeded (found by the table of contents' chapter headings in the bulk download, and by web search; classified by heading unless the entry says it was read):
+  #  - Gov. Code 11135 (nondiscrimination in state-funded programs): amended in 2016 by SB 1442, the bill that added 7405; read only its opening words. General civil rights law
+  #    with, at most, an electronic technology provision. OWNER DECISION.
+  #  - Gov. Code chapter 7.5 of Part 1, Division 3, Title 2 (11790, Hawkins Data Center): the Department of Justice's data center; law-enforcement technology is out of scope.
+  #  - Gov. Code chapter 5.8 of the same part (11549.50-11549.59, Office of Broadband and Digital Literacy): broadband is out of scope.
+  #  - Gov. Code chapter 10 of the same part (11850-11895, FISCal, the state financial information system): a statute on one state IT system (listed in the table of contents; its
+  #    text was not read). OWNER DECISION, the same class as Colorado's 24-30-209.
+  #  - Gov. Code 8592.1-8592.22 (Public Safety Communication Act of 2002; Manny Alert Act): emergency communications, out of scope.
+  #  - Gov. Code 7929.200, 7929.205 and 7929.215 and the rest of the Public Records Act (7920.000 et seq.): general public-records law; only 7929.210 (information security records) is seeded.
+  #  - Pub. Contract Code 22101-22109 (Acquisition of Electronic Data Processing): sits in Part 3, 'Contracting by Local Agencies'; local government is out of scope. Pub. Contract Code 22350-22355
+  #    (Part 5.5, Year 2000 Problem Vendor Compliance): not read; a 1999 vendor-compliance policy. Pub. Contract Code 6611 (Innovation Procurement Sprints, named by web search results on
+  #    Executive Order N-04-19) was not read.
+  #  - The general state procurement law (Pub. Contract Code 10100 et seq., 10290 et seq.) and the State Contracting Manual: left out as Oregon, Washington and Colorado left theirs out (OWNER DECISION);
+  #    only the IT-specific chapter (12100-12113) is seeded.
+  #  - Civ. Code 1798.80 et seq. (customer records, breach notice by businesses), the California Consumer Privacy Act (1798.100 et seq.), Bus. & Prof. Code 22757.10-22757.16 (Transparency in Frontier
+  #    Artificial Intelligence Act), Civ. Code 3110-3111 (AI training data transparency), Bus. & Prof. Code 4999.8-4999.9 (AI health advice) and Health & Safety Code 1339.75 (AI in health care
+  #    services): private-sector obligations, out of scope (the Transparency in Frontier AI Act has its own CDT initiative page; its obligated parties are developers, not state agencies).
+  #  - Education Code 35265-35267 and 89270 (cybersecurity in schools and the CSU): K-12 and higher education, out of scope.
+  #  - Penal Code computer crime (502): crime law, out of scope.
+  #
+  # Rules:
+  #  - See the block above. Division 8 conflict-of-interest codes of the Department of Technology (chapter 119 of Division 8 and the former Department of Information Technology's chapter 74), seen in a web search,
+  #    are out of scope. No other CCR chapter on state IT was found; Westlaw could not be read, so the search is not exhaustive.
+  #  - Whether more CCR chapters belong (for example other Secretary of State standards for electronic records) is an owner decision; the two seeded ones are those the web search named.
+  #
+  # Executive orders: the CDT page lists 20; seeded as stubs: N-12-23, N-5-26, N-04-19, B-34-15. Not seeded, because no official per-order url was found (each is a candidate once one is): S-03-10 (IT
+  # expenditure reporting and IT officers, 2010), S-13-04 (data center consolidation, 2004), D-59-02 (IT oversight, 2002), D-57-02 (IT management initiative, 2002), D-17-00 (e-government, 2000), D-10-99
+  # (software licensing, 1999), S-16-04 (peer-to-peer, 2004). Not seeded, out of scope or borderline: N-6-26 (AI workforce impact), N-30-25 (government efficiency and innovation), S-06-09 (ICT digital
+  # literacy), S-06-07, S-21-06 (broadband), S-12-06 (eHealth), S-04-06, S-5-04, D-55-02 (banning no-bid contracts). Their text could not be read at gov.ca.gov, so scope is judged from the CDT page's titles only.
+  # Whether any listed order is still in force could not be checked.
+  #
+  # Technology Letters not seeded:
+  #  - Superseded on the index: 18-01, 17-06, 17-05, 16-01, 14-07, 14-06, 14-04, 14-02, 14-01, 13-05, 13-03, 13-02, 13-01, 12-14, 12-13, 12-12, 12-01, 11-02.
+  #  - Telecommunications (out of scope): 25-06 (clarification on procuring business telecommunications systems and services), 23-02 (business telecommunications systems and services policy),
+  #    12-06 (telecommunication procurement authority).
+  #  - Not an IT governance instrument or election-related: 16-09 (Tribal Consultation Policy), 14-03 (Register to Vote graphic image requirement).
+  #  - 22-01 (Procurement Guidance for Executive Order N-6-22): the index links it to the same address as 22-02, so no url of its own was confirmed. 12-15 FAQs: same address as 12-15.
+  #  - TL 26-02 shows an issue date of 9/25/2026 on the index, which looks like a typo in the source; nothing here relies on a TL date.
+  #
+  # SAM chapters not seeded: 1600 (records management), 4500 and 4600 (telecommunications), the IT fiscal sections inside chapter 6000 (6000/6700) and automated accounting systems inside 7200
+  # (7200/7260) named on the CDT key policies page (parts of chapters whose other sections are not IT), and every non-IT chapter. Not reachable or not read: SAM 5300 'navigational guide' PDF and the
+  # Cal-CSIRS forms and user guides on the SIMM 5300 page (operational forms, not instruments), the Statewide Forms program, and 'Market Research'.
+  #
+  # Other: the CDT sitemap lists pages on the Technology Recovery Plan schedule, the IT project tracking page, surplus IT submission, budget letters and management memos. They were not read and
+  # are not seeded; the Department of Finance budget letters are outside the CDT library.
+
+  # ---- Index pages to watch (additions and removals go through seed-list review)
+  # The SAM table of contents is on www.dgs.ca.gov and loads for the Fetcher. The CDT pages below answer the Fetcher with HTTP 403 (Cloudflare managed challenge): a drift
+  # run will report each as an access failure until the toolkit or the site changes.
+  - id: ca-watch-sam-toc
+    url: https://www.dgs.ca.gov/Resources/SAM/TOC
+    format: html
+    citation: SAM table of contents
+    title: 'Department of General Services: State Administrative Manual table of contents'
+    doc_type: policy
+    jurisdiction: california
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: Lists every SAM chapter. The IT chapters are 4800, 4900, 5000, 5100, 5200, 5300 and 5900; a new or renamed chapter here means the seed list needs review.
+  - id: ca-watch-cdt-simm
+    url: https://www.cdt.ca.gov/policy/simm/
+    format: html
+    citation: SIMM index
+    title: 'California Department of Technology: Statewide Information Management Manual'
+    doc_type: policy
+    jurisdiction: california
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: The SIMM index (37 items on 2026-11-11). Additions and removals here are new or withdrawn SIMM items.
+  - id: ca-watch-cdt-technology-letters
+    url: https://www.cdt.ca.gov/policy/technology-letters/
+    format: html
+    citation: Technology Letters index
+    title: 'California Department of Technology: Technology Letters'
+    doc_type: policy
+    jurisdiction: california
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: The Technology Letters index (84 entries, TL 11-01 to 26-02 on 2026-11-11), each marked Active or Superseded.
+  - id: ca-watch-cdt-announcements
+    url: https://www.cdt.ca.gov/policy/announcements/
+    format: html
+    citation: Procedures/Standards Updates
+    title: 'California Department of Technology: Procedures and Standards Updates (PS announcements)'
+    doc_type: policy
+    jurisdiction: california
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: Announcements of SIMM and SAM changes (PS-029 to PS-033 appear in the CDT sitemap), the earliest sign of a changed or new policy.
+  - id: ca-watch-cdt-key-policies
+    url: https://www.cdt.ca.gov/policy/key-policies/
+    format: html
+    citation: Key policies
+    title: 'California Department of Technology: Key policies'
+    doc_type: policy
+    jurisdiction: california
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: Lists the SAM IT chapters (4900, 5000, 5100, 5200, 5300, 5900 and the IT fiscal sections of 6000 and automated accounting systems of 7200) and the communities of practice.
+  - id: ca-watch-cdt-policy-guidelines
+    url: https://www.cdt.ca.gov/policy/policy-guidelines/
+    format: html
+    citation: Guidelines and standards
+    title: 'California Department of Technology: Guidelines and standards'
+    doc_type: policy
+    jurisdiction: california
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The policy landing page: links to the SIMM, the Technology Letters, the procedures and standards updates, market research and the SOW guidelines.'
+  - id: ca-watch-cdt-security-policy
+    url: https://www.cdt.ca.gov/security/policy/
+    format: html
+    citation: Security policy
+    title: 'California Department of Technology: Security policy'
+    doc_type: policy
+    jurisdiction: california
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: The Office of Information Security's policy page (it is in the CDT sitemap; its content was not read).
+  - id: ca-watch-cdt-executive-orders
+    url: https://www.cdt.ca.gov/policy/executive-orders-related-to-it/
+    format: html
+    citation: Executive Orders related to IT
+    title: 'California Department of Technology: Executive Orders related to IT'
+    doc_type: executive_order
+    jurisdiction: california
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: The state's list of executive orders that bear on IT (20 on 2026-11-11, none marked rescinded, none linked individually). A new order here is a candidate for the seed list.
