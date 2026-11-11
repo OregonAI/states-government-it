@@ -298,6 +298,25 @@ def sam_html_to_text(raw: bytes) -> str:
     return re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
 
 
+def archive_eo_html_to_text(raw: bytes) -> str:
+    """A California executive order printed in full inside a press-release page of the Governor's
+    archive site (`www.archive.gov.ca.gov/archive/...`): the region from the centred
+    `EXECUTIVE ORDER <number>` heading to the attestation (`ATTEST:` and the Secretary of State's
+    name and title). The press release above it, the pointer to the PDF copy below it, the site
+    menu and the news list are not the order."""
+    page = _decode(raw)
+    head = re.search(r"<p[^>]*>\s*<strong>\s*EXECUTIVE ORDER [A-Z]-\d+-\d+\s*</strong>\s*</p>", page)
+    attest = page.find("ATTEST:", head.end()) if head else -1
+    tail = re.compile(r"Secretary of State\s*</p>").search(page, attest) if attest > 0 else None
+    if not head or not tail:
+        raise ValueError("page has no executive order region (heading to attestation): "
+                         "the page layout changed")
+    parser = _SamParser()
+    parser.feed(page[head.start():tail.end()])
+    parser._flush()
+    return "\n".join(parser.lines) + "\n"
+
+
 # ---- California statutes: the Legislature's official bulk download ------------------------
 #
 # leginfo.legislature.ca.gov answers the toolkit's Fetcher with a Cloudflare challenge, so the
@@ -645,6 +664,8 @@ def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
         return sos_html_to_text(raw)
     if fmt == "html" and doc_type == "policy" and jurisdiction == "california":
         return sam_html_to_text(raw)
+    if fmt == "html" and doc_type == "executive_order" and jurisdiction == "california":
+        return archive_eo_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "washington":
         return rcw_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "colorado":
@@ -756,6 +777,12 @@ def check_identity(src: dict, text: str) -> None:
         return
     if src["doc_type"] == "rule" and src["title"] not in text:
         raise ValueError(f"{src['id']}: page does not carry the seed title {src['title']!r}")
+    if src["doc_type"] == "executive_order" and src["jurisdiction"] == "california":
+        cite = re.fullmatch(r"Executive Order ([A-Z]-\d{1,2}-\d{2})", src["citation"])
+        if not cite or text.splitlines()[:1] != [f"EXECUTIVE ORDER {cite.group(1)}"]:
+            raise ValueError(f"{src['id']}: page is not the cited instrument: {src['citation']!r} "
+                             f"does not match the order's heading line")
+        return
     if src["doc_type"] == "executive_order":
         number = re.search(r"\d{2,4}-\d{2}", src["citation"])
         if not number or _squash(f"executive order {number.group(0)}") not in _squash(text):
@@ -818,6 +845,11 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
                 "navigation, footer and non-breaking spaces removed. The page's stylesheet draws each "
                 "subdivision designator, so they are written as it shows them: (a), (1), (A), (i). A list with none of the "
                 "stylesheet's classes keeps the browser's own marker (a.).")
+    if src["doc_type"] == "executive_order" and src["jurisdiction"] == "california":
+        return ("Text taken from the Governor's archive site page that prints the order in full: the heading "
+                "line, the recitals (WHEREAS), the orders, the signature and the attestation, one line per "
+                "paragraph, with markup and non-breaking spaces removed. The press release above the order, "
+                "the pointer to the PDF copy below it, the site menu and the news list are not the order.")
     if src["doc_type"] == "policy" and src["jurisdiction"] == "california":
         return ("Text taken from the Department of General Services' State Administrative Manual chapter "
                 "view page: the chapter line, then each section's heading, revision line and "
