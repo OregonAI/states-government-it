@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 155,
+ "n_nodes": 156,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -15,6 +15,12 @@
    "title": "RCW 39.26.340 - Data-sharing agreements - When required",
    "doc_type": "statute",
    "path": "statutes/washington/wa-rcw-39-26-340.md"
+  },
+  {
+   "id": "wa-rcw-39-34-240",
+   "title": "RCW 39.34.240 - Data requests - When written agreement required",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-39-34-240.md"
   },
   {
    "id": "wa-rcw-40-26",
@@ -413,12 +419,6 @@
    "path": "policies/washington/wa-mgmt-03.md"
   },
   {
-   "id": "wa-pm-01-01-g",
-   "title": "Managing Information Technology Projects - Critical Indicators of Project Performance",
-   "doc_type": "policy",
-   "path": "policies/washington/wa-pm-01-01-g.md"
-  },
-  {
    "id": "wa-pm-01-01-pr",
    "title": "IT Investments Approval and Oversight Procedure",
    "doc_type": "policy",
@@ -747,6 +747,12 @@
    "title": "TBM Reporting Solution Standard",
    "doc_type": "standard",
    "path": "standards/washington/wa-mgmt-02-03-s.md"
+  },
+  {
+   "id": "wa-pm-01-01-g",
+   "title": "Managing Information Technology Projects - Critical Indicators of Project Performance",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-01-01-g.md"
   },
   {
    "id": "wa-pm-01-01-s",

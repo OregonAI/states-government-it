@@ -39,7 +39,7 @@ tags:
 
 ## At a glance
 
-Procurement and ongoing monitoring guidance for automated decision systems (predates Executive Order 24-01). WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources).
+Procurement and ongoing monitoring guidance for automated decision systems (dated December 2023, before Executive Order 24-01). Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources).
 
 ## Full text
 

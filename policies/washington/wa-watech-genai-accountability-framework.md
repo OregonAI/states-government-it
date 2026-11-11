@@ -5,9 +5,10 @@ jurisdiction: washington
 id: wa-watech-genai-accountability-framework
 title: Framework for Accountability in Generative Artificial Intelligence
 doc_type: policy
-citation: WaTech Guidance (listed as 'Generative AI Accountability Framework')
+citation: Office of Equity Guidance (listed as 'Generative AI Accountability Framework')
 authority_level: ''
-issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+issuing_body: Washington State Office of Equity, created in partnership with Washington Technology Solutions
+  (WaTech) and the Department of Enterprise Services (DES)
 source_url: https://watech.wa.gov/sites/default/files/2025-12/EO%2024-01%20Generative%20AI%20Accountability%20Framework%20-%20FINAL%20-%2020250108.pdf
 source_format: pdf
 retrieved: '2026-11-10'
@@ -35,11 +36,11 @@ tags:
 
 > **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
 
-# Framework for Accountability in Generative Artificial Intelligence (WaTech Guidance (listed as 'Generative AI Accountability Framework'))
+# Framework for Accountability in Generative Artificial Intelligence (Office of Equity Guidance (listed as 'Generative AI Accountability Framework'))
 
 ## At a glance
 
-Initial guidance on equitable and responsible use of generative AI by state agencies. WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources).
+Initial guidance on equitable and responsible use of generative AI by state agencies. Issued by the Office of Equity under Executive Order 24-01 (section 7, the Office of Equity oversees the accountability framework), in partnership with WaTech and DES. Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources).
 
 ## Full text
 

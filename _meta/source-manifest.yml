@@ -933,6 +933,18 @@ sources:
     tags: [data, procurement, cybersecurity]
     recheck: monthly
     why_relevant: "Requires a written data-sharing agreement before an agency shares category 3 or higher data with a contractor, conforming to the data-sharing policies the Office of Cybersecurity sets under RCW 43.105.054. Cited by WaTech policies DATA-03 and DATA-04. One section of the state procurement chapter (the rest is left out, see the left-out notes)."
+  - id: wa-rcw-39-34-240
+    sha256: "b415faab8900ac63aad2f5eeaf019339d40a8a0f6b63c6584a1de0dac781ebbe"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=39.34.240"
+    format: html
+    citation: "RCW 39.34.240"
+    title: "RCW 39.34.240 - Data requests - When written agreement required"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [data, cybersecurity]
+    recheck: monthly
+    why_relevant: "Requires a written agreement, conforming to the policies of the Office of Cybersecurity, before one public agency requests category 3 or higher data from another. The sibling of RCW 39.26.340 (agency to contractor), from the same act (2021 c 291). Cited by WaTech policies DATA-03 and POL-01. One section of the interlocal cooperation chapter."
   - id: wa-rcw-43-386
     url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386&full=true"
     format: html
@@ -1086,15 +1098,15 @@ sources:
     sha256: "d3a039c0cf1065a808fbd85d1afafcd4faed7df3576f4989b5a3519b547527e9"
     url: "https://watech.wa.gov/sites/default/files/2025-12/EO%2024-01%20Generative%20AI%20Accountability%20Framework%20-%20FINAL%20-%2020250108.pdf"
     format: pdf
-    citation: "WaTech Guidance (listed as 'Generative AI Accountability Framework')"
+    citation: "Office of Equity Guidance (listed as 'Generative AI Accountability Framework')"
     title: "Framework for Accountability in Generative Artificial Intelligence"
     doc_type: policy
     jurisdiction: washington
-    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    issuing_body: Washington State Office of Equity, created in partnership with Washington Technology Solutions (WaTech) and the Department of Enterprise Services (DES)
     tags: [ai, governance]
     recheck: monthly
     identity_text: "Framework for Accountability in Generative Artificial Intelligence"
-    why_relevant: "Initial guidance on equitable and responsible use of generative AI by state agencies. WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+    why_relevant: "Initial guidance on equitable and responsible use of generative AI by state agencies. Issued by the Office of Equity under Executive Order 24-01 (section 7, the Office of Equity oversees the accountability framework), in partnership with WaTech and DES. Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
   - id: wa-watech-ads-procurement-guidance
     sha256: "fd7f082ff44c66e7511f3baa2ffda7ff0c3bcc96b4ba49c85a1f7c6973142971"
     url: "https://watech.wa.gov/sites/default/files/2024-01/ADS%20Procurement%20Guidance%20-%2012-2023.pdf"
@@ -1107,7 +1119,7 @@ sources:
     tags: [ai, procurement]
     recheck: monthly
     identity_text: "Automated Decision Systems Procurement and Use Guidance"
-    why_relevant: "Procurement and ongoing monitoring guidance for automated decision systems (predates Executive Order 24-01). WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+    why_relevant: "Procurement and ongoing monitoring guidance for automated decision systems (dated December 2023, before Executive Order 24-01). Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
   - id: wa-watech-genai-interim-guidelines
     url: "https://watech.wa.gov/sites/default/files/2023-09/State%2520Agency%2520Generative%2520AI%2520Guidelines%25208-7-23%2520.pdf"
     format: pdf
@@ -1120,7 +1132,7 @@ sources:
     recheck: monthly
     stub: true
     stub_reason: "The link the WaTech AI Resources page publishes for it returns HTTP 404 (fetched 2026-11-10; the single-decoded URL also returns 404). Not shown as withdrawn: the page still describes the guidelines as the initial framework. Becomes a document if WaTech restores the file."
-    why_relevant: "WaTech's interim generative AI guidelines (August 2023), the initial framework the AI Resources page still cites. WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+    why_relevant: "WaTech's interim generative AI guidelines (August 2023), the initial framework the AI Resources page still cites. Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
   - id: wa-des-genai-contract-clauses
     url: "https://des.wa.gov/sites/default/files/2025-04/WA-Procurement-AI-contract-clauses.docx"
     format: docx
@@ -1660,9 +1672,9 @@ sources:
   - id: wa-ea-185-10
     url: "https://watech.wa.gov/sites/default/files/2023-09/185.10%2520201609%2520rev%252020170403_1.docx"
     format: docx
-    citation: "WaTech Policy EA-185.10"
+    citation: "WaTech Standard EA 185.10"
     title: "Enterprise Service: Enterprise Business Processes for Internal Identity Management"
-    doc_type: policy
+    doc_type: standard
     jurisdiction: washington
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [digital-services, cybersecurity]
@@ -2155,9 +2167,9 @@ sources:
     sha256: "75f89fe4a9250b6d7829ba60d0040afa778d37168c807797f61d9fbe89c3d857"
     url: "https://watech.wa.gov/sites/default/files/2023-12/131appendixd.pdf"
     format: pdf
-    citation: "WaTech Guideline PM-01-01-G"
+    citation: "WaTech Standard PM-01-01-G"
     title: "Managing Information Technology Projects - Critical Indicators of Project Performance"
-    doc_type: policy
+    doc_type: standard
     jurisdiction: washington
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [oversight, funding]
@@ -2563,6 +2575,11 @@ sources:
   #    the DSHS/WaTech Innovation Exemption Justification (EA-03), the Admin_Financial_Criteria PDF (EA-122),
   #    Investment-Plan-FAQ and a .docx appendix (PM-01-01-PR), 502g.pdf (SEC-12) and a visual crosswalk
   #    (ServiceCatalogConsolidation.pdf, linked from every page). Forms, templates and supporting material.
+  #  - 'Definition of Terms Used in Policies and Reports' (https://watech.wa.gov/policies/definition-terms-used-policies-and-reports):
+  #    one HTML page of definitions, each tied to the policies that use it (for example 'Access ... Sources:
+  #    SEC-04-03-S'), linked from every library listing page under the type 'Policy'. Not seeded: the
+  #    ingester has no to_text for WaTech HTML pages, and the 109 items counted in the watch entries below are the
+  #    listing table only. OWNER DECISION whether it enters (it would need a WaTech HTML cleanup first).
   #  - EA-01-01-G and DATA-01-03-G link byte-identical PDFs (the joint State Archives records and cloud
   #    storage guidelines, February 2019) under two library numbers, so two documents carry one text.
   #
@@ -2579,17 +2596,22 @@ sources:
   #  - 25-05 'Data Center Workgroup': about data centers as an industry and their electricity use (Department
   #    of Revenue leads), not state IT. 16-06 'State Agency Enterprise Risk Management': mentions information
   #    systems once; general risk management.
+  #  - 26-05 'Strengthening Fraud Prevention and Accountability for Public Funds' (10/27/2026, Active):
+  #    fraud prevention for public funds, with one data-analytics duty for WaTech (section e: WaTech, DES and
+  #    OFM 'shall evaluate opportunities to use existing data and analytics capabilities to identify
+  #    suspicious payment trends while protecting confidential and legally restricted information').
+  #    Borderline. OWNER DECISION.
   #  - Of the 122 Active orders listed, these are the only ones whose title or text concern state IT, data or
-  #    AI. Orders were screened by title; the nine above that could be IT were read.
+  #    AI. Orders were screened by title; the ten above that could be IT were read.
   #
   # Statutes not seeded:
   #  - Chapter 39.26 RCW (state procurement) apart from section 39.26.340, and the other procurement chapters:
   #    Oregon's procurement statutes were left out by owner decision; same here. OWNER DECISION.
   #  - RCW 42.56.420 (public records exemptions for security information) and the rest of chapter 42.56:
   #    cited by WaTech policy SEC-01; the IT-specific part is a few subsections of a general exemption section.
-  #  - RCW 39.24.240, cited as 'Data requests - When written agreement required' by policies DATA-03 and
-  #    DATA-04: app.leg.wa.gov returns a page with no section content for cite=39.24.240 (fetched
-  #    2026-11-10), so it could not be confirmed as a current RCW section. Possibly a stale citation in the policy.
+  #  - RCW 39.24.240 is a misprint of RCW 39.34.240 in policies DATA-03 and DATA-04 (app.leg.wa.gov returns
+  #    a page with no section content for cite=39.24.240). The correct section, 39.34.240 'Data requests -
+  #    When written agreement required', is seeded above.
   #  - Chapters 40.14 (records retention) and 43.88 (budget): records management and budgeting, general law.
   #  - The 2024 act that created the Washington State AI Task Force (E2SSB 5838): a temporary study body
   #    referred to by search results; text not read, and it is not codified in the RCW chapters seeded here.

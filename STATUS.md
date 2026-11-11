@@ -6,26 +6,27 @@ Generated 2026-11-10. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 85 |
-| standard | 56 |
-| statute | 5 |
+| policy | 84 |
+| standard | 57 |
+| statute | 6 |
 | executive_order | 5 |
 | rule | 4 |
 
-**Total: 155**
+**Total: 156**
 
 ## Source manifest
 
-196 declared source(s) across 1 group(s) in `source-manifest.yml`.
+197 declared source(s) across 1 group(s) in `source-manifest.yml`.
 
 ## Freshness (reverify every 90 days)
 
-155 of 155 document(s) overdue for re-verification.
+156 of 156 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
 | or-ors-276a | statute | never |
 | wa-rcw-39-26-340 | statute | never |
+| wa-rcw-39-34-240 | statute | never |
 | wa-rcw-40-26 | statute | never |
 | wa-rcw-42-56-590 | statute | never |
 | wa-rcw-43-105 | statute | never |
@@ -73,6 +74,5 @@ Generated 2026-11-10. Non-authoritative; see DISCLAIMER.md.
 | or-eis-memo-20230713-zscaler | policy | never |
 | or-eis-memo-20241028-css-directive | policy | never |
 | or-eis-memo-20250212-deepseek | policy | never |
-| or-eis-privacy-guidance | policy | never |
-| … | *105 more* | |
+| … | *106 more* | |
 
