@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 408,
+ "n_nodes": 406,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -1091,12 +1091,6 @@
    "path": "policies/colorado/co-oit-esignature-guidelines.md"
   },
   {
-   "id": "co-oit-genai-agency-responsibilities",
-   "title": "Statewide GenAI Agency Responsibilities",
-   "doc_type": "policy",
-   "path": "policies/colorado/co-oit-genai-agency-responsibilities.md"
-  },
-  {
    "id": "co-oit-genai-policy",
    "title": "Statewide GenAI Policy",
    "doc_type": "policy",
@@ -1917,12 +1911,6 @@
    "title": "Secure File Transfer",
    "doc_type": "standard",
    "path": "standards/colorado/co-oit-ts-dat-002.md"
-  },
-  {
-   "id": "co-oit-ts-dbs-001",
-   "title": "Supported Databases and Versions",
-   "doc_type": "standard",
-   "path": "standards/colorado/co-oit-ts-dbs-001.md"
   },
   {
    "id": "co-oit-ts-dbs-003",

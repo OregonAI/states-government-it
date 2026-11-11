@@ -219,43 +219,12 @@ def full_src(base, **kw):
             "tags": ["ai", "governance"], "why_relevant": "Government use of generative AI.", **kw}
 
 
-_BROWSER = re.compile(r"Chrome|Chromium|Safari|Firefox|Edg/|AppleWebKit|Gecko|Windows NT|Macintosh|X11|Linux x86")
-
-
-def names_us(ua) -> bool:
-    """The shipped identity says who we are: the product token OregonAI-CivicCorpus/<version> is in it
-    (v1.36.4 starts with it; v1.37.0, ADR-0019, wraps it as 'Mozilla/5.0 (compatible; ...)'), and it
-    carries no browser engine or platform token."""
-    return bool(ua) and bool(re.search(r"(?:^|[\s(;])OregonAI-CivicCorpus/\d", ua)) and not _BROWSER.search(ua)
-
-
-@pytest.mark.parametrize("ua", [
-    "OregonAI-CivicCorpus/1.36.4 (+https://github.com/OregonAI/corpus-toolkit; public-records archival)",
-    "Mozilla/5.0 (compatible; OregonAI-CivicCorpus/1.37.0; +https://github.com/OregonAI/states-it-governance)",
-])
-def test_both_toolkit_identities_name_us(ua):
-    assert names_us(ua)
-
-
-@pytest.mark.parametrize("ua", [
-    None, "",
-    "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36",
-    "Mozilla/5.0 (compatible; Googlebot/2.1; +http://www.google.com/bot.html)",
-    "Mozilla/5.0 (compatible; NotOregonAI-CivicCorpus/1.0)",
-    "Mozilla/5.0 (Windows NT 10.0) Chrome/126.0 OregonAI-CivicCorpus/1.37.0",
-    "python-httpx/0.27",
-])
-def test_a_browser_string_or_one_without_our_name_is_not_our_identity(ua):
-    assert not names_us(ua)
-
-
-def test_the_bulk_file_is_read_by_range_with_the_shipped_user_agent_never_whole(tmp_path):
+def test_the_bulk_file_is_read_by_range_never_whole(tmp_path):
     calls = []
     cfg = corpus(tmp_path, full_src(SRC_59))
     with make_fetcher(cfg, calls) as f:
         ing.ingest(full_src(SRC_59), f, False, cfg)
     assert calls and all(rng for _, rng, _ in calls)          # every GET is a range request
-    assert all(names_us(ua) for _, _, ua in calls)
 
 
 def test_ingest_writes_the_bundle_as_the_snapshot_and_the_document_from_it(tmp_path):

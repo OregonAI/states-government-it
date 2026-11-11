@@ -7,6 +7,10 @@ Colorado OIT section of `07-colorado-ccr-and-oit.md`, which says the site answer
 
 ## What changed
 
+The version token in that string is read from the installed package metadata, so under PYTHONPATH=toolkit v1.37.0 the
+live requests sent `OregonAI-CivicCorpus/1.36.4` while running v1.37.0 code (measured 2026-11-11); the firewall accepts it, and
+`tests/test_fetch_identity.py` checks the identity through `src.ingest.make_fetcher` at both versions.
+
 colorado.gov's shared firewall answered the old default User-Agent with HTTP 403 and answers the crawler-form one with 200.
 `https://oit.colorado.gov/robots.txt` answered 200 (text/plain, 2,027 bytes) to the first Fetcher request. Every page below
 answered 200 to the Fetcher, as did `www.colorado.gov/governor` and its year pages. `governor.colorado.gov` did not answer
@@ -38,9 +42,11 @@ answered 200 to the Fetcher, as did `www.colorado.gov/governor` and its year pag
   current statewide policy, so it stays, with the issuing body the PDF prints.
 - The Statewide GenAI Policy is now the Drive PDF POL-AI-001 (version 2.0, effective 09/17/2024, last updated 04/01/2026) on the Policies page.
   The Guide to Artificial Intelligence pages (including the Strategic Approach page) still link a ServiceHub article, KB0012606; the
-  Statewide GenAI Agency Responsibilities page is a readable web page (it was a 403) and is ingested as an HTML document.
-- Two PDFs print their own version as "3.01 (Draft)" (TS-APP-010, TS-INF-010) while the page lists them as issued: stubs. TS-DBS-001 prints
-  version 4.01 and Last Updated "Not documented (Draft)": a document, flagged in the seed list.
+  Statewide GenAI Agency Responsibilities page is a readable web page (it was a 403). It is a sub-page of the Guide, which the section page
+  calls "Practical Help", with must-directives like its siblings; all the Guide's sub-pages are treated alike and left out (OWNER DECISION).
+- Three PDFs call themselves a draft on their own header table while the page lists them as issued: TS-APP-010 and TS-INF-010 print version
+  "3.01 (Draft)", and TS-DBS-001 prints version 4.01 with Last Updated "Not documented (Draft)". All three are stubs (OWNER DECISION): the
+  ingester refuses a Draft on the Version row or the Last Updated row alike (in force only, spec rule 6).
 - The Drive PDFs are re-rendered by Google Docs on each download: the byte hash changes while the text does not (the three files held
   before had new hashes and identical text). Hash-only drift checks will report them changed every time.
 - The rules page lists the same five OIT rules (8 CCR 1501-5, -7, -9, -11, -12) as the seed list. The Secretary of State's page for 1501-5 shows
@@ -50,12 +56,13 @@ answered 200 to the Fetcher, as did `www.colorado.gov/governor` and its year pag
 
 `www.colorado.gov/governor/executive-orders` links one page per year, 2019 to 2026; each row is an order number, date, title and a Google
 Drive PDF. 869 rows were read by title. Candidates on state IT, cybersecurity, data or AI: B 2019 013 (Colorado Digital ID; in scope, in force
-by the record; its PDF's text layer holds every word twice, so it is a stub), D 2026 022 (a cybersecurity education pathway; left out, owner
+by the record; its PDF's text layer holds every word twice, so it is a stub: the two-engine OCR run on 2026-11-11 reached 94% word agreement but
+only 85% figure agreement of 46 against a bar of 90%, 87% with tesseract mode 4 and 82% with mode 6, so it stays a stub), D 2026 022 (a cybersecurity education pathway; left out, owner
 decision), the broadband orders (out of scope) and fifteen election-cybersecurity National Guard activations (out of scope). No order on state
 AI or data governance was found. `spl.cde.state.co.us` was not retried.
 
 ## Left for the owner
 
 The seed list's comments carry each case: the Glossary of Terms (incorporated by reference into every instrument; fetched, no ingester),
-the guide pages with directives (Individual User Responsibilities; Approved & Prohibited GenAI Tools), D 2026 022, TS-DBS-001, and the removal of
+the guide pages with directives (Individual User Responsibilities; Approved & Prohibited GenAI Tools; Statewide GenAI Agency Responsibilities), D 2026 022, TS-DBS-001, and the removal of
 the two documents the live pages no longer list.

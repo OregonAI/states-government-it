@@ -3130,7 +3130,6 @@ sources:
     listed_as: "TS-DAT-002: Secure File Transfer"
     why_relevant: "OIT technical standard TS-DAT-002 (Data and Databases): Secure File Transfer. OIT's Technical Standards page lists it as issued by the Office of Enterprise Architecture and approved by the OIT Architecture Review Board; the file prints its own effective date, version and last-updated date."
   - id: co-oit-ts-dbs-001
-    sha256: "90abc0bfc71a2bee98b59467fa63ca4f76f68d1cdfc7fdc417807289b3f9f36c"
     url: https://drive.google.com/uc?export=download&id=1X_deJtmgRMouYfiF-ICbn1nBvgh6DqOv
     format: pdf
     citation: "TS-DBS-001"
@@ -3141,6 +3140,8 @@ sources:
     issuing_body: "Governor's Office of Information Technology"
     tags: [data]
     recheck: monthly
+    stub: true
+    stub_reason: "The file OIT links prints its version as '4.01' but its Last Updated row reads 'Not documented (Draft)', while OIT's Technical Standards page lists it among the standards it has issued. The corpus holds in-force instruments only and a file that calls itself a draft on its own header table is not shown to be in force (the same test as TS-APP-010 and TS-INF-010, which mark the Draft on the Version row): OWNER DECISION. The file is a PDF and was fetched (2026-11-11) through the Fetcher; its text is not committed."
     oit_link: "https://drive.google.com/file/d/1X_deJtmgRMouYfiF-ICbn1nBvgh6DqOv/view?usp=sharing"
     found_via: "https://oit.colorado.gov/standards-policies-guides/technical-standards"
     listed_as: "TS-DBS-001: Supported Databases and Versions"
@@ -3868,21 +3869,6 @@ sources:
     listed_as: "eSignature Guidelines for State Agencies"
     why_relevant: "Which eSignature solution a state agency should use for each kind of document (legal signature or acknowledgment, with or without sensitive data), from a Deputy Directors' working group led by the Department of Personnel & Administration. OIT's live Policies & Governance page (read 2026-11-11) still lists and links it, as 'eSignature Guidelines for State Agencies', under Current Statewide Policies, Enterprise Governance: it is a current OIT-listed statewide policy. The PDF prints 'Published January 2020', has no OIT header table (no Document ID or Issuing Authority) and names OIT once, as the approver of further solutions; issuing_body is what the PDF prints. The PDF is unchanged since the first pass (same text)."
 
-  # ---- OIT page (HTML): the plain-language statement of agency and OIT duties under the Statewide GenAI Policy
-  - id: co-oit-genai-agency-responsibilities
-    sha256: "b553fd534aa375cc50c6a587001eb6b4d28a53ebbe88f4a5aaabe8a66f6d4ee0"
-    url: https://oit.colorado.gov/standards-policies-guides/guide-to-artificial-intelligence/statewide-genai-agency-responsibilities
-    format: html
-    citation: "Statewide GenAI Agency Responsibilities"
-    title: "Statewide GenAI Agency Responsibilities"
-    doc_type: policy
-    jurisdiction: colorado
-    issuing_body: "Governor's Office of Information Technology"
-    tags: [ai, governance]
-    recheck: monthly
-    found_via: "https://oit.colorado.gov/ai"
-    why_relevant: "The OIT page that states what agencies and OIT must do under the Statewide GenAI Policy: every GenAI use case, including a vendor's, goes through OIT intake and a NIST-based risk assessment; high-risk uses are escalated to the Governor's Office; agencies test by risk level and record GenAI systems; OIT's own responsibilities. A web page in OIT's Guide to Artificial Intelligence (the Guide is OIT's 'practical help' section), written as requirements ('must'); it prints no document number, version or date. The policy itself is co-oit-genai-policy."
-
   # ---- Colorado executive orders: the official lists are at www.colorado.gov/governor (read 2026-11-11, HTTP 200 to the Fetcher)
   # The Governor's page www.colorado.gov/governor/executive-orders links one page per year (2019 to 2026); each lists the orders
   # with a Google Drive PDF of each signed order. All 869 rows (A appointments, B boards, C clemency, D declarations and directives)
@@ -3901,7 +3887,7 @@ sources:
     stub: true
     oit_link: "https://drive.google.com/file/d/1Km0kUbib3FGiza6d8_C83KTFMC3fMn6W/view?usp=sharing"
     found_via: "https://www.colorado.gov/governor/2019-executive-orders"
-    stub_reason: "In scope and in force by the official record, but the file's text cannot be committed cleanly. The Governor's 2019 orders page links the PDF (listed as 'B 2019 013', 10/30/2019); the Fetcher read it on 2026-11-11 (HTTP 200, 1,010,943 bytes, 3 pages, produced by Adobe Acrobat Paper Capture). Its text layer holds every word twice at slightly different offsets (pdftotext prints 'Supporting Widespread Widespread Adoption Adoption of of Digital ...'), so extraction is not the order's text; the page images are legible. The order directs OIT, with the Department of Revenue's Division of Motor Vehicles and other executive branch agencies, to develop, launch and hold sole responsibility for Colorado Digital ID and related identification technology (sections II.A-H), exempts state law enforcement agencies in part (III), and ends 'This Executive Order shall remain in effect unless modified or rescinded by future Executive Order of the Governor' (IV). None of the Governor's 2019-2026 order lists shows a rescission of it. The corpus reads scans with a two-engine OCR procedure (tesseract and PaddleOCR) and PaddleOCR was not installed in this run, so no OCR text was made; deduplicating the layer by script would be an unreviewed transformation. Reopens when the two-engine procedure is run where PaddleOCR is installed (add ocr: true and run src/ingest.py), or the Governor's office publishes a clean copy."
+    stub_reason: "In scope and in force by the official record, but the file's text cannot be committed cleanly. The Governor's 2019 orders page links the PDF (listed as 'B 2019 013', 10/30/2019); the Fetcher read it on 2026-11-11 (HTTP 200, 1,010,943 bytes, 3 pages, produced by Adobe Acrobat 10.0 Paper Capture Plug-in). Its text layer holds every word twice at slightly different offsets (pdftotext prints 'Supporting Widespread Widespread Adoption Adoption of of Digital ...'), so extraction is not the order's text; the page images are legible. The order directs OIT, with the Department of Revenue's Division of Motor Vehicles and other executive branch agencies, to develop, launch and hold sole responsibility for Colorado Digital ID and related identification technology (sections II.A-H), exempts state law enforcement agencies in part (III), and ends 'This Executive Order shall remain in effect unless modified or rescinded by future Executive Order of the Governor' (IV). None of the Governor's 2019-2026 order lists shows a rescission of it. The two-engine OCR procedure was run on 2026-11-11 (tesseract through ocrmypdf --force-ocr, which sets the doubled layer aside, and PaddleOCR PP-OCRv6 on the original page images). The engines agree on 94% of the word sequence (bar 80%) but on only 85% of the 46 figures (bar 90%); with tesseract page-segmentation mode 4 the figure agreement was 87% of 44, and with mode 6 82% of 49. The figures are the order's own numbers (its number, the Article IV Section 2 citation, dates) and the engines read them differently, so the reading is not promotable and a single engine's text is not committed. Deduplicating the text layer by script would be an unreviewed transformation. Reopens when the Governor's office publishes a clean copy, or an OCR run clears the figure bar."
     why_relevant: "Directs OIT and the executive branch agencies on Colorado Digital ID (a mobile digital identity, with the myColorado app): authorizes it as a legal form of personal identification, lets agencies accept it from 12/01/2019, and gives OIT sole responsibility for it and related identification technology. The only Colorado order found on state IT, cybersecurity, data or AI that is clearly in force."
 
   # ---- Colorado executive order index pages to watch
@@ -3947,8 +3933,8 @@ sources:
   #    OIT Internal Policies, file https://drive.google.com/file/d/1rweshKsE_2EwGG8UkYbP0ivbnRetiHUC/view?usp=sharing : read in full; it sets
   #    approval protocols for OIT employees' official communications with elected officials. Fails the inclusion test (not IT, data or AI as a function).
   #  - TS-APP-010 'Code Repositories (Repository Manager)' and TS-INF-010 'Enterprise Wireless': stubs above; the files print version '3.01 (Draft)'.
-  #    TS-DBS-001 'Supported Databases and Versions' prints version 4.01 with Last Updated 'Not documented (Draft)'; its version carries no Draft marker, so it is a
-  #    document (OWNER DECISION whether a Last Updated line that says Draft means the standard is a draft).
+  #    TS-DBS-001 'Supported Databases and Versions' prints version 4.01 with Last Updated 'Not documented (Draft)': the same Draft marker on the Last Updated row,
+  #    so it is a stub too (OWNER DECISION, as for the other two); the ingester refuses a Draft on either row.
   #  - Drafts for Consultation, comments until 12/18/2026, not in force: REF-ENT-001 'Enterprise Information Technology Governance Framework'
   #    (version 1.0, effective date N/A; working-draft PDF https://drive.google.com/file/d/1dhnoZ3zPxxpN97ncO-aq5RK569ai3UHS/view?usp=drive_link ) and
   #    POL-OIT-047 'Mandatory Instrument Lifecycle Management Policy' (version 5.0, effective date N/A, supersedes POL-100-47;
@@ -3963,6 +3949,10 @@ sources:
   #    GenAI Risks & Considerations; Case Study: Google Gemini Pilot). OWNER DECISION: Individual User Responsibilities and Approved & Prohibited GenAI Tools
   #    carry directives ('Effective immediately, please discontinue using the free version of ChatGPT on any of your state-issued devices'); the Guide's pages
   #    still link the Statewide GenAI Policy at a ServiceHub article (KB0012606), the PDF of which is the document co-oit-genai-policy.
+  #    The Statewide GenAI Agency Responsibilities page (.../guide-to-artificial-intelligence/statewide-genai-agency-responsibilities) is a sub-page of the same Guide, with
+  #    must-directives of the same kind; it was ingested in the first live-page pass and is now left out under the same OWNER DECISION, so that all the Guide's sub-pages are
+  #    treated alike (its text read 2026-11-11, HTTP 200 to the Fetcher; document, snapshot and ingester test fixture were from the same bytes). Restore it, with the two siblings,
+  #    if the owner decides the Guide's directives are instruments.
   #  - The Glossary of Terms (https://oit.colorado.gov/glossary-of-terms): fetched; OIT calls it 'the single, authoritative source of definitions used across State
   #    IT governance instruments' that every instrument 'incorporates by reference'. It is part of how the instruments read, and no ingester for its layout is built:
   #    OWNER DECISION whether it enters.

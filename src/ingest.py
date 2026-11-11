@@ -1746,6 +1746,11 @@ def _check_co_policy_identity(src: dict, text: str, what_is: str) -> None:
         if ver and re.search(r"draft", ver.group(1), flags=re.I):
             raise ValueError(f"{src['id']}: {what_is} prints its version as {ver.group(1)!r}: a Draft is not "
                              f"shown to be in force")
+        # A header table that calls the file a draft on its Last Updated row says the same (TS-DBS-001).
+        upd = re.search(r"^[ \t]*Last Updated[ \t]{2,}(\S.*?)[ \t]*$", head, flags=re.M)
+        if upd and re.search(r"draft", upd.group(1), flags=re.I):
+            raise ValueError(f"{src['id']}: {what_is} prints its Last Updated row as {upd.group(1)!r}: a Draft "
+                             f"is not shown to be in force")
 
 
 def _is_cdt(src: dict) -> bool:

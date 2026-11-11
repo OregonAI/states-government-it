@@ -135,3 +135,13 @@ def test_every_file_oit_lists_is_in_the_seed_list_as_the_link_oit_prints_seeded_
     assert listed
     missing = sorted(link for link in listed.values() if link not in MANIFEST)
     assert not missing, f"listed by OIT but neither seeded nor recorded as left out: {missing}"
+
+
+def test_a_last_updated_row_that_says_draft_is_refused_even_when_the_version_does_not():
+    """TS-DBS-001 prints 'Version 4.01' and 'Last Updated  Not documented (Draft)': a file that calls itself a
+    draft anywhere in its header table is not shown to be in force (spec rule 6)."""
+    _, text = ing.derive(APP005, APP005_PDF)
+    drafted = re.sub(r"^([ \t]*Last Updated[ \t]{2,}).*$", r"\1Not documented (Draft)", text, count=1, flags=re.M)
+    assert drafted != text
+    with pytest.raises(ValueError, match="Last Updated"):
+        ing.check_identity(APP005, drafted, "pdf")
