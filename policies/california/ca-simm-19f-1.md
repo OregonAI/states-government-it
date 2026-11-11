@@ -1,0 +1,3868 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: california
+id: ca-simm-19f-1
+title: Preparation Instructions
+doc_type: policy
+citation: SIMM 19F.1
+authority_level: ''
+issuing_body: California Department of Technology
+source_url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19F.1-Preparation-Instructions.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 68498c86862263e7c761350de4ceeb1230f5ba29b6485564c3e310abc1d2fece
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Preparation Instructions (SIMM 19F.1)
+
+## At a glance
+
+SIMM 19F.1, Preparation Instructions: an item of the SIMM's policies, the California Department of Technology's library of statewide IT policies, standards, instructions, forms and templates.
+
+## Full text
+
+               State of California
+          Department of Technology
+
+  Financial Analysis Worksheets
+            Preparation Instructions
+
+Statewide Information Management Manual – Section 19F
+
+                    October 2017
+
+                                INTRODUCTION TO
+                       THE FINANCIAL ANALYSIS WORKSHEETS
+
+Overview
+SIMM Section 19F, Financial Analysis Worksheets (FAWs), provides a basis for detailed
+financial analysis that contributes to good investment decisions, project transparency, and
+accountability. The purpose of the FAWs is to document and compare the costs and financial
+benefits of the current method of operation with those of the alternatives considered. The FAWs
+are used to identify the specific resources that will be needed to implement the proposed
+alternative and attempts to answer the questions: “How much will the project cost?,” “What will
+be the impact on future operations?” and “From where will the funding come?” Estimating
+alternative solution costs is a key component of the financial analysis used to make an
+information technology (IT) investment decision. Financial proposals and decisions are
+strengthened when there is a clear understanding of the complete resource implications. The
+FAWs instructions have been prepared to help State of California Agencies/state entities1 meet
+the California Department of Technology (CDT) requirements for documentation of project
+proposals. Contact your CDT, Office of Statewide Project Delivery (OSPD), Project Approval
+Manager for additional direction and clarification.
+
+                                                     Clarifications
+          FAWs will be created in conjunction with the Stage 2 Alternatives Analysis.
+          Agencies/state entities are required to submit the FAWs along with a Stage 2
+           Alternatives Analysis for all proposals deemed reportable by the CDT.
+          For the proposed alternative, each of the following worksheets must be
+           completed: Alt 1- Project, Alt 1- Future Ops, Alt 1- Funding Plan,
+           Alt 1- Planning BCP, and Alt 1- Project BCP.
+          For all other alternatives considered, only the following worksheets must be
+           completed: Alt 2- Project and Alt 2- Future Ops (and) Alt 3- Project and Alt
+           3- Future Ops.
+          Agencies/state entities are required to update the FAWs at Stage 3 Solution
+           Development and Stage 4 Project Readiness and Approval, as further
+           analysis of a proposal may necessitate changes to the financial analysis.
+
+Stage 2 Alternatives Analysis Reporting Requirements
+The CDT requires specific information from Agencies/state entities to carry out its
+responsibilities in approving the FAWs as part of the Stage 2 Alternatives Analyses. The FAWs
+must be comprehensive and cannot rely on verbal or subsequent written responses (e.g.,
+emails) to the CDT staff questions. Submissions that are incomplete and fail to provide relevant
+information in written form may be returned without consideration at the discretion of the CDT.
+
+1 State entity: Includes every state office, officer, department, division, bureau, board, and commission, including
+
+Constitutional Officers. “State entity” does not include the University of California, California State University, the
+State Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel
+Bureau.
+California Department of Technology                                                                                     2
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                                 October 2017
+
+Agency/state entity IT proposal submissions that meet one or more of the CDT’s reporting
+criteria must follow the documentation requirements defined in the State Administrative Manual
+(SAM) section 4819.37 and these instructions. Each Agency/state entity has the responsibility
+to ensure its FAWs meet the CDT requirements.
+
+The CDT may, at its discretion, request additional information from the Agency/state entity.
+
+California Department of Technology                                                              3
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                          October 2017
+
+                                                        Table of Contents
+
+Overview.................................................................................................................................... 2
+Stage 2 Alternatives Analysis Reporting Requirements.............................................................. 2
+Transmittal Requirements .......................................................................................................... 5
+Financial Analysis Worksheets ................................................................................................... 5
+  Steps to Complete the FAWs: ................................................................................................ 5
+FAWs Template General Instructions ......................................................................................... 7
+1.0 Executive Cost Summary Worksheet ................................................................................... 7
+2.0 Summary Worksheet............................................................................................................ 8
+3.0 Current Operations Costs Worksheet (Current Ops) ............................................................ 9
+  3.1 Personal Services (Existing Staff) ..................................................................................... 9
+     3.1.1 Existing Staff .............................................................................................................10
+     3.1.2 Program/IT ................................................................................................................10
+     3.1.3 Monthly Salary ..........................................................................................................10
+     3.1.4 Tenure/Time Base.....................................................................................................10
+     3.1.5 Current Annual Operations Costs..............................................................................10
+     3.1.6 Total Current Operations Costs .................................................................................11
+     3.1.7 Average Current Operations Costs ...........................................................................11
+  3.2 Operating Expenses and Equipment (OE&E) ..................................................................11
+  3.3 Local Assistance..............................................................................................................11
+  3.4 Hidden Columns ..............................................................................................................11
+4.0 Project Costs Worksheets (Alt #- Project) ...........................................................................11
+  4.1 Personal Services............................................................................................................12
+  4.2 Operating Expenses and Equipment (OE&E) ..................................................................12
+  4.3 Local Assistance..............................................................................................................12
+  4.4 Annual Savings/Revenue Adjustments ............................................................................12
+  4.5 Column Headings/Vertical Organization ..........................................................................12
+5.0 Future Operations Worksheets (Alt #- Future Ops) .............................................................13
+  5.1 Personal Services............................................................................................................13
+  5.2 Operating Expenses and Equipment (OE&E) ..................................................................13
+  5.3 Average Future Operations Costs....................................................................................13
+  5.4 Column Headings/Vertical Organization ..........................................................................13
+6.0 Funding Plan Worksheet (Alt 1- Funding Plan) ....................................................................14
+7.0 Planning, Project BCP Worksheets .....................................................................................16
+8.0 Detail Instructions – Executive Cost Summary, Summary, Current Ops, Alt 1- Project, Alt 1-
+Future Ops, and Alt 1- Funding Plan Tabs ................................................................................17
+  Executive Cost Summary Tab ...............................................................................................17
+  Summary Tab ........................................................................................................................19
+  Current Operations Tab .........................................................................................................21
+  Alt 1- Project (Alt 2- Project, and Alt 3- Project) Tab ..............................................................34
+  Alt 1- Funding Plan Tab.........................................................................................................65
+  Alt 1- Planning BCP ...............................................................................................................68
+  Alt 1- Project BCP .................................................................................................................72
+
+California Department of Technology                                                                                                         4
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                                                 October 2017
+
+       FINANCIAL ANALYSIS WORKSHEETS PREPARATION INSTRUCTIONS
+
+Transmittal Requirements
+The FAWs are to be submitted with the Stage 2 Alternatives Analysis as an attachment to
+Section 2.14. If projected costs and/or financial benefits change throughout the Project Approval
+Lifecycle (Stage 3 Solution Development and/or Stage 4 Project Readiness and Approval),
+updates must be submitted along with the associated deliverable. Contact your CDT Office of
+Statewide Project Delivery (OSPD) Project Approvals and Oversight Project Approval Manager
+for additional guidance.
+
+Financial Analysis Worksheets
+Steps to Complete the FAWs:
+The steps below are designed to obtain the cost-benefits, risk assessments, and cost-recovery
+strategies required to support business owner actions and stakeholder decisions, and to assist in
+project proposal assessments. Agencies/state entities may complete the FAWs in the
+sequential order below or follow another order as preferred. For example, the project costs
+(one-time) can be added to the FAWs before adding the current operating costs. However, it is
+important to enter cost information into the applicable Current Ops and Alt #- Project, and Alt #-
+Future Ops, for each respective alternative.
+
+Step 1:    In the Executive Cost Summary worksheet, enter the Project Name,
+           Department Name, Project Number, and Date. This information automatically
+           populates in each of the other worksheets. The project costs (one-time and
+           future operations IT staff an OE&E) in the Executive Cost Summary will
+           automatically populate once the Alt 1- Project and Alt 1- Future Ops worksheets
+           are completed.
+
+Step 2:    Identify the current operations costs using the Current Ops worksheet:
+           Determine the existing costs for program operations and supporting information
+           systems as they would be if the proposed project is not undertaken. This
+           information includes Personal Services (PS) (Existing Staff), Operating
+           Expenses and Equipment (OE&E) and Local Assistance, which together add up
+           to ”Total Expenditures – Current Operations Costs.”
+
+           In each appropriate column, by fiscal year (FY), until the maintenance and
+           operations (M&O) cycle of expenditures repeats, select the FY (in 0000-00
+           format) with the:
+
+           a. Classification, program or IT (i.e., Pgm or IT), monthly salary, tenure/Time Base
+              (i.e., P, T, E, Board), and number of positions.
+              Note: It is important to select either “Pgm or IT” AND “P, T, E, or Board” as
+              certain calculations within the worksheets depend on these entries.
+
+           b. Operating expenses and equipment (i.e., a project may have a cycle of
+              expenditures over more than one FY before repeating).
+
+           c. Enter the number of FYs with entries (e.g., “5”), for calculation purposes.
+
+           Note: The Current Ops worksheet automatically calculates the average operations
+           costs (i.e., Average Current Operations Costs) for use in subsequent calculations.
+
+California Department of Technology                                                               5
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                            October 2017
+
+Step 3:    Use the appropriate worksheet (e.g., Alt 1- Project, Alt 2- Project, and Alt 3-
+           Project) to identify estimated one-time project costs for each alternative
+           considered. Do not include operating costs provided in the Current Ops
+           worksheet. Identify the one-time project costs:
+
+           a. For each Alternative – Enter the Personal Services (Existing Staff To Be
+              Redirected) and (New Staff), program and IT staff, needed for the planning
+              and project. Enter existing staff in the Existing Staff To Be Redirected
+              section and new staff in the New Staff section.
+
+           b. Enter Alternative Solution OE&E costs.
+
+           The “Total Expenditures – Alternative (#) Operations Costs” includes Personal
+           Services (PS) (Existing Staff To Be Redirected and New Staff), OE&E and Local
+           Assistance.
+
+Step 4:    Use the appropriate worksheet (e.g., Alt 1- Future Ops, Alt 2- Future Ops, Alt 3-
+           Future Ops) to identify the estimated future annual operations costs for the top
+           three alternatives considered. Estimate and document the projected future
+           costs for program operations and supporting information systems for each
+           alternative solution:
+
+           a. Enter the future staff costs in the Personal Services section for the business,
+              other program, as well as IT staff, broken down by existing staff and new
+              staff. Enter existing staff in the Existing/Redirected Staff section and new
+              staff in the New Staff section.
+
+           b. Enter the future OE&E costs (including M&O) for: General Expense,
+              Printing, Communications, Consulting and Professional Services:
+              Interdepartmental, Consolidated Data Centers, Information Technology, etc.
+
+Step 5:    Use the Alt 1- Funding Plan worksheet to identify funding source(s). Identify
+           the source and mix of funding (e.g., General Funds, Special Funds, Federal
+           Funds, and Other Funds) for the entire project costs (i.e., Total Planning, Project
+           Costs + Total Future Annual Costs). Only complete this information for the
+           selected alternative.
+
+Step 6:    The FAWs, based on the above reported information, will generate most of the
+           Alt 1- BCP Planning and Alt 1- BCP Project worksheets. Enter the funding
+           source needed for one-time costs associated with a BCP. Review this sheet and
+           add information (existing funding to be used for personal service, OE&E, existing
+           system funds, or other fund sources) if needed.
+
+           It is important to note that the Alt 1- BCP Planning and Alt 1- BCP Project are
+           provided as tools to assist in the preparation of IT project-related Budget Change
+           Proposals.
+
+California Department of Technology                                                                6
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                             October 2017
+
+FAWs Template General Instructions
+The FAWs provide a fiscal comparison of the current method of addressing a business problem
+to each alternative approach. A key concept of this review is to develop apples-to-apples
+comparisons of various component cost and revenue impacts. This is done through the review
+of the average annual cost of multi-year cycles, which allows for cycles of varying timeframes to
+be compared. For example, if the current system has a three-FY M&O cycle (i.e., the cost of
+operations is not the same from FY to FY but repeats every three FYs) but the alternative’s
+future operations has a five-FY cycle, comparing the average annual operations cycle cost
+allows for a fair comparison of the current to the alternative approach.
+
+The FAWs are made up of several Microsoft (MS) Excel spreadsheets that populate, by
+formula, the Executive Cost Summary, Summary, Alt 1- Funding Plan, Alt 1- Planning
+BCP, and Alt 1- Project BCP spreadsheets. The other specific spreadsheets address the
+costs of:
+
+          Current operations cost for the existing system (the costs that would continue without
+           initiating the proposed project).
+          One-time project costs for each alternative considered (one sheet is required for each
+           alternative identified, not just the selected alternative).
+          Future operations costs for each alternative considered (one sheet is required for
+           each alternative identified, not just the selected alternative).
+          Funding Plan for the selected alternative only.
+          Alt 1- Planning BCP for the selected alternative only.
+          Alt 1- Project BCP for the selection alternative only.
+
+Each of these pages include column headings reflecting the FY in which the costs will occur.
+The Summary, Alt 1- Funding Plan, Alt 1- Planning BCP, Alt 1- Project BCP automatically
+identify the FY based on the corresponding Alt 1-, Alt 2-, Alt 3- Project or Future Ops
+worksheets. Only enter the actual FY in 0000-00 format (e.g., 2020/2021) in fields that are
+displayed as “White.” The FY columns are intended to sync up with BCP fiscal sheets, both by
+FY and by category of expenditure.
+
+Note: The FAWs must be completed per these instructions regardless of the system
+development lifecycle that is anticipated to be used to deliver the solution (waterfall,
+agile/iterative, etc.). Show entire project costs on these spreadsheets, hiding/unhiding FYs as
+needed, and adjusting ”average” formulas via the “Number of FYs with entries” cell.
+
+1.0 Executive Cost Summary Worksheet
+The Executive Cost Summary summarizes the total project (planning, project, and future)
+costs and also provides the overall planning and project costs plus the continuing future IT staff
+and OE&E costs.
+
+Once Stage 4 Project Readiness and Approval is approved, the final FAWs Executive Cost
+Summary will identify the final approved budget amount for the project. This information may be
+transferred to your other project related documentation (e.g., Project Status Report) or other
+cost tracking sheets. When transferring cost amounts, either copy and paste special using
+“Values (V)” or retype the amounts into the destination worksheet/cost tracking document.
+
+Enter the project name, department name, project number, and date. All other fields are
+automatically populated using data from your Alt 1- Project and Alt 1- Future Ops worksheets.
+
+California Department of Technology                                                                  7
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                           October 2017
+
+2.0 Summary Worksheet
+The Summary worksheet displays the summarized costs and financial benefits of each
+alternative. This worksheet has been designed to chronologically display key financial aspects
+for each alternative, identifying the average current operations costs (before project), project
+costs (during project), and average future operations costs (after project). All of the cells in the
+Summary worksheet are generated from data contained in the “Current Ops” worksheet,
+applicable “Alt #- Project” worksheets, and the “Alt #- Future Ops” for each alternative. Do not
+input data directly into the Summary worksheet.
+
+The Summary worksheet compares each alternative solution and identifies the proposed
+alternative (i.e., Alt 1- Project). The Summary worksheet contains summary level information,
+which provides the basis to perform an evaluation of each alternative both in terms of costs to
+implement the alternative and the positive or negative impact on operations resulting from the
+implementation of the system. The “Net Cost (+) or Benefit (-)” row for each alternative in the
+Summary worksheet provides information on the relative benefit of implementing each
+alternative, based on the total project costs.
+
+The Summary worksheet is organized into the following vertical sections (columns):
+
+       Average Current Operations Costs (Before Project): This column includes the
+        annual cost to operate the program and information systems as they exist today
+        before the new solution has been implemented. The costs shown here are derived
+        from the information inputted into the Current Annual Operations worksheet
+        (Current Ops), which represent annual costs of multi-year operations cycles. As
+        represented in the Summary worksheet, those costs represent the average annual
+        operations costs.
+       Planning Costs (Stage 2 – Stage 4): These columns show the estimated year-by-
+        year cost to plan the project; this reflects total one-time costs. The first five FYs are
+        labeled as: “Planning Costs,” “FY 1,” “FY 2,” etc. See 3.0 Project Costs
+        Worksheets (Alt #- Project) for additional information regarding planning costs.
+       Project Costs (During Project): These columns show the estimated year-by-year
+        cost to implement the project; this reflects total one-time costs. The FYs (in the
+        0000-0000 format) align with the BCP fiscal detail. This section includes each
+        alternative’s project costs based on the project activities broken down by FY.
+       Total One-Time (Project) Costs: These columns combine the total project costs
+        for all FYs, broken down by positions and dollars, OE&E expenditures, local
+        assistance.
+       Average Future Operations Costs (After Project): These columns show the
+        projected cost to operate the program and information systems after the alternative
+        has been implemented and changes have been made to program and IT
+        operations.
+       Change in Operations Costs: These columns show the differences between what
+        it costs to operate the current program and supporting systems (today) and what it
+        is estimated it will cost to operate the program and supporting systems in the future
+        after the project has been completed and the new system has been implemented.
+       Total Project Costs (Planning + One-Time + Total Future Annual Costs):
+        These columns summarize the costs for planning, one-time project, and total future
+        operations for IT staff with OE&E costs.
+
+California Department of Technology                                                                 8
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                              October 2017
+
+The Summary worksheet is organized into the following horizontal sections (rows) for each
+alternative:
+
+       Total Project Costs: These rows show a summary of the total PS expenditures
+        and the total OE&E expenditures, as well as Local Assistance costs, broken down
+        by the vertical columns identified above.
+       Annual Savings/Revenue Adjustments: These rows show a summary of the
+        cost savings/avoidances and or increased program revenues achieved by
+        implementing each alternative. These rows also show a summary of the net cost or
+        benefit from implementing each alternative.
+       Annual Future Operations Costs (M&O): This row provides the final IT personal
+        services costs plus OE&E expenditures for the final M&O FY only.
+       Simple Return on Investment (ROI): This row identifies the future percentage of
+        costs compared to the current costs and whether it increases or decreases
+        operations costs. This thumbnail view can help compare various alternatives but
+        only serves as a fiscal calculation and does not recognize the policy reasons that
+        justify a particular alternative.
+
+3.0 Current Operations Costs Worksheet (Current Ops)
+NOTE: The Current Ops, Alt #- Project, and Alt #- Future Ops worksheets are formatted
+similarly. This allows for consistency between sheets and data to feed into the BCP fiscal data
+sheet.
+
+The first step in completing the FAWs is to identify and document the current annual cost to
+operate the program and supporting information systems as they exist today before the
+alternative solution has been implemented. If existing IT systems will not be modified or
+replaced, then only the current non-IT program operating costs should be shown.
+
+The Current Ops worksheet provides information regarding the relative size of the program and
+IT operations required to support the business and identifies a baseline for change in operations
+costs that may occur due to the implementation of the alternative solution. The costs shown
+here shall be based on actual annual costs of multi-year operations cycles; the idea of multi-
+year operation cycles recognizes that the cost of operations in a particular FY may increase or
+decrease but that those annual changes occur through a defined number of FYs before
+repeating. Consequently, if the current annual operations costs are the same for each FY and
+do NOT fluctuate over multi-year operation cycles, only one FY of cost information is needed.
+
+Note: It is possible that the operations cycle of the current system versus one or another of the
+identified alternatives may not include the same number of FYs. One point of analysis from the
+information of the worksheets is to compare average costs. If needed, unhide or hide FYs
+based on the specific situations you are addressing. The Current Ops sheet allows for up to 10
+FYs to be included. If the number of FYs is changed, remember to revise the average
+formula calculations as appropriate, and consult with your OSPD Project Approval
+Manager if more than 10 FYs are needed.
+
+The Current Ops worksheet is organized into the following sections.
+
+3.1 Personal Services (Existing Staff)
+
+California Department of Technology                                                                 9
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                          October 2017
+
+Using the following fields, identify the existing staff that currently support the business process
+and IT systems impacted by this proposal.
+
+    3.1.1 Existing Staff
+    Identify the classifications of the existing staff that currently support the business process
+    and IT systems impacted by this proposal.
+
+    3.1.2 Program/IT
+    Differentiate the program staff that are currently working in the business area supported by
+    the system versus the IT staff currently assigned to support the existing information systems
+    and infrastructure (if one exists).
+
+    3.1.3 Monthly Salary
+    Identify the total monthly salary of each classification. The salary for existing staff is the
+    current salary. Do not include any benefits costs.
+
+    3.1.4 Tenure/Time Base
+    For each position, enter whether the position is Permanent (P), Temporary (T), Exempt
+    (E), or a Board position. As needed, work with your Budget Office to determine the
+    appropriate tenure/Time Base for your positions. For each appropriate FY column,
+    include the time base (to the tenth of a full position) for all applicable staff resources.
+    The definitions for P, T, E, and Board positions are as follows:
+
+              Permanent: Positions authorized/reflected in the annual Supplemental
+               Schedule of Salaries and Wages (Schedule 7A), authorized in the California
+               Budget.
+              Temporary: Positions not authorized/reflected in the annual Supplemental
+               Schedule of Salaries and Wages (Schedule 7A). Typically, temporary
+               positions are paid out of “blanket” funds unassociated with a specific
+               authorized position. Also refer to Government Code (GC), Title 2, Division 3,
+               Part 3, Chapter 3, Section 13309 for additional information.
+              Exempt: Appointees of the Governor or elected officials, including members
+               of the Legislature. The Government Code, Title 2, Division 3, Part 1,
+               Chapter 6 sets the positions and salaries for most top-level State officers
+               appointed by the Governor (e.g., Director of Finance, Secretary of
+               Transportation, Secretary of the Natural Resources Agency). For specific
+               positions and salaries of exempt positions, refer to the California Department
+               of Human Resources (CalHR) Exempt Employee Salaries.
+              Board: Typically, appointees of the Governor or other appointing authorities.
+               Members of boards and commissions are exempt from civil service. For
+               specific positions and salaries of board positions, refer to the CalHR Exempt
+               Employee Salaries.
+
+    3.1.5 Current Annual Operations Costs
+    For each FY column, identify the number of positions. The associated costs (Dollars) for
+    current operations will automatically be based on the monthly salary and position
+    information entered. Positions (and costs) are to be shown for an entire multi-year
+    operations cycle. These reflect the cost of current operations if the project is not undertaken
+    and operations continue in their current state.
+           Positions: Enter the number of existing staff for each classification. Identify
+              partial positions to one/tenth (0.1) of a position.
+
+California Department of Technology                                                                   10
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                               October 2017
+
+              Dollars: The staff cost will be calculated automatically based on the monthly
+               salary/benefits and number of positions. This figure reflects the annual salary-only
+               cost for the positions.
+
+    3.1.6 Total Current Operations Costs
+    The costs will be calculated automatically based on the total sum of all FYs for the multi-year
+    operations cycle.
+
+    3.1.7 Average Current Operations Costs
+    The costs will be calculated automatically based on the total average of all FYs. The figures
+    in this column will be automatically rolled up into the Summary worksheet. Remember to
+    change the “Number of FYs with entries” based on the multi- year operations cycle entered.
+
+3.2 Operating Expenses and Equipment (OE&E)
+The costs for OE&E are broken out by the items of expense used in the BCP fiscal sheets.
+Departments shall not revise these items of expense or the totals derived from these items. The
+sample form includes examples of various sub items. For example, in the Consulting and
+Professional Services: Interdepartmental, in the parenthesis “5340330-Consulting and
+Professional Services – Interdepartmental” is noted. If this item applies, you may enter
+“5340330” and then the department providing professional services. Be sure to follow the
+format recommended by your department’s budget/accounting section. Comply with the
+Department of Finance (DOF) and Financial Information System for California (FI$Cal)
+definitions regarding the correct item/sub item of expense to post OE&E expenses.
+
+3.3 Local Assistance
+Identify any Local Assistance expenditures. These are state funds provided to counties, cities
+and special districts. As the use of Local Assistance as an expenditure is rare, the Local
+Assistance fields are hidden and may be unhidden if needed.
+
+3.4 Hidden Columns
+The Current Ops and all “Alt #- Project,” and “Alt #- Future Ops” worksheets are formatted
+similarly. All of these spreadsheets include columns that have been hidden from view to
+simplify the look of the spreadsheets since they include only formulas that are not intended to
+be changed, as they perform calculations that transfer position-type information to the BCP
+fiscal data sheet. Use the “Hide” or “Unhide” feature in MS Excel to add or hide columns and
+rows, as appropriate.
+
+4.0 Project Costs Worksheets (Alt #- Project)
+NOTE: The Current Ops worksheet, as well as the Alt #- Project and Alt #- Future Ops
+worksheets for all alternatives are formatted similarly. Please refer to Section 3.0 Current
+Operations Costs Worksheet (Current Ops), above, for specific instructions not repeated
+below. Since the various Alt #- Project and Alt #- Future Ops worksheets for all alternatives
+are formatted similarly, be sure to label them per the alternative for which the information is
+being displayed (e.g., Alt 1 vs. Alt 2).
+
+California Department of Technology                                                               11
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                           October 2017
+
+The second step in preparing the FAWs is to estimate the one-time project cost of implementing
+each alternative solution. Alternative costs reflect total one-time costs and are used to evaluate
+the relative merit of implementing the system for proposals that are based on a benefit-based
+proposal. There will be one Alternative (Alt #- Project) worksheet for each alternative
+described in SIMM Section 19B.2, Stage 2 Alternatives Analysis, Section 2.10 Alternative
+Solutions. There are three Alt #- Project worksheets provided for this purpose. The Alternative
+worksheets are organized into the following sections. Note: Do not adjust costs for inflation.
+
+4.1 Personal Services
+Please refer to Section 3.0 Current Operations Costs Worksheet (Current Ops) Worksheet.
+Identify the existing or new staff needed to develop the solution identified in this alternative.
+
+4.2 Operating Expenses and Equipment (OE&E)
+The OE&E information for all Alt #- Project and Alt #- Future Ops worksheets are formatted
+similarly to the Current Ops worksheet. Refer to Section 3.0 Current Operations Costs
+Worksheet (Current Ops). Identify the OE&E costs needed to develop the solution identified in
+this alternative.
+
+4.3 Local Assistance
+Identify any Local Assistance expenditures. These are state funds provided to counties, cities
+and special districts. The Local Assistance line is included for those projects that include these
+costs only. As the use of Local Assistance as an expenditure is rare, the Local Assistance fields
+are hidden and may be unhidden if needed.
+
+4.4 Annual Savings/Revenue Adjustments
+Each Alt #- Project page calculates and links to the Summary worksheet, Annual
+Savings/Revenue Adjustments. Specifically, Cost Savings, Cost Avoidances, Increased
+Program Revenues, Net Cost or Benefit (a positive amount is a cost, a negative amount is a
+benefit), Cumulative Net Cost or Benefit, and Simple Return on Investment (ROI) are calculated
+based on other information inputted into the current spreadsheet, then linked to the Summary
+worksheet.
+
+4.5 Column Headings/Vertical Organization
+Column headings for the Alt #- Project worksheets are similar to the Current Ops worksheet;
+refer to Section 3.0 Current Operations Costs Worksheet (Current Ops) with the following
+exceptions:
+       Planning Costs FY (Year 1, 2, 3, 4 and 5): Using the dropdown, enter the FY (in
+        YYYY/YY format) when the planning costs will be incurred. Note: Years 3, 4, and 5 are
+        currently hidden; use the MS Excel Unhide function to open additional FYs, as needed.
+
+        Departments that do not routinely enter into large IT projects may not have base
+        funding/staffing to perform planning activities for such a project. Planning costs may
+        include costs incurred prior to the approval of a project (e.g., market research,
+        requirements development). The FAWs have been constructed to generate the BCP
+        fiscal sheet information for budget requests for up to five FYs of these Planning Costs.
+        These planning costs will be included in the Total Project cost and reflected in the
+        Summary worksheet of the workbook, allowing them to be compared for the various
+        alternatives. The costs in these columns are to be reported in the spreadsheet as would
+        other FY amounts (i.e., refer to Section 3.0 Current Operations Costs (Current Ops)
+        Worksheet).
+
+California Department of Technology                                                             12
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                           October 2017
+
+5.0 Future Operations Worksheets (Alt #- Future Ops)
+NOTE: The Current Ops worksheet, as well as the Alt #- Project and Alt #- Future Ops
+worksheets for all alternatives are formatted similarly. Please refer to Section 3.0 Current
+Operations Costs Worksheet (Current Ops), above, for specific instructions not repeated
+below. Since the various Alt #- Project and Alt #- Future Ops worksheets for all alternatives
+are formatted similarly, be sure to label them per the alternative for which the information is
+being displayed (e.g., Alt 1 vs. Alt 2).
+
+The third step in completing the FAWs is to identify and document the future annual cost to
+operate the alternative (after project). It is important to estimate and document the future costs
+for program operations and supporting information systems for each alternative solution. When
+compared to the baseline operations costs, this presents a view of the total cost of ownership
+for the proposed alternative. In the Summary worksheet, these future operations costs are
+compared to the current annual operations cost and presented in the Change in Operating
+Costs columns. Note: Do not adjust costs for inflation.
+
+5.1 Personal Services
+Refer to Section 3.0 Current Operations Costs Worksheet (Current Ops).
+
+Identify the classifications of the staff who support the business process and IT systems
+impacted by the information system. Differentiate the program staff that are currently working in
+the business area supported by the system versus the IT AND program staff currently assigned
+to support the information systems and infrastructure.
+
+        For example, if an Associate Governmental Program Analyst will provide ongoing
+        support for the system (not as a user only), then this staff person should be designated
+        as “IT” for the portion of duties when they will provide information system and
+        infrastructure support.
+
+On a case by case basis, you may only need to show those staff who will provide support to the
+information system (identified as “IT”). Discuss your particular situation with your CDT OSPD
+Project Approvals and Oversight Manager for further clarification.
+
+5.2 Operating Expenses and Equipment (OE&E)
+The OE&E information for all Alt #- Project and Alt #- Future Ops worksheets are formatted
+similarly to the Current Ops worksheet. Refer to Section 3.0 Current Operations Costs
+Worksheet (Current Ops).
+
+5.3 Average Future Operations Costs
+The costs will be calculated automatically based on the total average of all FYs. The figures in
+this column will be automatically rolled up into the Summary worksheet. Remember to change
+the number of FYs of costs if the operations cycle being used is different from that shown in the
+sample form.
+
+5.4 Column Headings/Vertical Organization
+Column headings for the Alt -# Future Ops worksheets are similar to the Current Ops
+worksheet; refer to Section 3.0 Current Operations Costs Worksheet (Current Ops) with the
+following exceptions:
+
+California Department of Technology                                                                13
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                           October 2017
+
+       IT Only Total (Future FYs): The total IT personal services costs automatically calculates
+        each row in Personal Services (Existing/Redirected) and (New) based on the positions
+        identified as “IT.” Any entries in the Overtime, Holiday, Other row will be included added
+        to the IT Personal Services total. Additionally, the percentage entry in the Dept. Benefits
+        Rate (% of Salaries/Wages) (first FY column) will be used to calculate the IT personal
+        services benefits total.
+
+        The IT Personal Services (Existing/Directed)/(New) totals plus the OE&E costs for all
+        FYs will be automatically summed and used to populate the Summary worksheet’s Total
+        Project Costs “Total Fut. Ops. IT Staff & OE&E Costs” cell.
+
+       (Optional) Enter Total IT OE&E Costs Only: If the OE&E costs shown indicate program-
+        related costs, you may manually enter only those costs related to IT in the columns
+        identified as “(Optional) Enter Total IT OE&E Costs Only.” For example, if you have
+        $50,000 Travel – In State costs and only $5,000 is related to IT, then use the
+        corresponding row and “(Optional) Enter Total IT OE&E Costs Only” column to enter
+        $5,000.
+         Once an entry is made to this column, you must manually enter all other costs related to
+         your IT OE&E needs, for each respective row. You will also need to enter the
+         appropriate costs in the “(Optional) Enter IT OE&E for the FINAL M&O FY ONLY”
+         column. Additionally, if no OE&E costs shown relate to the IT OE&E needs, you may
+         enter $ .01 in one row under the “(Optional) Enter Total OE&E Costs Only” and
+         “Optional) Enter IT OE&E for the FINAL M&O FY ONLY.” By doing this, you will not
+         have IT OE&E costs for “Future Ops. IT Staff & OE&E Costs (Continuing)” or “Annual
+         Future Operations IT Costs (M&O)” on the Summary and Executive Cost Summary
+         worksheets.
+
+         Be sure to align the M&O IT OE&E with the specific year identified.
+
+       Enter Final M&O FY: Using the dropdown, enter the FY that provides the final M&O FY
+        where the expenditures repeat in future FYs. The total IT Personal Services
+        (Existing/Redirected)/(New) plus “Overtime, Holiday, Other and Dept. Benefits Rate (%
+        of Salaries/Wages)” plus OE&E costs for the FY entered will calculate automatically for
+        this column. The Summary worksheet’s Total Project Costs “Annual Fut. Ops. Costs
+        (M&O)” will populate this sum for the annual future operations costs. This calculation is
+        similar to the IT Costs in the previous Economic Analysis Worksheets to identify “above
+        the line” continuing IT costs.
+
+       (Optional) Enter IT OE&E for Final M&O FY Only: If the OE&E costs shown indicate
+        program-related costs, you may manually enter only those costs related to IT in this
+        column for each respective OE&E category. Once any is made to this column, you must
+        manually enter on other OE&E costs related to the final M&O FY. Refer to additional
+        information in “(Optional) Enter Total IT OE&E Costs Only” above.
+
+6.0 Funding Plan Worksheet (Alt 1- Funding Plan)
+The Alt 1- Funding Plan worksheet is used to show where the funding will come from for the
+proposed alternative as well as savings and/or revenues that may be achieved. The funding
+plan shall only be developed for the proposed alternative.
+
+California Department of Technology                                                              14
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                           October 2017
+
+Note: The majority of the Funding Plan Worksheet is automatically completed from information
+transmitted, by formula, from other worksheets. Only those cells with no coloration are required
+to be filled out by the Agency/state entity.
+
+Column Headings/Vertical Organization: The vertical organization of the Alt 1- Funding
+Plan worksheet is organized similar to the Alt #- Project worksheets, with the exception of the
+added “Future Annual Costs (After Project/M&O – Full FYs Only)” and “Average Future
+Operations Cost” columns, included:
+       To identify funding for future annual costs, in addition to project costs
+       For the purpose of additional formula calculations in this spreadsheet
+
+Planning Cost: These columns show the planning costs and funding plans for planning the
+project. The first columns (FY 1 through FY 5) align with planning any planning costs
+associated with Stages 2 – 4.
+
+Project Costs: The project columns “FY” (in YYYY/YY format) show the project costs and
+funding plans for each FY needed to implement the selected alternative. The first FY column is
+the anticipated start of the project and will align with the BCP budget year.
+
+Future Annual Costs: Using the dropdown, enter the FYs for all FYs included in the Alt 1-
+Future Ops that do not coincide with a Project FY. Partial future FYs that coincide with a project
+FY will automatically be included in the Project Costs FY as long as the FY was already
+identified as a FY in the Project Costs.
+
+Average Future Operations Cost: These columns show the projected cost and funding
+plans to operate the program and information systems after changes have been made to
+program processes and the selected alternative has been implemented.
+
+The Alt #1- Funding Plan worksheet is organized into the following horizontal sections (rows):
+
+       Total Project Costs: This row automatically populates the One-Time Project
+        Costs (of the selected alternative – Alt 1) for each FY.
+       Total Future Costs: This row automatically populates the Total Future Costs (of
+        the selected alternative – Alt 1) for each respective FY.
+       Total Project Costs + Total Future Costs: This row automatically combines the
+        project and future costs for FYs that align with each other.
+       Project Resources (including funding) To Be Redirected: This section identifies
+        redirected resources for the planning, project, and/or future annual operations costs
+        of the new system.
+       Additional Funding Needed: This section identifies the project (one-time) funding
+        and future operations (annual) funding needs for each FY. Enter the funding
+        source (by percentage) for each FY.
+       Funding Source, State Operations: Identify the funding source(s) and breakdown
+        for how the selected alternative will be funded, by percentage for each FY.
+       Funding Source, Local Assistance: Identify the funding source(s) and
+        breakdown how the selected alternative will apply local assistance funding, by
+        percentage for each FY.
+
+California Department of Technology                                                             15
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                          October 2017
+
+        Funding Source Total: The Funding Source Total should equal the total planning,
+         project, and future costs (as applicable) (Row 7) for each FY. If the Funding
+         Source Total does not equal 100%, review the entries in rows 26 – 38 to verify all
+         applicable fund sources have been identified.
+
+7.0 Planning, Project BCP Worksheets
+BCP worksheets are only prepared for the selected alternative (Alt#1). There are two BCP
+worksheets: (1) Alt 1- Planning BCP and (2) Alt 1- Project BCP. The Alt 1- Planning BCP
+worksheet takes information from the Planning Cost columns of the Alt 1- Project worksheet,
+while the Alt 1- Project BCP worksheet takes information from the FY columns of the Alt 1-
+Project and Alt 1- Future Ops worksheets, as applicable.
+
+The two BCP worksheets are structured similarly to the BCP worksheet provided by the DOF.
+The purpose of this worksheet is to automatically generate most of the information needed for
+the BCP, thereby, simplifying the alignment of information between the FAWs and the BCP.
+Most of the cells in the BCP worksheets reference cells in other FAWs so that the data in the
+BCP Transfer worksheet is predominantly automatically populated as other FAWs are
+completed, with the following exceptions that the Agency/state entity shall complete, as
+appropriate:
+
+    a.      Other Funding to be used, if any (Existing): If other existing fund sources are to be
+            used for specific expenditures (e.g., Positions, General Expense), enter the total
+            amount in the corresponding column. Entries into the “(-) Other Funding to be used,
+            if any (Existing)” column will reduce the Planning or Project BCP (as applicable)
+            funds needed.
+    b.      Total Capital Outlay Expenditures: The FAWs are constructed to calculate State
+            Operations and Local Assistance expenditures, both existing and new, but not
+            Capital Outlay expenditures. Therefore, should the Agency/state entity’s project
+            require Capital Outlay expenditures, Agencies/state entities are required to populate
+            these fields in the BCP worksheets manually.
+    c.      Other Items (Unclassified, Reappropriation, and Reversion): These amounts are not
+            tracked in the FAWs and, if appropriate to be included in the BCP fiscal sheet, must
+            be added by the requesting Agency/state entity.
+    d.      Revenue (General Fund, Other/Special Funds): These amounts are not tracked in
+            the FAWs and, if appropriate to be included in the BCP fiscal sheet, must be added
+            by the requesting Agency/state entity.
+    e.      Loans/Revenue Transfers (General Fund, Other/Special Funds): These amounts
+            are not tracked in the FAWs and, if appropriate to be included in the BCP fiscal
+            sheet, must be added by the requesting Agency/state entity.
+
+California Department of Technology                                                             16
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                          October 2017
+
+  8.0 Detail Instructions – Executive Cost Summary, Summary,
+  Current Ops, Alt 1- Project, Alt 1- Future Ops, and Alt 1-
+  Funding Plan Tabs
+  Detailed instructions for the Executive Cost Summary, Summary, Current Ops, Alt 1- (Alt 2-, Alt
+  3-) Project, Alt 1 (Alt 2-, Alt 3-) Future Ops, Alt 1- Funding Plan tabs, are as follows:
+
+  Executive Cost Summary Tab
+      Location,
+                         Label Name                                        Information
+    Column/Row
+   Row 2                  Project Name:               Enter the project name.
+                                                      Once entered, this information will automatically
+                                                      populate on all other worksheets.
+   Row 3                  Department Name:            Enter your department name.
+                                                      Once entered, this information will automatically
+                                                      populate on all other worksheets.
+   Row 4, Column C        Project Number:             Enter the project number.
+                                                      Once entered, this information will automatically
+                                                      populate on all other worksheets.
+   Row 4, Column          Date:                       Enter the date. Typically, the date will represent
+   D/E                                                when final project approval is received.
+                                                      Once entered, this information will automatically
+                                                      populate on all other worksheets.
+   Column E (Rows         Project Costs; Planning     This provides the total planning, project, and future IT
+   6 – 11)                Costs (One-Time); Project   operations costs for the project. Additionally, this
+                          Costs (One-Time); Future    information is used in your Stage 4 Approval letter
+                          Operations IT Staff &       from CDT and will be used to determine your total
+                          OE&E Costs (Continuing);    project budget.
+                          and, Annual Future
+                          Operations IT Costs (M&O)
+   Column E (Rows         Various                     Total project costs (planning, project, and future) are
+   7 – 61)                                            automatically populated based on the entries to your
+                                                      Alt 1- Project and Alt 1- Future Ops worksheets.
+
+                                                      The Staff OE&E Rollup and Misc. OE&E Rollup totals
+                                                      contain multiple categories of OE&E. Specifically,
+
+                                                      Staff OE&E Rollup contains: General Expense;
+                                                      Printing; Communications; Postage; Insurance;
+                                                      Travel – In-State; Travel – Out-of-State; Training;
+                                                      Facilities Operations; and Utilities. Refer to the Alt 1-
+                                                      Project or Alt 1- Future Ops sheets for itemized
+                                                      details.
+
+                                                      Miscellaneous OE&E Rollup contains: Departmental
+                                                      Services; Central Administrative Services; Office
+                                                      Equipment; Other; Unclassified/Special Adjustment;
+                                                      Local Assistance.
+   Column B – E           Consulting and              These rows display the total cost along with the
+   (Rows 17 – 27          Professional Services:      specific detail to support the total cost of consulting
+                          Interdepartmental           and professional services (interdepartmental).
+   Column B – E           Consulting and              These rows display the total cost along with the
+   (Rows 28 – 38)         Professional Services:      specific detail to support the total cost of consulting
+                          External                    and professional services (external).
+   Column B – E           Consolidated Data Centers   These rows display the total cost along with the
+   (Rows 39 – 46)                                     specific detail to support the total cost of consolidated
+                                                      data center services.
+
+California Department of Technology                                                                      17
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                   October 2017
+
+      Location,
+                                  Label Name                            Information
+     Column/Row
+   Column B – E           Information Technology   These rows display the total cost along with the
+   (Rows 47 – 61)                                  specific detail to support the total cost of information
+                                                   technology (e.g., IT hardware, servers, software).
+
+California Department of Technology                                                                   18
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                October 2017
+
+  Summary Tab
+      Location,
+                                  Label Name                                 Information
+     Column/Row
+   Row 1                  Department name, Stage         No entry required for Department name and Date if
+                          X/Version X, Date              the Executive Cost Summary Tab was completed.
+
+                                                         Enter the Stage and Version, as needed.
+   Row 2                  Project Number and             No entry required for Project Number and Project
+                          Project Name                   Name if the Executive Cost Summary Tab was
+                                                         completed.
+
+   Footer                 SIMM 19F.2, Pages X of X,      Automatic – No entry required.
+                          Automatic Date
+
+      Location,
+                                  Label Name                                 Information
+     Column/Row
+   Row 4                  FY 1, FY 2, FY 3, FY 4, FY5,   Fiscal Year (FY) (July 1 – June 30).
+                          FY (Various).                  Automatic – No entry required (once applicable Alt 1-
+                                                         Project, Alt 2- Project, or Alt 3- Project information
+                                                         entered).
+
+                                                         Note: Hidden columns H/I, J/K, LM (for Planning
+                                                         Costs) and AB/AC, AD/AE, AF/AG (For Project Costs
+                                                         may displayed if more than two planning FYs or
+                                                         seven project FYs information is documented.
+                                                         Unhide columns as needed.
+   Row 5                  Positions, Dollars             Positions and dollars needed for each applicable FY
+                                                         or in total for Average Current Operations Costs,
+                                                         Average Future Operations Costs, and Change in
+                                                         Operations Costs.
+   Rows 6, 23, 40        Total Project Costs             Label.
+  Rows 7, 24, 41         Total Personal Services       Includes New and Redirected Personal Services.
+                           Expenditures                  Automatic – No entry required.
+  Rows 8, 25, 42         Total OE&E Expenditures       Includes New and Redirected OE&E Expenditures.
+                                                         Automatic – No entry required.
+  Rows 9, 26, 43         Total Local Assistance        Funding for local assistance (e.g., grants, local
+                                                         training, call center).
+  Rows 10, 27, 44        Total Costs                    Total costs (Personal Services, OE&E, and Local
+                                                         Assistance) for specific FY.
+   Rows 11, 28, 45        Annual Savings/Revenue         Label for the summarized savings and/or revenue
+                          Adjustments                    adjustments.
+
+California Department of Technology                                                                       19
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                   October 2017
+
+      Location,
+                                  Label Name                                  Information
+     Column/Row
+  Rows 12, 29, 46        Cost Savings                  Total Project Positions and Dollars – Current
+                                                         Operations Positions and Dollars.
+  Rows 13, 30, 47        Cost Avoidances/Increased     Total Cost Avoidances and Total Increased Project
+                           Program Revenues              Revenues based on the project.
+  Rows 14, 31, 48        Net Cost (+) or Benefit (-)   Sum of Cost Savings, Cost Avoidances, and
+                                                         Increased Program Revenues for the entire project.
+  Rows 15, 32, 49        Cum. Net Cost (+) or          Cumulative totals for the Net Cost or Benefit.
+                           Benefit (-)
+  Rows 17, 34, 51        Annual Future Operations       Total final future FY IT Costs, which includes IT
+                          Costs (M&O)                    personal services (redirected/existing/new), overtime,
+                                                         holiday, other, benefits, and OE&E costs for the final
+                                                         future FY once a system is designated as M&O.
+  Rows 18, 35, 52        Simple Return on Investment    Future Operations divided by the Current Operations.
+                          - (Future Costs Compared to    The percentage calculates the overall estimated
+                          Current Costs)                 return once the project is implemented.
+
+      Location,
+                                  Label Name                                  Information
+     Column/Row
+   Columns B, C           Average Current                Current positions and dollars before the project (or if
+                          Operations Costs (Before       the project is not undertaken).
+                          Project) (A)
+   Columns D – M          Planning Costs                 Planning Costs occur during the development of
+                                                         Stages 2, 3, and 4.
+
+                                                         Note: Hidden columns H/I (Year 3), J/K (Year 4), L/M
+                                                         (Year 5) applicable only if more than two (2) FYs of
+                                                         planning information is documented. Unhide
+                                                         columns as needed.
+   Columns N – AG         Project Costs (During          Costs after contract award during project
+                          Project)                       implementation.
+
+                                                         Note: Hidden columns AB/AC (Year 8), AD/AE (Year
+                                                         9), AF/AG (Year 10) applicable only if more than
+                                                         seven (7) FYs of project information is documented.
+                                                         Unhide columns as needed.
+   Columns AH, AI         Total One-Time (Project)       Total project costs including new and redirected
+                          Costs                          Personal Services, OE&E, and Local Assistance.
+
+California Department of Technology                                                                        20
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                     October 2017
+
+      Location,
+                                  Label Name                                  Information
+     Column/Row
+   Columns AJ, AK         Average Future Operations       Total cost of estimated future operations, averaged.
+                          Costs (After Project) (B)
+   Columns AL, AM         Change in Operations            Average Future Operations Costs - Current
+                          Costs (B-A)                     Operations provides the estimated change in costs
+                                                          for operations.
+
+   Columns AJ – AM        TOTAL PROJECT COSTS             Automatically calculates the total one-time planning
+                          (Planning + One-Time +          and project costs and the final future IT and OE&E
+   (Rows 12 – 16;         Total Future Annual Costs)      costs. Note: This total excludes any future
+   29 – 33; 46 – 50)                                      “program” personal services (existing/redirected/new)
+                                                          costs.
+
+                                                          The total future operations IT staff and OE&E
+                                                          includes: IT salaries (only) multiplied by the first
+                                                          future FY’s “Dept. Benefits Rate,” plus any Overtime,
+                                                          Holiday, Other and OE&E totals for all future FYs.
+   Columns AJ – AM        Annual Future Operations        Automatically calculates the total annual future IT
+                          Costs (M&O)                     costs of the FY identified as the final M&O FY in the
+   (Rows 17, 34 ,51)                                      Alt 1- Future Ops worksheet. The total costs include
+                                                          the IT personal services (existing/redirected/new),
+                                                          overtime, holiday, other, benefits costs (benefit rate
+                                                          of applicable FY x IT personal services), and OE&E.
+
+Current Operations Tab
+
+  KEY:
+
+  White Fields = Enter Information (as applicable).
+  Peach Fields = Automatically populated; No entry required.
+
+ Current Operations
+  Location,
+                       Label Name                                     Information
+ Column/Row
+ Row 1             Department name,          No entry required for Department name and Date if the
+                   Stage X/Version X,        Executive Cost Summary Tab was completed.
+                   Date
+                                             Enter the Stage and Version, as needed.
+
+California Department of Technology                                                                        21
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                     October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Row 2             Project Number and        No entry required for Project Number and Project Name if the
+                   Project Name              Executive Cost Summary Tab was completed.
+
+ Footer            SIMM 19F.2, Pages X       Automatic – No entry required.
+                   of X, Automatic Date
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Row 5             FY (Various).             Use to the dropdown to enter the FY in 0000/00 format. FY =
+                                             July 1 – June 30.
+
+                                             Enter information for up to 10 FYs.
+
+                                             Generally, enter existing FY information (Personal Services,
+                                             OE&E, and Local Assistance costs) for typically five FYs or until
+                                             the Current Operations Costs repeat and are not anticipated to
+                                             increase or decrease.
+
+                                             IMPORTANT: Change the Cell AC1/2 to the number of FYs
+                                             entered. This field is used to generate the Average Current
+                                             Operations Costs.
+ Row 6             Personal Services         Label for existing Personal Services information.
+                   (Existing Staff)
+                                             Rows 5 – 82 available for entries. Use the Unhide function to
+                                             view all available rows, as follows:
+
+California Department of Technology                                                                          22
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                     October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                      Information
+ Column/Row
+
+ In this example, rows between 22 and 82
+ are hidden. To Unhide rows, select the
+ row number before and after the hidden
+ rows, right-click and select “Unhide.”
+
+ To Hide rows, select the row numbers to
+ be hidden, right-click and select “Hide.”
+
+ If more Personal Services (Existing Staff) rows are needed than the 86 rows provided, contact your CDT
+ OSPD Project Approval Manager for assistance.
+ Column A,         (Add Classification)      Enter each classification assigned to the existing, current
+ Rows 7 – 84                                 operations for the impacted business program and IT systems.
+ available
+                                             Note: If a classification has multiple categories (Program/IT,
+                                             Monthly Salary, and/or Tenure/Time Base), repeat the
+                                             classification as needed. For example, if a Data Processing
+                                             Manager II is categorized as IT and another Data Processing
+                                             Manager II is categorized as Program, enter Data Processing
+                                             Manager II two times to accommodate both categories.
+ Column B,         Program/IT                Select Program or IT for each classification entered.
+ Rows 7 – 84
+ available                                   This field is used to identify the program staff that are currently
+                                             working in the business area supported by the system versus
+                                             the IT staff currently assigned to support the existing information
+                                             systems and infrastructure (if one exists).
+
+                                             IMPORTANT: Select either IT or Pgm as the worksheet
+                                             calculates the totals based on this information.
+ Column C,         Monthly Salary            Enter the total monthly salary of each classification.
+ Rows 5 – 82
+ available                                   The salary for existing staff is the current salary. Do not include
+                                             any benefits costs.
+ Column D,         Tenure/Time Base          For each classification, select Permanent (P), Temporary (T),
+ Rows 7 – 84                                 Exempt (E), or Board.
+ available
+                                             IMPORTANT: Select either P, T, E, or Board as the worksheet
+                                             calculates the totals based on this information.
+
+California Department of Technology                                                                           23
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                       October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                       Information
+ Column/Row
+                                             Note: If a classification has multiple Tenure/Time Bases, repeat
+                                             the classification as needed. For example, if a Programmer is
+                                             categorized as Permanent (P) and another Programmer is
+                                             categorized as Temporary (T), enter Programmer two times to
+                                             accommodate both categories.
+ Column E,         (Optional) Benefit        HIDDEN ROW (unhide if needed).
+ Rows 7 – 84       Rate (%)                  Only use this cell to enter the benefit rate for EACH classification
+ available                                   entered. If the benefit rate is completed, DO NOT use the Dept.
+                                             Benefits Rate (% of Salaries/Wages).
+ Columns F, H,     Positions                 Enter the number of existing staff for each classification. Identify
+ J, L, N, P, R,                              partial positions to one/tenth (0.1) of a position.
+ T, V, X
+ (Rows 7 – 84)
+ Columns G, I,     Dollars                   The staff cost is calculated automatically based on the monthly
+ K, M, O, Q, S,                              salary and number of positions. This figure reflects the annual
+ U, W, Y                                     salary-only cost for the position(s).
+ (Rows 7 – 84)
+ Row 85            Total, Permanent          Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Permanent.
+ Row 86            Total, Temporary          Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Temporary.
+ Row 87            Total, Exempt             Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Exempt.
+ Row 88            Total, Board              Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Board.
+ Row 89            Total Salaries and        Automatically calculates, by FY, all positions and dollars for
+                   Wages                     classifications.
+ Row 90,           Overtime, Holiday,        Enter overtime, holiday, and other costs related to Personal
+ Columns G, I,     Other                     Services (Existing Staff), by FY.
+ K, M, O, Q, S,
+ U, W, Y
+ Row 91,           Dept. Benefits Rate       Enter the state entity’s percentage of salaries for benefits costs.
+ Columns F, H,     (% of Salaries/           The total cost automatically calculates (Percentage x Total
+ J, L, N, P, R,    Wages)                    Salaries and Wages), by FY. Do NOT enter benefit rate if the
+ T, V, X                                     (Optional) Benefit Rate (%) was entered for each classification.
+
+                                             Note: Refer to the state entity’s Budget/Accounting Office to
+                                             assist with the percentage entered.
+ Row 92,           Total Personal            The Positions and Dollars (Salaries and Wages + Overtime,
+ Columns F –       Services                  Holiday, Other + Dept. Benefits Rate) automatically calculate, by
+ Y                                           FY.
+ Row 94 - 196      Operating Expenses        Label for existing OE&E, includes Quantity and Cost columns for
+                   and Equipment             each FY.
+ (Use the          (OE&E)
+ following                                   The Quantity column may be used to enter information helpful to
+ columns to                                  identify the corresponding cost (e.g., 100/per box). The Quantity
+ document                                    cells are not used for any automatic built-in calculations.
+ OE&E, by FY:
+ F, G; H, I; J,                              Note: Refer to the state entity’s Budget/Accounting Office to
+ K; L, M; N, O;                              assist with the OE&E category identification and to comply with
+ P, Q; R, S; T,                              the DOF and FI$Cal definitions regarding the correct item/sub
+ U; V, W; X, Y.                              item OE&E expenses.
+
+                                             The categories below align with the Budget Change Proposal
+                                             categories.
+
+California Department of Technology                                                                           24
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                       October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                     Information
+ Column/Row
+ Row 95            General Expense           Enter the quantity and cost, by FY.
+                   (5301400-Goods –
+                   Other)                    Examples:
+                                              311204 Employee Relocation
+                                              311205 Dues and Memberships
+                                              311206 Miscellaneous Office Supplies
+                                              311207 Freight and Drayage
+                                              311213 Purchased Clerical and Nonprofessional Services
+                                              311215 Advertising
+                                              311217 Meetings, Conferences, Exhibits and Shows
+                                              311223 Library Purchases (excluding UC, CSUC, and Other
+                                                Educational Institutions) and Subscriptions
+                                              311225 Photography
+                                              311226 Minor Equipment
+                                              311227 Office Equipment Rental, Maintenance, and Repairs
+                                              311238 Not Otherwise Classified-Goods
+                                              311239 Not Otherwise Classified-Services/Rentals
+ Row 96            Printing (5302900-        Enter the quantity and cost, by FY.
+                   Printing – Other)
+                                             Examples:
+                                              312242 Pamphlets, Leaflets, Brochures, and other similar
+                                                items
+                                              312243 Photocopy Paper
+                                              312244 Office Copier Expense (Rental, Maintenance and
+                                                misc. serv.)
+                                              312245 Printed Forms and Stationery
+                                              312246 Office Copier Supplies
+                                              312247 Microform
+                                              312248 Not Otherwise Classified
+ Row 97            Communications            Enter the quantity and cost, by FY.
+                   (5304800-                 Examples:
+                   Communications –           313252 Cell Phones, PDAs, Pagers
+                   Other)                     313253 Central Communication (CALNET, Centrex, ATSS)
+                                              313254 Fax
+                                              313255 Delivery Services (Messenger Services, Courier)
+                                              313256 Radio and Microwave Services
+                                              313257 Telephone
+                                              313258 Not Otherwise Classified
+                                              313259 Maintenance
+ Row 98            Postage (5306700-         Enter the quantity and cost, by FY.
+                   Postage – Other)
+                                             Examples:
+                                              314262 Stamps, Stamped Envelopes, Post Cards, Postage
+                                                Due Charges, Registered and Certified Mail Charges, Post
+                                                Office Box Rentals, and Parcel Post
+                                              314263 Postage Meter (Rent, Repairs, Refills, etc.)
+                                              314268 Not Otherwise Classified
+ Row 99            Insurance (5308900-       Enter the quantity and cost, by FY.
+                   Insurance – Other)
+                                             Examples:
+                                              315273 Tort Liability
+                                              315274 Vehicle
+                                              315275 Aviation
+                                              315276 Marine
+                                              315277 Medical Malpractice
+
+California Department of Technology                                                                    25
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                 October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                     Information
+ Column/Row
+                                              315282 False Arrest
+                                              315283 Individual and Blanket Surety Bonds
+                                              315288 Not Otherwise Classified
+ Row 100           Travel – In State         Enter the quantity and cost, by FY.
+                   (5320490-Travel – In
+                   State – Other)            Examples:
+                                              317292 Per Diem
+                                              317293 State Vehicle--General Services
+                                              317294 Commercial Air Transportation
+                                              317295 Other Transportation
+                                              317296 Private Car
+                                              317297 Rental Car
+                                              317301 Taxi and Shuttle Service
+                                              317302 Rail and Bus
+                                              317303 Overtime Meals
+                                              317305 Travel Agency Management/Transaction Fees
+                                              317308 Not Otherwise Classified
+ Row 101           Travel – Out of State     Enter the quantity and cost, by FY.
+                   (5320890-Travel –
+                   Out of State – Other)     Examples:
+                                              318312 Per Diem
+                                              318314 Commercial Air Transportation
+                                              318315 Other Transportation
+                                              318316 Private Car
+                                              318317 Rental Car
+                                              318322 Rail, Bus, and Taxi
+                                              318325 Travel Agency Management/Transaction Fees
+                                              318328 Not Otherwise Classified
+ Row 102           Training (5322400-        Enter the quantity and cost, by FY.
+                   Training – Tuition
+                   and Registration)         Examples:
+                                              321332 Tuition and Registration Fees
+                                              321333 Training Films and Slides
+                                              321334 Training Facility Rental
+                                              321335 Interdepartmental and Commercial Contracts
+                                              321337 Not Otherwise Classified (Goods)
+                                              321338 Not Otherwise Classified (Services)
+                                              (Note: Do not include salaries and wages or travel related to
+                                                training.)
+ Row 103           Facilities Operations     Enter the quantity and cost, by FY.
+                   (e.g., 5324350-Rents
+                   & Leases; 5324550-        Examples:
+                   Spec. Repairs &            323342 Rent--Buildings and Grounds (State-Owned)
+                   Deferred Maint.)           323343 Rent--Buildings and Grounds (Non-State-Owned)
+                                              323344 Janitorial Services
+                                              323345 Security
+                                              323346 Recurring Maintenance Services (Goods use
+                                               323357)
+                                              323347 Facility Planning--General Services (Space
+                                               Management, Lease Management, etc.)
+                                              323348 Waste Removal
+                                              323352 Special Repairs and Deferred Maintenance
+                                              323353 Alterations
+                                              323357 Not Otherwise Classified (Goods)
+                                              323358 Not Otherwise Classified (Services)
+
+California Department of Technology                                                                       26
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                    October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                     Information
+ Column/Row
+ Row 104           Utilities (5326900-       Enter the quantity and cost, by FY.
+                   Utilities – Other)
+                                             Examples:
+                                              324362 Electricity
+                                              324363 Natural Gas
+                                              324364 Liquid Petroleum Gas
+                                              324365 Propane for Heating
+                                              324366 Heating Oil
+                                              324367 Water
+                                              324372 Sewer
+                                              324378 Not Otherwise Classified
+ Rows 105 -        Consulting and            Enter the quantity and cost, by FY, for each interdepartmental
+ 115               Professional              consulting and professional services agreement.
+                   Services:
+                   Interdepartmental         Unhide rows as needed.
+                   (5340330-Consulting
+                   and Professional          Examples:
+                   Services -                 325383 Accounting
+                   Interdepartmental)         325384 Administrative
+                                              325385 Architectural
+                                              325386 Auditing
+                                              325387 Collection Services
+                                              325388 Compliance Inspection and Investigations
+                                              325392 Engineering
+                                              325393 Health and Medical
+                                              325394 Legal (Witness Fees, Filing Fees, Contract Review,
+                                               etc.; Excluding Attorney General)
+                                              325395 DPA Collective Bargaining Charges
+                                              325396 Attorney General
+                                              325397 Office of Administrative Hearings
+                                              325398 Other
+ Row 116           Subtotal -                The subtotal cost calculates automatically, by FY.
+                   Consulting and
+                   Professional
+                   Services:
+                   Interdepartmental
+
+California Department of Technology                                                                       27
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                    October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Row 117 –         Consulting and            Enter the quantity and cost, by FY, for each external consulting
+ 127               Professional              and professional services agreement.
+                   Services: External
+                   (5340580-Consulting       Examples:
+                   and Professional           326403 Accounting
+                   Services - External)       326404 Administrative
+                                              326405 Architectural
+                                              326406 Auditing
+                                              326407 Collection Services
+                                              326408 Compliance Inspectors and Investigations
+                                              326409 Information Technology
+                                              326412 Engineering
+                                              326413 Health and Medical
+                                              326414 Legal (Witness Fees, Filing Fees, Notaries Public
+                                               Fees, etc.)(excludes Attorney Fees)
+                                              326415 Attorney Fees (Services provided to agency)
+                                              326418 Other Services
+                                              326419 Non-Taxable Reimbursed Expenses (Non-employees
+                                               only) (Accounted for by Receipts & Travel Claims)
+                                              326420 Taxable Reimbursed Expenses (Non-employees
+                                               only)(Meals, mileage, etc. in excess of approved rates)
+ Row 128           Subtotal -                The subtotal cost calculates automatically, by FY.
+                   Consulting and
+                   Professional
+                   Services: External
+ Row 129 –         Departmental              HIDDEN ROW (unhide if needed).
+ 132               Services (5342500-        Enter the quantity and cost, by FY, for each departmental
+                   Indirect Distributed      services.
+                   Cost)
+                                             Unhide rows as needed.
+
+                                             Examples:
+                                              327422 Office Services
+                                              327423 Technical Services
+                                              327424 EDP Services
+                                              327425 Equipment Pool
+                                              327426 Other
+                                              327427 Indirect Distributed Cost
+ Row 133           Subtotal –                HIDDEN ROW (unhide if needed).
+                   Departmental              The subtotal cost calculates automatically, by FY.
+                   Services
+ Rows 134 –        Consolidated Data         Enter the quantity and cost, by FY, for each consolidated data
+ 141               Centers (5344000-         center services.
+                   Consolidated Data
+                   Centers)                  Unhide rows as needed.
+ Row 142           Subtotal -                The subtotal cost calculates automatically, by FY.
+                   Consolidated Data
+                   Centers
+
+California Department of Technology                                                                        28
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Rows 143 –        Information               Enter the quantity and cost, by FY, for information technology.
+ 157               Technology
+                   (5346900-                 Unhide rows as needed.
+                   Information
+                   Technology - Other)       Examples:
+                                              329434 Interagency Agreement
+                                              329435 Not Otherwise Classified – Services (Maintenance,
+                                               Security Services, Archival Services, etc.)
+                                              329436 Supplies (Paper, Toner, etc.)
+                                              329445 Software (Purchase, License)
+                                              329446 Hardware (Purchase, Lease)
+                                              329447 Data Lines (T1, DS3, etc.)
+                                              329448 Internet Service Provider
+                                              329449 Electronic Waste Recycling and Disposal Fees
+ Row 158           Subtotal -                The subtotal cost calculates automatically, by FY.
+                   Information
+                   Technology
+ Rows 159 –        Central                   HIDDEN ROW (unhide if needed).
+ 163               Administrative            Enter the quantity and cost, by FY, for central administrative
+                   Services (e.g.,           services.
+                   5348250-Pro Rata;
+                   5348500-Statewide         Unhide rows as needed.
+                   Cost Allocation Plan
+                   -SWCAP)                   Examples:
+                                             330438 Pro Rata
+                                             330439 SWCAP
+ Row 164           Subtotal - Central        HIDDEN ROW (unhide if needed).
+                   Administrative            The subtotal cost calculates automatically, by FY.
+                   Services
+
+California Department of Technology                                                                           29
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                     Information
+ Column/Row
+ Row 165 –         Office Equipment          Enter the quantity and cost, by FY, for office equipment.
+ 183               (5368115-Office           Unhide rows as needed.
+                   Equipment)                Examples:
+                                              332452 Replacement
+                                                o 332453 Office Equipment (Exclude Chairs, Desks,
+                                                    Credenzas, etc.)
+                                                o 332454 Passenger Motor Vehicles
+                                                o 332455 Other Motor Vehicles
+                                                o 332456 Household Equipment and Furnishings
+                                                o 332457 Machinery, Implements, and Major Tools
+                                                o 332462 Scientific Instruments and Apparatus
+                                                o 332463 Maps, Films, and Paintings
+                                                o 332464 Educational Equipment
+                                                o 332465 Livestock
+                                                o 332466 Electronic Data Processing
+                                                o 332468 Other
+                                              332472 Additional
+                                                o 332473 Office Equipment (Exclude Chairs, Desks,
+                                                    Credenzas, etc.)
+                                                o 332474 Passenger Motor Vehicles
+                                                o 332475 Other Motor Vehicles
+                                                o 332476 Household Equipment and Furnishings
+                                                o 332477 Machinery, Implements, and Major Tools
+                                                o 332482 Scientific Instruments and Apparatus
+                                                o 332483 Maps, Films, and Paintings
+                                                o 332484 Educational Equipment
+                                                o 332485 Livestock
+                                                o 332486 Electronic Data Processing
+                                                o 332488 Other
+ Row 184           Subtotal - Office         The subtotal cost calculates automatically, by FY.
+                   Equipment
+
+California Department of Technology                                                                      30
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                    October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Rows 185 –        Other (5390900-           Enter the quantity and cost, by FY, for other items of expense.
+ 190               Other Items of
+                   Expense -                 Unhide rows as needed.
+                   Miscellaneous)
+                                             Examples:
+                                              333501 Other Items of Expense
+                                              333502 Subsistence and Personal Care
+                                              333503 Clothing and Personal Supplies
+                                              333505 Recreation and Religion Supplies (Services use
+                                               326418)
+                                              333506 Foodstuffs
+                                              333507 Foster Care (IRC Sec 131 Exempt)
+                                              333512 Quartering and Housekeeping
+                                              333513 Laundry Services (Supplies use 333568)
+                                              333514 Miscellaneous Client Services
+                                              333515 Agricultural Supplies
+                                              333516 Chemicals, Drugs, Medicines and Medical and Lab
+                                               Supplies
+                                              333517 Educational Supplies
+                                              333520 Uniform Allowances
+                                              333522 Law Enforcement Materials
+                                              Structural Materials
+                                              333524 Vehicle Operations (Excluding Insurance and
+                                               Depreciation; For Use by Departments Maintaining Their Own
+                                               Vehicles)
+                                              333525 Gasoline
+                                              333526 Propane
+                                              333527 Oil and Lubrication
+                                              333532 Tires and Tubes
+                                              333533 Maintenance and Repair Services (Supplies use
+                                               333536)
+                                              333534 Washing
+                                              333535 Towing
+                                              333536 Other Vehicle Operations
+                                              333540 Exceptional Energy/Resources Purchases
+                                              333545 Late Payment Penalties - GC 927 et seq.
+                                              333568 Not Otherwise Classified (Goods)
+                                              333569 Not Otherwise Classified (Services)
+                                              333570 Not Otherwise Classified (Misc.)
+ Row 191           Subtotal - Other          The subtotal cost calculates automatically, by FY.
+
+California Department of Technology                                                                        31
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                     October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Rows 192 –        Unclassified/Special      HIDDEN ROW (unhide if needed).
+ 195               Adjustment (e.g.,         Enter the quantity and cost, by FY, for unclassified or special
+                   5395000-Unallocated       adjustments.
+                   Operating Expense
+                   and Equipment;            Unhide rows as needed.
+                   5415000 Claims
+                   Against the State;        Examples:
+                   5420000-Debt               441601 Debt Service
+                   Service - Interest;        441602 Interest
+                   5432000-Grants and         441603 Principal
+                   Subventions -              441608 Other
+                   Governmental;              442612 Depreciation and Amortization
+                   5490000-Other              443609 Attorney Fees (Services NOT provided to agency;
+                   Special Items of            fees segregated from clients’ award)
+                   Expense; 5700000-          443610 Payments to Attorneys - IRC 6045 (f) (includes client
+                   Internal Cost               proceeds)
+                   Recovery)                  443611 Tort Payments - Other punitive and damages that do
+                                               NOT involve physical or personal injury. (DO NOT include
+                                               attorney’s fees. See 443610)
+                                              443613 Tort Payments - Compensatory awards involving
+                                               physical or personal injury. (DO NOT include attorney’s fees.
+                                               See 443610)
+                                              444614 Taxes and Assessments
+                                              445615 Special Demonstration Projects
+                                              446616 Board of Control Claims X X X X
+                                              447618 Evidence X X X X
+                                              447619 Distributed Interest (not late penalties or debt service)
+                                              448621 Scholarships, Grants, and Fellowships (services
+                                               performed)
+                                              448622 Scholarships, Grants, and Fellowships (services not
+                                               performed)
+                                              449623 Retirement Disbursements
+                                              450624 Disability Benefits
+                                              451625 Death Benefits
+                                              452626 Loans (Exclude Local Govt.), Transfers and Other
+                                               Non-expenditure Disbursements
+                                              452627 Interagency pass -- through Disbursement
+                                              453628 Sales Discounts
+                                              453629 Purchase for Sale
+                                              453630 Prize Payments
+                                              454632 Other
+                                              500000 Unclassified
+                                              555651 Scheduled (Info. Only)
+                                              556661 Cost of Living Adjustments
+                                              557671 Unallocated
+                                              558681 Budget Revision Pending
+                                              559691 Special Adjustments
+                                              560696 Unscheduled (Info. Only)
+ Row 196           Subtotal –                The subtotal cost calculates automatically, by FY.
+                   Unclassified/Special
+                   Adjustment
+ Row 197           Total Operating           The Dollars for all OE&E categories automatically calculate, by
+                   Expenses and              FY.
+                   Equipment
+                   Expenditures
+
+California Department of Technology                                                                            32
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Row 199           Local Assistance          HIDDEN ROW (unhide if needed).
+                                             Label for existing Local Assistance, includes Quantity and Cost
+                                             columns for each FY. Local Assistance is state funds provided
+                                             to counties, cities and special districts.
+
+                                             Examples:
+                                              Grants and Subventions
+                                              661702 Governmental
+                                              661703 Non-Governmental (Including Non-Profit Entities)
+                                              661704 Rents and Leases
+                                              661705 Medical and Health Care Payments
+                                              661706 Other Misc. Payments & Services
+                                              661707 Goods
+                                              662711 State Mandates
+                                              664731 Loans
+                                              665741 Local Administration
+                                              666751 Other
+                                              667771 Unallocated
+                                              668781 Budget Revision Pending
+                                              669791 Special Adjustments
+ Row 200           Grants                    HIDDEN ROW (unhide if needed).
+                                             Enter the quantity and cost, by FY, for grants.
+
+                                             Typically grants describe amounts of money received by an
+                                             organization for a specific purpose but with no obligation to
+                                             repay (in contrast to a loan, although the award may stipulate
+                                             repayment of funds under certain circumstances). For example,
+                                             the state receives some federal grants for the implementation of
+                                             health and community development programs, and the state
+                                             also awards various grants to local governments, private
+                                             organizations, and individuals according to criteria applicable to
+                                             the program.
+ Row 201           Subventions               HIDDEN ROW (unhide if needed).
+                                             Enter the quantity and cost, by FY, for subventions.
+
+                                             Typically subventions describe amounts of money expended as
+                                             local assistance based on a formula, in contrast to grants that
+                                             are provided selectively and often on a competitive basis. For
+                                             the purposes of Article XIII B, state subventions include only
+                                             money received by local agency from the state, the use of which
+                                             is unrestricted by the statutes providing the subvention.
+ Row 202           Administrative            HIDDEN ROW (unhide if needed).
+                                             Enter the quantity and cost, by FY, for administrative services
+                                             associated with local assistance.
+ Row 203           Total Local               HIDDEN ROW (unhide if needed).
+                   Assistance                The Dollars for all Local Assistance categories (grants,
+                                             subventions, administrative) automatically calculate, by FY.
+ Row 205           Total Personal            The Positions and Dollars (Salaries and Wages + Overtime,
+                   Services                  Holiday, Other + Dept. Benefits Rate) from the Total Personal
+                   Expenditures              Services (Row 90) calculates automatically, by FY.
+ Row 206           Total OE&E                The Dollars for OE&E from the Total Operating Expenses and
+                   Expenditures              Equipment Expenditure (Row 266), by FY.
+ Row 207           Total Local               HIDDEN ROW (unhide if needed).
+                   Assistance                The Dollars for all Local Assistance from the Total Local
+                                             Assistance (Row 272), by FY.
+
+California Department of Technology                                                                         33
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+ Current Operations
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Row 208           TOTAL                     The Positions and Dollars from Total Personal Services
+                   EXPENDITURES -            Expenditures, Total OE&E Expenditures, and Total Local
+                   CURRENT                   Assistance calculates automatically, by FY.
+                   OPERATIONS
+                   COSTS
+ Column Z/AA       Total Current             Column Positions (Y) and Dollars (Z) calculate automatically
+                   Operations Costs          based on corresponding row totals.
+ Column            Average Current           Column Positions (AA) and Dollars (AB) divides the
+ AB/AC             Operations Costs          corresponding total in Column Positions (Y) or Dollars (Z) by the
+                                             number of FYs entered in Cell AB1 to calculate the Average
+                                             Current Operations Costs.
+ Row 211           Comments                  Enter comments as needed to provide explanation or additional
+                                             information related to the worksheet.
+
+Alt 1- Project (Alt 2- Project, and Alt 3- Project) Tab
+
+  KEY:
+
+  White Fields = Enter Information (as applicable)
+  Blue and Peach Fields = Automatically populated; No entry
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Row 1             Department name,          No entry required for Department name and Date if the
+                   Stage X/Version X,        Executive Cost Summary Tab was completed.
+                   Date
+                                             Enter the Stage and Version, as needed.
+ Row 2             Project Number and        No entry required for Project Number and Project Name if the
+                   Project Name              Executive Cost Summary Tab was completed.
+
+ Footer            SIMM 19F.2, Pages X Automatic – No entry required.
+                   of X, Automatic Date
+ Alt 1- Project (Alt 2- Project, Alt 3- Project)
+
+California Department of Technology                                                                         34
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                     October 2017
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+
+ Column A,         Project Costs             <Name> - Enter the Alternative name.
+ Row 3 – 5         Alternative 1 (2 or 3)
+                   <NAME>
+ Columns F –       Planning Costs            Planning Costs occur during the development of Stages 2, 3,
+ O                 (Stage 2, 3, 4)           and 4.
+ Columns P, Q      Planning Position &       Total positions and dollars for all planning FYs. Automatically
+                   Dollar Totals             calculates; no entry required.
+ Columns R –       Project Costs             Costs after contract award during project implementation.
+ AK                (During Project)
+                                             Note: Hidden columns AE/AF (FY 8), AG/AH (FY 9), AI/AJ (FY
+                                             10) applicable only if more than seven (7) FYs of project
+                                             information is documented. Unhide columns as needed.
+ Columns           Project Total             Label for total project cost information.
+ AL/AM
+ Row 5             FY(Year 1), FY(Year       Enter the FY in 0000/00 format. FY = July 1 – June 30.
+                   2), FY (Year 3), FY
+                   (Year 4), FY (Year 5),    Enter information for up to ten (10) FYs.
+                   and FY (Various)
+                                             Use the Unhide function to unhide columns, as needed.
+
+                                             Generally, enter estimated planning and project FY information
+                                             (Personal Services, OE&E, and Local Assistance costs) until
+                                             costs repeat for one FY (M&O).
+
+California Department of Technology                                                                            35
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                     October 2017
+
+  Location,
+                        Label Name                                     Information
+ Column/Row
+
+                                                          In this example, Columns between AB and AK are
+                                                          hidden, indicated by the two lines between the
+                                                          columns. To Unhide columns (if more than seven
+                                                          FYs of project costs are needed), select the column
+                                                          before and after the hidden columns, right-click and
+                                                          select “Unhide.”
+
+                                                          To Hide columns, select the columns to be hidden,
+                                                          right-click and select “Hide.”
+
+ Rows 6             Personal Services        Label for Personal Services information.
+
+ Row 7              Existing Staff To Be     Rows 8 – 118 available for existing, redirected staff entries. Use
+                    Redirected               the Unhide function to view all available rows.
+ (The
+ following
+ columns
+ document
+ Positions and
+ Dollars for
+ Existing,
+ Redirected
+ Staff Personal
+ Services, by
+ FY:
+ F,G; H, I; J, K;
+ L, M; N, O; R,
+ S; T, U; V, W;
+ X, Y, Z, AA;
+ AB, AC; AD,
+ AE; AF, AG;
+ AH, AI; AJ,
+ AK)
+
+California Department of Technology                                                                         36
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                     October 2017
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Column A,         Classification            Enter each existing classification redirected to project operations
+ Rows 8 – 118                                for the impacted business program and IT systems.
+ available
+                                             Note: If a classification has multiple categories (Program/IT,
+                                             Monthly Salary, and/or Tenure/Time Base), repeat the
+                                             classification as needed. For example, if a Data Processing
+                                             Manager II is categorized as IT and another Data Processing
+                                             Manager II is categorized as Program, enter Data Processing
+                                             Manager II two times to accommodate both categories.
+ Column B,         Program/IT                Select Program or IT for each classification entered.
+ Rows 8 – 118
+ available                                   This field is used to identify existing program or IT staff
+                                             redirected to support the project business area or the IT staff
+                                             systems and infrastructure.
+
+                                             IMPORTANT: Select either IT or Pgm as the worksheet
+                                             calculates the totals based on this information.
+ Column C,         Monthly Salary            Enter the total monthly salary of each classification.
+ Rows 8 – 118
+ available                                   The salary for redirected staff is the current salary. Do not
+                                             include any benefits costs.
+ Column D,         Tenure/Time Base          For each classification, select Permanent (P), Temporary (T),
+ Rows 8 – 118                                Exempt (E), or Board.
+ available
+                                             Note: If a classification has multiple tenure/time bases, repeat
+                                             the classification as needed. For example, if a Programmer is
+                                             categorized as Permanent (P) and another Programmer is
+                                             categorized as Temporary (T), enter Programmer two times to
+                                             accommodate both categories.
+
+                                             IMPORTANT: Select either P, T, E, or Board as the worksheet
+                                             calculates the totals based on this information.
+ Column E,         (Optional) Benefit        HIDDEN ROW (unhide if needed).
+ Rows 6 – 116      Rate (%)                  Use this cell to enter the benefit rate for EACH classification
+ available                                   entered. If the benefit rate is completed, DO NOT use the Dept.
+                                             Benefits Rate (% of Salaries/Wages).
+ Columns F, H,     Positions                 Enter the number of existing, redirected staff for each
+ J, L, N, R, T,                              classification. Identify partial positions to one/tenth (0.1) of a
+ V, X, Z, AB,                                position.
+ AD, AF, AH,
+ AJ                                          Unhide rows as needed.
+ (Rows 8 –
+ 118)
+ Columns G, I,     Dollars                   The staff cost is calculated automatically based on the monthly
+ K, M, O, Q, S,                              salary and number of positions. This figure reflects the annual
+ U, W, Y, AA,                                salary-only cost for the position(s).
+ AC, AE, AG,
+ AI, AK
+ (Rows 8 –
+ 118)
+ Row 119           Total, Permanent          Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Permanent.
+ Row 119           Total, Temporary          Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Temporary.
+ Row 120           Total, Exempt             Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Exempt.
+
+California Department of Technology                                                                            37
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+  Location,
+                       Label Name                                       Information
+ Column/Row
+ Row 122           Total, Board              Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Board.
+ Row 123           Total Salaries and        Automatically calculates, by FY, all positions and dollars for
+                   Wages                     classifications.
+ Row 124           Overtime, Holiday,        Enter overtime, holiday, and other costs related to Personal
+ (Columns G,       Other                     Services (Existing Staff to be Redirected), by FY.
+ I, K, M, O, Q,
+ S, U, W, Y,
+ AA, AC, AE,
+ AG, AI, AK)
+ Row 125           Dept. Benefits Rate       Enter the state entity’s percentage of salaries for benefits costs.
+ (Columns F,       (% of Salaries/           The total cost is automatically calculated (Percentage x Total
+ H, J, L, N, R,    Wages)                    Salaries and Wages), by FY.
+ T, V, X, Z, AB,
+ AD, AF, AH,                                 Note: Refer to the state entity’s Budget/Accounting Office to
+ AJ)                                         assist with the percentage entered.
+ Row 126           Total Personal            The Positions and Dollars (Salaries and Wages + Overtime,
+ (The              Services - Existing       Holiday, Other + Dept. Benefits Rate) automatically calculate, by
+ following         Staff To Be               FY.
+ columns           Redirected
+ document
+ Positions and
+ Dollars for
+ Existing,
+ Redirected
+ Staff Personal
+ Services, by
+ FY:
+ F/G – AJ/AK)
+ Row 128           New Staff                 Rows 129 - 229 available for new staff entries. Use the Unhide
+                                             function to view all available rows.
+ (The
+ following
+ columns
+ document
+ Positions and
+ Dollars for
+ New Staff
+ Personal
+ Services, by
+ FY:
+ F/G – AJ/AK)
+ Column A,         Classification            Enter each classification for new staff to be used project
+ Rows 129 –                                  operations for the impacted business program and IT systems.
+ 229 available
+                                             Note: If a classification has multiple categories (Program/IT,
+                                             Monthly Salary, and/or Tenure/time base), repeat the
+                                             classification as needed. For example, if a Data Processing
+                                             Manager II is categorized as IT and another Data Processing
+                                             Manager II is categorized as Program, enter Data Processing
+                                             Manager II two times to accommodate both categories.
+
+California Department of Technology                                                                           38
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                       October 2017
+
+  Location,
+                       Label Name                                       Information
+ Column/Row
+ Column B,         Program/IT                Select Program or IT for each classification entered.
+ Rows 129 –
+ 229 available                               This field is used to identify new program or IT staff needed to
+                                             support the project business area or the IT staff systems and
+                                             infrastructure.
+
+                                             IMPORTANT: Select either IT or Pgm as the worksheet
+                                             calculates the totals based on this information.
+ Column C,         Monthly Salary            Enter the total monthly salary of each classification.
+ Rows 129 –
+ 229 available                               The salary for new staff is the mid-salary for the classification.
+                                             Do not include any benefits costs.
+ Column D,         Tenure/Time Base          For each classification, select Permanent (P), Temporary (T),
+ Rows 129 –                                  Exempt (E), or Board.
+ 229 available
+                                             Note: If a classification has multiple Tenure/Time Bases, repeat
+                                             the classification as needed. For example, if a Programmer is
+                                             categorized as Permanent (P) and another Programmer is
+                                             categorized as Temporary (T), enter Programmer two times to
+                                             accommodate both categories.
+
+                                             IMPORTANT: Select either P, T, E, or Board as the worksheet
+                                             calculates the totals based on this information.
+ Column E,         (Optional) Benefit        HIDDEN ROW (unhide if needed).
+ Rows 129 –        Rate (%)
+ 229 available                               Use this cell to enter the benefit rate for EACH classification
+                                             entered. If the benefit rate is completed, DO NOT use the Dept.
+                                             Benefits Rate (% of Salaries/Wages).
+ Columns F, H,     Positions                 Enter the number of new staff for each classification. Identify
+ J, L, N, R, T,                              partial positions to one/tenth (0.1) of a position.
+ V, X, Z, AB,
+ AD, AF, AH,
+ AJ
+ Rows 129 –
+ 229
+ Columns G, I,     Dollars                   The staff cost is calculated automatically based on the monthly
+ K, M, O, Q, S,                              salary and number of positions. This figure reflects the annual
+ U, W, Y, AA,                                salary-only cost for the position(s).
+ AC, AE, AG,
+ AI, AK
+ Rows 129 –
+ 229
+ Row 230           Total, Permanent          Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Permanent.
+ Row 231           Total, Temporary          Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Temporary.
+ Row 232           Total, Exempt             Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Exempt.
+ Row 233           Total, Board              Automatically calculates, by FY, the total positions and dollars
+                                             for classifications identified as Board.
+ Row 234           Total Salaries and        Automatically calculates, by FY, all positions and dollars for
+                   Wages                     classifications.
+
+California Department of Technology                                                                           39
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                        October 2017
+
+  Location,
+                       Label Name                                       Information
+ Column/Row
+ Row 235           Overtime, Holiday,        Enter overtime, holiday, and other costs related to Personal
+ (Columns F,       Other                     Services (New Staff), by FY.
+ H, J, L, N, R,
+ T, V, X, Z, AB,
+ AD, AF, AH,
+ AJ)
+ Row 236           Dept. Benefits Rate       Enter the state entity’s percentage of salaries for benefits costs.
+ (Columns G,       (% of Salaries/           The total cost is automatically calculated (Percentage x Total
+ I, K, M, O, Q,    Wages)                    Salaries and Wages), by FY. Do NOT enter benefit rate if the
+ S, U, W, Y,                                 (Optional) Benefit Rate (%) was entered for each classification.
+ AA, AC, AE,
+ AG, AI, AK)                                 Note: Refer to the state entity’s Budget/Accounting Office to
+                                             assist with the percentage entered.
+ Row 237           Total Personal            The Positions and Dollars (Salaries and Wages + Overtime,
+ (Columns          Services - New Staff      Holiday, Other + Dept. Benefits Rate) calculate automatically, by
+ F/G – AJ/AK)                                FY.
+ Row 239           Total, Permanent          Automatically calculates, by FY, the all positions and dollars for
+                                             classifications identified as Permanent (Redirected and New
+                                             Staff).
+ Row 204           Total, Temporary          Automatically calculates, by FY, the all positions and dollars for
+                                             classifications identified as Temporary (Redirected and New
+                                             Staff).
+ Row 241           Total, Exempt             Automatically calculates, by FY, the all positions and dollars for
+                                             classifications identified as Exempt (Redirected and New Staff).
+ Row 242           Total, Board              Automatically calculates, by FY, the all positions and dollars for
+                                             classifications identified as Board (Redirected and New Staff).
+ Row 243           Total Salaries and        Automatically calculates, by FY, all positions and dollars for
+                   Wages                     classifications (Redirected and New Staff).
+ Row 244           Overtime, Holiday,        Automatically calculates, by FY, the overtime, holiday, and other
+                   Other                     costs related to Personal Services (Redirected and New Staff).
+ Row 245           Dept. Benefits Rate       Automatically calculates, by FY, the state entity’s percentage of
+                   (% of Salaries/           salaries for benefits costs.
+                   Wages)
+                                             The total cost equals the sum of Staff to be Redirected, Dept.
+                                             Benefits Rate (% of Salaries/Wages) plus New Staff, Dept.
+                                             Benefits Rate (% of Salaries/Wages), by FY.
+
+                                             Note: Refer to the state entity’s Budget/Accounting Office to
+                                             assist with the percentage entered.
+ Row 246           Total Personal            The Positions and Dollars (Salaries and Wages + Overtime,
+                   Services - All Staff      Holiday, Other + Dept. Benefits Rate) automatically calculate, by
+                                             FY, for all staff positions and dollars (Existing/Redirected and
+                                             New Staff).
+
+                                             The Total Personal Services All Staff (=) Total Personal Services
+                                             – Existing Staff to be Redirected (+) Total Personal Services –
+                                             New Staff.
+
+California Department of Technology                                                                           40
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                       October 2017
+
+  Location,
+                       Label Name                                     Information
+ Column/Row
+ Row 248           Operating Expenses        Label for new OE&E, includes Quantity and Cost columns for
+                   and Equipment             each FY.
+ (The              (OE&E) (New)
+ following                                   The Quantity column may be used to enter information helpful to
+ columns                                     identify the corresponding cost (e.g., 100/per box). The Quantity
+ document                                    cells are not used for any automatic built-in calculations.
+ quantity, if
+ any, and cost                               Note: Refer to the state entity’s Budget/Accounting Office to
+ for OE&E, by                                assist with the OE&E category identification and to comply with
+ FY:                                         the DOF and FI$Cal definitions regarding the correct item/sub
+ F/G – AJ/AK)                                item OE&E expenses.
+
+                                             The categories below align with the Budget Change Proposal
+                                             categories.
+ Row 249           General Expense           Enter the quantity and cost, by FY.
+                   (5301400-Goods –
+                   Other)                    Enter the quantity and cost, by FY.
+
+                                             Examples:
+                                              311204 Employee Relocation
+                                              311205 Dues and Memberships
+                                              311206 Miscellaneous Office Supplies
+                                              311207 Freight and Drayage
+                                              311213 Purchased Clerical and Nonprofessional Services
+                                              311215 Advertising
+                                              311217 Meetings, Conferences, Exhibits and Shows
+                                              311223 Library Purchases (excluding UC, CSUC, and Other
+                                                Educational Institutions) and Subscriptions
+                                              311225 Photography
+                                              311226 Minor Equipment
+                                              311227 Office Equipment Rental, Maintenance, and Repairs
+                                              311238 Not Otherwise Classified-Goods
+                                              311239 Not Otherwise Classified-Services/Rentals
+ Row 250           Printing (5302900-        Enter the quantity and cost, by FY.
+                   Printing – Other)
+                                             Examples:
+                                              312242 Pamphlets, Leaflets, Brochures, and other similar
+                                                items
+                                              312243 Photocopy Paper
+                                              312244 Office Copier Expense (Rental, Maintenance and
+                                                misc. serv.)
+                                              312245 Printed Forms and Stationery
+                                              312246 Office Copier Supplies
+                                              312247 Microform
+                                              312248 Not Otherwise Classified
+ Row 251           Communications            Enter the quantity and cost, by FY.
+                   (5304800-
+                   Communications –          Examples:
+                   Other)                     313252 Cell Phones, PDAs, Pagers
+                                              313253 Central Communication (CALNET, Centrex, ATSS)
+                                              313254 Fax
+                                              313255 Delivery Services (Messenger Services, Courier)
+                                              313256 Radio and Microwave Services
+                                              313257 Telephone
+                                              313258 Not Otherwise Classified
+                                              313259 Maintenance
+
+California Department of Technology                                                                        41
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                    October 2017
+
+  Location,
+                       Label Name                                     Information
+ Column/Row
+ Row 252           Postage (5306700-         Enter the quantity and cost, by FY.
+                   Postage – Other)
+                                             Examples:
+                                              314262 Stamps, Stamped Envelopes, Post Cards, Postage
+                                                Due Charges, Registered and Certified Mail Charges, Post
+                                                Office Box Rentals, and Parcel Post
+                                              314263 Postage Meter (Rent, Repairs, Refills, etc.)
+                                              314268 Not Otherwise Classified
+ Row 253           Insurance (5308900-       Enter the quantity and cost, by FY.
+                   Insurance – Other)
+                                             Examples:
+                                              315273 Tort Liability
+                                              315274 Vehicle
+                                              315275 Aviation
+                                              315276 Marine
+                                              315277 Medical Malpractice
+                                              315282 False Arrest
+                                              315283 Individual and Blanket Surety Bonds
+                                              315288 Not Otherwise Classified
+ Row 254           Travel – In State         Enter the quantity and cost, by FY.
+                   (5320490-Travel – In
+                   State – Other)            Examples:
+                                              317292 Per Diem
+                                              317293 State Vehicle--General Services
+                                              317294 Commercial Air Transportation
+                                              317295 Other Transportation
+                                              317296 Private Car
+                                              317297 Rental Car
+                                              317301 Taxi and Shuttle Service
+                                              317302 Rail and Bus
+                                              317303 Overtime Meals
+                                              317305 Travel Agency Management/Transaction Fees
+                                              317308 Not Otherwise Classified
+ Row 255           Travel – Out of State     Enter the quantity and cost, by FY.
+                   (5320890-Travel –
+                   Out of State – Other)     Examples:
+                                              318312 Per Diem
+                                              318314 Commercial Air Transportation
+                                              318315 Other Transportation
+                                              318316 Private Car
+                                              318317 Rental Car
+                                              318322 Rail, Bus, and Taxi
+                                              318325 Travel Agency Management/Transaction Fees
+                                              318328 Not Otherwise Classified
+ Row 256           Training (5322400-        Enter the quantity and cost, by FY.
+                   Training – Tuition
+                   and Registration)         Examples:
+                                              321332 Tuition and Registration Fees
+                                              321333 Training Films and Slides
+                                              321334 Training Facility Rental
+                                              321335 Interdepartmental and Commercial Contracts
+                                              321337 Not Otherwise Classified (Goods)
+                                              321338 Not Otherwise Classified (Services)
+                                              (Note: Do not include salaries and wages or travel related to
+                                               training.)
+
+California Department of Technology                                                                       42
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                    October 2017
+
+  Location,
+                       Label Name                                     Information
+ Column/Row
+ Row 257           Facilities Operations     Enter the quantity and cost, by FY.
+                   (e.g., 5324350-Rents
+                   & Leases; 5324550-        Examples:
+                   Spec. Repairs &            323342 Rent--Buildings and Grounds (State-Owned)
+                   Deferred Maint.)           323343 Rent--Buildings and Grounds (Non-State-Owned)
+                                              323344 Janitorial Services
+                                              323345 Security
+                                              323346 Recurring Maintenance Services (Goods use
+                                                323357)
+                                              323347 Facility Planning--General Services (Space
+                                                Management, Lease Management, etc.)
+                                              323348 Waste Removal
+                                              323352 Special Repairs and Deferred Maintenance
+                                              323353 Alterations
+                                              323357 Not Otherwise Classified (Goods)
+                                              323358 Not Otherwise Classified (Services)
+ Row 258           Utilities (5326900-       Enter the quantity and cost, by FY.
+                   Utilities – Other)
+                                             Examples:
+                                              324362 Electricity
+                                              324363 Natural Gas
+                                              324364 Liquid Petroleum Gas
+                                              324365 Propane for Heating
+                                              324366 Heating Oil
+                                              324367 Water
+                                              324372 Sewer
+                                              324378 Not Otherwise Classified
+ Rows 259 –        Consulting and            Enter the quantity and cost, by FY, for each interdepartmental
+ 269               Professional              consulting and professional services agreement.
+                   Services:
+                   Interdepartmental         Examples:
+                   (5340330-Consulting        325383 Accounting
+                   and Professional           325384 Administrative
+                   Services -                 325385 Architectural
+                   Interdepartmental)         325386 Auditing
+                                              325387 Collection Services
+                                              325388 Compliance Inspection and Investigations
+                                              325392 Engineering
+                                              325393 Health and Medical
+                                              325394 Legal (Witness Fees, Filing Fees, Contract Review,
+                                               etc.; Excluding Attorney General)
+                                              325395 DPA Collective Bargaining Charges
+                                              325396 Attorney General
+                                              325397 Office of Administrative Hearings
+                                              325398 Other
+ Row 270           Subtotal -                The subtotal cost calculates automatically, by FY.
+                   Consulting and
+                   Professional
+                   Services:
+                   Interdepartmental
+
+California Department of Technology                                                                       43
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                    October 2017
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Row 271 –         Consulting and            Enter the quantity and cost, by FY, for each external consulting
+ 281               Professional              and professional services agreement.
+                   Services: External
+                   (5340580-Consulting       Examples:
+                   and Professional           326403 Accounting
+                   Services - External)       326404 Administrative
+                                              326405 Architectural
+                                              326406 Auditing
+                                              326407 Collection Services
+                                              326408 Compliance Inspectors and Investigations
+                                              326409 Information Technology
+                                              326412 Engineering
+                                              326413 Health and Medical
+                                              326414 Legal (Witness Fees, Filing Fees, Notaries Public
+                                               Fees, etc.)(excludes Attorney Fees)
+                                              326415 Attorney Fees (Services provided to agency)
+                                              326418 Other Services
+                                              326419 Non-Taxable Reimbursed Expenses (Non-employees
+                                               only) (Accounted for by Receipts & Travel Claims)
+                                              326420 Taxable Reimbursed Expenses (Non-employees
+                                               only)(Meals, mileage, etc. in excess of approved rates)
+ Row 282           Subtotal -                The subtotal cost calculates automatically, by FY.
+                   Consulting and
+                   Professional
+                   Services: External
+ Row 283 –         Departmental              HIDDEN ROW (unhide if needed).
+ 286               Services (5342500-        Enter the quantity and cost, by FY, for each departmental
+                   Indirect Distributed      services.
+                   Cost)
+                                             Unhide rows as needed.
+
+                                             Examples:
+                                              327422 Office Services
+                                              327423 Technical Services
+                                              327424 EDP Services
+                                              327425 Equipment Pool
+                                              327426 Other
+                                              327427 Indirect Distributed Cost
+ Row 287           Subtotal –                HIDDEN ROW (unhide if needed).
+                   Departmental              The subtotal cost calculates automatically, by FY.
+                   Services
+ Rows 288 –        Consolidated Data         Enter the quantity and cost, by FY, for each consolidated data
+ 295               Centers (5344000-         center services.
+                   Consolidated Data
+                   Centers)                  Unhide rows as needed.
+ Row 296           Subtotal -                The subtotal cost calculates automatically, by FY.
+                   Consolidated Data
+                   Centers
+
+California Department of Technology                                                                        44
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Rows 297 –        Information               Enter the quantity and cost, by FY, for information technology.
+ 311               Technology
+                   (5346900-                 Examples:
+                   Information                329434 Interagency Agreement
+                   Technology - Other)        329435 Not Otherwise Classified – Services (Maintenance,
+                                               Security Services, Archival Services, etc.)
+                                              329436 Supplies (Paper, Toner, etc.)
+                                              329445 Software (Purchase, License)
+                                              329446 Hardware (Purchase, Lease)
+                                              329447 Data Lines (T1, DS3, etc.)
+                                              329448 Internet Service Provider
+                                              329449 Electronic Waste Recycling and Disposal Fees
+ Row 312           Subtotal -                The subtotal cost calculates automatically, by FY.
+                   Information
+                   Technology
+ Rows 313 –        Central                   HIDDEN ROW (unhide if needed).
+ 318               Administrative            Enter the quantity and cost, by FY, for central administrative
+                   Services (e.g.,           services.
+                   5348250-Pro Rata;
+                   5348500-Statewide         Examples:
+                   Cost Allocation Plan       330438 Pro Rata
+                   -SWCAP)                    330439 SWCAP
+ Row 319           Subtotal - Central        HIDDEN ROW (unhide if needed).
+                   Administrative            The subtotal cost calculates automatically, by FY.
+                   Services
+ Row 320 –         Office Equipment          Enter the quantity and cost, by FY, for office equipment.
+ 330               (5368115-Office
+                   Equipment)                Examples:
+                                              332452 Replacement
+                                               o 332453 Office Equipment (Exclude Chairs, Desks,
+                                                   Credenzas, etc.)
+                                               o 332454 Passenger Motor Vehicles
+                                               o 332455 Other Motor Vehicles
+                                               o 332456 Household Equipment and Furnishings
+                                               o 332457 Machinery, Implements, and Major Tools
+                                               o 332462 Scientific Instruments and Apparatus
+                                               o 332463 Maps, Films, and Paintings
+                                               o 332464 Educational Equipment
+                                               o 332465 Livestock
+                                               o 332466 Electronic Data Processing
+                                               o 332468 Other
+                                              332472 Additional
+                                               o 332473 Office Equipment (Exclude Chairs, Desks,
+                                                   Credenzas, etc.)
+                                               o 332474 Passenger Motor Vehicles
+                                               o 332475 Other Motor Vehicles
+                                               o 332476 Household Equipment and Furnishings
+                                               o 332477 Machinery, Implements, and Major Tools
+                                               o 332482 Scientific Instruments and Apparatus
+                                               o 332483 Maps, Films, and Paintings
+                                               o 332484 Educational Equipment
+                                               o 332485 Livestock
+                                               o 332486 Electronic Data Processing
+                                               o 332488 Other
+ Row 331           Subtotal - Office         The subtotal cost calculates automatically, by FY.
+                   Equipment
+
+California Department of Technology                                                                           45
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Rows 332 –        Other (5390900-           Enter the quantity and cost, by FY, for other items of expense.
+ 337               Other Items of
+                   Expense -                  333501 Other Items of Expense
+                   Miscellaneous)             333502 Subsistence and Personal Care
+                                              333503 Clothing and Personal Supplies
+                                              333505 Recreation and Religion Supplies (Services use
+                                               326418)
+                                              333506 Foodstuffs
+                                              333507 Foster Care (IRC Sec 131 Exempt)
+                                              333512 Quartering and Housekeeping
+                                              333513 Laundry Services (Supplies use 333568)
+                                              333514 Miscellaneous Client Services
+                                              333515 Agricultural Supplies
+                                              333516 Chemicals, Drugs, Medicines and Medical and Lab
+                                               Supplies
+                                              333517 Educational Supplies
+                                              333520 Uniform Allowances
+                                              333522 Law Enforcement Materials
+                                              Structural Materials
+                                              333524 Vehicle Operations (Excluding Insurance and
+                                               Depreciation; For Use by Departments Maintaining Their Own
+                                               Vehicles)
+                                              333525 Gasoline
+                                              333526 Propane
+                                              333527 Oil and Lubrication
+                                              333532 Tires and Tubes
+                                              333533 Maintenance and Repair Services (Supplies use
+                                               333536)
+                                              333534 Washing
+                                              333535 Towing
+                                              333536 Other Vehicle Operations
+                                              333540 Exceptional Energy/Resources Purchases
+                                              333545 Late Payment Penalties - GC 927 et seq.
+                                              333568 Not Otherwise Classified (Goods)
+                                              333569 Not Otherwise Classified (Services)
+                                              333570 Not Otherwise Classified (Misc.)
+ Row 338           Subtotal - Other          The subtotal cost calculates automatically, by FY.
+
+California Department of Technology                                                                        46
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                     October 2017
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Rows 339 –        Unclassified/Special      HIDDEN ROW (unhide if needed).
+ 342               Adjustment (e.g.,         Enter the quantity and cost, by FY, for unclassified or special
+                   5395000-Unallocated       adjustments.
+                   Operating Expense
+                   and Equipment;            Examples:
+                   5415000 Claims             441601 Debt Service
+                   Against the State;         441602 Interest
+                   5420000-Debt               441603 Principal
+                   Service - Interest;        441608 Other
+                   5432000-Grants and         442612 Depreciation and Amortization
+                   Subventions -              443609 Attorney Fees (Services NOT provided to agency;
+                   Governmental;                fees segregated from clients’ award)
+                   5490000-Other              443610 Payments to Attorneys - IRC 6045 (f) (includes client
+                   Special Items of             proceeds)
+                   Expense; 5700000-          443611 Tort Payments - Other punitive and damages that do
+                   Internal Cost                NOT involve physical or personal injury. (DO NOT include
+                   Recovery)                    attorney’s fees. See 443610)
+                                              443613 Tort Payments - Compensatory awards involving
+                                                physical or personal injury. (DO NOT include attorney’s fees.
+                                                See 443610)
+                                              444614 Taxes and Assessments
+                                              445615 Special Demonstration Projects
+                                              446616 Board of Control Claims X X X X
+                                              447618 Evidence X X X X
+                                              447619 Distributed Interest (not late penalties or debt service)
+                                              448621 Scholarships, Grants, and Fellowships (services
+                                                performed)
+                                              448622 Scholarships, Grants, and Fellowships (services not
+                                                performed)
+                                              449623 Retirement Disbursements
+                                              450624 Disability Benefits
+                                              451625 Death Benefits
+                                              452626 Loans (Exclude Local Govt.), Transfers and Other
+                                                Non-expenditure Disbursements
+                                              452627 Interagency pass -- through Disbursement
+                                              453628 Sales Discounts
+                                              453629 Purchase for Sale
+                                              453630 Prize Payments
+                                              454632 Other
+                                              500000 Unclassified
+                                              555651 Scheduled (Info. Only)
+                                              556661 Cost of Living Adjustments
+                                              557671 Unallocated
+                                              558681 Budget Revision Pending
+                                              559691 Special Adjustments
+                                              560696 Unscheduled (Info. Only)
+ Row 343           Subtotal –                HIDDEN ROW (unhide if needed).
+                   Unclassified/Special      The subtotal cost calculates automatically, by FY.
+                   Adjustment
+ Row 344           Total OE&E                The Dollars for all new OE&E categories automatically calculate,
+                   Expenditures (NEW)        by FY.
+ Row 346           Local Assistance          HIDDEN ROW (unhide if needed).
+                                             Label for existing Local Assistance, includes Quantity and Cost
+                                             columns for each FY. Local Assistance is state funds provided
+                                             to counties, cities and special districts.
+
+California Department of Technology                                                                            47
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+  Location,
+                       Label Name                                      Information
+ Column/Row
+ Row 347           Grants                    HIDDEN ROW (unhide if needed).
+                                             Enter the quantity and cost, by FY, for grants.
+
+                                             Typically grants describe amounts of money received by an
+                                             organization for a specific purpose but with no obligation to
+                                             repay (in contrast to a loan, although the award may stipulate
+                                             repayment of funds under certain circumstances). For example,
+                                             the state receives some federal grants for the implementation of
+                                             health and community development programs, and the state
+                                             also awards various grants to local governments, private
+                                             organizations, and individuals according to criteria applicable to
+                                             the program.
+ Row 348           Subventions               HIDDEN ROW (unhide if needed).
+                                             Enter the quantity and cost, by FY, for subventions.
+
+                                             Typically subventions describe amounts of money expended as
+                                             local assistance based on a formula, in contrast to grants that
+                                             are provided selectively and often on a competitive basis. For
+                                             the purposes of Article XIII B, state subventions include only
+                                             money received by local agency from the state, the use of which
+                                             is unrestricted by the statutes providing the subvention.
+ Row 349           Administrative            HIDDEN ROW (unhide if needed).
+                                             Enter the quantity and cost, by FY, for administrative services.
+ Row 350           Total Local               HIDDEN ROW (unhide if needed).
+                   Assistance                The Dollars for all Local Assistance categories (grants,
+                                             subventions, administrative) calculates automatically, by FY.
+ Row 352           Total Personal            The Positions and Dollars (Salaries and Wages + Overtime,
+                   Services                  Holiday, Other + Dept. Benefits Rate) from the Total Personal
+                   Expenditures              Services – All Staff (Row 246) calculates automatically, by FY.
+ Row 353           Total OE&E                The Dollars for OE&E from the Total OE&E Expenditures (NEW)
+                   Expenditures              (Row 454), by FY.
+ Row 354           Total Local               The Dollars for all Local Assistance from the Total Local
+                   Assistance                Assistance (Row 460), by FY.
+ Row 355           Total Expenditures -      The Positions and Dollars from Total Personal Services
+                   Alternative 1 (2 or 3)    Expenditures, Total OE&E Expenditures, and Total Local
+                   Operations Costs          Assistance calculates automatically, by FY.
+ Rows 357          Annual                    Label for the summarized savings and/or revenue adjustments.
+                   Savings/Revenue
+                   Adjustments
+  Rows 358         Cost Savings            Cost Savings (After final FY, based on Project Costs - Average
+                                             Current Operations Costs)
+  Rows 359         Cost Avoidances/        Enter any Cost Avoidances and Increased Project Revenues
+                     Increased Program       based on the project.
+                     Revenues
+  Rows 360         Net Cost (+) or         Sum of Cost Savings, Cost Avoidances, and Increased Program
+                     Benefit (-)             Revenues for the entire project.
+  Rows 361         Cum. Net Cost (+)       Cumulative totals for the Net Cost or Benefit.
+                     or Benefit (-)
+  Rows 362        Simple ROI - Average      HIDDEN ROW (unhide if needed).
+                   Future Operations /       Average Future Operations divided by the Average Current
+                   Average Current           Operations. The percentage calculates the overall estimated
+                   Operations                return once the project is implemented.
+                   (Compares Future
+                   Costs with the Current
+                   Costs)
+ Row 364           Comments                  Enter comments as needed.
+
+California Department of Technology                                                                         48
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                      October 2017
+
+Alt 1- Future Ops (Alt 2- Future Ops, and Alt 3- Future Ops) Tab
+
+ KEY:
+
+ White Fields = Enter Information (as applicable)
+ Green, Peach, and Blue Fields = Automatically populated; No entry
+ required.
+
+     Location,
+                                 Label Name                               Information
+    Column/Row
+ Row 1                   Department name, Stage        No entry required for Department name and Date if
+                         X/Version X, Date             the Executive Cost Summary Tab was completed.
+
+                                                       Enter the Stage and Version, as needed.
+ Row 2                   Project Number and Project    No entry required for Project Number and Project
+                         Name                          Name if the Executive Cost Summary Tab was
+                                                       completed.
+
+ Footer                 SIMM 19F.2, Pages X of X,      Automatic – No entry required.
+                        Automatic Date
+ Alt 1- Future Ops (Alt 2- Future Ops, and Alt 3- Future Ops)
+
+ Column A, Row 3 -       Future Operations             Name automatically populates based on Alt 1- (Alt 2-
+ 5                       Alternative 1 (2 or 3)        or Alt 3-) Project name.
+                         <NAME>
+ Columns F – Y           Future Annual Operations      Costs after project implementation during M&O.
+                         Costs (After Project)
+                                                       Note: Hidden columns O/P (Year 6), Q/R (Year 5)
+                                                       S/T (Year 8), U/V (Year 9), W/X (Year 10) applicable
+                                                       only if more than five (5) FYs of M&O information is
+                                                       documented. Unhide columns as needed.
+
+California Department of Technology                                                                     49
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                October 2017
+
+     Location,
+                                 Label Name      Information
+    Column/Row
+
+California Department of Technology                                     50
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                   October 2017
+
+     Location,
+                                 Label Name                                 Information
+    Column/Row
+ Columns Z, AA           IT Only Total (Future FYs)     Automatically calculates the total future annual IT
+                         Positions, Dollars             operations positions and costs. The total (Row 255)
+ (Rows 7 – 255)                                         is used to populate the Summary sheet; no entry
+                                                        required.
+
+                                                        The Summary sheet sums the IT salaries (only)
+                                                        multiplied by the first future FY’s Dept. Benefits Rate,
+                                                        plus any Overtime, Holiday, Other and OE&E totals
+                                                        for all future FYs.
+
+ Column AA               (Optional) Enter Total IT      OPTIONAL – Use this column to identify OE&E costs
+                         OE&E Costs Only                associated with IT only. Once entered, you will need
+ (Row 258 – 364)                                        to manually enter costs for any categories
+                                                        associated with IT only.
+ Column AC               Enter Final M&O FY:            Enter the final FY (in 0000-0000 format) to identify
+                                                        the FY when the future operations are stabilized and
+                                                        that signifies the cost on an ongoing basis.
+
+                                                        Note: The FY information (personal services, OE&E,
+                                                        etc.) will have already been entered as one of the
+                                                        Future Annual Operations Costs FYs.
+
+                                                        The Summary sheet, Annual Future Operations
+                                                        Costs (M&O) (rows 17, 34, 51, as applicable), sums
+                                                        this FY’s IT salaries plus Overtime, Holiday, Other,
+                                                        Benefits (IT salaries multiplied by the benefit rate in
+                                                        applicable FY column), and OE&E
+ Column AC               (Optional) Enter IT OE&E for   OPTIONAL – Use this column to identify OE&E costs
+                         FINAL M&O FY ONLY              associated with IT only for the final M&O FY. Once
+ (Row 258 – 364)                                        entered, you will need to manually any categories
+                                                        associated with IT only.
+ Columns AG              **(See below) - No. of FYs     Enter the number of FYs with entries.
+ Row 1                   with entries =
+ Row 5                   FY 1, FY 2, FY 3 (Various)     Enter the Year. Year = Fiscal Year (FY) (July 1 –
+                                                        June 30).
+
+                                                        Enter information for up to ten (10) FYs.
+
+                                                        Use the Unhide function to unhide columns.
+
+                                                        Generally, enter estimated planning and project FY
+                                                        information (Personal Services, OE&E, and Local
+                                                        Assistance costs) until costs repeat for one FY
+                                                        (M&O).
+
+                                                        IMPORTANT: Change the Cell AC1 in the upper
+                                                        right-hand corner to the number of FYs entered.
+
+California Department of Technology                                                                       51
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                   October 2017
+
+     Location,
+                                 Label Name                          Information
+    Column/Row
+
+                                                 In this example, Columns between R and Y are
+                                                 hidden, indicated by the two lines between the
+                                                 columns. To Unhide columns (if more than seven
+                                                 FYs of M&O costs needed), select the column
+                                                 before and after the hidden columns, right-click and
+                                                 select “Unhide.”
+
+                                                 To Hide columns, select the columns to be hidden,
+                                                 right-click and select “Hide.”
+
+ Rows 6                  Personal Services       Label for Personal Services information.
+                         (Existing/Redirected)
+ (The following
+ columns document
+ Positions and
+ Dollars for
+ existing/redirected
+ Personal Services,
+ by FY:
+ F/G – X/Y)
+ Column A,               Classification          Enter each existing/redirected classification assigned
+ (Rows 7 – 117)                                  to project M&O for the impacted business program
+                                                 and IT systems.
+
+                                                 Note: If a classification has multiple categories
+                                                 (Program/IT, Monthly Salary, and/or Tenure/Time
+                                                 Base), repeat the classification as needed. For
+                                                 example, if a Data Processing Manager II is
+                                                 categorized as IT and another Data Processing
+                                                 Manager II is categorized as Program, enter Data
+                                                 Processing Manager II two times to accommodate
+                                                 both categories.
+ Column B,               Program/IT              Select Program or IT for each classification entered.
+ (Rows 7 – 117)
+                                                 This field is used to identify existing program or IT
+                                                 staff to support the M&O project business area or the
+                                                 IT staff systems and infrastructure.
+
+                                                 IMPORTANT: Select either IT or Pgm as the
+                                                 worksheet calculates the totals based on this
+                                                 information.
+
+California Department of Technology                                                              52
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                           October 2017
+
+     Location,
+                                   Label Name                              Information
+    Column/Row
+ Column C,               Monthly Salary                Enter the total monthly salary of each classification.
+ (Rows 7 – 117)
+                                                       The salary for M&O staff is the current salary. Do
+                                                       not include any benefits costs.
+ Column D,               Tenure/Time Base              For each classification, select Permanent (P),
+ (Rows 7 – 117)                                        Temporary (T), Exempt (E), or Board.
+
+                                                       Note: If a classification has multiple Tenure/Time
+                                                       Bases, repeat the classification as needed. For
+                                                       example, if a Programmer is categorized as
+                                                       Permanent (P) and another Programmer is
+                                                       categorized as Temporary (T), enter Programmer
+                                                       two times to accommodate both categories.
+
+                                                       IMPORTANT: Select either P, T, E, or Board as the
+                                                       worksheet calculates the totals based on this
+                                                       information.
+ Column E,               (Optional) Benefit Rate (%)   HIDDEN ROW (unhide if needed).
+ (Rows 7 – 117)                                        Use this cell to enter the benefit rate for EACH
+                                                       classification entered. If the benefit rate is
+                                                       completed, DO NOT use the Dept. Benefits Rate (%
+                                                       of Salaries/Wages).
+ Columns F, H, J, L,     Positions                     Enter the number of M&O redirected/existing staff for
+ N, R, T, V, X, Z, AB,                                 each classification. Identify partial positions to
+ AD, AF, AH, AJ                                        one/tenth (0.1) of a position.
+ (Rows 7 – 117)
+ Columns G, I, K, M,     Dollars                       The staff cost is calculated automatically based on
+ O, Q, S, U, W, Y,                                     the monthly salary and number of positions. This
+ AA, AC, AE, AG, AI,                                   figure reflects the annual salary-only cost for the
+ AK                                                    position(s).
+ (Rows 7 – 117)
+ Row 118                 Total, Permanent              Automatically calculates, by FY, the total positions
+                                                       and dollars for classifications identified as
+                                                       Permanent.
+ Row 119                 Total, Temporary              Automatically calculates, by FY, the total positions
+                                                       and dollars for classifications identified as
+                                                       Temporary.
+ Row 120                 Total, Exempt                 Automatically calculates, by FY, the total positions
+                                                       and dollars for classifications identified as Exempt.
+ Row 121                 Total, Board                  Automatically calculates, by FY, the total positions
+                                                       and dollars for classifications identified as Board.
+ Row 122                 Total Salaries and Wages      Automatically calculates, by FY, all positions and
+                                                       dollars for classifications.
+ Row 123                 Overtime, Holiday, Other      Enter overtime, holiday, and other costs related to
+ (Columns G, I, K,                                     Personal Services (Existing Staff to be Redirected),
+ M, O, Q, S, U, W, Y,                                  by FY.
+ AA, AC, AE, AG, AI,
+ AK)
+ Row 124                 Dept. Benefits Rate (% of     Enter the state entity’s percentage of salaries for
+ (Columns F, H, J, L,    Salaries/ Wages)              benefits costs. The total cost automatically
+ N, R, T, V, X, Z, AB,                                 calculates (Percentage x Total Salaries and Wages),
+ AD, AF, AH, AJ)                                       by FY. Do NOT enter benefit rate if the (Optional)
+                                                       Benefit Rate (%) was entered for each classification.
+
+                                                       Note: Refer to the state entity’s Budget/Accounting
+                                                       Office to assist with the percentage entered.
+
+California Department of Technology                                                                      53
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Row 125                 Total Existing/Redirected     The Positions and Dollars (Salaries and Wages +
+ (Columns                Staff                         Overtime, Holiday, Other + Dept. Benefits Rate)
+ F/G – X/Y)                                            automatically calculate, by FY.
+ Rows 127                Personal Services (New)       Label for Personal Services information.
+
+ (The following
+ columns document
+ Positions and
+ Dollars for new
+ Personal Services,
+ by FY:
+ F/G – X/Y)
+ Column A,               Classification                Enter each new classification assigned to project
+ (Rows 128 – 238)                                      M&O for the impacted business program and IT
+                                                       systems.
+
+                                                       Note: If a classification has multiple categories
+                                                       (Program/IT, Monthly Salary, and/or Tenure/Time
+                                                       Base), repeat the classification as needed. For
+                                                       example, if a Data Processing Manager II is
+                                                       categorized as IT and another Data Processing
+                                                       Manager II is categorized as Program, enter Data
+                                                       Processing Manager II two times to accommodate
+                                                       both categories.
+ Column B,               Program/IT                    Select Program or IT for each classification entered.
+ (Rows 128 – 238)
+                                                       This field is used to identify existing program or IT
+                                                       staff to support the M&O project business area or the
+                                                       IT staff systems and infrastructure.
+
+                                                       IMPORTANT: Select either IT or Pgm as the
+                                                       worksheet calculates the totals based on this
+                                                       information.
+ Column C,               Monthly Salary                Enter the total monthly salary of each classification.
+ (Rows 128 – 238)
+                                                       The salary for M&O staff is the current salary. Do
+                                                       not include any benefits costs.
+ Column D,               Tenure/Time Base              For each classification, select Permanent (P),
+ (Rows 128 – 238)                                      Temporary (T), Exempt (E), or Board.
+
+                                                       Note: If a classification has multiple Tenure/Time
+                                                       Bases, repeat the classification as needed. For
+                                                       example, if a Programmer is categorized as
+                                                       Permanent (P) and another Programmer is
+                                                       categorized as Temporary (T), enter Programmer
+                                                       two times to accommodate both categories.
+
+                                                       IMPORTANT: Select either P, T, E, or Board as the
+                                                       worksheet calculates the totals based on this
+                                                       information.
+ Column E,               (Optional) Benefit Rate (%)   HIDDEN ROW (unhide if needed).
+ (Rows 128 – 238)                                      Use this cell to enter the benefit rate for EACH
+                                                       classification entered. If the benefit rate is
+                                                       completed, DO NOT use the Dept. Benefits Rate (%
+                                                       of Salaries/Wages).
+
+California Department of Technology                                                                      54
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+     Location,
+                                   Label Name                            Information
+    Column/Row
+ Columns F, H, J, L,     Positions                   Enter the number of M&O redirected/existing staff for
+ N, R, T, V, X, Z, AB,                               each classification. Identify partial positions to
+ AD, AF, AH, AJ                                      one/tenth (0.1) of a position.
+ (Rows 128 – 238)
+ Columns G, I, K, M,     Dollars                     The staff cost is calculated automatically based on
+ O, Q, S, U, W, Y,                                   the monthly salary and number of positions. This
+ AA, AC, AE, AG, AI,                                 figure reflects the annual salary-only cost for the
+ AK                                                  position(s).
+ (Rows 128 – 238)
+ Row 239                 Total, Permanent            Automatically calculates, by FY, the total positions
+                                                     and dollars for classifications identified as
+                                                     Permanent.
+ Row 240                 Total, Temporary            Automatically calculates, by FY, the total positions
+                                                     and dollars for classifications identified as
+                                                     Temporary.
+ Row 241                 Total, Exempt               Automatically calculates, by FY, the total positions
+                                                     and dollars for classifications identified as Exempt.
+ Row 242                 Total, Board                Automatically calculates, by FY, the all positions and
+                                                     dollars for classifications identified as Board.
+ Row 243                 Total Salaries and Wages    Automatically calculates, by FY, all positions and
+                                                     dollars for classifications.
+ Row 244                 Overtime, Holiday, Other    Automatically calculates, by FY, the overtime,
+                                                     holiday, and other costs related to Personal
+                                                     Services.
+ Row 245                 Dept. Benefits Rate (% of   Automatically calculates, by FY, the state entity’s
+                         Salaries/ Wages)            percentage of salaries for benefits costs.
+
+                                                     The total cost equals the sum of the new Staff, Dept.
+                                                     Benefits Rate (% of Salaries/Wages) plus New Staff,
+                                                     Dept. Benefits Rate (% of Salaries/Wages), by FY.
+
+                                                     Note: Refer to the state entity’s Budget/Accounting
+                                                     Office to assist with the percentage entered.
+ Row 246                 Total Personal Services –   The Positions and Dollars (Salaries and Wages +
+ (Columns                New Staff                   Overtime, Holiday, Other + Dept. Benefits Rate)
+ F/G – X/Y)                                          automatically calculate, by FY.
+ Row 248                 Total, Permanent            Automatically calculates, by FY, the all positions and
+                                                     dollars for classifications identified as Permanent
+                                                     (Redirected and New Staff).
+ Row 249                 Total, Temporary            Automatically calculates, by FY, the all positions and
+                                                     dollars for classifications identified as Temporary
+                                                     (Redirected and New Staff).
+ Row 250                 Total, Exempt               Automatically calculates, by FY, the all positions and
+                                                     dollars for classifications identified as Exempt
+                                                     (Redirected and New Staff).
+ Row 251                 Total, Board                Automatically calculates, by FY, the all positions and
+                                                     dollars for classifications identified as Board
+                                                     (Redirected and New Staff).
+ Row 252                 Total Salaries and Wages    Automatically calculates, by FY, all positions and
+                                                     dollars for classifications (Redirected and New Staff).
+ Row 253                 Overtime, Holiday, Other    Automatically calculates, by FY, the overtime,
+                                                     holiday, and other costs related to Personal Services
+                                                     (Redirected and New Staff).
+ Row 254                 Dept. Benefits Rate (% of   Automatically calculates, by FY, the state entity’s
+                         Salaries/ Wages)            percentage of salaries for benefits costs.
+
+California Department of Technology                                                                   55
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                October 2017
+
+     Location,
+                                 Label Name                               Information
+    Column/Row
+                                                     The total cost equals the sum of the Existing Staff to
+                                                     be Redirected, Dept. Benefits Rate (% of
+                                                     Salaries/Wages) plus New Staff, Dept. Benefits Rate
+                                                     (% of Salaries/Wages), by FY.
+
+                                                     Note: Refer to the state entity’s Budget/Accounting
+                                                     Office to assist with the percentage entered.
+ Row 255                 Total Personal Services –   The Positions and Dollars (Salaries and Wages +
+                         All Staff                   Overtime, Holiday, Other + Dept. Benefits Rate)
+                                                     automatically calculate, by FY, for all staff positions
+                                                     and dollars (Redirected and New Staff).
+
+                                                     The Total Personal Services – All Staff (=) Total
+                                                     Personal Services – Existing Staff to be Redirected
+                                                     (+) Total Personal Services – New Staff.
+ Row 257                 Operating Expenses and      Label for OE&E, includes Quantity and Cost columns
+                         Equipment (OE&E)            for each FY.
+ (The following
+ columns document                                    Note: Refer to the state entity’s Budget/Accounting
+ quantity and cost                                   Office to assist with the OE&E category identification
+ for OE&E, by FY:                                    and to comply with the DOF and FI$Cal definitions
+ F/G – X/Y)                                          regarding the correct item/sub item OE&E expenses.
+
+                                                     The categories below align with the Budget Change
+                                                     Proposal categories.
+ Row 258                 General Expense (5301400-   Enter the quantity and cost, by FY.
+                         Goods – Other)
+                                                     Examples:
+                                                      311204 Employee Relocation
+                                                      311205 Dues and Memberships
+                                                      311206 Miscellaneous Office Supplies
+                                                      311207 Freight and Drayage
+                                                      311213 Purchased Clerical and Nonprofessional
+                                                       Services
+                                                      311215 Advertising
+                                                      311217 Meetings, Conferences, Exhibits and
+                                                       Shows
+                                                      311223 Library Purchases (excluding UC, CSUC,
+                                                       and Other Educational Institutions) and
+                                                       Subscriptions
+                                                      311225 Photography
+                                                      311226 Minor Equipment
+                                                      311227 Office Equipment Rental, Maintenance,
+                                                       and Repairs
+                                                      311238 Not Otherwise Classified-Goods
+                                                      311239 Not Otherwise Classified-
+                                                       Services/Rentals
+
+California Department of Technology                                                                     56
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                 October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Row 259                 Printing (5302900-Printing –   Enter the quantity and cost, by FY.
+                         Other)
+                                                        Examples:
+                                                         312242 Pamphlets, Leaflets, Brochures, and
+                                                           other similar items
+                                                         312243 Photocopy Paper
+                                                         312244 Office Copier Expense (Rental,
+                                                           Maintenance and misc. serv.)
+                                                         312245 Printed Forms and Stationery
+                                                         312246 Office Copier Supplies
+                                                         312247 Microform
+                                                         312248 Not Otherwise Classified
+ Row 260                 Communications (5304800-       Enter the quantity and cost, by FY.
+                         Communications – Other)
+                                                        Examples:
+                                                         313252 Cell Phones, PDAs, Pagers
+                                                         313253 Central Communication (CALNET,
+                                                           Centrex, ATSS)
+                                                         313254 Fax
+                                                         313255 Delivery Services (Messenger Services,
+                                                           Courier)
+                                                         313256 Radio and Microwave Services
+                                                         313257 Telephone
+                                                         313258 Not Otherwise Classified
+                                                         313259 Maintenance
+ Row 261                 Postage (5306700-Postage –     Enter the quantity and cost, by FY.
+                         Other)
+                                                        Examples:
+                                                         314262 Stamps, Stamped Envelopes, Post
+                                                           Cards, Postage Due Charges, Registered and
+                                                           Certified Mail Charges, Post Office Box Rentals,
+                                                           and Parcel Post
+                                                         314263 Postage Meter (Rent, Repairs, Refills,
+                                                           etc.)
+                                                         314268 Not Otherwise Classified
+ Row 262                 Insurance (5308900-            Enter the quantity and cost, by FY.
+                         Insurance – Other)
+                                                        Examples:
+                                                         315273 Tort Liability
+                                                         315274 Vehicle
+                                                         315275 Aviation
+                                                         315276 Marine
+                                                         315277 Medical Malpractice
+                                                         315282 False Arrest
+                                                         315283 Individual and Blanket Surety Bonds
+                                                         315288 Not Otherwise Classified
+ Row 263                 Travel – In State (5320490-    Enter the quantity and cost, by FY.
+                         Travel – In State – Other)
+                                                        Examples:
+                                                         317292 Per Diem
+                                                         317293 State Vehicle–General Services
+                                                         317294 Commercial Air Transportation
+                                                         317295 Other Transportation
+                                                         317296 Private Car
+                                                         317297 Rental Car
+                                                         317301 Taxi and Shuttle Service
+                                                         317302 Rail and Bus
+                                                         317303 Overtime Meals
+
+California Department of Technology                                                                    57
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+     Location,
+                                 Label Name                                  Information
+    Column/Row
+                                                           317305 Travel Agency Management/Transaction
+                                                             Fees
+                                                           317308 Not Otherwise Classified
+ Row 264                 Travel – Out of State            Enter the quantity and cost, by FY.
+                         (5320890-Travel – Out of
+                         State – Other)                   Examples:
+                                                           318312 Per Diem
+                                                           318314 Commercial Air Transportation
+                                                           318315 Other Transportation
+                                                           318316 Private Car
+                                                           318317 Rental Car
+                                                           318322 Rail, Bus, and Taxi
+                                                           318325 Travel Agency Management/Transaction
+                                                             Fees
+                                                           318328 Not Otherwise Classified
+ Row 265                 Training (5322400-Training       Enter the quantity and cost, by FY.
+                         – Tuition and Registration)
+                                                          Examples:
+                                                           321332 Tuition and Registration Fees
+                                                           321333 Training Films and Slides
+                                                           321334 Training Facility Rental
+                                                           321335 Interdepartmental and Commercial
+                                                             Contracts
+                                                           321337 Not Otherwise Classified (Goods)
+                                                           321338 Not Otherwise Classified (Services)
+                                                          (Note: Do not include salaries and wages or travel
+                                                          related to training.)
+ Row 266                 Facilities Operations (e.g.,     Enter the quantity and cost, by FY.
+                         5324350-Rents & Leases;
+                         5324550-Spec. Repairs &          Examples:
+                         Deferred Maint.)                  323342 Rent–Buildings and Grounds (State-
+                                                             Owned)
+                                                           323343 Rent–Buildings and Grounds (Non-State-
+                                                             Owned)
+                                                           323344 Janitorial Services
+                                                           323345 Security
+                                                           323346 Recurring Maintenance Services (Goods
+                                                             use 323357)
+                                                           323347 Facility Planning–General Services
+                                                             (Space Management, Lease Management, etc.)
+                                                           323348 Waste Removal
+                                                           323352 Special Repairs and Deferred
+                                                             Maintenance
+                                                           323353 Alterations
+                                                           323357 Not Otherwise Classified (Goods)
+                                                           323358 Not Otherwise Classified (Services)
+ Row 267                 Utilities (5326900-Utilities –   Enter the quantity and cost, by FY.
+                         Other)
+                                                          Examples:
+                                                           324362 Electricity
+                                                           324363 Natural Gas
+                                                           324364 Liquid Petroleum Gas
+                                                           324365 Propane for Heating
+                                                           324366 Heating Oil
+                                                           324367 Water
+                                                           324372 Sewer
+                                                           324378 Not Otherwise Classified
+
+California Department of Technology                                                                      58
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                   October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Rows 268 – 278          Consulting and                Enter the quantity and cost, by FY, for each
+                         Professional Services:        interdepartmental consulting and professional
+                         Interdepartmental (5340330-   services agreement.
+                         Consulting and
+                         Professional Services –       Examples:
+                         Interdepartmental)             325383 Accounting
+                                                        325384 Administrative
+                                                        325385 Architectural
+                                                        325386 Auditing
+                                                        325387 Collection Services
+                                                        325388 Compliance Inspection and Investigations
+                                                        325392 Engineering
+                                                        325393 Health and Medical
+                                                        325394 Legal (Witness Fees, Filing Fees,
+                                                         Contract Review, etc.; Excluding Attorney
+                                                         General)
+                                                        325395 DPA Collective Bargaining Charges
+                                                        325396 Attorney General
+                                                        325397 Office of Administrative Hearings
+                                                        325398 Other
+ Row 279                 Subtotal – Consulting and     The subtotal cost calculates automatically, by FY.
+                         Professional Services:
+                         Interdepartmental
+
+ Row 280 - 290           Consulting and                Enter the quantity and cost, by FY, for each external
+                         Professional Services:        consulting and professional services agreement.
+                         External (5340580-
+                         Consulting and                Examples:
+                         Professional Services –        326403 Accounting
+                         External)                      326404 Administrative
+                                                        326405 Architectural
+                                                        326406 Auditing
+                                                        326407 Collection Services
+                                                        326408 Compliance Inspectors and Investigations
+                                                        326409 Information Technology
+                                                        326412 Engineering
+                                                        326413 Health and Medical
+                                                        326414 Legal (Witness Fees, Filing Fees,
+                                                         Notaries Public Fees, etc.)(excludes Attorney
+                                                         Fees)
+                                                        326415 Attorney Fees (Services provided to
+                                                         agency)
+                                                        326418 Other Services
+                                                        326419 Non-Taxable Reimbursed Expenses
+                                                         (Non-employees only) (Accounted for by Receipts
+                                                         & Travel Claims)
+                                                        326420 Taxable Reimbursed Expenses (Non-
+                                                         employees only)(Meals, mileage, etc. in excess of
+                                                         approved rates)
+ Row 291                 Subtotal – Consulting and     The subtotal cost calculates automatically, by FY.
+                         Professional Services:
+                         External
+
+California Department of Technology                                                                    59
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                 October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Row 292 - 295           Departmental Services         HIDDEN ROW (unhide if needed).
+                         (5342500-Indirect             Enter the quantity and cost, by FY, for each
+                         Distributed Cost)             departmental services.
+
+                                                       Unhide rows as needed.
+
+                                                       Examples:
+                                                        327422 Office Services
+                                                        327423 Technical Services
+                                                        327424 EDP Services
+                                                        327425 Equipment Pool
+                                                        327426 Other
+                                                        327427 Indirect Distributed Cost
+ Row 296                 Subtotal – Departmental       HIDDEN ROW (unhide if needed).
+                         Services                      The subtotal cost calculates automatically, by FY.
+ Rows 297 - 304          Consolidated Data Centers     Enter the quantity and cost, by FY, for each
+                         (5344000-Consolidated Data    consolidated data center services.
+                         Centers)
+                                                       Unhide rows as needed.
+ Row 305                 Subtotal - Consolidated       The subtotal cost calculates automatically, by FY.
+                         Data Centers
+ Rows 306                Information Technology        Enter the quantity and cost, by FY, for information
+                         (5346900-Information          technology.
+                         Technology – Other)
+                                                       Examples:
+                                                        329434 Interagency Agreement
+                                                        329435 Not Otherwise Classified – Services
+                                                         (Maintenance, Security Services, Archival
+                                                         Services, etc.)
+                                                        329436 Supplies (Paper, Toner, etc.)
+                                                        329445 Software (Purchase, License)
+                                                        329446 Hardware (Purchase, Lease)
+                                                        329447 Data Lines (T1, DS3, etc.)
+                                                        329448 Internet Service Provider
+                                                        329449 Electronic Waste Recycling and Disposal
+                                                         Fees
+ Row 321                 Subtotal – Information        The subtotal cost calculates automatically, by FY.
+                         Technology
+ Rows 322 - 327          Central Administrative        HIDDEN ROW (unhide if needed).
+                         Services (e.g., 5348250-Pro   Enter the quantity and cost, by FY, for central
+                         Rata; 5348500-Statewide       administrative services.
+                         Cost Allocation Plan –
+                         SWCAP)                        Examples:
+                                                        330438 Pro Rata
+                                                        330439 SWCAP
+ Row 328                 Subtotal – Central            HIDDEN ROW (unhide if needed).
+                         Administrative Services       The subtotal cost calculates automatically, by FY.
+
+California Department of Technology                                                                      60
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Row 329 - 339           Office Equipment (5368115-    Enter the quantity and cost, by FY, for office
+                         Office Equipment)             equipment.
+
+                                                       Examples:
+                                                        332452 Replacement
+                                                          o 332453 Office Equipment (Exclude Chairs,
+                                                              Desks, Credenzas, etc.)
+                                                          o 332454 Passenger Motor Vehicles
+                                                          o 332455 Other Motor Vehicles
+                                                          o 332456 Household Equipment and
+                                                              Furnishings
+                                                          o 332457 Machinery, Implements, and Major
+                                                              Tools
+                                                          o 332462 Scientific Instruments and Apparatus
+                                                          o 332463 Maps, Films, and Paintings
+                                                          o 332464 Educational Equipment
+                                                          o 332465 Livestock
+                                                          o 332466 Electronic Data Processing
+                                                          o 332468 Other
+                                                        332472 Additional
+                                                          o 332473 Office Equipment (Exclude Chairs,
+                                                              Desks, Credenzas, etc.)
+                                                          o 332474 Passenger Motor Vehicles
+                                                          o 332475 Other Motor Vehicles
+                                                          o 332476 Household Equipment and
+                                                              Furnishings
+                                                          o 332477 Machinery, Implements, and Major
+                                                              Tools
+                                                          o 332482 Scientific Instruments and Apparatus
+                                                          o 332483 Maps, Films, and Paintings
+                                                          o 332484 Educational Equipment
+                                                          o 332485 Livestock
+                                                          o 332486 Electronic Data Processing
+                                                          o 332488 Other
+ Row 340                 Subtotal – Office Equipment   The subtotal cost calculates automatically, by FY.
+
+California Department of Technology                                                                     61
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+     Location,
+                                 Label Name                               Information
+    Column/Row
+ Rows 341 - 346          Other (5390900-Other Items   Enter the quantity and cost, by FY, for other items of
+                         of Expense –                 expense.
+                         Miscellaneous)
+                                                       333501 Other Items of Expense
+                                                       333502 Subsistence and Personal Care
+                                                       333503 Clothing and Personal Supplies
+                                                       333505 Recreation and Religion Supplies
+                                                        (Services use 326418)
+                                                       333506 Foodstuffs
+                                                       333507 Foster Care (IRC Sec 131 Exempt)
+                                                       333512 Quartering and Housekeeping
+                                                       333513 Laundry Services (Supplies use 333568)
+                                                       333514 Miscellaneous Client Services
+                                                       333515 Agricultural Supplies
+                                                       333516 Chemicals, Drugs, Medicines and
+                                                        Medical and Lab Supplies
+                                                       333517 Educational Supplies
+                                                       333520 Uniform Allowances
+                                                       333522 Law Enforcement Materials
+                                                       Structural Materials
+                                                       333524 Vehicle Operations (Excluding Insurance
+                                                        and Depreciation; For Use by Departments
+                                                        Maintaining Their Own Vehicles)
+                                                       333525 Gasoline
+                                                       333526 Propane
+                                                       333527 Oil and Lubrication
+                                                       333532 Tires and Tubes
+                                                       333533 Maintenance and Repair Services
+                                                        (Supplies use 333536)
+                                                       333534 Washing
+                                                       333535 Towing
+                                                       333536 Other Vehicle Operations
+                                                       333540 Exceptional Energy/Resources
+                                                        Purchases
+                                                       333545 Late Payment Penalties – GC 927 et seq.
+                                                       333568 Not Otherwise Classified (Goods)
+                                                       333569 Not Otherwise Classified (Services)
+                                                       333570 Not Otherwise Classified (Misc.)
+ Row 347                 Subtotal - Other             The subtotal cost calculates automatically, by FY.
+
+California Department of Technology                                                                    62
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Rows 348 - 351          Unclassified/Special          HIDDEN ROW (unhide if needed).
+                         Adjustment (e.g., 5395000-    Enter the quantity and cost, by FY, for unclassified or
+                         Unallocated Operating         special adjustments.
+                         Expense and Equipment;
+                         5415000 Claims Against the    Examples:
+                         State; 5420000-Debt Service    441601 Debt Service
+                         – Interest; 5432000-Grants     441602 Interest
+                         and Subventions –              441603 Principal
+                         Governmental; 5490000-         441608 Other
+                         Other Special Items of         442612 Depreciation and Amortization
+                         Expense; 5700000-Internal      443609 Attorney Fees (Services NOT provided to
+                         Cost Recovery)                   agency; fees segregated from clients’ award)
+                                                        443610 Payments to Attorneys – IRC 6045 (f)
+                                                          (includes client proceeds)
+                                                        443611 Tort Payments – Other punitive and
+                                                          damages that do NOT involve physical or
+                                                          personal injury. (DO NOT include attorney’s fees.
+                                                          See 443610)
+                                                        443613 Tort Payments – Compensatory awards
+                                                          involving physical or personal injury. (DO NOT
+                                                          include attorney’s fees. See 443610)
+                                                        444614 Taxes and Assessments
+                                                        445615 Special Demonstration Projects
+                                                        446616 Board of Control Claims X X X X
+                                                        447618 Evidence X X X X
+                                                        447619 Distributed Interest (not late penalties or
+                                                          debt service)
+                                                        448621 Scholarships, Grants, and Fellowships
+                                                          (services performed)
+                                                        448622 Scholarships, Grants, and Fellowships
+                                                          (services not performed)
+                                                        449623 Retirement Disbursements
+                                                        450624 Disability Benefits
+                                                        451625 Death Benefits
+                                                        452626 Loans (Exclude Local Govt.), Transfers
+                                                          and Other Non-expenditure Disbursements
+                                                        452627 Interagency pass – through
+                                                          Disbursement
+                                                        453628 Sales Discounts
+                                                        453629 Purchase for Sale
+                                                        453630 Prize Payments
+                                                        454632 Other
+                                                        500000 Unclassified
+                                                        555651 Scheduled (Info. Only)
+                                                        556661 Cost of Living Adjustments
+                                                        557671 Unallocated
+                                                        558681 Budget Revision Pending
+                                                        559691 Special Adjustments
+                                                        560696 Unscheduled (Info. Only)
+ Row 352                 Subtotal –                    HIDDEN ROW (unhide if needed).
+                         Unclassified/Special          The subtotal cost calculates automatically, by FY.
+                         Adjustment
+ Row 353                 Total OE&E Expenditures       The Dollars for all OE&E categories automatically
+                                                       calculate, by FY.
+
+California Department of Technology                                                                     63
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+     Location,
+                                  Label Name                               Information
+    Column/Row
+ Row 354                 Local Assistance              HIDDEN ROW (unhide if needed).
+                                                       Label for ongoing Local Assistance, includes
+                                                       Quantity and Cost columns for each FY. Local
+                                                       Assistance is state funds provided to counties, cities
+                                                       and special districts.
+ Row 355                 Grants                        HIDDEN ROW (unhide if needed).
+                                                       Enter the quantity and cost, by FY, for grants.
+
+                                                       Typically grants describe amounts of money
+                                                       received by an organization for a specific purpose
+                                                       but with no obligation to repay (in contrast to a loan,
+                                                       although the award may stipulate repayment of funds
+                                                       under certain circumstances). For example, the state
+                                                       receives some federal grants for the implementation
+                                                       of health and community development programs,
+                                                       and the state also awards various grants to local
+                                                       governments, private organizations, and individuals
+                                                       according to criteria applicable to the program.
+ Row 356                 Subventions                   HIDDEN ROW (unhide if needed).
+                                                       Enter the quantity and cost, by FY, for subventions.
+
+                                                       Typically subventions describe amounts of money
+                                                       expended as local assistance based on a formula, in
+                                                       contrast to grants that are provided selectively and
+                                                       often on a competitive basis. For the purposes of
+                                                       Article XIII B, state subventions include only money
+                                                       received by local agency from the state, the use of
+                                                       which is unrestricted by the statutes providing the
+                                                       subvention.
+ Row 357                 Administrative                HIDDEN ROW (unhide if needed).
+                                                       Enter the quantity and cost, by FY, for administrative
+                                                       services.
+ Row 358                 Total Local Assistance        HIDDEN ROW (unhide if needed).
+                                                       The Dollars for all Local Assistance categories
+                                                       (grants, subventions, administrative) automatically
+                                                       calculate, by FY.
+ Row 360                 Total Personal Services       The Positions and Dollars (Salaries and Wages +
+                         Expenditures                  Overtime, Holiday, Other + Dept. Benefits Rate) from
+                                                       the Total Personal Services – All Staff (Row 253)
+                                                       calculates automatically, by FY.
+ Row 361                 Total OE&E Expenditures       The Dollars for OE&E from the Total OE&E
+                                                       Expenditures (Row 461), by FY.
+ Row 362                 Total Local Assistance        HIDDEN ROW (unhide if needed).
+                                                       The Dollars for all Local Assistance from the Total
+                                                       Local Assistance (Row 466), by FY.
+ Row 363                 Total Expenditures – Future   The Positions and Dollars from Total Personal
+                         Operations Costs              Services Expenditures, Total OE&E Expenditures,
+                                                       and Total Local Assistance calculates automatically,
+                                                       by FY.
+ Row 366                 Comments                      Enter comments as needed.
+
+California Department of Technology                                                                     64
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+Alt 1- Funding Plan Tab
+
+  KEY:
+
+  White Fields = Enter Information (as applicable)
+  Purple, Blue, Orange, and Green Fields = Automatically populated;
+  No entry required
+
+     Location,
+                                 Label Name                               Information
+    Column/Row
+ Row 1                   Department name, Stage        No entry required for Department name and Date if
+                         X/Version X, Date             the Executive Cost Summary Tab was completed.
+
+                                                       Enter the Stage and Version, as needed.
+ Row 2                   Project Number and Project    No entry required for Project Number and Project
+                         Name                          Name if the Executive Cost Summary Tab was
+                                                       completed.
+
+ Footer                  SIMM 19F.2, Pages X of X,     Automatic – No entry required.
+                         Automatic Date
+ Alt 1- Funding Plan
+
+     Location,
+                                 Label Name                               Information
+    Column/Row
+ Column A, Row 3 -       Funding Plan                  Name automatically populates based on Alt 1-
+ 6                       Alternative 1                 Project name.
+                         <NAME>
+ Columns B - K           Planning Costs (Stage 2, 3,   Planning Costs occur during the development of
+                         4)                            Stages 2, 3, and 4.
+ Columns L - AE          Project Costs (During         Costs during project implementation.
+                         Project)
+
+California Department of Technology                                                                   65
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                               October 2017
+
+     Location,
+                                 Label Name                                 Information
+    Column/Row
+                                                        Note: Hidden columns applicable only if more than
+                                                        seven (7) FYs of project information is documented.
+                                                        Unhide columns as needed.
+ Columns AF - AU         Future Annual Costs            Costs during future annual operations (M&O).
+ Column AW               Various automatic              Entry only required if redirected costs from before
+                         calculations for overall and   the project are being used.
+ Rows 12 – 16            average costs.
+ Row 4                   FY 1, FY 2, FY 3, FY 4, FY 5   FY = July 1 – June 30.
+                         (for Planning) and FY          Project and Planning FYs are Automatic – No entry
+                         (Various)                      required (once applicable Alt 1- Project information
+                                                        entered).
+
+                                                        Enter full Future Annual Operations FYs.
+
+                                                        Enter information for up to five planning FYs, ten (10)
+                                                        project FYs, and seven future annual operations
+                                                        FYs. Use the Unhide function to unhide columns.
+
+                                                        Note: At a minimum, the number of FYs should be
+                                                        equivalent to the Alt 1- Project FYs.
+
+                                                        In this example, Columns between AM and AT are
+                                                        hidden, indicated by the two lines between the
+                                                        columns. To Unhide columns (if more than seven
+                                                        FYs of project costs needed), select the column
+                                                        before and after the hidden columns, right-click and
+                                                        select “Unhide.”
+
+                                                        To Hide columns, select the columns to be hidden,
+                                                        right-click and select “Hide.”
+
+California Department of Technology                                                                      66
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                   October 2017
+
+     Location,
+                                 Label Name                                 Information
+    Column/Row
+ Rows 6                  Total Project Costs +Future    Label for Total Project Costs and Future Annual
+                         Annual Costs                   Operations Costs information.
+ (The following
+ columns document                                       Future FYs are included to accommodate instances
+ Positions and                                          (e.g., implementations done in waves) they align with
+ Dollars for Total                                      Project FYs. For example, an information system
+ Project Costs, by                                      may be implemented to a group (e.g., wave one
+ FY:                                                    includes Department A, Department B) but the
+ B, C; D, E; F, G; H,                                   remaining groups are to be implemented in another
+ I; J, K; L, M; N, O,                                   wave/stage. Therefore, part of the system may be
+ P, Q; R, S; T, U; V,                                   considered M&O (included on the Future Ops sheet),
+ W; X, Y; Z, AA; AB,                                    while the remaining waves/stages are considered to
+ AC; AD, AE; AF,                                        be part of the project implementation (included in the
+ AG; AH, AI; AJ, AK;                                    Alt 1- Project sheet).
+ AL, AM; AN, AO;
+ AP, AQ; AR, AS)
+ Row 7                   Total Project Costs            Total project costs from Alt 1- Project, by FY.
+                                                        Automatically populates; no entry required.
+ Row 8                   Total Future Costs             Total future annual costs from Alt 1- Future Ops, by
+                                                        FY.
+                                                        Automatically populates; no entry required.
+ Row 9                   Total Project Costs + Total    Combines project and future annual operations
+                         Future Annual Costs            costs, by FY. Automatically calculates; no entry
+                                                        required.
+ Row 10                  Resources (including           Label for resources to be redirected.
+                         funding) To Be Redirected
+ Row 11                  Personal Services (Project )   Redirected staff resources from Alt 1- Project.
+                                                        Automatically populates; no entry required.
+ Row 12                  Personal Services (Future      Redirected staff resources from Alt 1- Future Ops.
+                         Annual Operations)             Automatically populates; no entry required.
+ Row 13                  Operating Expenses &           Enter OE&E funds to be used, by FY.
+                         Equipment
+ Row 14                  Existing System Funds          Enter existing system funds to be used, by FY.
+ Row 15                  Other Fund Sources             Enter other fund sources to be used, by FY.
+ Row 16                  Total Redirected Resources     Automatically calculates the combined total of the
+                                                        project and future annual operations information.
+ Row 20                  Additional Funding Needed      Label for additional funding needed for a BCP.
+ Row 22                  Project (One-Time) Funding     Automatically calculates the one-time project funding
+                         (BCP)                          needed, by FY.
+ Row 23                  Future Ops (Annual)            Automatically calculates the annual funding needed,
+                         Funding (BCP)                  by FY.
+ Row 24                  Total Additional Funding       Automatically totals the Project (One-Time) and
+                                                        Future Ops (Annual) funding.
+ Row 27                  Funding Source, State          Label for funding sources to be used to fund the
+                         Operations                     entire project (both redirected and new).
+ Rows 28 – 31            Various funds items            Enter the percentage of general, special, federal, or
+                                                        other funds needed to fund the Total Project Costs
+                                                        (planning, project, and/or future costs) (as
+                                                        applicable), Row 7.
+
+                                                        If “Other Funds” are used, specify the fund type in
+                                                        Column A/Row 29.
+ Row 32                  Cost                           Enter the percentage of funds that will be cost
+                         Recovery/Reimbursement         recovered or reimbursed of funds needed for the
+                                                        Total Project Costs (planning, project, and/or future
+                                                        costs) (as applicable), Row 7.
+
+California Department of Technology                                                                       67
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                   October 2017
+
+     Location,
+                                 Label Name                               Information
+    Column/Row
+ Row 33                  Total Funding, State         Automatically calculates the total percentage and
+                         Operations                   dollar amount for state operations funding.
+ Row 35                  Funding Source, Local        Label for funding sources to be used.
+                         Assistance
+ Row 36 – 39             General Funds                Enter the percentage of general, special, federal, or
+                                                      other funds needed to fund the Total Project Costs
+                                                      (planning, project, and/or future costs) (as
+                                                      applicable), Row 7.
+
+                                                      If “Other Funds” are used, specify the fund type in
+                                                      Column A/Row 35.
+ Row 40                  Cost                         Enter the percentage of funds that will be cost
+                         Recovery/Reimbursement       recovered or reimbursed. Automatically calculates
+                                                      the dollar amount.
+ Row 41                  Total Funding, Local         Automatically calculates the total percentage and
+                         Assistance                   dollar amount for Local Assistance funding.
+ Row 42                  Funding Source Total         Automatically calculates the combined total
+                                                      percentage and dollar amount for state operations
+                                                      and local assistance. IMPORTANT TO VALIDATE
+                                                      THAT THE PERCENTAGE EQUALS 100%.
+
+Alt 1- Planning BCP
+
+  KEY:
+
+  White Fields = Enter Information (as applicable)
+  Blue, Green, Lavender, Grey, Orange Fields = Automatically
+  populated; No entry required
+
+     Location,
+                                 Label Name                               Information
+    Column/Row
+ Row 1                   Department name, Stage       No entry required for Department name and Date if
+                         X/Version X, Date            the Executive Cost Summary Tab was completed.
+
+                                                      Enter the Stage and Version, as needed.
+ Row 2                   Project Number and Project   No entry required for Project Number and Project
+                         Name                         Name if the Executive Cost Summary Tab was
+                                                      completed.
+
+ Footer                  SIMM 19F.2, Pages X of X,    Automatic – No entry required.
+                         Automatic Date
+
+California Department of Technology                                                                    68
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                October 2017
+
+     Location,
+                                 Label Name                              Information
+    Column/Row
+
+     Location,
+                                 Label Name                              Information
+    Column/Row
+ Column A, Row 3 -       BCP – Planning Costs         Name automatically populates based on Alt 1-
+ 5                       Alternative 1                Project name.
+                         <NAME>
+ Columns C, F, I, L,     Planning Costs               Label for Planning Costs that occur during the
+ O                                                    development of Stages 2, 3, and 4.
+ Columns D, G, J,        (-) Other Funding to be      Label for other funds to be used during the
+ M, P                    used, if any (Existing)      development of Stages 2, 3, and 4.
+ Columns E, H, K, N,     (=) Planning Costs (BCP $$   Labor for BCP Funds needed for the development of
+ Q                       Needed)                      Stages 2, 3, and 4.
+ Columns E, H, K, N,     Planning Costs (FYs)         Planning Costs occur during the development of
+ Q                                                    Stages 2, 3, and 4. FYs populate automatically; no
+                                                      entry required.
+ Row 6                   Personal Services            Label for personal services.
+ Rows7 – 9               Positions (Perm), (Temp),    New Planning positions needed.
+                         Exempt, Board
+ Row 12                  Total Salaries and Wages     Label for planning position salaries and wages.
+ Columns C, F, I, L,     Earnings – Permanent;        New planning costs for staff earnings, overtime,
+ O                       Earnings – Temporary;        holiday, other, and benefits. Earnings, overtime,
+                         Earnings –                   holiday, other, and benefits costs populate
+ Rows 13 – 17            Statutory/Exempt;            automatically by FY; no entry required.
+                         Overtime, Holiday, Other;
+                         Total Staff Benefits
+ Rows 13 – 17            Various Salary and Wage      Enter any other existing funding to be used for each
+                         items                        applicable row, by FY.
+ Rows 13 - 17            Various Salary and Wage      The Planning Costs (BCP $$ Needed) automatically
+                         items                        calculates by FY; no entry required.
+ Row 18                  Unallocated, Special         Enter any unallocated or special adjustments for
+                         Adjustments                  planning costs and other funding to be used, by FY.
+
+                                                      The total unallocated, special adjustments total
+                                                      automatically calculates for the planning BCP funds
+                                                      needed by FY.
+ Columns C – Q           Total Personal Services      The total personal services automatically calculates
+                                                      by FY; no entry required.
+ Row 19
+ Row 21                  Operating Expenses and       Label for OE&E.
+                         Equipment
+
+California Department of Technology                                                                   69
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Columns C, F, I, L,     Various OE&E items (e.g.,     New OE&E Planning Costs populate automatically
+ O                       General Expense, Utilities,   by FY; no entry required.
+                         Information Technology)
+ Rows 22 – 40
+ Rows 22 – 40            Various OE&E items (e.g.,     Enter any existing funding to be used for each
+                         General Expense, Utilities,   applicable new OE&E cost, by FY.
+                         Information Technology)
+ Rows 22 – 40            Various OE&E items (e.g.,     The Planning Costs (BCP $$ Needed) automatically
+                         General Expense, Utilities,   calculate by FY; no entry required.
+                         Information Technology)
+ Columns C – Q           Total Operating Expenses      The total OE&E automatically calculates by FY; no
+                         and Equipment                 entry required.
+ Row 41
+ Row 42                  Local Assistance              Label for Local Assistance.
+ Rows 43 – 45            Local Assistance (Grants,     New Local Assistance Planning Costs populate
+                         Subventions,                  automatically by FY; no entry required.
+                         Administrative)
+ Rows 43 – 45            Various Local Assistance      Enter any existing funding to be used for each
+                         items                         applicable new Local Assistance cost, by FY.
+ Rows 43 – 45            Various Local Assistance      The Planning Costs (BCP $$ Needed) automatically
+                         items                         calculates by FY; no entry required.
+ Columns C – Q           Total Local Assistance        The total local assistance automatically calculates by
+                         Expenditures                  FY; no entry required.
+ Row 46
+ Columns C – Q           Total Personal Services,      The combined Personal Services, OE&E, and Local
+                         OE&E, and Local               Assistance totals for Planning Costs, Other Funding
+ Row 47                  Assistance                    to be used, if any (Existing), and Planning Costs
+                                                       (BCP $$ Needed) automatically calculate by FY; no
+                                                       entry required.
+ Columns A, B            Funding                       Label for BCP Funding needed.
+
+ Row 48
+ Columns C, D; F,        Funding Source Percentage     Label for funding source percentage.
+ G; I, J; L, M
+
+ Row 48
+ Columns E, H, K, N,     Total Funding                 Label for total funding needed.
+ Q
+
+ Row 48
+ Row 49                  Funding Source – State        Label for funding sources for state operations.
+                         Operations
+ Rows 50 – 53            Various funding sources       Enter the percentage of general, special, federal, or
+                                                       other funds needed (by FY) for the BCP Funding,
+                                                       Row 47.
+
+                                                       If “Other Funds” are used, specify the fund type in
+                                                       Column A/B, Row 52.
+ Rows 50 – 53            Various funding sources       The BCP funding needed for each applicable fund
+                                                       source calculates automatically by FY; no entry
+                                                       required.
+ Columns C – Q           Total State Operations        The percentage and total funding needed for the
+                         Expenditures                  state operations calculates automatically; no entry
+ Row 54                                                required.
+
+California Department of Technology                                                                      70
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Row 55                  Funding Source – Local        Label for funding sources for local assistance.
+                         Assistance:
+ Rows 56 – 59            Various funding sources       Enter the percentage of general, special, federal, or
+                                                       other funds needed (by FY) for the BCP Funding,
+                                                       Row 47.
+
+                                                       If “Other Funds” are used, specify the fund type in
+                                                       Column A/B, Row 58.
+ Rows 56 – 59            Various funding sources       The BCP funding needed for each applicable fund
+                                                       source calculates automatically by FY; no entry
+                                                       required.
+ Columns C – Q           Total Local Assistance        The percentage and total funding needed for the
+                         Expenditures                  local assistance calculates automatically by FY; no
+ Row 60                                                entry required.
+ Row 61                  Funding Source – Capital      Label for funding sources for capital outlay.
+                         Outlay (if applicable):
+ Rows 62 – 65            Various funding sources       Enter the percentage of general, special, federal, or
+                                                       other funds needed (by FY) for the BCP Funding,
+                                                       Row 47.
+
+                                                       If “Other Funds” are used, specify the fund type in
+                                                       Column A/B, Row 64.
+ Rows 62 – 65            Various funding sources       The BCP funding needed for each applicable fund
+                                                       source calculates automatically by FY; no entry
+                                                       required.
+ Columns C – Q           Total Capital Outlay          The percentage and total funding needed for the
+                         Expenditures                  capital outlay calculates automatically by FY; no
+ Row 66                                                entry required.
+ Columns C – Q           Total Expenditures            Automatically calculates the combined total
+                                                       percentage and dollar amount for state operations,
+ Row 67                                                local assistance, and capital outlay by FY; no entry
+                                                       required.
+                                                       IMPORTANT TO VALIDATE THAT THE
+                                                       PERCENTAGE EQUALS 100%.
+ Row 69                  Other Items:                  Label for other items.
+ Rows 70 – 72            Unclassified,                 Enter other items, as needed, by FY.
+                         Reappropriation, Reversion
+ Row 73                  Revenue                       Label for revenue.
+ Rows 74 – 75            General Fund, Other/Special   Enter revenue items, as needed, by FY.
+                         Funds
+ Row 76                  Loans/Revenue Transfers:      Label for loans or revenue transfers.
+ Rows 77 – 78            General Fund, Other/Special   Enter loans or revenue transfer items, as needed, by
+                         Funds                         FY.
+ Row 82                  Comments                      Enter comments as needed.
+
+California Department of Technology                                                                      71
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                 October 2017
+
+Alt 1- Project BCP
+
+  KEY:
+
+  White Fields = Enter Information (as applicable)
+  Blue, Green, Lavender, Grey, Orange Fields = Automatically
+  populated; No entry required
+
+     Location,
+                                 Label Name                               Information
+    Column/Row
+ Row 1                   Department name, Stage       No entry required for Department name and Date if
+                         X/Version X, Date            the Executive Cost Summary Tab was completed.
+
+                                                      Enter the Stage and Version, as needed.
+ Row 2                   Project Number and Project   No entry required for Project Number and Project
+                         Name                         Name if the Executive Cost Summary Tab was
+                                                      completed.
+
+ Footer                  SIMM 19F.2, Pages X of X,    Automatic – No entry required.
+                         Automatic Date
+ Alt 1- Project BCP
+
+ Column A, Row 3 -       BCP – Project Costs          Name automatically populates based on Alt 1-
+ 5                       Alternative 1                Project name.
+                         <NAME>
+ Columns C, G, K,        Project Positions            Label for new project positions.
+ O, S, W, AA, AE, AI,
+ AM
+ Columns E, I, M, Q,     Future Positions             Label for new future operations positions.
+ U, Y, AC, AG, AK,
+ AO, AT, AW, AZ,
+ BC, BF
+ Columns D, H, L, P,     (-) Other Funding to be      Label for other existing funding to be used.
+ T, X, AB, AF, AJ,       used, if any (Existing)
+ AN, AR, AU, AX,
+ BA, BD, BG
+ Columns AR, AU,         Final Future M&O FY?         Enter Yes or No, using the dropdown provided.
+ AX, BZ, BD, BG
+                                                      Enter Yes if the FY represents the positions/costs
+ Row 4                                                needed to fund the program on an ongoing basis
+                                                      (M&O).
+
+California Department of Technology                                                                   72
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Columns F, J, N, R,     BCP Project Costs – Year      FY populates automatically by FY; no entry required.
+ V, Z, AD, AH, AL,
+ AP, AS, AV, AY,         BCP Future Costs - Year
+ BB, BE, BH
+ Row 5                   Personal Services             Label for personal services.
+ Rows 6 - 9              Positions (Perm), (Temp),     New project and/or future operations positions
+                         Exempt, Board                 needed by FY.
+ Row 10                  Total Salaries and Wages      Label for project and/or future operations salaries
+                                                       and wages.
+ Rows 12 – 16            Earnings – Permanent;         New project and/or future annual operations costs for
+                         Earnings – Temporary;         staff earnings, overtime, holiday, other, and benefits.
+                         Earnings –                    Earnings, overtime, holiday, other, and benefits costs
+                         Statutory/Exempt;             populate automatically by FY; no entry required.
+                         Overtime, Holiday, Other;
+                         Total Staff Benefits
+ Rows 12 – 16            Various Salary and Wage       Enter any other existing funding to be used for each
+                         items                         applicable row, by FY.
+ Rows 12 – 16            Various Salary and Wage       The BCP Project/Future Costs automatically
+                         items                         calculate by FY; no entry required.
+ Row 17                  Unallocated, Special          Enter any unallocated or special adjustments for
+                         Adjustments                   project and/or future annual operations costs and
+                                                       other funding to be used, by FY.
+
+                                                       The total unallocated, special adjustments total
+                                                       automatically calculates (by FY) for the BCP funds
+                                                       needed.
+ Columns C – BH          Total Personal Services       The total personal services automatically calculates
+                         (Project and Future*)         by FY; no entry required.
+ Row 19
+                                                       *The totals may include a Future FY that coincides
+                                                       with a Project FY.
+ Row 22                  Operating Expenses and        Label for OE&E.
+                         Equipment
+ Rows 23 – 41            Various OE&E items (e.g.,     New OE&E project and/or future annual operations
+                         General Expense, Utilities,   costs populate automatically by FY; no entry
+                         Information Technology)       required.
+ Rows 23 – 41            Various OE&E items (e.g.,     Enter any existing funding to be used for each
+                         General Expense, Utilities,   applicable new OE&E cost.
+                         Information Technology)
+ Rows 23 – 41            Various OE&E items (e.g.,     The total project and/or future annual operations
+                         General Expense, Utilities,   OE&E costs automatically calculate by FY; no entry
+                         Information Technology)       required.
+ Columns C – BH          Total Operating Expenses      The OE&E automatically calculates by FY; no entry
+                         and Equipment                 required.
+ Row 42
+ Rows 43 – 45            Local Assistance (Grants,     New Local Assistance project and/or future annual
+                         Subventions,                  operations costs populate automatically by FY; no
+                         Administrative)               entry required.
+ Rows 43 – 45            Various Local Assistance      Enter any existing funding to be used for each
+                         items                         applicable new Local Assistance cost, by FY.
+ Rows 43 – 45            Various Local Assistance      The local assistance costs automatically calculate by
+                         items                         FY; no entry required.
+ Columns C – BH          Total Local Assistance        The total local assistance costs automatically
+                         Expenditures                  calculate by FY; no entry required.
+ Row 46
+
+California Department of Technology                                                                     73
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                  October 2017
+
+     Location,
+                                 Label Name                              Information
+    Column/Row
+ Columns C – BH          Total Personal Services,    The combined Personal Services, OE&E, and Local
+                         OE&E, and Local             Assistance totals automatically calculate by FY; no
+ Row 47                  Assistance                  entry required.
+
+ Columns A, B            Funding                     Label for BCP Funding needed.
+
+ Row 48
+ Columns C – BH          Funding Source Percentage   Label for funding source percentage.
+
+ Row 46
+ Row 47                  Funding Source – State      Label for funding sources for state operations.
+                         Operations
+ Columns C – BH          Various funding sources     Enter the percentage of general, special, federal, or
+                                                     other funds needed by FY for the BCP Funding, Row
+ Rows 50 – 53                                        47.
+
+                                                     If “Other Funds” are used, specify the fund type in
+                                                     Column A/B, Row 52.
+ Rows 50 – 53            Various funding sources     The BCP funding needed for each applicable fund
+                                                     source calculates automatically; no entry required.
+ Columns C – BH          Total State Operations      The percentage and total funding needed for the
+                         Expenditures                state operations calculates automatically; no entry
+ Row 54                                              required.
+ Row 55                  Funding Source – Local      Label for funding sources for local assistance.
+                         Assistance:
+ Columns C – BH          Various funding sources     Enter the percentage of general, special, federal, or
+                                                     other funds needed by FY for the BCP Funding, Row
+ Rows 56 – 59                                        47.
+
+                                                     If “Other Funds” are used, specify the fund type in
+                                                     Column A/B, Row 58.
+ Rows 56 – 59            Various funding sources     The BCP funding needed for each applicable fund
+                                                     source calculates automatically by FY; no entry
+                                                     required.
+ Columns C – BH          Total Local Assistance      The percentage and total funding needed for the
+                         Expenditures                local assistance calculates automatically by FY; no
+ Row 60                                              entry required.
+ Row 61                  Funding Source – Capital    Label for funding sources for capital outlay.
+                         Outlay (if applicable):
+ Columns C – BH          Various funding sources     Enter the percentage of general, special, federal, or
+                                                     other funds needed by FY for the BCP Funding, Row
+ Rows 62 – 65                                        47.
+
+                                                     If “Other Funds” are used, specify the fund type in
+                                                     Column A/B, Row 64.
+ Rows 62 – 65            Various funding sources     The BCP funding needed for each applicable fund
+                                                     source calculates automatically by FY; no entry
+                                                     required.
+ Columns C – BH          Total Capital Outlay        The percentage and total funding needed for the
+                         Expenditures                capital outlay calculates automatically by FY; no
+ Row 66                                              entry required.
+
+California Department of Technology                                                                    74
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                October 2017
+
+     Location,
+                                 Label Name                                Information
+    Column/Row
+ Columns C – BH          Total Expenditures            Automatically calculates the combined total
+                                                       percentage and dollar amount for state operations,
+ Row 67                                                local assistance, and capital outlay by FY; no entry
+                                                       required.
+                                                       IMPORTANT TO VALIDATE THAT THE
+                                                       PERCENTAGE EQUALS 100%.
+ Row 69                  Other Items:                  Label for other items.
+ Rows 70 – 72            Unclassified,                 Enter other items by FY, as needed.
+                         Reappropriation, Reversion
+ Row 73                  Revenue                       Label for revenue.
+ Rows 74 – 75            General Fund, Other/Special   Enter revenue items by FY, as needed.
+                         Funds
+ Row 76                  Loans/Revenue Transfers:      Label for loans or revenue transfers.
+ Rows 77 – 78            General Fund, Other/Special   Enter loans or revenue transfer items by FY, as
+                         Funds                         needed.
+ Row 82                  Comments                      Enter comments, as needed.
+
+California Department of Technology                                                                      75
+SIMM Section 19F Financial Analysis Worksheets
+F.1 Preparation Instructions                                                                 October 2017
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

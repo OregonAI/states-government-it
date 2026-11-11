@@ -1,0 +1,33 @@
+Technology Letter 24-01
+March 2024
+SUBJECT:
+Generative Artificial Intelligence (GenAI) Inventory, Procurement, and Risk Assessment for Executive Order N-12-23
+REFERENCES:
+Executive Order N-12-23
+State Administrative Manual (SAM) 4819.2, 4986
+Statewide Information Management Manual (SIMM) 71A, 71B, 180, 5305-F
+BACKGROUND
+The California Department of Technology (CDT) recognizes that Generative Artificial Intelligence (GenAI) technologies can create potential benefits for Californians, but its adoption must be carefully monitored through a robust combination of technology policies and risk management frameworks that references and enhances the comprehensive National Institute of Standards and Technology’s AI Risk Management Framework (NIST AI RMF), California’s existing State Administrative Manual (SAM), State Contracting Manual (SCM) Version 2, State of California GenAI Guidelines for Public Sector Procurement, Uses, and Training (Guidelines), the Human Resources Manual (HRM), and the Statewide Information Management Manual (SIMM).
+The CDT is responsible for setting California’s technology policy and has established SAM and SIMM policies that apply to AI and GenAI under the Executive Order N-12-23 (Executive Order) signed by Governor Newsom on September 6, 2023. The Executive Order mandated CDT and the Department of General Services (DGS) issue general guidelines for public sector procurement, uses, and required GenAI training.
+The CDT will continue to develop policies specific to GenAI technologies that are necessary to ensure a thoughtful, responsive governance at the beginning of a technology’s lifecycle to maximize equitable distribution of its benefits, minimize adverse impacts and abuse by bad actors, and reduce barriers to entry into emerging markets.
+PURPOSE:
+The purpose of this Technology Letter (TL) is to announce the following GenAI directives, policies, and guidelines:
+• In accordance with the Executive Order and on-going, all State entities shall be responsible for maintaining a GenAI inventory.
+• SAM 4819.2 has been updated to include new definitions for AI and GenAI.
+• SAM 4986 has been added as a new AI Section and Introduction.
+• Effective March 21, 2024, and thereafter, all IT, non-IT, and Telecommunications solicitations, regardless of acquisition type or method, must contain the GenAI disclosure notification language requiring vendors to identify any GenAI technology. This must be fully implemented on or before April 30, 2024.
+  • Reference the State of California GenAI Guidelines for Public Sector Procurement, Uses, and Training document for details.
+  • Reference the GenAI Toolkit for details.
+  • For any GenAI purchase, prior to July 1, 2024, AIO/CIO/Designee must consult with the CDT GenAI intake to proceed.
+• Effective July 1, 2024, and thereafter,
+  • State entities acquiring GenAI tools must complete a SIMM 5305-F Generative Artificial Intelligence Risk Assessment. The assessment is required to determine whether a GenAI technology function or service is rated low, moderate, or high risk.
+    • All IT, non-IT, and Telecommunication procurements with GenAI technology classified as moderate or high risk require consultation with CDT prior to award. Those classified as low risk GenAI acquisitions do not require CDT consultation.
+  • SIMM 180 Statement of Work guidelines has been updated to include GenAI sections.
+  • SIMM Section 71A Certification of Compliance with IT Policies Preparation Instructions has been updated to include GenAI sections.
+  • SIMM Section 71B Certification of Compliance with IT Policies Template has been updated to include GenAI sections.
+QUESTIONS:
+Direct questions regarding this Technology Letter to the California Department of Technology, Generative AI intake at CDTGenAIIntakeRequest@state.ca.gov.
+SIGNATURE:
+On file
+Liana Bailey-Crimmins, State CIO and Director
+California Department of Technology

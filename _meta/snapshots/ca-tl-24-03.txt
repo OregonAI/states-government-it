@@ -1,0 +1,36 @@
+Technology Letter 24-03
+July 2024
+SUBJECT:
+Update to Technology Letter (TL) 24-01
+Generative Artificial Intelligence (GenAI) Inventory, Procurement, and Risk Assessment for Executive Order N-12-23
+REFERENCES:
+Executive Order N-12-23
+Technology Letter 24-01
+Statewide Information Management Manual (SIMM) 71A, 71B, and 5305-F
+STD 1000 GenAI Reporting and Factsheet
+BACKGROUND
+The California Department of Technology (CDT) is responsible for setting California’s technology policy and has updated the Statewide Information Management Manual (SIMM) policies that apply to Artificial Intelligence (AI) and Generative AI (GenAI) under the Executive Order N-12-23, signed by Governor Newsom on September 6, 2023.
+The Technology Letter (TL) announces revisions and provides clarification to the GenAI directives, policies, and guidelines for IT, non-IT, and Telecommunications issued in the TL 24-01 released in March 2024.
+PURPOSE:
+The purpose of this Technology Letter (TL) is to announce the following:
+•
+•
+    • The SIMM 71B, Certification of Compliance with IT Policies Template, has been revised to include:
+      • A new “Not Applicable” (N/A) option has been added for cases where procurement is not required.
+    • The State of CA Generative AI Toolkit for Procurement, Use, and Training has been revised to include:
+      • New contract language.
+      • Updated solicitation language.
+      • A clarification has been added stating that all GenAI procurements, regardless of risk level, must include a completed GenAI Risk Assessment (SIMM 5305-F).
+      • New process to submit GenAI forms to CDT and/or begin a consultation.
+  • The State of California (CA) Standard (STD) form 1000 GenAI Disclosure and Factsheet has been revised to include:
+    • New name:
+      • Generative Artificial Intelligence (GenAI) Reporting and Factsheet.
+    • Updated submission requirements through the CDT IT Service Portal.
+QUESTIONS:
+For additional information on the changes to State GenAI directives, policies, and guidelines please see the Department of General Services (DGS) Broadcast Bulletin (BB) P-05-24.
+Direct any GenAI questions to the CDT GenAI Intake Team at CDTGenAIIntakeRequest@state.ca.gov.
+Direct any GenAI procurement questions to the CDT, Statewide Technology Procurements (STP) at TechnologyProcurements@state.ca.gov.
+SIGNATURE:
+On file
+Liana Bailey-Crimmins, State CIO and Director
+California Department of Technology

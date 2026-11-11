@@ -1,0 +1,25 @@
+Technology Letter 24-02
+June 2024
+SUBJECT:
+IT Training and Employee Development Policy Update
+REFERENCES:
+Government Code (GC) 11545(b)(4) & (5) and 11545(e)
+State Administrative Manual (SAM) 4854
+State Information Management Manual (SIMM) 71A & 71B
+BACKGROUND
+The California Department of Technology (CDT) recognizes that training and employee development is primarily a responsibility of management. The identification of needs, establishment of priorities, and implementation of training reside at the discretion of each state entity.
+The CDT is responsible for improving the State’s management of information technology (IT) resources including maturity and human capital management; reducing and avoiding costs and risks associated with the acquisition, development, implementation, management, and operation of IT assets. Additionally, the State Chief Information Officer has the responsibility to improve organizational maturity and capacity in the effective management of IT.
+In alignment with the responsibilities directed through Government Codes 11545 (b)(4) & (5) and 11545(e), the CDT has clarified several key areas in the State Administrative Manual (SAM) section 4854 – IT Training and Employee Development to support these critical objectives. These policy revisions enable the effective training and development of IT employees within the state and ensure employees possess the necessary skills and knowledge to perform their IT-related responsibilities efficiently and securely.
+PURPOSE:
+The purpose of this Technology Letter (TL) is to announce the following revisions to the SAM 4854 and Statewide Information Management Manual (SIMM) 71A & 71B policies.
+• State entities should assess their training needs and utilize IT training offered by CDT before considering similar training from other sources. This includes contacting CDT and leveraging their equivalent IT training, including leadership academies and specialized bootcamps, before procuring training from outside vendors.
+• This policy does not apply to on-the-job training, state entity in-house training when a vendor is not used, specialized computer-based training modules obtained as part of a hardware or software contract, cooperative training programs developed with other state entities when a vendor is not used, and/or eLearning online subscription-based training.
+• If an organization is planning to utilize IT training services and determines that the use of a CDT provided training solution is not feasible, they shall submit a Service Request for a Training Exemption for CDT approval before proceeding with the acquisition.
+• SIMM 71A Certification of Compliance with IT Policies Instructions has been revised to include compliance with SAM 4854.
+• SIMM 71B Certification of Compliance with IT Policies Template has been revised to include compliance with SAM 4854.
+QUESTIONS:
+Please refer to our FAQ page. For questions not listed in our FAQs, please contact the California Department of Technology, Office of Professional Development at training@state.ca.gov.
+SIGNATURE:
+On file
+Liana Bailey-Crimmins, State CIO and Director
+California Department of Technology

@@ -1,0 +1,338 @@
+OFFICE OF THE STATE CIO
+                                                                                    NUMBER:
+
+IT POLICY LETTER                                                                    ITPL 10-10
+SUBJECT:                                                                            DATE ISSUED:
+INFORMATION TECHNOLOGY ACCESSIBILITY
+                                                                                    JULY 26, 2010
+Emphasis: Addition of a Resource Guide and FSR and SPR
+changes to address Information Technology accessibility for                         EXPIRES:
+individuals with disabilities
+                                                                                    Until Rescinded
+REFERENCES:                                                                         ISSUING AGENCY:
+Government Code Sections 11135 and 11545                                            OFFICE OF THE STATE CHIEF
+State Administrative Manual Sections 4819.2 and 4833                                INFORMATION OFFICER
+
+Information Technology Policy Letters 09-01 and 10-05
+Statewide Information Management Manual Sections 20, 25, 30
+
+Note: Agency Chief Information Officers (Agency CIO) and Department Chief
+Information Officers (CIO) are requested to forward a copy of this Information
+Technology Policy Letter (ITPL) to their respective Project Management Office(s)
+and Information Technology (IT) Project Managers.
+
+DISTRIBUTION                Agency Secretaries
+                            Department Directors
+                            Agency Chief Information Officers
+                            Department Chief Information Officers
+
+PURPOSE                     To address improvements in IT and assistive technologies that have
+                            occurred over time, the purpose of this ITPL is to:
+                                  • Announce updates to the State Administrative Manual (SAM)
+                                    regarding IT accessibility.
+                                  • Remind all state agencies 1 of the IT accessibility requirements
+                                    for individuals with disabilities, including reviewing and updating
+                                    Web pages, as needed.
+                                  • Announce the addition of an IT Accessibility Resource Guide to
+                                    the Statewide Information Management Manual (SIMM).
+                                  • Announce changes to the Feasibility Study Report (FSR), Special
+                                    Project Report (SPR), and IT project procurement documents to
+                                    include additional detail concerning accessibility for proposed IT
+                                    projects.
+
+BACKGROUND                  Within the authority of Government Code (GC) Section 11545, the OCIO
+                            has responsibility and authority for the establishment and enforcement
+                            of state information technology policy in California State Government,
+                            which includes establishing and enforcing state IT policies regarding
+                            accessibility of IT to state employees and the public.
+                            GC § 11135 directs that: “state governmental entities, in developing,
+
+1 When capitalized, the term “Agency” refers to one of the state’s super Agencies such as the State and Consumer
+
+Services Agency or the Health and Human Services Agency. When used in lower case, the term “agency” refers to
+any office department, board, bureau, commission or other organizational entity within state government. Within this
+ITPL, “agency” and “department” are used interchangeably.
+                                                                                                                       1
+
+                                  procuring, maintaining, or using electronic or information technology,
+                                  either indirectly or through the use of state funds by other entities, shall
+                                  comply with the accessibility requirements of Section 508 of the
+                                  Rehabilitation Act of 1973 (Section 508), as amended (29 U.S.C. Sec.
+                                  794d), and regulations implementing that act as set forth in Part 1194 of
+                                  Title 36 of the Code of Federal Regulations.” The State Administrative
+                                  Manual (SAM) Section 4833 is the IT policy in support of the federal and
+                                  state laws and regulations on accessibility in state government IT.
+                                  In requiring compliance with Section 508, GC § 11135 mandates that
+                                  Electronic and Information Technology 2 (EIT) be accessible to
+                                  individuals with disabilities. In addition, GC § 11135 applies the same
+                                  requirements to state agencies and employees that Section 508 applies
+                                  to federal agencies or employees. Section 508 states, in part:
+                                  “Section 508 requires that when Federal agencies develop, procure,
+                                  maintain, or use electronic and information technology, Federal
+                                  employees with disabilities have access to and use of information and
+                                  data that is comparable to the access and use by Federal employees
+                                  who are not individuals with disabilities, unless an undue burden would
+                                  be imposed on the agency. Section 508 also requires that individuals
+                                  with disabilities, who are members of the public seeking information or
+                                  services from a Federal agency, have access to and use of information
+                                  and data that is comparable to that provided to the public who are not
+                                  individuals with disabilities, unless an undue burden would be imposed
+                                  on the agency.”
+                                  Finally, under existing state law and policy, state agencies and
+                                  contractors working on their behalf are responsible for ensuring that their
+                                  agency public Web sites are accessible to the general public, and that
+                                  their internal agency information technology systems are accessible by
+                                  state employees with disabilities.
+
+POLICY                            Agencies shall ensure compliance with laws, regulations, and policies
+                                  regarding accessibility to digital content and to IT applications for state
+                                  employees and the public in accordance Section 4833 of the SAM. All
+                                  Web delivered content must remain in compliance with the California
+                                  Web Accessibility Standards. An advance copy of the updates to SAM
+                                  Section 4833 is included in this ITPL as Attachment A.
+                                  In addition, the agency CIO, or designee, is the lead for the agency’s IT
+                                  accessibility and will perform the following activities:
+                                       1. Review internal structures to ensure existing Web sites and
+                                          digital content are accessible by the public and state staff, which
+                                          includes:
+                                                  a. Evaluating and determining accessibility of the agency
+                                                     Web sites (including Mobile Web elements such as smart
+                                                     phones) by persons with disabilities and compliance with
+                                                     Section 508 requirements; remediating those elements
+                                                     identified as not being accessible.
+                                                  b. Reviewing and updating, as appropriate, procedures on
+                                                     all agency Web site home pages and internal IT systems
+                                                     to clearly describe how to report problems with
+
+2 For the purposes of this policy, “EIT” is limited to IT that is within the scope of authority of the OCIO.
+
+                                                                                                                2
+
+              accessibility utilizing “Contact Us” and/or “Accessibility”
+              links; assigning problem resolution to the appropriate
+              technical resource responsible for correcting the problem
+              (e.g., Webmaster or Accessibility Group); and/or
+              providing an alternative source for the information sought.
+   2. Involve all appropriate divisions within the organization to ensure
+      appropriate accessibility elements are incorporated into all
+      stages of the project. These divisions can include program areas,
+      IT, procurement, business services, administration, and human
+      resources.
+   3. Update guidelines and templates to ensure that requirements
+      and issues regarding accessibility to Web sites, digital content,
+      and IT applications are addressed at the earliest phases of the IT
+      project development life cycle. Requirements and issues should
+      include, but are not limited to:
+           a. Developing multimedia content with captions or audio
+              narration.
+           b. Including sufficient explanatory material when developing
+              portable file documents (PDFs), graphics, scanned
+              printed pages, and scanned images to allow search/read
+              capability by screen readers.
+   4. Describe in FSRs and SPRs how accessibility requirements in
+      GC § 11135 and Section 508 will be met. Section 20 (FSRs) and
+      Section 30 (SPRs) of the SIMM have been updated to include
+      the following:
+           a. A new section within the FSR/SPR narrative to describe
+              how accessibility requirements will be met.
+           b. Revisions to the Executive Approval Transmittal to
+              include certification or qualified exemption(s) to
+              GC § 11135 and Section 508 by the signatories.
+   5. Include, where applicable, requirements for addressing
+      accessibility in procurements for IT projects, desktops, and
+      Mobile Web.
+These changes are effective immediately. The IT Accessibility
+Resource Guide, which provides information and links to IT accessibility
+resources to assist with the implementation of these procedures, has
+been added as Section 25 to the SIMM.
+FSRs and SPRs that have been completed, and are in the signature
+process for submittal to OCIO, will be accepted. In those instances the
+OCIO Program Management Office (PMO) Managers and Principals will
+collect accessibility information separately. However, FSRs and SPRs
+submitted beginning January 2011 must be in the new format and
+include the completed certifications.
+IT systems created or procured by state agencies or their contractors
+must comply with the accessibility standards of Section 508. To address
+systems in place or projects underway, state agencies should review the
+accessibility, identify areas to improve, and incorporate plans for
+addressing the improvements into their Agency Information
+Management Strategy (AIMS). In addition, as agencies continue to
+                                                                        3
+
+                update, renew and improve their Web presence, documents or software
+                which need to be modified or updated should be made accessible during
+                the upgrading process. Priority should be given to information and
+                services that the agency considers critical to the people it serves. The
+                AIMS policy in SAM Section 4900 and AIMS reporting in SIMM Sections
+                05A, 60 and 110 are unchanged at this time.
+
+EXCEPTIONS      Exceptions to this policy are described in the revision to SAM Section
+                4833 and SIMM Section 25. As previously discussed, the Executive
+                Approval Transmittal includes an exemption(s) certification, and is
+                required for all FSRs and SPRs.
+
+APPLICABILITY   This policy applies to both delegated IT projects and those reportable to
+                the OCIO. All state agencies are required to comply with this policy.
+
+SAM AND SIMM    The SAM Section 4819.2, Definitions, will be updated to include
+CHANGES         definitions for EIT and Mobile Web. In addition, the SAM Section 4833,
+                Information Technology Accessibility Policy, will be updated to include
+                the IT Accessibility requirements. An advance copy of the SAM updates
+                is included in this ITPL as Attachment A.
+                The SIMM, located at
+                http://www.cdt.ca.gov/Policy/SIMM, has been
+                updated to include the following changes:
+                   •   SIMM Sections 20 (Feasibility Study Report) and 30 (Special
+                       Project Report) – Preparation Instructions and associated sub­
+                       sections: Revised to include the accessibility changes previously
+                       discussed, and other changes that have occurred since the
+                       materials were last updated. Additional detail regarding specific
+                       changes is included in Attachment B
+                   •   SIMM Section 25 – IT Accessibility Resource Guide: The IT
+                       Accessibility Resource Guide is added to SIMM Section 25.
+                   •   SIMM Section 25A – IT Accessibility Certification for Delegated
+                       Projects is added to SIMM Section 25A.
+
+CONTACT         Questions regarding this policy should be directed to your OCIO PMO
+                representative. A listing of PMO Managers and Principals, their
+                departmental assignments, and department delegated cost thresholds
+                can be found at the OCIO Web site located at:
+                http://www.cdt.ca.gov/project-approvals-and-oversight-contacts
+
+SIGNATURE
+                ________/s/_______________________
+                Teri Takai,
+                Chief Information Officer
+                State of California
+
+                                                                                         4
+
+                                                                                      Attachment A
+
+4819.2        DEFINITIONS
+(Revised xx/10)
+
+Electronic and Information Technology (EIT or E&IT): Includes information technology and
+any equipment or interconnected system or subsystem of equipment that is used in the creation,
+conversion, or duplication of data or information. The term electronic and information technology
+includes, but is not limited to, telecommunications products (such as telephones), information
+kiosks and transaction machines, World Wide Web sites, multimedia, and office equipment such
+as copiers and fax machines.
+For the complete definition of EIT, a description of what it does not include (such as equipment
+that contains embedded information technology used as an integral part of the product), and for
+other terms, see § 1194.4 Definitions in Section 508 Standards.
+Electronic technologies that do not qualify as “IT” by the OCIO are identified in SAM Section
+4819.32, Exclusions.
+
+Mobile Web: Mobile Web refers to browser-based access to the Internet or Web applications
+using a mobile device, such as a smart phone, connected to a wireless network.
+
+4833 INFORMATION TECHNOLOGY ACCESSIBILITY POLICY
+(Revised xx/10)
+
+It is the policy of the State of California that information and services within California State
+Government, and provided via electronic and information technology, be accessible to people
+with disabilities.
+
+State agencies must comply with federal and state laws forbidding discrimination against
+persons with disabilities, including accessibility of their electronic and information technology.
+Under existing federal and state laws and policies, state agencies, as well as any contractors
+working for them, are responsible for ensuring that their agency public Web sites are accessible
+to both the general public and that their internal agency electronic and information technology
+systems are accessible by state employees, including persons with disabilities.
+
+ California Government Code section 11135 directs that: “state governmental entities, in
+developing, procuring, maintaining, or using electronic or information technology, either
+indirectly or through the use of state funds by other entities, shall comply with the accessibility
+requirements of Section 508 of the Rehabilitation Act of 1973, as amended (29 U.S.C. Sec.
+794d), and regulations implementing that act as set forth in Part 1194 of Title 36 of the Code of
+Federal Regulations.”
+
+Government Code section 11135, in requiring compliance with Section 508, mandates that
+electronic and information technology (EIT) are accessible to individuals with disabilities,
+specifically:
+
+   •   State agencies must develop, procure, maintain, or use electronic and information
+       technology, that employees with disabilities have access to and use of information and
+       data that is comparable to the access and use by employees who are not individuals
+       with disabilities, unless an undue burden would be imposed on the agency.
+
+                                                                                                      5
+
+                                                                                      Attachment A
+
+   •   Individuals with disabilities, who are members of the public seeking information or
+       services from a state agency, have access to and use of information and data that is
+       comparable to that provided to the public who are not individuals with disabilities, unless
+       an undue burden would be imposed on the agency.
+
+4833.1 Exceptions to Accessibility
+
+The following are exceptions which are allowed for compliance with this policy:
+
+   1. A state IT project that is for a “national security system” (FAR 39.204(b) and 36 CFR
+      1194.3(a)).
+
+   2. Acquisition of IT for a state project that is “acquired by a contractor incidental to a
+      contract” (FAR 39.204(c) and 36 CFR 1194.3(b)).
+
+   3. A state IT project that is “located in spaces frequented only by service personnel for
+      maintenance, repair, or occasional monitoring of equipment (FAR 39.204(d) and 36 CFR
+      1194.3(f))” in what is called the “back-office” exception.
+
+   4. Compliance with this policy would present an “undue burden.” Undue burden is defined
+      as “a significant difficulty or expense,” considering all agency resources available to the
+      program or component for which the product is being procured.
+
+   5. No commercial solution is available to meet the requirements for the IT project that
+      provides for accessibility.
+
+   6. No solution is available to meet the requirements for the IT project that does not require
+      a fundamental alteration in the nature of the product or its components.
+
+See SIMM Section 25, IT Accessibility Resource Guide, for additional information.
+
+                                                                                                   6
+
+                                                                                             Attachment B
+
+SIMM Sections 20 and 30 Changes
+
+           Description                              FSR                                  SPR
+1. Updated references from the        1. SIMM 20, Preparation              1. SIMM 30, Preparation
+   Department of Finance to the          Instructions                         Instructions
+   OCIO throughout the
+   documents.                             SIMM 20B, Project Summary            SIMM 30B, Project Summary
+                                          Package                              Package
+2. Updated the narrative              2. SIMM 20, Preparation              2. SIMM 30, Preparation
+   regarding the use of the              Instructions, Introduction,          Instructions, Introduction,
+   California Project                    New Information Technology           Approved Efforts Still under
+   Management Methodology to             Investments #16, Section             Development, #13. Section
+   be consistent with                    6.4, 6.6, 7.0 and 7.1                4.2, 4.4, 4.6, 5.0, 5.1.
+   ITPLs 09-01 and 10-05.
+3. Added narrative regarding          3. SIMM 20, Preparation              3. SIMM 30, Preparation
+   Accessibility Certification for       Instructions, Sections 1.1           Instructions, Sections 1.1
+   Executive Project Approval            and 5.1.                             and 3.4.
+   Transmittals, and the
+   approach for addressing                SIMM 20A, Executive                  SIMM 30A, Executive
+   accessibility requirements.            Approval Transmittal                 Approval Transmittal
+   Also added Agency CIO
+   signature line.
+
+    Added new document: IT
+                                          SIMM 25A, IT Accessibility           SIMM 25A, IT Accessibility
+    Accessibility Certification For
+                                          Certification For Delegated IT       Certification For Delegated IT
+    Delegated IT Projects.
+                                          Projects                             Projects
+4. Deleted narrative regarding        4. SIMM 20, Preparation              4. SIMM 30, Preparation
+   “Sources of Funding”                  Instructions, Section 2.4.           Instructions, Section 2.4.
+   consistent with a separate
+   ITPL that adds funding                 SIMM 20B, Project Summary            SIMM 30B, Project Summary
+   source information to the              Package, Section D, Items 5          Package, Section D, Items 5
+   Economic Analysis                      through 12.                          through 12.
+   Worksheets, SIMM Section
+   20C Instructions and
+   Templates.
+
+                                                                                                             7

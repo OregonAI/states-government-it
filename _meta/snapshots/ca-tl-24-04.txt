@@ -1,0 +1,24 @@
+Technology Letter 24-04
+October 2024
+SUBJECT:
+New SIMM 5355-B Server Hardening Standard & SIMM 5330-G Supported Technology Program Agreement
+REFERENCES:
+Government Code 11549.3
+State Administrative Manual (SAM) 5300
+Statewide Information Management Manual (SIMM) 5330-A, 5330-G, and 5355-B
+BACKGROUND
+Government Code Section 11549.3 authorizes the Office of Information Security (OIS) to create, issue, and maintain policies, standards, and procedures; oversee information security risk management for state entities; provide information security and privacy guidance; and ensure compliance with State Administrative Manual (SAM) Chapter 5300 and Statewide Information Management Manual (SIMM) section 5300.
+SIMM 5355-B Server Hardening Standard outlines the baseline security standards necessary for server hardening. Server hardening standards are essential to secure the ports, access points, permissions, and functions of a server as they minimize vulnerabilities, reduce attack surfaces, and ensure a robust defense against unauthorized access and cyber threats.
+SIMM 5330-G Supported Technology Program Agreement is an agreement between the Supported and Supporting entities to jointly assume responsibility for staff roles and/or organizational functions for IT security. This agreement ensures that all entities involved in a supported technology program are aligned with clearly identified support roles and functions.
+PURPOSE:
+The purpose of this Technology Letter (TL) is to announce:
+• The new Statewide Information Management Manual (SIMM) 5355-B, Server Hardening Standard, outlines the required security controls necessary for server hardening.
+• The new SIMM 5330-G, Supported Technology Program Agreement, which documents a formal agreement between two state entities with a supported technology agreement.
+  • This SIMM should be used when options 4 – Supported Roles and Functions or 5 – Fully Supported Entity is identified on SIMM 5330-A Designation Letter.
+• SIMM 5330-A Designation Letter Part 2 & Part 3 have been replaced by SIMM 5330-G.
+QUESTIONS:
+Direct questions regarding this Technology Letter to the Department of Technology, Office of Information Security at security@state.ca.gov.
+SIGNATURE:
+On file
+Liana Bailey-Crimmins, State CIO and Director
+California Department of Technology

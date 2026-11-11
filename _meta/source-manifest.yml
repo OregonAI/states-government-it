@@ -3318,6 +3318,7 @@ sources:
   # The SIMM 5305-F and SIMM 150 risk assessments are documents: each prints a revision history, a table of contents, purpose and instructions as well as its questions.
   # The identity check compares the PDF or page with the entry's title, or with its identity_text where the printed title differs.
   - id: ca-simm-10
+    sha256: "acab09a3c3e723d4697698c00535751dc7b553019fef612f2d55d21201e14576"
     url: https://www.cdt.ca.gov/policy/simm/simm-10/
     format: html
     citation: SIMM 10
@@ -3329,6 +3330,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 10, Project Reporting Flow Process: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-10-flow
+    sha256: "ccd727ed9c6b47f37c1d06590eef886c5aa4862ae9c6290272da4eb900f5dd48"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/SIMM_10_Document_Description_and_Process_Flow.pdf
     format: pdf
     citation: SIMM 10 Process Flow
@@ -3338,8 +3340,10 @@ sources:
     issuing_body: California Department of Technology
     tags: [oversight]
     recheck: monthly
+    identity_text: DOCUMENT DESCRIPTION AND PROCESS FLOW
     why_relevant: 'SIMM 10 Process Flow, Project Reporting Process Flow: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-05a
+    sha256: "000fd9e091c185161d254558e41f2a934c821581c166014b2a8c49c21c7a0ed7"
     url: https://www.cdt.ca.gov/policy/simm/simm-05a/
     format: html
     citation: SIMM 05A
@@ -3351,6 +3355,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 05A, Reporting schedules: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-15a
+    sha256: "401d0a8bb20bbc7480b3b8739f3ba924c4b5d2e3b91cb05263049a120dd9fb48"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-15A-Project-Cost-Delegation-Instruction.pdf
     format: pdf
     citation: SIMM 15A
@@ -3360,6 +3365,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [oversight]
     recheck: monthly
+    identity_text: Project Cost Delegation Accreditation Instructions
     why_relevant: 'SIMM 15A, Project Cost Delegation Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-15b
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-15B-Project-Cost-Delegation-Accreditation-Template.docx
@@ -3414,6 +3420,7 @@ sources:
     stub_reason: 'the SIMM index entry''s page prints an overview paragraph only and no framework text, file or link to one: the framework is not published at this address'
     why_relevant: 'SIMM 17, California Project Management Framework (CA PMF): an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-18
+    sha256: "01ae5b8df17c9fffaa40769fa18c0ff83f8d03b7a8bcf97b134d22b1d2ad83bf"
     url: https://www.cdt.ca.gov/policy/simm/simm-18/
     format: html
     citation: SIMM 18
@@ -3451,6 +3458,7 @@ sources:
     stub_reason: Word file
     why_relevant: 'SIMM 18B, Policy Exemption Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19a-1
+    sha256: "4d6829e73cda881308ba40ab5e783ffda63e6bd6353103cc03de218e8fddc41e"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19A.1-Preparation-Instructions-for-Stage-1.pdf
     format: pdf
     citation: SIMM 19A.1
@@ -3460,6 +3468,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [governance]
     recheck: monthly
+    identity_text: Stage 1 Business Analysis Preparation Instructions
     why_relevant: 'SIMM 19A.1, Preparation Instructions for Stage 1: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19a-2
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19A.2-Stage-1-Project-Reportability-Assessment-Template.docx
@@ -3501,6 +3510,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 19A.5, Agency State Entity Portfolio Report: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19b-1
+    sha256: "76cfb79502f093e5ade4a4eb9a19825acfb067dda699133797bc948b5c2d6765"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19B.1-Preparation-Instructions.pdf
     format: pdf
     citation: SIMM 19B.1
@@ -3510,6 +3520,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [governance]
     recheck: monthly
+    identity_text: Stage 2 Alternatives Analysis Version 3.0.3 Preparation Instructions
     why_relevant: 'SIMM 19B.1, Preparation Instructions for Stage 2: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19b-2
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19B.2-Stage-2-Alternatives-Analysis-Template.docx
@@ -3538,6 +3549,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 19B.3, Mid-level Solution Requirements Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19b-4
+    sha256: "f7da6c1dfda3e32729dc77aebba1245a39e24905872851fc35228541e291a125"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19B.4-Procurement-Assessment-Form-Instructions.pdf
     format: pdf
     citation: SIMM 19B.4
@@ -3547,6 +3559,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [procurement, oversight]
     recheck: monthly
+    identity_text: STP PAL Procurement Assessment Version 3.0.1 Preparation Instructions
     why_relevant: 'SIMM 19B.4, Procurement Assessment Form Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19b-5
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19B.5-STP-Procurement-Assessment-Form.docx
@@ -3562,6 +3575,7 @@ sources:
     stub_reason: Word file
     why_relevant: 'SIMM 19B.5, STP Procurement Assessment Form: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19c-1
+    sha256: "bcbcea30d21a39dbc94c32ffe76ab2bc46f1ef0d6a9d72e7247f00583404c516"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19C.1-Preparation-Instructions.pdf
     format: pdf
     citation: SIMM 19C.1
@@ -3571,6 +3585,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [governance]
     recheck: monthly
+    identity_text: Stage 3 Solution Analysis Version 3.0.1 Preparation Instructions
     why_relevant: 'SIMM 19C.1, Preparation Instructions for Stage 3: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19c-2
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19C.2-Stage-3-Solution-Analysis-Template.docx
@@ -3599,6 +3614,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 19C.3, Stage 3 Solution Requirements Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19d-1
+    sha256: "d89a54ed9bfc41bbdbe701b0e189406fe9ef6adea7e5ac830145e1b628f94154"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19D.1-Preparation-Instructions.pdf
     format: pdf
     citation: SIMM 19D.1
@@ -3608,6 +3624,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [governance]
     recheck: monthly
+    identity_text: Stage 4 Project Readiness and Approval Version 3.0.3 Preparation Instructions
     why_relevant: 'SIMM 19D.1, Preparation Instructions for Stage 4: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19d-2
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19D.2-Stage-4-Project-Readiness-and-Approval-Template.docx
@@ -3623,6 +3640,7 @@ sources:
     stub_reason: Word file
     why_relevant: 'SIMM 19D.2, Stage 4 Project Readiness and Approval Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19e-1
+    sha256: "43e5b8d369c169422f256a7191ab32f502a2adbb69fc0c74ddc368921e0b4ef1"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19E.1-Project-Delegation-Request-Preparation-Instructions.pdf
     format: pdf
     citation: SIMM 19E.1
@@ -3647,6 +3665,7 @@ sources:
     stub_reason: Word file
     why_relevant: 'SIMM 19E.2, Project Delegation Request Form ADA Compliant: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19f-1
+    sha256: "68498c86862263e7c761350de4ceeb1230f5ba29b6485564c3e310abc1d2fece"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19F.1-Preparation-Instructions.pdf
     format: pdf
     citation: SIMM 19F.1
@@ -3723,6 +3742,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 19H Workbook, Project delivery lifecycle workbook: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-22a
+    sha256: "2942bcf032bcbf2d0c957d04781ad97eb89896e1d09d653200687a0d9743d9e7"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-22A-COTS-SaaS-Acquisition-Information-Instructions.pdf
     format: pdf
     citation: SIMM 22A
@@ -3732,6 +3752,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [procurement]
     recheck: monthly
+    identity_text: COTS/SaaS Acquisition Information Form Preparation Instructions
     why_relevant: 'SIMM 22A, COTS/SaaS Acquisition Information Preparation Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-22b
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-22B-COTS-SaaS-Acquisition-Information-Form.pdf
@@ -3747,6 +3768,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 22B, COTS/SaaS Acquisition Information Form: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-25a
+    sha256: "1ae09853a4d07e151002401b3e552f4e8220d9c4e3cc3b9690878452e4918428"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-25A-Accessibility-Resource-Guide.pdf
     format: pdf
     citation: SIMM 25A
@@ -3756,6 +3778,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [digital-services]
     recheck: monthly
+    identity_text: IT Accessibility Resource Guide
     why_relevant: 'SIMM 25A, Information Technology Accessibility Resource Guide: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-25b
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-25B-Web-Accessibility-Certificate.pdf
@@ -3771,6 +3794,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 25B, Website Accessibility Certificate Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-30
+    sha256: "9f73201282b279f93f5de08f53b0b2fbc6132f195d1aaafedcb48580a2a84762"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-30-Special-Project-Report-Preparation-Instructions.pdf
     format: pdf
     citation: SIMM 30
@@ -3780,6 +3804,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [oversight]
     recheck: monthly
+    identity_text: Special Project Report Preparation Instructions
     why_relevant: 'SIMM 30, SPR Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-30a
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-30A-Special-Project-Report-Transmittal-Template.pdf
@@ -3808,6 +3833,7 @@ sources:
     stub_reason: Word file
     why_relevant: 'SIMM 30B, Project Summary Package: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-30c
+    sha256: "58fff29f3658c40da027b23fbfebeab1e421e515af51c5eb5cb7dff977933366"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-30C-EAW-Workbook-Package.pdf
     format: pdf
     citation: SIMM 30C
@@ -3817,6 +3843,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [oversight]
     recheck: monthly
+    identity_text: Special Project Report Economic Analysis Workbook Package Instructions
     why_relevant: 'SIMM 30C, SPR Economic Analysis Workbook (EAW) Package Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-30c-eaw
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-30C-EAW-Worksheets.xlsx
@@ -3871,6 +3898,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 30C Sample Worksheets Extended, Sample Worksheets – Extended: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-40a
+    sha256: "65377bc5b119cb6eafed17bd535f42184d4ceeaf62f8d713a26d5ce3649b3e1a"
     url: https://www.cdt.ca.gov/policy/simm/simm-40/40-a/
     format: html
     citation: SIMM 40A
@@ -3882,6 +3910,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 40A, Internet Domain Name Taxonomy Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-40b
+    sha256: "cb1ee52a9aa73fb306d2965aa6223f9e5a42021f241b99987d836e3fb4b0fcf5"
     url: https://www.cdt.ca.gov/policy/simm/simm-40/40-b/
     format: html
     citation: SIMM 40B
@@ -3893,6 +3922,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 40B, Internet Domain Name Taxonomy FAQs: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45
+    sha256: "1711c3daa40830c0f150a750a4e34cdba5fcaf1af391e97f376a29385a0d1df5"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-45-IT-Project-Oversight-Framework.pdf
     format: pdf
     citation: SIMM 45
@@ -3943,6 +3973,7 @@ sources:
     stub_reason: Word file
     why_relevant: 'SIMM 45 Appendix E, Project Status Reports Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45f
+    sha256: "b08e9abf29bf3a09a4d796c7676b86fc2e0c6a44f1aa1cca5f539a99c13cec68"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-45-Appendix-F-Project-Status-Reports-Preparation-Instructions.pdf
     format: pdf
     citation: SIMM 45 Appendix F
@@ -3952,6 +3983,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [oversight]
     recheck: monthly
+    identity_text: Project Status Reports – Preparation Instructions
     why_relevant: 'SIMM 45 Appendix F, Project Status Reports Preparation Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45g
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-45-Appendix-G-Independent-Project-Oversight-Report-Template.docx
@@ -4006,6 +4038,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 50 Cost Worksheets, PIER Cost Worksheets: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-55a
+    sha256: "cc8c3f7af0127c3f05b4b56b671841d7c505b738d6a7c54e54f886258b7f6073"
     url: https://www.cdt.ca.gov/policy/simm/simm-55/simm-55a-information-technology-cost-report-instructions/
     format: html
     citation: SIMM 55A
@@ -4043,6 +4076,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 55C, IT Cost Report Transmittal: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-55d
+    sha256: "a4845daca88351ffa75e6bc1d9756cba62ef10d4fe46e04062725c1e95931411"
     url: https://www.cdt.ca.gov/policy/simm/simm-55/simm-55-faqs-information-technology-cost-report-simm-55-september-2022/
     format: html
     citation: SIMM 55D
@@ -4052,8 +4086,10 @@ sources:
     issuing_body: California Department of Technology
     tags: [oversight]
     recheck: monthly
+    identity_text: SIMM 55 FAQs – Information Technology Cost Report
     why_relevant: 'SIMM 55D, IT Cost Report FAQs: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-58c
+    sha256: "7b15089c7ef6e3af8be4bbd7d5610a438ae89463ac4237382b634cb586a0358c"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-58C-Enterprise-Architecture-Glossary.pdf
     format: pdf
     citation: SIMM 58C
@@ -4063,6 +4099,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [cloud-resilience]
     recheck: monthly
+    identity_text: ST-CEAF Glossary
     why_relevant: 'SIMM 58C, Enterprise Architecture Glossary: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-60a
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-60A-AIMS-Transmittal.pdf
@@ -4091,6 +4128,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 60B, Annual Certification Letter: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-66b
+    sha256: "c9423246de051fe06eba455baeb656b729afe40cce53845cc1532475f143c91b"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-66B-Social-Media-Standard.pdf
     format: pdf
     citation: SIMM 66B
@@ -4100,8 +4138,10 @@ sources:
     issuing_body: California Department of Technology
     tags: [digital-services]
     recheck: monthly
+    identity_text: Social Media Standard SIMM 66B
     why_relevant: 'SIMM 66B, Social Media Standards: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-71a
+    sha256: "9dff12d493e5778a82fd99468ff66cb048da63f9e0ec8373d7d1d0873a0e2ae5"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-71A-Certification-of-Compliance-with-IT-Policies-Preparation-Instructions.pdf
     format: pdf
     citation: SIMM 71A
@@ -4139,6 +4179,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 80, CA Software Management Policy Annual Statement of Compliance: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5300-b
+    sha256: "81acfe203cd4de32cea70fc124ad9ea0714e9557f76a86a964e1060265c1dda8"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5300-B-Foundational-Framework.pdf
     format: pdf
     citation: SIMM 5300-B
@@ -4176,6 +4217,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 5300-C, CA Cybersecurity Maturity Metrics: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5305-a
+    sha256: "29f867ba4c8c366e414694ae1816ec7d677a162829238b3109da5688f92d4e80"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5305-A-Information-Security-Program-Management-Standard.pdf
     format: pdf
     citation: SIMM 5305-A
@@ -4187,6 +4229,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5305-A, Information Security Program Management Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5305-b
+    sha256: "fe45c254df3c602866ce4827a167efc96fe6ce17544fdfd2bc9c07063411d8fe"
     url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5305-b-risk-register-and-plan-of-action-and-milestones-instructions/
     format: html
     citation: SIMM 5305-B
@@ -4224,6 +4267,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 5305-C Certification, Risk Register and Plan of Action and Milestones Certification: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5305-bc-faqs
+    sha256: "56211224c3986717241126ec1c41eb9d8e731a79dd29116dda0cf0297b24bf2f"
     url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5305-b-and-c-risk-register-and-plan-of-action-and-milestones-frequently-asked-questions-faqs/
     format: html
     citation: SIMM 5305-B and C
@@ -4235,6 +4279,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5305-B and C, Risk Register and Plan of Action and Milestones FAQs: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5305-f
+    sha256: "35a51d145547d0063c6f679e8e4031a394f40c0fe3e246fb17e0d443da072785"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5305-F-Generative-Artificial-Intelligence-Risk-Assessment.pdf
     format: pdf
     citation: SIMM 5305-F
@@ -4246,6 +4291,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5305-F, Generative Artificial Intelligence Risk Assessment: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5310-a
+    sha256: "c5e2bd6f17c982639ad08304bd85b2c05e1e13afc825a76a8897fb3ba1e0d877"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5310-A-Privacy-Statement-and-Notices-Standard.pdf
     format: pdf
     citation: SIMM 5310-A
@@ -4257,6 +4303,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5310-A, Privacy Statement and Notices Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5310-b
+    sha256: "aa9cd33406f24e46be094e25f4137a2e2eb1353122d3bb340c9fab2e3a401603"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5310-B-Privacy-Individual-Access-Standard.pdf
     format: pdf
     citation: SIMM 5310-B
@@ -4281,6 +4328,7 @@ sources:
     stub_reason: Word file
     why_relevant: 'SIMM 5310-C, Privacy Threshold Assessment and Privacy Impact Assessments: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5315-a
+    sha256: "a43953066b1eba1c1672601bd10ff0c154d5baec2df3795aa2d43289f1704b38"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5315-A-Email-Threat-Protection-Standard.pdf
     format: pdf
     citation: SIMM 5315-A
@@ -4290,8 +4338,10 @@ sources:
     issuing_body: California Department of Technology
     tags: [cybersecurity]
     recheck: monthly
+    identity_text: Email Threat Protection Standard
     why_relevant: 'SIMM 5315-A, Email Threat Protections Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5315-b
+    sha256: "cf57083df48f7b4fcee4e3b9cbb53039c48900867dc330840a1b33d061dc2ad8"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5315-B-Cloud-Security-Standard.pdf
     format: pdf
     citation: SIMM 5315-B
@@ -4303,6 +4353,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5315-B, Cloud Security Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5320-a
+    sha256: "6cf7969f4b944e4cfb1a776fa0f4e31a3dae484e0bd49d21c44b7f571aedc684"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5320-A-Phishing-Exercise-Standard.pdf
     format: pdf
     citation: SIMM 5320-A
@@ -4314,6 +4365,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5320-A, Phishing Exercise Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5325-a
+    sha256: "5f247acee33735a78d3fb61335e62ff08aaebabed0fde9e89c6cd8b063039ecc"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5325-A-Technology-Recovery-Plan-Instructions.pdf
     format: pdf
     citation: SIMM 5325-A
@@ -4364,6 +4416,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 5330-B, Information Security and Privacy Program Compliance Certification: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5330-c
+    sha256: "b798f7fa0d01247b903a74db01df938597fe460c771d71cba35f6a2bb6f9e4d7"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-C-Information-Security-Compliance-Reporting-Schedule.pdf
     format: pdf
     citation: SIMM 5330-C
@@ -4375,6 +4428,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5330-C, Information Security Compliance Reporting Schedule: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5330-d
+    sha256: "2236e3cb3c12d6c8cc57d27f87d8001b5731f41407e010d8f5cd2106fa0fdfa9"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-D-Designation-Letter-Instructions.pdf
     format: pdf
     citation: SIMM 5330-D
@@ -4399,6 +4453,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 5330-F, Information Security and Privacy Program Compliance Certification for Independents and Constitutionals: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5330-h
+    sha256: "96ef15bf086c1247d286ce55b9fe5d4c83c80eabaa70ca05ff1ff1ea3ae5bb85"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5330-H-Information-Security-Compliance-and-Enforcement-Standard.pdf
     format: pdf
     citation: SIMM 5330-H
@@ -4410,6 +4465,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5330-H, Information Security Policy Compliance and Enforcement Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5335-a
+    sha256: "27f5df888dff979dba9729aa6343797b3eaf0ea26f98968ed32d5720c69c7a77"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5335-A-Incident-Reporting-and-Response-Instructions.pdf
     format: pdf
     citation: SIMM 5335-A
@@ -4421,6 +4477,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5335-A, Security Event Notification and Response Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5335-b
+    sha256: "33e4c2b825a7a07ef50c80ee90fd9977a5136cc67d4f2db4c05390bf4ff788cb"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5335-B-Continuous-Monitoring-and-Event-Management-Standard.pdf
     format: pdf
     citation: SIMM 5335-B
@@ -4430,6 +4487,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [cybersecurity]
     recheck: monthly
+    identity_text: Continuous Security Monitoring and Event Management Standard
     why_relevant: 'SIMM 5335-B, Continuous Monitoring and Event Management Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5335-c
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5335-C-MITRE-ATTCK-Framework.xlsx
@@ -4445,6 +4503,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 5335-C, MITRE ATT&CK Framework: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5340-a
+    sha256: "f09dc8195e65601439e2b50bdbdcad8e84b4aeb555f70e79bb9cee29a4d36b87"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5340-A-Information-Security-Incident-Response-and-Reporting.pdf
     format: pdf
     citation: SIMM 5340-A
@@ -4456,6 +4515,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5340-A, Information Security Incident Response and Reporting: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5340-c
+    sha256: "45e8ce4a8b9dda9cfdd5b122a1f52d84c0047052d81bf204aebd8197c31cc0da"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5340-C-Requirements-to-Respond-to-Incidents-Involving-a-Breach-of-Personal-Information.pdf
     format: pdf
     citation: SIMM 5340-C
@@ -4467,6 +4527,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5340-C, Requirements to Respond to Incidents Involving a Breach of Personal Information: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5345-a
+    sha256: "29656156c8038d4b2ab1365031cea4fcda52e2204ef30ed921450fa2c285afca"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5345-A-Vulnerability-Management-Standard.pdf
     format: pdf
     citation: SIMM 5345-A
@@ -4478,6 +4539,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5345-A, Vulnerability Management Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5350-a
+    sha256: "33cc80e3f32dc6f57b9a554db6eabf32265f9783782724d9b9364bb98d3619d9"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5350-A-Zero-Trust-Architecture-Standard.pdf
     format: pdf
     citation: SIMM 5350-A
@@ -4502,6 +4564,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 5350-B, Zero Trust Architecture Roadmap: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5355-a
+    sha256: "85998be7962740a2d30a008476c8d95f5f1e4d01528daa88411630db9e7e5437"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5355-A-Endpoint-Protection-Standard.pdf
     format: pdf
     citation: SIMM 5355-A
@@ -4513,6 +4576,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5355-A, Endpoint Protection Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5355-b
+    sha256: "b51cf038df4e17de8278a2febb99d58399b8086c4901d09519daef5536181fe8"
     url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5355-b-office-of-information-security-server-hardening-standard/
     format: html
     citation: SIMM 5355-B
@@ -4524,6 +4588,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5355-B, Office of Information Security Server Hardening Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5360-a
+    sha256: "64ed40d52c468a8a13ab9153914bc361a0c2eb650a446f01e979a12f294a4a27"
     url: https://www.cdt.ca.gov/policy/simm/simm-5300/simm-5360-a-telework-and-remote-access-security-standard/
     format: html
     citation: SIMM 5360-A
@@ -4548,6 +4613,7 @@ sources:
     stub_reason: 'form or template: a fill-in document, not an instrument''s text'
     why_relevant: 'SIMM 5360-B, Remote Access Agreement: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5360-c
+    sha256: "687915a70e997ec0abd1d876aff2b40b914b52e000ac8d1653cb8d5e35965af5"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5360-C-Multi-Factor-Authenticaiton.pdf
     format: pdf
     citation: SIMM 5360-C
@@ -4559,6 +4625,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5360-C, Multi-Factor Authentication: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5360-d
+    sha256: "8e124cf5a6f583167401c9c022dacb4d0bcd4ba972220363f26d19169a12b9e5"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5360-D-Multi-Factor-Authenticaiton-Supplemental.pdf
     format: pdf
     citation: SIMM 5360-D
@@ -4570,6 +4637,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5360-D, Multi-Factor Authentication Supplemental: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-110
+    sha256: "3c0bf7804c8924f9940f7a4384f4f19b4491b0780bef82c53b940d840ebfdf1e"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-110-AIMS-Guidelines.pdf
     format: pdf
     citation: SIMM 110
@@ -4579,8 +4647,10 @@ sources:
     issuing_body: California Department of Technology
     tags: [oversight, governance]
     recheck: monthly
+    identity_text: Agency Information Management Strategy Documentation Guidelines
     why_relevant: 'SIMM 110, AIMS Document Guidelines: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-120
+    sha256: "2570c7c4d521ab445ae6cf00678ada5bd2f1c5e4e44a5c8e7110aa6a567fb4aa"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-120-SMP-Guidelines.pdf
     format: pdf
     citation: SIMM 120
@@ -4592,6 +4662,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 120, Software Management Plan Guidelines: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-130
+    sha256: "4f3ff26daf89f1d1bfdebbc76fc2421b76c87a4586e7276d10894789bf9f3bc3"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-130-Workgroup-Collaboration-Platform-Guidelines.pdf
     format: pdf
     citation: SIMM 130
@@ -4603,6 +4674,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 130, Workgroup Collaboration Platform Guidelines: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-140
+    sha256: "68d6aca73822e0b511f102f82d86a45c9d08827bd86857b32dc2fb4a0a23ef36"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-140-Cloud-Security-Guide.pdf
     format: pdf
     citation: SIMM 140
@@ -4614,6 +4686,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 140, Cloud Security Guide: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-141
+    sha256: "f96c6b60a04d34f7fc19591a69264c7de86e1baa763b28435bd363bb638347f9"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-141-California-Cloud-Assessment-Guide.pdf
     format: pdf
     citation: SIMM 141
@@ -4625,6 +4698,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 141, California Cloud Services Assessment Guide: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-150
+    sha256: "a5db6f81be0e5e198307a2c0ad647392f768a3d1384f107f34075cca8960579b"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-150-GenAI-Risk-Assessment-for-General-Office-Productivity.pdf
     format: pdf
     citation: SIMM 150
@@ -4649,6 +4723,7 @@ sources:
     stub_reason: 'the page is the Enterprise Architecture program''s landing page: it describes the program and links on to the Office of Enterprise Architecture, the California Enterprise Architecture Framework and the community of practice, and carries no instrument text itself'
     why_relevant: 'SIMM 158, Enterprise Architecture Practices: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-160
+    sha256: "f345fcb3741dd184df5e929d0b25d58420ba5a966ffb9cab8cc776bbbed98bce"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-160-Maintenance-Operations-Plan-Guidelines.pdf
     format: pdf
     citation: SIMM 160
@@ -4660,6 +4735,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 160, Maintenance & Operations Plan Guidelines: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-170a
+    sha256: "e841c48035d7b423e47af507a3eed574e4844a042889f8cfffd9ccad770d6826"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-170A-General-Requirements-Guidelines.pdf
     format: pdf
     citation: SIMM 170A
@@ -4684,6 +4760,7 @@ sources:
     stub_reason: 'sample exhibit: a table of example requirements, not the guideline''s text'
     why_relevant: 'SIMM 170A Exhibit A, Strong Requirement Samples: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-170b
+    sha256: "992623c7882711179f5d6c453d56f0b0fd00c70112d7d7829c545a7e67a6d1d5"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-170B-Project-Requirements-Development-Instructions.pdf
     format: pdf
     citation: SIMM 170B
@@ -4760,6 +4837,7 @@ sources:
     stub_reason: 'sample exhibit: example or template material, not the guideline''s text'
     why_relevant: 'SIMM 170B Exhibit D, Requirements Development Workflow: an item of the SIMM''s guidelines, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-180
+    sha256: "44560b799312fd92a5a08150ad4babc09e1c2d9305326cbec4753c591852430a"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-180-SOW-Guidelines.pdf
     format: pdf
     citation: SIMM 180
@@ -4784,6 +4862,7 @@ sources:
     stub_reason: 'not public: the SIMM 5300 page says SIMM 5300-A ''contains detailed security control content and classified as confidential'' and is available only to designated personnel on the OIS Extranet, and to vendors under a non-disclosure agreement during state entity procurement'
     why_relevant: 'SIMM 5300-A, State-defined Security Parameters: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-genai-guidelines
+    sha256: "58cfa17bbc3603375badeda5d8b6b1909ce770dcfdf278442a77316ec4c4cf24"
     url: https://www.cdt.ca.gov/wp-content/uploads/2024/07/3a-GenAI-Guidelines.pdf
     format: pdf
     citation: GenAI Guidelines (March 2024)
@@ -4801,6 +4880,7 @@ sources:
   # index; its page https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-02/ answers and prints 'Technology Letter 24-02', so that is the url. Title, number and issue
   # date are as the index printed them (the PDF or page repeats the number). identity_text is the number as the document prints it (older letters print 'TL 11-1', not 'TL 11-01').
   - id: ca-tl-26-01
+    sha256: "a50ba5af57afcf45c6f3174163049b1ba69dee12fc51a82389a943ea870efaf9"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-26-01/
     format: html
     citation: TL 26-01
@@ -4813,6 +4893,7 @@ sources:
     identity_text: Technology Letter 26-01
     why_relevant: 'Technology Letter 26-01 (issued 02/20/2026 per the index), ''SIMM 5340-A Information Security Incident Response and Reporting'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-25-05
+    sha256: "9d84b0b7c1698c088d1ca825db7a8f5986ab6da93c456028e3aabd31feecf751"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-05/
     format: html
     citation: TL 25-05
@@ -4825,6 +4906,7 @@ sources:
     identity_text: Technology Letter 25-05
     why_relevant: 'Technology Letter 25-05 (issued 9/5/2025 per the index), ''SIMM 5350-A Zero Trust Architecture Standard and SIMM 5350-B Zero Trust Architecture Roadmap'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-25-04
+    sha256: "ecf607c45f7ed0c71c489d78dd30ebea258d195312a004f937d1584e667a9856"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-04/
     format: html
     citation: TL 25-04
@@ -4837,6 +4919,7 @@ sources:
     identity_text: Technology Letter 25-04
     why_relevant: 'Technology Letter 25-04 (issued 8/8/2025 per the index), ''New SIMM 5335-B Continuous Security Monitoring and Event Management Standard and SIMM 5335-C MITRE ATT&CK Framework'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-25-03
+    sha256: "131e3b091e08899ab40b9af05a8b0f00d8385aa3a3f2b4ff906c460a77c13f46"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-03/
     format: html
     citation: TL 25-03
@@ -4849,6 +4932,7 @@ sources:
     identity_text: Technology Letter 25-03
     why_relevant: 'Technology Letter 25-03 (issued 6/27/2025 per the index), ''SIMM 5320-A Phishing Exercise Standard'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-25-02
+    sha256: "7820073d63669ebb71ea3cd291d3357ccf1244f0ee8922a0260e47705153193a"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-02/
     format: html
     citation: TL 25-02
@@ -4861,6 +4945,7 @@ sources:
     identity_text: Technology Letter 25-02
     why_relevant: 'Technology Letter 25-02 (issued 5/7/2025 per the index), ''SIMM 5330-A Designation Letter and SIMM 5330-D Designation Letter Instructions'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-25-01
+    sha256: "34ac8a1ad6a766e2613c2eeec7bafeb56efc6416d642be6b1d272bdf2ea11425"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-25-01/
     format: html
     citation: TL 25-01
@@ -4873,6 +4958,7 @@ sources:
     identity_text: Technology Letter 25-01
     why_relevant: 'Technology Letter 25-01 (issued 2/20/2025 per the index), ''Information Technology (IT) Policies for Generative Artificial Intelligence (GenAI)'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-24-05
+    sha256: "bde6ba56098992e3406e43f4580a1f5354f77331b9e7745f0b0e39ee06b28f62"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-05/
     format: html
     citation: TL 24-05
@@ -4885,6 +4971,7 @@ sources:
     identity_text: Technology Letter 24-05
     why_relevant: 'Technology Letter 24-05 (issued 11/19/2024 per the index), ''New SIMM 5330-H Information Security Policy Compliance and Enforcement Standard'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-24-04
+    sha256: "e9e4cb331c20d03b20b967fe9dbeaa2bdc189bfbe598d0ddb9edcdc6d0c0e47c"
     url: https://www.cdt.ca.gov/policy/technology-letter-24-04/
     format: html
     citation: TL 24-04
@@ -4897,6 +4984,7 @@ sources:
     identity_text: Technology Letter 24-04
     why_relevant: 'Technology Letter 24-04 (issued 10/30/2024 per the index), ''New SIMM 5355-B Server Hardening Standard & SIMM 5330-G Supported Technology Program Agreement'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-24-01
+    sha256: "8379f9ecb8b234a0a38fb1236860bc2a81c331ed4f6e1c1cc9e4f5733b10c9c4"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-01/
     format: html
     citation: TL 24-01
@@ -4909,6 +4997,7 @@ sources:
     identity_text: Technology Letter 24-01
     why_relevant: 'Technology Letter 24-01 (issued 3/21/2024 per the index), ''Generative Artificial Intelligence (GenAI) Inventory, Procurement, and Risk Assessment for Executive Order N-12-23'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-23-01
+    sha256: "8ee2ccc9729fb3a3886cbb4b421f36cbad2888ab9b8eafccf03ba13bef1bf840"
     url: https://www.cdt.ca.gov/technology-letter-23-01/
     format: html
     citation: TL 23-01
@@ -4921,6 +5010,7 @@ sources:
     identity_text: Technology Letter 23-01
     why_relevant: 'Technology Letter 23-01 (issued 5/17/2023 per the index), ''Multi-Factor Authentication Standard'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-22-02
+    sha256: "c01126eea520ca41e8dc6360f70d5df9e9c277314f442bc40dd36bdc818bf5b9"
     url: https://www.cdt.ca.gov/policy/technology-letters/22-02/
     format: html
     citation: TL 22-02
@@ -4933,6 +5023,7 @@ sources:
     identity_text: Technology Letter 22-02
     why_relevant: 'Technology Letter 22-02 (issued 12/16/2023 per the index), ''Internet Access Policy'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-21-02
+    sha256: "7e3d7437e8b3a88cb0951b9a5f0d8cf725ec766ac91b90fae96d5edf8148df55"
     url: https://www.cdt.ca.gov/policy/technology-letters/21-02/
     format: html
     citation: TL 21-02
@@ -4945,6 +5036,7 @@ sources:
     identity_text: Technology Letter 21-02
     why_relevant: 'Technology Letter 21-02 (issued 11/30/2021 per the index), ''Internet Domain Name Policy Update'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-21-01
+    sha256: "f8afa029739b2873e3fb657f8151ec4b32d23221046336172afb8e58d964654d"
     url: https://www.cdt.ca.gov/wp-content/uploads/2021/03/TL-21-01-Project-Cost-Delegation_3.21_2021.pdf
     format: pdf
     citation: TL 21-01
@@ -4957,6 +5049,7 @@ sources:
     identity_text: TL 21-01
     why_relevant: 'Technology Letter 21-01 (issued 3/24/2021 per the index), ''Project Cost Delegation'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-20-01
+    sha256: "35b6a2674c14096fffb2e503f279f8ef1e8c241060e8df240f3724b46b038533"
     url: https://www.cdt.ca.gov/wp-content/uploads/2020/01/TL-20-01.pdf
     format: pdf
     citation: TL 20-01
@@ -4969,6 +5062,7 @@ sources:
     identity_text: TL 20-01
     why_relevant: 'Technology Letter 20-01 (issued 1/29/2020 per the index), ''Workgroup Collaboration Platform'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-19-02
+    sha256: "b6d2accf53187e96a0217791465238c21c7326ca23d35281c3e30fc21256f09c"
     url: https://www.cdt.ca.gov/wp-content/uploads/2019/12/TL-19-02.pdf
     format: pdf
     citation: TL 19-02
@@ -4981,6 +5075,7 @@ sources:
     identity_text: TL 19-02
     why_relevant: 'Technology Letter 19-02 (issued 12/31/2019 per the index), ''Post Evaluation for IT Services Contracts'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-19-01
+    sha256: "562b7f892bfa8d2600064073d7e23e6b962c3d5dd779c3686bdcf09a8994d3cd"
     url: https://www.cdt.ca.gov/wp-content/uploads/2019/03/TL-19-01.pdf
     format: pdf
     citation: TL 19-01
@@ -4993,6 +5088,7 @@ sources:
     identity_text: TL 19-01
     why_relevant: 'Technology Letter 19-01 (issued 3/13/2019 per the index), ''Open Data'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-18-06
+    sha256: "f61a13f0f13de23c4f159aa6f44bec3fe8337eb443f5c6c15140c1b038f227a6"
     url: https://www.cdt.ca.gov/wp-content/uploads/2018/09/TL-18-06.pdf
     format: pdf
     citation: TL 18-06
@@ -5005,6 +5101,7 @@ sources:
     identity_text: TL 18-06
     why_relevant: 'Technology Letter 18-06 (issued 9/19/2018 per the index), ''IT Project Procurement Authority'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-18-05
+    sha256: "b19cf333e4099b0a24617b6e279dbfae091ac719d0a4da9e5b70401cb5f15f06"
     url: https://www.cdt.ca.gov/wp-content/uploads/2021/04/TL-18-05.pdf
     format: pdf
     citation: TL 18-05
@@ -5017,6 +5114,7 @@ sources:
     identity_text: TL 18-05
     why_relevant: 'Technology Letter 18-05 (issued 7/25/2018 per the index), ''Website Accessibility Certification'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-18-04
+    sha256: "069b0b35d948e8f951ef215eacb88183eed54f67eb62c63904103a8d29064e95"
     url: https://www.cdt.ca.gov/wp-content/uploads/2018/07/TL-18-04_2018-0725.pdf
     format: pdf
     citation: TL 18-04
@@ -5029,6 +5127,7 @@ sources:
     identity_text: TL 18-04
     why_relevant: 'Technology Letter 18-04 (issued 7/23/2018 per the index), ''Website Standards'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-18-03
+    sha256: "4ef16f539e24da0baca2fbdea9f6ee34e7fd14a3431b82d433f75629eab54f7c"
     url: https://www.cdt.ca.gov/wp-content/uploads/2018/06/TL18-03RecoveryResponse-June2018-1.pdf
     format: pdf
     citation: TL 18-03
@@ -5041,6 +5140,7 @@ sources:
     identity_text: TL 18-03
     why_relevant: 'Technology Letter 18-03 (issued 6/19/2018 per the index), ''Recovery and Response Plans for Critical Infrastructure'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-18-02
+    sha256: "a3e0345dae811cf7808a0fbf51c54855e93e6fff938c55a8a522b4620604e3b8"
     url: https://www.cdt.ca.gov/wp-content/uploads/2018/05/TL-18-02-OSCodeReuse_2018-0419.pdf
     format: pdf
     citation: TL 18-02
@@ -5053,6 +5153,7 @@ sources:
     identity_text: TL 18-02
     why_relevant: 'Technology Letter 18-02 (issued 5/30/2018 per the index), ''Open Source and Code Reuse'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-17-07
+    sha256: "29cba0496f6f0952b6447fa002042ba7e40f7c956b84f52adabf9bdcae0be0a0"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/12/TL-17-07_2017-1212.pdf
     format: pdf
     citation: TL 17-07
@@ -5065,6 +5166,7 @@ sources:
     identity_text: TL 17-07
     why_relevant: 'Technology Letter 17-07 (issued 12/13/2017 per the index), ''Updated Project Status Report and Independent Project Oversight Report'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-17-04
+    sha256: "0268c74e49ec506723242bdc93622a5ca1cd1d76282849514ad6e75fecef875b"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/04/TL-17-04-IT-Project-Oversight_Final_2017-0410.pdf
     format: pdf
     citation: TL 17-04
@@ -5077,6 +5179,7 @@ sources:
     identity_text: TL 17-04
     why_relevant: 'Technology Letter 17-04 (issued 4/13/2017 per the index), ''Updated IT Project Oversight Framework'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-17-03
+    sha256: "1a907f5ecad0eac2cf3bad725cb6b7301c7493cb68d6e419085e6e4eea01b204"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_17-03_Updates_to_PI_Breach_Notification.pdf
     format: pdf
     citation: TL 17-03
@@ -5089,6 +5192,7 @@ sources:
     identity_text: TL 17-03
     why_relevant: 'Technology Letter 17-03 (issued 3/29/2017 per the index), ''Updates to Personal Information Breach Notification Requirements'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-17-02
+    sha256: "a96154b92b1b49c6cb4281a3757ad8c31baa6c146fae751da689459757c1c2ce"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_17-02_Mobile_Phone_Mobile_Computing_Device.pdf
     format: pdf
     citation: TL 17-02
@@ -5101,6 +5205,7 @@ sources:
     identity_text: TL 17-02
     why_relevant: 'Technology Letter 17-02 (issued 2/17/2017 per the index), ''Mobile Phone & Mobile Computing Device Requests'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-17-01
+    sha256: "2dbadfcfe99a383a354d884df1cd1a80d30be009d6dab692e3ee6f90330e8c44"
     url: https://www.cdt.ca.gov/wp-content/uploads/2023/10/TL_17-01_IT_Cost_Reporting-2-1.pdf
     format: pdf
     citation: TL 17-01
@@ -5113,6 +5218,7 @@ sources:
     identity_text: TL 17-01
     why_relevant: 'Technology Letter 17-01 (issued 1/24/2017 per the index), ''Updated Information Technology Cost Report'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-16-08
+    sha256: "12b24b15286db84556bff5ae6f888624f0623c997202b92bd35b440f4ce24d03"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_16-08_Stage_1_Business_Analysis_Delegation_final_signed.pdf
     format: pdf
     citation: TL 16-08
@@ -5125,6 +5231,7 @@ sources:
     identity_text: TL 16-08
     why_relevant: 'Technology Letter 16-08 (issued 9/12/2016 per the index), ''Project Approval Lifecycle, Stage 1 Business Analysis Delegation'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-16-07
+    sha256: "ec9f9c89e0b8e248e4c196eef0fd8158226df892ab15d91821d58fec865d9387"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_16-07_Project_Approval_Lifecycle_Stage_4.pdf
     format: pdf
     citation: TL 16-07
@@ -5137,6 +5244,7 @@ sources:
     identity_text: TL 16-07
     why_relevant: 'Technology Letter 16-07 (issued 8/29/2016 per the index), ''Project Approval Lifecycle, Stage 4 Project Readiness and Approval'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-16-06
+    sha256: "7a34cf7f0dce70a95cbcc7bf917272b547ca47c7d9ea47941d9d4550079fe34d"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-06.pdf
     format: pdf
     citation: TL 16-06
@@ -5149,6 +5257,7 @@ sources:
     identity_text: TL 16-06
     why_relevant: 'Technology Letter 16-06 (issued 7/8/2016 per the index), ''Updated IT Accessibility Resource Guide'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-16-05
+    sha256: "a1994a1c46b8db4cfe2ae903e8a3593990499d11e731168c772830a037f130f1"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-05-CAL-CSIRS.pdf
     format: pdf
     citation: TL 16-05
@@ -5161,6 +5270,7 @@ sources:
     identity_text: TL 16-05
     why_relevant: 'Technology Letter 16-05 (issued 5/23/2016 per the index), ''California Compliance and Security Incident Reporting System (CAL-CSIRS)'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-16-04
+    sha256: "a27a958f034f17d2479f7af544194e770d29976aff2567d204bca58923e38725"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-04-CA-PMF.pdf
     format: pdf
     citation: TL 16-04
@@ -5173,6 +5283,7 @@ sources:
     identity_text: TL 16-04
     why_relevant: 'Technology Letter 16-04 (issued 5/13/2016 per the index), ''California Project Management Framework'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-16-03
+    sha256: "8893dc1be3faeac3bc1573941dc305ac49574ae36adc5db033f03e25eea402a1"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-03-Updates_to_Personal_Information_Breach_Notification_Requirements.pdf
     format: pdf
     citation: TL 16-03
@@ -5185,6 +5296,7 @@ sources:
     identity_text: TL 16-03
     why_relevant: 'Technology Letter 16-03 (issued 3/8/2016 per the index), ''Updates to Personal Information Breach Notification Requirements'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-16-02
+    sha256: "b64f4ab23decb5a2d5835f18a105dbb152a7717622f910c6e09822c69d959d10"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-16-02-Project_Approval_Lifecycle_Stage_3.pdf
     format: pdf
     citation: TL 16-02
@@ -5197,6 +5309,7 @@ sources:
     identity_text: TL 16-02
     why_relevant: 'Technology Letter 16-02 (issued 1/29/2016 per the index), ''Project Approval Lifecycle, Stage 3 Solution Development'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-15-05
+    sha256: "cc7f838e1988c9a1218c96b5504bb962b938414543eaac5ef42017071c552566"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-15-05-Web-Accessibility.pdf
     format: pdf
     citation: TL 15-05
@@ -5209,6 +5322,7 @@ sources:
     identity_text: TL 15-05
     why_relevant: 'Technology Letter 15-05 (issued 11/30/2015 per the index), ''Web Accessibility'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-15-04
+    sha256: "c3f970a3a12ae4786cb861abbad0e9c065d10cae2d23043fac32ece21f0d427e"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/Final-IT-Cap-Plan-TL-2015.pdf
     format: pdf
     citation: TL 15-04
@@ -5221,6 +5335,7 @@ sources:
     identity_text: TL 15-04
     why_relevant: 'Technology Letter 15-04 (issued 10/31/2015 per the index), ''Conceptually Approved Information Technology (IT) Project Proposals Report'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-15-03
+    sha256: "27384e90c1c8f50266e31de1d8c7a1e063c71f85fabd968cf4e57b002b5be250"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_15_03_POAM_August2015.pdf
     format: pdf
     citation: TL 15-03
@@ -5233,6 +5348,7 @@ sources:
     identity_text: TL 15-03
     why_relevant: 'Technology Letter 15-03 (issued 8/31/2015 per the index), ''Plan of Action and Milestones Standard'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-15-02
+    sha256: "5c69793700d5464a78a1c4b515395fe2f6496e851861df715949f8b47b46ff83"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-15-02-Project-Approval-Lifecycle-Stage-1-and-Stage-2.pdf
     format: pdf
     citation: TL 15-02
@@ -5245,6 +5361,7 @@ sources:
     identity_text: TL 15-02
     why_relevant: 'Technology Letter 15-02 (issued 6/30/2015 per the index), ''Revised Project Approval Lifecycle, Stage 1 Business Analysis and Stage 2 Alternatives Analysis'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-15-01
+    sha256: "59c1cd5c3a1815a187f78fe8db6db8a0adb6cd87622e8fbf425301b28a061ab7"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL-15-01-COTS-SaaS-Project-Approval-Delegation.pdf
     format: pdf
     citation: TL 15-01
@@ -5257,6 +5374,7 @@ sources:
     identity_text: TL 15-01
     why_relevant: 'Technology Letter 15-01 (issued 6/19/2015 per the index), ''COTS/SaaS Project Approval Delegation'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-14-05
+    sha256: "853447777c08f4fc10ea3e1d7864cc2d12a7bf7b54641dddbf482db1fe059ad8"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/IT_Cap_Plan_TL_2014_v2.pdf
     format: pdf
     citation: TL 14-05
@@ -5269,6 +5387,7 @@ sources:
     identity_text: TL 14-05
     why_relevant: 'Technology Letter 14-05 (issued 8/29/2014 per the index), ''Information Technology Capital Plan (ITCP) Instructions'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-13-04
+    sha256: "22fb2a6b63bf0a719c7d5e4f01906cfb3a4fce7a21b6296e14c6072a2627c85d"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL13-04_Update_Info_Security_Policy_SAM_5300.pdf
     format: pdf
     citation: TL 13-04
@@ -5281,6 +5400,7 @@ sources:
     identity_text: TL 13-04
     why_relevant: 'Technology Letter 13-04 (issued 9/17/2013 per the index), ''Update to Information Security Policy'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-17
+    sha256: "baadb8e958f4cbba1a5841d641307937588c48205b73c23dc2d4104a83c45a2b"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/02/TL_12-17_FSR_Improvement_Final_Remediated.pdf
     format: pdf
     citation: TL 12-17
@@ -5293,6 +5413,7 @@ sources:
     identity_text: TL 12-17
     why_relevant: 'Technology Letter 12-17 (issued 12/17/2012 per the index), ''Update to Feasibility Study Report (FSR) Procurement Planning'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-16
+    sha256: "247efbef59adc5a465891cbf629c03b6152c241128f6eef227db4e0516be624b"
     url: https://www.cdt.ca.gov/wp-content/uploads/2021/04/TL_12-16_Incident-Response_Final_Remediated.pdf
     format: pdf
     citation: TL 12-16
@@ -5305,6 +5426,7 @@ sources:
     identity_text: TL 12-16
     why_relevant: 'Technology Letter 12-16 (issued 12/6/2012 per the index), ''Incident Response Requirements'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-15
+    sha256: "257ad913c2808944ef7d9e258497bd1498309071187b677d4ad0cbb9cd746168"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-15_Tape_Encryption_Final_Remediated.pdf
     format: pdf
     citation: TL 12-15
@@ -5317,6 +5439,7 @@ sources:
     identity_text: TL 12-15
     why_relevant: 'Technology Letter 12-15 (issued 12/6/2012 per the index), ''Encrypting Mainframe and Server Tapes'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-11
+    sha256: "6b241038136463971f4dba62a2c76d3e1820b3e207202b1b5dedc6d6709f15bf"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-11_ImprovedSecurityRiskAssessmentTool_Final.pdf
     format: pdf
     citation: TL 12-11
@@ -5329,6 +5452,7 @@ sources:
     identity_text: TL 12-11
     why_relevant: 'Technology Letter 12-11 (issued 8/8/2012 per the index), ''Improved Security Risk Assessment Tool'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-10
+    sha256: "8a9dadc6166929d6e07ac46ba281a0f09a4951860b60deac1a2846564ac0aaff"
     url: https://www.cdt.ca.gov/wp-content/uploads/2021/04/TL-12-10_ComplianceFormsUpdateandRescission_remediated.pdf
     format: pdf
     citation: TL 12-10
@@ -5341,6 +5465,7 @@ sources:
     identity_text: TL 12-10
     why_relevant: 'Technology Letter 12-10 (issued 8/8/2012 per the index), ''Streamline Security Compliance Forms'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-09
+    sha256: "124670c0d1d13cf24ac4eb497c1c5e4ce51c5fabd6acb6593cc82bbe92fed86c"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-9_Updated_Project_Definitions_Final.pdf
     format: pdf
     citation: TL 12-09
@@ -5353,6 +5478,7 @@ sources:
     identity_text: TL 12-09
     why_relevant: 'Technology Letter 12-09 (issued 7/16/2012 per the index), ''Updating SAM Definitions Pertaining to IT Projects: Feasibility Study Report (FSR) Improvement Quick Win'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-08
+    sha256: "c8a03ddd375c393557bbe6de2184c59cdc79e7818018ce9d7296d2aafaf0236c"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_2-8-No_Mandatory_LPA_Update-8-9-12-Final.pdf
     format: pdf
     citation: TL 12-08
@@ -5365,6 +5491,7 @@ sources:
     identity_text: TL 12-08
     why_relevant: 'Technology Letter 12-08 (issued 8/9/2012 per the index), ''Exemption Process When No Mandatory IT Leveraged Procurement Agreement Exists'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-07
+    sha256: "4a3d4bfc75f36e936425a481c0ae3f6c714337a7f3709990021f13a2e2855cd1"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-07_EA_Suspend_Reporting_Final.pdf
     format: pdf
     citation: TL 12-07
@@ -5377,6 +5504,7 @@ sources:
     identity_text: TL 12-07
     why_relevant: 'Technology Letter 12-07 (issued 6/5/2012 per the index), ''Suspend Enterprise Architecture Reporting'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-05
+    sha256: "1d21cb3fbda58633fed3085053f6b725acccafbeddb66fae11b79dc38eceac67"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/10/TL-12-5-Computer-Room-Construct.pdf
     format: pdf
     citation: TL 12-05
@@ -5389,6 +5517,7 @@ sources:
     identity_text: TL 12-5
     why_relevant: 'Technology Letter 12-05 (issued 3/27/2012 per the index), ''Supersede Computer Room Construction Approval Process with New Process'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-04
+    sha256: "e733456d9ed7fd1ea6bcaca24afce830ae6c849795dbc6a3cae25b96898f0a1a"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-4_Supersede_SCIT_Final.pdf
     format: pdf
     citation: TL 12-04
@@ -5401,6 +5530,7 @@ sources:
     identity_text: TL 12-4
     why_relevant: 'Technology Letter 12-04 (issued 3/27/2012 per the index), ''Supersede Service Contracts with Information Technology (SCIT) Components Review with New Process'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-03
+    sha256: "080d39b22bc21e0aa77046ded84974b7860e7c46d4a6f0075507410d7f684696"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-3_Low_Power_Supersession_Final.pdf
     format: pdf
     citation: TL 12-03
@@ -5413,6 +5543,7 @@ sources:
     identity_text: TL 12-3
     why_relevant: 'Technology Letter 12-03 (issued 3/27/2012 per the index), ''Supersede Low Power Computing Directive'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-12-02
+    sha256: "9b60e6548f07fae7fafa0056e42d5254bed7584ececd73240b6d8f5fa18aa851"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_12-2_Data_Center_Asignments_Final_3-8-12.pdf
     format: pdf
     citation: TL 12-02
@@ -5425,6 +5556,7 @@ sources:
     identity_text: TL 12-02
     why_relevant: 'Technology Letter 12-02 (issued 3/8/2012 per the index), ''Data Center Assignments and Consolidation'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-11-04
+    sha256: "b0d1b5e68bf31fe2d3ac054e9ab016977ccb71f797de3e5cbf82883e43cf5a77"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_11-4_Delegated_Cost_Thresholds_12-6-11.pdf
     format: pdf
     citation: TL 11-04
@@ -5437,6 +5569,7 @@ sources:
     identity_text: TL 11-4
     why_relevant: 'Technology Letter 11-04 (issued 12/9/2011 per the index), ''IT Delegated Cost Thresholds'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-11-03
+    sha256: "b113e777b0af343d712a4c9563bd600b7bf2c03d52f32da221ed385efd55d50c"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_11-3_ITAP_Rescission_12-6-11.pdf
     format: pdf
     citation: TL 11-03
@@ -5449,6 +5582,7 @@ sources:
     identity_text: TL 11-3
     why_relevant: 'Technology Letter 11-03 (issued 12/9/2011 per the index), ''Rescission of IT Acquisition Plan Policies'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-11-01
+    sha256: "263486437ebb9a7709a1e30bc045cf6b7881ddb38d39360a6182fbc8810c1f49"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/TL_11-1_Technology_Letter_Establishment_12-6-11.pdf
     format: pdf
     citation: TL 11-01
@@ -5461,6 +5595,7 @@ sources:
     identity_text: TL 11-1
     why_relevant: 'Technology Letter 11-01 (issued 12/9/2011 per the index), ''Establishment of the Technology Letter Format and Process'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-23-03
+    sha256: "bbdbb6f0348a10fda3510649a1c8adb3806ba148bade0e0b76190c271610d848"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-23-03/
     format: html
     citation: TL 23-03
@@ -5473,6 +5608,7 @@ sources:
     identity_text: Technology Letter 23-03
     why_relevant: 'Technology Letter 23-03 (issued 10/31/2023 per the index), ''Update To Cloud Computing Policy – Cloud Smart'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-24-02
+    sha256: "3d59b72a506cd08b00a963c372e8024c95a5ec283cef277a564f007ed9c44747"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-02/
     format: html
     citation: TL 24-02
@@ -5485,6 +5621,7 @@ sources:
     identity_text: Technology Letter 24-02
     why_relevant: 'Technology Letter 24-02 (issued 6/24/2024 per the index), ''IT Training and Employee Development Policy Update'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-24-03
+    sha256: "20043850fd9d0d740e3a153c0a5b3514fe8420728916e7bd695150b09c90b8a4"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-03/
     format: html
     citation: TL 24-03
@@ -5497,6 +5634,7 @@ sources:
     identity_text: Technology Letter 24-03
     why_relevant: 'Technology Letter 24-03 (issued 7/1/2024 per the index), ''Update to Technology Letter (TL) 24-01 Generative Artificial Intelligence (GenAI) Inventory, Procurement, and Risk Assessment for Executive Order N-12-23'': a Technology Letter of the California Department of Technology, marked Active on its Technology Letters index. A Technology Letter announces or changes a SIMM or SAM item.'
   - id: ca-tl-26-02
+    sha256: "5962263cb86bea1fd7da0e20573cf2468402c39279cb101691a2c601fba6c54d"
     url: https://www.cdt.ca.gov/policy/technology-letters/technology-letter-26-02/
     format: html
     citation: TL 26-02
@@ -5513,6 +5651,7 @@ sources:
   # The table 'Information Technology Policy Letters' on https://www.cdt.ca.gov/policy/technology-letters/ (31 rows, ITPL 09-01 to 11-06 on 2026-11-11, status Active, Superseded
   # or Rescinded; the table prints two rows numbered 10-09). Active rows are entries except the two in the left-out record. Titles, dates and urls are as the table printed them.
   - id: ca-itpl-10-09-faqs
+    sha256: "b95b30491e81580fa7907478ced3c982cc6052e1e294e6ca1da6674bf0393e46"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/Power_Management__Shutdown_ITPL_FAQs_03212011_r1.pdf
     format: pdf
     citation: ITPL 10-09 FAQs
@@ -5525,6 +5664,7 @@ sources:
     identity_text: ITPL 10-09
     why_relevant: 'ITPL 10-09 FAQs (issued 3/23/2011 per the table), ''Power Management and Shutdown Frequently Asked Questions'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-11-03
+    sha256: "16a5c1e631ceff8ec1a1930c9e3a7d525f042c7f5c9b4e7561270ea6dd37a775"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_11-03_Formal_Solicitation_Review_Final_03142011.pdf
     format: pdf
     citation: ITPL 11-03
@@ -5537,6 +5677,7 @@ sources:
     identity_text: ITPL 11-03
     why_relevant: 'ITPL 11-03 (issued 3/15/2011 per the table), ''Review of Formal Information Technology Solicitations'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-19
+    sha256: "38855aae53be80ec208a305566708aabcdaeb2d95bc2f7841c4d2d456f1645ee"
     url: https://www.cdt.ca.gov/wp-content/uploads/2019/07/ITPL_10-19_Smartphone_Policy_Final_12302010.pdf
     format: pdf
     citation: ITPL 10-19
@@ -5549,6 +5690,7 @@ sources:
     identity_text: ITPL 10-19
     why_relevant: 'ITPL 10-19 (issued 12/30/2010 per the table), ''Smartphone and Other Mobile Computing Device Security'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-17
+    sha256: "88ab03214039c54dee3c3f9d28b52e3726135c6adfc6a5e68d90c49dfea7ac6d"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-17_IdAM_Policy_Final_12302010.pdf
     format: pdf
     citation: ITPL 10-17
@@ -5561,6 +5703,7 @@ sources:
     identity_text: ITPL 10-17
     why_relevant: 'ITPL 10-17 (issued 12/30/2010 per the table), ''Establishment of the Identify and Access Management (IdAM) Policy'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-16
+    sha256: "474b14f807662a09eaedeee2c7ac0b0d8e010d6cbe17a86e726bf5130a654e36"
     url: https://www.cdt.ca.gov/wp-content/uploads/2021/03/ITPL_10-16_Server_Virtualization_Final.pdf
     format: pdf
     citation: ITPL 10-16
@@ -5573,6 +5716,7 @@ sources:
     identity_text: ITPL 10-16
     why_relevant: 'ITPL 10-16 (issued 12/17/2010 per the table), ''Server Virtualization'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-15
+    sha256: "40b3f1839cdcc48e3a52d185abf878cfe4fdfa7b666bdf1537c1cda85c050b25"
     url: https://www.cdt.ca.gov/wp-content/uploads/2021/04/ITPL_10-15_EA_Standards_and_Procedures_Final_Remediated.pdf
     format: pdf
     citation: ITPL 10-15
@@ -5585,6 +5729,7 @@ sources:
     identity_text: ITPL 10-15
     why_relevant: 'ITPL 10-15 (issued 12/15/2010 per the table), ''Enterprise Architecture Standards and Procedures'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-14
+    sha256: "f45c245e770cf73f06abff7cb83c4a957f2fbed83189dde6ccab5b85484fa0f1"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-14_Data_Centers_10292010_Final.pdf
     format: pdf
     citation: ITPL 10-14
@@ -5597,6 +5742,7 @@ sources:
     identity_text: ITPL 10-14
     why_relevant: 'ITPL 10-14 (issued 10/29/2010 per the table), ''Data Center Assignments and Consolidation'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-13
+    sha256: "6ed2e677c0e5f3a47e3453c6efe6e6d4430d8b3733550707e852a57e49b5808f"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-13_-Security_Filing_Scorecard_Final_10042010-r1.pdf
     format: pdf
     citation: ITPL 10-13
@@ -5609,6 +5755,7 @@ sources:
     identity_text: ITPL 10-13
     why_relevant: 'ITPL 10-13 (issued 10/4/2010 per the table), ''Security Reporting Scorecards'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-10
+    sha256: "519418e4ad9c2d29c3c0aadb658b7e8a005dddbf9f4dcf1a48f82bd37c5d6255"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-10_IT_Accessibility_Final.pdf
     format: pdf
     citation: ITPL 10-10
@@ -5621,6 +5768,7 @@ sources:
     identity_text: ITPL 10-10
     why_relevant: 'ITPL 10-10 (issued 7/26/2010 per the table), ''Information Technology Accessibility'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-09
+    sha256: "1b0bea88ef6019617cdaf3079464931ff902f8c3504c0d1b59f5a0334d62cb15"
     url: https://www.cdt.ca.gov/wp-content/uploads/2018/12/ITPL_10-09_Power_Management_12042018.pdf
     format: pdf
     citation: ITPL 10-09
@@ -5633,6 +5781,7 @@ sources:
     identity_text: ITPL 10-09
     why_relevant: 'ITPL 10-09 (issued 7/21/2010 per the table), ''Power Management and Shutdown'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-08
+    sha256: "b9d67701cbdf2480dd3db7a1d041727d9525c644578cf118b853351cd90ae590"
     url: https://www.cdt.ca.gov/wp-content/uploads/2018/12/ITPL_10-08_Consolidation_Score_Card_12042018.pdf
     format: pdf
     citation: ITPL 10-08
@@ -5645,6 +5794,7 @@ sources:
     identity_text: ITPL 10-08
     why_relevant: 'ITPL 10-08 (issued 7/15/2010 per the table), ''Infrastructure Consolidation Program Progress Report Scorecards'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-07
+    sha256: "5bda769e538536e715fda55b0e4f4c7bae86837079bb3adbf7fa7c2121a68d09"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-07_Project_Status_Reporting_Final_5-27-10.pdf
     format: pdf
     citation: ITPL 10-07
@@ -5657,6 +5807,7 @@ sources:
     identity_text: ITPL 10-07
     why_relevant: 'ITPL 10-07 (issued 5/27/2010 per the table), ''Project Status Reporting and Enterprise Architecture Reporting'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-05
+    sha256: "c0c67675dc7d0d91d766c77dbd71c53bc9af77b5dedd8571567dc582b1dc1006"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL-IT_Project_Oversight_Framework_Final_03242010_97-2003-Web.pdf
     format: pdf
     citation: ITPL 10-05
@@ -5669,6 +5820,7 @@ sources:
     identity_text: ITPL 10-05
     why_relevant: 'ITPL 10-05 (issued 3/25/2010 per the table), ''Information Technology Project Oversight Framework'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-03
+    sha256: "8c1ec2cb9c4fec03fdd300d8d7efe92021ee7e4095afee1c34e839f3ca20e8da"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-03_Telework_and_Remote_Access_r12092010.pdf
     format: pdf
     citation: ITPL 10-03
@@ -5681,6 +5833,7 @@ sources:
     identity_text: ITPL 10-03
     why_relevant: 'ITPL 10-03 (issued 3/2/2010 per the table), ''Telework and Remote Access'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-02
+    sha256: "13c6682ba161770c319c50736f55b64cd6b2930420a01a5cc0c294b89193fce6"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-02_Social_Media.pdf
     format: pdf
     citation: ITPL 10-02
@@ -5693,6 +5846,7 @@ sources:
     identity_text: ITPL 10-02
     why_relevant: 'ITPL 10-02 (issued 2/26/2010 per the table), ''Social Media'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-01
+    sha256: "3446630263fbfb79ee15388a4657ad6c532db9d3bd93c703a3586fab96f974fd"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/IT_Policy_Letter_10-01_Open_Source_Software.pdf
     format: pdf
     citation: ITPL 10-01
@@ -5705,6 +5859,7 @@ sources:
     identity_text: ITPL 10-01
     why_relevant: 'ITPL 10-01 (issued 1/7/2010 per the table), ''Open Source Software Policy'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-09-05
+    sha256: "080f499ae8b9170144fc20e99c17e246e414701788919ce5d97da46a5ed7d893"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_09-05.pdf
     format: pdf
     citation: ITPL 09-05
@@ -5717,6 +5872,7 @@ sources:
     identity_text: ITPL 09-05
     why_relevant: 'ITPL 09-05 (issued 6/26/2009 per the table), ''AIO/CIO Reporting'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-09-03
+    sha256: "d6a285356becb7b05289b6fd7a88ca9a58839d46bf629570ec53585cde281055"
     url: https://www.cdt.ca.gov/wp-content/uploads/2017/02/IT_POLICY_LETTER_09-03.pdf
     format: pdf
     citation: ITPL 09-03
@@ -5749,6 +5905,7 @@ sources:
     recheck: monthly
     why_relevant: 'Executive Order B-34-15 (dated 31 August 2015 in its own text): directs the Governor''s Office of Emergency Services to establish and lead the California Cybersecurity Integration Center and orders its strategy, Cyber Incident Response Team and information sharing. The url is the Governor''s archived press-release page; it prints the order in full under ''The full text of the executive order is below'', and the document is the order from its heading to the attestation. The title is the one the CDT executive orders page prints. Statute now covers the Center (Gov. Code 8586.5, ingested above).'
   - id: ca-eo-n-12-23
+    sha256: "452147a2da574dc3baff12222ceaf05240650242e60e61823d82f58efc54b933"
     url: https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-Signed.pdf
     format: pdf
     citation: Executive Order N-12-23
@@ -5760,6 +5917,7 @@ sources:
     recheck: monthly
     why_relevant: 'Executive Order N-12-23, ''Generative Artificial Intelligence'': an executive order of the Governor of California; the order''s own text is the PDF the Governor''s website publishes.'
   - id: ca-eo-n-5-26
+    sha256: "cfa126bd62f1f4337914ecc8ed0a63aee57b3a27a9852787be5fb91018e047ba"
     url: https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted-AI-Procurement-EO-N-5-26.pdf
     format: pdf
     citation: Executive Order N-5-26
@@ -5771,6 +5929,7 @@ sources:
     recheck: monthly
     why_relevant: 'Executive Order N-5-26, ''Responsible AI Procurement'': an executive order of the Governor of California; the order''s own text is the PDF the Governor''s website publishes.'
   - id: ca-eo-n-6-26
+    sha256: "fde5e4cb45fb56c6f55d973c97a97e01db483ded3597deeb766f6a25e13877ae"
     url: https://www.gov.ca.gov/wp-content/uploads/2026/05/5.21.26-AI-Workforce-EO-FINAL-SIGNED.pdf
     format: pdf
     citation: Executive Order N-6-26
@@ -5782,6 +5941,7 @@ sources:
     recheck: monthly
     why_relevant: 'Executive Order N-6-26, ''AI Workforce Impact'': an executive order of the Governor of California; the order''s own text is the PDF the Governor''s website publishes.'
   - id: ca-eo-n-30-25
+    sha256: "1a3aa4dc9951cb704fb06639743157d04cdec011028caa46c37053e8d72191ba"
     url: https://www.gov.ca.gov/wp-content/uploads/2025/07/2025-7-15.Efficient-and-Effective-Government-EO.FINAL_.signed.pdf
     format: pdf
     citation: Executive Order N-30-25
@@ -5793,6 +5953,7 @@ sources:
     recheck: monthly
     why_relevant: 'Executive Order N-30-25, ''Government Efficiency and Innovation'': an executive order of the Governor of California; the order''s own text is the PDF the Governor''s website publishes.'
   - id: ca-eo-n-9-26
+    sha256: "32d93e137418c8c6899f3fadcdaf13b76f94bfd3686b56085c372b9722324061"
     url: https://www.gov.ca.gov/wp-content/uploads/2026/09/FINAL-N-9-26-AI-EO-9.18.26-SIGNED.pdf
     format: pdf
     citation: Executive Order N-9-26

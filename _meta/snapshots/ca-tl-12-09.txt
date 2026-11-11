@@ -1,0 +1,256 @@
+CALIFORNIA TECHNOLOGY AGENCY                                     NUMBER:          DATE ISSUED:
+
+TECHNOLOGY LETTER                                                TL 12-09         JULY 16, 2012
+SUBJECT:                                                         REFERENCES:
+UPDATING SAM DEFINITIONS PERTAINING TO IT                        SAM Sections 4819.2, 4819.32,
+PROJECTS: FEASIBILITY STUDY REPORT (FSR)                         4819.40
+IMPROVEMENT QUICK WIN
+Updating State Administrative Manual (SAM) definitions to
+improve clarity.
+
+BACKGROUND
+The SAM Information Technology (IT) definitions identify activities subject to state IT Policy, including
+which projects are subject to feasibility study policy. Feasibility studies are a means to determine how
+to solve a business problem and lessen project risk by studying unknowns and planning for project
+success.
+
+PURPOSE AND DESCRIPTION
+The purpose of this Technology Letter (TL) is to announce updates to SAM sections to clarify outdated
+or vague definitions. The clarifications will make it easier for agencies and departments to determine
+whether proposed projects will or will not require a feasibility study and which expenditures are
+considered as new project approvals versus existing approved projects. This update of SAM IT
+definitions provides quick assistance to departments and agencies as part of a larger, ongoing
+Technology Agency effort to optimize IT policy and streamline and improve the IT project lifecycle.
+
+PROCESS
+Effective with the release of this TL, departments and agencies must use the updated SAM definitions,
+which are included as Attachment A.
+
+QUESTIONS
+Questions should be directed to your Technology Agency Program Management Office (PMO) Principal
+or Manager. A listing of PMO Principals and Managers and their departmental assignments can be
+found on the Technology Agency Website located at: Technology_Agency_PMO_Assignments.
+
+SIGNATURE
+
+                   _____/s/____________________________________________________________
+                   Carlos Ramos, Secretary
+                   California Technology Agency
+
+                                                                                                    Page 1
+
+                                                                                   Attachment A
+
+                        STATE ADMINISTRATIVE MANUAL EXCERPTS
+
+[Note: Text to be deleted is shown in strikethrough; text to be added is underlined.]
+
+4819.2 DEFINITIONS
+(Revised 03/12 XX/12)
+
+California Project Management Methodology. The California Project Management
+Methodology (CA-PMM) is a customized, orchestrated project management workflow derived
+from the Project Management Institute‘s process groups. The CA-PMM identifies 500 hours of
+effort to be the threshold for requiring CA-PMM project management disciplines. While smaller
+endeavors are not subject to the CA-PMM, they should still be planned and managed
+effectively.
+
+Information Technology Procurement: Any contract, interagency agreement or purchase
+estimate to conduct any activity listed below, or any combination of these activities is to be
+considered an "information technology procurement."
+
+   1. IT facility preparation, operation and maintenance.
+   2. Development and implementation of application systems or programs, or changes to
+      application systems or programs to meet new or modified needs, or maintenance,
+      including: feasibility study preparation, systems analysis, systems design, purchase and
+      installation of software, programming, conversion of data or programs, documentation of
+      systems and procedures, and project appraisal or assessment.
+   3. Operation of application systems or programs including handling, assembling, or editing
+      of input-output data or media where information technology equipment or information
+      technology personnel are used.
+   4. Services or equipment received through an EDP Master Agreement. SAM Section 5207.
+   5. Acquisition, installation, operation, and maintenance of data processing equipment.
+   6. Other installation management activities including performance measurement, system
+      tuning, and capacity management.
+   7. Employment of personnel in support of, or directly related to, any of the above activities,
+      including: administration, technical services, clerical services, travel, training, and
+      preparation of periodic and special reports.
+   8. Control functions directly related to any of the above activities.
+
+Information Technology Project: An endeavor with a defined beginning and end, undertaken
+to meet unique goals and objectives that encompasses computerized and auxiliary automated
+information handling, including systems design and analysis, conversion of data, computer
+programming, information storage and retrieval, data transmission, requisite system controls,
+simulation, and related interactions between people and machines. A project that encompasses
+computerized and auxiliary automated information handling, including systems design and
+analysis, conversion of data, computer programming, information storage and retrieval, data
+transmission, requisite system controls, and simulation, and related interaction between people
+and machines. Synonymous with IT project.
+
+                                                                                           Page 2
+
+                                                                                     Attachment A
+
+IT Equipment: Information Technology devices used in the processing of data electronically.
+The following are examples of IT equipment:
+   1. Central processing units (m Mainframes) and all related features and peripheral units,
+      including processor storage, console devices, channel devices, etc.;
+   2. Minicomputers, midrange computers, personal computers, laptop, tablets, smart phones
+      and all peripheral units associated with such computers; Minicomputers, midrange
+      computers, microcomputers and personal computers and all peripheral units associated
+      with such computers;
+   3. Special purpose systems including word processing, Optical Character Recognition
+      (OCR), bar code readers/scanners, and photo composition; Special purpose systems
+      including word processing, Magnetic Ink Character Recognition (MICR), Optical
+      Character Recognition (OCR), photo composition, typesetting and electronic
+      bookkeeping;
+   4. Communication devices used for transmission of data such as: modems, data sets,
+      mutiplexors, concentrators, routers, switches, local area networks, private branch
+      exchanges, network control equipment, or microwave or satellite communications
+      systems; and
+   5. Input-output (peripheral) units (off-line or on-line) including: display screens, optical
+      character readers, magnetic tape units, mass storage devices, printers, video display
+      units, data entry devices, plotters, scanners, or any device used as a terminal to a
+      computer and control units for these devices. Input-output (peripheral) units (off-line or
+      on-line) including: terminals, card readers, optical character readers, magnetic tape
+      units, mass storage devices, card punches, printers, computer output to microform
+      converters (COM), video display units, data entry devices, teletypes, teleprinters,
+      plotters, scanners, or any device used as a terminal to a computer and control units for
+      these devices.
+
+Project: An endeavor with a defined beginning and end (usually time-constrained, and often
+constrained by funding or deliverables), undertaken to meet unique goals and objectives,
+typically to bring about beneficial change or added value. (See information technology project.)
+A set of related activities carried out according to a plan and budget to achieve a specific set of
+objectives within a specified time schedule.
+
+Section 4819.32, EXCLUSIONS
+(Revised 03/11 XX/12)
+
+For purposes of the IT Project Submittal and Approval Policy, the following are excluded from
+State Administrative Manual (SAM) Section 4819.3, which defines State information
+management authority and responsibility for IT projects:
+
+   1. The SAM Section 4819.3 shall apply to all State departments, offices, boards,
+      commissions, institutions, and special organizational entities except the State
+      Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the
+      Legislative Counsel Bureau.
+
+                                                                                             Page 3
+
+                                                                               Attachment A
+
+2. Information technology activities directly associated with single-function process-control
+   systems (such as those applied in the controlling of water gates, traffic signals, or
+   environmental systems for buildings), analog data collection devices, or telemetry
+   systems are excluded from SAM Section 4819.3. Process Control, for the purposes of
+   the exclusions from Technology Agency project approval and oversight, includes
+   automated processing systems that monitor and control the operation of a single
+   function system, and that can perform that control in isolation from other systems.
+   Examples may include all components necessary to monitor and control the traffic lights
+   at an intersection, the position of water restriction and diversion components in a water
+   supply and distribution system, or to adjust the behavior of a motorized conveyer in
+   response to changes in load and demand.
+
+   Sensors, telemetry devices, alarm and physical entry controls, functional components
+   such as motors or traffic lights, electronic control processors, and the network system
+   that connects those devices into a single-function process control system meet the
+   process control system exclusion.
+
+   Process control should not be interpreted to include information processing and network
+   systems in which data is gathered, stored, transmitted, processed, analyzed, displayed,
+   printed or reported for purposes other than the direct, automatic monitoring and
+   controlling of a single function system, or for the manual review of the performance and
+   activities of that single system.
+
+   Any component that may be added to any process control system, such as additional
+   sensors, processing capacity or network communications capability, that is necessary for
+   use in conjunction with a current or planned information technology system must be
+   included in all feasibility study reports, plans, proposals and budget estimates for the
+   information technology system.
+
+3. Projects, activities, or acquisition of telecommunications equipment used exclusively for
+   voice communications. Any project where approval and initiation is within the jurisdiction
+   of the Public Safety Communications Office, per California Government Code Section
+   15275-15277, such as public safety telecommunications including microwave, satellite,
+   911, telematics, and radio/rf. Acquisition of telecommunications equipment used
+   exclusively for voice or video communications are excluded from SAM Section 4819.3.
+   This exclusion does not apply to:
+
+       a. Voice systems that include the use of interactive databases.
+
+       b. Videoconferencing systems that include the transmission of sensitive data or the
+          use of interactive databases.
+
+4. Installations of Voice Over Internet Protocol (VOIP) phone systems that are stand alone
+   and do not interface with other systems on the network. Acquisition of electronic
+   typewriters and copiers are excluded if they are NOT:
+
+       a. Capable of general purpose computing; or
+
+       b. Intended to be used as an input/output peripheral device to a computer system.
+
+                                                                                      Page 4
+
+                                                                                   Attachment A
+
+   5. Acquisition of printers, scanners, and copiers. If any of these components are part of a
+      planned information technology system they must be included in all feasibility study
+      reports, plans, proposals and budget estimates for the information technology system.
+      Acquisition of the following consumable items or office equipment necessary to support
+      approved information technology activities and personnel are excluded
+
+           a. Documents (such as standards and procedures manuals, vendor-supplied
+              systems documentation, and educational training manuals);
+
+           b. Equipment supplies (such as printer forms, disk packs, "floppy" disks, compact
+              disks, magnetic tape, and printer ribbons or cartridges); and,
+
+           c. Furniture (such as terminal tables and printer stands).
+
+Questions regarding exclusions should be directed to your Technology Agency Program
+Management Office (PMO) Principal or Manager.
+
+4819.40 EXPENDITURES FOR ONGOING INFORMATION TECHNOLOGY
+(Revised 03/11 XX/12)
+
+Expenditures in support of an ongoing information technology activity will normally not require
+the Technology Agency approval of a new FSR providing:
+
+The activity meets the definition of previously approved project/effort as defined in SAM Section
+4819.2:
+
+Applicable activities include meeting modified needs, improving the effectiveness of the activity,
+program or system maintenance, or extension of existing services to new or additional users
+performing essentially the same functions as those that the project was designated to support. A
+previously approved effort/project must use substantially the same equipment, facilities,
+technical personnel, supplies and software to meet substantially the same requirements or to
+meet normal workload increases.
+
+Qualification of an information technology activity as a previously approved effort requires an
+approved FSR and a completed and submitted PIER in accordance with SAM Section 4819.35.
+
+Note:
+
+   1. "Substantially the same equipment" does not include the addition, upgrade or
+      replacement of a central processing unit (m Mainframe).
+   2. Minor changes in functionality and/or equipment will normally meet the definition of
+      previously approved project/effort. Significant changes in functionality and/or equipment
+      that require budget actions do not meet the definition of previously approved
+      project/effort.
+
+Example: The Department of Justice maintains a system to enable the ownership registration of
+handguns. New legislation requires the addition of rifle registration to the system. This added
+functionality would not require a new FSR.
+
+                                                                                          Page 5
+
+                                                                                   Attachment A
+
+Expenditures in support of activities not meeting the above criteria are considered to be new
+projects, not ongoing information technology activities.
+
+Qualification of an information technology activity as a previously approved effort requires an
+approved FSR AND an approved PIER in accordance with SAM Section 4819.35.
+
+                                                                                           Page 6

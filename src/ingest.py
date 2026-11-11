@@ -930,6 +930,13 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
                 "kept as extracted; form feeds and trailing spaces removed; ligature glyphs such "
                 "as fi and fl written as their letters).")
+    if fmt == "html" and src["jurisdiction"] == "california" \
+            and urllib.parse.urlsplit(src.get("url") or "").hostname == "www.cdt.ca.gov":
+        return ("Text taken from the California Department of Technology's web page for the instrument: "
+                "from the page heading to the end of the page's content, one line per paragraph, heading, "
+                "list item and table row (a table row's cells are joined by ' | '), with markup, the site "
+                "menu, the side navigation, the page's contents list ('On this page'), the print button, "
+                "scripts, the footer and non-breaking spaces removed.")
     if src["doc_type"] == "rule" and src["jurisdiction"] == "california":
         return ("Text taken from the Secretary of State's page for the chapter of the California Code of "
                 "Regulations: the title, division and chapter headings, the chapter's contents list and each "

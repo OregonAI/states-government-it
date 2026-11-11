@@ -1,0 +1,72 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                   NUMBER:                DATE ISSUED:
+
+TECHNOLOGY LETTER                                       TL 18-06              SEPTEMBER 2018
+
+SUBJECT:                                               REFERENCES:
+IT PROJECT PROCUREMENT AUTHORITY                       Government Code Sections § 11145, 11546;
+                                                       Public Contract Code (PCC) Section 12100
+
+                                                       State Administrative Manual (SAM) Sections
+                                                       4819.2, 4819.37, 5200.5 and 5210
+
+                                                       Statewide Information Management Manual
+                                                       (SIMM) Sections 19, 19E, 71A and 71B
+
+                                                       Technology Letters 13-03 and 16-08
+
+BACKGROUND
+
+In 2012, the Legislature passed AB 1498 (Ch. 139, Stats. 2012) to establish the California
+Department of Technology (CDT) within the Government Operations Agency, wherein it stated the
+Legislature’s intent to transition Information Technology (IT) project-related procurement authority
+from the Department of General Services (DGS) to CDT. That transition was reflected in the
+framework of PCC Section 12100 et seq., which provided CDT with procurement responsibility over
+reportable IT projects, as well as responsibility to set all IT policies for the State.
+In 2018, the Legislature passed AB 1817 (Ch. 37, Stats. 2018) which further aligns the IT project
+procurement authority of CDT while maintaining DGS primary authority for the purchase of IT goods
+and services that are related to delegated IT projects, the development of statewide
+contract/leveraged procurement agreements for use, and the delegation of purchasing authority.
+These statutory changes provide CDT authority to procure IT goods and services related to IT
+projects that are not delegated to departments. This policy complements the 2018 statutory change
+by supporting CDT’s critical role and helps focus oversight on the most complex and high risk IT
+projects.
+
+PURPOSE
+
+The purpose of this Technology Letter (TL) is to announce:
+      Public Contract Code (PCC) Section 12100 amended by AB 1817 (Ch 37, Stats. 2018; eff.
+       6/27/18) to provide CDT procurement authority over acquisitions of IT goods and services
+       related to IT projects (as opposed to “reportable IT projects”).
+      Updated SAM Section 4819.2 to modify the definition of “IT Project” to ensure IT Projects and
+       their associated acquisitions are conducted with the appropriate level of oversight based on
+       risk and complexity throughout the entire solution lifecycle. The new definition removes the
+       artificial 500 hour threshold, which does not represent project risk, and shifts the project
+       approval/oversight focus from the IT Project definition to the Project Delegation Criteria.
+       Additionally, the definition of “Reportable Project” was changed to ‘Non-Delegated Project”
+       and the definitions of “Information Technology Reportable Procurement” and “Information
+       Technology Reportable Procurement Over the DGS Delegated Purchasing Authority” were
+       removed to better align project related terminology with procurement terminology.
+      Updated SAM Section 4819.37 to clarify project delegation criteria and provide Agency
+       Information Officers (AIOs) greater discretion in defining IT Projects requiring CDT oversight.
+
+      Updated SAM Section 5200.5 to clarify responsibilities and authority for procurement
+       procedures and the delegation of purchasing authority.
+      New SAM Section 5210 incorporates statutory changes into policy and clarifies CDT’s
+       procurement authority over acquisitions of IT goods and services related to IT projects.
+      Updated SIMM Section 19 “IT Project Oversight Sample Scenarios Job Aide” to clarify how
+       this policy change will impact common IT project approval and procurement scenarios.
+      Updated SIMM Section 19E to change the name of the Project Approval Lifecycle “Reporting
+       Exemption Request” to “Project Delegation Request”.
+      Updated SIMM Section 71A and 71B, Certification of Compliance with IT Policies, to
+       incorporate changes to procurement authority.
+
+QUESTIONS
+
+Questions regarding this Technology Letter should be directed to the Department of Technology,
+Office of Government Affairs at ITPolicy@state.ca.gov
+
+SIGNATURE
+
+                            /s/
+                 Amy Tong, Director
+                 California Department of Technology

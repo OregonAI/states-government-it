@@ -1,0 +1,80 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                         NUMBER:                 DATE ISSUED:
+
+TECHNOLOGY LETTER                                           TL 16-02                JANUARY 2016
+SUBJECT:                                                    REFERENCES:
+PROJECT APPROVAL LIFECYCLE,                                 Government Code Sections 11545, 11546
+STAGE 3 SOLUTION DEVELOPMENT                                State Administrative Manual (SAM)
+                                                            Chapters 4800, 4900 and 5200
+                                                            Statewide Information Management Manual
+                                                            (SIMM) Sections 05A, 10, 19, 28
+                                                            Technology Letter 15-02
+                                                            DGS Broadcast Bulletin P-10-13
+                                                            State Contracting Manual, Volume 3
+
+BACKGROUND
+In June 2015, the California Department of Technology (CDT) released the Stage 1 Business Analysis
+and Stage 2 Alternatives Analysis as part of the reforms to the State’s Information Technology (IT)
+project approval process. As documented in Statewide Information Management Manual (SIMM)
+Section 19, the Project Approval Lifecycle (PAL) adopted a Stage/Gate Model to improve the quality,
+value and likelihood of success for technology projects being undertaken by the State of California.
+The Stage/Gate Model divides PAL into four stages (Stage 1 Business Analysis, Stage 2 Alternatives
+Analysis, Stage 3 Solution Development, and Stage 4 Project Readiness and Approval), each
+separated by a gate approved by CDT. As additional information is collected and refined through the
+lifecycle, the cost estimates, schedules, and business objectives are progressively updated and
+evaluated to determine if the project is still practical and if the investment should continue to move
+forward towards project approval.
+Previous to PAL, IT project procurement activities were conducted after Agencies/state entities
+received formal project approval via a Feasibility Study Report (FSR), many times resulting in
+unanticipated cost increases and schedule delays beyond the established baselines. The reformed
+PAL process integrates procurement activities into the project approval process, providing better
+budget and schedule estimates and helps ensure projects get started with realistic baselines. The PAL
+Stage 3 Solution Development is broken up into the following three parts which encompass the
+procurement deliverables to acquire the recommended solution identified in the Stage 2 Alternatives
+Analysis;
+      Preliminary Assessment - helps gauge the level of effort required for this stage and the
+       Agencies/state entities readiness to conduct procurement activities;
+      Part A - matures mid-level solution requirements into detailed solution requirements and
+       develops a robust Statement of Work and pre-solicitation activities;
+      Part B - creates the solicitation package, evaluation criteria, cost and payment model,
+       negotiation strategy, and staff planning activities.
+These deliverables include a series of questions, data points, compliance checks, and formal “go/no
+go” decision points to assist Agency/state entities ensure all IT reportable procurements best meet the
+project’s business objectives, adhere to state policies and regulations and yield the highest probability
+of success. This structured and guided approach to conducting IT procurement provides clarification to
+existing laws, policy, government codes, public contract codes, and or any other governing material and
+encourages collaboration across the project team, critical partners and various stakeholders.
+The remainder of the Project Approval Lifecycle, Stage 4 Project Readiness and Approval, will be
+released in June 2016.
+
+                                                                                                   Page 1
+
+PURPOSE
+The purpose of this Technology Letter (TL) is to announce:
+      State Administrative Manual (SAM) Chapters 4800, 4900 and 5200 have been updated to
+       incorporate Stage 3 Solution Development.
+      SIMM Section 19C, which includes instructions for the preparation and submission of the Stage
+       3 Solution Development, including Gate 3 Collaborative Review Guidelines.
+      Revised SIMM Section 19B (Stage 2 Alternative Analysis Preparation Instructions) to include
+       Stage 3 Solution Development Preliminary Assessment Preparation Instructions.
+      Revised SIMM Section 19 Frequently Asked Questions to include Stage 3 Solution
+       Development question and answers.
+      Revised SIMM Section 19F Financial Analysis Worksheets (FAWs) to correct formulas and
+       fields.
+      Revised SIMM Section 19G to separate the Project Approval Executive Transmittal and
+       Preliminary Assessment Transmittal and align to Stage 3 Solution Development.
+      Revised SIMM Section 05A to reflect the PAL stage exit dates based on when a project is
+       anticipated to need funding and its procurement reporting requirements.
+      Revised SIMM Section 10 to include Stage 3 Solution Development within the process flow.
+      Expiration of SIMM Section 28 (Formal Information Technology Solicitation Review).
+The link to SIMM is as follows: http://www.cio.ca.gov/Government/IT_Policy/SIMM.html.
+
+QUESTIONS
+Questions should be directed to your CDT IT Project Oversight Division Manager; assignments can be
+found at: http://www.cio.ca.gov/Contact_Us/staff_assignments.asp
+
+SIGNATURE
+                  ____/s/_____________________________________________________________
+                  Carlos Ramos, Director
+                  California Department of Technology
+
+                                                                                              Page 2

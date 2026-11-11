@@ -1,0 +1,66 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                          NUMBER:               DATE ISSUED:
+
+TECHNOLOGY LETTER                                            TL 15-02              JUNE 2015
+SUBJECT:                                                     REFERENCES:
+REVISED PROJECT APPROVAL LIFECYCLE,                          Government Code Sections 11545, 11546
+STAGE 1 BUSINESS ANALYSIS AND STAGE 2                        State Administrative Manual (SAM)
+ALTERNATIVES ANALYSIS                                        Sections 4800, 4900 and 5211
+                                                             Statewide Information Management Manual
+                                                             (SIMM) Sections 05A, 10, 17, 19, 20, 30,
+                                                             40, 50
+                                                             Technology Letter 13-02, 14-02, 14-05,
+                                                             14-07
+
+BACKGROUND
+In December 2014, the California Department of Technology (Department of Technology) released
+drafts of the Stage 1 Business Analysis and Stage 2 Alternatives Analysis as part of the Information
+Technology (IT) project approval process which replaces the Feasibility Study Report. As documented
+in the Statewide Information Management Manual (SIMM) Section 19, the Project Approval Lifecycle
+adopted a Stage/Gate Model to improve the quality, value and likelihood of success for IT projects
+undertaken by the State of California. The Stage/Gate Model divides the Project Approval Lifecycle into
+four stages (Stage 1 Business Analysis, Stage 2 Alternatives Analysis, Stage 3 Solution Development
+and Stage 4 Project Readiness and Approval) each separated by gates of approval by the Department
+of Technology.
+Since the initial draft release, the Department of Technology has made refinements to the Stage 1
+Business Analysis and Stage 2 Alternatives Analysis as a result of information learned from Project
+Approval Lifecycle pilot projects and input from stakeholders. The updated set of instructions,
+information and tools related to Stage 1 Business Analysis and Stage 2 Alternatives Analysis are
+effective on July 1, 2015.
+The remainder of the Project Approval Lifecycle, Stage 3 Solution Development and Stage 4 Project
+Readiness and Approval, will be released in October 2015 and will become effective in early 2016.
+
+PURPOSE
+The purpose of this Technology Letter (TL) is to announce:
+      State Administrative Manual (SAM) Chapters 4800, 4900 and 5200 have been updated to
+       replace the Feasibility Study Report (FSR) with the Project Approval Lifecycle and Stage/Gate
+       deliverables.
+      Revised SIMM Section 05A which includes the Project Approval Lifecycle stage exit dates for
+       those proposals and projects anticipated to need funding by a specific fiscal year.
+      Revised SIMM Section 19A which includes the InfoPath template, Gate 1 Evaluation Scorecard
+       and updated instructions for the preparation and submission of the Stage 1 Business Analysis.
+      Revised SIMM Section 19B which includes the InfoPath template, Gate 2 Evaluation Scorecard
+       and updated instructions for the preparation and submission of the Stage 2 Alternatives
+       Analysis, which replaces the FSR effective July 1, 2015.
+      Revised SIMM Section 19F which includes the template and updated instructions for the
+       preparation and submission of Financial Analysis Worksheets, which replaces the Economic
+       Analysis Worksheets effective July 1, 2015.
+      Revised SIMM Section 19G which includes the updated Project Approval Executive Transmittal
+
+                                                                                                  Page 1
+
+       to be used for all stages.
+      Revised SIMM Section 17 (CA-PMM) to include the updated Organizational Project
+       Management Risk Assessment.
+The link to SIMM sections is as follows: http://www.cio.ca.gov/Government/IT_Policy/SIMM.html.
+
+QUESTIONS
+Questions should be directed to your Department of Technology Information Technology Project
+Oversight Division (ITPOD) Manager; assignments can be found at:
+http://www.cio.ca.gov/Contact_Us/staff_assignments.html
+
+SIGNATURE
+                  _____/s/____________________________________________________________
+                  Carlos Ramos, Director
+                  California Department of Technology
+
+                                                                                               Page 2

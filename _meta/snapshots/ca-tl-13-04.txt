@@ -1,0 +1,45 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                            NUMBER:         DATE ISSUED:
+
+TECHNOLOGY LETTER                                              TL 13-04        SEPTEMBER 2013
+SUBJECT:                                                       REFERENCES:
+REVISION TO THE STATE ADMINISTRATIVE MANUAL                    SAM Chapter 5300
+(SAM) CHAPTER 5300                                             Government Code 11549
+Update Information Security Policy
+
+BACKGROUND
+Over the past several years, updates to the State Administration Manual (SAM) Chapter 5300
+have been topic and section specific. As a result, state entities have found SAM Chapter 5300
+to be confusing as they attempt to apply statewide security and privacy policy in their unique
+business and technological needs. In addition, a long standing state policy that resides in a
+separate Chapter of SAM, SAM section 5100, requires state entities to use the American
+National Standards Institute (ANSI) and the Federal Information Processing Standards (FIPS) in
+their information management planning and operations. Due to the confusing nature of SAM
+Chapter 5300 and the understanding of SAM section 5100, state entities have not suitably
+linked the required use of ANSI and FIPS to their efforts in protecting the state’s critical
+informational assets.
+
+PURPOSE AND DESCRIPTION
+The purpose of this Technology Letter (TL) is to announce the rewrite of SAM Chapter 5300.
+The rewrite of SAM Chapter 5300:
+      Aligns SAM Chapter 5300 with National Association of State Chief Information Officers’
+       (NASCIO) “Core Services Taxonomy for State IT Security Programs”.
+      Provides a clear linkage from SAM to ANSI, FIPS, and the National Institute of
+       Standards and Technology (NIST) standards so state entities can easily understand and
+       navigate between higher level policy and the corresponding detailed standards and
+       implementation control framework.
+      Directs state entities as to what is required to secure the confidentiality, integrity, and
+       availability of the state’s wide ranging information assets in a clear, unambiguous,
+       comprehensive and contemporary manner.
+
+PROCESS
+The new SAM Chapter 5300 replaces current SAM Chapter 5300 in its entirety, contains no new
+requirements, and is effective with the release of this TL.
+
+QUESTIONS
+Questions should be directed to Michele Robinson at the California Information Security Office
+at (916) 445-5239 or Security@state.ca.gov.
+
+SIGNATURE
+               ______________/s/_____________________________________________
+               Carlos Ramos, Director
+               California Department of Technology

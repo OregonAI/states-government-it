@@ -1,0 +1,68 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                          NUMBER:                  DATE ISSUED:
+
+                                                             TL 16-08                 SEPTEMBER
+TECHNOLOGY LETTER                                                                       2016
+
+SUBJECT:                                                     REFERENCES:
+PROJECT APPROVAL LIFECYCLE,                                  Government Code Sections 11545, 11546
+STAGE 1 BUSINESS ANALYSIS DELEGATION                         State Administrative Manual (SAM)
+                                                             Sections 4815 and 4819.2
+                                                             Statewide Information Management Manual
+                                                             (SIMM) Section 19A
+                                                             Technology Letters 15-02, 16-02 and 16-07
+
+BACKGROUND
+The California Department of Technology (CDT) released the Project Approval Lifecycle (PAL) Stage 1
+Business Analysis in June 2015 as part of the reforms to the state’s Information Technology (IT) project
+approval process. As documented in Statewide Information Management Manual (SIMM) Section 19A,
+the Stage 1 Business Analysis is the first stage of the PAL and provides a basis for project
+management, program management, executive management, and state-level control agencies to
+understand and agree on business problems or opportunities, and the objectives to address them.
+Additionally, the Stage 1 Business Analyses are used to generate the quarterly Conceptually Approved
+IT Project Proposals Report which represents the Executive Branch's plan for IT investments in support
+of the California IT Strategic Plan.
+Within state government, Agency-affiliated State Entities are governed by one of the state’s umbrella
+Agencies which support the appropriate application of checks and balances. These Agencies have a
+strong understanding of the constituent and program needs of their Agency-affiliated State Entities. In
+an effort to promote collaboration and sharing of ideas, the Department of Technology has delegated
+the CDT approval of all Stage 1 Business Analyses prepared by Agency-affiliated State Entitles to their
+governing Agencies. The CDT wishes to empower Agencies to serve as an independent and objective
+body for Stage 1 Business Analysis review and approval, enabling Agencies to make their own
+determinations on departmental business problems considered for IT solutions. With this delegation,
+the CDT expects Agency Chief Information Officers (AIOs) to confirm that business problems identified
+through this process can and should be solved. AIOs are also responsible for ensuring that the content
+of approved Stage 1 Business Analyses are clear and complete enough to contribute to the necessary
+work that will take place in subsequent stages of the PAL.
+
+PURPOSE
+The purpose of this Technology Letter (TL) is to announce:
+   •   Agency Chief Information Officers (AIOs) have been delegated the CDT approval authority for
+       Stage 1 Business Analyses for their own Agencies and those prepared by Agency-affiliated
+       State Entities.
+   •   Stage 1 Business Analyses prepared by Non-affiliated State Entities will continue to be
+       approved by the CDT prior to conducting and submitting a Stage 2 Alternatives Analysis.
+   •   Revised SAM Section 4819.2 to modify the definition of “Agency” and the addition of new
+       definitions including “Agency-affiliated State Entities” and “Non-affiliated State Entities”.
+   •   Revised SAM Section 4815 and SIMM Section 19A to include updated language regarding the
+       delegation of Stage 1 Business Analysis approval and new transmittal requirements.
+
+                                                                                                       Page 1
+
+   •   Agencies are required to provide a portfolio report of all Agency approved Stage 1 Business
+       Analyses to CDT and the Department of Finance on a monthly basis.
+   •   AIOs may recommend independent CDT oversight for delegated projects as needed (e.g.
+       diminished project performance, significant deviations from approved baselines, etc.)
+   The link to SIMM is as follows: http://www.cio.ca.gov/Government/IT_Policy/SIMM.html.
+
+QUESTIONS
+Questions should be directed to your CDT IT Project Oversight Division Manager; assignments can be
+found at: http://www.cio.ca.gov/Contact_Us/staff_assignments.asp
+
+SIGNATURE
+                  _____________/s/_____________________________________
+                  Amy Tong, Director
+                  California Department of Technology
+
+                                                                                               Page 2
+
+Page 3

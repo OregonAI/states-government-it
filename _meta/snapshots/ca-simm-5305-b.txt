@@ -1,0 +1,63 @@
+SIMM 5305-B: Risk Register and Plan of Action and Milestones Instructions
+
+Revision history
+Revision | Date of Release | Owner | Summary of Changes
+Initial Release | August 2015 | California Office of Information Security (CISO) | New
+Minor Update | January 2018 | Office of Information Security (OIS) | Office name change
+Minor Update | March 2019 | OIS | Instruction clarification; Added confidential
+Minor Update | March 2022 | OIS | Instruction update
+Introduction
+Each state entity is responsible for establishing an Information Security Program to effectively manage risk. The state entity’s information security program shall incorporate an Information Security Program Plan (ISPP) to provide for the proper use and protection of its information assets, including a Risk Register and Plan of Action and Milestones (POAM) process for addressing information security program deficiencies.
+POAMs are submitted to the California Department of Technology, Office of Information Security (OIS) to create a statewide perspective and status of a state entity’s efforts to achieve full compliance. POAMs are updated throughout program maturation through compliance self-reporting, and in response to risk assessments and audit findings, incidents, and oversight reviews. The standardized format will provide Agencies/state entities with a standardized tool and provide for consistency in reporting to OIS. Per State Administrative Manual (SAM) 5300.2, the updated POAM is due on the last business day of January, April, July, and October.
+Instructions
+Instructions must be adhered to exactly as specified. The POAM tool is a Microsoft® Excel workbook with several supporting hidden worksheets. The tool was designed to input only the necessary information required to comply with SAM Section 5305.1 and support the OIS mission. Agencies/state entities may utilize an internal document that captures a more elaborate POAM format; however, please transfer the requested data elements to the POAM.
+A working version of the POAM (SIMM 5305-C) is available on the Department of Technology’s Office of Information Security website within the Statewide Information Management Manual (SIMM) Forms page. The Agency/state entity must submit the POAM as an Excel file using the file name format described in step 20 below.
+Step-by-step instructions
+1. Open the Excel workbook.
+2. POAM Page 1, Row 3: Select your organization acronym in cell C3, select your organization code in cell F3, and the Agency that your entity reports to in cell I3. Enter the current date on cell K3.
+3. Instructions Tab: Provides an example of a correct POAM entry.
+4. Overview of Domains Tab: Provides a sample of domains, SAM, and NIST references you may use while completing POAM.
+5. Risk Rating Chart: Provides a sample of the calculations used in determining risk ratings.
+6. POAM Page 2, Column B: Select one of the NIST families within the drop-down menu that best describes the security audit finding, compliance deficiency, security risk, incident remediation activity, or other gap (henceforth referred to as “risk”). See the “Overview of Domains” tab for list of all options.
+7. POAM Page 2, Column C: Select one of the SAM sections, Sub-sections, or SIMMs from the drop-down. Your selection in Column C must align with your section in Column B. See the “Overview of Domains” tab for list of all options.
+8. POAM Page 2, Column D: Briefly describe the nature and characteristics of the risk.
+9. POAM Page 2 Column E: Briefly describe the information asset(s) that may be impacted by this risk. An information asset can be a system, a data element, a person, a facility, a record, a file, a piece of paper, hardware, software, etc. See the definition for this and other terms in SAM Section 5300.4.
+10. POAM Page 2, Column F: Select from drop-down the source activity (how the risk was initially identified). There is no “Other” selection as an option.
+11. POAM Page 2, Column G: Select from drop-down a risk response. Please note, compensating controls are a type of (interim) mitigation that may indicate a different response for long-term.
+12. POAM Page 2, Column H: Briefly describe any short or long-term compensating controls installed.
+13. POAM Page 2, Column I: Briefly describe the high-level steps the Agency/state entity will take to address the risk, including short and longer-term plans. If necessary, a separate attachment may be submitted to the OIS. If a finding is open for more than 1 year without a budget action submitted to Dept. of Finance, please provide explanation. If the risk has been accepted, please list the last date of review for the risk in this field.
+14. POAM Page 2, Column J: Identify if the service is shared and requires collaboration by selecting one of the options (if applicable).
+15. POAM Page 2, Column K: Identify the likelihood the threat will occur, and the finding will be exploited. See the Risk Rating Chart on Tab 5.
+16. POAM Page 2, Column L: Identify the impact if the finding is exploited. See the Risk Rating Chart on Tab 5.
+17. POAM Page 2, Column M: Not available for data entry. Calculates a risk rating based on Threat Likelihood and Event Impact ratings as described in Special Publication 800-30 (Very Low, Low, Moderate, High, or Very High).
+18. POAM Page 2, Column N: Indicate when the risk was first identified. Enter date as MM/DD/YYYY format.
+19. POAM Page 2, Column O: Indicate the start date to address the risk. Enter date as MM/DD/YYYY format.
+20. POAM Page 2, Column P: Indicate the projected completion date. Enter date as MM/DD/YYYY format. This date should not change.
+21. POAM Page 2, Column Q: Indicate the actual completion date. Enter date as MM/DD/YYYY format. This field is only required if the status in Column P is reported as “Completed.”
+22. POAM Page 2, Column R: Not available for data entry; internal use only. Will be blank until Projected Completion Date is entered.
+23. POAM Page 2, Column S: Not available for data entry; internal use only. Will be blank until Actual Completion Date is entered.
+24. POAM Page 2, Column T: Identify the person(s) responsible for this risk, including name, title and/or classification. By policy, the state entity head (director) is responsible for all risks, but for purposes of the POAM, please indicate who will “own” the risk.
+25. POAM Page 2, Column U: Select from one of the three (3) status types. NOTE: Once a risk is reported as “Completed,” it must remain on the tool.
+26. POAM Page 2, Column V: Select one of the constraints to remediating this risk.
+27. POAM Page 2, Column W: Enter a projected cost for the remediation. If the finding is from an ISA, the costs may be in your ISA report. For all other findings, please enter your best estimate. Include personnel hours, vendor and consultant costs, hardware and software, and any other related costs in your analysis.
+28. POAM Page 2, Column X: If a BCP is being requested to address the risk finding, please select one of the twelve (12) status options (if applicable).
+29. POAM Page 2, Column Y: Enter the BCP funding amount requested (if applicable).
+30. POAM Page 2, Column Z: Enter the BCP Governor’s Budget Year (if applicable).
+31. POAM Page 2, Column AA: Enter the BCP title (if applicable).
+32. POAM Page 2, Column AB: Enter the BCP deposition or amount received (if applicable).
+33. POAM Page 1: After you have entered all of your entity’s risk findings, return to Page 1. Locate the current quarter for your reporting period (Rows 15-37). Enter the data from that quarter in cells H8 and I8. H8 will be the sum of the 3 months under the ADDED row. I8 will be the sum of the 3 months under the CLOSED row.
+34. POAM Page 1: Obtain signatures.
+35. File Name: Prior to sending your completed POAM to the OIS, rename the file using the following format: ooooPOAMmmddyyyy.xlsx. Replacing “oooo” with organization code, as identified in Uniform Codes Manual.
+Example
+• 0560POAM01312016.xlsx
+• 0560POAM01312016.xlsx: All four digits of your Org code
+• 0560POAM01312016.xlsx: Month, day and year
+Information contained in the POAM is confidential, securely send the entire form and any attachments (as referenced in Steps 13 and 19 above) to OIS using the Secure Automated File Exchange (SAFE) system.
+If you need assistance obtaining a SAFE account for your state entity, please contact our office for assistance at security@state.ca.gov.
+Level of detail and frequency
+The POAM is to be used to report remediation plan detail related to a security audit finding, compliance deficiency, security risk, incident remediation activity, or other gap.
+As configured, the tool has sufficient rows to report 370 risks. Wherever possible, aggregate related risks. For example, if an entity is out of compliance with a particular SAM policy requirement that is related to personal computers (PC), and the entity has several dozen PCs that are out of compliance, this risk is reported on only one row. If a state entity expects to report in excess of 370 risks, please contact the OIS for further discussions prior to reporting at security@state.ca.gov.
+Unless otherwise directed, each state entity shall, at a minimum, provide quarterly updates on progress toward completion of the plans. Quarterly submissions are due on the last business day of the following months; January, April, July, and October. The quarterly due dates for all OIS compliance documents are outlined in the Information Security Compliance Reporting Schedule (SIMM 5330-C).
+Questions
+Questions regarding the implementation of SIMM 5305-C may be sent to:
+California Department of Technology Office of Information Security security@state.ca.gov

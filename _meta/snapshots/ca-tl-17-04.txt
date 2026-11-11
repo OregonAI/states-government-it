@@ -1,0 +1,65 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                          NUMBER:                 DATE ISSUED:
+
+TECHNOLOGY LETTER                                            TL 17-04                APRIL 2017
+
+SUBJECT:                                                     REFERENCES:
+Updated IT Project Oversight Framework                       Government Code Sections 11545 &
+                                                             11546
+                                                             Statewide Information Management Manual
+                                                             (SIMM) Sections 17, 30A, 45 and 45A
+                                                             State Administrative Manual (SAM) Sections
+                                                              4819.2, 4819.36, 4940, 4940.1, 4940.2,
+                                                              4940.3, 4941, 4944 and 4947
+
+BACKGROUND
+Pursuant to Government Code Sections 11545 and 11546, the California Department of Technology
+(CDT) has the responsibility and authority to establish and enforce state Information Technology (IT)
+policies regarding the approval and oversight of IT projects. CDT created the IT Project Oversight
+Framework, SIMM Section 45, to establish statewide standards and requirements for IT project
+management and oversight. In May 2016, CDT released the California Project Management
+Framework (CA-PMF), SIMM Section 17, to provide further guidance on project management and
+project delivery practices, including resources, tools and templates.
+As innovation continues to evolve the way IT projects are delivered, the state’s oversight practices
+must advance to ensure successful project outcomes. Consequently, the IT Project Oversight
+Framework has been updated to align with current oversight requirements with emphasis on risk
+identification and reporting. Additionally, with the establishment of the CA-PMF, many oversight
+related instructions and templates were integrated into the IT Project Oversight Framework to better
+align project management and oversight functions.
+
+PURPOSE
+The purpose of this Technology Letter (TL) is to announce:
+  •   Revised SAM Section 4819.36 to align with current oversight practices, including clarification
+      that Independent Project Oversight Reports (IPOR) will be developed monthly for projects
+      classified by CDT as medium or high criticality. Project Status Reports must be developed
+      monthly for projects classified by CDT as medium or high criticality and quarterly for low
+      criticality.
+  •   Revised SAM Section 4940 to clarify that IT Project Oversight is required to begin on the
+      project start date and continue through the duration of the project.
+  •   Added SAM Section 4940.1 to identify Independent Project Oversight Report requirements.
+  •   Added SAM Section 4940.2 to identify Corrective Action Plan requirements.
+  •   Added SAM Section 4940.3 to identify Independent Verification and Validation (IV&V) definition
+      and requirements.
+  •   Retired SAM Sections 4941 and 4944, the information contained in these sections have been
+      consolidated into SAM Section 4940.
+  •   Revised SAM Section 4947 to consolidate all requirements for completing a Post-
+      Implementation Evaluation Report into a single section.
+  •   Revised SIMM Section 30A, Special Project Report Executive Approval Transmittal, to include
+      language for Agencies/state entities to certify that they have considered the cost benefits
+      analysis associated with proposed project changes.
+
+  •   Revised SIMM Section 45, IT Project Oversight Framework, to align with current oversight
+      practices, include escalation protocols, align with the CA-PMF and clarify project status
+      reporting requirements.
+
+  •   Added SIMM Section 45A, IV&V Statement of Work (SOW) Template, to standardize the level of
+      service provided by IV&V vendors.
+
+QUESTIONS
+Questions should be directed to your CDT IT Project Oversight Manager; assignments can be found
+at: http://www.cio.ca.gov/Contact_Us/staff_assignments.asp
+
+SIGNATURE
+
+                 ______________________/s/_____________________________
+                  Amy Tong, Director
+                  California Department of Technology

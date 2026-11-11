@@ -1,0 +1,568 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: california
+id: ca-simm-15a
+title: Project Cost Delegation Instructions
+doc_type: policy
+citation: SIMM 15A
+authority_level: ''
+issuing_body: California Department of Technology
+source_url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-15A-Project-Cost-Delegation-Instruction.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 401d0a8bb20bbc7480b3b8739f3ba924c4b5d2e3b91cb05263049a120dd9fb48
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Project Cost Delegation Instructions (SIMM 15A)
+
+## At a glance
+
+SIMM 15A, Project Cost Delegation Instructions: an item of the SIMM's policies, the California Department of Technology's library of statewide IT policies, standards, instructions, forms and templates.
+
+## Full text
+
+                   State of California
+
+              Department of Technology
+
+   Project Cost Delegation Accreditation Instructions
+
+Statewide Information Management Manual – Section 15A
+
+                     August 2025
+
+                            Revision History
+
+Revision          Date of Release   Owner                 Summary of
+                                                          Changes
+Initial Release   March 2021        Office of Statewide   New
+                                    Project Delivery
+Minor Revisions   August 2025       Office of Statewide   Revised outdated
+                                    Project Delivery      material
+
+                                                    Table of Contents
+
+Introduction and Background ....................................................................................................... 4
+Project Cost Delegation Tiers and Dollar Values ......................................................................... 4
+Project Cost Delegation Accreditation Process ............................................................................ 5
+Relationship to Project Delegation ............................................................................................... 5
+Relationship to IT Purchasing Authority ....................................................................................... 5
+Project Cost Delegation Accreditation Template .......................................................................... 5
+   Section I - Agency/State Entity Profile ...................................................................................... 5
+   Section II - Agency/State Entity Portfolio Overview .................................................................. 6
+   Section III - Agency/State Entity Historical Projects .................................................................. 7
+   Section IV - Agency/State Entity Competency and Maturity...................................................... 8
+   Section V - Attachments ........................................................................................................ 11
+Submission................................................................................................................................ 12
+
+California Department of Technology                                                                                                    3
+SIMM Section 15 Project Cost                                                                                                 August 2025
+Delegation 15A Accreditation
+Instructions
+
+Introduction and Background
+In an effort to increase autonomy and promote high quality and successful IT projects, the
+California Department of Technology (CDT) has defined processes and procedures to
+determine the Project Cost Delegation for Agency/state entities IT project reporting.
+
+Pursuant to Government Code (GC) Sections 11545 and 11546, the CDT has the authority and
+responsibility to oversee and assign an IT Project Cost Delegation to Agencies/state entities.
+State Administrative Manual (SAM) 4819.39 describes and outlines the authority that the CDT
+has to assign project cost thresholds for oversight and reporting purposes. Each Agency/state
+entity is designated by the CDT a minimum total project development cost. Each Agency/state
+entity may request a change by submitting a Project Cost Delegation Accreditation. The Project
+Cost Delegation Accreditation template should be completed from the perspective of the
+Agency/state entity that is requesting a change.
+
+Evaluating your Agency’s/state entity’s IT project maturity is important when completing the
+Project Cost Delegation Accreditation. There are various maturity models available and the
+Project Management Institute (PMI) has published the Organizational Project Management
+Maturity Model (OPM3®), which may be leveraged to assess an Agency’s/state entity’s project
+management maturity.
+
+Project Cost Delegation Tiers and Dollar Values
+Each Agency/state entity that has an existing IT Project Cost Delegation may request a change.
+The current dollar value that an Agency/state entity has will not change unless a Project Cost
+Delegation Accreditation is submitted. Once received and reviewed, the CDT will determine if an
+adjustment is warranted.
+
+The current Project Cost Delegation levels for Agencies/state entities are published on the CDT
+website in Statewide Information Management Manual (SIMM) 15 at: Office of Statewide Project
+and Delivery (OSPD) Project Approvals and Oversight Staff Assignments.
+
+The new Project Cost Delegation framework is comprised of four tiers. Table 1 below shows
+each tier and corresponding dollar value. The tiers are predetermined and the request must
+include the desired tier and dollar value.
+
+              Project Cost Delegation Tier       Project Cost Delegation Dollar
+                                                 Value
+              Tier 11                            $500,000
+              Tier 2                             $1,000,000
+              Tier 3                             $2,000,000
+              Tier 4                             $5,000,000
+
+Table 1. Project Cost Delegation Tier to Dollar Value Mapping
+
+California Department of Technology                                                             4
+SIMM Section 15 Project Cost                                                          August 2025
+Delegation 15A Accreditation
+Instructions
+
+Project Cost Delegation Accreditation Process
+Download and complete the Project Cost Delegation Accreditation template in SIMM 15. Once
+all sections of the accreditation have been completed, submit to the CDT using the instructions
+found in the submission section of this document. The complete package will be reviewed by
+the CDT, which may request meetings and/or supplemental information, working in a
+collaborative manner, to determine the Agency’s/state entity’s IT project management maturity
+and eligibility for a change in their Project Cost Delegation. The estimated timeline to a decision
+is approximately 30 business days; however, this will depend on a variety of factors including,
+but not limited to the quality of the submission, if supplemental information is needed, the time
+taken for the Agency/state entity to send documentation, and consultation with and review of
+Project Cost Delegation by DGS.
+
+The accreditation of each Agency/state entity Project Cost Delegation is intended to facilitate
+autonomy while appropriately assessing risk based on its maturity level and overall competency
+for managing IT projects/efforts. The Project Cost Delegation Accreditation along with reviewing
+project outcomes, overall maturity and competency, in addition to documentation and
+interactions will all be used to determine the appropriate Project Cost Delegation.
+
+Relationship to Project Delegation
+Project Cost Delegation is established at the Agency/state entity level, and is separate and
+distinct from the delegation of any specific IT project. SAM 4819.37 identifies the criteria and
+authority that the CDT has for IT project delegation.
+
+If an Agency’s/state entity’s request to change its Project Cost Delegation tier is approved, it will
+not affect the delegation status of any projects currently in process (delegated or non-
+delegated).
+
+Relationship to IT Purchasing Authority
+The delegation of IT project authority directly impacts IT project procurement authority.
+Therefore, the CDT will consult with the Department of General Services (DGS) before
+increasing the Project Cost Delegation tier of any Agency/State entity. For any Agency/state
+entity receiving a Project Cost Delegation tier increase, CDT will prepare a tier assignment
+package and route to DGS for consultation.
+
+Project Cost Delegation tier assignment is separate and independent of DGS’ assignment of IT
+Purchasing Authority Tier. Dollar values may not align, and a change in one does not result in a
+change in the other.
+
+Project Cost Delegation Accreditation Template
+The Project Cost Delegation Accreditation template consists of five sections. To ensure a timely
+review by CDT, each section must be completed prior to submission.
+
+Section I - Agency/State Entity Profile
+The instructional text below will be helpful when completing the Project Cost Delegation
+Accreditation.
+
+    •   Agency/State Entity Name: Enter the complete Agency/state entity name. If the name
+        includes or is part of an acronym spell out the name and then include the acronym.
+
+California Department of Technology                                                                  5
+SIMM Section 15 Project Cost                                                               August 2025
+Delegation 15A Accreditation
+Instructions
+
+    •   Agency/State Entity Org Code: Enter the complete org code number.
+
+    •   Contact Information: Enter the contact information including phone number and email
+        for the following:
+
+            o    Agency/State Entity Contact: The person that the CDT will contact regarding the
+                 submission.
+            o    Agency Information Officer (AIO)
+            o    Chief Information Officer (CIO)
+            o    Project Management Office (PMO) Director/Manager (if applicable)
+            o    Other: Any other contact with information that may be helpful in the accreditation
+                 of your submission.
+
+    •   Current Project Cost Delegation: Enter the current Project Cost Delegation dollar
+        value. (See the CDT website for your Agency/state entity Project Cost Delegation).
+
+    •   Current Tier: Enter the current tier. Refer to table 1 above: Project Cost Delegation Tier
+        to Dollar Value Mapping.
+
+    •   Proposed Project Cost Delegation: Enter the proposed Project Cost Delegation dollar
+        value that the Agency/state entity is seeking. Refer to table 1 above: Project Cost
+        Delegation Tier to Dollar Value Mapping.
+
+    •   Proposed Tier: Enter the proposed tier of the Project Cost Delegation the Agency/state
+        entity is seeking. Refer to table 1 above: Project Cost Delegation Tier to Dollar Value
+        Mapping.
+
+    •   Total Annual Budget: Enter the total annual budget allocation in dollars for the entire
+        Agency/state entity.
+
+    •   Annual IT Budget: Enter the total annual budget of all IT operations and positions.
+
+    •   Total Position Count: Enter the current total position count for the Agency/state entity
+        including those that are allocated but vacant.
+
+    •   IT Position Count: Enter the current IT positions that are part of the Agency/state entity
+        including those that are allocated but vacant.
+
+    •   Provide Justification and Narrative for the Request: Enter a specific justification for
+        the request including the requested tier. Include a supporting narrative of why your
+        Agency/state entity is seeking a change of their Project Cost Delegation.
+
+Section II - Agency/State Entity Portfolio Overview
+This section is comprised of the Agency’s/state entity’s IT project portfolio dollar value and
+count.
+
+    •   Portfolio Value: Enter the total dollar value of all projects in the portfolio that are both
+        Delegated and Non-Delegated.
+
+California Department of Technology                                                                   6
+SIMM Section 15 Project Cost                                                                August 2025
+Delegation 15A Accreditation
+Instructions
+
+    •   IT Portfolio Project Criticality Count: Enter the number of projects at each criticality
+        level: High, Medium, or Low. Refer to the complexity assessment template and
+        instructions which can be found in SIMM 45.
+
+    •   IT Portfolio Project Count: Enter the number of projects that are: Delegated, Non-
+        Delegated, and are undergoing the Project Approval Lifecycle (PAL) process, by current
+        stage.
+
+    •   Active Projects: Attach your current portfolio report in addition to the most recent
+        Project Status Report (PSR) for each non-delegated project or an equivalent status
+        report. The report should include all active projects that are from the Agency/state entity.
+        The portfolio report template can be found in SIMM 19.
+
+Section III - Agency/State Entity Historical Projects
+Showing a history of successfully delivering IT projects is important for demonstrating the IT
+maturity of the Agency/state entity. List all Delegated and Non-Delegated IT projects that ended
+within the previous five years. To provide a complete picture you should also include projects
+that were started and not completed, or were cancelled or abandoned. A Post Implementation
+Evaluation Report (PIER) for each project that hasn’t been previously submitted to the CDT
+should be included in your submission. See SAM Section 4947. If there are projects where a
+PIER is under development, enter “PIER in development,” or if a PIER has not been completed,
+enter: “No PIER.” To complete this section, download and fill out the Historical Projects
+Worksheet which can be found in SIMM 15. This section should not repeat any of the projects
+reported in section II.
+
+    •   Department: Enter the department acronym. Spell out and include acronym if
+        applicable.
+
+    •   Project Number: Enter the project number (if applicable).
+
+    •   Project Name: Enter the complete project name. Spell out and include any
+        abbreviations and acronyms if applicable.
+
+    •   Total Cost: Enter the total cost of the project.
+
+    •   Criticality Rating: Select the criticality rating of the project: High, Medium, or Low as
+        defined in SIMM 45.
+
+    •   Implementation Date: Enter the date that the project was implemented.
+
+    •   PIER Date: Enter the date that the PIER was submitted to the CDT. If there are projects
+        where a PIER is under development, enter “PIER in development,” or if a PIER has not
+        been completed, enter: “No PIER.”
+
+    •   Number of Users: Enter the number of users that the project affected.
+
+    •   Business Objectives Met?: Select either “Yes” or “No” based on the most recent
+        project documentation.
+
+California Department of Technology                                                                 7
+SIMM Section 15 Project Cost                                                              August 2025
+Delegation 15A Accreditation
+Instructions
+
+    •   Completed on Schedule?: Select either “Yes” or “No” based on the most recent project
+        documentation.
+
+    •   Completed Within Budget?: Select either “Yes” or “No” based on the most recent
+        project documentation.
+
+Section IV - Agency/State Entity Competency and Maturity
+This section is designed to gauge the Agency/state entity competency and maturity in a variety
+of portfolio, project management, and associated disciplines:
+
+    •   Portfolio Management
+    •   Project Management
+    •   Governance Management
+    •   Schedule Management
+    •   Cost Management
+    •   Scope Management
+    •   Resource Management
+    •   Quality Management
+    •   Risk Management
+    •   Issue Management
+    •   Maintenance & Operations Transition Management
+    •   Change Control Management
+    •   Communication Management
+    •   Contract Management
+    •   Requirements Management
+    •   Stakeholder Management
+    •   Organizational Change Management (OCM)
+    •   Business Process Reengineering (BPR)
+
+For each question the Agency/state entity, from the organization’s perspective, will answer each
+question on a scale from 1 to 5 by placing an “X” in the corresponding box. Each of the five
+levels are designed to show a particular level of overall competency and maturity. As you
+progress from level one to level five, the overall IT competency and maturity increases.
+Advancing through the levels allows for the Agency/state entity to measure their progress of
+meeting maturity goals, which is typically accomplished through continuing education and
+behavioral changes of the organization.
+
+While the levels may have similar characteristics, each is unique and the Agency/state entity
+should select that of which applies most accurately to their maturity level and of which they are
+currently practicing. Below, each of the five levels are outlined with a definition of what that level
+entails.
+
+The five levels are:
+
+    •   Level 1 - Ad-hoc: Agency/state entity is lacking basic or standard processes/practices
+        with no formal documentation, and activities are executed on an inconsistent basis.
+
+California Department of Technology                                                                  8
+SIMM Section 15 Project Cost                                                               August 2025
+Delegation 15A Accreditation
+Instructions
+
+    •   Level 2 - Basic: Agency’s/state entity’s processes/practices are defined and
+        documented without any metrics, and activities are performed according to defined
+        processes/practices but are not measured.
+    •   Level 3 - Documented: Agency’s/state entity’s processes/practices are documented
+        and include metrics. Activities and practices are regularly performed in accordance with
+        defined processes/practices and are measured.
+    •   Level 4 - Established: Agency’s/state entity’s organizational level processes/practices
+        are documented, standardized, measured, and managed through established metrics,
+        and lessons learned are captured. Activities are consistently performed in accordance
+        with the defined processes/practices and occasionally improved based on data and
+        lessons learned.
+    •   Level 5 - Continuous: Agency’s/state entity’s organizational level processes/practices
+        are documented, standardized, measured, and managed through established metrics,
+        and lessons learned are captured. Additionally, these processes/practices are
+        continually improved and updated based on metrics and lessons learned. Activities are
+        consistently performed in accordance with defined processes/practices and continuously
+        improved based on data and lessons learned.
+Each Agency/state entity should be leveraging a project management framework, such as the
+California Project Management Framework (CA-PMF) or PMBOK® Guide as outlined in SAM
+4819.31. Using a standardized framework allows for the Agency/state entity to apply proper
+project management practices, processes and deliverables, but also helps to enhance and
+progress the Agency’s/state entity’s overall organizational and IT maturity and competency.
+
+Additional guidance to assist in answering the questions in this section is below. This includes
+describing and defining Project Manager, Processes/Practices, and Established Metrics for
+further clarification. A sampling of metrics or key performance indicators (KPIs) is included
+below in table 2. Note that the list of KPIs in the table below is not all inclusive and that your
+Agency/state entity may use others as appropriate.
+
+Project Manager: Designating a dedicated Project Manager to each project/effort, while ideal,
+may not always be feasible. Depending on the size and scope of the project, especially those
+that are larger and more complex, having a dedicated Project Manager is recommended.
+
+Processes/Practices: A specific type of professional or management activity that contributes to
+the execution of a process and that may employ one or more techniques and tools.
+
+Established Metrics: Measurements or KPIs that the Project Management Office (PMO)
+regularly and methodically derives to measure and track project/portfolio health, performance,
+and progress.
+
+Sample KPIs of “established metrics” for each competency area are shown below in table 2:
+
+Sample KPIs for Competency Areas
+ Competency Area      Sample KPIs
+ Portfolio Management • Overall project success rate
+                      • Organization strategy
+                      • Business value realized
+
+California Department of Technology                                                                 9
+SIMM Section 15 Project Cost                                                              August 2025
+Delegation 15A Accreditation
+Instructions
+
+ Competency Area              Sample KPIs
+                              • Customer satisfaction
+ Project Management           • Lessons Learned
+ Governance                   • Number of customer service disruptions due to IT service-related
+ Management                     incidents (reliability)
+                              • Percent of business stakeholders satisfied that customer service
+                                delivery meets agreed-on levels
+                              • Trend of customer satisfaction survey results
+ Schedule                     • Percentage of tasks completed
+ Management                   • Overdue project tasks
+                              • Missed milestones
+                              • Schedule performance index: Earned value (EV)/planned value
+                                (PV)
+ Cost Management              • Planned value
+                              • Actual cost
+                              • Earned value
+                              • Cost performance index: Earned value (EV)/actual cost (AC)
+ Scope Management             • Project requirements
+                              • Project deliverables
+                              • Tasks required to complete deliverables (with key resources)
+ Resource                     • Documented resource roles including skills and responsibilities
+ Management                   • Resource allocation/ utilization
+                              • Vacancy Report
+ Quality Management           • On-time performance
+                              • Failure rate
+                              • Defect frequency
+ Risk Management              • Risk impact
+                              • Risk probability
+ Issue Management             • Number of issues
+ Maintenance &                • Service implementation activities are completed
+ Operations Transition        • Required facilities, infrastructure, hardware and software
+ Management                     required for ongoing support are in place
+                              • M&O group is prepared to support deliverable: solution, product
+                                or service
+ Change Control               • Number of approved change requests
+ Management                   • Change control process
+ Communication                • Documented process/procedures of how information will be
+ Management                     communicated (tools), when and where each communication will
+                                be made (frequency)
+                              • Documented roles of who is responsible for providing each type
+                                of communication
+ Contract Management          • Missed milestones
+                              • Deviations from pre-approved contract language
+                              • Service Level Agreements to ensure performance
+                              • Adherence to contract terms
+ Requirements                 • Quantity (of use cases, requirements, user stories, process flow
+ Management                     diagrams, etc.)
+
+California Department of Technology                                                             10
+SIMM Section 15 Project Cost                                                           August 2025
+Delegation 15A Accreditation
+Instructions
+
+ Competency Area              Sample KPIs
+                              • Volatility due to scope changes, missed requirements, changes
+                                in requirements, etc.
+                              • Defects due to requirements
+                              • Schedule variance due to poor or missing requirements
+ Stakeholder                  • Stakeholder training
+ Management                   • Stakeholder engagement assessment
+ Organizational               • Adoption metrics
+ Change Management            • Usage and utilization reports
+ (OCM)                        • Proficiency measures
+                              • Employee feedback via surveys, etc.
+ Business Process             • Person-hour reductions
+ Re-Engineering (BPR)         • Cost avoidance
+                              • Reductions in process defects
+                              • Workload backlog reduction
+                              • Productivity
+
+Table 2. Competency and Sample KPIs
+
+Section V - Attachments
+
+The attachment section is comprised of three parts: required attachments, completed plans, and
+additional attachments. Each of the documents that are listed must be included as part of the
+Project Cost Delegation Accreditation submission. The attachments will be used to further
+demonstrate organizational IT maturity and competency.
+
+The CDT may request additional information and/or documentation to support or address any
+areas of the submission that are either lacking in detail or warrant supplemental information to
+determine the Agency’s/state entity’s IT maturity and eligibility for a change in Project Cost
+Delegation.
+
+Be sure to provide the most recent version of each required attachment and enter the date of
+the document and any description or comments. The list of required attachments are:
+
+    •   Current Portfolio Report: Attach the current portfolio report in addition to a Project Status
+        Report (PSR) for each project as applicable.
+    •   Historical Projects Worksheet: This worksheet is a separate Excel based document that
+        should be used when compiling historical project data. Attach a PIER for each project
+        where a PIER has been completed.
+    •   Organizational Strategic Plan
+    •   IT Strategic Plan
+    •   Agency/State Entity Organization Chart
+    •   Information Management Organization Chart
+    •   Project Management Office (PMO) Charter
+
+In addition to the above attachments, a sampling of plans from a current or recently completed
+project/effort from the last year must be included. Plans should be submitted in their current
+template/formatting. Below is the list of plans that are to be submitted:
+
+California Department of Technology                                                                11
+SIMM Section 15 Project Cost                                                              August 2025
+Delegation 15A Accreditation
+Instructions
+
+    •   Governance Management
+    •   Schedule Management
+    •   Cost Management
+    •   Risk Management
+    •   Issue Management
+    •   Change Control Management
+
+Additional attachments and documents that further support your Agency’s/state entity’s request
+should also be included. These may include other documents that have not been listed in the
+required attachments section or documentation that supports any outputs of organizational
+maturity and competency accomplished or completed by the Agency/state entity.
+
+Submission
+Once completed, the Project Cost Delegation Accreditation and accompanying attachments
+should be submitted, along with the Project Cost Delegation Accreditation Executive
+Transmittal, in SIMM 15. This formal document includes signatures from the following:
+
+    •   Chief Information Officer
+    •   Budget Officer
+    •   Procurement and Contracting Officer
+    •   State Entity Director
+    •   Agency Information Officer
+
+The Project Cost Delegation Accreditation must be submitted electronically in a Microsoft Word
+file (version 2010 or later). The Historical Projects Worksheet must be submitted electronically in
+a Microsoft Excel file (version 2010 or later). Include a signed Executive Transmittal (as a
+scanned PDF). Use the following naming convention noting that Project Cost Delegation is
+abbreviated in the file names as PCD.
+
+Project Cost Delegation Accreditation:
+Org Code_Department Acronym_PCDAccreditation_FY20xx-xx
+(e.g. 7502_CDT_PCDAccreditation_FY20xx-xx.doc).
+
+Project Cost Delegation Accreditation - Historical Projects Worksheet:
+Org Code_Department Acronym_PCDHistoricalProjects_FY20xx-xx
+(e.g. 7502_CDT_ PCDHistoricalProjects_FY20xx-xx.xls).
+
+Project Cost Delegation Transmittal:
+Org Code_Department Acronym_PCDAccreditationTransmittal_FY20xx-xx
+(e.g. 7502_CDT_ PCDAccreditationTransmittal_FY20xx-xx.pdf).
+
+Supporting documentation should be submitted in PDF format and follow the naming
+convention:
+Org Code_Department Acronym_PCDAccreditation_DocumentName_FY20xx-xx
+(e.g. 7502_CDT_PCDAccreditation_OrganizationStrategicPlan_FY20xx-xx.pdf).
+
+California Department of Technology                                                              12
+SIMM Section 15 Project Cost                                                            August 2025
+Delegation 15A Accreditation
+Instructions
+
+Once signed, securely send the entire package and all attachments via the following email
+address ProjectOversight@state.ca.gov to the Office of Statewide Project Delivery (OSPD).
+Questions related to the transmittal should be directed to ProjectOversight@state.ca.gov.
+
+California Department of Technology                                                         13
+SIMM Section 15 Project Cost                                                       August 2025
+Delegation 15A Accreditation
+Instructions
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

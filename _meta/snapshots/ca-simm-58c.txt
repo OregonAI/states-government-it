@@ -1,0 +1,1034 @@
+                                   ST-CEAF Glossary
+Document Title: ST-CEAF Glossary
+Purpose: The purpose of the CEAF Glossary is for the Enterprise Architecture Community (EAC) reference, specifically terms that are
+used in the EA profession. This glossary stands aside from departmental glossary's in that the terms used in EA are often well
+understood by EA professionals, but not by non-EA staff. For that reason, terms found in this glossary will be from EA sources first as
+priority while non-EA sources will be limited in this glossary, if any.
+Audience: Enterprise Architect Community
+Instructions:
+1.     Use this glossary as a reference when creating artifacts for design and planning efforts.
+2.     If a term is missing from this glossary that you would like to see added, send a note to the CIO-EAC@state.ca.gov email group
+       and the Office of Enterprise Architecture will add it to this glossary if the term is EA specific.
+Note: The name of this document follows the EA³ Standard, whereas the “ST” part of this document name indicates that this files is
+      a standard.
+
+         ST-CEAF Glossary
+Terms       Definitions                                   References
+Action      Something which happens. Every                (2020) State of California Office of
+            action of interest for modeling purposes      Enterprise Architecture
+            is associated with at least one object.
+            The set of actions associated with an
+            object is partitioned into internal actions
+            and interactions. An internal action
+            always takes place without the
+            participation of the environment of the
+            object. An interaction takes place with
+            the participation of the environment of
+            the object. NOTES --
+            1 "Action" means "action occurrence".
+            Depending on context, a specification
+            may express that an action has
+            occurred, is occurring or may occur.
+            2 The granularity of actions is a design
+            choice. An action need not be
+            instantaneous. Actions may overlap in
+            time.
+            3 Interactions may be labeled in terms
+            of cause and effect relationships
+            between the participating objects. The
+            concepts that support this are
+            discussed in 13.3.
+            4 An object may interact with itself, in
+            which case it is considered to play at
+            least two roles in the interaction, and
+            may be considered, in this context, as
+            being a part of its own environment.
+            5 Involvement of the environment
+            represents operability. Thus,
+            interactions are observable whereas
+            internal actions are not observable,
+            because of object encapsulation.
+
+                           ST-CEAF Glossary
+Terms                                  Definitions                                References
+Actionable                             The architecture analysis and              Scott A. Bernard, (2012), Abridged
+                                       documentation is a direct input            from EA3, An Introduction to Enterprise
+                                       to executives, managers, and staff to      Architecture, Third Edition, Author
+                                       support portfolio planning, resource       House
+                                       planning, decision-making, and
+                                       management to achieve strategic
+                                       business outcomes.
+Activity                               A single-headed directed acyclic graph     (2020) State of California Office of
+                                       of actions, where occurrence of each       Enterprise Architecture
+                                       action in the graph is made possible by
+                                       the occurrence of all immediately
+                                       preceding actions (i.e. by all adjacent
+                                       actions which are closer to the head).
+Actor                                  A coherent set of roles that users of      (1987 - 2001) Rational Software
+                                       use cases play when interacting with       Corporation
+                                       the use cases.
+Agile                                  The process of moving or modifying         John D. McDowall, (2019) Derived from
+                                       quickly and easily to accommodate          AIA, Complex Enterprise Architecture,
+                                       change.                                    First Edition, Apress
+Agreement                              A contract duly executed and legally       (2021) Merriam Webster
+                                       binding.
+Application and Application Software   a) Software designed to fulfill specific   (2005) adapted from Institute of
+                                       needs of a user; for example, software     Electrical and Electronics Engineers
+                                       for navigation, payroll, or process        (IEEE) 6102 Standard Glossary of
+                                       control. b) a program (such as a word      Terms
+                                       processor or a spreadsheet) that
+                                       performs a particular task or set of       (2020) Merriam Webster
+                                       tasks.
+Application Solution Set               The solution involves the purchase         www.nascio.org
+                                       and/or development of a traditional
+                                       business system
+                                       application.
+
+                             ST-CEAF Glossary
+Terms                           Definitions                                References
+Applications Architecture       Applications Architecture is a blueprint   Scott A. Bernard, (2012), Abridged
+                                for structuring and deploying              from EA3, An Introduction to Enterprise
+                                application systems and in accordance      Architecture, Third Edition, Author
+                                with business goals, other                 House
+                                organizational frameworks and all
+                                business processes.
+Architect-Invest-Implement      The idea that conceptualizing and          (2020) State of California Office of
+                                design occurs prior to procurement or      Enterprise Architecture
+                                resource allocation of design
+                                components is applied. Followed by the
+                                execution of the design using said
+                                resources.
+Architectural Patterns          These solutions include Business           (2020) California Enterprise
+                                Intelligence, Enterprise Content           Architecture Framework (CEAF) 2.0
+                                Management, and Master Data
+                                Management.
+Architectural Scope             Organizational components included         (2020) State of California Office of
+                                in or impacted by the work’s view in       Enterprise Architecture
+                                regard to relevance to the future state
+                                architecture.
+Architectural Significance      An approach for which noticeable           (2020) State of California Office of
+                                impact or influence is placed on the       Enterprise Architecture
+                                business, resources, or
+                                organization components.
+Architecture Framework          The combination of structured              www.nascio.org
+                                processes, templates, and governance
+                                that facilitate the
+                                documentation of the architecture in a
+                                systematic manner.
+
+                          ST-CEAF Glossary
+Terms                        Definitions                                 References
+Architecture Governance      The processes necessary to direct or        www.nascio.org
+                             guide initiatives, to ensure that
+                             performance aligns
+                             with the enterprise, to enable the
+                             enterprise business by exploiting
+                             opportunities, and to ensure resources
+                             are used responsibly and architecture-
+                             related risks are managed
+                             appropriately.
+Architecture Segment         Focus on a subset or a specific             Scott A. Bernard, (2012), Abridged
+                             business area within the enterprise. It     from EA3, An Introduction to Enterprise
+                             can be considered an event-driven           Architecture, Third Edition, Author
+                             process, such as grants, that crosses       House
+                             the enterprise and has commonality of
+                             process, data, components, and
+                             technology. Each architecture segment
+                             is composed of current and target
+                             architectures, limited in scope by the
+                             focus of the segment.
+Architecture View            1) A view is a representation of a set of   www.ieee.org
+                             system elements and the relations           www.ibm.com
+                             associated with them. Views are
+                             representations of the many system
+                             structures that are present
+                             simultaneously in software systems. 2)
+                             A representation of a whole system
+                             from the perspective of a related set of
+                             concerns [IEEE 1471]. A representation
+                             of a particular type of software
+                             architectural elements that occur in a
+                             system, their properties, and the
+                             relations among them. A view conforms
+                             to a defining viewpoint.
+
+                          ST-CEAF Glossary
+Terms                             Definitions                                 References
+Architecture Views / CEAF Views   An architectural view is a                  (2020) California Enterprise
+                                  representation of one or more aspects       Architecture Framework (CEAF) 2.0
+                                  of an architecture that illustrates how
+                                  the architecture addresses the
+                                  concerns held by one or more of its
+                                  stakeholders.
+Architecture                      a) A set of design artifacts, or            a) John Zachman & adopted by the
+                                  descriptive representations, that is        Federal Chief Information Officer
+                                  relevant for describing an object such      Council (2008)
+                                  that it can be produced to requirements     b) Scott A. Bernard, (2012), Abridged
+                                  (quality) as well as maintained over the    from EA3, An Introduction to Enterprise
+                                  period of its useful life (change)          Architecture, Third Edition, Author
+                                                                              House
+                                  b) A systemic approach that organizes
+                                  and guides design, analysis, planning,
+                                  and documentation activities.
+Artifacts                         a) A documentation product that             a) Scott A. Bernard, (2012), Abridged
+                                  represents an EA component.                 from EA3, An Introduction to Enterprise
+                                                                              Architecture, Third Edition, Author
+                                  b) Artifacts constitute any object, or      House
+                                  work product that is developed as a
+                                  component of the enterprise                 b) www.nascio.org
+                                  architecture. Artifacts include trends,
+                                  principles, mission, goals, objectives,
+                                  strategies, capabilities, processes,
+                                  process steps, entities, attributes,
+                                  relationships, subject areas, application
+                                  components, applications, databases,
+                                  etc.
+As Is Enterprise Architecture     Same as Current State Enterprise            (2020) State of California Office of
+                                  Architecture                                Enterprise Architecture
+Association                       The state of being associated.              (2021) Random House Learner's
+                                                                              Dictionary of American English
+
+                    ST-CEAF Glossary
+Terms                  Definitions                                 References
+Availability           a) The quality or state of being            (2007) adapted from ITIL v3
+                       available. b) The ability to be accessed
+                       and operated when needed. [adapted
+                       from IEEE, J-STD-016-1995, F.2.2
+                       Contents of the System/Subsystem
+                       Specification (SSS), 3.11) System
+                       quality factors]; c) The ability of a
+                       component or service to perform its
+                       required function at a stated instant in
+                       time or over a stated period of time.
+                       Usually expressed as a ratio of the
+                       proportion of time actually available for
+                       use within the agreed time period
+Baseline (NASCIO)      The current or "as is" state of the         www.nascio.org
+                       business, information or technology
+                       environment,
+                       captured in a set of graphic and textual
+                       models.
+Best Practice          Trends and approaches that have             www.nascio.org
+                       successfully provided services and
+                       information over
+                       time.
+Bid                    To offer (a price) whether for payment      (2021) Merriam Webster
+                       or acceptance.
+Bid Deadline           The date and time designated in an          (2002) University of California, Office of
+                       Advertisement for Bids as the last date     the President
+                       and time for receipt of bids. This may
+                       be revised by Addenda.
+Bidding Phase          The stage in which bids or negotiated       John D. McDowall, (2019) Derived from
+                       proposals are solicited and obtained        AIA, Complex Enterprise Architecture,
+                       and in which contracts are awarded.         First Edition, Apress
+                       See Negotiations phase.
+
+                          ST-CEAF Glossary
+Terms                             Definitions                                 References
+Blueprint                         The dynamic depiction of information        www.nascio.org
+                                  (content), captured using standardized,
+                                  structured
+                                  processes and templates (framework).
+Building Block                    A package of functionality defined to       (2008) The Open Group Architecture
+                                  meet the business need, has defined         Framework (TOGAF)
+                                  boundaries and is commonly
+                                  recognized as “a thing”.
+Business Architecture Blueprint   Records the present direction of the        www.nascio.org
+                                  enterprise and the direction the
+                                  enterprise intends to
+                                  pursue from a business perspective.
+Business Architecture Component   Elements of the Business Architecture       www.nascio.org
+                                  Blueprint that specifically identify what
+                                  information,
+                                  service, location/logistics,
+                                  organizational roles/responsibilities,
+                                  and strategies will be used for the
+                                  implementation of the Business
+                                  Domain.
+Business Architecture Framework   The combination of templates and            www.nascio.org
+                                  structured processes that facilitates
+                                  that facilitate the
+                                  documentation of the enterprise's
+                                  business artifacts (e.g. Strategies,
+                                  processes, events) in a systematic and
+                                  disciplined manner.
+
+                        ST-CEAF Glossary
+Terms                      Definitions                                 References
+Business Architecture      a) Defines the business strategy,           a) Scott A. Bernard, (2012), Abridged
+                           organization, business capabilities and     from EA3, An Introduction to Enterprise
+                           key business processes which realize        Architecture, Third Edition, Author
+                           those business capabilities.                House
+
+                           b) The high-level representation of the     b) www.nascio.org
+                           business strategies, intentions,
+                           functions, processes,
+                           information, and assets (e.g. people,
+                           business applications, hardware)
+                           critical to operating the business of
+                           government successfully.
+Business Capabilities      An expression and representation of         Scott A. Bernard, (2012), Abridged
+                           what business does and has an ability       from EA3, An Introduction to Enterprise
+                           to do.                                      Architecture, Third Edition, Author
+                                                                       House
+Business Solution Set      The solution will implement a business      www.nascio.org
+                           process, organizational or other
+                           business solution. This may include
+                           new business processes, or
+                           organizational structures,
+                           methodologies, etc.
+Capability                 The power or ability for an enterprise or   Scott A. Bernard, (2012), Abridged
+                           organization segment to do something.       from EA3, An Introduction to Enterprise
+                                                                       Architecture, Third Edition, Author
+                                                                       House
+CDT                        California Department of Technology         (2020) California Department of
+                                                                       Technology
+CEAF                       California Enterprise Architecture          (2020) California Department of
+                           Framework                                   Technology
+
+                       ST-CEAF Glossary
+Terms                       Definitions                                 References
+Cloud Broker                An entity that manages the use,             (2011) NIST SP 500-292 NIST Cloud
+                            performance and delivery of cloud           Computing Reference Architecture,
+                            services, and negotiates relationships      September 2011
+                            between Cloud Providers and Cloud
+                            Consumers.
+Cloud Consumer              A person or organization that maintains     (2011) NIST SP 500-292 NIST Cloud
+                            a business relationship with, and uses      Computing Reference Architecture,
+                            service from, Cloud Providers.              September 2011
+Cloud Provider              A person, organization, or entity           (2011) NIST SP 500-292 NIST Cloud
+                            responsible for making a service            Computing Reference Architecture,
+                            available to interested parties.            September 2011
+COI                         Communities of Interest                     (2020) State of California Office of
+                                                                        Enterprise Architecture
+Common Business Scenarios   State functions, processes or activities    (2020) State of California Office of
+                            that are practiced in the same way by       Enterprise Architecture
+                            most state entities and that usually
+                            adhere to or are supported by policy or
+                            some other recognized compliance
+                            framework.
+Compliance Component        Identify guidelines, standards, and         www.nascio.org
+                            legislative mandates associated with a
+                            Discipline,
+                            Technology Areas, and/or Product
+                            Components.
+Component (NASCIO)          A level of architectural detail. Within     www.nascio.org
+                            each architecture the component level
+                            detail is
+                            captured utilizing a respective template.
+Composite Service           A service used to provide a geocode         www.arcgis.com
+                            address whereby multiple layers of
+                            address data are
+                            used in a hierarchy to achieve
+                            maximum accuracy.
+
+                           ST-CEAF Glossary
+Terms                                   Definitions                               References
+Correctness (IEEE)                      The degree to which a system or           www.ieee.org
+                                        component is free from faults in its
+                                        specification, design,
+                                        and implementation.
+COVID-19                                The virus (more specifically, a           (2020) Center for Disease Control
+                                        coronavirus) identified as the cause of
+                                        an outbreak of respiratory illness.
+Cross-Agency                            An approach that impacts or exposes a     (2020) California Enterprise
+                                        relationship between multiple             Architecture Framework (CEAF) 2.0
+                                        agencies.
+Cross-Program                           An approach that impacts or exposes a     (2020) State of California Office of
+                                        relationship between multiple programs    Enterprise Architecture
+                                        within a single department/agency.
+Current Architecture                    Represents the baseline architecture      Scott A. Bernard, (2012), Abridged
+                                        for the enterprise. In terms of the       from EA3, An Introduction to Enterprise
+                                        California Enterprise Architecture        Architecture, Third Edition, Author
+                                        Framework, the current architecture       House
+                                        includes business, information,
+                                        application, and technology.
+Current Lifecycle Classification        Artifacts having met the requirements     www.nascio.org
+                                        of the enterprise architecture. These
+                                        represent the recommended artifacts
+                                        that should be used in deployment of
+                                        technology solutions.
+Current State Enterprise Architecture   AS IS Enterprise Architecture that        Scott A. Bernard, (2012), Abridged
+                                        represents an organization's              from EA3, An Introduction to Enterprise
+                                        architecture in its current state.        Architecture, Third Edition, Author
+                                                                                  House
+Current View                            An EA artifact that represents an EA      Scott A. Bernard, (2012), Abridged
+                                        component or process that currently       from EA3, An Introduction to Enterprise
+                                        exists in the enterprise.                 Architecture, Third Edition, Author
+                                                                                  House
+
+                      ST-CEAF Glossary
+Terms                      Definitions                                  References
+Data                       The representation forms of information      (2013) International Organization for
+                           dealt with by information systems and        Standardization, ISO/IEC 10746-
+                           users thereof.                               2,3.2.6]
+Design                     a) To create, fashion, execute, or           a) (2021) Merriam-Webster
+                           construct according to plan. , b) Design
+                           is conceiving and giving form to             b) (2019) Karl T. Ulrich, Wharton
+                           artifacts that solve problems.               School and the University of
+                                                                        Pennsylvania
+Design Development Phase   Is the stage in which the size and           John D. McDowall, (2019) Derived from
+                           character of the Project are further         AIA, Complex Enterprise Architecture,
+                           refined and described. Using the             First Edition, Apress
+                           Reference Model – Open Distributed
+                           processing, this may include the             (2010) Reference Model of Open
+                           Enterprise, Informational,                   Distributed Processing (RM-ODP)
+                           Computational, Engineering, and
+                           Technology Viewpoints as appropriate         (2005) (Institute of Electrical and
+                           to the system at hand as well as             Electronics Engineers (IEEE)-1220
+                           systems, materials, and other elements
+                           as appropriate. Note, it is common to        (1995) J-STD-016
+                           find ambiguous reference to various
+                           types of “design”, (e.g., system,
+                           subsystem, interface, information store,
+                           product, etc.) which are intended as
+                           reference to the work generally
+                           performed during the design
+                           development phase by parties
+                           responsible for the project constituent
+                           components.
+Diagrams                   A pictorial representation of feature-rich   John D. McDowall, (2019) Derived from
+                           graphical depictions. Often full of          AIA, Complex Enterprise Architecture,
+                           ambiguities and not semantics are not        First Edition, Apress
+                           well defined. These documents depict
+                           the various design, interactions,
+
+                  ST-CEAF Glossary
+Terms                Definitions                                References
+                     relationships, sequence, behavior,
+                     mechanisms, location, and technology
+                     elements of the Work.
+
+Domain               Segments or layers of an enterprise        (2008) The Open Group Architecture
+                     architecture. Typical domains are          Framework (TOGAF)
+                     Business, Information/Data,
+                     Systems/Applications,
+                     Technology/Infrastructure, and
+                     Security.
+EA Community         California’s broad community of            (2020) State of California Office of
+                     enterprise architectures from over the     Enterprise Architecture
+                     150+- state entities that make up the
+                     community.
+EA Cube              A structure that is hierarchical so that   Scott A. Bernard, (2012), Abridged
+                     the different sub-architectures (that      from EA3, An Introduction to Enterprise
+                     describe distinct functional areas) can    Architecture, Third Edition, Author
+                     be logically related to each other.        House
+EA Plan              An EA plan is the blueprint for defining   Scott A. Bernard, (2012), Abridged
+                     architecture in support of the business,   from EA3, An Introduction to Enterprise
+                     and the plan for implementing this         Architecture, Third Edition, Author
+                     architecture.                              House
+EA Practice          May refer to a formal EA Program, but      (2020) State of California Office of
+                     may also refer to an informal group of     Enterprise Architecture
+                     EA Practitioners.
+EA Practitioner      A person actively engaged in               (2020) State of California Office of
+                     performing EA work, but not necessary      Enterprise Architecture
+                     an Enterprise Architect. For example,
+                     a business analysis may perform EA
+                     work within the Business Architecture
+                     domain.
+
+              ST-CEAF Glossary
+Terms            Definitions                                 References
+EA Program       An EA program is an organization's          (2020) State of California Office of
+                 plan of action aimed at accomplishing a     Enterprise Architecture
+                 clear Enterprise Architecture objective,
+                 with details on what work is to be done,
+                 by whom, when, and what means, or
+                 resources will be used.
+EA Services      A defined set of advisory and               (2020) State of California Office of
+                 consulting services offered to decision-    Enterprise Architecture
+                 makers, project teams, and staff that
+                 inform the work efforts of organizational
+                 change.
+EA               Enterprise Architecture is the practice     Scott A. Bernard, (2012), Abridged
+                 of analyzing, designing, planning, and      from EA3, An Introduction to Enterprise
+                 implementing enterprise analysis to         Architecture, Third Edition, Author
+                 successfully execute on business            House
+                 strategies. Enterprise Architecture is a
+                 comprehensive operational framework
+                 that explores all an organizations
+                 functional area while defining how
+                 technology benefits and serves the
+                 organization's overall mission. The
+                 technological aspect of EA defines the
+                 hardware, operating systems,
+                 programming, and networking solutions
+                 a business employs and how those
+                 may be used to achieve its current and
+                 future objectives.
+EA Digest        The compilation or summary                  (2020) State of California Office of
+                 of materials or information as it relates   Enterprise Architecture
+                 to enterprise architecture.
+EAC              Enterprise Architecture Community.          (2020) California Department of
+                                                             Technology
+
+                          ST-CEAF Glossary
+Terms                               Definitions                                References
+Emerging Lifecycle Classification   Artifacts that have potential to become    www.nascio.org
+                                    current architecture blueprint
+                                    components. While
+                                    identified as Emerging, artifacts should
+                                    be used only in pilot or test
+                                    environments and under highly
+                                    controlled regulations. After sufficient
+                                    testing, these artifacts may become
+                                    current or may be identified
+                                    noncompliant or non-functional in the
+                                    organization’s environment.
+Enterprise Architect                An Enterprise Architect is an enterprise   Scott A. Bernard, (2012), Abridged
+                                    architecture specialist that works         from EA3, An Introduction to Enterprise
+                                    closely with stakeholders, including       Architecture, Third Edition, Author
+                                    management and subject matter              House
+                                    experts, to develop a view of an
+                                    organization's strategy, information,
+                                    processes, and IT assets. An EA is
+                                    responsible for using this knowledge to
+                                    ensure IT and business alignment.
+
+                                    An Enterprise Architect connects an
+                                    organization’s business mission,
+                                    methodology and processes to its IT
+                                    strategy and established in-depth
+                                    documentation with the help of an array
+                                    of architectural models, or views, which
+                                    provide a picture of how an
+                                    organization's existing and future
+                                    requirements may be accomplished in
+                                    an effective, agile, sustainable and
+                                    flexible manner.
+
+                          ST-CEAF Glossary
+Terms                                    Definitions                                 References
+Enterprise Architecture Planning (EAP)   Enterprise Architecture Planning is the     Spewak
+                                         process of defining architectures for the
+                                         use of information in support of the
+                                         business and the plan for implementing
+                                         those architectures.
+Enterprise Architecture                  A management practice for aligning          (2013) Federal Enterprise Architecture
+                                         resources to improve business               Framework (FEAF)
+                                         performance and help
+                                         agencies better execute their core
+                                         missions. A strategic information asset
+                                         base, which defines the mission; the
+                                         information necessary to perform the
+                                         mission, the technologies necessary to
+                                         perform the mission, and the
+                                         transitional processes for implementing
+                                         new technologies in response to
+                                         changing mission needs; and includes
+                                         a baseline architecture, a target
+                                         architecture, and a sequencing plan
+Enterprise Roadmap                       An Enterprise Architecture Roadmap          Scott A. Bernard, (2012), Abridged
+                                         is a ordered sequence of EA initiatives     from EA3, An Introduction to Enterprise
+                                         that are required in order to make the      Architecture, Third Edition, Author
+                                         transition from the current enterprise      House
+                                         Architecture baseline to the future
+                                         target Enterprise Architecture vision.
+Enterprise Service Bus (ESB)             An enterprise service bus (ESB) is          Office of Enterprise Architecture
+                                         software architecture for middleware
+                                         that provides fundamental services for
+                                         more complex architectures. In a
+                                         general sense, an ESB can be thought
+                                         of as a mechanism that manages
+                                         access to applications and services
+                                         (both modern and legacy versions) to
+
+                        ST-CEAF Glossary
+Terms                                 Definitions                                  References
+                                      present a single, simple, and consistent
+                                      interface.
+
+Enterprise                           An organization supporting a defined          (2012) Treasury Enterprise Architecture
+                                     business scope and mission. An                Framework
+                                     enterprise is comprised of
+                                     interdependent resources (people,
+                                     organizations, and technology)
+                                     that should coordinate their functions
+                                     and share information in support of a
+                                     common mission (or set of related
+                                     missions)
+Federal    Enterprise   Architecture The Federal Enterprise Architecture           www.whitehouse.gov/omb
+Framework (FEAF)                     Framework (FEAF) is an organizing
+                                     mechanism for managing development,
+                                     maintenance, and facilitated decision-
+                                     making of the Federal Enterprise
+                                     Architecture. The framework provides a
+                                     structure for organizing federal
+                                     resources and for describing and
+                                     managing the Federal Enterprise
+                                     Architecture activities.
+Federation                           A community of domains.                       (2021) Microsoft
+Framework                            a) The combination of the templates           a) www.nascio.org
+                                     and structured processes that facilitate
+                                     the                                           b) (2013) Federal Enterprise
+                                     documentation of the architecture in a        Architecture Framework (FEAF)
+                                     systematic and disciplined manner.
+
+                                      b) A logical structure for classifying and
+                                      organizing complex information
+
+                          ST-CEAF Glossary
+Terms                                  Definitions                              References
+Function (NASCIO)                      A major work element that                www.nascio.org
+                                       accomplishes the mission or business
+                                       or an organization such as accounting,
+                                       marketing, etc. A sub-function is
+                                       defined as a component of a function
+                                       such as accounts receivable, accounts
+                                       payable, etc. within the accounting
+                                       function.
+Future State Enterprise Architecture   To-be Enterprise Architecture that       (2008) The Open Group Architecture
+                                       represents an organization's             Framework (TOGAF)
+                                       architecture in its desired future
+                                       state. Intentional change can be
+                                       achieved through future state
+                                       architectures that effectively align
+                                       strategies and goals with your IT
+                                       capabilities.
+Future View                            An EA artifact that represents an EA     Scott A. Bernard, (2012), Abridged
+                                       component or process that does not yet   from EA3, An Introduction to Enterprise
+                                       exist in the enterprise.                 Architecture, Third Edition, Author
+                                                                                House
+Gap                                    The difference between the "baseline"    www.nascio.org
+                                       environment and the "target"
+                                       environment.
+Gap Component                          A gap is the difference between the      www.nascio.org
+                                       "baseline" environment and the "target
+                                       environment.
+                                       A gap component resides as a
+                                       component of the Gap Analysis and
+                                       Migration Plan. Contributions to the
+                                       Gap Component come from Business,
+                                       Information, Solutions, and Technology
+                                       architectures.
+
+                           ST-CEAF Glossary
+Terms                         Definitions                                  References
+Guideline                     General statements of direction or           www.nascio.org
+                              desired future state. Guidelines are
+                              highly
+                              recommended, but they are not
+                              mandated.
+Information (NASCIO)          The organization of data into usable         www.nascio.org
+                              formats. Information encompasses both
+                              structured
+                              (data marts, databases, database
+                              tables and data exchanges) and
+                              unstructured information (web content,
+                              jpeg, or video files, and documents).
+Information Architecture      Describes the fundamental                    Scott A. Bernard, (2012), Abridged
+                              organization of the data assets and          from EA3, An Introduction to Enterprise
+                              data management resources that               Architecture, Third Edition, Author
+                              support an enterprise’s business             House
+                              processes and enabling application
+                              systems.
+Information Meta Component    Serve to identify and define the shared      www.nascio.org
+                              information. The Information Meta
+                              Components are first identified as Data
+                              Elements or Data Element Concepts.
+                              These are refined into the Logical and
+                              Physical Layers of the Information
+                              Architecture.
+Integrate                     1: to form, coordinate, or blend into a      (2021) Derived from Merriam-Webster
+                              functioning or unified whole, 2a: to
+                              incorporate into a larger unit; and 2b: to
+                              unite with something else.
+Integrated Views              Individual perspectives from                 Scott A. Bernard, (2012), Abridged
+                              organizational segments, roles or            from EA3, An Introduction to Enterprise
+                              disciplines that combine to create new       Architecture, Third Edition, Author
+                              perspectives.                                House
+
+                       ST-CEAF Glossary
+Terms                     Definitions                                  References
+Integration (NASCIO)      The ability to access and exchange           www.nascio.org
+                          critical information electronically at key
+                          decision points
+                          throughout the enterprise.
+Interaction               An action that takes place within an         (2013) derived from International
+                          environment.                                 Organization for Standardization
+                          • The granularity of actions is a design     (ISO)/IEC 10746-2 ]
+                          choice, need not be instantaneous and
+                          may overlap in time.
+                          • Interactions may be labeled in terms
+                          of cause-and-effect relationships
+                          between the participating objects in the
+                          environment.
+                          • An object may interact with itself, in
+                          which case it is considered to play at
+                          least two roles in the interaction, and
+                          may be considered, in this context, as
+                          being a part of its own environment.
+                          The environment represents
+                          operability. Thus, interactions are
+                          observable whereas internal actions
+                          are not observable.
+
+                          ST-CEAF Glossary
+Terms                        Definitions                                References
+Interface                    A boundary across which two                (2021) Vangie Beal, derived
+                             independent systems meet and act on        from www.webopedia.com
+                             or communicate with each other. In
+                             information technology, there are
+                             different types of interfaces.
+                             • user interface – the physical and
+                             visual boundary between a user and a
+                             system including the keyboard, mouse,
+                             menus of a computer system. The user
+                             interface allows the user to
+                             communicate with a particular system.
+                             • software interface - the languages,
+                             codes and structures used by system
+                             software components to communicate
+                             with each other and with system
+                             hardware.
+                             hardware interface - the physical wires,
+                             sockets, plugs, and devices used to
+                             connect hardware devices for purposes
+                             of communicating with each other.
+Interoperability (IEEE)      The ability of two or more systems or      www.ieee.org
+                             components to exchange information
+                             and to use the
+                             information that has been exchanged.
+IT Governance                An integral part of enterprise             https://www.isaca.org/
+                             governance. It consists of the
+                             leadership and organizational
+                             structures and processes that ensure
+                             that the organization's IT sustains and
+                             extends the organization's strategies
+                             and objectives.
+
+                        ST-CEAF Glossary
+Terms                                 Definitions                                 References
+IT Patterns                           Identifies how a set of technology          Scott A. Bernard, (2012), Abridged
+                                      elements should interact and be             from EA3, An Introduction to Enterprise
+                                      deployed to best deliver particular         Architecture, Third Edition, Author
+                                      types of applications or systems.           House
+ITEC                                  Information Technology                      (2013) Information Technology
+                                      Executive Council.                          Executive Council
+Line of Business                      The purpose of government in                Scott A. Bernard, (2012), Abridged
+                                      functional terms and the support            from EA3, An Introduction to Enterprise
+                                      functions the government must conduct       Architecture, Third Edition, Author
+                                      in order to deliver services to citizens.   House
+Methodology                           A documented approach for performing        (2012) Treasury Enterprise Architecture
+                                      activities in a coherent, consistent,       Framework
+                                      accountable, and repeatable manner
+Migration                             The evolution from the baseline to the      www.nascio.org
+                                      target state of the business
+                                      environment.
+Models/Modeling                       A specification of a system or part of a    John D. McDowall, (2019) Derived from
+                                      system using formal methods (precise        AIA, Complex Enterprise Architecture,
+                                      descriptive notation).                      First Edition, Apress
+Motivation                            Motivation elements are the actual          (2020) State of California Office of
+                                      impetuses or inspirations (i.e., goals,     Enterprise Architecture
+                                      principles, requirements, and
+                                      constraints) and the forces (i.e.,
+                                      stakeholders, drivers, and
+                                      assessments) that together affect the
+                                      enterprise architecture.
+NASCIO                                National Association of State Chief         (2013) National Association of State
+                                      Information Officers                        Chief Information Officers (NASCIO)
+
+National Institute of Standards and The National Institute of Standards and       www.nist.gov
+Technology (NIST)                   Technology is a federal technology
+                                    agency that
+
+                       ST-CEAF Glossary
+Terms                     Definitions                                  References
+                          develops and promotes measurement,
+                          standards, and technology.
+
+Nodes                     A device or data point in a larger           (2008) The Open Group Architecture
+                          network.                                     Framework (TOGAF)
+OEA                       CA Department of Technology, Office          (2020) California Department of
+                          of Enterprise Architecture                   Technology
+Organization              A body of people with a particular           (2008) The Open Group Architecture
+                          purpose, arranged to perform related         Framework (TOGAF)
+                          tasks that produce outputs/outcomes.
+Organizational Scope      The scope that the architecture is           (2008) The Open Group Architecture
+                          addressing. For example, enterprise,         Framework (TOGAF)
+                          segment, line of business, etc.
+Policy (NASCIO)           The governing principle, plans, or rules     www.nascio.org
+                          which guide organizational behavior.
+Principle                 A statement of preferred direction or        www.nascio.org
+                          practice. Principles constitute the rules,
+                          constraints and behaviors that a
+                          bureau, agency, organization will abide
+                          by in its daily activities over a long
+                          period of time. Principles are business
+                          practices and approaches that the
+                          organization chooses to institutionalize
+                          to better provide services and
+                          information.
+Procedure                 A course of action to be taken to            www.ieee.org
+                          perform a given task.
+
+                          ST-CEAF Glossary
+Terms                                Definitions                                   References
+Process Components                   Define the business functional                www.nascio.org
+                                     processes and delineate the
+                                     relationship of the data
+                                     element concepts to the processes.
+                                     Information Architecture Process
+                                     Components specifically identify the
+                                     business domain and/or information
+                                     subject area that relate to each
+                                     business process and the information,
+                                     business rules, and organizational
+                                     roles/responsibilities that are part of the
+                                     process.
+Product Component (NASCIO)           Includes the protocols, products              www.nascio.org
+                                     (families) and configurations that are
+                                     specific to a
+                                     technology area.
+Program (architectural or owner’s)   A written statement setting forth design      John D. McDowall, (2019) Derived from
+                                     objectives, constraints, and criteria for     AIA, Complex Enterprise Architecture,
+                                     a project, including functional               First Edition, Apress
+                                     requirements and relationships,
+                                     flexibility and expandability, as well as
+                                     special equipment and systems, if any,
+                                     and site requirements.
+Program Maturity                     An assessment of an EA program’s              (2020) California Enterprise
+                                     capability level.                             Architecture Framework (CEAF) 2.0
+Punch List                           A list of items to be completed or            Derived from CSI
+                                     corrected along with a time schedule
+                                     for their completion or correction            John D. McDowall, (2019) Derived from
+                                                                                   AIA, Complex Enterprise Architecture,
+                                                                                   First Edition, Apress
+
+                                                                                   (2000) Construction industry
+
+                       ST-CEAF Glossary
+Terms                     Definitions                                  References
+Quality                   The fitness for purpose of the system        (2005) Design-Build Institute of
+                          and its services. The ability of an entity   America
+                          (e.g., A/E) to administer quality
+                          assurance and quality control during         PRM 5.9.8
+                          construction depends on how clearly
+                          requirements are stated in contract
+                          documents.
+Quality Assurance         Procedures for guarding against              [PRM 4.5]
+                          defects and deficiencies before and
+                          during the execution of the work.
+Quality Control           Procedures for evaluating completed          [PRM 4.5]
+                          activities and elements of the work for
+                          conformance with requirements.
+Reference Model            A classification taxonomy for               (2015) Federal Chief Information
+                          understanding significant relationships      Officer Council
+                          among the entities of some
+                          environment, and for the development
+                          of consistent standards or
+                          specifications supporting that
+                          environment. A reference model is
+                          based on a small number of unifying
+                          concepts and may be used as a basis
+                          for education and explaining standards
+                          to a non-specialist
+Repository                A central location where EA                  (2008) The Open Group Architecture
+                          documentation is stored and managed.         Framework (TOGAF)
+Return on Investment      A ratio between expected value and           (2010) Investopedia
+                          cost of investment.
+Re-Use-EA                 The idea that EA artifacts created for       (2020) State of California Office of
+                          one architectural purpose can be             Enterprise Architecture
+                          applied to like opportunities.
+Roadmap                   An ordered sequence of initiatives that      (2008) The Open Group Architecture
+                          are required to make the transition from     Framework (TOGAF)
+                          a current (baseline) to target state.
+
+                       ST-CEAF Glossary
+Terms                                Definitions                            References
+Segment / Organization Segments, Segment architecture drives decisions      Scott A. Bernard, (2012), Abridged
+Lines of Business                for a business case or group of            from EA3, An Introduction to Enterprise
+                                 business cases supporting a core           Architecture, Third Edition, Author
+                                 mission area or common or shared           House
+                                 service.
+Segment Architecture Process     Multiple-phase methodology to develop      FEA
+                                 segment architecture work products.
+                                 Each phase
+                                 provides an increasing level of
+                                 architectural detail to support IT
+                                 investment decision- making and
+                                 solutions development and
+                                 implementation.
+Service                          The supplying of utilities, such as        (2014) adapted from Ching, Francis
+                                 persistence, security, and coordination,   D.K.
+                                 as required by the project. A service is   (2013) ISO/IEC 10746-2.]
+                                 a particular abstraction of behavior
+                                 expressing the guarantees offered by a
+                                 service provider. Services are
+                                 expressed formally in terms of the
+                                 specification of behavior of objects and
+                                 of the interfaces which they support.
+                                 See Object and Interface.
+Solution Set                     The combination of the scope,              www.nascio.org
+                                 requirements, design specifications,
+                                 and logical models that
+                                 define the solution.
+
+                        ST-CEAF Glossary
+Terms                              Definitions                                References
+Solutions Architecture Framework   Is a combination of structured             www.nascio.org
+                                   processes and templates that utilize
+                                   existing architecture documents to
+                                   design a desired business solution. The
+                                   Solution Architecture Framework
+                                   provides a standardized approach to
+                                   identifying requirements and design
+                                   specifications for enterprise solutions.
+                                   The framework consists of 1) Solution
+                                   Set Structure 2) Structured processes
+                                   for documenting, developing, and
+                                   implementing the solution set 3)
+                                   Templates for capturing the solution set
+                                   scope, requirements, and design
+                                   specifications.
+Specification                      a: presents written requirements for       John D. McDowall, (2019) Derived from
+                                   software, hardware, and construction       AIA, Complex Enterprise Architecture,
+                                   systems as well as standards for           First Edition, Apress
+                                   workmanship, and the construction
+                                   services required to produce the work.     (2005) Hospital Preparedness
+                                   Specifications may be presented in a       Program (HPP) 14th ed
+                                   Project Manual, bidding requirements,
+                                   contract forms, and / or conditions of     (2005) National CAD Standard 4.0
+                                   the contract. Note, it is common to find
+                                   ambiguous reference to various types
+                                   of “specification” (e.g., system,
+                                   subsystem, interface, information store,
+                                   product, etc). Such references should
+                                   be viewed generally without concern for
+                                   their type. b: Define the qualitative
+                                   requirements for products, materials,
+                                   and workmanship on which the
+                                   construction contract is based.
+
+                          ST-CEAF Glossary
+Terms                             Definitions                                 References
+Standard                          Mandated statements. A variance must        www.nascio.org
+                                  be granted to excuse compliance with
+                                  an existing
+                                  standard. More than one standard may
+                                  exist to allow flexibility in the
+                                  architecture blueprint.
+Sunset Lifecycle Classification   Artifacts in use but do not conform to      www.nascio.org
+                                  the stated Business or Technology
+                                  Architecture Blueprints. The sunset
+                                  artifacts will have a date of
+                                  discontinuance identified, indicating the
+                                  date that the artifacts will no longer be
+                                  acceptable for use within the
+                                  architecture.
+System                            a) Something of interest as a whole or      a) (1996) Source: ISO/IEC 10746-2:
+                                  as comprised of parts. Therefore, a         clause 6.5 System
+                                  system may be referred to as an entity.     b) Ching, Francis D.K.
+                                  A component of a system may itself be       c) Gibson (1960)
+                                  a system, in which case it may be           d) Chappelle (1996)
+                                  called a subsystem. NOTE - For
+                                  modeling purposes, the concept of
+                                  system is understood in its general,
+                                  system-theoretic sense. The term
+                                  "system" can refer to an information
+                                  processing system but can also be
+                                  applied more generally., b) A group of
+                                  interacting, interrelated, or
+                                  interdependent things or parts forming
+                                  a complex or unified whole, especially
+                                  to serve a common purpose. , c) An
+                                  integrated assembly of interacting
+                                  elements, designed to carry out
+                                  cooperatively a predetermined function.
+                                  , d) An integrated network of interacting
+
+                      ST-CEAF Glossary
+Terms                    Definitions                                 References
+                         elements receiving certain inputs and
+                         producing certain outputs, given certain
+                         constraints.
+
+System Architecture      The architecture of a system is the art     (2013) TPM, adapted from the non-
+                         and practice of designing and building      residential construction industry and IT
+                         systems where one or more sets of           industry sources (e.g., ISO’s RM-ODP
+                         rules is used to define the fundamental
+                         structure of a system and the
+                         interrelationships between its parts.
+                         The practice of architecture is
+                         concerned with effective delivery of
+                         services. These services are described
+                         in published architecture principles that
+                         present general rules and guidelines
+                         that support the way in which an
+                         architect sets about providing services.
+                         The principles are a balanced mixture
+                         of art and science intended to be
+                         fundamental, enduring and seldom
+                         amended. The resulting system will
+                         ultimately reflect the purpose, be
+                         efficiently arranged, and effectively
+                         express the concepts upon which its
+                         form arose.
+
+                          ST-CEAF Glossary
+Terms                            Definitions                                 References
+System                           A collection of components organized        (2005) adapted from Institute of
+                                 to accomplish a specific function or set    Electrical and Electronics Engineers
+                                 of functions.                               (IEEE) STD 610.12]
+Target Architecture              Represents a desired future state or "to    Scott A. Bernard, (2012), Abridged
+                                 be built" architecture for the enterprise   from EA3, An Introduction to Enterprise
+                                 within the context of the strategic         Architecture, Third Edition, Author
+                                 direction. In terms of the California       House
+                                 Enterprise Architecture Framework, the
+                                 target architecture includes business,
+                                 information, application, and
+                                 technology.
+Target Enterprise Architecture   Same as Future State Enterprise             Scott A. Bernard, (2012), Abridged
+                                 Architecture                                from EA3, An Introduction to Enterprise
+                                                                             Architecture, Third Edition, Author
+                                                                             House
+Technology Architecture          Describes the logical software and          (2008) The Open Group Architecture
+                                 hardware capabilities that are required     Framework (TOGAF)
+                                 to support the deployment of business,
+                                 information, and application services.
+                                 This includes IT infrastructure,
+                                 middleware, networks,
+                                 communications, processing, and
+                                 standards.
+TOAC                             Technology Operations Advisory              (2020) Technology Operations
+                                 Council                                     Advisory Council
+TOGAF                            The Open Group Architecture                 (2008) The Open Group Architecture
+                                 Framework is a framework for                Framework (TOGAF)
+                                 enterprise architecture that provides an
+                                 approach for designing, planning,
+                                 implementing, and governing an
+                                 enterprise information technology
+                                 architecture.
+
+                            ST-CEAF Glossary
+Terms                               Definitions                                 References
+Transformation                      Making fundamental changes                  (2020) State of California Office of
+                                    to how internal operations                  Enterprise Architecture
+                                    are conducted to provide an
+                                    expected user experience.
+Twilight Lifecycle Classification   Artifacts in use but do not conform to      www.nascio.org
+                                    the stated Business Drivers or
+                                    Technology
+                                    Architecture Blueprints. The artifacts
+                                    have no date of discontinuance
+                                    identified. These artifacts should not be
+                                    used to develop new applications.
+                                    Extensive modifications to these
+                                    systems should be reviewed to
+                                    determine if the system should be
+                                    redeployed completely using newer
+                                    technology.
+User-Centered Design                User-centered design is a design            (2020) User-Centered Design Judi
+                                    philosophy and a process in which the       Brown
+                                    needs, wants, and limitations of the end
+                                    user of an interface or document are
+                                    given extensive attention to each stage
+                                    of the design process.
+View                                The ability to see something from a         (2008) The Open Group Architecture
+                                    specific vantage point.                     Framework (TOGAF)
+Viewpoint                           The position from which a view is           (2008) The Open Group Architecture
+                                    observed. A viewpoint is a collection of    Framework (TOGAF)
+                                    patterns, templates, and conventions
+                                    for constructing one type of view.
+Workstream                          An organization’s project, process or       (2020) State of California Office of
+                                    operational area.                           Enterprise Architecture

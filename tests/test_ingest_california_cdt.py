@@ -110,3 +110,9 @@ class _New:
 def test_the_curl_transport_is_requested_only_when_the_toolkit_has_it():
     assert ing.make_fetcher("cfg", cls=_New).kwargs == {"curl_on_challenge": True}
     assert ing.make_fetcher("cfg", cls=_Old).kwargs == {}
+
+
+def test_conversion_notes_describe_the_cdt_page_not_a_rule_page():
+    n = ing.conversion_notes(TL_SRC, "html", "x")
+    assert "Department of Technology" in n and "Rule text" not in n and "pdftotext" not in n
+    assert "navigation" in n and "print button" in n and "table row" in n

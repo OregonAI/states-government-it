@@ -1,0 +1,1237 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: california
+id: ca-simm-19a-1
+title: Preparation Instructions for Stage 1
+doc_type: policy
+citation: SIMM 19A.1
+authority_level: ''
+issuing_body: California Department of Technology
+source_url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19A.1-Preparation-Instructions-for-Stage-1.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 4d6829e73cda881308ba40ab5e783ffda63e6bd6353103cc03de218e8fddc41e
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Preparation Instructions for Stage 1 (SIMM 19A.1)
+
+## At a glance
+
+SIMM 19A.1, Preparation Instructions for Stage 1: an item of the SIMM's policies, the California Department of Technology's library of statewide IT policies, standards, instructions, forms and templates.
+
+## Full text
+
+               State of California
+          Department of Technology
+
+     Stage 1 Business Analysis
+            Preparation Instructions
+
+                   Version 3.0.5
+
+Statewide Information Management Manual – Section 19A
+
+                   September 2023
+
+                            INTRODUCTION TO
+                     THE STAGE 1 BUSINESS ANALYSIS
+Overview
+Statewide Information Management Manual (SIMM) Section 19A, Stage 1 Business
+Analysis, is the first stage of the information technology (IT) Project Approval Lifecycle
+and provides a basis for project management, program management, executive
+management, and state-level control agencies to understand and agree on business
+problems or opportunities, and the objectives to address them. Additionally, the Stage 1
+Business Analyses are used to generate the Conceptually Approved IT Project
+Proposals Report each quarter, which represents the Executive Branch's plan for IT
+investments in support of the California IT Strategic Plan.
+
+The Stage 1 Business Analysis instructions are designed to help State of California
+agencies/state entities1 meet the California Department of Technology (CDT) IT project
+proposal documentation requirements.
+                                             Clarifications
+        ✓ A.2 Stage 1 Project Reportability Assessment is required to be submitted to
+          CDT with the A.3 Stage 1 Business Analysis.
+        ✓ Non-affiliated state entities (state entities not governed by agencies) are
+          required to submit a Stage 1 Business Analysis for all IT project proposals,
+          regardless of project cost delegation amounts.
+        ✓ Agency-affiliated state entities are not required to submit Stage 1 Business
+          Analyses that have been approved by the agency as delegated.
+        ✓ Project approval reporting requirements are initially determined as part of the
+          Stage 1 Project Reportability Assessment but may change as the proposal
+          progresses though the Project Approval Lifecycle.
+        ✓ Agency Chief Information Officers (AIOs) have been delegated CDT approval
+          authority for Stage 1 Business Analyses prepared by agency-affiliated state
+          entities.
+        ✓ Stage 1 Business Analyses prepared by non-affiliated state entities must be
+          approved by the CDT prior to submitting a Stage 2 Alternatives Analysis.
+        ✓ Stage 1 Business Analyses prepared by agency-affiliated state entities must
+          be approved by the AIO prior to submitting a Stage 2 Alternatives Analysis.
+
+Stage 1 Project Reportability Assessment Reporting
+Requirements
+AIOs, or the CDT (for non-affiliated state entities), require specific information from state
+entities to carry out its Stage 1 Business Analysis approval responsibilities. It is
+
+1State entity: Includes every state office, officer, department, division, bureau, board,
+
+and commission, including Constitutional Officers. “State entity” does not include the
+University of California, California State University, the State Compensation Insurance
+Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel Bureau.
+California Department of Technology                                                         1
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                    September 2023
+
+imperative that Project Reportability Assessment clearly documents and communicates
+the reportability and Project Approval Lifecycle requirements of the proposed project.
+
+Stage 1 Business Analysis Reporting Requirements
+AIOs, or the CDT (for non-affiliated state entities), require specific information from state
+entities to carry out its Stage 1 Business Analysis approval responsibilities. It is
+imperative that each Stage 1 Business Analysis clearly document and communicate the
+business investment justification. Therefore, each proposal must describe in detail the
+business driver(s), statutes or legislation, program background and context, business
+problems or opportunities, strategic business alignment, organizational readiness,
+business and stakeholder impact, and problem statements.
+
+State entity IT proposal submissions that meet one or more of the CDT reporting criteria
+must follow the documentation requirements defined in the State Administrative Manual
+(SAM Section 4819) and these instructions. Each state entity is responsible to ensure
+its Stage 1 Business Analyses meet CDT requirements. The Stage 1 Business Analysis
+must be comprehensive and cannot rely on verbal or subsequent written responses
+(e.g. emails) to provide needed justification for the submission. Incomplete Stage 1
+Business Analysis submissions that fail to provide relevant information in written form
+may be returned without consideration at the discretion of the AIO or CDT (for non-
+affiliated state entities).
+
+Any submissions of Stage 1 Business Analyses must be checked with the Americans
+with Disabilities Act (ADA) Web Content Accessibility Guidelines (WCAG) 2.0 validation.
+
+California Department of Technology                                                         2
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                   September 2023
+
+Table of Contents
+INTRODUCTION TO THE STAGE 1 BUSINESS ANALYSIS..................................................... 1
+Overview.................................................................................................................................... 1
+Stage 1 Project Reportability Assessment Reporting Requirements .......................................... 1
+Stage 1 Business Analysis Reporting Requirements.................................................................. 2
+STAGE 1 PROJECT REPORTABILITY ASSESSMENT PREPARATION INSTRUCTIONS....... 4
+MS Word Forms......................................................................................................................... 4
+Project Reportability Assessment Transmittal Requirements ..................................................... 4
+Project Reportability Assessment – General Instructions ........................................................... 4
+1.1 General Information ............................................................................................................. 4
+1.2 Contact Information.............................................................................................................. 5
+1.3 Reportability Assessment..................................................................................................... 5
+STAGE 1 BUSINESS ANALYSIS PREPARATION INSTRUCTIONS........................................10
+MS Word Forms........................................................................................................................10
+Stage 1 Business Analysis Transmittal Requirements...............................................................10
+Stage 1 Business Analysis – General Instructions ....................................................................11
+1.1 General Information ............................................................................................................11
+1.2 Submittal Information ..........................................................................................................12
+1.3 Business Sponsorship.........................................................................................................13
+1.4 Stakeholder Assessment.....................................................................................................14
+1.5 Business Program...............................................................................................................15
+1.6 Project Justification .............................................................................................................15
+1.7 Business Outcomes Desired ...............................................................................................18
+1.8 Project Management ...........................................................................................................22
+1.9 Initial Complexity Assessment.............................................................................................23
+1.10 Financials..........................................................................................................................24
+
+California Department of Technology                                                                                                         3
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                                                             September 2023
+
+        STAGE 1 PROJECT REPORTABILITY ASSESSMENT
+                PREPARATION INSTRUCTIONS
+MS Word Forms
+To ensure California’s compliance with the Americans with Disabilities Act as Amended,
+the CDT will only support the Project Reportability Assessment version 3.0 (MS Word
+form) starting February 1, 2022.
+
+Stage 1 Project Reportability Assessment version 3.0 Changes:
+The Project Reportability Assessment version 3.0 contains the following changes:
+    •   This form has been created using questions that have been removed from the
+        Stage 1 Business Analysis.
+    •   Check boxes are now drop-down fields and/or narrative areas.
+    •   One new question added to the reportability assessment.
+
+Project Reportability Assessment Transmittal Requirements
+The Project Reportability Assessment is required to be submitted to the CDT with the
+Stage 1 Business Analysis.
+
+Questions related to transmittal requirements should be directed to your agency/state
+entity’s CDT Office of Statewide Project Delivery (OSPD) Project Approval Manager;
+assignments can be found at: https://cdt.ca.gov/project-approvals-and-oversight-
+contact/.
+
+Project Reportability Assessment – General Instructions
+
+1.1 General Information
+    Agency or State Entity Name: Select the agency/state entity name that prepared
+    and is responsible for the Stage 1 Business Analysis proposal. Designate one
+    agency or state entity as owner if multiple agencies or state entities have a role in
+    the proposal.
+
+    If Agency/State entity is not in the list, enter here with organization code: Enter
+    the agency/state entity name, along with its organization code, if not included in
+    dropdown list above.
+
+    Proposal Name and Acronym: Enter the proposal name as determined by the
+    agency/state entity. The name should not reflect a system or type of IT solution. If no
+    acronym is provided, the CDT will create one
+
+    Proposed Project Start Date: Select the proposed start date for the requested
+    project proposal.
+
+California Department of Technology                                                         4
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                  September 2023
+
+    PRA Version Number: Select the document’s version number based on current
+    status and edits.
+
+1.2 Contact Information
+    Contact Information:
+        Contact Name: Enter the full name of the agency/state entity person who will be
+        the primary point-of-contact for control agency questions and comments.
+        Contact Email: Enter the email address of the contact provided above.
+        Contact Phone Number: Enter the ten-digit phone number of the contact
+        provided above.
+
+1.3 Reportability Assessment
+The reportability assessment questions below follow the Job Aid – Reportable Project
+Decision Tree located in SIMM 19 and assist in determining if your proposal is
+delegated or non-delegated. Select “Yes” or “No” for each of the questions.
+
+Does the Agency/state entity’s IT activity meet the definition of an IT Project
+found in the State Administrative Manual (SAM) Section 4819.2?
+
+    IT Project - A unique endeavor with a defined beginning and end, named
+    deliverables and defined budget/resources that consumes at least 500 hours of
+    effort. IT projects are undertaken to provide an IT solution for a business
+    problem/opportunity in order to meet unique goals and defined objectives that
+    encompasses computerized and auxiliary automated information handling that may
+    include systems design and analysis, conversion of data, computer programming,
+    information storage and retrieval, data transmission, requisite system controls,
+    simulation, and related interactions between people and machines. Also see
+    definition of IT Activity.
+
+    Select “Yes” if the proposal meets the definition found in SAM Section 4819.2. If
+    “No,” this initiative is not an IT project and is not required to complete the Project
+    Approval Lifecycle.
+
+Does the activity meet the definition of Maintenance or Operations found in SAM
+Section 4819.2?
+
+    Select “Yes” if this proposal meets the definition found in SAM Section 4819.2. If
+    “Yes,” this initiative is not required to complete the Project Approval Lifecycle. For
+    validation purposes, provide an explanation in the space provided that describes the
+    dynamics of the initiative and why it meets the criterion of Maintenance and
+    Operations.
+
+Has the project/effort been previously approved and considered an ongoing IT
+activity identified in SAM Section 4819.2, 4819.40? NOTE: Requires a Post
+
+California Department of Technology                                                          5
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                     September 2023
+
+Implementation Evaluation Report (PIER) submitted to the California Department
+of Technology (CDT).
+
+    Previously Approved Project/Effort - An IT activity or project as defined by SAM
+    Sections 4819.2 and 4819.40 previously approved by the California Department of
+    Technology (CDT) or the agency/state entity’s executive officer in accordance with
+    SAM Section 4819.3.
+
+    Qualification of an activity as a previously approved effort requires an approved
+    Feasibility Study Report or PAL Stage 4 Project Readiness and Approval AND an
+    approved PIER. Effort/project must use substantially the same equipment, facilities,
+    technical personnel, supplies and software to meet substantially the same
+    requirements or to meet normal workload increases.
+
+    “Substantially the same equipment" does not include the addition, upgrade, or
+    replacement of a central processing unit or Mainframe. (Applicable activities include
+    meeting modified needs, improving the effectiveness of the activity, program or
+    system maintenance, or extension of existing services to new or additional users
+    performing essentially the same functions as those that the project was designed to
+    support). Minor changes in functionality and/or equipment will normally meet the
+    definition of previously approved effort/project. Significant changes in functionality
+    and/or equipment that require budget actions do not meet the definition of previously
+    approved effort/project.
+
+    Select “Yes” if this proposal meets the definition found in SAM Sections 4819.2,
+    4819.3, and 4819.40. If “Yes,” this initiative is not required to complete the Project
+    Approval Lifecycle. Please report this workload on the Agency Portfolio Report.
+
+    If “Yes” is selected, please provide the PIER submission date in the content control
+    field.
+
+Is the project directly associated with any of the following as defined by SAM
+Section 4819.32? Includes single-function process-control systems; analog data
+collection devices and/or telemetry systems; telecommunications equipment
+used exclusively for voice communications; Voice-Over Internal Protocol (VOIP)
+phone systems; acquisition of printers, scanners and/or copiers.
+
+California Department of Technology                                                          6
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                   September 2023
+
+    Single Function Process Control Systems, Analog Data Collection Devices, or
+    Telemetry Systems: Activities include automated processing systems that monitor
+    and control the operation of a single function system and that can perform that
+    control in isolation from other systems (such as components necessary to monitor
+    and control the traffic signals at an intersection, the position of water restriction and
+    diversion components in a water supply and distribution system, environmental
+    systems for buildings or to adjust the behavior of a motorized conveyer in response
+    to changes in load and demand). This includes sensors, telemetry devices, alarm
+    and physical entry controls, functional components such as motors or traffic lights,
+    electronic control processors, and the network system that connects those devices
+    into a single-function process control system.
+
+    This should not be interpreted to include information processing and network
+    systems in which data is gathered, stored, transmitted, processed, analyzed,
+    displayed, printed, or reported for purposes other than the direct, automatic
+    monitoring and controlling of a single function system, or for the manual review of
+    the performance and activities of that single system.
+
+    NOTE: Any component that may be added to any process control system, such as
+    additional sensors, processing capacity or network communications capability that is
+    necessary for use in conjunction with a current or planned IT system must be
+    included in all PAL Stage/Gate deliverables, plans, proposals and budget estimates
+    for the IT system. See definitions below:
+
+    •   Telecommunications Equipment Used Exclusively for Voice Communications:
+        Projects, activities, or acquisitions where approval and initiation is within the
+        jurisdiction of the Public Safety Communications Office, per California
+        Government Code Section 15275-15277, such as public safety
+        telecommunications including microwave, satellite, 911, telematics, and radio/rf.
+    •   Voice Over Internet Protocol (VOIP) Phone Systems: Installations of VOIP
+        systems that arrest alone and do not interface with other systems on the network.
+    •   Acquisition of Printers, Scanners, and Copiers: If any of these components are
+        part of a planned IT system, they must be included in all PAL Stage/Gate
+        deliverables, plans, proposals and budget estimates for the IT system.
+    Select “Yes” if this proposal meets the definition found in SAM Section 4819.32.
+    If “Yes,” this initiative is not required to complete the Project Approval Lifecycle.
+    Please report this workload on the Agency Portfolio Report.
+
+ Is the primary objective of the project to acquire desktop and mobile computing
+ commodities as defined by SAM Section 4819.34, 4989?
+
+   Desktop and Mobile Computing Delegations: Agencies/state entities are delegated
+   the authority to acquire desktop and mobile computing commodities to support
+   increased staffing, as well as the ongoing replacement of obsolete or nonfunctioning
+   desktop and mobile computing commodities. Delegation includes authority for the
+
+California Department of Technology                                                             7
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                     September 2023
+
+    acquisition of equipment and software to support the agency/state entity’s desktop
+    and mobile computing activities.
+
+    Agencies/state entities must have submitted acceptable Technology Recovery Plans
+    or Technology Recovery Plan certifications, maintain compliance with all applicable
+    state IT security provisions (as defined in SAM Chapter 5300), and have appropriate
+    plans for the use of desktop and mobile computing commodities. See SAM Sections
+    4989 – 4989.8 for policy details, definitions and exclusions.
+
+    Select “Yes” if this proposal meets the definition found in SAM Sections 4819.34 and
+    4989. If “Yes,” this initiative is not required to complete the Project Approval
+    Lifecycle. Please report this workload on the Agency Portfolio Report.
+Does the Project meet all of the criteria for Commercial-off-the-Shelf (COTS)
+Software and Cloud Software-as-a-Service (SaaS) delegation as defined in SAM
+Section 4819.34, 4989.2, and SIMM Section 22? (RPDT Reference Guide,
+Reference R9.)
+    COTS Software and Cloud SaaS Delegation: Agencies/state entities are delegated
+    the authority for the approval and acquisition of COTS software and Cloud SaaS
+    solutions which are not classified as non-delegated (see SAM Section 4819.37 for a
+    list of non-delegated project criteria). The acquisition must meet “ALL” of the
+    following conditions:
+
+    •   Software licenses and consulting services will be acquired through a leveraged
+        purchasing agreement managed by the Department of General Services (e.g.
+        CMAS or MSA) or through one of the California Department of Technology’s
+        master contracts.
+    •   Does not require installation of new hardware on premises at the agency/state
+        entity or its designated data center.
+    •   Solution is single purpose use, not mission critical, and used for internal
+        purposes only.
+    •   Does not exchange confidential or sensitive data with other systems.
+    •   Agency/state entities must notify the California Department of Technology (CDT)
+        of all COTS and SaaS acquisitions prior to project initiation as defined in
+        Statewide Information Management Manual (SIMM) Section 22.
+
+    Select “Yes” this proposal is a delegated project. Approval of the Project Approval
+    Lifecycle is delegated to the head of the state entity; however, submit an approved
+    SIMM Section 22 COTS/SaaS Acquisition Form to CDT.
+
+NOTE: If the remaining questions are all marked “No,” this effort will be deemed to not
+meet the reporting requirements for an IT project and be delegated back to the
+department.
+
+Will the project require or has the project previously required a Budget Action to
+be completed?
+
+California Department of Technology                                                       8
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                September 2023
+
+    Projects whose initiation depends upon decisions to be made during the
+    development or enactment of the Governor's Budget, such as approval of a Budget
+    Change Proposal or Budget Revision to increase the agency/state entity’s existing IT
+    activities related to the project.
+    • Projects that involve a new system development or acquisition that is specifically
+        required by legislative mandate or is subject to special legislative review as
+        specified in budget control language or other legislation.
+    • Projects that have a cost that exceeds the level of the agency/state entity’s
+        delegated cost threshold assigned by the CDT and do not meet the criteria of a
+        desktop and mobile computing commodity expenditure (see SAM Sections 4989,
+        4989.1, 4989.2, and 4989.3)
+
+    Select “Yes” if the project requires a budget action to be completed.
+
+Is it anticipated that the project will exceed the delegated cost threshold assigned
+by CDT as identified in SIMM Section 15A Departmental Project Cost Delegation?
+    Select “Yes” if the project cost exceeds your delegated cost threshold assigned
+    by CDT as identified on the Project Approvals and Oversight Staff Assignments.
+Are there any previously imposed conditions placed on the state entity or this
+project by the CDT (e.g. Corrective Action Plan)?
+    Select “Yes” if CDT has imposed conditions on the agency/state entity or project
+    (e.g., Corrective Action Plan) and provide details regarding the conditions.
+Is the system specifically mandated by legislation?
+    Projects that involve a new system development or acquisition that is specifically
+    required by legislative mandate or is subject to special legislative review as specified
+    in budget control language or other legislation.
+
+    Select “Yes” if the system is specifically mandated by legislation.
+If this effort does not meet the definitions of a reportable project, does your
+Agency Information Officer request that this project go forward through the
+CDT’s Project Approval Lifecycle process?
+
+        Agency-affiliated state entities are not required to submit Stage 1 Business
+        Analyses for Stage 1 Business Analyses that have been approved by the agency
+        as delegated. An Agency Information Officer can request that the project move
+        forward through the Project Approval Lifecycle even if delegated or non-
+        reportable conditions are met. Please consult with your Agency Information
+        Officer to learn more.
+
+California Department of Technology                                                        9
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                   September 2023
+
+            STAGE 1 BUSINESS ANALYSIS PREPARATION
+                         INSTRUCTIONS
+MS Word Forms
+To ensure California’s compliance with the Americans with Disabilities Act as Amended,
+the CDT will only support and accept for submission the Stage 1 Business Analysis
+version 3.0 (MS Word form) starting February 1, 2022.
+
+Stage 1 Business Analysis Version 3.0 Changes
+The Stage 1 Business Analysis version 3.0 contains the following changes:
+    •   The form no longer uses tables as a means of organizing content.
+    •   Check boxes are now drop-down fields or narrative areas.
+    •   Sections have been pared down to include only the most relevant information at
+        the proper time in the PAL process.
+    •   Sections that require artifacts to be attached to the word document will now be
+        required to be submitted as attachments to the submission email.
+    •   Headings now allow each section and/or subsection to be collapsed for easier
+        navigation.
+
+Stage 1 Business Analysis Transmittal Requirements
+A formal and approved transmittal is required for each Stage/Gate document submitted
+to the CDT with the appropriate signatures (as applicable). Based on the State Entity’s
+governing body, approval of Stage 1 Business Analyses may depend on the following:
+    ✓ Agency-affiliated state entities are required to sign and submit the Project
+      Approval Executive Transmittal to their governing agency for approval. The CDT
+      will not review and approve Stage 1 Business Analyses from agency-affiliated
+      state entities.
+    ✓ Agency-affiliated state entities are only required to submit S1BAs determined by
+      the governing agency to be non-delegated pursuant to SAM 4819.37, 4819.37, or
+      4819.40 criteria. However, agencies will include all approved Stage 1 Business
+      Analyses in the Agency State Entity Portfolio Report as specified in SIMM
+      Section 05A.
+    ✓ Non-affiliated state entities (state entities not governed by agencies) are required
+      to sign and submit the Project Approval Executive Transmittal directly to the CDT
+      for review.
+    State entity: Includes every state office, officer, department, division, bureau, board,
+    and commission, including Constitutional Officers. “State entity” does not include the
+    University of California, California State University, the State Compensation
+    Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative
+    Counsel Bureau.
+
+Submit required Stage 1 Business Analysis to the CDT through the CDT Project
+
+California Department of Technology                                                       10
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                   September 2023
+
+Oversight email address at: (ProjectOversight@state.ca.gov).
+
+Questions related to transmittal requirements should be directed to your agency/state
+entity’s CDT Office of Statewide Project Delivery (OSPD) Project Approval Manager;
+assignments can be found at: https://cdt.ca.gov/project-approvals-and-oversight-
+contact/.
+
+Project Approval Executive Transmittal
+    The transmittal template (available in SIMM Section 19G) contains the approving
+    agency/state entity executive signatures, with the following components:
+
+    1. State Entity Name: Enter the state entity name that prepared the Stage 1
+       Business Analysis. Designate one state entity as owner if multiple state entities
+       have a role in the proposal.
+
+    2. Agency Name: Enter the agency name that prepared the Stage 1 Business
+       Analysis. Designate one agency as owner if multiple agencies have a role in the
+       proposal. This field is not required for state entities not governed by an agency.
+
+    3. Proposal Name: Enter the proposal name as determined by the agency/state
+       entity.
+
+    4. Department of Technology Project Number: If this is a new submission, this
+       field should be left blank. The CDT Project Number will be assigned by the CDT
+       after initial submission. If this is a resubmission, enter the number assigned by
+       the CDT.
+
+    5. Submission Deliverable: Select the Stage/Gate deliverable(s), as applicable.
+
+    6. Approval Signatures: The agency/state entity executive approval signatures are
+       required, documenting commitment and involvement at the agency/state entity
+       level. The required signatures include those of the Information Security Officer,
+       Enterprise Architect, Chief Information Officer, Budget Officer, Procurement and
+       Contracting Officer, State Entity Director, AIO*, and the Agency Secretary (or
+       designee)*.
+
+        *Exception – Non-affiliated state entities (state entities not governed by
+        agencies) can sign and submit the Project Approval Executive Transmittal
+        directly to the CDT, the AIO and Agency Secretary signatures are not required.
+
+Stage 1 Business Analysis – General Instructions
+
+1.1 General Information
+    Agency or State Entity Name: Select the agency/state entity name that prepared
+    and is responsible for the Stage 1 Business Analysis proposal. Designate one
+
+California Department of Technology                                                        11
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                 September 2023
+
+      agency or state entity as owner if multiple agencies or state entities have a role in
+      the proposal. The entity selected here or entered in the following question will be
+      used to generate the project number.
+
+      If Agency/State entity is not in list, enter here with organization code: Enter the
+      agency/state entity name, along with its organization code, if not included in
+      dropdown list above.
+
+      Proposal Name and Acronym: Enter the proposal name as determined by the
+      agency/state entity. The name should not reflect a system or type of IT solution. If an
+      acronym is not provided, the CDT will create one.
+
+      Proposal Description: Enter a brief description of the proposal. This description
+      should be concise and focused on the business problems or opportunities as
+      described in Section 1.6 Project Justification. This description should be formatted
+      as follows, “(Agency/state entity) proposes to (brief description of the initiative) in
+      order to (or similar verbiage).” This description is used on the CDT’s public website
+      for the project which has a 500 character limit.
+
+          Example: The (agency/state entity), (Business Program), proposes to re-
+          engineer the manual process used to publish the bi-annual publication list of the
+          top 500 taxpayers with tax delinquency liens greater than $100,000, in order to
+          meet the mandates of Assembly Bill XXXX. The current publication process is
+          labor intensive and produces many errors. The re-engineered process will reduce
+          errors, improve accuracy, efficiency, quality, and time management.
+
+     Project Planning Start Date: Select the project planning start date (the date
+     internal planning started at your Agency/state entity) for the requested project
+     proposal.
+
+     Proposed Project Execution Start Date: Select the proposed project execution
+     start date for the requested project proposal.
+
+     S1BA Version Number: Select the document’s version number based on
+     current status and edits. The version number should reflect any revised
+     submissions to CDT.
+
+1.2 Submittal Information
+     Contact Information
+     Contact Name: Enter the full name of the agency/state entity person who will be
+     the primary point-of-contact for control agency questions and comments.
+     Contact Email: Enter the email address of the contact provided above.
+
+  California Department of Technology                                                           12
+  SIMM Section 19A Stage 1 Business Analysis
+  A.1 Preparation Instructions                                                    September 2023
+
+Contact Phone Number: Enter the ten-digit phone number of the contact
+provided above.
+
+1.2 Submittal Information
+Submission Type: Select the appropriate description for the submission type.
+If Withdraw, select reason: If applicable, select the appropriate reason for
+withdrawal.
+If Other, specify reason here: Select the appropriate reason if “Other” is
+selected.
+Sections Changed, if an update or resubmission: If applicable, list all the
+sections that have been updated since the last submission.
+
+Summary of Changes: If applicable, provide a brief summary of changes made
+since the last submission.
+Project Approval Executive Transmittal: Attach a copy of the signed Project
+Approval Executive Transmittal for Stage 1 Business Analysis to your email
+submission. Use the transmittal form located in SIMM 19 Section G.1.
+
+Stage 1 Reportability Assessment: Attach a copy of the Stage 1 Project
+Reportability Assessment to your email submission. Use the form located in SIMM
+19 Section A.2.
+
+1.3 Business Sponsorship
+Executive Champion (Sponsor)
+An “Executive Champion” maintains a leading and very active role in the project by
+promoting and marketing the project to stakeholders. An executive champion:
+   • Champions or “sponsors” the project.
+   • Provides vision, guidance, and direction to the project.
+   • Determines and advocates for suitable levels of funding and resources.
+   • Ensures multi-divisional or multi-agency participation on the project where
+      appropriate.
+   • Acts as an advocate for the project throughout its lifecycle.
+   • Monitors project progress, intervenes as needed, and resolves escalated issues.
+   • Oversees project budget, schedule, and scope.
+   • Communicates project status to the executive stakeholders, as relevant, and
+      ensures sustained buy-in at all levels.
+
+   Title: Enter the title of the Executive Champion.
+
+   Name: Enter the full name of the Executive Champion.
+
+   Business Program Area: Enter the name of the business program area
+   represented by the Executive Champion (Sponsor).
+Business Owner
+A “Business Owner” maintains a leading and very active role from the perspective of the
+government program area that the project enables, supports, and/or enhances.
+California Department of Technology                                                    13
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                   August 2024
+
+Business Owners “partner” with technology project leaders to lead projects that serve
+business needs and to meet objectives (see Section 1.7). A Business Owner:
+   • Owns the program area(s) that the project empowers, maintains, or improves.
+   • Defines the expected business objectives and outcomes.
+   • Develops the business strategy.
+   • Describes and clarifies business processes and terminology.
+   • Reviews and approves the business requirements.
+
+    Title: Enter the title of the Business Owner.
+
+    Name: Enter the full name of the Business Owner.
+
+    Business Program Area: Enter the name of the business program area
+    represented by the Business Owner.
+
+Product Owner
+The product owner is responsible for maximizing the value of the product by managing
+the product backlog, or list of work to be done. The product owner is also responsible
+for making sure that the business and the team have a shared understanding of the
+project vision, the project goals, and the details of the work to be done, so that the team
+can plan and build the work items and ultimately accepts the final product.
+A Product Owner:
+    • Owns the lifecycle of a product from idea, through to explore, validate, grow,
+       sustain, and eventually retire.
+    • Is heavily involved in procurement methodology, design, and management.
+    • Reports to the Business Owner if available or Executive Champion(s) if not.
+    • Is the Lead Business Liaison subject matter expert for predictive methodology.
+
+    Title: Enter the title of the Product Owner.
+
+    Name: Enter the full name of the Product Owner.
+
+    Business Program Area: Enter the name of the business program area
+    represented by the Product Owner.
+
+1.4 Stakeholder Assessment
+Indicate which of the following are interested and the level of interest in this
+proposal and/or outcome of the project.
+
+Determine if the project will only have an impact to the department only and choose
+‘Yes’ or ‘No’ for the first question.
+
+If ‘No’ is selected above, select the group(s) that may have a vested interest in the
+outcome or may be impacted by the proposed project. Choose ‘Yes’ or ‘No’ for each
+
+California Department of Technology                                                      14
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                  September 2023
+
+group.
+
+Describe how each group marked ‘Yes’ will be involved in the planning process.
+Describe how each of the group(s) identified will be involved in the project’s planning
+process.
+
+1.5 Business Program
+Organization Name: Enter the organization’s name.
+
+Business Program Name: Enter the name of the business program.
+
+Program Background and Context
+Provide a brief overview of the agency/state entity’s business program(s) impacted by
+the proposed project. The business description should be succinct and at the highest
+level possible to understand the business problem(s) and not contain any business
+terminology and acronyms unless previously defined.
+
+Note: This section should not provide a description of the agency/state entity’s mission
+or background. Do not discuss business programs that are not affected by the proposal,
+how the work is performed, business problems, potential solutions, existing technology,
+etc.
+
+This narrative should adhere to the following guidelines:
+    •    The program background and context should set the scope of the study;
+         everything that follows in the study must relate to and follow from the business
+         description.
+    •    List multiple business programs separately if they have distinct problems,
+         opportunities, or objectives. Include a description of impacted business program
+         activities and services.
+    •    The business program(s) identified should align with the Business Owner(s) and
+         Key Stakeholder(s) identified in sections 1.3 Business Sponsorship and 1.4
+         Stakeholder Assessment partners.
+
+How will this proposed project impact the products or services supported by the
+department?
+The impacts should detail how processes and procedures will be changed overall
+including training and Organizational Change Management.
+
+1.6 Project Justification
+Strategic Business Alignment
+   ▪ Strategic Plan Last Updated: Enter the date the agency/state entity’s Strategic
+      Plan was last updated.
+
+California Department of Technology                                                         15
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                   September 2023
+
+    ▪   Strategic Business Goal: Identify the agency/state entity’s strategic business
+        goal(s) associated with this proposal.
+    ▪   Alignment: Briefly describe how this proposal helps to achieve the agency/state
+        entity’s strategic goals. Describe how the proposal will address problems that
+        impede or opportunities that enhance the achievement of the business goal as
+        stated in the agency/state entity’s Strategic Plan.
+    Mandate(s): Select one of the following mandate descriptions, if applicable.
+    Mandates may include Executive Orders or proclamations which impact the
+    business program. They may also include new Federal legislation or changes to
+    existing Federal regulations. See SAM Section 4819.37 for additional information on
+    project reporting requirements related to mandates.
+    ▪   Bill Number/Code: Enter the Bill or Code number if applicable.
+
+    ▪   Add the Bill language that includes system-relevant requirements:
+        Enter the Bill or Code language that provides relevant information and system
+        requirements to support this project.
+
+Business Driver(s)
+A “Business Driver” is a resource, process, or condition that is vital for the continued
+success and growth of the business program(s) that the proposal will enable, support,
+and/or enhance. Potential business drivers have been placed into three general
+categories (i.e., Financial Benefit, Mandate, and Improvement). Check all items that are
+applicable as business drivers for this proposal:
+•   Financial Benefit: Select “Yes” or “No” to indicate whether this project provides a
+    financial benefit. If “Yes, indicate which type by selecting “Yes” or “No” for each of
+    the following items:
+    ▪ Increased Revenues: Any addition to cash or other current assets that does not
+        increase any liability or reserve and does not represent the reduction or recovery
+        of expenditure (e.g., reimbursements and/or abatements). Revenues are a type
+        of receipt generally derived from taxes, licenses, fees, or investment earnings.
+        Revenues are deposited into a fund for future appropriation and are not available
+        for expenditure until appropriated (Uniform Codes Manual).
+        SAM Section 6602 defines revenues as, “Any changes in the amounts of
+        operating income received by state and local agencies as the result of an
+        executive regulation…includes taxes, state and/or federal assistance, fees,
+        licenses, and so forth.”
+        Select “Yes” if the proposal will result in additional income to the State in the form
+        of increased federal funding, state taxes, licenses, fees, etc.
+
+    ▪   Cost Savings: As defined by SAM Section 6602, “Both actual budget reductions
+        and the ‘freeing up’ of staff and/or resources to address other areas of legitimate
+        concern of the agency.”
+
+California Department of Technology                                                         16
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                    September 2023
+
+        Select “Yes” if the proposal will result in reduced expenses for the program or IT
+        budget (e.g., reduced program, IT staff, equipment, travel expenses, etc.).
+
+    ▪   Cost Avoidance: Benefits that occur when future program needs are met at less
+        cost than would otherwise have been required. Such program needs can include
+        new program services, increased program service levels, or replacement of
+        current systems.
+        Select “Yes” if the proposal will result in the avoidance of a future planned
+        increase in the program or IT budget.
+
+    ▪   Cost Recovery: The Federal government portion for their share of expenditures
+        for providing Medicaid services, administering the Medicaid program, and certain
+        other human service programs recovered by the State. This also includes costs
+        recovered from the Federal government through the Federal Financial
+        Participation (FFP) under U.S. Code, Title 42, Chapter 7, Subchapter XIX,
+        Section 1396b, which allows states to receive partial reimbursement for activities
+        that meet FFP objectives.
+        The FPP objectives, among others, may include activities attributable to the
+        design, development, modification, and installation of mechanized claims
+        processes and information retrieval systems.
+        Select “Yes” if the proposal will result in the agency/state entity’s ability to
+        recover costs through the Federal government due to the type of service or
+        program provided.
+
+•   Improvement: Select “Yes” or “No” for each of the following Improvement
+    categories.
+    ▪ Better Services to the people of California: Better services to the people of
+       California may include improvements to quality of life or improving the experience
+       of those interacting with program operations (e.g., replacing paper forms with
+       internet forms or replacing paper listings of information with searchable
+       databases).
+    ▪   Efficiencies to Program Operations: Efficiencies to program operations may
+        include making improvements to an agency/state entity’s business processes
+        used to run program operations (e.g., automating business processes,
+        workflows, and reporting).
+    ▪   Improved Equity, Diversity, and/or Inclusivity: Equity, Diversity, and
+        Inclusivity may include upgrades to support unrepresented or under-represented
+        groups in the state of California. It’s a proactive means to avoid or address
+        unnecessary risks that can disrupt the delivery of expected service levels. There
+        may be changes to programs to target groups that have perfectly suitable access
+        but are disproportionately impacted by stuff.
+    ▪   Improved Health and/or Human Safety: Health and human safety
+        improvements may include upgrades to the physical and/or mental conditions of
+        the people of California, including inpatients, employees, and those in the
+
+California Department of Technology                                                         17
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                     September 2023
+
+        community. Health improvements may include reducing the presence or negative
+        impacts of illnesses, injuries, or impairments to the people of California. Human
+        safety improvements may include reducing exposure to or negative impacts from
+        hazards or reducing the risk of harm or injury.
+    ▪   Improved Information Security: Improved information security protects the
+        confidentiality, integrity, availability of business data from those with malicious
+        intentions, and information compliance with state and federal standards.
+    ▪   Improved Business Continuity: Business continuity encompasses a defined
+        set of planning, preparatory, and related activities intended to ensure that an
+        organization's critical business functions will either continue to operate despite
+        serious incidents or disasters that might otherwise have interrupted them or will
+        be recovered to an operational condition within a short period.
+    ▪   Improved Technology Recovery: Improved technology recovery involves a set
+        of policies and procedures to enable the recovery or continuation of vital
+        technology infrastructure and systems following a natural or human-induced
+        disaster, which impedes the agency/state entity’s ability to provide business
+        services. Technology recovery focuses on the IT or technology systems
+        supporting critical business functions, as opposed to business continuity, which
+        involves maintaining all essential aspects of a business functioning despite
+        disruptive events.
+    ▪   Technology Refresh: Technology refresh may include the replacement of aging
+        hardware or software that is unreliable or will no longer be supported by the
+        manufacturer.
+    ▪   Technology End of Life: The technology currently in use to support the
+        agency/state is no longer supportable due to aging technology or the lack of
+        skilled resources to support the technology.
+Statewide IT Strategic Alignment
+• Statewide IT Strategic Goal: Identify the statewide IT strategic goal(s) associated
+   with this proposal.
+•   Alignment: Briefly describe how this proposal helps to achieve the state’s IT
+    strategic goal(s). Describe how the proposal will address problems that impede or
+    opportunities that enhance the achievement of the Statewide IT Strategic Plan.
+
+1.7 Business Outcomes Desired
+Executive Summary of the Business Problem or Opportunity
+Provide a brief narrative summary of the business problem or opportunity that is driving
+changes to the current state environment, processes, etc. This should be a brief
+description of the overall problem or opportunity. The individual problems or
+opportunities will be listed in below. This narrative summary should address the
+following questions:
+
+California Department of Technology                                                           18
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                     September 2023
+
+    •   How was the problem or opportunity identified (e.g., log/report deficiencies,
+        backorders, assessment of penalties, excessive overtime costs, statutes, or
+        legislation)?
+    •   What created the problem or opportunity?
+    •   What is the magnitude of the problem or opportunity?
+    •   How do the business drivers selected above relate to the business problem or
+        opportunity?
+    •   Why is this proposal important to consider at this time?
+    •   Are there any security and/or privacy issues (e.g., confidentiality, integrity, and
+        availability) that should be considered?
+    •   What are the effects and/or impact of the statutes and/or mandates, if identified
+        in Section 1.6?
+
+Objective ID: Give each objective added to the form a number, continuing from the
+problem ID number. For example, problem statement 1, objective ID 1 and 2 would
+become 1.1 and 1.2.
+
+Objective: Identify the objectives for the problem listed above. These requirements are
+merely intended to provide a guide to the major issues. They are not intended to be
+specified here at a level that they could be implemented by a developer. Describe how
+the metric will be tracked through the progression of the project. Examples include but
+are not limited to existing data, relevant forms, surveys, focus groups, etc. Provide a
+description of the problem in business terms and ensure that it is aligned with at least
+one of the business drivers identified above. The statements should not indicate that the
+completion of a new system will solve the problem.
+
+Metric: Describe the measurement(s) that will be used to confirm the attainment of the
+business objectives identified. Provide specific, measurable, and realistic means to
+measure the business problem or opportunity against the objectives. Measurements
+should be developed with stakeholder involvement. These measurements will be used
+to collect data before, during, and following an approved project to support the
+achievement of the objectives as described in the Post Implementation Evaluation
+Report (PIER).
+
+Baseline: Provide the current magnitude or value for the metric (e.g., the current
+business program processing time: number of people served, forms processed). For
+example, if it currently takes 20 minutes to perform the business problem or opportunity,
+then 20 minutes would be entered. The metric used should align with the objective (e.g.,
+loss of revenue should use money-based objective metrics).
+
+Target Result: List the business objective(s) associated with the problem or opportunity
+and identify expected short-term and long-term target result that the proposal will
+address (e.g., what the proposal is seeking to achieve). Identify at least one objective
+for each individual business problem or opportunity. An ideal objective statement is
+“SMART” (i.e., “S” Specific, “M” Measurable, “A” Achievable, ”R” Realistic, and “T” Time
+Bound) (see SIMM 170B, Project Requirements Development Instructions, section 2.1,
+Table 1).
+California Department of Technology                                                           19
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                    September 2023
+
+If an objective does not have measurable data, the agency/state entity should at a
+minimum provide the proposed data source, unit of measurement, and timeframe of
+when the data will be observable or verified. Identify the timeframe in which the
+objective will be achieved. Provide additional details as necessary.
+
+It is essential that each target result:
+   • Relates to a problem or opportunity specified in the problem/opportunity statement.
+   • Is business based.
+   • Is stated in quantifiable terms and at a level which decision makers can determine
+       value versus investment.
+   • Is realistically achievable.
+   • Is not compounded (i.e., list one desired outcome per line item). Do not combine
+       more than one objective in an objective statement.
+
+TIP: Copy and paste to add Problem Statements as needed. Please number for
+reference.
+
+TIP: Problem statements should identify WHAT needs to be achieved or solved. Each
+objective should identify HOW the problem statement can be solved and must have a
+target result that is specific, measurable, attainable, realistic, and time bound.
+
+Good Examples:
+Example 1
+Objective ID: 1.1
+
+Objective:
+Efficiencies to program operations (business driver): Administrative Services Division
+(business program) manually processes and matches approximately 2,500 Residential
+Housing Unit (RHU) purchase orders (POs) annually, which requires over 2,080 hours
+in overtime by staff (impact).
+Reduce average time to reconcile a single PO in minutes. Current average is 20.
+Reduce staff time necessary to reconcile the RHU Purchase Orders by 25 percent
+within 18 months of the completion of the Business Management Review (BMR).
+
+Metric:
+Average time to reconcile a single PO in minutes.
+
+Baseline:
+20 minutes
+
+Target Result:
+15 minutes using the existing PO tracking report.
+
+Example 2
+Objective ID: 2.1
+
+California Department of Technology                                                   20
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                               September 2023
+
+Objective:
+Efficiencies to program operations (business driver); Customer Support Division (CSD)
+(business program):.Staff members manually transfer data from 200 Microsoft Excel
+(MS Excel) spreadsheets gathered from remote offices into Microsoft Access (MS
+Access) to develop reports for CSD. The current process relies on heavy manual
+interactions and duplicative efforts, resulting in excessive staff usage and incomplete
+and inaccurate data (impact).
+After implementation, eliminate the need to manually transfer data from Microsoft (MS)
+Excel spreadsheets into MS Access database.
+
+Metric:
+Number of spreadsheets requiring staff to manually transfer data into a reporting
+system.
+
+Baseline:
+Current: 200.
+
+Target Result:
+Number of spreadsheets requiring staff to manually transfer data into a reporting
+system: 0 Number of errors during manual data transfer into a reporting system: <1
+
+Objective ID: 2.2
+
+Objective:
+After system implementation, track the number of spreadsheets requiring manual
+conversion of data into the reporting system. After implementation, reduce staff
+computation errors during the manual data transfer from Microsoft (MS) Excel
+spreadsheets into MS Access database.
+
+Metric:
+Number of errors during manual data transfer into a reporting system.
+
+Baseline: >10
+
+Target Result:
+After system implementation, track the number of errors during the data conversion into
+the reporting system. Goal is <1.
+
+Poor Examples:
+
+Poor Example 1
+Objective ID: 5
+
+Objective:
+Excessive customer wait time at field offices.
+Within 18 months of implementation of the system, reduce the field office wait time.
+
+California Department of Technology                                                    21
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                September 2023
+
+Time until customer is seen at a window. Anecdotal information from field offices.
+Current value: 30 minutes.
+
+Metric: Time until customer is seen at a window.
+
+Baseline: 30 minutes
+
+Target Result: Reduced by 50%
+
+The above example does not follow the SMART objective format. It does not specify
+reliable data source or a frequency for the data to be captured and reviewed.
+
+Poor Example 2
+Objective ID: 1.1
+
+Objective:
+Ensure effective and efficient management of the Program. Decrease data
+management maintenance costs by 50 percent within 12 months of completion of the
+replacement system.
+Maintenance support contract cost estimate is $1 million. Count the number of SDNs
+(invoices) to reach the values.
+
+Metric: Number and cost of system SDNs (invoices).
+
+Baseline: Maintenance support contract cost estimate is $1 million.
+
+Target Result: Pay $0 for sub-contracts.
+
+The above example does not identify a problem or an opportunity; this is a high-level
+goal statement. The description uses an acronym which has not been identified
+previously. The target result is not equal to the 50% as implied in the objective
+statement. Invoices are a good data source for measurement; however, the invoice
+count does not relate to a dollar value. Finally, the description does not address the
+frequency in which the information would be reviewed.
+
+1.8 Project Management
+The Project Management Risk Assessment aids in assessing the maturity of an
+organization as a whole and their ability to carry out projects. This model will evaluate
+such elements as:
+    •   Organizational commitment to a well-defined, mature project management
+        process
+    •   Existence of predicated management commitment, functions, and systems
+    •   Competence of participants in any project management endeavor
+    •   Organizational project management environment (e.g., tools, infrastructure) and
+        how well these are integrated
+
+California Department of Technology                                                         22
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                  September 2023
+
+    •   Measurement metrics in the organization and how well they are used and any
+        applicable past performance
+    •   Organization’s continuous improvement process
+
+Utilizing the instructions in SIMM Section 45 Appendix B, Project Management Risk
+Assessment Preparation Instructions, complete the Project Management Risk
+Assessment Template (SIMM Section 45 Appendix A). Only complete the questions
+identified as Stage 1 in the “Required Stage” column. This assessment is to be
+completed by the agency/state entity as part of the Stage 1 Business Analysis and
+verified by the CDT during the Gate 1 collaborative review meeting.
+
+Project Management Risk Score: Enter numeric value identified after completing the
+SIMM Section 45 Appendix A.
+
+Project Approval Lifecycle Completion and Project Execution Capacity
+Assessment
+
+This information identifies how this proposal’s planning dynamics and workload will be
+supported going forward. Please select an option for the following questions:
+
+    Does the proposal development or project execution anticipate sharing resources
+    (state staff, vendors, consultants, or financials) with other priorities within the
+    agency/state entity (projects, PALs, or programmatic/technology workload)?
+
+    Does the agency/state entity anticipate this proposal will result in the creation of new
+    business processes or changes to existing business processes?
+
+1.9 Initial Complexity Assessment
+Business Complexity Score: In many projects, complexities and unanticipated issues
+are discovered as work progresses, resulting in missed deadlines, budget overruns, and
+thwarted management expectations. Project complexity assessments completed at the
+beginning of a proposal help to minimize a last-minute patchwork of “Band-Aid”
+solutions that most often result in scope creep, poor product quality, and cause the
+project team to become overwhelmed by problems and lose project control. Early
+identification of complexities can also assist in planning, estimating, and staffing
+decisions, including the level of project oversight required for the project.
+
+Use the SIMM Section 45 Appendix C, Complexity Assessment Template self-
+assessment tool to complete the Business Complexity section based on the
+applicable information captured in the Stage 1 Business Analysis. Enter the Business
+Complexity score in the space provided and attach the completed Appendix C to your
+email submission. The Complexity Assessment template will be completed with the
+Technical Complexity during Stage 2 Alternatives Analysis.
+
+California Department of Technology                                                       23
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                   September 2023
+
+Noncompliance Issues: Noncompliance issues are business problems that often affect
+the security, accessibility, and statutory requirements for implementation of a business
+program. Select “Yes” or “No” for each of the following issues:
+        •   Programmatic regulations
+        •   HIPAA/CIIS/FTI/PII/PCI
+        •   Security
+        •   ADA
+        •   Other
+        •   Not Applicable
+
+        Noncompliance Description: Provide a narrative on how the business process
+        is currently noncompliant.
+
+Additional Assessment Criteria
+        If there is an existing Privacy Threshold Assessment/Privacy Information
+        Assessment, then include it as an attachment to your email submission.
+
+        How many locations and total staff is the project anticipated to affect?
+        • Number of locations: Total number of offices/locations that the proposal is
+          going to affect.
+        • Expected Number of Transactions/Business Events (per month): Enter the
+          number of expected transactions or events that the system currently
+          experiences per month.
+        • Approximate number of internal end-users: Enter the number of internal state
+          staff that will be using the result of this project.
+        • Approximate number of external end-users: Enter the number of non-staff
+          users for the result of this project.
+
+1.10 Financials
+This section will help identify and thereby mitigate potential financial risks related to this
+proposal. The proposal’s funding or possibility of financial sanctions or penalties if not
+implemented may contribute to a proposal’s success. Identifying and addressing these
+factors at the beginning of a proposal’s development allows an opportunity for focused
+planning and reduces uncertainty as the proposal moves forward.
+
+Planning
+Does the agency/state entity anticipate requesting additional resources through a
+budget action to complete planning through the project approval lifecycle framework?
+   If Yes is selected, enter the date/budget season that the planning BCP will be
+   submitted.
+
+Will the state incur a financial penalty or sanction if this proposal is not implemented?
+
+Project Implementation Funding
+
+California Department of Technology                                                          24
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                     September 2023
+
+•   Has the funding source(s) been identified for project implementation?
+      If Yes, please provide the Funding Source(s) and dates funds for implementation
+      will be made available.
+
+            Availability of secure and reliable funding is essential to successful project
+            planning and risk mitigation. Identify the applicable funding source(s), that
+            has/have been identified for this proposal, and enter a date the funding
+            source(s) will become available, if applicable.
+
+            Examples:
+
+            General Fund: The state fund into which non-dedicated revenues are
+            deposited and from which the majority of state expenditures are made. (SAM
+            Section 6899)
+
+            Special Fund: For legal basis budgeting purposes, funds created by statute,
+            or administratively per Government Code (GC) section 13306, used to budget
+            and account for taxes, licenses, and fees that are restricted by law for
+            particular activities of the government.
+
+            Federal Fund: For legal basis budgeting purposes, classification of funds into
+            which money received in trust from the Federal Government will be deposited
+            and expended by a state entity in accordance with State and/or Federal rules
+            and regulations. Agency/state entity must deposit federal grant funds in the
+            Federal Trust Fund or other federal fund in the State Treasury. (GC 13326 –
+            Department of Finance approval, 13338 – Appropriation of federal funds, CS
+            8.50.)
+
+            Reimbursement: A reimbursement is cash or other assets received as
+            repayment for the cost of work or services performed, or for other
+            expenditures made for or on behalf and for the convenience of another
+            governmental unit, fund, or department, or for an individual, firm, or
+            corporation. (SAM Section 6463)
+
+            Bond Fund: For legal basis budgeting purposes, funds used to account for the
+            receipt and disbursement of self-liquidating or non-self-liquidating general
+            obligation bond proceeds. Depending on the provisions of the bond act, either
+            the General Fund or a sinking fund pays the principal and interest on the
+            general obligation bonds.
+            (SAM 14400.)
+
+            Other Fund: Fund source not represented by the categories identified. If
+            “Other Fund” is used, specify the funding source.
+
+    ▪   Will a budget action be submitted to your Agency/DOF?
+            If Yes, specify the budget year in which the BCP will be submitted.
+
+California Department of Technology                                                          25
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                     September 2023
+
+    ▪   Will you be requesting funds from the Technology Modernization Fund (TMF)?
+                If Yes, indicate whether you have completed a TMF Application to date.
+
+•   Please provide a rough order of magnitude (ROM) estimate as to the total cost of the
+    project: Using your best judgement and experience, select a ROM value for the total
+    cost of this proposed project.
+
+California Department of Technology                                                      26
+SIMM Section 19A Stage 1 Business Analysis
+A.1 Preparation Instructions                                                September 2023
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,58 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                          NUMBER:              DATE ISSUED:
+
+TECHNOLOGY LETTER                                            TL 16-04             MAY 2016
+SUBJECT:                                                     REFERENCES:
+CALIFORNIA PROJECT MANAGEMENT                                Government Code Sections 11545, 11546;
+FRAMEWORK                                                    State Administrative Manual (SAM)
+                                                             Sections 4819.2, 4819.31, 4910, 4910.1,
+                                                             4910.2;
+                                                             Statewide Information Management Manual
+                                                             (SIMM) Sections 17 and 19
+
+BACKGROUND
+In April 2009, the California Department of Technology (CDT) released the California Project
+Management Methodology (CA-PMM) as the state’s standardized tool to effectively manage IT
+projects. This methodology, along with associated policies for using the CA-PMM, represented a
+significant step towards strengthening IT project management in the state. As technology
+continues to evolve, CDT’s California Project Management Office (CA-PMO) performed a
+comprehensive review of the state’s IT project management policy and practices. As a result of
+this evaluation, the CA-PMM was found to be in need of replacement in order to meet the future
+needs of IT projects.
+
+The CA-PMO has designed the California Project Management Framework (CA-PMF) to provide
+Agencies/state entities with a solid foundation for project success. This new framework replaces
+the project management guidance and tools that were previously included in the CA-PMM. The
+CA-PMF offers guidance and insight on project management methods and approach (through the
+use of resources, tools, and templates), as well as narratives detailing the justifications for why
+specific activities should be performed. The CA-PMF is designed to be scalable to accommodate
+the various needs of projects.
+PURPOSE
+The purpose of this Technology Letter (TL) is to announce:
+   •   Effective immediately, the CA-PMF has replaced the CA-PMM as the state’s standard
+       methodology for IT project management.
+   •   Revised SAM Section 4819.2 to replace the definition of the CA-PMM with the CA-PMF.
+   •   Revised SAM Section 4819.31 to require the CA-PMF, or other Project Management Body Of
+       Knowledge (PMBOK® Guide) based comprehensive framework that meets the minimum level
+       of planning included in the CA-PMF, be used for managing all IT projects.
+   •   Revised SAM Sections 4910 and 4910.2 to describe project management and the CA-PMF.
+   •   Added SAM Section 4910.1 to outline project manager qualification requirements.
+   •   Revised SIMM Section 17 to replace all CA-PMM resources, tools and templates with the CA­
+       PMF.
+   •   Moved oversight related templates and instructions from SIMM Section 17 into SIMM Section 45
+       (IT Project Oversight Framework).
+   •   Existing CA-PMM training courses will be revised or replaced to conform to the new CA-PMF.
+The link to SIMM is as follows: http://www.cio.ca.gov/Government/IT_Policy/SIMM.html.
+
+                                                                                                 Page 1
+
+QUESTIONS
+Questions regarding this Technology Letter should be directed to your CDT IT Project Oversight
+Division Manager; assignments can be found at:
+http://www.cio.ca.gov/Contact_Us/staff_assignments.asp
+
+SIGNATURE
+                  ______________/s/________________________________________
+                  Amy Tong, Interim Director
+                  California Department of Technology
+
+                                                                                                 Page 2

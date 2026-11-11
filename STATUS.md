@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 91 |
-| standard | 57 |
+| policy | 203 |
+| standard | 83 |
 | statute | 28 |
+| executive_order | 11 |
 | rule | 6 |
-| executive_order | 6 |
 
-**Total: 188**
+**Total: 331**
 
 ## Source manifest
 
-391 declared source(s) across 1 group(s) in `source-manifest.yml`.
+447 declared source(s) across 1 group(s) in `source-manifest.yml`.
 
 ## Freshness (reverify every 90 days)
 
-188 of 188 document(s) overdue for re-verification.
+331 of 331 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -59,20 +59,20 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | or-oar-128-40 | rule | never |
 | or-oar-128-50 | rule | never |
 | ca-eo-b-34-15 | executive_order | never |
+| ca-eo-n-12-23 | executive_order | never |
+| ca-eo-n-30-25 | executive_order | never |
+| ca-eo-n-5-26 | executive_order | never |
+| ca-eo-n-6-26 | executive_order | never |
+| ca-eo-n-9-26 | executive_order | never |
 | wa-eo-00-02 | executive_order | never |
 | wa-eo-16-01 | executive_order | never |
 | wa-eo-19-04 | executive_order | never |
 | wa-eo-24-01 | executive_order | never |
 | wa-eo-91-10 | executive_order | never |
-| ca-sam-4800 | policy | never |
-| ca-sam-4900 | policy | never |
-| ca-sam-5000 | policy | never |
-| ca-sam-5100 | policy | never |
-| ca-sam-5200 | policy | never |
-| ca-sam-5300 | policy | never |
-| ca-sam-5900 | policy | never |
-| or-das-107-004-010 | policy | never |
-| or-das-107-004-015-pr | policy | never |
-| or-das-107-004-015 | policy | never |
-| … | *138 more* | |
+| ca-genai-guidelines | policy | never |
+| ca-itpl-09-03 | policy | never |
+| ca-itpl-09-05 | policy | never |
+| ca-itpl-10-01 | policy | never |
+| ca-itpl-10-02 | policy | never |
+| … | *281 more* | |
 

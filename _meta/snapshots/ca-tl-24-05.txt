@@ -1,0 +1,23 @@
+Technology Letter 24-05
+November 2024
+SUBJECT:
+New SIMM 5330-H Information Security Policy Compliance and Enforcement Standard
+REFERENCES:
+Government Code 11546.1 & 11549.3
+State Administrative Manual (SAM) 5300
+Statewide Information Management Manual (SIMM) 5330-H
+National Institute of Technology (NIST) Framework 2.0
+BACKGROUND
+Information security governance is vital to managing and mitigating information security and privacy risk. It involves several critical components, including, but not limited to, defining organizational priorities and risk thresholds, evaluating risk, establishing comprehensive policies and procedures, and clarifying roles and responsibilities related to information security.
+Government Code Section 11549.3 allows the Office of Information Security (OIS) to create, issue, and maintain policies, standards, and procedures; oversee information security risk management for state entities; provide information security and privacy guidance; and ensure compliance with State Administrative Manual (SAM) Chapter 5300 and Statewide Information Management Manual (SIMM) section 5300. This Standard supports State Administrative Manual (SAM) 5300 by establishing information security compliance and an enforcement protocol.
+Governance is included in the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF) 2.0. The NIST Governance function guides organizations in implementing the remaining five functions: identification, protection, detection, response, and recovery.
+PURPOSE:
+The purpose of this Technology Letter (TL) is to announce:
+• The new Statewide Information Management Manual (SIMM) 5330-H, Information Security Policy Compliance and Enforcement Standard outlines how the Office of Information Security (OIS) exercises its oversight responsibilities and the consequences of non-compliance with information security and privacy policies, standards, and procedures established by OIS.
+• This standard applies to all California state entities, including agencies, departments, divisions, bureaus, boards, and commissions, as defined in Government Code (GC) Section 11546.1, responsible for information security activities.
+QUESTIONS:
+Direct questions regarding this Technology Letter to the Department of Technology, Office of Information Security at security@state.ca.gov.
+SIGNATURE:
+On file
+Liana Bailey-Crimmins, State CIO and Director
+California Department of Technology

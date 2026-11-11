@@ -1,0 +1,44 @@
+CALIFORNIA DEPARTMENT OF TECHNOLOGY                        NUMBER:                 DATE ISSUED:
+
+TECHNOLOGY LETTER                                          TL 16-03                FEBRUARY 2016
+
+SUBJECT:                                                   REFERENCES:
+                                                           Government Code Sections 11549.3
+UPDATES TO PERSONAL INFORMATION BREACH
+NOTIFICATION REQUIREMENTS                                  Civil Code Section 1798.29, 1798.82
+                                                           Statewide Information Management Manual
+                                                           (SIMM) Sections 5340-B and 5340-C
+
+BACKGROUND
+In 2015, California adopted Assembly Bill (AB) 964, and Senate Bills (SB) 34 and SB 570, amending
+California’s Breach Notification law (Civil Code Sections 1798.29 and 1798.82). AB 964 added a
+definition for the term “encrypted.” SB 34 added Automated License Plate Recognition (ALPR) System
+information as an additional “notice triggering” data element. Lastly, SB 570 specified both format and
+content requirements for breach notifications. These changes to law took effect on January 1, 2016.
+The California Department of Technology, Information Security Office has updated the policies in the
+State Information Management Manual (SIMM) to clarify this change and assist Agencies/state entities
+in their compliance with information security and privacy requirements.
+
+PURPOSE
+ The purpose of this TL is to:
+
+    •   Ensure Agencies/state entities are made aware of the changes to breach notification
+        requirements.
+    •   Announce and disseminate updates to the Information Security Incident Report form (SIMM
+        5340-B) and the Requirements to Respond to Incidents Involving a Breach of Personal
+        Information (SIMM 5340-C), including updated breach notification templates presenting the
+        prescribed format and content.
+    •   Direct Agencies/state entities to update their internal processes and procedures to comply
+        with the new requirements.
+
+ Agencies/state entities must review the SIMM 5340-B and SIMM 5340-C updates, and ensure these
+ updates are incorporated into their incident reporting and response processes and procedures.
+QUESTIONS
+Questions regarding this Technology Letter should be directed to the California Information Security
+Office at (916) 445-5239 or Security@state.ca.gov
+
+SIGNATURE
+
+                     /s/
+                   Carlos Ramos, Director
+                   California Department of Technology

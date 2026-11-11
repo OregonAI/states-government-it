@@ -1,0 +1,69 @@
+SIMM 55 FAQs – Information Technology Cost Report
+Frequently Asked Questions as of September 2022
+Overview
+Per Technology Letter (TL) 17-01, all Agencies/state entities shall submit a summary of actual and projected information technology, telecommunications, and information security costs for the immediately preceding fiscal year and current fiscal year.
+The summary must include current expenses and projected expenses for the current fiscal year in order to capture statewide information technology spend, including federal grant funds for information security purposes.
+FAQs
+1. Are all the spreadsheets on the Information Technology Cost Report workbook, including the IT Security Spend Summary and IT Security Spend Allocation spreadsheets for both fiscal years required to be completed?
+Per the instructions in SIMM 55, departments must complete and transmit all spreadsheets, including the IT Security Spend Summary and IT Security Spend Allocation spreadsheets for both fiscal years.
+2. Why are we reporting costs in actual dollar amounts instead of in thousands on tabs 5 and 6?
+Since tabs 1-4 are reported in actual dollar amounts, tabs 5 and 6 should be reported in actual dollar amounts as well to be more consistent and user-friendly.
+3.Why is there a tab for IT services and systems contracts?
+AB 137 (11546.45) is a new legislative mandate that requires California Department of Technology to collect state entities’ existing information technology service contracts to identify the services that would be appropriately centralized as shared services contracts.
+4.On tab 6, the instructions only ask for FY 2021-2022. Why are we not providing costs for FY 2022-2023?
+For tab 6, we are only asking for FY 2021-2022 because we only want actual encumbrances. We do not want FY 2022-2023 estimates as we normally do with the rest of the IT Cost Report.
+5. What is the statutory definition of IT services and systems contracts?
+IT services and systems contracts means contracts for services and systems, including, but not limited to, cloud services, including “Software as a Service”, “Infrastructure as a Service”, and “Platform as a Service”, on-premises services and systems, IT personal services, and IT consulting services.
+6. How do we differentiate between critical and non-critical IT services or systems?
+An IT service or system is considered a high-risk, critical IT service or system if the disclosure of that record would reveal vulnerabilities to an information system of a public agency. In other words, would disclosure of this procurement reveal vulnerabilities or increase the potential for an attack on an IT system of a public agency?
+7. Why isn’t the new category 9 for IT Services and Systems contracts on the roll up sheet on tab 5? What do we do with the IT contracts that don’t fall into the $500,000 range?
+All IT costs are captured in tab 5 under the 8 categories and any IT systems and services contracts that are over $500,000 are captured on tab 6. The intent of the two tabs is different. Tab 5 provides the overall IT spend, while tab 6 provides contracts over $500,000 so we can determine which services or licenses could be converted into enterprise licenses.
+8. On tab 6, should we input all individual PO/contracts that are $500,000 or more, or should the cumulative total for each vendor exceeding $500,000 or more be reported?
+Report PO/contracts that are $500,000 or more and report any IT spend that is $500,000 or more annually for a particular product/service. For example, if you have one contract for Manufacturer X for $550,000, you report it. In addition, if you have 5 separate POs (each $100K) from different resellers, but all are the same product/service from Manufacturer X, you report those as well.
+9. On tab 6, for multi-year contracts, do we input the amounts by PO/encumbrance for each fiscal year or by full contract amount?
+For multi-year contracts, provide the encumbrance amounts by fiscal year and not the full contract amount for the PO/contract.
+10. On tab 6, do we have to report for the whole department, or just the IT division within the department?
+You will report for the whole department that had contracts where spend was $500,000 or more for IT systems and services.
+11. On tab 6, since hardware is excluded from this report, how do we report contracts that are a combination of hardware and related IT services? Will we have to break out the costs to only report the cost for services if those services are over $500K?
+No, you do not need to break out the costs for IT services. Report the whole contract that is a combination of hardware and IT services. We asked to exclude hardware because we don’t need it but if IT services are included in those contracts, you can report the whole contract.
+12. On tab 6, what is the difference between IT personal services and IT consulting services?
+According to the FI$Cal chart of accounts, personal services are classified as salaries and wages. Consulting and professional services are classified as operating expense and equipment. A contract would not be split between consultant salaries and consultant services. The costs would be reported as one complete contract.
+13. Why is there a category for Cloud Services on tab 5?
+The state wants to evaluate total spend on Cloud Services (Infrastructure as a Service (IaaS), Platform as a Service (PaaS), and Software as a Service (SaaS)). The Cloud Services category was added to capture this spend separate from other categories since Cloud Services were previously reported as a subset of other categories. Most departments will not have itemized security costs associated with Cloud Services so detailed security spend is not needed. However, if your department does have itemized security costs, you may report it, but this is optional.
+14. What is the difference between a Software subscription and a SaaS subscription?
+Subscription cost for software hosted on-prem/onsite should be reported under the Software line item and subscription cost for SaaS/cloud accessed applications should be reported under the Cloud Services line item.
+15. Why were ‘Security IT Total’ and ‘Total IT Security Spend’ rows added to tab 5?
+In previous years, the template was only calculating the general IT total. The new total rows for security are designed to automatically calculate the security totals to ensure accuracy.
+16. Why were Network and Telecomm Costs columns added to tabs 1-4?
+The Network and Telecomm Costs columns were added so the summarized totals correspond with the Network and Telecomm IT security cost totals in tab 5.
+17. What is the reasoning behind the February 1st deadline?
+February 1st is the legislative deadline, which helps the legislature figure out the budget for the upcoming fiscal year.
+18. Why are the tabs in this order?
+The tabs are in order to progress from the most detailed (tabs 1-2; tabs 3-4) to the least detailed spend (tab 5). For example, tab 1 requires the most data, tab 2 pulls data from tab 1, and tab 5 summarizes the total spend.
+19. What do the different colored cells represent?
+The rows are color coordinated to differentiate between security IT (orange) and general IT (blue) spend.
+20. Should one-time project costs be included in the IT Cost Report?
+All IT project costs, including staff, one-time and ongoing maintenance should be reported in SIMM 55-B.
+21. Are departments supposed to report all department IT costs even when their IT is not centralized?
+Yes, include all IT cost information whether an Agency/state entity’s IT is centralized or not.
+22. What is included in #8 Mobile Phones? Does this include Jetpacks (Wifi hotspots), for example?
+Per the instructions in SIMM 55, departments should report the total number and costs associated with mobile phones and all costs associated to mobile phones and their respective, data internet and other usage plans.
+Additionally, the requirement to report Mobile Phones in the IT Cost Report only applies to devices that meet the definition of a Mobile Phone as identified in SIMM 55. Mobile computing devices with the capability to connect to a cellular network, such as wireless hotspots, do not meet this definition and should not be included in “Mobile Phone” line item of the IT Cost Report. Only mobile phone purchases that access the cellular network for voice and data and comply with the definition of a mobile phone should be added to this line item.
+23. How do we report infrastructure or services that are only partially utilized for security purposes? For example, a firewall or switch that has security features but has other purposes. Do I report this as Hardware or the sub-category Hardware, IT Security?
+If security is the primary purpose of the purchase, report the cost in the sub-category “Hardware, IT Security”, if not, then report the expense under “Hardware”.
+24. What types of costs should be reported under the Network Security domain?
+Report under the Network Security domain, any devices whose primary purpose is to protect computers and computer networks from attack and infiltration. Typical costs are firewalls, Next Generation Firewalls (NGFW), Network Intrusion Detection and Prevention (NIDS and NIPS), Virtual Private Networking (VPN), Hardware Security Modules (HSM) Proxy Servers, and Unified Threat Management (UTM).
+25. Our department provides the infrastructure and network security and/or hosts systems for other departments, Boards or Commissions. How do I report IT Security costs if some costs benefit other departments or are shared with other departments?
+For this year’s report, include incurred costs whether for the direct benefit of your department and/or other departments that receive your services. Notate in the comments section the departments, Boards and Commissions who receive security services through that spend.
+26. How do I calculate the Personnel PY Costs on the IT Security Spend Allocation worksheet? Many staff within our IT organization perform duties that have a security component.
+For Personnel PY Costs on the IT Security Spend Allocation worksheet, report only staff whose primary responsibilities are IT Security.
+27. What is the difference between IT Security Contractor Personnel, IT Security Services and IT Security Consulting on the IT Security Spend Allocation worksheet?
+• IT Security Contractor Personnel costs are for contractors who are on-site performing security related duties as their primary duties. These may include network monitoring, security hardware maintenance, patching or other security related duties.
+• IT Security Services are costs for outsourced services such as monitoring and/or managing security devices, remote or subscription-based monitoring, management of firewalls and advisory services that analyze and improve security strategy and operations. Report the cost of independent security assessments and information security audits in IT Security Services.
+• IT Security Consulting costs include consulting services used for purposes such as developing a departmental security plan or consulting to develop security technology strategies and implementation.
+28. If the security costs are incurred this FY but are for a multiple year lease, license or maintenance, do I report all costs in the year they were paid or do I pro-rate and report only a portion of the expense for the term of the lease, license or maintenance?
+Report all costs in the year incurred. Notate in the comments that costs are a multi-year expense and include the number of years.
+29. Why are we required to provide “new” and “renewal/maintenance” spend?
+CDT tracks ‘New’ investment versus ‘Renewal/maintenance’ (ongoing costs) to have a better understanding of investments within each category and their relationship to performance trends overtime.
+30. The spreadsheet template is locked, and my department has more than the 25 rows provided to insert data in Tab 1 and Tab 3 (A4 – A28). What should I do?
+Contact ITPolicy and we will provide an updated template with additional rows.

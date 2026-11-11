@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 188,
+ "n_nodes": 331,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -215,6 +215,36 @@
    "path": "executive-orders/california/ca-eo-b-34-15.md"
   },
   {
+   "id": "ca-eo-n-12-23",
+   "title": "Generative Artificial Intelligence",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-n-12-23.md"
+  },
+  {
+   "id": "ca-eo-n-30-25",
+   "title": "Government Efficiency and Innovation",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-n-30-25.md"
+  },
+  {
+   "id": "ca-eo-n-5-26",
+   "title": "Responsible AI Procurement",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-n-5-26.md"
+  },
+  {
+   "id": "ca-eo-n-6-26",
+   "title": "AI Workforce Impact",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-n-6-26.md"
+  },
+  {
+   "id": "ca-eo-n-9-26",
+   "title": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-n-9-26.md"
+  },
+  {
    "id": "wa-eo-00-02",
    "title": "Computer Software Piracy",
    "doc_type": "executive_order",
@@ -243,6 +273,120 @@
    "title": "Establishing the Governor's Policy on Electronic Message Systems",
    "doc_type": "executive_order",
    "path": "executive-orders/washington/wa-eo-91-10.md"
+  },
+  {
+   "id": "ca-genai-guidelines",
+   "title": "State of California GenAI Guidelines for Public Sector Procurement, Uses and Training",
+   "doc_type": "policy",
+   "path": "policies/california/ca-genai-guidelines.md"
+  },
+  {
+   "id": "ca-itpl-09-03",
+   "title": "Establishment of a Statewide Enterprise Architecture and the Associated Policy and Process",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-09-03.md"
+  },
+  {
+   "id": "ca-itpl-09-05",
+   "title": "AIO/CIO Reporting",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-09-05.md"
+  },
+  {
+   "id": "ca-itpl-10-01",
+   "title": "Open Source Software Policy",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-01.md"
+  },
+  {
+   "id": "ca-itpl-10-02",
+   "title": "Social Media",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-02.md"
+  },
+  {
+   "id": "ca-itpl-10-03",
+   "title": "Telework and Remote Access",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-03.md"
+  },
+  {
+   "id": "ca-itpl-10-05",
+   "title": "Information Technology Project Oversight Framework",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-05.md"
+  },
+  {
+   "id": "ca-itpl-10-07",
+   "title": "Project Status Reporting and Enterprise Architecture Reporting",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-07.md"
+  },
+  {
+   "id": "ca-itpl-10-08",
+   "title": "Infrastructure Consolidation Program Progress Report Scorecards",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-08.md"
+  },
+  {
+   "id": "ca-itpl-10-09-faqs",
+   "title": "Power Management and Shutdown Frequently Asked Questions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-09-faqs.md"
+  },
+  {
+   "id": "ca-itpl-10-09",
+   "title": "Power Management and Shutdown",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-09.md"
+  },
+  {
+   "id": "ca-itpl-10-10",
+   "title": "Information Technology Accessibility",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-10.md"
+  },
+  {
+   "id": "ca-itpl-10-13",
+   "title": "Security Reporting Scorecards",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-13.md"
+  },
+  {
+   "id": "ca-itpl-10-14",
+   "title": "Data Center Assignments and Consolidation",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-14.md"
+  },
+  {
+   "id": "ca-itpl-10-15",
+   "title": "Enterprise Architecture Standards and Procedures",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-15.md"
+  },
+  {
+   "id": "ca-itpl-10-16",
+   "title": "Server Virtualization",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-16.md"
+  },
+  {
+   "id": "ca-itpl-10-17",
+   "title": "Establishment of the Identify and Access Management (IdAM) Policy",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-17.md"
+  },
+  {
+   "id": "ca-itpl-10-19",
+   "title": "Smartphone and Other Mobile Computing Device Security",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-10-19.md"
+  },
+  {
+   "id": "ca-itpl-11-03",
+   "title": "Review of Formal Information Technology Solicitations",
+   "doc_type": "policy",
+   "path": "policies/california/ca-itpl-11-03.md"
   },
   {
    "id": "ca-sam-4800",
@@ -285,6 +429,564 @@
    "title": "State Administrative Manual chapter 5900: Information Technology - Disposal of IT Equipment",
    "doc_type": "policy",
    "path": "policies/california/ca-sam-5900.md"
+  },
+  {
+   "id": "ca-simm-05a",
+   "title": "Reporting schedules",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-05a.md"
+  },
+  {
+   "id": "ca-simm-10-flow",
+   "title": "Project Reporting Process Flow",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-10-flow.md"
+  },
+  {
+   "id": "ca-simm-10",
+   "title": "Project Reporting Flow Process",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-10.md"
+  },
+  {
+   "id": "ca-simm-110",
+   "title": "AIMS Document Guidelines",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-110.md"
+  },
+  {
+   "id": "ca-simm-120",
+   "title": "Software Management Plan Guidelines",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-120.md"
+  },
+  {
+   "id": "ca-simm-130",
+   "title": "Workgroup Collaboration Platform Guidelines",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-130.md"
+  },
+  {
+   "id": "ca-simm-140",
+   "title": "Cloud Security Guide",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-140.md"
+  },
+  {
+   "id": "ca-simm-141",
+   "title": "California Cloud Services Assessment Guide",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-141.md"
+  },
+  {
+   "id": "ca-simm-150",
+   "title": "Generative Artificial Intelligence Risk Assessment for General Office Productivity",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-150.md"
+  },
+  {
+   "id": "ca-simm-15a",
+   "title": "Project Cost Delegation Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-15a.md"
+  },
+  {
+   "id": "ca-simm-160",
+   "title": "Maintenance & Operations Plan Guidelines",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-160.md"
+  },
+  {
+   "id": "ca-simm-170a",
+   "title": "General Requirements Guidelines",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-170a.md"
+  },
+  {
+   "id": "ca-simm-170b",
+   "title": "Project Requirements Development Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-170b.md"
+  },
+  {
+   "id": "ca-simm-18",
+   "title": "IT Exemptions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-18.md"
+  },
+  {
+   "id": "ca-simm-180",
+   "title": "Statement of Work (SOW) Guidelines",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-180.md"
+  },
+  {
+   "id": "ca-simm-19a-1",
+   "title": "Preparation Instructions for Stage 1",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-19a-1.md"
+  },
+  {
+   "id": "ca-simm-19b-1",
+   "title": "Preparation Instructions for Stage 2",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-19b-1.md"
+  },
+  {
+   "id": "ca-simm-19b-4",
+   "title": "Procurement Assessment Form Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-19b-4.md"
+  },
+  {
+   "id": "ca-simm-19c-1",
+   "title": "Preparation Instructions for Stage 3",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-19c-1.md"
+  },
+  {
+   "id": "ca-simm-19d-1",
+   "title": "Preparation Instructions for Stage 4",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-19d-1.md"
+  },
+  {
+   "id": "ca-simm-19e-1",
+   "title": "Preparation Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-19e-1.md"
+  },
+  {
+   "id": "ca-simm-19f-1",
+   "title": "Preparation Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-19f-1.md"
+  },
+  {
+   "id": "ca-simm-22a",
+   "title": "COTS/SaaS Acquisition Information Preparation Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-22a.md"
+  },
+  {
+   "id": "ca-simm-25a",
+   "title": "Information Technology Accessibility Resource Guide",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-25a.md"
+  },
+  {
+   "id": "ca-simm-30",
+   "title": "SPR Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-30.md"
+  },
+  {
+   "id": "ca-simm-30c",
+   "title": "SPR Economic Analysis Workbook (EAW) Package Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-30c.md"
+  },
+  {
+   "id": "ca-simm-40a",
+   "title": "Internet Domain Name Taxonomy Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-40a.md"
+  },
+  {
+   "id": "ca-simm-40b",
+   "title": "Internet Domain Name Taxonomy FAQs",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-40b.md"
+  },
+  {
+   "id": "ca-simm-45",
+   "title": "IT Project Oversight Framework",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-45.md"
+  },
+  {
+   "id": "ca-simm-45f",
+   "title": "Project Status Reports Preparation Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-45f.md"
+  },
+  {
+   "id": "ca-simm-55a",
+   "title": "IT Cost Report Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-55a.md"
+  },
+  {
+   "id": "ca-simm-55d",
+   "title": "IT Cost Report FAQs",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-55d.md"
+  },
+  {
+   "id": "ca-simm-58c",
+   "title": "Enterprise Architecture Glossary",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-58c.md"
+  },
+  {
+   "id": "ca-simm-71a",
+   "title": "Certification of Compliance with IT Policies Preparation Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-71a.md"
+  },
+  {
+   "id": "ca-tl-11-01",
+   "title": "Establishment of the Technology Letter Format and Process",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-11-01.md"
+  },
+  {
+   "id": "ca-tl-11-03",
+   "title": "Rescission of IT Acquisition Plan Policies",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-11-03.md"
+  },
+  {
+   "id": "ca-tl-11-04",
+   "title": "IT Delegated Cost Thresholds",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-11-04.md"
+  },
+  {
+   "id": "ca-tl-12-02",
+   "title": "Data Center Assignments and Consolidation",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-02.md"
+  },
+  {
+   "id": "ca-tl-12-03",
+   "title": "Supersede Low Power Computing Directive",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-03.md"
+  },
+  {
+   "id": "ca-tl-12-04",
+   "title": "Supersede Service Contracts with Information Technology (SCIT) Components Review with New Process",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-04.md"
+  },
+  {
+   "id": "ca-tl-12-05",
+   "title": "Supersede Computer Room Construction Approval Process with New Process",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-05.md"
+  },
+  {
+   "id": "ca-tl-12-07",
+   "title": "Suspend Enterprise Architecture Reporting",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-07.md"
+  },
+  {
+   "id": "ca-tl-12-08",
+   "title": "Exemption Process When No Mandatory IT Leveraged Procurement Agreement Exists",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-08.md"
+  },
+  {
+   "id": "ca-tl-12-09",
+   "title": "Updating SAM Definitions Pertaining to IT Projects: Feasibility Study Report (FSR) Improvement Quick Win",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-09.md"
+  },
+  {
+   "id": "ca-tl-12-10",
+   "title": "Streamline Security Compliance Forms",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-10.md"
+  },
+  {
+   "id": "ca-tl-12-11",
+   "title": "Improved Security Risk Assessment Tool",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-11.md"
+  },
+  {
+   "id": "ca-tl-12-15",
+   "title": "Encrypting Mainframe and Server Tapes",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-15.md"
+  },
+  {
+   "id": "ca-tl-12-16",
+   "title": "Incident Response Requirements",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-16.md"
+  },
+  {
+   "id": "ca-tl-12-17",
+   "title": "Update to Feasibility Study Report (FSR) Procurement Planning",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-12-17.md"
+  },
+  {
+   "id": "ca-tl-13-04",
+   "title": "Update to Information Security Policy",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-13-04.md"
+  },
+  {
+   "id": "ca-tl-14-05",
+   "title": "Information Technology Capital Plan (ITCP) Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-14-05.md"
+  },
+  {
+   "id": "ca-tl-15-01",
+   "title": "COTS/SaaS Project Approval Delegation",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-15-01.md"
+  },
+  {
+   "id": "ca-tl-15-02",
+   "title": "Revised Project Approval Lifecycle, Stage 1 Business Analysis and Stage 2 Alternatives Analysis",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-15-02.md"
+  },
+  {
+   "id": "ca-tl-15-03",
+   "title": "Plan of Action and Milestones Standard",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-15-03.md"
+  },
+  {
+   "id": "ca-tl-15-04",
+   "title": "Conceptually Approved Information Technology (IT) Project Proposals Report",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-15-04.md"
+  },
+  {
+   "id": "ca-tl-15-05",
+   "title": "Web Accessibility",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-15-05.md"
+  },
+  {
+   "id": "ca-tl-16-02",
+   "title": "Project Approval Lifecycle, Stage 3 Solution Development",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-16-02.md"
+  },
+  {
+   "id": "ca-tl-16-03",
+   "title": "Updates to Personal Information Breach Notification Requirements",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-16-03.md"
+  },
+  {
+   "id": "ca-tl-16-04",
+   "title": "California Project Management Framework",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-16-04.md"
+  },
+  {
+   "id": "ca-tl-16-05",
+   "title": "California Compliance and Security Incident Reporting System (CAL-CSIRS)",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-16-05.md"
+  },
+  {
+   "id": "ca-tl-16-06",
+   "title": "Updated IT Accessibility Resource Guide",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-16-06.md"
+  },
+  {
+   "id": "ca-tl-16-07",
+   "title": "Project Approval Lifecycle, Stage 4 Project Readiness and Approval",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-16-07.md"
+  },
+  {
+   "id": "ca-tl-16-08",
+   "title": "Project Approval Lifecycle, Stage 1 Business Analysis Delegation",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-16-08.md"
+  },
+  {
+   "id": "ca-tl-17-01",
+   "title": "Updated Information Technology Cost Report",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-17-01.md"
+  },
+  {
+   "id": "ca-tl-17-02",
+   "title": "Mobile Phone & Mobile Computing Device Requests",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-17-02.md"
+  },
+  {
+   "id": "ca-tl-17-03",
+   "title": "Updates to Personal Information Breach Notification Requirements",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-17-03.md"
+  },
+  {
+   "id": "ca-tl-17-04",
+   "title": "Updated IT Project Oversight Framework",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-17-04.md"
+  },
+  {
+   "id": "ca-tl-17-07",
+   "title": "Updated Project Status Report and Independent Project Oversight Report",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-17-07.md"
+  },
+  {
+   "id": "ca-tl-18-02",
+   "title": "Open Source and Code Reuse",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-18-02.md"
+  },
+  {
+   "id": "ca-tl-18-03",
+   "title": "Recovery and Response Plans for Critical Infrastructure",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-18-03.md"
+  },
+  {
+   "id": "ca-tl-18-04",
+   "title": "Website Standards",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-18-04.md"
+  },
+  {
+   "id": "ca-tl-18-05",
+   "title": "Website Accessibility Certification",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-18-05.md"
+  },
+  {
+   "id": "ca-tl-18-06",
+   "title": "IT Project Procurement Authority",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-18-06.md"
+  },
+  {
+   "id": "ca-tl-19-01",
+   "title": "Open Data",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-19-01.md"
+  },
+  {
+   "id": "ca-tl-19-02",
+   "title": "Post Evaluation for IT Services Contracts",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-19-02.md"
+  },
+  {
+   "id": "ca-tl-20-01",
+   "title": "Workgroup Collaboration Platform",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-20-01.md"
+  },
+  {
+   "id": "ca-tl-21-01",
+   "title": "Project Cost Delegation",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-21-01.md"
+  },
+  {
+   "id": "ca-tl-21-02",
+   "title": "Internet Domain Name Policy Update",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-21-02.md"
+  },
+  {
+   "id": "ca-tl-22-02",
+   "title": "Internet Access Policy",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-22-02.md"
+  },
+  {
+   "id": "ca-tl-23-01",
+   "title": "Multi-Factor Authentication Standard",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-23-01.md"
+  },
+  {
+   "id": "ca-tl-23-03",
+   "title": "Update To Cloud Computing Policy – Cloud Smart",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-23-03.md"
+  },
+  {
+   "id": "ca-tl-24-01",
+   "title": "Generative Artificial Intelligence (GenAI) Inventory, Procurement, and Risk Assessment for Executive Order N-12-23",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-24-01.md"
+  },
+  {
+   "id": "ca-tl-24-02",
+   "title": "IT Training and Employee Development Policy Update",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-24-02.md"
+  },
+  {
+   "id": "ca-tl-24-03",
+   "title": "Update to Technology Letter (TL) 24-01 Generative Artificial Intelligence (GenAI) Inventory, Procurement, and Risk Assessment for Executive Order N-12-23",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-24-03.md"
+  },
+  {
+   "id": "ca-tl-24-04",
+   "title": "New SIMM 5355-B Server Hardening Standard & SIMM 5330-G Supported Technology Program Agreement",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-24-04.md"
+  },
+  {
+   "id": "ca-tl-24-05",
+   "title": "New SIMM 5330-H Information Security Policy Compliance and Enforcement Standard",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-24-05.md"
+  },
+  {
+   "id": "ca-tl-25-01",
+   "title": "Information Technology (IT) Policies for Generative Artificial Intelligence (GenAI)",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-25-01.md"
+  },
+  {
+   "id": "ca-tl-25-02",
+   "title": "SIMM 5330-A Designation Letter and SIMM 5330-D Designation Letter Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-25-02.md"
+  },
+  {
+   "id": "ca-tl-25-03",
+   "title": "SIMM 5320-A Phishing Exercise Standard",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-25-03.md"
+  },
+  {
+   "id": "ca-tl-25-04",
+   "title": "New SIMM 5335-B Continuous Security Monitoring and Event Management Standard and SIMM 5335-C MITRE ATT&CK Framework",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-25-04.md"
+  },
+  {
+   "id": "ca-tl-25-05",
+   "title": "SIMM 5350-A Zero Trust Architecture Standard and SIMM 5350-B Zero Trust Architecture Roadmap",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-25-05.md"
+  },
+  {
+   "id": "ca-tl-26-01",
+   "title": "SIMM 5340-A Information Security Incident Response and Reporting",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-26-01.md"
+  },
+  {
+   "id": "ca-tl-26-02",
+   "title": "Project Approval Lifecycle (PAL) and Project Delivery Lifecycle (PDL) Pathway Options",
+   "doc_type": "policy",
+   "path": "policies/california/ca-tl-26-02.md"
   },
   {
    "id": "or-das-107-004-010",
@@ -789,6 +1491,162 @@
    "title": "Initial procurement guidelines for public sector procurement, deployment, and monitoring of Generative AI Technology",
    "doc_type": "policy",
    "path": "policies/washington/wa-watech-genai-procurement-guidelines.md"
+  },
+  {
+   "id": "ca-simm-5300-b",
+   "title": "Foundational Framework",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5300-b.md"
+  },
+  {
+   "id": "ca-simm-5305-a",
+   "title": "Information Security Program Management Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5305-a.md"
+  },
+  {
+   "id": "ca-simm-5305-b",
+   "title": "Risk Register and Plan of Action and Milestones Instructions",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5305-b.md"
+  },
+  {
+   "id": "ca-simm-5305-bc-faqs",
+   "title": "Risk Register and Plan of Action and Milestones FAQs",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5305-bc-faqs.md"
+  },
+  {
+   "id": "ca-simm-5305-f",
+   "title": "Generative Artificial Intelligence Risk Assessment",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5305-f.md"
+  },
+  {
+   "id": "ca-simm-5310-a",
+   "title": "Privacy Statement and Notices Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5310-a.md"
+  },
+  {
+   "id": "ca-simm-5310-b",
+   "title": "Privacy Individual Access Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5310-b.md"
+  },
+  {
+   "id": "ca-simm-5315-a",
+   "title": "Email Threat Protections Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5315-a.md"
+  },
+  {
+   "id": "ca-simm-5315-b",
+   "title": "Cloud Security Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5315-b.md"
+  },
+  {
+   "id": "ca-simm-5320-a",
+   "title": "Phishing Exercise Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5320-a.md"
+  },
+  {
+   "id": "ca-simm-5325-a",
+   "title": "Technology Recovery Plan Instructions",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5325-a.md"
+  },
+  {
+   "id": "ca-simm-5330-c",
+   "title": "Information Security Compliance Reporting Schedule",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5330-c.md"
+  },
+  {
+   "id": "ca-simm-5330-d",
+   "title": "Designation Letter Instructions",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5330-d.md"
+  },
+  {
+   "id": "ca-simm-5330-h",
+   "title": "Information Security Policy Compliance and Enforcement Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5330-h.md"
+  },
+  {
+   "id": "ca-simm-5335-a",
+   "title": "Security Event Notification and Response Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5335-a.md"
+  },
+  {
+   "id": "ca-simm-5335-b",
+   "title": "Continuous Monitoring and Event Management Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5335-b.md"
+  },
+  {
+   "id": "ca-simm-5340-a",
+   "title": "Information Security Incident Response and Reporting",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5340-a.md"
+  },
+  {
+   "id": "ca-simm-5340-c",
+   "title": "Requirements to Respond to Incidents Involving a Breach of Personal Information",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5340-c.md"
+  },
+  {
+   "id": "ca-simm-5345-a",
+   "title": "Vulnerability Management Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5345-a.md"
+  },
+  {
+   "id": "ca-simm-5350-a",
+   "title": "Zero Trust Architecture Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5350-a.md"
+  },
+  {
+   "id": "ca-simm-5355-a",
+   "title": "Endpoint Protection Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5355-a.md"
+  },
+  {
+   "id": "ca-simm-5355-b",
+   "title": "Office of Information Security Server Hardening Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5355-b.md"
+  },
+  {
+   "id": "ca-simm-5360-a",
+   "title": "Telework and Remote Access Security Standard",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5360-a.md"
+  },
+  {
+   "id": "ca-simm-5360-c",
+   "title": "Multi-Factor Authentication",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5360-c.md"
+  },
+  {
+   "id": "ca-simm-5360-d",
+   "title": "Multi-Factor Authentication Supplemental",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5360-d.md"
+  },
+  {
+   "id": "ca-simm-66b",
+   "title": "Social Media Standards",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-66b.md"
   },
   {
    "id": "or-eis-it-control-standards",

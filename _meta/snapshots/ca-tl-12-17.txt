@@ -1,0 +1,358 @@
+CALIFORNIA TECHNOLOGY AGENCY                                           NUMBER:           DATE ISSUED:
+
+TECHNOLOGY LETTER                                                      TL 12-17          DECEMBER 17, 2012
+SUBJECT:                                                               REFERENCES:
+UPDATE TO FEASIBILITY STUDY REPORT (FSR)                               SAM Section 4819.31, 4819.35
+PROCUREMENT PLANNING                                                   SIMM Section 05A, 20
+Clarifications to the Process to Submit IT Procurement
+                                                                       Technology Letter (TL) 12-1
+Strategy in FSR
+
+BACKGROUND
+
+The State of California utilizes the Feasibility Study Report (FSR) as the mechanism to approve
+information technology projects. The FSR establishes the business case for investing state resources in
+a proposed project and provides an analysis of its costs and benefits. The California Technology
+Agency (Technology Agency) has established the FSR format and preparation instructions in Section
+20 of the Statewide Information Management Manual (SIMM).
+
+Technology Letter (TL) 12-1 announced improvements to the FSR format and instructions. Changes in
+TL 12-1 included the elimination of the Information Technology Procurement Plan (ITPP), which was a
+tool to guide departments to the best procurement vehicle and type of contract for the proposed project.
+In 2012, the Technology Agency and the Department of General Services (DGS) agreed to eliminate
+the ITPP for reportable and non-reportable projects and replaced the ITPP with the procurement
+planning information already included in the FSR. In November of 2012, the DGS released changes to
+the State Contracting Manual (SCM) Volume 3.
+
+PURPOSE
+
+The purpose of this TL is to:
+           Announce changes to the State Administrative Manual (SAM) and SIMM to accord with
+           changes to SCM Volume 3 released in November of 2012 and clarify the process to submit IT
+           procurement information to DGS.
+           Supersede the portions of TL 12-1 relating to the ITPP with the provisions described in this TL.
+This TL is part of the Technology Agency’s continuing review of the State’s IT project lifecycle
+processes to ensure they meet their intended purpose in the most efficient manner.
+
+PROCESS
+
+Effective with the release of this TL, state entities1 are required to use the following process:
+
+For the DGS to evaluate and approve the proposed IT procurement strategy, state entities will be
+required, as applicable to the DGS Procurement Division (DGS-PD) requirements, to submit a copy of
+the FSR, sections 1 - 5, to the DGS-PD electronically to TABFSRs@dgs.ca.gov. The DGS-PD FSR
+requirements are located in the State Contracting Manual (SCM), Volume 3, Chapter 2, Section C,
+Topic 4.
+
+1
+ “State entity” refers to any office, department, board, bureau, commission, or other organizational entity in state
+government, including Agencies such as the Environmental Protection Agency or the Health and Human Services
+Agency.
+                                                                                                            Page 1
+
+ References to DGS requirements for FSR procurement planning information will be revised in SAM at
+the first opportunity. Revised SAM Sections 4819.31 and 4819.35 are included as Attachment A. The
+SCM, Volume 3 has already been updated to reflect IT procurement planning policy changes. State
+entities are required to use the updated FSR submittal instructions in SIMM Section 05A and the FSR
+preparation instructions in SIMM Section 20, which can be found on the Technology Agency Web site
+located at: Statewide Information Management Manual.
+
+QUESTIONS
+
+Questions should be directed to your Technology Agency Program Management Office (PMO) Principal
+or Manager. A listing of PMO Managers and Principals and their departmental assignment can be
+found on the Technology Agency Web site located at: Technology_Agency_PMO_Assignments.
+
+SIGNATURE
+
+                 _______/s/______________________________________________________
+                 Carlos Ramos, Secretary
+                 California Technology Agency
+
+                                                                                             Page 2
+
+                                                                                           Attachment A
+
+                          STATE ADMINISTRATIVE MANUAL EXCERPTS
+
+[Note: Text to be deleted is shown in strikethrough; text to be added is underlined.]
+
+SAM - Chapter 4800
+
+4819.31       BASIC POLICY
+(Revised 06/11 12/12)
+
+Each state agency is required to:
+   1. Establish and maintain a Disaster Recovery Plan, so that it will be able to protect its information
+      assets in the event of a disaster or serious disruption to its operations, and submit the plan or its
+      update to the Office of Information Security (OIS) as outlined in the Disaster Recovery Plan
+      Quarterly Reporting Schedule (SIMM Section 05). See SAM Sections 5350-5355.
+   2. Establish an ongoing information management strategic planning process to support the
+      accomplishment of its overall business strategy (i.e., its strategy to carry out its programmatic
+      mission) and submit its strategic plan to the Technology Agency for approval. See SAM Section
+      4900.2.
+   3. Adopt standards for an agency information technology infrastructure consistent with SAM
+      Section 4900.1.
+   4. Prepare annually an IT Capital Plan for long-term planning of the State's strategic IT
+      investments. See SAM Section 4904.
+   5. Use the California Project Management Methodology (CA-PMM) as described in SAM Section
+      4910 for managing all IT projects.
+   6. Implement their Enterprise Architecture in accordance with the guidelines and instructions
+      included in SIMM Section 58.
+   7. Conduct a feasibility study in order to establish the business case for each proposed information
+      technology project (development or acquisition) and obtain approval of the FSR from the
+      Technology Agency and Department of General Services Procurement Division (DGS-PD), if
+      applicable or, if approval authority has been delegated to the agency director, from the agency
+      director before expending any resources on the project. See SAM Sections 4819.34-4819.35
+      and the State Contracting Manual (SCM), Volume 3, Chapter 2, Section C, Topic 4.
+   8. Submit all Formal IT Solicitations, (as defined in the State Contracting Manual (SCM), Volume
+      3, Chapter 4, Section B1.0) to the Technology Agency for review prior to release to the public
+      and submit all IT RFPs (including all informal IT RFPs) to the DGS-PD for review prior to
+      release to the public. Final approval of all non-delegated solicitation documents resides with
+      DGS-PD. Review of Informal IT Solicitations is delegated to departments (except for informal
+      RFPs to DGS-PD as noted above). However if the solicitation exceeds a department’s
+      delegated purchasing authority issued by DGS-PD, it must be submitted to DGS-PD for
+      processing. The following materials shall be included with the Formal IT Solicitation package:
+           a. A completed and signed Formal Information Technology Solicitation Executive Approval
+              Transmittal, which is available in SIMM Section 28A.
+           b. All sections, appendices, attachments and exhibits comprising the Formal IT Solicitation.
+
+                                                                                                   Page 3
+
+                                                                                       Attachment A
+
+       c. The Information Technology Procurement Plan prepared in accordance with Volume 3,
+          Chapter 2, Section B3 of the SCM and approved by the DGS or, for Formal IT
+          Solicitations delegated by the DGS in accordance with SAM Section 5200.5, approved
+          by the department.
+   Review of Formal IT Solicitations is in addition to existing IT-related reporting and approval
+   requirements. The instructions and time frame for submitting Formal IT Solicitations to the
+   Technology Agency for review is specified in SIMM Section 05A.
+   For addenda focusing on Technical or Functional Requirements within the solicitation that are
+   specific to the California IT Strategic Plan, alignment with the Statewide Enterprise Architecture,
+   or alignment with IT reporting and approval requirements, the Technology Agency will
+   collaborate with the DGS-PD Procurement Division (PD), for DGS-Administered Procurements,
+   and with the issuing department, for delegated procurements, prior to release. All other addenda
+   will only be reviewed by the DGS-PD or the issuing department, as appropriate. The time frame
+   for submitting addenda is in the SCM, Volume 3 at the following link: DGS SCM
+
+   will be determined in collaboration with the Technology Agency and the DGS PD or with the
+   issuing department as appropriate.
+   Departments shall not be relieved of responsibility for major scope deviations within the Formal
+   IT Solicitations or addenda reviewed by the Technology Agency unless:
+       a. The department has specifically informed the Technology Agency-Program Management
+          Office (PMO) in writing of such major scope deviations at the time of submittal; and
+       b. The Technology Agency-OTech has given written approval of the specific deviation.
+9. Manage information technology projects following the established IT Project Oversight
+   Framework (SIMM Section 45) minimum requirements established in the California Project
+   Management Methodology (SIMM 17), to ensure that projects are completed on-time, within
+   budget, and that they accomplish the objectives defined in their FSRs. See SAM Section 4800.
+10. Protect the integrity of its information management capabilities and databases and ensure the
+    security and confidentiality of information it maintains.
+11. Establish an ongoing acquisition planning process for the FSR, sections 1 – 5, to develop IT
+    Procurement Plans (ITPP) for IT project acquisition of IT goods and services as determined by
+    the DGS-PD. Department of General Services.
+12. Agencies shall implement power management practices on all desktop and laptop computing
+    devices, thin client devices, printers, copiers, scanners, and monitors. During hours of normal
+    operation, devices which are not in use for 30 minutes shall automatically go into an energy-
+    saving mode. Devices shall be shut down at the end of the normal business day.
+
+   In addition, agencies shall fully implement power management software for desktop and laptop
+   devices by December 31, 2010, or six months after the 2010-11 Budget has been enacted,
+   whichever is later. Agencies shall also implement standby and shutdown practices for all
+   devices within the scope of this policy beginning December 31, 2010.
+
+   Exemptions must be approved in writing by the Agency Chief Information Officer (Agency CIO)
+   or the department's Chief Information Officer (CIO). Exemptions are limited to:
+           Devices which remain in active mode to meet State operational needs. An example of a
+           valid exemption would be a desktop computer and monitor utilized to manage batch
+           programs 24 hours per day, seven days per week.
+
+                                                                                               Page 4
+
+                                                                                   Attachment A
+
+       Facilities with electrical service bundled-in with facility lease contracts where state
+       entities would not likely receive offsetting benefits from acquired power management
+       software. In this instance, compliance can be achieved through the use of standard
+       operating systems functionality (e.g., Windows).
+If an agency fails to meet these requirements, the agency will be required to obtain Technology
+Agency approval before expending any resources on information technology projects.
+The project approval process is described in SAM Section 4819.354.
+
+                                                                                           Page 5
+
+                                                                                            Attachment A
+
+4819.35       FEASIBILITY STUDY REPORT
+(Revised 03/11 XX/12)
+
+   1. The mechanism for approving information technology projects is the Feasibility Study Report
+      (FSR). The FSR establishes the business case for investment of state resources in the project
+      by setting out the reasons for undertaking the project and analyzing its costs and benefits.
+   2. An FSR, prepared in accordance with SAM Section 4928, must be approved for every
+      information technology project prior to the encumbrance or expenditure of funds on the project,
+      including the use of staff resources, beyond the feasibility study stage. The only exception to
+      this requirement is that the feasibility studies for projects whose costs fall below a specified level
+      may be documented by means of a Project Summary Package (see SAM Section 4930 and
+      SIMM Section 20). Agencies are required to follow the SIMM Section 20 instructions for
+      preparing and submitting the FSR.
+   3. If, during project development or implementation, the agency finds that program requirements
+      cannot be adequately satisfied by the course of action described in the approved FSR and that
+      an alternative course of action is more appropriate, a Special Project Report (SPR) (SAM
+      Sections 4945-4945.2 and SIMM Section 30) shall be prepared. No encumbrance or
+      expenditure of funds, including the use of staff resources, shall be made to implement such
+      change or alternative course of action until approval has been received from the Technology
+      Agency, or from the agency director if the Technology Agency has delegated approval of the
+      project to the director and the project remains within the limitations of the agency's delegated
+      authority. SPRs that must be submitted to the Technology Agency must be transmitted within 30
+      days after recognition of the situation that necessitates preparation of the SPR. Agencies are
+      required to follow the SIMM Section 30 instructions for preparing and submitting the SPR.
+   4. Projects subject to approval by the Technology Agency (non-delegated projects) require
+      submission of an FSR to the Technology Agency and to the Office of the Legislative
+      Analyst. See SIMM Section 20. In addition, the FSR must be submitted to the Department of
+      General Services, Procurement Division (DGS-PD) when required by DGS-PD as stated in the
+      State Contracting Manual Volume 3, Chapter 2, Section C, Topic 4. when the contract total
+      exceeds the agency's delegated purchasing authority. See SIMM Section 20.
+   5. The DGS is responsible for policies and IT procurement processes for IT procurement. The
+      DGS-PD will review the procurement planning information in the FSR, as applicable, to evaluate
+      and approve the proposed IT procurement strategy. For the DGS to evaluate and approve the
+      proposed IT procurement strategy, agencies will be required, as applicable to the DGS-PD, to
+      submit a copy of the FSR, sections 1 - 5, to the DGS-PD electronically to
+      TABFSRs@dgs.ca.gov. The DGS-PD FSR requirements are located in the SCM, Volume 3,
+      Chapter 2, Section C, Topic 4. For projects reportable to the Technology Agency state agencies
+      must include the proposed IT procurement strategy. Prior to submission of the FSR
+      for the Technology Agency's review, state agencies must consult with DGS Procurement
+      Division to ensure project alignment with current procurement guidelines on all IT procurement
+      exceeding $500,000 or for all IT procurements if the agency does not hold a DGS Procurement
+      Division IT procurement delegation.
+   6. Projects whose approval has been delegated to the agency director normally require an FSR
+      prepared in accordance with SAM Section 4928 and approval of the FSR by the agency director
+      (SAM Sections 4921 and 4926). A copy of the report, including the Project Summary Package,
+      and a signed document indicating approval by the agency director must be on file in the agency.
+
+                                                                                                    Page 6
+
+                                                                                    Attachment A
+
+7. The Technology Agency must may decide to review specifications in procurement documents
+   before they are advertised to ensure that the specifications are consistent with the functional
+   specifications and system design in the FSR or SPR for the projects. See SAM Section 5211.1.
+
+                                                                                            Page 7
+
+                                                                                              Attachment B
+
+                 STATEWIDE INFORMATION MANAGEMENT MANUAL (SIMM) EXCERPTS
+
+   SIMM 05A: SUMMARY OF REQUIRED INFORMATION TECHNOLOGY REPORTS AND ACTIVITIES
+                               Revised December 2012
+
+                                                     Instructions to
+     Report/Activity             Source                                       Send to              Due Dates
+                                                      Departments
+Project-related Documents
+
+                                               Send an electronic copy to
+                                               the Technology Agency
+                                               PMO (FSRs, SPRs, and
+                                               FSR-RERs).
+
+                                               Send one hard copy to the
+                                               Legislative Analyst's Office
+                                               (LAO) (FSRs and SPRs
+                                               only).
+
+                                               For reportable projects that
+                                               contain a procurement
+                                                                                           Second Monday in
+                                               which exceeds the agency’s
+                                                                                           January each year if
+                                               DGS-delegated purchasing
+                                                                                           related to a budget action
+                                               authority, send a copy of the
+                                                                                           for the spring process and
+                                               FSR, sections 1-5 to the
+                                                                                           no deadlines if not tied to
+                                               DGS Procurement Division
+                                                                                           budget action.
+Feasibility Study Report                       (DGS-PD), if applicable. The
+                           SAM Sections 4819
+(FSR), Special Project                         DGS-PD FSR requirements Technology
+                           and 4920-4945                                                   Third Monday in July each
+Report (SPR), FSR-                             are located in the SCM,       Agency PMO1
+                                                                                           year if related to a budget
+Reporting Exemption                            Volume 3, Chapter 2,          LAO, DGS-PD
+                           ITPL10-07                                                       action for the fall process.
+Request (FSR-RER)                              Section C, Topic 4.
+                                                                                           FSRs, SPRs, or FSR-
+                                               For delegated or non-
+                                                                                           RERs that are not related
+                                               reportable projects that
+                                                                                           to a budget action can be
+                                               contain a procurement
+                                                                                           submitted at any time of
+                                               which exceeds the agency’s
+                                                                                           the year.
+                                               DGS-delegated purchasing
+                                               authority, send a copy of
+                                               sections 1-5 of a
+                                               Technology Agency non-
+                                               reportable or delegated
+                                               FSRs to the DGS-PD, if
+                                               applicable. The DGS-PD
+                                               FSR requirements are
+                                               located in the SCM, Volume
+                                               3, Chapter 2, Section C,
+                                               Topic 4. DGS considers
+                                               these to be Informal FSRs
+
+                                                                                                       Page 8
+
+                                                                                          Attachment B
+
+                        ITPL 11-03
+
+                        SAM Sections
+                                            Send an electronic copy to
+                        4819.31 and 4819.41                                            No later than 45 business
+Formal Solicitation                         the Technology Agency        Technology
+                                                                                       days prior to release to the
+Documents and Addenda                       PMO and DGS-PD (RFP          Agency PMO1
+                        SCM, Volume 3,                                                 public.
+                                            only).
+                        Chapter 4, Section
+                        B1.0
+
+   Budget-related Documents
+   Budget-related documents are Budget Change Proposals and Spring Finance Letters, which are
+   submitted to the Department of Finance (Finance). Please see Finance’s Budget Letters web page for
+   instructions and due dates at http://www.dof.ca.gov/budgeting/budget_letters/.
+
+   Addresses to Send Materials
+
+                                               CIOPMOSubmission@State.ca.gov
+                                               California Technology Agency
+Send Technology Agency documents to:
+                                               Attn: Program Management Office
+                                               1325 J Street, Suite 1600
+                                               Sacramento, CA 95814
+1Submit electronically to CIOPMOSubmission@State.ca.gov
+
+2Submit electronically to EASubmission@state.ca.gov
+
+                                               California Technology Agency
+                                               Attn: Office of Information Security
+Send OIS documents to:
+                                               P.O. Box 1810, Mail Stop Y-12
+                                               Rancho Cordova, CA 95741-1810
+
+Send LAO documents electronically to:          Lourdes.Morales@lao.ca.govMark.Newton@lao.ca.gov
+Send DGS documents electronically to:          TABFSRs@dgs.ca.gov
+
+   Budget-related Documents
+   Budget-related documents are Budget Change Proposals and Spring Finance Letters, which are
+   submitted to the Department of Finance (Finance). Please see Finance’s Budget Letters web page for
+   instructions and due dates at http://www.dof.ca.gov/budgeting/budget_letters/.
+
+                                                                                                   Page 9

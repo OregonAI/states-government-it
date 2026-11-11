@@ -1,0 +1,193 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: california
+id: ca-simm-19b-4
+title: Procurement Assessment Form Instructions
+doc_type: policy
+citation: SIMM 19B.4
+authority_level: ''
+issuing_body: California Department of Technology
+source_url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19B.4-Procurement-Assessment-Form-Instructions.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: f7da6c1dfda3e32729dc77aebba1245a39e24905872851fc35228541e291a125
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Procurement Assessment Form Instructions (SIMM 19B.4)
+
+## At a glance
+
+SIMM 19B.4, Procurement Assessment Form Instructions: an item of the SIMM's policies, the California Department of Technology's library of statewide IT policies, standards, instructions, forms and templates.
+
+## Full text
+
+               State of California
+
+          Department of Technology
+
+STP PAL Procurement Assessment
+                  Version 3.0.1
+
+            Preparation Instructions
+
+Statewide Information Management Manual – Section 19B
+
+                   February 2022
+
+                                INTRODUCTION TO
+                     THE STP PAL PROCUREMENT ASSESSMENT
+Overview
+The Statewide Technology Procurement (STP) Project Approval Lifecycle (PAL) Procurement
+Assessment is intended to assist the CDT in guiding agencies and state entities1 (state
+agencies/entities) through developing a successful acquisition strategy/plan for procuring IT services
+and meeting the CDT STP requirements for the documentation of proposals for non-delegated IT
+projects.
+
+The STP PAL Procurement Assessment instructions have been prepared to help the California
+Department of Technology (CDT) STP Procurement Officer complete the form.
+
+                                                     Clarifications
+    ✓ The CDT STP Procurement Officer should complete the STP PAL Procurement
+      Assessment in collaboration with the CDT Project Approvals & Oversight (PAO) Manager
+      and the state agency/entity’s Dedicated Procurement Official.
+    ✓ The state agency/entity’s Dedicated Procurement Official may pre-populate the form to
+      assist the CDT STP Procurement Officer.
+    ✓ The majority of questions included in the form are close-ended (e.g., Yes, No). A “Yes”
+      answer indicates the state agency/entity is (roughly) on target in the procurement process,
+      and further discussions may or may not be required. A “No” answer indicates additional
+      work (by the state agency/entity) is needed, and further conversations (and/or working
+      sessions) between the CDT STP Procurement Officer, the CDT PAO Manager, the state
+      agency/entity representatives, and the CDT Critical Partners are necessary.
+    ✓ The CDT STP Procurement Officer will send the most current version of the solicitation to
+      all PAL Critical Partners (i.e., CDT Enterprise Architecture, CDT Office of Information
+      Security, CDT PAO, Department of Finance) for their comments/feedback before releasing
+      (any phase of) the solicitation publically.
+    ✓ This form is intended to be completed iteratively through the PAL process.
+    ✓ The CDT STP Procurement Officer shall submit the final completed form to the CDT
+      Project Approval & Oversight Manager before formal Stage 4 Project Approval and
+      Readiness approval.
+    ✓ This form does not require a state agency/entity executive transmittal.
+    ✓ State agencies/entities may use this form to navigate other procurements, including
+      ancillary procurements or those unrelated to non-delegated IT projects.
+
+1
+ State entity: Includes every state office, officer, department, division, bureau, board, and commission,
+including Constitutional Officers. “State entity” does not include the University of California, California State
+University, the State Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the
+Legislative Counsel Bureau.
+California Department of Technology                                                                 1
+SIMM Section 19B STP PAL Procurement Assesssment (Version 3.0)
+B.4 Preparation Instructions                                                             February 2022
+
+                                                                   Table of Contents
+
+Overview ........................................................................................................................................................ 1
+STP PAL Procurement Assessment Instructions ............................................................................................ 3
+1. General Information ................................................................................................................................. 3
+2. PAL Stage 2 Alternatives Analysis ........................................................................................................... 3
+3. PAL Stage 3 Solution Analysis ................................................................................................................ 4
+References ..................................................................................................................................................... 4
+
+California Department of Technology                                                                                                           2
+SIMM Section 19B STP PAL Procurement Assessment (Version 3.0)
+B.4 Preparation Instructions                                                                                                 February 2022
+
+STP PAL Procurement Assessment Instructions
+
+1. General Information
+Agency/State Entity Information
+
+1. Agency or State Entity Name: Select the agency/state entity name that prepared and is
+   responsible for the Stage 2 Alternatives Analysis proposal.
+
+          If Agency/State entity not in list, then enter here: Enter the agency/state entity if not in
+          dropdown list above including Organization Code.
+
+2. Project Name: Enter the project name as indicated on the Stage 2 Alternatives Analysis.
+
+3. Proposal Name: Enter the proposal name and acronym as determined by the agency/state entity.
+
+4. Department of Technology Project Number: Enter the number assigned by the CDT in Stage 1
+   (in “0000-000” format).
+
+5. Service Request Number: Enter the Service Request Number issued by CDT for billing. If you do
+   not have a Service Request Number, please click on the link in the S2AA form to access the
+   ServiceNow page. A request can be placed through this service to obtain a service number for
+   billing.
+
+6. Project Manager: Enter the Contact Name and Contact Email in the areas provided.
+
+7. Dedicated Procurement Official: Enter the Contact Name and Contact Email in the areas
+   provided. Please get in touch with the CDT Project Approval & Oversight Manager immediately if
+   not known.
+
+CDT Information
+
+1. Project Approval & Oversight Manager: Enter the Contact Name and Contact Email in the
+   areas provided.
+
+2. STP Procurement Officer: Enter the Contact Name and Contact Email in the areas provided.
+
+3. STP Procurement Officer (Secondary): Enter the Contact Name and Contact Email in the areas
+   provided if one has been assigned.
+
+4. STP Branch Chief: Enter the Contact Name and Contact Email in the areas provided for the STP
+   Branch Chief to whom the STP Procurement Officer(s) report.
+
+2. PAL Stage 2 Alternatives Analysis
+The questions identified in this section are intended to:
+    •   Ensure compliance with state statutes and policies related to IT procurement
+    •   Identify procurement risks and dependencies
+    •   Identify procurement documents the state agency/entity has started (or needs to complete)
+    •   Determine an effective evaluation strategy
+California Department of Technology                                                        3
+SIMM Section 19B STP PAL Procurement Assessment (Version 3.0)
+B.4 Preparation Instructions                                                    February 2022
+
+3. PAL Stage 3 Solution Analysis
+The questions identified in this section are intended to:
+    •   Identify any modified or new requirements and outcomes not previously noted
+    •   Ensure the state agency/entity’s EA and ISO have reviewed the solicitation
+    •   Determine the solicitation’s evaluation readiness
+    •   Obtain PAL Critical Partner feedback
+    •   Classify the solicitation’s readiness for public consumption
+
+References
+State Administrative Manual
+Consolidated State Contracting Manual (Volume 2)
+Statewide Information Management Manual
+Government Code (GC)
+    Section 19130
+Public Contract Code (PCC)
+    Section 6611
+    Section 12100
+
+California Department of Technology                                                   4
+SIMM Section 19B STP PAL Procurement Assessment (Version 3.0)
+B.4 Preparation Instructions                                               February 2022
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

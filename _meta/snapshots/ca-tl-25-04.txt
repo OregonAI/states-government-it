@@ -1,0 +1,24 @@
+Technology Letter 25-04
+August 2025
+Subject:
+New SIMM 5335-B Continuous Security Monitoring and Event Management Standard and SIMM 5335-C MITRE ATT&CK Framework
+References:
+Government Code (GC) § 11549.3
+State Administration Manual (SAM) 5300
+State Information Management Manual (SIMM) 5335-A, 5335-B, 5335-C
+National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53, 800-53B
+Background
+As outlined in Government Code (GC) § 11549.3, the State Office of Information Security (OIS) is entrusted with developing, issuing, and maintaining policies, standards, and procedures. Overseeing information security risk management for agencies and state entities, providing information security and privacy guidance, and ensuring compliance with State Administrative Manual (SAM) Chapter 5300 and Statewide Information Management Manual (SIMM) § 5300.
+The SIMM 5335-B Continuous Security Monitoring and Event Management policy establishes the minimum functional requirements for continuous monitoring programs across the state. These standards ensure that state entities can effectively detect and respond to threats and vulnerabilities in real time.
+SIMM 5335-C MITRE ATT&CK (Adversarial Tactics, Techniques and Common Knowledge) Framework is a set of data matrices, and assessment tool developed by MITRE Corporation to help organizations understand their security readiness and uncover vulnerabilities in their defenses. This framework aligns with the NIST controls and is outlined in SIMM 5335-B Continuous Security Monitoring with the corresponding SIMM 5335- C MITRE ATT&CK policy to cover the Tactics, Techniques, and Procedures (TTPs). This framework highlights the critical role of each NIST control in mitigating real-world cybersecurity threats.
+Purpose:
+The purpose of this Technology Letter (TL) is to announce:
+• The new SIMM 5335-B Continuous Security Monitoring and Event Management Standard which outlines minimum functional capabilities of continuous monitoring programs and defines the types and prioritization of logs based on their relevance to risk management, regulatory requirements, and business objectives.
+• The new SIMM 5335-C MITRE ATT&CK Framework which maps NIST controls to corresponding MITRE ATT&CK coverage.
+• SIMM 141, California Cloud Services Assessment Guide, has been updated to include reference to SIMM 5335-B, mandating compliance with continuous monitoring for all cloud solutions.
+Questions:
+Direct questions regarding this Technology Letter to the Department of Technology, Office of Information Security at security@state.ca.gov.
+Signature:
+On file
+Jared Johnson, Chief Deputy Director
+California Department of Technology
