@@ -19,7 +19,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ("id", "url", "format", "citation", "title", "doc_type", "jurisdiction", "tags",
             "why_relevant")
-FORMATS = {"html", "pdf", "docx", "xlsx", "json", "xml", "txt"}
+FORMATS = {"html", "pdf", "doc", "docx", "xlsx", "json", "xml", "txt"}
 
 
 class DuplicateKeyError(ValueError):

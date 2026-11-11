@@ -78,7 +78,13 @@ def test_stub_and_watch_only_are_exclusive():
 
 def test_bad_url_and_undeclared_format_fail():
     assert errs(entry(url="ftp://x"))
-    assert errs(entry(format="doc"))
+    assert errs(entry(format="rtf"))
+
+
+def test_legacy_word_doc_is_a_declarable_format_for_a_stub():
+    # Washington publishes a policy only as a .doc; the toolkit's sniffer names the format "doc",
+    # so a stub for it must be able to declare it.
+    assert errs(entry(format="doc", stub=True, stub_reason="Word-only source")) == []
 
 
 def test_empty_list_fails_so_a_missing_manifest_cannot_pass():
