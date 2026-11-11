@@ -88,6 +88,48 @@ def oar_html_to_text(raw: bytes) -> str:
     return "\n".join(out) + "\n"
 
 
+def rcw_html_to_text(raw: bytes) -> str:
+    """The Legislature's RCW page (app.leg.wa.gov), either a whole chapter (`&full=true`) or one
+    section. Only the title block and the section content are the law: the site menu, the
+    chapter's section list, the PDF buttons and the footer are not. Output: the citation and
+    title, then for each section its `RCW x.y.z` line, caption, one line per paragraph, the
+    session-law history line and any NOTES, with a blank line before each section. Nothing
+    inside a section is dropped."""
+    page = _decode(raw)
+    block = re.search(r'id="ContentPlaceHolder1_pnlTitleBlock"(.*?)</div>\s*</div>|id="ContentPlaceHolder1_pnlTitleBlock"(.*?)</h2>',
+                      page, flags=re.S)
+    heads = re.findall(r"<h[12][^>]*>(.*?)</h[12]>", (block.group(0) if block else ""), flags=re.S)
+    body_start = page.find('id="ContentPlaceHolder1_dlSectionContent"')
+    if body_start < 0:                                  # a one-section page
+        body_start = page.find("id='contentWrapper'")
+    if not heads or body_start < 0:
+        raise ValueError("RCW page has no content region: the page layout changed")
+    end = page.find('id="ContentPlaceHolder1_pnlExpanded"', body_start)
+    end = page.rfind("<", 0, end) if end >= 0 else end
+    chapter = 'id="ContentPlaceHolder1_dlSectionContent"' in page[body_start:body_start + 60]
+    if not chapter and end < 0:
+        end = len(page)
+    start = page.index(">", body_start) + 1               # after the opening tag
+    region = page[start:] if chapter else page[start:end]
+    if chapter:
+        region = region[:region.rfind("</span>") + 7] if "</span>" in region else region
+        region = re.sub(r"<span>\s*<br>\s*<hr>", "\n\x00", region)
+    head = [_clean_line(re.sub(r"<!--.*?-->|<[^>]+>", "", g)) for g in heads]
+    region = re.sub(r"<!--.*?-->", "", region, flags=re.S)
+    region = re.sub(r"<a class=\"btn[^>]*>.*?</a>", "", region, flags=re.S)       # PDF buttons
+    region = re.sub(r"<(/?)(div|h[1-6]|p|tr)\b[^>]*>|<br\s*/?>|<hr\s*/?>", "\n", region, flags=re.I)
+    region = re.sub(r"<[^>]+>", "", region)
+    out = [line for line in head if line]
+    for raw_line in region.split("\n"):
+        marked = raw_line.startswith("\x00")
+        line = _clean_line(raw_line.replace("\x00", ""))
+        if marked and out:
+            out.append("")
+        if line:
+            out.append(line)
+    return "\n".join(out) + "\n"
+
+
 # pdftotext emits a typographic ligature glyph where a PDF used one ("conﬁgured"). It is the
 # same letters, but keyword search cannot match "conﬁgured" against "configured".
 _LIGATURES = {"\ufb00": "ff", "\ufb01": "fi", "\ufb02": "fl", "\ufb03": "ffi",
@@ -108,11 +150,13 @@ def pdf_to_text(raw: bytes) -> str:
     return text
 
 
-def to_text(raw: bytes, fmt: str, doc_type: str) -> str:
+def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon") -> str:
     """Bytes to the text committed as `<id>.txt` and hashed. A source this corpus has no
     cleanup for is refused: a generic tag-strip would commit navigation as law."""
     if fmt == "pdf":
         return pdf_to_text(raw)
+    if fmt == "html" and doc_type == "statute" and jurisdiction == "washington":
+        return rcw_html_to_text(raw)
     if fmt == "html" and doc_type == "statute":
         return ors_html_to_text(raw)
     if fmt == "html" and doc_type == "rule":
@@ -129,11 +173,15 @@ _US_DATE = re.compile(r"\b(\d{1,2})[/-](\d{1,2})[/-](\d{4})\b")   # 1/1/2010 or 
 _EFFECTIVE_LABEL = re.compile(r"effective\s+date|\beffective\s*:", flags=re.I)
 
 
-def effective_date(text: str) -> str | None:
+def effective_date(text: str, doc_type: str = "") -> str | None:
     """An ISO date, only when the source labels it `EFFECTIVE DATE` or `Effective:` and prints
     it with a month name or a four-digit year (slashes or hyphens). `09-08-08` is not guessed
     at; a memo's `Date:` is not an effective date; "effective immediately" is prose, not a
-    label. The first date within 200 characters after the first label is taken."""
+    label. The first date within 200 characters after the first label is taken. A statute never
+    gets one: a chapter is many sections, and the "Effective date" notes printed under them
+    (RCW) belong to the amending acts, not to the document."""
+    if doc_type == "statute":
+        return None
     m = _EFFECTIVE_LABEL.search(text)
     if not m:
         return None
@@ -194,6 +242,17 @@ def check_identity(src: dict, text: str) -> None:
                              f"does not appear in its text")
     if src["doc_type"] == "rule" and src["title"] not in text:
         raise ValueError(f"{src['id']}: page does not carry the seed title {src['title']!r}")
+    if src["doc_type"] == "executive_order":
+        number = re.search(r"\d{2,4}-\d{2}", src["citation"])
+        if not number or _squash(f"executive order {number.group(0)}") not in _squash(text):
+            raise ValueError(f"{src['id']}: PDF is not the cited instrument: "
+                             f"'Executive Order {number and number.group(0)}' does not appear in its text")
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "washington":
+        cite = src["citation"].replace("RCW chapter ", "Chapter ", 1)
+        want = f"{cite} RCW" if cite.startswith("Chapter ") else cite
+        if not text.startswith(want):
+            raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
+        return
     if src["doc_type"] == "statute":
         chapter = re.search(r"chapter\s+(\w+)", src["citation"], flags=re.I)
         if not chapter or not text.startswith(f"Chapter {chapter.group(1)} "):
@@ -214,6 +273,10 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
                 "kept as extracted; form feeds and trailing spaces removed; ligature glyphs such "
                 "as fi and fl written as their letters).")
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "washington":
+        return ("Text taken from the Legislature's RCW page: the citation and title, then each "
+                "section's caption, paragraphs, session-law history and notes, one line per "
+                "paragraph. Site menu, PDF buttons, the page's section list and footer removed.")
     if src["doc_type"] == "statute":
         return ("HTML paragraphs unwrapped to one line per source paragraph; markup, spacing "
                 "paragraphs and non-breaking spaces removed. The source serves the whole "
@@ -245,7 +308,7 @@ def derive(src: dict, raw: bytes) -> tuple[str, str]:
         raise ValueError(f"{fmt} is not a format this corpus can read")
     if fmt != declared:
         print(f"  {src['id']}: manifest says {declared}, bytes say {fmt} -- correct the manifest")
-    text = to_text(raw, fmt, src["doc_type"])
+    text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"])
     check_identity(src, text)
     return fmt, text
 
@@ -275,7 +338,7 @@ def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
         "source_format": fmt,
         "retrieved": retrieved_date(snap.fresh, path, snap.raw_path),
         "source_sha256": snap.sha256,
-        "effective_date": effective_date(text),
+        "effective_date": effective_date(text, src["doc_type"]),
         "source_version": source_version(text, src["doc_type"]),
         "status": "current",
         "content_mode": "verbatim",
@@ -322,7 +385,7 @@ def check(sources, config=CONFIG) -> list[str]:
         if body.strip() != body_for(src, text, notes, config).strip():
             problems.append(f"{sid}: document body differs from what the ingester derives "
                             f"from the snapshot and seed entry")
-        for key, want in (("effective_date", effective_date(text)),
+        for key, want in (("effective_date", effective_date(text, src["doc_type"])),
                           ("source_version", source_version(text, src["doc_type"])),
                           ("source_format", fmt), ("conversion_notes", notes)):
             if fm.get(key) != want:
