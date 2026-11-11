@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import html as html_mod
+import inspect
 import io
 import json
 import re
@@ -315,6 +316,89 @@ def archive_eo_html_to_text(raw: bytes) -> str:
     parser.feed(page[head.start():tail.end()])
     parser._flush()
     return "\n".join(parser.lines) + "\n"
+
+
+# ---- California Department of Technology: Technology Letters and SIMM pages --------------
+#
+# www.cdt.ca.gov answers the toolkit's httpx client with a Cloudflare managed challenge and answers
+# system curl, sending the same User-Agent, with HTTP 200 (the Fetcher's opt-in curl transport,
+# see `make_fetcher`). Its letters and SIMM sections are WordPress pages built with Divi: the
+# instrument is the page from its <h1> to the department's footer section, minus the side and
+# "On this page" navigation (<nav>) and the print button.
+
+class _CdtParser(_SamParser):
+    """The text of a CDT page region. Block elements start a line (as in the SAM parser); a table
+    row is one line with its cells joined by ` | `; <nav> elements and the print button are
+    not text of the instrument."""
+
+    def __init__(self):
+        super().__init__()
+        self.nav = 0
+        self.print_button = False
+        self.cells = 0
+
+    def _flush(self):
+        """As the SAM parser, except that spaces the page's markup puts before a line are not
+        indentation: only a nested list item (a bullet or a number) is indented."""
+        raw = "".join(self.cur)
+        self.cur = []
+        line = " ".join(raw.split())
+        if line:
+            lead = len(raw) - len(raw.lstrip(" "))
+            self.lines.append(" " * lead + line if lead and re.match(r"(\u2022|\d+\.|[a-z]+\.) ", line) else line)
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "nav":
+            self._flush()
+            self.nav += 1
+            return
+        if self.nav:
+            return
+        if tag == "span" and dict(attrs).get("id") == "printbutton":
+            self.print_button = True
+            return
+        if tag in ("td", "th"):
+            if self.cells:
+                self.cur.append(" | ")
+            self.cells += 1
+            return
+        if tag == "tr":
+            self.cells = 0
+        super().handle_starttag(tag, attrs)
+
+    def handle_endtag(self, tag):
+        if tag == "nav":
+            self.nav = max(self.nav - 1, 0)
+            return
+        if self.nav:
+            return
+        if tag == "span" and self.print_button:
+            self.print_button = False
+            return
+        if tag in ("td", "th"):
+            return
+        super().handle_endtag(tag)
+
+    def handle_data(self, data):
+        if not self.nav and not self.print_button:
+            super().handle_data(data)
+
+
+def cdt_html_to_text(raw: bytes) -> str:
+    """A Department of Technology page (`www.cdt.ca.gov`): the page's <h1> to the start of the
+    footer section (the Divi section that holds the `footer-heading` headings), one line per
+    paragraph, heading, list item and table row. The site menu, the side navigation, the page's
+    contents list ("On this page"), the print button, scripts and the footer are not the instrument."""
+    page = _decode(raw)
+    start = page.find("<h1")
+    foot = page.find("footer-heading")
+    end = page.rfind('<div class="et_pb_section', 0, foot) if foot >= 0 else -1
+    if start < 0 or end <= start:
+        raise ValueError("no CDT page region (heading to footer section): the page layout changed")
+    parser = _CdtParser()
+    parser.feed(page[start:end])
+    parser._flush()
+    return re.sub(r"\n{3,}", "\n\n", "\n".join(parser.lines)).strip("\n") + "\n"
 
 
 # ---- California statutes: the Legislature's official bulk download ------------------------
@@ -653,7 +737,7 @@ def crs_html_to_text(raw: bytes, slice_: dict | None) -> str:
 
 
 def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
-            slice_: dict | None = None) -> str:
+            slice_: dict | None = None, host: str = "") -> str:
     """Bytes to the text committed as `<id>.txt` and hashed. A source this corpus has no
     cleanup for is refused: a generic tag-strip would commit navigation as law."""
     if fmt == "pdf":
@@ -662,6 +746,9 @@ def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
         return ca_bundle_to_text(raw)
     if fmt == "html" and doc_type == "rule" and jurisdiction == "california":
         return sos_html_to_text(raw)
+    if fmt == "html" and doc_type in ("policy", "standard") and jurisdiction == "california" \
+            and host == "www.cdt.ca.gov":
+        return cdt_html_to_text(raw)
     if fmt == "html" and doc_type == "policy" and jurisdiction == "california":
         return sam_html_to_text(raw)
     if fmt == "html" and doc_type == "executive_order" and jurisdiction == "california":
@@ -739,7 +826,8 @@ def check_identity(src: dict, text: str) -> None:
     policy or standard PDF carries the seed entry's `identity_text` (a phrase the document
     prints, for when its printed title differs from the seed title), else the citation's policy
     number (107-004-190 for 107-004-190_PR), else, when the citation has none, the seed title."""
-    if src["doc_type"] == "policy" and src["jurisdiction"] == "california":
+    if src["doc_type"] == "policy" and src["jurisdiction"] == "california" \
+            and src["citation"].startswith("SAM chapter"):
         chapter = re.fullmatch(r"SAM chapter (\d+)", src["citation"])
         if not chapter or not text.startswith(f"Chapter {chapter.group(1)} - Chapter-View\n"):
             raise ValueError(f"{src['id']}: page is not the cited instrument: "
@@ -779,7 +867,11 @@ def check_identity(src: dict, text: str) -> None:
         raise ValueError(f"{src['id']}: page does not carry the seed title {src['title']!r}")
     if src["doc_type"] == "executive_order" and src["jurisdiction"] == "california":
         cite = re.fullmatch(r"Executive Order ([A-Z]-\d{1,2}-\d{2})", src["citation"])
-        if not cite or text.splitlines()[:1] != [f"EXECUTIVE ORDER {cite.group(1)}"]:
+        # a page prints the heading as its first line (see archive_eo_html_to_text); a PDF prints it
+        # on a line of its own among the first few (after the "EXECUTIVE DEPARTMENT / STATE OF
+        # CALIFORNIA" letterhead, which pdftotext sometimes splits into odd words)
+        head = [_squash(l) for l in text.splitlines() if l.strip()][:8]
+        if not cite or f"executive order {cite.group(1).casefold()}" not in head:
             raise ValueError(f"{src['id']}: page is not the cited instrument: {src['citation']!r} "
                              f"does not match the order's heading line")
         return
@@ -909,7 +1001,8 @@ def derive(src: dict, raw: bytes) -> tuple[str, str]:
         raise ValueError(f"{fmt} is not a format this corpus can read")
     if fmt != declared:
         print(f"  {src['id']}: manifest says {declared}, bytes say {fmt} -- correct the manifest")
-    text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"], src.get("slice"))
+    text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"], src.get("slice"),
+                   urllib.parse.urlsplit(src.get("url") or "").hostname or "")
     check_identity(src, text)
     return fmt, text
 
@@ -1025,6 +1118,16 @@ def orphans(all_sources, config=CONFIG) -> list[str]:
     return problems
 
 
+def make_fetcher(config, cls=Fetcher):
+    """The Fetcher, with the toolkit's curl transport (ADR-0018) when the pinned toolkit has it.
+    cdt.ca.gov and gov.ca.gov challenge the Python client and answer system curl, with the same
+    honest User-Agent, with HTTP 200; a corpus on a toolkit without `curl_on_challenge` (v1.36.4)
+    gets the plain Fetcher and a challenged host stays a refusal. Passing the flag to a toolkit
+    that lacks it would be a TypeError, so the signature is read first."""
+    kwargs = {"curl_on_challenge": True} if "curl_on_challenge" in inspect.signature(cls.__init__).parameters else {}
+    return cls(config, **kwargs)
+
+
 def run(sources, fetcher, refetch, config=CONFIG):
     """Ingest every source; a failure is recorded and the rest still run."""
     done, failed = [], []
@@ -1058,7 +1161,7 @@ def main() -> int:
         print(f"{len(problems)} ingest problem(s)" if problems
               else f"ingest current: {len(sources)} documents re-derived from their snapshots")
         return 1 if problems else 0
-    with Fetcher(CONFIG) as fetcher:
+    with make_fetcher(CONFIG) as fetcher:
         done, failed = run(sources, fetcher, args.refetch)
     print(f"{len(done)} ingested, {len(failed)} failed")
     return 1 if failed else 0
