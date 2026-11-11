@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 359,
+ "n_nodes": 408,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -1043,16 +1043,82 @@
    "path": "policies/california/ca-tl-26-02.md"
   },
   {
-   "id": "co-oit-authority-memo",
-   "title": "OIT Authority & Governance Operations Memorandum",
+   "id": "co-oit-change-management-policy",
+   "title": "Enterprise IT Change Management Policy",
    "doc_type": "policy",
-   "path": "policies/colorado/co-oit-authority-memo.md"
+   "path": "policies/colorado/co-oit-change-management-policy.md"
+  },
+  {
+   "id": "co-oit-cisp-001",
+   "title": "Acceptable Use of State Data & Information Technology Resources",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-cisp-001.md"
+  },
+  {
+   "id": "co-oit-cisp-002",
+   "title": "Incident Response Policy",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-cisp-002.md"
+  },
+  {
+   "id": "co-oit-cisp-003",
+   "title": "Information Technology Security Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-cisp-003.md"
+  },
+  {
+   "id": "co-oit-cisp-004",
+   "title": "Data Security Policy",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-cisp-004.md"
+  },
+  {
+   "id": "co-oit-delegation-of-authority-policy",
+   "title": "Delegation of Authority Policy",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-delegation-of-authority-policy.md"
+  },
+  {
+   "id": "co-oit-delegation-of-authority-procedure",
+   "title": "Delegation of Authority Procedure",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-delegation-of-authority-procedure.md"
   },
   {
    "id": "co-oit-esignature-guidelines",
    "title": "eSignature Recommended Policy Guidelines for State Agencies",
    "doc_type": "policy",
    "path": "policies/colorado/co-oit-esignature-guidelines.md"
+  },
+  {
+   "id": "co-oit-genai-agency-responsibilities",
+   "title": "Statewide GenAI Agency Responsibilities",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-genai-agency-responsibilities.md"
+  },
+  {
+   "id": "co-oit-genai-policy",
+   "title": "Statewide GenAI Policy",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-genai-policy.md"
+  },
+  {
+   "id": "co-oit-real-time-billing-dispute-policy",
+   "title": "Real-time Billing Dispute Policy",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-real-time-billing-dispute-policy.md"
+  },
+  {
+   "id": "co-oit-real-time-billing-dispute-procedure",
+   "title": "Real-time Billing Dispute Procedure",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-real-time-billing-dispute-procedure.md"
+  },
+  {
+   "id": "co-oit-real-time-billing-dispute-process-agency-steps",
+   "title": "Real-time Billing Dispute Process: Agency Steps",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-real-time-billing-dispute-process-agency-steps.md"
   },
   {
    "id": "or-das-107-004-010",
@@ -1775,10 +1841,238 @@
    "path": "standards/california/ca-simm-66b.md"
   },
   {
-   "id": "co-oit-vendor-selection-standard",
-   "title": "Vendor Selection Standard for Major IT Projects",
+   "id": "co-oit-ts-app-005",
+   "title": "Secure Application Software Standards & Configuration Management",
    "doc_type": "standard",
-   "path": "standards/colorado/co-oit-vendor-selection-standard.md"
+   "path": "standards/colorado/co-oit-ts-app-005.md"
+  },
+  {
+   "id": "co-oit-ts-app-009",
+   "title": "Continuous Integration Servers (Custom Applications)",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-app-009.md"
+  },
+  {
+   "id": "co-oit-ts-app-011",
+   "title": "Front End Website and Web Application Framework",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-app-011.md"
+  },
+  {
+   "id": "co-oit-ts-ciso-001",
+   "title": "Authentication & Account Management Standard v. 2026",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-ciso-001.md"
+  },
+  {
+   "id": "co-oit-ts-ciso-002",
+   "title": "Logging and Monitoring Standard",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-ciso-002.md"
+  },
+  {
+   "id": "co-oit-ts-ciso-003",
+   "title": "Remote Access Standard v2026",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-ciso-003.md"
+  },
+  {
+   "id": "co-oit-ts-ciso-004",
+   "title": "OIT Firewall Design Standard",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-ciso-004.md"
+  },
+  {
+   "id": "co-oit-ts-ciso-005",
+   "title": "Patch Management Standard",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-ciso-005.md"
+  },
+  {
+   "id": "co-oit-ts-ciso-006",
+   "title": "Encryption Standard",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-ciso-006.md"
+  },
+  {
+   "id": "co-oit-ts-ciso-007",
+   "title": "Server Hardening",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-ciso-007.md"
+  },
+  {
+   "id": "co-oit-ts-ciso-012",
+   "title": "Physical Security for IT Spaces",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-ciso-012.md"
+  },
+  {
+   "id": "co-oit-ts-dat-001",
+   "title": "Enterprise Data Access and Integration Services",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dat-001.md"
+  },
+  {
+   "id": "co-oit-ts-dat-002",
+   "title": "Secure File Transfer",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dat-002.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-001",
+   "title": "Supported Databases and Versions",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-001.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-003",
+   "title": "Database Patch Management",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-003.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-005",
+   "title": "Database Backup and Recovery",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-005.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-006",
+   "title": "Database Security",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-006.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-007",
+   "title": "Database Software Management",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-007.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-008",
+   "title": "Database User Administration",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-008.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-009",
+   "title": "Database Decommissioning",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-009.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-013",
+   "title": "DBMS Server Inventory",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-013.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-014",
+   "title": "Database Support in Cloud Services",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-014.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-016",
+   "title": "Database Developer Service",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-016.md"
+  },
+  {
+   "id": "co-oit-ts-dbs-017",
+   "title": "DBMS Software Installation",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-dbs-017.md"
+  },
+  {
+   "id": "co-oit-ts-inf-001",
+   "title": "End User Computer Equipment",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-001.md"
+  },
+  {
+   "id": "co-oit-ts-inf-002",
+   "title": "End User Enterprise Software",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-002.md"
+  },
+  {
+   "id": "co-oit-ts-inf-003",
+   "title": "Identity and Access Administration",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-003.md"
+  },
+  {
+   "id": "co-oit-ts-inf-005",
+   "title": "Structured Cabling",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-005.md"
+  },
+  {
+   "id": "co-oit-ts-inf-006",
+   "title": "Enterprise Load Balancing",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-006.md"
+  },
+  {
+   "id": "co-oit-ts-inf-007",
+   "title": "Wireless Site Survey",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-007.md"
+  },
+  {
+   "id": "co-oit-ts-inf-008",
+   "title": "Network Monitoring",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-008.md"
+  },
+  {
+   "id": "co-oit-ts-inf-009",
+   "title": "Infrastructure as Code Standard",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-009.md"
+  },
+  {
+   "id": "co-oit-ts-inf-011",
+   "title": "Infrastructure Operations Technology Standards",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-011.md"
+  },
+  {
+   "id": "co-oit-ts-inf-012",
+   "title": "Multifunction Device/Printer Configuration Standard",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-012.md"
+  },
+  {
+   "id": "co-oit-ts-inf-013",
+   "title": "UPS/PDU for Network Systems",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-013.md"
+  },
+  {
+   "id": "co-oit-ts-inf-014",
+   "title": "Network Switching Standard",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-014.md"
+  },
+  {
+   "id": "co-oit-ts-inf-015",
+   "title": "Information Technology Multifactor Authentication (MFA)",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-015.md"
+  },
+  {
+   "id": "co-oit-ts-inf-016",
+   "title": "Network Routing and SD-WAN Routers",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-inf-016.md"
+  },
+  {
+   "id": "co-oit-ts-oea-001",
+   "title": "Technology Accessibility for Persons with Disabilities",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-ts-oea-001.md"
   },
   {
    "id": "or-eis-it-control-standards",
