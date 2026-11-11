@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 538,
+ "n_nodes": 556,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -165,6 +165,60 @@
    "title": "Chapter 276A - Information Technology (2025 Edition)",
    "doc_type": "statute",
    "path": "statutes/oregon/or-ors-276a.md"
+  },
+  {
+   "id": "tx-bc-552",
+   "title": "Business and Commerce Code, Chapter 552. Artificial Intelligence Protection",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-bc-552.md"
+  },
+  {
+   "id": "tx-gv-2054",
+   "title": "Government Code, Chapter 2054. Information Resources",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-gv-2054.md"
+  },
+  {
+   "id": "tx-gv-2059",
+   "title": "Government Code, Chapter 2059. Texas Computer Network Security System",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-gv-2059.md"
+  },
+  {
+   "id": "tx-gv-2062",
+   "title": "Government Code, Chapter 2062. Restrictions on State Agency Use and Dissemination of Certain Personal Information",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-gv-2062.md"
+  },
+  {
+   "id": "tx-gv-2063",
+   "title": "Government Code, Chapter 2063. Texas Cyber Command",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-gv-2063.md"
+  },
+  {
+   "id": "tx-gv-2157",
+   "title": "Government Code, Chapter 2157. Purchasing: Purchase of Automated Information Systems",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-gv-2157.md"
+  },
+  {
+   "id": "tx-gv-559",
+   "title": "Government Code, Chapter 559. State Government Privacy Policies",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-gv-559.md"
+  },
+  {
+   "id": "tx-gv-560",
+   "title": "Government Code, Chapter 560. Biometric Identifier",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-gv-560.md"
+  },
+  {
+   "id": "tx-gv-620",
+   "title": "Government Code, Chapter 620. Use of Certain Social Media Applications and Services on Governmental Entity Devices Prohibited",
+   "doc_type": "statute",
+   "path": "statutes/texas/tx-gv-620.md"
   },
   {
    "id": "va-code-18-2-186-6",
@@ -1667,6 +1721,30 @@
    "path": "policies/oregon/or-eis-privacy-guidance.md"
   },
   {
+   "id": "tx-dir-ai-acceptable-use-policy",
+   "title": "AI Acceptable Use Policy",
+   "doc_type": "policy",
+   "path": "policies/texas/tx-dir-ai-acceptable-use-policy.md"
+  },
+  {
+   "id": "tx-dir-internet-email-domain-name-policy",
+   "title": "Internet and Email Domain Name Management Policy",
+   "doc_type": "policy",
+   "path": "policies/texas/tx-dir-internet-email-domain-name-policy.md"
+  },
+  {
+   "id": "tx-dir-prohibited-technologies-statewide-plan",
+   "title": "Statewide Plan for Preventing Use of Prohibited Technology in State Agencies",
+   "doc_type": "policy",
+   "path": "policies/texas/tx-dir-prohibited-technologies-statewide-plan.md"
+  },
+  {
+   "id": "tx-dir-state-website-linking-privacy-policy",
+   "title": "State Website Linking and Privacy Policy",
+   "doc_type": "policy",
+   "path": "policies/texas/tx-dir-state-website-linking-privacy-policy.md"
+  },
+  {
    "id": "va-ai-policy-ea400",
    "title": "Artificial Intelligence (AI) Utilization Policy",
    "doc_type": "policy",
@@ -2649,6 +2727,36 @@
    "title": "Oregon's Open Data Standard",
    "doc_type": "standard",
    "path": "standards/oregon/or-open-data-standard.md"
+  },
+  {
+   "id": "tx-dir-ai-training-certification-standards-fy26-27",
+   "title": "Artificial Intelligence Training Program Certification Standards, Fiscal Year 2026-2027",
+   "doc_type": "standard",
+   "path": "standards/texas/tx-dir-ai-training-certification-standards-fy26-27.md"
+  },
+  {
+   "id": "tx-dir-security-control-standards-catalog",
+   "title": "Security Control Standards Catalog",
+   "doc_type": "standard",
+   "path": "standards/texas/tx-dir-security-control-standards-catalog.md"
+  },
+  {
+   "id": "tx-dir-training-certification-standards-fy26-27",
+   "title": "FY 26-27 Training Program Certification Standards",
+   "doc_type": "standard",
+   "path": "standards/texas/tx-dir-training-certification-standards-fy26-27.md"
+  },
+  {
+   "id": "tx-dir-tx-ramp-program-manual",
+   "title": "Texas Risk and Authorization Management Program (TX-RAMP) Program Manual",
+   "doc_type": "standard",
+   "path": "standards/texas/tx-dir-tx-ramp-program-manual.md"
+  },
+  {
+   "id": "tx-dir-videoconferencing-standards",
+   "title": "Videoconferencing Standards",
+   "doc_type": "standard",
+   "path": "standards/texas/tx-dir-videoconferencing-standards.md"
   },
   {
    "id": "va-ai-standard",

@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 277 |
-| standard | 189 |
-| statute | 43 |
+| policy | 281 |
+| standard | 194 |
+| statute | 52 |
 | executive_order | 17 |
 | rule | 12 |
 
-**Total: 538**
+**Total: 556**
 
 ## Source manifest
 
-677 declared source(s) across 6 group(s) in `sources`.
+704 declared source(s) across 7 group(s) in `sources`.
 
 ## Freshness (reverify every 90 days)
 
-538 of 538 document(s) overdue for re-verification.
+556 of 556 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -51,6 +51,15 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | ny-stt-art-3 | statute | never |
 | ny-stt-art-4 | statute | never |
 | or-ors-276a | statute | never |
+| tx-bc-552 | statute | never |
+| tx-gv-2054 | statute | never |
+| tx-gv-2059 | statute | never |
+| tx-gv-2062 | statute | never |
+| tx-gv-2063 | statute | never |
+| tx-gv-2157 | statute | never |
+| tx-gv-559 | statute | never |
+| tx-gv-560 | statute | never |
+| tx-gv-620 | statute | never |
 | va-code-18-2-186-6 | statute | never |
 | va-code-2-2-203-2-4 | statute | never |
 | va-code-2-2-2699-5 | statute | never |
@@ -65,14 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | wa-rcw-39-26-340 | statute | never |
 | wa-rcw-39-34-240 | statute | never |
 | wa-rcw-40-26 | statute | never |
-| wa-rcw-42-56-590 | statute | never |
-| wa-rcw-43-105 | statute | never |
-| ca-ccr-2-div-7-ch-10 | rule | never |
-| ca-ccr-2-div-7-ch-15 | rule | never |
-| co-ccr-8-1501-11 | rule | never |
-| co-ccr-8-1501-12 | rule | never |
-| co-ccr-8-1501-5 | rule | never |
-| co-ccr-8-1501-7 | rule | never |
-| co-ccr-8-1501-9 | rule | never |
-| … | *488 more* | |
+| … | *506 more* | |
 
