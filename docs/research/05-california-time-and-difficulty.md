@@ -12,8 +12,8 @@ every difficulty below was observed with the toolkit's Fetcher on 2026-11-11 unl
 - The review-fix pass (this PR's later commits) took about the same again, 01:18 to 01:25 for code,
   plus the fetching of discovery pages. The review found three classes of error that the first pass
   missed: list markers (below), unconfirmed claims in stubs, and an unlisted table (the ITPLs).
-- Result: 25 documents (after the fix pass) and 391 seed entries, of which the large majority are
-  stubs, because the Department of Technology's site refuses the Fetcher.
+- Result: 183 California seed entries: 25 documents, 150 stubs and 8 watch pages. Most are stubs because the
+  Department of Technology's site refuses the Fetcher.
 
 ## What was hard
 
@@ -22,7 +22,7 @@ every difficulty below was observed with the toolkit's Fetcher on 2026-11-11 unl
    `cf-mitigated: challenge` (Cloudflare managed challenge). Rechecked on 2026-11-11 against the
    Technology Letters page, the executive orders page, the executive orders category page and
    a Governor's order PDF. Consequence: the SIMM, Technology Letter and Information Technology
-   Policy Letter layer (about 150 entries) is stubs, and titles and urls for them came from a
+   Policy Letter layer (150 stubs) is stubs, and titles and urls for them came from a
    web-reading tool, not the Fetcher (stated in every stub's `stub_reason`).
 2. **The statutes only come through a 1.2 GB bulk zip.** The per-section pages are behind the
    challenge. The Legislature's bulk download (`downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip`)
