@@ -1,6 +1,6 @@
-"""Seam: src.ingest. The network is faked (httpx.MockTransport); fixtures are real bytes
-the official sites served on 2026-11-10 (the ORS one trimmed after the first section).
-Each test states one rule the ingester owes the reviewer."""
+"""Seam: src.ingest, the flow every state shares (the network is faked with httpx.MockTransport; fixtures
+are real bytes the official sites served on 2026-11-10, Oregon's here). State-specific text and identity
+tests are in tests/<state>/. Each test states one rule the ingester owes the reviewer."""
 import shutil
 import subprocess
 import sys
@@ -14,10 +14,12 @@ from corpus_toolkit import config as config_mod
 from corpus_toolkit.repo import parse_frontmatter
 from corpus_toolkit.sources.fetch import FetchError, Fetcher
 
+from seedutil import write_seed
 from src import ingest as ing
+from src import ingest_common
 
 ROOT = Path(__file__).resolve().parent.parent
-FIX = ROOT / "tests" / "fixtures"
+FIX = ROOT / "tests" / "fixtures" / "oregon"
 ORS = (FIX / "ors-276a-excerpt.html").read_bytes()
 OAR = (FIX / "oar-128-050.html").read_bytes()
 PDF = (FIX / "eis-memo-cloud.pdf").read_bytes()
@@ -30,48 +32,6 @@ BLANK_PDF = (b"%PDF-1.4\n1 0 obj<</Type/Catalog/Pages 2 0 R>>endobj\n"
 
 
 # ---- to_text: one function per source format ------------------------------------------
-
-def test_ors_text_is_one_paragraph_per_line_in_source_order():
-    t = ing.to_text(ORS, "html", "statute")
-    lines = t.splitlines()
-    assert lines[0] == "Chapter 276A — Information Technology"
-    assert "2025 EDITION" in lines
-    # a source paragraph wrapped across several HTML lines is one line of text
-    assert ("(5) Although each agency is responsible for the agency’s information resources, "
-            "centralized information resource management must also exist to:") in lines
-    assert lines.index("(State Chief Information Officer)") < \
-        lines.index("276A.200 Legislative findings on information resources")
-
-
-def test_ors_text_has_no_markup_no_page_furniture_no_blank_paragraphs():
-    t = ing.to_text(ORS, "html", "statute")
-    assert "<" not in t and "font-family" not in t and "MsoNormal" not in t
-    assert "\xa0" not in t and "&nbsp;" not in t
-    assert "\n\n" not in t                       # empty source paragraphs are dropped
-    assert all(line == line.strip() for line in t.splitlines())
-
-
-def test_ors_text_keeps_typography_of_the_source():
-    t = ing.to_text(ORS, "html", "statute")
-    assert "’" in t and "—" in t                 # decoded from windows-1252, not mangled
-    assert "â€" not in t and "�" not in t
-
-
-def test_oar_text_keeps_rule_number_title_body_authority_and_history():
-    t = ing.to_text(OAR, "html", "rule")
-    assert "Division 50" in t and "Identity Authentication/Electronic Signatures" in t
-    assert "128-050-0005" in t
-    assert "Statutory/Other Authority:" in t and "Statutes/Other Implemented:" in t
-    assert "OSCIO 1-2026, amend filed 11/09/2026, effective 12/01/2026" in t
-    assert "DAS 11-2005, f. & cert. ef. 10-21-05" in t     # entities decoded
-
-
-def test_oar_text_drops_site_navigation_footer_and_scripts():
-    t = ing.to_text(OAR, "html", "rule")
-    for furniture in ("Search Current Rules", "Oregon State Archives", "ga('create'",
-                      "Privacy Policy", "<", "Skip to main content"):
-        assert furniture not in t
-
 
 def test_pdf_text_is_layout_text_without_form_feeds_or_trailing_space():
     t = ing.to_text(PDF, "pdf", "policy")
@@ -120,8 +80,7 @@ def corpus(tmp_path):
     """A copy of this corpus's configuration in a temp repo, so a test never touches the real one."""
     (tmp_path / "_meta").mkdir()
     shutil.copy(ROOT / "_meta" / "corpus.yml", tmp_path / "_meta" / "corpus.yml")
-    (tmp_path / "_meta" / "source-manifest.yml").write_text(
-        yaml.safe_dump({"sources": [SRC_ORS, SRC_OAR, SRC_PDF]}))
+    write_seed(tmp_path, [SRC_ORS, SRC_OAR, SRC_PDF])
     return config_mod.load(tmp_path / "_meta" / "corpus.yml")
 
 
@@ -361,110 +320,6 @@ def test_check_cli_runs_offline_and_passes_on_this_repo():
     assert r.returncode == 0, r.stdout + r.stderr
 
 
-# ---- Washington RCW pages (app.leg.wa.gov) ----------------------------------------------
-# Fixtures are real pages the Legislature served on 2026-11-10, trimmed to the page body.
-RCW_CH = (FIX / "rcw-40-26-chapter.html").read_bytes()
-RCW_SEC = (FIX / "rcw-39-26-340-section.html").read_bytes()
-
-
-def test_rcw_chapter_text_has_chapter_title_then_each_section_in_source_order():
-    t = ing.to_text(RCW_CH, "html", "statute", "washington")
-    lines = t.splitlines()
-    assert lines[0] == "Chapter 40.26 RCW"
-    assert lines[1] == "BIOMETRIC IDENTIFIERS"
-    assert lines.index("RCW 40.26.010") < lines.index("RCW 40.26.020")
-    assert lines[lines.index("RCW 40.26.010") + 1] == "Finding."
-    assert ("The legislature finds that the collection and use of personal information has been "
-            "a practice of virtually all state agencies and programs.") in t
-
-
-def test_rcw_chapter_text_keeps_history_and_notes_and_drops_page_furniture():
-    t = ing.to_text(RCW_CH, "html", "statute", "washington")
-    assert "[ 2017 c 306 s 1.]" in t               # the session-law history line of 40.26.010
-    assert "NOTES:" in t and "Effective date—2017 2nd sp.s. c 1:" in t
-    assert "<" not in t and "&amp;" not in t and "\xa0" not in t
-    for furniture in ("PDF", "Chapter listing", "Sections"):
-        assert furniture not in t.splitlines()
-
-
-def test_rcw_section_page_text_is_citation_caption_body_history():
-    t = ing.to_text(RCW_SEC, "html", "statute", "washington")
-    lines = t.splitlines()
-    assert lines[0] == "RCW 39.26.340"
-    assert lines[1] == "Data-sharing agreements—When required."
-    assert lines[2].startswith("(1) Before an agency shares with a contractor category 3 or higher data")
-    assert "RCW 43.105.054" in lines[2]              # link text kept inside the sentence, spaces squashed
-    assert lines[-1] == "[ 2021 c 291 s 5.]"
-
-
-def test_rcw_page_without_a_content_region_is_refused():
-    with pytest.raises(ValueError, match="content region"):
-        ing.to_text(b"<html><body><p>Not found</p></body></html>", "html", "statute", "washington")
-
-
-def test_oregon_statute_path_is_unchanged_when_no_jurisdiction_is_given():
-    assert ing.to_text(ORS, "html", "statute").startswith("Chapter 276A")
-
-
-# ---- identity of Washington statutes and executive orders; no chapter-wide effective date ----
-
-WA_CH = {"id": "wa-rcw-40-26", "doc_type": "statute", "jurisdiction": "washington",
-         "citation": "RCW chapter 40.26", "title": "Chapter 40.26 RCW - Biometric identifiers"}
-WA_SEC = dict(WA_CH, id="wa-rcw-39-26-340", citation="RCW 39.26.340", title="RCW 39.26.340 - x")
-WA_EO = {"id": "wa-eo-24-01", "doc_type": "executive_order", "jurisdiction": "washington",
-         "citation": "Executive Order No. 24-01", "title": "Artificial Intelligence"}
-
-
-def test_wa_statute_chapter_page_must_be_the_cited_chapter():
-    ing.check_identity(WA_CH, ing.to_text(RCW_CH, "html", "statute", "washington"))
-    with pytest.raises(ValueError, match="not RCW chapter 43.105"):
-        ing.check_identity(dict(WA_CH, citation="RCW chapter 43.105"),
-                           ing.to_text(RCW_CH, "html", "statute", "washington"))
-
-
-def test_wa_statute_section_page_must_be_the_cited_section():
-    ing.check_identity(WA_SEC, ing.to_text(RCW_SEC, "html", "statute", "washington"))
-    with pytest.raises(ValueError, match="not RCW 42.56.590"):
-        ing.check_identity(dict(WA_SEC, citation="RCW 42.56.590"),
-                           ing.to_text(RCW_SEC, "html", "statute", "washington"))
-
-
-def test_wa_statute_citation_that_is_a_truncation_of_the_real_section_is_refused():
-    text = ing.to_text(RCW_SEC, "html", "statute", "washington")     # opens "RCW 39.26.340"
-    with pytest.raises(ValueError, match="not RCW 39.26.34"):
-        ing.check_identity(dict(WA_SEC, citation="RCW 39.26.34"), text)
-    chapter = ing.to_text(RCW_CH, "html", "statute", "washington")    # opens "Chapter 40.26 RCW"
-    with pytest.raises(ValueError, match="not RCW chapter 40.2"):
-        ing.check_identity(dict(WA_CH, citation="RCW chapter 40.2"), chapter)
-
-
-def test_executive_order_must_print_its_own_number():
-    ing.check_identity(WA_EO, "EXECUTIVE ORDER 24-01\nARTIFICIAL INTELLIGENCE\n")
-    with pytest.raises(ValueError, match="not the cited instrument"):
-        ing.check_identity(WA_EO, "EXECUTIVE ORDER 24-02\nWSP INVESTIGATIONS\n")
-
-
-def test_statute_gets_no_effective_date_from_a_session_law_note():
-    # 40.26's NOTES print "Effective date—2017 2nd sp.s. c 1: ... [July 23, 2017]", the date of one
-    # amending act, not of the chapter.
-    text = ing.to_text(RCW_CH, "html", "statute", "washington")
-    assert "[July 23, 2017]" in text
-    assert ing.effective_date(text, "statute") is None
-    assert ing.effective_date("Effective Date: March 5, 2020\n", "policy") == "2020-03-05"
-
-
-def test_wa_statute_conversion_notes_describe_the_rcw_page_not_the_ors_page():
-    notes = ing.conversion_notes(WA_CH, "html", "")
-    assert "RCW" in notes and "section list" in notes and "history" in notes
-    assert "whole chapter as one page" not in notes      # that sentence is about ORS
-
-
-def test_rcw_text_stops_before_the_page_footer():
-    for page in (RCW_CH, RCW_SEC):
-        t = ing.to_text(page, "html", "statute", "washington")
-        assert "Legislative Hotline" not in t and "TTY" not in t and "Disclaimer" not in t
-
-
 def test_ingestable_takes_every_state_unless_one_is_named():
     oregon = {"id": "a", "jurisdiction": "oregon"}
     wash = {"id": "b", "jurisdiction": "washington"}
@@ -473,110 +328,3 @@ def test_ingestable_takes_every_state_unless_one_is_named():
     assert [ing.ingestable(s, "washington") for s in (oregon, wash)] == [False, True]
 
 
-# ---- Colorado statutes: one slice (article or part) of the OLLS title file ---------------
-# The official source is one Word-HTML file per title (Title 24 is 22 MB). A seed entry names
-# its slice with `slice: {article: "73"}` or `{article: "33.5", part: "19"}`. The fixtures are
-# real bytes from crs2026-title-24.htm: the whole bodies of articles 73 to 74.1, and article
-# 33.5's heading, the part 19/20 caption list and the part 19 body.
-
-CRS_73 = (FIX / "crs-title-24-articles-73-74.html").read_bytes()
-CRS_P19 = (FIX / "crs-title-24-article-33-5-part-19.html").read_bytes()
-CO_73 = {"id": "co-crs-24-73", "doc_type": "statute", "jurisdiction": "colorado",
-         "citation": "C.R.S. title 24, article 73",
-         "title": "Security Breaches and Personal Information", "slice": {"article": "73"}}
-CO_P19 = {"id": "co-crs-24-33-5-pt19", "doc_type": "statute", "jurisdiction": "colorado",
-          "citation": "C.R.S. title 24, article 33.5, part 19", "title": "Colorado Cybersecurity",
-          "slice": {"article": "33.5", "part": "19"}}
-
-
-def crs(raw, slice_):
-    return ing.to_text(raw, "html", "statute", "colorado", slice_)
-
-
-def test_crs_article_slice_runs_from_its_heading_to_the_next_articles_heading():
-    t = crs(CRS_73, {"article": "73"})
-    lines = t.splitlines()
-    assert lines[0] == "ARTICLE 73" and lines[1] == "Security Breaches and Personal Information"
-    assert any(l.startswith("24-73-103. Governmental entity - notification of security breach.")
-               for l in lines)
-    assert "ARTICLE 74" not in lines and not any(l.startswith("24-74-10") for l in lines)
-
-
-def test_crs_article_slice_keeps_source_notes_and_history_lines():
-    t = crs(CRS_73, {"article": "73"})
-    assert "Source: L. 2018: Entire article added, (HB 18-1128), ch. 266, p. 1639, § 4, " \
-           "effective September 1." in t
-    assert "<" not in t and "\xa0" not in t and "font-family" not in t and "\n\n" not in t
-
-
-def test_crs_last_article_in_the_file_runs_to_the_end():
-    t = crs(CRS_73, {"article": "74.1"})
-    assert t.splitlines()[0] == "ARTICLE 74.1" and "24-74.1-103" in t
-
-
-CRS_85 = (FIX / "crs-title-24-articles-85-90.html").read_bytes()   # contents list + arts 85, 90
-
-
-def test_crs_article_slice_stops_before_the_title_level_group_heading_of_the_next_article():
-    # Real bytes: the file prints the group heading LIBRARIES between article 85 and ARTICLE 90.
-    # It is not text of article 85 (nor of 90): the slice must end at article 85's last line.
-    lines = crs(CRS_85, {"article": "85"}).splitlines()
-    assert lines[0] == "ARTICLE 85" and lines[-1].startswith("Source: L. 2000: Entire article added")
-    assert "LIBRARIES" not in lines and "ARTICLE 90" not in lines
-    # the group heading that sits before ARTICLE 85 is not its text either
-    assert "INFORMATION TECHNOLOGY ACCESS FOR BLIND" not in lines
-    # a heading word inside ordinary text is left alone
-    assert any("libraries" in l.lower() for l in crs(CRS_85, {"article": "90"}).splitlines()[:3])
-
-
-def test_crs_part_slice_is_the_body_of_that_part_only():
-    t = crs(CRS_P19, {"article": "33.5", "part": "19"})
-    lines = t.splitlines()
-    assert lines[0] == "PART 19" and lines[1] == "COLORADO CYBERSECURITY"
-    assert any(l.startswith("24-33.5-1902. Colorado cybersecurity council") for l in lines)
-    assert "PART 20" not in lines and not any(l.startswith("24-33.5-2001") for l in lines)
-    assert not any(l.startswith("PART 19 ") for l in lines)      # not the caption list
-
-
-def test_crs_slice_that_is_missing_or_ambiguous_is_refused_not_guessed():
-    with pytest.raises(ValueError, match="article 99"):
-        crs(CRS_73, {"article": "99"})
-    with pytest.raises(ValueError, match="part 3"):
-        crs(CRS_P19, {"article": "33.5", "part": "3"})
-    with pytest.raises(ValueError, match="needs a slice"):
-        crs(CRS_73, None)
-    doubled = CRS_73.replace(b"</body>", b"<p>ARTICLE 73</p></body>")
-    with pytest.raises(ValueError, match="more than once"):
-        crs(doubled, {"article": "73"})
-
-
-def test_co_identity_is_the_heading_and_caption_of_the_slice():
-    ing.check_identity(CO_73, crs(CRS_73, CO_73["slice"]))
-    ing.check_identity(CO_P19, crs(CRS_P19, CO_P19["slice"]))
-    with pytest.raises(ValueError, match="not C.R.S. title 24, article 74"):
-        ing.check_identity(dict(CO_73, citation="C.R.S. title 24, article 74"),
-                           crs(CRS_73, CO_73["slice"]))
-    with pytest.raises(ValueError, match="title"):
-        ing.check_identity(dict(CO_73, title="Something Else"), crs(CRS_73, CO_73["slice"]))
-
-
-def test_co_statute_gets_no_effective_date_and_its_own_conversion_notes():
-    text = crs(CRS_73, {"article": "73"})
-    assert ing.effective_date(text, "statute") is None
-    notes = ing.conversion_notes(CO_73, "html", text)
-    assert "title file" in notes and "ARTICLE" in notes and "whole chapter" not in notes
-
-
-def test_co_document_is_written_with_its_slice_as_full_text(tmp_path):
-    cfg = corpus(tmp_path)
-    src = dict(CO_73, url="https://example.gov/crs2026-title-24.htm", format="html",
-               issuing_body="Office of Legislative Legal Services", tags=["data"],
-               why_relevant="Governmental entity duties for personal identifying information.")
-    with fetcher(cfg, {src["url"]: (200, CRS_73)}) as f:
-        out = ing.ingest(src, f, False, cfg)
-    assert out == tmp_path / "statutes" / "colorado" / "co-crs-24-73.md"
-    fm, body = parse_frontmatter(out)
-    full = body.split("## Full text\n", 1)[1].split("\n## ", 1)[0].strip()
-    assert full == crs(CRS_73, {"article": "73"}).strip()
-    assert fm["jurisdiction"] == "colorado" and fm["effective_date"] in (None, "")
-    assert ing.check([src], cfg) == []

@@ -14,8 +14,8 @@ import yaml
 
 from src import ingest as ing
 
-FIX = Path(__file__).resolve().parent / "fixtures"
-ROOT = FIX.parent.parent
+FIX = Path(__file__).resolve().parent.parent / "fixtures" / "colorado"
+ROOT = Path(__file__).resolve().parents[2]
 APP005_PDF = (FIX / "oit-ts-app-005.pdf").read_bytes()
 APP010_PDF = (FIX / "oit-ts-app-010-draft.pdf").read_bytes()
 PAGE = (FIX / "oit-genai-agency-responsibilities.html").read_bytes()
@@ -125,7 +125,7 @@ def _listed_files(page: str) -> dict[str, str]:
             re.finditer(r'href="(https://drive\.google\.com/file/d/([^/"]+)/[^"]*)"', main)}
 
 
-MANIFEST = (ROOT / "_meta" / "source-manifest.yml").read_text(encoding="utf-8")
+MANIFEST = (ROOT / "_meta" / "sources" / "colorado.yml").read_text(encoding="utf-8")
 
 
 @pytest.mark.parametrize("page", ["oit-technical-standards.html", "oit-policies-governance.html",

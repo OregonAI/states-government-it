@@ -12,11 +12,14 @@ from pathlib import Path
 
 import pytest
 
+from seedutil import write_seed
 from src import ingest as ing
+from src import ingest_docx as docx
+from src import states
 
-FIX = Path(__file__).resolve().parent / "fixtures"
-METADATA = (FIX / "wa-metadata-standard-187-10.docx").read_bytes()
-DESIGNATION = (FIX / "wa-enterprise-service-185-10.docx").read_bytes()
+FIX = Path(__file__).resolve().parent / "fixtures"      # shared tests read each state's fixtures
+METADATA = (FIX / "washington/wa-metadata-standard-187-10.docx").read_bytes()
+DESIGNATION = (FIX / "washington/wa-enterprise-service-185-10.docx").read_bytes()
 
 SRC = {"id": "wa-data-01-02-s", "format": "docx", "doc_type": "standard", "jurisdiction": "washington",
        "url": "https://watech.wa.gov/sites/default/files/2023-09/187_10_MetadataStandard_Approved%252003102020.docx",
@@ -67,13 +70,13 @@ def test_a_word_file_that_is_not_the_cited_instrument_is_refused():
 
 def test_bytes_that_are_not_a_word_file_are_refused_not_guessed():
     with pytest.raises(ValueError):
-        ing.docx_to_text(b"PK\x03\x04 not really a word file")
+        docx.docx_to_text(b"PK\x03\x04 not really a word file")
 
 
 def test_an_unknown_construct_in_the_syntax_tree_is_refused(monkeypatch):
     tree = {"pandoc-api-version": [1, 23], "meta": {}, "blocks": [{"t": "Mystery", "c": []}]}
     with pytest.raises(ValueError, match="Mystery"):
-        ing.render_pandoc_ast(tree)
+        docx.render_pandoc_ast(tree)
 
 
 def test_the_rendering_of_lists_notes_and_inlines():
@@ -88,22 +91,22 @@ def test_the_rendering_of_lists_notes_and_inlines():
         para(s("Link:"), sp, {"t": "Link", "c": [["", [], []], [s("text")], ["https://x", ""]]},
              {"t": "LineBreak"}, {"t": "Image", "c": [["", [], []], [s("logo")], ["a.png", ""]]}, s("end")),
     ]}
-    assert ing.render_pandoc_ast(tree) == (
+    assert docx.render_pandoc_ast(tree) == (
         "Intro [1]\n\nc) first\nd) second\n   • inner\n\nLink: text\nend\n\n[1] A note\n")
 
 
 def test_same_words_in_a_different_layout_are_the_same_text():
-    assert ing.same_words("a | b\n\nc d\n", "a  |  b c\nd")
-    assert not ing.same_words("a | b c", "a | b d")
-    assert not ing.same_words("a b", "a b c")
+    assert docx.same_words("a | b\n\nc d\n", "a  |  b c\nd")
+    assert not docx.same_words("a | b c", "a | b d")
+    assert not docx.same_words("a b", "a b c")
 
 
 # ---- the Department of Technology's Word files --------------------------------------------
 # Fixtures: SIMM 18B (the cover of the Cloud Computing Policy Exemption Form preparation instructions)
 # and SIMM 5310-C (a standard whose first table names it), both fetched 2026-11-11 from www.cdt.ca.gov
 # through the Fetcher with curl_on_challenge=True.
-SIMM_18B = (FIX / "cdt-simm-18b.docx").read_bytes()
-SIMM_5310C = (FIX / "cdt-simm-5310-c.docx").read_bytes()
+SIMM_18B = (FIX / "california/cdt-simm-18b.docx").read_bytes()
+SIMM_5310C = (FIX / "california/cdt-simm-5310-c.docx").read_bytes()
 CA18B = {"id": "ca-simm-18b", "format": "docx", "doc_type": "policy", "jurisdiction": "california",
          "url": "https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-18B-Cloud-Computing-Policy-Exemption-Form.docx",
          "citation": "SIMM 18B", "title": "Policy Exemption Instructions",
@@ -144,7 +147,7 @@ ROOT = Path(__file__).resolve().parent.parent
 def _ingested(tmp_path):
     (tmp_path / "_meta").mkdir()
     shutil.copy(ROOT / "_meta" / "corpus.yml", tmp_path / "_meta" / "corpus.yml")
-    (tmp_path / "_meta" / "source-manifest.yml").write_text(yaml.safe_dump({"sources": [SRC]}))
+    write_seed(tmp_path, [SRC])
     cfg = config_mod.load(tmp_path / "_meta" / "corpus.yml")
     handler = lambda request: httpx.Response(200, content=METADATA)
     with Fetcher(cfg, min_interval=0, transport=httpx.MockTransport(handler), sleep=lambda s: None) as f:
@@ -169,8 +172,8 @@ def test_check_passes_when_another_pandoc_lays_the_same_words_out_differently(tm
     cfg = _ingested(tmp_path)
     src = dict(SRC, tags=["data"], why_relevant="Metadata for open data.", issuing_body="WaTech")
     assert ing.check([src], cfg) == []
-    real = ing.docx_to_text
-    monkeypatch.setattr(ing, "docx_to_text", lambda raw: " ".join(real(raw).split("\n")) + "\n")
+    real = docx.docx_to_text
+    monkeypatch.setattr(states, "docx_to_text", lambda raw: " ".join(real(raw).split("\n")) + "\n")
     assert ing.check([src], cfg) == []
 
 
@@ -186,7 +189,7 @@ def test_check_fails_when_one_word_of_the_committed_text_differs(tmp_path):
 def test_without_pandoc_the_word_file_is_refused_with_the_remedy(monkeypatch):
     monkeypatch.setenv("PATH", "")
     with pytest.raises(ValueError, match="pandoc is not installed"):
-        ing.docx_to_text(METADATA)
+        docx.docx_to_text(METADATA)
 
 
 # ---- the date a Word file prints, when it prints no effective date ------------------------------------
@@ -208,8 +211,8 @@ def test_a_revision_history_table_gives_its_last_row_as_the_source_version():
 
 @needs_pandoc
 def test_a_cdt_standard_prints_its_last_review_date_in_a_table_at_the_top():
-    raw = (FIX / "cdt-simm-5310-c.docx").read_bytes()
-    text = ing.docx_to_text(raw)
+    raw = (FIX / "california/cdt-simm-5310-c.docx").read_bytes()
+    text = docx.docx_to_text(raw)
     assert "Last Review Date | July 2024" in text
     assert ing.source_version(text, "standard", "california", "docx") == "Last Review Date: July 2024"
 

@@ -12,8 +12,9 @@ from pathlib import Path
 import pytest
 
 from src import ingest as ing
+from src.states import california
 
-FIX = Path(__file__).resolve().parent / "fixtures"
+FIX = Path(__file__).resolve().parent.parent / "fixtures" / "california"
 TL_PAGE = (FIX / "cdt-tl-26-01.html").read_bytes()
 SIMM_PAGE = (FIX / "cdt-simm-40a.html").read_bytes()
 TL_PDF = (FIX / "cdt-tl-21-01.pdf").read_bytes()
@@ -26,7 +27,7 @@ TL_SRC = {"id": "ca-tl-26-01", "url": "https://www.cdt.ca.gov/policy/technology-
 
 
 def cdt(raw=TL_PAGE):
-    return ing.cdt_html_to_text(raw)
+    return california.cdt_html_to_text(raw)
 
 
 def test_a_technology_letter_page_runs_from_its_heading_to_its_signature():

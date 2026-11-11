@@ -9,7 +9,7 @@ import pytest
 
 from src import ingest as ing
 
-SNAP = Path(__file__).resolve().parent.parent / "_meta" / "snapshots"
+SNAP = Path(__file__).resolve().parents[2] / "_meta" / "snapshots"
 CH10 = (SNAP / "ca-ccr-2-div-7-ch-10.html").read_bytes()
 CH15 = (SNAP / "ca-ccr-2-div-7-ch-15.html").read_bytes()
 

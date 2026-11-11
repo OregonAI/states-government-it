@@ -6,8 +6,9 @@ from pathlib import Path
 import pytest
 
 from src import ingest as ing
+from src.states import california
 
-FIX = Path(__file__).resolve().parent / "fixtures"
+FIX = Path(__file__).resolve().parent.parent / "fixtures" / "california"
 SAM_5000 = (FIX / "sam-chapter-5000.html").read_bytes()
 SAM_5900 = (FIX / "sam-chapter-5900.html").read_bytes()
 
@@ -148,7 +149,7 @@ def test_ccr_has_no_effective_date_label_to_misread():
 
 # ---- list markers: the real SAM 4900 page (snapshot of 2026-11-11) -----------------------------
 
-SNAP = Path(__file__).resolve().parent.parent / "_meta" / "snapshots"
+SNAP = Path(__file__).resolve().parents[2] / "_meta" / "snapshots"
 SAM_4900 = (SNAP / "ca-sam-4900.html").read_bytes()
 
 
@@ -195,15 +196,15 @@ SAM_TOC = (FIX / "sam-toc.html").read_bytes()      # https://www.dgs.ca.gov/Reso
 
 
 def test_sam_contents_page_titles_are_read_by_chapter_number():
-    titles = ing.sam_toc_titles(SAM_TOC)
+    titles = california.sam_toc_titles(SAM_TOC)
     assert titles["5900"] == "Information Technology - Disposal of IT Equipment"
     assert titles["4900"] == "Information Technology - California Department of Technology"
 
 
 def test_sam_seed_titles_are_state_administrative_manual_chapter_n_colon_the_contents_title():
     import yaml
-    manifest = yaml.safe_load((Path(__file__).resolve().parent.parent / "_meta" / "source-manifest.yml").read_text())
-    titles = ing.sam_toc_titles(SAM_TOC)
+    manifest = yaml.safe_load((Path(__file__).resolve().parents[2] / "_meta" / "sources" / "california.yml").read_text())
+    titles = california.sam_toc_titles(SAM_TOC)
     seeded = [e for e in manifest["sources"]
               if e.get("jurisdiction") == "california" and e["id"].startswith("ca-sam-")]
     assert len(seeded) == 7

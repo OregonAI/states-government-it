@@ -8,7 +8,7 @@ import pytest
 
 from src import ingest as ing
 
-RAW = (Path(__file__).resolve().parent / "fixtures" / "eo-b-34-15-archive.html").read_bytes()
+RAW = (Path(__file__).resolve().parent.parent / "fixtures" / "california" / "eo-b-34-15-archive.html").read_bytes()
 SRC = {"id": "ca-eo-b-34-15", "doc_type": "executive_order", "jurisdiction": "california",
        "citation": "Executive Order B-34-15", "title": "California Cybersecurity Integration Center"}
 

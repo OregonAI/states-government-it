@@ -8,8 +8,10 @@ the snapshot (`<id>.paddle.txt`) and `--check` recomputes the agreement from the
 Fixtures are real bytes: Oregon statewide policy 107-004-053 (a two-page scan, fetched 2026-11-11 through the
 toolkit Fetcher) and the text PaddleOCR (PP-OCRv6, orientation classification on) read from it the same day.
 The tests that run tesseract need ocrmypdf and skip without it on a developer machine only; in CI they fail."""
+import hashlib
 import json
 import os
+import re
 import shutil
 from pathlib import Path
 
@@ -18,13 +20,16 @@ import yaml
 from corpus_toolkit import config as config_mod
 from corpus_toolkit.repo import parse_frontmatter
 
+from seedutil import write_seed
 from src import ingest as ing
+from src import ingest_common
+from src import ingest_ocr as ocr
 
 ROOT = Path(__file__).resolve().parent.parent
 FIX = Path(__file__).resolve().parent / "fixtures"
-SCAN = (FIX / "or-das-107-004-053-scan.pdf").read_bytes()
-PADDLE = (FIX / "or-das-107-004-053-scan.paddle.txt").read_text()
-VOCAB = ing.ocr_vocabulary(ing.CONFIG)      # this corpus's own non-OCR text, as the ingest uses it
+SCAN = (FIX / "oregon/or-das-107-004-053-scan.pdf").read_bytes()
+PADDLE = (FIX / "oregon/or-das-107-004-053-scan.paddle.txt").read_text()
+VOCAB = ocr.ocr_vocabulary(ing.CONFIG)      # this corpus's own non-OCR text, as the ingest uses it
 
 SRC = {"id": "or-das-107-004-053", "format": "pdf", "ocr": True, "doc_type": "policy", "jurisdiction": "oregon",
        "url": "https://www.oregon.gov/das/Policies/107-004-053.pdf", "citation": "Statewide Policy 107-004-053",
@@ -43,26 +48,26 @@ def paddle_of(text):
 def corpus(tmp_path):
     (tmp_path / "_meta").mkdir()
     shutil.copy(ROOT / "_meta" / "corpus.yml", tmp_path / "_meta" / "corpus.yml")
-    (tmp_path / "_meta" / "source-manifest.yml").write_text(yaml.safe_dump({"sources": [SRC]}))
+    write_seed(tmp_path, [SRC])
     return config_mod.load(tmp_path / "_meta" / "corpus.yml")
 
 
 # ---- the agreement score ------------------------------------------------------------------
 
 def test_agreement_is_the_word_sequence_ratio_and_figures_are_scored_apart():
-    s = ing.ocr_score("the quick brown fox jumps over 12 lazy dogs 3,400",
+    s = ocr.ocr_score("the quick brown fox jumps over 12 lazy dogs 3,400",
                       "the quick brown fox jumps over 12 lazy cogs 3,400", {"the", "quick", "brown", "fox",
                                                                               "jumps", "over", "lazy", "dogs"})
     # 8 words each, 7 equal: 2*7/16
     assert s["agreement"] == pytest.approx(0.875)
     assert s["figure_agreement"] == 1.0 and s["figures"] == 2
     assert s["dict_ratio"] == 1.0
-    miss = ing.ocr_score("the 12 and 99", "the 12 and 98", set())
+    miss = ocr.ocr_score("the 12 and 99", "the 12 and 98", set())
     assert miss["figure_agreement"] == pytest.approx(0.5) and miss["dict_ratio"] == 0.0
 
 
 def test_a_ratio_of_nothing_is_zero_not_a_crash():
-    s = ing.ocr_score("", "", set())
+    s = ocr.ocr_score("", "", set())
     assert s["agreement"] == 0.0 and s["words"] == 0
 
 
@@ -71,8 +76,8 @@ def test_a_ratio_of_nothing_is_zero_not_a_crash():
 @needs_ocr
 def test_tesseract_reads_a_scan_that_pdftotext_finds_no_words_in():
     with pytest.raises(ValueError, match="no text layer"):
-        ing.pdf_to_text(SCAN)
-    text = ing.ocr_tesseract(SCAN)
+        ingest_common.pdf_to_text(SCAN)
+    text = ocr.ocr_tesseract(SCAN)
     assert "Employee Security" in text and "107-004-053" in text
     assert "\f" not in text and not any(l != l.rstrip() for l in text.splitlines())
 
@@ -80,11 +85,11 @@ def test_tesseract_reads_a_scan_that_pdftotext_finds_no_words_in():
 @needs_ocr
 def test_two_engines_that_agree_make_a_document_text_and_a_report(tmp_path):
     cfg = corpus(tmp_path)
-    text, report = ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab=VOCAB)
+    text, report = ocr.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab=VOCAB)
     assert "Employee Security" in text
     assert report["agreement"] >= 0.80 and report["dict_ratio"] >= 0.80
     assert report["engines"][0].startswith("tesseract") and "paddleocr" in report["engines"][1]
-    assert report["pdf_sha256"] == ing.hashlib.sha256(SCAN).hexdigest()
+    assert report["pdf_sha256"] == hashlib.sha256(SCAN).hexdigest()
     assert report["paddle_text"] == PADDLE
 
 
@@ -92,7 +97,7 @@ def test_two_engines_that_agree_make_a_document_text_and_a_report(tmp_path):
 def test_engines_that_disagree_leave_no_text(tmp_path):
     cfg = corpus(tmp_path)
     with pytest.raises(ValueError, match="agree"):
-        ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of("completely different words about nothing at all " * 80),
+        ocr.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of("completely different words about nothing at all " * 80),
                      vocab=VOCAB)
 
 
@@ -100,13 +105,13 @@ def test_engines_that_disagree_leave_no_text(tmp_path):
 def test_text_that_is_mostly_not_words_is_refused_even_when_the_engines_agree(tmp_path):
     cfg = corpus(tmp_path)
     with pytest.raises(ValueError, match="dictionary"):
-        ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab={"zzz"})
+        ocr.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab={"zzz"})
 
 
 def test_the_second_engine_missing_is_a_refusal_not_a_silent_pass(tmp_path, monkeypatch):
     monkeypatch.setenv("OCR_PADDLE_PYTHON", str(tmp_path / "no-such-python"))
     with pytest.raises(ValueError, match="PaddleOCR"):
-        ing.ocr_paddle(tmp_path / "x.pdf")
+        ocr.ocr_paddle(tmp_path / "x.pdf")
 
 
 # ---- the gates: figures, layout, signatures, contested positions ----------------------------------------
@@ -116,9 +121,9 @@ def test_engines_that_disagree_on_the_figures_leave_no_text_even_when_the_words_
     """Executive Order 16-13 was promoted at figure agreement 0.75 with its section numbers dropped: the
     word score cannot see digits, so figure agreement is a gate of its own."""
     cfg = corpus(tmp_path)
-    digits_off = ing.re.sub(r"\d", lambda m: str((int(m.group()) + 1) % 10), PADDLE)
+    digits_off = re.sub(r"\d", lambda m: str((int(m.group()) + 1) % 10), PADDLE)
     with pytest.raises(ValueError, match="figure"):
-        ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(digits_off), vocab=VOCAB)
+        ocr.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(digits_off), vocab=VOCAB)
 
 
 @needs_ocr
@@ -126,7 +131,7 @@ def test_a_two_column_policy_keeps_each_label_with_its_text_and_signature_glyphs
     """Seed `ocr_psm: 4` reads the DAS layout by rows: the label column stays beside its paragraph, and the
     glyphs read from the handwritten APPROVED signature are not committed as if they were a name."""
     cfg = corpus(tmp_path)
-    text, report = ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab=VOCAB)
+    text, report = ocr.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab=VOCAB)
     assert "AUTHORITY: This policy is established under the authority of 2005 Oregon Laws" in text
     assert "APPLICABILITY: This policy applies to all Executive Branch agencies" in text
     assert report["psm"] == 4
@@ -138,11 +143,11 @@ def test_a_two_column_policy_keeps_each_label_with_its_text_and_signature_glyphs
 def test_every_position_where_the_engines_read_differently_is_recorded_and_named_in_the_notes(tmp_path):
     cfg = corpus(tmp_path)
     paddle = PADDLE.replace("7/30/07", "7/30/08", 1)
-    text, report = ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(paddle), vocab=VOCAB)
+    text, report = ocr.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(paddle), vocab=VOCAB)
     assert report["disagreements"], "the engines never agree on every token of a scan"
     fig = [d for d in report["disagreements"] if "08" in d["paddle"] and "07" in d["tesseract"]]
     assert fig and "EFFECTIVE DATE" in " ".join(fig[0]["before"]).upper()
-    notes = ing.ocr_notes(report)
+    notes = ocr.ocr_notes(report)
     assert f"{len(report['disagreements'])} position" in notes and "ocr.json" in notes
     assert "tesseract read 07" in notes and "paddle read 08" in notes
     assert "signatures" in notes and "reading order" in notes.lower()
@@ -160,7 +165,7 @@ def test_check_fails_when_figures_are_edited_and_the_hash_beside_them_is_updated
     assert edited != text
     (snap / "or-das-107-004-053.txt").write_text(edited)
     rep = json.loads((snap / "or-das-107-004-053.ocr.json").read_text())
-    rep["text_sha256"] = ing.hashlib.sha256(edited.encode()).hexdigest()
+    rep["text_sha256"] = hashlib.sha256(edited.encode()).hexdigest()
     (snap / "or-das-107-004-053.ocr.json").write_text(json.dumps(rep))
     ing.write_ocr_document(SRC, cfg)
     assert any("figures" in m for m in ing.check([SRC], cfg))
@@ -175,7 +180,7 @@ def test_check_fails_when_a_few_words_are_edited_and_the_hash_is_updated_too(tmp
     assert edited != text
     (snap / "or-das-107-004-053.txt").write_text(edited)
     rep = json.loads((snap / "or-das-107-004-053.ocr.json").read_text())
-    rep["text_sha256"] = ing.hashlib.sha256(edited.encode()).hexdigest()
+    rep["text_sha256"] = hashlib.sha256(edited.encode()).hexdigest()
     (snap / "or-das-107-004-053.ocr.json").write_text(json.dumps(rep))
     ing.write_ocr_document(SRC, cfg)
     assert any("words" in m for m in ing.check([SRC], cfg))
@@ -193,7 +198,7 @@ def test_when_the_installed_tesseract_is_not_the_recorded_one_the_recheck_relaxe
     (snap / "or-das-107-004-053.txt").write_text(edited)
     rep = json.loads((snap / "or-das-107-004-053.ocr.json").read_text())
     rep["tools"]["tesseract"] = "tesseract 9.9.9"
-    rep["text_sha256"] = ing.hashlib.sha256(edited.encode()).hexdigest()
+    rep["text_sha256"] = hashlib.sha256(edited.encode()).hexdigest()
     (snap / "or-das-107-004-053.ocr.json").write_text(json.dumps(rep))
     ing.write_ocr_document(SRC, cfg)
     assert ing.check([SRC], cfg) == []
@@ -203,8 +208,8 @@ def test_when_the_installed_tesseract_is_not_the_recorded_one_the_recheck_relaxe
 
 def ingested(tmp_path):
     cfg = corpus(tmp_path)
-    text, report = ing.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab=VOCAB)
-    ing.write_ocr_snapshot(cfg, SRC, SCAN, text, report)
+    text, report = ocr.ocr_scan(SRC, SCAN, cfg, paddle=paddle_of(PADDLE), vocab=VOCAB)
+    ocr.write_ocr_snapshot(cfg, SRC, SCAN, text, report)
     return cfg
 
 
@@ -256,7 +261,7 @@ def test_check_fails_when_the_text_is_not_what_tesseract_reads_from_the_scan(tmp
     (snap / "or-das-107-004-053.txt").write_text(other)
     (snap / "or-das-107-004-053.paddle.txt").write_text(other)
     rep = json.loads((snap / "or-das-107-004-053.ocr.json").read_text())
-    rep["text_sha256"] = ing.hashlib.sha256(other.encode()).hexdigest()
+    rep["text_sha256"] = hashlib.sha256(other.encode()).hexdigest()
     rep["paddle_sha256"] = rep["text_sha256"]
     (snap / "or-das-107-004-053.ocr.json").write_text(json.dumps(rep))
     assert any("tesseract" in m for m in ing.check([SRC], cfg))
@@ -299,8 +304,8 @@ def test_an_order_that_only_cites_the_number_in_passing_is_not_that_order():
 # confidence reads them as confident nonsense, so the procedure's forced-orientation retry is what makes
 # the text. Fixtures are real bytes (www.gov.ca.gov, fetched 2026-11-11 with curl_on_challenge=True) and the
 # text PaddleOCR read from pages 2-4 the same day.
-MIXED = (FIX / "ca-eo-n-30-25-mixed.pdf").read_bytes()
-MIXED_PADDLE = (FIX / "ca-eo-n-30-25-mixed.paddle.txt").read_text()
+MIXED = (FIX / "california/ca-eo-n-30-25-mixed.pdf").read_bytes()
+MIXED_PADDLE = (FIX / "california/ca-eo-n-30-25-mixed.paddle.txt").read_text()
 MIXED_SRC = {"id": "ca-eo-n-30-25", "format": "pdf", "ocr": [2, 3, 4], "doc_type": "executive_order",
              "jurisdiction": "california", "citation": "Executive Order N-30-25",
              "url": "https://www.gov.ca.gov/wp-content/uploads/2025/07/2025-7-15.Efficient-and-Effective-Government-EO.FINAL_.signed.pdf",
@@ -310,14 +315,14 @@ MIXED_SRC = {"id": "ca-eo-n-30-25", "format": "pdf", "ocr": [2, 3, 4], "doc_type
 
 def mixed_corpus(tmp_path):
     cfg = corpus(tmp_path)
-    (tmp_path / "_meta" / "source-manifest.yml").write_text(yaml.safe_dump({"sources": [MIXED_SRC]}))
+    write_seed(tmp_path, [MIXED_SRC])
     return config_mod.load(tmp_path / "_meta" / "corpus.yml")
 
 
 @needs_ocr
 def test_listed_scan_pages_are_read_by_ocr_and_the_text_page_keeps_its_text_layer(tmp_path):
     cfg = mixed_corpus(tmp_path)
-    text, report = ing.ocr_scan(MIXED_SRC, MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
+    text, report = ocr.ocr_scan(MIXED_SRC, MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
     assert report["forced_rotation"] is True and report["pages"] == [2, 3, 4]
     assert report["agreement"] >= 0.95
     assert " ".join(text.split()[:8]) == "EXECUTIVE DEPARTMENT STATE OF CALIFORNIA EXECUTIVE ORDER N-30-25"   # page 1: pdftotext -layout
@@ -329,21 +334,21 @@ def test_listed_scan_pages_are_read_by_ocr_and_the_text_page_keeps_its_text_laye
 def test_a_listed_page_that_has_a_text_layer_is_refused(tmp_path):
     cfg = mixed_corpus(tmp_path)
     with pytest.raises(ValueError, match="page 1"):
-        ing.ocr_scan(dict(MIXED_SRC, ocr=[1, 2, 3, 4]), MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
+        ocr.ocr_scan(dict(MIXED_SRC, ocr=[1, 2, 3, 4]), MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
 
 
 @needs_ocr
 def test_an_unlisted_scan_page_is_refused_not_dropped(tmp_path):
     cfg = mixed_corpus(tmp_path)
     with pytest.raises(ValueError, match="page 4"):
-        ing.ocr_scan(dict(MIXED_SRC, ocr=[2, 3]), MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
+        ocr.ocr_scan(dict(MIXED_SRC, ocr=[2, 3]), MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
 
 
 @needs_ocr
 def test_check_passes_for_a_mixed_pdf_and_fails_when_the_text_layer_part_is_edited(tmp_path):
     cfg = mixed_corpus(tmp_path)
-    text, report = ing.ocr_scan(MIXED_SRC, MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
-    ing.write_ocr_snapshot(cfg, MIXED_SRC, MIXED, text, report)
+    text, report = ocr.ocr_scan(MIXED_SRC, MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
+    ocr.write_ocr_snapshot(cfg, MIXED_SRC, MIXED, text, report)
     ing.write_ocr_document(MIXED_SRC, cfg)
     assert ing.check([MIXED_SRC], cfg) == []
     notes = parse_frontmatter(ing.doc_path(MIXED_SRC, cfg))[0]["conversion_notes"]
@@ -353,6 +358,6 @@ def test_check_passes_for_a_mixed_pdf_and_fails_when_the_text_layer_part_is_edit
     edited = text.replace("4th largest economy", "5th largest economy", 1)
     (snap / "ca-eo-n-30-25.txt").write_text(edited)
     rep = json.loads((snap / "ca-eo-n-30-25.ocr.json").read_text())
-    rep["text_sha256"] = ing.hashlib.sha256(edited.encode()).hexdigest()
+    rep["text_sha256"] = hashlib.sha256(edited.encode()).hexdigest()
     (snap / "ca-eo-n-30-25.ocr.json").write_text(json.dumps(rep))
     assert any("text layer" in m for m in ing.check([MIXED_SRC], cfg))
