@@ -338,6 +338,28 @@ def archive_eo_html_to_text(raw: bytes) -> str:
     return "\n".join(parser.lines) + "\n"
 
 
+# ---- Colorado Office of Information Technology: pages on oit.colorado.gov ---------------------
+#
+# oit.colorado.gov is a Drupal site behind colorado.gov's shared firewall, which answers the toolkit's
+# crawler-form User-Agent (toolkit ADR-0019) and refused the earlier one. A page that states an instrument
+# is its <h1> (in the header region) and the page body (`field--name-body`), up to the end of the content
+# column; the breadcrumb and side navigation, which list the neighbouring pages, are not the page.
+
+def oit_html_to_text(raw: bytes) -> str:
+    page = _decode(raw)
+    heading = re.search(r"<h1[^>]*>\s*(.*?)\s*</h1>", page, flags=re.S)
+    region = page.find("region-content")           # an earlier field--name-body is the language selector
+    start = page.find("field--name-body", region) if region >= 0 else -1
+    start = page.rfind("<div", 0, start) if start >= 0 else -1
+    end = page.find("</section>", start) if start >= 0 else -1
+    if not heading or start < 0 or end < 0:
+        raise ValueError("page has no heading and body region: the page layout changed")
+    parser = _SamParser()
+    parser.feed(f"<h1>{heading.group(1)}</h1>" + page[start:end])
+    parser._flush()
+    return "\n".join(parser.lines) + "\n"
+
+
 # ---- California Department of Technology: Technology Letters and SIMM pages --------------
 #
 # www.cdt.ca.gov answers the toolkit's httpx client with a Cloudflare managed challenge and answers
@@ -1356,6 +1378,9 @@ def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
         return sam_html_to_text(raw)
     if fmt == "html" and doc_type == "executive_order" and jurisdiction == "california":
         return archive_eo_html_to_text(raw)
+    if fmt == "html" and doc_type in ("policy", "standard") and jurisdiction == "colorado" \
+            and host == "oit.colorado.gov":
+        return oit_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "washington":
         return rcw_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "colorado":
@@ -1422,6 +1447,12 @@ _CO_STAMP = re.compile(rf"^\s*((?:Updated:\s*[A-Za-z]{{3,9}}\.?\s+\d{{1,2}},\s+\
                        rf"|(?:Published\s+(?:{_MONTHS})\s+\d{{4}}))", flags=re.M)
 
 
+_CO_HEAD = 2500   # OIT's instrument PDFs print their header table at the top
+_CO_ROW_DATE = re.compile(r"^[ \t]*Effective Date[ \t]{2,}(\d{1,2})[/-](\d{1,2})[/-](\d{4})[ \t]*$", flags=re.M)
+_CO_ROW_VERSION = re.compile(r"^[ \t]*Version[ \t]{2,}(\S.*?)[ \t]*$", flags=re.M)
+_CO_ROW_UPDATED = re.compile(r"^[ \t]*Last Updated[ \t]{2,}(\d{1,2}[/-]\d{1,2}[/-]\d{4})[ \t]*$", flags=re.M)
+
+
 def _co_effective_date(text: str, doc_type: str) -> str | None:
     if doc_type == "rule":
         history = text[text.rfind("History"):] if "History" in text else ""
@@ -1430,6 +1461,10 @@ def _co_effective_date(text: str, doc_type: str) -> str | None:
             return None
         mon, day, year = hits[-1]
         return f"{year}-{mon}-{day}" if 1 <= int(mon) <= 12 and 1 <= int(day) <= 31 else None
+    row = _CO_ROW_DATE.search(text[:_CO_HEAD])
+    if row:         # the header table of a TS-/CISP-/POL- PDF: 'Effective Date   11/19/2015' (or 07-01-2026)
+        mon, day, year = row.groups()
+        return f"{year}-{int(mon):02d}-{int(day):02d}" if 1 <= int(mon) <= 12 and 1 <= int(day) <= 31 else None
     m = _CO_LABEL.search(text)
     if not m:
         return None
@@ -1529,6 +1564,10 @@ def source_version(text: str, doc_type: str, jurisdiction: str = "", fmt: str = 
         m = _CO_STAMP.search(text)
         if m:
             return " ".join(m.group(1).split())
+        head = text[:_CO_HEAD]
+        ver, upd = _CO_ROW_VERSION.search(head), _CO_ROW_UPDATED.search(head)
+        if ver:
+            return ver.group(1) + (f", last updated {upd.group(1)}" if upd else "")
     return _printed_version(text) if fmt == "docx" else ""
 
 
@@ -1692,6 +1731,21 @@ def _check_co_policy_identity(src: dict, text: str, what_is: str) -> None:
     if not _OIT.search(text):
         raise ValueError(f"{src['id']}: {what_is} never names OIT or the Office of Information Technology: "
                          f"not shown to be OIT's")
+    if src.get("document_id"):
+        # An OIT instrument PDF opens with a header table: Document ID, Title, Issuing Authority, Version.
+        head = text[:_CO_HEAD]
+        ident = re.search(r"^[ \t]*Document ID[ \t]+(\S+)[ \t]*$", head, flags=re.M)
+        if not ident or ident.group(1) != src["document_id"]:
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: its header prints Document ID "
+                             f"{ident.group(1) if ident else None!r}, the seed entry cites {src['document_id']!r}")
+        issuer = re.search(r"^[ \t]*Issuing Authority[ \t]+(\S.*)$", head, flags=re.M)
+        if not issuer or not _OIT.search(issuer.group(1)):
+            raise ValueError(f"{src['id']}: {what_is} has no Issuing Authority line naming OIT in its header "
+                             f"(it prints {issuer.group(1) if issuer else None!r})")
+        ver = _CO_ROW_VERSION.search(head)
+        if ver and re.search(r"draft", ver.group(1), flags=re.I):
+            raise ValueError(f"{src['id']}: {what_is} prints its version as {ver.group(1)!r}: a Draft is not "
+                             f"shown to be in force")
 
 
 def _is_cdt(src: dict) -> bool:
@@ -1754,6 +1808,10 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
     notes = _conversion_notes(src, fmt, text)
     if src.get("_ocr"):
         return notes
+    if src.get("oit_link"):
+        notes += (f" OIT's page ({src.get('found_via', 'its index')}), where the list item reads "
+                  f"{src.get('listed_as', 'its title')!r}, links this file as {src['oit_link']}; the text "
+                  f"was fetched from Google Drive's direct-download form of the same file, {src['url']} (the source URL above).")
     if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
         notes += (" The PDF is the copy the Secretary of State's page calls the official version of the rule "
                   "(it governs in all cases). Its cover's Secretary of State mark prints as a few scattered "
@@ -1798,6 +1856,13 @@ def _conversion_notes(src: dict, fmt: str, text: str) -> str:
                 "list item and table row (a table row's cells are joined by ' | '), with markup, the site "
                 "menu, the side navigation, the page's contents list ('On this page'), the print button, "
                 "scripts, the footer and non-breaking spaces removed.")
+    if fmt == "html" and src["jurisdiction"] == "colorado" \
+            and urllib.parse.urlsplit(src.get("url") or "").hostname == "oit.colorado.gov":
+        return ("Text taken from the Office of Information Technology's web page: the page heading, then the "
+                "page body, one line per paragraph, heading and list item (list items marked with a bullet, "
+                "nested lists indented), with markup, the site menu, breadcrumb, side navigation of the "
+                "neighbouring guide pages, language selector, footer and scripts removed. The page prints no "
+                "document number, version or effective date.")
     if src["doc_type"] == "rule" and src["jurisdiction"] == "california":
         return ("Text taken from the Secretary of State's page for the chapter of the California Code of "
                 "Regulations: the title, division and chapter headings, the chapter's contents list and each "
