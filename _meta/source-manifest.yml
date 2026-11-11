@@ -2842,6 +2842,22 @@ sources:
     slice: {article: "3", part: "17"}
     why_relevant: "The legislature's Joint Technology Committee, which oversees the Office of Information Technology and the chief information security officer (2-3-1704), and the artificial intelligence impact task force (2-3-1707). Included for the oversight of executive-branch IT; the committee itself is a legislative body."
 
+  # ---- Colorado stub: a statute held out for an owner decision (the Washington equivalent, RCW 43.386, is stubbed the same way)
+  - id: co-crs-24-18-pt3
+    url: https://olls.info/crs/crs2026-title-24.htm
+    format: html
+    citation: "C.R.S. title 24, article 18, part 3"
+    title: "Use of Facial Recognition Services by State and Local Government Agencies"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [ai, governance, data]
+    recheck: monthly
+    slice: {article: "18", part: "3"}
+    stub: true
+    stub_reason: "Borderline for scope, owner decision (the same call as Washington's RCW 43.386): the part governs state and local agency use of facial recognition services (accountability reports, meaningful human review, testing, training, record keeping; 24-18-302 to 24-18-306) but 24-18-307 and 24-18-308 are law-enforcement provisions (surveillance and tracking, prohibited uses, warrants; disclosure to a criminal defendant), and the scope statement puts law-enforcement technology out except where a general agency-AI rule names it. It passes the domain test otherwise: 24-18-301 (2) defines 'Agency' as 'An agency of the state government or of a local government' or a state institution of higher education, and 24-18-301 (14)(b) makes the office of information technology the reporting authority for a state agency. The source was read on 2026-11-11 in the title 24 file already fetched (133 lines, PART 3 heading to the source note 'L. 2022: Entire part added, (SB 22-113), ch. 463, ... effective August 10'); the slice ingests cleanly, so the entry becomes a document the moment the owner takes it in (remove stub and stub_reason, run src/ingest.py)."
+    why_relevant: "Colorado's only enacted statute found that regulates state agency use of an AI technology (facial recognition): notice of intent and accountability reports, meaningful human review of decisions with legal or similarly significant effects, pre-use testing, user training and record keeping (SB 22-113). The Office of Information Technology is the reporting authority for state agencies."
+
   # ---- Colorado stubs: OIT policy instruments (no document file; oit.colorado.gov refuses the fetch)
   # oit.colorado.gov answered HTTP 403 (a CloudFront error page, 919 bytes) to the toolkit's Fetcher with its shipped
   # User-Agent and to plain curl on 2026-11-10/11, for every path tried: the home page, the technical standards and
@@ -2861,7 +2877,7 @@ sources:
     tags: [cybersecurity, governance, data]
     recheck: monthly
     stub: true
-    stub_reason: "oit.colorado.gov returns HTTP 403 to the toolkit's Fetcher (honest User-Agent) and to plain curl; the url is the library page named by a web search result and by docs/research/02 (blocked there too), not a page read tonight. Identity comes from the Legislative Audit Committee's January 2026 audit 2551P-IT (https://content.leg.colorado.gov/sites/default/files/documents/audits/2551P-IT_Cybersecurity_Resiliency_PUBLIC.pdf, fetched): 'OIT issued updated CISPs, effective November 2025 and enforceable July 2026. OIT consolidated the 16 December 2024 CISPs down to four (4) CISPs that make up the November 2025 CISPs.' The four titles and numbers are not confirmed at an official page. Also see C.R.S. 24-37.5-403 (2)(b): the chief information security officer 'shall promulgate rules' containing information security policies, so these may also exist in the Code of Colorado Regulations (not reachable, see the left-out notes)."
+    stub_reason: "URL AND CITATION UNCONFIRMED. oit.colorado.gov returns HTTP 403 to the toolkit's Fetcher (honest User-Agent) and to plain curl, so the 403 does not show the page exists; the url is the library page named by a web search result and by docs/research/02 (blocked there too), not a page read tonight, and neither fetched audit PDF contains an oit.colorado.gov address. The citation and title ('November 2025 set') are composed from the audit's wording, not a title OIT published. The owner swaps in the OIT url and title once the library can be read; the audit URL below is the one fetched source that names the instrument. Identity comes from the Legislative Audit Committee's January 2026 audit 2551P-IT (https://content.leg.colorado.gov/sites/default/files/documents/audits/2551P-IT_Cybersecurity_Resiliency_PUBLIC.pdf, fetched): 'OIT issued updated CISPs, effective November 2025 and enforceable July 2026. OIT consolidated the 16 December 2024 CISPs down to four (4) CISPs that make up the November 2025 CISPs.' The four titles and numbers are not confirmed at an official page. Also see C.R.S. 24-37.5-403 (2)(b): the chief information security officer 'shall promulgate rules' containing information security policies, so these may also exist in the Code of Colorado Regulations (not reachable, see the left-out notes)."
     why_relevant: "The State's information security policies, which under 24-37.5-403 are issued for public agencies and, per the audit, apply to OIT, public agencies and vendors. Replaced the 16 December 2024 CISPs; the audit calls the earlier set the one in force during its audit."
   - id: co-oit-genai-policy
     url: https://oit.colorado.gov/standards-policies-guides/guide-to-artificial-intelligence/statewide-genai-agency-responsibilities
@@ -2874,8 +2890,8 @@ sources:
     tags: [ai, governance]
     recheck: monthly
     stub: true
-    stub_reason: "oit.colorado.gov returns HTTP 403 to the toolkit's Fetcher and to plain curl. The url is an OIT page about the policy named by a web search result, not read tonight, and may not be the policy document itself. Identity comes from OIT's 'GenAI Projects by Agency' list (https://content.leg.colorado.gov/sites/default/files/2025-12/OIT-GenAI%20Projects.pdf, fetched), which says 'The state policy specifically covers Generative AI (GenAI)' and 'DOC is enforcing the Statewide GenAI Policy with staff; GenAI used by state agencies may assist a human reviewer'. Its date, number and title as printed by OIT are unconfirmed."
-    why_relevant: "The Colorado instrument that governs state agency use of generative AI (agency intake, OIT risk assessment). There is no Colorado statute on government use of AI (see the left-out notes), so this policy is the AI instrument for state agencies."
+    stub_reason: "URL UNCONFIRMED. oit.colorado.gov returns HTTP 403 to the toolkit's Fetcher and to plain curl, so the 403 does not show the page exists. The url is an OIT page about the policy named by a web search result, not read tonight, neither fetched PDF contains an oit.colorado.gov address, and it may not be the policy document itself. The owner swaps in the OIT url once it can be read. Identity comes from OIT's 'GenAI Projects by Agency' list (https://content.leg.colorado.gov/sites/default/files/2025-12/OIT-GenAI%20Projects.pdf, fetched), which says 'The state policy specifically covers Generative AI (GenAI)' and 'DOC is enforcing the Statewide GenAI Policy with staff; GenAI used by state agencies may assist a human reviewer'. Its date, number and title as printed by OIT are unconfirmed."
+    why_relevant: "The Colorado instrument that governs state agency use of generative AI (agency intake, OIT risk assessment). Colorado has no general statute on state agency use of AI (the one agency-use statute found is the facial recognition part, stubbed above as co-crs-24-18-pt3; see the left-out notes), so this policy is the general AI instrument for state agencies."
 
   # ---- Colorado found and left out (the reason is recorded here)
   #
@@ -2892,7 +2908,13 @@ sources:
   #    the policies and standards developed under 24-37.5-105 (4), and rules establishing accessibility standards),
   #    24-37.5-403 (2)(b) (the CISO 'shall promulgate rules' containing information security policies) and
   #    24-85-103. docs/research/02 section 3 names '8 CCR 1501' as the OIT rules (a lead, NOT confirmed: not
-  #    fetched). OWNER DECISION: retry the CCR from an environment the SOS site accepts.
+  #    fetched). A web search on 2026-11-11 names five rule sets under the OIT department; each is an UNCONFIRMED
+  #    LEAD, not a citation, because none could be read at the Secretary of State (every CCR .do path and the Upload/
+  #    PDF paths answered HTTP 500, rechecked): 8 CCR 1501-5 (rules in support of the Colorado Information Security
+  #    Act), 8 CCR 1501-6 (Office of Information Technology), 8 CCR 1501-9 (electronic transactions by governmental
+  #    agencies), 8 CCR 1501-11 (technology accessibility) and 8 CCR 1501-12 (IT lifecycle planning). The titles are
+  #    the search result's wording, not the SOS's. None is a seed entry; each becomes one once its SOS page is read.
+  #    OWNER DECISION: retry the CCR from an environment the SOS site accepts, using these five as the target list.
   #  - The rest of the OIT technical standards and policies library (acceptable use, accessibility TS-OEA-xxx
   #    standards, governance, project management policies, the Statewide GenAI guide and agency responsibilities).
   #    docs/research/02 reports part of the set is employee-only (S, unconfirmed); the library page itself could not
@@ -2915,9 +2937,12 @@ sources:
   #    13-21-1502 (a definition in civil liability law), 18-7-107 to 109 (intimate digital depictions), and mentions
   #    inside 24-30-105 (statewide language access assessment, AI as one option to evaluate), 24-71.3-102 (Uniform
   #    Electronic Transactions Act commentary), 16-3-313 and 16-18-106 (criminal procedure), 25-17-705 and 39-36-102:
-  #    private-sector, health, election, criminal or incidental. Colorado has no statute that sets rules for state
-  #    agency use of AI; the one government-use instrument found is the OIT policy stubbed above (2-3-1707, the AI
-  #    impact task force, is inside the seeded 2-3 part 17).
+  #    private-sector, health, election, criminal or incidental. Colorado has no general statute on state agency
+  #    use of AI. The agency-use statute found is C.R.S. 24-18-301 to 24-18-309 (title 24, article 18, part 3, facial
+  #    recognition services, SB 22-113), which that 'artificial intelligence' and 'automated decision' search missed
+  #    because the part never uses those words; it is stubbed above as co-crs-24-18-pt3 (OWNER DECISION, the same as
+  #    Washington's RCW 43.386). The general-purpose government-use instrument found is the OIT GenAI policy stubbed
+  #    above (2-3-1707, the AI impact task force, is inside the seeded 2-3 part 17).
   #  - Colorado Procurement Code (articles 101 to 112 of title 24) and 24-30-202: Oregon's and Washington's
   #    procurement statutes were left out by owner decision; same here. OWNER DECISION.
   #  - 24-30-209 (statewide financial and human resources information technology systems, billing, cash fund) and
