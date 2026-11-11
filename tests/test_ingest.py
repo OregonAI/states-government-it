@@ -331,6 +331,30 @@ def test_check_fails_on_a_missing_snapshot_or_document(tmp_path):
     assert any("or-oar-128-50" in m for m in out) and any("or-ors-276a" in m for m in out)
 
 
+def test_orphans_none_when_every_document_has_an_ingestable_entry_and_no_stub_has_one(tmp_path):
+    cfg = ingested(tmp_path)
+    assert ing.orphans([SRC_ORS, SRC_OAR, SRC_PDF], cfg) == []
+
+
+def test_orphans_fails_when_an_entry_becomes_a_stub_but_its_document_stays(tmp_path):
+    cfg = ingested(tmp_path)
+    out = ing.orphans([SRC_ORS, SRC_OAR, dict(SRC_PDF, stub=True, stub_reason="x")], cfg)
+    assert any("or-eis-memo-20220812-cloud" in m and "stub" in m for m in out)
+    assert any("policies/oregon/or-eis-memo-20220812-cloud.md" in m for m in out)
+
+
+def test_orphans_fails_when_an_entry_is_removed_but_its_document_stays(tmp_path):
+    cfg = ingested(tmp_path)
+    out = ing.orphans([SRC_ORS, SRC_OAR], cfg)
+    assert out and "or-eis-memo-20220812-cloud.md" in out[0] and "no ingestable seed entry" in out[0]
+
+
+def test_orphans_ignores_watch_only_entries_with_no_document(tmp_path):
+    cfg = ingested(tmp_path)
+    watch = {"id": "w", "jurisdiction": "oregon", "doc_type": "policy", "watch_only": True}
+    assert ing.orphans([SRC_ORS, SRC_OAR, SRC_PDF, watch], cfg) == []
+
+
 def test_check_cli_runs_offline_and_passes_on_this_repo():
     r = subprocess.run([sys.executable, "-m", "src.ingest", "--check"], cwd=ROOT,
                        capture_output=True, text=True)
@@ -403,6 +427,15 @@ def test_wa_statute_section_page_must_be_the_cited_section():
     with pytest.raises(ValueError, match="not RCW 42.56.590"):
         ing.check_identity(dict(WA_SEC, citation="RCW 42.56.590"),
                            ing.to_text(RCW_SEC, "html", "statute", "washington"))
+
+
+def test_wa_statute_citation_that_is_a_truncation_of_the_real_section_is_refused():
+    text = ing.to_text(RCW_SEC, "html", "statute", "washington")     # opens "RCW 39.26.340"
+    with pytest.raises(ValueError, match="not RCW 39.26.34"):
+        ing.check_identity(dict(WA_SEC, citation="RCW 39.26.34"), text)
+    chapter = ing.to_text(RCW_CH, "html", "statute", "washington")    # opens "Chapter 40.26 RCW"
+    with pytest.raises(ValueError, match="not RCW chapter 40.2"):
+        ing.check_identity(dict(WA_CH, citation="RCW chapter 40.2"), chapter)
 
 
 def test_executive_order_must_print_its_own_number():

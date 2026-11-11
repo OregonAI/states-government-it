@@ -251,7 +251,7 @@ def check_identity(src: dict, text: str) -> None:
     if src["doc_type"] == "statute" and src["jurisdiction"] == "washington":
         cite = src["citation"].replace("RCW chapter ", "Chapter ", 1)
         want = f"{cite} RCW" if cite.startswith("Chapter ") else cite
-        if not text.startswith(want):
+        if not text.strip() or text.splitlines()[0] != want:
             raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
         return
     if src["doc_type"] == "statute":
@@ -397,6 +397,33 @@ def check(sources, config=CONFIG) -> list[str]:
     return problems
 
 
+def orphans(all_sources, config=CONFIG) -> list[str]:
+    """Documents and seed entries must agree, over the whole seed list (not one state's): every
+    .md under a content root belongs to a non-stub, non-watch-only entry, and a stub entry has no
+    document ("a stub is a seed entry with no document file"; an entry removed from the list takes
+    its document with it). Returns problem strings; empty means they agree."""
+    problems: list[str] = []
+    expected = {}
+    for src in all_sources:
+        if not isinstance(src, dict):
+            continue
+        try:
+            path = doc_path(src, config)
+        except (ValueError, KeyError):
+            continue
+        if ingestable(src, None):
+            expected[path] = src["id"]
+        elif src.get("stub") and path.is_file():
+            problems.append(f"{src['id']}: stub entry has a document file "
+                            f"{path.relative_to(config.root)}: remove the file or the stub flag")
+    for root in config.content_roots:
+        for md in sorted((config.root / root.path).rglob("*.md")):
+            if md not in expected:
+                problems.append(f"{md.relative_to(config.root)}: document has no ingestable seed "
+                                f"entry (removed, or marked stub or watch-only)")
+    return problems
+
+
 def run(sources, fetcher, refetch, config=CONFIG):
     """Ingest every source; a failure is recorded and the rest still run."""
     done, failed = [], []
@@ -420,10 +447,11 @@ def main() -> int:
                     help="offline: re-derive every committed text and document from the "
                          "raw snapshots and fail if any differs")
     args = ap.parse_args()
-    sources = [s for _, g in config_mod.load_source_manifest_group_files(CONFIG)
-               for s in (g.get("sources") or []) if ingestable(s, args.state)][:args.limit]
+    everything = [s for _, g in config_mod.load_source_manifest_group_files(CONFIG)
+                  for s in (g.get("sources") or [])]
+    sources = [s for s in everything if ingestable(s, args.state)][:args.limit]
     if args.check:
-        problems = check(sources)
+        problems = check(sources) + (orphans(everything) if args.state is None and args.limit is None else [])
         for m in problems:
             print(m)
         print(f"{len(problems)} ingest problem(s)" if problems
