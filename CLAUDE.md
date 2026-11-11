@@ -18,8 +18,9 @@ merges.
 **One state = one PR of new files:** `_meta/sources/<state>.yml`, `src/states/<state>.py`,
 `tests/<state>/`, `tests/fixtures/<state>/`, the documents and snapshots, `changelog.d/<state>-*.md`.
 No shared file is edited. Then run `scripts/regen.sh`: it rebuilds the generated files (`_meta/graph.json`,
-`STATUS.md`, `llms.txt`, `CHANGELOG.md`) and is the whole resolution of a rebase conflict in any of them:
-run it, `git add -A`, `git rebase --continue`. Commit the regenerated files last, so a rebase conflicts once.
+`STATUS.md`, `llms.txt`, `CHANGELOG.md`). Commit them last, and after every rebase run it again: it is the whole
+resolution of a conflict in any of them (`scripts/regen.sh`, `git add -A`, `git rebase --continue`), and git may
+also merge them cleanly into stale content, which `scripts/gates.sh` catches.
 
 ## Hard rules
 
