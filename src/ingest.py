@@ -151,13 +151,53 @@ def pdf_to_text(raw: bytes) -> str:
     return text
 
 
-def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon") -> str:
+_CRS_ARTICLE = re.compile(r"ARTICLE \d+(\.\d+)?")
+_CRS_PART = re.compile(r"PART \d+(\.\d+)?")
+
+
+def _only(lines: list[str], want: str, what: str) -> int:
+    hits = [i for i, line in enumerate(lines) if line == want]
+    if not hits:
+        raise ValueError(f"CRS file has no {what}: the file layout changed or the slice is wrong")
+    if len(hits) > 1:
+        raise ValueError(f"CRS file has {what} more than once: the slice would be a guess")
+    return hits[0]
+
+
+def crs_html_to_text(raw: bytes, slice_: dict | None) -> str:
+    """The Office of Legislative Legal Services' C.R.S. title file (Word-exported HTML, one file
+    per title, so the same paragraph handling as the ORS page). A document is one slice of it:
+    `{article: "73"}` runs from the line `ARTICLE 73` to the next `ARTICLE n` heading line, and
+    `{article: "33.5", part: "19"}` runs from the body line `PART 19` inside that article to the
+    next `PART n` body line. (The article's caption list prints `PART 19 COLORADO CYBERSECURITY`
+    on one line; only the body heading is a line of its own.) Nothing inside a slice is dropped:
+    caption lists, section text, source notes, editor's notes and annotations all stay."""
+    if not slice_ or not slice_.get("article"):
+        raise ValueError("a Colorado statute entry needs a slice: {article: ...} or "
+                         "{article: ..., part: ...}")
+    lines = ors_html_to_text(raw).splitlines()
+    start = _only(lines, f"ARTICLE {slice_['article']}", f"article {slice_['article']}")
+    end = next((i for i in range(start + 1, len(lines)) if _CRS_ARTICLE.fullmatch(lines[i])),
+               len(lines))
+    lines = lines[start:end]
+    if slice_.get("part"):
+        start = _only(lines, f"PART {slice_['part']}", f"part {slice_['part']}")
+        end = next((i for i in range(start + 1, len(lines)) if _CRS_PART.fullmatch(lines[i])),
+                   len(lines))
+        lines = lines[start:end]
+    return "\n".join(lines) + "\n"
+
+
+def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
+            slice_: dict | None = None) -> str:
     """Bytes to the text committed as `<id>.txt` and hashed. A source this corpus has no
     cleanup for is refused: a generic tag-strip would commit navigation as law."""
     if fmt == "pdf":
         return pdf_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "washington":
         return rcw_html_to_text(raw)
+    if fmt == "html" and doc_type == "statute" and jurisdiction == "colorado":
+        return crs_html_to_text(raw, slice_)
     if fmt == "html" and doc_type == "statute":
         return ors_html_to_text(raw)
     if fmt == "html" and doc_type == "rule":
@@ -254,6 +294,18 @@ def check_identity(src: dict, text: str) -> None:
         if not text.strip() or text.splitlines()[0] != want:
             raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
         return
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado":
+        cite = re.fullmatch(r"C\.R\.S\. title \d+, article ([\d.]+)(?:, part (\d+))?", src["citation"])
+        sl = src.get("slice") or {}
+        lines = text.splitlines()
+        heading = f"PART {sl['part']}" if sl.get("part") else f"ARTICLE {sl.get('article')}"
+        if (not cite or cite.group(1) != sl.get("article") or cite.group(2) != sl.get("part")
+                or not lines or lines[0] != heading):
+            raise ValueError(f"{src['id']}: page is not {src['citation']} (article/part mismatch)")
+        if len(lines) < 2 or lines[1].casefold() not in src["title"].casefold():
+            raise ValueError(f"{src['id']}: slice title {lines[1] if len(lines) > 1 else ''!r} "
+                             f"is not in the seed title {src['title']!r}")
+        return
     if src["doc_type"] == "statute":
         chapter = re.search(r"chapter\s+(\w+)", src["citation"], flags=re.I)
         if not chapter or not text.startswith(f"Chapter {chapter.group(1)} "):
@@ -274,6 +326,12 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
                 "kept as extracted; form feeds and trailing spaces removed; ligature glyphs such "
                 "as fi and fl written as their letters).")
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado":
+        return ("The source is the Office of Legislative Legal Services' title file (one file for the whole of "
+                "the title); this document is the one article (or part) named in the citation, "
+                "from its ARTICLE (or PART) heading line to the next one, one line per source "
+                "paragraph, with markup, spacing paragraphs and non-breaking spaces removed. "
+                "Caption lists, source notes, editor's notes and annotations are kept.")
     if src["doc_type"] == "statute" and src["jurisdiction"] == "washington":
         return ("Text taken from the Legislature's RCW page: the citation and title, then each "
                 "section's caption, paragraphs, session-law history and notes, one line per "
@@ -311,7 +369,7 @@ def derive(src: dict, raw: bytes) -> tuple[str, str]:
         raise ValueError(f"{fmt} is not a format this corpus can read")
     if fmt != declared:
         print(f"  {src['id']}: manifest says {declared}, bytes say {fmt} -- correct the manifest")
-    text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"])
+    text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"], src.get("slice"))
     check_identity(src, text)
     return fmt, text
 
