@@ -56,7 +56,7 @@ def check(manifest: dict, domain: dict) -> list[str]:
     tags = set(domain["tags"])
     errors: list[str] = []
     ids: set = set()
-    urls: set = set()
+    urls: set = set()   # (url, slice) pairs
     for i, e in enumerate(sources):
         if not isinstance(e, dict):
             errors.append(f"entry #{i}: not a mapping")
@@ -69,9 +69,20 @@ def check(manifest: dict, domain: dict) -> list[str]:
         if e.get("id") in ids:
             bad("duplicate id")
         ids.add(e.get("id"))
-        if e.get("url") in urls:
+        # Several documents may be slices of one source file (a Colorado title file): the unit
+        # that must be unique is the url plus the slice, and a url shared with an unsliced entry
+        # is still a duplicate.
+        sl = e.get("slice")
+        key = (e.get("url"), tuple(sorted(sl.items())) if isinstance(sl, dict) else None)
+        if key in urls or (e.get("url"), None) in urls or (key[1] is None and any(
+                u == e.get("url") for u, _ in urls)):
             bad("duplicate url")
-        urls.add(e.get("url"))
+        urls.add(key)
+        if "slice" in e and e["slice"] is not None:
+            if (not isinstance(sl, dict) or _blank(sl.get("article"))
+                    or set(sl) - {"article", "part"}
+                    or not all(isinstance(v, str) and v for v in sl.values())):
+                bad("slice must be a mapping with article (and optionally part), as strings")
         url = e.get("url")
         if isinstance(url, str) and not url.startswith(("http://", "https://")):
             bad(f"url is not http(s): {url}")

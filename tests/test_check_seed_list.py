@@ -66,6 +66,25 @@ def test_duplicate_id_and_duplicate_url_fail():
     assert any("duplicate url" in m for m in errs(entry(), entry(id="other")))
 
 
+def test_entries_sharing_one_source_file_need_different_slices():
+    a = entry(url="https://example.gov/title-24.htm", slice={"article": "73"})
+    b = entry(id="other", url="https://example.gov/title-24.htm", slice={"article": "74"})
+    assert errs(a, b) == []
+    assert any("duplicate url" in m for m in errs(a, dict(b, slice={"article": "73"})))
+    assert any("duplicate url" in m for m in errs(a, dict(b, slice=None)))
+    assert any("duplicate url" in m for m in errs(dict(a, slice=None), dict(b, slice=None)))
+    parts = [dict(a, slice={"article": "33.5", "part": "19"}),
+             dict(b, slice={"article": "33.5", "part": "20"})]
+    assert errs(*parts) == []
+
+
+def test_slice_must_name_an_article_and_may_name_a_part():
+    assert any("slice" in m for m in errs(entry(slice="article 73")))
+    assert any("slice" in m for m in errs(entry(slice={"part": "19"})))
+    assert any("slice" in m for m in errs(entry(slice={"article": "73", "chapter": "x"})))
+    assert errs(entry(slice={"article": "73"})) == []
+
+
 def test_stub_needs_reason_and_watch_only_needs_flag_true():
     assert any("stub_reason" in m for m in errs(entry(stub=True)))
     assert errs(entry(stub=True, stub_reason="refused")) == []
