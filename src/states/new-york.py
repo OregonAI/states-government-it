@@ -114,6 +114,21 @@ def check_identity(src, text, what_is):
     return False
 
 
+_HEADER_DATE = re.compile(r"\b(Updated|Issued|Released):\s*(\d{1,2}/\d{1,2}/\d{2}(?:\d{2})?)\b")
+
+
+def source_version(text, doc_type, fmt):
+    """The date the header block of an ITS policy or standard PDF prints about itself ('Updated:',
+    'Issued:' or 'Released:' beside the number and owner), as printed. The header block is the first 40
+    lines; a later 'Updated' in a revision table or the body is not read. 'Issued By:' has no date."""
+    if fmt != "pdf" or doc_type not in ("policy", "standard"):
+        return None
+    for line in text.splitlines()[:40]:
+        if m := _HEADER_DATE.search(line):
+            return f"{m.group(1)}: {m.group(2)}"
+    return None
+
+
 def notes(src, fmt, text):
     if src["doc_type"] == "statute":
         return ("Text from the Senate's Open Legislation API (legislation.nysenate.gov/api/3/laws), one article "

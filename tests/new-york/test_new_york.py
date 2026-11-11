@@ -208,3 +208,41 @@ def test_executive_order_notes_say_the_copy_is_itss_and_why_not_the_governors_sc
            "citation": "Executive Order No. 117", "title": "t"}
     n = ing.conversion_notes(src, "html", "x")
     assert "its.ny.gov" in n and "scan" in n and "OCR" in n
+
+
+# ---- policy and standard PDFs: the date the header block prints ----------------------------
+# Fixtures are the first 30 lines of the pdftotext output of three real library PDFs (page furniture kept).
+
+def header(name):
+    return (FIX / f"its-header-{name}.txt").read_text(encoding="utf-8")
+
+
+def version(text, doc_type="policy", fmt="pdf"):
+    return ing.source_version(text, doc_type, NY, fmt)
+
+
+def test_source_version_is_the_updated_date_the_header_prints():
+    assert version(header("updated")) == "Updated: 12/22/2020"
+
+
+def test_source_version_is_the_issued_date_when_that_is_the_label():
+    assert version(header("issued")) == "Issued: 04/06/2023"       # 'Issued By:' on the next lines is not a date
+
+
+def test_source_version_is_the_released_date_when_that_is_the_label():
+    assert version(header("released")) == "Released: 10/27/2026"
+
+
+def test_source_version_reads_the_header_block_only():
+    body = header("updated") + "\n" * 40 + "Revision history\n   Updated: 01/01/1999\n"
+    assert version(body) == "Updated: 12/22/2020"
+    assert version("\n" * 45 + "Updated: 01/01/1999\n") == ""
+
+
+def test_source_version_is_empty_when_the_header_prints_no_date_and_for_other_types():
+    assert version("No: ITS-P20-001\nIssued By: NYS Office of Information\n") == ""
+    assert version(header("updated"), doc_type="statute", fmt="json") == ""
+
+
+def test_source_version_keeps_a_two_digit_year_as_printed():
+    assert version(header("updated-two-digit-year")) == "Updated: 01/15/25"      # NYS-S16-001 prints it so
