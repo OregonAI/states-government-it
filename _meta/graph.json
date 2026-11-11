@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 331,
+ "n_nodes": 330,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -219,12 +219,6 @@
    "title": "Generative Artificial Intelligence",
    "doc_type": "executive_order",
    "path": "executive-orders/california/ca-eo-n-12-23.md"
-  },
-  {
-   "id": "ca-eo-n-30-25",
-   "title": "Government Efficiency and Innovation",
-   "doc_type": "executive_order",
-   "path": "executive-orders/california/ca-eo-n-30-25.md"
   },
   {
    "id": "ca-eo-n-5-26",

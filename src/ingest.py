@@ -146,12 +146,28 @@ _LIGATURES = {"\ufb00": "ff", "\ufb01": "fi", "\ufb02": "fl", "\ufb03": "ffi",
               "\ufb04": "ffl", "\ufb05": "st", "\ufb06": "st"}
 
 
-def pdf_to_text(raw: bytes) -> str:
+def pdf_to_text(raw: bytes, no_text_pages=()) -> str:
     """`pdftotext -layout`, as the drift detector reads PDFs, with form feeds and trailing
     space removed and ligature glyphs written as their letters. Page headers, footers and
-    column layout are kept: removing furniture per document would be editing the instrument."""
+    column layout are kept: removing furniture per document would be editing the instrument.
+    A page with no words (a scanned page) makes the whole PDF a refusal, because the text
+    would silently lack that page; only pages the seed entry lists in `no_text_pages` (a
+    figure, a blank page or a scanned form it has looked at) are let through, and a listed page
+    that does have text is refused too, so the list stays true."""
     text = subprocess.run(["pdftotext", "-layout", "-", "-"], input=raw, capture_output=True,
                           check=True).stdout.decode("utf-8", "replace")
+    pages = text.split("\f")
+    if len(pages) > 1 and not pages[-1].strip():
+        pages.pop()
+    empty = [n for n, page in enumerate(pages, 1) if not page.split()]
+    listed = sorted(set(no_text_pages))
+    if [n for n in empty if n not in listed]:
+        raise ValueError(f"PDF page(s) {', '.join(str(n) for n in empty if n not in listed)} "
+                         f"have no text layer (a scan): needs OCR, make the entry a stub, or list the "
+                         f"page as no_text_pages if it is a figure or blank")
+    if [n for n in listed if n not in empty]:
+        raise ValueError(f"seed entry lists page(s) {', '.join(str(n) for n in listed if n not in empty)} "
+                         f"as no_text_pages but the PDF has text there")
     text = text.translate(str.maketrans(_LIGATURES))
     text = "\n".join(line.rstrip() for line in text.replace("\f", "\n").split("\n"))
     text = re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
@@ -737,11 +753,11 @@ def crs_html_to_text(raw: bytes, slice_: dict | None) -> str:
 
 
 def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
-            slice_: dict | None = None, host: str = "") -> str:
+            slice_: dict | None = None, host: str = "", no_text_pages=()) -> str:
     """Bytes to the text committed as `<id>.txt` and hashed. A source this corpus has no
     cleanup for is refused: a generic tag-strip would commit navigation as law."""
     if fmt == "pdf":
-        return pdf_to_text(raw)
+        return pdf_to_text(raw, no_text_pages)
     if fmt == "json" and doc_type == "statute" and jurisdiction == "california":
         return ca_bundle_to_text(raw)
     if fmt == "html" and doc_type == "rule" and jurisdiction == "california":
@@ -927,9 +943,12 @@ def doc_path(src: dict, config=CONFIG) -> Path:
 
 def conversion_notes(src: dict, fmt: str, text: str) -> str:
     if fmt == "pdf":
+        pages = sorted(set(src.get("no_text_pages") or ()))
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
                 "kept as extracted; form feeds and trailing spaces removed; ligature glyphs such "
-                "as fi and fl written as their letters).")
+                "as fi and fl written as their letters)."
+                + (f" Pages {', '.join(str(n) for n in pages)} of the PDF have no text layer "
+                   f"(figures, blank pages or scanned forms) and add no text here." if pages else ""))
     if fmt == "html" and src["jurisdiction"] == "california" \
             and urllib.parse.urlsplit(src.get("url") or "").hostname == "www.cdt.ca.gov":
         return ("Text taken from the California Department of Technology's web page for the instrument: "
@@ -1009,7 +1028,8 @@ def derive(src: dict, raw: bytes) -> tuple[str, str]:
     if fmt != declared:
         print(f"  {src['id']}: manifest says {declared}, bytes say {fmt} -- correct the manifest")
     text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"], src.get("slice"),
-                   urllib.parse.urlsplit(src.get("url") or "").hostname or "")
+                   urllib.parse.urlsplit(src.get("url") or "").hostname or "",
+                   src.get("no_text_pages") or ())
     check_identity(src, text)
     return fmt, text
 

@@ -9,18 +9,18 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | policy | 203 |
 | standard | 83 |
 | statute | 28 |
-| executive_order | 11 |
+| executive_order | 10 |
 | rule | 6 |
 
-**Total: 331**
+**Total: 330**
 
 ## Source manifest
 
-447 declared source(s) across 1 group(s) in `source-manifest.yml`.
+454 declared source(s) across 1 group(s) in `source-manifest.yml`.
 
 ## Freshness (reverify every 90 days)
 
-331 of 331 document(s) overdue for re-verification.
+330 of 330 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -60,7 +60,6 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | or-oar-128-50 | rule | never |
 | ca-eo-b-34-15 | executive_order | never |
 | ca-eo-n-12-23 | executive_order | never |
-| ca-eo-n-30-25 | executive_order | never |
 | ca-eo-n-5-26 | executive_order | never |
 | ca-eo-n-6-26 | executive_order | never |
 | ca-eo-n-9-26 | executive_order | never |
@@ -74,5 +73,6 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | ca-itpl-09-05 | policy | never |
 | ca-itpl-10-01 | policy | never |
 | ca-itpl-10-02 | policy | never |
-| … | *281 more* | |
+| ca-itpl-10-03 | policy | never |
+| … | *280 more* | |
 
