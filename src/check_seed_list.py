@@ -3,7 +3,7 @@
 
   python3 src/check_seed_list.py --check     # exit 1 and list every problem
 
-Rules: every entry has the required fields, non-empty; `jurisdiction`, `doc_type` and
+Rules: a key written twice anywhere in the file (e.g. two `sources:` blocks) fails; every entry has the required fields, non-empty; `jurisdiction`, `doc_type` and
 `tags` take only values from domain.yml; `format` is declared from a known set; ids and
 urls are unique; a stub carries `stub_reason`; `stub` and `watch_only` are true booleans
 and never both. An empty list fails: a missing or emptied manifest must not pass.
@@ -20,6 +20,28 @@ ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ("id", "url", "format", "citation", "title", "doc_type", "jurisdiction", "tags",
             "why_relevant")
 FORMATS = {"html", "pdf", "docx", "xlsx", "json", "xml", "txt"}
+
+
+class DuplicateKeyError(ValueError):
+    """A mapping key written twice. PyYAML keeps the last one silently, which drops every
+    entry under an earlier `sources:` block while the check still passes."""
+
+
+class _UniqueKeyLoader(yaml.SafeLoader):
+    def construct_mapping(self, node, deep=False):
+        seen = set()
+        for key_node, _ in node.value:
+            key = self.construct_object(key_node, deep=True)
+            if key in seen:
+                raise DuplicateKeyError(
+                    f"duplicate key {key!r} at line {key_node.start_mark.line + 1}")
+            seen.add(key)
+        return super().construct_mapping(node, deep)
+
+
+def load_yaml_text(text: str):
+    """yaml.safe_load, except that a duplicate mapping key at any level raises."""
+    return yaml.load(text, Loader=_UniqueKeyLoader)  # noqa: S506 -- SafeLoader subclass
 
 
 def _blank(v) -> bool:
@@ -82,8 +104,12 @@ def main() -> int:
     ap.add_argument("--manifest", default=str(ROOT / "_meta" / "source-manifest.yml"))
     ap.add_argument("--domain", default=str(ROOT / "_meta" / "domain.yml"))
     a = ap.parse_args()
-    manifest = yaml.safe_load(Path(a.manifest).read_text())
-    domain = yaml.safe_load(Path(a.domain).read_text())
+    try:
+        manifest = load_yaml_text(Path(a.manifest).read_text())
+        domain = load_yaml_text(Path(a.domain).read_text())
+    except (DuplicateKeyError, yaml.YAMLError) as e:
+        print(f"seed list cannot be loaded: {e}")
+        return 1
     errors = check(manifest, domain)
     for m in errors:
         print(m)

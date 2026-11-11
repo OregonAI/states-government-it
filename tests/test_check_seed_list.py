@@ -4,6 +4,7 @@ import subprocess
 import sys
 from pathlib import Path
 
+import pytest
 import yaml
 
 from src import check_seed_list as c
@@ -96,3 +97,33 @@ def test_cli_passes_on_repo_manifest():
     r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--check"],
                        cwd=ROOT, capture_output=True, text=True)
     assert r.returncode == 0, r.stdout
+
+
+# ---- a duplicate key must not silently drop approved entries -----------------------------
+
+TWO_SOURCES_BLOCKS = """\
+sources:
+  - id: a
+    url: https://example.gov/a
+sources:
+  - id: b
+    url: https://example.gov/b
+"""
+
+
+def test_loader_rejects_a_second_sources_block():
+    with pytest.raises(c.DuplicateKeyError, match="sources"):
+        c.load_yaml_text(TWO_SOURCES_BLOCKS)
+
+
+def test_loader_rejects_duplicate_keys_at_any_level():
+    with pytest.raises(c.DuplicateKeyError, match="url"):
+        c.load_yaml_text("sources:\n  - id: a\n    url: x\n    url: y\n")
+
+
+def test_cli_fails_on_two_sources_blocks(tmp_path):
+    m = tmp_path / "m.yml"
+    m.write_text(TWO_SOURCES_BLOCKS)
+    r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--manifest", str(m)],
+                       cwd=ROOT, capture_output=True, text=True)
+    assert r.returncode == 1 and "sources" in r.stdout
