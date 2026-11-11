@@ -10,6 +10,7 @@ from __future__ import annotations
 import re
 
 from src.ingest_common import _clean_line
+from src.states import UNHANDLED
 
 _CHAPTER_LINE = re.compile(r"^CHAPTER (\w+)\.\s")
 
@@ -56,6 +57,22 @@ def check_identity(src, text, what_is):
     if not m or chapter != m.group("ch") or code.casefold() != m.group("code").casefold():
         raise ValueError(f"{src['id']}: page is not {src['citation']} (code or chapter mismatch)")
     return True
+
+
+_MONTHS = ("January", "February", "March", "April", "May", "June", "July", "August", "September", "October",
+           "November", "December")
+_ORDINAL_DATE = re.compile(rf"Effective Date:\s*({'|'.join(_MONTHS)})\s+(\d{{1,2}})(?:st|nd|rd|th),\s+(\d{{4}})")
+
+
+def effective_date(text, doc_type):
+    """DIR's Security Control Standards Catalog prints "Effective Date: August 28th, 2025"; the shared reader does
+    not take an ordinal day suffix. Only that form, directly after the label, is read here; anything else is left
+    to the shared reader."""
+    m = _ORDINAL_DATE.search(text)
+    if not m:
+        return UNHANDLED
+    mon, d, y = _MONTHS.index(m.group(1)) + 1, int(m.group(2)), int(m.group(3))
+    return f"{y:04d}-{mon:02d}-{d:02d}" if 1 <= d <= 31 else UNHANDLED
 
 
 def notes(src, fmt, text):

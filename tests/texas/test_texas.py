@@ -77,3 +77,28 @@ def test_identity_does_not_take_a_chapter_number_from_a_section_cross_reference(
 def test_notes_describe_the_reading_and_name_the_hook_state():
     n = ing.conversion_notes(SRC, "html", texas.statute_html_to_text(CH2060))
     assert "Legislature" in n and "history" in n
+
+
+CATALOG = (FIX / "security-catalog-first-page.txt").read_text()
+
+
+def test_an_effective_date_printed_with_an_ordinal_day_is_read():
+    # real first page of the Security Control Standards Catalog: "Effective Date: August 28th, 2025"
+    assert ing.effective_date(CATALOG, "standard", "texas") == "2025-08-28"
+
+
+@pytest.mark.parametrize("label, want", [
+    ("Effective Date: March 1st, 2024", "2024-03-01"),
+    ("Effective Date: June 2nd, 2024", "2024-06-02"),
+    ("Effective Date: July 23rd, 2024", "2024-07-23"),
+    ("Effective Date: August 28, 2025", None),           # no ordinal: the shared reader's job (UNHANDLED)
+])
+def test_ordinal_suffixes(label, want):
+    got = texas.effective_date(label, "standard")
+    assert (got is states.UNHANDLED) if want is None else got == want
+
+
+def test_an_impossible_or_unlabelled_ordinal_date_is_not_mine():
+    assert texas.effective_date("Effective Date: Smarch 3rd, 2024", "standard") is states.UNHANDLED
+    assert texas.effective_date("Version 2.2 on August 28th, 2025", "standard") is states.UNHANDLED
+    assert texas.effective_date("Effective Date: August 32nd, 2025", "standard") is states.UNHANDLED

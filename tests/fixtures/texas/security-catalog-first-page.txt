@@ -1,0 +1,40 @@
+ Security Control
+Standards Catalog
+Texas Department of Information Resources
+
+                     Version 2.2
+
+           Effective Date: August 28th, 2025
+
+                                                Table of Contents
+
+Overview ............................................................................................................................. 3
+AC – Access Control ........................................................................................................... 9
+AT – Awareness and Training ......................................................................................... 24
+AU – Accountability, Audit, and Risk Management .................................................... 29
+CA – Assessment, Authorization, and Monitoring ....................................................... 39
+CM – Configuration Management ................................................................................. 48
+CP – Contingency Planning............................................................................................. 58
+IA – Identification and Authentication.......................................................................... 70
+IR – Incident Response .................................................................................................... 81
+MA - Maintenance ........................................................................................................... 90
+MP – Media Protection ................................................................................................... 94
+PE – Physical and Environmental Protection ................................................................ 99
+PL - Planning .................................................................................................................. 110
+PM – Program Management ........................................................................................ 117
+PS – Personnel Security ................................................................................................. 132
+RA – Risk Assessment .................................................................................................... 141
+SA – System and Services Acquisition ......................................................................... 149
+SC – System and Communications Protection ........................................................... 159
+SI – System and Information Integrity ........................................................................ 170
+SR – Supply Chain Risk Management .......................................................................... 178
+Appendix ........................................................................................................................ 184
+
+                                                                                                                                      2
+
+Overview
+Purpose
+The purpose of the Security Control Standards Catalog (catalog) is to provide Texas state
+agencies and institutions of higher education (subsequently referred to as state agencies) with
+specific guidance for implementing security controls in a format that easily aligns with the
+National Institute of Standards and Technology Special Publication 800-53 Revision 5 (NIST 800-
