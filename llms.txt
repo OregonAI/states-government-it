@@ -1,6 +1,6 @@
 # State Government IT Governance
 
-> Non-authoritative, AI-friendly reference for how state governments regulate their own information technology, including government use of AI (pilot: Oregon, Washington, California, Colorado).
+> Non-authoritative, AI-friendly reference for how state governments regulate their own information technology, including government use of AI (states: California, Colorado, Oregon, Washington).
 > Full verbatim text of each instrument is included in-repo. An instrument that is
 > not public, or whose official source refuses a fetch, is a stub with its citation and link.
 > Always verify against the authoritative source linked in each document.
@@ -24,4 +24,4 @@ No documents yet. Documents will live at `<type>/<state>/<id>.md` under these fo
 ## Background
 
 - [docs/spec.md](docs/spec.md): what is being built and what is out of scope
-- [_meta/source-manifest.yml](_meta/source-manifest.yml): every instrument held or known, with its official source
+- [_meta/sources/](_meta/sources): one seed file per state, listing every instrument held or known, with its official source

@@ -1,0 +1,27 @@
+# State Government IT Governance
+
+> Non-authoritative, AI-friendly reference for how state governments regulate their own information technology, including government use of AI (states: @@STATES@@).
+> Full verbatim text of each instrument is included in-repo. An instrument that is
+> not public, or whose official source refuses a fetch, is a stub with its citation and link.
+> Always verify against the authoritative source linked in each document.
+
+## Start here
+
+- [CLAUDE.md](CLAUDE.md): rules for AI agents working in this corpus
+- [_meta/domain.yml](_meta/domain.yml): scope, states, and the tag vocabulary
+- [STATUS.md](STATUS.md): freshness, coverage, and drift at a glance
+
+## Contents
+
+No documents yet. Documents will live at `<type>/<state>/<id>.md` under these folders:
+
+- `statutes/`: enabling statutes for the state CIO or IT agency, cybersecurity and AI statutes
+- `rules/`: administrative rules
+- `executive-orders/`: executive orders in force
+- `policies/`: statewide IT policies issued by the CIO office
+- `standards/`: statewide IT standards issued by the CIO office
+
+## Background
+
+- [docs/spec.md](docs/spec.md): what is being built and what is out of scope
+- [_meta/sources/](_meta/sources): one seed file per state, listing every instrument held or known, with its official source
