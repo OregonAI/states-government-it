@@ -3417,7 +3417,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: 'the SIMM index entry''s page prints an overview paragraph only and no framework text, file or link to one: the framework is not published at this address'
+    stub_reason: 'the SIMM 17 page prints an overview paragraph only; the framework is published as a separate multi-page website of the Department of Technology, https://capmf.cdt.ca.gov/ (title ''CDT - CA-PMF - Project Management Framework''; the SIMM 17 page links it as ''California Project Management Framework (CA PMF)''), not as one document. Whether to seed that site''s pages is an owner decision'
     why_relevant: 'SIMM 17, California Project Management Framework (CA PMF): an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-18
     sha256: "01ae5b8df17c9fffaa40769fa18c0ff83f8d03b7a8bcf97b134d22b1d2ad83bf"
@@ -3546,7 +3546,7 @@ sources:
     tags: [procurement]
     recheck: monthly
     stub: true
-    stub_reason: spreadsheet
+    stub_reason: "macro-enabled spreadsheet (.xlsm; the corpus format list has no xlsm, so format says xlsx, the nearest, and the file is not an xlsx the toolkit can read)"
     why_relevant: 'SIMM 19B.3, Mid-level Solution Requirements Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19b-4
     sha256: "f7da6c1dfda3e32729dc77aebba1245a39e24905872851fc35228541e291a125"
@@ -3611,7 +3611,7 @@ sources:
     tags: [procurement]
     recheck: monthly
     stub: true
-    stub_reason: spreadsheet
+    stub_reason: "macro-enabled spreadsheet (.xlsm; the corpus format list has no xlsm, so format says xlsx, the nearest, and the file is not an xlsx the toolkit can read)"
     why_relevant: 'SIMM 19C.3, Stage 3 Solution Requirements Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19d-1
     sha256: "d89a54ed9bfc41bbdbe701b0e189406fe9ef6adea7e5ac830145e1b628f94154"
@@ -4201,7 +4201,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: spreadsheet
+    stub_reason: "macro-enabled spreadsheet (.xlsm; the corpus format list has no xlsm, so format says xlsx, the nearest, and the file is not an xlsx the toolkit can read)"
     why_relevant: 'SIMM 5300-B Workbook, Foundational Framework: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5300-c
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5300-C-CACybersecurity-Maturity-Metrics.xlsx
@@ -4877,7 +4877,7 @@ sources:
   # ---- Policy: Technology Letters (TL), California Department of Technology
   # Technology Letters index https://www.cdt.ca.gov/policy/technology-letters/ (84 rows on 2026-11-11; each Active or Superseded). Only Active rows are entries ('in force only'): the
   # others are in the left-out record. A row links to a PDF (letters up to TL 21-01, and the older ones) or to a web page (TL 21-02 onward, the page is the letter). TL 24-02 has no link on the
-  # index; its page https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-02/ answers and prints 'Technology Letter 24-02', so that is the url. Title, number and issue
+  # index; its page https://www.cdt.ca.gov/policy/technology-letters/technology-letter-24-02/ is listed in the CDT's sitemap (https://www.cdt.ca.gov/sitemap_index.xml, fetched 2026-11-11) and prints 'Technology Letter 24-02', so that is the url. Title, number and issue
   # date are as the index printed them (the PDF or page repeats the number). identity_text is the number as the document prints it (older letters print 'TL 11-1', not 'TL 11-01').
   - id: ca-tl-26-01
     sha256: "a50ba5af57afcf45c6f3174163049b1ba69dee12fc51a82389a943ea870efaf9"
@@ -6028,7 +6028,7 @@ sources:
   #
   # Technology Letters not seeded:
   #  - TL 25-06: Clarification on Procuring Business Telecommunications Systems and Services Including Contact Center Services. Active; telecommunications procurement: out of scope.
-  #  - TL 22-01: Procurement Guidance for Executive Order N-6-22. Active; procurement guidance for Executive Order N-6-22 (sanctions against Russia): not an IT governance instrument. The index links it to the TL 22-02 page; its own page is https://www.cdt.ca.gov/policy/technology-letters/22-01/.
+  #  - TL 22-01: Procurement Guidance for Executive Order N-6-22. Active; procurement guidance for Executive Order N-6-22 (sanctions against Russia): not an IT governance instrument. The index links it to the TL 22-02 page; its own page is https://www.cdt.ca.gov/policy/technology-letters/22-01/ (listed in the CDT's sitemap, https://www.cdt.ca.gov/sitemap_index.xml, fetched 2026-11-11).
   #  - TL 18-01: California Cybersecurity Maturity Metrics. Superseded by PS-014.
   #  - TL 17-06: Update to Cloud Computing Policy – Infrastructure and Platform. Superseded by TL 23-03.
   #  - TL 17-05: Internet Domain Name Policy. Superseded by TL 21-02.
