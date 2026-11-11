@@ -67,4 +67,16 @@ jobs:
       # The example ingester must at least import against the pinned toolkit: a template that
       # ships a broken starting point ships it to every corpus instantiated from it.
       - run: python3 -c "import src.ingest_example"
-      - run: echo "no corpus-specific generated files yet -- add one --check step here per file you commit"
+      # The seed list is hand-written, not generated, but it is the owner's approval gate and
+      # must stay valid against domain.yml.
+      - run: python3 src/check_seed_list.py --check
+
+  unit-tests:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - run: python3 -m pytest tests/ -q
