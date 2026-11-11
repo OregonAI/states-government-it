@@ -2,7 +2,7 @@
 
 Full-text mirror of how state governments regulate their own IT, including government use
 of AI, served to AI agents for cross-state comparison. Non-authoritative: every document
-cites its official source. Pilot states: Oregon, Washington, California, Colorado.
+cites its official source. The states held are the files in `_meta/sources/` (listed in `llms.txt`).
 
 - **What and why:** `docs/spec.md`. Scope, states and tags: `_meta/domain.yml`.
 - **Work queue:** GitHub issues on `OregonAI/states-it-governance` (`docs/agents/issue-tracker.md`).
@@ -14,6 +14,12 @@ cites its official source. Pilot states: Oregon, Washington, California, Colorad
 Seed list approved by the owner → ingest → `scripts/gates.sh` green → PR → owner review.
 Branch off `main`, one PR per issue, rebase to update (the org squash-merges). The owner
 merges.
+
+**One state = one PR of new files:** `_meta/sources/<state>.yml`, `src/states/<state>.py`,
+`tests/<state>/`, `tests/fixtures/<state>/`, the documents and snapshots, `changelog.d/<state>-*.md`.
+No shared file is edited. Then run `scripts/regen.sh`: it rebuilds the generated files (`_meta/graph.json`,
+`STATUS.md`, `llms.txt`, `CHANGELOG.md`) and is the whole resolution of a rebase conflict in any of them:
+run it, `git add -A`, `git rebase --continue`. Commit the regenerated files last, so a rebase conflicts once.
 
 ## Hard rules
 
