@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 185,
+ "n_nodes": 188,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -51,6 +51,18 @@
    "title": "Government Code, Title 2, Division 3, Part 1, Chapter 7.2: Information Technology Innovation Grants Program",
    "doc_type": "statute",
    "path": "statutes/california/ca-gov-11786-11786-6.md"
+  },
+  {
+   "id": "ca-gov-12168-7",
+   "title": "Government Code section 12168.7: Uniform statewide standards for public records in electronic media or cloud storage (trusted systems)",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-12168-7.md"
+  },
+  {
+   "id": "ca-gov-16-5",
+   "title": "Government Code section 16.5: Digital signatures in written communications with a public entity",
+   "doc_type": "statute",
+   "path": "statutes/california/ca-gov-16-5.md"
   },
   {
    "id": "ca-gov-7405",
@@ -195,6 +207,12 @@
    "title": "Identity Authentication/Electronic Signatures",
    "doc_type": "rule",
    "path": "rules/oregon/or-oar-128-50.md"
+  },
+  {
+   "id": "ca-eo-b-34-15",
+   "title": "California Cybersecurity Integration Center",
+   "doc_type": "executive_order",
+   "path": "executive-orders/california/ca-eo-b-34-15.md"
   },
   {
    "id": "wa-eo-00-02",

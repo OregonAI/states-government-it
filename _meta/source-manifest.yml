@@ -3156,6 +3156,7 @@ sources:
     slice: {code: PCC, path: 3.2.6}
     why_relevant: 'The state''s information technology acquisition law: 12100 finds that ''the unique aspects of information technology goods and services'' warrant a separate chapter; the Department of General Services and the Department of Technology maintain IT acquisition policies in the State Administrative Manual (12102, 12102.1), award rules for large-scale systems integration projects (12102.2), and postevaluation of IT services contracts (12102.3).'
   - id: ca-gov-16-5
+    sha256: "d73445d5820f3fb26b8a743694421088dc4908d13b2dd1bd5a59639690ca0045"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code § 16.5
@@ -3168,6 +3169,7 @@ sources:
     slice: {code: GOV, section: '16.5'}
     why_relevant: 'The digital-signature statute for written communications with a public entity: a digital signature has the force of a manual signature if it embodies the attributes listed (16.5(a)), including that it ''conforms to regulations adopted by the Secretary of State'' (16.5(a)(5)). Those regulations are the Secretary of State''s Cal. Code Regs., tit. 2, div. 7, ch. 10 (ingested below), whose notes cite this section as their authority.'
   - id: ca-gov-12168-7
+    sha256: "28334f49fc8857a436d797c3ad5d6a9af07a75633d80c87db70ee6969dc2125d"
     url: https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip
     format: json
     citation: Cal. Gov. Code § 12168.7
@@ -5272,6 +5274,7 @@ sources:
   # it prints number, title and date and no per-order link. Only an order whose own text was fetched is seeded: B-34-15, whose full text the Governor's archive site
   # (www.archive.gov.ca.gov) prints in a press-release page that answers the Fetcher (HTTP 200, text/html, 65,304 bytes, 2026-11-11). The other orders are in the left-out record.
   - id: ca-eo-b-34-15
+    sha256: "28e4ae9e0667ac82077042ed6ccf3fcb17577ef05eaf880fa627a745ef3da412"
     url: https://www.archive.gov.ca.gov/archive/gov39/2015/08/31/news19082/index.html
     format: html
     citation: Executive Order B-34-15

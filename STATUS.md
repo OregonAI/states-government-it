@@ -8,19 +8,19 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 |---|---|
 | policy | 91 |
 | standard | 57 |
-| statute | 26 |
+| statute | 28 |
 | rule | 6 |
-| executive_order | 5 |
+| executive_order | 6 |
 
-**Total: 185**
+**Total: 188**
 
 ## Source manifest
 
-376 declared source(s) across 1 group(s) in `source-manifest.yml`.
+391 declared source(s) across 1 group(s) in `source-manifest.yml`.
 
 ## Freshness (reverify every 90 days)
 
-185 of 185 document(s) overdue for re-verification.
+188 of 188 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -32,6 +32,8 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | ca-gov-11549-11549-10 | statute | never |
 | ca-gov-11549-63-11549-66 | statute | never |
 | ca-gov-11786-11786-6 | statute | never |
+| ca-gov-12168-7 | statute | never |
+| ca-gov-16-5 | statute | never |
 | ca-gov-7405 | statute | never |
 | ca-gov-7929-210 | statute | never |
 | ca-gov-8586-5 | statute | never |
@@ -56,6 +58,7 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | or-oar-128-30 | rule | never |
 | or-oar-128-40 | rule | never |
 | or-oar-128-50 | rule | never |
+| ca-eo-b-34-15 | executive_order | never |
 | wa-eo-00-02 | executive_order | never |
 | wa-eo-16-01 | executive_order | never |
 | wa-eo-19-04 | executive_order | never |
@@ -71,8 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | or-das-107-004-010 | policy | never |
 | or-das-107-004-015-pr | policy | never |
 | or-das-107-004-015 | policy | never |
-| or-das-107-004-030-pr | policy | never |
-| or-das-107-004-030 | policy | never |
-| or-das-107-004-050 | policy | never |
-| … | *135 more* | |
+| … | *138 more* | |
 
