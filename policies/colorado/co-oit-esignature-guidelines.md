@@ -18,7 +18,10 @@ status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). OIT's page (https://oit.colorado.gov/policies-governance), where the list item reads 'eSignature
+  Guidelines for State Agencies', links this file as https://drive.google.com/file/d/1bpFam_yFLbZBqnl7nmRr_Zl2ErPrXcCV/view?usp=sharing;
+  the text was fetched from Google Drive's direct-download form of the same file, https://drive.google.com/uc?export=download&id=1bpFam_yFLbZBqnl7nmRr_Zl2ErPrXcCV
+  (the source URL above).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -38,7 +41,7 @@ tags:
 
 ## At a glance
 
-Which eSignature solution a state agency should use for each kind of document (legal signature or acknowledgment, with or without sensitive data), from a Deputy Directors' working group led by the Department of Personnel & Administration. The PDF prints 'Published January 2020' and names OIT only as the approver of further solutions ('As additional solutions are approved by OIT'); OIT is not printed as its issuer (issuing_body is what the PDF prints); OIT's index page lists and links it under its General IT Operational Policies (eSignature), as a recommended-guidelines item. OWNER DECISION: whether this is an instrument of OIT at all. Link found through the archived copy of the OIT index page (timestamp 20260822055824).
+Which eSignature solution a state agency should use for each kind of document (legal signature or acknowledgment, with or without sensitive data), from a Deputy Directors' working group led by the Department of Personnel & Administration. OIT's live Policies & Governance page (read 2026-11-11) still lists and links it, as 'eSignature Guidelines for State Agencies', under Current Statewide Policies, Enterprise Governance: it is a current OIT-listed statewide policy. The PDF prints 'Published January 2020', has no OIT header table (no Document ID or Issuing Authority) and names OIT once, as the approver of further solutions; issuing_body is what the PDF prints. The PDF is unchanged since the first pass (same text).
 
 ## Full text
 
@@ -115,4 +118,4 @@ custom fillable PDF forms, there is no need to use the Adobe Acrobat family of p
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). OIT's page (https://oit.colorado.gov/policies-governance), where the list item reads 'eSignature Guidelines for State Agencies', links this file as https://drive.google.com/file/d/1bpFam_yFLbZBqnl7nmRr_Zl2ErPrXcCV/view?usp=sharing; the text was fetched from Google Drive's direct-download form of the same file, https://drive.google.com/uc?export=download&id=1bpFam_yFLbZBqnl7nmRr_Zl2ErPrXcCV (the source URL above).

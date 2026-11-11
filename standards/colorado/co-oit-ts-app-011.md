@@ -1,0 +1,199 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: colorado
+id: co-oit-ts-app-011
+title: Front End Website and Web Application Framework
+doc_type: standard
+citation: TS-APP-011
+authority_level: ''
+issuing_body: Governor's Office of Information Technology
+source_url: https://drive.google.com/uc?export=download&id=1Ts6FRgrXST9lHWe40O1KoJjMAoYjoPyB
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 0963980f6a2ce8714e2f02ca9b49a377e97d2f0402eac4623d889a3d87a91a3a
+effective_date: '2019-05-23'
+source_version: '4.0'
+status: current
+content_mode: verbatim
+conversion_notes: 'Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). OIT''s page (https://oit.colorado.gov/standards-policies-guides/technical-standards), where
+  the list item reads ''TS-APP-011: Front End Website & Web Application Framework'', links this file as
+  https://drive.google.com/file/d/1Ts6FRgrXST9lHWe40O1KoJjMAoYjoPyB/view?usp=sharing; the text was fetched
+  from Google Drive''s direct-download form of the same file, https://drive.google.com/uc?export=download&id=1Ts6FRgrXST9lHWe40O1KoJjMAoYjoPyB
+  (the source URL above).'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Front End Website and Web Application Framework (TS-APP-011)
+
+## At a glance
+
+OIT technical standard TS-APP-011 (Applications): Front End Website and Web Application Framework. OIT's Technical Standards page lists it as issued by the Office of Enterprise Architecture and approved by the OIT Architecture Review Board; the file prints its own effective date, version and last-updated date.
+
+## Full text
+
+TS-APP-011: Front End Website and Web
+Application Framework
+  Document ID                    TS-APP-011
+  Title                          Front End Website and Web Application Framework
+  Executive Sponsor              CTO – Chief Technology Office, Director of Services Engagement
+  Issuing Authority              Governor’s Office of Information Technology (OIT)
+  Applies to                     OIT and OIT-supported agencies, including employees of OIT,
+                                 agencies supported by OIT, and vendors contracted by OIT or its
+                                 stakeholders.
+  Instrument Type                Standard
+  Version                        4.0
+  Effective Date                 05/23/2019
+
+1. Purpose
+OIT is statutorily mandated to provide IT support and services to the State and its
+stakeholders in the most effective and efficient manner possible (as defined by C.R.S. 24-
+37.5). To satisfy stakeholder needs surrounding User Interface and User Experience, this
+document is submitted as the standard for specifications, methodologies, and practices to
+provide the service.
+This document communicates the standards OIT has developed with the intent of providing
+enterprise standard configurations for a standardized Front End Website and Web App
+Development Framework, based on a best-of-value decision assessment involving stakeholder
+needs, hardware configurations, and operational and security best practices.
+The ultimate purpose of this standard is to describe the minimum requirements for the Front
+End Website and Web App Development Framework. These cascading style sheet (CSS)
+standards ensure a consistent application of style to a project, making maintenance easier
+and minimizing style conflicts, while meeting minimum requirements for accessibility for
+government.
+
+2. Scope
+These standards apply to OIT and OIT-supported agencies. This standard shall be used by
+employees of OIT, agencies supported by OIT, and vendors contracted by OIT or its
+stakeholders, as a means to enforce technology standardization and assist in making the
+usage, support, and/or purchase of technologies more consistent and efficient.
+Standards instituted for use by approval of the OIT Architecture Review Board (ARB) govern
+purchase and deployment decisions deemed “go-forward” or “net-new”, and are not intended
+                                                                                   Page 1 of 4
+
+as a retroactively enforceable mandate for immediate conformance, especially where cost
+implications may be prohibitive.
+
+3. Roles and Responsibilities
+Enterprise Architecture - Chief Enterprise Architect
+   ●    Chairs and conducts business of the Architecture Review Board (ARB).
+   ●    Updates effective date and/or last review date.
+   ●    Publishes the ARB-approved Standard to the OIT public-facing website.
+Architecture Review Board (ARB)
+   ●    Engages stakeholders and subject matter experts to determine the standard.
+   ●    Reviews/approves the Standard (this document).
+CTO - Chief Technology Office - Director of Services Engagement
+   ●    Owner of Standard.
+   ●    Engages stakeholders and subject matter experts to determine the standard.
+   ●    Updates document standards and version number.
+   ●    Supports, trains, and consults on this technical standard and all accompanying
+        guidance documents and references.
+   ●    Presents to the Architecture Review Board for approval and adoption.
+CTO - Application Service Managers and Developers
+   ●    Implement this standard across the OIT portfolios.
+CTO - QA/Testing
+   ●    System testers will ensure OIT-approved UX standards are implemented as part of their
+        testing process.
+    ● Usability will be evaluated as part of the User Acceptance Test process.
+All OIT staff are responsible for being aware of the existence of this (and all) standard(s) and
+its purposes of authority and governance in support of OIT's statutorily mandated mission in
+service of Colorado State Government affairs.
+
+4. Standards
+Goals
+   ●    Maintain consistency in visual elements and defining behavior.
+   ●    Ensure a seamless, intuitive, easy-to-use digital experience.
+   ●    Adhere to a common State of Colorado look and feel when developing a UI.
+   ●    Make maintenance easier and minimize style conflicts.
+Process
+   ●    Any application created by OIT will use the CSS detailed in the State of Colorado Style
+        Library. If the application does not allow use of the Style Library's stylesheet,
+        developers should mimic the UI components as closely as possible using available
+        CSS/styling options, and the application should still meet minimum accessibility
+        requirements (per TS-OEA-001).
+   ●    Developers and project teams should use the Style Library as a resource for templates
+        and best practices when building a web front end or validating a user interface built
+        by a third party.
+
+                                                                                    Page 2 of 4
+
+   ●   Application design exceptions should be submitted to the UX Experience Manager for
+       approval.
+Requirements
+The order of preference for CSS implementation is:
+   ●   External CSS file (State of Colorado Style Library): Should always be used if there is
+       any reuse of style.
+   ●   Page-level CSS (using the Style Library): Page-embedded styling (in the document
+       HEAD) is appropriate for page-specific, non-reusable style.
+   ●   Inline attribute CSS styles (using the Style Library): Inline element style should mostly
+       be avoided, but may be necessary on occasion.
+   ●   Add CSS through external files, minimizing the number of files where possible; the
+       stylesheet link should be placed in the HEAD of the document.
+   ●   Use the LINK tag to include stylesheets rather than @import, to improve efficiency.
+   ●   Avoid inline styling and minimize inline styles in general; separation of structure and
+       style makes maintenance easier.
+   ●   Elements that occur only once inside a document should use IDs for style hooks;
+       otherwise, use classes.
+   ●   Understand cascading and selector specificity so terse and effective style selectors can
+       be written.
+   ●   Write selectors optimized for speed; avoid expensive CSS selectors such as the
+       wildcard selector, and don't qualify ID or class selectors.
+   ●   Understanding of the CSS and browser-based box model is necessary for conquering
+       the fundamentals of CSS layouts.
+   ●   CSS validators can help identify faulty CSS.
+   ●   Single-line CSS should be avoided, as it can cause version control issues and is less
+       readable for multiple authors.
+   ●   Alphabetizing CSS properties increases the odds of larger repeatable patterns being
+       present, which aids GZIP compression.
+   ●   Use namespaces for custom CSS rules to better distinguish custom styles from those
+       implemented by frameworks or plugins.
+
+5. Variance and Exception Process
+Any request to procure or deploy technology that is a variance to the standards and provisions
+stated within this document must be requested of, and approved by, the “Owner of Standard”
+listed under Roles and Responsibilities.
+Requests may be acquired by completing the “EXCEPTION REQUEST to Technical Standard”
+form and including the completed form (with all signatures) along with other documentation
+required as part of standard procedures when executing a technology procurement or service
+deployment.
+
+6. References
+   ●   OIT documents and policies - State of Colorado Style Library; TS-OEA-001: Technology
+       Accessibility for Persons with Disabilities
+   ●   State documents and policies - Colorado Brand Guidelines; C.R.S. 24-37.5-101, et seq.
+   ●   Third-party resources - Bootstrap; CSS Validation Service; Namespaces (W3C)
+
+                                                                                    Page 3 of 4
+
+7. Definitions
+  ●   Accessibility: The design of products, devices, services, or environments for people
+      who experience disabilities.
+  ●   Cascading Style Sheet (CSS): A language that describes the style of an HTML document,
+      enabling separation of presentation and content.
+  ●   Usability: The ease of use and learnability of a digital property or user interface.
+  ●   Usability Testing: The process of quantifying usability and measuring a user's
+      experience to identify and drive improvements.
+  ●   User Centered Design: A design process in which the needs of end users are provided
+      extensive attention at every stage.
+  ●   User Experience (UX): The overall experience of a person using a product.
+  ●   User Interface (UI): The method through which people can interact with input devices,
+      applications, and websites.
+
+                                                                                Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). OIT's page (https://oit.colorado.gov/standards-policies-guides/technical-standards), where the list item reads 'TS-APP-011: Front End Website & Web Application Framework', links this file as https://drive.google.com/file/d/1Ts6FRgrXST9lHWe40O1KoJjMAoYjoPyB/view?usp=sharing; the text was fetched from Google Drive's direct-download form of the same file, https://drive.google.com/uc?export=download&id=1Ts6FRgrXST9lHWe40O1KoJjMAoYjoPyB (the source URL above).

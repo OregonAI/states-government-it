@@ -1,0 +1,59 @@
+Real-time Billing Dispute Process: Agency
+Steps
+  Document ID                      PROC-FIN-002
+  Title                            Real-time Billing Dispute Process: Agency Steps
+  Executive Sponsor                David Edinger, Chief Information Officer & Executive Director
+  Issuing Authority                Governor’s Office of Information Technology (OIT)
+  Applies to                       All Colorado state agencies that use OIT common policy services
+                                   and participate in the Real-time Billing (RtB) process.
+  Instrument Type                  Procedure
+  Version                          1.0
+  Effective Date                   05/05/2026
+  Last Updated                     05/05/2026
+
+These are the key steps agencies must follow to dispute a Real-time Billing (RtB) charge or to
+request a change. For unique disputes involving lack of detail, service quality, multi-agency
+impacts, or division coding changes, consult the Real-time Billing Dispute Procedure for more
+information.
+
+Step 1: Identify and Notify
+If an agency identifies a needed correction, it must first notify its assigned IT Director to
+determine if an official dispute should be submitted.
+
+Step 2: Access the Dispute Form
+If a dispute is deemed necessary, the agency Subject Matter Expert (SME) must log in to the
+OIT Real-time Billing (RtB) website and click the “Dispute Charges” button located on any of
+the Detailed Dashboards to access the dispute form.
+
+Step 3: Submit the Dispute Form
+The agency SME must complete the official dispute form, clearly detailing the specific
+services that need changes and providing the rationale for the correction.
+
+Step 4: Adhere to Submission Timelines
+Agencies must ensure disputes are submitted timely — closed previous fiscal years cannot be
+corrected. The dispute submission timelines are as follows:
+
+                                                                                       Page 1 of 2
+
+ Fiscal Year Period   Submission Deadline   Important Notes
+ Periods 1 – 7        Within 90 days of     Requests submitted after the 90 day window will
+                      invoice issuance      not be processed.
+ Periods 8 – 10       By June 30            Overrides the 90 day rule to meet year-end
+                                            deadlines. Dispute and change requests submitted
+                                            after June 30 will not be processed.
+ Period 11            By July 7             Overrides the 90 day rule to meet year-end
+                                            deadlines. Dispute and change requests submitted
+                                            after July 7 will not be processed.
+ Period 12            By July 22            Dispute and change requests will be reviewed for
+                                            Period 12 charges only and will not be processed if
+                                            submitted after July 22.
+
+Step 5: Track Dispute Status
+Once the dispute form is submitted, the OIT Budget team will process the request and notify
+the appropriate service owner for review. Agencies can track the status of their submitted
+dispute on the Billing Adjustments dashboard on the RtB website.
+
+Contact
+Contact Rus Pascual, OIT Budget Director, with any questions.
+
+                                                                                     Page 2 of 2

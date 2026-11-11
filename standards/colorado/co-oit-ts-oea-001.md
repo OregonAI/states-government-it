@@ -1,0 +1,227 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: colorado
+id: co-oit-ts-oea-001
+title: Technology Accessibility for Persons with Disabilities
+doc_type: standard
+citation: TS-OEA-001
+authority_level: ''
+issuing_body: Governor's Office of Information Technology
+source_url: https://drive.google.com/uc?export=download&id=1mokIq2ToRXG8lDR1QfHh4P4Dw8aCilqo
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: bf68811a8d47445c1ce9682936b376087a3df739581b79dab62564ad9f0fd162
+effective_date: '2023-09-28'
+source_version: 6.0, last updated 07/20/2026
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). OIT's page (https://oit.colorado.gov/standards-policies-guides/technical-standards), where
+  the list item reads 'TS-OEA-001 — Technology Accessibility', links this file as https://drive.google.com/file/d/1mokIq2ToRXG8lDR1QfHh4P4Dw8aCilqo/view?usp=sharing;
+  the text was fetched from Google Drive's direct-download form of the same file, https://drive.google.com/uc?export=download&id=1mokIq2ToRXG8lDR1QfHh4P4Dw8aCilqo
+  (the source URL above).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Technology Accessibility for Persons with Disabilities (TS-OEA-001)
+
+## At a glance
+
+OIT technical standard TS-OEA-001 (Accessibility): Technology Accessibility for Persons with Disabilities. OIT's Technical Standards page lists it as issued by the Office of Enterprise Architecture and approved by the OIT Architecture Review Board; the file prints its own effective date, version and last-updated date.
+
+## Full text
+
+TS-OEA-001: Technology Accessibility for
+Persons with Disabilities
+  Document ID                     TS-OEA-001
+  Title                           Technology Accessibility for Persons with Disabilities
+  Executive Sponsor               Office of Enterprise Architecture (OEA), Director of Enterprise
+                                  Architecture
+  Issuing Authority               Governor’s Office of Information Technology (OIT)
+  Applies to                      OIT and OIT-supported agencies, employees of OIT, and vendors
+                                  contracted by OIT or its stakeholders; enforceable for IT
+                                  information or services made available for public use and
+                                  wherever employees or stakeholders have needs under Section
+                                  508 / WCAG 2.1 AA / C.R.S. 24-85-101 to -104.
+  Instrument Type                 Standard
+  Version                         6.0
+  Effective Date                  09/28/2023
+  Last Updated                    07/20/2026
+
+1. Purpose
+OIT is statutorily obligated to provide IT support and services to the state and its stakeholders
+in the most effective and efficient manner possible (as defined by C.R.S. 24-37.5-101, et
+seq.). To satisfy stakeholder needs surrounding Information Technology Accessibility for
+Persons with Disabilities, this document is submitted as the standard for all information
+technology assets that provide an IT service subject to its scope.
+This document communicates the standards OIT has developed with the intent of providing
+enterprise standard configurations for technologies that provide service to those with
+disabilities, in accordance with the technical standards provided by Section 508 of the U.S.
+Rehabilitation Act of 1973 (Chapters 3, 4, 6), the Worldwide Web Consortium Web Content
+Accessibility Guidelines (WCAG) 2.1 Level AA or higher, and pursuant to C.R.S. 24-85-101 to
+24-85-104, Article 85 (“Information Technology Access for Individuals Who Are Blind or
+Visually Impaired”).
+The ultimate purpose of this standard is to describe the minimum requirements for designing,
+installing, securing, monitoring, maintaining, protecting, and decommissioning technologies
+that provide service to those with disabilities.
+
+                                                                                     Page 1 of 4
+
+2. Scope
+These standards apply to OIT and OIT-supported agencies. This standard shall be used by
+employees of OIT, agencies supported by OIT, and vendors contracted by OIT or its
+stakeholders, as a means to facilitate technology implementation and assist in making the
+usage, support, and/or purchase of technologies more consistent and efficient. OIT intends to
+support and work with vendors and other interested parties to implement information
+technology in a manner best positioned for accessible use, and may also engage in research,
+development, and consideration of emerging technologies not yet fully meeting accessibility
+needs.
+This standard shall only be enforceable for IT information or services made available for
+public use, and in any case where state employees or stakeholders exhibit needs as defined
+by Section 508 Chapters 3, 4, 6; WCAG 2.1 Level AA or higher; and C.R.S. 24-85-101 to 24-85-
+104, Article 85, as follows:
+   ●    Nothing in Article 85 requires the installation of software or peripheral devices used
+        for nonvisual access when the information technology is being used by individuals who
+        are not blind or visually impaired, nor requires the purchase of nonvisual adaptive
+        equipment by a state agency.
+    ● Notwithstanding the above, applications, programs, and underlying operating systems,
+        including the format of data used for manipulation and presentation of information,
+        shall permit the installation and effective use of, and be compatible with, nonvisual
+        access software and peripheral devices.
+    ● Compliance with the procurement requirements of this section for information
+        technology purchased prior to July 1, 2001, shall be achieved at the time of
+        procurement of an upgrade or replacement of existing information technology
+        equipment or software.
+Standards instituted for use by approval of the OIT Architecture Review Board (ARB) govern
+purchase and deployment decisions deemed “go-forward” or “net-new”, and are not intended
+as a retroactively enforceable mandate for immediate conformance, especially where cost
+implications may be prohibitive. For guidance or enforcement in conformance to standards,
+an email request may be sent to OIT_OEA@state.co.us with the subject line “Request for
+Architecture Review: <projectName/systemName>”.
+
+3. Roles and Responsibilities
+Enterprise Architecture - Chief Enterprise Architect
+   ●   Chairs and conducts business of the Architecture Review Board (ARB).
+   ●   Updates effective date and/or last review date.
+   ●   Publishes the ARB-approved Standard to the OIT public-facing website.
+
+Architecture Review Board (ARB)
+   ●   Engages stakeholders and subject matter experts to determine the standard.
+   ●   Reviews/approves the Standard (this document).
+
+Office of Enterprise Architecture (OEA) - Director of Enterprise Architecture
+   ●   Owner of Standard.
+   ●   Engages stakeholders and subject matter experts to determine the standard.
+   ●   Updates document standards and version number.
+
+                                                                                   Page 2 of 4
+
+    ● Presents to the Architecture Review Board for approval and adoption.
+All OIT staff are responsible for being aware of the existence of this (and all) standard(s) and
+its purposes of authority and governance in support of OIT's statutorily mandated mission in
+service of Colorado State Government affairs.
+
+4. Standards
+All Information Technology must comply with:
+   ● For all web content and software — W3C WCAG 2.1 level A and AA or higher guidelines.
+Note that technology may also need to meet:
+   ●   The technical standards contained in US Section 508 of the Rehabilitation Act of 1973,
+       Chapter 3: Functional Performance Criteria.
+   ●   The technical standards contained in US Section 508 of the Rehabilitation Act of 1973,
+       Chapter 4: Hardware.
+   ●   The technical standards contained in US Section 508 of the Rehabilitation Act of 1973,
+       Chapter 6: Support Documentation and Services.
+
+5. Variance and Exception Process
+Any request to procure or deploy technology that is a variance to the standards and provisions
+stated within this document must be requested of, and approved by, the “Owner of Standard”
+listed under Roles and Responsibilities.
+Requests may be acquired by completing the “EXCEPTION REQUEST to Technical Standard”
+form and including the completed form (with all signatures) along with other documentation
+required as part of standard procedures when executing a technology procurement or service
+deployment.
+
+6. References
+   ●   Colorado Information Security Policies (CISPs)
+   ●   Section 508 of the U.S. Rehabilitation Act of 1973
+   ●   C.R.S. 24-85-104, Article 85, Section 6, “Information Technology Access For Individuals
+       Who Are Blind Or Visually Impaired”
+   ●   HB21-1110, “Colorado Laws For Persons With Disabilities”
+   ●   SB23-244, “Updates to Technology Accessibility” (includes rulemaking abilities in OIT
+       for accessibility)
+   ●   Plain Language Version of the Technology Accessibility Rules
+   ●   Worldwide Web Consortium Web Content Accessibility Guidelines 2.1 Level AA (Level
+       AA includes Level A)
+
+Definitions
+   ●   Agency, State Agency: The departments, divisions, commissions, boards, bureaus, and
+       institutions as defined in C.R.S. 24-37.5-102(4).
+   ●   Alternate formats: Formats usable by people with disabilities, which may include
+       Braille, ASCII text, large print, recorded audio, and electronic formats.
+   ●   Alternate methods: Different means of providing information, including product
+       documentation, to people with disabilities — e.g., voice, fax, relay service, TTY,
+       internet posting, captioning, text-to-speech synthesis, and audio description.
+
+                                                                                      Page 3 of 4
+
+●   Assistive technology: Any item, piece of equipment, or system used to increase,
+    maintain, or improve functional capabilities of individuals with disabilities.
+●   Information and Communication Technology (ICT): IT and any equipment or
+    interconnected system used in the creation, conversion, duplication, storage, or
+    delivery of data or information, including telecommunications products, information
+    kiosks and transaction machines, websites, multimedia, and office equipment such as
+    copiers and fax machines. Excludes equipment where embedded IT is integral to a
+    product whose principal function is not the acquisition, storage, manipulation,
+    management, movement, control, display, switching, interchange, transmission, or
+    reception of data — unless that embedded IT has an externally available web or
+    computer interface.
+●   Exception request: A document requesting an exception to a recognized standard,
+    requiring a business or technical justification for granting the exception, subject to
+    review and approval by an authority in the area.
+●   Operable controls: A component of a product that requires physical contact for normal
+    operation, including mechanically operated controls, input and output trays, card
+    slots, keyboards, or keypads.
+●   Product: Something physical or digital (software) created through a development or
+    engineering process.
+●   Telecommunications: The transmission, between or among points specified by the
+    user, of information of the user's choosing, without change in the form or content of
+    the information as sent and received.
+●   TTY: An abbreviation for teletypewriter, a device enabling people who are deaf, hard
+    of hearing, or speech impaired to use the telephone to communicate by typing rather
+    than talking and listening.
+●   Undue burden: An action requiring significant financial or administrative difficulty or
+    expense, considering all agency resources available to the relevant program or
+    component.
+●   WCAG: Web Content Accessibility Guidelines (WCAG) 2.1 cover recommendations for
+    making web content more accessible, including accommodations for blindness and low
+    vision, deafness and hearing loss, limited movement, speech disabilities,
+    photosensitivity, and combinations of these, and some accommodation for learning
+    disabilities and cognitive limitations, across desktops, laptops, tablets, and mobile
+    devices.
+●   Standard: A rule that specifies a particular course of action or response to a given
+    situation. Standards are mandatory directives to carry out management's policies and
+    are used to measure compliance with policies.
+●   OEA (Office of Enterprise Architecture): Formed as an office under OIT by Governor's
+    Rule 8 CCR 1501-7.
+●   OIT (Office of Information Technology): Created and governed by C.R.S. 24-37.5, et
+    seq.
+
+                                                                                Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). OIT's page (https://oit.colorado.gov/standards-policies-guides/technical-standards), where the list item reads 'TS-OEA-001 — Technology Accessibility', links this file as https://drive.google.com/file/d/1mokIq2ToRXG8lDR1QfHh4P4Dw8aCilqo/view?usp=sharing; the text was fetched from Google Drive's direct-download form of the same file, https://drive.google.com/uc?export=download&id=1mokIq2ToRXG8lDR1QfHh4P4Dw8aCilqo (the source URL above).
