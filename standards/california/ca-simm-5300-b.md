@@ -13,12 +13,13 @@ source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: 81acfe203cd4de32cea70fc124ad9ea0714e9557f76a86a964e1060265c1dda8
 effective_date: null
-source_version: ''
+source_version: October 2017
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). source_version is the month, or the revision month, the document prints (a month with no day
+  is not made into a date).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -1265,4 +1266,4 @@ SIMM 5300‐B                                                                   
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the month, or the revision month, the document prints (a month with no day is not made into a date).

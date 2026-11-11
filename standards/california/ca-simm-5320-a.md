@@ -13,12 +13,13 @@ source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: 6cf7969f4b944e4cfb1a776fa0f4e31a3dae484e0bd49d21c44b7f571aedc684
 effective_date: null
-source_version: ''
+source_version: June 2025
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). source_version is the month, or the revision month, the document prints (a month with no day
+  is not made into a date).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -401,4 +402,4 @@ SIMM 5320-A                           June 2025                               Pa
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the month, or the revision month, the document prints (a month with no day is not made into a date).

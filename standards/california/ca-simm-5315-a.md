@@ -13,12 +13,13 @@ source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: a43953066b1eba1c1672601bd10ff0c154d5baec2df3795aa2d43289f1704b38
 effective_date: null
-source_version: ''
+source_version: May 2026
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). source_version is the month, or the revision month, the document prints (a month with no day
+  is not made into a date).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -333,4 +334,4 @@ SIMM Section 5315-A                                                       May 20
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the month, or the revision month, the document prints (a month with no day is not made into a date).

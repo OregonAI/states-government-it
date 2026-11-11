@@ -12,13 +12,13 @@ source_url: https://www.cdt.ca.gov/wp-content/uploads/2017/02/IT_POLICY_LETTER_0
 source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: d6a285356becb7b05289b6fd7a88ca9a58839d46bf629570ec53585cde281055
-effective_date: null
+effective_date: '2009-04-15'
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). effective_date is the date the letter prints as issued (DATE ISSUED).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -291,4 +291,4 @@ review and adopt changes to the statewide EA.
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the date the letter prints as issued (DATE ISSUED).

@@ -13,14 +13,15 @@ source_format: html
 retrieved: '2026-11-11'
 source_sha256: 78c2b3f92f7b6f43152437466bd040e3a09d37b771aca992329ce9314eb5b185
 effective_date: null
-source_version: ''
+source_version: Revised May 2023
 status: current
 content_mode: verbatim
 conversion_notes: 'Text taken from the California Department of Technology''s web page for the instrument:
   from the page heading to the end of the page''s content, one line per paragraph, heading, list item
   and table row (a table row''s cells are joined by '' | ''), with markup, the site menu, the side navigation,
   the page''s contents list (''On this page''), the print button, scripts, the footer and non-breaking
-  spaces removed.'
+  spaces removed. source_version is the month, or the revision month, the document prints (a month with
+  no day is not made into a date).'
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -152,4 +153,4 @@ Failure to complete the annual re-certification requirement within ten (10) days
 
 ## Curator notes
 
-Text taken from the California Department of Technology's web page for the instrument: from the page heading to the end of the page's content, one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '), with markup, the site menu, the side navigation, the page's contents list ('On this page'), the print button, scripts, the footer and non-breaking spaces removed.
+Text taken from the California Department of Technology's web page for the instrument: from the page heading to the end of the page's content, one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '), with markup, the site menu, the side navigation, the page's contents list ('On this page'), the print button, scripts, the footer and non-breaking spaces removed. source_version is the month, or the revision month, the document prints (a month with no day is not made into a date).

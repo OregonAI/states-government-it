@@ -12,13 +12,13 @@ source_url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-13_-Securi
 source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: 6ed2e677c0e5f3a47e3453c6efe6e6d4430d8b3733550707e852a57e49b5808f
-effective_date: null
+effective_date: '2010-10-04'
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). effective_date is the date the letter prints as issued (DATE ISSUED).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -166,4 +166,4 @@ SIGNATURE
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the date the letter prints as issued (DATE ISSUED).

@@ -13,12 +13,13 @@ source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: a5db6f81be0e5e198307a2c0ad647392f768a3d1384f107f34075cca8960579b
 effective_date: null
-source_version: ''
+source_version: September 2025
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). source_version is the month, or the revision month, the document prints (a month with no day
+  is not made into a date).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -542,4 +543,4 @@ Security@state.ca.gov.
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the month, or the revision month, the document prints (a month with no day is not made into a date).

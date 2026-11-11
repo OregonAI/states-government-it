@@ -12,13 +12,13 @@ source_url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-17_IdAM_Po
 source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: 88ab03214039c54dee3c3f9d28b52e3726135c6adfc6a5e68d90c49dfea7ac6d
-effective_date: null
+effective_date: '2010-12-30'
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). effective_date is the date the letter prints as issued (DATE ISSUED).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -177,4 +177,4 @@ SIGNATURE
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the date the letter prints as issued (DATE ISSUED).

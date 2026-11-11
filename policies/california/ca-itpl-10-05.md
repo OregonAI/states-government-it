@@ -12,13 +12,13 @@ source_url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL-IT_Project_Ov
 source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: c0c67675dc7d0d91d766c77dbd71c53bc9af77b5dedd8571567dc582b1dc1006
-effective_date: null
+effective_date: '2010-03-25'
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). effective_date is the date the letter prints as issued (DATE ISSUED).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -292,4 +292,4 @@ Appendix H: Definition of Terms
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the date the letter prints as issued (DATE ISSUED).

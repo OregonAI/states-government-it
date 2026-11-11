@@ -12,13 +12,13 @@ source_url: https://www.cdt.ca.gov/wp-content/uploads/2017/03/ITPL_10-14_Data_Ce
 source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: f45c245e770cf73f06abff7cb83c4a957f2fbed83189dde6ccab5b85484fa0f1
-effective_date: null
+effective_date: '2010-10-29'
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). effective_date is the date the letter prints as issued (DATE ISSUED).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -376,4 +376,4 @@ agency.
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the date the letter prints as issued (DATE ISSUED).

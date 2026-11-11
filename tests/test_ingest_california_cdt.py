@@ -21,7 +21,8 @@ EO_PDF = (FIX / "eo-n-5-26.pdf").read_bytes()
 
 TL_SRC = {"id": "ca-tl-26-01", "url": "https://www.cdt.ca.gov/policy/technology-letters/technology-letter-26-01/",
           "format": "html", "doc_type": "policy", "jurisdiction": "california", "citation": "TL 26-01",
-          "title": "SIMM 5340-A Information Security Incident Response and Reporting"}
+          "title": "SIMM 5340-A Information Security Incident Response and Reporting",
+          "identity_text": "Technology Letter 26-01"}
 
 
 def cdt(raw=TL_PAGE):
@@ -63,11 +64,11 @@ def test_a_page_without_a_heading_and_a_footer_is_refused():
         cdt(b"<html><body><main><p>Nothing here.</p></main></body></html>")
 
 
-def test_a_cdt_policy_page_is_read_by_derive_from_its_host_and_checked_against_its_title():
+def test_a_cdt_policy_page_is_read_by_derive_from_its_host_and_checked_against_its_heading():
     fmt, text = ing.derive(TL_SRC, TL_PAGE)
     assert fmt == "html" and text.startswith("Technology Letter 26-01\n")
     with pytest.raises(ValueError, match="not the cited instrument"):
-        ing.derive({**TL_SRC, "title": "Zero Trust Architecture Standard"}, TL_PAGE)
+        ing.derive({**TL_SRC, "identity_text": "Technology Letter 26-02"}, TL_PAGE)
 
 
 def test_a_dgs_sam_page_is_still_checked_as_a_sam_chapter():

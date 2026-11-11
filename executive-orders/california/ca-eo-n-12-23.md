@@ -12,13 +12,14 @@ source_url: https://www.gov.ca.gov/wp-content/uploads/2023/09/AI-EO-No.12-_-GGN-
 source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: 452147a2da574dc3baff12222ceaf05240650242e60e61823d82f58efc54b933
-effective_date: null
+effective_date: '2023-09-06'
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). effective_date is the date the Governor signed the order, as its closing paragraph prints
+  it (this Nth day of Month Year); the order prints no other date.
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -386,4 +387,4 @@ person.
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the date the Governor signed the order, as its closing paragraph prints it (this Nth day of Month Year); the order prints no other date.

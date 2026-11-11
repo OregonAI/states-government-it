@@ -12,13 +12,14 @@ source_url: https://www.gov.ca.gov/wp-content/uploads/2026/03/3.30-FINAL-Trusted
 source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: cfa126bd62f1f4337914ecc8ed0a63aee57b3a27a9852787be5fb91018e047ba
-effective_date: null
+effective_date: '2026-03-30'
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
   as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
-  letters).
+  letters). effective_date is the date the Governor signed the order, as its closing paragraph prints
+  it (this Nth day of Month Year); the order prints no other date.
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -208,4 +209,4 @@ person.
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the date the Governor signed the order, as its closing paragraph prints it (this Nth day of Month Year); the order prints no other date.

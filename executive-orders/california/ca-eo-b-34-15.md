@@ -12,14 +12,16 @@ source_url: https://www.archive.gov.ca.gov/archive/gov39/2015/08/31/news19082/in
 source_format: html
 retrieved: '2026-11-11'
 source_sha256: e7f63f58a1922cfa451c5f12ff8a3e722cc1d0a8e05e4a3431c310c060931666
-effective_date: null
+effective_date: '2015-08-31'
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: 'Text taken from the Governor''s archive site page that prints the order in full: the
   heading line, the recitals (WHEREAS), the orders, the signature and the attestation, one line per paragraph,
   with markup and non-breaking spaces removed. The press release above the order, the pointer to the PDF
-  copy below it, the site menu and the news list are not the order.'
+  copy below it, the site menu and the news list are not the order. effective_date is the date the Governor
+  signed the order, as its closing paragraph prints it (this Nth day of Month Year); the order prints
+  no other date.'
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -86,4 +88,4 @@ Secretary of State
 
 ## Curator notes
 
-Text taken from the Governor's archive site page that prints the order in full: the heading line, the recitals (WHEREAS), the orders, the signature and the attestation, one line per paragraph, with markup and non-breaking spaces removed. The press release above the order, the pointer to the PDF copy below it, the site menu and the news list are not the order.
+Text taken from the Governor's archive site page that prints the order in full: the heading line, the recitals (WHEREAS), the orders, the signature and the attestation, one line per paragraph, with markup and non-breaking spaces removed. The press release above the order, the pointer to the PDF copy below it, the site menu and the news list are not the order. effective_date is the date the Governor signed the order, as its closing paragraph prints it (this Nth day of Month Year); the order prints no other date.

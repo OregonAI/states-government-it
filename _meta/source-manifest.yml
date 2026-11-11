@@ -3652,6 +3652,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [governance]
     recheck: monthly
+    identity_text: Project Delegation Request Preparation Instructions
     why_relevant: 'SIMM 19E.1, Preparation Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19e-2
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19E.2-Project-Delegation-Request-Form-ADA-Compliant.docx
@@ -3677,6 +3678,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [governance]
     recheck: monthly
+    identity_text: Financial Analysis Worksheets Preparation Instructions
     why_relevant: 'SIMM 19F.1, Preparation Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19f-2
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19F.2-Financial-Analysis-Worksheets-Template.xlsx
@@ -3934,6 +3936,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [oversight]
     recheck: monthly
+    identity_text: Information Technology Project Oversight Framework
     why_relevant: 'SIMM 45, IT Project Oversight Framework: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45a
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-45A-Independent-Verification-Validation-Statement-of-Work-Template.docx
@@ -4241,6 +4244,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [cybersecurity]
     recheck: monthly
+    identity_text: 'SIMM 5305-B: Risk Register'
     why_relevant: 'SIMM 5305-B, Risk Register and Plan of Action and Milestones Instructions: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5305-c-worksheet
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5305-C-Risk-Register-and-Plan-of-Action-and-Milestones-POAM-Worksheet.xlsx
@@ -4291,6 +4295,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [ai, cybersecurity]
     recheck: monthly
+    identity_text: Generative Artificial Intelligence Risk Assessment SIMM 5305-F
     why_relevant: 'SIMM 5305-F, Generative Artificial Intelligence Risk Assessment: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5310-a
     sha256: "c5e2bd6f17c982639ad08304bd85b2c05e1e13afc825a76a8897fb3ba1e0d877"
@@ -5663,7 +5668,7 @@ sources:
     issuing_body: Office of the State CIO
     tags: [governance]
     recheck: monthly
-    identity_text: ITPL 10-09
+    identity_text: Policy Letter 10-09 Frequently Asked Questions
     why_relevant: 'ITPL 10-09 FAQs (issued 3/23/2011 per the table), ''Power Management and Shutdown Frequently Asked Questions'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-11-03
     sha256: "16a5c1e631ceff8ec1a1930c9e3a7d525f042c7f5c9b4e7561270ea6dd37a775"
@@ -5780,7 +5785,7 @@ sources:
     issuing_body: Office of the State CIO
     tags: [governance]
     recheck: monthly
-    identity_text: ITPL 10-09
+    identity_text: IT POLICY LETTER ITPL 10-09
     why_relevant: 'ITPL 10-09 (issued 7/21/2010 per the table), ''Power Management and Shutdown'': an Information Technology Policy Letter of the Office of the State CIO, marked Active on the Technology Letters page''s Information Technology Policy Letters table.'
   - id: ca-itpl-10-08
     sha256: "b9d67701cbdf2480dd3db7a1d041727d9525c644578cf118b853351cd90ae590"

@@ -789,15 +789,18 @@ _US_DATE = re.compile(r"\b(\d{1,2})[/-](\d{1,2})[/-](\d{4})\b")   # 1/1/2010 or 
 _EFFECTIVE_LABEL = re.compile(r"effective\s+date|\beffective\s*:", flags=re.I)
 
 
-def effective_date(text: str, doc_type: str = "") -> str | None:
+def effective_date(text: str, doc_type: str = "", jurisdiction: str = "") -> str | None:
     """An ISO date, only when the source labels it `EFFECTIVE DATE` or `Effective:` and prints
     it with a month name or a four-digit year (slashes or hyphens). `09-08-08` is not guessed
     at; a memo's `Date:` is not an effective date; "effective immediately" is prose, not a
     label. The first date within 200 characters after the first label is taken. A statute never
     gets one: a chapter is many sections, and the "Effective date" notes printed under them
-    (RCW) belong to the amending acts, not to the document."""
+    (RCW) belong to the amending acts, not to the document. California letters and orders
+    carry no such label, and the date their header prints comes first: see `_ca_dates`."""
     if doc_type == "statute":
         return None
+    if jurisdiction == "california" and (printed := _ca_dates(text, doc_type)[0]):
+        return printed
     m = _EFFECTIVE_LABEL.search(text)
     if not m:
         return None
@@ -818,12 +821,60 @@ def effective_date(text: str, doc_type: str = "") -> str | None:
     return f"{y:04d}-{mon:02d}-{d:02d}"
 
 
-def source_version(text: str, doc_type: str) -> str:
-    """ORS pages print their edition ("2025 EDITION"); nothing else here prints a version."""
+# What California letters and orders print instead of an effective date (read from the text as
+# `derive` makes it): an ITPL or letter PDF prints `DATE ISSUED:` with a date (a day, or only a
+# month and year) a few lines on, in its second column; a Technology Letter web page prints its
+# month and year as line 2; a SIMM page's heading says `Revised May 2023`; a SIMM PDF's cover prints its month under the title; an executive order
+# prints `this 30th day of March 2026` where the Governor signs. A day is an effective_date; a
+# month alone is a source_version, never a day made up.
+_CA_ISSUED = re.compile(r"DATE\s+ISSUED:", flags=re.I)
+_CA_WIN = 150
+_CA_FULL = re.compile(rf"\b({_MONTHS})\s+(\d{{1,2}}),\s+(\d{{4}})\b", flags=re.I)
+_CA_MONTH = re.compile(rf"\b({_MONTHS})\s+(\d{{4}})\b", flags=re.I)
+_CA_SIGNED = re.compile(rf"\bthis\s+(\d{{1,2}})(?:st|nd|rd|th)\s+day\s+of\s+({_MONTHS})\s+(\d{{4}})\b")
+_CA_REVISED = re.compile(rf"\b((?:Revised|Updated)\s+(?:{_MONTHS})\s+\d{{4}})\s*$")
+
+
+def _iso(month: str, day: str, year: str) -> str | None:
+    mon = [m.casefold() for m in _MONTHS.split("|")].index(month.casefold()) + 1
+    return f"{int(year):04d}-{mon:02d}-{int(day):02d}" if 1 <= int(day) <= 31 else None
+
+
+def _ca_dates(text: str, doc_type: str) -> tuple[str | None, str]:
+    """(effective_date, source_version) as a California letter, page or order prints them."""
+    if doc_type == "executive_order":
+        m = _CA_SIGNED.search(" ".join(text.split()))
+        return (_iso(m.group(2), m.group(1), m.group(3)) if m else None), ""
+    lines = text.splitlines()
+    m = _CA_ISSUED.search(text)
+    if m:
+        window = " ".join(text[m.end():m.end() + 4 * _CA_WIN].split())[:_CA_WIN]
+        full, month = _CA_FULL.search(window), _CA_MONTH.search(window)
+        if full and (not month or full.start() <= month.start()):
+            return _iso(full.group(1), full.group(2), full.group(3)), ""
+        if month:
+            return None, f"{month.group(1).title()} {month.group(2)}"
+    if len(lines) > 1 and re.fullmatch(rf"({_MONTHS}) \d{{4}}", lines[1].strip()):
+        return None, lines[1].strip()
+    if lines and (m := _CA_REVISED.search(lines[0])):
+        return None, m.group(1)
+    head = [l.strip() for l in lines if l.strip()][:15]
+    if head and head[0].startswith("State of California"):      # a SIMM section's cover page
+        m = re.search(rf"\b((?:Revised\s+|Updated\s+)?(?:{_MONTHS})\s+\d{{4}})\b", " ".join(head))
+        if m:
+            return None, m.group(1)
+    return None, ""
+
+
+def source_version(text: str, doc_type: str, jurisdiction: str = "") -> str:
+    """ORS pages print their edition ("2025 EDITION"); California letters and pages print a
+    month (see `_ca_dates`); nothing else here prints a version."""
     if doc_type == "statute":
         m = re.search(r"^(\d{4}) EDITION$", text, flags=re.M)
         if m:
             return f"{m.group(1)} Edition"
+    if jurisdiction == "california":
+        return _ca_dates(text, doc_type)[1]
     return ""
 
 
@@ -836,12 +887,20 @@ def _squash(s: str) -> str:
     return " ".join(s.split()).casefold()
 
 
-def check_identity(src: dict, text: str) -> None:
+def check_identity(src: dict, text: str, fmt: str | None = None) -> None:
     """The fetched bytes must be the instrument the seed entry cites, or nothing is written.
     A statute page opens with its chapter, a rule page carries the division title, and a
     policy or standard PDF carries the seed entry's `identity_text` (a phrase the document
     prints, for when its printed title differs from the seed title), else the citation's policy
-    number (107-004-190 for 107-004-190_PR), else, when the citation has none, the seed title."""
+    number (107-004-190 for 107-004-190_PR), else, when the citation has none, the seed title.
+    The Department of Technology's pages and PDFs and the Governor's orders are checked by where
+    the document prints its own identity (see `_check_cdt_identity`), not by a phrase anywhere in the
+    text, which another document that cites it would also carry. `fmt` words the refusal ("PDF" or
+    "page"); it defaults to the seed entry's declared format."""
+    fmt = fmt or src.get("format") or "html"
+    what_is = "PDF" if fmt == "pdf" else "page"
+    if _is_cdt(src) and src["doc_type"] in ("policy", "standard"):
+        return _check_cdt_identity(src, text, what_is)
     if src["doc_type"] == "policy" and src["jurisdiction"] == "california" \
             and src["citation"].startswith("SAM chapter"):
         chapter = re.fullmatch(r"SAM chapter (\d+)", src["citation"])
@@ -867,7 +926,7 @@ def check_identity(src: dict, text: str) -> None:
             what = repr(src["title"])
             found = _squash(src["title"]) in _squash(text)
         if not found:
-            raise ValueError(f"{src['id']}: PDF is not the cited instrument: {what} "
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {what} "
                              f"does not appear in its text")
     if src["doc_type"] == "rule" and src["jurisdiction"] == "california":
         cite = re.fullmatch(r"Cal\. Code Regs\., tit\. (\d+), div\. (\d+), ch\. ([\d.]+)", src["citation"])
@@ -883,13 +942,16 @@ def check_identity(src: dict, text: str) -> None:
         raise ValueError(f"{src['id']}: page does not carry the seed title {src['title']!r}")
     if src["doc_type"] == "executive_order" and src["jurisdiction"] == "california":
         cite = re.fullmatch(r"Executive Order ([A-Z]-\d{1,2}-\d{2})", src["citation"])
-        # a page prints the heading as its first line (see archive_eo_html_to_text); a PDF prints it
-        # on a line of its own among the first few (after the "EXECUTIVE DEPARTMENT / STATE OF
-        # CALIFORNIA" letterhead, which pdftotext sometimes splits into odd words)
-        head = [_squash(l) for l in text.splitlines() if l.strip()][:8]
-        if not cite or f"executive order {cite.group(1).casefold()}" not in head:
-            raise ValueError(f"{src['id']}: page is not the cited instrument: {src['citation']!r} "
-                             f"does not match the order's heading line")
+        # the order prints its heading on a line of its own after the "EXECUTIVE DEPARTMENT / STATE OF
+        # CALIFORNIA" letterhead (which pdftotext sometimes splits into odd words) and before the first
+        # WHEREAS; a page prints it as its first line. A letter that cites the order has no WHEREAS.
+        lines = [_squash(l) for l in text.splitlines() if l.strip()]
+        first = next((i for i, l in enumerate(lines) if l.startswith("whereas")), None)
+        head = lines[:first] if first is not None else []
+        if not cite or f"executive order {cite.group(1).casefold()}" not in head[:8]:
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {src['citation']!r} "
+                             f"does not match the order's heading line (the line after the letterhead, before "
+                             f"the first WHEREAS)")
         return
     if src["doc_type"] == "executive_order":
         number = re.search(r"\d{2,4}-\d{2}", src["citation"])
@@ -932,6 +994,53 @@ def check_identity(src: dict, text: str) -> None:
             raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
 
 
+def _is_cdt(src: dict) -> bool:
+    return src["jurisdiction"] == "california" \
+        and urllib.parse.urlsplit(src.get("url") or "").hostname == "www.cdt.ca.gov"
+
+
+_COVER_NUMBER = re.compile(r"(?:statewide information management manual|\bsimm)\s*[\u2013-]?\s*(?:section\s+)?"
+                           r"(\d+[a-z]?(?:-[a-z])?)(?![\w.-])", flags=re.I)
+_CITED_NUMBER = re.compile(r"SIMM (\d+[A-Z]?(?:-[A-Z])?)(?![\w-])(?: Appendix ([A-Z]))?")   # 'SIMM 45 Appendix F' is section 45F
+_LETTER = re.compile(r"^(TL|ITPL) ", flags=re.I)
+
+
+def _check_cdt_identity(src: dict, text: str, what_is: str) -> None:
+    """A Department of Technology document is the cited one when it prints the identity where its
+    own heading is: a web page's first line (the h1) starts with the citation or `identity_text`
+    and goes no further into a longer number (SIMM 40 is not the page headed SIMM 40A); a letter
+    PDF (TL, ITPL) carries `identity_text` in its header block, before its SUBJECT and REFERENCES
+    (a letter that cites another prints that number in its references); any other PDF (a SIMM
+    section) carries `identity_text` or the seed title on its cover, the first 15 lines, and, when
+    the cover prints a SIMM section number (`Statewide Information Management Manual - Section 19F`),
+    it is the citation's (SIMM 19E.1 is section 19E)."""
+    key = src.get("identity_text")
+    fmt_pdf = what_is == "PDF"
+    lines = [l for l in text.splitlines() if l.strip()]
+
+    def refuse(want: str):
+        raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: {want}")
+
+    if not fmt_pdf:
+        want = key or src["citation"]
+        first = _squash(lines[0]) if lines else ""
+        if not re.match(re.escape(_squash(want)) + r"(?![\w.-])", first):
+            refuse(f"{want!r} is not what the page's first line starts with")
+        return
+    if _LETTER.match(src["citation"]) and key:
+        header = re.split(r"SUBJECT:|REFERENCES:", " ".join(lines[:12]), maxsplit=1, flags=re.I)[0]
+        if not re.search(r"(?<![\w-])" + re.escape(_squash(key)) + r"(?![\w-])", _squash(header)):
+            refuse(f"{key!r} is not in the letter's header block (before SUBJECT and REFERENCES)")
+        return
+    want = key or src["title"]
+    cover = " ".join(lines[:15])
+    if _squash(want) not in _squash(cover):
+        refuse(f"{want!r} is not on the cover (the first 15 lines)")
+    printed, cited = _COVER_NUMBER.search(cover), _CITED_NUMBER.match(src["citation"])
+    if printed and cited and printed.group(1).casefold() != (cited.group(1) + (cited.group(2) or "")).casefold():
+        refuse(f"the cover prints SIMM section {printed.group(1)}, the citation is {src['citation']!r}")
+
+
 # ---- the document -----------------------------------------------------------------------
 
 def doc_path(src: dict, config=CONFIG) -> Path:
@@ -942,6 +1051,20 @@ def doc_path(src: dict, config=CONFIG) -> Path:
 
 
 def conversion_notes(src: dict, fmt: str, text: str) -> str:
+    notes = _conversion_notes(src, fmt, text)
+    if src["jurisdiction"] == "california":
+        if src["doc_type"] == "executive_order" and effective_date(text, src["doc_type"], "california"):
+            notes += (" effective_date is the date the Governor signed the order, as its closing paragraph "
+                      "prints it (this Nth day of Month Year); the order prints no other date.")
+        elif effective_date(text, src["doc_type"], "california"):
+            notes += " effective_date is the date the letter prints as issued (DATE ISSUED)."
+        if source_version(text, src["doc_type"], "california"):
+            notes += (" source_version is the month, or the revision month, the document prints "
+                      "(a month with no day is not made into a date).")
+    return notes
+
+
+def _conversion_notes(src: dict, fmt: str, text: str) -> str:
     if fmt == "pdf":
         pages = sorted(set(src.get("no_text_pages") or ()))
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
@@ -1030,7 +1153,7 @@ def derive(src: dict, raw: bytes) -> tuple[str, str]:
     text = to_text(raw, fmt, src["doc_type"], src["jurisdiction"], src.get("slice"),
                    urllib.parse.urlsplit(src.get("url") or "").hostname or "",
                    src.get("no_text_pages") or ())
-    check_identity(src, text)
+    check_identity(src, text, fmt)
     return fmt, text
 
 
@@ -1062,8 +1185,8 @@ def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
         "source_format": fmt,
         "retrieved": retrieved_date(snap.fresh, path, snap.raw_path),
         "source_sha256": snap.sha256,
-        "effective_date": effective_date(text, src["doc_type"]),
-        "source_version": source_version(text, src["doc_type"]),
+        "effective_date": effective_date(text, src["doc_type"], src["jurisdiction"]),
+        "source_version": source_version(text, src["doc_type"], src["jurisdiction"]),
         "status": "current",
         "content_mode": "verbatim",
         "conversion_notes": conversion_notes(src, fmt, text),
@@ -1109,8 +1232,8 @@ def check(sources, config=CONFIG) -> list[str]:
         if body.strip() != body_for(src, text, notes, config).strip():
             problems.append(f"{sid}: document body differs from what the ingester derives "
                             f"from the snapshot and seed entry")
-        for key, want in (("effective_date", effective_date(text, src["doc_type"])),
-                          ("source_version", source_version(text, src["doc_type"])),
+        for key, want in (("effective_date", effective_date(text, src["doc_type"], src["jurisdiction"])),
+                          ("source_version", source_version(text, src["doc_type"], src["jurisdiction"])),
                           ("source_format", fmt), ("conversion_notes", notes)):
             if fm.get(key) != want:
                 problems.append(f"{sid}: document frontmatter {key} is {fm.get(key)!r}, "
