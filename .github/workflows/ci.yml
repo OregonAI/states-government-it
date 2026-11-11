@@ -87,7 +87,16 @@ jobs:
       - run: python3 src/check_seed_list.py --check
       # Every committed snapshot .txt and document is re-derived offline from its raw
       # snapshot (src/ingest.py --check). The PDFs go through pdftotext, a system binary.
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      #
+      # Word files (.docx) are read with pandoc, a system binary like pdftotext. The committed text
+      # was made with pandoc 3.11 (the maintainer's copy); Ubuntu 24.04 packages pandoc 3.1.3, which
+      # was measured on 2026-11-11 to give byte-identical text for all 14 Word files held then.
+      # The check does not depend on that staying true: for a Word file `--check` re-derives the text
+      # and requires the same words in the same order as the committed text (layout may differ),
+      # so a changed word, a dropped paragraph or an edited .txt still fails it. pandoc is missing
+      # => the check fails with "pandoc is not installed", it never passes unread.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils pandoc
+      - run: pandoc --version | head -1
       - run: python3 src/ingest.py --check
 
   unit-tests:
@@ -100,6 +109,8 @@ jobs:
           python-version: "3.12"
       - run: pip install -r requirements.txt
       # tests/test_ingest.py runs the system binary `pdftotext` (poppler-utils) on real PDFs;
-      # install it explicitly rather than rely on what the runner image happens to ship.
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      # install it explicitly rather than rely on what the runner image happens to ship. The Word
+      # file tests (tests/test_ingest_docx.py) need pandoc and skip without it, so CI installs it:
+      # a skipped test here would be a gate that cannot fail.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils pandoc
       - run: python3 -m pytest tests/ -q

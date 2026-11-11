@@ -6,6 +6,7 @@ Technology pages.
 Fixtures are real bytes fetched 2026-11-11 through the toolkit Fetcher: WaTech's Metadata Standard 187.10
 (a standard with four tables, a revision history and a footnote part) and the Enterprise Service
 Designation for Internal Identity Management (a short designation with a bulleted list and one table)."""
+import os
 import shutil
 from pathlib import Path
 
@@ -22,7 +23,9 @@ SRC = {"id": "wa-data-01-02-s", "format": "docx", "doc_type": "standard", "juris
        "citation": "WaTech Standard DATA-01-02-S", "title": "Metadata Standard",
        "identity_text": "Standard 187.10 - Metadata Standard"}
 
-needs_pandoc = pytest.mark.skipif(shutil.which("pandoc") is None, reason="pandoc not installed")
+# Skipped without pandoc on a developer machine only: in CI (CI=true) a missing pandoc fails these tests.
+needs_pandoc = pytest.mark.skipif(shutil.which("pandoc") is None and not os.environ.get("CI"),
+                                  reason="pandoc not installed")
 
 
 @needs_pandoc
