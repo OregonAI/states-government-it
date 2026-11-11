@@ -3,9 +3,9 @@ schema_version: 1
 corpus: states-government-it
 jurisdiction: texas
 id: tx-dir-prohibited-technologies-statewide-plan
-title: Statewide Plan for Preventing Use of Prohibited Technology in State Agencies
+title: Model Security Plan for Prohibited Technologies
 doc_type: policy
-citation: Statewide Security Plan for Prohibited Technologies (Model Security Plan, January 2023)
+citation: Model Security Plan for Prohibited Technologies, Version 1.0, January 2023
 authority_level: ''
 issuing_body: Texas Department of Information Resources
 source_url: https://dir.texas.gov/sites/default/files/2023-02/Statewide_Plan_for_Preventing_Use_of_Prohibited_Technology_in_State_Agencies_%28Final_OOG%29.pdf
@@ -35,11 +35,11 @@ tags:
 
 > **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
 
-# Statewide Plan for Preventing Use of Prohibited Technology in State Agencies (Statewide Security Plan for Prohibited Technologies (Model Security Plan, January 2023))
+# Model Security Plan for Prohibited Technologies (Model Security Plan for Prohibited Technologies, Version 1.0, January 2023)
 
 ## At a glance
 
-The plan DIR and the Department of Public Safety developed after the Governor's December 7, 2022 directive: each state agency's objectives for prohibiting prohibited technologies on state-issued devices and on personal devices used for state business, sensitive locations, network restrictions, exceptions and compliance. The list of prohibited software and hardware, which the Governor and the Texas Cyber Command update, is on the page this was found through, which is watched.
+The file prints 'Model Security Plan for Prohibited Technologies', 'Date: Jan 26, 2023' and 'Version: 1.0' (DIR's page links it as 'Statewide Security Plan for Prohibited Technologies'; the PDF's file name, not used as the title, reads 'Statewide_Plan_for_Preventing_Use_of_Prohibited_Technology_in_State_Agencies'). The text says the Governor directed the Department of Public Safety (DPS) and DIR to develop it, so DPS is a co-developer; the issuing body is recorded as DIR because the file is hosted by DIR and DIR and DPS jointly maintain the prohibited list it describes. It sets out, after the Governor's December 7, 2022 directive, each state agency's objectives for prohibiting prohibited technologies on state-issued devices and on personal devices used for state business, sensitive locations, network restrictions, exceptions and compliance. The list of prohibited software and hardware, which the Governor and the Texas Cyber Command update, is on the page this was found through, which is watched.
 
 ## Full text
 

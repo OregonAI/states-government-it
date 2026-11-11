@@ -38,7 +38,7 @@ tags:
 
 ## At a glance
 
-The minimum requirements DIR uses to certify cybersecurity awareness training programs under Government Code 2063.102, the training that state employees and officials must complete annually. Applies to training providers seeking state certification; current fiscal years only (the FY 20-21 to FY 24-25 versions in the library are superseded).
+The minimum requirements for certifying a cybersecurity training program under Government Code 2063.102 ('These standards will be used to assess and determine whether a cybersecurity training program meets the minimum requirements for certification under Section 2063.102'). The file is hosted in DIR's resource library and prints no issuer; the committed chapter 2063 gives the certification duty to the Texas Cyber Command (2063.102: 'The command ... shall annually: (1) certify at least five cybersecurity training programs'), so DIR as issuing body is inferred from the host, not printed (OWNER DECISION). Applies to training providers seeking state certification; current fiscal years only (the FY 20-21 to FY 24-25 versions in the library are superseded).
 
 ## Full text
 

@@ -12,7 +12,7 @@ source_url: https://dir.texas.gov/sites/default/files/2025-09/Security%20Control
 source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: 8858ae54e023a23a11a65b1f4747d6a6b19769b844b5341401ad0908b001a8f5
-effective_date: null
+effective_date: '2025-08-28'
 source_version: ''
 status: current
 content_mode: verbatim

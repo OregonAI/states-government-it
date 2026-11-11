@@ -7,20 +7,20 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | doc_type | count |
 |---|---|
 | policy | 281 |
-| standard | 194 |
+| standard | 195 |
 | statute | 52 |
 | executive_order | 17 |
 | rule | 12 |
 
-**Total: 556**
+**Total: 557**
 
 ## Source manifest
 
-704 declared source(s) across 7 group(s) in `sources`.
+707 declared source(s) across 7 group(s) in `sources`.
 
 ## Freshness (reverify every 90 days)
 
-556 of 556 document(s) overdue for re-verification.
+557 of 557 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -74,5 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | wa-rcw-39-26-340 | statute | never |
 | wa-rcw-39-34-240 | statute | never |
 | wa-rcw-40-26 | statute | never |
-| … | *506 more* | |
+| … | *507 more* | |
 

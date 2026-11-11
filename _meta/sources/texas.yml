@@ -161,8 +161,8 @@ sources:
     sha256: "57425096526b5957fc4fb71e0c4f332bfa55733c237115c187b4d3d221e65e19"
     url: "https://dir.texas.gov/sites/default/files/2023-02/Statewide_Plan_for_Preventing_Use_of_Prohibited_Technology_in_State_Agencies_%28Final_OOG%29.pdf"
     format: pdf
-    citation: "Statewide Security Plan for Prohibited Technologies (Model Security Plan, January 2023)"
-    title: "Statewide Plan for Preventing Use of Prohibited Technology in State Agencies"
+    citation: "Model Security Plan for Prohibited Technologies, Version 1.0, January 2023"
+    title: "Model Security Plan for Prohibited Technologies"
     doc_type: policy
     jurisdiction: texas
     issuing_body: Texas Department of Information Resources
@@ -170,7 +170,7 @@ sources:
     recheck: monthly
     identity_text: "Model Security Plan for Prohibited Technologies"
     found_via: "https://dir.texas.gov/information-security/covered-applications-and-prohibited-technologies (not a resource library row)"
-    why_relevant: "The plan DIR and the Department of Public Safety developed after the Governor's December 7, 2022 directive: each state agency's objectives for prohibiting prohibited technologies on state-issued devices and on personal devices used for state business, sensitive locations, network restrictions, exceptions and compliance. The list of prohibited software and hardware, which the Governor and the Texas Cyber Command update, is on the page this was found through, which is watched."
+    why_relevant: "The file prints 'Model Security Plan for Prohibited Technologies', 'Date: Jan 26, 2023' and 'Version: 1.0' (DIR's page links it as 'Statewide Security Plan for Prohibited Technologies'; the PDF's file name, not used as the title, reads 'Statewide_Plan_for_Preventing_Use_of_Prohibited_Technology_in_State_Agencies'). The text says the Governor directed the Department of Public Safety (DPS) and DIR to develop it, so DPS is a co-developer; the issuing body is recorded as DIR because the file is hosted by DIR and DIR and DPS jointly maintain the prohibited list it describes. It sets out, after the Governor's December 7, 2022 directive, each state agency's objectives for prohibiting prohibited technologies on state-issued devices and on personal devices used for state business, sensitive locations, network restrictions, exceptions and compliance. The list of prohibited software and hardware, which the Governor and the Texas Cyber Command update, is on the page this was found through, which is watched."
   - id: tx-dir-security-control-standards-catalog
     sha256: "8858ae54e023a23a11a65b1f4747d6a6b19769b844b5341401ad0908b001a8f5"
     url: "https://dir.texas.gov/sites/default/files/2025-09/Security%20Control%20Standards%20Catalog_v2.2.pdf"
@@ -212,7 +212,7 @@ sources:
     recheck: monthly
     identity_text: "FY 26-27 Training Program Certification Standards"
     found_via: "https://dir.texas.gov/resource-library (type security)"
-    why_relevant: "The minimum requirements DIR uses to certify cybersecurity awareness training programs under Government Code 2063.102, the training that state employees and officials must complete annually. Applies to training providers seeking state certification; current fiscal years only (the FY 20-21 to FY 24-25 versions in the library are superseded)."
+    why_relevant: "The minimum requirements for certifying a cybersecurity training program under Government Code 2063.102 ('These standards will be used to assess and determine whether a cybersecurity training program meets the minimum requirements for certification under Section 2063.102'). The file is hosted in DIR's resource library and prints no issuer; the committed chapter 2063 gives the certification duty to the Texas Cyber Command (2063.102: 'The command ... shall annually: (1) certify at least five cybersecurity training programs'), so DIR as issuing body is inferred from the host, not printed (OWNER DECISION). Applies to training providers seeking state certification; current fiscal years only (the FY 20-21 to FY 24-25 versions in the library are superseded)."
   - id: tx-dir-ai-training-certification-standards-fy26-27
     sha256: "1320f1c3a2ad6015d3886cf4000e5530ae8c1af48ad220fce5ab1850216815c3"
     url: "https://dir.texas.gov/sites/default/files/2026-05/FY26-27%20AI%20Training%20Program%20Certification%20Standards%20-%20FINAL.pdf"
@@ -241,22 +241,36 @@ sources:
     identity_text: "Videoconferencing"
     found_via: "https://dir.texas.gov/resource-library (type Guidelines, titled 'Videoconferencing Guidelines')"
     why_relevant: "The minimum technical standards (bandwidth, cameras, audio, high-definition and non-high-definition video) that governmental bodies' videoconference meetings must meet, set by DIR as Government Code 551.127(i) requires for meetings held by videoconference under the Open Meetings Act. Binds state and local governmental bodies; borderline as IT governance (OWNER DECISION). The library row is titled Guidelines and the file Standards; no newer version is listed."
-
-  # ---- Administrative Code: stubs. The Secretary of State's rule portal serves a script shell (measured below).
-  - id: tx-tac-1-202
-    sha256: ""
-    url: "https://texas-sos.appianportalsgov.com/rules-and-meetings?chapter=202&interface=VIEW_TAC&part=10&title=1"
-    format: html
-    citation: "1 TAC chapter 202"
-    title: "Chapter 202. Information Security Standards"
-    doc_type: rule
+  - id: tx-dir-irm-continuing-education-guide
+    sha256: "6b2635626b5f4a41afdfa32261985fc1acf0e5901331538e48201d40a5ba45d5"
+    url: "https://dir.texas.gov/sites/default/files/2023-04/IRM%20Cont%20Ed%20Guide%202023.pdf"
+    format: pdf
+    citation: "DIR Continuing Education Guide for State Agency Information Resources Managers (IRMs), 2023"
+    title: "Continuing Education Guide for State Agency Information Resources Managers (IRMs)"
+    doc_type: standard
     jurisdiction: texas
     issuing_body: Texas Department of Information Resources
+    tags: [governance]
+    recheck: monthly
+    identity_text: "Continuing Education Guide for State Agency Information Resources Managers"
+    found_via: "https://dir.texas.gov/resource-library (type Guidelines, row 'IRM Continuing Education Requirements')"
+    why_relevant: "The mandatory initial and continuing education requirements for the information resources managers (IRMs) of state agencies and institutions of higher education, which Government Code 2054.076(b) requires DIR to provide ('The department shall provide mandatory guidelines to state agencies regarding the initial and continuing education requirements needed for information resources managers'): classification levels by biennial IR budget, core knowledge areas, reporting to DIR by August 31 each fiscal year, waivers. The library types it Guidelines and the file calls itself a guide; seeded as a standard because it sets requirements the agencies' IRMs must meet (OWNER DECISION)."
+
+  # ---- Administrative Code: stubs. The Secretary of State's rule portal serves a script shell (measured below).
+  - id: tx-tac-1-477
+    sha256: ""
+    url: "https://texas-sos.appianportalsgov.com/rules-and-meetings?chapter=477&interface=VIEW_TAC&part=19&title=1"
+    format: html
+    citation: "1 TAC chapter 477"
+    title: "Chapter 477. Information Security Standards"
+    doc_type: rule
+    jurisdiction: texas
+    issuing_body: Texas Cyber Command
     tags: [cybersecurity, governance]
     recheck: monthly
     stub: true
-    stub_reason: "The only official source of the codified text is the Secretary of State's Texas Administrative Code portal, which DIR's own page (https://dir.texas.gov/texas-administrative-code-202) links for this chapter. The Fetcher got HTTP 200 and 2,530 bytes: an empty script shell (<div id=\"content\"></div> and a script bundle), no rule text; the text exists only behind the portal's own JavaScript API, which is not a page a visitor's link points to and is not called. The old texreg.sos.state.tx.us viewer answers 'Site Has Moved'. Texas Register adoption notices carry only the sections adopted, not the codified chapter. The Texas Register's June 26, 2026 transferred-rules notice (https://www.sos.state.tx.us/texreg/archive/June262026/Transferred%20Rules/202602468-1.pdf, read) shows this chapter moving from Part 10 (DIR) to Title 1 Part 19 (Texas Cyber Command) as Chapter 477, sections renumbered 477.1 to 477.77; its effective date was not read (the notice's own page was refused by the Fetcher). Chapter 202 is what DIR's catalog and security pages cite; it prints the sections 202.1 to 202.5, 202.20 to 202.27 and 202.70 to 202.77."
-    why_relevant: "DIR's information security standards for state agencies and institutions of higher education (the agency head, ISO and staff duties, security reporting, the agency information security program, the Security Control Standards Catalog, TX-RAMP). The standards catalog seeded above is its required control set."
+    stub_reason: "The only official source of the codified text is the Secretary of State's Texas Administrative Code portal. The Fetcher got HTTP 200 and 2,530 bytes from the portal page for Title 1, Part 19, Chapter 477: an empty script shell (<div id=\"content\"></div> and a script bundle), no rule text; the text exists only behind the portal's own JavaScript API, which is not a page a visitor's link points to and is not called. The old texreg.sos.state.tx.us viewer answers 'Site Has Moved'. This chapter is the former 1 TAC Part 10, Chapter 202 (DIR): the Texas Register's Transferred Rules page for June 26, 2026 (https://www.sos.state.tx.us/texreg/archive/June262026/Transferred%20Rules/Transferred%20Rules.html, HTTP 200, 2,601 bytes, read) says the Department of Information Resources' substantive rules in Title 1, Part 10, Chapter 202 (Information Security Standards) 'are transferred to Texas Cyber Command under Texas Administrative Code, Title 1, Part 19, Chapter 477 (Information Security Standards)' and that 'The rules will be transferred in the Texas Administrative Code effective August 1, 2026'; the notice's table (https://www.sos.state.tx.us/texreg/archive/June262026/Transferred%20Rules/202602468-1.pdf) renumbers sections 202.1 to 202.5, 202.20 to 202.27 and 202.70 to 202.77 as 477.1 to 477.77. DIR's own pages and the seeded DIR documents still cite Chapter 202 by its old number. Texas Register adoption notices carry only the sections adopted, not the codified chapter."
+    why_relevant: "The information security standards for state agencies and institutions of higher education (the agency head, ISO and staff duties, security reporting, the agency information security program, the Security Control Standards Catalog, TX-RAMP), issued by DIR as 1 TAC chapter 202 until the transfer to the Texas Cyber Command as chapter 477 took effect August 1, 2026. The standards catalog seeded above is its required control set."
   - id: tx-tac-1-219
     sha256: ""
     url: "https://texas-sos.appianportalsgov.com/rules-and-meetings?chapter=219&interface=VIEW_TAC&part=10&title=1"
@@ -271,6 +285,34 @@ sources:
     stub: true
     stub_reason: "DIR's AI and Innovation page links this chapter as 'AI Code of Ethics' (and its AI templates page as 'TAC 219', the code of ethics and minimum standards under Government Code 2054.702 and 2054.703); DIR's AI Acceptable Use Policy cites 'Texas Administrative Code, Title 1, Chapter 219 (\"Artificial Intelligence\")'. The portal page is the same empty script shell as for chapter 202 (HTTP 200, 2,530 bytes, no rule text), and the text is reachable only through the portal's JavaScript API. The chapter's sections and adoption were not found in any static official page."
     why_relevant: "DIR's AI system code of ethics and minimum risk management and governance standards for heightened scrutiny AI systems, which Government Code 2054.702 and 2054.703 require state agencies to adopt."
+  - id: tx-tac-1-206
+    sha256: ""
+    url: "https://texas-sos.appianportalsgov.com/rules-and-meetings?chapter=206&interface=VIEW_TAC&part=10&title=1"
+    format: html
+    citation: "1 TAC chapter 206"
+    title: "Chapter 206. State Web Sites"
+    doc_type: rule
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [digital-services, data]
+    recheck: monthly
+    stub: true
+    stub_reason: "Seen in bytes fetched from DIR's own host: the Internet and Email Domain Name Management Policy prints 'Texas Administrative Code, Title 1, Chapter 206 (State Web Sites)' and 'Texas Administrative Code Section 206.3', and the State Website Linking and Privacy Policy prints '1 TAC Chapter 206'. The portal page for Title 1, Part 10, Chapter 206 is the same empty script shell as for chapter 477 (HTTP 200, 2,530 bytes, <div id=\"content\"></div> and a script bundle, no rule text), and the text is reachable only through the portal's JavaScript API, which is not called. No static official page serves the whole chapter."
+    why_relevant: "DIR's rules on state web sites, which the seeded Internet and Email Domain Name Management Policy and State Website Linking and Privacy Policy cite as applying to state agencies (the printed section 206.3 defines the state agencies covered)."
+  - id: tx-tac-1-213
+    sha256: ""
+    url: "https://texas-sos.appianportalsgov.com/rules-and-meetings?chapter=213&interface=VIEW_TAC&part=10&title=1"
+    format: html
+    citation: "1 TAC chapter 213"
+    title: "Chapter 213. Electronic and Information Resources"
+    doc_type: rule
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: "Seen in bytes: the FY 26-27 Training Program Certification Standards print 'Comply with accessibility standards: Texas Administrative Codes 1TAC 213, 1TAC 206', and the Texas Register's June 12, 2026 adoption (https://www.sos.state.tx.us/texreg/archive/June122026/Adopted%20Rules/1.ADMINISTRATION.html, HTTP 200, 28,012 bytes) heads DIR's rules 'CHAPTER 213. ELECTRONIC AND INFORMATION RESOURCES' with new rules, amendments and repeals to sections of subchapters A and B (213.4, 213.11 to 213.22, 213.31 to 213.42); the adoption carries only those sections. The portal page for Title 1, Part 10, Chapter 213 is the same empty script shell as for chapter 477 (HTTP 200, 2,530 bytes, <div id=\"content\"></div> and a script bundle, no rule text), and the text is reachable only through the portal's JavaScript API, which is not called. No static official page serves the whole chapter."
+    why_relevant: "DIR's rules on electronic and information resources (EIR) accessibility for state agencies and institutions of higher education, cited by the FY 26-27 Training Program Certification Standards as accessibility standards; the seeded Government Code chapter 2054 has a subchapter on access to electronic and information resources (M)."
 
   # ---- Index and program pages, watched
   - id: tx-watch-dir-resource-library
@@ -368,13 +410,13 @@ left_out:
      - Policy, 156 rows, of which 3 are seeded: 105 interlocal and customer contracts with named public entities (DIR-TSO-IC series and TSDEC data-center agreements), 32 bulk purchase agreements, ITSAC pricing and statements of work, 7 committee bylaws (SACC, SAIAF subcommittees), and 9 others: DIR Ethics Policy and DIR Leave Administration Policy (DIR's internal personnel rules, not IT), 'Texas Cybersecurity Council Charter' (v8.0, July 2021, the charter of an advisory body), 'Software Currency Policy' (a .docx whose first page reads 'This template is not a guideline for action at your agency'), a data use agreement FAQ, a browser list, an exhibitor kit, a data management learning guide and a conversion template. The 'Software Currency Policy' template and the 'Acceptable Use of the Internet Policy' (a 2015 'Guidelines for State Agencies and Institutions of Higher Education', listed under Guidelines) are the two the title names as policy; both are guidance for agencies to write their own, left out as templates and guidelines (OWNER DECISION).
      - Tool/Template, 133 rows: templates, checklists and workbooks, including 'Model State Agency Policy for Preventing Use of Prohibited Technology' (Jan. 2023) and 'Model Policy for Preventing Use of Prohibited Technology and Covered Applications' (Sept. 2024), models for agencies to adopt (Gov't Code 620.003): left out as templates; OWNER DECISION.
      - No type shown, 85 rows, of which 2 (one file) are seeded: board agendas and minutes, flyers, AI training videos, bulk purchase agreements, the 2026 information security plan template, quick start guides, the 'TEXAS GRANT MANAGEMENT STANDARDS' reader (a grants guide).
-     - Guidelines, 57 rows, of which 3 are seeded: guides and instructions (IRCAP and IRDR instructions and FAQs, strategic plan quick reference, data classification guide v1.1 (2018), lease versus purchase, PC life cycle, legacy modernization guide, MFA best practices, cloud services guide, incident response redbook, UETA guidelines, Project Delivery Framework Reference Guides of 2021 and 2023, Prohibited Technologies Exception Request Guide, Web Modernization Best Practice Standards (Feb. 2026, best practices under Gov't Code 2054.652), the Texas Cybersecurity Framework controls and definitions (42 control objectives; DIR's TCF page says the framework is used 'without placing additional regulatory requirements on agencies'), superseded TX-RAMP manual 1.0 and baselines, and 'Videoconferencing Guidelines' which is seeded). OWNER DECISION on whether the Project Delivery Framework Reference Guide (the framework Gov't Code 2054 subchapter J requires) is an instrument.
+     - Guidelines, 57 rows, of which 4 are seeded (the Security Control Standards Catalog, the TX-RAMP manual, the videoconferencing standards and the IRM Continuing Education Guide, the 2023 file behind the row 'IRM Continuing Education Requirements'): guides and instructions (IRCAP and IRDR instructions and FAQs, strategic plan quick reference, data classification guide v1.1 (2018), lease versus purchase, PC life cycle, legacy modernization guide, MFA best practices, cloud services guide, incident response redbook, UETA guidelines, Project Delivery Framework Reference Guides of 2021 and 2023, Prohibited Technologies Exception Request Guide, Web Modernization Best Practice Standards (Feb. 2026, best practices under Gov't Code 2054.652), the Texas Cybersecurity Framework controls and definitions (42 control objectives; DIR's TCF page says the framework is used 'without placing additional regulatory requirements on agencies'), superseded TX-RAMP manual 1.0 and baselines, and 'Videoconferencing Guidelines' and 'IRM Continuing Education Requirements', which are seeded). OWNER DECISION on whether the Project Delivery Framework Reference Guide (the framework Gov't Code 2054 subchapter J requires) is an instrument.
      - Training 43, User Guide 39, News/Events 25, Standard Operating Procedure 4, CPO 3: training decks and instructions, portal user guides, agendas and flyers, PM essentials, three bulk purchase agreements; not instruments. Older fiscal-year certification standards (FY 20-21 to FY 24-25) are superseded by the FY 26-27 files seeded.
      - 'AI Notice' (https://dir.texas.gov/resource-library-item/ai-notice) and 'AI System Facts' (DASH chatbot): DIR's own notice and sample of the standardized notice under Gov't Code 2054.711, a filled-in form.
 - text: |-
-    Administrative rules (1 TAC, Part 10, Department of Information Resources): the Texas Administrative Code has no static official source (see the stubs above), so no rule is a document. Chapters seen in bytes: 202 and 219 (stubbed); Chapter 213, Electronic and Information Resources (the June 12, 2026 Texas Register adoption, https://www.sos.state.tx.us/texreg/archive/June122026/Adopted%20Rules/1.ADMINISTRATION.html, shows new rules, amendments and repeals to 213.4, 213.11 to 213.22, 213.31 to 213.42 and carries only those sections; no static page serves the whole chapter, and no official link to a portal page for it was fetched, so it is not stubbed). OWNER DECISION: chapters 206 (state websites), 209 (videoconference meetings), 211 (information resources managers) and others of Part 10 were named only in a web search, not in any byte fetched from an official site, so they are not seeded; a reviewer with the portal can add them as stubs. If the move of chapter 202 to Part 19 of Title 1 as chapter 477 is in force, the stub should be renamed.
+    Administrative rules (1 TAC, Part 10, Department of Information Resources, and Part 19, Texas Cyber Command): the Texas Administrative Code has no static official source (the Secretary of State's portal pages answer HTTP 200 with an empty script shell, measured 2,530 bytes each for chapters 202, 206, 213, 219 and 477), so no rule is a document and four chapters are stubs. Stubbed: 477 (Information Security Standards; formerly 1 TAC chapter 202, transferred from DIR Part 10 to Texas Cyber Command Part 19 effective August 1, 2026 per the Texas Register's Transferred Rules page of June 26, 2026, https://www.sos.state.tx.us/texreg/archive/June262026/Transferred%20Rules/Transferred%20Rules.html), 206 (State Web Sites; printed in the committed Internet and Email Domain Name Management Policy and State Website Linking and Privacy Policy), 213 (Electronic and Information Resources; printed in the committed FY 26-27 Training Program Certification Standards and in the June 12, 2026 Texas Register adoption, https://www.sos.state.tx.us/texreg/archive/June122026/Adopted%20Rules/1.ADMINISTRATION.html, which carries only the sections adopted) and 219 (Artificial Intelligence). DIR's own pages and policies still cite the chapter as 202; the DIR page watched below is about chapter 202 and where the move shows. OWNER DECISION: chapters 209 (videoconference meetings) and 211 (information resources managers) and others of Part 10 were named only in a web search, not in any byte fetched from an official site, so they are not seeded; a reviewer with the portal can add them as stubs.
 - text: |-
-    Executive orders: none seeded. The Governor's executive order list (https://gov.texas.gov/news/category/executive-order) is script-rendered: the page (90,814 bytes, HTTP 200) carries no list items, and the site's RSS feed (https://gov.texas.gov/news/rss) holds only the newest ten news items. No numbered executive order on state IT, cybersecurity, data or AI could be confirmed in bytes. What was found, from DIR's prohibited technologies page and the three Governor news posts it links (all read): the Governor's December 7, 2022 directive to state agencies banning TikTok and other prohibited technologies, the January 31, 2025 proclamation banning PRC-affiliated AI and social media apps on government-issued devices (a PDF named PROC_..._IMAGE, an image file; not fetched), and the January 2026 update naming the Texas Cyber Command and the model security plan. These are directives and proclamations rather than numbered executive orders; DIR's Statewide Security Plan, which implements the December 2022 directive, is seeded. OWNER DECISION whether the proclamation and the directive enter, and the executive order index could not be watched because it holds no list in the page.
+    Executive orders: none seeded. The Governor's executive order list (https://gov.texas.gov/news/category/executive-order) is script-rendered: the page (90,814 bytes, HTTP 200) carries no list items, and the site's RSS feed (https://gov.texas.gov/news/rss) holds only the newest ten news items. One numbered order was found, Executive Order GA-48 'relating to the hardening of state government' (November 19, 2024), served at https://gov.texas.gov/uploads/files/press/EO-GA-48_Hardening_State_Government_FINAL_11-19-2024.pdf (HTTP 200, 542,653 bytes through the Fetcher). It is an image-only scan (pdffonts lists no fonts), so it was not read as text of record; discovery-only OCR shows it binds state agencies and public universities (foreign-adversary vendor certification for state contracts; critical-infrastructure personnel reviews through DPS). It is not seeded: OWNER DECISION on scope (state-government security and contracting rather than IT as such), and if the owner wants it, it is seeded with ocr: true through the two-engine procedure. No other numbered executive order on state IT, cybersecurity, data or AI could be confirmed in bytes. What else was found, from DIR's prohibited technologies page and the three Governor news posts it links (all read): the Governor's December 7, 2022 directive to state agencies banning TikTok and other prohibited technologies, the January 31, 2025 proclamation banning PRC-affiliated AI and social media apps on government-issued devices (a PDF named PROC_..._IMAGE, an image file; not fetched), and the January 2026 update naming the Texas Cyber Command and the model security plan. These three are directives and proclamations rather than numbered executive orders; DIR's Statewide Security Plan, which implements the December 2022 directive, is seeded. OWNER DECISION whether the proclamation and the directive enter, and the executive order index could not be watched because it holds no list in the page.
 - text: |-
     Statutes not seeded:
      - Government Code ch. 2060 (Interagency Data Transparency Commission): a study commission whose final report was due September 1, 2016; spent.

@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 556,
+ "n_nodes": 557,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -1734,7 +1734,7 @@
   },
   {
    "id": "tx-dir-prohibited-technologies-statewide-plan",
-   "title": "Statewide Plan for Preventing Use of Prohibited Technology in State Agencies",
+   "title": "Model Security Plan for Prohibited Technologies",
    "doc_type": "policy",
    "path": "policies/texas/tx-dir-prohibited-technologies-statewide-plan.md"
   },
@@ -2733,6 +2733,12 @@
    "title": "Artificial Intelligence Training Program Certification Standards, Fiscal Year 2026-2027",
    "doc_type": "standard",
    "path": "standards/texas/tx-dir-ai-training-certification-standards-fy26-27.md"
+  },
+  {
+   "id": "tx-dir-irm-continuing-education-guide",
+   "title": "Continuing Education Guide for State Agency Information Resources Managers (IRMs)",
+   "doc_type": "standard",
+   "path": "standards/texas/tx-dir-irm-continuing-education-guide.md"
   },
   {
    "id": "tx-dir-security-control-standards-catalog",
