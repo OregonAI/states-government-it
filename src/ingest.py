@@ -19,13 +19,17 @@ and the entry is skipped: the seed entry is then marked a stub by hand, with the
 from __future__ import annotations
 
 import argparse
+import difflib
+import hashlib
 import html as html_mod
 import inspect
 import io
 import json
 import re
+import os
 import subprocess
 import sys
+import tempfile
 import urllib.parse
 import weakref
 import zipfile
@@ -34,7 +38,7 @@ from pathlib import Path
 
 from corpus_toolkit import config as config_mod
 from corpus_toolkit.documents import DocumentError, write_document
-from corpus_toolkit.repo import parse_frontmatter
+from corpus_toolkit.repo import hash_snapshot, parse_frontmatter
 import httpx
 
 from corpus_toolkit.sources.fetch import UNSUPPORTED, Challenge, FetchError, Fetcher, Refused, sniff
@@ -928,6 +932,220 @@ def same_words(a: str, b: str) -> bool:
     return a.split() == b.split()
 
 
+# ---- scanned PDFs: the two-engine OCR procedure ---------------------------------------------
+#
+# corpus-template AGENTS.md, "OCR": tesseract (through ocrmypdf) is the primary engine and PaddleOCR
+# PP-OCRv6 reads the ORIGINAL scan as the cross-check; a single engine's output is never promoted. The
+# seed entry says `ocr: true` for a PDF known to be a scan. What is committed:
+#   <id>.pdf         the scan as the source served it (source_sha256 never hashes a derived copy)
+#   <id>.txt         the tesseract text: this is the document's text and what the provenance gate reads
+#   <id>.paddle.txt  the second engine's text. CI has no PaddleOCR, so its text is kept and the agreement
+#                    is recomputed from the two committed texts
+#   <id>.ocr.json    the report: tools, the PDF's and both texts' sha256, agreement, figure agreement,
+#                    dictionary ratio
+# `--check` re-derives what CI can: it re-runs tesseract on the committed PDF and requires the committed
+# text to agree with that reading (OCR_RECHECK), and it recomputes the two-engine agreement from the
+# committed texts. The dictionary ratio is a gate at ingest only: it is judged against the rest of the
+# corpus's non-OCR text, which changes as the corpus grows, so the recorded value is not re-derived.
+
+OCR_WORD = re.compile(r"[a-z]{2,}")
+OCR_FIGURE = re.compile(r"\$?-?\d[\d,]*(?:\.\d+)?%?")
+OCR_MIN_AGREEMENT = 0.80    # the platform's bar for two engines on the word sequence
+OCR_MIN_DICT = 0.80
+OCR_MIN_WORDS = 100
+OCR_RECHECK = 0.95          # tesseract run again by --check against the committed tesseract text
+OCR_ENGINES = ("tesseract (ocrmypdf)", "paddleocr PP-OCRv6")
+OCR_CAVEAT = ("NOT human-verified \u2014 treat every number as unchecked against the source")
+
+
+def ocr_score(primary: str, cross: str, vocab: set) -> dict:
+    """Word-sequence agreement of two engines, figure agreement scored separately (digits are where
+    engines diverge and the word score hides it), and the share of the primary text's words the corpus's
+    own non-OCR vocabulary knows."""
+    wa, wb = OCR_WORD.findall(primary.lower()), OCR_WORD.findall(cross.lower())
+    fa, fb = OCR_FIGURE.findall(primary.lower()), OCR_FIGURE.findall(cross.lower())
+    ratio = lambda a, b: difflib.SequenceMatcher(None, a, b, autojunk=False).ratio() if a and b else 0.0
+    return {"words": len(wa), "agreement": ratio(wa, wb), "figures": len(fa), "figure_agreement": ratio(fa, fb),
+            "dict_ratio": sum(1 for w in wa if w in vocab) / len(wa) if wa else 0.0,
+            "glued": len(re.findall(r"\b[A-Za-z]{18,}\b", primary))}
+
+
+def ocr_vocabulary(config) -> set:
+    """Words of this corpus's own text that was NOT produced by OCR, sampled evenly: the reference a
+    reading is judged against. Text read by OCR is excluded, or its misreadings would become vocabulary."""
+    ocr_ids = {p.name[:-len(".ocr.json")] for p in config.snapshot_dir.glob("*.ocr.json")}
+    files = sorted(p for p in config.snapshot_dir.glob("*.txt")
+                   if p.stem not in ocr_ids and not p.name.endswith(".paddle.txt"))
+    vocab: set = set()
+    for p in files[::max(1, len(files) // 400)]:
+        vocab |= set(OCR_WORD.findall(p.read_text(encoding="utf-8", errors="replace").lower()))
+    return vocab
+
+
+def _tool_version(cmd: list) -> str:
+    try:
+        out = subprocess.run(cmd, capture_output=True, check=False)
+    except FileNotFoundError:
+        return "not installed"
+    return (out.stdout or out.stderr).decode("utf-8", "replace").strip().splitlines()[0]
+
+
+def ocr_tesseract(raw: bytes, force_rotate: bool = False) -> str:
+    """The text tesseract reads from a scan, through ocrmypdf on a COPY, one text block per page.
+    `force_rotate` applies tesseract's orientation call even where it is unsure (a page scanned upside
+    down is otherwise read as confident nonsense)."""
+    with tempfile.TemporaryDirectory() as tmp:
+        src, out, side = Path(tmp, "in.pdf"), Path(tmp, "out.pdf"), Path(tmp, "side.txt")
+        src.write_bytes(raw)
+        cmd = ["ocrmypdf", "-l", "eng", "--optimize", "0", "--output-type", "pdf", "--rotate-pages",
+               "--deskew", "--sidecar", str(side)] + (["--rotate-pages-threshold", "0"] if force_rotate else [])
+        try:
+            proc = subprocess.run(cmd + [str(src), str(out)], capture_output=True, check=False, timeout=1800)
+        except FileNotFoundError:
+            raise ValueError("ocrmypdf is not installed: it runs tesseract on the scans "
+                             "(apt-get install ocrmypdf tesseract-ocr)") from None
+        if proc.returncode != 0 or not side.is_file():
+            raise ValueError("tesseract could not read the PDF (ocrmypdf exit "
+                             f"{proc.returncode}): {proc.stderr.decode('utf-8', 'replace').strip()[-200:]}")
+        pages = side.read_text(encoding="utf-8").split("\f")
+    text = "\n\n".join("\n".join(l.rstrip() for l in page.splitlines()).strip("\n") for page in pages)
+    return re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
+
+
+def ocr_paddle(pdf_path: Path) -> str:
+    """The cross-check engine's text, by `src/ocr_paddle.py` under a Python that has PaddleOCR
+    (`OCR_PADDLE_PYTHON`, default /usr/bin/python3: the repo's .venv has none). Refused, never skipped,
+    when it is not there: unchecked OCR is not promotable."""
+    python = os.environ.get("OCR_PADDLE_PYTHON", "/usr/bin/python3")
+    env = dict(os.environ, PADDLE_PDX_DISABLE_MODEL_SOURCE_CHECK="True")
+    try:
+        with tempfile.TemporaryDirectory() as tmp:
+            proc = subprocess.run([python, str(ROOT / "src" / "ocr_paddle.py"), str(pdf_path)], cwd=tmp,
+                                  capture_output=True, check=False, timeout=3600, env=env)
+    except FileNotFoundError:
+        raise ValueError(f"PaddleOCR (the second OCR engine) is not available: {python} does not exist "
+                         f"(set OCR_PADDLE_PYTHON to a Python with paddleocr)") from None
+    if proc.returncode != 0:
+        raise ValueError("PaddleOCR (the second OCR engine) failed: "
+                         + proc.stderr.decode("utf-8", "replace").strip()[-300:])
+    return proc.stdout.decode("utf-8", "replace")
+
+
+def ocr_scan(src: dict, raw: bytes, config, paddle=None, vocab: set | None = None) -> tuple[str, dict]:
+    """(text, report) for a scanned PDF, or ValueError: both engines read the scan; the text is
+    tesseract's, promoted only when the engines agree on at least OCR_MIN_AGREEMENT of the word sequence,
+    at least OCR_MIN_DICT of the words are known words, there are OCR_MIN_WORDS words, and the text is the
+    cited instrument. The text is read again with orientation forced when the first reading fails."""
+    vocab = ocr_vocabulary(config) if vocab is None else vocab
+    paddle = paddle or ocr_paddle
+    with tempfile.TemporaryDirectory() as tmp:
+        pdf = Path(tmp, "scan.pdf")
+        pdf.write_bytes(raw)
+        cross = paddle(pdf)
+    why, text, score, forced = "", "", {}, False
+    for forced in (False, True):
+        text = ocr_tesseract(raw, force_rotate=forced)
+        score = ocr_score(text, cross, vocab)
+        if score["words"] < OCR_MIN_WORDS:
+            why = f"tesseract read only {score['words']} words (needs {OCR_MIN_WORDS})"
+        elif score["agreement"] < OCR_MIN_AGREEMENT:
+            why = (f"the two OCR engines agree on only {score['agreement']:.0%} of the word sequence "
+                   f"(needs {OCR_MIN_AGREEMENT:.0%})")
+        elif score["dict_ratio"] < OCR_MIN_DICT:
+            why = (f"only {score['dict_ratio']:.0%} of the words are in the corpus's non-OCR dictionary "
+                   f"(needs {OCR_MIN_DICT:.0%})")
+        else:
+            why = ""
+            break
+    if why:
+        raise ValueError(f"{src['id']}: OCR is not promotable: {why}")
+    check_identity(src, text, "pdf")
+    report = dict({k: (round(v, 4) if isinstance(v, float) else v) for k, v in score.items()},
+                  engines=list(OCR_ENGINES), forced_rotation=forced,
+                  tools={"tesseract": _tool_version(["tesseract", "--version"]),
+                         "ocrmypdf": _tool_version(["ocrmypdf", "--version"])},
+                  pdf_sha256=hashlib.sha256(raw).hexdigest(),
+                  text_sha256=hashlib.sha256(text.encode("utf-8")).hexdigest(),
+                  paddle_sha256=hashlib.sha256(cross.encode("utf-8")).hexdigest())
+    return text, dict(report, paddle_text=cross)
+
+
+def ocr_notes(report: dict) -> str:
+    """`conversion_notes` for text read by OCR: wording of the reference implementation (oregon-kpm)."""
+    glued = (f"; {report['glued']} heading/letterhead token(s) lost their word spacing and are left as-is "
+             f"rather than reconstructed" if report.get("glued") else "")
+    return (f"no text layer in the source PDF; text recovered by OCR. Two independent engines "
+            f"({' + '.join(report['engines'])}) agree on {report['agreement']:.0%} of the word sequence and "
+            f"{report['figure_agreement']:.0%} of the {report['figures']} figures, "
+            f"{report['dict_ratio']:.0%} dictionary-recognizable{glued}. effective_date and source_version are "
+            f"left empty: a date read from a scan is not transcribed from the source. {OCR_CAVEAT}")
+
+
+def _ocr_paths(config, sid: str) -> tuple[Path, Path, Path]:
+    d = config.snapshot_dir
+    return d / f"{sid}.txt", d / f"{sid}.paddle.txt", d / f"{sid}.ocr.json"
+
+
+def load_ocr_report(config, sid: str) -> dict | None:
+    _, _, side = _ocr_paths(config, sid)
+    return json.loads(side.read_text(encoding="utf-8")) if side.is_file() else None
+
+
+def write_ocr_snapshot(config, src: dict, raw: bytes, text: str, report: dict):
+    """Record the scan, its OCR text (the toolkit writes `<id>.pdf`, `<id>.txt`, both hashes and the drift
+    baseline), then the second engine's text and the report beside them."""
+    snap = record_snapshot(config, src["id"], raw, "pdf", text)
+    txt, paddle, side = _ocr_paths(config, src["id"])
+    if snap.fresh or not side.is_file():
+        txt.write_text(text, encoding="utf-8")
+        paddle.write_text(report["paddle_text"], encoding="utf-8")
+        side.write_text(json.dumps({k: v for k, v in report.items() if k != "paddle_text"},
+                                   indent=2, sort_keys=True) + "\n", encoding="utf-8")
+    return snap
+
+
+def check_ocr(src: dict, raw: bytes, config) -> tuple[str | None, list[str]]:
+    """Offline re-derivation of a scan's document text: (committed text, problems). See the section note."""
+    sid = src["id"]
+    txt, paddle, side = _ocr_paths(config, sid)
+    report = load_ocr_report(config, sid)
+    if report is None or not txt.is_file() or not paddle.is_file():
+        return None, [f"{sid}: OCR record missing ({sid}.ocr.json, {sid}.txt and {sid}.paddle.txt are all required)"]
+    text, cross = txt.read_text(encoding="utf-8"), paddle.read_text(encoding="utf-8")
+    sha = lambda t: hashlib.sha256(t.encode("utf-8")).hexdigest()
+    problems = []
+    if report["pdf_sha256"] != hashlib.sha256(raw).hexdigest():
+        problems.append(f"{sid}: the snapshot PDF's sha256 is not the one the OCR report was made from")
+    if report["text_sha256"] != sha(text):
+        problems.append(f"{sid}: {sid}.txt differs from the OCR text recorded in {sid}.ocr.json (text_sha256)")
+    if report["paddle_sha256"] != sha(cross):
+        problems.append(f"{sid}: {sid}.paddle.txt (second engine) differs from the text recorded in {sid}.ocr.json")
+    score = ocr_score(text, cross, set())
+    if score["agreement"] < OCR_MIN_AGREEMENT or abs(score["agreement"] - report["agreement"]) > 0.005:
+        problems.append(f"{sid}: tesseract text and paddle text agree on {score['agreement']:.3f}, the report "
+                        f"says {report['agreement']:.3f} (bar {OCR_MIN_AGREEMENT})")
+    if report["dict_ratio"] < OCR_MIN_DICT or score["words"] < OCR_MIN_WORDS:
+        problems.append(f"{sid}: the recorded OCR quality is below the gate")
+    try:
+        again = ocr_score(text, ocr_tesseract(raw, force_rotate=report.get("forced_rotation", False)), set())["agreement"]
+        if again < OCR_RECHECK:
+            problems.append(f"{sid}: tesseract re-reading the snapshot PDF agrees with the committed text on only "
+                            f"{again:.3f} (needs {OCR_RECHECK}): the text is not a reading of this PDF")
+    except ValueError as e:
+        problems.append(f"{sid}: cannot re-run tesseract on the snapshot: {e}")
+    try:
+        check_identity(src, text, "pdf")
+    except ValueError as e:
+        problems.append(str(e))
+    return text, problems
+
+
+def with_ocr(src: dict, config) -> dict:
+    """The seed entry with its OCR report attached (`_ocr`) when it is a scan read by OCR."""
+    report = load_ocr_report(config, src["id"]) if src.get("ocr") else None
+    return dict(src, _ocr=report) if report else src
+
+
 def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
             slice_: dict | None = None, host: str = "", no_text_pages=()) -> str:
     """Bytes to the text committed as `<id>.txt` and hashed. A source this corpus has no
@@ -1300,6 +1518,8 @@ def doc_path(src: dict, config=CONFIG) -> Path:
 
 def conversion_notes(src: dict, fmt: str, text: str) -> str:
     notes = _conversion_notes(src, fmt, text)
+    if src.get("_ocr"):
+        return notes
     if src["jurisdiction"] == "colorado" and src["doc_type"] == "rule":
         notes += (" The PDF is the copy the Secretary of State's page calls the official version of the rule "
                   "(it governs in all cases). Its cover's Secretary of State mark prints as a few scattered "
@@ -1318,6 +1538,8 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
 
 
 def _conversion_notes(src: dict, fmt: str, text: str) -> str:
+    if src.get("_ocr"):
+        return ocr_notes(src["_ocr"])
     if fmt == "docx":
         return ("Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted "
                 "and the result rendered one line per paragraph, heading, list item and table row (a table "
@@ -1385,10 +1607,18 @@ def _conversion_notes(src: dict, fmt: str, text: str) -> str:
             "removed. One line per source line; a blank line before each rule number.")
 
 
+_OCR_WARNING = ("> **MACHINE READING OF A SCAN.** The source PDF has no text layer: it is an image. The full text "
+                "below was read from the image by OCR (two engines, see the curator notes) and is not the "
+                "document's own text. Expect character-level errors in words and figures, and treat every number "
+                "as unchecked against the source. `source_sha256` hashes this transcription; the scan is the "
+                "snapshot.\n\n")
+
+
 def body_for(src: dict, text: str, notes: str, config=CONFIG) -> str:
     return (f"> **{config.disclaimer_marker}.** This is a convenience copy for machine reading. "
             f"The official text is published at the source URL above. Verify at source before "
-            f"relying on it.\n\n# {src['title']} ({src['citation']})\n\n"
+            f"relying on it.\n\n" + (_OCR_WARNING if src.get("_ocr") else "") +
+            f"# {src['title']} ({src['citation']})\n\n"
             f"## At a glance\n\n{src['why_relevant'].strip()}\n\n"
             f"## Full text\n\n{text.rstrip()}\n\n"
             f"## Curator notes\n\n{notes}\n")
@@ -1417,24 +1647,20 @@ def derive(src: dict, raw: bytes) -> tuple[str, str]:
     return fmt, text
 
 
-def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
-    sid = src["id"]
-    declared = src.get("format") or "html"
-    snap_path = config.snapshot_dir / f"{sid}.{declared}"
-    if src["doc_type"] == "statute" and src["jurisdiction"] == "california":
-        raw, fresh = ca_snapshot(src, fetcher, snap_path, refetch)
-    else:
-        raw, fresh = fetcher.snapshot(src["url"], snap_path, refetch=refetch)
-    try:
-        fmt, text = derive(src, raw)
-    except ValueError:
-        if fresh:                                    # leave no snapshot for a source we refuse
-            snap_path.unlink(missing_ok=True)
-        raise
-    snap = record_snapshot(config, sid, raw, fmt, text)
-    path = doc_path(src, config)
-    frontmatter = {
-        "id": sid,
+def doc_dates(src: dict, text: str) -> tuple[str | None, str]:
+    """(effective_date, source_version) the text prints. A scan read by OCR gets neither: a date
+    read from an image is a machine's reading of digits, not a transcription."""
+    if src.get("_ocr"):
+        return None, ""
+    return (effective_date(text, src["doc_type"], src["jurisdiction"]),
+            source_version(text, src["doc_type"], src["jurisdiction"]))
+
+
+def frontmatter_for(src: dict, fmt: str, text: str, snap, path: Path, config=CONFIG) -> dict:
+    """The document's frontmatter: everything the seed entry, the snapshot and the text determine."""
+    eff, version = doc_dates(src, text)
+    fm = {
+        "id": src["id"],
         "jurisdiction": src["jurisdiction"],
         "title": src["title"],
         "doc_type": src["doc_type"],
@@ -1445,8 +1671,8 @@ def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
         "source_format": fmt,
         "retrieved": retrieved_date(snap.fresh, path, snap.raw_path),
         "source_sha256": snap.sha256,
-        "effective_date": effective_date(text, src["doc_type"], src["jurisdiction"]),
-        "source_version": source_version(text, src["doc_type"], src["jurisdiction"]),
+        "effective_date": eff,
+        "source_version": version,
         "status": "current",
         "content_mode": "verbatim",
         "conversion_notes": conversion_notes(src, fmt, text),
@@ -1455,7 +1681,54 @@ def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
                           "references_external": [], "related": [], "supersedes": []},
         "tags": list(src["tags"]),
     }
-    return write_document(config, path, frontmatter,
+    if src.get("_ocr"):
+        fm["text_source"] = "ocr"       # extra_document_fields in corpus.yml lets the server show it
+    return fm
+
+
+def write_ocr_document(src: dict, config=CONFIG, fresh: bool = True) -> Path:
+    """The document for a scan whose OCR snapshot is written (see `write_ocr_snapshot`)."""
+    src = with_ocr(src, config)
+    txt = config.snapshot_dir / f"{src['id']}.txt"
+    text = txt.read_text(encoding="utf-8")
+    path = doc_path(src, config)
+    raw_path = config.snapshot_dir / f"{src['id']}.pdf"
+    snap = type("Snap", (), {"fresh": fresh, "raw_path": raw_path,
+                             "sha256": hash_snapshot(src["id"], "pdf", config.snapshot_dir)})
+    notes = conversion_notes(src, "pdf", text)
+    return write_document(config, path, frontmatter_for(src, "pdf", text, snap, path, config),
+                          body_for(src, text, notes, config))
+
+
+def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
+    sid = src["id"]
+    declared = src.get("format") or "html"
+    snap_path = config.snapshot_dir / f"{sid}.{declared}"
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "california":
+        raw, fresh = ca_snapshot(src, fetcher, snap_path, refetch)
+    else:
+        raw, fresh = fetcher.snapshot(src["url"], snap_path, refetch=refetch)
+    if src.get("ocr"):
+        try:
+            prior = load_ocr_report(config, sid)
+            if not (prior and prior["pdf_sha256"] == hashlib.sha256(raw).hexdigest() and not refetch):
+                text, report = ocr_scan(src, raw, config)
+                snap = write_ocr_snapshot(config, src, raw, text, report)
+                return write_ocr_document(src, config, snap.fresh)
+        except ValueError:
+            if fresh:
+                snap_path.unlink(missing_ok=True)
+            raise
+        return write_ocr_document(src, config, False)
+    try:
+        fmt, text = derive(src, raw)
+    except ValueError:
+        if fresh:                                    # leave no snapshot for a source we refuse
+            snap_path.unlink(missing_ok=True)
+        raise
+    snap = record_snapshot(config, sid, raw, fmt, text)
+    path = doc_path(src, config)
+    return write_document(config, path, frontmatter_for(src, fmt, text, snap, path, config),
                           body_for(src, text, conversion_notes(src, fmt, text), config))
 
 
@@ -1475,17 +1748,27 @@ def check(sources, config=CONFIG) -> list[str]:
         if raw_path is None:
             problems.append(f"{sid}: raw snapshot missing in {config.snapshot_dir.name}/")
             continue
-        try:
-            fmt, text = derive(src, raw_path.read_bytes())
-        except (ValueError, subprocess.CalledProcessError) as e:
-            problems.append(f"{sid}: cannot re-derive text from the snapshot: {e}")
-            continue
+        if src.get("ocr"):
+            fmt = "pdf"
+            text, ocr_problems = check_ocr(src, raw_path.read_bytes(), config)
+            problems += ocr_problems
+            if text is None:
+                continue
+            src = with_ocr(src, config)
+        else:
+            try:
+                fmt, text = derive(src, raw_path.read_bytes())
+            except (ValueError, subprocess.CalledProcessError) as e:
+                problems.append(f"{sid}: cannot re-derive text from the snapshot: {e}")
+                continue
         if fmt == "docx" and txt_path.is_file() and same_words(txt_path.read_text(encoding="utf-8"), text):
             # The committed text was made by the maintainer's pandoc; CI's is another release and may lay
             # the same words out differently. The same words in the same order are current; any other
             # difference is reported below. The document is then compared with the committed text.
             text = txt_path.read_text(encoding="utf-8")
-        if not txt_path.is_file():
+        if src.get("_ocr"):
+            pass                                     # check_ocr compared the committed text already
+        elif not txt_path.is_file():
             problems.append(f"{sid}: {sid}.txt missing")
         elif txt_path.read_text(encoding="utf-8") != text:
             problems.append(f"{sid}: {sid}.txt differs from to_text(raw snapshot)")
@@ -1497,9 +1780,10 @@ def check(sources, config=CONFIG) -> list[str]:
         if body.strip() != body_for(src, text, notes, config).strip():
             problems.append(f"{sid}: document body differs from what the ingester derives "
                             f"from the snapshot and seed entry")
-        for key, want in (("effective_date", effective_date(text, src["doc_type"], src["jurisdiction"])),
-                          ("source_version", source_version(text, src["doc_type"], src["jurisdiction"])),
-                          ("source_format", fmt), ("conversion_notes", notes)):
+        eff, version = doc_dates(src, text)
+        for key, want in (("effective_date", eff), ("source_version", version),
+                          ("source_format", fmt), ("conversion_notes", notes),
+                          *((("text_source", "ocr"),) if src.get("_ocr") else ())):
             if fm.get(key) != want:
                 problems.append(f"{sid}: document frontmatter {key} is {fm.get(key)!r}, "
                                 f"the ingester derives {want!r}")

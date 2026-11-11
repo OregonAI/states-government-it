@@ -66,6 +66,11 @@ plugins:
   #                                            # slug validation at all.
   # issuing_body_profiles: "_meta/issuing-body-profiles.yml"    # {profiles: {slug: {...}}}
   extra_schema_checks: []            # [{path: "...", schema: "..."}, ...]
+  # `text_source: ocr` marks a document whose text was read by OCR from a scan (src/ingest.py,
+  # `ocr: true` in the seed list). Without this line the server drops the field and a caller
+  # cannot see that the text is a machine reading (oregon-kpm does the same).
+  extra_document_fields:
+    - text_source
 
 # Sibling corpora this one resolves citations INTO (toolkit >= 1.1.0). Optional;
 # omit entirely and resolution stays purely local, exactly as before v1.1.0.
