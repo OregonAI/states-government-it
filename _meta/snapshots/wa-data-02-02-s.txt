@@ -1,0 +1,45 @@
+DATA-02-02-S                                                                           Replaces:
+State CIO Adopted: September 2025                              Hydrography Data Standard 161.03
+TSB Approved: September 2025                                                       July 26, 2019
+Sunset Review: September 2028
+
+See Also:
+RCW 43.105.054 Information technology governance
+RCW 43.105.020 (22) “State agency”
+
+                        HYDROGRAPHY DATA STANDARD
+
+1. The U.S. Geological Survey (USGS) 3D Hydrography Program (3DHP) will be the
+   data standard for all surface water (hydrography) geospatial datasets in
+   Washington state.
+
+        a. 3DHP will be implemented incrementally.
+
+        b. Agencies may continue to use the National Hydrography Dataset (NHD)
+           until the 3DHP standards are implemented.
+
+2. The Washington State Department of Ecology (ECY) will publish the official state
+   version of 3DHP for line work, points, areas, stream routing, and 3DHP defined
+   attributes representing surface water hydrography. See the Washington State
+   Hydrography Dataset Program.
+
+        a. Each published version will be identified by a unique version date. ECY will
+           make retired versions available for use by stakeholders for no less than 2
+           years from the date of retirement.
+
+        b. WaTech’s guidelines will provide data set locations and best practices.
+
+3. Agencies must use the 3DHP for all existing and/or any newly designed or
+   significantly redesigned agency geographic information systems.
+
+REFERENCES
+
+    1. Washington State Hydrography Dataset Program.
+    2. Definition of Terms Used in WaTech Policies and Reports.
+
+CONTACT INFORMATION
+
+    •   For questions about this standard, please email the WaTech Policy Mailbox.
+    •   For technical assistance, please email gis@watech.wa.gov.
+
+                                                                                              1

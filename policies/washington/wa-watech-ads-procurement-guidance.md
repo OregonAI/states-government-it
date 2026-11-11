@@ -1,0 +1,1449 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: washington
+id: wa-watech-ads-procurement-guidance
+title: Automated Decision Systems Procurement and Use Guidance
+doc_type: policy
+citation: WaTech Guidance, December 2023
+authority_level: ''
+issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+source_url: https://watech.wa.gov/sites/default/files/2024-01/ADS%20Procurement%20Guidance%20-%2012-2023.pdf
+source_format: pdf
+retrieved: '2026-11-10'
+source_sha256: fd7f082ff44c66e7511f3baa2ffda7ff0c3bcc96b4ba49c85a1f7c6973142971
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Automated Decision Systems Procurement and Use Guidance (WaTech Guidance, December 2023)
+
+## At a glance
+
+Procurement and ongoing monitoring guidance for automated decision systems (predates Executive Order 24-01). WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources).
+
+## Full text
+
+Automated Decision Systems
+Procurement and Use Guidance
+
+December 2023
+
+Table of Contents
+
+Introduction ............................................................................................................................. 3
+   Relevant legal and regulatory requirements ................................................................... 3
+Implementation considerations ............................................................................................ 4
+   Core concepts ..................................................................................................................... 5
+       Definition of ADS............................................................................................................. 5
+       Goals of using automated decision systems ............................................................... 5
+       Risks .................................................................................................................................. 5
+       Washington State Agency Privacy Principles ............................................................... 7
+       ADS guiding principles .................................................................................................. 8
+ADS procurement guidance ................................................................................................. 9
+   Phases ................................................................................................................................... 9
+       Requirements development .......................................................................................... 9
+       Procurement & development ...................................................................................... 10
+       Ongoing monitoring..................................................................................................... 10
+   ADS procurement activities ............................................................................................. 11
+   ADS Procurement Activities Table .................................................................................. 11
+   Purpose of ADS activities ................................................................................................. 12
+   Description of Activities .................................................................................................... 13
+   Actions or controls to take for activities.......................................................................... 18
+Appendix A. Sample ADS Questionnaire .......................................................................... 30
+Appendix B. Sample ADS Prioritization Matrix ................................................................. 31
+ADS Evolution ....................................................................................................................... 33
+Contact................................................................................................................................... 33
+
+                                                                                                                       watech.wa.gov
+                                                                                                                                   2
+
+Introduction
+This guidance was created by Washington
+Technology Solutions (WaTech) pursuant to the
+                                                         Automate Decision
+Governor’s directive to develop guidance on the          Systems must be
+development and procurement of automated                 deployed in a fair,
+decision systems (ADS).                                  transparent, and
+Automated decision systems may have different            accountable manner
+meanings to different stakeholders. In the 2021-23       that does not
+biennial operating budget, the Washington state          improperly impact the
+Legislature provided one-time funding to the             public.
+Office of the Chief Information Officer (OCIO) to
+convene a workgroup and produce a report related to the adoption and use of
+automated decision systems in the state. Due to the nature of automated
+decision systems and the increasing adoption of emerging technology in
+government, it is important these types of systems are deployed in a fair,
+transparent, and accountable manner and do not improperly advantage or
+disadvantage Washington residents. This document is meant to be a resource
+for Washington agencies to use when developing or procuring ADS.
+This document provides a high-level overview of principles of ongoing
+monitoring of ADS but is not meant to act as guidance for the entire ADS
+lifecycle. This guide does not represent the legal opinion of any Washington
+state agency, including the Attorney General’s Office. Readers should not rely
+on information in this guide regarding specific applications of the laws without
+seeking legal counsel.
+
+Relevant legal and regulatory requirements
+All ADS implementation development or procurement guidance shall defer to
+and work in concert with procurement rules and laws in Washington including
+but not limited to Chapter 39.26 RCW and Washington Department of
+Enterprise Services procurement policies and rules.
+
+                                                                  watech.wa.gov
+                                                                              3
+
+Implementation considerations
+This document includes a series of recommendations that should be
+considered when evaluating the development or procurement of automated
+decision systems. The ADS Workgroup documented recommendations based
+on its discussions and review of a designated Washington ADS. These
+recommendations include activities that should take place throughout the
+lifecycle of use by an agency for the ADS. For purposes of this procurement
+guidance, the recommendations are organized into three different phases:
+    1. Requirements development.
+    2. Procurement and development.
+    3. Ongoing monitoring.
+
+The purpose of this document is to provide procurement guidance that aligns
+with the ADS Workgroup recommendations and the state’s guidelines for
+purposeful and responsible use of artificial intelligence. This guidance includes
+general descriptions on implementation, with example language when
+possible.
+
+In determining whether to proceed with the development or procurement of
+an ADS, agencies should exercise discretion and flexibility. In doing so,
+agencies should consider the risks and goals of using ADS, which are
+described in the Core Concepts section of the guidance. With these
+considerations in mind, agencies should consider the appropriateness of
+progressing with the development or procurement of ADS. As such, agencies
+should keep in mind that:
+
+•   ADS technologies – including production version releases – may change
+    capabilities over the course of time.
+
+•   Changes in ADS technology capabilities may change associated risks for
+    both the agency and Washington residents, which could change review or
+    approval requirements for development, procurement, or usage of
+    particular ADS.
+
+•   WaTech may adjust and update this ADS procurement and use guidance
+    based on updated government and industry research, experiences, or legal
+    requirements.
+
+•   Agencies should be ready to be descriptive in their assessments and are
+    encouraged to seek support and guidance from WaTech.
+
+                                                                  watech.wa.gov
+                                                                              4
+
+Core concepts
+Definition of ADS
+For purposes of this ADS Procurement and Use Guidance, the following
+definition of an automated decision system shall be used:
+    •   “Automated decision system” means any algorithm, including one
+        incorporating machine learning or other artificial intelligence
+        techniques, that uses data-based analysis or calculations to make or
+        support government decisions, judgements, or conclusions that cause a
+        Washington resident to be treated differently than another Washington
+        resident in the nature or amount of governmental interaction with that
+        individual including, without limitation, benefits, protections, required
+        payments, penalties, regulations, timing, application, or process
+        requirements. (Chapter 334, Laws of 2021, Sec.151(14).)
+
+Goals of using automated decision systems
+There are several goals of using automated decision systems, including:
+
+•   Efficiencies: ADS may assist governmental entities in streamlining
+    processes and making administrative decisions more quickly and efficiently.
+
+•   Cost savings: ADS may reduce costs by reducing the time necessary to
+    record data collected, conduct calculations, and make decisions.
+
+•   Reducing the biases and inaccuracies of current systems: While ADS may
+    introduce and reinforce bias, they also potentially provide an opportunity to
+    address them.
+
+•   Improving delivery of public services: ADS may help the public receive
+    improved and more accessible services.
+
+Risks
+Conversely, there are several risks of using automated decision systems:
+
+•   Discrimination: Automated decision systems may reproduce existing
+    patterns of discrimination that are already present in our society.
+
+                                                                   watech.wa.gov
+                                                                               5
+
+•   Inaccuracies: Automated decision systems may reproduce and could
+    exacerbate existing inaccuracies and biases and may be more inaccurate
+    than human decision-makers.
+
+•   Automation Bias: Humans tend to place too much trust in automated
+    decisions and their suggestions and ignore contradictory information made
+    without automation. Humans may overestimate the accuracy of decision
+    support and decision-making systems that may be as, or more, error-prone
+    than human decision-makers. Automation bias may obfuscate and
+    exacerbate biased and inaccurate decision-making.
+
+•   Non-transparency: It is difficult or impossible for individuals to know if an
+    automated decision system is being used, how that system operates, and
+    the impacts of the system on individuals and society.
+
+•   Lack of explainability: Some automated decision systems are very difficult
+    to explain in clear and concise language that would be understandable to
+    those auditing the system or those potentially impacted by their use. This
+    risk may be especially prevalent when an automated decision tool is
+    procured through a third-party vendor.
+
+•   Lack of accountability: Individuals who are affected by automated decision
+    systems may not have the ability to meaningfully challenge a system’s
+    decisions. Governmental entities that adopt automated decision systems
+    may not consult the individuals and communities that may be affected by
+    use of those systems and may not have a human-centered dispute
+    resolution process.
+
+•   Threats to privacy: Large amounts of data about individuals are often used
+    to train automated decision systems (both simple and complex) to
+    transform inputs into decisions or suggestions. Individuals may not
+    understand or have given consent for their data to be used for such a
+    purpose. Additionally, automated decision systems can be used as
+    surveillance tools.
+
+•   Threats to legitimacy and public trust: Use of automated decision systems
+    undermine the legitimacy and public trust of governmental entities when
+    such entities re-delegate their decision-making responsibilities to
+    unaccountable and nontransparent systems.
+
+                                                                     watech.wa.gov
+                                                                                 6
+
+Washington State Agency Privacy Principles
+The Washington State Agency Privacy Principles serve as a framework to guide
+state agencies in protecting the privacy and security of personal information
+they collect and maintain. These principles were developed to address the
+growing concerns surrounding data privacy and ensure that individuals'
+personal information is handled with care and transparency. Applying these
+principles helps agencies balance the risks and goals of systems processing
+personal information, including ADS. Along those lines, these principles
+promote accountability, transparency, and the responsible use of personal
+data by state agencies.
+   1. Lawful, fair, and responsible use: The collection, use and disclosure of
+      information is based on legal authority, not deceptive, not
+      discriminatory or harmful, and relevant and reasonably necessary for
+      legitimate purposes.
+
+   2. Data minimization: The minimum amount of information is collected,
+      used, or disclosed to accomplish the stated purpose for collecting the
+      information.
+
+   3. Purpose limitation: The reasons for gathering information are
+      identified before it is collected. Use and disclosure is limited to what is
+      reasonably necessary in relation to the specific reasons the information
+      was collected.
+
+   4. Transparency and accountability: Transparency means being open
+      and transparent about what personal information is collected, for what
+      purposes, and who it is shared with under what circumstances.
+      Accountability means being responsible and answerable for following
+      data privacy laws and principles.
+
+   5. Due diligence: Taking reasonable steps and exercising care before and
+      after entering into an agreement or arrangement with a third party that
+      includes sharing personal information.
+
+   6. Individual participation: Give people control of their information when
+      possible.
+
+   7. Security: Appropriate administrative, technical and physical security
+      practices to protect the confidentiality, integrity, availability and control
+      of personal information.
+
+                                                                     watech.wa.gov
+                                                                                 7
+
+The Washington State Agency Privacy Principles aim to establish a culture of
+privacy and data protection within state agencies, promoting trust and
+confidence among individuals whose personal information is collected. By
+adhering to these principles, state agencies can ensure the responsible
+handling of personal data while balancing the need for data-driven decision-
+making and public service delivery which may use ADS.
+
+ADS guiding principles
+Automated decision systems may use or rely on some form of artificial
+intelligence (AI). The intention of the state of Washington is to follow the
+principles in the National Institute of Standard and Technology (NIST) AI Risk
+Framework, which serve as the basis for the purposeful and responsible use of
+artificial intelligence. A foundational part of the NIST AI Risk Framework is to
+ensure the trustworthiness of systems that use AI, which includes automated
+decision systems. The guiding principles are:
+
+   •   Safe, secure, and resilient: ADS should be used with safety and
+       security in mind, minimizing potential harm and ensuring that systems
+       are reliable, resilient, and controllable by humans. ADS used by state
+       agencies should not endanger human life, health, property, or the
+       environment.
+
+   •   Valid and reliable: Agencies should ensure ADS use produces accurate
+       and valid outputs and demonstrates the reliability of system
+       performance.
+
+   •   Fairness, inclusion, and non-discrimination: ADS must be developed
+       and used to support and uplift communities, particularly those
+       historically marginalized. Fairness in ADS includes concerns for equality
+       and equity by addressing issues such as harmful bias and discrimination.
+
+   •   Privacy and data protection: ADS should be used to respect user
+       privacy, ensure data protection, and comply with relevant privacy
+       regulations and standards. Privacy values such as anonymity,
+       confidentiality, and control generally should guide choices for ADS
+       design, development, and deployment. Privacy-enhancing systems
+       should safeguard human autonomy and identity where appropriate.
+
+                                                                  watech.wa.gov
+                                                                              8
+
+   •   Accountability and responsibility: As public stewards, agencies
+       should use ADS responsibly and be held accountable for the
+       performance, impact, and consequences of its use in agency work.
+
+   •   Transparency and auditability: Acting transparently and creating a
+       record of ADS processes can build trust and foster collective learning.
+       Transparency reflects the extent to which information about an ADS
+       system and its outputs is available to the individuals interacting with the
+       system. Transparency answers “what happened” in the system.
+
+   •   Explainable and interpretable: Agencies should ensure ADS use in the
+       system can be explained, meaning “how” the decision was made by the
+       system can be understood. Interpretability of a system means an agency
+       can answer the “why” for a decision made by the system, and its
+       meaning or context to the user.
+
+   •   Public purpose and social benefit: The use of ADS should support the
+       state’s work in delivering better and more equitable services and
+       outcomes to its residents.
+
+ADS procurement guidance
+Phases
+   1. Requirements Development.
+   2. Procurement & Development.
+   3. Ongoing Monitoring.
+
+Requirements development
+The Requirements Development phase refers to the initial stage of the process
+where an assessment is conducted before the system's development or
+procurement. It involves evaluating the reasons for adopting the system and
+identifying the associated risks in its design and implementation. This phase
+focuses on considering factors such as the system's benefits in fulfilling the
+agency's mission and societal goals, identifying risks for potential inaccuracies,
+biases, or disproportionate effects, considering the system's needed security
+against data disclosure or manipulation, and assessing its potential impact on
+public trust. The phase also emphasizes the importance of providing
+opportunities for public participation, documenting the process and decisions
+transparently, and exercising caution in adopting new systems that lack testing
+
+                                                                    watech.wa.gov
+                                                                                9
+
+for bias or accuracy. This phase sets the foundation for informed decision-
+making and paves the way for subsequent development or procurement
+stages.
+
+Procurement & development
+The Procurement and Development phase refers to the stage in which the
+system is either built or acquired for implementation. During this phase, careful
+consideration is given to the system's design, functionality, and the
+procurement process involved. It entails translating the identified requirements
+and objectives into a tangible system, ensuring that it aligns with the intended
+purpose and adheres to applicable guidelines and regulations. This phase
+involves activities such as system development, vendor selection, contract
+negotiation, and the establishment of technical specifications and
+implementation plans. It also includes conducting thorough testing and
+validation to assess the system's performance, accuracy, and potential biases
+before its deployment. The Procurement phase is critical in ensuring that the
+automated decision system is properly designed, sourced, and prepared for
+subsequent operational phases.
+
+Ongoing monitoring
+The Ongoing Monitoring phase refers to the continual process of observing,
+evaluating, and assessing the system's performance, outcomes, and
+adherence to established standards. It involves the regular monitoring of
+system outputs, data inputs, and decision-making processes to identify any
+potential issues, biases, inaccuracies, or unintended consequences. This phase
+includes the collection and analysis of relevant data, such as audit trails, to
+evaluate the system's effectiveness, fairness, and reliability over time. Ongoing
+monitoring also involves comparing the system's outcomes against desired
+goals and benchmarks to ensure its alignment with organizational objectives
+and societal values. Additionally, it may encompass periodic assessments,
+independent audits, and stakeholder engagement to promote transparency,
+accountability, and ongoing improvement of the ADS. The monitoring phase
+aims to maintain the system's integrity, address emerging challenges, and
+facilitate necessary adjustments and enhancements to optimize its
+performance and mitigate potential risks. Ongoing monitoring and updated
+testing and assessments should be required when substantive system
+modifications or changes in the ADS use occur.
+
+                                                                  watech.wa.gov
+                                                                             10
+
+     ADS procurement activities
+     Ten activities should be completed during the procurement or deployment of
+     an automated decision system. As shown in the chart below, some of these
+     activities are tied to a specific phase, while others span two or three phases.
+     These tasks should be considered throughout the ADS lifecycle but are not
+     exhaustive or exclusionary of other considerations. The activities include:
+     1. Prioritization.
+     2. Evaluation of whether to adopt system.
+     3. Updated assessments.
+     4. Periodic testing.
+     5. Transparency of the algorithm.
+     6. Audit trails.
+     7. Training on automation basis.
+     8. Evaluation of risks/determination whether to proceed.
+     9. Review of decisions by those affected.
+     10. Weighing advantages against known bias or inaccuracies.
+
+     ADS Procurement Activities Table
+
+                 Phases              Requirements     Procurement &      Ongoing
+                                     development       development      monitoring
+
+1.         Prioritization.                 √                 √               √
+2.         Evaluation of whether
+           to adopt system.
+                                           √
+
+3.         Updated assessments.                                              √
+4.         Periodic testing.                                                 √
+5.         Transparency of the
+           algorithm.
+                                           √                 √               √
+
+6.         Audit trails.                   √                 √               √
+7.         Training on
+           automation basis.
+                                           √                 √               √
+
+                                                                       watech.wa.gov
+                                                                                  11
+
+8.          Evaluation of
+            risks/determination
+                                            √                 √              √
+            whether to proceed.
+
+9.          Review of decisions
+            by those affected.
+                                            √                 √              √
+
+10.         Weighing advantages
+            against known bias or
+                                                              √              √
+            inaccuracies.
+
+     Purpose of ADS activities
+     The purpose of the ten activities for ADS procurement or deployment is to
+     mitigate the risk and help achieve the goals of using automated decision
+     systems. This generally includes practices such as:
+     •   An evaluation of whether it is appropriate for governmental entities to use
+         the automated decision system. Depending on system impacts, this
+         evaluation should incorporate public participation and comment.
+     •   Independent testing for bias and inaccuracy.
+     •   Transparency so that the public knows that an ADS is being used and
+         understands information about the system and its use.
+     •   Accountability so that the public may meaningfully engage and allow
+         individuals to seek redress when impacted by an ADS.
+
+                                                                       watech.wa.gov
+                                                                                  12
+
+Description of Activities
+This section provides a description of the automated decision systems
+procurement activities identified above and the phase of the ADS procurement
+lifecycle each activity should be performed.
+
+•   Prioritization: Government organizations need to establish a framework
+    (See example framework in Appendix B) that guides the allocation of
+    resources to address both procurement and deployment of ADS. This
+    prioritization framework considers various criteria to determine resource
+    allocation. These criteria may include factors such as the significant impact
+    on identified or identifiable individuals, the scale of influence on many
+    individuals, the potential for high error risks (especially for systems lacking
+    transparency, bias testing, or accuracy assessment), the agency's discretion
+    in creating the algorithm, and the level of automation with opportunities for
+    human review. It is important for agencies to refrain from using the
+    prioritization framework as a justification for neglecting the examination of a
+    priority system. Moreover, when the ADS significantly affects individuals,
+    the governmental entity should make its prioritization framework of the
+    ADS available to the public.
+
+    Phase(s):
+       • Requirements development.
+       • Procurement & development.
+       • Ongoing monitoring.
+
+•   Evaluation of whether to adopt system: Before acquiring, creating, or
+    employing an ADS, the government organization must conduct an
+    evaluation of the rationale behind adopting such systems and the
+    associated risks related to their design and implementation. This
+    assessment should leverage and optimize the existing procurement
+    process to ensure the most effective use of resources. The evaluation
+    should consider the following:
+
+       •   Assessing how the system contributes to the agency's mission and
+           societal objectives.
+       •   Conducting tests to identify any potential inaccuracies, biases, or
+           disproportionate effects arising from the system or the data sources
+           used in its design. If such issues are recognized, identify appropriate
+           measures that should be taken to address them.
+       •   Ensuring the system's resilience against unauthorized data disclosure
+           or malicious manipulation.
+
+                                                                    watech.wa.gov
+                                                                               13
+
+       •   Determining whether the use of an ADS for decisions may adversely
+           impact the public's trust in the actions of the Washington state
+           government.
+       •   Providing opportunities for public participation, including informing
+           the public about the risks and benefits associated with the system
+           and soliciting meaningful input from affected individuals and
+           communities regarding its adoption and design.
+       •   Documenting the process and decisions in a manner that enables
+           future review while maintaining transparency for the public.
+       •   Exercising extreme caution when considering the adoption of any
+           new system that will impact individuals’ rights and freedoms that has
+           not undergone bias or accuracy testing, and ensuring that the testing
+           process includes appropriate disclosures to facilitate independent
+           review by members of the public or independent entities.
+
+    By thoroughly evaluating these factors, the governmental entity can make
+    informed decisions regarding the acquisition, development, and usage of
+    ADS, prioritizing transparency, accountability, and public trust.
+    Phase:
+       • Requirements development.
+
+•   Updated assessments: The evaluation of the ADS employed in
+    procurement or development should be periodically reviewed and re-
+    evaluated whenever there are subsequent modifications made to the ADS
+    itself or to the data collection process (including new training data) that
+    informs the algorithm. These updates and reassessments must be
+    conducted in a transparent manner, ensuring that the public is kept
+    informed of any changes.
+
+    Phase:
+       • Ongoing Monitoring
+
+•   Periodic testing: It is important to establish a process, ideally through a
+    third-party audit, to regularly test the performance of the automated
+    decision system while it is in use. This periodic testing aims to identify any
+    indications of inaccuracies, biases, or unequal outcomes that may arise
+    from the system. If such tendencies are detected, they should be promptly
+    addressed, or if there are reasons for not addressing them, those reasons
+    must be clearly explained in detail. The entire process and the subsequent
+    testing results should be transparent and made available to the public. The
+    establishment of a regular testing process, testing, and transparency of
+
+                                                                    watech.wa.gov
+                                                                               14
+
+    results ensures the fairness and accountability of the system's
+    implementation by the government.
+
+    Phase:
+       • Ongoing Monitoring
+
+•   Transparency of the algorithm: Unless there are strong justifications
+    indicating otherwise, it is recommended that the algorithms and source
+    code of the ADS should be made available for public scrutiny. This allows
+    the actual algorithm to be accessible and reviewed by the public. However,
+    certain compelling reasons may exist to restrict the release, such as cases
+    where there is a clear and demonstrable threat to governmental integrity or
+    a significant risk that individuals may exploit the system, leading to a
+    factual-based threat to governmental integrity or a significant cybersecurity
+    risk. In situations where commercial or government interests justify the
+    restriction of algorithm or source code disclosure, thorough third-party
+    evaluations should be conducted to assess the potential risks of inaccuracy
+    or bias. It's important to note that while reviewing the algorithm and source
+    code is important, it cannot serve as a substitute for comprehensive testing
+    to identify any inaccuracies or biases in the design and implementation of
+    the ADS.
+
+    Phase(s):
+       • Requirements development.
+       • Procurement & development.
+       • Ongoing monitoring.
+
+•   Audit trails: The ADS should produce audit trails that document the facts
+    and rules used in its decision-making process. This enables the
+    governmental entity to furnish individuals with the rationale behind the
+    ADS's determinations and simplifies potential future scrutiny of those
+    decisions. The recorded information should also be accessible to third-
+    party researchers, granting them the opportunity to conduct impartial
+    assessments of the system's accuracy and potential biases.
+
+    Phase(s):
+       • Requirements development.
+       • Procurement & development.
+       • Ongoing monitoring requirements development.
+
+•   Training on automation bias: Individuals engaged in the procurement,
+    development, or operation of ADS should undergo training that explicitly
+
+                                                                      watech.wa.gov
+                                                                                 15
+
+    addresses the concept of automation bias. Automation bias is an over-
+    reliance on automated aids and decision support systems. As the
+    availability of automated decision aids increases, it is a human tendency to
+    rely on system outputs without question. Training on automation bias
+    makes the workforce aware of these tendencies to mitigate against harmful
+    or biased system outputs.
+
+    Phase(s):
+       • Requirements development.
+       • Procurement & development.
+       • Ongoing monitoring.
+
+•   Evaluation of risks/determination whether to proceed: Before
+    deploying the ADS, and whenever there is a discovery of potential
+    inaccuracies or biases, the governmental entity must assess whether the
+    risks and impacts of such inaccuracies or biases on individuals and the
+    potential erosion of public trust are significant enough to warrant not using
+    the system. In making this determination, input from the individuals who
+    will be impacted by the system should be considered along with other risks
+    or harmful impacts that could emerge. The final decision should be clearly
+    outlined in written form, transparent, and made available to the public.
+
+    Phase(s):
+       • Requirements development.
+       • Procurement & development.
+       • Ongoing monitoring.
+
+•   Review of decisions by those affected: Individuals impacted by a
+    decision made or facilitated by an automated decision system should have
+    the ability to examine and question the underlying foundation of that
+    decision, especially in cases where the impacts to rights or responsibilities
+    of individuals are significant. Part of the requirements development phase
+    and development and procurement phase should include an evaluation of
+    whether the ADS will be making decisions that impact the rights and
+    freedoms of individuals. If so, the ability to perform decision review should
+    be part of those procurement phases as well as the ongoing monitoring
+    phase for actual review.
+
+    Phase(s):
+       • Requirements development.
+       • Procurement & development.
+
+                                                                   watech.wa.gov
+                                                                              16
+
+       •   Ongoing monitoring.
+
+•   Weighing advantages against known bias or inaccuracies: While
+    acknowledging the significance of the benefits generated by automated
+    decision systems, it is essential to prioritize the prevention of harm to
+    individuals caused by known or potential biases or inaccuracies. When
+    weighing the advantages of benefits against the potential harm to natural
+    persons, the avoidance of harm should be assigned considerably greater
+    importance.
+
+    Phase(s):
+          • Development & procurement.
+          • Ongoing monitoring.
+
+    Government organizations should assess the extent to which the acquisition
+    and deployment of their ADS adheres to the ADS Guiding Principles and
+    Washington State Privacy Principles. If it is discovered that the procurement
+    or implementation of a system fails to align with these principles, the
+    governmental entity should identify the reasons for such non-alignment and
+    take suitable actions based on prioritization principles.
+
+                                                                  watech.wa.gov
+                                                                             17
+
+Actions or controls to take for activities
+Each table below correlates to an activity described above. For each activity
+there are actions or controls that agencies can take to mitigate risks and align
+to the Washington State Agency Privacy Principles and ADS Guiding Principles
+for purposeful and responsible use of automated decision systems. There may
+be additional risks and principles addressed by controls agencies choose to
+undertake with activities, but the tables help identify predominant risks and
+principles.
+As ADS are used, state agency staff should continue to work with WaTech
+technology and privacy staff regarding implicated risk for the state and its
+residents. Agency staff should complete and update its ADS inventory to
+maintain a comprehensive record of ADS used throughout the state. To
+complete a record of ADS refer to Appendix A for questions to identify and
+assess the ADS and its use to the agency in performing work for Washington.
+
+                                                1. PRIORITIZATION
+
+ Action or Control                    Notes                       Risk Addressed        Principles
+
+ Consider the cost-benefit analysis                               Lack of               Due diligence.
+ of procuring or developing an                                    accountability.       Accountability &
+ ADS system.                                                                            responsibility.
+ Consider operational benefits of                                 Lack of               Due diligence.
+ procuring or developing an ADS                                   accountability.       Accountability &
+ system.                                                                                responsibility.
+ Use Prioritization Matrix.                                       Non-transparency.     Purpose limitation.
+                                                                  Lack of               Accountability &
+                                                                  accountability.       responsibility.
+
+                                2. EVALUATION OF WHETHER TO ADOPT SYSTEM
+
+ Action or Control        Notes                              Risk Addressed     Principles
+
+ Consider whether         Has the agency defined a clear     Non-               Lawful, fair and responsible Use
+ ADS is able address      purpose in using the identified    transparency.      Purpose limitation.
+ the identified           ADS system?                        Lack of            Transparency & accountability.
+ problem or issue.                                           accountability.    Public purpose & social benefit.
+                                                             Threats to         Safe, secure, resilient.
+                                                             legitimacy and     Fairness, inclusion, and non-
+                                                             public trust.      discrimination.
+
+ Consider whether         Has agency leadership defined      Non-               Lawful, fair and responsible use.
+ there is agency          clear goals and success criteria   transparency.      Purpose limitation.
+ leadership support       for adoption of the ADS system?    Lack of            Transparency & accountability.
+ for utilization of the                                      accountability.    Public purpose & social benefit.
+ ADS system.                                                 Threats to         Safe, secure, resilient.
+                                                             legitimacy and     Fairness, inclusion, and non-
+                                                             public trust.      discrimination.
+
+                                                                                              watech.wa.gov
+                                                                                                         18
+
+                        Have responsibilities of              Non-              Lawful, fair and responsible use.
+                        stakeholders involved in              transparency.     Purpose limitation.
+                        adoption of ADS systems been          Lack of           Transparency & accountability.
+                        delineated and communicated to        accountability.   Public purpose & social benefit.
+                        those stakeholders:                   Threats to
+                        - Business staff.                     legitimacy and
+                        - Technical staff.                    public trust.
+                        - Executive/strategic level staff.
+
+                        Differentiate between technical       Discrimination.   Lawful, fair and responsible use.
+                        and data protection risks.            Inaccuracies.     Purpose limitation.
+                                                              Lack of           Transparency & accountability.
+                                                              accountability.   Fairness, inclusion, and non-
+                                                              Threats to        discrimination.
+                                                              privacy.          Privacy and data protection.
+                                                                                Transparency & auditability.
+
+Consider level of       Human worker                          Human-based       Transparency & accountability.
+agency human            involvement/interaction:              errors.           Valid and reliable.
+worker involvement      - Human worker-in-the-loop            Discrimination.   Safe, secure, resilient.
+in ADS system           (human decision-making                Inaccuracies.     Fairness, inclusion, and non-
+decision-making.        supports the process).                Non-              discrimination.
+                        - Human worker-out-of-the-loop        transparency.
+                        (human decision-making is not         Lack of
+                        part of the algorithm).               explainability.
+                        - Human worker-over-the-loop
+                        (human intervention may occur in
+                        the decision-making process).
+                        Factors to consider:                  Human-based       Transparency & accountability.
+                        - Risk tolerance – what is the risk   errors.           Explainability & interpretable.
+                        tolerance of the agency for           Discrimination.   Accountability & responsibility.
+                        human worker                          Inaccuracies.
+                        involvement/interaction with ADS      Non-
+                        system decision-making.               transparency.
+                        - Constituent user-experience – is    Lack of
+                        the constituent’s user-experience     explainability.
+                        enhanced or reduced by the
+                        involvement/interaction by a
+                        human worker in the ADS system
+                        user flow.
+                        - Operational cost – what is the
+                        cost-benefit of a human worker
+                        involving/interacting with an ADS
+                        system.
+
+                                          3. UPDATED ASSESSMENTS
+
+Action or Control                   Notes                          Risk Addressed       Principles
+
+Assess or re-evaluate ADS if                                       Non-transparency.    Lawful, fair and
+significant modifications made to                                  Lack of              responsible use.
+system.                                                            accountability.      Purpose limitation.
+                                                                   Threats to           Transparency &
+                                                                   legitimacy and       accountability.
+                                                                   public trust.        Transparency &
+                                                                                        auditability.
+                                                                                        Accountable &
+                                                                                        responsible.
+
+Assess or re-evaluate ADS if                                       Non-transparency.    Lawful, fair and
+subsequent changes are made to                                     Lack of              responsible use.
+data collection process.                                           accountability.      Purpose limitation.
+
+                                                                                              watech.wa.gov
+                                                                                                         19
+
+                                                                   Threats to             Transparency &
+                                                                   legitimacy and         accountability.
+                                                                   public trust.          Privacy and data
+                                                                                          protection.
+                                                                                          Accountable &
+                                                                                          responsible.
+Assess or re-evaluate ADS if                                       Non-transparency.      Lawful, fair and
+significant changes are made to                                    Lack of                responsible use.
+training data that informs                                         accountability.        Purpose limitation.
+algorithm.                                                         Threats to             Transparency &
+                                                                   legitimacy and         accountability.
+                                                                   public trust.          Valid and reliable.
+                                                                                          Accountability and
+                                                                                          responsibility.
+
+                                               4.   PERIODIC TESTING
+
+Action or Control                   Notes                          Risk Addressed         Principles
+
+Develop evaluation and testing                                     Lack of                Lawful, fair and
+plan for ADS.                                                      accountability.        responsible use.
+                                                                   Non-transparency.      Accountability and
+                                                                   Threats to             responsibility.
+                                                                   legitimacy and
+                                                                   public trust.
+Create process for periodic                                        Automation bias.       Lawful, fair, and
+testing.                                                           Inaccuracies.          responsible use.
+                                                                   Discrimination.        Privacy and data
+                                                                                          protection.
+                                                                                          Valid and reliable.
+Implement plan and use              Most likely to use             Automation bias.       Due diligence.
+independent third-party to          independent third parties      Inaccuracies.          Valid and reliable.
+evaluate risk.                      for high-risk ADS.             Discrimination.        Privacy and data
+                                                                                          protection.
+
+Publish results.                                                   Non-transparency.      Transparency &
+                                                                   Threats to             accountability.
+                                                                   legitimacy and         Transparency &
+                                                                   public trust.          auditability.
+                                                                                          Accountability and
+                                                                                          responsibility.
+
+                                           5. TRANSPARENCY OF ALGORITHM
+
+Action or Control                 Notes                          Risk Addressed        Principles
+
+Consider whether the ADS has      If the agency needs to         Discrimination.       Data minimization.
+a data model developed or if      develop a data model for       Inaccuracies.         Purpose limitation.
+the agency needs to develop a     evaluation, development        Automation bias.      Transparency &
+data model.                       and/or procurement of the      Non-                  accountability.
+                                  ADS system, utilize the        transparency.         Transparency & auditability.
+                                  agency designated data         Lack of               Valid and reliable.
+                                  scientist and/or liaise with   explainability.       Explainable & interpretable.
+                                  the WaTech OPDP office
+                                  for guidance.
+
+                                                                                                watech.wa.gov
+                                                                                                           20
+
+                                If the data model exists,       Threat to privacy.   Data minimization.
+                                does it conform to the                               Purpose limitation.
+                                Washington State Agency                              Transparency &
+                                Privacy Principles and the                           accountability.
+                                Washington Privacy                                   Privacy and data protection.
+                                Framework?
+
+                                If constituent data is used     Discrimination.      Data minimization.
+                                to develop data model, did      Inaccuracies.        Purpose limitation.
+                                the agency review the           Automation bias.     Transparency &
+                                responses to minimize           Non-                 accountability.
+                                false, misleading or            transparency.        Privacy and data protection.
+                                inaccurate responses?           Lack of              Safe, secure, and resilient.
+                                                                explainability.
+
+Consider relevant features or   Have features or                Threats to           Lawful, fair and responsible
+functionalities that have       functionalities that will       legitimacy and       use.
+greatest impact on the agency   improve trust with the          public trust.        Data minimization.
+constituents affected by the    agency been identified?                              Purpose limitation.
+ADS system.                                                                          Accountability &
+                                                                                     responsibility.
+
+                                Have features or                Threats to           Lawful, fair and responsible
+                                functionalities that will       legitimacy and       use.
+                                reduce trust/harm               public trust.        Data minimization.
+                                reputation of the agency                             Purpose limitation.
+                                been identified?                                     Fairness, inclusion, and non-
+                                                                                     discrimination.
+
+Has the algorithm of the ADS                                    Inaccuracies.        Transparency &
+been assessed as valid by an                                    Non-                 accountability.
+independent third-party?                                        transparency.        Valid and reliable.
+                                                                Lack of              Transparency & auditability.
+                                                                explainability.
+                                                                Lack of
+                                                                accountability.
+Can the agency describe in      Can reports be generated        Non-                 Transparency &
+“plain English” how the         by provide detail on the        transparency.        accountability.
+production version of the ADS   explainability of ADS           Lack of              Individual participation.
+system makes decisions?         features and functionalities.   explainability.      Explainable & interpretable.
+                                                                Lack of
+                                                                accountability.
+
+                                Consider formally               Non-                 Transparency &
+                                documenting and                 transparency.        accountability.
+                                publishing an FAQ about         Lack of              Individual participation.
+                                the ADS system, including       explainability.      Explainable & interpretable.
+                                operational details of the      Lack of
+                                decision-making model.          accountability.
+                                                                Threats to
+                                                                legitimacy and
+                                                                public trust.
+
+                                                                                              watech.wa.gov
+                                                                                                         21
+
+                                   Document potential             Discrimination.       Transparency &
+                                   limitations and gaps of the    Inaccuracies.         accountability.
+                                   ADS decision-making            Automation bias.      Accountable and
+                                   model                          Non-                  responsible.
+                                                                  transparency.         Transparency & auditability.
+                                                                  Lack of
+                                                                  explainability.
+
+If certain features or functions   Hold forums for constituent    Lack of               Transparency &
+of the decision-making model       feedback.                      accountability.       Accountability.
+cannot be explained in “plain                                     Threats to            Individual participation.
+English,” consider conducting                                     legitimacy and        Transparency & auditability.
+additional tests in pre-                                          public trust.         Fairness, inclusion, and non-
+production environments and                                                             discrimination.
+additional user-acceptance
+tests with constituents.           Work with technical staff to   Human-based           Transparency &
+                                   define different models of     errors.               accountability.
+                                   production                     Discrimination.       Fairness, inclusion, and non-
+                                   implementation for testing     Inaccuracies.         discrimination.
+                                   against various constituent    Automation bias.      Valid and reliable.
+                                   subpopulations against         Lack of
+                                   defined success criteria.      explainability.
+
+Consider updating agency           Link to a developed FAQ.       Non-                  Transparency &
+privacy policy with information                                   transparency.         Accountability.
+regarding use of ADS systems,                                     Lack of               Individual participation.
+including information collected                                   accountability.       Transparency & auditability.
+and processed, and how                                            Threats to privacy.   Explainable and
+decisions are made.                                                                     interpretable.
+
+                                   Consider providing a just-     Non-                  Transparency &
+                                   in-time notice for             transparency.         accountability.
+                                   constituents regarding the     Lack of               Individual participation.
+                                   utilization of ADS.            accountability.       Accountable and
+                                                                  Threats to privacy.   responsible.
+
+Consider updating data             Refer to DSA                   Non-                  Transparency &
+sharing agreements (DSAs) if       implementation guidance.       transparency.         accountability.
+ADS systems are used in the                                       Lack of               Due diligence.
+business-to-business                                              accountability.       Privacy and data protection.
+relationship.                                                     Threats to privacy.
+                                                                  Threats to
+                                                                  legitimacy and
+                                                                  public trust.
+
+                                                                                                  watech.wa.gov
+                                                                                                             22
+
+                                                  6. AUDIT TRAILS
+
+Action or Control                    Notes                             Risk              Principles
+                                                                       Addressed
+Consider establishing a              Consider documenting              Non-              Due diligence.
+knowledge management                 factors in making decision to     transparency.     Transparency &
+repository/database to               develop/procure ADS system.       Lack of           auditability.
+record/archive relevant                                                accountability.
+documents regarding                                                    Threats to
+developing or procuring ADS                                            legitimacy and
+systems.                                                               public trust.
+Formally document change             Consider setting cadence of       Inaccuracies.     Transparency &
+management program for ADS           change management                 Non-              accountability.
+systems.                             meetings for ADS systems.         transparency.     Security.
+                                                                       Lack of           Safe, secure, and resilient.
+                                                                       explainability.   Accountability and
+                                                                       Lack of           responsibility.
+                                                                       accountability.
+                                     Include assessment of             Inaccuracies.     Transparency &
+                                     implicated privacy risk per       Non-              accountability.
+                                     changes in change                 transparency.     Security.
+                                     management program.               Lack of           Accountability and
+                                     Coordinate with WaTech.           explainability.   responsibility.
+                                                                       Lack of           Privacy and data
+                                                                       accountability.   protection.
+Establish tracking and                                                 Discrimination.   Lawful, fair and
+monitoring of role-based                                               Automation.       responsible use.
+privacy-relevant training on                                           Bias.             Transparency &
+automation bias and additional                                         Lack of           accountability.
+relevant data protection                                               explainability.   Fairness, inclusion, and
+implications of using ADS.                                             Threats to        non-discrimination.
+                                                                       privacy.          Accountability and
+                                                                       Threats to        responsibility.
+                                                                       legitimacy and
+                                                                       public trust.
+If the ADS system fails or flags a   Consider implications to          Inaccuracies.     Lawful, fair and
+failure or discrepancy in the        business continuity plan.         Automation.       responsible use.
+decision/projected answer, is                                          Bias.             Transparency &
+there a pre-determined                                                 Lack of           accountability.
+threshold? Consider how staff                                          explainability.   Security.
+workers will be notified of this                                                         Valid and reliable.
+prior to a decision being made
+by the ADS.
+
+Consider developing formalized       Utilize feedback from             Lack of           Individual participation.
+feedback loop with affected          constituents early in the         accountability.   Public purpose and social
+constituents.                        development & procurement         Threats to        benefit.
+                                     cycle to support identification   legitimacy and    Fairness, inclusion, and
+                                     of success criteria.              public trust.     non-discrimination.
+                                                                                         Accountability and
+                                                                                         responsibility.
+                                     Review risk                       Lack of           Individual participation.
+                                     reduction/acceptance of           accountability.   Accountability and
+                                     feedback throughout               Threats to        responsibility.
+                                     development & procurement         legitimacy and
+                                     cycle.                            public trust.
+                                     Document closed feedback          Lack of           Individual participation.
+                                     loop; document report for         accountability.   Fairness, inclusion, and
+                                     publication.                      Threats to        non-discrimination.
+                                                                       legitimacy and    Accountability and
+                                                                       public trust.     responsibility.
+
+                                                                                                 watech.wa.gov
+                                                                                                            23
+
+                                             7.TRAINING ON AUTOMATION BIAS
+
+Action or Control                    Notes                             Risk Addressed       Principles
+
+Consider whether agency staff                                          Discrimination.      Lawful, fair and
+involved in the development                                            Inaccuracies.        responsible use.
+and/or procurement of ADS                                              Automation bias.     Purpose limitation.
+systems have been trained on                                           Lack of              Transparency &
+automation bias.                                                       accountability.      accountability.
+                                                                                            Fairness, inclusion, and
+                                                                                            non-discrimination.
+                                                                                            Accountability and
+                                                                                            responsibility.
+
+Consider whether agency staff                                          Lack of              Lawful, fair and
+involved in the development                                            accountability.      responsible use.
+and/or procurement of ADS                                              Threats to           Purpose limitation.
+systems have been training on                                          privacy.             Transparency &
+Washington State Agency                                                                     accountability.
+Privacy Principles and the                                                                  Privacy and data
+Washington Privacy Framework.                                                               protection.
+
+Consider designating a               Alternatively, consider           Human-based          Lawful, fair and
+specialized role with specific       formalizing liaison               errors.              responsible use.
+responsibilities regarding           relationship with WaTech          Inaccuracies.        Purpose limitation.
+ethical and data protection          OPDP for such guidance.           Lack of              Transparency &
+issues of utilizing ADS systems                                        explainability.      accountability.
+within agency.                                                                              Fairness, inclusion, and
+                                                                                            non-discrimination.
+                                                                                            Accountability and
+                                                                                            responsibility.
+
+                       8.   EVALUATION OF RISKS/DETERMINATION WHETHER TO PROCEED
+
+Action or Control                 Notes                                 Risk Addressed         Principles
+
+Consider whether agency           Is there a sand-box, development,     Inaccuracies.          Lawful, fair and
+has ability to test and deploy    testing or QA environment that        Non-transparency.      responsible use.
+ADS systems before                can be used to test                   Lack of                Transparency &
+production implementation.        implementation/integration of         explainability.        accountability.
+                                  ADS system prior to production.                              Safe, secure, and
+                                                                                               resilient.
+                                                                                               Valid and reliable.
+                                  Is there an agreed-upon               Inaccuracies.          Lawful, fair and
+                                  requirements and/or punch list        Non-transparency.      responsible use.
+                                  that the ADS system should satisfy    Lack of                Transparency &
+                                  before moving to production?          explainability.        accountability.
+                                                                                               Safe, secure, and
+                                                                                               resilient.
+                                                                                               Valid and reliable.
+
+                                                                                                   watech.wa.gov
+                                                                                                              24
+
+Consider conducting risk         Consider the following types of      Human-based           Lawful, fair and
+assessment.                      assessments:                         errors.               responsible use.
+                                 - Prioritization matrix (See         Discrimination.       Transparency &
+                                 Appendix B).                         Automation bias.      accountability.
+                                 - PTA.                               Non-transparency.     Safe, secure, and
+                                 - PIA.                               Lack of               resilient.
+                                 - Impact assessment.                 explainability.       Valid and reliable.
+                                 - Washington Privacy Framework       Lack of               Privacy and data
+                                 profile.                             accountability.       protection.
+                                                                      Threats to privacy.   Accountability and
+                                                                                            responsibility.
+Consider identification of       Consider risks to rights and         Discrimination.       Lawful, fair and
+risks to constituents if the     freedoms to constituents.            Lack of               responsible use.
+ADS is implemented.                                                   explainability.       Fairness, inclusion, and
+                                                                      Threats to privacy.   non-discrimination.
+                                                                                            Explainable and
+                                                                                            interpretable.
+                                                                                            Public purpose and
+                                                                                            social benefit.
+
+Can identified risks be          Determine a review period for        Lack of               Lawful, fair and
+accepted, reduced,               reassessment.                        accountability.       responsible use.
+mitigated or remediated by                                                                  Transparency &
+the agency in accordance                                                                    accountability.
+with defined success criteria?                                                              Safe, secure, and
+                                                                                            resilient.
+                                 Determine key performance            Lack of               Lawful, fair and
+                                 indicators or a cadence of review    accountability.       responsible use.
+                                 of success criteria for                                    Transparency &
+                                 implementation of ADS systems in                           accountability.
+                                 production.                                                Safe, secure, and
+                                                                                            resilient.
+                                                                                            Valid and reliable.
+                                 Determine tracking and               Lack of               Lawful, fair and
+                                 monitoring mechanisms for            accountability.       responsible use.
+                                 managing risks and success                                 Transparency &
+                                 criteria.                                                  accountability.
+                                                                                            Safe, secure, and
+                                                                                            resilient.
+
+                                 Consider updating Incident           Lack of               Lawful, fair and
+                                 Response Plan, Business              explainability.       responsible use.
+                                 Continuity Plan and Disaster         Lack of               Transparency &
+                                 Recovery Plan given certain safety   accountability.       accountability.
+                                 and operational features of                                Security.
+                                 particular ADS systems.                                    Safe, secure, and
+                                 Consider whether back-up                                   resilient.
+                                 systems or datasets need to be                             Valid and reliable.
+                                 generated/configured if the ADS
+                                 system fails or causes intolerable
+                                 risk.
+                                 Are necessary agency staff able to
+                                 revert all control to human worker
+                                 decision-making as needed?
+
+                                                                                               watech.wa.gov
+                                                                                                          25
+
+Can the integrity of decisions   Does the ADS system flag or          Human-based           Lawful, fair and
+made by ADS systems be           notify state agency workers of       errors.               responsible use.
+reviewed by state agency         uncertainty in the                   Discrimination.       Purpose limitation.
+workers?                         answer/projected response to a       Inaccuracies.         Transparency &
+                                 series of data or information?       Automation bias.      accountability.
+                                                                      Non-transparency.     Explainable and
+                                                                      Lack of               interpretable.
+                                                                      explainability.       Transparency &
+                                                                                            auditability.
+
+                                 Does the ADS system permit the       Human-based           Lawful, fair and
+                                 state agency worker to override      errors.               responsible use.
+                                 the ADS answer/projected             Discrimination.       Purpose limitation.
+                                 response?                            Inaccuracies.         Transparency &
+                                                                      Automation bias.      accountability.
+                                                                      Non-transparency.     Safe, secure, and
+                                                                      Lack of               resilient.
+                                                                      explainability.       Accountability and
+                                                                                            responsibility.
+
+Consider whether the testing     If unsure, consider piloting a       Human-based           Lawful, fair and
+environment accurately           proof-of-concept release of the      errors.               responsible use.
+reflects the real-life           ADS with production datasets to      Discrimination.       Purpose limitation.
+production environment,          evaluate decisions-made by ADS       Inaccuracies.         Transparency &
+including the constituent        system for validity and success.     Automation bias.      accountability.
+datasets.                                                             Non-transparency.     Valid and reliable.
+                                                                      Lack of
+                                                                      explainability.
+
+Are constituents able to opt-    What alternatives are available to   Discrimination.       Lawful, fair and
+out of participation in the      constituents if they opt-out?        Inaccuracies.         responsible use.
+ADS system and still obtain                                           Non-transparency.     Purpose limitation.
+benefits/services                                                     Lack of               Transparency &
+offered/administered by the                                           accountability.       accountability.
+agency?                                                               Threats to privacy.   Privacy and data
+                                                                      Threats to            protection.
+                                                                      legitimacy and        Fairness, inclusion, and
+                                                                      public trust.         non-discrimination.
+
+                                 Consider notification of opt-out     Threats to privacy.   Lawful, fair and
+                                 implications.                        Threats to            responsible use.
+                                                                      legitimacy and        Purpose limitation.
+                                                                      public trust.         Transparency &
+                                                                                            accountability.
+                                                                                            Privacy and data
+                                                                                            protection.
+                                                                                            Fairness, inclusion, and
+                                                                                            non-discrimination.
+
+                                                                                               watech.wa.gov
+                                                                                                          26
+
+                                     9.   REVIEW OF DECISIONS BY THOSE AFFECTED
+
+Action or Control                         Notes                            Risk              Principles
+                                                                           Addressed
+Has the agency identified the                                              Discrimination.   Lawful, fair and responsible
+constituent populations that will                                          Lack of           use.
+be involved with and/or impacted                                           accountability.   Privacy and data
+by the deployment of the ADS                                               Threats to        protection.
+system?                                                                    privacy.          Fairness, inclusion, and
+                                                                           Threats to        Non-discrimination.
+                                                                           legitimacy and    Public purpose and social
+                                                                           public trust.     benefit.
+
+Consider assessing risk of those                                           Discrimination.   Individual participation.
+affected at constituent-level by                                           Lack of           Fairness, inclusion, and
+conducting user-testing.                                                   accountability.   non-discrimination.
+                                                                           Threats to        Public purpose and social
+                                                                           privacy.          benefit.
+                                                                           Threats to
+                                                                           legitimacy and
+                                                                           public trust.
+
+Consider implications of known                                             Human-based       Lawful, fair and responsible
+vulnerabilities of target                                                  errors.           use.
+populations.                                                               Discrimination.   Fairness, inclusion, and
+                                                                           Inaccuracies.     Non-discrimination.
+                                                                           Threats to        Public purpose and social
+                                                                           privacy.          benefit.
+                                                                           Threats to
+                                                                           legitimacy and
+                                                                           public trust.
+
+Consider formally documenting             Include different                Non-              Lawful, fair and responsible
+and publishing an FAQ about the           components of the FAQ:           transparency.     use.
+ADS system, including operational         - Dataset information.           Lack of           Transparency &
+details of the decision-making            - Data model.                    accountability.   accountability.
+model.                                    - Human involvement in the       Threats to        Individual participation.
+                                          ADS system.                      legitimacy and    Transparency and
+                                           - Inferences and projections    public trust.     auditability.
+                                          of the ADS system.
+                                          - Impact of decisions-made
+                                          by the ADS system.
+                                          - Ability to appeal decisions-
+                                          made by the ADS system.
+Consider publishing outcomes of                                            Non-              Transparency &
+evaluation to develop/procure                                              transparency.     accountability.
+ADS system.                                                                Lack of           Individual participation.
+                                                                           accountability.   Accountability and
+                                                                           Threats to        responsibility.
+                                                                           legitimacy and    Transparency and
+                                                                           public trust.     auditability.
+
+Consider whether the agency               Liaise with WaTech Office of     Non-              Transparency &
+should have a policy about                Privacy and Data Protection.     transparency.     accountability.
+publishing a report on agency                                              Lack of           Individual participation.
+development & procurement                                                  accountability.   Accountability and
+and/or utilization of ADS systems.                                         Threats to        responsibility.
+                                                                           legitimacy and
+                                                                           public trust.
+
+                                                                                                     watech.wa.gov
+                                                                                                                27
+
+Did the agency address usability      Consider developing           Discrimination.   Data minimization.
+problems and test whether user        formalized feedback loop      Lack of           Purpose limitation.
+interfaces served intended            with affected constituents.   accountability.   Transparency &
+purposes?                                                           Threats to        accountability.
+                                                                    privacy.          Individual participation.
+                                                                    Threats to        Public purpose and social
+                                                                    legitimacy and    benefit.
+                                                                    public trust.     Valid and reliable.
+
+Consider formal feedback channel      Designate appropriate         Non-              Transparency &
+on impact or for questions            workforce personnel to        transparency.     Accountability.
+regarding ADS systems from both       manage the feedback           Lack of           Individual participation.
+internal and external stakeholders.   channel.                      accountability.   Public purpose and social
+                                                                    Threats to        benefit.
+                                                                    legitimacy and    Fairness, inclusion, and
+                                                                    public trust.     nNon-discrimination.
+
+                                      Formalize how feedback will   Non-              Transparency &
+                                      be ingested and considered    transparency.     Accountability.
+                                      by executive stake holders    Lack of           Individual participation.
+                                                                    accountability.   Safe, secure, and resilient.
+                                      Formalize how feedback will   Threats to        Valid and reliable.
+                                      be utilized for ongoing       privacy.          Fairness, inclusion, and
+                                      review of ADS system          Threats to        non-discrimination.
+                                      utilization                   legitimacy and
+                                                                    public trust.
+Consider redress process for          Clarify redress for           Non-              Transparency &
+constituents regarding decisions      updating/correcting           transparency.     accountability.
+made about them by the ADS            constituent data used in by   Lack of           Individual participation.
+system.                               ADS and/or the                accountability.   Fairness, inclusion, and
+                                      outcome/decisions made        Threats to        non-discrimination.
+                                      by the ADS regarding the      legitimacy and
+                                      constituents.                 public trust.
+
+                                                                                              watech.wa.gov
+                                                                                                         28
+
+                    10. WEIGHING ADVANTAGES AGAINST KNOWN BIAS OR INACCURACIES
+
+Action or Control                Notes                        Risk Addressed    Principles
+
+Does the agency staff have       Did the agency account       Discrimination.   Lawful, fair and responsible use.
+insight into the data            for unintended biases of     Automation        Data minimization.
+model/dataset used for the       the dataset through          bias.             Purpose limitation.
+ADS system?                      mitigation/remediation       Non-              Transparency & accountability.
+                                 actions?                     transparency.     Explainable and interpretable.
+                                                              Lack of           Transparency and auditability.
+                                                              explainability.
+                                                              Lack of
+                                                              accountability.
+                                                              Threats to
+                                                              privacy.
+
+                                 Liaise with the agency       Discrimination.   Lawful, fair and responsible use.
+                                 data scientist and/or        Automation        Data minimization.
+                                 WaTech OPDP to               bias.             Purpose limitation.
+                                 evaluate potential bias of   Non-              Transparency & accountability.
+                                 data model and/or            transparency.     Fairness, inclusion, and non-
+                                 dataset of ADS system        Lack of           discrimination.
+                                 algorithm.                   explainability.
+                                                              Lack of
+                                                              accountability.
+                                                              Threats to
+                                                              privacy.
+
+Consider perception of risk of   Identify and document        Discrimination.   Lawful, fair and responsible use.
+identified ADS by target         perceived risk.              Inaccuracies.     Data minimization.
+constituent                                                   Automation bias   Purpose limitation.
+population/subpopulation.        Document risk reduction      Non-              Transparency & accountability.
+                                 strategies.                  transparency.     Fairness, inclusion, and non-
+                                                              Lack of           discrimination.
+                                 Determine whether            explainability.   Accountability and responsibility.
+                                 agency should accept,        Lack of
+                                 reduce, mitigate or          accountability.
+                                 remediate risks if           Threats to
+                                 development and/or           privacy.
+                                 procurement of ADS
+                                 continues.
+
+                                                                                              watech.wa.gov
+                                                                                                         29
+
+Appendix A. Sample ADS Questionnaire
+   1.  What is the automated decision system’s name, vendor and version?
+   2.  What decisions is the system utilized to make?
+   3.  What data is input into the system?
+   4.  How is the input data gathered, how often is it updated, and are subjective
+       inputs ever audited for consistency across data collectors?
+   5. Is the decision algorithm available for examination by the agency and/or
+       the public?
+   6. Has there been any public or community engagement used in selection or
+       design of the system? If so, please describe this engagement.
+   7. Does law or regulation mandate any of the decision system criteria? If so,
+       which criteria?
+   8. Do the system’s decisions intentionally differentially affect members of
+       protected classes, such as selecting persons with disabilities for certain
+       benefits?
+   9. Has the system been tested for unintended bias by the agency or an
+       independent third party? If so, what were the results? Describe briefly the
+       nature of the testing.
+   10. Has the system produced known erroneous results and if so, what were
+       those errors (including the results of any audits conducted to check for
+       erroneous results)?
+   11. In addition to any intentional differential effect on members of a protected
+       class, are there other differential effects on protected classes as shown by
+       comparison of the system’s data to general census data or, where relevant,
+       subpopulation data, such as the effect on justice system defendants of
+       color as contrasted with all defendants? If audits have been performed to
+       determine such differential effects, what were the results of those audits?
+   12. Can those affected by a system decision review and challenge the basis for
+       that decision? If so, how, and what were the results of any such challenges?
+   13. Is the decision system operated by a third party? If so, what rules govern
+       such operation and what audits are conducted to ensure compliance?
+   14. What is the fiscal impact of the system, including initial cost, operating
+       costs, and any cost savings established as flowing from use of the system?
+   15. What were the personnel hours required to gather the relevant information
+       (questions 1-14) for the system examined?
+
+                                                                   watech.wa.gov
+                                                                              30
+
+Appendix B. Sample ADS Prioritization Matrix
+Below is a method to assess and prioritize automated decision systems.
+Prioritization of ADS to be evaluated can be explained along with context
+information such as a description of decision being made, the approximate
+size of impacted population, and the need or advantages of the ADS.
+To determine risk and prioritize ADS for further review and assessment,
+agencies should evaluate the following:
+
+Effect on people
+   •   Low: Decision does not impact legal rights or the provision of services
+       or scrutiny that could lead to an impact on legal rights or services.
+   •   Medium: Decision impacts processing, relatively minor services or legal
+       rights or financial impacts on individuals. Small number of impacted
+       clients.
+   •   High: Decision can have a significant impact on the provision of services,
+       financial impact, or legal rights. Large number of impacted clients.
+
+Likelihood of bias
+   •   Low: Decision directly follows federal or state regulations or follows
+       adopted policy or rule.
+   •   Medium: Developed with disclosure of information used and the
+       algorithm has been tested for bias and inaccuracy.
+   •   High: Developed without disclosure of information used or the
+       algorithm created and has not been tested for bias or accuracy.
+
+Complexity
+   •   Low: Simple decision rule.
+   •   Medium: Simple calculation of existing data elements (i.e., a weighted
+       average).
+   •   High: Complex algorithm, estimation, machine learning, etc.
+
+Matrixes could be used to determine a rating such as:
+
+                                                                   watech.wa.gov
+                                                                              31
+
+Complexity rating can be used to determine the type of review, for example:
+   •   Low: ADS questionnaire.
+   •   Medium: Privacy impact assessment or formal outcome analysis.
+   •   High: Assessment by professional or third party.
+
+                                                               watech.wa.gov
+                                                                          32
+
+ADS Evolution
+WaTech acknowledges that the field of automated decision systems and
+artificial intelligence is rapidly evolving.
+The guidance provided serves as a tool for agencies, drawing from the
+recommendations outlined in the ADS Workgroup Report. It is rooted in a
+foundation of guiding principles, providing a framework for agencies to
+navigate the complex landscape of Automated Decision Systems (ADS). It is
+important to recognize that this guidance will evolve over time, reflecting the
+advancements and changing landscape of technology and data governance.
+While it is to be used as a best practice, it should not serve as a substitute for
+regulations or agency policies that may be in place. Instead, it should be
+employed in harmony with other relevant resources and tools, ensuring a
+comprehensive and well-rounded approach to addressing the challenges and
+opportunities presented by ADS.
+
+Contact
+Questions regarding this document can be directed to:
+Washington Technology Solutions
+Office of Privacy and Data Protection
+privacy@watech.wa.gov
+
+                                                                    watech.wa.gov
+                                                                               33
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

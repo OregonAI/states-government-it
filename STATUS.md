@@ -6,12 +6,13 @@ Generated 2026-11-10. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 36 |
+| policy | 85 |
+| standard | 56 |
+| statute | 5 |
+| executive_order | 5 |
 | rule | 4 |
-| standard | 2 |
-| statute | 1 |
 
-**Total: 43**
+**Total: 155**
 
 ## Source manifest
 
@@ -19,15 +20,24 @@ Generated 2026-11-10. Non-authoritative; see DISCLAIMER.md.
 
 ## Freshness (reverify every 90 days)
 
-43 of 43 document(s) overdue for re-verification.
+155 of 155 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
 | or-ors-276a | statute | never |
+| wa-rcw-39-26-340 | statute | never |
+| wa-rcw-40-26 | statute | never |
+| wa-rcw-42-56-590 | statute | never |
+| wa-rcw-43-105 | statute | never |
 | or-oar-128-20 | rule | never |
 | or-oar-128-30 | rule | never |
 | or-oar-128-40 | rule | never |
 | or-oar-128-50 | rule | never |
+| wa-eo-00-02 | executive_order | never |
+| wa-eo-16-01 | executive_order | never |
+| wa-eo-19-04 | executive_order | never |
+| wa-eo-24-01 | executive_order | never |
+| wa-eo-91-10 | executive_order | never |
 | or-das-107-004-010 | policy | never |
 | or-das-107-004-015-pr | policy | never |
 | or-das-107-004-015 | policy | never |
@@ -64,6 +74,5 @@ Generated 2026-11-10. Non-authoritative; see DISCLAIMER.md.
 | or-eis-memo-20241028-css-directive | policy | never |
 | or-eis-memo-20250212-deepseek | policy | never |
 | or-eis-privacy-guidance | policy | never |
-| or-eis-it-control-standards | standard | never |
-| or-open-data-standard | standard | never |
+| … | *105 more* | |
 

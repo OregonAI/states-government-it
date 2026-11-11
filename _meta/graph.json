@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 43,
+ "n_nodes": 155,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -9,6 +9,30 @@
    "title": "Chapter 276A - Information Technology (2025 Edition)",
    "doc_type": "statute",
    "path": "statutes/oregon/or-ors-276a.md"
+  },
+  {
+   "id": "wa-rcw-39-26-340",
+   "title": "RCW 39.26.340 - Data-sharing agreements - When required",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-39-26-340.md"
+  },
+  {
+   "id": "wa-rcw-40-26",
+   "title": "Chapter 40.26 RCW - Biometric identifiers",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-40-26.md"
+  },
+  {
+   "id": "wa-rcw-42-56-590",
+   "title": "RCW 42.56.590 - Personal information - Notice of security breaches",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-42-56-590.md"
+  },
+  {
+   "id": "wa-rcw-43-105",
+   "title": "Chapter 43.105 RCW - Washington Technology Solutions",
+   "doc_type": "statute",
+   "path": "statutes/washington/wa-rcw-43-105.md"
   },
   {
    "id": "or-oar-128-20",
@@ -33,6 +57,36 @@
    "title": "Identity Authentication/Electronic Signatures",
    "doc_type": "rule",
    "path": "rules/oregon/or-oar-128-50.md"
+  },
+  {
+   "id": "wa-eo-00-02",
+   "title": "Computer Software Piracy",
+   "doc_type": "executive_order",
+   "path": "executive-orders/washington/wa-eo-00-02.md"
+  },
+  {
+   "id": "wa-eo-16-01",
+   "title": "Privacy Protection and Transparency in State Government",
+   "doc_type": "executive_order",
+   "path": "executive-orders/washington/wa-eo-16-01.md"
+  },
+  {
+   "id": "wa-eo-19-04",
+   "title": "One Washington: Modernization of State Administrative Business and Systems",
+   "doc_type": "executive_order",
+   "path": "executive-orders/washington/wa-eo-19-04.md"
+  },
+  {
+   "id": "wa-eo-24-01",
+   "title": "Artificial Intelligence",
+   "doc_type": "executive_order",
+   "path": "executive-orders/washington/wa-eo-24-01.md"
+  },
+  {
+   "id": "wa-eo-91-10",
+   "title": "Establishing the Governor's Policy on Electronic Message Systems",
+   "doc_type": "executive_order",
+   "path": "executive-orders/washington/wa-eo-91-10.md"
   },
   {
    "id": "or-das-107-004-010",
@@ -251,6 +305,300 @@
    "path": "policies/oregon/or-eis-privacy-guidance.md"
   },
   {
+   "id": "wa-data-01-03-g",
+   "title": "State Archives Records and Cloud Storage Guidelines",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-data-01-03-g.md"
+  },
+  {
+   "id": "wa-data-01",
+   "title": "Open Data Program",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-data-01.md"
+  },
+  {
+   "id": "wa-data-02",
+   "title": "Geospatial Data Management Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-data-02.md"
+  },
+  {
+   "id": "wa-data-03",
+   "title": "Privacy and Data Protection Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-data-03.md"
+  },
+  {
+   "id": "wa-data-04",
+   "title": "Artificial Intelligence",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-data-04.md"
+  },
+  {
+   "id": "wa-ea-01-01-g",
+   "title": "Online File Storage Guidance",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-01-01-g.md"
+  },
+  {
+   "id": "wa-ea-01-02-g",
+   "title": "Software Quality Best Practices Guideline",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-01-02-g.md"
+  },
+  {
+   "id": "wa-ea-01",
+   "title": "Enterprise Architecture Program Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-01.md"
+  },
+  {
+   "id": "wa-ea-02-01-pr",
+   "title": "Establishing an Enterprise Service Proposal",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-02-01-pr.md"
+  },
+  {
+   "id": "wa-ea-02",
+   "title": "Establishing an Enterprise Service Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-02.md"
+  },
+  {
+   "id": "wa-ea-04-01-g",
+   "title": "IPv6 Guidelines",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-04-01-g.md"
+  },
+  {
+   "id": "wa-ea-04",
+   "title": "Internet Protocol Version 6 (IPv6) Implementation Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-04.md"
+  },
+  {
+   "id": "wa-ea-122",
+   "title": "Administrative and Financial System Investment Approval",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-122.md"
+  },
+  {
+   "id": "wa-ea-310",
+   "title": "Statewide Migration to Enterprise Cloud Email Services",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-310.md"
+  },
+  {
+   "id": "wa-mgmt-01-01-g",
+   "title": "Application Guidelines",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-mgmt-01-01-g.md"
+  },
+  {
+   "id": "wa-mgmt-01",
+   "title": "Technology Portfolio Foundation",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-mgmt-01.md"
+  },
+  {
+   "id": "wa-mgmt-02",
+   "title": "Technology Business Management (TBM)",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-mgmt-02.md"
+  },
+  {
+   "id": "wa-mgmt-03",
+   "title": "Business Application/System Governance Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-mgmt-03.md"
+  },
+  {
+   "id": "wa-pm-01-01-g",
+   "title": "Managing Information Technology Projects - Critical Indicators of Project Performance",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-pm-01-01-g.md"
+  },
+  {
+   "id": "wa-pm-01-01-pr",
+   "title": "IT Investments Approval and Oversight Procedure",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-pm-01-01-pr.md"
+  },
+  {
+   "id": "wa-pm-01",
+   "title": "IT Investments - Approval and Oversight Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-pm-01.md"
+  },
+  {
+   "id": "wa-pm-03-01-g",
+   "title": "Providing Quality Assurance for Information Technology Projects - Principles of Quality Assurance Guideline",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-pm-03-01-g.md"
+  },
+  {
+   "id": "wa-pm-03",
+   "title": "Project Quality Assurance Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-pm-03.md"
+  },
+  {
+   "id": "wa-pol-01-01-pr",
+   "title": "Technology Policies and Standards Waiver Procedure",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-pol-01-01-pr.md"
+  },
+  {
+   "id": "wa-pol-01",
+   "title": "Technology Policies, Standards, and Procedures Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-pol-01.md"
+  },
+  {
+   "id": "wa-sec-01-01-g",
+   "title": "Security Principles Guideline",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-01-01-g.md"
+  },
+  {
+   "id": "wa-sec-01",
+   "title": "Washington State Cybersecurity Program Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-01.md"
+  },
+  {
+   "id": "wa-sec-02",
+   "title": "Security Assessment and Authorization Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-02.md"
+  },
+  {
+   "id": "wa-sec-03",
+   "title": "IT Security and Privacy Awareness Training Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-03.md"
+  },
+  {
+   "id": "wa-sec-04",
+   "title": "Asset Management Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-04.md"
+  },
+  {
+   "id": "wa-sec-05",
+   "title": "Change Management Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-05.md"
+  },
+  {
+   "id": "wa-sec-06",
+   "title": "Access Control Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-06.md"
+  },
+  {
+   "id": "wa-sec-07",
+   "title": "Physical and Environmental Protection Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-07.md"
+  },
+  {
+   "id": "wa-sec-08",
+   "title": "Data Sharing Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-08.md"
+  },
+  {
+   "id": "wa-sec-09",
+   "title": "IT Security Audit and Accountability Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-09.md"
+  },
+  {
+   "id": "wa-sec-10",
+   "title": "IT Security Incident Response Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-10.md"
+  },
+  {
+   "id": "wa-sec-11-01-g",
+   "title": "Electronic Signature Guidelines",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-11-01-g.md"
+  },
+  {
+   "id": "wa-sec-11",
+   "title": "Information Security Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-11.md"
+  },
+  {
+   "id": "wa-sec-12",
+   "title": "Information Technology Disaster Recovery Planning Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-12.md"
+  },
+  {
+   "id": "wa-sec-13",
+   "title": "International Travel Technology Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-13.md"
+  },
+  {
+   "id": "wa-user-01",
+   "title": "Digital Accessibility Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-user-01.md"
+  },
+  {
+   "id": "wa-user-02",
+   "title": "Acceptable Use Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-user-02.md"
+  },
+  {
+   "id": "wa-user-03",
+   "title": "Mobile Device Usage Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-user-03.md"
+  },
+  {
+   "id": "wa-watech-ads-procurement-guidance",
+   "title": "Automated Decision Systems Procurement and Use Guidance",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-watech-ads-procurement-guidance.md"
+  },
+  {
+   "id": "wa-watech-ai-risk-assessments",
+   "title": "Implementing risk assessments for high-risk AI systems",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-watech-ai-risk-assessments.md"
+  },
+  {
+   "id": "wa-watech-ai-risk-level-guidance",
+   "title": "Artificial Intelligence Risk Level Guidance",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-watech-ai-risk-level-guidance.md"
+  },
+  {
+   "id": "wa-watech-genai-accountability-framework",
+   "title": "Framework for Accountability in Generative Artificial Intelligence",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-watech-genai-accountability-framework.md"
+  },
+  {
+   "id": "wa-watech-genai-deployment-guidelines",
+   "title": "Guidelines for Deployment of Generative AI",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-watech-genai-deployment-guidelines.md"
+  },
+  {
+   "id": "wa-watech-genai-procurement-guidelines",
+   "title": "Initial procurement guidelines for public sector procurement, deployment, and monitoring of Generative AI Technology",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-watech-genai-procurement-guidelines.md"
+  },
+  {
    "id": "or-eis-it-control-standards",
    "title": "Statewide Information Technology (IT) Control Standards",
    "doc_type": "standard",
@@ -261,6 +609,330 @@
    "title": "Oregon's Open Data Standard",
    "doc_type": "standard",
    "path": "standards/oregon/or-open-data-standard.md"
+  },
+  {
+   "id": "wa-data-02-01-s",
+   "title": "Geodetic Control Data Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-data-02-01-s.md"
+  },
+  {
+   "id": "wa-data-02-02-s",
+   "title": "Hydrography Data Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-data-02-02-s.md"
+  },
+  {
+   "id": "wa-data-02-05-s",
+   "title": "NG9-1-1 Geospatial Data Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-data-02-05-s.md"
+  },
+  {
+   "id": "wa-ea-01-00-s",
+   "title": "Criteria for Developing Principles for Decision Making",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-01-00-s.md"
+  },
+  {
+   "id": "wa-ea-01-02-s",
+   "title": "EA Domain Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-01-02-s.md"
+  },
+  {
+   "id": "wa-ea-01-04-s",
+   "title": "Email Address Naming Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-01-04-s.md"
+  },
+  {
+   "id": "wa-ea-02-03-s",
+   "title": "Enterprise Service: Data Center",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-03-s.md"
+  },
+  {
+   "id": "wa-ea-02-04-s",
+   "title": "Enterprise Service: Workforce Identity and Access",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-04-s.md"
+  },
+  {
+   "id": "wa-ea-02-05-s",
+   "title": "Enterprise Service: Network Connectivity",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-05-s.md"
+  },
+  {
+   "id": "wa-ea-02-06-s",
+   "title": "Enterprise Service: Secure Connections",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-06-s.md"
+  },
+  {
+   "id": "wa-ea-02-07-s",
+   "title": "Enterprise Service: Customer Identity and Access Management",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-07-s.md"
+  },
+  {
+   "id": "wa-ea-02-08-s",
+   "title": "Enterprise Service: Telephony",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-08-s.md"
+  },
+  {
+   "id": "wa-ea-02-09-s",
+   "title": "Enterprise Service: Integrations",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-09-s.md"
+  },
+  {
+   "id": "wa-ea-02-10-s",
+   "title": "Enterprise Service: Productivity Suite",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-10-s.md"
+  },
+  {
+   "id": "wa-ea-02-11-s",
+   "title": "Enterprise Service: Mainframe",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-11-s.md"
+  },
+  {
+   "id": "wa-ea-02-12-s",
+   "title": "Enterprise Service: WA.gov",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-02-12-s.md"
+  },
+  {
+   "id": "wa-ea-04-01-s",
+   "title": "IPv6 Implementation Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-04-01-s.md"
+  },
+  {
+   "id": "wa-mgmt-01-01-s",
+   "title": "Technology Portfolio Foundation - Applications Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-mgmt-01-01-s.md"
+  },
+  {
+   "id": "wa-mgmt-01-02-s",
+   "title": "Technology Portfolio Foundation - Infrastructure",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-mgmt-01-02-s.md"
+  },
+  {
+   "id": "wa-mgmt-01-03-s",
+   "title": "Managing Information Technology Portfolios Standards - Projects",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-mgmt-01-03-s.md"
+  },
+  {
+   "id": "wa-mgmt-02-01-s",
+   "title": "TBM IT Expenditure Data Provision Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-mgmt-02-01-s.md"
+  },
+  {
+   "id": "wa-mgmt-02-02-s",
+   "title": "TBM Taxonomy",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-mgmt-02-02-s.md"
+  },
+  {
+   "id": "wa-mgmt-02-03-s",
+   "title": "TBM Reporting Solution Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-mgmt-02-03-s.md"
+  },
+  {
+   "id": "wa-pm-01-01-s",
+   "title": "Project Go-Live Readiness Decision Governance",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-01-01-s.md"
+  },
+  {
+   "id": "wa-pm-01-02-s",
+   "title": "IT Project Charter Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-01-02-s.md"
+  },
+  {
+   "id": "wa-pm-01-03-s",
+   "title": "Project Characteristics by Tier Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-01-03-s.md"
+  },
+  {
+   "id": "wa-pm-01-04-s",
+   "title": "Tiered Oversight and Reporting Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-01-04-s.md"
+  },
+  {
+   "id": "wa-pm-01-05-s",
+   "title": "Feasibility Study for IT Investments",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-01-05-s.md"
+  },
+  {
+   "id": "wa-pm-01-06-s",
+   "title": "IT Investment Plan Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-01-06-s.md"
+  },
+  {
+   "id": "wa-pm-03-01-s",
+   "title": "Minimum Qualifications for Quality Assurance Providers",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-03-01-s.md"
+  },
+  {
+   "id": "wa-pm-03-02-s",
+   "title": "Minimum Project QA Activities-Readiness Assessment",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-03-02-s.md"
+  },
+  {
+   "id": "wa-pm-03-03-s",
+   "title": "Minimum Project QA Activities",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pm-03-03-s.md"
+  },
+  {
+   "id": "wa-pol-01-01-s",
+   "title": "Naming Convention Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pol-01-01-s.md"
+  },
+  {
+   "id": "wa-pol-01-02-s",
+   "title": "Technology Policy & Standard Waiver Request Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-pol-01-02-s.md"
+  },
+  {
+   "id": "wa-sec-02-01-s",
+   "title": "Application Security Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-02-01-s.md"
+  },
+  {
+   "id": "wa-sec-04-01-s",
+   "title": "Data Backup and Recovery Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-01-s.md"
+  },
+  {
+   "id": "wa-sec-04-02-s",
+   "title": "Media Sanitization and Disposal Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-02-s.md"
+  },
+  {
+   "id": "wa-sec-04-03-s",
+   "title": "Configuration Management Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-03-s.md"
+  },
+  {
+   "id": "wa-sec-04-04-s",
+   "title": "Firewall Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-04-s.md"
+  },
+  {
+   "id": "wa-sec-04-05-s",
+   "title": "Network Security Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-05-s.md"
+  },
+  {
+   "id": "wa-sec-04-06-s",
+   "title": "Mobile Device Security Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-06-s.md"
+  },
+  {
+   "id": "wa-sec-04-07-s",
+   "title": "Non-Agency Issued Device Security Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-07-s.md"
+  },
+  {
+   "id": "wa-sec-04-08-s",
+   "title": "Unsupported Technology Retirement",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-08-s.md"
+  },
+  {
+   "id": "wa-sec-04-09-s",
+   "title": "Endpoint Detection and Response Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-04-09-s.md"
+  },
+  {
+   "id": "wa-sec-06-01-s",
+   "title": "Identification and Authentication Security Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-06-01-s.md"
+  },
+  {
+   "id": "wa-sec-06-02-s",
+   "title": "Remote Access Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-06-02-s.md"
+  },
+  {
+   "id": "wa-sec-08-01-s",
+   "title": "Data Classification Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-08-01-s.md"
+  },
+  {
+   "id": "wa-sec-08-02-s",
+   "title": "Encryption Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-08-02-s.md"
+  },
+  {
+   "id": "wa-sec-09-01-s",
+   "title": "Security Logging Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-09-01-s.md"
+  },
+  {
+   "id": "wa-sec-10-01-s",
+   "title": "Traffic Light Protocol",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-10-01-s.md"
+  },
+  {
+   "id": "wa-sec-11-01-s",
+   "title": "Risk Assessment Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-11-01-s.md"
+  },
+  {
+   "id": "wa-sec-11-02-s",
+   "title": "Vulnerability Management Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-11-02-s.md"
+  },
+  {
+   "id": "wa-sec-13-01-s",
+   "title": "International Travel Technology Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-sec-13-01-s.md"
+  },
+  {
+   "id": "wa-user-01-01-s",
+   "title": "Digital Accessibility Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-user-01-01-s.md"
   }
  ],
  "edges": []

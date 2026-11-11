@@ -1,0 +1,53 @@
+EA-01-02-S                                                                             Replaces:
+State CIO Adopted: Dec. 10, 2024
+                                                                                              N/A
+TSB Approved: Dec. 10, 2024
+Sunset Review: Dec. 10, 2027
+
+     ENTERPRISE ARCHITECTURAL DOMAINS STANDARD
+See Also:
+RCW 43.105.054 WaTech Governance
+RCW 43.105.205 (3) Higher Ed
+RCW 43.105.020 (22) “State agency”
+RCW 43.105.020 (6) “Enterprise Architecture”
+EA-01 Enterprise Architecture Program Policy
+The TOGAF Standard, Version 9.2 - Core Concepts
+
+  1. The Enterprise Architecture (EA) Program establishes the core domains of architecture
+     for executing holistic business and technology strategies. Washington State Enterprise
+     Architectural Domains are:
+
+            a. Business Architecture: Defines and aligns the business capabilities, maps,
+               processes, and services with organizational strategy.
+
+            b. Data Architecture: Defines the architecture that informs how enterprises collect,
+               store and use information to make informed business decisions.
+
+            c. Application Architecture: Designs architectural frameworks and connections
+               between software solutions that enable agencies to deliver services that meet their
+               mission and goals.
+
+            d. Technology Architecture: Focuses on the design, deployment, and management of
+               the Information Technology (IT) infrastructure.
+
+2. Security is an enterprise architecture pillar that crosses all domains. Security
+   considerations are pervasive in all phases of architecture development.
+
+REFERENCES
+
+     1. Definition of Terms Used in WaTech Policies and Reports.
+
+PROPOSED DEFINITIONS
+
+Pillar:
+
+A pillar refers to a foundational aspect or core component that supports and influences
+multiple domains across the enterprise architecture. Pillars represent key focus areas that are
+critical to the overall success and integrity of architecture, ensuring that essential
+considerations are consistently addressed across all domains.
+
+Enterprise Architecture Domain:
+
+An architecture domain refers to a specific area or category within the overall enterprise
+architecture framework. It represents a broad focus area that encompasses various
+components, activities, and considerations related to that particular domain.

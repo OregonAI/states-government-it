@@ -1,0 +1,268 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: washington
+id: wa-sec-11-02-s
+title: Vulnerability Management Standard
+doc_type: standard
+citation: WaTech Standard SEC-11-02-S
+authority_level: ''
+issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+source_url: https://watech.wa.gov/sites/default/files/2024-09/SEC-11-02-S_Vulnerability_Management_Standard.pdf
+source_format: pdf
+retrieved: '2026-11-10'
+source_sha256: ac310edc2321eb4ddbbf69126d101fa2893c007147774f6e0110799f248de740
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Vulnerability Management Standard (WaTech Standard SEC-11-02-S)
+
+## At a glance
+
+Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/vulnerability-management-standard.
+
+## Full text
+
+SEC-11-02-S                                                                                                    Replaces:
+State CIO Adopted: August 11, 2023                                                IT Security Standard 141.10 (5.5 & 5.6)
+TSB Approved: September 14, 2023                                                                     December 11, 2017
+Sunset Review: September 14, 2026
+
+                 VULNERABILITY MANAGEMENT STANDARD
+See Also:
+RCW 43.105.054 WaTech Governance
+RCW 43.105.052 Powers and duties of agency—Application to higher education, legislature, and judiciary.
+RCW 43.105.020 (22) “State agency”
+RCW 43.105.450 Office of Cybersecurity
+RCW 43.105.450 (7c) IT Security
+NIST SP 800-40 Guide to Enterprise Patch Management Planning
+
+    1. Vulnerability scanning must include the following activities:
+
+         a. All computing and networking Information Technology (IT) assets
+            identified by the SEC-04 Asset Management Policy must be included in
+            the vulnerability assessment scope.
+
+         b. Configure endpoints and network infrastructure and applications to allow
+            access for vulnerability scans.
+
+         c. Schedule and conduct monthly scans of internal-facing computing and
+            networking IT assets.
+
+         d. Schedule and conduct weekly scans of internet-facing computing and
+            networking IT assets.
+
+         e. Perform vulnerability scans after the introduction of new computing or
+            network devices into the agency IT environment.
+
+         f. Verify all findings identified during the vulnerability scan and document
+            supporting evidence. The following types of evidence may suffice for
+            documentation of a False Positive:
+
+                i.    Narrative with a screenshot showing that the information provided is
+                      incorrect.
+
+                ii.   Any other items that would indicate that the information provided is
+                      inaccurate.
+
+                                                                                                                   1
+
+2. Agencies must prioritize the vulnerabilities they will address.
+
+      a. Agencies must prioritize the assets to be remediated by the system’s
+         business criticality.
+
+      b. Agencies must triage vulnerabilities listed in the Known Exploited
+         Vulnerabilities (KEV) Catalog for remediation.
+
+      c. Agencies must use the highest vulnerability criticality from the Vulnerability
+         Management Procedure or the Common Vulnerability Scoring System
+         (CVSS) ratings in Table 1 to triage vulnerabilities not listed in the KEV
+         Catalog.
+
+                              Table 1 – Vulnerability Classification
+
+             Vulnerability               Description              CVSS
+             Classification                                       Rating
+
+                                Indicates flaws could be
+                                easily exploited by an
+             Critical           unauthenticated remote           9.0 – 10.0
+                                attacker and lead to
+                                compromise.
+
+                                Indicates local users can
+                                gain privileges, allow
+                                unauthenticated, remote
+                                users to view resources
+                                that should otherwise be
+                                protected by
+             High                                                 7.0 – 8.9
+                                authentication, allow
+                                authenticated remote
+                                users to execute arbitrary
+                                code, or allow remote
+                                users to cause a denial of
+                                service.
+
+                                Indicates flaws are more
+                                difficult to exploit but
+             Medium             could still lead to               4.0 – 6.9
+                                compromise under
+                                certain circumstances.
+
+                                                                                      2
+
+                               Indicates vulnerabilities
+                               require unlikely
+                               circumstances to be
+                               exploited or where a
+                  Low                                        Below 4.0
+                               successful exploit would
+                               cause either no adverse
+                               effect or result in minimal
+                               adverse consequences.
+
+                               Useful information that is
+                               more general about the
+                               system and how it
+            Informational      operates. Mostly                     0
+                               configuration choices
+                               rather than a real
+                               vulnerability.
+
+      d. Agencies must prioritize based on the risk assessed. See the SEC-11-02-S
+         Risk Assessment Standard.
+
+             i. Agencies prioritizing their remediation workload must consider
+                existing network, IT system, and/or application security layers that
+                may reduce the likelihood and/or impact of a vulnerability.
+
+            ii. Agencies must track backlogs of pending remediations.
+
+      e. Identify a vulnerability mitigation plan for assets for which no patch is
+         available.
+
+3. After confirming the vulnerability scan results applicable to their systems,
+   agencies are responsible for reducing the likelihood and/or the impact of
+   exploitation of the vulnerabilities.
+
+      a. Agencies must mitigate the vulnerability using vendor security patches,
+         system configuration changes and/or application modifications, and other
+         appropriate mitigation strategies. All changes must be documented per the
+         agency’s change management processes.
+
+      b. Agencies will reference the Common Vulnerability and Exposure (CVE)
+         database.
+
+      c. Agencies will take the necessary corrective actions. The corrective actions
+         recommended in the vulnerability scanner and reports are to be used as a
+         guideline for mitigation strategy.
+
+                                                                                       3
+
+      d. Agencies must verify the successful application of vulnerability patches. If
+         the confirmation scan reveals that the mitigation was unsuccessful, further
+         action must be taken to remediate the vulnerability.
+
+      e. If a recommended remediation step is not possible, agencies must develop
+         and implement compensating controls.
+
+      f. The compensating controls will operate until vendor patches or
+         configuration changes are available.
+
+      g. If the vulnerability cannot be patched, agencies must harden the affected IT
+         asset according to the SEC-04-03-S Configuration Management Standard
+         to reduce the likelihood of vulnerability exploitation.
+
+4. Agencies must maintain a documented patch management procedure for all
+   computing and network assets under their control. The procedure must include
+   the following steps at a minimum:
+
+      a. Identification and prioritization of patches to be installed.
+
+      b. Applying patches in a timeline consistent with business criticality and risk.
+
+      c. Coordination of a patch window with appropriate stakeholders.
+
+      d. Validation of the appropriate application of patches.
+
+      e. Evaluation and testing of patches prior to deployment.
+
+      f. Agencies must install patches that address previously unknown exploits
+         (Zero-Day Exploit) with a critical CVSS and high risk assessed within one
+         calendar day of patch release.
+
+      g. Agencies unable to meet their established deadlines for patching
+         vulnerabilities with high CVSS scores for high-risk systems as assessed by
+         the agency must identify and document compensating controls and notify
+         WaTech by filing a ServiceNow ticket.
+
+5. Agencies must conduct ongoing external threat intelligence gathering, which at
+   a minimum includes identification and use of threat intelligence feeds.
+
+6. Agencies must document their vulnerability management plan based on the
+   requirements in this standard. The vulnerability management plan must include:
+
+      a. A list of the vulnerabilities to be patched, including the CVSS severity
+         ranking in Table 1.
+
+      b. Mean time to remediate.
+
+                                                                                         4
+
+       c. The computing and network IT assets the agency did not remediate.
+
+REFERENCES
+
+1. Definitions of Terms Used in WaTech Policies and Reports.
+2. SEC-04 Asset Management Policy.
+3. Known Exploited Vulnerabilities Catalog| CISA.
+4. Common Vulnerability and Exposure (CVE) Database.
+5. SEC-04-03-S Configuration Management Standard.
+6. SEC-11-01-S Risk Assessment Standard.
+7. Vulnerability Management Procedure (under development – will be confidential
+   due to security.)
+8. Common Vulnerability Scoring System (CVSS) .
+9. NIST Cybersecurity Framework Mapping:
+   • Identify.Risk Assessment-1 (ID.RA-1): Asset vulnerabilities are identified and
+      documented.
+   • Protect.Information Protection Processes and Procedures-12 (PR.IP-12): A
+      vulnerability management plan is developed and implemented.
+   • Detect.Security Continuous Monitoring-8 (DE.CM-8): Vulnerability scans are
+      performed.
+   • Respond.Analysis-5 (RS.AN-5): Processes are established to receive, analyze
+      and respond to vulnerabilities disclosed to the organization from internal and
+      external sources (e.g., internal testing, security bulletins, or security
+      researchers).
+   • Respond.Mitigation-3 (RS.MI-3): Newly identified vulnerabilities are mitigated
+      or documented as accepted risks.
+
+CONTACT INFORMATION
+
+   •   For questions about this policy, please email the WaTech Policy Mailbox.
+
+                                                                                       5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

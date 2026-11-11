@@ -1,0 +1,129 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: washington
+id: wa-ea-02-08-s
+title: 'Enterprise Service: Telephony'
+doc_type: standard
+citation: WaTech Standard EA-02-08-S
+authority_level: ''
+issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+source_url: https://watech.wa.gov/sites/default/files/2026-06/EA-02-08-S_Telephony.pdf
+source_format: pdf
+retrieved: '2026-11-10'
+source_sha256: ad8fc6f7a65ba2e826a6e9361b6869ba72242a48e1eae55167475c1da91140ef
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Enterprise Service: Telephony (WaTech Standard EA-02-08-S)
+
+## At a glance
+
+Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-telephony.
+
+## Full text
+
+EA-02-08-S                                                                               Replaces:
+State CIO Adopted: 6/11/2026                                                                  N/A
+TSB Approved: 6/11/2026
+Sunset Review: 6/11/2028
+
+                                   TELEPHONY
+                          ENTERPRISE SERVICE STANDARD
+
+See Also:
+RCW 43.105.006 WaTech Purpose
+RCW 43.105.020 Definitions
+RCW 43.105.054 WaTech Governance
+RCW 43.105.450 State agency information technology security
+
+1. PURPOSE
+This standard establishes Telephony, as an enterprise service under EA-02 – Establishing an
+Enterprise Service Policy.
+A Washington state agency must not adopt, build, expand, or renew a service with similar
+capabilities unless it has an approved waiver or exemption (see Section 5).
+
+2. SCOPE
+
+     IN SCOPE
+         •    Voice, contact center, and 24x7 life-safety public branch exchange (PBX)
+              communications.
+
+     OUT OF SCOPE
+         •    Mobile Telephony, Radio Communications
+         •    Emergency operations centers that require satellite phone connections
+         •    Machine-to-machine applications or Supervisory Control and Data Acquisition
+              (SCADA) applications
+
+3. APPLICABILITY
+This standard applies to all state agencies (as defined in RCW 43.105.020) and their
+organizational users.
+This standard does not apply to the K-20 network, institutions of higher education,
+legislature, judiciary, or local governments.
+
+                                                                                                     1
+•
+
+4. ENTERPRISE SERVICE CAPABILITIES
+The Telephony enterprise service designation encompasses the following capabilities:
+    1. Cloud-based phone systems that enable users to make and receive calls directly from
+       Microsoft Teams.
+    2. Cloud-based contact centers equipped with a range of features designed to optimize
+       contact center operations.
+    3. Life-Safety PBX to support 24/7 facilities (e.g., hospitals, correctional institutions,
+       emergency response) that require onsite telephony equipment for survivable
+       communications to support life and safety.
+
+5. WAIVERS AND EXEMPTIONS TO THIS STANDARD
+In accordance with POL-01-02-S Technology Policy and Standard Waiver Request Standard,
+agencies may qualify for a waiver or exemption from compliance with this standard. Agencies
+may request an exemption for situations that meet one of the following criteria.
+    1. Exemptions may be approved in cases where telephony is being provided for:
+           a. Incarcerated individuals (such as JPay);
+           b. Sites that cannot rely solely on cloud-based calling because they require
+              phones to work during network outages (e.g., Washington State Patrol sites
+              that dispatch officers and receive calls from 911 Public Safety Answering Point
+              operators).
+
+6. AUTHORITY
+This standard is issued under the authority of RCW 43.105.054, which grants WaTech
+authority to establish statewide technology standards and enterprise services. RCW
+43.105.006 establishes WaTech as the centralized provider of broadly used and uniform
+technology services. RCW 43.105.450 requires state agencies to comply with statewide
+information technology security policies and standards.
+
+REFERENCES
+    1. Service Catalog Page: Telephony Services
+    2. Definition of Terms Used in WaTech Policies and Reports
+    3. RCW 43.105.006 WaTech Purpose
+    4. RCW 43.105.054 WaTech Governance
+    5. RCW 43.105.450 State agency information technology security
+
+CONTACT INFORMATION
+For questions about this policy, please email the WaTech Policy Mailbox.
+
+                                                                                                2
+•
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,43 @@
+DATA-02                                                                                                   Replaces:
+State CIO Adopted: September 2025                                              Geospatial Data Management Policy 160
+TSB Approved: September 2025                                                                      September 5, 2014
+Sunset Review: September 2028
+
+                 GEOSPATIAL DATA MANAGEMENT POLICY
+See Also:
+RCW 43.105.054 WaTech Governance
+RCW 43.105.052 Powers and duties of agency—Application to higher education, legislature, and judiciary.
+RCW 43.105.020 (22) “State agency”
+
+    1. Agencies shall ensure that investments in geospatial technology are tracked and
+       that geospatial data and services can be reused and discovered across all levels
+       of government and by the public.
+
+    2. Agencies shall adhere to critical standards in the following four areas:
+
+             a. Interoperability. In lieu of specific hardware or software specifications,
+                Washington adopts standards and policies that improve the ability of
+                geospatial systems and organizations.
+
+             b. Data Standards. Data standards are important to ensure data quality and
+                accuracy while simplifying the exchange of data among state agencies,
+                local, tribal, and federal users and data producers.
+
+             c. Metadata. Metadata standards protect the investment in geospatial data by
+                describing the purpose and use of the data so that the data can be used
+                appropriately by other users and organizations.
+
+             d. Data and Investment Reporting. Portfolio management is an essential piece
+                for tracking current and planned investments in geospatial technology
+                solutions. It allows organizations to manage their spatial investments of
+                assets.
+
+    REFERENCES
+
+        1.   Definition of Terms Used in WaTech Policies and Reports.
+
+    CONTACT INFORMATION
+
+    For questions about this policy, please email the WaTech Policy Mailbox.
+
+                                                                                                               1

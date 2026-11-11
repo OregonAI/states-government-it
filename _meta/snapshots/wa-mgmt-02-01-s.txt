@@ -1,0 +1,24 @@
+Standard 113.10 – IT Expenditure Data Provision
+Standard
+
+STANDARD STATEMENT
+The OCIO TBM Program is responsible for managing and monitoring the load of the
+following Enterprise datasets extracted monthly from the statewide systems and used
+by the program:
+    • AFRS (Agency Financial Reporting System)
+    • CAMS (Capital Asset Management System)
+    • HRMS (Human Resource Management System)
+
+CONTACT INFORMATION
+Contact OCIO Policy & Waiver Mailbox for additional information or to request a waiver.
+
+SUNSET REVIEW DATE: June 30, 2024
+ADOPTION DATE: January 12, 2023
+TECHNOLOGY SERVICES BOARD APPROVAL DATE:
+Anticipated March 2023 Technology Service Board meeting.
+
+APPROVING AUTHORITY:
+William S. Kehoe, Chief Information Officer
+Chair, Technology Services Board
+
+                                                                                      1

@@ -1,0 +1,78 @@
+Policy 122 - Administrative and Financial Systems Investment Approval
+
+Purpose
+   IT systems designated as supporting enterprise administrative and financial functions, processes, or
+   data should be used by state agencies whenever possible. The Office of Financial Management
+   (OFM) is the business owner of statewide financial processes and related data. The business owner
+   of statewide administrative processes may be OFM or the Department of Enterprise Services (DES)
+   and in some cases it is shared between these agencies. Agencies are required to obtain formal,
+   written approval before beginning any administrative or financial solution modification,
+   development or acquisition.
+
+   This policy supports the evaluation of proposed investments in administrative or financial solutions
+   from a strategic, cross-agency perspective that provides the greatest opportunity for reuse and
+   efficiency, particularly where there are shared business needs. As part of the ongoing
+   modernization of statewide enterprise solutions, existing agency applications will be reviewed to
+   determine if there is a strong business case for the continuation of a separate, agency-specific
+   solution and to identify opportunities for increased reuse among agencies. As a result of this
+   review, agencies may be required to discontinue use, in whole or in part, of agency-specific
+   solutions.
+
+   In situations where a state enterprise solution cannot meet an agency’s specific business needs,
+   approval may be given for the agency to procure a new solution or to leverage an existing solution
+   in use by other agencies following an evaluation of the investment request.
+
+Policy Statement
+ 1. Agencies must request and receive written approval from the OCIO and OFM or DES before:
+
+    1.1 Acquiring, developing, implementing and/or investing in a new solution supporting
+        administrative and/or financial business processes.
+    1.2 Making additional investments to an existing agency-deployed system supporting
+        administrative and/or financial business processes.
+          1.2.1 The threshold for dispositioning the additional investment is based on the combined
+                level of effort or hardware/software costs as provided in the Threshold Table for
+                Administrative and Financial System Investments.
+          1.2.2 These thresholds may change based on current or planned availability of enterprise or
+                cross agency solutions.
+          1.2.3 Agencies may request a broad-scope, system-level evaluation to determine if the
+                system can be exempted from future investment-level approvals.
+ 2. Agency requests must contain the information necessary to evaluate the investment.
+
+                                                  1
+
+     2.1 At a minimum, the request must include information about the business process areas
+         involved, the business drivers for the agency, and a description of the investment scope and
+         budget.
+     2.2 Requests shall be submitted as soon as the investment need is identified. In situations where
+         the investment supports an immediate need, such as break/fix condition, the agency shall
+         submit the request as soon as the situation is stabilized.
+ 3. Agencies shall perform due diligence to understand the business and technology needs driving the
+    investment, conduct high level analysis of existing enterprise or agency-deployed systems to
+    determine if an existing or planned solution meets their business needs, and provide the results to
+    the OCIO as required.
+ 4. For any proposed custom development of an administrative or financial system, the agency must
+    provide the results of research conducted and justification for why a Commercial Off-The-Shelf
+    (COTS) or Software-as-a-Service (SaaS) solution will not meet the agency’s business needs.
+ 5. The OCIO shall consult with OFM and/or DES to evaluate agency requests. Agencies may be
+    required to attend consultations with the OCIO, OFM and/or DES in support the evaluation.
+ 6. Based on the results of the evaluation of the request, a formal, written disposition from the OCIO
+    and OFM or DES will be provided to the agency and may include:
+     6.1 Approval of the investment request as presented.
+     6.2 Approval of the investment request with conditions indicating the agency shall use a state
+         enterprise system or leverage an existing agency-deployed system, in whole or in part. The
+         scope and timeline of the investment may be limited in anticipation of migrating to another
+         system.
+     6.3 Approval of the investment request with additional consideration of future investments of
+         similar scope and budget.
+     6.4 Denial of the investment request.
+ 7. Agencies must comply with the disposition notice as written. Investments may be re-evaluated if
+    new or enhanced functionality is enabled within available enterprise solutions and may result in
+    an amended disposition issued to the agency.
+
+SUNSET REVIEW DATE: June 30, 2024
+ADOPTION DATE: August 17, 2021
+APPROVAL DATE: Targeted for September 14, 2021 Technology Services Board meeting
+APPROVING AUTHORITY: Bill Kehoe, State Chief Information Officer and Chair, Technology Services
+Board
+
+                                                  2

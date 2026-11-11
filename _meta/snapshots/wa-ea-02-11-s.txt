@@ -1,0 +1,79 @@
+EA-02-11-S                                                                            Replaces:
+State CIO Adopted: 8/13/2026                                                               N/A
+TSB Approved: 8/13/2026
+Sunset Review: 8/13/2028
+
+                                   Mainframe
+                          ENTERPRISE SERVICE STANDARD
+See Also:
+RCW 43.105.006 WaTech Purpose
+RCW 43.105.020 Definitions
+RCW 43.105.054 WaTech Governance
+RCW 43.105.450 State agency information technology security
+
+1. PURPOSE
+This standard establishes the statewide service capability, Mainframe, as an enterprise service
+under EA-02 – Establishing an Enterprise Service Policy. WaTech’s Mainframe as a Service
+(MFaaS) brokered model standardizes mainframe hosting and operational support, providing
+state agencies with access to shared enterprise mainframe computing resources. This service
+allows state agencies to take advantage of economies of scale and expertise in the
+mainframe space.
+In support of the Mainframe service, WaTech provides 24/7 operations and technical
+support, high-availability workload processing, data storage/backup, disaster recovery,
+capacity planning, reporting and performance management, software management, and
+integration support.
+A Washington state agency must not adopt, build, expand, or renew a service with
+capabilities similar to those in Section 4 unless it has an approved waiver or exemption (see
+Section 5).
+
+2. SCOPE
+In Scope
+The Mainframe service must be used by agencies that require mainframe computing for
+large-scale data processing. WaTech offers infrastructure-based system administration of the
+Mainframe service.
+Out of Scope
+Responsibilities associated with applications hosted by agencies are not in scope of this
+service, including:
+     •   Development and maintenance of agency applications hosted on the Mainframe
+     •   Optimization or performance tuning for agency applications hosted on the Mainframe
+     •   Administration of agency applications hosted on the Mainframe
+
+                                                                                                  1
+
+   •   Support of agency applications hosted on the Mainframe
+
+3. APPLICABILITY
+The scope of this standard applies to all state agencies (as defined in RCW 43.105.020).
+This standard does not apply to the K-20 network, institutions of higher education,
+legislature, judiciary, or local governments.
+
+4. ENTERPRISE SERVICE CAPABILITIES
+The Mainframe enterprise service designation encompasses the following capabilities:
+   •   Mainframe infrastructure system administration
+   •   Mainframe operations
+
+5. WAIVERS AND EXEMPTIONS TO THIS STANDARD
+In accordance with POL-01-02-S Technology Policy and Standard Waiver Request Standard,
+agencies may qualify for a waiver from compliance with this standard. No categorical
+exemptions apply.
+
+6. AUTHORITY
+This standard is issued under the authority of RCW 43.105.054, which grants Washington
+Technology Solutions authority to establish statewide technology standards and enterprise
+services. RCW 43.105.385 establishes Washington Technology Solutions as a central service
+provider for state agencies, supporting the delivery of common enterprise technology
+services. RCW 43.105.450 requires state agencies to comply with statewide information
+technology security policies and standards.
+
+REFERENCES
+   1. Service Catalog Page: Mainframe
+   2. Definition of Terms Used in WaTech Policies and Reports
+   3. RCW 43.105.006 WaTech Purpose
+   4. RCW 43.105.054 WaTech Governance
+   5. RCW 43.105.375 Use of state data center or commercial cloud computing services
+   6. RCW 43.105.450 State agency information technology security
+
+CONTACT INFORMATION
+For questions about this policy, please email the WaTech Policy Mailbox.
+
+                                                                                            2

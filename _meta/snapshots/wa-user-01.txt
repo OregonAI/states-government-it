@@ -1,0 +1,236 @@
+USER-01                                                                                                        Replaces:
+State CIO Adopted: Dec. 10, 2024                                                                              Policy 188
+TSB Approved: Dec. 10, 2024                                                                               March 10, 2010
+Sunset Review: Dec. 10, 2027
+
+                             DIGITAL ACCESSIBILITY POLICY
+See Also:
+RCW 43.105.054 WaTech Governance
+RCW 43.105.052 Powers and duties of agency—Application to higher education, legislature, and judiciary.
+RCW 43.105.020 (22) “State agency”
+
+1. All covered technology must be accessible to and usable by individuals with
+   disabilities, either directly or by supporting the use of assistive technology. The
+   USER-01-01-S Digital Accessibility Standard outlines the minimum levels for
+   compliance.
+
+          a. This includes all technology whether:
+
+                    i. Acquired.
+
+                   ii. Procured.
+
+                  iii. Developed.
+
+                  iv. Substantially modified.
+
+                   v. Substantially enhanced.
+
+                  vi. Technology available at no cost.
+
+2. Regardless of exceptions provided in this policy, agencies must provide
+   individuals with disabilities with effective communication, reasonable
+   modifications, and an equal opportunity to participate in or benefit from their
+   services, programs, and activities.
+
+3. The following exceptions apply to public facing content:
+
+          a. Web content that meets all four of the following points:
+
+                    i. The content was created before the date the state or local
+                       government must comply with this rule, or reproduces paper
+                       documents or the contents of other physical media (audiotapes, film
+                       negatives, and CD-ROMs for example) that were created before the
+                       government must comply with this rule; and
+
+                   ii. The content is kept only for reference, research, or
+                       recordkeeping; and
+
+                                                                                                                      1
+
+            iii. The content is kept in a special area for archived content, and
+
+            iv. The content has not been changed since it was archived.
+
+      b. Preexisting conventional electronic documents that meet all of the
+         following points:
+
+              i. The documents are word processing, presentation, PDF, or
+                 spreadsheet files; and
+
+             ii. They were available on the stated or local government’s website or
+                 mobile app before the date the state or local government must
+                 comply with this rule; and
+
+            iii. Documents that are not currently being used to apply for, access, or
+                 participate in a state or local government’s services, programs, or
+                 activities.
+
+      c. Content posted by a third party when outside of contractual, licensing, or
+         other arrangements with a public entity. Tools and platforms that allow third
+         parties to post content are not part of this exception.
+
+      d. Individualized documents meet all three of the following conditions:
+
+              i. The documents are word processing, presentation, PDF, or
+                 spreadsheet files; and
+
+             ii. The documents are about a specific person, property, or account;
+                 and
+
+            iii. The documents are password-protected or otherwise individually
+                 secured.
+
+      e. Preexisting social media posts.
+
+      f. Where strict adherence would result in a fundamental alteration in the
+         nature of a service, program, or activity of the public entity or in undue
+         financial and administrative burdens.
+
+4. Where a covered technology is not able to be brought into compliance, the
+   system or content owner is responsible for providing individuals with disabilities
+   equivalent access.
+
+5. Effective July 1, 2029, in addition to the requirements set forth in this policy for
+   covered technology, all content and tools that employees or users need to
+   perform essential job duties, access information, or participate in programs must
+
+                                                                                        2
+
+   be accessible or content owner is responsible for providing individuals with
+   disabilities equivalent access.
+
+6. Technology that agencies use at an enterprise level must be held responsible at
+   the service owner level.
+
+7. This policy does not release agencies of their responsibility to provide language
+   access, physical access to buildings, accessible communications to their staff and
+   the public with limited or no internet access, where digital communications may
+   not meet the needs. Agencies must also follow the relevant state policies for
+   language access and disability access.
+
+8. WaTech will sponsor annual digital accessibility awareness training for state
+   agency consumption. WaTech will update this training to keep up with changes
+   in the industry as needed.
+
+9. Agencies must develop an agency policy to support and ensure compliance with
+   this policy and USER-01-01-S Digital Accessibility Standard.
+
+      a. Agencies must have a digital accessibility policy that describes how the
+         agency will execute the state policy and defines accessibility roles and
+         responsibilities within the agency to support this, including the accessibility
+         coordinator.
+
+      b. Agencies will require and document annual digital accessibility awareness
+         training for all employees.
+
+      c. Agencies will require and document additional training for roles with a
+         larger impact on IT accessibility, such as software development. Agencies
+         will determine and document the frequency of the training.
+
+10.Agencies must evaluate current technology accessibility to develop and
+   implement an IT Accessibility Plan and update it at least annually.
+
+      a. The agency’s IT Accessibility Plan identifies how the agency will ensure new
+         covered technologies are accessible and the plan for making existing
+         covered technologies accessible. See Guidance on Applying WCAG 2 to
+         Non-Web Information and Communications Technologies (WCAG2ICT)
+         (w3.org)
+
+      b. Agency plans must minimally contain:
+
+             i. A list of prioritized non-accessible covered technology
+                recommended alternative access methods, and actions to correct the
+                issue.
+
+                                                                                       3
+
+                   1. Agencies must consider impact to users and frequency of use
+                      when prioritizing corrective action, especially for users with
+                      disabilities and/or users of assistive technology.
+
+                   2. Agencies must consult community members with related lived
+                      experience in building IT Accessibility Plan priorities.
+
+             ii. Agencies must identify what agency functions are needed by state
+                 staff and members of the public and evaluate non-accessible content
+                 impacts to those functions.
+
+      c. Agencies must post a public version of their IT Accessibility Plan including
+         recommended alternative access methods. This may be incorporated into
+         the Americans with Disabilities Act transition plan. See ADA Update: A
+         Primer for State and Local Governments, Planning for Success
+
+11.Agencies must identify an information technology accessibility coordinator to be
+   the key contact regarding the agency's information technology accessibility plan
+   and to support complaint resolution.
+
+      a. Agencies must have contact information for the agency accessibility
+         coordinator for any individuals who may encounter access issues or need to
+         request alternate formats.
+
+      b. Agencies may need to meet additional requirements for federal or other
+         partners.
+
+12.Agencies must develop processes and procedures to ensure new covered
+   technology is accessible according to the USER-01-01-S Accessibility Standard.
+
+REFERENCES
+
+   1. Definition of Terms Used in WaTech Policies and Reports.
+   2. Guidance on Applying WCAG 2 to Non-Web Information and Communications
+      Technologies (WCAG2ICT).
+   3. USER-01-01-S Digital Accessibility Standard.
+   4. Executive Order 24-05 Improving Employment Outcomes for People with
+      Disabilities.
+
+CONTACT INFORMATION
+
+For questions about this policy, please email the WaTech Policy Mailbox.
+For technical assistance, please request support at support@watech.wa.gov.
+
+                                                                                        4
+
+DEFINITIONS
+
+Covered Technology:
+All public-facing digital content and tools, including:
+    • Websites,
+    • applications,
+    • documents and media,
+    • blog posts, and
+    • social media content.
+
+Certain non-public-facing content that must also comply including:
+   • All electronic content used for official business to communicate,
+   • emergency notifications,
+   • internal data collection structures,
+   • initial or final decisions adjudicating administrative claims or proceedings,
+   • internal or external program or policy announcements,
+   • notices of benefits, program eligibility, employment opportunities, or
+   • personnel actions, formal acknowledgements or receipts.
+
+Disability
+An actual, perceived, or non-apparent physical, sensory, mental, or cognitive
+condition that has an adverse effect on a person’s ability to carry out day-to-day life
+functions. Environmental barriers may hinder persons with disabilities from fully and
+effectively participating on an equitable basis (Diversity, Equity, Inclusion (DEI
+Glossary | SPSCC)
+
+Equivalent Access
+Equivalent access has such a minimal impact on access that it would not affect the
+ability of individuals with disabilities to use the agency’s web content or mobile app
+to do any of the following in a manner that provides substantially equivalent
+timeliness, privacy, independence, and ease of use:
+    a. Access the same information as individuals without disabilities.
+    b. Engage in the same interactions as individuals without disabilities.
+    c. Conduct the same transactions as individuals without disabilities; and
+    d. Otherwise participate in or benefit from the same services, programs, and
+        activities as individuals without disabilities.
+
+Information Technology Accessibility/Digital Accessibility
+Information technology accessibility or digital accessibility means all people can
+perceive, understand, navigate, and interact with electronic information and be active
+in the digital world. Accessibility supports social inclusion.
+
+                                                                                          5
