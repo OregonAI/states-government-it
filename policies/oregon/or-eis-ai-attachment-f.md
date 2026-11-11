@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-eis-ai-attachment-f
 title: 'State of Oregon Responsible AI Usage Policy: Human in the loop documentation'

@@ -1,4 +1,4 @@
-# Spec: states-it-governance pilot
+# Spec: states-government-it pilot
 
 Status: agreed in grilling on 2026-11-10. Work items are GitHub issues. Research behind it is in `docs/research/01`–`03`.
 
@@ -19,7 +19,7 @@ need passages with citations they can open at the official source.
 
 ## Scope
 
-**States:** Oregon, Washington, California, Colorado.
+**States:** the files in `_meta/sources/`, one per state. The owner approves a new state in its own PR (the seed-list rule: the seed file is the approval gate).
 
 **Inclusion test:** the obligated party is a state government entity or its contractor,
 and the subject is IT, data or AI as a government function.

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-ors-276a
 title: Chapter 276A - Information Technology (2025 Edition)

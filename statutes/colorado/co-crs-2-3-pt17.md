@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: colorado
 id: co-crs-2-3-pt17
 title: Joint Technology Committee

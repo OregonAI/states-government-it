@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: colorado
 id: co-oit-change-management-policy
 title: Enterprise IT Change Management Policy

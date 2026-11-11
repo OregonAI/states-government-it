@@ -14,8 +14,9 @@ from pathlib import Path
 import pytest
 
 from src import ingest as ing
+from src.states import colorado
 
-FIX = Path(__file__).resolve().parent / "fixtures"
+FIX = Path(__file__).resolve().parent.parent / "fixtures" / "colorado"
 RULE_PDF = (FIX / "ccr-8-1501-9.pdf").read_bytes()
 REPEALED_PDF = (FIX / "ccr-8-1501-6-repealed.pdf").read_bytes()
 VENDOR_PDF = (FIX / "oit-vendor-selection-standard.pdf").read_bytes()
@@ -104,4 +105,4 @@ def test_a_ccr_document_says_which_copy_it_is_and_where_its_date_comes_from():
 
 def test_a_partial_repeal_in_the_history_does_not_become_the_effective_date():
     history = "Editor's Notes\n\nHistory\n\nEntire rule eff. 06/30/2025.\nRule 11.3 repealed eff. 01/01/2026.\n"
-    assert ing._co_effective_date(history, "rule") == "2025-06-30"
+    assert colorado._co_effective_date(history, "rule") == "2025-06-30"

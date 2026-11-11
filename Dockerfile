@@ -1,7 +1,7 @@
-# MCP server for the states-it-governance corpus (HTTP transport).
+# MCP server for the states-government-it corpus (HTTP transport).
 #
-#   docker build -t states-it-governance-mcp .
-#   docker run -p 8000:8000 states-it-governance-mcp
+#   docker build -t states-government-it-mcp .
+#   docker run -p 8000:8000 states-government-it-mcp
 #
 # The mirrored corpus is baked in at build time; rebuild the image to pick up new commits.
 #
@@ -10,8 +10,8 @@
 # `git status --porcelain`, and corpus_overview() shells out to `git log -1`. A depth-1
 # clone keeps git working and the image small:
 #
-#   git clone --depth 1 --branch main https://github.com/OregonAI/states-it-governance build/
-#   docker build -t states-it-governance-mcp build/
+#   git clone --depth 1 --branch main https://github.com/OregonAI/states-government-it build/
+#   docker build -t states-government-it-mcp build/
 #
 # HYBRID/API ARCHETYPES need NETWORK EGRESS at runtime for their live half. Keep the
 # degradation HONEST: an upstream outage must report upstream_status: "unavailable",
@@ -42,7 +42,7 @@ CorpusFramework(config_mod.load('_meta/corpus.yml')).ensure_index()" \
 EXPOSE 8000
 
 # --path and --public-hostname both matter behind the tunnel and are easy to omit:
-#   * A Cloudflare Tunnel matches on path but does NOT strip it. Routing /states-it-governance
+#   * A Cloudflare Tunnel matches on path but does NOT strip it. Routing /states-government-it
 #     here forwards the whole path, so the server must mount at that same prefix or
 #     every request 404s.
 #   * Without --public-hostname the SDK's DNS-rebinding guard rejects the forwarded Host
@@ -51,5 +51,5 @@ EXPOSE 8000
 # deployment (in which case pass --path /mcp).
 CMD ["corpus-mcp-serve", "--config", "_meta/corpus.yml", "--http", \
      "--host", "0.0.0.0", "--port", "8000", \
-     "--path", "/states-it-governance/mcp", \
+     "--path", "/states-government-it/mcp", \
      "--public-hostname", "oregonai.morficflux.com"]

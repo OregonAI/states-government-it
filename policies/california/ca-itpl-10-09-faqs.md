@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-itpl-10-09-faqs
 title: Power Management and Shutdown Frequently Asked Questions

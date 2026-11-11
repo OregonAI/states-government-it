@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-pm-01-01-pr
 title: IT Investments Approval and Oversight Procedure

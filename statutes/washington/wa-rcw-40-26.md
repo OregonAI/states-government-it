@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-rcw-40-26
 title: Chapter 40.26 RCW - Biometric identifiers

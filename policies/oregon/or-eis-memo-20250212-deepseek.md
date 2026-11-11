@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-eis-memo-20250212-deepseek
 title: Blocking Access to DeepSeek AI on State Resources

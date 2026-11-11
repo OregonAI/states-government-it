@@ -5,20 +5,21 @@
 > each document. See [DISCLAIMER.md](DISCLAIMER.md).
 
 How state governments regulate their own information technology, including government
-use of AI, as full text an AI agent can search and compare across states. Pilot states:
-Oregon, Washington, California, Colorado.
+use of AI, as full text an AI agent can search and compare across states. The states
+held are the files in [`_meta/sources/`](_meta/sources) (named in `llms.txt`).
 
 Part of the OregonAI civic corpus platform, built on
 [corpus-toolkit](https://github.com/OregonAI/corpus-toolkit). It is also the proof of a
 repeatable pattern: a second policy domain is a new repo with its own
 [`_meta/domain.yml`](_meta/domain.yml) and seed list, and no new shared code.
 
-Status: scaffold. No documents yet.
+Status: live. The corpus holds full-text documents for each state in [`_meta/sources/`](_meta/sources); [STATUS.md](STATUS.md) has the current counts.
 
 | Entry point | For |
 |---|---|
 | [docs/spec.md](docs/spec.md) | What is being built and why |
-| [_meta/domain.yml](_meta/domain.yml) | Scope, states and tag vocabulary |
+| [_meta/domain.yml](_meta/domain.yml) | Scope and tag vocabulary |
+| [_meta/sources/](_meta/sources) | The seed list: one file per state |
 | [CLAUDE.md](CLAUDE.md) | Rules for agents working here |
 | [llms.txt](llms.txt) | Machine-readable index |
 | [STATUS.md](STATUS.md) | Generated health: freshness, coverage, drift |

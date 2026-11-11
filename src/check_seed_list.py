@@ -1,7 +1,14 @@
 #!/usr/bin/env python3
-"""Check the seed list (_meta/source-manifest.yml) against the domain pack (_meta/domain.yml).
+"""Check the seed list (_meta/sources/<state>.yml, one file per state) against the domain pack
+(_meta/domain.yml).
 
   python3 src/check_seed_list.py --check     # exit 1 and list every problem
+
+The states are the files in the seed directory (domain.yml does not list them). A state file
+holds only that state's entries and a non-empty `left_out` record (a list of `text:` items: what
+was found on an official page and not seeded, and why). An instrument's url may not be both seeded
+and left out, and left-out prose may not begin a line with `id:` or `sha256:` (corpus-toolkit
+edits those lines by regex when it records a baseline).
 
 Rules: a key written twice anywhere in the file (e.g. two `sources:` blocks) fails; every entry has the required fields, non-empty; `jurisdiction`, `doc_type` and
 `tags` take only values from domain.yml; `format` is declared from a known set; ids and
@@ -11,6 +18,7 @@ and never both. An empty list fails: a missing or emptied manifest must not pass
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 from pathlib import Path
 
@@ -118,19 +126,76 @@ def check(manifest: dict, domain: dict) -> list[str]:
     return errors
 
 
+_URL = re.compile(r"https?://[^\s)'\",;>]+")
+_TOOLKIT_KEY = re.compile(r"^[ \t]*(?:-[ \t]+)?(id|sha256):")
+
+
+def check_left_out(name: str, left_out, seeded_urls: set) -> list[str]:
+    """The left-out record of one state file: a non-empty list of `{text: <non-empty string>}`."""
+    if not isinstance(left_out, list) or not left_out:
+        return [f"{name}: left_out is missing or empty: record what was found and left out, with the reason"]
+    errors: list[str] = []
+    for i, item in enumerate(left_out):
+        text = item.get("text") if isinstance(item, dict) else None
+        if not isinstance(text, str) or not text.strip():
+            errors.append(f"{name}: left_out item #{i} must be a mapping with a non-empty text")
+            continue
+        for line in text.splitlines():
+            if _TOOLKIT_KEY.match(line):
+                errors.append(f"{name}: left_out item #{i} has a line starting {line.strip()[:30]!r}: "
+                              f"the toolkit's baseline editor reads lines beginning id: or sha256: as an "
+                              f"entry's keys; reword it")
+        for url in _URL.findall(text):
+            url = url.rstrip(".:")
+            if url in seeded_urls:
+                errors.append(f"{name}: {url} is seeded and also left out (left_out item #{i})")
+    return errors
+
+
+def check_seed_dir(seed_dir, domain: dict) -> tuple[dict, list[str]]:
+    """(the combined manifest `{"sources": [...]}`, problems) for a directory of per-state seed files."""
+    seed_dir = Path(seed_dir)
+    files = sorted(seed_dir.glob("*.yml")) if seed_dir.is_dir() else []
+    if not files:
+        return {"sources": []}, [f"no *.yml state files in {seed_dir}: an empty seed list cannot pass"]
+    errors: list[str] = []
+    sources: list = []
+    left: list[tuple[Path, list, object]] = []
+    for f in files:
+        try:
+            doc = load_yaml_text(f.read_text()) or {}
+        except (DuplicateKeyError, yaml.YAMLError) as e:
+            errors.append(f"{f.name}: cannot be loaded: {e}")
+            continue
+        entries = doc.get("sources") or []
+        if not entries:
+            errors.append(f"{f.name}: no entries in sources")
+        for e in entries:
+            if isinstance(e, dict) and e.get("jurisdiction") != f.stem:
+                errors.append(f"{f.name}: entry {e.get('id')!r} has jurisdiction {e.get('jurisdiction')!r}: "
+                              f"a state file holds only {f.stem!r} entries")
+        sources += entries
+        left.append((f, entries, doc.get("left_out")))
+    errors += check({"sources": sources}, {**domain, "states": [f.stem for f in files]}) if sources else []
+    for f, entries, left_out in left:
+        # an index page to watch may be cited in the left-out prose ("watched below"): it is not an instrument
+        urls = {e.get("url") for e in entries if isinstance(e, dict) and not e.get("watch_only")}
+        errors += check_left_out(f.name, left_out, urls)
+    return {"sources": sources}, errors
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     ap.add_argument("--check", action="store_true", help="the default; accepted for gates")
-    ap.add_argument("--manifest", default=str(ROOT / "_meta" / "source-manifest.yml"))
+    ap.add_argument("--seed-dir", default=str(ROOT / "_meta" / "sources"))
     ap.add_argument("--domain", default=str(ROOT / "_meta" / "domain.yml"))
     a = ap.parse_args()
     try:
-        manifest = load_yaml_text(Path(a.manifest).read_text())
         domain = load_yaml_text(Path(a.domain).read_text())
     except (DuplicateKeyError, yaml.YAMLError) as e:
         print(f"seed list cannot be loaded: {e}")
         return 1
-    errors = check(manifest, domain)
+    manifest, errors = check_seed_dir(a.seed_dir, domain)
     for m in errors:
         print(m)
     if errors:

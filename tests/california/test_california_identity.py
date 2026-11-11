@@ -8,8 +8,9 @@ from pathlib import Path
 import pytest
 
 from src import ingest as ing
+from src.states import california
 
-FIX = Path(__file__).resolve().parent / "fixtures"
+FIX = Path(__file__).resolve().parent.parent / "fixtures" / "california"
 CDT = "https://www.cdt.ca.gov/"
 TL_24_01 = (FIX / "cdt-tl-24-01.html").read_bytes()
 S19E = (FIX / "cdt-simm-19e-1-pages-1-2.pdf").read_bytes()
@@ -30,7 +31,7 @@ EO = src("ca-eo-n-5-26", "https://www.gov.ca.gov/x.pdf", "pdf", "Executive Order
 
 def test_an_executive_order_is_its_own_heading_before_the_first_whereas_not_a_letter_that_cites_it():
     assert ing.derive(EO, EO_5_26)[0] == "pdf"
-    letter_text = ing.cdt_html_to_text(TL_24_01)
+    letter_text = california.cdt_html_to_text(TL_24_01)
     assert "Executive Order N-12-23" in letter_text            # the letter's reference list names it
     with pytest.raises(ValueError, match="PDF is not the cited instrument"):
         ing.check_identity({**EO, "citation": "Executive Order N-12-23"}, letter_text, "pdf")

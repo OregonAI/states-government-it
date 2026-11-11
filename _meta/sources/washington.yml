@@ -1,0 +1,1871 @@
+# Washington seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+sources:
+
+  # ======================================================================================
+  # WASHINGTON (issue #5). Discovery tonight: WaTech policy library (watech.wa.gov/policies, 109 items),
+  # Governor's Active executive order list (122 orders), RCW and WAC at app.leg.wa.gov, WaTech AI Resources page.
+  # ======================================================================================
+
+  # ---- Statutes: Revised Code of Washington (the app.leg.wa.gov page serves a whole chapter; sections are one page each)
+  - id: wa-rcw-43-105
+    sha256: "1287417df6e8a2929e07193d322e2fc0b3a5d6f3a19fb255fbdc3d0f57b6104a"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.105&full=true"
+    format: html
+    citation: "RCW chapter 43.105"
+    title: "Chapter 43.105 RCW - Washington Technology Solutions"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [governance, oversight, funding, procurement, cybersecurity, data, ai, digital-services, cloud-resilience]
+    recheck: monthly
+    why_relevant: "The enabling statute for Washington Technology Solutions (WaTech) and its director, the State CIO (43.105.006-43.105.025, powers and duties 43.105.052-43.105.060, IT governance 43.105.054), the Office of Cybersecurity and the State CISO (43.105.450-43.105.470), the Office of Privacy and Data Protection including review of AI projects (43.105.369), the Technology Services Board (43.105.285-43.105.291), the statewide IT portfolio and major-project oversight (43.105.220-43.105.265), cloud and state data center use (43.105.375), and WaTech as central service provider and its revolving account (43.105.342, 43.105.385). The page serves the whole chapter, so the electronic public records access sections (43.105.351-43.105.359) and the K-20 network section (43.105.825, telecom) come with it."
+  - id: wa-rcw-40-26
+    sha256: "59359a6263f03218d2455c62b1ea29a92f1f54488d7edc5515bdd7cbca973884"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=40.26&full=true"
+    format: html
+    citation: "RCW chapter 40.26"
+    title: "Chapter 40.26 RCW - Biometric identifiers"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [data]
+    recheck: monthly
+    why_relevant: "Governs how state agencies collect, use, store and retain biometric identifiers (notice and consent, no sale, retention limits). Government-held data; cited by WaTech policy DATA-03."
+  - id: wa-rcw-42-56-590
+    sha256: "f903d0ddb2745afec078eef42153db70a207242274995cd20a6dde76286dbbe5"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=42.56.590"
+    format: html
+    citation: "RCW 42.56.590"
+    title: "RCW 42.56.590 - Personal information - Notice of security breaches"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [data, cybersecurity]
+    recheck: monthly
+    why_relevant: "The breach-notification duty of state and local agencies that own or license personal information (the agency-applicable provision; the rest of chapter 42.56, the Public Records Act, is out of scope). One section."
+  - id: wa-rcw-39-26-340
+    sha256: "b08c969fa896e9a26e6145fff8cafd4702b49f3c0986323c80455426c69a2a55"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=39.26.340"
+    format: html
+    citation: "RCW 39.26.340"
+    title: "RCW 39.26.340 - Data-sharing agreements - When required"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [data, procurement, cybersecurity]
+    recheck: monthly
+    why_relevant: "Requires a written data-sharing agreement before an agency shares category 3 or higher data with a contractor, conforming to the data-sharing policies the Office of Cybersecurity sets under RCW 43.105.054. Cited by WaTech policies DATA-03 and DATA-04. One section of the state procurement chapter (the rest is left out, see the left-out notes)."
+  - id: wa-rcw-39-34-240
+    sha256: "b415faab8900ac63aad2f5eeaf019339d40a8a0f6b63c6584a1de0dac781ebbe"
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=39.34.240"
+    format: html
+    citation: "RCW 39.34.240"
+    title: "RCW 39.34.240 - Data requests - When written agreement required"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [data, cybersecurity]
+    recheck: monthly
+    why_relevant: "Requires a written agreement, conforming to the policies of the Office of Cybersecurity, before one public agency requests category 3 or higher data from another. The sibling of RCW 39.26.340 (agency to contractor), from the same act (2021 c 291). Cited by WaTech policies DATA-03 and POL-01. One section of the interlocal cooperation chapter."
+  - id: wa-rcw-43-386
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.386&full=true"
+    format: html
+    citation: "RCW chapter 43.386"
+    title: "Chapter 43.386 RCW - Facial recognition"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature; published by the Statute Law Committee and Code Reviser
+    tags: [ai, data]
+    recheck: monthly
+    stub: true
+    stub_reason: "Borderline for scope, owner decision: the chapter governs state and local agency use of facial recognition services (accountability reports, meaningful human review, testing, training) but section 43.386.070 and 43.386.080 are law-enforcement provisions, and the scope statement puts law-enforcement technology out except where a general agency-AI rule names it. The source fetched fine on 2026-11-10; the entry becomes a document if the owner takes it in."
+    why_relevant: "Washington's only enacted statute found that regulates agency use of an AI technology (facial recognition) with human review, testing and accountability-report duties. Cited by WaTech policy DATA-03."
+  - id: wa-law-2026-c167
+    url: "https://lawfilesext.leg.wa.gov/biennium/2025-26/Pdf/Bills/Session%20Laws/House/1170-S2.SL.pdf"
+    format: pdf
+    citation: "Chapter 167, Laws of 2026 (E2SHB 1170), section 6"
+    title: "Artificial Intelligence - Disclosures - Content Provenance (Chapter 167, Laws of 2026)"
+    doc_type: statute
+    jurisdiction: washington
+    issuing_body: Washington State Legislature
+    tags: [ai, digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: "Enacted and signed 2026-03-24 but not in force: the act takes effect 2027-02-01 and has no RCW chapter number yet (section 8 makes section 6 a new chapter in Title 42 RCW). The corpus holds in-force instruments only. Section 6 requires a government agency that makes an AI system available to interact with consumers to disclose the AI interaction; sections 1-5 bind private providers (out of scope). Becomes a document at the next code revision once in force."
+    why_relevant: "Section 6 binds state and local government agencies that make an AI system available to interact with consumers: clear, plain-language disclosure before or at the time of interaction. The only enacted Washington statute found whose subject is agency disclosure of AI use."
+
+  # ---- Rules: none (see the left-out notes: WaTech's Title 143 WAC holds no IT rules)
+
+  # ---- Executive orders (Governor's Active list; all five are text PDFs)
+  - id: wa-eo-24-01
+    sha256: "ea4ec9d982241092bfb6dcda61498a1ff39a7a166c8b830ab33c2d5ad0109e84"
+    url: "https://governor.wa.gov/sites/default/files/exe_order/24-01%20-%20Artificial%20Intelligence%20%28tmp%29_0.pdf"
+    format: pdf
+    citation: "Executive Order No. 24-01"
+    title: "Artificial Intelligence"
+    doc_type: executive_order
+    jurisdiction: washington
+    issuing_body: Office of the Governor
+    tags: [ai, governance]
+    recheck: monthly
+    identity_text: "EXECUTIVE ORDER 24-01"
+    why_relevant: "Directs WaTech, with the Department of Enterprise Services and the Office of Equity, to produce generative AI guidelines for state agency procurement, use and monitoring, an equity impact guidance and an accountability framework, and to fold AI risk assessment into security and privacy review. Listed Active on the Governor's executive order list (issued 01/30/2024; Jay Inslee)."
+  - id: wa-eo-16-01
+    sha256: "0d5dfd47297a4dccde402ad8e89366637b7312e13238a4b8bb54a388e4625bee"
+    url: "https://governor.wa.gov/sites/default/files/exe_order/eo_16-01.pdf"
+    format: pdf
+    citation: "Executive Order No. 16-01"
+    title: "Privacy Protection and Transparency in State Government"
+    doc_type: executive_order
+    jurisdiction: washington
+    issuing_body: Office of the Governor
+    tags: [data, governance]
+    recheck: monthly
+    identity_text: "EXECUTIVE ORDER 16-01"
+    why_relevant: "Directs state agencies on privacy protection: the Office of Privacy and Data Protection's duties, annual privacy review of data collection, limits on selling personal information, retention and privacy policy updates. Listed Active on the Governor's executive order list (issued 01/06/2016; Jay Inslee)."
+  - id: wa-eo-19-04
+    sha256: "911eb0816c1dff25e115ad895479728a48389f3a959dc993d2588641a97223a1"
+    url: "https://governor.wa.gov/sites/default/files/exe_order/19-04%20-%20OneWA.pdf"
+    format: pdf
+    citation: "Executive Order No. 19-04"
+    title: "One Washington: Modernization of State Administrative Business and Systems"
+    doc_type: executive_order
+    jurisdiction: washington
+    issuing_body: Office of the Governor
+    tags: [oversight, governance]
+    recheck: monthly
+    identity_text: "EXECUTIVE ORDER 19-04"
+    why_relevant: "One Washington program: directs modernization of state administrative business systems (finance, budget, procurement, HR and payroll) onto enterprise software, with agency duties. A statewide IT investment directive. Listed Active on the Governor's executive order list (issued 10/30/2019; Jay Inslee)."
+  - id: wa-eo-91-10
+    sha256: "b20eaa02d98d37c6b8ea686c8e5c3c868fa7f48064ae13c33e567b896222e16f"
+    url: "https://governor.wa.gov/sites/default/files/exe_order/eo_91-10.pdf"
+    format: pdf
+    citation: "Executive Order No. 91-10"
+    title: "Establishing the Governor's Policy on Electronic Message Systems"
+    doc_type: executive_order
+    jurisdiction: washington
+    issuing_body: Office of the Governor
+    tags: [governance, data]
+    recheck: monthly
+    identity_text: "EXECUTIVE ORDER 91-10"
+    why_relevant: "The Governor's policy on electronic message systems: agencies must adopt policies on email, voice mail and other electronically stored data. Listed Active on the Governor's executive order list (issued 10/01/1991; Booth Gardner)."
+  - id: wa-eo-00-02
+    sha256: "8357f4f07a8805d5260118e8a42397d904ab931c77c5ad1bddd9117c51cec976"
+    url: "https://governor.wa.gov/sites/default/files/exe_order/eo_00-02.pdf"
+    format: pdf
+    citation: "Executive Order No. 00-02"
+    title: "Computer Software Piracy"
+    doc_type: executive_order
+    jurisdiction: washington
+    issuing_body: Office of the Governor
+    tags: [governance, procurement]
+    recheck: monthly
+    identity_text: "EXECUTIVE ORDER 00-02"
+    why_relevant: "Directs each agency to adopt procedures that prevent unlawful acquisition and use of computer software, keep software inventories and record-keeping, and send their policies to the (former) Information Services Board. Listed Active on the Governor's executive order list (issued 02/01/2000; Gary Locke)."
+
+  # ---- WaTech AI guidance (Executive Order 24-01 deliverables and related) and Washington AI stubs
+  - id: wa-watech-genai-procurement-guidelines
+    sha256: "603b16c6b8f2b1aa960fa246aeded538c5209a02c2cfd7e322c696b64c6f6151"
+    url: "https://watech.wa.gov/sites/default/files/2024-11/Initial%20Procurement%20Guidelines%20for%20GenAI%20Final.pdf"
+    format: pdf
+    citation: "WaTech Guidance, September 2024"
+    title: "Initial procurement guidelines for public sector procurement, deployment, and monitoring of Generative AI Technology"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [ai, procurement]
+    recheck: monthly
+    identity_text: "Initial procurement guidelines for public sector procurement"
+    why_relevant: "Risk-tiered procurement, deployment and monitoring guidance for generative AI. WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+  - id: wa-watech-ai-risk-assessments
+    sha256: "62b02511a4c86cfde71f07211226d2472f3cb7e37b8b8d70bd42d3388b505090"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/EO%2024-01%20Risk%20Guidance_Final.pdf"
+    format: pdf
+    citation: "WaTech Guidance, December 2024"
+    title: "Implementing risk assessments for high-risk AI systems"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [ai, governance]
+    recheck: monthly
+    identity_text: "Implementing risk assessments for high-risk AI systems"
+    why_relevant: "How agencies run risk assessments for high-risk AI systems. WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+  - id: wa-watech-genai-deployment-guidelines
+    sha256: "9ee36a62de3752eff7201bc21ea1fd19df855504fdeb0356fb1df8c76e7e4326"
+    url: "https://watech.wa.gov/sites/default/files/2024-12/Equity%20Analysis%20Guidelines%20for%20Deployment%20of%20Generative%20AI-WaTech_2024.pdf"
+    format: pdf
+    citation: "WaTech Guidance, December 2024"
+    title: "Guidelines for Deployment of Generative AI"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [ai, governance]
+    recheck: monthly
+    identity_text: "Guidelines for Deployment of Generative AI"
+    why_relevant: "Equity analysis guidelines for deploying generative AI. WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+  - id: wa-watech-ai-risk-level-guidance
+    sha256: "a291e5d8367c200043c602ebc90cf2b275c8a3f90718aa55c1d27b9b0358f159"
+    url: "https://watech.wa.gov/sites/default/files/2025-02/AI%20risk%20guidance%20final.pdf"
+    format: pdf
+    citation: "WaTech Guidance (listed as 'AI risk guidance')"
+    title: "Artificial Intelligence Risk Level Guidance"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [ai, governance]
+    recheck: monthly
+    identity_text: "Artificial Intelligence Risk Level Guidance"
+    why_relevant: "When an AI system is high-risk, the minimum requirements to identify it. WaTech guidance issued under Executive Order 24-01 and listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+  - id: wa-watech-genai-accountability-framework
+    sha256: "d3a039c0cf1065a808fbd85d1afafcd4faed7df3576f4989b5a3519b547527e9"
+    url: "https://watech.wa.gov/sites/default/files/2025-12/EO%2024-01%20Generative%20AI%20Accountability%20Framework%20-%20FINAL%20-%2020250108.pdf"
+    format: pdf
+    citation: "Office of Equity Guidance (listed as 'Generative AI Accountability Framework')"
+    title: "Framework for Accountability in Generative Artificial Intelligence"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington State Office of Equity, created in partnership with Washington Technology Solutions (WaTech) and the Department of Enterprise Services (DES)
+    tags: [ai, governance]
+    recheck: monthly
+    identity_text: "Framework for Accountability in Generative Artificial Intelligence"
+    why_relevant: "Initial guidance on equitable and responsible use of generative AI by state agencies. Issued by the Office of Equity under Executive Order 24-01 (section 7, the Office of Equity oversees the accountability framework), in partnership with WaTech and DES. Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+  - id: wa-watech-ads-procurement-guidance
+    sha256: "fd7f082ff44c66e7511f3baa2ffda7ff0c3bcc96b4ba49c85a1f7c6973142971"
+    url: "https://watech.wa.gov/sites/default/files/2024-01/ADS%20Procurement%20Guidance%20-%2012-2023.pdf"
+    format: pdf
+    citation: "WaTech Guidance, December 2023"
+    title: "Automated Decision Systems Procurement and Use Guidance"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [ai, procurement]
+    recheck: monthly
+    identity_text: "Automated Decision Systems Procurement and Use Guidance"
+    why_relevant: "Procurement and ongoing monitoring guidance for automated decision systems (dated December 2023, before Executive Order 24-01). Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+  - id: wa-watech-genai-interim-guidelines
+    url: "https://watech.wa.gov/sites/default/files/2023-09/State%2520Agency%2520Generative%2520AI%2520Guidelines%25208-7-23%2520.pdf"
+    format: pdf
+    citation: "WaTech interim guidelines for generative AI use (8-7-23)"
+    title: "State Agency Generative AI Guidelines (interim, 8-7-23)"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [ai, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "The link the WaTech AI Resources page publishes for it returns HTTP 404 (fetched 2026-11-10; the single-decoded URL also returns 404). Not shown as withdrawn: the page still describes the guidelines as the initial framework. Becomes a document if WaTech restores the file."
+    why_relevant: "WaTech's interim generative AI guidelines (August 2023), the initial framework the AI Resources page still cites. Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+  - id: wa-des-genai-contract-clauses
+    sha256: "9eeea57d7916c28c7f71412eb2e1dd2b4573991095bb63986c48c5ca59f89aa8"
+    url: "https://des.wa.gov/sites/default/files/2025-04/WA-Procurement-AI-contract-clauses.docx"
+    format: docx
+    citation: "Generative AI Contract Clauses for IT (Department of Enterprise Services)"
+    title: "Generative AI Contract Clauses for IT"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Department of Enterprise Services
+    tags: [ai, procurement]
+    recheck: monthly
+    identity_text: "Generative AI Contract Clauses"
+    why_relevant: "Model AI contract clauses for state IT procurement, linked first on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
+
+  # ---- WaTech technology policy library: policies, standards, procedures and guidelines, in library order.
+  # ---- Policy, procedure and guideline -> doc_type policy; standard -> doc_type standard. Stubs: Word-only files.
+  - id: wa-pol-01
+    sha256: "526135c51571c506ed5b3f100118ec079b6079c2b9e2d511225f73fa78abd9da"
+    url: "https://watech.wa.gov/sites/default/files/2024-07/POL-01%20Technology%20Policies%2C%20Standards%2C%20and%20Procedures_1.pdf"
+    format: pdf
+    citation: "WaTech Policy POL-01"
+    title: "Technology Policies, Standards, and Procedures Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance]
+    recheck: monthly
+    identity_text: "POL-01"
+    why_relevant: "Item of the WaTech policy library, chapter '1. Policies on Policies' (listed as type Policies). Listed at https://watech.wa.gov/policies/technology-policies-standards-and-procedures-policy."
+  - id: wa-pol-01-01-pr
+    sha256: "32537a01911ac286da4e10455f256cf859d0ca81867f9c91cc3becf0d29d6a1f"
+    url: "https://watech.wa.gov/sites/default/files/2026-07/POL-01-01-PR_WaiverExemptionProcedure.pdf"
+    format: pdf
+    citation: "WaTech Procedure POL-01-01-PR"
+    title: "Technology Policies and Standards Waiver Procedure"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance]
+    recheck: monthly
+    identity_text: "POL-01-01-PR"
+    why_relevant: "Item of the WaTech policy library, chapter '1. Policies on Policies' (listed as type Procedures). Listed at https://watech.wa.gov/policies/technology-policies-and-standards-waiver-procedure."
+  - id: wa-pol-01-01-s
+    sha256: "dd5c5b98cdedaac1e7fe4a68b4952e7964d54c0d5ad409de0781d36d49af6d4c"
+    url: "https://watech.wa.gov/sites/default/files/2023-12/Policy%20Standard%20Naming%20Convention_0.pdf"
+    format: pdf
+    citation: "WaTech Standard POL-01-01-S"
+    title: "Naming Convention Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance]
+    recheck: monthly
+    identity_text: "POL-01-01S"
+    why_relevant: "Item of the WaTech policy library, chapter '1. Policies on Policies' (listed as type Standards). Listed at https://watech.wa.gov/policies/naming-convention-standard."
+  - id: wa-pol-01-02-s
+    sha256: "7accee9998f55a9f596f94433a71de2e2232513526f88e24f674e1cbf2ceb17b"
+    url: "https://watech.wa.gov/sites/default/files/2024-07/POL-01-02-S%20Technology%20Policy%20and%20Standard%20Waiver%20Request%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard POL-01-02-S"
+    title: "Technology Policy & Standard Waiver Request Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance]
+    recheck: monthly
+    identity_text: "POL-01-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '1. Policies on Policies' (listed as type Standards). Listed at https://watech.wa.gov/policies/technology-policy-standard-waiver-request-standard."
+  - id: wa-mgmt-01
+    sha256: "5e2fdaa1c67cec5ffb954e858bc6fac893090ca8cd835d5f129a1e09deccb003"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/112_TechnologyPortfolioFoundation-Approved%252020203010.pdf"
+    format: pdf
+    citation: "WaTech Policy MGMT-01"
+    title: "Technology Portfolio Foundation"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, governance]
+    recheck: monthly
+    identity_text: "Technology Portfolio Foundation"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Policies). Listed at https://watech.wa.gov/policies/technology-portfolio-foundation."
+  - id: wa-mgmt-01-01-g
+    sha256: "4f2ea19a87ac19afee451c5ca51fb633f0b25fd82ca7d3e4d0595a2c9870eb16"
+    url: "https://watech.wa.gov/sites/default/files/2024-02/Standard%20Application%20Guidelines%20Update%202023.pdf"
+    format: pdf
+    citation: "WaTech Guideline MGMT-01-01-G"
+    title: "Application Guidelines"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, governance]
+    recheck: monthly
+    identity_text: "MGMT-01-01-G"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/application-guidelines."
+  - id: wa-mgmt-01-01-s
+    sha256: "740336128ad21951d3a1bbf75650533517d86f1fdfbf8cf86a85eca987be79e9"
+    url: "https://watech.wa.gov/sites/default/files/2024-07/MGMT-01-01-S%20TPF%20-%20Application%20Standard_3.pdf"
+    format: pdf
+    citation: "WaTech Standard MGMT-01-01-S"
+    title: "Technology Portfolio Foundation - Applications Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, governance]
+    recheck: monthly
+    identity_text: "MGMT-01-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Standards). Listed at https://watech.wa.gov/policies/technology-portfolio-foundation-applications-standard."
+  - id: wa-mgmt-01-02-s
+    sha256: "497ca6c1b2e6a1f3e09960cbe9f3363c7757cad4aceefe9c0cc72ea3402ed9ab"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/112.20%2520Standard%2520-%2520Infrastructure-%2520Approved%252020200310.pdf"
+    format: pdf
+    citation: "WaTech Standard MGMT-01-02-S"
+    title: "Technology Portfolio Foundation - Infrastructure"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, governance]
+    recheck: monthly
+    identity_text: "Standard 112.20"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Standards). Listed at https://watech.wa.gov/policies/technology-portfolio-foundation-infrastructure."
+  - id: wa-mgmt-01-03-s
+    sha256: "d4e59e12197e299ab1b871d06d9c811c984b614fec991ad94e8f2d8be7ca4b35"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/112.30_Portfolio_Projects_As_Approved.pdf"
+    format: pdf
+    citation: "WaTech Standard MGMT-01-03-S"
+    title: "Managing Information Technology Portfolios Standards - Projects"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, governance]
+    recheck: monthly
+    identity_text: "STANDARD 112.30"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Standards). Listed at https://watech.wa.gov/policies/managing-information-technology-portfolios-standards-projects."
+  - id: wa-mgmt-02
+    sha256: "9e965f4c078101c6f033babf6230b2600f898fac6b23508fe4e089f19f8a2944"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/Policy_113_adopted_1-12-23_0.pdf"
+    format: pdf
+    citation: "WaTech Policy MGMT-02"
+    title: "Technology Business Management (TBM)"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [funding, oversight]
+    recheck: monthly
+    identity_text: "Technology Business Management (TBM)"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Policies). Listed at https://watech.wa.gov/policies/technology-business-management-tbm."
+  - id: wa-mgmt-02-01-s
+    sha256: "4fbee2a1ea8f8624fb6eb997b3df71fbf4f7421d9b5532836d187f566001a0e8"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/Std_113.10_adopted_1-12-23.pdf"
+    format: pdf
+    citation: "WaTech Standard MGMT-02-01-S"
+    title: "TBM IT Expenditure Data Provision Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [funding, oversight]
+    recheck: monthly
+    identity_text: "Standard 113.10"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Standards). Listed at https://watech.wa.gov/policies/tbm-it-expenditure-data-provision-standard."
+  - id: wa-mgmt-02-02-s
+    sha256: "0e0e4c64247b8a43f62c7ea290fd1328e2aa6901f4a9758236e05710b23656e2"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/Std_113.30_adopted_1-12-23.pdf"
+    format: pdf
+    citation: "WaTech Standard MGMT-02-02-S"
+    title: "TBM Taxonomy"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [funding, oversight]
+    recheck: monthly
+    identity_text: "TBM Taxonomy"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Standards). Listed at https://watech.wa.gov/policies/tbm-taxonomy."
+  - id: wa-mgmt-02-03-s
+    sha256: "b277938ed714a8b4c0ce2eee396791f9edeb9892563147ea6c67932906241298"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/Std_113.40_adopted_1-12-23.pdf"
+    format: pdf
+    citation: "WaTech Standard MGMT-02-03-S"
+    title: "TBM Reporting Solution Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [funding, oversight]
+    recheck: monthly
+    identity_text: "TBM Reporting Solution Standard"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Standards). Listed at https://watech.wa.gov/policies/tbm-reporting-solution-standard."
+  - id: wa-mgmt-03
+    sha256: "b491048bd4a5e34b880c60eace82aafc0f451abd38080fb84fccca6a4d022c43"
+    url: "https://watech.wa.gov/sites/default/files/2023-12/114_BusinessApplicationSystemsGovernance.pdf"
+    format: pdf
+    citation: "WaTech Policy MGMT-03"
+    title: "Business Application/System Governance Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, oversight]
+    recheck: monthly
+    identity_text: "OCIO Policy #114"
+    why_relevant: "Item of the WaTech policy library, chapter '2. Management & Governance' (listed as type Policies). Listed at https://watech.wa.gov/policies/business-applicationsystem-governance-policy."
+  - id: wa-ea-01
+    sha256: "6be5951135d45495a3891c3a5db26def4a817e49e3f3e0320f36153df7fbf424"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/EA-01%20Enterprise%20Architecture%20Program_0.pdf"
+    format: pdf
+    citation: "WaTech Policy EA-01"
+    title: "Enterprise Architecture Program Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-01"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Policies). Listed at https://watech.wa.gov/policies/enterprise-architecture-program-policy."
+  - id: wa-ea-01-01-g
+    sha256: "34af2767960f16bc6ae9e1ae0515923bee008684a61231edc34043e3b95b082e"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/joint-office-of-the-cio-state-archives-records-and-cloud-storage-guidelines-%2528february-2019%2529_0.pdf"
+    format: pdf
+    citation: "WaTech Guideline EA-01-01-G"
+    title: "Online File Storage Guidance"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    identity_text: "Online File Storage Guidance"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/online-file-storage-guidance."
+  - id: wa-ea-01-00-s
+    sha256: "8ffe2b3584e9d92bc110c3c4e8548e68af6d56b76e910380b5841e3682c0dc28"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/EA-01-01-S%20Criteria%20for%20Developing%20Principles%20for%20Decision%20Making%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-01-00-S"
+    title: "Criteria for Developing Principles for Decision Making"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    identity_text: "Criteria for Developing Principles for Decision Making"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/criteria-developing-principles-decision-making."
+  - id: wa-ea-01-01-s
+    url: "https://watech.wa.gov/sites/default/files/2023-09/171_10.doc"
+    format: doc
+    citation: "WaTech Standard EA-01-01-S"
+    title: "Computing and Telecommunication Architectural Standards – Internet Domain Name Standards"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: "Published only as a legacy binary Word file (.doc, Word 97-2003). pandoc cannot read that format and nothing else that can (antiword, catdoc, LibreOffice) is installed on the maintainer's machine or on the CI image; hand-parsing the binary would not be a reading this corpus could stand behind. Fetched 2026-11-11 through the Fetcher; no document is written. Choosing a stub is a choice, not a hard limit: antiword and catdoc are installable Ubuntu 24.04 packages (the route pandoc took), so a reader for .doc could be added if the owner wants this one. The library page links no PDF of it."
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/computing-and-telecommunication-architectural-standards-internet-domain-name-standards."
+  - id: wa-ea-01-02-g
+    sha256: "6c79de419ec77c39cb4181cd04e4d0ede1097b97b6eac9fba6442ae7f78bf693"
+    url: "https://watech.wa.gov/sites/default/files/2024-10/EA-01-02-G%20Software%20Quality%20Best%20Practices.pdf"
+    format: pdf
+    citation: "WaTech Guideline EA-01-02-G"
+    title: "Software Quality Best Practices Guideline"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience, oversight]
+    recheck: monthly
+    identity_text: "EA-01-02-G"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/software-quality-best-practices-guideline."
+  - id: wa-ea-01-02-s
+    sha256: "738c52a0c0a4c6f21cb36f864a8c3afd436eae351e08e1f5f667963435f859e6"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/EA-01-02-S%20EA%20Domain%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-01-02-S"
+    title: "EA Domain Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-01-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/ea-domain-standard."
+  - id: wa-ea-01-03-s
+    sha256: "260a6867f5ff52814a3b19ecbf7ceaa08015e5ea7e3ae12929e5b7dd062398b7"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/182_10_10.docx"
+    format: docx
+    citation: "WaTech Standard EA-01-03-S"
+    title: "Enterprise Data Standards Framework"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    identity_text: "Enterprise Data Standards Framework"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-data-standards-framework."
+  - id: wa-ea-01-04-s
+    sha256: "24fb3ed41b1de80bf40677b00b532d4f5667a72dd57d389eb621e71691fdfa01"
+    url: "https://watech.wa.gov/sites/default/files/2025-06/EA-01-04-S%20Email%20Address%20Naming%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-01-04-S"
+    title: "Email Address Naming Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, digital-services]
+    recheck: monthly
+    identity_text: "EA-01-04-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/email-address-naming-standard-0."
+  - id: wa-ea-02
+    sha256: "df31cadc107fee8af102fe96968149a0cfe9019b9396bbbf7353a06513331337"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/EA-02%20Establishing%20an%20Enterprise%20Service_1.pdf"
+    format: pdf
+    citation: "WaTech Policy EA-02"
+    title: "Establishing an Enterprise Service Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-02"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Policies). Listed at https://watech.wa.gov/policies/establishing-enterprise-service-policy."
+  - id: wa-ea-02-01-pr
+    sha256: "e0a58aafec0d5c7309094c8715e581a45ec181d369fac1b1123a4dc96c4df559"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/Enterprise%2520Service%2520Proposal_1.pdf"
+    format: pdf
+    citation: "WaTech Procedure EA-02-01-PR"
+    title: "Establishing an Enterprise Service Proposal"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    identity_text: "ENTERPRISE SERVICE PROPOSAL"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Procedures). Listed at https://watech.wa.gov/policies/establishing-enterprise-service-proposal."
+  - id: wa-ea-02-03-s
+    sha256: "e5436df98c87279e733626a4d637e5d3fe17f64144bc37d4acd1133792ebcab1"
+    url: "https://watech.wa.gov/sites/default/files/2026-04/EA-02-03-S-EnterpriseServiceStandard-DataCenter_0.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-03-S"
+    title: "Enterprise Service: Data Center"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-02-03-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-data-center."
+  - id: wa-ea-02-04-s
+    sha256: "bf068a620a5e49a7d22deefd79ac8881b7080d81ef335c30abdf85fa9f8139cd"
+    url: "https://watech.wa.gov/sites/default/files/2026-04/EA-02-04-S-EnterpriseServiceStandard-WorkforceIdentityandAccess.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-04-S"
+    title: "Enterprise Service: Workforce Identity and Access"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [digital-services, cybersecurity]
+    recheck: monthly
+    identity_text: "EA-02-04-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-workforce-identity-and-access."
+  - id: wa-ea-02-05-s
+    sha256: "5d88d1c9c7c0fa74ed0bd1766cc726e2c37ceb93ba7dacb1d80dd129d5bc5ac4"
+    url: "https://watech.wa.gov/sites/default/files/2026-06/EA-02-05-S_NetworkConnectivity.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-05-S"
+    title: "Enterprise Service: Network Connectivity"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    identity_text: "EA-02-05-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-network-connectivity."
+  - id: wa-ea-02-06-s
+    sha256: "3cb32cdbdd7d3e2a2df66b2d6a3caf57d7af8b57a3449f2fd525f26d7cd23da0"
+    url: "https://watech.wa.gov/sites/default/files/2026-06/EA-02-06-S_SecureConnections.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-06-S"
+    title: "Enterprise Service: Secure Connections"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-02-06-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-secure-connections."
+  - id: wa-ea-02-07-s
+    sha256: "405d8eabd43c818bdaaeb1f8ac4cd3f888a883184822bdb9ff00730fb2bdacc3"
+    url: "https://watech.wa.gov/sites/default/files/2026-08/EA-02-07-S_CIAM_Approved20260813.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-07-S"
+    title: "Enterprise Service: Customer Identity and Access Management"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [digital-services, cybersecurity]
+    recheck: monthly
+    identity_text: "EA-02-07-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-customer-identity-and-access-management."
+  - id: wa-ea-02-08-s
+    sha256: "ad8fc6f7a65ba2e826a6e9361b6869ba72242a48e1eae55167475c1da91140ef"
+    url: "https://watech.wa.gov/sites/default/files/2026-06/EA-02-08-S_Telephony.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-08-S"
+    title: "Enterprise Service: Telephony"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-02-08-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-telephony."
+  - id: wa-ea-02-09-s
+    sha256: "1d20377bf471221a8f307d1d1ff7c715bc455134debfcf545ffb75d66af3aa0b"
+    url: "https://watech.wa.gov/sites/default/files/2026-06/EA-02-09-S_Integrations.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-09-S"
+    title: "Enterprise Service: Integrations"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience, data]
+    recheck: monthly
+    identity_text: "EA-02-09-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-integrations."
+  - id: wa-ea-02-10-s
+    sha256: "a91c837bfc0a7273c0c27ec98b0038bdd786f84351500b65ab91aa05dc0a3404"
+    url: "https://watech.wa.gov/sites/default/files/2026-08/EA-02-10-S_Productivity%20Suite_Approved20260813.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-10-S"
+    title: "Enterprise Service: Productivity Suite"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-02-10-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-productivity-suite."
+  - id: wa-ea-02-11-s
+    sha256: "dbe75b7146291abb876d46fd93cbab086e5e86ae3f9258733e8d1d12ff164575"
+    url: "https://watech.wa.gov/sites/default/files/2026-08/EA-02-11-S_Mainframe_Approved20260813.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-11-S"
+    title: "Enterprise Service: Mainframe"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-02-11-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-mainframe."
+  - id: wa-ea-02-12-s
+    sha256: "1f734adad415a93d63d608d2a04c3838e1d57cca43bfc3773a0188914e623346"
+    url: "https://watech.wa.gov/sites/default/files/2026-08/EA-02-12-S_WA.gov_Approved20260813.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-02-12-S"
+    title: "Enterprise Service: WA.gov"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [digital-services]
+    recheck: monthly
+    identity_text: "EA-02-12-S"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-wagov."
+  - id: wa-ea-03
+    sha256: "14b2ad2c4ae8d41db4ee2575096159cf001289ff801ab608a7243af4e59e6356"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/202.docx"
+    format: docx
+    citation: "WaTech Policy EA-03"
+    title: "Innovation Exemption Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    identity_text: "202 - Innovation Exemption"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Policies). Listed at https://watech.wa.gov/policies/innovation-exemption-policy."
+  - id: wa-ea-03-01-s
+    sha256: "97384e42183352b5bb877a00d5184e303f2b2908c6fb9a020ed989469f33232b"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/202appendixa%252020180214.docx"
+    format: docx
+    citation: "WaTech Standard EA-03-01-S"
+    title: "Innovation Exemption - Appendix A: Innovation Exemption Criteria"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    identity_text: "Innovation Exemption Criteria"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/innovation-exemption-appendix-innovation-exemption-criteria."
+  - id: wa-ea-04
+    sha256: "8828ebd4e079fccee840c4fc7aea834c548631af9ef671c3969d6cfbde87989e"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/EA-04%20IPV6%20Implementation%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy EA-04"
+    title: "Internet Protocol Version 6 (IPv6) Implementation Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience]
+    recheck: monthly
+    identity_text: "EA-04"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Policies). Listed at https://watech.wa.gov/policies/internet-protocol-version-6-ipv6-implementation-policy."
+  - id: wa-ea-04-01-g
+    sha256: "dc034ba9b1214cf9de04d7432de0cabadc3af3d1b3f72a8c685b67cc86e705ff"
+    url: "https://watech.wa.gov/sites/default/files/2023-12/EA-02-03-01-G%20IPV6%20Guidelines%20%282%29.pdf"
+    format: pdf
+    citation: "WaTech Guideline EA-04-01-G"
+    title: "IPv6 Guidelines"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience]
+    recheck: monthly
+    identity_text: "IPV6 IMPLEMENTATION GUIDELINES"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/ipv6-guidelines."
+  - id: wa-ea-04-01-s
+    sha256: "a75f676ff6af70c2b571ae59cae53bfbe25bf7cb898fa911cc74d24aa8e7d8cf"
+    url: "https://watech.wa.gov/sites/default/files/2024-07/IPV6%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard EA-04-01-S"
+    title: "IPv6 Implementation Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience]
+    recheck: monthly
+    identity_text: "STANDARD FOR IMPLEMENTATION OF IPV6"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/ipv6-implementation-standard."
+  - id: wa-ea-122
+    sha256: "89716b7049acc55a47b6640f0ce6c2bedcaf1c4a0fa939b71f4fb745e3e8d241"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/122_AdministrativeFinancialApproval_Approved_20210824.pdf"
+    format: pdf
+    citation: "WaTech Policy EA-122"
+    title: "Administrative and Financial System Investment Approval"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "Policy 122 - Administrative and Financial Systems Investment Approval"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Policies). Listed at https://watech.wa.gov/policies/administrative-and-financial-system-investment-approval."
+  - id: wa-ea-185-10
+    sha256: "aac149509f22647e9c642cac4259e68be66db027b84c6cc99613a85d1c08685a"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/185.10%2520201609%2520rev%252020170403_1.docx"
+    format: docx
+    citation: "WaTech Standard EA 185.10"
+    title: "Enterprise Service: Enterprise Business Processes for Internal Identity Management"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [digital-services, cybersecurity]
+    recheck: monthly
+    identity_text: "Enterprise Business Processes for Internal Identity Management"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-enterprise-business-processes-internal-identity-management."
+  - id: wa-ea-310
+    sha256: "39cb952397f5e253ac885e147770deb3657054857f950d46897ee4619ee4a157"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/Policy%20310%20Migration%20to%20Cloud%20Email%20AS%20APPROVED_Updated_Format_2023.pdf"
+    format: pdf
+    citation: "WaTech Policy EA-310"
+    title: "Statewide Migration to Enterprise Cloud Email Services"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cloud-resilience]
+    recheck: monthly
+    identity_text: "Statewide Migration to Enterprise Cloud Email Services"
+    why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Policies). Listed at https://watech.wa.gov/policies/statewide-migration-enterprise-cloud-email-services."
+  - id: wa-sec-01
+    sha256: "ee899aa263cf1259f33ec9cae707d3a501c93189c67b9d566d4ddf5f122f5571"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/SEC-01%20Washington%20State%20Cybersecurity%20Program%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-01"
+    title: "Washington State Cybersecurity Program Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    identity_text: "SEC-01"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/washington-state-cybersecurity-program-policy."
+  - id: wa-sec-01-01-g
+    sha256: "3a981748c362cc5cdef69c19f5476f76a638075169cf851aca58ee0418d2b029"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/SEC-01-01-G%20Security%20Principles%20Guideline.pdf"
+    format: pdf
+    citation: "WaTech Guideline SEC-01-01-G"
+    title: "Security Principles Guideline"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    identity_text: "SEC-01-01-G"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/security-principles-guideline."
+  - id: wa-sec-02
+    sha256: "e689fbe03f5f6c1387f16aab29e5011c63cd425a8349b89fc955614bf6f64524"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-02%20Security%20Assessment%20and%20Authorization%20Policy_1.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-02"
+    title: "Security Assessment and Authorization Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-02"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/security-assessment-and-authorization-policy."
+  - id: wa-sec-02-01-s
+    sha256: "259da2c5e9c37344461889ce4e7d72ed0eecc5bdd5a36258334f3feef7f51931"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-02-01-S%20Application%20Security%20Standard_0.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-02-01-S"
+    title: "Application Security Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-02-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/application-security-standard."
+  - id: wa-sec-03
+    sha256: "75f6f079cad438098cd8f68a4d8b767587cff2bc5bc680019c75177b145eb47f"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-03%20Information%20Security%20Awareness%20Training%20Policy_0.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-03"
+    title: "IT Security and Privacy Awareness Training Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-03"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/it-security-and-privacy-awareness-training-policy."
+  - id: wa-sec-04
+    sha256: "f9e6358bcde409258eb6944fe83f4379d88973fe3018d1c110db0c963ac5f72a"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-04%20Asset%20Management%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-04"
+    title: "Asset Management Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/asset-management-policy."
+  - id: wa-sec-04-01-g
+    sha256: "4f0c83ef284515c61c8dfa2250de5ccf3dd11911141b7efd39170dddbb6d3f14"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/141_10_10.docx"
+    format: docx
+    citation: "WaTech Guideline SEC-04-01-G"
+    title: "Media Handling and Data Disposal Best Practices"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, data]
+    recheck: monthly
+    identity_text: "Media Handling and Data Disposal Best Practices"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/media-handling-and-data-disposal-best-practices."
+  - id: wa-sec-04-01-s
+    sha256: "7b62a54fb650b099c22ddfbcbe1f5ea0d09852203a22bc838c76fcaab5f2cd73"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-04-01-S%20Data%20Backup%20and%20Recovery%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-01-S"
+    title: "Data Backup and Recovery Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    identity_text: "SEC-04-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/data-backup-and-recovery-standard."
+  - id: wa-sec-04-02-s
+    sha256: "94edbb9031ccb411d6b65e17d8e4628b757cb0b58b73f0d50130ae0672bca4af"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-04-02-S%20Media%20Sanitization%20and%20Disposal%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-02-S"
+    title: "Media Sanitization and Disposal Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/media-sanitization-and-disposal-standard."
+  - id: wa-sec-04-03-s
+    sha256: "656ba3d14afde1e4577827141e6d7f8ae811f2c7bafec100169c0b8a9c58f2a9"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-04-03-S%20Configuration%20Management%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-03-S"
+    title: "Configuration Management Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04-03-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/configuration-management-standard."
+  - id: wa-sec-04-04-s
+    sha256: "77cae7e0f9ef62b279e337d4f2749bd5fb30ea95bddba56568fbc5e8e5827557"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-04-04-S%20Firewall%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-04-S"
+    title: "Firewall Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04-04-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/firewall-standard."
+  - id: wa-sec-04-05-s
+    sha256: "ec34d115052e881f288c65715e980fdc1fd30f03a9603c4dc82340c763b8f9f7"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-04-05-S%20Network%20Security%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-05-S"
+    title: "Network Security Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04-05-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/network-security-standard."
+  - id: wa-sec-04-06-s
+    sha256: "3a2ea54ec1b493d000c56f5e6af064edb5e7046dede87304c600a3a3814a47b9"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-04-06-S%20Mobile%20Device%20Security%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-06-S"
+    title: "Mobile Device Security Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04-06-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/mobile-device-security-standard."
+  - id: wa-sec-04-07-s
+    sha256: "c19f198b8ab704560bb8e47f2dd5e2b6f40bfc1b22f517e1dbb6895425b9c1db"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-04-07-S%20Non-Agency%20Issued%20Device%20Security%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-07-S"
+    title: "Non-Agency Issued Device Security Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04-07-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/non-agency-issued-device-security-standard."
+  - id: wa-sec-04-08-s
+    sha256: "b4b53cc8288941314aa83cc0bfed666d117065f2953b606cb29e9f71d7dca40e"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/SEC-04-08-S%20Unsupported%20Technology%20Retirement%20Standard%20%281%29.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-08-S"
+    title: "Unsupported Technology Retirement"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04-08-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/unsupported-technology-retirement."
+  - id: wa-sec-04-09-s
+    sha256: "a3ea9de45f7b86ebfd9b466d769c71d319ed17ac16c6d72b6049c4a13839efe4"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-04-09-S%20Endpoint%20Detection%20and%20Response%20Standard_1.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-04-09-S"
+    title: "Endpoint Detection and Response Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-04-09-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/endpoint-detection-and-response-standard."
+  - id: wa-sec-05
+    sha256: "d98ed7988276bf9057f4a3fa6375aaf351e00e09cd1f7f684b8fb23e75078d1a"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-05%20Change%20Management%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-05"
+    title: "Change Management Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-05"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/change-management-policy."
+  - id: wa-sec-06
+    sha256: "ba969863b5ceb85888b6f771e10eaff53dfd9904b701ce2efbd153b4146a7292"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-06%20Access%20Control%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-06"
+    title: "Access Control Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-06"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/access-control-policy."
+  - id: wa-sec-06-01-s
+    sha256: "8fa5289d49d04a4a1cf72ba56c9eae69ffe3b19083c5b2ce074c918778e6adb6"
+    url: "https://watech.wa.gov/sites/default/files/2024-10/SEC-06-01-S%20Identification%20and%20Authentication%20Security%20Standard_1.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-06-01-S"
+    title: "Identification and Authentication Security Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-06-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/identification-and-authentication-security-standard."
+  - id: wa-sec-06-02-s
+    sha256: "c884bd24eb977986daa8a85d2c194715a94744c5c21b9377b06298fdcd002efc"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-06-02-S%20Remote%20Access%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-06-02-S"
+    title: "Remote Access Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-06-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/remote-access-standard."
+  - id: wa-sec-07
+    sha256: "f917e66c8a58e6ffa9fe362326184ae231a0585526526a8f5afe6a77ad657675"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-07%20Physical%20and%20Environmental%20Protection%20Policy_1.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-07"
+    title: "Physical and Environmental Protection Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-07"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/physical-and-environmental-protection-policy."
+  - id: wa-sec-08
+    sha256: "271b721af992ce60db13331d257a0e4cdb7cce6237365466404ac4f4dbf695da"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/SEC-08%20Data%20Sharing%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-08"
+    title: "Data Sharing Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, data]
+    recheck: monthly
+    identity_text: "SEC-08"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/data-sharing-policy."
+  - id: wa-sec-08-01-s
+    sha256: "57d76a1b293c07456434f9d11e4f51eb203f1ba980fcce4e31bd8cb69e9bc5cf"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-08-01-S%20Data%20Classification%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-08-01-S"
+    title: "Data Classification Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, data]
+    recheck: monthly
+    identity_text: "SEC-08-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/data-classification-standard."
+  - id: wa-sec-08-02-s
+    sha256: "f922a7dd3242df81311ca26c72a6786184cc5a48713b37143b638240b4483dae"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-08-02-S%20Encryption%20Standard_0.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-08-02-S"
+    title: "Encryption Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, data]
+    recheck: monthly
+    identity_text: "SEC-08-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/encryption-standard."
+  - id: wa-sec-09
+    sha256: "373a106b342357b90368774e4a679e7d3d62e781f9cbf509e6fbf47df3dd0c6e"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-09%20IT%20Security%20Audit%20and%20Accountability%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-09"
+    title: "IT Security Audit and Accountability Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-09"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/it-security-audit-and-accountability-policy."
+  - id: wa-sec-09-01-s
+    sha256: "feffa4c405aeb52961d26a58398c186952e3ed6f72c58326969a825bf841abf1"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-09-01-S%20Security%20Logging%20Standard_1.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-09-01-S"
+    title: "Security Logging Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-09-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/security-logging-standard."
+  - id: wa-sec-10
+    sha256: "41bc721cce21a9e18cae041ebc70f84c2e4857eeb3b97acc21963559673e3554"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-10%20IT%20Security%20Incident%20Response%20Policy_0.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-10"
+    title: "IT Security Incident Response Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-10"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/it-security-incident-response-policy."
+  - id: wa-sec-10-01-s
+    sha256: "ce979a93f5010f16e4a9c4f689d8104e4f57e243ecd6cddde8579a0faa607306"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/SEC-10-01-S%20Traffic%20Light%20Protocol.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-10-01-S"
+    title: "Traffic Light Protocol"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-10-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/traffic-light-protocol."
+  - id: wa-sec-11
+    sha256: "489e942e16ffe303fec8e7fa3f0ab46fb5d80629038504718c1fddd00ec46392"
+    url: "https://watech.wa.gov/sites/default/files/2024-10/SEC-11%20Risk%20Management%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-11"
+    title: "Information Security Risk Management Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-11"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/information-security-risk-management-policy."
+  - id: wa-sec-11-01-g
+    sha256: "7e3dc2f6a9a4de86ff73120c20c9c247a7d8ec4e848a31cf5df28bba455d29ef"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/Electronic_Signature_Guidelines_FINAL.pdf"
+    format: pdf
+    citation: "WaTech Guideline SEC-11-01-G"
+    title: "Electronic Signature Guidelines"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, digital-services]
+    recheck: monthly
+    identity_text: "Electronic Signature Guidelines"
+    no_text_pages: [2, 4]   # page 2 is blank; page 4 has no text layer (checked 2026-11-11 with pdftotext, per page)
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/electronic-signature-guidelines."
+  - id: wa-sec-11-01-s
+    sha256: "7ac338a5558aa9b618f0883bedfee3eab6068e14ddec42f7ecda9cd186ee21a3"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-11-01-S_Information_Security_Risk_Assessment_Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-11-01-S"
+    title: "Risk Assessment Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-11-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/risk-assessment-standard."
+  - id: wa-sec-11-02-s
+    sha256: "ac310edc2321eb4ddbbf69126d101fa2893c007147774f6e0110799f248de740"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-11-02-S_Vulnerability_Management_Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-11-02-S"
+    title: "Vulnerability Management Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-11-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/vulnerability-management-standard."
+  - id: wa-sec-12
+    sha256: "9066de0e3dd6fe43957c7f1d6b3abe27b9265417b12c00afc81c8138749ea339"
+    url: "https://watech.wa.gov/sites/default/files/2024-10/SEC-12%20IT%20Disaster%20Recovery%20Planning%20Policy_1.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-12"
+    title: "Information Technology Disaster Recovery Planning Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    identity_text: "SEC-12"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/information-technology-disaster-recovery-planning-policy."
+  - id: wa-sec-13
+    sha256: "1e146c3a76a30ee8f177900cfc6fe68523db66f576f6761fc114c970bf0eba57"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-13%20International%20Travel%20Technology%20Policy_0.pdf"
+    format: pdf
+    citation: "WaTech Policy SEC-13"
+    title: "International Travel Technology Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-13"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/international-travel-technology-policy."
+  - id: wa-sec-13-01-s
+    sha256: "8651bbdccbfbc108ec29d85e68777f39caf16322e852e30fae76fb6860e9b0e7"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/SEC-13-01-S%20International%20Travel%20Technology%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard SEC-13-01-S"
+    title: "International Travel Technology Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "SEC-13-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/international-travel-technology-standard."
+  - id: wa-pm-01
+    sha256: "ecec35cf24951b6f4deeaecae6e3f038f2c71407a1cbc88fd22a629fd26f9726"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/PM-01%20IT%20Investments%20Approval%20and%20Oversight%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy PM-01"
+    title: "IT Investments - Approval and Oversight Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "PM-01"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Policies). Listed at https://watech.wa.gov/policies/it-investments-approval-and-oversight-policy."
+  - id: wa-pm-01-01-g
+    sha256: "75f89fe4a9250b6d7829ba60d0040afa778d37168c807797f61d9fbe89c3d857"
+    url: "https://watech.wa.gov/sites/default/files/2023-12/131appendixd.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-01-01-G"
+    title: "Managing Information Technology Projects - Critical Indicators of Project Performance"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "Appendix D: Critical Indicators of Project Performance"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/managing-information-technology-projects-critical-indicators-project-performance."
+  - id: wa-pm-01-01-pr
+    sha256: "3534fae57ccba8bb06e77c62ef4a589e6ee2af890eaf634fcd2a29a356a33a42"
+    url: "https://watech.wa.gov/sites/default/files/2023-12/PM-01-01-PR%20IT%20Investments%20Approval%20and%20Oversight%20Procedure.pdf"
+    format: pdf
+    citation: "WaTech Procedure PM-01-01-PR"
+    title: "IT Investments Approval and Oversight Procedure"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "PM-01-01-PR"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Procedures). Listed at https://watech.wa.gov/policies/it-investments-approval-and-oversight-procedure."
+  - id: wa-pm-01-01-s
+    sha256: "bc69a409108b981c36f8d62f42504a3fc29bfb13517a23c74e8058a387a81c1f"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/121.10_GoLive_Readiness_201711_Approved.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-01-01-S"
+    title: "Project Go-Live Readiness Decision Governance"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "Project Go-Live Readiness Decision Governance"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/project-go-live-readiness-decision-governance."
+  - id: wa-pm-01-02-s
+    sha256: "b1f170754e34d7573c87b753090b151e0c8d49dfe873a3e9d995981ef0b7154b"
+    url: "https://watech.wa.gov/sites/default/files/2023-12/PM-01-02-S%20IT%20Project%20Charter.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-01-02-S"
+    title: "IT Project Charter Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "PM-01-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/it-project-charter-standard."
+  - id: wa-pm-01-03-s
+    sha256: "f7f9aa55409ce7a960cb3e2f24ef3429b31bff9f23d91b6823d112091f44f06c"
+    url: "https://watech.wa.gov/sites/default/files/2023-12/PM-01-03-S%20Project%20Characteristics%20by%20Tier%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-01-03-S"
+    title: "Project Characteristics by Tier Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "PM-01-03-S"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/project-characteristics-tier-standard."
+  - id: wa-pm-01-04-s
+    sha256: "15d22b89217917c1a4f334ca4c5ccbc485eec10712c1549bff461aeb9a473439"
+    url: "https://watech.wa.gov/sites/default/files/2024-04/PM-01-04-S%20Tiered%20Oversight%20and%20Reporting%20Standard_2_2024_0.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-01-04-S"
+    title: "Tiered Oversight and Reporting Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "PM-01-04-S"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/tiered-oversight-and-reporting-standard."
+  - id: wa-pm-01-05-s
+    sha256: "e28d9fe1db06e41885d6ea7ecde7a4c2367298e87b678e79efb057d986290b31"
+    url: "https://watech.wa.gov/sites/default/files/2025-07/PM-01-05-S%20Feasibility%20Study%20Requirements%20for%20IT%20Investments%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-01-05-S"
+    title: "Feasibility Study for IT Investments"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "PM-01-05-S"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/feasibility-study-it-investments."
+  - id: wa-pm-01-06-s
+    sha256: "9b12a70c2c92008f65466e34eb4b65bd013df653bf9c722e99d2e344112ac089"
+    url: "https://watech.wa.gov/sites/default/files/2023-12/PM-01-06-S%20IT%20Investment%20Plan%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-01-06-S"
+    title: "IT Investment Plan Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight, funding]
+    recheck: monthly
+    identity_text: "PM-01-06-S"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/it-investment-plan-standard."
+  - id: wa-pm-03
+    sha256: "cf2972db186f8ee5be5eae1b4fa09c7781866d49a120d5964614d7553420a2ab"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/PM-03%20Project%20Quality%20Assurance%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy PM-03"
+    title: "Project Quality Assurance Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight]
+    recheck: monthly
+    identity_text: "PM-03"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Policies). Listed at https://watech.wa.gov/policies/project-quality-assurance-policy."
+  - id: wa-pm-03-01-g
+    sha256: "f57451395b7601a9dc819e83e0cfa58135dcb4506688b41549e54aaba5f9fbd2"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/PM-03-01-G%20Principles%20of%20Quality%20Assurance.pdf"
+    format: pdf
+    citation: "WaTech Guideline PM-03-01-G"
+    title: "Providing Quality Assurance for Information Technology Projects - Principles of Quality Assurance Guideline"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight]
+    recheck: monthly
+    identity_text: "PM-03-01-G"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/providing-quality-assurance-information-technology-projects-principles-quality-assurance-guideline."
+  - id: wa-pm-03-01-s
+    sha256: "c76c99cc88d65a7705b4b5f00c7753dc734812b1b0d8ce2e4ce54cfe8dfc5212"
+    url: "https://watech.wa.gov/sites/default/files/2024-02/PM-03-01-S%20Project%20Quality%20Assurance%20Minimum%20Qualifications%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-03-01-S"
+    title: "Minimum Qualifications for Quality Assurance Providers"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight]
+    recheck: monthly
+    identity_text: "PM-03-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policy/minimum-qualifications-project-quality-assurance-providers."
+  - id: wa-pm-03-02-s
+    sha256: "2c82cd93c61f0779589cd77031b84ecaec24d9a46a7602d27c96ac7b75f846a5"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/PM-03-02-S%20Minimum%20Project%20QA%20Activities-Readiness%20Assessment.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-03-02-S"
+    title: "Minimum Project QA Activities-Readiness Assessment"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight]
+    recheck: monthly
+    identity_text: "PM-03-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/minimum-project-qa-activities-readiness-assessment."
+  - id: wa-pm-03-03-s
+    sha256: "991cf04c9bcea3ef46714b211ae608d6c5ea1f707fa103f2c512b45cc2a8d01e"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/PM-03-03-S%20Minimum%20Project%20QA%20Activities%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard PM-03-03-S"
+    title: "Minimum Project QA Activities"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [oversight]
+    recheck: monthly
+    identity_text: "PM-03-03-S"
+    why_relevant: "Item of the WaTech policy library, chapter '5. Project Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/minimum-project-qa-activities."
+  - id: wa-data-01
+    sha256: "aeaacde3361fa2db3013e7ef1102baa53a2709c93acc70e15a0d3c4cd91bd6f3"
+    url: "https://watech.wa.gov/sites/default/files/2026-06/DATA-01-OpenDataProgram.pdf"
+    format: pdf
+    citation: "WaTech Policy DATA-01"
+    title: "Open Data Program"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data, digital-services]
+    recheck: monthly
+    identity_text: "DATA-01"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Policies). Listed at https://watech.wa.gov/policies/open-data-program."
+  - id: wa-data-01-02-s
+    sha256: "a420f95549b76d8e699d3ba582b53fe8d29d94806681e80c96db4ab7a29cd9a3"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/187_10_MetadataStandard_Approved%252003102020.docx"
+    format: docx
+    citation: "WaTech Standard DATA-01-02-S"
+    title: "Metadata Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data, digital-services]
+    recheck: monthly
+    identity_text: "Standard 187.10 - Metadata Standard"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/metadata-standard."
+  - id: wa-data-01-03-g
+    sha256: "34af2767960f16bc6ae9e1ae0515923bee008684a61231edc34043e3b95b082e"
+    url: "https://watech.wa.gov/sites/default/files/2023-11/joint-office-of-the-cio-state-archives-records-and-cloud-storage-guidelines-%28february-2019%29_0.pdf"
+    format: pdf
+    citation: "WaTech Guideline DATA-01-03-G"
+    title: "State Archives Records and Cloud Storage Guidelines"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    identity_text: "State Archives Records and Cloud Storage Guidelines"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/state-archives-records-and-cloud-storage-guidelines."
+  - id: wa-data-01-04-g
+    sha256: "2c78494ee9e36f91d5e2f97354346cec77fb111254f53794f398b5c5e4b9c475"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/Guidance%2520-%2520Open%2520Data%2520Definitions.docx"
+    format: docx
+    citation: "WaTech Guideline DATA-01-04-G"
+    title: "Open Data Definitions"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data, digital-services]
+    recheck: monthly
+    identity_text: "Open Data Definitions"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/open-data-definitions."
+  - id: wa-data-02
+    sha256: "cfeba418016fceddfdf4e2c53cf44c6f82ed359a216ceef7765006744484664b"
+    url: "https://watech.wa.gov/sites/default/files/2025-10/DATA-02.pdf"
+    format: pdf
+    citation: "WaTech Policy DATA-02"
+    title: "Geospatial Data Management Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data]
+    recheck: monthly
+    identity_text: "DATA-02"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Policies). Listed at https://watech.wa.gov/policies/geospatial-data-management-policy."
+  - id: wa-data-02-01-pr
+    sha256: "e5477c3c8b01e8d3141603e8fe1407da3ce2f7415f7a1dda58c4e10ca9796fa8"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/162_GIS_Policy_and_Standards_%2520Process_ADOPTED_2003.docx"
+    format: docx
+    citation: "WaTech Procedure DATA-02-01-PR"
+    title: "Geospatial Technology Policy and Standards Procedure"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data]
+    recheck: monthly
+    identity_text: "Geospatial Technology Policy and Standards Procedure"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Procedures). Listed at https://watech.wa.gov/policies/geospatial-technology-policy-and-standards-procedure."
+  - id: wa-data-02-01-s
+    sha256: "43505cba3b43efdfdf3ecb8e533e9421c4b0e33ffcd41eca0f65b0f8fa903860"
+    url: "https://watech.wa.gov/sites/default/files/2025-10/DATA-02-01-S_GCDS.pdf"
+    format: pdf
+    citation: "WaTech Standard DATA-02-01-S"
+    title: "Geodetic Control Data Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data]
+    recheck: monthly
+    identity_text: "DATA-02-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/geodetic-control-data-standard."
+  - id: wa-data-02-02-s
+    sha256: "16542f3af2f2daabb232365e9693bfcb3bb3b6816de99f0c7d053429c46d652e"
+    url: "https://watech.wa.gov/sites/default/files/2025-10/DATA-02-02-S.pdf"
+    format: pdf
+    citation: "WaTech Standard DATA-02-02-S"
+    title: "Hydrography Data Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data]
+    recheck: monthly
+    identity_text: "DATA-02-02-S"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/hydrography-data-standard."
+  - id: wa-data-02-03-s
+    sha256: "a5a11c0b1f4c9e2546e1f60a7d6a27acbd39240391501fe0d0d3100c36ce4152"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/161.06_WebMapping_Std_ADOPTED_2014.docx"
+    format: docx
+    citation: "WaTech Standard DATA-02-03-S"
+    title: "Web Mapping Services Publication Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data]
+    recheck: monthly
+    identity_text: "Web Mapping Services Publication Standard"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/web-mapping-services-publication-standard."
+  - id: wa-data-02-05-s
+    sha256: "cbb6264e64e0c5a13a60013ab1ddece48ebcbf5ff4e29a0c976dba9fcbd92b05"
+    url: "https://watech.wa.gov/sites/default/files/2025-10/DATA-02-05-S.pdf"
+    format: pdf
+    citation: "WaTech Standard DATA-02-05-S"
+    title: "NG9-1-1 Geospatial Data Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data]
+    recheck: monthly
+    identity_text: "DATA-02-05-S"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/ng9-1-1-geospatial-data-standard."
+  - id: wa-data-02-07-s
+    sha256: "bdaced01bd725c79c571396fcbc8ed6d37b94932a1ae51e6574a6f883c5e1fb2"
+    url: "https://watech.wa.gov/sites/default/files/2023-09/161.04_GIS_Data_Std_ADOPTED_2014.docx"
+    format: docx
+    citation: "WaTech Standard DATA-02-07-S"
+    title: "Geospatial Data Standards (FGDC)"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data]
+    recheck: monthly
+    identity_text: "Geospatial Data Standards"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/geospatial-data-standards-fgdc."
+  - id: wa-data-03
+    sha256: "2f0d6dff375d577b60ce6d6bc3e1d0643e200cdb9178e32732ae236804da9365"
+    url: "https://watech.wa.gov/sites/default/files/2025-12/DATA-03_0.pdf"
+    format: pdf
+    citation: "WaTech Policy DATA-03"
+    title: "Privacy and Data Protection Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [data, governance]
+    recheck: monthly
+    identity_text: "DATA-03"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Policies). Listed at https://watech.wa.gov/policies/privacy-and-data-protection-policy."
+  - id: wa-data-04
+    sha256: "73601f6466f2cc891eb1d8787925722a423ebddf75cd7edb638a2d2ae7333158"
+    url: "https://watech.wa.gov/sites/default/files/2025-12/DATA-04_AI_Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy DATA-04"
+    title: "Artificial Intelligence"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [ai, governance, data]
+    recheck: monthly
+    identity_text: "DATA-04"
+    why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Policies). Listed at https://watech.wa.gov/policies/artificial-intelligence."
+  - id: wa-user-01
+    sha256: "eb1254d8cb1dc6d4559328d4829ad61f462d3b98ee46330368c4c8ee32e9ffee"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/USER%20-01%20Digital%20Accessibility%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy USER-01"
+    title: "Digital Accessibility Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [digital-services]
+    recheck: monthly
+    identity_text: "USER-01"
+    why_relevant: "Item of the WaTech policy library, chapter '7. End User' (listed as type Policies). Listed at https://watech.wa.gov/policies/digital-accessibility-policy."
+  - id: wa-user-01-01-s
+    sha256: "522008af5beaa1a8b7e9209bf8366a2da9c49bb2ad97042438150113bf084b58"
+    url: "https://watech.wa.gov/sites/default/files/2025-01/USER-01-01-S%20Digital%20Accessibility%20Standard.pdf"
+    format: pdf
+    citation: "WaTech Standard USER-01-01-S"
+    title: "Digital Accessibility Standard"
+    doc_type: standard
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [digital-services]
+    recheck: monthly
+    identity_text: "USER-01-01-S"
+    why_relevant: "Item of the WaTech policy library, chapter '7. End User' (listed as type Standards). Listed at https://watech.wa.gov/policies/digital-accessibility-standard."
+  - id: wa-user-02
+    sha256: "922ed9b8733ba73476eb8285868b3d8aec3aba84cf845e0b15be8e67fdfeb848"
+    url: "https://watech.wa.gov/sites/default/files/2024-09/User-02%20Acceptable%20Use%20Policy.pdf"
+    format: pdf
+    citation: "WaTech Policy USER-02"
+    title: "Acceptable Use Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    identity_text: "USER-02"
+    why_relevant: "Item of the WaTech policy library, chapter '7. End User' (listed as type Policies). Listed at https://watech.wa.gov/policies/acceptable-use-policy."
+  - id: wa-user-03
+    sha256: "56c9aff830b0a9da01e25acc8854f850f74e7777e3e5735ba10907704161b967"
+    url: "https://watech.wa.gov/sites/default/files/2024-08/USER-03%20Mobile%20Device%20Usage%20Policy_0.pdf"
+    format: pdf
+    citation: "WaTech Policy USER-03"
+    title: "Mobile Device Usage Policy"
+    doc_type: policy
+    jurisdiction: washington
+    issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+    tags: [governance, cybersecurity]
+    recheck: monthly
+    identity_text: "USER-03"
+    why_relevant: "Item of the WaTech policy library, chapter '7. End User' (listed as type Policies). Listed at https://watech.wa.gov/policies/mobile-device-usage-policy."
+
+  # ---- Washington index pages to watch (additions and removals go through seed-list review)
+  - id: wa-watch-watech-policies-page-1
+    url: "https://watech.wa.gov/policies?page=0"
+    format: html
+    citation: "WaTech policy library listing"
+    title: "WaTech policy library, listing page 1 of 3"
+    doc_type: policy
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The WaTech technology policy library index (109 items on 2026-11-10: 50 + 50 + 9). A policy added, removed or rescinded here raises a review-the-seed-list report. Rescinded items stay listed with 'Rescinded' in the title."
+  - id: wa-watch-watech-policies-page-2
+    url: "https://watech.wa.gov/policies?page=1"
+    format: html
+    citation: "WaTech policy library listing"
+    title: "WaTech policy library, listing page 2 of 3"
+    doc_type: policy
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The WaTech technology policy library index (109 items on 2026-11-10: 50 + 50 + 9). A policy added, removed or rescinded here raises a review-the-seed-list report. Rescinded items stay listed with 'Rescinded' in the title."
+  - id: wa-watch-watech-policies-page-3
+    url: "https://watech.wa.gov/policies?page=2"
+    format: html
+    citation: "WaTech policy library listing"
+    title: "WaTech policy library, listing page 3 of 3"
+    doc_type: policy
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The WaTech technology policy library index (109 items on 2026-11-10: 50 + 50 + 9). A policy added, removed or rescinded here raises a review-the-seed-list report. Rescinded items stay listed with 'Rescinded' in the title."
+  - id: wa-watch-watech-ai-resources
+    url: "https://watech.wa.gov/artificial-intelligence-resources"
+    format: html
+    citation: "WaTech AI Resources page"
+    title: "WaTech: Artificial Intelligence Resources"
+    doc_type: policy
+    jurisdiction: washington
+    tags: [ai]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Lists the AI policy, Executive Order 24-01 deliverables and ADS guidance; additions here mean a new AI instrument."
+  - id: wa-watch-governor-eo-active-list-1
+    url: "https://governor.wa.gov/office-governor/office/official-actions/executive-orders?governor=All&field_executive_order_status_target_id=221"
+    format: html
+    citation: "Governor's executive order list (all governors, status Active)"
+    title: "Governor's executive orders, Active, all governors, page 1 of 5"
+    doc_type: executive_order
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Index of every Active executive order (122 on 2026-11-10, 25 per page). The page's default view shows only the sitting governor's orders, which would hide an earlier governor's order still in force; this filtered view lists all. A new or changed order raises a review report."
+  - id: wa-watch-governor-eo-active-list-2
+    url: "https://governor.wa.gov/office-governor/office/official-actions/executive-orders?governor=All&field_executive_order_status_target_id=221&page=1"
+    format: html
+    citation: "Governor's executive order list (all governors, status Active)"
+    title: "Governor's executive orders, Active, all governors, page 2 of 5"
+    doc_type: executive_order
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Index of every Active executive order (122 on 2026-11-10, 25 per page). The page's default view shows only the sitting governor's orders, which would hide an earlier governor's order still in force; this filtered view lists all. A new or changed order raises a review report."
+  - id: wa-watch-governor-eo-active-list-3
+    url: "https://governor.wa.gov/office-governor/office/official-actions/executive-orders?governor=All&field_executive_order_status_target_id=221&page=2"
+    format: html
+    citation: "Governor's executive order list (all governors, status Active)"
+    title: "Governor's executive orders, Active, all governors, page 3 of 5"
+    doc_type: executive_order
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Index of every Active executive order (122 on 2026-11-10, 25 per page). The page's default view shows only the sitting governor's orders, which would hide an earlier governor's order still in force; this filtered view lists all. A new or changed order raises a review report."
+  - id: wa-watch-governor-eo-active-list-4
+    url: "https://governor.wa.gov/office-governor/office/official-actions/executive-orders?governor=All&field_executive_order_status_target_id=221&page=3"
+    format: html
+    citation: "Governor's executive order list (all governors, status Active)"
+    title: "Governor's executive orders, Active, all governors, page 4 of 5"
+    doc_type: executive_order
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Index of every Active executive order (122 on 2026-11-10, 25 per page). The page's default view shows only the sitting governor's orders, which would hide an earlier governor's order still in force; this filtered view lists all. A new or changed order raises a review report."
+  - id: wa-watch-governor-eo-active-list-5
+    url: "https://governor.wa.gov/office-governor/office/official-actions/executive-orders?governor=All&field_executive_order_status_target_id=221&page=4"
+    format: html
+    citation: "Governor's executive order list (all governors, status Active)"
+    title: "Governor's executive orders, Active, all governors, page 5 of 5"
+    doc_type: executive_order
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Index of every Active executive order (122 on 2026-11-10, 25 per page). The page's default view shows only the sitting governor's orders, which would hide an earlier governor's order still in force; this filtered view lists all. A new or changed order raises a review report."
+  - id: wa-watch-wac-title-143
+    url: "https://app.leg.wa.gov/wac/default.aspx?cite=143"
+    format: html
+    citation: "WAC Title 143"
+    title: "Title 143 WAC (Consolidated Technology Services) chapter list"
+    doc_type: rule
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Table of contents of WaTech's rule title. It holds two chapters on 2026-11-10 (143-06 public records procedure, 143-10 SEPA guidelines), neither IT governance; a new chapter here would be a candidate rule."
+  - id: wa-watch-rcw-43-105-listing
+    url: "https://app.leg.wa.gov/rcw/default.aspx?cite=43.105"
+    format: html
+    citation: "RCW chapter 43.105 section list"
+    title: "Chapter 43.105 RCW section listing"
+    doc_type: statute
+    jurisdiction: washington
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Section list of the enabling chapter; the chapter text itself is the document above."
+
+# Found and left out: what was seen on an official page and not seeded, with the reason.
+left_out:
+- text: '---- Washington: found and left out (each was seen on an official page on 2026-11-10; the reason is recorded here)'
+- text: |-
+    Rules: WaTech has no IT rules. Title 143 WAC (Consolidated Technology Services, the agency's former name)
+    holds two chapters, 143-06 (public records procedure) and 143-10 (SEPA guidelines), neither IT governance
+    (https://app.leg.wa.gov/wac/default.aspx?cite=143, watched below). RCW 43.105.057 only says the agency
+    "shall adopt rules as necessary". WaTech sets IT requirements by policy and standard, not by WAC. The
+    official bulk route for rules is the open directory https://lawfilesext.leg.wa.gov/law/WAC/; it was not needed.
+     - Chapter 434-662 WAC (Secretary of State, preservation of electronic public records) was found by search
+       only (a lead, not fetched): records-management rules, the same category Oregon left out. OWNER DECISION.
+- text: |-
+    Policy library items not seeded:
+     - EA - 183.20.10 'Identity Management User Authentication Standard (Rescinded 8/13/2026)': the library
+       page itself titles it rescinded, so it is not in force. Its page is still listed; the watch entries
+       above will show it leaving.
+     - Coversheets ('Policy Background' review notes for about 30 items, e.g. DATA-04_AIPolicy_Coversheet.pdf):
+       rationale and due-diligence notes attached to a policy page, not the policy.
+     - Other attachments on policy pages: spreadsheets (App & Infrastructure Inventory Template, Policy
+       Rename Crosswalk), the Waiver Request for O365 and EAD (.docx), ADS definition guidance (MGMT-01-01-S),
+       the DSHS/WaTech Innovation Exemption Justification (EA-03), the Admin_Financial_Criteria PDF (EA-122),
+       Investment-Plan-FAQ and a .docx appendix (PM-01-01-PR), 502g.pdf (SEC-12) and a visual crosswalk
+       (ServiceCatalogConsolidation.pdf, linked from every page). Forms, templates and supporting material.
+     - 'Definition of Terms Used in Policies and Reports' (https://watech.wa.gov/policies/definition-terms-used-policies-and-reports):
+       one HTML page of definitions, each tied to the policies that use it (for example 'Access ... Sources:
+       SEC-04-03-S'), linked from every library listing page under the type 'Policy'. Not seeded: the
+       ingester has no to_text for WaTech HTML pages, and the 109 items counted in the watch entries below are the
+       listing table only. OWNER DECISION whether it enters (it would need a WaTech HTML cleanup first).
+     - EA-01-01-G and DATA-01-03-G link byte-identical PDFs (the joint State Archives records and cloud
+       storage guidelines, February 2019) under two library numbers, so two documents carry one text.
+- text: |-
+    AI material not seeded (WaTech AI Resources page): the State of Washington Generative AI Report (Sept 2024),
+    the AI Task Force reports (Dec 2024, Dec 2025), the OFM workforce-impact report and the 2021 ADS Workgroup
+    report and charter are reports, not instruments. The DES Washington State Procurement Manual (a manual,
+    large, DES-owned) is left out as Oregon left out its procurement statutes. OWNER DECISION.
+- text: |-
+    Executive orders, in scope but not seeded (read in full on 2026-11-10; all are Active):
+     - 16-07 'Building a Modern Work Environment': telework and mobile workforce; WaTech is told to provide shared
+       technology services, but the order is about HR and workplace strategy. Borderline. OWNER DECISION.
+     - 25-06 'Transforming Customer Experience and Service Delivery in State Government Operations': digital-first
+       service delivery and WaTech partnership, but a customer-experience order. Borderline. OWNER DECISION.
+     - 25-05 'Data Center Workgroup': about data centers as an industry and their electricity use (Department
+       of Revenue leads), not state IT. 16-06 'State Agency Enterprise Risk Management': mentions information
+       systems once; general risk management.
+     - 26-05 'Strengthening Fraud Prevention and Accountability for Public Funds' (10/27/2026, Active):
+       fraud prevention for public funds, with one data-analytics duty for WaTech (section e: WaTech, DES and
+       OFM 'shall evaluate opportunities to use existing data and analytics capabilities to identify
+       suspicious payment trends while protecting confidential and legally restricted information').
+       Borderline. OWNER DECISION.
+     - Of the 122 Active orders listed, these are the only ones whose title or text concern state IT, data or
+       AI. Orders were screened by title; the ten above that could be IT were read.
+- text: |-
+    Statutes not seeded:
+     - Chapter 39.26 RCW (state procurement) apart from section 39.26.340, and the other procurement chapters:
+       Oregon's procurement statutes were left out by owner decision; same here. OWNER DECISION.
+     - RCW 42.56.420 (public records exemptions for security information) and the rest of chapter 42.56:
+       cited by WaTech policy SEC-01; the IT-specific part is a few subsections of a general exemption section.
+     - RCW 39.24.240 is a misprint of RCW 39.34.240 in policies DATA-03 and DATA-04 (app.leg.wa.gov returns
+       a page with no section content for cite=39.24.240). The correct section, 39.34.240 'Data requests -
+       When written agreement required', is seeded above.
+     - Chapters 40.14 (records retention) and 43.88 (budget): records management and budgeting, general law.
+     - The 2024 act that created the Washington State AI Task Force (E2SSB 5838): a temporary study body
+       referred to by search results; text not read, and it is not codified in the RCW chapters seeded here.
+     - 2026 c 9 (HB 2606, Office of Privacy and Data Protection performance measures and duties; effective
+       2026-06-11): already codified, its text is inside the RCW 43.105 document (43.105.369).
+     - Bills reported by search as pending or unconfirmed (SB 719 automated decision systems inventory, HB 2667,
+       SB 6284): not found on the legislature's site tonight (the bill page for SB 719 returned 'invalid bill
+       request'); bills not enacted are out of scope. UNVERIFIED whether any was enacted.

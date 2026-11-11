@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-ea-02-01-pr
 title: Establishing an Enterprise Service Proposal

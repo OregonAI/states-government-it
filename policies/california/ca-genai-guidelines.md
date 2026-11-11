@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-genai-guidelines
 title: State of California GenAI Guidelines for Public Sector Procurement, Uses and Training

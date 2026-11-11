@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-eis-ai-attachment-g
 title: 'State of Oregon Responsible AI Usage Policy: Higher-risk use cases requirements'

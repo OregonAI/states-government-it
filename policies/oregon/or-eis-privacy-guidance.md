@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-eis-privacy-guidance
 title: Privacy Guidance for the handling and protection of personal information by state of Oregon agencies

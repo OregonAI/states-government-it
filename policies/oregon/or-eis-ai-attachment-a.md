@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-eis-ai-attachment-a
 title: Agency Artificial Intelligence Adoption Strategy Template and Instructions

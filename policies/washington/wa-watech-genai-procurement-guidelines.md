@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-watech-genai-procurement-guidelines
 title: Initial procurement guidelines for public sector procurement, deployment, and monitoring of Generative

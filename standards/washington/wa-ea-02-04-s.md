@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-ea-02-04-s
 title: 'Enterprise Service: Workforce Identity and Access'

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-ea-03-01-s
 title: 'Innovation Exemption - Appendix A: Innovation Exemption Criteria'

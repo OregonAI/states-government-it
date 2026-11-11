@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-simm-71a
 title: Certification of Compliance with IT Policies Preparation Instructions

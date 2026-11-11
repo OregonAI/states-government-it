@@ -10,6 +10,6 @@
 - [ ] Everything under `## Full text` is verbatim; curator prose confined to
       `## At a glance` / `## Curator notes` / `## Cross-references`
 - [ ] Non-authoritative disclaimer present in each document
-- [ ] Generated files regenerated and committed (`python3 src/build_graph.py`)
-- [ ] `CHANGELOG.md` updated
+- [ ] Generated files regenerated and committed last (`scripts/regen.sh`)
+- [ ] A `changelog.d/<state>-<slug>.md` fragment added (`CHANGELOG.md` is generated from them)
 - [ ] `last_verified` / `verified_by` left empty — the reviewer sets them at approval

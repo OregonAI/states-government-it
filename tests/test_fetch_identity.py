@@ -23,7 +23,7 @@ def names_us(ua) -> bool:
 
 @pytest.mark.parametrize("ua", [
     "OregonAI-CivicCorpus/1.36.4 (+https://github.com/OregonAI/corpus-toolkit; public-records archival)",
-    "Mozilla/5.0 (compatible; OregonAI-CivicCorpus/1.37.0; +https://github.com/OregonAI/states-it-governance)",
+    "Mozilla/5.0 (compatible; OregonAI-CivicCorpus/1.37.0; +https://github.com/OregonAI/states-government-it)",
 ])
 def test_both_toolkit_identities_name_us(ua):
     assert names_us(ua)

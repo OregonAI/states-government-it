@@ -20,10 +20,12 @@ from corpus_toolkit.repo import parse_frontmatter
 from corpus_toolkit.sources.fetch import Fetcher
 
 from src import check_seed_list as csl
+from seedutil import write_seed
 from src import ingest as ing
+from src.states import california
 
-ROOT = Path(__file__).resolve().parent.parent
-PUB = ROOT / "tests" / "fixtures" / "pubinfo"
+ROOT = Path(__file__).resolve().parents[2]
+PUB = ROOT / "tests" / "fixtures" / "california" / "pubinfo"
 URL = "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip"
 
 CH59 = {"code": "GOV", "path": "3.3.1.12"}
@@ -48,7 +50,7 @@ def open_fixture_zip():
 
 
 def bundle(slice_, url=URL):
-    return ing.ca_bundle(open_fixture_zip(), slice_, url, "Sun, 08 Nov 2026 21:26:00 GMT")
+    return california.ca_bundle(open_fixture_zip(), slice_, url, "Sun, 08 Nov 2026 21:26:00 GMT")
 
 
 def text(slice_):
@@ -210,7 +212,7 @@ def make_fetcher(cfg, calls):
 def corpus(tmp_path, src):
     (tmp_path / "_meta").mkdir()
     shutil.copy(ROOT / "_meta" / "corpus.yml", tmp_path / "_meta" / "corpus.yml")
-    (tmp_path / "_meta" / "source-manifest.yml").write_text(yaml.safe_dump({"sources": [src]}))
+    write_seed(tmp_path, [src])
     return config_mod.load(tmp_path / "_meta" / "corpus.yml")
 
 
@@ -276,7 +278,9 @@ def test_a_slice_that_is_not_in_the_download_leaves_no_snapshot(tmp_path):
 
 # ---- the seed list accepts these slices -------------------------------------------------------
 
-DOMAIN = yaml.safe_load((ROOT / "_meta" / "domain.yml").read_text())
+# domain.yml does not list the states: they are the files in _meta/sources/
+DOMAIN = {**yaml.safe_load((ROOT / "_meta" / "domain.yml").read_text()),
+          "states": [p.stem for p in (ROOT / "_meta" / "sources").glob("*.yml")]}
 
 
 def seed(**kw):
@@ -324,31 +328,31 @@ def status_fetcher(statuses, headers=None, sleeps=None):
 def test_a_403_on_a_range_request_is_a_refusal_not_a_generic_error():
     from corpus_toolkit.sources.fetch import Refused
     with status_fetcher([403]) as f, pytest.raises(Refused, match="403"):
-        ing.CaZip(f, URL)
+        california.CaZip(f, URL)
 
 
 def test_a_cloudflare_challenge_on_a_range_request_is_a_challenge():
     from corpus_toolkit.sources.fetch import Challenge
     with status_fetcher([403], headers={"cf-mitigated": "challenge"}) as f, pytest.raises(Challenge):
-        ing.CaZip(f, URL)
+        california.CaZip(f, URL)
 
 
 def test_a_429_on_a_range_request_is_waited_out_then_retried():
     sleeps = []
     with status_fetcher([429, 429], headers={"Retry-After": "7"}, sleeps=sleeps) as f:
-        z = ing.CaZip(f, URL)
+        z = california.CaZip(f, URL)
     assert z.size == len(ZIP) and sleeps == [7.0, 7.0]
 
 
 def test_a_429_that_never_clears_is_refused_after_the_backoff_steps():
     from corpus_toolkit.sources.fetch import Refused
     with status_fetcher([429] * 20) as f, pytest.raises(Refused, match="429"):
-        ing.CaZip(f, URL)
+        california.CaZip(f, URL)
 
 
 def test_a_later_block_read_gets_the_same_discipline():
     from corpus_toolkit.sources.fetch import Refused
     with status_fetcher([206, 403]) as f:
-        z = ing.CaZip(f, URL)
+        z = california.CaZip(f, URL)
         with pytest.raises(Refused, match="403"):
             z.read(10)

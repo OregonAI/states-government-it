@@ -7,12 +7,13 @@ executive order PDF (N-5-26: 'this 30th day of March 2026')."""
 from pathlib import Path
 
 from src import ingest as ing
+from src.states import california
 
-FIX = Path(__file__).resolve().parent / "fixtures"
+FIX = Path(__file__).resolve().parent.parent / "fixtures" / "california"
 ITPL = ing.to_text((FIX / "cdt-itpl-09-03.pdf").read_bytes(), "pdf", "policy", "california")
 TL_PDF = ing.to_text((FIX / "cdt-tl-21-01.pdf").read_bytes(), "pdf", "policy", "california")
-TL_PAGE = ing.cdt_html_to_text((FIX / "cdt-tl-26-01.html").read_bytes())
-SIMM_PAGE = ing.cdt_html_to_text((FIX / "cdt-simm-40a.html").read_bytes())
+TL_PAGE = california.cdt_html_to_text((FIX / "cdt-tl-26-01.html").read_bytes())
+SIMM_PAGE = california.cdt_html_to_text((FIX / "cdt-simm-40a.html").read_bytes())
 EO = ing.to_text((FIX / "eo-n-5-26.pdf").read_bytes(), "pdf", "executive_order", "california")
 CA = "california"
 

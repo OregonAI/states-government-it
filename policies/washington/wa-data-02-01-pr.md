@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-data-02-01-pr
 title: Geospatial Technology Policy and Standards Procedure

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: "states-it-governance"
+corpus: "states-government-it"
 jurisdiction: ""          # the state, from _meta/domain.yml `states` -- never the corpus default
 id: 
 title: ""

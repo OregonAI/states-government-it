@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-gov-7405
 title: 'Government Code, Title 1, Division 7, Chapter 18.1: Electronic and Information Technology'

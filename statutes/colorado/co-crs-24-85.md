@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: colorado
 id: co-crs-24-85
 title: Information Technology Access for Individuals Who are Blind or Visually Impaired

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-sam-5100
 title: 'State Administrative Manual chapter 5100: Information Technology - Department of Technology'
