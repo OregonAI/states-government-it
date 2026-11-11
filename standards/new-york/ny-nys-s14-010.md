@@ -1,0 +1,237 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-york
+id: ny-nys-s14-010
+title: Remote Access
+doc_type: standard
+citation: NYS ITS Standard NYS-S14-010
+authority_level: ''
+issuing_body: New York State Office of Information Technology Services (ITS)
+source_url: https://its.ny.gov/remote-access
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: cd29ec7c8d95def3d96a5bb9adb5450be44153a9bfd09de1692c33ce8d7b3fd3
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Remote Access (NYS ITS Standard NYS-S14-010)
+
+## At a glance
+
+Item of the ITS statewide technology policy and standards library (https://its.ny.gov/policies), category 'Cybersecurity, Statewide Policies' on the listing. The listing prints original publication 04/18/2014 and last modified 08/18/2025.
+
+## Full text
+
+                                                     State Capitol P.O. Box 2062
+                                                       Albany, NY 12220-0062
+                                                           www.its.ny.gov
+
+                New York State
+                                                                      No: NYS-S14-010
+       Information Technology Standard
+
+                          IT Standard:                                Updated: 08/18/2025
+
+                                                                      Issued By: NYS Office of Information
+                Remote Access                                         Technology Services
+
+                                                                      Owner: Chief Information Security Office
+
+ 1.0 Purpose and Benefits
+        This standard establishes authorized methods for remotely accessing New York State
+        (NYS) Information Technology (IT) Resources and services securely.
+        Major security concerns with remote access include the lack of physical security controls,
+        the use of unsecured networks, the connection of infected devices to internal networks,
+        the availability of internal resources to external hosts, potential damage to State
+        resources, and unauthorized access to State information. This standard attempts to
+        address these concerns.
+
+ 2.0 Authority
+        Section 103(10) of the State Technology Law provides the Office of Information
+        Technology Services (ITS) with the authority to establish statewide technology policies,
+        including technology and security standards. Section 2 of Executive Order No. 117, 1
+        established January 2002, provides the State Chief Information Officer with the authority to
+        oversee, direct and coordinate the establishment of information technology policies,
+        protocols, and standards for State government, including hardware, software, security,
+        and business re-engineering. Details regarding this authority can be found in NYS ITS
+        Policy, NYS-P08-002 Authority to Establish Enterprise Information Technology (IT)
+        Policies, Standards and Guidelines.
+
+1 All references to Executive Order 117 refer to that which was originally issued by Governor George E. Pataki
+                                                                                                       on January 28,
+2002 and continued by Executive Order 5 issued by Governor Eliot Spitzer on January 1, 2007, Executive Order 9 issued by
+Governor David A. Patterson on June 18, 2008, Executive Order 2 issued by Governor Andrew M. Cuomo on January 1, 2011
+and Executive Order 6 issued by Governor Kathy Hochul on October 8, 2021.
+        NYS-S14-010                                                                                              Page 1 of 5
+
+3.0 Scope
+   This standard applies to all “State Entities” (SE), defined as “State Government” in
+   Executive Order 117 or “State Agencies” as defined in Section 101 of the State
+   Technology Law. This includes employees of the SE and ITS and all third parties (such
+   as local governments, consultants, vendors, and contractors) that use or access any IT
+   resource for which the SE or ITS has administrative responsibility, including systems
+   managed or hosted by third parties on behalf of the SE or ITS. While an SE may adopt a
+   different standard, it must include the requirements set forth in this one. Where a conflict
+   exists between this standard and a SE’s standard, the more restrictive requirement will
+   take precedence.
+
+4.0 Information Statement
+   NYS allows for remote access when there is a clear, documented business need. Such
+   access must be limited to only those systems necessary for needed functions and comply
+   with an SE’s telecommuting policies and any applicable federal or state compliance
+   requirements. Remote connections are allowed from State-issued devices in accordance
+   with the standards below. Personal devices are permitted on a limited basis at the
+   discretion of the SE and in accordance with the NYS-S14-012 Bring Your Own Device
+   (BYOD) Standard. Remote access to non-public NYS systems or data from international
+   locations must be reviewed per the NYS-P23-001 International Access to NYS Systems
+   and Data Policy.
+   4.1      Approved Methods of Remote Access
+   Approved methods of remote access to NYS systems are listed in order of preference.
+         a. Portal – a server that offers access to one or more applications through a single
+            centralized interface that provides authentication (e.g., web-based portal, virtual
+            desktop interface [VDI]).
+         b. Direct Application Access – accessing an application directly with the application
+            providing its own security (e.g., webmail, https).
+         c. Remote System Control – controlling a system remotely from a location other
+            than the State’s internal network.
+         d. Tunneling – a secure communication channel through which information can be
+            transmitted between networks (e.g., Virtual Private Network [VPN]).
+   4.2      Required Controls
+            Any method of remote access must use a centrally managed authentication
+            system for administration and user access. (Note: For any remote access to NYS
+            systems managed by ITS, the authentication systems must be centrally managed
+            by ITS)
+
+         a. Devices and software used for remote access must be approved by the SE after
+            review by the SE’s Information Security Officer / designated security representative
+   NYS-S14-010                                                                        Page 2 of 5
+
+          (ISO). SEs may provide blanket approvals based on this review.
+      b. The authentication token used for remote access must conform to the
+         requirements of the appropriate assurance level as per the NYS-P20-001 Digital
+         Identity Policy and NYS-S14-006 Authentication Tokens Standard.
+      c. Remote access sessions must require re-authentication after 15 minutes of
+         inactivity as per NYS-S14-013 Account Management Access Control Standard.
+      d. Remote access sessions must not last any longer than 18 hours as per NYS-S14-
+         013 Account Management Access Control Standard.
+      e. The SE must monitor for unauthorized remote connections and other anomalous
+         activity and take appropriate incident response action as per the NYS-S13-005
+         Cyber Incident Response Standard.
+      f. Tunneling specific controls:
+                 (a) No split tunneling is allowed.
+                 (b) Network controls regulating access to the remote access endpoint and
+                     between remote devices and SE networks are required.
+                 (c) When a remote access device will have access to other networked devices
+                     on the State’s internal network, the remote device must be authenticated
+                     such that configuration of the device is compliant with applicable policies.
+
+5.0 Compliance
+   This standard shall take effect upon publication. Compliance is required with all enterprise
+   policies and standards. ITS may amend its policies and standards at any time; compliance
+   with amended policies and standards is required.
+   If compliance with this standard is not feasible or technically possible, or if deviation from
+   this policy is necessary to support a business function, SEs shall request an exception
+   through the Chief Information Security Office exception process.
+
+6.0 Definitions of Key Terms
+   Except for terms defined in this policy, all terms shall have the meanings found in
+   the ITS Glossary.
+
+   NYS-S14-010                                                                         Page 3 of 5
+
+7.0 Contact Information
+ Submit all inquiries and requests for future enhancements to the policy owner at:
+                            Chief Information Security Office
+                                 Reference: NYS-S14-010
+                      NYS Office of Information Technology Services
+                                31 British American Blvd.
+                                     Latham, NY 12110
+                                Telephone: (518) 242-5200
+                                 Email: CISO@its.ny.gov
+
+ Statewide technology policies, standards, and guidelines may be found at the following website:
+ https://its.ny.gov/policies.
+
+8.0 Revision History
+    This policy should be reviewed consistent with the requirements set forth in ITS-P24-
+    003 Process for Establishing Information Technology Polices, Standards and
+    Guidelines.
+
+     Date             Description of Change                             Reviewer
+     04/18/2014       Original Standard Release                         Thomas Smith,
+                                                                        Chief Information
+                                                                        Security Officer
+     05/15/2015       Removed references to state workforce             Deborah A. Snyder,
+                                                                        Deputy Chief
+                                                                        Information
+                                                                        Security Officer
+     02/24/2017       Update to Scope, contact information and          Deborah A. Snyder,
+                      rebranding                                        Deputy Chief
+                                                                        Information
+                                                                        Security Officer
+     07/16/2020       Update to Authority, Scope and Contact            Karen Sorady,
+                      Information                                       Acting Chief
+                                                                        Information
+                                                                        Security Officer
+     05/20/2021       Updated Scope language                            Karen Sorady,
+                                                                        Acting Chief
+                                                                        Information
+                                                                        Security Officer
+     04/13/2023       Updated Scope language, revisions, and            Chris DeSain,
+                      alignment with other policies and standards       Chief Information
+                                                                        Security Officer
+
+   NYS-S14-010                                                                       Page 4 of 5
+
+    08/18/2025       Updated the order of preference for remote       Chris DeSain,
+                     connections in alignment with other policies and Chief Information
+                     standards and added a disclaimer,                Security Officer
+
+9.0 Related Documents
+   NIST Special Publication 800-46, Rev. 2, Guide to Enterprise Telework, Remote Access,
+   and Bring Your Own Device (BYOD) Security
+
+   NIST Special Publication 800-113, Guide to SSL VPNs
+
+   NIST Special Publication 800-114, Rev.1, User's Guide to Telework and Bring Your
+   Own Device (BYOD) Security
+
+   NYS-P20-001 Digital Identity Policy
+
+   NYS-P23-001 International Access to NYS Systems and Data
+
+   NYS-S13-005 Cyber Incident Response Standard
+
+   NYS-S14-006 Authentication Tokens Standard
+
+   NYS-S14-012 Bring Your Own Device (BYOD)
+
+   NYS-S14-013 Account Management Access Control Standard
+
+   Remote Work | Office of Information Technology Services
+
+   NYS-S14-010                                                                   Page 5 of 5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

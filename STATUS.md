@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 244 |
-| standard | 164 |
-| statute | 39 |
-| executive_order | 16 |
-| rule | 11 |
+| policy | 276 |
+| standard | 189 |
+| statute | 44 |
+| executive_order | 17 |
+| rule | 12 |
 
-**Total: 474**
+**Total: 538**
 
 ## Source manifest
 
-599 declared source(s) across 5 group(s) in `sources`.
+678 declared source(s) across 6 group(s) in `sources`.
 
 ## Freshness (reverify every 90 days)
 
-474 of 474 document(s) overdue for re-verification.
+538 of 538 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -46,6 +46,11 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | co-crs-24-73 | statute | never |
 | co-crs-24-74 | statute | never |
 | co-crs-24-85 | statute | never |
+| ny-stt-art-1 | statute | never |
+| ny-stt-art-2 | statute | never |
+| ny-stt-art-3 | statute | never |
+| ny-stt-art-4 | statute | never |
+| ny-stt-art-5 | statute | never |
 | or-ors-276a | statute | never |
 | va-code-18-2-186-6 | statute | never |
 | va-code-2-2-203-2-4 | statute | never |
@@ -69,10 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | co-ccr-8-1501-12 | rule | never |
 | co-ccr-8-1501-5 | rule | never |
 | co-ccr-8-1501-7 | rule | never |
-| co-ccr-8-1501-9 | rule | never |
-| or-oar-128-20 | rule | never |
-| or-oar-128-30 | rule | never |
-| or-oar-128-40 | rule | never |
-| or-oar-128-50 | rule | never |
-| … | *424 more* | |
+| … | *488 more* | |
 

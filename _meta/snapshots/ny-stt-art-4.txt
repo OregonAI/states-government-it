@@ -1,0 +1,68 @@
+                               ARTICLE IV
+        AUTOMATED EMPLOYMENT DECISION-MAKING IN STATE GOVERNMENT
+Section 401.   Definitions.
+        402.   Disclosure of automated employment decision-making tools
+                 used by state agencies.
+        402-a. Disclosure of automated employment decision-making tools
+                 used by covered entities.
+
+  § 401. Definitions. For the purpose of this article:
+  1. "Automated employment decision-making tool" shall mean any software
+that uses algorithms, computational models, or artificial intelligence
+techniques, or a combination thereof, to materially automate or replace
+human decision-making regarding employment, including but not limited to
+wages and other compensation, hiring, selection for recruitment,
+discipline, promotion, and termination. "Automated employment
+decision-making tool" shall not include any software used primarily for
+basic computerized processes, such as calculators, spellcheck tools,
+autocorrect functions, spreadsheets, electronic communications, or any
+tool that relates only to internal management affairs such as ordering
+office supplies or processing payments, and that do not materially
+affect the rights, liberties, benefits, safety or welfare of any
+individual within the state.
+  2. "State agency" shall mean any department, public authority, board,
+bureau, commission, division, office, council, committee or officer of
+the state. Such terms shall not include the legislature or judiciary.
+  * 3. "Covered entity" shall mean any county, city, town, village,
+school district, board of cooperative educational services, county
+vocational education and extension board, district corporation, the
+state university of New York, the city university of New York, or
+community college.
+  * NB Repealed July 1, 2028
+
+  § 402. * Disclosure of automated employment decision-making tools used
+by state agencies.
+  * NB Effective until July 1, 2028
+  * Disclosure of automated employment decision-making tools.
+  * NB Effective July 1, 2028
+Any state agency that utilizes an automated employment decision-making
+tool, as defined in section four hundred one of this article, shall
+publish a list of such automated employment decision-making tools on
+such state agency's website no later than the thirtieth of December next
+succeeding the date on which the amendments made to this section by a
+chapter of the laws of two thousand twenty-four take effect, and
+annually thereafter. Such disclosure shall include:
+  1. a description of the automated employment decision-making tool
+utilized by such state agency;
+  2. the date that the state agency use of such automated employment
+decision-making tool began;
+  3. a summary of the purpose and use of such automated employment
+decision-making tool; and
+  4. any other information deemed relevant by the agency.
+
+  * § 402-a. Disclosure of automated employment decision-making tools
+used by covered entities. To the extent feasible, any covered entity
+that utilizes an automated employment decision-making tool, shall
+publish a list of such automated employment decision-making tools on
+such covered entity's website no later than the thirtieth of December
+next succeeding the date on which this section shall have become a law,
+and annually thereafter. To the extent feasible, such disclosure shall
+include:
+  1. a description of the automated employment decision-making tool
+utilized by such covered entity;
+  2. the date that the covered entity use of such automated employment
+decision-making tool began;
+  3. a summary of the purpose and use of such automated employment
+decision-making tool; and
+  4. any other information deemed relevant by the covered entity.
+  * NB Repealed July 1, 2028

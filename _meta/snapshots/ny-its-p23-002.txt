@@ -1,0 +1,205 @@
+                                State Capitol P.O. Box 2062
+                                  Albany, NY 12220-0062
+                                      www.its.ny.gov
+
+   Office of Information Technology
+                                              No: ITS-P23-002
+             Services Policy
+
+                                              Updated: 2/4/2026
+                ITS Policy:
+                                              Issued By: NYS Office of Information
+              Offboarding                     Technology Services
+                                              Owner: Division of Legal Affairs
+
+1.0 Purpose and Benefits
+The Office of Information Technology Services (“ITS”) is entrusted with managing
+the Individual accounts and access privileges of ITS and its supported agencies
+(“Client Agency”). Part of managing these accounts means maintaining
+standardized offboarding of Individual accounts upon State employee, contractor,
+or consultant (collectively referred to herein as “Individual(s)”) separation from ITS
+or a Client Agency.
+
+Offboarding is the process used to revoke accounts and access from separating
+Individuals. Proper offboarding is necessary to facilitate the appropriate
+deactivation of accounts, to ensure ITS and Client Agencies meet their legal
+obligations on this topic, and to secure the return of all ITS-owned equipment and
+assets. Proper offboarding also ensures the security of state resources and data.
+
+This policy outlines the importance of appropriate offboarding, defines specific
+types of offboarding, and ultimately establishes a collaborative workflow that
+involves ITS technical staff, ITS Division of Legal Technology (“Legal Tech”), and
+Client Agency legal counsel, or their designee.
+
+ITS-P23-002                                                                  Page 1 of 5
+
+2.0 Authority
+Section 1 of Executive Order No. 117, 1 established January 2002, charges the
+State Chief Information Officer (“CIO”) with overseeing and supervising the
+management and operations of ITS. Section 102(2) of the State Technology Law
+gives the Director of ITS responsibility for the administration of ITS. Details
+regarding this authority can be found in NYS ITS Policy, NYS-P08-002 Authority to
+Establish State Enterprise Information Technology (IT) Policy, Standards and
+Guidelines.
+
+3.0 Scope
+This policy applies to ITS employees, contractors, consultants, and ITS supported
+agencies (“Client Agency”).
+
+This policy applies to the Individual account(s) assigned to a specific Individual.
+
+4.0 Information Statement
+The employing agency, ITS or its Client Agency, must complete the types of
+offboarding described herein based on need and potential risk to the agency. ITS
+will assist the Client Agency by disabling the Individual’s access to accounts,
+technology, and associated assets. There are several services included in the ITS
+Offboarding and Deprovisioning process to ensure the appropriate deactivation of
+accounts, to ensure legal obligations are met, and to secure the return of all ITS-
+owned equipment and assets.
+
+Failure to offboard appropriately can lead to the loss of necessary data and can
+result in legal implications. Legal Tech is a Division within the ITS Office of the
+Chief General Counsel. Legal Tech provides legal preservation services to ITS and
+Client Agencies for both email and non-email electronically stored information
+(“ESI”). During the offboarding process, to the extent the employing agency, ITS
+or a Client Agency, identifies a legal preservation obligation related to the
+separating Individual, it can engage Legal Tech to assist in meeting those
+obligations.
+
+All references to Executive Order 117 refer to that which was originally issued by Governor George E. Pataki on
+January 28, 2002, and continued by Executive Order 5 issued by Governor Eliot Spitzer on January 1, 2007,
+Executive Order 9 issued by Governor David A. Patterson on June 18, 2008, Executive Order 2 issued by
+Governor Andrew M. Cuomo on January 1, 2011, and Executive Order 6 issued by Governor Kathy Hochul on
+October 8, 2021.
+
+ITS-P23-002                                                                                           Page 2 of 5
+
+4.1     Types of offboarding
+
+There are two (2) types of offboarding: Standard and Emergency. Please review
+the following to determine which is required.
+
+1. Standard: This is a typical offboarding in which an Individual is separating from
+   the employing agency. The employing agency can submit Standard offboarding
+   requests 14 days prior to the requested decommission date, as defined in
+   KB0027621 via utilizing the ITS ticketing system (“ITSM”) and searching
+   “Employee Offboarding.” The requested decommission date is defined as the
+   last day that an employee/contractor/consultant is being paid by a NYS entity,
+   with specific access turned off prior to that date if necessary. The account is
+   automatically deprovisioned on the decommission date and reviewed the next
+   business day.
+
+2. Emergency: This type of offboarding is due to Individual termination or a
+   separation in which there is a potential risk to the agency if all access is not
+   immediately disabled. The employing agency must get approval for these
+   requests from their agency’s Chief Legal Counsel and must forward the requests
+   to the ITS Legal Tech team shared mailbox at its.sm.legaltech@its.ny.gov for
+   action. These offboarding requests cannot be processed through ITSM.
+   Emergency offboarding can be scheduled with the ITS Legal Tech team if
+   access termination is required outside of normal business hours (8A – 5P,
+   Monday through Friday). Any requests outside of normal business hours will be
+   handled on a “best-effort basis” until the following business day. Once the
+   offboarding is complete, the employing agency must submit an offboarding
+   request via utilizing ITSM and searching “Employee Offboarding” for tracking
+   and equipment retrieval purposes.
+
+4.2     Legal Obligations and the Attestation Clause
+
+Once an Individual is offboarded the employing agency will no longer have access
+to the Individual’s home drive or mobile device data. Home drive data will be
+purged in accordance with ITS-P21-005, Offboarding and Automatic
+Deprovisioning of Mailbox and Home drive(s). An offboarding will not affect legal
+holds placed on an Individual’s account(s) in the O365 eDiscovery solution.
+
+The person submitting the offboarding request must check an attestation box
+confirming that they consulted the Client Agency legal department regarding any
+pending legal preservation and retention obligations pursuant to ITS-P18-007 and
+ITS-P21-001, and that they are authorized to submit the request for the devices to
+be returned to ITS for sanitization. The employing agency must determine their
+legal hold obligations.
+
+If a legal preservation obligation exists, and the employing agency must maintain
+the Individual’s data, the employing agency legal department must contact the ITS
+Legal Tech team at its.sm.legaltech@its.ny.gov for assistance.
+
+ITS-P23-002                                                                Page 3 of 5
+
+4.3     Transfer of Devices, Accounts and Data Prohibited
+
+Upon separation of employment, an individual’s access to ITS-issued devices and
+state data is terminated and all devices must be returned. Individuals are not
+permitted to transfer any ITS-issued device, account, data plan, or any state
+business data to another account or device, including but not limited to a personal
+account or device, or an account or device associated with another individual,
+another state agency, or other third-party. If an exception to this prohibition is
+required, the Chief Legal Counsel of the agency where the individual’s accounts
+and data resides must approve the transfer. If data is to be transferred to another
+agency, the Chief Legal Counsel of the onboarding/receiving agency must also
+approve of the transfer. This prohibition does not apply to authorized requests for
+delegate access.
+
+5.0 Compliance
+This policy shall take effect upon publication. Compliance is required with all
+enterprise policies and standards. ITS may amend its policies and standards at
+any time. Compliance with amended policies and standards is required.
+
+If compliance with this policy is not feasible or technically possible, or if deviation
+from this policy is necessary to support a business function, Client Agency’s must
+request an exception from the Legal Tech team via the following email address:
+its.sm.legaltech@its.ny.gov.
+
+6.0 Definitions of Key Terms
+Except for terms defined in this policy, all terms shall have the meanings found in
+http://www.its.ny.gov/glossary.
+
+7.0 Contact Information
+Submit all inquiries and requests for future enhancements to the policy owner at:
+
+                    Office of the Chief General Counsel
+                           Reference: ITS-P23-002
+                NYS Office of Information Technology Services
+                      State Capitol, ESP, P.O. Box 2062
+                               Albany, NY 12220
+                          Telephone: 518-473-5115
+                     Email: its.sm.legaltech@its.ny.gov
+
+ITS policies, standards, and guidelines may be found at: https://its.ny.gov/policies.
+
+ITS-P23-002                                                                  Page 4 of 5
+
+8.0 Revision History
+This policy should be reviewed consistent with the requirements set forth in ITS-
+P24-003 Process for Establishing Information Technology Policies, Standards, and
+Guidelines.
+
+ Date            Description of Change                         Reviewer
+
+ 04/06/2023      Issued policy                                 Division of Legal
+                                                               Affairs
+
+ 07/24/2023      Updated policy                                Division of Legal
+                                                               Affairs
+
+ 10/2/2025       Updated policy – removed “immediate”          Division of Legal
+                 offboarding type and added prohibition on     Affairs
+                 transfer of devices
+
+ 02/4/2026       Updated policy – added requirement for     Chief General
+                 offboarding and onboarding general counsel Counsel
+                 sign off on data transfers
+
+9.0 Related Documents
+ITS-P21-005, Offboarding and Automatic Deprovisioning of Mailbox and Home
+drive(s)
+
+ITS-P18-007, Mobile Device Provisioning, Deprovisioning, and Replacement
+
+ITS-P21-001, Workplace Computing Device NYS-S13-003, Sanitization/Secure
+Disposal
+
+NYS-P08-002, Authority to Establish State Enterprise Information Technology (IT)
+Policy, Standards and Guidelines
+
+ITS-P10-003, ITS Telecommuting Policy KB0027621
+
+ITS-P23-002                                                             Page 5 of 5

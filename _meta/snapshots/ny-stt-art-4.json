@@ -1,0 +1,95 @@
+{
+  "success" : true,
+  "message" : "The document structure for STT law",
+  "responseType" : "law-tree",
+  "result" : {
+    "lawVersion" : {
+      "lawId" : "STT",
+      "activeDate" : "2026-03-20"
+    },
+    "info" : {
+      "lawId" : "STT",
+      "name" : "State Technology",
+      "lawType" : "CONSOLIDATED",
+      "chapter" : "57-A"
+    },
+    "publishedDates" : [ "2014-09-22", "2017-12-01", "2018-03-02", "2018-04-27", "2019-08-02", "2019-11-01", "2020-04-10", "2020-04-24", "2021-01-29", "2021-07-09", "2021-12-31", "2022-03-04", "2022-04-15", "2022-12-09", "2023-04-07", "2023-06-02", "2023-06-30", "2023-10-27", "2023-12-29", "2024-02-02", "2024-02-09", "2024-02-16", "2024-06-21", "2024-07-05", "2024-11-29", "2024-12-27", "2025-01-03", "2025-02-21", "2025-03-28", "2025-07-04", "2025-11-21", "2025-12-19", "2025-12-26", "2026-01-09", "2026-02-27", "2026-03-06", "2026-03-20" ],
+    "documents" : {
+      "lawId" : "STT",
+      "lawName" : "State Technology",
+      "locationId" : "A4",
+      "title" : "Automated Employment Decision-making In State Government",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2024-12-27", "2025-02-21", "2025-07-04", "2026-02-27", "2026-03-20" ],
+      "docLevelId" : "4",
+      "activeDate" : "2026-03-20",
+      "sequenceNo" : 41,
+      "repealedDate" : null,
+      "fromSection" : "401",
+      "toSection" : "402-A",
+      "text" : "                               ARTICLE IV\\n        AUTOMATED EMPLOYMENT DECISION-MAKING IN STATE GOVERNMENT\\nSection 401.   Definitions.\\n        402.   Disclosure of automated employment decision-making tools\\n                 used by state agencies.\\n        402-a. Disclosure of automated employment decision-making tools\\n                 used by covered entities.\\n",
+      "documents" : {
+        "items" : [ {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "401",
+          "title" : "Definitions",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2024-12-27", "2025-02-21", "2025-07-04", "2026-03-06" ],
+          "docLevelId" : "401",
+          "activeDate" : "2026-03-06",
+          "sequenceNo" : 42,
+          "repealedDate" : null,
+          "fromSection" : "401",
+          "toSection" : "401",
+          "text" : "  § 401. Definitions. For the purpose of this article:\\n  1. \"Automated employment decision-making tool\" shall mean any software\\nthat uses algorithms, computational models, or artificial intelligence\\ntechniques, or a combination thereof, to materially automate or replace\\nhuman decision-making regarding employment, including but not limited to\\nwages and other compensation, hiring, selection for recruitment,\\ndiscipline, promotion, and termination. \"Automated employment\\ndecision-making tool\" shall not include any software used primarily for\\nbasic computerized processes, such as calculators, spellcheck tools,\\nautocorrect functions, spreadsheets, electronic communications, or any\\ntool that relates only to internal management affairs such as ordering\\noffice supplies or processing payments, and that do not materially\\naffect the rights, liberties, benefits, safety or welfare of any\\nindividual within the state.\\n  2. \"State agency\" shall mean any department, public authority, board,\\nbureau, commission, division, office, council, committee or officer of\\nthe state. Such terms shall not include the legislature or judiciary.\\n  * 3. \"Covered entity\" shall mean any county, city, town, village,\\nschool district, board of cooperative educational services, county\\nvocational education and extension board, district corporation, the\\nstate university of New York, the city university of New York, or\\ncommunity college.\\n  * NB Repealed July 1, 2028\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "402",
+          "title" : "Disclosure of automated employment decision-making tools used by state agencies",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2024-12-27", "2025-02-21", "2025-07-04", "2026-02-27" ],
+          "docLevelId" : "402",
+          "activeDate" : "2026-02-27",
+          "sequenceNo" : 43,
+          "repealedDate" : null,
+          "fromSection" : "402",
+          "toSection" : "402",
+          "text" : "  § 402. * Disclosure of automated employment decision-making tools used\\nby state agencies.\\n  * NB Effective until July 1, 2028\\n  * Disclosure of automated employment decision-making tools.\\n  * NB Effective July 1, 2028\\nAny state agency that utilizes an automated employment decision-making\\ntool, as defined in section four hundred one of this article, shall\\npublish a list of such automated employment decision-making tools on\\nsuch state agency's website no later than the thirtieth of December next\\nsucceeding the date on which the amendments made to this section by a\\nchapter of the laws of two thousand twenty-four take effect, and\\nannually thereafter. Such disclosure shall include:\\n  1. a description of the automated employment decision-making tool\\nutilized by such state agency;\\n  2. the date that the state agency use of such automated employment\\ndecision-making tool began;\\n  3. a summary of the purpose and use of such automated employment\\ndecision-making tool; and\\n  4. any other information deemed relevant by the agency.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "402-A",
+          "title" : "Disclosure of automated employment decision-making tools used by covered entities",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2026-02-27" ],
+          "docLevelId" : "402-A",
+          "activeDate" : "2026-02-27",
+          "sequenceNo" : 44,
+          "repealedDate" : null,
+          "fromSection" : "402-A",
+          "toSection" : "402-A",
+          "text" : "  * § 402-a. Disclosure of automated employment decision-making tools\\nused by covered entities. To the extent feasible, any covered entity\\nthat utilizes an automated employment decision-making tool, shall\\npublish a list of such automated employment decision-making tools on\\nsuch covered entity's website no later than the thirtieth of December\\nnext succeeding the date on which this section shall have become a law,\\nand annually thereafter. To the extent feasible, such disclosure shall\\ninclude:\\n  1. a description of the automated employment decision-making tool\\nutilized by such covered entity;\\n  2. the date that the covered entity use of such automated employment\\ndecision-making tool began;\\n  3. a summary of the purpose and use of such automated employment\\ndecision-making tool; and\\n  4. any other information deemed relevant by the covered entity.\\n  * NB Repealed July 1, 2028\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        } ],
+        "size" : 3
+      },
+      "repealed" : false
+    }
+  }
+}

@@ -1,0 +1,361 @@
+{
+  "success" : true,
+  "message" : "The document structure for STT law",
+  "responseType" : "law-tree",
+  "result" : {
+    "lawVersion" : {
+      "lawId" : "STT",
+      "activeDate" : "2026-03-20"
+    },
+    "info" : {
+      "lawId" : "STT",
+      "name" : "State Technology",
+      "lawType" : "CONSOLIDATED",
+      "chapter" : "57-A"
+    },
+    "publishedDates" : [ "2014-09-22", "2017-12-01", "2018-03-02", "2018-04-27", "2019-08-02", "2019-11-01", "2020-04-10", "2020-04-24", "2021-01-29", "2021-07-09", "2021-12-31", "2022-03-04", "2022-04-15", "2022-12-09", "2023-04-07", "2023-06-02", "2023-06-30", "2023-10-27", "2023-12-29", "2024-02-02", "2024-02-09", "2024-02-16", "2024-06-21", "2024-07-05", "2024-11-29", "2024-12-27", "2025-01-03", "2025-02-21", "2025-03-28", "2025-07-04", "2025-11-21", "2025-12-19", "2025-12-26", "2026-01-09", "2026-02-27", "2026-03-06", "2026-03-20" ],
+    "documents" : {
+      "lawId" : "STT",
+      "lawName" : "State Technology",
+      "locationId" : "A1",
+      "title" : "Office of Information Technology Services",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22", "2017-12-01", "2021-01-29", "2023-06-30", "2023-12-29", "2024-02-09", "2024-11-29", "2025-02-21", "2025-07-04", "2025-12-26", "2026-02-27" ],
+      "docLevelId" : "1",
+      "activeDate" : "2026-02-27",
+      "sequenceNo" : 2,
+      "repealedDate" : null,
+      "fromSection" : "101",
+      "toSection" : "107",
+      "text" : "                                ARTICLE I\\n                OFFICE OF INFORMATION TECHNOLOGY SERVICES\\nSection 101.     Definitions.\\n        102.     Office of information technology services; director,\\n                   organization and employees.\\n        103.     Functions, powers and duties of the office.\\n        103-a.   State information technology innovation center.\\n        103-b.   Gender-neutral terminology; state agencies.\\n        103-c.   State agency websites; mobile friendly websites.\\n        103-c*2. Cloud computing.\\n        103-d.   Website accessibility; state agencies.\\n        103-e.   Artificial intelligence (AI) inventory.\\n        103-f.   Cybersecurity awareness training.\\n        104.     Advisory council for technology.\\n        105.     Functions, powers and duties of the council.\\n        106.     Responsibility to respond to the freedom of information\\n                   law for certain data.\\n        106-a.   Health care proxy information.\\n        106-b.   Use of biometric identifying technology in schools.\\n        107.     Severability.\\n",
+      "documents" : {
+        "items" : [ {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "101",
+          "title" : "Definitions",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22", "2020-04-10", "2024-11-29" ],
+          "docLevelId" : "101",
+          "activeDate" : "2024-11-29",
+          "sequenceNo" : 3,
+          "repealedDate" : null,
+          "fromSection" : "101",
+          "toSection" : "101",
+          "text" : "  § 101. Definitions. As used in this article the following terms shall\\nmean:\\n  1. \"Council\" means the advisory council for technology.\\n  2. \"Director\" means the director of the office.\\n  3. \"Office\" means the office of information technology services.\\n  4. \"State agency\" means any department, board, bureau, commission,\\ndivision, office, council, committee or officer of the state. Such term\\nshall not include the legislature or judiciary.\\n  5. \"Technology\" means either a good or a service or a combination\\nthereof, used in the application of any computer or electronic\\ninformation or interconnected system that is used in the acquisition,\\nstorage, manipulation, management, movement, control, display,\\nswitching, interchange, transmission, or reception of data or voice\\nincluding, but not limited to, hardware, software, information\\nappliances, firmware, programs, systems, networks, infrastructure,\\nmedia, and related material used to automatically and electronically\\ncollect, receive, access, transmit, display, store, record, retrieve,\\nanalyze, evaluate, process, classify, manipulate, manage, assimilate,\\ncontrol, communicate, exchange, convert, coverage, interface, switch, or\\ndisseminate data of any kind or form, and shall include all associated\\nconsulting, management, facilities, maintenance, support and training.\\nGoods may be either new or used.\\n  6. \"Cloud computing\" shall have the same meaning as defined by the\\nnational institute of standards and technology's special publication\\n800-145, and any subsequent version of such publication.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "102",
+          "title" : "Office of information technology services; director, organization and employees",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "102",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 4,
+          "repealedDate" : null,
+          "fromSection" : "102",
+          "toSection" : "102",
+          "text" : "  § 102. Office of information technology services; director,\\norganization and employees. 1. The office of information technology\\nservices is hereby created within the executive department to have and\\nexercise the functions, powers and duties provided by the provisions of\\nthis article and any other provision of law.\\n  2. The head of the office shall be the director of the office, who\\nshall serve as the chief technology officer for the state of New York\\nand shall be designated as management confidential in the noncompetitive\\nclass in accordance with the civil service law. The director shall be\\nthe chief executive officer of and in sole charge of the administration\\nof the office. The director shall be entitled to receive reimbursement\\nfor expenses actually and necessarily incurred by him or her in the\\nperformance of his or her duties.\\n  3. The director may, from time to time, create, abolish, transfer and\\nconsolidate bureaus and other units within the office not expressly\\nestablished by law as he or she may determine necessary for the\\nefficient operation of the office, subject to the approval of the\\ndirector of the budget.\\n  4. The director may appoint, in accordance with the civil service law,\\nsuch deputies, assistants, and other officers and employees, committees\\nand consultants as he or she may deem necessary, prescribe their powers\\nand duties, fix their compensation, and provide for reimbursement of\\ntheir expenses within the amounts appropriated therefor.\\n  5. The director may request and receive from any department, division,\\nboard, bureau, commission or other agency of the state or any political\\nsubdivision thereof or any public authority, staff and other assistance,\\ninformation, and resources as will enable the office to properly carry\\nout its functions, powers and duties.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103",
+          "title" : "Functions, powers and duties of the office",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22", "2021-12-31", "2022-03-04", "2022-12-09", "2023-06-02", "2023-06-30", "2023-12-29", "2024-02-09", "2024-02-16", "2024-11-29" ],
+          "docLevelId" : "103",
+          "activeDate" : "2024-11-29",
+          "sequenceNo" : 5,
+          "repealedDate" : null,
+          "fromSection" : "103",
+          "toSection" : "103",
+          "text" : "  § 103. Functions, powers and duties of the office. The office shall\\nhave the following functions, powers and duties:\\n  1. To act as the official state planning and coordinating office for\\nthe advancement of technology to improve government efficiency and\\neffectiveness, and perform all necessary and appropriate services\\nrequired to fulfill these duties;\\n  2. To advise and assist the state agencies in developing policies,\\nplans and programs for improving the statewide coordination,\\nadministration, security, confidentiality, program effectiveness,\\nacquisition and deployment of technology;\\n  3. To perform technology reviews and make recommendations for\\nimproving management and program effectiveness pertaining to technology;\\n  4. To review and coordinate the purchase of technology by state\\nagencies. Where applicable, such review shall include but not be limited\\nto: assessing consistency with the statewide strategic technology plan\\nand agency technology plan; statewide technology standards; the\\nsafeguarding of information privacy; security of confidential records;\\nand proper dissemination of public information;\\n  5. To establish, oversee, manage, coordinate and facilitate the\\nplanning, design and implementation of the state's common technology\\nnetworks;\\n  6. To undertake research, studies and analyses, and act as a central\\nrepository, clearinghouse and disseminator of research studies, with\\nrespect to technology;\\n  7. To facilitate and coordinate the improvement of program delivery\\nservices through technology with and among other departments, divisions\\nand agencies of the state, its political subdivisions and\\nmunicipalities;\\n  7-a. To provide technology services via agreements with:\\n  (a) municipal corporations, public benefit corporations and district\\ncorporations as defined in section sixty-six of the general construction\\nlaw;\\n  (b) political subdivisions as defined in section one hundred of the\\ngeneral municipal law;\\n  (c) public authorities;\\n  (d) soil and water conservation districts;\\n  (e) any unit of the state university and city university of New York\\npursuant to and consistent with sections three hundred fifty-five and\\nsixty-two hundred eighteen of the education law;\\n  8. To encourage and foster the exchange of and increase access to\\ninformation within and among public and private entities and individuals\\nin order to improve the delivery of state programs and services of the\\nstate;\\n  8-a. (a) To advise and assist state agencies in the implementation of\\nlanguage translation technology on state agency websites containing\\ninformation about the novel coronavirus (\"COVID-19\") or programs,\\nbenefits or services related to COVID-19 within sixty days of the\\neffective date of this subdivision; and on all state agency websites\\nwithin six months of the effective date of this subdivision.\\n  (b) Such language translation technology shall, at a minimum, allow\\nusers to translate the text of state agency websites into at least the\\ntwelve most common non-English languages spoken by individuals with\\nlimited-English proficiency in the state of New York, based on United\\nStates census data.\\n  (c) As used in this subdivision, the term \"state agency website\" shall\\nmean an internet website operated by or for a state agency. Such term\\nshall include those websites operated on behalf of state agencies by\\nother public or private entities, but shall not include any portions of\\nthe internet outside the control of the state agency.\\n  9. To undertake technology projects with a statewide or multi-agency\\nimpact and, where appropriate, designate agencies to act as lead agency\\nfor the project;\\n  10. To establish statewide technology policies, including but not\\nlimited to preferred technology standards and security, including\\nstatewide policies, standards, programs, and services relating to the\\nsecurity of state government networks and geographic information\\nsystems, including the statewide coordination of geographically\\nreferenced critical infrastructure information;\\n  11. To adopt, amend, or rescind rules and regulations necessary or\\nconvenient to the performance of the functions, powers and duties of the\\noffice pursuant to the state administrative procedure act;\\n  12. To complete a comprehensive study of existing state information\\nresource technology infrastructure to the extent that the information is\\navailable.\\n  Such study shall include, but not be limited to, inventories of:\\n  (a) state operations' computer hardware and software;\\n  (b) major physical infrastructures supporting existing operations,\\nincluding power, air conditioning, space and other environmental needs;\\n  (c) the telecommunications and other networks supporting existing\\noperations;\\n  (d) personnel associated with existing operations and management;\\n  (e) expected retirement schedule of existing computer hardware and\\nsoftware and replacement costs; and\\n  (f) data processing consulting and contracting services utilized.\\n  Such study shall be completed and submitted to the governor, the\\ntemporary president of the senate and the speaker of the assembly on or\\nbefore October first, two thousand two. The office shall provide interim\\nreports on October first, two thousand and October first, two thousand\\none.\\n  12-a. To develop:\\n  (a) a methodology to ascertain how much the state spends on technology\\ngoods and services;\\n  (b) a process to update the computer hardware and software inventory\\nperiodically;\\n  (c) a methodology to determine the expected life-cycle of state\\noperations' computer hardware and software which shall include the total\\ncost of ownership; and\\n  (d) formal disaster recovery plans for the state data center and\\nstatewide network, NY e-net; such plans shall be confidential.\\n  Such developments shall be completed and submitted to the governor,\\nthe temporary president of the senate and the speaker of the assembly on\\nor before October first, two thousand three.\\n  12-b. To request and shall receive from any department, division,\\nboard, commission or other agency of the state any information and\\nresources necessary to carry out the responsibilities and provisions set\\nforth in subdivisions twelve and twelve-a of this section.\\n  13. To establish a multi-year statewide strategy plan covering a time\\nperiod of not less than three years to promote and coordinate\\ninteragency technology efforts and initiatives that conform to the\\nstate's overarching programmatic policy under which state agencies shall\\ndevelop their information resource management plans. Such plan shall be\\nsubmitted to the governor, the temporary president of the senate and the\\nspeaker of the assembly upon completion on or before October first, two\\nthousand. Such plan shall be updated as needed, but not less than once\\nevery three years;\\n  14. To coordinate state budget submission to address known year two\\nthousand conversion issues;\\n  15. To conduct selective evaluations of technology activities in state\\nagencies; and\\n  16. To perform such acts, directly or by other means, as are necessary\\nor convenient to carry out the office's functions, powers and duties.\\n  17. To enter into contracts with any person, firm, corporation,\\nnot-for-profit corporation, political subdivision of the state, or\\ngovernmental entity.\\n  18. To provide for the protection of the state government's cyber\\nsecurity infrastructure, including, but not limited to, the\\nidentification and mitigation of vulnerabilities, deterring and\\nresponding to cyber events, and promoting cyber security awareness\\nwithin the state.\\n  19. To maintain, in electronic or paper formats, maps, geographic\\nimages, geographic data and metadata.\\n  20. To issue guidance and training for state agencies in their\\ncompliance with the Web Content Accessibility Guidelines required\\npursuant to section one hundred three-d of the state technology law.\\n  21. To issue guidance for contractors, subcontractors, vendors,\\nconsultants, or other persons in their compliance with the Web Content\\nAccessibility Guidelines required pursuant to section one hundred\\nseventy-f of the executive law.\\n  22. Notwithstanding the provisions of subparagraphs (i) and (ii) of\\nparagraph (a) of subdivision eight of section seventy-three of the\\npublic officers law, former officers or employees of the office of cyber\\nsecurity employed by the not-for-profit corporation that operates the\\nmulti-state information sharing and analysis center may appear before\\nand render services to any federal, state, local, territorial or tribal\\ngovernment relating to cyber security.\\n  * 23. To issue guidance for state agencies in their compliance with\\nthe gender-neutral terminology requirements set forth in section one\\nhundred three-b of this chapter.\\n  * NB There are 2 sb 23's\\n  * 23. Notwithstanding the provisions of section one hundred\\nsixty-three of the state finance law, section one hundred three of the\\ngeneral municipal law, article four-C of the economic development law,\\nor any other provision of law relating to the award of public contracts,\\nany officer, body, or agency of New York state, public corporation, or\\nother public entity subject to such provisions of law shall be\\nauthorized to enter individually or collectively into contracts with the\\nnot-for-profit corporation that operates the multi-state information\\nsharing and analysis center for the provision of services through\\nSeptember thirtieth, two thousand fifteen related to cyber security\\nincluding, but not limited to, monitoring, detecting, and responding to\\ncyber incidents, and such contracts may be awarded without compliance\\nwith the procedures relating to the procurement of services set forth in\\nsuch provisions of law. Such contracts shall, however, be subject to the\\ncomptroller's existing authority to approve contracts where such\\napproval is required by section one hundred twelve of the state finance\\nlaw or otherwise. Such officers, bodies, or agencies may pay the fees or\\nother amounts specified in such contracts in consideration of the cyber\\nsecurity services to be rendered pursuant to such contracts.\\n  * NB There are 2 sb 23's\\n  24. To educate state agencies on the benefits of using cloud service\\nproviders in relation to data storage and management.\\n  25. To provide technical specifications to state agencies regarding\\ncertain qualifications and specifications that cloud service providers\\nshould satisfy, in relation to such agencies' consideration of\\ncontracting with cloud service providers.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103-A",
+          "title" : "State information technology innovation center",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2017-12-01", "2018-03-02", "2018-04-27", "2020-04-24", "2022-04-15", "2023-04-07", "2024-07-05" ],
+          "docLevelId" : "103-A",
+          "activeDate" : "2024-07-05",
+          "sequenceNo" : 6,
+          "repealedDate" : null,
+          "fromSection" : "103-A",
+          "toSection" : "103-A",
+          "text" : "  * § 103-a. State information technology innovation center. 1. The\\ndirector may establish a state information technology innovation center\\nor \"iCenter\" to develop, pilot, and consider technology solutions to\\nassist the state, state agencies, authorities, municipalities and other\\ngovernmental entities find potential solutions to their technology needs\\nor requirements. The director shall ensure the iCenter complies with all\\nstate laws, rules, regulations, and policies. Vendor participation in\\nthe iCenter shall not be construed to:\\n  (a) create preferred status for any vendor in any government\\nprocurement, or\\n  (b) abrogate the requirement that technology procurements are awarded\\npursuant to all applicable laws, including such laws requiring a\\ncompetitive process.\\n  2. The director shall implement guidelines to carry out the provisions\\nof this section which shall not contravene any provision of the state\\nfinance law. Such procedures shall include, but not be limited to:\\n  (a) establishing the process for selecting vendors for participation\\nin the iCenter, which shall be a public process;\\n  (b) establishing a process to determine which technology needs or\\nrequirements shall be iCenter initiatives; and\\n  (c) establishing safeguards to ensure the iCenter does not function in\\na manner that results in the circumvention of competitive bidding,\\nincluding but not limited to through single and sole source exemptions.\\n  3. The director shall conduct an outreach campaign informing the\\npublic of the iCenter and shall conduct specific outreach to minority\\nand women-owned business enterprises certified pursuant to article\\nfifteen-A of the executive law, small businesses as such term is defined\\nin section one hundred thirty-one of the economic development law, and\\nservice disabled veteran owned business enterprises certified pursuant\\nto article three of the veterans' services law to inform such businesses\\nof iCenter initiatives.\\n  4. Every January first, beginning in two thousand nineteen, the\\ndirector shall submit a report to the speaker of the assembly, the\\ntemporary president of the senate, and the governor detailing iCenter\\ninitiatives undertaken in the prior year. Such report shall include but\\nnot be limited to: an identification of any state resources used to\\nsupport the iCenter in the prior year; the number and nature of iCenter\\ninitiatives undertaken in the prior year; the identity of vendors that\\nparticipated in the iCenter in the prior year, any iCenter initiatives\\npiloted in the prior year that were subsequently awarded a procurement\\ncontract with any state agency to the extent the office of information\\ntechnology services may be aware of such contracts; and an evaluation of\\nthe effectiveness of the iCenter. Such report shall be publicly posted\\non the office's website.\\n  * NB Repealed June 30, 2028\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103-B",
+          "title" : "Gender-neutral terminology; state agencies",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2023-06-30", "2023-12-29", "2024-02-02", "2024-02-09" ],
+          "docLevelId" : "103-B",
+          "activeDate" : "2024-02-09",
+          "sequenceNo" : 7,
+          "repealedDate" : null,
+          "fromSection" : "103-B",
+          "toSection" : "103-B",
+          "text" : "  § 103-b. Gender-neutral terminology; state agencies. Each state agency\\nshall use gender-neutral terminology on their websites for website\\ncontent, including but not limited to forms accessible through the\\nwebsite, that is created by or on behalf of such agency, or is within\\ntheir control to modify, provided that such content is created or\\nmodified, including without limitation by the addition of content, after\\nthe effective date of this section; provided further, however, if such\\nlanguage is in reference to a specific person, or a specific group of\\npeople, the language referring to such person or group may be gendered\\nin accordance with the gender identity of such person or group of\\npeople.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103-C",
+          "title" : "State agency websites; mobile friendly websites",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2024-02-09", "2024-11-29", "2025-01-03" ],
+          "docLevelId" : "103-C",
+          "activeDate" : "2025-01-03",
+          "sequenceNo" : 8,
+          "repealedDate" : null,
+          "fromSection" : "103-C",
+          "toSection" : "103-C",
+          "text" : "  * § 103-c. State agency websites; mobile friendly websites. All state\\nagency websites, as defined in section two hundred two of this chapter,\\nshall offer a mobile friendly form and shall be made available for all\\nmobile devices that support such technology, provided that such\\nrequirement shall only apply to websites created or modified with\\nchanges to form or function after the effective date of this section and\\nprior to January first, two thousand twenty-seven, and to all state\\nagency websites thereafter. For the purposes of this section, \"mobile\\nfriendly\" shall mean, with respect to a website, that such website is\\nconfigured in such a way that such website may be navigated, viewed and\\naccessed on a smartphone, tablet computer, or similar mobile device. For\\nthe purposes of this section, \"changes to form or function\" shall mean\\nmodifications to the visual presentation, informational organization,\\nwebsite infrastructure, or user utility of the website, including but\\nnot limited to:\\n  1. redesigns of site layout, color schemes, graphics, branding\\nelements, or other aesthetic components; or\\n  2. integration of dynamic interfaces.\\n  * NB There are 2 § 103-c's\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103-C*2",
+          "title" : "Cloud computing",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2024-11-29" ],
+          "docLevelId" : "103-C*2",
+          "activeDate" : "2024-11-29",
+          "sequenceNo" : 9,
+          "repealedDate" : null,
+          "fromSection" : "103-C*2",
+          "toSection" : "103-C*2",
+          "text" : "  * § 103-c. Cloud computing. 1. Each state agency shall, whenever\\npossible and feasible, consider cloud computing solutions in such\\nagency's technology sourcing strategy for future technology initiatives,\\ndata storage and management purposes, and upgrades.\\n  2. All state agencies shall, in consultation with the office, adopt\\nwritten procedures for the evaluation of cloud computing options for\\nfuture technology initiatives, data storage and management, upgrades,\\nand procurements.\\n  * NB There are 2 § 103-c's\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103-D",
+          "title" : "Website accessibility; state agencies",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2024-02-09", "2024-06-21" ],
+          "docLevelId" : "103-D",
+          "activeDate" : "2024-06-21",
+          "sequenceNo" : 10,
+          "repealedDate" : null,
+          "fromSection" : "103-D",
+          "toSection" : "103-D",
+          "text" : "  § 103-d. Website accessibility; state agencies. Each state agency\\nshall, to the extent practicable, conform any of their websites, created\\nor modified with changes to form or function after the effective date of\\nthis section, by January first, two thousand twenty-seven, to the most\\ncurrent version of the Web Content Accessibility Guidelines,\\nspecifically level AA, adopted by the World Wide Web Consortium for\\naccessibility, or any successor standards. A state agency that cannot\\ncomply with the requirements of this section shall, by January first,\\ntwo thousand twenty-seven, post publicly on its website a written\\nprogress report that describes with specificity the steps the agency has\\ntaken to comply with this section, the impediments that prevented\\ncompliance, the efforts undertaken by the agency to come into\\ncompliance, and an estimated time frame for compliance. The written\\nreport shall be updated annually from the date of the original posting.\\nThis section shall not require an agency to take any action that would\\nresult in a fundamental alteration in the nature of a service, program,\\nor activity.\\n  For purposes of this section, \"changes to form or function\" shall mean\\nmodifications to the visual presentation, informational organization,\\nwebsite infrastructure, or user utility of the website, including but\\nnot limited to: 1. redesigns of site layout, color schemes, graphics,\\nbranding elements, or other aesthetic components; and 2. integration of\\ndynamic interfaces. Nothing in this section shall be construed to be\\ninconsistent with any current or future applicable federal laws or\\nregulations.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103-E",
+          "title" : "Artificial intelligence (AI) inventory",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2025-02-21", "2025-07-04" ],
+          "docLevelId" : "103-E",
+          "activeDate" : "2025-07-04",
+          "sequenceNo" : 11,
+          "repealedDate" : null,
+          "fromSection" : "103-E",
+          "toSection" : "103-E",
+          "text" : "  § 103-e. Artificial intelligence (AI) inventory. 1. The office shall\\nmaintain an inventory of state agency artificial intelligence systems.\\nThe office shall issue guidance to state agencies identifying the data\\nelements to be collected and submitted to the office for such inventory,\\nincluding but not limited to the purpose and uses of the artificial\\nintelligence systems. The inventory shall be posted on the New York\\nstate open data website on the thirtieth of December next succeeding the\\ndate this section takes effect, and annually thereafter. State agencies\\nshall submit information required by the office at least sixty days in\\nadvance of the annual publication date. The office may withhold certain\\ninformation if it determines disclosure of this information would\\njeopardize the security of information technology assets, or as\\nprescribed by article six of the public officers law.\\n  2. For purposes of this section, \"artificial intelligence system\"\\nshall mean a machine-based system that can, for a given set of\\nhuman-defined objectives, make predictions, recommendations, or\\ndecisions influencing real or virtual environments that, when used, may\\n\"directly impact the public\". Artificial intelligence systems use\\nmachine- and human-based inputs to perceive real and virtual\\nenvironments, abstract such perceptions into models through analysis in\\nan automated manner, and use model inference to formulate options for\\ninformation or action.  \"Artificial intelligence system\" includes but is\\nnot limited to systems that use machine learning, large language model,\\nnatural language processing, and computer vision technologies, including\\ngenerative artificial intelligence. \"Artificial intelligence system\"\\nshall not include basic calculations, basic automation, or pre-recorded\\nrule-based conditional logic response systems with predefined triggers\\nthat automatically initiate predetermined actions, such as If This Then\\nThat (IFTT) systems.\\n  3. For purposes of this section, \"directly impact the public\" shall\\nmean when the use of an artificial intelligence system would control,\\nhave a material impact on, or meaningfully influence the outcome of\\nactivities that impact the safety, welfare, or rights of the public.\\nSuch activities include but are not limited to assessments or decisions\\nabout individuals including in law enforcement, housing, hiring and\\nemployment, financial, educational, or healthcare contexts, decisions\\nregarding access to or eligibility for government benefits or about\\nchild welfare, or the functioning of emergency services or critical\\ninfrastructure.\\n  4. The office may ask and shall receive from any state agency any\\ninformation or assistance necessary to carry out its powers and duties\\nunder this section.\\n  5. The office shall submit a copy of the artificial intelligence\\ninventory to the governor, the temporary president of the senate, and\\nthe speaker of the assembly.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103-F",
+          "title" : "Cybersecurity awareness training",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2025-07-04", "2025-12-26", "2026-02-27" ],
+          "docLevelId" : "103-F",
+          "activeDate" : "2026-02-27",
+          "sequenceNo" : 12,
+          "repealedDate" : null,
+          "fromSection" : "103-F",
+          "toSection" : "103-F",
+          "text" : "  § 103-f. Cybersecurity awareness training. 1. (a) Employees of the\\nstate who use technology as a part of their official job duties shall\\ntake annual cybersecurity awareness training beginning January first,\\ntwo thousand twenty-six. Employees of the state shall be required to\\ncomplete the training provided by the office.\\n  (b) For purposes of this section, \"employees of the state\" shall\\ninclude employees of all state agencies and all public benefit\\ncorporations, the heads of which are appointed by the governor.\\n  2. Employees of a county, a city, a town, a village, or a district as\\ndefined in section one hundred nineteen-n of the general municipal law,\\nwho use technology as a part of their official job duties shall take\\nannual cybersecurity awareness training beginning January first, two\\nthousand twenty-six. The office shall make a cybersecurity training\\navailable for use by a county, a city, a town, a village, or a district\\nas defined in section one hundred nineteen-n of the general municipal\\nlaw, at no charge, provided however, no employee of a county, a city, a\\ntown, a village, or a district as defined in section one hundred\\nnineteen-n of the general municipal law shall be required to complete\\nsuch training provided by the office and the cybersecurity awareness\\ntraining requirements of this section may be satisfied by the completion\\nof other cybersecurity awareness training.\\n  3. All training mandated by this section shall be conducted during the\\nemployee's regular working hours and employees shall receive\\ncompensation at their regular rate of pay for any time spent\\nparticipating in such training.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "103-F*2",
+          "title" : "Automated decision-making tool inventory",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2025-12-26", "2026-02-27" ],
+          "docLevelId" : "103-F*2",
+          "activeDate" : "2026-02-27",
+          "sequenceNo" : 13,
+          "repealedDate" : "2026-02-27",
+          "fromSection" : "103-F*2",
+          "toSection" : "103-F*2",
+          "text" : "  * § 103-f. Automated decision-making tool inventory. 1. The office\\nshall maintain an inventory of state automated decision-making tools.\\nThe office shall issue guidance to state agencies identifying the data\\nelements to be collected and submitted to the office for such inventory,\\nincluding but not limited to the purpose and uses of such automated\\ndecision-making tools. The inventory shall be posted on the New York\\nstate open data website on the thirtieth of December next succeeding the\\ndate on which this section takes effect, and annually thereafter. State\\nagencies shall submit information required by the office at least sixty\\ndays in advance of the annual publication date. The office may withhold\\ncertain information if it determines disclosure of this information\\nwould jeopardize the security of information technology assets, or as\\nprescribed by article six of the public officers law.\\n  2. For purposes of this section, \"automated decision-making tool\"\\nshall have the same meaning as the term is defined in section five\\nhundred one of this chapter.\\n  3. The office may ask and shall receive from any state agency any\\ninformation or assistance necessary to carry out its powers and duties\\nunder this section.\\n  4. The office shall submit a copy of the artificial intelligence\\ninventory to the governor, the temporary president of the senate, and\\nthe speaker of the assembly.\\n  * NB Repealed July 1, 2028\\n  * NB There are 2 § 103-f's\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : true
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "104",
+          "title" : "Advisory council for technology",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "104",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 14,
+          "repealedDate" : null,
+          "fromSection" : "104",
+          "toSection" : "104",
+          "text" : "  § 104. Advisory council for technology. 1. There shall be within the\\noffice, an advisory council for technology. The director of the office\\nshall serve as chair of the council. The council shall be composed of a\\nminimum of nine information resource management directors or their\\nequivalent appointed by the governor. The governor's appointments shall\\nbe selected from state agencies. In addition, one shall be appointed\\nupon recommendation of the temporary president of the senate and one\\nshall be appointed upon the recommendation of the speaker of the\\nassembly.\\n  2. The members of the council shall receive no compensation for their\\nservices, but shall be allowed their actual and necessary expenses\\nincurred in the performance of their duties.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "105",
+          "title" : "Functions, powers and duties of the council",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "105",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 15,
+          "repealedDate" : null,
+          "fromSection" : "105",
+          "toSection" : "105",
+          "text" : "  § 105. Functions, powers and duties of the council. The council shall\\nhave the following functions, powers and duties:\\n  1. To review and comment on all rules and regulations of the office;\\n  2. To provide guidance and support to the office in the development of\\nany statewide plan for the further development and improvement of the\\nstate's technology acquisitions;\\n  3. To recommend surveys and reports to be completed by the director to\\ncarry out all of the objectives and purposes of this article; and\\n  4. To perform such other acts as may be assigned by the chairperson of\\nthe council which are necessary or appropriate to carry out the\\nfunctions of the council.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "106",
+          "title" : "Responsibility to respond to the freedom of information law for certain data",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "106",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 16,
+          "repealedDate" : null,
+          "fromSection" : "106",
+          "toSection" : "106",
+          "text" : "  § 106. Responsibility to respond to the freedom of information law for\\ncertain data. Where the office receives a request for another agency's\\ndata which is in the possession of the office because it administers,\\noperates or manages a statewide technology program, the office will\\ntransmit, within five days, in writing the request to the agency that\\nowns the data with a copy of this law and send a copy of the transmittal\\nto the requester. Upon receiving the forwarded request, the agency must\\ncomply with article six of the public officers law as if it had\\ninitially received the request. The time periods for responding to a\\nrequest as required by article six of the public officers law commence\\nwhen the agency receives the request from the office.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "106-A",
+          "title" : "Health care proxy information",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "106-A",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 17,
+          "repealedDate" : null,
+          "fromSection" : "106-A",
+          "toSection" : "106-A",
+          "text" : "  § 106-a. Health care proxy information. Any state agency, board,\\nbureau, authority, commission, division, or other governmental entity\\nperforming a governmental or proprietary function for the state that\\nmaintains a public website and has a significant public interaction in\\nthe field of public health shall, in consultation with the office of\\ninformation technology services and the department of health, create a\\nlink on their homepage to the health care proxy information on the\\ndepartment of health's website. A state agency, board, bureau,\\nauthority, commission, division, or other governmental entity performing\\na governmental or proprietary function for the state which determines\\nthat creating such link would create a financial hardship or which do\\nnot have a significant public interaction in the field of public health\\nshall be exempted from the provisions of this section.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "106-B",
+          "title" : "Use of biometric identifying technology in schools",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2021-01-29" ],
+          "docLevelId" : "106-B",
+          "activeDate" : "2021-01-29",
+          "sequenceNo" : 18,
+          "repealedDate" : null,
+          "fromSection" : "106-B",
+          "toSection" : "106-B",
+          "text" : "  § 106-b. Use of biometric identifying technology in schools. 1. As\\nused in this section:\\n  a. \"biometric identifying technology\" shall mean any tool using an\\nautomated or semi-automated process that assists in verifying a person's\\nidentity based on a person's biometric information.\\n  b. \"biometric information\" shall mean any measurable physical,\\nphysiological or behavioral characteristics that are attributable to a\\nperson, including but not limited to facial characteristics, fingerprint\\ncharacteristics, hand characteristics, eye characteristics, vocal\\ncharacteristics, and any other characteristics that can be used to\\nidentify a person including, but are not limited to: fingerprints;\\nhandprints; retina and iris patterns; DNA sequence; voice; gait; and\\nfacial geometry.\\n  c. \"facial recognition\" shall mean any tool using an automated or\\nsemi-automated process that assists in uniquely identifying or verifying\\na person by comparing and analyzing patterns based on the person's face.\\n  2. a. Except as authorized in paragraph b of this subdivision, public\\nand nonpublic elementary and secondary schools, including charter\\nschools, shall be prohibited from purchasing or utilizing biometric\\nidentifying technology for any purpose, including school security, until\\nJuly first, two thousand twenty-two or until the commissioner of\\neducation authorizes such purchase or utilization as provided in\\nsubdivision three of this section, whichever occurs later.\\n  b. Schools may utilize biometric identifying technology for the\\nfollowing purposes: (i) fingerprint identification of prospective school\\nemployees where utilized for the purpose of compliance with a provision\\nof the education law or the regulations of the commissioner of education\\nor (ii) to exclusively identify employees that have consented in writing\\nto the use of such technology or in the case of employees represented\\nunder article fourteen of the civil service law, where the employee\\norganization representing such employee has consented in writing to the\\nuse of such technology.\\n  3. a. The commissioner of education shall not authorize the purchase\\nor utilization of biometric identifying technology, including but not\\nlimited to facial recognition technology, without the director first\\nissuing a report prepared in consultation with the state education\\ndepartment, making recommendations as to the circumstances in which the\\nutilization of such technology is appropriate in public and nonpublic\\nelementary and secondary schools, including charter schools, and what\\nrestrictions and guidelines should be enacted to protect individual\\nprivacy, civil rights, and civil liberty interests. Such report shall be\\nmade public and presented to the governor, the temporary president of\\nthe senate, and the speaker of the assembly, and shall consider,\\nevaluate and present recommendations concerning:\\n  i. the privacy implications of collecting, storing, and/or sharing\\nbiometric information of students, teachers, school personnel and the\\ngeneral public entering a school or school grounds;\\n  ii. the potential impact of the use of biometric identifying\\ntechnology on student civil liberties and student civil rights,\\nincluding the risks and implications of the technology resulting in\\nfalse facial identifications, and whether the risks of false facial\\nidentifications differs for different subgroups of individuals based on\\nrace, national origin, gender, age and other factors, and any other\\nreasonable accuracy concerns with respect to technology;\\n  iii. whether, and under what circumstances, such technology may be\\nused for school security and the effectiveness of such technology to\\nprotect students and school personnel;\\n  iv. whether, and under what circumstances and in what manner,\\ninformation collected may be used by schools and shared with students,\\nparents or guardians, outside agencies including law enforcement\\nagencies, individuals, litigants, the courts, and any other third\\nparties;\\n  v. the length of time biometric information may be retained and\\nwhether, and in what manner, such information may be required to be\\npermanently destroyed;\\n  vi. the risk of an unauthorized breach of biometric information and\\nappropriate consequences therefor;\\n  vii. expected maintenance costs resulting from the storage and use of\\nfacial recognition images and other biometric information, including the\\ncost of appropriately securing sensitive data, performing required\\nupdates to protect against an unauthorized breach of data, and potential\\ncosts associated with an unauthorized breach of data;\\n  viii. analysis of other schools and organizations, if any, that have\\nimplemented facial recognition technology and other biometric\\nidentifying technology programs;\\n  ix. the appropriateness and potential implications of using any\\nexisting databases, including but not limited to, local law enforcement\\ndatabases, as part of biometric identifying technology;\\n  x. whether, and in what manner such biometric identifying technology\\nshould be assessed and audited, including but not limited to, vendor\\ndatasets, adherence to appropriate standards of algorithmic fairness,\\naccuracy, and other performance metrics, including with respect to\\nsubgroups of persons based on race, national origin, gender, and age;\\n  xi. whether, and in what manner, the use of such technology should be\\ndisclosed by signs and the like in such schools, as well as communicated\\nto parents, guardians, students, and district residents; and\\n  xii. existing legislation, including but not limited to section two-d\\nof the education law, that may be implicated by or in conflict with\\nbiometric technology to ensure the maintenance of records related to the\\nuse of such technology, protect the privacy interests of data subjects,\\nand avoid any breaches of data.\\n  b. The director, in consultation with the commissioner of education,\\nshall consult with stakeholders and other interested parties when\\npreparing such report. The state education department, the division of\\ncriminal justice services, law enforcement authorities and the state\\nuniversity of New York and the city university of New York shall, to the\\nextent practicable, identify and provide representatives to the office\\nof information technology, at the request of the director, in order to\\nparticipate in the development and drafting of such report.\\n  4. The director shall, via scheduled public hearings and other\\noutreach methods, seek feedback from teachers, school administrators,\\nparents, individuals with expertise in school safety and security, and\\nindividuals with expertise in data privacy issues and student privacy\\nissues, and individuals with expertise in civil rights and civil\\nliberties prior to making such recommendations.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "107",
+          "title" : "Severability",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "107",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 19,
+          "repealedDate" : null,
+          "fromSection" : "107",
+          "toSection" : "107",
+          "text" : "  § 107. Severability. The provisions of this article shall be severable\\nand if any portion thereof or the applicability thereof to any person or\\ncircumstances shall be held to be invalid, the remainder of this article\\nand the application thereof shall not be affected thereby.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        } ],
+        "size" : 17
+      },
+      "repealed" : false
+    }
+  }
+}

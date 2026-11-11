@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 474,
+ "n_nodes": 538,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -135,6 +135,36 @@
    "title": "Information Technology Access for Individuals Who are Blind or Visually Impaired",
    "doc_type": "statute",
    "path": "statutes/colorado/co-crs-24-85.md"
+  },
+  {
+   "id": "ny-stt-art-1",
+   "title": "State Technology Law, Article 1 - Office of Information Technology Services",
+   "doc_type": "statute",
+   "path": "statutes/new-york/ny-stt-art-1.md"
+  },
+  {
+   "id": "ny-stt-art-2",
+   "title": "State Technology Law, Article 2 - Internet Security and Privacy Act",
+   "doc_type": "statute",
+   "path": "statutes/new-york/ny-stt-art-2.md"
+  },
+  {
+   "id": "ny-stt-art-3",
+   "title": "State Technology Law, Article 3 - Electronic Signatures and Records Act",
+   "doc_type": "statute",
+   "path": "statutes/new-york/ny-stt-art-3.md"
+  },
+  {
+   "id": "ny-stt-art-4",
+   "title": "State Technology Law, Article 4 - Automated Employment Decision-making In State Government",
+   "doc_type": "statute",
+   "path": "statutes/new-york/ny-stt-art-4.md"
+  },
+  {
+   "id": "ny-stt-art-5",
+   "title": "State Technology Law, Article 5 - Automated Decision-making In Government Agencies",
+   "doc_type": "statute",
+   "path": "statutes/new-york/ny-stt-art-5.md"
   },
   {
    "id": "or-ors-276a",
@@ -281,6 +311,12 @@
    "path": "rules/colorado/co-ccr-8-1501-9.md"
   },
   {
+   "id": "ny-nycrr-551",
+   "title": "CIO/OFT Personal Privacy Protection Regulations",
+   "doc_type": "rule",
+   "path": "rules/new-york/ny-nycrr-551.md"
+  },
+  {
    "id": "or-oar-128-20",
    "title": "State Information Technology Asset Protection - Covered Vendors",
    "doc_type": "rule",
@@ -345,6 +381,12 @@
    "title": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch",
    "doc_type": "executive_order",
    "path": "executive-orders/california/ca-eo-n-9-26.md"
+  },
+  {
+   "id": "ny-eo-117",
+   "title": "Establishing the Position of Chief Information Officer (CIO) of the State of New York",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-york/ny-eo-117.md"
   },
   {
    "id": "or-eo-23-26",
@@ -1191,6 +1233,198 @@
    "title": "Real-time Billing Dispute Process: Agency Steps",
    "doc_type": "policy",
    "path": "policies/colorado/co-oit-real-time-billing-dispute-process-agency-steps.md"
+  },
+  {
+   "id": "ny-its-g26-002",
+   "title": "Lake Ontario Map Label Retention",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-g26-002.md"
+  },
+  {
+   "id": "ny-its-p04-005",
+   "title": "Surplus and Disposal of ITS Equipment Furniture and Vehicles",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p04-005.md"
+  },
+  {
+   "id": "ny-its-p18-001",
+   "title": "Proof of Value",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p18-001.md"
+  },
+  {
+   "id": "ny-its-p18-007",
+   "title": "Mobile Device Provisioning, Deprovisioning, and Replacement",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p18-007.md"
+  },
+  {
+   "id": "ny-its-p19-002",
+   "title": "Cloud Computing",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p19-002.md"
+  },
+  {
+   "id": "ny-its-p19-005",
+   "title": "Acceptable Use of Open Source Software",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p19-005.md"
+  },
+  {
+   "id": "ny-its-p20-001",
+   "title": "System Integration",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p20-001.md"
+  },
+  {
+   "id": "ny-its-p21-001",
+   "title": "Workplace Computing Device",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p21-001.md"
+  },
+  {
+   "id": "ny-its-p21-004",
+   "title": "Local District Social Services Access to State Applications",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p21-004.md"
+  },
+  {
+   "id": "ny-its-p21-005",
+   "title": "Deprovisioning of M365 Accounts and Home Drive(s)",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p21-005.md"
+  },
+  {
+   "id": "ny-its-p22-001",
+   "title": "Supporting Client Agency Data Sharing or Computer Matching Agreements",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p22-001.md"
+  },
+  {
+   "id": "ny-its-p23-001",
+   "title": "Agency Application & Scripting Development Activities",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p23-001.md"
+  },
+  {
+   "id": "ny-its-p23-002",
+   "title": "Offboarding",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p23-002.md"
+  },
+  {
+   "id": "ny-its-p23-003",
+   "title": "Bid Protest",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p23-003.md"
+  },
+  {
+   "id": "ny-its-p24-003",
+   "title": "Process for Establishing Information Technology Policies, Standards, and Guidelines",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p24-003.md"
+  },
+  {
+   "id": "ny-its-p24-005",
+   "title": "Use of Gender-Neutral Terminology",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p24-005.md"
+  },
+  {
+   "id": "ny-its-p26-003",
+   "title": "Vulnerability Disclosure",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p26-003.md"
+  },
+  {
+   "id": "ny-nys-g02-001",
+   "title": "Internet Privacy Policies",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-g02-001.md"
+  },
+  {
+   "id": "ny-nys-g04-001",
+   "title": "Electronic Signatures and Records Act (ESRA)",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-g04-001.md"
+  },
+  {
+   "id": "ny-nys-g25-001",
+   "title": "AI Inventory Guidance",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-g25-001.md"
+  },
+  {
+   "id": "ny-nys-g25-002",
+   "title": "Generative Artificial Intelligence Use in the Workplace",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-g25-002.md"
+  },
+  {
+   "id": "ny-nys-p03-002",
+   "title": "Information Security Policy",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p03-002.md"
+  },
+  {
+   "id": "ny-nys-p08-001",
+   "title": "Plan to Procure",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p08-001.md"
+  },
+  {
+   "id": "ny-nys-p08-002",
+   "title": "Authority to Establish Enterprise Information Technology Policies, Standards, and Guidelines",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p08-002.md"
+  },
+  {
+   "id": "ny-nys-p08-003",
+   "title": "Domain Names for State Government Agencies",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p08-003.md"
+  },
+  {
+   "id": "ny-nys-p08-005",
+   "title": "Accessibility of Information Communication Technology",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p08-005.md"
+  },
+  {
+   "id": "ny-nys-p11-001",
+   "title": "Use of Social Media Technology",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p11-001.md"
+  },
+  {
+   "id": "ny-nys-p13-001",
+   "title": "Information Security Exception Policy",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p13-001.md"
+  },
+  {
+   "id": "ny-nys-p14-001",
+   "title": "Acceptable Use of Information Technology (IT) Resources",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p14-001.md"
+  },
+  {
+   "id": "ny-nys-p23-001",
+   "title": "International Access to NYS Systems or Data",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p23-001.md"
+  },
+  {
+   "id": "ny-nys-p24-001",
+   "title": "Acceptable Use of Artificial Intelligence Technologies",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p24-001.md"
+  },
+  {
+   "id": "ny-nys-p26-001",
+   "title": "Cybersecurity Supply Chain Risk Management",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-nys-p26-001.md"
   },
   {
    "id": "or-das-107-004-010",
@@ -2253,6 +2487,156 @@
    "title": "Technology Accessibility for Persons with Disabilities",
    "doc_type": "standard",
    "path": "standards/colorado/co-oit-ts-oea-001.md"
+  },
+  {
+   "id": "ny-its-s16-003",
+   "title": "TLS / SSL Certificate Standard",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-its-s16-003.md"
+  },
+  {
+   "id": "ny-its-s16-004",
+   "title": "Web Browsers Development and Software Support",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-its-s16-004.md"
+  },
+  {
+   "id": "ny-its-s18-002",
+   "title": "Service Taxonomy",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-its-s18-002.md"
+  },
+  {
+   "id": "ny-its-s24-001",
+   "title": "International Travel Kit",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-its-s24-001.md"
+  },
+  {
+   "id": "ny-nys-s10-001",
+   "title": "Continuing Professional Education Requirements for Information Security Professionals",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s10-001.md"
+  },
+  {
+   "id": "ny-nys-s13-001",
+   "title": "Secure System Development Life Cycle",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s13-001.md"
+  },
+  {
+   "id": "ny-nys-s13-002",
+   "title": "Secure Coding",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s13-002.md"
+  },
+  {
+   "id": "ny-nys-s13-003",
+   "title": "Sanitization Secure Disposal",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s13-003.md"
+  },
+  {
+   "id": "ny-nys-s13-005",
+   "title": "Cyber Incident Response",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s13-005.md"
+  },
+  {
+   "id": "ny-nys-s14-001",
+   "title": "Information Security Risk Management",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-001.md"
+  },
+  {
+   "id": "ny-nys-s14-002",
+   "title": "Information Classification Standard",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-002.md"
+  },
+  {
+   "id": "ny-nys-s14-005",
+   "title": "Security Logging",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-005.md"
+  },
+  {
+   "id": "ny-nys-s14-006",
+   "title": "Authentication Tokens",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-006.md"
+  },
+  {
+   "id": "ny-nys-s14-007",
+   "title": "Encryption",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-007.md"
+  },
+  {
+   "id": "ny-nys-s14-008",
+   "title": "Secure Configuration",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-008.md"
+  },
+  {
+   "id": "ny-nys-s14-009",
+   "title": "Mobile Device Security",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-009.md"
+  },
+  {
+   "id": "ny-nys-s14-010",
+   "title": "Remote Access",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-010.md"
+  },
+  {
+   "id": "ny-nys-s14-011",
+   "title": "Enterprise Mobile Management Technical Standard",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-011.md"
+  },
+  {
+   "id": "ny-nys-s14-013",
+   "title": "Account Management Access Control Standard",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s14-013.md"
+  },
+  {
+   "id": "ny-nys-s15-001",
+   "title": "Patch Management",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s15-001.md"
+  },
+  {
+   "id": "ny-nys-s15-002",
+   "title": "Vulnerability Management",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s15-002.md"
+  },
+  {
+   "id": "ny-nys-s15-003",
+   "title": "802.11 Wireless Network Security",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s15-003.md"
+  },
+  {
+   "id": "ny-nys-s16-001",
+   "title": "New York State Universal Web Navigation",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s16-001.md"
+  },
+  {
+   "id": "ny-nys-s17-003",
+   "title": "Notification Standard for Certain Types of Regulated Data",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s17-003.md"
+  },
+  {
+   "id": "ny-nys-s20-001",
+   "title": "Digital Identity Standard",
+   "doc_type": "standard",
+   "path": "standards/new-york/ny-nys-s20-001.md"
   },
   {
    "id": "or-eis-it-control-standards",

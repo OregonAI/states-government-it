@@ -1,0 +1,604 @@
+                                        State Capitol P.O. Box 2062
+                                          Albany, NY 12220-0062
+                                              www.its.ny.gov
+
+                New York State
+                                                        No: ITS-P18-001
+     Information Technology Policy
+
+                                                        Updated: 02/11/2026
+                    IT Policy:
+                                                        Issued By: NYS Office of Information
+          Proof of Value                                Technology Services
+                                                        Owner: Chief Information Office
+
+1.0 Purpose and Benefits
+This policy outlines the technical and legal implications to consider prior to
+commencing a Proof of Value (“POV”) project.
+
+2.0 Authority
+Section 103.10-11 of State Technology Law provides the Office of Information
+Technology Services (ITS) the authority to establish statewide technology policies,
+including technology standards and security. Section 2 of Executive Order No. 117 1
+provides the State Chief Information Officer, the authority to oversee, direct and
+coordinate the establishment of information technology policies, protocols, and
+standards for State government, including hardware, software, security, and
+business re-engineering. Details regarding this authority can be found in NYS ITS
+Policy NYS-P08-002 Authority to Establish Enterprise Information Technology (IT)
+Policies, Standards and Guidelines.
+
+1 All references to Executive Order 117 refer to that which was originally issued by Governor George E. Pataki
+
+on January 28, 2002 and continued by Executive Order 5 issued by Governor Eliot Spitzer on January 1,
+2007, Executive Order 9 issued by Governor David A. Patterson on June 18, 2008, Executive Order 2 issued
+by Governor Andrew M. Cuomo on January 1, 2011 and Executive Order 6 issued by Governor Kathy Hochul
+on October 8, 2021.
+
+3.0 Scope
+This policy document applies to ITS and its employees (including full-time, part-
+time, and temporary employees), contractors, consultants, volunteers, interns, and
+ITS supported agencies (“Client Agency”).
+
+4.0 Information Statement
+An ITS POV is a formal evaluation of an un-procured technology to explore and
+demonstrate the potential of a Product or Service to fill a business need or solve
+or transform a business problem. It is not intended to provide a production ready
+environment but instead provides a collaborative exercise to illustrate the
+capabilities and identify potential risks or implementation considerations.
+
+A POV for any un-procured technology must be initiated when:
+
+a) the technology will or may be put into production in an ITS-managed
+technological environment (e.g., data center or cloud); and
+
+b) a financial investment of $50,000.00 or greater is being considered.
+
+To request a POV review and approval, please have your ITS representative lead
+submit an ITSM request. A POV request requires a risk analysis ascertaining
+security/ privacy considerations.
+
+Prior to conducting a POV, formal, documented approval must be obtained, this
+includes an agreement between the third-party vendor and ITS. Only ITS
+authorized signatories may execute any legal documentation which includes, but
+is not limited to, any on-line click-through agreements. Available for specific use in
+POVs is a boilerplate evaluation agreement prepared by the ITS Division of Legal
+Affairs (see Attachment A). A vendor agreeing to those terms as-is will expedite
+review timeframes. All POVs must have zero cost associated with them and may
+not begin until all appropriate approvals are received.
+
+POV results must be documented using a standard template.
+
+5.0 Compliance
+This policy shall take effect upon publication. Compliance is required with all ITS
+policies and standards. ITS may amend its policies and standards at any time;
+compliance with amended policies and standards is required.
+
+6.0 Definitions of Key Terms
+Except for terms defined in this policy, all terms shall have the meanings found in
+http://www.its.ny.gov/glossary.
+
+ITS-P18-001                                                                Page 2 of 12
+
+7.0 Contact Information
+Submit all inquiries and requests for future enhancements to the policy owner at:
+
+                   Office of the Chief Information Officer
+                          Reference: ITS-P18-001
+               NYS Office of Information Technology Services
+                     State Capitol, ESP, P.O. Box 2062
+                           Albany, NY 12220-0062
+                         Telephone: (518) 402-7000
+                           Email: CIO@its.ny.gov
+
+Statewide technology policies, standards, and guidelines may be found at the
+following website: https://its.ny.gov/policies
+
+8.0 Revision History
+This policy should be reviewed consistent with the requirements set forth in ITS-
+P24-003 Process for Establishing Information Technology Polices, Standards and
+Guidelines.
+
+ Date             Description of Change                            Reviewer
+
+                                                                   Chief Technology
+ 10/04/2019       Issued policy
+                                                                   Office
+
+                                                                   Chief Technology
+ 11/15/2023       Reviewed and no updates
+                                                                   Office
+
+                  Updated owner, added proof of value criteria,    Chief Information
+ 02/11/2026
+                  added template evaluation agreement              Office
+
+9.0 Related Documents
+ITS Proof of Value Evaluation Template
+
+ITS-P18-001                                                            Page 3 of 12
+
+                                     Attachment A
+               Boilerplate Evaluation Agreement Template
+                           EVALUATION AGREEMENT
+                                   between
+                                  [VENDOR]
+                                     and
+       THE NEW YORK STATE OFFICE OF INFORMATION TECHNOLOGY SERVICES
+                                      for
+                                 [PRODUCT]
+
+This Evaluation Agreement (“Agreement”) is made by and between [Vendor] (“Vendor” or “…”)
+located at [Vendor Address] and the New York State (“NYS”) Office of Information Technology
+Services (“ITS”) located at the Empire State Plaza, Swan Street Building, Core 4, Albany, NY
+12207.
+
+                                              RECITALS:
+
+WHEREAS, [What product vendor is providing];
+
+WHEREAS, [Why ITS is evaluating the product] (herein, “Purpose”); and
+
+NOW, THEREFORE, in consideration of the foregoing recitals, the mutual covenants and
+conditions contained herein, and for other good and valuable consideration, the receipt and
+sufficiency of which are hereby acknowledged, the parties hereto hereby agree as follows:
+
+1.       No Cost. Nothing in this Agreement shall obligate the parties to proceed with any
+transaction or business relationship. Nothing in this Agreement may be construed to obligate ITS
+to any current or future expenditure of resources. Nor does this Agreement obligate ITS to spend
+funds on any particular project or for any particular purpose, even if funds are available. Any
+endeavor involving reimbursement, contribution of funds, or other transfer of anything of value by
+ITS will be handled in accordance with applicable laws, regulations, and procedures, including
+those for NYS procurement.
+
+2.     Term. [Product] license grant is effective for [time period] days from the start of ITS use of
+the [Product] (the “Evaluation Period”), unless terminated earlier. Upon expiration of this
+Agreement, ITS shall make no further use whatsoever of the [Product], except to the extent that
+may be permitted under any other agreement(s) in accordance with NYS procurement laws.
+
+3.       Artificial Intelligence. If this Product contains an Artificial Intelligence component, including
+Generative AI capabilities, all parties must adhere to New York State’s Acceptable Use of Artificial
+Intelligence Technologies (NYS-P24-001).
+
+4.       Grant of License. ITS is hereby granted a limited, nonexclusive, and nontransferable
+license to use Subscription Services for internal business purposes during Evaluation Period
+according to the technical documentation of the Subscription Services for the Purpose. Except for
+the limited license right specified herein, ITS is not entitled to use the Subscription Services in any
+other manner or for any other purpose except for the Purpose.
+
+5.       Use and Collaboration. ITS shall collaborate with [Vendor] to support the implementation
+and evaluation of the [Product] for the duration of the Term and the decommissioning, if need be,
+at the end of the Term, except to the extent that may be permitted under any other agreement(s) in
+accordance with NYS procurement laws. [Vendor] provides the [Product] on an “as is” basis during
+
+ITS-P18-001                                                                                  Page 4 of 12
+
+the Evaluation Period. To the extent permitted by law, [Vendor] disclaims any and all warranties,
+express, implied, statutory or otherwise, except as explicitly stated herein or in writing by [Vendor].
+
+6.      Cooperation. [Vendor] and ITS acknowledge that it shall be necessary to collaborate
+throughout the Evaluation Period and agree to use best efforts to fulfill the Purpose of this
+agreement. For purposes of this paragraph, best efforts means that (a) ITS shall provide [Vendor]
+with technical feedback on its evaluation of the [Product] including recommendations to improve
+the [Product], and (b) [Vendor] shall respond to feedback and inquiries regarding the use and
+function of the service with a level of effort and resources normally devoted by [Vendor] in
+accordance with its values, subject to the terms of this Agreement.
+
+7.       Ownership. ITS acknowledges that the [Product] is and shall remain the sole and exclusive
+property of [Vendor], and that [Vendor] shall own all right, title, and interest therein, together with
+all patent, copyright, and other intellectual property rights therein, except to the extent that may be
+permitted under any other agreement(s) in accordance with NYS procurement laws.
+
+8.      Confidentiality.
+
+a. During the term of this Agreement, each party may be given or have access to, confidential
+information of the other party, including without limitation, information, technology, know-how,
+methods, techniques, processes, data and databases, trade secrets, and other intellectual property,
+whether or not patented or patentable, copyrighted or copyrightable, financial, commercial,
+governmental, or other proprietary information that relates to the business, financial affairs,
+personnel, business development and marketing, methods of operation, Product documentation,
+customer and pricing information, security procedures, and internal controls of the other party
+(collectively, “Confidential Information”). Confidential Information shall include all data, notes,
+summaries, or other material derived from the foregoing.
+
+b. Each party hereby agrees that such party shall: (i) use the disclosing party’s Confidential
+Information only for the purpose of carrying out the intentions of this Agreement, and for no other
+purpose whatsoever; (ii) disclose the disclosing party’s Confidential Information only to those of the
+receiving party’s employees or agents with a need to know, and permit such employees or agents
+to use the Confidential Information only in connection with the purposes referred to above; (iii) take,
+and require its employees and agents to take, all precautions necessary to keep confidential and
+protect from theft, unauthorized duplication or discovery, the disclosing party’s Confidential
+Information; and (iv) advise its employees and agents who receive the Confidential Information that
+they may only use, and are required to protect, such Confidential Information as set forth above.
+Each party is ultimately responsible for the safe keeping of the Confidential Information disclosed
+by it to its employees and agents.
+
+c. The foregoing restrictions on use and disclosure shall not apply to Confidential Information that
+the receiving party can conclusively show: (i) was in its possession, as evidenced by written
+records, pre-dating disclosure hereunder, provided that any confidentiality restrictions on
+information provided by disclosing party prior to this Agreement remain intact; (ii) was or became
+public knowledge through no fault of the receiving party; (iii) was disclosed to the receiving party
+by a third party who was not bound by any confidentiality restriction and did not so bind the receiving
+party; or (iv) is required by law to be disclosed, but only to the extent of such requirement.
+
+d. At any time upon request by the other party and upon the expiration or earlier termination of this
+Agreement (whichever event occurs first), each party shall return to the other party, all of the other
+party’s Confidential Information, and make best effort to return or delete all notes, memoranda or
+other materials, and analyses of such information and any and all excerpts or copies of Confidential
+Information, whether in written, electronic, or other format.
+
+e. Each party shall notify the other immediately upon discovery of any use or disclosure of the other
+party’s Confidential Information in violation of this Agreement, or any other breach of the
+
+ITS-P18-001                                                                               Page 5 of 12
+
+confidentiality obligations herein, and shall cooperate fully with the other party to assist it in
+regaining possession of the Confidential Information and to prevent further disclosure or use of the
+Confidential Information in violation of this Agreement.
+
+f. Parties also recognize that ITS is subject to a public records law, the NYS Freedom of Information
+Law (“FOIL”) and other laws, which may require the disclosure of records otherwise covered by
+this Agreement. In the event that ITS is required by law, governmental order, or by a court of
+competent jurisdiction to disclose such records, ITS shall provide advance notice of such required
+disclosure to [Vendor], so as to afford the [Vendor] the opportunity, at the [Vendor]’s sole cost and
+expense, to pursue a protective order or other remedy, prior to disclosure, and ITS shall reasonably
+cooperate with [Vendor] in such efforts, so long as, such cooperation does not expose ITS to risk
+of liability or penalty and is not inconsistent with any governing law or court order.
+
+9.      Real Data Nondisclosure & Confidentiality.
+
+Contractor shall maintain the security, nondisclosure, privacy, and confidentiality of all information
+in accordance with the following clauses in the performance of its activities under the Contract.
+Contractor shall ensure that its agents, employees, officers, partners, and subcontractors, if any,
+are fully aware of the obligations arising under the Contract and shall take all commercially
+reasonable steps to ensure their compliance to prevent unauthorized use, access, or disclosure of
+NYS Confidential Information. Failure by Contractor or its agents, employees, officers, partners, or
+subcontractors to fully comply with these requirements shall be deemed a failure to meet
+Contractor's obligations under the Contract and may result in ITS suspending, canceling, and/or
+terminating the Contract for cause or to pursue any other legal or equitable remedies available.
+
+a. Definitions. "New York State ('NYS') Facilities": As used in the Contract, the term "NYS Facilities"
+shall mean any real property, tangible personal property, or electronic or virtual systems, or any
+part(s) or component(s) thereof, used in the conduct of New York State's business operations,
+including, but not limited to, physical office or computing space, computer(s) or computer systems,
+telecommunications or network infrastructure (e.g., utility closet(s), conduits, hubs, switches,
+routers), and supporting NYS Facilities and systems (e.g., mechanical, power, cooling, security, fire
+protection, water), regardless of owner.
+
+"New York State ('NYS') Confidential Information": For purposes of the Contract, any information
+that ITS or the State, regardless of form or medium of disclosure (e.g., verbal, hard copy, or
+electronic) or source of information (e.g., ITS, other state agencies, electronic systems, federal
+government, or third-party contractors) provides to the Contractor, its agents, employees, officers,
+partners, and subcontractors or which Contractor, its agents, employees, officers, partners, and
+subcontractors obtains, discovers, derives, or otherwise becomes aware of as a result of
+Contractor’s performance other than:
+
+a. information that is previously rightfully known to the receiving Party without restriction on
+disclosure;
+
+b. information that is or becomes, from no act or failure to act on the part of the receiving Party,
+generally known in the relevant industry or is in the public domain; and
+
+c. information that is independently developed by Contractor without use of NYS Confidential
+Information.
+
+"Contractor": For purposes of the Contract, obligations of the Contractor who is a Party to the
+Contract with ITS and refers to collectively, as well, Contractor's agents, employees, officers,
+partners, or subcontractors.
+
+“State.” For purposes of the Contract shall be interpreted to including New York State executive
+agencies (e.g., ITS, DTF, OTDA, DOH).
+
+ITS-P18-001                                                                               Page 6 of 12
+
+“Information Security Incident.” For purposes of the Contract shall mean any allegation or suspicion
+held by or brought to the attention of a State employee or Contractor involving inappropriate or
+unauthorized access to, or disclosure of, NYS Confidential Information or NYS Facilities.
+
+b. Data Ownership, Non-Disclosure, and Confidentiality. NYS Confidential Information is owned
+exclusively by New York State, will remain the property of the State throughout its use under the
+Contract, and shall not be released to any third-party by Contractor unless as required by applicable
+law or a court of competent jurisdiction, or unless Contractor has first obtained explicit written
+permission from a duly authorized individual employed by the State. Contractor is permitted to use
+NYS Confidential Information solely for the purposes set forth in the solicitation and the Contract,
+and for no other purpose. At no time shall the Contractor access, use, or disclose any NYS
+Confidential Information (including, but not limited to, personal, financial, health, or criminal history
+record information or other sensitive criminal justice information) for any other purpose. Further,
+NYS Confidential Information must be fully accessible at all times to the State during the term of
+the Contract and at the Contract's conclusion. Contractor may not limit or prevent access by the
+State to Confidential Information for any reason during the term of the Contract, except for planned
+interruptions, maintenance, or other similar activities.
+
+The Contractor is strictly prohibited from releasing or using NYS Confidential Information for any
+purposes other than those defined herein or authorized in writing by the State. This prohibition
+includes, but is not limited to, using any NYS Confidential Information for text or data mining
+purposes, or to develop or train any application, software, code, or data models, including
+generative artificial intelligence or other artificial intelligence and machine learning models,
+irrespective of whether such purposes are commercial or non-commercial, unless specifically
+authorized in writing by the State. Contractor agrees that NYS Confidential Information shall not be
+distributed, used, repurposed, transmitted, exchanged, or shared across other applications,
+environments, or business units of the Contractor or otherwise passed to other contractors, agents,
+subcontractors, or any other interested parties, except as expressly and specifically agreed to in
+writing by the State. Contractor shall indemnify and hold ITS and the State harmless from any loss
+or damage to the State resulting from the disclosure by the Contractor of such NYS Confidential
+Information, in accordance with the terms and conditions of the Contract. Contractor, including
+Contractor’s agents, employees, officers, partners, or subcontractors, may be required to execute
+all nondisclosure agreements identified in the solicitation, either before or upon arrival at NYS
+Facilities or, if in the State’s sole discretion, Contractor will otherwise have access to critical State
+networks, equipment, or NYS Confidential Information.
+
+c. Compliance with NYS Information Security Policies and Procedures. Contractor warrants,
+covenants, and represents that it shall comply fully with all security procedures of the State
+communicated to it in the performance of the Contract, including NYS Information Security policies
+and standards, and their successors posted on the ITS website. At the State’s discretion, it may, at
+any time during the term of the Contract, request that Contractor provide documentation validating
+its adherence to these security policies and standards. Contractor must deliver such documentation
+within thirty (30) days of a request by the State or as mutually agreed to, in writing, by the Parties.
+
+Contractor, to the extent the following meets or exceeds the NYS Information Security policies and
+standards described above, shall use industry standard security measures, including standard
+encryption protocols, to protect and guard the availability and security of all NYS Confidential
+Information, and adhere to all the State’s security policies. Contractor shall be strictly prohibited
+from using NYS Confidential Information in any fashion other than that defined herein. There may
+be instances whereby the State will communicate security procedures necessitated by the State’s
+operations. Contractor will use reasonable efforts to implement same. In the event Contractor does
+not implement or communicates that it cannot or will not implement such security procedures, the
+Parties will reasonably work to resolve such dispute pursuant to the Contract's Dispute Resolution
+process to the extent such dispute does not adversely impact the State’s legal obligations.
+
+ITS-P18-001                                                                                 Page 7 of 12
+
+Contractor warrants that its Contractor Staff are properly informed and trained regarding industry
+standard security measures, NYS Information Security policies and standards, and are prohibited
+from disclosing NYS Confidential Information to any persons without a need to know.
+
+d. Protection and Transmission of NYS Confidential Information. Contractor shall use appropriate
+means to preserve and protect NYS Confidential Information. This includes, but is not limited to,
+use of stable storage media, regular data backups and archiving, password protection of volumes,
+and data encryption. Consistent with the NYS Encryption Standard, to the extent doing so is
+applicable based on the specific services provided by Contractor to ITS under the Contract, the
+Contractor must encrypt NYS Confidential Information at rest, on file storage, on database storage,
+or on back-up media, and in transit in accordance with Local, State, and Federal laws, rules,
+regulations, ordinances, policies, standards, and guidelines. Contractor must use secure encrypted
+means (e.g., HTTPS, SFTP) for all electronic transmission or exchange of system, user, and
+application data with the State. Encryption at rest shall specifically use a currently valid FIPS
+approved cryptographic modules. The secure means used for electronic transmission or exchange
+of system, user and application data with the State shall be HTTPS, TLS version 1.3 or higher, or
+TLS 1.2 using only currently valid and non-depreciated ciphers.
+
+Contractor agrees that to the extent it has been authorized in writing to use such storage, any and
+all NYS Confidential Information will only be stored, processed, and maintained solely on
+designated target devices, and that no NYS Confidential Information at any time will be processed
+on or transferred to any portable computing device or any portable storage medium.
+
+Contractor shall also comply fully with all requirements of the Contract pertaining to security
+requirements specific to the services Contractor is providing to the State under the Contract. In
+addition to the specific security provisions required herein, Contractor shall also use, to the extent
+the following meets or exceeds NYS Information Security polices and standards, commercially
+reasonable best efforts to address and remediate any vulnerabilities associated with the types of
+application development or configuration services it is providing under the Contract which appear
+on the CWE/SANS list of the "TOP 25 Most Dangerous Programming Errors"
+(http://www.sans.org/top25errors/). When a vulnerability scan is being conducted as required by
+applicable NYS Information Security policies and standards and reveals software application
+vulnerabilities or any other security risks attendant to a provided solution, Contractor is responsible
+for ensuring those vulnerabilities and risks are remediated to ITS' reasonable satisfaction,
+including, but not limited to, complying with the requirements of ITS Standard NYS-S15-002,
+Vulnerability Management, or any successor standard.
+
+e. Physical Transport of NYS Confidential Information. To the extent the State agrees under the
+Contract that Contractor may physically transport any NYS Confidential Information, such physical
+transport may only occur upon the written direction and approval of the State and must comply with
+all applicable Local, State, and Federal laws, rules, regulations, ordinances, policies, standards,
+and guidelines. This includes, but is not limited to, transport between the Contractor’s offices, to
+and from subcontractors, and to the State.
+
+f. Data Storage, Access, and Location - Off Shore Restrictions. Contractor agrees that: (a) unless
+agreed to in writing by a State authorized signatory adhering to established State practices, all NYS
+Confidential Information shall remain within and may not be stored, or accessed from, outside of
+the Contiguous United States (CONUS) and (b) unless expressly agreed to in writing by a State
+authorized signatory adhering to established State practices, Contractor shall not have remote
+access into NYS Facilities.
+
+All access to NYS Confidential Information and NYS Facilities, physical or virtual, must be
+conducted within CONUS and have adequate security systems in place to protect against the
+unauthorized access to NYS Confidential Information stored therein or NYS Facilities. The
+Contractor shall not send or permit to be sent to any location outside of the CONUS any NYS
+Confidential Information related to the Contract.
+
+ITS-P18-001                                                                               Page 8 of 12
+
+To the extent support by Contractor requires replication of a set of conditions such as a software
+crash event, Contractor shall replicate that set of conditions in its own environment when providing
+support, while communicating with State technical personnel. For software development activities,
+such as patches, updates, or adding new functionality, Contractor shall conduct that software
+development within its own development, quality assurance, and production environments, and,
+when ready, shall package and provide it through an agreed-to Internet-based location, from which
+State technical personnel will download such software, and install and test it in the State's
+information technology environment. Contractor must provide the results of vulnerability scans
+conducted on the code prior to the State accepting changed in the code.
+
+Upon prior written approval of ITS, to the extent Contractor requires access to State system or
+application audit logs for support and troubleshooting, Contractor will maintain such logs only within
+CONUS, will take the strictest measures to ensure such logs do not contain NYS Confidential
+Information including production data, and will maintain such logs in a secure environment subject
+to audits by the State.
+
+g. Separation of Duties / Access Controls. The Contractor must ensure that all NYS Confidential
+Information that it holds under the Contract is stored in a controlled access environment to ensure
+data security and integrity that adheres to all applicable Local, State, and Federal laws, rules,
+regulations, ordinances, policies, standards, and guidelines. Contractor will provide the State a list
+of the physical locations where Contractor has stored any NYS Confidential Information at any
+given time and will update that list if the physical location changes. All Contractor facilities must
+have adequate security systems in place to protect against the unauthorized access to such
+facilities and data stored therein. Access into and within such facilities must be restricted by
+Contractor through an access control system that requires positive identification of authorized
+individuals as well as maintains a log of all accesses (e.g., date and time of the event, type of event,
+user identity, component of the information system, outcome of the event). The Contractor shall
+have a formal procedure in place for granting computer system access to NYS Confidential
+Information and to track access. Contractor access to NYS Confidential Information for any types
+of projects outside of those approved by ITS are prohibited.
+ITS requires the Contractor to follow security best practices by adhering to the principle of least
+privilege and adhering to separation of job duties, and limiting Contractor Staff knowledge of NYS
+Confidential Information to that which is absolutely needed to perform job duties. Upon request,
+Contractor will provide documentation to the State clearly defining the security roles and access
+levels for each of its staff working with NYS Confidential Information with a level of specificity
+objectively reasonable to and approved by the State. Only those individuals who have successfully
+completed all required security clearance and background check requirements, including training,
+shall have access to NYS Confidential Information.
+
+10.      Data Transparency, Accessibility, Migration, and Destruction at the End of Contract
+
+a. Data Migration. Contractor shall ensure that the services it performs and the solutions it designs
+under the Contract are performed in such a way so as to ensure easy migration of any NYS
+Confidential Information held by Contractor as required by the State. This may include:
+
+• Contractor keeping NYS Confidential Information, including State policy and profile information,
+separate from processes of any software itself and maintaining that information in a format that
+allows the State to easily transfer it to an alternative application platform;
+
+• Contractor making its Application Programming Interfaces (APls) available to the State; and
+
+• Contractor reformatting data and/or applications at Contractor's own expense in order to easily
+allow the State to switch to alternative software providers or move the NYS Confidential Information
+back in-house at the State.
+
+ITS-P18-001                                                                                Page 9 of 12
+
+b. Data Return and Destruction - In General. During any period of suspension of services or of the
+Contract, the Contractor will not take any action to intentionally erase any NYS Confidential
+Information.
+At the expiration or termination of the Contract, the Contractor shall implement an orderly return of
+State assets and the subsequent secure disposal of State assets. The State shall be entitled to any
+post-termination assistance generally made available by Contractor with respect to the services it
+provides unless a unique alternative data retrieval arrangement has been established between the
+Parties in writing.
+
+At the State’s option, the Contractor must provide the State with a copy of the NYS Confidential
+Information, including metadata and attachments, in a mutually agreed upon, commercially
+standard format at no additional charges to the State, and give the State continued access to NYS
+Confidential Information for no less than ninety (90) days beyond the expiration or termination of
+the Contract. Thereafter, except for data required to be maintained by Local, State, and Federal
+laws, rules, regulations, ordinances, policies, standards, or guidelines or the Contract, Contractor
+shall destroy NYS Confidential Information from its systems and wipe all its data storage devices
+to eliminate any and all NYS Confidential Information from Contractor’s systems. The sanitization
+process must be in compliance the NYS Security Standard, NYS-S13-003, and its successors, and,
+where required, other sanitization and disposal standards. If immediate purging of all data storage
+components is not possible, the Contractor will certify that any NYS Confidential Information
+remaining in any storage component will be safeguarded to prevent unauthorized disclosures until
+such purging is possible. Contractor must then certify to the State, in writing, that it has complied
+with the provisions of this paragraph including providing any supporting documentation as required.
+The State may withhold payment to Contractor if NYS Confidential Information is not released to
+the State in accordance with the preceding sections.
+
+c. Data Return and Destruction - Regulated Data. New York State considers the protection of
+sensitive data and NYS Confidential Information and business systems to be of the upmost
+importance. The NYS Confidential Information collected and maintained by State and local
+government agencies is protected by Local, State, and Federal laws, rules, regulations, ordinances,
+policies, standards, and guidelines. Access to and use of NYS Confidential Information is limited to
+authorized government employees and legally designated agents, for authorized purposes only.
+
+To the extent that Contractor has access to Local, State, or Federal government regulated data
+pursuant to their responsibilities under the Contract, Contractor agrees that it will abide by the
+requirements of those Federal, State, and Local laws, rules, regulations, ordinances, policies,
+standards, and guidelines, and will require in writing its agents, employees, officers, partners, or
+subcontractors to similarly abide by any such requirements including the execution of any
+documents or agreements required to be executed, certifying their compliance with same.
+
+Contractor must, in accordance with applicable law and the instructions of the State: maintain such
+regulated data for the time period required by applicable law, rule, regulation, ordinance, policy,
+standard, or guideline; exercise due care for the protection of data; and maintain appropriate data
+integrity safeguards against the deletion or alteration of such data. In the event that any regulated
+data is lost or destroyed because of any act or omission of the Contractor or any non-compliance
+with the obligations of the Contract, then Contractor shall, at its own expense, use its best efforts
+in accordance with industry standards to reconstruct such data as soon as feasible. In such event,
+Contractor shall reimburse the State for any costs incurred by the State in correcting, recreating,
+restoring, or reprocessing such data or in providing assistance therewith.
+
+In the event that it becomes necessary for Contractor to receive NYS Confidential Information which
+Local, State, or Federal laws, rules, regulations, ordinances, policies, standards, and guidelines
+prohibit from disclosure, Contractor hereby agrees to return or destroy, adhering to the standards
+outlined in the above section, all such NYS Confidential Information that has been received from
+the State when the purpose that necessitated its receipt by Contractor has been completed. In
+addition, Contractor agrees, after termination of the Contract, not to retain any NYS Confidential
+
+ITS-P18-001                                                                            Page 10 of 12
+
+Information which Local, State, and Federal laws, rules, regulations, ordinances, policies,
+standards, and guidelines prohibit from disclosure.
+Notwithstanding the foregoing, if the return or destruction of the regulated data or NYS Confidential
+Information is not feasible, Contractor agrees to extend the protections of the Contract for as long
+as necessary to protect the regulated data or NYS Confidential Information and to limit any further
+use or disclosure of that regulated data, or NYS Confidential Information. If Contractor elects to
+destroy the regulated data or NYS Confidential Information, it shall use reasonable efforts to
+achieve the same and notify the State accordingly. Contractor agrees that it will use all appropriate
+safeguards to prevent any unauthorized use or unauthorized disclosure of NYS Confidential
+Information which Local, State, and Federal laws, rules, regulations, ordinances, policies,
+standards, and guidelines prohibit from disclosure.
+
+d. Data Retention. Notwithstanding any other obligation under the Contract Contractor agrees that
+it will preserve NYS Confidential Information in a manner that complies with all applicable Local,
+State, and Federal laws, rules, regulations, ordinances, policies, standards, and guidelines for the
+purposes of ensuring applicable data records retention obligations are met.
+
+e. Certificate: Upon completion of the destruction of the data, the Vendor shall provide ITS with a
+written certification of such disposal.
+
+11.      Background Checks. [Vendor] may be required to conduct background checks on [Vendor]
+staff with access to data or premises. For [Vendor] staff with direct or indirect access to the State
+data center, this is a requirement.
+
+12.      Independent Contractor Relationship. Nothing in this Agreement shall be construed to
+create any partnership, joint venture or agency relationship of any kind. Neither party has any
+authority under this Agreement to assume or create any obligations on behalf of or in the name of
+the other party or to bind the other party to any contract, agreement or undertaking with any third
+party.
+
+13.       Additional Terms. Unless ITS has agreed in writing otherwise, any terms on a Vendor
+website, attached to a software license, part of an account associated with this evaluation, affixed
+to or accompanying computer software upon delivery or installation, including “clickwrap,” “click
+through,” or “shrink-wrap,” are not applicable to this evaluation. Only the terms and conditions set
+forth in this evaluation agreement shall supersede and govern hereunder.
+
+14.   Changes and Modifications. No changes or modifications to this Agreement shall be
+deemed effective unless in writing and executed by all parties hereto.
+
+15.     Assignment. Neither party may assign this Agreement without the prior written consent of
+the other.
+
+16.      Entire Agreement. This Agreement, together with any attachments hereto, represents the
+complete and entire understanding between the parties regarding the subject matter hereof and
+supersedes all prior negotiations, representations or agreements, either written or oral, regarding
+this subject matter.
+
+17.      Governing Law. This Agreement will be governed by and construed in accordance with the
+laws of the State of New York, without reference to the choice of law provisions thereof. Any and
+all proceedings relating to the subject matter of this Agreement shall be maintained in the federal
+or state courts of the State of New York, which courts shall have exclusive jurisdiction for such
+purpose, and the parties hereby consent to the personal jurisdiction of such courts upon proper
+service of process. The Uniform Computer Information Transactions Act shall not apply to this
+Agreement.
+
+IN WITNESS WHEREOF the parties have executed this Agreement as of the Effective Date.
+
+ITS-P18-001                                                                            Page 11 of 12
+
+[VENDOR]
+
+By:
+
+Name:
+
+Title:
+
+Date:
+
+NEW YORK STATE OFFICE OF INFORMATION TECHNOLOGY SERVICES
+
+By:
+
+Name:
+
+Title:
+
+Date:
+
+ITS-P18-001                                                Page 12 of 12

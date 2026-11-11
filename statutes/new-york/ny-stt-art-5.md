@@ -1,0 +1,196 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-york
+id: ny-stt-art-5
+title: State Technology Law, Article 5 - Automated Decision-making In Government Agencies
+doc_type: statute
+citation: State Technology Law, Article 5 (sections 501-504)
+authority_level: ''
+issuing_body: New York State Legislature; served by the New York State Senate Open Legislation API
+source_url: https://legislation.nysenate.gov/api/3/laws/STT?full=true&fromLocation=A5&toLocation=A5
+source_format: json
+retrieved: '2026-11-11'
+source_sha256: 82b376a10044b415ea9540c91589b5b0cfc1177dbba68115fdc86d07022ef78a
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text from the Senate''s Open Legislation API (legislation.nysenate.gov/api/3/laws),
+  one article of the State Technology Law per document: the article''s own text, then each section''s
+  text in order, exactly as the API returns it (its line breaks and indentation kept). The API stores
+  each line break as the two characters backslash and n; they are written here as line breaks, and trailing
+  spaces are removed. The API needs a key; the key is added to the request only and is not in the snapshot
+  or this document. The snapshot also holds the API''s version dates and per-section active and repealed
+  fields.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- governance
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# State Technology Law, Article 5 - Automated Decision-making In Government Agencies (State Technology Law, Article 5 (sections 501-504))
+
+## At a glance
+
+Article V, as the API serves it: definitions, disclosure of automated decision-making tools by government agencies, impact assessments and the report to the Governor and Legislature (501-504). The text prints 'NB Repealed July 1, 2028'. The API's tree marks the article and its sections repealed with a date of 2026-02-27, which is the date the version that added that note was published; the earlier version 2026-01-09 printed 'NB Effective December 19, 2026'. Enacted law with a sunset, not a bill; whether it is in force today is an owner decision (see the left-out notes).
+
+## Full text
+
+                               * ARTICLE V
+            AUTOMATED DECISION-MAKING IN GOVERNMENT AGENCIES
+Section 501. Definitions.
+        502. Disclosure of automated decision-making tools by government
+               agencies.
+        503. Impact assessments.
+        504. Submission to the governor and legislature.
+  * NB Repealed July 1, 2028
+
+  * § 501. Definitions. For the purpose of this article:
+  1. "Automated decision-making tool" shall mean any software that uses
+algorithms, computational models, or artificial intelligence techniques,
+or a combination thereof, to automate, support, or replace human
+decision-making. "Automated decision-making tool" shall not include any
+software used primarily for basic computerized processes, such as
+calculators, spellcheck tools, autocorrect functions, spreadsheets,
+electronic communications, or any tool that relates only to internal
+management affairs such as ordering office supplies or processing
+payments, and that do not materially affect the rights, liberties,
+benefits, safety or welfare of any individual within the state.
+"Automated decision-making tools" shall not include "automated
+employment decision-making tools" as defined in section four hundred one
+of this chapter.
+  2. "Meaningful human review" means review, oversight and control of
+the automated decision-making process by one or more individuals who
+understand the risks, limitations, and functionality of, and are trained
+to use, the automated decision-making tool and who have the authority to
+intervene or alter the decision under review, including but not limited
+to the ability to approve, deny, or modify any decision recommended or
+made by the automated tool.
+  3. "Government agency" shall mean: (a) the state or civil division
+thereof; (b) a county, city, town or village; (c) a school district,
+board of cooperative educational services, vocational education and
+extension board or a school district as enumerated in section one of
+chapter five hundred sixty-six of the laws of nineteen hundred
+sixty-seven, as amended; (d) the state university of New York; (e) the
+city university of New York; (f) a public improvement or special
+district including police or fire districts; (g) a public authority,
+commission or public benefit corporation; or (h) any other public
+corporation, agency, instrumentality or unit of government which
+exercises governmental power under the laws of this state.
+  * NB Repealed July 1, 2028
+
+  * § 502. Disclosure of automated decision-making tools by government
+agencies. Any government agency that utilizes an automated
+decision-making tool, as defined in section five hundred one of this
+article, shall publish a list of such automated decision-making tools on
+such government agency's website no later than the thirtieth of December
+next succeeding the date on which this section takes effect, and
+annually thereafter. Such disclosure shall include:
+  1. a description of the automated decision-making tool utilized by
+such government agency;
+  2. the date that the government agency use of such automated
+decision-making tool began;
+  3. a summary of the purpose and use of such automated decision-making
+tool; and
+  4. any other information deemed relevant by the agency.
+  * NB Repealed July 1, 2028
+
+  * § 503. Impact assessments. 1. Government agencies seeking to utilize
+or apply an automated decision-making tool permitted under section five
+hundred two of this article with continued and operational meaningful
+human review shall conduct or have conducted an impact assessment
+substantially completed and bearing the signature of one or more
+individuals responsible for meaningful human review for the lawful
+application and use of such automated decision-making tool. Following
+the first impact assessment, an impact assessment shall be conducted in
+accordance with this section at least once every two years. An impact
+assessment shall be conducted prior to any material change to the
+automated decision-making tool that may change the outcome or effect of
+such tool. Such impact assessments shall include:
+  (a) a description of the objectives of the automated decision-making
+tool;
+  (b) an evaluation of the ability of the automated decision-making tool
+to achieve its stated objectives;
+  (c) a description and evaluation of the objectives and development of
+the automated decision-making including:
+  (i) a summary of the underlying algorithms, computational modes, and
+artificial intelligence tools that are used within the automated
+decision-making tool; and
+  (ii) the design and training data used to develop the automated
+decision-making tool process;
+  (d) testing for:
+  (i) accuracy, fairness, bias and discrimination, and an assessment of
+whether the use of the automated decision-making tool produces
+discriminatory results on the basis of a consumer's or a class of
+consumers' actual or perceived race, color, ethnicity, religion,
+national origin, sex, gender, gender identity, sexual orientation,
+familial status, biometric information, lawful source of income, or
+disability and outlines mitigations for any identified performance
+differences in outcomes across relevant groups impacted by such use;
+  (ii) any cybersecurity vulnerabilities and privacy risks resulting
+from the deployment and use of the automated decision-making tool, and
+the development or existence of safeguards to mitigate the risks;
+  (iii) any public health or safety risks resulting from the deployment
+and use of the automated decision-making tool;
+  (iv) any reasonably foreseeable misuse of the automated
+decision-making tool and the development or existence of safeguards
+against such misuse;
+  (e) the extent to which the deployment and use of the automated
+decision-making tool requires input of sensitive and personal data, how
+that data is used and stored, and any control users may have over their
+data; and
+  (f) the notification mechanism or procedure, if any, by which
+individuals impacted by the utilization of the automated decision-making
+tool may be notified of the use of such automated decision-making tool
+and of the individual's personal data, and informed of their rights and
+options relating to such use.
+  2. Notwithstanding the provisions of this article or any other law, if
+an impact assessment finds that the automated decision-making tool
+produces discriminatory or biased outcomes, the government agency shall
+cease any utilization, application, or function of such automated
+decision-making tool, and of any information produced using such tool.
+  * NB Repealed July 1, 2028
+
+  * § 504. Submission to the governor and legislature. 1. Each impact
+assessment conducted pursuant to this article shall be submitted to the
+governor, the temporary president of the senate, and the speaker of the
+assembly at least thirty days prior to the implementation of the
+automated decision-making tool that is the subject of such assessment.
+  2. (a) The impact assessment of an automated decision-making tool
+shall be published on the website of the relevant government agency.
+  (b) If the government agency makes a determination that the disclosure
+of any information required in the impact assessment would result in a
+substantial negative impact on health or safety of the public, infringe
+upon the privacy rights of individuals, or significantly impair the
+government agency's ability to protect its information technology or
+operational assets, such government agency may redact such information,
+provided that an explanatory statement on the process by which the
+government agency made such determination is published along with the
+redacted impact assessment.
+  (c) If the impact assessment covers any automated decision-making tool
+that includes technology that is used to prevent, detect, protect
+against or respond to security incidents, identity theft, fraud,
+harassment, malicious or deceptive activities or other illegal activity,
+preserve the integrity or security of tools, or to investigate, report
+or prosecute those responsible for any such malicious or deceptive
+action, such government agency may redact such information for the
+purposes of this subdivision, provided that an explanatory statement on
+the process by which the government agency made such determination is
+published along with the redacted impact assessment.
+  * NB Repealed July 1, 2028
+
+## Curator notes
+
+Text from the Senate's Open Legislation API (legislation.nysenate.gov/api/3/laws), one article of the State Technology Law per document: the article's own text, then each section's text in order, exactly as the API returns it (its line breaks and indentation kept). The API stores each line break as the two characters backslash and n; they are written here as line breaks, and trailing spaces are removed. The API needs a key; the key is added to the request only and is not in the snapshot or this document. The snapshot also holds the API's version dates and per-section active and repealed fields.
