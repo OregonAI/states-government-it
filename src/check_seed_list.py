@@ -79,10 +79,15 @@ def check(manifest: dict, domain: dict) -> list[str]:
             bad("duplicate url")
         urls.add(key)
         if "slice" in e and e["slice"] is not None:
-            if (not isinstance(sl, dict) or _blank(sl.get("article"))
-                    or set(sl) - {"article", "part"}
-                    or not all(isinstance(v, str) and v for v in sl.values())):
-                bad("slice must be a mapping with article (and optionally part), as strings")
+            ok_strings = isinstance(sl, dict) and all(isinstance(v, str) and v for v in sl.values())
+            colorado = ok_strings and not _blank(sl.get("article")) and not set(sl) - {"article", "part"}
+            # a California slice of the Legislature's bulk download: a code and exactly one of a
+            # table-of-contents path or a section number
+            california = (ok_strings and not _blank(sl.get("code")) and set(sl) <= {"code", "path", "section"}
+                          and len(set(sl) & {"path", "section"}) == 1)
+            if not (colorado or california):
+                bad("slice must be a mapping with article (and optionally part), or with code and "
+                    "exactly one of path or section, as strings")
         url = e.get("url")
         if isinstance(url, str) and not url.startswith(("http://", "https://")):
             bad(f"url is not http(s): {url}")

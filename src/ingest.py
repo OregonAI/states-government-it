@@ -20,9 +20,13 @@ from __future__ import annotations
 
 import argparse
 import html as html_mod
+import io
+import json
 import re
 import subprocess
 import sys
+import zipfile
+from html.parser import HTMLParser
 from pathlib import Path
 
 from corpus_toolkit import config as config_mod
@@ -151,6 +155,340 @@ def pdf_to_text(raw: bytes) -> str:
     return text
 
 
+class _SamParser(HTMLParser):
+    """Collects the text of the State Administrative Manual's chapter view (dgs.ca.gov). Block
+    elements start a new line, inline elements (span, a, strong, em, sup) run on inside the
+    sentence, `<hr>` between sections gives a blank line. List markers are printed the way a
+    browser prints them (the page styles them with CSS): `1.` for an ordered list, `a.` for
+    `lower-alpha`, `i.` for `lower-roman`, a bullet for an unordered list; a nested list is
+    indented two spaces per level."""
+
+    BLOCK = {"p", "div", "h1", "h2", "h3", "h4", "li", "ol", "ul", "br", "tr"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.lines: list[str] = []
+        self.cur: list[str] = []
+        self.lists: list[list] = []          # [style, next number]
+        self.skip = 0                         # inside <style> or <script>
+
+    def _flush(self):
+        raw = "".join(self.cur)
+        self.cur = []
+        line = " ".join(raw.split())
+        if line:
+            self.lines.append(" " * (len(raw) - len(raw.lstrip(" "))) + line)
+
+    @staticmethod
+    def _marker(style: str, n: int) -> str:
+        if style == "lower-alpha":
+            return "abcdefghijklmnopqrstuvwxyz"[(n - 1) % 26] + "."
+        if style == "upper-alpha":
+            return "ABCDEFGHIJKLMNOPQRSTUVWXYZ"[(n - 1) % 26] + "."
+        if style in ("lower-roman", "upper-roman"):
+            out, rest = "", n
+            for v, r in ((10, "x"), (9, "ix"), (5, "v"), (4, "iv"), (1, "i")):
+                while rest >= v:
+                    out, rest = out + r, rest - v
+            return (out if style == "lower-roman" else out.upper()) + "."
+        return f"{n}."
+
+    def handle_starttag(self, tag, attrs):
+        if tag in ("style", "script"):
+            self.skip += 1
+            return
+        if tag in ("ol", "ul"):
+            self._flush()
+            style = dict(attrs).get("style") or ""
+            kind = "bullet" if tag == "ul" else (
+                style.split("list-style-type:")[1].strip(" ;") if "list-style-type:" in style
+                else "decimal")
+            self.lists.append([kind, 1])
+        elif tag == "li":
+            self._flush()
+            kind, n = self.lists[-1] if self.lists else ("bullet", 1)
+            mark = "\u2022" if kind == "bullet" else self._marker(kind, n)
+            if self.lists:
+                self.lists[-1][1] += 1
+            self.cur.append("  " * max(len(self.lists) - 1, 0) + mark + " ")
+        elif tag == "hr":
+            self._flush()
+            self.lines.append("")
+        elif tag in self.BLOCK:
+            self._flush()
+
+    def handle_endtag(self, tag):
+        if tag in ("style", "script"):
+            self.skip -= 1
+        elif tag in ("ol", "ul") and self.lists:
+            self._flush()
+            self.lists.pop()
+        elif tag in self.BLOCK:
+            self._flush()
+
+    def handle_data(self, data):
+        if not self.skip:
+            self.cur.append(data)
+
+
+def sam_html_to_text(raw: bytes) -> str:
+    """The Department of General Services' State Administrative Manual chapter view
+    (`/Resources/SAM/TOC/<chapter>/Chapter-View`): the page prints the whole chapter. The text is
+    the page's `Chapter nnnn - Chapter-View` line, then every section from the first section
+    heading to the end of the last one, each as its heading line (`SUBJECT - number`), its
+    revision line and its paragraphs. The site menu, the print button, the contents table (it
+    repeats the section headings), the loading message and the scripts are not the manual."""
+    page = _decode(raw)
+    chapter = re.search(r"<h1>(Chapter \d+ - Chapter-View)</h1>", page)
+    marker = "We are generating the manual..."
+    start = page.find(marker)
+    if not chapter or start < 0 or '<div class="row">' not in page[start:]:
+        raise ValueError("SAM page has no chapter view region: the page layout changed")
+    start = page.index('<div class="row">', start)
+    last_hr = page.rfind("<hr />")
+    end = page.find("<script", last_hr if last_hr > start else start)
+    parser = _SamParser()
+    parser.feed(page[start:end if end > 0 else len(page)])
+    parser._flush()
+    lines = [chapter.group(1)] + parser.lines
+    text = "\n".join(lines)
+    return re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
+
+
+# ---- California statutes: the Legislature's official bulk download ------------------------
+#
+# leginfo.legislature.ca.gov answers the toolkit's Fetcher with a Cloudflare challenge, so the
+# per-section web pages cannot be fetched. The Legislature's own bulk download
+# (downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip, the 2025-26 session's law tables) can:
+# it is a zip of three tab-separated tables (the table of contents, its section list, the
+# sections) and one small file of marked-up text (CAML) per section version. The zip is 1.2 GB,
+# so it is read by HTTP range requests (its directory, the three tables, the section files
+# of one slice) with the Fetcher's own client, headers and rate limit, and the snapshot is a
+# JSON bundle of the raw rows and raw section files of one slice, not the zip.
+
+CA_CODES = {"Gov.": "GOV", "Civ.": "CIV", "Pub. Contract": "PCC"}
+_CA_TABLES = ("LAW_TOC_TBL.dat", "LAW_TOC_SECTIONS_TBL.dat", "LAW_SECTION_TBL.dat")
+_CA_BLOCK = 4 << 20          # one range request reads this much; neighbouring members share it
+
+
+def _ca_fields(line: str) -> list[str | None]:
+    """One row of a pubinfo table: tab-separated, text values in backticks, NULL for empty."""
+    return [None if f == "NULL" else (f[1:-1] if f.startswith("`") and f.endswith("`") else f)
+            for f in line.rstrip("\n").split("\t")]
+
+
+class CaZip(io.RawIOBase):
+    """A read-only, seekable view of the remote bulk zip, for zipfile. Reads in aligned blocks
+    (a few kept), one range request per block, each through the Fetcher's client, headers and
+    per-host rate limit."""
+
+    def __init__(self, fetcher: Fetcher, url: str):
+        self.fetcher, self.url, self.pos = fetcher, url, 0
+        self.blocks: dict[int, bytes] = {}
+        self._throttle()
+        r = fetcher.client().get(url, headers={"Range": "bytes=0-0"})
+        if r.status_code != 206:
+            raise FetchError(f"{url}: no range support (HTTP {r.status_code})")
+        self.size = int(r.headers["Content-Range"].rsplit("/", 1)[1])
+        self.last_modified = r.headers.get("Last-Modified", "")
+
+    def _throttle(self):
+        self.fetcher._throttle(self.url)
+
+    def seekable(self): return True
+    def readable(self): return True
+    def tell(self): return self.pos
+
+    def seek(self, offset, whence=0):
+        self.pos = {0: offset, 1: self.pos + offset, 2: self.size + offset}[whence]
+        return self.pos
+
+    def _block(self, n: int) -> bytes:
+        if n not in self.blocks:
+            if len(self.blocks) >= 4:
+                self.blocks.pop(next(iter(self.blocks)))
+            start, end = n * _CA_BLOCK, min((n + 1) * _CA_BLOCK, self.size) - 1
+            self._throttle()
+            r = self.fetcher.client().get(self.url, headers={"Range": f"bytes={start}-{end}"})
+            if r.status_code != 206:
+                raise FetchError(f"{self.url}: range {start}-{end} answered HTTP {r.status_code}")
+            self.blocks[n] = r.content
+        return self.blocks[n]
+
+    def read(self, size=-1):
+        if size is None or size < 0 or self.pos + size > self.size:
+            size = self.size - self.pos
+        out = []
+        while size > 0:
+            n, off = divmod(self.pos, _CA_BLOCK)
+            chunk = self._block(n)[off:off + size]
+            if not chunk:
+                break
+            out.append(chunk)
+            self.pos += len(chunk)
+            size -= len(chunk)
+        return b"".join(out)
+
+    def readinto(self, b):
+        data = self.read(len(b))
+        b[:len(data)] = data
+        return len(data)
+
+
+_CA_OPEN: dict[int, tuple] = {}      # id(fetcher) -> (fetcher, zipfile, CaZip): the directory is read once
+
+
+def ca_open(fetcher: Fetcher, url: str):
+    held = _CA_OPEN.get(id(fetcher))
+    if held and held[0] is fetcher:
+        return held[1], held[2]
+    raw = CaZip(fetcher, url)
+    zf = zipfile.ZipFile(io.BufferedReader(raw, buffer_size=1 << 16))
+    _CA_OPEN[id(fetcher)] = (fetcher, zf, raw)
+    return zf, raw
+
+
+def _ca_table(zf, name: str) -> list[str]:
+    return zf.read(name).decode("utf-8").splitlines()
+
+
+def ca_bundle(zf, slice_: dict, url: str, last_modified: str = "") -> bytes:
+    """The raw rows and section files of one slice, as JSON. A slice is `{code, path}` (a
+    table-of-contents node: every section under it) or `{code, section}` (one section number).
+    Kept: the node's ancestors' and descendants' table-of-contents rows, and for each section its
+    section-list row, its section row and its section file, all as the download holds them. When
+    a section number has several versions in the list (an amendment operative on a later date),
+    every version is kept."""
+    code, path, number = slice_.get("code"), slice_.get("path"), slice_.get("section")
+    if not code or bool(path) == bool(number):
+        raise ValueError("a California statute slice needs a code and exactly one of path or section")
+    toc = [(l, _ca_fields(l)) for l in _ca_table(zf, "LAW_TOC_TBL.dat")]
+    toc = [(l, f) for l, f in toc if f[0] == code]
+    sec_list = [(l, _ca_fields(l)) for l in _ca_table(zf, "LAW_TOC_SECTIONS_TBL.dat")]
+    sec_list = [(l, f) for l, f in sec_list if f[1] == code]
+    if number:
+        want = [(l, f) for l, f in sec_list if (f[3] or "").rstrip(".") == number.rstrip(".")]
+        if not want:
+            raise ValueError(f"no section {code} {number} in the download")
+        paths = {f[2] for _, f in want}
+        if len(paths) != 1:
+            raise ValueError(f"section {code} {number} sits under more than one node: the slice is a guess")
+        path = paths.pop()
+        nodes = [(l, f) for l, f in toc if f[13] == path or path.startswith((f[13] or "?") + ".")]
+    else:
+        nodes = [(l, f) for l, f in toc
+                 if f[13] == path or (f[13] or "").startswith(path + ".") or path.startswith((f[13] or "?") + ".")]
+        if not any(f[13] == path for _, f in nodes):
+            raise ValueError(f"no table of contents node {code} {path} in the download")
+        keep = {f[13] for _, f in nodes if f[13] == path or f[13].startswith(path + ".")}
+        want = [(l, f) for l, f in sec_list if f[2] in keep]
+        if not want:
+            raise ValueError(f"no section under {code} {path} in the download")
+    nodes.sort(key=lambda lf: int(lf[1][10]))
+    by_version = {}
+    for l in _ca_table(zf, "LAW_SECTION_TBL.dat"):
+        f = _ca_fields(l)
+        if f[1] == code and f[7] in {w[1][11] for w in want}:
+            by_version[f[7]] = (l, f)
+    sections = []
+    order = {n[1][13]: int(n[1][10]) for n in nodes}
+    for l, f in sorted(want, key=lambda lf: (order.get(lf[1][2], 0), int(lf[1][4]))):
+        if f[11] not in by_version:
+            raise ValueError(f"section {f[3]}: no row in LAW_SECTION_TBL.dat for version {f[11]}")
+        row, rf = by_version[f[11]]
+        member = rf[14]
+        sections.append({"toc_section_row": l, "law_section_row": row, "lob_member": member,
+                         "lob": zf.read(member).decode("utf-8")})
+    doc = {"format": "leginfo-pubinfo-slice/1", "source": url, "zip_last_modified": last_modified,
+           "slice": slice_, "toc_rows": [l for l, _ in nodes], "sections": sections}
+    return (json.dumps(doc, ensure_ascii=False, indent=1) + "\n").encode("utf-8")
+
+
+class _CamlParser(HTMLParser):
+    """One section's marked-up text (CAML): a line per paragraph or table cell paragraph, inline
+    markup (italics, the thin and en space marks) folded into the line."""
+
+    BLOCK = {"p", "tr", "td", "br", "table"}
+
+    def __init__(self):
+        super().__init__(convert_charrefs=True)
+        self.lines: list[str] = []
+        self.cur: list[str] = []
+
+    def _flush(self):
+        line = " ".join("".join(self.cur).split())
+        self.cur = []
+        if line:
+            self.lines.append(line)
+
+    def handle_starttag(self, tag, attrs):
+        if tag == "span":
+            self.cur.append(" ")
+        elif tag in self.BLOCK:
+            self._flush()
+
+    def handle_startendtag(self, tag, attrs):
+        self.handle_starttag(tag, attrs)
+
+    def handle_endtag(self, tag):
+        if tag in self.BLOCK:
+            self._flush()
+
+    def handle_data(self, data):
+        self.cur.append(data)
+
+
+def caml_to_lines(caml: str) -> list[str]:
+    parser = _CamlParser()
+    parser.feed(caml)
+    parser._flush()
+    return parser.lines
+
+
+def ca_bundle_to_text(raw: bytes) -> str:
+    """The slice's text: the headings from the title down to the node (and any article headings
+    inside it, each with the history note the table prints under it), then each section as its
+    number and first paragraph on one line, the following paragraphs one per line, and the
+    section's history line as the download holds it. Order is the download's: node sequence, then
+    section order."""
+    doc = json.loads(raw)
+    if doc.get("format") != "leginfo-pubinfo-slice/1":
+        raise ValueError("not a California slice bundle")
+    nodes = sorted((_ca_fields(r) for r in doc["toc_rows"]), key=lambda f: int(f[10]))
+    sections: dict[str, list[dict]] = {}
+    for s in doc["sections"]:
+        sections.setdefault(_ca_fields(s["toc_section_row"])[2], []).append(s)
+    out: list[str] = []
+    for f in nodes:
+        out.append(_clean_line(f[6]))
+        note = _clean_line(f[15] or "")
+        if note:
+            out.append(note)
+        for s in sections.get(f[13], []):
+            number = _ca_fields(s["toc_section_row"])[3]
+            body = caml_to_lines(s["lob"])
+            if not body:
+                raise ValueError(f"section {number} has no text in its section file")
+            out.append(f"{number} {body[0]}")
+            out.extend(body[1:])
+            history = _clean_line(_ca_fields(s["law_section_row"])[13] or "")
+            if history:
+                out.append(history)
+    return "\n".join(out) + "\n"
+
+
+def ca_snapshot(src: dict, fetcher: Fetcher, dest: Path, refetch: bool) -> tuple[bytes, bool]:
+    """Like Fetcher.snapshot, for a California statute slice: reuse the committed bundle unless
+    `refetch`, else build it from the bulk download."""
+    if dest.is_file() and not refetch:
+        return dest.read_bytes(), False
+    zf, raw = ca_open(fetcher, src["url"])
+    bundle = ca_bundle(zf, src["slice"], src["url"], raw.last_modified)
+    dest.parent.mkdir(parents=True, exist_ok=True)
+    dest.write_bytes(bundle)
+    return bundle, True
+
+
 _CRS_ARTICLE = re.compile(r"ARTICLE \d+(\.\d+)?")
 _CRS_PART = re.compile(r"PART \d+(\.\d+)?")
 
@@ -205,6 +543,10 @@ def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
     cleanup for is refused: a generic tag-strip would commit navigation as law."""
     if fmt == "pdf":
         return pdf_to_text(raw)
+    if fmt == "json" and doc_type == "statute" and jurisdiction == "california":
+        return ca_bundle_to_text(raw)
+    if fmt == "html" and doc_type == "policy" and jurisdiction == "california":
+        return sam_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "washington":
         return rcw_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "colorado":
@@ -278,6 +620,12 @@ def check_identity(src: dict, text: str) -> None:
     policy or standard PDF carries the seed entry's `identity_text` (a phrase the document
     prints, for when its printed title differs from the seed title), else the citation's policy
     number (107-004-190 for 107-004-190_PR), else, when the citation has none, the seed title."""
+    if src["doc_type"] == "policy" and src["jurisdiction"] == "california":
+        chapter = re.fullmatch(r"SAM chapter (\d+)", src["citation"])
+        if not chapter or not text.startswith(f"Chapter {chapter.group(1)} - Chapter-View\n"):
+            raise ValueError(f"{src['id']}: page is not the cited instrument: "
+                             f"{src['citation']!r} does not match the chapter view's first line")
+        return
     if src["doc_type"] in ("policy", "standard"):
         number = _POLICY_NUMBER.search(src["citation"])
         if src.get("identity_text"):
@@ -304,6 +652,18 @@ def check_identity(src: dict, text: str) -> None:
         want = f"{cite} RCW" if cite.startswith("Chapter ") else cite
         if not text.strip() or text.splitlines()[0] != want:
             raise ValueError(f"{src['id']}: page is not {src['citation']} (title/chapter mismatch)")
+        return
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "california":
+        cite = re.fullmatch(r"Cal\. (Gov\.|Civ\.|Pub\. Contract) Code \u00a7\u00a7? ([\d.]+[a-z]?)(?:-([\d.]+[a-z]?))?",
+                            src["citation"])
+        sl = src.get("slice") or {}
+        # a section line is its number, then its first paragraph, e.g. `11549.64. As used in ...`
+        nums = [l.split(" ", 1)[0].rstrip(".") for l in text.splitlines()
+                if re.match(r"\d+(\.\d+)*[a-z]?\. ", l)]
+        if (not cite or CA_CODES.get(cite.group(1)) != sl.get("code") or not nums
+                or (nums[0], nums[-1]) != (cite.group(2).rstrip("."), (cite.group(3) or cite.group(2)).rstrip("."))
+                or (sl.get("section") and set(nums) != {sl["section"].rstrip(".")})):
+            raise ValueError(f"{src['id']}: page is not {src['citation']} (code or section range mismatch)")
         return
     if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado":
         cite = re.fullmatch(r"C\.R\.S\. title \d+, article ([\d.]+)(?:, part (\d+))?", src["citation"])
@@ -337,6 +697,21 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
                 "kept as extracted; form feeds and trailing spaces removed; ligature glyphs such "
                 "as fi and fl written as their letters).")
+    if src["doc_type"] == "policy" and src["jurisdiction"] == "california":
+        return ("Text taken from the Department of General Services' State Administrative Manual chapter "
+                "view page: the chapter line, then each section's heading, revision line and "
+                "paragraphs, one line per paragraph, with markup, the site menu, the page's contents "
+                "table, scripts and non-breaking spaces removed. List numbers and letters, which the "
+                "page draws with style rules, are written out (1., a., i.); bullets are written as "
+                "a bullet character.")
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "california":
+        return ("The source is the Legislature's bulk download of the law tables (pubinfo_2025.zip), "
+                "because the per-section pages refuse the Fetcher. This document is the one slice named "
+                "in the citation: the table of contents' headings from the title down to the slice, "
+                "then each section as its number and first paragraph, further paragraphs one per line, "
+                "and the section's history line as the download holds it (the table's own note under "
+                "a heading is kept). Section markup and spacing marks removed, one line per paragraph. "
+                "The snapshot is the JSON bundle of the slice's raw rows and section files, not the zip.")
     if src["doc_type"] == "statute" and src["jurisdiction"] == "colorado":
         return ("The source is the Office of Legislative Legal Services' title file (one file for the whole of "
                 "the title); this document is the one article (or part) named in the citation, "
@@ -390,7 +765,10 @@ def ingest(src: dict, fetcher: Fetcher, refetch: bool, config=CONFIG) -> Path:
     sid = src["id"]
     declared = src.get("format") or "html"
     snap_path = config.snapshot_dir / f"{sid}.{declared}"
-    raw, fresh = fetcher.snapshot(src["url"], snap_path, refetch=refetch)
+    if src["doc_type"] == "statute" and src["jurisdiction"] == "california":
+        raw, fresh = ca_snapshot(src, fetcher, snap_path, refetch)
+    else:
+        raw, fresh = fetcher.snapshot(src["url"], snap_path, refetch=refetch)
     try:
         fmt, text = derive(src, raw)
     except ValueError:
