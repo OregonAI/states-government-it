@@ -13,7 +13,15 @@
 
 ## Contents
 
-<!-- One annotated link per knowledge body / index, e.g.
-     - `[Title](path/_index.md)`: when an agent should consult it
-     Written as inline code rather than a live link: lychee checks llms.txt by
-     name, and an example path that does not exist would fail CI on day one. -->
+No documents yet. Documents will live at `<type>/<state>/<id>.md` under these folders:
+
+- `statutes/`: enabling statutes for the state CIO or IT agency, cybersecurity and AI statutes
+- `rules/`: administrative rules
+- `executive-orders/`: executive orders in force
+- `policies/`: statewide IT policies issued by the CIO office
+- `standards/`: statewide IT standards issued by the CIO office
+
+## Background
+
+- [docs/spec.md](docs/spec.md): what is being built and what is out of scope
+- [_meta/source-manifest.yml](_meta/source-manifest.yml): every instrument held or known, with its official source

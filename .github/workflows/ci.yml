@@ -21,6 +21,10 @@ jobs:
       exclude-paths: |
         _meta/snapshots
         _meta/templates
+        docs/research
+      # docs/research is excluded because those files are dated findings that cite hundreds
+      # of state sites, many of which refuse automated clients or have since moved. They
+      # record what was observed; a per-PR gate on them would be red for reasons no PR caused.
 
   # EVERY COMMITTED GENERATED ARTIFACT MUST BE CURRENT, checked on every PR.
   #

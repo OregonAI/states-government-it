@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
-# Every gate CI runs, locally, in one command. Run before every commit.
+# The gates CI runs, locally, in one command. Run before every commit.
+# NOT run here: the link check (lychee, CI only) and the CODEOWNERS owner lookup.
 # Setup once: python3 -m venv .venv && .venv/bin/pip install -r requirements.txt
 set -uo pipefail
 cd "$(dirname "$0")/.."
@@ -10,6 +11,7 @@ fail=0
 run() { echo "== $1"; shift; "$@" || { echo "FAILED: $*"; fail=1; }; }
 
 run "placeholders"   bash -c '! grep -rnoE "\{\{[A-Z_]+\}\}" . --exclude-dir=.git --exclude-dir=.venv --exclude-dir=docs --exclude=corpus.yml --exclude=gates.sh'
+run "llms.txt"       bash -c '! grep -q "One annotated link per" llms.txt'
 run "frontmatter"    corpus-validate-frontmatter --config _meta/corpus.yml
 run "provenance"     corpus-verify-provenance --config _meta/corpus.yml
 run "graph current"  python3 src/build_graph.py --check
