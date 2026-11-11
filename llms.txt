@@ -8,12 +8,12 @@
 ## Start here
 
 - [CLAUDE.md](CLAUDE.md): rules for AI agents working in this corpus
-- [_meta/domain.yml](_meta/domain.yml): scope, states, and the tag vocabulary
+- [_meta/domain.yml](_meta/domain.yml): scope and the tag vocabulary; [_meta/sources/](_meta/sources): one seed file per state
 - [STATUS.md](STATUS.md): freshness, coverage, and drift at a glance
 
 ## Contents
 
-No documents yet. Documents will live at `<type>/<state>/<id>.md` under these folders:
+Documents live at `<type>/<state>/<id>.md` under these folders (a stub carries its citation and link only):
 
 - `statutes/`: enabling statutes for the state CIO or IT agency, cybersecurity and AI statutes
 - `rules/`: administrative rules

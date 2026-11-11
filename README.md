@@ -13,7 +13,7 @@ Part of the OregonAI civic corpus platform, built on
 repeatable pattern: a second policy domain is a new repo with its own
 [`_meta/domain.yml`](_meta/domain.yml) and seed list, and no new shared code.
 
-Status: scaffold. No documents yet.
+Status: live. The corpus holds full-text documents for each state in [`_meta/sources/`](_meta/sources); [STATUS.md](STATUS.md) has the current counts.
 
 | Entry point | For |
 |---|---|
