@@ -1,6 +1,193 @@
 {
   "agreement": 0.9952,
   "dict_ratio": 0.9608,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "to",
+        "use",
+        "satellites",
+        "for"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "satellites",
+        "for",
+        "wildfire",
+        "detection"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "D",
+        "maps",
+        "of",
+        "high"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "navigate",
+        "complex",
+        "terrains"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "fires",
+        "faster",
+        "and",
+        "developing"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "modeling",
+        "of",
+        "wildfires"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "tasks",
+        "like",
+        "aerial",
+        "ignition"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "real",
+        "time",
+        "assessments",
+        "and"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "at",
+        "fire",
+        "ca",
+        "gov"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "road",
+        "closures",
+        "and",
+        "more"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "more",
+        "e",
+        "In",
+        "2023,"
+      ],
+      "paddle": "I",
+      "tesseract": "1"
+    },
+    {
+      "before": [
+        "non",
+        "GenAl",
+        "projects",
+        "and"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "safely",
+        "testing",
+        "and",
+        "implementing"
+      ],
+      "paddle": "GenAl",
+      "tesseract": "GenaAl"
+    },
+    {
+      "before": [
+        "person",
+        "IN",
+        "WITNESS",
+        "WHEREOF"
+      ],
+      "paddle": "I",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Governor",
+        "of",
+        "California",
+        "ATTEST"
+      ],
+      "paddle": "SHIRLEY",
+      "tesseract": "YARLEY"
+    },
+    {
+      "before": [
+        "California",
+        "ATTEST",
+        "YARLEY",
+        "N"
+      ],
+      "paddle": "WEBER",
+      "tesseract": "EBER"
+    },
+    {
+      "before": [
+        "N",
+        "EBER",
+        "PH",
+        "D"
+      ],
+      "paddle": "Secretary",
+      "tesseract": "ecretary"
+    },
+    {
+      "before": [
+        "PH",
+        "D",
+        "ecretary",
+        "of"
+      ],
+      "paddle": "State",
+      "tesseract": "Stafe"
+    }
+  ],
   "engines": [
     "tesseract (ocrmypdf)",
     "paddleocr PP-OCRv6"
@@ -21,6 +208,7 @@
     4
   ],
   "pdf_sha256": "bc731711538bce50bbb94f653be901e0eb5493b82b7512a69c11f87cfd7d4a5e",
+  "psm": null,
   "text_sha256": "12b40fcba4209dc6595bc088c3b63aa33841a46a94caad28645d427351bce350",
   "tools": {
     "ocrmypdf": "15.2.0+dfsg1",

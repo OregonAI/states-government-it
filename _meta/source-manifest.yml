@@ -105,7 +105,7 @@ sources:
     why_relevant: Guidelines for state agency use of electronic signatures and identity authentication (OAR
       128-050-0005).
 
-  # ---- Executive orders (Governor's order list; all three are scans read by OCR)
+  # ---- Executive orders (Governor's order list; EO 23-26 and 26-26 are scans read by OCR, EO 16-13 is a stub: its OCR failed the figure gate)
   - id: or-eo-16-13
     sha256: "c98a066e73ac17694ad74204e2122fee7871761fd822acf8aba1ac10486e2f2c"
     url: https://www.oregon.gov/gov/eo/eo_16-13.pdf
@@ -117,7 +117,8 @@ sources:
     issuing_body: Office of the Governor
     tags: [cybersecurity, governance]
     recheck: monthly
-    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    stub: true
+    stub_reason: "A scan with no text layer, read 2026-11-11 by the two-engine OCR procedure and NOT promoted: the engines agree on the words (0.985) but on only 75% of the 23 figures (tesseract's default layout) or 81% (page-segmentation mode 4), under the 90% bar. Tesseract drops the order's paragraph numbers 1-7 (a stray '1' and 'i)' precede seven unnumbered paragraphs, while the body cites 'section 1' and 'section 4'), reads 'section 1' as 'section |', the signing day as '[1b aay' (paddle: '12 hday') and the signature as 'AAb 4'; the operative text would be wrong, so no text is committed. Reopens when a reading passes the figure bar (a third engine such as docTR as tiebreaker, or a human transcription the owner supplies)."
     why_relevant: Directs the transfer of executive department IT security functions to the Office of the
       State CIO. Listed on the Governor's order list; no rescission found.
   - id: or-eo-23-26
@@ -237,6 +238,7 @@ sources:
     tags: [cybersecurity]
     recheck: monthly
     ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    ocr_psm: 4   # tesseract page-segmentation mode 4: the label column (POLICY/PURPOSE, AUTHORITY...) stays beside its text
     why_relevant: Agencies must physically control and protect portable and removable storage devices and
       the sensitive information on them.
   - id: or-das-107-004-052
@@ -275,6 +277,7 @@ sources:
     tags: [cybersecurity]
     recheck: monthly
     ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    ocr_psm: 4   # tesseract page-segmentation mode 4: the label column (POLICY/PURPOSE, AUTHORITY...) stays beside its text
     why_relevant: Agency policy requirements for personnel screening, access removal and awareness training
       to protect information assets.
   - id: or-das-107-004-100
@@ -289,6 +292,7 @@ sources:
     tags: [cybersecurity, data]
     recheck: monthly
     ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    ocr_psm: 4   # tesseract page-segmentation mode 4: the label column (POLICY/PURPOSE, AUTHORITY...) stays beside its text
     why_relevant: Security controls for transporting sensitive information assets (physical media).
   - id: or-das-107-004-110
     sha256: "00e49c9b62ac8b2506b66162e3397e956c383864b40faf3850d1052b32ec3507"
@@ -536,7 +540,7 @@ sources:
     url: https://www.oregon.gov/eis/Documents/Attachment-A-AI-Adoption-Strategy-Template.docx
     format: docx
     citation: 'Responsible AI Usage Policy, Supporting Attachments: Agency AI Adoption Strategy Template and Instructions'
-    title: 'State of Oregon Responsible AI Usage Policy: Agency Artificial Intelligence Adoption Strategy Template and Instructions'
+    title: Agency Artificial Intelligence Adoption Strategy Template and Instructions   # as the Word file's cover text box prints it (the footer and the EIS link text abbreviate it)
     doc_type: policy
     jurisdiction: oregon
     issuing_body: Enterprise Information Services
@@ -1392,7 +1396,7 @@ sources:
     tags: [governance, cloud-resilience]
     recheck: monthly
     stub: true
-    stub_reason: "Published only as a legacy binary Word file (.doc, Word 97-2003). pandoc cannot read that format and nothing else that can (antiword, catdoc, LibreOffice) is installed on the maintainer's machine or on the CI image; hand-parsing the binary would not be a reading this corpus could stand behind. Fetched 2026-11-11 through the Fetcher with curl; no document is written. The library page links no PDF of it."
+    stub_reason: "Published only as a legacy binary Word file (.doc, Word 97-2003). pandoc cannot read that format and nothing else that can (antiword, catdoc, LibreOffice) is installed on the maintainer's machine or on the CI image; hand-parsing the binary would not be a reading this corpus could stand behind. Fetched 2026-11-11 through the Fetcher; no document is written. Choosing a stub is a choice, not a hard limit: antiword and catdoc are installable Ubuntu 24.04 packages (the route pandoc took), so a reader for .doc could be added if the owner wants this one. The library page links no PDF of it."
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/computing-and-telecommunication-architectural-standards-internet-domain-name-standards."
   - id: wa-ea-01-02-g
     sha256: "6c79de419ec77c39cb4181cd04e4d0ede1097b97b6eac9fba6442ae7f78bf693"
@@ -4271,7 +4275,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Project Cost Delegation Accreditation Template: blank profile, contact and portfolio tables whose cells are empty or hold only a '$' for the entity to fill in"
     why_relevant: 'SIMM 15B, Project Cost Delegation Accreditation Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-15c
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-15C-Project-Cost-Delegation-Historical-Projects-Worksheet.xlsx
@@ -4374,7 +4378,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Stage 1 Project Reportability Assessment form: numbered General Information fields answered through 2 'Choose an item' drop-downs and 8 'Click or tap here to enter text' fields"
     why_relevant: 'SIMM 19A.2, Stage 1 Project Reportability Assessment Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19a-3
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19A.3-Stage-1-Business-Analysis.docx
@@ -4387,7 +4391,7 @@ sources:
     tags: [governance]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Stage 1 Business Analysis form: numbered fields answered through 11 'Choose an item' drop-downs and 56 'Click or tap here to enter text' fields"
     why_relevant: 'SIMM 19A.3, Stage 1 Business Analysis: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19a-5
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19A.5-Portfolio-Report-PDL.xlsx
@@ -4426,7 +4430,7 @@ sources:
     tags: [governance]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Stage 2 Alternatives Analysis form: fields answered through 46 'Choose an item' drop-downs and 115 'Click or tap here to enter text' fields"
     why_relevant: 'SIMM 19B.2, Stage 2 Alternatives Analysis Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19b-3
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19B.3-Stage-2-Midlevel-Solution-Requirements-Template.xlsm
@@ -4465,7 +4469,7 @@ sources:
     tags: [procurement, oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the STP PAL Procurement Assessment form: fields answered through 39 'Choose an item' drop-downs and 31 'Click or tap here to enter text' fields"
     why_relevant: 'SIMM 19B.5, STP Procurement Assessment Form: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19c-1
     sha256: "bcbcea30d21a39dbc94c32ffe76ab2bc46f1ef0d6a9d72e7247f00583404c516"
@@ -4491,7 +4495,7 @@ sources:
     tags: [governance]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Stage 3 Solution Analysis form: fields answered through 20 'Choose an item' drop-downs and 34 'Click or tap here to enter text' fields"
     why_relevant: 'SIMM 19C.2, Stage 3 Solution Analysis Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19c-3
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19C.3-Stage-3-Solution-Requirements-Template.xlsm
@@ -4530,7 +4534,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Stage 4 Project Readiness and Approval form: fields answered through 15 'Choose an item' drop-downs and 81 'Click or tap here to enter text' fields"
     why_relevant: 'SIMM 19D.2, Stage 4 Project Readiness and Approval Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19e-1
     sha256: "43e5b8d369c169422f256a7191ab32f502a2adbb69fc0c74ddc368921e0b4ef1"
@@ -4556,7 +4560,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Project Delegation Request form: fields answered through 7 'Choose an item' drop-downs and 27 'Click or tap here to enter text' fields"
     why_relevant: 'SIMM 19E.2, Project Delegation Request Form ADA Compliant: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19f-1
     sha256: "68498c86862263e7c761350de4ceeb1230f5ba29b6485564c3e310abc1d2fece"
@@ -4725,7 +4729,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the IT Project Summary Package form: every answer slot is a prompt line ('Enter the Project Title', 'Estimated Completion Date Line 1' and so on)"
     why_relevant: 'SIMM 30B, Project Summary Package: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-30c
     sha256: "58fff29f3658c40da027b23fbfebeab1e421e515af51c5eb5cb7dff977933366"
@@ -4840,7 +4844,7 @@ sources:
     tags: [procurement]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is a model Independent Verification and Validation Statement of Work (14,797 words, 166 lines with shall or must) that a state entity adapts into its own procurement, with blank exhibits (Work Authorization Form, Personnel Change Order Request Form, Deliverable Acceptance Document, Cost Worksheet). It is the closest case to the model Generative AI Contract Clauses that DES publishes and this corpus ingests (wa-des-genai-contract-clauses): both are model contract text, so where the line between a model instrument and a template falls is the owner's to draw (noted in docs/spec.md, Open)"
     why_relevant: 'SIMM 45A, Independent Verification & Validation (IV&V) Statement of Work (SOW) Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45c
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-45-Appendix-C-Complexity-Assessment.xlsx
@@ -4866,7 +4870,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Project Status Report (PSR) Template: its own style conventions say bracketed [Instructional text] is to be replaced or deleted by the user, with 7 check-box items to complete"
     why_relevant: 'SIMM 45 Appendix E, Project Status Reports Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45f
     sha256: "b08e9abf29bf3a09a4d796c7676b86fc2e0c6a44f1aa1cca5f539a99c13cec68"
@@ -4892,7 +4896,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is a template of [Project Name], [Project Number], [Department Name] style placeholders (20 bracketed placeholders) and 19 'Choose an item' fields"
     why_relevant: 'SIMM 45 Appendix G, Independent Project Oversight Report Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45h
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-45-Appendix-H-Project-Delivery-Lifecyle-Project-Status-Report.docx
@@ -4905,7 +4909,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Project Status Report (PSR) form: a blank Key Information table, Yes/No answer cells, 6 check-box items and a 'Click here to enter text.' field"
     why_relevant: 'SIMM 45 Appendix H, Project Delivery Lifecycle Project Status Report: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-50-template
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-50-PIER-Template.docx
@@ -4918,7 +4922,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
+    stub_reason: "form or template, kept a stub under the interim practice until the owner decides whether forms enter the corpus (docs/spec.md, Open); the Word file, read 2026-11-11 with the Word reader, is the Post Implementation and Evaluation Report (PIER) template: 172 'Click or tap here to enter text' fields, 11 bracketed placeholders and 4 check-box items"
     why_relevant: 'SIMM 50, Post Implementation Evaluation Report Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-50-worksheets
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-50-PIER-Cost-Worksheets.xlsx

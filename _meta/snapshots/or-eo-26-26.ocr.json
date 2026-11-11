@@ -1,6 +1,253 @@
 {
   "agreement": 0.9788,
   "dict_ratio": 0.9906,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "OfficeoftheGovernor",
+      "tesseract": "Office of the Governor"
+    },
+    {
+      "before": [
+        "of",
+        "emerging",
+        "technologies",
+        "and"
+      ],
+      "paddle": "Recycled",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "emerging",
+        "technologies",
+        "and",
+        "Contains"
+      ],
+      "paddle": "Materials OfficeoftheGovernor",
+      "tesseract": "Recycled Office of the Governor"
+    },
+    {
+      "before": [
+        "HEREBY",
+        "DIRECTED",
+        "AND",
+        "ORDERED"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "state",
+        "and",
+        "federal",
+        "law"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "address",
+        "at",
+        "a",
+        "minimum"
+      ],
+      "paddle": "Recycled",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "at",
+        "a",
+        "minimum",
+        "Contains"
+      ],
+      "paddle": "Materials",
+      "tesseract": "Recycled M"
+    },
+    {
+      "before": [
+        "Recycled",
+        "M",
+        "Office",
+        "of"
+      ],
+      "paddle": "theGovernor",
+      "tesseract": "the Governor"
+    },
+    {
+      "before": [
+        "26",
+        "26",
+        "PAGE",
+        "THREE"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "government",
+        "procurement",
+        "and",
+        "use"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "for",
+        "artificial",
+        "intelligence",
+        "safety"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "frontier",
+        "artificial",
+        "intelligence",
+        "models"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "of",
+        "third",
+        "party",
+        "reviewers"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "and",
+        "technology",
+        "use",
+        "practices"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "or",
+        "public",
+        "safety",
+        "needs"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "independent",
+        "review",
+        "standards",
+        "evolve"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "artificial",
+        "intelligence",
+        "models",
+        "and"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "policy",
+        "changes",
+        "necessary",
+        "to"
+      ],
+      "paddle": "O",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "to",
+        "implement",
+        "the",
+        "proposal"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "Salem",
+        "Oregon",
+        "this",
+        "23"
+      ],
+      "paddle": "rd",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "of",
+        "September",
+        "2026",
+        "Contains"
+      ],
+      "paddle": "Recycled OfficeoftheGovernor",
+      "tesseract": "Materials Office of the Governor"
+    },
+    {
+      "before": [
+        "Governor",
+        "State",
+        "of",
+        "Oregon"
+      ],
+      "paddle": "s",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "26",
+        "26",
+        "PAGE",
+        "FOUR"
+      ],
+      "paddle": "Tin Katet",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "FOUR",
+        "Tina",
+        "Kotek",
+        "GOVERNOR"
+      ],
+      "paddle": "Thnan If Ral ATTEST",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Read",
+        "SECRETARY",
+        "OF",
+        "STATE"
+      ],
+      "paddle": "F Contains Recycled Materials",
+      "tesseract": ""
+    }
+  ],
   "engines": [
     "tesseract (ocrmypdf)",
     "paddleocr PP-OCRv6"
@@ -11,6 +258,7 @@
   "glued": 0,
   "paddle_sha256": "e0d017b6c01cb521ab692ed0750f0be7e50a4bf67414269ef4eda9882e37afcf",
   "pdf_sha256": "d8e7844995a197f883d8940a40923ef71656c193cf5b9659828e5d7e36fb28f4",
+  "psm": null,
   "text_sha256": "d25ab35036df3195fd959858daf8c52f3b1c7a5751a10057acce6a1538e2f637",
   "tools": {
     "ocrmypdf": "15.2.0+dfsg1",

@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 360,
+ "n_nodes": 359,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -279,12 +279,6 @@
    "title": "Governor Newsom issues executive order to accelerate independent oversight and advance the creation of an AI kill switch",
    "doc_type": "executive_order",
    "path": "executive-orders/california/ca-eo-n-9-26.md"
-  },
-  {
-   "id": "or-eo-16-13",
-   "title": "Unifying Cyber Security in Oregon",
-   "doc_type": "executive_order",
-   "path": "executive-orders/oregon/or-eo-16-13.md"
   },
   {
    "id": "or-eo-23-26",
@@ -1230,7 +1224,7 @@
   },
   {
    "id": "or-eis-ai-attachment-a",
-   "title": "State of Oregon Responsible AI Usage Policy: Agency Artificial Intelligence Adoption Strategy Template and Instructions",
+   "title": "Agency Artificial Intelligence Adoption Strategy Template and Instructions",
    "doc_type": "policy",
    "path": "policies/oregon/or-eis-ai-attachment-a.md"
   },

@@ -1,6 +1,113 @@
 {
   "agreement": 0.9756,
   "dict_ratio": 0.9758,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "OfficeoftheGovernor StateofOregon",
+      "tesseract": "Office of the Governor State of Oregon"
+    },
+    {
+      "before": [
+        "individual",
+        "and",
+        "civil",
+        "rights"
+      ],
+      "paddle": "OfficeoftheGovernor",
+      "tesseract": "ER it Office of the Governor"
+    },
+    {
+      "before": [
+        "Oregon",
+        "House",
+        "of",
+        "Representatives"
+      ],
+      "paddle": "c",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "State",
+        "Chief",
+        "Information",
+        "Officer"
+      ],
+      "paddle": "d",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "representatives",
+        "from",
+        "local",
+        "governments"
+      ],
+      "paddle": "OfficeoftheGovernor",
+      "tesseract": "Ss HER Office of the Governor"
+    },
+    {
+      "before": [
+        "Governor",
+        "State",
+        "of",
+        "Oregon"
+      ],
+      "paddle": "859",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Governor",
+        "s",
+        "Office",
+        "no"
+      ],
+      "paddle": "later",
+      "tesseract": "Jater"
+    },
+    {
+      "before": [
+        "Salem",
+        "Oregon",
+        "this",
+        "28"
+      ],
+      "paddle": "th",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "day",
+        "of",
+        "November",
+        "2023"
+      ],
+      "paddle": "Tin Kitet",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "2023",
+        "Tina",
+        "Kotek",
+        "GOVERNOR"
+      ],
+      "paddle": "ATTEST Lavonne Grifin Dalade",
+      "tesseract": "Arana Gripen Dikede"
+    },
+    {
+      "before": [
+        "Valade",
+        "SECRETARY",
+        "OF",
+        "STATE"
+      ],
+      "paddle": "",
+      "tesseract": "Contales"
+    }
+  ],
   "engines": [
     "tesseract (ocrmypdf)",
     "paddleocr PP-OCRv6"
@@ -11,6 +118,7 @@
   "glued": 0,
   "paddle_sha256": "90bd2f198d04a104187640b13116ac5f26417ff7a3943fef9d441d5e75320368",
   "pdf_sha256": "3db63b4d46ef7d8a4c7ebef795f26c2078f49f27bc33a5bb329321a4014a63c4",
+  "psm": null,
   "text_sha256": "5910c0b34d68305bd963896c3f6eaa65799dbdf20bbf9a83f80e0ffafc014436",
   "tools": {
     "ocrmypdf": "15.2.0+dfsg1",

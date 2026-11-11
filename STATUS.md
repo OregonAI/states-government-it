@@ -9,10 +9,10 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | policy | 215 |
 | standard | 91 |
 | statute | 28 |
-| executive_order | 15 |
+| executive_order | 14 |
 | rule | 11 |
 
-**Total: 360**
+**Total: 359**
 
 ## Source manifest
 
@@ -20,7 +20,7 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 ## Freshness (reverify every 90 days)
 
-360 of 360 document(s) overdue for re-verification.
+359 of 359 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -70,9 +70,9 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | ca-eo-n-5-26 | executive_order | never |
 | ca-eo-n-6-26 | executive_order | never |
 | ca-eo-n-9-26 | executive_order | never |
-| or-eo-16-13 | executive_order | never |
 | or-eo-23-26 | executive_order | never |
 | or-eo-26-26 | executive_order | never |
 | wa-eo-00-02 | executive_order | never |
-| … | *310 more* | |
+| wa-eo-16-01 | executive_order | never |
+| … | *309 more* | |
 

@@ -18,6 +18,13 @@ status: current
 content_mode: verbatim
 conversion_notes: 'no text layer in the source PDF; text recovered by OCR. Two independent engines (tesseract
   (ocrmypdf) + paddleocr PP-OCRv6) agree on 98% of the word sequence and 93% of the 21 figures, 97% dictionary-recognizable.
+  16 position(s) where the two engines read a different word or figure are listed in the scan''s ocr.json
+  report (disagreements): the committed reading is tesseract''s and is contested there. Figures read differently:
+  tesseract read 1 S where paddle read IS (after "become effective immediately IT"); tesseract read GAMIN
+  NEWSO where paddle read set my hand and caused the Great Sealof the State of California to be affixed
+  this 8 th dayof January 2019 GAVIN NEWSOM (after "WITNESS WHEREOF have hereunto"). Reading order of
+  labelled or two-column layouts, bullet glyphs (read as ''e'' or ''o''), letterhead logos, handwriting
+  and signatures are not reliably read or placed; the glyphs read from a signature field are not committed.
   effective_date and source_version are left empty: a date read from a scan is not transcribed from the
   source. NOT human-verified — treat every number as unchecked against the source'
 last_verified: ''
@@ -241,4 +248,4 @@ ates S> bd
 
 ## Curator notes
 
-no text layer in the source PDF; text recovered by OCR. Two independent engines (tesseract (ocrmypdf) + paddleocr PP-OCRv6) agree on 98% of the word sequence and 93% of the 21 figures, 97% dictionary-recognizable. effective_date and source_version are left empty: a date read from a scan is not transcribed from the source. NOT human-verified — treat every number as unchecked against the source
+no text layer in the source PDF; text recovered by OCR. Two independent engines (tesseract (ocrmypdf) + paddleocr PP-OCRv6) agree on 98% of the word sequence and 93% of the 21 figures, 97% dictionary-recognizable. 16 position(s) where the two engines read a different word or figure are listed in the scan's ocr.json report (disagreements): the committed reading is tesseract's and is contested there. Figures read differently: tesseract read 1 S where paddle read IS (after "become effective immediately IT"); tesseract read GAMIN NEWSO where paddle read set my hand and caused the Great Sealof the State of California to be affixed this 8 th dayof January 2019 GAVIN NEWSOM (after "WITNESS WHEREOF have hereunto"). Reading order of labelled or two-column layouts, bullet glyphs (read as 'e' or 'o'), letterhead logos, handwriting and signatures are not reliably read or placed; the glyphs read from a signature field are not committed. effective_date and source_version are left empty: a date read from a scan is not transcribed from the source. NOT human-verified — treat every number as unchecked against the source

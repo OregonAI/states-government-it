@@ -1,26 +1,13 @@
-DEPARTMENT OF
+DEPARTMENT OF OF
 ADMINISTRATIVE
 SERVICES Statewide Policy
-
-POLICY/
-PURPOSE:
-
-AUTHORITY:
-
-APPLICABILITY:
-
-ATTACHMENTS:
-
-DEFINITIONS:
 
 SUBJECT: Employee Security NUMBER: 107-004-053
 DIVISION: | Enterprise Information Strategy and Policy EFFECTIVE DATE: 7/30/07
 APPROVED:
 
-A, Bath
-
-Purpose: The purpose of this policy is to protect information assets and reduce the
-risk of human error and misuse of enterprise information and equipment.
+POLICY/ Purpose: The purpose of this policy is to protect information assets and reduce the
+PURPOSE: risk of human error and misuse of enterprise information and equipment.
 
 Policy: Each agency will develop and enforce a policy that:
 
@@ -45,17 +32,18 @@ achieve the security objectives defined in this document.
 State agencies have six (6) months from effective date of this policy to comply with
 this policy.
 
-This policy is established under the authority of 2005 Oregon Laws Chapter 739, OAR
+AUTHORITY: This policy is established under the authority of 2005 Oregon Laws Chapter 739, OAR
 125-800-005, 125-800-0010 and 125-800-0020.
 
-This policy applies to all Executive Branch agencies as defined in ORS 174.112,
+APPLICABILITY: This policy applies to all Executive Branch agencies as defined in ORS 174.112,
 except as provided in ORS 182.122 and 182.124 and OAR 125-800-0020 (3)(a) and
 (b) and (4) as they apply to the State Board of Higher Education and the Oregon
 University System, the Oregon State Lottery, Secretary of State, State Treasurer, and
 the Attorney General.
 
-None.
-Asset: Anything that has value to the organization.
+ATTACHMENTS: None.
+
+DEFINITIONS: Asset: Anything that has value to the organization.
 
 Information: Any knowledge that can be communicated or documentary material,
 regardless of its physical form or characteristics.
@@ -66,8 +54,6 @@ information, including authenticity, accountability, non-repudiation, and reliab
 Statewide Policy
 
 POLICY NAME: Employee Security POLICY NUMBER: 107-004-053
-
-GUIDELINES:
 
 Integrity: A security principle that makes sure that information and systems are not
 modified maliciously or accidentally.
@@ -83,7 +69,7 @@ achieve the desired confidentiality, availability and integrity goals. A policy 
 statement of information values, protection responsibilities, and organization
 commitment managing risks.
 
-Agency management should ensure that employees and volunteers:
+GUIDELINES: Agency management should ensure that employees and volunteers:
 e Are briefed on compliance with agency policies;
 e Sign for the receipt of agency policies:
 o Acknowledging receipt of the policies; and

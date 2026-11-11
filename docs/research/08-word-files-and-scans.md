@@ -32,14 +32,21 @@ branch through PYTHONPATH; the gate and CI run at the v1.36.4 pin). Nothing here
 - tesseract 5.3.4 through ocrmypdf 15.2.0 (both the Ubuntu 24.04 packages) is the primary engine; PaddleOCR 3.7.0 with
   PP-OCRv6 (orientation classification on) is the cross-check and reads the original scan. docTR, the tiebreaker, was
   not needed. The bars are the platform's: 0.80 word-sequence agreement, 0.80 dictionary ratio (from this corpus's non-OCR
-  text), 100 words. A page that tesseract reads as nonsense at its default orientation confidence is read again with
+  text), 100 words, and 0.90 figure agreement (added after Oregon EO 16-13 passed at 0.75 with its paragraph numbers
+  dropped, and became a stub). A page that tesseract reads as nonsense at its default orientation confidence is read again with
   `--rotate-pages-threshold 0`: EO N-30-25's scanned pages 2-4 are upside down and needed it (agreement 0.995 after).
-- **Ingested (8):** Oregon EO 16-13, 23-26, 26-26; DAS 107-004-051, -053, -100; California EO N-04-19 (all four pages
+- **Ingested (7):** Oregon EO 23-26, 26-26; DAS 107-004-051, -053, -100; California EO N-04-19 (all four pages
   scanned) and N-30-25 (page 1 has a text layer, pages 2-4 are scans: `ocr: [2, 3, 4]`). Word agreement 0.976-0.998;
-  figure agreement 0.75 (EO 16-13) to 1.0, reported in each document's conversion notes.
+  figure agreement 0.93 to 1.0, reported in each document's conversion notes with every position where the
+  engines read a figure differently (all word and figure disagreements are in `<id>.ocr.json`, `disagreements`).
+  **Oregon EO 16-13 is a stub:** figure agreement 0.75 (0.81 under page-segmentation mode 4), paragraph numbers dropped.
+  The DAS policies are read with `ocr_psm: 4` (label column stays with its text; word agreement 0.985 to 0.997);
+  signature-field glyphs are not committed; labels, bullets, logos and signatures remain unreliable.
 - **What CI can check.** CI has no PaddleOCR. The second engine's text is committed (`<id>.paddle.txt`) with a report
   (`<id>.ocr.json`: tool versions, the PDF's and both texts' sha256, the scores). `--check` recomputes the agreement from
-  the two committed texts, and re-runs tesseract on the committed scan, requiring 0.95 agreement with the committed text.
+  the two committed texts, and re-runs tesseract on the committed scan, requiring the same word and figure sequences (exact while the installed tesseract and ocrmypdf are the recorded
+  versions, measured byte-identical for all scans; when the apt packages move, figures stay exact and words need
+  0.995, and the remedy is to re-ingest to renew the record).
   An edited text, a swapped second reading, a different PDF, or a text that is not a reading of this scan each fail
   (tests/test_ingest_ocr.py proves each). It does not re-derive the dictionary ratio, which depends on the rest of the
   corpus. It cannot show the text is right: both engines can misread a digit alike, so every document says

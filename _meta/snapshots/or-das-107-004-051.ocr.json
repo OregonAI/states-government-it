@@ -1,6 +1,110 @@
 {
-  "agreement": 0.9896,
-  "dict_ratio": 0.9914,
+  "agreement": 0.9969,
+  "dict_ratio": 0.9939,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "DAS",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "DEPARTMENT"
+      ],
+      "paddle": "",
+      "tesseract": "OF ENT"
+    },
+    {
+      "before": [
+        "DATE",
+        "07",
+        "30",
+        "07"
+      ],
+      "paddle": "Luidaay A Ball",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "assets",
+        "Controls",
+        "could",
+        "include"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "to",
+        "do",
+        "their",
+        "jobs"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "site",
+        "without",
+        "prior",
+        "authorization"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "Security",
+        "mechanisms",
+        "could",
+        "include"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "could",
+        "include",
+        "e",
+        "Encryption"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "e",
+        "Tamper",
+        "evident",
+        "packaging"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "to",
+        "minimize",
+        "this",
+        "risk"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "when",
+        "no",
+        "longer",
+        "required"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    }
+  ],
   "engines": [
     "tesseract (ocrmypdf)",
     "paddleocr PP-OCRv6"
@@ -11,7 +115,8 @@
   "glued": 0,
   "paddle_sha256": "3decf1280d9b88fdd9cf4c64181545ce34be5ca5f4ace2fb3eb5e3ba4cba2686",
   "pdf_sha256": "62c3d544ea18704207b2ba0e28e52046baad7085f499d66398bddb61815b5284",
-  "text_sha256": "6e068d535319df26f1bbd0cb1c818e8f787a63526e44db4ccbbc955ba4fc6d0f",
+  "psm": 4,
+  "text_sha256": "45789353a90adeb356550a2814a3b42fbbba7e3c0e9687fda8adc44644ea9010",
   "tools": {
     "ocrmypdf": "15.2.0+dfsg1",
     "tesseract": "tesseract 5.3.4"

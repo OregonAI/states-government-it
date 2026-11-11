@@ -20,9 +20,14 @@ conversion_notes: 'Pages 2, 3, 4 of the PDF have no text layer (they are scans) 
   by OCR; the other pages'' text is the text layer, extracted with pdftotext -layout (trailing spaces
   and form feeds removed, ligature glyphs written as their letters). Two independent engines (tesseract
   (ocrmypdf) + paddleocr PP-OCRv6) agree on 100% of the word sequence and 98% of the 21 figures of the
-  scanned pages, 96% dictionary-recognizable. effective_date and source_version are left empty: a date
-  read from a scan is not transcribed from the source. NOT human-verified — treat every number as unchecked
-  against the source'
+  scanned pages, 96% dictionary-recognizable. 19 position(s) where the two engines read a different word
+  or figure are listed in the scan''s ocr.json report (disagreements): the committed reading is tesseract''s
+  and is contested there. Figures read differently: tesseract read 1 where paddle read I (after "more
+  e In 2023,"). Reading order of labelled or two-column layouts, bullet glyphs (read as ''e'' or ''o''),
+  letterhead logos, handwriting and signatures are not reliably read or placed; the glyphs read from a
+  signature field are not committed. effective_date and source_version are left empty: a date read from
+  a scan is not transcribed from the source. NOT human-verified — treat every number as unchecked against
+  the source'
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -272,4 +277,4 @@ ecretary of Stafe
 
 ## Curator notes
 
-Pages 2, 3, 4 of the PDF have no text layer (they are scans) and their text was recovered by OCR; the other pages' text is the text layer, extracted with pdftotext -layout (trailing spaces and form feeds removed, ligature glyphs written as their letters). Two independent engines (tesseract (ocrmypdf) + paddleocr PP-OCRv6) agree on 100% of the word sequence and 98% of the 21 figures of the scanned pages, 96% dictionary-recognizable. effective_date and source_version are left empty: a date read from a scan is not transcribed from the source. NOT human-verified — treat every number as unchecked against the source
+Pages 2, 3, 4 of the PDF have no text layer (they are scans) and their text was recovered by OCR; the other pages' text is the text layer, extracted with pdftotext -layout (trailing spaces and form feeds removed, ligature glyphs written as their letters). Two independent engines (tesseract (ocrmypdf) + paddleocr PP-OCRv6) agree on 100% of the word sequence and 98% of the 21 figures of the scanned pages, 96% dictionary-recognizable. 19 position(s) where the two engines read a different word or figure are listed in the scan's ocr.json report (disagreements): the committed reading is tesseract's and is contested there. Figures read differently: tesseract read 1 where paddle read I (after "more e In 2023,"). Reading order of labelled or two-column layouts, bullet glyphs (read as 'e' or 'o'), letterhead logos, handwriting and signatures are not reliably read or placed; the glyphs read from a signature field are not committed. effective_date and source_version are left empty: a date read from a scan is not transcribed from the source. NOT human-verified — treat every number as unchecked against the source

@@ -1,6 +1,168 @@
 {
   "agreement": 0.9773,
   "dict_ratio": 0.9719,
+  "disagreements": [
+    {
+      "before": [
+        "to",
+        "the",
+        "way",
+        "it"
+      ],
+      "paddle": "protects",
+      "tesseract": "orotects"
+    },
+    {
+      "before": [
+        "certain",
+        "cases",
+        "when",
+        "an"
+      ],
+      "paddle": "RFl",
+      "tesseract": "RFI"
+    },
+    {
+      "before": [
+        "embracing",
+        "this",
+        "new",
+        "flexible"
+      ],
+      "paddle": "approach",
+      "tesseract": "aqoproach"
+    },
+    {
+      "before": [
+        "become",
+        "effective",
+        "immediately",
+        "IT"
+      ],
+      "paddle": "IS",
+      "tesseract": "1 S"
+    },
+    {
+      "before": [
+        "4",
+        "Innovation",
+        "Procurement",
+        "Sprints"
+      ],
+      "paddle": "to",
+      "tesseract": "fo"
+    },
+    {
+      "before": [
+        "personnel",
+        "in",
+        "evaluating",
+        "the"
+      ],
+      "paddle": "RFl",
+      "tesseract": "RFI"
+    },
+    {
+      "before": [
+        "2",
+        "responses",
+        "and",
+        "determining"
+      ],
+      "paddle": "",
+      "tesseract": "i CBB"
+    },
+    {
+      "before": [
+        "requirements",
+        "and",
+        "business",
+        "needs"
+      ],
+      "paddle": "",
+      "tesseract": "f"
+    },
+    {
+      "before": [
+        "be",
+        "compensated",
+        "for",
+        "their"
+      ],
+      "paddle": "developmental",
+      "tesseract": "develoomental"
+    },
+    {
+      "before": [
+        "judicial",
+        "branches",
+        "are",
+        "requested"
+      ],
+      "paddle": "to",
+      "tesseract": "fo"
+    },
+    {
+      "before": [
+        "given",
+        "to",
+        "this",
+        "Order"
+      ],
+      "paddle": "",
+      "tesseract": "St ee ee"
+    },
+    {
+      "before": [
+        "ee",
+        "IN",
+        "WITNESS",
+        "WHEREOF"
+      ],
+      "paddle": "I",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "WITNESS",
+        "WHEREOF",
+        "have",
+        "hereunto"
+      ],
+      "paddle": "set my hand and caused the Great Sealof the State of California to be affixed this 8 th dayof January 2019 GAVIN NEWSOM",
+      "tesseract": "GAMIN NEWSO"
+    },
+    {
+      "before": [
+        "Governor",
+        "of",
+        "California",
+        "ATTEST"
+      ],
+      "paddle": "CALIF RNIA Oly Rell",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "of",
+        "California",
+        "ATTEST",
+        "ALEX"
+      ],
+      "paddle": "PADILLA",
+      "tesseract": "PATFILLA"
+    },
+    {
+      "before": [
+        "PATFILLA",
+        "Secretary",
+        "of",
+        "State"
+      ],
+      "paddle": "",
+      "tesseract": "iting ates S bd Sine"
+    }
+  ],
   "engines": [
     "tesseract (ocrmypdf)",
     "paddleocr PP-OCRv6"
@@ -11,6 +173,7 @@
   "glued": 0,
   "paddle_sha256": "77dc363ef14bde7a29fd579f259b6bd9516082b1ac1b3f7bdb0f60811833aa38",
   "pdf_sha256": "2eab57988b7606251fbcc672068341b508f5351f945ebcd9f198cda1d2856377",
+  "psm": null,
   "text_sha256": "707486e8b8b32cd0c8c387911743d50f9d53ea6c23e1bdf2c00b0319eb809f38",
   "tools": {
     "ocrmypdf": "15.2.0+dfsg1",

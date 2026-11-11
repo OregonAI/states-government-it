@@ -1,10 +1,10 @@
-DEPARTMENT OF
+DEPARTMENT OF OF
 ADMINISTRATIVE
 SERVICES Statewide Policy
 
 SUBJECT: Transporting Information Assets NUMBER: 107-004-100
 DIVISION: — Enterprise Information Strategy and Policy EFFECTIVE DATE: 01-31-08
-APPROVED: Yun |
+APPROVED:
 
 POLICY! Purpose: The purpose of this policy is to ensure the security of state information
 PURPOSE: assets when in transit. Information assets can be vulnerable to unauthorized access,
@@ -132,13 +132,9 @@ it.
 organization (e.g. State Data Center, Publishing and Distribution, etc.).
 
 e. Controls, means of managing risk including policies, procedures,
-
 guidelines, practices, or organizational structures, which can be of
-
 administrative, technical, management or legal nature, should be adopted,
-
 where necessary, to protect sensitive information from unauthorized
-
 disclosure or modification, including:
 
 1. Use of locked containers. ,

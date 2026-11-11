@@ -1,6 +1,110 @@
 {
-  "agreement": 0.985,
-  "dict_ratio": 0.99,
+  "agreement": 0.9967,
+  "dict_ratio": 0.9917,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "DAS",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "DEPARTMENT"
+      ],
+      "paddle": "",
+      "tesseract": "OF"
+    },
+    {
+      "before": [
+        "7",
+        "30",
+        "07",
+        "APPROVED"
+      ],
+      "paddle": "Lindsay A Ball",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "enforce",
+        "a",
+        "policy",
+        "that"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "will",
+        "have",
+        "access",
+        "to"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "agency",
+        "s",
+        "information",
+        "assets"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "termination",
+        "or",
+        "reassignment",
+        "and"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "that",
+        "employees",
+        "and",
+        "volunteers"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "compliance",
+        "with",
+        "agency",
+        "policies"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "comply",
+        "with",
+        "agency",
+        "policies"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "Receive",
+        "user",
+        "awareness",
+        "training"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    }
+  ],
   "engines": [
     "tesseract (ocrmypdf)",
     "paddleocr PP-OCRv6"
@@ -11,7 +115,8 @@
   "glued": 0,
   "paddle_sha256": "4c47bd2741c4ef99cbd22193eb6b91c88396ad743160939f9e6d328d56a6ce69",
   "pdf_sha256": "d638bb6ac81fac9cc1c6aa513d81759871e39525c3aec72dd57e723c7d03f323",
-  "text_sha256": "266806e61408727015881d635c465e6c5495b11f367bcceab974e37d84ef594f",
+  "psm": 4,
+  "text_sha256": "768695a3387fe1f611a2b228f1d95539342c6b1df6e327cb5de64dbe02931e5b",
   "tools": {
     "ocrmypdf": "15.2.0+dfsg1",
     "tesseract": "tesseract 5.3.4"
