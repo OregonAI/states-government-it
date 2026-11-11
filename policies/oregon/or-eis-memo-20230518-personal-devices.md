@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-eis-memo-20230518-personal-devices
 title: Use of Personal Devices and Statewide Policy 50.050.01 - Working Remotely

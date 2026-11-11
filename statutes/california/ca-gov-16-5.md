@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-gov-16-5
 title: 'Government Code section 16.5: Digital signatures in written communications with a public entity'

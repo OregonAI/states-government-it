@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-sam-5900
 title: 'State Administrative Manual chapter 5900: Information Technology - Disposal of IT Equipment'

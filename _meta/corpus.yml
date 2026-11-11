@@ -1,6 +1,6 @@
 # Corpus configuration — the single source of truth the toolkit reads.
 corpus:
-  id: "states-it-governance"                # = repo name, e.g. oregon-records-retention
+  id: "states-government-it"                # = repo name, e.g. oregon-records-retention
   name: "State Government IT Governance"            # display name
   jurisdiction: "united-states"       # the corpus spans states; each document carries its own (oregon, washington, ...)
   # document | api | hybrid — CHANGE THIS to your corpus's archetype. Ships as a literal
@@ -26,7 +26,7 @@ corpus:
   # not pass. `.invalid` is reserved by RFC 2606 precisely so it can never resolve, so this
   # is still unmistakably a placeholder — it just fails at the right time, when someone
   # follows it, rather than blocking the template from validating itself.
-  authoritative_source: "https://github.com/OregonAI/states-it-governance/tree/main/_meta/sources"  # many states, so no single official site: the manifest lists every official source
+  authoritative_source: "https://github.com/OregonAI/states-government-it/tree/main/_meta/sources"  # many states, so no single official site: the manifest lists every official source
   schema_version: 1
   contract_version: 1
 
@@ -108,7 +108,7 @@ provenance:
 #     max_results: 1000
 
 mcp:
-  server_name: "states-it-governance"
+  server_name: "states-government-it"
   transports: [stdio, http]
 
 status:

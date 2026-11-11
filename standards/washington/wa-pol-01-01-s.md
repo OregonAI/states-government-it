@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-pol-01-01-s
 title: Naming Convention Standard

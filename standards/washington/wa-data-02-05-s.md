@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-data-02-05-s
 title: NG9-1-1 Geospatial Data Standard

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-pm-01-01-g
 title: Managing Information Technology Projects - Critical Indicators of Project Performance

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: colorado
 id: co-oit-ts-oea-001
 title: Technology Accessibility for Persons with Disabilities

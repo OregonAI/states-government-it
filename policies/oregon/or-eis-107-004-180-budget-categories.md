@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-eis-107-004-180-budget-categories
 title: Information Technology Readiness Budget Category Descriptions

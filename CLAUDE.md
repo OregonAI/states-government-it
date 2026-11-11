@@ -1,11 +1,11 @@
-# states-it-governance
+# states-government-it
 
 Full-text mirror of how state governments regulate their own IT, including government use
 of AI, served to AI agents for cross-state comparison. Non-authoritative: every document
 cites its official source. The states held are the files in `_meta/sources/` (listed in `llms.txt`).
 
 - **What and why:** `docs/spec.md`. Scope, states and tags: `_meta/domain.yml`.
-- **Work queue:** GitHub issues on `OregonAI/states-it-governance` (`docs/agents/issue-tracker.md`).
+- **Work queue:** GitHub issues on `OregonAI/states-government-it` (`docs/agents/issue-tracker.md`).
 - **Folder rules** load when you work there: `_meta/`, `src/`, `docs/`, and
   `.claude/rules/documents.md` for the five content folders.
 

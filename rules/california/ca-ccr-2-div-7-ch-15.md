@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-ccr-2-div-7-ch-15
 title: Trustworthy Electronic Document or Record Preservation

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-eo-n-9-26
 title: Governor Newsom issues executive order to accelerate independent oversight and advance the creation

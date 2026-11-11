@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-pm-03-01-s
 title: Minimum Qualifications for Quality Assurance Providers

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-pm-01-05-s
 title: Feasibility Study for IT Investments

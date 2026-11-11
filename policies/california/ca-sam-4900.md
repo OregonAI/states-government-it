@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-sam-4900
 title: 'State Administrative Manual chapter 4900: Information Technology - California Department of Technology'

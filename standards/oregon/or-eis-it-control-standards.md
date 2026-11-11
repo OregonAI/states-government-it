@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: oregon
 id: or-eis-it-control-standards
 title: Statewide Information Technology (IT) Control Standards

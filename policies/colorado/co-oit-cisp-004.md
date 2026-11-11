@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: colorado
 id: co-oit-cisp-004
 title: Data Security Policy

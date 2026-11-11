@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-simm-5340-c
 title: Requirements to Respond to Incidents Involving a Breach of Personal Information

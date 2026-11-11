@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: washington
 id: wa-watech-ai-risk-level-guidance
 title: Artificial Intelligence Risk Level Guidance

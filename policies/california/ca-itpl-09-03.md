@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-itpl-09-03
 title: Establishment of a Statewide Enterprise Architecture and the Associated Policy and Process

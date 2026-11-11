@@ -52,7 +52,7 @@ jobs:
     # X — and a workflow that is always failing is one people learn to ignore. This guard
     # needs no action on instantiation: the repository name stops matching, and the job
     # starts running by itself.
-    # PRIVATE-REPO GUARD (states-it-governance). GitHub Pages is unavailable to a private
+    # PRIVATE-REPO GUARD (states-government-it). GitHub Pages is unavailable to a private
     # repo on this org's plan, so the deploy would fail on every push. The job starts
     # running by itself the day the repo is made public; then enable Pages with the
     # workflow builder (step 1 above).

@@ -1,6 +1,6 @@
 ---
 schema_version: 1
-corpus: states-it-governance
+corpus: states-government-it
 jurisdiction: california
 id: ca-itpl-10-19
 title: Smartphone and Other Mobile Computing Device Security

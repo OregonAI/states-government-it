@@ -1,4 +1,4 @@
-# Spec: states-it-governance pilot
+# Spec: states-government-it pilot
 
 Status: agreed in grilling on 2026-11-10. Work items are GitHub issues. Research behind it is in `docs/research/01`–`03`.
 
