@@ -100,3 +100,8 @@ def test_a_ccr_document_says_which_copy_it_is_and_where_its_date_comes_from():
     assert "last `eff.` line" in notes
     _, vtext = ing.derive(VENDOR, VENDOR_PDF)
     assert "Secretary of State" not in ing.conversion_notes(VENDOR, "pdf", vtext)
+
+
+def test_a_partial_repeal_in_the_history_does_not_become_the_effective_date():
+    history = "Editor's Notes\n\nHistory\n\nEntire rule eff. 06/30/2025.\nRule 11.3 repealed eff. 01/01/2026.\n"
+    assert ing._co_effective_date(history, "rule") == "2025-06-30"
