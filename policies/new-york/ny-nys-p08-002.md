@@ -13,7 +13,7 @@ source_format: pdf
 retrieved: '2026-11-11'
 source_sha256: 86d8252489aa59feb9c33eff9464212e429e2036bc88c81a8ff0fe194e8d6654
 effective_date: null
-source_version: ''
+source_version: 'Updated: 02/08/2024'
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept

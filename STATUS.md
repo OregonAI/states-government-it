@@ -6,9 +6,9 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 276 |
+| policy | 277 |
 | standard | 189 |
-| statute | 44 |
+| statute | 43 |
 | executive_order | 17 |
 | rule | 12 |
 
@@ -16,7 +16,7 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 ## Source manifest
 
-678 declared source(s) across 6 group(s) in `sources`.
+677 declared source(s) across 6 group(s) in `sources`.
 
 ## Freshness (reverify every 90 days)
 
@@ -50,7 +50,6 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | ny-stt-art-2 | statute | never |
 | ny-stt-art-3 | statute | never |
 | ny-stt-art-4 | statute | never |
-| ny-stt-art-5 | statute | never |
 | or-ors-276a | statute | never |
 | va-code-18-2-186-6 | statute | never |
 | va-code-2-2-203-2-4 | statute | never |
@@ -74,5 +73,6 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | co-ccr-8-1501-12 | rule | never |
 | co-ccr-8-1501-5 | rule | never |
 | co-ccr-8-1501-7 | rule | never |
+| co-ccr-8-1501-9 | rule | never |
 | … | *488 more* | |
 

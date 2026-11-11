@@ -17,7 +17,7 @@ sources:
     tags: [governance, oversight, procurement, cybersecurity, data, ai, digital-services, cloud-resilience]
     recheck: "monthly"
     slice: {article: "A1"}
-    why_relevant: "The enabling article for ITS and its director, the State CIO (sections 101-103): ITS powers and duties including statewide technology policies and standards (103), the State IT innovation center (103-a), gender-neutral terminology on state agency websites (103-b), mobile-friendly websites and cloud computing (103-c, two sections), website accessibility (103-d), the artificial intelligence inventory (103-e), cybersecurity awareness training for state employees (103-f), a second section 103-f on the automated decision-making tool inventory (the API's text), and the advisory council for technology (104-105). The article also holds FOIL for certain data (106), health care proxy information (106-a) and biometric identifying technology in schools (106-b, K-12, which is outside the corpus scope and rides along because the API serves the whole article)."
+    why_relevant: "The enabling article for ITS and its director, the State CIO (sections 101-103): ITS powers and duties including statewide technology policies and standards (103), the State IT innovation center (103-a), gender-neutral terminology on state agency websites (103-b), mobile-friendly websites and cloud computing (103-c, two sections), website accessibility (103-d), the artificial intelligence inventory (103-e), cybersecurity awareness training for state employees (103-f), a second section 103-f on the automated decision-making tool inventory (the API marks this second 103-f repealed: true, repealedDate 2026-02-27; it rides along because the API serves the article whole), and the advisory council for technology (104-105). The article also holds FOIL for certain data (106), health care proxy information (106-a) and biometric identifying technology in schools (106-b, K-12, which is outside the corpus scope and rides along because the API serves the whole article)."
   - id: "ny-stt-art-2"
     sha256: "9a5afec552a92f0ea74e4ab85dfed1a796905f8c7ecaa238b52b5d78b14e2277"
     url: "https://legislation.nysenate.gov/api/3/laws/STT?full=true&fromLocation=A2&toLocation=A2"
@@ -57,19 +57,6 @@ sources:
     recheck: "monthly"
     slice: {article: "A4"}
     why_relevant: "State agencies that use automated employment decision-making tools must publish a list of them annually (401-402); section 402-a asks the same of covered local entities and rides along. Sections 402 and 402-a carry sunset notes the text prints (effective until, and repealed, July 1, 2028)."
-  - id: "ny-stt-art-5"
-    sha256: "23b20dcc6b9a8458f514a94cbb47698d2b7df8ebb9d2835d671fdf86c469fcbf"
-    url: "https://legislation.nysenate.gov/api/3/laws/STT?full=true&fromLocation=A5&toLocation=A5"
-    format: "json"
-    citation: "State Technology Law, Article 5 (sections 501-504)"
-    title: "State Technology Law, Article 5 - Automated Decision-making In Government Agencies"
-    doc_type: "statute"
-    jurisdiction: "new-york"
-    issuing_body: "New York State Legislature; served by the New York State Senate Open Legislation API"
-    tags: [ai, governance, oversight]
-    recheck: "monthly"
-    slice: {article: "A5"}
-    why_relevant: "Article V, as the API serves it: definitions, disclosure of automated decision-making tools by government agencies, impact assessments and the report to the Governor and Legislature (501-504). The text prints 'NB Repealed July 1, 2028'. The API's tree marks the article and its sections repealed with a date of 2026-02-27, which is the date the version that added that note was published; the earlier version 2026-01-09 printed 'NB Effective December 19, 2026'. Enacted law with a sunset, not a bill; whether it is in force today is an owner decision (see the left-out notes)."
 
   # ---- Rules and executive orders
   - id: "ny-nycrr-551"
@@ -840,6 +827,7 @@ sources:
     identity_text: "ITS-P18-007"
     why_relevant: "Item of the ITS statewide technology policy and standards library (https://its.ny.gov/policies), category 'Policy, ITS Policies' on the listing. The listing prints original publication 07/15/2020 and last modified 12/22/2020."
   - id: "ny-its-p20-004"
+    sha256: "22565852f1b0b58e02ec86cbbac344df3d0c0301977211ba6b3273fc3620466b"
     url: "https://its.ny.gov/technology-projects"
     format: "pdf"
     citation: "NYS ITS Policy ITS-P20-004"
@@ -849,8 +837,8 @@ sources:
     issuing_body: "New York State Office of Information Technology Services (ITS)"
     tags: [oversight]
     recheck: "monthly"
-    stub: true
-    stub_reason: "Page 1 of the 4-page PDF is a raster image over its upper part: the header block (number ITS-P20-004, issue date, title, owner), section 1.0 Purpose and Benefits and the first lines of 2.0 Authority are pixels, and the text layer begins mid-sentence in section 2.0 (pdftotext, measured 2026-11-11). Text from the PDF would silently lack them, and the pages are not a scan to which the OCR route (all pages or listed pages without a text layer) applies. Fetched through the Fetcher; no document is written. The page can be taken in by OCR of page 1 and a composed text if the owner wants that."
+    identity_text: "ITS-P20-004"
+    ocr: [1]   # page 1 has no text layer (no fonts on it); the text begins on page 2
     why_relevant: "Item of the ITS statewide technology policy and standards library (https://its.ny.gov/policies), category 'Technology Development/Use, ITS Policies' on the listing. The listing prints original publication 12/11/2020."
   - id: "ny-its-p20-001"
     sha256: "66ea39076baaa297d08c567a97b5e387a3f7b2b761d1d863cd45b9a4693336ae"
@@ -1016,8 +1004,8 @@ sources:
 left_out:
 - text: '---- New York: found and left out (each was seen on an official page on 2026-11-11; the reason is recorded here)'
 - text: |-
-    Policy library (https://its.ny.gov/policies, 64 results, reconciled row by row from the 7 listing pages): 57 rows are documents,
-    1 is a stub (ITS-P20-004, see its entry), 6 are left out here, and 0 were hidden: the listing has no status column and
+    Policy library (https://its.ny.gov/policies, 64 results, reconciled row by row from the 7 listing pages): 58 rows are documents
+    (ITS-P20-004 by OCR of its page 1, see its entry), 6 are left out here, and 0 were hidden: the listing has no status column and
     no row is rescinded, archived or draft (checked: no row's PDF prints a rescinded, archived or draft status; the words
     appear only in policy text about other things). The 6 left out fail the inclusion test (their subject is not IT, data or AI
     as a government function); each is an ITS-issued policy under ITS's policy authority, so this is an OWNER DECISION and each
@@ -1039,7 +1027,7 @@ left_out:
     the other 60 rows and with an HTML page, whose Download link was followed, for these four).
 - text: |-
     Statutes: the State Technology Law (chapter 57-A, lawId STT) is held as its five articles (101-107, 201-210, 301-309, 401-402-a,
-    501-504); the chapter has no other. Searching the Open Legislation API (documented public search, terms 'artificial
+    501-504; article 5 is left out as repealed, see below); the chapter has no other. Searching the Open Legislation API (documented public search, terms 'artificial
     intelligence', 'automated decision', 'cybersecurity', 'chief information officer', 'information technology services') found
     these outside it, left out:
      - State Finance Law 163-e and 165 and General Municipal Law 103-h (restrictions on purchasing technology that poses a
@@ -1053,12 +1041,16 @@ left_out:
        the rule and the ITS pages, not fetched; a data-privacy article of a non-IT chapter, same pending decision. OWNER DECISION.
      - Economic Development (Commerce) Law section 361 (Empire AI research program) and General Business Law article 47 (AI
        companion models): a research consortium and a private-sector rule, out of scope.
-    Article 5 of the State Technology Law (501-504) and the second section 103-f in article 1 (the automated decision-making
-    tool inventory) are held as documents. The API marks them repealed (repealed true, repealedDate 2026-02-27) while the text
-    prints 'NB Repealed July 1, 2028'; the same 501 text printed 'NB Effective December 19, 2026' in the 2026-01-09 version
-    (fetched with the API's date parameter). Read as enacted law with a sunset, not a repeal already in effect; whether it is
-    in force today, and whether the flag means otherwise, is an OWNER DECISION. Article 1 also carries 106-b (biometric
-    identifying technology in schools), outside scope, because the API serves the article whole.
+    Article 5 of the State Technology Law (501-504, 'Automated Decision-making In Government Agencies') is left out: the Open
+    Legislation API marks the article and all four sections repealed: true with repealedDate 2026-02-27 (read in the
+    API's tree for the whole chapter, 2026-11-11), and the text prints 'NB Repealed July 1, 2028'; the same 501 text printed
+    'NB Effective December 19, 2026' in the 2026-01-09 version (fetched with the API's date parameter). Section 402-A of
+    article 4 prints the same 'NB Repealed July 1, 2028' and the API marks it repealed: false, so the flag is not only the
+    printed sunset note. The playbook says in force only and a borderline item is not a document. OWNER DECISION: the
+    article becomes a document if the owner reads it as enacted law with a sunset rather than a repeal. The second section
+    103-f in article 1 (the automated decision-making tool inventory) carries the same flag (repealed: true,
+    repealedDate 2026-02-27) and is held inside the article 1 document, because the API serves the article whole. Article 1
+    also carries 106-b (biometric identifying technology in schools), outside scope, for the same reason.
     ITS's own page 'NYS Technology Law' is an unofficial copy (it says so) and was not used for text.
 - text: |-
     Rules: ITS's Laws page lists three regulations and the NYCRR link. 9 NYCRR Part 551 is a document. Part 540 (ESRA) is a
@@ -1076,8 +1068,8 @@ left_out:
     of public-sector workers' personal information: personnel privacy, not data governance; OWNER DECISION), No. 3 of 2007
     (Spitzer, webcasting of public meetings: open meetings), No. 175 of 2018 (net neutrality in state contracts: telecom,
     out of scope), Nos. 42 and 7 of 2008-2010 (Paterson: Executive Chamber records management; personal use of state property),
-    and the rest (disaster, appointments, labor, environment). ITS also prints No. 117 and No. 3 as HTML pages; the Governor's
-    PDFs are the text of record, and the ITS HTML copies were not used.
+    and the rest (disaster, appointments, labor, environment). No. 117's text is ITS's HTML page, because the Governor's scan failed the OCR
+    gates (see its entry); ITS's HTML copy of No. 3 is left out with the order.
 - text: |-
     Pages that are not instruments: ITS landing pages for Artificial Intelligence (training pilot, news and interviews; it names
     a Chief AI Officer and points to the AI policy and the inventory guidance, both seeded), Data Privacy (how to request personal

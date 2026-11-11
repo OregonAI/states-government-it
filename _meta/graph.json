@@ -161,12 +161,6 @@
    "path": "statutes/new-york/ny-stt-art-4.md"
   },
   {
-   "id": "ny-stt-art-5",
-   "title": "State Technology Law, Article 5 - Automated Decision-making In Government Agencies",
-   "doc_type": "statute",
-   "path": "statutes/new-york/ny-stt-art-5.md"
-  },
-  {
    "id": "or-ors-276a",
    "title": "Chapter 276A - Information Technology (2025 Edition)",
    "doc_type": "statute",
@@ -1275,6 +1269,12 @@
    "title": "System Integration",
    "doc_type": "policy",
    "path": "policies/new-york/ny-its-p20-001.md"
+  },
+  {
+   "id": "ny-its-p20-004",
+   "title": "Technology Projects in Response to Critical Incidents and Governor's Initiatives",
+   "doc_type": "policy",
+   "path": "policies/new-york/ny-its-p20-004.md"
   },
   {
    "id": "ny-its-p21-001",
