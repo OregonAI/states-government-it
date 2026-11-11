@@ -1,0 +1,95 @@
+Department of Administrative Services
+Office of the State Chief Information Officer - Chapter 128
+Division 20
+State Information Technology Asset Protection - Covered Vendors
+
+128-020-0005
+Purpose
+(1) The State Chief Information Officer has responsibility for and authority over executive department information systems security in accordance with ORS 276A.300, including responsibility for taking all measures that are reasonably necessary to protect the availability, integrity or confidentiality of information systems or the information stored in information systems.
+(2) The primary purpose of these rules is to establish the criteria and processes by which the State Chief Information Officer will determine when a corporate entity poses a national security threat, and when a corporate entity no longer poses a national security threat. These rules define “national security threat” and “artificial intelligence” for purposes of protecting state information technology assets.
+Statutory/Other Authority: ORS 276A.300
+Statutes/Other Implemented: ORS 276A.340-276A.344 & Or Laws 2025, ch 396 (HB 3936)
+History:
+OSCIO 1-2025, amend filed 12/04/2025, effective 01/01/2026
+OSCIO 1-2024, adopt filed 01/29/2024, effective 02/01/2024
+
+128-020-0010
+Definitions
+For the purposes of these Chapter 20 rules, the following definitions apply:
+(1) "Artificial intelligence" means a machine-based system that is capable, for a given set of human-defined objectives, of making predictions, recommendations or decisions influencing real or virtual environments and uses machine- or human-based inputs to:
+(a) Perceive real or virtual environments;
+(b) Abstract the perceptions into models through analysis in an automated manner; and
+(c) Use model inference to formulate options for information or action.
+(2) "Corporate entity" means any type of organization or legal entity other than an individual natural person, such as a corporation, partnership, limited liability company, or other organization, whether incorporated or unincorporated.
+(3) "Covered product" means:
+(a) Any form of hardware, software or service provided by a covered vendor; and
+(b) Any hardware, software or service that uses artificial intelligence and the artificial intelligence is developed or owned by a covered vendor.
+(4) "Covered vendor" means any of the following corporate entities, or any parent, subsidiary, affiliate, or successor entity of:
+(a) The following corporate entities:
+(A) Ant Group Co., Limited;
+(B) ByteDance Limited;
+(C) Huawei Technologies Company Limited;
+(D) Kaspersky Lab;
+(E) Tencent Holdings Limited; and
+(F) ZTE Corporation.
+(b) Any other corporate entity designated by the State Chief Information Officer as a covered vendor because it is a national security threat.
+(c) Any corporate entity that has been prohibited or had its products or services prohibited from use by a federal agency pursuant to the Secure and Trusted Communications Networks Act of 2019, 47 USC 1601, et seq, including as amended.
+(5) "National security threat" means, for purposes of protecting state information technology assets, a corporate entity that has been designated as a covered vendor because its covered product(s) pose(s) an unacceptable risk of harm to the operations of government, business entities, or the economy, or an unacceptable risk of harm to the rights and privacy of individuals, because of its engagement in a pattern or serious instance(s) of conduct significantly adverse to the security of federal or state infrastructure, government operations or systems, public and private institutions, law enforcement or military intelligence, individuals' personal information, or other sensitive or protected information.
+(6) "State agency" means any board, commission, department, division, office, or other entity of state government, as defined in ORS 174.111, except that state government does not include the Secretary of State or State Treasurer.
+(7) "State information technology asset" means any form of hardware, software or service for data processing, office automation, or telecommunications that is used directly by a state agency or used to a significant extent by a contractor in the performance of a contract with a state agency.
+Statutory/Other Authority: ORS 276A.300
+Statutes/Other Implemented: ORS 276A.340-276A.344 & Or Laws 2025, ch 396 (HB 3936)
+History:
+OSCIO 1-2025, amend filed 12/04/2025, effective 01/01/2026
+OSCIO 1-2024, adopt filed 01/29/2024, effective 02/01/2024
+
+128-020-0015
+Covered Vendor List
+(1) The State Chief Information Officer shall establish a list of covered vendors on its publicly accessible website, inclusive of information sufficient to identify covered products, and the date that each covered vendor was designated as a national security threat. The State Chief Information Officer shall maintain and update this list in accordance with the policies and procedures adopted pursuant to OAR 128-020-0025, Designation Process.
+(2) Subject to allowable investigatory, regulatory, or law enforcement exceptions, and all applicable policies and procedures, no covered products of a corporate entity listed as a covered vendor on the list maintained by the State Chief Information Officer under this Division 20 may be installed or downloaded onto a state information technology asset that is under the management or control of a state agency, or used or accessed by a state information technology asset.
+Statutory/Other Authority: ORS 276A.300
+Statutes/Other Implemented: Or Laws 2023, ch 256 (HB 3127)
+History:
+OSCIO 1-2024, adopt filed 01/29/2024, effective 02/01/2024
+
+128-020-0020
+Designation Criteria
+The State Chief Information Officer will consider one or more of the following criteria when determining if a corporate entity is a national security threat:
+(1) The corporate entity owns or otherwise provides a product or service that was developed or provided by a covered vendor.
+(2) The extent to which the corporate entity is affiliated with a covered vendor.
+(3) The corporate entity owns or otherwise provides a product or service that collects user data, including but not limited to personal information, browsing history, and location history, that is not required for or grossly exceeds the minimum necessary user data for the product or service.
+(4) The corporate entity owns or otherwise provides a product or service that collects user data, such as biometric data, contact information, GPS locations, chat logs, photos and browser histories, personal information, browsing history, and location history, that is potentially or currently accessible by foreign governments or foreign state actors.
+(5) The corporate entity owns or otherwise provides a product or service that has security vulnerabilities that, if unresolved, could expose state information technology assets to malicious actors.
+(6) The corporate entity owns or otherwise provides a product or service developed or provided by a corporate entity that has been designated a national security threat or otherwise meets the criteria of a covered vendor under OAR 128-020-0010.
+(7) The corporate entity owns or otherwise provides a product or service that supports the administrative use of algorithmic modifications to conduct misinformation, disinformation, or malinformation campaigns.
+(8) The corporate entity owns or otherwise provides a product or service that has the potential to control or compromise state information technology assets.
+Statutory/Other Authority: ORS 276A.300
+Statutes/Other Implemented: Or Laws 2023, ch 256 (HB 3127)
+History:
+OSCIO 1-2024, adopt filed 01/29/2024, effective 02/01/2024
+
+128-020-0025
+Designation Process
+(1) Enterprise Information Services shall adopt and implement a policy and procedure that establishes the schedule for review of corporate entities associated with hardware, software, and services against the criteria in OAR 128-020-0020, and under which Enterprise Information Services will update its covered vendor list to reflect designations made pursuant to the Secure and Trusted Communications Networks Act of 2019, 47 USC 1601, et seq, including as amended. If review or other update identifies that a corporate entity is or may be a national security threat, the State Chief Information Officer will determine if the corporate entity should be designated as a covered vendor.
+(2) The determination of the State Chief Information Officer will be reflected in an update of the covered vendor list on the publicly accessible Enterprise Information Services website.
+Statutory/Other Authority: ORS 276A.300
+Statutes/Other Implemented: Or Laws 2023, ch 256 (HB 3127)
+History:
+OSCIO 1-2024, adopt filed 01/29/2024, effective 02/01/2024
+
+128-020-0030
+De-Designation Criteria
+The State Chief Information Officer will consider one or more of the designation criteria in OAR 128-020-0020 when de-designating or re-evaluating a corporate entity’s status as a national security threat.
+Statutory/Other Authority: ORS 276A.300
+Statutes/Other Implemented: Or Laws 2023, ch 256 (HB 3127)
+History:
+OSCIO 1-2024, adopt filed 01/29/2024, effective 02/01/2024
+
+128-020-0035
+De-Designation Process
+(1) If review or other update received pursuant to the process and procedure established under OAR 128-020-0025, Designation Process, identifies that a corporate entity may no longer pose a national security threat, the State Chief Information Officer will determine if the corporate entity should be removed from the covered vendor list.
+(2) The determination of the State Chief Information Officer will be reflected in an update of the covered vendor list on the publicly accessible Enterprise Information Services website.
+Statutory/Other Authority: ORS 276A.300
+Statutes/Other Implemented: Or Laws 2023, ch 256 (HB 3127)
+History:
+OSCIO 1-2024, adopt filed 01/29/2024, effective 02/01/2024

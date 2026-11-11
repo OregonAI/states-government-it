@@ -1,8 +1,267 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 0,
+ "n_nodes": 43,
  "n_edges": 0,
  "n_edges_external": 0,
- "nodes": [],
+ "nodes": [
+  {
+   "id": "or-ors-276a",
+   "title": "Chapter 276A - Information Technology (2025 Edition)",
+   "doc_type": "statute",
+   "path": "statutes/oregon/or-ors-276a.md"
+  },
+  {
+   "id": "or-oar-128-20",
+   "title": "State Information Technology Asset Protection - Covered Vendors",
+   "doc_type": "rule",
+   "path": "rules/oregon/or-oar-128-20.md"
+  },
+  {
+   "id": "or-oar-128-30",
+   "title": "State Information Security",
+   "doc_type": "rule",
+   "path": "rules/oregon/or-oar-128-30.md"
+  },
+  {
+   "id": "or-oar-128-40",
+   "title": "Geographic Information",
+   "doc_type": "rule",
+   "path": "rules/oregon/or-oar-128-40.md"
+  },
+  {
+   "id": "or-oar-128-50",
+   "title": "Identity Authentication/Electronic Signatures",
+   "doc_type": "rule",
+   "path": "rules/oregon/or-oar-128-50.md"
+  },
+  {
+   "id": "or-das-107-004-010",
+   "title": "Information Technology Asset Inventory and Management",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-010.md"
+  },
+  {
+   "id": "or-das-107-004-015-pr",
+   "title": "Mobile Communications Devices, Internal Controls for Managing Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-015-pr.md"
+  },
+  {
+   "id": "or-das-107-004-015",
+   "title": "Mobile Communications Devices, Internal Controls for Managing Policy",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-015.md"
+  },
+  {
+   "id": "or-das-107-004-030-pr",
+   "title": "Independent Quality Management Services for IT Initiatives Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-030-pr.md"
+  },
+  {
+   "id": "or-das-107-004-030",
+   "title": "Independent Quality Management Services for IT Initiatives Policy",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-030.md"
+  },
+  {
+   "id": "or-das-107-004-050",
+   "title": "Information Asset Classification",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-050.md"
+  },
+  {
+   "id": "or-das-107-004-052-pr",
+   "title": "Cyber and Information Security Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-052-pr.md"
+  },
+  {
+   "id": "or-das-107-004-052",
+   "title": "Cyber and Information Security Policy",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-052.md"
+  },
+  {
+   "id": "or-das-107-004-110",
+   "title": "Acceptable Use of State Information Assets",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-110.md"
+  },
+  {
+   "id": "or-das-107-004-120",
+   "title": "Cyber and Information Security Incident Response",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-120.md"
+  },
+  {
+   "id": "or-das-107-004-130-pr",
+   "title": "Information Technology Investment Oversight Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-130-pr.md"
+  },
+  {
+   "id": "or-das-107-004-130",
+   "title": "Information Technology Investment Oversight",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-130.md"
+  },
+  {
+   "id": "or-das-107-004-140",
+   "title": "Privileged Access to Information Systems",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-140.md"
+  },
+  {
+   "id": "or-das-107-004-150-pr",
+   "title": "Cloud and Hosted Systems Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-150-pr.md"
+  },
+  {
+   "id": "or-das-107-004-150",
+   "title": "Cloud and Hosted Systems Policy with Exhibit",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-150.md"
+  },
+  {
+   "id": "or-das-107-004-155-pr",
+   "title": "Covered Products and Vendors Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-155-pr.md"
+  },
+  {
+   "id": "or-das-107-004-155",
+   "title": "Covered Products and Vendors Policy",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-155.md"
+  },
+  {
+   "id": "or-das-107-004-160",
+   "title": "Data Governance Policy",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-160.md"
+  },
+  {
+   "id": "or-das-107-004-180-pr",
+   "title": "Information Technology Readiness Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-180-pr.md"
+  },
+  {
+   "id": "or-das-107-004-180",
+   "title": "Information Technology Readiness Policy",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-180.md"
+  },
+  {
+   "id": "or-das-107-004-190-pr",
+   "title": "Responsible Artificial Intelligence Usage Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-190-pr.md"
+  },
+  {
+   "id": "or-das-107-004-190",
+   "title": "Responsible Artificial Intelligence Usage Policy",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-190.md"
+  },
+  {
+   "id": "or-das-107-004-200-pr",
+   "title": "Copilot General Usage Procedure",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-200-pr.md"
+  },
+  {
+   "id": "or-das-107-004-200",
+   "title": "Copilot General Usage Policy",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-das-107-004-200.md"
+  },
+  {
+   "id": "or-eis-107-004-180-budget-categories",
+   "title": "Information Technology Readiness Budget Category Descriptions",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-107-004-180-budget-categories.md"
+  },
+  {
+   "id": "or-eis-ai-attachment-b",
+   "title": "State of Oregon Responsible AI Usage Policy: Artificial Intelligence Risk Management Framework",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-ai-attachment-b.md"
+  },
+  {
+   "id": "or-eis-ai-attachment-d",
+   "title": "State of Oregon Responsible AI Usage Policy: User disclosure mechanism",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-ai-attachment-d.md"
+  },
+  {
+   "id": "or-eis-ai-attachment-e",
+   "title": "State of Oregon Responsible AI Usage Policy: User Feedback",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-ai-attachment-e.md"
+  },
+  {
+   "id": "or-eis-ai-attachment-f",
+   "title": "State of Oregon Responsible AI Usage Policy: Human in the loop documentation",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-ai-attachment-f.md"
+  },
+  {
+   "id": "or-eis-ai-attachment-g",
+   "title": "State of Oregon Responsible AI Usage Policy: Higher-risk use cases requirements",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-ai-attachment-g.md"
+  },
+  {
+   "id": "or-eis-memo-20220812-cloud",
+   "title": "EIS Mandatory Cloud Services",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-memo-20220812-cloud.md"
+  },
+  {
+   "id": "or-eis-memo-20230518-personal-devices",
+   "title": "Use of Personal Devices and Statewide Policy 50.050.01 - Working Remotely",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-memo-20230518-personal-devices.md"
+  },
+  {
+   "id": "or-eis-memo-20230713-zscaler",
+   "title": "Enterprise Zscaler Implementation",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-memo-20230713-zscaler.md"
+  },
+  {
+   "id": "or-eis-memo-20241028-css-directive",
+   "title": "Cyber Security Services Directive: Strengthening Cybersecurity of the State Enterprise",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-memo-20241028-css-directive.md"
+  },
+  {
+   "id": "or-eis-memo-20250212-deepseek",
+   "title": "Blocking Access to DeepSeek AI on State Resources",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-memo-20250212-deepseek.md"
+  },
+  {
+   "id": "or-eis-privacy-guidance",
+   "title": "Privacy Guidance for the handling and protection of personal information by state of Oregon agencies",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-privacy-guidance.md"
+  },
+  {
+   "id": "or-eis-it-control-standards",
+   "title": "Statewide Information Technology (IT) Control Standards",
+   "doc_type": "standard",
+   "path": "standards/oregon/or-eis-it-control-standards.md"
+  },
+  {
+   "id": "or-open-data-standard",
+   "title": "Oregon's Open Data Standard",
+   "doc_type": "standard",
+   "path": "standards/oregon/or-open-data-standard.md"
+  }
+ ],
  "edges": []
 }

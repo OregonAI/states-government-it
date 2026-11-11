@@ -28,6 +28,7 @@ sources:
 
   # ---- Statute: Oregon Revised Statutes
   - id: or-ors-276a
+    sha256: "0e26bc1b159f6bf4cf639a7bfaabfebcc6971fb3d78de4147ccc8925b142a663"
     url: https://www.oregonlegislature.gov/bills_laws/ors/ors276A.html
     format: html
     citation: ORS chapter 276A
@@ -48,6 +49,7 @@ sources:
 
   # ---- Administrative rules: OAR chapter 128, Office of the State CIO (division 10, broadband, is left out)
   - id: or-oar-128-20
+    sha256: "cba43395b02555e6fdb6e332e707d7804e1bfae3e7d7381a502fc6cfb3dedce7"
     url: https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=8261
     format: html
     citation: OAR chapter 128, division 20
@@ -60,6 +62,7 @@ sources:
     why_relevant: Criteria and process by which the State CIO designates covered vendors whose products
       are barred from state IT assets (implements ORS 276A.340-276A.348).
   - id: or-oar-128-30
+    sha256: "fff2bf6fad924507da6d92c3cd48b24bd3323a8b1a292e870828766adf3821c5"
     url: https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=9346
     format: html
     citation: OAR chapter 128, division 30
@@ -72,6 +75,7 @@ sources:
     why_relevant: Government-wide information security rules adopted under ORS 182.122 (purpose, definitions,
       State Information Security); renumbered from OAR 125-800 effective 2026-05-01.
   - id: or-oar-128-40
+    sha256: "8ffc7ba05db177cbc77d3a02b0e1922ff2cff7f67dd037aafe36386ca3aa186b"
     url: https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=9347
     format: html
     citation: OAR chapter 128, division 40
@@ -84,6 +88,7 @@ sources:
     why_relevant: Enterprise GIS software standard for state agencies (OAR 128-040-0005), an IT standard
       binding on executive branch agencies.
   - id: or-oar-128-50
+    sha256: "1bf1615d841851e2c7a45e035d820b359f8d08e9efbc2bf80ef73968820fbd87"
     url: https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=9348
     format: html
     citation: OAR chapter 128, division 50
@@ -147,6 +152,7 @@ sources:
 
   # ---- Statewide IT policies and procedures (State CIO policy library; DAS statewide policy numbers 107-004)
   - id: or-das-107-004-010
+    sha256: "2fd5cd7efcca59b9f547f280e91059854032068301824015584566f84fca868c"
     url: https://www.oregon.gov/das/Policies/107-004-010.pdf
     format: pdf
     citation: Statewide Policy 107-004-010
@@ -159,6 +165,7 @@ sources:
     why_relevant: Agencies run IT asset management programs and report IT asset and planned-investment information
       to the State CIO.
   - id: or-das-107-004-015
+    sha256: "fc2c0caf3fca55d85f363800c7fc35ddd1957edac51aee214f87ed6d416154f3"
     url: https://www.oregon.gov/das/Policies/107-004-015.pdf
     format: pdf
     citation: Statewide Policy 107-004-015
@@ -170,6 +177,7 @@ sources:
     recheck: monthly
     why_relevant: Internal controls agencies apply to managing mobile communications devices.
   - id: or-das-107-004-015-pr
+    sha256: "adc8eb3aa4eedb4302a154f6d703e3aaa7de56a69da49385e2771418ac3ff992"
     url: https://www.oregon.gov/das/Policies/107-004-015_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-015_PR
@@ -181,6 +189,7 @@ sources:
     recheck: monthly
     why_relevant: Procedure implementing statewide policy 107-004-015.
   - id: or-das-107-004-030
+    sha256: "83faee7475887f5e61e5c2b6331fcc185dbdf264828fa50324ba55fd78aed46f"
     url: https://www.oregon.gov/das/Policies/107-004-030.pdf
     format: pdf
     citation: Statewide Policy 107-004-030
@@ -192,6 +201,7 @@ sources:
     recheck: monthly
     why_relevant: Requires independent quality management services on state IT initiatives.
   - id: or-das-107-004-030-pr
+    sha256: "52e4484a528d0f10b451d2b5bbfdb97665b73b4ba12442a084502b37a11791c0"
     url: https://www.oregon.gov/das/Policies/107-004-030_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-030_PR
@@ -203,6 +213,7 @@ sources:
     recheck: monthly
     why_relevant: Procedure implementing statewide policy 107-004-030.
   - id: or-das-107-004-050
+    sha256: "2eecf7b9e2027c4fe8e342d109daf921a727a361ed2f94f82b4bc0a89b6085ff"
     url: https://www.oregon.gov/das/Policies/107-004-050.pdf
     format: pdf
     citation: Statewide Policy 107-004-050
@@ -229,6 +240,7 @@ sources:
     why_relevant: Agencies must physically control and protect portable and removable storage devices and
       the sensitive information on them.
   - id: or-das-107-004-052
+    sha256: "cd45fb18094f59b9daf13d7149cecb1be8a0ee78f05d0fda9804dc44cb92262e"
     url: https://www.oregon.gov/das/Policies/107-004-052.pdf
     format: pdf
     citation: Statewide Policy 107-004-052
@@ -240,6 +252,7 @@ sources:
     recheck: monthly
     why_relevant: The unified statewide cyber and information security program, effective 2026-10-01.
   - id: or-das-107-004-052-pr
+    sha256: "1ac81c1d6606b4a00eae0e2c1a2fd3adac3dd939f39fb19de34949acaef5e3e8"
     url: https://www.oregon.gov/das/Policies/107-004-052_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-052_PR
@@ -280,6 +293,7 @@ sources:
       2026-11-10); the toolkit has no OCR and rejects stub documents, so no text can be mirrored.
     why_relevant: Security controls for transporting sensitive information assets (physical media).
   - id: or-das-107-004-110
+    sha256: "00e49c9b62ac8b2506b66162e3397e956c383864b40faf3850d1052b32ec3507"
     url: https://www.oregon.gov/das/Policies/107-004-110.pdf
     format: pdf
     citation: Statewide Policy 107-004-110
@@ -291,6 +305,7 @@ sources:
     recheck: monthly
     why_relevant: Acceptable use of state information assets by employees.
   - id: or-das-107-004-120
+    sha256: "7366e8d8d35944f244059a9fe19fe80b4492175ba8c3c26d89e539801aa3ecca"
     url: https://www.oregon.gov/das/Policies/107-004-120.pdf
     format: pdf
     citation: Statewide Policy 107-004-120
@@ -302,6 +317,7 @@ sources:
     recheck: monthly
     why_relevant: Statewide incident response requirements for cyber and information security incidents.
   - id: or-das-107-004-130
+    sha256: "568bd14254181080759ae703a5c134e9681c568b1e98a7ac9316763a37600116"
     url: https://www.oregon.gov/das/Policies/107-004-130.pdf
     format: pdf
     citation: Statewide Policy 107-004-130
@@ -313,6 +329,7 @@ sources:
     recheck: monthly
     why_relevant: State CIO oversight of agency IT investments.
   - id: or-das-107-004-130-pr
+    sha256: "dfe75be5c5c475e3679023486131d01fecd3867897c301d4e1c6282652b95187"
     url: https://www.oregon.gov/das/Policies/107-004-130_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-130_PR
@@ -324,6 +341,7 @@ sources:
     recheck: monthly
     why_relevant: Procedure implementing statewide policy 107-004-130.
   - id: or-das-107-004-140
+    sha256: "f24caa2502eaa2b59e3fa46d728b858bdd1feb4120083d22c9d03789f34ec092"
     url: https://www.oregon.gov/das/Policies/107-004-140.pdf
     format: pdf
     citation: Statewide Policy 107-004-140
@@ -335,6 +353,7 @@ sources:
     recheck: monthly
     why_relevant: Controls on privileged access to state information systems.
   - id: or-das-107-004-150
+    sha256: "e0bf3b473f05c784972305b6772c574f42c4b6bb64aa66c6fce14951696fdd4a"
     url: https://www.oregon.gov/das/Policies/107-004-150.pdf
     format: pdf
     citation: Statewide Policy 107-004-150
@@ -347,6 +366,7 @@ sources:
     why_relevant: Requirements for agency use of cloud and hosted systems. (A draft revision, 'Cloud Security',
       is out for comment on the EIS page; the in-force version is this one.)
   - id: or-das-107-004-150-pr
+    sha256: "cf26d8a220476c9a35a080ccf77b61955001cb2b2bc9d98f2d0b7dfa4915ae0d"
     url: https://www.oregon.gov/das/Policies/107-004-150_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-150_PR
@@ -358,6 +378,7 @@ sources:
     recheck: monthly
     why_relevant: Procedure implementing statewide policy 107-004-150.
   - id: or-das-107-004-155
+    sha256: "280802e64265b8805e68ffee51f5c3b0ac9a935b624cc176d08d8dbf770ec289"
     url: https://www.oregon.gov/das/Policies/107-004-155.pdf
     format: pdf
     citation: Statewide Policy 107-004-155
@@ -370,6 +391,7 @@ sources:
     why_relevant: Prohibits covered products and vendors on state IT assets (implements ORS 276A.340-276A.348
       and OAR 128-020), effective 2026-01-01.
   - id: or-das-107-004-155-pr
+    sha256: "9fc6eadd7fb652e833d97e53363e666f1c24eb5d003161e1a492cdabe19013bd"
     url: https://www.oregon.gov/das/Policies/107-004-155_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-155_PR
@@ -381,6 +403,7 @@ sources:
     recheck: monthly
     why_relevant: Procedure implementing statewide policy 107-004-155.
   - id: or-das-107-004-160
+    sha256: "376c9d904f247f2b9641b016ef863f6ea850d1638cf3b24b8b2a53b212256d9c"
     url: https://www.oregon.gov/das/Policies/107-004-160.pdf
     format: pdf
     citation: Statewide Policy 107-004-160
@@ -392,6 +415,7 @@ sources:
     recheck: monthly
     why_relevant: Statewide data governance requirements for agencies.
   - id: or-das-107-004-180
+    sha256: "7913957b573b326003f2e8069244637eef756464bb22fbc602f6735ff9b391c5"
     url: https://www.oregon.gov/das/Policies/107-004-180.pdf
     format: pdf
     citation: Statewide Policy 107-004-180
@@ -404,6 +428,7 @@ sources:
     why_relevant: Requirements for agencies requesting IT budget and project funding, with prioritization
       (implements ORS 276A.203 and SB 1090 (2025)).
   - id: or-das-107-004-180-pr
+    sha256: "eab7bc4e2d1aac7d5b506352dc7ab9baaac403869ab18d0eee904f0f4cf2852d"
     url: https://www.oregon.gov/das/Policies/107-004-180_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-180_PR
@@ -415,6 +440,7 @@ sources:
     recheck: monthly
     why_relevant: Procedure implementing statewide policy 107-004-180.
   - id: or-das-107-004-190
+    sha256: "5d8d362f0362c15de830dd5b0f925d40e38e570833af9901addc92b70b2eef61"
     url: https://www.oregon.gov/das/Policies/107-004-190.pdf
     format: pdf
     citation: Statewide Policy 107-004-190
@@ -426,6 +452,7 @@ sources:
     recheck: monthly
     why_relevant: Statewide policy on agency use of AI, effective 2026-06-16.
   - id: or-das-107-004-190-pr
+    sha256: "52c81664be8435019fc027cf3872246791b0ef5b3fbc5dba6844776847c19305"
     url: https://www.oregon.gov/das/Policies/107-004-190_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-190_PR
@@ -437,6 +464,7 @@ sources:
     recheck: monthly
     why_relevant: Procedure implementing statewide policy 107-004-190.
   - id: or-das-107-004-200
+    sha256: "d5fceab5ce38237f6650249ebc17b7ff641de0476c63bceba16015825d4e9c03"
     url: https://www.oregon.gov/das/Policies/107-004-200.pdf
     format: pdf
     citation: Statewide Policy 107-004-200
@@ -448,6 +476,7 @@ sources:
     recheck: monthly
     why_relevant: Statewide policy on general use of Microsoft Copilot by agencies, effective 2026-06-16.
   - id: or-das-107-004-200-pr
+    sha256: "6627314d7308e002d05f617c991d1b227305dd0a44cb3525060dbe7b71a0f034"
     url: https://www.oregon.gov/das/Policies/107-004-200_PR.pdf
     format: pdf
     citation: Statewide Procedure 107-004-200_PR
@@ -461,6 +490,7 @@ sources:
 
   # ---- Statewide standards and guidance
   - id: or-eis-it-control-standards
+    sha256: "16985315fc10c902762c51c2a13e78eaf104ac6d6c58cc96eae4cbfdcd698d2a"
     url: https://www.oregon.gov/eis/cyber-security-services/Documents/eis-css-statewide-information-technology%28IT%29-control-standards.pdf
     format: pdf
     citation: Statewide Information Technology (IT) Control Standards (January 2024)
@@ -473,6 +503,7 @@ sources:
     why_relevant: The statewide IT security control standards agencies must meet; listed under Statewide
       Standards on the EIS policy page.
   - id: or-open-data-standard
+    sha256: "23bf7d53f0387c340f0b85e173ca1ef56b1b015253b8e68fd13bfa29bda3ac9b"
     url: https://data.oregon.gov/api/views/ewk6-d856/files/f1e5e94c-324f-4508-9e71-4e5bb278a3b3?download=true&filename=Final%20Open%20Data%20Standard%2020210128.pdf
     format: pdf
     citation: Oregon's Open Data Standard (2021)
@@ -486,9 +517,10 @@ sources:
       Statewide Standards on the EIS policy page; the page there links the data.oregon.gov asset, whose
       PDF is the file at this URL (asset ewk6-d856, file named 'Final Open Data Standard 20210128.pdf').
   - id: or-eis-privacy-guidance
+    sha256: "2223e93d302ff9f45c4f1f8c5bc539a2eb12653ec5315e371f383b1e42d72a06"
     url: https://www.oregon.gov/eis/EIS%20Guidance%20Documents/EIS%20-%20Final%20Enterprise_Privacy_Guidance_5.20.26sag.pdf
     format: pdf
-    citation: EIS Privacy Guidance (5.20.26)
+    citation: EIS Privacy Guidance (5/29/2026)
     title: Privacy Guidance for the handling and protection of personal information by state of Oregon agencies
     doc_type: policy
     jurisdiction: oregon
@@ -501,6 +533,7 @@ sources:
 
   # ---- Supporting attachments to the Responsible AI Usage Policy (107-004-190); attachments A and C are blank templates and are left out
   - id: or-eis-ai-attachment-b
+    sha256: "c0078206890a0a5acaa8c13091c9aa18d63347617d3d013b67c0ae0869145f42"
     url: https://www.oregon.gov/eis/Documents/Attachment-B-AI-Risk-Management-Framework.pdf
     format: pdf
     citation: 'Statewide Policy 107-004-190, Attachment B: AI Risk Management Framework'
@@ -513,6 +546,7 @@ sources:
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
   - id: or-eis-ai-attachment-d
+    sha256: "2d2a8b6ea554861f7463acb348e9fb638d6da68a849192ef5868cc1f9b0e2a8a"
     url: https://www.oregon.gov/eis/Documents/Attachment-D-User-Disclosure.pdf
     format: pdf
     citation: 'Statewide Policy 107-004-190, Attachment D: User Disclosure'
@@ -525,6 +559,7 @@ sources:
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
   - id: or-eis-ai-attachment-e
+    sha256: "e51c8bd387abece39d81cf71cbf0e560df9c4d8db21662d50567a33072eae93c"
     url: https://www.oregon.gov/eis/Documents/Attachment-E-User-Feedback.pdf
     format: pdf
     citation: 'Statewide Policy 107-004-190, Attachment E: User Feedback'
@@ -537,6 +572,7 @@ sources:
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
   - id: or-eis-ai-attachment-f
+    sha256: "58898b40bc73ee4762e2f520b2cd14713bed48e8936efddf2972d483d1f4ec7d"
     url: https://www.oregon.gov/eis/Documents/Attachment-F-Human-in-the-Loop%20Documentation.pdf
     format: pdf
     citation: 'Statewide Policy 107-004-190, Attachment F: Human in the Loop Documentation'
@@ -549,6 +585,7 @@ sources:
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
   - id: or-eis-ai-attachment-g
+    sha256: "0c78535ede45808aeb34ee40e80742aaebfc17b73121fa1471201665b64442eb"
     url: https://www.oregon.gov/eis/Documents/Attachment-G-Higher-Risk-Use-Cases-Requirements.pdf
     format: pdf
     citation: 'Statewide Policy 107-004-190, Attachment G: Higher-risk Use Cases Requirements'
@@ -563,6 +600,7 @@ sources:
 
   # ---- Statewide IT policies and procedures (State CIO policy library; DAS statewide policy numbers 107-004)
   - id: or-eis-107-004-180-budget-categories
+    sha256: "5800e7fbd9b7331593c5ee8db068a9053c7023cc0fc262f4de4cba20d18a7dee"
     url: https://www.oregon.gov/eis/Documents/eis-107-004-180-PR-budgetcategorydescriptions.pdf
     format: pdf
     citation: Statewide Procedure 107-004-180_PR, Budget Category Descriptions
@@ -594,6 +632,7 @@ sources:
       107-004-052 to allow procurement to continue. Probably overtaken by the 2026-10-01 version of the
       policy; owner to confirm.
   - id: or-eis-memo-20250212-deepseek
+    sha256: "be250ed6d0533f0616a4423b83d4bba5f8eb18d704698c26063f892a7a19da4f"
     url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/CSS%20Memo%20DeepSeek%20AI.pdf
     format: pdf
     citation: Cyber Security Services Memorandum, 2025-02-12
@@ -607,6 +646,7 @@ sources:
       The memo header carries 'TLP Amber - Restricted Security Information' although the EIS page publishes
       it.
   - id: or-eis-memo-20241028-css-directive
+    sha256: "0c476dca82f0f5d62b48015ad067cb0c095cfce9ce247e7fa3d6301a3cfc2f3a"
     url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/CSS%20DIRECTIVE%20-%20Strengthening%20Cybersecurity%20of%20the%20State%20Enterprise.pdf
     format: pdf
     citation: Cyber Security Services Memorandum, 2024-10-28
@@ -618,6 +658,7 @@ sources:
     recheck: monthly
     why_relevant: CSS directive requiring enterprise-wide security tooling across agencies.
   - id: or-eis-memo-20230713-zscaler
+    sha256: "61ab22e1c8a694a36ceb6d9db695b3397b4c56878af435d1ee4d97bf2cdc309d"
     url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-memo-enterprise-zscaler-implementation-20230713.pdf
     format: pdf
     citation: State CISO Memorandum, 2023-07-13
@@ -630,6 +671,7 @@ sources:
     why_relevant: Sets zero-trust network access as one enterprise implementation managed by Cyber Security
       Services and holds agency-level plans.
   - id: or-eis-memo-20230518-personal-devices
+    sha256: "13b17a8a23c99286d8afb442bbf1a5f0efb9cfe24b906f2a7de1eb075ecfd0f1"
     url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-telework-and-personal-devices-20220518.pdf
     format: pdf
     citation: DAS Director and State CIO Memorandum, 2023-05-18
@@ -642,6 +684,7 @@ sources:
     why_relevant: Directive that state business not be conducted on personal devices (BYOD) and why. The
       URL file name says 2022 but the memo is dated May 18, 2023, matching the EIS page.
   - id: or-eis-memo-20220812-cloud
+    sha256: "8183346b1a4332aa3ec9fa62a1a0de2a1e3d603fd5cf6a546bfcd7daa02c9837"
     url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-memo-cloud-strategy-utilization-20220812.pdf
     format: pdf
     citation: State CIO Memorandum, 2022-08-12
