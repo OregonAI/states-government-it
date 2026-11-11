@@ -1,0 +1,868 @@
+# Oregon seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+sources:
+
+  # ---- Statute: Oregon Revised Statutes
+  - id: or-ors-276a
+    sha256: "0e26bc1b159f6bf4cf639a7bfaabfebcc6971fb3d78de4147ccc8925b142a663"
+    url: https://www.oregonlegislature.gov/bills_laws/ors/ors276A.html
+    format: html
+    citation: ORS chapter 276A
+    title: Chapter 276A - Information Technology (2025 Edition)
+    doc_type: statute
+    jurisdiction: oregon
+    issuing_body: Oregon Legislative Assembly; published by the Legislative Counsel Committee
+    tags: [governance, oversight, funding, procurement, cybersecurity, data, ai, digital-services, cloud-resilience]
+    recheck: monthly
+    why_relevant: 'The State CIO enabling statute (276A.200-276A.209: State CIO, oversight of state IT,
+      State Information Technology Operating Fund) and the cybersecurity statutes (276A.300-276A.335 information
+      systems security; 276A.550-276A.575 Oregon Cybersecurity Center of Excellence and Oregon Cybersecurity
+      Advisory Council), plus IT quality management (276A.223), funding request review (276A.226) and enterprise
+      IT strategy and portfolio oversight (276A.230-276A.242), covered products on state IT assets incl.
+      AI (276A.340-276A.348), open data and Chief Data Officer (276A.350-276A.374), Electronic Government
+      Portal (276A.270-276A.276) and GIS (276A.500-276A.515). The source serves the whole chapter as one
+      page, so the broadband sections (276A.400-276A.424, out of scope) come with it.'
+
+  # ---- Administrative rules: OAR chapter 128, Office of the State CIO (division 10, broadband, is left out)
+  - id: or-oar-128-20
+    sha256: "cba43395b02555e6fdb6e332e707d7804e1bfae3e7d7381a502fc6cfb3dedce7"
+    url: https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=8261
+    format: html
+    citation: OAR chapter 128, division 20
+    title: State Information Technology Asset Protection - Covered Vendors
+    doc_type: rule
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Office of the State Chief Information Officer
+    tags: [cybersecurity, procurement]
+    recheck: monthly
+    why_relevant: Criteria and process by which the State CIO designates covered vendors whose products
+      are barred from state IT assets (implements ORS 276A.340-276A.348).
+  - id: or-oar-128-30
+    sha256: "fff2bf6fad924507da6d92c3cd48b24bd3323a8b1a292e870828766adf3821c5"
+    url: https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=9346
+    format: html
+    citation: OAR chapter 128, division 30
+    title: State Information Security
+    doc_type: rule
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Office of the State Chief Information Officer
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: Government-wide information security rules adopted under ORS 182.122 (purpose, definitions,
+      State Information Security); renumbered from OAR 125-800 effective 2026-05-01.
+  - id: or-oar-128-40
+    sha256: "8ffc7ba05db177cbc77d3a02b0e1922ff2cff7f67dd037aafe36386ca3aa186b"
+    url: https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=9347
+    format: html
+    citation: OAR chapter 128, division 40
+    title: Geographic Information
+    doc_type: rule
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Office of the State Chief Information Officer
+    tags: [data, governance]
+    recheck: monthly
+    why_relevant: Enterprise GIS software standard for state agencies (OAR 128-040-0005), an IT standard
+      binding on executive branch agencies.
+  - id: or-oar-128-50
+    sha256: "1bf1615d841851e2c7a45e035d820b359f8d08e9efbc2bf80ef73968820fbd87"
+    url: https://secure.sos.state.or.us/oard/displayDivisionRules.action?selectedDivision=9348
+    format: html
+    citation: OAR chapter 128, division 50
+    title: Identity Authentication/Electronic Signatures
+    doc_type: rule
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Office of the State Chief Information Officer
+    tags: [digital-services]
+    recheck: monthly
+    why_relevant: Guidelines for state agency use of electronic signatures and identity authentication (OAR
+      128-050-0005).
+
+  # ---- Executive orders (Governor's order list; EO 23-26 and 26-26 are scans read by OCR, EO 16-13 is a stub: its OCR failed the figure gate)
+  - id: or-eo-16-13
+    sha256: "c98a066e73ac17694ad74204e2122fee7871761fd822acf8aba1ac10486e2f2c"
+    url: https://www.oregon.gov/gov/eo/eo_16-13.pdf
+    format: pdf
+    citation: Executive Order No. 16-13
+    title: Unifying Cyber Security in Oregon
+    doc_type: executive_order
+    jurisdiction: oregon
+    issuing_body: Office of the Governor
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "A scan with no text layer, read 2026-11-11 by the two-engine OCR procedure and NOT promoted: the engines agree on the words (0.985) but on only 75% of the 23 figures (tesseract's default layout) or 81% (page-segmentation mode 4), under the 90% bar. Tesseract drops the order's paragraph numbers 1-7 (a stray '1' and 'i)' precede seven unnumbered paragraphs, while the body cites 'section 1' and 'section 4'), reads 'section 1' as 'section |', the signing day as '[1b aay' (paddle: '12 hday') and the signature as 'AAb 4'; the operative text would be wrong, so no text is committed. Reopens when a reading passes the figure bar (a third engine such as docTR as tiebreaker, or a human transcription the owner supplies)."
+    why_relevant: Directs the transfer of executive department IT security functions to the Office of the
+      State CIO. Listed on the Governor's order list; no rescission found.
+  - id: or-eo-23-26
+    sha256: "3db63b4d46ef7d8a4c7ebef795f26c2078f49f27bc33a5bb329321a4014a63c4"
+    url: https://www.oregon.gov/gov/eo/eo-23-26.pdf
+    format: pdf
+    citation: Executive Order No. 23-26
+    title: Establishing a State Government Artificial Intelligence Advisory Council
+    doc_type: executive_order
+    jurisdiction: oregon
+    issuing_body: Office of the Governor
+    tags: [ai, governance]
+    recheck: monthly
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    why_relevant: 'Governor''s order on government use of AI: establishes the State Government AI Advisory
+      Council to recommend an action plan. Whether it remains operative is for the owner to judge; it is
+      on the Governor''s list and not marked rescinded.'
+  - id: or-eo-26-26
+    sha256: "d8e7844995a197f883d8940a40923ef71656c193cf5b9659828e5d7e36fb28f4"
+    url: https://www.oregon.gov/gov/eo/eo%2026-26.pdf
+    format: pdf
+    citation: Executive Order No. 26-26
+    title: Establishing Responsible Artificial Intelligence Procurement Standards for State Government
+    doc_type: executive_order
+    jurisdiction: oregon
+    issuing_body: Office of the Governor
+    tags: [ai, procurement]
+    recheck: monthly
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    why_relevant: Governor's order setting state policy to buy or use frontier AI models that have had independent
+      third-party safety review and directing the State CIO to propose implementation. Listed on the Governor's
+      order list (item modified 2026-09-24).
+
+  # ---- Statewide IT policies and procedures (State CIO policy library; DAS statewide policy numbers 107-004)
+  - id: or-das-107-004-010
+    sha256: "2fd5cd7efcca59b9f547f280e91059854032068301824015584566f84fca868c"
+    url: https://www.oregon.gov/das/Policies/107-004-010.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-010
+    title: Information Technology Asset Inventory and Management
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [oversight, governance]
+    recheck: monthly
+    why_relevant: Agencies run IT asset management programs and report IT asset and planned-investment information
+      to the State CIO.
+  - id: or-das-107-004-015
+    sha256: "fc2c0caf3fca55d85f363800c7fc35ddd1957edac51aee214f87ed6d416154f3"
+    url: https://www.oregon.gov/das/Policies/107-004-015.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-015
+    title: Mobile Communications Devices, Internal Controls for Managing Policy
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [governance, cybersecurity]
+    recheck: monthly
+    why_relevant: Internal controls agencies apply to managing mobile communications devices.
+  - id: or-das-107-004-015-pr
+    sha256: "adc8eb3aa4eedb4302a154f6d703e3aaa7de56a69da49385e2771418ac3ff992"
+    url: https://www.oregon.gov/das/Policies/107-004-015_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-015_PR
+    title: Mobile Communications Devices, Internal Controls for Managing Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [governance, cybersecurity]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-015.
+  - id: or-das-107-004-030
+    sha256: "83faee7475887f5e61e5c2b6331fcc185dbdf264828fa50324ba55fd78aed46f"
+    url: https://www.oregon.gov/das/Policies/107-004-030.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-030
+    title: Independent Quality Management Services for IT Initiatives Policy
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [oversight]
+    recheck: monthly
+    why_relevant: Requires independent quality management services on state IT initiatives.
+  - id: or-das-107-004-030-pr
+    sha256: "52e4484a528d0f10b451d2b5bbfdb97665b73b4ba12442a084502b37a11791c0"
+    url: https://www.oregon.gov/das/Policies/107-004-030_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-030_PR
+    title: Independent Quality Management Services for IT Initiatives Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [oversight]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-030.
+  - id: or-das-107-004-050
+    sha256: "2eecf7b9e2027c4fe8e342d109daf921a727a361ed2f94f82b4bc0a89b6085ff"
+    url: https://www.oregon.gov/das/Policies/107-004-050.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-050
+    title: Information Asset Classification
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [data, cybersecurity]
+    recheck: monthly
+    why_relevant: Classification of state information assets by sensitivity level.
+  - id: or-das-107-004-051
+    sha256: "62c3d544ea18704207b2ba0e28e52046baad7085f499d66398bddb61815b5284"
+    url: https://www.oregon.gov/das/Policies/107-004-051.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-051
+    title: Controlling Portable and Removable Storage Devices
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity]
+    recheck: monthly
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    ocr_psm: 4   # tesseract page-segmentation mode 4: the label column (POLICY/PURPOSE, AUTHORITY...) stays beside its text
+    why_relevant: Agencies must physically control and protect portable and removable storage devices and
+      the sensitive information on them.
+  - id: or-das-107-004-052
+    sha256: "cd45fb18094f59b9daf13d7149cecb1be8a0ee78f05d0fda9804dc44cb92262e"
+    url: https://www.oregon.gov/das/Policies/107-004-052.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-052
+    title: Cyber and Information Security Policy
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: The unified statewide cyber and information security program, effective 2026-10-01.
+  - id: or-das-107-004-052-pr
+    sha256: "1ac81c1d6606b4a00eae0e2c1a2fd3adac3dd939f39fb19de34949acaef5e3e8"
+    url: https://www.oregon.gov/das/Policies/107-004-052_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-052_PR
+    title: Cyber and Information Security Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-052, effective 2026-10-01.
+  - id: or-das-107-004-053
+    sha256: "d638bb6ac81fac9cc1c6aa513d81759871e39525c3aec72dd57e723c7d03f323"
+    url: https://www.oregon.gov/das/Policies/107-004-053.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-053
+    title: Employee Security
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity]
+    recheck: monthly
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    ocr_psm: 4   # tesseract page-segmentation mode 4: the label column (POLICY/PURPOSE, AUTHORITY...) stays beside its text
+    why_relevant: Agency policy requirements for personnel screening, access removal and awareness training
+      to protect information assets.
+  - id: or-das-107-004-100
+    sha256: "b6a43762ffdbfac021c4c6fc1cdc56e0af3dc0394d90bab8cdb87b44231961d7"
+    url: https://www.oregon.gov/das/Policies/107-004-100.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-100
+    title: Transporting Information Assets
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity, data]
+    recheck: monthly
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+    ocr_psm: 4   # tesseract page-segmentation mode 4: the label column (POLICY/PURPOSE, AUTHORITY...) stays beside its text
+    why_relevant: Security controls for transporting sensitive information assets (physical media).
+  - id: or-das-107-004-110
+    sha256: "00e49c9b62ac8b2506b66162e3397e956c383864b40faf3850d1052b32ec3507"
+    url: https://www.oregon.gov/das/Policies/107-004-110.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-110
+    title: Acceptable Use of State Information Assets
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: Acceptable use of state information assets by employees.
+  - id: or-das-107-004-120
+    sha256: "7366e8d8d35944f244059a9fe19fe80b4492175ba8c3c26d89e539801aa3ecca"
+    url: https://www.oregon.gov/das/Policies/107-004-120.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-120
+    title: Cyber and Information Security Incident Response
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity]
+    recheck: monthly
+    why_relevant: Statewide incident response requirements for cyber and information security incidents.
+  - id: or-das-107-004-130
+    sha256: "568bd14254181080759ae703a5c134e9681c568b1e98a7ac9316763a37600116"
+    url: https://www.oregon.gov/das/Policies/107-004-130.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-130
+    title: Information Technology Investment Oversight
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [oversight, funding]
+    recheck: monthly
+    why_relevant: State CIO oversight of agency IT investments.
+  - id: or-das-107-004-130-pr
+    sha256: "dfe75be5c5c475e3679023486131d01fecd3867897c301d4e1c6282652b95187"
+    url: https://www.oregon.gov/das/Policies/107-004-130_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-130_PR
+    title: Information Technology Investment Oversight Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [oversight, funding]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-130.
+  - id: or-das-107-004-140
+    sha256: "f24caa2502eaa2b59e3fa46d728b858bdd1feb4120083d22c9d03789f34ec092"
+    url: https://www.oregon.gov/das/Policies/107-004-140.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-140
+    title: Privileged Access to Information Systems
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity]
+    recheck: monthly
+    no_text_pages: [4, 5, 6, 7]   # pages 4-7 are scanned images with no text layer: Attachment A (Privileged Access Request, a blank request form, pages 4-5) and Attachment B (Privileged Access Agreement with signature blocks, pages 6-7). Judged 2026-11-11, after viewing the pages, to be forms to complete and sign, so they are left out and the document carries pages 1-3 only; OWNER may overrule (the agreement's terms are text a signer accepts), which would need a page-level OCR step.
+    why_relevant: Controls on privileged access to state information systems.
+  - id: or-das-107-004-150
+    sha256: "e0bf3b473f05c784972305b6772c574f42c4b6bb64aa66c6fce14951696fdd4a"
+    url: https://www.oregon.gov/das/Policies/107-004-150.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-150
+    title: Cloud and Hosted Systems Policy with Exhibit
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    why_relevant: Requirements for agency use of cloud and hosted systems. (A draft revision, 'Cloud Security',
+      is out for comment on the EIS page; the in-force version is this one.)
+  - id: or-das-107-004-150-pr
+    sha256: "cf26d8a220476c9a35a080ccf77b61955001cb2b2bc9d98f2d0b7dfa4915ae0d"
+    url: https://www.oregon.gov/das/Policies/107-004-150_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-150_PR
+    title: Cloud and Hosted Systems Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-150.
+  - id: or-das-107-004-155
+    sha256: "280802e64265b8805e68ffee51f5c3b0ac9a935b624cc176d08d8dbf770ec289"
+    url: https://www.oregon.gov/das/Policies/107-004-155.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-155
+    title: Covered Products and Vendors Policy
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity, procurement]
+    recheck: monthly
+    why_relevant: Prohibits covered products and vendors on state IT assets (implements ORS 276A.340-276A.348
+      and OAR 128-020), effective 2026-01-01.
+  - id: or-das-107-004-155-pr
+    sha256: "9fc6eadd7fb652e833d97e53363e666f1c24eb5d003161e1a492cdabe19013bd"
+    url: https://www.oregon.gov/das/Policies/107-004-155_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-155_PR
+    title: Covered Products and Vendors Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [cybersecurity, procurement]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-155.
+  - id: or-das-107-004-160
+    sha256: "376c9d904f247f2b9641b016ef863f6ea850d1638cf3b24b8b2a53b212256d9c"
+    url: https://www.oregon.gov/das/Policies/107-004-160.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-160
+    title: Data Governance Policy
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [data, governance]
+    recheck: monthly
+    why_relevant: Statewide data governance requirements for agencies.
+  - id: or-das-107-004-180
+    sha256: "7913957b573b326003f2e8069244637eef756464bb22fbc602f6735ff9b391c5"
+    url: https://www.oregon.gov/das/Policies/107-004-180.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-180
+    title: Information Technology Readiness Policy
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [oversight, funding]
+    recheck: monthly
+    why_relevant: Requirements for agencies requesting IT budget and project funding, with prioritization
+      (implements ORS 276A.203 and SB 1090 (2025)).
+  - id: or-das-107-004-180-pr
+    sha256: "eab7bc4e2d1aac7d5b506352dc7ab9baaac403869ab18d0eee904f0f4cf2852d"
+    url: https://www.oregon.gov/das/Policies/107-004-180_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-180_PR
+    title: Information Technology Readiness Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [oversight, funding]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-180.
+  - id: or-das-107-004-190
+    sha256: "5d8d362f0362c15de830dd5b0f925d40e38e570833af9901addc92b70b2eef61"
+    url: https://www.oregon.gov/das/Policies/107-004-190.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-190
+    title: Responsible Artificial Intelligence Usage Policy
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [ai, governance]
+    recheck: monthly
+    why_relevant: Statewide policy on agency use of AI, effective 2026-06-16.
+  - id: or-das-107-004-190-pr
+    sha256: "52c81664be8435019fc027cf3872246791b0ef5b3fbc5dba6844776847c19305"
+    url: https://www.oregon.gov/das/Policies/107-004-190_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-190_PR
+    title: Responsible Artificial Intelligence Usage Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [ai, governance]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-190.
+  - id: or-das-107-004-200
+    sha256: "d5fceab5ce38237f6650249ebc17b7ff641de0476c63bceba16015825d4e9c03"
+    url: https://www.oregon.gov/das/Policies/107-004-200.pdf
+    format: pdf
+    citation: Statewide Policy 107-004-200
+    title: Copilot General Usage Policy
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [ai, cybersecurity]
+    recheck: monthly
+    why_relevant: Statewide policy on general use of Microsoft Copilot by agencies, effective 2026-06-16.
+  - id: or-das-107-004-200-pr
+    sha256: "6627314d7308e002d05f617c991d1b227305dd0a44cb3525060dbe7b71a0f034"
+    url: https://www.oregon.gov/das/Policies/107-004-200_PR.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-200_PR
+    title: Copilot General Usage Procedure
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
+    tags: [ai, cybersecurity]
+    recheck: monthly
+    why_relevant: Procedure implementing statewide policy 107-004-200.
+
+  # ---- Statewide standards and guidance
+  - id: or-eis-it-control-standards
+    sha256: "16985315fc10c902762c51c2a13e78eaf104ac6d6c58cc96eae4cbfdcd698d2a"
+    url: https://www.oregon.gov/eis/cyber-security-services/Documents/eis-css-statewide-information-technology%28IT%29-control-standards.pdf
+    format: pdf
+    citation: Statewide Information Technology (IT) Control Standards (January 2024)
+    title: Statewide Information Technology (IT) Control Standards
+    doc_type: standard
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services, Cyber Security Services
+    tags: [cybersecurity]
+    recheck: monthly
+    why_relevant: The statewide IT security control standards agencies must meet; listed under Statewide
+      Standards on the EIS policy page.
+  - id: or-open-data-standard
+    sha256: "23bf7d53f0387c340f0b85e173ca1ef56b1b015253b8e68fd13bfa29bda3ac9b"
+    url: https://data.oregon.gov/api/views/ewk6-d856/files/f1e5e94c-324f-4508-9e71-4e5bb278a3b3?download=true&filename=Final%20Open%20Data%20Standard%2020210128.pdf
+    format: pdf
+    citation: Oregon's Open Data Standard (2021)
+    title: Oregon's Open Data Standard
+    doc_type: standard
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [data]
+    recheck: monthly
+    why_relevant: Requirements for agencies publishing open data under ORS 276A.350-276A.374. Listed under
+      Statewide Standards on the EIS policy page; the page there links the data.oregon.gov asset, whose
+      PDF is the file at this URL (asset ewk6-d856, file named 'Final Open Data Standard 20210128.pdf').
+  - id: or-eis-privacy-guidance
+    sha256: "2223e93d302ff9f45c4f1f8c5bc539a2eb12653ec5315e371f383b1e42d72a06"
+    url: https://www.oregon.gov/eis/EIS%20Guidance%20Documents/EIS%20-%20Final%20Enterprise_Privacy_Guidance_5.20.26sag.pdf
+    format: pdf
+    citation: EIS Privacy Guidance (5/29/2026)
+    title: Privacy Guidance for the handling and protection of personal information by state of Oregon agencies
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [data, governance]
+    recheck: monthly
+    why_relevant: 'The only item under EIS Guidance on the EIS policy page; guidance on handling personal
+      information held by state agencies. Guidance rather than a numbered policy: the owner may prefer to
+      drop it.'
+
+  # ---- Supporting attachments to the Responsible AI Usage Policy (107-004-190); attachment A is a Word file read with pandoc; attachment C (the AI Use Form) is a form and is left out, see the left-out notes below
+  - id: or-eis-ai-attachment-a
+    sha256: "8f385d39e1ddc6eadbb8159955ee0b427c30c4be4ba61a3fbe6eb56a5fb84e5a"
+    url: https://www.oregon.gov/eis/Documents/Attachment-A-AI-Adoption-Strategy-Template.docx
+    format: docx
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: Agency AI Adoption Strategy Template and Instructions'
+    title: Agency Artificial Intelligence Adoption Strategy Template and Instructions   # as the Word file's cover text box prints it (the footer and the EIS link text abbreviate it)
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [ai, governance]
+    recheck: monthly
+    identity_text: Adoption Strategy Key Components   # a phrase the Word file itself prints; the ingester refuses bytes without it
+    why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; the instructions, required components
+      and revision history of the Agency AI Adoption Strategy the policy directs each agency to write. Judged an
+      instrument, not a blank form (it is guidance with ten required components). The attachment letter is
+      not printed in the file; it comes from the official file name (Attachment-A-...docx). The cover title
+      sits in a text box the Word reader does not read.
+  - id: or-eis-ai-attachment-b
+    sha256: "c0078206890a0a5acaa8c13091c9aa18d63347617d3d013b67c0ae0869145f42"
+    url: https://www.oregon.gov/eis/Documents/Attachment-B-AI-Risk-Management-Framework.pdf
+    format: pdf
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: AI Risk Management Framework'
+    title: 'State of Oregon Responsible AI Usage Policy: Artificial Intelligence Risk Management Framework'
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [ai]
+    recheck: monthly
+    identity_text: Risk Management Framework   # a phrase the PDF itself prints; the ingester refuses bytes without it
+    why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
+  - id: or-eis-ai-attachment-d
+    sha256: "2d2a8b6ea554861f7463acb348e9fb638d6da68a849192ef5868cc1f9b0e2a8a"
+    url: https://www.oregon.gov/eis/Documents/Attachment-D-User-Disclosure.pdf
+    format: pdf
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: Use Disclosure'
+    title: 'State of Oregon Responsible AI Usage Policy: User disclosure mechanism'
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [ai]
+    recheck: monthly
+    identity_text: User disclosure mechanism   # a phrase the PDF itself prints; the ingester refuses bytes without it
+    why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
+  - id: or-eis-ai-attachment-e
+    sha256: "e51c8bd387abece39d81cf71cbf0e560df9c4d8db21662d50567a33072eae93c"
+    url: https://www.oregon.gov/eis/Documents/Attachment-E-User-Feedback.pdf
+    format: pdf
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: User Feedback'
+    title: 'State of Oregon Responsible AI Usage Policy: User Feedback'
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [ai]
+    recheck: monthly
+    identity_text: User Feedback   # a phrase the PDF itself prints; the ingester refuses bytes without it
+    why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
+  - id: or-eis-ai-attachment-f
+    sha256: "58898b40bc73ee4762e2f520b2cd14713bed48e8936efddf2972d483d1f4ec7d"
+    url: https://www.oregon.gov/eis/Documents/Attachment-F-Human-in-the-Loop%20Documentation.pdf
+    format: pdf
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: Human in the Loop Documentation'
+    title: 'State of Oregon Responsible AI Usage Policy: Human in the loop documentation'
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [ai]
+    recheck: monthly
+    identity_text: Human in the loop documentation   # a phrase the PDF itself prints; the ingester refuses bytes without it
+    why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
+  - id: or-eis-ai-attachment-g
+    sha256: "0c78535ede45808aeb34ee40e80742aaebfc17b73121fa1471201665b64442eb"
+    url: https://www.oregon.gov/eis/Documents/Attachment-G-Higher-Risk-Use-Cases-Requirements.pdf
+    format: pdf
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: Higher-risk Use Cases Requirements'
+    title: 'State of Oregon Responsible AI Usage Policy: Higher-risk use cases requirements'
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [ai]
+    recheck: monthly
+    identity_text: Higher-risk use cases requirements   # a phrase the PDF itself prints; the ingester refuses bytes without it
+    why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; sets requirements agencies follow
+      when using AI. The attachment letter is not printed in the PDF; it comes from the official file name
+      (Attachment-X-...pdf).
+
+  # ---- Statewide IT policies and procedures (State CIO policy library; DAS statewide policy numbers 107-004)
+  - id: or-eis-107-004-180-budget-categories
+    sha256: "5800e7fbd9b7331593c5ee8db068a9053c7023cc0fc262f4de4cba20d18a7dee"
+    url: https://www.oregon.gov/eis/Documents/eis-107-004-180-PR-budgetcategorydescriptions.pdf
+    format: pdf
+    citation: Statewide Procedure 107-004-180_PR, Budget Category Descriptions
+    title: Information Technology Readiness Budget Category Descriptions
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [oversight, funding]
+    recheck: monthly
+    why_relevant: Listed in the EIS policy library under 107-004-180; defines the budget categories agencies
+      use in IT funding requests. The workbook and transmittal form in the same library are forms and are
+      left out.
+
+  # ---- State CIO directives (memos) listed under Directives on the EIS policy page
+  - id: or-eis-memo-20250212-deepseek
+    sha256: "be250ed6d0533f0616a4423b83d4bba5f8eb18d704698c26063f892a7a19da4f"
+    url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/CSS%20Memo%20DeepSeek%20AI.pdf
+    format: pdf
+    citation: Cyber Security Services Memorandum, 2025-02-12
+    title: Blocking Access to DeepSeek AI on State Resources
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [ai, cybersecurity]
+    recheck: monthly
+    why_relevant: Directs all executive branch agencies to block a named AI service on state resources.
+      The memo header carries 'TLP Amber - Restricted Security Information' although the EIS page publishes
+      it.
+  - id: or-eis-memo-20241028-css-directive
+    sha256: "0c476dca82f0f5d62b48015ad067cb0c095cfce9ce247e7fa3d6301a3cfc2f3a"
+    url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/CSS%20DIRECTIVE%20-%20Strengthening%20Cybersecurity%20of%20the%20State%20Enterprise.pdf
+    format: pdf
+    citation: Cyber Security Services Memorandum, 2024-10-28
+    title: 'Cyber Security Services Directive: Strengthening Cybersecurity of the State Enterprise'
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [cybersecurity]
+    recheck: monthly
+    why_relevant: CSS directive requiring enterprise-wide security tooling across agencies.
+  - id: or-eis-memo-20230713-zscaler
+    sha256: "61ab22e1c8a694a36ceb6d9db695b3397b4c56878af435d1ee4d97bf2cdc309d"
+    url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-memo-enterprise-zscaler-implementation-20230713.pdf
+    format: pdf
+    citation: State CISO Memorandum, 2023-07-13
+    title: Enterprise Zscaler Implementation
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    why_relevant: Sets zero-trust network access as one enterprise implementation managed by Cyber Security
+      Services and holds agency-level plans.
+  - id: or-eis-memo-20230518-personal-devices
+    sha256: "13b17a8a23c99286d8afb442bbf1a5f0efb9cfe24b906f2a7de1eb075ecfd0f1"
+    url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-telework-and-personal-devices-20220518.pdf
+    format: pdf
+    citation: DAS Director and State CIO Memorandum, 2023-05-18
+    title: Use of Personal Devices and Statewide Policy 50.050.01 - Working Remotely
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: Use of Personal Devices and Statewide Policy 50.050.01   # a phrase the PDF itself prints; the ingester refuses bytes without it
+    why_relevant: Directive that state business not be conducted on personal devices (BYOD) and why. The
+      URL file name says 2022 but the memo is dated May 18, 2023, matching the EIS page.
+  - id: or-eis-memo-20220812-cloud
+    sha256: "8183346b1a4332aa3ec9fa62a1a0de2a1e3d603fd5cf6a546bfcd7daa02c9837"
+    url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-memo-cloud-strategy-utilization-20220812.pdf
+    format: pdf
+    citation: State CIO Memorandum, 2022-08-12
+    title: EIS Mandatory Cloud Services
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [cloud-resilience, governance]
+    recheck: monthly
+    identity_text: Mandatory Cloud Services   # a phrase the PDF itself prints; the ingester refuses bytes without it
+    why_relevant: Requires agency public cloud use to go through the EIS Cloud Service unless the State
+      CIO authorizes an exception. Listed on the EIS page as 'EIS Cloud Strategy Utilization'.
+
+  # ---- Index pages to watch (additions and removals go through seed-list review)
+  - id: or-watch-eis-policies-page
+    url: https://www.oregon.gov/eis/pages/policies.aspx
+    format: html
+    citation: EIS policy page
+    title: 'Enterprise Information Services: Statewide IT Policies, Procedures, and Guidance'
+    doc_type: policy
+    jurisdiction: oregon
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: The State CIO policy page. Static HTML holds Out for Comment, Closed Comment drafts, Directives,
+      Statewide Standards and EIS Guidance; the EIS Policies table is script-rendered (see the feed entry
+      below).
+  - id: or-watch-eis-policy-list-feed
+    url: https://www.oregon.gov/eis/_api/web/GetList('%2Feis%2FLists%2FEIS%20Policy')/items?%24select=Title,Title0,fr9a,Related_x0020_Materials&%24orderby=ID&%24top=500
+    format: xml
+    citation: EIS Policy list (SharePoint REST feed)
+    title: EIS Policies table behind the EIS policy page
+    doc_type: policy
+    jurisdiction: oregon
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: The data source of the script-rendered EIS Policies table; the HTML page alone would never
+      show a policy added to it. An official oregon.gov REST endpoint, read-only, no login. Its stability
+      under repeated fetch is unproven (see the PR notes).
+  - id: or-watch-das-it-policy-list-feed
+    url: https://www.oregon.gov/das/_api/web/GetList('%2Fdas%2FPolicies')/items?%24filter=Category%20eq%20'IT'&%24select=Number,Show,Title_x0020_of_x0020_Policy,Effective_x0020_date,FileRef&%24orderby=ID&%24top=500
+    format: xml
+    citation: DAS Policies library, Category IT (SharePoint REST feed)
+    title: DAS statewide policies tagged IT
+    doc_type: policy
+    jurisdiction: oregon
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: Data source of the IT views on the DAS policies page (script-rendered). Filtered to Category
+      IT so HR, facilities and procurement churn does not raise IT reports.
+  - id: or-watch-das-policies-page
+    url: https://www.oregon.gov/das/Pages/policies.aspx
+    format: html
+    citation: DAS policies page
+    title: 'Department of Administrative Services: Policies'
+    doc_type: policy
+    jurisdiction: oregon
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: The DAS statewide policies index; its tables are script-rendered, so this page mostly
+      watches page furniture. The feed entry above carries the IT list.
+  - id: or-watch-eis-ai-page
+    url: https://www.oregon.gov/eis/privacy-and-artificial-intelligence/Pages/Artificial-Intelligence.aspx
+    format: html
+    citation: EIS Artificial Intelligence page
+    title: 'Enterprise Information Services: Artificial Intelligence'
+    doc_type: policy
+    jurisdiction: oregon
+    tags: [ai]
+    recheck: monthly
+    watch_only: true
+    why_relevant: Lists the AI policy, procedure, Copilot policy and supporting attachments A-G; additions
+      here mean a new AI instrument.
+  - id: or-watch-governor-eo-page
+    url: https://www.oregon.gov/gov/Pages/executive-orders.aspx
+    format: html
+    citation: Governor's executive orders page
+    title: Governor's Executive Orders
+    doc_type: executive_order
+    jurisdiction: oregon
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: Index of executive orders; the table is script-rendered (see the feed entry below).
+  - id: or-watch-governor-eo-list-feed
+    url: https://www.oregon.gov/gov/_api/web/GetList('%2Fgov%2Feo')/items?%24select=Order0,Document_x0020_Description,FileRef&%24orderby=ID&%24top=1000
+    format: xml
+    citation: Governor's executive order list (SharePoint REST feed)
+    title: Executive order list behind the Governor's executive orders page
+    doc_type: executive_order
+    jurisdiction: oregon
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: Data source of the executive order table (540 orders, 2003-2026 when fetched); a new order
+      or a changed description raises a review report. Large because it covers every order.
+  - id: or-watch-oar-chapter-128
+    url: https://secure.sos.state.or.us/oard/displayChapterRules.action?selectedChapter=239
+    format: html
+    citation: OAR chapter 128
+    title: Office of the State Chief Information Officer, OAR chapter 128 (rule index)
+    doc_type: rule
+    jurisdiction: oregon
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: Table of contents of OAR chapter 128; a new division or rule here is a candidate for the
+      seed list.
+
+# Found and left out: what was seen on an official page and not seeded, with the reason.
+left_out:
+- text: '---- Found and left out (each was seen on an official page on 2026-11-10; the reason is recorded here)'
+- text: |-
+    Word files read on 2026-11-11 (the ingester reads .docx with pandoc since this change):
+     - Attachment A to the Responsible AI Usage Policy, 'Agency AI Adoption Strategy Template and
+       Instructions': judged an instrument (guidance, required components, revision history) and now a
+       seed entry above.
+     - Attachment C, 'AI Use Form' (https://www.oregon.gov/eis/Documents/Attachment-C-AI-Use-Form.docx).
+       Read 2026-11-11: a form of required questions with check boxes, titled 'Information Technology
+       Investment Artificial Intelligence Use Form' and to be submitted to EIS. Judged a form, so left
+       out. OWNER DECISION: whether forms enter the corpus (the form is the only place its questions
+       are stated, so the owner may overrule).
+- text: |-
+    Forms and workbooks (forms to fill in, not instruments; owner may overrule):
+     - 107-004-130 'IT Investment Form' (https://www.oregon.gov/das/Policies/107-004-130_Attachment.docx).
+     - 107-004-150_PR 'Cloud and Hosted Systems Workbook form'
+       (https://www.oregon.gov/das/Policies/107-004-150_PR_Attachment.doc).
+     - 107-004-160 'Data Governance Plan Template' (https://www.oregon.gov/das/Policies/Data%20Governance%20Plan%20Template.docx)
+       and 'Data Governance Maturity Model' (https://www.oregon.gov/das/Policies/Data%20Governance%20Maturity%20Model.xlsx).
+     - 107-004-180 budget category workbook and transmittal form (already noted on the entry above).
+- text: |-
+    Overtaken, not in force (read by OCR 2026-11-11; two engines agree on 98% of the words):
+     - State CIO Memorandum, 2026-04-20, 'Statewide policy 107-004-052 update'
+       (https://www.oregon.gov/eis/Documents/State%20CIO%20Memo-107-004-052%2020260420.docx.pdf; a scan).
+       It says section (4), the disallowance of offshore and foreign services added to the policy 'effective
+       February 17, 2026', 'is temporarily paused to allow the continuance of procurement activities' and
+       that updates to the policy 'are in process and will be forthcoming soon'. The 2026-10-01 version of
+       107-004-052 (seeded above) prints 'SUPERSEDES: Policy #107-004-052 (2/17/2026)', carries section
+       (4) without any pause, and makes its disclosure-and-review rule effective with that policy's date,
+       October 1, 2026. The pause was of the superseded version's section, so the memo is overtaken by the
+       policy's own terms; the policy does not name the memo. Left out as not in force. OWNER: confirm with
+       EIS that the memo is withdrawn (the EIS page still listed it as a directive on 2026-11-10).
+- text: |-
+    Out of scope (not IT governance of state agencies):
+     - 107-001-016 'Mobile Communication Device Usage While Driving' (https://www.oregon.gov/das/Policies/107-001-016.pdf;
+       effective 1/1/2010 in the DAS feed; listed in both the DAS IT-category feed and the EIS policy
+       feed). By its title a rule about driving, not about IT governance; the number is in DAS's general (107-001) series.
+       OWNER DECISION: it is tagged IT by DAS, so it could enter.
+     - State CIO memo 'Enterprise Telephony System - Amendments, Changes'
+       (https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-telecom-20220223.pdf).
+       The EIS page lists it as 2022/02/23; the PDF prints 'Date: February 25, 2022'. Directs telephony
+       contract changes and exceptions; telecom service procurement is borderline out of scope.
+       OWNER DECISION.
+- text: |-
+    Drafts, not in force (the EIS policy page, 'Closed Comment Period: drafts are available until
+    approved'; the page says no policies are currently out for comment):
+     - IT Asset Management (Software) Policy 107-004-010 and IT Asset Management (Software) Procedure
+       107-004-010_software_PR (draft for comment).
+     - Cloud Security (Tracked Changes) 107-004-150 and Cloud Security Procedure 107-004-150_PR
+       (tracked-changes drafts for comment).
+     The in-force 107-004-010 and 107-004-150 policies are seeded above. When a draft is approved the
+     monthly drift run on the EIS policy page will show it.
+- text: |-
+    Executive orders, contested category (the Governor's EO feed lists both as 'Public Records'):
+     - EO 2016-6 (https://www.oregon.gov/gov/eo/eo_16-06.pdf) and EO 2018-5
+       (https://www.oregon.gov/gov/eo/eo_18-05.pdf). Public records are a records-management matter
+       rather than IT governance. OWNER DECISION: not seeded, no text read to decide.
+- text: |-
+    Statute outside chapter 276A (each page fetched from oregonlegislature.gov, 2025 Edition). All pass
+    the inclusion test as state-agency IT procurement and governance, but the ingester mirrors a whole
+    chapter per page, and each chapter is mostly unrelated law (ch. 291 about 26,000 words; ch. 279A
+    and 279B about 19,500 each). OWNER DECISION whether partial-chapter statutes enter, and how
+    (a whole-chapter mirror, or provision-level entries with oversight/procurement tags):
+     - ORS 291.032 'Providing technical services involving management and organization' and ORS 291.034
+       'Providing technical services involving data processing' (chapter 291, https://www.oregonlegislature.gov/bills_laws/ors/ors291.html).
+     - ORS 291.042 'Copyright, patent or other use of state data processing programs, information or
+       materials; disposition of moneys collected' (chapter 291).
+     - ORS 291.047 'Public contract approval by Attorney General; exemptions; rules': the Attorney General
+       approves information technology contracts calling for payment in excess of $75,000 (chapter 291).
+     - ORS 279A.050 'Procurement authority': the State CIO may review any solicitation document for
+       procuring information technology or telecommunications before it issues
+       (https://www.oregonlegislature.gov/bills_laws/ors/ors279A.html).
+     - ORS 279B.030(4): materials from a cost analysis for IT services go to the State CIO, who adopts
+       rules (https://www.oregonlegislature.gov/bills_laws/ors/ors279B.html).
+- text: OAR chapter 128 division 10 (broadband) is left out, noted at the top of the rules section.

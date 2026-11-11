@@ -111,9 +111,9 @@ def test_empty_list_fails_so_a_missing_manifest_cannot_pass():
 
 
 def test_cli_fails_on_broken_manifest(tmp_path):
-    m = tmp_path / "m.yml"
+    m = tmp_path / "oregon.yml"
     m.write_text(yaml.safe_dump({"sources": [entry(tags=["nope"])]}))
-    r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--manifest", str(m)],
+    r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--seed-dir", str(tmp_path)],
                        cwd=ROOT, capture_output=True, text=True)
     assert r.returncode == 1 and "nope" in r.stdout
 
@@ -147,9 +147,9 @@ def test_loader_rejects_duplicate_keys_at_any_level():
 
 
 def test_cli_fails_on_two_sources_blocks(tmp_path):
-    m = tmp_path / "m.yml"
+    m = tmp_path / "oregon.yml"
     m.write_text(TWO_SOURCES_BLOCKS)
-    r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--manifest", str(m)],
+    r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--seed-dir", str(tmp_path)],
                        cwd=ROOT, capture_output=True, text=True)
     assert r.returncode == 1 and "sources" in r.stdout
 
@@ -176,8 +176,8 @@ def test_california_slice_code_must_be_one_the_ingester_knows():
 
 
 def test_california_slice_codes_are_the_ingesters_codes():
-    from src import ingest
-    assert c.CA_SLICE_CODES == set(ingest.CA_CODES.values())
+    from src.states import california
+    assert c.CA_SLICE_CODES == set(california.CA_CODES.values())
 
 
 def test_a_code_slice_belongs_only_on_a_california_entry():
@@ -186,3 +186,94 @@ def test_a_code_slice_belongs_only_on_a_california_entry():
 
 def test_a_california_entry_cannot_carry_an_article_slice():
     assert any("slice" in m for m in ca_errs(ca_entry(slice={"article": "73"})))
+
+
+# ---- One seed file per state: _meta/sources/<state>.yml holds that state's entries and its left-out record ----
+
+LEFT = [{"text": "Something seen and not seeded (https://example.gov/other): the reason."}]
+
+
+def write_state(d, state, entries, left_out=LEFT, **extra):
+    doc = {"sources": entries, **extra}
+    if left_out is not None:
+        doc["left_out"] = left_out
+    (d / f"{state}.yml").write_text(yaml.safe_dump(doc))
+
+
+def seed_errs(tmp_path, domain=DOMAIN):
+    manifest, errors = c.check_seed_dir(tmp_path, domain)
+    return manifest, errors
+
+
+def test_the_states_are_the_files_in_the_seed_directory(tmp_path):
+    write_state(tmp_path, "oregon", [entry()])
+    write_state(tmp_path, "washington", [entry(id="wa-rcw-43-105", url="https://example.gov/w",
+                                               jurisdiction="washington")])
+    manifest, errors = seed_errs(tmp_path, {k: v for k, v in DOMAIN.items() if k != "states"})
+    assert errors == []
+    assert [e["id"] for e in manifest["sources"]] == ["or-ors-276a", "wa-rcw-43-105"]
+
+
+def test_a_state_file_holds_only_its_own_states_entries(tmp_path):
+    write_state(tmp_path, "oregon", [entry(jurisdiction="washington")])
+    _, errors = seed_errs(tmp_path)
+    assert any("oregon.yml" in m and "washington" in m for m in errors)
+
+
+def test_an_id_or_url_may_not_repeat_across_state_files(tmp_path):
+    write_state(tmp_path, "oregon", [entry()])
+    write_state(tmp_path, "washington", [entry(jurisdiction="washington")])
+    _, errors = seed_errs(tmp_path)
+    assert any("duplicate id" in m for m in errors) and any("duplicate url" in m for m in errors)
+
+
+def test_a_state_file_must_record_what_it_left_out(tmp_path):
+    write_state(tmp_path, "oregon", [entry()], left_out=None)
+    assert any("left_out" in m for m in seed_errs(tmp_path)[1])
+    write_state(tmp_path, "oregon", [entry()], left_out=[])
+    assert any("left_out" in m for m in seed_errs(tmp_path)[1])
+    write_state(tmp_path, "oregon", [entry()], left_out=[{"text": " "}])
+    assert any("left_out" in m for m in seed_errs(tmp_path)[1])
+    write_state(tmp_path, "oregon", [entry()], left_out=["a bare string"])
+    assert any("left_out" in m for m in seed_errs(tmp_path)[1])
+
+
+def test_an_instrument_cannot_be_both_seeded_and_left_out(tmp_path):
+    write_state(tmp_path, "oregon", [entry()],
+                left_out=[{"text": "Seen at https://example.gov/x and left out."}])
+    assert any("https://example.gov/x" in m and "left out" in m for m in seed_errs(tmp_path)[1])
+
+
+def test_left_out_text_may_not_look_like_a_key_the_toolkit_rewrites(tmp_path):
+    # corpus_toolkit.sources.manifest edits `id:` and `sha256:` lines by regex; prose that begins a
+    # line that way would be taken for an entry's key
+    for bad in ("id: or-ors-276a\nmore", "note\n- sha256: abc"):
+        write_state(tmp_path, "oregon", [entry()], left_out=[{"text": bad}])
+        assert any("id:" in m or "sha256:" in m for m in seed_errs(tmp_path)[1]), bad
+
+
+def test_an_empty_or_missing_seed_directory_fails(tmp_path):
+    _, errors = seed_errs(tmp_path)
+    assert errors
+
+
+def test_main_checks_the_directory(tmp_path):
+    write_state(tmp_path, "oregon", [entry()])
+    dom = tmp_path / "domain.yml"
+    dom.write_text(yaml.safe_dump({k: v for k, v in DOMAIN.items() if k != "states"}))
+    sd = tmp_path / "seed"
+    sd.mkdir()
+    (tmp_path / "oregon.yml").rename(sd / "oregon.yml")
+    r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--seed-dir", str(sd),
+                        "--domain", str(dom)], cwd=ROOT, capture_output=True, text=True)
+    assert r.returncode == 0 and "seed list ok: 1 entries" in r.stdout, r.stdout
+    (sd / "oregon.yml").write_text(yaml.safe_dump({"sources": [entry()]}))
+    r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--seed-dir", str(sd),
+                        "--domain", str(dom)], cwd=ROOT, capture_output=True, text=True)
+    assert r.returncode == 1 and "left_out" in r.stdout
+
+
+def test_a_watched_index_page_may_be_cited_in_the_left_out_prose(tmp_path):
+    write_state(tmp_path, "oregon", [entry(watch_only=True)],
+                left_out=[{"text": "No rules: see the index page https://example.gov/x, watched."}])
+    assert seed_errs(tmp_path)[1] == []

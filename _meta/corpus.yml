@@ -26,7 +26,7 @@ corpus:
   # not pass. `.invalid` is reserved by RFC 2606 precisely so it can never resolve, so this
   # is still unmistakably a placeholder — it just fails at the right time, when someone
   # follows it, rather than blocking the template from validating itself.
-  authoritative_source: "https://github.com/OregonAI/states-it-governance/blob/main/_meta/source-manifest.yml"  # four states, so no single official site: the manifest lists every official source
+  authoritative_source: "https://github.com/OregonAI/states-it-governance/tree/main/_meta/sources"  # many states, so no single official site: the manifest lists every official source
   schema_version: 1
   contract_version: 1
 
@@ -89,7 +89,7 @@ plugins:
 
 disclaimer_marker: "NON-AUTHORITATIVE"
 graph_path: "_meta/graph.json"
-source_manifest_path: "_meta/source-manifest.yml"
+source_manifest_path: "_meta/sources"
 snapshot_dir: "_meta/snapshots"
 
 provenance:

@@ -12,9 +12,9 @@ inclusion_test:
   - The obligated party is a state government entity, or a vendor under a state contract.
   - The subject is IT, data or AI as a government function.
 
-# Value of `jurisdiction` in every document and seed entry, and the folder name under
-# each content root.
-states: [oregon, washington, california, colorado]
+# `states` is not listed here. A state is a file in _meta/sources/ (<state>.yml): its name is the
+# value of `jurisdiction` in every document and seed entry of that state, and the folder name
+# under each content root. Adding a state adds a file; this file does not change.
 
 # doc_type values this corpus holds. Each has one content root in corpus.yml.
 instrument_types: [statute, rule, executive_order, policy, standard]
