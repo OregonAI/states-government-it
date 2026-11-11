@@ -1,0 +1,20 @@
+{
+ "format": "leginfo-pubinfo-slice/1",
+ "source": "https://downloads.leginfo.legislature.ca.gov/pubinfo_2025.zip",
+ "zip_last_modified": "Mon, 09 Nov 2026 05:26:05 GMT",
+ "slice": {
+  "code": "GOV",
+  "section": "16.5"
+ },
+ "toc_rows": [
+  "`GOV`\tNULL\tNULL\tNULL\tNULL\tNULL\t`GENERAL PROVISIONS`\t`Y`\t`LEG_ESI`\t2026-10-03 01:02:17\t1\t1\t1\t`1`\t`Y`\t` General Provisions enacted by Stats. 1943, Ch. 134. `\t`1943`\t`134`\tNULL"
+ ],
+ "sections": [
+  {
+   "toc_section_row": "`GOV16.5.20161443`\t`GOV`\t`1`\t`16.5.`\t25\t`16.5. (Amended by Stats. 2016, Ch. 144, Sec. 3.)`\t`2016`\t`144`\t`3`\t`LEG_ESI`\t2026-10-03 01:02:21\t`id_269bc1e6-bbe7-11e6-bdd8-d5db002bdb48`\t25",
+   "law_section_row": "`GOV16.5.20161443`\t`GOV`\t`16.5.`\t`2016`\t`144`\t`3`\t2017-01-01 00:00:00\t`id_269bc1e6-bbe7-11e6-bdd8-d5db002bdb48`\tNULL\tNULL\tNULL\tNULL\tNULL\t`Amended by Stats. 2016, Ch. 144, Sec. 3.   (AB 2296)   Effective January 1, 2017.`\tLAW_SECTION_TBL_77851.lob\t`Y`\t`LEG_ESI`\t2026-10-03 01:02:19",
+   "lob_member": "LAW_SECTION_TBL_77851.lob",
+   "lob": "<caml:Content xmlns:caml=\"http://lc.ca.gov/legalservices/schemas/caml.1#\"><p>(a)<span class=\"EnSpace\"/>In any written communication with a public entity, as defined in Section 811.2, in which a signature is required or used, any party to the communication may affix a signature by use of a digital signature that complies with the requirements of this section. If a public entity elects to use a digital signature, that digital signature shall have the same force and effect as the use of a manual signature if and only if it embodies all of the following attributes:</p><p>(1)<span class=\"EnSpace\"/>It is unique to the person using it.</p><p>(2)<span class=\"EnSpace\"/>It is capable of verification.</p><p>(3)<span class=\"EnSpace\"/>It is under the sole control of the person using it.</p><p>(4)<span class=\"EnSpace\"/>It is linked to data in such a manner that if the data are changed, the digital signature is invalidated.</p><p>(5)<span class=\"EnSpace\"/>It conforms to regulations adopted by the Secretary of State. Initial regulations shall be adopted no later than January 1, 1997. In developing these regulations, the secretary shall seek the advice of public and private entities, including, but not limited to, the Department of Information Technology, the California Environmental Protection Agency, and the Department of General Services. Before the secretary adopts the regulations, he or she shall hold at least one public hearing to receive comments.</p><p>(b)<span class=\"EnSpace\"/>The use or acceptance of a digital signature shall\n\t\t\t\t\t\tbe at the option of the parties. Nothing in this section shall require a public entity to use or permit the use of a digital signature.</p><p>(c)<span class=\"EnSpace\"/>Digital signatures employed pursuant to Section 71066 of the Public Resources Code are exempted from this section.</p><p>(d)<span class=\"EnSpace\"/>“Digital signature” means an electronic identifier, created by computer, intended by the party using it to have the same force and effect as the use of a manual signature. For purposes of this section, a digital signature is a type of “electronic signature” as defined in subdivision (h) of Section 1633.2 of the Civil Code.</p><p>(e)<span class=\"EnSpace\"/>Nothing in this section shall limit the right of a public entity or government agency to use and accept an “electronic signature” as defined in subdivision (h) of Section 1633.2 of the Civil Code.</p><p>(f)<span class=\"EnSpace\"/>Regulations adopted by the Secretary of State to implement this section apply only to a public entity’s use of a “digital signature” and not to use of any other type of “electronic signature” authorized in the Uniform Electronic Transactions Act (Title 2.5 (commencing with Section 1633.1) of Part 2 of Division 3 of the Civil Code).</p></caml:Content>"
+  }
+ ]
+}

@@ -1,0 +1,652 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: california
+id: ca-sam-4800
+title: 'State Administrative Manual chapter 4800: Department of Technology'
+doc_type: policy
+citation: SAM chapter 4800
+authority_level: ''
+issuing_body: California Department of General Services (publisher); chapter policy of the Department
+  of Technology and the Office of Information Security
+source_url: https://www.dgs.ca.gov/Resources/SAM/TOC/4800/Chapter-View
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: 6f9f260ddb069fda80260706871a2ed18770a4a5cc766b5c10f8b9b6998d9814
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the Department of General Services'' State Administrative Manual chapter
+  view page: the chapter line, then each section''s heading, revision line and paragraphs, one line per
+  paragraph, with markup, the site menu, the page''s contents table, scripts and non-breaking spaces removed.
+  List numbers and letters, which the page draws with style rules, are written out (1., a., i.); bullets
+  are written as a bullet character.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- oversight
+- digital-services
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# State Administrative Manual chapter 4800: Department of Technology (SAM chapter 4800)
+
+## At a glance
+
+State information management principles (4800); agency information officer and state entity CIO responsibilities (4815); the definition of IT and the state information management authority (4819.2-4819.3); IT project approval authority, lifecycle, reporting and oversight, delegation, cost delegation and certification of compliance with IT policies (4819.34-4819.41); the IT accessibility policy and its exceptions (4833-4833.2); the IT infrastructure policy (4834); the California software management policy (4846-4846.2); IT training (4854).
+
+## Full text
+
+Chapter 4800 - Chapter-View
+STATE INFORMATION MANAGEMENT PRINCIPLES - 4800
+(Revised: 06/2015 )
+The California Department of Technology (Department of Technology) has broad responsibility and authority to guide the application of information technology (IT) in California State Government. The Department of Technology’s areas of responsibility include policy making, interagency coordination, IT budget and procurement review, technical assistance, and advocacy. In view of the scope of these activities and their potential impact on state government, the Department of Technology has articulated the fundamental principles, policies, and procedures to govern the use of IT in Sections 4800 through 5180 of the State Administrative Manual (SAM).
+Note that any and all project approvals or conditions made by the Department of Technology’s predecessor organizations, the California Technology Agency (CTA) prior to July 1, 2013, the Office of the State Chief Information Officer (OCIO) prior to January 1, 2011, or the Department of Finance (Finance) prior to
+January 1, 2008; remain in effect unless otherwise notified. Priority of Information Technology.
+Information technology (IT) is an indispensable tool of modern government. Accordingly, each Agency/state entity is expected to seek opportunities to use this technology to increase the quality of the services it provides and reduce the overall cost of government.
+Authority and Responsibility.
+Each Agency/state entity director should be knowledgeable about the information requirements and information management practices of the Agency/state entity and should provide active leadership in the exploration of new opportunities to use IT. Each Agency/state entity should establish clear lines of authority and responsibility for information management.
+Management of Information.
+Each Agency/state entity shall establish and maintain an information management function consistent with its own operational needs and organizational structure. This function shall serve to ensure the Agency/state entity’s ability to identify the information it collects, maintain the integrity and security of the information, and provide for appropriate access to the information.
+Management Methods.
+Each Agency/state entity shall employ proven management methodologies to guide and control the planning, acquisition, development, operation, maintenance, and evaluation of information management applications. Pilot projects and/or independent oversight shall be required for larger, more complex applications.
+Basis for Decisions.
+Decisions regarding the application of IT shall be based on analysis of overall costs and benefits to the people of California over the life of the application. Each Agency/state entity shall plan far enough into the future to ensure that adequate time is available for analysis of alternatives, for obtaining necessary management approvals, and for the administration of procurements. Agencies/state entities shall determine the impact of their decisions across Agency/state entity lines and give priority to alternatives that provide the greatest benefit from a statewide perspective.
+Record of Decisions.
+Each Agency/state entity shall maintain records of management decisions concerning the use of IT. These records must be sufficiently detailed to satisfy the requirements of oversight agencies as well as internal management. The records must address such topics as:
+1. Identification of IT needs;
+2. Setting of priorities for applications of IT;
+3. Evaluation of application alternatives;
+4. Project management and control;
+5. Contingency planning and risk management; and,
+6. Operational controls and maintenance provisions.
+Agency/State Entity Personnel.
+Agency/state entity managerial, technical and user personnel should possess the knowledge and skills necessary to use IT to the best advantage for the state. Each Agency/state entity should regularly assess the IT skills and knowledge of its personnel in relation to job requirements, identify and document training needs, and provide suitable training within the limits of available resources.
+Compatibility.
+In selecting or developing applications of IT, each Agency/state entity shall consider the benefits and costs of maintaining compatibility with other planned and existing applications within the Agency/state entity and in other Agencies/state entities. Such consideration of compatibility shall include computer languages, applications and system software, computer hardware and telecommunications equipment, data formats, and the specific knowledge and skills required of state personnel.
+Procurement.
+In acquiring equipment, software, and services involving IT, Agencies/state entities shall seek maximum economic advantage to the state. Procurements shall normally be competitive, in conformance with the applicable sections of the Public Contract Code and SAM. Agencies/state entities shall use master contracts whenever the functional requirements for which the contract was awarded are substantially the same as the Agency/state entity’s requirements.
+Cost Allocation.
+Each Agency/state entity shall adopt policies and establish procedures for assignment of costs associated with IT by program or operational unit within the Agency/state entity, as well as for the assignment and recovery of the costs of services provided to other Agencies/state entities, private individuals, and organizations.
+Risk Management.
+Each Agency/state entity shall adopt and maintain a risk management program for the purpose of identifying and avoiding or minimizing threats to the security of information it maintains and the operational integrity of its information systems, telecommunications systems, and data bases
+Documentation.
+Applications of IT shall be fully documented with respect to the needs of (1) non- technical users; (2) technical personnel; (3) Agency/state entity measurement; and (4) outside auditors. The adequacy of documentation shall be an evaluation criterion in all procurements involving IT (equipment, software, services and telecommunications facilities). Project plans shall include specific provision for the creation of suitable documentation.
+Provision for Emergencies.
+In planning for the use of automated information systems and telecommunications facilities, Agencies/state entities shall develop policies and procedures to be followed in times of emergency; when systems are preempted to preserve the public health, welfare or safety; and when other events occur which prevent reliance on automated systems for extended periods of time.
+Individual Rights.
+Information management policies and procedures shall be consistent with the California Constitution, the Public Records Act, the Information Practices Act, and other applicable laws. Each Agency/state entity shall safeguard the right to privacy of individuals who are the subjects of the records it maintains.
+Ethics.
+In the conduct of their operations and in the accomplishment of the policies stated above, Agencies/state entities and their employees shall employ IT in a legal and ethical manner consistent with government statues, rules and regulations. IT shall not be used for purposes that are unrelated to the Agency/state entity’s mission or that violate state or federal law. Contract provisions, including software licensing agreements, shall be strictly followed.
+
+ACCESS TO INFORMATION BY THE OFFICE OF THE LEGISLATIVE ANALYST - 4804
+(Reviewed: 06/2015 )
+Section 11534 (f) of the Government Code requires that procedures be published in SAM to allow the Legislative Analyst to use data in, or products of, state data processing information systems to analyze programs and budgets.
+In order to enable the Legislature to determine the fiscal or program effects of changes (1) proposed by the Administration or (2) considered by the Legislature, any Agency/state entity operating an automated information system shall, upon receiving a written request, allow the Legislative Analyst reasonable access to any relevant data contained in the system's master files, transaction files, history files and/or other appropriate automated files.
+However, such access shall not be provided to information: (1) specifically prohibited by Federal law or (2) relating to proposed administrative actions (such as Budget Change Proposals submitted by individual Agencies/state entities) not yet approved by the Administration.
+It is the responsibility of the Agency/state entity to which the information pertains to ensure that any data made available under these provisions are as accurate and up-to- date as is consistent with the Agency/state entity’s normal use of data.
+The Legislative Analyst must agree that any confidential information obtained under these provisions shall remain confidential.
+
+ACCESS TO INFORMATION BY THE CALIFORNIA STATE AUDITOR - 4806
+(Revised: 06/2015 )
+Section 11534 (f) of the Government Code requires that procedures be published in SAM to allow the Auditor General in the conduct of his/her audit to use data in, or products of, state data processing information systems. Section 8545.2 of the Government Code provides that the Auditor General shall have access to, and authority to examine, records of any Agency/state entity. Section 8543.1 of the Government Code provides that the Auditor General shall examine and report annually upon the financial statements of the state and make special audits and investigations, including performance audits, of any Agency/state entity.
+In order for the Auditor General to conduct these audits in an expeditious manner, any Agency/state entity operating a statewide information system shall, upon receiving a written request, allow the Auditor General "read only" access to any relevant data contained in the system's master files, transaction files, history files and/or other appropriate automated files.
+The Agency/state entity operating the information system is authorized to require the Auditor General to reimburse it for any additional costs incurred as a direct result of the Auditor General's acquisition of data from the system.
+It is the Auditor General's responsibility to check with the individual Agencies/state entities to which the information pertains to ensure that any data acquired under these provisions are accurate and up-to-date.
+Any confidential information obtained by the Auditor General under these provisions shall remain confidential.
+
+STATUTORY PROVISIONS AND APPLICATION STATUTORY PROVISIONS - 4810
+(Revised: 01/2016 )
+The following provisions apply to all Agencies/state entities. State entities include every state office, officer, department, division, bureau, board, and commission, including Constitutional Officers. State entities do not include the University of California, California State University, the State Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel Bureau.
+California Department of Technology:
+Pursuant to Government Code Sections 11545 and 11546, the Director of the California Department of Technology is charged with the duty to advise the Governor on the strategic management and direction of the state's information technology (IT) resources. In addition to this advisory role, the Department of Technology is responsible for: establishing, maintaining, and enforcing the State's IT strategic plans, policies, standards, procedures, and enterprise architecture; approval and oversight of IT projects; approval and oversight of IT procurements for reportable projects where the procurement has not been delegated by DGS to the department ; consulting with Agencies/state entities during initial project planning; and suspending, reinstating, or terminating IT projects.
+Department of Finance:
+Pursuant to Government Code Section 11547, the Department of Finance shall perform fiscal oversight of the state's IT projects. The oversight shall consist of a determination of the availability of project funding from appropriate sources and project consistency with state fiscal policy.
+
+AGENCY INFORMATION OFFICER AND STATE ENTITY CHIEF INFORMATION OFFICER RESPONSIBILITIES - 4815
+(Revised: 09/2016 )
+Within the authority of Government Code (GC) Section 11545 and 11546, the Director of the California Department of Technology (CDT) shall be responsible for providing technology direction to Agency Chief Information Officers (AIOs) and state entity Chief Information Officers (CIOs) to:
+1. Integrate statewide technology initiatives,
+2. Ensure Agencies/state entities are in compliance with IT and securitypolicies and standards, and
+3. Promote the alignment and effective management of ITresources.
+Agency Information Officers
+All Agency Information Officers (AIOs) are responsible for overseeing the management of IT assets, projects, data systems, infrastructure, services and telecommunications through the oversight and management of Agency-affiliated State Entity CIOs. Each AIO is responsible for developing an Agency Enterprise Architecture to rationalize, standardize and consolidate IT infrastructure, data, and procedures for all state entities within their Agency. Additionally, AIOs have been delegated CDT approval authority for Project Approval Lifecycle Stage 1 Business Analyses prepared by Agency- affiliated State Entities.
+Specific responsibilities for the AIOs are published in the State Administrative Manual (SAM), Technology Letters (TLs), and the Statewide Information Management Manual (SIMM). Each AIO must be compliant with the responsibilities as described in SAM, SIMM, and TLs.
+Chief Information Officers
+State entity CIOs are directly responsible for all IT activities within the state entity. CIOs are responsible for all IT systems, assets, projects, purchases, and contracts and will ensure state entity conformity with the Agency Enterprise Architecture. State entity CIOs are also responsible for:
+• Portfolio management of the state entity’s technology initiatives.
+• Operational oversight of IT functions, IT personnel and operations including:
+  • Web application development;
+  • Application and database management;
+  • Security administration;
+  • Telecommunications;
+  • Project planning, consulting, and management; and
+  • Help desk and customer service management.
+AIOs and CIOs must be in compliance with state IT policies and procedures as described in SAM, SIMM and Technology Letters.
+Non-Affiliated Chief InformationOfficers
+With the exception of the responsibilities related to the oversight of Agency-affiliated state entity CIOs, non-affiliated Agency/state entity CIOs have the same responsibilities as AIOs. In addition, non-affiliated Agency/state entity CIOs also have the same responsibilities as Agency-affiliated state entity CIOs.
+Reporting
+AIOs and CIOs are accountable to the Director of the Department of Technology with respect to technology direction, including, but not limited to, IT policy, planning and management.
+All state employees in IT classifications, and all other state employees or contractors performing IT activities and/or functions must be in a direct reporting relationship to the appropriate AIO or CIO.
+Consistent with the federated governance model, the Department of Technology will work with the Agencies/state entities to implement this operating model in a way that aligns with their businessoperations.
+
+STATUTORY PROVISIONS AND APPLICATION/GENERAL - 4819
+(Revised: 06/2015 )
+The State Administrative Manual (SAM) Section 4819 provides definitions and summarizes the compliance requirements for the administration of information technology (IT) in state government. Additional detail regarding specific requirements, policies or procedures is provided throughout SAM Sections 4800– 5953, SAM Sections 6700 – 6780, and the Statewide Information Management Manual (SIMM).
+
+DEFINITIONS - 4819.2
+(Revised: 01/2025 )
+The following definitions of administrative and technical terms are provided to assist Agencies/state entities in their application of information technology (IT) policy.
+The primary source for technical definitions is the Information Processing Systems Technical Report, American National Dictionary for Information Processing Systems, developed by the American National Standards Committee, X3 Information Processing Systems. In some cases, the definitions have been modified to meet state needs.
+Accessibility/Accessible: Individuals with disabilities are able to acquire the same information, engage in the same activities, perform the same functions, and access the same content and services as individuals without disabilities, with similar ease.
+Agency: This term refers to one of the state's umbrella Agencies. Umbrella Agencies include the Natural Resources Agency, California Environmental Protection Agency, Government Operations Agency, Business Consumer Services and Housing Agency, California Department of Corrections and Rehabilitation, California State Transportation Agency, Labor Agency and the California Health and Human Services Agency.
+Agency-affiliated State Entities: This term refers to State entities that are governed by one of the state's umbrella Agencies. See definition of Agency.
+Agency Information Management Strategy: An Agency’s/state entity’s information management strategy is the Agency’s/state entity’s comprehensive plan for using IT to address its business needs, e.g., to successfully carry out its programmatic mission. Ideally, the Agency’s/state entity’s information management strategy represents one aspect of a well-defined, overall Agency/state entity business strategy and is therefore closely aligned to its business strategy. If the Agency/state entity has not established a business strategy, Agency/state entity staff that are responsible for the Agency/state entity information management strategy must make assumptions based on their knowledge of the Agency’s/state entity’s overall mission, its program resources and priorities, and the changing nature of its environment.
+Algorithm: A clearly specified mathematical process for computation; a set of rules that, if followed, will give a prescribed result.
+Ancillary Solicitation: An acquisition that may be necessary to achieve and/or support the primary procurement activities and objectives of an IT project. An IT project may be supported by many Ancillary Solicitations.
+Artificial Intelligence (AI): An engineered or machine-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.
+Assistive Technology: Any item, piece of equipment, software, or system that is designed to increase, maintain, or improve the functional capabilities of individuals with disabilities.
+Automated Decision System: A computational process derived from machine learning, statistical modeling, data analytics, or artificial intelligence that issues simplified output, including a score, classification, or recommendation, that is used to assist or replace human discretionary decision making and materially impacts natural persons.
+Automation: Automation is the use of technology to perform tasks where human input is minimized.
+Business Strategy: An Agency’s/state entity’s business strategy is its overall plan for accomplishing its mission in a changing environment with the resources it can reasonably expect to be available. Such a strategy typically addresses the Agency’s/state entity’s statutory mission and historical role, the expectations of its key stakeholders (individuals and organizations that affect the Agency/state entity or that the Agency/state entity affects), the factors that are critical to its success as an organization, the Agency’s/state entity’s internal strengths and weaknesses, and the political, social, economic, and technological forces in its environment that support or constrain its programs. Business strategies articulate the key issues that must be successfully addressed by the Agency/state entity and identify the priorities and required resources for proposed actions. A strategy may have a timeframe that is as short as a few months. However, most Agency/state entity business strategies present a three- to five-year perspective, with some Agencies/state entities finding it useful to extend their strategic vision as much as ten to 20 years into the future. Strategic planning is not a one-time effort; it is a fundamental, continuing management process that allows the Agency/state entity to respond in an effective manner to a changing environment.
+California Project Management Framework: The California Project Management Framework (CA-PMF) is a collection of project management best practices and scalable resources, tools, and templates to be used by project management practitioners to effectively plan and manage projects. The CA-PMF is based on the Project Management Body of Knowledge (PMBOK® Guide), as well as project management lessons learned in the State of California.
+Chatbot: Computer programs that simulate and process human conversation, either written or spoken, to allow humans to interact with digital devices as if they were communicating with a real person.
+Cloud Computing: A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction. This cloud model is composed of five essential characteristics, three service models, and four deployment models.
+• Essential Services: On-demand self-service, Broad network access, Resource pooling, Rapid elasticity, Measured service
+• Service Models: SaaS, PaaS, IaaS
+• Deployment Models: Private Cloud, Community Cloud, Public Cloud, Hybrid Cloud
+Commercial Off-the-Shelf (COTS): A computer hardware or software product that is ready-made for specific uses and available for sale to the general public. COTS products are designed to be installed without requiring custom development. For example, Microsoft Office is a COTS product that is a packaged software solution for businesses and individuals. The set of rules for COTS is defined by the Federal Acquisition Regulation (FAR).
+Computer Accessibility: In human-computer interaction, computer accessibility (also known as accessible computing) refers to the accessibility of a computer system to all people, regardless of ability.
+Confidential Information: Information maintained by Agencies/state entities that is exempt from disclosure under the provisions of the California Public Records Act (Government Code sections 7920.000-7931.000) or other applicable state or federal laws. See SAM Section 5320.4.
+Consequential Decisions: A decision or judgment that has a legal, material, or similarly significant effect on an individual’s life relating to the impact of, access to, or the cost, terms, or availability of, any of the following:
+(1) Employment, workers management, or self-employment.
+(2) Education and vocational training.
+(3) Housing or lodging.
+(4) Essential utilities.
+(5) Family planning and child protective services.
+(6) Health care or health insurance.
+(7) Financial services.
+(8) The criminal justice system.
+(9) Legal services.
+(10) Voting.
+(11) Access to benefits or services or assignment of penalties.
+Continuing Costs: Costs associated with the operation and maintenance of an IT system or application after development and implementation of the system.
+Critical Application: An application that is so important to the state that the loss or unavailability of the application is unacceptable. With a critical application, even short- term unavailability of the information provided by the application would have a significant negative impact on the health and safety of the public or state workers, including the fiscal or legal integrity of state operations, or on the continuation of essential Agency/state entity programs.
+Data: A representation of facts, concepts, or instructions in a formalized manner suitable for communication, interpretation, or processing by humans or by automated means.
+Data Processing: The systematic performance of operations upon data, e.g., handling, merging, sorting, computing. Synonymous with information processing.
+Data Processing System: A system, including computer systems and associated IT personnel, that performs input, processes storage, output, and control functions to accomplish a sequence of operations on data.
+Data/Information Storage: The retaining of data/information on any of a variety of mediums (i.e., magnetic disk, optical disk, or magnetic tape) from which the data can be retrieved.
+Data Transmission: The conveying of data from one functional unit to one or more additional functional units through the transmission of signals by wire, radio, light beam, or any other electromagnetic means. (Voice or video transmissions are not considered data transmission for the purposes of state policy.)
+Project Cost Delegation: See SAM Section 4819.39.
+Development: Activities or costs associated with the analysis, design, programming, staff training, data conversion, acquisition, and implementation of new IT applications.
+Department of General Services (DGS) Delegated Purchasing Authority: Through Statutory Authority, DGS may grant delegated purchasing authority to Agencies/state entities to procure non-information technology goods and information technology goods and services with a total cost equal to or less than the delegated purchasing authority amount under each category, as defined within the State Contracting Manual (SCM), Volume 2, Chapter 1.
+Domain Name Service: A series of computer databases that resolve or link Internet Protocol (IP) addresses with an alphanumeric domain name. Domain names are divided into hierarchical fields separated by a period. The field to the farthest right is the top-level (or first-level) domain, in “ca.gov” for example, "gov" is the top-level domain. In the same example, "ca" is the second-level within the domain, and the field to the left of the second-level domain is the third-level domain (e.g., cdt.ca.gov). Names that fall to the right of the domain following a "/" are subdirectories of the domain (e.g., ca.gov/services).
+Electronic and Information Technology (EIT or E&IT): Includes IT and any equipment or interconnected system or subsystem of equipment that is used in the creation, conversion, or duplication of data or information. The term electronic and IT includes, but is not limited to, telecommunications products (such as telephones, cell phones, smart phones, and radio receivers), information kiosks and transaction machines, World Wide Web sites, multimedia, and office equipment such as copiers and fax machines.
+Emergency: “A sudden, unexpected occurrence that poses a clear and imminent danger, requiring immediate action to prevent or mitigate the loss or impairment of life, health, property, or essential public services.” SAM Section 6560 specifies that when the Governor declares an emergency, expenditures cannot exceed $25,000, unless approved by the Department of Finance.
+Generative Artificial Intelligence (GenAI): An artificial intelligence that can generate derived synthetic content, such as text, images, video, and audio, that emulates the structure and characteristics of the artificial intelligence’s training data.
+Hardware: See Information Technology equipment.
+Hybrid Cloud: The cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities, but are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).
+Information Processing: The systematic performance of operations upon data, e.g., handling, merging, sorting, computing. Synonymous with data processing.
+Information Technology: Information technology (IT) means all computerized and auxiliary automated information handling, including systems design and analysis, conversion of data, computer programming, information storage and retrieval, voice, video, data communications, microwave, light ware, routers, network equipment, requisite systems controls, and simulation.
+Information Technology Activities: Any activity listed below, or any combination of these activities for a single IT project, is to be considered an "IT activity."
+1. IT facility preparation, operation and maintenance.
+2. Information management planning.
+3. Feasibility determination, development and implementation of application systems or programs, or changes to application systems or programs to meet new or modified needs, or maintenance, including: Project Approval Lifecycle Stage/Gate deliverable preparation, systems analysis, systems design, purchase and installation of software, programming, conversion of data or programs, documentation of systems and procedures, and project appraisal or assessment.
+4. Operation of application systems or programs including handling, assembling, or editing of input-output data or media where IT equipment or IT personnel are used.
+5. Information Technology Procurement.
+6. Installation, operation, and maintenance of data processing equipment, IT equipment, goods and services, and software.
+7. Other installation management activities include: performance measurement, system tuning, and capacity management.
+8. Preparation and administration of requests for proposals or bid solicitations for contracts for any of the above activities.
+9. Preparation of contracts, interagency agreements, and purchase estimates for any of the above activities.
+10. Employment of personnel in support of, or directly related to, any of the above activities, including administration, technical services, clerical services, travel, training, and preparation of periodic and special reports.
+11. Control functions directly related to any of the above activities.
+IT Equipment: Information Technology devices used in the processing of data electronically. The following are examples of IT equipment:
+1. Mainframes and all related features and peripheral units, including processor storage, console devices, channel devices, etc.;
+2. Minicomputers, midrange computers, personal computers, laptop, tablets, smart phones and all peripheral units associated with such computers;
+3. Special purpose systems including word processing, Optical Character Recognition (OCR), bar code readers/scanners, and photo composition;
+4. Communication devices used for transmission of data such as modems, data sets, multiplexors, concentrators, routers, switches, local area networks, private branch exchanges, network control equipment, and microwave or satellite communications systems; and
+5. Input-output (peripheral) units (off-line or on-line) including display screens, optical character readers, magnetic tape units, mass storage devices, printers, video display units, data entry devices, plotters, scanners, or any device used as a terminal to a computer and control units for these devices.
+Information Technology Expenditure: The expenditure of funds regardless of source by any Agency/state entity for IT activities, equipment, facilities, personnel, services, supplies and the automated processing of information.
+Information Technology Infrastructure: An Agency’s/state entity’s IT infrastructure is the base or foundation for the delivery of information to support the Agency’s/state entity’s programs and management. The infrastructure contains elements upon which an Agency’s/state entity’s IT activities are dependent. An Agency/state entity must therefore define, implement, and manage these infrastructure elements to employ IT successfully.
+The desirable characteristics of this infrastructure are efficient support for the exchange of information within the Agency/state entity, and between the Agency/state entity and other organizations; reliable availability of information processing capabilities whenever and wherever they are needed; preservation of the integrity and confidentiality of information maintained by the Agency/state entity; sufficient flexibility to allow the timely and efficient addition of new information management capabilities and modifications of established capabilities; and consistency with a coherent set of technical and managerial standards for the employment of IT.
+Typical elements in an IT infrastructure include:
+Application Systems: The applications that an Agency/state entity purchases and/or develops to achieve personal productivity and program support benefits.
+Architecture: The guidelines or blueprints an Agency/state entity follows in designing, acquiring, and implementing IT solutions. Organizationally approved definitions, specifications, and standards are the primary components in an Agency’s/state entity’s IT architecture.
+Communications: Local area and wide area network components, including linkages with other organizations.
+Equipment: An Agency’s/state entity’s hardware platforms and components ranging from individual personal computers to mainframes and associated peripherals.
+Facilities: The electrical, ventilation, fire suppression, physical security, wiring, and other components required to support an Agency’s/state entity’s IT capability, including the physical structure itself.
+Funding: Current and projected funding for IT planning, acquisition, development, and operations activities.
+Partnerships: Relationships with other public and private sector organizations that support and enable the Agency’s/state entity’s pursuit and use of IT.
+People: An Agency’s/state entity’s technical staff, user community groups, and executive steering and oversight committees that are charged with IT planning, approval, development, management, operations, and security responsibilities.
+Plans: Detailed designs or methods for aligning IT activities with Agency/state entity business strategies and accomplishing business objectives. Typical Agency/state entity IT plans include strategic, risk management, and operational recovery.
+Policies: The rules, conventions, and protocols adopted by the Agency/state entity to govern the pursuit and use of IT.
+Processes and Procedures: The defined steps for planning, approving, acquiring, developing, operating, maintaining, enhancing, and using IT within the Agency/state entity.
+Service Definitions: The types of services provided, accepted service levels, and service delivery time frames established for an Agency’s/state entity’s IT support organization.
+Software: The set of operating system, utility, communications, user interface, and management programs that enable users to operate and control computers and develop application systems.
+The infrastructure includes elements owned by the Agency/state entity and available under contract or through interagency agreement. For Agencies/state entities that employ the services of a consolidated data center, for example, the required data center resources are considered part of the Agency’s/state entity’s infrastructure.
+Reengineering the Business Process: The search for and implementation of radical changes in business processes that result in dramatic efficiencies, reductions in turnaround time, improvements in quality, or improvements in customer service.
+Strategic Planning Process for Information Technology: The process of aligning Agency/state entity plans for, and uses of, IT with the Agency’s/state entity’s business strategies.
+Information Technology Procurement: Any process to obtain IT goods/services through competitive, non-competitive, purchase or lease, for the benefit of the State. Sometimes referred to as contracting, purchase or acquisition.
+Information Technology Project: A unique endeavor involving activities required to plan, design, develop, implement, operate and maintain an Information Technology (IT) solution that meets a specific and measurable policy or programmatic objective. IT projects include the entire systems development lifecycle from project initiation through the normalized operational cycle. IT activities related to the refresh of non- data center hardware required to operate an IT project shall not be considered an IT project. See SAM Section 4819.37 for Project Delegation Criteria.
+Information Technology Project Oversight Framework: Minimum requirements for IT project management, risk management, and IT project oversight activities for Agencies/ state entities. Description of control agency project reporting requirements and processes for assessing Agency/state entity project management and oversight activities. See SIMM Section 45.
+Information Technology Personnel: All state personnel employed in IT or telecommunications classifications as defined by the Department of Human Resources or by the Trustees of the California State University and Colleges, and all personnel of other classifications in Agencies/state entities who perform IT activities for at least 50 percent of their time. Users of personal computers and office automation are not included in this category unless they are in IT classifications or spend at least 50 percent of their time performing IT activities.
+Information Technology Supplies: All consumable items and necessities (excluding equipment defined as IT equipment) to support information technology activities and IT personnel, including:
+1. Documents (such as standards and procedures manuals, vendor-supplied systems documentation, and educational or training manuals);
+2. Equipment supplies (such as printer cartridges and magnetic tape); and
+3. Furniture (such as terminal tables and printer stands).
+Infrastructure as a Service (IaaS): The capability provided to the consumer is to provision processing, storage, networks, and other fundamental computing resources where the consumer is able to deploy and run arbitrary software, which can include operating systems and applications. The consumer does not manage or control the underlying cloud infrastructure but has control over operating systems; storage, deployed applications, and possibly limited control of select networking components (e.g., host firewalls).
+Input-Output Unit/Device: A unit or device in an IT system by in which data may be entered into the system, received from the system, or both.
+Large Language Model: A specialized type of artificial intelligence (AI) that has been trained on vast amounts of text to understand existing content and generate original content.
+Life Cycle: The anticipated length of time that the IT system or application can be expected to be efficient, cost-effective and continue to meet the Agency’s/state entity’s programmatic requirements. Synonymous with operational life.
+Machine Learning: A set of techniques that can be used to train AI algorithms to improve performance at a task based on data.
+Maintenance: Activities or costs associated with the ongoing upkeep of operational applications of IT. Maintenance includes correcting flaws, optimizing existing systems or applications, responding to minor changes in specified user requirements, renewal of equipment maintenance agreements, software or hardware upgrade or refresh to maintain the health of the systems, and meeting normal workload increases using substantially the same applications, facilities, IT personnel, supplies and software.
+Metadata: Information describing the characteristics of data including data structure and descriptive information.
+Microservice Architecture: An approach to software development where an application is built as a collection of small, independent services. Each service focuses on a specific function and can be developed, deployed, and scaled independently. They communicate through Application Programming Interface (API), and the architecture promotes decentralization, loose coupling, independent scaling, and technology diversity. It enables fault isolation, resilience, and continuous deployment. Microservice architectures offer benefits such as scalability, flexibility, and faster development, but also introduce complexities. Overall, they provide a modular and agile approach to building and evolving applications.
+Mobile Web: Mobile web refers to access to the Internet or Web applications using a mobile device, such as a smart phone connected to a wireless network.
+Multi-Cloud: Multi-Cloud refers to an approach in cloud computing where an organization or individual utilizes the services and resources of multiple cloud service providers simultaneously. It involves distributing workloads, applications, and data across different cloud platforms, instead of relying on a single cloud provider.
+Natural Language Processing: Takes communications by humans and transforms the information into something more suitable for computer use and analysis.
+Network Equipment: Equipment facilitating the use of a computer network. This includes routers, switches, hubs, gateways, access points, network bridges, modems, firewalls, and other related hardware and software.
+Non-affiliated State Entities: This term refers to State entities that are not governed by an Agency. See definition of Agency.
+Non-Delegated Project: An IT Project that meets one or more of the criteria listed in SAM Section 4819.37. Non-Delegated Projects must be formally approved by the Department of Technology through the Project Approval Lifecycle. Agency/state entity directors are delegated approval authority for IT Projects that do not meet any of the criteria listed in SAM Section 4819.37.
+One-Time Costs: Costs associated with the analysis, design, programming, verification and validation services, staff training, data conversion, acquisition, and implementation of new IT applications. See SIMM Section 19F (Financial Analysis Worksheets).
+Open Data: Data that can be freely accessed, used, modified, and shared by anyone for any purpose (http://opendefinition.org/). For Data.ca.gov, open data is regularly updated and comes from an authoritative source.
+Open-Source Software: Software that includes distribution terms that comply with the following criteria provided by the Open-Source Initiative. The open source definition used here is from the Open Source Initiative and is licensed under a Creative Commons Attribution 2.5 License (http://creativecommons.org/licenses/by/2.5/)
+1. Free Redistribution: The software can be given as part of a package with other applications;
+2. Source Code: The code must either be distributed with the software or easily accessible;
+3. Derived Works: The code can be altered and distributed by the new author under the same license conditions as the product on which it is based;
+4. Integrity of the author's source code: Derived works must not interfere with the original author's intent or work;
+5. No discrimination against persons or groups;
+6. No discrimination against fields of endeavor: Distributed software cannot be restricted in who can use it based on their intent;
+7. Distribution of license: The rights of the program must apply to all to whom the program is re-distributed without need for an additional license;
+8. License must not be specific to a product; Meaning that an operating system product cannot be restricted to be free only if used with another specific product;
+9. License must not contaminate other software; and
+10. License must be technology-neutral.
+Operational Life: See Life Cycle.
+Operations: Activities or costs associated with the continued use of applications of IT. Operations includes IT personnel associated with computer operations, including network operations, job control, scheduling, key entry, and the costs of computer time or other resources for processing.
+Peripheral Unit/Device: With respect to a particular processing unit or device, any equipment that can communicate directly with that unit or device.
+Platform as a Service (PaaS): The capability provided to the consumer is to deploy onto the cloud infrastructure consumer-created or acquired applications created using programming languages and tools supported by the provider. The consumer does not manage or control the underlying cloud infrastructure that includes network, servers, operating systems, or storage but has control over the deployed applications and possibly application-hosting environment configurations.
+Power Management: A feature of some electrical appliances, especially copiers, computers and computer peripherals such as monitors and printers, which turns off the power or switches the system to a low-power state when in active.
+Previously Approved Effort/Project: An IT activity or project previously approved by the California Department of Technology or the Agency’s/state entity’s executive officer in accordance with SAM Section 4819.3. Qualification of an activity as a previously approved effort requires an approved Stage 4 Project Readiness and Approval AND an approved Post-Implementation Evaluation Report (PIER). Applicable activities include meeting modified needs, improving the effectiveness of the activity, program or system maintenance, or extension of existing services to new or additional users performing essentially the same functions as those that the project was designed to support. A previously approved effort/project must use substantially the same equipment, facilities, technical personnel, supplies and software to meet substantially the same requirements or to meet normal workload increases. (Note: "Substantially the same equipment" does not include the addition, upgrade or replacement of a central processing unit.)
+Primary Solicitation: The acquisition that will procure and obtain the main IT Goods and/or Services for an IT project solution. An IT Project may only have one Primary Solicitation but may be supported by many Ancillary Solicitations.
+Private Cloud: The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.
+Procurement Oversight: An independent review and analysis to determine if the procurement methodology is sound and feasible. Procurement Oversight includes coaching, guidance and direction in all aspects of IT procurement. Oversight activities may include procurement planning, assistance in developing deliverables, review and approval of procurement documents and the execution and award of contracts.
+Program: A sequence of instructions suitable for processing. See Information Processing or Data Processing.
+Programming: The designing, writing, testing, debugging, and documentation of programs.
+Project: See Information Technology Project.
+Project Approval Lifecycle (PAL): The policy, procedures and templates that make up the State of California’s process for gaining approval of IT projects. The Project Approval Lifecycle is divided into four stages that are separated by gates. Each stage consists of a set of prescribed, cross-functional, and parallel activities to develop deliverables used as the inputs for the next gate. The gates provide a series of “go/no go” decision points that request only the necessary and known information needed to make sound decisions for that particular point in time. The four stages, which document the business analysis, alternatives analysis, solution development and project readiness analysis, must be approved by the Department of Technology prior to the encumbrance or expenditure of funds, including the use of staff resources, on any IT project beyond the Project Approval Lifecycle.
+Project End Date: The proposed project end date should reflect the conclusion of project activities: The last date that proposed project activities are estimated to be completed. This should exclude any activities related to the Post Implementation Evaluation Report (PIER).
+Project Oversight: An independent review and analysis to determine if the project is on track to be completed within the estimated schedule and cost and will provide the functionality required by the sponsoring business entity. Project oversight identifies and quantifies any issues and risks affecting these project components.
+Project Planning Start Date: The project planning start date is the date an Agency/state entity begins a Stage 2 Alternatives Analysis. The planning phase of an IT project proposal begins with the Stage 2 Alternatives Analysis and ends at the conclusion of Stage 4 Project Readiness and Approval (Gate 4).
+Project Planning End Date: The project planning end date should reflect the conclusion of project planning activities: The last date that project planning activities are estimated to be completed at the conclusion of Stage 4 Project Readiness and Approval (Gate 4).
+Project Start Date: The project start date is the date an IT project proposal is approved and funded. For most projects dependent on a funding request, this date will be July 1st of the year the project funding is approved. For projects without this dependency, the project start date is the project approval date (Gate 4 approval).
+Proprietary Software: Computer programs that are the legal property of one party, the use of which is made available to a second or more parties, usually under contract or licensing agreement.
+Public Cloud: The public cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud provider.
+Public Facing Applications: Applications available to the broadest base of potential users as well as designed and delivered with the intent of access by all individuals or organizations over the public internet.
+Public Information: Any information prepared, owned, used or retained by an Agency/state entity and not specifically exempted from the disclosure requirements of the California Public Records Act (Government Code sections 7920.000-7931.000) or other applicable state or federal laws.
+Sensitive Information: Information maintained by Agencies/state entities that require special precautions to protect it from unauthorized modification or deletion. See SAM Section 5320.4. Sensitive information may be either public or confidential (as defined above).
+Server Room: Any space that houses computer operations. Such computer operations could utilize mainframes, servers, or any computer resource functioning as a server.
+Shutdown: Turning off the power in a controlled manner.
+Software: Programs, procedures, rules, and any associated documentation pertaining to the operation of a system (contrast with hardware).
+Software as a Service (SaaS): The capability provided to the consumer is to use the provider’s applications running on a cloud infrastructure. The applications are accessible from various client devices through a thin client interface such as a web browser (e.g., web-based email). The consumer does not manage or control the underlying cloud infrastructure including network, servers, operating systems, storage, or even individual application capabilities, with the possible exception of limited user- specific application configuration settings.
+Staff Augmentation Procurement: The acquisition of contracted services to address state staff resource constraints or skill gaps for IT project activities.
+Staff Redirection: The redirection of existing Agency/state entity staff resources to support IT project activities or backfill behind existing staff redirected to support IT project activities. Contracted services are not considered Staff Redirection.
+Stage/Gate Deliverables: The formal deliverable documents that support the Project Approval Lifecycle. Stage/Gate deliverables are the Stage 1 – Business Analysis, Stage 2 – Alternatives Analysis, Stage 3 – Solution Development and Stage 4 – Project Readiness and Approval. Formal project approval occurs upon approval of the Stage 4 Project Readiness and Approval.
+State Entity: Includes every state office, officer, department, division, bureau, board, and commission, including Constitutional Officers. “State entity” does not include the University of California, California State University, the State Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel Bureau.
+Statewide Information Management Manual (SIMM): The Statewide Information Management Manual (SIMM) as structured by the Department of Technology that contains standards, procedures, instructions and guidelines, as well as samples, models, forms and communication documents that Agencies/state entities must use, or will find helpful to use, in complying with established state policy relating to IT. For clarity, references in SIMM to "Department of Finance" that are not related to budget documents, such as Budget Change Proposals or Finance Letters, should be read as references to the "California Department of Technology."
+State Telecommunications Management Manual (STMM): The State Telecommunications Management Manual (STMM), as structured by the Department of Technology, contains state telecommunications policies and procedures based on SAM 4500-4555 and Government Code Section 11534-11543. The STMM is continually updated to reflect current telecommunications policies and practices, and links to helpful outside resources are included throughout the STMM.
+System Standby: A low-power mode for electronic devices such as computers, televisions, and remote-controlled devices (aka “sleep mode”). These modes save significant electrical consumption compared to leaving a device fully on and idle but allow the user to avoid having to reset programming codes or wait for a machine to reboot.
+Technology Letter: Letters issued by the Department of Technology conveying official communications regarding state IT, announcing new or changes to existing IT policies and procedures, or announcing new or changes to existing state IT services or standards.
+Technology Modernization: Actions an organization takes to move away from an outdated and/or unsupported technology or process, to adopt, adapt, or upgrade its technology to current industry best practices and/or standards to allow stable, scalable, and resilient support of the business needs.
+Technology Remediation: The act of correcting an error, or mitigating a threat, vulnerability or identified gap, or responding to unexpected events, or preventing negative outcomes after an assessment of existing technology and/or the business process.
+Technology Stabilization: Actions an organization takes to sustain and/or improve the reliability and availability of its current technology to efficiently support its current business needs.
+Telecommunications: Includes voice and data communications, the transmission or reception of signals, writing, sounds, or intelligence of any nature by wire, radio, light beam, or any other electromagnetic means.
+Tenant Managed Services: Centralized Tier III-equivalent data center space providing participating state Agencies/state entities the ability to operate their own environment with a degree of independence in the overall management of their server infrastructure. Additionally, Agencies/state entities can plan utilization of the Tenant Managed Services (TMS) as a disaster recovery site.
+Tier III-Equivalent Data Center: Data Center facility consisting of multiple active power and cooling distribution paths; however, only one path is active. The facility has redundant components and is concurrently maintainable providing 99.982% availability.
+Total Planning Cost: The total planning cost is the sum of all costs associated with the planning activities conducted in Stage 2 Alternatives Analysis through Stage 4 Project Readiness and Approval.
+Total Project Cost: The total project cost is the sum of ALL costs associated with the project planning phases (Stage 2 through Stage 4) and the project execution phase (design, development, and implementation), plus one full year of maintenance and operations costs.
+Validation: The process of evaluating software during or at the end of the development process to determine whether it satisfies specified requirements. [IEEE-STD-610]
+Verification: The process of evaluating software to determine whether the products of a given development phase satisfy the conditions imposed at the start of that phase. [IEEE-STD-610]
+Virtualization: A framework or methodology of dividing the resources of a computer into multiple execution environments, by applying one or more concepts or technologies such as hardware and software partitioning, time-sharing, partial or complete machine simulation, emulation, quality of service, and many others.
+Workgroup Collaboration Platform: Cloud-based collaboration tool that integrates features such as chat, conferencing, calendaring, notes, and attachments organized by topics and accessible through a specific URL or invitation. Within the platform, members can create channels or topics of conversation and collaborate through a shared workspace.
+Workload Increase: Employing substantially the same resources (equipment, facilities, IT personnel, supplies, software) to process a greater volume of the same or similar information. The results of the processing are the same or similar outputs distributed to comparable users.
+Zero Trust Architecture (ZTA): Zero Trust Architecture (ZTA) is a security trust model that assumes that no entity should be inherently trusted, whether internal or external. It requires strict verification and authentication for users, devices, and applications seeking access to resources. The core principles of ZTA include least privilege access, micro-segmentation, network segmentation, continuous monitoring and analytics, and security automation and orchestration. By implementing these principles, ZTA aims to enhance security, minimize the impact of breaches, and protect sensitive data by consistently verifying and validating entities before granting access.
+
+STATE INFORMATION MANAGEMENT AUTHORITY AND RESPONSIBILITY - 4819.3
+(Revised: 01/2016 )
+Pursuant to Government Code Sections 11545 and 11546, the Director of the California Department of Technology is charged with the duty to advise the Governor on the strategic management and direction of the State's IT resources. In addition to this advisory role, the Department of Technology is responsible for: establishing, maintaining, and enforcing the state’s IT strategic plans, policies, standards procedures, and enterprise architecture; approval and oversight of IT projects; acquisition of reportable IT projects over the DGS Delegated Purchasing Authority; consulting with Agencies/state entities during initial project planning; and suspending, reinstating, or terminating IT projects.
+
+BASIC POLICY - 4819.31
+(Revised: 11/2016 )
+Pursuant to Government Code Sections 11545 and 11546, the Director of the California Department of Technology is charged with the duty to advise the Governor on the strategic management and direction of the State's IT resources. In addition to this advisory role, the Department of Technology is responsible for: establishing, maintaining, and enforcing the state’s IT strategic plans, policies, standards procedures, and enterprise architecture; approval and oversight of IT projects; acquisition of reportable IT projects over the DGS Delegated Purchasing Authority; consulting with Agencies/state entities during initial project planning; and suspending, reinstating, or terminating IT projects.
+Each Agency/state entity is required to:
+1. Establish and maintain a Technology Recovery Plan, so that it will be able to protect its information assets in the event of a disaster or serious disruption to its operations, and submit the plan or its update to the California Information Security Office (CISO) as outlined in the Technology Recovery Plan Reporting Schedule (SIMM Section 05B). See SAM Section 5325.1.
+2. Establish an ongoing information management strategic planning process to support the accomplishment of its overall business strategy (e.g., its strategy to carry out its programmatic mission) and submit its strategic plan to the Department of Technology for approval. See SAM Section 4900.2.
+3. Adopt standards for an Agency/state entity IT infrastructure consistent with SAM Section 4989.1.
+4. Prepare Stage 1 Business Analysis (SIMM 19A) for all Information Technology Projects and submit to the Department of Technology for long term planning of the state’s strategic IT investments. See SAM Section 4904.
+5. Use the California Project Management Framework (CA-PMF) as described in SAM Section 4910 for managing all IT projects. Agencies/state entities may
+use other comprehensive PMBOK® Guide-based frameworks if the framework encompasses project management practices, processes, and deliverables that meet the minimum level of planning included in theCA-PMF.
+6. Implement their Enterprise Architecture in accordance with the guidelines and instructions included in SIMM Section 58.
+7. Conduct a study for each proposed IT project (development or acquisition) and obtain approval through the Project Approval Lifecycle from the Department of Technology or from the Agency/state entity director (if approval authority has been delegated). See SAM Sections 4819.34-4819.35.
+8. Submit, upon request from the Department of Technology, all IT Reportable Procurements (as defined in SAM Section 4819.2) to the Department of Technology for review prior to release to the public.
+9. Obtain approval of all IT Acquisitions related to Reportable Projects that exceed the Agency/state entity’s DGS Delegated Purchasing Authority (as defined in SAM Section 4819.2), from the Department of Technology’s Statewide Technology Procurement Division (STPD) prior to release to the public. These IT Acquisitions shall be included with the PAL Stage 3 Solution Development prepared in accordance with SIMM Section 19C. The instructions and time frame for submitting IT Acquisitions to the Department of Technology for review is specified in SIMM Section 05A.
+10. Manage IT projects following the established IT Project Oversight Framework (SIMM Section 45) minimum requirements, to ensure that projects are completed on-time, within budget, and that they accomplish the objectives defined in their Stage 1 Business Analysis.
+11. Protect the integrity of its information management capabilities and databases and ensure the security and confidentiality of information it maintains.
+12. Establish an acquisition planning process for IT project acquisition of IT goods and services as determined by the Department of Technology.
+13. Agencies/state entities shall implement power management practices on all desktop and laptop computing devices, thin client devices, printers copiers, scanners, and monitors. During hours of normal operation, devices which are not in use for 30 minutes shall automatically go into an energy-saving mode. Devices shall be shut down at the end of the normal business day.
+In addition, Agencies/state entities shall fully implement power management software for desktop and laptop devices by December 31, 2010, or six months after the 2010-11 Budget has been enacted, whichever is later. Agencies/state entities shall also implement standby and shutdown practices for all devices within the scope of this policy beginning December 31, 2010.
+Exemptions must be approved in writing by the Agency Information Officer (AIO) or the state entity’s Chief Information Officer (CIO). Exemptions are limited to:
+  • Devices which must remain in active mode to meet state operational needs. An example of a valid exemption would be a desktop computer and monitor utilized to manage batch programs 24 hours per day, seven days per week.
+  • Facilities with electrical service bundled-in with facility lease contracts where Agencies/state entities would not likely receive offsetting benefits from acquired power management software. In this instance, compliance can be achieved through the use of standard operating systems functionality (e.g., Windows).
+If an Agency/state entity fails to meet these requirements, the Agency/state entity will be required to obtain Department of Technology approval before expending any resources on IT projects.
+The project approval process is described in SAM Section 4819.34
+
+EXCLUSIONS - 4819.32
+(Revised: 06/2018 )
+For purposes of IT Project Submittal and Approval, the following are excluded from State Administrative Manual (SAM) Section 4819.34, which defines state project approval authority and responsibility for IT projects:
+1. IT activities directly associated with single-function process-control systems (such as those applied in the controlling of water gates, traffic signals, or environmental systems for buildings), analog data collection devices, or telemetry systems are excluded from SAM Section 4819.34. Process Control, for the purposes of the exclusions from the Department of Technology project approval and oversight, includes automated processing systems that monitors and controls the operation of a single function system, and that can perform that control in isolation from other systems. Examples may include all components necessary to monitor and control the traffic lights at an intersection, the position of water restriction and diversion components in a water supply and distribution system, or to adjust the behavior of a motorized conveyer in response to changes in load and demand.
+Sensors, telemetry devices, alarm and physical entry controls (such as, facility access cards and badge readers) , functional components such as motors or traffic lights, electronic control processors,and the network system that connects those devices into a single-function process control system meet the process control system exclusion.
+Process control should not be interpreted to include information processing and network systems in which data is gathered, stored, transmitted, processed, analyzed, displayed, printed or reported for purposes other than the direct, automatic monitoring and controlling of a single function system, or for the manual review of the performance and activities of that single system.
+Any component that may be added to any process control system, such as additional sensors, processing capacity or network communications capability, that is necessary for use in conjunction with a current or planned IT system must be included in all Project Approval Lifecycle Stage/Gate deliverables, plans, proposals and budget estimates for the IT system.
+2. Projects, activities, or acquisition of telecommunications equipment used exclusively for voice communications. Any project where approval and initiation is within the jurisdiction of the Public Safety Communications Office, per California Government Code Section 15275-15277, such as public safety telecommunications including microwave, satellite, 911, telematics, and radio/rf.
+3. Installations of Voice Over Internet Protocol (VOIP) phone systems that arestand alone and do not interface with other systems on the network.
+4. Acquisition of printers, scanners, and copiers. If any of these components are part of a planned IT system they must be included in all Project Approval Lifecycle Stage/Gate deliverables, plans, proposals and budget estimates for the IT system.
+SAM Section 4819.32 is not an exclusion from SAM Section 4819.3, State Information Management Authority and Responsibility, which applies to all Agencies/state entities.
+Questions regarding exclusions should be directed to your Department of Technology, IT Project Oversight Division (ITPOD) Manager
+
+PROJECT APPROVAL AUTHORITY - 4819.34
+(Revised: 03/2021 )
+Authority for approval of information technology (IT) projects lies with the Department of Technology, but it is the intention of the State’s Chief Information Officer to delegate approval authority to Agency/state entity directors to the maximum extent practicable.
+When an Agency’s/state entity's proposed expenditures on IT are consistent with established policies and when the Agency/state entity has consistently adhered to those policies and successfully implemented IT projects, the Department of Technology will consider delegating authority for the approval of resources to Agency/state entity directors, as defined below.
+The Department of Technology will establish an Agency/state entity-specific cost delegation level, i.e., the project cost level above which the Agency/state entity must obtain project approval from the Department of Technology (see SAM Section 4819.37) before the Agency/state entity is authorized to initiate the project.
+The Department of Technology’s delegations fall into one of four general groups:
+Group 1 – Desktop and Mobile Computing Delegations: Agencies/state entities that have established and currently maintain an acceptable Technology Recovery Plan and plan for the appropriate application of desktop and mobile computing will be delegated authority for the acquisition of equipment and software to support their desktop and mobile computing activities. See SAM Section 4989.2.
+Group 2 – Commercial-off-the-Shelf (COTS) Software and Cloud Software-as-a- Service (SaaS) Delegations: Agencies/state entities are delegated the authority for the approval and acquisition of COTS software and Cloud SaaS solutions which are classified as Delegated (see SAM Section 4819.37 for a list of Project Delegation Criteria). The acquisition must meet “ALL” of the following conditions:
+• Software licenses and consulting services will be acquired through a leveraged purchasing agreement managed by the Department of General Services (e.g. CMAS or MSA) or through one of the Department of Technology’s Data Center Service Offerings.
+• Does not require installation of new hardware on premises at the Agency/state entity or its designated data center.
+• Solution is single purpose use, not mission critical, and used for internal purposes only.
+• Does not exchange confidential or sensitive data with other systems.
+Pursuant to the Cloud Computing policy (SAM Section 4983), Agencies/state entities must utilize Cloud SaaS services provided by the CDT whenever feasible. Additionally, COTS software services provided by CDT must be utilized whenever feasible. Agency/state entities must notify the Department of Technology of all COTS and SaaS acquisitions prior to project initiation as defined in Statewide Information Management Manual (SIMM) Section 22.
+Group 3 – Agency/state entity Delegated Projects: Approval authority for projects which are delegated to the Agency/state entity director. Agencies/state entities undertaking delegated projects are expected to employ appropriate project review, approval, and reporting procedures as specified in SAM Sections 4819.35 and 4819.36. See SAM Sections 4819.37 and 4819.39 for a list of project reporting criteria and a definition of project cost delegation.
+Group 4 – Requested Delegation for Non-Delegated Projects: An Agency/state entity with an acceptable Technology Recovery Plan and an Agency Information Management Strategy that has been approved by the Department of Technology may submit a Project Delegation Request (see SAM Section 4819.38) to the Department of Technology for new projects prior to the encumbrance or expenditure of funds, including the use of staff resources, on the project beyond the Stage 1 Business Analysis. The Department of Technology will review the form and notify the Agency/state entity whether it has been delegated project approval authority for the proposed project. If delegation is not granted, the Agency/state entity must submit a Stage 2 Alternatives Analysis to the Department of Technology for approval.
+1. Among the factors considered by the Department of Technology in determining whether to grant delegated project approval authority:
+  a. The apparent adequacy of the Agency’s/state entity's planning process;
+  b. The cost, scope, and complexity of the IT project;
+  c. The size and composition of project staff;
+  d. The Agency/state entity executive staff's project management experience;
+  e. The level of complexity and completeness of prior Project Approval Lifecycle documentation prepared by the Agency/state entity;
+  f. The number and complexity of previous IT projects attempted by the Agency/state entity;
+  g. The demonstrated ability of Agency/state entity project management staff to successfully monitor, control, and report progress during a complex undertaking; and
+  h. The Agency’s/state entity's past success in applying IT to attain goals on time and within budget and to realize expected objectives.
+2. Delegation of project approval authority will NOT normally be given for projects which:
+  a. Have significant statewide, interdepartmental, or intergovernmental impact;
+  b. Involve the establishment or use of nonstandard or extensive communication facilities;
+  c. Propose software or equipment acquisition expenditures that are large in relation to the Agency’s/state entity's IT budget;
+  d. Have the potential for involving new or unfamiliar technology;
+  e. Produce revenue for the State, such as licensing fees, tax collection, etc.;
+  f. Have a high potential risk associated with the security and confidentiality of the information being processed;
+  g. Involve IT acquisitions that exceed the Agency’s/state entity’s Department of General Services Delegated Purchasing Authority (as defined in SAM Section 4819.2) or
+  h. Depend upon decisions to be made during the development or enactment of the Governor's Budget, such as approval of a Budget Change Proposal or Budget Revision.
+3. Splitting a project into smaller projects to avoid either fiscal or procedural controls is prohibited.
+4. Agencies/state entities undertaking delegated projects are expected to employ appropriate project review, approval, and reporting procedures as specified in SAM Sections 4819.35 (Project Approval Lifecycle) and 4819.36 (Project Reporting/Oversight) below.
+5. All IT projects are subject to audit. Documentation supporting project decisions must be kept by the Agency/state entity for a minimum of two years following approval of the Post-Implementation Evaluation Report (PIER). See SAM Sections 4947-4947.2.
+6. The Department of Technology, at its discretion, may rescind previously delegated approval authority for individual projects or for all IT activities in progress or proposed by an Agency/state entity. The Department of Technology may require that project planning, design, or implementation be halted or redirected.
+ The decision to rescind delegation will typically be based on review (audit) of the Agency’s/state entity's information management practices: review of a specific project; redefinition of the project; significant increases in project cost projections; major cost overruns; specific control language placed on expenditures through legislation (i.e., the Budget Act); identification of significant unresolved technical issues; or a change in the direction of state policy.
+
+PROJECT APPROVAL LIFECYCLE - 4819.35
+(Revised: 01/2016 )
+1. The mechanism for approving IT projects is the Project Approval Lifecycle (PAL). The PAL ensures projects are undertaken with a strong business case, clear business objectives, accurate costs, and realistic schedules.
+2. PAL Stage/Gate deliverables, prepared in accordance with SAM Section 4922 through 4927, and must be approved for every IT project prior to the encumbrance or expenditure of funds on the project, including the use of staff resources, beyond project approval. Agencies/state entities are required to follow the SIMM Section 19 instructions for preparing and submitting the PAL Stage/Gate deliverables.
+3. If, during project development or implementation, the Agency/state entity finds that program requirements cannot be adequately satisfied by the course of action described in the approved Stage 4 Project Readiness and Approval and that an alternative course of action is more appropriate, a Special Project Report (SPR) (SAM Sections 4945-4945.2 and SIMM Section 30) shall be prepared. No encumbrance or expenditure of funds, including the use of staff resources, shall be made to implement such change or alternative course of action until approval has been received from the Department of Technology, or from the Agency/state entity director if the Department of Technology has delegated approval of the project to the director and the project remains within the limitations of the Agency/state entity’s delegated authority. SPRs that must be submitted to the Department of Technology must be transmitted within 30 days after recognition of the situation that necessitates preparation of the SPR.
+Agencies are required to follow the SIMM Section 30 instructions for preparing and submitting the SPR.
+In the event an SPR approved by the Department of Technology results in a procurement that exceeds the Department of General Services Delegated Purchasing Authority, the procurement will be subject to the Department of Technology/Statewide Technology Procurement Division (STPD) approval.
+4. Projects subject to approval by the Department of Technology (non-delegated projects) require submission of PAL Stage/Gate deliverables (beginning at the Stage 2 Alternatives Analysis through the Stage 4 Project Readiness and Approval) to the Office of the Legislative Analyst. See SIMM Section 19.
+5. The Department of Technology will review the procurement planning information in the Stage 2 Alternatives Analysis, as applicable, to evaluate the proposed IT procurement strategy.
+6. Projects whose approval has been delegated to the Agency/state entity’s director normally require all PAL Stage/Gate deliverables to be prepared in accordance with SAM Section 4928 and approved by the Agency/state entity director (SAM Sections 4921 and 4927). A copy of the analysis, and a signed document indicating approval by the Agency/state entity director, must be on file in the Agency/state entity.
+7. The Department of Technology may decide to review specifications in procurement documents before they are advertised to ensure that the specifications are consistent with the solution requirements and proposed architecture in the PAL Stage/Gate deliverables or SPR for the projects. See SAM Section 5211.
+
+PROJECT REPORTING/OVERSIGHT - 4819.36
+(Revised: 04/2017 )
+1. Projects Approved by the Department of Technology–Project reporting documentation submitted to the Department of Technology usually will require:
+  a. Submission of a Special Project Report (SPR) (SAM Sections 4945-4945.2) to the Department of Technology and the Office of the Legislative Analyst, if:
+    1. The total IT project costs deviate or are anticipated to deviate by ten percent (higher or lower) or more, or by more than a specifically designated amount as determined by the Department of Technology, from the last approved estimated IT project budget (to be measured against the combined total of each fiscal year's One- time Project Costs Plus Continuing ProjectCosts);
+    2. The last approved overall project development schedule falls behind or is anticipated to fall behind by ten percent or more;
+    3. The total program benefits deviate or are anticipated to deviate by ten percent (higher or lower) or more from the last approved estimated total program benefits (to be measured against the combined total of each fiscal year's Cost Savings and Cost Avoidances);
+    4. A major change occurs in project requirements or methodology;
+    5. Any conditions occur that require reporting to the Department of Technology as previously imposed by the Department of Technology; or
+    6. A significant change in state policy draws into question the assumptions underlying the project.
+  b. Development of an Independent Project Oversight Report (IPOR), (see SIMM Section 45), on a monthly basis for projects classified by the Department of Technology as medium or high criticality. The Department of Technology may modify the IPOR reporting frequency based on project performance.
+  c. Submission of a Project Status Report (PSR), (see SIMM Section 45) on a monthly basis for projects classified by the Department of Technology as medium or high criticality and quarterly for low criticality projects unless the Department of Technology has specified a more frequent reporting period. Please see SIMM Section 05A for the PSR submittal schedule.
+  d. Submission of a baselined and current Microsoft Project schedule with the submission of each PSR.
+  e. Submission of a Post-Implementation Evaluation Report (PIER) (SAM Sections 4947-4947.2) to the Department of Technology and the Office of the Legislative Analyst at the conclusion of the project.
+  f. The Department of Technology MAY require submission of periodic project reports (SAM Section 4944) to the Department of Technology and the Office of the Legislative Analyst.
+The Department of Technology may require Agencies/state entities to submit an SPR under other circumstances, such as the Agency/state entity's failure to meet a critical milestone or a significant increase in the project's cost in any fiscal year relative to the costs that were forecast when the project was approved by the Department of Technology. Additionally, the Department of Technology may require periodic reviews to be conducted at any point during the project.
+2. Projects Approved by the Agency/state entity Director–Projects for which reporting was delegated to the Agency/state director require at a minimum:
+  a. Appropriate project oversight and project reporting to the Agency/state entity director in lieu of the Department of Technology, and maintenance of documentation in support of Agency/state entity decisions on the project. Documentation should be sufficient to meet the needs of outside auditors and to prepare the PIER. Project oversight activities must comply with the IT Project Oversight Framework (see SIMM Section 45).
+  b. Approval of a PIER (SAM Sections 4947-4947.2) by the Agency/state entity director at the conclusion of the project.
+  c. Submission of an SPR (SAM Sections 4945-4945.2) to the Department of Technology and the Office of the Legislative Analyst if:
+    1. Any criteria listed in SAM Section 4819.37, other than the project's cost exceeding the level the Department of Technology may have delegated to the Agency/state entity, arise during the development or implementation of the project;
+    2. A significant change in state policy draws into question the assumptions underlying the project; or
+    3. The project costs exceed or are estimated to exceed the cost level the Department of Technology may have delegated to the Agency/state entity AND one or more of the following conditions are true:
+      1. The total IT project costs deviate or are anticipated to deviate by ten percent (higher or lower) or more from the estimated IT project budget (to be measured against the combined total of each fiscal year's One- time Costs plus Continuing Costs);
+      2. The overall project development schedule falls behind or is anticipated to fall behind by ten percent or more;
+      3. The total program benefits deviate or are anticipated to deviate by ten percent (higher or lower) or more from the estimated total program benefits (to be measured against the combined total of each fiscal year's Cost Savings and Cost Avoidances); or
+      4. A major change occurs in project requirements or methodology.
+Based on the Department of Technology’s review of the Agency Information Management Strategy (see SAM Sections 4900-4900.6) and its assessment of the Agency/state entity's project management capabilities, the Department of Technology MAY require one or more of the following additional project reporting/oversight responsibilities for projects subject to oversight by the Agency/state entity director:
+1. Submission of the PAL Stage/Gate deliverables and/or approval document(s), signed by the Agency/state entity director, to the Department of Technology and the Office of the Legislative Analyst.
+2. Submission to the Department of Technology of a detailed project schedule showing key milestones during the life of the project;
+3. Submission of periodic project reports (SAM Section 4944) or SPRs (SAM Sections 4945-4945.2) to the Department of Technology and the Office of the Legislative Analyst; or
+4. Submission of a PIER (SAM Sections 4947-4947.2) to the Department of Technology and the Office of the Legislative Analyst at the conclusion of the project.
+Responsibilities and Tasks
+California Department of Technology
+1. The Department of Technology is responsible for developing and maintaining the state-level IT Project Oversight Framework (see SIMM Section 45), which provides the minimum requirements for IT project management, risk management, project oversight, and project reporting activities at the Agency/state entity and control agency levels.
+2. The Department of Technology is responsible for assessing Agency/state entity IT project management and oversight activities to ensure compliance with state-level IT policies and standards. The Department of Technology will assess IT projects to determine the degree to which projects are progressing, in accordance with the planned cost, schedule, and scope as compared to the approved project plan.
+3. The Department of Technology will recommend and pursue prescriptive measures and corrective actions to minimize risk to the state and help ensure that IT projects achieve expected outcomes in accordance with the approved project plan.
+Agencies/state entities
+1. Agencies/state entities are responsible for developing IT strategic plans that are aligned with their business plans and ensuring that IT plans are updated as their business needs and requirements change.
+2. Agencies/state entities have ultimate responsibility and accountability for the successful implementation of their IT initiatives and must implement processes and procedures to facilitate success, including appropriate project management, project delivery, and quality assurance processes and methodologies.
+3. Agencies/state entities are responsible for establishing the required project management and oversight activities and functions defined in the IT Project Oversight Framework (see SIMM Section 45). Each Agency/state entity must update its project management and oversight practices to reflect changes in state policy, processes, and the IT Project Oversight Framework.
+4. Agencies/state entities are responsible for ensuring that projects consistently follow state-level IT oversight policies and requirements, legislative mandates, and applicable laws.
+5. Agencies/state entities are responsible for providing project status information sufficient to allow the Department of Technology to meet its oversight reporting and full disclosure responsibilities.
+
+PROJECT DELEGATION CRITERIA - 4819.37
+(Revised: 03/2021 )
+Pursuant to Government Code Section 11545(a), authority for the approval of Information Technology (IT) Projects resides with the California Department of Technology (CDT), but it is the intention of the State’s Chief Information Officer to delegate approval authority to Agencies/state entities to the maximum extent practicable. IT Projects must be approved or delegated before an Agency/state entity can encumber or expend funds on, or dedicate staff resources to, the IT Project. The following categories identify the criteria for project delegation:
+A. Delegated IT Projects: Pursuant to Government Code Section 11546(b), the CDT will delegate approval authority for IT Projects to Agencies/state entities based on an assessment of the Agency’s/state entity’s project management, project oversight, and project performance. If an Agency/state entity is assessed to be capable in those respects and the IT project does not meet one or more of the criteria identified in paragraph (B), the IT project will be delegated to the Agency/state entity and the Agency/state entity will have approval authority pursuant to SAM Section 4819.34. Those projects are referred to as “Delegated IT Projects.”
+B. Non-Delegated IT Projects: Notwithstanding paragraph (A), IT Projects are considered Non-Delegated if one or more of the following criteria applies:
+  1. Initiation of the IT Project depends upon decisions to be made during the development or enactment of the Governor's Budget, such as approval of a Budget Change Proposal or Budget Revision to increase the Agency’s/state entity’s existing IT activities related to the IT Project;
+  2. The IT Project involves a new system development or acquisition that is specifically required by legislative mandate or is subject to special legislative review, as specified in budget control language or other legislation;
+  3. The IT Project has an anticipated cost that exceeds the Agency’s/state entity’s project cost delegation assigned by the CDT and does not meet the criteria of a desktop and mobile computing commodity expenditure (see SAM Section 4989 – 4989.3);
+  4. CDT and/or the Agency’s/state entity’s Agency Information Officer (AIO) has determined that the IT project has criticality/risk factors that warrant continued approval and oversight authority by CDT.
+IT Projects that meet one or more of these criteria are referred to as “Non-Delegated IT Projects.” However, at any time throughout the Project Approval Lifecycle (PAL), CDT may further delegate “Non-Delegated IT Projects” back to an Agency/state entity based on the risk assessment and evaluation of PAL.
+Non-Delegated IT Projects may be delegated back to an Agency/state entity upon the approval of a Project Approval Lifecycle - Project Delegation Request (PAL-PDR) (see SAM Section 4819.38), with the subsequent approval of PAL Stage/Gate deliverables by the Agency/state entity Director. An Agency/state entity must have a Technology Recovery Plan and an Agency Information Management Strategy that has been approved by the Department of Technology in order to submit a PAL-PDR.
+
+REPORTING EXEMPTION REQUEST - 4819.38
+(Revised: 09/2018 )
+SIMM Section 19E provides instructions for completing the Project Approval Lifecycle - Project Delegation Request (PAL-PDR). Agencies/state entities are required to follow the SIMM instructions for preparing and submitting the PAL-PDR.
+
+PROJECT COST DELEGATION - 4819.39
+(Revised: 03/2021 )
+The California Department of Technology (Department of Technology) assigns each Agency/state entity a minimum total Project Cost Delegation for reporting purposes. See Statewide Information Management Manual (SIMM) Section 15. The Department of Technology delegates to the Agency/state entity the approval authority for any IT proposal with an estimated total development cost equal to or less than the Agency’s/state entity’s assigned Project Cost Delegation, provided the proposal does not meet any other Department of Technology established reporting criteria defined in SAM Section 4819.37.
+The total development cost is synonymous with one-time cost and is defined as all estimated or projected costs associated with the project planning, analysis, design, programming, verification and validation services, staff training, data conversion, acquisition, and implementation of an IT investment. Excluded from development costs are estimated costs of continued operations and maintenance.
+
+EXPENDITURES FOR ONGOING INFORMATION TECHNOLOGY ACTIVITIES - 4819.40
+(Revised: 01/2016 )
+Expenditures in support of an ongoing IT activity will normally not require Department of Technology approval provided that:
+The activity meets the definition of previously approved project/effort as defined in SAM Section 4819.2:
+Applicable activities include meeting modified needs, improving the effectiveness of the activity, program or system maintenance, or extension of existing services to new or additional users performing essentially the same functions as those that the project was designated to support. A previously approved effort/project must use substantially the same equipment, facilities, technical personnel, supplies and software to meet substantially the same requirements or to meet normal workload increases.
+Qualification of an IT activity as a previously approved effort requires an approved FSR or PAL Stage 4 Project Readiness and Approval AND an approved Post Notes:
+1. "Substantially the same equipment" does not include the addition, upgrade or replacement of a Mainframe.
+2. Minor changes in functionality and/or equipment will normally meet the definition of previously approved effort/project. Significant changes in functionality and/or equipment that require budget actions do not meet the definition of previously approved effort/project.
+Example: The Department of Justice maintains a system to enable the ownership registration of handguns. New legislation requires the addition of rifle registration to the system. This added functionality would not require Department of Technology approval.
+Expenditures in support of activities not meeting the above criteria are considered to be new projects, not ongoing IT activities.
+
+CERTIFICATION OF COMPLIANCE WITH IT POLICIES - 4819.41
+(Revised: 03/2021 )
+A signed certification of compliance with state IT policies is required for all IT acquisitions of hardware, software, services, and IT Interagency agreements.
+A certification is not required for:
+a. Acquisitions less than $5,000;
+b. Projects, activities, or acquisition of telecommunications equipment used exclusively for voice communications;
+c. Projects, activities, or acquisitions of Voice over Internet Protocol (VoIP) phone systems that are stand alone and do not interface with other systems on the network.
+Agencies/state entities are required to complete the certification form provided in Statewide Information Management Manual (SIMM) Section 71B and adhere to the preparation instructions provided in SIMM Section 71A. This includes obtaining the required signatures prior to commencing work on an acquisition. The certification must be completed by the Agency/state entity that will directly utilize the procured goods or services. Certifications completed by Agency affiliated state entities must be approved by their governing Agency if the total cost of the IT acquisition exceeds the Agency’s/state entity’s assigned Department of Technology Project Cost Delegation (as identified in SIMM Section 15) or $1 million, whichever is lower. When an acquisition requires the approval of either the California Department of Technology (CDT) or the Department of General Services (DGS) the original signed certification must be submitted with the applicable transmittal document for each IT acquisition transaction (including requests to approve Non-Competitively Bid Justifications and Limited to Brand or Trade Name Statement). For audit and review purposes, a copy of the signed certification must be retained in the Agency’s/state entity’s procurement file. When an acquisition is conducted under purchasing authority granted by the DGS, the original signed certification must be retained in the procurement file.
+
+BUDGET CHANGE PROPOSALS - 4819.42
+(Revised: 11/2016 )
+Budget Change Proposals (BCP) containing specified information technology (IT) components are reviewed by Department of Technology staff and an evaluation is provided to the Department of Finance Program Budget Manager responsible for review of the Agency/state entity’s budget.
+BCPs which request funding for IT projects must be consistent with the Agency/state entity’s Agency Information Management Strategy (see SAM Sections 4900.3-4900.5) and the Conceptually Approved IT Project Proposals Report (see SAM Section 4904). The BCP must be supported by approved Project Approval Lifecycle Stage/Gate deliverables (SAM Section 4928), or Special Project Report (SPR) (SAM Sections 4945- 4945.2) prior to approval of the funding request. In exceptional circumstances, with Department of Technology approval, the funding request may be supported by an approved PAL Reporting Exemption Request.
+Project Approval Lifecycle Stage/Gate deliverables and SPRs must be submitted in the format and within the time frames specified in SAM, SIMM, and Technology Letters issued by the Department of Technology. BCPs must be submitted in the format and within the timeframes specified in annual budget letters issued by Department of Finance. Incomplete or "placeholder" Stage/Gate deliverables or SPRs submitted for consideration with an associated BCP may be returned to the Agency/state entity without consideration.
+
+(Section Reserved 09-29-2023 - Critical Services) - 4828
+
+ (Section Reserved 09-29-2023) - 4828.1
+
+ (Section Reserved 09-29-2023) - 4828.2
+
+(Section Reserved 09-29-2023 - Assessment) - 4828.3
+
+(Section Reserved 09-29-2023 - Remediation) - 4828.4
+
+(Section Reserved 09-29-2023 - Modernization ) - 4828.5
+
+INFORMATION TECHNOLOGY ACCESSIBILITY POLICY - 4833
+(Revised: 04/2025 )
+Services and information provided by state agencies/entities must be accessible to users with all abilities. This includes:
+• Digital services
+• Electronic and information technology (EIT)
+• Public websites
+• Internal websites
+• Information technology (IT) systems
+Under existing federal and state laws and policies, state entities, as well as any contractors or vendors working for them, are responsible for ensuring:
+• Their public website(s) are accessible to the public.
+• Their internal EIT systems are accessible to everyone who needs them, including users with disabilities.
+This policy applies to all new, updated, and existing EIT.
+The following codes govern our accessibility requirements:
+• California Government Code Section 7405.
+• Section 508 of the Rehabilitation Act of 1973 (29. U.S.C. Sec. 794d).
+• Code of Federal Regulations (Part 1194 of Title 36)
+Certain exceptions to accessibility standards may apply if meeting these standards would cause an undue burden. For more information on these exceptions, refer to the State Administrative Manual (SAM) 4833.1, "Exceptions to Accessibility."
+
+EXCEPTIONS TO ACCESSIBILITY - 4833.1
+(Revised: 04/2025 )
+The following exceptions are allowed for compliance with this policy:
+1. National Security Systems:
+  • Information technology (IT) projects for a “national security system” (FAR 39.204 Exception a(1) and 36 CFR 1194.3(a)).
+2. Incidental IT Acquisition:
+  • IT “acquired by a contractor incidental to a contract” (FAR 39.204(a)(2) and 36 CFR 1194.3(b)).
+3. Back Office Exception:
+  • IT projects “located in spaces frequented only by service personnel for maintenance, repair, or occasional monitoring of equipment (FAR 39.204(a)(3) and 36 CFR 1194.3(f)).”
+4. Undue Burden:
+  • Compliance that presents“a significant difficulty or expense,” based on the resources available to the program or component for which the product is being procured.
+5. No Commercial Solution Available:
+  • If no commercial solution is available to meet accessibility requirements.
+6. Fundamental Alteration:
+  • If meeting accessibility requirements fundamentally alters the nature of the product or its components.
+Visit SIMM Section 25, IT Accessibility Resource Guide, for more information.
+
+WEBSITE ACCESSIBILITY CERTIFICATION - 4833.2
+(Revised: 03/2019 )
+Before July 1, 2019 and biennially thereafter, each Agency/state entity shall post on the home page of the Agency/state entity’s internet website a signed certification from the Agency/state entity’s Director and Chief Information Officer certifying that they have determined that the Agency/state entity’s internet website is in compliance with Government Code Sections 7405 and 11135, and the Web Content Accessibility Guidelines 2.0, or a subsequent version, published by the Web Accessibility Initiative of the World Wide Web Consortium at a minimum Level AA success criteria.
+The California Department of Technology (CDT) has adopted the Department of Rehabilitation’s Accessibility toolkit to serve as the standard form that each Agency/state entity’s Chief Information Officer shall use to determine whether the Agency/state entity’s internet website is in compliance with the accessibility standards specified above.
+To meet the certification requirements of this policy, each Agency/state entity may use the optional Website Accessibility Certification form in SIMM Section 25B or develop an Agency/state entity specific form that satisfies the statutory requirements.
+
+INFORMATION TECHNOLOGY INFRASTRUCTURE POLICY - 4834
+(Revised: 06/2015 )
+Agencies/state entities’ information technology infrastructures must enable information sharing across traditional barriers, enhance California's ability to deliver effective and timely services, promote interoperability, support departments and Agencies/state entities in their efforts to improve government functions, and promote migration to enterprise solutions with reduced complexity and support costs.
+
+CALIFORNIA SOFTWARE MANAGEMENT POLICY - 4846
+(Revised: 06/2015 )
+Each Agency/state entity shall establish and maintain appropriate computer software management practices and ensure that computer software they use and/or have purchased with state funds is legally procured and is used in compliance with licenses, contract terms, and applicable copyright laws. Each Agency/state entity shall develop and implement policies and procedures to ensure that all staff understand and adhere to proper software management policies.
+
+SOFTWARE MANAGEMENT PLAN - 4846.1
+(Revised: 06/2015 )
+To prevent software piracy and promote good software management practices, each Agency/state entity must maintain a software management program. Each Agency/state entity must document this effort through a software management plan. See SIMM Section 120 for guidelines on the development and maintenance of this plan.
+
+SOFTWARE MANAGEMENT POLICY REPORTING REQUIREMENTS - 4846.2
+(Revised: 06/2015 )
+Beginning January 31, 2004, and ongoing, each Agency/state entity shall retain internally for three years, by the Agency Information Officer, an annual certification along with the summary of updated inventories conducted by the Agency/state entity as part of its ongoing software management practices. This certification must also identify the individual responsible for ensuring Agency/state entity compliance with the California Software Management Policy, SAM Section 4846. In support of this certification, each Agency/state entity must maintain a detailed inventory report that must be made available upon request to the Department of Technology and/or the Department of General Services. See SIMM Sections 80 and 120 for this and any other reporting requirements.
+
+STATUTORY REFERENCES - 4851
+(Revised: 01/2016 )
+Chapter 834, Statutes of 2006 (SB 834) created the Office of the State Chief Information Officer (OCIO), and its responsibilities were expanded via Chapter 183, Statutes of 2007 (SB 90) as described in Government Code Sections 11545 and 11546.
+Chapter 404, Statutes of 2010 (AB 2408), renamed the OCIO the California Technology Agency (Technology Agency) and transferred the responsibilities of the OCIO to the Technology Agency.
+Chapter 352, Statutes of 2013 (AB 1317) abolished the California Technology Agency and transferred its responsibilities and authority to the California Department of Technology (Department of Technology) within the newly-created Government Operations Agency. (GRP 2, 2012)
+
+INFORMATION TECHNOLOGY TRAINING AND EMPLOYEE DEVELOPMENT - 4854
+(Revised: 08/2024 )
+Purpose:
+The California Department of Technology (CDT) recognizes that training and employee development is primarily a responsibility of management. The purpose of the policy is to ensure the effective training and development of Information Technology (IT) employees within the state. The policy works in congruence with Government Code (GC) section 11545(b)(5) and seeks to improve organizational maturity and capacity in the effective management of the IT workforce at the state entity level by defining the roles and responsibilities of the training coordinator. This policy also aims to ensure that employees possess the necessary skills and knowledge to perform their IT-related responsibilities efficiently and securely. The following policy has been created to facilitate these best practices and key objectives.
+Policy:
+The identification of needs, establishment of priorities, and implementation of training reside at the discretion of each state entity. Each State entity should appoint a training coordinator to assist line management in taking inventory of employee skills, training needs, and professional development and coordinate training efforts with other state entities. The training coordinator shall ensure that the state entity’s IT training shall meet the objectives below.
+Training Needs Assessment:
+Identification of learning and development needs is necessary to ensure each employee is equipped with the right skills and knowledge to perform the job efficiently and to their highest ability. Creating a thorough assessment of the IT employee training needs will be conducted within each state entity. The assessment will consider the current skill levels, job responsibilities, and any emerging technologies relevant to the organization.
+Annual Training Plans:
+The training plan should be linked to California's Statewide Strategic Plan and the state entities’ goals and objectives. The annual training plan must include the type of training, training objective, training delivery, budget, sources of training, and training priority.
+Types of Training:
+The type of training should be identified as part of the training plan development. Examples include:
+1. Instructor-led training
+2. eLearning
+3. Technical training
+4. Mandatory training
+5. Professional development
+6. Simulation employee training
+7. Hands-on training
+8. Coaching or mentoring
+9. Lectures
+10. Group discussion and activities
+11. Role-playing
+12. Management-specific activities
+13. Case studies or other required reading
+Training Objectives:
+The training objectives and goals include specific, measurable, achievable, relevant, and time-bound statements that define what employees are expected to achieve by the end of a training program.
+Training Delivery:
+The training delivery method and process is used to provide instructional content, knowledge, or skills to employees during a training program. It encompasses the strategies and techniques employed to transfer information effectively from instructors to participants. Examples include:
+1. Classroom training
+2. Online or e-learning
+3. Workshops or seminars
+4. On-the-job training
+5. Self-paced learning
+6. On-demand learning
+7. Peer learning
+Source of Training:
+Both formal and informal training contribute to learning and professional development. State entities must work closely with CDT to identify those skill areas where they anticipate the need to contract for technical training with outside vendors. Technical training examples include:
+1. External outsourced state training
+2. External vendor training contract
+3. Internal State entity training
+As such, state entities should assess their training needs and utilize IT training offered by CDT before considering similar training from other sources. This includes contacting CDT and leveraging their equivalent IT training, including leadership academies and specialized bootcamps, before procuring training from outside vendors.
+Training Budget:
+Establishing a training budget is essential for state entities to effectively plan, implement, and manage training initiatives. It ensures employees remain up to date and current on IT technologies and processes, improves return on investment, resource allocation, compliance, and certifications.
+Training Priorities:
+It is recommended that priority be given to the development of those skills necessary in the effective performance of each person's current position. After essential needs are met, career-related training needs may be addressed. We also stress the importance of certification and formal education offerings, which could include paying for certification examinations. This helps with retention, morale and is a proven incentive for staff to remain with a state entity. It’s important to remember that IT exists to meet the needs of business and priorities need to be based on that concept.
+Training Records:
+The organization will maintain accurate records of employee IT training completion. These records will include the date of training, type of training, and the names of employees who have completed the training.
+Evaluation and Feedback:
+Training will routinely be evaluated to determine if the training is effective and how it can be improved. Feedback will be evaluated and provided to those offering the training for refinement and improvement.
+Training Effectiveness:
+The state entity will periodically assess the effectiveness of IT training programs to ensure they meet the intended objectives.
+Exemptions:
+If an organization that is planning to utilize IT training services that are similar to CDT training offerings and determines that the use of a CDT provided training solution is not feasible, they shall submit a Service Request for a Training Exemption for CDT approval before proceeding with the acquisition.
+Exemption Process:
+• Submit a Training Exemption Service Request.
+• Identify and explain the need for the exemption.
+• Obtain the State entity’s CIO and/or AIO approval of the Training Exemption Request.
+• Work with CDT to consider alternative solutions.
+• Maintain a central file of granted CDT Training Policy Exemptions and their related acquisition documents. This file must be made available to CDT upon request for audit purposes.
+• Comply with the Training Exemption Response and all related policies, standards, and guidelines.
+Exceptions:
+This policy does not apply to on-the-job training, state entity in-house training when a vendor is not used, specialized computer-based training modules obtained as part of a hardware or software contract, cooperative training programs developed with other state entities when a vendor is not used, and/or eLearning online subscription-based training.
+Frequently Asked Questions:
+Please refer to our FAQ page for more information.
+
+## Curator notes
+
+Text taken from the Department of General Services' State Administrative Manual chapter view page: the chapter line, then each section's heading, revision line and paragraphs, one line per paragraph, with markup, the site menu, the page's contents table, scripts and non-breaking spaces removed. List numbers and letters, which the page draws with style rules, are written out (1., a., i.); bullets are written as a bullet character.

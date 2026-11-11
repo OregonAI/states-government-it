@@ -1,0 +1,205 @@
+                                 EXECUTIVE ORDER 19-04
+
+                    ONE WASHINGTON: MODERNIZATION OF
+                 STATE ADMINISTRATIVE BUSINESS AND SYSTEMS
+
+WHEREAS, Washingtonians expect higher quality services, faster interactions, more and easier
+access to services and data, stronger data protections, and better outcomes, but our aging
+enterprise administrative technology has grown more vulnerable to threats and potential system-
+component failures of unknown duration that could impact the state economy on a massive scale;
+and
+
+WHEREAS, a statewide business process transformation is needed to institute efficiencies and
+improve accountability; and
+
+WHEREAS, the current patchwork environment of legacy and other systems without common
+data standards and definitions lacks comprehensive data to aid in critical decision making; and
+
+WHEREAS, reliance on old legacy systems and technology increases Washington’s technical
+debt and requires recruiting a scarce and diminishing workforce; and
+
+WHEREAS, Washington State is a technology and innovation leader and has one of the
+strongest economies in the country. While our state government biennial budget totals $118
+billion, we still conduct operations with a system developed in a computer language for which
+there are few resources that can support it. This greatly complicates and compromises our ability
+to meet the fiscal responsibilities entrusted to us by our residents; and
+
+WHEREAS, a secure, integrated technology solution in human resources and payroll will link
+organizational strategies to talent management initiatives and drive employee engagement and
+productivity by leveraging modern workforce technology; and
+
+WHEREAS, a secure integrated-technology solution in finance and budget will promote wider
+accountability of state spending and purchasing while improving transparency and alignment
+with strategic legislative, executive and agency goals; and
+
+WHEREAS, implementing a secure integrated-technology solution in procurement will create a
+standard process across the state, identify cost savings in goods and services across the
+enterprise, yield data to better leverage the collective purchasing power of the state, boost
+environmentally sound purchasing, and increase opportunities for state contracts with women-
+owned, minority-owned and veteran-owned businesses; and
+
+WHEREAS, in the 2013-15 biennium, the Legislature funded a business case for developing a
+strategy for business transformation and replacement of the state’s aging financial and human
+resource systems, and for implementation of modern enterprise resource planning technology.
+After development of the business case, the One Washington program began readiness activities
+in the 2015-17 biennium to prepare the state for modern technology implementation. These
+readiness activities continue;
+
+NOW, THEREFORE, I, Jay Inslee, Governor of the state of Washington, by virtue of the
+power vested in me by the Constitution and the statutes of the state of Washington do, effective
+immediately, hereby order and direct as follows:
+
+To the One Washington program:
+
+1.   Establish program governance for effective management and partnership.
+     a.   Establish an executive steering committee composed of key Washington State
+          executive branch agency leaders to serve as the overall governing body for the One
+          Washington program.
+     b.   The Office of Financial Management’s (OFM) deputy director is designated as the
+          executive sponsor and chair of the executive steering committee.
+     c.   Establish other decision-making bodies, including a business transformation board
+          and advisory committees, to support the executive steering committee’s work. These
+          bodies should include agency subject-matter experts who share the goal of informing
+          program decision-making with their business and operational expertise.
+     d.   Ensure that OFM, as business owner for the finance, budget, human resources, and
+          payroll systems, and the Department of Enterprise Services (DES) as the business
+          owner of the procurement function, will:
+           i. Guide the work of the business transformation board and the advisory
+                committees.
+          ii. Implement policies and services necessary for the transformation.
+         iii. Assist in the modernization of business processes and technology systems.
+         iv.    Help lead the development and implementation of a change-management
+                framework.
+     e.   Ensure executive branch agencies are represented in the One Washington program
+          governance, and develop an issue resolution plan to escalate decisions within the One
+          Washington program governance structure to the executive steering committee when
+          necessary.
+
+2. Deliver business transformation.
+    a.    The initial scope of business transformation will be finance, although all five core
+          administrative functions (finance, procurement, human resources, payroll and budget)
+          will also be updated. A new financial system will be implemented by 2025.
+    b.    Support agencies in the business transformation work outlined below.
+    c.    Facilitate development and implementation of the policies, processes and services
+          necessary to transition and integrate, where appropriate, legacy business systems with
+          secure modern technology.
+
+                                                2
+
+3.   Modernize technology.
+     a.  Lead the modernization of technology systems through selection, implementation and
+         stabilization of high quality, cost-effective, secure, and modern technology solution(s)
+         that will:
+          i. Enable core business transformation and standardization across agencies and
+               improvements to service delivery to Washingtonians.
+         ii.   Support modern business needs for information:
+               1. Provide real-time access to data to support operations and decision-making.
+               2. Collect and integrate data so decision makers have enterprise views and can
+                    easily make comparisons across the enterprise.
+               3. Maintain a system that serves as the official state record for these business
+                    processes.
+               4. Ensure security, privacy, data integrity, and data quality.
+        iii. Maintain critical enterprise business capabilities while fulfilling the state’s role
+               in ownership and operation of information technology infrastructure in
+               alignment with the state’s IT strategic plan.
+        iv. Enable strategies, such as limiting software customizations and optimizing
+               configuration tools that ensure that system updates can be installed with
+               minimal cost and effort. These strategies will help keep core system(s) up-to-
+               date so data security and privacy are maintained and new features are made
+               available to agencies without reliance upon additional software development.
+               This will align with the state’s IT strategic plan.
+         v.    Partner with Consolidated Technology Services (WaTech) in accordance with
+               chapter 43.105 RCW.
+     b.  Ensure that technology solution(s) will be fully compliant with industry-standard best
+         practices, federal standards, Office of Chief Information Officer policy, and state and
+         federal law related but not limited to security, accessibility and privacy.
+
+4.   Provide organizational change management support.
+     A formal organizational change management effort is critical to ensure successful
+     preparation, implementation, adoption, and maintenance of the new technology,
+     governance, business processes, policies, and services that this project will deliver. State
+     employees need adequate support to prepare for and transition to new processes and
+     systems. The One Washington program will:
+     a.   Lead the development and implementation of the enterprise organizational change
+          management framework, in collaboration with agencies.
+     b.   Work with agencies to define roles and responsibilities needed at the state and agency
+          levels to implement and sustain the organizational change management for our
+          employees to be informed, prepared, and involved and to gain confidence with the
+          business transformation.
+     c.   Design and support agency readiness activities and assessments through a proven
+          methodology and framework.
+
+5.   Monitor results.
+     Continue to provide quarterly reports to the Legislature as work is completed. The One
+     Washington program is expected to produce results that support Results Washington
+
+                                               3
+
+     Goal 5 to increase customer satisfaction and employee engagement, resource stewardship,
+     transparency and accountability.
+
+To executive branch agencies:
+
+1.   Deliver business transformation.
+     a.   Transform the state’s core business functions through the One Washington program
+          by modernizing the systems, processes and technology to improve efficiency,
+          effectiveness, and customer satisfaction in alignment with Results Washington Goal 5
+          including:
+           i. Standardize business processes across the enterprise to drive efficiencies today,
+                capitalize on opportunities, and prepare for future challenges.
+          ii. Provide sustained commitment to this enterprise strategy.
+                1. Recognize that agency-specific customization is inconsistent with this
+                    enterprise solution and creates risk, higher costs, and system vulnerabilities
+                    for the state.
+                2. Avoid agency-level customization requests for program review.
+                3. Enable interfaces to permit real-time, data-driven decision making, data
+                    transparency, and data connectivity.
+         iii. Create business-process efficiencies with streamlined approvals and decision
+                making, and greater employee engagement.
+         iv.    Work to design enterprise workflows that foster interagency collaboration,
+                lower risk, support employee mobility, and provide visible financial controls.
+          v.    Maintain focus on greater transparency of government consistent with chapter
+                42.56 RCW, Washington’s Public Records Act.
+     b.   Deliver value and benefits to the public through modernization of business processes
+          that foster enterprise-wide collaboration and innovation.
+     c.   Engage with the program and system integrator to ensure the software solution is
+          appropriately designed and configured. This work will include determining the
+          appropriate system interfaces consistent with the One Washington program approach.
+     d.   Work with the One Washington program to implement and sustain the organizational
+          change management necessary for our employees to be prepared, informed and
+          involved and to gain confidence with the business transformation.
+     e.   Provide agency engagement, support, and leadership critical to the success of this
+          endeavor.
+     f.   Provide expert resources to sustain the partnership and agency input for this program.
+     g.   Ensure legacy data is migrated and maintained consistent with this effort and
+          applicable laws.
+     h.   Ensure the new financial system is implemented by 2025.
+
+2.   Monitor results.
+     Report to the executive director of the One Washington program as work is completed,
+     with a quarterly report on progress provided by the second month of each quarter beginning
+     in February 2020.
+
+                                                4
+
+I invite other statewide elected officials, institutions of higher education, agencies of the
+judiciary, agencies of the Legislature, and boards and commissions to follow the provisions of
+this Executive Order.
+
+This Executive Order shall take effect immediately.
+
+Signed and sealed with the official seal of the state of Washington on this 30th day of October,
+2019 at Olympia, Washington.
+
+                                               By:
+
+                                               /s/
+                                               Jay Inslee
+                                               Governor
+
+ BY THE GOVERNOR:
+
+ /s/
+ Secretary of State
+
+                                                5

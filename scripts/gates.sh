@@ -16,8 +16,10 @@ run "frontmatter"    corpus-validate-frontmatter --config _meta/corpus.yml
 run "provenance"     corpus-verify-provenance --config _meta/corpus.yml
 run "graph current"  python3 src/build_graph.py --check
 run "status current" corpus-generate-status --config _meta/corpus.yml --output STATUS.md --check
+run "seed list"      python3 src/check_seed_list.py --check
+run "ingest current" python3 src/ingest.py --check
 run "codeowners"     python3 .github/scripts/check-codeowners-paths.py
-run "ingester loads" python3 -c "import src.ingest_example"
+run "ingester loads" python3 -c "import src.ingest"
 if ls tests/test_*.py >/dev/null 2>&1; then run "unit tests" python3 -m pytest tests/ -q; fi
 
 [ $fail -eq 0 ] && echo "ALL GATES PASSED" || echo "GATES FAILED"

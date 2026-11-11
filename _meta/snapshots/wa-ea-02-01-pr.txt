@@ -1,0 +1,76 @@
+ EA-2-01-PRO                                                                             Replaces:
+ State CIO Adopted: 7/19/2023                                                                  N/A
+ TSB Approved:
+ Sunset Review:
+
+                                       ENTERPRISE SERVICE PROPOSAL
+ See Also:
+ RCW 43.105.054 OCIO Governance
+ RCW 43.105.265 (1) Enterprise Strategy
+ RCW 43.105.205 (3) Higher Ed
+ RCW 43.105.825 (4) K-20 Network
+ EA-2: Establishing an Enterprise Service
+
+SUBMITTING AGENCY NAME:
+
+NAME OF PROPOSED ENTERPRISE SERVICE:
+
+PROPOSED BUSINESS OWNER:
+
+DESCRIPTION OF THE SERVICE:
+
+ENTERPRISE SERVICE CONSIDERATIONS:
+
+1. Is this a current service?
+
+                                  Yes              No
+
+         a. If yes, what is the justification for elevating this to an enterprise service.
+
+         b. If not a current service, what is the business problem to be solved or benefit
+            gained by creating a new enterprise service?
+
+2. Provide Links to laws, policies and standards, or regulatory requirements that apply
+   across agencies, if any.
+
+3. What is the current or planned ongoing funding or rate model?
+
+                                                                                                1
+
+4. Are investments in the service necessary to bring it up to an enterprise service
+   level? If yes, have funds been identified and are there planned project(s)?
+
+5. What may trigger a change in the funding or rate model after the service is
+   established?
+
+6. Who is the expected customer base? For example: statewide or agencies with an
+   industry focus.
+
+7. How does this align with the WaTech roadmap and the strategic action plan goals?
+
+8. Can the enterprise service scale to meet the maximum customer demand? If not,
+   what changes are needed to the platform, hardware, software or what additional
+   resources are required for the service to scale.
+
+9. Describe how the proposed enterprise service provides a cost model or rate that
+   provides lower costs as volume increases.
+
+ TIMELINE FOR ADOPTION:
+
+   1. Describe the planned pace of adoption.
+
+   2. Total planned duration for adoption by all agencies in scope.
+
+   3. Barriers to adoption.
+
+   4. Define triggers for agency adoption. Examples could include agency investments
+      for maintenance, enhancements, replacement, or acquisition of a similar system.
+      Explain the overall strategy for adoption.
+
+                                                                                      2
+
+CONTACT/SUBMISSION:
+
+  For questions or to submit this form, please contact WaTech’s policy mailbox.
+
+                                                                                  3

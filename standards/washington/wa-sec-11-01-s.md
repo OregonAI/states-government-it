@@ -1,0 +1,236 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: washington
+id: wa-sec-11-01-s
+title: Risk Assessment Standard
+doc_type: standard
+citation: WaTech Standard SEC-11-01-S
+authority_level: ''
+issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
+source_url: https://watech.wa.gov/sites/default/files/2024-09/SEC-11-01-S_Information_Security_Risk_Assessment_Standard.pdf
+source_format: pdf
+retrieved: '2026-11-10'
+source_sha256: 7ac338a5558aa9b618f0883bedfee3eab6068e14ddec42f7ecda9cd186ee21a3
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Risk Assessment Standard (WaTech Standard SEC-11-01-S)
+
+## At a glance
+
+Item of the WaTech policy library, chapter '4. IT Security' (listed as type Standards). Listed at https://watech.wa.gov/policies/risk-assessment-standard.
+
+## Full text
+
+SEC-11-01-S                                                                                                  Replaces:
+State CIO Adopted: June 8, 2023                                                      IT Security Standard 141.10 (1.2.1)
+TSB Approved: June 8, 2023                                                                          December 11, 2017
+Sunset Review: June 8, 2026
+
+                             RISK ASSESSMENT STANDARD
+See Also:
+RCW 43.105.054 WaTech Governance
+RCW 43.105.052 Powers and duties of agency—Application to higher education, legislature, and judiciary.
+RCW 43.105.020 (22) “State agency”
+RCW 43.105.450 Office of Cybersecurity
+Risk Management Framework for Information Systems and Organizations (RMF).
+NIST SP 800-30. R1, Guide for Conducting Risk Assessments
+NIST SP 800-39 Managing Information Security Risk
+CIS Critical Security Controls
+SEC-11 Information Security Risk Management Policy
+SEC-02 Security Assessment and Authorization Policy
+SEC-11-02-S Vulnerability Management Standard
+
+    1. Agencies must conduct risk assessments at critical points:
+
+                 a. Prior to the acquisition of an information system, cloud service, or
+                    managed service which will store, process, or transmit category 3 or
+                    category 4 data.
+
+                 b. When an existing agency-controlled information system undergoes a
+                    significant change in technology or use. Examples include significant
+                    software upgrades, changes in hosting platforms or vendors, or changes
+                    in the data categorization or volume of records stored, processed, or
+                    transmitted by the system.
+
+                 c. At least once every three years for all agency-controlled information
+                    systems that store, process, or transmit category 3 or category 4 data.
+
+                 d. Annually for information systems the agency deems to be business
+                    essential.
+
+                 e. Prior to the sharing of category 3 or category 4 data as with agencies
+                    and/or vendors. See SEC-08 Data Sharing Policy and SEC-08-01-S Data
+                    Classification Standard for details.
+
+                 f. When a security patch is not applied.
+
+                                                                                                                  1
+
+2. Agencies must prepare for the risk assessment by identifying the purpose, scope,
+   assumptions and constraints, threat intelligence sources, and risk model and
+   analytic approach.
+
+         a. Identify Purpose: Agencies must identify how it will use the risk
+            assessment and the information needed to achieve that goal.
+
+         b. Identify Scope: Agencies must identify the scope in terms of the
+            technology/systems to be assessed, the categorization of data
+            processed by those systems, and the risk owners for those systems.
+
+         c. Identify Assumptions and Constraints: Agencies must identify the
+            specific assumptions and constraints under which the risk assessment is
+            conducted.
+
+         d. Identify Threat Intelligence Sources: Agencies must identify the sources
+            of descriptive, threat, vulnerability, and impact information to be used in
+            the assessment. WaTech risk management resources that are
+            designated for this purpose satisfy this standard.
+
+         e. Identify Risk Model and Analytic Approach: The methodology described
+            in this standard provides agencies with a baseline risk assessment
+            approach. Agencies must identify any supplemental risk models and/or
+            analytic approaches appropriate to the risk assessment goals.
+
+3. Agencies must conduct risk assessments to identify threat sources, threat events,
+   likelihood, impact, and risk.
+
+         a. Identify Threat Sources: Agencies must identify and characterize threat
+            sources of concern to assets within the scope of the assessment;
+            including capability, intent, and targeting characteristics for adversarial
+            threats and range of effect for non-adversarial threats. The Vulnerability
+            Management Standard includes threat intelligence requirements.
+
+         b. Identify Threat Events: Agencies must identify actions that threat sources
+            may initiate exploit vulnerabilities. The Vulnerability Management
+            Standard includes requirements for threat event identification. This
+            includes vulnerabilities identified by vendors or those discovered using
+            hardware/software vulnerability scans.
+
+         c. Determine Likelihood: Agencies must estimate the likelihood that threat
+            events of concern result in adverse impacts, considering:
+                     i.   The characteristics of the threat sources that could initiate
+                          the events.
+
+                                                                                          2
+
+          ii.     The vulnerabilities identified.
+          iii.    The organizational susceptibility reflecting the
+                  safeguards/countermeasures planned or implemented to
+                  impede such events. Likelihood can be expressed either
+                  qualitatively, quantitatively, or semi-qualitatively
+                  depending on agency needs.
+          iv.     Agencies must base their qualitative likelihood criteria on
+                  the below likelihood scale:
+
+     Likelihood        Likelihood             Chance of the Risk
+       Rating         Measurement             Occurrence Within
+                                                   a Year
+        High                 5          Greater than 80%
+
+     Moderately                         Greater than 60% and less than/equal to 80%
+                             4
+       High
+
+     Moderate                           Greater than 40% and less than/equal to 60%
+                             3
+     Moderately                         Greater than 20% and less than/equal to 40%
+                             2
+       Low
+        Low                  1          Less than/equal to 20%
+
+d. Determine Impact: Agencies must determine the adverse impacts from
+   the threat events of concern, considering:
+
+           i.     The characteristics of the threat sources that could initiate
+                  the events.
+           ii.    The vulnerabilities identified.
+          iii.    The organizational susceptibility reflecting the
+                  safeguards/countermeasures planned or implemented to
+                  impede such events.
+          iv.     Agencies must base their qualitative impact criteria on the
+                  below impact scale:
+
+                       Impact Rating          Impact Measurement
+                            High                        5
+                      Moderately High                   4
+                         Moderate                       3
+                      Moderately Low                    2
+                            Low                         1
+
+                                                                                  3
+
+           e. Determine Risk: Agencies must identify the risks posed by threat actors
+              attacking vulnerabilities within the assessment scope.
+                           i.   Inherent risk is calculated as follows:
+
+                                        Impact * Likelihood (1-5) = Inherent Risk
+
+                           ii. Agency must rank their qualitative risk ratings on the scale
+                               below:
+
+                                                     Likelihood
+           Inherent Risk          High      Moderately    Moderate Moderately        Low
+                                   (5)       High (4)       (3)     Low (2)           (1)
+
+              High (5)             25           20           15            10         5
+
+               Moderately          20           16           12            8          4
+        Impact High (4)
+              Moderate (3)         15           12            9            6          3
+              Moderately           10            8            6            4          2
+              Low (2)
+              Low (1)              5             4            3            2          1
+
+4. Agencies must communicate and share risk assessment results.
+
+               a. Agencies must communicate and share risk assessment results to
+                  appropriate agency decision makers and interested parties to
+                  support risk response.
+
+               b. Agencies must share risk-related information produced during the
+                  risk assessment with appropriate organizational personnel.
+
+               c. Agencies are encouraged to consult with WaTech regarding any
+                  project to determine whether a security design review and risk
+                  assessment is recommended.
+
+REFERENCES
+
+   1.    Definition of Terms Used in WaTech Policies and Reports.
+   2.    SEC-08 Data Sharing Policy.
+
+                                                                                              4
+
+  3.   SEC-08-01-S Data Classification Standard.
+
+CONTACT INFORMATION
+
+  •    For questions about this policy, please email the WaTech Policy Mailbox.
+  •    For technical assistance, please email Risk Management.
+
+                                                                                  5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

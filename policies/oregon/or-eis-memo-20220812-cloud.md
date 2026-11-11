@@ -1,0 +1,88 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: oregon
+id: or-eis-memo-20220812-cloud
+title: EIS Mandatory Cloud Services
+doc_type: policy
+citation: State CIO Memorandum, 2022-08-12
+authority_level: ''
+issuing_body: Enterprise Information Services
+source_url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/eis-memo-cloud-strategy-utilization-20220812.pdf
+source_format: pdf
+retrieved: '2026-11-10'
+source_sha256: 8183346b1a4332aa3ec9fa62a1a0de2a1e3d603fd5cf6a546bfcd7daa02c9837
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# EIS Mandatory Cloud Services (State CIO Memorandum, 2022-08-12)
+
+## At a glance
+
+Requires agency public cloud use to go through the EIS Cloud Service unless the State CIO authorizes an exception. Listed on the EIS page as 'EIS Cloud Strategy Utilization'.
+
+## Full text
+
+                                                        Department of Administrative Services
+                                                                        Enterprise Information Services
+             Kate Brown, Governor
+                                                                            550 Airport Rd SE, Suite C
+                                                                                      Salem, OR 97301
+                                                                                PHONE: 503-378-3175
+
+To:    All Agency Directors and Agency IT Leadership
+
+From: Terrence Woods
+      State Chief Information Officer
+
+Date: August 12, 2022
+
+Re:    Enterprise Information Services (EIS) Mandatory Cloud Services
+
+The public cloud presents many benefits and opportunities for increased availability, flexibility,
+scalability and reliability of state services delivered by Information Technology. The cloud is
+another technology platform available for Oregon government that provides value for the
+populations we serve. As agencies move towards modernizing computer systems and service
+delivery, the cloud is an option to consider.
+
+EIS is preparing Cloud Brokering and Managed Services for Executive Branch agencies. As
+another technology platform, the service offering is guided by ORS 276A requiring oversight
+and coordination of the planning, budgeting, architecture and standardization, consolidation,
+acquisition and security of all information and telecommunications technology by state
+government and agencies. As such, any current and future needs and use of public cloud
+services must utilize the EIS Cloud Service unless an exception has been authorized by the State
+CIO. This is to ensure state agencies’ plans and activities are addressed in the most integrated,
+economic and efficient and secure manner; in a manner that minimizes duplication,
+fragmentation, redundancy and cost in state government operations; and in a manner that most
+effectively meets state government and state agency program needs.
+
+Requests for Cloud Services may be submitted to Data Center Services using the Ivanti Ticketing
+System.
+
+An Assistant State CIO will work with agencies currently using Cloud Services outside of the
+EIS managed environment to make plans for their transition to EIS Cloud Services or submit a
+request for exception.
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

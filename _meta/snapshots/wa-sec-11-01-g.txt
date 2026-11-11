@@ -1,0 +1,1019 @@
+Electronic Signature Guidelines
+
+                     v 1.0, April 2016
+
+Table of Contents
+  Purpose  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 1
+  Background  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 2
+  These Guidelines  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3
+  Determining the Need for a Signature  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 3
+  Definitions and Characteristics of an Electronic Signature  .  .  .  .  .  .  .  .  .  .  .  .  . 4
+  Required Electronic Signature Components  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 6
+  Records Management  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 9
+  Business Analysis and Risk Assessment  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 10
+  Drafting Your Policy  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 15
+  Submitting Your Policy to the OCIO  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  . 19
+  Attachment A: Electronic Signature Procurement Related Resources  .  .  .  .  .20
+
+                                                                                    Purpose
+                                                  This document provides Electronic Signature
+The following individuals were members            Guidelines for Washington state agencies to:
+of the Electronic Signature Workgroup
+and participated as subject matter experts         1.	 Help agencies determine if, and to what extent,
+throughout the drafting and review of these            their agency will implement and rely on electronic
+                                                       records and electronic signatures.
+Guidelines.
+                                                   2.	 Provide agencies with information they can use
+Julie Blecha, Secretary of State                       to establish policy or rule governing their use and
+Scott Bream, Washington Technology Solutions           acceptance of electronic signatures.
+Deborah Carr, Department of Early Learning         3.	 Provide direction to agencies for sharing of their
+                                                       policies with the Office of the Chief Information
+Cindy Cavanaugh, Department of Licensing
+                                                       Officer (OCIO) pursuant to state law.
+Johnna Craig, Office of the State Treasurer
+                                                  These Electronic Signature Guidelines were developed
+Bruce Dempsey, Department of Health               in partnership with representatives from fourteen
+                                                  Washington state agencies. They are intended to be used
+James Gayton, Health Care Authority
+                                                  to help state agencies best make risk-based decisions
+John Ginther, State Board for Community and       regarding electronic signatures and electronic records.
+Technical Colleges
+Sean Krier, Department of Health
+Mark Lyon, State Office of the Attorney General
+Roselyn Marcus, Office of Financial
+Management
+Troy Niemeyer, State Auditor’s Office
+Wolfgang Opitz, Office of the State Treasurer
+Meredithe Quinn-Loerts, Department of Social
+and Health Services
+Becci Riley, Department of Enterprise Services
+Ryan Smith, Washington Department of
+Veterans Affairs
+Monika Vasil, Department of Social and Health
+Services
+Russell Wood, Secretary of State
+
+                                                                                                       Page 1
+
+Background
+The use of electronic records and electronic signatures
+can significantly reduce costs, simplify transactions,
+and speed up transaction time. Until recently there has
+remained some confusion under Washington law about
+whether state agencies can use electronic signatures to
+authenticate electronic transactions and what kind of
+technology is permissible.
+
+The law authorizing state agencies to utilize electronic
+signatures in the conduct of governmental affairs
+and other transactions is codified in Chapter 19.360
+RCW. It provides that “the legislature, to the extent not
+already authorized by federal or state law, authorizes
+electronic dealings for governmental affairs” and
+“intends to promote electronic transactions and remove
+barriers that might prevent electronic transactions with    However, there may be other state or federal laws that
+governmental entities.” 1                                   require use of electronic signatures or writings. Each
+                                                            agency will need to conduct its own evaluation of the
+Unless otherwise provided by law or agency rule, state      relevant requirements. Each agency will also need to
+agencies may use and accept electronic signatures with      conduct its own business assessment and risk analysis of
+the same force and effect as that of a signature affixed    agency electronic transactions to determine if electronic
+by hand.2 Where a “writing” is required by statute, an      signatures are appropriate, and identify the processes
+electronic record may be used, and whenever the term        and technology necessary.
+“mail” is used,3 the term includes the use of email or
+other electronic system, if authorized by an agency rule
+or policy.4
+
+Each state agency may determine whether and to what
+extent it will use and rely upon electronic records and
+electronic signatures. Unless otherwise required by
+law, a state agency is not required to send or accept
+electronic records or electronic signatures for an agency
+transaction.5
+
+1        RCW 19.360.010
+2        RCW 19.360.020
+3        RCW 19.360.040
+4        RCW 19.360.050
+5        RCW 19.360.020(2)
+
+Page 2
+
+                                                                    Determining the Need
+These Guidelines                                                          for a Signature
+In accordance with RCW 19.360.020(4), the Washington          Agencies should first determine whether a signature is
+State Chief Information Officer (CIO), in coordination        required or desired. When evaluating whether to use
+with state agencies, must establish standards, guidelines,    an electronic signature for a particular transaction, it is
+or policies for the electronic submittal and receipt of       important to ask two questions:
+electronic signatures by state agencies, taking into
+account reasonable access and reliability for persons           1.	 Is it legally required, and/or;
+participating in governmental affairs and governmental          2.	 Is an electronically signed transaction desirable.
+transactions. A state agency's policy or rule on electronic
+submissions and signatures must be consistent with
+                                                              Legal Requirement for a Signature
+                                                              In many cases, a transaction is governed by a law or
+policies established by the CIO.6
+                                                              regulation that requires the presence of a signature
+                                                              before it will be considered legally effective.
+
+                                                              As a first step, agency staff should review law(s)
+                                                              applicable to the transaction and determine if a
+                                                              signature is required. If so, conducting the transaction
+                                                              electronically requires an electronic signature.
+
+                                                              Transaction-Based Need for a Signature
+                                                              If there is no legal requirement for a signature on a
+                                                              particular type of transaction, it is recommended that
+                                                              agency staff undertake a further analysis to evaluate the
+                                                              desirability of incorporating a signature. An electronic
+                                                              signature may be desirable where there is a:
+
+These guidelines satisfy the statutory requirement              yy Need for Emphasizing the Significance of
+to provide state agencies with information they may                the Transaction. A signature reinforces the
+use to implement electronic signatures and engage in               significance of the undertaking. It gives the
+electronic transactions as contemplated by Chapter                 transaction a formal tone and drives home to the
+19.360 RCW.                                                        signing party the seriousness of the undertaking.
+                                                                   In essence, it performs a cautionary function. It
+While these guidelines are being provided by the                   also gives the signing party a signal that they are
+CIO, state agencies shall be ultimately responsible for            entering into a legally binding transaction so the
+determining how and when electronic signatures and                 party understands the nature and importance of
+electronic records will be used, and agencies shall be             the transaction.
+responsible for any liability that may result from their
+use.                                                            yy Need for Binding a Party to the Transaction. If
+                                                                   the transaction involves an intent element (e.g.,
+6       RCW 19.360.020(4)
+                                                                   agreement, approval, acknowledgment, receipt,
+                                                                   witnessing, etc.), a signature may be useful to help
+                                                                   formally bind a person to that reason for signing
+                                                                   and make it more enforceable (e.g., to mitigate
+                                                                                                                       Page 3
+
+                                                                                       Definition and
+                                                                                 Characteristics of an
+                                                                                 Electronic Signature
+         concerns regarding repudiation). Likewise, where             RCW 19.360.030(2) defines an electronic signature as:
+         there is a risk of fraud, a signature might be useful
+         for enforcing enhanced criminal penalties. Thus,               “An electronic sound, symbol, or process, attached to
+         where evidence of a party’s intent is important to             or logically associated with an electronic record and
+         the transaction, a signature can provide evidence              executed or adopted by a person with the intent to
+         of deliberation and informed consent.                          sign the record.”
+
+Analysis for determining whether an electronic signature              This definition affords the parties to an electronic
+is required or desired for an electronic transaction can be           transaction the greatest possible flexibility in selecting
+summarized in Table 1.                                                an appropriate electronic signature solution. However,
+                                                                      it also sets some parameters on what constitutes an
+                        Signature Required       Signature NOT        electronic signature.
+
+    Table 1            by Law or Regulation
+                       Governing Transaction
+                                               Required by Law or
+                                                   Regulation
+                                                                      “An electronic sound, symbol, or process”
+                                                                      A wide range of digital objects may serve as an electronic
+                                                                      signature. A digital object is any discrete set of digital
+ There is a Need for
+                                                                      data that can be individually selected and manipulated.
+ Emphasizing the        Electronic Signature   Electronic Signature
+                                                                      This can include shapes, pictures, a string of numbers,
+ Significance of the          Required            Recommended
+ Transaction                                                          or characters that appear on a display screen, as well
+                                                                      as less tangible software artifacts. These objects can
+ There is a Need                                                      be as simple as a set of keyboarded characters or as
+ to Bind a Party to     Electronic Signature   Electronic Signature   sophisticated as an encrypted hash of a document’s
+ a Specific Intent            Required            Recommended         contents.
+ Transaction
+                                                                      A process can also serve as an electronic signature. A
+                                                                      process can create an electronic signature when a system
+                                               Electronic Signature   used to create a signed e-record associates the recorded
+ All Other              Electronic Signature
+                                                 Optional or Not
+ Transactions                 Required                                events of accessing an application with the content
+                                                     Needed
+                                                                      to be signed, thereby creating a virtual record of the
+                                                                      signer’s actions and intent. Often such signing processes
+                                                                      also utilize a password, PIN, or other digital object for
+                                                                      authenticating the signer.
+
+                                                                      “Attached to or logically associated with”
+                                                                      A penned signature becomes part of the paper
+                                                                      document and remains with the document during
+                                                                      transit and after it is filed. An electronic signature is
+                                                                      considered to be “attached to or logically associated with
+                                                                      an electronic record” if the electronic signature is linked
+                                                                      to the record during creation, transmission and storage.
+
+Page 4
+
+                                           “An electronic sound, symbol, or process, attached to or
+                                     logically associated with an electronic record and executed or
+                                           adopted by a person with the intent to sign the record.”
+
+The linking of the e-record to an electronic signature       the Records Management section of these guidelines
+can be achieved by various means. For instance, a digital    for information on the retention and preservation of
+signature, which is a kind of electronic signature, can be   electronically signed records.
+a discrete digital object that is embedded as part of the
+document in the same manner as an ink signature.             “Executed or adopted by a person with
+                                                             intent to sign the record”
+Alternatively, an electronic signature can be an object      The essence of a signature is to identify the signer and
+associated with the document through an embedded             signify that he or she understood and intended to carry
+link. If the signing object is not embedded in the           out whatever was stipulated in the signed document.
+e-record, it must be maintained separately but logically
+associated with the record through a database, index, or     Washington law does not require any specific level
+other means.                                                 or method of signer identification or authentication.
+                                                             However, the identification and authentication methods
+When a process serves as an electronic signature,            used for a given transaction should be sufficient to
+the system used to create a signed e-record logically        support the enforceability of an electronically signed
+associates all the signed record’s components. An            record should the alleged signer later deny they were a
+example is a document created with a person’s sign-on        party to the transaction.
+to a procurement system, where the person has been
+authorized to access the system only to create a signed      The ceremonial act of signing with pen and ink warns
+procurement document. In this example, the person’s          the signer that he or she may be making a legally
+authority to sign is embedded in the system. The record      binding commitment. An electronic signature must
+is created through a sign-on authentication using a PIN      be accompanied by the same intent as the use of a
+or password and the person’s subsequent actions are          signature affixed by hand.
+captured while he or she is accessing the system. The        A signer’s intent can be captured in a number of ways.
+record exists conceptually as a document in the system,      For example, a signer’s actions can be automatically
+although the various pieces of the actual record may be      captured and recorded after entering an information
+maintained in various databases and system logs. The         system. However, to avoid any confusion as to what
+collection and maintenance of different informational        signers intended by their actions, it is advisable that
+pieces, also known as electronic signature “metadata,”       agencies not rely solely on a signer’s actions as recorded
+along with the person’s intent to sign the record, creates   by a system to document intent. This can be done by
+an electronic signature under Washington law.                various means, such as including a statement of intent
+“An electronic record and”                                   that must be acknowledged and accepted by the signer
+The attachment or logical association between the            prior to the electronic signature being applied.
+signed record and the electronic signature (sound,           As a means of further establishing intent, to the extent
+symbol, or process), must be created at the point a          possible, the electronic form of signature should be
+record is signed, maintained during any transmission of      displayed as close as possible to the other terms of the
+the signed record, and retained for as long as the signed    transaction.
+record is needed including any subsequent storage. See
+
+                                                                                                                   Page 5
+
+ Required Electronic Signature
+ Components
+Consistent with the definition of an electronic signature,       provide some other personal identifier, or type “I
+in order for an electronically signed record to be deemed        agree” before clicking a button to protect against
+valid, it must satisfy five major signing requirements.          later claims of errors. The Click Through or Click
+                                                                 Wrap approach is commonly used for low-risk, low-
+                                                                 value consumer transactions.
+                                                             yy Personal Identification Number (PIN) or
+                                                                password. When using a PIN or password for an
+                                                                e- signature, a person accessing an application
+                                                                is required to enter identifying information,
+                                                                which may include an identification number, the
+                                                                person’s name and a “shared secret” (called “shared”
+                                                                because it is known to both the user and the
+                                                                system), such as a PIN and/or password. The system
+                                                                checks that the PIN and/or password is in fact
+                                                                associated with the person accessing the system
+                                                                and “authenticates” the person.
+                                                             yy Digitized Signature. A digitized signature is
+                                                                a graphical image of a handwritten signature.
+                                                                Some applications require a person to create a
+                                                                handwritten signature using a special computer
+These signing requirements, taken together, need to             input device, such as a digital pen and pad. A
+be as reliable as appropriate to address any anticipated        digitized signature is most effective if it is applied
+challenges to the enforceability of the signature.              (not copied) at the time of signing and can be
+                                                                compared to copies of digitized signatures on
+Electronic Forms of Signature                                   file. If special software judges the two images
+Various methods can be used to create “an electronic
+                                                                comparable, the signature is deemed valid. This
+sound, symbol, or process”, which is one of the major
+                                                                approach shares the same security issues as those
+components of an electronic signature. These can
+                                                                using the PIN or password, because the digitized
+include a number of technologies, digital objects, or
+                                                                signature is another form of shared secret known
+processes. The descriptions below provide information
+                                                                both to the person and to the system.
+on some of the major approaches used to apply
+an electronic form of signature. These methods are           yy Digital Signatures. A “digital signature,” which
+roughly organized from the lower to the higher levels of        is a type of electronic signature, is created
+assurance value.                                                when the signer uses their private signing key
+                                                                to create a unique mark (called a “signed hash”)
+  yy Click Through or Click Wrap. In this approach,             on an electronic document. The recipient of
+     a signer is asked to affirm his or her intent or           the document employs the signer’s public key
+     agreement by clicking a button. Some Click Wrap            to validate the authenticity of the attached
+     approaches require signers to type his or her name,
+
+Page 6
+
+                                              “By definition, a signature must be the act of a specific
+                                                person. If the alleged signer later denies signing, the
+                                           signature may be unenforceable unless there is proof the
+                                                            alleged signer actually signed the record.”
+
+      private key and to verify that the document was        For transactions external to state government, other
+      not altered after signing. Digital signatures are      methods may be appropriate. In increasing levels of
+      often used within the context of a Public Key          confidence, these may include:
+      Infrastructure (PKI), in which a trusted third party
+      known as a Certification Authority (CA) binds            yy Presentation of identifying materials or
+      individuals to private keys and issues and manages          documentation
+      certificates.                                            yy Presentation of identifying materials or
+  yy Hybrid Approaches. Hybrid electronic signature               documentation and follow-on verification to prove
+     solutions are available by combining techniques              the documentation is legitimate
+     from various approaches to provide increased              yy In-person presentation and notarization of
+     security, authentication, record integrity, and non-         identifying materials or documentation
+     repudiation. For example, a solution may involve
+                                                             The use of third-party identity proofing services may also
+     improved signature capture techniques combined
+                                                             be used to determine identity based on scoring models
+     with Click Wrap, PINs, and password approaches.
+                                                             used by the service.
+     These solutions can enhance such signatures by
+     recording the entire transaction process, which
+                                                             Intent to Sign
+     is then bound to the signed document using
+                                                             The overall signing process should be designed to
+     hashing and SSL (Secure Socket Layer) encryption
+                                                             minimize the risk that signers could legitimately claim
+     techniques to achieve document integrity and
+                                                             later that they applied an electronic form of signature
+     non-reputability.
+                                                             without realizing its legal significance or their obligation
+Identification and Authentication of the                     to be bound by the terms of the transaction.
+Signer                                                       The overall signing process should be designed to clearly
+By definition, a signature must be the act of a specific     identify the reason for signing and clearly specify the
+person. If the alleged signer later denies signing, the      actions to be taken by the signer to signify intent. Much
+signature may be unenforceable unless there is proof the     like a signing block on a paper record, the creation of a
+alleged signer actually signed the record.                   signing ceremony in an electronic record can be used to
+It is up to the parties that rely on the terms of a signed   establish intent.
+transaction to determine whether the level of confidence     A number of simple practices can help avoid confusion
+provided by a given identification and authentication        regarding a signer’s intent:
+process is appropriate. The level of confidence required
+should be based on the level of business impact or loss        yy Prior to applying an electronic signature, afford
+that may be realized should the alleged signer later deny         the signer an opportunity to review the entire
+their involvement in the transaction.                             document or content to be signed.
+
+For intra- or inter-agency transactions, the process used      yy Format an electronically signed record to contain
+to verify the identity of an employee prior to assigning          the same signature elements captured in a paper
+a login credential (user name and password) may be                record, allowing a reader to readily identify the
+sufficient.                                                       significance of the signature appearing on the
+                                                                  bottom line.
+                                                                                                                      Page 7
+
+“It is also recommended that..additional data elements be
+appended to or associated with the signature data.”
+
+  yy Require the signer to act affirmatively to indicate     It is also recommended that the following additional
+     assent to the document being signed. For example,       data elements be appended to or associated with the
+     require the signer to click an “Accept” button. A       signature data:
+     button allowing the signer to “Reject” could also be
+     presented to demonstrate that a choice was made.          yy identity of the signer or a link to the source of
+     Alternatively, the signer could be required to type          identifying information, such as a validated UserID,
+     specific words of acceptance (e.g., “I ACCEPT” or “I         assigned PIN, digital certificate, etc.;
+     AGREE”).                                                  yy date and time of the signature;
+  yy Record the date, time, and fact that the signer           yy method used to sign the record; and
+     indicated his or her intent and retain this
+                                                               yy an indication of the reason for signing
+     information for evidentiary purposes. This may be
+     different than the time the signer accessed the         Associating the signature with the document can be
+     application or was authenticated.                       accomplished using various approaches. The signature
+                                                             data can be embedded within, or directly appended
+  yy Some electronic signature products on the market
+                                                             to, the electronic record that was signed. Using this
+     provide a “ceremony” that warns a signer that a
+                                                             approach, the electronic signature becomes a part of,
+     legally binding commitment is being made, collect
+                                                             and is stored with, the electronic record being signed.
+     contextual information about the circumstances of
+     the signing, provide formats and visual signatures      Alternatively, the data representing the electronic
+     similar to those found in paper documents, and          signature can be stored separately from the document
+     collect information concerning the signer’s intent.     being signed, so long as a demonstrably reliable and
+Association of Signature to the Record                       provable process is in place, such as a relational database
+In a paper transaction, when a handwritten signature is      or a digital signature algorithm, to associate the
+applied, it becomes permanently affixed to the record.       electronic signature with the electronic record.
+Likewise, for an electronic signature, the sound, symbol,    Other approaches are also feasible. However, whatever
+or process that constitutes the signature must in some       the approach, it requires implementing an electronic
+way be attached to, or associated with, the electronic       recordkeeping process that, in the future, can provide
+record being signed.                                         evidence that a specific electronic signature was applied
+Where the electronic form of signature consists of a         to or used in connection with a specific electronic record.
+symbol or a sound (such as a typed name, a digitized         Integrity of the Signed Record
+image of a handwritten name, a PIN, a digital signature,     In the paper-based world, signed documents are often
+a voice recording, etc.), the data comprising the symbol     stored in a secure physical filing environment, as their
+or sound must be saved. Where the electronic form of         usability, admissibility, and provability is based on the
+signature consists of a process (such as clicking on an “I   persistent integrity of the document itself (legibility, no
+Agree” button), the system should be programmed so           indication of alteration, etc.). In this case, the integrity
+that completion of the process generates some specific       of the document relies on the ability of the storage
+data element to indicate completion of the signing           process used to protect it from fire, water, and other
+process, or some other procedure (such as generation of      environmental dangers, and to limit access to authorized
+a log record or audit trail) to record the act of signing.   persons.
+Page 8
+
+                                                                                            Records
+                                                                                        Management
+Likewise, the usability, admissibility, and provability of    The use of electronic signatures raises questions about
+a signed electronic record requires that measures be          how an agency needs to manage the records (which are
+taken to ensure the continuing integrity of the electronic    the evidence) of these transactions. This section provides
+record, and its association or linkage to, its electronic     guidance on how to manage electronic records and
+signature, and any associated data following completion       electronic signatures.
+of the signing process. This is particularly important in
+a digital context, where electronic records can be easily     Preserving Electronic Records
+altered in a manner that is not detectable.                   There are four components that form the record/
+                                                              evidence of an electronic signature transaction:
+To preserve the integrity of a signed record, steps must
+be taken to preserve the accuracy and completeness of           1.	 Electronic document of what the person is actually
+electronic information communicated over the Internet               agreeing to;
+or stored in an electronic system. Further measures             2.	 Electronic signature that was applied;
+should be taken to ensure that no unauthorized
+                                                                3.	 Date and time the signing occurred; and
+alterations are made to information either intentionally
+or accidentally.                                                4.	 Evidence of the process that the person followed
+                                                                    to establish both their identify and their clear
+This protection can be achieved by the system that                  intention to sign the document.
+collectively manages the e-record and the associated
+electronic signature. In this case, key factors include the   In the paper and ink signature world, these elements
+system’s trustworthiness and the controls put in place to     are typically contained in a single record. However, with
+ensure that a record, its signature, any associated data,     electronic signatures, these may be several different
+and links to any associated data, cannot be tampered          digital objects which need to remain logically linked
+with or modified. Other controls, such as the use of          together to form the record/evidence of the transaction.
+encrypted transport protocols, can be used to ensure
+                                                              Length of Time Records Need to be Retained
+that the integrity of the electronically signed record is
+                                                              Records of a transaction that was signed electronically
+not compromised during transmission.
+                                                              need to be kept for the same length of time as if
+Other measures, such as message hashing and                   the transaction was signed in ink. The retention
+encryption, can be applied to ensure the integrity of         requirements are based on the function and content of
+an electronically signed record. When used, these can         the records rather than its format.
+reduce the risk of unauthorized access and provide a
+                                                              For example, contracts need to be kept for six years
+means of detecting whether a record has been tampered
+                                                              after termination of the contract based on the statute of
+with or altered.
+                                                              limitation for breach of contract. This applies the same
+                                                              regardless of whether the contract was electronically
+                                                              signed or signed with ink on paper.
+
+                                                                                                                    Page 9
+
+                                                                       Business Analysis and
+                                                                            Risk Assessment
+The records retention schedules for state agencies are         Once it has been determined that a signature is required
+available from the Washington State Archives website at:       or desired, agencies should conduct a business analysis
+                                                               and risk assessment. The purpose of this assessment is
+http://www.sos.wa.gov/archives/recordsmanagement/              to identify transaction risk factors that could contribute
+state-agencies-records-retention-schedules.aspx                to the possibility of a challenge being made to the
+Preserving the Integrity and Authenticity of                   validity or enforceability of the signature. Agencies may
+the Record over Time                                           consider including factors in addition to those identified
+As part of retaining the record/evidence of a transaction      throughout this section, depending on the agency’s
+that includes electronic signatures for the minimum            individual assessment and risk posture.
+retention period outlined in the appropriate records           Agencies may or may not choose to use the model
+retention schedule, the record also needs to:                  provided in this section to determine risk. Regardless of
+    “...remain usable, searchable, retrievable and authentic   the assessment method, agencies should document the
+    for the length of the designated retention period.” 7      process used to determine transaction risk and maintain
+                                                               a copy of this document in their files for future reference.
+Records with longer retention periods may need to be
+migrated to other electronic formats or systems or both        With respect to each potential challenge to the
+to continue to be usable, searchable, and retrievable          enforceability of an electronic signature, a business
+as technology changes. However, careful planning will          analysis and risk assessment should consider:
+ensure that the integrity and authenticity of the record is
+preserved during the migration.                                  yy the likelihood of a successful challenge to the
+                                                                    validity of the electronic signature; and
+Preserving Electronic Records or Records
+                                                                 yy the monetary loss, or other adverse impact, that
+of Transactions that Occurred through
+                                                                    will result from such a successful challenge to the
+Electronic Means
+                                                                    enforceability of the electronic signature.
+Enterprise Content Management (ECM) systems are
+software tools that can enable state agencies to capture       Because reliable data regarding the likelihood of a
+the records of electronic signature transactions, preserve     successful challenge to a signature may not be available,
+them for the minimum retention periods, and maintain           or the resulting impact of a successful challenge may
+the logical links between the various electronic records.      not be capable of measurement in dollars, a qualitative
+                                                               approach should be taken with respect to the risk
+In the absence of an ECM system, state agencies can still      analysis. Using such an approach, the risk of a challenge
+manage the records of electronic signature transactions        being successful and having a significant impact is
+utilizing other systems and/or a combination of                defined in more subjective and general terms such
+policies and procedures to ensure the integrity of             as high, moderate, and low. In this regard, qualitative
+records are preserved and the components necessary             analyses depend more on the expertise, experience, and
+to substantiate the validity of an electronically signed       good judgment of the agency managers conducting
+transaction remain authentic and intact.                       them than on quantified factors.
+
+7         WAC 434-662-040
+
+Page 10
+
+                                                 “One key factor in evaluating the risk that an alleged
+                                           signer will repudiate or otherwise challenge the electronic
+                                                       signature..is the nature of the parties involved.”
+
+In determining whether a signing process is sufficiently        Likewise, the more administratively governed the alleged
+reliable for a particular purpose, agency business              signer, the lower the likelihood of repudiation. For
+assessments and risk analyses should consider, at a             example, the risk of repudiation is probably greatest with
+minimum:                                                        consumers, somewhat less with businesses (especially
+                                                                larger established businesses), and even less with other
+  yy the relationships between the parties;                     government organizations.
+  yy the value of the transaction;
+                                                                Thus, for purposes of the risk analysis, agency staff
+  yy the risk of unauthorized alteration; and                   should consider whether the proposed transaction is:
+  yy the likely need for accessible, persuasive                   yy An intra-agency transaction
+     information regarding the transaction at some
+     later date.                                                  yy An inter-agency transaction
+
+In addition, the agency should consider any other risks           yy A transaction between a state organization and a
+relevant to the particular process. Once these factors are           non-state organization (federal, or local)
+considered separately, the agency should consider them            yy A transaction between a state organization and
+together to evaluate the sensitivity of risk for a particular        a private organization – e.g., business, non-profit,
+process, relative to the benefit that the process can                association, etc.
+bring.
+                                                                  yy A transaction between a state organization and an
+Likelihood of a Challenge to the Signature                           individual
+Parties to the Transaction                                        yy A transaction between a state organization and a
+One key factor in evaluating the risk that an alleged                foreign government
+signer will repudiate or otherwise challenge the
+                                                                Nature of the Relationship and Frequency of
+electronic signature in a given transaction is the nature
+                                                                Transactions
+of the parties involved. Generally speaking, the closer
+                                                                The nature of the relationship and frequency of the
+the relationship and the more regulatory or corporately
+                                                                transactions between the parties is also a relevant risk
+governed the parties, the lower the risk of repudiation.
+                                                                factor. Risks tend to be relatively low in cases where
+For example, there is generally a very low risk of a party      there is an ongoing relationship between the parties,
+later repudiating the electronic signature in an inter- or      particularly where they engage in frequent transactions.
+intra-governmental transaction of a relatively routine
+                                                                Other types of transactions, such as those involving
+nature. Similarly, transactions between a regulatory
+                                                                an ongoing relationship between the agency and
+agency and a publicly traded corporation or other
+                                                                non-governmental entities and persons, can have
+known entity regulated by that agency will often bear
+                                                                varying degrees of risk depending on the nature of
+a relatively low risk of repudiation, particularly where
+                                                                the relationship between the parties. The same would
+the regulatory agency has an ongoing relationship with,
+                                                                apply in the case of those agency programs in which the
+and enforcement authority over, the entity. For the same
+                                                                ongoing relationship is between entities that are acting
+reasons, risks tend to be relatively low within rulemaking
+                                                                on behalf of the agency and such non-governmental
+contexts, as all parties can view the submissions of
+                                                                entities and persons.
+others so the risk of imposture is minimized.
+                                                                                                                      Page 11
+
+Conversely, the highest risk of fraud or repudiation might    Agency risk analyses should attempt to identify the
+be for a one-time transaction between a person and            relative value of the type of transaction being automated
+the agency that has legal or financial implications. In all   and factor that against the costs associated with
+cases, the relative value of the transaction needs to be      implementing technological and management security
+considered as well.                                           controls to mitigate risk. Note that the value of the
+                                                              transaction depends on the perspective of the agency
+For purposes of the relationship and frequency risk           and the transaction partner.
+analysis, organizations should consider whether the
+proposed transactions involve:                                The value or significance of the transaction may be
+                                                              higher in cases of:
+  yy An ongoing relationship between the parties.
+                                                                yy Transactions involving the transfer of funds.
+  yy A new relationship with a known party.
+                                                                yy Transactions where the parties commit to actions
+  yy A new relationship with an unknown party.
+                                                                   or contracts that may give rise to financial or legal
+  yy One-time, occasional, or frequently reoccurring               liability.
+     transactions.
+                                                              Transactions involving information protected under state
+  yy An in-person signing or a remote signing.                or federal law (e.g., privacy, national security, otherwise
+Value or Significance of the Transaction                      sensitive, etc.) that increase the importance and value of
+The value or significance of the transaction can have a       the information involved include:
+considerable impact on the risk that an alleged signer          yy Transactions where the party is fulfilling a legal
+will attempt to repudiate the signature. While value is            responsibility which, if not performed, creates a
+often measured in terms of the dollar amount involved,             legal liability (criminal or civil).
+other factors are also relevant.
+                                                                yy Transactions where the party is certifying
+                                                                   information or statements which, if not true or
+                                                                   accurate, creates a legal liability (criminal or civil).
+                                                              Risk of Unauthorized Alteration or Other
+                                                              Compromise
+                                                              The likelihood of signature repudiation or other
+                                                              challenges to the enforceability of an electronic
+                                                              signature also increases with the likelihood of a security
+                                                              intrusion to the transaction or the stored record,
+                                                              especially if the intrusion affects the integrity of the
+                                                              signed record. The likelihood of such an intrusion can
+                                                              depend on the benefit to the potential attackers and
+                                                              their knowledge that the transaction will take place. For
+                                                              purposes of risk analysis, it should be noted that:
+
+Page 12
+
+  yy Regular or periodic transactions between parties           Extent of Resulting Loss or Adverse Impact
+     are at a higher risk than intermittent transactions        Determining the likelihood of a signature repudiation
+     because of their predictability.                           or other challenges to the enforceability of an electronic
+  yy The value of the information to outside parties            signature is the first part of the risk analysis. Next,
+     could also determine their motivation to                   agency staff should consider the extent of any financial
+     compromise the information. Information                    loss or other adverse impact flowing from a successful
+     unimportant to a state organization may have high          challenge to the validity of the electronic signature. This
+     value to an outside party.                                 is generally a function of the value or significance of the
+                                                                record signed, as compared to its value or significance
+  yy Certain agency programs, because of their                  without a signature.
+     perceived image or mission, may be more likely
+     to be attacked independent of the information or           When evaluating such risks, staff should consult with
+     transaction.                                               their legal counsel about any specific legal implications
+                                                                due to the use of invalid electronic signatures in
+Table 2 below depicts a way to assess the likelihood of a
+                                                                electronic transactions or documents in the application
+signature being challenged based on various factors.
+                                                                in question.
+                     Likelihood for Each    Overall Assessed    As with the analysis of the likelihood of a challenge to
+                           Factor:              Rating:*
+   Table 2           Low (1)/Medium(2)/    Low (1)/Medium(2)/
+                                                                the enforceability of a signature, the analysis of the cost
+                                                                or impact of an unenforceable signature should result in
+                            High(3)              High(3)
+                                                                a “Low,” “Moderate,” or “High” determination. Generally,
+Parties to the                                                  the following factors should be taken into account in
+Transaction                                                     making that determination.
+
+                                                                Whether Lack of Signature Invalidates Transaction
+Nature of the
+Relationship or                                                 In the case of transactions where a signature is required
+Frequency of                                                    by law, a successful challenge to the enforceability of the
+Transactions                                                    signature will usually invalidate the entire transaction.
+                                                                That is, it will convert the document into an unsigned
+Value/Significance                                              record. The impact of this result depends in large part on
+of the Transaction                                              the value or importance of the underlying transaction
+                                                                itself.
+Risk of
+Unauthorized                                                    Conversely, in the case of a transaction where a signature
+Alteration/                                                     is viewed as desirable, but is not legally required, the
+Compromise
+                                                                transaction may likely remain valid without a signature,
+                                                                but its enforceability may be weakened.
+
+* Overall Rating is a subjective determination based on
+the overall assessed rating for all factors.
+
+                                                                                                                      Page 13
+
+Thus, the impact on enforceability is generally much            yy Transaction information may later be subject to
+greater for transactions where signatures are required by          dispute:
+law, but at the same time it is still important to consider
+                                                                     by one of the parties (or alleged parties) to the
+the value or significance of the record signed and the
+                                                                       transaction; or
+overall transaction. It may well be that the weakened
+enforceability of a transaction that does not require a              by a non-party to the transaction.
+signature by law has a more significant impact in some          yy Transaction information may later be needed as
+cases than the complete unenforceability of other low              proof in court or other forum.
+value transactions where a signature is required by law.
+                                                                yy Transaction information will be archived later as
+Damages and Other Non-Monetary Impact                              long-term or permanently valuable records.
+Where the lack of an enforceable signature renders
+the entire transaction unenforceable, or even where it        Table 3 below depicts a way to assess the extent of any
+merely increases the difficulty of proving a transaction,     financial loss or other adverse impact resulting from
+the dollar value of the transaction or the resulting          a successful challenge to the validity of the electronic
+damages (where calculable) should be considered.              signature.
+Likewise, the non-monetary impact of the failed
+                                                                                       Impact for Each      Overall Assessed
+transaction should also be considered. For many
+                                                                                            Factor:             Rating:*
+transactions, the dollar value of an unenforceable                Table 3             Low (1)/Medium(2)/   Low (1)/Medium(2)/
+signature may not be readily calculable, yet the impact                                     High(3)              High(3)
+of the resulting non-enforceability or invalidity of the
+transaction may be significant.                               Whether Lack of
+                                                              Signature Invalidates
+Need for Provable Electronically Signed Records at a          Transaction
+Future Time
+In some paper transactions requiring a party’s                Damages and Other
+signature, the signature both identifies the party and        Non-Monetary Impact
+establishes that party’s intent to submit a truthful
+answer. Sometimes a notary or other third party signs         Need for Provable
+as witness to the signature. When converting these            Electronically Signed
+types of transactions to electronic processes, the agency     Records at a Future
+should ensure that the selected signing process is able       Time
+to provide similar functions. Transactions that need
+a provable record at a later time include transactions
+where:
+
+  yy Transaction information may later be subject to          * Overall Rating is a subjective determination based on
+     audit or compliance.                                     the overall assessed rating for all factors.
+  yy Transaction information will be used for research,
+     program evaluation, or other statistical analyses.
+
+Page 14
+
+                                                                            Drafting Your Policy
+Overall Risk Level Determination                                As indicated above, Chapter 19.360 RCW does not
+                                                                mandate that any state agency accept or require
+Risk can be expressed as the product of likelihood times
+                                                                electronic signatures or records. But for state agencies
+impact (R = L x I). Using this formula, the overall risk for
+                                                                that elect to do so, RCW 19.360.020(3) requires the
+a given transaction can be approximated by multiplying
+                                                                adoption of a policy or rule establishing the “method and
+the Overall Assessed Rating from Table 2 with the Overall
+                                                                process” of electronic signature and record submission
+Assessed Rating from Table 3 as shown in Graphic 1
+                                                                consistent with these guidelines.
+below. This will provide a relative risk rating for the
+transaction, with a product of “1” being low risk, and          The creation and publication of an electronic signature
+“9” representing high risk. Values in between represent         policy pertaining to a specific transaction or transaction
+proportional moderate risk.                                     type serves two primary purposes:
+
+                                                                  1.	 To serve as evidence that the agency has
+Graphic 1: Overall Risk Level Determination
+                                                                      conducted a thorough analysis of the business and
+                                                                      legal risks associated with a specific transaction
+                                                                      or transaction type, and has documented the
+                                                                      specific electronic signature method or processes
+                                                                      necessary to mitigate assessed transaction risks.
+                                                                  2.	 To provide potential transaction partners with
+                                                                      enough information to make an informed decision
+                                                                      as to whether they can trust, and will be bound
+Once an agency has completed its business analysis
+                                                                      to, the methods or processes used by the agency
+and risk assessment, it can determine which electronic
+                                                                      to create and maintain electronically-signed
+signature method or process best addresses the assessed
+                                                                      records, and/or ensure that trading partners
+level of risk. The strength and reliability of the electronic
+                                                                      understand what electronic signature methods or
+signature solution used should be proportionate to the
+                                                                      processes are required of them when submitting
+level of assessed risk.
+                                                                      electronically-signed records to the agency.
+                                                                This means the agency must identify the specific
+                                                                electronic signature methods or processes that the
+                                                                agency will use or accept for a specific transaction or
+                                                                similar transaction types. As particular transactions are
+                                                                added or removed, or previously identified methods or
+                                                                processes change, the policy or rule should be updated
+                                                                so those dealing with the agency have the most current
+                                                                information available and can comply with the new
+                                                                agency protocols.
+
+                                                                Agencies are encouraged to follow the steps listed
+                                                                below in order to help ensure the resulting policy or rule
+
+                                                                                                                      Page 15
+
+meets the agency’s legal obligations, business goals, and        question of whether or not a signature or record
+remains consistent with these guidelines and the needs           is required, and whether a proposed electronic
+of the people or entities the agency serves.                     signature solution is likely to withstand a challenge
+                                                                 should be answered. As this will be accomplished
+Stage 1: Assembling a Team                                       through legal research, appropriate expertise is
+In order to adequately prepare for policy drafting,              required.
+the agency should include a number of people from
+different disciplines within the agency, as there will       yy Procurement. Internal procurement staff should
+likely be an impact on a number of different parts of           be included in the conversation so that they are
+the agency. As the agency moves on to information               well informed of the agency business needs and
+gathering, it is recommended, to the extent possible,           the impacts. Also, concerns discussed during the
+that the areas listed below are represented.                    decision-making process can be well considered
+                                                                when determining the method of procurement
+  yy IT. Information technology staff should be                 and the resultant contract terms and conditions to
+     identified and consulted both for knowledge                ensure that they support the goals of the agency.
+     and guidance on the selection of a particular
+     technology, and also for a thorough understanding       yy Public Records/Records Management. Personnel
+     of the existing technology architecture of the             with knowledge of agency record retention and
+     organization.                                              documentation requirements should be included
+                                                                to ensure compliance with these guidelines and
+  yy IT Security. The group should include someone              other relevant records rules.
+     with IT security knowledge and expertise to ensure
+     adequate safeguards are included to protect non-       There may be other constituencies within or outside the
+     public agency information.                             agency that are not a formal part of the workgroup, but
+                                                            may be consulted, including:
+  yy Business. The primary decision an agency will
+     make is whether it makes business sense to adopt        yy OCIO. The OCIO has a central role in the adoption
+     the use of electronic signatures or records for a          of electronic signatures and records by state
+     particular transaction. Accordingly, knowledgeable         agencies, and agencies are encouraged to take
+     members of the business lines impacted by any              advantage of the expertise available.
+     policy must be included. These members should           yy Audit. As discussed below, agencies may want to
+     have an understanding of existing processes and            include audit standards in their policy. If so, audit
+     anticipated benefits of using electronic signatures        personnel, either within the agency or at the State
+     or records.                                                Auditor’s office, should be consulted.
+  yy Finance. As agencies are being asked to engage          yy Communications. As required by Chapter 19.360
+     in a cost-benefit analysis, finance personnel              RCW, the agency policy will be publicly available,
+     should be included to make sure the agency has             and communications staff should be consulted to
+     an accurate understanding of current costs and             ensure the clarity of the final document.
+     expected savings.
+  yy Legal. Either from internal or external (i.e., the
+     Office of the Attorney General) sources, the
+Page 16
+
+Stage 2: Preparation                                          yy Technology capabilities. The agency should
+After the team is identified, the next step is to gather         have an understanding of adequate and available
+relevant information. Suggestions for additional research        technological solutions, including electronic
+below include both internal and external topics. For             records formats and electronic signature methods
+example, existing practices and delegation of authority          related to systems currently being used by the
+can be resolved internally, while information regarding          agency. The agency should also focus on the
+available technology might require consultation with             ease-of-use of any electronic signature or records
+outside resources. Some areas an agency might review             solution, considering the needs and capabilities of
+include:                                                         both end-users and agency personnel.
+
+ yy Existing statutes and rules. This work focuses            yy Current technological architecture. Electronic
+    on laws regarding the agency’s collection and/               signatures and records will also need to fit within
+    or distribution of signatures and records. For any           the broader agency IT environment. In order to
+    particular document or transaction, the first step           make an informed decision about compatibility,
+    should be to determine what the law requires the             the agency should have a thorough understanding
+    agency to do. For example, is a signature even               of its current system and where and how new
+    necessary for a particular transaction? Further,             electronic signatures and records can fit within it.
+    the use of electronic signatures or records may be
+                                                            Stage 3: Making Electronic Signature/
+    prohibited by law. Accordingly, the agency should
+                                                            Records Decision
+    determine whether there is any law that precludes
+                                                            After the agency’s team has identified potential
+    or requires the use of electronic signatures or
+                                                            candidates for electronically signed transactions, a
+    documents.
+                                                            determination can be made whether, and in what
+ yy Existing agency policy and practice. Current            circumstances, the agency will use or accept electronic
+    agency business processes should be reviewed            signatures and records. For those transactions identified,
+    to identify: (1) potential areas where electronic       the agency must adopt a rule or policy consistent with
+    signatures and records could be effectively             the guidelines set forth in this document.
+    used, and (2) transactions and documents that
+    are currently electronic in nature. The agency            yy The agency should consider the purpose of the
+    can also begin defining the requirements for                 law: “to promote electronic transactions and
+    those processes and determining the costs                    remove barriers that might prevent electronic
+    associated with each. The agency may also put this           transactions with governmental agencies.”
+    information into the agency policy as the policy is          Decisions made during this process should be
+    drafted.                                                     aligned with these purposes (e.g., the agency
+                                                                 policy should not create barriers to electronic
+ yy Existing records requirements. The agency will               transactions).
+    need to determine what records retention and
+    disposition requirements apply for electronic             yy Perform and document a Business Analysis and
+    transactions under consideration, including any              Risk Assessment similar to that described earlier,
+    retention schedule specific to the agency.                   documenting the business purpose behind the
+                                                                 decisions.
+
+                                                                                                                 Page 17
+
+“Outside of the agency policy, the agency should consider adopting
+a separate policy or procedure document on how to manage
+implementation and maintenance of the policy.”
+
+  yy Determine which technologies can or cannot                       End-user instructions and other training
+     fit within the agency’s current technological                      materials
+     architecture. If the current architecture is a barrier
+                                                                 yy Agencies also need to consider developing opt-
+     to adopting a desirable technology, consider
+                                                                    out procedures or restrictions on use, particularly
+     what can or should be changed within existing
+                                                                    when dealing directly with individual members of
+     architecture to allow for such use.
+                                                                    the public.
+  yy Begin development of instructions and training
+                                                                 yy If the agency elects to use electronic signatures or
+     materials for end-users and agency personnel,
+                                                                    records in contracting, the agency should consider
+     particularly if the policy or rule will represent
+                                                                    cross-referencing the agency’s procurement policy.
+     a substantial change in current processes or
+     procedures.                                                 yy Since all such policies will be posted by the OCIO,
+                                                                    the policy might also describe the liability and
+Stage 4: Writing the Policy                                         obligations of the parties to the transaction being
+The final step is to draft the agency policy reflecting the         performed electronically. The agency should also
+decisions made in Stage 3. RCW19.360 does not specify               prominently display this information in appropriate
+which electronic signature methods or processes must                places on its own website.
+or should be used. Rather, those decisions are left to the
+                                                                Outside of the agency policy, the agency should consider
+agencies based on the business assessment and risk
+                                                                adopting a separate policy or procedure document on
+analyses they conduct. Agencies should consider the
+                                                                how to manage implementation and maintenance of the
+following when drafting their policy:
+                                                                policy. This document may include the following:
+  yy The policy should clearly identify any agency-
+                                                                 yy Identification of roles and responsibilities of
+     specific standards, limitations and processes,
+                                                                    agency employees in the electronic signature and
+     including:
+                                                                    record collection and review process, including
+           Specific technology choices the agency has             who within the agency has the authority to
+             made                                                   sign documents electronically or initiate use of
+           Specific transactions the agency intends to be         electronic records or correspondence.
+             completed electronically                            yy Procedures for changing the scope of electronic
+           Specific groups of constituents that can or            signature and record use and acceptance,
+             cannot use such signatures or records (e.g., the       including escalation and approval of any such
+             agency allows electronic signatures for only           decision.
+             certain contracts, or allows electronic filings     yy Electronic document retention and management
+             only for renewal transactions but not an initial       practices consistent with the appropriate Secretary
+             application)                                           of State schedule and the records guidelines
+           Standard processes and methodologies the               included in this document.
+             agency intends to follow or use, such as
+             providing users with a document for printing
+             or download as part of the signing process
+
+Page 18
+
+                                                                  Submitting Your Policy
+                                                                            to the OCIO
+Other items for agency consideration are listed below.       The Office of the Chief Information Officer maintains
+While these fall outside of the core purpose of the policy   a page on the OCIO.wa.gov website listing links to
+and relevant procedures, agencies should consider            individual agency electronic signature and record
+whether these should be developed in parallel with the       submission policies. As agencies publish their policies,
+electronic signatures and records policy.                    the link and agency contact information should be
+                                                             emailed to the OCIO Policy Mailbox. The information will
+  yy Communications plan. A good plan and timely             be added to the page within 5 working days. Agencies
+     communication with impacted parties will help           are responsible for notifying the OCIO if the information
+     provide for a smooth transition from paper to           changes.
+     electronic modes of operation.
+  yy Personal Privacy Policy. Increased use of
+     electronic transactions may result in the (intended
+     or unintended) gathering of additional personal or
+     non-public information, especially for the purposes
+     of signer authentication. The agency may want
+     to consider developing a policy or statement
+     indicating this possibility and outlining its
+     statutory obligation to maintain the confidentiality
+     of personal information in accordance with state
+     law and rules regarding records retention and
+     disclosure. The agency should also consider
+     documenting how it will use this additional
+     information, if at all.
+  yy Audit Policy. As with other agency practices,
+     consider whether a policy describing the type
+     and frequency of internal and external audits is
+     needed, including the agency’s compliance with
+     its policy and the accuracy of the information and
+     records retained. This may be accomplished as an
+     amendment to an existing policy.
+  yy Training Plan. The adoption of new technologies
+     and modes of doing business carries the potential
+     to change an agency’s processes considerably. An
+     agency may wish to draft one or more training
+     plans to help both internal personnel and external
+     system users with the transition.
+
+                                                                                                                 Page 19
+
+Attachment A
+Electronic Signature Procurement Related Resources
+Currently Available Applications                                Conduct a Procurement Process
+Depending on the business assessment and risk analysis          If no Master Contract exists that meets your business
+conducted by an agency, it is possible that features and        needs, you may decide to conduct a procurement
+functionality that exist in currently deployed applications     to acquire the necessary products or services. Any
+(such as Word, Excel, or Adobe Acrobat) may provide             procurement conducted must follow procurement
+sufficient electronic signature capability. If so, additional   laws (Chapter 39.26 RCW) and policy. In addition,
+procurement may not be necessary to implement                   procurement of information technology must meet
+electronic signatures.                                          the standards set by the Office of the Chief Information
+                                                                Officer (OCIO).
+Procurement of Electronic Signature
+Technology                                                      Procurement Process
+If it is necessary to procure a product or service in order     To ensure compliance with the most current DES
+to meet assessed electronic signature requirements,             Procurement Policies, visit: http://des.wa.gov/about/pi/
+agencies should first look to products and services             ProcurementReform/Pages/Policies.aspx
+offered by state central services agencies such as
+Washington Technology Solutions (WaTech). If none are           Contact DES customer service at:
+available, check to see if a statewide Master Contract          Phone: (360) 407-2210
+is available that meets the agency business needs. If           E-mail: ContractingandPurchasing@des.wa.gov
+a desired solution is not available from either of those
+sources, the agency may conduct its own procurement.            To ensure compliance with the most current WaTech/
+                                                                OCIO technology standards, visit: https://ocio.wa.gov/
+Central Services
+Determine whether the solution is offered through
+WaTech. A listing of WaTech Services can be found at:           When Contracting With a Vendor for a
+http://watech.wa.gov/solutions/it-services                      Solution
+
+Master Contracts                                                Solution Considerations
+Determine whether a statewide Master Contract is
+                                                                On premise solution
+available through the Department of Enterprise Services
+                                                                The product is licensed to the agency for use in
+(DES). Information on currently available Technology
+                                                                agency transactions employing electronic signatures.
+Master Contracts can be found at:
+                                                                Documents are stored within agency technical
+http://www.des.wa.gov/services/ContractingPurchasing/           infrastructure. Agencies should approach these
+ITContracts/ITMasterContract/Pages/default.aspx                 procurements as they would any IT procurement/
+                                                                contract for products or services.
+For questions related to specific contracts included on
+the website above, contact the Contract Administrator           Cloud-based solution
+designated on the website for that contract.                    Agencies should understand the data flow within an
+                                                                electronic signature process in order to determine
+                                                                when its data is transiting or being stored in a system
+                                                                other than one it controls. In the event that sensitive
+                                                                data flows through or is stored on a system controlled
+Page 20
+
+by an entity other than the agency, appropriate
+security requirements, roles and responsibilities,
+liabilities, etc. should be included in the contract. Each
+agency should work with its procurement/contract
+professionals, Assistant Attorney General, technical staff,
+etc. as necessary to ensure that the data and resulting
+transactional documents are properly handled.
+
+When using contractor software as a service, agencies
+should determine whether agency requirements
+for security of transactional data are being met
+appropriately. Agencies should require the contractor to
+provide proof of security policies and practices prior to
+using the services.
+
+If signed documents are stored long-term (i.e., the Cloud
+Service is the system of record) by the contractor as
+a service to the agency, ensure that the systems and
+operational policies employed by the contractor comply
+with Washington state security, privacy, and records
+retention requirements.
+
+If the agency’s final documents will be stored on the
+contractor network/infrastructure, the agency should
+consider adding Terms and Conditions that address what
+happens in the event the contract for services terminates
+for some reason. Agencies may contact DES Contracting
+and Purchasing services for questions to consider when
+evaluating the use of software as a service.
+
+                                                              Page 21

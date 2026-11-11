@@ -1,0 +1,90 @@
+PM-03-01-S                                                                                          Replaces:
+State CIO Adopted: July 19, 2023                                   IT Minimum Project WA Activities-Readiness
+TSB Approved: September 14, 2023                                                Assessment Standard 132.10
+Sunset Review: September 14, 2026                                                          January 19, 2016
+
+      PROJECT QUALITY ASSURANCE PROVIDER MINIMUM
+               QUALIFICATIONS STANDARD
+See Also:
+RCW 43.105.054 OCIO Governance
+RCW 43.105.205 (3) Higher Ed
+RCW 43.105.020 (22) “State agency”
+Project Quality Assurance Policy
+
+1. WaTech categorizes all major projects under oversight as Tier 1, Tier 2 or Tier
+   3 projects based on complexity and risk assessment. The agencies are
+   recommended to evaluate project complexity, overall project risk and define
+   minimum experience and qualification criteria for the QA vendor, such as:
+
+         a. Added project management and/or quality assurance experience based on
+            overall project risk level. Higher risk projects would benefit from seasoned,
+            experienced resources.
+
+         b. Previous public sector project management experience on multiple large-
+            scale projects.
+
+         c. Subject matter expertise related to the project.
+
+         d. Prior experience with the development methodology proposed by the
+            project.
+
+2. For Tier 3 projects, the designated lead QA provider must have:
+      a. Minimum seven years of recent (within the past 10 years) experience
+         successfully performing the QA activities outlined in the Minimum Project
+         Quality Assurance Activities Standard on a project with $10M or more total
+         project planned spend, OR
+
+         b. A combination of prior QA or PM experience totaling 10 or more years in
+            the past 15 years that include:
+                i. Minimum three years of recent (within the past five years) experience
+                   successfully performing the QA activities outlined in the Minimum
+                   Project Quality Assurance Activities Standard on a project with $10M
+                   or more total project planned spend.
+
+                  ii. Any experience as a lead or deputy project manager providing
+                      successful project management services on information technology
+
+                                                                                               1
+
+                (IT) projects of similar or greater size, risk, and complexity when
+                compared to the project being undertaken.
+
+3. For Tier 2 projects, the designated lead QA provider must have:
+      a. Minimum six years of recent (within the past 10 years) experience
+         successfully performing the QA activities outlined in the Minimum Project
+         Quality Assurance Activities Standard on a project with $2M or more total
+         project planned spend, OR
+      b. A combination of prior QA or PM experience totaling six or more years in
+         the past 10 years that includes:
+              i. Experience successfully performing the QA activities outlined in the
+                 Minimum Project Quality Assurance Activities Standard on a project
+                 with $2M or more total project planned spend, AND
+             ii. Experience as a lead or deputy project manager providing successful
+                 project management services on information technology (IT) projects
+                 of similar or greater size, risk, and complexity when compared to the
+                 project being undertaken.
+
+4. For Tier 1 projects, the designated lead QA provider must have:
+       a. Minimum five years of recent (within the past 10 years) experience
+          successfully performing the QA activities outlined in the Minimum Project
+          Quality Assurance Activities Standard on a project with up to $2M total
+          project planned spend, OR
+       b. Minimum five years of recent (within the past ten years) experience as a
+          lead or deputy project manager providing the successful project
+          management services on an information technology (IT) project of similar or
+          greater size, risk, and complexity when compared to the project being
+          undertaken.
+
+       c. A combination of prior QA or PM experience totaling five or more years in
+          the past 10 years.
+
+REFERENCES
+
+   1. Definition of Terms Used in WaTech Policies and Reports.
+
+CONTACT INFORMATION
+
+   •   For questions about this policy, please email the WaTech Policy Mailbox.
+   •   For technical assistance, please email the WaTech Consultants
+
+                                                                                      2

@@ -22,6 +22,17 @@ jobs:
         _meta/snapshots
         _meta/templates
         docs/research
+        statutes
+        rules
+        executive-orders
+        policies
+        standards
+      # The five content folders are excluded because "## Full text" is the official text
+      # verbatim, including the links the state printed in it. Some of those are dead at the
+      # source (WaTech policies still link ocio.wa.gov pages that 404), and many state sites
+      # refuse automated clients. A dead link inside mirrored text is a fact about the source,
+      # not a defect a PR can fix; whether each document's own source URL still answers is
+      # the scheduled drift job's question.
       # docs/research is excluded because those files are dated findings that cite hundreds
       # of state sites, many of which refuse automated clients or have since moved. They
       # record what was observed; a per-PR gate on them would be red for reasons no PR caused.
@@ -57,7 +68,11 @@ jobs:
   # the template's (graph, STATUS.md, llms.txt are template-gates' job). The template itself
   # commits none, so this is the empty required check a new corpus fills in.
   generated:
-    runs-on: ubuntu-latest
+    # Pinned to 24.04, not ubuntu-latest: `ingest.py --check` re-derives PDF text with the
+    # system pdftotext, and its -layout output differs between poppler releases. The committed
+    # text was made with poppler-utils 24.02 (Ubuntu 24.04); on 26.04 (poppler 26.01) two
+    # documents re-derive differently and the check fails. Move this pin and re-ingest together.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -66,5 +81,25 @@ jobs:
       - run: pip install -r requirements.txt
       # The example ingester must at least import against the pinned toolkit: a template that
       # ships a broken starting point ships it to every corpus instantiated from it.
-      - run: python3 -c "import src.ingest_example"
-      - run: echo "no corpus-specific generated files yet -- add one --check step here per file you commit"
+      - run: python3 -c "import src.ingest"
+      # The seed list is hand-written, not generated, but it is the owner's approval gate and
+      # must stay valid against domain.yml.
+      - run: python3 src/check_seed_list.py --check
+      # Every committed snapshot .txt and document is re-derived offline from its raw
+      # snapshot (src/ingest.py --check). The PDFs go through pdftotext, a system binary.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: python3 src/ingest.py --check
+
+  unit-tests:
+    # Same poppler pin as `generated`, for the same reason.
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      # tests/test_ingest.py runs the system binary `pdftotext` (poppler-utils) on real PDFs;
+      # install it explicitly rather than rely on what the runner image happens to ship.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: python3 -m pytest tests/ -q

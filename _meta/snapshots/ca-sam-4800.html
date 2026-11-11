@@ -1,0 +1,2024 @@
+
+<!doctype html>
+<!--[if IE 9]>    <html class="no-js ie9 oldie" lang="en"> <![endif]-->
+<!--[if (gt IE 9)]><!-->
+<html lang="en" class="not-rich-text-editor">
+    <!--<![endif]-->
+    <head>
+        
+
+
+
+
+    <meta charset="utf-8">
+
+    <title>Chapter-View</title>
+
+
+
+
+
+
+
+    <!-- General purpose 16x16 .ico shortcut icon -->
+    <link rel="icon" href="/assets/img/icon/favicon.ico">
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- Use highest compatibility mode -->
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
+
+<!-- http://t.co/dKP3o1e -->
+<meta name="HandheldFriendly" content="True">
+<!-- for Blackberry, AvantGo -->
+<meta name="MobileOptimized" content="320">
+
+
+
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fira+Sans:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,200,300,400,500,600,700,800,900,100i,200i,300i,400i,500i,600i,700i,800i,900i" rel="stylesheet">
+
+<!-- jQueryUI Stylesheet -->
+<link rel="stylesheet" href="/assets/libs/jquery-ui/1.13.2/jquery-ui.min.css?v=2" type="text/css">
+
+<!-- Do not include the extension with cssPath -->
+<link href="/assets/css/app.min.css?v=1" rel="stylesheet">
+<link rel="stylesheet" href="/css/AuthoringUIExperience/sitecore-extra.css" type="text/css">
+
+    <!-- modernizr.com, feature detection -->
+    <script src="/assets/js/modernizr-custom.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="/assets/css/custom.css" type="text/css">
+
+
+
+
+
+<script>
+  function loadGoogleTranslate() {
+    if (window.google && window.google.translate) return;
+
+    var s = document.createElement('script');
+    s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+    s.async = true;
+    s.onerror = function () {
+      console.warn('Google Translate script blocked by browser tracking prevention.');
+    };
+    document.head.appendChild(s);
+  }
+
+  // Call this only after consent/click:
+  // loadGoogleTranslate();
+</script>
+        
+    </head>
+    <body>
+
+        <div id="skip-to-content"><a href="#main-content">Skip to Main Content</a></div>
+        
+
+
+<nav class="utility-header "
+     aria-label="Utility Links">
+    <ul class="utility-header__menu">
+                    <li>
+
+
+
+
+    <div class="branding ">
+<a href ='http://www.ca.gov'>
+
+
+
+
+
+        <img style="height:28px;" class="icon" src="/assets/img/icons/cagov-logo-white.png" alt="CA.gov"/>
+
+<span class="sr-only">CA.gov</span>
+</a>    </div>
+
+</li>
+                    <li>
+        <div class="social-share">
+                <a href="#" class="social-share-facebook icon-facebook"><span class="social-share-label">Share via Facebook</span></a>
+                <a href="#" class="social-share-twitter-x icon-twitter-x"><span class="social-share-label">Share via X</span></a>
+                <a href="#" class="social-share-google-plus icon-google-plus"><span class="social-share-label">Share via Google+</span></a>
+                <a href="#" class="social-share-email icon-email"><span class="social-share-label">Share via Email</span></a>
+        </div>
+
+
+
+</li>
+                    <li>
+                        <button type="button" class="utility-header__drawer-toggle "
+                                aria-controls='translate' aria-haspopup = 'true' aria-expanded='false'>
+                            <span class='utlility-header_toggle-text'>Translate</span>
+                        </button>
+                    </li>
+    </ul>
+
+                <div id="translate" class="utility-header__drawer"><div>Translate this website to your preferred language:<br><div id="google_translate_element"></div></div></div>
+</nav>
+
+        <!-- Begin Content -->
+        
+
+
+
+
+
+
+
+    <header class="global-header ">
+        
+            <div style="float: left; margin-top: 4px; margin-left: -12px;">
+                <a href="/">
+                    <img src="/assets/img/logo/DGS_Logo.png?v=2" style="vertical-align: middle;" alt="California Department of General Services" />
+                </a>
+            </div>
+
+        
+
+
+
+
+<div class="site-search" >
+
+        <button id="site-search__toggle"
+                class="site-search__toggle button  "
+                type="button"
+                aria-controls="site-search__formb702a5363dc24b35ba461dd428a2fd1b"
+                aria-haspopup="true"
+                
+                >
+            <span class="site-search__text sr-only">Site Search</span>
+                <span class="site-search__hamburger"><span class="site-search__hamburger-inner"></span></span>
+                            <span class="site-search__icon" aria-hidden="true"></span>
+                    </button>
+
+        <form class="site-search__form" id="site-search__formb702a5363dc24b35ba461dd428a2fd1b"  aria-labelledby="site-search__toggle" method="get" action="">
+            <span>
+                <label for="b702a5363dc24b35ba461dd428a2fd1b">Search this site:</label>
+            </span>
+            <span>
+                <input name="q" type="text"  id="b702a5363dc24b35ba461dd428a2fd1b" placeholder="For example, how to sell to the state?">
+            </span>
+
+            <input type="hidden" name="sitesearch" value="" />
+            <span class="site-search__submit">
+                
+
+
+
+
+    <button class="button "
+            type="submit"
+            name='Search'
+            value='Search'
+            
+            
+            
+            
+>
+        <span class="button__text ">Search</span>
+                    </button>
+
+            </span>
+            <button class="site-search__reset-search" aria-describedby="b702a5363dc24b35ba461dd428a2fd1b" type="reset" style="display: none">Clear Search</button>
+        </form>
+
+</div>    </header>
+
+
+
+<!-- Navigation Main Navigation -->
+
+
+
+
+
+    <nav class="navigation navigation--main " aria-label="Main Menu">
+
+        
+        <button id="navigation-main-toggle"
+                class="navigation__toggle "
+                type="button"
+                tabindex="0"
+                aria-controls="navigation__list-main"
+                aria-haspopup="true"
+                aria-expanded="false"
+                >
+                <span class="navigation__toggle-text"><span class="navigation__toggle-open">View All</span><span class="navigation__toggle-close">Close</span></span>
+                            <span class="navigation__toggle-hamburger"><span class="navigation__toggle-hamburger-inner"></span></span>
+                    </button>
+        <ul id="navigation__list-main" class="navigation__list" aria-labelledby="navigation-main-toggle" role="menubar" aria-orientation="horizontal" >
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/"
+                               tabindex="0"
+                               >
+                                <span>Home</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Services"
+                               tabindex="0"
+                               >
+                                <span>Services</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <button class="navigation__item-link"
+                                    type="button"
+                                    role="menuitem"
+                                    tabindex="0"
+                                    aria-controls="E6ED6841C803456E8383CF3FC4CC49C7-sub-nav"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    aria-label="Divisions &amp; Offices">
+                                Divisions &amp; Offices
+                                <span class="navigation__sub-nav-toggle"></span>
+                                <span class="icon-plus"></span><span class="icon-minus"></span>
+                                <span class="sr-only">Sub Menu Toggle</span>
+                            </button>
+
+                            <ul id="E6ED6841C803456E8383CF3FC4CC49C7-sub-nav" class="navigation__sub-nav" role="menu" aria-label="Divisions &amp; Offices">
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/BSC"
+                                           tabindex="-1"
+                                           >
+                                            Building Standards Commission
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/CCDA"
+                                           tabindex="-1"
+                                           >
+                                            California Commission on Disability Access
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/DSA"
+                                           tabindex="-1"
+                                           >
+                                            Division of the State Architect
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/FMD"
+                                           tabindex="-1"
+                                           >
+                                            Facilities Management Division
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OAH"
+                                           tabindex="-1"
+                                           >
+                                            Office of Administrative Hearings
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Audit Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OBAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Business and Acquisition Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OFS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Fiscal Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OFAM"
+                                           tabindex="-1"
+                                           >
+                                            Office of Fleet and Asset Management
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OHR"
+                                           tabindex="-1"
+                                           >
+                                            Office of Human Resources
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OLS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Legal Services
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OPSC"
+                                           tabindex="-1"
+                                           >
+                                            Office of Public School Construction
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/ORIM"
+                                           tabindex="-1"
+                                           >
+                                            Office of Risk and Insurance Management
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OSP"
+                                           tabindex="-1"
+                                           >
+                                            Office of State Publishing
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OoS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Sustainability
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/OTAS"
+                                           tabindex="-1"
+                                           >
+                                            Office of Training and Administrative Standards
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/PD"
+                                           tabindex="-1"
+                                           >
+                                            Procurement Division
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/RESD"
+                                           tabindex="-1"
+                                           >
+                                            Real Estate Services Division
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <button class="navigation__item-link"
+                                    type="button"
+                                    role="menuitem"
+                                    tabindex="0"
+                                    aria-controls="033543813F6B4CCBAD196EA91F5FCE30-sub-nav"
+                                    aria-haspopup="true"
+                                    aria-expanded="false"
+                                    aria-label="Resources">
+                                Resources
+                                <span class="navigation__sub-nav-toggle"></span>
+                                <span class="icon-plus"></span><span class="icon-minus"></span>
+                                <span class="sr-only">Sub Menu Toggle</span>
+                            </button>
+
+                            <ul id="033543813F6B4CCBAD196EA91F5FCE30-sub-nav" class="navigation__sub-nav" role="menu" aria-label="Resources">
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/E-Signature-Toolkit"
+                                           tabindex="-1"
+                                           >
+                                            E-Signature Toolkit
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/RESD/Projects/Page-Content/Projects-List-Folder/Executive-Order-N-06-19-Affordable-Housing-Development"
+                                           tabindex="-1"
+                                           >
+                                            Affordable Housing Development
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/Legislative-Reports"
+                                           tabindex="-1"
+                                           >
+                                            Legislative Reports
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/ManagementMemos"
+                                           tabindex="-1"
+                                           >
+                                            Management Memos
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/SAM"
+                                           tabindex="-1"
+                                           aria-current="page">
+                                            State Administrative Manual (SAM)
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual"
+                                           tabindex="-1"
+                                           >
+                                            State Contracting Manual
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/Resources/Statewide-Forms"
+                                           tabindex="-1"
+                                           >
+                                            Statewide Forms Program
+                                        </a>
+                                    </li>
+                                    <li class="navigation__sub-nav-item" role="menuitem">
+                                        <a class="navigation__sub-nav-item-link"
+                                           href="/About/Strategic-Plan"
+                                           tabindex="-1"
+                                           >
+                                            Strategic Plan
+                                        </a>
+                                    </li>
+                            </ul>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Press-Releases"
+                               tabindex="0"
+                               >
+                                <span>Press Releases</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/OHR/Careers"
+                               tabindex="0"
+                               >
+                                <span>Careers</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/About"
+                               tabindex="0"
+                               >
+                                <span>About</span>
+                            </a>
+                        </li>
+                        <li class="navigation__item" role="menuitem">
+                            <a class="navigation__item-link"
+                               href="/Contact"
+                               tabindex="0"
+                               >
+                                <span>Contact</span>
+                            </a>
+                        </li>
+        </ul>
+    </nav>
+
+<div id="main-content" class="main-content">
+    <!--This works because the fields aren't present in child templates.  Field value is never "" or null-->
+    <main class="main-primary" id="printarea">
+        
+        <div>
+
+    <ol class="breadcrumb">
+            <li><a href="/Resources/SAM"> SAM</a></li>
+            <li><a href="/Resources/SAM/TOC"> TOC</a></li>
+            <li><a href="/Resources/SAM/TOC/4800"> 4800</a></li>
+        <li class="active"><a href="/Resources/SAM/TOC/4800/Chapter-View">Chapter-View</a></li>
+    </ol>
+</div>
+
+<style>
+    .breadcrumb {
+       background-color: #ffffff !important;
+    }
+</style>
+
+    <h1>Chapter 4800 - Chapter-View</h1>
+<div class="pull-right" style="padding-bottom: 5px;">
+    <button id="btn" type="button" class="btn btn-primary" onclick="printChapterView()">Print Chapter</button>
+  
+    
+</div>
+    <div class="row">
+        <table class="table table-sm">
+            <thead>
+                <tr>
+                    <th colspan="6" scope="col">Subject</th>
+                    <th scope="col">Section</th>
+                </tr>
+            </thead>
+            <tbody>
+                    <tr>
+                        <td colspan="6" scope="row">STATE INFORMATION MANAGEMENT PRINCIPLES</td>
+                        <td>4800</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ACCESS TO INFORMATION BY THE OFFICE OF THE LEGISLATIVE ANALYST</td>
+                        <td>4804</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">ACCESS TO INFORMATION BY THE CALIFORNIA STATE AUDITOR</td>
+                        <td>4806</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">STATUTORY PROVISIONS AND APPLICATION STATUTORY PROVISIONS</td>
+                        <td>4810</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">AGENCY INFORMATION OFFICER AND STATE ENTITY CHIEF INFORMATION OFFICER RESPONSIBILITIES</td>
+                        <td>4815</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">STATUTORY PROVISIONS AND APPLICATION/GENERAL</td>
+                        <td>4819</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">DEFINITIONS</td>
+                        <td>4819.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">STATE INFORMATION MANAGEMENT AUTHORITY AND RESPONSIBILITY</td>
+                        <td>4819.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">BASIC POLICY</td>
+                        <td>4819.31</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">EXCLUSIONS</td>
+                        <td>4819.32</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PROJECT APPROVAL AUTHORITY</td>
+                        <td>4819.34</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PROJECT APPROVAL LIFECYCLE</td>
+                        <td>4819.35</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PROJECT REPORTING/OVERSIGHT</td>
+                        <td>4819.36</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PROJECT DELEGATION CRITERIA</td>
+                        <td>4819.37</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">REPORTING EXEMPTION REQUEST</td>
+                        <td>4819.38</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">PROJECT COST DELEGATION</td>
+                        <td>4819.39</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">EXPENDITURES FOR ONGOING INFORMATION TECHNOLOGY ACTIVITIES</td>
+                        <td>4819.40</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">CERTIFICATION OF COMPLIANCE WITH IT POLICIES</td>
+                        <td>4819.41</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">BUDGET CHANGE PROPOSALS</td>
+                        <td>4819.42</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">(Section Reserved 09-29-2023 - Critical Services)</td>
+                        <td>4828</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row"> (Section Reserved 09-29-2023)</td>
+                        <td>4828.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row"> (Section Reserved 09-29-2023)</td>
+                        <td>4828.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">(Section Reserved 09-29-2023 - Assessment)</td>
+                        <td>4828.3</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">(Section Reserved 09-29-2023 - Remediation)</td>
+                        <td>4828.4</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">(Section Reserved 09-29-2023 - Modernization )</td>
+                        <td>4828.5</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION TECHNOLOGY ACCESSIBILITY POLICY</td>
+                        <td>4833</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">EXCEPTIONS TO ACCESSIBILITY</td>
+                        <td>4833.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">WEBSITE ACCESSIBILITY CERTIFICATION</td>
+                        <td>4833.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION TECHNOLOGY INFRASTRUCTURE POLICY</td>
+                        <td>4834</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">CALIFORNIA SOFTWARE MANAGEMENT POLICY</td>
+                        <td>4846</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SOFTWARE MANAGEMENT PLAN</td>
+                        <td>4846.1</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">SOFTWARE MANAGEMENT POLICY REPORTING REQUIREMENTS</td>
+                        <td>4846.2</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">STATUTORY REFERENCES</td>
+                        <td>4851</td>
+                    </tr>
+                    <tr>
+                        <td colspan="6" scope="row">INFORMATION TECHNOLOGY TRAINING AND EMPLOYEE DEVELOPMENT</td>
+                        <td>4854</td>
+                    </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal">Please wait... We are generating the manual...</div>
+<style>
+    .scWebEditInput {
+    
+    width:auto;
+    }
+
+
+</style>
+<div class="row">
+    <h1>STATE INFORMATION MANAGEMENT PRINCIPLES - 4800</h1>
+        <p>
+            <strong>(Revised: 06/2015 )</strong>
+        </p>
+    <p>
+        <div>
+<p><span>The California Department of Technology (</span><a href="http://www.cio.ca.gov/"><span>Department of Technology</span></a><span>) has broad responsibility and authority to guide the application of information technology (IT) in California State Government. The Department of Technology&rsquo;s areas of responsibility include policy making, interagency coordination, IT budget and procurement review, technical assistance, and advocacy. In view of the scope of these activities and their potential impact on state government, the Department of Technology has articulated the fundamental principles, policies, and procedures to govern the use of IT in Sections 4800 through 5180 of the State Administrative Manual (</span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC"><span>SAM</span></a><span>).</span></p>
+<p><strong><span>Note that any and all project approvals or conditions made by the Department of Technology&rsquo;s predecessor organizations, the California Technology Agency (CTA) prior to July 1, 2013, the Office of the State Chief Information Officer (OCIO) prior to January 1, 2011, or the Department of Finance (</span></strong><a href="http://www.dof.ca.gov/"><strong><span>Finance</span></strong></a><strong><span>) prior to</span></strong></p>
+<p><strong><span>January 1, 2008; remain in effect unless otherwise notified. Priority of Information Technology.</span></strong></p>
+<p><span>Information technology (IT) is an indispensable tool of modern government. Accordingly, each Agency/state entity is expected to seek opportunities to use this technology to increase the quality of the services it provides and reduce the overall cost of government.</span></p>
+<p><a name="Authority_and_Responsibility."></a><strong><span>Authority and Responsibility.</span></strong></p>
+<p><span>Each Agency/state entity director should be knowledgeable about the information requirements and information management practices of the Agency/state entity and should provide active leadership in the exploration of new opportunities to use IT. Each Agency/state entity should establish clear lines of authority and responsibility for information management.</span></p>
+<p><a name="Management_of_Information."></a><strong><span>Management of Information.</span></strong></p>
+<p><span>Each Agency/state entity shall establish and maintain an information management function consistent with its own operational needs and organizational structure. This function shall serve to ensure the Agency/state entity&rsquo;s ability to identify the information it collects, maintain the integrity and security of the information, and provide for <a name="Management_Methods."></a>appropriate access to the information.</span></p>
+<p><strong><span>Management Methods.</span></strong></p>
+<p><span>Each Agency/state entity shall employ proven management methodologies to guide and control the planning, acquisition, development, operation, maintenance, and evaluation of information management applications. Pilot projects and/or independent oversight shall be required for larger, more complex applications.</span></p>
+<p><a name="Basis_for_Decisions."></a><strong><span>Basis for Decisions.</span></strong></p>
+<p><span>Decisions regarding the application of IT shall be based on analysis of overall costs and benefits to the people of California over the life of the application. Each Agency/state entity shall plan far enough into the future to ensure that adequate time is available for analysis of alternatives, for obtaining necessary management approvals, and for the administration of procurements. Agencies/state entities shall determine the impact of their decisions across Agency/state entity lines and give priority to alternatives that <a name="Record_of_Decisions."></a>provide the greatest benefit from a statewide perspective.</span></p>
+<p><strong><span>Record of Decisions.</span></strong></p>
+<p><span>Each Agency/state entity shall maintain records of management decisions concerning the use of IT. These records must be sufficiently detailed to satisfy the requirements of oversight agencies as well as internal management. The records must address such topics as:</span></p>
+<ol>
+    <li><span>Identification of IT needs;</span></li>
+    <li><span>Setting of priorities for applications of IT;</span></li>
+    <li><span>Evaluation of application alternatives;</span></li>
+    <li><span>Project management and control;</span></li>
+    <li><span>Contingency planning and risk management; and,</span></li>
+    <li><span>Operational controls and maintenance provisions.</span></li>
+</ol>
+<p><a name="Agency/State_Entity_Personnel."></a><strong><span>Agency/State Entity Personnel.</span></strong></p>
+<p><span>Agency/state entity managerial, technical and user personnel should possess the knowledge and skills necessary to use IT to the best advantage for the state. Each Agency/state entity should regularly assess the IT skills and knowledge of its personnel in relation to job requirements, identify and document training needs, and provide suitable training within the limits of available resources.</span></p>
+<p><a name="Compatibility."></a><strong><span>Compatibility.</span></strong></p>
+<p><span>In selecting or developing applications of IT, each Agency/state entity shall consider the benefits and costs of maintaining compatibility with other planned and existing applications within the Agency/state entity and in other Agencies/state entities. Such consideration of compatibility shall include computer languages, applications and system software, computer hardware and telecommunications equipment, data formats, and the specific knowledge and skills required of state personnel.</span></p>
+<p><a name="Procurement."></a><strong><span>Procurement.</span></strong></p>
+<p><span>In acquiring equipment, software, and services involving IT, Agencies/state entities shall seek maximum economic advantage to the state. Procurements shall normally be competitive, in conformance with the applicable sections of the Public Contract Code and SAM. Agencies/state entities shall use master contracts whenever the functional requirements for which the contract was awarded are substantially the same as the Agency/state entity&rsquo;s requirements.</span></p>
+</div>
+<span><br clear="all" />
+</span>
+<p><a name="Cost_Allocation."></a><strong><span>Cost Allocation.</span></strong></p>
+<p><span>Each Agency/state entity shall adopt policies and establish procedures for assignment of costs associated with IT by program or operational unit within the Agency/state entity, as well as for the assignment and recovery of the costs of services provided to other Agencies/state entities, private individuals, and organizations.</span></p>
+<p><a name="Risk_Management."></a><strong><span>Risk Management.</span></strong></p>
+<p><span>Each Agency/state entity shall adopt and maintain a risk management program for the purpose of identifying and avoiding or minimizing threats to the security of information it maintains and the operational integrity of its information systems, telecommunications systems, and data bases</span></p>
+<p><a name="Documentation."></a><strong><span>Documentation.</span></strong></p>
+<p><span>Applications of IT shall be fully documented with respect to the needs of (1) non- technical users; (2) technical personnel; (3) Agency/state entity measurement; and (4) outside auditors. The adequacy of documentation shall be an evaluation criterion in all procurements involving IT (equipment, software, services and telecommunications facilities). Project plans shall include specific provision for the creation of suitable <a name="Provision_for_Emergencies."></a>documentation.</span></p>
+<p><strong><span>Provision for Emergencies.</span></strong></p>
+<p><span>In planning for the use of automated information systems and telecommunications facilities, Agencies/state entities shall develop policies and procedures to be followed in times of emergency; when systems are preempted to preserve the public health, welfare or safety; and when other events occur which prevent reliance on automated <a name="Individual_Rights."></a>systems for extended periods of time.</span></p>
+<p><strong><span>Individual Rights.</span></strong></p>
+<p><span>Information management policies and procedures shall be consistent with the California Constitution, the Public Records Act, the Information Practices Act, and other applicable laws. Each Agency/state entity shall safeguard the right to privacy of individuals who are <a name="Ethics."></a>the subjects of the records it maintains.</span></p>
+<p><strong><span>Ethics.</span></strong></p>
+<p><span>In the conduct of their operations and in the accomplishment of the policies stated above, Agencies/state entities and their employees shall employ IT in a legal and ethical manner consistent with government statues, rules and regulations. IT shall not be used for purposes that are unrelated to the Agency/state entity&rsquo;s mission or that violate state or federal law. Contract provisions, including software licensing agreements, shall be strictly followed.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ACCESS TO INFORMATION BY THE OFFICE OF THE LEGISLATIVE ANALYST - 4804</h1>
+        <p>
+            <strong>(Reviewed: 06/2015 )</strong>
+        </p>
+    <p>
+        <div>
+<p><span>Section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11534."><span>11534</span></a><span style="text-decoration: underline;"> </span><span>(f) of the Government Code requires that procedures be published in SAM to allow the Legislative Analyst to use data in, or products of, state data processing information systems to analyze programs and budgets.</span></p>
+<p>In order to enable the Legislature to determine the fiscal or program effects of changes (1)&nbsp;proposed by the Administration or (2) considered by the Legislature, any Agency/state entity operating an automated information system shall, upon receiving a written request, allow the Legislative Analyst reasonable access to any relevant data contained in the system's master files, transaction files, history files and/or other appropriate automated files.</p>
+<p>However, such access shall not be provided to information: (1) specifically prohibited by Federal law or (2) relating to proposed administrative actions (such as Budget Change Proposals submitted by individual Agencies/state entities) not yet approved by the Administration.</p>
+<p>It is the responsibility of the Agency/state entity to which the information pertains to ensure that any data made available under these provisions are as accurate and up-to- date as is consistent with the Agency/state entity&rsquo;s normal use of data.</p>
+<p>The Legislative Analyst must agree that any confidential information obtained under these provisions shall remain confidential.</p>
+</div>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>ACCESS TO INFORMATION BY THE CALIFORNIA STATE AUDITOR - 4806</h1>
+        <p>
+            <strong>(Revised: 06/2015 )</strong>
+        </p>
+    <p>
+        <p><span>Section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11534."><span>11534</span></a><span style="text-decoration: underline;"> </span><span>(f) of the Government Code requires that procedures be published in SAM to allow the Auditor General in the conduct of his/her audit to use data in, or products of, state data processing information systems. Section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=8545.2."><span>8545.2</span></a><span style="text-decoration: underline;"> </span><span>of the Government Code provides that the Auditor General shall have access to, and authority to examine, records of any Agency/state entity.&nbsp; Section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=8543.1."><span>8543.1</span></a><span style="text-decoration: underline;"> </span><span>of the Government Code provides that the Auditor General shall examine and report annually upon the financial statements of the state and make special audits and investigations, including performance audits, of any Agency/state entity.</span></p>
+<p><span>In order for the Auditor General to conduct these audits in an expeditious manner, any Agency/state entity operating a statewide information system shall, upon receiving a written request, allow the Auditor General "read only" access to any relevant data contained in the system's master files, transaction files, history files and/or other appropriate automated files.</span></p>
+<p><span>The Agency/state entity operating the information system is authorized to require the Auditor General to reimburse it for any additional costs incurred as a direct result of the Auditor General's acquisition of data from the system.</span></p>
+<p><span>It is the Auditor General's responsibility to check with the individual Agencies/state entities to which the information pertains to ensure that any data acquired under these provisions are accurate and up-to-date.</span></p>
+<p><span>Any confidential information obtained by the Auditor General under these provisions shall remain confidential.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>STATUTORY PROVISIONS AND APPLICATION STATUTORY PROVISIONS - 4810</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <p><span>The following provisions apply to all Agencies/state entities. State entities include every state office, officer, department, division, bureau, board, and commission, including Constitutional Officers. State entities do not include the University of California, California State University, the State Compensation Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative Counsel Bureau.</span></p>
+<p><a href="http://www.cio.ca.gov/"><span>California Department of Technology</span></a><strong><span>:</span></strong></p>
+<p><span>Pursuant to Government Code Sections </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11545."><span>11545</span></a><span style="text-decoration: underline;"> </span><span>and </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11546."><span>11546</span></a><span>, the Director of the California Department of Technology is charged with the duty to advise the Governor on the strategic management and direction of the state's information technology (IT) resources. In addition to this advisory role, the Department of Technology is responsible for: establishing, maintaining, and enforcing the State's IT strategic plans, policies, standards, procedures, and enterprise architecture; approval and oversight of IT projects; approval and oversight of IT procurements for reportable projects where the procurement has not been delegated by DGS to the department ; consulting with Agencies/state entities during initial project planning; and suspending, reinstating, or terminating IT projects.</span></p>
+<p><a href="http://www.dof.ca.gov/"><span>Department of Finance</span></a><strong><span>:</span></strong></p>
+<p><span>Pursuant to Government Code Section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11547."><span>11547</span></a><span>, the Department of Finance shall perform fiscal oversight of the state's IT projects. The oversight shall consist of a determination of the availability of project funding from appropriate sources and project consistency with state fiscal policy.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>AGENCY INFORMATION OFFICER AND STATE ENTITY CHIEF INFORMATION OFFICER RESPONSIBILITIES - 4815</h1>
+        <p>
+            <strong>(Revised: 09/2016 )</strong>
+        </p>
+    <p>
+        <div>
+<p><span>Within the authority of Government Code (GC) Section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11545.&amp;lawCode=GOV"><span>11545</span></a><span>&nbsp;and </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11546.&amp;lawCode=GOV"><span>11546</span></a><span>, the Director of the California Department of Technology (CDT) shall be responsible for providing technology direction to Agency Chief Information Officers (AIOs) and state entity Chief Information Officers (CIOs) to:</span></p>
+<ol>
+    <li><span>Integrate statewide technology initiatives,</span></li>
+    <li><span>Ensure Agencies/state entities are in compliance with IT and securitypolicies and standards, and</span></li>
+    <li><span>Promote the alignment and effective management of ITresources.</span></li>
+</ol>
+<p><strong><span>Agency Information Officers</span></strong></p>
+<p><span>All Agency Information Officers (AIOs) are responsible for overseeing the management of IT assets, projects, data systems, infrastructure, services and telecommunications through the oversight and management of Agency-affiliated State Entity CIOs. Each AIO is responsible for developing an Agency Enterprise Architecture to rationalize, standardize and consolidate IT infrastructure, data, and procedures for all state entities within their Agency.&nbsp; Additionally, AIOs have been delegated CDT approval authority for Project Approval Lifecycle Stage 1 Business Analyses prepared by Agency- affiliated State Entities.</span></p>
+<p><span>Specific responsibilities for the AIOs are published in the State Administrative Manual (SAM), Technology Letters (TLs), and the Statewide Information Management Manual (SIMM). Each AIO must be compliant with the responsibilities as described in SAM, SIMM, and TLs.</span></p>
+</div>
+<strong><span><br clear="all" />
+</span></strong>
+<div>
+<p><strong><span>Chief Information Officers</span></strong></p>
+<p><span>State entity CIOs are directly responsible for all IT activities within the state entity. CIOs are responsible for all IT systems, assets, projects, purchases, and contracts and will ensure state entity conformity with the Agency Enterprise Architecture.&nbsp; State entity CIOs are also responsible for:</span></p>
+<ul style="list-style-type: disc;">
+    <li><span>Portfolio management of the state entity&rsquo;s technology initiatives.</span></li>
+    <li><span>Operational oversight of IT functions, IT personnel and operations including:</span>
+    <ul style="list-style-type: circle;">
+        <li><span>Web application development;</span></li>
+        <li><span>Application and database management;</span></li>
+        <li><span>Security administration;</span></li>
+        <li><span>Telecommunications;</span></li>
+        <li><span>Project planning, consulting, and management; and</span></li>
+        <li><span>Help desk and customer service management.</span></li>
+    </ul>
+    </li>
+</ul>
+<p><span>AIOs and CIOs must be in compliance with state IT policies and procedures as described in </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC"><span>SAM</span></a><span>, </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM</span></a><span>&nbsp;and </span><a href="http://www.cio.ca.gov/Government/IT_Policy/TL.html"><span>Technology Letters</span></a>.</p>
+<p><a name="Non-Affiliated_Chief_Information_Officer"></a><strong><span>Non-Affiliated Chief InformationOfficers</span></strong></p>
+<p><span>With the exception of the responsibilities related to the oversight of Agency-affiliated state entity CIOs, non-affiliated Agency/state entity CIOs have the same responsibilities as AIOs. In addition, non-affiliated Agency/state entity CIOs also have the same responsibilities as Agency-affiliated state entity CIOs.</span></p>
+</div>
+<strong><span><br clear="all" />
+</span></strong>
+<p><strong><span>Reporting</span></strong></p>
+<p><span>AIOs and CIOs are accountable to the Director of the Department of Technology with respect to technology direction, including, but not limited to, IT policy, planning and management.</span></p>
+<p><span>All state employees in IT classifications, and all other state employees or contractors performing IT activities and/or functions must be in a direct reporting relationship to the appropriate AIO or CIO.</span></p>
+<span>Consistent with the federated governance model, the Department of Technology will work with the Agencies/state entities to implement this operating model in a way that aligns with their businessoperations.</span>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>STATUTORY PROVISIONS AND APPLICATION/GENERAL - 4819</h1>
+        <p>
+            <strong>(Revised: 06/2015 )</strong>
+        </p>
+    <p>
+        <p><span>The State Administrative Manual (SAM) Section 4819 provides definitions and summarizes the compliance requirements for the administration of information technology (IT) in state government. Additional detail regarding specific requirements, policies or procedures is provided throughout SAM Sections 4800&ndash; 5953, SAM Sections 6700 &ndash; 6780, and the Statewide Information Management Manual (</span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM</span></a><span>).</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>DEFINITIONS - 4819.2</h1>
+        <p>
+            <strong>(Revised: 01/2025 )</strong>
+        </p>
+    <p>
+        <p>&nbsp;</p>
+<p>The following definitions of administrative and technical terms are provided to assist Agencies/state entities in their application of information technology (IT) policy.</p>
+<p>The primary source for technical definitions is the Information Processing Systems Technical Report, American National Dictionary for Information Processing Systems, developed by the American National Standards Committee, X3 Information Processing Systems. In some cases, the definitions have been modified to meet state needs.</p>
+<p><strong>Accessibility/Accessible</strong>: Individuals with disabilities are able to acquire the same information, engage in the same activities, perform the same functions,&nbsp;and&nbsp;access&nbsp;the same content and services as individuals without disabilities, with similar ease.</p>
+<p><strong>Agency:&nbsp;</strong>This term refers to one of the state's umbrella Agencies. Umbrella Agencies include the Natural Resources Agency, California Environmental Protection Agency, Government Operations Agency, Business Consumer Services and Housing Agency, California Department of Corrections and Rehabilitation, California State Transportation Agency, Labor Agency and the California Health and Human Services Agency.</p>
+<p><strong>Agency-affiliated State Entities:&nbsp;</strong>This term refers to State entities that are governed by one of the state's umbrella Agencies. See definition of Agency.</p>
+<p><strong>Agency Information Management Strategy:&nbsp;</strong>An Agency&rsquo;s/state entity&rsquo;s information management strategy is the Agency&rsquo;s/state entity&rsquo;s comprehensive plan for using IT to address its business needs, e.g., to successfully carry out its programmatic mission. Ideally, the Agency&rsquo;s/state entity&rsquo;s information management strategy represents one aspect of a well-defined, overall Agency/state entity business strategy and is therefore closely aligned to its business strategy. If the Agency/state entity has not established a business strategy, Agency/state entity staff that are responsible for the Agency/state entity information management strategy must make assumptions based on their knowledge of the Agency&rsquo;s/state entity&rsquo;s overall mission, its program resources and priorities, and the changing nature of its environment.</p>
+<p><strong>Algorithm:&nbsp;</strong>A clearly specified mathematical process for computation; a set of rules that, if followed, will give a prescribed result.&nbsp;</p>
+<p><strong>Ancillary Solicitation:&nbsp;</strong>An acquisition that may be necessary to achieve and/or support the primary procurement activities and objectives of an IT project. An IT project may be supported by many Ancillary Solicitations.</p>
+<p><strong>Artificial Intelligence (AI)</strong>:&nbsp;An engineered or machine-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.</p>
+<p><strong>Assistive Technology</strong>: Any item, piece of equipment, software, or system that is designed to increase, maintain, or improve the functional capabilities of individuals with disabilities.</p>
+<p><strong>Automated Decision System</strong>:&nbsp;A computational process derived from machine learning, statistical modeling,&nbsp;data&nbsp;analytics, or artificial intelligence that issues simplified output, including a score,&nbsp;classification, or&nbsp;recommendation, that is used to assist or replace human discretionary&nbsp;decision making and materially impacts&nbsp;natural persons.</p>
+<p><strong>Automation:&nbsp;</strong>Automation is the use of technology to perform tasks where human input is minimized.</p>
+<p><strong>Business Strategy:&nbsp;</strong>An Agency&rsquo;s/state entity&rsquo;s business strategy is its overall plan for accomplishing its mission in a changing environment with the resources it can reasonably expect to be available. Such a strategy typically addresses the Agency&rsquo;s/state entity&rsquo;s statutory mission and historical role, the expectations of its key stakeholders (individuals and organizations that affect the Agency/state entity or that the Agency/state entity affects), the factors that are critical to its success as an organization, the Agency&rsquo;s/state entity&rsquo;s internal strengths and weaknesses, and the political, social, economic, and technological forces in its environment that support or constrain its programs. Business strategies articulate the key issues that must be successfully addressed by the Agency/state entity and identify the priorities and required resources for proposed actions. A strategy may have a timeframe that is as short as a few months. However, most Agency/state entity business strategies present a three- to five-year perspective, with some Agencies/state entities finding it useful to extend their strategic vision as much as ten to 20 years into the future. Strategic planning is not a one-time effort; it is a fundamental, continuing management process that allows the Agency/state entity to respond in an effective manner to a changing environment.</p>
+<p><strong>California Project Management Framework:&nbsp;</strong>The California Project Management Framework (CA-PMF) is a collection of project management best practices and scalable resources, tools, and templates to be used by project management practitioners to effectively plan and manage projects. The CA-PMF is based on the Project Management Body of Knowledge (PMBOK&reg; Guide), as well as project management lessons learned in the State of California.</p>
+<p><strong>Chatbot:&nbsp;</strong>Computer programs that simulate and process human conversation, either written or spoken, to allow humans to interact with digital devices as if they were communicating with a real person.</p>
+<p><strong>Cloud Computing:&nbsp;</strong>A model for enabling ubiquitous, convenient, on-demand network access to a shared pool of configurable computing resources (e.g., networks, servers, storage, applications, and services) that can be rapidly provisioned and released with minimal management effort or service provider interaction<strong>.&nbsp;</strong>This cloud model is composed of five essential characteristics, three service models, and four deployment models.</p>
+<ul style="margin-top: 0in; list-style-type: disc;">
+    <li>Essential Services:&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf">On-demand self-service, Broad network access, Resource pooling, Rapid elasticity, Measured service</a></li>
+    <li>Service Models:&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf">SaaS, PaaS, IaaS</a></li>
+    <li>Deployment Models:&nbsp;<a href="https://nvlpubs.nist.gov/nistpubs/legacy/sp/nistspecialpublication800-145.pdf">Private Cloud, Community Cloud, Public Cloud, Hybrid Cloud</a></li>
+</ul>
+<p><strong>Commercial Off-the-Shelf (COTS):&nbsp;</strong>A computer hardware or software product that is ready-made for specific uses and available for sale to the general public. COTS products are designed to be installed without requiring custom development. For example, Microsoft Office is a COTS product that is a packaged software solution for businesses and individuals. The set of rules for COTS is defined by the Federal Acquisition Regulation (FAR).</p>
+<p><strong>Computer Accessibility:&nbsp;</strong>In human-computer interaction, computer accessibility (also known as accessible computing) refers to the accessibility of a computer system to all people, regardless of ability.</p>
+<p><strong>Confidential Information:&nbsp;</strong>Information maintained by Agencies/state entities that is exempt from disclosure under the provisions of the California Public Records Act (Government Code sections&nbsp;<a href="https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=GOV&amp;division=10.&amp;title=1.&amp;part=&amp;chapter=&amp;article=">7920.000-7931.000</a>) or other applicable state or federal laws. See SAM Section&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/5300/5320-4">5320.4</a>.</p>
+<p><strong>Consequential Decisions:&nbsp;</strong>A decision or judgment that has a legal, material, or similarly significant effect on an individual&rsquo;s life relating to the impact of, access to, or the cost, terms, or availability of, any of the following:</p>
+<p>(1) Employment, workers management, or self-employment.</p>
+<p>(2) Education and vocational training.</p>
+<p>(3) Housing or lodging.</p>
+<p>(4) Essential utilities.</p>
+<p>(5) Family planning and child protective services.</p>
+<p>(6) Health care or health insurance.</p>
+<p>(7) Financial services.</p>
+<p>(8) The criminal justice system.</p>
+<p>(9) Legal services.</p>
+<p>(10) Voting.</p>
+<p>(11) Access to benefits or services or assignment of penalties.</p>
+<p><strong>Continuing Costs:&nbsp;</strong>Costs associated with the operation and maintenance of an IT system or application after development and implementation of the system.</p>
+<p><strong>Critical Application:&nbsp;</strong>An application that is so important to the state that the loss or unavailability of the application is unacceptable. With a critical application, even short- term unavailability of the information provided by the application would have a significant negative impact on the health and safety of the public or state workers, including the fiscal or legal integrity of state operations, or on the continuation of essential Agency/state entity programs.</p>
+<p><strong>Data:&nbsp;</strong>A representation of facts, concepts, or instructions in a formalized manner suitable for communication, interpretation, or processing by humans or by automated means.</p>
+<p><strong>Data Processing:&nbsp;</strong>The systematic performance of operations upon data, e.g., handling, merging, sorting, computing. Synonymous with information processing.</p>
+<p><strong>Data Processing System:&nbsp;</strong>A system, including computer systems and associated IT personnel, that performs input, processes storage, output, and control functions to accomplish a sequence of operations on data.</p>
+<p><strong>Data/Information Storage:&nbsp;</strong>The retaining of data/information on any of a variety of mediums (i.e., magnetic disk, optical disk, or magnetic tape) from which&nbsp;the&nbsp;data&nbsp;can&nbsp;be&nbsp;retrieved.</p>
+<p><strong>Data Transmission:&nbsp;</strong>The conveying of data from one functional unit to one or&nbsp;more additional functional units through the transmission of signals by wire, radio, light&nbsp;beam, or any other electromagnetic means. (Voice or video transmissions are not&nbsp;considered data transmission for the purposes of state&nbsp;policy.)</p>
+<p><strong>Project Cost Delegation:&nbsp;</strong>See SAM Section&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4819-39">4819.39</a>.</p>
+<p><strong>Development:&nbsp;</strong>Activities or costs associated with the analysis, design,&nbsp;programming, staff training, data conversion, acquisition, and implementation of new IT&nbsp;applications.</p>
+<p><strong>Department of General Services (DGS)&nbsp;Delegated&nbsp;Purchasing&nbsp;Authority:&nbsp;</strong>Through&nbsp;Statutory&nbsp;Authority,&nbsp;DGS may grant delegated purchasing authority to&nbsp;Agencies/state entities to procure non-information technology goods and information technology&nbsp;goods and services with a total cost equal to or less than the delegated purchasing&nbsp;authority amount under each category, as defined within the&nbsp;<a href="https://www.dgs.ca.gov/PD/Resources/Page-Content/Procurement-Division-Resources-List-Folder/State-Contracting-Manual">State Contracting Manual</a>&nbsp;(SCM), Volume 2, Chapter 1.</p>
+<p><strong>Domain Name Service:&nbsp;</strong>A series of computer databases that resolve or link&nbsp;Internet Protocol (IP) addresses with an alphanumeric domain name. Domain names&nbsp;are divided into hierarchical fields separated by a period. The field to the farthest right is&nbsp;the top-level (or first-level) domain, in &ldquo;ca.gov&rdquo; for example, "gov" is the top-level domain.&nbsp;In the same example, "ca" is the second-level within the domain, and the field to the left&nbsp;of the second-level domain is the third-level domain (e.g., cdt.ca.gov). Names that fall&nbsp;to the right of the domain following a "/" are subdirectories of the domain&nbsp;(e.g., ca.gov/services).</p>
+<p><strong>Electronic and Information Technology (EIT or E&amp;IT):&nbsp;</strong>Includes IT and any&nbsp;equipment or interconnected system or subsystem of equipment that is used in the&nbsp;creation, conversion, or duplication of data or information. The term electronic and IT includes,&nbsp;but is not limited to, telecommunications products (such as telephones, cell phones,&nbsp;smart phones, and radio receivers), information kiosks and transaction machines, World&nbsp;Wide Web sites, multimedia, and office equipment such as copiers and fax&nbsp;machines.</p>
+<p><strong>Emergency:&nbsp;</strong>&ldquo;A sudden, unexpected occurrence that poses a clear and&nbsp;imminent danger,&nbsp;requiring&nbsp;immediate&nbsp;action&nbsp;to&nbsp;prevent&nbsp;or&nbsp;mitigate&nbsp;the&nbsp;loss&nbsp;or&nbsp;impairment of life, health, property, or essential public services.&rdquo; SAM Section&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/6000/6560">6560</a>&nbsp;specifies that&nbsp;when the Governor declares an emergency, expenditures cannot exceed $25,000,&nbsp;unless approved&nbsp;by&nbsp;the&nbsp;Department of Finance.</p>
+<p><strong>Generative Artificial Intelligence (GenAI)</strong>:&nbsp;An artificial intelligence that can generate derived synthetic content, such as text, images, video, and audio, that emulates the structure and characteristics of the artificial intelligence&rsquo;s training data.</p>
+<p><strong>Hardware:&nbsp;</strong>See Information Technology&nbsp;equipment.</p>
+<p><strong>Hybrid Cloud:&nbsp;</strong>The cloud infrastructure is a composition of two or more distinct cloud infrastructures (private, community, or public) that remain unique entities, but are bound together by standardized or proprietary technology that enables data and application portability (e.g., cloud bursting for load balancing between clouds).</p>
+<p><strong>Information Processing:&nbsp;</strong>The systematic performance of operations upon data,&nbsp;e.g., handling, merging, sorting, computing. Synonymous with data&nbsp;processing.</p>
+<p><strong>Information Technology:&nbsp;</strong>Information technology (IT) means all computerized&nbsp;and auxiliary automated information handling, including systems design and&nbsp;analysis, conversion&nbsp;of&nbsp;data,&nbsp;computer&nbsp;programming,&nbsp;information&nbsp;storage&nbsp;and&nbsp;retrieval, voice, video, data communications, microwave, light ware, routers, network&nbsp;equipment, requisite systems controls,&nbsp;and simulation.</p>
+<p><strong>Information&nbsp;Technology&nbsp;Activities:&nbsp;</strong>Any&nbsp;activity&nbsp;listed&nbsp;below,&nbsp;or&nbsp;any&nbsp;combination of these&nbsp;activities&nbsp;for&nbsp;a&nbsp;single&nbsp;IT&nbsp;project,&nbsp;is&nbsp;to&nbsp;be&nbsp;considered&nbsp;an&nbsp;"IT&nbsp;activity."</p>
+<ol style="margin-top: 0in;">
+    <li>IT facility preparation, operation and maintenance.</li>
+    <li>Information management planning.</li>
+    <li>Feasibility determination, development and implementation of application systems or programs, or changes to application systems or programs to&nbsp;meet&nbsp;new or modified needs, or maintenance, including: Project Approval Lifecycle Stage/Gate deliverable preparation, systems analysis, systems design, purchase and installation of software, programming, conversion of data or programs, documentation of systems and procedures, and project appraisal or assessment.</li>
+    <li>Operation of application systems or programs including handling, assembling, or editing of input-output data or media where IT equipment or IT personnel are used.</li>
+    <li>Information Technology Procurement.</li>
+    <li>Installation, operation, and maintenance of data processing equipment, IT equipment, goods and services, and software.</li>
+    <li>Other installation management activities include: performance measurement, system tuning, and capacity management.</li>
+    <li>Preparation and administration of requests for proposals or bid solicitations for contracts for any of the above activities.</li>
+    <li>Preparation of contracts, interagency agreements, and purchase estimates for any of the above activities.</li>
+    <li>Employment of personnel in support of, or directly related to, any of the above activities, including administration, technical services, clerical services, travel, training, and preparation of periodic and special reports.</li>
+    <li>Control functions directly related to any of the above activities.</li>
+</ol>
+<p><strong>IT Equipment:&nbsp;</strong>Information Technology devices used in the processing of&nbsp;data electronically. The following are examples of IT&nbsp;equipment:</p>
+<ol style="margin-top: 0in;">
+    <li>Mainframes and all related features and peripheral units, including processor storage, console devices, channel devices, etc.;</li>
+    <li>Minicomputers, midrange computers, personal computers, laptop, tablets, smart phones and all peripheral units associated with such computers;</li>
+    <li>Special purpose systems including word processing, Optical Character Recognition (OCR), bar code readers/scanners, and photo composition;</li>
+    <li>Communication devices used for transmission of data such as modems, data sets, multiplexors, concentrators, routers, switches, local area networks, private branch exchanges, network control equipment, and microwave or satellite communications systems; and</li>
+    <li>Input-output (peripheral) units (off-line or on-line) including display screens, optical character readers, magnetic tape units, mass storage devices, printers, video display units, data entry devices, plotters, scanners, or any device used as a terminal to a computer and control units for these devices.</li>
+</ol>
+<p><strong>Information Technology Expenditure:&nbsp;</strong>The expenditure of funds regardless of&nbsp;source by any Agency/state entity for IT activities, equipment, facilities, personnel,&nbsp;services, supplies and the automated processing of&nbsp;information.</p>
+<p><strong>Information Technology Infrastructure:&nbsp;</strong>An Agency&rsquo;s/state entity&rsquo;s IT infrastructure&nbsp;is the base or foundation for the delivery of information to support the&nbsp;Agency&rsquo;s/state entity&rsquo;s programs and management. The infrastructure contains elements upon&nbsp;which an Agency&rsquo;s/state entity&rsquo;s IT activities are dependent. An Agency/state entity&nbsp;must therefore define, implement, and manage these infrastructure elements to&nbsp;employ&nbsp;IT successfully.</p>
+<p>The desirable characteristics of this infrastructure are efficient support for&nbsp;the exchange of information within the Agency/state entity, and between the&nbsp;Agency/state entity&nbsp;and&nbsp;other&nbsp;organizations;&nbsp;reliable&nbsp;availability&nbsp;of&nbsp;information&nbsp;processing&nbsp;capabilities whenever and wherever they are needed; preservation of the integrity&nbsp;and confidentiality of information maintained by the Agency/state entity; sufficient&nbsp;flexibility to allow the timely and efficient addition of new information management&nbsp;capabilities and modifications of established capabilities; and consistency with a coherent set of technical&nbsp;and&nbsp;managerial&nbsp;standards&nbsp;for&nbsp;the&nbsp;employment&nbsp;of IT.</p>
+<p>Typical elements in an IT infrastructure&nbsp;include:</p>
+<p style="margin-left: 40px;"><strong>Application Systems</strong>: The applications that an Agency/state entity&nbsp;purchases and/or develops to achieve personal productivity and program support&nbsp;benefits.</p>
+<p style="margin-left: 40px;"><strong>Architecture</strong>: The guidelines or blueprints an Agency/state entity follows&nbsp;in designing, acquiring, and implementing IT solutions. Organizationally&nbsp;approved definitions, specifications, and standards are the primary components in&nbsp;an Agency&rsquo;s/state entity&rsquo;s&nbsp;IT architecture.</p>
+<p style="margin-left: 40px;"><strong>Communications</strong>: Local area and wide area network components,&nbsp;including linkages with&nbsp;other organizations.</p>
+<p style="margin-left: 40px;"><strong>Equipment</strong>: An Agency&rsquo;s/state entity&rsquo;s hardware platforms and&nbsp;components ranging from individual personal computers to mainframes and&nbsp;associated peripherals.</p>
+<p style="margin-left: 40px;"><strong>Facilities</strong>: The electrical, ventilation, fire suppression, physical security,&nbsp;wiring, and other components required to support an Agency&rsquo;s/state entity&rsquo;s IT&nbsp;capability, including the physical structure&nbsp;itself.</p>
+<p style="margin-left: 40px;"><strong>Funding</strong>: Current and projected funding for IT planning,&nbsp;acquisition, development, and operations&nbsp;activities.</p>
+<p style="margin-left: 40px;"><strong>Partnerships</strong>: Relationships with other public and private sector&nbsp;organizations that support and enable the Agency&rsquo;s/state entity&rsquo;s pursuit and use of&nbsp;IT.</p>
+<p style="margin-left: 40px;"><strong>People</strong>: An Agency&rsquo;s/state entity&rsquo;s technical staff, user community groups,&nbsp;and executive steering and oversight committees that are charged with IT&nbsp;planning, approval, development, management, operations, and security&nbsp;responsibilities.</p>
+<p style="margin-left: 40px;"><strong>Plans</strong>: Detailed designs or methods for aligning IT activities with&nbsp;Agency/state entity business strategies and accomplishing business objectives.&nbsp;Typical Agency/state entity IT plans include strategic, risk management, and&nbsp;operational recovery.</p>
+<p style="margin-left: 40px;"><strong>Policies</strong>: The rules, conventions, and protocols adopted by the&nbsp;Agency/state entity to govern the pursuit and use&nbsp;of IT.</p>
+<p style="margin-left: 40px;"><strong>Processes and Procedures</strong>: The defined steps for planning,&nbsp;approving, acquiring, developing, operating, maintaining, enhancing, and using IT within&nbsp;the Agency/state&nbsp;entity.</p>
+<p style="margin-left: 40px;"><strong>Service Definitions</strong>: The types of services provided, accepted service&nbsp;levels, and service delivery time frames established for an Agency&rsquo;s/state entity&rsquo;s&nbsp;IT support&nbsp;organization.</p>
+<p style="margin-left: 40px;"><strong>Software</strong>: The set of operating system, utility, communications, user&nbsp;interface, and management programs that enable users to operate and control&nbsp;computers and develop application&nbsp;systems.</p>
+<p style="margin-left: 40px;">The infrastructure includes elements owned by the Agency/state entity&nbsp;and available under contract or through interagency agreement. For&nbsp;Agencies/state entities that employ the services of a consolidated data center, for example,&nbsp;the required data center resources are considered part of the Agency&rsquo;s/state&nbsp;entity&rsquo;s infrastructure.</p>
+<p style="margin-left: 40px;"><strong>Reengineering the Business Process</strong>: The search for and implementation&nbsp;of radical changes in business processes that result in dramatic&nbsp;efficiencies, reductions in turnaround time, improvements in quality, or improvements&nbsp;in customer&nbsp;service.</p>
+<p style="margin-left: 40px;"><strong>Strategic Planning Process for Information Technology</strong>: The process&nbsp;of aligning Agency/state entity plans for, and uses of, IT with the&nbsp;Agency&rsquo;s/state entity&rsquo;s business&nbsp;strategies.</p>
+<p><strong>Information Technology Procurement:&nbsp;</strong>Any process to obtain IT&nbsp;goods/services through competitive, non-competitive, purchase or lease, for the benefit of the&nbsp;State. Sometimes referred to as contracting, purchase or&nbsp;acquisition.</p>
+<p><strong>Information Technology Project:&nbsp;</strong>A unique endeavor involving activities required&nbsp;to plan, design, develop, implement, operate and maintain an Information&nbsp;Technology (IT) solution that meets a specific and measurable policy or programmatic&nbsp;objective. IT projects include the entire systems development lifecycle from project&nbsp;initiation through the normalized operational cycle. IT activities related to the refresh of&nbsp;non- data center hardware required to operate an IT project shall not be considered an&nbsp;IT project. See SAM Section&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4819-37">4819.37</a>&nbsp;for Project Delegation&nbsp;Criteria.</p>
+<p><strong>Information Technology Project Oversight Framework:&nbsp;</strong>Minimum requirements&nbsp;for IT project management, risk management, and IT project oversight activities&nbsp;for Agencies/ state entities. Description of control agency project reporting&nbsp;requirements and processes for assessing Agency/state entity project management and&nbsp;oversight activities. See&nbsp;<a href="https://cdt.ca.gov/policy/simm/">SIMM</a>&nbsp;Section 45.</p>
+<p><strong>Information Technology Personnel:&nbsp;</strong>All state personnel employed in IT&nbsp;or telecommunications classifications as defined by the Department of Human&nbsp;Resources or by the Trustees of the California State University and Colleges, and all personnel&nbsp;of other classifications in Agencies/state entities who perform IT activities for at least&nbsp;50 percent of their time. Users of personal computers and office automation are&nbsp;not included in this category unless they are in IT classifications or spend at least&nbsp;50 percent of their time performing IT&nbsp;activities.</p>
+<p><strong>Information Technology Supplies:&nbsp;</strong>All consumable items and necessities&nbsp;(excluding equipment&nbsp;defined&nbsp;as&nbsp;IT&nbsp;equipment)&nbsp;to&nbsp;support&nbsp;information&nbsp;technology&nbsp;activities&nbsp;and IT&nbsp;personnel,&nbsp;&nbsp;including:</p>
+<ol style="margin-top: 0in;">
+    <li>Documents (such as standards and procedures manuals, vendor-supplied systems documentation, and educational or training manuals);</li>
+    <li>Equipment supplies (such as printer cartridges and magnetic tape); and</li>
+    <li>Furniture (such as terminal tables and printer stands).</li>
+</ol>
+<p><strong>Infrastructure as a Service (IaaS):&nbsp;</strong>The capability provided to the consumer&nbsp;is to provision processing, storage, networks, and other fundamental&nbsp;computing resources where the consumer is able to deploy and run arbitrary software, which&nbsp;can include operating systems and applications. The consumer does not manage or&nbsp;control the underlying cloud infrastructure but has control over operating systems;&nbsp;storage, deployed applications, and possibly limited control of select networking&nbsp;components (e.g., host&nbsp;firewalls).</p>
+<p><strong>Input-Output Unit/Device:&nbsp;</strong>A unit or device in an IT system by in which data may&nbsp;be entered into the system, received from the system, or&nbsp;both.</p>
+<p><strong>Large Language Model</strong>:&nbsp;A specialized type of artificial intelligence (AI) that&nbsp;has been&nbsp;trained on vast amounts of text to understand existing content and generate original content.</p>
+<p><strong>Life Cycle:&nbsp;</strong>The anticipated length of time that the IT system or application can&nbsp;be expected to be efficient, cost-effective and continue to meet the Agency&rsquo;s/state&nbsp;entity&rsquo;s programmatic requirements. Synonymous with operational&nbsp;life.</p>
+<p><strong>Machine Learning</strong>:&nbsp;A set of techniques that can be used to train AI algorithms&nbsp;to&nbsp;improve performance at a task based on data.</p>
+<p><strong>Maintenance:&nbsp;</strong>Activities or costs associated with the ongoing upkeep of&nbsp;operational applications of IT. Maintenance includes correcting flaws, optimizing existing systems&nbsp;or applications, responding to minor changes in specified user requirements, renewal&nbsp;of&nbsp;equipment maintenance agreements, software or hardware upgrade or refresh&nbsp;to maintain the health of the systems, and meeting normal workload increases&nbsp;using substantially the same applications, facilities, IT personnel, supplies and&nbsp;software.</p>
+<p><strong>Metadata:</strong>&nbsp;Information describing the characteristics of data including data structure and descriptive information.</p>
+<p><strong>Microservice Architecture:&nbsp;</strong>An approach to software development where an application is built as a collection of small, independent services. Each service focuses on a specific function and can be developed, deployed, and scaled independently. They communicate through Application Programming Interface (API), and the architecture promotes decentralization, loose coupling, independent scaling, and technology diversity. It enables fault isolation, resilience, and continuous deployment. Microservice architectures offer benefits such as scalability, flexibility, and faster development, but also introduce complexities. Overall, they provide a modular and agile approach to building and evolving applications.</p>
+<p><strong>Mobile Web:&nbsp;</strong>Mobile web refers to access to the Internet or&nbsp;Web&nbsp;applications using&nbsp;a mobile device, such as a smart phone connected to a wireless&nbsp;network.</p>
+<p><strong>Multi-Cloud:&nbsp;</strong>Multi-Cloud refers to an approach in cloud computing where an organization or individual utilizes the services and resources of multiple cloud service providers simultaneously. It involves distributing workloads, applications, and data across different cloud platforms, instead of relying on a single cloud provider.</p>
+<p><strong>Natural Language Processing:&nbsp;</strong>Takes communications by humans and transforms the information into something more suitable for computer use and analysis.</p>
+<p><strong>Network Equipment:&nbsp;</strong>Equipment facilitating the use of a computer network.&nbsp;This includes routers, switches, hubs, gateways, access points, network bridges,&nbsp;modems, firewalls, and other related hardware and&nbsp;software.</p>
+<p><strong>Non-affiliated State Entities:&nbsp;</strong>This term refers to State entities that&nbsp;are&nbsp;not&nbsp;governed&nbsp;by an Agency.&nbsp;See&nbsp;definition&nbsp;of&nbsp;Agency.</p>
+<p><strong>Non-Delegated Project:&nbsp;</strong>An IT Project that meets one or more of the criteria listed&nbsp;in SAM Section&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4819-37">4819.37</a>. Non-Delegated Projects must be formally approved by&nbsp;the Department of Technology through the Project Approval Lifecycle. Agency/state&nbsp;entity directors are delegated approval authority for IT Projects that do not meet any of&nbsp;the criteria listed in SAM Section&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4819-37">4819.37</a>.</p>
+<p><strong>One-Time Costs:&nbsp;</strong>Costs associated with the analysis, design, programming,&nbsp;verification and validation services, staff training, data conversion, acquisition, and&nbsp;implementation of new IT applications. See&nbsp;<a href="https://cdt.ca.gov/policy/simm/">SIMM</a>&nbsp;Section 19F (Financial Analysis&nbsp;Worksheets).</p>
+<p><strong>Open Data:&nbsp;</strong>Data that can be freely accessed, used, modified, and shared by anyone for any purpose (<a href="http://opendefinition.org/" title="http://opendefinition.org/">http://opendefinition.org/</a>). For&nbsp;<a href="https://data.ca.gov/">Data.ca.gov</a>, open data is regularly updated and comes from an authoritative source.</p>
+<p><strong>Open-Source Software:&nbsp;</strong>Software that includes distribution terms that comply with&nbsp;the following criteria provided by the Open-Source Initiative. The open source&nbsp;definition used here is from the Open Source Initiative and is licensed under a Creative&nbsp;Commons Attribution 2.5 License&nbsp;(<a href="http://creativecommons.org/licenses/by/2.5/" title="http://creativecommons.org/licenses/by/2.5/">http://creativecommons.org/licenses/by/2.5/</a>)</p>
+<ol style="margin-top: 0in;">
+    <li>Free Redistribution: The software can be given as part of a package with other applications;</li>
+    <li>Source Code: The code must either be distributed with the software or easily accessible;</li>
+    <li>Derived Works: The code can be altered and distributed by the new author under the same license conditions as the product on which it is based;</li>
+    <li>Integrity of the author's source code: Derived works must not interfere with the original author's intent or work;</li>
+    <li>No discrimination against persons or groups;</li>
+    <li>No discrimination against fields of endeavor: Distributed software cannot be restricted in who can use it based on their intent;</li>
+    <li>Distribution of license: The rights of the program must apply to all to whom the program is re-distributed without need for an additional license;</li>
+    <li>License must not be specific to a product; Meaning that an operating system product cannot be restricted to be free only if used with another specific product;</li>
+    <li>License must not contaminate other software; and</li>
+    <li>License must be technology-neutral.</li>
+</ol>
+<p><strong>Operational Life:&nbsp;</strong>See&nbsp;Life Cycle.</p>
+<p><strong>Operations:&nbsp;</strong>Activities or costs associated with the continued use of applications of&nbsp;IT. Operations includes IT personnel associated with computer operations,&nbsp;including network operations, job control, scheduling, key entry, and the costs of computer&nbsp;time or other resources for&nbsp;processing.</p>
+<p><strong>Peripheral Unit/Device:&nbsp;</strong>With respect to a particular processing unit or device,&nbsp;any equipment that can communicate directly with that unit or&nbsp;device.</p>
+<p><strong>Platform as a Service (PaaS):&nbsp;</strong>The capability provided to the consumer is&nbsp;to deploy onto the cloud infrastructure consumer-created or acquired applications&nbsp;created using programming languages and tools supported by the provider. The consumer&nbsp;does not manage or control the underlying cloud infrastructure that includes network,&nbsp;servers, operating systems, or storage but has control over the deployed applications&nbsp;and possibly application-hosting environment&nbsp;configurations.</p>
+<p><strong>Power Management:&nbsp;</strong>A feature of some electrical appliances, especially&nbsp;copiers, computers and computer peripherals such as monitors and printers, which turns off&nbsp;the power or switches the system to a low-power state when in&nbsp;active.</p>
+<p><strong>Previously Approved Effort/Project:&nbsp;</strong>An IT activity or project previously&nbsp;approved by the California Department of Technology or the Agency&rsquo;s/state entity&rsquo;s&nbsp;executive officer in accordance with SAM Section&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4819-3">4819.3</a>. Qualification of an activity as&nbsp;a previously approved effort requires an approved Stage 4 Project Readiness&nbsp;and Approval AND an approved Post-Implementation Evaluation Report (PIER).&nbsp;Applicable activities include meeting modified needs, improving the effectiveness of the&nbsp;activity, program or system maintenance, or extension of existing services to new or&nbsp;additional users performing essentially the same functions as those that the project was&nbsp;designed to support. A previously approved effort/project must use substantially the&nbsp;same equipment, facilities, technical personnel, supplies and software to meet&nbsp;substantially the same requirements or to meet normal workload increases. (Note: "Substantially&nbsp;the same equipment" does not include the addition, upgrade or replacement of a&nbsp;central processing&nbsp;unit.)</p>
+<p><strong>Primary Solicitation:&nbsp;</strong>The acquisition that will procure and obtain the main IT&nbsp;Goods and/or Services for an IT project solution. An IT Project may only have one&nbsp;Primary Solicitation but may be supported by many Ancillary&nbsp;Solicitations.</p>
+<p><strong>Private Cloud:&nbsp;</strong>The cloud infrastructure is provisioned for exclusive use by a single organization comprising multiple consumers (e.g., business units). It may be owned, managed, and operated by the organization, a third party, or some combination of them, and it may exist on or off premises.</p>
+<p><strong>Procurement Oversight:&nbsp;</strong>An independent review and analysis to determine if&nbsp;the procurement methodology is sound and feasible. Procurement Oversight&nbsp;includes coaching, guidance and direction in all aspects of IT procurement. Oversight&nbsp;activities may include procurement planning, assistance in developing deliverables, review&nbsp;and approval of procurement documents and the execution and award of&nbsp;contracts.</p>
+<p><strong>Program:&nbsp;</strong>A sequence of instructions suitable for processing. See&nbsp;Information Processing or Data&nbsp;Processing.</p>
+<p><strong>Programming:&nbsp;</strong>The designing, writing, testing, debugging, and documentation&nbsp;of programs.</p>
+<p><strong>Project:&nbsp;</strong>See Information Technology&nbsp;Project.</p>
+<p><strong>Project&nbsp;Approval&nbsp;Lifecycle&nbsp;(PAL):&nbsp;</strong>The&nbsp;policy,&nbsp;procedures&nbsp;and&nbsp;templates&nbsp;that&nbsp;make&nbsp;up the State of California&rsquo;s process for gaining approval of IT projects. The&nbsp;Project Approval Lifecycle is divided into four stages that are separated by gates. Each stage&nbsp;consists of a set of prescribed, cross-functional, and parallel activities to develop&nbsp;deliverables used as the inputs for the next gate. The gates provide a series of &ldquo;go/no go&rdquo;&nbsp;decision points that request only the necessary and known information needed to make&nbsp;sound decisions for that particular point in time.&nbsp; The four stages, which document&nbsp;the business analysis, alternatives analysis, solution development and project&nbsp;readiness analysis, must be approved by the Department of Technology prior to the&nbsp;encumbrance or expenditure of funds, including the use of staff resources, on any IT project&nbsp;beyond the Project&nbsp;Approval Lifecycle.</p>
+<p><strong>Project End Date:&nbsp;</strong>The proposed project end date should reflect the conclusion&nbsp;of project activities: The last date that proposed project activities are estimated to&nbsp;be completed. This should exclude any activities related to the Post&nbsp;Implementation Evaluation Report&nbsp;(PIER).</p>
+<p><strong>Project Oversight:&nbsp;</strong>An&nbsp;<em>independent&nbsp;</em>review and analysis to determine if the project is&nbsp;on track to be completed within the estimated schedule and cost and will provide&nbsp;the functionality required by the sponsoring business entity. Project oversight identifies&nbsp;and quantifies any issues and risks affecting these project&nbsp;components.</p>
+<p><strong>Project Planning Start Date:&nbsp;</strong>The project planning start date is the&nbsp;date&nbsp;an Agency/state&nbsp;entity&nbsp;begins&nbsp;a&nbsp;Stage&nbsp;2&nbsp;Alternatives&nbsp;Analysis.&nbsp;The&nbsp;planning&nbsp;phase&nbsp;of&nbsp;an IT project proposal begins with the Stage 2 Alternatives Analysis and ends at&nbsp;the conclusion&nbsp;of&nbsp;Stage&nbsp;4&nbsp;Project&nbsp;Readiness&nbsp;and&nbsp;Approval&nbsp;(Gate&nbsp;4).</p>
+<p><strong>Project Planning End Date:&nbsp;</strong>The project planning end date should reflect&nbsp;the conclusion of project planning activities: The last date that project planning activities&nbsp;are estimated to be completed at the conclusion of Stage 4 Project Readiness and&nbsp;Approval (Gate&nbsp;4).</p>
+<p><strong>Project Start Date:&nbsp;</strong>The project start date is the date an IT project proposal is&nbsp;approved and funded. For most projects dependent on a funding request, this date&nbsp;will be July 1st of the year the project funding is approved. For projects without&nbsp;this dependency, the project start date is the project approval date (Gate 4&nbsp;approval).</p>
+<p><strong>Proprietary Software:&nbsp;</strong>Computer programs that are the legal property of one&nbsp;party, the use of which is made available to a second or more parties, usually under&nbsp;contract or licensing&nbsp;agreement.</p>
+<p><strong>Public Cloud:&nbsp;</strong>The public cloud infrastructure is provisioned for open use by the general public. It may be owned, managed, and operated by a business, academic, or government organization, or some combination of them. It exists on the premises of the cloud provider.</p>
+<p><strong>Public Facing Applications:&nbsp;</strong>Applications available to the broadest base of&nbsp;potential users as well as designed and delivered with the intent of access by all individuals&nbsp;or organizations over the public&nbsp;internet.</p>
+<p><strong>Public Information:&nbsp;</strong>Any information prepared, owned, used or retained&nbsp;by&nbsp;an&nbsp;Agency/state entity and not specifically exempted from the disclosure requirements&nbsp;of the California Public Records Act (Government Code sections&nbsp;<a href="https://leginfo.legislature.ca.gov/faces/codes_displayexpandedbranch.xhtml?tocCode=GOV&amp;division=10.&amp;title=1.&amp;part=&amp;chapter=&amp;article=">7920.000-7931.000</a>) or&nbsp;other applicable state or&nbsp;federal laws.</p>
+<p><strong>Sensitive Information:&nbsp;</strong>Information maintained by Agencies/state entities that require special precautions to protect it from unauthorized modification or deletion. See SAM Section&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/5300/5320-4">5320.4</a>. Sensitive information may be either public or confidential (as&nbsp;defined above).</p>
+<p><strong>Server Room:&nbsp;</strong>Any space that houses computer operations. Such computer&nbsp;operations could utilize mainframes, servers, or any computer resource functioning as a&nbsp;server.</p>
+<p><strong>Shutdown:&nbsp;&nbsp;</strong>Turning off the power in a controlled&nbsp;manner.</p>
+<p><strong>Software:&nbsp;</strong>Programs, procedures, rules, and any associated documentation&nbsp;pertaining to the operation of a system (contrast with&nbsp;hardware).</p>
+<p><strong>Software as a Service (SaaS):&nbsp;</strong>The capability provided to the consumer is&nbsp;to use the provider&rsquo;s applications running on a cloud infrastructure. The applications&nbsp;are accessible from various client devices through a thin client interface such as a&nbsp;web browser (e.g., web-based email). The consumer does not manage or control&nbsp;the underlying cloud infrastructure including network, servers, operating systems,&nbsp;storage, or even individual application capabilities, with the possible exception of limited&nbsp;user- specific application configuration&nbsp;settings.</p>
+<p><strong>Staff Augmentation Procurement:&nbsp;</strong>The acquisition of contracted services to&nbsp;address state staff resource constraints or skill gaps for IT project&nbsp;activities.</p>
+<p><strong>Staff Redirection:&nbsp;</strong>The redirection of existing Agency/state entity staff resources&nbsp;to support IT project activities or backfill behind existing staff redirected to support&nbsp;IT project activities. Contracted services are not considered Staff&nbsp;Redirection.</p>
+<p><strong>Stage/Gate Deliverables:&nbsp;</strong>The formal deliverable documents that support the&nbsp;Project Approval&nbsp;Lifecycle.&nbsp;Stage/Gate&nbsp;deliverables&nbsp;are&nbsp;the&nbsp;Stage&nbsp;1 &ndash; Business&nbsp;Analysis,&nbsp;Stage 2&nbsp;&ndash;&nbsp;Alternatives&nbsp;Analysis,&nbsp;Stage&nbsp;3&nbsp;&ndash;&nbsp;Solution&nbsp;Development&nbsp;and&nbsp;Stage&nbsp;4&nbsp;&ndash;&nbsp;Project&nbsp;Readiness and Approval. Formal project approval occurs upon approval of the Stage 4&nbsp;Project Readiness and&nbsp;Approval.</p>
+<p><strong>State Entity:&nbsp;</strong>Includes every state office, officer, department, division, bureau,&nbsp;board, and commission, including Constitutional Officers. &ldquo;State entity&rdquo; does not include&nbsp;the University of California, California State University, the State Compensation&nbsp;Insurance Fund, the Legislature, or the Legislative Data Center in the Legislative&nbsp;Counsel Bureau.</p>
+<p><a href="https://cdt.ca.gov/policy/simm/"><strong>Statewide Information Management Manual (SIMM)</strong></a><strong>:&nbsp;</strong>The Statewide&nbsp;Information Management Manual (<a href="https://cdt.ca.gov/policy/simm/">SIMM</a>) as structured by the Department of Technology&nbsp;that contains standards, procedures, instructions and guidelines, as well as&nbsp;samples, models, forms and communication documents that Agencies/state entities must use, or will find helpful to use, in complying with established state policy relating&nbsp;to IT. For clarity, references in&nbsp;<a href="https://cdt.ca.gov/policy/simm/">SIMM</a>&nbsp;to "Department of Finance" that are not related&nbsp;to budget documents, such as Budget Change Proposals or Finance Letters, should&nbsp;be read as references to the "California Department of&nbsp;Technology."</p>
+<p><strong>State Telecommunications Management Manual (</strong><a href="https://cdt.ca.gov/services/calnet-stmm-2/">STMM</a><strong>):&nbsp;</strong>The&nbsp;State Telecommunications Management Manual (STMM), as structured by the Department&nbsp;of Technology, contains state telecommunications policies and procedures based on SAM&nbsp;<a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4500">4500-4555</a>&nbsp;and Government Code Section&nbsp;<a href="http://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV&amp;amp;amp%3Bamp%3Bamp%3Bdivision=3.&amp;amp;amp%3Bamp%3Bamp%3Btitle=2.&amp;amp;amp%3Bamp%3Bamp%3Bpart=1.&amp;amp;amp%3Bamp%3Bamp%3Bchapter=5.5.&amp;amp;amp%3Bamp%3Bamp%3Barticle=2">11534-11543</a>. The STMM is&nbsp;continually updated to reflect current telecommunications policies and practices, and links&nbsp;to helpful outside resources are included throughout the&nbsp;STMM.</p>
+<p><strong>System Standby:&nbsp;</strong>A low-power mode for electronic devices such as&nbsp;computers, televisions, and remote-controlled devices (aka &ldquo;sleep mode&rdquo;). These modes&nbsp;save significant electrical consumption compared to leaving a device fully on and idle&nbsp;but allow the user to avoid having to reset programming codes or wait for a machine&nbsp;to reboot.</p>
+<p><strong>Technology Letter:&nbsp;</strong>Letters issued by the Department of Technology conveying&nbsp;official communications regarding state IT, announcing new or changes to existing IT&nbsp;policies and procedures, or announcing new or changes to existing state IT services&nbsp;or standards.</p>
+<p><strong>Technology Modernization:&nbsp;</strong>Actions an organization takes to move away from an outdated and/or unsupported technology or process, to adopt, adapt, or upgrade its technology to current industry best practices and/or standards to allow stable, scalable, and resilient support of the business needs.</p>
+<p><strong>Technology Remediation:&nbsp;</strong>The act of correcting an error, or mitigating a threat, vulnerability or identified gap, or responding to unexpected events, or preventing negative outcomes after an assessment of existing technology and/or the business process.</p>
+<p><strong>Technology Stabilization:</strong>&nbsp;Actions an organization takes to sustain and/or improve the reliability and availability of its current technology to efficiently support its current business needs.</p>
+<p><strong>Telecommunications:&nbsp;</strong>Includes voice and data communications, the transmission&nbsp;or reception of signals, writing, sounds, or intelligence of any nature by wire, radio,&nbsp;light beam, or any other electromagnetic&nbsp;means.</p>
+<p><strong>Tenant Managed Services:&nbsp;</strong>Centralized Tier III-equivalent data center space&nbsp;providing participating state Agencies/state entities the ability to operate their own&nbsp;environment with a degree of independence in the overall management of their server&nbsp;infrastructure. Additionally, Agencies/state entities can plan utilization of the Tenant Managed&nbsp;Services (TMS) as a disaster recovery&nbsp;site.</p>
+<p><strong>Tier III-Equivalent Data Center:&nbsp;</strong>Data Center facility consisting of multiple active&nbsp;power and cooling distribution paths; however, only one path is active. The facility&nbsp;has redundant components and is concurrently maintainable providing 99.982%&nbsp;availability.</p>
+<p><strong>Total Planning Cost:&nbsp;</strong>The total planning cost is the sum of all costs associated with&nbsp;the planning activities conducted in Stage 2 Alternatives Analysis through Stage 4&nbsp;Project Readiness and&nbsp;Approval.</p>
+<p><strong>Total Project Cost:&nbsp;</strong>The total project cost is the sum of ALL costs associated with&nbsp;the project planning phases (Stage 2 through Stage 4) and the project execution&nbsp;phase (design, development, and implementation), plus one full year of maintenance&nbsp;and operations&nbsp;costs.</p>
+<p><strong>Validation:&nbsp;</strong>The process of evaluating software during or at the end of the&nbsp;development process to determine whether it satisfies specified requirements.&nbsp;[IEEE-STD-610]</p>
+<p><strong>Verification:&nbsp;</strong>The process of evaluating software to determine whether the products of&nbsp;a given development phase satisfy the conditions imposed at the start of that&nbsp;phase. [IEEE-STD-610]</p>
+<p><strong>Virtualization:&nbsp;</strong>A framework or methodology of dividing the resources of a&nbsp;computer into multiple execution environments, by applying one or more concepts&nbsp;or technologies such as hardware and software partitioning, time-sharing, partial&nbsp;or complete machine simulation, emulation, quality of service, and many&nbsp;others.</p>
+<p><strong>Workgroup Collaboration Platform</strong>: Cloud-based collaboration tool that integrates features such as chat, conferencing, calendaring, notes, and attachments organized by topics and accessible through a specific URL or invitation. Within the platform, members can create channels or topics of conversation and collaborate through a shared workspace.</p>
+<p><strong>Workload Increase:&nbsp;</strong>Employing substantially the same resources (equipment,&nbsp;facilities, IT personnel, supplies, software) to process a greater volume of the same or&nbsp;similar information. The results of the processing are the same or similar outputs distributed&nbsp;to comparable&nbsp;users.</p>
+<p><strong>Zero Trust Architecture (ZTA):&nbsp;</strong>Zero Trust Architecture (ZTA) is a security trust model that assumes that no entity should be inherently trusted, whether internal or external. It requires strict verification and authentication for users, devices, and applications seeking access to resources. The core principles of ZTA include least privilege access, micro-segmentation, network segmentation, continuous monitoring and analytics, and security automation and orchestration. By implementing these principles, ZTA aims to enhance security, minimize the impact of breaches, and protect sensitive data by consistently verifying and validating entities before granting access.</p>
+<p>&nbsp;</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>STATE INFORMATION MANAGEMENT AUTHORITY AND RESPONSIBILITY - 4819.3</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <p><span>Pursuant to Government Code Sections </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11545."><span>11545</span></a><span>&nbsp;and </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11546."><span>11546</span></a><span>, the Director of the California Department of Technology is charged with the duty to advise the Governor on the strategic management and direction of the State's IT resources.&nbsp;In addition to this advisory role, the Department of Technology is responsible for: establishing, maintaining, and enforcing the state&rsquo;s IT strategic plans, policies, standards procedures, and enterprise architecture; approval and oversight of IT projects; acquisition of reportable IT projects over the DGS Delegated Purchasing Authority; consulting with Agencies/state entities during initial project planning; and suspending, reinstating, or terminating IT projects.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>BASIC POLICY - 4819.31</h1>
+        <p>
+            <strong>(Revised: 11/2016 )</strong>
+        </p>
+    <p>
+        <p><span>Pursuant to Government Code Sections </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11545."><span>11545</span></a><span>&nbsp;and </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11546."><span>11546</span></a><span>, the Director of the California Department of Technology is charged with the duty to advise the Governor on the strategic management and direction of the State's IT resources. In addition to this advisory role, the Department of Technology is responsible for: establishing, maintaining, and enforcing the state&rsquo;s IT strategic plans, policies, standards procedures, and enterprise architecture; approval and oversight of IT projects; acquisition of reportable IT projects over the DGS Delegated Purchasing Authority; consulting with Agencies/state entities during initial project planning; and suspending, reinstating, or terminating IT projects.</span></p>
+<p><span>Each Agency/state entity is required to:</span></p>
+<ol>
+    <li><span>Establish and maintain a Technology Recovery Plan, so that it will be able to protect its information assets in the event of a disaster or serious disruption to its operations, and submit the plan or its update to the California Information Security Office (CISO) as outlined in the Technology Recovery Plan Reporting Schedule (</span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM Section 05B</span></a><span>). See SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/5300/5325-1"><span>5325.1</span></a><span>.</span></li>
+    <li><span>Establish an ongoing information management strategic planning process to support the accomplishment of its overall business strategy (e.g., its strategy to carry out its programmatic mission) and submit its strategic plan to the Department of Technology for approval. See SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4900-2"><span>4900.2</span></a><span>.</span></li>
+    <li><span>Adopt standards for an Agency/state entity IT infrastructure consistent with SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4989-1"><span>4989.1</span></a><span>.</span></li>
+    <li><span>Prepare Stage 1 Business Analysis (</span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM_19/SIMM19.html"><span>SIMM 19A</span></a><span>) for all Information Technology Projects and submit to the Department of Technology for long term planning of the state&rsquo;s strategic IT investments. See SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4904"><span>4904</span></a><span>.</span></li>
+    <li><span>Use the California Project Management Framework (</span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM_17/"><span>CA-PMF</span></a><span>) as described in SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4910"><span>4910 </span></a><span>for managing all IT projects. Agencies/state entities may</span>
+    <p><span>use other comprehensive PMBOK&reg; Guide-based frameworks if the framework encompasses project management practices, processes, and deliverables that meet the minimum level of planning included in theCA-PMF.</span></p>
+    </li>
+    <li><span>Implement their Enterprise Architecture in accordance with the guidelines and instructions included in </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM Section 58</span></a><span>.</span></li>
+    <li><span>Conduct a study for each proposed IT project (development or acquisition) and obtain approval through the Project Approval Lifecycle from the Department of Technology or from the Agency/state entity director (if approval authority has been delegated). See SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800"><span>4819.34-4819.35</span></a><span>.</span></li>
+    <li><span>Submit, upon request from the Department of Technology, all IT Reportable Procurements (as defined in SAM Section 4819.2) to the Department of Technology for review prior to release to the public.</span></li>
+    <li><span>Obtain approval of all IT Acquisitions related to Reportable Projects that exceed the Agency/state entity&rsquo;s DGS Delegated Purchasing Authority (as defined in SAM Section 4819.2), from the Department of Technology&rsquo;s Statewide Technology Procurement Division (STPD) prior to release to the public. These IT Acquisitions shall be included with the PAL Stage 3 Solution Development prepared in accordance with SIMM Section 19C. The instructions and time frame for submitting IT Acquisitions to the Department of Technology for review is specified in </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM Section 05A.</span></a></li>
+    <li><span>Manage IT projects following the established IT Project Oversight Framework (</span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM Section 45</span></a><span>) minimum requirements, to ensure that projects are completed on-time, within budget, and that they accomplish the objectives defined in their Stage 1 Business Analysis.</span></li>
+    <li><span>Protect the integrity of its information management capabilities and databases and ensure the security and confidentiality of information it maintains.</span></li>
+    <li><span>Establish an acquisition planning process for IT project acquisition of IT goods and services as determined by the Department of Technology.</span></li>
+    <li><span>Agencies/state entities shall implement power management practices on all desktop and laptop computing devices, thin client devices, printers copiers, scanners, and monitors. During hours of normal operation, devices which are not in use for 30 minutes shall automatically go into an energy-saving mode. Devices shall be shut down at the end of the normal business day.</span>
+    <p><span>In addition, Agencies/state entities shall fully implement power management software for desktop and laptop devices by December 31, 2010, or six months after the 2010-11 Budget has been enacted, whichever is later. Agencies/state entities shall also implement standby and shutdown practices for all devices within the scope of this policy beginning December 31, 2010.</span></p>
+    <p><span>Exemptions must be approved in writing by the Agency Information Officer (AIO) or the state entity&rsquo;s Chief Information Officer (CIO). Exemptions are limited to:</span></p>
+    <ul style="list-style-type: disc;">
+        <li><span>Devices which must remain in active mode to meet state operational needs. An example of a valid exemption would be a desktop computer and monitor utilized to manage batch programs 24 hours per day, seven days per week.</span></li>
+        <li><span>Facilities with electrical service bundled-in with facility lease contracts where Agencies/state entities would not likely receive offsetting benefits from acquired power management software. In this instance, compliance can be achieved through the use of standard operating systems functionality (e.g., Windows).</span></li>
+    </ul>
+    </li>
+</ol>
+<p><span>If an Agency/state entity fails to meet these requirements, the Agency/state entity will be required to obtain Department of Technology approval before expending any resources on IT projects.</span></p>
+<p><span>The project approval process is described in SAM Section 4819.34</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>EXCLUSIONS - 4819.32</h1>
+        <p>
+            <strong>(Revised: 06/2018 )</strong>
+        </p>
+    <p>
+        <div>
+<p><span>For purposes of IT Project Submittal and Approval, the following are excluded from State Administrative Manual (SAM) Section 4819.34, which defines state project approval authority and responsibility for IT projects:</span></p>
+<ol>
+    <li><span>IT activities directly associated with single-function process-control systems (such as those applied in the controlling of water gates, traffic signals, or environmental systems for buildings), analog data collection devices, or telemetry systems are excluded from SAM Section 4819.34. Process Control, for the purposes of the exclusions from the Department of Technology project approval and oversight, includes automated processing systems that monitors and controls the operation of a single function system, and that can perform that control in isolation from other systems. Examples may include all components necessary to monitor and control the traffic lights at an intersection, the position of water restriction and diversion components in a water supply and distribution system, or to adjust the behavior of a motorized conveyer in response to changes in load and demand.</span>
+    <p><span>Sensors, telemetry devices, alarm and physical entry controls (such as, facility access cards and badge readers) , functional components such as motors or traffic lights, electronic control processors,and the network system that connects those devices into a single-function process control system meet the process control system exclusion.</span></p>
+    <p><span>Process control should not be interpreted to include information processing and network systems in which data is gathered, stored, transmitted, processed, analyzed, displayed, printed or reported for purposes other than the direct, automatic monitoring and controlling of a single function system, or for the manual review of the performance and activities of that single system.</span></p>
+    <p><span>Any component that may be added to any process control system, such as additional sensors, processing capacity or network communications capability, that is necessary for use in conjunction with a current or planned IT system must be included in all Project Approval Lifecycle Stage/Gate deliverables, plans, proposals and budget estimates for the IT system.</span></p>
+    </li>
+    <li><span>Projects, activities, or acquisition of telecommunications equipment used exclusively for voice communications. Any project where approval and initiation is within the jurisdiction of the Public Safety Communications Office, per California Government Code Section </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV&amp;amp;amp%3Bamp%3Bdivision=3.&amp;amp;amp%3Bamp%3Btitle=2.&amp;amp;amp%3Bamp%3Bpart=6.5.&amp;amp;amp%3Bamp%3Bchapter=2.&amp;amp;amp%3Bamp%3Barticle"><span>15275-15277</span></a><span>, such as public safety telecommunications including microwave, satellite, 911, telematics, and radio/rf.</span></li>
+    <li><span>Installations of Voice Over Internet Protocol (VOIP) phone systems that arestand alone and do not interface with other systems on the network.</span></li>
+    <li><span>Acquisition of printers, scanners, and copiers. If any of these components are part of a planned IT system they must be included in all Project Approval Lifecycle Stage/Gate deliverables, plans, proposals and budget estimates for the IT system.</span></li>
+</ol>
+<p><span>SAM&nbsp; Section&nbsp; 4819.32&nbsp; is&nbsp; not&nbsp; an&nbsp; exclusion&nbsp; from&nbsp; SAM&nbsp; Section 4819.3,&nbsp;</span>State Information Management Authority and Responsibility,&nbsp; which applies to all Agencies/state entities.</p>
+</div>
+<span>Questions regarding exclusions should be directed to your Department of Technology, IT Project Oversight Division (ITPOD) Manager</span>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PROJECT APPROVAL AUTHORITY - 4819.34</h1>
+        <p>
+            <strong>(Revised: 03/2021 )</strong>
+        </p>
+    <p>
+        <p style="margin: 5.15pt 0in 0.0001pt 7pt;">Authority for approval of information technology (IT) projects lies with the Department of Technology, but it is the intention of the State&rsquo;s Chief Information Officer to delegate approval authority to Agency/state entity directors to the maximum extent practicable.</p>
+<p style="margin: 0in 7.5pt 0.0001pt 7pt;">When an Agency&rsquo;s/state entity's proposed expenditures on IT are consistent with established policies and when the Agency/state entity has consistently adhered to those policies and successfully implemented IT projects, the Department of Technology will consider delegating authority for the approval of resources to Agency/state entity directors, as defined below.</p>
+<p style="margin: 5.05pt 12.4pt 0.0001pt 7pt;">The Department of Technology will establish an Agency/state entity-specific cost delegation level, i.e., the project cost level above which the Agency/state entity must obtain project approval from the Department of Technology (see <a href="https://www.dgs.ca.gov/Resources/SAM/TOC">SAM</a> Section 4819.37) before the Agency/state entity is authorized to initiate the project.</p>
+<p style="margin: 4.85pt 0in 0.0001pt 5.9pt;">The Department of Technology&rsquo;s delegations fall into one of four general groups:</p>
+<p style="margin: 5.05pt 14.8pt 0.0001pt 23.9pt;"><strong>Group 1 &ndash; Desktop and Mobile Computing Delegations</strong>: Agencies/state entities that have established and currently maintain an acceptable Technology Recovery Plan and plan for the appropriate application of desktop and mobile computing will be delegated authority for the acquisition of equipment and software to support their desktop and mobile computing activities. See <a href="https://www.dgs.ca.gov/Resources/SAM/TOC">SAM</a> Section 4989.2.</p>
+<p style="margin: 4.9pt 7.5pt 0.0001pt 23.9pt;"><strong><span>Group 2 &ndash; Commercial-off-the-Shelf (COTS) Software and Cloud Software-as-a- Service (SaaS) Delegations</span></strong><span>: Agencies/state entities are delegated the authority for the approval and acquisition of COTS software and Cloud SaaS solutions which are classified as Delegated (see </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC"><span>SAM</span></a><span> Section 4819.37 for a list of Project Delegation Criteria). The acquisition must meet <strong><span style="text-decoration: underline;">&ldquo;ALL&rdquo;</span></strong> of the following conditions:</span></p>
+<p>&nbsp;</p>
+<div>
+<ul style="list-style-type: disc; margin-left: 40px;">
+    <li><span>Software licenses and consulting services will be acquired through a leveraged purchasing agreement managed by the Department of General Services (e.g. CMAS or MSA) or through one of the Department of Technology&rsquo;s Data Center Service Offerings.</span></li>
+    <li><span>Does not require installation of new hardware on premises at the Agency/state entity or its designated data center.</span></li>
+    <li><span>Solution is single purpose use, not mission critical, and used for internal purposes only.</span></li>
+    <li><span>Does not exchange confidential or sensitive data with other systems. </span></li>
+</ul>
+</div>
+<p>&nbsp;</p>
+<p style="margin: 4.65pt 10.65pt 0.0001pt 23.8pt;">Pursuant to the Cloud Computing policy (<a href="https://www.dgs.ca.gov/Resources/SAM/TOC">SAM</a> Section 4983), Agencies/state entities must utilize Cloud SaaS services provided by the CDT whenever feasible. Additionally, COTS software services provided by CDT must be utilized whenever feasible. Agency/state entities must notify the Department of Technology of all COTS and SaaS acquisitions prior to project initiation as defined in <a href="https://cdt.ca.gov/policy/simm/">Statewide Information Management Manual (SIMM)</a> Section 22.</p>
+<p style="margin: 4.95pt 23.5pt 0.0001pt 23.8pt;"><strong>Group 3 &ndash; Agency/state entity Delegated Projects: </strong>&nbsp;Approval authority for projects which are delegated to the Agency/state entity director. Agencies/state entities undertaking delegated projects are expected to employ appropriate<span style="letter-spacing: -1.25pt;"> </span>project review, approval, and reporting procedures as specified in <a href="https://www.dgs.ca.gov/Resources/SAM/TOC">SAM</a> Sections 4819.35 and 4819.36. See <a href="https://www.dgs.ca.gov/Resources/SAM/TOC">SAM</a> Sections 4819.37 and 4819.39 for a list of project reporting criteria and a definition of project cost delegation.</p>
+<p style="margin: 4.95pt 17.75pt 0.0001pt 23.8pt;"><strong>Group 4 &ndash; Requested Delegation for Non-Delegated Projects:</strong> An Agency/state entity with an acceptable Technology Recovery Plan and an Agency Information Management Strategy that has been approved by the Department of Technology may submit a Project Delegation Request (see <a href="https://www.dgs.ca.gov/Resources/SAM/TOC">SAM</a> Section 4819.38) to the Department of Technology for new projects prior to the encumbrance or expenditure<span style="letter-spacing: -0.4pt;"> </span>of<span style="letter-spacing: -1.25pt;"> </span>funds,<span style="letter-spacing: -0.15pt;"> </span>including<span style="letter-spacing: -0.3pt;"> </span>the<span style="letter-spacing: -0.3pt;"> </span>use<span style="letter-spacing: -0.15pt;"> </span>of<span style="letter-spacing: -0.2pt;"> </span>staff<span style="letter-spacing: -0.15pt;"> </span>resources,<span style="letter-spacing: -0.3pt;"> </span>on<span style="letter-spacing: -0.3pt;"> </span>the<span style="letter-spacing: -0.4pt;"> </span>project<span style="letter-spacing: -0.15pt;"> </span>beyond<span style="letter-spacing: -0.25pt;"> </span>the Stage<span style="letter-spacing: -0.15pt;"> </span>1<span style="letter-spacing: -1.3pt;"> </span>Business<span style="letter-spacing: -0.25pt;"> </span>Analysis.<span style="letter-spacing: -0.1pt;"> </span>The<span style="letter-spacing: -0.15pt;"> </span>Department<span style="letter-spacing: -0.35pt;"> </span>of<span style="letter-spacing: -0.15pt;"> </span>Technology<span style="letter-spacing: -0.35pt;"> </span>will<span style="letter-spacing: -0.2pt;"> </span>review<span style="letter-spacing: -0.45pt;"> </span>the<span style="letter-spacing: -0.35pt;"> </span>form<span style="letter-spacing: -0.1pt;"> </span>and notify the Agency/state entity whether it has been delegated project approval authority for the proposed project. If delegation is not granted, the Agency/state entity<span style="letter-spacing: -0.45pt;"> </span>must<span style="letter-spacing: -0.3pt;"> </span>submit<span style="letter-spacing: -0.2pt;"> </span>a<span style="letter-spacing: -0.3pt;"> </span>Stage<span style="letter-spacing: -0.2pt;"> </span>2<span style="letter-spacing: -0.15pt;"> </span>Alternatives<span style="letter-spacing: -0.2pt;"> </span>Analysis<span style="letter-spacing: -0.2pt;"> </span>to<span style="letter-spacing: -0.2pt;"> </span>the<span style="letter-spacing: -0.15pt;"> </span>Department<span style="letter-spacing: -0.4pt;"> </span>of<span style="letter-spacing: -0.2pt;"> </span>Technology for approval.</p>
+<p style="margin: 0.45pt 0in 0.0001pt;"><span>&nbsp;</span></p>
+<p>&nbsp;</p>
+<div> </div>
+<div>
+<ol>
+    <li><span>Among the factors considered by the Department of Technology in determining whether to grant delegated project approval authority:</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>The apparent adequacy of the Agency&rsquo;s/state entity's planning process;</span></li>
+        <li><span>The cost, scope, and complexity of the IT project;</span></li>
+        <li><span>The size and composition of project staff;</span></li>
+        <li><span>The Agency/state entity executive staff's project management experience;</span></li>
+        <li><span>The level of complexity and completeness of prior Project Approval Lifecycle documentation prepared by the Agency/state entity;</span></li>
+        <li><span>The number and complexity of previous IT projects attempted <span style="letter-spacing: 0.2pt;">by the </span>Agency/state entity;</span></li>
+        <li><span>The demonstrated ability of Agency/state entity project management staff to successfully monitor, control, and report progress during a complex undertaking; and</span></li>
+        <li><span>The Agency&rsquo;s/state entity's past success in applying IT to attain goals on time and within budget and to realize expected objectives.</span></li>
+    </ol>
+    <p><span>&nbsp;</span></p>
+    </li>
+    <li><span>Delegation of project approval authority will NOT normally be given for projects which:</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Have significant statewide, interdepartmental, or intergovernmental impact;</span></li>
+        <li><span>Involve the establishment or use of nonstandard or extensive communication facilities;</span></li>
+        <li><span>Propose software or equipment acquisition expenditures that are large in relation to the Agency&rsquo;s/state entity's IT budget;</span></li>
+        <li><span>Have the potential for involving new or unfamiliar technology;</span></li>
+        <li><span>Produce revenue for the State, such as licensing fees, tax collection, etc.;</span></li>
+        <li><span>Have a high potential risk associated with the security and confidentiality <span style="letter-spacing: 0.25pt;">of the </span>information being processed;</span></li>
+        <li><span>Involve IT acquisitions that exceed the Agency&rsquo;s/state entity&rsquo;s Department of General Services Delegated Purchasing Authority (as defined in </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC"><span>SAM</span></a><span> Section 4819.2) or</span></li>
+        <li><span>Depend upon decisions to be made during the development or enactment of the Governor's Budget, such as approval of a Budget Change Proposal or Budget Revision.</span></li>
+    </ol>
+    <p>&nbsp;</p>
+    </li>
+    <li><span>&nbsp;</span>Splitting a project into smaller projects to avoid either fiscal or procedural controls is prohibited.</li>
+    <li>Agencies/state entities undertaking delegated projects are expected to employ appropriate project review, approval, and reporting procedures as specified in <a href="https://www.dgs.ca.gov/Resources/SAM/TOC" style="background-color: #ffffff;">SAM</a> Sections 4819.35 (Project Approval Lifecycle) and 4819.36 (Project Reporting/Oversight) below.</li>
+    <li>All IT projects are subject to audit. Documentation supporting project decisions must be kept by the Agency/state entity for a minimum of two years following approval of the Post-Implementation Evaluation Report (PIER). See <a href="https://www.dgs.ca.gov/Resources/SAM/TOC" style="background-color: #ffffff;">SAM</a> Sections 4947-4947.2.</li>
+    <li>The Department of Technology, at its discretion, may rescind previously delegated approval authority for individual projects or for all IT activities in progress or proposed by an Agency/state entity. The Department of Technology may require that project planning, design, or implementation be halted or redirected.</li>
+</ol>
+</div>
+<p style="margin-left: 40px;"> <span>The decision to rescind delegation will typically be based on review (audit) of the Agency&rsquo;s/state entity's information management practices: review of a specific project; redefinition of the project; significant increases in project cost projections; major cost overruns; specific control language placed on expenditures through legislation (i.e., the Budget Act); identification of significant unresolved technical issues; or a change in the direction of state policy.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PROJECT APPROVAL LIFECYCLE - 4819.35</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <ol>
+    <li><span>The mechanism for approving IT projects is the Project Approval Lifecycle (PAL). The PAL ensures projects are undertaken with a strong business case, clear business objectives, accurate costs, and realistic schedules.</span></li>
+    <li><span>PAL Stage/Gate deliverables, prepared in accordance with SAM Section 4922 through 4927, and must be approved for every IT project prior to the encumbrance or expenditure of funds on the project, including the use of staff resources, beyond project approval. Agencies/state entities are required to follow the SIMM Section 19 instructions for preparing and submitting the PAL Stage/Gate deliverables.</span></li>
+    <li><span>If, during project development or implementation, the Agency/state entity finds that program requirements cannot be adequately satisfied by the course of action described in the approved Stage 4 Project Readiness and Approval and that an alternative course of action is more appropriate, a Special Project Report (SPR) (SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4945-4945.2 </span></a><span>and </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM Section 30</span></a><span>) shall be prepared. No encumbrance or expenditure of funds, including the use of staff resources, shall be made to implement such change or alternative course of action until approval has been received from the Department of Technology, or from the Agency/state entity director if the Department of Technology has delegated approval of the project to the director and the project remains within the limitations of the Agency/state entity&rsquo;s delegated authority. SPRs that must be submitted to the Department of Technology must be transmitted within 30 days after recognition of the situation that necessitates preparation of the SPR.</span>
+    <p><span>Agencies are required to follow the SIMM Section 30 instructions for preparing and submitting the SPR.</span></p>
+    <p><span>In the event an SPR approved by the Department of Technology results in a procurement that exceeds the Department of General Services Delegated Purchasing Authority, the procurement will be subject to the Department of Technology/Statewide Technology Procurement Division (STPD) approval.</span></p>
+    </li>
+    <li><span>Projects subject to approval by the Department of Technology (non-delegated projects) require submission of PAL Stage/Gate deliverables (beginning at the Stage 2 Alternatives Analysis through the Stage 4 Project Readiness and Approval) to the Office of the Legislative Analyst. See <span style="text-decoration: underline;">SIMM Section 19</span>.</span></li>
+    <li><span>The Department of Technology will review the procurement planning information in the Stage 2 Alternatives Analysis, as applicable, to evaluate the proposed IT procurement strategy.</span></li>
+    <li><span>Projects whose approval has been delegated to the Agency/state entity&rsquo;s director normally require all PAL Stage/Gate deliverables to be prepared in accordance with SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4928"><span>4928 </span></a><span>and approved by the Agency/state entity director (SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4921"><span>4921 </span></a><span>and </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4927"><span>4927</span></a><span>). A copy of the analysis, and a signed document indicating approval by the Agency/state entity director, must be on file in the Agency/state entity.</span></li>
+    <li><span>The Department of Technology may decide to review specifications in procurement documents before they are advertised to ensure that the specifications are consistent with the solution requirements and proposed architecture in the PAL Stage/Gate deliverables or SPR for the projects. See SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/5200/5211"><span>5211</span></a><span>.</span></li>
+</ol>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PROJECT REPORTING/OVERSIGHT - 4819.36</h1>
+        <p>
+            <strong>(Revised: 04/2017 )</strong>
+        </p>
+    <p>
+        <ol>
+    <li><strong><span>Projects Approved by the Department of Technology</span></strong><span>&ndash;Project reporting documentation submitted to the Department of Technology usually will require:</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Submission of a Special Project Report (SPR) (SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4945-4945.2</span></a><span>) to the Department of Technology and the Office of the Legislative Analyst, if:</span>
+        <ol>
+            <li><span>The total IT project costs deviate or are anticipated to deviate by ten percent (higher or lower) or more, or by more than a specifically designated amount as determined by the Department of Technology, from the last approved estimated IT project budget (to be measured against the combined total of each fiscal year's One- time Project Costs Plus Continuing ProjectCosts);</span></li>
+            <li><span>The last approved overall project development schedule falls behind or is anticipated to fall behind by ten percent or more;</span></li>
+            <li><span>The total program benefits deviate or are anticipated to deviate by ten percent (higher or lower) or more from the last approved estimated total program benefits (to be measured against the combined total of each fiscal year's Cost Savings and Cost Avoidances);</span></li>
+            <li><span>A major change occurs in project requirements or methodology;</span></li>
+            <li><span>Any conditions occur that require reporting to the Department of Technology as previously imposed by the Department of Technology; or</span></li>
+            <li><span>A significant change in state policy draws into question the assumptions underlying the project.</span></li>
+        </ol>
+        </li>
+        <li><span>Development of an Independent Project Oversight Report (IPOR), (see </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM </span></a><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>Section 45</span></a><span>), on a monthly basis for projects classified by the Department of Technology as medium or high criticality. The Department of Technology may modify the IPOR reporting frequency based on project performance.</span></li>
+        <li><span>Submission of a Project Status Report (PSR), (see </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM Section 45</span></a><span>) on a monthly basis for projects classified by the Department of Technology as medium or high criticality and quarterly for low criticality projects unless the Department of Technology has specified a more frequent reporting period. Please see SIMM Section 05A for the PSR submittal schedule.</span></li>
+        <li><span>Submission of a baselined and current Microsoft Project schedule with the submission of each PSR.</span></li>
+        <li><span>Submission of a Post-Implementation Evaluation Report (PIER) (SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4947-4947.2</span></a><span>) to the Department of Technology and the Office of the Legislative Analyst at the conclusion of the project.</span></li>
+        <li><span>The Department of Technology <strong>MAY </strong>require submission of periodic project reports (SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4944"><span>4944</span></a><span>) to the Department of Technology and the Office of the Legislative Analyst.</span></li>
+    </ol>
+    <p><span>The Department of Technology may require Agencies/state entities to submit an SPR under other circumstances, such as the Agency/state entity's failure to meet a critical milestone or a significant increase in the project's cost in any fiscal year relative to the costs that were forecast when the project was approved by the Department of Technology. Additionally, the Department of Technology may require periodic reviews to be conducted at any point during the project.</span></p>
+    </li>
+    <li><strong><span>Projects Approved by the Agency/state entity Director</span></strong><span>&ndash;Projects for which reporting was delegated to the Agency/state director require at a minimum:</span>
+    <ol style="list-style-type: lower-alpha;">
+        <li><span>Appropriate project oversight and project reporting to the Agency/state entity director in lieu of the Department of Technology, and maintenance of documentation in support of Agency/state entity decisions on the project. Documentation should be sufficient to meet the needs of outside auditors and to prepare the PIER. Project oversight activities must comply with the IT Project Oversight Framework (see </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM Section 45</span></a><span>).</span></li>
+        <li><span>Approval of a PIER (SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4947-4947.2</span></a><span>) by the Agency/state entity director at the conclusion of the project.</span></li>
+        <li><span>Submission of an SPR (SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4945-4945.2</span></a><span>) to the Department of Technology and the Office of the Legislative Analyst if:</span>
+        <ol>
+            <li><span>Any criteria listed in SAM Section 4819.37, other than the project's cost exceeding the level the Department of Technology may have delegated to the Agency/state entity, arise during the development or implementation of the project;</span></li>
+            <li><span>A significant change in state policy draws into question the assumptions underlying the project; or</span></li>
+            <li><span>The project costs exceed or are estimated to exceed the cost level the Department of Technology may have delegated to the Agency/state entity AND one or more of the following conditions are true:</span>
+            <ol>
+                <li><span>The total IT project costs deviate or are anticipated to deviate by ten percent (higher or lower) or more from the estimated IT project budget (to be measured against the combined total of each fiscal year's One- time Costs plus Continuing Costs);</span></li>
+                <li><span>The overall project development schedule falls behind or is anticipated to fall behind by ten percent or more;</span></li>
+                <li><span>The total program benefits deviate or are anticipated to deviate by ten percent (higher or lower) or more from the estimated total program benefits (<em>to be measured against the combined total of each fiscal year's Cost Savings and Cost Avoidances</em>); or</span></li>
+                <li><span>A major change occurs in project requirements or methodology.</span></li>
+            </ol>
+            </li>
+        </ol>
+        </li>
+    </ol>
+    </li>
+</ol>
+<p><span>Based on the Department of Technology&rsquo;s review of the Agency Information Management Strategy (see SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4900-4900.6</span></a><span>) and its assessment of the Agency/state entity's project management capabilities, the Department of Technology <strong>MAY </strong>require one or more of the following additional project reporting/oversight responsibilities for projects subject to oversight by the Agency/state entity director:</span></p>
+<ol>
+    <li><span>Submission of the PAL Stage/Gate deliverables and/or approval document(s), signed by the Agency/state entity director, to the Department of Technology and the Office of the Legislative Analyst.</span></li>
+    <li><span>Submission to the Department of Technology of a detailed project schedule showing key milestones during the life of the project;</span></li>
+    <li><span>Submission of periodic project reports (SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4944"><span>4944</span></a><span>) or SPRs (SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4945-4945.2</span></a><span>) to the Department of Technology and the Office of the Legislative Analyst; or</span></li>
+    <li><span>Submission of a PIER (SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4947-4947.2</span></a><span>) to the Department of Technology and the Office of the Legislative Analyst at the conclusion of the project.</span></li>
+</ol>
+<p><strong><span>Responsibilities and Tasks</span></strong></p>
+<p><strong><span>California Department of Technology</span></strong></p>
+<ol>
+    <li><span>The Department of Technology is responsible for developing and maintaining the state-level IT Project Oversight Framework (see SIMM Section 45), which provides the minimum requirements for IT project management, risk management, project oversight, and project reporting activities at the Agency/state entity and control agency levels.</span></li>
+    <li><span>The Department of Technology is responsible for assessing Agency/state entity IT project management and oversight activities to ensure compliance with state-level IT policies and standards. The Department of Technology will assess IT projects to determine the degree to which projects are progressing, in accordance with the planned cost, schedule, and scope as compared to the approved project plan.</span></li>
+    <li><span>The Department of Technology will recommend and pursue prescriptive measures and corrective actions to minimize risk to the state and help ensure that IT projects achieve expected outcomes in accordance with the approved project plan.</span></li>
+</ol>
+<p><a name="Agencies/state_entities"></a><strong><span>Agencies/state entities</span></strong></p>
+<ol>
+    <li><span>Agencies/state entities are responsible for developing IT strategic plans that are aligned with their business plans and ensuring that IT plans are updated as their business needs and requirements change.</span></li>
+    <li><span>Agencies/state entities have ultimate responsibility and accountability for the successful implementation of their IT initiatives and must implement processes and procedures to facilitate success, including appropriate project management, project delivery, and quality assurance processes and methodologies.</span></li>
+    <li><span>Agencies/state entities are responsible for establishing the required project management and oversight activities and functions defined in the IT Project Oversight Framework (see </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM Section 45</span></a><span>). Each Agency/state entity must update its project management and oversight practices to reflect changes in state policy, processes, and the IT Project Oversight Framework.</span></li>
+    <li><span>Agencies/state entities are responsible for ensuring that projects consistently follow state-level IT oversight policies and requirements, legislative mandates, and applicable laws.</span></li>
+    <li><span>Agencies/state entities are responsible for providing project status information sufficient to allow the Department of Technology to meet its oversight reporting and full disclosure responsibilities.</span></li>
+</ol>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PROJECT DELEGATION CRITERIA - 4819.37</h1>
+        <p>
+            <strong>(Revised: 03/2021 )</strong>
+        </p>
+    <p>
+        <p style="margin: 5.15pt 5.5pt 0.0001pt;">Pursuant to <a href="https://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?sectionNum=11545&amp;lawCode=GOV">Government Code Section 11545(a)</a>, authority for the approval of Information Technology (IT) Projects resides with the California Department of Technology (CDT), but it is the intention of the State&rsquo;s Chief Information Officer to delegate approval authority to Agencies/state entities to the maximum extent<span style="letter-spacing: -1.4pt;"> </span>practicable. IT Projects must be approved or delegated before an Agency/state entity can encumber or expend funds on, or dedicate staff resources to, the IT Project. The following categories identify the criteria for project<span style="letter-spacing: -1.25pt;"> </span>delegation:</p>
+<p style="margin: 0.45pt 0in 0.0001pt;"><span>&nbsp;</span></p>
+<ol style="list-style-type: upper-alpha;">
+    <li><strong><span>Delegated IT Projects</span></strong><span>: Pursuant to </span><a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11546"><span>Government Code Section 11546(b)</span></a><span>, the CDT will delegate approval authority for IT Projects to Agencies/state entities based on an assessment of the Agency&rsquo;s/state entity&rsquo;s project management, project oversight, and project performance. If an Agency/state entity is assessed to be capable in those respects and the IT project does not meet one or more of the criteria identified in paragraph (B), the IT project will be delegated to the Agency/state entity and the Agency/state entity will have approval authority pursuant to </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC"><span>SAM</span></a><span> Section 4819.34. Those projects are referred to as &ldquo;Delegated IT Projects.&rdquo;</span>
+    <p>&nbsp;</p>
+    </li>
+    <li><strong><span>Non-Delegated IT Projects</span></strong><span>: Notwithstanding paragraph (A), IT Projects are considered Non-Delegated if one or more of the following criteria applies:</span>
+    <ol>
+        <li><span>Initiation of the IT Project depends upon decisions to be made during the development or enactment of the Governor's Budget, such as approval of a Budget Change Proposal or Budget Revision to increase the Agency&rsquo;s/state entity&rsquo;s existing IT activities related to the IT Project;</span></li>
+        <li><span>The IT Project involves a new system development or acquisition that is specifically required by legislative mandate or is subject to special legislative review, as specified in budget control language or other legislation;</span></li>
+        <li><span>The IT Project has an anticipated cost that exceeds the Agency&rsquo;s/state entity&rsquo;s project cost delegation assigned by the CDT and does not meet the criteria of a desktop and mobile computing commodity expenditure (see </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC"><span>SAM</span></a><span> Section 4989 &ndash; 4989.3);</span></li>
+        <li><span>CDT and/or the Agency&rsquo;s/state entity&rsquo;s Agency Information Officer (AIO) has determined that the IT project has criticality/risk factors that warrant continued approval and oversight authority by CDT.</span></li>
+    </ol>
+    </li>
+</ol>
+<p style="margin: 6.05pt 9.45pt 0.0001pt 24pt;">IT Projects that meet one or more of these criteria are referred to as &ldquo;Non-Delegated IT Projects.&rdquo; However, at any time throughout the Project Approval Lifecycle (PAL), CDT may further delegate &ldquo;Non-Delegated IT Projects&rdquo; back to an Agency/state entity based on the risk assessment and evaluation of PAL.</p>
+<p style="margin-left: 0in;">&nbsp;</p>
+<span>Non-Delegated IT Projects may be delegated back to an Agency/state entity upon the<span style="letter-spacing: -0.35pt;"> </span>approval<span style="letter-spacing: -0.25pt;"> </span>of<span style="letter-spacing: -0.2pt;"> </span>a<span style="letter-spacing: -0.35pt;"> </span>Project<span style="letter-spacing: -0.2pt;"> </span>Approval<span style="letter-spacing: -1.7pt;"> </span>Lifecycle<span style="letter-spacing: -0.05pt;"> </span>-<span style="letter-spacing: -0.5pt;"> </span>Project<span style="letter-spacing: -0.2pt;"> </span>Delegation<span style="letter-spacing: -0.2pt;"> </span>Request<span style="letter-spacing: -0.2pt;"> </span>(<a href="https://cdt.ca.gov/">PAL-PDR</a>) (see <a href="https://www.dgs.ca.gov/Resources/SAM/TOC">SAM</a> Section 4819.38), with the subsequent approval of PAL Stage/Gate deliverables by the Agency/state entity Director. An Agency/state entity must have a Technology Recovery Plan and an Agency Information Management Strategy that has<span style="letter-spacing: -0.2pt;"> </span>been<span style="letter-spacing: -0.4pt;"> </span>approved<span style="letter-spacing: -0.2pt;"> </span>by<span style="letter-spacing: -0.45pt;"> </span>the<span style="letter-spacing: -0.1pt;"> </span>Department<span style="letter-spacing: -1pt;"> </span>of<span style="letter-spacing: -0.2pt;"> </span>Technology<span style="letter-spacing: -0.35pt;"> </span>in<span style="letter-spacing: -0.15pt;"> </span>order<span style="letter-spacing: -0.25pt;"> </span>to<span style="letter-spacing: -0.15pt;"> </span>submit<span style="letter-spacing: -0.15pt;"> </span>a<span style="letter-spacing: -0.5pt;"> </span>PAL-PDR.</span>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>REPORTING EXEMPTION REQUEST - 4819.38</h1>
+        <p>
+            <strong>(Revised: 09/2018 )</strong>
+        </p>
+    <p>
+        <p><a href="https://cdt.ca.gov/policy/simm/"><span>SIMM Section 19E</span></a><span style="text-decoration: underline;"></span>&nbsp;<span>provides instructions for completing the Project Approval Lifecycle - Project Delegation Request (</span><a href="https://cdt.ca.gov/policy/simm/"><span>PAL-PDR</span></a><span>). Agencies/state entities are required to follow the SIMM instructions for preparing and submitting the PAL-PDR.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>PROJECT COST DELEGATION - 4819.39</h1>
+        <p>
+            <strong>(Revised: 03/2021 )</strong>
+        </p>
+    <p>
+        <p style="margin-right: 1.2pt;">The California Department of Technology (Department of Technology) assigns<span style="letter-spacing: -1.2pt;"> </span>each Agency/state entity a minimum total Project Cost Delegation for<span style="letter-spacing: -1.05pt;"> </span>reporting purposes. See <a href="https://cdt.ca.gov/policy/simm/">Statewide Information Management Manual (SIMM)</a> Section 15. The Department of Technology delegates to<span style="letter-spacing: -1.2pt;"> </span>the Agency/state entity the approval authority for any IT proposal with<span style="letter-spacing: -1.1pt;"> </span>an estimated total development cost equal to or less than the Agency&rsquo;s/state<span style="letter-spacing: -1pt;"> </span>entity&rsquo;s assigned Project Cost Delegation, provided the proposal does not meet any other Department<span style="letter-spacing: -1.45pt;"> </span>of Technology established reporting criteria defined in <a href="https://www.dgs.ca.gov/Resources/SAM/TOC">SAM</a> Section&nbsp;<span style="letter-spacing: -1.65pt;"> </span>4819.37.</p>
+<p>The total development cost is synonymous with one-time cost and is defined as<span style="letter-spacing: -1.05pt;"> </span>all estimated or projected costs associated with the project planning, analysis, design,<span style="letter-spacing: -0.65pt;"> </span>programming, verification and validation services, staff training, data conversion, acquisition,<span style="letter-spacing: -1.1pt;"> </span>and implementation of an IT investment. Excluded from development costs are<span style="letter-spacing: -1.55pt;"> </span>estimated costs of continued operations and<span style="letter-spacing: -0.85pt;"> </span>maintenance.</p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>EXPENDITURES FOR ONGOING INFORMATION TECHNOLOGY ACTIVITIES - 4819.40</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <div>
+<p><span>Expenditures in support of an ongoing IT activity will normally not require Department of Technology approval provided that:</span></p>
+<p><span>The activity meets the definition of previously approved project/effort as defined in SAM Section 4819.2:</span></p>
+<p><em><span>Applicable activities include meeting modified needs, improving the effectiveness of the activity, program or system maintenance, or extension of existing services to new or additional users performing essentially the same functions as those that the project was designated to support. A previously approved effort/project must use substantially the same equipment, facilities, technical personnel, supplies and software to meet substantially the same requirements or to meet normal workload increases.</span></em></p>
+</div>
+<p><span>Qualification of an IT activity as a previously approved effort requires an approved FSR or PAL Stage 4 Project Readiness and Approval AND an approved Post Notes:</span></p>
+<ol>
+    <li><span>"Substantially the same equipment" does not include the addition, upgrade or replacement of a Mainframe.</span></li>
+    <li><span>Minor changes in functionality and/or equipment will normally meet the definition of previously approved effort/project. Significant changes in functionality and/or equipment that require budget actions do not meet the definition of previously approved effort/project.</span></li>
+</ol>
+<p><span>Example: The Department of Justice maintains a system to enable the ownership registration of handguns. New legislation requires the addition of rifle registration to the system.&nbsp; This added functionality would not require Department of Technology approval.</span></p>
+<p><span>Expenditures in support of activities not meeting the above criteria are considered to be new projects, not ongoing IT activities.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>CERTIFICATION OF COMPLIANCE WITH IT POLICIES - 4819.41</h1>
+        <p>
+            <strong>(Revised: 03/2021 )</strong>
+        </p>
+    <p>
+        <p style="margin: 0in 58.15pt 0.0001pt 5.95pt;">A signed certification of compliance with state IT policies is required for all IT acquisitions of hardware, software, services, and IT Interagency agreements.</p>
+<p style="margin: 0in 58.15pt 0.0001pt 5.95pt;">&nbsp;</p>
+<p style="margin: 0in 58.15pt 0.0001pt 5.95pt;">A certification is not required for:</p>
+<ol style="list-style-type: lower-alpha;">
+    <li><span>Acquisitions less than $5,000;</span></li>
+    <li><span>Projects, activities, or acquisition of telecommunications equipment used exclusively for voice communications;</span></li>
+    <li><span>Projects, activities, or acquisitions of Voice over Internet Protocol (VoIP) phone systems that are stand alone and do not interface with other systems on the network.</span></li>
+</ol>
+<span>Agencies/state entities are required to complete the certification form <span style="letter-spacing: 0.1pt;">provided in </span><a href="https://cdt.ca.gov/policy/simm/">Statewide Information Management Manual (SIMM)</a> Section <span style="letter-spacing: -0.25pt;">71B<span style="color: blue;"> </span></span>and adhere to the preparation instructions provided in <a href="https://cdt.ca.gov/policy/simm/">SIMM</a> Section 71A. This includes obtaining the required signatures prior to commencing work on an acquisition. The certification must be completed by the Agency/state entity that will directly utilize the procured goods or services. Certifications completed by Agency affiliated state entities must be approved by their governing Agency if the total cost of the IT acquisition exceeds the Agency&rsquo;s/state entity&rsquo;s assigned Department of Technology Project Cost Delegation (as identified in <a href="https://cdt.ca.gov/policy/simm/">SIMM</a> Section 15) or $1 million, whichever is lower. When an acquisition requires the approval of either the California Department of Technology (CDT) or the Department of General Services (DGS) the original signed certification must be submitted with the applicable transmittal document for each IT acquisition transaction (including requests to approve Non-Competitively Bid Justifications and Limited to Brand or Trade Name Statement). For audit and review purposes, a copy of the signed certification <span style="letter-spacing: 0.2pt;">must be </span>retained in the Agency&rsquo;s/state entity&rsquo;s procurement file. When an acquisition is conducted under purchasing authority granted by the DGS, the original signed certification must be retained in the procurement<span style="letter-spacing: -0.1pt;"> </span>file.</span>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>BUDGET CHANGE PROPOSALS - 4819.42</h1>
+        <p>
+            <strong>(Revised: 11/2016 )</strong>
+        </p>
+    <p>
+        <p><span>Budget Change Proposals (BCP) containing specified information technology (IT) components are reviewed by Department of Technology staff and an evaluation is provided to the Department of Finance Program Budget Manager responsible for review of the Agency/state entity&rsquo;s budget.</span></p>
+<p><span>BCPs which request funding for IT projects must be consistent with the Agency/state entity&rsquo;s Agency Information Management Strategy (see SAM Sections </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900"><span>4900.3-4900.5</span></a><span>) and the Conceptually Approved IT Project Proposals Report (see SAM Section </span><a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900/4904"><span>4904</span></a><span>). The BCP must be supported by approved Project Approval Lifecycle Stage/Gate deliverables (SAM Section 4928), or Special Project Report (SPR) (SAM Sections <a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4900">4945- 4945.2)</a> prior to approval of the funding request. In exceptional circumstances, with Department of Technology approval, the funding request may be supported by an approved PAL Reporting Exemption Request.</span></p>
+<p><span>Project Approval Lifecycle Stage/Gate deliverables and SPRs must be submitted in the format and within the time frames specified in SAM, </span><a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html"><span>SIMM</span></a><span>, and </span><a href="http://www.cio.ca.gov/Government/IT_Policy/TL.html"><span>Technology Letters</span></a><span>&nbsp;issued by the Department of Technology. BCPs must be submitted in the format and within the timeframes specified in annual budget letters issued by Department of Finance. Incomplete or "placeholder" Stage/Gate deliverables or SPRs submitted for consideration with an associated BCP may be returned to the Agency/state entity without consideration.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>(Section Reserved 09-29-2023 - Critical Services) - 4828</h1>
+    <p>
+        
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1> (Section Reserved 09-29-2023) - 4828.1</h1>
+    <p>
+        
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1> (Section Reserved 09-29-2023) - 4828.2</h1>
+    <p>
+        
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>(Section Reserved 09-29-2023 - Assessment) - 4828.3</h1>
+    <p>
+        
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>(Section Reserved 09-29-2023 - Remediation) - 4828.4</h1>
+    <p>
+        
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>(Section Reserved 09-29-2023 - Modernization ) - 4828.5</h1>
+    <p>
+        
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION TECHNOLOGY ACCESSIBILITY POLICY - 4833</h1>
+        <p>
+            <strong>(Revised: 04/2025 )</strong>
+        </p>
+    <p>
+        <div>
+<p>&nbsp;</p>
+<p style="margin-top: 12pt;"><span>Services and information provided by state agencies/entities must be accessible to users with all abilities. This includes:</span></p>
+<ul>
+    <li><span>Digital services</span></li>
+    <li><span>Electronic and information technology (EIT)</span></li>
+    <li><span>Public websites</span></li>
+    <li><span>Internal websites</span></li>
+    <li><span>Information technology (IT) systems</span><span></span></li>
+</ul>
+<p style="margin-top: 12pt;">Under&nbsp;existing federal and state laws and policies, state entities,&nbsp;as well as any contractors or vendors working for them, are responsible for ensuring:</p>
+<ul>
+    <li>Their public website(s) are accessible to the public.</li>
+    <li>Their internal EIT systems are accessible to everyone who needs them, including users with disabilities.</li>
+</ul>
+<p>This policy applies to all new, updated, and existing EIT.</p>
+<p><span style="color: black;">The following codes govern our accessibility requirements:</span></p>
+<ul>
+    <li><span style="color: black;"><a href="https://leginfo.legislature.ca.gov/faces/codes_displayText.xhtml?lawCode=GOV&amp;amp;amp%3Bdivision=7.&amp;amp;amp%3Btitle=1.&amp;amp;amp%3Bpart&amp;amp;amp%3Bchapter=18.1.&amp;amp;amp%3Barticle" style="background-color: #ffffff;">California Government Code Section 7405</a>.</span></li>
+    <li><a href="https://www.section508.gov/manage/laws-and-policies/" style="background-color: #ffffff;">Section 508 of the Rehabilitation Act of 1973 (29. U.S.C. Sec. 794d)</a>.</li>
+    <li><a href="https://www.ecfr.gov/" style="background-color: #ffffff;">Code of Federal Regulations (Part 1194 of Title 36)</a></li>
+</ul>
+<p>Certain exceptions to accessibility standards may apply if meeting these standards would cause an undue burden. For more information on these exceptions, refer to the <a href="https://www.dgs.ca.gov/Resources/SAM/TOC/4800/4833-1" style="background-color: #ffffff;">State Administrative Manual (SAM) 4833.1, "Exceptions to Accessibility</a>."</p>
+<p style="margin: 12pt 0in 6pt;"><span>&nbsp;</span></p>
+</div>
+<ul style="list-style-type: disc;">
+</ul>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>EXCEPTIONS TO ACCESSIBILITY - 4833.1</h1>
+        <p>
+            <strong>(Revised: 04/2025 )</strong>
+        </p>
+    <p>
+        <p>&nbsp;</p>
+<p style="background: white; margin-bottom: 9pt;"><span style="color: black;">The following exceptions are allowed for compliance with this policy:</span></p>
+<ol>
+    <li><span>National Security Systems:</span>
+    <ul style="list-style-type: disc;">
+        <li><span style="color: black;">Information technology (IT) projects for a &ldquo;national security system&rdquo; (</span><a href="https://www.acquisition.gov/far/39.204?searchTerms=39.204"><span style="color: #0066aa;">FAR 39.204 Exception a(1)</span></a><span style="color: black;">&nbsp;and&nbsp;</span><a href="https://www.govinfo.gov/content/pkg/CFR-2016-title36-vol3/pdf/CFR-2016-title36-vol3-part1194.pdf"><span style="color: #0066aa;">36 CFR 1194.3(a)</span></a><span style="color: black;">).</span>&nbsp;<br />
+        <br />
+        </li>
+    </ul>
+    </li>
+    <li><span>Incidental IT Acquisition:</span>
+    <ul style="list-style-type: disc;">
+        <li><span style="color: black;">IT &ldquo;acquired by a contractor incidental to a contract&rdquo; (</span><a href="https://www.acquisition.gov/far/39.204?searchTerms=39.204#FAR_39_204__d2449e29"><span>FAR 39.204(a)(2)</span></a><span style="color: black;"> and </span><a href="https://www.govinfo.gov/content/pkg/CFR-2016-title36-vol3/pdf/CFR-2016-title36-vol3-part1194.pdf"><span>36 CFR 1194.3(b)</span></a><span style="color: black;">).</span>&nbsp;<br />
+        <br />
+        </li>
+    </ul>
+    </li>
+    <li><span style="color: black;">Back Office Exception:</span>
+    <ul style="list-style-type: disc;">
+        <li><span style="color: black;">IT projects &ldquo;located in spaces frequented only by service personnel for maintenance, repair, or occasional monitoring of equipment (</span><a href="https://www.acquisition.gov/far/39.204?searchTerms=39.204#FAR_39_204__d2449e40"><span>FAR 39.204(a)(3)</span></a><span style="color: black;"> and </span><a href="https://www.govinfo.gov/content/pkg/CFR-2016-title36-vol3/pdf/CFR-2016-title36-vol3-part1194.pdf"><span>36 CFR 1194.3(f)</span></a><span style="color: black;">).&rdquo;</span>&nbsp;<br />
+        <br />
+        </li>
+    </ul>
+    </li>
+    <li><span>Undue Burden:</span>
+    <ul style="list-style-type: disc;">
+        <li><span style="color: black;">Compliance that presents&ldquo;a significant difficulty or expense,&rdquo; based on the resources available to the program or component for which the product is being procured.</span>&nbsp;<br />
+        <br />
+        </li>
+    </ul>
+    </li>
+    <li><span>No Commercial Solution Available:</span>
+    <ul style="list-style-type: disc;">
+        <li><span style="color: black;">If no commercial solution is available to meet accessibility requirements.</span>&nbsp;<br />
+        <br />
+        </li>
+    </ul>
+    </li>
+    <li><span>Fundamental Alteration:<br />
+    </span>
+    <ul style="list-style-type: disc;">
+        <li><span style="color: black;">If meeting accessibility requirements fundamentally alters the nature of the product or its components.</span></li>
+    </ul>
+    </li>
+</ol>
+<p style="background: white; margin-bottom: 9pt;"><span style="color: black;">Visit&nbsp;</span><span style="color: black;"><a href="https://cdt.ca.gov/policy/simm/"><span style="color: #0066aa;">SIMM Section 25</span></a></span><span style="color: black;">, IT Accessibility Resource Guide, for more information.</span></p>
+<p style="background: white; margin-bottom: 9pt;"><span style="color: black;">&nbsp;</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>WEBSITE ACCESSIBILITY CERTIFICATION - 4833.2</h1>
+        <p>
+            <strong>(Revised: 03/2019 )</strong>
+        </p>
+    <p>
+        <p><span>Before July 1, 2019 and biennially thereafter, each Agency/state entity shall post on the home page of the Agency/state entity&rsquo;s internet website a signed certification from the Agency/state entity&rsquo;s Director and Chief Information Officer certifying that they have determined that the Agency/state entity&rsquo;s internet website is in compliance with Government Code Sections 7405 and 11135, and the Web Content Accessibility Guidelines 2.0, or a subsequent version, published by the Web Accessibility Initiative of the World Wide Web Consortium at a minimum Level AA success criteria.</span></p>
+<p><span>The California Department of Technology (CDT) has adopted the Department of Rehabilitation&rsquo;s Accessibility toolkit to serve as the standard form that each Agency/state entity&rsquo;s Chief Information Officer shall use to determine whether the Agency/state entity&rsquo;s internet website is in compliance with the accessibility standards specified above.</span></p>
+<p><span>To meet the certification requirements of this policy, each Agency/state entity may use the optional Website Accessibility Certification form in <a href="https://cdt.ca.gov/policy/simm/">SIMM Section 25B</a> or develop an Agency/state entity specific form that satisfies the statutory requirements.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION TECHNOLOGY INFRASTRUCTURE POLICY - 4834</h1>
+        <p>
+            <strong>(Revised: 06/2015 )</strong>
+        </p>
+    <p>
+        <p><span>Agencies/state entities&rsquo; information technology infrastructures must enable information sharing across traditional barriers, enhance California's ability to deliver effective and timely services, promote interoperability, support departments and Agencies/state entities in their efforts to improve government functions, and promote migration to enterprise solutions with reduced complexity and support costs.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>CALIFORNIA SOFTWARE MANAGEMENT POLICY - 4846</h1>
+        <p>
+            <strong>(Revised: 06/2015 )</strong>
+        </p>
+    <p>
+        <p><span>Each Agency/state entity shall establish and maintain appropriate computer software management practices and ensure that computer software they use and/or have purchased with state funds is legally procured and is used in compliance with licenses, contract terms, and applicable copyright laws. Each Agency/state entity shall develop and implement policies and procedures to ensure that all staff understand and adhere to proper software management policies.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SOFTWARE MANAGEMENT PLAN - 4846.1</h1>
+        <p>
+            <strong>(Revised: 06/2015 )</strong>
+        </p>
+    <p>
+        <p><span>To prevent software piracy and promote good software management practices, each Agency/state entity must maintain a software management program. Each Agency/state entity must document this effort through a software management plan. See <a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html">SIMM Section 120</a> for guidelines on the development and maintenance of this plan.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>SOFTWARE MANAGEMENT POLICY REPORTING REQUIREMENTS - 4846.2</h1>
+        <p>
+            <strong>(Revised: 06/2015 )</strong>
+        </p>
+    <p>
+        <p><span>Beginning January 31, 2004, and ongoing, each Agency/state entity shall retain internally for three years, by the Agency Information Officer, an annual certification along with the summary of updated inventories conducted by the Agency/state entity as part of its ongoing software management practices. This certification must also identify the individual responsible for ensuring Agency/state entity compliance with the California Software Management Policy, SAM Section 4846. In support of this certification, each Agency/state entity must maintain a detailed inventory report that must be made available upon request to the Department of Technology and/or the Department of General Services. See <a href="http://www.cio.ca.gov/Government/IT_Policy/SIMM.html">SIMM Sections 80 and 120</a> for this and any other reporting requirements.</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>STATUTORY REFERENCES - 4851</h1>
+        <p>
+            <strong>(Revised: 01/2016 )</strong>
+        </p>
+    <p>
+        <p><span>Chapter 834, Statutes of 2006 (SB 834) created the Office of the State Chief Information Officer (OCIO), and its responsibilities were expanded via Chapter 183, Statutes of 2007 (SB 90) as described in Government Code Sections <a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11545.">11545</a> and <a href="http://leginfo.legislature.ca.gov/faces/codes_displaySection.xhtml?lawCode=GOV&amp;sectionNum=11546.">11546</a>.</span></p>
+<p><span>Chapter 404, Statutes of 2010 (AB 2408), renamed the OCIO the California Technology Agency (Technology Agency) and transferred the responsibilities of the OCIO to the Technology Agency.</span></p>
+<p><span>Chapter 352, Statutes of 2013 (AB 1317) abolished the California Technology Agency and transferred its responsibilities and authority to the California Department of Technology (<a href="https://cdt.ca.gov/">Department of Technology</a>) within the newly-created Government Operations Agency.&nbsp; (GRP 2, 2012)</span></p>
+    </p>
+    
+</div>
+            <hr />
+<div class="row">
+    <h1>INFORMATION TECHNOLOGY TRAINING AND EMPLOYEE DEVELOPMENT - 4854</h1>
+        <p>
+            <strong>(Revised: 08/2024 )</strong>
+        </p>
+    <p>
+        <p style="margin-bottom: 12pt;"><strong>&nbsp;</strong></p>
+<p style="margin-bottom: 12pt;"><strong>Purpose:</strong></p>
+<p style="margin-bottom: 12pt;">The California&nbsp;Department of Technology (CDT) recognizes that training and employee development is primarily a responsibility of management. The purpose of the policy is to ensure the&nbsp;effective training and development of Information Technology (IT) employees within the state.&nbsp;The policy works in congruence with Government Code (GC) section 11545(b)(5) and seeks to improve organizational maturity and capacity in the effective management of the IT workforce at the state entity level by defining the roles and responsibilities of the training coordinator.&nbsp;&nbsp;This policy also aims to ensure that employees possess the necessary skills and knowledge to perform their IT-related responsibilities efficiently and securely.&nbsp;The following policy has been created to facilitate these best practices and key objectives.</p>
+<p style="margin-bottom: 12pt;"><strong>Policy:</strong></p>
+<p style="margin-bottom: 12pt;">The identification of needs, establishment of priorities, and implementation of training reside at the discretion of each state entity.&nbsp;&nbsp;Each State entity should appoint a training coordinator to assist line management in taking inventory of employee skills, training needs, and professional development and coordinate training efforts with other state entities. The training coordinator shall ensure that the state entity&rsquo;s IT training shall meet the objectives below.</p>
+<p style="margin-bottom: 12pt;"><strong>Training Needs Assessment:</strong></p>
+<p style="margin-bottom: 12pt;">Identification of learning and development needs is necessary to ensure each employee is equipped with the right skills and knowledge to perform the job efficiently and to their highest ability. Creating a thorough assessment of the IT employee training needs will be conducted within each state entity. The assessment will consider the current skill levels, job responsibilities, and any emerging technologies relevant to the organization.</p>
+<p style="margin-bottom: 12pt;"><strong>Annual Training Plans:</strong></p>
+<p style="margin-bottom: 12pt;">The training plan should be linked to&nbsp;California's Statewide Strategic Plan and the state entities&rsquo; goals and objectives. The annual training plan must include the type of training, training objective, training delivery, budget, sources of training, and training priority.</p>
+<p style="margin-bottom: 12pt;"><strong>Types of Training:</strong></p>
+<p style="margin-bottom: 12pt;">The type of training should be identified as part of the training plan development. Examples include:</p>
+<ol style="margin-top: 0in;">
+    <li style="margin-bottom: 6pt;">Instructor-led training</li>
+    <li style="margin-bottom: 6pt;">eLearning</li>
+    <li style="margin-bottom: 6pt;">Technical training</li>
+    <li style="margin-bottom: 6pt;">Mandatory training</li>
+    <li style="margin-bottom: 6pt;">Professional development</li>
+    <li style="margin-bottom: 6pt;">Simulation employee training</li>
+    <li style="margin-bottom: 6pt;">Hands-on training</li>
+    <li style="margin-bottom: 6pt;">Coaching or mentoring</li>
+    <li style="margin-bottom: 6pt;">Lectures</li>
+    <li style="margin-bottom: 6pt;">Group discussion and activities</li>
+    <li style="margin-bottom: 6pt;">Role-playing</li>
+    <li style="margin-bottom: 6pt;">Management-specific activities</li>
+    <li style="margin-bottom: 12pt;">Case studies or other required reading</li>
+</ol>
+<p style="margin-bottom: 12pt;"><strong>Training Objectives:</strong></p>
+<p style="margin-bottom: 12pt;">The training objectives and goals include specific, measurable, achievable, relevant, and time-bound statements that define what employees are expected to achieve by the end of a training program.</p>
+<p style="margin-bottom: 12pt;"><strong>Training Delivery:</strong></p>
+<p style="margin-bottom: 12pt;">The training delivery method and process is used to provide instructional content, knowledge, or skills to employees during a training program. It encompasses the strategies and techniques employed to transfer information effectively from instructors to participants. Examples include:</p>
+<ol style="margin-top: 0in;">
+    <li style="margin-bottom: 6pt;">Classroom training</li>
+    <li style="margin-bottom: 6pt;">Online or e-learning</li>
+    <li style="margin-bottom: 6pt;">Workshops or seminars</li>
+    <li style="margin-bottom: 6pt;">On-the-job training</li>
+    <li style="margin-bottom: 6pt;">Self-paced learning</li>
+    <li style="margin-bottom: 6pt;">On-demand learning</li>
+    <li style="margin-bottom: 12pt;">Peer learning</li>
+</ol>
+<p style="margin-bottom: 12pt;"><strong>Source of Training:</strong></p>
+<p style="margin-bottom: 12pt;">Both formal and informal training contribute to learning and professional development.&nbsp;State entities must work closely with CDT to identify those skill areas where they anticipate the need to contract for technical training&nbsp;<span style="text-decoration: underline;">with outside vendors</span>. Technical training examples include:</p>
+<ol style="margin-top: 0in;">
+    <li style="margin-bottom: 6pt;">External outsourced state training</li>
+    <li style="margin-bottom: 6pt;">External vendor training contract</li>
+    <li style="margin-bottom: 12pt;">Internal State entity training</li>
+</ol>
+<p style="margin-bottom: 12pt;">As such, state entities&nbsp;should assess their training needs and utilize IT training offered by CDT before considering similar training from other sources. This includes contacting CDT and leveraging their equivalent IT training, including leadership academies and specialized bootcamps, before procuring training from outside vendors.</p>
+<p style="margin-bottom: 12pt;"><strong>Training Budget:</strong></p>
+<p style="margin-bottom: 12pt;">Establishing a training budget is essential for state entities to effectively plan, implement, and manage training initiatives. It ensures employees remain up to date and current on IT technologies and processes, improves return on investment, resource allocation, compliance, and certifications.</p>
+<p style="margin-bottom: 12pt;"><strong>Training Priorities:</strong></p>
+<p style="margin-bottom: 12pt;">It is recommended that priority be given to the development of those skills necessary in the effective performance of each person's current position. After essential needs are met, career-related training needs may be&nbsp;addressed. We also stress the importance of certification and formal education offerings, which could include paying for certification examinations. This helps with retention, morale and is a proven incentive for staff to remain with a state entity. It&rsquo;s important to remember that IT exists to meet the needs of business and priorities need to be based on that concept.</p>
+<p style="margin-bottom: 12pt;"><strong>Training Records:</strong></p>
+<p style="margin-bottom: 12pt;">The organization will maintain accurate records of employee IT training completion. These records will include the date of training, type of training, and the names of employees who have completed the training.</p>
+<p style="margin-bottom: 12pt;"><strong>Evaluation and Feedback:</strong></p>
+<p style="margin-bottom: 12pt;">Training will routinely be evaluated to determine if the training is effective and how it can be improved. Feedback will be evaluated and provided to those offering the training for refinement and improvement.</p>
+<p style="margin-bottom: 12pt;"><strong>Training Effectiveness:</strong></p>
+<p style="margin-bottom: 12pt;">The state entity will periodically assess the effectiveness of IT training programs to ensure they meet the intended objectives.</p>
+<p style="margin-bottom: 12pt;"><strong>Exemptions:</strong></p>
+<p style="margin-bottom: 12pt;">If an organization that is planning to utilize IT training services that are similar to CDT training offerings and determines that the use of a CDT provided training solution is not feasible, they shall submit a&nbsp;Service Request for a Training Exemption for CDT approval before proceeding with the acquisition.</p>
+<p style="margin-bottom: 12pt;"><strong>Exemption Process:</strong></p>
+<ul style="margin-top: 0in; list-style-type: disc;">
+    <li style="margin-bottom: 6pt;">Submit a&nbsp;<a rel="noopener noreferrer" href="https://services.cdt.ca.gov/csm?id=sc_cat_item&amp;sys_id=0cfc1e6ddb53ef00d1b440233996192c" target="_blank">Training Exemption&nbsp;Service Request</a>.</li>
+    <li style="margin-bottom: 6pt;">Identify and explain the need for the exemption.</li>
+    <li style="margin-bottom: 6pt;">Obtain the State entity&rsquo;s CIO and/or AIO approval of the Training Exemption Request.</li>
+    <li style="margin-bottom: 6pt;">Work with&nbsp;CDT&nbsp;to consider alternative solutions.</li>
+    <li style="margin-bottom: 6pt;">Maintain a central file of granted&nbsp;CDT&nbsp;Training Policy Exemptions and their related acquisition documents. This file must be made available to&nbsp;CDT&nbsp;upon request for audit purposes.</li>
+    <li style="margin-bottom: 12pt;">Comply with the Training Exemption Response and all related policies, standards, and guidelines.</li>
+</ul>
+<p style="margin-bottom: 12pt;"><strong>Exceptions:</strong></p>
+<p style="margin-bottom: 12pt;">This policy does not apply to on-the-job training, state entity in-house training when a vendor is not used, specialized&nbsp;computer-based training modules obtained as part of a hardware or software contract, cooperative training programs developed with other state entities when a vendor is not used, and/or eLearning online subscription-based training.</p>
+<p style="margin-bottom: 12pt;"><strong>Frequently Asked Questions:</strong></p>
+<p style="margin-bottom: 12pt;">Please refer to our <a href="https://cdt.ca.gov/wp-content/uploads/2024/08/FAQs-SAM-4854-and-SIMM-71A-71B.pdf">FAQ page</a> for more information.</p>
+<p style="margin-bottom: 12pt;">&nbsp;</p>
+    </p>
+    
+</div>
+            <hr />
+         
+            <script type="text/javascript">
+                function printChapterView() {                 
+                    var divToPrint = document.getElementById("printarea");
+                    newWin = window.open("");
+                    newWin.document.write(divToPrint.outerHTML);
+                    newWin.print();
+                }
+            </script>
+
+
+        
+    </main>
+
+    <div class="main-secondary">
+
+        
+
+
+
+<script src="/Assets/js/jquery/jquery-3.6.3.min.js"></script>
+<div class="cta-panel">
+    <div class="panel">
+        <div class="panel-heading">
+            <h2 class="panel-title">Search Entire Manual</h2>
+        </div>
+        <div class="panel-body">
+            <div class="manual-search-body">
+                <div class="site-manual-search">
+                    <form id="site-search__form" aria-labelledby="site-search__toggle" method="get" action="">
+                        <label for="5d1449a7dad94f4f869b24de0ed39abf" value="Search Box" class="hidden">Search Manual</label>
+                        <span>
+                            <input name="q" type="text" id="5d1449a7dad94f4f869b24de0ed39abf" placeholder="Search Manual">
+                        </span>
+                        <input type="hidden" name="sitesearch" value="" />
+                        <span>
+                            <button class="button "
+                                    type="submit"
+                                    name='Search'
+                                    value='Search'>
+                                <span class="button__text ">Search</span>
+                            </button>
+                        </span>
+                    </form>
+                </div>
+            </div>
+
+            <input id="manualSearchPageItemPath" type="hidden" class="searchPageitem" value="/Resources/SAM/SearchResult" />
+        </div>
+    </div>
+</div>
+
+
+<script type="text/javascript" src="/assets/js/mansearch.js">
+
+
+</script>
+
+
+
+
+
+
+
+<div class="cta-panel">
+
+
+
+    <div class="panel">
+        <div class="panel-heading">
+            <h2 class="panel-title">Print Entire SAM Manual</h2>
+        </div>
+        <div class="panel-body">
+            <div>
+                
+                <button id="printinit" class="btn btn-primary" type="button" onclick='PrintMan()'>Print Entire Manual</button>
+                <div id="printdiv" class="hidden">
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="modal"><span class="loadmsg">Please bear with us, generating the entire SAM for printing will take approximately two minutes.</span></div>
+<script type="text/javascript">
+    function PrintMan() {
+        $.ajax(
+            {
+                type: 'GET',
+                url: '/api/sitecore/Manual/FullPrint?manualName=SAM',
+                dataType: 'json',
+                //Refactor -  Needs to query root node name and pass value.  Content Tree >  Page Title.
+                //Pass value of the manual box.
+                data: { manualName: $("#printinit").val() },
+                beforeSend: function () {
+                    $(".modal").addClass("show")
+                },
+                complete: function () {
+                    $(".modal").removeClass("show")
+                },
+                success: function (result) {
+                    if (result.length < 1) {
+
+
+
+                    }
+                    else {
+                        $("#printdiv").html("");
+                        $("#printdiv").append("<h1>State Administrative Manual</h1>");
+                        for (i = 0; i < result.length; i++) {
+                            //Append Each Chapter Summary
+                            var chap;
+                            if (chap != result[i].Chapter) {
+                                chap = result[i].Chapter;
+                                $("#printdiv").append("<h1>Chapter - " + result[i].Chapter + "</h1>");
+                                $("#printdiv").append('<table class="table table-sm"' + 'id="cp-' + result[i].Chapter + '">');
+                                $('#cp-' + chap).append('<thead><tr><th align="left">Subject</th><th align="left">Section</th></tr></thead>');
+                                $('#cp-' + chap).append('<tbody>');
+                            }
+                            if (chap = result[i].Chapter) {
+                                $('#cp-' + chap).append('<tr><td>' + result[i].Subject + '</td><td>' + result[i].Section + '</td></tr>');
+                            }
+                            else {
+                            }
+                            $("#printdiv").append('</tbody>');
+                            $("#printdiv").append('</table>');
+                            $("#printdiv").append("<h2>" + result[i].Subject + "-" + result[i].Section + "</h2>");
+                            $("#printdiv").append(result[i].PrintContent);
+                            //Append Full Section
+
+                        }
+                    }
+                    printData();
+                }
+            });
+    }
+
+    function printData() {
+        var divToPrint = document.getElementById("printdiv");
+        newWin = window.open("");
+        newWin.document.write(divToPrint.outerHTML);
+        newWin.print();
+        /*newWin.close();*/
+    }
+
+</script>
+
+<style>
+    #printdiv th {
+        width: 50%;
+    }
+
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        background: rgba( 255, 255, 255, .8 ) url('/Assets/img/loader.gif') 50% 50% no-repeat;
+    }
+
+    .show {
+        display: block
+    }
+
+    .loadmsg {
+        margin: 0;
+        position: absolute;
+        top: 45%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        background: #06a;
+        color: white;
+        padding: 5px;
+    }
+</style>
+    </div>
+</div>
+        
+        
+
+<script async src="https://siteimproveanalytics.com/js/siteanalyze_6339819.js"></script>
+<footer class="footer" role="contentinfo">
+    <div class="footer-links">
+        <ul class="footer-links-list">
+            <li><a href="#skip-to-content">Back to Top</a></li>
+                <li><a href="/Configuration/Footer-Utility-Links/Accessibility/Accessibility">Accessibility</a></li>
+                <li><a href="/Certification">Certification</a></li>
+                <li><a href="/Employee-Corner">Employee Corner</a></li>
+                <li><a href="/Privacy">Privacy Policy Statement</a></li>
+        </ul>
+    </div>
+    <div class="footer-social">
+        
+
+
+        <div class="social-connect social-connect--standout">
+            
+                <ul class="social-connect-body">
+                        <li><a href="https://www.facebook.com/CalDGS/?ref=settings"><span class="social-connect-icon icon-facebook" aria-hidden="true"></span><span class="social-connect-label">Facebook</span></a></li>
+                        <li><a href="https://x.com/califdgs?lang=en"><span class="social-connect-icon icon-twitter-x" aria-hidden="true"></span><span class="social-connect-label">X</span></a></li>
+                        <li><a href="https://www.youtube.com/user/CalifDGS"><span class="social-connect-icon icon-youtube" aria-hidden="true"></span><span class="social-connect-label">YouTube</span></a></li>
+                        <li><a href="https://www.instagram.com/dgscalif/?hl=en"><span class="social-connect-icon icon-instagram" aria-hidden="true"></span><span class="social-connect-label">Instagram</span></a></li>
+                        <li><a href="https://www.linkedin.com/company/cadgs"><span class="social-connect-icon icon-linkedin" aria-hidden="true"></span><span class="social-connect-label">LinkedIn</span></a></li>
+                </ul>
+        </div>
+
+    </div>
+    <div class="footer-copyright">Copyright &#169; 2018 State of California</div>
+</footer>
+
+
+        <!-- CDT emergency alerts : Start -->
+        <script defer src="https://alert.cdt.ca.gov"></script>
+        <!-- CDT emergency alerts : End -->
+        <!-- Google Tag Manager -->
+        <script>
+            (function (w, d, s, l, i) {
+                w[l] = w[l] || []; w[l].push(
+                    { 'gtm.start': new Date().getTime(), event: 'gtm.js' }
+                ); var f = d.getElementsByTagName(s)[0], j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src = 'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+            })(window, document, 'script', 'dataLayer', 'GTM-5D4N99T');
+        </script>
+        <!-- End Google Tag Manager -->
+        <!-- Google Tag Manager (noscript) -->
+        <noscript>
+            <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5D4N99T"
+                    height="0" width="0" style="display:none;visibility:hidden"></iframe>
+        </noscript>
+        <!-- End Google Tag Manager (noscript) -->
+
+        <script src="/assets/js/jquery/jquery-3.6.3.min.js"></script>
+        <script src="/assets/libs/handlebars/4.7.9/handlebars.min.js"></script>
+        <script src="/assets/js/app.js?v=21"></script>
+        <script src="/assets/js/search.js"></script>
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+        
+
+        <script src="/assets/libs/jquery-ui/1.13.2/jquery-ui.min.js"></script>
+        <!-- Your Script -->
+        <script type='text/javascript'>
+            $(function () {
+                // This will apply the datepicker to all input elements of the date type and then it will remove the date attribute to avoid jQuery / browser conflicts
+                $("input[type='date']").datepicker().attr('type', 'text');
+            });
+        </script>
+
+            <script type="text/javascript">
+                function googleTranslateElementInit() {
+                    new google.translate.TranslateElement({ pageLanguage: 'en' }, 'google_translate_element');
+                }
+            </script>
+            <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+        <script src="/assets/js/custom.js"></script>
+
+        <!-- Google Analytics -->
+        <!-- Uncomment out the following portion when it's in production -->
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-19802602-2"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() { dataLayer.push(arguments); }
+            gtag('js', new Date());
+            gtag('config', 'UA-19802602-2', {
+                cookie_flags: 'max-age=7200;secure'
+            });
+        </script>
+
+        <script id="accordionclick" type="text/javascript"></script>
+        <script id="bread-crumbhtml" type="text/javascript"></script>
+        <script id="local-navhtml" type="text/javascript"></script>
+
+        <script type="text/javascript">
+
+            $(document).ready(function () {
+
+                var accordionContents = "";
+                var breadCrumbContents = "";
+                var navContents = "";
+
+                $('.accordionclick').each(function () {
+                    accordionContents += $(this).html();
+                });
+
+                $('.bread-crumbhtml').each(function () {
+                    breadCrumbContents += $(this).html();
+                });
+
+                $('.local-navhtml').each(function () {
+                    navContents += $(this).html();
+                });
+
+                $('#accordionclick').html(accordionContents);
+                $('#bread-crumbhtml').html(breadCrumbContents);
+                $('#local-navhtml').html(navContents);
+
+            });
+
+        </script>
+
+        <!-- Hiddenfield holding department id-->
+        <input id="divisionId" type="hidden" class="divisionId" value="" />
+            <input id="searchPageItemPath" type="hidden" class="searchPageitem" value="/SearchResult" />
+        <input id="isGlobalSearchPage" type="hidden" class="searchPageitem" value="true" />
+
+    </body>
+</html>

@@ -1,0 +1,32 @@
+DATA-02-05-S                                                                               Replaces:
+State CIO Adopted: September 2025                                                IT Standard 161.07
+TSB Approved: September 2025                                       NG-9-1-1 Geospatial Data Standard
+Sunset Review: September 2028                                                             May, 2021
+
+              NEXT GEN 9-1-1 GEOSPATIAL DATA STANDARD
+
+See Also:
+RCW 43.105.054 Information technology governance
+RCW 43.105.020 (22) “State agency”
+
+   1. Agencies must adopt and use the latest National Emergency Number Association
+      (NENA) Next Gen (NG) 9-1-1 GIS Data Model Standard.
+
+   2. These standards will apply once data is loaded into the Spatial Interface (SI)
+      functions of the Emergency Services IP Network (ESInet) and require that all
+      compatible Public Safety Answering Point (PSAP) environments incorporate
+      NG9-1-1 data integration standards and associated capabilities.
+
+   3. The minimum datasets for the Spatial Interface are address navigation enabled
+      street centerline, PSAP boundaries, Site/Structure Address Points (SSAP),
+      Provisioning Boundary and emergency service zone boundaries for police, fire
+      and medical.
+
+   REFERENCES
+
+       1.   Definition of Terms Used in WaTech Policies and Reports.
+       2.   NENA NG9-1-1 GIS Data Model Standard.
+
+   CONTACT INFORMATION
+
+   For questions about this policy, please email the WaTech Policy Mailbox.

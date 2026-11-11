@@ -1,0 +1,60 @@
+SEC-13                                                                                                           Replaces:
+State CIO Adopted: August 11, 2023                                                                                    N/A
+TSB Approved: September 14, 2023
+Sunset Review: September 14, 2026
+              U.S. DOJ FBI Safety and Security for the Business Professional Traveling Abroad
+
+             INTERNATIONAL     TRAVEL
+                      U.S. DOJ FBI         TECHNOLOGY
+                                   OPS Business Travel Tips Guide POLICY
+
+See Also:                                OCS Best Practices While Traveling
+RCW 43.105.054 WaTech Governance
+                                             OFM Travel to
+RCW 43.105.052 Powers and duties of agency—Application      Policy  10.10.50
+                                                               higher  education,` legislature, and judiciary.
+RCW 43.105.020 (22) “State agency”
+U.S. DOJ FBI Safety and Security for the Business Professional Traveling Abroad
+U.S. DOJ FBI OPS Business Travel Tips Guide
+OCS Best Practices While Traveling
+OFM Travel Policy 10.10.50
+
+    1. Agencies must approve technical access for international travel on official state
+       business.
+
+             a. Agencies must assess, authorize and configure technology to minimize risk
+                 to state resources prior to departure.
+
+    2. Agencies must formally approve the business need to technical access to state
+       resources for international travel not on official business, such as informal,
+       leisure, or vacation.
+
+             a. When not traveling for business but when a business justification for SGN
+                access exists, agencies must perform a risk assessment and document the
+                decision.
+
+    3. WaTech or the agency may restrict or disallow access to state resources during
+       officially sanctioned international travel.
+
+             a. WaTech is authorized to impose technical controls to restrict access from
+                international locations to state resources. See SEC-13-01-S International
+                Travel Technology Standard.
+
+             b. Agency IT security teams are authorized to impose technical requirements
+                to protect user accounts and state resources.
+
+    4. Agency IT security teams must evaluate devices on return and certify as safe
+       before reconnecting to the state network.
+
+                                                                                                                     1
+
+REFERENCES
+
+   1.   Definition of Terms Used in WaTech Policies and Reports.
+   2.   SEC-13-01-S International Travel Technology Standard.
+
+CONTACT INFORMATION
+
+For questions about this policy, please email the WaTech Policy Mailbox.
+
+                                                                           2

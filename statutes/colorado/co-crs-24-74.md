@@ -1,0 +1,122 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: colorado
+id: co-crs-24-74
+title: Protection of Personal Identifying Information
+doc_type: statute
+citation: C.R.S. title 24, article 74
+authority_level: ''
+issuing_body: Colorado General Assembly; published by the Office of Legislative Legal Services
+source_url: https://olls.info/crs/crs2026-title-24.htm
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: eab9f2a3818670f91f822296c41d931e03d8649d38cf621021ac10544b71e929
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: The source is the Office of Legislative Legal Services' title file (one file for the
+  whole of the title); this document is the one article (or part) named in the citation, from its ARTICLE
+  (or PART) heading line to the next one (an article stops before the title-level group heading, such
+  as LIBRARIES, that the file prints between articles), one line per source paragraph, with markup, spacing
+  paragraphs and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations
+  are kept.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Protection of Personal Identifying Information (C.R.S. title 24, article 74)
+
+## At a glance
+
+Limits on how state agencies and political subdivisions share personal identifying information, an instruction to reduce the personal identifying information they collect, limits on access to their records, and a civil penalty for data privacy breaches (24-74-103 to 24-74-107). Government-held data privacy; the legislative declaration ties it to the enforcement of federal immigration law.
+
+## Full text
+
+ARTICLE 74
+Protection of Personal Identifying Information
+24-74-101. Legislative declaration.
+24-74-102. Definitions.
+24-74-103. Personal identifying information shared by state agencies or political subdivisions - limitation - responsibilities - state agency or political subdivision employee.
+24-74-104. Reduce personal identifying information collected by state agencies or political subdivisions.
+24-74-105. Access to state agency or political subdivision records - limitations.
+24-74-106. Record keeping and reporting - requests for records or information - definition. (Repealed)
+24-74-107. Data privacy breaches - civil penalty - legislative declaration.
+24-74-108. Severability.
+24-74-101. Legislative declaration.
+(1) The general assembly hereby finds and declares that:
+(a) State agencies and political subdivisions increasingly collect residents' personal information to be able to provide a variety of services, including education, health care, financial assistance, and regulatory and enforcement activities designed to ensure the safety of Colorado residents;
+(b) Colorado residents have a reasonable expectation that state agencies and political subdivisions will not disclose this information with outside actors for unintended purposes;
+(c) Coloradans' access to government services, including services that can be crucial in a time of crisis, is key to the collective health and wellness of the state;
+(d) All Coloradans should feel welcome to receive state and local services without fear of abuse of their privacy or data;
+(e) Any role that a state agency or political subdivision plays in enforcing federal immigration laws can undermine public trust and deter persons from accessing these services offered by state agencies and political subdivisions;
+(f) The United States and Colorado constitutions guarantee persons a legitimate expectation of privacy from unreasonable government intrusions;
+(g) The federal government does not have the authority to command state or local officials to enforce or administer a federal regulatory program, as doing so would violate the tenth amendment to the United States constitution; and
+(h) This article 74 is not intended to interfere with criminal investigations and proceedings authorized by judicial process or with the collection or sharing of information that may be necessary to provide Coloradans with government services and benefits.
+(2) The general assembly further finds and declares that it is necessary to adopt this article 74 to protect individual rights and to further the preservation of the peace, health, and safety of Colorado residents. Therefore, the matters in this article 74 are declared to be matters of statewide concern.
+Source: L. 2021: Entire article added, (SB 21-131), ch. 353, p. 2293, § 1, effective June 25. L. 2025: (1)(a), (1)(b), (1)(d), (1)(e), and (2) amended, (SB 25-276), ch. 240, p. 1212, § 6, effective May 23.
+Cross references: For the legislative declaration in SB 25-276, see section 1 of chapter 240, Session Laws of Colorado 2025.
+24-74-102. Definitions.
+As used in this article 74, unless the context otherwise requires:
+(1) "Personal identifying information" means information that may be used, along or in conjunction with any other information, to identify a specific individual, including but not limited to a name; a date of birth; a place of birth; a social security number or tax identification number; a password or pass code; an official government-issued driver's license or identification card number; information contained in an employment authorization document; information contained in a permanent resident card; vehicle registration information; a license plate number; a photograph, electronically stored photograph, or digitized image; a fingerprint; a record of a physical feature, a physical characteristic, a behavioral characteristic, or handwriting; a government passport number; a health insurance identification number; an employer, student, or military identification number; a financial transaction device; a school or educational institution attended; a source of income; medical information; biometric data; financial and tax records; home or work addresses or other contact information; family or emergency contact information; status as a recipient of public assistance or as a crime victim; race; ethnicity; national origin; immigration or citizenship status; sexual orientation; gender identity; physical disability; intellectual and developmental disability; or religion.
+(1.5) "Political subdivision" means a governing subdivision of the state, including a county or municipality, or a board, commission, institution, department, or agency of the political subdivision. "County" includes a home rule county. "Municipality" includes a home rule municipality. "Political subdivision" does not include a hospital or medical facility created by, and operated under, the Denver health and hospital authority created pursuant to section 25-29-103; the university of Colorado hospital authority created pursuant to section 23-21-503; a county hospital established pursuant to section 25-3-301; or a special district hospital pursuant to title 32.
+(1.6) "Political subdivision employee" means a person in the service of a political subdivision while acting in the person's employment capacity. "Political subdivision employee" includes an officer or employee, whether elected or appointed and whether full-time, part-time, or temporary. "Political subdivision employee" also includes an agent of a political subdivision when acting on behalf of, or at the direction of, a political subdivision in their capacity as an agent of a political subdivision.
+(1.8) "Public institution of higher education" means a state institution of higher education, as defined in section 23-18-102, local district college, or area technical college.
+(2) "Publicly available information" means information that is available to the public online, in person, or through a request for records under part 2 or part 3 of article 72 of this title 24.
+(3) "State agency" means a department of the legislative, judicial, or executive branch of state government, including a division, office, agency, or other unit created within a department of the legislative, judicial, or executive branch; a board, commission, or public institution of higher education; or the Colorado commission on higher education.
+(4) "State agency employee" means a person in the service of a state agency while acting in the person's employment capacity. "State agency employee" includes an officer or employee, whether elected or appointed; full-time, part-time, or temporary; and classified in or exempt from the state personnel system. "State agency employee" also includes an agent of a state agency when acting on behalf of, or at the direction of, a state agency in their capacity as an agent of a state agency.
+(5) "Third party" means a person or entity, including a law enforcement officer or agency, that is not a state agency, a state agency employee, a political subdivision, a political subdivision employee, or otherwise part of the state government or a political subdivision. "Third party" includes a private entity that contracts with, and collects or manages data on behalf of, a state agency or political subdivision.
+Source: L. 2021: Entire article added, (SB 21-131), ch. 353, p. 2294, § 1, effective June 25. L. 2025: (1.5), (1.6), and (1.8) added and (3), (4), and (5) amended, (SB 25-276), ch. 240, p. 1212, § 7, effective May 23.
+Cross references: For the legislative declaration in SB 25-276, see section 1 of chapter 240, Session Laws of Colorado 2025.
+24-74-103. Personal identifying information shared by state agencies or political subdivisions - limitation - responsibilities - state agency or political subdivision employee.
+(1) A state agency employee or political subdivision employee shall not disclose or make accessible, including through a database or automated network, personal identifying information that is not publicly available information for the purpose of investigating for, participating in, cooperating with, or assisting in federal immigration enforcement, including enforcement of civil immigration laws and 8 U.S.C. sec. 1325 or 1326, except as required by federal or state law, including student visa sponsorship requirements for public institutions of higher education or requirements that are necessary to perform state agency or political subdivision duties, or as required to comply with a court-issued subpoena, warrant, or order.
+(2) This article 74 shall not interfere with criminal investigations or proceedings that are authorized by judicial process or to restrict a state agency employee or political subdivision employee from fully investigating, participating in, cooperating with, or assisting federal law enforcement agencies in criminal investigations.
+Source: L. 2021: Entire article added, (SB 21-131), ch. 353, p. 2295, § 1, effective June 25. L. 2025: Entire section amended, (SB 25-276), ch. 240, p. 1214, § 8, effective May 23.
+Cross references: For the legislative declaration in SB 25-276, see section 1 of chapter 240, Session Laws of Colorado 2025.
+24-74-104. Reduce personal identifying information collected by state agencies or political subdivisions.
+(1) A state agency employee or political subdivision employee shall not inquire into, or request information or documents to ascertain, a person's immigration status for the purpose of identifying if the person has complied with federal immigration laws, including civil immigration laws and 8 U.S.C. sec. 1325 or 1326, except as required by state or federal law or as necessary to perform state agency or political subdivision duties, including collecting information for student visa sponsorship and student financial aid or to verify a person's eligibility for a government-funded program for housing or economic development if verification is a necessary condition of the government funding.
+(2) A state agency or political subdivision shall not collect the following, except as required by state or federal law or as necessary to perform state agency or political subdivision duties, or to verify a person's eligibility for a government-funded program for health care, housing, or economic development if verification is a necessary condition of the government funding:
+(a) Place of birth;
+(b) Immigration or citizenship status; or
+(c) Information from passports, permanent resident cards, alien registration cards, or employment authorization documents.
+(3) (a) This section does not apply to information in a database or automated network collecting data or documents that was activated by a state agency on or before December 31, 2021.
+(b) This section does not apply to information in a database or automated network collecting data or documents that was activated by a political subdivision on or before June 30, 2025.
+Source: L. 2021: Entire article added, (SB 21-131), ch. 353, p. 2295, § 1, effective June 25. L. 2025: (1), IP(2), and (3) amended, (SB 25-276), ch. 240, p. 1214, § 9, effective May 23.
+Cross references: For the legislative declaration in SB 25-276, see section 1 of chapter 240, Session Laws of Colorado 2025.
+24-74-105. Access to state agency or political subdivision records - limitations.
+(1) Beginning January 1, 2022, to be granted access to personal identifying information through a database or automated network that is not publicly available information, a third party must have, within the past year, certified under penalty of perjury that:
+(a) The third party will not use personal identifying information obtained from the database or automated network for the purpose of investigating for, participating in, cooperating with, or assisting in federal immigration enforcement, including enforcement of civil immigration laws and 8 U.S.C. sec. 1325 or 1326, unless required by federal or state law or to comply with a court-issued subpoena, warrant, or order; and
+(b) The third party will not disclose personal identifying information obtained from the database or automated network to individuals or entities engaged in investigating for, participating in, cooperating with, or assisting in federal immigration enforcement, including enforcement of civil immigration laws and 8 U.S.C. sec. 1325 or 1326, unless required by federal or state law or to comply with a court-issued subpoena, warrant, or order.
+(2) The attorney general's office shall create a model certification form and make it available to state agencies and political subdivisions.
+(3) The certification requirement described in subsection (1) of this section does not apply to Colorado courts' e-filing system users.
+Source: L. 2021: Entire article added, (SB 21-131), ch. 353, p. 2296, § 1, effective June 25. L. 2025: (2) amended, (SB 25-276), ch. 240, p. 1215, § 10, effective May 23. L. 2026: (3) added, (HB 26-1276), ch. 371, p. 2243, § 1, effective June 4.
+Cross references: For the legislative declaration in SB 25-276, see section 1 of chapter 240, Session Laws of Colorado 2025.
+24-74-106. Record keeping and reporting - requests for records or information - definition. (Repealed)
+Source: L. 2021: Entire article added, (SB 21-131), ch. 353, p. 2296, § 1, effective June 25. L. 2025: Entire section repealed, (SB 25-276), ch. 240, p. 1215, § 11, effective May 23.
+Cross references: For the legislative declaration in SB 25-276, see section 1 of chapter 240, Session Laws of Colorado 2025.
+24-74-107. Data privacy breaches - civil penalty - legislative declaration.
+(1) A state agency employee or political subdivision employee who intentionally violates a provision of this article 74 or section 25-2-108.5 is subject to an injunction and is liable for a civil penalty of not more than fifty thousand dollars for each violation.
+(2) Any civil penalty money collected pursuant to subsection (1) of this section for immigration-related violations must be transferred to the state treasurer, who shall credit it to the immigration legal defense fund established pursuant to section 8-3.8-101.
+(3) For purposes of an action for a temporary restraining order or preliminary injunction brought pursuant to this section, the general assembly finds and declares that violation of this article 74 poses a real, immediate, and irreparable injury for which there is no plain, speedy, and adequate remedy at law, and the public interest is served by compliance with this article 74.
+Source: L. 2021: Entire article added, (SB 21-131), ch. 353, p. 2298, § 1, effective June 25. L. 2025: Entire section amended, (SB 25-129), ch. 96, p. 441, § 11, effective April 24; Entire section amended, (SB 25-276), ch. 240, p. 1215, § 12, effective May 23.
+Editor's note: Amendments to this section by SB 25-129 and SB 25-276 were harmonized.
+Cross references: For the legislative declaration in SB 25-276, see section 1 of chapter 240, Session Laws of Colorado 2025.
+24-74-108. Severability.
+If any provision of this article 74 or its application to any person or circumstance is held invalid, the invalidity does not affect other provisions or applications of this article 74 which can be given effect without the invalid provision or application, and to this end the provisions of this article 74 are severable.
+Source: L. 2021: Entire article added, (SB 21-131), ch. 353, p. 2298, § 1, effective June 25.
+
+## Curator notes
+
+The source is the Office of Legislative Legal Services' title file (one file for the whole of the title); this document is the one article (or part) named in the citation, from its ARTICLE (or PART) heading line to the next one (an article stops before the title-level group heading, such as LIBRARIES, that the file prints between articles), one line per source paragraph, with markup, spacing paragraphs and non-breaking spaces removed. Caption lists, source notes, editor's notes and annotations are kept.

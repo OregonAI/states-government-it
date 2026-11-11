@@ -1,0 +1,122 @@
+                                  EXECUTIVE ORDER 16-01
+
+     PRIVACY PROTECTION AND TRANSPARENCY IN STATE GOVERNMENT
+          “MODERNIZING STATE AGENCY PRIVACY PROTECTION”
+
+WHEREAS, Washington State is a global leader in technology, innovation, and development,
+and advantages its citizens by providing access to this technology;
+
+WHEREAS, today’s society is becoming increasingly digitized, and governmental transparency
+has emerged as an increasing concern for the residents of Washington State;
+
+WHEREAS, due to the rapid expansion of digital technology, databases, mobile networks,
+and use and access to the Internet, State agencies and programs store millions of electronic
+records, creating a situation where highly sensitive personal information is routinely stored by
+governmental bodies and must be held in a manner that safeguards this personal information;
+
+WHEREAS, the State government is responsible for protecting the personal privacy rights
+of Washington’s citizens regarding the personal data it collects as it provides services to
+Washington residents—and 15 years have elapsed since the last Executive Order (00-03)
+evaluated the security and privacy measures of state agencies and governmental bodies;
+
+WHEREAS, while some personal information must be held by a governmental agency or a
+program, that personal information must be stored and handled with a high level of privacy and
+security. Moreover, the risk and awareness of data breaches in both public and private sectors
+highlights the need for responsible governance of private personal data;
+
+WHEREAS, the state of Washington is aware of the growing concern of its citizens regarding
+the threat of data breach, mishandling of personal information, or other security risks. Further,
+the necessity for citizens to place their trust and personal data with State agencies and programs
+highlights the need to define and maintain the parameters to safeguard that information
+according to the highest standards and practices;
+
+WHEREAS, in an interconnected world of public and private data, it is the State’s desire to
+educate residents regarding their use of personal information on mobile and digital networks and
+how they may take measures to protect themselves. In addition, to efficiently protect the private
+information of individuals and to enhance public knowledge of how personal information is
+handled and disclosed, state agencies should continually evaluate and improve their privacy
+policies and practices; and
+
+WHEREAS, it is necessary and efficient to have a central point of contact for policy matters
+involving privacy and data protection. An Office of Privacy and Data Protection should be
+created to review and train state agency personnel on topics of security and data protection, as
+well as establish and conduct training programs. This Executive Order will create an organized
+system to disseminate best practices for the collection and storage of personal information;
+
+With this Executive Order, it is my intent to ensure that state agencies comply fully with state
+public records and open government laws, while seeking to protect personal information to the
+maximum extent possible.
+
+NOW, THEREFORE, I, JAY INSLEE, Governor of the state of Washington, declare my
+commitment to strengthen privacy protections for personal information held by state
+government, and to the principles of open government and the people’s right to know.
+
+I HEREBY ORDER as follows:
+
+For purposes of this Executive Order, “personally identifiable information” means information
+collected by a state agency about a natural person that is readily identifiable to that specific
+individual.
+
+1. Establishment of an Office of Privacy and Data Protection. An office of privacy and data
+   protection will be created to:
+       a. Conduct an annual privacy review;
+       b. Conduct an annual privacy training for state agencies and employees;
+       c. Coordinate data protection and security measures, in cooperation with Washington
+           Technology Solutions and the Office of the Chief Information Officer (OCIO);
+       d. Participate with the OCIO in the review of major projects involving personally
+           identifiable information;
+       e. Articulate privacy principles and best practices for state agencies;
+       f. Brief the OCIO and the Office of Cyber-Security on the privacy issues relating to risk
+           management and cyber-attack threat analysis and liability; and
+       g. Educate consumers through public outreach across Washington State.
+
+2. Promoting Data Minimization. With respect to new information collected in the course of
+   serving its customers, each state agency shall annually review, for efficiency, its collection of
+   personally identifiable information in any and all formats and media, with the goal of only
+   collecting the data required to fulfill the state function or service to the consumer.
+
+3. Limiting the Sale of Personal Information and Lists of Individuals. State agencies shall notify
+   the Chief Privacy Officer of the sale of any personally identifiable information or lists of
+   individuals to third parties, except where such information has already been made available
+   to the public.
+
+4. Adopt a Strategy for Minimizing Collection and Retention of Personal Information.
+   Consistent with the record retention schedules currently required by law, state agencies shall
+   examine their data retention practices and retain personal information only as long as needed
+   to carry out the purpose for which it was originally collected, or the minimum period
+   required by law.
+
+5. Update Privacy Policies. State agencies shall continually review and update their privacy
+   policies to match current information collection and retention procedures. The updated
+   policies should be prominently displayed on each agency’s website home page and on any
+   other page where personal information is collected, and/or viewable.
+
+6. Monitor Citizen Complaints. The Chief Privacy Officer shall, for the purpose of improving
+   privacy practices, work with state agencies and programs to collect and analyze citizen
+   complaints regarding the collection and use of personal information by state agencies.
+
+7. Miscellaneous. Nothing in this Executive Order shall be construed to prohibit or otherwise
+   impair a lawful investigative or protective activity undertaken by or on behalf of the State.
+   This order does not create any right or benefit, substantive or procedural, at law or in equity
+   that may be asserted against the State, its officers or employees, or any other person. The
+   Governor may grant exceptions to the requirements of this Executive Order if an agency can
+   demonstrate that strict compliance results in excessive and unreasonable administrative
+   burdens or interferes with effective administration of the law.
+
+This Executive Order shall take effect immediately, and shall supersede Executive Order 00-03.
+
+Signed and sealed with the official seal of the state of Washington, on this 5th day of January
+2016, at Olympia, Washington.
+
+                                                 By:
+
+                                                 /s/
+
+                                                 Jay Inslee
+                                                 Governor
+
+BY THE GOVERNOR:
+
+/s/
+
+Secretary of State

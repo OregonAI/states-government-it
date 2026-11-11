@@ -4,7 +4,7 @@
   Tests fake the network; the first test file also adds a `unit-tests` job to
   `.github/workflows/ci.yml`.
 - **Use the toolkit's primitives:** `Fetcher` for fetching, `record_snapshot` for
-  snapshots and hashes, `write_document` for documents. `ingest_example.py` shows the
+  snapshots and hashes, `write_document` for documents. `ingest.py` (built from the toolkit example) shows the
   shape; start from it.
 - **Fetch honestly:** the toolkit's User-Agent and per-host rate limit, as shipped. A
   refusal is an error to report, and the entry becomes a stub.

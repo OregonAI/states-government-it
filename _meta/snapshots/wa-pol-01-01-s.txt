@@ -1,0 +1,68 @@
+POL-01-01S                                                                              Replaces:
+State CIO Adopted: July 19, 2023                                                             N/A
+TSB Approved: September 14, 2023
+Sunset Review: September 14, 2026
+                                                    …..
+               IT POLICY STRUCTURE AND NAMING CONVENTION
+ See Also:
+ RCW 43.105.054 WaTech Governance 2a(iv) and 2(b)
+ RCW 43.105.025 WaTech Responsibilities
+ POL-01 Technology Policies and Standards
+
+     1. The first two to four letters of the policy number will represent chapter
+        headings.
+
+          a. Chapter headings and abbreviations are as follows:
+
+              1. Policies on Policies – POL
+
+              2. IT Management & Governance – MGMT
+
+              3. Enterprise Architecture – EA
+
+              4. IT Security – SEC
+
+              5. Project Management – PM
+
+              6. Data Management – DATA
+
+              7. End User – USER
+
+     2. The two digits following the first dash after the chapter abbreviation
+        represent a specific policy number.
+
+              a. Example 1: POL-01 is the first policy in the Policy on Policies chapter.
+
+              b. Example 2: EA-01 is the first policy in the Enterprise Architecture
+                 chapter.
+
+     3. The two digits after the dash following the policy number will represent a
+        standard, procedure, or guideline.
+
+              a. Standards, Guidelines and Procedures are designated under the policy
+                 they connect to with a “-S”, “-G” or “-PR” suffix, followed by two digits.
+
+                                                                                              1
+
+         b. Example 2: The third standard in the fourth IT Security Management
+            policy would be named as: SEC-04-03-S.
+
+         c. Example 1: POL-01-01-PR for the first procedure for the first policy in the
+            first chapter.
+
+         d. Example 3: The second guideline on the fifth End User policy would be
+            named as: USER-05-02-G.
+
+   4. Additional chapter headings may be added to this standard by WaTech as
+      emerging technology needs are identified. Chapter heading revisions to
+      this standard constitutes an administrative revision.
+
+REFERENCES
+
+Definition of Terms Used in WaTech Policies and Reports.
+
+CONTACT INFORMATION:
+
+For questions about this policy, please email the WaTech Policy Mailbox.
+
+                                                                                     2

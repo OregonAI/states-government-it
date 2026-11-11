@@ -1,0 +1,91 @@
+PART 19
+COLORADO CYBERSECURITY
+24-33.5-1901. Legislative declaration.
+(1) The general assembly hereby finds and declares that:
+(a) Cyber threats have continued to grow in significance, scale, scope, and sophistication in the past several years;
+(b) A dramatic increase in the number of cyber attacks against public, private, and nonprofit entities and individual citizens, coupled with inadequate resources to respond to such attacks, have made cybersecurity a top priority;
+(c) Colorado is well-suited to serve as a location for comprehensive cross-sector and interstate strategy to support the response against these attacks and the education and training needed to prepare government and private sector leaders to respond to these attacks;
+(d) It is in the state's interest to support a partnership of academics and systems excellence at the university of Colorado at Colorado Springs and other institutions of higher education that can leverage the military, federal, state, and local government, and private sector assets in Colorado to support the cybersecurity of our state and local governments and to support the cybersecurity of federal partners and other states and local governments across the country; and
+(e) It is also in the state's interest to support such a partnership as a tool to ensure that Colorado's private sector is better prepared to respond to threats and in turn make Colorado a stronger hub for the cyber industry and the commercialization of cyber technology.
+(2) The general assembly further finds and declares that the intent of this part 19 is to identify specific actions to define and improve cybersecurity, including the creation of a Colorado cybersecurity council, coordinating cyber operations centers, establishing or expanding cyber higher education programs to promote education, training, and workforce development for cybersecurity, establishing a secure environment for research and development, and establishing a revenue source to support such efforts.
+Source: L. 2016: Entire part added, (HB 16-1453), ch. 189, p. 666, § 1, effective July 1.
+24-33.5-1902. Colorado cybersecurity council - creation - council members.
+(1) The Colorado cybersecurity council is created within the department of public safety using existing resources. The council operates as a steering group to develop cybersecurity policy guidance for the governor; develop comprehensive sets of prioritized goals, requirements, initiatives, and milestones; and coordinate with the general assembly and the judicial branch regarding cybersecurity as deemed necessary and appropriate by the council. In addition, the council may:
+(a) Develop a whole-of-state cybersecurity approach for the state and for local governments, including the coordination and setting of strategic statewide cybersecurity goals, roadmaps, and best practices;
+(b) Review the need to conduct risk assessments of local government systems, providing additional cybersecurity services to local governments, and proposing necessary statutory or policy changes; and
+(c) Make recommendations to the governor and general assembly about cybersecurity.
+(2) The Colorado cybersecurity council is comprised of the following members:
+(a) Repealed.
+(b) The chief information officer of the governor's office of information technology, or the chief information officer's designee;
+(c) The chief information security officer of the governor's office of information technology, or the chief information security officer's designee;
+(d) The executive director of the department of public safety, or the executive director's designee;
+(e) A representative of the Colorado National Guard to be appointed by the adjutant general of the department of military and veterans affairs;
+(f) to (p) Repealed.
+(q) The director of the division of homeland security and emergency management in the department of public safety, or the director's designee;
+(r) Repealed.
+(s) A representative of an organization that represents Colorado municipal governments;
+(t) The secretary of state or the secretary's designee;
+(u) Two representatives from county governments, one of whom represents a rural county; and
+(v) Any other person deemed necessary and appropriate by the executive director of the department of public safety.
+(3) The council does not have any direct authority over the university of Colorado at Colorado Springs.
+(4) Nothing in this section shall be construed to interfere with the duties of the chief information security officer pursuant to part 4 of article 37.5 of this title.
+Source: L. 2016: Entire part added, (HB 16-1453), ch. 189, p. 667, § 1, effective July 1. L. 2021: (1) and (2)(q) amended, (2)(g), (2)(h), (2)(i), (2)(j), (2)(k), (2)(n), (2)(o), and (2)(r) repealed, and (2)(s), (2)(t), (2)(u), and (2)(v) added, (HB 21-1236), ch. 211, p. 1095, § 3, effective September 7. L. 2026: IP(1), (1)(b), (1)(c), and (2)(v) amended and (2)(a), (2)(f), (2)(l), (2)(m), and (2)(p) repealed, (HB 26-1252), ch. 382, p. 2383, § 19, effective August 12.
+24-33.5-1903. Cyber operation center - coordination of missions.
+(1) The department of public safety, using the office of prevention and security within the division of homeland security and emergency management, and using any other facilities deemed necessary and appropriate by the department of public safety, may coordinate with the division of homeland security and emergency management, the Colorado bureau of investigation, the federal bureau of investigation, the Colorado National Guard and other relevant military organizations, and other relevant information-sharing organizations to define the operational requirements for in-state and interstate operational and training networks.
+(2) In furtherance of the provisions of subsection (1) of this section, the coordinating entities may:
+(a) Consider establishing appropriate memoranda of understanding or interstate compacts with entities that encourage the interstate sharing of information for cybersecurity;
+(b) Support the requirements for the fusion of cyber defense, cyber surveillance, and international and domestic intelligence and law enforcement operations;
+(c) Consider secure, distributed, and interactive network infrastructures for interstate cyber training and operations;
+(d) Support secure Colorado requirements to identify threats and vulnerabilities and protect state cyber infrastructures;
+(e) Conduct training, inspections, and operational exercises;
+(f) Establish protocols for coordinating and sharing information with state and federal law enforcement and intelligence agencies responsible for investigating and collecting information related to cyber-based criminal and national security threats;
+(g) Support state and federal law enforcement agencies with their responsibilities to investigate and prosecute threats to and attacks against critical infrastructure; and
+(h) Ensure the coordination of cybersecurity threat information sharing among the Colorado bureau of investigation, the office of prevention and security, the office of information technology, and participating members of the federal bureau of investigation's cybersecurity task force or successor organization.
+Source: L. 2016: Entire part added, (HB 16-1453), ch. 189, p. 668, § 1, effective July 1. L. 2021: (2)(f) and (2)(g) amended and (2)(h) added, (HB 21-1236), ch. 211, p. 1096, § 4, effective September 7.
+24-33.5-1904. Education - training - workforce development.
+(1) The university of Colorado at Colorado Springs may partner with other institutions of higher education and a nonprofit organization that supports national, state, and regional cybersecurity initiatives to establish and expand cyber higher education programs and establish needed cyber education and training laboratories. The subject areas of such higher education programs may include, but need not be limited to, courses certified by the national security agency and the United States department of homeland security; a systems engineering approach to the study of cyber network architectures, threats, and defenses; business management; foreign language skills; legal issues; cryptology; technology development; and science, technology, engineering, and mathematics courses.
+(2) In furtherance of subsection (1) of this section, the university of Colorado at Colorado Springs, in conjunction with other institutions of higher education and a nonprofit organization, may:
+(a) Coordinate with the United States department of homeland security and the national security agency to certify cyber courses and curricula;
+(b) Coordinate planning for cyber education with appropriate institutions of higher education in Colorado, the United States Army reserve cyber consortium, and appropriate national institutions of higher education that have programs certified by the department of homeland security or the national security agency;
+(c) Coordinate with community colleges in the development and transferability of appropriate curriculum and technical certification programs, and provide coordination for the development of elementary and secondary education feeder programs;
+(d) Establish a public policy think tank as an academic research center of excellence for government, academic, and industrial communications, conferences, research, and publications;
+(e) Establish education, including online courses if appropriate, training, and academic symposia for government leaders at all levels;
+(f) Establish protocols for coordinating and sharing information with state and federal law enforcement and intelligence agencies responsible for investigating and collecting information related to cyber-based criminal and national security threats;
+(g) Support state and federal law enforcement agencies with their responsibilities to investigate and prosecute threats to and attacks against critical infrastructure; and
+(h) Include distributed ledger technologies within its curricula and research and development activities.
+(3) The university of Colorado at Colorado Springs shall participate in activities in furtherance of this section only upon the approval of the board of regents of the university of Colorado, if required by the laws and policies of the board of regents.
+Source: L. 2016: Entire part added, (HB 16-1453), ch. 189, p. 669, § 1, effective July 1. L. 2018: IP(2), (2)(f), and (2)(g) amended and (2)(h) added, (SB 18-086), ch. 319, p. 1916, § 3, effective May 30.
+24-33.5-1905. Research and development.
+(1) The university of Colorado at Colorado Springs may partner with a nonprofit organization that supports national, state, and regional cybersecurity initiatives to work to establish a secure environment for research and development, initial operational testing and evaluation, and expedited contracting for production for industrial cyber products and techniques.
+(2) In furtherance of subsection (1) of this section, the university of Colorado at Colorado Springs and any nonprofit organization with which the university has a partnership may consider the following:
+(a) Creating a business plan to develop a secure facility on the property of the University of Colorado at Colorado Springs that provides physical, electronic, proprietary, and administrative security;
+(b) Exploring secure facility development and use at other Colorado universities and facilities that may augment the capacity at the university of Colorado at Colorado Springs and enable collaborative activities;
+(c) Establishing relationships with appropriate federally funded research and development corporations under the sponsorship of the United States department of defense and the United States department of homeland security as an administrative partner to:
+(I) Establish and certify a top secret and special access-certified facility;
+(II) Establish cooperative relations with state and federal law enforcement and intelligence agencies responsible for investigating and collecting information related to cyber-based criminal and national security threats;
+(III) Act as a conduit for federal and interstate research and development requirements;
+(IV) Establish and monitor nondisclosure agreements to protect proprietary intellectual property; and
+(V) Process and hold security clearances for authorized Colorado government personnel;
+(d) Consider establishing relationships with the existing MITRE national cybersecurity federally funded research and development center; the aerospace corporation federally funded research and development center; or creating a new parallel organization focused on cybersecurity for national defense and homeland security requirements;
+(e) Establishing cooperative relationships with Colorado cyber companies and other businesses, local governments, institutions of higher education, and other Colorado organizations with requirements for cybersecurity participation;
+(f) Establishing cooperative relations with civilian industrial producers through entities that encourage the interstate sharing of information for cybersecurity;
+(g) Linking to local and national military, homeland security, and intelligence community activities to support research and development, rapid test and evaluation, contracting, and production requirements;
+(h) Establishing protocols for coordinating and sharing information with state and federal law enforcement and intelligence agencies responsible for investigating and collecting information related to cyber-based criminal and national security threats;
+(i) Supporting state and federal law enforcement agencies with their responsibilities to investigate and prosecute threats to and attacks against critical infrastructure;
+(j) Encouraging coordination with the United States department of commerce and the national institute of standards and technologies to develop the capability to act as a Colorado in-state center of excellence on cybersecurity advice and national institute of standards and technologies standards;
+(k) Studying efforts to protect privacy of personal identifying information maintained within distributed ledger programs, ensuring that programs make all attempts to follow best practices for privacy, and providing advice to all program stakeholders on the requirement to maintain privacy in accordance with required regulatory bodies and governing standards; and
+(l) Encouraging the use of distributed ledger technologies, or blockchains, within their proposed curricula for public sector education.
+(3) The university of Colorado at Colorado Springs shall participate in activities in furtherance of this section only upon the approval of the board of regents of the university of Colorado, if required by the laws and policies of the board of regents.
+(4) Repealed.
+Source: L. 2016: Entire part added, (HB 16-1453), ch. 189, p. 670, § 1, effective July 1. L. 2018: IP(2), (2)(h), and (2)(i) amended and (2)(j), (2)(k), (2)(l), and (4) added, (SB 18-086), ch. 319, p. 1916, § 4, effective May 30. L. 2026: (4)(e) added, (HB 26-1371), ch. 281, p. 1564, § 4, effective June 1.
+Editor's note: (1) (a) Subsection (4)(e) was amended in HB 26-1371, effective June 1, 2026. For amendments in HB 26-1371 in effect from June 1, 2026, to June 30, 2026, see chapter 281, Session Laws of Colorado 2026. (L. 2026, p. 1564.)
+(b) Subsection (4)(e) provided for the repeal of subsection (4), effective June 30, 2026. (L. 2026, p. 1564.)
+24-33.5-1906. Cybersecurity cash fund - cybersecurity gifts, grants, and donations account - creation.
+(1) (a) The cybersecurity cash fund, referred to in this section as the "fund", is hereby created in the state treasury. The fund consists of the money transferred to the fund pursuant to paragraph (b) of this subsection (1) and any other money that the general assembly may appropriate or transfer to the fund.
+(b) On July 1, 2016, the state treasurer shall transfer seven million nine hundred thirty-two thousand twenty dollars from the general fund to the fund.
+(2) The state treasurer shall credit all interest and income derived from the deposit and investment of money in the fund to the fund.
+(3) The state treasurer shall credit any unexpended and unencumbered moneys remaining in the fund at the end of a fiscal year to the fund.
+(4) Except for moneys in the cybersecurity gifts, grants, and donations account created in subsection (5) of this section, subject to annual appropriation by the general assembly, the regents of the university of Colorado may expend money from the fund for the purposes of this part 19.
+(5) (a) The cybersecurity gifts, grants, and donations account, referred to in this subsection (5) as the "account", is hereby created in the cybersecurity cash fund. The account consists of any gifts, grants, or donations credited to the account pursuant to paragraph (b) of this subsection (5). Moneys in the account are continuously appropriated to the department of higher education for use by the regents of the university of Colorado for the purposes of this part 19.
+(b) The regents of the university of Colorado may seek, accept, and expend gifts, grants, or donations from private or public sources for the purposes of this part 19. The regents of the university of Colorado shall transmit all money received through gifts, grants, or donations to the state treasurer, who shall credit the money to the account.
+Source: L. 2016: Entire part added, (HB 16-1453), ch. 189, p. 672, § 1, effective July 1.
