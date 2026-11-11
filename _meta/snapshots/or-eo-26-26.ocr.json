@@ -1,0 +1,20 @@
+{
+  "agreement": 0.9788,
+  "dict_ratio": 0.9906,
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 1.0,
+  "figures": 13,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "e0d017b6c01cb521ab692ed0750f0be7e50a4bf67414269ef4eda9882e37afcf",
+  "pdf_sha256": "d8e7844995a197f883d8940a40923ef71656c193cf5b9659828e5d7e36fb28f4",
+  "text_sha256": "d25ab35036df3195fd959858daf8c52f3b1c7a5751a10057acce6a1538e2f637",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 849
+}

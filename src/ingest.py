@@ -990,10 +990,20 @@ def _tool_version(cmd: list) -> str:
     return (out.stdout or out.stderr).decode("utf-8", "replace").strip().splitlines()[0]
 
 
+def _clean_pages(pages: list[str]) -> list[str]:
+    return ["\n".join(l.rstrip() for l in page.splitlines()).strip("\n") for page in pages]
+
+
 def ocr_tesseract(raw: bytes, force_rotate: bool = False) -> str:
-    """The text tesseract reads from a scan, through ocrmypdf on a COPY, one text block per page.
-    `force_rotate` applies tesseract's orientation call even where it is unsure (a page scanned upside
-    down is otherwise read as confident nonsense)."""
+    """The text tesseract reads from a scan, one text block per page (see `ocr_tesseract_pages`)."""
+    text = "\n\n".join(ocr_tesseract_pages(raw, force_rotate))
+    return re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
+
+
+def ocr_tesseract_pages(raw: bytes, force_rotate: bool = False) -> list[str]:
+    """What tesseract reads from each page of a scan, through ocrmypdf on a COPY. `force_rotate` applies
+    tesseract's orientation call even where it is unsure (a page scanned upside down is otherwise read as
+    confident nonsense)."""
     with tempfile.TemporaryDirectory() as tmp:
         src, out, side = Path(tmp, "in.pdf"), Path(tmp, "out.pdf"), Path(tmp, "side.txt")
         src.write_bytes(raw)
@@ -1008,8 +1018,46 @@ def ocr_tesseract(raw: bytes, force_rotate: bool = False) -> str:
             raise ValueError("tesseract could not read the PDF (ocrmypdf exit "
                              f"{proc.returncode}): {proc.stderr.decode('utf-8', 'replace').strip()[-200:]}")
         pages = side.read_text(encoding="utf-8").split("\f")
-    text = "\n\n".join("\n".join(l.rstrip() for l in page.splitlines()).strip("\n") for page in pages)
-    return re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
+    if len(pages) > 1 and not pages[-1].strip():
+        pages.pop()
+    return _clean_pages(pages)
+
+
+def _pdf_pages(raw: bytes) -> int:
+    out = subprocess.run(["pdfinfo", "-"], input=raw, capture_output=True, check=True).stdout.decode("utf-8", "replace")
+    return int(re.search(r"^Pages:\s+(\d+)", out, flags=re.M).group(1))
+
+
+def _layer_page(raw: bytes, n: int) -> str:
+    """Page n's text layer as `pdf_to_text` reads it (pdftotext -layout, ligatures written as letters)."""
+    text = subprocess.run(["pdftotext", "-layout", "-f", str(n), "-l", str(n), "-", "-"], input=raw,
+                          capture_output=True, check=True).stdout.decode("utf-8", "replace")
+    text = text.translate(str.maketrans(_LIGATURES)).replace("\f", "")
+    return "\n".join(l.rstrip() for l in text.split("\n")).strip("\n")
+
+
+def _subset_pdf(raw: bytes, pages: list[int]) -> bytes:
+    """A PDF of just these pages, in order (poppler's pdfseparate and pdfunite)."""
+    with tempfile.TemporaryDirectory() as tmp:
+        whole = Path(tmp, "whole.pdf")
+        whole.write_bytes(raw)
+        parts = []
+        for n in pages:
+            part = Path(tmp, f"p-{n}.pdf")
+            subprocess.run(["pdfseparate", "-f", str(n), "-l", str(n), str(whole), str(part)], check=True,
+                           capture_output=True)
+            parts.append(str(part))
+        out = Path(tmp, "subset.pdf")
+        subprocess.run(["pdfunite", *parts, str(out)], check=True, capture_output=True)
+        return out.read_bytes()
+
+
+def _compose(raw: bytes, pages: list[int], ocr_pages: list[str]) -> str:
+    """The text of a PDF with some scanned pages: each page in order, the text layer's where the page has
+    one and the OCR reading's where it is listed in `pages`."""
+    by_page = dict(zip(pages, ocr_pages))
+    blocks = [by_page[n] if n in by_page else _layer_page(raw, n) for n in range(1, _pdf_pages(raw) + 1)]
+    return re.sub(r"\n{3,}", "\n\n", "\n\n".join(blocks)).strip("\n") + "\n"
 
 
 def ocr_paddle(pdf_path: Path) -> str:
@@ -1032,20 +1080,33 @@ def ocr_paddle(pdf_path: Path) -> str:
 
 
 def ocr_scan(src: dict, raw: bytes, config, paddle=None, vocab: set | None = None) -> tuple[str, dict]:
-    """(text, report) for a scanned PDF, or ValueError: both engines read the scan; the text is
-    tesseract's, promoted only when the engines agree on at least OCR_MIN_AGREEMENT of the word sequence,
-    at least OCR_MIN_DICT of the words are known words, there are OCR_MIN_WORDS words, and the text is the
-    cited instrument. The text is read again with orientation forced when the first reading fails."""
+    """(text, report) for a scanned PDF, or ValueError. `ocr: true` in the seed entry says every page is a
+    scan; `ocr: [2, 3, 4]` lists the scanned pages of a PDF whose other pages have a text layer (their text
+    is pdftotext's). Both engines read the scan; the text is tesseract's, promoted only when the engines
+    agree on at least OCR_MIN_AGREEMENT of the word sequence, at least OCR_MIN_DICT of the words are known
+    words, there are OCR_MIN_WORDS words, and the text is the cited instrument. A page scanned upside down
+    is read again with orientation forced when the first reading fails."""
     vocab = ocr_vocabulary(config) if vocab is None else vocab
     paddle = paddle or ocr_paddle
+    pages = sorted(set(src["ocr"])) if isinstance(src.get("ocr"), list) else None
+    scan = raw
+    if pages:
+        for n in range(1, _pdf_pages(raw) + 1):
+            has_layer = bool(_layer_page(raw, n).split())
+            if n in pages and has_layer:
+                raise ValueError(f"{src['id']}: PDF page {n} has a text layer but the seed entry lists it in ocr")
+            if n not in pages and not has_layer:
+                raise ValueError(f"{src['id']}: PDF page {n} has no text layer (a scan) and the seed entry's "
+                                 f"ocr list does not name it")
+        scan = _subset_pdf(raw, pages)
     with tempfile.TemporaryDirectory() as tmp:
         pdf = Path(tmp, "scan.pdf")
-        pdf.write_bytes(raw)
+        pdf.write_bytes(scan)
         cross = paddle(pdf)
-    why, text, score, forced = "", "", {}, False
+    why, ocr_pages, score, forced = "", [], {}, False
     for forced in (False, True):
-        text = ocr_tesseract(raw, force_rotate=forced)
-        score = ocr_score(text, cross, vocab)
+        ocr_pages = ocr_tesseract_pages(scan, force_rotate=forced)
+        score = ocr_score("\n\n".join(ocr_pages), cross, vocab)
         if score["words"] < OCR_MIN_WORDS:
             why = f"tesseract read only {score['words']} words (needs {OCR_MIN_WORDS})"
         elif score["agreement"] < OCR_MIN_AGREEMENT:
@@ -1059,6 +1120,10 @@ def ocr_scan(src: dict, raw: bytes, config, paddle=None, vocab: set | None = Non
             break
     if why:
         raise ValueError(f"{src['id']}: OCR is not promotable: {why}")
+    if pages:
+        text = _compose(raw, pages, ocr_pages)
+    else:
+        text = re.sub(r"\n{3,}", "\n\n", "\n\n".join(ocr_pages)).strip("\n") + "\n"
     check_identity(src, text, "pdf")
     report = dict({k: (round(v, 4) if isinstance(v, float) else v) for k, v in score.items()},
                   engines=list(OCR_ENGINES), forced_rotation=forced,
@@ -1067,16 +1132,28 @@ def ocr_scan(src: dict, raw: bytes, config, paddle=None, vocab: set | None = Non
                   pdf_sha256=hashlib.sha256(raw).hexdigest(),
                   text_sha256=hashlib.sha256(text.encode("utf-8")).hexdigest(),
                   paddle_sha256=hashlib.sha256(cross.encode("utf-8")).hexdigest())
+    if pages:
+        report.update(pages=pages, ocr_page_texts=ocr_pages)
     return text, dict(report, paddle_text=cross)
+
+
+def _page_list(pages: list) -> str:
+    return ", ".join(str(n) for n in pages)
 
 
 def ocr_notes(report: dict) -> str:
     """`conversion_notes` for text read by OCR: wording of the reference implementation (oregon-kpm)."""
     glued = (f"; {report['glued']} heading/letterhead token(s) lost their word spacing and are left as-is "
              f"rather than reconstructed" if report.get("glued") else "")
-    return (f"no text layer in the source PDF; text recovered by OCR. Two independent engines "
+    pages = report.get("pages")
+    head = (f"Pages {_page_list(pages)} of the PDF have no text layer (they are scans) and their text was "
+            f"recovered by OCR; the other pages' text is the text layer, extracted with pdftotext -layout "
+            f"(trailing spaces and form feeds removed, ligature glyphs written as their letters)."
+            if pages else "no text layer in the source PDF; text recovered by OCR.")
+    return (f"{head} Two independent engines "
             f"({' + '.join(report['engines'])}) agree on {report['agreement']:.0%} of the word sequence and "
-            f"{report['figure_agreement']:.0%} of the {report['figures']} figures, "
+            f"{report['figure_agreement']:.0%} of the {report['figures']} figures"
+            f"{' of the scanned pages' if pages else ''}, "
             f"{report['dict_ratio']:.0%} dictionary-recognizable{glued}. effective_date and source_version are "
             f"left empty: a date read from a scan is not transcribed from the source. {OCR_CAVEAT}")
 
@@ -1120,14 +1197,25 @@ def check_ocr(src: dict, raw: bytes, config) -> tuple[str | None, list[str]]:
         problems.append(f"{sid}: {sid}.txt differs from the OCR text recorded in {sid}.ocr.json (text_sha256)")
     if report["paddle_sha256"] != sha(cross):
         problems.append(f"{sid}: {sid}.paddle.txt (second engine) differs from the text recorded in {sid}.ocr.json")
-    score = ocr_score(text, cross, set())
+    pages = report.get("pages")
+    ocr_text = "\n\n".join(report["ocr_page_texts"]) if pages else text
+    if pages:
+        try:
+            if _compose(raw, pages, report["ocr_page_texts"]) != text:
+                problems.append(f"{sid}: {sid}.txt is not the text layer of the snapshot PDF's other pages (pdftotext) "
+                                f"with the recorded OCR reading of pages {_page_list(pages)}")
+        except (subprocess.CalledProcessError, FileNotFoundError) as e:
+            problems.append(f"{sid}: cannot read the snapshot PDF's text layer with pdftotext: {e}")
+    score = ocr_score(ocr_text, cross, set())
     if score["agreement"] < OCR_MIN_AGREEMENT or abs(score["agreement"] - report["agreement"]) > 0.005:
         problems.append(f"{sid}: tesseract text and paddle text agree on {score['agreement']:.3f}, the report "
                         f"says {report['agreement']:.3f} (bar {OCR_MIN_AGREEMENT})")
     if report["dict_ratio"] < OCR_MIN_DICT or score["words"] < OCR_MIN_WORDS:
         problems.append(f"{sid}: the recorded OCR quality is below the gate")
     try:
-        again = ocr_score(text, ocr_tesseract(raw, force_rotate=report.get("forced_rotation", False)), set())["agreement"]
+        scan = _subset_pdf(raw, pages) if pages else raw
+        again = ocr_score(ocr_text, ocr_tesseract(scan, force_rotate=report.get("forced_rotation", False)),
+                          set())["agreement"]
         if again < OCR_RECHECK:
             problems.append(f"{sid}: tesseract re-reading the snapshot PDF agrees with the committed text on only "
                             f"{again:.3f} (needs {OCR_RECHECK}): the text is not a reading of this PDF")
@@ -1387,6 +1475,16 @@ def check_identity(src: dict, text: str, fmt: str | None = None) -> None:
                              f"does not match the order's heading line (the line after the letterhead, before "
                              f"the first WHEREAS)")
         return
+    if src["doc_type"] == "executive_order" and src["jurisdiction"] == "oregon":
+        # the Governor's order prints its heading as the first line of its own, "EXECUTIVE ORDER NO. 23-26"
+        # (a scan may read it with its spacing and punctuation slightly off); an order that cites it
+        # further down is not it
+        number = re.search(r"\d{2,4}-\d{2}", src["citation"])
+        head = [_squash(l) for l in text.splitlines() if l.strip()][:8]
+        if not number or not any(re.fullmatch(rf"executive order (?:no[.,]? ?)?{number.group(0)}", l) for l in head):
+            raise ValueError(f"{src['id']}: {what_is} is not the cited instrument: "
+                             f"{src['citation']!r} is not the order's heading line (its first lines)")
+        return
     if src["doc_type"] == "executive_order":
         number = re.search(r"\d{2,4}-\d{2}", src["citation"])
         if not number or _squash(f"executive order {number.group(0)}") not in _squash(text):
@@ -1607,17 +1705,20 @@ def _conversion_notes(src: dict, fmt: str, text: str) -> str:
             "removed. One line per source line; a blank line before each rule number.")
 
 
-_OCR_WARNING = ("> **MACHINE READING OF A SCAN.** The source PDF has no text layer: it is an image. The full text "
-                "below was read from the image by OCR (two engines, see the curator notes) and is not the "
-                "document's own text. Expect character-level errors in words and figures, and treat every number "
-                "as unchecked against the source. `source_sha256` hashes this transcription; the scan is the "
-                "snapshot.\n\n")
+def _ocr_warning(report: dict) -> str:
+    pages = report.get("pages")
+    what = (f"Pages {_page_list(pages)} of the source PDF are images with no text layer; their text below"
+            if pages else "The source PDF has no text layer: it is an image. The full text below")
+    return (f"> **MACHINE READING OF A SCAN.** {what} was read from the image by OCR (two engines, see the "
+            f"curator notes) and is not the document's own text. Expect character-level errors in words and "
+            f"figures, and treat every number as unchecked against the source. `source_sha256` hashes this "
+            f"transcription; the scan is the snapshot.\n\n")
 
 
 def body_for(src: dict, text: str, notes: str, config=CONFIG) -> str:
     return (f"> **{config.disclaimer_marker}.** This is a convenience copy for machine reading. "
             f"The official text is published at the source URL above. Verify at source before "
-            f"relying on it.\n\n" + (_OCR_WARNING if src.get("_ocr") else "") +
+            f"relying on it.\n\n" + (_ocr_warning(src["_ocr"]) if src.get("_ocr") else "") +
             f"# {src['title']} ({src['citation']})\n\n"
             f"## At a glance\n\n{src['why_relevant'].strip()}\n\n"
             f"## Full text\n\n{text.rstrip()}\n\n"

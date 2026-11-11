@@ -182,3 +182,86 @@ def test_check_fails_when_the_snapshot_pdf_is_not_the_one_that_was_read(tmp_path
 def test_a_scan_is_still_refused_without_the_ocr_flag():
     with pytest.raises(ValueError, match="no text layer"):
         ing.derive(dict(SRC, ocr=False), SCAN)
+
+
+# ---- Oregon's executive orders print "EXECUTIVE ORDER NO. 23-26" as their heading -------------------
+# (the heading lines are as tesseract read them from the Governor's scan of EO 23-26, 2026-11-11)
+EO_HEAD = "Office of the Governor\n\nState of Oregon\n\nEXECUTIVE ORDER NO. 23-26\n\nESTABLISHING A STATE GOVERNMENT\n"
+EO = {"id": "or-eo-23-26", "doc_type": "executive_order", "jurisdiction": "oregon", "format": "pdf",
+      "citation": "Executive Order No. 23-26", "title": "Establishing a State Government Artificial Intelligence Advisory Council"}
+
+
+def test_an_oregon_order_is_the_cited_one_when_its_heading_prints_its_number():
+    ing.check_identity(EO, EO_HEAD, "pdf")
+    with pytest.raises(ValueError, match="not the cited instrument"):
+        ing.check_identity(dict(EO, citation="Executive Order No. 23-25"), EO_HEAD, "pdf")
+
+
+def test_an_order_that_only_cites_the_number_in_passing_is_not_that_order():
+    cites = "Office of the Governor\n\nEXECUTIVE ORDER NO. 24-01\n\nAs amended by Executive Order No. 23-26, the council\n"
+    with pytest.raises(ValueError, match="not the cited instrument"):
+        ing.check_identity(EO, cites, "pdf")
+
+
+# ---- a PDF with a text page and scanned pages (California's EO N-30-25) --------------------------------
+# Page 1 has a text layer; pages 2-4 are scans, scanned upside down: tesseract at its default orientation
+# confidence reads them as confident nonsense, so the procedure's forced-orientation retry is what makes
+# the text. Fixtures are real bytes (www.gov.ca.gov, fetched 2026-11-11 with curl_on_challenge=True) and the
+# text PaddleOCR read from pages 2-4 the same day.
+MIXED = (FIX / "ca-eo-n-30-25-mixed.pdf").read_bytes()
+MIXED_PADDLE = (FIX / "ca-eo-n-30-25-mixed.paddle.txt").read_text()
+MIXED_SRC = {"id": "ca-eo-n-30-25", "format": "pdf", "ocr": [2, 3, 4], "doc_type": "executive_order",
+             "jurisdiction": "california", "citation": "Executive Order N-30-25",
+             "url": "https://www.gov.ca.gov/wp-content/uploads/2025/07/2025-7-15.Efficient-and-Effective-Government-EO.FINAL_.signed.pdf",
+             "title": "Government Efficiency and Innovation", "tags": ["governance"],
+             "issuing_body": "Office of the Governor", "why_relevant": "An order of the Governor."}
+
+
+def mixed_corpus(tmp_path):
+    cfg = corpus(tmp_path)
+    (tmp_path / "_meta" / "source-manifest.yml").write_text(yaml.safe_dump({"sources": [MIXED_SRC]}))
+    return config_mod.load(tmp_path / "_meta" / "corpus.yml")
+
+
+@needs_ocr
+def test_listed_scan_pages_are_read_by_ocr_and_the_text_page_keeps_its_text_layer(tmp_path):
+    cfg = mixed_corpus(tmp_path)
+    text, report = ing.ocr_scan(MIXED_SRC, MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
+    assert report["forced_rotation"] is True and report["pages"] == [2, 3, 4]
+    assert report["agreement"] >= 0.95
+    assert " ".join(text.split()[:8]) == "EXECUTIVE DEPARTMENT STATE OF CALIFORNIA EXECUTIVE ORDER N-30-25"   # page 1: pdftotext -layout
+    assert text.index("WHEREAS California is the 4th largest economy") < text.index("wildfire detection")
+    assert "satellites for" in text
+
+
+@needs_ocr
+def test_a_listed_page_that_has_a_text_layer_is_refused(tmp_path):
+    cfg = mixed_corpus(tmp_path)
+    with pytest.raises(ValueError, match="page 1"):
+        ing.ocr_scan(dict(MIXED_SRC, ocr=[1, 2, 3, 4]), MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
+
+
+@needs_ocr
+def test_an_unlisted_scan_page_is_refused_not_dropped(tmp_path):
+    cfg = mixed_corpus(tmp_path)
+    with pytest.raises(ValueError, match="page 4"):
+        ing.ocr_scan(dict(MIXED_SRC, ocr=[2, 3]), MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
+
+
+@needs_ocr
+def test_check_passes_for_a_mixed_pdf_and_fails_when_the_text_layer_part_is_edited(tmp_path):
+    cfg = mixed_corpus(tmp_path)
+    text, report = ing.ocr_scan(MIXED_SRC, MIXED, cfg, paddle=paddle_of(MIXED_PADDLE), vocab=VOCAB)
+    ing.write_ocr_snapshot(cfg, MIXED_SRC, MIXED, text, report)
+    ing.write_ocr_document(MIXED_SRC, cfg)
+    assert ing.check([MIXED_SRC], cfg) == []
+    notes = parse_frontmatter(ing.doc_path(MIXED_SRC, cfg))[0]["conversion_notes"]
+    assert "Pages 2, 3, 4" in notes and "pdftotext" in notes
+    # the text-layer page is re-derived by pdftotext: an edit there, with every hash kept consistent, is caught
+    snap = cfg.snapshot_dir
+    edited = text.replace("4th largest economy", "5th largest economy", 1)
+    (snap / "ca-eo-n-30-25.txt").write_text(edited)
+    rep = json.loads((snap / "ca-eo-n-30-25.ocr.json").read_text())
+    rep["text_sha256"] = ing.hashlib.sha256(edited.encode()).hexdigest()
+    (snap / "ca-eo-n-30-25.ocr.json").write_text(json.dumps(rep))
+    assert any("text layer" in m for m in ing.check([MIXED_SRC], cfg))

@@ -105,8 +105,9 @@ sources:
     why_relevant: Guidelines for state agency use of electronic signatures and identity authentication (OAR
       128-050-0005).
 
-  # ---- Executive orders (Governor's order list; all three are scans)
+  # ---- Executive orders (Governor's order list; all three are scans read by OCR)
   - id: or-eo-16-13
+    sha256: "c98a066e73ac17694ad74204e2122fee7871761fd822acf8aba1ac10486e2f2c"
     url: https://www.oregon.gov/gov/eo/eo_16-13.pdf
     format: pdf
     citation: Executive Order No. 16-13
@@ -116,12 +117,11 @@ sources:
     issuing_body: Office of the Governor
     tags: [cybersecurity, governance]
     recheck: monthly
-    stub: true
-    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
-      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
     why_relevant: Directs the transfer of executive department IT security functions to the Office of the
       State CIO. Listed on the Governor's order list; no rescission found.
   - id: or-eo-23-26
+    sha256: "3db63b4d46ef7d8a4c7ebef795f26c2078f49f27bc33a5bb329321a4014a63c4"
     url: https://www.oregon.gov/gov/eo/eo-23-26.pdf
     format: pdf
     citation: Executive Order No. 23-26
@@ -131,13 +131,12 @@ sources:
     issuing_body: Office of the Governor
     tags: [ai, governance]
     recheck: monthly
-    stub: true
-    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
-      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
     why_relevant: 'Governor''s order on government use of AI: establishes the State Government AI Advisory
       Council to recommend an action plan. Whether it remains operative is for the owner to judge; it is
       on the Governor''s list and not marked rescinded.'
   - id: or-eo-26-26
+    sha256: "d8e7844995a197f883d8940a40923ef71656c193cf5b9659828e5d7e36fb28f4"
     url: https://www.oregon.gov/gov/eo/eo%2026-26.pdf
     format: pdf
     citation: Executive Order No. 26-26
@@ -147,9 +146,7 @@ sources:
     issuing_body: Office of the Governor
     tags: [ai, procurement]
     recheck: monthly
-    stub: true
-    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
-      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
     why_relevant: Governor's order setting state policy to buy or use frontier AI models that have had independent
       third-party safety review and directing the State CIO to propose implementation. Listed on the Governor's
       order list (item modified 2026-09-24).
@@ -229,6 +226,7 @@ sources:
     recheck: monthly
     why_relevant: Classification of state information assets by sensitivity level.
   - id: or-das-107-004-051
+    sha256: "62c3d544ea18704207b2ba0e28e52046baad7085f499d66398bddb61815b5284"
     url: https://www.oregon.gov/das/Policies/107-004-051.pdf
     format: pdf
     citation: Statewide Policy 107-004-051
@@ -238,9 +236,7 @@ sources:
     issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
     tags: [cybersecurity]
     recheck: monthly
-    stub: true
-    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
-      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
     why_relevant: Agencies must physically control and protect portable and removable storage devices and
       the sensitive information on them.
   - id: or-das-107-004-052
@@ -268,6 +264,7 @@ sources:
     recheck: monthly
     why_relevant: Procedure implementing statewide policy 107-004-052, effective 2026-10-01.
   - id: or-das-107-004-053
+    sha256: "d638bb6ac81fac9cc1c6aa513d81759871e39525c3aec72dd57e723c7d03f323"
     url: https://www.oregon.gov/das/Policies/107-004-053.pdf
     format: pdf
     citation: Statewide Policy 107-004-053
@@ -277,12 +274,11 @@ sources:
     issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
     tags: [cybersecurity]
     recheck: monthly
-    stub: true
-    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
-      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
     why_relevant: Agency policy requirements for personnel screening, access removal and awareness training
       to protect information assets.
   - id: or-das-107-004-100
+    sha256: "b6a43762ffdbfac021c4c6fc1cdc56e0af3dc0394d90bab8cdb87b44231961d7"
     url: https://www.oregon.gov/das/Policies/107-004-100.pdf
     format: pdf
     citation: Statewide Policy 107-004-100
@@ -292,9 +288,7 @@ sources:
     issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
     tags: [cybersecurity, data]
     recheck: monthly
-    stub: true
-    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
-      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
+    ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
     why_relevant: Security controls for transporting sensitive information assets (physical media).
   - id: or-das-107-004-110
     sha256: "00e49c9b62ac8b2506b66162e3397e956c383864b40faf3850d1052b32ec3507"
@@ -355,7 +349,7 @@ sources:
     issuing_body: Department of Administrative Services, Enterprise Information Services (State CIO)
     tags: [cybersecurity]
     recheck: monthly
-    no_text_pages: [4, 5, 6, 7]   # the four attachment forms (Attachment A: Privileged Access Request, and three more) are scanned images with no text layer; the document carries pages 1-3 only. Needs the two-engine OCR procedure.
+    no_text_pages: [4, 5, 6, 7]   # pages 4-7 are scanned images with no text layer: Attachment A (Privileged Access Request, a blank request form, pages 4-5) and Attachment B (Privileged Access Agreement with signature blocks, pages 6-7). Judged 2026-11-11, after viewing the pages, to be forms to complete and sign, so they are left out and the document carries pages 1-3 only; OWNER may overrule (the agreement's terms are text a signer accepts), which would need a page-level OCR step.
     why_relevant: Controls on privileged access to state information systems.
   - id: or-das-107-004-150
     sha256: "e0bf3b473f05c784972305b6772c574f42c4b6bb64aa66c6fce14951696fdd4a"
@@ -653,22 +647,6 @@ sources:
       left out.
 
   # ---- State CIO directives (memos) listed under Directives on the EIS policy page
-  - id: or-eis-memo-20260420-107-004-052-update
-    url: https://www.oregon.gov/eis/Documents/State%20CIO%20Memo-107-004-052%2020260420.docx.pdf
-    format: pdf
-    citation: State CIO Memorandum, 2026-04-20
-    title: Statewide policy 107-004-052 update
-    doc_type: policy
-    jurisdiction: oregon
-    issuing_body: Enterprise Information Services
-    tags: [cybersecurity, procurement]
-    recheck: monthly
-    stub: true
-    stub_reason: Scan, no text layer (pdftotext returned zero words when fetched 2026-11-10); the two-engine
-      OCR procedure has not yet been run on it. The ingester has no OCR step, so no document is written.
-    why_relevant: State CIO directive pausing section 4 (offshore and foreign services) of statewide policy
-      107-004-052 to allow procurement to continue. Probably overtaken by the 2026-10-01 version of the
-      policy; owner to confirm.
   - id: or-eis-memo-20250212-deepseek
     sha256: "be250ed6d0533f0616a4423b83d4bba5f8eb18d704698c26063f892a7a19da4f"
     url: https://www.oregon.gov/eis/State%20CIO%20Letters%20and%20Memos/CSS%20Memo%20DeepSeek%20AI.pdf
@@ -756,6 +734,18 @@ sources:
   #  - 107-004-160 'Data Governance Plan Template' (https://www.oregon.gov/das/Policies/Data%20Governance%20Plan%20Template.docx)
   #    and 'Data Governance Maturity Model' (https://www.oregon.gov/das/Policies/Data%20Governance%20Maturity%20Model.xlsx).
   #  - 107-004-180 budget category workbook and transmittal form (already noted on the entry above).
+  #
+  # Overtaken, not in force (read by OCR 2026-11-11; two engines agree on 98% of the words):
+  #  - State CIO Memorandum, 2026-04-20, 'Statewide policy 107-004-052 update'
+  #    (https://www.oregon.gov/eis/Documents/State%20CIO%20Memo-107-004-052%2020260420.docx.pdf; a scan).
+  #    It says section (4), the disallowance of offshore and foreign services added to the policy 'effective
+  #    February 17, 2026', 'is temporarily paused to allow the continuance of procurement activities' and
+  #    that updates to the policy 'are in process and will be forthcoming soon'. The 2026-10-01 version of
+  #    107-004-052 (seeded above) prints 'SUPERSEDES: Policy #107-004-052 (2/17/2026)', carries section
+  #    (4) without any pause, and makes its disclosure-and-review rule effective with that policy's date,
+  #    October 1, 2026. The pause was of the superseded version's section, so the memo is overtaken by the
+  #    policy's own terms; the policy does not name the memo. Left out as not in force. OWNER: confirm with
+  #    EIS that the memo is withdrawn (the EIS page still listed it as a directive on 2026-11-10).
   #
   # Out of scope (not IT governance of state agencies):
   #  - 107-001-016 'Mobile Communication Device Usage While Driving' (https://www.oregon.gov/das/Policies/107-001-016.pdf;
