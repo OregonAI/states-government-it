@@ -1,0 +1,257 @@
+       Texas Department of Information Resources
+       Transforming How Texas Government Serves Texans
+
+State Website Linking and Privacy Policy
+                       Version 2.0
+                       August 2024
+
+                                                                      Table of Contents
+Introduction...................................................................................................................................................... 2
+Reference Authority ....................................................................................................................................... 2
+Purposes ........................................................................................................................................................... 2
+Goals of the Policy .......................................................................................................................................... 3
+Scope .................................................................................................................................................................. 3
+Method .............................................................................................................................................................. 3
+    Website Linking ........................................................................................................................................................... 3
+        Third-Party Linking to State Agency Websites ........................................................................................... 3
+        Copying or Reproducing Information from State Agency Websites.................................................. 4
+        Linking from State Agency Websites to Third-Party Websites ............................................................. 4
+        Required Links for State Agency Websites................................................................................................... 5
+    Privacy ............................................................................................................................................................................. 5
+        Data Minimization ................................................................................................................................................. 5
+        Individual Access and Participation ................................................................................................................ 6
+        Privacy Notice.......................................................................................................................................................... 6
+        Breach Notification ................................................................................................................................................ 6
+Glossary ..............................................................................................................................................................7
+    Acronyms ....................................................................................................................................................................... 7
+    Definitions ..................................................................................................................................................................... 7
+Records Retention Statement .......................................................................................................................7
+
+DIR | State Website Linking and Privacy Policy, Version 2.0, August 2024                                                                                                                1
+
+     State Website Linking and Privacy Policy
+
+Introduction
+Texas Government Code section 2054.126 requires the Texas Department of Information
+Resources (DIR) to adopt a policy that: (1) prescribes terms under which a person may use, copy
+information from, or link to a generally accessible Internet site maintained by or for a state
+agency; and (2) protects the personal information of members of the public who access
+information from or through a generally accessible Internet site maintained by or for a state
+agency. The State Website Linking and Privacy Policy fulfils this requirement and provides
+guidance on how individuals and entities may share the information published on state agency
+websites and how state agencies must protect the public’s personal information obtained
+through those websites.
+
+Reference Authority
+Texas Government Code, Section 2054.112
+Texas Government Code, Section 2054.126
+Texas Government Code, Section 2054.603
+Texas Administrative Code Title 1, Chapter 206
+Texas Government Code, Chapter 552
+Texas Government Code, Chapter 559
+Texas Business & Commerce Code, Section 521.053
+
+Purposes
+State agency websites contain useful information about the functions and operations of state
+government that other individuals or entities may desire to share. The State Website Linking
+Policy establishes procedures for individuals and entities to use, copy information from, or link
+to a state website maintained by or for a Texas state agency, including an institution of higher
+education. It also includes procedures for state agencies when linking to third-party websites.
+
+In addition to providing information, state agencies also use their websites to collect and
+maintain significant amounts of personal information necessary to perform governmental
+functions and provide services to constituents. The State Privacy Policy establishes procedures
+for state agencies to follow to protect the personal information of members of the public who
+provide that information through a state agency website and provide transparency.
+
+DIR | State Website Linking and Privacy Policy, Version 2.0, August 2024                            2
+
+Goals of the Policy
+   (1) Encourage the responsible dissemination of state agency public information by allowing
+       third parties to link to state agency websites and copy or reproduce information from
+       state agency websites under certain conditions.
+
+   (2) Allow state agencies to link to third-party websites when beneficial to the public and in
+       support of an agency function.
+
+   (3) Protect the personal information members of the public share with state agencies by
+       establishing privacy processes for state agencies to implement as they collect, process,
+       and maintain personal information.
+
+Scope
+This policy applies to Texas state agencies and institutions of higher education as defined in Title
+1, Texas Administrative Code (1 TAC) Chapter 206. A Texas state agency, including an institution
+of higher education, should refer to this policy in conjunction with 1 TAC Chapter 206 and Texas
+Government Code, Chapters 2054 and 559 to implement provisions of law, administrative rule,
+and policy, and to develop and adopt its policies related to website linking and privacy.
+
+Method
+A state agency must either post a link to this State Website Linking and Privacy Policy on the
+web page that contains the agency’s linking notice or materially represent the provisions
+contained in this policy on the web page that contains the agency’s own linking and privacy
+notice.
+
+Website Linking
+A state agency may not charge a fee to access, use, reproduce information on, or link to its
+Internet site except to the extent the state agency is specifically authorized to do so by statute.
+
+Third-Party Linking to State Agency Websites
+An individual or entity is not required to obtain advanced permission to link to a state agency
+website, however, individuals or entities linking to a state agency website must not represent the
+state agency website or its content as its own and may not misrepresent the origin, substance,
+or context of the content of the state agency website.
+
+DIR | State Website Linking and Privacy Policy, Version 2.0, August 2024                              3
+
+Links to a state agency page should be established through the appropriate base uniform
+resource locator (URL) and not through an abbreviated form. Links should be full forward links
+that deliver browsers directly to the agency website. Certain links may create a downloading
+burden on a state agency’s servers, such as certain graphics or tables, which could constitute a
+misuse of state resources. To prevent that, entities or individuals should contact the appropriate
+state agency to request permission to post a copy of the state agency’s graphics or tables within
+their website.
+
+Entities or individuals that link to a state agency’s website should make reasonable efforts to
+ensure that persons with disabilities may access their websites.
+
+Because state agencies may revise the content of their websites at any time without notice,
+entities and individuals should routinely verify links to state agency websites.
+
+Copying or Reproducing Information from State Agency Websites
+Individuals or entities may copy or reproduce information posted on a public state agency
+website without permission, however, the content copied or reproduced may not be presented
+in a misleading way. Entities or individuals that copy and present state agency information must
+identify the source of the content, including the URL for the content or nearest entry point
+leading to the content if a URL is not available, and the date the content was copied.
+
+Entities or individuals that copy and present state agency information on their websites must
+accompany that information with a statement that neither the entity or individual nor the
+information, as it is presented on its website, is endorsed by the State of Texas or any state
+agency. To protect the intellectual property of state agencies, copied information must reflect
+the copyright, trademark, service mark, or other intellectual property rights of the state agency
+whose protected information is being used by the entity or individual.
+
+Linking from State Agency Websites to Third-Party Websites
+A state agency may link to federal, state, and local government websites that provide
+information and services that benefit Texas citizens, Texas local government, and Texas state
+agencies. A state agency may link to non-governmental third-party websites that contain
+information or services that further the business goals and missions of state agencies if a public
+purpose exists for establishing the link.
+
+A state agency is not obligated to link to third-party websites unless a statute or rule requires it
+to do so. A state agency may remove links to third-party websites at its discretion. Reasons to
+remove a third-party link could include a determination that a website contains misleading or
+unsubstantiated claims, conflicts with or is not relevant to the purpose of the agency, or fails to
+conform to the requirements of the state agency’s linking policy.
+
+DIR | State Website Linking and Privacy Policy, Version 2.0, August 2024                               4
+
+Linking to another entity’s website does not constitute an endorsement of the content,
+viewpoint, accuracy, opinions, policies, products, services, or accessibility of the site. A state
+agency that provides links to a third-party website should publish a disclaimer that specifically
+disclaims liability and responsibility for third-party website content.
+
+Required Links for State Agency Websites
+Texas state agencies are required to provide links to the following:
+
+   •   Veteran’s Portal
+   •   Comptroller of Public Accounts State Expenditure Database
+   •   State electronic Internet portal, Texas.gov
+   •   Texas Homeland Security website
+   •   TRAIL, statewide search website
+   •   State Auditor’s Office Fraud, Waste, or Abuse Hotline
+
+Texas state agencies are also required to include links to the following agency resources:
+
+   •   Agency linking notice
+   •   Agency privacy notice
+   •   Agency policy and procedures related to Open Records/Public Information Act
+   •   Compact with Texans
+   •   Agency policy on electronic and information resources accessibility
+   •   Contact information for the agency accessibility coordinator
+   •   Agency fraud policy,
+
+Privacy
+To perform their public functions, state agencies collect, maintain, and process personal
+information on behalf of individuals. A state agency and its employees have a duty to protect
+the personal information that members of the public provide to the agency and to prevent the
+unauthorized disclosure of that personal information.
+
+Data Minimization
+A state agency should minimize the amount of personal information collected from constituents
+and collect, process, and maintain only that personal information necessary to perform its
+authorized functions. If an agency no longer has a business need for personal information
+collected, it should delete personal information in accordance with the agency’s records
+retention schedule.
+
+DIR | State Website Linking and Privacy Policy, Version 2.0, August 2024                             5
+
+Individual Access and Participation
+With some limited exceptions, a state agency must, upon request, inform an individual about
+the information the state agency collects about the individual and provide that information to
+the individual for review.
+
+A state agency must establish a reasonable procedure under which an individual may have the
+state agency correct personal information about the individual that is possessed by the state
+agency and that is incorrect. The procedure may not unduly burden an individual using the
+procedure.
+
+Privacy Notice
+To provide transparency about a state agency’s privacy practices, a state agency must establish a
+privacy policy and must publish the relevant portions of that privacy policy in a privacy notice on
+its website.
+
+The privacy notice must include information explaining:
+
+   •   What personal information the agency collects about an individual
+   •   How the agency collects that information
+   •   The purposes for which the agency uses the collected information
+   •   The methods the agency uses to secure the information
+   •   The process for individuals to access, review, and correct their personal information
+
+Any web-based form on a state agency's website that requests information from the public must
+have a link to the state agency's website privacy notice.
+
+Breach Notification
+If a state agency maintains sensitive personal information about an individual and that
+information was, or is reasonably believed to have been, acquired by an unauthorized person,
+the agency shall notify the individual about the security breach in accordance with section
+521.053 of the Business & Commerce Code, and, if required, shall also notify the Office of the
+Attorney General. A state agency should provide privacy training to employees with access to
+sensitive personal information to ensure the employees understand the state agency’s
+obligations to protect personal information and report a breach.
+
+DIR | State Website Linking and Privacy Policy, Version 2.0, August 2024                         6
+
+Glossary
+Acronyms
+
+Texas Department of Information Resources (DIR)
+
+Texas Administrative Code (TAC)
+
+Uniform Resource Locator (URL)
+
+Definitions
+
+Personal information: Information that alone or in conjunction with other information
+identifies an individual. Examples of personal information include a person’s name, social
+security number, date of birth, or government-issued identification number, a mother's maiden
+name, a person’s unique biometric data, and a unique electronic identification number, address,
+or routing code.
+
+Sensitive Personal Information: An individual's first name or first initial and last name in
+combination with any one or more of the following items, if the name and the items are not
+encrypted: (i) social security number; (ii) driver's license number or government-issued
+identification number; or (iii) account number or credit or debit card number in combination
+with any required security code, access code, or password that would permit access to an
+individual's financial account. Sensitive personal information also includes information that
+identifies an individual and relates to: (i) the physical or mental health or condition of the
+individual; (ii) the provision of health care to the individual; or (iii) payment for the provision of
+health care to the individual.
+
+Records Retention Statement
+DIR shall retain this policy for three years after the completion or termination of the policy
+pursuant to agency item number AD.111 in DIR’s records retention schedule.
+
+DIR | State Website Linking and Privacy Policy, Version 2.0, August 2024                             7

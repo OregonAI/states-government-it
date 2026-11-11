@@ -1,0 +1,387 @@
+# Texas seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-11 through the toolkit Fetcher: DIR resource library (1,367 rows read in full), DIR program pages,
+# the Legislature's statute pages (tcss.legis.texas.gov), the Secretary of State's Texas Register archive, gov.texas.gov.
+sources:
+
+  # ---- Statutes: one static chapter page per chapter, on the Legislature's own host
+  - id: tx-gv-2054
+    sha256: "ac3bfff6548f837bbdf1dc163cfee9167bd12f84bf9c8aceb6ce5f516777d547"
+    url: "https://tcss.legis.texas.gov/resources/GV/htm/GV.2054.htm"
+    format: html
+    citation: "Government Code chapter 2054"
+    title: "Government Code, Chapter 2054. Information Resources"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [governance, oversight, procurement, funding, cybersecurity, data, ai, digital-services, cloud-resilience]
+    recheck: monthly
+    why_relevant: "The enabling statute for the Department of Information Resources (DIR) and the state's chief information officer, and the statewide information resources law. Its subchapters, as the page prints them: general provisions and definitions, including heightened scrutiny artificial intelligence systems (A); administration of the department (B); general powers and duties of the department (C); information resources managers (D); strategic and operating plans (E); other powers and duties of state agencies, including the information technology infrastructure report (2054.068), the deployment review (2054.0965) and the website policy (2054.126) (F); project management practices (G); telecommunications planning (H); the state electronic Internet portal (I); the Texas Project Delivery Framework (J); occupational licensing transactions (K); statewide technology centers (L); access to electronic and information resources (M); cybersecurity and artificial intelligence training (N-1); major outsourced contracts (O); additional provisions on contracting (P); legacy system modernization (Q); information resources of governmental entities (R); and three subchapters lettered S (Acts 2025, 89th Leg., R.S., from different bills): modernization of agency websites and digital services (including 2054.652), the artificial intelligence division, and artificial intelligence (code of ethics, heightened scrutiny systems, disclosure, impact assessments, complaint page, standardized notice). The page keeps their colliding section numbers 2054.701 to 2054.713 as published."
+  - id: tx-gv-2059
+    sha256: "b12700d7da931faaa5a12463a8efc10fd58e7379a3d2baf0c61ebb580441b7df"
+    url: "https://tcss.legis.texas.gov/resources/GV/htm/GV.2059.htm"
+    format: html
+    citation: "Government Code chapter 2059"
+    title: "Government Code, Chapter 2059. Texas Computer Network Security System"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [cybersecurity]
+    recheck: monthly
+    why_relevant: "The statewide network security service for state agencies: the Texas Cyber Command's duty to provide computer network security services, the network security center and its managed security services, network security guidelines and standard operating procedures, disconnection in a state of disaster, and the revolving fund."
+  - id: tx-gv-2063
+    sha256: "2ee316e335a561aa6d6cff6c5e60932cdcf047a3f37a40775fbfcd2558067970"
+    url: "https://tcss.legis.texas.gov/resources/GV/htm/GV.2063.htm"
+    format: html
+    citation: "Government Code chapter 2063"
+    title: "Government Code, Chapter 2063. Texas Cyber Command"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [governance, cybersecurity]
+    recheck: monthly
+    why_relevant: "The cybersecurity statute for state systems: creates the Texas Cyber Command as a state agency, its chief and powers; minimum standards and certified cybersecurity training (subchapter B); the threat intelligence center, incident response unit and digital forensics laboratory (C); incident notification and reporting by state agencies and local governments (D, including 2063.302); each state agency's information security officer and information security plan, the cybersecurity council, the cloud state risk and authorization program and required penetration tests (E); the volunteer incident response team (F); regional security operations centers (G)."
+  - id: tx-gv-2157
+    sha256: "936fada400a0696fb96636a467f42b7c623398aceb6f957de6a15c60de1cc296"
+    url: "https://tcss.legis.texas.gov/resources/GV/htm/GV.2157.htm"
+    format: html
+    citation: "Government Code chapter 2157"
+    title: "Government Code, Chapter 2157. Purchasing: Purchase of Automated Information Systems"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [procurement, cloud-resilience]
+    recheck: monthly
+    why_relevant: "The IT procurement chapter for state agencies subject to chapter 2054: best value for automated information systems, purchasing methods, cloud computing service purchases, and the purchase of information technology commodity items (subchapter B). The whole chapter concerns information technology purchasing, unlike the general procurement chapters left out below."
+  - id: tx-gv-620
+    sha256: "bccccfde1b926c9b5d83bf435e313f5311abbc5d65ad6583da1413126473dfde"
+    url: "https://tcss.legis.texas.gov/resources/GV/htm/GV.620.htm"
+    format: html
+    citation: "Government Code chapter 620"
+    title: "Government Code, Chapter 620. Use of Certain Social Media Applications and Services on Governmental Entity Devices Prohibited"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [cybersecurity, ai]
+    recheck: monthly
+    why_relevant: "Requires each governmental entity to adopt a policy prohibiting the installation or use of a covered application on devices it owns or leases, with the model policy, the exceptions, and the applications identified by gubernatorial proclamation or by DIR and the Department of Public Safety. The page's definitions bind state and local governmental entities alike."
+  - id: tx-gv-559
+    sha256: "56a3a974cd61ff3257ed6ed38c816edec6c78f231d74e1c0cc601a16cff6bd20"
+    url: "https://tcss.legis.texas.gov/resources/GV/htm/GV.559.htm"
+    format: html
+    citation: "Government Code chapter 559"
+    title: "Government Code, Chapter 559. State Government Privacy Policies"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [data]
+    recheck: monthly
+    why_relevant: "Privacy duties of state governmental bodies for information they collect about individuals: the right to be informed, notice on forms filed on paper or on an Internet site, and correction of incorrect information. Government-held data; the Public Information Act itself (chapter 552) is out of scope."
+  - id: tx-gv-560
+    sha256: "1e1d3e7f0a43a53f30ee4a4c612deebc56d0b6a01c820329aea8a84c731d2c19"
+    url: "https://tcss.legis.texas.gov/resources/GV/htm/GV.560.htm"
+    format: html
+    citation: "Government Code chapter 560"
+    title: "Government Code, Chapter 560. Biometric Identifier"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [data]
+    recheck: monthly
+    why_relevant: "A governmental body that possesses an individual's biometric identifier may not sell, lease or disclose it without consent or a legal basis, must store, transmit and protect it with at least the care it gives its other confidential information, and the identifier is exempt from public disclosure. Government-held data."
+  - id: tx-gv-2062
+    sha256: "f3788179a57df9dad545cffc4e522ddd137096bb626344cc2af4b90d6a7a7f2e"
+    url: "https://tcss.legis.texas.gov/resources/GV/htm/GV.2062.htm"
+    format: html
+    citation: "Government Code chapter 2062"
+    title: "Government Code, Chapter 2062. Restrictions on State Agency Use and Dissemination of Certain Personal Information"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [data]
+    recheck: monthly
+    why_relevant: "A state agency may not use GPS, contact tracing or biometric-identifier technology to acquire information that identifies an individual or the individual's location, or retain or disseminate it, without consent (2062.002), and may not disseminate certain personal identifying information of a person who submits information to it without written consent (2062.003, added by H.B. 5129, 2025). Government-held data."
+  - id: tx-bc-552
+    sha256: "d75f23dd5a0600cb2304eb9f9adacaf94c3b463a35d55335380afcdd623d3d75"
+    url: "https://tcss.legis.texas.gov/resources/BC/htm/BC.552.htm"
+    format: html
+    citation: "Business and Commerce Code chapter 552"
+    title: "Business and Commerce Code, Chapter 552. Artificial Intelligence Protection"
+    doc_type: statute
+    jurisdiction: texas
+    issuing_body: Texas Legislature
+    tags: [ai]
+    recheck: monthly
+    why_relevant: "Included for its provisions that bind governmental entities: the disclosure a governmental agency owes consumers who interact with its AI system (552.051(b)), the ban on a governmental entity's AI social scoring (552.053) and on its AI identification of individuals from biometric data or scraped media (552.054(b)). Most of the chapter binds any 'person' and its enforcement runs through the attorney general; those private-sector provisions ride along because the page serves the whole chapter (OWNER DECISION, see left_out)."
+
+  # ---- DIR policies and standards (PDFs the agency publishes on its own host)
+  - id: tx-dir-ai-acceptable-use-policy
+    sha256: "d374554daf4051e1136f5d6a318f1169d6932b8a64c1079ed6f0127f4c85fb8e"
+    url: "https://dir.texas.gov/sites/default/files/2026-04/AI%20Acceptable%20Use%20Policy.pdf"
+    format: pdf
+    citation: "DIR AI Acceptable Use Policy, Version 1.0"
+    title: "AI Acceptable Use Policy"
+    doc_type: policy
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [ai]
+    recheck: monthly
+    identity_text: "AI Acceptable Use Policy"
+    found_via: "https://dir.texas.gov/resource-library (type Policy) and https://dir.texas.gov/ai-templates-and-resources"
+    why_relevant: "DIR's own rules for its employees, contractors, interns and volunteers when they use AI systems (disclosure, attribution, heightened scrutiny uses, prohibited uses, training). It applies to DIR Users only; DIR's AI templates page shares it as an example for other state and local entities to adapt."
+  - id: tx-dir-internet-email-domain-name-policy
+    sha256: "cdcbfe989bb0cd0d166a36d95e41da04d20bc3883c96f5a1ae36866672d664f6"
+    url: "https://dir.texas.gov/sites/default/files/2024-08/Internet%20and%20Email%20Domain%20Name%20Management%20Policy.pdf"
+    format: pdf
+    citation: "DIR Internet and Email Domain Name Management Policy"
+    title: "Internet and Email Domain Name Management Policy"
+    doc_type: policy
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [digital-services]
+    recheck: monthly
+    identity_text: "Internet and Email Domain Name Management policy"
+    found_via: "https://dir.texas.gov/resource-library (type Policy)"
+    why_relevant: "Statewide policy for the registration, naming and authorization of texas.gov and state-agency domain names and email domains, the .gov exception process, and the CIO's authorization role. Applies to Texas state agencies."
+  - id: tx-dir-state-website-linking-privacy-policy
+    sha256: "2235226ae42a741c2b695f4a291e901598a3d8068589aaf2986919ed7493ec7a"
+    url: "https://dir.texas.gov/sites/default/files/2024-08/State%20Website%20Linking%20and%20Privacy%20Policy.2024.pdf"
+    format: pdf
+    citation: "DIR State Website Linking and Privacy Policy, Version 2.0"
+    title: "State Website Linking and Privacy Policy"
+    doc_type: policy
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [digital-services, data]
+    recheck: monthly
+    identity_text: "State Website Linking and Privacy Policy"
+    found_via: "https://dir.texas.gov/resource-library (type Policy)"
+    why_relevant: "The policy Government Code 2054.126 requires DIR to adopt: the terms for linking to and copying from state agency websites, the links state agency websites must carry, and how state agencies must protect the personal information of the public who use those websites (data minimization, access, privacy notice, breach notification)."
+  - id: tx-dir-prohibited-technologies-statewide-plan
+    sha256: "57425096526b5957fc4fb71e0c4f332bfa55733c237115c187b4d3d221e65e19"
+    url: "https://dir.texas.gov/sites/default/files/2023-02/Statewide_Plan_for_Preventing_Use_of_Prohibited_Technology_in_State_Agencies_%28Final_OOG%29.pdf"
+    format: pdf
+    citation: "Statewide Security Plan for Prohibited Technologies (Model Security Plan, January 2023)"
+    title: "Statewide Plan for Preventing Use of Prohibited Technology in State Agencies"
+    doc_type: policy
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [cybersecurity, ai]
+    recheck: monthly
+    identity_text: "Model Security Plan for Prohibited Technologies"
+    found_via: "https://dir.texas.gov/information-security/covered-applications-and-prohibited-technologies (not a resource library row)"
+    why_relevant: "The plan DIR and the Department of Public Safety developed after the Governor's December 7, 2022 directive: each state agency's objectives for prohibiting prohibited technologies on state-issued devices and on personal devices used for state business, sensitive locations, network restrictions, exceptions and compliance. The list of prohibited software and hardware, which the Governor and the Texas Cyber Command update, is on the page this was found through, which is watched."
+  - id: tx-dir-security-control-standards-catalog
+    sha256: "8858ae54e023a23a11a65b1f4747d6a6b19769b844b5341401ad0908b001a8f5"
+    url: "https://dir.texas.gov/sites/default/files/2025-09/Security%20Control%20Standards%20Catalog_v2.2.pdf"
+    format: pdf
+    citation: "DIR Security Control Standards Catalog, Version 2.2"
+    title: "Security Control Standards Catalog"
+    doc_type: standard
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "Security Control Standards Catalog"
+    found_via: "https://dir.texas.gov/resource-library (type Guidelines) and https://dir.texas.gov/texas-administrative-code-202"
+    why_relevant: "The minimum security controls for state data and systems that 1 TAC 202 requires state agencies and institutions of higher education to use (per DIR's TAC 202 page), based on NIST SP 800-53 Rev. 5. The file prints Version 2.2, effective August 28, 2025; the library item page says this version 'supersedes Security Control Standards Catalog Version 2.2', so the printed and the stated version numbers disagree and no newer file is listed."
+  - id: tx-dir-tx-ramp-program-manual
+    sha256: "e99d826535be7bfc5ff262ce97cf4788dd8a62130911fa002ae57fe6862a7315"
+    url: "https://dir.texas.gov/sites/default/files/2026-02/TX-RAMP%20Program%20Manual%204.0.pdf"
+    format: pdf
+    citation: "TX-RAMP Program Manual, Version 4.0"
+    title: "Texas Risk and Authorization Management Program (TX-RAMP) Program Manual"
+    doc_type: standard
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [cybersecurity, cloud-resilience, procurement]
+    recheck: monthly
+    identity_text: "Texas Risk and Authorization Management Program (TX-RAMP)"
+    found_via: "https://dir.texas.gov/resource-library (type Guidelines) and https://dir.texas.gov/information-security/texas-risk-and-authorization-management-program-tx-ramp"
+    why_relevant: "The processes, procedures and compliance requirements for the use of cloud computing services by Texas state agencies and the certification of vendors' cloud products (the program of Gov't Code 2063.408, the cloud computing state risk and authorization management program, and 1 TAC 202.27). Prints its effective date, February 12, 2026. The library types it Guidelines; it is seeded as a standard because the program's requirements are in it (OWNER DECISION)."
+  - id: tx-dir-training-certification-standards-fy26-27
+    sha256: "99b566d68c098744d96757202a21c1fb6e5c8e42a88afca0a1d618878f743ede"
+    url: "https://dir.texas.gov/sites/default/files/2026-05/FY%2026-27%20Training%20Program%20Certification%20Standards.pdf"
+    format: pdf
+    citation: "DIR FY 26-27 Training Program Certification Standards"
+    title: "FY 26-27 Training Program Certification Standards"
+    doc_type: standard
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "FY 26-27 Training Program Certification Standards"
+    found_via: "https://dir.texas.gov/resource-library (type security)"
+    why_relevant: "The minimum requirements DIR uses to certify cybersecurity awareness training programs under Government Code 2063.102, the training that state employees and officials must complete annually. Applies to training providers seeking state certification; current fiscal years only (the FY 20-21 to FY 24-25 versions in the library are superseded)."
+  - id: tx-dir-ai-training-certification-standards-fy26-27
+    sha256: "1320f1c3a2ad6015d3886cf4000e5530ae8c1af48ad220fce5ab1850216815c3"
+    url: "https://dir.texas.gov/sites/default/files/2026-05/FY26-27%20AI%20Training%20Program%20Certification%20Standards%20-%20FINAL.pdf"
+    format: pdf
+    citation: "DIR Artificial Intelligence Training Program Certification Standards, Fiscal Year 2026-2027"
+    title: "Artificial Intelligence Training Program Certification Standards, Fiscal Year 2026-2027"
+    doc_type: standard
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [ai]
+    recheck: monthly
+    identity_text: "Artificial Intelligence Training Program Certification Standards"
+    found_via: "https://dir.texas.gov/resource-library (two rows, one file)"
+    why_relevant: "The minimum requirements DIR uses, in consultation with the Public Sector AI Systems Advisory Board, to certify AI training programs under Government Code 2054.5193, the AI training state employees and officials must complete. The library lists this one file twice (rows 'FY 26-27 AI Training Program Certification Standards Final' and 'FY26-27 AI Training Program Certification Standards', same URL)."
+  - id: tx-dir-videoconferencing-standards
+    sha256: "6bb411066a1333c6bc9fbf5d9646d0debe03b77396f9ec9604a076fee5671d51"
+    url: "https://dir.texas.gov/sites/default/files/2021-09/Videoconferencing%20Standards.pdf"
+    format: pdf
+    citation: "DIR Videoconferencing Standards, September 7, 2021"
+    title: "Videoconferencing Standards"
+    doc_type: standard
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [digital-services]
+    recheck: monthly
+    identity_text: "Videoconferencing"
+    found_via: "https://dir.texas.gov/resource-library (type Guidelines, titled 'Videoconferencing Guidelines')"
+    why_relevant: "The minimum technical standards (bandwidth, cameras, audio, high-definition and non-high-definition video) that governmental bodies' videoconference meetings must meet, set by DIR as Government Code 551.127(i) requires for meetings held by videoconference under the Open Meetings Act. Binds state and local governmental bodies; borderline as IT governance (OWNER DECISION). The library row is titled Guidelines and the file Standards; no newer version is listed."
+
+  # ---- Administrative Code: stubs. The Secretary of State's rule portal serves a script shell (measured below).
+  - id: tx-tac-1-202
+    sha256: ""
+    url: "https://texas-sos.appianportalsgov.com/rules-and-meetings?chapter=202&interface=VIEW_TAC&part=10&title=1"
+    format: html
+    citation: "1 TAC chapter 202"
+    title: "Chapter 202. Information Security Standards"
+    doc_type: rule
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "The only official source of the codified text is the Secretary of State's Texas Administrative Code portal, which DIR's own page (https://dir.texas.gov/texas-administrative-code-202) links for this chapter. The Fetcher got HTTP 200 and 2,530 bytes: an empty script shell (<div id=\"content\"></div> and a script bundle), no rule text; the text exists only behind the portal's own JavaScript API, which is not a page a visitor's link points to and is not called. The old texreg.sos.state.tx.us viewer answers 'Site Has Moved'. Texas Register adoption notices carry only the sections adopted, not the codified chapter. The Texas Register's June 26, 2026 transferred-rules notice (https://www.sos.state.tx.us/texreg/archive/June262026/Transferred%20Rules/202602468-1.pdf, read) shows this chapter moving from Part 10 (DIR) to Title 1 Part 19 (Texas Cyber Command) as Chapter 477, sections renumbered 477.1 to 477.77; its effective date was not read (the notice's own page was refused by the Fetcher). Chapter 202 is what DIR's catalog and security pages cite; it prints the sections 202.1 to 202.5, 202.20 to 202.27 and 202.70 to 202.77."
+    why_relevant: "DIR's information security standards for state agencies and institutions of higher education (the agency head, ISO and staff duties, security reporting, the agency information security program, the Security Control Standards Catalog, TX-RAMP). The standards catalog seeded above is its required control set."
+  - id: tx-tac-1-219
+    sha256: ""
+    url: "https://texas-sos.appianportalsgov.com/rules-and-meetings?chapter=219&interface=VIEW_TAC&part=10&title=1"
+    format: html
+    citation: "1 TAC chapter 219"
+    title: "Chapter 219. Artificial Intelligence"
+    doc_type: rule
+    jurisdiction: texas
+    issuing_body: Texas Department of Information Resources
+    tags: [ai]
+    recheck: monthly
+    stub: true
+    stub_reason: "DIR's AI and Innovation page links this chapter as 'AI Code of Ethics' (and its AI templates page as 'TAC 219', the code of ethics and minimum standards under Government Code 2054.702 and 2054.703); DIR's AI Acceptable Use Policy cites 'Texas Administrative Code, Title 1, Chapter 219 (\"Artificial Intelligence\")'. The portal page is the same empty script shell as for chapter 202 (HTTP 200, 2,530 bytes, no rule text), and the text is reachable only through the portal's JavaScript API. The chapter's sections and adoption were not found in any static official page."
+    why_relevant: "DIR's AI system code of ethics and minimum risk management and governance standards for heightened scrutiny AI systems, which Government Code 2054.702 and 2054.703 require state agencies to adopt."
+
+  # ---- Index and program pages, watched
+  - id: tx-watch-dir-resource-library
+    sha256: ""
+    url: "https://dir.texas.gov/resource-library"
+    format: html
+    citation: "DIR Resource Library"
+    title: "DIR Resource Library (1,367 resources on 2026-11-11, newest listed first)"
+    doc_type: policy
+    jurisdiction: texas
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The statewide index of DIR policies, standards, guidelines, reports, forms and templates; it shows 20 rows a page, so the watch sees additions to the front of the list."
+  - id: tx-watch-dir-library-policy
+    sha256: ""
+    url: "https://dir.texas.gov/resource-library?field_item_type_target_id%5B25%5D=25"
+    format: html
+    citation: "DIR Resource Library, type Policy"
+    title: "DIR Resource Library filtered to type Policy (156 rows on 2026-11-11)"
+    doc_type: policy
+    jurisdiction: texas
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The library's Policy filter, the visitor's own filter form (GET). Mostly contracts; the true policies in it are seeded."
+  - id: tx-watch-dir-library-guidelines
+    sha256: ""
+    url: "https://dir.texas.gov/resource-library?field_item_type_target_id%5B36%5D=36"
+    format: html
+    citation: "DIR Resource Library, type Guidelines"
+    title: "DIR Resource Library filtered to type Guidelines (57 rows on 2026-11-11)"
+    doc_type: standard
+    jurisdiction: texas
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The library's Guidelines filter, where the Security Control Standards Catalog, the TX-RAMP manual and the videoconferencing standards sit."
+  - id: tx-watch-dir-library-security
+    sha256: ""
+    url: "https://dir.texas.gov/resource-library?field_item_type_target_id%5B151%5D=151"
+    format: html
+    citation: "DIR Resource Library, type security"
+    title: "DIR Resource Library filtered to type security (1 row on 2026-11-11)"
+    doc_type: standard
+    jurisdiction: texas
+    tags: [cybersecurity]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The library's 'security' type, currently the cybersecurity training certification standards."
+  - id: tx-watch-dir-tac-202
+    sha256: ""
+    url: "https://dir.texas.gov/texas-administrative-code-202"
+    format: html
+    citation: "DIR page: Texas Administrative Code Chapter 202"
+    title: "DIR: Texas Administrative Code Chapter 202"
+    doc_type: rule
+    jurisdiction: texas
+    tags: [cybersecurity]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "DIR's page on 1 TAC 202 and its resources (the Security Control Standards Catalog and the Control Crosswalk); where a move of the chapter to the Texas Cyber Command would show."
+  - id: tx-watch-dir-prohibited-technologies
+    sha256: ""
+    url: "https://dir.texas.gov/information-security/covered-applications-and-prohibited-technologies"
+    format: html
+    citation: "DIR page: Covered Applications and Prohibited Technologies"
+    title: "DIR: Covered Applications and Prohibited Technologies"
+    doc_type: policy
+    jurisdiction: texas
+    tags: [cybersecurity, ai]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Carries the prohibited software and hardware lists (last updated February 4, 2026), the Statewide Security Plan and the model covered-applications policy. The lists are page content with no document of their own."
+  - id: tx-watch-dir-ai-templates
+    sha256: ""
+    url: "https://dir.texas.gov/ai-templates-and-resources"
+    format: html
+    citation: "DIR page: AI Templates and Resources"
+    title: "DIR: AI Templates and Resources"
+    doc_type: policy
+    jurisdiction: texas
+    tags: [ai]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Links the AI code of ethics (1 TAC 219), the standardized AI notice template and the AI Acceptable Use Policy; where new AI instruments would appear."
+
+left_out:
+- text: '---- Texas: found and left out (each was seen on an official page on 2026-11-11; the reason is recorded here)'
+- text: |-
+    DIR resource library: all 1,367 rows were read (visitor filter forms and the pager, through the Fetcher; the 'All' page size answered HTTP 503, so rows were read by type filter and 28 pages of 50, and the two lists agree at 1,367).
+    Filter applied: an instrument is a policy, standard or program manual that DIR (or the state under statute) directs at state agencies, in force, a document of its own. Rows by library type, and what was left out of each:
+     - Form, 464 rows: forms, vendor and customer interlocal contract forms, bulk purchase forms; not instruments.
+     - Report/Presentation, 357 rows: board agendas and minutes, legislative and statutory reports, webinar slides, conference decks, the strategic plan. Not instruments. Two are directive in tone and borderline, OWNER DECISION: '2026 Agency Risk Assessment Methodology and Remediation Plan Requirements' (September 2026, the method for the IRDR and the remediation plans Gov't Code 2054.068 and 2054.0965 require) and 'Data Ethics in Data Management' (a guide).
+     - Policy, 156 rows, of which 3 are seeded: 105 interlocal and customer contracts with named public entities (DIR-TSO-IC series and TSDEC data-center agreements), 32 bulk purchase agreements, ITSAC pricing and statements of work, 7 committee bylaws (SACC, SAIAF subcommittees), and 9 others: DIR Ethics Policy and DIR Leave Administration Policy (DIR's internal personnel rules, not IT), 'Texas Cybersecurity Council Charter' (v8.0, July 2021, the charter of an advisory body), 'Software Currency Policy' (a .docx whose first page reads 'This template is not a guideline for action at your agency'), a data use agreement FAQ, a browser list, an exhibitor kit, a data management learning guide and a conversion template. The 'Software Currency Policy' template and the 'Acceptable Use of the Internet Policy' (a 2015 'Guidelines for State Agencies and Institutions of Higher Education', listed under Guidelines) are the two the title names as policy; both are guidance for agencies to write their own, left out as templates and guidelines (OWNER DECISION).
+     - Tool/Template, 133 rows: templates, checklists and workbooks, including 'Model State Agency Policy for Preventing Use of Prohibited Technology' (Jan. 2023) and 'Model Policy for Preventing Use of Prohibited Technology and Covered Applications' (Sept. 2024), models for agencies to adopt (Gov't Code 620.003): left out as templates; OWNER DECISION.
+     - No type shown, 85 rows, of which 2 (one file) are seeded: board agendas and minutes, flyers, AI training videos, bulk purchase agreements, the 2026 information security plan template, quick start guides, the 'TEXAS GRANT MANAGEMENT STANDARDS' reader (a grants guide).
+     - Guidelines, 57 rows, of which 3 are seeded: guides and instructions (IRCAP and IRDR instructions and FAQs, strategic plan quick reference, data classification guide v1.1 (2018), lease versus purchase, PC life cycle, legacy modernization guide, MFA best practices, cloud services guide, incident response redbook, UETA guidelines, Project Delivery Framework Reference Guides of 2021 and 2023, Prohibited Technologies Exception Request Guide, Web Modernization Best Practice Standards (Feb. 2026, best practices under Gov't Code 2054.652), the Texas Cybersecurity Framework controls and definitions (42 control objectives; DIR's TCF page says the framework is used 'without placing additional regulatory requirements on agencies'), superseded TX-RAMP manual 1.0 and baselines, and 'Videoconferencing Guidelines' which is seeded). OWNER DECISION on whether the Project Delivery Framework Reference Guide (the framework Gov't Code 2054 subchapter J requires) is an instrument.
+     - Training 43, User Guide 39, News/Events 25, Standard Operating Procedure 4, CPO 3: training decks and instructions, portal user guides, agendas and flyers, PM essentials, three bulk purchase agreements; not instruments. Older fiscal-year certification standards (FY 20-21 to FY 24-25) are superseded by the FY 26-27 files seeded.
+     - 'AI Notice' (https://dir.texas.gov/resource-library-item/ai-notice) and 'AI System Facts' (DASH chatbot): DIR's own notice and sample of the standardized notice under Gov't Code 2054.711, a filled-in form.
+- text: |-
+    Administrative rules (1 TAC, Part 10, Department of Information Resources): the Texas Administrative Code has no static official source (see the stubs above), so no rule is a document. Chapters seen in bytes: 202 and 219 (stubbed); Chapter 213, Electronic and Information Resources (the June 12, 2026 Texas Register adoption, https://www.sos.state.tx.us/texreg/archive/June122026/Adopted%20Rules/1.ADMINISTRATION.html, shows new rules, amendments and repeals to 213.4, 213.11 to 213.22, 213.31 to 213.42 and carries only those sections; no static page serves the whole chapter, and no official link to a portal page for it was fetched, so it is not stubbed). OWNER DECISION: chapters 206 (state websites), 209 (videoconference meetings), 211 (information resources managers) and others of Part 10 were named only in a web search, not in any byte fetched from an official site, so they are not seeded; a reviewer with the portal can add them as stubs. If the move of chapter 202 to Part 19 of Title 1 as chapter 477 is in force, the stub should be renamed.
+- text: |-
+    Executive orders: none seeded. The Governor's executive order list (https://gov.texas.gov/news/category/executive-order) is script-rendered: the page (90,814 bytes, HTTP 200) carries no list items, and the site's RSS feed (https://gov.texas.gov/news/rss) holds only the newest ten news items. No numbered executive order on state IT, cybersecurity, data or AI could be confirmed in bytes. What was found, from DIR's prohibited technologies page and the three Governor news posts it links (all read): the Governor's December 7, 2022 directive to state agencies banning TikTok and other prohibited technologies, the January 31, 2025 proclamation banning PRC-affiliated AI and social media apps on government-issued devices (a PDF named PROC_..._IMAGE, an image file; not fetched), and the January 2026 update naming the Texas Cyber Command and the model security plan. These are directives and proclamations rather than numbered executive orders; DIR's Statewide Security Plan, which implements the December 2022 directive, is seeded. OWNER DECISION whether the proclamation and the directive enter, and the executive order index could not be watched because it holds no list in the page.
+- text: |-
+    Statutes not seeded:
+     - Government Code ch. 2060 (Interagency Data Transparency Commission): a study commission whose final report was due September 1, 2016; spent.
+     - Government Code ch. 2275 (contracts with certain foreign-owned companies in connection with critical infrastructure) and ch. 2274 (firearm and ammunition industry contract clauses): contracting restrictions with no IT subject.
+     - Business and Commerce Code ch. 521 (Identity Theft Enforcement and Protection Act): the duty to protect sensitive personal information and the breach-notice duty bind a 'business' and 'person who conducts business'; the only mention of a governmental entity is as a recipient of a copy of a court order declaring someone a victim of identity theft (subchapter C), not as an obligated party. State agency incident reporting is in Gov't Code 2063.302, seeded. 
+     - Government Code ch. 2056 (strategic plans of operation), ch. 2051 and 2052 (government documents, publications and notices; state agency reports), ch. 2053 (report by the Governor on organization and efficiency), ch. 2058 (recognition of federal census), ch. 2170 to 2172 (telecommunications services; travel and vehicle fleet; miscellaneous comptroller services): read at their chapter pages and left out as budget, records, publication, telecom or general-services law with no IT-governance subject (telecommunications is out of scope in domain.yml). The Public Information Act (ch. 552) and the general procurement chapters were not examined; section-level slicing of non-IT chapters is an OWNER DECISION, as for the other states.
+     - Private-sector AI and privacy law is out of scope (domain.yml). Business and Commerce Code chapter 552 (seeded) is mixed: its governmental entity provisions are the reason it is in; its provisions on any 'person' (manipulation of human behavior, unlawful discrimination, sexually explicit content, the attorney general's enforcement, the sandbox of 'persons') ride along. OWNER DECISION.
+     - Gov't Code ch. 2054 sections on telecommunications planning (subchapter H) ride along in the seeded chapter.
+- text: |-
+    Other DIR program pages read and not seeded: https://dir.texas.gov/information-security/security-policy-and-planning (links the TAC 202 page, the Texas Cybersecurity Framework, TX-RAMP, the Biennial Information Security Plan, SPECTRIM, GRC, the Cybersecurity Council and its charter), https://dir.texas.gov/ai-and-innovation, https://dir.texas.gov/information-security/security-policy-and-planning/texas-cybersecurity-framework, https://dir.texas.gov/information-security/texas-risk-and-authorization-management-program-tx-ramp (its listed 'TX-RAMP Program Manual' item is the version 4.0 file seeded; the page links the TX-RAMP certified products list, requirements and FAQs as pages and files that are guidance or lists). https://dir.texas.gov/technology-legislation and https://dir.texas.gov/strategic-planning-and-reporting: lists of bills and reports, not instruments. The 'Control Crosswalk' (a mapping of the catalog to other control sets) is a reference table, not an instrument.

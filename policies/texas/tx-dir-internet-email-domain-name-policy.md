@@ -1,0 +1,256 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: texas
+id: tx-dir-internet-email-domain-name-policy
+title: Internet and Email Domain Name Management Policy
+doc_type: policy
+citation: DIR Internet and Email Domain Name Management Policy
+authority_level: ''
+issuing_body: Texas Department of Information Resources
+source_url: https://dir.texas.gov/sites/default/files/2024-08/Internet%20and%20Email%20Domain%20Name%20Management%20Policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: cdcbfe989bb0cd0d166a36d95e41da04d20bc3883c96f5a1ae36866672d664f6
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Internet and Email Domain Name Management Policy (DIR Internet and Email Domain Name Management Policy)
+
+## At a glance
+
+Statewide policy for the registration, naming and authorization of texas.gov and state-agency domain names and email domains, the .gov exception process, and the CIO's authorization role. Applies to Texas state agencies.
+
+## Full text
+
+                        Internet and Email Domain Name
+                        Management Policy
+Updated August 2024
+
+Purpose
+The purpose of the Internet and Email Domain Name Management policy is to provide guidance
+regarding Internet domain management, registration, and naming to ensure uniformity across
+Texas state agencies.
+
+The Texas Department of Information Resources (DIR), on behalf of the State of Texas, provides
+management, registration, and authorization for the use of texas.gov and state.tx.us domain
+names. Additionally, the state’s Chief Information Officer (CIO) provides authorization to eligible
+entities seeking a .gov domain name in Texas.
+
+DIR manages the state.tx.us domain name in conformance with Internet technical document
+Request for Comment (RFC) 1480, which prescribes conventions for naming Internet domains
+for state governments, counties, cities, libraries, and other entities located in the United States.
+Since 2002, the .us domain is available for any U.S. entity to purchase and is no longer limited to
+government entities.
+
+DIR manages the texas.gov domain name in accordance with the authority and naming
+convention provided to states in Federal Management Regulation (FMR) 41 CFR part 102─173.
+Section 102─173.35 authorizes states’ CIOs to approve the use of the .gov domain. Because the
+.gov Domain Naming System structure is exclusive to government use, public trust and citizen
+confidence will be strengthened in the knowledge that they are using an official Texas
+government website when accessing a texas.gov site.
+
+Scope
+This policy provides information regarding the management and registration of Internet
+domains and sets forth criteria for establishing public-facing domain names. This policy applies
+to Texas state agencies, as defined in Texas Administrative Code Section 206.3, counties and
+municipalities, as defined in Texas Local Government Code Section 71.001 and Texas Local
+Government Code Section 1.005 respectively.
+
+State Agencies
+Texas.gov has been designated as the primary, outwardly facing domain name for Texas
+government entities. Texas state agencies are strongly recommended to migrate to
+[agencyacronym].texas.gov within a fiscally responsible and practical time frame.
+
+DIR, on behalf of the State of Texas, provides the authorization, management, and registration
+of the tx.gov, texas.gov, and state.tx.us domain names in accordance with DIR administrative
+rule and policy. DIR authorizes eligible entities’ requests for .gov domain names in accordance
+with FMR 41 CFR part 102–173.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR           Page 1
+
+The State of Texas, effective with the adoption date of this policy, will not issue any new
+state.tx.us domain names to state agencies.
+
+DIR is committed to continuing support for the .tx.us domain name for other Texas government
+entities, registration for councils of government, and other eligible jurisdictions that currently
+use or elect to acquire and use the naming convention
+[jurisdictionacronym].[jursidictionname].tx.us.
+
+Institutions of Higher Education
+Based on RFC 1480, Texas Institutions of Higher Education should continue using the .edu
+domain.
+
+Counties, Municipalities, and Local Government Entities
+The texas.gov domain is available for counties and municipalities in Texas. Use of the texas.gov
+domain convention by county or municipal governments is voluntary. Government entities with
+pre-existing domain names utilizing .com, .org, or other top-level domain names, traditionally
+used by non-governmental entities, should evaluate the domain names for their benefit, risk,
+and cost.
+
+.GOV
+The Cybersecurity and Infrastructure Security Agency (CISA) manages the registration services
+for the .gov domain throughout the U.S. The Texas CIO must authorize the request for any Texas
+agency.gov domain and registration with CISA.
+
+Policy
+Management
+DIR provides Domain Name Registration services within the texas.gov and state.tx.us domains
+for Texas state agencies and within the state.tx.us domain for other Texas government entities.
+
+Registration services are provided at no cost to these organizations. DIR is responsible for
+authorizing and delegating third-level domains for texas.gov and fourth-level domains for
+state.tx.us.
+
+Registration
+Upon request by a state agency or county or municipal government, DIR will review the
+requested domain name. If approved, DIR will authorize and delegate the requested domain
+name to serve as the third-level domain name for the texas.gov identifier. State agency
+management of sub-domains must comply with State of Texas website standards (1 Texas
+Administrative Code 206) and applicable email standards. If an agency determines a second-
+level .gov domain is necessary for the proper performance of an agency function, the head of
+the agency must submit a request with justification for the .gov domain to DIR. CISA requires
+the authorization of the Texas CIO prior to the issuance of a .gov domain.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR              Page 2
+
+Eligibility Period
+A texas.gov domain name in conformance with the Domain Naming Convention in this policy
+will be registered for an indefinite term. Domain Names that are authorized but are in exception
+to the specified Domain Naming Convention are subject to periodic review.
+
+All agencies should periodically contact the registrar at Registrar@dir.texas.gov to update
+administrative information or other information pertinent to the continued authorization of the
+domain name. This information enables DIR to ensure the texas.gov domain provides secure,
+official websites and promote the best possible service to Texas citizens.
+
+Domain Naming Convention
+For state agencies within the texas.gov domain, the standard agency designation must be its
+agency acronym, shown as [agencyacronym].texas.gov. Use of the agency name in lieu of the
+agency acronym may be considered provided the terminology is singularly unique to the agency
+and is recognizable by the public.
+
+For Texas counties requesting the texas.gov domain, the registration must follow the naming
+standard: name of county followed by county.texas.gov (e.g., dallascounty.texas.gov,
+tomgreencounty.texas.gov).
+
+For municipalities requesting the texas.gov domain, the registration must follow the naming
+standard: [nameofcity].texas.gov.
+
+Domain Naming Convention Exceptions
+Domain names that do not meet the prescribed Domain Naming Convention —
+[agencyacronym].texas.gov or [agencyname].texas.gov — are considered exceptions to the
+policy. General terms such as “recreation,” “benefits,” or “eligibility” without a unique agency
+identifier are considered exceptions because they do not meet the policy naming convention
+and do not singularly represent a specific agency/program origin or service.
+
+An agency head or designee must approve the agency’s request for a domain name that is an
+exception to the specified naming convention. An exception request must acknowledge that the
+requested domain name is not in conformance with the policy and the requestor must provide
+the name of the agency head or designee who has approved the request. DIR consideration of
+an exception request will adhere to the Domain Name Exception Request Process.
+
+No exceptions will be made for local government entities.
+
+If an exception is approved, the agency must follow the same registration process for all domain
+names available on the DIR website.
+
+Electronic Mail (email) Naming Convention
+As agencies migrate to the texas.gov domain, it is expected that agency email addresses will
+also be migrated to the texas.gov domain naming convention. The recommended personal
+naming convention for email is [firstname.lastname]@[agencyacronym].texas.gov.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR           Page 3
+
+Definitions and Acronyms
+Domain
+A region of jurisdiction on the Internet for naming assignment. DIR is responsible for
+registrations in the texas.gov and state.tx.us domains for state agencies and other Texas
+government entities. The Cybersecurity and Infrastructure Security Agency is responsible for
+registrations in the .gov domain.
+
+Domain Name
+A name assigned to an Internet server that locates the organization or entity on the Internet.
+Internet Domain Name servers have registries of Internet Protocol (IP) address numbers that
+relate to the readable text name.
+
+Domain Name System (DNS)
+The Domain Name System helps users find their way around the Internet. It translates domain
+names into the numerical (binary) identifiers associated with networking equipment for the
+purpose of locating and addressing these devices worldwide.
+
+.gov
+This refers to the subscript of those domains ending with .gov. The .gov domain hosts only
+official, government sites at the federal-, state- and local-government levels, including federally
+recognized Indian tribes, known as Native Sovereign Nations. The .gov domain provides the
+official and trusted Internet presence for these government entities.
+
+Registrar
+An organization that manages and reserves Internet domain names in accordance with the
+guidelines of the designated domain name registries (accredited by the Internet Corporation for
+Assigned Names and Numbers (ICANN) or national country code top-level domain (ccTLD)
+authority). The Registrar is responsible for maintaining domain name record information about
+each domain name and managing registration, expiration, re-registration, and the fee collection
+processes.
+
+Second-level, third-level, and subdomains
+The domain name system is designed as a hierarchy. The root is the highest level of the
+hierarchy, followed by the top-level domain, followed by the second-level domain, then the
+third-level domain. For example, for the domain “agency.texas.gov,” “agency” is the third-level
+domain, “texas” is the second-level domain, “gov” is the top-level domain, and the “.” is the
+root. Within the hierarchy, sub-domains exist at any level below the top-level domain.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR           Page 4
+
+References
+• Internet Corporation for Assigned Names and Numbers (ICANN)
+
+• Texas Government Code, Section 2054.051 (General Duties of DIR)
+
+• Texas Administrative Code, Title 1, Chapter 206 (State Web Sites)
+
+• .gov Registry (Managed by CISA)
+
+• RFC 1480
+
+• 41 CFR Part 102–173
+
+• DIR Domain Name Exception Process
+
+• Texas.gov Domain Name Registration Form
+
+Version History
+Version 1.4 – August 23, 2024 – Updated links and references.
+
+Version 1.3 – August 30, 2017 – Policy amended to authorize municipal domain registration.
+
+Version 1.2 – March 17, 2015 – Updated links and references.
+
+Version 1.1 – August 26, 2014 – Policy amended to authorize county domain registration.
+
+Version 1.0 – November 24, 2010 – Policy adopted; replaces SRRPUB07 and SRRPUB10.
+
+Texas Department of Information Resources | dir.texas.gov | #DIRisIT | @TexasDIR      Page 5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
