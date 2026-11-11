@@ -2743,3 +2743,200 @@ sources:
     recheck: monthly
     watch_only: true
     why_relevant: "Section list of the enabling chapter; the chapter text itself is the document above."
+
+  # ==== Colorado (seed list proposed 2026-11-10/11; every statute entry below was read in the fetched title files) ====
+  #
+  # ---- Statutes: Colorado Revised Statutes 2026, the official title files of the Office of Legislative Legal
+  # ---- Services (https://olls.info/crs/). The source is ONE Word-HTML file per title (Title 24 is 22 MB), so each
+  # ---- entry is a slice of it: `slice: {article: n}` or `{article: n, part: m}` (crs_html_to_text in src/ingest.py).
+  # ---- Entries cut from one title file share its url on purpose; the seed check keys uniqueness on url plus slice.
+  - id: co-crs-24-37-5
+    url: https://olls.info/crs/crs2026-title-24.htm
+    format: html
+    citation: "C.R.S. title 24, article 37.5"
+    title: "Office of Information Technology"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [governance, oversight, funding, procurement, cybersecurity, data, digital-services, cloud-resilience]
+    recheck: monthly
+    slice: {article: "37.5"}
+    why_relevant: "The enabling statute of the Governor's Office of Information Technology (OIT) and its chief information officer: creation of the office and the information technology revolving fund (24-37.5-103), the office's roles and its duty to establish, maintain and enforce information technology oversight and standards (24-37.5-105), state agency responsibilities (24-37.5-105.2), the CIO's duties and rulemaking power (24-37.5-106), the information security part (part 4: chief information security officer, agency information security plans, security incidents), the interdepartmental data protocol and government data advisory board (part 7), asset inventory, budget request and technical debt reports (part 8). The source file serves the whole article, so the Colorado broadband office (part 9, out of scope) comes with it, as the broadband sections came with ORS chapter 276A."
+  - id: co-crs-24-37-7
+    url: https://olls.info/crs/crs2026-title-24.htm
+    format: html
+    citation: "C.R.S. title 24, article 37.7"
+    title: "Statewide Internet Portal Authority"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [digital-services, governance]
+    recheck: monthly
+    slice: {article: "37.7"}
+    why_relevant: "Creates the statewide internet portal authority and sets its mission: the officially recognized statewide internet portal giving the public, state agencies and local governments one-stop electronic access to information, products and services (24-37.7-105)."
+  - id: co-crs-24-33-5-pt19
+    url: https://olls.info/crs/crs2026-title-24.htm
+    format: html
+    citation: "C.R.S. title 24, article 33.5, part 19"
+    title: "Colorado Cybersecurity"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    slice: {article: "33.5", part: "19"}
+    why_relevant: "Creates the Colorado cybersecurity council within the Department of Public Safety, as a steering group developing cybersecurity policy guidance for the Governor and a whole-of-state cybersecurity approach for the state and local governments (24-33.5-1902), and the cyber operation center, cybersecurity education and research provisions and cybersecurity cash fund (24-33.5-1903 to 1906)."
+  - id: co-crs-24-73
+    url: https://olls.info/crs/crs2026-title-24.htm
+    format: html
+    citation: "C.R.S. title 24, article 73"
+    title: "Security Breaches and Personal Information"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [data, cybersecurity]
+    recheck: monthly
+    slice: {article: "73"}
+    why_relevant: "Duties of every governmental entity that holds personal identifying information: a written disposal policy (24-73-101), reasonable security procedures and practices, including for third-party service providers (24-73-102), and notification of a security breach (24-73-103). A governmental entity is the state and any state agency or institution, and local governments (24-73-101 (4)(a))."
+  - id: co-crs-24-74
+    url: https://olls.info/crs/crs2026-title-24.htm
+    format: html
+    citation: "C.R.S. title 24, article 74"
+    title: "Protection of Personal Identifying Information"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [data]
+    recheck: monthly
+    slice: {article: "74"}
+    why_relevant: "Limits on how state agencies and political subdivisions share personal identifying information, an instruction to reduce the personal identifying information they collect, limits on access to their records, and a civil penalty for data privacy breaches (24-74-103 to 24-74-107). Government-held data privacy; the legislative declaration ties it to the enforcement of federal immigration law."
+  - id: co-crs-24-85
+    url: https://olls.info/crs/crs2026-title-24.htm
+    format: html
+    citation: "C.R.S. title 24, article 85"
+    title: "Information Technology Access for Individuals Who are Blind or Visually Impaired"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [digital-services, procurement]
+    recheck: monthly
+    slice: {article: "85"}
+    why_relevant: "State information technology accessibility: accessibility standards for individuals with a disability (24-85-103) and accessibility criteria and contract terms in the procurement of information technology (24-85-104)."
+  - id: co-crs-2-3-pt17
+    url: https://olls.info/crs/crs2026-title-02.htm
+    format: html
+    citation: "C.R.S. title 2, article 3, part 17"
+    title: "Joint Technology Committee"
+    doc_type: statute
+    jurisdiction: colorado
+    issuing_body: "Colorado General Assembly; published by the Office of Legislative Legal Services"
+    tags: [oversight, governance, ai]
+    recheck: monthly
+    slice: {article: "3", part: "17"}
+    why_relevant: "The legislature's Joint Technology Committee, which oversees the Office of Information Technology and the chief information security officer (2-3-1704), and the artificial intelligence impact task force (2-3-1707). Included for the oversight of executive-branch IT; the committee itself is a legislative body."
+
+  # ---- Colorado stubs: OIT policy instruments (no document file; oit.colorado.gov refuses the fetch)
+  # oit.colorado.gov answered HTTP 403 (a CloudFront error page, 919 bytes) to the toolkit's Fetcher with its shipped
+  # User-Agent and to plain curl on 2026-11-10/11, for every path tried: the home page, the technical standards and
+  # policies library, robots.txt, sitemap.xml, a policy PDF path and the AI guide. So the library could not be
+  # listed, and no title, date or link below was read on an OIT page. The two stubs exist because the Legislative
+  # Audit Committee's audit 2551P-IT and OIT's GenAI project list, both fetched from content.leg.colorado.gov, name
+  # the instruments. Per-policy stubs for the four CISPs and for the rest of the library are NOT created: their
+  # titles and numbers could not be confirmed at an official page fetched tonight.
+  - id: co-oit-cisp-2025
+    url: https://oit.colorado.gov/standards-policies-guides/technical-standards-policies
+    format: html
+    citation: "Colorado Information Security Policies (CISPs), November 2025 set"
+    title: "Colorado Information Security Policies (CISPs), November 2025 set"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology, Office of Information Security"
+    tags: [cybersecurity, governance, data]
+    recheck: monthly
+    stub: true
+    stub_reason: "oit.colorado.gov returns HTTP 403 to the toolkit's Fetcher (honest User-Agent) and to plain curl; the url is the library page named by a web search result and by docs/research/02 (blocked there too), not a page read tonight. Identity comes from the Legislative Audit Committee's January 2026 audit 2551P-IT (https://content.leg.colorado.gov/sites/default/files/documents/audits/2551P-IT_Cybersecurity_Resiliency_PUBLIC.pdf, fetched): 'OIT issued updated CISPs, effective November 2025 and enforceable July 2026. OIT consolidated the 16 December 2024 CISPs down to four (4) CISPs that make up the November 2025 CISPs.' The four titles and numbers are not confirmed at an official page. Also see C.R.S. 24-37.5-403 (2)(b): the chief information security officer 'shall promulgate rules' containing information security policies, so these may also exist in the Code of Colorado Regulations (not reachable, see the left-out notes)."
+    why_relevant: "The State's information security policies, which under 24-37.5-403 are issued for public agencies and, per the audit, apply to OIT, public agencies and vendors. Replaced the 16 December 2024 CISPs; the audit calls the earlier set the one in force during its audit."
+  - id: co-oit-genai-policy
+    url: https://oit.colorado.gov/standards-policies-guides/guide-to-artificial-intelligence/statewide-genai-agency-responsibilities
+    format: html
+    citation: "Statewide GenAI Policy"
+    title: "Statewide GenAI Policy"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [ai, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "oit.colorado.gov returns HTTP 403 to the toolkit's Fetcher and to plain curl. The url is an OIT page about the policy named by a web search result, not read tonight, and may not be the policy document itself. Identity comes from OIT's 'GenAI Projects by Agency' list (https://content.leg.colorado.gov/sites/default/files/2025-12/OIT-GenAI%20Projects.pdf, fetched), which says 'The state policy specifically covers Generative AI (GenAI)' and 'DOC is enforcing the Statewide GenAI Policy with staff; GenAI used by state agencies may assist a human reviewer'. Its date, number and title as printed by OIT are unconfirmed."
+    why_relevant: "The Colorado instrument that governs state agency use of generative AI (agency intake, OIT risk assessment). There is no Colorado statute on government use of AI (see the left-out notes), so this policy is the AI instrument for state agencies."
+
+  # ---- Colorado found and left out (the reason is recorded here)
+  #
+  # What could not be reached on 2026-11-10/11, and so was not seeded:
+  #  - The Governor's executive orders. governor.colorado.gov timed out on every request (connection refused for
+  #    WebFetch, no answer for the Fetcher and curl); www.colorado.gov/governor, governorsoffice.colorado.gov and
+  #    cdn.colorado.gov answered 403. No Colorado executive order could be read, so none is seeded. A web search found
+  #    no Polis order on IT, AI or cybersecurity that is clearly in force (the orders it found were election-specific
+  #    National Guard activations and the 2025 call for a special session on the AI act). UNVERIFIED either way.
+  #  - Administrative rules (Code of Colorado Regulations). www.sos.state.co.us/CCR and www.coloradosos.gov/CCR answer
+  #    HTTP 500 with a Cloudflare challenge script to every request (Welcome.do, NumericalDeptList.do,
+  #    DeptAgencyList.do); the SOS home page and the CCR home page (/pubs/CCR/CCRHome.html) load. So the rule set
+  #    could not be listed. The statute says rules exist or may exist: 24-37.5-106 (4) (the CIO 'may promulgate as rules'
+  #    the policies and standards developed under 24-37.5-105 (4), and rules establishing accessibility standards),
+  #    24-37.5-403 (2)(b) (the CISO 'shall promulgate rules' containing information security policies) and
+  #    24-85-103. docs/research/02 section 3 names '8 CCR 1501' as the OIT rules (a lead, NOT confirmed: not
+  #    fetched). OWNER DECISION: retry the CCR from an environment the SOS site accepts.
+  #  - The rest of the OIT technical standards and policies library (acceptable use, accessibility TS-OEA-xxx
+  #    standards, governance, project management policies, the Statewide GenAI guide and agency responsibilities).
+  #    docs/research/02 reports part of the set is employee-only (S, unconfirmed); the library page itself could not
+  #    be fetched. The two stubs above are the only items an official page I could read names.
+  #
+  # Statutes not seeded:
+  #  - C.R.S. 6-1-1701 to 6-1-1709 (Colorado Consumer Protection Act, part 17, artificial intelligence). In the
+  #    2026 edition the part exists twice: the SB 24-205 text 'effective until January 1, 2027' and the text SB 26-189
+  #    (signed; Session Laws 2026 ch. 131) 'repeals and reenacts' as 'effective January 1, 2027' (consequential
+  #    decisions on or after that date; sections 6-1-1704 (4), 6-1-1705 (3) and 6-1-1706 (6) take effect on passage).
+  #    Both bind a 'deployer' or 'developer', each a 'person doing business in' Colorado, and the part is enforced by
+  #    the attorney general through the Consumer Protection Act, whose 'person' definition (6-1-102 (18)) lists
+  #    individuals and business and legal entities and does not name the state or a state agency. Nothing in either
+  #    text names a state agency as an obligated party. Private-sector AI regulation is out of scope (domain.yml).
+  #    Whether a state agency can be a 'deployer' is a legal question; the owner decides. OWNER DECISION. If it
+  #    enters, both versions are in the one section range and the document must be read with its editor's notes.
+  #  - Other AI provisions found by searching every title of the 2026 CRS for 'artificial intelligence' and
+  #    'automated decision' (each hit read at its section): 10-16-112.7 (insurance utilization review), 12-245-224.5
+  #    and 25.5-1-209 (AI in psychotherapy; payment), 1-46-102 (AI-generated content in election communications),
+  #    13-21-1502 (a definition in civil liability law), 18-7-107 to 109 (intimate digital depictions), and mentions
+  #    inside 24-30-105 (statewide language access assessment, AI as one option to evaluate), 24-71.3-102 (Uniform
+  #    Electronic Transactions Act commentary), 16-3-313 and 16-18-106 (criminal procedure), 25-17-705 and 39-36-102:
+  #    private-sector, health, election, criminal or incidental. Colorado has no statute that sets rules for state
+  #    agency use of AI; the one government-use instrument found is the OIT policy stubbed above (2-3-1707, the AI
+  #    impact task force, is inside the seeded 2-3 part 17).
+  #  - Colorado Procurement Code (articles 101 to 112 of title 24) and 24-30-202: Oregon's and Washington's
+  #    procurement statutes were left out by owner decision; same here. OWNER DECISION.
+  #  - 24-30-209 (statewide financial and human resources information technology systems, billing, cash fund) and
+  #    24-75-302 (IT capital account of the capital construction fund): state budget and finance law with an IT
+  #    object; borderline funding provisions. OWNER DECISION.
+  #  - 24-72 (Colorado Open Records Act), 24-80 (state archives and records management), 24-71.3 (Uniform
+  #    Electronic Transactions Act), 24-71 (electronic signatures): general public-records, records and e-signature
+  #    law (Oregon and Washington left out their records-management rules). 24-74.1 (policies regarding data and
+  #    access): about immigration enforcement information at schools, health facilities and libraries.
+  #  - 24-37.5 parts 2, 3, 5 and 6 and many sections of part 1 are printed as (Repealed): not in force.
+  #  - 6-1-713, 6-1-713.5 and 6-1-1301 et seq. (private-sector data protection and the Colorado Privacy Act); 18-5.5
+  #    (cybercrime); 13-32-114 (judicial department IT fund; judicial branch IT is out of scope).
+  #  - Bills: no bill is seeded. SB 26-189 is enacted and appears only as the 2027 version of part 17 above.
+  #
+  # Compatibility note: the 2026 C.R.S. title files are the official OLLS files, current through the 2026 session
+  # (the download page says so). The Lexis viewer on leg.colorado.gov is a vendor application and was not used.
+
+  # ---- Colorado index pages to watch (additions and removals go through seed-list review)
+  - id: co-watch-crs-titles-download
+    url: https://leg.colorado.gov/agencies/office-legislative-legal-services/2026-crs-titles-download
+    format: html
+    citation: "2026 CRS Titles for Download"
+    title: "Office of Legislative Legal Services: 2026 CRS Titles for Download"
+    doc_type: statute
+    jurisdiction: colorado
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The page that lists the official title files (HTM, PDF, DOCX) the statute entries are cut from, 'current with the changes made ... at its Second Regular Session in 2026'. Its address carries the year, so the 2027 edition will be a new page: a missing page here means the seed urls (olls.info/crs/crs2026-title-nn.htm) need moving to the new edition."
