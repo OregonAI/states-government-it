@@ -22,6 +22,17 @@ jobs:
         _meta/snapshots
         _meta/templates
         docs/research
+        statutes
+        rules
+        executive-orders
+        policies
+        standards
+      # The five content folders are excluded because "## Full text" is the official text
+      # verbatim, including the links the state printed in it. Some of those are dead at the
+      # source (WaTech policies still link ocio.wa.gov pages that 404), and many state sites
+      # refuse automated clients. A dead link inside mirrored text is a fact about the source,
+      # not a defect a PR can fix; whether each document's own source URL still answers is
+      # the scheduled drift job's question.
       # docs/research is excluded because those files are dated findings that cite hundreds
       # of state sites, many of which refuse automated clients or have since moved. They
       # record what was observed; a per-PR gate on them would be red for reasons no PR caused.
@@ -57,7 +68,11 @@ jobs:
   # the template's (graph, STATUS.md, llms.txt are template-gates' job). The template itself
   # commits none, so this is the empty required check a new corpus fills in.
   generated:
-    runs-on: ubuntu-latest
+    # Pinned to 24.04, not ubuntu-latest: `ingest.py --check` re-derives PDF text with the
+    # system pdftotext, and its -layout output differs between poppler releases. The committed
+    # text was made with poppler-utils 24.02 (Ubuntu 24.04); on 26.04 (poppler 26.01) two
+    # documents re-derive differently and the check fails. Move this pin and re-ingest together.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -76,7 +91,8 @@ jobs:
       - run: python3 src/ingest.py --check
 
   unit-tests:
-    runs-on: ubuntu-latest
+    # Same poppler pin as `generated`, for the same reason.
+    runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
