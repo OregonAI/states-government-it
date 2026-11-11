@@ -424,3 +424,17 @@ def test_wa_statute_conversion_notes_describe_the_rcw_page_not_the_ors_page():
     notes = ing.conversion_notes(WA_CH, "html", "")
     assert "RCW" in notes and "section list" in notes and "history" in notes
     assert "whole chapter as one page" not in notes      # that sentence is about ORS
+
+
+def test_rcw_text_stops_before_the_page_footer():
+    for page in (RCW_CH, RCW_SEC):
+        t = ing.to_text(page, "html", "statute", "washington")
+        assert "Legislative Hotline" not in t and "TTY" not in t and "Disclaimer" not in t
+
+
+def test_ingestable_takes_every_state_unless_one_is_named():
+    oregon = {"id": "a", "jurisdiction": "oregon"}
+    wash = {"id": "b", "jurisdiction": "washington"}
+    stub = {"id": "c", "jurisdiction": "washington", "stub": True}
+    assert [ing.ingestable(s, None) for s in (oregon, wash, stub)] == [True, True, False]
+    assert [ing.ingestable(s, "washington") for s in (oregon, wash)] == [False, True]

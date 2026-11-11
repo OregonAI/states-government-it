@@ -1,8 +1,8 @@
 #!/usr/bin/env python3
 """The ingester for this corpus: official state sources in, documents at <type>/<state>/<id>.md out.
 
-  python3 src/ingest.py                    # every Oregon seed entry that is not a stub or watch-only
-  python3 src/ingest.py --state oregon     # the default, spelled out
+  python3 src/ingest.py                    # every seed entry (all states) that is not a stub or watch-only
+  python3 src/ingest.py --state washington # one state
   python3 src/ingest.py --refetch          # ignore cached snapshots
   python3 src/ingest.py --limit 3          # first three, while shaping it
   python3 src/ingest.py --check            # offline: committed text and documents are current
@@ -112,7 +112,8 @@ def rcw_html_to_text(raw: bytes) -> str:
     start = page.index(">", body_start) + 1               # after the opening tag
     region = page[start:] if chapter else page[start:end]
     if chapter:
-        region = region[:region.rfind("</span>") + 7] if "</span>" in region else region
+        foot = region.find('<div class="block-dark-green">')       # the Legislature's page footer
+        region = region[:foot] if foot >= 0 else region
         region = re.sub(r"<span>\s*<br>\s*<hr>", "\n\x00", region)
     head = [_clean_line(re.sub(r"<!--.*?-->|<[^>]+>", "", g)) for g in heads]
     region = re.sub(r"<!--.*?-->", "", region, flags=re.S)
@@ -294,8 +295,10 @@ def body_for(src: dict, text: str, notes: str, config=CONFIG) -> str:
             f"## Curator notes\n\n{notes}\n")
 
 
-def ingestable(src: dict, state: str) -> bool:
-    return (isinstance(src, dict) and src.get("jurisdiction") == state
+def ingestable(src: dict, state: str | None) -> bool:
+    """A seed entry that becomes a document: not a stub, not watch-only, in `state` (every state
+    when none is named, so `--check` in the gate covers every state's documents)."""
+    return (isinstance(src, dict) and (state is None or src.get("jurisdiction") == state)
             and not src.get("stub") and not src.get("watch_only"))
 
 
@@ -410,7 +413,7 @@ def run(sources, fetcher, refetch, config=CONFIG):
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.splitlines()[0])
-    ap.add_argument("--state", default="oregon")
+    ap.add_argument("--state", default=None, help="one state (default: every state in the seed list)")
     ap.add_argument("--refetch", action="store_true")
     ap.add_argument("--limit", type=int)
     ap.add_argument("--check", action="store_true",
