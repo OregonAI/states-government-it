@@ -82,7 +82,7 @@ def check_identity(src, text, what_is):
         ch = re.search(r"\bch\.\s*([\d.]+\w*)", src["citation"])
         sec = re.search(r"§\s*([\d.:\-]+\w*)", src["citation"])
         want = f"Chapter {ch.group(1)}." if ch else f"§ {sec.group(1)}." if sec else None
-        if not want or not first.startswith(want):
+        if not want or not first.startswith(want + " "):
             raise ValueError(f"{src['id']}: page is not {src['citation']} (it opens {first[:60]!r})")
         return True
     if src["doc_type"] == "executive_order":
@@ -117,6 +117,31 @@ def notes(src, fmt, text):
 _PLACEHOLDER_DATE = re.compile(r"Effective Date[^\n]*\n[^\n]{0,60}\b[A-Z][a-z]+ x,", re.M)
 
 
+_MONTH = "January|February|March|April|May|June|July|August|September|October|November|December"
+_LEFT_DATE = re.compile(rf"\b({_MONTH}) (\d{{1,2}}), (\d{{4}})\b")
+_NEXT_LABEL = re.compile(r"^(Supersedes|Compliance Date|Scheduled|Authority|Subject|Scope|Purpose)\b")
+
+
+def _left_column_date(text):
+    """The publication-designation table is two columns of text. The `Effective Date` label and its date sit in the
+    left column and the right column's paragraphs run between them (191 and 260 characters in CPM 110-05 and
+    SEC527-02), beyond the shared reader's window. Read the left-column cells below the label, in order, until
+    the next label, and take the first long date."""
+    lines = text.splitlines()
+    for i, line in enumerate(lines):
+        if not re.match(r"Effective Date\b", line.strip()) or line.startswith(" " * 4):
+            continue
+        for cell_line in lines[i + 1:i + 6]:
+            cell = re.split(r"\s{3,}", cell_line.strip())[0] if cell_line[:1] != " " else ""
+            if _NEXT_LABEL.match(cell):
+                break
+            if m := _LEFT_DATE.search(cell):
+                mon = _MONTH.split("|").index(m.group(1)) + 1
+                return f"{int(m.group(3)):04d}-{mon:02d}-{int(m.group(2)):02d}"
+        return None
+    return None
+
+
 def effective_date(text, doc_type):
     """ITRM documents print an `Effective Date` row in their publication-designation table and the shared
     label reader takes it. Two shapes are not one date and give none: a placeholder date in the row
@@ -124,4 +149,4 @@ def effective_date(text, doc_type):
     'Effective Dates:' (the Legacy IT Solutions report)."""
     if doc_type == "statute" or re.search(r"^\s*Effective Dates:", text, flags=re.M) or _PLACEHOLDER_DATE.search(text):
         return None
-    return UNHANDLED
+    return _left_column_date(text) or UNHANDLED

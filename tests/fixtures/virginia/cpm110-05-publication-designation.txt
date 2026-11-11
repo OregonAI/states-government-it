@@ -1,0 +1,20 @@
+ITRM Project Management Guideline CPM 110-04
+                                                        Virginia. This guideline does not apply to research
+Subject                                                 projects, research initiatives or instructional
+                                                        programs at public institutions of higher education.
+Project management guidelines for information
+technology projects in the Commonwealth of              Purpose
+Virginia.
+                                                        This guideline establishes the direction, processes,
+Effective Date                                          and structure for the use and management of
+                                                        information technology projects and resources by
+September 1, 2021                                       executive branch agencies.
+
+Supersedes                                              Chief Information Officer                   of    the
+ITRM Project Management Guideline CPM 110-03            Commonwealth (CIO)
+                                                        Develops and approves statewide technical and data
+Scheduled Review:                                       policies, standards and guidelines for information
+This guideline shall be reviewed on an annual basis.    technology and related systems.
+
+Authority                                               Virginia Information                Technologies
+                                                        Agency (VITA)

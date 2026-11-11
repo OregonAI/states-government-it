@@ -114,3 +114,33 @@ def test_effective_date_left_empty_when_the_table_prints_a_placeholder_date():
 
 def test_effective_date_left_empty_when_the_document_prints_a_list_of_effective_dates():
     assert _eff("legacy-it-effective-dates.txt") is None           # 'Effective Dates:' then four milestones
+
+
+def test_effective_date_is_the_left_column_date_when_the_right_column_text_comes_between_label_and_date():
+    # The two-column table puts the right-hand column's text between the label and the date: the shared
+    # 200-character window cut these two (191 and 260 characters after the label).
+    assert _eff("cpm110-05-publication-designation.txt") == "2021-09-01"
+    assert _eff("sec527-publication-designation.txt") == "2021-01-01"
+
+
+CH_38_1 = "Chapter 38.1. Protection of Social Security Numbers Act.\n\n§ 2.2-3815. Access to Social Security numbers.\n"
+
+
+def test_statute_identity_chapter_designator_must_match_whole_not_as_a_prefix():
+    ch38 = {"id": "x", "doc_type": "statute", "jurisdiction": "virginia", "citation": "Va. Code tit. 2.2, ch. 38"}
+    ch20 = {"id": "z", "doc_type": "statute", "jurisdiction": "virginia", "citation": "Va. Code tit. 2.2, ch. 20"}
+    with pytest.raises(ValueError):
+        states.check_identity(ch38, CH_38_1, "html")           # ch. 38.1 is not ch. 38
+    with pytest.raises(ValueError):
+        states.check_identity(ch20, "Chapter 20.1. Virginia Information Technologies Agency.\n", "html")
+    states.check_identity(ch38, text(CH_38), "html")           # the real ch. 38 still passes
+
+
+def test_vita_page_identity_refuses_a_page_with_another_title():
+    cloud = {"id": "c", "doc_type": "policy", "jurisdiction": "virginia", "title": "Cloud Third Party Use Policy",
+             "citation": "VITA Cloud Third Party Use Policy"}
+    rules = {"id": "r", "doc_type": "policy", "jurisdiction": "virginia", "title": "VITA Rules", "citation": "VITA Rules"}
+    with pytest.raises(ValueError):
+        states.check_identity(rules, text(CLOUD, "policy"), "html")
+    with pytest.raises(ValueError):
+        states.check_identity(cloud, text(RULES, "policy"), "html")
