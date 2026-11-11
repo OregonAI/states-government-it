@@ -1,0 +1,25 @@
+Enterprise Service Designation
+
+Enterprise Business Processes for Internal Identity Management
+
+• Manage the State's internal identity management solution, the Enterprise Active Directory, to accomplish single sign-on.
+• Manage the State Forest within the Enterprise Active Directory.
+• Manage the federation to the Enterprise Active Directory.
+• Manage the delegations within shared/central services, such as email.
+• Maintain security boundaries between agencies.
+• Administer the enterprise tenant account within Office 365.
+
+These enterprise business processes are centrally managed by WaTech.
+
+This enterprise service designation does not apply to institutions of higher education.
+
+For questions about this enterprise service or to request a waiver, please contact the OCIO Policy and Waiver Mailbox.
+
+Date | Action Taken
+09/06/2016 | Designated as an Enterprise Service
+
+APPROVING AUTHORITY
+
+/s/ Michael Cockrill
+
+State Chief Information Officer

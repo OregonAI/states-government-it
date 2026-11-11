@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 205 |
-| standard | 84 |
+| policy | 212 |
+| standard | 91 |
 | statute | 28 |
 | rule | 11 |
 | executive_order | 10 |
 
-**Total: 338**
+**Total: 352**
 
 ## Source manifest
 
-517 declared source(s) across 1 group(s) in `source-manifest.yml`.
+518 declared source(s) across 1 group(s) in `source-manifest.yml`.
 
 ## Freshness (reverify every 90 days)
 
-338 of 338 document(s) overdue for re-verification.
+352 of 352 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -74,5 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | wa-eo-24-01 | executive_order | never |
 | wa-eo-91-10 | executive_order | never |
 | ca-genai-guidelines | policy | never |
-| … | *288 more* | |
+| … | *302 more* | |
 

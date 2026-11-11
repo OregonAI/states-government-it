@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 338,
+ "n_nodes": 352,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -543,6 +543,12 @@
    "title": "Statement of Work (SOW) Guidelines",
    "doc_type": "policy",
    "path": "policies/california/ca-simm-180.md"
+  },
+  {
+   "id": "ca-simm-18b",
+   "title": "Policy Exemption Instructions",
+   "doc_type": "policy",
+   "path": "policies/california/ca-simm-18b.md"
   },
   {
    "id": "ca-simm-19a-1",
@@ -1175,6 +1181,12 @@
    "path": "policies/oregon/or-eis-107-004-180-budget-categories.md"
   },
   {
+   "id": "or-eis-ai-attachment-a",
+   "title": "State of Oregon Responsible AI Usage Policy: Agency Artificial Intelligence Adoption Strategy Template and Instructions",
+   "doc_type": "policy",
+   "path": "policies/oregon/or-eis-ai-attachment-a.md"
+  },
+  {
    "id": "or-eis-ai-attachment-b",
    "title": "State of Oregon Responsible AI Usage Policy: Artificial Intelligence Risk Management Framework",
    "doc_type": "policy",
@@ -1247,10 +1259,22 @@
    "path": "policies/washington/wa-data-01-03-g.md"
   },
   {
+   "id": "wa-data-01-04-g",
+   "title": "Open Data Definitions",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-data-01-04-g.md"
+  },
+  {
    "id": "wa-data-01",
    "title": "Open Data Program",
    "doc_type": "policy",
    "path": "policies/washington/wa-data-01.md"
+  },
+  {
+   "id": "wa-data-02-01-pr",
+   "title": "Geospatial Technology Policy and Standards Procedure",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-data-02-01-pr.md"
   },
   {
    "id": "wa-data-02",
@@ -1269,6 +1293,12 @@
    "title": "Artificial Intelligence",
    "doc_type": "policy",
    "path": "policies/washington/wa-data-04.md"
+  },
+  {
+   "id": "wa-des-genai-contract-clauses",
+   "title": "Generative AI Contract Clauses for IT",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-des-genai-contract-clauses.md"
   },
   {
    "id": "wa-ea-01-01-g",
@@ -1299,6 +1329,12 @@
    "title": "Establishing an Enterprise Service Policy",
    "doc_type": "policy",
    "path": "policies/washington/wa-ea-02.md"
+  },
+  {
+   "id": "wa-ea-03",
+   "title": "Innovation Exemption Policy",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-ea-03.md"
   },
   {
    "id": "wa-ea-04-01-g",
@@ -1407,6 +1443,12 @@
    "title": "IT Security and Privacy Awareness Training Policy",
    "doc_type": "policy",
    "path": "policies/washington/wa-sec-03.md"
+  },
+  {
+   "id": "wa-sec-04-01-g",
+   "title": "Media Handling and Data Disposal Best Practices",
+   "doc_type": "policy",
+   "path": "policies/washington/wa-sec-04-01-g.md"
   },
   {
    "id": "wa-sec-04",
@@ -1571,6 +1613,12 @@
    "path": "standards/california/ca-simm-5310-b.md"
   },
   {
+   "id": "ca-simm-5310-c",
+   "title": "Privacy Threshold Assessment and Privacy Impact Assessments",
+   "doc_type": "standard",
+   "path": "standards/california/ca-simm-5310-c.md"
+  },
+  {
    "id": "ca-simm-5315-a",
    "title": "Email Threat Protections Standard",
    "doc_type": "standard",
@@ -1703,6 +1751,12 @@
    "path": "standards/oregon/or-open-data-standard.md"
   },
   {
+   "id": "wa-data-01-02-s",
+   "title": "Metadata Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-data-01-02-s.md"
+  },
+  {
    "id": "wa-data-02-01-s",
    "title": "Geodetic Control Data Standard",
    "doc_type": "standard",
@@ -1715,10 +1769,22 @@
    "path": "standards/washington/wa-data-02-02-s.md"
   },
   {
+   "id": "wa-data-02-03-s",
+   "title": "Web Mapping Services Publication Standard",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-data-02-03-s.md"
+  },
+  {
    "id": "wa-data-02-05-s",
    "title": "NG9-1-1 Geospatial Data Standard",
    "doc_type": "standard",
    "path": "standards/washington/wa-data-02-05-s.md"
+  },
+  {
+   "id": "wa-data-02-07-s",
+   "title": "Geospatial Data Standards (FGDC)",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-data-02-07-s.md"
   },
   {
    "id": "wa-ea-01-00-s",
@@ -1731,6 +1797,12 @@
    "title": "EA Domain Standard",
    "doc_type": "standard",
    "path": "standards/washington/wa-ea-01-02-s.md"
+  },
+  {
+   "id": "wa-ea-01-03-s",
+   "title": "Enterprise Data Standards Framework",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-01-03-s.md"
   },
   {
    "id": "wa-ea-01-04-s",
@@ -1799,10 +1871,22 @@
    "path": "standards/washington/wa-ea-02-12-s.md"
   },
   {
+   "id": "wa-ea-03-01-s",
+   "title": "Innovation Exemption - Appendix A: Innovation Exemption Criteria",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-03-01-s.md"
+  },
+  {
    "id": "wa-ea-04-01-s",
    "title": "IPv6 Implementation Standard",
    "doc_type": "standard",
    "path": "standards/washington/wa-ea-04-01-s.md"
+  },
+  {
+   "id": "wa-ea-185-10",
+   "title": "Enterprise Service: Enterprise Business Processes for Internal Identity Management",
+   "doc_type": "standard",
+   "path": "standards/washington/wa-ea-185-10.md"
   },
   {
    "id": "wa-mgmt-01-01-s",

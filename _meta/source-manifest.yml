@@ -536,7 +536,25 @@ sources:
       information held by state agencies. Guidance rather than a numbered policy: the owner may prefer to
       drop it.'
 
-  # ---- Supporting attachments to the Responsible AI Usage Policy (107-004-190); attachments A and C are left out (docx sources, see the left-out notes below)
+  # ---- Supporting attachments to the Responsible AI Usage Policy (107-004-190); attachment A is a Word file read with pandoc; attachment C (the AI Use Form) is a form and is left out, see the left-out notes below
+  - id: or-eis-ai-attachment-a
+    sha256: "8f385d39e1ddc6eadbb8159955ee0b427c30c4be4ba61a3fbe6eb56a5fb84e5a"
+    url: https://www.oregon.gov/eis/Documents/Attachment-A-AI-Adoption-Strategy-Template.docx
+    format: docx
+    citation: 'Responsible AI Usage Policy, Supporting Attachments: Agency AI Adoption Strategy Template and Instructions'
+    title: 'State of Oregon Responsible AI Usage Policy: Agency Artificial Intelligence Adoption Strategy Template and Instructions'
+    doc_type: policy
+    jurisdiction: oregon
+    issuing_body: Enterprise Information Services
+    tags: [ai, governance]
+    recheck: monthly
+    identity_text: Adoption Strategy Key Components   # a phrase the Word file itself prints; the ingester refuses bytes without it
+    why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
+      page under 'Responsible AI Usage Policy - Supporting Attachments'; the instructions, required components
+      and revision history of the Agency AI Adoption Strategy the policy directs each agency to write. Judged an
+      instrument, not a blank form (it is guidance with ten required components). The attachment letter is
+      not printed in the file; it comes from the official file name (Attachment-A-...docx). The cover title
+      sits in a text box the Word reader does not read.
   - id: or-eis-ai-attachment-b
     sha256: "c0078206890a0a5acaa8c13091c9aa18d63347617d3d013b67c0ae0869145f42"
     url: https://www.oregon.gov/eis/Documents/Attachment-B-AI-Risk-Management-Framework.pdf
@@ -721,13 +739,15 @@ sources:
 
   # ---- Found and left out (each was seen on an official page on 2026-11-10; the reason is recorded here)
   #
-  # Docx sources (the ingester has no docx `to_text` yet; each can be seeded once it has one):
+  # Word files read on 2026-11-11 (the ingester reads .docx with pandoc since this change):
   #  - Attachment A to the Responsible AI Usage Policy, 'Agency AI Adoption Strategy Template and
-  #    Instructions' (https://www.oregon.gov/eis/Documents/Attachment-A-AI-Adoption-Strategy-Template.docx).
-  #    Not blank: instructions, required components and a revision history. Candidate to seed once docx
-  #    is readable.
+  #    Instructions': judged an instrument (guidance, required components, revision history) and now a
+  #    seed entry above.
   #  - Attachment C, 'AI Use Form' (https://www.oregon.gov/eis/Documents/Attachment-C-AI-Use-Form.docx).
-  #    A form of required questions, not a template. OWNER DECISION: whether forms enter the corpus.
+  #    Read 2026-11-11: a form of required questions with check boxes, titled 'Information Technology
+  #    Investment Artificial Intelligence Use Form' and to be submitted to EIS. Judged a form, so left
+  #    out. OWNER DECISION: whether forms enter the corpus (the form is the only place its questions
+  #    are stated, so the owner may overrule).
   #
   # Forms and workbooks (forms to fill in, not instruments; owner may overrule):
   #  - 107-004-130 'IT Investment Form' (https://www.oregon.gov/das/Policies/107-004-130_Attachment.docx).
@@ -1135,6 +1155,7 @@ sources:
     stub_reason: "The link the WaTech AI Resources page publishes for it returns HTTP 404 (fetched 2026-11-10; the single-decoded URL also returns 404). Not shown as withdrawn: the page still describes the guidelines as the initial framework. Becomes a document if WaTech restores the file."
     why_relevant: "WaTech's interim generative AI guidelines (August 2023), the initial framework the AI Resources page still cites. Listed on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
   - id: wa-des-genai-contract-clauses
+    sha256: "9eeea57d7916c28c7f71412eb2e1dd2b4573991095bb63986c48c5ca59f89aa8"
     url: "https://des.wa.gov/sites/default/files/2025-04/WA-Procurement-AI-contract-clauses.docx"
     format: docx
     citation: "Generative AI Contract Clauses for IT (Department of Enterprise Services)"
@@ -1144,8 +1165,7 @@ sources:
     issuing_body: Department of Enterprise Services
     tags: [ai, procurement]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx) by the Department of Enterprise Services; the toolkit has no Word text extractor, so no document is written. The WaTech page links it through an Office viewer URL whose src parameter is this file."
+    identity_text: "Generative AI Contract Clauses"
     why_relevant: "Model AI contract clauses for state IT procurement, linked first on the WaTech Artificial Intelligence Resources page (https://watech.wa.gov/artificial-intelligence-resources)."
 
   # ---- WaTech technology policy library: policies, standards, procedures and guidelines, in library order.
@@ -1382,7 +1402,7 @@ sources:
     tags: [governance, cloud-resilience]
     recheck: monthly
     stub: true
-    stub_reason: "Published only as a Word file (.doc); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    stub_reason: "Published only as a legacy binary Word file (.doc, Word 97-2003). pandoc cannot read that format and nothing else that can (antiword, catdoc, LibreOffice) is installed on the maintainer's machine or on the CI image; hand-parsing the binary would not be a reading this corpus could stand behind. Fetched 2026-11-11 through the Fetcher with curl; no document is written. The library page links no PDF of it."
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/computing-and-telecommunication-architectural-standards-internet-domain-name-standards."
   - id: wa-ea-01-02-g
     sha256: "6c79de419ec77c39cb4181cd04e4d0ede1097b97b6eac9fba6442ae7f78bf693"
@@ -1411,6 +1431,7 @@ sources:
     identity_text: "EA-01-02-S"
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/ea-domain-standard."
   - id: wa-ea-01-03-s
+    sha256: "260a6867f5ff52814a3b19ecbf7ceaa08015e5ea7e3ae12929e5b7dd062398b7"
     url: "https://watech.wa.gov/sites/default/files/2023-09/182_10_10.docx"
     format: docx
     citation: "WaTech Standard EA-01-03-S"
@@ -1420,8 +1441,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [governance, cloud-resilience]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Enterprise Data Standards Framework"
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-data-standards-framework."
   - id: wa-ea-01-04-s
     sha256: "24fb3ed41b1de80bf40677b00b532d4f5667a72dd57d389eb621e71691fdfa01"
@@ -1593,6 +1613,7 @@ sources:
     identity_text: "EA-02-12-S"
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-wagov."
   - id: wa-ea-03
+    sha256: "14b2ad2c4ae8d41db4ee2575096159cf001289ff801ab608a7243af4e59e6356"
     url: "https://watech.wa.gov/sites/default/files/2023-09/202.docx"
     format: docx
     citation: "WaTech Policy EA-03"
@@ -1602,10 +1623,10 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [governance, cloud-resilience]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "202 - Innovation Exemption"
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Policies). Listed at https://watech.wa.gov/policies/innovation-exemption-policy."
   - id: wa-ea-03-01-s
+    sha256: "97384e42183352b5bb877a00d5184e303f2b2908c6fb9a020ed989469f33232b"
     url: "https://watech.wa.gov/sites/default/files/2023-09/202appendixa%252020180214.docx"
     format: docx
     citation: "WaTech Standard EA-03-01-S"
@@ -1615,8 +1636,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [governance, cloud-resilience]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Innovation Exemption Criteria"
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/innovation-exemption-appendix-innovation-exemption-criteria."
   - id: wa-ea-04
     sha256: "8828ebd4e079fccee840c4fc7aea834c548631af9ef671c3969d6cfbde87989e"
@@ -1671,6 +1691,7 @@ sources:
     identity_text: "Policy 122 - Administrative and Financial Systems Investment Approval"
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Policies). Listed at https://watech.wa.gov/policies/administrative-and-financial-system-investment-approval."
   - id: wa-ea-185-10
+    sha256: "aac149509f22647e9c642cac4259e68be66db027b84c6cc99613a85d1c08685a"
     url: "https://watech.wa.gov/sites/default/files/2023-09/185.10%2520201609%2520rev%252020170403_1.docx"
     format: docx
     citation: "WaTech Standard EA 185.10"
@@ -1680,8 +1701,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [digital-services, cybersecurity]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Enterprise Business Processes for Internal Identity Management"
     why_relevant: "Item of the WaTech policy library, chapter '3. Enterprise Architecture' (listed as type Standards). Listed at https://watech.wa.gov/policies/enterprise-service-enterprise-business-processes-internal-identity-management."
   - id: wa-ea-310
     sha256: "39cb952397f5e253ac885e147770deb3657054857f950d46897ee4619ee4a157"
@@ -1775,6 +1795,7 @@ sources:
     identity_text: "SEC-04"
     why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Policies). Listed at https://watech.wa.gov/policies/asset-management-policy."
   - id: wa-sec-04-01-g
+    sha256: "4f0c83ef284515c61c8dfa2250de5ccf3dd11911141b7efd39170dddbb6d3f14"
     url: "https://watech.wa.gov/sites/default/files/2023-09/141_10_10.docx"
     format: docx
     citation: "WaTech Guideline SEC-04-01-G"
@@ -1784,8 +1805,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [cybersecurity, data]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Media Handling and Data Disposal Best Practices"
     why_relevant: "Item of the WaTech policy library, chapter '4. IT Security' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/media-handling-and-data-disposal-best-practices."
   - id: wa-sec-04-01-s
     sha256: "7b62a54fb650b099c22ddfbcbe1f5ea0d09852203a22bc838c76fcaab5f2cd73"
@@ -2348,6 +2368,7 @@ sources:
     identity_text: "DATA-01"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Policies). Listed at https://watech.wa.gov/policies/open-data-program."
   - id: wa-data-01-02-s
+    sha256: "a420f95549b76d8e699d3ba582b53fe8d29d94806681e80c96db4ab7a29cd9a3"
     url: "https://watech.wa.gov/sites/default/files/2023-09/187_10_MetadataStandard_Approved%252003102020.docx"
     format: docx
     citation: "WaTech Standard DATA-01-02-S"
@@ -2357,8 +2378,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [data, digital-services]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Standard 187.10 - Metadata Standard"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/metadata-standard."
   - id: wa-data-01-03-g
     sha256: "34af2767960f16bc6ae9e1ae0515923bee008684a61231edc34043e3b95b082e"
@@ -2374,6 +2394,7 @@ sources:
     identity_text: "State Archives Records and Cloud Storage Guidelines"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/state-archives-records-and-cloud-storage-guidelines."
   - id: wa-data-01-04-g
+    sha256: "2c78494ee9e36f91d5e2f97354346cec77fb111254f53794f398b5c5e4b9c475"
     url: "https://watech.wa.gov/sites/default/files/2023-09/Guidance%2520-%2520Open%2520Data%2520Definitions.docx"
     format: docx
     citation: "WaTech Guideline DATA-01-04-G"
@@ -2383,8 +2404,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [data, digital-services]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Open Data Definitions"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Guidelines). Listed at https://watech.wa.gov/policies/open-data-definitions."
   - id: wa-data-02
     sha256: "cfeba418016fceddfdf4e2c53cf44c6f82ed359a216ceef7765006744484664b"
@@ -2400,6 +2420,7 @@ sources:
     identity_text: "DATA-02"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Policies). Listed at https://watech.wa.gov/policies/geospatial-data-management-policy."
   - id: wa-data-02-01-pr
+    sha256: "e5477c3c8b01e8d3141603e8fe1407da3ce2f7415f7a1dda58c4e10ca9796fa8"
     url: "https://watech.wa.gov/sites/default/files/2023-09/162_GIS_Policy_and_Standards_%2520Process_ADOPTED_2003.docx"
     format: docx
     citation: "WaTech Procedure DATA-02-01-PR"
@@ -2409,8 +2430,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [data]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Geospatial Technology Policy and Standards Procedure"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Procedures). Listed at https://watech.wa.gov/policies/geospatial-technology-policy-and-standards-procedure."
   - id: wa-data-02-01-s
     sha256: "43505cba3b43efdfdf3ecb8e533e9421c4b0e33ffcd41eca0f65b0f8fa903860"
@@ -2439,6 +2459,7 @@ sources:
     identity_text: "DATA-02-02-S"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/hydrography-data-standard."
   - id: wa-data-02-03-s
+    sha256: "a5a11c0b1f4c9e2546e1f60a7d6a27acbd39240391501fe0d0d3100c36ce4152"
     url: "https://watech.wa.gov/sites/default/files/2023-09/161.06_WebMapping_Std_ADOPTED_2014.docx"
     format: docx
     citation: "WaTech Standard DATA-02-03-S"
@@ -2448,8 +2469,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [data]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Web Mapping Services Publication Standard"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/web-mapping-services-publication-standard."
   - id: wa-data-02-05-s
     sha256: "cbb6264e64e0c5a13a60013ab1ddece48ebcbf5ff4e29a0c976dba9fcbd92b05"
@@ -2465,6 +2485,7 @@ sources:
     identity_text: "DATA-02-05-S"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/ng9-1-1-geospatial-data-standard."
   - id: wa-data-02-07-s
+    sha256: "bdaced01bd725c79c571396fcbc8ed6d37b94932a1ae51e6574a6f883c5e1fb2"
     url: "https://watech.wa.gov/sites/default/files/2023-09/161.04_GIS_Data_Std_ADOPTED_2014.docx"
     format: docx
     citation: "WaTech Standard DATA-02-07-S"
@@ -2474,8 +2495,7 @@ sources:
     issuing_body: Washington Technology Solutions (WaTech), Office of the State Chief Information Officer
     tags: [data]
     recheck: monthly
-    stub: true
-    stub_reason: "Published only as a Word file (.docx); the toolkit has no Word text extractor and its drift detector cannot read one, so no document is written. The library page links no PDF of it."
+    identity_text: "Geospatial Data Standards"
     why_relevant: "Item of the WaTech policy library, chapter '6. Data Management' (listed as type Standards). Listed at https://watech.wa.gov/policies/geospatial-data-standards-fgdc."
   - id: wa-data-03
     sha256: "2f0d6dff375d577b60ce6d6bc3e1d0643e200cdb9178e32732ae236804da9365"
@@ -4261,7 +4281,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 15B, Project Cost Delegation Accreditation Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-15c
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-15C-Project-Cost-Delegation-Historical-Projects-Worksheet.xlsx
@@ -4328,6 +4348,7 @@ sources:
     stub_reason: spreadsheet
     why_relevant: 'SIMM 18A, IT Contract Exemption Request: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-18b
+    sha256: "1b70a59f8b2d005d00f5867d1a4a522f47b32563609f64328fe0069d647d0192"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-18B-Cloud-Computing-Policy-Exemption-Form.docx
     format: docx
     citation: SIMM 18B
@@ -4337,8 +4358,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [procurement]
     recheck: monthly
-    stub: true
-    stub_reason: Word file
+    identity_text: "Cloud Computing Policy Exemption Form"
     why_relevant: 'SIMM 18B, Policy Exemption Instructions: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19a-1
     sha256: "4d6829e73cda881308ba40ab5e783ffda63e6bd6353103cc03de218e8fddc41e"
@@ -4364,7 +4384,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 19A.2, Stage 1 Project Reportability Assessment Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19a-3
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19A.3-Stage-1-Business-Analysis.docx
@@ -4377,7 +4397,7 @@ sources:
     tags: [governance]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 19A.3, Stage 1 Business Analysis: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19a-5
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19A.5-Portfolio-Report-PDL.xlsx
@@ -4416,7 +4436,7 @@ sources:
     tags: [governance]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 19B.2, Stage 2 Alternatives Analysis Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19b-3
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19B.3-Stage-2-Midlevel-Solution-Requirements-Template.xlsm
@@ -4455,7 +4475,7 @@ sources:
     tags: [procurement, oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 19B.5, STP Procurement Assessment Form: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19c-1
     sha256: "bcbcea30d21a39dbc94c32ffe76ab2bc46f1ef0d6a9d72e7247f00583404c516"
@@ -4481,7 +4501,7 @@ sources:
     tags: [governance]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 19C.2, Stage 3 Solution Analysis Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19c-3
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-19C.3-Stage-3-Solution-Requirements-Template.xlsm
@@ -4520,7 +4540,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 19D.2, Stage 4 Project Readiness and Approval Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19e-1
     sha256: "43e5b8d369c169422f256a7191ab32f502a2adbb69fc0c74ddc368921e0b4ef1"
@@ -4546,7 +4566,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 19E.2, Project Delegation Request Form ADA Compliant: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-19f-1
     sha256: "68498c86862263e7c761350de4ceeb1230f5ba29b6485564c3e310abc1d2fece"
@@ -4715,7 +4735,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 30B, Project Summary Package: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-30c
     sha256: "58fff29f3658c40da027b23fbfebeab1e421e515af51c5eb5cb7dff977933366"
@@ -4830,7 +4850,7 @@ sources:
     tags: [procurement]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 45A, Independent Verification & Validation (IV&V) Statement of Work (SOW) Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45c
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-45-Appendix-C-Complexity-Assessment.xlsx
@@ -4856,7 +4876,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 45 Appendix E, Project Status Reports Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45f
     sha256: "b08e9abf29bf3a09a4d796c7676b86fc2e0c6a44f1aa1cca5f539a99c13cec68"
@@ -4882,7 +4902,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 45 Appendix G, Independent Project Oversight Report Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-45h
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-45-Appendix-H-Project-Delivery-Lifecyle-Project-Status-Report.docx
@@ -4895,7 +4915,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 45 Appendix H, Project Delivery Lifecycle Project Status Report: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-50-template
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-50-PIER-Template.docx
@@ -4908,7 +4928,7 @@ sources:
     tags: [oversight]
     recheck: monthly
     stub: true
-    stub_reason: Word file
+    stub_reason: "form or template: a fill-in document, not an instrument's text (the Word file, read 2026-11-11 with the new Word reader, is the form or template an entity completes: entry fields, placeholders or a blank outline)"
     why_relevant: 'SIMM 50, Post Implementation Evaluation Report Template: an item of the SIMM''s policies, the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-50-worksheets
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-50-PIER-Cost-Worksheets.xlsx
@@ -5203,6 +5223,7 @@ sources:
     recheck: monthly
     why_relevant: 'SIMM 5310-B, Privacy Individual Access Standard: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5310-c
+    sha256: "3bb7f2dc47f018d01c30dc02a5bc7dfec93903b50bf743f250b39081c720a06b"
     url: https://www.cdt.ca.gov/wp-content/uploads/policy/simm/SIMM-5310-C-Privacy-Threshold-Assessment-and-Privacy-Impact-Assessments.docx
     format: docx
     citation: SIMM 5310-C
@@ -5212,8 +5233,7 @@ sources:
     issuing_body: California Department of Technology
     tags: [data]
     recheck: monthly
-    stub: true
-    stub_reason: Word file
+    identity_text: "5310-C Privacy Threshold Assessments and Privacy Impact Assessments"
     why_relevant: 'SIMM 5310-C, Privacy Threshold Assessment and Privacy Impact Assessments: an item of the Office of Information Security''s information security series (SIMM 5300), the California Department of Technology''s library of statewide IT policies, standards, instructions, forms and templates.'
   - id: ca-simm-5315-a
     sha256: "a43953066b1eba1c1672601bd10ff0c154d5baec2df3795aa2d43289f1704b38"
