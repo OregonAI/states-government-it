@@ -489,6 +489,28 @@ def ca_snapshot(src: dict, fetcher: Fetcher, dest: Path, refetch: bool) -> tuple
     return bundle, True
 
 
+def sos_html_to_text(raw: bytes) -> str:
+    """A California Code of Regulations chapter as the Secretary of State publishes it
+    (sos.ca.gov/administration/regulations/...): the page's `Title`, `Division` and `Chapter`
+    headings, the chapter's contents list and every regulation with its note. The region is the
+    page's content column (a page may print a `California Code of Regulations` line above the
+    headings); text the page keeps inside an HTML comment is not shown and not taken; the site menu,
+    breadcrumb, side navigation and footer are not the regulations. Lists are written like the SAM
+    page's (the page styles them with CSS)."""
+    page = _decode(raw)
+    start = page.find('id="main-content-normal"')
+    side = page.find('id="left-sidebar"', start) if start >= 0 else -1
+    if start < 0 or side < 0 or "Title " not in page[start:side]:
+        raise ValueError("page has no regulation region (content column with a Title heading): "
+                         "the page layout changed")
+    start = page.index(">", start) + 1
+    end = page.rindex("<div", 0, side)
+    parser = _SamParser()
+    parser.feed(page[start:end])
+    parser._flush()
+    return "\n".join(parser.lines) + "\n"
+
+
 _CRS_ARTICLE = re.compile(r"ARTICLE \d+(\.\d+)?")
 _CRS_PART = re.compile(r"PART \d+(\.\d+)?")
 
@@ -545,6 +567,8 @@ def to_text(raw: bytes, fmt: str, doc_type: str, jurisdiction: str = "oregon",
         return pdf_to_text(raw)
     if fmt == "json" and doc_type == "statute" and jurisdiction == "california":
         return ca_bundle_to_text(raw)
+    if fmt == "html" and doc_type == "rule" and jurisdiction == "california":
+        return sos_html_to_text(raw)
     if fmt == "html" and doc_type == "policy" and jurisdiction == "california":
         return sam_html_to_text(raw)
     if fmt == "html" and doc_type == "statute" and jurisdiction == "washington":
@@ -640,6 +664,16 @@ def check_identity(src: dict, text: str) -> None:
         if not found:
             raise ValueError(f"{src['id']}: PDF is not the cited instrument: {what} "
                              f"does not appear in its text")
+    if src["doc_type"] == "rule" and src["jurisdiction"] == "california":
+        cite = re.fullmatch(r"Cal\. Code Regs\., tit\. (\d+), div\. (\d+), ch\. ([\d.]+)", src["citation"])
+        want = [f"Title {cite.group(1)}.", f"Division {cite.group(2)}.", f"Chapter {cite.group(3)}."] if cite else None
+        head = text.splitlines()[:5]
+        got = [next((l for l in head if l.startswith(w.split(" ")[0] + " ")), "") for w in (want or ["", "", ""])]
+        if (not cite or [" ".join(l.split(" ")[:2]) for l in got] != want
+                or src["title"] not in got[2]):
+            raise ValueError(f"{src['id']}: page is not the cited instrument: {src['citation']!r} "
+                             f"does not match the page's title, division and chapter headings")
+        return
     if src["doc_type"] == "rule" and src["title"] not in text:
         raise ValueError(f"{src['id']}: page does not carry the seed title {src['title']!r}")
     if src["doc_type"] == "executive_order":
@@ -697,6 +731,12 @@ def conversion_notes(src: dict, fmt: str, text: str) -> str:
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
                 "kept as extracted; form feeds and trailing spaces removed; ligature glyphs such "
                 "as fi and fl written as their letters).")
+    if src["doc_type"] == "rule" and src["jurisdiction"] == "california":
+        return ("Text taken from the Secretary of State's page for the chapter of the California Code of "
+                "Regulations: the title, division and chapter headings, the chapter's contents list and each "
+                "regulation with its note, one line per paragraph, with markup, the site menu, side "
+                "navigation, footer and non-breaking spaces removed. List numbers and letters, which the "
+                "page draws with style rules, are written out (1., a., i.).")
     if src["doc_type"] == "policy" and src["jurisdiction"] == "california":
         return ("Text taken from the Department of General Services' State Administrative Manual chapter "
                 "view page: the chapter line, then each section's heading, revision line and "
