@@ -13,14 +13,17 @@ source_format: docx
 retrieved: '2026-11-11'
 source_sha256: 8a7a44c600e33251233726f54a30e36aa507f95d2944783eb99d5d72c2a94d50
 effective_date: null
-source_version: ''
+source_version: 'Last Review Date: July 2024'
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes
   accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's
   cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet
   character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside
-  text boxes (such as a cover-page title) are not read. Headings carry no markup.
+  text boxes (such as a cover-page title) are not read. Headings carry no markup. source_version is the
+  month, or the revision month, the document prints (a month with no day is not made into a date). source_version
+  is the date the Word file prints about itself, as printed (a review date, a cover date or the last row
+  of its revision history); it prints no effective date.
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -509,4 +512,4 @@ Publicly available data | Publicly available data includes information obtained 
 
 ## Curator notes
 
-Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup.
+Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup. source_version is the month, or the revision month, the document prints (a month with no day is not made into a date). source_version is the date the Word file prints about itself, as printed (a review date, a cover date or the last row of its revision history); it prints no effective date.

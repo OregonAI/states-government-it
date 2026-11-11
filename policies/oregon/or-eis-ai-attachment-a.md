@@ -3,8 +3,7 @@ schema_version: 1
 corpus: states-it-governance
 jurisdiction: oregon
 id: or-eis-ai-attachment-a
-title: 'State of Oregon Responsible AI Usage Policy: Agency Artificial Intelligence Adoption Strategy
-  Template and Instructions'
+title: Agency Artificial Intelligence Adoption Strategy Template and Instructions
 doc_type: policy
 citation: 'Responsible AI Usage Policy, Supporting Attachments: Agency AI Adoption Strategy Template and
   Instructions'
@@ -15,14 +14,16 @@ source_format: docx
 retrieved: '2026-11-11'
 source_sha256: 0046a033b4d124e2582b9b773b0acd637bc9a15d784e825786d73cb4b4dbba29
 effective_date: null
-source_version: ''
+source_version: Version 1.0, June 12, 2026
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes
   accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's
   cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet
   character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside
-  text boxes (such as a cover-page title) are not read. Headings carry no markup.
+  text boxes (such as a cover-page title) are not read. Headings carry no markup. source_version is the
+  date the Word file prints about itself, as printed (a review date, a cover date or the last row of its
+  revision history); it prints no effective date.
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -39,7 +40,7 @@ tags:
 
 > **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
 
-# State of Oregon Responsible AI Usage Policy: Agency Artificial Intelligence Adoption Strategy Template and Instructions (Responsible AI Usage Policy, Supporting Attachments: Agency AI Adoption Strategy Template and Instructions)
+# Agency Artificial Intelligence Adoption Strategy Template and Instructions (Responsible AI Usage Policy, Supporting Attachments: Agency AI Adoption Strategy Template and Instructions)
 
 ## At a glance
 
@@ -342,4 +343,4 @@ Helpful References
 
 ## Curator notes
 
-Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup.
+Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup. source_version is the date the Word file prints about itself, as printed (a review date, a cover date or the last row of its revision history); it prints no effective date.

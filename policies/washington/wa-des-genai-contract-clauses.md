@@ -13,14 +13,16 @@ source_format: docx
 retrieved: '2026-11-11'
 source_sha256: 1a9c160f9ce7f0b061670eb299ccf223d3e2f3a1f2d6010830cd7d3765fb802c
 effective_date: null
-source_version: ''
+source_version: Dated April 1, 2025
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes
   accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's
   cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet
   character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside
-  text boxes (such as a cover-page title) are not read. Headings carry no markup.
+  text boxes (such as a cover-page title) are not read. Headings carry no markup. source_version is the
+  date the Word file prints about itself, as printed (a review date, a cover date or the last row of its
+  revision history); it prints no effective date.
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -265,4 +267,4 @@ Bidder must provide an explanation of the GenAI model name, product owner, produ
 
 ## Curator notes
 
-Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup.
+Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup. source_version is the date the Word file prints about itself, as printed (a review date, a cover date or the last row of its revision history); it prints no effective date.
