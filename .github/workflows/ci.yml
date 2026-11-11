@@ -70,6 +70,10 @@ jobs:
       # The seed list is hand-written, not generated, but it is the owner's approval gate and
       # must stay valid against domain.yml.
       - run: python3 src/check_seed_list.py --check
+      # Every committed snapshot .txt and document is re-derived offline from its raw
+      # snapshot (src/ingest.py --check). The PDFs go through pdftotext, a system binary.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
+      - run: python3 src/ingest.py --check
 
   unit-tests:
     runs-on: ubuntu-latest
@@ -79,4 +83,7 @@ jobs:
         with:
           python-version: "3.12"
       - run: pip install -r requirements.txt
+      # tests/test_ingest.py runs the system binary `pdftotext` (poppler-utils) on real PDFs;
+      # install it explicitly rather than rely on what the runner image happens to ship.
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils
       - run: python3 -m pytest tests/ -q

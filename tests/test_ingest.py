@@ -95,6 +95,9 @@ def test_unknown_html_source_is_refused_rather_than_guessed():
 @pytest.mark.parametrize("text, want", [
     ("EFFECTIVE DATE        PAGE NUMBER\n May 1, 2025\nREVIEWED DATE\n June 2, 2026", "2025-05-01"),
     ("Effective Date: January 15, 2024", "2024-01-15"),
+    ("DIVISION: Enterprise  EFFECTIVE DATE:      01-01-2010", "2010-01-01"),   # hyphens, four-digit year
+    ("Budget categories  Effective: March 12, 2026\nPage 2", "2026-03-12"),   # `Effective:` is a label
+    ("The order is effective immediately. Date: March 3, 2020", None),     # prose is not a label
     ("DIVISION: Enterprise  EFFECTIVE DATE:      09-08-08", None),   # two-digit year: not guessed
     ("Date: August 12, 2022\nRe: cloud", None),                      # a memo date is not an effective date
     ("no dates here", None),
@@ -236,3 +239,91 @@ def test_run_reports_failures_and_keeps_going(tmp_path):
         done, failed = ing.run(srcs, f, False, cfg)
     assert [p.name for p in done] == ["or-eis-memo-20220812-cloud.md", "or-ors-276a.md"]
     assert [i for i, _ in failed] == ["or-oar-128-50"]
+
+
+# ---- a PDF must be the instrument the seed entry cites ---------------------------------
+
+SRC_POLICY = dict(SRC_PDF, id="or-das-107-004-190", citation="Statewide Policy 107-004-190",
+                  title="Some Title Not In The Text")
+
+
+@pytest.mark.parametrize("citation, title, ok", [
+    ("Statewide Policy 107-004-190", "Unrelated", True),            # the policy number is in the text
+    ("Statewide Procedure 107-004-190_PR", "Unrelated", True),      # _PR suffix: same number
+    ("Statewide Policy 107-004-999", "Unrelated", False),           # a different number
+    ("State CIO Memo, 2022-08-12", "Mandatory Cloud Services", True),   # no number: the title
+    ("State CIO Memo, 2022-08-12", "A Different Memo", False),
+    ("State CIO Memo, 2022-08-12", "mandatory   cloud\nservices", True),   # case and spacing
+    ("State CIO Memo, 2022-08-12", "Mandatory Cloud Services\u2019", False),   # not the printed text
+])
+def test_pdf_identity_needs_the_policy_number_or_the_title(citation, title, ok):
+    text = "Policy 107-004-190 applies.\nMandatory Cloud Services\n"
+    src = dict(SRC_PDF, citation=citation, title=title)
+    if ok:
+        ing.check_identity(src, text)
+    else:
+        with pytest.raises(ValueError, match="not the cited instrument"):
+            ing.check_identity(src, text)
+
+
+def test_identity_text_overrides_the_title_and_the_number():
+    text = "Policy 107-004-190 applies.\nPrinted Title Here\n"
+    ing.check_identity(dict(SRC_PDF, citation="Memo", title="Seed Title", identity_text="printed  title here"), text)
+    with pytest.raises(ValueError, match="not the cited instrument"):
+        ing.check_identity(dict(SRC_PDF, citation="Policy 107-004-190", title="Seed Title",
+                                identity_text="absent phrase"), text)
+
+
+def test_a_pdf_that_is_not_the_cited_instrument_is_refused_and_leaves_nothing(tmp_path):
+    cfg = corpus(tmp_path)
+    wrong = dict(SRC_PDF, citation="Statewide Policy 107-004-999", title="Nothing Like It")
+    with fetcher(cfg, ROUTES) as f:
+        with pytest.raises(ValueError, match="not the cited instrument"):
+            ing.ingest(wrong, f, False, cfg)
+    assert not list(tmp_path.rglob("*.md"))
+    assert not list((tmp_path / "_meta" / "snapshots").glob("*"))
+
+
+# ---- --check: the committed files are what the ingester derives ------------------------
+
+def ingested(tmp_path):
+    cfg = corpus(tmp_path)
+    with fetcher(cfg, ROUTES) as f:
+        done, failed = ing.run([SRC_ORS, SRC_OAR, SRC_PDF], f, False, cfg)
+    assert not failed
+    return cfg
+
+
+def test_check_passes_on_freshly_ingested_files(tmp_path):
+    cfg = ingested(tmp_path)
+    assert ing.check([SRC_ORS, SRC_OAR, SRC_PDF], cfg) == []
+
+
+def test_check_fails_when_the_committed_text_is_not_what_to_text_derives(tmp_path):
+    cfg = ingested(tmp_path)
+    txt = cfg.snapshot_dir / "or-ors-276a.txt"
+    txt.write_text(txt.read_text() + "an added line\n")
+    out = ing.check([SRC_ORS, SRC_OAR, SRC_PDF], cfg)
+    assert len(out) >= 1 and "or-ors-276a" in out[0] and ".txt" in out[0]
+
+
+def test_check_fails_when_the_document_body_drifts_from_the_text(tmp_path):
+    cfg = ingested(tmp_path)
+    doc = ing.doc_path(SRC_PDF, cfg)
+    doc.write_text(doc.read_text().replace("## Full text\n\n", "## Full text\n\nAn edited line.\n", 1))
+    out = ing.check([SRC_ORS, SRC_OAR, SRC_PDF], cfg)
+    assert any("or-eis-memo-20220812-cloud" in m and "document" in m for m in out)
+
+
+def test_check_fails_on_a_missing_snapshot_or_document(tmp_path):
+    cfg = ingested(tmp_path)
+    ing.doc_path(SRC_OAR, cfg).unlink()
+    (cfg.snapshot_dir / "or-ors-276a.html").unlink()
+    out = ing.check([SRC_ORS, SRC_OAR, SRC_PDF], cfg)
+    assert any("or-oar-128-50" in m for m in out) and any("or-ors-276a" in m for m in out)
+
+
+def test_check_cli_runs_offline_and_passes_on_this_repo():
+    r = subprocess.run([sys.executable, "-m", "src.ingest", "--check"], cwd=ROOT,
+                       capture_output=True, text=True)
+    assert r.returncode == 0, r.stdout + r.stderr

@@ -24,6 +24,10 @@
 #     sha256: ""            # filled at first fetch
 #     why_relevant: ""
 #     references_out: []
+#     identity_text: ""     # optional, PDF policies/standards only: a phrase the document itself
+#                           # prints, which the ingester requires before it writes anything. Used
+#                           # when the printed title differs from `title` and the policy number is
+#                           # not printed. Without it: the citation's policy number, else the title.
 sources:
 
   # ---- Statute: Oregon Revised Statutes
@@ -543,6 +547,7 @@ sources:
     issuing_body: Enterprise Information Services
     tags: [ai]
     recheck: monthly
+    identity_text: Risk Management Framework   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
   - id: or-eis-ai-attachment-d
@@ -556,6 +561,7 @@ sources:
     issuing_body: Enterprise Information Services
     tags: [ai]
     recheck: monthly
+    identity_text: User disclosure mechanism   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
   - id: or-eis-ai-attachment-e
@@ -569,6 +575,7 @@ sources:
     issuing_body: Enterprise Information Services
     tags: [ai]
     recheck: monthly
+    identity_text: User Feedback   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
   - id: or-eis-ai-attachment-f
@@ -582,6 +589,7 @@ sources:
     issuing_body: Enterprise Information Services
     tags: [ai]
     recheck: monthly
+    identity_text: Human in the loop documentation   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
   - id: or-eis-ai-attachment-g
@@ -595,6 +603,7 @@ sources:
     issuing_body: Enterprise Information Services
     tags: [ai]
     recheck: monthly
+    identity_text: Higher-risk use cases requirements   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Supporting attachment to statewide policy 107-004-190 listed on the EIS Artificial Intelligence
       page; sets requirements agencies follow when using AI.
 
@@ -681,6 +690,7 @@ sources:
     issuing_body: Enterprise Information Services
     tags: [cybersecurity]
     recheck: monthly
+    identity_text: Use of Personal Devices and Statewide Policy 50.050.01   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Directive that state business not be conducted on personal devices (BYOD) and why. The
       URL file name says 2022 but the memo is dated May 18, 2023, matching the EIS page.
   - id: or-eis-memo-20220812-cloud
@@ -694,6 +704,7 @@ sources:
     issuing_body: Enterprise Information Services
     tags: [cloud-resilience, governance]
     recheck: monthly
+    identity_text: Mandatory Cloud Services   # a phrase the PDF itself prints; the ingester refuses bytes without it
     why_relevant: Requires agency public cloud use to go through the EIS Cloud Service unless the State
       CIO authorizes an exception. Listed on the EIS page as 'EIS Cloud Strategy Utilization'.
 

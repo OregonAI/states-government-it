@@ -12,7 +12,7 @@ source_url: https://www.oregon.gov/eis/Documents/eis-107-004-180-PR-budgetcatego
 source_format: pdf
 retrieved: '2026-11-10'
 source_sha256: 5800e7fbd9b7331593c5ee8db068a9053c7023cc0fc262f4de4cba20d18a7dee
-effective_date: null
+effective_date: '2026-03-12'
 source_version: ''
 status: current
 content_mode: verbatim
