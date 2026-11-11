@@ -7,7 +7,7 @@ title: eSignature Recommended Policy Guidelines for State Agencies
 doc_type: policy
 citation: eSignature Recommended Policy Guidelines for State Agencies
 authority_level: ''
-issuing_body: Governor's Office of Information Technology
+issuing_body: Deputy Directors' working group led by the Department of Personnel & Administration
 source_url: https://drive.google.com/uc?export=download&id=1bpFam_yFLbZBqnl7nmRr_Zl2ErPrXcCV
 source_format: pdf
 retrieved: '2026-11-11'
@@ -38,7 +38,7 @@ tags:
 
 ## At a glance
 
-Which eSignature solution a state agency should use for each kind of document (legal signature or acknowledgment, with or without sensitive data), from a Deputy Directors' working group led by the Department of Personnel & Administration. The PDF prints 'Published January 2020' and names OIT only as the approver of further solutions ('As additional solutions are approved by OIT'); it is OIT's because OIT's index page lists and links it under its General IT Operational Policies (eSignature), not because the PDF says so. Link found through the archived copy of the OIT index page (timestamp 20260822055824).
+Which eSignature solution a state agency should use for each kind of document (legal signature or acknowledgment, with or without sensitive data), from a Deputy Directors' working group led by the Department of Personnel & Administration. The PDF prints 'Published January 2020' and names OIT only as the approver of further solutions ('As additional solutions are approved by OIT'); OIT is not printed as its issuer (issuing_body is what the PDF prints); OIT's index page lists and links it under its General IT Operational Policies (eSignature), as a recommended-guidelines item. OWNER DECISION: whether this is an instrument of OIT at all. Link found through the archived copy of the OIT index page (timestamp 20260822055824).
 
 ## Full text
 
