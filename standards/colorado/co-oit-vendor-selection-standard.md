@@ -1,0 +1,356 @@
+---
+schema_version: 1
+corpus: states-it-governance
+jurisdiction: colorado
+id: co-oit-vendor-selection-standard
+title: Vendor Selection Standard for Major IT Projects
+doc_type: standard
+citation: OIT-FinSvc-100
+authority_level: ''
+issuing_body: Governor's Office of Information Technology
+source_url: https://drive.google.com/uc?export=download&id=1iuPwfRpcwXxHVcsSlDe1jRCe9HA4rF8T
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: e8eaafc6c1d756f04ef6a54557e35aa6ff8f84046949f04467a71e29c9ba5403
+effective_date: '2018-11-30'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Vendor Selection Standard for Major IT Projects (OIT-FinSvc-100)
+
+## At a glance
+
+OIT's standard for selecting any vendor for a Major IT Project (House Bill 18-421; C.R.S. 24-37.5-102 and 105): who must follow it, vendor eligibility and the selection steps. Document ID OIT-FinSvc-100, version 1.1, effective Nov. 30, 2018, last reviewed March 14, 2019 as the PDF prints it; OIT's index page lists it under Financial Services without an 'Archived' mark. Link found through the archived copy of the OIT index page (timestamp 20260822055824).
+
+## Full text
+
+Procurement Standard
+Vendor Selection Standard for Major IT Projects
+
+ Standard Owner: Financial Services                                                             Document ID: OIT-FinSvc-100
+                                                                                               Effective Date: Nov. 30, 2018
+ Version: 1.1                                                                             Last Reviewed Date: March 14, 2019
+
+    1. PURPOSE
+       The purpose of this document is to communicate the standards that the Governor’s Office of
+       Information Technology (OIT) has developed for the selection of any vendor for any Major IT Project
+       classified as such by OIT, in accordance with Colorado House Bill 18-421 and as codified in relevant
+       part in §§ 24-37.5-102 and 105, C.R.S.
+
+    2. SCOPE
+       This standard applies to all state agencies except the Department of Education, which has been
+       exempted through June 2019. This Standard shall be used by employees of OIT, agencies supported
+       by OIT, and vendors contracted by OIT or its stakeholders, as a means to enforce technology
+       procurement standardization and assist in making the usage, support, and acquisition of technologies
+       more consistent and efficient.
+
+    3. REFERENCES
+          A. Colorado Procurement Code, § 24-101-101, et seq., C.R.S.
+          B. §§ 24-37.5-101, et seq., C.R.S.
+          C. § 2-3-209, C.R.S.
+          D. § 24-30-202, C.R.S.
+          E. OIT Policy 200-1, Project Lifecycle Methodology and Governance
+
+    4. DEFINITIONS
+          A. Contractor: A vendor selected for award of a contract as a result of a solicitation.
+             “Contractor” has the same meaning as defined in § 24-101-301, C.R.S.
+
+              B. Independent Verification and Validation (IV&V): The process of ensuring that a product,
+                 service, or system meets required specifications and that it fulfills its intended purpose. The
+                 review of such product, service, or system is typically performed by an independent third
+                 party. “Independent verification and validation” has the same meaning as defined in §
+                 24-37.5-102, C.R.S.
+
+              C. Ineligible Vendor: Any vendor that does not meet the criteria set out in 6.B.
+
+              D. Information Technology (IT): Computer-based equipment and related services designed for
+                 the storage, manipulation, and retrieval of data by electronic or mechanical means, or both,
+                 and includes, without limitation, any of the following:
+                   i.   Central processing units (CPU), servers for all functions, data center hosting, network
+                        equipment, including routers, switches, and security devices, personal computers,
+                        laptop computers, handheld processors, and all related peripheral devices
+                        configurable to such equipment, such as data storage devices, document scanners,
+
+State of Colorado | Governor’s Office of Information Technology | Procurement Standards                                   Page 1 of 7
+
+Procurement Standard
+Vendor Selection Standard for Major IT Projects
+
+ Standard Owner: Financial Services                                                             Document ID: OIT-FinSvc-100
+                                                                                               Effective Date: Nov. 30, 2018
+ Version: 1.1                                                                             Last Reviewed Date: March 14, 2019
+
+                            data entry equipment, specialized end-user terminal equipment, and equipment and
+                            systems supporting communications and public safety infrastructure;
+                     ii.    Communications transport, including but not limited to telecommunications, VoIP,
+                            public safety communications network, broadband, unified communications, video
+                            conferencing, collaboration services, and Contact Center applications
+                    iii.    All related services, including feasibility studies, systems design, software
+                            development, system testing, external off-site storage, temporary IT staffing,
+                            consulting involving an IT component, and network services, whether provided by state
+                            employees or by others;
+                    iv.     The systems, programs, routines, and processes used to employ and control the
+                            capabilities of data processing, including but not limited to operating systems,
+                            compilers, assemblers, utilities, library routines, maintenance routines, applications,
+                            application testing capabilities, software, data integration, handheld device operating
+                            systems, and computer networking programs;
+                     v.     The application of electronic information processing hardware, software, or
+                            telecommunications to support state government business processes;
+                    vi.     Cloud based computing services including but not limited to Software as a Service
+                            (SaaS), Infrastructure as a Service (IaaS), Platform as a Service (PaaS), Desktop as a
+                            Service (DaaS), Managed Software as a Service (MSaaS), IT Management as a Service
+                            (ITMaaS), and Mobile Backend as a Service (MBaaS), Anything as a Service (XaaS); or
+                   vii.     Other emerging technologies that may require knowledge and expertise in IT goods or
+                            services. These may include but are not limited to Internet of Things, artificial
+                            intelligence, conversational systems, and data science.
+
+              E. Major Information Technology Project: A project of state government, excluding the
+                 Department of Education through June 30, 2019, that has a significant Information Technology
+                 component, including, without limitation, the replacement of an existing Information
+                 Technology system. OIT classifies IT projects as Major IT Projects based on a comprehensive
+                 risk assessment.
+
+              F. Project: A body of work that has a specified unique scope, funding, and a limited duration.
+
+              G. Significant Information Technology Component: Any component of a project that has the
+                 planning, design, procurement, support, or management of Information Technology as a
+                 necessary input to achieve the stated outcomes of the project.
+
+              H. State Agency or Program or Business Owner: Any of these terms has the same meaning as
+                 “Using Agency” as defined in § 24-101-301, C.R.S. A state agency is limited to the
+
+State of Colorado | Governor’s Office of Information Technology | Procurement Standards                                   Page 2 of 7
+
+Procurement Standard
+Vendor Selection Standard for Major IT Projects
+
+ Standard Owner: Financial Services                                                             Document ID: OIT-FinSvc-100
+                                                                                               Effective Date: Nov. 30, 2018
+ Version: 1.1                                                                             Last Reviewed Date: March 14, 2019
+
+                   governmental units identified in C.R.S. §24-37.5-102(4).
+
+              I.   Vendor: A person or entity that submits a bid in response to a solicitation. “Vendor” has the
+                   same meaning as “Offeror” as defined in § 24-101-301, C.R.S.
+
+              J. Vendor Selection: The process of identification of need, solicitation, evaluation, and award
+                 under the Procurement Code and Procurement Rules.
+
+              K. Vendor Selection Committee: A committee formed to evaluate bids or proposals submitted in
+                 response to a solicitation and to make a recommendation of one or more vendors for award of
+                 a contract.
+
+    5. ROLES & RESPONSIBILITIES
+          A. OIT - Procurement and Vendor Services:
+                 i.  Owner of Standard
+                ii.  Engage stakeholders and subject matter experts to determine standard
+              iii.   Update document standards and version number
+               iv.   Present to ELT for approval and adoption
+                v.   Conduct solicitations as required for any Major IT Project
+               vi.   Organize and manage any Vendor Selection Committee
+              vii.   Draft, negotiate, and approve any contract with a vendor for a Major IT Project
+             viii.   Consult Subject Matter Experts as needed regarding the solicitation, contract, or
+                     performance of any Major IT Project
+          B. OIT - Project Governance:
+                 i.  Manage Major IT Projects through the project lifecycle after a vendor has been
+                     selected
+          C. Vendor Selection Committee:
+                 i.  Review and evaluate the proposals submitted for any solicitation
+                ii.  Consider resources required to be provided by the vendor and by the state, and the
+                     feasibility and costs of any state resources
+              iii.   Work in good faith to agree on a unanimous recommendation for one or more vendors
+                     to be awarded
+               iv.   Draft a written memorandum that clearly articulates the justification for the
+                     recommendation for submission to the State CIO for final approval
+                v.   Represent the justifications for non-unanimous majority and minority
+                     recommendations, if any, in separate written memoranda to be presented to the State
+                     CIO for consideration
+          D. OIT - State Chief Information Officer:
+                 i.  Review recommendation(s) submitted by the Vendor Selection Committee and provide
+
+State of Colorado | Governor’s Office of Information Technology | Procurement Standards                                   Page 3 of 7
+
+Procurement Standard
+Vendor Selection Standard for Major IT Projects
+
+ Standard Owner: Financial Services                                                             Document ID: OIT-FinSvc-100
+                                                                                               Effective Date: Nov. 30, 2018
+ Version: 1.1                                                                             Last Reviewed Date: March 14, 2019
+
+                        a final vendor selection
+                     ii.Resolve differences of opinion between majority and minority recommendations from
+                        the Vendor Selection Committee
+              E. State Agency:
+                    i.  Initiate project governance for any IT Project and pursue determination of whether
+                        any IT project is a Major IT Project as further described in OIT Policy 200-01, Project
+                        Lifecycle Methodology and Governance
+                   ii.  Provide a representative with appropriate knowledge and experience to participate
+                        meaningfully and in good faith in the Vendor Selection Committee
+                  iii.  Promptly inform OIT Procurement and Vendor Services regarding any performance or
+                        contract compliance issues with a Contractor on a Major IT Project and collaborate
+                        with OIT on resolving such issues
+              F. Contractor:
+                    i.  Perform the work on the Major IT Project in accordance with the terms of any RFP,
+                        contract, statement of work, or other project document and follow all applicable
+                        state policies and procedures
+                   ii.  Promptly inform OIT Procurement and Vendor Services regarding any concerns or
+                        issues that may impact the Major IT Project and collaborate with OIT on resolving such
+                        issues
+                  iii.  Propose new technologies when appropriate for evaluation by the state and conduct
+                        cost-benefit analysis for prospective new technologies for service delivery
+              G. Additional Assignments:
+                    i.  All OIT staff are responsible to be aware of the existence of this (and all) standard(s)
+                        and its purposes of authority and governance in support of OIT’s statutorily mandated
+                        mission in service of Colorado state government affairs.
+
+    6. STANDARDS
+          A. Classification of Project as Major IT Project:
+               i.    For the purposes of determining whether an IT Project is a Major IT Project, OIT shall
+                     employ a comprehensive risk assessment as described in OIT Policy 200-01, Project
+                     Lifecycle Methodology and Governance.
+
+              B. Identification of Eligible Vendors:
+                   i.    An eligible vendor for a Major IT Project will meet the following criteria, as
+                         determined by OIT after reviewing evidence provided in an RFP response or otherwise
+                         provided by the vendor:
+                            a. Financial viability as evidenced by recent financial statements
+                            b. Adequate resources available, which shall include without limitation:
+                                     1. Identification of key personnel
+
+State of Colorado | Governor’s Office of Information Technology | Procurement Standards                                   Page 4 of 7
+
+Procurement Standard
+Vendor Selection Standard for Major IT Projects
+
+ Standard Owner: Financial Services                                                             Document ID: OIT-FinSvc-100
+                                                                                               Effective Date: Nov. 30, 2018
+ Version: 1.1                                                                             Last Reviewed Date: March 14, 2019
+
+                                        2. Quantified account of anticipated resources and duration of
+                                           commitment
+                                        3. Identification of back-up and/or contingency resources
+                                        4. Identification of personnel resources that will be dedicated full-time to
+                                           the project
+                                        5. Identification of any state contracts or projects currently employing the
+                                           same personnel or technological resources
+                                 c. Lack of negative reference from any State of Colorado work performed in the
+                                    last two years
+                                 d. Agreement to comply with all applicable state and OIT policies and procedures,
+                                    including without limitation:
+                                        1. Contractual reporting requirements
+                                        2. Project Lifecycle Methodology and Governance
+                                        3. Colorado Information Security Policies (CISPs)
+                                        4. OIT Enterprise and Technical Standards
+                                        5. OIT Accessibility Standards
+                                        6. IV&V review
+                                        7. OIT Background Check Policy
+                                        8. Reasonable security access to vendor staff and resources
+                                        9. Employment of existing enterprise tools and solutions prior to proposing
+                                           alternative solutions
+
+              C. Selection of Vendors for Major IT Projects:
+                    i.  If a Major IT Project will be solicited, the solicitation must include language to provide
+                        for new technology both during the solicitation and proposal period and through the
+                        lifecycle of the contract.
+                   ii.  A Vendor Selection Committee for a Major IT Project will be composed of, at
+                        minimum:
+                             a. A representative of the state agency/program/business owner
+                             b. A Technical Solution Architect
+                             c. A representative of the Office of Information Security
+                             d. An IT Director partnered and aligned with the state agency/program/business
+                                owner
+                             e. A representative of the IV&V vendor, if any
+                  iii.  The selection of vendor services will invariably align to OIT’s objective to provide
+                        highly efficient, secure, and scalable IT services which support the various missions of
+                        Executive Branch agencies. For that purpose, the following Architecture Principles will
+                        be used in evaluating the ability of any vendor services or products to satisfy the
+                        requirements of the project:
+                             a. Shared Services Provide Enterprise Value: Shared services provide maximum
+
+State of Colorado | Governor’s Office of Information Technology | Procurement Standards                                   Page 5 of 7
+
+Procurement Standard
+Vendor Selection Standard for Major IT Projects
+
+ Standard Owner: Financial Services                                                             Document ID: OIT-FinSvc-100
+                                                                                               Effective Date: Nov. 30, 2018
+ Version: 1.1                                                                             Last Reviewed Date: March 14, 2019
+
+                                   long-term value to the enterprise as a whole, while optimizing Total Cost of
+                                   Ownership (TCO) and risks overall for individual stakeholders and clients.
+                               b. Simplicity: Solutions and designs should aim to reduce the operational
+                                   complexity of the enterprise based primarily on functional, scalability, and
+                                   security/compliance considerations. Solutions and designs which are dictated
+                                   by artificial ownership constructs or convoluted billing/funding structures will
+                                   be rejected.
+                               c. Fit for Purpose: Architecture and designs should provide capabilities which
+                                   maximize the opportunity for reuse, scalability, and standardization of
+                                   services, without over-engineering them.
+                               d. Data Governance and Compliance: The architecture should seek to maximize
+                                   the operational capability to satisfy security compliance expectations and
+                                   facilitate expedient data governance practices.
+                               e. Innovation and Customer Service: Solutions should provide the best possible
+                                   customer outcomes and furnish the flexibility to capitalize on innovation
+                                   opportunities.
+                               f. Sustainability and Support: Vendor and solutions should provide ongoing
+                                   support model and pricing structure to optimize TCO, mitigate risks to the
+                                   state, and ensure vendor partnership with OIT and long-term ownership of the
+                                   solution.
+                    iv.     The decision of the State CIO to select one or more vendors for award shall be final,
+                            subject to the provisions of §§ 24-109-101.1, C.R.S., et seq.
+                     v.     OIT will be the party representing the state on any contract for a Major IT Project.
+
+    7. VARIANCES & EXCEPTION PROCESS
+       Any request to procure or deploy technology that is a variance to the standards and provisions stated
+       within this document must be requested or, and approved by, the “Owner of Standard” listed in
+       section 5 of this document (“Roles & Responsibilities”).
+
+         Requests may be acquired by completing the “EXCEPTION REQUEST to Technical Standard” form and
+         including the completed form (including all signatures) along with other documentation required as
+         part of standard procedures when executing a technology procurement or service deployment.
+
+    8. REVISION HISTORY
+       This standard is to be reviewed every 12 months by the document owner and remains in effect until
+       rescinded.
+
+           REVISION           REVISED BY              BRIEF DESCRIPTION OF CHANGES                  APPROVED BY        NEXT REVIEW
+             DATE                                                                                                         DATE
+
+State of Colorado | Governor’s Office of Information Technology | Procurement Standards                                   Page 6 of 7
+
+Procurement Standard
+Vendor Selection Standard for Major IT Projects
+
+ Standard Owner: Financial Services                                                             Document ID: OIT-FinSvc-100
+                                                                                               Effective Date: Nov. 30, 2018
+ Version: 1.1                                                                             Last Reviewed Date: March 14, 2019
+
+           3/14/2019      Thirza Kennedy          Removed section 5.B.i as it was               Brenda Berlin,         3/14/2020
+                                                  originally added in error and removed         Deputy CIO & CFO
+                                                  section 9. Appendix as it was blank.          Laura Calder, Deputy
+                                                                                                CFO
+
+State of Colorado | Governor’s Office of Information Technology | Procurement Standards                                   Page 7 of 7
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

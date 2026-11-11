@@ -2860,29 +2860,821 @@ sources:
     stub_reason: "Borderline for scope, owner decision (the same call as Washington's RCW 43.386): the part governs state and local agency use of facial recognition services (accountability reports, meaningful human review, testing, training, record keeping; 24-18-302 to 24-18-306) but 24-18-307 and 24-18-308 are law-enforcement provisions (surveillance and tracking, prohibited uses, warrants; disclosure to a criminal defendant), and the scope statement puts law-enforcement technology out except where a general agency-AI rule names it. It passes the domain test otherwise: 24-18-301 (2) defines 'Agency' as 'An agency of the state government or of a local government' or a state institution of higher education, and 24-18-301 (14)(b) makes the office of information technology the reporting authority for a state agency. The source was read on 2026-11-11 in the title 24 file already fetched (133 lines, PART 3 heading to the source note 'L. 2022: Entire part added, (SB 22-113), ch. 463, ... effective August 10'); the slice ingests cleanly, so the entry becomes a document the moment the owner takes it in (remove stub and stub_reason, run src/ingest.py)."
     why_relevant: "Colorado's only enacted statute found that regulates state agency use of an AI technology (facial recognition): notice of intent and accountability reports, meaningful human review of decisions with legal or similarly significant effects, pre-use testing, user training and record keeping (SB 22-113). The Office of Information Technology is the reporting authority for state agencies."
 
-  # ---- Colorado stubs: OIT policy instruments (no document file; oit.colorado.gov refuses the fetch)
-  # oit.colorado.gov answered HTTP 403 (a CloudFront error page, 919 bytes) to the toolkit's Fetcher with its shipped
-  # User-Agent and to plain curl on 2026-11-10/11, for every path tried: the home page, the technical standards and
-  # policies library, robots.txt, sitemap.xml, a policy PDF path and the AI guide. So the library could not be
-  # listed, and no title, date or link below was read on an OIT page. The two stubs exist because the Legislative
-  # Audit Committee's audit 2551P-IT and OIT's GenAI project list, both fetched from content.leg.colorado.gov, name
-  # the instruments. Per-policy stubs for the four CISPs and for the rest of the library are NOT created: their
-  # titles and numbers could not be confirmed at an official page fetched tonight.
-  - id: co-oit-cisp-2025
-    url: https://oit.colorado.gov/standards-policies-guides/technical-standards-policies
+  # ---- Colorado administrative rules: 8 CCR 1501, Governor's Office of Information Technology (Code of Colorado Regulations)
+  # www.sos.state.co.us/CCR answers the toolkit Fetcher only through the curl transport (docs/research/07). Read 2026-11-11: the
+  # Secretary of State's browse list (NumericalDeptList.do) names department 1501 'Office of the Governor' and, under it, agency
+  # 'Governor's Office of Information Technology' (agencyID 168); that agency's list (NumericalCCRDocList.do?deptID=6&agencyID=168,
+  # the watch entry below) names nine rule sets, 8 CCR 1501-4 to 1501-12 less 1501-10 (not listed). Each rule's page shows a
+  # 'Current version' with its effective date. IN FORCE and seeded here: 1501-5, 1501-7, 1501-9, 1501-11, 1501-12. NOT in force,
+  # left out: 1501-4 (INFORMATION AND TECHNOLOGY MANAGEMENT CODE, current version is the repeal notice, 'Entire rule repealed
+  # eff. 04/14/2014'), 1501-6 (RULES IN SUPPORT OF THE OFFICE OF INFORMATION TECHNOLOGY, 'repealed eff. 04/14/2026', one-page notice),
+  # 1501-8 (PUBLIC SAFETY TRUST FUND, listed '[Repealed eff. 06/30/2024]'). The url of each entry is the PDF of the rule's current
+  # version, which the page says 'constitutes the official version of the rule and shall govern in all cases'; ruleVersionId pins
+  # the version, so a new version of a rule is noticed through the watch entry (a new Current version row), and the entry is then
+  # re-pointed by the owner. The five leads in the earlier note (1501-5, -6, -9, -11, -12) were checked: -6 is repealed.
+  - id: co-ccr-8-1501-5
+    sha256: "8f847b47ae14dd5479aa75a046128d4d1401e42d11ef52129da2e4d69d6ebeaa"
+    url: https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12587&fileName=8%20CCR%201501-5
+    format: pdf
+    citation: "8 CCR 1501-5"
+    title: "RULES IN SUPPORT OF THE COLORADO INFORMATION SECURITY ACT"
+    doc_type: rule
+    jurisdiction: colorado
+    issuing_body: "Office of the Governor, Governor's Office of Information Technology"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    why_relevant: "Rules adopted by the Chief Information Security Officer under the Colorado Information Security Act (C.R.S. 24-37.5-403, 404, 404.5): every public agency maintains an annual agency or enterprise cybersecurity plan (ACSP or ECSP, due July 15), what the plan contains, and the NIST Cybersecurity Framework the rules incorporate by reference."
+  - id: co-ccr-8-1501-7
+    sha256: "a263b64c583b1487602e4621cc077270bbfdaa58c9972528f8ea7959af33311a"
+    url: https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=3366&fileName=8%20CCR%201501-7
+    format: pdf
+    citation: "8 CCR 1501-7"
+    title: "RULE IN SUPPORT OF CENTRALIZED IT MANAGEMENT AND CREATION OF ENTERPRISE ARCHITECTURE OFFICE AND DATA MANAGEMENT PROGRAM"
+    doc_type: rule
+    jurisdiction: colorado
+    issuing_body: "Office of the Governor, Governor's Office of Information Technology"
+    tags: [governance, oversight, cloud-resilience]
+    recheck: monthly
+    why_relevant: "Rule under C.R.S. 24-37.5-104 that governs every state agency's IT: it creates the Office of Enterprise Architecture in OIT, which sets enterprise standards for all technical domains and runs the enterprise architecture and data management programs, and aligns IT investment with state policy."
+  - id: co-ccr-8-1501-9
+    sha256: "4a1e446a23bbf4ea58f47823435039b6d2b5f59bbd9ca8ddc736d535c4fc0afa"
+    url: https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=7073&fileName=8%20CCR%201501-9
+    format: pdf
+    citation: "8 CCR 1501-9"
+    title: "COLORADO RULES REGARDING ELECTRONIC TRANSACTIONS BY COLORADO GOVERNMENTAL AGENCIES"
+    doc_type: rule
+    jurisdiction: colorado
+    issuing_body: "Office of the Governor, Governor's Office of Information Technology"
+    tags: [digital-services, cybersecurity]
+    recheck: monthly
+    why_relevant: "Rules naming OIT as the Policy Authority for governmental electronic transactions (C.R.S. 24-71.3): agencies must use technologies OIT authorizes, follow its security standards, and OIT may suspend an agency that does not."
+  - id: co-ccr-8-1501-11
+    sha256: "09a37a9acba6d8fd9f58405c51092fdb2b17bf98775862965e75e99741b89984"
+    url: https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=12000&fileName=8%20CCR%201501-11
+    format: pdf
+    citation: "8 CCR 1501-11"
+    title: "RULES ESTABLISHING TECHNOLOGY ACCESSIBILITY STANDARDS"
+    doc_type: rule
+    jurisdiction: colorado
+    issuing_body: "Office of the Governor, Governor's Office of Information Technology"
+    tags: [digital-services]
+    recheck: monthly
+    why_relevant: "Rules under C.R.S. 24-37.5-106 (4) and 24-85-103 setting the accessibility standards for information technology systems that state agencies use, public-facing or internal, for individuals with a disability."
+  - id: co-ccr-8-1501-12
+    sha256: "7ac0541442f6f1ab4ccea6205bcf2eba4b8808ec7de6af3613736cff404aebb2"
+    url: https://www.sos.state.co.us/CCR/GenerateRulePdf.do?ruleVersionId=11787&fileName=8%20CCR%201501-12
+    format: pdf
+    citation: "8 CCR 1501-12"
+    title: "INFORMATION TECHNOLOGY LIFECYCLE PLANNING"
+    doc_type: rule
+    jurisdiction: colorado
+    issuing_body: "Office of the Governor, Governor's Office of Information Technology"
+    tags: [oversight, funding, cloud-resilience]
+    recheck: monthly
+    why_relevant: "Rules under C.R.S. 24-37.5-106 (4) and 24-37.5-126 that establish the State's technology lifecycle plan: the inventory and categorization of state IT assets, the annual fiscal impact analysis and the annual technical debt estimate."
+  - id: co-watch-ccr-oit-rules
+    url: https://www.sos.state.co.us/CCR/NumericalCCRDocList.do?deptID=6&agencyID=168
     format: html
-    citation: "Colorado Information Security Policies (CISPs), November 2025 set"
-    title: "Colorado Information Security Policies (CISPs), November 2025 set"
+    citation: "Code of Colorado Regulations: Governor's Office of Information Technology (8 CCR 1501)"
+    title: "Secretary of State: Governor's Office of Information Technology rules (8 CCR 1501)"
+    doc_type: rule
+    jurisdiction: colorado
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Secretary of State's list of every OIT rule set (number and title, with '[Repealed eff. ...]' marked). A new rule set, a repeal, or a rule's new version shows here; the rule entries above point at one version's PDF."
+
+  # ---- Colorado OIT policies: Google Drive PDFs (documents), found through OIT's index page
+  # oit.colorado.gov answers HTTP 403 to the toolkit Fetcher even with the curl transport (2026-11-11: the Technical Standards &
+  # Policies page, the Statewide GenAI Agency Responsibilities page and the OIT Rules Information page). The links below were found
+  # through the Wayback Machine copy of that index page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies); the Wayback
+  # Machine was used only to find them, no text comes from it. Each file is a Google Drive file OIT publishes and links from its own page,
+  # fetched from Google Drive's download form (drive.google.com/uc?export=download&id=...), the same file as the /view page OIT links.
+  # The identity check requires the policy's own title in its first 1,500 characters and a mention of OIT.
+  - id: co-oit-authority-memo
+    sha256: "dd43dbd5212e2d3bc6351aee1faaa95ce7b56a8256143c0672d57573c04cdffc"
+    url: https://drive.google.com/uc?export=download&id=12jw2Gm4zQsgOwy0xx1HoOeVWOSWglH0q
+    format: pdf
+    citation: "OIT Authority & Governance Operations Memorandum"
+    title: "OIT Authority & Governance Operations Memorandum"
     doc_type: policy
     jurisdiction: colorado
-    issuing_body: "Governor's Office of Information Technology, Office of Information Security"
-    tags: [cybersecurity, governance, data]
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [governance, oversight]
+    recheck: monthly
+    identity_text: "OIT’s Authority & Governance"
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824; OIT links https://drive.google.com/file/d/12jw2Gm4zQsgOwy0xx1HoOeVWOSWglH0q/view"
+    why_relevant: "The memorandum (revised Feb. 2026) that states OIT's statutory authority under C.R.S. title 24, article 37.5 (IT staff, standards, projects, internet-based government, infrastructure), the CIO's and CISO's authority, and the duties of state agencies and public agencies toward OIT. Listed under Governance on OIT's index page; its Drive title is 'OIT Authority & Governance Operations Memorandum.pdf'. Link found through the archived copy of the OIT index page (timestamp 20260822055824)."
+  - id: co-oit-esignature-guidelines
+    sha256: "bb7f2c62c9d5a47ca77a386fa108422385051143872bfca783130a28fe21500c"
+    url: https://drive.google.com/uc?export=download&id=1bpFam_yFLbZBqnl7nmRr_Zl2ErPrXcCV
+    format: pdf
+    citation: "eSignature Recommended Policy Guidelines for State Agencies"
+    title: "eSignature Recommended Policy Guidelines for State Agencies"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [digital-services]
+    recheck: monthly
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824; OIT links https://drive.google.com/file/d/1bpFam_yFLbZBqnl7nmRr_Zl2ErPrXcCV/view"
+    why_relevant: "Which eSignature solution a state agency should use for each kind of document (legal signature or acknowledgment, with or without sensitive data), from a Deputy Directors' working group led by the Department of Personnel & Administration. The PDF prints 'Published January 2020' and names OIT only as the approver of further solutions ('As additional solutions are approved by OIT'); it is OIT's because OIT's index page lists and links it under its General IT Operational Policies (eSignature), not because the PDF says so. Link found through the archived copy of the OIT index page (timestamp 20260822055824)."
+  - id: co-oit-vendor-selection-standard
+    sha256: "e8eaafc6c1d756f04ef6a54557e35aa6ff8f84046949f04467a71e29c9ba5403"
+    url: https://drive.google.com/uc?export=download&id=1iuPwfRpcwXxHVcsSlDe1jRCe9HA4rF8T
+    format: pdf
+    citation: "OIT-FinSvc-100"
+    title: "Vendor Selection Standard for Major IT Projects"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [procurement, oversight]
+    recheck: monthly
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824; OIT links https://drive.google.com/file/d/1iuPwfRpcwXxHVcsSlDe1jRCe9HA4rF8T/view"
+    why_relevant: "OIT's standard for selecting any vendor for a Major IT Project (House Bill 18-421; C.R.S. 24-37.5-102 and 105): who must follow it, vendor eligibility and the selection steps. Document ID OIT-FinSvc-100, version 1.1, effective Nov. 30, 2018, last reviewed March 14, 2019 as the PDF prints it; OIT's index page lists it under Financial Services without an 'Archived' mark. Link found through the archived copy of the OIT index page (timestamp 20260822055824)."
+
+  # ---- Colorado OIT policy stubs (no document file): servicehub.colorado.gov articles and oit.colorado.gov pages
+  # 54 in-force instruments from the same archived index page: the four active CISPs (CISP-001 to 004), the technical standards
+  # (TS-APP, TS-CISO, TS-DAT, TS-DBS, TS-INF, TS-OEA, TS-OIT), the Statewide GenAI Policy, the Delegation of Authority policy and
+  # procedure, and the three Real-time Billing Dispute documents. Every one is an article in OIT's ServiceNow portal, whose text the
+  # Fetcher cannot read (script-rendered; see each stub_reason). They are listed, with their archived-index provenance, so that a
+  # reader finds them and a later transport can ingest them. NOT seeded because the index marks them archived or they are superseded:
+  # the 'Archived' CISP sets of 2026 (16 policies, CISP-001 IT Access Control Management and User Security ... CISP-018, one servicehub
+  # article KB0014349), 2022 (CISP-001 to 019, 'Archived ... (2022 Version)', Google Docs) and 2019 (CISP-001 to 018, Google Docs), and the
+  # 'Other Policy Archives': Major Projects Boards Policy (POL 200-02) and Project Lifecycle Methodology & Governance (POL 200-01).
+  - id: co-oit-cisp-001
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014333
+    format: html
+    citation: "CISP-001"
+    title: "Acceptable Use of State Data & Information Technology"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity, governance]
     recheck: monthly
     stub: true
-    stub_reason: "URL AND CITATION UNCONFIRMED. oit.colorado.gov returns HTTP 403 to the toolkit's Fetcher (honest User-Agent) and to plain curl, so the 403 does not show the page exists; the url is the library page named by a web search result and by docs/research/02 (blocked there too), not a page read tonight, and neither fetched audit PDF contains an oit.colorado.gov address. The citation and title ('November 2025 set') are composed from the audit's wording, not a title OIT published. The owner swaps in the OIT url and title once the library can be read; the audit URL below is the one fetched source that names the instrument. Identity comes from the Legislative Audit Committee's January 2026 audit 2551P-IT (https://content.leg.colorado.gov/sites/default/files/documents/audits/2551P-IT_Cybersecurity_Resiliency_PUBLIC.pdf, fetched): 'OIT issued updated CISPs, effective November 2025 and enforceable July 2026. OIT consolidated the 16 December 2024 CISPs down to four (4) CISPs that make up the November 2025 CISPs.' The four titles and numbers are not confirmed at an official page. Also see C.R.S. 24-37.5-403 (2)(b): the chief information security officer 'shall promulgate rules' containing information security policies, so these may also exist in the Code of Colorado Regulations (not reachable, see the left-out notes)."
-    why_relevant: "The State's information security policies, which under 24-37.5-403 are issued for public agencies and, per the audit, apply to OIT, public agencies and vendors. Replaced the 16 December 2024 CISPs; the audit calls the earlier set the one in force during its audit."
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT Colorado Information Security Policy, an active (current) policy of the State's information security program issued by the Chief Information Security Officer under C.R.S. 24-37.5-403; the 2026 set replaced the 16 policies of December 2024."
+  - id: co-oit-ts-oea-001
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012222
+    format: html
+    citation: "TS-OEA-001"
+    title: "Technology Accessibility for Persons with Disabilities"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT Office of Enterprise Architecture technical standard on accessibility of technology for persons with disabilities."
+  - id: co-oit-cisp-002
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014334
+    format: html
+    citation: "CISP-002"
+    title: "Incident Response Policy"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT Colorado Information Security Policy, an active (current) policy of the State's information security program issued by the Chief Information Security Officer under C.R.S. 24-37.5-403; the 2026 set replaced the 16 policies of December 2024."
+  - id: co-oit-cisp-003
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014335
+    format: html
+    citation: "CISP-003"
+    title: "Information Technology Security Risk Management"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT Colorado Information Security Policy, an active (current) policy of the State's information security program issued by the Chief Information Security Officer under C.R.S. 24-37.5-403; the 2026 set replaced the 16 policies of December 2024."
+  - id: co-oit-cisp-004
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014336
+    format: html
+    citation: "CISP-004"
+    title: "Data Security Policy"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT Colorado Information Security Policy, an active (current) policy of the State's information security program issued by the Chief Information Security Officer under C.R.S. 24-37.5-403; the 2026 set replaced the 16 policies of December 2024."
+  - id: co-oit-ts-app-003
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012204
+    format: html
+    citation: "TS-APP-003"
+    title: "Development Frameworks"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for application development and delivery on state IT."
+  - id: co-oit-ts-app-004
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012218
+    format: html
+    citation: "TS-APP-004"
+    title: "Programming Languages (Custom Applications)"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for application development and delivery on state IT."
+  - id: co-oit-ts-app-005
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012221
+    format: html
+    citation: "TS-APP-005"
+    title: "Secure Application Software Standards & Configuration Management"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for application development and delivery on state IT."
+  - id: co-oit-ts-app-006
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012212
+    format: html
+    citation: "TS-APP-006"
+    title: "Functional Application Test Automation Tool"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for application development and delivery on state IT."
+  - id: co-oit-ts-app-009
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012197
+    format: html
+    citation: "TS-APP-009"
+    title: "Continuous Integration Servers"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for application development and delivery on state IT."
+  - id: co-oit-ts-app-010
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012196
+    format: html
+    citation: "TS-APP-010"
+    title: "Code Repositories (Repository Manager)"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for application development and delivery on state IT."
+  - id: co-oit-ts-app-011
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012211
+    format: html
+    citation: "TS-APP-011"
+    title: "Front End Website & Web Application Framework"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for application development and delivery on state IT."
+  - id: co-oit-ts-ciso-001
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014452
+    format: html
+    citation: "TS-CISO-001"
+    title: "Authentication & Account Management Standard v. 2026"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard issued by the Office of Information Security (CISO), 'v2026' or current, supporting the Colorado Information Security Policies."
+  - id: co-oit-ts-ciso-002
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014495
+    format: html
+    citation: "TS-CISO-002"
+    title: "Logging and Monitoring Standard v2026"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard issued by the Office of Information Security (CISO), 'v2026' or current, supporting the Colorado Information Security Policies."
+  - id: co-oit-ts-ciso-003
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014472
+    format: html
+    citation: "TS-CISO-003"
+    title: "Remote Access Standard v2026"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard issued by the Office of Information Security (CISO), 'v2026' or current, supporting the Colorado Information Security Policies."
+  - id: co-oit-ts-ciso-004
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014474
+    format: html
+    citation: "TS-CISO-004"
+    title: "Patch Management Standard v2026"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard issued by the Office of Information Security (CISO), 'v2026' or current, supporting the Colorado Information Security Policies."
+  - id: co-oit-ts-ciso-006
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014476
+    format: html
+    citation: "TS-CISO-006"
+    title: "Encryption Standard v2026"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard issued by the Office of Information Security (CISO), 'v2026' or current, supporting the Colorado Information Security Policies."
+  - id: co-oit-ts-ciso-012
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0013483
+    format: html
+    citation: "TS-CISO-012"
+    title: "Physical Security for IT Spaces"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard issued by the Office of Information Security (CISO), 'v2026' or current, supporting the Colorado Information Security Policies."
+  - id: co-oit-ts-dat-001
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012207
+    format: html
+    citation: "TS-DAT-001"
+    title: "Enterprise Data Access and Integration Services"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state data services."
+  - id: co-oit-ts-dat-002
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012186
+    format: html
+    citation: "TS-DAT-002"
+    title: "Secure File Transfer"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state data services."
+  - id: co-oit-ts-dbs-001
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012193
+    format: html
+    citation: "TS-DBS-001"
+    title: "Supported Databases and Versions"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-003
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012184
+    format: html
+    citation: "TS-DBS-003"
+    title: "Database Patch Management"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-005
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012217
+    format: html
+    citation: "TS-DBS-005"
+    title: "Database Backup and Recovery"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-006
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012200
+    format: html
+    citation: "TS-DBS-006"
+    title: "Database Security"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience, cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-007
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012201
+    format: html
+    citation: "TS-DBS-007"
+    title: "Database Software Management"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-008
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012203
+    format: html
+    citation: "TS-DBS-008"
+    title: "Database User Administration"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-009
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012198
+    format: html
+    citation: "TS-DBS-009"
+    title: "Database Decommissioning"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-013
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012189
+    format: html
+    citation: "TS-DBS-013"
+    title: "DBMS Server Inventory"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-014
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012202
+    format: html
+    citation: "TS-DBS-014"
+    title: "Database Support in Cloud Services"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-016
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012199
+    format: html
+    citation: "TS-DBS-016"
+    title: "Database Developer Service"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-dbs-017
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012191
+    format: html
+    citation: "TS-DBS-017"
+    title: "DBMS Software Installation"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [data, cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for databases run for state agencies."
+  - id: co-oit-ts-inf-001
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012205
+    format: html
+    citation: "TS-INF-001"
+    title: "End User Computer Equipment"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-002
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012206
+    format: html
+    citation: "TS-INF-002"
+    title: "End User Enterprise Software"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-003
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012238
+    format: html
+    citation: "TS-INF-003"
+    title: "Identity and Access Administration"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-004
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012215
+    format: html
+    citation: "TS-INF-004"
+    title: "Kiosk Equipment"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-005
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012192
+    format: html
+    citation: "TS-INF-005"
+    title: "Structured Cabling"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-006
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012208
+    format: html
+    citation: "TS-INF-006"
+    title: "Enterprise Load Balancing"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-007
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012245
+    format: html
+    citation: "TS-INF-007"
+    title: "Wireless Site Survey"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-008
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012216
+    format: html
+    citation: "TS-INF-008"
+    title: "Network Monitoring"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-009
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012213
+    format: html
+    citation: "TS-INF-009"
+    title: "Infrastructure as Code Standard"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-010
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012210
+    format: html
+    citation: "TS-INF-010"
+    title: "Enterprise Wireless"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-011
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012214
+    format: html
+    citation: "TS-INF-011"
+    title: "Infrastructure Operations Technology Standards"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-012
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0013086
+    format: html
+    citation: "TS-INF-012"
+    title: "Multifunction Device/Printer Configuration"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-013
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0013572
+    format: html
+    citation: "TS-INF-013"
+    title: "UPS/PDU for Network Systems"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-014
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0013423
+    format: html
+    citation: "TS-INF-014"
+    title: "Network Switching Standard"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-015
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014745
+    format: html
+    citation: "TS-INF-015"
+    title: "Information Technology Multifactor Authentication (MFA)"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-inf-016
+    url: https://servicehub.colorado.gov/now/nav/ui/classic/params/target/kb_view.do%3Fsys_kb_id%3D1a44ffaadbda0b901970f055f3961982
+    format: html
+    citation: "TS-INF-016"
+    title: "Network Routing and SD-WAN Routers"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The address OIT's page links is a ServiceNow classic knowledge view (kb_view.do); the Fetcher was redirected to the state's sign-on (pingid.state.co.us SAML), so no text could be read. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active standard; the Wayback Machine was used only to find the link."
+    why_relevant: "OIT technical standard for state IT infrastructure."
+  - id: co-oit-ts-oit-006
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012220
+    format: html
+    citation: "TS-OIT-006"
+    title: "Secure Applications Coding Standard"
+    doc_type: standard
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT technical standard for secure application coding."
   - id: co-oit-genai-policy
-    url: https://oit.colorado.gov/standards-policies-guides/guide-to-artificial-intelligence/statewide-genai-agency-responsibilities
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0012606
     format: html
     citation: "Statewide GenAI Policy"
     title: "Statewide GenAI Policy"
@@ -2892,36 +3684,111 @@ sources:
     tags: [ai, governance]
     recheck: monthly
     stub: true
-    stub_reason: "URL UNCONFIRMED. oit.colorado.gov returns HTTP 403 to the toolkit's Fetcher and to plain curl, so the 403 does not show the page exists. The url is an OIT page about the policy named by a web search result, not read tonight, neither fetched PDF contains an oit.colorado.gov address, and it may not be the policy document itself. The owner swaps in the OIT url once it can be read. Identity comes from OIT's 'GenAI Projects by Agency' list (https://content.leg.colorado.gov/sites/default/files/2025-12/OIT-GenAI%20Projects.pdf, fetched), which says 'The state policy specifically covers Generative AI (GenAI)' and 'DOC is enforcing the Statewide GenAI Policy with staff; GenAI used by state agencies may assist a human reviewer'. Its date, number and title as printed by OIT are unconfirmed."
-    why_relevant: "The Colorado instrument that governs state agency use of generative AI (agency intake, OIT risk assessment). Colorado has no general statute on state agency use of AI (the one agency-use statute found is the facial recognition part, stubbed above as co-crs-24-18-pt3; see the left-out notes), so this policy is the general AI instrument for state agencies."
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "The Colorado instrument that governs state agency use of generative AI (agency intake, OIT risk assessment). Colorado has no general statute on state agency use of AI, so this policy is the general AI instrument for state agencies."
+  - id: co-oit-delegation-of-authority-policy
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014644
+    format: html
+    citation: "Delegation of Authority Policy"
+    title: "Delegation of Authority Policy"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT policy on delegation of authority within the Governor's Office of Information Technology."
+  - id: co-oit-delegation-of-authority-procedure
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014645
+    format: html
+    citation: "Delegation of Authority Procedure"
+    title: "Delegation of Authority Procedure"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT procedure that implements the Delegation of Authority Policy."
+  - id: co-oit-real-time-billing-dispute-policy
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014763
+    format: html
+    citation: "Real-time Billing Dispute Policy"
+    title: "Real-time Billing Dispute Policy"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [funding]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT policy on disputes of real-time IT billing to state agencies."
+  - id: co-oit-real-time-billing-dispute-procedure
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014762
+    format: html
+    citation: "Real-time Billing Dispute Procedure"
+    title: "Real-time Billing Dispute Procedure"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [funding]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT procedure on disputes of real-time IT billing to state agencies."
+  - id: co-oit-real-time-billing-dispute-process-agency-steps
+    url: https://servicehub.colorado.gov/ts?id=tech_standard&sysparm_article=KB0014761
+    format: html
+    citation: "Real-time Billing Dispute Process Agency Steps"
+    title: "Real-time Billing Dispute Process Agency Steps"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [funding]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Technical Standards & Policies page, timestamp 20260822055824"
+    stub_reason: "The article is on servicehub.colorado.gov, a ServiceNow portal. Its address answers HTTP 200 to the Fetcher with the same script-rendered shell for every article number tried (page title 'Knowledge - Techincal Standards - Public Page - Statewide Technical Standards and Policies', about 513 KB, no article text); the text is loaded by script from a call the Fetcher (GET only) cannot make, and the classic article view (kb_view.do) redirects to the state's sign-on. No text of the instrument could be read from an official source. oit.colorado.gov itself answers HTTP 403 to the Fetcher with the curl transport. Title and number are copied from the archived index. Link found through the Wayback Machine copy of OIT's Technical Standards & Policies page, archive timestamp 20260822055824 (http://web.archive.org/web/20260822055824/https://oit.colorado.gov/standards-policies-guides/technical-standards-policies), listed there as an active policy, not under an 'Archived' heading; the Wayback Machine was used only to find the link, no text comes from it."
+    why_relevant: "OIT process steps for agencies in a real-time billing dispute."
+  - id: co-oit-genai-agency-responsibilities
+    url: https://oit.colorado.gov/standards-policies-guides/guide-to-artificial-intelligence/statewide-genai-agency-responsibilities
+    format: html
+    citation: "Statewide GenAI Agency Responsibilities"
+    title: "Statewide GenAI Agency Responsibilities"
+    doc_type: policy
+    jurisdiction: colorado
+    issuing_body: "Governor's Office of Information Technology"
+    tags: [ai, governance]
+    recheck: monthly
+    stub: true
+    found_via: "Wayback Machine copy of OIT's Statewide GenAI Agency Responsibilities page, timestamp 20260214051202"
+    stub_reason: "oit.colorado.gov answers HTTP 403 to the Fetcher with the curl transport (2026-11-11), so the page cannot be read from an official source. The page exists: its Wayback Machine copy (http://web.archive.org/web/20260214051202/https://oit.colorado.gov/standards-policies-guides/guide-to-artificial-intelligence/statewide-genai-agency-responsibilities, timestamp 20260214051202) was read to find links only, and no text from it is used. It is the page in OIT's Guide to Artificial Intelligence that states what agencies and OIT must do under the Statewide GenAI Policy (intake and NIST-based risk assessment, testing by risk level), and it links the policy at servicehub.colorado.gov (co-oit-genai-policy)."
+    why_relevant: "The plain-language statement of agency and OIT responsibilities under the Statewide GenAI Policy; the policy itself is co-oit-genai-policy."
 
   # ---- Colorado found and left out (the reason is recorded here)
   #
-  # What could not be reached on 2026-11-10/11, and so was not seeded:
-  #  - The Governor's executive orders. governor.colorado.gov timed out on every request (connection refused for
-  #    WebFetch, no answer for the Fetcher and curl); www.colorado.gov/governor, governorsoffice.colorado.gov and
-  #    cdn.colorado.gov answered 403. No Colorado executive order could be read, so none is seeded. A web search found
-  #    no Polis order on IT, AI or cybersecurity that is clearly in force (the orders it found were election-specific
-  #    National Guard activations and the 2025 call for a special session on the AI act). UNVERIFIED either way.
-  #  - Administrative rules (Code of Colorado Regulations). www.sos.state.co.us/CCR and www.coloradosos.gov/CCR answer
-  #    HTTP 500 with a Cloudflare challenge script to every request (Welcome.do, NumericalDeptList.do,
-  #    DeptAgencyList.do); the SOS home page and the CCR home page (/pubs/CCR/CCRHome.html) load. So the rule set
-  #    could not be listed. The statute says rules exist or may exist: 24-37.5-106 (4) (the CIO 'may promulgate as rules'
-  #    the policies and standards developed under 24-37.5-105 (4), and rules establishing accessibility standards),
-  #    24-37.5-403 (2)(b) (the CISO 'shall promulgate rules' containing information security policies) and
-  #    24-85-103. docs/research/02 section 3 names '8 CCR 1501' as the OIT rules (a lead, NOT confirmed: not
-  #    fetched). A web search on 2026-11-11 names five rule sets under the OIT department; each is an UNCONFIRMED
-  #    LEAD, not a citation, because none could be read at the Secretary of State (every CCR .do path and the Upload/
-  #    PDF paths answered HTTP 500, rechecked): 8 CCR 1501-5 (rules in support of the Colorado Information Security
-  #    Act), 8 CCR 1501-6 (Office of Information Technology), 8 CCR 1501-9 (electronic transactions by governmental
-  #    agencies), 8 CCR 1501-11 (technology accessibility) and 8 CCR 1501-12 (IT lifecycle planning). The titles are
-  #    the search result's wording, not the SOS's. None is a seed entry; each becomes one once its SOS page is read.
-  #    OWNER DECISION: retry the CCR from an environment the SOS site accepts, using these five as the target list.
-  #  - The rest of the OIT technical standards and policies library (acceptable use, accessibility TS-OEA-xxx
-  #    standards, governance, project management policies, the Statewide GenAI guide and agency responsibilities).
-  #    docs/research/02 reports part of the set is employee-only (S, unconfirmed); the library page itself could not
-  #    be fetched. The two stubs above are the only items an official page I could read names.
+  # What could not be reached on 2026-11-11, and so was not seeded as a document:
+  #  - The Governor's executive orders (retried 2026-11-11 through the Fetcher and plain curl for reachability): governor.colorado.gov
+  #    and spl.cde.state.co.us (the Colorado State Publications Library, which a web search showed holds the Governor's orders as
+  #    PDFs under /artemis/goserials/go4312internet/) time out on connection (no answer in 20 seconds, curl exit 28);
+  #    www.colorado.gov/governor (including /governor/executive-orders and /governor/2024-executive-orders) and governorsoffice.colorado.gov answer
+  #    HTTP 403 (also with the curl transport); coloradosos.gov has no orders page (404). So no Colorado executive order
+  #    could be read from an official source, and none is seeded. A web search (discovery only, nothing used) found no Polis order on
+  #    state IT, AI or cybersecurity that is clearly in force; it found election-security National Guard orders and a 2024 order
+  #    rescinding about 200 earlier orders. UNVERIFIED either way. Retry when governor.colorado.gov or the State Library answers.
+  #  - OIT pages on oit.colorado.gov (HTTP 403 to the Fetcher, also with curl): the Technical Standards & Policies index, the OIT Rules
+  #    Information page, the Guide to Accessible Web Services and its Vendor Accessibility Checklist (a checklist is a form), and the
+  #    rest of the Guide to Artificial Intelligence. The index was read only through the Wayback Machine, to find links.
+  #  - Employee-only items, if any (docs/research/02): none shown on the archived index.
   #
+
   # Statutes not seeded:
   #  - C.R.S. 6-1-1701 to 6-1-1709 (Colorado Consumer Protection Act, part 17, artificial intelligence). In the
   #    2026 edition the part exists twice: the SB 24-205 text 'effective until January 1, 2027' and the text SB 26-189
