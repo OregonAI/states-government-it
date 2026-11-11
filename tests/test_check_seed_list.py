@@ -152,3 +152,37 @@ def test_cli_fails_on_two_sources_blocks(tmp_path):
     r = subprocess.run([sys.executable, "-m", "src.check_seed_list", "--manifest", str(m)],
                        cwd=ROOT, capture_output=True, text=True)
     assert r.returncode == 1 and "sources" in r.stdout
+
+
+# ---- California slices: the code is one the ingester knows, and only California entries carry one ----
+
+CA_DOMAIN = {**DOMAIN, "states": ["oregon", "california"]}
+
+
+def ca_errs(*entries):
+    return c.check({"sources": list(entries)}, CA_DOMAIN)
+
+
+def ca_entry(**kw):
+    return entry(**{"jurisdiction": "california", "slice": {"code": "GOV", "path": "3.3.1.8"}, **kw})
+
+
+def test_california_slice_code_must_be_one_the_ingester_knows():
+    assert ca_errs(ca_entry()) == []
+    assert any("slice" in m for m in ca_errs(ca_entry(slice={"code": "XYZ", "path": "3.3.1.8"})))
+    assert any("slice" in m for m in ca_errs(ca_entry(slice={"code": "gov", "section": "7405"})))
+    for code in ("GOV", "CIV", "PCC"):
+        assert ca_errs(ca_entry(slice={"code": code, "section": "1"})) == []
+
+
+def test_california_slice_codes_are_the_ingesters_codes():
+    from src import ingest
+    assert c.CA_SLICE_CODES == set(ingest.CA_CODES.values())
+
+
+def test_a_code_slice_belongs_only_on_a_california_entry():
+    assert any("slice" in m for m in errs(entry(slice={"code": "GOV", "section": "7405"})))
+
+
+def test_a_california_entry_cannot_carry_an_article_slice():
+    assert any("slice" in m for m in ca_errs(ca_entry(slice={"article": "73"})))

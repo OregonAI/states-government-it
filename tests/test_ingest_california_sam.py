@@ -64,7 +64,8 @@ def test_sam_page_without_a_chapter_region_is_refused():
 
 def test_sam_identity_is_the_cited_chapter():
     src = {"id": "ca-sam-5900", "doc_type": "policy", "jurisdiction": "california",
-           "citation": "SAM chapter 5900", "title": "Information Technology - Disposal of IT Equipment"}
+           "citation": "SAM chapter 5900",
+           "title": "State Administrative Manual chapter 5900: Information Technology - Disposal of IT Equipment"}
     ing.check_identity(src, sam(SAM_5900))
     with pytest.raises(ValueError, match="not the cited instrument"):
         ing.check_identity({**src, "citation": "SAM chapter 5000"}, sam(SAM_5900))
@@ -186,3 +187,46 @@ def test_sam_unknown_list_style_is_an_error_not_a_decimal_list():
             b'<div class="row"><ol style="list-style-type: hebrew;"><li>x</li></ol></div><hr /><script>1</script></main>')
     with pytest.raises(ValueError, match="hebrew"):
         sam(html)
+
+
+# ---- identity: the seed title is the chapter's title in the manual's contents page ---------------
+
+SAM_TOC = (FIX / "sam-toc.html").read_bytes()      # https://www.dgs.ca.gov/Resources/SAM/TOC, fetched 2026-11-11
+
+
+def test_sam_contents_page_titles_are_read_by_chapter_number():
+    titles = ing.sam_toc_titles(SAM_TOC)
+    assert titles["5900"] == "Information Technology - Disposal of IT Equipment"
+    assert titles["4900"] == "Information Technology - California Department of Technology"
+
+
+def test_sam_seed_titles_are_state_administrative_manual_chapter_n_colon_the_contents_title():
+    import yaml
+    manifest = yaml.safe_load((Path(__file__).resolve().parent.parent / "_meta" / "source-manifest.yml").read_text())
+    titles = ing.sam_toc_titles(SAM_TOC)
+    seeded = [e for e in manifest["sources"]
+              if e.get("jurisdiction") == "california" and e["id"].startswith("ca-sam-")]
+    assert len(seeded) == 7
+    for e in seeded:
+        n = e["citation"].rsplit(" ", 1)[1]
+        assert e["title"] == f"State Administrative Manual chapter {n}: {titles[n]}", e["id"]
+
+
+SRC_SAM = {"id": "ca-sam-5900", "doc_type": "policy", "jurisdiction": "california",
+           "citation": "SAM chapter 5900",
+           "title": "State Administrative Manual chapter 5900: Information Technology - Disposal of IT Equipment"}
+
+
+def test_sam_identity_refuses_a_title_that_is_not_the_manuals_chapter_title_form():
+    ing.check_identity(SRC_SAM, sam(SAM_5900))
+    for bad in ("totally wrong title", "State Administrative Manual chapter 5000: Information Technology - Maintenance Records",
+                "State Administrative Manual chapter 5900: "):
+        with pytest.raises(ValueError, match="title"):
+            ing.check_identity({**SRC_SAM, "title": bad}, sam(SAM_5900))
+
+
+def test_ccr_identity_title_is_the_whole_chapter_heading_not_a_part_of_it():
+    ing.check_identity(SRC_CCR10, ccr(CCR_10))
+    for bad in ("Signatures", "Digital", "Digital Signatures and More", "digital signatures"):
+        with pytest.raises(ValueError, match="not the cited"):
+            ing.check_identity(dict(SRC_CCR10, title=bad), ccr(CCR_10))

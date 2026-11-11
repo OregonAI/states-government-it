@@ -263,6 +263,14 @@ class _SamParser(HTMLParser):
             self.cur.append(data)
 
 
+def sam_toc_titles(raw: bytes) -> dict[str, str]:
+    """The manual's contents page (`/Resources/SAM/TOC`): chapter number -> the title it prints
+    in its link. Not a document; it is what a test checks the seed titles against."""
+    page = _decode(raw)
+    return {n: " ".join(html_mod.unescape(t).split()) for n, t in
+            re.findall(r'<a href="/Resources/SAM/TOC/(\d+)">([^<]+)</a>', page)}
+
+
 def sam_html_to_text(raw: bytes) -> str:
     """The Department of General Services' State Administrative Manual chapter view
     (`/Resources/SAM/TOC/<chapter>/Chapter-View`): the page prints the whole chapter. The text is
@@ -688,6 +696,12 @@ def check_identity(src: dict, text: str) -> None:
         if not chapter or not text.startswith(f"Chapter {chapter.group(1)} - Chapter-View\n"):
             raise ValueError(f"{src['id']}: page is not the cited instrument: "
                              f"{src['citation']!r} does not match the chapter view's first line")
+        # the chapter view does not print the chapter's title; the seed title must be the form built
+        # from the manual's contents page (a test compares every seed title with a fetched copy of it)
+        prefix = f"State Administrative Manual chapter {chapter.group(1)}: "
+        if not src["title"].startswith(prefix) or not src["title"][len(prefix):].strip():
+            raise ValueError(f"{src['id']}: seed title {src['title']!r} is not "
+                             f"{prefix!r} followed by the chapter's title in the manual's contents page")
         return
     if src["doc_type"] in ("policy", "standard"):
         number = _POLICY_NUMBER.search(src["citation"])
@@ -709,7 +723,7 @@ def check_identity(src: dict, text: str) -> None:
         head = text.splitlines()[:5]
         got = [next((l for l in head if l.startswith(w.split(" ")[0] + " ")), "") for w in (want or ["", "", ""])]
         if (not cite or [" ".join(l.split(" ")[:2]) for l in got] != want
-                or src["title"] not in got[2]):
+                or got[2][len(want[2]) + 1:] != src["title"]):
             raise ValueError(f"{src['id']}: page is not the cited instrument: {src['citation']!r} "
                              f"does not match the page's title, division and chapter headings")
         return

@@ -19,6 +19,7 @@ import yaml
 ROOT = Path(__file__).resolve().parent.parent
 REQUIRED = ("id", "url", "format", "citation", "title", "doc_type", "jurisdiction", "tags",
             "why_relevant")
+CA_SLICE_CODES = {"GOV", "CIV", "PCC"}   # the codes src/ingest.py's CA_CODES maps to (a test keeps them equal)
 FORMATS = {"html", "pdf", "doc", "docx", "xlsx", "json", "xml", "txt"}
 
 
@@ -80,14 +81,17 @@ def check(manifest: dict, domain: dict) -> list[str]:
         urls.add(key)
         if "slice" in e and e["slice"] is not None:
             ok_strings = isinstance(sl, dict) and all(isinstance(v, str) and v for v in sl.values())
-            colorado = ok_strings and not _blank(sl.get("article")) and not set(sl) - {"article", "part"}
-            # a California slice of the Legislature's bulk download: a code and exactly one of a
-            # table-of-contents path or a section number
-            california = (ok_strings and not _blank(sl.get("code")) and set(sl) <= {"code", "path", "section"}
+            is_ca = e.get("jurisdiction") == "california"
+            colorado = (not is_ca and ok_strings and not _blank(sl.get("article"))
+                        and not set(sl) - {"article", "part"})
+            # a California slice of the Legislature's bulk download: a code the ingester knows and
+            # exactly one of a table-of-contents path or a section number; only California entries
+            california = (is_ca and ok_strings and sl.get("code") in CA_SLICE_CODES
+                          and set(sl) <= {"code", "path", "section"}
                           and len(set(sl) & {"path", "section"}) == 1)
             if not (colorado or california):
-                bad("slice must be a mapping with article (and optionally part), or with code and "
-                    "exactly one of path or section, as strings")
+                bad("slice must be a mapping with article (and optionally part), or, on a california entry, "
+                    f"with code (one of {sorted(CA_SLICE_CODES)}) and exactly one of path or section, as strings")
         url = e.get("url")
         if isinstance(url, str) and not url.startswith(("http://", "https://")):
             bad(f"url is not http(s): {url}")
