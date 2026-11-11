@@ -69,16 +69,84 @@ def test_a_state_with_no_module_gets_the_shared_checks_and_no_html_cleanup():
         ing.check_identity(pdf_policy, "something else", "pdf")
 
 
-def test_a_state_module_imports_no_other_state_and_not_the_ingest_flow():
+def forbidden_imports(source: str, own: str, all_states: set) -> list:
+    """Full module names a state module imports that it may not: the ingest flow and any other state.
+    `src.ingest_common`, `src.ingest_docx` and `src.ingest_ocr` are allowed."""
     import ast
+    found = []
+    for node in ast.walk(ast.parse(source)):
+        if isinstance(node, ast.Import):
+            found += [a.name for a in node.names]
+        elif isinstance(node, ast.ImportFrom):
+            base = node.module or ""
+            if node.level:                     # relative: resolve against src.states
+                pkg = ["src", "states"][:max(0, 2 - (node.level - 1))]
+                base = ".".join(pkg + ([base] if base else []))
+            found.append(base)
+            found += [f"{base}.{a.name}" for a in node.names]
+    banned = {"src.ingest"} | {f"src.states.{n}" for n in all_states if n != own}
+    return sorted({m for m in found if m in banned})
+
+
+@pytest.mark.parametrize("line", [
+    "from src import ingest",
+    "import src.ingest",
+    "from src.ingest import x",
+    "from src.states import washington",
+    "from src.states.washington import x",
+    "from . import washington",
+    "from .washington import x",
+    "from .. import ingest",
+    "import src.states.washington as w",
+])
+def test_the_import_rule_catches_every_way_to_import_the_ingest_flow_or_another_state(line):
+    assert forbidden_imports(line, "oregon", {"oregon", "washington"}), line
+
+
+@pytest.mark.parametrize("line", [
+    "from src.ingest_common import _squash",
+    "from src.ingest_ocr import ocr",
+    "from src import ingest_docx",
+    "from src.states import UNHANDLED",
+    "from src.states.oregon import x",        # itself
+    "import re",
+])
+def test_the_import_rule_allows_the_shared_helpers_and_the_package(line):
+    assert forbidden_imports(line, "oregon", {"oregon", "washington"}) == [], line
+
+
+def test_a_state_module_imports_no_other_state_and_not_the_ingest_flow():
     import pathlib
+    names = set(states.modules())
     for p in pathlib.Path(states.__file__).parent.glob("*.py"):
         if p.name == "__init__.py":
             continue
-        for node in ast.walk(ast.parse(p.read_text())):
-            mod = node.module if isinstance(node, ast.ImportFrom) else None
-            names = [a.name for a in node.names] if isinstance(node, (ast.Import, ast.ImportFrom)) else []
-            bad = [m for m in ([mod] if mod else []) + names
-                   if m in ("src.ingest", "src.states.oregon", "src.states.washington", "src.states.california",
-                            "src.states.colorado") or m == "src.ingest_ocr"]
-            assert not bad, f"{p.name} imports {bad}"
+        bad = forbidden_imports(p.read_text(), p.stem, names)
+        assert not bad, f"{p.name} imports {bad}"
+
+
+def _loads_command() -> str:
+    import pathlib
+    import re
+    gates = (pathlib.Path(states.__file__).parents[2] / "scripts" / "gates.sh").read_text()
+    return re.search(r'run "ingester loads" python3 -c "([^"]+)"', gates).group(1)
+
+
+def test_the_ingester_loads_gate_fails_on_a_state_module_that_cannot_be_imported(tmp_path):
+    import pathlib
+    import shutil
+    import subprocess
+    import sys
+    src = pathlib.Path(states.__file__).parents[1]
+    shutil.copytree(src, tmp_path / "src", ignore=shutil.ignore_patterns("__pycache__"))
+    shutil.copytree(src.parent / "_meta", tmp_path / "_meta", ignore=shutil.ignore_patterns("snapshots"))
+    cmd = [sys.executable, "-c", _loads_command()]
+    assert subprocess.run(cmd, cwd=tmp_path, capture_output=True).returncode == 0
+    (tmp_path / "src" / "states" / "zbroken.py").write_text("def (:\n")
+    assert subprocess.run(cmd, cwd=tmp_path, capture_output=True).returncode != 0
+
+
+def test_ci_runs_the_same_loads_command_as_the_gate():
+    import pathlib
+    ci = (pathlib.Path(states.__file__).parents[2] / ".github" / "workflows" / "ci.yml").read_text()
+    assert f'- run: python3 -c "{_loads_command()}"' in ci

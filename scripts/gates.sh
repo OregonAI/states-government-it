@@ -22,7 +22,7 @@ run "status current" corpus-generate-status --config _meta/corpus.yml --output S
 run "seed list"      python3 src/check_seed_list.py --check
 run "ingest current" python3 src/ingest.py --check
 run "codeowners"     python3 .github/scripts/check-codeowners-paths.py
-run "ingester loads" python3 -c "import src.ingest"
+run "ingester loads" python3 -c "import src.ingest, src.states; src.states.modules()"
 if ls tests/test_*.py >/dev/null 2>&1; then run "unit tests" python3 -m pytest tests/ -q; fi
 
 [ $fail -eq 0 ] && echo "ALL GATES PASSED" || echo "GATES FAILED"
