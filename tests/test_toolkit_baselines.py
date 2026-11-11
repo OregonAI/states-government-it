@@ -45,7 +45,7 @@ def test_the_toolkit_finds_every_state_file_as_a_group_of_its_own(copy):
     cfg, seed = copy
     groups = {g["group"]: len(g["sources"]) for g in config_mod.load_source_manifest_groups(cfg)}
     assert groups == {p.stem: len(yaml.safe_load(p.read_text())["sources"]) for p in seed.glob("*.yml")}
-    assert len(groups) >= 4 and sum(groups.values()) == 518
+    assert groups and all(n > 0 for n in groups.values())       # no state count here: a new state adds a file
 
 
 @pytest.mark.parametrize("state", ["oregon", "washington", "california", "colorado"])
