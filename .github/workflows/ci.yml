@@ -1,0 +1,66 @@
+name: ci
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  frontmatter:
+    uses: OregonAI/corpus-toolkit/.github/workflows/validate-frontmatter.yml@v1
+  provenance:
+    uses: OregonAI/corpus-toolkit/.github/workflows/verify-provenance.yml@v1
+  links:
+    uses: OregonAI/corpus-toolkit/.github/workflows/check-links.yml@v1
+    with:
+      # lychee walks './**/*.md'. Without these exclusions it crawls
+      # _meta/templates/document.md — a skeleton whose example URLs are not meant
+      # to resolve — and every PR fails on link rot that is not link rot.
+      # _meta/snapshots/ is excluded because a large corpus's snapshots would drag
+      # hundreds of upstream URLs into a per-PR gate; upstream availability is what
+      # the scheduled drift job is for.
+      exclude-paths: |
+        _meta/snapshots
+        _meta/templates
+
+  # EVERY COMMITTED GENERATED ARTIFACT MUST BE CURRENT, checked on every PR.
+  #
+  # The toolkit only READS _meta/graph.json, so nothing upstream notices when a document is
+  # added and the graph is not rebuilt -- resolve_citation and graph_neighbors simply stop
+  # finding it, silently, with no error anywhere. The same is true of a stale STATUS.md and
+  # of an llms.txt still carrying the template's Contents stub (corpus-template#16: five
+  # live corpora advertised an empty agent entry point for weeks).
+  #
+  # Those three gates are what every template-shaped corpus owes regardless of content, so
+  # they run from ONE place -- the toolkit's reusable template-gates.yml on the CI track
+  # (`@v1`, ADR-0014) -- and cannot drop out of this file one at a time, which is exactly
+  # what happened when each corpus carried its own copy (corpus-toolkit v1.35.0; CONTEXT.md
+  # "Template gates"). Where a gate genuinely does not apply, say so with an input
+  # (`graph-check: false`, `status-check: false`) rather than deleting the job.
+  #
+  # _meta/corpus-index.json is deliberately NOT gated. The platform builds it at deploy
+  # time in publish-index.yml and never commits it, precisely so it cannot fall behind its
+  # own corpus in a way that damages a SIBLING repo's citation resolution.
+  #
+  # ADD A JOB FOR EVERY OTHER GENERATED FILE YOU COMMIT -- a `generated` job installing the
+  # toolkit at the SERVING pin (`pip install -r requirements.txt`) with one `--check` step per
+  # artifact, as oregon-budget and oregon-kpm do. A generated file with no check is the
+  # failure this whole arrangement exists to prevent, and it is silent by construction.
+  # Prefer `--check` to `git diff --exit-code`: STATUS.md carries a "Generated <date>" line.
+  template-gates:
+    uses: OregonAI/corpus-toolkit/.github/workflows/template-gates.yml@v1
+
+  # `generated` is where a corpus adds `--check` steps for the generated files IT commits beyond
+  # the template's (graph, STATUS.md, llms.txt are template-gates' job). The template itself
+  # commits none, so this is the empty required check a new corpus fills in.
+  generated:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      # The example ingester must at least import against the pinned toolkit: a template that
+      # ships a broken starting point ships it to every corpus instantiated from it.
+      - run: python3 -c "import src.ingest_example"
+      - run: echo "no corpus-specific generated files yet -- add one --check step here per file you commit"

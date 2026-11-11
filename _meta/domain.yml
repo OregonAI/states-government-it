@@ -1,0 +1,44 @@
+# The domain pack: what this corpus is about. A new policy domain is a new repo with a
+# different copy of this file, a different seed list, and no new shared code.
+# Decisions behind every line are in docs/spec.md.
+
+scope: >
+  Instruments that govern how a state government itself plans, buys, builds, secures,
+  operates and oversees information technology, including AI and automated decision
+  systems.
+
+# An instrument is in scope when BOTH hold.
+inclusion_test:
+  - The obligated party is a state government entity, or a vendor under a state contract.
+  - The subject is IT, data or AI as a government function.
+
+# Value of `jurisdiction` in every document and seed entry, and the folder name under
+# each content root.
+states: [oregon, washington, california, colorado]
+
+# doc_type values this corpus holds. Each has one content root in corpus.yml.
+instrument_types: [statute, rule, executive_order, policy, standard]
+
+# The only values allowed in `tags`. One or more per document.
+tags:
+  governance: IT governance and organization (CIO office, authority, boards)
+  oversight: IT planning, investment and project oversight
+  procurement: IT acquisition and procurement
+  funding: IT funding models
+  cybersecurity: Cybersecurity of state systems
+  data: Governance and privacy of government-held data
+  ai: Government use of AI
+  digital-services: Digital services, accessibility, identity
+  cloud-resilience: Cloud, enterprise architecture, resilience
+
+# Not ingested. Contested cases: docs/research/03-domain-taxonomy.md section 3.3,
+# recommendation column.
+out_of_scope:
+  - private-sector AI regulation and consumer privacy law
+  - deepfakes and AI crimes
+  - broadband, 911 and telecom
+  - law-enforcement technology, election systems, K-12 edtech
+  - legislative and judicial branch IT
+  - local government instruments
+  - federal requirements
+  - bills not yet enacted

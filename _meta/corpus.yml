@@ -1,0 +1,110 @@
+# Corpus configuration — the single source of truth the toolkit reads.
+corpus:
+  id: "states-it-governance"                # = repo name, e.g. oregon-records-retention
+  name: "State Government IT Governance"            # display name
+  jurisdiction: "united-states"       # the corpus spans states; each document carries its own (oregon, washington, ...)
+  # document | api | hybrid — CHANGE THIS to your corpus's archetype. Ships as a literal
+  # default rather than a {{ARCHETYPE}} placeholder for the same reason authoritative_source
+  # ships a syntactically-valid .invalid URL below: toolkit v1.19.0 validates the archetype
+  # at load (a hybrid/api additionally requires plugins.tools_module before the server will
+  # start), so a bare placeholder failed the template's own CI. The replication guide's
+  # find/replace of {{ARCHETYPE}} still fills README/AGENTS prose.
+  archetype: "document"
+  # Where the OFFICIAL text lives — the ORS/OAR landing page, the SoS Archives
+  # schedules page, the legislature's bill site. Emitted on every MCP response
+  # (interface contract, response convention 1). Not optional in practice: the
+  # disclaimer on every response tells an agent this copy is non-authoritative and to
+  # "verify at source", and without this it is never told WHERE the source is. All four
+  # corpora that predate this key shipped without one, and every agent asking them
+  # `corpus_overview` was given that dead end. Requires corpus-toolkit >= 1.7.0.
+  #
+  # URL-SHAPED ON PURPOSE, unlike every other placeholder in this file. Since toolkit v1.10.0
+  # a non-URL here is a validation ERROR, not a warning — the reasoning being that response
+  # convention 1 says this field IS a URL, so a caller will try to follow it. A bare
+  # `{{AUTHORITATIVE_SOURCE_URL}}` therefore made the template fail its own CI the moment it
+  # was repinned past v1.9.0: every corpus would have started life from a template that does
+  # not pass. `.invalid` is reserved by RFC 2606 precisely so it can never resolve, so this
+  # is still unmistakably a placeholder — it just fails at the right time, when someone
+  # follows it, rather than blocking the template from validating itself.
+  authoritative_source: "https://github.com/OregonAI/states-it-governance/blob/main/_meta/source-manifest.yml"  # four states, so no single official site: the manifest lists every official source
+  schema_version: 1
+  contract_version: 1
+
+content_roots:                       # where document files live (document/hybrid).
+                                     # jurisdiction-wide root: one doc_type for the
+                                     # whole directory —
+  - path: "statutes"
+    doc_type: "statute"
+  - path: "rules"
+    doc_type: "rule"
+  - path: "executive-orders"
+    doc_type: "executive_order"
+  - path: "policies"
+    doc_type: "policy"
+  - path: "standards"
+    doc_type: "standard"
+                                     # Each root holds one folder per state:
+                                     # statutes/oregon/, statutes/washington/, ...
+                                     # issuing-body-scoped root: <path>/<slug>/<subdir> —
+  # - path: "agencies"
+  #   scoped: true
+  #   subdirs:
+  #     policies: policy
+  #     procedures: procedure
+
+plugins:
+  # citation_module: "src.citation_schemes"    # calls mcp.framework.register_scheme()
+  # snapshot_slice_module: "src.slicing:slice" # (doc_id, snapshot_id, raw_text) -> str
+  # semantic_search_module: "src.semantic_search"  # module exposing available() -> bool
+  #                                                # and rank(query, want) -> [doc_id]
+  # issuing_body_registry: "_meta/catalog/issuing-bodies.yml"
+  # issuing_body_registry_key: "entries"       # the TOP-LEVEL KEY inside that file.
+  #                                            # Defaults to "entries"; if your registry
+  #                                            # is keyed differently (e.g. "organizations")
+  #                                            # and you omit this, the toolkit reads an
+  #                                            # EMPTY registry and silently enforces no
+  #                                            # slug validation at all.
+  # issuing_body_profiles: "_meta/issuing-body-profiles.yml"    # {profiles: {slug: {...}}}
+  extra_schema_checks: []            # [{path: "...", schema: "..."}, ...]
+
+# Sibling corpora this one resolves citations INTO (toolkit >= 1.1.0). Optional;
+# omit entirely and resolution stays purely local, exactly as before v1.1.0.
+#
+# Use this instead of copying documents across corpora. A citation that resolves
+# next door stays one source of truth; a copied document becomes a second one that
+# drifts. `index_url` should point at an index the sibling PUBLISHES (e.g. from its
+# Pages build) rather than a committed file — a committed index can fall behind its
+# own corpus, and the damage lands here, as a resolution returning a stale title.
+#
+# Mark the matching citation schemes with register_scheme(..., corpus="<sibling id>").
+# siblings:
+#   - id: "sibling-corpus-name"
+#     index_url: "https://ORG.github.io/sibling-corpus-name/corpus-index.json"
+#     web_base:  "https://github.com/ORG/sibling-corpus-name/blob/main/"
+
+disclaimer_marker: "NON-AUTHORITATIVE"
+graph_path: "_meta/graph.json"
+source_manifest_path: "_meta/source-manifest.yml"
+snapshot_dir: "_meta/snapshots"
+
+provenance:
+  coverage_fail_threshold: 0.70
+  coverage_warn_threshold: 0.90
+
+# api: DELETE THIS BLOCK for archetype: document. The loader ignores it, so an
+#      orphaned api: block is silently inert — it misleads a reader into thinking
+#      live endpoints are configured when nothing reads them.
+# api:                               # api/hybrid only
+#   endpoints: []
+#   - name: "example"
+#     base_url: ""
+#     protocol: odata | soda | rest
+#     read_only: true
+#     max_results: 1000
+
+mcp:
+  server_name: "states-it-governance"
+  transports: [stdio, http]
+
+status:
+  reverify_days: 90                  # quarterly re-verification SLA
