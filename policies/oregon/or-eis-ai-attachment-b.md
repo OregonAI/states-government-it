@@ -11,13 +11,14 @@ issuing_body: Enterprise Information Services
 source_url: https://www.oregon.gov/eis/Documents/Attachment-B-AI-Risk-Management-Framework.pdf
 source_format: pdf
 retrieved: '2026-11-10'
-source_sha256: c0078206890a0a5acaa8c13091c9aa18d63347617d3d013b67c0ae0869145f42
+source_sha256: 809268c8a3b89d50a07dd3d00614e22c05b4f64b849032d4e17fd005217ba281
 effective_date: null
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
-  as extracted; form feeds and trailing spaces removed).
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -55,7 +56,7 @@ AI Risk Management Framework - June 16, 2026                                    
 
 Executive Summary
 This document serves as the guide to Oregon Executive Branch agencies for assessing and
-managing risk of the use of artiﬁcial intelligence (AI) in information technology tools that
+managing risk of the use of artificial intelligence (AI) in information technology tools that
 support the work of employees and the agency. The guide helps agency leaders identify
 and understand potential risks from the use of AI and provides a detailed list of potential
 safeguards and mitigations agencies may choose to deploy in their implementations.
@@ -65,32 +66,32 @@ AI is a transformative technology that has the ability to support humans in nume
 With access to accurate and secure data, appropriate human review of AI-generated
 outputs, and ongoing monitoring of AI systems, as well as other key components that
 support transparency, accountability, safety and trust, AI can be a major support tool. At
-the same time, AI must be managed and its outputs veriﬁed. AI makes mistakes, and
-therefore the process of human review must be evaluated and speciﬁed to mitigate risks
+the same time, AI must be managed and its outputs verified. AI makes mistakes, and
+therefore the process of human review must be evaluated and specified to mitigate risks
 for each AI use case.
 
 For a broad range of use cases, primarily those that use publicly available data and whose
 audience is internal facing, the risks are low and the state guide provides clear pathways to
 deploy AI responsibly. For other uses, particularly those that use data with sensitive or
-personally identiﬁable information or play a role in a process that could impact a person’s
+personally identifiable information or play a role in a process that could impact a person’s
 rights or safety, clear pathways are still in development and will require additional
 documentation and approval.
 
 What this guide applies to
 The State Chief Information Officer has approved the use of Microsoft Copilot Chat by all
-state employees. Speciﬁc recommendations on the use of Copilot Chat, Microsoft 365
+state employees. Specific recommendations on the use of Copilot Chat, Microsoft 365
 (M365) Copilot and Microsoft Teams Premium are provided in a separate policy document.
-Beyond these pre-approved tools, all use of generative or agentic artiﬁcial intelligence by
+Beyond these pre-approved tools, all use of generative or agentic artificial intelligence by
 agencies must be approved by Enterprise Information Services (EIS). This includes third
 party services, including Software as a Service (SaaS) subscriptions that have AI
-components, as well as custom-built projects. Speciﬁc deﬁnitions of generative and
+components, as well as custom-built projects. Specific definitions of generative and
 agentic AI are provided in the Statewide Responsible AI Usage Policy.
 
 How this guide works
 The starting point for any IT project, with or without AI, is the writing of a business case for
 the project. The IT investment process for obtaining approval for agency IT investments
 contains a list of required questions. When AI use is proposed, an additional initial list of
-questions on the AI Use Form must be answered to determine the risk level speciﬁc to the
+questions on the AI Use Form must be answered to determine the risk level specific to the
 
 AI Risk Management Framework - June 16, 2026                                                       2
 
@@ -98,7 +99,7 @@ proposed use of AI. If the proposed AI use is determined to be higher-risk, then
 requirements must be met.
 
 The importance of agency governance
-Consistent with their IT strategic plan and IT governance activities, agencies should deﬁne
+Consistent with their IT strategic plan and IT governance activities, agencies should define
 a process for intake and evaluation of AI use in agency processes. To support optimal
 decision-making, this process should involve a diverse group that includes leaders and
 frontline staff, data and IT representatives as well as business representatives. Many
@@ -111,14 +112,14 @@ Technology (NIST) AI Risk Management Framework 2.
 Crawl, before you walk or run
 This is the inaugural version of this guide for state of Oregon agencies, boards and
 commissions. It is geared toward agencies looking to use AI in low-risk ways and provides a
-foundation that will be added to over the coming months and years. The deﬁnition of what
+foundation that will be added to over the coming months and years. The definition of what
 constitutes higher-risk use cases is also described. Agencies seeking to implement AI in
 use cases falling into these higher-risk categories should engage with EIS directly.
 
 1
-  Oregon State Government Artiﬁcial Intelligence Advisory Council Final Recommended Action Plan, February 4, 2025.
+  Oregon State Government Artificial Intelligence Advisory Council Final Recommended Action Plan, February 4, 2025.
 2
-  NIST Artiﬁcial Intelligence Risk Management Framework (AI RMF 1.0). GOVERN 3.1 is the speciﬁc governance
+  NIST Artificial Intelligence Risk Management Framework (AI RMF 1.0). GOVERN 3.1 is the specific governance
 recommendation referenced.
 
 AI Risk Management Framework - June 16, 2026                                                                         3
@@ -126,10 +127,10 @@ AI Risk Management Framework - June 16, 2026                                    
 Initial Risk Evaluation: Completion of the AI Use Form
 All uses of applications or systems that use AI, outside of enterprise-approved systems
 such as Copilot, should begin with the completion and submission of an AI Use Form as
-part of the information technology investment (ITI) submission process. The ﬁelds on the AI
+part of the information technology investment (ITI) submission process. The fields on the AI
 Use Form are used to perform an initial risk evaluation.
 
-A key part of the AI Use Form is the identiﬁcation of features that may categorize the use as
+A key part of the AI Use Form is the identification of features that may categorize the use as
 higher-risk. These include:
 
    •   Public audience or users
@@ -141,10 +142,10 @@ complete a set of questions and requirements describing your understanding of th
 mitigations, and testing and monitoring plans related to accuracy, bias, privacy, and ethics.
 The questions are as follows:
 
-   •   What are the identiﬁed risks of Gen AI for this particular use case?
-   •   Are there speciﬁc risks related to privacy, accuracy, bias and/or ethics? Please
-       deﬁne.
-   •   What speciﬁc measures will be implemented to mitigate each of these risks?
+   •   What are the identified risks of Gen AI for this particular use case?
+   •   Are there specific risks related to privacy, accuracy, bias and/or ethics? Please
+       define.
+   •   What specific measures will be implemented to mitigate each of these risks?
    •   What testing methods will be executed prior to deployment to validate accuracy,
        safety, and reliability?
    •   What processes will be used to continuously audit and validate system outputs
@@ -378,7 +379,7 @@ rights-impacting or safety-impacting use of AI, your use is categorized as highe
 will have additional requirements, with ultimate approval requiring sign-off by the State
 CIO.
 
-For higher-risk use cases, additional artifacts will be required. Speciﬁcations on these
+For higher-risk use cases, additional artifacts will be required. Specifications on these
 artifacts are still in development and will likely include the following:
 
  Artifact                      Brief Description
@@ -410,12 +411,12 @@ Lower-risk      Level 1 or 2 data only,                               Content an
 1.Complete AI   Audience is internal, not the public                  reference generating tools like laws and policies,
 Use Form as     AND                                                   translation tools, content creation tools
 part of         Appropriate human review, including by a
-information     qualiﬁed subject matter expert if needed.             Internal chatbots for resource ﬁnding and process
+information     qualified subject matter expert if needed.             Internal chatbots for resource finding and process
 technology                                                            advice
 investment
 (ITI) process                                                         Network and security tools: packet inspection,
                                                                       system monitoring, intrusion prevention/
-                                                                      detection, spam ﬁltering, malware detection,
+                                                                      detection, spam filtering, malware detection,
                                                                       endpoint detection
 
                                                                       Certain code analysis and development tools
@@ -427,21 +428,21 @@ part of         Rights-impacting use:                                 customer s
 information     -Predictive analysis of crime                         recommendations on legal, tax or regulatory
 technology      -Evaluating a person in an employment context         information
 investment      -Evaluating a person in a learning, training or
-(ITI) process   educational context                                   Internal chatbots that have level 3/ conﬁdential
+(ITI) process   educational context                                   Internal chatbots that have level 3/ confidential
                 -Evaluating a person’s eligibility for a service or   data
 2.Further       good
 consultation    -Administration of justice, law enforcement or        Processing of data that informs safety decisions,
 with EIS and    immigration                                           such as water treatment ratios, load-bearing
-submission of   OR                                                    speciﬁcations for bridges, seismic analysis
+submission of   OR                                                    specifications for bridges, seismic analysis
 additional      Safety-impacting use:
-artifacts       -Acting as a safety component in a system or          Processing of conﬁdential data that identiﬁes or
+artifacts       -Acting as a safety component in a system or          Processing of confidential data that identifies or
                 products                                              describes an individual, including in a public safety
 3.Approval of   -Informing safety decisions                           context
 State CIO       OR
 required        AI processing that uses:
                 -Emotion recognition or sentiment analysis
                 -Scraping images
-                -Biometric categorization or identiﬁcation,
+                -Biometric categorization or identification,
                 including facial recognition
 Not allowed     Use of level 4 data                                   None
                 Decision-making without appropriate human
@@ -469,4 +470,4 @@ AI Risk Management Framework - June 16, 2026                                    
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

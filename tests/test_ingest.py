@@ -80,6 +80,14 @@ def test_pdf_text_is_layout_text_without_form_feeds_or_trailing_space():
     assert all(line == line.rstrip() for line in t.splitlines())
 
 
+def test_pdf_ligature_glyphs_become_letters_so_the_words_are_searchable():
+    # Real PDF the EIS site serves; pdftotext emits U+FB01 for "fi" in "configured", which
+    # keyword search cannot match against "configured" or "definition".
+    t = ing.to_text((FIX / "ai-attachment-e-ligature.pdf").read_bytes(), "pdf", "policy")
+    assert "configured AI systems" in t
+    assert not any("\ufb00" <= c <= "\ufb06" for c in t)
+
+
 def test_pdf_without_a_text_layer_is_refused_not_mirrored_empty():
     with pytest.raises(ValueError, match="text layer"):
         ing.to_text(BLANK_PDF, "pdf", "policy")

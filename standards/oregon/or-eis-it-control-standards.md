@@ -17,7 +17,8 @@ source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
-  as extracted; form feeds and trailing spaces removed).
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -2426,4 +2427,4 @@ Level 1, Published                                   PAGE 60
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -7,14 +7,14 @@ of personal information by state of Oregon
 
 Table of Contents
 Executive Summary......................................................................................................................2
-Deﬁnition of personal information ................................................................................................4
+Definition of personal information ................................................................................................4
 Oregon Enterprise Privacy Principles.............................................................................................6
 Agency Privacy Governance..........................................................................................................8
 Privacy Risk Evaluation Prompts ...................................................................................................9
 Privacy Review Checklist ............................................................................................................10
-Appendix A: Privacy Principles Expanded Deﬁnitions and Examples .............................................12
+Appendix A: Privacy Principles Expanded Definitions and Examples .............................................12
 Appendix B: Detailed Privacy Controls ........................................................................................26
-Appendix C: Deﬁnitions and Regulated Data Categories ..............................................................35
+Appendix C: Definitions and Regulated Data Categories ..............................................................35
 Appendix D: Additional Resources ..............................................................................................37
 
 May 29, 2026                                                                                                                          1
@@ -30,9 +30,9 @@ Overview
 This document provides enterprise guidance for the handling of personal information by
 Executive Branch agencies. This includes the collection, use, sharing, storage, and
 disposal of personal information in any form when handled for state business purposes,
-including by administrative systems, analytics, automation, and artiﬁcial intelligence. This
+including by administrative systems, analytics, automation, and artificial intelligence. This
 guidance is provided for all Executive Branch agencies, boards, and commissions as
-deﬁned in ORS 276A.230, as well as any contractor, vendor, or other third-party processor
+defined in ORS 276A.230, as well as any contractor, vendor, or other third-party processor
 who handles personal information on behalf of those agencies.
 
 This guidance:
@@ -40,14 +40,14 @@ This guidance:
     •   Describes the state of Oregon Enterprise Privacy Principles established by the Chief
         Privacy Officer, which are anchored in Fair Information Practice Principles (FIPPs) 1
         and the National Institute of Standards and Technology (NIST) Privacy Framework 2
-        while maintaining Oregon’s Information Asset Classiﬁcation Policy 3 as the
-        foundation for deﬁning and applying privacy controls.
+        while maintaining Oregon’s Information Asset Classification Policy 3 as the
+        foundation for defining and applying privacy controls.
     •   Provides a list of recommendations for agencies on when to use and how to apply
         the principles, including a privacy review checklist to use on new or existing
         processes, actions, or projects that involve the use of personal information.
     •   Includes a detailed appendix with application examples for each privacy principle
         and a privacy controls matrix aligned to NIST, with recommended controls organized
-        by information asset classiﬁcation level.
+        by information asset classification level.
 
 Recommendations for Agencies, Boards and Commissions
 The key recommendations for agencies are:
@@ -63,7 +63,7 @@ The key recommendations for agencies are:
 2
   Privacy Framework | NIST
 3
-  Information Asset Classiﬁcation Policy
+  Information Asset Classification Policy
 
 May 29, 2026                                                                                   2
 
@@ -74,37 +74,37 @@ May 29, 2026                                                                    
             existing data, or a new or changed data sharing agreement.
 Agencies are responsible for the data in their possession, and decisions on these
 recommendations rest with the agency. This guidance may be superseded by governing
-regulations for speciﬁc types of data held by agencies, including health data, criminal
+regulations for specific types of data held by agencies, including health data, criminal
 justice data, and educational data.
 
 May 29, 2026                                                                              3
 
-Deﬁnition of personal information
+Definition of personal information
 The term “personal information” is used throughout this document. State law applicable to
 all agencies’ work, the Oregon Consumer Information Protection Act (OCIPA, ORS
-646A.600 through 646A.628) provides a baseline deﬁnition for “personal information” for
-state agencies. OCIPA deﬁnes personal information as:
-      1. A consumer’s ﬁrst name or ﬁrst initial and last name in combination with any one or
+646A.600 through 646A.628) provides a baseline definition for “personal information” for
+state agencies. OCIPA defines personal information as:
+      1. A consumer’s first name or first initial and last name in combination with any one or
          more of the following data elements:
          • Social Security number;
-         • Driver’s license number or state identiﬁcation card number issued by the
+         • Driver’s license number or state identification card number issued by the
              Department of Transportation;
-         • Passport number or other identiﬁcation number issued by the United States;
+         • Passport number or other identification number issued by the United States;
          • Financial account number, credit card number or debit card number, in
              combination with any required security code, access code or password that
-             would permit access to a consumer’s ﬁnancial account;
+             would permit access to a consumer’s financial account;
          • Data from automatic measurements of a consumer’s physical characteristics,
-             such as an image of a ﬁngerprint, retina or iris, that are used to authenticate the
-             consumer’s identity during a ﬁnancial transaction or other transaction;
-         • Health insurance policy number or health insurance subscriber identiﬁcation
-             number in combination with any other unique identiﬁer that a health insurer
+             such as an image of a fingerprint, retina or iris, that are used to authenticate the
+             consumer’s identity during a financial transaction or other transaction;
+         • Health insurance policy number or health insurance subscriber identification
+             number in combination with any other unique identifier that a health insurer
              uses to identify the consumer; or
          • Any information about a consumer’s medical history or mental or physical
              condition or about a health care professional’s medical diagnosis or treatment
              of the consumer.
       2. A user name or other means of identifying a consumer for the purpose of permitting
          access to the consumer’s account, together with any other method necessary to
-         authenticate the user name or means of identiﬁcation.
+         authenticate the user name or means of identification.
       3. Any of the data elements or any combination of the data elements described above
          if:
          • Encryption, redaction or other methods have not rendered the data element or
@@ -112,20 +112,20 @@ state agencies. OCIPA deﬁnes personal information as:
          • The data element or combination of data elements would enable a person to
              commit identity theft against a consumer.
 As noted above, any single element of personal information, such as a Social Security
-number, driver’s license or passport number, or a ﬁnancial account number, is personal
+number, driver’s license or passport number, or a financial account number, is personal
 information. A user name and password (and any other authentication information) is also
-personal information. The OCIPA deﬁnition of “personal information” is reﬂected in the
-Information Asset Classiﬁcation Policy 107-400-050 4.
+personal information. The OCIPA definition of “personal information” is reflected in the
+Information Asset Classification Policy 107-400-050 4.
 
 4
-    Information Asset Classiﬁcation Policy
+    Information Asset Classification Policy
 
 May 29, 2026                                                                                   4
 
 The laws and rules for your agency may require that additional information assets must be
 treated as personal information, and/or may use different terminology. “Personally
-identiﬁable information” and “protected personal information” are two examples. These
-laws and rules often have speciﬁc requirements that you must follow for the protection of
+identifiable information” and “protected personal information” are two examples. These
+laws and rules often have specific requirements that you must follow for the protection of
 information.
 
 May 29, 2026                                                                                5
@@ -135,7 +135,7 @@ Enterprise Information Services (EIS) has developed these privacy principles to 
 Oregon Executive Branch agencies in managing personal information responsibly. These
 principles are adapted from the widely accepted Fair Information Practice Principles
 (FIPPs) and aligned with the National Institute of Standards and Technology (NIST) Privacy
-Framework. These principles reﬂect agencies’ legal obligations and operational realities,
+Framework. These principles reflect agencies’ legal obligations and operational realities,
 providing practical guidance for leadership and front-line staff alike. The goal is to help
 agencies build public trust by handling personal information lawfully, ethically, and
 transparently. Each principle below is explained in plain language, and a more detailed
@@ -148,10 +148,10 @@ ways that are authorized by law, ethical
 and non-discriminatory, and transparent
 (open and clear to the public).
 
-2. Purpose Speciﬁcation and Use
+2. Purpose Specification and Use
 Limitation
 Every collection of personal information
-has a speciﬁc, explicit purpose, and
+has a specific, explicit purpose, and
 personal information is not used or shared
 beyond that purpose unless lawfully
 authorized.
@@ -177,10 +177,10 @@ May 29, 2026                                                                    
 
 6. Individual Participation and Redress
 Individuals whose data is collected can access their data and correct inaccuracies, and if
-they believe their privacy has been violated, they could ﬁle a complaint.
+they believe their privacy has been violated, they could file a complaint.
 
 7. Accountability and Governance
-Accountability means there are deﬁned roles, oversight, and the ability to demonstrate
+Accountability means there are defined roles, oversight, and the ability to demonstrate
 compliance, while governance is the internal framework (policies, procedures, and
 leadership support) that makes accountability real. Manage privacy effectively with
 accountability and governance.
@@ -200,7 +200,7 @@ are as follows:
    2. Share this privacy guidance with agency leaders and managers who oversee
       personal information to help them understand when privacy risk should be
       considered and how to evaluate it, including understanding the four privacy risk
-      evaluation prompts speciﬁed in the next section.
+      evaluation prompts specified in the next section.
    3. Have managers apply the privacy principles checklist when appropriate.
 Note: There is no general requirement for agencies to report on their privacy practices or
 compliance with these guidelines to EIS.
@@ -231,7 +231,7 @@ instances occur:
    regardless of whether the data is “new”.
 
       Example: Procuring a case management, customer relationship management,
-      human resources, or beneﬁts system that stores or processes personal information.
+      human resources, or benefits system that stores or processes personal information.
 
 4. Making material changes to how personal information is shared: if there is a change
    in a data sharing agreement which involves the use of personal information.
@@ -249,23 +249,23 @@ This checklist provides recommendations designed to help agencies responsibly ma
 personal information, reduce risk, and align with enterprise privacy principles. Not every
 checklist item will apply in all situations, so agencies should focus on the areas of highest
 risk and impact. Refer to Appendix A for further detail organized by information asset
-classiﬁcation level.
+classification level.
 
  Internal Documentation/ Practice                           Privacy Principle(s)
   Identify and document the legal authority                Lawful, Fair, and Transparent
    supporting each type of personal information,            Processing
    collecting only data elements reasonably                 Data Minimization and
    necessary to achieve the stated purpose.                 Collection Limitation
-  Note the information asset classiﬁcation level and       Lawful, Fair, and Transparent
+  Note the information asset classification level and       Lawful, Fair, and Transparent
    whether regulated data is involved.                      Processing
-  Conﬁrm that data uses are ethical, non-                  Lawful, Fair, and Transparent
+  Confirm that data uses are ethical, non-                  Lawful, Fair, and Transparent
    discriminatory, and aligned with public                  Processing
    expectations.
-  Periodically review data uses to prevent                 Purpose Speciﬁcation and Use
+  Periodically review data uses to prevent                 Purpose Specification and Use
    unintended expansion over time.                          Limitation
   Follow existing retention schedules and secure           Data Minimization and
    disposal practices.                                      Collection Limitation
-  Use de-identiﬁed or aggregated data when                 Data Minimization and
+  Use de-identified or aggregated data when                 Data Minimization and
    possible.                                                Collection Limitation
   Use authoritative data sources, when available.          Data Quality and Accuracy
   Maintain basic context such as timestamps or             Data Quality and Accuracy
@@ -284,11 +284,11 @@ classiﬁcation level.
 
 May 29, 2026                                                                                10
 
- External Communication/ Conﬁrmation                    Privacy Principle
+ External Communication/ Confirmation                    Privacy Principle
   Clearly disclose to the audience when information    Lawful, Fair, and Transparent
    may be subject to public records laws and            Processing
    applicable exemptions.
-  Clearly describe to the audience the purpose for     Purpose Speciﬁcation and Use
+  Clearly describe to the audience the purpose for     Purpose Specification and Use
    personal information collection and intended use,    Limitation
    including any sharing of their data.
   Use reasonable validation controls at the point of   Data Quality and Accuracy
@@ -303,12 +303,12 @@ May 29, 2026                                                                    
 
 May 29, 2026                                                                            11
 
-Appendix A: Privacy Principles Expanded Deﬁnitions and Examples
-The following are more detailed deﬁnitions for each of the Oregon Enterprise Privacy
+Appendix A: Privacy Principles Expanded Definitions and Examples
+The following are more detailed definitions for each of the Oregon Enterprise Privacy
 Principles. Each section includes how the individual principle is tied to the FIPPs and NIST
-Privacy Framework, as well as speciﬁc examples. Also included are expanded
+Privacy Framework, as well as specific examples. Also included are expanded
 recommendations and opportunities for agencies. Ultimately decisions on these
-recommendations rest with the agency. This guidance may be superseded by speciﬁc
+recommendations rest with the agency. This guidance may be superseded by specific
 governing regulations related to personal information.
 
 1. Lawful, Fair, and Transparent Processing
@@ -320,7 +320,7 @@ legal compliance) and Communicate-P (communicating data practices).
 How to implement - To uphold lawful, fair, and transparent processing, agencies:
 
    •   Ensure legal authority: Only collect or use personal information if you have
-       statutory authority or a clearly deﬁned business need that is permitted by law.
+       statutory authority or a clearly defined business need that is permitted by law.
        Oregon agencies identify the law, rule, or policy that authorizes each type of
        personal information they handle. For example, if an agency asks for a Social
        Security number, it should be because a law or program requirement necessitates
@@ -330,12 +330,12 @@ How to implement - To uphold lawful, fair, and transparent processing, agencies:
    •   Provide clear notice: Be transparent by informing individuals what information you
        collect, why you need it, how it will be used, and with whom it may be shared. Use
        plain-language privacy statements on forms, websites, or signage. Ensure the notice
-       is easy to ﬁnd and understand. For example, an agency’s website privacy policy tells
+       is easy to find and understand. For example, an agency’s website privacy policy tells
        users that information they provide becomes a public record, outlines applicable
        laws, and explains what exceptions exist for personal privacy. Being upfront in this
        way allows the public to understand your data practices.
    •   Practice fairness: Use personal information in ways that people would reasonably
-       expect and would not ﬁnd deceptive or harmful. This means do not misuse data for
+       expect and would not find deceptive or harmful. This means do not misuse data for
        purposes that would be considered unethical or that unfairly target or bias against
        certain individuals or groups. For example, do not collect data under false pretenses
        (no hidden surveillance or “secret” databases) and avoid discriminatory uses of
@@ -347,15 +347,15 @@ How to implement - To uphold lawful, fair, and transparent processing, agencies:
 May 29, 2026                                                                                12
 
        exemptions to protect individual privacy. Be candid with the public about what
-       information could be subject to disclosure and what will be kept conﬁdential. For
+       information could be subject to disclosure and what will be kept confidential. For
        example, if certain personal information (like home addresses) can be exempt from
        public disclosure due to privacy or safety concerns, explain that to individuals and
        honor those protections (under ORS 192.445 individuals can request nondisclosure
        of their home address in public records).
-Example in practice: An agency that administers beneﬁts programs ensures lawful, fair,
-and transparent processing by ﬁrst conﬁrming it has clear legal authority for every type of
+Example in practice: An agency that administers benefits programs ensures lawful, fair,
+and transparent processing by first confirming it has clear legal authority for every type of
 personal information it collects, such as citing the statute or policy that requires Social
-Security numbers for eligibility veriﬁcation. The agency provides plain-language privacy
+Security numbers for eligibility verification. The agency provides plain-language privacy
 notices on forms and websites explaining what data is collected, why it is needed, how it
 will be used, and with whom it may be shared. It avoids deceptive or discriminatory
 practices, ensuring that data is used only for purposes individuals would reasonably
@@ -364,19 +364,19 @@ informing individuals which information may be disclosed and what protections ex
 sensitive details like home addresses. These steps build trust by showing that data
 practices are lawful, ethical, and transparent.
 
-2. Purpose Speciﬁcation and Use Limitation
-What it means: Every collection of personal information has a speciﬁc, explicit purpose,
+2. Purpose Specification and Use Limitation
+What it means: Every collection of personal information has a specific, explicit purpose,
 and personal information is not used or shared beyond that purpose unless lawfully
 authorized. In other words, clearly state why you are gathering personal information, and
 then stick to that purpose when using the data. This principle comes directly from the
-FIPPs (Purpose Speciﬁcation and Use Limitation) and is reinforced by the NIST Privacy
+FIPPs (Purpose Specification and Use Limitation) and is reinforced by the NIST Privacy
 Framework’s emphasis on data processing policies. NIST advises organizations to
 establish policies that set conditions on data use and retention consistent with the original
 purpose. Agencies adopting this principle ensure that data isn’t repurposed in ways that
 violate promises or surprise the public.
-How to implement - To implement purpose speciﬁcation and use limitations, agencies:
+How to implement - To implement purpose specification and use limitations, agencies:
 
-   •   Deﬁne and document the purpose: For each type of personal information
+   •   Define and document the purpose: For each type of personal information
        collected, explicitly document why it’s needed and how it will be used. Do this
        through privacy impact assessments, form instructions, or internal data inventories.
        Make sure the purpose is legitimate and relevant to the agency’s mission or service.
@@ -385,16 +385,16 @@ How to implement - To implement purpose speciﬁcation and use limitations, agen
        requirements”. Having this documented helps keep everyone on the same page.
    •   Inform individuals of the purpose: Include the purpose in the notice to individuals.
        Tell people upfront: “We are collecting X information to be used for Y purpose.”
-       According to FIPPs, agencies should provide notice of the speciﬁc purpose for
+       According to FIPPs, agencies should provide notice of the specific purpose for
 
 May 29, 2026                                                                                  13
 
        which personal information is collected. If possible, also inform them with whom
        the data may be shared for that purpose (e.g. “We will use your email to send you
        permit renewal notices and will not use it for other reasons without your consent or
-       unless required by law”). Being speciﬁc builds trust and transparency.
+       unless required by law”). Being specific builds trust and transparency.
    •   Use data only for compatible purposes: Once collected, do not use or disclose
-       the data for any purpose that is incompatible with the original speciﬁed purpose. If a
+       the data for any purpose that is incompatible with the original specified purpose. If a
        new use arises, you should ensure it is closely related to the original purpose or
        obtain additional authorization (either via law or consent). For instance, data
        collected for public health reasons should not suddenly be used for an unrelated
@@ -407,26 +407,26 @@ May 29, 2026                                                                    
    •   Limit sharing to purpose needs: Only share personal information with other
        agencies or third parties when it aligns with the original purpose or is required by
        law. If you do share data, establish agreements that restrict the recipient to using
-       the personal data for the speciﬁed purpose. For example, if the Oregon Employment
+       the personal data for the specified purpose. For example, if the Oregon Employment
        Department shares personal wage data with Oregon Housing Community Servies
        for a research project, the agreement should stipulate it’s solely for that project and
        cannot be used elsewhere. This ensures use limitation even after data leaves your
        agency. Any agreements that require legal sufficiency should be reviewed by the
        Oregon Department of Justice (DOJ).
    •   Review and update purposes: Over time, program objectives or legal mandates
-       may change. Regularly review the purposes you have on ﬁle for collecting data. If
+       may change. Regularly review the purposes you have on file for collecting data. If
        they change, update your documentation and your public notices accordingly. Do
        not engage in “mission creep” silently – if you need to expand a use, do it
        transparently (update privacy policies, inform individuals, and if required, seek
        legislative authority).
-Example in practice: An agency may collect personal information from individuals to fulﬁll
-a speciﬁc purpose, such as issuing licenses to ensure compliance and public safety. Under
+Example in practice: An agency may collect personal information from individuals to fulfill
+a specific purpose, such as issuing licenses to ensure compliance and public safety. Under
 the principle of purpose limitation, that agency should not repurpose this data for
 unrelated activities, such as creating marketing lists for third parties. Legal frameworks,
 including federal and state privacy laws, typically enforce this principle by restricting the
 use of personal information to the original purpose (or closely related needs like audits or
 archival requirements permitted by law). Agencies should follow this guidance: collect
-data for a deﬁned reason and use it only for that reason.
+data for a defined reason and use it only for that reason.
 
 May 29, 2026                                                                               14
 
@@ -439,14 +439,14 @@ if a less-invasive option will suffice. FIPPs emphasize that personal informatio
 should be kept to a minimum. FIPPs additionally say to retain data only as long as
 necessary for that purpose or as outlined in federal or state requirements. In the NIST
 Privacy Framework, this aligns with Control-P (data management practices) – for example,
-conﬁguring systems to collect only what is required and to destroy data according to policy.
+configuring systems to collect only what is required and to destroy data according to policy.
 How to implement - Key practices for data minimization include:
 
    •   Collect only what you need: Review all forms, applications, and data systems to
        ensure each data element collected is directly relevant and necessary for the
        service or function. If something is nice-to-have but not essential, do not collect it.
        For example, if an online form asks for an applicant’s Social Security number (SSN)
-       but your process can work with just a name and case ID, remove the SSN ﬁeld. Every
+       but your process can work with just a name and case ID, remove the SSN field. Every
        piece of personal information collected is a potential risk (and burden), so be lean.
        Tip: During design of any data collection, ask “why do we need this item?” If there
        isn’t a strong, lawful reason, don’t include it.
@@ -457,8 +457,8 @@ How to implement - Key practices for data minimization include:
        full address, depending on the purpose. By minimizing detail, you reduce sensitivity.
        Additionally, limit access to the data internally to only staff who are required to see it
        as part of their function, job, or role.
-   •   Use de-identiﬁed or aggregate data when possible: If you can accomplish your
-       goal with unidentiﬁable/de-identiﬁed or anonymized data, opt for that. For example,
+   •   Use de-identified or aggregate data when possible: If you can accomplish your
+       goal with unidentifiable/de-identified or anonymized data, opt for that. For example,
        an agency evaluating program outcomes might use aggregated statistics instead of
        individual personal records. If analysis or testing can be done on mock or scrubbed
        data, use those instead of real personal information. NIST’s framework encourages
@@ -466,7 +466,7 @@ How to implement - Key practices for data minimization include:
        impact while still enabling data-driven work.
    •   Set retention limits and dispose of data: Don’t keep data longer than necessary.
        Follow Oregon’s record retention schedules and dispose of data once the retention
-       period or purpose is fulﬁlled, unless a law requires longer storage. Oregon’s
+       period or purpose is fulfilled, unless a law requires longer storage. Oregon’s
        Consumer Information Protection Act (ORS 646A.622) mandates that organizations
        securely dispose of personal information when it’s no longer needed for business or
        required by law. This means shredding or permanently erasing records so they
@@ -474,17 +474,17 @@ How to implement - Key practices for data minimization include:
 May 29, 2026                                                                                  15
 
        cannot be reconstructed. Agencies should have policies for purging databases or
-       ﬁles of personal information after a certain timeframe. Regularly audit data stores
+       files of personal information after a certain timeframe. Regularly audit data stores
        and clean out expired personal information. By minimizing how long data lives, you
        minimize risk.
    •   Periodically reevaluate data needs: Over time, programs change. Perform periodic
-       reviews of the data you collect to ensure it still meets a legitimate need. If you ﬁnd
+       reviews of the data you collect to ensure it still meets a legitimate need. If you find
        you’re collecting data that is not really being used or no longer necessary, stop
        collecting it. For example, if a survey once asked for participants’ phone numbers
-       but you never call them, consider eliminating that ﬁeld in future surveys.
+       but you never call them, consider eliminating that field in future surveys.
        Continuous improvement in minimization will reduce the privacy footprint of your
        agency.
-Example in practice: An agency running a public beneﬁts program initially required a
+Example in practice: An agency running a public benefits program initially required a
 broad array of personal details on the application form. After applying the data
 minimization principle, the agency trims the form to only the essentials needed to
 determine eligibility (for instance, collecting income range instead of exact income). The
@@ -496,7 +496,7 @@ needs to serve its purpose.
 What it means: Agencies ensure that the data they maintain is accurate, complete and up-
 to-date for the intended use. This principle is about data quality – high-quality data leads to
 fair and effective decisions, while poor-quality (incorrect or outdated) data can harm
-individuals (for example, causing unjust denial of services or beneﬁts). FIPPs refers to this
+individuals (for example, causing unjust denial of services or benefits). FIPPs refers to this
 as Quality and Integrity, meaning agencies should collect and use personal information
 with enough accuracy, relevance, timeliness, and completeness to ensure it is fair to the
 individual. In practice, this aligns with NIST’s guidance that organizations should have
@@ -520,27 +520,27 @@ May 29, 2026                                                                    
        personal information and an opportunity to correct or amend it. This could be
        through an online portal where people can update their contact information, or a
        process to submit corrections (such as, “If your information is wrong, call this
-       number or ﬁll out this correction form”). For example, Oregon’s Public Records Law
+       number or fill out this correction form”). For example, Oregon’s Public Records Law
        (Public Records Exempt from Disclosure - ORS 192.355) exempts some personal
        information from disclosure partly to encourage individuals to engage with agencies
        without fear – but it also implies agencies should keep records accurate since they
        might be released. More directly, if a client notices their name or birthdate is
        recorded incorrectly in an agency’s system, there should be a straightforward way to
-       have that ﬁxed. Accuracy is a shared responsibility between agencies and the
+       have that fixed. Accuracy is a shared responsibility between agencies and the
        individuals they serve.
    •   Periodic data quality reviews: Implement routine checks or audits of data
        accuracy. For important datasets, agencies can run audits (e.g., sampling records to
        check for common errors or outdated entries). If you have databases of addresses,
        consider using address validation services periodically to catch outdated
        addresses. If you maintain income or eligibility information, schedule periodic
-       reveriﬁcation. The goal is to catch errors or stale data proactively. NIST’s framework
+       reverification. The goal is to catch errors or stale data proactively. NIST’s framework
        encourages ongoing monitoring and review of privacy data to inform risk
-       management – part of that is ensuring data remains accurate and ﬁt for purpose.
+       management – part of that is ensuring data remains accurate and fit for purpose.
    •   Source data from authoritative systems: Where possible, use authoritative
        sources to keep data accurate. For example, if one agency is the system of record
        for a certain data element (say, DMV for driver information or Oregon Health
        Authority for immunization records), other agencies relying on that data should
-       synchronize or conﬁrm with the source rather than maintain divergent copies.
+       synchronize or confirm with the source rather than maintain divergent copies.
        Integrations or data-sharing arrangements can help maintain consistency (with
        proper privacy safeguards). This way, each data point is updated at the source and
        propagated, reducing discrepancies. Always ensure such data sharing is lawful and
@@ -550,9 +550,9 @@ May 29, 2026                                                                    
        context needed to interpret the data travels with it. For instance, if an agency logs
        that “client X was sanctioned”, it should also record the date and reason, so years
        later it’s not misread out of context. Ensure that updates or corrections in one part
-       of a record ﬂow through to all relevant places in your systems. Keeping metadata
+       of a record flow through to all relevant places in your systems. Keeping metadata
        (timestamps, sources) can aid in assessing data quality over time (e.g., knowing
-       when the data was last conﬁrmed).
+       when the data was last confirmed).
 Example in practice: An agency responsible for health programs maintains records to
 support service delivery and compliance. Applying the data quality principle, the agency
 
@@ -562,7 +562,7 @@ implements measures such as verifying information against trusted sources, enabl
 individuals to review and correct their own records (as required by applicable laws), and
 periodically updating or archiving outdated data (e.g., removing inactive records or
 updating contact details through official change-of-address services). If an individual
-identiﬁes an error, such as a missing entry, the agency provides a process to review and
+identifies an error, such as a missing entry, the agency provides a process to review and
 update the record upon valid documentation. These steps help ensure that decisions, like
 determining eligibility for services or issuing health alerts, are based on accurate
 information, promoting fairness and trust.
@@ -570,13 +570,13 @@ information, promoting fairness and trust.
 5. Security Safeguards and Access Controls
 What it means: Agencies protect data with appropriate security measures and access
 controls per the Oregon Statewide Information Technology (IT) Control Standards. 6 This
-principle is about safeguarding conﬁdentiality and integrity of personal information. No
+principle is about safeguarding confidentiality and integrity of personal information. No
 matter how lawfully or minimally you collect data, it won’t matter if you can’t keep it
 secure. Security Safeguards (a core FIPP) means implementing administrative, technical,
 and physical protections to prevent unauthorized access, use, alteration or loss of
 personal information. This aligns with the NIST Privacy Framework’s Protect-P function,
 which focuses on limiting the impact of security incidents through controls like access
-management, encryption, and regular maintenance. It also reﬂects Oregon law: the Oregon
+management, encryption, and regular maintenance. It also reflects Oregon law: the Oregon
 Consumer Information Protection Act (ORS 646A.622) requires any entity (including state
 agencies) that maintains personal information to develop and maintain reasonable
 security measures to protect that information and to prevent unauthorized access. In
@@ -587,7 +587,7 @@ How to implement - Key security practices include:
       •   Implement administrative safeguards: Establish policies and procedures
           governing how staff handle personal information. This includes training employees
           on privacy and security awareness (e.g., how to recognize phishing, proper
-          document handling) and deﬁning roles and responsibilities for data protection. Limit
+          document handling) and defining roles and responsibilities for data protection. Limit
           which staff can access sensitive personal information – follow the principle of least
           privilege (only those who need access get it, and even then, only to the data they
           need). Regularly remind and refresh training; Oregon Department of Human
@@ -603,20 +603,20 @@ How to implement - Key security practices include:
 
 May 29, 2026                                                                                18
 
-          Security numbers or health information) and network security measures (ﬁrewalls,
+          Security numbers or health information) and network security measures (firewalls,
           intrusion detection systems, etc.). Follow the state of Oregon’s Statewide
           Information Technology (IT) Control Standards (which align with NIST SP 800-53
           controls) for information systems. Ensure that personal information stored on
-          servers or cloud services is securely conﬁgured. For databases, implement audit
+          servers or cloud services is securely configured. For databases, implement audit
           logging to track who accesses or changes sensitive data (this not only deters misuse
           but also supports accountability). If you develop applications, build security in from
           the start (e.g., input validation to prevent injection attacks, proper authentication
-          ﬂows, etc.).
-      •   Maintain physical security: Don’t overlook physical safeguards. Hard copy ﬁles
+          flows, etc.).
+      •   Maintain physical security: Don’t overlook physical safeguards. Hard copy files
           containing personal information should be kept in locked cabinets or secure rooms
           with controlled access. The same goes for servers or storage media – keep servers in
           secure facilities with Data Center Services or other approved data centers with
-          access badges, cameras, etc. For staff working remotely or in the ﬁeld, provide
+          access badges, cameras, etc. For staff working remotely or in the field, provide
           lockable storage for documents and require safeguards for laptops (like cable locks
           in offices, never leaving devices unattended in cars, etc.). Ensure proper disposal of
           physical records – shred or pulverize papers containing personal information when
@@ -631,14 +631,14 @@ May 29, 2026                                                                    
 Example in practice: An agency that manages employment-related programs handles
 large volumes of sensitive personal information, such as names, addresses, Social
 Security numbers, and wage information. To comply with the security safeguards principle,
-the agency classiﬁes these information assets as level 4 and enforces strict access
-controls, where only authorized personnel can view full identiﬁers, and they should
+the agency classifies these information assets as level 4 and enforces strict access
+controls, where only authorized personnel can view full identifiers, and they should
 authenticate using multi-factor login through secure systems. Databases are encrypted,
-and all access is logged and audited. Physical ﬁles are stored in secure facilities, and when
-retention periods expire, they are destroyed using certiﬁed shredding services. Staff receive
+and all access is logged and audited. Physical files are stored in secure facilities, and when
+retention periods expire, they are destroyed using certified shredding services. Staff receive
 annual privacy and security training, and the agency conducts regular vulnerability scans in
 partnership with its IT security team. In the event of a breach - whether through hacking or
-accidental exposure - the agency activates an incident response plan, notiﬁes affected
+accidental exposure - the agency activates an incident response plan, notifies affected
 
 7
     Cyber and Information Security Incident Response
@@ -652,11 +652,11 @@ help protect personal information against unauthorized access, loss, or misuse.
 
 6. Individual Participation and Redress
 What it means: Individuals whose data is collected can request access to their data and
-correct inaccuracies. If they believe their privacy has been violated, they can ﬁle a privacy
+correct inaccuracies. If they believe their privacy has been violated, they can file a privacy
 complaint. This principle encompasses the FIPPs of Individual Participation and
 Access/Amendment. It means agencies do not treat personal information as one-way
 possession; rather, citizens have a vested interest in the management of their personal
-information. Individuals can ﬁnd out what data you have about them, inﬂuence how it’s
+information. Individuals can find out what data you have about them, influence how it’s
 used (for instance, by consenting or objecting where appropriate), and have a channel to
 ask questions or submit concerns or complaints. Redress refers to mechanisms for
 addressing issues such as improper data use, inaccuracies, denied rights, or other privacy-
@@ -673,18 +673,18 @@ several practices:
        accordance with Oregon Public Records law, individuals can know what personal
        information you have about them. Many federal laws already grant this right. For
        example, the Privacy Act of 1974 is a U.S. federal law that regulates how federal
-       agencies collect, maintain, use, and disclose personally identiﬁable information
+       agencies collect, maintain, use, and disclose personally identifiable information
        (PII) about individuals. Patients have rights under the Health Insurance Portability
        and Accountability Act (HIPAA) to see their health records. Even if not mandated by
-       a speciﬁc law, it’s good practice. Oregon’s Public Records Law gives any person the
+       a specific law, it’s good practice. Oregon’s Public Records Law gives any person the
        right to request records from public bodies, which would include their own data. In
-       fact, Oregon Department of Justice’s guidance conﬁrms individuals have the right to
+       fact, Oregon Department of Justice’s guidance confirms individuals have the right to
        review information collected about them. Agencies should establish a
        straightforward process for someone to request their data – this might be a form or
-       contact point (e.g., “Contact us to request a copy of your information on ﬁle”). There
+       contact point (e.g., “Contact us to request a copy of your information on file”). There
        can be exceptions (certain investigative or sensitive records might be restricted), but
        in general lean towards transparency with the individual about their own data.
-   •   Enable correction and amendment: If an individual identiﬁes that the information
+   •   Enable correction and amendment: If an individual identifies that the information
        your agency holds about them is incorrect or outdated, have a process to correct it.
        This could mean updating your database, appending a note, or in some cases
        disputing and resolving records. According to FIPPs, agencies should provide an
@@ -692,13 +692,13 @@ several practices:
 May 29, 2026                                                                                 20
 
        opportunity to correct or amend records to ensure accuracy. For example, if a
-       parent ﬁnds that their child’s education record has a wrong address or a data entry
-       error, the relevant agency should have a way to ﬁx that record. Often, it’s as simple
+       parent finds that their child’s education record has a wrong address or a data entry
+       error, the relevant agency should have a way to fix that record. Often, it’s as simple
        as showing proof of the correct information. Make sure staff know how to handle
        such requests. Some agencies might have formal forms for record correction (as
        under the Family Educational Rights and Privacy Act (FERPA) for education records),
        but even without a mandated formality, treating the request seriously and updating
-       your ﬁles is important. It not only improves data quality; it shows respect for the
+       your files is important. It not only improves data quality; it shows respect for the
        individual. Note that for some agencies including law enforcement, under certain
        circumstances erroneous data may remain part of the individual’s criminal history
        or police report.
@@ -712,10 +712,10 @@ May 29, 2026                                                                    
        consent is a way to ensure fairness. The Individual Participation FIPP suggests
        seeking consent for collection or use to the extent practicable. So, while you may
        not always be able to (or need to) get consent (e.g., you don’t ask criminals for
-       consent to collect their ﬁngerprints – you have authority), when you do have a
-       choice, involving the individual via consent or at least notiﬁcation is good practice.
+       consent to collect their fingerprints – you have authority), when you do have a
+       choice, involving the individual via consent or at least notification is good practice.
        Also consider providing privacy choices: for instance, an email subscription might
-       let users decide how their email can be used (notiﬁcations only, or shared with
+       let users decide how their email can be used (notifications only, or shared with
        partner programs, etc.). Trust is strengthened when individuals are asked for and
        provide informed consent.
    •   Establish a complaint and inquiry process: There is a clear way for individuals to
@@ -727,9 +727,9 @@ May 29, 2026                                                                    
        should have a procedure to investigate and respond. NIST’s framework expects
        agencies to have processes for receiving, tracking and responding to individuals’
        privacy concerns. Treat complaints seriously: acknowledge receipt, investigate what
-       happened, ﬁx any issues, and respond to the individual with the outcome or
+       happened, fix any issues, and respond to the individual with the outcome or
        remedial steps. This not only resolves individual issues but can highlight systemic
-       problems to ﬁx. For example, if multiple people complain they weren’t told their
+       problems to fix. For example, if multiple people complain they weren’t told their
        data would be shared with a third party, that signals you should improve your notice.
 
 May 29, 2026                                                                                 21
@@ -737,10 +737,10 @@ May 29, 2026                                                                    
        Redress might also mean offering a remedy: e.g., if an agency mistakenly exposes
        someone’s personal information, an apology and mitigating assistance (like identity
        theft resources) might be appropriate.
-   •   Support individuals’ rights under law: Be aware of and prepared to uphold speciﬁc
+   •   Support individuals’ rights under law: Be aware of and prepared to uphold specific
        individual rights granted by laws. For instance, under Oregon law (ORS 192.368), a
        public employee or volunteer can request their home address/phone number be
-       kept conﬁdential if their safety is at risk – agencies need a process to mark records
+       kept confidential if their safety is at risk – agencies need a process to mark records
        accordingly and refuse public disclosure of that information. Similarly, Oregon’s
        Consumer Information Protection Act gives Oregon consumers rights to access and
        delete certain personal information held by businesses (though it exempts state
@@ -750,20 +750,20 @@ May 29, 2026                                                                    
        rights of individuals under the Americans with Disabilities Act (ADA) or Civil Rights
        laws if data is used in decision-making (fairness rights).
 Example in practice: An agency administering public assistance programs collects
-signiﬁcant personal information to determine eligibility and deliver beneﬁts. To uphold the
+significant personal information to determine eligibility and deliver benefits. To uphold the
 individual participation principle, the agency provides systems for clients to access their
 case information, either online or through a caseworker. If a client notices incorrect data,
-such as income details that affect beneﬁt levels, they can submit documentation to
-correct the record, and beneﬁts are adjusted accordingly. The agency also has a complaint
+such as income details that affect benefit levels, they can submit documentation to
+correct the record, and benefits are adjusted accordingly. The agency also has a complaint
 process so people can report concerns if they think their information was mishandled.
-Complaints are investigated, and if an error or breach occurs, the agency notiﬁes the
+Complaints are investigated, and if an error or breach occurs, the agency notifies the
 affected person and takes steps to mitigate harm, consistent with applicable laws. By
 enabling access, correction and redress, the agency demonstrates accountability and
 respect for individuals’ rights while meeting legal requirements.
 
 7. Accountability and Governance
 What it means: Agencies should be accountable for complying with these privacy
-principles and all applicable privacy requirements. Accountability means there are deﬁned
+principles and all applicable privacy requirements. Accountability means there are defined
 roles, oversight and the ability to demonstrate compliance. Governance is the internal
 framework (policies, procedures and leadership support) that makes accountability real. In
 practice, this principle requires agencies to put in place the organizational structures and
@@ -773,7 +773,7 @@ should audit and document compliance, assign clear responsibilities to staff, an
 training. NIST’s Privacy Framework similarly has a Govern-P function that involves
 establishing organizational privacy values, policies, and governance processes (including
 risk management, oversight, and accountability measures). Ultimately, privacy protection
-should be built-in to the agency’s governance just like ﬁnancial stewardship or safety. It’s a
+should be built-in to the agency’s governance just like financial stewardship or safety. It’s a
 
 May 29, 2026                                                                               22
 
@@ -796,12 +796,12 @@ How to implement - Steps to foster accountability and governance include:
           responsibilities are visible and consistently carried out.
       •   Develop and communicate internal policies: Building on the enterprise
           principles, agencies have their own internal privacy policies or procedures that
-          translate these principles to the agency’s speciﬁc context. For example, an agency
+          translate these principles to the agency’s specific context. For example, an agency
           might create a privacy policy manual or incorporate privacy rules into its employee
           handbook or administrative rules. Policies should cover how the agency handles
           personal information throughout its lifecycle (collection, use, sharing, retention,
           disposal), referencing these principles. Ensure the policies address compliance
-          with any program-speciﬁc laws (i.e. if you deal with health info, incorporate HIPAA
+          with any program-specific laws (i.e. if you deal with health info, incorporate HIPAA
           requirements; if you deal with education data, incorporate FERPA requirements).
           Once developed, communicate the policies to all staff through training, internal
           websites, and leadership messaging so everyone understands the expectations.
@@ -814,7 +814,7 @@ How to implement - Steps to foster accountability and governance include:
           annual) requirement, possibly integrated with security awareness training. New
           employees should receive privacy orientation as part of onboarding. Consider
           specialized training for high-risk areas (e.g., a caseworker dealing with sensitive
-          client info might get deeper training on conﬁdentiality laws). Training and awareness
+          client info might get deeper training on confidentiality laws). Training and awareness
           programs ensure that the principles aren’t just paper, they become part of daily
 
 9
@@ -829,11 +829,11 @@ May 29, 2026                                                                    
        audits of how data is handled. For instance, an agency might do an annual self-
        assessment against these privacy principles (some states use checklists or privacy
        maturity assessments). Additionally, when things go wrong (like a breach or a
-       signiﬁcant complaint), treat it as a learning opportunity: investigate root causes, and
+       significant complaint), treat it as a learning opportunity: investigate root causes, and
        update policies or training accordingly. NIST’s framework expects organizations to
        review and update privacy practices as part of governance. Also, consider having an
        internal or external audit function periodically review privacy controls (like how
-       ﬁnancial audits occur). Accountability means being able to demonstrate to
+       financial audits occur). Accountability means being able to demonstrate to
        oversight bodies, including the public, that you are doing what you say you’re doing.
        Keep documentation: maintain records of privacy notices issued, consent forms,
        training completion, privacy impact assessments, etc., as evidence of compliance.
@@ -852,7 +852,7 @@ May 29, 2026                                                                    
        feel responsible for safeguarding personal information, and management should
        back them up with the proper framework and support.
 Example in practice: An agency responsible for tax administration handles highly sensitive
-personal and ﬁnancial data. To demonstrate accountability and governance, the agency
+personal and financial data. To demonstrate accountability and governance, the agency
 designates a privacy leader (such as a Chief Privacy Officer) who oversees compliance and
 reports to senior leadership. They maintain detailed internal policies aligned with
 applicable laws and regulatory requirements, and all employees receive privacy training
@@ -880,13 +880,13 @@ Technology (NIST) Privacy Framework. If you have used the privacy review checkli
 have questions on implementation, consult this section as well as the NIST Privacy
 Framework: NIST Privacy Framework Version v1.0.
 
-Privacy Controls by Information Asset Classiﬁcation Level
+Privacy Controls by Information Asset Classification Level
 The privacy controls below present privacy practices that agencies may consider to reduce
 privacy risk when working with personal information at different information asset
-classiﬁcation levels.
+classification levels.
 The matrix is not a mandate, or compliance standard. Agencies are not expected to
-implement every practice listed for a given classiﬁcation level. Instead, agencies may
-select practices appropriate to their speciﬁc context, legal obligations, scale of data use,
+implement every practice listed for a given classification level. Instead, agencies may
+select practices appropriate to their specific context, legal obligations, scale of data use,
 and potential impact on individuals, and document key decisions and tradeoffs.
 
 May 29, 2026                                                                                   26
@@ -894,7 +894,7 @@ May 29, 2026                                                                    
 Privacy Controls for Level 1: "Published" - Low-Sensitive Information
 Information regularly made available to the public that, if disclosed, will not jeopardize
 privacy or security. Level 1 controls focus on transparency, appropriate use and data
-quality rather than conﬁdentiality or access restriction.
+quality rather than confidentiality or access restriction.
 
   NIST Function          NIST            NIST                     Abbreviated NIST
                        Category       Applicable            Implementation Guidance
@@ -942,7 +942,7 @@ easily available.
                                        Controls       (consult NIST Privacy Framework for further
                                                                        details)
  IDENTIFY-P         Inventory and     ID.IM-P1,    Maintain a documented inventory
-                    Mapping (ID.IM-   ID.IM-P2,    that identiﬁes data owners, types of
+                    Mapping (ID.IM-   ID.IM-P2,    that identifies data owners, types of
                     P)                ID.IM-P3,    individuals affected, key data
                                       ID.IM-P4,    elements, and where the data is
                                       ID.IM-P5,    processed or stored.
@@ -955,7 +955,7 @@ easily available.
                                                    concerns.
  GOVERN-P           Governance       GV.PO-P1,     Apply existing agency privacy and
                     Policies (GV.PO- GV.PO-P2,     governance policies to internal or
-                    P)               GV.PO-P3,     limited-access data, clearly deﬁning
+                    P)               GV.PO-P3,     limited-access data, clearly defining
                                      GV.PO-P5,     roles and responsibilities.
                                      GV.PO-P6
  GOVERN-P           Risk             GV.RM-P1,     Use established agency processes to
@@ -981,7 +981,7 @@ May 29, 2026                                                                    
                   Policies (CT.PO- CT.PO-P2,   may access, share or modify the
                   P)               CT.PO-P4    data, and align data handling
                                                practices with the system lifecycle.
- CONTROL-P    Data Processing CT.DM-P1,        Deﬁne who can access or change the
+ CONTROL-P    Data Processing CT.DM-P1,        Define who can access or change the
               Management       CT.DM-P2,       data, support routine
               (CT.DM-P)        CT.DM-P3,       updates/corrections, follow retention
                                CT.DM-P4,       and disposal practices, and keep
@@ -1001,7 +1001,7 @@ May 29, 2026                                                                    
                                P3,       basic records of disclosures when
                                CM.AW-P4 applicable.
  PROTECT-P    Data Protection PR.PO-P1, Use standard IT practices like secure
-              Policies (PR.PO- PR.PO-P2, conﬁguration, change control, and
+              Policies (PR.PO- PR.PO-P2, configuration, change control, and
               P)               PR.PO-P7, tested response/recovery
                                PR.PO-P9  procedures that cover systems
                                          processing this data.
@@ -1026,7 +1026,7 @@ May 29, 2026                                                                    
 Key Recommendations:
 
    •   Follow agency data disclosure policies before external sharing
-   •   Implement conﬁdentiality/non-disclosure agreements for external/ third parties
+   •   Implement confidentiality/non-disclosure agreements for external/ third parties
    •   Maintain comprehensive data inventories
    •   Implement access controls and audit logging
    •   Conduct privacy awareness training
@@ -1035,9 +1035,9 @@ Key Recommendations:
 May 29, 2026                                                                                        30
 
 Privacy Controls for Level 3: "Restricted" - Sensitive/Regulated Information
-Sensitive information exempt from public disclosure. Includes personally identiﬁable
-information (PII) as deﬁned in ORS 646A.602(12)(a)(A). Unauthorized disclosure could
-result in ﬁnancial loss, identity theft, reputational harm and loss of public trust. Level 3
+Sensitive information exempt from public disclosure. Includes personally identifiable
+information (PII) as defined in ORS 646A.602(12)(a)(A). Unauthorized disclosure could
+result in financial loss, identity theft, reputational harm and loss of public trust. Level 3
 practices emphasize risk reduction for sensitive or regulated data and are expected to be
 applied proportionally based on system scope, data use and potential impact.
 
@@ -1047,7 +1047,7 @@ applied proportionally based on system scope, data use and potential impact.
                                                                           details)
  IDENTIFY-P          Inventory and      ALL ID.IM-    Maintain a detailed inventory
                      Mapping (ID.IM-    P1 through    describing sensitive data elements,
-                     P)                 ID.IM-P8      how they are used, where they ﬂow,
+                     P)                 ID.IM-P8      how they are used, where they flow,
                                                       and which systems or partners are
                                                       involved.
  IDENTIFY-P          Business           ID.BE-P1,     Clearly identify the system’s purpose,
@@ -1090,11 +1090,11 @@ May 29, 2026                                                                    
                                           or high-impact information.
  GOVERN-P     Monitoring and ALL GV.MT- Periodically review data use,
               Review (GV.MT- P1 through controls, and incidents or complaints
-              P)               GV.MT-P7   to conﬁrm safeguards remain
+              P)               GV.MT-P7   to confirm safeguards remain
                                           appropriate as systems evolve.
- CONTROL-P    Data Processing ALL CT.PO- Deﬁne internal rules for how
+ CONTROL-P    Data Processing ALL CT.PO- Define internal rules for how
               Policies (CT.PO- P1 through sensitive data may be accessed,
-              P)               CT.PO-P4   shared, or modiﬁed, including any
+              P)               CT.PO-P4   shared, or modified, including any
                                           applicable requirements related to
                                           individual rights.
  CONTROL-P    Data Processing ALL         Apply enhanced data handling
@@ -1103,7 +1103,7 @@ May 29, 2026                                                                    
                                CT.DM-P10 particularly where automated or
                                           analytical processing is involved.
  CONTROL-P    Disassociated    CT.DP-P1, Use privacy-preserving techniques,
-              Processing       CT.DP-P2, such as de-identiﬁcation or
+              Processing       CT.DP-P2, such as de-identification or
               (CT.DP-P)        CT.DP-P3, tokenization, where feasible to
                                CT.DP-P4, reduce exposure of sensitive data.
                                CT.DP-P5
@@ -1112,7 +1112,7 @@ May 29, 2026                                                                    
               (CM.PO-P)        CM.PO-P2 practices, including roles and
                                           escalation paths.
  COMMUNICATE- Data Processing ALL         Provide appropriate transparency
- P            Awareness        CM.AW-P1 and notiﬁcation mechanisms,
+ P            Awareness        CM.AW-P1 and notification mechanisms,
               (CM.AW-P)        through    including processes for responding
                                CM.AW-P8 to incidents or individual inquiries.
 
@@ -1139,17 +1139,17 @@ May 29, 2026                                                                    
                    (PR.MA-P)         PR.MA-P2     activities are authorized, logged, and
                                                   performed securely.
  PROTECT-P         Protective        ALL PR.PT-   Use protective technologies
-                   Technology        P1 through   appropriate to the risk proﬁle, such
+                   Technology        P1 through   appropriate to the risk profile, such
                    (PR.PT-P)         PR.PT-P4     as network protections and
                                                   monitoring capabilities.
 
 Key Recommendations:
 
-   •   Require contractual conﬁdentiality obligations for external parties
-   •   Implement rigorous conﬁdentiality, integrity, and availability controls
+   •   Require contractual confidentiality obligations for external parties
+   •   Implement rigorous confidentiality, integrity, and availability controls
    •   Conduct privacy impact assessments
-   •   Implement de-identiﬁcation and privacy-preserving techniques where appropriate
-   •   Establish breach notiﬁcation procedures that support both federal and state
+   •   Implement de-identification and privacy-preserving techniques where appropriate
+   •   Establish breach notification procedures that support both federal and state
        reporting obligations
    •   Maintain detailed audit logs
    •   Implement encryption for data at rest and in transit
@@ -1161,7 +1161,7 @@ May 29, 2026                                                                    
 
 Privacy Controls for Level 4: "Critical" - Extremely Sensitive Information
 Information for named individuals only. Disclosure could cause major damage, injury,
-death or signiﬁcant harm.
+death or significant harm.
 
   NIST Function         NIST           NIST                    Abbreviated NIST
                      Category       Applicable           Implementation Guidance
@@ -1170,7 +1170,7 @@ death or signiﬁcant harm.
  IDENTIFY-P   ALL        ALL           Maintain the highest level of
               Categories Subcategories documentation for what data is
                                        processed, why it is processed,
-                                       where it ﬂows, and who is involved,
+                                       where it flows, and who is involved,
                                        especially for external partners or
                                        high impact uses.
  GOVERN-P     ALL        ALL           Use elevated oversight appropriate to
@@ -1190,7 +1190,7 @@ death or signiﬁcant harm.
  COMMUNICATE- ALL        ALL           Establish clear escalation and
  P            Categories Subcategories communication procedures for
                                        incidents and high-impact events,
-                                       including timely notiﬁcation practices
+                                       including timely notification practices
                                        consistent with law, policy and
                                        incident response processes.
  PROTECT-P    ALL        ALL           Apply maximum protection
@@ -1205,32 +1205,32 @@ risk. They are not exhaustive.
 
 May 29, 2026                                                                                        34
 
-Appendix C: Deﬁnitions and Regulated Data Categories
+Appendix C: Definitions and Regulated Data Categories
 
 Access controls: mechanisms for granting or denying requests to use information or
 systems. (NIST Glossary)
 Aggregated data: summarized information; often used to mitigate privacy concerns. (Open
 Data Standard Guidance) 10
 Data minimization: Limit collection to personal information that is adequate, relevant and
-reasonably necessary for speciﬁed purposes. (ORS 646A.578)
+reasonably necessary for specified purposes. (ORS 646A.578)
 Data quality: dataset quality based on standards adherence, metadata completeness,
 accuracy and open format. (Open Data Standard Guidance)
-De-identiﬁed data: Data that cannot reasonably be linked to an identiﬁable
+De-identified data: Data that cannot reasonably be linked to an identifiable
 consumer/device. (ORS 646A.570)
 Encryption: An algorithmic process that renders data unreadable or unusable without the
-use of a conﬁdential process or key. (ORS 646A.602)
+use of a confidential process or key. (ORS 646A.602)
 High-value data: Data that improves accountability, public knowledge, mission delivery,
 economic opportunity or meets public demand. (Open Data Standard Guidance)
-Information asset classiﬁcation level: Categorization of information assets into Levels 1–
+Information asset classification level: Categorization of information assets into Levels 1–
 4 based on sensitivity and harm if compromised. (Statewide Information Asset
-Classiﬁcation Policy)
+Classification Policy)
 Machine-readable: Data that can be easily processed by a computer without losing any
 semantic meaning. (Open Data Standard Guidance)
 Metadata: Data about data; describes characteristics such as title, description, keywords.
 (Open Data Standard Guidance)
 Multi-factor authentication: Authentication requiring two or more distinct factors. (NIST
 Glossary)
-Personally identiﬁable information (PII): Information that can be used alone or with other
+Personally identifiable information (PII): Information that can be used alone or with other
 data to identify an individual. (Oregon’s Open Data Standards)
 Privacy impact assessment (PIA): Formal analysis/document to evaluate privacy risks
 and mitigations. (NIST Glossary)
@@ -1243,7 +1243,7 @@ Guidance)
 
 May 29, 2026                                                                                35
 
-Retention schedule: Official schedule specifying how long records must be kept and ﬁnal
+Retention schedule: Official schedule specifying how long records must be kept and final
 disposition (retain/destroy/archive).
 Role-based access controls (RBAC): Access control based on roles with assigned
 permissions. (NIST Glossary)
@@ -1256,13 +1256,13 @@ such as criminal history records, biometrics, warrants, and investigative law en
 data; governed by the FBI CJIS Security Policy with strict access control, auditing,
 encryption, and personnel requirements.
 Family Educational Rights and Privacy Act (FERPA): Protects student education records
-and personally identiﬁable student information; applies to K–12, higher education, and
+and personally identifiable student information; applies to K–12, higher education, and
 agencies receiving student-level education data.
 Federal Tax Information (FTI): Federal tax return and taxpayer data received from the IRS;
 governed by IRC §6103 and IRS Publication 1075 with some of the strictest safeguarding
 and audit requirements in government.
 Health Insurance Portability and Accountability Act (HIPAA): Protects individually
-identiﬁable health information (PHI); applies only where the agency is a Covered Entity
+identifiable health information (PHI); applies only where the agency is a Covered Entity
 (e.g., OHA) or Business Associate.
 
 May 29, 2026                                                                              36
@@ -1283,10 +1283,10 @@ Management, Version 1.0
 National Institute of Standards and Technology (NIST)
 https://doi.org/10.6028/NIST.CSWP.01162020
 
-NIST SP 800-122, Guide to Protecting the Conﬁdentiality of Personally Identiﬁable
+NIST SP 800-122, Guide to Protecting the Confidentiality of Personally Identifiable
 Information (PII)
 National Institute of Standards and Technology
-https://csrc.nist.gov/pubs/sp/800/122/ﬁnal
+https://csrc.nist.gov/pubs/sp/800/122/final
 
 Oregon Identity Theft Protection Act (ORS 646A.600-628)
 Oregon Legislature

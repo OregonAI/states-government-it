@@ -1,7 +1,7 @@
 State of Oregon Responsible AI Usage Policy
 
 User Feedback
-Custom-built or conﬁgured AI systems should measure user satisfaction on each use and
+Custom-built or configured AI systems should measure user satisfaction on each use and
 provide an opportunity for users of all types, including both state employees and the
 public, to provide feedback that is reviewed by a human.
 Collecting and using user feedback is a critical part of a successful AI implementation. It’s

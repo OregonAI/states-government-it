@@ -4,21 +4,21 @@ Higher-risk use cases requirements
 To support agency requests for approval of higher-risk use cases, the following are
 additional requirements that agencies will need to provide:
 
-1. For use cases ﬂagged due to use of level 3 data
-Agencies may only deploy artiﬁcial intelligence (AI) solutions for level 3 data 1 in a manner
+1. For use cases flagged due to use of level 3 data
+Agencies may only deploy artificial intelligence (AI) solutions for level 3 data 1 in a manner
 consistent with Oregon law, information security policies, standards and principles, and
 consumer protection expectations, including prohibitions on unfair or deceptive practices.
-AI uses must comply with existing conﬁdentiality, breach notiﬁcation, and sector speciﬁc
-obligations (e.g., health, ﬁnancial, criminal justice).
+AI uses must comply with existing confidentiality, breach notification, and sector specific
+obligations (e.g., health, financial, criminal justice).
 
 AI solutions handling level 3 data must follow data minimization and purpose limitation;
-only the minimum necessary data for a deﬁned, documented purpose may be processed,
+only the minimum necessary data for a defined, documented purpose may be processed,
 and secondary use is prohibited without explicit approval. Access to level 3 data with AI
 capabilities must follow least privilege, need-to-know, and Zero Trust principles, with
 entitlements aligned to roles and reviewed regularly on a schedule acceptable to the
 agency’s IT governance.
 
-Authorization to use level 3 data with AI has a high bar. The detailed speciﬁcations and
+Authorization to use level 3 data with AI has a high bar. The detailed specifications and
 requirements for agencies who wish to use level 3 data are still in development, but include
 the following:
 
@@ -32,14 +32,14 @@ the following:
          boundaries.
 
       2. Data Minimization
-         Only the speciﬁc data ﬁelds necessary for the AI task may be exposed to the model
+         Only the specific data fields necessary for the AI task may be exposed to the model
          context window.
       3. Private Connectivity
          All AI resources that access level 3 data must be deployed using private networks and
          endpoints, ensuring that no traffic traverses the public internet. Connectivity between AI
 
 1
-    Information Asset Classiﬁcation Policy 107-004-050.pdf
+    Information Asset Classification Policy 107-004-050.pdf
 
 Higher-risk use cases requirements – June 16, 2026                                                    1
 
@@ -48,15 +48,15 @@ State of Oregon Responsible AI Usage Policy
          services and data stores must occur through virtual networks (VNETs) using private links
          or endpoints. Public ingress to AI services handling level 3 workloads is strictly prohibited.
       4. Data Flow and Data in Transit
-         Data ﬂows between AI components and level 3 data sources must be explicitly
+         Data flows between AI components and level 3 data sources must be explicitly
          documented, restricted to approved communication paths, and reviewed by the EIS
          Cyber Security Services security and Strategy and Design (S&D) architecture teams.
-         Architecture diagrams reﬂecting these ﬂows must be maintained as part of the
+         Architecture diagrams reflecting these flows must be maintained as part of the
          system documentation record. Data at rest and in transit must use EIS-approved
          security protocols.
       5. Vendor Compliance
          Vendors must agree to Zero Data Retention (ZDR) on AI processing and provide
-         third-party attestation/ certiﬁcation (e.g. GovRAMP). Vendors must: (a) restrict data
+         third-party attestation/ certification (e.g. GovRAMP). Vendors must: (a) restrict data
          use to service delivery, (b) prohibit training on level 3 data, (c) require breach
          notification within 24 hours per policy, and (d) grant audit rights.
       6. Development and Production Environments Attestation
@@ -66,17 +66,17 @@ State of Oregon Responsible AI Usage Policy
          Ensures all access, inference requests, and data interactions are logged, monitored,
          and available for audit by security and compliance teams.
       8. Data Loss Prevention (DLP)
-         DLP must be implemented by the agency unless a speciﬁc waiver is granted by EIS.
-         DLP prevents unauthorized exﬁltration or disclosure of sensitive data through model
+         DLP must be implemented by the agency unless a specific waiver is granted by EIS.
+         DLP prevents unauthorized exfiltration or disclosure of sensitive data through model
          inputs, outputs, or training data.
       9. Emerging AI Risks
-         The Open Worldwide Application Security Project (OWASP) has deﬁned a Top 10 list
+         The Open Worldwide Application Security Project (OWASP) has defined a Top 10 list
          of risks for large language model applications. Agencies must provide
          documentation on their safeguards and mitigations for each of these risks. 2
 
-2. For use cases with a rights-impacting, safety-impacting, or ﬂagged AI processing
+2. For use cases with a rights-impacting, safety-impacting, or flagged AI processing
 category
-For higher-risk use cases, additional artifacts will be required. Speciﬁcations on these
+For higher-risk use cases, additional artifacts will be required. Specifications on these
 artifacts are still in development and will likely include the following:
 
     Artifact                      Brief Description
@@ -158,12 +158,12 @@ Higher-risk use cases requirements – June 16, 2026                            
 
 State of Oregon Responsible AI Usage Policy
 
-Appendix: Additional Deﬁnitions
+Appendix: Additional Definitions
 Grounding: The process of connecting an AI model to verifiable, authoritative sources of
 information (e.g., agency policy documents) to reduce hallucinations and improve
 accuracy.
 Hallucination: The production of erroneous or false content by a large language model that
-is presented with conﬁdence.
+is presented with confidence.
 Internally Grounded: A specific architectural requirement where AI solutions must rely on
 curated internal sources (policies, procedures, approved datasets) as the primary
 knowledge base and avoid reliance on unvetted external content.

@@ -11,13 +11,14 @@ issuing_body: Enterprise Information Services
 source_url: https://www.oregon.gov/eis/Documents/Attachment-E-User-Feedback.pdf
 source_format: pdf
 retrieved: '2026-11-10'
-source_sha256: e51c8bd387abece39d81cf71cbf0e560df9c4d8db21662d50567a33072eae93c
+source_sha256: 4c04efdf106a90477818959d526b881ee5e8f1b4a3f08a213d1bda5d5dd8226a
 effective_date: null
 source_version: ''
 status: current
 content_mode: verbatim
 conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
-  as extracted; form feeds and trailing spaces removed).
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
 last_verified: ''
 verified_by: ''
 maintainer: ''
@@ -44,7 +45,7 @@ Supporting attachment to statewide policy 107-004-190 listed on the EIS Artifici
 State of Oregon Responsible AI Usage Policy
 
 User Feedback
-Custom-built or conﬁgured AI systems should measure user satisfaction on each use and
+Custom-built or configured AI systems should measure user satisfaction on each use and
 provide an opportunity for users of all types, including both state employees and the
 public, to provide feedback that is reviewed by a human.
 Collecting and using user feedback is a critical part of a successful AI implementation. It’s
@@ -104,4 +105,4 @@ User feedback mechanism – June 16, 2026          2
 
 ## Curator notes
 
-Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed).
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

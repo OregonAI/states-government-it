@@ -88,12 +88,19 @@ def oar_html_to_text(raw: bytes) -> str:
     return "\n".join(out) + "\n"
 
 
+# pdftotext emits a typographic ligature glyph where a PDF used one ("conﬁgured"). It is the
+# same letters, but keyword search cannot match "conﬁgured" against "configured".
+_LIGATURES = {"\ufb00": "ff", "\ufb01": "fi", "\ufb02": "fl", "\ufb03": "ffi",
+              "\ufb04": "ffl", "\ufb05": "st", "\ufb06": "st"}
+
+
 def pdf_to_text(raw: bytes) -> str:
     """`pdftotext -layout`, as the drift detector reads PDFs, with form feeds and trailing
-    space removed. Page headers, footers and column layout are kept: removing furniture
-    per document would be editing the instrument."""
+    space removed and ligature glyphs written as their letters. Page headers, footers and
+    column layout are kept: removing furniture per document would be editing the instrument."""
     text = subprocess.run(["pdftotext", "-layout", "-", "-"], input=raw, capture_output=True,
                           check=True).stdout.decode("utf-8", "replace")
+    text = text.translate(str.maketrans(_LIGATURES))
     text = "\n".join(line.rstrip() for line in text.replace("\f", "\n").split("\n"))
     text = re.sub(r"\n{3,}", "\n\n", text).strip("\n") + "\n"
     if len(text.split()) < MIN_PDF_WORDS:
@@ -205,7 +212,8 @@ def doc_path(src: dict, config=CONFIG) -> Path:
 def conversion_notes(src: dict, fmt: str, text: str) -> str:
     if fmt == "pdf":
         return ("Text extracted with pdftotext -layout (page headers, footers and column layout "
-                "kept as extracted; form feeds and trailing spaces removed).")
+                "kept as extracted; form feeds and trailing spaces removed; ligature glyphs such "
+                "as fi and fl written as their letters).")
     if src["doc_type"] == "statute":
         return ("HTML paragraphs unwrapped to one line per source paragraph; markup, spacing "
                 "paragraphs and non-breaking spaces removed. The source serves the whole "
