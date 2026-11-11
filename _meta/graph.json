@@ -1,6 +1,6 @@
 {
  "corpus": "states-it-governance",
- "n_nodes": 330,
+ "n_nodes": 338,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -183,6 +183,36 @@
    "title": "Trustworthy Electronic Document or Record Preservation",
    "doc_type": "rule",
    "path": "rules/california/ca-ccr-2-div-7-ch-15.md"
+  },
+  {
+   "id": "co-ccr-8-1501-11",
+   "title": "RULES ESTABLISHING TECHNOLOGY ACCESSIBILITY STANDARDS",
+   "doc_type": "rule",
+   "path": "rules/colorado/co-ccr-8-1501-11.md"
+  },
+  {
+   "id": "co-ccr-8-1501-12",
+   "title": "INFORMATION TECHNOLOGY LIFECYCLE PLANNING",
+   "doc_type": "rule",
+   "path": "rules/colorado/co-ccr-8-1501-12.md"
+  },
+  {
+   "id": "co-ccr-8-1501-5",
+   "title": "RULES IN SUPPORT OF THE COLORADO INFORMATION SECURITY ACT",
+   "doc_type": "rule",
+   "path": "rules/colorado/co-ccr-8-1501-5.md"
+  },
+  {
+   "id": "co-ccr-8-1501-7",
+   "title": "RULE IN SUPPORT OF CENTRALIZED IT MANAGEMENT AND CREATION OF ENTERPRISE ARCHITECTURE OFFICE AND DATA MANAGEMENT PROGRAM",
+   "doc_type": "rule",
+   "path": "rules/colorado/co-ccr-8-1501-7.md"
+  },
+  {
+   "id": "co-ccr-8-1501-9",
+   "title": "COLORADO RULES REGARDING ELECTRONIC TRANSACTIONS BY COLORADO GOVERNMENTAL AGENCIES",
+   "doc_type": "rule",
+   "path": "rules/colorado/co-ccr-8-1501-9.md"
   },
   {
    "id": "or-oar-128-20",
@@ -983,6 +1013,18 @@
    "path": "policies/california/ca-tl-26-02.md"
   },
   {
+   "id": "co-oit-authority-memo",
+   "title": "OIT Authority & Governance Operations Memorandum",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-authority-memo.md"
+  },
+  {
+   "id": "co-oit-esignature-guidelines",
+   "title": "eSignature Recommended Policy Guidelines for State Agencies",
+   "doc_type": "policy",
+   "path": "policies/colorado/co-oit-esignature-guidelines.md"
+  },
+  {
    "id": "or-das-107-004-010",
    "title": "Information Technology Asset Inventory and Management",
    "doc_type": "policy",
@@ -1641,6 +1683,12 @@
    "title": "Social Media Standards",
    "doc_type": "standard",
    "path": "standards/california/ca-simm-66b.md"
+  },
+  {
+   "id": "co-oit-vendor-selection-standard",
+   "title": "Vendor Selection Standard for Major IT Projects",
+   "doc_type": "standard",
+   "path": "standards/colorado/co-oit-vendor-selection-standard.md"
   },
   {
    "id": "or-eis-it-control-standards",

@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 203 |
-| standard | 83 |
+| policy | 205 |
+| standard | 84 |
 | statute | 28 |
+| rule | 11 |
 | executive_order | 10 |
-| rule | 6 |
 
-**Total: 330**
+**Total: 338**
 
 ## Source manifest
 
-454 declared source(s) across 1 group(s) in `source-manifest.yml`.
+516 declared source(s) across 1 group(s) in `source-manifest.yml`.
 
 ## Freshness (reverify every 90 days)
 
-330 of 330 document(s) overdue for re-verification.
+338 of 338 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -54,6 +54,11 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | wa-rcw-43-105 | statute | never |
 | ca-ccr-2-div-7-ch-10 | rule | never |
 | ca-ccr-2-div-7-ch-15 | rule | never |
+| co-ccr-8-1501-11 | rule | never |
+| co-ccr-8-1501-12 | rule | never |
+| co-ccr-8-1501-5 | rule | never |
+| co-ccr-8-1501-7 | rule | never |
+| co-ccr-8-1501-9 | rule | never |
 | or-oar-128-20 | rule | never |
 | or-oar-128-30 | rule | never |
 | or-oar-128-40 | rule | never |
@@ -69,10 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | wa-eo-24-01 | executive_order | never |
 | wa-eo-91-10 | executive_order | never |
 | ca-genai-guidelines | policy | never |
-| ca-itpl-09-03 | policy | never |
-| ca-itpl-09-05 | policy | never |
-| ca-itpl-10-01 | policy | never |
-| ca-itpl-10-02 | policy | never |
-| ca-itpl-10-03 | policy | never |
-| … | *280 more* | |
+| … | *288 more* | |
 
