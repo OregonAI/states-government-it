@@ -1,0 +1,47 @@
+Title 22: Libraries, History, and Information Technology
+Chapter 016: The Vermont Web Portal
+
+§ 950. Purpose
+The purpose of the Vermont web portal is to increase, at no cost to the taxpayer, the ease of accessing needed information. (Added 2005, No. 203 (Adj. Sess.), § 1, eff. May 30, 2006.)
+
+§ 951. Definitions
+As used in this chapter:
+(1) “Public information” means any State data that are included within the information deemed to be public pursuant to the Public Records Act and other provisions of law providing for release of information to the public at large or to specified groups or recipients.
+(2) “Self-funded web portal” means the centralized electronic information system by which public information is disseminated or collected via the internet, supported entirely with fees collected for financial transactions through the portal.
+(3) “State data” means any information stored, gathered, or generated in electronic or magnetic form by a State agency.
+(4) “Vermont Web Portal Board” or “Board” means the Board established in section 952 of this title. (Added 2005, No. 203 (Adj. Sess.), § 1, eff. May 30, 2006; amended 2017, No. 74, § 60.)
+
+§ 952. Vermont web portal; Vermont Web Portal Board; membership
+(a) There is created the Vermont web portal that shall be governed by a Board consisting of 12 members as follows:
+(1) the Secretary of Digital Services or designee;
+(2) the Secretary of State or designee;
+(3) the Secretary of Administration or designee;
+(4) the State Librarian or designee;
+(5) the Court Administrator or designee;
+(6) the Chief Marketing Officer of the Agency of Commerce and Community Development or designee;
+(7) the Chief Data Officer of the Agency of Digital Services or designee;
+(8) one member or designee who is an officer of the Executive Branch as identified in 32 V.S.A. § 1003(b), other than of the Department of Finance and Management, the Agency of Digital Services, and the Department of Libraries, and who shall be appointed by the Governor;
+(9) two members appointed by the Vermont State Employees’ Association; and
+(10) one member of the House of Representatives who is also a member of the Joint Information Technology Oversight Committee, appointed by the Speaker of the House, and one member of the Vermont Senate who is also a member of the Joint Information Technology Oversight Committee, appointed by the Committee on Committees.
+(b) The Board shall annually elect one of its members as chair of the Board and may also elect a vice chair and a secretary.
+(c) Six members of the Board shall constitute a quorum, and the affirmative vote of six members shall be necessary for any action taken by the Board. No vacancy in the membership of the Board shall impair the right of a quorum to exercise all rights and perform all the duties of the Board.
+(d) The Board shall meet at least semiannually.
+(e) Members of the Board, except for legislative members, shall serve without compensation but shall be eligible to receive reimbursement for mileage and for expenses.
+(f) Legislative members of the Board shall be entitled to the same per diem compensation and reimbursement for actual and necessary expenses as provided members of standing committees under 2 V.S.A. § 23. (Added 2005, No. 203 (Adj. Sess.), § 1, eff. May 30, 2006; amended 2019, No. 49, § 8, eff. June 10, 2019; 2023, No. 85 (Adj. Sess.), § 258, eff. July 1, 2024.)
+
+§ 953. Vermont Web Portal Board; duties
+(a) The Board shall:
+(1) Oversee the development of a self-funded web portal and establish charges for the services it provides.
+(2) Oversee development, implementation, and promotion, in cooperation with the Agency of Digital Services, of electronic commerce and digital signature applications involving the State of Vermont.
+(3) Serve in an advisory capacity to the Agency of Digital Services and other State agencies regarding the dissemination and collection of State data to and from the citizens and businesses of Vermont.
+(4) Seek input from the general public, users of the web portal, professional associations, academic groups, and institutions and individuals with knowledge or interest in computer networking, electronic mail, public information access, gateway services, add-on services, and electronic filing of information.
+(5) Accept gifts, donations, and grants for the support of the Vermont web portal.
+(6) Oversee drafting and implementation by the Agency of Digital Services of the contract with the web portal service provider. This contract shall comply with State security and privacy standards.
+(b) All State agencies shall cooperate with the Board in providing assistance as it may request for the achievement of its purpose. Services and information to be provided by any agency shall be specified pursuant to a written agreement between the Board and the agency.
+(c) Any charges created or changed by the Board shall be approved as follows:
+(1) All such charges shall be submitted to the Governor who shall send a copy of the approval or rejection to the Joint Fiscal Committee through the Joint Fiscal Office together with the following information with respect to those items:
+(A) the costs, direct and indirect, for the present and future years related to the charge;
+(B) the department or program that will utilize the charge;
+(C) a brief statement of purpose; and
+(D) the impact on existing programs if the charge is not accepted.
+(2) The Governor’s approval shall be final unless within 30 days following receipt of the information a member of the Joint Fiscal Committee requests the charge be placed on the agenda of the Joint Fiscal Committee or, when the General Assembly is in session, be held for legislative approval. In the event of such request, the charge shall not be accepted until approved by the Joint Fiscal Committee or the General Assembly. During the legislative session, the Joint Fiscal Committee shall file a notice with the House Clerk and Senate Secretary for publication in the respective calendars of any charge approval requests that are submitted by the Administration. Beginning on July 1, 2012, and every three years thereafter, all web portal fees shall be included in the annual consolidated Executive Branch fee report pursuant to 32 V.S.A. § 605. (Added 2005, No. 203 (Adj. Sess.), § 1, eff. May 30, 2006; amended 2009, No. 146 (Adj. Sess.), § B16; 2011, No. 161 (Adj. Sess.), § 9, eff. May 17, 2012; 2019, No. 49, § 9, eff. June 10, 2019; 2023, No. 85 (Adj. Sess.), § 259, eff. July 1, 2024.)

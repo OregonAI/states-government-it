@@ -1,0 +1,103 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: vermont
+id: vt-3-vsa-69
+title: Title 3, Chapter 69. Division of Artificial Intelligence
+doc_type: statute
+citation: 3 V.S.A. chapter 69
+authority_level: ''
+issuing_body: Vermont General Assembly
+source_url: https://legislature.vermont.gov/statutes/fullchapter/03/069
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: 0361316f4b27449ef685c03d7b3b2b7eadb8e31d7a380a2d49d7e6e3f5734afc
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the full-chapter page on legislature.vermont.gov: the title and chapter
+  headings, then each section as its `§ n. Caption` line and one line per paragraph (and a line for each
+  subchapter heading). Menus, sidebar, scripts and footer removed. The Legislature says its Vermont Statutes
+  Online is an unofficial copy of the Vermont Statutes Annotated, provided as a convenience.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- ai
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Title 3, Chapter 69. Division of Artificial Intelligence (3 V.S.A. chapter 69)
+
+## At a glance
+
+The statute on State government's use of artificial intelligence: the definition of artificial intelligence systems (5021); the Division of Artificial Intelligence within ADS, which reviews AI systems developed, employed or procured in State government, proposes a State code of ethics for AI that ADS adopts and updates annually, advises the General Assembly, and reviews the automated decision systems inventory (5022); and the Artificial Intelligence Advisory Council (5023, printed 'Repealed effective June 30, 2030'). The ADS Code of Ethics and the Guidelines for Use of Generative AI cite 3 V.S.A. 5022 as their authority.
+
+## Full text
+
+Title 3: Executive
+Chapter 069: Division of Artificial Intelligence
+
+§ 5021. Definition
+As used in this chapter, “artificial intelligence systems” means systems capable of perceiving an environment through data acquisition and then processing and interpreting the derived information to take an action or actions or to imitate intelligent behavior given a specific goal. An artificial intelligence system can also learn and adapt its behavior by analyzing how the environment is affected by prior actions. (Added 2021, No. 132 (Adj. Sess.), § 5, eff. July 1, 2022.)
+
+§ 5022. Division of Artificial Intelligence
+(a) Creation. There is established the Division of Artificial Intelligence within the Agency of Digital Services to review all aspects of artificial intelligence systems developed, employed, or procured in State government. The Division shall be administered by the Director of Artificial Intelligence, who shall be appointed by the Secretary of Digital Services.
+(b) Powers and duties. The Division shall review artificial intelligence systems developed, employed, or procured in State government, including the following:
+(1) propose for adoption by the Agency of Digital Services a State code of ethics for artificial intelligence in State government, which shall be updated annually;
+(2) make recommendations to the General Assembly on policies, laws, and rules for artificial intelligence systems in State government; and
+(3) review the automated decision systems inventory created by the Agency of Digital Services, including:
+(A) whether any systems affect the constitutional or legal rights, duties, or privileges of any Vermont resident; and
+(B) whether there are any potential liabilities or risks that the State of Vermont could incur from its implementation.
+(c) Reports. Annually, on or before January 15 each year, the Division shall report to the House Committee on Government Operations and Military Affairs and the Senate Committees on Finance and on Government Operations on the following:
+(1) the extent of the use of artificial intelligence systems by State government and any short- or long-term actions needed to optimize that usage or mitigate their risks;
+(2) the impact of using artificial intelligence systems in State government on the liberty, finances, livelihood, and privacy interests of Vermont residents;
+(3) any necessary policies to:
+(A) protect the privacy and interests of Vermonters from any diminution caused by employment of artificial intelligence systems by State government;
+(B) ensure that Vermonters are free from unfair discrimination caused or compounded by the employment of artificial intelligence in State government;
+(C) address the use or prohibition of systems that have not been tested for bias or have been shown to contain bias; and
+(D) address security and training on artificial intelligence systems; and
+(4) any other information the Division deems appropriate based on its work. (Added 2021, No. 132 (Adj. Sess.), § 5, eff. July 1, 2022; amended 2025, No. 91 (Adj. Sess.), § 24, eff. April 30, 2026.)
+
+§ 5023. Artificial Intelligence Advisory Council [Repealed effective June 30, 2030]
+(a) Advisory Council. There is established the Artificial Intelligence Advisory Council to provide advice and counsel to the Director of the Division of Artificial Intelligence with regard to the Division’s responsibilities to review all aspects of artificial intelligence systems developed, employed, or procured in State government. The Advisory Council, in consultation with the Director of the Division, shall also engage in public outreach and education on artificial intelligence.
+(b)(1) Members. The Advisory Council shall be composed of the following members:
+(A) the Secretary of Digital Services or designee;
+(B) the Secretary of Commerce and Community Development or designee;
+(C) the Commissioner of Public Safety or designee;
+(D) the Executive Director of the American Civil Liberties Union of Vermont or designee;
+(E) one member who is an expert in constitutional and legal rights, appointed by the Chief Justice of the Supreme Court;
+(F) one member with experience in the field of ethics and human rights, appointed by the National Association of Social Workers, Vermont Chapter;
+(G) one member who is an academic at a postsecondary institute, appointed by the Vermont Academy of Science and Engineering;
+(H) the Secretary of Human Services or designee;
+(I) one member with experience in health care, appointed by the Vermont Medical Society
+(J) one member with experience in public education, appointed by the Vermont-National Education Association;
+(K) the Director of Professional Regulation or designee;
+(L) the Executive Director of the Vermont Board of Medical Practice or designee;
+(M) the Executive Director of Racial Equity or designee;
+(N) the Attorney General or designee.
+(O) the State Treasurer or designee; and
+(P) one member with relevant knowledge and expertise, appointed by the Governor.
+(2) Chair. Members of the Advisory Council shall elect by majority vote the Chair of the Advisory Council. Members of the Advisory Council shall be appointed on or before August 1, 2022, in order to prepare as they deem necessary for the establishment of the Advisory Council, including the election of the Chair of the Advisory Council.
+(3) Qualifications. Members shall be drawn from diverse backgrounds and, to the extent possible, have experience with artificial intelligence.
+(c) Meetings. The Advisory Council shall meet at the call of the Chair as follows:
+(1) on or before January 31, 2024, not more than 12 times; and
+(2) on or after February 1, 2024, not more than monthly.
+(d) Quorum. A majority of members shall constitute a quorum of the Advisory Council. Once a quorum has been established, the vote of a majority of the members present at the time of the vote shall be an act of the Advisory Council.
+(e) Assistance. The Advisory Council shall have the administrative and technical support of the Agency of Digital Services.
+(f) Reimbursement. Members of the Advisory Council who are not employees of the State of Vermont and who are not otherwise compensated or reimbursed for their attendance shall be entitled to compensation and expenses as provided in 32 V.S.A. § 1010.
+(g) Consultation. The Advisory Council shall consult with any relevant national bodies on artificial intelligence, including the National Artificial Intelligence Advisory Committee established by the Department of Commerce, and its applicability to Vermont.
+(h) Repeal. This section shall be repealed on June 30, 2030. (Added 2021, No. 132 (Adj. Sess.), § 5, eff. July 1, 2022; amended 2023, No. 6, § 8, eff. July 1, 2023; 2025, No. 101 (Adj. Sess.), § 3, eff. May 18, 2026; 2025, No. 156 (Adj. Sess.), § 5, eff. June 17, 2026.)
+
+## Curator notes
+
+Text taken from the full-chapter page on legislature.vermont.gov: the title and chapter headings, then each section as its `§ n. Caption` line and one line per paragraph (and a line for each subchapter heading). Menus, sidebar, scripts and footer removed. The Legislature says its Vermont Statutes Online is an unofficial copy of the Vermont Statutes Annotated, provided as a convenience.

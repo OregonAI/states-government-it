@@ -1,0 +1,359 @@
+# Vermont seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: legislature.vermont.gov (Vermont Statutes Online: title, chapter and full-chapter pages), digitalservices.vermont.gov (Agency of Digital Services: policies, cybersecurity standards and directives, artificial intelligence, governing statutes, procurement, web portal board and cybersecurity advisory council pages), governor.vermont.gov (executive order list, 14 pages, and order pages), vermont.gov (web policies), cmo.vermont.gov (web design and accessibility), aoa.vermont.gov (Bulletin 3.5), sos.vermont.gov and lexisnexis.com (administrative rules).
+sources:
+
+
+  # ---- Statutes: Vermont Statutes Online full-chapter pages (unofficial copy the Legislature provides; the only text the State serves)
+  - id: "vt-3-vsa-56"
+    sha256: "074ed503fa55548ffd4c00e4caab10047f7be8075bdeb596438d3194cea003de"
+    url: "https://legislature.vermont.gov/statutes/fullchapter/03/056"
+    format: "html"
+    citation: "3 V.S.A. chapter 56"
+    title: "Title 3, Chapter 56. Agency of Digital Services"
+    doc_type: "statute"
+    jurisdiction: "vermont"
+    issuing_body: "Vermont General Assembly"
+    tags: [governance, oversight, procurement, funding, cybersecurity, data, ai, digital-services]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/accountability/governing-statutes (ADS page that points to the statutes); the chapter page https://legislature.vermont.gov/statutes/chapter/03/056 links this full-chapter page as 'Full Text of Chapter 056'"
+    why_relevant: "The enabling statute of the Agency of Digital Services (ADS) and the State's Chief Information Officer. Its sections: ADS created, with duties for all information technology and cybersecurity activity in executive-branch State government, including reviewing and approving IT activities and developing IT and cybersecurity policies (3301); the Secretary of Digital Services as State CIO, who reviews and approves State IT and cybersecurity policies and supervises IT staff and contractors (3302); the annual report and budget, strategic plan, records, independent expert review of IT projects of $1,000,000.00 or more, and the project inventory (3303); the Information Technology Internal Service Fund (3304); the automated decision system definitions and the inventory of automated decision systems that State government develops, employs or procures (3305); and the Technology Modernization Special Fund (3306). The ADS cybersecurity standards cite 3 V.S.A. 2283(b) and 2222(a) as their authority; ADS's own page says 2283b was the enabling statute of the former Department of Information and Innovation."
+  - id: "vt-3-vsa-69"
+    sha256: "91ee7796fa5fb4406bac8d3b362d4b886e1a0843b4c975195d690b74e215d620"
+    url: "https://legislature.vermont.gov/statutes/fullchapter/03/069"
+    format: "html"
+    citation: "3 V.S.A. chapter 69"
+    title: "Title 3, Chapter 69. Division of Artificial Intelligence"
+    doc_type: "statute"
+    jurisdiction: "vermont"
+    issuing_body: "Vermont General Assembly"
+    tags: [governance, ai]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/ai (ADS AI page, which names 2022 Act 132 as creating the bodies); the chapter page https://legislature.vermont.gov/statutes/chapter/03/069 links this full-chapter page as 'Full Text of Chapter 069'"
+    why_relevant: "The statute on State government's use of artificial intelligence: the definition of artificial intelligence systems (5021); the Division of Artificial Intelligence within ADS, which reviews AI systems developed, employed or procured in State government, proposes a State code of ethics for AI that ADS adopts and updates annually, advises the General Assembly, and reviews the automated decision systems inventory (5022); and the Artificial Intelligence Advisory Council (5023, printed 'Repealed effective June 30, 2030'). The ADS Code of Ethics and the Guidelines for Use of Generative AI cite 3 V.S.A. 5022 as their authority."
+  - id: "vt-22-vsa-16"
+    sha256: "e93d09299f31d8a5da10221c20feece4bce09d62255393b9fb689a9cdd9f89e5"
+    url: "https://legislature.vermont.gov/statutes/fullchapter/22/016"
+    format: "html"
+    citation: "22 V.S.A. chapter 16"
+    title: "Title 22, Chapter 16. The Vermont Web Portal"
+    doc_type: "statute"
+    jurisdiction: "vermont"
+    issuing_body: "Vermont General Assembly"
+    tags: [governance, digital-services, funding]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/about-us/web-portal-board (the page links https://legislature.vermont.gov/statutes/fullchapter/22/016)"
+    why_relevant: "The statute for the State's web portal (sections 950 to 953): purpose, definitions, the Vermont Web Portal Board and its membership (the Secretary of Digital Services and the Chief Data Officer of ADS sit on it), and the Board's duties. ADS's Web Portal Board page names this chapter as the Board's statute."
+  - id: "vt-20-vsa-208"
+    sha256: "82583f1c235118f6f2fe2f6d8976c9afef42bb2b8c9acbb5ee609824d8e69c04"
+    url: "https://legislature.vermont.gov/statutes/fullchapter/20/208"
+    format: "html"
+    citation: "20 V.S.A. chapter 208"
+    title: "Title 20, Chapter 208. Cybersecurity [Repealed effective June 30, 2033]"
+    doc_type: "statute"
+    jurisdiction: "vermont"
+    issuing_body: "Vermont General Assembly"
+    tags: [cybersecurity, governance]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/cybersecurity/cybersecurity-advisory-council (names Act 71 and 20 V.S.A. chapter 208); the full-chapter URL is built from the Legislature's fullchapter pattern (found_via note: the chapter 56 and 69 pages show it) and the title block in the fetched bytes is 'Title 20 ... Chapter 208: Cybersecurity'"
+    why_relevant: "The cybersecurity statute: definitions (4661) and the Cybersecurity Advisory Council (4662), created by Act 71 of 2023, chaired by the Chief Information Officer, with the duty to develop a strategic plan for protecting the State's public sector and private sector information and systems and to evaluate statewide cybersecurity readiness. The chapter is printed 'Repealed effective June 30, 2033', so it is in force today. It also reaches private-sector members and critical infrastructure; the Council is a State body."
+  - id: "vt-9-vsa-62"
+    sha256: "dc7c447be1189802679e45d17391663738f58a859d6e155c23ed018771968b4d"
+    url: "https://legislature.vermont.gov/statutes/fullchapter/09/062"
+    format: "html"
+    citation: "9 V.S.A. chapter 62"
+    title: "Title 9, Chapter 62. Protection of Personal Information"
+    doc_type: "statute"
+    jurisdiction: "vermont"
+    issuing_body: "Vermont General Assembly"
+    tags: [cybersecurity, data]
+    recheck: "monthly"
+    found_via: "legislature.vermont.gov Title 9 chapter list (https://legislature.vermont.gov/statutes/title/09); the full-chapter URL is built from the Legislature's fullchapter pattern and the title block in the fetched bytes is 'Title 9: Commerce and Trade / Chapter 062: Protection of Personal Information'"
+    why_relevant: "The personal-information chapter. 'Data collector' is defined to include the State, State agencies and political subdivisions, so the Security Breach Notice Act (subchapter 2, section 2435) binds State agencies, and the Social Security Number Protection Act (subchapter 3, section 2440) restricts what the State and State agencies may do with Social Security numbers. Most of the rest of the chapter binds private businesses and is served on the same page (OWNER DECISION: section-level slicing; see left_out). Sections print both an 'effective until January 1, 2027' and an 'effective January 1, 2027' version, and the page serves both."
+
+  - id: "vt-3-vsa-10"
+    sha256: "d43cb2cc9e554c28caf411fb6dc97584544e15e9dab3125235192c08f2e0f075"
+    url: "https://legislature.vermont.gov/statutes/fullchapter/03/010"
+    format: "html"
+    citation: "3 V.S.A. chapter 10"
+    title: "Title 3, Chapter 10. Federal Tax Information"
+    doc_type: "statute"
+    jurisdiction: "vermont"
+    issuing_body: "Vermont General Assembly"
+    tags: [data, cybersecurity]
+    recheck: "monthly"
+    found_via: "legislature.vermont.gov Title 3 chapter list (https://legislature.vermont.gov/statutes/title/03); the full-chapter URL is built from the Legislature's fullchapter pattern and the title block in the fetched bytes is 'Title 3: Executive / Chapter 010: Federal Tax Information'"
+    why_relevant: "Section 241 binds named executive-branch 'Recipients' of federal tax information (the Agency of Human Services and four of its departments, the Departments of Labor, Motor Vehicles, Taxes and Buildings and General Services, and the Agency of Digital Services): an initial background investigation and a reinvestigation at least every 10 years of any employee, volunteer, contractor or subcontractor given access to FTI, by fingerprint-based criminal history record checks through the Vermont Crime Information Center. A State agency is the obligated party and the subject is the security of government-held data. It is a personnel-screening rule, so it is a close call on scope; seeded, not left out (OWNER DECISION whether to keep it). Sections 242 to 250 print 'Repealed. 1987, No. 243 (Adj. Sess.), 6, eff. June 13, 1988'."
+
+  # ---- Executive orders: PDFs the Governor's office posts (the Vermont Statutes Online Title 3 Appendix is an unofficial copy and is not used)
+  - id: "vt-eo-06-17"
+    sha256: "9a65920919ac7167338ed872de93679638ca6d758e6f60a0192603f9f9a9ef64"
+    url: "https://governor.vermont.gov/sites/scott/files/documents/EO%206.IT%20REORG%20FINAL.pdf"
+    format: "pdf"
+    citation: "Executive Order 06-17"
+    title: "Executive Order No. 06-17: Creation of the Agency of Digital Services"
+    doc_type: "executive_order"
+    jurisdiction: "vermont"
+    issuing_body: "Governor of Vermont"
+    tags: [governance, oversight, cybersecurity, digital-services]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/accountability/governing-statutes (links governor.vermont.gov/content/creation-agency-digital-services-executive-order-06-17, whose file link is this PDF); the Governor's order list shows it dated January 17, 2017"
+    why_relevant: "The order that created ADS, signed January 15, 2017 (the Governor's list dates it January 17, 2017) and taking effect April 17, 2017 unless disapproved by the General Assembly: it unified the State's IT operations in one agency headed by the Secretary of Digital Services (the State CIO), with divisions, and brought agency technology leaders under the CIO. The ADS governing statutes page links it; it is the executive-order base for the later statute (3 V.S.A. chapter 56). Inference, not printed in either document: chapter 56 (2019 Act 49) now creates ADS and sets the Secretary's duties by statute, so the order's creation of the agency is carried by the statute; the Governor's office still posts the order and nothing read says it was revoked, so it stays seeded."
+  - id: "vt-eo-18-17"
+    sha256: "affde5b0578fa6cff6fae886ffeb5b41233f7cb46ddcfd029f4ef0b55990dc44"
+    url: "https://governor.vermont.gov/sites/scott/files/documents/EO%2018-17%20-%20Governor%27s%20Cybersecurity%20Advisory%20Team.pdf"
+    format: "pdf"
+    citation: "Executive Order 18-17"
+    title: "Executive Order No. 18-17: Governor's Cybersecurity Advisory Team"
+    doc_type: "executive_order"
+    jurisdiction: "vermont"
+    issuing_body: "Governor of Vermont"
+    tags: [cybersecurity, governance]
+    recheck: "monthly"
+    found_via: "https://governor.vermont.gov/document-types/executive-orders (list, October 10, 2017) and https://governor.vermont.gov/content/governors-cybersecurity-advisory-team-executive-order-18-17"
+    why_relevant: "Creates the Governor's Cybersecurity Advisory Team (October 10, 2017), with the State CIO and the Chief Information Security Officer among its members and ADS staffing it, to advise the Governor on the State's cybersecurity posture and develop a strategic plan. No order rescinding it was found on the Governor's list (14 pages read), but Act 71 of 2023 later created a statutory Cybersecurity Advisory Council with a similar charge (20 V.S.A. chapter 208)."
+  - id: "vt-eo-04-26"
+    sha256: "3a2c929b83a8b0ce985cad61a42c505ad1d352e45deb106dbf87c6cc175191c0"
+    url: "https://governor.vermont.gov/sites/scott/files/documents/Establishing%20the%20Vermont%20AI%20Economic%20Taskforce%20-%20EO%2004-26.pdf"
+    format: "pdf"
+    citation: "Executive Order 04-26"
+    title: "Executive Order No. 04-26: Establishing the Vermont AI Economic Taskforce"
+    doc_type: "executive_order"
+    jurisdiction: "vermont"
+    issuing_body: "Governor of Vermont"
+    tags: [ai, governance]
+    recheck: "monthly"
+    found_via: "https://governor.vermont.gov/document-types/executive-orders (list, May 18, 2026) and https://governor.vermont.gov/document/executive-order-no-04-26"
+    why_relevant: "Establishes the Vermont AI Economic Taskforce (May 18, 2026; in force two years unless extended, modified or rescinded). Mainly an economy and workforce body, but it directs the Chair with the ADS Secretary to identify up to five priority AI opportunities inside State government and to deliver an education program for State agency leaders (paragraph 7), and requires the Taskforce's own AI use to follow the Code of Ethics and AI Inventory (paragraph 11). The order is mixed; its economic parts ride along."
+
+  # ---- Policies, standards and guidelines: the ADS policy pages and the AI page
+  - id: "vt-ads-information-security-foundations-policy"
+    sha256: "a2caa642c2f1c89a64fd5e85bcf07a5fd992c7a006a70496887d29892a1b94d8"
+    url: "https://digitalservices.vermont.gov/sites/digitalservices/files/documents/ADS%20Information%20Security%20Foundations%20Policy%202026%20Update.pdf"
+    format: "pdf"
+    citation: "Information Security Foundations Policy, Version 1.1"
+    title: "Information Security Foundations Policy"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services"
+    tags: [cybersecurity]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/cybersecurity/cybersecurity-standards-and-directives (lists it as 'Information Security Foundations Policy', March 2026)"
+    why_relevant: "ADS's foundational information security policy (version 1.1, revised 2/26/2026; the index prints 'March 2026'): high-level requirements, organizational responsibilities and managerial commitment for the confidentiality, integrity and availability of information systems, aligned to NIST SP 800-53 and organized by control family (access control through supply chain risk management), with definitions, enforcement, authorities and compliance mapping."
+  - id: "vt-ads-cybersecurity-standard-2023-01"
+    sha256: "59404bfc5831b66b5f15ada72e21bf35467452e76f51e0cedf2b63bcdffdb0f3"
+    url: "https://digitalservices.vermont.gov/sites/digitalservices/files/doc_library/Cybersecurity_Standard_Update_2023-01.pdf"
+    format: "pdf"
+    citation: "Cybersecurity Standard Update 2023-01"
+    title: "Cybersecurity Standard Update 2023-01 (listed as 'State of Vermont Cybersecurity Standard')"
+    doc_type: "standard"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services"
+    tags: [cybersecurity]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/cybersecurity/cybersecurity-standards-and-directives (lists it as 'State of Vermont Cybersecurity Standard')"
+    identity_text: "Cybersecurity Standard Update 2023-01"
+    why_relevant: "A memorandum of February 16, 2023 from the Secretary of Digital Services to all executive-branch agencies, departments and offices that revises and supersedes Cybersecurity Standard Updates 19-01 and 2022-01. It is issued as direction to executive-branch State agencies under 3 V.S.A. 2283(b) and 2222(a) to safeguard State information and information systems."
+  - id: "vt-ads-records-management-policy"
+    sha256: "b57c9bbe9304b09df0fe1d7e22b67aa1822200e117a841acc323de51a18c1ff2"
+    url: "https://digitalservices.vermont.gov/sites/digitalservices/files/documents/ADSInternalRecordsManagementPolicyandGuidelinesVersion1.0.pdf"
+    format: "pdf"
+    citation: "Records Management Policy and Guidelines, Version 1.0"
+    title: "Records Management Policy and Guidelines (listed as 'Agency of Digital Services - Internal Records Management Policy and Guidelines')"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services"
+    tags: [data]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/working-us/policies (Information Management)"
+    identity_text: "Records Management Policy and Guidelines"
+    stub: true
+    stub_reason: "In scope and published by ADS, but its text cannot be committed cleanly, measured 2026-11-12. The Fetcher read the PDF (HTTP 200, 212,161 bytes, 11 pages). Pages 2 to 11 have a clean text layer, but page 1 is a scanned memorandum (a 1275 by 1650 pixel image) carrying a hidden OCR text layer with errors (pdftotext prints 'Tq\\\"VERMONT', 'Stote CIO', 'Shown Nailor', 'Montpelier, VT 05609-200L', 'February 20,2019'). The shared OCR procedure refuses a page that has a text layer (ocr: [1] was tried: 'PDF page 1 has a text layer but the seed entry lists it in ocr'), and committing the layer would put misread names and dates into the verbatim text. Becomes a document when the ingester can OCR a page over a bad text layer, or ADS posts a clean copy. The policy itself (version 1.0, effective March 1, 2019, adopted under 3 V.S.A. 218(b) for all ADS employees) is on pages 2 to 11."
+    why_relevant: "ADS's records management policy (version 1.0, effective March 1, 2019), adopted by memorandum of the Secretary under 3 V.S.A. 218(b) for all ADS employees: ADS records are public records, managed under the Public Records Law and State Archives guidance. It binds ADS only, not other agencies. The first page is a scanned memorandum with a poor text layer, so the entry is a stub."
+  - id: "vt-ai-code-of-ethics"
+    sha256: "ebfb0244c58c47ee6bddb8dfc6e1dc38d0f273887f5d0e5e7d4bdebdd26f621a"
+    url: "https://digitalservices.vermont.gov/sites/digitalservices/files/documents/AI%20Code%20of%20Ethics%20v2_0.pdf"
+    format: "pdf"
+    citation: "Artificial Intelligence Code of Ethics, Version 2"
+    title: "Artificial Intelligence Code of Ethics"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services and Council on Artificial Intelligence"
+    tags: [ai]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/ai (Key documents: 'Code of Ethics', link /sites/digitalservices/files/documents/AI%20Code%20of%20Ethics%20v2_0.pdf)"
+    why_relevant: "The State's AI Code of Ethics (version 2, last updated 06/03/2026), which ADS is directed to create by 3 V.S.A. 5022(b)(1) and (c)(3). It defines AI systems by reference to 3 V.S.A. 5021, separates 'direct impact' from 'indirect impact' systems, and applies to the executive branch; agencies may adopt stricter policies with ADS's consent."
+  - id: "vt-ai-generative-ai-guidelines"
+    sha256: "7d97f785e4f4580d65fb1ee12b75470f72343b8ffe960e436f4750cfb518d8cb"
+    url: "https://digitalservices.vermont.gov/sites/digitalservices/files/documents/Guidelines_for_Use_of_Generative_AI_Updated.pdf"
+    format: "pdf"
+    citation: "Guidelines for Use of Generative AI"
+    title: "Guidelines for Use of Generative AI (listed as 'Guidelines for State Employee Use of Generative AI')"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services, Division of Artificial Intelligence"
+    tags: [ai, data]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/ai (Key documents: 'Guidelines for State Employee Use of Generative AI'; the page's link is the relative path sites/digitalservices/files/documents/Guidelines_for_Use_of_Generative_AI_Updated.pdf)"
+    identity_text: "Guidelines for Use of Generative AI"
+    why_relevant: "Guidance from the Division of Artificial Intelligence (last updated July 1, 2026) under 3 V.S.A. 5022 for State employees who use generative AI tools in official duties: public and internal tool categories, which data may be entered, and citation and approval requirements by content type. Departments may issue more restrictive guidelines."
+  - id: "vt-ai-vendor-usage-disclosure"
+    sha256: "f3f0c7c678472bc90280cb0bc714807feb1003b2751808d047c3075d1a1a3f14"
+    url: "https://digitalservices.vermont.gov/sites/digitalservices/files/documents/AI%20Usage%20Disclosure.docx"
+    format: "docx"
+    citation: "Vendor AI Usage Disclosure"
+    title: "Requirement for Bidders to Disclose AI Usage in Proposals (listed as 'Vendor AI Usage Disclosure')"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services"
+    tags: [ai, procurement]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/ai (Key documents: 'Vendor AI Usage Disclosure')"
+    identity_text: "Requirement for Bidders to Disclose AI Usage in Proposals"
+    stub: true
+    stub_reason: "A Word file (HTTP 200, read with pandoc 2026-11-12) that is a solicitation clause with a questionnaire for bidders to answer, including a check-box item ('[_] Yes, by a 3rd party; [_] Yes, internally; or [_] No') and lettered response prompts. It also carries a binding requirement (AI may be used only with the State's prior written approval and must follow the Code of Ethics). Under the interim forms rule in .claude/rules/documents.md a form or template stays a stub, and this one holds check boxes and a questionnaire; OWNER DECISION whether such solicitation clauses enter as policy. Becomes a document when the owner rules on forms (docs/spec.md, Open)."
+    why_relevant: "The solicitation language ADS provides: AI may be used to provide goods and services for the State only with prior written approval, any use must follow the Code of Ethics, and a bidder planning to use AI must answer three questions (technologies and functions, decision capabilities under 3 V.S.A. 3305, human evaluation and fail-safes). It binds vendors under State solicitations. It is a Word clause for insertion in solicitations with a questionnaire and a check-box item, so the entry is a stub."
+  - id: "vt-it-procurement-guideline"
+    sha256: "ca40b6489d05a0846e76e58e04541dba3efda38e404cd93d65205da81f5ca460"
+    url: "https://bgs.vermont.gov/sites/bgs/files/files/purchasing-contracting/Technology%20Handbook%20-%20FINAL%20-%2004-01-19.pdf"
+    format: "pdf"
+    citation: "Information Technology Procurement Guideline, revised April 1, 2019"
+    title: "Information Technology Procurement Guideline (linked as 'IT Procurement Guideline')"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Administration"
+    tags: [procurement, oversight]
+    recheck: "monthly"
+    found_via: "https://aoa.vermont.gov/bulletins/3point5 (Agency of Administration page, 'IT Procurement Guideline'; not listed on any ADS page, and the file is hosted by the Department of Buildings and General Services)"
+    identity_text: "INFORMATION TECHNOLOGY PROCUREMENT GUIDELINE"
+    why_relevant: "The Secretary of Administration's IT Procurement Guideline (effective July 1, 2016, revised April 1, 2019), which says it is provided as a companion to Administrative Bulletin 3.5 and carries the same authority: procurement and contracting specific to information technology. ADS's procurement page sends agencies to Bulletin 3.5 and its IT retainer contracts."
+  - id: "vt-web-accessibility-policy"
+    sha256: "a7ecaf3352ab91047c383d28940506f93d5d2a49320a41c19bb510b395854f1d"
+    url: "https://www.vermont.gov/policies/accessibility"
+    format: "html"
+    citation: "Accessibility Policy (vermont.gov)"
+    title: "Accessibility Policy"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "State of Vermont (vermont.gov web portal)"
+    tags: [digital-services]
+    recheck: "monthly"
+    found_via: "https://digitalservices.vermont.gov/working-us/policies (Website Policies: 'Web Accessibility Policy')"
+    why_relevant: "The State's accessibility statement for official Vermont government websites (last updated February 5, 2026): State agency websites use templates designed to WCAG 2.1 Level AA and Section 508, with a contact for barriers. ADS's policy page lists it as the 'Web Accessibility Policy'. The vermont.gov portal's policies page also prints an older 'It is the policy of the State of Vermont' accessibility paragraph (see left_out)."
+
+  # ---- Index pages, watched
+  - id: "vt-watch-ads-policies"
+    sha256: ""
+    url: "https://digitalservices.vermont.gov/working-us/policies"
+    format: "html"
+    citation: "ADS Policies page"
+    title: "ADS Policies page"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services"
+    tags: [governance]
+    recheck: "monthly"
+    watch_only: true
+    why_relevant: "ADS's policy index: security policies (the cybersecurity page), the procurement pointer to Bulletin 3.5, the records management policy, and the website policies (Web Design System, Universal Digital Accessibility, Web Accessibility Policy, Plain Language Guide and Policy)."
+  - id: "vt-watch-ads-cybersecurity-standards"
+    sha256: ""
+    url: "https://digitalservices.vermont.gov/cybersecurity/cybersecurity-standards-and-directives"
+    format: "html"
+    citation: "ADS Cybersecurity Standards and Directives page"
+    title: "ADS Cybersecurity Standards and Directives page"
+    doc_type: "standard"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services"
+    tags: [cybersecurity]
+    recheck: "monthly"
+    watch_only: true
+    why_relevant: "The index of ADS cybersecurity policies and standards: two items on 2026-11-12 (the Information Security Foundations Policy and the State of Vermont Cybersecurity Standard)."
+  - id: "vt-watch-ads-ai"
+    sha256: ""
+    url: "https://digitalservices.vermont.gov/ai"
+    format: "html"
+    citation: "ADS Artificial Intelligence page"
+    title: "ADS Artificial Intelligence page"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services"
+    tags: [ai]
+    recheck: "monthly"
+    watch_only: true
+    why_relevant: "ADS's AI page: the Key documents list (inventory reports, Code of Ethics, council reports, generative AI guidelines, task force report, vendor disclosure). It also prints the monthly council meeting agenda and member list, so the monthly drift run will report changes that are not new instruments."
+  - id: "vt-watch-ads-governing-statutes"
+    sha256: ""
+    url: "https://digitalservices.vermont.gov/accountability/governing-statutes"
+    format: "html"
+    citation: "ADS Governing Statutes page"
+    title: "ADS Governing Statutes page"
+    doc_type: "statute"
+    jurisdiction: "vermont"
+    issuing_body: "Agency of Digital Services"
+    tags: [governance]
+    recheck: "monthly"
+    watch_only: true
+    why_relevant: "ADS's list of its governing statutes and the executive order that created it; reports additions of statutes ADS cites."
+  - id: "vt-watch-governor-executive-orders"
+    sha256: ""
+    url: "https://governor.vermont.gov/document-types/executive-orders"
+    format: "html"
+    citation: "Governor's executive orders list (first page of 14)"
+    title: "Governor's executive orders list (first page of 14)"
+    doc_type: "executive_order"
+    jurisdiction: "vermont"
+    issuing_body: "Governor of Vermont"
+    tags: [governance]
+    recheck: "monthly"
+    watch_only: true
+    why_relevant: "The Governor's list of executive orders, newest first, 10 a page (?page=0 to 13 had items on 2026-11-12; later pages are empty). Only the first page is watched: a new order appears there. It lists the current Governor's orders from 2017; earlier Governors' orders are in the Vermont Statutes Online Title 3 Appendix."
+  - id: "vt-watch-vermont-gov-policies"
+    sha256: ""
+    url: "https://www.vermont.gov/policies"
+    format: "html"
+    citation: "vermont.gov web policies page"
+    title: "vermont.gov web policies page"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "State of Vermont (vermont.gov web portal)"
+    tags: [digital-services]
+    recheck: "monthly"
+    watch_only: true
+    why_relevant: "The portal's web policies page: accessibility policy, disclaimer and privacy policy."
+  - id: "vt-watch-universal-digital-accessibility"
+    sha256: ""
+    url: "https://cmo.vermont.gov/accessibility/sov-universal-digital-accessibility"
+    format: "html"
+    citation: "SOV Universal Digital Accessibility hub"
+    title: "SOV Universal Digital Accessibility hub"
+    doc_type: "policy"
+    jurisdiction: "vermont"
+    issuing_body: "Communications and Marketing Office"
+    tags: [digital-services]
+    recheck: "monthly"
+    watch_only: true
+    why_relevant: "The hub of the State's digital accessibility project (step-by-step tasks, document exceptions, checklists, steering committee, communications and template resources); the guidance pages under it are recorded in left_out."
+
+left_out:
+- text: |-
+    Vermont: found and left out (each was seen on an official page on 2026-11-12 and fetched through the Fetcher; the reason is recorded here).
+- text: |-
+    ADS indexes, read row by row. https://digitalservices.vermont.gov/working-us/policies: 6 policy rows plus web links. Seeded: the Internal Records Management Policy and Guidelines (vt-ads-records-management-policy) and the Web Accessibility Policy (vt-web-accessibility-policy); the Cybersecurity Standards and Directives row is the watched page below it (its two items are seeded). Left out: 'Contracting Procedures in Bulletin 3.5' (Agency of Administration Bulletin No. 3.5, Procurement and Contracting Procedures, revised December 7, 2023, 88 pages at https://aoa.vermont.gov/sites/aoa/files/documents/03-22-24_Revised_2023-12-07_Bulletin_3.5_Vermont_Edit_Manual.pdf: general contracting rules for every State purchase, of which IT is one part; the IT-specific companion, the IT Procurement Guideline, is seeded; OWNER DECISION whether Bulletin 3.5 enters); 'Web Design System' (https://cmo.vermont.gov/web-design-system, a hub of six guidance pages for building State websites: design and content strategy, writing for the web, website accessibility, web template regions, content types, content editing; guidance and template instructions, not an instrument; the hub's closing paragraph says to link the system in vendor statements of work); 'Universal Digital Accessibility' (watched hub; its step-by-step tasks, document exceptions, checklists, office hours, steering committee, communications and template pages are guidance); 'Plain Language Guide and Policy' (https://cmo.vermont.gov/accessibility/communications/plain-language, advice on writing for the public, not IT).
+- text: |-
+    https://digitalservices.vermont.gov/cybersecurity/cybersecurity-standards-and-directives: 2 rows, both seeded. Not on any index. Cybersecurity_Standard_2202-01.pdf (HTTP 200 through the Fetcher under /sites/digitalservices/files/doc_library/; its bytes confirm it is superseded by 2023-01, which states that it supersedes updates 19-01 and 2022-01, so it is not in force). ADS_Cybersecurity_Standard_Update_19-01.pdf and ADS_Cybersecurity_Directive_19-01.pdf were named by a web search (discovery only) and are not reachable at https://digitalservices.vermont.gov/sites/digitalservices/files/doc_library/ADS_Cybersecurity_Standard_Update_19-01.pdf or https://digitalservices.vermont.gov/sites/digitalservices/files/doc_library/ADS_Cybersecurity_Directive_19-01.pdf (both HTTP 404 through the Fetcher, 2026-11-12); no other address for them was fetched, and the 2023-01 standard says it supersedes update 19-01, so they are not in force either way; SoV_Information_Security_Standard.pdf (https://digitalservices.vermont.gov/sites/digitalservices/files/doc_library/SoV_Information_Security_Standard.pdf, 'Information Security Standards', ADS, January 15, 2020, 27 pages) and ADS-WebDomainNamePolicy2013.pdf (https://digitalservices.vermont.gov/sites/digitalservices/files/documents/web-policy/ADS-WebDomainNamePolicy2013.pdf, Web Domain Name Policy, original adoption February 1, 2006, updated 8/1/2017, 2 pages). The last two are listed on no ADS index read, and whether either is in force is not shown by the bytes (the 2020 standard is ADS's earlier security baseline and the 2026 Foundations Policy does not say it replaces it); nothing enters by crawling, so they are left out. OWNER DECISION whether to add them.
+- text: |-
+    https://digitalservices.vermont.gov/ai, Key documents (read row by row): seeded are the Code of Ethics, the Guidelines for State Employee Use of Generative AI and (as a stub) the Vendor AI Usage Disclosure. Left out as reports, not instruments: the Inventory of Automated Decision Systems (the 2025, 2024 and 'Original report' links; the ADS 2024 Annual Report PDF and https://legislature.vermont.gov/assets/Legislative-Reports/Agency-of-Digital-Services-Report-on-AI-Inventory.pdf), the 2025 Report on the Future of the AI Council in Vermont, the 2024 AI Council Report on AI Use & Data Management, and the 2020 Final Report of the AI Task Force. Also left out: the meeting minutes and recordings page (https://digitalservices.vermont.gov/ai/minutes) and the council's agenda and member list.
+- text: |-
+    Cybersecurity Advisory Council page (https://digitalservices.vermont.gov/cybersecurity/cybersecurity-advisory-council), Web Portal Board page (https://digitalservices.vermont.gov/about-us/web-portal-board), ADS strategic plans (ADS-Strategic-Plan-FY25.pdf, the FY26 ADS Strategic Plan), the OneADS operating model and playbook, the annual reports, the Cybersecurity Advisory Council annual reports, meeting agendas, minutes and resolutions: reports, strategy documents and meeting records, not instruments. The Cybersecurity Advisory Council page links Act 71 of 2023 (https://legislature.vermont.gov/Documents/2024/Docs/ACTS/ACT071/ACT071%20As%20Enacted.pdf), whose enacted text is in 20 V.S.A. chapter 208, seeded. The ADS procurement page's IT SOW Directory and retainer-vendor information: a directory of contract documents, not an instrument. Not read: https://digitalservices.vermont.gov/cybersecurity (HTTP 404 through the Fetcher).
+- text: |-
+    Statutes left out. 3 V.S.A. 2222 (chapter 45, Administration; ADS's governing statutes page cites 2222(a)(10) for the definition of information technology, its procurement page cites 2222, and the cybersecurity standards cite 2222(a)), 3 V.S.A. chapter 45 as a whole is the Agency of Administration's chapter, not an IT chapter: section-level slicing is an OWNER DECISION. Repealed, so not in force, though the ADS governing statutes page still cites them: 3 V.S.A. 2283b ('Repealed. 2019, No. 49, 4, eff. June 10, 2019'), 32 V.S.A. 315 ('Repealed. 2019, No. 49, 12'), 22 V.S.A. chapter 15 and section 901 (Department of Information and Innovation; 'Repealed. 2019, No. 49, 7 eff. June 10, 2019'), and 29 V.S.A. chapter 63, Data Processing (sections 1701 and 1702 'Repealed. 2007, No. 65'). 30 V.S.A. 202d and 227b (telecommunications plan and assets; telecom is out of scope). 29 V.S.A. chapter 51, Purchasing, and 1 V.S.A. chapter 5, subchapter 3 (Public Records Law): procurement and public-records chapters that are not IT chapters (OWNER DECISION on section-level slicing). 20 V.S.A. chapter 207, Protection of Personally Identifying Information (section 4651 bars a public agency from collecting religious-affiliation information for registration or disclosing personally identifying information to a federal agency for registration; section 4652 on agreements under 8 U.S.C. 1357(g)): about disclosure to federal registration programs, not an IT or data-governance instrument; OWNER DECISION. 9 V.S.A. chapter 61A, Data Privacy, 'Effective January 1, 2028' (the Vermont Data Privacy and Online Surveillance Act): a consumer-privacy law on businesses, not yet in effect; its exemptions section was seen to exempt government in part (not read in full). 9 V.S.A. chapter 20 (Uniform Electronic Transactions Act): general commercial law, not read. The Legislature's page calls the Vermont Statutes Online an unofficial copy, and it is the only statute text the State serves; the printed Vermont Statutes Annotated governs.
+- text: |-
+    9 V.S.A. chapter 62 rides along (seeded as a whole chapter, OWNER DECISION on slicing): subchapters 1 (definitions and brokered personal information), 3A (Student Privacy), 3B (Educational Technology, effective January 1, 2027), 5 (Data Brokers) and 6 (Vermont Age-Appropriate Design Code Act) bind businesses, operators and data brokers; subchapter 4 (Document Safe Destruction Act) defines the businesses it covers so as not to include the State. Subchapters 2 (breach notice) and 3 (Social Security numbers) bind State agencies.
+- text: |-
+    Administrative rules: none seeded. The State publishes the Code of Vermont Rules only through a Lexis portal (https://www.lexisnexis.com/hottopics/codeofvtrules/, linked from the Legislature's statutes page and from the Secretary of State's APA page https://sos.vermont.gov/secretary-of-state-services/apa-rules/). The Fetcher got HTTP 200 and 3,380 bytes: a script that sets a cookie and redirects, with no rule text. The Secretary of State's rulemaking notices page (https://secure.vermont.gov/SOS/rules/) lists proposed rules (a 2026 list of notices by number) and is not the text of rules in force. So no ADS rule or other IT rule could be identified or read, and no 'none found' claim is made: whether ADS has administrative rules is not shown by anything read. A Lexis rule portal is not seeded as a watched page because its address carries a per-session token and its body is a script.
+- text: |-
+    Executive orders, read from the Governor's list (https://governor.vermont.gov/document-types/executive-orders, pages 0 to 13 had items, pages 14 to 20 returned the same empty page; every title and summary on pages 0 to 13 was read; the list holds Governor Scott's orders from January 2017). Seeded: 06-17, 18-17, 04-26. Left out: 02-18 Internet Neutrality in State Procurement (https://governor.vermont.gov/sites/scott/files/documents/EO%2002-18%20-%20Internet%20Neutrality%20in%20State%20Procurement%20-%20Final.pdf, February 15, 2018, which requires State agency contracts with internet service providers to carry net neutrality protections; it prints 'No. 2-18'; broadband is out of scope in domain.yml, OWNER DECISION); 03-17 Governor's Government Modernization and Efficiency Team (January 5, 2017, an advisory team on efficiency whose charge includes strategic IT planning among other aims; not primarily IT, OWNER DECISION); 05-26 Expanding Affordable Health Insurance Choices for Vermonters and 06-26 (the page slug reads 'local media considerations state marketing and advertising purchasing') are not IT; the 2019 order reconstituting the Vermont Public Safety Broadband Network Commission as the Emergency Communications Advisory Council (05-19) is telecommunications and 911; every other order on the list is on emergencies, housing, environment, property transfers, ethics, reorganizations or similar subjects. The Vermont Statutes Online Title 3 Appendix (an unofficial copy, https://legislature.vermont.gov/statutes/title/03APPENDIX) holds orders of earlier Governors by subject; chapter 3 (101 numbered orders) was read by title and chapters 20, 22 and 29 were searched for IT terms. From it: 3-57 (No. 02-13, Transfer of Certain Technology Positions to the Department of Information and Innovation; the Appendix prints no note of supersession; INFERENCE, not printed: it is spent, because the Department of Information and Innovation was repealed by 2019 Act 49 (22 V.S.A. chapter 15, 'Repealed. 2019, No. 49, 7') and 06-17 made ADS the successor), 3-29 (No. 12-94, Telecommunications Technology Council of Vermont; telecom) and 3-22 (No. 3A-92, Vermont Center for Geographic Information; the Appendix prints under it 'Revoked and rescinded by Executive Order 06-05 (codified as Executive Order No. 3-46), dated September 13, 2005', so it is not in force and needs no owner decision) were seen and not seeded. Chapters of the Appendix not named above were not read, so no claim is made that no earlier order on IT remains in force.
+- text: |-
+    vermont.gov web policies (https://www.vermont.gov/policies): the Privacy Policy (https://www.vermont.gov/policies/privacy, the portal's notice of what it collects from visitors) and the Disclaimer are on the portal's page, not on any ADS index; the privacy notice is the web portal's rather than an instrument of State agencies (OWNER DECISION). The page's own 'Accessibility Policy' paragraph ('It is the policy of the State of Vermont to ensure that people with hearing, visual and other disabilities have equal access...') is the older text of the same subject as the seeded accessibility statement. The ADA grievance procedure it links (Department of Human Resources manual number 10.2) is a personnel procedure.
+- text: |-
+    Vendor AI Usage Disclosure (seeded as a stub: a Word clause with a questionnaire and a check-box item) is not a document; the State's Legislature-reports PDFs on AI are reports. The Vermont Web Design System and accessibility checklists are guidance. Not an instrument: ADS Business Intake Form, the COMPASS FAQ (a SharePoint site), the ADS performance dashboards and project dashboards (epmo.vermont.gov): forms, sign-in sites and dashboards.

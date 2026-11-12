@@ -1,0 +1,878 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: vermont
+id: vt-9-vsa-62
+title: Title 9, Chapter 62. Protection of Personal Information
+doc_type: statute
+citation: 9 V.S.A. chapter 62
+authority_level: ''
+issuing_body: Vermont General Assembly
+source_url: https://legislature.vermont.gov/statutes/fullchapter/09/062
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: b528e41d81c2c105a5692ab84d7e79a250e8f1fb4159c24ae972f782510c2ed0
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the full-chapter page on legislature.vermont.gov: the title and chapter
+  headings, then each section as its `§ n. Caption` line and one line per paragraph (and a line for each
+  subchapter heading). Menus, sidebar, scripts and footer removed. The Legislature says its Vermont Statutes
+  Online is an unofficial copy of the Vermont Statutes Annotated, provided as a convenience.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Title 9, Chapter 62. Protection of Personal Information (9 V.S.A. chapter 62)
+
+## At a glance
+
+The personal-information chapter. 'Data collector' is defined to include the State, State agencies and political subdivisions, so the Security Breach Notice Act (subchapter 2, section 2435) binds State agencies, and the Social Security Number Protection Act (subchapter 3, section 2440) restricts what the State and State agencies may do with Social Security numbers. Most of the rest of the chapter binds private businesses and is served on the same page (OWNER DECISION: section-level slicing; see left_out). Sections print both an 'effective until January 1, 2027' and an 'effective January 1, 2027' version, and the page serves both.
+
+## Full text
+
+Title 9: Commerce and Trade
+Chapter 062: Protection of Personal Information
+Subchapter 001: General Provisions
+
+§ 2430. Definitions [Effective until January 1, 2027; see also § 2430 effective January 1, 2027, set out below]
+As used in this chapter:
+(1)(A) “Brokered personal information” means one or more of the following computerized data elements about a consumer, if categorized or organized for dissemination to third parties:
+(i) name;
+(ii) address;
+(iii) date of birth;
+(iv) place of birth;
+(v) mother’s maiden name;
+(vi) unique biometric data generated from measurements or technical analysis of human body characteristics used by the owner or licensee of the data to identify or authenticate the consumer, such as a fingerprint, retina or iris image, or other unique physical representation or digital representation of biometric data;
+(vii) name or address of a member of the consumer’s immediate family or household;
+(viii) Social Security number or other government-issued identification number; or
+(ix) other information that, alone or in combination with the other information sold or licensed, would allow a reasonable person to identify the consumer with reasonable certainty.
+(B) “Brokered personal information” does not include publicly available information to the extent that it is related to a consumer’s business or profession.
+(2) “Business” means a commercial entity, including a sole proprietorship, partnership, corporation, association, limited liability company, or other group, however organized and whether or not organized to operate at a profit, including a financial institution organized, chartered, or holding a license or authorization certificate under the laws of this State, any other state, the United States, or any other country, or the parent, affiliate, or subsidiary of a financial institution, but does not include the State, a State agency, any political subdivision of the State, or a vendor acting solely on behalf of, and at the direction of, the State.
+(3) “Consumer” means an individual residing in this State.
+(4)(A) “Data broker” means a business, or unit or units of a business, separately or together, that knowingly collects and sells or licenses to third parties the brokered personal information of a consumer with whom the business does not have a direct relationship.
+(B) Examples of a direct relationship with a business include if the consumer is a past or present:
+(i) customer, client, subscriber, user, or registered user of the business’s goods or services;
+(ii) employee, contractor, or agent of the business;
+(iii) investor in the business; or
+(iv) donor to the business.
+(C) The following activities conducted by a business, and the collection and sale or licensing of brokered personal information incidental to conducting these activities, do not qualify the business as a data broker:
+(i) developing or maintaining third-party e-commerce or application platforms;
+(ii) providing 411 directory assistance or directory information services, including name, address, and telephone number, on behalf of or as a function of a telecommunications carrier;
+(iii) providing publicly available information related to a consumer’s business or profession; or
+(iv) providing publicly available information via real-time or near-real-time alert services for health or safety purposes.
+(D) The phrase “sells or licenses” does not include:
+(i) a one-time or occasional sale of assets of a business as part of a transfer of control of those assets that is not part of the ordinary conduct of the business; or
+(ii) a sale or license of data that is merely incidental to the business.
+(5)(A) “Data broker security breach” means an unauthorized acquisition or a reasonable belief of an unauthorized acquisition of more than one element of brokered personal information maintained by a data broker when the brokered personal information is not encrypted, redacted, or protected by another method that renders the information unreadable or unusable by an unauthorized person.
+(B) “Data broker security breach” does not include good faith but unauthorized acquisition of brokered personal information by an employee or agent of the data broker for a legitimate purpose of the data broker, provided that the brokered personal information is not used for a purpose unrelated to the data broker’s business or subject to further unauthorized disclosure.
+(C) In determining whether brokered personal information has been acquired or is reasonably believed to have been acquired by a person without valid authorization, a data broker may consider the following factors, among others:
+(i) indications that the brokered personal information is in the physical possession and control of a person without valid authorization, such as a lost or stolen computer or other device containing brokered personal information;
+(ii) indications that the brokered personal information has been downloaded or copied;
+(iii) indications that the brokered personal information was used by an unauthorized person, such as fraudulent accounts opened or instances of identity theft reported; or
+(iv) that the brokered personal information has been made public.
+(6) “Data collector” means a person who, for any purpose, whether by automated collection or otherwise, handles, collects, disseminates, or otherwise deals with personally identifiable information, and includes the State, State agencies, political subdivisions of the State, public and private universities, privately and publicly held corporations, limited liability companies, financial institutions, and retail operators.
+(7) “Encryption” means use of an algorithmic process to transform data into a form in which the data is rendered unreadable or unusable without use of a confidential process or key.
+(8) “License” means a grant of access to, or distribution of, data by one person to another in exchange for consideration. A use of data for the sole benefit of the data provider, where the data provider maintains control over the use of the data, is not a license.
+(9) “Login credentials” means a consumer’s user name or e-mail address, in combination with a password or an answer to a security question, that together permit access to an online account.
+(10)(A) “Personally identifiable information” means a consumer’s first name or first initial and last name in combination with one or more of the following digital data elements, when the data elements are not encrypted, redacted, or protected by another method that renders them unreadable or unusable by unauthorized persons:
+(i) a Social Security number;
+(ii) a driver license or nondriver State identification card number, individual taxpayer identification number, passport number, military identification card number, or other identification number that originates from a government identification document that is commonly used to verify identity for a commercial transaction;
+(iii) a financial account number or credit or debit card number, if the number could be used without additional identifying information, access codes, or passwords;
+(iv) a password, personal identification number, or other access code for a financial account;
+(v) unique biometric data generated from measurements or technical analysis of human body characteristics used by the owner or licensee of the data to identify or authenticate the consumer, such as a fingerprint, retina or iris image, or other unique physical representation or digital representation of biometric data;
+(vi) genetic information; and
+(vii)(I) health records or records of a wellness program or similar program of health promotion or disease prevention;
+(II) a health care professional’s medical diagnosis or treatment of the consumer; or
+(III) a health insurance policy number.
+(B) “Personally identifiable information” does not mean publicly available information that is lawfully made available to the general public from federal, State, or local government records.
+(11) “Record” means any material on which written, drawn, spoken, visual, or electromagnetic information is recorded or preserved, regardless of physical form or characteristics.
+(12) “Redaction” means the rendering of data so that the data are unreadable or are truncated so that no more than the last four digits of the identification number are accessible as part of the data.
+(13)(A) “Security breach” means unauthorized acquisition of electronic data, or a reasonable belief of an unauthorized acquisition of electronic data, that compromises the security, confidentiality, or integrity of a consumer’s personally identifiable information or login credentials maintained by a data collector.
+(B) “Security breach” does not include good faith but unauthorized acquisition of personally identifiable information or login credentials by an employee or agent of the data collector for a legitimate purpose of the data collector, provided that the personally identifiable information or login credentials are not used for a purpose unrelated to the data collector’s business or subject to further unauthorized disclosure.
+(C) In determining whether personally identifiable information or login credentials have been acquired or is reasonably believed to have been acquired by a person without valid authorization, a data collector may consider the following factors, among others:
+(i) indications that the information is in the physical possession and control of a person without valid authorization, such as a lost or stolen computer or other device containing information;
+(ii) indications that the information has been downloaded or copied;
+(iii) indications that the information was used by an unauthorized person, such as fraudulent accounts opened or instances of identity theft reported; or
+(iv) that the information has been made public. (Added 2005, No. 162 (Adj. Sess.), § 1, eff. Jan. 1, 2007; amended 2011, No. 109 (Adj. Sess.), § 4, eff. May 8, 2012; 2017, No. 171 (Adj. Sess.), § 2, eff. Jan. 1, 2019; 2019, No. 89 (Adj. Sess.), § 2.)
+
+§ 2430. Definitions [Effective January 1, 2027; see also § 2430 effective until January 1, 2027, set out above]
+As used in this chapter:
+(1) “Authorized agent” means:
+(A) a person designated by a consumer to act on the consumer’s behalf;
+(B) a parent or legal guardian that acts on behalf of the parent’s child or on behalf of a child for whom the guardian has legal responsibility; or
+(C) a guardian or conservator that acts on behalf of a consumer that is subject to a guardianship, conservatorship, or other protective arrangement.
+(2)(A) “Biometric data” means that data generated from the technological processing of an individual’s unique biological, physical, or physiological characteristics can be used to identify an individual, including:
+(i) iris or retina scans;
+(ii) fingerprints;
+(iii) facial or hand mapping, geometry, or templates;
+(iv) vein patterns;
+(v) voice prints; and
+(vi) gait or personally identifying physical movement or patterns.
+(B) “Biometric data” does not include:
+(i) a digital or physical photograph;
+(ii) an audio or video recording; or
+(iii) any data generated from a digital or physical photograph, or an audio or video recording, unless such data is generated to identify a specific individual.
+(3)(A) “Brokered personal information” means any information, including derived data and unique identifiers, that is linked or reasonably linkable, alone or in combination with other information, to an identified or identifiable individual or to a device that identifies, is linked to, or is reasonably linkable to one or more identified or identifiable individuals in a household.
+(B) “Brokered personal information” does not include publicly available information.
+(4) “Business” means a commercial entity, including a sole proprietorship, partnership, corporation, association, limited liability company, or other group, however organized and whether or not organized to operate at a profit, including a financial institution organized, chartered, or holding a license or authorization certificate under the laws of this State, any other state, the United States, or any other country, or the parent, affiliate, or subsidiary of a financial institution, but does not include the State, a State agency, any political subdivision of the State, or a vendor acting solely on behalf of, and at the direction of, the State.
+(5) “Consumer” means an individual residing in this State.
+(6)(A) “Data broker” means a business, or unit or units of a business, separately or together, that knowingly collects and sells or licenses to third parties the brokered personal information of a consumer with whom the business does not have a direct relationship.
+(B) As used in this subdivision (6), “direct relationship” means that a consumer has intentionally interacted with a business for the purpose of accessing, purchasing, using, requesting, or obtaining information about the business’s products or services. A consumer does not have a direct relationship with a business if the purpose of the consumer’s engagement is to exercise a consumer right or for the business to verify the consumer’s identity. A business does not have a direct relationship with a consumer simply because the business collects brokered personal information directly from the consumer; the consumer must intend to interact with the business. A business is still a data broker and does not have a direct relationship with a consumer as to the brokered personal information the business sells about the consumer that it collected outside of a first-party interaction with the consumer.
+(C) The phrase “sells or licenses” does not include a one-time or occasional sale of assets of a business as part of a transfer of control of those assets that is not part of the ordinary conduct of the business.
+(7) “Data collector” means a person who, for any purpose, whether by automated collection or otherwise, handles, collects, disseminates, or otherwise deals with personally identifiable information, and includes the State, State agencies, political subdivisions of the State, public and private universities, privately and publicly held corporations, limited liability companies, financial institutions, and retail operators.
+(8) “Encryption” means use of an algorithmic process to transform data into a form in which the data is rendered unreadable or unusable without use of a confidential process or key.
+(9)(A) “GenAI system” means an artificial intelligence system that can generate derived synthetic content, including text, images, video, and audio, that emulates the structure and characteristics of the system’s training data.
+(B) As used in subdivision (A) of this subdivision (9), “artificial intelligence system” means an engineered or machine-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.
+(10) “Identified or identifiable individual” means an individual who can be readily identified, directly or indirectly.
+(11) “License” means a grant of access to, or distribution of, data by one person to another in exchange for consideration. A use of data for the sole benefit of the data provider, where the data provider maintains control over the use of the data, is not a license.
+(12) “Login credentials” means a consumer’s user name or email address, in combination with a password or an answer to a security question, that together permit access to an online account.
+(13)(A) “Personally identifiable information” means a consumer’s first name or first initial and last name in combination with one or more of the following digital data elements, when the data elements are not encrypted, redacted, or protected by another method that renders them unreadable or unusable by unauthorized persons, subject to the exception in subdivision (C) of this subdivision (13):
+(i) a Social Security number;
+(ii) a driver license or nondriver State identification card number, individual taxpayer identification number, passport number, military identification card number, or other identification number that originates from a government identification document that is commonly used to verify identity for a commercial transaction;
+(iii) a financial account number or credit or debit card number, if the number could be used without additional identifying information, access codes, or passwords;
+(iv) a password, personal identification number, or other access code for a financial account;
+(v) biometric data;
+(vi) genetic information; and
+(vii)(I) health records or records of a wellness program or similar program of health promotion or disease prevention;
+(II) a health care professional’s medical diagnosis or treatment of the consumer; or
+(III) a health insurance policy number.
+(B) “Personally identifiable information” does not include publicly available information.
+(C) “Personally identifiable information” does not require a consumer’s first name or first initial and last name if any of the data elements contained in subdivisions (A)(i)–(vii) of this subdivision (13) is sufficient to perform or attempt to perform identity theft against the consumer.
+(14) “Precise geolocation” means information derived from technology that can precisely and accurately identify the specific location of a consumer within a radius of 1,850 feet.
+(15) “Processor” means a person who performs any operation or set of operations, whether by manual or automated means, on brokered personal information or on sets of brokered personal information, such as the collection, use, storage, disclosure, analysis, deletion, or modification of brokered personal information on behalf of a business.
+(16)(A) “Publicly available information” means information that:
+(i) is made available:
+(I) through federal, state, or local government records; or
+(II) to the general public from widely distributed media; or
+(ii) a data broker has a reasonable basis to believe that the consumer has lawfully made available to the general public.
+(B) “Publicly available information” does not include:
+(i) biometric data collected by a business about a consumer without the consumer’s knowledge;
+(ii) any obscene visual depiction, as defined in 18 U.S.C. § 1460;
+(iii) genetic data, unless otherwise made publicly available by the consumer to whom the information pertains; or
+(iv) intimate images, authentic or computer generated, known to be nonconsensual.
+(17) “Record” means any material on which written, drawn, spoken, visual, or electromagnetic information is recorded or preserved, regardless of physical form or characteristics.
+(18) “Redaction” means the rendering of data so that the data are unreadable or are truncated so that not more than the last four digits of the identification number are accessible as part of the data.
+(19)(A) “Sale” means the exchange of a consumer’s brokered personal information by the data broker to a third party for monetary or other valuable consideration.
+(B) “Sale” does not include:
+(i) the disclosure of brokered personal information to a processor that processes the brokered personal information on behalf of the data broker;
+(ii) the disclosure of brokered personal information to a third party for purposes of providing a product or service requested by the consumer;
+(iii) the disclosure or transfer of brokered personal information to an affiliate of the data broker;
+(iv) the disclosure, with the consumer’s consent, of brokered personal information where the consumer directs the data broker to disclose the brokered personal information or intentionally uses the data broker to interact with a third party;
+(v) the disclosure of publicly available information; or
+(vi) the disclosure or transfer of brokered personal information to a third party as an asset that is part of a merger, acquisition, bankruptcy, or other transaction, or a proposed merger, acquisition, bankruptcy, or other transaction, in which the third party assumes control of all or part of the data broker’s assets.
+(C) As used in subdivision (B) of this subdivision (19), “affiliate” means a legal entity that shares common branding with another legal entity or controls, is controlled by, or is under common control with another legal entity.
+(D) As used in subdivision (C) of this subdivision (19), “control” or “controlled” means:
+(i) ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a company;
+(ii) control in any manner over the election of a majority of the directors or of individuals exercising similar functions; or
+(iii) the power to exercise controlling influence over the management of a company.
+(20)(A) “Security breach” means unauthorized acquisition of electronic data, or a reasonable belief of an unauthorized acquisition of electronic data, that compromises the security, confidentiality, or integrity of a consumer’s personally identifiable information or login credentials maintained by a data collector.
+(B) “Security breach” does not include good faith but unauthorized acquisition of personally identifiable information or login credentials by an employee or agent of the data collector for a legitimate purpose of the data collector, provided that the personally identifiable information or login credentials are not used for a purpose unrelated to the data collector’s business or subject to further unauthorized disclosure.
+(C) In determining whether personally identifiable information or login credentials have been acquired or are reasonably believed to have been acquired by a person without valid authorization, a data collector may consider the following factors, among others:
+(i) indications that the information is in the physical possession and control of a person without valid authorization, such as a lost or stolen computer or other device containing information;
+(ii) indications that the information has been downloaded or copied;
+(iii) indications that the information was used by an unauthorized person, such as fraudulent accounts opened or instances of identity theft reported; or
+(iv) that the information has been made public. (Added 2005, No. 162 (Adj. Sess.), § 1, eff. Jan. 1, 2007; amended 2011, No. 109 (Adj. Sess.), § 4, eff. May 8, 2012; 2017, No. 171 (Adj. Sess.), § 2, eff. Jan. 1, 2019; 2019, No. 89 (Adj. Sess.), § 2; 2025, No. 138 (Adj. Sess.), § 1, eff. January 1, 2027.)
+
+§ 2431. Acquisition of brokered personal information; prohibitions [Effective until January 1, 2027; see also § 2431 effective January 1, 2027, set out below]
+(a) Prohibited acquisition and use.
+(1) A person shall not acquire brokered personal information through fraudulent means.
+(2) A person shall not acquire or use brokered personal information for the purpose of:
+(A) stalking or harassing another person;
+(B) committing a fraud, including identity theft, financial fraud, or e-mail fraud; or
+(C) engaging in unlawful discrimination, including employment discrimination and housing discrimination.
+(b) Enforcement.
+(1) A person who violates a provision of this section commits an unfair and deceptive act in commerce in violation of section 2453 of this title.
+(2) The Attorney General has the same authority to adopt rules to implement the provisions of this section and to conduct civil investigations, enter into assurances of discontinuance, bring civil actions, and take other enforcement actions as provided under chapter 63, subchapter 1 of this title. (Added 2017, No. 171 (Adj. Sess.), § 2, eff. Jan. 1, 2019.)
+
+§ 2431. Acquisition and disclosure of brokered personal information; prohibitions [Effective January 1, 2027; see also § 2431 effective until January 1, 2027, set out above]
+(a) Prohibited acquisition and use.
+(1) A person shall not acquire brokered personal information through fraudulent means.
+(2) A person shall not acquire or use brokered personal information for the purpose of:
+(A) stalking or harassing another person;
+(B) committing a fraud, including identity theft, financial fraud, or email fraud; or
+(C) engaging in unlawful discrimination, including employment discrimination and housing discrimination.
+(b) Disclosure. A data broker shall:
+(1) maintain procedures that require prospective users of the data broker’s brokered personal information to identify themselves, state the purposes for which the information is sought, and certify that the information shall be used for no other purpose;
+(2) prior to disclosing brokered personal information to a prospective user and pursuant to subdivision (1) of this subsection:
+(A) make a reasonable effort to verify the identity of the prospective user of the information; and
+(B) review the user’s stated purposes for which the information is sought; and
+(3) not disclose brokered personal information to a prospective user if the data broker has reasonable grounds for believing that the information will be used to violate State or federal law or will not be used for the purposes stated by the user pursuant to this subsection.
+(c) Enforcement.
+(1) A person who violates a provision of this section commits an unfair and deceptive act in commerce in violation of section 2453 of this title.
+(2) The Attorney General has the same authority to adopt rules to implement the provisions of this section and to conduct civil investigations, enter into assurances of discontinuance, bring civil actions, and take other enforcement actions as provided under chapter 63, subchapter 1 of this title. (Added 2017, No. 171 (Adj. Sess.), § 2, eff. Jan. 1, 2019; amended 2025, No. 138 (Adj. Sess.), § 1, eff. January 1, 2027.)
+Subchapter 002: Security Breach Notice Act [Heading effective until January 1, 2027]
+
+§ 2435. Notice of security breaches [Effective until January 1, 2027; see also § 2435 effective January 1, 2027, set out below]
+(a) This section shall be known as the Security Breach Notice Act.
+(b) Notice of breach.
+(1) Except as otherwise provided in subsection (d) of this section, any data collector that owns or licenses computerized personally identifiable information or login credentials shall notify the consumer that there has been a security breach following discovery or notification to the data collector of the breach. Notice of the security breach shall be made in the most expedient time possible and without unreasonable delay, but not later than 45 days after the discovery or notification, consistent with the legitimate needs of the law enforcement agency, as provided in subdivisions (3) and (4) of this subsection, or with any measures necessary to determine the scope of the security breach and restore the reasonable integrity, security, and confidentiality of the data system.
+(2) Any data collector that maintains or possesses computerized data containing personally identifiable information or login credentials that the data collector does not own or license or any data collector that acts or conducts business in Vermont that maintains or possesses records or data containing personally identifiable information or login credentials that the data collector does not own or license shall notify the owner or licensee of the information of any security breach immediately following discovery of the breach, consistent with the legitimate needs of law enforcement as provided in subdivisions (3) and (4) of this subsection.
+(3) A data collector or other entity subject to this subchapter shall provide notice of a breach to the Attorney General or to the Department of Financial Regulation, as applicable, as follows:
+(A) A data collector or other entity regulated by the Department of Financial Regulation under Title 8 or this title shall provide notice of a breach to the Department. All other data collectors or other entities subject to this subchapter shall provide notice of a breach to the Attorney General.
+(B)(i) The data collector shall notify the Attorney General or the Department, as applicable, of the date of the security breach and the date of discovery of the breach and shall provide a preliminary description of the breach within 14 business days, consistent with the legitimate needs of the law enforcement agency as provided in this subdivision (3) and subdivision (4) of this subsection (b), of the data collector’s discovery of the security breach or when the data collector provides notice to consumers pursuant to this section, whichever is sooner.
+(ii) Notwithstanding subdivision (B)(i) of this subdivision (b)(3), a data collector who, prior to the date of the breach, on a form and in a manner prescribed by the Attorney General, had sworn in writing to the Attorney General that it maintains written policies and procedures to maintain the security of personally identifiable information or login credentials and respond to a breach in a manner consistent with Vermont law shall notify the Attorney General of the date of the security breach and the date of discovery of the breach and shall provide a description of the breach prior to providing notice of the breach to consumers pursuant to subdivision (1) of this subsection (b).
+(iii) If the date of the breach is unknown at the time notice is sent to the Attorney General or to the Department, the data collector shall send the Attorney General or the Department the date of the breach as soon as it is known.
+(iv) Unless otherwise ordered by a court of this State for good cause shown, a notice provided under this subdivision (3)(B) shall not be disclosed to any person other than the Department, the authorized agent or representative of the Attorney General, a State’s Attorney, or another law enforcement officer engaged in legitimate law enforcement activities without the consent of the data collector.
+(C)(i) When the data collector provides notice of the breach pursuant to subdivision (1) of this subsection (b), the data collector shall notify the Attorney General or the Department, as applicable, of the number of Vermont consumers affected, if known to the data collector, and shall provide a copy of the notice provided to consumers under subdivision (1) of this subsection (b).
+(ii) The data collector may send to the Attorney General or the Department, as applicable, a second copy of the consumer notice, from which is redacted the type of personally identifiable information or login credentials that was subject to the breach, and which the Attorney General or the Department shall use for any public disclosure of the breach.
+(D) If a security breach is limited to an unauthorized acquisition of login credentials, a data collector is only required to provide notice of the security breach to the Attorney General or Department of Financial Regulation, as applicable, if the login credentials were acquired directly from the data collector or its agent.
+(4)(A) The notice to a consumer required by this subsection shall be delayed upon request of a law enforcement agency. A law enforcement agency may request the delay if it believes that notification may impede a law enforcement investigation, or a national or Homeland Security investigation, or jeopardize public safety or national or Homeland Security interests. In the event law enforcement makes the request for a delay in a manner other than in writing, the data collector shall document such request contemporaneously in writing, including the name of the law enforcement officer making the request and the officer’s law enforcement agency engaged in the investigation. A law enforcement agency shall promptly notify the data collector in writing when the law enforcement agency no longer believes that notification may impede a law enforcement investigation, or a national or Homeland Security investigation, or jeopardize public safety or national or Homeland Security interests. The data collector shall provide notice required by this section without unreasonable delay upon receipt of a written communication, which includes facsimile or electronic communication, from the law enforcement agency withdrawing its request for delay.
+(B) A Vermont law enforcement agency with a reasonable belief that a security breach has or may have occurred at a specific business shall notify the business in writing of its belief. The agency shall also notify the business that additional information on the security breach may need to be furnished to the Office of the Attorney General or the Department of Financial Regulation and shall include the website and telephone number for the Office and the Department in the notice required by this subdivision (4)(B). Nothing in this subdivision (4)(B) shall alter the responsibilities of a data collector under this section or provide a cause of action against a law enforcement agency that fails, without bad faith, to provide the notice required by this subdivision (4)(B).
+(5) The notice to a consumer required in subdivision (1) of this subsection shall be clear and conspicuous. A notice to a consumer of a security breach involving personally identifiable information shall include a description of each of the following, if known to the data collector:
+(A) the incident in general terms;
+(B) the type of personally identifiable information that was subject to the security breach;
+(C) the general acts of the data collector to protect the personally identifiable information from further security breach;
+(D) a telephone number, toll-free if available, that the consumer may call for further information and assistance;
+(E) advice that directs the consumer to remain vigilant by reviewing account statements and monitoring free credit reports; and
+(F) the approximate date of the security breach.
+(6) A data collector may provide notice of a security breach involving personally identifiable information to a consumer by one or more of the following methods:
+(A) Direct notice, which may be by one of the following methods:
+(i) written notice mailed to the consumer’s residence;
+(ii) electronic notice, for those consumers for whom the data collector has a valid e-mail address, if:
+(I) the data collector’s primary method of communication with the consumer is by electronic means, the electronic notice does not request or contain a hypertext link to a request that the consumer provide personal information, and the electronic notice conspicuously warns consumers not to provide personal information in response to electronic communications regarding security breaches; or
+(II) the notice is consistent with the provisions regarding electronic records and signatures for notices in 15 U.S.C. § 7001; or
+(iii) telephonic notice, provided that telephonic contact is made directly with each affected consumer and not through a prerecorded message.
+(B)(i) Substitute notice, if:
+(I) the data collector demonstrates that the lowest cost of providing notice to affected consumers pursuant to subdivision (6)(A) of this subsection among written, e-mail, or telephonic notice would exceed $10,000.00; or
+(II) the data collector does not have sufficient contact information.
+(ii) A data collector shall provide substitute notice by:
+(I) conspicuously posting the notice on the data collector’s website if the data collector maintains one; and
+(II) notifying major statewide and regional media.
+(c) In the event a data collector provides notice to more than 1,000 consumers at one time pursuant to this section, the data collector shall notify, without unreasonable delay, all consumer reporting agencies that compile and maintain files on consumers on a nationwide basis, as defined in 15 U.S.C. § 1681a(p), of the timing, distribution, and content of the notice. This subsection shall not apply to a person who is licensed or registered under Title 8 by the Department of Financial Regulation.
+(d)(1) Notice of a security breach pursuant to subsection (b) of this section is not required if the data collector establishes that misuse of personally identifiable information or login credentials is not reasonably possible and the data collector provides notice of the determination that the misuse of the personally identifiable information or login credentials is not reasonably possible pursuant to the requirements of this subsection. If the data collector establishes that misuse of the personally identifiable information or login credentials is not reasonably possible, the data collector shall provide notice of its determination that misuse of the personally identifiable information or login credentials is not reasonably possible and a detailed explanation for said determination to the Vermont Attorney General or to the Department of Financial Regulation in the event that the data collector is a person or entity licensed or registered with the Department under Title 8 or this title. The data collector may designate its notice and detailed explanation to the Vermont Attorney General or the Department of Financial Regulation as “trade secret” if the notice and detailed explanation meet the definition of trade secret contained in 1 V.S.A. § 317(c)(9).
+(2) If a data collector established that misuse of personally identifiable information or login credentials was not reasonably possible under subdivision (1) of this subsection, and subsequently obtains facts indicating that misuse of the personally identifiable information or login credentials has occurred or is occurring, the data collector shall provide notice of the security breach pursuant to subsection (b) of this section.
+(3) If a security breach is limited to an unauthorized acquisition of login credentials for an online account other than an e-mail account the data collector shall provide notice of the security breach to the consumer electronically or through one or more of the methods specified in subdivision (b)(6) of this section and shall advise the consumer to take steps necessary to protect the online account, including to change his or her login credentials for the account and for any other account for which the consumer uses the same login credentials.
+(4) If a security breach is limited to an unauthorized acquisition of login credentials for an email account:
+(A) the data collector shall not provide notice of the security breach through the email account; and
+(B) the data collector shall provide notice of the security breach through one or more of the methods specified in subdivision (b)(6) of this section or by clear and conspicuous notice delivered to the consumer online when the consumer is connected to the online account from an Internet protocol address or online location from which the data collector knows the consumer customarily accesses the account.
+(e) A data collector that is subject to the privacy, security, and breach notification rules adopted in 45 C.F.R. Part 164 pursuant to the federal Health Insurance Portability and Accountability Act, P.L. 104-191 (1996) is deemed to be in compliance with this subchapter if:
+(1) the data collector experiences a security breach that is limited to personally identifiable information specified in 2430(10)(A)(vii); and
+(2) the data collector provides notice to affected consumers pursuant to the requirements of the breach notification rule in 45 C.F.R. Part 164, Subpart D.
+(f) Any waiver of the provisions of this subchapter is contrary to public policy and is void and unenforceable.
+(g) Except as provided in subdivision (3) of this subsection, a financial institution that is subject to the following guidances, and any revisions, additions, or substitutions relating to an interagency guidance, shall be exempt from this section:
+(1) The Federal Interagency Guidance Response Programs for Unauthorized Access to Consumer Information and Customer Notice, issued on March 7, 2005, by the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, the Office of the Comptroller of the Currency, and the Office of Thrift Supervision.
+(2) Final Guidance on Response Programs for Unauthorized Access to Member Information and Member Notice, issued on April 14, 2005, by the National Credit Union Administration.
+(3) A financial institution regulated by the Department of Financial Regulation that is subject to subdivision (1) or (2) of this subsection shall notify the Department as soon as possible after it becomes aware of an incident involving unauthorized access to or use of personally identifiable information.
+(h) Enforcement.
+(1) With respect to all data collectors and other entities subject to this subchapter, other than a person or entity licensed or registered with the Department of Financial Regulation under Title 8 or this title, the Attorney General and State’s Attorney shall have sole and full authority to investigate potential violations of this subchapter and to enforce, prosecute, obtain, and impose remedies for a violation of this subchapter or any rules or regulations made pursuant to this chapter as the Attorney General and State’s Attorney have under chapter 63 of this title. The Attorney General may refer the matter to the State’s Attorney in an appropriate case. The Superior Courts shall have jurisdiction over any enforcement matter brought by the Attorney General or a State’s Attorney under this subsection.
+(2) With respect to a data collector that is a person or entity licensed or registered with the Department of Financial Regulation under Title 8 or this title, the Department of Financial Regulation shall have the full authority to investigate potential violations of this subchapter and to prosecute, obtain, and impose remedies for a violation of this subchapter or any rules or regulations adopted pursuant to this subchapter, as the Department has under Title 8 or this title or any other applicable law or regulation.
+(i) [Repealed.] (Added 2005, No. 162 (Adj. Sess.), § 1, eff. Jan. 1, 2007; amended 2011, No. 109 (Adj. Sess.), § 4, eff. May 8, 2012; 2013, No. 29, §§ 10, 11, eff. May 13, 2013; 2013, No. 199 (Adj. Sess.), § 67; 2015, No. 55, § 8; 2019, No. 89 (Adj. Sess.), § 3.)
+
+§ 2435. Notice of security breaches [Effective January 1, 2027; see also § 2435 effective until January 1, 2027, set out above]
+(a) This section shall be known as the “Security Breach Notice Act.”
+(b) Notice of breach.
+(1) Except as otherwise provided in subsection (d) of this section, any data collector that owns or licenses computerized personally identifiable information or login credentials shall notify the consumer that there has been a security breach following discovery or notification to the data collector of the breach. Notice of the security breach shall be made in the most expedient time possible and without unreasonable delay, but not later than 45 days after the discovery or notification, consistent with the legitimate needs of the law enforcement agency, as provided in subdivisions (3) and (4) of this subsection, or with any measures necessary to determine the scope of the security breach and restore the reasonable integrity, security, and confidentiality of the data system.
+(2) Any data collector that maintains or possesses computerized data containing personally identifiable information or login credentials that the data collector does not own or license or any data collector that acts or conducts business in Vermont that maintains or possesses records or data containing personally identifiable information or login credentials that the data collector does not own or license shall notify the owner or licensee of the information of any security breach immediately following discovery of the breach, consistent with the legitimate needs of law enforcement as provided in subdivisions (3) and (4) of this subsection.
+(3) A data collector or other entity subject to this subchapter shall provide notice of a breach to the Attorney General or to the Department of Financial Regulation, as applicable, as follows:
+(A) A data collector or other entity regulated by the Department of Financial Regulation under Title 8 or this title shall provide notice of a breach to the Department. All other data collectors or other entities subject to this subchapter shall provide notice of a breach to the Attorney General.
+(B)(i) The data collector shall notify the Attorney General or the Department, as applicable, of the date of the security breach and the date of discovery of the breach and shall provide a preliminary description of the breach within 14 business days, consistent with the legitimate needs of the law enforcement agency as provided in this subdivision (3) and subdivision (4) of this subsection (b), of the data collector’s discovery of the security breach or when the data collector provides notice to consumers pursuant to this section, whichever is sooner.
+(ii) Notwithstanding subdivision (i) of this subdivision (b)(3)(B), a data collector who, prior to the date of the breach, on a form and in a manner prescribed by the Attorney General, had sworn in writing to the Attorney General that it maintains written policies and procedures to maintain the security of personally identifiable information or login credentials and respond to a breach in a manner consistent with Vermont law shall notify the Attorney General of the date of the security breach and the date of discovery of the breach and shall provide a description of the breach prior to providing notice of the breach to consumers pursuant to subdivision (1) of this subsection (b).
+(iii) If the date of the breach is unknown at the time notice is sent to the Attorney General or to the Department, the data collector shall send the Attorney General or the Department the date of the breach as soon as it is known.
+(iv) Unless otherwise ordered by a court of this State for good cause shown, a notice provided under this subdivision (3)(B) shall not be disclosed to any person other than the Department, the authorized agent or representative of the Attorney General, a State’s Attorney, or another law enforcement officer engaged in legitimate law enforcement activities without the consent of the data collector.
+(C)(i) When the data collector provides notice of the breach pursuant to subdivision (1) of this subsection (b), the data collector shall notify the Attorney General or the Department, as applicable, of the number of Vermont consumers affected, if known to the data collector, and shall provide a copy of the notice provided to consumers under subdivision (1) of this subsection (b).
+(ii) The data collector may send to the Attorney General or the Department, as applicable, a second copy of the consumer notice, from which is redacted the type of personally identifiable information or login credentials that was subject to the breach and which the Attorney General or the Department shall use for any public disclosure of the breach.
+(D) If a security breach is limited to an unauthorized acquisition of login credentials, a data collector is only required to provide notice of the security breach to the Attorney General or Department of Financial Regulation, as applicable, if the login credentials were acquired directly from the data collector or its agent.
+(4)(A) The notice to a consumer required by this subsection shall be delayed upon request of a law enforcement agency. A law enforcement agency may request the delay if it believes that notification may impede a law enforcement investigation, or a national or Homeland Security investigation, or jeopardize public safety or national or Homeland Security interests. In the event law enforcement makes the request for a delay in a manner other than in writing, the data collector shall document such request contemporaneously in writing, including the name of the law enforcement officer making the request and the officer’s law enforcement agency engaged in the investigation. A law enforcement agency shall promptly notify the data collector in writing when the law enforcement agency no longer believes that notification may impede a law enforcement investigation, or a national or Homeland Security investigation, or jeopardize public safety or national or Homeland Security interests. The data collector shall provide notice required by this section without unreasonable delay upon receipt of a written communication, which includes facsimile or electronic communication, from the law enforcement agency withdrawing its request for delay.
+(B) A Vermont law enforcement agency with a reasonable belief that a security breach has or may have occurred at a specific business shall notify the business in writing of its belief. The agency shall also notify the business that additional information on the security breach may need to be furnished to the Office of the Attorney General or the Department of Financial Regulation and shall include the website and telephone number for the Office and the Department in the notice required by this subdivision (4)(B). Nothing in this subdivision (4)(B) shall alter the responsibilities of a data collector under this section or provide a cause of action against a law enforcement agency that fails, without bad faith, to provide the notice required by this subdivision (4)(B).
+(5) The notice to a consumer required in subdivision (1) of this subsection shall be clear and conspicuous. A notice to a consumer of a security breach involving personally identifiable information shall include a description of each of the following, if known to the data collector:
+(A) the incident in general terms;
+(B) the type of personally identifiable information that was subject to the security breach;
+(C) the general acts of the data collector to protect the personally identifiable information from further security breach;
+(D) a telephone number, toll-free if available, that the consumer may call for further information and assistance;
+(E) advice that directs the consumer to remain vigilant by reviewing account statements and monitoring free credit reports; and
+(F) the approximate date of the security breach.
+(6) A data collector may provide notice of a security breach involving personally identifiable information to a consumer by one or more of the following methods:
+(A) Direct notice, which may be by one of the following methods:
+(i) written notice mailed to the consumer’s residence;
+(ii) electronic notice, for those consumers for whom the data collector has a valid email address, if:
+(I) the data collector’s primary method of communication with the consumer is by electronic means, the electronic notice does not request or contain a hypertext link to a request that the consumer provide personal information, and the electronic notice conspicuously warns consumers not to provide personal information in response to electronic communications regarding security breaches; or
+(II) the notice is consistent with the provisions regarding electronic records and signatures for notices in 15 U.S.C. § 7001; or
+(iii) telephonic notice, for those consumers for whom the data collector has a valid phone number, provided that the telephonic contact is made directly with each affected consumer and not through a prerecorded message and further provided that the data collector makes not less than five attempts to contact the consumer for a live conversation before the data collector may leave a voicemail providing information about the breach.
+(B)(i) Substitute notice, if:
+(I) the data collector demonstrates that the lowest cost of providing notice to affected consumers pursuant to subdivision (A) of this subdivision (6) among written, email, or telephonic notice would exceed $10,000.00; or
+(II) the data collector does not have sufficient contact information.
+(ii) A data collector shall provide substitute notice by:
+(I) conspicuously posting the notice on the data collector’s website if the data collector maintains one; and
+(II) notifying major statewide and regional media.
+(c) Notice to consumer reporting agencies. In the event a data collector provides notice to more than 1,000 consumers at one time pursuant to this section, the data collector shall notify, without unreasonable delay, all consumer reporting agencies that compile and maintain files on consumers on a nationwide basis, as defined in 15 U.S.C. § 1681a(p), of the timing, distribution, and content of the notice. This subsection shall not apply to a person who is licensed or registered under Title 8 by the Department of Financial Regulation.
+(d) Exception to notice requirement.
+(1) Notice of a security breach pursuant to subsection (b) of this section is not required if the data collector establishes that misuse of personally identifiable information or login credentials is not reasonably possible and the data collector provides notice of the determination that the misuse of the personally identifiable information or login credentials is not reasonably possible pursuant to the requirements of this subsection. If the data collector establishes that misuse of the personally identifiable information or login credentials is not reasonably possible, the data collector shall provide notice of its determination that misuse of the personally identifiable information or login credentials is not reasonably possible and a detailed explanation for said determination to the Vermont Attorney General or to the Department of Financial Regulation in the event that the data collector is a person or entity licensed or registered with the Department under Title 8 or this title. The data collector may designate its notice and detailed explanation to the Vermont Attorney General or the Department of Financial Regulation as “trade secret” if the notice and detailed explanation meet the definition of trade secret contained in 1 V.S.A. § 317(c)(9).
+(2) If a data collector established that misuse of personally identifiable information or login credentials was not reasonably possible under subdivision (1) of this subsection, and subsequently obtains facts indicating that misuse of the personally identifiable information or login credentials has occurred or is occurring, the data collector shall provide notice of the security breach pursuant to subsection (b) of this section.
+(3) If a security breach is limited to an unauthorized acquisition of login credentials for an online account other than an e-mail account the data collector shall provide notice of the security breach to the consumer electronically or through one or more of the methods specified in subdivision (b)(6) of this section and shall advise the consumer to take steps necessary to protect the online account, including to change his or her login credentials for the account and for any other account for which the consumer uses the same login credentials.
+(4) If a security breach is limited to an unauthorized acquisition of login credentials for an email account:
+(A) the data collector shall not provide notice of the security breach through the email account; and
+(B) the data collector shall provide notice of the security breach through one or more of the methods specified in subdivision (b)(6) of this section or by clear and conspicuous notice delivered to the consumer online when the consumer is connected to the online account from an Internet protocol address or online location from which the data collector knows the consumer customarily accesses the account.
+(e) HIPAA compliance. A data collector that is subject to the privacy, security, and breach notification rules adopted in 45 C.F.R. Part 164 pursuant to the federal Health Insurance Portability and Accountability Act, P.L. 104-191 (1996) is deemed to be in compliance with this subchapter if the data collector:
+(1) experiences a security breach that is limited to personally identifiable information specified in subdivision 2430(13)(A)(vii) of this chapter;
+(2) provides notice to affected consumers pursuant to the requirements of the breach notification rule in 45 C.F.R. Part 164, Subpart D; and
+(3) provides notice to the Attorney General or to the Department of Financial Regulation pursuant to subdivision (b)(3)(B) of this section along with a written certification of compliance with 45 C.F.R. Part 164, Subpart D.
+(f) Waiver. Any waiver of the provisions of this subchapter is contrary to public policy and is void and unenforceable.
+(g) Financial institutions. Except as provided in subdivision (3) of this subsection, a financial institution that is subject to the following guidances, and any revisions, additions, or substitutions relating to an interagency guidance, shall be exempt from this section:
+(1) The Federal Interagency Guidance Response Programs for Unauthorized Access to Consumer Information and Customer Notice, issued on March 7, 2005, by the Board of Governors of the Federal Reserve System, the Federal Deposit Insurance Corporation, the Office of the Comptroller of the Currency, and the Office of Thrift Supervision.
+(2) Final Guidance on Response Programs for Unauthorized Access to Member Information and Member Notice, issued on April 14, 2005, by the National Credit Union Administration.
+(3) A financial institution regulated by the Department of Financial Regulation that is subject to subdivision (1) or (2) of this subsection shall notify the Department as soon as possible after it becomes aware of an incident involving unauthorized access to or use of personally identifiable information.
+(h) Enforcement.
+(1) With respect to all data collectors and other entities subject to this subchapter, other than a person or entity licensed or registered with the Department of Financial Regulation under Title 8 or this title, the Attorney General and State’s Attorney shall have sole and full authority to investigate potential violations of this subchapter and to enforce, prosecute, obtain, and impose remedies for a violation of this subchapter or any rules or regulations made pursuant to this chapter as the Attorney General and State’s Attorney have under chapter 63 of this title. The Attorney General may refer the matter to the State’s Attorney in an appropriate case. The Superior Courts shall have jurisdiction over any enforcement matter brought by the Attorney General or a State’s Attorney under this subsection.
+(2) With respect to a data collector that is a person or entity regulated by the Department of Financial Regulation under Title 8 or this title, the Department of Financial Regulation shall have the full authority to investigate potential violations of this subchapter and to prosecute, obtain, and impose remedies for a violation of this subchapter or any rules or regulations adopted pursuant to this subchapter, as the Department has under Title 8 or this title or any other applicable law or regulation.
+(i) [Repealed.] (Added 2005, No. 162 (Adj. Sess.), § 1, eff. Jan. 1, 2007; amended 2011, No. 109 (Adj. Sess.), § 4, eff. May 8, 2012; 2013, No. 29, §§ 10, 11, eff. May 13, 2013; 2013, No. 199 (Adj. Sess.), § 67; 2015, No. 55, § 8; 2019, No. 89 (Adj. Sess.), § 3; 2025, No. 138 (Adj. Sess.), § 1, eff. January 1, 2027.)
+
+§ 2436. Notice of data broker security breaches [Effective January 1, 2027]
+(a) Short title and definitions.
+(1) This section shall be known as the “Data Broker Security Breach Notice Act.”
+(2)(A) As used in this section, “data broker security breach” means an unauthorized acquisition or a reasonable belief of an unauthorized acquisition of more than one instance of brokered personal information maintained by a data broker when the brokered personal information is not encrypted, redacted, or protected by another method that renders the information unreadable or unusable by an unauthorized person.
+(B) “Data broker security breach” does not include good faith but unauthorized acquisition of brokered personal information by an employee or agent of the data broker for a legitimate purpose of the data broker, provided that the brokered personal information is not used for a purpose unrelated to the data broker’s business or subject to further unauthorized disclosure.
+(C) In determining whether brokered personal information has been acquired or is reasonably believed to have been acquired by a person without valid authorization, a data broker may consider the following factors, among others:
+(i) indications that the brokered personal information is in the physical possession and control of a person without valid authorization, such as a lost or stolen computer or other device containing brokered personal information;
+(ii) indications that the brokered personal information has been downloaded or copied;
+(iii) indications that the brokered personal information was used by an unauthorized person, such as fraudulent accounts opened or instances of identity theft reported; or
+(iv) that the brokered personal information has been made public.
+(b) Notice of breach.
+(1) Except as otherwise provided in subsection (c) of this section, a data broker shall, following discovery or notification to the data broker of a security breach affecting a consumer, notify the consumer that there has been a data broker security breach. Notice of the security breach shall be made in the most expedient time possible and without unreasonable delay, but not later than 45 days after the discovery or notification, consistent with the legitimate needs of the law enforcement agency, as provided in subdivisions (3) and (4) of this subsection, or with any measures necessary to determine the scope of the security breach and restore the reasonable integrity, security, and confidentiality of the data system.
+(2) A data broker shall provide notice of a breach to the Attorney General as follows:
+(A)(i) The data broker shall notify the Attorney General of the date of the security breach and the date of discovery of the breach and shall provide a preliminary description of the breach within 14 business days, consistent with the legitimate needs of the law enforcement agency, as provided in subdivisions (3) and (4) of this subsection (b), after the data broker’s discovery of the security breach.
+(ii) If the date of the breach is unknown at the time notice is sent to the Attorney General, the data broker shall send the Attorney General the date of the breach as soon as it is known.
+(iii) Unless otherwise ordered by a court of this State for good cause shown, a notice provided under this subdivision (2)(A) shall not be disclosed, without the consent of the data broker, to any person other than the authorized agent or representative of the Attorney General, a State’s Attorney, or another law enforcement officer engaged in legitimate law enforcement activities.
+(B)(i) When the data broker provides notice of the breach pursuant to subdivision (1) of this subsection (b), the data broker shall notify the Attorney General of the number of Vermont consumers affected, if known to the data broker, and shall provide a copy of the notice provided to consumers under subdivision (1) of this subsection (b).
+(ii) The data broker may send to the Attorney General a second copy of the consumer notice, from which is redacted the type of brokered personal information that was subject to the breach, that the Attorney General shall use for any public disclosure of the breach.
+(3) The notice to the Attorney General and a consumer required by this subsection shall be delayed upon request of a law enforcement agency. A law enforcement agency may request the delay if it believes that notification may impede a law enforcement investigation or a national or Homeland Security investigation or jeopardize public safety or national or Homeland Security interests. In the event law enforcement makes the request for a delay in a manner other than in writing, the data broker shall document the request contemporaneously in writing and include the name of the law enforcement officer making the request and the officer’s law enforcement agency engaged in the investigation. A law enforcement agency shall promptly notify the data broker in writing when the law enforcement agency no longer believes that notification may impede a law enforcement investigation or a national or Homeland Security investigation or jeopardize public safety or national or Homeland Security interests. The data broker shall provide notice required by this subsection without unreasonable delay upon receipt of a written communication, which includes facsimile or electronic communication, from the law enforcement agency withdrawing its request for delay.
+(4) The notice to a consumer required in subdivision (1) of this subsection shall be clear and conspicuous. A notice to a consumer of a security breach involving brokered personal information shall include a description of each of the following, if known to the data broker:
+(A) the incident in general terms;
+(B) the categories of brokered personal information that was subject to the security breach;
+(C) the general acts of the data broker to protect the brokered personal information from further security breach;
+(D) a telephone number, toll-free if available, that the consumer may call for further information and assistance;
+(E) advice that directs the consumer to remain vigilant by reviewing account statements and monitoring free credit reports; and
+(F) the approximate date of the data broker security breach.
+(5) A data broker may provide notice of a security breach involving brokered personal information to a consumer by two or more of the following methods:
+(A) written notice mailed to the consumer’s residence;
+(B) electronic notice, for those consumers for whom the data broker has a valid email address, if:
+(i) the data broker’s primary method of communication with the consumer is by electronic means, the electronic notice does not request or contain a hypertext link to a request that the consumer provide personal information, and the electronic notice conspicuously warns consumers not to provide personal information in response to electronic communications regarding security breaches; or
+(ii) the notice is consistent with the provisions regarding electronic records and signatures for notices in 15 U.S.C. § 7001;
+(C) telephonic notice, for those consumers for whom the data broker has a valid phone number, provided that the telephonic contact is made directly with each affected consumer and not through a prerecorded message and further provided that the data broker makes not less than five attempts to contact the consumer for a live conversation before the data broker may leave a voicemail providing information about the breach; or
+(D) notice by publication in a newspaper of statewide circulation in the event the data broker cannot effectuate notice by any other means.
+(c) Exception to notice requirement.
+(1) Notice of a security breach pursuant to subsection (b) of this section is not required if the data broker establishes that misuse of brokered personal information is not reasonably possible and the data broker provides notice of the determination that the misuse of the brokered personal information is not reasonably possible pursuant to the requirements of this subsection. If the data broker establishes that misuse of the brokered personal information is not reasonably possible, the data broker shall provide notice of its determination that misuse of the brokered personal information is not reasonably possible and a detailed explanation for said determination to the Attorney General. The data broker may designate its notice and detailed explanation to the Attorney General as a trade secret if the notice and detailed explanation meet the definition of trade secret contained in 1 V.S.A. § 317(c)(9). Upon review of the data broker’s notice and detailed explanation, the Attorney General may request additional information from the data broker and may accept or reject the data broker’s determination. If the Attorney General rejects the data broker’s determination, the data broker shall provide notice of the security breach pursuant to subsection (b) of this section.
+(2) If a data broker established that misuse of brokered personal information was not reasonably possible under subdivision (1) of this subsection and subsequently obtains facts indicating that misuse of the brokered personal information has occurred or is occurring, the data broker shall provide notice of the security breach pursuant to subsection (b) of this section.
+(d) Waiver. Any waiver of the provisions of this subchapter is contrary to public policy and is void and unenforceable.
+(e) Enforcement.
+(1) A person who violates a provision of this section commits an unfair and deceptive act in commerce in violation of section 2453 of this title.
+(2) The Attorney General has the same authority to adopt rules to implement the provisions of this section and to conduct civil investigations, enter into assurances of discontinuance, and bring civil actions as provided under chapter 63, subchapter 1 of this title. (Added 2025, No. 138 (Adj. Sess.), § 1, eff. January 1, 2027.)
+Subchapter 003: Social Security Number Protection Act
+
+§ 2440. Social Security number protection
+(a) This section shall be known as the Social Security Number Protection Act.
+(b) Except as provided in subsection (c) of this section, a business may not do any of the following:
+(1) intentionally communicate or otherwise make available to the general public an individual’s Social Security number;
+(2) intentionally print or imbed an individual’s Social Security number on any card required for the individual to access products or services provided by the person or entity;
+(3) require an individual to transmit his or her Social Security number over the Internet unless the connection is secure or the Social Security number is encrypted;
+(4) require an individual to use his or her Social Security number to access an Internet website, unless a password or unique personal identification number or other authentication device is also required to access the internet website;
+(5) print an individual’s Social Security number on any materials that are mailed to the individual, unless State or federal law requires the Social Security number to be on the document to be mailed;
+(6) sell, lease, lend, trade, rent, or otherwise intentionally disclose an individual’s Social Security number to a third party without written consent to the disclosure from the individual, when the party making the disclosure knows or in the exercise of reasonable diligence would have reason to believe that the third party lacks a legitimate purpose for obtaining the individual’s Social Security number.
+(c) Subsection (b) of this section shall not apply:
+(1) When a Social Security number is included in an application or in documents related to an enrollment process, or to establish, amend, or terminate an account, contract, or policy; or to confirm the accuracy of the Social Security number for the purpose of obtaining a credit report pursuant to 15 U.S.C. § 1681(b)(2). A Social Security number that is permitted to be mailed under this section may not be printed, in whole or in part, on a postcard or other mailer not requiring an envelope, or visible on an envelope without the envelope having been opened.
+(2) To the collection, use, or release of a Social Security number reasonably necessary for administrative purposes or internal verification.
+(3) To the opening of an account or the provision of or payment for a product or service authorized by an individual.
+(4) To the collection, use, or release of a Social Security number to investigate or prevent fraud; conduct background checks; conduct social or scientific research; collect a debt; obtain a credit report from or furnish data to a consumer reporting agency pursuant to the Fair Credit Reporting Act, 15 U.S.C. § 1681, et seq.; undertake a permissible purpose enumerated under Gramm Leach Bliley, 12 C.F.R. § 216.13-15; or locate an individual who is missing, is a lost relative, or is due a benefit, such as a pension, insurance, or unclaimed property benefit.
+(5) To a business acting pursuant to a court order, warrant, subpoena, or when otherwise required by law, or in response to a facially valid discovery request pursuant to rules applicable to a court or administrative body that has jurisdiction over the disclosing entity.
+(6) To a business providing the Social Security number to a federal, State, or local government entity, including a law enforcement agency, the Department of Public Safety, and a court, or their agents or assigns.
+(7) To a Social Security number that has been redacted.
+(8)(A) To a business that has used, prior to January 1, 2007, an individual’s Social Security number in a manner inconsistent with subsection (b) of this section, which may continue using that individual’s Social Security number in that manner on or after January 1, 2007, if all of the following conditions are met:
+(i) The use of the Social Security number is continuous. If the use is stopped for any reason, subsection (b) of this section shall apply.
+(ii) The individual is provided an annual disclosure that informs the individual that he or she has the right to stop the use of his or her Social Security number in a manner prohibited by subsection (b) of this section.
+(iii) A written request by an individual to stop the use of his or her Social Security number in a manner prohibited by subsection (b) of this section is implemented within 30 days of the receipt of the request. There shall not be a fee or charge for implementing the request.
+(iv) The person or entity does not deny services to an individual because the individual makes a written request pursuant to this subsection.
+(B) Nothing in this subdivision (8) is intended to apply to the collection, use, or dissemination of Social Security numbers collected prior to January 1, 2007 and exempted from the provisions of subsection (b) of this section pursuant to subdivisions (1) through (7) or (9) and (10) of this subsection.
+(9) To information obtained from a recorded document in the official records of the town clerk or municipality.
+(10) To information obtained from a document filed in the official records of the courts.
+(d) Except as provided in subsection (e) of this section, the State and any State agency, political subdivision of the State, or an agent or employee of the State, may not do any of the following:
+(1) Collect a Social Security number from an individual unless authorized or required by law, State or federal regulation, or grant agreement to do so or unless the collection of the Social Security number or records containing the Social Security number is related to the performance of that agency’s duties and responsibilities as prescribed by law.
+(2) Fail, when collecting a Social Security number from an individual in a hard copy format, to segregate that number on a separate page from the rest of the record, or as otherwise appropriate, in order that the Social Security number can be more easily redacted pursuant to a valid public records request.
+(3) Fail, when collecting a Social Security number from an individual, to provide, at the time of or prior to the actual collection of the Social Security number by that agency, that individual, upon request, with a statement of the purpose or purposes for which the Social Security number is being collected and used.
+(4) Use the Social Security number for any purpose other than the purpose set forth in the statement required under subdivision (3) of this subsection.
+(5) Intentionally communicate or otherwise make available to the general public a person’s Social Security number.
+(6) Intentionally print or imbed an individual’s Social Security number on any card required for the individual to access government services.
+(7) Require an individual to transmit the individual’s Social Security number over the Internet, unless the connection is secure or the Social Security number is encrypted.
+(8) Require an individual to use the individual’s Social Security number to access an Internet website, unless a password or unique personal identification number or other authentication device is also required to access the Internet website.
+(9) Print an individual’s Social Security number on any materials that are mailed to the individual, unless a State or federal law, regulation, or grant agreement requires that the Social Security number be on the document to be mailed. A Social Security number that is permitted to be mailed under this subdivision may not be printed, in whole or in part, on a postcard or other mailer not requiring an envelope, or visible on an envelope, without the envelope having been opened.
+(e) Subsection (d) of this section does not apply to:
+(1) Social Security numbers disclosed to another governmental entity or its agents, employees, contractors, grantees, or grantors of a governmental entity if disclosure is necessary for the receiving entity to perform its duties and responsibilities. The receiving governmental entity and its agents, employees, and contractors shall maintain the confidential and exempt status of such numbers. As used in this subsection, “necessary” means reasonably needed to promote the efficient, accurate, or economical conduct of an entity’s duties and responsibilities.
+(2) Social Security numbers disclosed pursuant to a court order, warrant, or subpoena, or in response to a facially valid discovery request pursuant to rules applicable to a court or administrative body that has jurisdiction over the disclosing entity.
+(3) Social Security numbers disclosed for public health purposes pursuant to and in compliance with requirements of the Department of Health under Title 18.
+(4) The collection, use, or release of a Social Security number reasonably necessary for administrative purposes or internal verification. Internal verification includes the sharing of information for internal verification between and among governmental entities and their agents, employees, contractors, grantees, and grantors.
+(5) Social Security numbers that have been redacted.
+(6)(A) A State agency or State political subdivision that has used, prior to January 1, 2007, an individual’s Social Security number in a manner inconsistent with subsection (d) of this section, which may continue using that individual’s Social Security number in that manner on or after January 1, 2007, if all of the following conditions are met:
+(i) The use of the Social Security number is continuous. If the use is stopped for any reason, subsection (d) of this section shall apply.
+(ii) The individual is provided an annual disclosure that informs the individual that he or she has the right to stop the use of his or her Social Security number in a manner prohibited by subsection (d) of this section.
+(iii) A written request by an individual to stop the use of his or her Social Security number in a manner prohibited by subsection (d) of this section is implemented within 30 days of the receipt of the request. There shall not be a fee or charge for implementing the request.
+(iv) The State agency or State political subdivision does not deny services to an individual because the individual makes a written request pursuant to this subdivision.
+(B) Nothing in this subdivision (e)(6) is intended to apply to the collection, use, or dissemination of Social Security numbers collected prior to January 1, 2007 and exempted from the provisions of subsection (d) of this section pursuant to subdivisions (1) through (5) or (7) through (11) of this subsection.
+(7) Certified copies of vital records issued by the Department of Health and other authorized officials pursuant to 18 V.S.A. part 6.
+(8) A recorded document in the official records of the town clerk or municipality.
+(9) A document filed in the official records of the courts.
+(10) The collection, use, or dissemination of Social Security numbers by law enforcement agencies and the Department of Public Safety in the execution of their duties and responsibilities.
+(11) The collection, use, or release of a Social Security number to investigate or prevent fraud; conduct background checks; conduct social or scientific research; collect a debt; obtain a credit report from or furnish data to a consumer reporting agency pursuant to the Fair Credit Reporting Act, 15 U.S.C. § 1681 et seq.; undertake a permissible purpose enumerated under Gramm Leach Bliley, 12 C.F.R. § 216.13-15; or locate an individual who is missing, is a lost relative, or is due a benefit, such as a pension, insurance, or unclaimed property benefit.
+(f) Any person has the right to request that a town clerk or clerk of court remove from an image or copy of an official record placed on a town’s or court’s Internet website available to the general public or an Internet website available to the general public to display public records by the town clerk or clerk of court, the person’s Social Security number, employer taxpayer identification number, driver’s license number, State identification number, passport number, checking account number, savings account number, credit card or debit card number, or personal identification number (PIN) code or passwords contained in that official record. A town clerk or clerk of court is authorized to redact the personal information identified in a request submitted under this section. The request must be made in writing, legibly signed by the requester, and delivered by mail, facsimile, or electronic transmission, or delivered in person to the town clerk or clerk of court. The request must specify the personal information to be redacted, information that identifies the document that contains the personal information and unique information that identifies the location within the document that contains the Social Security number, employer taxpayer identification number, driver’s license number, State identification number, passport number, checking account number, savings account number, credit card number, or debit card number, or personal identification number (PIN) code or passwords to be redacted. The request for redaction shall be considered a public record with access restricted to the town clerk, the clerk of court, their staff, or upon order of the court. The town clerk or clerk of court shall have no duty to inquire beyond the written request to verify the identity of a person requesting redaction and shall have no duty to remove redaction for any reason upon subsequent request by an individual or by order of the court, if impossible to do so. No fee will be charged for the redaction pursuant to such request. Any person who requests a redaction without proper authority to do so shall be guilty of an infraction, punishable by a fine not to exceed $500.00 for each violation.
+(g) Enforcement.
+(1) With respect to businesses, the State, State agencies, political subdivisions of the State, and agents or employees of the State, a State agency, or a political subdivision of the State, subject to this subchapter, other than a person or entity licensed or registered with the Department of Financial Regulation under Title 8 or this title, the Attorney General and State’s Attorney shall have sole and full authority to investigate potential violations of this subchapter, to enforce, prosecute, obtain, and impose remedies for a violation of this subchapter, or any rules made pursuant to this subchapter, and to adopt rules under this subchapter, as the Attorney General and State’s Attorney have under chapter 63 of this title. The Attorney General may refer the matter to the State’s Attorney in an appropriate case. The Superior Courts shall have jurisdiction over any enforcement matter brought by the Attorney General or a State’s Attorney under this subsection.
+(2) With respect to a person or entity licensed or registered with the Department of Financial Regulation under Title 8 or this title, the Department shall have full authority to investigate potential violations of this subchapter, and to prosecute, obtain, and impose remedies for a violation of this subchapter or any rules adopted pursuant to this subchapter as the Department has under Title 8 or this title, or any other applicable law or regulation.
+(3) With respect to the information provided by the Vermont Department of Public Safety and law enforcement agencies, and any agent or employee thereof, to the Vermont Attorney General or State’s Attorney pursuant to subdivision (1) of this subsection, the information provided or made available by the agency or Department to the Attorney General may be designated by the agency or Department as confidential, and shall not be released under the provisions of 1 V.S.A. § 317. (Added 2005, No. 162 (Adj. Sess.), § 1, eff. July 1, 2007.)
+Subchapter 003A: Student Privacy
+
+§ 2443. Definitions
+As used in this subchapter:
+(1) “Covered information” means personal information or material, or information that is linked to personal information or material, in any media or format that is:
+(A)(i) not publicly available; or
+(ii) made publicly available pursuant to the federal Family Educational and Rights and Privacy Act; and
+(B)(i) created by or provided to an operator by a student or the student’s parent or legal guardian in the course of the student’s, parent’s, or legal guardian’s use of the operator’s site, service, or application for PreK-12 school purposes;
+(ii) created by or provided to an operator by an employee or agent of a school or school district for PreK-12 school purposes; or
+(iii) gathered by an operator through the operation of its site, service, or application for PreK-12 school purposes and personally identifies a student, including information in the student’s education record or electronic mail, first and last name, home address, telephone number, electronic mail address or other information that allows physical or online contact, discipline records, test results, special education data, juvenile dependency records, grades, evaluations, criminal records, medical records, health records, Social Security number, biometric information, disability status, socioeconomic information, food purchases, political affiliations, religious information, text messages, documents, student identifiers, search activity, photos, voice recordings, or geolocation information.
+(2) “Operator” means, to the extent that an entity is operating in this capacity, the operator of an Internet website, online service, online application, or mobile application with actual knowledge that the site, service, or application is used primarily for PreK-12 school purposes and was designed and marketed for PreK-12 school purposes.
+(3) “PreK-12 school purposes” means purposes that are directed by or that customarily take place at the direction of a school, teacher, or school district; aid in the administration of school activities, including instruction in the classroom or at home, administrative activities, and collaboration between students, school personnel, or parents; or are otherwise for the use and benefit of the school.
+(4) “School” means:
+(A) a public or private preschool, kindergarten, elementary or secondary educational institution, vocational school, special educational agency or institution; and
+(B) a person, agency, or institution that maintains school student records from more than one of the entities described in subdivision (6)(A) of this section.
+(5) “Targeted advertising” means presenting advertisements to a student where the advertisement is selected based on information obtained or inferred over time from that student’s online behavior, usage of applications, or covered information. The term does not include advertising to a student at an online location based upon that student’s current visit to that location or in response to that student’s request for information or feedback, without the retention of that student’s online activities or requests over time for the purpose in whole or in part of targeting subsequent ads. (Added 2019, No. 89 (Adj. Sess.), § 4.)
+
+§ 2443a. Operator prohibitions
+(a) An operator shall not knowingly do any of the following with respect to its site, service, or application:
+(1) Engage in targeted advertising on the operator’s site, service, or application or target advertising on any other site, service, or application if the targeting of the advertising is based on any information, including covered information and persistent unique identifiers, that the operator has acquired because of the use of that operator’s site, service, or application for PreK-12 school purposes.
+(2) Use information, including a persistent unique identifier, that is created or gathered by the operator’s site, service, or application to amass a profile about a student, except in furtherance of PreK-12 school purposes. “Amass a profile” does not include the collection and retention of account information that remains under the control of the student, the student’s parent or legal guardian, or the school.
+(3) Sell, barter, or rent a student’s information, including covered information. This subdivision (3) does not apply to the purchase, merger, or other type of acquisition of an operator by another entity if the operator or successor entity complies with this subchapter regarding previously acquired student information.
+(4) Except as otherwise provided in section 2443c of this title, disclose covered information, unless the disclosure is made for one or more of the following purposes and is proportionate to the identifiable information necessary to accomplish the purpose:
+(A) to further the PreK-12 school purposes of the site, service, or application, provided:
+(i) the recipient of the covered information does not further disclose the information except to allow or improve operability and functionality of the operator’s site, service, or application; and
+(ii) the covered information is not used for a purpose inconsistent with this subchapter;
+(B) to ensure legal and regulatory compliance or take precautions against liability;
+(C) to respond to judicial process;
+(D) to protect the safety or integrity of users of the site or others or the security of the site, service, or application;
+(E) for a school, educational, or employment purpose requested by the student or the student’s parent or legal guardian, provided that the information is not used or further disclosed for any other purpose; or
+(F) to a third party if the operator contractually prohibits the third party from using any covered information for any purpose other than providing the contracted service to or on behalf of the operator, prohibits the third party from disclosing any covered information provided by the operator to subsequent third parties, and requires the third party to implement and maintain reasonable security procedures and practices.
+(b) This section does not prohibit an operator’s use of information for maintaining, developing, supporting, improving, or diagnosing the operator’s site, service, or application. (Added 2019, No. 89 (Adj. Sess.), § 4.)
+
+§ 2443b. Operator duties
+An operator shall:
+(1) implement and maintain reasonable security procedures and practices appropriate to the nature of the covered information and designed to protect that covered information from unauthorized access, destruction, use, modification, or disclosure;
+(2) delete, within a reasonable time period and to the extent practicable, a student’s covered information if the school or school district requests deletion of covered information under the control of the school or school district, unless a student or his or her parent or legal guardian consents to the maintenance of the covered information; and
+(3) publicly disclose and provide the school with material information about its collection, use, and disclosure of covered information, including publishing a term of service agreement, privacy policy, or similar document. (Added 2019, No. 89 (Adj. Sess.), § 4.)
+
+§ 2443c. Permissive use or disclosure
+An operator may use or disclose covered information of a student under the following circumstances:
+(1) if other provisions of federal or State law require the operator to disclose the information and the operator complies with the requirements of federal and State law in protecting and disclosing that information;
+(2) for legitimate research purposes as required by State or federal law and subject to the restrictions under applicable State and federal law or as allowed by State or federal law and under the direction of a school, school district, or the State Board of Education if the covered information is not used for advertising or to amass a profile on the student for purposes other than for PreK-12 school purposes; and
+(3) disclosure to a State or local educational agency, including schools and school districts, for PreK-12 school purposes as permitted by State or federal law. (Added 2019, No. 89 (Adj. Sess.), § 4.)
+
+§ 2443d. Operator actions that are not prohibited
+This subchapter does not prohibit an operator from doing any of the following:
+(1) using covered information to improve educational products if that information is not associated with an identified student within the operator’s site, service, or application or other sites, services, or applications owned by the operator;
+(2) using covered information that is not associated with an identified student to demonstrate the effectiveness of the operator’s products or services, including in their marketing;
+(3) sharing covered information that is not associated with an identified student for the development and improvement of educational sites, services, or applications;
+(4) using recommendation engines to recommend to a student either of the following:
+(A) additional content relating to an educational, other learning, or employment opportunity purpose within an online site, service, or application if the recommendation is not determined in whole or in part by payment or other consideration from a third party; or
+(B) additional services relating to an educational, other learning, or employment opportunity purpose within an online site, service, or application if the recommendation is not determined in whole or in part by payment or other consideration from a third party; and
+(5) responding to a student’s request for information or for feedback without the information or response being determined in whole or in part by payment or other consideration from a third party. (Added 2019, No. 89 (Adj. Sess.), § 4.)
+
+§ 2443e. Applicability
+This subchapter does not:
+(1) limit the authority of a law enforcement agency to obtain any content or information from an operator as authorized by law or under a court order;
+(2) limit the ability of an operator to use student data, including covered information, for adaptive learning or customized student learning purposes;
+(3) apply to general audience Internet websites, general audience online services, general audience online applications, or general audience mobile applications, even if login credentials created for an operator’s site, service, or application may be used to access those general audience sites, services, or applications;
+(4) limit service providers from providing Internet connectivity to schools or students and their families;
+(5) prohibit an operator of an Internet website, online service, online application, or mobile application from marketing educational products directly to parents if the marketing did not result from the use of covered information obtained by the operator through the provision of services covered under this subchapter;
+(6) impose a duty upon a provider of an electronic store, gateway, marketplace, or other means of purchasing or downloading software or applications to review or enforce compliance with this subchapter on those applications or software;
+(7) impose a duty upon a provider of an interactive computer service, as defined in 47 U.S.C. § 230, to review or enforce compliance with this subchapter by third-party content providers;
+(8) prohibit students from downloading, exporting, transferring, saving, or maintaining their own student-created data or documents; or
+(9) supersede the federal Family Educational Rights and Privacy Act or rules adopted pursuant to that Act. (Added 2019, No. 89 (Adj. Sess.), § 4.)
+
+§ 2443f. Enforcement [Effective until January 1, 2027; see also § 2443f effective January 1, 2027, set out below]
+A person who violates a provision of this chapter commits an unfair and deceptive act in commerce in violation of section 2453 of this title. (Added 2019, No. 89 (Adj. Sess.), § 4.)
+
+§ 2443f. Enforcement [Effective January 1, 2027; see also § 2443f effective until January 1, 2027, set out above]
+(a) A person who violates a provision of this subchapter commits an unfair and deceptive act in commerce in violation of section 2453 of this title.
+(b) The Attorney General has the same authority to adopt rules to implement the provisions of this subchapter and to conduct civil investigations, enter into assurances of discontinuance, and bring civil actions as provided under chapter 63, subchapter 1 of this title. (Added 2019, No. 89 (Adj. Sess.), § 4; amended 2025, No. 138 (Adj. Sess.), §§ 1, 4, eff. January 1, 2027.)
+Subchapter 003B: Educational Technology [Effective January 1, 2027]
+
+§ 2444a. Registration [Effective January 1, 2027]
+(a) Definitions. As used in this section:
+(1)(A) “Educational technology product” and “product” mean any software, application, or platform that may collect, process, or transmit student data and that is used for teaching and learning purposes in a school in Vermont.
+(B) “Educational technology product” and “product” does not include:
+(i) hardware or other physical devices; or
+(ii) a product that is being used in a school without the knowledge of the provider.
+(2) “Filing” means an initial registration, amendment, periodic report, or other filing with the Secretary of State as the Secretary may require.
+(3) “Provider of an educational technology product” and “provider” mean a person that provides an educational technology product that is in use at a school.
+(4) “School” means a public school or an independent school approved pursuant to 16 V.S.A. § 166 and includes school districts.
+(5) “School district” has the same meaning as in 16 V.S.A. § 11(a).
+(b) Mandatory data reporting. In addition to all other requirements of a person registering with the Secretary of State pursuant to State law, a person doing business in this State as a provider of an educational technology product shall, at the time of a filing, provide the following:
+(1) the name and primary physical, email, and internet addresses of the person;
+(2) a link to the most recent version of the privacy policy and terms and conditions of each product in use in any school;
+(3) the name of each school in which the provider is operating pursuant to a paid contract;
+(4) the name and a brief description of each product of the provider, or a URL that provides the same information;
+(5) which products may be in use in any school; and
+(6) an attestation that each product meets:
+(A) the standards set forth in subchapter 3A of this chapter (student privacy) and subchapter 6 of this chapter (the Vermont Age-Appropriate Design Code Act); and
+(B) all relevant federal and State privacy laws, including the federal Children’s Online Privacy Protection Act. (Added 2025, No. 138 (Adj. Sess.), § 4, eff. January 1, 2027.)
+Subchapter 004: Document Safe Destruction Act
+
+§ 2445. Safe destruction of documents containing personal information
+(a) As used in this section:
+(1) “Business” means sole proprietorship, partnership, corporation, association, limited liability company, or other group, however organized and whether or not organized to operate at a profit, including a financial institution organized, chartered, or holding a license or authorization certificate under the laws of this State, any other state, the United States, or any other country, or the parent, affiliate, or subsidiary of a financial institution, but in no case shall it include the State, a State agency, or any political subdivision of the State. The term includes an entity that destroys records.
+(2) “Customer” means an individual who provides personal information to a business for the purpose of purchasing or leasing a product or obtaining a service from the business.
+(3) “Personal information” means the following information that identifies, relates to, describes, or is capable of being associated with a particular individual: his or her signature, Social Security number, physical characteristics or description, passport number, driver’s license or State identification card number, insurance policy number, bank account number, credit card number, debit card number, or any other financial information.
+(4)(A) “Record” means any material, regardless of the physical form, on which information is recorded or preserved by any means, including in written or spoken words, graphically depicted, printed, or electromagnetically transmitted.
+(B) “Record” does not include publicly available directories containing information an individual has voluntarily consented to have publicly disseminated or listed, such as name, address, or telephone number.
+(b) A business shall take all reasonable steps to destroy or arrange for the destruction of a customer’s records within its custody or control containing personal information that is no longer to be retained by the business by shredding, erasing, or otherwise modifying the personal information in those records to make it unreadable or indecipherable through any means for the purpose of:
+(1) ensuring the security and confidentiality of customer personal information;
+(2) protecting against any anticipated threats or hazards to the security or integrity of customer personal information; and
+(3) protecting against unauthorized access to or use of customer personal information that could result in substantial harm or inconvenience to any customer.
+(c) An entity that is in the business of disposing of personal financial information that conducts business in Vermont or disposes of personal information of residents of Vermont must take all reasonable measures to dispose of records containing personal information by implementing and monitoring compliance with policies and procedures that protect against unauthorized access to or use of personal information during or after the collection and transportation and disposing of such information.
+(d) This section does not apply to any of the following:
+(1) any bank, credit union, or financial institution as defined under the federal Gramm Leach Bliley law that is subject to the regulation of the Office of the Comptroller of the Currency, the Federal Reserve, the National Credit Union Administration, the Securities and Exchange Commission, the Federal Deposit Insurance Corporation, the Office of Thrift Supervision of the U.S. Department of the Treasury, or the Department of Financial Regulation and is subject to the privacy and security provisions of the Gramm Leach Bliley Act, 15 U.S.C. § 6801 et seq.;
+(2) any health insurer or health care facility that is subject to and in compliance with the standards for privacy of individually identifiable health information and the security standards for the protection of electronic health information of the Health Insurance Portability and Accountability Act of 1996; or
+(3) any consumer reporting agency that is subject to and in compliance with the Federal Credit Reporting Act, 15 U.S.C. § 1681 et seq., as amended.
+(e) Enforcement.
+(1) With respect to all businesses subject to this section, other than a person or entity licensed or registered with the Department of Financial Regulation under Title 8 or this title, the Attorney General and State’s Attorney shall have sole and full authority to investigate potential violations of this section, and to prosecute, obtain, and impose remedies for a violation of this section, or any rules adopted pursuant to this section, and to adopt rules under this chapter, as the Attorney General and State’s Attorney have under chapter 63 of this title. The Superior Courts shall have jurisdiction over any enforcement matter brought by the Attorney General or a State’s Attorney under this subsection.
+(2) With respect to a person or entity licensed or registered with the Department of Financial Regulation under Title 8 or this title to do business in this State, the Department of Financial Regulation shall have full authority to investigate potential violations of this chapter, and to prosecute, obtain, and impose remedies for a violation of this chapter, or any rules or regulations made pursuant to this chapter, as the Department has under Title 8 and this title, or any other applicable law or regulation. (Added 2005, No. 162 (Adj. Sess.), § 1, eff. Jan. 1, 2007.)
+Subchapter 005: Data Brokers
+
+§ 2446. Annual registration [Effective until January 1, 2027; see also§ 2446 effective January 1, 2027, set out below]
+(a) Annually, on or before January 31 following a year in which a person meets the definition of data broker as provided in section 2430 of this title, a data broker shall:
+(1) register with the Secretary of State;
+(2) pay a registration fee of $100.00; and
+(3) provide the following information:
+(A) the name and primary physical, email, and internet addresses of the data broker;
+(B) if the data broker permits a consumer to opt out of the data broker’s collection of brokered personal information, opt out of its databases, or opt out of certain sales of data:
+(i) the method for requesting an opt-out;
+(ii) if the opt-out applies to only certain activities or sales, which ones; and
+(iii) whether the data broker permits a consumer to authorize a third party to perform the opt-out on the consumer’s behalf;
+(C) a statement specifying the data collection, databases, or sales activities from which a consumer may not opt out;
+(D) a statement whether the data broker implements a purchaser credentialing process;
+(E) the number of data broker security breaches that the data broker has experienced during the prior year, and if known, the total number of consumers affected by the breaches;
+(F) where the data broker has actual knowledge that it possesses the brokered personal information of minors, a separate statement detailing the data collection practices, databases, sales activities, and opt-out policies that are applicable to the brokered personal information of minors; and
+(G) any additional information or explanation the data broker chooses to provide concerning its data collection practices.
+(b) A data broker that fails to register pursuant to subsection (a) of this section is liable to the State for:
+(1) a civil penalty of $50.00 for each day, not to exceed a total of $10,000.00 for each year, it fails to register pursuant to this section;
+(2) an amount equal to the fees due under this section during the period it failed to register pursuant to this section; and
+(3) other penalties imposed by law.
+(c) The Attorney General may maintain an action in the Civil Division of the Superior Court to collect the penalties imposed in this section and to seek appropriate injunctive relief. (Added 2017, No. 171 (Adj. Sess.), § 2, eff. Jan. 1, 2019.)
+
+§ 2446. Data brokers; annual registration [Effective January 1, 2027; see also § 2446 effective until January 1, 2027, set out above]
+(a) Registration. A person, not more than 30 days after meeting the definition of a data broker and then once annually thereafter on or before July 1 of each year, shall:
+(1) register with the Secretary of State as a data broker;
+(2) pay a registration fee of $900.00;
+(3) maintain a bond in the amount of $20,000.00 that shall run to the State for any liability arising under this subchapter, provided that the action on the bond is brought within two years after accrual of the cause of action;
+(4) provide the following information about the data broker to the Secretary of State:
+(A) the name and primary physical, email, and internet addresses and phone number of the data broker;
+(B) a statement whether the data broker implements a purchaser credentialing process;
+(C) pursuant to section 2436 of this chapter, the number of data broker security breaches that the data broker has experienced during the prior year, and if known, the total number of consumers affected by the breaches;
+(D) where the data broker has actual knowledge that it possesses the brokered personal information of minors, a separate statement detailing the data collection practices, databases, sales activities, and opt-out policies that are applicable to the brokered personal information of minors;
+(E) whether the data broker:
+(i) collects the:
+(I) precise geolocation of consumers;
+(II) reproductive health care data of consumers;
+(III) biometric data of consumers;
+(IV) immigration status of consumers;
+(V) sexual orientation of consumers;
+(VI) union membership status of consumers;
+(VII) name, date of birth, zip code, email address, or phone number of consumers;
+(VIII) account login or account number of consumers in combination with any required security code, access code, or password that would permit access to a consumer’s account with a third party;
+(IX) driver’s license number, State identification card number, Social Security number, passport number, military identification number, or other unique identification number of consumers issued on a government document commonly used to verify the identity of a specific individual; or
+(X) mobile advertising identification number, connected television identification number, or vehicle identification number of consumers; and
+(ii) in the past year, has shared consumers’ data with or sold consumers’ data to:
+(I) a foreign actor;
+(II) the federal government;
+(III) other state or local governments;
+(IV) law enforcement, unless the data was shared pursuant to a subpoena or other court order; or
+(V) a developer of a GenAI system or model;
+(F) the three most common types of personal information that the data broker collects, if the data broker does not collect the information set forth in subdivisions (E)(i)(VII) and (E)(i)(IX) of this subdivision (4);
+(G) an electronic copy of the data broker’s:
+(i) bond, pursuant to subdivision (3) of this subsection (a); and
+(ii) current privacy policy;
+(H) any additional information or explanation the data broker chooses to provide concerning its data collection practices;
+(I) the URL of a page on the data broker’s website that:
+(i) if the data broker permits deletion, allows a consumer to request that a data broker delete the brokered personal information of the consumer; and
+(ii) informs consumers about the rights of consumers to opt out of the collection of the consumer’s brokered personal information, including:
+(I) whether the data broker permits a consumer to opt out of its databases, or opt out of certain sales of data;
+(II) the procedure for requesting an opt-out;
+(III) if the opt-out applies to only certain activities or sales, which activities or sales it applies to;
+(IV) whether the data broker permits a consumer to authorize an authorized agent to perform the opt out on the consumer’s behalf; and
+(V) the data collection, databases, or sales activities from which a consumer may not opt out; and
+(J) whether and to what extent the data broker or any of its subsidiaries is regulated by the Fair Credit Reporting Act; and
+(5) amend an existing registration the data broker has with the Secretary of State if required by this section or by the State upon the payment of an administrative fee of $100.00.
+(b) Penalties.
+(1) A data broker that fails to register as required by subsection (a) of this section is liable to the State for:
+(A) an administrative fine of $200.00 for each day the data broker fails to register;
+(B) an amount equal to the fees that were due during the period the data broker failed to register; and
+(C) any reasonable costs incurred by the State in the investigation and administration of the action as the court deems appropriate.
+(2) A data broker that fails to provide all registration information required in subdivision (a)(4) of this section shall file an amendment pursuant to subdivision (a)(5) of this section that includes any omitted information not later than 30 days after discovering or receiving notification of the omission and is liable to the State for a civil penalty of $1,000.00 per day for each day thereafter that the data broker does not file an amendment providing the omitted information.
+(3) A data broker that files materially incorrect information in its registration shall:
+(A) be liable to the State for a civil penalty of $25,000.00; and
+(B) correct the materially incorrect information by filing an amendment pursuant to subdivision (a)(5) of this section not later than 30 days after discovering or receiving notification of the incorrect information, and, if it fails to correct the information, the data broker shall be liable for an additional civil penalty of $1,000.00 per day for each day the data broker fails to correct the information.
+(c) Consumer rights web page. The Secretary of State shall create and maintain a publicly accessible page on its website that provides consumers with the following:
+(1) a downloadable spreadsheet of data brokers that have registered with the State along with the information a data broker provides during registration pursuant to subsection (a) of this section; and
+(2) any additional information about the rights consumers have pursuant to this subchapter.
+(d) Enforcement.
+(1) A person who violates a provision of this section commits an unfair and deceptive act in commerce in violation of section 2453 of this title.
+(2) The Attorney General has the same authority to adopt rules to implement the provisions of this section and to conduct civil investigations, enter into assurances of discontinuance, and bring civil actions as provided under chapter 63, subchapter 1 of this title.
+(e) Definitions. As used in this subchapter, “consumer” means an individual residing in this State and does not include an individual acting in a commercial or employment context or as an employee, owner, director, officer, or contractor of a company, partnership, sole proprietorship, nonprofit organization, or government agency whose communications or transactions with the data broker occur solely within the context of that individual’s role with the company, partnership, sole proprietorship, nonprofit organization, or government agency. (Added 2017, No. 171 (Adj. Sess.), § 2, eff. Jan. 1, 2019; amended 2025, No. 138 (Adj. Sess.), § 1, eff. January 1, 2027.)
+
+§ 2447. Data broker duty to protect information; standards; technical requirements
+(a) Duty to protect personally identifiable information.
+(1) A data broker shall develop, implement, and maintain a comprehensive information security program that is written in one or more readily accessible parts and contains administrative, technical, and physical safeguards that are appropriate to:
+(A) the size, scope, and type of business of the data broker obligated to safeguard the personally identifiable information under such comprehensive information security program;
+(B) the amount of resources available to the data broker;
+(C) the amount of stored data; and
+(D) the need for security and confidentiality of personally identifiable information.
+(2) A data broker subject to this subsection shall adopt safeguards in the comprehensive security program that are consistent with the safeguards for protection of personally identifiable information and information of a similar character set forth in other State rules or federal regulations applicable to the data broker.
+(b) Information security program; minimum features. A comprehensive information security program shall at minimum have the following features:
+(1) designation of one or more employees to maintain the program;
+(2) identification and assessment of reasonably foreseeable internal and external risks to the security, confidentiality, and integrity of any electronic, paper, or other records containing personally identifiable information, and a process for evaluating and improving, where necessary, the effectiveness of the current safeguards for limiting such risks, including:
+(A) ongoing employee training, including training for temporary and contract employees;
+(B) employee compliance with policies and procedures; and
+(C) means for detecting and preventing security system failures;
+(3) security policies for employees relating to the storage, access, and transportation of records containing personally identifiable information outside business premises;
+(4) disciplinary measures for violations of the comprehensive information security program rules;
+(5) measures that prevent terminated employees from accessing records containing personally identifiable information;
+(6) supervision of service providers, by:
+(A) taking reasonable steps to select and retain third-party service providers that are capable of maintaining appropriate security measures to protect personally identifiable information consistent with applicable law; and
+(B) requiring third-party service providers by contract to implement and maintain appropriate security measures for personally identifiable information;
+(7) reasonable restrictions upon physical access to records containing personally identifiable information and storage of the records and data in locked facilities, storage areas, or containers;
+(8)(A) regular monitoring to ensure that the comprehensive information security program is operating in a manner reasonably calculated to prevent unauthorized access to or unauthorized use of personally identifiable information; and
+(B) upgrading information safeguards as necessary to limit risks;
+(9) regular review of the scope of the security measures:
+(A) at least annually; or
+(B) whenever there is a material change in business practices that may reasonably implicate the security or integrity of records containing personally identifiable information; and
+(10)(A) documentation of responsive actions taken in connection with any incident involving a breach of security; and
+(B) mandatory post-incident review of events and actions taken, if any, to make changes in business practices relating to protection of personally identifiable information.
+(c) Information security program; computer system security requirements. A comprehensive information security program required by this section shall at minimum, and to the extent technically feasible, have the following elements:
+(1) secure user authentication protocols, as follows:
+(A) an authentication protocol that has the following features:
+(i) control of user IDs and other identifiers;
+(ii) a reasonably secure method of assigning and selecting passwords or use of unique identifier technologies, such as biometrics or token devices;
+(iii) control of data security passwords to ensure that such passwords are kept in a location and format that do not compromise the security of the data they protect;
+(iv) restricting access to only active users and active user accounts; and
+(v) blocking access to user identification after multiple unsuccessful attempts to gain access; or
+(B) an authentication protocol that provides a higher level of security than the features specified in subdivision (A) of this subdivision (c)(1);
+(2) secure access control measures that:
+(A) restrict access to records and files containing personally identifiable information to those who need such information to perform their job duties; and
+(B) assign to each person with computer access unique identifications plus passwords, which are not vendor-supplied default passwords, that are reasonably designed to maintain the integrity of the security of the access controls or a protocol that provides a higher degree of security;
+(3) encryption of all transmitted records and files containing personally identifiable information that will travel across public networks and encryption of all data containing personally identifiable information to be transmitted wirelessly or a protocol that provides a higher degree of security;
+(4) reasonable monitoring of systems for unauthorized use of or access to personally identifiable information;
+(5) encryption of all personally identifiable information stored on laptops or other portable devices or a protocol that provides a higher degree of security;
+(6) for files containing personally identifiable information on a system that is connected to the Internet, reasonably up-to-date firewall protection and operating system security patches that are reasonably designed to maintain the integrity of the personally identifiable information or a protocol that provides a higher degree of security;
+(7) reasonably up-to-date versions of system security agent software that must include malware protection and reasonably up-to-date patches and virus definitions, or a version of such software that can still be supported with up-to-date patches and virus definitions and is set to receive the most current security updates on a regular basis or a protocol that provides a higher degree of security; and
+(8) education and training of employees on the proper use of the computer security system and the importance of personally identifiable information security.
+(d) Enforcement.
+(1) A person who violates a provision of this section commits an unfair and deceptive act in commerce in violation of section 2453 of this title.
+[Subdivision (d)(2) effective until January 1, 2027; see also subdivision (d)(2) effective January 1, 2027 set out below.]
+(2) The Attorney General has the same authority to adopt rules to implement the provisions of this chapter and to conduct civil investigations, enter into assurances of discontinuance, and bring civil actions as provided under chapter 63, subchapter 1 of this title.
+[Subdivision (d)(2) effective January 1, 2027; see also subdivision (d)(2) effective until January 1, 2027 set out above.]
+(2) The Attorney General has the same authority to adopt rules to implement the provisions of this section and to conduct civil investigations, enter into assurances of discontinuance, and bring civil actions as provided under chapter 63, subchapter 1 of this title. (Added 2017, No. 171 (Adj. Sess.), § 2, eff. Jan. 1, 2019; amended 2025, No. 138 (Adj. Sess.), § 1, eff. January 1, 2027.)
+Subchapter 006: Vermont Age-Appropriate Design Code Act
+
+§ 2449a. Definitions [Effective January 1, 2027]
+As used in this subchapter:
+(1)(A) “Affiliate” means a legal entity that shares common branding with another legal entity or controls, is controlled by, or is under common control with another legal entity.
+(B) As used in subdivision (A) of this subdivision (1), “control” or “controlled” means:
+(i) ownership of, or the power to vote, more than 50 percent of the outstanding shares of any class of voting security of a company;
+(ii) control in any manner over the election of a majority of the directors or of individuals exercising similar functions; or
+(iii) the power to exercise controlling influence over the management of a company.
+(2) “Age assurance” encompasses a range of methods used to determine, estimate, or communicate the age or an age range of an online user.
+(3) “Age range” means either an interval with an upper and lower age limit or a label indicating age above or below a specific age.
+(4) “Algorithmic recommendation system” means a system that uses an algorithm to select, filter, and arrange media on a covered business’s website for the purpose of selecting, recommending, or prioritizing media for a user.
+(5)(A) “Biometric data” means data generated from the technological processing of an individual’s unique biological, physical, or physiological characteristics that allow or confirm the unique identification of the consumer, including:
+(i) iris or retina scans;
+(ii) fingerprints;
+(iii) facial or hand mapping, geometry, or templates;
+(iv) vein patterns;
+(v) voice prints or vocal biomarkers; and
+(vi) gait or personally identifying physical movement or patterns.
+(B) “Biometric data” does not include:
+(i) a digital or physical photograph;
+(ii) an audio or video recording; or
+(iii) any data generated from a digital or physical photograph, or an audio or video recording, unless such data is generated to identify a specific individual.
+(6) “Business associate” has the same meaning as in the Health Insurance Portability and Accountability Act of 1996, Pub. L. No. 104-191 (HIPAA).
+(7) “Collect” means buying, renting, gathering, obtaining, receiving, or accessing any personal data by any means. This includes receiving data from the consumer, either actively or passively, or by observing the consumer’s behavior.
+(8) “Compulsive use” means the repetitive use of a covered business’s service that materially disrupts one or more major life activities of a minor, including sleeping, eating, learning, reading, concentrating, communicating, or working.
+(9)(A) “Consumer” means an individual who is a resident of the State.
+(B) “Consumer” does not include an individual acting in a commercial or employment context or as an employee, owner, director, officer, or contractor of a company, partnership, sole proprietorship, nonprofit, or government agency whose communications or transactions with the covered business occur solely within the context of that individual’s role with the company, partnership, sole proprietorship, nonprofit, or government agency.
+(10) “Covered business” means a sole proprietorship, partnership, limited liability company, corporation, association, other legal entity, or an affiliate thereof:
+(A) that conducts business in this State;
+(B) that generates a majority of its annual revenue from online services;
+(C) whose online products, services, or features are reasonably likely to be accessed by a minor;
+(D) that collects consumers’ personal data or has consumers’ personal data collected on its behalf by a processor; and
+(E) that alone or jointly with others determines the purposes and means of the processing of consumers’ personal data.
+(11) “Covered entity” has the same meaning as in HIPAA.
+(12) “Covered minor” is a consumer who a covered business actually knows is a minor or labels as a minor pursuant to age assurance methods in rules adopted by the Attorney General.
+(13) “Default” means a preselected option adopted by the covered business for the online service, product, or feature.
+(14) “De-identified data” means data that does not identify and cannot reasonably be used to infer information about, or otherwise be linked to, an identified or identifiable individual, or a device linked to the individual, if the covered business that possesses the data:
+(A)(i) takes reasonable measures to ensure that the data cannot be used to reidentify an identified or identifiable individual or be associated with an individual or device that identifies or is linked or reasonably linkable to an individual or household; and
+(ii) for purposes of this subdivision (A), “reasonable measures” includes the de-identification requirements set forth under 45 C.F.R. § 164.514 (other requirements relating to uses and disclosures of protected health information);
+(B) publicly commits to process the data only in a de-identified fashion and not attempt to reidentify the data; and
+(C) contractually obligates any recipients of the data to comply with all provisions of this subchapter.
+(15) “Derived data” means data that is created by the derivation of information, data, assumptions, correlations, inferences, predictions, or conclusions from facts, evidence, or another source of information or data about a minor or a minor’s device.
+(16) “Genetic data” means any data, regardless of its format, that results from the analysis of a biological sample of an individual, or from another source enabling equivalent information to be obtained, and concerns genetic material, including deoxyribonucleic acids (DNA), ribonucleic acids (RNA), genes, chromosomes, alleles, genomes, alterations or modifications to DNA or RNA, single nucleotide polymorphisms (SNPs), epigenetic markers, uninterpreted data that results from analysis of the biological sample or other source, and any information extrapolated, derived, or inferred therefrom.
+(17) “Identified or identifiable individual” means an individual who can be readily identified, directly or indirectly, including by reference to an identifier such as a name, an identification number, specific geolocation data, or an online identifier.
+(18) “Known adult” is a consumer who a covered business actually knows is an adult or labels as an adult pursuant to age assurance methods in rules adopted by the Attorney General.
+(19) “Minor” means an individual under 18 years of age.
+(20) “Online service, product, or feature” means a digital product that is accessible to the public via the internet, including a website or application, and does not mean any of the following:
+(A) telecommunications service, as defined in 47 U.S.C. § 153;
+(B) a broadband internet access service as defined in 47 C.F.R. § 54.400; or
+(C) the sale, delivery, or use of a physical product.
+(21)(A) “Personal data” means any information, including derived data and unique identifiers, that is linked or reasonably linkable, alone or in combination with other information, to an identified or identifiable individual or to a device that identifies, is linked to, or is reasonably linkable to one or more identified or identifiable individuals in a household.
+(B) Personal data does not include de-identified data or publicly available information.
+(22) “Process” or “processing” means any operation or set of operations performed, whether by manual or automated means, on personal data or on sets of personal data, such as the collection, use, storage, disclosure, analysis, deletion, modification, or otherwise handling of personal data.
+(23) “Processor” means a person who processes personal data on behalf of:
+(A) a covered business;
+(B) another processor; or
+(C) a federal, state, tribal, or local government entity.
+(24) “Profiling” means any form of automated processing performed on personal data to evaluate, analyze, or predict personal aspects, including an individual’s economic situation, health, personal preferences, interests, reliability, behavior, location, movements, or identifying characteristics.
+(25)(A) “Publicly available information” means information that:
+(i) is made available through federal, state, or local government records or to the general public from widely distributed media; or
+(ii) a covered business has a reasonable basis to believe that the consumer has lawfully made available to the general public.
+(B) “Publicly available information” does not include:
+(i) biometric data collected by a business about a consumer without the consumer’s knowledge;
+(ii) information that is collated and combined to create a consumer profile that is made available to a user of a publicly available website either in exchange for payment or free of charge;
+(iii) information that is made available for sale;
+(iv) an inference that is generated from the information described in subdivision (ii) or (iii) of this subdivision (25)(B);
+(v) any obscene visual depiction, as defined in 18 U.S.C. § 1460;
+(vi) personal data that is created through the combination of personal data with publicly available information;
+(vii) genetic data, unless otherwise made publicly available by the consumer to whom the information pertains;
+(viii) information provided by a consumer on a website or online service made available to all members of the public, for free or for a fee, where the consumer has maintained a reasonable expectation of privacy in the information, such as by restricting the information to a specific audience; or
+(ix) intimate images, authentic or computer-generated, known to be nonconsensual.
+(26) “Reasonably likely to be accessed” means an online service, product, or feature that is reasonably likely to be accessed by a covered minor based on any of the following indicators:
+(A) the online service, product, or feature is directed to children, as defined by the Children’s Online Privacy Protection Act, 15 U.S.C. §§ 6501–6506 and the Federal Trade Commission rules implementing that Act;
+(B) the online service, product, or feature is determined, based on competent and reliable evidence regarding audience composition, to be routinely accessed by an audience that is composed of at least two percent minors two through 17 years of age;
+(C) the audience of the online service, product, or feature is determined, based on internal company research, to be composed of at least two percent minors two through 17 years of age; or
+(D) the covered business knew or should have known that at least two percent of the audience of the online service, product, or feature includes minors two through 17 years of age, provided that, in making this assessment, the business shall not collect or process any personal data that is not reasonably necessary to provide an online service, product, or feature with which a minor is actively and knowingly engaged.
+(27)(A) “Social media platform” means a public or semipublic internet-based service or application that is primarily intended to connect and allow a user to socially interact within such service or application and enables a user to:
+(i) construct a public or semipublic profile for the purposes of signing into and using such service or application;
+(ii) populate a public list of other users with whom the user shares a social connection within such service or application; or
+(iii) create or post content that is viewable by other users, including content on message boards and in chat rooms, and that presents the user with content generated by other users.
+(B) “Social media platform” does not mean a public or semipublic internet-based service or application that:
+(i) exclusively provides email or direct messaging services; or
+(ii) is used by and under the direction of an educational entity, including a learning management system or a student engagement program.
+(28) “Third party” means a natural or legal person, public authority, agency, or body other than the covered minor or the covered business. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449b. Exclusions [Effective January 1, 2027]
+This subchapter does not apply to:
+(1) a federal, state, tribal, or local government entity in the ordinary course of its operation;
+(2) protected health information that a covered entity or business associate processes in accordance with, or documents that a covered entity or business associate creates for the purpose of complying with, HIPAA;
+(3) information used only for public health activities and purposes described in 45 C.F.R. § 164.512;
+(4) information that identifies a consumer in connection with:
+(A) activities that are subject to the Federal Policy for the Protection of Human Subjects as set forth in 45 C.F.R. Part 46;
+(B) research on human subjects undertaken in accordance with good clinical practice guidelines issued by the International Council for Harmonisation of Technical Requirements for Pharmaceuticals for Human Use;
+(C) activities that are subject to the protections provided in 21 C.F.R. Part 50 and 21 C.F.R. Part 56; or
+(D) research conducted in accordance with the requirements set forth in subdivisions (A)–(C) of this subdivision (4) or otherwise in accordance with State or federal law;
+(5) an entity whose primary purpose is journalism as defined in 12 V.S.A. § 1615(a)(2) and that has a majority of its workforce consisting of individuals engaging in journalism; and
+(6) a financial institution subject to Title V of the Gramm-Leach-Bliley Act, Pub. L. No. 106-102, and regulations adopted to implement that act. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449c. Minimum duty of care [Effective January 1, 2027]
+(a) A covered business that processes a covered minor’s data in any capacity owes a minimum duty of care to the covered minor.
+(b) As used in this subchapter, “a minimum duty of care” means the use of the personal data of a covered minor and the design of an online service, product, or feature will not result in:
+(1) reasonably foreseeable emotional distress as defined in 13 V.S.A. § 1061(2) to a covered minor;
+(2) reasonably foreseeable compulsive use of the online service, product, or feature by a covered minor; or
+(3) discrimination against a covered minor based upon race, ethnicity, sex, disability, sexual orientation, gender identity, gender expression, religion, or national origin.
+(c) The content of the media viewed by a covered minor shall not establish emotional distress, compulsive use, or discrimination, as those terms are used in subsection (b) of this section.
+(d) Nothing in this section shall be construed to require a covered business to prevent or preclude a covered minor from accessing or viewing any piece of media or category of media. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449d. Required default privacy settings and tools [Effective January 1, 2027]
+(a) Default privacy settings.
+(1) A covered business shall configure all default privacy settings provided to a covered minor through the online service, product, or feature to the highest level of privacy, including the following default settings:
+(A) not displaying the existence of the covered minor’s account on a social media platform to any known adult user unless the covered minor has expressly and unambiguously allowed a specific known adult user to view their account or has expressly and unambiguously chosen to make their account’s existence public;
+(B) not displaying media created or posted by the covered minor on a social media platform to any known adult user unless the covered minor has expressly and unambiguously allowed a specific known adult user to view their media or has expressly and unambiguously chosen to make their media publicly available;
+(C) not permitting any known adult users to like, comment on, or otherwise provide feedback on the covered minor’s media on a social media platform unless the covered minor has expressly and unambiguously allowed a specific known adult user to do so;
+(D) not permitting direct messaging on a social media platform between the covered minor and any known adult user unless the covered minor has expressly and unambiguously decided to allow direct messaging with a specific known adult user;
+(E) not displaying the covered minor’s location to other users, unless the covered minor expressly and unambiguously shares their location with a specific user;
+(F) not displaying the users connected to the covered minor on a social media platform unless the covered minor expressly and unambiguously chooses to share the information with a specific user;
+(G) disabling search engine indexing of the covered minor’s account profile; and
+(H) not sending push notifications to the covered minors.
+(2) A covered business shall not:
+(A) provide a covered minor with a single setting that makes all of the default privacy settings less protective at once; or
+(B) request or prompt a covered minor to make their privacy settings less protective, unless the change is strictly necessary for the covered minor to access a service or feature they have expressly and unambiguously requested.
+(b) Timely deletion of account. A covered business shall:
+(1) provide a prominent, accessible, and responsive tool to allow a covered minor to request the covered minor’s account on a social media platform be unpublished or deleted; and
+(2) honor that request not later than 15 days after a covered business receives the request. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449e. Transparency [Effective January 1, 2027]
+A covered business shall prominently and clearly provide on their website or mobile application:
+(1) the covered business’s privacy information, terms of service, policies, and community standards;
+(2) the purpose of each algorithmic recommendation system in use by the covered business;
+(3) inputs used by the algorithmic recommendation system and how each input:
+(A) is measured or determined;
+(B) uses the personal data of covered minors;
+(C) influences the recommendation issued by the system; and
+(D) is weighed relative to the other inputs reported in this subdivision (3); and
+(4) descriptions, for every feature of the service that uses the personal data of covered minors, of:
+(A) the purpose of the service feature;
+(B) the personal data collected by the service feature;
+(C) the personal data used by the service feature;
+(D) how the personal data is used by the service feature;
+(E) any personal data transferred to or shared with a processor or third party by the service feature, the identity of the processor or third party, and the purpose of the transfer or sharing; and
+(F) how long the personal data is retained. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449f. Prohibited data and design practices [Effective January 1, 2027]
+[Subsection (a) effective January 1, 2027.]
+(a) Data privacy. A covered business shall not:
+(1) collect, sell, share, or retain any personal data of a covered minor that is not necessary to provide an online service, product, or feature with which the covered minor is actively and knowingly engaged;
+(2) use previously collected personal data of a covered minor for any purpose other than a purpose for which the personal data was collected, unless necessary to comply with any obligation under this chapter;
+(3) permit any individual, including a parent or guardian of a covered minor, to monitor the online activity of a covered minor or to track the location of the covered minor without providing a conspicuous signal to the covered minor when the covered minor is being monitored or tracked;
+(4) use the personal data of a covered minor to select, recommend, or prioritize media for the covered minor, unless the personal data is:
+(A) the covered minor’s express and unambiguous request to receive:
+(i) media from a specific account, feed, or user, or to receive more or less media from that account, feed, or user;
+(ii) a specific category of media, such as “cat videos” or “breaking news,” or to see more or less of that category of media; or
+(iii) more or less media with similar characteristics as the media they are currently viewing;
+(B) user-selected privacy or accessibility settings; or
+(C) a search query, provided the search query is only used to select and prioritize media in response to the search; or
+(5) send push notifications to a covered minor between 12:00 midnight and 6:00 a.m.
+(b) Rulemaking. The Attorney General shall, on or before January 1, 2027, adopt rules pursuant to this subchapter that prohibit data processing or design practices of a covered business that, in the opinion of the Attorney General, lead to compulsive use or subvert or impair user autonomy, decision making, or choice during the use of an online service, product, or feature of the covered business. The Attorney General shall, at least once every two years, review and update these rules as necessary to keep pace with emerging technology. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449g. Age assurance privacy [Effective January 1, 2027]
+[Subsection (a) effective January 1, 2027.]
+(a) Privacy protections for age assurance data. During the process of conducting age assurance, covered businesses and processors shall:
+(1) only collect personal data of a user that is strictly necessary for age assurance;
+(2) immediately upon determining whether a user is a covered minor, delete any personal data collected of that user for age assurance, except the determination of the user’s age range;
+(3) not use any personal data of a user collected for age assurance for any other purpose;
+(4) not combine personal data of a user collected for age assurance, except the determination of the user’s age range, with any other personal data of the user;
+(5) not disclose personal data of a user collected for age assurance to a third party that is not a processor; and
+(6) implement a review process to allow users to appeal their age determination.
+(b) Rulemaking.
+(1) Subject to subdivision (2) of this subsection, the Attorney General shall, on or before January 1, 2027, adopt rules identifying commercially reasonable and technically feasible methods for covered businesses and processors to determine if a user is a covered minor, describing appropriate review processes for users appealing their age designations, and providing any additional privacy protections for age assurance data. The Attorney General shall periodically review and update these rules as necessary to keep pace with emerging technology.
+(2) In adopting these rules, the Attorney General shall:
+(A) prioritize user privacy and accessibility over the accuracy of age assurance methods; and
+(B) consider:
+(i) the size, financial resources, and technical capabilities of covered businesses and processors;
+(ii) the costs and effectiveness of available age assurance methods;
+(iii) the impact of age assurance methods on users’ safety, utility, and experience;
+(iv) whether and to what extent transparency measures would increase consumer trust in an age assurance method; and
+(v) the efficacy of requiring covered businesses and processors to:
+(I) use previously collected data to determine user age;
+(II) adopt interoperable age assurance methods; and
+(III) provide users with multiple options for age assurance. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449h. Enforcement [Effective January 1, 2027]
+(a) A covered business or processor that violates this subchapter or rules adopted pursuant to this subchapter commits an unfair and deceptive act in commerce in violation of section 2453 of this title.
+(b) The Attorney General shall have the same authority under this subchapter to make rules, conduct civil investigations, bring civil actions, and enter into assurances of discontinuance as provided under chapter 63 of this title. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449i. Limitations [Effective January 1, 2027]
+Nothing in this subchapter shall be interpreted or construed to:
+(1) impose liability in a manner that is inconsistent with 47 U.S.C. § 230; or
+(2) prevent or preclude any covered minor from deliberately or independently searching for, or specifically requesting, any media. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+§ 2449j. Rights and freedoms of covered minors [Effective January 1, 2027]
+It is the intent of the General Assembly that nothing in this subchapter may be construed to infringe on the existing rights and freedoms of covered minors or be construed to discriminate against the covered minors based on race, ethnicity, sex, disability, sexual orientation, gender identity, gender expression, religion, or national origin. (Added 2025, No. 63, § 1, eff. Jan. 1, 2027.)
+
+## Curator notes
+
+Text taken from the full-chapter page on legislature.vermont.gov: the title and chapter headings, then each section as its `§ n. Caption` line and one line per paragraph (and a line for each subchapter heading). Menus, sidebar, scripts and footer removed. The Legislature says its Vermont Statutes Online is an unofficial copy of the Vermont Statutes Annotated, provided as a convenience.
