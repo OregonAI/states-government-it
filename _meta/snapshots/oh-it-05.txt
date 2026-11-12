@@ -1,0 +1,101 @@
+IT-05 Disposal, Servicing and Transfer of IT Equipment
+
+State of Ohio Administrative Policy
+No: IT-05 - Information Technology
+Effective: April 29, 2025
+Issued By: Kathleen C. Madden, Director
+
+I. Purpose
+The purpose of this policy is to mitigate risk with regard to state Data, Licensed Software and Intellectual Property, and rechargeable batteries and other hazardous materials in the Disposal, servicing or transfer of Agency Information Technology (IT) Equipment. All defined terms are capitalized and a link to the glossary of definitions is found in section IV.
+
+II. Scope
+This policy applies to all state Agencies, boards, and commissions under the authority of the Governor (collectively referred to as Agency or Agencies).
+
+III. Policy
+Whenever an Agency relinquishes Custody of IT Equipment or its components, whether temporarily (e.g., lending or servicing equipment) or permanently (e.g., Donation, Trade-in, lease termination or Disposal of equipment), the Agency shall take reasonable measures as outlined in this policy to prevent the unauthorized release of information, unauthorized use of Licensed Software and Intellectual Property, and improper Disposal of rechargeable batteries and other hazardous materials.
+Agencies shall implement policies and associated procedures in compliance with this state policy as well as the National Institute of Standards and Technology (NIST) Special Publication (SP) 800-53, “Security and Privacy Controls for Federal Information Systems and Organizations” (Media Protection Family, Control Number MP-6), NIST SP 800-88, “Guidelines for Media Sanitization,” and Ohio Administrative Policy IT-14, “Data Encryption and Securing Confidential Data,” and shall ensure that employees, contractors, temporary personnel and other agents of the state adhere to those policies.
+Nothing in this policy prohibits the authorized transfer of information, Licensed Software and Intellectual Property stored on transferred IT Equipment.
+
+A. Risk Assessment
+Prior to relinquishing Custody of IT Equipment, Agencies shall conduct a Risk Assessment of the information stored on such equipment, in accordance with Ohio IT Standard ITS-SEC-02, “Enterprise Security Controls Framework.”
+
+B. Short-Term Loan
+Prior to lending IT Equipment, Agencies shall secure information in a manner consistent with the findings of their Risk Assessment and in accordance with NIST SP 800-53 and 800-88 to prevent the unauthorized disclosure or use of the information. If the equipment contains confidential or Personally Identifiable Information, the Agency shall either Sanitize the equipment or encrypt the information commensurate with the risk-assessment findings, NIST SP 800-53 and 800-88, Ohio Administrative Policy IT-14 and in accordance with Ohio IT Standard ITS-SEC-01, “Data Encryption and Cryptography.”
+
+C. Servicing
+Prior to servicing IT Equipment, where the device leaves the Custody of the Agency, Agencies shall secure information in a manner consistent with the findings of their Risk Assessment and in accordance with NIST SP 800-53 and 800-88 to prevent the unauthorized disclosure or use of the information.
+If the equipment contains confidential or Personally Identifiable Information, the Agency shall either Sanitize the equipment or encrypt the information commensurate with the risk-assessment findings, NIST SP 800- 53 and 800-88, Ohio Administrative Policy IT-14 and in accordance with Ohio IT Standard ITS-SEC-01, “Data Encryption and Cryptography.”
+Securing, sanitizing, or encrypting is not required prior to servicing if the equipment is no longer capable of being secured, Sanitized or encrypted. In such cases, removal of storage media such as hard disks that contain confidential or Personally Identifiable Information may be appropriate, or it may be possible to Sanitize the storage media in another similar and fully functional piece of IT Equipment prior to releasing Custody of the equipment to be serviced.
+If it is impossible to Sanitize the malfunctioning equipment containing confidential or Personally Identifiable Information, then a Risk Assessment shall be used to determine whether the storage media must be destroyed. It is also recommended that this contingency be included in maintenance contracts.
+Agencies may send IT Equipment only to maintenance and repair service providers who have agreed in writing to:
+a. Maintain the Confidentiality of state information;
+b. Access information only if it is necessary for maintenance or servicing purposes; and
+c. Destroy, sanitize or return any equipment or components that are still capable of storing information, in accordance with state and Agency policy.
+
+D. Disposal, Long-Term Loan, State Surplus or Other Permanent Transfer
+Agencies shall ensure that IT Equipment is Sanitized commensurate with the findings of their risk- assessment and in accordance with NIST SP 800-53 and 800-88 prior to either lending such equipment long-term or permanently transferring Ownership, such as when donating equipment, lease termination, transferring equipment to another Agency, transferring equipment to the DAS State and Federal Surplus Services, or disposing of such equipment.
+1. As a minimum, Agencies shall Sanitize IT Equipment and computer media that is to be permanently transferred by Overwriting information with meaningless Data in such a way that information cannot be reasonably recovered.
+2. For confidential or Personally Identifiable Information, the sanitation procedures that Agencies use must provide additional assurance that information cannot be recovered. More rigorous methods, such as increasing the number of overwrites or physical Destruction must be used as the levels of Confidentiality and risk merit.
+3. Agencies may only send IT Equipment to IT sanitation service providers who have agreed in writing to:
+a. maintain the Confidentiality of state information;
+b. access information only if it is necessary for sanitation purposes; and
+c. Sanitize any equipment or components capable of storing information in accordance with state and Agency policy.
+4. The sanitation measures taken under this section shall be appropriate to reasonably prevent the violation of software License agreements, in accordance with Ohio Administrative Policy IT-03, “Software Licensing,” prior to transferring IT Equipment.
+5. Agencies shall dispose of IT property that contains batteries in accordance with chapter 3745-273 of the Ohio Administrative Code and the federal Mercury- Containing and Rechargeable Battery Management Act (42 USC Sec. 14301, 1996). Agencies shall abide by all other state and federal mandates regarding IT property that contains hazardous materials.
+6. In the event that equipment capable of Persistent Data Storage is transferred and sanitation methods such as Data Overwriting are not technically feasible, Agencies shall implement alternatives appropriate for the equipment to prevent the unauthorized disclosure of confidential or Personally Identifiable Information or shall remove and destroy the storage media.
+7. Agency Data owners or Data custodians (refer to Ohio Administrative Policy IT-13, “Data Classification”, for a definition of the Data owner and Data custodian roles) shall obtain and retain a certificate of Destruction with the serial number, method of Destruction, and date of Destruction from the service provider. The Destruction of media or equipment containing Federal Tax Information (FTI) shall not only be verified by a certificate of Destruction but shall also be witnessed by a state employee.
+
+E. Other Disposal, Servicing and Transfer Requirements
+This policy is not intended to circumvent the implementation of more rigorous safeguards for the temporary or permanent transfer of IT Equipment or its components that may be outlined by law, contract or other agreement. The more stringent requirements shall take precedent.
+
+F. Procedures
+If an Agency has Excess or Surplus IT Equipment, it shall work with DAS State and Federal Surplus Services to ensure that the state assets are distributed in accordance with the requirements outlined in Ohio Revised Code (ORC) Section 125.13 and Ohio Administrative Policy AM-02, “State and Federal Surplus Program.”
+
+IV. Definitions
+All defined terms are capitalized within the policy and the online glossary of definitions can be found at IT Policy Glossary - Department of Administrative Services.
+
+V. Authority
+Federal Mercury-Containing and Rechargeable Battery Management Act (42 USC Sec. 14301, 1996)
+ORC 125.13, 125.18
+OAC 123:5-2-01
+
+VI. Resources
+- Disposal of Excess and Surplus Property AM-02 - Department of Administrative Services
+- IT-14 Data Encryption and Securing Confidential Data - Department of Administrative Services
+- NIST SP 800-53, Revision 4: Security and Privacy Controls for Federal Information Systems and Organizations (PDF)
+- NIST Special Publication 800-88, Guidelines for Media Sanitization (PDF)
+- Federal Register : National Industrial Security Program Operating Manual (NISPOM)
+- Ohio Administrative Code Chapter 3745-273. Management Standards for Universal Waste
+- Ohio Revised Code (ORC) section 125.13
+- Rule 123:5-2-01 of Ohio Administrative Code (OAC), Disposal of Excess and Surplus Supplies
+- The Federal Mercury-Containing and Rechargeable Battery Management Act
+
+VII. Inquiries
+
+Direct inquiries about Excess or Surplus IT Equipment to:
+State and Federal Surplus Services
+General Services Division
+Ohio Department of Administrative Services
+4200 Surface Road
+Columbus, Ohio 43228
+614-466-6585 | Amy.Rice@das.ohio.gov
+
+Direct inquiries about this policy to:
+State IT Policy Manager
+Office of Information Technology
+Ohio Department of Administrative Services
+30 East Broad Street, 39th Floor
+Columbus, Ohio 43215
+1-614-644-6860 | DAS.State.ITPolicy.Manager@das.ohio.gov
+State of Ohio Administrative Policies may be found online at Policy Finder - Department of Administrative Services
+
+VIII. Revision History
+This policy must be reviewed no less than every two years and updated as needed.
+Date | Description of Change
+08/26/2005 | Original policy.
+03/19/2008 | Policy requirements concerning removal and Destruction of storage media added to sections 2.3 and 2.4.6 of this policy.
+04/18/2011 | Removed reference to Ohio IT Policy ITP-B.1, “Information Security Framework.” The “Interrelationship of the Information Security Framework Policy and Subpolicies,” a cross-reference table showing the relationship between Ohio IT Policy ITP-B.1 and the IT security subpolicies, was also removed. Replaced with a reference to Ohio IT Standard ITS-SEC-02, “Enterprise Security Controls Framework.”
+10/13/2016 | Policy definitions were updated to align with the current security standards. Transferred policy content into the new State of Ohio Administrative Policy Template. Re-numbered policy to IT-05 to be consistent with new format.
+04/20/2017 | Added requirements to comply with NIST SP 800-53, NIST SP 800-88, and Ohio Administrative Policy IT-14 and updated terminology for consistency. Also, added a reference to Ohio Administrative Policy AM-02, “State and Federal Surplus Program,” which replaces DAS Directive GS-D-06, “Removal of Sensitive Information from Surplus State Property and Procedures for the Relinquishing of Custody to Excess Computer Equipment.”
+07/22/2021 | Updated the policy template to reflect the DAS director change.
+04/29/2025 | Replaced the term sensitive data, or sensitive information, with confidential data. Revised references to Ohio Administrative Policy IT-14 to reflect the title change. Updated the policy template.

@@ -1,0 +1,94 @@
+IT-15 Information Security and Privacy Awareness Training
+
+State of Ohio Administrative Policy
+No: IT-15 - Information Technology
+Effective: April 29, 2025
+Issued By: Kathleen C. Madden, Director
+
+I. Purpose
+This policy provides information security and privacy awareness training requirements for Organizational Users. This policy is not intended for the general population that accesses electronic government services or applications.
+All defined terms are capitalized and a link to the glossary of definitions is found in section IV. In addition, references to National Institute of Standards in Technology (NIST) Special Publication (SP) 800-53 family identifiers and control numbers are provided in parentheticals next to requirement headers, where applicable.
+
+II. Scope
+This policy applies to all state Agencies, boards, and commissions under the authority of the Governor (collectively referred to as Agency or Agencies).
+
+III. Policy
+Agencies shall conduct information security and privacy awareness training in accordance with the requirements outlined in this policy and shall ensure that all Organizational Users adhere to the policy.
+
+A. Basic Information Security and Privacy Awareness Training (AT-2)
+The Department of Administrative Services (DAS) Office of Information Security and Privacy (OISP) shall provide Basic Information Security and Privacy Awareness Training for Agencies to use to conduct this training.
+1. DAS OISP shall work with Agencies to identify solutions for delivering Basic Information Security and Privacy Awareness Training statewide.
+2. The DAS OISP training shall be reviewed annually and updated as necessary to ensure it remains current, addressing the latest security and privacy threats and best practices.
+3. Agencies shall ensure that all Organizational Users complete the DAS OISP Basic Information Security and Privacy Awareness Training. Organizational Users shall complete the Basic Information Security and Privacy Awareness Training within two weeks of onboarding, annually thereafter; and when required by role or system changes.
+4. Agencies shall determine if it is necessary to augment DAS OISP’s Basic Information Security and Privacy Awareness Training due to Agency specific requirements or any applicable laws, regulations, or industry codes that require some type of information security and privacy awareness training for the Information Systems to which personnel have authorized access. Examples of regulations or laws that require additional security training, include:
+a. Accessing Confidential Personal Information (CPI) (Section 1347.15 of the Ohio Revised Code)
+b. Family Educational Rights and Privacy Act (FERPA)
+c. IRS Publication 1075
+d. FBI Criminal Justice Information Services (CJIS) Security Policy
+e. Health Insurance Portability and Accountability Act (HIPAA)
+f. Payment Card Industry Data Security Standard (PCI-DSS)
+5. As appropriate, each Agency shall supplement the Basic Information Security and Privacy Awareness Training with tools that will help communicate local or programmatic information security issues, incidents, and procedures (e.g., “message of the day,” posters, special events, e-mail notices).
+
+B. Role-Based Security and Privacy Training (AT-3)
+In addition to Basic Information Security and Privacy Awareness Training, Agencies shall provide Role-Based Security and Privacy Training that focuses on the unique responsibilities for protecting state assets that are inherent in particular job functions. Certain roles may require more targeted training, such as business managers, senior executives, information owners, application developers, systems administrators, database administrators, and desktop support.
+1. Agencies shall identify the job functions that require additional role-based training and then determine the format, content, and frequency of the training. Listed below are a few examples of role-based training:
+a. Business managers and senior executives:
+i. The safeguarding and use of Personally Identifiable Information (PII).
+ii. Executive targeting threats such as social engineering and Spear Phishing.
+iii. Identification of suspicious messages and the importance of not opening suspicious e-mails or attachments.
+iv. Examples of prominent cyberattacks.
+b. Application developers, system administrators and database administrators:
+i. How to write secure code and use appropriate validation tools.
+ii. Proper security testing methods.
+iii. How to handle Confidential Data.
+c. Desktop and Infrastructure Support:
+i. System Hardening techniques.
+ii. How to recognize attacks.
+iii. Handling systems infected with Malware.
+2. DAS OISP shall help inform and support these efforts through a variety of channels, such as security communications (e.g., current threats, countermeasures, or training opportunities), best practices research and resources, security briefings or conferences.
+
+C. Information Security and Privacy Awareness and Training Management
+Agencies shall ensure that all Organizational Users meet the training requirements of this policy by identifying, monitoring and managing the overall IT security education effort. Agencies shall identify all individuals requiring Basic Information Security and Privacy Awareness Training and role-based training.
+
+D. Security Training Records (AT-4)
+Agencies shall maintain individual security training records in accordance with Agency record retention requirements, to ensure that Basic Information Security and Privacy Awareness Training and role-based training requirements are being fulfilled.
+
+E. Exception Process
+To request an exception to one or more of the requirements outlined in this policy, please complete an IT Security Exception Request form.
+1. The form is located within the IT Enterprise Services Portal under the "Services & Products" category.
+2. If you have any questions, please contact DAS OISP (refer to Section VII. Inquiries for contact information).
+
+IV. Definitions
+All defined terms are capitalized within the policy and the online glossary of definitions can be found at IT Policy Glossary - Department of Administrative Services.
+
+V. Authority
+ORC 125.18
+
+VI. Resources
+- NIST Special Publication 800-53, Security and Privacy Controls for Federal Information Systems and Organizations
+- Ohio IT Standard ITS-SEC-02, “Enterprise Security Controls Framework”
+- Center for Internet Security (CIS) Controls
+- Multi-State Information Sharing & Analysis Center (MS-ISAC) Resources
+
+VII. Inquiries
+
+Direct inquiries about this policy to:
+Office of Information Security & Privacy
+Office of Information Technology
+Ohio Department of Administrative Services
+30 East Broad Street, 19th Floor
+Columbus, Ohio 43215
+1-614-644-9391 | state.isp@das.ohio.gov
+State of Ohio Administrative Policies may be found online at
+Policy Finder - Department of Administrative Services
+
+VIII. Revision History
+This policy shall be reviewed no less than every two years and updated as needed.
+Date | Description of Change
+07/01/2015 | Original Policy.
+04/10/2018 | References to NIST SP 800-53 control families were added to the requirements, where appropriate. A definition of Sensitive Data was also added. The exception request section was removed and procedural guidance was added in its place. The implementation section was modified due to the time elapsed since the publication of the policy on 7/21/15.
+11/21/2018 | Updated the exception request language to align with the current procedure.
+07/22/2021 | Updated the policy template to reflect the DAS director change.
+02/10/2022 | Conducted maintenance review and made minor updates to align with current training approach, terminology, references, and policy template.
+09/05/2023 | Updated the policy template. Added revision history review frequency statement.
+04/29/2025 | Replaced the term sensitive data, or sensitive information, with confidential data.

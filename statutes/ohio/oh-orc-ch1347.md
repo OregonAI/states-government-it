@@ -1,0 +1,246 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: ohio
+id: oh-orc-ch1347
+title: Personal Information Systems
+doc_type: statute
+citation: R.C. ch. 1347
+authority_level: ''
+issuing_body: Ohio General Assembly; published by the Legislative Service Commission on Ohio Laws (codes.ohio.gov)
+source_url: https://codes.ohio.gov/ohio-revised-code/chapter-1347
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: 6504513b748238c820b1c4e0ddf7643e93d3d5de415d17066ca9dde7ac2776f1
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the page on codes.ohio.gov (Ohio Laws): the heading, then for each
+  section or rule its heading, the `Effective:` and `Latest Legislation:` (or `Promulgated Under:`) lines,
+  the paragraphs and the version history or supplemental information, one line per paragraph. The menus,
+  search form, breadcrumb, previous/next pager, the Download Authenticated PDF and View Version links
+  and the site''s ''Last updated'' note were removed. The page prints an effective date for each section
+  or rule, not for the document, so none is recorded for the document. Sections or rules marked repealed
+  or expired ride along as the page prints them.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- cybersecurity
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Personal Information Systems (R.C. ch. 1347)
+
+## At a glance
+
+How state and local agencies that keep personal information systems collect, use, secure and disclose personal information: definitions, the information owner, rules, interconnection of systems, rights of data subjects, wrongful disclosure, agency disclosure of a security breach of computerized personal information (1347.12) and access rules for confidential personal information (1347.15). The chapter also binds local agencies, which ride along; the page serves the whole chapter.
+
+## Full text
+
+Chapter 1347 | Personal Information Systems
+
+Section 1347.01 | Personal information systems definitions.
+Effective: September 29, 2015
+Latest Legislation: House Bill 141 - 131st General Assembly
+As used in this chapter, except as otherwise provided:
+(A) "State agency" means the office of any elected state officer and any agency, board, commission, department, division, or educational institution of the state.
+(B) "Local agency" means any municipal corporation, school district, special purpose district, or township of the state or any elected officer or board, bureau, commission, department, division, institution, or instrumentality of a county.
+(C) "Special purpose district" means any geographic or political jurisdiction that is created by statute to perform a limited and specific function, and includes, but is not limited to, library districts, conservancy districts, metropolitan housing authorities, park districts, port authorities, regional airport authorities, regional transit authorities, regional water and sewer districts, sanitary districts, soil and water conservation districts, and regional planning agencies.
+(D) "Maintains" means state or local agency ownership of, control over, responsibility for, or accountability for systems and includes, but is not limited to, state or local agency depositing of information with a data processing center for storage, processing, or dissemination. An agency "maintains" all systems of records that are required by law to be kept by the agency.
+(E) "Personal information" means any information that describes anything about a person, or that indicates actions done by or to a person, or that indicates that a person possesses certain personal characteristics, and that contains, and can be retrieved from a system by, a name, identifying number, symbol, or other identifier assigned to a person.
+(F) "System" means any collection or group of related records that are kept in an organized manner and that are maintained by a state or local agency, and from which personal information is retrieved by the name of the person or by some identifying number, symbol, or other identifier assigned to the person. "System" includes both records that are manually stored and records that are stored using electronic data processing equipment. "System" does not include collected archival records in the custody of or administered under the authority of the Ohio history connection, published directories, reference materials or newsletters, or routine information that is maintained for the purpose of internal office administration, the use of which would not adversely affect a person.
+(G) "Interconnection of systems" means a linking of systems that belong to more than one agency, or to an agency and other organizations, which linking of systems results in a system that permits each agency or organization involved in the linking to have unrestricted access to the systems of the other agencies and organizations.
+(H) "Combination of systems" means a unification of systems that belong to more than one agency, or to an agency and another organization, into a single system in which the records that belong to each agency or organization may or may not be obtainable by the others.
+
+Section 1347.04 | Exemptions from chapter.
+Effective: October 25, 1995
+Latest Legislation: Senate Bill 99 - 121st General Assembly
+(A)(1) Except as provided in division (A)(2) of this section or division (C)(2) of section 1347.08 of the Revised Code, the following are exempt from the provisions of this chapter:
+(a) Any state or local agency, or part of a state or local agency, that performs as its principal function any activity relating to the enforcement of the criminal laws, including police efforts to prevent, control, or reduce crime or to apprehend criminals;
+(b) The criminal courts;
+(c) Prosecutors;
+(d) Any state or local agency or part of any state or local agency that is a correction, probation, pardon, or parole authority;
+(e) Personal information systems that are comprised of investigatory material compiled for law enforcement purposes by agencies that are not described in divisions (A)(1)(a) and (d) of this section.
+(2) A part of a state or local agency that does not perform, as its principal function, an activity relating to the enforcement of the criminal laws is not exempt under this section.
+(B) The provisions of this chapter shall not be construed to prohibit the release of public records, or the disclosure of personal information in public records, as defined in section 149.43 of the Revised Code, or to authorize a public body to hold an executive session for the discussion of personal information if the executive session is not authorized under division (G) of section 121.22 of the Revised Code.
+The disclosure to members of the general public of personal information contained in a public record, as defined in section 149.43 of the Revised Code, is not an improper use of personal information under this chapter.
+(C) The provisions of this chapter shall not be construed to prohibit, and do not prohibit, compliance with any order issued pursuant to division (D)(1) of section 2151.14 of the Revised Code, any request for records that is properly made pursuant to division (D)(3)(a) of section 2151.14 or division (A) of section 2151.141 of the Revised Code, or any determination that is made by a court pursuant to division (D)(3)(b) of section 2151.14 or division (B)(1) of section 2151.141 of the Revised Code.
+
+Section 1347.05 | Duties of state and local agencies maintaining personal information systems.
+Effective: January 23, 1981
+Latest Legislation: House Bill 799 - 113th General Assembly
+Every state or local agency that maintains a personal information system shall:
+(A) Appoint one individual to be directly responsible for the system;
+(B) Adopt and implement rules that provide for the operation of the system in accordance with the provisions of this chapter that, in the case of state agencies, apply to state agencies or, in the case of local agencies, apply to local agencies;
+(C) Inform each of its employees who has any responsibility for the operation or maintenance of the system, or for the use of personal information maintained in the system, of the applicable provisions of this chapter and of all rules adopted in accordance with this section;
+(D) Specify disciplinary measures to be applied to any employee who initiates or otherwise contributes to any disciplinary or other punitive action against any individual who brings to the attention of appropriate authorities, the press, or any member of the public, evidence of unauthorized use of information contained in the system;
+(E) Inform a person who is asked to supply personal information for a system whether the person is legally required to, or may refuse to, supply the information;
+(F) Develop procedures for purposes of monitoring the accuracy, relevance, timeliness, and completeness of the personal information in this system, and, in accordance with the procedures, maintain the personal information in the system with the accuracy, relevance, timeliness, and completeness that is necessary to assure fairness in any determination made with respect to a person on the basis of the information;
+(G) Take reasonable precautions to protect personal information in the system from unauthorized modification, destruction, use, or disclosure;
+(H) Collect, maintain, and use only personal information that is necessary and relevant to the functions that the agency is required or authorized to perform by statute, ordinance, code, or rule, and eliminate personal information from the system when it is no longer necessary and relevant to those functions.
+
+Section 1347.06 | Administrative rules.
+Effective: January 23, 1981
+Latest Legislation: House Bill 799 - 113th General Assembly
+The director of administrative services shall adopt, amend, and rescind rules pursuant to Chapter 119. of the Revised Code for the purposes of administering and enforcing the provisions of this chapter that pertain to state agencies.
+A state or local agency that, or an officer or employee of a state or local agency who, complies in good faith with a rule applicable to the agency is not subject to criminal prosecution or civil liability under this chapter.
+
+Section 1347.07 | Using personal information.
+Effective: January 23, 1981
+Latest Legislation: House Bill 799 - 113th General Assembly
+A state or local agency shall only use the personal information in a personal information system in a manner that is consistent with the purposes of the system.
+
+Section 1347.071 | Placing or using information in interconnected or combined systems.
+Effective: January 23, 1981
+Latest Legislation: House Bill 799 - 113th General Assembly
+(A) No state or local agency shall place personal information in an interconnected or combined system, or use personal information that is placed in an interconnected or combined system by another state or local agency or another organization, unless the interconnected or combined system will contribute to the efficiency of the involved agencies in implementing programs that are authorized by law.
+(B) No state or local agency shall use personal information that is placed in an interconnected or combined system by another state or local agency or another organization, unless the personal information is necessary and relevant to the performance of a lawful function of the agency.
+(C) When a state or local agency requests a person to supply personal information that will be placed in an interconnected or combined system, the agency shall provide the person with information relevant to the system, including the identity of the other agencies or organizations that have access to the information in the system.
+
+Section 1347.08 | Rights of persons who are subject of personal information.
+Effective: September 30, 2025
+Latest Legislation: House Bill 96 - 136th General Assembly
+(A) Every state or local agency that maintains a personal information system, upon the request and the proper identification of any person who is the subject of personal information in the system, shall:
+(1) Inform the person of the existence of any personal information in the system of which the person is the subject;
+(2) Except as provided in divisions (C) and (E)(2) of this section, permit the person, the person's legal guardian, or an attorney who presents a signed written authorization made by the person, to inspect all personal information in the system of which the person is the subject;
+(3) Inform the person about the types of uses made of the personal information, including the identity of any users usually granted access to the system.
+(B) Any person who wishes to exercise a right provided by this section may be accompanied by another individual of the person's choice.
+(C)(1) A state or local agency, upon request, shall disclose medical, psychiatric, or psychological information to a person who is the subject of the information or to the person's legal guardian, unless one of the following determines for the agency that the disclosure of the information is likely to have an adverse effect on the person: a physician, including such a person who specializes as a psychiatrist; an advanced practice registered nurse, including such a person who specializes as a psychiatric-mental health nurse practitioner or psychiatric clinical nurse specialist; or a psychologist. If such a determination is made, the information shall be released to one of the following who is designated by the person or by the person's legal guardian: a physician, including such a person who specializes as a psychiatrist; an advanced practice registered nurse, including such a person who specializes as a psychiatric-mental health nurse practitioner or psychiatric clinical nurse specialist; or a psychologist.
+(2) Upon the signed written request of a licensed attorney at law, a licensed physician, or an advanced practice registered nurse designated by the inmate, together with the signed written request of an inmate of a correctional institution under the administration of the department of rehabilitation and correction, the department shall disclose medical information to the designated attorney, physician, or advanced practice registered nurse as provided in division (C) of section 5120.21 of the Revised Code.
+(D) If an individual who is authorized to inspect personal information that is maintained in a personal information system requests the state or local agency that maintains the system to provide a copy of any personal information that the individual is authorized to inspect, the agency shall provide a copy of the personal information to the individual. Each state and local agency may establish reasonable fees for the service of copying, upon request, personal information that is maintained by the agency.
+(E)(1) This section regulates access to personal information that is maintained in a personal information system by persons who are the subject of the information, but does not limit the authority of any person, including a person who is the subject of personal information maintained in a personal information system, to inspect or have copied, pursuant to section 149.43 of the Revised Code, a public record as defined in that section.
+(2) This section does not provide a person who is the subject of personal information maintained in a personal information system, the person's legal guardian, or an attorney authorized by the person, with a right to inspect or have copied, or require an agency that maintains a personal information system to permit the inspection of or to copy, a confidential law enforcement investigatory record or trial preparation record, as defined in divisions (A)(2) and (4) of section 149.43 of the Revised Code.
+(F) This section does not apply to any of the following:
+(1) The contents of an adoption file maintained by the department of health under sections 3705.12 to 3705.124 of the Revised Code;
+(2) Information contained in the putative father registry established by section 3107.062 of the Revised Code, regardless of whether the information is held by the department of children and youth or, pursuant to section 3111.69 of the Revised Code, the office of child support in the department of job and family services or a child support enforcement agency;
+(3) Papers, records, and books that pertain to an adoption and that are subject to inspection in accordance with section 3107.17 of the Revised Code;
+(4) Records specified in division (A) of section 3107.52 of the Revised Code;
+(5) Records that identify an individual described in division (A)(1) of section 3721.031 of the Revised Code, or that would tend to identify such an individual;
+(6) Files and records that have been expunged under division (D)(1) or (2) of section 3721.23 of the Revised Code;
+(7) Records that identify an individual described in division (A)(1) of section 3721.25 of the Revised Code, or that would tend to identify such an individual;
+(8) Records that identify an individual described in division (A)(1) of section 5165.88 of the Revised Code, or that would tend to identify such an individual;
+(9) Test materials, examinations, or evaluation tools used in an examination for licensure as a nursing home administrator that the board of executives of long-term services and supports administers under section 4751.15 of the Revised Code or contracts under that section with a private or government entity to administer;
+(10) Information contained in a database established and maintained pursuant to section 5180.40 of the Revised Code;
+(11) Information contained in a database established and maintained pursuant to section 5101.631 of the Revised Code.
+
+Section 1347.09 | Disputing information.
+Effective: January 23, 1981
+Latest Legislation: House Bill 799 - 113th General Assembly
+(A)(1) If any person disputes the accuracy, relevance, timeliness, or completeness of personal information that pertains to him and that is maintained by any state or local agency in a personal information system, he may request the agency to investigate the current status of the information. The agency shall, within a reasonable time after, but not later than ninety days after, receiving the request from the disputant, make a reasonable investigation to determine whether the disputed information is accurate, relevant, timely, and complete, and shall notify the disputant of the results of the investigation and of the action that the agency plans to take with respect to the disputed information. The agency shall delete any information that it cannot verify or that it finds to be inaccurate.
+(2) If after an agency's determination, the disputant is not satisfied, the agency shall do either of the following:
+(a) Permit the disputant to include within the system a brief statement of his position on the disputed information. The agency may limit the statement to not more than one hundred words if the agency assists the disputant to write a clear summary of the dispute.
+(b) Permit the disputant to include within the system a notation that the disputant protests that the information is inaccurate, irrelevant, outdated, or incomplete. The agency shall maintain a copy of the disputant's statement of the dispute. The agency may limit the statement to not more than one hundred words if the agency assists the disputant to write a clear summary of the dispute.
+(3) The agency shall include the statement or notation in any subsequent transfer, report, or dissemination of the disputed information and may include with the statement or notation of the disputant a statement by the agency that it has reasonable grounds to believe that the dispute is frivolous or irrelevant, and of the reasons for its belief.
+(B) The presence of contradictory information in the disputant's file does not alone constitute reasonable grounds to believe that the dispute is frivolous or irrelevant.
+(C) Following any deletion of information that is found to be inaccurate or the accuracy of which can no longer be verified, or if a statement of dispute was filed by the disputant, the agency shall, at the written request of the disputant, furnish notification that the information has been deleted, or furnish a copy of the disputant's statement of the dispute, to any person specifically designated by the person. The agency shall clearly and conspicuously disclose to the disputant that he has the right to make such a request to the agency.
+
+Section 1347.10 | Wrongful disclosure.
+Effective: January 23, 1981
+Latest Legislation: House Bill 799 - 113th General Assembly
+(A) A person who is harmed by the use of personal information that relates to him and that is maintained in a personal information system may recover damages in a civil action from any person who directly and proximately caused the harm by doing any of the following:
+(1) Intentionally maintaining personal information that he knows, or has reason to know, is inaccurate, irrelevant, no longer timely, or incomplete and may result in such harm;
+(2) Intentionally using or disclosing the personal information in a manner prohibited by law;
+(3) Intentionally supplying personal information for storage in, or using or disclosing personal information maintained in, a personal information system, that he knows, or has reason to know, is false;
+(4) Intentionally denying to the person the right to inspect and dispute the personal information at a time when inspection or correction might have prevented the harm.
+An action under this division shall be brought within two years after the cause of action accrued or within six months after the wrongdoing is discovered, whichever is later; provided that no action shall be brought later than six years after the cause of action accrued. The cause of action accrues at the time that the wrongdoing occurs.
+(B) Any person who, or any state or local agency that, violates or proposes to violate any provision of this chapter may be enjoined by any court of competent jurisdiction. The court may issue an order or enter a judgment that is necessary to ensure compliance with the applicable provisions of this chapter or to prevent the use of any practice that violates this chapter. An action for an injunction may be prosecuted by the person who is the subject of the violation, by the attorney general, or by any prosecuting attorney.
+
+Section 1347.12 | Agency disclosure of security breach of computerized personal information data.
+Effective: September 29, 2015
+Latest Legislation: House Bill 141 - 131st General Assembly
+(A) As used in this section:
+(1) "Agency of a political subdivision" means each organized body, office, or agency established by a political subdivision for the exercise of any function of the political subdivision, except that "agency of a political subdivision" does not include an agency that is a covered entity as defined in 45 C.F.R. 160.103, as amended.
+(2)(a) "Breach of the security of the system" means unauthorized access to and acquisition of computerized data that compromises the security or confidentiality of personal information owned or licensed by a state agency or an agency of a political subdivision and that causes, reasonably is believed to have caused, or reasonably is believed will cause a material risk of identity theft or other fraud to the person or property of a resident of this state.
+(b) For purposes of division (A)(2)(a) of this section:
+(i) Good faith acquisition of personal information by an employee or agent of the state agency or agency of the political subdivision for the purposes of the agency is not a breach of the security of the system, provided that the personal information is not used for an unlawful purpose or subject to further unauthorized disclosure.
+(ii) Acquisition of personal information pursuant to a search warrant, subpoena, or other court order, or pursuant to a subpoena, order, or duty of a regulatory state agency, is not a breach of the security of the system.
+(3) "Consumer reporting agency that compiles and maintains files on consumers on a nationwide basis" means a consumer reporting agency that regularly engages in the practice of assembling or evaluating, and maintaining, for the purpose of furnishing consumer reports to third parties bearing on a consumer's creditworthiness, credit standing, or credit capacity, each of the following regarding consumers residing nationwide:
+(a) Public record information;
+(b) Credit account information from persons who furnish that information regularly and in the ordinary course of business.
+(4) "Encryption" means the use of an algorithmic process to transform data into a form in which there is a low probability of assigning meaning without use of a confidential process or key.
+(5) "Individual" means a natural person.
+(6)(a) "Personal information" means, notwithstanding section 1347.01 of the Revised Code, an individual's name, consisting of the individual's first name or first initial and last name, in combination with and linked to any one or more of the following data elements, when the data elements are not encrypted, redacted, or altered by any method or technology in such a manner that the data elements are unreadable:
+(i) Social security number;
+(ii) Driver's license number or state identification card number;
+(iii) Account number or credit or debit card number, in combination with and linked to any required security code, access code, or password that would permit access to an individual's financial account.
+(b) "Personal information" does not include publicly available information that is lawfully made available to the general public from federal, state, or local government records or any of the following media that are widely distributed:
+(i) Any news, editorial, or advertising statement published in any bona fide newspaper, journal, or magazine, or broadcast over radio or television;
+(ii) Any gathering or furnishing of information or news by any bona fide reporter, correspondent, or news bureau to news media described in division (A)(6)(b)(i) of this section;
+(iii) Any publication designed for and distributed to members of any bona fide association or charitable or fraternal nonprofit corporation;
+(iv) Any type of media similar in nature to any item, entity, or activity identified in division (A)(6)(b)(i), (ii), or (iii) of this section.
+(7) "Political subdivision" has the same meaning as in section 2744.01 of the Revised Code.
+(8) "Record" means any information that is stored in an electronic medium and is retrievable in perceivable form. "Record" does not include any publicly available directory containing information an individual voluntarily has consented to have publicly disseminated or listed, such as name, address, or telephone number.
+(9) "Redacted" means altered or truncated so that no more than the last four digits of a social security number, driver's license number, state identification card number, account number, or credit or debit card number is accessible as part of the data.
+(10) "State agency" has the same meaning as in section 1.60 of the Revised Code, except that "state agency" does not include an agency that is a covered entity as defined in 45 C.F.R. 160.103, as amended.
+(11) "System" means, notwithstanding section 1347.01 of the Revised Code, any collection or group of related records that are kept in an organized manner, that are maintained by a state agency or an agency of a political subdivision, and from which personal information is retrieved by the name of the individual or by some identifying number, symbol, or other identifier assigned to the individual. "System" does not include any collected archival records in the custody of or administered under the authority of the Ohio history connection, any published directory, any reference material or newsletter, or any routine information that is maintained for the purpose of internal office administration of the agency, if the use of the directory, material, newsletter, or information would not adversely affect an individual and if there has been no unauthorized external breach of the directory, material, newsletter, or information.
+(B)(1) Any state agency or agency of a political subdivision that owns or licenses computerized data that includes personal information shall disclose any breach of the security of the system, following its discovery or notification of the breach of the security of the system, to any resident of this state whose personal information was, or reasonably is believed to have been, accessed and acquired by an unauthorized person if the access and acquisition by the unauthorized person causes or reasonably is believed will cause a material risk of identity theft or other fraud to the resident. The disclosure described in this division may be made pursuant to any provision of a contract entered into by the state agency or agency of a political subdivision with any person or another state agency or agency of a political subdivision prior to the date the breach of the security of the system occurred if that contract does not conflict with any provision of this section. For purposes of this section, a resident of this state is an individual whose principal mailing address as reflected in the records of the state agency or agency of a political subdivision is in this state.
+(2) The state agency or agency of a political subdivision shall make the disclosure described in division (B)(1) of this section in the most expedient time possible but not later than forty-five days following its discovery or notification of the breach in the security of the system, subject to the legitimate needs of law enforcement activities described in division (D) of this section and consistent with any measures necessary to determine the scope of the breach, including which residents' personal information was accessed and acquired, and to restore the reasonable integrity of the data system.
+(C) Any state agency or agency of a political subdivision that, on behalf of or at the direction of another state agency or agency of a political subdivision, is the custodian of or stores computerized data that includes personal information shall notify that other state agency or agency of a political subdivision of any breach of the security of the system in an expeditious manner, if the personal information was, or reasonably is believed to have been, accessed and acquired by an unauthorized person and if the access and acquisition by the unauthorized person causes or reasonably is believed will cause a material risk of identity theft or other fraud to a resident of this state.
+(D) The state agency or agency of a political subdivision may delay the disclosure or notification required by division (B), (C), or (F) of this section if a law enforcement agency determines that the disclosure or notification will impede a criminal investigation or jeopardize homeland or national security, in which case, the state agency or agency of a political subdivision shall make the disclosure or notification after the law enforcement agency determines that disclosure or notification will not compromise the investigation or jeopardize homeland or national security.
+(E) For purposes of this section, a state agency or agency of a political subdivision may disclose or make a notification by any of the following methods:
+(1) Written notice;
+(2) Electronic notice, if the state agency's or agency of a political subdivision's primary method of communication with the resident to whom the disclosure must be made is by electronic means;
+(3) Telephone notice;
+(4) Substitute notice in accordance with this division, if the state agency or agency of a political subdivision required to disclose demonstrates that the agency does not have sufficient contact information to provide notice in a manner described in division (E)(1), (2), or (3) of this section, or that the cost of providing disclosure or notice to residents to whom disclosure or notification is required would exceed two hundred fifty thousand dollars, or that the affected class of subject residents to whom disclosure or notification is required exceeds five hundred thousand persons. Substitute notice under this division shall consist of all of the following:
+(a) Electronic mail notice if the state agency or agency of a political subdivision has an electronic mail address for the resident to whom the disclosure must be made;
+(b) Conspicuous posting of the disclosure or notice on the state agency's or agency of a political subdivision's web site, if the agency maintains one;
+(c) Notification to major media outlets, to the extent that the cumulative total of the readership, viewing audience, or listening audience of all of the outlets so notified equals or exceeds seventy-five per cent of the population of this state.
+(5) Substitute notice in accordance with this division, if the state agency or agency of a political subdivision required to disclose demonstrates that the agency has ten employees or fewer and that the cost of providing the disclosures or notices to residents to whom disclosure or notification is required will exceed ten thousand dollars. Substitute notice under this division shall consist of all of the following:
+(a) Notification by a paid advertisement in a local newspaper that is distributed in the geographic area in which the state agency or agency of a political subdivision is located, which advertisement shall be of sufficient size that it covers at least one-quarter of a page in the newspaper and shall be published in the newspaper at least once a week for three consecutive weeks;
+(b) Conspicuous posting of the disclosure or notice on the state agency's or agency of a political subdivision's web site, if the agency maintains one;
+(c) Notification to major media outlets in the geographic area in which the state agency or agency of a political subdivision is located.
+(F) If a state agency or agency of a political subdivision discovers circumstances that require disclosure under this section to more than one thousand residents of this state involved in a single occurrence of a breach of the security of the system, the state agency or agency of a political subdivision shall notify, without unreasonable delay, all consumer reporting agencies that compile and maintain files on consumers on a nationwide basis of the timing, distribution, and content of the disclosure given by the state agency or agency of a political subdivision to the residents of this state. In no case shall a state agency or agency of a political subdivision that is required to make a notification required by this division delay any disclosure or notification required by division (B) or (C) of this section in order to make the notification required by this division.
+(G) The attorney general, pursuant to sections 1349.191 and 1349.192 of the Revised Code, may conduct an investigation and bring a civil action upon an alleged failure by a state agency or agency of a political subdivision to comply with the requirements of this section.
+
+Section 1347.15 | Access rules for confidential personal information.
+Effective: April 7, 2009
+Latest Legislation: House Bill 648 - 127th General Assembly
+(A) As used in this section:
+(1) "Confidential personal information" means personal information that is not a public record for purposes of section 149.43 of the Revised Code.
+(2) "State agency" does not include the courts or any judicial agency, any state-assisted institution of higher education, or any local agency.
+(B) Each state agency shall adopt rules under Chapter 119. of the Revised Code regulating access to the confidential personal information the agency keeps, whether electronically or on paper. The rules shall include all the following:
+(1) Criteria for determining which employees of the state agency may access, and which supervisory employees of the state agency may authorize those employees to access, confidential personal information;
+(2) A list of the valid reasons, directly related to the state agency's exercise of its powers or duties, for which only employees of the state agency may access confidential personal information;
+(3) References to the applicable federal or state statutes or administrative rules that make the confidential personal information confidential;
+(4) A procedure that requires the state agency to do all of the following:
+(a) Provide that any upgrades to an existing computer system, or the acquisition of any new computer system, that stores, manages, or contains confidential personal information include a mechanism for recording specific access by employees of the state agency to confidential personal information;
+(b) Until an upgrade or new acquisition of the type described in division (B)(4)(a) of this section occurs, except as otherwise provided in division (C)(1) of this section, keep a log that records specific access by employees of the state agency to confidential personal information;
+(5) A procedure that requires the state agency to comply with a written request from an individual for a list of confidential personal information about the individual that the state agency keeps, unless the confidential personal information relates to an investigation about the individual based upon specific statutory authority by the state agency;
+(6) A procedure that requires the state agency to notify each person whose confidential personal information has been accessed for an invalid reason by employees of the state agency of that specific access;
+(7) A requirement that the director of the state agency designate an employee of the state agency to serve as the data privacy point of contact within the state agency to work with the chief privacy officer within the office of information technology to ensure that confidential personal information is properly protected and that the state agency complies with this section and rules adopted thereunder;
+(8) A requirement that the data privacy point of contact for the state agency complete a privacy impact assessment form; and
+(9) A requirement that a password or other authentication measure be used to access confidential personal information that is kept electronically.
+(C)(1) A procedure adopted pursuant to division (B)(4) of this section shall not require a state agency to record in the log it keeps under division (B)(4)(b) of this section any specific access by any employee of the agency to confidential personal information in any of the following circumstances:
+(a) The access occurs as a result of research performed for official agency purposes, routine office procedures, or incidental contact with the information, unless the conduct resulting in the access is specifically directed toward a specifically named individual or a group of specifially named individuals.
+(b) The access is to confidential personal information about an individual, and the access occurs as a result of a request by that individual for confidential personal information about that individual.
+(2) Each state agency shall establish a training program for all employees of the state agency described in division (B)(1) of this section so that these employees are made aware of all applicable statutes, rules, and policies governing their access to confidential personal information.
+The office of information technology shall develop the privacy impact assessment form and post the form on its internet web site by the first day of December each year. The form shall assist each state agency in complying with the rules it adopted under this section, in assessing the risks and effects of collecting, maintaining, and disseminating confidential personal information, and in adopting privacy protection processes designed to mitigate potential risks to privacy.
+(D) Each state agency shall distribute the policies included in the rules adopted under division (B) of this section to each employee of the agency described in division (B)(1) of this section and shall require that the employee acknowledge receipt of the copy of the policies. The state agency shall create a poster that describes these policies and post it in a conspicuous place in the main office of the state agency and in all locations where the state agency has branch offices. The state agency shall post the policies on the internet web site of the agency if it maintains such an internet web site. A state agency that has established a manual or handbook of its general policies and procedures shall include these policies in the manual or handbook.
+(E) No collective bargaining agreement entered into under Chapter 4117. of the Revised Code on or after the effective date of this section shall prohibit disciplinary action against or termination of an employee of a state agency who is found to have accessed, disclosed, or used personal confidential information in violation of a rule adopted under division (B) of this section or as otherwise prohibited by law.
+(F) The auditor of state shall obtain evidence that state agencies adopted the required procedures and policies in a rule under division (B) of this section, shall obtain evidence supporting whether the state agency is complying with those policies and procedures, and may include citations or recommendations relating to this section in any audit report issued under section 117.11 of the Revised Code.
+(G) A person who is harmed by a violation of a rule of a state agency described in division (B) of this section may bring an action in the court of claims, as described in division (F) of section 2743.02 of the Revised Code, against any person who directly and proximately caused the harm.
+(H)(1) No person shall knowingly access confidential personal information in violation of a rule of a state agency described in division (B) of this section.
+(2) No person shall knowingly use or disclose confidential personal information in a manner prohibited by law.
+(3) No state agency shall employ a person who has been convicted of or pleaded guilty to a violation of division (H)(1) or (2) of this section.
+(4) A violation of division (H)(1) or (2) of this section is a violation of a state statute for purposes of division (A) of section 124.341 of the Revised Code.
+
+Section 1347.99 | Penalty.
+Effective: April 7, 2009
+Latest Legislation: House Bill 648 - 127th General Assembly
+(A) No public official, public employee, or other person who maintains, or is employed by a person who maintains, a personal information system for a state or local agency shall purposely refuse to comply with division (E), (F), (G), or (H) of section 1347.05, section 1347.071, division (A), (B), or (C) of section 1347.08, or division (A) or (C) of section 1347.09 of the Revised Code. Whoever violates this section is guilty of a minor misdemeanor.
+(B) Whoever violates division (H)(1) or (2) of section 1347.15 of the Revised Code is guilty of a misdemeanor of the first degree.
+
+## Curator notes
+
+Text taken from the page on codes.ohio.gov (Ohio Laws): the heading, then for each section or rule its heading, the `Effective:` and `Latest Legislation:` (or `Promulgated Under:`) lines, the paragraphs and the version history or supplemental information, one line per paragraph. The menus, search form, breadcrumb, previous/next pager, the Download Authenticated PDF and View Version links and the site's 'Last updated' note were removed. The page prints an effective date for each section or rule, not for the document, so none is recorded for the document. Sections or rules marked repealed or expired ride along as the page prints them.

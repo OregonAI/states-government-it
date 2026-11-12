@@ -1,0 +1,41 @@
+State of Ohio Artificial Intelligence (AI)
+           Council Charter
+GENERATIVE AI GOVERNING BODY
+AI Council - January 2024
+
+I. PURPOSE
+
+The multi-agency Artificial Intelligence (AI) Council will provide statewide oversight for the
+use of Generative AI solutions. In addition, the council will implement the state’s
+governance framework for Generative AI solutions and serve in an advisory capacity to
+the Governor’s Office, the DAS Director, and the State CIO.
+
+II. SCOPE AND OBJECTIVES
+
+Scope: The AI Council will facilitate Generative AI solution development efforts within the
+State of Ohio. The multi-agency council will work towards innovation and collaboration while
+ensuring responsible implementation and continuous monitoring of the solutions in
+production.
+Objectives: The AI Council has the following objectives:
+  1. Ensure the State of Ohio is a leader in responsible and accountable Generative AI.
+  2. Guide state agencies in the ethical, transparent, and unbiased use of AI solutions.
+
+III. WORK PRODUCTS
+
+AI Council work products include the following:
+      1. Examining the social, economic, and legal impacts of AI adoption on the
+         workforce, Ohioans, and business operations.
+      2. Defining the legal requirements for the use of third-party AI services, contracts,
+         licenses, agreements, and specific AI solution use cases.
+      3. Establishing the framework for evaluating and authorizing the use of AI
+         technology (e.g., architecture frameworks, software, infrastructure, and relevant
+         tools).
+      4. Directing the establishment of and the ongoing use of a statewide sandbox
+         environment to safely explore the use of Generative AI to enhance the experience
+         of the workforce and Ohioans.
+      5. Developing and maintaining a statewide central repository that captures approved
+         Generative AI use cases.
+      6. Documenting protocols and procedures for assessing and handling inquiries or
+         incidents regarding AI system anomalies.
+      7. Auditing AI current and future solutions to ensure alignment with statewide policy
+         requirements.
