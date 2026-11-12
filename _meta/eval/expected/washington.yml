@@ -1,0 +1,346 @@
+jurisdiction: washington
+questions:
+- number: 1
+  expected:
+  - id: wa-rcw-43-105
+    quote: The agency shall be headed by a director, who is the state chief information officer. The director
+      shall be appointed by the governor with the consent of the senate.
+    where: RCW 43.105.025(1)
+- number: 2
+  expected:
+  - id: wa-rcw-43-105
+    quote: state agencies shall locate all existing and new information or telecommunications investments
+      in the state data center or within third-party, commercial cloud computing services.
+    where: RCW 43.105.375(1)
+  - id: wa-rcw-43-105
+    quote: all state agencies are moving towards using the agency as their central service provider for
+      all utility-based infrastructure services, including centralized PC and infrastructure support.
+      State agency-specific application services shall remain managed within individual agencies.
+    where: RCW 43.105.385(1)
+  - id: wa-ea-310
+    quote: Agencies must use the state’s cloud-based, centrally managed shared email service provisioned
+      within the state’s designated Microsoft 365 (M365) Enterprise Shared Tenant.
+    where: Policy Statement 1
+  - id: wa-ea-02
+    quote: An enterprise service is a service that all state government agencies with a certain business
+      need or process are required to use. Agencies must not adopt a similar service unless they have
+      an approved waiver.
+    where: Item 1
+  - id: wa-rcw-43-105
+    quote: If a substantially similar product or service is offered by the agency, the director may require
+      the state agency to procure the product or service through the agency, if doing so would benefit
+      the state as an enterprise.
+    where: RCW 43.105.255(4)
+- number: 3
+  expected:
+  - id: wa-rcw-43-105
+    quote: The director shall appoint a state chief information security officer, who is the director
+      of the office of cybersecurity.
+    where: RCW 43.105.450(2)
+  - id: wa-sec-01
+    quote: WaTech's Office of Cybersecurity (OCS) is responsible for interpreting policies and standards
+      within the security chapter of the Washington State IT Policies.
+    where: Item 5.d
+- number: 4
+  expected:
+  - id: wa-rcw-43-105
+    quote: The director shall appoint a state chief information security officer, who is the director
+      of the office of cybersecurity.
+    where: RCW 43.105.450(2)
+- number: 5
+  expected:
+  - id: wa-rcw-43-105
+    quote: Each state agency, institution of higher education, the legislature, and the judiciary must
+      develop an information technology security program consistent with the office of cybersecurity's
+      standards and policies.
+    where: RCW 43.105.450(6)
+  - id: wa-sec-01
+    quote: The IT security policies and standards in this chapter apply to the executive branch agencies
+      of the state of Washington, as well as agencies headed by separately elected officials
+    where: Item 3
+  - id: wa-rcw-39-26-340
+    quote: Before an agency shares with a contractor category 3 or higher data, as defined in policy established
+      in accordance with RCW 43.105.054, a written data-sharing agreement must be in place.
+    where: RCW 39.26.340(1)
+  - id: wa-rcw-42-56-590
+    quote: Any agency that owns or licenses data that includes personal information shall disclose any
+      breach of the security of the system to any resident of this state
+    where: RCW 42.56.590(1)
+  - id: wa-rcw-39-34-240
+    quote: If a public agency is requesting from another public agency category 3 or higher data, as defined
+      in policy established in accordance with RCW 43.105.054, the requesting agency shall provide for
+      a written agreement
+    where: RCW 39.34.240(1)
+  - id: wa-sec-01
+    quote: The IT security policies and standards in this chapter apply to any entity using WaTech services
+      in relation to the provided service(s).
+    where: Item 4
+- number: 6
+  expected:
+  - id: wa-sec-03
+    quote: 'Information security training must be completed: i. As part of onboarding for new users within
+      30 days of their start date. ii. At least annually.'
+    where: Item 1.a
+  - id: wa-sec-10
+    quote: Agencies must establish, maintain, document, and distribute an agency-level incident response
+      plan (AIRP) that aligns with the EIRP.
+    where: Item 3
+  - id: wa-sec-11-01-s
+    quote: At least once every three years for all agency-controlled information systems that store, process,
+      or transmit category 3 or category 4 data.
+    where: Item 1.c
+  - id: wa-rcw-43-105
+    quote: Each state agency must review and update its program annually, certify to the office of cybersecurity
+      that its program is in compliance with the office of cybersecurity's security standards and policies
+    where: RCW 43.105.450(7)(a)
+  - id: wa-rcw-43-105
+    quote: state agencies must report that incident to the office of cybersecurity within 24 hours of
+      discovery of the incident.
+    where: RCW 43.105.470(1)
+  - id: wa-rcw-43-105
+    quote: The office of cybersecurity shall require a state agency to obtain an independent compliance
+      audit of its information technology security program and controls at least once every three years
+    where: RCW 43.105.450(7)(b)
+- number: 7
+  expected:
+  - id: wa-rcw-43-105
+    quote: state agencies shall locate all existing and new information or telecommunications investments
+      in the state data center or within third-party, commercial cloud computing services.
+    where: RCW 43.105.375(1)
+  - id: wa-sec-02
+    quote: 'A WaTech SDR is required when: i. A new agency IT implementation includes at least one of
+      the following conditions: A. Agency-managed Cloud services – SaaS, PaaS, and IaaS.'
+    where: Item 4.a
+  - id: wa-sec-11-01-s
+    quote: Prior to the acquisition of an information system, cloud service, or managed service which
+      will store, process, or transmit category 3 or category 4 data.
+    where: Item 1.a
+  - id: wa-rcw-43-105
+    quote: Prior to making a commitment to purchase, acquire, or develop a major information technology
+      project or service, state agencies must provide a proposal to the agency outlining the business
+      case
+    where: RCW 43.105.255(1)
+- number: 8
+  expected:
+  - id: wa-rcw-43-105
+    quote: All receipts from agency fees and charges for services collected from public agencies must
+      be deposited into the account.
+    where: RCW 43.105.342(1)
+  - id: wa-rcw-43-105
+    quote: Establish rates and fees for services provided by the agency;
+    where: RCW 43.105.052(1)(b)
+  - id: wa-rcw-43-105
+    quote: The rate plan and any adjustments to rates must be approved by the office of financial management;
+    where: RCW 43.105.052(1)(c)
+  - id: wa-rcw-43-105
+    quote: Expenditures for the strategic planning and policy component of the agency are subject to appropriation.
+    where: RCW 43.105.342(4)
+- number: 9
+  expected:
+  - id: wa-pm-01
+    quote: 'for every IT investment with: a. Total cost that includes a combined level of effort of more
+      than $500,000 OR, b. Duration longer than 6 months.'
+    where: Item 2
+- number: 10
+  expected:
+  - id: wa-data-04
+    quote: Agencies must identify and document AI-enabled technology. The annual certification process
+      for the agency application inventory must identify applications which use artificial intelligence
+      and specify applications that use Generative AI.
+    where: Item 3
+  - id: wa-watech-ads-procurement-guidance
+    quote: Agency staff should complete and update its ADS inventory to maintain a comprehensive record
+      of ADS used throughout the state.
+    where: Actions or controls to take for activities
+  - id: wa-mgmt-01
+    quote: 'Each agency must establish processes to collect the foundational set of portfolio inventory
+      elements and update this information on at least an annual basis:'
+    where: Policy Statement 2
+- number: 11
+  expected:
+  - id: wa-data-04
+    quote: Agencies must conduct an Artificial Intelligence Risk Assessment prior to implementing a High-Risk
+      AI System to identify specific risks and determine and document the controls that will be used to
+      measure and manage those risks.
+    where: Item 6.b
+  - id: wa-eo-24-01
+    quote: WaTech will produce guidance on the risk assessments for the deployment of High-Risk Generative
+      AI Systems. Assessments must leverage existing security and privacy assessment processes
+    where: Section 8
+  - id: wa-watech-ai-risk-assessments
+    quote: Whenever an AI system is identified as high-risk, a complete AI risk assessment should be completed
+      prior to implementation.
+    where: How should high-risk systems be assessed?
+  - id: wa-eo-24-01
+    quote: guidelines for agencies to analyze the impact that adopting generative AI technology may have
+      on vulnerable communities, including criteria to evaluate equitable outcomes in deployment and implementation
+      of high-risk use cases.
+    where: Section 5
+  - id: wa-watech-genai-procurement-guidelines
+    quote: Before acquiring, creating, or employing a Gen AI technology, the government organization must
+      conduct an evaluation of the rationale behind adopting such systems, identify business needs, and
+      the associated risks related to their design and deployment.
+    where: Evaluation of whether to adopt a system
+  stub_would_answer:
+  - wa-watech-genai-interim-guidelines
+- number: 12
+  expected:
+  - id: wa-data-04
+    quote: 'Artificial Intelligence (AI): The use of machine learning and related technologies that use
+      data to train statistical models for the purpose of enabling computer systems to perform tasks normally
+      associated with human intelligence or perception'
+    where: Definitions
+  - id: wa-eo-24-01
+    quote: “Generative AI Technology” is a technology that can create content, including text, images,
+      audio, or video, when prompted by a user.
+    where: Section 1.a
+  - id: wa-watech-ai-risk-level-guidance
+    quote: A high-risk AI system is a system using AI technology that creates a high risk to natural persons’
+      health, safety or fundamental rights.
+    where: What is a high-risk AI system?
+  - id: wa-watech-ads-procurement-guidance
+    quote: “Automated decision system” means any algorithm, including one incorporating machine learning
+      or other artificial intelligence techniques, that uses data-based analysis or calculations to make
+      or support government decisions, judgements, or conclusions
+    where: Definition of ADS
+- number: 13
+  expected:
+  - id: wa-data-04
+    quote: Agencies must designate an AI Contact. a. The designated contact serves as the primary point
+      of contact on AI-related matters.
+    where: Item 2
+  - id: wa-watech-ai-risk-assessments
+    quote: Through the AI Community of Practice and its subcommittees WaTech has been facilitating development
+      of policies, processes, and tools to implement AI risk identification, assessment and management
+      activities.
+    where: Risk identification and assessment implementation
+  - id: wa-eo-24-01
+    quote: the Office of Equity will oversee the development, implementation, and ongoing support of an
+      overarching framework for accountability in the fair, ethical, and equitable use of generative AI
+      by the state.
+    where: Section 7
+- number: 14
+  expected:
+  - id: wa-eo-24-01
+    quote: 'I, Jay Inslee, Governor of the state of Washington, by the power vested in me by the Constitution
+      and the statutes of the state of Washington, do hereby order and direct all executive and small
+      cabinet agencies as follows:'
+    where: Preamble to the order
+  - id: wa-data-04
+    quote: Artificial Intelligence (AI) technologies that provide services and perform government functions
+      must be used by state agencies responsibly.
+    where: Item 1
+  - id: wa-rcw-43-105
+    quote: To participate with the agency in the review of major state agency projects involving personally
+      identifiable information, including projects using artificial intelligence.
+    where: RCW 43.105.369(3)(e)
+- number: 15
+  expected:
+  - id: wa-data-04
+    quote: Agencies must require that any vendor or contractor, providing a High-Risk Generative AI System
+      to an agency, certify that the vendor has implemented an AI governance program consistent with the
+      National Institute of Standards and Technology
+    where: Item 11.b
+  - id: wa-des-genai-contract-clauses
+    quote: Contract must disclose to [Agency] the use of Generative AI in applications utilized on this
+      Contract.
+    where: Generative AI use disclosure/notification
+  - id: wa-eo-24-01
+    quote: These guidelines shall include a requirement that any vendor providing a High-Risk Generative
+      AI System to an agency certify that the vendor has implemented an AI governance program
+    where: Section 3
+  - id: wa-data-04
+    quote: Agencies must include contract terms regarding how outside agencies or vendors are restricted
+      or may use or train public or private AI models with Category 3 or Category 4 data.
+    where: Item 11.a
+  - id: wa-eo-24-01
+    quote: By January 2025, DES, in collaboration with WaTech, shall update the state's technology procurement
+      and contract term templates, incorporating equity, bias, and algorithmic risk assessments
+    where: Section 6
+  - id: wa-watech-genai-procurement-guidelines
+    quote: This phase involves activities such as system development, vendor selection, contract negotiation,
+      and the establishment of technical specifications and deployment plans.
+    where: Procurement, development, and deployment
+  stub_would_answer:
+  - wa-watech-genai-interim-guidelines
+- number: 16
+  expected:
+  - id: wa-data-04
+    quote: Provides opt-out rights or options for individuals subject to decisions or outputs of High-Risk
+      Generative AI systems or document why such options would create undue burdens to the agency.
+    where: Item 14.g
+  - id: wa-data-04
+    quote: Considers if due process rights for individuals would be appropriate for High-Risk Generative
+      AI system and create process for human review if appropriate.
+    where: Item 14.i
+  - id: wa-data-04
+    quote: Agencies must be transparent about how they are processing personal information in AI-enabled
+      technologies.
+    where: Item 13
+  - id: wa-watech-genai-procurement-guidelines
+    quote: People should be made aware of any usage of a Gen AI system that affects them, should have
+      the opportunity to opt-in or opt-out of the use of the Gen AI system
+    where: Review of decisions by those affected
+  - id: wa-watech-ads-procurement-guidance
+    quote: Transparency so that the public knows that an ADS is being used and understands information
+      about the system and its use.
+    where: Purpose of ADS activities
+  stub_would_answer:
+  - wa-law-2026-c167
+  - wa-rcw-43-386
+- number: 17
+  expected:
+  - id: wa-user-01
+    quote: Agencies must identify an information technology accessibility coordinator to be the key contact
+      regarding the agency's information technology accessibility plan and to support complaint resolution.
+    where: Item 11
+  - id: wa-user-01-01-s
+    quote: Require a remediation plan from the vendor for addressing accessibility issues.
+    where: Item 4.c.i
+  - id: wa-user-01-01-s
+    quote: Ensure agency or third-party human user testing to validate accessibility, and;
+    where: Item 4.b.i
+- number: 18
+  expected:
+  - id: wa-sec-12
+    quote: Agencies must develop Information Technology (IT) Disaster Recovery (DR) plan(s) in support
+      of the agency Continuity of Operations Plan (COOP)
+    where: Item 1
+  - id: wa-sec-12
+    quote: DR plan(s) must be reviewed, updated, and exercised at least every other year.
+    where: Item 1.c
+  - id: wa-sec-04-01-s
+    quote: 'Agencies are responsible for ensuring the backup of their data. Agencies must ensure the following
+      resources have immutable backups:'
+    where: Item 1.a
+  - id: wa-rcw-43-105
+    quote: To develop plans and procedures to ensure the continuity of commerce for information resources
+      that support the operations and assets of state agencies in the event of a security incident;
+    where: RCW 43.105.054(1)(i)
+- number: 19
+  expected:
+  - id: wa-rcw-43-105
+    quote: To serve as a resource for local and municipal governments in Washington in the area of cybersecurity;
+    where: RCW 43.105.450(3)(g)
+  - id: wa-rcw-43-105
+    quote: To develop a service catalog of cybersecurity services to be offered to state and local governments;
+    where: RCW 43.105.450(3)(h)
+  - id: wa-rcw-43-105
+    quote: Developing and promoting the dissemination of best practices for the collection and storage
+      of personally identifiable information, including establishing and conducting a training program
+      or programs for local governments;
+    where: RCW 43.105.369(4)(a)
+  - id: wa-rcw-43-105
+    quote: Make available information services to public agencies and public benefit nonprofit corporations;
+    where: RCW 43.105.052(1)(a)
+  - id: wa-rcw-43-105
+    quote: State and local government agencies are authorized to enter into any contracts with the agency
+      which may be necessary or desirable to effectuate the purposes and policies of this chapter
+    where: RCW 43.105.060
+- number: 20
+  expected: []
+  none_reason: 'Searched all washington documents for GovRAMP, StateRAMP and FedRAMP (case-insensitive
+    grep): no match in any document. Read the cloud-related provisions (RCW 43.105.375, SEC-02 item 4,
+    SEC-11-01-S item 1) and they require location in the state data center or commercial cloud, WaTech
+    security design review and a pre-acquisition risk assessment, without naming any cloud authorization
+    program. No instrument in this state''s documents answers it.'

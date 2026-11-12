@@ -1,0 +1,337 @@
+# Hand-listed expected documents per analyst question for Oregon (issue #8).
+jurisdiction: oregon
+questions:
+- number: 1
+  expected:
+  - id: or-ors-276a
+    quote: The Governor shall appoint the State Chief Information Officer, who serves at the pleasure
+      of the Governor.
+    where: ORS 276A.203(2)
+- number: 2
+  expected:
+  - id: or-ors-276a
+    quote: The State Chief Information Officer shall oversee and coordinate the planning, budgeting, architecture
+      and standardization, consolidation, acquisition and oversight of all information and telecommunications
+      technology by state government and agencies of state government
+    where: ORS 276A.206(1)(a)
+  - id: or-eis-memo-20220812-cloud
+    quote: any current and future needs and use of public cloud services must utilize the EIS Cloud Service
+      unless an exception has been authorized by the State CIO.
+    where: EIS Mandatory Cloud Services memo, 2022-08-12
+  - id: or-das-107-004-130
+    quote: all IT Investments must align with enterprise information technology strategies and be justified
+      by sound business cases/plans, and that agencies must obtain State CIO approval in advance of purchase/execution.
+    where: Policy statement
+  - id: or-eis-memo-20241028-css-directive
+    quote: All systems (Microsoft, Linux, and MacOS) must be onboarded with Microsoft Defender and ensure
+      they are being monitored through the enterprise Cyber Security Services Security Operations Center
+      (CSS SOC).
+    where: Mandatory requirement 2
+  - id: or-das-107-004-052
+    quote: Providing unified enterprise solutions, technology, services and guidance to manage enterprise-level
+      risks and assist agencies with implementing their own security programs.
+    where: General Information (1)(a)
+  - id: or-oar-128-30
+    quote: 'The Department shall provide central leadership for state government-wide information security
+      including, but not limited to: centrally directing and coordinating all enterprise information security
+      activities'
+    where: OAR 128-030-0020(1)(a)(A)
+- number: 3
+  expected:
+  - id: or-oar-128-30
+    quote: The Department will designate a State Chief Information Security Officer to manage and promote
+      information security across the agencies of state government.
+    where: OAR 128-030-0020(1)(a)(O)
+  - id: or-ors-276a
+    quote: The State Chief Information Officer has responsibility for and authority over information systems
+      security in the executive department
+    where: ORS 276A.300(2)
+  - id: or-oar-128-20
+    quote: The State Chief Information Officer has responsibility for and authority over executive department
+      information systems security in accordance with ORS 276A.300
+    where: OAR 128-020-0005(1)
+  - id: or-das-107-004-052
+    quote: The State CISO manages the state’s information security program and serves as the CSS Director.
+    where: General Information (1)(a)
+  stub_would_answer:
+  - or-eo-16-13
+- number: 4
+  expected:
+  - id: or-ors-276a
+    quote: The State Chief Information Officer shall, after consultation and collaborative development
+      with agencies, establish a state information systems security plan and associated standards, policies
+      and procedures.
+    where: ORS 276A.300(2)
+  - id: or-oar-128-30
+    quote: The Department will designate a State Chief Information Security Officer to manage and promote
+      information security across the agencies of state government.
+    where: OAR 128-030-0020(1)(a)(O)
+  - id: or-das-107-004-052
+    quote: The State CISO has overall responsibility for the development, implementation and performance
+      of the cyber and information security program
+    where: General Information (1)(a)
+  stub_would_answer:
+  - or-eo-16-13
+- number: 5
+  expected:
+  - id: or-ors-276a
+    quote: '“State agency” means an officer, board, commission, department, agency or institute of state
+      government, as defined in ORS 174.111, except: (A) Public universities listed in ORS 352.002; and
+      (B) The Oregon State Lottery'
+    where: ORS 276A.306(1)(e)
+  - id: or-oar-128-30
+    quote: The Department shall serve as the primary point of accountability and coordination for information
+      security in state government except for elected offices as identified in section 4, Elected Offices
+      Exception.
+    where: OAR 128-030-0020(1)(a)
+  - id: or-das-107-004-052
+    quote: agency, board, and commission full-time and part-time employees, temporary workers, volunteers,
+      interns, contractors, and those employed by contracted entities (subcontractors), collectively referred
+      to as users
+    where: 'Definitions: Users'
+- number: 6
+  expected:
+  - id: or-ors-276a
+    quote: Conduct and document the completion of annual information technology security awareness training
+      for all agency employees.
+    where: ORS 276A.323(2)(c)
+  - id: or-das-107-004-120
+    quote: Agencies must maintain an internal incident response plan that details agency processes and
+      responsibilities, including how the agency will support CSS-led incident response efforts.
+    where: General Information
+  - id: or-das-107-004-052
+    quote: Implementing security education, training and awareness for all users of agency information
+      assets.
+    where: General Information (1)(b)
+  - id: or-oar-128-30
+    quote: Each state agency is responsible for creating and implementing an agency-level incident response
+      capability.
+    where: OAR 128-030-0020(2)(a)
+  - id: or-das-107-004-052-pr
+    quote: Complete annual cybersecurity training by December 31 of each year.
+    where: Annual Training, step 4
+  - id: or-eis-it-control-standards
+    quote: Review risk assessment results at least every three (3) years or when a significant change
+      occurs;
+    where: RA-3(d)
+  - id: or-ors-276a
+    quote: Each state agency shall periodically conduct or contract for an information security assessment
+      of the state agency’s information system and information resources
+    where: ORS 276A.306(3)
+- number: 7
+  expected:
+  - id: or-das-107-004-150
+    quote: If the Cloud or Hosted Service meets or exceeds any of the triggering risk thresholds described
+      below, the agency must obtain approval from the State CIO before contracting for the Cloud or Hosted
+      Service.
+    where: Requirements (3)
+  - id: or-das-107-004-150-pr
+    quote: An agency must complete the actions in this procedure before contracting for a Cloud or Hosted
+      Service, or as required during the Stage Gate process.
+    where: 'Procedure: First-Time Approval'
+  - id: or-das-107-004-130
+    quote: IT Investments that meet one of the risk thresholds triggering EIS oversight under the Cloud
+      Computing Policy
+    where: General Information (1)(d)
+  - id: or-eis-memo-20220812-cloud
+    quote: any current and future needs and use of public cloud services must utilize the EIS Cloud Service
+      unless an exception has been authorized by the State CIO.
+    where: EIS Mandatory Cloud Services memo, 2022-08-12
+- number: 8
+  expected:
+  - id: or-ors-276a
+    quote: The State Chief Information Officer shall determine and allocate the costs to state agencies
+      associated with providing information technology services, third-party security evaluations, vulnerability
+      assessments and remediation measures.
+    where: ORS 276A.323(3)
+- number: 9
+  expected:
+  - id: or-ors-276a
+    quote: '“Information technology initiative” means a project to develop or provide, with a state contracting
+      agency’s or public corporation’s own personnel and resources, or to obtain by means of a procurement
+      or set of related procurements:'
+    where: ORS 276A.223(1)(a)(A)
+  - id: or-das-107-004-130
+    quote: IT Investment is the planned or actual commitment of funds for IT-related expenditures, including
+      but not limited to personnel, contractors associated with projects, products, services, or contracts
+      and contract renewals and other amendments.
+    where: Definitions
+- number: 10
+  expected:
+  - id: or-das-107-004-190
+    quote: The State CIO or their designee will oversee the creation and maintenance of a statewide registry
+      of all AI-using applications in use or development by state agencies, including details on their
+      uses
+    where: Statewide AI Registry
+  - id: or-eis-ai-attachment-a
+    quote: 'Inventory: Agencies must submit AI applications and uses to the Statewide AI Registry.'
+    where: Inventory
+- number: 11
+  expected:
+  - id: or-das-107-004-190-pr
+    quote: Initial review by EIS. For use cases categorized as higher-risk, EIS will prescribe additional
+      requirements.
+    where: 'Procedure: AI Use Form, step 5'
+  - id: or-eis-ai-attachment-b
+    quote: you have a rights-impacting or safety-impacting use of AI, your use is categorized as higher-risk
+      and will have additional requirements, with ultimate approval requiring sign-off by the State CIO.
+    where: Higher-Risk Use Cases
+  - id: or-eis-ai-attachment-g
+    quote: 'To support agency requests for approval of higher-risk use cases, the following are additional
+      requirements that agencies will need to provide:'
+    where: Higher-risk use cases requirements
+  - id: or-eis-ai-attachment-a
+    quote: all AI use cases must undergo EIS review and evaluation prior to use.
+    where: ''
+  - id: or-das-107-004-190
+    quote: Any use of AI meeting the applicability standards must comply with the AI Risk Management Framework.
+    where: AI Risk Management Framework and Usage Requirements
+- number: 12
+  expected:
+  - id: or-ors-276a
+    quote: “Artificial intelligence” means a machine-based system that is capable, for a given set of
+      human-defined objectives, of making predictions, recommendations or decisions influencing real or
+      virtual environments
+    where: ORS 276A.340(1)
+  - id: or-oar-128-20
+    quote: '"Artificial intelligence" means a machine-based system that is capable, for a given set of
+      human-defined objectives, of making predictions, recommendations or decisions influencing real or
+      virtual environments'
+    where: OAR 128-020-0010(1)
+  - id: or-das-107-004-190
+    quote: 'Artificial intelligence (AI): a machine-based system that is capable, for a given set of human-defined
+      objectives, of making predictions, recommendations or decisions influencing real or virtual environments'
+    where: Definitions
+  - id: or-das-107-004-155
+    quote: 'Artificial Intelligence: A machine-based system that is capable, for a given set of human-defined
+      objectives, of making predictions, recommendations or decisions influencing real or virtual environments'
+    where: Definitions
+  - id: or-das-107-004-200
+    quote: 'Artificial intelligence (AI): a machine-based system that is capable, for a given set of human-defined
+      objectives, of making predictions, recommendations or decisions influencing real or virtual environments'
+    where: Definitions
+- number: 13
+  expected:
+  - id: or-das-107-004-190
+    quote: The State CIO will establish an Enterprise AI Advisory Committee comprised of representatives
+      from Enterprise Information Services (EIS) and executive branch agencies and chaired by the State
+      CIO or designee.
+    where: Enterprise AI Advisory Committee
+  - id: or-eo-23-26
+    quote: The Council shall recommend an action plan to guide awareness, education, and usage of artificial
+      intelligence in state government that aligns with the State’s policies, goals,
+    where: Order paragraph 1
+- number: 14
+  expected:
+  - id: or-das-107-004-190
+    quote: The main purpose of this policy is the creation of a robust governance structure that instills
+      confidence and trust in the use of artificial intelligence (AI) at the state.
+    where: Statement
+  - id: or-eo-26-26
+    quote: the State shall seek to purchase, contract for, or otherwise utilize frontier artificial intelligence
+      models that have received independent, third-party review for artificial intelligence safety
+    where: Directed and ordered, first paragraph
+  - id: or-eo-23-26
+    quote: The Council shall recommend an action plan to guide awareness, education, and usage of artificial
+      intelligence in state government that aligns with the State’s policies, goals,
+    where: Order paragraph 1
+  - id: or-ors-276a
+    quote: Any hardware, software or service that uses artificial intelligence and the artificial intelligence
+      is developed or owned by a covered vendor.
+    where: ORS 276A.340(2)(b)
+  - id: or-oar-128-20
+    quote: These rules define “national security threat” and “artificial intelligence” for purposes of
+      protecting state information technology assets.
+    where: OAR 128-020-0005(2)
+- number: 15
+  expected:
+  - id: or-eis-ai-attachment-g
+    quote: Vendors must agree to Zero Data Retention (ZDR) on AI processing and provide third-party attestation/
+      certification (e.g. GovRAMP).
+    where: Section 1, item 5 Vendor Compliance
+  - id: or-eo-26-26
+    quote: the State shall seek to purchase, contract for, or otherwise utilize frontier artificial intelligence
+      models that have received independent, third-party review for artificial intelligence safety
+    where: Directed and ordered, first paragraph
+  - id: or-eis-ai-attachment-b
+    quote: Include contractual prohibitions on using agency data for training or secondary purposes without
+      approval.
+    where: 'Risk 2: Vendor and Compliance Management'
+  - id: or-ors-276a
+    quote: Any hardware, software or service that uses artificial intelligence and the artificial intelligence
+      is developed or owned by a covered vendor.
+    where: ORS 276A.340(2)(b)
+  - id: or-oar-128-20
+    quote: Any hardware, software or service that uses artificial intelligence and the artificial intelligence
+      is developed or owned by a covered vendor.
+    where: OAR 128-020-0010(3)(b)
+  - id: or-das-107-004-155
+    quote: any hardware, software or service that uses artificial intelligence and the artificial intelligence
+      is developed or owned by a covered vendor.
+    where: 'Definitions: Covered product'
+- number: 16
+  expected:
+  - id: or-eis-ai-attachment-b
+    quote: Do not use AI to make final decisions affecting rights, benefits, eligibility, or enforcement
+      without human approval.
+    where: 'Risk 11: Decision Authority and Automation Limits'
+  - id: or-eis-ai-attachment-d
+    quote: Agencies must disclose to users when they are interacting with AI-generated content.
+    where: User disclosure mechanism
+  - id: or-das-107-004-190
+    quote: Disclosure of AI usage and opportunity to provide user feedback on AI-generated results are
+      required.
+    where: Principles of Responsible AI Usage
+  - id: or-eis-ai-attachment-g
+    quote: The agency must provide an Oregon AI transparency disclosure for review and approval by EIS.
+    where: 'Section 3: use cases with a public audience'
+  - id: or-eis-ai-attachment-f
+    quote: Ensuring a human is in the loop is about accountability prior to distribution or decision.
+    where: Human in the loop documentation
+- number: 17
+  expected: []
+  none_reason: 'Searched all 49 Oregon documents (keyword: accessib, WCAG, Section 508, ADA, disabilit,
+    coordinator; read every hit). No instrument names a technology accessibility coordinator or sets a
+    vendor accessibility verification process. The only on-topic text is one AI-specific mitigation in
+    or-eis-ai-attachment-b (Risk 9, ''Ensure AI systems comply with applicable accessibility standards'')
+    and a mention of accessibility in a principle of or-das-107-004-190; neither concerns a coordinator
+    or vendor verification. ORS 276A mentions accessibility only for the transparency website, open data
+    and information systems generally (276A.253, 276A.365), with no coordinator or vendor duty. Oregon
+    seeds no accessibility instrument.'
+- number: 18
+  expected:
+  - id: or-das-107-004-150
+    quote: Agencies must document their business continuity (BC) and disaster recovery (DR) needs, and
+      must develop plans and Service Contract terms to meet those needs.
+    where: Requirements (2)(b)
+  - id: or-eis-it-control-standards
+    quote: Establish an alternate processing site including necessary agreements to permit the transfer
+      and resumption of system operations for essential missions and business functions
+    where: CP-7 - Alternate Processing Site
+- number: 19
+  expected:
+  - id: or-ors-276a
+    quote: Cybersecurity-related goods and services to Oregon public bodies, with priority given to local
+      governments, regional governments, special districts, education service districts, school districts
+      and libraries.
+    where: ORS 276A.555(2)(e)
+  - id: or-oar-128-30
+    quote: The Department will work with other governmental jurisdictions within the State of Oregon including,
+      but not limited to all state, local and regional governmental entities contingent upon their written
+      request and an agreement for appropriate cost sharing.
+    where: OAR 128-030-0020(1)(e)
+  - id: or-das-107-004-120
+    quote: The State Chief Information Security Officer develops partnerships and engages with the Oregon
+      Cybersecurity Advisory Council, regional and local governments
+    where: General Information
+- number: 20
+  expected:
+  - id: or-das-107-004-150
+    quote: While there is no single audit standard that is uniformly required, the state frequently accepts
+      a SOC2 Type 2 audit covering all five Trust Services Criteria. Other types of audits or certifications,
+      such as FedRAMP, may also be acceptable.
+    where: Exhibit A, audit requirements question
+  - id: or-eis-ai-attachment-g
+    quote: Vendors must agree to Zero Data Retention (ZDR) on AI processing and provide third-party attestation/
+      certification (e.g. GovRAMP).
+    where: Section 1, item 5 Vendor Compliance

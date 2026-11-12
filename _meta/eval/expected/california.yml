@@ -1,0 +1,269 @@
+jurisdiction: california
+questions:
+- number: 1
+  expected:
+  - id: ca-gov-11545-11548
+    quote: The Director of Technology shall supervise the Department of Technology and report directly to the Governor on issues relating to information technology.
+    where: Gov. Code 11545(a)(1)
+- number: 2
+  expected:
+  - id: ca-gov-11531-11544
+    quote: The Stephen P. Teale Data Center and the California Health and Human Services Agency Data Center are consolidated within, and their functions are transferred to, the Office of Technology Services.
+    where: Gov. Code 11542(a)
+  - id: ca-itpl-10-14
+    quote: The state has a compelling need to consolidate IT services and operations to minimize overlap, redundancy, and cost in state operations.
+    where: PURPOSE
+  - id: ca-gov-11545-11548
+    quote: Develop the enterprise architecture for their state agency, subject to the review and approval of the Department of Technology, to rationalize, standardize, and consolidate information technology applications, assets, infrastructure, data, and procedures
+    where: Gov. Code 11546.1(a)(2)(B)
+  - id: ca-sam-4900
+    quote: Per Government Code Section 11546.3, all Agencies/state entities within the executive branch that are under the direct authority of the Governor must consolidate to the state’s shared e-mail solution.
+    where: SAM 4983.1 V.a
+  stub_would_answer:
+  - ca-eo-s-13-04
+- number: 3
+  expected:
+  - id: ca-gov-11549-11549-10
+    quote: The office shall be under the direction of a chief, who shall be appointed by, and serve at the pleasure of, the Governor. The chief shall report to the Director of Technology
+    where: Gov. Code 11549(b)
+  - id: ca-sam-5300
+    quote: Government Code section 11549.3 provides the CISO with the responsibility and authority to create, issue, and maintain policies, standards, and procedures
+    where: SAM 5300.2 Governing Provisions
+  - id: ca-eo-n-5-26
+    quote: The CDT State Chief Information Security Officer (CISO) shall review any new designations of companies as supply chain risks by the federal government.
+    where: Order 2
+- number: 4
+  expected:
+  - id: ca-gov-11549-11549-10
+    quote: There is in state government, in the Department of Technology, the Office of Information Security. The purpose of the Office of Information Security is to ensure the confidentiality, integrity, and availability of state systems and applications
+    where: Gov. Code 11549(a)
+- number: 5
+  expected:
+  - id: ca-gov-11549-11549-10
+    quote: All state entities defined in Section 11546.1 shall implement the policies and procedures issued by the office
+    where: Gov. Code 11549.3(b)
+  - id: ca-gov-11545-11548
+    quote: For purposes of this section, “state entity” means an entity within the executive branch that is under the direct authority of the Governor
+    where: Gov. Code 11546.1(e)(2)
+  - id: ca-sam-5300
+    quote: the term “state entity” shall denote a State of California agency, department, office, board, bureau, or other distinct governmental organization in the executive branch.
+    where: SAM 5300.3 Applicability
+  - id: ca-civ-1798-1798-78
+    quote: any contractor and any employee of the contractor, if the contract is agreed to on or after July 1, 1978, shall be considered to be an employee of an agency.
+    where: Civ. Code 1798.19
+- number: 6
+  expected:
+  - id: ca-sam-5300
+    quote: Each state entity shall provide basic security and privacy awareness training to all information asset users (all personnel, including managers and senior executives) as part of initial training for new users and annually thereafter.
+    where: SAM 5320.1 (also 5305.7 risk assessment; 5340 incident response plan)
+  - id: ca-simm-5340-a
+    quote: State Entities must develop, disseminate, and maintain a written Incident Response Plan (IRP) which must be reviewed and updated annually.
+    where: Incident Response Plan, Plan Elements
+  - id: ca-gov-11549-11549-10
+    quote: Annually require no fewer than 35 state entities to perform an independent security assessment, the cost of which shall be funded by the state agency, department, or office being assessed.
+    where: Gov. Code 11549.3(c)(2)(A)
+- number: 7
+  expected:
+  - id: ca-tl-23-03
+    quote: Agencies/state entities planning to utilize commercial and/or government cloud services must submit documentation to CDT that demonstrates planned cloud architecture, workforce, procurement, information assets, and security compliance.
+    where: PURPOSE
+  - id: ca-sam-4900
+    quote: Cloud solution architecture and design documentation must be provided to CDT at the network, system, infrastructure, application, interface, and data layers.
+    where: SAM 4983.1 VII.a
+  - id: ca-simm-141
+    quote: CDT will perform assessments to validate cloud design, workforce, procurement, and security requirements.
+    where: I. (introduction)
+- number: 8
+  expected:
+  - id: ca-gov-11531-11544
+    quote: The Department of Technology may collect payments from public agencies for providing services to client agencies. The Department of Technology may require monthly payments by client agencies for the services provided.
+    where: Gov. Code 11544(c)
+- number: 9
+  expected:
+  - id: ca-sam-4800
+    quote: 'Information Technology Procurement: Any process to obtain IT goods/services through competitive, non-competitive, purchase or lease, for the benefit of the State.'
+    where: Definitions
+  - id: ca-pcc-12100-12113
+    quote: “Procedures” means the rules, methods, and practices to be followed in conducting information technology procurements.
+    where: Pub. Contract Code 12100.7(c)
+- number: 10
+  expected:
+  - id: ca-sam-4900
+    quote: the senior management personnel of each Executive Branch State Entity must identify, track, and maintain an inventory of GenAI uses as set forth below.
+    where: SAM 4986.3 GenAI Use Identification and High-Risk Inventory
+  - id: ca-tl-25-01
+    quote: Outlines the requirements to identify, track, and maintain an inventory of high-risk GenAI for annual reporting to the State legislature.
+    where: Purpose, SAM 4986.3
+  - id: ca-eo-n-12-23
+    quote: The senior management personnel shall be responsible for maintaining the inventory on an ongoing basis.
+    where: Order 3(d)
+  - id: ca-tl-24-01
+    quote: In accordance with the Executive Order and on-going, all State entities shall be responsible for maintaining a GenAI inventory.
+    where: PURPOSE
+  - id: ca-genai-guidelines
+    quote: All state entities are required to conduct and submit an inventory of all uses of GenAI – intentional and incidental – to the California Department of Technology.
+    where: III – Summary of State Entity Responsibilities
+  - id: ca-gov-11545-11548
+    quote: the Department of Technology shall conduct, in coordination with other interagency bodies as it deems appropriate, a comprehensive inventory of all high-risk automated decision systems
+    where: Gov. Code 11546.45.5(b)
+- number: 11
+  expected:
+  - id: ca-sam-4900
+    quote: For all IT, non-IT, and Telecommunication procurements, a State Entity must, prior to award, complete a SIMM 5305-F Generative Artificial Intelligence Risk Assessment to determine if the GenAI risk is low, moderate, or high.
+    where: SAM 4986.9 A.5
+  - id: ca-simm-5305-f
+    quote: This risk assessment is required for all GenAI procurements, acquisitions, renewals and internally developed systems.
+    where: II. Risk Assessment - Part 1, Instructions
+  - id: ca-tl-24-01
+    quote: State entities acquiring GenAI tools must complete a SIMM 5305-F Generative Artificial Intelligence Risk Assessment.
+    where: PURPOSE
+  - id: ca-eo-n-12-23
+    quote: shall develop guidelines for State agencies and departments to analyze the impact that adopting a GenAI tool may have on vulnerable communities
+    where: Order 3(b)
+  - id: ca-simm-5310-c
+    quote: Entities must conduct PTAs for all proposed and modified information systems, paper or electronic. PIAs are required for information assets and records systems that collect or maintain personal information on individuals.
+    where: Privacy Threshold Assessment and Privacy Impact Assessments
+  - id: ca-simm-150
+    quote: This risk assessment is required for all GenAI procurements, acquisitions, renewals and internally developed systems.
+    where: I. Introduction
+  - id: ca-simm-150
+    quote: These forms must be signed by the CIO and ISO.
+    where: I. Introduction
+  - id: ca-tl-24-03
+    quote: all GenAI procurements, regardless of risk level, must include a completed GenAI Risk Assessment (SIMM 5305-F).
+    where: PURPOSE
+- number: 12
+  expected:
+  - id: ca-gov-11549-63-11549-66
+    quote: means an engineered or machine-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.
+    where: Gov. Code 11549.64(a)
+  - id: ca-sam-4800
+    quote: 'Artificial Intelligence (AI): An engineered or machine-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.'
+    where: Definitions
+  - id: ca-genai-guidelines
+    quote: New definitions for Artificial Intelligence (AI) technology rely on several sources, including The White House's Blueprint for an Al Bill of Rights (October 2022), and the National Institute of Standards and Technology (NIST) Al Risk Management Framework.
+    where: II – Definitions and Example GenAI Use Cases
+  - id: ca-gov-11545-11548
+    quote: means an engineered or machine-based system that varies in its level of autonomy and that can, for explicit or implicit objectives, infer from the input it receives how to generate outputs that can influence physical or virtual environments.
+    where: Gov. Code 11546.45.5(a)(1)
+- number: 13
+  expected:
+  - id: ca-gov-11549-63-11549-66
+    quote: The Department of Technology, under the guidance of the Government Operations Agency, the Office of Data and Innovation, and the Department of Human Resources, shall update the report, as needed
+    where: Gov. Code 11549.65(a)
+  - id: ca-sam-4900
+    quote: A State Entity must have a multidisciplinary governance team to continuously oversee and monitor for new, ongoing, and changing security, privacy, and operational risks throughout the lifecycle of the GenAI use.
+    where: SAM 4986.9 A.7
+  - id: ca-eo-n-12-23
+    quote: all agencies and departments shall appoint a senior level management personnel who will be responsible for conducting and reporting the results of the inventory to the California Department of Technology
+    where: Order 3(d)
+  - id: ca-genai-guidelines
+    quote: Establish a GenAI-focused team responsible for continuously evaluating the potential use of GenAI and its implications for operations and program administration.
+    where: III – Summary of State Entity Responsibilities, item 8
+  - id: ca-eo-n-5-26
+    quote: Leverage the State Technology Council and the AI Community of Practice to share best practices on responsible AI procurement and adoption
+    where: Order 4(b)
+- number: 14
+  expected:
+  - id: ca-gov-11549-63-11549-66
+    quote: 'A state agency or department that utilizes GenAI to directly communicate with a person regarding government services and benefits shall ensure that those communications include both of the following:'
+    where: Gov. Code 11549.66
+  - id: ca-eo-n-12-23
+    quote: shall issue general guidelines for public sector procurement, uses, and required trainings for use of GenAI
+    where: Order 3(a)
+  - id: ca-sam-4900
+    quote: The Generative Artificial Intelligence (GenAI) Policy outlines the requirements for the responsible and secure use of GenAI within the State of California
+    where: SAM 4986.1 Purpose
+  - id: ca-tl-25-01
+    quote: These policies apply to all GenAI procured or developed by a state entity.
+    where: Background
+- number: 15
+  expected:
+  - id: ca-sam-4900
+    quote: A State Entity must include the following GenAI disclosure notification language in all solicitations and contracts for IT and telecommunication goods and services.
+    where: SAM 4986.9 A.3
+  - id: ca-genai-guidelines
+    quote: GenAI technology solutions must incorporate GenAI Special Provisions as identified through CIO/AIO consultation with CDT regardless of acquisition type, dollar value or method.
+    where: VI – GenAI Procurement, item 5
+  - id: ca-tl-24-01
+    quote: must contain the GenAI disclosure notification language requiring vendors to identify any GenAI technology.
+    where: PURPOSE
+  - id: ca-eo-n-5-26
+    quote: allowing entities seeking to do business with the state of California to attest to and explain their policies and safeguards to protect public safety while preventing the misuse of their technologies
+    where: Order 1
+  - id: ca-gov-8586-5
+    quote: The California AI Cybersecurity Collaboration Playbook shall include mandatory mechanisms for information sharing on potential threats and vulnerabilities known to state contractors and vendors providing artificial intelligence services
+    where: Gov. Code 8586.5(g)(3)
+- number: 16
+  expected:
+  - id: ca-gov-11549-63-11549-66
+    quote: A disclaimer that indicates to the person that the communication was generated by GenAI.
+    where: Gov. Code 11549.66(a)
+  - id: ca-sam-4900
+    quote: All GenAI output used for decision making must be supplemented with human verification to ensure accuracy and factuality.
+    where: 'SAM 4986.12 A.2 (disclosure and opt-out: SAM 4986.10)'
+  - id: ca-simm-5305-f
+    quote: GenAI systems are to be used only to augment and improve workflows, not to replace or impair the services received by the public.
+    where: I. Introduction
+- number: 17
+  expected:
+  - id: ca-simm-25a
+    quote: 'Designate leadership for digital accessibility: Assign your Chief Information Officer (CIO), or designee, to lead the effort for ensuring digital product accessibility across the state entity.'
+    where: Steps for your State Entity, item 1
+  - id: ca-gov-7405
+    quote: shall agree to respond to, and resolve any complaint regarding accessibility of, its products or services that is brought to the attention of the entity.
+    where: Gov. Code 7405(b)
+  - id: ca-sam-4800
+    quote: each Agency/state entity shall post on the home page of the Agency/state entity’s internet website a signed certification from the Agency/state entity’s Director and Chief Information Officer
+    where: SAM 4833.2 Website Accessibility Certification
+  - id: ca-itpl-10-10
+    quote: Include, where applicable, requirements for addressing accessibility in procurements for IT projects, desktops, and Mobile Web.
+    where: POLICY item 5
+  - id: ca-gov-11545-11548
+    quote: The Director of Technology shall create a standard form that each state agency’s or state entity’s chief information officer shall use to determine whether the state agency’s or state entity’s Internet Web site is in compliance
+    where: Gov. Code 11546.7(b)
+  - id: ca-tl-18-05
+    quote: to post on the home page of the Agency/state entity’s internet website a signed certification that the Agency/state entity’s internet website is in compliance with specified accessibility standards
+    where: BACKGROUND
+- number: 18
+  expected:
+  - id: ca-sam-5300
+    quote: All state agencies or entities must individually meet SAM 5325, Continuity Planning with Technology Recovery, requirements to ensure recovery and restoration of their mission and business essential functions in a timely manner.
+    where: SAM 5325.1 Policy item 5
+  - id: ca-gov-11549-11549-10
+    quote: The creation, issuance, and maintenance of policies, standards, and procedures directing state agencies in the development, maintenance, testing, and filing of each state agency’s disaster recovery plan.
+    where: Gov. Code 11549.3(a)(4)
+  - id: ca-tl-18-03
+    quote: requiring each Agency/state entity to provide updated Technology Recovery Plans to CDT and report compliance with updated standards.
+    where: BACKGROUND
+  - id: ca-gov-8592-30-8592-50
+    quote: Each state agency shall provide the department with a copy of its updated Technology Recovery Plan.
+    where: Gov. Code 8592.35(b)
+  - id: ca-simm-5325-a
+    quote: each year the state entity head shall submit a copy of its TRP, along with the SIMM 5325-B to the Office of Information Security (OIS) by the last business day of the state entity’s scheduled reporting month
+    where: INTRODUCTION AND APPLICABILITY
+- number: 19
+  expected:
+  - id: ca-gov-8586-5
+    quote: The California Cybersecurity Integration Center shall serve as the central organizing hub of state government’s cybersecurity activities and coordinate information sharing with local, state, and federal agencies, tribal governments
+    where: Gov. Code 8586.5(a)
+  - id: ca-gov-11549-11549-10
+    quote: At the request of a local educational agency, and in consultation with the California Cybersecurity Integration Center, the Military Department may perform an independent security assessment of the local educational agency
+    where: Gov. Code 11549.3(j)(1)
+  - id: ca-gov-11531-11544
+    quote: Any system established shall be made available to all public agencies in the state on terms that may be agreed upon by the agency and the Office of Technology Services.
+    where: Gov. Code 11541(a)
+  - id: ca-gov-8592-30-8592-50
+    quote: The department, in conjunction with the office, may provide suggestions for a state agency or local entity that provided a Technology Recovery Plan
+    where: Gov. Code 8592.40(c)
+  - id: ca-eo-b-34-15
+    quote: coordinate information sharing with local, state and federal agencies, tribal governments, utilities and other service providers
+    where: Order 1
+  - id: ca-pcc-12100-12113
+    quote: may make the services of their respective departments under this chapter available, upon the terms and conditions that may be deemed satisfactory, to any tax-supported public agency in the state, including a school district
+    where: Pub. Contract Code 12109
+- number: 20
+  expected:
+  - id: ca-sam-4900
+    quote: Other equivalent attestation such as FedRAMP and/or StateRAMP may also be used
+    where: SAM 4983.1 VIII.d

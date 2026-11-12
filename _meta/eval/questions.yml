@@ -1,0 +1,43 @@
+# The 20 analyst questions, copied from docs/research/03-domain-taxonomy.md section 5
+# (bracketed source tags removed). tests/test_eval_questions.py keeps this file equal to that section.
+questions:
+- number: 1
+  text: 'To whom does the state CIO report: governor, agency head or board?'
+- number: 2
+  text: Where does each state sit between decentralized and unified IT, and what has been consolidated (infrastructure, services, staff, project oversight)?
+- number: 3
+  text: Is the state CISO's authority set by statute, rule, executive order, CIO directive or interagency agreement?
+- number: 4
+  text: Which states have a statute establishing the enterprise CISO role, and is it funded?
+- number: 5
+  text: Which government entities do state data-security statutes cover (executive agencies only, locals, contractors)?
+- number: 6
+  text: Which states require agencies to run security training, periodic risk assessments or incident response plans?
+- number: 7
+  text: Must the CIO approve agency cloud acquisitions, and is a pre-acquisition security review required?
+- number: 8
+  text: 'How is the central IT organization funded: chargeback, general fund, assessment or hybrid?'
+- number: 9
+  text: How does each state define an "information technology procurement"?
+- number: 10
+  text: Which states require an inventory of agency AI systems; all uses or high-risk only; how often updated; published?
+- number: 11
+  text: Which states require impact assessments before agencies deploy AI, and who reviews them?
+- number: 12
+  text: How does each state's instrument define "artificial intelligence", and does it borrow the federal definition?
+- number: 13
+  text: What body governs state AI use (task force, council, office, chief AI officer), who sits on it, and is it advisory or binding?
+- number: 14
+  text: Is the state's AI policy set by statute, executive order, rule or CIO guideline?
+- number: 15
+  text: Which states impose AI-specific procurement terms or vendor disclosure duties?
+- number: 16
+  text: Which states restrict AI-only adverse decisions (for example benefit cuts or fraud findings) or require public disclosure of AI use?
+- number: 17
+  text: Which states have a technology accessibility coordinator and how do they verify vendor compliance?
+- number: 18
+  text: Is disaster recovery centralized, federated or left to agencies?
+- number: 19
+  text: What cybersecurity or IT services does the state provide to local governments (whole-of-state)?
+- number: 20
+  text: Which states require or accept GovRAMP authorization for cloud purchases?
