@@ -1,0 +1,391 @@
+# Wisconsin seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+sources:
+
+  # ======================================================================================
+  # WISCONSIN (issue #50). Discovery 2026-11-12: DOA Division of Enterprise Technology (DET) policies page
+  # (det.wi.gov/Pages/policies.aspx, 4 items), the Legislature's statute and administrative-code pages
+  # (docs.legis.wisconsin.gov), the Legislature's executive-order archive by governor and its LRB subject index.
+  # A statute URL is built from the site's own link pattern (/document/statutes/<section>); the page serves a window
+  # of neighbouring sections; the page's own <title> names the one asked for, and the ingester keeps only that section.
+  # ======================================================================================
+  # ---- Statutes: Wisconsin Statutes, one section per entry (the Legislature's page serves a window of sections)
+  - id: wi-stat-15-103
+    sha256: "ac5b4d5e419b5079db6c4c0e683bae5ae576cc0777fb3a778dcaa2031bf53795"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/15.103"
+    format: html
+    citation: "Wis. Stat. s. 15.103"
+    title: "Wis. Stat. 15.103 - Same; specified divisions"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [governance]
+    recheck: monthly
+    why_relevant: "Creates the Division of Enterprise Technology in the Department of Administration (sub. (5)), the central IT agency whose administrator is the State Chief Information Officer. The section lists every specified division of the department, so the creation of the divisions of hearings and appeals, legal services, gaming, trust lands and investments and personnel management rides along with sub. (5)."
+  - id: wi-stat-16-97
+    sha256: "d03b8c1e1f49f61b7b581a081f7907ed1d921ed5108df2192c49e7f9b6f353d1"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.97"
+    format: html
+    citation: "Wis. Stat. s. 16.97"
+    title: "Wis. Stat. 16.97 - Definitions"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [governance]
+    recheck: monthly
+    why_relevant: "Definitions for the information technology subchapter (subch. VII of ch. 16): agency, executive branch agency, information technology, information technology portfolio, telecommunications."
+  - id: wi-stat-16-971
+    sha256: "58af16a561992a2f33534f3f22a5217d791e539f1748e9610d195936ba7027c6"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.971"
+    format: html
+    citation: "Wis. Stat. s. 16.971"
+    title: "Wis. Stat. 16.971 - Responsibilities of department"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [governance, oversight, cybersecurity, data, procurement]
+    recheck: monthly
+    why_relevant: "The core grant of authority over executive branch IT: the department must set the policies, procedures and planning processes executive branch agencies follow and monitor adherence (sub. (2)(a)), prescribe data and integration standards, review and approve IT acquisitions, ensure agencies adopt guidelines and standards for systems development, and ensure state data processing facilities develop proper privacy and security procedures and safeguards (sub. (2)(k)); it also requires each agency's annual strategic IT plan and sets forms management duties. Cited by the DET security policy and standards handbooks and the acceptable-use policy as the authority for those documents. Also covers some telecommunications access provisions for schools and libraries (subs. (13) to (17)) and a case management system for district attorneys (sub. (10)), which ride along."
+  - id: wi-stat-16-972
+    sha256: "af6e9b71b2fd7c28ebc0256db07a41b329aa567653ecaaedff9b01d30b7dd888"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.972"
+    format: html
+    citation: "Wis. Stat. s. 16.972"
+    title: "Wis. Stat. 16.972 - Powers of the department"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [governance]
+    recheck: monthly
+    why_relevant: "Powers of the department to provide telecommunications, computer, supercomputer and technical services to agencies, local governmental units and others, to study and appoint advisory councils, and to acquire, operate and maintain IT equipment and systems. Sub. (1) defines terms for educational users, which ride along."
+  - id: wi-stat-16-973
+    sha256: "9afee2f5a39f9179b5a962f5a12a8a0ceafdd7af86c92bb3bf87a3efbc4f8f50"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.973"
+    format: html
+    citation: "Wis. Stat. s. 16.973"
+    title: "Wis. Stat. 16.973 - Duties of the department"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [governance, cybersecurity, data, funding]
+    recheck: monthly
+    why_relevant: "Duties of the department: provide computer services to agencies, promulgate fee methodologies, develop policies and programs that protect the privacy of individuals in agency databases and set technical standards (sub. (3)), and use all feasible technical means to ensure the security of all information submitted to the department for processing (sub. (5)). The acceptable-use policy cites subs. (3), (4) and (5)."
+  - id: wi-stat-16-974
+    sha256: "c9238d3b9f7c9522096cdc79510b838eb0a900dd5f455f8aa0f616dc9ea00ad3"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.974"
+    format: html
+    citation: "Wis. Stat. s. 16.974"
+    title: "Wis. Stat. 16.974 - Powers of the department"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [governance, procurement, funding]
+    recheck: monthly
+    why_relevant: "Powers of the department to collect charges for its services, enter service agreements, run Internet or telephone access systems to agency program information, and review and approve, modify or disapprove proposed executive branch contracts for IT or telecommunications (sub. (5))."
+  - id: wi-stat-16-975
+    sha256: "274dbe6ae54d33b70b9b83b90aa4e060c25a24b8b6adcd689fc4b5cc3a5de172"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.975"
+    format: html
+    citation: "Wis. Stat. s. 16.975"
+    title: "Wis. Stat. 16.975 - Access to information"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [data]
+    recheck: monthly
+    why_relevant: "Requires the department to withhold from public-records access the information agencies and others submit to it for processing, and leaves the submitting agency the custodian: the data-custody rule for the state's central processing."
+  - id: wi-stat-16-976
+    sha256: "22ad5777581a12f72b07e11680e531f3dc57fde6a91b9289f941e6a7568fecc3"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.976"
+    format: html
+    citation: "Wis. Stat. s. 16.976"
+    title: "Wis. Stat. 16.976 - Strategic plans for executive branch agencies"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [oversight]
+    recheck: monthly
+    why_relevant: "The annual strategic IT plan process: each executive branch agency must address its business needs and identify proposed IT initiatives, the department reviews and approves or disapproves each plan by June 15, and no agency may implement a new or revised IT development project under a plan before the department approves it."
+  - id: wi-stat-16-977
+    sha256: "f55b3ce1e59e8aee6690d96c7008c6f0ad7ccb1338c09da21180b521a5eca0b7"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.977"
+    format: html
+    citation: "Wis. Stat. s. 16.977"
+    title: "Wis. Stat. 16.977 - Information technology portfolio management"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [oversight]
+    recheck: monthly
+    why_relevant: "Requires the department to manage the IT portfolio of executive branch agencies under a management structure with criteria for selecting IT assets, methods to monitor and control IT projects and assets, and methods to evaluate project progress and system effectiveness."
+  - id: wi-stat-16-979
+    sha256: "636f12843636a110316ecd37b403b56c310b8d34781053f23cc7ccbac3a716d9"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.979"
+    format: html
+    citation: "Wis. Stat. s. 16.979"
+    title: "Wis. Stat. 16.979 - Telecommunications operations and planning"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [governance, cloud-resilience]
+    recheck: monthly
+    why_relevant: "The department's duty to develop a statewide long-range telecommunications plan, set telecommunications policy and standards, inventory state-owned or leased telecommunications equipment and review the operation of state telecommunications systems (sub. (2)). State agency telecommunications as part of the IT definition in s. 16.97; not the broadband or carrier regulation the scope statement leaves out."
+  - id: wi-stat-16-61
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.61"
+    format: html
+    citation: "Wis. Stat. s. 16.61"
+    title: "Wis. Stat. 16.61 - Records of state offices and other public records"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [data]
+    recheck: monthly
+    stub: true
+    stub_reason: "Text not committed, measured 2026-11-12. The Legislature's page for s. 16.61 serves a scrolling window of the chapter that stops inside the section: the page ends at s. 16.61 (5) (b), with no later subsection, no history line and a scroll-down control after it. The Fetcher bytes hold about half of the section (the Legislature's chapter 16 PDF, read for discovery, shows subs. (5) (c) to (13) and the history line after that point), so a mirror of the page would be an incomplete Full text. The seed entry takes one page per section and the shared reader does not join pages, so the section is not stitched here. The Wisconsin module refuses any statute page whose requested section runs to the end of the window without its history line (ingest run 2026-11-12). Becomes a document when the Legislature's page for the section serves it whole or the shared reader can join pages."
+    why_relevant: "The state public records statute: the public records board, retention and disposition of state agency records including electronically formatted documents, and agency duties for preserving them. Cited by the DET policy handbook for records retention obligations and the authority for ch. Adm 12 (electronic records). A records statute rather than an IT statute, so it carries non-IT records provisions (microfilm, local records); kept because ch. Adm 12 and the DET handbook make it the rule for electronic public records."
+  - id: wi-stat-16-611
+    sha256: "59e0ddb07a0e35168d778f1430e76e771577dd2cf6ec811c1a721c56a2dd513d"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/16.611"
+    format: html
+    citation: "Wis. Stat. s. 16.611"
+    title: "Wis. Stat. 16.611 - State public records; optical disc and electronic storage"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [data]
+    recheck: monthly
+    why_relevant: "Directs the Department of Administration to prescribe by rule the procedures for transferring state public records to optical disc or electronic format and maintaining them there, including procedures to ensure authenticity, accuracy, reliability and accessibility and protection from unauthorized destruction, and the procedures for the department's own operation of an electronic records system (sub. (2)); the proposed rules go first to the public records board (sub. (3)). The authority for ch. Adm 12, which the section's cross-reference names (s. Adm 12.01)."
+  - id: wi-stat-134-98
+    sha256: "24222b409da8f2c34a8e5c6fd8643120b737ae36cf84bb672e43fd714596b558"
+    url: "https://docs.legis.wisconsin.gov/document/statutes/134.98"
+    format: html
+    citation: "Wis. Stat. s. 134.98"
+    title: "Wis. Stat. 134.98 - Notice of unauthorized acquisition of personal information"
+    doc_type: statute
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+    tags: [data, cybersecurity]
+    recheck: monthly
+    why_relevant: "The breach-notification statute. Its definition of entity expressly includes the state and any office, department, independent agency, authority, institution, association, society or other body in state government (sub. (1)(a)2.a.), so it binds state agencies that hold personal information; it also binds private entities and cities, villages, towns and counties, which ride along. Located in ch. 134 (business regulation), a non-IT chapter; one section."
+
+  # ---- Administrative rules
+  - id: wi-adm-12
+    sha256: "1f4ece6af0945ec406c16e1c086ecd66a441109511ef17d68a9246639ef69396"
+    url: "https://docs.legis.wisconsin.gov/document/administrativecode/ch.%20Adm%2012"
+    format: html
+    citation: "Wis. Admin. Code ch. Adm 12"
+    title: "Chapter Adm 12 - Electronic Records Management- Standards And Requirements"
+    doc_type: rule
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin Department of Administration; published by the Legislative Reference Bureau
+    tags: [data, governance]
+    recheck: monthly
+    why_relevant: "The Department of Administration's rule for public records kept in electronic format: state and local agencies must keep electronic public records accessible, accurate, authentic, reliable, legible and readable through their life cycle, document their policies, restrict access, and design systems that can produce an official record copy. Promulgated under ss. 16.611, 16.612 and 227.11(2)(a) to implement s. 16.61. It binds local agencies as well as state agencies, which ride along. The only IT chapter among the department's chapters Adm 1 to Adm 95 (see the left-out record)."
+
+  # ---- Statewide IT policies and standards: DET Policies and Standards page (det.wi.gov/Pages/policies.aspx, 4 items on 2026-11-12)
+  - id: wi-det-aup
+    sha256: "6ef58846361bc6f22b86e9e136bf61bd46353a4f57793a8180228e8ae0191dd8"
+    url: "https://det.wi.gov/Documents/AUP%20-%20Effective%20Date%203.10.2025.pdf"
+    format: pdf
+    citation: "Acceptable Technology Use, Access, and Security Policy (AUP)"
+    title: "State of Wisconsin Acceptable Technology Use, Access, and Security Policy"
+    doc_type: policy
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin Department of Administration, Division of Enterprise Technology
+    tags: [governance, cybersecurity, data, ai]
+    recheck: monthly
+    identity_text: "Acceptable Technology Use, Access, and Security Policy"
+    why_relevant: "The enterprise acceptable-use policy for all executive branch agencies (not the Department of Justice, Department of Military Affairs, Investment Board, UW System Board of Regents or Technical College System Board), issued under Wis. Stat. 16.971 to 16.975. Covers general usage, non-public information, public records, personal devices, IT security and credentials, remote work, and a section on artificial intelligence (AI) usage with separate duties for agency IT and for users: the state's only AI instrument found. Listed on the DET Policies page (last revised 3/10/2025)."
+  - id: wi-det-it-security-policy-handbook
+    sha256: "c3f728d39ff53a97325425d2b1b8dbe27687a0701e6566bc9ec14b5165967550"
+    url: "https://det.wi.gov/Documents/ITSecurityPolicyHandbook.pdf"
+    format: pdf
+    citation: "IT Security Policy Handbook"
+    title: "State of Wisconsin IT Security Policy Handbook"
+    doc_type: policy
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin Department of Administration, Division of Enterprise Technology
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    identity_text: "State of Wisconsin IT Security Policy Handbook"
+    why_relevant: "The executive branch IT security policy baseline: statutory authority (Wis. Stat. 16.971 and 16.973), scope, roles, compliance and enforcement, then one policy per control family (access control, awareness and training, audit, configuration management, contingency planning and so on), derived from NIST SP 800-53 Rev. 5. Owner: Bureau of Security. Listed on the DET Policies page (3/10/2026)."
+  - id: wi-det-it-security-standards-handbook
+    sha256: "d13359e32188d6b82d3550f1707a85527bc3fc559efddc453c56719eea66324e"
+    url: "https://det.wi.gov/Documents/ITSecurityStandardsHandbook.pdf"
+    format: pdf
+    citation: "IT Security Standards Handbook"
+    title: "State of Wisconsin IT Security Standards Handbook"
+    doc_type: standard
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin Department of Administration, Division of Enterprise Technology
+    tags: [cybersecurity, governance, data, cloud-resilience]
+    recheck: monthly
+    identity_text: "State of Wisconsin IT Security Standards Handbook"
+    why_relevant: "The enterprise security standards that implement the IT Security Policy Handbook: 26 numbered standards (100 Access Control through 290 Removal of Prohibited Foreign Products and 500 Program Management, including 170 Incident Response, 191 Data Classification and 270 Personally Identifiable Information Processing and Transparency), in one 108-page document, with the control-selection methodology. Owner: DET Bureau of Security. Listed on the DET Policies page (last revised 3/10/2026)."
+  - id: wi-det-flaw-remediation-si-2
+    sha256: "1baa476790c61119246127c099913eb00d00aed44aad89f588f8b0d7caeb06b2"
+    url: "https://det.wi.gov/Documents/FlawRemediationSI-2StateStandard.pdf"
+    format: pdf
+    citation: "Flaw Remediation (SI-2) Security Standard"
+    title: "Flaw Remediation (SI-2) Security Standard"
+    doc_type: standard
+    jurisdiction: wisconsin
+    issuing_body: Wisconsin Department of Administration, Division of Enterprise Technology
+    tags: [cybersecurity]
+    recheck: monthly
+    identity_text: "Flaw Remediation (SI-2)"
+    why_relevant: "The tiered patching and mitigation standard for state systems: Tier 1 (critical public-facing and CISA KEV vulnerabilities) mitigated within 24 hours and fully remediated within seven days, further tiers, risk acceptance and unsupported systems. Four pages. Listed on the DET Policies page (last revised 7/15/2026); the file's own issuance table shows version 1.2 issued 7-13-26."
+
+  # ---- Executive orders. All four are scans with a machine-read text layer, so each is a stub (see its reason). Status: no rescission appears in the LRB subject index (January 2026) or the Legislature's lists.
+  - id: wi-eo-evers-184
+    url: "https://docs.legis.wisconsin.gov/document/executiveorders/2023/184.pdf"
+    format: pdf
+    citation: "Executive Order #184 (Evers)"
+    title: "Relating to Cybersecurity and Prohibiting the Use of Certain Foreign Technologies"
+    doc_type: executive_order
+    jurisdiction: wisconsin
+    issuing_body: Office of the Governor
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "Text not committed, measured 2026-11-12. The Legislature's PDF is a page scan (a full-page image on every page, about 300 ppi, per pdfimages) with a hidden text layer that is a machine reading and holds recognition errors, so it is not text of record (the layer opens with the noise ':,., ww,, a,,' and reads 'recogruzmg' for 'recognizing', 'Chieflnformation' for 'Chief Information' and 'ofDOA-DET' for 'of DOA-DET'). The corpus's two-engine OCR procedure (src/ingest_ocr.py) runs ocrmypdf without --force-ocr and so stops on any page that already has text (ingest run 2026-11-12: 'PriorOcrFoundError: page already has text!'); it needs a shared-code option to set the layer aside (Colorado's executive order stub met the same layer problem). Becomes a document when that option exists and the two engines clear the word and figure bars."
+    why_relevant: "Governor Evers' January 2023 order directing DOA-DET, under Wis. Stat. 16.971 to 16.975, to continue investigating and to bar certain foreign technologies on state systems. Cited by the DET standards handbook as an authority. Found on the Legislature's executive-order archive for 2019- (Tony Evers) and the LRB index entry 'Cybersecurity and prohibiting the use of certain foreign technologies'."
+  - id: wi-eo-thompson-242
+    url: "https://docs.legis.wisconsin.gov/document/executiveorders/1995/242.pdf"
+    format: pdf
+    citation: "Executive Order #242 (Thompson)"
+    title: "Statement of Direction Relating to the Management of Information Technology in the State of Wisconsin"
+    doc_type: executive_order
+    jurisdiction: wisconsin
+    issuing_body: Office of the Governor
+    tags: [governance, oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: "Text not committed, measured 2026-11-12. The Legislature's PDF is a page scan (a full-page image on every page, about 300 ppi, per pdfimages) with a hidden text layer that is a machine reading and holds recognition errors, so it is not text of record (the layer reads 'WHERE~S', 'ilIl.1§lra,led' and 'c9Hsolij:lation' for words of the second and fifth recitals). The corpus's two-engine OCR procedure (src/ingest_ocr.py) runs ocrmypdf without --force-ocr and so stops on any page that already has text (ingest run 2026-11-12: 'PriorOcrFoundError: page already has text!'); it needs a shared-code option to set the layer aside (Colorado's executive order stub met the same layer problem). Becomes a document when that option exists and the two engines clear the word and figure bars."
+    why_relevant: "Governor Thompson's 1995 statement of direction: the Department of Administration plans and administers the state's information technology on an enterprise basis and prepares an enterprise infrastructure assessment. Still on the LRB index with no rescission found; whether it remains operative is an OWNER DECISION."
+  - id: wi-eo-thompson-408
+    url: "https://docs.legis.wisconsin.gov/document/executiveorders/2000/408.pdf"
+    format: pdf
+    citation: "Executive Order No. 408 (Thompson)"
+    title: "Relating to the Development and Implementation of Electronic Commerce Methods for the Delivery of State and Local Government Services in Wisconsin"
+    doc_type: executive_order
+    jurisdiction: wisconsin
+    issuing_body: Office of the Governor
+    tags: [digital-services]
+    recheck: monthly
+    stub: true
+    stub_reason: "Text not committed, measured 2026-11-12. The Legislature's PDF is a page scan (a full-page image on every page, about 300 ppi, per pdfimages) with a hidden text layer that is a machine reading and holds recognition errors, so it is not text of record (the layer is largely unreadable, for example 'Rel:llill~ to tile Uc\\\"dllllllleJlI' for the first words of the order's title). The corpus's two-engine OCR procedure (src/ingest_ocr.py) runs ocrmypdf without --force-ocr and so stops on any page that already has text (ingest run 2026-11-12: 'PriorOcrFoundError: page already has text!'); it needs a shared-code option to set the layer aside (Colorado's executive order stub met the same layer problem). Becomes a document when that option exists and the two engines clear the word and figure bars."
+    why_relevant: "Governor Thompson's 2000 order directing executive branch agencies to provide electronic government services and the Secretary of Administration to create an Internet-based service center. LRB index: 'Electronic government services for Internet: executive branch agencies to work with the Dept. of Administration to develop and implement'. No rescission found; whether it remains operative is an OWNER DECISION."
+  - id: wi-eo-thompson-416
+    url: "https://docs.legis.wisconsin.gov/document/executiveorders/2001/416.pdf"
+    format: pdf
+    citation: "Executive Order No. 416 (Thompson)"
+    title: "Statement of Direction Relating to Proper Software License Compliance"
+    doc_type: executive_order
+    jurisdiction: wisconsin
+    issuing_body: Office of the Governor
+    tags: [procurement, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "Text not committed, measured 2026-11-12. The Legislature's PDF is a page scan (a full-page image on every page, about 300 ppi, per pdfimages) with a hidden text layer that is a machine reading and holds recognition errors, so it is not text of record (the layer reads 'WIIEREAS', 'Gouldfurther' and 'Iaws' for 'WHEREAS', 'could further' and 'laws'). The corpus's two-engine OCR procedure (src/ingest_ocr.py) runs ocrmypdf without --force-ocr and so stops on any page that already has text (ingest run 2026-11-12: 'PriorOcrFoundError: page already has text!'); it needs a shared-code option to set the layer aside (Colorado's executive order stub met the same layer problem). Becomes a document when that option exists and the two engines clear the word and figure bars."
+    why_relevant: "Governor Thompson's January 2001 order directing state agencies on software license compliance and the Department of Administration to set an IT purchase policy through qualified resellers and enforce license terms in IT contracts. No rescission found; whether it remains operative is an OWNER DECISION."
+
+  # ---- Index pages, watched so the monthly drift run reports additions and removals
+  - id: wi-watch-det-policies
+    url: "https://det.wi.gov/Pages/policies.aspx"
+    format: html
+    citation: "DET Policies and Standards page"
+    title: "DET Policies and Standards (index)"
+    doc_type: policy
+    jurisdiction: wisconsin
+    tags: [governance, cybersecurity]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The statewide IT policy and standards library index: 4 items on 2026-11-12 (the Acceptable Technology Use, Access, and Security Policy, the IT Security Policy Handbook, the IT Security Standards Handbook and the Flaw Remediation (SI-2) Security Standard), each with its last-revised date. An item added, removed or revised here raises a review-the-seed-list report."
+  - id: wi-watch-det-vendor-cloud-brokerage
+    url: "https://det.wi.gov/Pages/Vendor_Cloud_Brokerage-.aspx"
+    format: html
+    citation: "DET Vendor Cloud Brokerage page"
+    title: "DET Vendor Cloud Brokerage (vendor requirements page)"
+    doc_type: policy
+    jurisdiction: wisconsin
+    tags: [cloud-resilience, procurement]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "DET's page of cloud requirements and the review process for vendors that provide or seek to provide cloud services to the state. Not on the Policies page and an HTML page with attached forms, so it is watched, not ingested (OWNER DECISION, see the left-out record)."
+  - id: wi-watch-adm-chapters
+    url: "https://docs.legis.wisconsin.gov/code/admin_code/adm"
+    format: html
+    citation: "Wisconsin Administrative Code, Department of Administration chapters"
+    title: "Wis. Admin. Code, Department of Administration (Adm) chapter list"
+    doc_type: rule
+    jurisdiction: wisconsin
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Legislature's list of the Department of Administration's chapters (Adm 1 to Adm 95, 46 chapters on 2026-11-12). Read for IT rules: only ch. Adm 12 (electronic records) is IT. A chapter added here raises a review-the-seed-list report."
+  - id: wi-watch-evers-eo-legislature
+    url: "https://docs.legis.wisconsin.gov/code/executive_orders/2019_tony_evers"
+    format: html
+    citation: "Governor Evers executive orders (Legislature's archive)"
+    title: "Executive orders of Governor Tony Evers, 2019- (Legislature's archive list)"
+    doc_type: executive_order
+    jurisdiction: wisconsin
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Legislature's list of every executive order of the current governor, by year and number (no titles; the numbered links go to the signed PDFs). A new order raises a review-the-seed-list report. Orders of earlier governors are not watched: they cannot gain new orders."
+  - id: wi-watch-evers-eo-governor
+    url: "https://evers.wi.gov/Pages/Newsroom/Executive-Orders.aspx"
+    format: html
+    citation: "Governor's executive orders page"
+    title: "Executive orders (Governor Evers' office page, with titles)"
+    doc_type: executive_order
+    jurisdiction: wisconsin
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Governor's own list of executive orders with titles and dates (120 of the 121 orders numbered 185 to 305 on 2026-11-12; the page omits only #268, which the Legislature's archive lists). Read for orders on state IT, cybersecurity, data or AI: only #211 (AI task force, left out) was found among #185 to #305; #184 (seeded) precedes the page."
+
+left_out:
+- text: '---- Wisconsin: found and left out (each was seen on an official page on 2026-11-12; the reason is recorded here)'
+- text: |-
+    Statutes. Read: the whole of Chapter 16 as the Legislature's PDF (109 pages, 2023-24 Statutes updated through 2025 Wis. Act 247, published 11-4-26), the Legislature's pages for ss. 15.103, 16.61, 16.754 and 134.98, and the statute references in the DET policy handbook, standards handbook and acceptable-use policy. Seeded: ss. 15.103, 16.97 to 16.977, 16.979, 16.611 and 134.98; s. 16.61 is a stub (its page is cut off by the end of the Legislature's window).
+     - The central IT agency and the State CIO: the division is created by s. 15.103 (5) (seeded); no statute section was found that names or defines the "State Chief Information Officer": Chapter 16 as read has no occurrence of 'chief information officer', and executive order #184 uses it as a job title. The DET Senior Leadership page (https://det.wi.gov/Pages/Senior-Leadership.aspx) titles the division's administrator 'State Chief Information Officer - Division Administrator'.
+     - s. 16.978: no section 16.978 appears in the chapter text read (the subchapter runs 16.97, 16.971, 16.972, 16.973, 16.974, 16.975, 16.976, 16.977, 16.979).
+     - Subchapter IX of ch. 16, ss. 16.99 to 16.998 (Technology for Educational Achievement: educational telecommunications and school and library internet access, listed on the DET Policies page as a statute that pertains closely to DET): out of scope (broadband and telecom, K-12 and library services), not fetched. OWNER DECISION if wanted.
+     - Subchapter VIII, ss. 16.98 and 16.981 (federal resource acquisition, transfer of appropriations): not IT.
+     - s. 16.754 (preference for American-made materials, cited in the DET policy handbook's compliance references for the removal of prohibited foreign products): a general procurement preference for tangible goods, read in full, in a procurement subchapter. The playbook leaves procurement-chapter sections out pending an owner decision on section-level slicing. OWNER DECISION.
+     - s. 16.612 (local government records; optical disc and electronic storage standards): the local-government counterpart of s. 16.611, read in full; it directs the department to set by rule standards for optical discs and electronically stored records filed with local governmental units, so it binds local governments, not state agencies. Left out.
+     - ss. 16.70 to 16.77 (state procurement) and the rest of ch. 16 (other than ss. 16.611 and 16.612, above): not IT, not fetched. s. 16.974 (5), the IT contract review power, is seeded.
+     - ss. 19.62 to 19.80 (personal information practices of state authorities; the handbook cites s. 19.62 (5) for the definition of personally identifiable information): found as a reference in the DET handbooks, not fetched; a non-IT chapter (general duties of public officials), several sections. OWNER DECISION on section-level slicing.
+     - Statutes outside chapters 15, 16 and 134 were not searched. The Legislature's statute search is an internal endpoint and was not used.
+     - AI statutes binding state agencies: none found. The list read is Chapter 16 as published 11-4-26, which has no occurrence of 'artificial intelligence'. Web search (discovery only, nothing in the repo rests on it) found 2025 Wis. Act 34 (an AI-generated intimate imagery offense in the criminal code, deepfakes and AI crimes are out of scope) and, in the 2025 budget bills AB 50 and SB 45, a proposed department duty to develop AI tools for state agencies, which is not in the published Chapter 16 text read here (bills not enacted are out of scope).
+- text: |-
+    Administrative rules. Read: the Legislature's list of the Department of Administration's chapters (46 chapters, Adm 1 to Adm 95) and ch. Adm 12 (seeded, electronic records). The list was read for IT rules: none other than Adm 12. Left out: Adm 70 (electronic recording of documents in county register of deeds offices: local government), Adm 5 to Adm 10 and Adm 20 to Adm 24 (procurement, bidding and construction contracting), and the rest (parking, buildings, housing, energy, business certification and similar). DET sets its IT requirements by policy and standard, not by rule: the DET handbooks cite statutes and executive order #184, not an administrative-code chapter. Other agencies' rules (for example the Public Records Board, the Department of Justice) were not searched.
+- text: |-
+    Executive orders. Read: the Legislature's archive lists for Governor Evers (2019-), Walker, Doyle, Thompson and McCallum (the 2001-2002 archive list, 35 numbered orders without titles; the LRB index lists none of his on IT), the Legislative Reference Bureau's Index to Executive Orders by Wisconsin Governors 1965-2025 (January 2026, 106 pages; read for every entry on information technology, cybersecurity, data, privacy, electronic services, software, records and AI), and the Governor's page of titles. Seeded as stubs: Evers #184 and Thompson #242, #408 and #416 (scans with a machine-read text layer, see each stub reason). Left out:
+     - Evers #211 (August 2023, Governor's Task Force on Workforce and Artificial Intelligence): the AI order the CDT list names. It creates a task force in the Department of Workforce Development to study generative AI's effect on the labor market and recommend workforce and education policy; it does not govern the state's own use of AI, so it fails the inclusion test (subject: IT, data or AI as a government function). It asked for an advisory action plan, which the Department of Workforce Development published in July 2024, and was fetched and read in full on 2026-11-12. OWNER DECISION: it is the only Wisconsin executive order on AI.
+     - Evers #182 (January 2023, re-creation of 28 non-statutory committees including the Governor's Information Technology Executive Steering Committee and the Wisconsin Technology Committee, two of the 28): an omnibus list of committees, not an instrument on IT; the committees expire under s. 14.019 unless a new order recreates them. The LRB index shows the two committees created by Walker (#99 in 2013 and #51 in 2011), recreated in 2015 and recreated by Evers in 2019 (#6) and 2023 (#182); #6 is superseded by #182 and was not fetched. OWNER DECISION.
+     - Evers #190 (April 2023, updates to the Telecommunications Relay Service Council): telecom, out of scope.
+     - The other Evers orders numbered 185 to 305: 121 in all, 120 of them titled on the Governor's page (re-counted from the page bytes on 2026-11-12; #200, #257, #260 and #278 are listed there) and #268 (a flag proclamation, fetched and read), which the page omits. By title: 78 flag proclamations (including the Pride flag order #204, whose title the page misspells), 17 emergency or disaster declarations and economic-disruption orders (#303, price gouging), and 21 others: special elections and sessions, commissions and task forces, education compliance, flood insurance, vaccinations, tribal treaty rights, wild rice, commutation and, #294, a ban on state workers profiting from insider information (conduct, not IT); #190 and #211 are named above. None other is on IT.
+     - Evers #1 to #183 (2019 to 2022): not read order by order (the Legislature's archive lists numbers without titles); a keyword search of the LRB subject index for them lists none on IT other than the committee orders #6 and #182 (above); #184 itself was issued January 2023.
+     - Earlier governors, by keyword search of the LRB index: Thompson #242, #408 and #416 (seeded as stubs) are the IT orders it lists for 1987 to 2001. Also listed and not fetched: Thompson #373 and #379 (1999 Governor's Task Force on Privacy), Lucey #38 (1976, review process for forms used by state agencies) and Knowles #1 (1967, a Task Force on Computer Services staff committee); by their index titles these are a task force, a one-time review and a committee. OWNER DECISION if wanted.      - Walker #189 (3/11/2016, 'Promoting open and transparent government through implementation of best practices and performance dashboards') and its continuation #235 (3/9/2017): fetched and read on 2026-11-12. They direct every state agency on public records requests (response times, a records email address, training) and, in #235, on posting three public-records metrics on agency performance dashboards. The subject is public-records access and agency performance reporting, not IT, data publication or AI, so they fail the inclusion test; both are page scans with a machine-read text layer like the stubs above. OWNER DECISION if the data-publication duty is wanted.
+     - Doyle #129 (2005), #182 (2007) and #303 (2009): the eHealth Care Quality and Patient Safety Board, recreated, then rescinded by #303, which created the WIRED for Health Board (health information exchange): boards, health-sector, and #129 is rescinded. Not IT governance of state agencies.
+     - Thompson #341 and #360 (1998 and 1999, Governor's Blue Ribbon Commission on Year 2000 Preparedness): a commission with a report required, for a date problem that has passed.
+     - Thompson #317 (9/16/1997, directs the Department of Administration to oversee implementation of the FCC universal service fund program in Wisconsin): telecommunications, out of scope.
+     - Earl #79 (1985, Wisconsin Land Records Committee, recreated by Thompson #1 in 1987): a committee; land records are not state agency IT.
+     - Other Doyle and Walker orders on IT: none found in the LRB index; the committee orders above are the ones it lists.
+- text: |-
+    Statewide IT policy and standards library (the DET Policies and Standards page, https://det.wi.gov/Pages/policies.aspx, 4 items on 2026-11-12: two policies and two standards). Every row is a document: the Acceptable Technology Use, Access, and Security Policy, the IT Security Policy Handbook, the IT Security Standards Handbook (26 numbered standards inside one file) and the Flaw Remediation (SI-2) Security Standard. Found elsewhere and not seeded:
+     - Numbered standard files that search results listed under https://det.wi.gov/Documents/ (for example 110, 170 and 210 'Standard Executive Branch', Combined_Security_Standards_2024.pdf, CloudBrokeragePolicy.pdf, CloudBrokerageProcessStandard.pdf): all answered HTTP 404 through the Fetcher on 2026-11-12 and are not linked from the Policies page. Not in force at those addresses; the current numbered standards are the sections of the Standards Handbook.
+     - The State Strategic IT Plan 2026-2028 and its Quick Reference Guide (https://det.wi.gov/Pages/Strategic_Planning.aspx; the plan is required by s. 16.971 (2) (m)): strategy documents, not instruments.
+     - DET Vendor Cloud Brokerage (https://det.wi.gov/Pages/Vendor_Cloud_Brokerage-.aspx, linked from the vendor resources page): a requirements and review-process page for vendors that provide or seek to provide cloud services to the state, with a Vendor Cloud Solution Information Form (.docx) and a non-disclosure agreement (.docx) attached. Not an item of the Policies page, an HTML SharePoint page the shared readers have no cleanup for, and the attached forms are not instruments. Watched. OWNER DECISION whether the page is a standard to be ingested with a state module hook.
+     - DET Cloud Brokerage (https://det.wi.gov/Pages/Cloud_Brokerage.aspx, linked from the DET Security page): the Fetcher was redirected to the DET Customer Center sign-in page (a SharePoint 'Sign In' page on detcc.wi.gov). Sign-in only, so no text of record.
+     - DET Customer Center (detcc.wi.gov): the Strategic Planning page says state employees and agency partners reach further material there; it is behind sign-in and not read. The International Travel Procedure (a PDF on detcc.wi.gov, labelled 'Internal Customer Use Only' on https://det.wi.gov/Pages/InternationalTravelReferences.aspx) was not fetched.
+     - Report a Security Incident (https://det.wi.gov/Pages/Report_an_Incident_Contacts.aspx): a contact chart (state agencies to the Enterprise Service Desk, others to Emergency Management or the DOJ fusion center), not an instrument. The DET Security page (https://det.wi.gov/Pages/Security.aspx) is a page of links and resources, not an instrument.
+     - DET Rates (https://det.wi.gov/Pages/rates.aspx) and the grants pages: the home page links a rates page and cybersecurity grant programs; not read order by order and not policy.
+     - The Policies page's own links to the two statute subchapters and to NIST SP 800-53: references; the statutes are seeded or left out above, NIST is federal.
+     - Forms, templates and workbooks linked from DET pages (for example DOA-10816 Vendor Cloud Solution Information Form): not instruments.
+- text: |-
+    Scope notes. The Policies page's 4 items were read from the page bytes and the PDFs fetched through the Fetcher on 2026-11-12; none of the four PDFs has a page with no text layer (checked per page: the few pages under 40 words are a cover, a last page or a page ending a list). The UW System, the Department of Justice, the Department of Military Affairs, the Investment Board and the Technical College System Board are outside the acceptable-use policy's scope by its own text, and are not given separate instruments. The statute pages carry one hazard: the Legislature's pages serve a window of neighbouring sections around the one asked for, so a section is taken from the page as the elements it tags with its own number; the subchapter and chapter pages (for example https://docs.legis.wisconsin.gov/document/statutes/subch.%20VII%20of%20ch.%2016) serve a partial window loaded by script and were not used. Statutes are not watched (no stable index page serves the section list); the chapter 16 PDF is the Legislature's file that holds subchapter VII and was read for discovery only.

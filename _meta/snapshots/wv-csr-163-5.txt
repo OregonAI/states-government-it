@@ -1,0 +1,181 @@
+TITLE 163
+
+LEGISLATIVE RULE
+
+WEST VIRGINIA OFFICE OF TECHNOLOGY (WVOT)
+
+SERIES 5
+
+TELECOMMUNICATIONS PAYMENTS BY SPENDING UNITS
+
+§163-5-1. General.
+
+1.1. Scope. -- This legislative rule provides procedures for the collection of payments from state spending units for telecommunications services as provided in W. Va. Code §5A-6-4(d).
+
+1.2. Authority. -- W. Va. Code §5A-6-4.
+
+1.3. Filing Date. -- April 21, 2025.
+
+1.4. Effective Date. -- April 22, 2025.
+
+1.5. Sunset Date. -- This rule shall terminate and have no further force or effect upon August 1, 2030.
+
+§163-5-2. Definitions.
+
+2.1. As used in this rule, all terms have the same meaning as provided in W. Va. Code §5A-6-2 and as follows:
+
+2.1.1. “Business days” means any day the State of West Virginia is open for business excluding official holidays and emergency closings.
+
+2.1.2. “Components” means any ancillary documentation or backup data (electronic copies, etc.) that are required to complete the apportionment of the charges identified on the invoice.
+
+2.1.3. “Fund Application” means the Office of Technology fund application.
+
+2.1.4. “Invoice” means the vendor’s invoice and any components that list all of the services and charges that WVOT is expected to apportion out to the spending units for reimbursement.
+
+2.1.5. “WVOT” means the West Virginia Office of Technology within the Department of Administration as established in W. Va. Code §5A-6-1.
+
+2.1.6. “Legitimate Uncontested Invoice” means an invoice for shared account telecommunication services that is received by the WVOT which does not include: (1) charges not allowed, either by state law or contractually; (2) lack of designation of specific spending unit for said service; (3) charges in error due to, but not limited to, overcharge, service failure, failure on the vendor’s part to terminate services as requested or other failure of or error in vendor performance; or (4) where applicable, charges and services that are not in accordance with contract pricing.
+
+2.1.7. “Office of Technology Fund” means the fund created by West Virginia Code §5A-6-3(b).
+
+2.1.8. “Received” or “receipt” means the date on the invoice or the date the invoice was received electronically, whichever is later.
+
+2.1.9. “Rejected Invoice” means an invoice rejected for processing by WVOT for any of the following reasons: (1) charges not allowed, either by state law or contractually; (2) lack of designation of specific spending unit for said service; (3) charges in error due to, but not limited to, overcharge, service failure, failure on the vendor’s part to terminate services as requested or other failure of or error in vendor performance; and (4) where applicable, charges and/or services that are not in accordance with contract pricing.
+
+2.1.10. “Secretary” means the Secretary of the Department of Administration.
+
+2.1.11. “Shared Account” means an invoice for telecommunications services that includes charges for two or more spending units.
+
+2.1.12. “Spending Unit” means a department, agency, or institution of the state government for which an appropriation is requested, or to which an appropriation is made by the Legislature: Provided, That spending unit does not include the Legislature or the judiciary.
+
+2.1.13. “State Treasury” means any payments that are processed outside of the State’s Enterprise Resource Planning system.
+
+2.1.14. “Statement” means an itemized listing of all telecommunications charges for each spending unit.
+
+2.1.15. “Statement Due Date” means a date indicated on a statement that is the deadline for a spending unit to submit payment to WVOT or transfer to the WVOT Fund the full amount due. The statement due date must be no more than 30 calendar days from the time WVOT mails or emails a statement to the spending unit.
+
+2.1.16. “Telecommunications Change Request” means a request form that is completed by the spending unit for requesting telecommunications services and then submitted to WVOT for processing and authorization.
+
+2.1.17. “Telecommunications Services Expenses” means the expenses associated with the administration costs.
+
+2.1.18. “Vendor” means a vendor supplying telecommunications services to the state and its spending units which is properly registered and qualified and which supplies telecommunication services to two or more spending units under a shared account.
+
+§163-5-3. Applicability.
+
+This legislative rule applies to all spending units that have their telecommunications services billed on the state’s shared account.
+
+§163-5-4. WVOT Review of Vendor Invoices; Apportionment of Vendor Charges; Statements from WVOT to Spending Units.
+
+4.1. Preliminary Review of Vendor Invoice.
+
+4.1.1. WVOT shall receive and review all vendor invoices for telecommunications services provided to spending units through the statewide contract.
+
+4.1.2. All telecommunications invoices will be deemed received by WVOT as of the date on the invoice or the date the invoice was received electronically, whichever is later.
+
+4.2. Rejected Vendor Invoices.
+
+4.2.1. WVOT shall reject any charges if:
+
+4.2.1.a. Any charges are not authorized by law or the contract under which telecommunications services are provided or designated;
+
+4.2.1.b. No specific spending unit is designated for the charge;
+
+4.2.1.c. Any charges are in error due to, but not limited to, overcharge, service failure, failure on the vendor’s part to terminate services as requested or other failure or error in vendor performance; or
+
+4.2.1.d. Any charge or service is not in accordance with the contract pricing.
+
+4.2.2. WVOT will notify the vendor within 45 days of receiving an invoice if any charges are rejected and include in the notice a description of rejected charges and a proposed resolution.
+
+4.3. Charges should be apportioned for payment to the appropriate spending units within 60 days of the invoice being received. Each telecommunications invoice received for a shared account will be apportioned among the spending units based on the spending unit’s service and usage, as determined by the Chief Information Officer.
+
+4.4. WVOT shall ensure that all statements itemizing the apportioned telecommunications charges by spending units are audited within 30 days and invoiced to agencies within 60 days.
+
+4.5. Statements to Spending Units.
+
+4.5.1. WVOT will submit statements to each spending unit within 60 days from receipt of a legitimate uncontested invoice detailing telecommunications charges. The statement will include: (1) a unique identifier code for each spending unit; (2) a payment or transfer due date; and (3) a detailed listing of all telecommunications charges, including the telecommunications service expense.
+
+4.6. WVOT shall track all payments received from the spending units and provide the secretary with a list of those spending units who have not transferred or submitted full payment to the Office of Technology Fund by the required statement due date.
+
+4.7. WVOT will track all statements sent to each spending unit and then apply all payments made against the same.
+
+4.8. WVOT may negotiate on behalf of the spending units any disputed charges.
+
+§163-5-5. Administrative Service Fee.
+
+Assess a telecommunications service expense fee up to 5% to all spending units based on each spending unit’s portion of service and usage. Fee percentage is to be determined by the Chief Information Officer annually.
+
+§163-5-6. Spending Unit Rights and Responsibilities.
+
+6.1. All spending units will be required to complete and have approved a fund application by the date indicated on the application. Failure to have an approved fund application on file by the required date will result in termination of that spending unit’s telecommunication services and prohibit any new activity until the fund application is provided.
+
+6.1.1. Any spending unit with monies in the State Treasury that fails to have an approved fund application on file by the required date may be subject to discontinuance of telecommunications services.
+
+6.1.2. Any participating spending unit maintaining funds in depositories outside the State Treasury shall furnish the secretary access to those funds for the exclusive purposes of this section. Such spending units are required to file a fund application to meet this requirement. Failure to have an approved fund application on file by the required date will result in termination of that spending unit’s telecommunication services and prohibit any new activity until the fund application is provided.
+
+6.2. Contested Charges on a Spending Unit’s Statement from WVOT.
+
+6.2.1. Spending units contesting a statement or any portion of a statement must, nonetheless, remit for payment the entire statement amount to the WVOT fund by the due date on the statement.
+
+6.2.2. The Chief Information Officer, or their designee, must be notified in writing of all disputed charges within 30 days of receipt of the statement by the spending unit.
+
+6.2.3. The spending unit’s written notice to the Chief Information Officer, or their designee, must include: 1) the statement due date, number, and total charges; 2) the contested charges and the reason for contesting the charges; and 3) a proposed resolution.
+
+6.3. Review of Contested Charges.
+
+6.3.1. If the basis of a contested charge is an overcharge, failure on the vendor’s part to terminate services, or other failure in vendor performance, WVOT will withhold the contested amount from the current or future vendor payments, pending resolution of the contest.
+
+6.3.1.a. WVOT will bring the contested matter to the attention of the vendor, in writing within 30 business days from receipt of the spending unit’s notification of contested charges if it cannot be resolved by WVOT internally.
+
+6.3.1.b. Notice to the vendor will include: 1) the account number; 2) invoice number and date; 3) the contested charges and the reason for contesting the charges; and 4) a proposed resolution.
+
+6.3.1.c. Contested charges that cannot be resolved in good faith between the Chief Information Officer and the vendor within 75 days of the receipt of the vendor's invoice will be brought to the attention of the secretary.
+
+6.3.1.d. Within 90 days of the receipt of the vendor’s invoice or a time period mutually agreed to by the vendor and the secretary, the secretary shall make the final decision as to the legitimacy of the contested amount and determine if payment is warranted.
+
+6.3.1.e. If the secretary’s decision is to refuse payment, the vendor may proceed in accordance with the provisions of W. Va. Code §14-2-1 et seq.
+
+6.3.2. The spending unit will be notified of the final determination of any charges that are contested within 10 business days of receipt of the contested charges and appropriate action will be taken by WVOT.
+
+§163-5-7. Payments to WVOT.
+
+7.1. Payments for Services to the Office of Technology Fund.
+
+7.1.1. Spending units are required to submit or transfer payments in full to the WVOT fund by the statement due date.
+
+7.1.2. Spending units are required to remit full payment even if a portion of the statement’s costs are being disputed (refer to §163-5-6.3 of this rule for submitting contested charges).
+
+7.2. Payments to the Telecommunications Vendors.
+
+7.2.1. WVOT shall make full payment to the vendor for all legitimate, uncontested telecommunication charges within 90 days of receiving an invoice for telecommunication services.
+
+7.2.2. For the purposes of determining the 90-day time period for payment due date, any payment received by WVOT prior to the date which the invoiced telecommunications services were delivered or fully performed is considered received on the date the covered telecommunications services were delivered or fully performed.
+
+7.3. Late Payments.
+
+7.3.1. In the event a spending unit fails to transfer funds or submit payment in full to the WVOT fund by the statement due date, the secretary shall transfer to the WVOT fund the statement amount plus an additional penalty in the amount of three percent of the statement amount from any funds supporting the administration of that spending unit.
+
+7.3.2. Upon exercising a transfer pursuant to §163-5-7.3.1 of this rule, the Chief Information Officer, or their designee, will notify the spending unit, in writing, of the transfer. Notification will include, but is not limited to, the date, time, total amount of the transfer, statement amount, and penalty amount.
+
+7.3.3. A spending unit that does not have sufficient funds in the State Treasury or depository to make full payment will be notified, in writing, of the insufficiency. The spending unit will have five days from receipt of the notice of insufficiency to make payment in full along with the three percent penalty charge based on the total statement amount.
+
+7.4. Discontinuance of Service.
+
+7.4.1. A spending unit failing to make funds available after five days of receiving a “Notice of Insufficient Funds” may have its telecommunications service discontinued. Prior to discontinuance, the Chief Information Officer shall notify the Joint Committee of Government and Finance and shall, with the approval of the secretary, discontinue services for the agency head of the delinquent spending unit until an acceptable payment plan is submitted and approved by WVOT.
+
+7.4.2. WVOT will provide written notice to a spending unit when a telecommunications vendor has been notified to discontinue services to the spending unit.
+
+7.4.3. If service is discontinued and the spending unit, in turn, makes full payment (including penalty costs), the Chief Information Officer may submit a written direction to the telecommunications vendor to reinstate those services. The spending unit will be responsible for any and all costs associated with any service that is discontinued or discontinued and then reinstated.
+
+7.4.4. Until a spending unit is in good standing it will not be permitted to obtain any new telecommunications services.
+
+§163-5-8. Vendor Rights and Responsibilities.
+
+8.1. The provisions of this series section shall govern any new telecommunication vendor that provides services to spending units via a shared account. All vendors, both current and new, are to provide telecommunications services to spending units on the shared account only upon receipt from WVOT of an authorized and WVOT-approved Telecommunications Change Request form. If a vendor provides new service without the authorized form, WVOT shall not be responsible for the charges.
+
+8.2. Vendor Invoices to WVOT for Telecommunications Services.
+
+8.2.1. All vendors that invoice WVOT on behalf of multiple spending units must submit a consolidated invoice that includes a list of each spending unit represented in the total charges.
+
+8.2.2. All shared account invoices are to be sent electronically to WVOT’s Telecommunications Unit.
+
+8.2.3. Vendors must make reasonable efforts to tender accurate invoices for telecommunication services in a format approved by WVOT. If a vendor submits a supplemental invoice or letter, the charges included in the supplemental invoice or letter must also be included in the vendor’s invoices for the next two billing cycles from the date of a contested charge. This ensures invoice balances are up to date and for legitimate charges.

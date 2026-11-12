@@ -1,0 +1,272 @@
+Data Domain Standard
+WyIT.2001-S4
+
+ Document Owner         Department of Enterprise Services, Data Privacy
+ Document Contact       Pat Potter, Deputy Chief Data Officer
+ Document Approver      Wyoming Data Governance Committee (WDGC)
+ Effective Date         September 12, 2025
+ Next Review Date       April 1, 2027
+ Document Version       2026-09.1
+ Associated Policy      WyIT 2001, Information Classification
+
+​
+Introduction:
+This standard establishes the structural and organizational requirements and characteristics that data
+domains must meet to support Data Owner management activities as defined in WyIT 2001-S1, Data
+Owner Standard.
+
+This standard applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This standard is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store data.
+
+Authority
+This standard is promulgated under the authority of Wyoming State Statute 9-2-2906 and its
+subsections, the Department of Enterprise Technology Services is required to adopt and enforce
+information technology standards, and promote efficient use of information technology throughout state
+government.
+
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+                                                     ​
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store state data.
+
+Definitions
+Key Definitions, Acronyms, and Terms
+
+Primary Duties:
+ 1.​   DUTY DESCRIPTION
+       1.1.​ Data domains shall have clearly defined boundaries that logically group related data
+             types, systems, or business functions. Domains may be organized around agency
+             programs, business services, application systems, or data types, and shall encompass
+             both structured data (such as databases, spreadsheets, and organized electronic files)
+             and unstructured data (such as documents, emails, multimedia files, and social media
+             content). Domain boundaries shall minimize governance gaps and overlapping authority
+             while supporting Data Owner management responsibilities.​
+
+       1.2.​   Data domains shall be formally documented within agency operational scope, including
+               domain boundaries, included data types, responsible systems, Data Owner assignment,
+               regulatory considerations, and interdependencies with other domains. Domain
+               documentation shall be maintained in a format accessible to Data Owners, Data
+               Stewards, and audit functions.​
+
+       1.3.​   Data domains shall maintain classification levels that reflect the highest sensitivity of
+               component data within the domain. Domain classification shall provide the framework for
+               Data Steward classification activities and regulatory compliance requirements.​
+
+       1.4.​   Data domains shall have assigned Data Owners with documented authority as specified
+               in WyIT 2001-S1. Domain governance structure shall support clear accountability and
+               decision-making processes.​
+
+       1.5.​   Data domains that share data or have operational dependencies shall maintain
+               documented interfaces and coordination mechanisms. Cross-domain activities shall
+               preserve individual Data Owner authority while ensuring consistent governance
+               application.
+
+       1.6.​   Data domains containing regulated information shall be structured to support specific
+               regulatory requirements including HIPAA, FERPA, CJIS, PCI DSS, and IRS 1075.
+               Regulatory domains shall implement enhanced documentation and control requirements.
+
+                                                      2
+
+                                               ​
+The below table references federal audit standard requirements for ‘data owners’.
+
+ Requirement       NIST Cybersecurity      NIST Risk Management           NIST Privacy
+                  Framework (CSF) 2.0      Framework (RMF) – SP      Framework Version 1.0
+                                                   800-37 Rev. 2
+
+   REQ-003         ID.AM-05, PR.AC-01               RA-2, AC-2         ID.IM-P2, CT.PO-P1
+
+   REQ-004         GV.RR-02, GV.OC-02               PM-2, PS-2         GV.PO-P3, GV.RR-P1
+
+   REQ-005         GV.SC-01, PR.AC-01               CA-3, PM-1         CT.PO-P2, PR.PO-P1
+
+   REQ-006         GV.PO-01, PR.AC-01               AC-2, CA-2         GV.PO-P4, CT.PO-P3
+
+   REQ-007         GV.RR-01, GV.SC-01              PM-1, PM-2          GV.MT-P1, GV.PO-P1
+
+   REQ-008         GV.OC-02, ID.AM-01               PM-5, CA-5         GV.PO-P2, ID.IM-P1
+
+   REQ-009         PR.DS-02, GV.SC-01              MP-3, MP-4          PR.DS-P1, PR.DS-P2
+
+   REQ-010         DE.CM-01, RS.CO-02                IR-6, IR-8        PR.IR-P1, GV.MT-P2
+
+   REQ-011         GV.RR-01, GV.SC-02               PM-2, CA-2         GV.RR-P1, GV.RR-P2
+
+                                               3
+
+                                                         ​
+
+  Requirement          NIST Cybersecurity            NIST Risk Management         NIST Privacy
+                       Framework (CSF) 2.0           Framework (RMF) – SP     Framework Version 1.0
+                                                              800-37 Rev. 2
+
+    REQ-003            ID.AM-05, PR.AC-01                      RA-2, AC-2      ID.IM-P2, CT.PO-P1
+
+    REQ-004            GV.RR-02, GV.OC-02                      PM-2, PS-2      GV.PO-P3, GV.RR-P1
+
+    REQ-005            GV.SC-01, PR.AC-01                      CA-3, PM-1      CT.PO-P2, PR.PO-P1
+
+    REQ-006            GV.PO-01, PR.AC-01                      AC-2, CA-2      GV.PO-P4, CT.PO-P3
+
+    REQ-007            GV.RR-01, GV.SC-01                     PM-1, PM-2       GV.MT-P1, GV.PO-P1
+
+    REQ-008            GV.OC-02, ID.AM-01                      PM-5, CA-5      GV.PO-P2, ID.IM-P1
+
+    REQ-009            PR.DS-02, GV.SC-01                     MP-3, MP-4       PR.DS-P1, PR.DS-P2
+
+    REQ-010            DE.CM-01, RS.CO-02                       IR-6, IR-8     PR.IR-P1, GV.MT-P2
+
+    REQ-011            GV.RR-01, GV.SC-02                      PM-2, CA-2      GV.RR-P1, GV.RR-P2
+
+Audit Controls and NIST Framework Mappings:
+These are the standard controls that are from prior audits.
+
+    1.​ (REQ-001) Domain Structure and Boundary Definition
+
+                                                         4
+
+                                                ​
+       a.​ Implementation. Data domains shall have clearly defined boundaries that logically group
+           related data types, systems, or business functions to minimize governance gaps and
+           support Data Owner management responsibilities.
+       b.​ Validation. Verify domain boundaries are documented, logical, and minimize overlapping
+           authority through boundary definition audits and governance coverage assessments.​
+
+2.​ (REQ-002) Domain Documentation Compliance
+       a.​ Implementation. Data domains shall maintain standardized documentation including
+           domain scope, data types, systems, Data Owner assignments, regulatory
+           considerations, and interdependencies.
+       b.​ Validation. Audit domain documentation for completeness and standardization, verifying
+           all required elements are current and accessible to authorized personnel.​
+
+3.​ (REQ-003) Domain Classification Standards
+       a.​ Implementation. Data domains shall maintain classification levels reflecting the highest
+           sensitivity of component data and provide framework for Data Steward classification
+           activities within the domain.
+       b.​ Validation. Review domain classification assignments and verify they properly reflect
+           component data sensitivity and support operational classification activities.​
+
+4.​ (REQ-004) Domain Governance Structure Verification
+       a.​ Implementation. Data domains shall have assigned Data Owners with documented
+           authority as specified in WyIT 2001-S1 and clear accountability structures for domain
+           governance decisions.
+       b.​ Validation. Verify Data Owner assignments are current, authority is documented, and
+           governance structures support effective domain management and decision-making.​
+
+5.​ (REQ-005) Cross-Domain Interface Management
+       a.​ Implementation. Data domains with shared data or operational dependencies shall
+           maintain documented interfaces and coordination mechanisms that preserve individual
+           Data Owner authority.
+       b.​ Validation. Audit cross-domain interfaces and coordination mechanisms, verifying they
+           facilitate necessary collaboration while maintaining clear authority boundaries.​
+           ​
+
+                                                5
+
+                                               ​
+6.​ (REQ-006) Regulatory Domain Structure Compliance
+       a.​ Implementation. Data domains containing regulated information shall implement
+           enhanced structure requirements to support specific regulatory compliance including
+           HIPAA, FERPA, CJIS, PCI DSS, and IRS 1075
+       b.​ Validation. Verify regulatory domains meet enhanced structural requirements and
+           support regulatory compliance through specialized audits and compliance assessments.​
+
+7.​ (REQ-007) Domain Lifecycle Management Standards
+       a.​ Implementation. Data domains shall follow standardized lifecycle processes for domain
+           creation, modification, merging, splitting, and retirement with appropriate Data Owner
+           approval and documentation
+       b.​ Validation. Review domain lifecycle documentation and verify changes follow established
+           processes with proper approvals and impact assessments.​
+
+8.​ (REQ-008) Domain Integration Standards
+       a.​ Implementation. Data domains shall align with enterprise governance initiatives while
+           maintaining support for Data Owner management authority and agency-specific
+           operational requirements.
+       b.​ Validation. Assess domain alignment with enterprise standards and verify integration
+           supports rather than conflicts with Data Owner domain management responsibilities.​
+
+9.​ (REQ-009) Domain Security and Access Standards
+       a.​ Implementation. Data domains shall implement appropriate security measures and
+           access controls based on domain classification levels and regulatory requirements.
+       b.​ Validation. Verify domain security implementations align with classification levels and
+           regulatory requirements through security control assessments.​
+
+10.​(REQ-010) Domain Incident Response Standards
+       a.​ Implementation. Data domains shall have documented incident response procedures
+           that integrate with agency and enterprise incident response processes while supporting
+           Data Owner incident management responsibilities.
+       b.​ Validation. Review domain incident response procedures and verify they integrate
+           appropriately with broader incident response frameworks.​
+           ​
+
+                                                6
+
+                                                   ​
+   11.​(REQ-011) Domain Reporting and Monitoring Standards
+          a.​ Implementation. Data domains shall support governance reporting requirements and
+              monitoring activities that provide visibility into domain health and compliance status.
+           b.​ Validation. Verify domain reporting and monitoring capabilities provide appropriate
+              visibility and support governance oversight requirements.
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ WyIT 2001, Information Classification
+   2.​ WyIT 2001-S1, Data Owner Standard
+   3.​ WyIT 2001-S2, Data Steward Standard
+   4.​ WyIT 2001-S3, Data Custodian Standard
+   5.​ WyIT 2001-G1, Information Classification Guide
+   6.​ WyIT 2001-GL2, Information Classification Procedures Guide
+
+Compliance & Exceptions:
+Compliance
+This document supports an established policy, so there are no compliance requirements.
+
+Exceptions
+Since standards are not held to a compliance standard, there are no exceptions to this standard.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+Approval
+This policy as signed by the appropriate officer (listed below) is considered approved and enforced, per
+Wyoming State Statutes (W.S 9-2-2906,(b), (iii)) and (W.S. 9-2-2906,(b), (vi)).
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+                                                   7
+
+                                                        ​
+ Jeffrey Clines                                                    Chief Information Officer
+ Officer Name                                                      Officer Title
+
+ Officer’s Signature                                               Date
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version        Change                                          Author(s)                  Date of Change
+ 2026-09.1      ETS Director signature                          GRC                        September 2026
+ 2025-09.1      Original Document                               Pat Potter, Deputy CDO     September 2025
+
+                                                         8

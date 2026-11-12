@@ -1,0 +1,153 @@
+{
+  "agreement": 0.9842,
+  "dict_ratio": 0.9665,
+  "disagreements": [
+    {
+      "before": [
+        "academic",
+        "institutions",
+        "and",
+        "other"
+      ],
+      "paddle": "MARK GORDON",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "WEST",
+        "24",
+        "TH",
+        "STREET"
+      ],
+      "paddle": "",
+      "tesseract": "MARK G O RD ON"
+    },
+    {
+      "before": [
+        "frequency",
+        "of",
+        "its",
+        "meetings"
+      ],
+      "paddle": "MARK GORDON",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "WEST",
+        "24",
+        "TH",
+        "STREET"
+      ],
+      "paddle": "",
+      "tesseract": "MARK G ORD ON"
+    },
+    {
+      "before": [
+        "CISA",
+        "the",
+        "Federal",
+        "Bureau"
+      ],
+      "paddle": "MARK GORDON",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "WEST",
+        "24",
+        "TH",
+        "STREET"
+      ],
+      "paddle": "",
+      "tesseract": "MARK GORD ON"
+    },
+    {
+      "before": [
+        "Executive",
+        "Order",
+        "is",
+        "effective"
+      ],
+      "paddle": "n",
+      "tesseract": "Zz ry 7"
+    },
+    {
+      "before": [
+        "as",
+        "it",
+        "is",
+        "rescinded"
+      ],
+      "paddle": "",
+      "tesseract": "J"
+    },
+    {
+      "before": [
+        "the",
+        "State",
+        "of",
+        "Wyoming"
+      ],
+      "paddle": "thisday",
+      "tesseract": "this Dnt day"
+    },
+    {
+      "before": [
+        "this",
+        "Dnt",
+        "day",
+        "of"
+      ],
+      "paddle": "gume",
+      "tesseract": "Y INA"
+    },
+    {
+      "before": [
+        "of",
+        "Y",
+        "INA",
+        "2023"
+      ],
+      "paddle": "",
+      "tesseract": "Vuh pple"
+    },
+    {
+      "before": [
+        "pple",
+        "Mark",
+        "Gordon",
+        "Governor"
+      ],
+      "paddle": "MARK GORDON",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "WEST",
+        "24",
+        "TH",
+        "STREET"
+      ],
+      "paddle": "",
+      "tesseract": "MARK GORD ON"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9901,
+  "figures": 51,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "0193a9a4e1a0f47ae35dc31865cb4cee36a8d1800bfb7d0eea8c84346c8c1f50",
+  "pdf_sha256": "a1874e564c3acb1ef1b200d47b6b201cd298372f962b36c66aec76cf4693f0a7",
+  "psm": null,
+  "text_sha256": "66faa9976fb0c1b8478b9600ca61490737f41fbcc1ee0ed3cf10f1b19c28a4d6",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 954
+}

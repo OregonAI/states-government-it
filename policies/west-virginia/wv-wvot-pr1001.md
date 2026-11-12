@@ -1,0 +1,340 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-pr1001
+title: Technical Investigation Request Procedure
+doc_type: policy
+citation: WVOT-PR1001
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1Frk3hFAjTsTw8l-9q2fP5ImonTH0Dd2a
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 53753068160e14e02fb59ffdf9c0c12388318b61a281df2b11f784460bb67546
+effective_date: null
+source_version: Revised 11/18/2025
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as
+  extracted. source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Technical Investigation Request Procedure (WVOT-PR1001)
+
+## At a glance
+
+The process by which state agencies request an investigation into an employee's technology-based activity (listed under Procedures on the index). The request form is a separate file, left out as a form.
+
+## Full text
+
+I​ssued by the​                                    ​Technical Investigation Request Procedure​
+ ​Chief Information Officer​                                                   ​WVOT-PR1001​
+
+                                                                                         ​ 2/26/2008​
+                                                                                         0
+                                                                                ​Revised 11/18/2025​
+                                                                         ​OPR: WVOT Cybersecurity​
+                  ​COMPLIANCE WITH THIS PUBLICATION IS MANDATORY​
+                             ​Publications are available online at​
+ ​https://sites.google.com/wv.gov/wvot-extranet/policy-governance/executive-branch-policies​
+​ uestions​ ​and​ ​change​ ​recommendations​​related​​to​​this​​publication​​shall​​be​​directed​​to​
+Q
+​this​ ​publication's​ ​Office​ ​of​ ​Primary​ ​Responsibility​ ​(OPR).​ ​This​ ​publication​ ​shall​ ​be​
+ ​reviewed​​every​​two​​years​​to​​ensure​​continued​​alignment​​with​​current​​legal,​​operational,​
+  ​and strategic requirements. Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Version​       ​Date​           ​Revision Description​
+
+                 ​01/30/2015​     ​Added Change History​
+
+                 ​09/01/2016​     ​Reviewed, no changes​
+
+                 ​10/20/2017​     ​Reviewed, minor administrative updates made​
+
+                 ​01/25/2023​     ​ eviewed,​ ​contact​ ​information​ ​updated​ ​and​ ​Appendix​ ​A​
+                                  R
+                                  ​removed​
+
+                 ​11/18/2025​     ​ utdated​​terms​​removed​​and​​links​​corrected,​​Appendix​​B​
+                                  O
+                                  ​renamed to Appendix A.​
+
+ ​1.​   ​PURPOSE​
+
+        ​1.1.​   ​ he purpose of this Procedure is to specify the process for State agencies​
+                 T
+                 ​when requesting an investigation into any State employee’s​
+                  ​technology-based activity.​​This procedure should not​​be construed to​
+                   ​convey any expectation of privacy.​
+
+ ​2.​   ​SCOPE​
+
+        ​2.1.​   ​ his​ ​policy​ ​applies​ ​to​ ​all​ ​departments​ ​(including​ ​agencies,​ ​boards,​
+                 T
+                 ​authorities,​ ​and​ ​commissions)​ ​within​ ​the​ ​Executive​ ​Branch​ ​of​ ​WV​ ​State​
+                  ​Government,​​excluding​​constitutional​​officers,​​the​​WV​​Board​​of​​Education,​
+                   ​the​​WV​​Department​​of​​Education,​​and​​the​​county​​boards​​of​​education​​that​
+                    ​have​ ​access​ ​to​ ​or​ ​use​ ​State-provided​ ​resources.​ ​However,​ ​the​ ​West​
+                     ​Virginia​ ​Office​ ​of​ ​Technology(WVOT)​ ​recommends​ ​that​ ​all​ ​agencies,​
+                      ​including those excluded above, follow this procedure.​
+
+                                              ​Page​​1​​of 6​
+
+                     ​Technical Investigation Request Procedure​
+​WVOT-PR1001                             Issue Date: 02/26/2008                           Revised: 11/18/2025​
+
+        ​2.2.​     ​ here​​there​​are​​policies​​in​​place​​which​​provide​​less​​restrictions​​or​​security​
+                   W
+                   ​than​ ​this​ ​policy,​ ​those​ ​policies​ ​will​ ​be​ ​superseded​ ​by​ ​this​ ​policy.​ ​In​
+                    ​instances​ ​where​ ​existing​ ​state​ ​and​ ​federal​ ​laws,​​regulations,​​and​​policies​
+                     ​are​ ​more​ ​restrictive​ ​than​ ​this​ ​policy,​ ​the​ ​more​ ​restrictive​ ​provisions​ ​will​
+                      ​prevail.​
+
+        ​2.3.​     ​ upervisors​ ​and​ ​managers​ ​must​ ​follow​ ​this​ ​procedure​ ​to​ ​initiate​
+                   S
+                   ​investigations of persons using State equipment and systems.​
+
+ ​3.​   ​RESPONSIBILITIES​
+
+        ​3.1.​     ​Agency Responsibilities:​
+
+                 ​3.1.1.​   ​ o​ ​gain​ ​access​ ​to​ ​information​ ​about​ ​employees’​ ​technology-based​
+                            T
+                            ​activities,​​a​​suspected​​violation​​of​​law​​or​​policy​​should​​be​​identified​
+                             ​to initiate the required technical investigations.​
+
+                 ​3.1.2.​   ​ gencies​ ​should​ ​exercise​ ​discretion​ ​when​ ​requesting​ ​reports​ ​of​
+                            A
+                            ​user​ ​activities,​ ​and​ ​should​ ​involve​ ​both​ ​Agency​ ​Legal​ ​and​
+                             ​Personnel​ ​services​ ​in​ ​the​ ​decision​ ​to​​submit​​such​​requests.​​These​
+                              ​requests​ ​should​ ​not​ ​be​ ​for​ ​HR​ ​matters​ ​such​ ​as​ ​employee​
+                               ​attendance​ ​or​ ​to​ ​determine​ ​if​ ​an​ ​employee​ ​is​ ​meeting​ ​their​ ​work​
+                                ​expectations.​
+
+                 ​3.1.3.​   ​ ny​ ​agency​ ​supervisor​ ​or​ ​manager​ ​may​ ​initiate​ ​a​ ​request​ ​for​
+                            A
+                            ​access.​ ​However,​ ​only​ ​Office​ ​Directors,​ ​Commissioners,​ ​Cabinet​
+                             ​Secretaries,​ ​or​ ​the​ ​*Legislature’s​ ​Commission​ ​on​ ​Special​
+                              ​Investigations​ ​has​​the​​authority​​to​​approve​​and​​submit​​requests​​for​
+                               ​investigations​ ​of​ ​staff​ ​in​ ​their​ ​own​ ​office,​ ​agency,​ ​or​ ​department.​
+                                ​(*may request from any office)​
+
+        ​3.2.​     ​WVOT Responsibilities:​
+
+                 ​3.2.1.​   ​ he​ ​Service​ ​Desk,​ ​or​ ​any​ ​WVOT​ ​employee,​ ​must​ ​immediately​
+                            T
+                            ​transfer​ ​all​ ​investigation​ ​requests​ ​to​ ​the​ ​Cyber​ ​Security​ ​Office​
+                             ​(CSO).​
+
+                 ​3.2.2.​   ​ ll​ ​employees​ ​involved​ ​in​ ​technical​ ​investigations​ ​are​ ​required​ ​to​
+                            A
+                            ​keep all information discovered in the process confidential.​
+
+ ​4.​   ​PROCEDURE​
+
+        ​4.1.​     ​ LL​​investigation​​requests​​must​​be​​submitted​​to​​WVOT​​through​​electronic​
+                   A
+                   ​form found at https://technology.wv.gov/policy-governance/ot-policies.​
+
+                                                   ​Page​​2​​of 5​
+
+                  ​Technical Investigation Request Procedure​
+​WVOT-PR1001                         Issue Date: 02/26/2008                          Revised: 11/18/2025​
+
+     ​4.2.​     ​ hen​ ​requesting​ ​a​ ​technology-related​ ​investigation​ ​for​ ​any​ ​State​
+                W
+                ​employee the following information must be submitted:​
+
+              ​4.2.1.​   ​ ame,​ ​title,​ ​agency​ ​name,​ ​and​ ​phone​ ​number​​of​​the​​supervisor​​or​
+                         N
+                         ​manager requesting the investigation;​
+
+              ​4.2.2.​   ​ ame,​ ​e-mail​ ​address,​ ​and​ ​userid​ ​of​ ​the​ ​individual​ ​whose​ ​activity​
+                         N
+                         ​will be investigated;​
+
+              ​4.2.3.​   ​ urpose​ ​of​ ​Investigation​ ​or​ ​Suspected​ ​Violation​ ​(ex:​ ​to​ ​confirm​
+                         P
+                         ​suspicion​ ​of​ ​abuse​ ​or​ ​misuse;​ ​to​ ​remove​ ​cloud​ ​of​ ​suspicion,​ ​etc.)​
+                          ​As​ ​a​ ​guide​ ​to​ ​the​ ​kinds​ ​of​ ​violations​ ​that​ ​merit​ ​investigation,​
+                           ​examples include, but are not limited to the following:​
+
+                    ​4.2.3.1.​    ​ uspected​ ​violations​ ​of​ ​the​ ​law.​ ​Examples​ ​include,​ ​but​​may​
+                                  S
+                                 ​not be limited to the following:​
+
+                         ​4.2.3.1.1.​     ​Criminal enterprise;​
+
+                         ​4.2.3.1.2.​     ​Sexual harassment; and​
+
+                         ​4.2.3.1.3.​     ​Willful misuse of legally protected information, etc.​
+
+                    ​4.2.3.2.​    ​ uspected​ ​violations​ ​of​ ​State​ ​policy.​ ​Examples​ ​include,​ ​but​
+                                  S
+                                  ​may​​not​​be​​limited​​to​​the​​following​​(For​​more​​information,​​see​
+                                   ​“Appendix​ ​A”​ ​of​ ​WVOT-PO1001​ ​-​ ​West​ ​Virginia​ ​State​
+                                 ​Information Security Policy:​
+
+                         ​4.2.3.2.1.​     ​Commercial enterprise purposes or for-profit activities​
+
+                         ​4.2.3.2.2.​     ​Sexually explicit use​
+
+                         ​4.2.3.2.3.​     ​Chain letters​
+
+                         ​4.2.3.2.4.​     ​Disabling security systems or controls​
+
+                         ​4.2.3.2.5.​     ​Breach of confidentiality, unethical conduct​
+
+              ​4.2.4.​   ​Interval of Investigation (ex: 03/01/23 to 08/15/23)​
+
+              ​4.2.5.​   ​Report Due Date (based upon urgency)​
+
+     ​4.3.​     ​ he​ ​CISO​​will​​work​​with​​other​​Directors​​as​​needed​​to​​assign​​investigative​
+                T
+                ​tasks to the appropriate technicians.​
+
+                                               ​Page​​3​​of 5​
+
+                     ​Technical Investigation Request Procedure​
+​WVOT-PR1001                             Issue Date: 02/26/2008                            Revised: 11/18/2025​
+
+        ​4.4.​     ​ he​ ​WVOT​ ​will​ ​perform​ ​a​ ​best-effort​ ​investigation​ ​over​ ​the​ ​specified​
+                   T
+                   ​interval​ ​to​ ​determine​ ​the​ ​existence​ ​of​ ​findings​ ​that​ ​could​ ​indicate​ ​a​
+                    ​violation. The authorized requestor agrees to the following:​
+
+                 ​4.4.1.​   ​ he​ ​WVOT​ ​may​ ​utilize​ ​any​ ​sources,​​tools,​​or​​technologies​​needed​
+                            T
+                            ​to​ ​provide​ ​the​ ​most​ ​accurate,​ ​detailed,​ ​and​ ​relevant​ ​information​
+                             ​possible.​
+
+                 ​4.4.2.​   ​ he​ ​individual​ ​under​ ​investigation​ ​will​ ​remain​ ​separated​ ​from​ ​the​
+                            T
+                            ​investigator at all times.​
+
+        ​4.5.​     ​ he​ ​CISO​ ​will​ ​send​ ​the​ ​authorized​ ​requestor​ ​a​ ​detailed​ ​report​ ​of​ ​the​
+                   T
+                   ​findings​ ​resulting​ ​from​ ​the​ ​investigation.​​This​​will​​follow​​the​​same​​path​​as​
+                    ​the​ ​request​ ​(technician​ ​–CISO–​ ​requestor).​ ​Criminal​ ​activity​​findings​​may​
+                     ​be reported directly to law enforcement.​
+
+        ​4.6.​     ​ gencies​​using​​investigative​​services​​provided​​by​​the​​WVOT​​may​​be​​billed​
+                   A
+                   ​according to a standard rate structure.​
+
+ ​5.​   ​POLICY SPECIFIC DEFINITIONS​
+
+        ​5.1.​     ​ abinet Secretary – The head of a Department who is appointed by the​
+                   C
+                   ​Governor.​
+
+        ​5.2.​     ​ hief​ ​Information​ ​Security​​Officer​​(CISO)​​-​​Person​​designated​​by​​the​​CIO​
+                   C
+                   ​to​ ​oversee​ ​Information​ ​Security​ ​practices​ ​and​ ​initiatives​​for​​the​​Executive​
+                    ​Branch of WV State government, excluding the constitutional officers.​
+
+        ​5.3.​     ​ hief​ ​Information​ ​Officer​ ​(CIO)​ ​–​ ​The​ ​person​ ​responsible​ ​for​ ​the​ ​State’s​
+                   C
+                   ​information resources.​
+
+        ​5.4.​     ​ ommissioner​ ​-​ ​The​ ​head​ ​of​ ​a​ ​State​ ​organizational​ ​entity​ ​(Bureau,​
+                   C
+                   ​Commission, etc.)​
+
+        ​5.5.​     ​ -mail​​–​​Any​​message​​sent​​electronically​​through​​one​​or​​more​​computers​
+                   E
+                   ​and/or​ ​communications​ ​networks,​ ​and​ ​in​ ​most​ ​cases​ ​has​ ​a​ ​human​
+                    ​originator and receiver.​
+
+        ​5.6.​     ​ mployee​ ​–​ ​Individuals​ ​retained​ ​and​ ​authorized​ ​on​ ​a​ ​temporary​ ​or​
+                   E
+                   ​permanent​​basis​​by​​the​​State​​of​​West​​Virginia​​to​​perform​​a​​service.​​For​​the​
+                    ​purposes​ ​of​ ​Information​ ​Technology​ ​and​ ​Security​ ​policy,​ ​the​ ​term​
+                     ​“employee”​ ​shall​ ​include​ ​the​ ​following:​ ​contractors,​ ​subcontractors,​
+                      ​contractors’​ ​employees,​ ​volunteers,​ ​county​ ​health​ ​department​ ​staff,​
+                       ​business​ ​associates,​ ​and​ ​any​ ​other​ ​persons​ ​who​ ​are​ ​determined​ ​and​
+                        ​notified​ ​by​ ​the​ ​WVOT​ ​to​ ​be​​subject​​to​​this​​policy.​​This​​definition​​does​​not​
+                         ​create any additional rights or duties.​
+
+                                                   ​Page​​4​​of 5​
+
+                      ​Technical Investigation Request Procedure​
+​WVOT-PR1001                             Issue Date: 02/26/2008                           Revised: 11/18/2025​
+
+         ​5.7.​     ​ egislature’s​ ​Commission​ ​on​ ​Special​ ​Investigations​ ​–​ ​The​​group​​charged​
+                    L
+                    ​with​ ​performing​ ​a​ ​range​ ​of​ ​investigative​ ​tasks,​ ​including​ ​suspected​
+                     ​purchasing​ ​violations,​ ​illegal​ ​conduct​ ​by​ ​State​ ​employees,​ ​conflicts​ ​of​
+                      ​interest,​ ​bribery​ ​of​ ​State​ ​officials,​ ​and​ ​malfeasance.​ ​This​ ​body​ ​may​ ​also​
+                       ​recommend​ ​action​ ​to​ ​the​​Attorney​​General,​​prosecuting​​attorney,​​or​​other​
+                        ​authority​ ​empowered​ ​to​ ​act​ ​upon​ ​such​ ​recommendation.​ ​(See​
+                         ​https://www.wvlegislature.gov/Joint/csi.cfm)​
+
+         ​5.8.​     ​ ffice​ ​Director​ ​–​ ​The​ ​designated​ ​or​ ​appointed​ ​head​ ​of​ ​a​ ​state​
+                    O
+                    ​organizational​ ​entity​ ​who​ ​generally​ ​reports​ ​directly​ ​to​ ​the​ ​head​ ​of​ ​the​
+                     ​agency, such as a Commissioner.​
+
+         ​5.9.​     ​ yber​ ​Security​ ​Office​ ​(CSO)​ ​-​ ​The​ ​functional​ ​unit​ ​charged​ ​with​ ​the​
+                    C
+                    ​responsibility​ ​to​ ​undertake​ ​and​ ​sustain​ ​initiatives​ ​to​ ​promote,​ ​enhance,​
+                     ​monitor,​ ​and​ ​govern​ ​actions,​ ​standards,​ ​and​ ​activities​ ​necessary​ ​to​
+                      ​safeguard​ ​data​ ​and​ ​information​ ​systems​ ​within​ ​the​ ​Executive​ ​Branch​ ​of​
+                       ​WV,​​as​​provided​​in​​West​​Virginia​​Code​​§5A-6-4a​​and​​the​​Governor&#39;s​
+                        ​Executive Order No. 6-06.​
+
+        ​5.10.​     ​ rocedure​​–​​A​​series​​of​​steps​​followed​​in​​a​​definite​​regular​​order​​ensuring​
+                    P
+                    ​the consistent and repetitive approach to actions.​
+
+        ​5.11.​     ​Userid – unique “name” which each user is identified to a computer system​
+
+        ​5.12.​     ​ est​ ​Virginia​ ​Division​ ​of​ ​Personnel​ ​–​ ​The​ ​Division​ ​in​ ​the​ ​Department​ ​of​
+                    W
+                    ​Administration​ ​established​ ​by​ ​WV​ ​CODE​ ​§​ ​29-6-1​ ​et​ ​seq.,​ ​which​ ​is​
+                     ​responsible​​for​​human​​resource​​management​​for​​operating​​agencies​​in​​the​
+                      ​classified and classified-exempt service of WV State government.​
+
+        ​5.13.​     ​ est​ ​Virginia​ ​Office​ ​of​ ​Technology​ ​(WVOT)​ ​-​ ​The​ ​division​ ​of​ ​the​
+                    W
+                    ​Department​​of​​Administration​​established​​by​​WV​​Code​​§​​5A-6-4a,​​et.​​seq.,​
+                     ​which​ ​is​ ​led​ ​by​ ​the​ ​State’s​ ​CTO​ ​and​ ​designated​ ​to​​acquire,​​operate,​​and​
+                      ​maintain​ ​the​ ​State’s​ ​technology​ ​infrastructure.​ ​The​ ​WVOT​ ​is​ ​responsible​
+                       ​for evaluating equipment and services, and reviewing IT contracts.​
+
+ ​6.​     ​RELEVANT MATERIALS AND DOCUMENTS​
+
+         ​6.1.​     ​This procedure is consistent with the following federal and state authorities​
+
+                  ​6.1.1.​   ​WVOT-PO1001 - West Virginia State Information Security Policy​
+
+                  ​6.1.2.​   ​https://www.wvlegislature.gov/Joint/csi.cfm​
+
+                  ​6.1.3.​   ​ VOT Publications Central Library Website​
+                             W
+                             ​https://sites.google.com/wv.gov/wvot-extranet/policy-governance/ex​
+                              ​ecutive-branch-policies​
+
+                                                   ​Page​​5​​of 5​
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as extracted. source_version is the revision or issue date the policy prints, as printed.

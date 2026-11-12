@@ -1,0 +1,235 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-po1026
+title: Network Monitoring Policy (Formerly WVOT Backbone Monitoring)
+doc_type: policy
+citation: WVOT-PO1026
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1x3ae8elFh6m8VX6UOvk5brkhE4Rp20Ct
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 14c3106d3f35c501ed23d8d09416a127b84a0afd70b498bda1bb57f2f14ed151
+effective_date: null
+source_version: Revised 03/26/2026
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as
+  extracted. source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Network Monitoring Policy (Formerly WVOT Backbone Monitoring) (WVOT-PO1026)
+
+## At a glance
+
+The Office of Technology's Network Monitoring Policy (OPR: WVOT Cybersecurity).
+
+## Full text
+
+I​ssued by the​                                                            ​Network Monitoring Policy​
+ ​Chief Information Officer​                                                          ​WVOT-PO1026​
+
+                                                                                               ​ 3/01/2013​
+                                                                                               0
+                                                                                      ​Revised 03/26/2026​
+                                                                              ​OPR: WVOT Cybersecurity​
+                    ​COMPLIANCE WITH THIS PUBLICATION IS MANDATORY​
+                                   ​Publications are available online at​
+                 ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+    ​ uestions​​and​​change​​recommendations​​related​​to​​this​​publication​​shall​​be​​directed​​to​
+    Q
+​this​ ​publication's​ ​Office​ ​of​ ​Primary​​Responsibility​​(OPR).​ ​This​​policy​​shall​​be​​reviewed​
+ ​annually​ ​to​ ​ensure​ ​continued​ ​alignment​ ​with​ ​current​ ​legal,​ ​operational,​ ​and​ ​strategic​
+  ​requirements. Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Version​          ​Date​           ​Revision Description​
+
+ ​1​                ​07/01/2015​     ​Added Change Log History, Split 4.5 into 4.5 & 4.6​
+
+ ​2​                ​09/01/2016​     ​Reviewed - No Changes​
+
+ ​3​                ​10/20/2017​     ​Reviewed - No Changes​
+
+ ​4​                ​12/31/2023​     ​Updated website link​
+
+ ​5​                ​DRAFT​          ​ eformated​ ​and​ ​renamed​ ​from​ ​WVOT​ ​Backbone​
+                                     R
+                                     ​Monitoring to Network Monitoring Policy​
+
+ ​1.​    ​ URPOSE​
+         P
+        ​1.1.​ ​This policy establishes the West Virginia Office of Technology (WVOT)​
+                ​requirements regarding the monitoring and logging of network traffic that​
+                 ​traverses the WVOT Network Backbone. The goal of monitoring is to​
+                  ​maintain the integrity and security of the State’s network infrastructure and​
+                   ​information assets. Any inspection of electronic data, and any action​
+                    ​performed following such inspection, will be governed by all applicable​
+                     ​federal and state statutes and by WVOT policies and procedures.​
+
+ ​2.​    ​ COPE​
+         S
+        ​2.1.​ ​This​ ​policy​ ​applies​ ​to​ ​all​ ​departments​ ​(including​ ​agencies,​ ​boards,​
+                ​authorities,​ ​and​ ​commissions)​ ​within​ ​the​ ​Executive​ ​Branch​ ​of​ ​WV​ ​State​
+                 ​Government,​​as​​well​​as​​any​​user,​​device,​​and/or​​agency​​connected​​to​​the​
+                  ​WVOT network backbone.​
+
+        ​2.2.​     ​ here​​there​​are​​policies​​in​​place​​which​​provide​​less​​restrictions​​or​​security​
+                   W
+                   ​than​ ​this​ ​policy,​ ​those​ ​policies​ ​will​ ​be​ ​superseded​ ​by​ ​this​ ​policy.​ ​In​
+                    ​instances​ ​where​ ​existing​ ​state​ ​and​ ​federal​ ​laws,​​regulations,​​and​​policies​
+                     ​are more restrictive, the more restrictive provisions will prevail.​
+
+                                                  ​Page​​1​​of 4​
+
+                                 ​Network Monitoring Policy​
+​WVOT-PO1026                              Issue Date: 03/01/2013                           Revised: 03/26/2026​
+
+ ​3.​   ​POLICY​
+
+        ​3.1.​     ​ ackbone​ ​network​ ​traffic​ ​will​ ​be​ ​monitored​ ​for​ ​the​ ​improper​ ​release​ ​of​
+                   B
+                   ​confidential​ ​information,​ ​intruder​ ​detection,​ ​and​ ​other​ ​security​ ​or​ ​policy​
+                    ​violations.​
+
+        ​3.2.​     ​ ersonnel​ ​authorized​ ​to​ ​analyze​ ​the​ ​network​ ​backbone​ ​will​ ​not​ ​disclose​
+                   P
+                   ​any​ ​information​ ​reviewed​ ​in​ ​the​ ​process​ ​without​ ​approval​ ​of​ ​the​ ​Chief​
+                    ​Information​​Officer​​(CIO)​​or​​Chief​​Information​​Security​​Officer​​(CISO),​​and​
+                     ​the appropriate agency authority, when appropriate.​
+
+        ​3.3.​     ​ nly​ ​the​ ​Security​ ​Operations​ ​Center​ ​(SOC)​ ​and​​Networking​​teams​​in​​the​
+                   O
+                   ​WVOT​ ​are​ ​authorized​ ​to​ ​routinely​​monitor​​traffic.​​Authorization​​for​​ad​​hoc​
+                    ​monitoring may be granted to others in writing by the CIO or CISO.​
+
+        ​3.4.​     ​Authorized staff shall use network monitoring devices only to detect:​
+
+                 ​3.4.1.​   ​patterns of attack or compromise;​
+
+                 ​3.4.2.​   ​unauthorized release of data;​
+
+                 ​3.4.3.​   ​to troubleshoot and analyze network-based problems.​
+
+                 ​3.4.4.​   ​to detect and investigate anomalous network activity​
+
+        ​3.5.​     ​ he​ ​scope​ ​of​ ​all​ ​monitoring​ ​shall​ ​be​ ​restricted​ ​only​ ​to​ ​that​ ​necessary​ ​for​
+                   T
+                   ​the fulfillment of security and network operation duties.​
+
+        ​3.6.​     ​ onitoring​ ​data​ ​stores​ ​and​ ​logs​ ​will​ ​not​ ​be​ ​accessible​ ​from​ ​the​ ​public​
+                   M
+                   ​Internet.​ ​All​ ​personnel​ ​will​ ​show​ ​due​ ​care​ ​to​ ​data​ ​in​ ​compliance​ ​with​ ​the​
+                    ​WVOT​ ​Data​ ​Classification​ ​Policy’s​ ​requirements​ ​for​ ​protection,​ ​handling,​
+                     ​and storage.​
+
+        ​3.7.​     ​ ll​ ​requests​ ​for​ ​monitoring​​assistance​​from​​agencies​​shall​​be​​coordinated​
+                   A
+                   ​through the Cybersecurity Office.​
+
+ ​4.​   ​POLICY SPECIFIC DEFINITIONS​
+
+        ​4.1.​     ​ hief​​Information​​Officer​​(CIO)​​-​​the​​person​​designated​​by​​the​​governor​​to​
+                   C
+                   ​lead​ ​the​ ​WV​ ​Office​ ​of​ ​Technology​ ​and​ ​oversee​ ​information​ ​technology​
+                    ​practices​ ​and​​initiatives​​for​​the​​Executive​​Brand​​of​​WV​​State​​government,​
+                     ​excluding the constitutional officers.​
+
+        ​4.2.​     ​ hief​​Information​​Security​​Officer​​(CISO)​​-​​Person​​designated​​by​​the​​CTO​
+                   C
+                   ​to​ ​oversee​ ​information​ ​security​ ​practices​ ​and​ ​initiatives​ ​for​ ​the​ ​Executive​
+                    ​Branch of WV State government, excluding the constitutional officers.​
+
+                                                    ​Page​​2​​of 4​
+
+                                ​Network Monitoring Policy​
+​WVOT-PO1026                             Issue Date: 03/01/2013                          Revised: 03/26/2026​
+
+         ​4.3.​   ​ onfidential​ ​Data​ ​–​ ​Information​ ​that​ ​is​ ​legally​ ​protected​ ​(e.g:​ ​Protected​
+                  C
+                  ​Health​ ​Information)​ ​or​ ​otherwise​ ​deemed​ ​by​ ​a​ ​qualified​ ​expert​ ​to​ ​be​
+                   ​unsuitable for open access.​
+
+         ​4.4.​   I​nformation​ ​Resources​ ​–​ ​Any​ ​information​ ​in​ ​electronic,​ ​audio-visual​ ​or​
+                   ​physical​ ​form,​ ​or​ ​any​ ​hardware​ ​or​ ​software​ ​that​ ​makes​ ​possible​ ​the​
+                    ​storage and use of information.​
+
+         ​4.5.​   ​ etwork​ ​Backbone​ ​–​ ​The​ ​physical​ ​and​ ​electronic​ ​network​ ​infrastructure,​
+                  N
+                  ​currently under the operational administration of the WVOT.​
+
+         ​4.6.​   ​ ffice​​of​​Primary​​Responsibility​​(OPR)​​-​​The​​primary​​section​​within​​WVOT​
+                  O
+                  ​that​ ​takes​ ​the​ ​lead​ ​on​ ​a​ ​specific​ ​policy​ ​or​​procedure.​ ​Usually​​the​​WVOT​
+                   ​service provider/owner that the policy is related to or governs.​
+
+         ​4.7.​   ​ OC​ ​–​ ​Security​ ​Operations​ ​Center.​ ​WVOT​ ​work​ ​unit​ ​responsible​ ​for​
+                  S
+                  ​monitoring the security of the Network Backbone.​
+
+         ​4.8.​   ​ OC​ ​–​ ​Enterprise​ ​Operations​ ​Center.​ ​WVOT​ ​work​ ​unit​ ​responsible​ ​for​
+                  E
+                  ​monitoring the health of the Network Backbone.​
+
+         ​4.9.​   ​ ubject​ ​Matter​ ​Expert(SME)​ ​-​ ​Someone​ ​with​ ​extensive,​ ​specialized​
+                  S
+                  ​knowledge and experience in a particular area, process, or topic.​
+
+        ​4.10.​   ​ est​ ​Virginia​ ​Office​ ​of​ ​Technology​ ​(WVOT)​ ​-​ ​The​ ​division​ ​of​ ​the​
+                  W
+                  ​Department​​of​​Administration​​established​​by​​WV​​Code​​§​​5A-6-4a,​​et.​​seq.,​
+                   ​which​ ​is​ ​led​ ​by​ ​the​ ​State’s​ ​CIO​ ​and​ ​designated​ ​to​ ​acquire,​ ​operate,​ ​and​
+                    ​maintain​ ​the​ ​State’s​ ​technology​ ​infrastructure.​ ​The​ ​WVOT​ ​is​ ​responsible​
+                     ​for​ ​evaluating​ ​equipment​ ​and​ ​services,​ ​and​ ​reviewing​ ​information​
+                      ​technology contracts.​
+
+ ​5.​     ​RELEVANT MATERIALS AND DOCUMENTS​
+
+         ​5.1.​   ​45 Code of Federal Regulations (CFR) §§ 164.308-316​
+
+         ​5.2.​   ​Freedom of Information Act​
+
+         ​5.3.​   ​Gramm-Leach Bliley Act (GLBA)​
+
+         ​5.4.​   ​Health Insurance Portability and Accountability Privacy Rule​
+
+         ​5.5.​   ​NIST SP 800-14 and NIST SP 800-53​
+
+         ​5.6.​   ​State Health Privacy Laws​
+
+         ​5.7.​   ​WV Code § 5A-6-4a​
+
+                                                  ​Page​​3​​of 4​
+
+                         ​Network Monitoring Policy​
+​WVOT-PO1026                    Issue Date: 03/01/2013                Revised: 03/26/2026​
+
+     ​5.8.​   ​WV Executive Order No. 7-03​
+
+     ​5.9.​   ​ VOT​ ​Policies​ ​Issued​ ​by​ ​the​ ​Chief​ ​Information​ ​Officer​ ​(CIO),​
+              W
+              ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+                                        ​Page​​4​​of 4​
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as extracted. source_version is the revision or issue date the policy prints, as printed.

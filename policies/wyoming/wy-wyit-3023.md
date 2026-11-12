@@ -1,0 +1,365 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: wyoming
+id: wy-wyit-3023
+title: Artificial Intelligence (GEN AI)
+doc_type: policy
+citation: WyIT 3023
+authority_level: ''
+issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1ZgbZwJsUnskGvTkBXRj8SUfOeejOeMNo
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: fc5bfcf714415c981add943defd894bdd1a1b78edf12f131e2134cb56e31e36e
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Artificial Intelligence (GEN AI) (WyIT 3023)
+
+## At a glance
+
+WyIT 3023, Artificial Intelligence (GEN AI): a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. The statewide policy on generative artificial intelligence use by Executive Branch staff.
+
+## Full text
+
+Artificial Intelligence
+WyIT.3023
+
+ Policy Owner            Drew Dilly, Chief Data Officer
+ Policy Contact          Pat Potter, Deputy Chief Data Officer
+ Policy Approver         Jeff Clines, Chief Information Officer
+ Effective Date
+ Next Review Date        October 01, 2027
+ Policy Version
+
+Scope:
+This policy defines the governing framework for the use, deployment and application of Artificial
+Intelligence (“AI”) and Generative Artificial Intelligence (“GenAI”) and related/similar technologies
+across state operations, including their use to make or support a decision or determination that results
+in the approval, denial, eligibility for, access to, modification, suspension, or termination of a person's
+rights, benefits, or obligations (a “Consequential Decision”)
+
+This policy serves as the state baseline. Agencies may implement more restrictive policies to meet
+applicable state and federal regulations or agency-specific requirements, provided they do not deviate
+substantially from this policy. In lieu of agency-specific policies, this policy shall serve as the governing
+standard.
+
+Authority
+This policy is promulgated under the authority of Wyoming State Statute 9-2-2906 and its subsections,
+the Department of Enterprise Technology Services is required to adopt and enforce information
+technology standards, and promote efficient use of information technology throughout state
+government.
+
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+                                                                  ​
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to all state consultants, affiliates, and
+temporary employees. Staff, consultants, affiliates, and temporary employees who use, configure, or
+manage AI systems on behalf of an agency are collectively referred to as “users.”
+
+Definitions
+Key Definitions, Acronyms, and Terms
+
+Policy Statements:
+ 1.​   AI POLICY STANDARDS / GUIDING PRINCIPLES
+       1.1.​ Gen AI outputs should not be assumed to be truthful, credible or accurate.
+               [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11]
+
+       1.2.​   Knowledgeable humans must review AI outputs for accuracy, appropriateness, privacy,
+               and security before an output is released outside the agency or used as a Material
+               Contribution to a work product, deliverable, or decision. AI outputs that support a
+               Consequential Decision require review by a qualified human reviewer. AI systems
+               designed to operate without per-output human review, such as workflow routing,
+               classification, or security monitoring, are permitted where they do not make or support a
+               Consequential Decision and the agency has documented the system's performance
+               validation and audit. ​
+               [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11]
+
+       1.3.​   Agencies and users remain accountable for their own use of AI systems, including using
+               approved AI tools, completing required human review, and complying with applicable
+               policy and data-handling requirements.
+               [1], [2], [3], [4], [9]
+
+       1.4.​   Agencies shall not enter sensitive, confidential, or protected information into any
+               unapproved AI tools without a prior approved Exception Request.
+               [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [13], [15]
+
+       1.5.​   The Office of the Chief Information Officer (OCIO) may authorize the use of an otherwise
+               unapproved AI system through the Exception Request process. Agencies shall use any
+               such system only within the conditions and limitations of the approved Exception
+               Request.
+               [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [12], [13], [14], [15]
+
+       1.6.​   Agencies shall ensure all third-party vendors use of any AI system, is included in either
+               the Data Sharing Agreement or contract.
+               [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [15]
+
+       1.7.​   All AI tools shall comply with General Security-Acceptable Use Policy.
+               [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [15], [16]
+
+                                                                  2
+
+                                                             ​
+ 1.8.​     Agencies shall provide instruction to users on multiple topics involving AI, including, but
+           not limited to: ​
+
+         1.8.1.​     Creating objective prompts; ​
+
+         1.8.2.​     Identifying, assessing, mitigating and monitoring for unfair bias or discriminatory
+                     outcomes.
+           [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [15], [16]
+
+ 1.9.​     Agencies shall conduct and document a comprehensive bias and fairness assessment
+           based on its data, environment, and target population, including, but not limited to
+           systems affecting:
+
+         1.9.1.​     Employment or hiring; and / or​
+
+         1.9.2.​     Eligibility for benefits, and / or access to services.
+           [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [15], [16], [17], [18]                  ​
+
+1.10.​     Agencies shall maintain primary responsibility for any / all third-party or vendor AI
+           assessments. The agency holds ultimate legal and operational responsibility, regardless
+           of what a vendor promises.
+           [1], [2], [3], [4], [5], [6], [7], [8], [10], [11], [15]
+
+1.11.​     System Owners shall conduct security, privacy and risk assessments to ensure
+           compliance with all Enterprise policies.
+           [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [15], [19]​
+
+1.12.​     Agencies shall ensure and document AI systems performance, to ensure accuracy and
+           reliability for their intended use, at a minimum:​
+
+     1.12.1.​        Prior to introduction into any production environment; and​
+
+     1.12.2.​        After a significant change to the system, including, but not limited to, a change to
+                     the system's multi-step workflows or autonomous action triggers, or a change
+                     that gives the system the capability to execute multi-step workflows or trigger
+                     autonomous actions.​
+
+     1.12.3.​        Agencies shall maintain a current inventory of AI systems in development or
+                     production. The Chief Information Officer (CIO) reserves the right to review the
+                     inventory and systems listed there.
+           [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [15], [19]​
+
+1.13.​     Agencies shall maintain notice language or method used to inform individuals when AI is
+           used to make or support a Consequential Decision about them and ensure decisions
+           are accountable and reviewable, and shall provide the affected individual a means to
+           request human review.
+           [1], [2], [5], [6], [7], [9]
+
+1.14.​     Agencies shall regularly audit the AI systems they own or operate, including internal
+           logic where accessible, and the real-world results of all AI systems they use, ensuring AI
+
+                                                              3
+
+                                                           ​
+         systems are compliant with laws, regulations, policies, and best practices, and shall
+         maintain the audit records.
+         [1], [3], [4], [6], [7], [8], [10], [11]
+
+1.15.​   Agencies shall not permit State data to be used for training or developing AI systems
+         other than those operated for State use. Data owned by federal, State, or local partners
+         is governed by the agreement with the data owner.
+         [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [15]
+
+1.16.​   Agencies shall ensure the prohibition on using State data to train or develop AI systems
+         not operated for State use is reflected in applicable data sharing agreements, contracts,
+         and procurement terms.
+         [1], [2], [3], [4], [5], [6], [7], [8], [9], [10], [11], [15]
+
+1.17.​   Users shall use an OCIO-approved AI tool provided through the State's standard
+         productivity suite, or another AI tool specifically authorized by the OCIO through an
+         approved Exception Request.
+         [1], [2], [3], [4], [6], [7], [8], [9], [10], [11], [15]
+
+1.18.​   Users shall adhere to any Information Classification policies or procedures of their
+         agency and Enterprise Information Classification Policy (WyIT.2001) when using
+         approved AI tools or storing Agency data within AI tools. Sensitive or confidential
+         information must be handled and stored according to established security protocols.
+         [1], [2], [3], [4], [6], [7], [8], [9], [10], [11], [12], [15]
+
+1.19.​   Agencies shall ensure AI-generated information that makes a Material Contribution to a
+         work product, deliverable, or Consequential Decision is identified and documented. . AI
+         Usage Documentation shall, at a minimum, identify:​
+
+     1.19.1.​      The AI tool or system used;​
+
+     1.19.2.​      The date of the transaction;​
+
+     1.19.3.​      Who researched and used the information;​
+
+     1.19.4.​      The natural person who conducted and is responsible for the human review; ​
+
+     1.19.5.​      The general purpose of use; and​
+
+     1.19.6.​      A brief description of the human review performed.
+         [1], [2], [3], [4], [6], [7], [8], [9], [10], [11], [13], [15]
+
+1.20.​   Users shall retain all AI Usage Documentation per State Archives retention schedule,
+         and those records shall be made available upon request for audit or review.
+         [1], [2], [3], [4], [6], [7], [8], [9], [10], [11], [13], [15]
+
+1.21.​   ETS shall maintain and publish a current list of OCIO-approved AI tools, including the
+         approved features of the State's standard productivity suite, and guidance on their
+         permitted use.
+         [1], [2], [3], [4], [6], [7], [8], [9], [10], [11], [15]​
+
+                                                            4
+
+                                                                   ​
+ 2.​   PROHIBITED / UNACCEPTABLE USE
+       2.1.​ Users shall not use any state issued / managed AI systems or tools:​
+
+               2.1.1.​     To transmit or store offensive, discriminatory, or harassing content;​
+
+               2.1.2.​     To generate deepfakes, impersonations, or misleading content;
+               2.1.3.​     For personal gain or commercial purposes, or personal or private use, other than
+                           occasional and incidental personal use permitted under the General Security
+                           Acceptable Use Policy .​
+
+               2.1.4.​     to generate or manipulate copyrighted materials for official state use without
+                           clearance from the agency's legal counsel or the Office of the Attorney General,
+                           as applicable;​
+
+               2.1.5.​     To track and / or classify individuals based on behaviors, socio-economic status,
+                           or personal characteristics; and​
+
+               2.1.6.​     To make autonomous, final binding decisions, including legal, personnel, and
+                           compliance decisions.
+                 [1], [2], [3], [4], [6], [7], [8], [9], [10], [11], [15], [16]
+
+       2.2.​     Users shall not:
+               2.2.1.​ Enter confidential, privacy-restricted, or non-state-owned data into any AI tool
+                        unless the agency is the data owner or a data sharing agreement or contract that
+                        covers AI usage is in place with the data owner in accordance with Enterprise
+                        data policies; ​
+
+               2.2.2.​     Use or access or purchase (including P-Card purchases) any AI-specific tools,
+                           applications or services that have not been formally authorized and approved
+                           through the OCIO approval process or an approved Exception Request;​
+
+               2.2.3.​     Circumvent, or attempt to otherwise bypass State of Wyoming security
+                           measures, or policies related to AI tools, or to access unauthorized AI systems.
+                 [1], [2], [3], [4], [6], [7], [8], [9], [10], [11], [15], [20]
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ National Institute of Standards and Technology (NIST) AI Risk Management Framework v1.0
+   2.​ National Institute of Standards and Technology (NIST) Cybersecurity Framework v2.0
+   3.​ National Institute of Standards and Technology (NIST) SP 800-53A r5
+   4.​ National Institute of Standards and Technology (NIST) SP 800-37 r2
+   5.​ National Institute of Standards and Technology (NIST) SP 800-171 r3
+   6.​ National Institute of Standards and Technology (NIST) SP 800-63B
+   7.​ IRS Publication 1075
+   8.​ FBI Criminal Justice Information Services (CJIS) Security Policy
+   9.​ WyIT.3023-S1, Artificial Intelligence Standard
+   10.​HIPAA, Security Rule, 45 CFR Part 160 and Part 164
+   11.​PCI-DSS, Payment Card Industry Data Security Standard
+   12.​WyIT.2001, Information Classification
+   13.​Wyoming Statutes, W.S. § 9-21-101
+
+                                                                   5
+
+                                                    ​
+   14.​WyIT.3002, Exception Request
+   15.​ISO/IEC 27001
+   16.​WyIT.3001, General Security Acceptable Use Policy
+   17.​Uniform Guidelines on Employee Selection Procedures (29 CFR Part 1607)
+   18.​Title VI of the Civil Rights Act of 1964, Americans with Disabilities Act, and Age Discrimination
+       Act
+   19.​WyIT.3008, Risk Assessment
+   20.​WyIT.2014, Data Sharing Agreement Documentation Governance
+
+Compliance & Exceptions:
+Compliance
+Employees who violate this policy may be subject to appropriate disciplinary action up to and including
+discharge as well as both civil and criminal penalties. Non-employees, including, without limitation,
+contractors, may be subject to termination of contractual agreements, denial of access to IT resources,
+and other actions as well as both civil and criminal penalties.
+
+Exceptions
+Requests for exceptions to this policy shall be reviewed by the Chief Information Security Officer
+(CISO) and the Chief Information Officer (CIO). Departments requesting exceptions shall provide such
+requests to the CIO in accordance with WyIT.3002 Policy Exception Request.
+
+The request should specifically state the scope of the exception along with justification for granting the
+exception, the potential impact or risk attendant upon granting the exception, risk mitigation measures
+to be undertaken by the IT Department, initiatives, actions and a time-frame for achieving the minimum
+compliance level with the policies set forth herein. The CIO shall review such requests; confer with the
+requesting department.
+
+Any exception to established policy shall be defined and tracked as a risk to the state and established
+mitigating controls monitored by the agency.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+Approval
+This policy as signed by the appropriate officer (listed below) is considered approved and enforced, per
+Wyoming State Statutes (W.S 9-2-2906,(b), (iii)) and (W.S. 9-2-2906,(b), (vi)).
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+                                                    6
+
+                                                        ​
+ Jeffrey Clines                                                    Chief Information Officer
+ Officer Name                                                      Officer Title
+
+ Officer’s Signature                                               Date
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version        Change                                                    Author(s)              Date of Change
+ 2026-09.1      ETS Director signature                                    GRC                    September
+                                                                                                 2026
+ 2025-09.1      Original Document                                         Pat Potter, Deputy     September
+                                                                          CDO                    2025
+
+                                                         7
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,231 @@
+“Clean Desk” Confidential Information
+and Sensitive Materials
+WyIT.2009
+
+ Policy Owner            Department of Enterprise Services, Data Privacy
+ Policy Contact          Pat Potter, Deputy Chief Data Officer
+ Policy Approver         Wyoming Data Governance Committee (WDGC)
+ Effective Date          September 12, 2025
+ Next Review Date        April 1, 2027
+ Policy Version          2026-09.1
+
+Scope:
+This policy establishes workspace-level document security requirements that operate within the broader
+framework of WyIT 3013, Physical and Environmental Protection.
+
+Specifically, this policy defines minimum requirements for agencies to maintain a "clean desk" – where
+internal, confidential, and sensitive information, regardless of format, structure, or formal asset
+designation, is stored away and out of sight when not in use or when the workspace is vacant.
+
+This policy addresses the following key areas:
+
+   ●​ Physical security controls for confidential and sensitive documents in individual workspaces;
+   ●​ Proper storage, handling, and disposal procedures for non-electronic sensitive materials;
+   ●​ Integration with electronic information security requirements under WyIT 3001, General Security
+       - Acceptable Use;
+   ●​ Special considerations for highly secured areas handling criminal justice or health data;
+   ●​ Clear desk protocols to prevent unauthorized visual access to sensitive information;
+   ●​ Coordination with facility-level physical security measures under WyIT 3013, Physical and
+       Environmental Protection.
+
+This policy serves as the state baseline. Agencies may implement more restrictive policies to meet
+applicable state and federal regulations or agency-specific requirements, provided they do not deviate
+substantially from this policy. In lieu of agency-specific policies, this policy shall serve as the governing
+standard.
+
+Authority
+This policy is promulgated under the authority of Wyoming State Statute 9-2-2906 and its subsections,
+the Department of Enterprise Technology Services is required to adopt and enforce information
+
+                                                     ​
+technology standards, and promote efficient use of information technology throughout state
+government.
+
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store state data.
+
+Definitions
+Key Definitions, Acronyms, and Terms
+
+Policy Statements:
+ 1.​   POLICY PRECEDENCE AND AGENCY IMPLEMENTATION
+
+       1.1.​   The agency may create agency-specific policies that meet the outlined scope, purpose,
+               and requirements as stated in this policy. In lieu of agency-specific policies that meet
+               the outlined scope, purpose, and requirements as stated in this policy, this policy shall
+               be the governing policy.​
+               [1], [2], [3]
+
+       1.2.​   Agencies may implement supplemental policies to augment this governing policy as
+               needed. This policy does not supersede any State or Federal regulation and does not
+               override, waive, or provide exemption from the requirements of the Wyoming Public
+               Records Act. ​
+               [1], [2], [3]
+
+       1.3.​   This policy supplements WyIT 3013, Physical and Environmental Protection with specific
+               requirements for workspace document security. Where conflicts arise, this policy takes
+               precedence for facility-level security requirements.​
+               [3], [2], [3], [4]​
+
+                                                      2
+
+                                                         ​
+2.​   REQUIREMENTS​
+      Employees are responsible for understanding and following the policy and all related
+      procedures.
+              [2]
+
+3.​   PHYSICAL CONFIDENTIAL AND SENSITIVE INFORMATION
+      3.1.​ Highly Secured Areas with stringent access controls, such as those inspected and
+            authorized by federal agencies for handling sensitive information, regardless of format,
+            structure, or formal asset designation, like criminal or health data, may be exempted
+            from this policy. ​
+            ​
+            Such as:​
+
+               3.1.1.​         Restricted access is limited to personnel with appropriate security clearance.​
+
+               3.1.2.​         Escort protocols for any unauthorized personnel when access is required​
+
+               3.1.3.​         Regular security audits to ensure compliance with federal standards
+              [2] , [5], [6]
+
+4.​   NON-ELECTRONIC CONFIDENTIAL AND SENSITIVE INFORMATION
+       All non-electronic sensitive and confidential information must be handled as follows:​
+
+      4.1.​   When working in a private office, if left unattended or at the end of the workday,
+              non-electronic confidential and sensitive information shall be secured behind the locked
+              door of the office.​
+              [2], [3]​
+
+      4.2.​   When working in an open office environment, if left unattended for short periods,
+              non-electronic confidential and sensitive information must be stored out of sight (i.e., in a
+              drawer or filing cabinet). Any sensitive documents unattended for extended periods or at
+              the end of the workday must be securely locked away.
+              [2]
+
+      4.3.​   Non-electronic confidential and sensitive information should not be sent to unsecured
+              printers or fax machines and must be promptly removed if inadvertently printed.
+              [2]
+      4.4.​   Non-electronic confidential and sensitive information shall be shredded in official
+              shredder bins or placed in a locked disposal bin for proper discarding.
+              [2]​
+
+      4.5.​   Whiteboards containing sensitive information shall be erased or secured from view when
+              not actively being used.
+              [7], [8], [9], [10], [11], [3]
+
+                                                         3
+
+                                                    ​
+
+       4.6.​   If stored in a filing cabinet, the cabinet must be secure and keys protected and never left
+               unattended.
+               [2]
+
+       4.7.​   Mass storage devices (i.e. loose hard drives, CDROMs, DVDs, or USB drives) must be
+               secured, when unoccupied and at the end of the workday.
+               [2], [12]
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ National Institute of Standards and Technology (NIST) SP 800-100
+   2.​ National Institute of Standards and Technology (NIST) SP 800-53, Rev 5
+   3.​ ISO/IEC 27001
+   4.​ WyIT.3013, Physical and Environmental Protection
+   5.​ FBI Criminal Justice Information Services (CJIS) Security Policy
+   6.​ Federal Information Security Management Act [FISMA], 44 U.S.C. § 3544
+   7.​ Privacy Act of 1974, 5 U.S.C. § 552a;
+   8.​ Health Insurance Privacy and Accountability Act (HIPAA), Security Rule
+   9.​ Family Educational Rights and Privacy Act (FERPA), 20 U.S.C. 1232g
+   10.​Gramm-Leach-Bliley Act (GLBA), 15 U.S.C. §§ 6801–6809
+   11.​E-Government Act of 2002, § 208
+   12.​WyIT.3015, Physical Media
+   13.​WyIT 2001, Information Classification
+   14.​WyIT 2001-S1, Data Owner Standard
+   15.​WyIT 2001-S2, Data Steward Standard
+   16.​WyIT 2001-S3, Data Custodian Standard
+   17.​WyIT 2001-S4, Data Domain Standard
+   18.​WyIT 2001-G1, Information Classification Guide
+   19.​WyIT 2001-G2, Information Classification Procedures Guide
+   20.​WyIT 3001, General Security - Acceptable Use
+   21.​WyIT 3013, Physical and Environmental Protection
+   22.​Wyoming Public Records Act - W.S. §16-4-201 et seq.
+
+Compliance & Exceptions:
+Compliance
+Employees who violate this policy may be subject to appropriate disciplinary action up to and including
+discharge as well as both civil and criminal penalties. Non-employees, including, without limitation,
+contractors, may be subject to termination of contractual agreements, denial of access to IT resources,
+and other actions as well as both civil and criminal penalties.
+
+Exceptions
+Requests for exceptions to this policy shall be reviewed by the Chief Information Security Officer
+(CISO) and the Chief Information Officer (CIO). Departments requesting exceptions shall provide such
+requests to the CIO in accordance with WyIT.3002 Policy Exception Request.
+
+                                                    4
+
+                                                        ​
+
+The request should specifically state the scope of the exception along with justification for granting the
+exception, the potential impact or risk attendant upon granting the exception, risk mitigation measures
+to be undertaken by the IT Department, initiatives, actions and a time-frame for achieving the minimum
+compliance level with the policies set forth herein. The CIO shall review such requests; confer with the
+requesting department.
+
+Any exception to established policy shall be defined and tracked as a risk to the state and established
+mitigating controls monitored by the agency.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+Approval
+This policy as signed by the appropriate officer (listed below) is considered approved and enforced, per
+Wyoming State Statutes (W.S 9-2-2906,(b), (iii)) and (W.S. 9-2-2906,(b), (vi)).
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+ Jeffrey Clines                                                    Chief Information Officer
+ Officer Name                                                      Officer Title
+
+ Officer’s Signature                                               Date
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version        Change                                                    Author(s)              Date of Change
+ 2026-09.1      ETS Director signature                                           GRC               September
+                                                                                                      2026
+ 2025-09.2      WyIT 2009, “Clean Desk’ Confidential Information and           Pat Potter          September
+                Sensitive Materials, Updated Document Template                                        2025
+    UKN         WyIT 2009, “Clean Desk’ Confidential Information and         Wyoming Data         August 2024
+                Sensitive Materials, Originally Published                     Governance
+                                                                              Committee
+
+                                                         5
+
+​
+
+6

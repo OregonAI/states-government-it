@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 2078,
+ "n_nodes": 2259,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -2255,6 +2255,42 @@
    "path": "statutes/utah/ut-code-63c-27.md"
   },
   {
+   "id": "vt-20-vsa-208",
+   "title": "Title 20, Chapter 208. Cybersecurity [Repealed effective June 30, 2033]",
+   "doc_type": "statute",
+   "path": "statutes/vermont/vt-20-vsa-208.md"
+  },
+  {
+   "id": "vt-22-vsa-16",
+   "title": "Title 22, Chapter 16. The Vermont Web Portal",
+   "doc_type": "statute",
+   "path": "statutes/vermont/vt-22-vsa-16.md"
+  },
+  {
+   "id": "vt-3-vsa-10",
+   "title": "Title 3, Chapter 10. Federal Tax Information",
+   "doc_type": "statute",
+   "path": "statutes/vermont/vt-3-vsa-10.md"
+  },
+  {
+   "id": "vt-3-vsa-56",
+   "title": "Title 3, Chapter 56. Agency of Digital Services",
+   "doc_type": "statute",
+   "path": "statutes/vermont/vt-3-vsa-56.md"
+  },
+  {
+   "id": "vt-3-vsa-69",
+   "title": "Title 3, Chapter 69. Division of Artificial Intelligence",
+   "doc_type": "statute",
+   "path": "statutes/vermont/vt-3-vsa-69.md"
+  },
+  {
+   "id": "vt-9-vsa-62",
+   "title": "Title 9, Chapter 62. Protection of Personal Information",
+   "doc_type": "statute",
+   "path": "statutes/vermont/vt-9-vsa-62.md"
+  },
+  {
    "id": "va-code-18-2-186-6",
    "title": "§ 18.2-186.6. Breach of personal information notification",
    "doc_type": "statute",
@@ -2349,6 +2385,288 @@
    "title": "Chapter 43.105 RCW - Washington Technology Solutions",
    "doc_type": "statute",
    "path": "statutes/washington/wa-rcw-43-105.md"
+  },
+  {
+   "id": "wv-code-39a-3-1",
+   "title": "§39A-3-1. Definitions.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-39a-3-1.md"
+  },
+  {
+   "id": "wv-code-39a-3-2",
+   "title": "§39A-3-2. Acceptance of electronic signature by governmental entities in satisfaction of signature requirement.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-39a-3-2.md"
+  },
+  {
+   "id": "wv-code-39a-3-3",
+   "title": "§39A-3-3. Duties of the Secretary of State; state agencies use of electronic signatures.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-39a-3-3.md"
+  },
+  {
+   "id": "wv-code-39a-3-4",
+   "title": "§39A-3-4. Secretary of state; liability.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-39a-3-4.md"
+  },
+  {
+   "id": "wv-code-46a-2a-101",
+   "title": "§46A-2A-101. Definitions.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-46a-2a-101.md"
+  },
+  {
+   "id": "wv-code-46a-2a-102",
+   "title": "§46A-2A-102. Notice of breach of security of computerized personal information.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-46a-2a-102.md"
+  },
+  {
+   "id": "wv-code-46a-2a-103",
+   "title": "§46A-2A-103. Procedures deemed in compliance with security breach notice requirements.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-46a-2a-103.md"
+  },
+  {
+   "id": "wv-code-46a-2a-104",
+   "title": "§46A-2A-104. Violations.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-46a-2a-104.md"
+  },
+  {
+   "id": "wv-code-46a-2a-105",
+   "title": "§46A-2A-105. Applicability.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-46a-2a-105.md"
+  },
+  {
+   "id": "wv-code-5a-6-1",
+   "title": "§5A-6-1. Findings and purposes.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-1.md"
+  },
+  {
+   "id": "wv-code-5a-6-2",
+   "title": "§5A-6-2. Definitions.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-2.md"
+  },
+  {
+   "id": "wv-code-5a-6-3",
+   "title": "§5A-6-3. Office of Technology; Chief Information Officer; appointment and qualifications; continuation of special funds.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-3.md"
+  },
+  {
+   "id": "wv-code-5a-6-4",
+   "title": "§5A-6-4. Powers and duties of the Chief Information Officer generally.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-4.md"
+  },
+  {
+   "id": "wv-code-5a-6-4b",
+   "title": "§5A-6-4b. Project management duties of the Chief Information Officer; establishment of the Project Management Office and authority of the Project Management Office.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-4b.md"
+  },
+  {
+   "id": "wv-code-5a-6-4c",
+   "title": "§5A-6-4c. Technology project proposals and the establishment of steering committees.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-4c.md"
+  },
+  {
+   "id": "wv-code-5a-6-4d",
+   "title": "§5A-6-4d. Responsibilities of the Chief Information Officer to implement information technology modernization.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-4d.md"
+  },
+  {
+   "id": "wv-code-5a-6-4e",
+   "title": "§5A-6-4e. Digitization of state forms.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-4e.md"
+  },
+  {
+   "id": "wv-code-5a-6-5",
+   "title": "§5A-6-5. Notice of request for proposals by state spending units required to make purchases through the state Purchasing Division.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-5.md"
+  },
+  {
+   "id": "wv-code-5a-6-6",
+   "title": "§5A-6-6. Notice of request for proposals by state spending units exempted from submitting purchases to the state Purchasing Division.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-6.md"
+  },
+  {
+   "id": "wv-code-5a-6-7",
+   "title": "§5A-6-7. Biannual report.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-7.md"
+  },
+  {
+   "id": "wv-code-5a-6-8",
+   "title": "§5A-6-8. Exemptions.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-8.md"
+  },
+  {
+   "id": "wv-code-5a-6-9",
+   "title": "§5A-6-9. West Virginia Task Force on Artificial Intelligence.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6-9.md"
+  },
+  {
+   "id": "wv-code-5a-6b-1",
+   "title": "§5A-6B-1. West Virginia Cybersecurity Office; scope; exemptions.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6b-1.md"
+  },
+  {
+   "id": "wv-code-5a-6b-2",
+   "title": "§5A-6B-2. Definitions.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6b-2.md"
+  },
+  {
+   "id": "wv-code-5a-6b-3",
+   "title": "§5A-6B-3. Powers and duties of Chief Information Security Officer; staff; rule-making.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6b-3.md"
+  },
+  {
+   "id": "wv-code-5a-6b-4",
+   "title": "§5A-6B-4. Responsibilities for cybersecurity.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6b-4.md"
+  },
+  {
+   "id": "wv-code-5a-6b-5",
+   "title": "§5A-6B-5. Exemption from disclosure.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6b-5.md"
+  },
+  {
+   "id": "wv-code-5a-6b-6",
+   "title": "§5A-6B-6. Annual reports.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6b-6.md"
+  },
+  {
+   "id": "wv-code-5a-6c-1",
+   "title": "§5A-6C-1. Definitions.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6c-1.md"
+  },
+  {
+   "id": "wv-code-5a-6c-2",
+   "title": "§5A-6C-2. Scope.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6c-2.md"
+  },
+  {
+   "id": "wv-code-5a-6c-3",
+   "title": "§5A-6C-3. Cyber Incident reporting; when required.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6c-3.md"
+  },
+  {
+   "id": "wv-code-5a-6c-4",
+   "title": "§5A-6C-4. Cybersecurity Office annual report.",
+   "doc_type": "statute",
+   "path": "statutes/west-virginia/wv-code-5a-6c-4.md"
+  },
+  {
+   "id": "wi-stat-134-98",
+   "title": "Wis. Stat. 134.98 - Notice of unauthorized acquisition of personal information",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-134-98.md"
+  },
+  {
+   "id": "wi-stat-15-103",
+   "title": "Wis. Stat. 15.103 - Same; specified divisions",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-15-103.md"
+  },
+  {
+   "id": "wi-stat-16-611",
+   "title": "Wis. Stat. 16.611 - State public records; optical disc and electronic storage",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-611.md"
+  },
+  {
+   "id": "wi-stat-16-97",
+   "title": "Wis. Stat. 16.97 - Definitions",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-97.md"
+  },
+  {
+   "id": "wi-stat-16-971",
+   "title": "Wis. Stat. 16.971 - Responsibilities of department",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-971.md"
+  },
+  {
+   "id": "wi-stat-16-972",
+   "title": "Wis. Stat. 16.972 - Powers of the department",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-972.md"
+  },
+  {
+   "id": "wi-stat-16-973",
+   "title": "Wis. Stat. 16.973 - Duties of the department",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-973.md"
+  },
+  {
+   "id": "wi-stat-16-974",
+   "title": "Wis. Stat. 16.974 - Powers of the department",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-974.md"
+  },
+  {
+   "id": "wi-stat-16-975",
+   "title": "Wis. Stat. 16.975 - Access to information",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-975.md"
+  },
+  {
+   "id": "wi-stat-16-976",
+   "title": "Wis. Stat. 16.976 - Strategic plans for executive branch agencies",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-976.md"
+  },
+  {
+   "id": "wi-stat-16-977",
+   "title": "Wis. Stat. 16.977 - Information technology portfolio management",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-977.md"
+  },
+  {
+   "id": "wi-stat-16-979",
+   "title": "Wis. Stat. 16.979 - Telecommunications operations and planning",
+   "doc_type": "statute",
+   "path": "statutes/wisconsin/wi-stat-16-979.md"
+  },
+  {
+   "id": "wy-ws-9-2-art-25",
+   "title": "Government Electronic Transactions (Title 9, Chapter 2, Article 25)",
+   "doc_type": "statute",
+   "path": "statutes/wyoming/wy-ws-9-2-art-25.md"
+  },
+  {
+   "id": "wy-ws-9-2-art-29",
+   "title": "Department of Enterprise Technology Services (Title 9, Chapter 2, Article 29)",
+   "doc_type": "statute",
+   "path": "statutes/wyoming/wy-ws-9-2-art-29.md"
+  },
+  {
+   "id": "wy-ws-9-21",
+   "title": "Data Policies (Title 9, Chapter 21: state agency data policies; data privacy in government entities)",
+   "doc_type": "statute",
+   "path": "statutes/wyoming/wy-ws-9-21.md"
   },
   {
    "id": "ak-aac-2-05-200",
@@ -2625,6 +2943,42 @@
    "title": "Identity Authentication/Electronic Signatures",
    "doc_type": "rule",
    "path": "rules/oregon/or-oar-128-50.md"
+  },
+  {
+   "id": "wv-csr-163-1",
+   "title": "Procedures for Sanitization, Retirement and Disposition of Information Technology Equipment",
+   "doc_type": "rule",
+   "path": "rules/west-virginia/wv-csr-163-1.md"
+  },
+  {
+   "id": "wv-csr-163-2",
+   "title": "Chief Information Officer Review",
+   "doc_type": "rule",
+   "path": "rules/west-virginia/wv-csr-163-2.md"
+  },
+  {
+   "id": "wv-csr-163-3",
+   "title": "Cyber Reporting",
+   "doc_type": "rule",
+   "path": "rules/west-virginia/wv-csr-163-3.md"
+  },
+  {
+   "id": "wv-csr-163-4",
+   "title": "Plan of Operation",
+   "doc_type": "rule",
+   "path": "rules/west-virginia/wv-csr-163-4.md"
+  },
+  {
+   "id": "wv-csr-163-5",
+   "title": "Telecommunications Payments Made By State Spending Units",
+   "doc_type": "rule",
+   "path": "rules/west-virginia/wv-csr-163-5.md"
+  },
+  {
+   "id": "wi-adm-12",
+   "title": "Chapter Adm 12 - Electronic Records Management- Standards And Requirements",
+   "doc_type": "rule",
+   "path": "rules/wisconsin/wi-adm-12.md"
   },
   {
    "id": "ak-ao-284",
@@ -3041,6 +3395,24 @@
    "path": "executive-orders/utah/ut-eo-2026-08.md"
   },
   {
+   "id": "vt-eo-04-26",
+   "title": "Executive Order No. 04-26: Establishing the Vermont AI Economic Taskforce",
+   "doc_type": "executive_order",
+   "path": "executive-orders/vermont/vt-eo-04-26.md"
+  },
+  {
+   "id": "vt-eo-06-17",
+   "title": "Executive Order No. 06-17: Creation of the Agency of Digital Services",
+   "doc_type": "executive_order",
+   "path": "executive-orders/vermont/vt-eo-06-17.md"
+  },
+  {
+   "id": "vt-eo-18-17",
+   "title": "Executive Order No. 18-17: Governor's Cybersecurity Advisory Team",
+   "doc_type": "executive_order",
+   "path": "executive-orders/vermont/vt-eo-18-17.md"
+  },
+  {
    "id": "va-ed-6-2026",
    "title": "Directing a Commonwealth-Wide Preparedness Approach to Cyber Threats Posed by Artificial Intelligence and Recursive Self-Improvement Development",
    "doc_type": "executive_order",
@@ -3081,6 +3453,12 @@
    "title": "Establishing the Governor's Policy on Electronic Message Systems",
    "doc_type": "executive_order",
    "path": "executive-orders/washington/wa-eo-91-10.md"
+  },
+  {
+   "id": "wy-eo-2023-02",
+   "title": "Establishment of the Wyoming Cyber Assistance Response Effort Team",
+   "doc_type": "executive_order",
+   "path": "executive-orders/wyoming/wy-eo-2023-02.md"
   },
   {
    "id": "ak-oit-remote-access-options",
@@ -7733,6 +8111,36 @@
    "path": "policies/utah/ut-dts-5000-0002.md"
   },
   {
+   "id": "vt-ads-information-security-foundations-policy",
+   "title": "Information Security Foundations Policy",
+   "doc_type": "policy",
+   "path": "policies/vermont/vt-ads-information-security-foundations-policy.md"
+  },
+  {
+   "id": "vt-ai-code-of-ethics",
+   "title": "Artificial Intelligence Code of Ethics",
+   "doc_type": "policy",
+   "path": "policies/vermont/vt-ai-code-of-ethics.md"
+  },
+  {
+   "id": "vt-ai-generative-ai-guidelines",
+   "title": "Guidelines for Use of Generative AI (listed as 'Guidelines for State Employee Use of Generative AI')",
+   "doc_type": "policy",
+   "path": "policies/vermont/vt-ai-generative-ai-guidelines.md"
+  },
+  {
+   "id": "vt-it-procurement-guideline",
+   "title": "Information Technology Procurement Guideline (linked as 'IT Procurement Guideline')",
+   "doc_type": "policy",
+   "path": "policies/vermont/vt-it-procurement-guideline.md"
+  },
+  {
+   "id": "vt-web-accessibility-policy",
+   "title": "Accessibility Policy",
+   "doc_type": "policy",
+   "path": "policies/vermont/vt-web-accessibility-policy.md"
+  },
+  {
    "id": "va-ai-policy-ea400",
    "title": "Artificial Intelligence (AI) Utilization Policy",
    "doc_type": "policy",
@@ -8163,6 +8571,636 @@
    "title": "Initial procurement guidelines for public sector procurement, deployment, and monitoring of Generative AI Technology",
    "doc_type": "policy",
    "path": "policies/washington/wa-watech-genai-procurement-guidelines.md"
+  },
+  {
+   "id": "wv-cio-19-001",
+   "title": "Chief Information Officer (CIO) Review Approval",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-cio-19-001.md"
+  },
+  {
+   "id": "wv-cio-24-001",
+   "title": "Cloud Data Retention",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-cio-24-001.md"
+  },
+  {
+   "id": "wv-wveb-memo-2017-06-12",
+   "title": "Memo to reaffirm privacy policies",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-memo-2017-06-12.md"
+  },
+  {
+   "id": "wv-wveb-p100",
+   "title": "Privacy Policy Introduction",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p100.md"
+  },
+  {
+   "id": "wv-wveb-p101-1",
+   "title": "Response to Unauthorized Disclosures Procedure",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p101-1.md"
+  },
+  {
+   "id": "wv-wveb-p101-2",
+   "title": "Execution of Confidentiality Agreements Procedure",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p101-2.md"
+  },
+  {
+   "id": "wv-wveb-p101-3",
+   "title": "Privacy Impact Assessment Guidance",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p101-3.md"
+  },
+  {
+   "id": "wv-wveb-p101",
+   "title": "Accountability Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p101.md"
+  },
+  {
+   "id": "wv-wveb-p102",
+   "title": "Consent Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p102.md"
+  },
+  {
+   "id": "wv-wveb-p103",
+   "title": "Individual Rights Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p103.md"
+  },
+  {
+   "id": "wv-wveb-p104",
+   "title": "Minimum Necessary and Limited Use Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p104.md"
+  },
+  {
+   "id": "wv-wveb-p105",
+   "title": "Notice Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p105.md"
+  },
+  {
+   "id": "wv-wveb-p106-1",
+   "title": "Redaction Procedure",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p106-1.md"
+  },
+  {
+   "id": "wv-wveb-p106",
+   "title": "Security Safeguards Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-p106.md"
+  },
+  {
+   "id": "wv-wveb-privacy-definitions",
+   "title": "Privacy Policy Definitions",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wveb-privacy-definitions.md"
+  },
+  {
+   "id": "wv-wvot-pl1007",
+   "title": "Incident Management Plan",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-pl1007.md"
+  },
+  {
+   "id": "wv-wvot-po1000",
+   "title": "Policy, Procedure, Plan Development Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1000.md"
+  },
+  {
+   "id": "wv-wvot-po1001",
+   "title": "Information Security Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1001.md"
+  },
+  {
+   "id": "wv-wvot-po1002",
+   "title": "Acceptable Use of State-Issued Portable/Mobile Devices",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1002.md"
+  },
+  {
+   "id": "wv-wvot-po1005",
+   "title": "Email Use Standards Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1005.md"
+  },
+  {
+   "id": "wv-wvot-po1006",
+   "title": "Data Classification Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1006.md"
+  },
+  {
+   "id": "wv-wvot-po1008",
+   "title": "Information Security Audit Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1008.md"
+  },
+  {
+   "id": "wv-wvot-po1010",
+   "title": "Acceptable Use of Instant Messaging",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1010.md"
+  },
+  {
+   "id": "wv-wvot-po1011",
+   "title": "Digital Media Protection Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1011.md"
+  },
+  {
+   "id": "wv-wvot-po1012",
+   "title": "Contract Management Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1012.md"
+  },
+  {
+   "id": "wv-wvot-po1013",
+   "title": "Data Protection and Backup Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1013.md"
+  },
+  {
+   "id": "wv-wvot-po1014",
+   "title": "Malicious Software Protection Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1014.md"
+  },
+  {
+   "id": "wv-wvot-po1015",
+   "title": "Change & Configuration Management Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1015.md"
+  },
+  {
+   "id": "wv-wvot-po1017",
+   "title": "Social Media Access and Use",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1017.md"
+  },
+  {
+   "id": "wv-wvot-po1018",
+   "title": "Network Violation Management",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1018.md"
+  },
+  {
+   "id": "wv-wvot-po1019",
+   "title": "Wireless Access Points",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1019.md"
+  },
+  {
+   "id": "wv-wvot-po1020",
+   "title": "Data Center Security",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1020.md"
+  },
+  {
+   "id": "wv-wvot-po1021",
+   "title": "Account Management",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1021.md"
+  },
+  {
+   "id": "wv-wvot-po1022",
+   "title": "Acceptable Internet Usage Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1022.md"
+  },
+  {
+   "id": "wv-wvot-po1025",
+   "title": "Assessment and Authorization Policy (formerly Accreditation and Certification)",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1025.md"
+  },
+  {
+   "id": "wv-wvot-po1026",
+   "title": "Network Monitoring Policy (Formerly WVOT Backbone Monitoring)",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1026.md"
+  },
+  {
+   "id": "wv-wvot-po1034",
+   "title": "Artificial Intelligence Code of Ethics Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1034.md"
+  },
+  {
+   "id": "wv-wvot-po1035",
+   "title": "Generative Artificial Intelligence Acceptable Use Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po1035.md"
+  },
+  {
+   "id": "wv-wvot-po2001",
+   "title": "Supply Chain Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po2001.md"
+  },
+  {
+   "id": "wv-wvot-po2002",
+   "title": "Cybersecurity and International Travel Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po2002.md"
+  },
+  {
+   "id": "wv-wvot-po2005",
+   "title": "Memorandum of Understanding(MOU) Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po2005.md"
+  },
+  {
+   "id": "wv-wvot-po2007",
+   "title": "Data Sharing Agreement (DSA) Policy",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-po2007.md"
+  },
+  {
+   "id": "wv-wvot-pr1001",
+   "title": "Technical Investigation Request Procedure",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-pr1001.md"
+  },
+  {
+   "id": "wv-wvot-pr1009",
+   "title": "Vulnerability Assessment and Remediation Procedure",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-pr1009.md"
+  },
+  {
+   "id": "wv-wvot-pr1013",
+   "title": "WVOT Patch Management",
+   "doc_type": "policy",
+   "path": "policies/west-virginia/wv-wvot-pr1013.md"
+  },
+  {
+   "id": "wi-det-aup",
+   "title": "State of Wisconsin Acceptable Technology Use, Access, and Security Policy",
+   "doc_type": "policy",
+   "path": "policies/wisconsin/wi-det-aup.md"
+  },
+  {
+   "id": "wi-det-it-security-policy-handbook",
+   "title": "State of Wisconsin IT Security Policy Handbook",
+   "doc_type": "policy",
+   "path": "policies/wisconsin/wi-det-it-security-policy-handbook.md"
+  },
+  {
+   "id": "wy-wyit-1001",
+   "title": "Agency Controlled Information Technology (IT) Change Management and Maintenance",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-1001.md"
+  },
+  {
+   "id": "wy-wyit-1002",
+   "title": "Electronic Communication Management",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-1002.md"
+  },
+  {
+   "id": "wy-wyit-1003",
+   "title": "Contingency Planning",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-1003.md"
+  },
+  {
+   "id": "wy-wyit-1004",
+   "title": "Web Standards & Compliance",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-1004.md"
+  },
+  {
+   "id": "wy-wyit-1005",
+   "title": "Artificial Intelligence Usage and Coding",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-1005.md"
+  },
+  {
+   "id": "wy-wyit-1006",
+   "title": "Active Directory (AD) Privileged Access",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-1006.md"
+  },
+  {
+   "id": "wy-wyit-2001-g1",
+   "title": "Data Classification Guide",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2001-g1.md"
+  },
+  {
+   "id": "wy-wyit-2001-g2",
+   "title": "Data Classification Procedures Guide",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2001-g2.md"
+  },
+  {
+   "id": "wy-wyit-2001",
+   "title": "Data Classification",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2001.md"
+  },
+  {
+   "id": "wy-wyit-2002",
+   "title": "Data Protection for Electronic Government Services",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2002.md"
+  },
+  {
+   "id": "wy-wyit-2003",
+   "title": "Data Backup, Storage and Restoration",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2003.md"
+  },
+  {
+   "id": "wy-wyit-2004-g1",
+   "title": "Data Breach Guide",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2004-g1.md"
+  },
+  {
+   "id": "wy-wyit-2004",
+   "title": "Data Breach, Disclosure or Data Leak",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2004.md"
+  },
+  {
+   "id": "wy-wyit-2005",
+   "title": "Data Residency and Transportation",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2005.md"
+  },
+  {
+   "id": "wy-wyit-2006",
+   "title": "Agency Official for Privacy (AOP)",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2006.md"
+  },
+  {
+   "id": "wy-wyit-2008",
+   "title": "Website Online Maps and Data Disclaimer",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2008.md"
+  },
+  {
+   "id": "wy-wyit-2009",
+   "title": "\"Clean Desk\" Confidential Information and Sensitive Materials",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2009.md"
+  },
+  {
+   "id": "wy-wyit-2011",
+   "title": "Wyoming State Data Collection, Transparency and Consent",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2011.md"
+  },
+  {
+   "id": "wy-wyit-2013",
+   "title": "Electronic Data Destruction and Sanitization",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2013.md"
+  },
+  {
+   "id": "wy-wyit-2014",
+   "title": "Data Sharing Agreement Documentation Governance",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-2014.md"
+  },
+  {
+   "id": "wy-wyit-3001",
+   "title": "General Security Acceptable Use",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3001.md"
+  },
+  {
+   "id": "wy-wyit-3002",
+   "title": "Security Exception Request",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3002.md"
+  },
+  {
+   "id": "wy-wyit-3003",
+   "title": "Information Security",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3003.md"
+  },
+  {
+   "id": "wy-wyit-3004",
+   "title": "Security Awareness Training and Education",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3004.md"
+  },
+  {
+   "id": "wy-wyit-3005",
+   "title": "Access Controls",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3005.md"
+  },
+  {
+   "id": "wy-wyit-3006",
+   "title": "Identification and Authentication",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3006.md"
+  },
+  {
+   "id": "wy-wyit-3007",
+   "title": "System and Communication Protection",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3007.md"
+  },
+  {
+   "id": "wy-wyit-3008",
+   "title": "Risk Assessment",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3008.md"
+  },
+  {
+   "id": "wy-wyit-3009",
+   "title": "Computer Security Threat Response",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3009.md"
+  },
+  {
+   "id": "wy-wyit-3010",
+   "title": "Incident Response",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3010.md"
+  },
+  {
+   "id": "wy-wyit-3011",
+   "title": "Systems and Services Acquisition",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3011.md"
+  },
+  {
+   "id": "wy-wyit-3012",
+   "title": "System and Information Integrity",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3012.md"
+  },
+  {
+   "id": "wy-wyit-3013",
+   "title": "Physical and Environmental Protection",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3013.md"
+  },
+  {
+   "id": "wy-wyit-3014",
+   "title": "Personnel Security",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3014.md"
+  },
+  {
+   "id": "wy-wyit-3015",
+   "title": "Physical Media",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3015.md"
+  },
+  {
+   "id": "wy-wyit-3016",
+   "title": "Mobile Device Security",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3016.md"
+  },
+  {
+   "id": "wy-wyit-3017",
+   "title": "Remote Access",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3017.md"
+  },
+  {
+   "id": "wy-wyit-3018",
+   "title": "Software Use",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3018.md"
+  },
+  {
+   "id": "wy-wyit-3019",
+   "title": "Local Administrative Rights",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3019.md"
+  },
+  {
+   "id": "wy-wyit-3020",
+   "title": "Vulnerability Scanning",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3020.md"
+  },
+  {
+   "id": "wy-wyit-3021",
+   "title": "Patch Management",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3021.md"
+  },
+  {
+   "id": "wy-wyit-3022",
+   "title": "Mainframe Security",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3022.md"
+  },
+  {
+   "id": "wy-wyit-3023",
+   "title": "Artificial Intelligence (GEN AI)",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3023.md"
+  },
+  {
+   "id": "wy-wyit-3024",
+   "title": "International Travel Information Security",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3024.md"
+  },
+  {
+   "id": "wy-wyit-3025",
+   "title": "Source Code Control Policy",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-3025.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-a",
+   "title": "IT Policy Dictionary: Definitions A",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-a.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-b",
+   "title": "IT Policy Dictionary: Definitions B",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-b.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-c",
+   "title": "IT Policy Dictionary: Definitions C",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-c.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-d",
+   "title": "IT Policy Dictionary: Definitions D",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-d.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-e-h",
+   "title": "IT Policy Dictionary: Definitions E-H",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-e-h.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-i",
+   "title": "IT Policy Dictionary: Definitions I",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-i.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-j-o",
+   "title": "IT Policy Dictionary: Definitions J-O",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-j-o.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-mainframe",
+   "title": "IT Policy Dictionary: Mainframe Specific Definitions",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-mainframe.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-p",
+   "title": "IT Policy Dictionary: Definitions P",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-p.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-q-r",
+   "title": "IT Policy Dictionary: Definitions Q-R",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-q-r.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-s",
+   "title": "IT Policy Dictionary: Definitions S",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-s.md"
+  },
+  {
+   "id": "wy-wyit-dictionary-t-z",
+   "title": "IT Policy Dictionary: Definitions T-Z",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary-t-z.md"
+  },
+  {
+   "id": "wy-wyit-dictionary",
+   "title": "IT Policy Dictionary",
+   "doc_type": "policy",
+   "path": "policies/wyoming/wy-wyit-dictionary.md"
   },
   {
    "id": "ca-simm-5300-b",
@@ -11891,6 +12929,12 @@
    "path": "standards/texas/tx-dir-videoconferencing-standards.md"
   },
   {
+   "id": "vt-ads-cybersecurity-standard-2023-01",
+   "title": "Cybersecurity Standard Update 2023-01 (listed as 'State of Vermont Cybersecurity Standard')",
+   "doc_type": "standard",
+   "path": "standards/vermont/vt-ads-cybersecurity-standard-2023-01.md"
+  },
+  {
    "id": "va-ai-standard",
    "title": "Artificial Intelligence Standard",
    "doc_type": "standard",
@@ -12471,6 +13515,48 @@
    "title": "Digital Accessibility Standard",
    "doc_type": "standard",
    "path": "standards/washington/wa-user-01-01-s.md"
+  },
+  {
+   "id": "wi-det-flaw-remediation-si-2",
+   "title": "Flaw Remediation (SI-2) Security Standard",
+   "doc_type": "standard",
+   "path": "standards/wisconsin/wi-det-flaw-remediation-si-2.md"
+  },
+  {
+   "id": "wi-det-it-security-standards-handbook",
+   "title": "State of Wisconsin IT Security Standards Handbook",
+   "doc_type": "standard",
+   "path": "standards/wisconsin/wi-det-it-security-standards-handbook.md"
+  },
+  {
+   "id": "wy-wyit-2001-s1",
+   "title": "Data Owner Standard",
+   "doc_type": "standard",
+   "path": "standards/wyoming/wy-wyit-2001-s1.md"
+  },
+  {
+   "id": "wy-wyit-2001-s2",
+   "title": "Data Steward Standard",
+   "doc_type": "standard",
+   "path": "standards/wyoming/wy-wyit-2001-s2.md"
+  },
+  {
+   "id": "wy-wyit-2001-s3",
+   "title": "Data Custodian Standard",
+   "doc_type": "standard",
+   "path": "standards/wyoming/wy-wyit-2001-s3.md"
+  },
+  {
+   "id": "wy-wyit-2001-s4",
+   "title": "Data Domain Standard",
+   "doc_type": "standard",
+   "path": "standards/wyoming/wy-wyit-2001-s4.md"
+  },
+  {
+   "id": "wy-wyit-3001-s",
+   "title": "Sending Encrypted Email Standard",
+   "doc_type": "standard",
+   "path": "standards/wyoming/wy-wyit-3001-s.md"
   }
  ],
  "edges": []

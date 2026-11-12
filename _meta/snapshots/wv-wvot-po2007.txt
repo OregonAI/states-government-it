@@ -1,0 +1,521 @@
+I​ssued by the​                                                 ​Data Sharing Agreement (DSA) Policy​
+ ​Chief Information Officer​                                                         ​WVOT-PO2007​
+
+                                                                                                   ​ 4/28/2026​
+                                                                                                   0
+                                                                                          ​REVISED 04/28/2026​
+                                                        ​ PR: WVOT Cybersecurity​
+                                                        O
+                  ​COMPLIANCE WITH THIS PUBLICATION IS MANDATORY​
+                                ​ ublications are available online at:​
+                                P
+              ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+​ uestions​ ​and​​change​​recommendations​​related​​to​​this​​publication​​shall​​be​​directed​​to​
+Q
+​this​ ​publication's​​Office​​of​​Primary​​Responsibility​​(OPR).​ ​This​​policy​​shall​​be​​reviewed​
+ ​every​ ​two​ ​years​ ​to​ ​ensure​ ​continued​ ​alignment​ ​with​ ​current​ ​legal,​ ​operational,​ ​and​
+  ​strategic requirements. Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Version​       ​Date​               ​Revision Description​
+
+ ​Original​      ​04/28/2026​         ​New Policy​
+
+ ​1.​   ​PURPOSE​
+
+        ​1.1.​   ​ he​​purpose​​of​​this​​Data​​Sharing​​Policy​​is​​to​​establish​​a​​clear,​​consistent,​
+                 T
+                 ​and​ ​secure​ ​framework​ ​for​ ​the​ ​responsible​ ​sharing​ ​of​ ​data​ ​across​ ​state​
+                  ​government​ ​agencies​ ​and​ ​with​ ​external​ ​partners.​ ​This​ ​policy​ ​aims​ ​to​
+                   ​promote​ ​transparency,​ ​improve​ ​public​ ​services,​ ​support​ ​evidence-based​
+                    ​decision-making,​ ​and​ ​foster​ ​innovation,​ ​while​ ​ensuring​ ​the​ ​protection​ ​of​
+                     ​personal​ ​privacy,​ ​data​ ​security,​ ​and​ ​compliance​ ​with​ ​applicable​​laws​​and​
+                      ​regulations.​ ​One​ ​of​ ​the​ ​biggest​ ​disruptors​ ​to​ ​day-to-day​ ​business​ ​is​
+                       ​meeting​ ​and​ ​addressing​ ​new​ ​regulatory​ ​standards​ ​and​ ​data​ ​security​ ​set​
+                        ​forth​ ​by​ ​Federal​ ​and​ ​State​ ​regulation.​ ​The​ ​Goal​ ​is​ ​to​ ​remove​ ​barriers​ ​in​
+                         ​taking​​in​​the​​State​​Agency’s​​IT​​landscape​​and​​facilitate​​smarter​​IT​​choices​
+                          ​while aligning with the States' strategic goals.​
+
+ ​2.​   ​SCOPE​
+
+        ​2.1.​   ​ his​​Data​​Sharing​​Policy​​applies​​to​​all​​departments,​​agencies,​​boards​​and​
+                 T
+                 ​commissions​​operating​​under​​the​​jurisdiction​​of​​the​​state​​government,​​that​
+                  ​is​ ​currently​ ​supported​ ​by​ ​WV​ ​Office​ ​of​ ​technology​ ​and​ ​that​ ​collect,​
+                   ​generate,​ ​store,​​manage,​​or​​use​​data.​​It​​governs​​the​​sharing​​of​​data​​both​
+                    ​internally​ ​among​ ​government​ ​bodies​ ​and​ ​externally​ ​with​ ​approved​ ​third​
+                     ​parties,​ ​including​ ​local​ ​governments,​ ​federal​ ​agencies,​ ​academic​
+                      ​institutions, non-profit organizations, and private sector partners.​
+
+                                                   ​Page​​1​​of 11​
+
+                            ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                            Issue Date: 04/28/2026                   Revised: 04/28/2026​
+
+        ​2.2.​     ​The policy covers:​
+
+                 ​2.2.1.​    ​ ll data, including personal, sensitive, operational, statistical, and​
+                             A
+                             ​geospatial data.​
+
+                 ​2.2.2.​    ​ ata sharing activities conducted for purposes such as policy​
+                             D
+                             ​development, service delivery, research, analytics, public reporting,​
+                              ​and innovation.​
+
+                 ​2.2.3.​    ​ oth structured and unstructured data, whether shared manually or​
+                             B
+                             ​through automated systems, APIs, or integrated platforms.​
+
+                 ​2.2.4.​    ​ he entire data lifecycle, including data access, transfer, use,​
+                             T
+                             ​storage, and disposal as part of a data sharing arrangement.​
+
+        ​2.3.​     ​ xcluded from this policy are data exchanges that are governed​
+                   E
+                   ​exclusively by specific statutory obligations or court orders, or where​
+                    ​sharing would compromise security, legal privilege, or public safety.​
+
+ ​3.​   ​POLICY​
+
+        ​3.1.​     ​ he State Government Data Sharing Policy establishes the principles,​
+                   T
+                   ​rules, and responsibilities that govern the secure, ethical, and lawful​
+                    ​sharing of data across state government entities and with external​
+                     ​partners. It is designed to facilitate informed decision-making, improve​
+                      ​public services, foster collaboration, and ensure transparency—while​
+                       ​safeguarding privacy, maintaining data integrity, and complying with all​
+                        ​relevant laws and regulations.​
+
+        ​3.2.​     ​ ata is recognized as a strategic asset that must be managed responsibly​
+                   D
+                   ​and shared where appropriate to maximize its value.​
+
+        ​3.3.​     ​ ll data sharing must have a clear, defined purpose that aligns with the​
+                   A
+                   ​public interest and state government objectives.​
+
+        ​3.4.​     ​ haring must be governed by a formal agreement utilizing the Data​
+                   S
+                   ​Sharing Agreement Template provided by WVOT and guided by this​
+                    ​policy, as well as privacy, security, and risk management frameworks.​
+
+                                                ​Page​​2​​of 11​
+
+                         ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                         Issue Date: 04/28/2026                Revised: 04/28/2026​
+
+     ​3.5.​     ​Agencies must provide information to the WVOT CIO, as requested.​
+
+     ​3.6.​     ​ ll Data Sharing Agreements (DSAs) must be reviewed annually and​
+                A
+                ​renewed starting July 1st in coordination with the participating agency.​
+
+     ​3.7.​     ​ ach agreement must be updated and formally executed by the​
+                E
+                ​designated signatory authorities from the West Virginia Office of​
+                 ​Technology (WVOT), the participating agency, and any relevant vendors.​
+
+              ​3.7.1.​    I​n the event that a designated signatory is no longer employed, the​
+                           ​DSA must be revised to include the appropriate new authorized​
+                            ​signatory. Remaining valid signatories must also reaffirm the​
+                             ​agreement through their signatures.​
+
+     ​3.8.​     ​ new Data Sharing Agreement is required for any newly initiated data​
+                A
+                ​sharing activity not currently governed by an existing agreement.​
+
+     ​3.9.​     ​ gencies must submit to WVOT and BRIM all data sharing agreements​
+                A
+                ​they maintain with other vendors or state agencies, regardless of whether​
+                 ​WVOT is a party to the agreement. These agreements must be​
+                  ​incorporated into the annual review process to ensure comprehensive​
+                   ​oversight and alignment with statewide data governance standards.​
+
+    ​3.10.​     ​ perational sustainability- the long-term ability of the state government to​
+                O
+                ​maintain, support, and evolve its data sharing practices and infrastructure​
+                 ​in a secure, efficient, and cost-effective manner.​
+
+          ​3.10.1.​       ​ ustainability includes ensuring that data sharing processes are​
+                          S
+                          ​embedded into standard government operations, supported by​
+                           ​adequate resources (such as skilled personnel, funding, and​
+                            ​technology), and governed by well-defined policies and procedures.​
+
+          ​3.10.2.​       ​ ustainable operations also require continuous monitoring, capacity​
+                          S
+                          ​building, and adaptation to emerging technologies, legal​
+                           ​requirements, and public expectations, ensuring that data sharing​
+                            ​remains resilient, compliant, and aligned with strategic goals over​
+                             ​time.​
+
+                                            ​Page​​3​​of 11​
+
+                      ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                      Issue Date: 04/28/2026                   Revised: 04/28/2026​
+
+    ​3.11.​   ​Transparency – Upholding transparency requires the following:​
+
+          ​3.11.1.​    ​ ata Catalog: An accessible inventory of available data​
+                       D
+                       ​classification will be maintained in ITIPS to help users understand​
+                        ​what data exists, and how it can be used.​
+
+          ​3.11.2.​    ​ takeholder Engagement: Input from the stakeholder and data​
+                       S
+                       ​owners will be sought regularly to guide responsible data sharing​
+                        ​practices and update ITIPS.​
+
+          ​3.11.3.​    ​ lear Consent and Use Information: Where personal or sensitive​
+                       C
+                       ​data is involved, clear communication will be provided about how​
+                        ​the data is used, how privacy is protected, and the rights of​
+                         ​individuals.​
+
+    ​3.12.​   ​ upporting Regulatory Safeguards - To ensure that data sharing is​
+              S
+              ​conducted responsibly, lawfully, and in a manner that protects the rights of​
+               ​individuals and the integrity of government operations, the State​
+                ​Government Data Sharing Policy is supported by a comprehensive set of​
+                 ​regulatory safeguards. These safeguards establish the legal and ethical​
+                  ​boundaries within which data can be shared and provide mechanisms for​
+                   ​enforcement and accountability.​
+
+          ​3.12.1.​    ​Key regulatory safeguards include:​
+
+               ​3.12.1.1.​    I​nformation Security Compliance - All data sharing activities​
+                               ​must comply with relevant privacy and data protection laws,​
+                                ​including [applicable laws such as state privacy acts,​
+                                 ​national data protection regulations, HIPAA, FERPA, etc.],​
+                                  ​ensuring that personal and sensitive information is handled​
+                                   ​lawfully and ethically. Data must be protected in accordance​
+                                    ​with established state or federal information security​
+                                     ​frameworks (e.g., NIST 800-53, ISO 27001), including​
+                                      ​encryption, access controls, audit logging, and regular​
+                                       ​vulnerability assessments.​
+
+                                          ​Page​​4​​of 11​
+
+                  ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                     Issue Date: 04/28/2026                   Revised: 04/28/2026​
+
+               ​3.12.1.2.​   ​ ata Classification and Sensitivity Controls - Data must be​
+                             D
+                             ​classified according to its sensitivity and risk profile (e.g.,​
+                              ​public, confidential, restricted), and appropriate access​
+                               ​controls and protections must be applied based on that​
+                                ​classification.​
+
+               ​3.12.1.3.​   ​ ata Sharing Agreements (DSAs) - Formal agreements​
+                             D
+                             ​must be established between parties to govern data sharing,​
+                              ​specifying the purpose, scope, legal basis, roles and​
+                               ​responsibilities, data security measures, and procedures for​
+                                ​breach notification and dispute resolution.​
+
+               ​3.12.1.4.​   ​ onsent and Ethical Use - Where required, data sharing​
+                             C
+                             ​must be based on informed consent, and all uses of data​
+                              ​must align with ethical standards that respect individual​
+                               ​rights and community expectations.​
+
+               ​3.12.1.5.​   ​ versight and Accountability Mechanisms - Independent​
+                             O
+                             ​oversight bodies or designated data governance bodies shall​
+                              ​monitor compliance with data sharing policies and​
+                               ​investigate any breaches, misuse, or non-compliance.​
+
+               ​3.12.1.6.​   ​ raining and Awareness - All personnel involved in data​
+                             T
+                             ​handling and sharing must undergo regular training such as​
+                              ​data privacy, security practices, legal obligations,​
+                               ​confidentiality, and ethical responsibilities.​
+
+               ​3.12.1.7.​   ​ igital Record/Data Retention and Disposal Policies -​
+                             D
+                             ​Departments/Agencies are responsible for creating and​
+                              ​maintaining a Digital Record/Data Retention and Disposal​
+                               ​Policy. Shared data must be retained only for as long as​
+                                ​necessary to fulfill its intended purpose. It must then be​
+                                 ​securely disposed of in compliance with applicable laws,​
+                                  ​organizational data retention policies, and any relevant​
+                                   ​contractual obligations.​
+
+                                         ​Page​​5​​of 11​
+
+                     ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                        Issue Date: 04/28/2026                  Revised: 04/28/2026​
+
+ ​4.​   ​POLICY SPECIFIC DEFINITIONS​
+
+        ​4.1.​   ​ pplication Programming Interface (API) - a set of defined rules and​
+                 A
+                 ​protocols that allow different software applications to communicate and​
+                  ​exchange data with each other. APIs enable systems to interact in a​
+                   ​standardized way, allowing developers to access specific functions or data​
+                    ​needing to understand the internal workings of the other system.​
+
+        ​4.2.​   ​ oard of Risk and Insurance Management (BRIM) - The WV Board of Risk​
+                 B
+                 ​and Insurance Management which includes the WV State Privacy Office​
+
+        ​4.3.​   ​ hief Information Officer (CIO) - the senior executive for overseeing an​
+                 C
+                 ​organization’s information technology strategy, operations, and resources.​
+                  ​In the context of state government, the CIO ensures alignment of IT​
+                   ​initiatives with agency goals, promotes cybersecurity and data​
+                    ​governance, and provides leadership in the planning, development, and​
+                     ​implementation of technology solutions.​
+
+        ​4.4.​   ​ ata - recognized as a strategic asset that must be managed responsibly​
+                 D
+                 ​and shared where appropriate to maximize its value.​
+
+        ​4.5.​   ​ ata Retention - the policies and practices that govern how long data is​
+                 D
+                 ​stored and maintained by an organization before it is archived or securely​
+                  ​deleted. Retention periods are determined by legal, regulatory,​
+                   ​operational, or contractual requirements and ensure that data remains​
+                    ​accessible for as long as it is needed for business, compliance, or auditing​
+                     ​purposes.​
+
+        ​4.6.​   ​ ata Sharing - data that is shared between WVOT and the supported​
+                 D
+                 ​Agency or between WVOT or the supported Agency with another​
+                  ​unsupported State Agency, Vendor or the public. Data must have a clear,​
+                   ​defined purpose that aligns with the public interest and state government​
+                    ​objectives. Sharing must be governed by formal agreements and guided​
+                     ​by privacy security and risk management frameworks.​
+
+                                           ​Page​​6​​of 11​
+
+                  ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                     Issue Date: 04/28/2026                  Revised: 04/28/2026​
+
+     ​4.7.​   ​ ata Sharing Agreement (DSA) - a formal, written agreement between two​
+              D
+              ​or more parties that outlines the terms, conditions, and responsibilities​
+               ​related to the access, exchange, use, and protection of shared data. It​
+                ​defines the purpose of the data sharing, the types of data involved,​
+                 ​security and privacy requirements, compliance obligations (such as​
+                  ​FERPA, HIPAA, or IRS 1075), and procedures for data handling, retention,​
+                   ​and breach notification.​
+
+     ​4.8.​   ​ igital Record - information or documentation that is created, received,​
+              D
+              ​stored, or managed in electronic format. It serves as an official record of​
+               ​actions, decisions, transactions, or communications and must be​
+                ​maintained in accordance with applicable legal, regulatory, and records​
+                 ​management requirements.​
+
+     ​4.9.​   ​ amily Educational Rights and Privacy Act (FERPA) is a federal law that​
+              F
+              ​protects the privacy of student education records. It grants parents—and​
+               ​eligible students once they reach 18 years of age or attend a​
+                ​postsecondary institution—the right to access, review, and request​
+                 ​corrections to their education records, and it restricts the disclosure of​
+                  ​those records without prior written consent, except under certain permitted​
+                   ​conditions.​
+
+    ​4.10.​   ​ ederal Tax Information (FTI) - any data, document, or record provided by​
+              F
+              ​the Internal Revenue Service (IRS) or obtained through an authorized​
+               ​source that contains information about a taxpayer, including return or​
+                ​return information. FTI is protected under the Internal Revenue Code​
+                 ​(IRC) §6103 and is subject to strict handling, security, and disclosure​
+                  ​requirements as outlined in IRS Publication 1075.​
+
+    ​4.11.​   ​ ealth Insurance Portability and Accountability Act (HIPAA) - federal law​
+              H
+              ​enacted in 1996 that establishes national standards for protecting the​
+               ​privacy and security of individuals’ health information. HIPAA applies to​
+                ​healthcare providers, health plans, and healthcare clearinghouses, as well​
+                 ​as their business associates, and governs the use, disclosure, and​
+                  ​safeguarding of Protected Health Information (PHI) in both physical and​
+                   ​electronic formats.​
+
+                                        ​Page​​7​​of 11​
+
+                  ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                     Issue Date: 04/28/2026                   Revised: 04/28/2026​
+
+    ​4.12.​   I​nternal Revenue Code (IRC) §6103 - federal statute that governs the​
+               ​confidentiality and disclosure of Federal Tax Information (FTI). It strictly​
+                ​limits how tax return data and related information can be accessed, used,​
+                 ​and shared by the IRS, federal agencies, and authorized state or local​
+                  ​entities. The provision is designed to protect taxpayer privacy by​
+                   ​prohibiting unauthorized disclosure of tax information, with civil and​
+                    ​criminal penalties for violations.​
+
+    ​4.13.​   I​RS Publication 1075 - guidelines and requirements for ensuring the​
+               ​confidentiality, integrity, and security of Federal Tax Information (FTI). It​
+                ​establishes the standards that federal, state, and local agencies must​
+                 ​follow when accessing, storing, processing, or transmitting FTI. The​
+                  ​publication outlines physical, administrative, and technical safeguards to​
+                   ​prevent unauthorized access or disclosure and ensure compliance with​
+                    ​the Internal Revenue Code (IRC) §6103.​
+
+    ​4.14.​   I​ntergovernmental Relationship Manager (IRM) - a WVOT liaison​
+               ​responsible for facilitating collaboration, communication, and coordination​
+                ​between government entities at various levels (local, state, and federal).​
+                 ​This role ensures alignment on shared initiatives, and supports​
+                  ​interagency partnerships to achieve common goals.​
+
+    ​4.15.​   I​nformation Security Officer (ISO) is the individual responsible for​
+               ​establishing, implementing, and maintaining an agency’s information​
+                ​security program. The ISO ensures compliance with applicable security​
+                 ​policies, standards, and regulations, manages risk, and oversees the​
+                  ​protection of information systems and data from unauthorized access,​
+                   ​disclosure, or disruption.​
+
+    ​4.16.​   I​nformation Technology Investment Portfolio System (ITPS) - the West​
+               ​Virginia Office of Technology’s centralized platform for managing, tracking,​
+                ​and reporting information technology investments across state agencies. It​
+                 ​also serves as the official system of record for WVOT to document Data​
+                  ​Sharing Agreements.​
+
+    ​4.17.​   ​ ational Institute of Standards and Technology (NIST) - federal agency​
+              N
+              ​within the U.S. Department of Commerce that develops and promotes​
+               ​measurement standards, including widely recognized guidelines for​
+                ​information security and cybersecurity. NIST’s frameworks, such as the​
+
+                                         ​Page​​8​​of 11​
+
+                  ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                     Issue Date: 04/28/2026                   Revised: 04/28/2026​
+
+              ​ IST Cybersecurity Framework and NIST Special Publication 800 series,​
+              N
+              ​are used by government agencies and private organizations to establish​
+               ​and maintain robust security and risk management practices.​
+
+    ​4.18.​   ​ IST Special Publication 800-37 (SP 800-37) - titled "Risk Management​
+              N
+              ​Framework for Information Systems and Organizations," is a publication​
+               ​by the National Institute of Standards and Technology (NIST) that provides​
+                ​guidelines for applying the Risk Management Framework (RMF) to federal​
+                 ​information systems. It outlines a structured, lifecycle-based process for​
+                  ​managing security and privacy risks through steps such as system​
+                   ​categorization, control selection and implementation, assessment,​
+                    ​authorization, and continuous monitoring. SP 800-37 is widely used​
+                     ​across federal and state agencies to ensure compliance, strengthen​
+                      ​cybersecurity, and support informed risk-based decision-making.​
+
+    ​4.19.​   ​ rivacy Framework - structured approach that organizations use to​
+              P
+              ​identify, manage, and mitigate privacy risks related to the collection, use,​
+               ​sharing, and storage of personal data. It provides a set of principles,​
+                ​policies, and controls designed to ensure compliance with privacy laws​
+                 ​and regulations, protect individual rights, and promote responsible data​
+                  ​governance. Notable examples include the NIST Privacy Framework and​
+                   ​the OECD Privacy Principles.​
+
+    ​4.20.​   ​ rotected Health Information (PHI) - individually identifiable health​
+              P
+              ​information that is created, received, maintained, or transmitted by a​
+               ​covered entity or its business associate, as defined by HIPAA. PHI​
+                ​includes data related to an individual’s past, present, or future physical or​
+                 ​mental health condition, the provision of healthcare, or payment for​
+                  ​healthcare services, and can exist in any form—electronic, paper, or oral.​
+
+    ​4.21.​   ​ rganization for Economic Co-operation and Development (OECD)​
+              O
+              ​Privacy Principles - a set of internationally recognized guidelines​
+               ​developed by the OECD to promote the protection of personal data and​
+                ​privacy across member countries. Originally established in 1980 and​
+                 ​updated in 2013, these principles include key concepts such as collection​
+                  ​limitation, data quality, purpose specification, use limitation, security​
+                   ​safeguards, openness, individual participation, and accountability. They​
+                    ​serve as a foundational framework for many national and international​
+                     ​privacy laws and policies.​
+
+                                         ​Page​​9​​of 11​
+
+                      ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                        Issue Date: 04/28/2026                         Revised: 04/28/2026​
+
+    ​4.22.​   ​ enewal - the process of formally reauthorizing a Data Sharing​
+              R
+              ​Agreement (DSA) on an annual basis to ensure continued compliance​
+               ​with legal, security, and data governance requirements.​​Renewal must​
+                ​occur by July 1st each year and requires new signatures from all​
+                 ​appropriate parties to the agreement​​, reaffirming​​all terms, conditions,​
+                  ​and responsibilities outlined in the original agreement. This ensures that​
+                   ​data sharing activities remain valid, current, and aligned with applicable​
+                    ​policies and regulations.​
+
+    ​4.23.​   ​ eview - the formal process conducted annually by the West Virginia​
+              R
+              ​Office of Technology (WVOT) in coordination with the participating agency.​
+               ​This process involves a comprehensive examination of each existing DSA​
+                ​by WVOT and participating agencies to ensure its continued accuracy,​
+                 ​relevance, and compliance with current legal, operational, and​
+                  ​organizational standards. The review includes:​
+
+          ​4.23.1.​    ​ erifying that the terms and conditions reflect current data sharing​
+                       V
+                       ​practices;​
+          ​4.23.2.​     ​Confirming the continued participation and authority of all​
+                         ​designated signatories;​
+          ​ .23.3.​
+          4               ​Identifying and addressing any required updates or amendments;​
+          ​4.23.4.​        ​Ensuring that any changes are formally executed by all required​
+                            ​signatory authorities, including WVOT, the participating agency, and​
+                             ​any involved vendors.​
+          ​4.23.5.​           ​Reaffirming the agreement through updated signatures where​
+                               ​necessary, especially in cases where a previous signatory is no​
+                                ​longer employed.​
+          ​4.23.6.​              ​The WVOT Security Auditing and Review Team assesses all yearly​
+                                  ​reviews, all new DSAs, DSA changes in the agreements as well as​
+                                   ​changes in the signature authorities. Other WVOT Teams may be​
+                                    ​included in the reviews as needed.​
+          ​4.23.7.​                  ​Each assigned Intergovernmental Relationship Manager (IRM) will​
+                                      ​be included in the review process and responsible for obtaining the​
+                                       ​required signatures.​
+          ​4.23.8.​                     ​In addition, the review process ensures that a new DSA is initiated​
+                                         ​and executed for any new data sharing activity not currently​
+                                          ​covered by an existing agreement.​
+
+                                            ​Page​​10​​of 11​
+
+                      ​Data Sharing Agreement (DSA) Policy​
+​WVOT-PO2007                         Issue Date: 04/28/2026                  Revised: 04/28/2026​
+
+        ​4.24.​   ​ isk Management Framework (RMF) - a structured, repeatable process​
+                  R
+                  ​used to identify, assess, manage, and monitor risks to organizational​
+                   ​operations, assets, and individuals—especially in the context of​
+                    ​information systems. RMFs provide a disciplined approach to integrating​
+                     ​security and risk management into the system development life cycle. A​
+                      ​widely used example is the NIST Risk Management Framework (SP​
+                       ​800-37), which guides federal agencies in applying security controls and​
+                        ​maintaining ongoing authorization to operate (ATO).​
+
+        ​4.25.​   ​ est Virginia Office of Technology (WVOT) - the state agency responsible​
+                  W
+                  ​for providing centralized information technology services, infrastructure,​
+                   ​and governance to support the operations and security of executive​
+                    ​branch agencies.​
+
+ ​5.​     ​RELEVANT MATERIALS AND DOCUMENTS​
+
+         ​5.1.​   ​Internal Revenue Code (IRC) §6103​
+
+         ​5.2.​   ​IRS Publication 1075, Tax Information Security Guidelines​
+
+         ​5.3.​   ​ IST SP 800-37, Risk Management Framework for Information Systems​
+                  N
+                  ​and Organizations​
+
+         ​5.4.​   ​ ata Sharing Agreement Template​
+                  D
+                  ​(Version 1.1 - 09/22/2025 located in Google Docs Template gallery)​
+
+         ​5.5.​   ​ VOT​ ​Policies​ ​Issued​ ​by​ ​the​ ​Chief​ ​Information​ ​Officer​ ​(CIO),​
+                  W
+                  ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+                                            ​Page​​11​​of 11​

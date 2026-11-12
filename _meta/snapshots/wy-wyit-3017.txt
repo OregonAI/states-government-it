@@ -1,0 +1,133 @@
+                               REMOTE ACCESS
+                                       WyIT - 3017
+
+ PURPOSE: This policy defines requirements for connecting to the state’s internal
+ network(s) from external hosts via remote access technology and/or for utilizing the
+ Internet for business purposes via affiliate ISP devices.
+
+ To protect state resources from unauthorized use and/or malicious attack, all remote
+ access privileges to enterprise resources must employ state-approved methods. Any
+ applicable affiliate utilizing remote access privileges is responsible for ensuring remote
+ access connections remain as secure as the network access within a state government
+ facility. It is imperative that any remote access connection used to conduct state business
+ be utilized appropriately, responsibly, and ethically.
+
+  I.   APPLICABILITY
+
+       This policy applies to all Executive Branch agencies, boards, and commissions staff
+       (collectively referred to as “agencies”). This policy is also applicable to consultants,
+       affiliates, and temporary employees.
+
+ II.   DEFINITIONS
+
+       All definitions for this policy are located in the Policy Dictionary.
+
+III.   EXCEPTIONS
+       Any exceptions provided to the following policy must abide by the WyIT - 3002 -
+       Security Exception Request.
+
+IV.    ACCESSING AND SECURING STATE-OWNED EQUIPMENT
+
+       All state-owned equipment must be:
+
+                                                                                WyIT - 3017       Page 1
+
+      ● Accessed only by state employees for remote and/or telework access on the
+        state network.
+      ● Connected to the state network for asset inventory management, security
+        vulnerability scanning, patch management, and maintenance, Monday –
+        Saturday, 6 am – 6 pm.
+      ● Physically secured from all physical and environmental threats.
+      ● Regularly updated with the CIO approved endpoint and enterprise security
+        solution(s).
+      ● Reported immediately to a manager and the CIO Service Desk if damaged, lost,
+        or stolen.
+
+V.    AUTHORIZED AFFILIATE & CONTRACTOR EQUIPMENT
+
+      All authorized affiliate and contractor-owned equipment and devices must:
+
+      ● Be physically secured from any unauthorized use and access. Verification and
+        validation of physical security controls will be provided to the CIO annually
+        and/or when a significant change to the environment has occurred.
+      ● Have CIO approved endpoint and enterprise security solution(s).
+
+VI.   REMOTE CONNECTIONS
+
+      ● Employees, contractors, affiliates, and temporary staff may be permitted to
+        remotely access the state network while offsite. Users must use the approved
+        Virtual Private Network (VPN) service(s). Users will be required to authenticate
+        using multifactor authentication (MFA). Only authorized users are permitted to
+        access the network through a VPN. Users attempting to connect to the State
+        domain using an unapproved access solution will be denied access.
+      ● Remote state employees using a public ISP from an authorized telework location
+        must employ the state-provided and approved method of connecting, which
+        must be made through managed points of entry and reviewed by the security
+        liaison. When approved solutions are not appropriate due to connectivity
+        limitations, a secondary solution can be authorized.
+      ● Remote connections (i.e., hotspots, etc.) configured to access state resources
+        must adhere to all applicable State policies. Prior approval for any remote access
+        connection must be provided by the CIO. In addition, all hardware security
+        configurations must be approved by the CIO. An assessment must be
+        performed and documented to determine the scope and method of access, the
+
+                                                                           WyIT - 3017       Page 2
+
+           technical and business risks involved, and the contractual, process, and
+           technical controls required for such connection to take place.
+       ●   Working from a remote location must be authorized by management and
+           practices that ensure the appropriate protection of data in remote environments
+           must be shared with the individual prior to the individual being granted remote
+           access.
+       ●   Employees, contractors, affiliates, and temporary staff will make no modifications
+           to the remote access connection without express approval by the CIO. This
+           includes but is not limited to, split tunneling, dual homing, non-standard
+           hardware, or security configurations.
+       ●   Employees, contractors, affiliates, and temporary staff with remote access
+           privileges must ensure that their computers are not connected to any other
+           network while connected to the state network, with the exception of internet
+           connectivity.
+       ●   No employee may use internet access through company networks via remote
+           connection for the purpose of illegal transactions, harassment, competitor
+           interests, or obscene behavior in accordance with other existing employee
+           policies.
+       ●   Unless coordinated, remote access sessions timeout after 45 minutes of
+           inactivity and will terminate after 9 hours of continuous connection. Both
+           timeouts will require the user to reconnect and re-authenticate in order to
+           re-enter the state network.
+
+VII.   USER AGREEMENTS
+
+       Remote access affiliates agree:
+
+       ● To immediately report to their manager and the CIO any incident or suspected
+         incident of unauthorized access and/or disclosure of State resources, databases,
+         networks, etc.
+       ● To accept that access and/or connection to the state’s network(s) may be
+         monitored to record dates, times, and duration of access to identify unusual
+         usage patterns or other activity. As with computers physically residing in a state
+         government facility, this is done to identify accounts/computers that may have
+         been compromised by external parties.
+
+  REFERENCES: This policy has no supporting references to websites, other policies,
+  or federal or state statutes.
+
+                                                                              WyIT - 3017       Page 3
+
+                       DOCUMENT HISTORY
+
+                        ORIGINAL SUBMISSION
+ SUBMITTED     SUBMITTED           APPROVED       APPROVED BY       EFFECTIVE
+    ON            BY                  BY            DATE(S)           DATE
+
+June 2024     ETS Governance,    Public Comment   05/10/2024 -    June 2024
+              Risk and           Period           05/24/2024
+              Compliance
+
+                                  REVISIONS
+  LAST REVISION DATE            LAST REVISED BY             LAST APPROVED BY
+
+                                   REVIEWS
+   LAST REVIEW DATE             LAST REVIEWED BY            NEXT REVIEW DATE
+
+                                                                    WyIT - 3017   Page 4

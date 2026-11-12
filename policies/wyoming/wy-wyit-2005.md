@@ -1,0 +1,243 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: wyoming
+id: wy-wyit-2005
+title: Data Residency and Transportation
+doc_type: policy
+citation: WyIT 2005
+authority_level: ''
+issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1F1rt9gUtucRDQPjx2ec1MEQt4lJx0zCS
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: e792b64c67ea1057fd071d76971f81647e93e26fa787db6c5221b1fe6a3a9faf
+effective_date: '2025-09-12'
+source_version: 2026-09.1
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). effective_date is the Effective Date cell of the file's header table, as printed. source_version
+  is the Policy Version (or Document Version) cell of the header table, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Data Residency and Transportation (WyIT 2005)
+
+## At a glance
+
+WyIT 2005, Data Residency and Transportation: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.
+
+## Full text
+
+Data Residency and Transportation
+WyIT.2005
+
+ Policy Owner            Department of Enterprise Services, Data Privacy
+ Policy Contact          Pat Potter, Deputy Chief Data Officer
+ Policy Approver         Wyoming Data Governance Committee (WDGC)
+ Effective Date          September 12, 2025
+ Next Review Date        April 1, 2027
+ Policy Version          2026-09.1
+
+Scope:
+This policy establishes requirements for assessing potential exposure of sensitive information,
+activating appropriate response procedures, ensuring Governor's Office notification, and coordinating
+decisions regarding individual notification. This policy serves as a triage and coordination framework
+that triggers existing incident response and security threat response procedures established in WyIT
+3010, Incident Response and WyIT 3009, Computer Security Threat Response.
+
+This policy addresses the privacy-specific assessment requirements for determining sensitive
+information exposure and establishes coordination protocols with the Governor's Office and legal
+counsel for notification decisions. This policy supplements existing incident response procedures and
+does not replace technical response or security coordination established in other WyIT policies.
+
+This policy does not change Agency responsibilities with respect to regulations that govern data
+exchanges, data privacy and data security requirements, or Agency responsibilities under Wyoming
+State Statute 16-4-202. No part of this policy is intended to supersede or supplant relevant federal and
+state controlling laws, rules, or regulations.
+
+This policy serves as the state baseline. Agencies may implement more restrictive policies to meet
+applicable state and federal regulations or agency-specific requirements, provided they do not deviate
+substantially from this policy. In lieu of agency-specific policies, this policy shall serve as the governing
+standard.
+
+Authority
+This policy is promulgated under the authority of Wyoming State Statute 9-2-2906 and its subsections,
+the Department of Enterprise Technology Services is required to adopt and enforce information
+technology standards, and promote efficient use of information technology throughout state
+government.
+
+                                                             ​
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store state data
+
+Definitions
+Key Definitions, Acronyms, and Terms
+
+Policy Statements:
+ 1.​   TRANSPORTATION AND AT REST REQUIREMENTS
+
+       1.1.​     All Internal or Confidential Wyoming government data or information stored digitally
+                 shall be encrypted at rest using:
+               1.1.1.​ AES-256 encryption or cryptographically equivalent algorithm;
+               1.1.2.​ FIPS 140-2 Level 2 or higher validated cryptographic modules; and
+               1.1.3.​ Key management compliant with NIST SP 800-57 requirements.
+                 [1], [2], [3], [4], [5]
+
+       1.2.​     All Wyoming government data or information shall be transferred using:
+
+               1.2.1.​     TLS 1.3 or cryptographically equivalent protocol;
+               1.2.2.​     FIPS 140-2 validated encryption implementations; and
+               1.2.3.​     Perfect Forward Secrecy (PFS) for external communications.
+                 [1], [2], [3], [4], [6], [7], [6], [8]
+
+       1.3.​     The ETS Security Office shall, through routine security monitoring activities, identify if
+                 any data or information is being stored or processed outside the borders of the United
+                 States and its territories as defined in 8 U.S.C. § 1101.
+                 [1], [3], [4], [5], [8]
+
+       1.4.​     The ETS Security Office will inform agencies if they find what appears to be sensitive
+                 data or information being transferred without encryption.​
+                 [9], [1], [10], [8], [3], [4], [12], [13]
+
+                                                             2
+
+                                                               ​
+ 2.​   INFORMATION GEOGRAPHIC EXCEPTIONS
+       2.1.​ All sensitive Wyoming government data or information, regardless of format, structure, or
+             formal asset designation classified as Internal or Confidential shall be stored, processed,
+             and maintained exclusively within the borders of the United States and its territories as
+             defined in 8 U.S.C. § 1101. This requirement applies to all forms of digital storage, cloud
+             services, backup systems, and data processing activities regardless of duration or
+             purpose.
+               [9], [10], [14], [21], [13], [11]
+
+       2.2.​   The ETS Security Office shall, through routine security monitoring activities, identify if
+               any data or information is being stored or processed outside the borders of the United
+               States and its territories as defined in 8 U.S.C. § 1101.​
+               [1], [22], [23], [24], [25], [21], [26], [3], [4], [5]
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ National Institute of Standards and Technology (NIST) SP 800-53, Rev 5
+   2.​ National Institute of Standards and Technology (NIST) Cybersecurity Framework v2.0
+   3.​ Center for Internet Security (CIS) Critical Security Controls Ver 8
+   4.​ Cybersecurity Maturity Model Certification (CMMC) Ver 2.0
+   5.​ ISO/IEC 27001
+   6.​ National Institute of Standards and Technology (NIST) Privacy Framework
+   7.​ Wyoming Statute .S. 9-21-101(a)(i)
+   8.​ WyIT.2001-S1, Data Owner Standard
+   9.​ National Institute of Standards and Technology (NIST) SP 800-171, Rev 2
+   10.​FBI Criminal Justice Information Services (CJIS) Security Policy
+   11.​Health Insurance Privacy and Accountability Act (HIPAA), Security Rule
+   12.​Family Educational Rights and Privacy Act (FERPA), 34 CFR Part 99
+   13.​IRS Publication 1075
+   14.​WyIT.2005, Information Residency and Transportation
+   15.​WyIT.2001-S2, Data Steward Standard
+   16.​WyIT.2001-S3, Data Custodian Standard
+   17.​WyIT.2001-S4, Data Domain Standard
+   18.​WyIT.2001-G1, Information Classification Guide
+   19.​WyIT.2001-G2, Information Classification Procedures Guide
+   20.​Wyoming Public Records Act (W.S.§ 16-4-201 through 16-4-205)
+   21.​WyIT.2013, Electronic Data Destruction and Sanitization
+   22.​WyIT.2003, Data Backup, Storage and Restoration
+   23.​WyIT. 2005, Information Residency and Transportation
+   24.​WyIT.2009, “Clean Desk” Confidential Information and Sensitive Materials Policy
+   25.​WyIT.2014, Data Sharing Agreement Documentation Governance
+   26.​WyIT.3015, Physical Media
+
+                                                                3
+
+                                                    ​
+Compliance & Exceptions:
+Compliance
+Employees who violate this policy may be subject to appropriate disciplinary action up to and including
+discharge as well as both civil and criminal penalties. Non-employees, including, without limitation,
+contractors, may be subject to termination of contractual agreements, denial of access to IT resources,
+and other actions as well as both civil and criminal penalties.
+
+Exceptions
+Requests for exceptions to this policy shall be reviewed by the Chief Information Security Officer
+(CISO) and the Chief Information Officer (CIO). Departments requesting exceptions shall provide such
+requests to the CIO in accordance with WyIT.3002 Policy Exception Request.
+
+The request should specifically state the scope of the exception along with justification for granting the
+exception, the potential impact or risk attendant upon granting the exception, risk mitigation measures
+to be undertaken by the IT Department, initiatives, actions and a time-frame for achieving the minimum
+compliance level with the policies set forth herein. The CIO shall review such requests; confer with the
+requesting department.
+
+Any exception to established policy shall be defined and tracked as a risk to the state and established
+mitigating controls monitored by the agency.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+Approval
+This policy as signed by the appropriate officer (listed below) is considered approved and enforced, per
+Wyoming State Statutes (W.S 9-2-2906,(b), (iii)) and (W.S. 9-2-2906,(b), (vi)).
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+ Jeffrey Clines                                               Chief Information Officer
+ Officer Name                                                 Officer Title
+
+ Officer’s Signature                                          Date
+
+                                                    4
+
+                                                        ​
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version       Change                                                         Author(s)          Date of Change
+ 2026-09.1     ETS Director signature                                           GRC                September
+                                                                                                      2026
+ 2025-09.2     WyIT 2005, Information Residency, Updated                      Pat Potter           September
+               Document Template                                                                      2025
+               WyIT 2005, Information Residency, Originally                Wyoming Data
+ 2024-06.1     Published                                                    Governance              June 2024
+                                                                         Committee (WDGC)
+
+                                                         5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the Effective Date cell of the file's header table, as printed. source_version is the Policy Version (or Document Version) cell of the header table, as printed.

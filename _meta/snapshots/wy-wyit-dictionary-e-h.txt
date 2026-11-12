@@ -1,0 +1,174 @@
+                                        ‭Definitions - E - H‬
+
+‭ URPOSE:‬‭This‬‭document‬‭provides‬‭a‬‭list‬‭of‬‭words‬‭and‬‭definitions‬‭to‬‭clarify‬‭Information‬
+P
+‭Specific (IT) terminology contained within the State of Wyoming Policies and Standards.‬
+
+‭I.‬ ‭APPLICABILITY‬
+
+       ‭ his policy applies to all Executive Branch agencies, boards, and commissions staff‬
+       T
+       ‭(collectively referred to as “agencies”). This policy is also applicable to consultants,‬
+        ‭affiliates, and temporary employees.‬
+
+‭II.‬ ‭DEFINITIONS‬
+
+ ‭E‬
+       ‭●‬ ‭Encrypt:‬ ‭Generic‬ ‭term‬ ‭encompassing‬ ‭encipher‬ ‭and‬ ‭encode.‬ ‭(SOURCE:‬
+            ‭CNSSI-4009)‬
+
+       ‭●‬ ‭Encryption:‬ ‭Conversion‬ ‭of‬ ‭plaintext‬ ‭to‬ ‭ciphertext‬ ‭through‬ ‭the‬ ‭use‬ ‭of‬ ‭a‬
+            ‭cryptographic algorithm. (SOURCE: FIPS 185)‬
+
+       ‭●‬ ‭Enterprise:‬ ‭An‬ ‭organization‬ ‭with‬ ‭a‬ ‭defined‬ ‭mission/goal‬ ‭and‬ ‭a‬ ‭defined‬
+            ‭boundary,‬ ‭using‬ ‭information‬ ‭systems‬ ‭to‬ ‭execute‬ ‭that‬ ‭mission,‬ ‭and‬ ‭with‬
+             ‭responsibility‬ ‭for‬ ‭managing‬ ‭its‬ ‭risks‬ ‭and‬ ‭performance.‬ ‭An‬ ‭enterprise‬ ‭may‬
+              ‭consist‬ ‭of‬ ‭all‬ ‭or‬ ‭some‬ ‭of‬ ‭the‬ ‭following‬ ‭business‬ ‭aspects:‬ ‭acquisition,‬
+               ‭program‬ ‭management,‬ ‭financial‬ ‭management‬ ‭(e.g.,‬ ‭budgets),‬ ‭human‬
+                ‭resources,‬ ‭security‬ ‭and‬ ‭information‬ ‭systems,‬ ‭information‬ ‭and‬ ‭mission‬
+                 ‭management. (SOURCE: CNSSI-4009)‬
+
+       ‭●‬ ‭Entity:‬ ‭all‬ ‭executive‬ ‭branch‬ ‭agencies,‬ ‭boards,‬ ‭and‬ ‭commissions,‬ ‭workforce‬
+            ‭members‬‭including,‬‭but‬‭not‬‭limited‬‭to,‬‭full-time‬‭employees,‬‭part-time‬‭employees,‬
+             ‭trainees,‬ ‭volunteers,‬ ‭contractors,‬ ‭vendors,‬ ‭3rd‬ ‭Party‬ ‭providers,‬ ‭and‬ ‭temporary‬
+
+                                                                                 ‭Policy Definitions - E - H    Page‬‭1‬
+
+           ‭ orkers.‬
+           w
+      ‭●‬ ‭Exception:‬ ‭permission‬ ‭to‬ ‭continue‬ ‭operating‬ ‭(for‬ ‭an‬ ‭established‬ ‭timeframe)‬ ‭a‬
+           ‭system, service, or product that cannot comply with established policy(s)‬
+
+      ‭●‬ ‭Exploit:‬‭Code that is developed to take advantage of vulnerabilities.‬
+
+‭F‬
+
+      ‭●‬ ‭F541‬ ‭Forms‬‭:‬ ‭Mainframe‬ ‭forms,‬ ‭called‬ ‭F541s,‬ ‭provide‬ ‭the‬ ‭means‬ ‭for‬ ‭security‬
+           ‭liaisons to add, change, and delete users on the mainframe.‬
+
+      ‭●‬ ‭False‬ ‭Positive:‬ ‭An‬ ‭alert‬ ‭that‬ ‭incorrectly‬ ‭indicates‬ ‭that‬ ‭malicious‬ ‭activity‬ ‭is‬
+           ‭occurring. (SOURCE: NIST SP 800-61)‬
+
+      ‭●‬ ‭Federal‬‭Information‬‭Processing‬‭Standard‬‭(FIPS):‬‭A‬‭standard‬‭for‬‭adoption‬‭and‬
+           ‭use‬ ‭by‬ ‭federal‬ ‭departments‬ ‭and‬ ‭agencies‬ ‭that‬ ‭has‬‭been‬‭developed‬‭within‬
+            ‭the‬ ‭Information‬ ‭Technology‬ ‭Laboratory‬ ‭and‬ ‭published‬ ‭by‬ ‭the‬ ‭National‬
+             ‭Institute‬ ‭of‬ ‭Standards‬ ‭and‬ ‭Technology,‬ ‭a‬ ‭part‬ ‭of‬ ‭the‬ ‭U.S.‬ ‭Department‬ ‭of‬
+              ‭Commerce.‬ ‭A‬ ‭FIPS‬ ‭covers‬ ‭some‬ ‭topics‬‭in‬‭information‬‭technology‬‭in‬‭order‬
+               ‭to‬ ‭achieve‬ ‭a‬ ‭common‬ ‭level‬ ‭of‬ ‭quality‬ ‭or‬ ‭some‬ ‭level‬ ‭of‬ ‭interoperability.‬
+                ‭(SOURCE: FIPS 201)‬
+
+      ‭●‬ ‭Federal‬ ‭Information‬ ‭Security‬ ‭Management‬ ‭Act‬ ‭(FISMA):‬ ‭A‬ ‭statute‬ ‭(Title‬ ‭III,‬
+           ‭P.L.‬ ‭107-347)‬ ‭that‬ ‭requires‬ ‭agencies‬ ‭to‬ ‭assess‬ ‭risk‬ ‭to‬ ‭information‬ ‭systems‬
+            ‭and‬ ‭provide‬ ‭information‬ ‭security‬ ‭protections‬ ‭commensurate‬ ‭with‬ ‭the‬ ‭risk.‬
+             ‭FISMA‬ ‭also‬ ‭requires‬ ‭that‬ ‭agencies‬ ‭integrate‬ ‭information‬ ‭security‬ ‭into‬ ‭their‬
+              ‭capital‬ ‭planning‬ ‭and‬ ‭enterprise‬ ‭architecture‬ ‭processes,‬ ‭conduct‬ ‭annual‬
+               ‭information‬ ‭systems‬ ‭security‬ ‭reviews‬ ‭of‬ ‭all‬ ‭programs‬ ‭and‬ ‭systems,‬ ‭and‬
+                ‭report‬ ‭the‬ ‭results‬‭of‬‭those‬‭reviews‬‭to‬‭OMB.‬‭(SOURCE:‬‭CNSSI-4009)‬‭Title‬‭III‬
+                 ‭of‬ ‭the‬ ‭E-Government‬ ‭Act‬ ‭requires‬ ‭each‬ ‭federal‬ ‭agency‬ ‭to‬ ‭develop,‬
+                  ‭document,‬ ‭and‬ ‭implement‬ ‭an‬ ‭agency-wide‬ ‭program‬‭to‬‭provide‬‭information‬
+                   ‭security‬ ‭for‬ ‭the‬ ‭information‬ ‭and‬ ‭information‬ ‭systems‬ ‭that‬ ‭support‬ ‭the‬
+                    ‭operations‬ ‭and‬ ‭assets‬ ‭of‬ ‭the‬ ‭agency,‬ ‭including‬‭those‬‭provided.‬ ‭(SOURCE:‬
+                     ‭NIST SP 800-63)‬
+
+      ‭●‬ ‭Federal‬‭Risk‬‭and‬‭Authorization‬‭Management‬‭Program‬‭(FedRAMP):‬‭A‬‭federal‬
+           ‭government-wide‬ ‭program‬ ‭that‬ ‭provides‬ ‭a‬ ‭standardized‬ ‭approach‬ ‭to‬
+            ‭security‬ ‭assessment,‬ ‭authorization,‬ ‭and‬ ‭continuous‬ ‭monitoring‬ ‭for‬ ‭cloud‬
+             ‭products and services. (SOURCE: http://cloud.cio.gov/fedramp)‬
+
+                                                                                    ‭Policy Definitions - E - H   Page‬‭2‬
+
+      ‭●‬ ‭Federal‬‭Tax‬‭Information‬‭(FTI)‬‭:‬‭Federal‬‭Tax‬‭information‬‭consists‬‭of‬‭federal‬‭tax‬
+           ‭returns‬‭and‬‭return‬‭information‬‭(and‬‭information‬‭derived‬‭from‬‭it)‬‭that‬‭is‬‭in‬‭the‬
+            ‭agency’s‬ ‭possession‬ ‭or‬ ‭control,‬ ‭which‬ ‭is‬ ‭covered‬ ‭by‬ ‭the‬ ‭confidentiality‬
+             ‭protections‬ ‭of‬ ‭the‬ ‭Internal‬ ‭Revenue‬ ‭Code‬ ‭(IRC)‬ ‭and‬ ‭subject‬ ‭to‬ ‭the‬ ‭IRC‬
+              ‭6103(p)(4)‬ ‭safeguarding‬ ‭requirements‬ ‭including‬ ‭IRS‬ ‭oversight.‬ ‭FTI‬ ‭includes‬
+               ‭return‬ ‭or‬ ‭return‬ ‭information‬ ‭received‬ ‭directly‬ ‭from‬ ‭the‬ ‭IRS‬ ‭or‬ ‭obtained‬
+                ‭through‬ ‭an‬ ‭authorized‬ ‭secondary‬ ‭source,‬ ‭such‬ ‭as‬ ‭the‬ ‭Social‬ ‭Security‬
+                 ‭Administration‬ ‭(SSA),‬ ‭Federal‬ ‭Office‬ ‭of‬ ‭Child‬ ‭Support‬ ‭Enforcement‬‭(OCSE),‬
+                  ‭Bureau‬ ‭of‬ ‭the‬ ‭Fiscal‬ ‭Service‬ ‭(BFS),‬ ‭or‬ ‭Centers‬ ‭for‬ ‭Medicare‬ ‭and‬ ‭Medicaid‬
+                   ‭Services‬‭(CMS),‬‭or‬‭another‬‭affiliate‬‭acting‬‭on‬‭behalf‬‭of‬‭the‬‭IRS‬‭pursuant‬‭to‬‭an‬
+                    ‭IRC‬ ‭6103(p)(2)(b)‬ ‭agreement.‬ ‭FTI‬ ‭includes‬ ‭any‬ ‭information‬ ‭created‬ ‭by‬ ‭the‬
+                     ‭recipient‬ ‭that‬ ‭is‬ ‭derived‬ ‭from‬ ‭Federal‬ ‭return‬‭or‬‭return‬‭information‬‭received‬
+                      ‭from the IRS or obtained through a secondary source. (SOURCE: IRS).‬
+
+      ‭●‬ ‭File‬ ‭Security:‬ ‭Means‬ ‭by‬ ‭which‬ ‭access‬ ‭to‬ ‭computer‬ ‭files‬ ‭is‬ ‭limited‬ ‭to‬
+           ‭authorized users only. (SOURCE: CNSSI4009)‬
+
+      ‭●‬ ‭Firewall:‬‭A‬‭gateway‬‭that‬‭limits‬‭access‬‭between‬‭networks‬‭in‬‭accordance‬‭with‬
+            ‭local‬ ‭security‬ ‭policy.‬ ‭(SOURCE:‬ ‭NIST‬ ‭SP‬ ‭800-32)‬ ‭A‬ ‭hardware/software‬
+             ‭capability‬ ‭that‬ ‭limits‬ ‭access‬ ‭between‬ ‭networks‬ ‭and/or‬ ‭systems‬ ‭in‬
+              ‭accordance‬‭with‬‭a‬‭specific‬‭security‬‭policy.‬‭(SOURCE:‬‭CNSSI-4009)‬‭A‬‭device‬
+               ‭or‬ ‭program‬ ‭that‬ ‭controls‬ ‭the‬ ‭flow‬ ‭of‬ ‭network‬ ‭traffic‬ ‭between‬ ‭networks‬ ‭or‬
+                ‭hosts that employ differing security postures. (SOURCE: NIST SP 800-41)‬
+       ‭●‬ ‭Flaw:‬ ‭Error‬ ‭of‬ ‭commission,‬ ‭omission,‬ ‭or‬ ‭oversight‬ ‭in‬‭an‬‭information‬‭system‬
+                 ‭that‬ ‭may‬ ‭allow‬ ‭protection‬ ‭mechanisms‬ ‭to‬ ‭be‬ ‭bypassed‬ ‭(SOURCE:‬
+                  ‭CNSSI-4009)‬
+
+      ‭●‬ ‭Full‬ ‭Disk‬ ‭Encryption‬ ‭(FDE):‬ ‭The‬ ‭process‬ ‭of‬ ‭encrypting‬ ‭all‬ ‭the‬ ‭data‬ ‭on‬ ‭the‬
+          ‭ ard‬‭disk‬‭drive‬‭used‬‭to‬‭boot‬‭a‬‭computer,‬‭including‬‭the‬‭computer’s‬‭operating‬
+          h
+          ‭system,‬ ‭and‬ ‭permitting‬ ‭access‬ ‭to‬ ‭the‬ ‭data‬ ‭only‬ ‭after‬ ‭successful‬
+           ‭authentication‬ ‭with‬ ‭the‬ ‭full‬ ‭disk‬ ‭encryption‬ ‭product.‬ ‭(SOURCE:‬ ‭NIST‬ ‭SP‬
+            ‭800-111)‬
+
+‭G‬
+
+      ‭●‬ ‭Generative‬ ‭Artificial‬ ‭Intelligence:‬ ‭Algorithms‬‭that‬‭create‬‭new‬‭content,‬‭including‬
+          ‭audio, code, images, text, simulations, and videos.‬
+
+‭H‬
+
+                                                                                        ‭Policy Definitions - E - H   Page‬‭3‬
+
+‭●‬ ‭Hacker:‬ ‭Unauthorized‬ ‭user‬ ‭who‬ ‭attempts‬ ‭to‬ ‭or‬ ‭gains‬ ‭access‬ ‭to‬ ‭an‬ ‭information‬
+     ‭system. (SOURCE: CNSSI-4009)‬
+
+‭●‬ ‭Health‬‭Information:‬‭means‬‭any‬‭information,‬‭whether‬‭oral‬‭or‬‭recorded‬‭in‬‭any‬
+     ‭form‬ ‭or‬ ‭medium,‬ ‭that:‬ ‭(a)‬ ‭is‬ ‭created‬ ‭or‬ ‭received‬ ‭by‬ ‭a‬ ‭health‬ ‭care‬‭provider,‬
+      ‭health‬ ‭plan,‬ ‭public‬ ‭health‬ ‭authority,‬ ‭employer,‬ ‭life‬ ‭insurer,‬ ‭school‬ ‭or‬
+       ‭university,‬‭or‬‭health‬‭care‬‭clearinghouse;‬‭and‬‭(b)‬‭relates‬‭to‬‭the‬‭past,‬‭present,‬
+        ‭or‬ ‭future‬ ‭physical‬ ‭or‬ ‭mental‬ ‭health‬ ‭or‬ ‭condition‬ ‭of‬ ‭any‬ ‭individual,‬ ‭the‬
+         ‭provision‬ ‭of‬ ‭health‬ ‭care‬ ‭to‬ ‭an‬ ‭individual,‬ ‭or‬ ‭the‬ ‭past,‬ ‭present,‬ ‭or‬ ‭future‬
+          ‭payment for the provision of health care to an individual. (SOURCE: HIPAA)‬
+
+‭●‬ ‭High‬ ‭Availability:‬ ‭A‬ ‭failover‬ ‭feature‬ ‭to‬ ‭ensure‬ ‭availability‬ ‭during‬ ‭device‬ ‭or‬
+     ‭component interruptions. (SOURCE: NIST SP 800-113)‬
+
+‭●‬ ‭High‬ ‭Sensitivity‬ ‭or‬ ‭Confidential‬‭.‬ ‭Confidential‬ ‭information‬ ‭is‬ ‭information‬
+     ‭whose‬‭loss,‬‭corruption,‬‭or‬‭unauthorized‬‭disclosure‬‭would‬‭seriously‬‭harm‬‭an‬
+      ‭individual's,‬ ‭business’s,‬ ‭or‬ ‭the‬ ‭State’s‬ ‭reputation‬ ‭or‬ ‭business‬ ‭position,‬
+       ‭resulting in severe financial and legal loss.‬
+
+‭●‬ ‭HIPAA:‬ ‭The‬ ‭Health‬ ‭Insurance‬ ‭Portability‬ ‭and‬ ‭Accountability‬ ‭Act‬ ‭of‬ ‭1996‬
+     ‭(HIPAA;‬ ‭Pub.L.‬ ‭104–191,‬ ‭110‬ ‭Stat.‬ ‭1936,‬ ‭enacted‬ ‭August‬ ‭21,‬ ‭1996)‬ ‭was‬
+      ‭enacted‬‭by‬‭the‬‭United‬‭States‬‭Congress‬‭and‬‭signed‬‭by‬‭President‬‭Bill‬‭Clinton‬
+       ‭in‬ ‭1996.‬ ‭It‬ ‭was‬ ‭known‬ ‭as‬ ‭the‬ ‭Kennedy–Kassebaum‬ ‭Act‬ ‭or‬
+        ‭Kassebaum-Kennedy‬ ‭Act‬ ‭after‬ ‭two‬ ‭of‬ ‭its‬ ‭leading‬ ‭sponsors.‬‭Title‬‭I‬‭of‬‭HIPAA‬
+         ‭protects‬‭health‬‭insurance‬‭coverage‬‭for‬‭workers‬‭and‬‭their‬‭families‬‭when‬‭they‬
+          ‭change‬ ‭or‬ ‭lose‬ ‭their‬ ‭jobs.‬ ‭Title‬ ‭II‬ ‭of‬ ‭HIPAA,‬ ‭known‬ ‭as‬ ‭the‬ ‭Administrative‬
+           ‭Simplification‬ ‭(AS)‬ ‭provisions,‬ ‭requires‬ ‭the‬ ‭establishment‬ ‭of‬ ‭national‬
+            ‭standards‬ ‭for‬ ‭electronic‬ ‭healthcare‬ ‭transactions‬ ‭and‬ ‭national‬‭identifiers‬‭for‬
+             ‭providers, health insurance plans, and employers. (SOURCE: WIKIPEDIA)‬
+
+‭●‬ ‭HITECH:‬ ‭The‬ ‭Health‬ ‭Information‬ ‭Technology‬ ‭for‬ ‭Economic‬ ‭and‬ ‭Clinical‬
+     ‭Health‬ ‭Act,‬ ‭abbreviated‬ ‭HITECH‬ ‭Act,‬ ‭was‬ ‭enacted‬ ‭under‬ ‭Title‬ ‭XIII‬ ‭of‬ ‭the‬
+      ‭American‬‭Recovery‬‭and‬‭Reinvestment‬‭Act‬‭of‬‭2009‬‭(Pub.L.‬‭111–5).‬‭Under‬‭the‬
+       ‭HITECH‬‭Act,‬‭the‬‭United‬‭States‬‭Department‬‭of‬‭Health‬‭and‬‭Human‬‭Services‬‭is‬
+        ‭spending‬ ‭$25.9‬ ‭billion‬ ‭to‬ ‭promote‬ ‭and‬ ‭expand‬ ‭the‬ ‭adoption‬ ‭of‬ ‭health‬
+         ‭information technology. (SOURCE: WIKIPEDIA)‬
+
+                                                                                  ‭Policy Definitions - E - H   Page‬‭4‬
+
+                       ‭DOCUMENT HISTORY‬
+
+                        ‭ORIGINAL SUBMISSION‬
+‭SUBMITTED‬   ‭SUBMITTED‬     ‭APPROVED BY‬     ‭ISSUED DATE‬        ‭EFFECTIVE‬
+    ‭ON‬          ‭BY‬                                                  ‭DATE‬
+
+                              ‭REVISIONS‬
+‭LAST REVISION DATE‬        ‭LAST REVISED BY‬           ‭LAST APPROVED BY‬
+
+                               ‭REVIEWS‬
+ ‭LAST REVIEW DATE‬         ‭LAST REVIEWED BY‬         ‭NEXT REVIEW DATE‬
+
+                                                         ‭Policy Definitions - E - H   Page‬‭5‬

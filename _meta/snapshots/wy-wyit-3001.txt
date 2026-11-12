@@ -1,0 +1,409 @@
+           GENERAL SECURITY - ACCEPTABLE USE
+                                          WyIT 3001
+
+PURPOSE: The purpose of this policy is to outline the expectations of all Executive
+Branch agencies, boards, and commissions regarding the acceptable use of IT resources
+by authorized users and to establish the parameters for the use of IT resources.
+Additionally, this policy ensures the acceptable use of information systems, electronic
+and computing devices, and network resources to conduct State business, whether
+owned or leased by the State, its agencies, or a third party (aka Affiliates). All employees,
+contractors, vendors, and/or affiliates of the State of Wyoming are responsible for
+exercising good judgment regarding the appropriate use of information systems,
+electronic devices, and network resources. The State requires that these systems be
+used responsibly and in compliance with all State legislation and policies.
+
+ I.​ APPLICABILITY
+
+     This policy applies to all Executive Branch agencies, boards, and commissions staff
+     (collectively referred to as “agencies”). Additionally, this policy is also applicable to
+     consultants, affiliates, and temporary employees.
+
+II.​ DEFINITIONS
+
+     All definitions for this policy are located in the Policy Dictionary.
+
+III.​ EXCEPTIONS
+
+     Any exceptions provided to the following policy must abide by the WyIT - 3002 -
+     Security Exception Request policy.
+
+                                                                                WyIT - 3001      Page 1
+
+IV.​   ACCEPTABLE USE OF ASSETS
+
+       ●​ Assets include, but are not limited to, physical equipment, such as desktop
+          computers, servers, printers, laptops, telephones, mobile devices, and
+          removable media (such as USB flash drives), as well as systems and services,
+          such as the organizational network, internet, and voicemail. Organizational
+          data is also an asset. All devices and systems are property of the State, and all
+          use must be in accordance with its policies, standards, and guidelines.
+
+         ○​ The CIO allows limited use of the network, systems, and devices for
+            personal reasons, but personal use must not be abused. Occasional and
+            incidental personal use is permitted, provided that it is limited to the
+            following considerations:
+              ■​ Is otherwise consistent with all State policies.
+              ■​ Is limited in amount and duration.
+              ■​ Does not impede the ability of the individual or other users to fulfill the
+                  State’s responsibilities and duties, including but not limited to
+                  extensive bandwidth, resource, or storage utilization.
+              ■​ Is not being utilized during travel that is deemed personal and not
+                  work related.
+
+         ○​ Exercising good judgment regarding occasional and incidental personal
+            use is important. The CIO may revoke or limit this privilege at any time.
+         ○​ Users shall not access and/or purchase technology, devices, applications,
+            or services that are not formally authorized and approved by the CIO
+            procurement review process.
+         ○​ IT assets, such as laptops and mobile devices, are intended to be used only
+            by the people to whom they have been issued. The person to whom the
+            device was issued is ultimately responsible for any actions performed with
+            the device.
+         ○​ Users will protect all State assets at all times, keeping them physically and
+            logically secured and under the control of the user, including but not limited
+            to:
+
+             ■​ Ensuring the device is locked (screen/keyboard) when unattended by
+                the authorized user.
+
+         ○​ Access to State systems and devices is controlled through individual
+
+                                                                            WyIT - 3001        Page 2
+
+            accounts and passwords based on roles and responsibilities assigned.
+         ○​ All voicemail boxes will be protected with a PIN (personal identification
+            number). PINs must be changed every 60-days to aid in mailbox security.
+            Easy-to-guess or previously used PINs will be blocked by the system. PINs
+            must not be shared with others.
+         ○​ Removable media, such as USB flash drives, etc., may be used with the
+            following requirements:
+
+             ■​ Information shall only be stored on removable media when required in
+                the performance of the user’s role (e.g., USB shared between two
+                employees during a conference).
+             ■​ Removable storage devices, including but not limited to USB drives,
+                shall be encrypted.
+             ■​ Personally owned mobile devices (e.g., smartphones and tablets) are
+                not permitted to be used as removable media to store or transfer any
+                state-owned data.
+             ■​ Any unknown removable media that is found unattended must be
+                turned in to the CIO Service Desk and NOT inserted into any State
+                issued device.
+             ■​ End users are to take reasonable measures to secure removable media
+                (e.g., storing it in a secure/locked location when not in use, not sharing it
+                with unauthorized users, etc.).
+             ■​ Upon completion of the assigned duties, all data shall be deleted, in
+                accordance with NIST SP 800-88 Rev. 1. Guidelines for Media
+                Sanitization, from the removable media.​
+
+V.​   UNACCEPTABLE USES
+
+      The following list is not exhaustive, but is an attempt to provide a framework for
+      activities that constitute unacceptable use. Users, however, may be exempted
+      from one or more of these restrictions during their authorized job responsibilities,
+      after approval from the CIO.
+
+      ●​ Unacceptable use includes, but is not limited to, the following:
+         ○​ Sharing account passwords, Personal Identification Numbers (PINs),
+            security questions/answers, security tokens (e.g., smartcard, key fob), or
+            similar information or devices used for authentication and authorization to
+            State information assets.
+         ○​ Engaging in the subversion of existing security controls (e.g., network,
+
+                                                                             WyIT - 3001        Page 3
+
+              computer, or device hacking and scanning, password cracking,
+              penetration testing, conducting red team exercises, etc.).
+           ○​ Purposely introducing malicious programs into the network or server (e.g.,
+              malware, viruses, worms, trojan horses, etc.).
+           ○​ Distributing,     transmitting, posting, or storing any electronic
+              communications, material, or correspondence that is threatening, obscene,
+              harassing,      pornographic,       offensive,    defamatory,  discriminatory,
+              inflammatory, illegal, or intentionally false or inaccurate.
+           ○​ Adding or installing personal information technology resources (e.g.,
+              wireless access points, software, mobile devices, etc.) to existing State
+              information systems.
+           ○​ Purposely using, acquiring, reproducing, transmitting, or distributing any
+              information, software, or other electronic materials (e.g., movies, music) in
+              violation of applicable copyright, trademark, intellectual property laws, and
+              contractual agreements.
+           ○​ Installing, downloading, or running software that has not been approved
+              by the CIO.
+           ○​ Using an organization’s IT resources to circulate unauthorized solicitations
+              or advertisements for non-organizational purposes, including religious,
+              political, or not-for-profit organizations.
+           ○​ Providing unauthorized affiliates access to the State’s technology
+              resources that have not been designated as “guest.”
+           ○​ Using State technology, information, or resources for commercial or
+              personal purposes, in support of "for-profit" activities, or in support of
+              other outside employment or business activity (e.g., consulting for pay,
+              business transactions).
+           ○​ Propagating chain letters, fraudulent mass mailings, spam, or other types
+              of undesirable and unwanted email content using organizational IT
+              resources.
+
+VI.​ ELECTRONIC COMMUNICATION AND INTERNET USE​
+     ​
+     The use of the State’s communication and internet systems and services (including
+     but not limited to email, instant messaging, voicemail, forums, and social media) is
+     provided in order to perform regular job duties. The use is a privilege and must be
+     used with respect, common sense, and in accordance with the following
+     requirements:
+
+                                                                            WyIT - 3001        Page 4
+
+●​ The email systems and other messaging services used at the State are owned
+   by the State and are, therefore, its property. This gives the State the right to
+   monitor any and all email traffic passing through its email system. This
+   monitoring may include, viewing of emails during the course of investigating
+   cybersecurity incidents related to email abuse, phishing or hacking, inadvertent
+   reading by IT staff during the normal course of managing the email system,
+   review by human resources and legal team during the email discovery phase of
+   litigation, and observation by management in cases of suspected abuse or
+   employee inefficiency.
+●​ The State often delivers official communications via email. Employees of the
+   State with email accounts are expected to check their email consistently to be
+   aware of important State announcements and updates, and for fulfilling
+   business and role-oriented tasks.
+●​ Electronic communication and the internet must not be used for illegal or
+   unlawful purposes, including, but not limited to, copyright infringement,
+   obscenity, libel, slander, fraud, defamation, plagiarism, harassment (including
+   offensive and/or insulting content), discrimination, intimidation, forgery,
+   impersonation, illegal gambling, soliciting for illegal pyramid schemes, and
+   computer tampering (e.g. spreading computer viruses).
+●​ State communication platforms and the internet are not to be used for purposes
+   that could reasonably be expected to strain storage or bandwidth (e.g., emailing
+   large attachments instead of pointing to a location on a shared drive). Individual
+   use of resources will not interfere with others’ use of State email systems and
+   services.
+●​ Users are prohibited from using accounts that do not belong to them and are
+   prohibited from using platforms to impersonate others.
+●​ Users are not to give the impression that they are representing or providing
+   opinions on behalf of the State unless otherwise authorized.
+●​ Users shall not open message attachments or click on hyperlinks sent from
+   unknown or unsigned sources through any platform (email, instant message,
+   social media, etc.). Attachments/links are the primary source of malware and
+   social engineering and shall be treated with utmost caution.
+●​ Any allegations of misuse shall be promptly reported to the CIO Service Desk. If
+   you receive an offensive or suspicious email, do not forward, delete, or reply to
+   the message. Instead, report it directly to the CIO Service Desk.
+●​ Email users are responsible for mailbox management, including organization and
+   cleaning. If a user subscribes to a mailing list, they must be aware of how to
+   unsubscribe from the list and are responsible for doing so in the event that their
+
+                                                                      WyIT - 3001       Page 5
+
+           current email address changes.
+        ●​ Archival and backup copies of email messages exist, despite end-user deletion,
+           in compliance with the State of Wyoming Records Retention Policy.
+        ●​ Email access will be terminated when the employee or affiliate terminates their
+           association with the State. The State is under no obligation to store or forward
+           the contents of an individual’s email inbox/outbox after the term of their
+           employment has ceased.
+        ●​ Users shall not send sensitive information that is not appropriately protected
+           (encrypted). Appropriate means of protection include but are not limited to
+           Google Drive or sending encrypted email standards.
+        ●​ Users shall take extra precautions when transmitting State, stakeholder, and/or
+           other regulated information via electronic communications. Sensitive material
+           shall be marked and encrypted appropriately. Keep in mind that all email
+           messages sent outside of the State become the property of the receiver.
+        ●​ Users are not permitted to automatically forward emails received by their State
+           account to a non-state-owned email address or other messaging system.
+        ●​ Email users are expected to remember that emails sent from the State’s email
+           accounts reflect on the State. Please comply with normal standards of
+           professional and personal courtesy and conduct.
+        ●​ Users are permitted to remotely access the state network while offsite. All users
+           who remotely access State IT resources shall ensure compliance with the
+           Remote Access policy (WyIT-3017 - Remote Access).​
+
+VII.​    SOCIAL MEDIA​
+         ​
+         State social media accounts are permitted to be used for business purposes only.
+         These purposes include building a positive brand image, providing stakeholder
+         support, monitoring public opinion, and professional networking. The following
+         requirements are imposed for the appropriate use of social media:
+
+          ●​ Access to social media will be open to staff who have received approval from
+             their agency director. Approval will be provided given a legitimate business
+             function.
+          ●​ All actions and communications through social media must adhere to all
+             previously defined acceptable uses of electronic communications.
+          ●​ The use of personal social media accounts and user IDs for State use is
+             prohibited.
+          ●​ The use of State social media user IDs for personal use is prohibited.​
+
+                                                                             WyIT - 3001       Page 6
+
+VIII.​   DATA SECURITY​
+         ​
+         Maintaining the confidentiality, integrity, and availability of organizational data is
+         paramount to the security and success of the organization. The following
+         requirements are defined to keep data secure and handled appropriately:​
+
+         ●​ All organizational data is owned by the State, and all users are responsible for
+            appropriately respecting and protecting all data.
+         ●​ Users must keep all data secure by taking sensible precautions and following
+            the requirements defined in the WyIT - 2001 Information Classification policy
+            and the data-handling requirements defined in the WyIT - S - 2001 Information
+            Classification Standard. This standard outlines the requirements for creating,
+            using, storing, transmitting, archiving, and destroying data.
+         ●​ Data must be classified based on sensitivity, as defined in the WyIT - 2001
+            Information Classification policy. Data must be classified as Public, Internal, or
+            Confidential. Data at each classification level must be safeguarded and
+            handled appropriately in accordance with the WyIT - S - 2001 Information
+            Classification Standard.
+         ●​ Users may not view, copy, alter, or destroy data, software, documentation, or
+            data communications belonging to the State or another individual without
+            authorized permission.
+         ●​ Users will only access data provided to them for duties in connection with
+            their employment or engagement and in accordance with their terms and
+            conditions of employment or equivalent.
+         ●​ Extraction, manipulation, and reporting of State data must be done for
+            business purposes only.
+         ●​ Personal use of organizational data, including derived data, in any format and
+            at any location, is prohibited.
+         ●​ Users will follow all State sanctioned data removal procedures to permanently
+            erase data from devices once its use is no longer required, as defined in WyIT
+            - S - 2001 Information Classification Standard. Data must be retained for the
+            length of time defined in accordance with the State of Wyoming Archivist
+            Retention and Disposition requirements.
+
+  ​
+
+                                                                               WyIT - 3001        Page 7
+
+IX.​   MOBILE DEVICE USE​
+
+       ●​ Personal mobile devices are not authorized to be accessed or used for state
+          business.
+       ●​ It is the responsibility of any employee who uses state-issued mobile device(s)
+          to ensure that all security protocols normally used in the management of data
+          on conventional storage infrastructure are also applied. It is imperative that any
+          mobile device that is used to conduct State business be used appropriately,
+          responsibly, and ethically.
+       ●​ The CIO reserves the right to refuse, by physical and non-physical means, the
+          ability to connect mobile devices to State and state-connected infrastructure.
+          The CIO will engage in such action if such equipment is being used in a way
+          that puts the State’s systems, data, users, and clients at risk.
+       ●​ All authorized mobile devices used for access to State systems and/or data
+          (such as email) must be protected by strong access control (e.g., complex
+          passwords and multi-factor authentication). Employees must never disclose
+          their passwords to anyone, even to family members, if work is conducted from
+          a mobile device.
+       ●​ All users of mobile devices must employ reasonable physical security
+          measures. All users are expected to secure all such devices whether or not
+          they are actually in use and/or being carried.
+       ●​ No non-state computers are authorized to synchronize or back up data of
+          state-issued mobile devices.
+       ●​ Sensitive data and passwords must not be stored, without using the State
+          authorized encryption solution, on the state-owned mobile devices.
+       ●​ In the event of a lost or stolen State mobile device, it is incumbent on the user
+          to report the incident to the CIO Service Desk immediately.
+       ●​ Mobile devices may only access the State network and data through the
+          internet using the authorized secure VPN connection. The VPN portal web
+          address will be provided to users as required. Smart mobile devices such as
+          smartphones, tablets, and laptops will access the State network and data using
+          mobile VPN software installed on the device by the CIO.​
+
+X.​    PASSWORD STANDARDS​
+
+       ●​ Access to State systems and devices is controlled through individual accounts
+          and passwords. The following requirements are in place to protect those
+          passwords and access to sensitive data and systems:
+
+                                                                            WyIT - 3001        Page 8
+
+          ○​ Users will not share account or password information with another person.
+          ○​ Accounts are to be used only by the assigned user of the account and only
+              for authorized purposes.
+          ○​ Attempting to obtain another user’s account password is strictly prohibited.
+       ●​ A user must contact the CIO Service Desk to obtain a password reset if they
+          have reason to believe any unauthorized person has learned their password.
+          Users must take all necessary precautions to prevent unauthorized access to
+          State resources, services, and data.
+       ●​ Users with passwords that have been identified as compromised will be
+          automatically reset.
+       ●​ Users must not use State system passwords for non-state accounts (i.e.
+          personal banking, social media, etc). In the event that non-state account(s) are
+          compromised, it could leave State system accounts compromised as well.
+       ●​ Password complexity will be enforced by IT through system-enforced policies
+          to ensure strong passwords and proper password hygiene:
+          ○​ Passwords will expire every 60 days, and users will be forced to change
+              them. Users are encouraged to reset their passwords prior to the expiration
+              date to minimize any interruption to network access.
+          ○​ A minimum lifespan of 1-day is enforced to prevent too frequent password
+              changes.
+          ○​ The previous 24 passwords cannot be reused.
+          ○​ Password complexity requirements enforce the use of a minimum of
+              uppercase, lowercase, numbers, and special characters. It needs to be 14
+              characters long.
+          ○​ Upon 3 failed login attempts, accounts will be locked. Accounts can be
+              unlocked by waiting for the 60 minutes to elapse or contacting the Service
+              Desk.​
+
+XI.​   INCIDENT RESPONSE AND REPORTING
+
+       The State has an incident response program for efficient remediation of
+       information security incidents. Employees are expected to comply with the
+       following requirements in order to ensure effective and efficient incident
+       remediation:
+
+       ●​ Users must report any suspected security incident to the CIO service desk,
+          including but not limited to lost/stolen equipment, suspected malware
+          infection, compromised credentials, and any other possible compromises of
+          State systems and/or data.
+
+                                                                           WyIT - 3001       Page 9
+
+        ●​ Users must cooperate with incident response processes, such as forfeiting
+           their equipment to the CIO for investigation if it is potentially compromised.​
+
+XII.​   SECURITY AWARENESS AND TRAINING​
+        ​
+        Human error and negligence are common sources of security issues. The State
+        takes a proactive approach by requiring security awareness and training:​
+
+        ●​ During onboarding, all users will be required to undergo information security
+           awareness and training. Upon completion, users will be required to sign a
+           declaration that they have completed training, understand the requirements
+           and specific procedures taught, and intend to abide by the policies and
+           procedures provided.
+        ●​ Users must complete ongoing security awareness and training as assigned.
+           Employees will be kept up to date on new improvements and emerging
+           threats.
+
+ REFERENCES:
+   ●​ NIST SP 800-88 Rev. 1. Guidelines for Media Sanitization​
+
+    ●​ WyIT - 2001 Information Classification Policy​
+
+    ●​ WyIT - 2001-S Information Classification Standard​
+
+    ●​ WyIT 3001-S Sending Encrypted Email Standard​
+
+    ●​ State of Wyoming Records Retention Schedules
+
+                                                                          WyIT - 3001        Page 10
+
+                      DOCUMENT HISTORY
+
+                       ORIGINAL SUBMISSION
+ SUBMITTED     SUBMITTED          APPROVED        APPROVED BY       EFFECTIVE
+    ON            BY                 BY             DATE(S)           DATE
+
+June 2024    ETS Governance,    Public Comment    05/10/2024 -    June 2024
+             Risk and           Period            05/24/2024
+             Compliance
+
+                                 REVISIONS
+  REVISION      REVISED                   SUMMARY OF                 LAST
+    DATE          BY                       REVISIONS              APPROVED BY
+
+March 2025   ETS Governance,    - Updated Links                       OPTIONS
+             Risk and                                             June 2024
+             Compliance
+
+                                  REVIEWS
+   LAST REVIEW DATE            LAST REVIEWED BY             NEXT REVIEW DATE
+
+                                                                    WyIT - 3001   Page 11

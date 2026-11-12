@@ -1,0 +1,530 @@
+{
+  "agreement": 0.9538,
+  "dict_ratio": 0.9459,
+  "disagreements": [
+    {
+      "before": [
+        "WEST"
+      ],
+      "paddle": "VIRGINIA",
+      "tesseract": "VI RGINIA"
+    },
+    {
+      "before": [
+        "Box",
+        "SECRETARY",
+        "OF",
+        "STATE"
+      ],
+      "paddle": "FILED",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "TENNANT",
+        "ADMINISTRATIVE",
+        "LAW",
+        "DIVISION"
+      ],
+      "paddle": "2015 APR 13 A 10 40 OFFICE WEST VIRGINIA Form 6 SECRETARY OF STATE",
+      "tesseract": "Or Oe eee ee"
+    },
+    {
+      "before": [
+        "EXISTING",
+        "RULE",
+        "YES",
+        "NO"
+      ],
+      "paddle": "X",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "of",
+        "Information",
+        "Technology",
+        "Equipment"
+      ],
+      "paddle": "",
+      "tesseract": "sme meee marrere mere aye mma tematic eet ASAE Sem RY RY em is nie em Ni a iat ay me a hor te at Sie am ie ae eegmane Gee AN SR ANON Saget AR tag soley at xpi"
+    },
+    {
+      "before": [
+        "number",
+        "SB",
+        "142",
+        "SECTION"
+      ],
+      "paddle": "64",
+      "tesseract": "864"
+    },
+    {
+      "before": [
+        "14,",
+        "2015",
+        "THIS",
+        "RULE"
+      ],
+      "paddle": "IS",
+      "tesseract": "1 S"
+    },
+    {
+      "before": [
+        "BECOMES",
+        "EFFECTIVE",
+        "ON",
+        "THE"
+      ],
+      "paddle": "FOLLOWING",
+      "tesseract": "POLLOWING"
+    },
+    {
+      "before": [
+        "DATE",
+        "July",
+        "1,",
+        "2015"
+      ],
+      "paddle": "Sh Sun",
+      "tesseract": "a a os we ff ol ak ae"
+    },
+    {
+      "before": [
+        "ak",
+        "ae",
+        "Authorized",
+        "Signature"
+      ],
+      "paddle": "Approved abi a eo FILED",
+      "tesseract": "LA ent of Administration Cabihet Secretaty i West Wrginia Depart"
+    },
+    {
+      "before": [
+        "Wrginia",
+        "Depart",
+        "TITLE",
+        "163"
+      ],
+      "paddle": "",
+      "tesseract": "Fil FLD"
+    },
+    {
+      "before": [
+        "Fil",
+        "FLD",
+        "LEGISLATIVE",
+        "RULE"
+      ],
+      "paddle": "",
+      "tesseract": "ce ian"
+    },
+    {
+      "before": [
+        "VIRGINIA",
+        "OFFICE",
+        "OF",
+        "TECHNOLOGY"
+      ],
+      "paddle": "EQUIPMENTPR",
+      "tesseract": "EQUIPMENT"
+    },
+    {
+      "before": [
+        "TECHNOLOGY",
+        "EQUIPMENT",
+        "3",
+        "A"
+      ],
+      "paddle": "10",
+      "tesseract": "IG"
+    },
+    {
+      "before": [
+        "IG",
+        "40",
+        "SERIES",
+        "1"
+      ],
+      "paddle": "OFFICE WEST VIRGINIA",
+      "tesseract": "OFFIC VIRGINA"
+    },
+    {
+      "before": [
+        "FOR",
+        "SANITIZATION",
+        "RETIREMENT",
+        "AND"
+      ],
+      "paddle": "DISPOSLTI N",
+      "tesseract": "DISPGSLFEON"
+    },
+    {
+      "before": [
+        "elimination",
+        "of",
+        "any",
+        "data"
+      ],
+      "paddle": "1",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "of",
+        "any",
+        "data",
+        "3.4"
+      ],
+      "paddle": "",
+      "tesseract": "3.5 3.67 3.78 3.89 161 3 4 4.1 4.2 4.3"
+    },
+    {
+      "before": [
+        "mailing",
+        "equipment",
+        "with",
+        "memory"
+      ],
+      "paddle": "3.5",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "by",
+        "another",
+        "state",
+        "entity"
+      ],
+      "paddle": "3.67",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "of",
+        "Standards",
+        "and",
+        "Technology"
+      ],
+      "paddle": "3.78",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "materials",
+        "or",
+        "unusable",
+        "equipment"
+      ],
+      "paddle": "3.89",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "a",
+        "working",
+        "life",
+        "remaining"
+      ],
+      "paddle": "3.910",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "repair",
+        "of",
+        "another",
+        "commodity"
+      ],
+      "paddle": "3.1011",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "recycle",
+        "Information",
+        "Technology",
+        "Equipment"
+      ],
+      "paddle": "3.1112",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "owned",
+        "by",
+        "the",
+        "State"
+      ],
+      "paddle": "3.1213",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "the",
+        "Department",
+        "of",
+        "Administration"
+      ],
+      "paddle": "161 3 4",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Department",
+        "of",
+        "Administration",
+        "Cleansing"
+      ],
+      "paddle": "4.1",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "media",
+        "cleansing",
+        "when",
+        "needed"
+      ],
+      "paddle": "4.2",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "device",
+        "will",
+        "be",
+        "used"
+      ],
+      "paddle": "4.3",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "accordance",
+        "with",
+        "NIST",
+        "standards"
+      ],
+      "paddle": "2",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "with",
+        "NIST",
+        "standards",
+        "4.4"
+      ],
+      "paddle": "",
+      "tesseract": "4.5 161 3 5 5.1 5.2 5.3 5.4 161 3 6 6.1 6.2 6.3"
+    },
+    {
+      "before": [
+        "data",
+        "of",
+        "any",
+        "kind"
+      ],
+      "paddle": "4.5",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "the",
+        "data",
+        "inaccessible"
+      ],
+      "paddle": "161 3 5",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "inaccessible",
+        "Internal",
+        "Reuse",
+        "Recycling"
+      ],
+      "paddle": "5.1",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "date",
+        "of",
+        "purchase"
+      ],
+      "paddle": "5.2",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "State",
+        "of",
+        "West",
+        "Virginia"
+      ],
+      "paddle": "5.3",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "reinstall",
+        "the",
+        "parts"
+      ],
+      "paddle": "5.4",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "authorized",
+        "methods",
+        "of",
+        "disposal"
+      ],
+      "paddle": "161 3 6",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Retirement",
+        "to",
+        "the",
+        "WVOT"
+      ],
+      "paddle": "6.1",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "WVOT",
+        "All",
+        "spending",
+        "units"
+      ],
+      "paddle": "shall",
+      "tesseract": "shalt"
+    },
+    {
+      "before": [
+        "Surplus",
+        "Property",
+        "hereafter",
+        "Surplus"
+      ],
+      "paddle": "6.2",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "on",
+        "the",
+        "WVOT",
+        "website"
+      ],
+      "paddle": "6.3",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "accurately",
+        "completed",
+        "form"
+      ],
+      "paddle": "3",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "accurately",
+        "completed",
+        "form",
+        "6.4"
+      ],
+      "paddle": "",
+      "tesseract": "161 3 7 7.1 7.2 7.3"
+    },
+    {
+      "before": [
+        "the",
+        "information",
+        "technology",
+        "equipment"
+      ],
+      "paddle": "161 3 7",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "technology",
+        "equipment",
+        "Final",
+        "Disposition"
+      ],
+      "paddle": "7.1",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "request",
+        "to",
+        "the",
+        "WVOT"
+      ],
+      "paddle": "7.2",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "accordance",
+        "with",
+        "NIST",
+        "standards"
+      ],
+      "paddle": "7.3",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "put",
+        "back",
+        "into",
+        "service"
+      ],
+      "paddle": "ifit",
+      "tesseract": "if it"
+    },
+    {
+      "before": [
+        "set",
+        "by",
+        "the",
+        "WVOT"
+      ],
+      "paddle": "4",
+      "tesseract": ""
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9017,
+  "figures": 80,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "4f13788983a9f3edf386084fa839b0bd9a5c07f1e1fa097894a8881e87dbed11",
+  "pdf_sha256": "5e8139354f1bd66c85e78a194e2554f74d1b51bb76470051182eb8ab846394cd",
+  "psm": null,
+  "text_sha256": "82113b76ad60009cae71386855702826f71f026dbb6b12e1f420887636f2232a",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 1073
+}

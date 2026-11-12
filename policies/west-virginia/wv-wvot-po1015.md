@@ -1,0 +1,414 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-po1015
+title: Change & Configuration Management Policy
+doc_type: policy
+citation: WVOT-PO1015
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1LjOwh1UW8sE1meY1SIi74HQ2PfxNuOiY
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: d6b4c175f66548c5945528c985b234128fb1ce89fe45a095ce28299ee623bd95
+effective_date: null
+source_version: Revised 2/25/2026
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as
+  extracted. source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Change & Configuration Management Policy (WVOT-PO1015)
+
+## At a glance
+
+Enterprise change management: identification, evaluation, planning, coordination and communication of changes to the state computing environment.
+
+## Full text
+
+I​ssued by the​                                  ​Change & Configuration Management Policy​
+ ​Chief Information Officer​                                                ​WVOT-PO1015​
+
+                                                                                          ​ 9/01/2014​
+                                                                                          0
+                                                                                   ​Revised 2/25/2026​
+                                                  ​OPR: WVOT Change Enablement Forum (CEF)​
+                   ​COMPLIANCE WITH THIS PUBLICATION IS MANDATORY​
+                                   ​Publications are available online at​
+                 ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+​ uestions​ ​and​ ​change​ ​recommendations​​related​​to​​this​​publication​​shall​​be​​directed​​to​
+Q
+​this​ ​publication's​ ​Office​ ​of​ ​Primary​​Responsibility​​(OPR).​ ​This​​policy​​shall​​be​​reviewed​
+ ​annually​ ​to​ ​ensure​ ​continued​ ​alignment​ ​with​ ​current​ ​legal,​ ​operational,​ ​and​ ​strategic​
+  ​requirements. Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Version​        ​Date​           ​Revision Description​
+
+ ​1​              ​07/01/2015​     ​ dded​ ​Log​ ​History,​ ​Policy-Specific​ ​Definitions,​ ​Related​
+                                   A
+                                   ​Materials/Documents​
+
+ ​2​              ​09/01/2016​     ​Reviewed - No Changes​
+
+ ​3​              ​10/20/2017​     ​Reviewed - No Changes​
+
+ ​4​              ​12/31/2023​     ​Updated website information​
+
+ ​5​              ​02/25/2026​     ​Reformated​
+
+ ​1.​   ​PURPOSE​
+
+        ​1.1.​    ​ his policy establishes Enterprise Change Management to standardize the​
+                  T
+                  ​identification, evaluation , planning, coordination, communication and​
+                   ​implementation of changes to the State computing environment in such a​
+                    ​way as to minimize any potential disruption to the user community, to​
+                     ​ensure that all impacted users and support groups are making necessary​
+                      ​accommodations to the change(s), and to increase the value of​
+                       ​Information Resources.​
+
+ ​2.​   ​SCOPE​
+
+        ​2.1.​    ​ his​ ​policy​ ​applies​ ​to​ ​all​ ​departments​ ​(including​ ​agencies,​ ​boards,​
+                  T
+                  ​authorities,​ ​and​ ​commissions)​ ​within​ ​the​ ​Executive​ ​Branch​ ​of​ ​WV​ ​State​
+                   ​Government,​​excluding​​constitutional​​officers,​​the​​WV​​Board​​of​​Education,​
+                    ​the​​WV​​Department​​of​​Education,​​and​​the​​county​​boards​​of​​education​​that​
+                     ​have access to or use State-provided resources.​
+
+                                               ​Page​​1​​of 7​
+
+                   ​Change & Configuration Management Policy​
+​WVOT-PO1015                               Issue Date: 09/01/2014                          Revised: 02/25/2026​
+
+        ​2.2.​     ​ here​​there​​are​​policies​​in​​place​​which​​provide​​less​​restrictions​​or​​security​
+                   W
+                   ​than​ ​this​ ​policy,​ ​those​ ​policies​ ​will​ ​be​ ​superseded​ ​by​ ​this​ ​policy.​ ​In​
+                    ​instances​ ​where​ ​existing​ ​state​ ​and​ ​federal​ ​laws,​​regulations,​​and​​policies​
+                     ​are​ ​more​ ​restrictive​ ​than​ ​this​ ​policy,​ ​the​ ​more​ ​restrictive​ ​provisions​ ​will​
+                      ​prevail.​
+
+        ​2.3.​     ​ his​ ​policy​ ​pertains​ ​to​ ​all​ ​devices​ ​on​ ​the​ ​state​ ​network​ ​along​ ​with​ ​their​
+                   T
+                   ​configurations.​
+
+                 ​2.3.1.​   ​ hanges​ ​to​ ​State​ ​computing​ ​environment​ ​arise​ ​from​ ​many​
+                            C
+                            ​circumstances:​
+
+                       ​2.3.1.1.​   ​Periodic maintenance​
+
+                       ​2.3.1.2.​   ​User requests​
+
+                       ​2.3.1.3.​   ​Hardware and/or software upgrades​
+
+                       ​2.3.1.4.​   ​Acquisition of new hardware and/or software​
+
+                       ​2.3.1.5.​   ​Performance Tuning​
+
+                       ​2.3.1.6.​   ​Federal mandates​
+
+                       ​2.3.1.7.​   ​Changes in state law​
+
+                       ​2.3.1.8.​   ​Unforeseen events.​
+
+ ​3.​   ​POLICY​
+
+        ​3.1.​     ​Roles and Responsibilities​
+
+                 ​3.1.1.​   ​ ystem administrative privileges shall be limited to those support​
+                            S
+                            ​personnel requirements for business purposes. Such authority shall​
+                             ​be revoked upon determination by agency management that such​
+                              ​access is no longer required. More information on administrative​
+                               ​privileges may be found in other WVOT polices found in the​
+                                ​publications library at:​
+                                 ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+                 ​3.1.2.​   ​ ll​​agencies​​shall​​be​​responsible​​for​​maintaining​​a​​current​​roster​​of​
+                            A
+                            ​individuals​ ​with​ ​administrative​ ​access​​to​​each​​supported​​system​​or​
+                             ​set of systems.​
+
+                                                    ​Page​​2​​of 7​
+
+           ​Change & Configuration Management Policy​
+​WVOT-PO1015                        Issue Date: 09/01/2014                           Revised: 02/25/2026​
+
+         ​3.1.3.​   ​ he​ ​team​ ​responsible​ ​for​ ​the​ ​system(s)​ ​being​ ​changed​ ​will​ ​review​
+                    T
+                    ​all​ ​high​ ​risk/impact​ ​changes​ ​to​ ​ensure​​that​​all​​relevant​​State​​areas​
+                     ​are​ ​aware​ ​of​ ​the​ ​criticality​ ​of​ ​the​ ​change,​ ​and​ ​to​ ​assure​ ​that​ ​the​
+                      ​business​ ​needs​ ​of​ ​the​ ​individual​ ​agencies​ ​are​ ​addressed​ ​as​ ​a​
+                       ​consequence​ ​of​ ​the​ ​proposed​ ​change.​ ​Herein​ ​referred​ ​to​ ​as​ ​the​
+                        ​Change Enablement Forum (CEF).​
+
+               ​3.1.3.1.​     ​ nough​ ​detail​ ​will​ ​be​ ​provided​ ​so​ ​all​ ​agencies​ ​know​ ​the​
+                              E
+                             ​relative impact of the change to their individual system.​
+
+               ​3.1.3.2.​     ​ lanning​ ​documents,​ ​including​ ​a​ ​thorough​ ​impact​ ​analysis,​
+                              P
+                              ​will​ ​be​ ​generated,​​for​​each​​change,​​as​​specified​​by​​the​​CEF​
+                             ​or WVOT Director signoff.​
+
+               ​3.1.3.3.​     ​ ection​ ​staff​ ​members​ ​will​ ​provide​ ​a​ ​status​ ​to​ ​the​ ​CEF​
+                              S
+                              ​member​ ​representing​ ​their​ ​section​ ​for​ ​discussion​ ​at​ ​the​
+                             ​appropriate meeting.​
+
+         ​3.1.4.​   ​The CEF member for the system being changed will:​
+
+               ​3.1.4.1.​     ​Analyze,​ ​approve​ ​or​ ​deny,​ ​and​​facilitate​​all​​change​​requests​
+                             t​hat receive approval;​
+
+               ​3.1.4.2.​     ​ efer​​change​​requests​​to​​any​​impacted​​individuals​​and​​units​
+                              R
+                              ​when​ ​conflicts​ ​have​ ​not​ ​been​ ​resolved​ ​or​ ​when​ ​it​ ​is​
+                             ​considered to be a high risk;​
+
+               ​3.1.4.3.​    ​Provide​ ​overall​ ​direction,​ ​monitor​ ​performance,​ ​and​ ​provide​
+                             ​ dministration of the system change.​
+                             a
+
+               ​3.1.4.4.​     ​ ake​ ​responsibility​ ​for​​assuring​​that​​planning​​documents​​are​
+                              T
+                              ​presented,​​published,​​and​​distributed​​as​​needed​​for​​complex​
+                             ​changes or changes involving a long timeframe.​
+
+               ​3.1.4.5.​     ​ ssess​ ​the​ ​impact​ ​of​ ​planned​ ​changes​ ​on​ ​field​ ​staff​ ​and​
+                              A
+                              ​meet​​with​​the​​change​​requester,​​independent​​of​​any​​Change​
+                               ​Meeting,​ ​to​ ​resolve​ ​any​ ​outstanding​ ​issues​ ​affecting​ ​a​
+                             ​proposed change.​
+
+               ​3.1.4.6.​     ​Ensure​ ​that​ ​any​ ​changes​ ​being​ ​made​ ​will​ ​not​ ​nullify​ ​any​
+                             r​ egulatory safeguards in place.​
+
+                                             ​Page​​3​​of 7​
+
+                ​Change & Configuration Management Policy​
+​WVOT-PO1015                           Issue Date: 09/01/2014                          Revised: 02/25/2026​
+
+              ​3.1.5.​   ​ hange Requesters are staff members who initiate change. They​
+                         C
+                         ​are usually primary staff members who are given an assignment to​
+                          ​make a change through opening a Change Request.​ ​Change​
+                           ​Request should be sent through​​Change Request Form​
+                            ​https://docs.google.com/forms/d/e/1FAIpQLScfo4HOurkHibDYebkW36dD​
+                             ​KKfVYXDwXfAhz7h3gcXxiUyu6Q/viewform?usp=sf_link​
+
+                    ​3.1.5.1.​    ​ hange​ ​Requesters​ ​will​ ​ensure​ ​that​ ​changes​ ​are​
+                                  C
+                                  ​immediately​ ​documented​ ​and​ ​updated​ ​with​ ​problem​
+                                 ​information resulting from the installed change.​
+
+                    ​3.1.5.2.​   ​Change​ ​Requesters​ ​will​ ​identify​ ​potential​ ​exposures​ ​and​
+                                 ​ ssign a risk level to all changes.​
+                                 a
+
+                    ​3.1.5.3.​    ​ hange​ ​Requesters​ ​will​ ​prepare​ ​and​ ​coordinate​ ​a​ ​viable​
+                                  C
+                                  ​“back-out”​​plan​​which​​will​​explain​​in​​detail​​the​​steps​​that​​must​
+                                   ​be​​taken​​to​​restore​​access​​in​​the​​event​​the​​change​​results​​in​
+                                    ​a​ ​negative​ ​situation.​ ​This​ ​will​ ​be​ ​presented​ ​at​ ​the​ ​Change​
+                                 ​Meeting for review.​
+
+                    ​3.1.5.4.​    ​ hange​ ​Requesters​ ​will​ ​coordinate​ ​proper​ ​on-site​ ​or​​on-call​
+                                  C
+                                  ​support​ ​as​ ​needed​ ​to​ ​resolve​ ​any​ ​problems​ ​that​ ​may​ ​occur​
+                                 ​during installation or immediately subsequent to installation.​
+
+                    ​3.1.5.5.​    ​ hange​ ​Requesters​ ​will​ ​ensure​ ​that​ ​the​ ​customer​
+                                  C
+                                 ​understands and concurs with any possible impact.​
+
+                    ​3.1.5.6.​    ​ hange​ ​Requesters​ ​will​ ​coordinate​ ​progress​ ​reports​ ​with​
+                                  C
+                                 ​their Team Lead.​
+
+                    ​3.1.5.7.​    ​ hange​ ​Requesters​ ​will​ ​develop​ ​a​ ​communication​ ​plan​ ​to​
+                                  C
+                                  ​ensure​ ​stakeholders​ ​are​ ​notified​ ​of​ ​the​ ​impending​ ​change​
+                                   ​and​​its​​potential​​impact​​in​​alignment​​with​​MOU’s​​and​​contract​
+                                 ​specifications.​
+
+     ​3.2.​     ​ ll​ ​Executive​ ​Branch​ ​information​ ​systems​ ​must​ ​comply​ ​with​ ​a​ ​change​
+                A
+                ​management process that meets the standards outlined below:​
+
+              ​3.2.1.​   ​ ll​ ​current​ ​baseline​ ​configurations​ ​must​ ​be​ ​recorded​ ​and​
+                         A
+                         ​maintained.​ ​When​​a​​new​​baseline​​configuration​​is​​created,​​the​​old​
+                          ​baseline must remain available to perform a restore if needed.​
+
+              ​3.2.2.​   ​ ll​​configurations​​must​​be​​reviewed​​annually,​​including​​baselines​​by​
+                         A
+                         ​the agency’s designee.​
+
+                                                ​Page​​4​​of 7​
+
+           ​Change & Configuration Management Policy​
+​WVOT-PO1015                      Issue Date: 09/01/2014                        Revised: 02/25/2026​
+
+         ​3.2.3.​   ​ very​​change​​to​​a​​WVOT​​Information​​Resources​​resource​​such​​as:​
+                    E
+                    ​operating​​systems,​​computing​​hardware,​​networks,​​and​​applications​
+                     ​is​ ​subject​ ​to​ ​this​ ​Change​ ​Management​ ​Policy​ ​and​ ​must​ ​follow​ ​the​
+                      ​Change Management Procedures and Processes.​
+
+         ​3.2.4.​   ​ ll​ ​changes​ ​affecting​ ​a​ ​computing​ ​facility’s​ ​environmental​ ​controls​
+                    A
+                    ​(e.g.,​​air-conditioning,​​water,​​heat,​​plumbing,​​electricity,​​and​​alarms)​
+                     ​need​​to​​be​​reported​​to​​or​​coordinated​​with​​the​​system’s​​designated​
+                      ​leader of the change management process.​
+
+         ​3.2.5.​   ​ he​​CEF​​will​​meet​​weekly​​to​​review​​change​​requests​​and​​to​​ensure​
+                    T
+                    ​that​ ​change​ ​reviews​ ​and​ ​communications​ ​are​ ​being​ ​satisfactorily​
+                     ​performed.​
+
+         ​3.2.6.​   ​ ormal​ ​written​​change​​requests​​must​​be​​submitted​​for​​all​​changes,​
+                    F
+                    ​both scheduled and unscheduled via the CRF Form.​
+
+         ​3.2.7.​   ​ ach​​scheduled​​change​​request​​must​​receive​​documented​​approval​
+                    E
+                    ​and required sign off from the CEF before testing can proceed.​
+
+         ​3.2.8.​   ​ EF​ ​members​ ​may​ ​deny​ ​a​ ​scheduled​ ​or​ ​unscheduled​ ​change​ ​for​
+                    C
+                    ​reasons including, but not limited to,​
+
+               ​3.2.8.1.​   ​Inadequate planning,​
+
+               ​3.2.8.2.​   ​Inadequate rollback plans,​
+
+               ​3.2.8.3.​    ​ he​ ​timing​ ​of​ ​the​ ​change​ ​will​ ​negatively​ ​impact​ ​a​ ​key​
+                             T
+                             ​business​ ​process​ ​such​ ​as​ ​year-end​ ​accounting,​ ​or​ ​another​
+                            ​scheduled change, or​
+
+               ​3.2.8.4.​    ​ dequate​ ​resources​ ​cannot​ ​be​ ​readily​ ​available.​
+                             A
+                             ​Note:​ ​Adequate​ ​resources​ ​may​ ​be​ ​a​​problem​​on​​weekends,​
+                            ​holidays, or during special events.​
+
+         ​3.2.9.​   ​ ustomer​ ​notification​ ​must​ ​be​ ​completed​ ​for​ ​each​ ​scheduled​ ​or​
+                    C
+                    ​unscheduled​ ​change​ ​following​ ​the​ ​steps​ ​contained​ ​in​ ​the​ ​Change​
+                     ​Management Procedures.​
+
+        ​3.2.10.​   ​ hange​ ​Review​ ​must​ ​be​ ​completed​ ​for​ ​each​ ​change,​ ​whether​
+                    C
+                    ​scheduled​​or​​unscheduled,​​and​​whether​​successful​​or​​not.​ ​Change​
+                     ​Reviews occur as part of the weekly CEF Meeting.​
+
+                                           ​Page​​5​​of 7​
+
+                 ​Change & Configuration Management Policy​
+​WVOT-PO1015                             Issue Date: 09/01/2014                         Revised: 02/25/2026​
+
+             ​3.2.11.​   ​ ​ ​Change​ ​Management​ ​Log​ ​will​ ​be​ ​maintained​ ​by​ ​the​ ​CEF​ ​for​ ​all​
+                         A
+                         ​changes. The log must contain, but is not limited to:​
+
+                  ​3.2.11.1.​     ​Date of submission and date of change​
+
+                  ​3.2.11.2.​     ​Owner and custodian contact information​
+
+                  ​3.2.11.3.​     ​Nature of the change​
+
+                  ​3.2.11.4.​     ​Indication of success or failure​
+
+ ​4.​   ​POLICY SPECIFIC DEFINITIONS​
+
+        ​4.1.​   ​ hange​ ​Requesters​ ​-​ ​anyone​ ​who​ ​requests​ ​a​ ​change​ ​to​ ​an​ ​information​
+                 C
+                 ​system.​ ​For​ ​example,​ ​the​ ​Change​ ​Requester​ ​for​ ​an​ ​application​ ​program​
+                  ​modification​ ​may​ ​be​ ​an​ ​application​ ​analyst.​ ​The​ ​Change​ ​Requester​​for​​a​
+                   ​change​​to​​the​​computer​​room​​will​​be​​the​​Director​​of​​Computer​​Operations​
+                    ​or the Director’s designee.​
+
+        ​4.2.​   ​ hief​​Information​​Officer​​(CIO)​​-​​the​​person​​designated​​by​​the​​governor​​to​
+                 C
+                 ​lead​ ​the​ ​WV​ ​Office​ ​of​ ​Technology​ ​and​ ​oversee​ ​information​ ​technology​
+                  ​practices​ ​and​​initiatives​​for​​the​​Executive​​Brand​​of​​WV​​State​​government,​
+                   ​excluding the constitutional officers.​
+
+        ​4.3.​   ​ hange​ ​Enablement​ ​Forum​ ​(CEF)​ ​-​ ​Consists​ ​of​ ​directors​ ​and​ ​managers​
+                 C
+                 ​from multiple areas of WVOT, who make appropriate determinations.​
+
+        ​4.4.​   ​ ffice​​of​​Primary​​Responsibility​​(OPR)​​-​​The​​primary​​section​​within​​WVOT​
+                 O
+                 ​that​ ​takes​ ​the​ ​lead​ ​on​ ​a​ ​specific​ ​policy​ ​or​​procedure.​ ​Usually​​the​​WVOT​
+                  ​service provider/owner that the policy is related to or governs.​
+
+        ​4.5.​   ​ rocedure​ ​–​ ​A​ ​defined​ ​series​ ​or​ ​sequence​ ​of​ ​steps​ ​followed​​in​​a​​definite​
+                 P
+                 ​regular order ensuring the consistent and repetitive approach to actions.​
+
+        ​4.6.​   ​ est​ ​Virginia​ ​Office​ ​of​ ​Technology​ ​(WVOT)​ ​-​ ​The​ ​division​ ​of​ ​the​
+                 W
+                 ​Department​​of​​Administration​​established​​by​​WV​​Code​​§​​5A-6-4a,​​et.​​seq.,​
+                  ​which​ ​is​ ​led​ ​by​ ​the​ ​State’s​ ​CIO​ ​and​ ​designated​ ​to​ ​acquire,​ ​operate,​ ​and​
+                   ​maintain​ ​the​ ​State’s​ ​technology​ ​infrastructure.​ ​The​ ​WVOT​ ​is​ ​responsible​
+                    ​for​ ​evaluating​ ​equipment​ ​and​ ​services,​ ​and​ ​reviewing​ ​information​
+                     ​technology contracts.​
+
+        ​4.7.​   ​Workstation – A personal computer; also called a PC.​
+
+ ​5.​   ​RELEVANT MATERIALS AND DOCUMENTS​
+
+        ​5.1.​   ​This policy is consistent with the following federal and state authorities:​
+
+                                                 ​Page​​6​​of 7​
+
+           ​Change & Configuration Management Policy​
+​WVOT-PO1015                     Issue Date: 09/01/2014                   Revised: 02/25/2026​
+
+         ​5.1.1.​   ​45 Code of Federal Regulations (CFR) §§ 164.308-316​
+
+         ​5.1.2.​   ​Freedom of Information Act​
+
+         ​5.1.3.​   ​Gramm-Leach Bliley Act (GLBA)​
+
+         ​5.1.4.​   ​Health Insurance Portability and Accountability Privacy Rule​
+
+         ​5.1.5.​   ​NIST SP 800-14 and NIST SP 800-53​
+
+         ​5.1.6.​   ​State Health Privacy Laws​
+
+         ​5.1.7.​   ​WV Code § 5A-6-4​
+
+         ​5.1.8.​   ​WV Executive Order No. 7-03​
+
+         ​5.1.9.​   ​ VOT​ ​Policies​ ​Issued​ ​by​ ​the​ ​Chief​ ​Information​ ​Officer​ ​(CIO),​
+                    W
+                    ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+                                         ​Page​​7​​of 7​
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as extracted. source_version is the revision or issue date the policy prints, as printed.

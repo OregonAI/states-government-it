@@ -1,0 +1,438 @@
+                        State of West Virginia Office of Technology Policy
+                        CIO Review Approval
+                        Issued by the CIO
+      Policy No: CIO-19-001             Issue Date: 08/01/2019             Revised Date: 08/01/2022
+
+1.0     PURPOSE
+This policy establishes a framework for all technology procurement requests that require CIO Approval.
+
+W. Va. Code § 5A-6-1, et seq., provides that the Chief Information Officer (CIO) may evaluate and make
+recommendations on the design and suitability of Information Technology (IT) equipment and related
+services, and may review and make recommendations on the purchase, lease or acquisition of information
+equipment and contracts for related services, including temporary IT staffing by all state spending units.
+
+2.0     SCOPE
+For technology procurements with aggregate spend over $250,000, please reference Appendix A.
+
+This policy is applicable to all state agencies, with the exception of those listed in W. Va. Code §5A-6-8,
+“Exemptions” and the above referenced Appendix A.
+
+The State’s Procurement Officers are expected to be familiar with and to comply with this policy.
+
+3.0     POLICY
+        3.1     Pre-Approval for Technology Procurements Below $5,000 Threshold
+
+                3.1.1    To enable additional flexibility and speed in the procurement process, a blanket
+                         approval list (Appendix B) is provided for specific software and hardware when
+                         below the $5,000 threshold.
+
+                3.1.2    Agencies must submit a Privacy Impact Assessment (PIA) prior to the
+                         procurement and/or use of removable media storage devices. Contact your
+                         Agency’s Privacy Officer or visit privacy.wv.gov for more information.
+
+        3.2     Expedited Review Request Process
+
+                3.2.1    The intent of the Expedited Review is to provide Agencies with a mechanism to
+                         indicate a time-sensitive circumstance as the result of a business need.
+
+                3.2.2     The following review types are NOT authorized for expedited review.
+
+                           3.2.2.1 Request for Proposals (RFPs) at the concept stage
+
+                           3.2.2.2 Request for Proposals (RFPs) at the release stage
+
+                           3.2.2.3 Contract Renewals
+
+                 State of West Virginia Office of Technology Policy
+                 CIO Review Approval
+                 Issued by the CIO
+Policy No: CIO-19-001            Issue Date: 08/01/2019              Revised Date: 08/01/2022
+
+         3.2.3 Expedited Review requests must be approved by the requesting Agency Head or
+               designated approver. An email chain is an acceptable format for this approval.
+
+         3.2.4 An Expedited Review request must be sent with “Important: Expedite Request” in
+                the subject line of the email. Include detailed business justification in accordance
+                with the criteria outlined below:
+
+                  3.2.4.1 Funding Source Impact
+
+                        3.2.4.1.1 Detailed explanation of the funding source impact to the agency.
+                        3.2.4.1.2 Fund source type (General Revenue, Special Revenue, Grants, etc.)
+                        3.2.4.1.3 If funds are expiring, provide expiration date(s).
+                        3.2.4.1.4 Additional details, as necessary.
+
+                  3.2.4.2 Significant Operational Impact
+                        3.2.4.2.1 Detailed explanation of the operational impact to the agency.
+                        3.2.4.2.2 Explanation of the urgency and scope of anticipated or actual
+                                   impact.
+                        3.2.4.2.3 Timeline of existing or anticipated operational impact.
+                        3.2.4.2.4 Additional details, as necessary.
+
+         Depending on the complexity of a procurement, the WVOT reserves the right to request
+         additional information. These requests must be submitted to Consulting.Services@wv.gov
+
+ 3.3     Requests for Proposals, Quotations, and Information (RFP, RFQ, RFI) and Other
+         non-Expedited Requests
+
+         3.3.1    When requesting CIO Approval, an Agency must provide the Office of
+                  Technology with all the relevant details required. At a minimum, that must include
+                  the following:
+
+                  3.3.1.1Description (What do you need?)
+
+                  3.3.1.2 Justification (Why do you need it?)
+
+                  3.3.1.3 Estimated Cost (How much it will cost?)
+
+                  3.3.1.4 Purchase Method: Contract Change Order, Contract Renewal, Cooperative
+                         Agreement, Direct Award, Emergency Purchase, P Card Purchase, Release
+                         Order (ADO/CDO), RFI, RFP Award, RFP Concept, RFP Release, RFQ
+                         Award, RFQ Release, Statewide Contract Waiver, Telecommunication
+                         Invoicing/Payment Waiver
+
+                  3.3.1.5 Will it be replacing something already in place or will it be a new addition?
+
+                 State of West Virginia Office of Technology Policy
+                 CIO Review Approval
+                 Issued by the CIO
+Policy No: CIO-19-001            Issue Date: 08/01/2019             Revised Date: 08/01/2022
+
+                  3.3.1.6 Specification Documents (if applicable)
+
+                  3.3.1.7 Where will equipment be located? (if applicable)
+
+                  3.3.1.8 Oasis number (if applicable)
+
+         Depending on the complexity of a procurement, the WVOT reserves the right to request
+         additional information. These requests must be submitted to Consulting.Services@wv.gov
+
+         3.3.2    Request for Proposals require three (3) CIO Approvals: concept, release, and
+                  award stages.
+
+                  3.3.2.1 RFP Concept Stage Review. WVOT is reviewing the request to ensure
+                          alignment with the State’s strategic initiatives. A determination memo is
+                          sent via email to the Agency point of contact.
+
+                  3.3.2.2 RFP Release Stage Review. WVOT is reviewing the request to ensure the
+                         solicitation aligns with the concept and enterprise architecture standards.
+                         The agency must submit the review with estimated costs. A determination
+                         memo is sent via email to the Agency point of contact.
+
+                  3.3.2.3 RFP Award Stage Review. WVOT is reviewing the request to validate
+                          strategic alignment, enterprise architecture standards adherence and cost.
+                          The Agency must submit all award documentation for review. A
+                          determination memo is sent via email to the agency point of contact.
+
+         3.3.3    Request for Quotations (RFQ) require CIO Approval at the release, and
+                  sometimes, award stages.
+
+                  3.3.3.1 RFQ Release Stage Review. WVOT is reviewing the request to ensure the
+                          solicitation aligns with the concept and enterprise architecture standards.
+                          The agency must submit the review with estimated costs. A determination
+                          memo is sent via email to the agency point of contact.
+
+                  3.3.3.2 RFQ Award Stage Review. WVOT is reviewing the request to validate
+                          strategic alignment, enterprise architecture standards adherence and cost.
+                          The agency must submit all award documentation for review. A
+                          determination memo is sent via email to the agency point of contact. This
+                          approval is only required for purchases of $50,000 or more.
+
+              State of West Virginia Office of Technology Policy
+              CIO Review Approval
+              Issued by the CIO
+Policy No: CIO-19-001           Issue Date: 08/01/2019            Revised Date: 08/01/2022
+
+      3.3.4 Request for Information (RFI) require CIO Approval at the concept stage.
+
+                3.3.4.1 Agency must submit an overview and justification of the desired RFI.
+                        WVOT is reviewing the request to ensure alignment with the State’s
+                        strategic initiatives. A determination memo is sent via email to the agency
+                        point of contact.
+
+      3.3.5 Contract Renewals
+
+                3.3.5.1 WVOT is reviewing the request to ensure alignment with the State’s
+                        strategic initiatives and cost. A determination memo is sent via email to
+                        the agency point of contact.
+
+                3.3.5.2 An Agency may request all subsequent contract renewals be approved in
+                        advance. WVOT reserves the right to retract an approval should it be
+                        deemed in the best interest of the State.
+
+       3.3.6 Minor Contract Reassignments
+
+                3.3.6.1 CIO Approval is required if the contract reassignment alters the technical
+                specifications of the contract. CIO Approval is not required for contract
+                reassignments necessitated by a name and/or other administrative change, such as
+                funding or address changes.
+
+       3.3.7 Open-End Contracts
+             3.3.7.1 Technology Statewide Contracts
+
+                        3.3.7.1.1 CIO Approval may be required for some Statewide Contracts.
+                                  For ordering instructions and attachments, visit:
+
+                                  https://www.state.wv.us/admin/purchase/swc/default.html.
+
+                        3.3.7.1.2 The CIO does NOT have authority to grant waivers from the
+                                  use of a statewide contract; however, CIO Approval is required
+                                  for any resulting procurement where Central Purchasing has
+                                  granted exemption from using a statewide contract.
+
+                        3.3.7.1.3 The CIO does hold the authority to grant waivers from the
+                                  telecommunications ordering and billing services provided
+                                  under WV code §5A-7-1.
+
+                        3.3.7.1.4 Any entity exempted from CIO Review by Code is not required
+                                  to submit Statewide Contract orders to the WVOT.
+
+                      State of West Virginia Office of Technology Policy
+                      CIO Review Approval
+                      Issued by the CIO
+      Policy No: CIO-19-001              Issue Date: 08/01/2019               Revised Date: 08/01/2022
+
+                     3.3.7.2   Master Agreements (Open-End Contracts)
+
+                               3.3.7.2.1 CIO Approval is inherent for every delivery order released from
+                                         master agreement (CMA, AMA) contracts, unless otherwise
+                                         specified by the original approval memo.
+
+          3.8 Waiver Request from CIO Approval
+
+                     3.8.1.1   An Agency may submit a waiver request to the Office of Technology for
+                               purchases for review and consideration. This provision is specifically
+                               applicable to those entities that are not connected to the State’s network and
+                               are not exempted by Code.
+
+          3.9 Internal Delegation Memo
+
+            The Internal Office of Technology delegation is outlined in Appendix C.
+
+          3.10 SaaS Cloud Addendum Overview
+
+            Information about the Cloud Addendum is outlined in Appendix D.
+
+4 RELEVANT MATERIALS/DOCUMENTS
+This policy is consistent with the following federal and state authorities:
+
+            ●    WV Code § 5A-6-1
+            ●    WVOT         Policies   Issued   by    the   Chief     Information       Officer     (CIO),
+                 https://sites.google.com/wv.gov/othub/nonav/policies/cto-19-001
+
+5 ENFORCEMENT
+Any employee found to have violated this policy may be subject to disciplinary action up to and including
+dismissal. Disciplinary action will be administered by the employing agency and may be based upon
+recommendations of the WVOT and the West Virginia Division of Personnel. Please review the WVOT
+Policy and Procedure Policy #1000 to review additional provisions concerning enforcement and policy
+authority.
+
+Audits will be completed by the Office of Technology during the Contract Renewal process to make
+recommendations for changes and efficiencies. Audits will also be conducted by the Office of Technology
+on purchasing card purchases relating to Technology procurements.
+
+                    State of West Virginia Office of Technology Policy
+                    CIO Review Approval
+                    Issued by the CIO
+      Policy No: CIO-19-001      Issue Date: 08/01/2019        Revised Date: 08/01/2022
+
+6 Change Log History
+  ●    July 1, 2019 –
+           o Document Created.
+  ●    December 1, 2020 –
+           o Changed email address from consultingservices@wv.gov to
+                Consulting.Services@wv.gov
+           o Added Section 3.9
+           o Added Kofax to the Nuance version in Appendix B
+           o Added Appendix D
+  ●    March 10, 2022 -
+           o Change reference to CTO to CIO
+           o Change reference to Chief Technology Officer to Chief Information Officer
+           o Change reference to DIGICOP statewide contract to DIGCOP statewide contract
+           o Change section 3.1.3 to include designated approver
+           o Removed Accelerated Review Section
+           o Added questions to send to CIO Review team when submitted requests to Relevant
+                Materials/Documents section.
+  ●    Jul 15, 2022
+           o Restructured formatting and sentence structure throughout the document.
+
+  7 Authority
+
+       Joshua D. Spence
+       Chief Information Officer
+       West Virginia Office of Technology
+
+him Justice
+
+Goveimor of West Virginia
+
+MEMORANDUM
+TO: Governor's Cabinet Secretaries
+Executive Branch Agency Heads
+\
+FROM: Ann Urling, Deputy Chief of Staff yw
+DATE: December 4, 2018
+RE: Strategic Review of Technology Procurements
+
+As a follow-up to Governor Justice’s announcement last week that Josh Spence, one of the leading
+cybersecurity experts in the nation, is now leading our Office of Technology as the Chief Technology Officer,
+| wanted to iet you know that we are going to need your assistance as we work to build a much more
+secure statewide network which will include a cybersecurity plan to be created for and utilized by all of
+state government.
+
+In recognition of the significant cyber threat facing state government technology & data, the need to improve
+cost-efficiencies, and enhance the value of technology investments, effective immediately, the Office of
+Technology will be conducting a strategic review of all technology procurements.
+
+This review will be applicable to all state entities and incorporated into the existing Chief Technology
+Officer (CTO) review process. All agencies wiil need to route technology procurements, meeting the
+review scope to Consulting.Services@wv.gov.
+
+Processing of the transaction will not proceed until the review has been completed and the transaction
+approved. This review will include the following scope and evaluation criteria.
+
+Review Scope: All technology procurements, change orders, and release orders from statewide contracts
+with an estimated aggregate cost of $250,000 or greater.
+
+Evaluation Criteria: Does the procurement's purpose directly relate to the implementation, maintenance,
+or enhancement of:
+
+1. Cybersecurity technology or services
+
+2. Information technology (IT) data centers
+3. IT network infrastructure
+
+4. IT server & data storage technology
+
+5. IT enterprise technology or services
+
+State Capitol | 1900 Kanawha Blvd., East, Charleston, WV 25305 | (304) 558-2000
+
+OFFICE OF THE GOVERNOR
+Cabinet Secretaries
+Agency Heads
+Page Two
+December 4, 2018
+
+Emergency Situation: If you have some type of urgenttime sensitive technology-related
+purchase/renewal, the CTO will work to assist you as we work to incorporate this into our long-term plan
+for the state.
+
+We appreciate your cooperation and understanding as we implement this new process to assess our
+system security vulnerabilities and create a secure environment that is essential to protect vital information
+within our State.
+
+The following organizations are exempted from this policy.
+
+e Higher Education
+e Department of Education
+
+Please let me know if you have any questions or concerns.
+
+                      APPENDIX B: Under $5,000 Purchases
+
+   Policy No: CIO-19-001
+
+Purpose: The following hardware and software hold blanket pre-approval when procuring under the $5,000
+dollar threshold.
+
+Approved Software Purchases under $5,000:
+The following software is approved for the specific software.
+
+Notice: Approved software must be a currently supported version. All unsupported (legacy) software
+requires CIO approval.
+
+    ●   Adobe PDF Professional DC Cloud Version
+    ●   Kofax Nuance Power PDF Standard
+    ●   Kofax Nuance Power PDF Advanced
+
+Approved Hardware Purchases under $5,000:
+The following hardware is approved for the specific items listed.
+
+    ● Desktop “side by” printers
+    ● Scanners
+    ● Projectors
+    ● Fax Machines
+    ● Input/Output Peripherals Devices (Component adapters, mice, keyboards, headsets)
+    ● WVOT issued Bill of Materials (BOM) within 90 days of issuance.
+
+                         APPENDIX C: Office of Technology Internal
+                         Approval Memo
+        Policy No: CIO-19-001
+
+                                         STATE OF WEST VIRGINIA
+                                     DEPARTMENT OF ADMINISTRATION
+                                         OFFICE OF TECHNOLOGY
+                                                  State Capitol
+ Mark D. Scott                           Charleston, West Virginia 25305                         Joshua D. Spence
+Cabinet Secretary                                                                              Chief Information Officer
+
+   TO:              West Virginia Office of Technology Directors
+
+   FROM:            Joshua Spence, Chief Information Officer
+                    West Virginia Office of Technology (WVOT)
+
+   DATE:            August 1, 2022
+
+   SUBJECT:         CIO Approval for West Virginia Office of Technology Purchases
+
+           Beginning August 1, 2022, a Director’s submission of a Purchase Request Form (PR1) to the
+   Administrative Section will constitute his/her approval based on the technical merits. A separate CIO
+   Approval email or memo is no longer required for the Office of Technology’s purchases. This change
+   will help to streamline internal purchases by eliminating duplicative reviews.
+
+                      APPENDIX D: WV Cloud SaaS Procurement
+                      Addendum Overview
+   Policy No: CIO-19-001
+
+Purpose and Scope
+
+Protection of state-owned data, including citizens’ personally identifiable information (PII) or confidential
+information, shall be an integral part of the business activities of the service provider to ensure there is no
+inappropriate or unauthorized use or access of the state's data at any time. To this end, the Software as a
+Service (Cloud) addendum outlines the obligations of the service provider to protect the state’s data affected
+by the service. The addendum is required for any project in which state-owned data will be stored on or
+accessible by an application or cloud infrastructure that is owned, maintained, or managed by the service
+provider.
+
+Definitions
+
+“Service Provider” means the contractor and its employees, subcontractors, agents and affiliates who are
+providing the services agreed to under the contract.
+
+“Software-as-a-Service" (SaaS) means the capability provided to the consumer to use the provider’s
+applications running on a cloud infrastructure. The applications are accessible from various client devices
+through a thin-client interface such as a Web browser (e.g., Web-based email) or a program interface. The
+consumer does not manage or control the underlying cloud infrastructure including network, servers,
+operating systems, storage or even individual application capabilities, with the possible exception of limited
+user-specific application configuration settings.
+
+“State-owned Data” means all data created or in any way originating with the state, its departments,
+agencies, boards or commissions, and all data that is the output of computer processing or other electronic
+manipulation of any data that was created by or in any way originated with the state, whether such data or
+output is stored on the state’s hardware, the service provider’s hardware or exists in any system owned,
+maintained or otherwise controlled by the state or by the service provider.
+
+Policy
+
+When requesting CIO Review, agencies must include the SaaS (Cloud) addendum with the specifications
+for any projects seeking software as a service, or projects in which state-owned data will be stored in a
+cloud.
+
+The SaaS is available on the OT Hub:
+(https://sites.google.com/wv.gov/othub/nonav/policies/cloud-saas ) or on the Purchasing Division’s
+website under “Form” (http://www.state.wv.us/admin/purchase/Documents/WVCloud-
+SaaSProcurementAddendum.pdf)
+
+If the SaaS addendum is not necessary, WVOT will notify the requesting agency. This ensures that the
+agency will submit the SaaS addendum with the specifications when publishing solicitations when it is
+
+                     APPENDIX D: WV Cloud SaaS Procurement
+                     Addendum Overview
+   Policy No: CIO-19-001
+
+applicable. If the SaaS addendum is required, it MUST be attached to the solicitation when submitted to
+the Purchasing Division.
+
+The Purchasing Division will not allow the solicitation to be published if the CIO Review memo indicates
+the SaaS addendum is required and it is not attached to the solicitation.

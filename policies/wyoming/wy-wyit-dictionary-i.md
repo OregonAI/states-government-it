@@ -1,0 +1,284 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: wyoming
+id: wy-wyit-dictionary-i
+title: 'IT Policy Dictionary: Definitions I'
+doc_type: policy
+citation: IT Policy Dictionary, Definitions - I
+authority_level: ''
+issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1h8VFiD_cWmv6Z7sW2Iv19Rhw-9J6igYa
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 21ba68a279c618e4920a2ff2053a2ec22c95e55ebc24677d331f9f9ed3215c2c
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# IT Policy Dictionary: Definitions I (IT Policy Dictionary, Definitions - I)
+
+## At a glance
+
+The Definitions - I part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.
+
+## Full text
+
+                                                ‭Definitions - I‬
+
+‭ URPOSE:‬‭This‬‭document‬‭provides‬‭a‬‭list‬‭of‬‭words‬‭and‬‭definitions‬‭to‬‭clarify‬‭Information‬
+P
+‭Specific (IT) terminology contained within the State of Wyoming Policies and Standards.‬
+
+ ‭I.‬ ‭APPLICABILITY‬
+
+      ‭ his policy applies to all Executive Branch agencies, boards, and commissions staff‬
+      T
+      ‭(collectively referred to as “agencies”). This policy is also applicable to consultants,‬
+       ‭affiliates, and temporary employees.‬
+
+ ‭II.‬ ‭DEFINITIONS‬
+
+‭I‬
+
+      ‭●‬ ‭Identification:‬ ‭The‬ ‭process‬ ‭of‬ ‭verifying‬ ‭the‬ ‭identity‬ ‭of‬ ‭a‬ ‭user,‬ ‭process,‬ ‭or‬
+           ‭device,‬ ‭usually‬ ‭as‬ ‭a‬ ‭prerequisite‬ ‭for‬ ‭granting‬ ‭access‬ ‭to‬ ‭resources‬ ‭in‬ ‭an‬ ‭IT‬
+            ‭system.‬ ‭(SOURCE:‬ ‭NIST‬ ‭SP‬ ‭800-47)‬ ‭The‬ ‭process‬ ‭of‬ ‭discovering‬ ‭the‬ ‭true‬
+             ‭identity‬ ‭(i.e.,‬ ‭origin,‬ ‭initial‬ ‭history)‬ ‭of‬ ‭a‬ ‭person‬ ‭or‬ ‭item‬ ‭from‬ ‭the‬ ‭entire‬
+              ‭collection‬‭of‬‭similar‬‭persons‬‭or‬‭items.‬‭(SOURCE:‬ ‭FIPS‬‭201)‬‭An‬‭act‬‭or‬‭process‬
+               ‭that‬ ‭presents‬ ‭an‬ ‭identifier‬ ‭to‬ ‭a‬ ‭system‬ ‭so‬ ‭that‬ ‭the‬ ‭system‬‭can‬‭recognize‬‭a‬
+                ‭system‬ ‭affiliate‬ ‭(e.g.,‬ ‭user,‬ ‭process,‬ ‭or‬ ‭device)‬ ‭and‬ ‭distinguish‬ ‭that‬ ‭affiliate‬
+                 ‭from all others. (SOURCE: CNSSI4009)‬
+
+      ‭●‬ ‭Identifier:‬‭Unique‬‭data‬‭used‬‭to‬‭represent‬‭a‬‭person’s‬‭identity‬‭and‬‭associated‬
+           ‭attributes.‬ ‭A‬‭name‬‭or‬‭a‬‭card‬‭number‬‭are‬‭examples‬‭of‬‭identifiers.‬‭(SOURCE:‬
+            ‭FIPS‬‭201)‬‭A‬‭data‬‭object‬‭-‬‭often,‬‭a‬‭printable,‬‭non-blank‬‭character‬‭string‬‭-‬‭that‬
+             ‭definitively‬‭represents‬‭a‬‭specific‬‭identity‬‭of‬‭a‬‭system‬‭affiliate,‬‭distinguishing‬
+              ‭that identity from all others. (SOURCE: CNSSI4009)‬
+
+      ‭●‬ ‭Identity:‬ ‭A‬ ‭set‬ ‭of‬ ‭attributes‬ ‭that‬ ‭uniquely‬ ‭describe‬ ‭a‬ ‭person‬ ‭within‬ ‭a‬ ‭given‬
+
+                                                                                              ‭Policy Definitions - I    Page‬‭1‬
+
+     c‭ ontext.‬ ‭(SOURCE:‬ ‭NIST‬ ‭SP‬ ‭80063)‬ ‭The‬ ‭set‬ ‭of‬ ‭physical‬ ‭and‬ ‭behavioral‬
+      ‭characteristics‬ ‭by‬ ‭which‬ ‭an‬ ‭individual‬ ‭is‬ ‭uniquely‬ ‭recognizable.‬ ‭(SOURCE:‬
+       ‭FIPS‬‭201)‬‭The‬‭set‬‭of‬‭attribute‬‭values‬‭(i.e.,‬‭characteristics)‬‭by‬‭which‬‭an‬‭affiliate‬
+        ‭is‬ ‭recognizable‬ ‭and‬ ‭that,‬ ‭within‬ ‭the‬ ‭scope‬ ‭of‬ ‭an‬ ‭identity‬ ‭manager’s‬
+         ‭responsibility,‬‭is‬‭sufficient‬‭to‬‭distinguish‬‭that‬‭affiliate‬‭from‬‭any‬‭other‬‭affiliate.‬
+          ‭(SOURCE: CNSSI-4009)‬
+
+‭●‬ ‭Identity‬ ‭Registration:‬ ‭The‬ ‭process‬ ‭of‬ ‭making‬ ‭a‬ ‭person’s‬ ‭identity‬ ‭known‬ ‭to‬
+     ‭the‬‭Personal‬‭Identity‬‭Verification‬‭(PIV)‬‭system,‬‭associating‬‭a‬‭unique‬‭identifier‬
+      ‭with‬ ‭that‬ ‭identity,‬ ‭and‬ ‭collecting‬ ‭and‬ ‭recording‬ ‭the‬ ‭person’s‬ ‭relevant‬
+       ‭attributes into the system. (SOURCE: FIPS 201; CNSSI-4009)‬
+
+‭●‬ ‭Identity‬ ‭Verification:‬ ‭The‬ ‭process‬ ‭of‬ ‭confirming‬ ‭or‬ ‭denying‬ ‭that‬ ‭a‬ ‭claimed‬
+     ‭identity‬ ‭is‬ ‭correct‬ ‭by‬ ‭comparing‬ ‭the‬ ‭credentials‬ ‭(something‬ ‭you‬ ‭know,‬
+      ‭something‬‭you‬‭have,‬‭something‬‭you‬‭are)‬‭of‬‭a‬‭person‬‭requesting‬‭access‬‭with‬
+       ‭those‬ ‭previously‬‭proven‬‭and‬‭stored‬‭in‬‭the‬‭PIV‬‭Card‬‭system‬‭and‬‭associated‬
+        ‭with the identity being claimed. (SOURCE: FIPS 201; NIST SP 800-79)‬
+
+‭●‬ ‭Incident‬ ‭(ITIL):‬ ‭An‬ ‭unplanned‬ ‭interruption‬ ‭to‬ ‭an‬ ‭IT‬ ‭service‬‭or‬‭a‬‭reduction‬‭in‬
+     ‭the‬ ‭quality‬ ‭of‬ ‭an‬ ‭IT‬ ‭service.‬ ‭Failure‬ ‭of‬‭a‬‭configuration‬‭item‬‭that‬‭has‬‭not‬‭yet‬
+      ‭impacted‬ ‭service‬ ‭is‬ ‭also‬ ‭an‬ ‭incident.‬ ‭(SOURCE:‬ ‭ITIL‬ ‭V3‬ ‭SERVICE‬
+       ‭OPERATION‬ ‭7.2.2)‬ ‭A‬ ‭violation‬ ‭or‬ ‭imminent‬ ‭threat‬ ‭of‬ ‭violation‬ ‭of‬ ‭computer‬
+        ‭security‬ ‭policies,‬ ‭acceptable‬ ‭use‬ ‭policies,‬ ‭or‬ ‭standard‬ ‭security‬ ‭practices.‬
+         ‭(SOURCE:‬ ‭NIST‬ ‭SP‬ ‭800-61)‬ ‭An‬ ‭occurrence‬ ‭that‬ ‭actually‬ ‭or‬ ‭potentially‬
+          ‭jeopardizes‬ ‭the‬ ‭confidentiality,‬ ‭integrity,‬ ‭or‬ ‭availability‬ ‭of‬ ‭an‬ ‭information‬
+           ‭system‬‭or‬‭the‬‭information‬‭the‬‭system‬‭processes,‬‭stores,‬‭or‬‭transmits‬‭or‬‭that‬
+            ‭constitutes‬ ‭a‬ ‭violation‬ ‭or‬ ‭imminent‬ ‭threat‬ ‭of‬ ‭violation‬ ‭of‬ ‭security‬ ‭policies,‬
+             ‭security‬ ‭procedures,‬‭or‬‭acceptable‬‭use‬‭policies.‬‭(SOURCE:‬ ‭FIPS‬‭200;‬‭NIST‬
+              ‭SP‬‭800-53)‬‭An‬‭assessed‬‭occurrence‬‭that‬‭actually‬‭or‬‭potentially‬‭jeopardizes‬
+               ‭the‬ ‭confidentiality,‬ ‭integrity,‬ ‭or‬ ‭availability‬ ‭of‬ ‭an‬ ‭information‬ ‭system;‬ ‭or‬ ‭the‬
+                ‭information‬ ‭the‬‭system‬‭processes,‬‭stores,‬‭or‬‭transmits;‬‭or‬‭that‬‭constitutes‬‭a‬
+                 ‭violation‬ ‭or‬ ‭imminent‬ ‭threat‬ ‭of‬ ‭violation‬ ‭of‬ ‭security‬ ‭policies,‬ ‭security‬
+                  ‭procedures, or acceptable use policies. (SOURCE: CNSSI-4009)‬
+
+‭●‬ ‭Incident‬ ‭Handling:‬ ‭The‬ ‭mitigation‬ ‭of‬ ‭violations‬ ‭of‬ ‭security‬ ‭policies‬ ‭and‬
+     ‭recommended practices. (SOURCE: NIST SP 800-61)‬
+
+‭●‬ ‭Incident‬‭Response‬‭Plan‬‭(IRP):‬‭The‬‭documentation‬‭of‬‭a‬‭predetermined‬‭set‬‭of‬
+     ‭instructions‬ ‭or‬ ‭procedures‬ ‭to‬ ‭detect,‬ ‭respond‬ ‭to,‬ ‭and‬ ‭limit‬ ‭the‬
+      ‭consequences‬ ‭of‬ ‭malicious‬ ‭cyber-attacks‬ ‭against‬ ‭an‬ ‭organization’s‬
+       ‭information‬ ‭system(s).‬ ‭(SOURCE:‬ ‭NIST‬‭SP‬‭800-34)‬‭The‬‭documentation‬‭of‬‭a‬
+        ‭predetermined‬ ‭set‬ ‭of‬ ‭instructions‬‭or‬‭procedures‬‭to‬‭detect,‬‭respond‬‭to,‬‭and‬
+         ‭limit‬ ‭consequences‬ ‭of‬ ‭an‬ ‭incident‬ ‭against‬ ‭an‬ ‭organization’s‬ ‭IT‬ ‭system(s).‬
+
+                                                                                            ‭Policy Definitions - I     Page‬‭2‬
+
+    ‭(SOURCE: CNSSI4009)‬
+
+‭●‬ ‭Indicator‬‭of‬‭Compromise‬‭(IOC):‬‭A‬‭forensic‬‭artifact‬‭or‬‭remnant‬‭of‬‭an‬‭intrusion‬
+     ‭that‬ ‭can‬ ‭be‬ ‭identified‬ ‭on‬ ‭a‬ ‭host‬ ‭or‬ ‭network.‬ ‭(SOURCE:‬‭RSA,‬‭DIVISION‬‭OF‬
+      ‭EMC)‬
+
+‭●‬ ‭Industrial‬ ‭Control‬ ‭System:‬ ‭An‬ ‭information‬ ‭system‬ ‭used‬ ‭to‬ ‭control‬‭industrial‬
+     ‭processes‬ ‭such‬ ‭as‬ ‭manufacturing,‬ ‭product‬ ‭handling,‬ ‭production,‬ ‭and‬
+      ‭distribution.‬ ‭Industrial‬ ‭control‬ ‭systems‬‭include‬‭supervisory‬‭control‬‭and‬‭data‬
+       ‭acquisition‬ ‭systems‬ ‭(SCADA)‬ ‭used‬ ‭to‬ ‭control‬ ‭geographically‬ ‭dispersed‬
+        ‭assets,‬ ‭as‬ ‭well‬ ‭as‬ ‭distributed‬ ‭control‬ ‭systems‬ ‭(DCS)‬ ‭and‬ ‭smaller‬ ‭control‬
+         ‭systems‬ ‭using‬ ‭programmable‬ ‭logic‬ ‭controllers‬ ‭to‬ ‭control‬ ‭localized‬
+          ‭processes. (SOURCE: NIST)‬
+
+‭●‬ ‭Information:‬ ‭Any‬ ‭communication‬ ‭or‬ ‭representation‬ ‭of‬ ‭knowledge‬ ‭such‬ ‭as‬
+     ‭facts,‬‭data,‬‭or‬‭opinions‬‭in‬‭any‬‭medium‬‭or‬‭form,‬‭including‬‭textual,‬‭numerical,‬
+      ‭graphic, cartographic, narrative, or audiovisual. (SOURCE: CNSSI-4009)‬
+
+‭●‬ ‭Information‬ ‭Resources:‬ ‭Information‬ ‭and‬ ‭related‬ ‭resources,‬ ‭such‬ ‭as‬
+     ‭personnel,‬ ‭equipment,‬ ‭funds,‬ ‭and‬ ‭information‬ ‭technology.‬ ‭(SOURCE:‬ ‭FIPS‬
+      ‭200;‬‭FIPS‬‭199;‬‭NIST‬‭SP‬‭800-53;‬‭NIST‬‭SP‬‭800-18;‬‭NIST‬‭SP‬‭800-60;‬‭44‬‭U.S.C.,‬
+       ‭Sec. 3502; CNSSI-4009)‬
+
+‭●‬ ‭Information‬‭Security:‬‭The‬‭protection‬‭of‬‭information‬‭and‬‭information‬‭systems‬
+     ‭from‬ ‭unauthorized‬ ‭access,‬ ‭use,‬ ‭disclosure,‬ ‭disruption,‬ ‭modification,‬ ‭or‬
+      ‭destruction‬ ‭in‬ ‭order‬ ‭to‬ ‭provide‬ ‭confidentiality,‬ ‭integrity,‬ ‭and‬ ‭availability.‬
+       ‭(SOURCE:‬ ‭NIST‬ ‭SP‬ ‭800-37;‬ ‭NIST‬ ‭SP‬ ‭800-53;‬ ‭NIST‬ ‭SP‬ ‭800-53A;‬ ‭NIST‬ ‭SP‬
+        ‭800-18;‬ ‭NIST‬ ‭SP‬ ‭800-60;‬ ‭CNSSI-4009;‬ ‭FIPS‬ ‭200;‬ ‭FIPS‬ ‭199;‬ ‭44‬ ‭U.S.C.,‬
+         ‭Sec.3542)‬ ‭Protecting‬ ‭information‬ ‭and‬ ‭information‬ ‭systems‬ ‭from‬
+          ‭unauthorized‬‭access,‬‭use,‬‭disclosure,‬‭disruption,‬‭modification,‬‭or‬‭destruction‬
+           ‭in‬ ‭order‬ ‭to‬ ‭provide—‬ ‭•‬ ‭Integrity,‬ ‭which‬ ‭means‬ ‭guarding‬ ‭against‬ ‭improper‬
+            ‭information‬ ‭modification‬ ‭or‬ ‭destruction,‬ ‭and‬ ‭includes‬ ‭ensuring‬ ‭information‬
+             ‭nonrepudiation‬ ‭and‬ ‭authenticity;‬ ‭•‬ ‭Confidentiality,‬ ‭which‬ ‭means‬ ‭preserving‬
+              ‭authorized‬ ‭restrictions‬ ‭on‬ ‭access‬ ‭and‬ ‭disclosure,‬ ‭including‬ ‭means‬ ‭for‬
+               ‭protecting‬ ‭personal‬ ‭privacy‬ ‭and‬ ‭proprietary‬ ‭information;‬ ‭and‬ ‭•‬ ‭Availability,‬
+                ‭which‬‭means‬‭ensuring‬‭timely‬‭and‬‭reliable‬‭access‬‭to‬‭and‬‭use‬‭of‬‭information.‬
+                 ‭(SOURCE: NIST SP 800-66; 44 U.S.C., Sec 3541)‬
+
+‭●‬ ‭Information‬ ‭Security‬ ‭Policy:‬ ‭Aggregate‬ ‭of‬ ‭directives,‬‭regulations,‬‭rules,‬‭and‬
+     ‭practices‬ ‭that‬ ‭prescribe‬ ‭how‬ ‭an‬ ‭organization‬ ‭manages,‬ ‭protects,‬ ‭and‬
+      ‭distributes‬ ‭information.‬ ‭(SOURCE:‬ ‭NIST‬‭SP‬‭800-53;‬‭NIST‬‭SP‬‭800-37;‬‭NIST‬
+       ‭SP 800-18; CNSSI-4009)‬
+
+                                                                                      ‭Policy Definitions - I   Page‬‭3‬
+
+‭●‬ ‭Information‬ ‭System:‬ ‭A‬ ‭discrete‬ ‭set‬ ‭of‬ ‭information‬ ‭resources‬ ‭organized‬ ‭for‬
+     ‭the‬ ‭collection,‬ ‭processing,‬ ‭maintenance,‬ ‭use,‬ ‭sharing,‬ ‭dissemination,‬ ‭or‬
+      ‭disposition‬‭of‬‭information.‬‭(SOURCE:‬ ‭FIPS‬‭200;‬‭FIPS‬‭199;‬‭NIST‬‭SP‬‭800-53A;‬
+       ‭NIST‬ ‭SP‬ ‭800-37;‬ ‭NIST‬ ‭SP‬ ‭800-60;‬ ‭NIST‬ ‭SP‬ ‭800-18;‬ ‭44‬ ‭U.S.C.,‬ ‭Sec.‬ ‭3502;‬
+        ‭OMB‬‭Circular‬‭A130,‬‭App.‬‭Note:‬‭Information‬‭systems‬‭also‬‭include‬‭specialized‬
+         ‭systems‬ ‭such‬ ‭as‬ ‭industrial/process‬ ‭control‬ ‭systems,‬ ‭telephone‬ ‭switching‬
+          ‭and‬ ‭private‬ ‭branch‬ ‭exchange‬ ‭(PBX)‬ ‭systems,‬ ‭and‬ ‭environmental‬ ‭control‬
+           ‭systems. (SOURCE: NIST SP 800-53; CNSSI-4009)‬
+
+‭●‬ ‭Information‬ ‭System‬ ‭Resilience:‬ ‭The‬ ‭ability‬ ‭of‬ ‭an‬ ‭information‬ ‭system‬ ‭to‬
+     ‭continue‬‭to‬‭operate‬‭while‬‭under‬‭attack,‬‭even‬‭if‬‭in‬‭a‬‭degraded‬‭or‬‭debilitated‬
+      ‭state‬ ‭and‬ ‭to‬ ‭rapidly‬ ‭recover‬ ‭operational‬ ‭capabilities‬ ‭for‬ ‭essential‬‭functions‬
+       ‭after‬ ‭a‬ ‭successful‬ ‭attack.‬ ‭(SOURCE:‬ ‭NIST‬ ‭SP‬ ‭800-30)‬ ‭The‬ ‭ability‬ ‭of‬ ‭an‬
+        ‭information‬ ‭system‬ ‭to‬ ‭continue‬ ‭to:‬ ‭(i)‬ ‭operate‬ ‭under‬ ‭adverse‬ ‭conditions‬ ‭or‬
+         ‭stress,‬‭even‬‭if‬‭in‬‭a‬‭degraded‬‭or‬‭debilitated‬‭state,‬‭while‬‭maintaining‬‭essential‬
+          ‭operational‬‭capabilities‬‭and‬‭(ii)‬‭recover‬‭to‬‭an‬‭effective‬‭operational‬‭posture‬‭in‬
+           ‭a time frame consistent with mission needs. (SOURCE: NIST SP 800-39)‬
+
+‭●‬ ‭Information‬ ‭Technology:‬ ‭Any‬ ‭equipment‬ ‭or‬ ‭interconnected‬ ‭system‬ ‭or‬
+     ‭subsystem‬ ‭of‬ ‭equipment‬ ‭that‬ ‭is‬ ‭used‬ ‭in‬‭the‬‭automatic‬‭acquisition,‬‭storage,‬
+      ‭manipulation,‬ ‭management,‬ ‭movement,‬ ‭control,‬ ‭display,‬ ‭switching,‬
+       ‭interchange,‬ ‭transmission,‬ ‭or‬ ‭reception‬ ‭of‬ ‭data‬ ‭or‬ ‭information‬ ‭by‬ ‭the‬
+        ‭executive‬ ‭agency.‬ ‭For‬ ‭purposes‬ ‭of‬ ‭the‬ ‭preceding‬ ‭sentence,‬ ‭equipment‬ ‭is‬
+         ‭used‬ ‭by‬ ‭an‬ ‭executive‬ ‭agency‬ ‭if‬ ‭the‬ ‭equipment‬ ‭is‬ ‭used‬ ‭by‬ ‭the‬ ‭executive‬
+          ‭agency‬ ‭directly‬ ‭or‬ ‭is‬ ‭used‬ ‭by‬ ‭a‬ ‭contractor‬ ‭under‬ ‭a‬ ‭contract‬ ‭with‬ ‭the‬
+           ‭executive‬ ‭agency,‬ ‭which:‬ ‭1.‬ ‭Requires‬ ‭the‬ ‭use‬ ‭of‬ ‭such‬ ‭equipment;‬ ‭or‬ ‭2.‬
+            ‭Requires‬ ‭the‬ ‭use,‬ ‭to‬ ‭a‬ ‭significant‬ ‭extent,‬ ‭of‬ ‭such‬ ‭equipment‬ ‭in‬ ‭the‬
+             ‭performance‬ ‭of‬ ‭a‬ ‭service‬ ‭or‬ ‭the‬ ‭furnishing‬ ‭of‬ ‭a‬ ‭product.‬ ‭The‬ ‭term‬
+              ‭information‬ ‭technology‬ ‭includes‬ ‭computers,‬ ‭ancillary‬ ‭equipment,‬ ‭software,‬
+               ‭firmware,‬ ‭and‬‭similar‬‭procedures,‬‭services‬‭(including‬‭support‬‭services),‬‭and‬
+                ‭related‬ ‭resources.‬ ‭(SOURCE:‬ ‭NIST‬ ‭SP‬‭800-53;‬‭NIST‬‭SP‬‭800-53A;‬‭NIST‬‭SP‬
+                 ‭800-37;‬‭NIST‬‭SP‬‭800-18;‬‭NIST‬‭SP‬‭800-60;‬‭FIPS‬‭200;‬‭FIPS‬‭199;‬‭CNSSI-4009;‬
+                  ‭40 U.S.C., Sec. 11101 and Sec 1401)‬
+
+‭●‬ ‭Information‬ ‭Technology‬ ‭Resources:‬ ‭Information‬ ‭and‬ ‭communications‬
+     ‭technologies,‬ ‭including‬ ‭data,‬ ‭information‬ ‭systems,‬ ‭network‬ ‭services‬ ‭(e.g.,‬
+      ‭Web‬ ‭services;‬ ‭messaging‬ ‭services);‬ ‭computers‬ ‭(e.g.,‬ ‭hardware,‬ ‭software);‬
+       ‭telecommunications‬ ‭networks‬ ‭and‬ ‭associated‬ ‭assets‬ ‭(e.g.,‬ ‭telephones,‬
+        ‭facsimiles, cell phones, laptops, personal digital assistants).‬
+
+‭●‬ ‭Inside‬ ‭Threat:‬ ‭An‬ ‭affiliate‬ ‭with‬ ‭authorized‬ ‭access‬ ‭that‬ ‭has‬ ‭the‬ ‭potential‬ ‭to‬
+     ‭harm‬‭an‬‭information‬‭system‬‭through‬‭destruction,‬‭disclosure,‬‭modification‬‭of‬
+      ‭data, and/or denial of service. (SOURCE: NIST SP 800-32)‬
+
+                                                                                  ‭Policy Definitions - I   Page‬‭4‬
+
+‭●‬ ‭Integrity:‬‭Guarding‬‭against‬‭improper‬‭information‬‭modification‬‭or‬‭destruction,‬
+     ‭and‬ ‭includes‬ ‭ensuring‬ ‭information‬ ‭non-repudiation‬ ‭and‬ ‭authenticity.‬
+      ‭(SOURCE:‬ ‭NIST‬ ‭SP‬ ‭800-53;‬ ‭NIST‬ ‭SP‬ ‭800-53A;‬ ‭NIST‬ ‭SP‬ ‭800-18;‬ ‭NIST‬ ‭SP‬
+       ‭800-27;‬ ‭NIST‬ ‭SP‬ ‭800-37;‬ ‭NIST‬ ‭SP‬ ‭800-60;‬ ‭FIPS‬ ‭200;‬ ‭FIPS‬ ‭199;‬ ‭44‬ ‭U.S.C.,‬
+        ‭Sec.‬ ‭3542‬ ‭The‬ ‭property‬ ‭that‬ ‭sensitive‬ ‭data‬ ‭has‬ ‭not‬ ‭been‬ ‭modified‬ ‭or‬
+         ‭deleted‬‭in‬‭an‬‭unauthorized‬‭and‬‭undetected‬‭manner.‬‭(SOURCE:‬ ‭FIPS‬‭140-2)‬
+          ‭The‬‭property‬‭whereby‬‭an‬‭affiliate‬‭has‬‭not‬‭been‬‭modified‬‭in‬‭an‬‭unauthorized‬
+           ‭manner. (SOURCE: CNSSI-4009)‬
+
+‭●‬ ‭Internal‬ ‭or‬ ‭Moderate‬ ‭Sensitivity‬‭.‬ ‭Internal‬ ‭information‬ ‭is‬ ‭information‬ ‭whose‬
+     ‭loss,‬‭corruption,‬‭or‬‭unauthorized‬‭disclosure‬‭is‬‭of‬‭importance‬‭only‬‭inside‬‭the‬
+      ‭State‬ ‭and,‬ ‭therefore,‬ ‭would‬ ‭not‬ ‭result‬ ‭in‬ ‭a‬ ‭tangible‬ ‭business,‬ ‭financial,‬ ‭or‬
+       ‭legal loss.‬
+
+‭●‬ ‭Internal‬ ‭Revenue‬ ‭Service‬ ‭(IRS)‬ ‭Publication‬ ‭(Pub)‬ ‭1075:‬ ‭This‬ ‭publication‬
+     ‭provides‬ ‭guidance‬ ‭to‬ ‭ensure‬ ‭the‬ ‭policies,‬ ‭practices,‬ ‭controls,‬ ‭and‬
+      ‭safeguards‬ ‭employed‬ ‭by‬ ‭recipient‬ ‭agencies,‬ ‭agents,‬ ‭or‬ ‭contractors‬
+       ‭adequately‬‭protect‬‭the‬‭confidentiality‬‭of‬‭Federal‬‭Taxpayer‬‭Information‬‭(FTI).‬
+        ‭(SOURCE: IRS PUB. 1075)‬
+
+‭●‬ ‭Internet:‬ ‭The‬ ‭single,‬ ‭interconnected,‬ ‭worldwide‬ ‭system‬ ‭of‬ ‭commercial,‬
+     ‭governmental,‬‭educational,‬‭and‬‭other‬‭computer‬‭networks‬‭that‬‭share‬ ‭a.‬‭the‬
+      ‭protocol‬ ‭suite‬ ‭specified‬ ‭by‬ ‭the‬ ‭Internet‬‭Architecture‬‭Board‬‭(IAB)‬‭and‬‭b.‬‭the‬
+       ‭name‬ ‭and‬ ‭address‬ ‭spaces‬ ‭managed‬ ‭by‬ ‭the‬ ‭Internet‬ ‭Corporation‬ ‭for‬
+        ‭Assigned Names and Numbers (ICANN). (SOURCE: CNSSI-4009)‬
+
+‭●‬ ‭Internet‬ ‭of‬ ‭Things‬ ‭(IoT):‬ ‭The‬ ‭network‬ ‭of‬ ‭physical‬ ‭devices,‬ ‭vehicles,‬ ‭home‬
+     ‭appliances,‬ ‭and‬ ‭other‬ ‭items‬‭embedded‬‭with‬‭electronics,‬‭software,‬‭sensors,‬
+      ‭actuators,‬ ‭and‬ ‭network‬ ‭connectivity‬ ‭that‬ ‭enables‬ ‭these‬ ‭objects‬ ‭to‬‭connect‬
+       ‭and exchange data. (SOURCE: Wikipedia)‬
+
+‭●‬ ‭Intranet:‬ ‭A‬ ‭private‬ ‭network‬ ‭that‬ ‭is‬ ‭employed‬ ‭within‬‭the‬‭confines‬‭of‬‭a‬‭given‬
+      ‭enterprise (e.g., internal to a business or agency). (SOURCE: CNSSI-4009)‬
+ ‭●‬ ‭Intrusion:‬ ‭Unauthorized‬ ‭act‬ ‭of‬ ‭bypassing‬ ‭the‬ ‭security‬ ‭mechanisms‬ ‭of‬ ‭a‬
+       ‭system. (SOURCE: CNSSI-4009)‬
+
+‭●‬ ‭IT‬‭Security‬‭Awareness:‬‭The‬‭purpose‬‭of‬‭awareness‬‭presentations‬‭is‬‭simply‬‭to‬
+     ‭focus‬ ‭attention‬ ‭on‬ ‭security.‬‭Awareness‬‭presentations‬‭are‬‭intended‬‭to‬‭allow‬
+      ‭individuals‬ ‭to‬ ‭recognize‬ ‭IT‬ ‭security‬ ‭concerns‬ ‭and‬ ‭respond‬ ‭accordingly.‬
+       ‭(SOURCE: NIST SP 800-50)‬
+
+                                                                                   ‭Policy Definitions - I   Page‬‭5‬
+
+‭●‬ ‭IT‬ ‭Security‬ ‭Awareness‬ ‭and‬ ‭Training‬ ‭Program:‬ ‭Explains‬ ‭proper‬ ‭rules‬ ‭of‬
+     ‭behavior‬ ‭for‬ ‭the‬ ‭use‬ ‭of‬ ‭agency‬ ‭IT‬ ‭systems‬ ‭and‬ ‭information.‬ ‭The‬ ‭program‬
+      ‭communicates‬‭IT‬‭security‬‭policies‬‭and‬‭procedures‬‭that‬‭need‬‭to‬‭be‬‭followed.‬
+       ‭(SOURCE: NIST SP 800-50; CNSSI-4009)‬
+
+                                                                              ‭Policy Definitions - I   Page‬‭6‬
+
+                       ‭DOCUMENT HISTORY‬
+
+                        ‭ORIGINAL SUBMISSION‬
+‭SUBMITTED‬   ‭SUBMITTED‬     ‭APPROVED BY‬     ‭ISSUED DATE‬       ‭EFFECTIVE‬
+    ‭ON‬          ‭BY‬                                                 ‭DATE‬
+
+                              ‭REVISIONS‬
+‭LAST REVISION DATE‬        ‭LAST REVISED BY‬           ‭LAST APPROVED BY‬
+
+                               ‭REVIEWS‬
+ ‭LAST REVIEW DATE‬         ‭LAST REVIEWED BY‬         ‭NEXT REVIEW DATE‬
+
+                                                           ‭Policy Definitions - I   Page‬‭7‬
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

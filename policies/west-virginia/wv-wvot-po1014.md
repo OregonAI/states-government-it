@@ -1,0 +1,259 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-po1014
+title: Malicious Software Protection Policy
+doc_type: policy
+citation: WVOT-PO1014
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1ojj02ch1Ufl6tfdNx22IkcGA0Kdx3z4q
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: a3c55f48eb217ba93e54dc2b56f536ffb7720498debfba9bb38d616aa58443b1
+effective_date: null
+source_version: Revised 03/13/2026
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as
+  extracted. source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Malicious Software Protection Policy (WVOT-PO1014)
+
+## At a glance
+
+The Office of Technology's Malicious Software Protection Policy (OPR: WVOT Cybersecurity).
+
+## Full text
+
+I​ssued by the​                                             ​Malicious Software Protection Policy​
+ ​Chief Information Officer​                                                      ​WVOT-PO1014​
+
+                                                                                          ​ 1/06/2010​
+                                                                                          0
+                                                                                 ​Revised 03/13/2026​
+                                                                          ​OPR: WVOT Cybersecurity​
+                 ​COMPLIANCE WITH THIS PUBLICATION IS MANDATORY​
+                               ​Publications are available online at​
+             ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+    ​ uestions​​and​​change​​recommendations​​related​​to​​this​​publication​​shall​​be​​directed​​to​
+    Q
+​this​ ​publication's​ ​Office​ ​of​ ​Primary​​Responsibility​​(OPR).​ ​This​​policy​​shall​​be​​reviewed​
+ ​annually​ ​to​ ​ensure​ ​continued​ ​alignment​ ​with​ ​current​ ​legal,​ ​operational,​ ​and​ ​strategic​
+  ​requirements. Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Version​      ​Date​            ​Revision Description​
+
+ ​1​            ​7/01/2015​       ​ hanged​ ​name​ ​from​ ​Anti-Virus​ ​to​ ​Malicious​ ​Software​
+                                  C
+                                  ​Protection:​ ​Added​ ​Change​ ​Log​ ​History,​ ​Related​
+                                   ​Documents/Materials,​ ​and​ ​Policy-Specific​ ​Definitions;​
+                                    ​Added paragraphs 3.9-3.12​
+
+ ​2​            ​09/01/2016​      ​Reviewed - No Changes​
+
+ ​3​            ​10/20/2017​      ​Reviewed - No Changes​
+
+ ​4​            ​12/31/2023​      ​Updated website link​
+
+ ​5​            ​03/13/2026​      ​Reformatted - Minor Administrative Changes​
+
+ ​1.​    ​ URPOSE​
+         P
+        ​1.1.​ ​This policy prescribes the measures required to counter malicious software​
+                ​(malware), such as computer viruses, and identifies the responsibilities in​
+                 ​protecting the State network against malicious software. This protection​
+                  ​includes the tools and procedures necessary to prevent major and​
+                   ​widespread damage to user applications, files, desktops, workstations, and​
+                    ​laptops/notebooks, which are either physically or remotely connected to​
+                     ​the State network via a standard network, wireless, modem, or through​
+                      ​virtual private network (VPN).​
+
+ ​2.​    ​ COPE​
+         S
+        ​2.1.​ ​This​ ​policy​ ​applies​ ​to​ ​all​ ​departments​ ​(including​ ​agencies,​ ​boards,​
+                ​authorities,​ ​and​ ​commissions)​ ​within​ ​the​ ​Executive​ ​Branch​ ​of​ ​WV​ ​State​
+                 ​Government,​​excluding​​constitutional​​officers,​​the​​WV​​Board​​of​​Education,​
+                  ​the​​WV​​Department​​of​​Education,​​and​​the​​county​​boards​​of​​education​​that​
+                   ​have access to or use State-provided resources.​
+
+                                               ​Page​​1​​of 4​
+
+                            ​Malicious Software Protection Policy​
+​WVOT-PO1014                              Issue Date: 01/06/2010                           Revised: 03/13/2026​
+
+        ​2.2.​     ​ here​​there​​are​​policies​​in​​place​​which​​provide​​less​​restrictions​​or​​security​
+                   W
+                   ​than​ ​this​ ​policy,​ ​those​ ​policies​ ​will​ ​be​ ​superseded​ ​by​ ​this​ ​policy.​ ​In​
+                    ​instances​ ​where​ ​existing​ ​state​ ​and​ ​federal​ ​laws,​​regulations,​​and​​policies​
+                     ​are​ ​more​ ​restrictive​ ​than​ ​this​ ​policy,​ ​the​ ​more​ ​restrictive​ ​provisions​ ​will​
+                      ​prevail.​
+
+ ​3.​   ​POLICY​
+
+        ​3.1.​     ​ alicious​ ​code​ ​protection​ ​mechanisms​ ​will​ ​be​ ​employed​ ​at​ ​critical​
+                   M
+                   ​information​ ​system​ ​entry​ ​and​ ​exit​ ​points​ ​(e.g.,​ ​firewalls,​ ​electronic​ ​mail​
+                    ​servers,​ ​web​ ​servers,​ ​proxy​ ​servers,​ ​remote-access​ ​servers,​ ​cloud​
+                     ​environments)​ ​and​ ​at​ ​workstations,​ ​servers,​ ​or​ ​mobile​​computing​​devices​
+                      ​on the network where feasible.​
+
+                 ​3.1.1.​    ​ ny​​information​​system​​that​​stores,​​processes,​​or​​transmits​​Federal​
+                             A
+                             ​Tax​ ​Information​ ​(FTI),​ ​Personal​ ​Health​ ​Information​ ​(PHI),​ ​Social​
+                              ​Security​​Numbers​​(SSN)​​or​​Personal​​Identity​​Information​​(PII)​​must​
+                               ​be​ ​protected​​against​​malicious​​code​​transported​​by​​electronic​​mail,​
+                                ​electronic​ ​mail​ ​attachments,​ ​Internet​ ​accesses,​ ​or​ ​other​ ​common​
+                                 ​means.​
+
+                 ​3.1.2.​    ​ ata​ ​and​ ​program​ ​files​​that​​have​​been​​electronically​​transmitted​​to​
+                             D
+                             ​a​​WVOT-supported​​resource​​from​​another​​location,​​whether​​internal​
+                              ​or external, will be automatically scanned for viruses/malware.​
+
+        ​3.2.​     ​ VOT​ ​will​ ​evaluate,​​procure,​​install,​​and​​maintain​​endpoint​​detection​​and​
+                   W
+                   ​response​ ​(EDR)​ ​software​ ​and/or​ ​tools​ ​for​ ​use​ ​on​ ​all​ ​WVOT​ ​supported​
+                    ​equipment.​
+
+                 ​3.2.1.​    ​All software must be installed by WVOT authorized employees.​
+
+                 ​3.2.2.​    ​Employees will only use software provided by the State.​
+
+        ​3.3.​     ​ mployees​ ​must​ ​not​ ​intentionally​ ​introduce​ ​malware,​ ​such​ ​as​ ​viruses,​
+                   E
+                   ​onto​ ​State​ ​computing​ ​equipment​ ​or​ ​systems,​ ​or​ ​withhold​ ​information​
+                    ​necessary for effective malware control procedures.​
+
+        ​3.4.​     ​ mployees​ ​must​ ​not​ ​attempt​ ​to​ ​alter​ ​or​ ​disable​ ​anti-virus​ ​software,​ ​or​
+                   E
+                   ​attempt​ ​to​ ​terminate​ ​any​ ​scan​ ​being​ ​performed​ ​by​ ​EDR​ ​,​ ​on​​any​​system​
+                    ​attached to the Executive network.​
+
+        ​3.5.​     ​ mployees​ ​should​ ​use​ ​extreme​ ​caution​ ​when​ ​executing​ ​programs​ ​or​
+                   E
+                   ​opening email attachments that:​
+
+                 ​3.5.1.​    ​Have not been requested; or​
+
+                                                    ​Page​​2​​of 4​
+
+                             ​Malicious Software Protection Policy​
+​WVOT-PO1014                              Issue Date: 01/06/2010                         Revised: 03/13/2026​
+
+                  ​3.5.2.​    ​Come from an unknown source.​
+
+         ​3.6.​     ​ mployees​ ​will​ ​immediately​ ​notify​ ​the​ ​WVOT​ ​Service​ ​Desk​ ​if​ ​they​ ​have​
+                    E
+                    ​reason to believe their device may be infected with a virus or malware.​
+
+         ​3.7.​     ​ he​ ​WVOT​ ​will​ ​configure​ ​systems​ ​to​ ​prevent​ ​users​ ​from​ ​disabling​ ​EDR​
+                    T
+                    ​software updates.​
+
+         ​3.8.​     ​Real-time protection of resources must be continuously performed.​
+
+         ​3.9.​     ​ eal-time​​scans​​must​​be​​performed​​on​​files​​from​​external​​sources​​that​​are​
+                    R
+                    ​downloaded,​ ​opened,​ ​or​ ​executed​ ​in​ ​accordance​ ​with​ ​agency​ ​security​
+                     ​policy.​
+
+        ​3.10.​     ​Known malicious code and software will be blocked or quarantined.​
+
+        ​3.11.​     ​ VOT​ ​will​ ​manage​ ​malicious​ ​code​ ​protection​ ​mechanisms​ ​and​
+                    W
+                    ​automatically update these protection mechanisms as needed.​
+
+ ​4.​     ​POLICY SPECIFIC DEFINITIONS​
+
+         ​4.1.​     ​ hief​​Information​​Officer​​(CIO)​​-​​the​​person​​designated​​by​​the​​governor​​to​
+                    C
+                    ​lead​ ​the​ ​WV​ ​Office​ ​of​ ​Technology​ ​and​ ​oversee​ ​information​ ​technology​
+                     ​practices​ ​and​​initiatives​​for​​the​​Executive​​Brand​​of​​WV​​State​​government,​
+                      ​excluding the constitutional officers.​
+
+         ​4.2.​     ​ hief​​Information​​Security​​Officer​​(CISO)​​-​​Person​​designated​​by​​the​​CTO​
+                    C
+                    ​to​ ​oversee​ ​information​ ​security​ ​practices​ ​and​ ​initiatives​ ​for​ ​the​ ​Executive​
+                     ​Branch of WV State government, excluding the constitutional officers.​
+
+         ​4.3.​     ​ alware​ ​–​ ​A​ ​piece​ ​of​ ​malicious​ ​software​ ​that​ ​is​​designed​​to​​cause​​some​
+                    M
+                    ​unexpected​ ​or​ ​undesirable​​event,​​and​​is​​generally​​introduced​​to​​a​​system​
+                     ​without the knowledge or consent of the user.​
+
+         ​4.4.​     ​ ffice​​of​​Primary​​Responsibility​​(OPR)​​-​​The​​primary​​section​​within​​WVOT​
+                    O
+                    ​that​ ​takes​ ​the​ ​lead​ ​on​ ​a​ ​specific​ ​policy​ ​or​​procedure.​ ​Usually​​the​​WVOT​
+                     ​service provider/owner that the policy is related to or governs.​
+
+         ​4.5.​     ​ can​ ​–​ ​To​ ​examine​ ​computer​ ​coding/programs​ ​sequentially,​ ​part​ ​by​​part.​
+                    S
+                    ​For​ ​viruses,​ ​scans​ ​are​ ​made​ ​for​ ​virus​ ​signatures​ ​or​ ​potentially​ ​unsafe​
+                     ​practices​​(e.g.,​​changes​​to​​an​​executable​​file,​​direct​​writes​​to​​specific​​disk​
+                      ​sectors, et. al.).​
+
+         ​4.6.​     ​ ubject​ ​Matter​ ​Expert(SME)​ ​-​ ​Someone​ ​with​ ​extensive,​ ​specialized​
+                    S
+                    ​knowledge and experience in a particular area, process, or topic.​
+
+                                                   ​Page​​3​​of 4​
+
+                       ​Malicious Software Protection Policy​
+​WVOT-PO1014                            Issue Date: 01/06/2010                          Revised: 03/13/2026​
+
+        ​4.7.​   ​ est​ ​Virginia​ ​Office​ ​of​ ​Technology​ ​(WVOT)​ ​-​ ​The​ ​division​ ​of​ ​the​
+                 W
+                 ​Department​​of​​Administration​​established​​by​​WV​​Code​​§​​5A-6-4a,​​et.​​seq.,​
+                  ​which​ ​is​ ​led​ ​by​ ​the​ ​State’s​ ​CIO​ ​and​ ​designated​ ​to​ ​acquire,​ ​operate,​ ​and​
+                   ​maintain​ ​the​ ​State’s​ ​technology​ ​infrastructure.​ ​The​ ​WVOT​ ​is​ ​responsible​
+                    ​for​ ​evaluating​ ​equipment​ ​and​ ​services,​ ​and​ ​reviewing​ ​information​
+                     ​technology contracts.​
+
+        ​4.8.​   ​Workstation – A personal computer; also called a PC.​
+
+ ​5.​   ​RELEVANT MATERIALS AND DOCUMENTS​
+
+        ​5.1.​   ​45 Code of Federal Regulations (CFR) §§ 164.308-316​
+
+        ​5.2.​   ​Freedom of Information Act​
+
+        ​5.3.​   ​Gramm-Leach Bliley Act (GLBA)​
+
+        ​5.4.​   ​Health Insurance Portability and Accountability Privacy Rule​
+
+        ​5.5.​   ​NIST SP 800-14 and NIST SP 800-53​
+
+        ​5.6.​   ​State Health Privacy Laws​
+
+        ​5.7.​   ​WV Code § 5A-6-4a​
+
+        ​5.8.​   ​WV Executive Order No. 7-03​
+
+        ​5.9.​   ​ VOT​ ​Policies​ ​Issued​ ​by​ ​the​ ​Chief​ ​Information​ ​Officer​ ​(CIO),​
+                 W
+                 ​https://sites.google.com/wv.gov/othub/policy-governance/ot-policies​
+
+                                                 ​Page​​4​​of 4​
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as extracted. source_version is the revision or issue date the policy prints, as printed.

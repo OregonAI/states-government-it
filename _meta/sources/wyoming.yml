@@ -1,0 +1,1251 @@
+# Wyoming seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: ETS site (ets.wyo.gov, a Google Sites site), the statewide policy
+# library (four category pages, the Dictionary and its Google Drive PDFs), the Legislature's per-title statute PDFs,
+# rules.wyo.gov, governor.wyo.gov, care.wyo.gov and hls.wyo.gov. Statute slices are JSON bundles cut from the title PDF.
+sources:
+- id: wy-ws-9-2-art-29
+  sha256: "b4b60814929639a34f8a09979533428094ea6dd81311c8084de0d5fe2cfe93d6"
+  url: https://wyoleg.gov/statutes/compress/title09.pdf#9-2-art-29
+  format: json
+  citation: W.S. 9-2-2901 through 9-2-2907
+  title: Department of Enterprise Technology Services (Title 9, Chapter 2, Article 29)
+  doc_type: statute
+  jurisdiction: wyoming
+  issuing_body: Wyoming Legislature
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - funding
+  - cybersecurity
+  - data
+  recheck: monthly
+  cut:
+    from: ARTICLE 29 - DEPARTMENT OF ENTERPRISE TECHNOLOGY SERVICES
+    to: ARTICLE 30 - STATE CONSTRUCTION DEPARTMENT
+  found_via: https://ets.wyo.gov/about-us/statutes-and-rules (the ETS page that lists its statutes; the section numbers are confirmed in the title PDF bytes)
+  why_relevant: 'The enabling statute for the Department of Enterprise Technology Services and the state chief information officer. As the slice prints it: the department is created (9-2-2901) with an information technology division and an information services division (9-2-2902); the governor appoints the state chief information officer with the advice and consent of the senate, who directs the department (9-2-2903); definitions (9-2-2904); the department''s duties in assisting the governor, including uniform IT standards (9-2-2905); and the office''s authority and duties (9-2-2906): the biennial IT plan, the IT governance program, review criteria for agency IT projects, procurements and purchases, adoption of IT policies and standards and agency compliance, expenditure review and approval, data security and privacy policies and standards for the state data infrastructure as the minimum requirements for all agencies (2906(d)(iii)), enterprise data analytics, billing for shared costs and rulemaking on telecommunications and software. 9-2-2907 is printed as repealed.'
+- id: wy-ws-9-2-art-25
+  sha256: "cce54322de4293d1d9975ac5b76da4b684814c8554d08681cbdf8f9dda42fe68"
+  url: https://wyoleg.gov/statutes/compress/title09.pdf#9-2-art-25
+  format: json
+  citation: W.S. 9-2-2501
+  title: Government Electronic Transactions (Title 9, Chapter 2, Article 25)
+  doc_type: statute
+  jurisdiction: wyoming
+  issuing_body: Wyoming Legislature
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  cut:
+    from: ARTICLE 25 - GOVERNMENT ELECTRONIC TRANSACTIONS
+    to: ARTICLE 26 - DEPARTMENT OF WORKFORCE SERVICES
+  found_via: https://ets.wyo.gov/about-us/statutes-and-rules (the ETS page that lists its statutes; the section numbers are confirmed in the title PDF bytes)
+  why_relevant: Lets the state chief information officer provide for state agency business to be conducted electronically, and directs the department to make rules that set standards and security parameters for state agencies conducting business electronically, authentication, certification of electronically transmitted information and conversion to paper (9-2-2501). The single section of the article.
+- id: wy-ws-9-21
+  sha256: "17ad008434b5bdfc81780d6b5d6ccc710c32506a48c9e03560c2f25eb3ac2661"
+  url: https://wyoleg.gov/statutes/compress/title09.pdf#9-21
+  format: json
+  citation: W.S. 9-21-101 through 9-21-203
+  title: 'Data Policies (Title 9, Chapter 21: state agency data policies; data privacy in government entities)'
+  doc_type: statute
+  jurisdiction: wyoming
+  issuing_body: Wyoming Legislature
+  tags:
+  - data
+  - cybersecurity
+  - governance
+  recheck: monthly
+  cut:
+    from: CHAPTER 21 - DATA POLICIES
+    to: CHAPTER 22 - LIMITATIONS ON DELEGATES TO A CONVENTION FOR
+  found_via: https://ets.wyo.gov/about-us/statutes-and-rules (the ETS page that lists its statutes; the section numbers are confirmed in the title PDF bytes)
+  why_relevant: Article 1 (9-21-101) requires every executive branch agency to adopt, enforce and maintain a policy on the collection, access, security and use of data that complies with the standards set by the state chief information officer, including data security incident response and breach notification. Article 2 (9-21-201 to 9-21-203, created by Enrolled Act No. 32, Senate, 2026) limits the sale and transfer of personal data by government entities (the state and its agencies, and local governments), gives residents access and objection rights, and from July 1, 2027 requires a personal data collection and retention policy (9-21-203, which the page prints with its effective-date note). Binds state agencies as well as local entities.
+- id: wy-eo-2023-02
+  sha256: "a1874e564c3acb1ef1b200d47b6b201cd298372f962b36c66aec76cf4693f0a7"
+  url: https://drive.google.com/uc?export=download&id=1M0ulotnunJAjhWgf0DfHgDJ5eOJT9gA8
+  format: pdf
+  citation: Executive Order 2023-02
+  title: Establishment of the Wyoming Cyber Assistance Response Effort Team
+  doc_type: executive_order
+  jurisdiction: wyoming
+  issuing_body: Governor of Wyoming
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  ocr: true
+  official_link: https://drive.google.com/file/d/1M0ulotnunJAjhWgf0DfHgDJ5eOJT9gA8/view
+  found_via: https://hls.wyo.gov/programs/care-team (the Office of Homeland Security page, link text "Executive Order (EO) 2023-02"); also named on https://ets.wyo.gov/cybersecurity/incident-response-management/cyber-assistance-response-effort-care-team and https://care.wyo.gov/exec-order. The title block is confirmed in the fetched bytes.
+  why_relevant: Executive Order 2023-02 of Governor Mark Gordon establishes the Wyoming Cyber Assistance Response Effort (CARE) Team, with members from the Office of the Chief Information Officer and Enterprise Technology Services and other state agencies, led by the Office of Homeland Security, to review cybersecurity and technology-based threat information and assess vulnerabilities and report to the Governor. A scan with no text layer, read by the two-engine OCR procedure.
+- id: wy-wyit-1001
+  sha256: "e913734ac8608b2cbee7f3393e1b41d2fcc1636596fa2383940c79e8392de3d2"
+  url: https://drive.google.com/uc?export=download&id=1G3mEc-q2wkzi_O-0qBtUW96J96IRaVO-
+  format: pdf
+  citation: WyIT 1001
+  title: Agency Controlled Information Technology (IT) Change Management and Maintenance
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  - oversight
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1G3mEc-q2wkzi_O-0qBtUW96J96IRaVO-/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/it-operations
+  listed_as: WyIT - 1001 Agency Controlled Information Technology (IT) Change Management and Maintenance 07/2024
+  why_relevant: 'WyIT 1001, Agency Controlled Information Technology (IT) Change Management and Maintenance: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-1002
+  sha256: "d8f872e61407d3bed9d397a1959574b19ba46a3f792f5dded62202069ffc2c2a"
+  url: https://drive.google.com/uc?export=download&id=1jo_dl-n6t9ePALqELiXpXx6P5FVNPj4a
+  format: pdf
+  citation: WyIT 1002
+  title: Electronic Communication Management
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1jo_dl-n6t9ePALqELiXpXx6P5FVNPj4a/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/it-operations
+  listed_as: WyIT - 1002 Electronic Communication Management 07/2024
+  why_relevant: 'WyIT 1002, Electronic Communication Management: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-1003
+  sha256: "09737af287e43f0839234ac19d3580f054f6f6cb333493057c3df5b65f0b4a79"
+  url: https://drive.google.com/uc?export=download&id=1io4GT8iCRGJarVaRMshQEhWSw-famRQl
+  format: pdf
+  citation: WyIT 1003
+  title: Contingency Planning
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cloud-resilience
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1io4GT8iCRGJarVaRMshQEhWSw-famRQl/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/it-operations
+  listed_as: WyIT - 1003 Contingency Planning 07/2024
+  why_relevant: 'WyIT 1003, Contingency Planning: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-1004
+  sha256: "7e04fdf49cb696a600fdbd546e3686833777eec5d9fa568c621b5fa176283260"
+  url: https://drive.google.com/uc?export=download&id=15Sw5dao9X2gDcgyashsqIByXPEROHPfl
+  format: pdf
+  citation: WyIT 1004
+  title: Web Standards & Compliance
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  recheck: monthly
+  identity_text: WEB STANDARDS AND COMPLIANCE
+  official_link: https://drive.google.com/file/d/15Sw5dao9X2gDcgyashsqIByXPEROHPfl/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/it-operations
+  listed_as: WyIT - 1004 Web Standards & Compliance 07/2024
+  why_relevant: 'WyIT 1004, Web Standards & Compliance: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-1005
+  sha256: "7369e0d16e0881f7b53a903ab35f21dd06dc3fad3fa3087f211f7003e8ebc388"
+  url: https://drive.google.com/uc?export=download&id=17OCZTpiIw9FWbtjY6njpLQHrJbKu9w6x
+  format: pdf
+  citation: WyIT 1005
+  title: Artificial Intelligence Usage and Coding
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - ai
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/17OCZTpiIw9FWbtjY6njpLQHrJbKu9w6x/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/it-operations
+  listed_as: WyIT - 1005 Artificial Intelligence Usage and Coding 03/2025
+  why_relevant: 'WyIT 1005, Artificial Intelligence Usage and Coding: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. Its section on code generation and support makes developers accountable for code generated with generative AI, requires records of GenAI use on projects, and points to WyIT 3023 for acceptable use.'
+- id: wy-wyit-1006
+  sha256: "9e129a6c65197c21214cc889b27df927d7fd8ff8729d1b1ec4e3ced95d26a798"
+  url: https://drive.google.com/uc?export=download&id=1vrRMNskvJ0sAGcfrATchSNtypuZgHSpJ
+  format: pdf
+  citation: WyIT 1006
+  title: Active Directory (AD) Privileged Access
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1vrRMNskvJ0sAGcfrATchSNtypuZgHSpJ/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/it-operations
+  listed_as: WyIT - 1006 Active Directory (AD) Privileged Access 03/2025
+  why_relevant: 'WyIT 1006, Active Directory (AD) Privileged Access: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2001
+  sha256: "df4c8551d2d773cb1a0a21d684d39213a74abd75aafb9115fbe38684e26f9e85"
+  url: https://drive.google.com/uc?export=download&id=1m_YcUNNYD1EBmvu3KBugGt2olcy_QLlQ
+  format: pdf
+  citation: WyIT 2001
+  title: Data Classification
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: &id001
+  - data
+  - governance
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1m_YcUNNYD1EBmvu3KBugGt2olcy_QLlQ/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2001 Data Classification 09/2025
+  why_relevant: 'WyIT 2001, Data Classification: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2001-g1
+  sha256: "56ddef73f4865f92db43e233b48baaa460dc5bad65cd01d07849997061a58ab4"
+  url: https://drive.google.com/uc?export=download&id=1dCMfXfmwa43Pei44aOT3ELNYoaBPe5UX
+  format: pdf
+  citation: WyIT 2001-G1
+  title: Data Classification Guide
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: *id001
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1dCMfXfmwa43Pei44aOT3ELNYoaBPe5UX/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT 2001-G1, Data Classification Guide 09/2025
+  why_relevant: 'WyIT 2001-G1, Data Classification Guide: a statewide guide in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2001-g2
+  sha256: "7f1c7cd67c8e581356e206015bca3edcd16070652f147678acf9fe59204661f4"
+  url: https://drive.google.com/uc?export=download&id=1KigL9P3SRMetSZ5XjVn5WNgiyRs-5hYj
+  format: pdf
+  citation: WyIT 2001-G2
+  title: Data Classification Procedures Guide
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: *id001
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1KigL9P3SRMetSZ5XjVn5WNgiyRs-5hYj/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT 2001-G2, Data Classification Procedures Guide 09/2025
+  why_relevant: 'WyIT 2001-G2, Data Classification Procedures Guide: a statewide guide in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2001-s1
+  sha256: "09396dd129de82a1fdaf34ba7c3dea3786ed4407663b4c3c8daa72220197a5e2"
+  url: https://drive.google.com/uc?export=download&id=1toSZpeB_m8YKjmczFgcwY0__XgRiomv8
+  format: pdf
+  citation: WyIT 2001-S1
+  title: Data Owner Standard
+  doc_type: standard
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: *id001
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1toSZpeB_m8YKjmczFgcwY0__XgRiomv8/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2001-S1 Data Owner Standard 09/2025
+  why_relevant: 'WyIT 2001-S1, Data Owner Standard: a statewide standard in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2001-s2
+  sha256: "fba2c7d8f51df0a6fc12a7a5e9e0a0cb37ee4e90cc06eb137ff3ef60148fb7ae"
+  url: https://drive.google.com/uc?export=download&id=1tzpDWV1eV8v7tNy8CDpohZj3PibHH0mE
+  format: pdf
+  citation: WyIT 2001-S2
+  title: Data Steward Standard
+  doc_type: standard
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: *id001
+  recheck: monthly
+  identity_text: Data Steward functions
+  official_link: https://drive.google.com/file/d/1tzpDWV1eV8v7tNy8CDpohZj3PibHH0mE/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2001-S2 Data Steward Standard 09/2025
+  why_relevant: 'WyIT 2001-S2, Data Steward Standard: a statewide standard in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2001-s3
+  sha256: "3ab60a11756328b880aaac738b9beb60edff144be2fdf183e8438d5c3e032d2d"
+  url: https://drive.google.com/uc?export=download&id=14Ep1qWF7SBX6bTC4BPT2_3tIXhSEA_aW
+  format: pdf
+  citation: WyIT 2001-S3
+  title: Data Custodian Standard
+  doc_type: standard
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: *id001
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/14Ep1qWF7SBX6bTC4BPT2_3tIXhSEA_aW/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2001-S3 Data Custodian Standard 09/2025
+  why_relevant: 'WyIT 2001-S3, Data Custodian Standard: a statewide standard in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2001-s4
+  sha256: "6abf671b40bcdae80e7f7ce8f477ee11a118440931c849a6d684b2cebe297c43"
+  url: https://drive.google.com/uc?export=download&id=1u4DRdgSpBtc8XdbhrwZpdQJUDfilXNy_
+  format: pdf
+  citation: WyIT 2001-S4
+  title: Data Domain Standard
+  doc_type: standard
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: *id001
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1u4DRdgSpBtc8XdbhrwZpdQJUDfilXNy_/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2001-S4 Data Domain Standard 09/2025
+  why_relevant: 'WyIT 2001-S4, Data Domain Standard: a statewide standard in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2002
+  sha256: "69a77369c8d1eb8ccda56a14860cabf0de53bd092a33bb3831b6647779d0ddd1"
+  url: https://drive.google.com/uc?export=download&id=1j6iLCf836fNuyYitEv28uX9ol1R_aIKd
+  format: pdf
+  citation: WyIT 2002
+  title: Data Protection for Electronic Government Services
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1j6iLCf836fNuyYitEv28uX9ol1R_aIKd/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2002 - Data Protection for Electronic Government Services 09/2025
+  why_relevant: 'WyIT 2002, Data Protection for Electronic Government Services: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2003
+  sha256: "0a9a1145d3789054bfced9189945f1bd0120e688dcfaa82a6b54dcbf6ce87683"
+  url: https://drive.google.com/uc?export=download&id=1TWCtaeXKjl22nuBf_Q4QkGdyUXTMH847
+  format: pdf
+  citation: WyIT 2003
+  title: Data Backup, Storage and Restoration
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1TWCtaeXKjl22nuBf_Q4QkGdyUXTMH847/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2003 - Data Backup, Storage and Restoration 09/2025
+  why_relevant: 'WyIT 2003, Data Backup, Storage and Restoration: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2004
+  sha256: "efccbcbc3d18ea76e141490f56415ea100a3f794f7af54887fc4eca35dacfdd2"
+  url: https://drive.google.com/uc?export=download&id=1g7rn8GOpviewXtea4py7845ZNKVe-bkL
+  format: pdf
+  citation: WyIT 2004
+  title: Data Breach, Disclosure or Data Leak
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: &id002
+  - data
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1g7rn8GOpviewXtea4py7845ZNKVe-bkL/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2004 - Data Breach, Disclosure or Data Leak 09/2025
+  why_relevant: 'WyIT 2004, Data Breach, Disclosure or Data Leak: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. Data breach, disclosure and leak requirements for agencies.'
+- id: wy-wyit-2004-g1
+  sha256: "782ee0ce20249029c53d8ac1705dc344ca8d1f40eee81f2892f2f050180aee43"
+  url: https://drive.google.com/uc?export=download&id=1C0vTCegzg9OCvnN6CRyq56q5r-0DzW0B
+  format: pdf
+  citation: WyIT 2004-G1
+  title: Data Breach Guide
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags: *id002
+  recheck: monthly
+  identity_text: Data Breach Response Guide
+  official_link: https://drive.google.com/file/d/1C0vTCegzg9OCvnN6CRyq56q5r-0DzW0B/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2004 - GL- Data Breach Guide 08/2024
+  why_relevant: 'WyIT 2004-G1, Data Breach Guide: a statewide guide in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. Data breach, disclosure and leak requirements for agencies.'
+- id: wy-wyit-2005
+  sha256: "e792b64c67ea1057fd071d76971f81647e93e26fa787db6c5221b1fe6a3a9faf"
+  url: https://drive.google.com/uc?export=download&id=1F1rt9gUtucRDQPjx2ec1MEQt4lJx0zCS
+  format: pdf
+  citation: WyIT 2005
+  title: Data Residency and Transportation
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1F1rt9gUtucRDQPjx2ec1MEQt4lJx0zCS/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2005 - Data Residency and Transportation 09/2025
+  why_relevant: 'WyIT 2005, Data Residency and Transportation: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2006
+  sha256: "06aff0e5a2257962b001d03f707a1f4aff1043414f54a320a06e4c94da307404"
+  url: https://drive.google.com/uc?export=download&id=1Lbur_LtQDSSmG5wE5gjnMYhuXsLS6Ju6
+  format: pdf
+  citation: WyIT 2006
+  title: Agency Official for Privacy (AOP)
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1Lbur_LtQDSSmG5wE5gjnMYhuXsLS6Ju6/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2006 - Agency Official for Privacy (AOP) 09/2025
+  why_relevant: 'WyIT 2006, Agency Official for Privacy (AOP): a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. Names the agency official for privacy.'
+- id: wy-wyit-2008
+  sha256: "5bec2b4233208e71704cc624439106e91dbf09b90f681e5f33ab8853189abf88"
+  url: https://drive.google.com/uc?export=download&id=1kW3AEBNkW03kbP-cL7cKsrZ7yviCfnqT
+  format: pdf
+  citation: WyIT 2008
+  title: Website Online Maps and Data Disclaimer
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  - data
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1kW3AEBNkW03kbP-cL7cKsrZ7yviCfnqT/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2008 - Website Online Maps and Data Disclaimer 09/2025
+  why_relevant: 'WyIT 2008, Website Online Maps and Data Disclaimer: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2009
+  sha256: "1e72d73393709401c32cf05375fd166577b447308e724a416d0b70cae92c1a42"
+  url: https://drive.google.com/uc?export=download&id=1V-mG0cIRGvElISHzMi8JBhjz8UHON1JI
+  format: pdf
+  citation: WyIT 2009
+  title: '"Clean Desk" Confidential Information and Sensitive Materials'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  identity_text: Confidential Information and Sensitive Materials
+  official_link: https://drive.google.com/file/d/1V-mG0cIRGvElISHzMi8JBhjz8UHON1JI/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT - 2009 - "Clean Desk" Confidential Information and Sensitive Materials 09/2025
+  why_relevant: 'WyIT 2009, "Clean Desk" Confidential Information and Sensitive Materials: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2011
+  sha256: "f923754bf3b2d2dcc4f35e22c211f05f45093adc854a5cab4c7d96f3f0497bfd"
+  url: https://drive.google.com/uc?export=download&id=1kRbG6pSyu8khOQShJHbcWcisqwNbyI1w
+  format: pdf
+  citation: WyIT 2011
+  title: Wyoming State Data Collection, Transparency and Consent
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1kRbG6pSyu8khOQShJHbcWcisqwNbyI1w/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT 2011 - Wyoming State Data Collection, Transparency and Consent 09/2025
+  why_relevant: 'WyIT 2011, Wyoming State Data Collection, Transparency and Consent: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2013
+  sha256: "44e8ef976da8a201c36fcbad874aa593603ea5f20e6bd93f8a8932df7da9d195"
+  url: https://drive.google.com/uc?export=download&id=1dZiQiMeaudbC-n785vGSm2RCHX-jf1iy
+  format: pdf
+  citation: WyIT 2013
+  title: Electronic Data Destruction and Sanitization
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1dZiQiMeaudbC-n785vGSm2RCHX-jf1iy/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT 2013 - Electronic Data Destruction and Sanitization 09/2025
+  why_relevant: 'WyIT 2013, Electronic Data Destruction and Sanitization: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-2014
+  sha256: "8dc7ddf75f8a9ddc3372c91debfdce7c2b603d3e95f0c511dcb9465fec172003"
+  url: https://drive.google.com/uc?export=download&id=1GMxY7F4wqFQxDEWivhnIVPCcz3RTLm83
+  format: pdf
+  citation: WyIT 2014
+  title: Data Sharing Agreement Documentation Governance
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1GMxY7F4wqFQxDEWivhnIVPCcz3RTLm83/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/data
+  listed_as: WyIT 2014 - Data Sharing Agreement Documentation Governance 09/2025
+  why_relevant: 'WyIT 2014, Data Sharing Agreement Documentation Governance: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3024
+  sha256: "41e9178e71e40f28ce2502979adcfc69ae9de66d09cea3affad3565b55fe18d6"
+  url: https://drive.google.com/uc?export=download&id=1IJCKC1C9ZMNIN-kEgVdV8RV0FnyI-JRW
+  format: pdf
+  citation: WyIT 3024
+  title: International Travel Information Security
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1IJCKC1C9ZMNIN-kEgVdV8RV0FnyI-JRW/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/international-travel
+  listed_as: WyIT - 3024 - International Travel Information Security 06/2024
+  why_relevant: 'WyIT 3024, International Travel Information Security: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. Security requirements for State-owned IT assets when traveling outside the United States; the Governor''s foreign travel order that the ETS page links beside it is left out (see left_out).'
+- id: wy-wyit-3023
+  sha256: "fc5bfcf714415c981add943defd894bdd1a1b78edf12f131e2134cb56e31e36e"
+  url: https://drive.google.com/uc?export=download&id=1ZgbZwJsUnskGvTkBXRj8SUfOeejOeMNo
+  format: pdf
+  citation: WyIT 3023
+  title: Artificial Intelligence (GEN AI)
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - ai
+  - cybersecurity
+  recheck: monthly
+  identity_text: WyIT.3023
+  official_link: https://drive.google.com/file/d/1ZgbZwJsUnskGvTkBXRj8SUfOeejOeMNo/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT 3023 - Artificial Intelligence (GEN AI) 09/2026
+  why_relevant: 'WyIT 3023, Artificial Intelligence (GEN AI): a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. The statewide policy on generative artificial intelligence use by Executive Branch staff.'
+- id: wy-wyit-3001
+  sha256: "93ccbdb75fb0e0e12eee8b4d9d5eff62951038c31dd7f895d3ed24d3dc8c6422"
+  url: https://drive.google.com/uc?export=download&id=1Lr7rYchCqoNFb3o7z3IF8enBa4rEOxgV
+  format: pdf
+  citation: WyIT 3001
+  title: General Security Acceptable Use
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: GENERAL SECURITY - ACCEPTABLE USE
+  official_link: https://drive.google.com/file/d/1Lr7rYchCqoNFb3o7z3IF8enBa4rEOxgV/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3001 - General Security Acceptable Use 06/2024
+  why_relevant: 'WyIT 3001, General Security Acceptable Use: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3001-s
+  sha256: "80809cb81167c189e14fd1e37b9005122b87d4767fff9d3eba6f89f6c3227dc6"
+  url: https://drive.google.com/uc?export=download&id=1KwWzy5sxaII4l21JY-0CnIZmyTbOtK1_
+  format: pdf
+  citation: WyIT 3001-S
+  title: Sending Encrypted Email Standard
+  doc_type: standard
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1KwWzy5sxaII4l21JY-0CnIZmyTbOtK1_/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3001 - S - Sending Encrypted Email Standard 06/2024
+  why_relevant: 'WyIT 3001-S, Sending Encrypted Email Standard: a statewide standard in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3002
+  sha256: "13949a782e3ca87aec5f0386ce08d50d0993467f0900fcc3748df8ad40bf31b7"
+  url: https://drive.google.com/uc?export=download&id=1Gp8CjHYajpaeOewvOr_8jkwLmlnFDGpI
+  format: pdf
+  citation: WyIT 3002
+  title: Security Exception Request
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1Gp8CjHYajpaeOewvOr_8jkwLmlnFDGpI/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3002 - Security Exception Request 06/2024
+  why_relevant: 'WyIT 3002, Security Exception Request: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3003
+  sha256: "9f60636cf3e13d7457ad2cf7c6f833f40539f87329b2432d125638357c3413ea"
+  url: https://drive.google.com/uc?export=download&id=1kM2IL4kzY_IfSPb-2geMfWTVAIwkthPP
+  format: pdf
+  citation: WyIT 3003
+  title: Information Security
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1kM2IL4kzY_IfSPb-2geMfWTVAIwkthPP/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3003 - Information Security 06/2024
+  why_relevant: 'WyIT 3003, Information Security: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. The mandatory minimum information security requirements for the State, as the file states them.'
+- id: wy-wyit-3004
+  sha256: "68170df4abccd934af3c325539711ca60ae18f861a9f541bf96861b073e23e30"
+  url: https://drive.google.com/uc?export=download&id=1Gg28RMFj_Z1ak31NebLjS22VT9FMAyf4
+  format: pdf
+  citation: WyIT 3004
+  title: Security Awareness Training and Education
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1Gg28RMFj_Z1ak31NebLjS22VT9FMAyf4/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3004 - Security Awareness Training and Education 8/2024
+  why_relevant: 'WyIT 3004, Security Awareness Training and Education: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3005
+  sha256: "2ea8fe29603e4a1526e2c01c86a803e35405d664a6589bb89f2afe731b55d721"
+  url: https://drive.google.com/uc?export=download&id=1PsPEDdW_vLsQTV8DhaYB95r5js03MXke
+  format: pdf
+  citation: WyIT 3005
+  title: Access Controls
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1PsPEDdW_vLsQTV8DhaYB95r5js03MXke/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3005 - Access Controls 8/2024
+  why_relevant: 'WyIT 3005, Access Controls: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3006
+  sha256: "b2333ae49a771835960dfd6708147a2497ad068f1daa84386b743c8dc827640c"
+  url: https://drive.google.com/uc?export=download&id=1xMK796PfD-84e25UlF3a7vSNmxBJs_lH
+  format: pdf
+  citation: WyIT 3006
+  title: Identification and Authentication
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1xMK796PfD-84e25UlF3a7vSNmxBJs_lH/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3006 - Identification and Authentication 06/2024
+  why_relevant: 'WyIT 3006, Identification and Authentication: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3007
+  sha256: "46d3756067edcb2057eee1db7ad7232b537ff51476f803131cb8bbe578953414"
+  url: https://drive.google.com/uc?export=download&id=16Y2ntfbIqbT92RSbnJXRdXbbLq2MI4kv
+  format: pdf
+  citation: WyIT 3007
+  title: System and Communication Protection
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/16Y2ntfbIqbT92RSbnJXRdXbbLq2MI4kv/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3007 - System and Communication Protection 06/2024
+  why_relevant: 'WyIT 3007, System and Communication Protection: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3008
+  sha256: "814d2511c282789184c0eb26b2426c807a985331419ef2a3b8da94bef3f48551"
+  url: https://drive.google.com/uc?export=download&id=1GRsMT93AjO4DHLN6fwDp_-YKhrvps2zh
+  format: pdf
+  citation: WyIT 3008
+  title: Risk Assessment
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1GRsMT93AjO4DHLN6fwDp_-YKhrvps2zh/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3008 - Risk Assessment 8/2024
+  why_relevant: 'WyIT 3008, Risk Assessment: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3009
+  sha256: "2ab7f51f51741ce0e38e60b75de1c3a024ce3ce533ce7a172874858faa2ad162"
+  url: https://drive.google.com/uc?export=download&id=1twnEmtlUq9lpTw-1algC7M_S0wBFVHsv
+  format: pdf
+  citation: WyIT 3009
+  title: Computer Security Threat Response
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1twnEmtlUq9lpTw-1algC7M_S0wBFVHsv/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3009 - Computer Security Threat Response 06/2024
+  why_relevant: 'WyIT 3009, Computer Security Threat Response: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3010
+  sha256: "41972ed54bb3d95d8b74cf4350f500fc9bb65ad54f38d6c972154dfe49419796"
+  url: https://drive.google.com/uc?export=download&id=15RzOwKk_cEUlTqsoWODreilnO1iG2_ss
+  format: pdf
+  citation: WyIT 3010
+  title: Incident Response
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/15RzOwKk_cEUlTqsoWODreilnO1iG2_ss/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3010 - Incident Response 06/2024
+  why_relevant: 'WyIT 3010, Incident Response: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. Security incident identification, containment, reporting and response.'
+- id: wy-wyit-3011
+  sha256: "6d5746204e37725fb0f588aa5a006878a6c470ee7f6465b96936675c0daad6d9"
+  url: https://drive.google.com/uc?export=download&id=1fW2JpWLlKpZDkKtnBz1P76Za2xxdNkiA
+  format: pdf
+  citation: WyIT 3011
+  title: Systems and Services Acquisition
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1fW2JpWLlKpZDkKtnBz1P76Za2xxdNkiA/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3011 - Systems and Services Acquisition 06/2024
+  why_relevant: 'WyIT 3011, Systems and Services Acquisition: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees. Security requirements when IT resources and systems are acquired.'
+- id: wy-wyit-3012
+  sha256: "6644d6ff683e7529e6129c804485c3344326980ef75c5267f5786d9d349abf0a"
+  url: https://drive.google.com/uc?export=download&id=1YdZ7H7GwZcluwZNgqmnzPoDxJ14Trmo4
+  format: pdf
+  citation: WyIT 3012
+  title: System and Information Integrity
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1YdZ7H7GwZcluwZNgqmnzPoDxJ14Trmo4/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3012 - System and Information Integrity 8/2024
+  why_relevant: 'WyIT 3012, System and Information Integrity: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3013
+  sha256: "eb007c65c669fc94047d59d723ae81fa295054f5c14ef0cd3ac71190516317f5"
+  url: https://drive.google.com/uc?export=download&id=1fb-oV6aJq7n6vgl1_RmuDWJpF5aXAC36
+  format: pdf
+  citation: WyIT 3013
+  title: Physical and Environmental Protection
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1fb-oV6aJq7n6vgl1_RmuDWJpF5aXAC36/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3013 - Physical and Environmental Protection 8/2024
+  why_relevant: 'WyIT 3013, Physical and Environmental Protection: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3014
+  sha256: "2875500d26bf6343d71b9bda2c181ae2459547354dc80849b9bcb15dd8a20df7"
+  url: https://drive.google.com/uc?export=download&id=15CPyr173avK3jgoWI3nyCBzcq3BQo_1I
+  format: pdf
+  citation: WyIT 3014
+  title: Personnel Security
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/15CPyr173avK3jgoWI3nyCBzcq3BQo_1I/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3014 - Personnel Security 8/2024
+  why_relevant: 'WyIT 3014, Personnel Security: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3015
+  sha256: "d732b78b115cda1563ae1360fed7beb0e0bc7c825d0c7d4530fb7d30897cbe66"
+  url: https://drive.google.com/uc?export=download&id=1n75Q4K9h_JIcFqEe9wRjZvB-ysvBHm5w
+  format: pdf
+  citation: WyIT 3015
+  title: Physical Media
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1n75Q4K9h_JIcFqEe9wRjZvB-ysvBHm5w/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3015 - Physical Media 06/2024
+  why_relevant: 'WyIT 3015, Physical Media: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3016
+  sha256: "618826f9bb11424041e284fa36c82f229c3d35ff9e062ee4f830c4b54438bfbc"
+  url: https://drive.google.com/uc?export=download&id=1pwyC5us2aXEUdQz2QiKKiNtHBFNWsD4Z
+  format: pdf
+  citation: WyIT 3016
+  title: Mobile Device Security
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1pwyC5us2aXEUdQz2QiKKiNtHBFNWsD4Z/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3016 - Mobile Device Security 06/2024
+  why_relevant: 'WyIT 3016, Mobile Device Security: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3017
+  sha256: "62aa64716a51e704b596c08ad14eb3997d580609687c57eaf4e7172bb0a70654"
+  url: https://drive.google.com/uc?export=download&id=1TmURvJIgxZ067DX3VWyiSQ19fhU4lj1R
+  format: pdf
+  citation: WyIT 3017
+  title: Remote Access
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1TmURvJIgxZ067DX3VWyiSQ19fhU4lj1R/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3017 - Remote Access 06/2024
+  why_relevant: 'WyIT 3017, Remote Access: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3018
+  sha256: "33378ae4c3cf1ef3b6e8b43684c3d7fa7430617b485f9af7431abfb32a7d98ad"
+  url: https://drive.google.com/uc?export=download&id=163h7elKI6o1giSrFE_Vva8WQpOv2ZqCF
+  format: pdf
+  citation: WyIT 3018
+  title: Software Use
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/163h7elKI6o1giSrFE_Vva8WQpOv2ZqCF/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3018 - Software Use 06/2024
+  why_relevant: 'WyIT 3018, Software Use: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3019
+  sha256: "e38a87a129309b6ed54b857a3c1f2210caed5a8c5a5ab7ff646fd897d6e35eb1"
+  url: https://drive.google.com/uc?export=download&id=1pLogzvuwrJWnwAYqdKOFgDxU7bm6bWDN
+  format: pdf
+  citation: WyIT 3019
+  title: Local Administrative Rights
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1pLogzvuwrJWnwAYqdKOFgDxU7bm6bWDN/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3019 - Local Administrative Rights 06/2024
+  why_relevant: 'WyIT 3019, Local Administrative Rights: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3020
+  sha256: "650796ebc1fcd9b7e849e457a59097cc2db3e68fee8fc839904d6094790bd1f4"
+  url: https://drive.google.com/uc?export=download&id=1hTWBBHYL7p8ttltvwkZSo8T2A_-gOFzb
+  format: pdf
+  citation: WyIT 3020
+  title: Vulnerability Scanning
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1hTWBBHYL7p8ttltvwkZSo8T2A_-gOFzb/view?usp=drive_link
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3020 Vulnerability Scanning 062024
+  why_relevant: 'WyIT 3020, Vulnerability Scanning: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3021
+  sha256: "29e4a19b0e96ee786f13c576453b6cf756189060e1e4a324ddb05d90cf80d092"
+  url: https://drive.google.com/uc?export=download&id=15xsE4juTelZvxtLcSsUXVAzWfAP36q3y
+  format: pdf
+  citation: WyIT 3021
+  title: Patch Management
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/15xsE4juTelZvxtLcSsUXVAzWfAP36q3y/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3021 - Patch Management 06/2024
+  why_relevant: 'WyIT 3021, Patch Management: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3022
+  sha256: "23e4ef6467d7018c246dbefa6581771bb928344515bb9e563d799994c749cb31"
+  url: https://drive.google.com/uc?export=download&id=1bl7HoEt0CaZYL4OTEBK4_CXMevG5rQQ9
+  format: pdf
+  citation: WyIT 3022
+  title: Mainframe Security
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1bl7HoEt0CaZYL4OTEBK4_CXMevG5rQQ9/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3022 - Mainframe Security 8/2024
+  why_relevant: 'WyIT 3022, Mainframe Security: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-3025
+  sha256: "82abef5e3c148a23a5a6b6ceebf169268e08f790f5afaaa2f1dd59e9aede78bd"
+  url: https://drive.google.com/uc?export=download&id=1da5-9zGpDTO-GtoTQMtxOrYtQDl1k5mA
+  format: pdf
+  citation: WyIT 3025
+  title: Source Code Control Policy
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  official_link: https://drive.google.com/file/d/1da5-9zGpDTO-GtoTQMtxOrYtQDl1k5mA/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  listed_as: WyIT - 3025 - Source Code Control Policy 06/2024
+  why_relevant: 'WyIT 3025, Source Code Control Policy: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary
+  sha256: "6cfe5c4f73adffe4fae39faff8c33dee098f9b911c82861345c3c18d4e601a8b"
+  url: https://drive.google.com/uc?export=download&id=1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5
+  format: pdf
+  citation: IT Policy Dictionary
+  title: IT Policy Dictionary
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: POLICY DICTIONARY
+  official_link: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing
+  found_via: https://ets.wyo.gov/resources/policies-standards/it-policy-dictionary
+  listed_as: IT Policy Dictionary
+  why_relevant: 'The IT Policy Dictionary policy: the statewide document that every WyIT policy points to for its definitions (each says ''All definitions for this policy are located in the Policy Dictionary''). This file is the dictionary''s own cover document; the definitions are in the lettered files it links, held as the wy-wyit-dictionary-* documents.'
+- id: wy-wyit-dictionary-e-h
+  sha256: "3649c53ccaa1b439350ce7db2732fe4a3a2c546e93c12d7dc9f638f0896d730c"
+  url: https://drive.google.com/uc?export=download&id=11faASCTvXEqfmYtRH0I0GwBNGCQZw8Ms
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - E - H
+  title: 'IT Policy Dictionary: Definitions E-H'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - E - H
+  official_link: https://drive.google.com/file/d/11faASCTvXEqfmYtRH0I0GwBNGCQZw8Ms/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - E - H
+  why_relevant: 'The Definitions - E - H part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-a
+  sha256: "64c5ec6001e0ee9460f75b4799b1872437a4df35c80fed598df3d2fb7ac4a45d"
+  url: https://drive.google.com/uc?export=download&id=18FPKsxFh1xlEw9M2MfS_s5ccJ9dwD2kJ
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - A
+  title: 'IT Policy Dictionary: Definitions A'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - A
+  official_link: https://drive.google.com/file/d/18FPKsxFh1xlEw9M2MfS_s5ccJ9dwD2kJ/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - A
+  why_relevant: 'The Definitions - A part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-s
+  sha256: "d28c8f37f780d340e96a1a5d9481c2582809d91db313de2d8efb2d1fa06f97fc"
+  url: https://drive.google.com/uc?export=download&id=1GNpIAsWgyHK-PakSem-K3NbYKwqCkgjH
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - S
+  title: 'IT Policy Dictionary: Definitions S'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - S
+  official_link: https://drive.google.com/file/d/1GNpIAsWgyHK-PakSem-K3NbYKwqCkgjH/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - S
+  why_relevant: 'The Definitions - S part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-j-o
+  sha256: "60b490d187f52748c9cd4164c8c5147e52c13abe56c91af1acc09fc991bc9b7a"
+  url: https://drive.google.com/uc?export=download&id=1LRf7FqGwSQxlNmoRp1V29_xPTcfdqIST
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - J - O
+  title: 'IT Policy Dictionary: Definitions J-O'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - J - O
+  official_link: https://drive.google.com/file/d/1LRf7FqGwSQxlNmoRp1V29_xPTcfdqIST/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - J - O
+  why_relevant: 'The Definitions - J - O part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-b
+  sha256: "4bb5f02dcd9138d0fa6420bd3487a2df7db7bde3396dfcdfaeead0cf6cab71c8"
+  url: https://drive.google.com/uc?export=download&id=1VGhz7Iy_o07alo_NCFWQ3YRLMbge4wy1
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - B
+  title: 'IT Policy Dictionary: Definitions B'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - B
+  official_link: https://drive.google.com/file/d/1VGhz7Iy_o07alo_NCFWQ3YRLMbge4wy1/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - B
+  why_relevant: 'The Definitions - B part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-mainframe
+  sha256: "fe3b51a0a561cbdeeb623fa667c2be1b55ede0cb758091a3c3ed70dc7acf4297"
+  url: https://drive.google.com/uc?export=download&id=1a6c5b2YIe3KS7TxiXKiHUY72Rvzpr3xM
+  format: pdf
+  citation: IT Policy Dictionary, Mainframe Specific Definitions
+  title: 'IT Policy Dictionary: Mainframe Specific Definitions'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Mainframe Specific Definitions
+  official_link: https://drive.google.com/file/d/1a6c5b2YIe3KS7TxiXKiHUY72Rvzpr3xM/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Mainframe Specific Definitions
+  why_relevant: 'The Mainframe Specific Definitions part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-c
+  sha256: "e0099e9d3ca803e82db29425d0bce7a78a3c58565d0415f5e8baf992fb296c14"
+  url: https://drive.google.com/uc?export=download&id=1a8ieuvcEVVtMJBpTTHVO5zAZt9hpMxhH
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - C
+  title: 'IT Policy Dictionary: Definitions C'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - C
+  official_link: https://drive.google.com/file/d/1a8ieuvcEVVtMJBpTTHVO5zAZt9hpMxhH/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - C
+  why_relevant: 'The Definitions - C part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-i
+  sha256: "21ba68a279c618e4920a2ff2053a2ec22c95e55ebc24677d331f9f9ed3215c2c"
+  url: https://drive.google.com/uc?export=download&id=1h8VFiD_cWmv6Z7sW2Iv19Rhw-9J6igYa
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - I
+  title: 'IT Policy Dictionary: Definitions I'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - I
+  official_link: https://drive.google.com/file/d/1h8VFiD_cWmv6Z7sW2Iv19Rhw-9J6igYa/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - I
+  why_relevant: 'The Definitions - I part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-t-z
+  sha256: "cbd06e8e381d509e32732a000f6d589089c115fed8711937c64087c83d2c5413"
+  url: https://drive.google.com/uc?export=download&id=1hnYWyvP16TQHpJikGWSKWy3ZbX2IMiSp
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - T - Z
+  title: 'IT Policy Dictionary: Definitions T-Z'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - T - Z
+  official_link: https://drive.google.com/file/d/1hnYWyvP16TQHpJikGWSKWy3ZbX2IMiSp/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - T - Z
+  why_relevant: 'The Definitions - T - Z part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-p
+  sha256: "87c34dd7f198d9e3648c5779e04a63730375a31548396241104754f00854ea3c"
+  url: https://drive.google.com/uc?export=download&id=1lmqrJc_AygRFXW3n5-nPltcsQpHBoQDs
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - P
+  title: 'IT Policy Dictionary: Definitions P'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - P
+  official_link: https://drive.google.com/file/d/1lmqrJc_AygRFXW3n5-nPltcsQpHBoQDs/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - P
+  why_relevant: 'The Definitions - P part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-d
+  sha256: "4cf27d738742ca0bc9aa9376df1ced59c550045e1b6fbc5c5f98a9a0185ee90b"
+  url: https://drive.google.com/uc?export=download&id=1sM13vFIQsuLGfy8s9gJ9oU4Rf7LgGher
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - D
+  title: 'IT Policy Dictionary: Definitions D'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - D
+  official_link: https://drive.google.com/file/d/1sM13vFIQsuLGfy8s9gJ9oU4Rf7LgGher/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - D
+  why_relevant: 'The Definitions - D part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-wyit-dictionary-q-r
+  sha256: "f13f633c1282c23eba1bafbf9265a5628b8e0501a5d7b538ebca5acfcf4d94da"
+  url: https://drive.google.com/uc?export=download&id=1urW9VLMmAFaHLPspBKQi4zYaJCihxRxk
+  format: pdf
+  citation: IT Policy Dictionary, Definitions - Q - R
+  title: 'IT Policy Dictionary: Definitions Q-R'
+  doc_type: policy
+  jurisdiction: wyoming
+  issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: Definitions - Q - R
+  official_link: https://drive.google.com/file/d/1urW9VLMmAFaHLPspBKQi4zYaJCihxRxk/view?usp=sharing
+  found_via: https://drive.google.com/file/d/1efyZ7QYmUDvBu0ZBOaVF0WqtHFVEwEZ5/view?usp=sharing (the IT Policy Dictionary PDF the ETS page links; the link annotation on its lettered list, read from the fetched PDF bytes; the title block of each file is confirmed in its fetched bytes)
+  listed_as: Definitions - Q - R
+  why_relevant: 'The Definitions - Q - R part of the IT Policy Dictionary: the definitions of IT terms used in the State of Wyoming policies and standards (WyIT), which every WyIT policy incorporates by reference. Per its Applicability section it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.'
+- id: wy-watch-ets-policies-standards
+  url: https://ets.wyo.gov/resources/policies-standards
+  format: html
+  citation: ETS Policies & Standards
+  title: ETS Policies & Standards (library front page)
+  doc_type: policy
+  jurisdiction: wyoming
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The front page of the statewide policy library: the IT Policy Dictionary link and the three category pages (International Travel, IT Operations, Security & Privacy); the Data category page is linked in the site menu. A new category shows here.'
+- id: wy-watch-ets-it-operations
+  url: https://ets.wyo.gov/resources/policies-standards/it-operations
+  format: html
+  citation: ETS IT Operations policies
+  title: 'ETS Policies & Standards: IT Operations (list)'
+  doc_type: policy
+  jurisdiction: wyoming
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The list of the IT Operations policies (WyIT 1001 to 1006, six rows on 2026-11-12), each a Google Drive PDF. An added, renamed or removed row shows here.
+- id: wy-watch-ets-data
+  url: https://ets.wyo.gov/resources/policies-standards/data
+  format: html
+  citation: ETS Data policies
+  title: 'ETS Policies & Standards: Data (list)'
+  doc_type: policy
+  jurisdiction: wyoming
+  tags:
+  - data
+  recheck: monthly
+  watch_only: true
+  why_relevant: The list of the Data policies, standards and guides (WyIT 2001 to 2014, 18 rows on 2026-11-12), each a Google Drive PDF. An added, renamed or removed row shows here.
+- id: wy-watch-ets-international-travel
+  url: https://ets.wyo.gov/resources/policies-standards/international-travel
+  format: html
+  citation: ETS International Travel
+  title: 'ETS Policies & Standards: International Travel (list)'
+  doc_type: policy
+  jurisdiction: wyoming
+  tags:
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The International Travel list: WyIT 3024, the Foreign Travel Approval order link, the Foreign Travel Request form and the Telework Wyoming Policy link (four rows on 2026-11-12).'
+- id: wy-watch-ets-security-privacy
+  url: https://ets.wyo.gov/resources/policies-standards/security-privacy
+  format: html
+  citation: ETS Security & Privacy policies
+  title: 'ETS Policies & Standards: Security & Privacy (list)'
+  doc_type: policy
+  jurisdiction: wyoming
+  tags:
+  - cybersecurity
+  - ai
+  recheck: monthly
+  watch_only: true
+  why_relevant: The list of the Security & Privacy policies (WyIT 3001 to 3025, 25 rows on 2026-11-12, among them WyIT 3023 Artificial Intelligence), each a Google Drive PDF. An added, renamed or removed row shows here.
+- id: wy-watch-ets-dictionary
+  url: https://ets.wyo.gov/resources/policies-standards/it-policy-dictionary
+  format: html
+  citation: ETS IT Policy Dictionary
+  title: ETS IT Policy Dictionary (landing page)
+  doc_type: policy
+  jurisdiction: wyoming
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The dictionary''s landing page and its letter pages (A, B, C, D, E-H, I, J-O, P, Q-R, S, T-Z): web copies of the definitions held here as the wy-wyit-dictionary-* PDFs.'
+- id: wy-watch-ets-statutes-and-rules
+  url: https://ets.wyo.gov/about-us/statutes-and-rules
+  format: html
+  citation: ETS Statutes and Rules
+  title: ETS Statutes and Rules (page)
+  doc_type: statute
+  jurisdiction: wyoming
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: ETS's own list of the statutes it administers (about 25 sections on 2026-11-12, grouped Creation, Duties, Budget Reports, Public Funds, and by other agencies' chapters). A new section or a rules link shows here.
+- id: wy-watch-care-exec-order
+  url: https://care.wyo.gov/exec-order
+  format: html
+  citation: WY CARE Team executive order page
+  title: 'WY CARE Team: Exec Order (page)'
+  doc_type: executive_order
+  jurisdiction: wyoming
+  tags:
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: The CARE Team site's page for Executive Order 2023-02. The Governor's own executive order list is script-rendered and cannot be watched (see left_out).
+- id: wy-watch-ets-data-privacy
+  url: https://ets.wyo.gov/data-privacy/data-privacy-for-government-entities
+  format: html
+  citation: ETS Data Privacy for Government Entities
+  title: ETS Data Privacy for Government Entities (page)
+  doc_type: policy
+  jurisdiction: wyoming
+  tags:
+  - data
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The page for the 2026 Data Privacy in Government Entities Act (W.S. 9-21-201 to 9-21-203): the sample policy guides for local governments and for executive branch agencies (a WyIT-20xx enterprise policy template, effective July 1, 2027, not yet a numbered policy). A numbered WyIT policy replacing the template would show here.'
+left_out:
+- text: '---- Wyoming: found and left out (each was seen on an official page and read through the Fetcher on 2026-11-12; the reason is recorded here)'
+- text: |-
+    Statewide policy library (https://ets.wyo.gov/resources/policies-standards): every row was read, row by row. The front page links four category pages and the IT Policy Dictionary: IT Operations 6 rows (WyIT 1001-1006), Data 18 rows (WyIT 2001, 2001-G1, G2, S1-S4, 2002, 2003, 2004, the 2004 guide, 2005, 2006, 2008, 2009, 2011, 2013, 2014), International Travel 1 policy row (WyIT 3024) and Security & Privacy 25 rows (WyIT 3023 and 3001 to 3022, 3001-S and 3025). That is 50 policy, standard and guide files, all seeded as documents, plus the Dictionary: 51 library rows, 51 documents, 0 stubs. The Dictionary's cover PDF links 12 lettered PDFs (A, B, C, D, E-H, I, J-O, P, Q-R, S, T-Z and Mainframe Specific Definitions), seeded as 12 more documents (wy-wyit-dictionary-*), so 63 PDFs in all. Every file was fetched as PDF bytes with a text layer. The files are served from Google Drive, which the ETS page links (the url is the Drive export link built from the file id in the page's link, as Colorado's OIT files are; each file's title block is confirmed in its bytes).
+    No status column exists on these lists: a row is a current item. No archived, draft or superseded section was found on the four category pages or the front page.
+    Filter applied: none beyond the above; the Guides (WyIT 2001-G1, 2001-G2, the 2004 breach guide) are seeded as policy documents because the library lists them beside the policies they support (OWNER DECISION if guides should be treated as non-instruments).
+    Quirks kept as published: the file for WyIT 2001-S2 (Data Steward Standard) prints the title 'Data Owner Standard' and the number 'WyIT.2001-S1' on its first page although its text and the index row are the Data Steward Standard (identity_text names a phrase only it prints); the 2004 guide's index row says '2004 - GL' and the file prints 'WyIT.2004-G1'; WyIT 3023's index row is dated 09/2026 and the file prints its own dates in its header table.
+- text: 'Library rows that are not policies, left out: the Foreign Travel Request Form (a fillable form, sao.wyo.gov), the Telework Wyoming Policy link (https://ai.wyo.gov/for-state-employees/telework-wyoming, a Department of Administration and Information human resources page with a Google Drive Telework Policy file, approval process, sample agreement, safety checklist, FAQ and training pages; a personnel policy on where employees work, not IT, so not read as an instrument; OWNER DECISION if telework security belongs), and the Foreign Travel Approval link (see executive orders below).'
+- text: |-
+    Statutes. Read in the Legislature's own title PDFs (wyoleg.gov/statutes/compress/title09.pdf, 892 pages, PDF ModDate May 8 2026; titles 16, 28, 34 and 40 also read for the searches below). Seeded: Title 9 Chapter 2 Article 29 (the department, the CIO), Article 25 (government electronic transactions) and Chapter 21 (agency data policies; the 2026 data privacy act). ETS's own page lists these other sections, left out:
+     - W.S. 40-21-118 (Acceptance and distribution of electronic records by governmental agencies) and 40-21-119 (Interoperability): sections of the Uniform Electronic Transactions Act chapter (Title 40, Chapter 21), which binds state agencies and directs ETS to make rules; non-IT chapter, section-level slice. OWNER DECISION on section-level slicing.
+     - W.S. 9-2-3219 through 9-2-3221 (Title 9, Chapter 2: 9-2-3219 'Definitions.', 9-2-3220 'Wyoming public finance and expenditure of funds website.', 9-2-3221 'Rulemaking authority.'; headings read in the title PDF): the public finance and expenditure of funds website act. The website is administered by the Department of Administration and Information, and 9-2-3220(g) reads 'The state chief information officer shall provide an annual report to the committee on all initiatives, projects and expenditures under this act.' (ETS's Legislative Reporting page publishes the matching 'Report on WY Public Finance Site' files.) A CIO reporting duty inside a non-IT act, section-level slice. OWNER DECISION on section-level slicing.
+     - W.S. 34-1-404 (Recording of documents) and 34-1-405 (Administration and standards): sections of the Uniform Real Property Electronic Recording Act (Title 34, Chapter 1, Article 4); 34-1-405 directs ETS to make rules for county clerks' electronic recording; counties are local government, so out of scope; same slicing owner decision.
+     - W.S. 9-2-2019 (Department of enterprise technology services created, as part of the reorganization; a reorganization-plan section of Chapter 2): creates the department by reference to the division of information technology; the department's own creation is in the seeded 9-2-2901.
+     - W.S. 9-2-117 (Office of rural health created; duties), 9-2-1005 (Payment of warrants; budget powers of governor), 9-2-1014 (Report required with budget request), 9-4-207 (Disposition of unexpended appropriations), 9-4-217 (Uniform state accounting system, with the payment processor provision cited in 9-2-2906), 28-1-115, 28-1-116 and 28-1-118 (agency plans, performance budgeting, revenue distribution reports), 7-19-201 (criminal history record information): budget, accounting, planning and personnel law; sections in non-IT chapters, not IT as a government function.
+     - W.S. 9-2-1104 (heading read in the title PDF: the public safety communications commission) and 9-12-1509 (heading read: advisory council; broadband coordinator): telecom and broadband, out of scope per domain.yml. W.S. 21-2-202 and 18-3-402: listed on ETS's page under 'Education' and 'Counties' (County Clerk); the Title 21 and Title 18 PDFs were not fetched, so these two were not read; education and local government are out of scope per domain.yml.
+     - W.S. 40-12-501 (breach of the security of the data system): reads 'maintained by a person or business'; it binds businesses and persons, not state agencies (state agency breach duties are in 9-21-101 and WyIT 2004).
+     - Enrolled Act No. 32, Senate (2026, SF0020), https://wyoleg.gov/2026/Enroll/SF0020.pdf: the session law that created 9-21-201 to 9-21-203, read in full. Its sections 3 and 4 are not in the codified chapter: section 3 directs the state chief information officer, with the state archivist, to develop sample policies by January 1, 2027; section 4 sets the effective dates of 9-21-203 for counties, cities and other entities (July 1, 2028 and July 1, 2029). Not seeded (a session law, not codified); OWNER DECISION if session-law text should enter.
+     No statute on the CIO or cybersecurity other than the above was found: the only security provisions in the ETS article are 9-2-2906(d)(iii) (data security and privacy standards) and the chapter 21 data policy duty. Searches of the title PDFs of titles 9, 16, 28, 34 and 40 for 'artificial intelligence' found no hit.
+- text: 'Artificial intelligence statutes. None binding state agencies was found. The 2026 session''s HB0091 (ban on government use of AI for social scoring and biometric identification) was introduced 2/10/2026 and referred to House Judiciary, which recommended amend and do pass 7-1; the digest''s last entry is ''2/23/2026 H COW: Did not consider for COW'', and https://wyoleg.gov/2026/Enroll/HB0091.pdf answers with an HTML page, not an enrolled act. Enrolled Act No. 32, House (HB0102, 2026) was read: it is criminal law (using AI to commit offenses, synthetic sexual material, AI and children, AI promoting self-harm), out of scope per domain.yml (deepfakes and AI crimes). The state''s AI instruments are the WyIT policies seeded (1005, 3023).'
+- text: 'Administrative rules: none seeded. The Secretary of State''s rules site (https://rules.wyo.gov/) answered the Fetcher (home page, Agencies.aspx 36,793 bytes) and Agencies.aspx lists ''Enterprise Technology Services (077)'' among 81 agencies, but the listing carries no link to any chapter, and the Administrative Code page (Search.aspx?mode=7, 33,603 bytes) is an empty search form that reads ''Results (0) No Results Found.'' Chapters appear only after a form is submitted (a search interface; the Fetcher makes GET requests and no site-internal endpoint was called), so no rule title, chapter number or text was confirmed in bytes. The statutes read direct ETS to make rules (W.S. 9-2-2501(c), 9-2-2906(g), 40-21-118(b), 34-1-405(a)), and web search (discovery only, nothing from it is used here) suggests ETS has chapters on electronic transactions. Reopens when a linked chapter page or a documented public listing for agency 077 is found; OWNER DECISION on whether a form-driven listing may be used. ETS''s own Statutes and Rules page links no rule chapters (it is watched).'
+- text: 'Executive orders. The Governor''s list is not readable: https://governor.wyo.gov/, /executive-orders, /news-and-media/executive-orders, /sitemap.xml and /robots.txt each answered HTTP 200 with the same 907-byte script shell (an empty app element), so no list and no filter could be read and no ''all governors'' check was possible. Orders were found through other official pages: Executive Order 2023-02 (CARE Team; seeded as a scan read by OCR). Left out: (a) Executive Order 2026-03, ''Data Centers the Wyoming Way'', linked from the Governor''s news bulletin https://content.govdelivery.com/accounts/WYGOV/bulletins/41a4346 to a 5-page Google Drive PDF with no text layer (pdftotext returns nothing); it directs executive branch agencies on permitting and coordination for large data center development, not state IT or AI as a government function (OWNER DECISION; it would need ocr: true). (b) Executive Order 2024-01 on foreign travel approval, left out as borderline (OWNER DECISION; the order governs approval of employees'' foreign travel, and the device and information security rules for such travel are in the seeded WyIT 3024). It is published in two places, both read through the Fetcher on 2026-11-12. (1) ETS''s own page https://ets.wyo.gov/cybersecurity/general-cybersecurity-practices/foreign-travel (367,108 bytes; it names the order as ''Executive Order 2024-01, Foreign Travel Approval'') links a separate 2-page Google Drive copy of the order alone (file id 1mdu2Utzq1fREV96dTrdRUmo06ytLqb_8, 742,735 bytes): both pages are 300-dpi page images with no text layer (pdftotext returns 2 bytes), so it is a scan that could enter like Executive Order 2023-02 with ocr: true if the owner rules it in scope. (2) The International Travel library page links ''Foreign Travel Approval (EO)'' to a 13-page PDF on sao.wyo.gov (the State Auditor''s site, 5,207,852 bytes): all 13 pages are 300-dpi page images under a publisher OCR text layer (pdfimages lists an image on every page). It bundles the January 16, 2024 memorandum from the Governor''s Chief of Staff, the order, the request form, an older WyIT-3024 signed by Interim CIO Timothy ''TR'' Sheehan, and a ''WyIT-3024-G International Travel Information Security Guideline'' that the current policy library does not list. No other executive order on state IT, cybersecurity, data or AI could be confirmed in bytes.'
+- text: 'Data privacy guides (https://ets.wyo.gov/data-privacy/data-privacy-for-government-entities, watched): two Google Docs guides, the Local Government Guide and the Wyoming Executive Branch Agencies guide, described on the page as a guide and enterprise policy template (WyIT-20xx) for the Data Privacy in Government Entities Act, effective July 1, 2027. They are templates and sample policies that entities may adopt or adapt, not yet numbered policies, so left out as templates; the agency guide is an OWNER DECISION if wanted before it becomes a numbered WyIT policy. The page''s statute compilation links point to the Legislature''s NXT gateway (not fetched).'
+- text: 'Dictionary web pages: https://ets.wyo.gov/resources/policies-standards/it-policy-dictionary/ (landing) and the letter pages a, b, c, d, e-h, i, j-o, p, q-r, s, t-z (11 Google Sites pages, fetched, HTTP 200): web copies of the definitions. The A page was compared with the A PDF: the wording is nearly identical but not word for word (for example one definition reads ''is'' on the page and ''are'' in the PDF), and the pages have no Mainframe part, so the PDFs the dictionary policy itself links are the documents of record and the pages are watched, not seeded.'
+- text: 'Other ETS pages read and left out as not instruments: Governance (Change Advisory Board, Wyoming Data Governance Council, GIS Advisory Board: descriptive pages of bodies, no charter file linked); Legislative Reporting (reports: the quality management model reports under W.S. 9-2-2906(b)(xiv), the federal program lists under 9-2-2906(o), the public finance site and PCI reports, bulk purchasing report); the 2026-2028 Strategic Plan (a strategy document); Cybersecurity pages including Incident Reporting, ChatGPT & AI, CARE Team and awareness campaigns (guidance and public information pages); Network Bids, services and maintenance pages (not policy). A separate employee site (etsresources.wyo.gov, itstateresources.wyo.gov) was linked from the ETS home page but not read.'

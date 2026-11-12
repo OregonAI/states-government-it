@@ -1,0 +1,208 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-po1013
+title: Data Protection and Backup Policy
+doc_type: policy
+citation: WVOT-PO1013
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1IL0qguGAHQydBWvfSAQH6QzLQ8JY7HrE
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 365408383fbd7b2dae4dd0660f46639bd5acd8ab11a3374e42e42877a4446154
+effective_date: null
+source_version: Revised 10/01/2026
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as
+  extracted. source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Data Protection and Backup Policy (WVOT-PO1013)
+
+## At a glance
+
+Standard requirements for availability, protection and backup of data on the state's executive domain.
+
+## Full text
+
+I​ssued by the​                                                        ​Data Protection and Backup Policy​
+ ​Chief Information Officer​                                                               ​WVOT-PO1013​
+
+                                                                                                     ​ 4/13/2010​
+                                                                                                     0
+                                                                                            ​Revised 10/01/2026​
+                                                                                       ​OPR: WVOT Datacenter​
+                         ​COMPLIANCE WITH THIS POLICY IS MANDATORY​
+
+​ uestions​ ​and​ ​change​ ​recommendations​ ​related​ ​to​ ​this​ ​publication​ ​shall​ ​be​ ​directed​ ​to​ ​this​
+Q
+​publication's​ ​Office​ ​of​ ​Primary​ ​Responsibility​ ​(OPR).​ ​This​​policy​​shall​​be​​reviewed​​annually​​to​
+ ​ensure​ ​continued​ ​alignment​ ​with​ ​current​ ​legal,​ ​operational,​ ​and​ ​strategic​ ​requirements.​
+  ​Revisions will be undertaken as necessary.​
+
+​SUMMARY OF VERSIONS AND CHANGES​
+ ​Date​            ​Revision Description​
+
+ ​7/1/2015​        ​Added Change Log History and Policy Specific Definitions​
+
+ ​9/1/2016​        ​Policy Review - No Changes​
+
+ ​10/20/2017​ ​Policy Review - No Changes​
+
+ ​12/28/2023​ ​Updated WVOT policies link and added information for Appendix A in par. 3.1.4​
+
+ ​9/17/2025​       ​ ame​ ​changed​ ​from​ ​Data​ ​Retention​ ​to​ ​Data​ ​Protection​ ​and​ ​Backup.​
+                   N
+                   ​Reformatted​ ​to​ ​match​ ​the​ ​new​​policy​​template.​ ​Para.​​3.1.2,​​3.1.2.1,​​and​​3.1.6​
+                    ​added or substantially changed. All mainframe references removed.​
+
+ ​10/01/2026​ D
+              ​ eleted​ ​3.1.2.1​ ​and​ ​3.1.9​ ​because​ ​of​ ​redundant​ ​language​ ​and​ ​made​ ​minor​
+              ​administrative updates.​
+
+​1.0 PURPOSE​
+
+          ​ .1​ ​This​ ​policy​ ​establishes​ ​standardized​ ​requirements​ ​and​ ​expectations​ ​for​ ​availability,​
+          1
+          ​protection, and backup of data on the State of West Virginia’s executive domain.​
+
+​2.0 SCOPE​
+
+           ​ .1​
+           2         ​This​ ​policy​ ​applies​ ​to​ ​all​ ​departments​ ​(including​ ​agencies,​ ​boards,​ ​authorities,​
+           ​and​ ​commissions)​ ​within​ ​the​ ​Executive​ ​Branch​ ​of​ ​WV​ ​State​ ​Government,​ ​excluding​
+            ​constitutional​​officers,​​the​​WV​​Board​​of​​Education,​​the​​WV​​Department​​of​​Education,​​and​
+          ​the county boards of education that have access to or use State-provided resources.​
+
+           ​ .2​
+           2        ​This​ ​policy​ ​supersedes​ ​any​ ​policy​ ​in​ ​place​ ​that​ ​provides​ ​less​ ​restrictions​ ​or​
+           ​reduced​ ​security.If​ ​existing​ ​state​ ​and​ ​federal​ ​laws,​ ​regulations,​ ​and​ ​policies​ ​are​ ​more​
+          ​restrictive than this policy, those more restrictive provisions will prevail.​
+
+                                                     ​Page​​1​​of 3​
+
+                          ​Data Protection And Backup​
+​WVOT-PO1013                     Issue Date: 04/13/2010                        Revised: 10/01/2026​
+
+​3.0 POLICY​
+
+      ​3.1 Server Backup and Recovery​
+
+               ​ .1.1 WVOT utilizes an enterprise data backup system to ensure that agency​
+               3
+               ​programs, files, and datasets are properly backed up and retained.​
+
+               ​ .1.2 All data that is essential to the continuity of agency operations must be​
+               3
+               ​identified by the owning agency and a backup service request must be submitted​
+                ​to The Office of Technology via the WVOT Self Support Portal. Non-critical data​
+                 ​that an agency elects to have backed up must follow the same request process​
+                  ​as critical data.​
+
+                      ​ .1.2.2 Agencies with special backup needs exceeding the requirements​
+                      3
+                      ​of this policy will be identified through technical risk analysis, and will be​
+                       ​accommodated on a case-by-case basis.​
+
+                      ​ .1.2.3 Agencies will be charged for storage at the rate defined in the​
+                      3
+                      ​WVOT rates catalog.​
+
+               ​ .1.4 Server data backups will be performed based on recovery point objectives.​
+               3
+               ​(See Attachment A in PO1006 for information on Business Criticality Classes.) If​
+                ​the agency has not defined recovery point objectives, the standard default for​
+                 ​data backup will be nightly.​
+
+               ​ .1.5 WVOT will monitor backups, address technical issues related to server data​
+               3
+               ​backup, and notify agencies of instances when information has not been​
+                ​backed-up according to plan. However, agencies must test to ensure that the​
+                 ​backed-up data is accurate and complete.​
+
+               ​ .1.6 The WVOT only supports backup operations for hardware and software that​
+               3
+               ​are currently within their supported lifecycle.Backup and restore operations for​
+                ​hardware or software that have reached end-of-life status may be attempted on a​
+                 ​best-effort basis, with no guarantee of success or support.​
+
+               ​ .1.7 Agency personnel requesting data recovery and restoration must contact​
+               3
+               ​the WVOT Service Desk either by phone at (304) 558-9966 or by email at​
+                ​servicedesk@wv.gov​ ​All requests are logged and tracked​​in the incident​
+                 ​management system.​
+
+               ​ .1.8 Data server backup and recovery efforts do not provide disaster recovery​
+               3
+               ​services. Additional arrangements must be made for full restoration of operating​
+                ​systems, directory services, etc.​
+
+                                            ​Page​​2​​of 3​
+
+                        ​Data Protection And Backup​
+​WVOT-PO1013                    Issue Date: 04/13/2010                      Revised: 10/01/2026​
+
+     ​3.4 Backup Modifications/Schedule Configuration Changes​
+
+            ​ .4.1 Modifications to the supported environment will be determined between the​
+            3
+            ​agency and the WVOT prior to implementation. WVOT will perform upgrades to​
+             ​the system, when required, and notify the agency of any changes.​
+
+​4.0 POLICY-SPECIFIC DEFINITIONS​
+     ​ .1 Employee – Individuals retained and authorized on a temporary, part-time, full-time,​
+     4
+     ​or permanent basis by the State of West Virginia to perform a service. For the purposes​
+      ​of information technology and security policy, the term “employee” shall include, but not​
+       ​be limited to, the following: contractors, subcontractors, contractors’ employees,​
+        ​volunteers, county health department staff, business associates, and any other persons​
+         ​who are determined and notified by the WVOT to be subject to this policy. This definition​
+          ​does not create any additional rights or duties.​
+
+     ​4.2​​Chief Information Officer (CIO) - the person designated​​by the governor to​
+     l​ead the WV Office of Technology and oversee information technology practices​
+      ​and initiatives for the Executive Brand of WV State government, excluding the​
+       ​constitutional officers.​
+
+     ​4.3​​Office of Primary Responsibility or (OPR) - The​​primary section within WVOT​
+     t​hat takes the lead on a specific policy or procedure. Usually the WVOT service​
+      ​provider/owner that the policy is related to or governs.​
+
+     ​4.4 User – A person authorized to access an information resource.​
+
+     ​ .5 West Virginia Office of Technology (WVOT) - The division of the Department of​
+     4
+     ​Administration established by WV Code § 5A-6,​​et.​​seq.,​​which is led by the State’s CIO.​
+
+​5.0 RELEVANT MATERIALS AND DOCUMENTS​
+
+     ​5.1​​WV Code § 5A-6.​
+     ​https://code.wvlegislature.gov/5A-6/​
+
+     ​5.2​​WVOT Policies Issued by the Chief Information​​Officer (CIO)​
+     ​https://technology.wv.gov/​
+
+                                          ​Page​​3​​of 3​
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Google Drive's PDF puts a zero-width space (U+200B) around runs of text; they are kept as extracted. source_version is the revision or issue date the policy prints, as printed.

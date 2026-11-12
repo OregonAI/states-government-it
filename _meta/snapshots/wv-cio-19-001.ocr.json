@@ -1,0 +1,86 @@
+{
+  "agreement": 0.9866,
+  "dict_ratio": 0.9759,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "JimJustice Governor",
+      "tesseract": "him Justice Goveimor"
+    },
+    {
+      "before": [
+        "Deputy",
+        "Chief",
+        "of",
+        "Staff"
+      ],
+      "paddle": "Am",
+      "tesseract": "yw"
+    },
+    {
+      "before": [
+        "the",
+        "Chief",
+        "Technology",
+        "Officer"
+      ],
+      "paddle": "I",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "have",
+        "some",
+        "type",
+        "of"
+      ],
+      "paddle": "urgent time",
+      "tesseract": "urgenttime"
+    },
+    {
+      "before": [
+        "exempted",
+        "from",
+        "this",
+        "policy"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "policy",
+        "e",
+        "Higher",
+        "Education"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 1.0,
+  "figures": 15,
+  "forced_rotation": false,
+  "glued": 0,
+  "ocr_page_texts": [
+    "him Justice\n\nGoveimor of West Virginia\n\nMEMORANDUM\nTO: Governor's Cabinet Secretaries\nExecutive Branch Agency Heads\n\\\nFROM: Ann Urling, Deputy Chief of Staff yw\nDATE: December 4, 2018\nRE: Strategic Review of Technology Procurements\n\nAs a follow-up to Governor Justice\u2019s announcement last week that Josh Spence, one of the leading\ncybersecurity experts in the nation, is now leading our Office of Technology as the Chief Technology Officer,\n| wanted to iet you know that we are going to need your assistance as we work to build a much more\nsecure statewide network which will include a cybersecurity plan to be created for and utilized by all of\nstate government.\n\nIn recognition of the significant cyber threat facing state government technology & data, the need to improve\ncost-efficiencies, and enhance the value of technology investments, effective immediately, the Office of\nTechnology will be conducting a strategic review of all technology procurements.\n\nThis review will be applicable to all state entities and incorporated into the existing Chief Technology\nOfficer (CTO) review process. All agencies wiil need to route technology procurements, meeting the\nreview scope to Consulting.Services@wv.gov.\n\nProcessing of the transaction will not proceed until the review has been completed and the transaction\napproved. This review will include the following scope and evaluation criteria.\n\nReview Scope: All technology procurements, change orders, and release orders from statewide contracts\nwith an estimated aggregate cost of $250,000 or greater.\n\nEvaluation Criteria: Does the procurement's purpose directly relate to the implementation, maintenance,\nor enhancement of:\n\n1. Cybersecurity technology or services\n\n2. Information technology (IT) data centers\n3. IT network infrastructure\n\n4. IT server & data storage technology\n\n5. IT enterprise technology or services\n\nState Capitol | 1900 Kanawha Blvd., East, Charleston, WV 25305 | (304) 558-2000",
+    "OFFICE OF THE GOVERNOR\nCabinet Secretaries\nAgency Heads\nPage Two\nDecember 4, 2018\n\nEmergency Situation: If you have some type of urgenttime sensitive technology-related\npurchase/renewal, the CTO will work to assist you as we work to incorporate this into our long-term plan\nfor the state.\n\nWe appreciate your cooperation and understanding as we implement this new process to assess our\nsystem security vulnerabilities and create a secure environment that is essential to protect vital information\nwithin our State.\n\nThe following organizations are exempted from this policy.\n\ne Higher Education\ne Department of Education\n\nPlease let me know if you have any questions or concerns."
+  ],
+  "paddle_sha256": "ec75c0b21c766fb7859801a5fd4b041aa28cd541b9b8f408e3a005b7f2fd857e",
+  "pages": [
+    7,
+    8
+  ],
+  "pdf_sha256": "6ba9a33db0419a062a76945c7ffad81eba74c521aca06807abbf060016adccbd",
+  "psm": null,
+  "text_sha256": "1910ff18d8ab6035978553a7d63a4c703098d7f4a4877f9ae098faf219097c4e",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 374
+}

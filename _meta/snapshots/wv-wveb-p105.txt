@@ -1,0 +1,204 @@
+   West Virginia Executive Branch
+   Privacy Policy: Notice
+   Issued By: Sonia Chambers
+             West Virginia Health Care Authority
+
+   Policy No: WVEB-P105 Issue Date: 01/30/09 Effective Date: 08/01/09 Rev.Date:        Page 1 of 5
+
+1.0 PRIVACY PRINCIPLE SUBJECT TO THIS POLICY
+   Notice – Departments shall be open regarding the authority for collecting personally
+   identifiable information (PII); the purpose of the collection; the location of the entity
+   maintaining the PII; with whom the PII may be shared and why; rights an individual has
+   in PII; and the Department’s policies, procedures, standards, and practices with regard
+   to PII.
+
+2.0 POLICY STANDARDS
+   2.1    Departments that collect personally identifiable information (PII) directly from an
+          individual shall have a privacy notice. This privacy notice shall contain (at
+          minimum): a description of the information collected by the Department, the
+          source(s) of that information if not from the individuals themselves, a statement
+          regarding the purposes for the PII collection, how the PII will be used, types of
+          entitles to whom the PII may be disclosed, the individual’s rights and choices (if
+          any), where the information is maintained. The notice will also provide a
+          statement that the PII will be appropriately secured.
+
+          Departments should use reasonable efforts to draft notices using simple
+          language. Other efforts, such as use of color and layout, should be made to
+          ensure that the notices are understandable and accessible to the intended
+          readers. If desired, Departments may use layered or highlights notice templates
+          to improve readability and better communicate the notice contents.
+
+   2.2    Delivering Notice: Notice shall always be provided to an individual upon request.
+          Additionally, each Department shall deliver notices to individuals as required by
+          applicable laws, and in the appropriate accessible format. Where a Department
+          collects PII from an individual, it shall place its privacy notice on its website, if it
+          has one.
+
+   2.3    Specific Notice Requirements: There are additional notice requirements required
+          by law based on certain circumstances. Departments must ensure that their
+          notices meet these requirements as well, if applicable.
+
+West Virginia Executive Branch
+Privacy Policy: Notice
+Issued By: Sonia Chambers
+          West Virginia Health Care Authority
+
+Policy No: WVEB-P105 Issue Date: 01/30/09 Effective Date: 08/01/09 Rev.Date:      Page 2 of 5
+
+       2.3.1 Social Security Numbers: If a Department seeks an individual’s social
+             security number (SSN) to provide benefits and services, the Department
+             provides a privacy notice which will: disclose the federal or state legal
+             authority under which it is collecting the individual’s SSN, explain the uses
+             that will be made of the individual’s SSN and inform the individual whether
+             the disclosure is voluntary or mandatory, by what statutory or other
+             authority such number is solicited and what uses will be made of it.
+
+              a)      If a Department ties the individual’s disclosure of his or her SSN, for
+                      use on a third party’s form, to a right, benefit or privilege, and the
+                      disclosure is mandated by federal law or the disclosure is to any
+                      federal, state or local agency maintaining a system of records in
+                      existence and operating before January 1,1975, when such
+                      disclosure was required under statute or regulation adopted prior to
+                      such date to verify the identity of an individual; then the
+                      Department must ensure that the individual is provided with a
+                      Privacy Act notice indicating that the disclosure is mandatory
+                      and that failure to provide the SSN may result in the denial of
+                      an application, benefit, or service.
+
+              b)      If a Department provides an individual with a third party’s form
+                      where the disclosure of the SSN is voluntary, the Department must
+                      ensure that the individual has notice that the disclosure is voluntary.
+
+       2.3.2 HIPAA Covered Entities: If a Department is a covered entity not otherwise
+             exempt from application of the HIPAA Privacy Rule, the Department shall
+             provide notice in plain language, at least once every three years. The
+             notice shall include an effective date and must be promptly revised and re-
+             distributed if there is a material change to any of its privacy practices. The
+             notice describes how the Department may use and disclose PHI; the
+             individual’s rights with respect to the PHI and how the individual may
+             exercise these rights, including how to make a complaint to the covered
+             entity; and whom individuals contact for further information about the
+             covered entity’s privacy policies. See HIPAA Notice
+
+       2.3.3 Financial Institutions and Receipt of Information from Financial Institutions:
+             If a Department qualifies as a financial institution because it is significantly
+
+West Virginia Executive Branch
+Privacy Policy: Notice
+Issued By: Sonia Chambers
+          West Virginia Health Care Authority
+
+Policy No: WVEB-P105 Issue Date: 01/30/09 Effective Date: 08/01/09 Rev.Date:       Page 3 of 5
+
+              engaged in financial activity, it must protect non-public personal
+              information (NPPI). The Department must provide annual notice in
+              writing of its privacy practices to its customers with whom it has on-going
+              relationships, and notice to its customers when the Department shares the
+              customer’s NPPI with unaffiliated entities. Notice may be provided
+              electronically if the customer agrees. The privacy notice must be a clear,
+              conspicuous, and accurate statement of the privacy practices. It should
+              include what information is collected about its customers, with whom it
+              shares the information, and how it protects or safeguards the information.
+              It must also provide an opt-out provision to prevent sharing of NPPI with
+              unaffiliated third-parties except as may otherwise be permitted by law.
+
+              a)      The Department’s delivery of the notice must meet the standard of
+                      reasonable expectation that the notice will be received.
+
+              b)      Note: If a Department receives NPPI from an outside financial
+                      institution, the ability to reuse and re-disclose the NPPI is limited by
+                      the requirements of the outside financial institution, regardless of
+                      whether the Department is a financial institution or not.
+
+       2.3.4 Children: Each Department that provides online services directed to
+             children under thirteen (13) years of age and collects information from
+             children shall post a privacy notice on the homepage of the website and a
+             link to the privacy policy on every page where PII may be collected. The
+             notice must:
+
+              a)      Be directed to parents and state the site’s information collection
+                      practices.
+
+              b)      Advise that the Department or operator must obtain verifiable
+                      parental consent before collecting PII from children.
+
+              c)      Inform parents of their choice as to whether their child’s PII will be
+                      disclosed to third parties; and
+
+West Virginia Executive Branch
+Privacy Policy: Notice
+Issued By: Sonia Chambers
+          West Virginia Health Care Authority
+
+Policy No: WVEB-P105 Issue Date: 01/30/09 Effective Date: 08/01/09 Rev.Date:       Page 4 of 5
+
+              d)      Advise parents of their right to access their child’s PII with the
+                      opportunity to delete the child’s PII and to opt-out of future
+                      collection or use of the information.
+
+       2.3.5 Electronic transactions: Electronic transactions directly with individuals
+             require clear and conspicuous notice to the individual. The notice includes
+             the right of an individual to give or refuse to conduct a transaction
+             electronically; how the individual gives consent, and an explanation of
+             whether the consent applies (i) only to a particular transaction; or (ii) to a
+             group of transactions during the course of the relationship. If the consent
+             is intended to cover multiple transactions, then the individual must be
+             informed that consent to one transaction does not result in the individual’s
+             giving up the right to refuse to consent to conduct subsequent transactions
+             electronically.
+
+              a)      If a law, regulation, rule or case law requires that information
+                      related to a transaction be “in writing;” a transaction may
+                      nevertheless still be conducted electronically as long as the
+                      individual gives consent following receipt of clear and conspicuous
+                      notice of the following:
+
+                      i)      Right or option to have the record provided or made
+                              available in non-electronic form.
+                      ii)     Right or option to withdraw the consent for the electronic
+                              transaction, how that can be done, and any conditions or
+                              consequences, which may include termination of the parties'
+                              relationship, or fees in the event of such withdrawal.
+                       iii)   Information as to whether the consent applies only to a
+                              particular transaction or to categories of records that may be
+                              provided or made available.
+                       iv)    Information as to how, after consent, the individual may,
+                              upon request, (i) obtain a paper copy of an electronic
+                              record; and (ii) whether any fee will be charged for such
+                              copy.
+                      v)      Information as to the hardware and software requirements
+                              for access to and retention of the electronic records; and
+
+   West Virginia Executive Branch
+   Privacy Policy: Notice
+   Issued By: Sonia Chambers
+             West Virginia Health Care Authority
+
+   Policy No: WVEB-P105 Issue Date: 01/30/09 Effective Date: 08/01/09 Rev.Date:       Page 5 of 5
+
+                 vi)     Reasonable demonstration that the individual can access
+                         information in the electronic form that will be used to provide the
+                         information that is the subject of the consent.
+                  vii)   After consent has been obtained, if there are material changes in
+                         the Department’s hardware and software, such that there is a
+                         material risk that the individual will not be able to access or retain a
+                         subsequent electronic record that was the subject of the consent,
+                         then the individual must be provided notice of the revised hardware
+                         and software, and of the right to withdraw consent.
+
+3.0 PROCEDURE
+   3.1    Departments shall review existing notices (in any format) and shall create new
+          notices, as needed, to assure compliance with this Policy.
+
+   3.2    Departments shall create a website notice of privacy practices where needed,
+          which notice shall comply with these policies, as well as Department-specific
+          business practices, laws, contracts, or grants.
+
+4.0 PRIVACY REQUIREMENTS AND REFERENCES
+   The following laws may impose additional requirements upon Executive Branch
+   Departments with respect to the principle of notice. To the extent these laws may apply
+   to a given Executive Branch Department, legal counsel should be consulted to
+   determine what may apply and in what manner. These laws should be reviewed in
+   conjunction with other applicable state and federal laws, rules, these policies, as well as
+   Department-specific business practices, contracts, or grants. Laws may be found in our
+   Privacy Requirements.

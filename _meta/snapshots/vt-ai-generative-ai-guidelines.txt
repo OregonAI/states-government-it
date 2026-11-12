@@ -1,0 +1,248 @@
+Guidelines for Use of Generative AI
+Agency of Digital Services — Division of Artificial Intelligence
+Last Updated: July 1, 2026
+
+Purpose and Scope
+Pursuant to 3 V.S.A. § 5022, the Division of Artificial Intelligence (AI) has reviewed the
+capabilities of currently-available generative AI tools, including large language models (LLMs)
+such as ChatGPT, Gemini, Copilot, and LLaMA, as well as other AI-powered modalities such as
+meeting assistants, transcription tools, and AI features embedded within third-party applications.
+The Division is issuing the following guidance for State employees who wish to use these tools
+in the performance of their official duties.
+
+Use of generative AI tools for official duties is acceptable subject to the limitations described
+below. ADS will update these guidelines as technologies evolve, and Departments or Agencies
+may issue more restrictive guidelines at their discretion.
+
+Key Definitions and Tool Categories
+For the purposes of these guidelines, the following categories of tools are distinguished:
+
+Public AI Tools: Externally hosted, publicly available AI tools and services, including
+consumer-facing LLM chatbots (e.g., ChatGPT, Gemini), AI meeting assistants hosted by third-
+party vendors (e.g., Fireflies.ai), and AI features embedded in third-party applications where
+data is processed on external servers. Non-public information may not be entered into or
+processed by public AI tools.
+
+Internal AI Tools: Secure AI tools hosted on the State’s internal network and limited to access
+by SoV employees only, such as ChatVT. These tools are pre-approved for general employee
+use and may be used with most types of sensitive or confidential State data, except for Federal
+Tax Information (FTI), MARS-E regulated data, and Criminal Justice Information Services
+(CJIS) data.
+
+Capabilities
+Generative AI tools offer assistance across a broad range of modalities, including:
+
+   •   Text generation and editing: drafting correspondence, policy documents, summaries,
+       and code
+   •   Visual content generation: creating images and graphics
+   •   Meeting assistance: real-time transcription, summarization, and action item extraction
+       during calls and meetings
+   •   Embedded AI features: AI-powered tools built into productivity applications (e.g.,
+       grammar and drafting assistants, AI search, automated workflows)
+
+These tools can be powerful in a document and correspondence-heavy organization.
+Generative AI shifts the content generation process to focus on developing ideas and refining
+outputs rather than the mechanics of writing or transcription. This can result in better quality
+content with lower overall effort.
+
+Usage Guidelines
+The following guidelines apply to all generative AI tools used for official State business.
+Additional considerations specific to certain tool categories are addressed in subsequent
+sections.
+
+   1. Compliance with Policy: Employees must use generative AI tools in accordance with
+      State Personnel Policy 11.7, the AI Code of Ethics, and these guidelines.
+
+   2. Supervisory Approval: Employees must obtain supervisory approval before using any
+      AI tool for official State business. Supervisors may consult with the Director of AI or their
+      ADS IT Lead when evaluating whether a particular use is acceptable.
+
+   3. Restrictions on Non-Public Information in Public AI Tools: Employees may not input
+      or transmit non-public information into or through public AI tools. All information
+      submitted to a public AI tool should be treated as potentially public. This restriction
+      applies regardless of the modality — whether a chatbot, a meeting assistant, or an
+      embedded application feature. The following is a non-exhaustive list of information that
+      may not be used with public AI tools:
+           ◦ Confidential or privileged information or communications
+           ◦ Personally identifying information (PII)
+           ◦ Protected health information (PHI)
+           ◦ Code containing passwords or secrets
+           ◦ Information that has the potential to erode trust in Vermont’s institutions
+
+Note on ChatVT: As an internal tool, ChatVT is pre-approved for use with most sensitive and
+confidential State data. The above data restrictions do not apply to ChatVT, except that FTI,
+MARS-E regulated data, and CJIS data may not be processed in ChatVT.
+
+   4. Free Tools Only (Public AI): With the above restrictions, this policy enables employees
+      to use publicly available AI tools offered free of charge. Employees may not individually
+      pay for AI services or sign up for services requiring payment using State resources. Any
+      procurement of AI products must go through the mandated State procurement
+      processes. Specific public generative AI tools may be conditionally approved for use by
+      the Director of Artificial Intelligence if those tools are purchased under an ADS-held
+      contract that meets required data and security criteria.
+
+   5. Accuracy and Verification: Employees must ensure the accuracy of all content
+      produced with AI assistance. Generative AI may produce content that is incorrect,
+      outdated, or fictitious, and such errors may not be readily apparent. All AI-generated
+      content must be reviewed for accuracy, veracity, and completeness, as with any other
+      source of information.
+
+   6. Employee Responsibility: Employees using AI tools remain responsible for their work
+      product regardless of what portion was produced by AI. AI tools have demonstrated
+      biases which can negatively impact groups or individuals. All content must be reviewed
+      for accuracy, completeness, and alignment with Vermont’s values.
+
+   7. Use of State Accounts: When using a public AI tool that requires account registration,
+      employees must register and log in using their State email address only. Official
+
+       business may not be conducted using an account established with a personal email
+       address.
+
+   8. Reputational Risk: Employees must not use AI tools in any way that could cause
+      reputational harm to the State if it were known.
+
+   9. Supplemental, Not Relied Upon: While it is acceptable to use AI tools to assist with
+      official job duties, employees should not develop reliance on them — particularly free
+      public tools, which may have unforeseen downtime, pricing changes, or discontinuation.
+      Treat AI assistance as an optional enhancement. If there is an opportunity to make
+      generative AI a part of a standard work process, ADS and the AI Director will assist with
+      procuring and implementing a robust, institutionally supported solution.
+
+   10. Intellectual Property: Employees may not use AI tools in any way that infringes on the
+       intellectual property rights of others.
+
+AI Meeting Assistants and Transcription Tools
+Third-party AI meeting assistants — including tools that transcribe, summarize, or extract action
+items from calls and meetings — present privacy and security considerations, especially when
+external participants are present.
+
+Employee Authority
+State employees are authorized to prohibit or require the removal of third-party AI meeting tools
+during any call or meeting that may involve sensitive or non-public information. Employees may
+exercise this authority:
+    • Before a meeting begins, as a condition of participation
+    • During a meeting, at any time, without requiring additional approval
+    • Regardless of whether the meeting is internal or includes external parties
+
+Responsibilities
+Employees and meeting organizers using or enabling AI meeting tools must ensure that:
+  • Any third-party meeting assistant is appropriate for the sensitivity of content to be
+      discussed, consistent with Section 3 above
+  • External participants are informed of the State’s policy on AI tool usage before or at the
+      start of the meeting
+  • Existing procedures for maintaining official records of meetings are followed where
+      applicable (e.g., standard protocols for recording and publishing public meetings)
+  • Transcripts, summaries, or other AI-generated meeting records are treated as official
+      records subject to applicable retention and disclosure requirements
+
+Key Risks
+Employees should be aware of the following risks when considering whether to permit AI
+meeting tools:
+
+   •   Data Exposure: Audio and text data may be transmitted to external servers for
+       processing, creating potential exposure of sensitive information outside SoV-controlled
+       environments.
+   •   Unverified Control: Employees often lack direct administrative control or visibility into
+       whether these tools have stopped recording or processing data.
+
+   •   Retention and Secondary Use: Vendors may retain transcripts or audio data for
+       extended periods and use them for purposes such as model training, increasing risk of
+       unauthorized disclosure.
+   •   Compliance Risks: Use of external AI tools may conflict with state privacy laws,
+       contractual obligations, or public records requirements.
+Note on Accessibility Use Cases: AI tools may be used for transcription, translation, and
+captioning in support of accessibility needs (e.g., providing captions for public meetings,
+translating materials for limited-English-proficient audiences). These uses are generally
+acceptable, but require human review and citation prior to distribution. Where resources allow,
+human-generated transcription, translation, or captioning is preferable.
+
+AI Features Embedded in Third-Party Applications
+Many productivity and business applications now include embedded AI features, such as AI-
+assisted drafting, smart summarization, automated classification, or AI-powered search. The
+same overarching principle applies: employees are responsible for ensuring that any AI feature
+they enable or use processes non-public data only through approved, secure channels.
+
+Before enabling an embedded AI feature in a third-party application, employees should confirm:
+
+   •   Whether the feature transmits data to external servers
+   •   Whether the data to be processed is appropriate for that tool under Section 3 of these
+       guidelines
+   •   That supervisory approval has been obtained
+
+Employees uncertain about the data handling practices of an embedded AI feature should
+consult with their ADS IT Lead or the Director of Artificial Intelligence.
+
+Acceptable Use and Citation Requirements
+To maintain public trust and meet the transparency requirements of the AI Code of Ethics,
+employees must appropriately disclose the use of AI-generated content where indicated below.
+These requirements apply regardless of the AI modality used (chatbot, meeting assistant,
+embedded tool, etc.).
+
+If there are questions about where a particular use case falls, supervisors and employees may
+consult with their IT Lead or the Director of AI.
+
+Standard Citation Format
+   This content was [drafted / edited / translated / summarized] with the assistance of a generative
+   artificial intelligence tool [name tool]. The content has been reviewed and verified to be accurate and
+   complete, and represents the intent of [office / department / the State / person’s name].
+
+Emergency Translation Citation Format
+   This content was translated with the assistance of a generative artificial intelligence [Google
+   Translate / Azure AI]. The content has NOT YET been reviewed and verified but will be as soon as
+   possible. This notice will be updated once the review is complete. For any questions about this
+   content or to report confusing or conflicting text, please contact [office-email@vermont.gov].
+
+Acceptable Use Matrix
+The following matrix indicates when citation is required based on the type of content and the
+extent of AI involvement. As a practical guide, consider the following question: “If I were drafting
+this product with a human, at what point would I need to give them credit?”
+
+Column headers reflect increasing levels of AI involvement:
+ Proofreading                                               AI reviewed for grammar, spelling, or clarity only;
+                                                            content and substance are entirely human-generated.
+ Brainstorming                                              AI assisted with generating ideas or an initial draft, but
+                                                            the employee is the primary author.
+ Collaborating                                              AI directly introduced facts, information, or substantive
+                                                            content into the work product.
+ Human Editing                                              AI produced a substantial draft that the employee then
+                                                            reviewed, edited, and verified.
+ 100% AI                                                    Content was generated entirely by AI with no
+                                                            substantive human drafting contribution.
+
+      Breadth of                         Brainstormin                           Human
+                        Proofreading                        Collaborating                      100% AI
+      Distribution                            g                                 Editing
+
+ Press release,
+                                ✓                 ✓              Cite              ✗               ✗
+ prepared remarks
+
+ Replies to public
+                                ✓                 ✓              Cite              ✗               ✗
+ inquiry
+
+ Public-facing web
+                                ✓                 ✓              Cite             Cite             ✗
+ content
+
+ Memos, broad
+ internal                       ✓                 ✓              Cite             Cite             ✗
+ communications
+
+ Internal process
+                                ✓                 ✓               ✓               Cite             ✗
+ docs
+
+ Source code                    ✓                 ✓               ✓               Cite             ✗
+
+ Emails                         ✓                 ✓               ✓               Cite            Cite
+
+ Chat                           ✓                 ✓               ✓               Cite            Cite
+
+  ✓     No citation needed; supervisor approval       Cite Citation required; supervisor approval
+        required                                           required
+  ✗     Use is not acceptable
+
+Note on AI-Generated Images: AI-generated images in public-facing documents, websites,
+and materials should be avoided unless there is no viable alternative (stock imagery, etc.). Any
+AI-generated imagery must be cited, regardless of content type or level of AI involvement.

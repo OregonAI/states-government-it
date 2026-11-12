@@ -1,0 +1,230 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: west-virginia
+id: wv-wvot-po1010
+title: Acceptable Use of Instant Messaging
+doc_type: policy
+citation: WVOT-PO1010
+authority_level: ''
+issuing_body: West Virginia Office of Technology (Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1u_mJ1xFgF0E58o6-9RwS5kFwQW1z7-jM
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 799be698a6b4b25e22dc910616d0807b5f0cf546d0a85dee9a22ef4eb3ac6418
+effective_date: null
+source_version: Revised 12/28/2023
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). source_version is the revision or issue date the policy prints, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Acceptable Use of Instant Messaging (WVOT-PO1010)
+
+## At a glance
+
+Use of state-approved instant messaging systems: limits, protection of state information, privacy considerations. The index marks it 'Under Review'; it is still the published policy, so it is held.
+
+## Full text
+
+                   State of West Virginia Office of Technology Policy:
+                   Acceptable Use of Instant Messaging
+                   Issued by the CTO
+ Policy No: WVOT-PO1010          Issued: 11/24/2009        Revised: 12/28/2023      Page 1 of 5
+
+1.0    PURPOSE
+This policy details the use of State-approved instant messaging (IM) systems and is intended to:
+
+   ●   Describe the limitations of the use of this technology;
+   ●   Discuss protection of State information;
+   ●   Describe privacy considerations when using the IM system; and
+   ●   Outline the applicable rules applied when using the State-provided system.
+
+This document is not all-inclusive and the WVOT has the authority and discretion to
+appropriately address any unacceptable behavior and/or practice not specifically mentioned
+herein.
+
+2.0    SCOPE
+This policy applies to all employees within the Executive Branch using the State-approved IM
+systems, unless classified as “exempt” in West Virginia Code Section 5A-6-8, “Exemptions.”
+The State’s users are expected to be familiar with and to comply with this policy, and are also
+required to use their common sense and exercise their good judgment while using Instant
+Messaging services.
+
+3.0    POLICY
+       3.1    State-provided IM is appropriate for informal business use only. Examples of this
+              include, but may not be limited to the following:
+
+              3.1.1 When “real time” questions, interactions, and clarification are needed;
+
+              3.1.2 For immediate response;
+
+              3.1.3 For brainstorming sessions among groups;
+
+              3.1.4 To reduce chances of misunderstanding;
+
+              3.1.5 To reduce the need for telephone and “email tag.”
+
+Policy: Acceptable Use of Instant Messaging
+State of West Virginia Office of Technology
+ Policy No: WVOT-PO1010           Issued: 11/24/2009       Revised: 12/28/2023   Page 2 of 5
+
+    3.2    Employees must only use State-approved instant messaging. Employees are
+           prohibited from downloading and using personal, consumer-grade IM software
+           (e.g. AOL Instant Messenger, Yahoo) to transmit messages, unless specifically
+           approved by WVOT.
+
+    3.3    The State reserves the right to monitor and/or keep a record of all IM
+           communications without prior notice. Employees should have no expectation
+           of privacy in the use of State-provided IM systems.
+
+    3.4    Employees may not use IM to transmit confidential, proprietary, personal, or
+           potentially embarrassing information about the State, its employees, citizens,
+           business associates, the media, or other third parties.
+
+    3.5    No sensitive information, including Federal Tax Information (FTI) and Personally
+           Identifiable Information (PII) may be shared through Instant Messaging.
+
+    3.6    Employees may not use IM to transmit personal information related to an
+           individual’s health status, including any information protected under the Health
+           Insurance Portability and Accountability Act (HIPAA) or other applicable privacy
+           statutes.
+
+    3.7    The State is under no obligation to retain IM. However, all IM communication
+           should be treated as business records that may be retained and used as
+           evidence in litigation, audits, and investigations and disclosed without the
+           permission of the authorized user who created the message.
+
+    3.8    IM content may be subject to various types of access requests, including under
+           the Freedom of Information Act (FOIA).
+
+    3.9    Only minimal personal use (non-State-business activity) of State-provided IT
+           resources is permitted, and should not interfere with the legitimate business of
+           the State. (See WVOT – State of West Virginia Information Security Policy,
+           Appendix A)
+
+    3.10   All employees must adhere to rules regarding unacceptable uses of IT resources.
+           Examples of unacceptable uses include, but are not limited to the following: (For
+           more examples, see WVOT – State of West Virginia Information Security Policy,
+           Appendix A ):
+
+           3.10.1 Any use which violates local, state, or federal laws;
+
+           3.10.2 Any use for viewing, transmitting, receiving, saving, or printing sexually
+                  explicit material;
+
+Policy: Acceptable Use of Instant Messaging
+State of West Virginia Office of Technology
+  Policy No: WVOT-PO1010            Issued: 11/24/2009         Revised: 12/28/2023       Page 3 of 5
+
+             3.10.3 Any use for promoting harassment or illegal discrimination on the basis of
+                    race, gender, national origin, age, marital status, religion, or disability;
+
+             3.10.4 Any use for dispersing data to customers or clients without authorization;
+
+             3.10.5 Any use that could be reasonably considered as disruptive to another’s
+                    work;
+
+             3.10.6 Sending or sharing of confidential information for unauthorized purposes;
+
+             3.10.7 Sending communications, such as large files, which place an undue strain
+                    on the State network or other systems;
+
+             3.10.8 Any attachment or use of devices on the State network that are not
+                    owned by the State or authorized by the WVOT;
+
+      3.11   While using the State’s Instant Messaging product, employees must follow all
+             applicable policies provided by the Division of Personnel, as well as any
+             agency-specific policies related to employee communication.
+
+      3.12   Employees may not send jokes, rumors, gossip, or other unsubstantiated claims
+             via IM. These communications, which often contain objectionable material, are
+             easily misconstrued when communicated electronically.
+
+4.0   POLICY-SPECIFIC DEFINITIONS
+      4.1    Business Records - A document that is used to store information from business
+             operations. Types of operations having business records include meetings and
+             contracts, as well as transactions such as purchases, bills of lading and invoices.
+             Business records can be stored as reference material and reviewed later
+
+      4.2    Freedom of Information Act (FOIA) - A federal law that mandates that all the
+             records created and kept by federal agencies in the Executive Branch of
+             government must be open for public inspection and copying. The only exceptions
+             are those records that fall into one of nine exempted categories listed in the
+             statute.
+
+      4.3    Health Insurance Portability and Accountability Act (HIPAA) – A US law designed
+             to provide privacy standards to protect patients' medical records and other health
+             information provided to health plans, doctors, hospitals and other health care
+             providers. Developed by the Department of Health and Human Services, these
+             standards provide patients with access to their medical records and more control
+             over how their personal health information is used and disclosed.
+
+ Policy: Acceptable Use of Instant Messaging
+ State of West Virginia Office of Technology
+   Policy No: WVOT-PO1010              Issued: 11/24/2009        Revised: 12/28/2023   Page 4 of 5
+
+       4.4       Instant Messaging (IM) – The technology that allows a user to send electronic
+                 messages to one or more persons with minimal delay between the sending and
+                 receipt of a message. Like conversation, IM is a simultaneous give-and-take, but
+                 it occurs in written form. In contrast to email, which remains unread in a
+                 recipient's inbox until opened; instant messaging notifies users when other users
+                 are online and able to accept messages.
+
+5.0    RELEVANT MATERIALS/DOCUMENTS
+This policy is consistent with the following federal and state authorities:
+
+             ●   45 Code of Federal Regulations (CFR) §§ 164.308-316
+             ●   Freedom of Information Act
+             ●   Gramm-Leach Bliley Act (GLBA)
+             ●   Health Insurance Portability and Accountability Privacy Rule
+             ●   NIST SP 800-14 and NIST SP 800-53
+             ●   State Health Privacy Laws
+             ●   WV Code § 5A-6-4a
+             ●   WV Executive Order No. 7-03
+             ●   WVOT Policies Issued by the Chief Technology Officer (CTO),
+                 https://sites.google.com/wv.gov/othub/ot-policies
+
+6.0    ENFORCEMENT & AUTHORITY
+Any employee found to have violated this policy may be subject to disciplinary action up to and
+including dismissal. Disciplinary action will be administered by the employing agency and may
+be based upon recommendations of the WVOT and the West Virginia Division of Personnel.
+Please review the WVOT Policy and Procedure Policy #1000 to review additional provisions
+concerning enforcement and policy authority.
+
+7.0    CHANGE LOG HISTORY
+   ●   1/30/2015
+           o Added Section 7.0, Change Log History;
+           o Reorganized sections; Cleaned up Related Documents/Materials;
+           o Made Policy-Specific Definitions;
+           o Inserted Section 4.11, “While using the State’s Instant Messaging product,
+              employees must follow all applicable policies provided by the Division of
+              Personnel, as well as any agency-specific policies related to employee
+              communication.”
+   ●   9/1/2016 – Policy Reviewed. No Edits Made.
+   ●   10/20/2016 – Policy Reviewed. No Edits Made.
+
+Policy: Acceptable Use of Instant Messaging
+State of West Virginia Office of Technology
+ Policy No: WVOT-PO1010          Issued: 11/24/2009     Revised: 12/28/2023   Page 5 of 5
+
+ ●   12/28/2023 - Updated web address for WVOT Policies in Section 5.0
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the revision or issue date the policy prints, as printed.
