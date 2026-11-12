@@ -17,8 +17,8 @@ From the free coverage call, section counts by corpus type:
 Vaquill coverage held for each state (sections, from the free coverage call): oregon REGULATION 40975, STATE 71629, STATE_AGENCY_GUIDANCE 104, STATE_AG_OPINION 114, STATE_CONSTITUTION 388, STATE_RULES 788; washington REGULATION 51277, STATE 55994, STATE_AGENCY_GUIDANCE 25, STATE_AG_OPINION 4430, STATE_CONSTITUTION 273, STATE_REGISTER 6033, STATE_RULES 1433; california REGULATION 74785, STATE 161441, STATE_AGENCY_GUIDANCE 467, STATE_AG_OPINION 1967, STATE_CONSTITUTION 372, STATE_REGISTER 5147, STATE_RULES 4307; colorado REGULATION 1155, STATE 46888, STATE_AG_OPINION 109, STATE_CONSTITUTION 399, STATE_RULES 1194
 
 - Statutes (`STATE`) and regulations (`REGULATION`) are held for all four. Colorado's regulations are thin: 1,155 sections against 40,975 for Oregon.
-- No state holds governors' executive orders (the `EXECUTIVE_ACTION` type is federal Presidential documents), CIO policies, standards or memoranda. The only agency guidance is Oregon 104, Washington 25 and California 467 documents; in the 80 searches the Washington guidance that came back was an insurance-commissioner advisory, nothing from a state IT office. Colorado holds no agency guidance at all.
-- So an expected document that is a statute or a rule could be returned; one that is an executive order, policy, standard or memorandum could not. This is the cell classification:
+- The coverage call shows no governors' executive orders (the `EXECUTIVE_ACTION` type is federal Presidential documents) and no CIO policy, standard or memorandum type for these states. It lists agency guidance (`STATE_AGENCY_GUIDANCE`) of Oregon 104, Washington 25 and California 467 items, which this run did not examine; in the 80 searches the only guidance that came back was seven repeats of one Washington insurance-commissioner advisory. Colorado lists no agency guidance.
+- So an expected document that is a statute or a rule could be returned; one that is an executive order, policy, standard or memorandum is not mapped, so it cannot score here. This is the cell classification:
   - **(a)** at least one expected document is a statute or rule that `RULES` maps to Vaquill's citations.
   - **(b)** every expected document is sub-statutory.
 
@@ -48,6 +48,8 @@ By class:
 |---|---|---|---|---|---|
 | (a) an expected statute or rule | 55 | 10/55 | 50/55 | 51/55 | 52/55 |
 | (b) sub-statutory only | 21 | 2/21 | 19/21 | 0/21 | 0/21 |
+
+Class (a), the like-for-like reading: hybrid counted only when the top 5 holds an expected statute or rule document: 38/55 (all four states, class (a); class (b): 0/21). Per state: oregon 9/12; washington 8/11; california 8/17; colorado 13/15.
 
 By state and class:
 
@@ -122,13 +124,87 @@ Overlap with the hybrid leg at cut-off 5, by class:
 | b | miss | miss | 2 |
 | b | pass | miss | 19 |
 
+Vaquill's own verdict per scored cell (`noGoodMatch`, `matchQuality`), crossed with the top-5 score:
+
+Searches with noGoodMatch true: 59 of 80 (all 80); scored cells: noGoodMatch true 55 of 76; matchQuality in the scored cells: moderate 4, none 55, strong 6, weak 11.
+
+| Class | Vaquill top 5 | Vaquill said | Cells |
+|---|---|---|---|
+| a | miss | noGoodMatch | 4 |
+| a | pass | a good match | 20 |
+| a | pass | noGoodMatch | 31 |
+| b | miss | a good match | 1 |
+| b | miss | noGoodMatch | 20 |
+
 Vaquill misses at 5 in class (a): washington 18, california 13, california 18, colorado 18
+
+Every first match, so a reviewer can check it against `_meta/eval/vaquill-baseline.json`:
+
+First match in each scored cell that has one in the top 10 (state, question, rank, returned citation, expected document it was matched to, whether that section number appears in our mirrored document). Every match is in `_meta/eval/vaquill-baseline.json`.
+
+| State | Q | Rank | Returned citation | Matched document | In our document text |
+|---|---|---|---|---|---|
+| oregon | 1 | 1 | ORS 276A.203 | or-ors-276a | yes |
+| oregon | 2 | 1 | ORS 276A.206 | or-ors-276a | yes |
+| oregon | 3 | 1 | ORS 276A.332 | or-ors-276a | yes |
+| oregon | 4 | 1 | ORS 276A.335 | or-ors-276a | yes |
+| oregon | 5 | 2 | ORS 276A.230 | or-ors-276a | yes |
+| oregon | 6 | 1 | ORS 276A.323 | or-ors-276a | yes |
+| oregon | 8 | 1 | ORS 276A.209 | or-ors-276a | yes |
+| oregon | 9 | 1 | ORS 276A.223 | or-ors-276a | yes |
+| oregon | 12 | 1 | ORS 276A.340 | or-ors-276a | yes |
+| oregon | 14 | 1 | ORS 276A.346 | or-ors-276a | yes |
+| oregon | 15 | 1 | ORS 276A.346 | or-ors-276a | yes |
+| oregon | 19 | 1 | ORS 276A.555 | or-ors-276a | yes |
+| washington | 1 | 1 | RCW 43.105.025 | wa-rcw-43-105 | yes |
+| washington | 2 | 1 | RCW 43.105.385 | wa-rcw-43-105 | yes |
+| washington | 3 | 1 | RCW 43.105.450 | wa-rcw-43-105 | yes |
+| washington | 4 | 1 | RCW 43.105.450 | wa-rcw-43-105 | yes |
+| washington | 5 | 2 | RCW 43.105.020 | wa-rcw-43-105 | yes |
+| washington | 6 | 1 | RCW 43.105.450 | wa-rcw-43-105 | yes |
+| washington | 7 | 1 | RCW 43.105.255 | wa-rcw-43-105 | yes |
+| washington | 8 | 2 | RCW 43.105.342 | wa-rcw-43-105 | yes |
+| washington | 14 | 2 | RCW 43.105.025 | wa-rcw-43-105 | yes |
+| washington | 19 | 1 | RCW 43.105.450 | wa-rcw-43-105 | yes |
+| california | 1 | 1 | Cal. Gov't Code § 11545 | ca-gov-11545-11548 | yes |
+| california | 2 | 1 | Cal. Gov't Code § 11542 | ca-gov-11531-11544 | yes |
+| california | 3 | 3 | Cal. Gov't Code § 11549 | ca-gov-11549-11549-10 | yes |
+| california | 4 | 4 | Cal. Gov't Code § 11549 | ca-gov-11549-11549-10 | yes |
+| california | 5 | 2 | Cal. Civ. Code § 1798.19 | ca-civ-1798-1798-78 | yes |
+| california | 6 | 1 | Cal. Gov't Code § 11549.3 | ca-gov-11549-11549-10 | yes |
+| california | 8 | 1 | Cal. Gov't Code § 11544 | ca-gov-11531-11544 | yes |
+| california | 9 | 1 | Cal. Pub. Cont. Code § 12100 | ca-pcc-12100-12113 | yes |
+| california | 10 | 1 | Cal. Gov't Code § 11546.45.5 | ca-gov-11545-11548 | yes |
+| california | 12 | 3 | Cal. Gov't Code § 11546.45.5 | ca-gov-11545-11548 | yes |
+| california | 13 | 10 | Cal. Gov't Code § 11549.65 | ca-gov-11549-63-11549-66 | yes |
+| california | 14 | 1 | Cal. Gov't Code § 11549.63 | ca-gov-11549-63-11549-66 | yes |
+| california | 15 | 3 | Cal. Gov't Code § 8586.5 | ca-gov-8586-5 | yes |
+| california | 16 | 4 | Cal. Gov't Code § 11549.63 | ca-gov-11549-63-11549-66 | yes |
+| california | 17 | 2 | Cal. Gov't Code § 11546.7 | ca-gov-11545-11548 | yes |
+| california | 19 | 1 | Cal. Gov't Code § 8586.5 | ca-gov-8586-5 | yes |
+| colorado | 1 | 1 | C.R.S. § 24-37.5-106 | co-crs-24-37-5 | yes |
+| colorado | 2 | 1 | C.R.S. § 24-37.5-105 | co-crs-24-37-5 | yes |
+| colorado | 3 | 1 | C.R.S. § 24-37.5-403 | co-crs-24-37-5 | yes |
+| colorado | 4 | 1 | C.R.S. § 24-37.5-403 | co-crs-24-37-5 | yes |
+| colorado | 5 | 3 | C.R.S. § 24-37.5-102 | co-crs-24-37-5 | yes |
+| colorado | 6 | 1 | C.R.S. § 24-37.5-404 | co-crs-24-37-5 | yes |
+| colorado | 7 | 1 | C.R.S. § 24-37.5-105 | co-crs-24-37-5 | yes |
+| colorado | 8 | 1 | C.R.S. § 24-37.5-103 | co-crs-24-37-5 | yes |
+| colorado | 9 | 3 | C.R.S. § 24-37.5-105 | co-crs-24-37-5 | yes |
+| colorado | 12 | 1 | C.R.S. § 2-3-1701 | co-crs-2-3-pt17 | yes |
+| colorado | 13 | 1 | C.R.S. § 2-3-1707 | co-crs-2-3-pt17 | yes |
+| colorado | 14 | 1 | C.R.S. § 2-3-1707 | co-crs-2-3-pt17 | yes |
+| colorado | 17 | 1 | C.R.S. § 24-85-104 | co-crs-24-85 | yes |
+| colorado | 19 | 1 | C.R.S. § 24-33.5-1902 | co-crs-24-33-5-pt19 | yes |
+
+Returned rows by corpus type (all 20 questions, top 10): oregon: REGULATION 53, STATE 147; washington: REGULATION 17, STATE 167, STATE_AGENCY_GUIDANCE 7, STATE_AG_OPINION 4, STATE_REGISTER 5; california: REGULATION 11, STATE 180, STATE_AG_OPINION 1, STATE_REGISTER 2, STATE_RULES 6; colorado: REGULATION 32, STATE 166, STATE_AG_OPINION 1, STATE_CONSTITUTION 1
 
 ## What the numbers say
 
-- **Vaquill does what a statute and rule search can do, about as well as our hybrid leg.** In class (a), the 55 cells where an expected document is a statute or rule, Vaquill's top 5 holds an expected instrument in 51, our hybrid leg in 50, our keyword leg in 10. Of the 55 cells, 46 pass in both, 5 only in Vaquill and 4 only in hybrid. This is not a margin: at 55 cells and one run the two are tied.
-- **Vaquill cannot answer class (b).** 21 of the 76 cells expect only executive orders, policies, standards or memoranda; Vaquill holds none for these states, so 0 of 21 by construction, while our hybrid leg passes 19 of 21. Across all 76 cells, Vaquill's 51 against hybrid's 69 is therefore the product of what each corpus holds, not of how each ranks: the whole difference sits in class (b), and class (b) is the part of the domain (`01-prior-art.md`: the sub-statutory layer, "unlikely" to be in Vaquill) the project exists for. Questions 11 and 20 have no class (a) cell at all.
-- **Colorado:** Vaquill's 1,155 Colorado regulation sections include the Office of Information Technology's rules: it returned 8 CCR 1501-5, 1501-7 and 1501-11 in the cells that expect them (see the match table).
+- **Vaquill finds statute and rule sections, but mostly says it has no match.** Class (a), the 55 cells where an expected document is a statute or rule: Vaquill's top 5 holds an expected instrument in 51; our hybrid leg in 50, but that count accepts any expected document, including policies, standards and executive orders, which Vaquill cannot return. On the like-for-like measure (hybrid's top 5 holds an expected statute or rule document) hybrid passes 38 of 55 (Oregon 9/12, Washington 8/11, California 8/17, Colorado 13/15). So the two readings are 51 (Vaquill) against 50 (hybrid, any document) or 38 (hybrid, statute or rule only); at 55 cells and one run I do not call either a margin, but the "tied" reading is the generous one for hybrid and the like-for-like reading favours Vaquill. Of the 55, 46 pass in both on the any-document count, 5 only in Vaquill and 4 only in hybrid.
+- **Vaquill's own verdict undercuts those hits.** `noGoodMatch` is true for 59 of the 80 searches and `matchQuality` is `none` in 55 of the 76 scored cells (weak 11, moderate 4, strong 6). Of Vaquill's 51 class (a) top-5 passes, 20 come with a good match and 31 come from searches where Vaquill itself reports `noGoodMatch` (the nearest sections, not matches); of its 4 class (a) misses, all 4 are `noGoodMatch` as well. An agent using Vaquill would be told that most of these hits are not matches. The passes still count as the instrument being returned in the top 5; they do not show Vaquill judged them on point.
+- **Class (b) cannot score for Vaquill under this mapping.** 21 of the 76 cells expect only executive orders, policies, standards or memoranda. Class (b) cannot score under the mapping, because `RULES` maps no sub-statutory document: 0 of 21 is set by the scorer, not measured. The coverage call lists agency guidance that this run did not examine (Oregon 104, Washington 25, California 467 items; `01-prior-art.md` already marks that question UNVERIFIED), and none of it surfaced in the 80 searches as an answer to a class (b) cell. Our hybrid leg passes 19 of 21. Across all 76 cells, Vaquill's 51 against hybrid's 69 is therefore the product of what each side's scoring can reach, not of how each ranks: the difference sits in class (b) (and shrinks, but does not vanish, on the like-for-like hybrid count), and class (b) is the part of the domain (`01-prior-art.md`: the sub-statutory layer, "unlikely" to be in Vaquill) the project exists for. Questions 11 and 20 have no class (a) cell at all.
+- **Colorado:** Vaquill's 1,155 Colorado regulation sections include the Office of Information Technology's rules: it returned 8 CCR 1501-5, 1501-7 and 1501-11 in the cells that expect them (see the match table above).
 - **Where Vaquill misses class (a) at 5:** Washington 18, California 13, California 18 and Colorado 18 (the line under the overlap table). California 13 is a pass at 10 (first match at rank 10); Washington 18, California 18 and Colorado 18, all question 18 (disaster recovery), are misses at 10 as well. I did not read the returned sections to see whether they answer.
 - **Vaquill returns sections, we return documents.** A chapter-sized instrument (ORS 276A, RCW 43.105, C.R.S. 24-37.5) can fill the top 5 with its own sections, and matching is by instrument. So "top 5" is not the same unit for the two systems, and a Vaquill top 5 can hold fewer distinct instruments than ours. The rank in the cell table is the rank of the section, not of a document.
 
@@ -180,9 +256,9 @@ By title, the ones that look relevant: Oregon OAR 125-247 (Department of Adminis
 
 ## What our corpus holds that Vaquill cannot
 
-- Every class (b) cell: 21 cells, 7 in Oregon, 8 in Washington, 3 in California, 3 in Colorado. The expected documents there are governors' executive orders, statewide policies and procedures, standards and memoranda, which none of Vaquill's four states' coverage holds. Our hybrid leg puts an expected document in the top 5 for 19 of them.
-- Beyond the cells: the kinds line above shows that most distinct expected documents in Oregon, Washington and California are policies, standards or executive orders, which no Vaquill corpus holds for these states; Colorado's expected list is mostly statutes and rules plus policies and one standard.
-- Vaquill returned no document from any state IT office in 80 searches (the only agency-guidance rows were seven repeats of one Washington insurance-commissioner advisory).
+- Every class (b) cell: 21 cells, 7 in Oregon, 8 in Washington, 3 in California, 3 in Colorado. The expected documents there are governors' executive orders, statewide policies and procedures, standards and memoranda, which the scorer maps to nothing (the unexamined agency guidance in the coverage call may hold some). Our hybrid leg puts an expected document in the top 5 for 19 of them.
+- Beyond the cells: the kinds line above shows that most distinct expected documents in Oregon, Washington and California are policies, standards or executive orders, which `RULES` maps to no Vaquill citation; Colorado's expected list is mostly statutes and rules plus policies and one standard.
+- Vaquill returned no agency-guidance document from a state IT office in 80 searches (the only guidance rows were seven repeats of one Washington insurance-commissioner advisory). It did return state IT office rules: Oregon EIS/DAS rules (OAR 128-020-0005, -0010, -0025 and 128-030-0020) and Colorado OIT rules (8 CCR 1501-5, -7, -9, -11, -12), which this note counts as matches where expected.
 
 ## What this does not show
 

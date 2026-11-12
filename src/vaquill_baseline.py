@@ -80,6 +80,27 @@ HYBRID_MISSES_AT_5 = {("california", 4), ("california", 7), ("california", 8), (
                       ("oregon", 8), ("washington", 8), ("washington", 9)}
 
 
+def hybrid_doc10(root: Path = ROOT) -> dict:
+    """Doc 10's per-question hybrid top-5 lists: {(state, question): [(id, is_expected), ...]}. Bold ids are
+    the expected documents. Parsed from the committed text, not re-run (the embedder is not loaded here)."""
+    text = (root / "docs/research/10-analyst-questions-hybrid-trial.md").read_text(encoding="utf-8")
+    out, q = {}, None
+    for line in text.splitlines():
+        m = re.match(r"### (\d+)\. ", line)
+        if m:
+            q = int(m.group(1))
+            continue
+        m = re.match(r"- \*\*(\w+)\*\*, expected: .*?Hybrid: (?:PASS|fail); top: (.*?)\.(?: Missed in the top 5:|$)", line)
+        if m and q and m.group(1) in STATES:
+            out[(m.group(1), q)] = [(t.strip("* "), t.startswith("**")) for t in m.group(2).split(", ")
+                                    if t.strip() != "no hits"]
+    return out
+
+
+def is_statute_or_rule(root: Path, st: str, doc_id: str) -> bool:
+    return any((root / f / st / f"{doc_id}.md").exists() for f in ("statutes", "rules"))
+
+
 def section_key(num: str):
     try:
         return tuple(int(p) for p in str(num).split("."))
@@ -181,6 +202,7 @@ def build(raw: Path, root: Path = ROOT) -> dict:
         expected[st] = {int(q["number"]): [e["id"] for e in q.get("expected") or []] for q in d["questions"]}
     kw = json.loads((root / "_meta/eval/baseline.json").read_text())["cells"]
     held = {st: _held_texts(root, st) for st in STATES}
+    hy10 = hybrid_doc10(root)
     cells: dict = {st: {} for st in STATES}
     shas, credits, calls = {}, 0.0, 0
     for st, code in STATES.items():
@@ -206,6 +228,7 @@ def build(raw: Path, root: Path = ROOT) -> dict:
             rank = first_match_rank(matched, set(exp))
             cell = {"expected": exp, "class": cell_class(st, exp) if exp else None,
                     "scored": bool(exp), "first_match_rank": rank,
+                    "noGoodMatch": sc["noGoodMatch"], "matchQuality": sc["matchQuality"],
                     "top5": passes(rank, 5) if exp else None, "top10": passes(rank, 10) if exp else None,
                     "matched_expected_top10": sorted({m for m in matched[:10] if m in set(exp)}),
                     "matchRank_any_instrument_top10": sorted({m for m in matched[:10] if m}),
@@ -213,6 +236,10 @@ def build(raw: Path, root: Path = ROOT) -> dict:
             if exp:
                 cell["keyword_top5"] = bool(kw[st][str(n)]["passed"])
                 cell["hybrid_top5"] = (st, n) not in HYBRID_MISSES_AT_5
+                top = hy10[(st, n)]
+                assert any(b for _, b in top) == cell["hybrid_top5"], (st, n)
+                # like for like with Vaquill: the hybrid top 5 holds an expected statute or rule document
+                cell["hybrid_top5_statute_rule"] = any(b and is_statute_or_rule(root, st, i) for i, b in top)
             cells[st][str(n)] = cell
     bal = {p.stem: json.loads(p.read_text())["result"]["structuredContent"]
            for p in sorted(raw.glob("free_balance_*.json"))}
@@ -243,7 +270,11 @@ def summary(data: dict) -> dict:
                 bucket["cells"] += 1
                 bucket["v5"] += c["top5"]; bucket["v10"] += c["top10"]
                 bucket["kw5"] += c["keyword_top5"]; bucket["hy5"] += c["hybrid_top5"]
+                bucket["hysr5"] += c["hybrid_top5_statute_rule"]
     return out
+
+
+totals: dict = {}   # per state: instruments before the cut, set by candidates()
 
 
 def candidates(data: dict, root: Path = ROOT, limit: int = 8) -> dict:
@@ -251,6 +282,7 @@ def candidates(data: dict, root: Path = ROOT, limit: int = 8) -> dict:
     most cells first. `held` = the section number appears in some statute or rule document of the state."""
     held = {st: _held_texts(root, st) for st in STATES}
     out = {}
+    totals.clear()
     for st, cs in data["cells"].items():
         agg: dict = defaultdict(lambda: {"cells": set(), "sections": {}})
         for n, c in cs.items():
@@ -265,6 +297,7 @@ def candidates(data: dict, root: Path = ROOT, limit: int = 8) -> dict:
                 if not any(v["sections"].values())]
         rows.sort(key=lambda x: (-len(x[1]), x[0]))
         out[st] = rows[:limit]
+        totals[st] = len(rows)
     return out
 
 
@@ -321,6 +354,17 @@ def kinds(data: dict, st: str, root: Path = ROOT) -> Counter:
     return out
 
 
+def verdicts(data: dict) -> dict:
+    """Vaquill's own noGoodMatch / matchQuality, over all 80 searches and over the scored cells, and the
+    scored cells crossed with class and the top-5 score."""
+    allc = [c for cs in data["cells"].values() for c in cs.values()]
+    sc = [c for c in allc if c["scored"]]
+    return {"searches": len(allc), "ngm_searches": sum(c["noGoodMatch"] for c in allc),
+            "scored": len(sc), "ngm_scored": sum(c["noGoodMatch"] for c in sc),
+            "quality": Counter(c["matchQuality"] for c in sc),
+            "cross": Counter((c["class"], c["top5"], c["noGoodMatch"]) for c in sc)}
+
+
 def tables(data: dict) -> str:
     s = summary(data)
     pct = lambda a, b: f"{a}/{b}"
@@ -341,6 +385,13 @@ def tables(data: dict) -> str:
         x = s["class"][k]
         L.append(f"| {name} | {x['cells']} | {pct(x['kw5'], x['cells'])} | {pct(x['hy5'], x['cells'])} | "
                  f"{pct(x['v5'], x['cells'])} | {pct(x['v10'], x['cells'])} |")
+    L.append("")
+    L.append("Class (a), the like-for-like reading: hybrid counted only when the top 5 holds an expected statute "
+             f"or rule document: {pct(s['class']['a']['hysr5'], s['class']['a']['cells'])} "
+             f"(all four states, class (a); class (b): {pct(s['class']['b']['hysr5'], s['class']['b']['cells'])}). "
+             "Per state: " + "; ".join(
+                 f"{st} {pct(s['state_class'][(st, 'a')]['hysr5'], s['state_class'][(st, 'a')]['cells'])}"
+                 for st in STATES) + ".")
     L.append("")
     L.append("| State and class | Cells | Keyword (5) | Hybrid (5) | Vaquill top 5 | Vaquill top 10 |")
     L.append("|---|---|---|---|---|---|")
@@ -398,6 +449,20 @@ def tables(data: dict) -> str:
     for k in sorted(both):
         L.append(f"| {k[0]} | {'pass' if k[1] else 'miss'} | {'pass' if k[2] else 'miss'} | {both[k]} |")
     L.append("")
+    L.append("Vaquill's own verdict per scored cell (`noGoodMatch`, `matchQuality`), crossed with the "
+             "top-5 score:")
+    L.append("")
+    v = verdicts(data)
+    L.append(f"Searches with noGoodMatch true: {v['ngm_searches']} of {v['searches']} (all 80); scored cells: "
+             f"noGoodMatch true {v['ngm_scored']} of {v['scored']}; matchQuality in the scored cells: " +
+             ", ".join(f"{k} {n}" for k, n in sorted(v['quality'].items())) + ".")
+    L.append("")
+    L.append("| Class | Vaquill top 5 | Vaquill said | Cells |")
+    L.append("|---|---|---|---|")
+    for k in sorted(v["cross"]):
+        L.append(f"| {k[0]} | {'pass' if k[1] else 'miss'} | "
+                 f"{'noGoodMatch' if k[2] else 'a good match'} | {v['cross'][k]} |")
+    L.append("")
     L.append("Vaquill misses at 5 in class (a): " + ", ".join(
         f"{st} {n}" for st, cs in data["cells"].items() for n, c in cs.items()
         if c["scored"] and c["class"] == "a" and not c["top5"]))
@@ -422,9 +487,15 @@ def tables(data: dict) -> str:
     L.append("")
     L.append("Candidate gaps (STATE/REGULATION instruments in a top-5 list that no statute or rule document of "
              "ours contains by section number; UNVERIFIED):")
-    for st, rows in candidates(data).items():
+    cand = candidates(data)
+    L.append("")
+    L.append("Each list is cut to the 8 instruments in the most cells (ties alphabetical); instruments "
+             "before the cut: " + ", ".join(f"{st} {totals[st]}" for st in STATES) + ". California STATE rows are "
+             "grouped by section (Vaquill gives no chapter for them), so its entries are single sections, "
+             "not chapters.")
+    for st, rows in cand.items():
         L.append("")
-        L.append(f"- {st}:")
+        L.append(f"- {st} ({len(rows)} of {totals[st]}):")
         for g, qs, secs in rows:
             L.append(f"  - {g}: questions {qs}; returned {', '.join(sorted(secs))}")
     return "\n".join(L)

@@ -13,7 +13,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "strong",
     "matchRank_any_instrument_top10": [
      "ca-gov-11531-11544",
      "ca-gov-11545-11548"
@@ -21,6 +23,7 @@
     "matched_expected_top10": [
      "ca-gov-11545-11548"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.6_S11545",
@@ -129,7 +132,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": true,
+    "matchQuality": "strong",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-63-11549-66"
@@ -137,6 +142,7 @@
     "matched_expected_top10": [
      "ca-gov-11545-11548"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.6_S11546.45.5",
@@ -247,12 +253,15 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": true,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-63-11549-66"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.6_S11546.45.5",
@@ -359,7 +368,9 @@
     ],
     "first_match_rank": 3,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-63-11549-66"
@@ -368,6 +379,7 @@
      "ca-gov-11545-11548",
      "ca-gov-11549-63-11549-66"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cins_D2_P2_C1_A1_S10123.135",
@@ -475,7 +487,9 @@
     ],
     "first_match_rank": 10,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-63-11549-66"
@@ -483,6 +497,7 @@
     "matched_expected_top10": [
      "ca-gov-11549-63-11549-66"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C7.2_S11786",
@@ -589,7 +604,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": true,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-63-11549-66",
@@ -598,6 +615,7 @@
     "matched_expected_top10": [
      "ca-gov-11549-63-11549-66"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.9_S11549.63",
@@ -705,7 +723,9 @@
     ],
     "first_match_rank": 3,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-8586-5"
@@ -713,6 +733,7 @@
     "matched_expected_top10": [
      "ca-gov-8586-5"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cbpc_D8_C25_S22757.3.2",
@@ -818,7 +839,9 @@
     ],
     "first_match_rank": 4,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-63-11549-66"
@@ -826,6 +849,7 @@
     "matched_expected_top10": [
      "ca-gov-11549-63-11549-66"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Chsc_D2_C2.2_A5_S1367.01",
@@ -934,7 +958,9 @@
     ],
     "first_match_rank": 2,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-7405"
@@ -943,6 +969,7 @@
      "ca-gov-11545-11548",
      "ca-gov-7405"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cccp_P2_T14_C5_S1010.6",
@@ -1050,9 +1077,12 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D1_C7.6_S8697",
@@ -1161,7 +1191,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-11549-10",
@@ -1175,6 +1207,7 @@
      "ca-gov-8592-30-8592-50",
      "ca-pcc-12100-12113"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D1_C7_A5_S8586.5",
@@ -1281,7 +1314,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11531-11544",
      "ca-gov-11545-11548"
@@ -1290,6 +1325,7 @@
      "ca-gov-11531-11544",
      "ca-gov-11545-11548"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.5_A2_S11542",
@@ -1393,11 +1429,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-pcc-12100-12113"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_CCR_T11_D1_C19_A5_S999_228",
@@ -1503,7 +1542,9 @@
     ],
     "first_match_rank": 3,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-11549-10"
@@ -1511,6 +1552,7 @@
     "matched_expected_top10": [
      "ca-gov-11549-11549-10"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.6_S11545",
@@ -1614,7 +1656,9 @@
     ],
     "first_match_rank": 4,
     "hybrid_top5": false,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-11549-10",
@@ -1623,6 +1667,7 @@
     "matched_expected_top10": [
      "ca-gov-11549-11549-10"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.6_S11546.1",
@@ -1729,7 +1774,9 @@
     ],
     "first_match_rank": 2,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": true,
+    "matchQuality": "moderate",
     "matchRank_any_instrument_top10": [
      "ca-civ-1798-1798-78",
      "ca-gov-11545-11548"
@@ -1738,6 +1785,7 @@
      "ca-civ-1798-1798-78",
      "ca-gov-11545-11548"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CA_CCR_T2_D4_1_C5_S9_A2_S14020",
@@ -1843,7 +1891,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": true,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "ca-gov-11549-11549-10",
      "ca-gov-8592-30-8592-50"
@@ -1851,6 +1901,7 @@
     "matched_expected_top10": [
      "ca-gov-11549-11549-10"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.7_A1_S11549.3",
@@ -1956,13 +2007,16 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": false,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11545-11548",
      "ca-gov-11549-11549-10",
      "ca-pcc-12100-12113"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.6_S11546.1",
@@ -2066,7 +2120,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": false,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "ca-gov-11531-11544",
      "ca-gov-11545-11548"
@@ -2074,6 +2130,7 @@
     "matched_expected_top10": [
      "ca-gov-11531-11544"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CA_Cgov_T2_D3_P1_C5.5_A3_S11544",
@@ -2178,13 +2235,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "ca-pcc-12100-12113"
     ],
     "matched_expected_top10": [
      "ca-pcc-12100-12113"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CA_Cpcc_D2_P2_C3_S12100",
@@ -2290,7 +2350,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "strong",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-5",
      "co-crs-24-37-5",
@@ -2299,6 +2361,7 @@
     "matched_expected_top10": [
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CO_T24_A37.5_P1_S24-37.5-106",
@@ -2399,11 +2462,13 @@
     "class": null,
     "expected": [],
     "first_match_rank": null,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-crs-2-3-pt17",
      "co-crs-24-37-5"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T6_A1_P17_S6-1-1702",
@@ -2507,11 +2572,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "co-crs-2-3-pt17"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CO_T6_A1_P17_S6-1-1703",
@@ -2616,13 +2684,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-crs-2-3-pt17"
     ],
     "matched_expected_top10": [
      "co-crs-2-3-pt17"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T2_A3_P17_S2-3-1701",
@@ -2727,7 +2798,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "strong",
     "matchRank_any_instrument_top10": [
      "co-crs-2-3-pt17",
      "co-crs-24-33-5-pt19",
@@ -2737,6 +2810,7 @@
     "matched_expected_top10": [
      "co-crs-2-3-pt17"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CO_T2_A3_P17_S2-3-1707",
@@ -2841,7 +2915,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-5",
      "co-ccr-8-1501-7",
@@ -2851,6 +2927,7 @@
     "matched_expected_top10": [
      "co-crs-2-3-pt17"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T2_A3_P17_S2-3-1707",
@@ -2954,12 +3031,15 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-crs-2-3-pt17",
      "co-crs-24-37-5"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T6_A1_P17_S6-1-1702",
@@ -3063,11 +3143,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-crs-2-3-pt17"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T6_A1_P17_S6-1-1704",
@@ -3173,7 +3256,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-11",
      "co-crs-24-37-5",
@@ -3183,6 +3268,7 @@
      "co-ccr-8-1501-11",
      "co-crs-24-85"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T24_A85_S24-85-104",
@@ -3289,9 +3375,12 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T24_A33.5_P7_S24-33.5-705.1",
@@ -3398,7 +3487,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "moderate",
     "matchRank_any_instrument_top10": [
      "co-crs-24-33-5-pt19",
      "co-crs-24-37-5"
@@ -3407,6 +3498,7 @@
      "co-crs-24-33-5-pt19",
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CO_T24_A33.5_P19_S24-33.5-1902",
@@ -3513,7 +3605,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-5",
      "co-ccr-8-1501-7",
@@ -3524,6 +3618,7 @@
      "co-ccr-8-1501-7",
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T24_A37.5_P1_S24-37.5-105",
@@ -3624,11 +3719,13 @@
     "class": null,
     "expected": [],
     "first_match_rank": null,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-crs-24-37-5",
      "co-crs-24-37-7"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_CCR_8_CCR_1501_9",
@@ -3733,7 +3830,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-5",
      "co-ccr-8-1501-7",
@@ -3746,6 +3845,7 @@
      "co-ccr-8-1501-5",
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T24_A37.5_P4_S24-37.5-403",
@@ -3849,7 +3949,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": false,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-5",
      "co-crs-2-3-pt17",
@@ -3859,6 +3961,7 @@
     "matched_expected_top10": [
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T24_A37.5_P4_S24-37.5-403",
@@ -3965,7 +4068,9 @@
     ],
     "first_match_rank": 3,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-5",
      "co-crs-24-37-5",
@@ -3978,6 +4083,7 @@
      "co-crs-24-73",
      "co-crs-24-74"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CO_CCR_8_CCR_1501_5",
@@ -4085,7 +4191,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-5",
      "co-crs-24-37-5"
@@ -4094,6 +4202,7 @@
      "co-ccr-8-1501-5",
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CO_T24_A37.5_P4_S24-37.5-404",
@@ -4198,7 +4307,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-ccr-8-1501-5",
      "co-ccr-8-1501-7",
@@ -4208,6 +4319,7 @@
     "matched_expected_top10": [
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T24_A37.5_P1_S24-37.5-105",
@@ -4312,13 +4424,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "co-crs-24-37-5"
     ],
     "matched_expected_top10": [
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_CO_T24_A37.5_P1_S24-37.5-103",
@@ -4422,7 +4537,9 @@
     ],
     "first_match_rank": 3,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": true,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "co-crs-2-3-pt17",
      "co-crs-24-37-5",
@@ -4431,6 +4548,7 @@
     "matched_expected_top10": [
      "co-crs-24-37-5"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_CO_CCR_1_CCR_101_1",
@@ -4536,7 +4654,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "moderate",
     "matchRank_any_instrument_top10": [
      "or-oar-128-30",
      "or-ors-276a"
@@ -4544,6 +4664,7 @@
     "matched_expected_top10": [
      "or-ors-276a"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.203",
@@ -4648,11 +4769,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.233",
@@ -4760,11 +4884,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T50_C646A_S646A.586",
@@ -4872,7 +4999,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "or-oar-128-20",
      "or-ors-276a"
@@ -4881,6 +5010,7 @@
      "or-oar-128-20",
      "or-ors-276a"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.340",
@@ -4985,11 +5115,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.560",
@@ -5097,7 +5230,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-oar-128-20",
      "or-ors-276a"
@@ -5106,6 +5241,7 @@
      "or-oar-128-20",
      "or-ors-276a"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.346",
@@ -5214,7 +5350,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-oar-128-20",
      "or-ors-276a"
@@ -5223,6 +5361,7 @@
      "or-oar-128-20",
      "or-ors-276a"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.346",
@@ -5330,11 +5469,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.346",
@@ -5435,10 +5577,12 @@
     "class": null,
     "expected": [],
     "first_match_rank": null,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T57_C759_S759.697",
@@ -5543,9 +5687,12 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T32_C401_S401.032",
@@ -5651,7 +5798,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "moderate",
     "matchRank_any_instrument_top10": [
      "or-oar-128-30",
      "or-ors-276a"
@@ -5660,6 +5809,7 @@
      "or-oar-128-30",
      "or-ors-276a"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.555",
@@ -5768,13 +5918,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [
      "or-ors-276a"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.206",
@@ -5879,11 +6032,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_OAR_C125_D246_S125_246_0360",
@@ -5990,7 +6146,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "or-oar-128-20",
      "or-oar-128-30",
@@ -6001,6 +6159,7 @@
      "or-oar-128-30",
      "or-ors-276a"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.332",
@@ -6106,7 +6265,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-oar-128-30",
      "or-ors-276a"
@@ -6115,6 +6276,7 @@
      "or-oar-128-30",
      "or-ors-276a"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.335",
@@ -6220,7 +6382,9 @@
     ],
     "first_match_rank": 2,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-oar-128-20",
      "or-ors-276a"
@@ -6228,6 +6392,7 @@
     "matched_expected_top10": [
      "or-ors-276a"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T17_C174_S174.112",
@@ -6337,7 +6502,9 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "or-oar-128-30",
      "or-ors-276a"
@@ -6346,6 +6513,7 @@
      "or-oar-128-30",
      "or-ors-276a"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.323",
@@ -6452,12 +6620,15 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-oar-128-20",
      "or-ors-276a"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_OAR_C125_D247_S125_247_0185",
@@ -6561,13 +6732,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": false,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [
      "or-ors-276a"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.209",
@@ -6672,13 +6846,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": true,
+    "matchQuality": "weak",
     "matchRank_any_instrument_top10": [
      "or-ors-276a"
     ],
     "matched_expected_top10": [
      "or-ors-276a"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_OR_T26_C276A_S276A.223",
@@ -6784,13 +6961,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": true,
+    "matchQuality": "strong",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S025",
@@ -6896,11 +7076,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S460",
@@ -7008,11 +7191,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": true,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C06D_S900",
@@ -7119,9 +7305,12 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T19_C435_S010",
@@ -7227,11 +7416,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T50_C12_S200",
@@ -7337,13 +7529,16 @@
     ],
     "first_match_rank": 2,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": true,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T42_C64_S010",
@@ -7452,9 +7647,12 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T42_C64_S010",
@@ -7562,9 +7760,12 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T48_C43_S830",
@@ -7670,11 +7871,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T2_C56_S210",
@@ -7781,9 +7985,12 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T38_C52_S050",
@@ -7891,13 +8098,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "strong",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": false,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S450",
@@ -8005,13 +8215,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S385",
@@ -8112,10 +8325,12 @@
     "class": null,
     "expected": [],
     "first_match_rank": null,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S375",
@@ -8220,13 +8435,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": true,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S450",
@@ -8330,13 +8548,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": true,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S450",
@@ -8445,7 +8666,9 @@
     ],
     "first_match_rank": 2,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": true,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-39-26-340",
      "wa-rcw-42-56-590",
@@ -8456,6 +8679,7 @@
      "wa-rcw-42-56-590",
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T29B_C10_S030",
@@ -8564,13 +8788,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S450",
@@ -8677,13 +8904,16 @@
     ],
     "first_match_rank": 1,
     "hybrid_top5": true,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S255",
@@ -8790,13 +9020,16 @@
     ],
     "first_match_rank": 2,
     "hybrid_top5": false,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [
      "wa-rcw-43-105"
     ],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C41_S442",
@@ -8900,11 +9133,14 @@
     ],
     "first_match_rank": null,
     "hybrid_top5": false,
+    "hybrid_top5_statute_rule": false,
     "keyword_top5": false,
+    "matchQuality": "none",
     "matchRank_any_instrument_top10": [
      "wa-rcw-43-105"
     ],
     "matched_expected_top10": [],
+    "noGoodMatch": true,
     "results": [
      {
       "actId": "STATE_WA_T43_C105_S255",

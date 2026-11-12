@@ -112,3 +112,26 @@ def test_check_fails_when_a_stored_rank_is_wrong(tmp_path):
 
 def test_the_committed_baseline_is_consistent_with_the_current_expected_lists():
     assert vb.check(vb.ROOT) == []
+
+
+def test_verdicts_cross_class_and_score_with_vaquills_own_noGoodMatch():
+    c = lambda cls, top5, ngm, q: {"scored": True, "class": cls, "top5": top5, "noGoodMatch": ngm,
+                                   "matchQuality": q}
+    data = {"cells": {"oregon": {"1": c("a", True, True, "none"), "2": c("a", True, False, "strong"),
+                                 "3": {"scored": False, "noGoodMatch": True, "matchQuality": "none"}}}}
+    v = vb.verdicts(data)
+    assert (v["searches"], v["ngm_searches"], v["scored"], v["ngm_scored"]) == (3, 2, 2, 1)
+    assert v["cross"][("a", True, True)] == 1 and v["cross"][("a", True, False)] == 1
+    assert v["quality"] == {"none": 1, "strong": 1}
+
+
+def test_doc10_parse_gives_76_cells_and_agrees_with_the_hybrid_misses():
+    top = vb.hybrid_doc10(vb.ROOT)
+    assert len(top) == 76
+    misses = {k for k, v in top.items() if not any(b for _, b in v)}
+    assert misses == vb.HYBRID_MISSES_AT_5
+
+
+def test_statute_or_rule_is_decided_by_the_documents_folder():
+    assert vb.is_statute_or_rule(vb.ROOT, "oregon", "or-ors-276a") is True
+    assert vb.is_statute_or_rule(vb.ROOT, "oregon", "or-eo-23-26") is False
