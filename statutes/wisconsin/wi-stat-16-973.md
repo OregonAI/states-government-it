@@ -1,0 +1,114 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: wisconsin
+id: wi-stat-16-973
+title: Wis. Stat. 16.973 - Duties of the department
+doc_type: statute
+citation: Wis. Stat. s. 16.973
+authority_level: ''
+issuing_body: Wisconsin State Legislature; published by the Legislative Reference Bureau
+source_url: https://docs.legis.wisconsin.gov/document/statutes/16.973
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: 29a20b0a9abf1b0c227399b724793f2da2e8f30b7690c927a3883b3de5e0c430
+effective_date: null
+source_version: Published 11-4-26
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the Legislature''s statute page. The page serves a window of neighbouring
+  sections; only the elements it tags as the section it was asked for are kept, one line per element:
+  the section heading, each subsection and paragraph, the history line and any annotations. Site menu,
+  reference labels and the other sections of the window removed. The last line is the Legislature''s own
+  certification line for the edition.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- cybersecurity
+- data
+- funding
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Wis. Stat. 16.973 - Duties of the department (Wis. Stat. s. 16.973)
+
+## At a glance
+
+Duties of the department: provide computer services to agencies, promulgate fee methodologies, develop policies and programs that protect the privacy of individuals in agency databases and set technical standards (sub. (3)), and use all feasible technical means to ensure the security of all information submitted to the department for processing (sub. (5)). The acceptable-use policy cites subs. (3), (4) and (5).
+
+## Full text
+
+16.973 Duties of the department. The department shall:
+(1) Provide or contract with a public or private entity to provide computer services to agencies. The department may charge agencies for services provided to them under this subsection in accordance with a methodology determined by the department.
+(2) Promulgate methodologies for establishing all fees and charges established or assessed by the department under this subchapter.
+(3) Facilitate the implementation of statewide initiatives, including development and maintenance of policies and programs to protect the privacy of individuals who are the subjects of information contained in the databases of agencies, and of technical standards and sharing of applications among agencies and any participating local governmental units or entities in the private sector.
+(4) Ensure responsiveness to the needs of agencies for delivery of high-quality information technology processing services on an efficient and economical basis, while not unduly affecting the privacy of individuals who are the subjects of the information being processed by the department.
+(5) Utilize all feasible technical means to ensure the security of all information submitted to the department for processing by agencies, local governmental units and entities in the private sector.
+(6) With the advice of the ethics commission, adopt and enforce standards of ethical conduct applicable to its paid consultants which are similar to the standards prescribed in subch. III of ch. 19, except that the department shall not require its paid consultants to file statements of economic interests.
+(7) Prescribe and revise as necessary performance measures to ensure financial controls and accountability, optimal personnel utilization, and customer satisfaction for all information technology functions in the executive branch outside of the University of Wisconsin System and annually, no later than March 31, report to the joint committee on information policy and technology concerning the performance measures utilized by the department and the actual performance of the department and the executive branch agencies measured against the performance measures then in effect.
+(8) Offer the opportunity to local governmental units to voluntarily obtain computer or supercomputer services from the department when those services are provided under s. 16.972 (2) (b) or (c), and to voluntarily participate in any master contract established by the department under s. 16.972 (2) (h) or in the use of any informational system or device provided by the department under s. 16.974 (3).
+(9) In consultation with the department of veterans affairs, administer a program to increase outreach to veterans regarding veterans services and benefits, and to provide training to employees of the department of veterans affairs and county veterans service officers.
+(10) Promulgate:
+(a) A definition of and methodology for identifying large, high-risk information technology projects.
+(b) Standardized, quantifiable project performance measures for evaluating large, high-risk information technology projects.
+(c) Policies and procedures for routine monitoring of large, high-risk information technology projects.
+(d) A formal process for modifying information technology project specifications when necessary to address changes in program requirements.
+(e) Requirements for reporting changes in estimates of cost or completion date to the department and the joint committee on information policy and technology.
+(f) Methods for discontinuing projects or modifying projects that are failing to meet performance measures in such a way to correct the performance problems.
+(g) Policies and procedures for the use of master leases under s. 16.76 (4) to finance new large, high-risk information technology system costs and maintain current large, high-risk information technology systems.
+(h) A standardized progress point in the execution of large, high-risk information technology projects at which time the estimated costs and date of completion of the project is reported to the department and the joint committee on information policy and technology.
+(11) Promulgate:
+(a) A requirement that each executive branch agency review commercially available information technology products prior to initiating work on a customized information technology development project to determine whether any commercially available product could meet the information technology needs of the agency.
+(b) Procedures and criteria to determine when a commercially available information technology product must be used and when an executive branch agency may consider the modification or creation of a customized information technology product.
+(c) A requirement that each executive branch agency submit for approval by the department and prior to initiating work on a customized information technology product a justification for the modification or creation by the agency of a customized information technology product.
+(12)
+(a) In this subsection, “master lease” has the meaning given under s. 16.76 (4).
+(b) Annually, no later than October 1, submit to the governor and the members of the joint committee on information policy and technology a report documenting the use by each executive branch agency, other than the Board of Regents of the University of Wisconsin System, of master leases to fund information technology projects in the previous fiscal year. The report shall contain all of the following information:
+1. The total amount paid under master leases towards information technology projects in the previous fiscal year.
+2. The master lease payment amounts approved to be applied to information technology projects in future years.
+3. The total amount paid by each executive branch agency on each information technology project for which debt is outstanding, as compared to the total financing amount originally approved for that information technology project.
+4. A summary of repayments made towards any master lease in the previous fiscal year.
+(13)
+(a) Except as provided in par. (b), include in each contract with a vendor of information technology that involves a large, high-risk information technology project under sub. (10) or that has a projected cost greater than $1,000,000, and require each executive branch agency authorized under s. 16.71 (1m) to enter into a contract for materials, supplies, equipment, or contractual services relating to information technology to include in each contract with a vendor of information technology that involves a large, high-risk information technology project under sub. (10) or that has a projected cost greater than $1,000,000 a stipulation requiring the vendor to submit to the department for approval any order or amendment that would change the scope of the contract and have the effect of increasing the contract price. The stipulation shall authorize the department to review the original contract and the order or amendment to determine all of the following and, if necessary, to negotiate with the vendor regarding any change to the original contract price:
+1. Whether the work proposed in the order or amendment is within the scope of the original contract.
+2. Whether the work proposed in the order or amendment is necessary.
+(b) The department or an executive branch agency may exclude from a contract described in par. (a) the stipulation required under par. (a) if all of the following conditions are satisfied:
+1. Including such a stipulation would negatively impact contract negotiations or significantly reduce the number of bidders on the contract.
+2. If the exclusion is sought by an executive branch agency, that agency submits to the department a plain-language explanation of the reasons the stipulation was excluded and the alternative provisions the executive branch agency will include in the contract to ensure that the contract will be completed on time and within the contract budget.
+3. If the exclusion is sought by the department, the department prepares a plain-language explanation of the reasons the stipulation was excluded and the alternative provisions the department will include in the contract to ensure that the contract will be completed on time and within the contract budget.
+4. The department submits for approval by the joint committee on information policy and technology any explanation and alternative contract provisions required under subd. 2. or 3. If, within 14 working days after the date that the department submits any explanation and alternative contract provisions required under this subdivision, the joint committee on information policy and technology does not contact the department, the explanation and alternative contract provisions shall be deemed approved.
+(14)
+(a) Require each executive branch agency, other than the Board of Regents of the University of Wisconsin system, that has entered into an open-ended contract for the development of information technology to submit to the department quarterly reports documenting the amount expended on the information technology development project. In this subsection, “open-ended contract” means a contract for information technology that includes one or both of the following:
+1. Stipulations that provide that the contract vendor will deliver information technology products or services but that do not specify a maximum payment amount.
+2. Stipulations that provide that the contract vendor shall be paid an hourly wage but that do not set a maximum limit on the number of hours required to complete the information technology project.
+(b) Compile and annually submit to the joint committee on information technology the reports required under par. (a).
+(15) By October 1 of each year, submit to the joint committee on finance and the legislature under s. 13.172 (2) a report on the administration of the information technology and communication services self-funded portal. The report shall include the following information regarding the portal for the immediately preceding fiscal year:
+(a) A financial statement of state revenues and expenditures.
+(b) A list of services available through the portal, identifying services added since the previous reporting period.
+(c) Fees charged for each service available through the portal.
+(d) The activity level of each service available through the portal.
+(e) Any other information the department determines to be appropriate to include.
+(16) No later than March 1 and September 1 of each year, submit to the joint committee on information policy and technology a report that documents for each executive branch agency information technology project with an actual or projected cost greater than $1,000,000 or that the department of administration has identified as a large, high-risk information technology project under sub. (10) (a) all of the following:
+(a) Original and updated project cost projections.
+(b) Original and updated completion dates for the project and any stage of the project.
+(c) An explanation for any variation between the original and updated costs and completion dates under pars. (a) and (b).
+(d) A copy of any contract entered into by the department for the project and not provided in a previous report.
+(e) All sources of funding for the project.
+(f) The amount of any funding provided for the project through a master lease under s. 16.76 (4).
+(g) Information about the status of the project, including any portion of the project that has been completed.
+(h) Any other information about the project, or related information technology projects, requested by the joint committee on information policy and technology.
+History: 2001 a. 16 ss. 367 to 369, 1030 to 1030m; 2003 a. 33 ss. 777 to 781; Stats. 2003 s. 16.973; 2007 a. 1, 20; 2015 a. 55, 118; 2015 a. 197 s. 51; 2017 a. 369.
+2023-24 Wisconsin Statutes updated through 2025 Wis. Act 247 and through all Supreme Court Orders and Controlled Substances Board Orders filed before and in effect on November 4, 2026. Published and certified under s. 35.18. Changes effective after November 4, 2026, are designated by NOTES. (Published 11-4-26)
+
+## Curator notes
+
+Text taken from the Legislature's statute page. The page serves a window of neighbouring sections; only the elements it tags as the section it was asked for are kept, one line per element: the section heading, each subsection and paragraph, the history line and any annotations. Site menu, reference labels and the other sections of the window removed. The last line is the Legislature's own certification line for the edition.

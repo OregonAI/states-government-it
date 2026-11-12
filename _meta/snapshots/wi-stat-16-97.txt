@@ -1,0 +1,17 @@
+16.97 Definitions. In this subchapter:
+(1m) “Agency” has the meaning given in s. 16.70 (1e).
+(2) “Authority” has the meaning given in s. 16.70 (2).
+(3) “Computer services” means any services in which a computer is utilized other than for personal computing purposes.
+(4) “Data processing” means the delivery of information processing services.
+(5m) “Executive branch agency” has the meaning given in s. 16.70 (4).
+(5p) “Form” means any written material, by whatever means printed, generated or reproduced, with blank spaces left for the entry of additional information to be used for the purpose of providing information, collecting information or requiring action in any transaction involving this state.
+(5s) “Forms management” means the system of providing forms to accomplish necessary operations efficiently and economically, including analysis and design of forms, improvement of methods of procurement, distribution and disposition of forms and improvement of methods to keep to a reasonable level the public’s duty to report. “Forms management” includes the elimination of unnecessary forms and of unnecessary data collection and standardizing, consolidating and simplifying forms and related procedures.
+(6) “Information technology” means the electronic processing, storage and transmission of information including data processing and telecommunications.
+(6m) “Information technology portfolio” means information technology systems, applications, infrastructure, and information resources and human resources devoted to developing and maintaining information technology systems.
+(7) “Local governmental unit” means a political subdivision of this state, a special purpose district in this state, an instrumentality or corporation of such a political subdivision or special purpose district, a combination or subunit of any of the foregoing or an instrumentality of the state and any of the foregoing.
+(8) “Personal computing” means utilizing a computer that is located at the same work station where the input or output of data is conducted.
+(8m) “Public contact form” means a form generated and used by any agency in transactions between the agency and a member of the public.
+(9) “Supercomputer” means a special purpose computer that performs in a scientific environment and that is characterized by a very high processing speed and power.
+(10) “Telecommunications” means all services and facilities capable of transmitting, switching, or receiving information in any form by wire, radio, or other electronic means.
+History: 2001 a. 16 ss. 346, 347, 348, 1027; Stats. 2001 s. 22.01; 2003 a. 33 ss. 232, 752 to 756; Stats. 2003 s. 16.97; 2015 a. 55.
+2023-24 Wisconsin Statutes updated through 2025 Wis. Act 247 and through all Supreme Court Orders and Controlled Substances Board Orders filed before and in effect on November 4, 2026. Published and certified under s. 35.18. Changes effective after November 4, 2026, are designated by NOTES. (Published 11-4-26)
