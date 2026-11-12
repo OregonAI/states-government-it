@@ -17,6 +17,8 @@
   tests of the shared flow stay in `tests/`). `tests/seedutil.py` writes a temp seed directory.
 - **Every generated file has a `--check` mode** and a step in both `scripts/gates.sh` and
   the `generated` job in `ci.yml`, and is rebuilt by `scripts/regen.sh`.
+- **`eval_questions.py --check` is the one generated-file check not rebuilt by `regen.sh`:** its baseline is a
+  ratchet (a cell that passes may not stop passing), so it is rewritten only by `--write-baseline`, on purpose.
 - **A check must be able to fail.** Prove it by running it once against a broken input.
 - **Pin every dependency exactly** in `requirements.txt`, with the reason.
 - Search, filters, `compare` and `coverage` are toolkit features: build them in
