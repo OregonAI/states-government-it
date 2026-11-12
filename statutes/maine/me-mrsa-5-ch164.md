@@ -1,0 +1,209 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maine
+id: me-mrsa-5-ch164
+title: Cybersecurity and Protection of Critical Infrastructure
+doc_type: statute
+citation: 5 M.R.S. ch. 164
+authority_level: ''
+issuing_body: Maine Legislature, Office of the Revisor of Statutes
+source_url: https://legislature.maine.gov/statutes/5/title5ch164.docx
+source_format: docx
+retrieved: '2026-11-12'
+source_sha256: 0a4eaea106a59a68287bfd80ac8fd0255b86937fa298a53ab546a49851778914
+effective_date: null
+source_version: Current through October 1, 2026 (Second Regular Session of the 132nd Maine Legislature)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes
+  accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's
+  cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet
+  character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside
+  text boxes (such as a cover-page title) are not read. Headings carry no markup.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- procurement
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Cybersecurity and Protection of Critical Infrastructure (5 M.R.S. ch. 164)
+
+## At a glance
+
+Enacted by PL 2023, c. 681 (An Act to Increase Cybersecurity in Maine): the Chief Information Officer maintains lists of prohibited companies, including foreign adversary business entities, and of prohibited information and communications technology and services; a State agency may not contract with a listed company or use, obtain or purchase listed technology unless the CIO waives the prohibition; local governmental entities, the judicial branch and the legislative branch are covered in their own sections; a bidder on a State contract certifies it is not a foreign adversary business entity; contracts with such entities and unwaived contracts with listed companies are void; the Department may adopt routine technical rules. The statute behind MaineIT's Prohibited Technologies list.
+
+## Full text
+
+CHAPTER 164
+
+CYBERSECURITY AND PROTECTION OF CRITICAL INFRASTRUCTURE
+
+§2021. Definitions
+
+As used in this chapter, unless the context otherwise indicates, the following terms have the following meanings. [PL 2023, c. 681, §1 (NEW).]
+
+1. Chief Information Officer. "Chief Information Officer" has the same meaning as in section 1972, subsection 2.
+
+[PL 2023, c. 681, §1 (NEW).]
+
+2. Foreign adversary. "Foreign adversary" means a foreign government or foreign nongovernment person whom the United States Secretary of Commerce has determined, pursuant to 15 Code of Federal Regulations, Section 7.4 (2024), has engaged in a long-term pattern or serious instances of conduct significantly adverse to the national security of the United States or the security and safety of United States persons.
+
+[PL 2023, c. 681, §1 (NEW).]
+
+3. Foreign adversary business entity. "Foreign adversary business entity" means any type of organization, entity or enterprise engaged in commerce, whether operated for profit, that is organized under the laws or rules of a foreign adversary, directly or indirectly owned or controlled by a foreign adversary or domiciled within the geographic borders of a foreign adversary.
+
+[PL 2023, c. 681, §1 (NEW).]
+
+4. Local governmental entity. "Local governmental entity" means any local government, political subdivision or school district and any other public or private agency, person, partnership, corporation or business entity acting on behalf of any local governmental entity.
+
+[PL 2023, c. 681, §1 (NEW).]
+
+5. State agency. "State agency" means the State, or any department, agency, board, commission or other body of State Government, including publicly funded institutions of higher education.
+
+[PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2022. Chief Information Officer to establish lists
+
+The Chief Information Officer shall establish and maintain: [PL 2023, c. 681, §1 (NEW).]
+
+1. List of prohibited companies. A list of companies, including foreign adversary business entities, that pose a national security risk or a risk to the security and safety of persons of the United States. The list must include, but is not limited to, all companies identified by statute, regulation or official guidance from the United States Department of Commerce, the Federal Communications Commission, the United States Department of Homeland Security or any other appropriate federal agency as posing a national security risk or a risk to the security and safety of persons of the United States; and
+
+[PL 2023, c. 681, §1 (NEW).]
+
+2. List of prohibited information and communications technology and services. A list of information and communications technology and services that pose a national security risk or a risk to the security and safety of persons of the United States. The list must include, but is not limited to, all information and communications technology and services identified by statute, regulation or official guidance from the United States Department of Commerce, the Federal Communications Commission, the United States Department of Homeland Security or any other appropriate federal agency as posing a national security risk or a risk to the security and safety of persons of the United States.
+
+[PL 2023, c. 681, §1 (NEW).]
+
+The lists must be published on the publicly accessible website of the Department of Administrative and Financial Services, Office of Information Technology and updated at least annually. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2023. Prohibited contract, use or purchase by state agency
+
+Except as provided in sections 2027 and 2028, a state agency may not contract with a company included on the list of prohibited companies established and maintained by the Chief Information Officer pursuant to section 2022, subsection 1 or use, obtain or purchase any information or communications technology or services included on the list of prohibited information and communications technology and services established and maintained by the Chief Information Officer pursuant to section 2022, subsection 2. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2024. Prohibited contract, use or purchase by local governmental entity
+
+Except as provided in section 2027, a local governmental entity may not use state funds in a contract with a company included on the list of prohibited companies established and maintained by the Chief Information Officer pursuant to section 2022, subsection 1 or use, obtain or purchase any information or communications technology or services included on the list of prohibited information and communications technology and services established and maintained by the Chief Information Officer pursuant to section 2022, subsection 2. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2025. Indirect transfer of state funds
+
+A local governmental entity, when purchasing information or communications technology or services or entering into a contract for goods or services, shall take all reasonable steps to ensure state funds are not indirectly transferred to a company on the list of prohibited companies maintained by the Chief Information Officer pursuant to section 2022, subsection 1. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2026. Prohibited contract, use or purchase by judicial branch and legislative branch
+
+Except as provided in sections 2027, 2029 and 2030, an office of the legislative branch or judicial branch may not contract with a company included on the list of prohibited companies established and maintained by the Chief Information Officer pursuant to section 2022, subsection 1 or use, obtain or purchase any information or communications technology or services included on the list of prohibited information and communications technology and services established and maintained by the Chief Information Officer pursuant to section 2022, subsection 2. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2027. Exemption; law enforcement
+
+The prohibitions in sections 2023 and 2024 do not apply to law enforcement entities, such as the State Police, a county sheriff's office and local law enforcement departments, to the extent the prohibitions restrict a law enforcement entity's ability to protect the public or investigate criminal activity. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2028. Waiver of prohibitions; executive branch
+
+Upon written request from a state agency, the Chief Information Officer may waive the prohibitions imposed in sections 2023 and 2024 as long as the waiver does not pose a national security risk or a risk to the security and safety of persons of the United States. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2029. Waiver of prohibitions; legislative branch
+
+The Legislative Council, established in Title 3, section 161, or its designee, may waive the prohibitions imposed in sections 2023 and 2024 as long as the waiver does not pose a national security risk or a risk to the security and safety of persons of the United States. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2030. Waiver of prohibitions; judicial branch
+
+The State Court Administrator under Title 4, section 15, or the State Court Administrator's designee, may waive the prohibitions imposed in sections 2023 and 2024 as long as the waiver does not pose a national security risk or a risk to the security and safety of persons of the United States. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2030-A. Certification required; civil violation
+
+A person that submits a bid or proposal for a contract with the State for goods or services shall certify that the person is not a foreign adversary business entity. A person that submits a false certification under this section commits a civil violation for which a fine may be adjudged in an amount that is twice the amount of the contract for which the bid or proposal was submitted or $250,000, whichever is greater. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2030-B. Contracts void
+
+The following contracts entered into by a state agency on or after the effective date of this chapter are void: [PL 2023, c. 681, §1 (NEW).]
+
+1. Foreign adversary business entity. A contract with a foreign adversary business entity;
+
+[PL 2023, c. 681, §1 (NEW).]
+
+2. Prohibited company. A contract with a company included on the list of prohibited companies established and maintained by the Chief Information Officer pursuant to section 2022, subsection 1 that was not granted a waiver under section 2028; and
+
+[PL 2023, c. 681, §1 (NEW).]
+
+3. Prohibited information or communications technology or services. A contract to purchase information or communications technology or services included on the list of prohibited information or communications technology or services established and maintained by the Chief Information Officer pursuant to section 2022, subsection 2 that was not granted a waiver under section 2028.
+
+[PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+§2030-C. Rules
+
+The department may adopt rules to implement this chapter. Rules adopted pursuant to this section are routine technical rules as defined in chapter 375, subchapter 2‑A. [PL 2023, c. 681, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2023, c. 681, §1 (NEW).
+
+The State of Maine claims a copyright in its codified statutes. If you intend to republish this material, we require that you include the following disclaimer in your publication:
+
+All copyrights and other rights to statutory text are reserved by the State of Maine. The text included in this publication reflects changes made through the Second Regular Session of the 132nd Maine Legislature and is current through October 1, 2026 . The text is subject to change without notice. It is a version that has not been officially certified by the Secretary of State. Refer to the Maine Revised Statutes Annotated and supplements for certified text.
+
+The Office of the Revisor of Statutes also requests that you send us one copy of any statutory publication you may produce. Our goal is not to restrict publishing activity, but to keep track of who is publishing what, to identify any needless duplication and to preserve the State's copyright rights.
+
+PLEASE NOTE: The Revisor's Office cannot perform research for or provide legal advice or interpretation of Maine law to the public. If you need legal assistance, please contact a qualified attorney.
+
+## Curator notes
+
+Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup.

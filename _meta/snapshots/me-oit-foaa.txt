@@ -1,0 +1,101 @@
+                                          Maine State Government
+                                Dept. of Administrative & Financial Services
+                                  Office of Information Technology (OIT)
+
+       Office of Information Technology Policy on Access to Data and
+               Information on State Owned Computer Devices
+1.0 Purpose
+
+      The responsibility for responding to Freedom of Access Act1 requests for data or information
+      that is hosted on state-owned computer devices falls to the State department and/or agency
+      responsible for the collection and use of the data or information requested. The Office of
+      Information Technology (OIT) will provide assistance to the department or agency with
+      searching for, identifying all data stored within OIT, retrieving, and/or compiling such data or
+      information when requested to do so.
+
+      The purpose of this policy is to set forth the respective responsibilities of State departments and
+      agencies, and the Office of Information Technology, in responding to Freedom of Access Act
+      requests for data or information that is hosted on state-owned computer devices.
+
+2.0 Definitions
+
+     2.1 Computer Device2 - means an electronic, magnetic, optical, electrochemical, or other high-
+         speed data processing device performing logical, arithmetic, or storage functions, and
+         includes any data storage facility or communications facility directly related to or operating
+         in conjunction with such device. Common examples currently in use include laptops,
+         personal computers, servers, and hand-held devices (including personal digital assistants
+         (PDA), and cell phones).
+
+3.0 Applicability
+
+      This policy applies to all requests for data or information presented to the Office of Information
+      Technology.
+
+4.0 Responsibilities
+
+     4.1 The Chief Information Officer (CIO) is responsible for enforcement of this policy.
+
+     4.2 The Chief Information Officer (CIO) will:
+
+         4.2.1   Immediately forward all requests for a department’s or agency’s data or information
+                 to the head of that department or agency, or their designee, for response. A notice will
+                 be sent to the requester confirming this action, and will include the contact
+
+1 http://www.mainelegislature.org/legis/statutes/1/title1ch13sec0.html
+2
+    http://legislature.maine.gov/statutes/17-a/title17-asec431.html
+
+                                                  Page 1 of 2
+
+                                                    FOAA Policy
+
+                information for the individual to whom the request was forwarded.
+
+       4.2.2    OIT will identify all medium where requested data may be stored and provide this
+                information to the responding agency.
+
+       4.2.3    As requested, assign OIT staff to provide support to agencies in meeting their
+                requests for information and data.
+
+   4.3 State departments and agencies, as required by the Freedom of Access Act, are responsible
+       for fulfilling requests for access to public records including information and data hosted on
+       state-owned computer devices. All responses and decisions regarding the production of such
+       information or data, such as the scope of the search, the redaction or withholding of
+       information, the timing and cost of production, etc., are the sole responsibility of the
+       department or agency.
+
+5.0 Directives
+
+   5.1 No OIT employee shall provide public access to data and/or information hosted on OIT
+       computer devices without prior consultation with the department or agency that is the
+       custodian of the data or information.
+
+   5.2 Freedom of Access Act requests received by OIT employees will be forwarded to the CIO who
+       will forward to the appropriate department or agency head.
+
+6.0 References
+
+   6.1 This policy supersedes the State of Maine Policy on Access to Public Records adopted by the
+       Information Services Policy Board March 9, 1990.
+
+   6.2 M.R.S.A. Title 5, Section 19823 Paragraph 9. Protection of Information Files reads in part “…All
+       data files are the property of the agency or agencies responsible for their collection and use.”
+
+7.0 Document Information
+
+    Initial Issue Date: October 6, 2006
+    Latest Revision Date: October 20, 2017 – to update Document Information.
+
+    Point of Contact: PolicyTeam.OIT@Maine.Gov
+    Approved By: Chief Information Officer, OIT
+
+    Legal Citation: Title 5, Chapter 163: Office of Information Technology4.
+    Legal Citation: Maine's Freedom of Access Act5.
+    Waiver Process: See the Waiver Policy6.
+
+3 http://legislature.maine.gov/statutes/5/title5sec1982.html
+4 http://legislature.maine.gov/statutes/5/title5ch163sec0.html
+5 http://www.maine.gov/foaa
+6 https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/waiver.pdf
+
+                                                     Page 2 of 2

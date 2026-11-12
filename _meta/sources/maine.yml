@@ -1,0 +1,1534 @@
+# Maine seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: the MaineIT Policies & Standards library, Architecture and Policy, Prohibited
+# Technologies and Digital Signatures pages (maine.gov/oit), the Revisor's chapter files (legislature.maine.gov/statutes, Word),
+# the Governor's Official Documents page, the Secretary of State's agency rule pages. Statutes are whole-chapter Word files: the
+# Legislature asserts copyright in the codified statutes and asks republishers to keep its disclaimer, which each file prints
+# and the document keeps (see left_out, first item). Statute and rule text is a Word file read by pandoc.
+sources:
+
+- id: me-mrsa-5-ch163
+  sha256: "71dbd20aaea32183be0b4ee1136c87e92cf332f25fd3dcaac400c1e51d8a099f"
+  url: https://legislature.maine.gov/statutes/5/title5ch163.docx
+  format: docx
+  citation: 5 M.R.S. ch. 163
+  title: Office of Information Technology
+  doc_type: statute
+  issuing_body: Maine Legislature, Office of the Revisor of Statutes
+  tags:
+  - governance
+  - oversight
+  - funding
+  - cybersecurity
+  - data
+  - procurement
+  found_via: https://legislature.maine.gov/statutes/5/title5ch0sec0.html (Title 5 contents), https://legislature.maine.gov/statutes/5/title5ch163sec0.html
+  why_relevant: 'The enabling statute for the Office of Information Technology and the Chief Information Officer: the Commissioner of Administrative and Financial Services appoints the CIO, who directs IT policy making, planning, architecture and standardization and the provision of IT and enterprise services across State Government (5 M.R.S. 1971-1972); the CIO sets IT policies and standards, including privacy, security and accessibility standards, approves agency IT plans and monitors compliance with statewide standards and architecture (1973); develops written standards for data processing and telecommunications, now including information security and cybersecurity (1974); an agency that buys data processing equipment, software or services without approval, or fails to follow the standards, may not buy until it complies, and the CIO may procure cybersecurity services on a retainer (1975, as amended by PL 2025, c. 698); confidentiality of vendor trade secrets and public access to documents on State computers (1976); the Office''s mission, services, internal service funds, responses to public records requests and fingerprint-based criminal history checks of the Office''s employees and its contractors'' employees (1981-1986). The file also carries subchapters 3 to 5 (geographic information systems, the Maine Library of Geographic Information and appeals, 5 M.R.S. 1991-2011), which ride along and are not separated.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-mrsa-5-ch164
+  sha256: "0c63a31f19c6d610b8536d2ac6779adf21cde810d193e91dc092020dc9430df9"
+  url: https://legislature.maine.gov/statutes/5/title5ch164.docx
+  format: docx
+  citation: 5 M.R.S. ch. 164
+  title: Cybersecurity and Protection of Critical Infrastructure
+  doc_type: statute
+  issuing_body: Maine Legislature, Office of the Revisor of Statutes
+  tags:
+  - cybersecurity
+  - procurement
+  - governance
+  found_via: https://legislature.maine.gov/statutes/5/title5ch0sec0.html (Title 5 contents), https://legislature.maine.gov/statutes/5/title5ch163sec0.html, https://www.maine.gov/oit/prohibited-technologies (names PL 2023, c. 681)
+  why_relevant: 'Enacted by PL 2023, c. 681 (An Act to Increase Cybersecurity in Maine): the Chief Information Officer maintains lists of prohibited companies, including foreign adversary business entities, and of prohibited information and communications technology and services; a State agency may not contract with a listed company or use, obtain or purchase listed technology unless the CIO waives the prohibition; local governmental entities, the judicial branch and the legislative branch are covered in their own sections; a bidder on a State contract certifies it is not a foreign adversary business entity; contracts with such entities and unwaived contracts with listed companies are void; the Department may adopt routine technical rules. The statute behind MaineIT''s Prohibited Technologies list.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-mrsa-1-ch14
+  sha256: "edbdcc5dc5059c56ad3e93077e6e117a117c8be102bfd990d582f6c526e97ef1"
+  url: https://legislature.maine.gov/statutes/1/title1ch14.docx
+  format: docx
+  citation: 1 M.R.S. ch. 14
+  title: Electronic Access to Public Information
+  doc_type: statute
+  issuing_body: Maine Legislature, Office of the Revisor of Statutes
+  tags:
+  - digital-services
+  - data
+  - funding
+  - governance
+  found_via: https://legislature.maine.gov/statutes/1/title1ch0sec0.html (Title 1 contents)
+  why_relevant: 'The InforME Public Information Access Act: InforME, the system through which the State electronically provides public information and electronic services, the InforME Board, the network manager''s contract and duties, the responsibilities of State data custodians, financial requirements and the copyright and licensing terms of electronic public information. A digital-government governance and funding statute that binds State agencies as data custodians.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-mrsa-1-ch14-a
+  sha256: "cff2f916531d987322bd0324785ae393df0c34f75f9927cbbdbabfdf5f5e4388"
+  url: https://legislature.maine.gov/statutes/1/title1ch14-A.docx
+  format: docx
+  citation: 1 M.R.S. ch. 14-A
+  title: Notice of Information Practices
+  doc_type: statute
+  issuing_body: Maine Legislature, Office of the Revisor of Statutes
+  tags:
+  - data
+  - digital-services
+  found_via: https://legislature.maine.gov/statutes/1/title1ch0sec0.html (Title 1 contents)
+  why_relevant: Every public entity (the Legislature, the Judicial Department, State agencies and authorities, the university and community college systems, and local bodies) that has a publicly accessible Internet site must develop and post a policy on its practices relating to personal information collected on the site.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-mrsa-1-ch14-b
+  sha256: "03ecec761e784817ebd20e68097f6f714efc3faa2ff57d92b1cd7b0de949aa98"
+  url: https://legislature.maine.gov/statutes/1/title1ch14-B.docx
+  format: docx
+  citation: 1 M.R.S. ch. 14-B
+  title: Data Governance Program
+  doc_type: statute
+  issuing_body: Maine Legislature, Office of the Revisor of Statutes
+  tags:
+  - data
+  - governance
+  found_via: https://legislature.maine.gov/statutes/1/title1ch0sec0.html (Title 1 contents)
+  why_relevant: 'The Secretary of State and the Commissioner of Administrative and Financial Services establish a State data governance program: data project priorities, privacy compliance, data structure and data-sharing policies, records management and adherence to the State Archivist''s retention schedules, with quarterly consultations and an annual report to the Legislature.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-mrsa-10-ch210-b
+  sha256: "94258a7b12e72faaf323187bae58b039d18036280032244a2f5e4cb220fd6fce"
+  url: https://legislature.maine.gov/statutes/10/title10ch210-B.docx
+  format: docx
+  citation: 10 M.R.S. ch. 210-B
+  title: Notice of Risk to Personal Data
+  doc_type: statute
+  issuing_body: Maine Legislature, Office of the Revisor of Statutes
+  tags:
+  - data
+  - cybersecurity
+  found_via: https://legislature.maine.gov/statutes/10/title10ch0sec0.html (Title 10 contents)
+  why_relevant: 'Included for the provision that binds State agencies: the Notice of Risk to Personal Data Act defines ''person'' to include agencies of State Government, municipalities and public universities and colleges, so a State agency that maintains computerized personal information must investigate and give notice of a breach of the security of the system. The chapter binds information brokers and every other person alike, so most of it is not specific to government.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-mrsa-10-ch1053
+  sha256: "b6837d3b3aa1b12d68ccaff1b402d535422687bfbe3afa54654f9b8ce95cd176"
+  url: https://legislature.maine.gov/statutes/10/title10ch1053.docx
+  format: docx
+  citation: 10 M.R.S. ch. 1053
+  title: Maine Digital Signature Act
+  doc_type: statute
+  issuing_body: Maine Legislature, Office of the Revisor of Statutes
+  tags:
+  - digital-services
+  - governance
+  found_via: https://legislature.maine.gov/statutes/10/title10ch0sec0.html (Title 10 contents); named by https://www.maine.gov/oit/signature
+  why_relevant: A digital signature used in a transaction involving a State agency must conform to rules adopted by the Secretary of State (10 M.R.S. 9503); the effect of a digital signature and of electronic filing with one; use is optional and a State agency is not required to accept it. The enabling statute of the Digital Signature rule (29-250 C.M.R. ch. 950), which the MaineIT Digital Signatures page applies.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-cmr-29-250-ch950
+  sha256: "d5df846699475048b3177f7ff93e2c02b51d03c0487b6d2e9fbb4d076a35d0c1"
+  url: https://www.maine.gov/sos/sites/maine.gov.sos/files/inline-files/250c950-2015-027%20ACK.docx
+  format: docx
+  citation: 29-250 C.M.R. ch. 950
+  title: Rules Governing the Use of Digital Signatures
+  doc_type: rule
+  issuing_body: Department of the Secretary of State
+  tags:
+  - digital-services
+  - governance
+  found_via: https://www.maine.gov/sos/rulemaking/agency-rules/department-secretary-state-rules (Ch. 950 (Word)); the same chapter is linked from https://www.maine.gov/oit/signature as a PDF (250c950.pdf)
+  why_relevant: 'The criteria for implementing digital signatures in transactions involving a State agency, under the Maine Digital Signature Act: definitions, the requirements a signature product must meet, and the duty of a State agency to consult the Chief Information Officer before implementing digital signatures. A Secretary of State rule; the only administrative rule found that governs State agencies'' use of IT (see left_out: MaineIT has no rule umbrella).'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-eo-25-fy-20-21
+  sha256: "8912e3e56b9b9b4ba8400e7c6cf198bfcf050c4b5ed3dfe5e298e27bbe983a5d"
+  url: https://www.maine.gov/governor/mills/sites/maine.gov.governor.mills/files/inline-files/EO%2082%2025.pdf
+  format: pdf
+  citation: Executive Order 25 FY 20/21
+  title: An Order Establishing the State of Maine Cybersecurity Advisory Council
+  doc_type: executive_order
+  issuing_body: Office of the Governor
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: AN ORDER ESTABLISHING THE STATE OF MAINE CYBERSECURITY ADVISORY COUNCIL
+  found_via: https://www.maine.gov/governor/mills/official_documents (FY 20/21 list, 1/13/2021)
+  why_relevant: Establishes the Cybersecurity Advisory Council, chaired by the Chief Information Officer, to strengthen the security and resiliency of the State's IT infrastructure, and instructs every State agency to comply with the State's information security policies, route State-owned devices through OIT approval and ensure all personnel complete OIT's Security Awareness Training. Repeals and supersedes Executive Orders 2014-0003 and 2016-006 (by its own text).
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-eo-ai-task-force-2024-12
+  sha256: "70eeba8ba5e8f362d2607f18f67a8734dee24488b5c0ba9a3999341d00d5d05e"
+  url: https://www.maine.gov/governor/mills/index.php/official_documents/executive-orders/2024-12-order-establishing-maine-artificial-intelligence-task
+  format: html
+  citation: Order of December 20, 2024 (FY 24/25)
+  title: An Order Establishing the Maine Artificial Intelligence Task Force
+  doc_type: executive_order
+  issuing_body: Office of the Governor
+  tags:
+  - ai
+  - governance
+  identity_text: An Order Establishing the Maine Artificial Intelligence Task Force
+  found_via: https://www.maine.gov/governor/mills/official_documents (FY 24/25 list, 'December 20, 2024'); the order page itself prints no date or number
+  why_relevant: 'Creates the Maine AI Task Force, charged with recommending how to prepare the economy and workforce, how to protect residents from harmful uses of AI, and the most promising uses of AI by State agencies, quasi-State agencies and other public entities; the Chief Information Officer and the OIT AI Center of Excellence sit on its Technical Advisory Committee and OIT staffs it. Directed to report by October 31, 2025; the order has no end date. The only Governor''s order found on AI. OWNER DECISION: the order creates a study body whose report is delivered, so whether it is still ''in force'' is a judgment (it was not rescinded in the list read).'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-prohibited-technologies
+  sha256: "24dbaa2ed03ed7c4177cd6774b4e080d17d8c444dbeab1c86ee37273176b98c3"
+  url: https://www.maine.gov/oit/prohibited-technologies
+  format: html
+  citation: MaineIT Prohibited Technologies (OIT Cybersecurity Directive 2024-02)
+  title: Prohibited Technologies
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  - procurement
+  found_via: https://www.maine.gov/oit/policies-standards (nav link) and https://www.maine.gov/oit/sitemap
+  why_relevant: 'The Chief Information Officer''s list of prohibited companies and technologies under 5 M.R.S. ch. 164 and OIT Cybersecurity Directive 2024-02, effective August 9, 2024 and updated annually: State agencies may not contract with, use, obtain or purchase the listed companies or technology (among them Huawei, ZTE, Kaspersky, TikTok, DeepSeek and Moonshot), with the waiver and exception rules. The page is the instrument; the Directive itself is cited by number and no file of it was found.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-digital-signatures
+  sha256: "9df0d315c3cd28499a8b39b683891fca1e73adb8511501106a7517a474ea691b"
+  url: https://www.maine.gov/oit/signature
+  format: html
+  citation: MaineIT Digital Signatures page
+  title: Digital Signatures
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - digital-services
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (nav link) and https://www.maine.gov/oit/sitemap
+  why_relevant: Requirements for digital signature products used by State agencies (X.509 PKI, PDF and Active Directory integration, certified data center, AES-256 transmission, embedded verification), the duty to consult the CIO before contracting with an approved vendor, and the products approved for the Executive Branch. Applies the Digital Signature rule.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-bhr-social-media-personal-use
+  sha256: "09f8f7dbcb4508bc25dd88fa6fc9fdcd5f7cdeced5d9371da7b81a77f865ae80"
+  url: https://www.maine.gov/bhr/state-hr-professionals/rules-policies/policy-practices-manual/Personal-Use-of-Social-Media
+  format: html
+  citation: Bureau of Human Resources Policy and Practices Manual 6.7
+  title: Social Media for Personal Use Policy
+  doc_type: policy
+  issuing_body: Bureau of Human Resources, Department of Administrative and Financial Services
+  tags:
+  - governance
+  - digital-services
+  identity_text: 6.7 Personal Use of Social Media
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Social Media for Personal Use Policy', 2015/05, linked to this page)
+  why_relevant: 'Listed in the MaineIT Policies & Standards library but issued by the Bureau of Human Resources: State employees'' personal use of social media on and off the job, with no expectation of privacy on State systems and the limits on speaking for the agency. Included because the MaineIT library lists it as one of its policies.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-bhr-dafs-it-use-work-rules
+  sha256: "113aab47d15c7e2653f19c325b9459d75cb636a04beb02de39bc6ecac7696e8e"
+  url: https://www.maine.gov/bhr/sites/bhr/files/inline-files/DAFSITPolicy.pdf
+  format: pdf
+  citation: BHR amended work rule, effective March 2, 2015
+  title: Policy and Work Rules Concerning the Use of State Information and Technology (I.T.) Equipment and Resources
+  doc_type: policy
+  issuing_body: Bureau of Human Resources, Department of Administrative and Financial Services
+  tags:
+  - governance
+  - cybersecurity
+  identity_text: POLICY AND WORK RULES CONCERNING THE USE OF STATE INFORMATION AND TECHNOLOGY (I.T.) EQUIPMENT AND RESOURCES
+  found_via: https://www.maine.gov/bhr/state-hr-professionals/rules-policies/policy-practices-manual (row 'Policy and Work Rules Concerning the Use of State Information and Technology Equipment and Resources', linked as DAFSITPolicy.pdf); the seeded BHR 6.7 page links the same bytes as DAFSITPolicy_0.pdf (same sha256 prefix 144707101105)
+  why_relevant: 'The minimum rules for using State-owned or State-leased information and technology equipment and resources (computers, mobile devices, e-mail, Internet, networks), with the duty of supervisors to stop prohibited use. Amended work rule, EFFECTIVE DATE: March 2, 2015; 4 pages. Issued through the Bureau of Human Resources manual; the printed title block does not name an issuing office, so the host is recorded.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-access-control
+  sha256: "1351e1ed8853d2c5411c9ad7f354094ffc1f18b52f165d51bc0c053e81ef84cd"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/AccessControlPolicy.pdf
+  format: pdf
+  citation: MaineIT Access Control Policy (AC)
+  title: Access Control Policy (AC)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Access Control Policy (AC)', last updated 2026/01)
+  why_relevant: The State's policy and procedures for providing access to State information assets (the NIST Access Control family), covering account management, access enforcement, remote access and the approved warning banner. Binds Executive Branch agencies and users of State information assets.
+  identity_text: Access Control Policies and Procedures (AC)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-access-control-users
+  sha256: "1c1ffc4788c26e68dc6bea09ae2a531fec7de8b70adaff0097e5a168732e1975"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/AccessControlProceduresForUsers.pdf
+  format: pdf
+  citation: MaineIT Access Control Procedures for Users (AC-2)
+  title: Access Control Procedures for Users (AC-2)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Access Control Procedures for Users (AC-2)', last updated 2026/05)
+  why_relevant: The procedures by which the State implements its access control requirements (account management AC-2, access enforcement, separation of duties, least privilege, remote access and related controls) for users of State information assets.
+  identity_text: Access Control Procedures for Users (AC-2, 3, 5, 6, 17, 18, and 19)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-app-deployment-certification-guidelines
+  sha256: "181fa390e7063016df7449ff82df17b24483aeec31ab21f2e6238dcb4d90bd36"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/OIT_App_Deployment_Certification_Guidelines.pdf
+  format: pdf
+  citation: MaineIT Application Deployment Certification Guidelines
+  title: Application Deployment Certification Guidelines
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - oversight
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Application Deployment Certification Guidelines', last updated 2025/09)
+  why_relevant: Guidelines and procedures for implementing the Application Deployment Certification policy, with a deployment communication guide for teams.
+  identity_text: Application Deployment Guidelines and Procedures
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-app-deployment-certification
+  sha256: "4e09b98c06c00da1dfac3772bc3089a0b5a7e5695ab78f26a0671dcc38facad0"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/ApplicationDeploymentCertification.pdf
+  format: pdf
+  citation: MaineIT Application Deployment Certification Policy
+  title: Application Deployment Certification Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - oversight
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Application Deployment Certification Policy', last updated 2026/07)
+  why_relevant: 'Every application is tested before production and the Chief Information Officer makes the final determination whether it is placed into production: the Application Deployment Certification policy.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-app-deployment-certification-templates
+  sha256: ''
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/OIT_App_Deployment_Certification_Signoff_Template.pdf
+  format: pdf
+  citation: MaineIT Application Deployment Certification Templates
+  title: Application Deployment Certification Templates
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - oversight
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Application Deployment Certification Templates', 2026/09)
+  stub: true
+  stub_reason: 'Not an instrument: a three-page fill-in sign-off template (''<Insert Application Development Project Name in Document Properties>'', ''Prepared By: <Author>'', ''Date of Publication: dd/mm/yy'') that the Application Deployment Certification policy has teams complete. The index lists it as a policy item, so it is a stub and not a left-out record (playbook: forms and templates).'
+  why_relevant: The blank sign-off form teams use under the Application Deployment Certification policy.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-architecture-compliance
+  sha256: "32fd39d4a69ba54b90a1850033925e7cf46c518a0bca21a1e9bb82a3510a415c"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/ArchitectureCompliancePolicy.pdf
+  format: pdf
+  citation: MaineIT Architecture Compliance Policy
+  title: Architecture Compliance Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  - cloud-resilience
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Architecture Compliance Policy', last updated 2023/04)
+  why_relevant: 'Defines the enforcement of the State''s strategic IT architecture: all information technology efforts must align with the defined architecture.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-bcdr
+  sha256: "4e65a8d408ff6200fe5a0509184251c7a8e66bdaa2ea9302aaedacb18561471f"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/BusinessContinuityDisasterRecoveryPolicy.pdf
+  format: pdf
+  citation: MaineIT Business Continuity and Disaster Recovery Policy
+  title: Business Continuity and Disaster Recovery Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cloud-resilience
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Business Continuity and Disaster Recovery Policy', last updated 2017/10)
+  why_relevant: OIT's policy for its business continuity and disaster recovery program, supporting continuity of critical functions and service delivery.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-change-management
+  sha256: "b138667209d3b58d28859773628384b865e0b9fa98ebd8a7ad58b66cd17bd4b4"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/ChangeManagementPolicy.pdf
+  format: pdf
+  citation: MaineIT Change Management Policy
+  title: Change Management Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  - oversight
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Change Management Policy', last updated 2026/01)
+  why_relevant: The State's policy and procedures for change management of State information assets, within the NIST-aligned security program.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-configuration-management
+  sha256: "86d59f62076e5804b014ce0eac8bb74f1fb67dbafe2ad619175bc260ef765536"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/ConfigurationManagementPolicy.pdf
+  format: pdf
+  citation: MaineIT Configuration Management Policy (CM)
+  title: Configuration Management Policy (CM)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Configuration Management Policy (CM)', last updated 2025/11)
+  why_relevant: The State's policy and procedures for the configuration methods applied in maintaining State information assets (the NIST Configuration Management family).
+  identity_text: Configuration Management Policy and Procedures (CM)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-copyrightable-works
+  sha256: "f22933d688bc5349ad6ac14979cd08102f850e8c26752c4d1c9d948ec549e663"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/CopyrightableWorksPolicy.pdf
+  format: pdf
+  citation: MaineIT Copyrightable Works Policy
+  title: Copyrightable Works Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Copyrightable Works Policy', last updated 2025/02)
+  why_relevant: All copyrightable works prepared by State personnel within the scope of their employment are the intellectual property of the State of Maine.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-cots-cloud
+  sha256: "b3c3715188479efeefbd7c7ddda1a35a86fb1761cd928d8797e159bf8810c02d"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/COTSCloudPolicy.pdf
+  format: pdf
+  citation: MaineIT COTS-Cloud Policy
+  title: COTS-Cloud Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cloud-resilience
+  - procurement
+  found_via: https://www.maine.gov/oit/policies-standards (row 'COTS-Cloud Policy', last updated 2019/07)
+  why_relevant: 'OIT''s decision sequence for the acquisition and hosting of new and replacement information assets: minimizing total cost of ownership by leveraging existing assets and using commercial off-the-shelf products and the commercial public cloud where appropriate.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-data-center-access
+  sha256: "7bfbdb164248a3418237780a8c718f55f50ed6c84581a452dc5662b19d9a0e82"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DataCenterAccessControlProcedure.pdf
+  format: pdf
+  citation: MaineIT Data Centers Access Control Procedure
+  title: Data Centers Access Control Procedure
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Data Centers Access Control Procedure', last updated 2019/04)
+  why_relevant: The process by which employees, contractors, vendors and others are authorized for access to OIT data centers, and the conditions that control that access.
+  identity_text: OIT Data Center Access Control Procedure
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-data-classification
+  sha256: "322e08148bd7c80aa159860c1809b65a915ecc708b4ab76e2eda6b4c9f5b7087"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DataClassificationPolicy.pdf
+  format: pdf
+  citation: MaineIT Data Classification Policy
+  title: Data Classification Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - data
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Data Classification Policy', last updated 2026/06)
+  why_relevant: How State information assets are classified and labeled so that they are protected from unauthorized use, access, disclosure, modification, loss or deletion.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-data-exchange
+  sha256: "ec310b09ed2082320237a516e0e591845041027b318c0c5dc6de61550e9728e3"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DataExchangePolicy.pdf
+  format: pdf
+  citation: MaineIT Data Exchange Policy
+  title: Data Exchange Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - data
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Data Exchange Policy', last updated 2026/04)
+  why_relevant: OIT's measures to ensure that data exchanges with Maine State information assets comply with federal and State law and with privacy and security best practice.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-digital-accessibility
+  sha256: "3950539280880ec47a6c54de5bc3b5e9391c1736b4105f6df2378c85ff0c8686"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DigitalAccessibilityPolicy.pdf
+  format: pdf
+  citation: MaineIT Digital Accessibility Policy
+  title: Digital Accessibility Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - digital-services
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Digital Accessibility Policy', last updated 2026/05)
+  why_relevant: 'Equal access to the digital information and services the State of Maine develops, procures or provides: the accessibility and usability requirements for State digital content. The same file is linked as digital-accessibility-policy.pdf from the OIT Accessibility page (byte-identical).'
+  identity_text: Digital Accessibility and Usability Policy
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-domain-name
+  sha256: "ad4b0adb4976becf32699119b00545dccd4259d1312c7464a78055bbad699dfd"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DomainNamePolicyProcedure.pdf
+  format: pdf
+  citation: MaineIT Domain Name Policy & Procedure
+  title: Domain Name Policy & Procedure
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - digital-services
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Domain Name Policy & Procedure', last updated 2026/08)
+  why_relevant: Instructions for the use of domain names on the Worldwide Web by the Executive Branch and other Maine government entities operating under Maine.Gov, with the workflow for working with the CIO on domain names.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-drone
+  sha256: "22e704fd6ef6c7668a19f3ae323e9d13ed1e00171654196396aec5f928dd2f82"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DronePolicy.pdf
+  format: pdf
+  citation: MaineIT Drone (Unmanned Aerial Vehicle) Policy
+  title: Drone (Unmanned Aerial Vehicle) Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Drone (Unmanned Aerial Vehicle) Policy', last updated 2024/08)
+  why_relevant: Guidelines for the use of Unmanned Aerial Vehicles (drones) by State of Maine Executive Branch personnel, excluding law enforcement and public safety use.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-enterprise-name-resolution
+  sha256: "17023cb72c709d0897740cebc34416c0f0b41ffdcf67a31e86f7cffed5399e55"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/EnterpriseDNSProcedure.pdf
+  format: pdf
+  citation: MaineIT Enterprise Name Resolution Procedure
+  title: Enterprise Name Resolution Procedure
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cloud-resilience
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Enterprise Name Resolution Procedure', last updated 2019/04)
+  why_relevant: The procedure State agencies follow in naming enterprise information technology assets in the State's DNS environment, under OIT's Domain Naming Policy.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-foaa
+  sha256: "e86695ffb8e2a5c328f45d0e634c4281e292ba7dd5673c630970271a3d246e48"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/FOAAPolicy.pdf
+  format: pdf
+  citation: MaineIT FOAA Policy
+  title: FOAA Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - data
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'FOAA Policy', last updated 2017/10)
+  why_relevant: 'How requests under the Freedom of Access Act for data hosted on State-owned computer devices are answered: responsibility sits with the collecting agency and OIT provides technical assistance.'
+  identity_text: Office of Information Technology Policy on Access to Data and
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-forensic-investigation
+  sha256: "90b43258722fb21b83f5ca4b02c61b8d071a5c31e1f1136de9f4dedff1bea5a6"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/ForensicInvestigationWorkflowPolicy.pdf
+  format: pdf
+  citation: MaineIT Forensic Investigation Workflow Policy
+  title: Forensic Investigation Workflow Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Forensic Investigation Workflow Policy', last updated 2026/09)
+  why_relevant: Codifies the workflow OIT follows to perform forensic investigations, including chain of custody.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-genai
+  sha256: "54a1af5c2e58af7d834d8f5d79270c1325906a27f757a2d35262a23289c8d627"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/GenAIPolicy.pdf
+  format: pdf
+  citation: MaineIT GenAI Policy
+  title: GenAI Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - ai
+  - governance
+  - data
+  found_via: https://www.maine.gov/oit/policies-standards (row 'GenAI Policy', last updated 2026/10)
+  why_relevant: 'The State''s policy on generative AI: Guiding Principles and Directives for responsible, transparent and ethical use of GenAI within the Executive Branch of Maine State Government. The principal AI instrument binding Maine agencies.'
+  identity_text: Generative Artificial Intelligence (GenAI) Policy
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-global-address-list
+  sha256: "87f6283f4bccf6cb8366b7d83e6ae90a2399c6b004cfef57e29387aceec13c33"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/GALStandard.pdf
+  format: pdf
+  citation: MaineIT Global Address List Standard
+  title: Global Address List Standard
+  doc_type: standard
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Global Address List Standard', last updated 2026/08)
+  why_relevant: The standard by which OIT manages the Global Address List of the State's Enterprise Messaging System, so that mailbox address and contact information is managed by approved methods.
+  identity_text: Email Global Address List Management Standard
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-hosting-housing
+  sha256: "0d1382edb0e9b51112856e1a01ed53d6ff9dea97cefc9aa3e2195fa0b959fd13"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/HostingHousingPolicy.pdf
+  format: pdf
+  citation: MaineIT Hosting & Housing Policy
+  title: Hosting & Housing Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cloud-resilience
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Hosting & Housing Policy', last updated 2020/11)
+  why_relevant: Explains the two ways of using OIT data centers (housing and hosting) and the difference between them.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-hosting-customization
+  sha256: "3f89815447442dc10536dbeca6e8217d18bc2d9297b4326d8671a8540e537651"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/HostingCustomizationPolicy.pdf
+  format: pdf
+  citation: MaineIT Hosting-Customization Policy
+  title: Hosting-Customization Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cloud-resilience
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Hosting-Customization Policy', last updated 2019/07)
+  why_relevant: Identifies OIT hosting and customization options and the policies relevant to each hosting and customization scenario.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-information-privacy
+  sha256: "77d1f21fdb6267eaee903e99de1286d363f80567d435446357b10394d08d751f"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/InformationPrivacyPolicy.pdf
+  format: pdf
+  citation: MaineIT Information Privacy Policy
+  title: Information Privacy Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - data
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Information Privacy Policy', last updated 2017/09)
+  why_relevant: State of Maine implementations of information and telecommunication technologies must protect the confidentiality of non-public records collected from respondents or from other sources.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-information-security
+  sha256: "4c9216a2e068ef3bcf0eb237df8f5f91f5c59890b9b44ec6554aa4efc0d10034"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SecurityPolicy.pdf
+  format: pdf
+  citation: MaineIT Information Security Policy
+  title: Information Security Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Information Security Policy', last updated 2024/05)
+  why_relevant: 'The Information Security Policy: a reference document with pointers to the specific State (largely NIST-based) policies that set the minimum benchmarks to protect State information assets.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-informe-network-services
+  sha256: "a9657df02ba3b481973bf714dfbf2e3e76af2dc02dbec7931d30855e0c95e96e"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/InforMENetworkServicesPolicy.pdf
+  format: pdf
+  citation: MaineIT InforME Network Services Policy
+  title: InforME Network Services Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - digital-services
+  - funding
+  found_via: https://www.maine.gov/oit/policies-standards (row 'InforME Network Services Policy', last updated 2022/03)
+  why_relevant: 'The InforME Network, formed for the purposes of the InforME Public Information Access Act (1 M.R.S. ch. 14): how a Network Manager builds and operates the State''s self-supporting public-information and electronic-services network.'
+  identity_text: OIT InforME Network Services Policy
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-infrastructure-deployment-certification
+  sha256: "96d8940faab0a7bf1709c57b7c428f7a5d8cbce9a47cb815c18ebaab84dac130"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/Infrastructure-Deployment-Certification.pdf
+  format: pdf
+  citation: MaineIT Infrastructure Deployment Certification Policy
+  title: Infrastructure Deployment Certification Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - oversight
+  - cloud-resilience
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Infrastructure Deployment Certification Policy', last updated 2022/03)
+  why_relevant: Critical infrastructure technology must be tested before deployment and the Chief Information Officer makes the final determination whether it is suitable.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-major-incident
+  sha256: "87ce8f65cf8629b73a81a4dc56073e8637ae5eb7d1907cf75a000fa8b4e0a962"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/MajorIncidentProcedure.pdf
+  format: pdf
+  citation: MaineIT Major Incident Procedure
+  title: Major Incident Procedure
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cloud-resilience
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Major Incident Procedure', last updated 2023/12)
+  why_relevant: OIT's Major Incident command, control and communication protocol, by which agencies and OIT respond to Major Incidents together.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-ms-low-code-governance
+  sha256: "ad51462a322e5920cf154d29233943c94a0c754b3dd4bb120340b285f3b1175c"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/MSLowCodeGovernance.pdf
+  format: pdf
+  citation: MaineIT Microsoft Low-Code Governance
+  title: Microsoft Low-Code Governance
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Microsoft Low-Code Governance', last updated 2023/12)
+  why_relevant: Guidance for the Executive Branch on the three Microsoft low-code platforms (Power Automate, Power Apps and Dynamics 365), to help agencies and OIT create and maintain low-code solutions.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-power-platform-quick-start
+  sha256: "de36b578493c8be4263f1048ee00b6818434b60ad24a07d0293ffd378b725c88"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/PowerPlatformQuickStart.pdf
+  format: pdf
+  citation: 'MaineIT Microsoft Power Platform Governance: Quick Start'
+  title: 'Microsoft Power Platform Governance: Quick Start'
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: 'https://www.maine.gov/oit/policies-standards (row ''Microsoft Power Platform Governance: Quick Start'', last updated 2021/10)'
+  why_relevant: Brief guidance on the three Power Platform products (Power Apps, Power Automate and Power BI) in the Government Community Cloud, with use-case suggestions.
+  identity_text: Power Platform Quick Start
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-power-platform-escalation-path
+  sha256: ''
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/PowerPlatformEscalationPath.pdf
+  format: pdf
+  citation: 'MaineIT Microsoft Power Platform: Escalation Path'
+  title: 'Microsoft Power Platform: Escalation Path'
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: 'https://www.maine.gov/oit/policies-standards (row ''Microsoft Power Platform: Escalation Path'', 2021/10)'
+  stub: true
+  stub_reason: 'Not readable as text: a one-page decision flowchart (152 words on one page) whose pdftotext -layout output is a scatter of boxes (''Is the service down?'', ''Contact MaineIT CIS'', ''Open Office Hours'') with no reading order, and it is a diagram, not an instrument. The index lists it as a policy item. Measured 2026-11-12 on the bytes fetched through the Fetcher.'
+  why_relevant: Who to contact when a Power Platform app fails (a flowchart in the MaineIT library).
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-mobile-application
+  sha256: "68b6528501e5f97fde5e57efc0ae769a0d9d7aae46d396a41ef96ffb1d85ce63"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/MobileApplicationPolicy.pdf
+  format: pdf
+  citation: MaineIT Mobile Application Policy
+  title: Mobile Application Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Mobile Application Policy', last updated 2026/03)
+  why_relevant: Governance, security requirements and oversight for mobile applications that access, store, transmit or process State information assets in official business.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-mobile-device
+  sha256: "49a1796cee1b067baf051825a2d8afefb8527c1994428ff4a218b2ae7c61b087"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/MobileDevicePolicy.pdf
+  format: pdf
+  citation: MaineIT Mobile Device Policy
+  title: Mobile Device Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Mobile Device Policy', last updated 2024/03)
+  why_relevant: The criteria for access to State information assets from mobile devices.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-network-device-management
+  sha256: "795bf209365909188e1fcc55875f14dadf42086ae4b85d902c877b317516da58"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/NetworkDeviceManagementPolicy.pdf
+  format: pdf
+  citation: MaineIT Network Device Management Policy
+  title: Network Device Management Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Network Device Management Policy', last updated 2026/08)
+  why_relevant: The rules that apply to devices not managed by OIT that seek to attach to the State Wide Area Network.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-off-hours-coverage
+  sha256: "d6f4ddc96b1b81603209c2d6c7ca683369d3f69de8819116077d5cab324de2a6"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/OffHoursCoveragePolicy.pdf
+  format: pdf
+  citation: MaineIT Off-Hours Coverage Policy
+  title: Off-Hours Coverage Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Off-Hours Coverage Policy', last updated 2018/08)
+  why_relevant: Customer expectations and staff compensation for OIT off-hours coverage.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-building-access
+  sha256: "924983a6774c1fbba4f3d3970bf30e8e318d2ee32289f1cf6b0b5b03391c5a4a"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/OITBuildingAccessProcedures.pdf
+  format: pdf
+  citation: MaineIT OIT Building Access Procedures
+  title: OIT Building Access Procedures
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'OIT Building Access Procedures', last updated 2019/04)
+  why_relevant: The process by which employees, contractors, vendors and others are authorized to enter OIT buildings, and the conditions that control it, under the OIT Security Officer.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-personnel-security
+  sha256: "8b4e651ac6347a72c6db1bab21e1fe37f3065a0fd26bd1ca3986be681feecbf4"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/PersonnelSecurityPolicy.pdf
+  format: pdf
+  citation: MaineIT Personnel Security Policy and Procedures (PS)
+  title: Personnel Security Policy and Procedures (PS)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Personnel Security Policy and Procedures (PS)', last updated 2025/09)
+  why_relevant: The State's policy and procedures governing screening of, and access to State information assets by, personnel (the NIST Personnel Security family).
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-physical-environmental-protection
+  sha256: "c8298fc295134bedc1a200d9015b41320078ba0c416464532f427131642adef6"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/PhysicalandEnvironmentalProtection.pdf
+  format: pdf
+  citation: MaineIT Physical and Environmental Protection Policy (PE)
+  title: Physical and Environmental Protection Policy (PE)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Physical and Environmental Protection Policy (PE)', last updated 2025/10)
+  why_relevant: The State's policy and procedures for protecting State information, staff and information assets from physical and environmental risks (the NIST Physical and Environmental Protection family).
+  identity_text: Physical and Environmental Protection Policy and Procedures (PE)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-policy-creation-process
+  sha256: "4bbdb12a513666a64232f40a96353e05e7bdf88764e616cee1ba73848f4d897f"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/PolicyStandardProcedureCreationProcess.pdf
+  format: pdf
+  citation: MaineIT Policy, Standard or Procedure Creation Process
+  title: Policy, Standard or Procedure Creation Process
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Policy, Standard or Procedure Creation Process', last updated 2019/09)
+  why_relevant: How MaineIT adopts, formats, reviews and updates IT policies, standards and procedures.
+  identity_text: Policy, Standard, or Procedure Creation Process
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-program-management
+  sha256: "2fe1a4e8517dc1e9239e3c00b4ee2ef66abbf8aa598249ff0b947e8f7a1e18b0"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/ProgramManagementPolicy.pdf
+  format: pdf
+  citation: MaineIT Program Management Policy and Procedures (PM)
+  title: Program Management Policy and Procedures (PM)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Program Management Policy and Procedures (PM)', last updated 2025/12)
+  why_relevant: The State's policy and procedures for oversight of the organization-wide information security program (the NIST Program Management family).
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-public-data-jack
+  sha256: "cdac2a77ed73946c0971056817391422210798c3c9660d268952a7fb17fe6ee7"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/PublicDataJackPolicy.pdf
+  format: pdf
+  citation: MaineIT Public Data Jack Policy
+  title: Public Data Jack Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Public Data Jack Policy', last updated 2018/07)
+  why_relevant: Data jacks in State facilities that the public can reach are shut down, so that the State network, which accepts credit card payments, can comply with the PCI-DSS data security standard.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-remote-hosting
+  sha256: "55531bdd011fb1d3c03ff89d2f4177ea9dd0201ef8e7ee1bd19062004eb0a6d0"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/RemoteHostingPolicy.pdf
+  format: pdf
+  citation: MaineIT Remote Hosting Policy
+  title: Remote Hosting Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cloud-resilience
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Remote Hosting Policy', last updated 2025/05)
+  why_relevant: Requirements for remote and cloud-hosted information assets of Maine State Government.
+  identity_text: Remote/Cloud Hosting Policy
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-risk-assessment
+  sha256: "5be95b021cc0ced08e4e4d677866c8a6a26ca14bcde4002ed7af2c85fb329d9c"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/RiskAssessmentPolicyProcedure.pdf
+  format: pdf
+  citation: MaineIT Risk Assessment Policy and Procedures (RA)
+  title: Risk Assessment Policy and Procedures (RA)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Risk Assessment Policy and Procedures (RA)', last updated 2025/10)
+  why_relevant: The State's policy and procedures for comprehensive assessment and management of security risks to State information assets (the NIST Risk Assessment family).
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-rules-of-behavior
+  sha256: "b9296e4c59dc4c854dbae1938633f34d31f038c242f2394fbb52d7565eca86cb"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/RulesofBehavior.pdf
+  format: pdf
+  citation: MaineIT Rules of Behavior Policy (PL-4)
+  title: Rules of Behavior Policy (PL-4)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Rules of Behavior Policy (PL-4)', last updated 2026/10)
+  why_relevant: The responsibilities and expected behavior of general and privileged users of State information or information assets, based on NIST controls.
+  identity_text: Rules of Behavior (PL-4)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-salesforce-background
+  sha256: "76c4d282f559bf734e1294df0198299b4f46b97a0c15f0f9627cb6509af5ca0f"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SalesforceGovBackground.pdf
+  format: pdf
+  citation: 'MaineIT Salesforce Governance: Background'
+  title: 'Salesforce Governance: Background'
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: 'https://www.maine.gov/oit/policies-standards (row ''Salesforce Governance: Background'', last updated 2021/09)'
+  why_relevant: 'Background to the Salesforce governance document for the State Executive Branch: definitions and the prerequisites for the governance that follows.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-salesforce-details
+  sha256: "60421c7ef6cd7b831ac881b1a087a9cee25e6304a4365ded463ad4103477b070"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SalesforceGovDetails.pdf
+  format: pdf
+  citation: 'MaineIT Salesforce Governance: Details'
+  title: 'Salesforce Governance: Details'
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: 'https://www.maine.gov/oit/policies-standards (row ''Salesforce Governance: Details'', last updated 2021/09)'
+  why_relevant: Specifies the governance of Salesforce within the State Executive Branch, including the roles and responsibilities of the parties.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-salesforce-executive-summary
+  sha256: "3d0f422e9b3606801b8e4217bf2dfcd0cba923bc5781f58a9d6bd9ed98e4efa2"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SalesforceGovExecutiveSummary.pdf
+  format: pdf
+  citation: 'MaineIT Salesforce Governance: Executive Summary'
+  title: 'Salesforce Governance: Executive Summary'
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: 'https://www.maine.gov/oit/policies-standards (row ''Salesforce Governance: Executive Summary'', last updated 2021/09)'
+  why_relevant: 'A one-page summary of Salesforce governance in the Executive Branch: the Salesforce Governance Committee, under the authority of the CIO, oversees all Executive Branch Salesforce use.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-sdlc
+  sha256: "b12b1a55b36ec3866980dbd5663cc218e02bd27ef3c6f9dfe91e47bdd98601b7"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SDLCPolicy.pdf
+  format: pdf
+  citation: MaineIT SDLC Policy
+  title: SDLC Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - oversight
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'SDLC Policy', last updated 2026/10)
+  why_relevant: All application projects follow the State's Software Development Lifecycle, which integrates secure development, quality, compliance and risk management.
+  identity_text: Software Development Lifecycle Policy (SDLC)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-sdlc-procedure
+  sha256: "4af01e0f6dc76f8b082ec601d749a267ceab7c726d0c8e515f7753ad00fb528a"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SDLCProcedure.pdf
+  format: pdf
+  citation: MaineIT SDLC Procedure
+  title: SDLC Procedure
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - oversight
+  found_via: https://www.maine.gov/oit/policies-standards (row 'SDLC Procedure', last updated 2026/10)
+  why_relevant: How Application Owners create the SDLC artifacts that the SDLC Policy requires for major application projects.
+  identity_text: Software Development Lifecycle Procedure
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-ca-security-assessment-authorization
+  sha256: "fe107814e0f3422337acf3c2dfd5b436c4311e84f10755f208129b97c9ba942d"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SecurityAssessmentAuthorizationPolicy.pdf
+  format: pdf
+  citation: MaineIT Security Assessment and Authorization Policy and Procedures (CA)
+  title: Security Assessment and Authorization Policy and Procedures (CA)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Security Assessment and Authorization Policy and Procedures (CA)', last updated 2025/10)
+  why_relevant: How OIT conducts and supports security assessments of information assets and decides whether they meet specified security objectives (the NIST Security Assessment and Authorization family).
+  identity_text: Security Assessment and Authorization Policy and Procedures
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-at-security-awareness-training
+  sha256: "62a1b24c6e8a8aafc06809649bc4087d286142770e625235e84bae962acbeb18"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SecurityAwarenessTrainingPolicy.pdf
+  format: pdf
+  citation: MaineIT Security Awareness and Training Policy and Procedures (AT)
+  title: Security Awareness and Training Policy and Procedures (AT)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Security Awareness and Training Policy and Procedures (AT)', last updated 2025/09)
+  why_relevant: The State's policy and procedures to make sure cybersecurity training and awareness for State staff are established and adequate.
+  identity_text: Security Awareness and Training Policy (AT)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-pl-security-planning
+  sha256: "ae6ecadba5b644c9c3c312325d2c1621d89cb24cf69d64283d74a34f94f077b8"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SecurityPlanning.pdf
+  format: pdf
+  citation: MaineIT Security Planning Policy and Procedures (PL)
+  title: Security Planning Policy and Procedures (PL)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Security Planning Policy and Procedures (PL)', last updated 2025/10)
+  why_relevant: The State's policy and procedures to develop and manage security planning processes that reduce risk to State information assets.
+  identity_text: Planning Policy and Procedures (PL)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-site-to-site-vpn
+  sha256: "477b24c2d93b2390c6b5685927394743922dfc012fad4588d2599acac4eb1b7b"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SiteToSiteVPNPolicy.pdf
+  format: pdf
+  citation: MaineIT Site-to-Site VPN Policy
+  title: Site-to-Site VPN Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Site-to-Site VPN Policy', last updated 2026/11)
+  why_relevant: Guidelines and security requirements for establishing and maintaining Site-to-Site VPN connections to networks owned or operated by the State.
+  identity_text: Site-to-Site VPN Interconnections Policy
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-social-media-state-business
+  sha256: "5737b2648b8278d0d9b4bcbc78d75c3d6d8a7fa4d56584632ffff47969b07f64"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SocialMediaStateBusiness.pdf
+  format: pdf
+  citation: MaineIT Social Media for State Business Policy
+  title: Social Media for State Business Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - digital-services
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Social Media for State Business Policy', last updated 2024/06)
+  why_relevant: Proper use of social media by State agencies for State business, subject to safeguards.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-sc-system-communications-protection
+  sha256: "3c565ff73b0bfd593f544ef5310549eecba5f664ac3933b2dc7faaac6721fb70"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SystemCommunicationsProtectionPolicy.pdf
+  format: pdf
+  citation: MaineIT System and Communications Protection Policy and Procedures (SC-1)
+  title: System and Communications Protection Policy and Procedures (SC-1)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'System and Communications Protection Policy and Procedures (SC-1)', last updated 2026/01)
+  why_relevant: The State's policy and procedures to protect Agency information systems and their communications (the NIST System and Communications Protection family).
+  identity_text: System and Communication Protection Policy and Procedures (SC)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-sc-defense-in-depth
+  sha256: "5361a6d24f55d2a1d5a5aaee0c38dee4802ed3b88101a64d3dbe5950b3b6a35f"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SCDefenseInDepthProcedures.pdf
+  format: pdf
+  citation: MaineIT System and Communications Protection Policy and Procedures for Defense in Depth (SC-2, 4, 5, 20, 21, 22, 23, 28, 32, 39)
+  title: System and Communications Protection Policy and Procedures for Defense in Depth (SC-2, 4, 5, 20, 21, 22, 23, 28, 32, 39)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'System and Communications Protection Policy and Procedures for Defense in Depth (SC-2, 4, 5, 20, 21, 22, 23, 28, 32, 39)', last updated 2026/01)
+  why_relevant: 'Procedures for defense-in-depth cybersecurity of State information assets: application partitioning, information in shared resources and related system and communications protection controls.'
+  identity_text: System and Communications Protection Procedures for Defense-in-Depth
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-sc-encryption-mechanisms
+  sha256: "75dcd15eb3a4fd1a00af066ac388f24faa3481d2e5723c3194e5ef3c24edec1e"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SCEncryptionMechanismsProcedures.pdf
+  format: pdf
+  citation: MaineIT System and Communications Protection Procedures for Encryption Mechanisms (SC-12, 13, and 17)
+  title: System and Communications Protection Procedures for Encryption Mechanisms (SC-12, 13, and 17)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'System and Communications Protection Procedures for Encryption Mechanisms (SC-12, 13, and 17)', last updated 2025/12)
+  why_relevant: Procedures for implementing secure encryption mechanisms for State information assets.
+  identity_text: System and Communications Protection Procedures for Encryption Mechanisms
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-sc-specific-technologies
+  sha256: "28825a64284615684a6ac928332efb9af026d9a32987d47055ce05127e22254c"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SCSpecificTechnologies.pdf
+  format: pdf
+  citation: MaineIT System and Communications Protection Policy and Procedures for Specific Technologies (SC-6, 10, 15, 18, 19)
+  title: System and Communications Protection Policy and Procedures for Specific Technologies (SC-6, 10, 15, 18, 19)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'System and Communications Protection Policy and Procedures for Specific Technologies (SC-6, 10, 15, 18, 19)', last updated 2026/01)
+  why_relevant: Procedures for system and communications protection requirements for specific technologies in the State's IT environment.
+  identity_text: System and Communications Protection Procedures for Specific Technologies
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-si-system-information-integrity
+  sha256: "44a88bbbf66e0133fe0a345a2a0d05c15ba8823a3ef76c489e523d1ecc39b85c"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SystemInformationIntegrityPolicy.pdf
+  format: pdf
+  citation: MaineIT System and Information Integrity Policy and Procedures (SI-1)
+  title: System and Information Integrity Policy and Procedures (SI-1)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'System and Information Integrity Policy and Procedures (SI-1)', last updated 2025/10)
+  why_relevant: The State's policy and procedures to ensure system and information integrity (the NIST System and Information Integrity family).
+  identity_text: System and Information Integrity Policy and Procedures (SI)
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-sa-system-services-acquisition
+  sha256: "168ea39c13eb5dc8cdd60543f1e84dfec2a7391e99a9a3a7d7cb14a04af3ddb2"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/SystemAndServicesAcquisitionPolicy.pdf
+  format: pdf
+  citation: MaineIT System and Services Acquisition Policy and Procedures (SA)
+  title: System and Services Acquisition Policy and Procedures (SA)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - procurement
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'System and Services Acquisition Policy and Procedures (SA)', last updated 2026/05)
+  why_relevant: The State's policy and procedures for the secure acquisition, development and management of information systems and services (the NIST System and Services Acquisition family).
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-telecom-wiring
+  sha256: "a4e27586e086c7e77f6b387b06b35363c8f4feac8935189c631ae1fe6f9c6f30"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/WiringSpecs.pdf
+  format: pdf
+  citation: MaineIT Telecommunications Facilities and Wiring Specifications
+  title: Telecommunications Facilities and Wiring Specifications
+  doc_type: standard
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cloud-resilience
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Telecommunications Facilities and Wiring Specifications', last updated 2024/01)
+  why_relevant: OIT Network Services Division specifications for State telecommunications facilities and structured cabling.
+  identity_text: TELECOMMUNICATIONS FACILITIES & WIRING SPECIFICATIONS
+  no_text_pages:
+  - 45
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-user-device-commodity-app
+  sha256: "b84fdb74946e77a19c29191a1cef46bc30c65d39ed17bfbe35ea80bbfe0d7904"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/UserDeviceCommodityAppPolicy.pdf
+  format: pdf
+  citation: MaineIT User Device and Commodity Application Policy
+  title: User Device and Commodity Application Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - procurement
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'User Device and Commodity Application Policy', last updated 2026/05)
+  why_relevant: 'Maine State information and communication technology exists exclusively for official State business: the directives on user devices and on the commodity applications allowed on or consumed from them.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-vendor-identity-integration
+  sha256: "b2d3d313e1487dc1ed1426fc6d11c05e842bc4894b0ac86354e9c322ec094387"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/VendorIdentitySystemIntegrationPolicy.pdf
+  format: pdf
+  citation: MaineIT Vendor Identity System Integration Policy
+  title: Vendor Identity System Integration Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Vendor Identity System Integration Policy', last updated 2026/06)
+  why_relevant: Security requirements for connecting Vendor Identity Management systems to State identity systems, including Active Directory.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-vulnerability-scanning
+  sha256: "749ae78f67213b174bfe52d12a91eab9ba138205a06a48cc44f31f52fcb60e2c"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/VulnerablityScanningProcedure.pdf
+  format: pdf
+  citation: MaineIT Vulnerability Scanning Procedure (RA-5)
+  title: Vulnerability Scanning Procedure (RA-5)
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - cybersecurity
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Vulnerability Scanning Procedure (RA-5)', last updated 2026/09)
+  why_relevant: OIT's procedures for assessing cybersecurity vulnerabilities by proactive scanning of information assets and addressing them in a timely fashion (NIST RA-5).
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-waiver
+  sha256: "480c977bbe4d2bb099cc0a8617a29f4d79111bed92883ad5f9737b7ba2a6e8b2"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/Waiver.pdf
+  format: pdf
+  citation: MaineIT Waiver Policy
+  title: Waiver Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Waiver Policy', last updated 2026/05)
+  why_relevant: The process by which an exception to a policy, standard or procedure is requested, granted and tracked.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-web-standards
+  sha256: "20ef544cf5372670740e92367bdf1967b4f19c0c6a450839d2320425c0ccebf2"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/WebStandards.pdf
+  format: pdf
+  citation: MaineIT Web Standards
+  title: Web Standards
+  doc_type: standard
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - digital-services
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Web Standards', last updated 2020/01)
+  why_relevant: 'Standards for the State''s websites: consistent, accessible design and management across the enterprise.'
+  identity_text: Maine State Web Standards
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-website-acceptance
+  sha256: "9e4dcf12452f0683a4dfc2d20e17de526166cc8b4c8f3df049ac6cd2a0e4a156"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/WebsiteAcceptancePolicy.pdf
+  format: pdf
+  citation: MaineIT Website Acceptance Policy
+  title: Website Acceptance Policy
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - digital-services
+  found_via: https://www.maine.gov/oit/policies-standards (row 'Website Acceptance Policy', last updated 2020/01)
+  why_relevant: How eGovernment Services ensures that new web content conforms to the State Web Standards and the Accessibility Policy.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-oit-general-architecture-principles
+  sha256: "3b9b185241c070810c1a819d0b45ab4f292e1cfd4157ea314c5d00384a6057fe"
+  url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/GeneralArchitecturePrinciples.pdf
+  format: pdf
+  citation: MaineIT General Architecture Principles
+  title: General Architecture Principles
+  doc_type: policy
+  issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial Services
+  tags:
+  - governance
+  - cloud-resilience
+  identity_text: General Architecture Principles
+  found_via: https://www.maine.gov/oit/architecture (link 'General Architecture Principles (PDF)'); not a row of the library table
+  why_relevant: The principles that guide Maine State IT stakeholders where formal policies, standards and procedures cannot cover every decision. Linked from the MaineIT Architecture and Policy page, not from the Policies & Standards table.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-watch-oit-policies-standards
+  sha256: ''
+  url: https://www.maine.gov/oit/policies-standards
+  format: html
+  citation: MaineIT Policies & Standards library
+  title: 'MaineIT: Policies & Standards (the statewide IT policy and standards library)'
+  doc_type: policy
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: 'The statewide IT policy library index: 69 rows on 2026-11-12 (66 PDFs seeded as documents, 2 stubs, 1 Bureau of Human Resources web page seeded as a document; see the left-out notes). A row added, removed or re-dated raises a review report. It has no status column: every row is current.'
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-watch-oit-architecture
+  sha256: ''
+  url: https://www.maine.gov/oit/architecture
+  format: html
+  citation: MaineIT Architecture and Policy page
+  title: 'MaineIT: Architecture and Policy'
+  doc_type: policy
+  tags:
+  - governance
+  - cloud-resilience
+  watch_only: true
+  why_relevant: Names the Architecture and Policy team and links the General Architecture Principles PDF (seeded). A new instrument linked here raises a review report.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-watch-governor-official-documents
+  sha256: ''
+  url: https://www.maine.gov/governor/mills/official_documents
+  format: html
+  citation: 'Governor Mills: Official Documents (executive orders by fiscal year)'
+  title: 'Governor of Maine: Official Documents'
+  doc_type: executive_order
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: The Governor's list of executive orders, FY 18/19 to FY 25/26 (all fiscal years on one page). A new order on IT, cybersecurity, data or AI raises a review report.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-watch-sos-rules-secretary-of-state
+  sha256: ''
+  url: https://www.maine.gov/sos/rulemaking/agency-rules/department-secretary-state-rules
+  format: html
+  citation: Department of the Secretary of State rules (29-250, 29-255)
+  title: Secretary of State Rules
+  doc_type: rule
+  tags:
+  - digital-services
+  - data
+  watch_only: true
+  why_relevant: Lists 29-250 chapter 950 (Digital Signatures, seeded) and the State Archives' records rules 29-255 chapters 1 to 3 (left out). A new rule chapter on electronic signatures or records raises a review report.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-watch-sos-rules-dafs
+  sha256: ''
+  url: https://www.maine.gov/sos/rulemaking/agency-rules/department-administrative-financial-services
+  format: html
+  citation: Department of Administrative and Financial Services rules (18-xxx)
+  title: DAFS Rules
+  doc_type: rule
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: The Administrative Procedure Act office's list of DAFS rule chapters. It has no umbrella for the Office of Information Technology on 2026-11-12; a new OIT umbrella or an IT chapter under 5 M.R.S. 2030-C raises a review report.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-watch-title5-contents
+  sha256: ''
+  url: https://legislature.maine.gov/statutes/5/title5ch0sec0.html
+  format: html
+  citation: Maine Revised Statutes, Title 5 contents
+  title: 'Maine Revised Statutes Title 5: contents'
+  doc_type: statute
+  tags:
+  - governance
+  - cybersecurity
+  watch_only: true
+  why_relevant: The chapter list of Title 5, where chapters 163 and 164 sit; a new chapter on IT, cybersecurity or AI (or a repealed chapter) raises a review report.
+  jurisdiction: maine
+  recheck: monthly
+
+- id: me-watch-title1-contents
+  sha256: ''
+  url: https://legislature.maine.gov/statutes/1/title1ch0sec0.html
+  format: html
+  citation: Maine Revised Statutes, Title 1 contents
+  title: 'Maine Revised Statutes Title 1: contents'
+  doc_type: statute
+  tags:
+  - data
+  - digital-services
+  watch_only: true
+  why_relevant: The chapter list of Title 1, where chapters 14, 14-A and 14-B sit; a new chapter on electronic government or data raises a review report.
+  jurisdiction: maine
+  recheck: monthly
+
+left_out:
+- text: '---- Maine: found and left out (each was seen on an official page on 2026-11-12; the reason is recorded here)'
+- text: 'Statute copyright: Maine asserts copyright in its codified statutes. Each Revisor chapter file (Word) prints the
+    disclaimer the Revisor requires of republishers ("All copyrights and other rights to statutory text are reserved by the
+    State of Maine ... current through October 1, 2026 ... not officially certified ..."), and each statute document keeps
+    it in its full text. The Revisor also asks to be sent one copy of any statutory publication. OWNER DECISION: whether to
+    send that copy.'
+- text: 'Statutes seeded as whole chapters, with what rides along: 5 M.R.S. ch. 163 carries subchapters 3 to 5 (geographic
+    information systems, Maine Library of Geographic Information, appeals; sections 1991 to 2011) because the Revisor serves
+    the chapter as one file; 10 M.R.S. ch. 210-B (breach notice) binds information brokers and every other person, and is
+    seeded for the provision that binds State agencies (''person'' includes agencies of State Government). Slicing a chapter
+    is not offered by the shared code for Maine; OWNER DECISION if sections should be separated.'
+- text: 'AI statutes: none binding State agencies was found. Read: the Title 5 chapter list (chapters 163, 164, 310 Office
+    of Policy Innovation and the Future, 337-D) and the chapter files of 5 M.R.S. chs. 6, 158, 163, 164, 310, 1 M.R.S. chs.
+    14, 14-A, 14-B, 10 M.R.S. chs. 210-B, 1051, 1053 (none prints ''artificial intelligence'', ''machine learning'' or ''automated
+    decision''), and the Title 10 chapter list, which shows the consumer-facing ''Communications with Consumers via Artificial
+    Intelligence'' chapter (10 M.R.S. ch. 241, reallocated from ch. 239, sections 1500-DD to 1500-EE; it binds private parties,
+    not read in full, out of scope). Search-only leads, not fetched and not in any listing read, so not claimed either way:
+    a 2025 bill (HP 558) to add a Title 5 section on State purchase of AI software, and a 2026 public law on AI in mental
+    health services (not government use). State-agency AI is governed here by the GenAI Policy (seeded) and the AI Task Force
+    order (seeded).'
+- text: 'Rules: MaineIT has no administrative rules. The Administrative Procedure Act office''s DAFS rule page lists umbrellas
+    18-119, 18-125, 18-127, 18-134, 18-185, 18-352, 18-364, 18-389, 18-553, 18-554, 18-674 and 18-691 and none is for the
+    Office of Information Technology (5 M.R.S. 2030-C only says the Department ''may adopt rules''). Read for IT rules: the
+    DAFS, Secretary of State, Executive Department and Independent Agencies rule pages (the last two searched for IT terms
+    and none found). Seeded: 29-250 ch. 950 (Digital Signatures). Left out: 29-255 (Maine State Archives) chs. 1 ''State and
+    Local Government Agency Records Programs'', 2 ''State Records Center Facilities and Services'' and 3 ''Imaging State Records'':
+    records-management rules, the same category as 5 M.R.S. ch. 6 below (OWNER DECISION). The Secretary of State''s other
+    29-250 chapters (Bureau of Motor Vehicles chs. 1 to 190, including ch. 12 ''Sale of Records and Databases Related to Driver
+    History'' and ch. 101 ''Electronic Lien Titling Program''; Bureau of Corporations, Elections and Commissions chs. 200
+    to 520; ch. 900 Address Confidentiality) and 29-250 ch. 700 (notaries) and ch. 800 ''Procedures for the Electronic Filing
+    of Rules'': motor-vehicle, corporate, election, notarial and rulemaking-procedure rules, not IT governance. 18-127 ch.
+    158 ''Standards for Digital Parcel Maps'' (Maine Library of Geographic Information Board): a geospatial data standard
+    for municipal parcel maps; geographic information is outside this corpus''s IT-governance scope unless the owner decides
+    otherwise (OWNER DECISION). 90-590 (Maine Health Data Organization) rules: health-care data reporting by providers, not
+    State IT.'
+- text: 'Statute chapters found and left out: 5 M.R.S. ch. 6 (State Archivist; 5 M.R.S. 95-C includes electronic records management
+    and records retention schedules) and 1 M.R.S. ch. 13 (Freedom of Access Act, public records): records and public-access
+    law whose subject is records, not IT as a government function; same treatment as other states'' records chapters (OWNER
+    DECISION). 10 M.R.S. ch. 1051 (Uniform Electronic Transactions Act): applies to private and governmental transactions
+    alike and is mostly private-law; sections 9418 and 9419 on State agencies'' electronic records were not separated (OWNER
+    DECISION). 5 M.R.S. ch. 155 (Purchases) and its section 1825-B: procurement code, a non-IT chapter (playbook: left out).
+    5 M.R.S. ch. 337-D (Profiling and Data Collection) sits in the Human Rights part and was judged from its title only (not
+    fetched). 10 M.R.S. ch. 1055 (Marketing and Data Collection Practices), ch. 208-A (Protection of Social Security Numbers):
+    judged private-sector from their titles in the Title 10 contents (not fetched). 37-B M.R.S. 703(1-A), the definition of
+    ''cyberattack'' that 5 M.R.S. 1972 cites, sits in the Emergency Management Agency chapter (not fetched; the whole chapter
+    is out of scope).'
+- text: 'Executive orders: read the Governor''s Official Documents page (Governor Mills; one page, oldest order January 3,
+    2019, newest June 15, 2026; the titles of every order were searched for IT, data, cyber, digital, computer, internet,
+    AI and electronic terms, and three matched). Seeded: Executive Order 25 FY 20/21 (Cybersecurity Advisory Council) and
+    the December 20, 2024 AI Task Force order. Left out: Executive Order 5 FY 25/26 ''An Order Establishing the Maine Data
+    Center Advisory Council'' (April 29, 2026): data-centre siting and economic policy, not government IT. The other orders
+    of FY 19/20 to FY 25/26 concern emergencies, COVID-19, licensing, boards, buildings and energy; none is on State IT, data
+    or AI (titles read in the list, the pages not opened). Executive Orders 2014-0003 and 2016-006, which Executive Order
+    25 FY 20/21 says it repeals and supersedes, are not in any list read and not seeded. The Official Documents page covers
+    Governor Mills only: lists of earlier governors'' orders were not found, so ''none found'' is claimed only for Governor
+    Mills''s list. The Task Force''s reports (a draft final report and prep memos on the Future office''s site, found by search
+    only and not fetched) would be reports, not instruments.'
+- text: 'MaineIT directives: the Prohibited Technologies page cites ''OIT Cybersecurity Directive 2024-02''. No file of that
+    directive and no list of directives was found on the MaineIT pages read (home, Policies & Standards, Architecture and
+    Policy, Security and Risk Management service page, sitemap). The page itself is seeded as the instrument. The page''s
+    own link target for 5 M.R.S. ch. 164 is the Public Law (PL 2023, c. 681, a Legislature document), not seeded: the chapter
+    is.'
+- text: 'Bureau of Human Resources Policy and Practices Manual (https://www.maine.gov/bhr/state-hr-professionals/rules-policies/policy-practices-manual),
+    read row by row on 2026-11-12: two rows are statewide IT instruments and are seeded (6.7 Personal Use of Social Media; Policy and
+    Work Rules Concerning the Use of State Information and Technology (I.T.) Equipment and Resources, DAFSITPolicy.pdf). Every other
+    row (equal opportunity and accommodation, hiring and certification, 5.8 Human Resource Security Protocols, ethics and gifts,
+    performance, pay, leave, benefits, labor relations, drug and alcohol policies) is a personnel policy, not IT, and is left out.'
+- text: 'MaineIT policy library, row by row (69 rows, no status column, every row current): 66 PDFs are documents; 2 are stubs
+    (Application Deployment Certification Templates, a blank sign-off form; Microsoft Power Platform: Escalation Path, a one-page
+    flowchart); 1 row (''Social Media for Personal Use Policy'') links the Bureau of Human Resources page, seeded as a web-page
+    document. Seeded beyond the table: General Architecture Principles (linked from the Architecture and Policy page) and
+    the Prohibited Technologies and Digital Signatures pages (navigation links under Policies & Standards). Every MaineIT PDF prints
+    a revision date in a form the hook reads (Latest Revision Date, Last Revision Date, Latest Revision, Current Revision Date (Version n), or
+    a line REVISED <month year>), kept as printed as the document''s source_version. The web pages, the rule, the executive orders and the Bureau of Human Resources work rules print no revision date in
+    that form, so their source_version is empty (the work rules print an effective date, March 2, 2015, which is the effective_date). The table''s ''Date Last Updated'' (year/month) agrees
+    with the printed ''Latest Revision Date'' on 54 of the 58 rows that print one in that form and differs on 4: Application
+    Deployment Certification Guidelines (table 2025/09, file ''September 4, 2026''), Data Classification Policy (2026/06,
+    ''April 13, 2026''), Network Device Management Policy (2026/08, ''21 April 2026'') and System and Services Acquisition
+    Policy (2026/05, ''December 12, 2025''). The Fetcher got the file the link serves; no row is withdrawn by the difference.'
+- text: 'MaineIT pages and files found and left out: ''Request for Product Acceptance'' (request-product-acceptance.pdf, linked
+    from Digital Signatures): a form. Accessibility page (https://www.maine.gov/oit/accessibility): explains the Digital Accessibility
+    Policy (seeded) and links resources; its PDF digital-accessibility-policy.pdf is byte-identical to the library''s DigitalAccessibilityPolicy.pdf
+    (same SHA-256 of the bytes fetched), so it is one document. Service Rates (FY24-25, FY26-27, FY28-29 .xlsx), ''MaineIT
+    Billing'', ''Standard Service Level Agreements for Core Technology Services'' and the Service Catalog pages: rate workbooks
+    and service descriptions, not instruments. Customer Service Portal pages: internal. PL 2023, c. 681 PDF: the session-law
+    text of the statute seeded as 5 M.R.S. ch. 164.'
+- text: 'Fetch notes: legislature.maine.gov and maine.gov answered the Fetcher (HTTP 200) for every URL used; the rules site
+    (www.maine.gov/sos/cec/rules/rules.html) that the issue lead said returned 403 also answered 200 (98,076 bytes) and the
+    agency rule pages under /sos/rulemaking/agency-rules/ were used instead. Whole-chapter HTML pages (title5ch163sec0.html)
+    were read for contents and as the ''found via'' record; the Word chapter files are the text of record because the Revisor
+    offers them and pandoc reads them. The Executive Order 25 FY 20/21 PDF is a scan carrying an embedded recognised-text
+    layer; the committed text is that layer as the PDF holds it, including its recognition slips (for example ''Govermnent''
+    for ''Government'', ''Chieflnformation Officer'', a stray symbol line beside the signature), which are kept, not corrected
+    (never hand-edit document text). Page 45 of the Telecommunications Facilities & Wiring Specifications PDF is blank (rendered
+    and looked at), so it is listed as no_text_pages.'
+

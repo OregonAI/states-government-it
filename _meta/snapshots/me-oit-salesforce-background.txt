@@ -1,0 +1,137 @@
+                  Salesforce Governance: Background
+
+1.0.   Purpose
+1.1.   This document includes background information that constitutes essential pre-
+       requisite for the actual Salesforce governance document. It is strongly suggested
+       that this background document be read prior to the actual governance document.
+
+2.0.   Definitions
+2.1.   App: Short for application. A Collection of components such as tabs, reports,
+       dashboards, and screens that address specific business needs. Salesforce provides
+       standard apps, which can be further Configured (“Declarative” in Salesforce
+       terminology) and Customized (“Programmatic” in Salesforce terminology).
+2.2.   AppExchange: The marketplace of other-party Apps. Some of them are free, while
+       others are against payment.
+2.3.   Editions: Bundles of Salesforce products and services, each geared toward a
+       different set of business needs. All Salesforce editions share the same look and feel,
+       but they vary by feature, functionality, and pricing. More details at Edition1. The two
+       most important Editions for the State of Maine:
+       •       Enterprise: Meets the needs of large and complex businesses. It provides
+               advanced customization and administration tools in order to support large-
+               scale deployments. Enterprise Edition also includes access to Salesforce
+               Application Programming Interfaces.
+       •       Unlimited: Includes all Enterprise Edition functionality, Premier Support, full
+               mobile access, unlimited custom apps, increased storage limits, and other
+               features.
+2.4.   Object: A template for a specific type of information that is considered a unit (or
+       building block) in Salesforce. For example, the Case Object stores information about
+       citizen inquiries. For each Object, the Org (see definition below) has multiple,
+       specific records. Salesforce comes with lots of standard objects, but it allows the
+       creation of custom Objects as well.
+2.5.   Org: Short for Organization, i.e., a deployment of Salesforce that has a defined set of
+       licensed users. An Org is provided with any purchase of Salesforce. Depending on
+       purchase price, agreements, etc., a customer may have multiple Orgs, including
+       production, development, test, etc. Orgs are where the Apps live. Deciding on
+       building within an existing Org, or building a new Org, is a consequential decision;
+       More guidance on this is provided in the actual Governance document. Once the
+       Edition has been determined, licenses drive what users can do, and how many users
+       can work within the Org.
+2.6.   Record: A collection of fields that store information about a specific item of a specific
+       type. A record is an Object, such as a Contact, Account, or Opportunity.
+2.7.   Release: Salesforce releases new products and features three times per year, and
+       identifies the releases by seasons: Winter, Spring, and Summer, along with the
+       calendar year. Example: Winter ’20. For every Salesforce release, the Salesforce
+       release notes include new features and products that are generally available, or in
+
+1
+
+https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/pricing/DS_SalesCloud_EdC
+ompare.pdf
+
+                                          Page 1 of 3
+
+                  Salesforce Governance: Background
+
+      beta release. The release notes also describe all changes to existing features and
+      products.
+2.8. Salesforce Applications: Salesforce includes Apps for Customer Relationship
+      Management, ranging from sales force automation to partner relationship
+      management, marketing, and customer service.
+2.9. Lightning Platform: The Platform as a Service (PaaS) built into Salesforce.
+      Developers can create and deliver any kind of business application on demand,
+      aided by built-in tools.
+2.10. Salesforce.com Community: Provides training, support, consulting, events, best
+      practices, and discussion boards.
+2.11. Salesforce Lightning: The current user interface, as opposed to the legacy “Classic”.
+
+3.0.   Basic Concepts
+3.1.   Salesforce is considered a combination of SaaS (Software as a Service), primarily,
+       but not exclusively, for the Customer Relationship Management function, and a
+       Platform as a Service (PaaS) for other functions not explicitly identified by the
+       vendor. Salesforce provides a self-contained operating environment that is used to
+       deliver the entire user experience, including the content, its presentation, and
+       management capabilities. Salesforce is responsible for the security of the “bottom”
+       layers, including physical, environmental, and infrastructure. Whereas it is a shared
+       responsibility for the security of the “top” layers, including the actual user
+       application.
+3.2.   The platform is maintained in the cloud, meaning no on-premises hardware is
+       required to work with Salesforce. Different clouds are available, at a cost, to provide
+       additional features.
+3.3.   Each cloud product represents a pre-set platform and tools. Depending on the needs
+       of the project, one product may better fit the needs better than the others. Each
+       project should consider those needs to identify and select the appropriate product.
+       Examples include Sales Cloud2, Service Cloud3, Marketing Cloud4, Experience Cloud5,
+       etc.
+3.4.   When requirements go beyond what Configuration ( “Declarative” in Salesforce
+       terminology) can offer, Customization (“Programmatic in Salesforce terminology)
+       may be resorted to, using a proprietary coding language called Apex6. More
+       guidance on this is provided in the actual Governance document.
+3.5.   Unmanaged versus Managed Packages7: In general, Salesforce allows two kinds of
+       apps in the AppExchange, which forces different kinds of choices downstream. An
+       unmanaged package is usually open-source, whereas, a managed package is usually
+       for a fee, and offers additional features for users.
+
+2 https://www.salesforce.com/products/sales-cloud/overview/
+3 https://www.salesforce.com/products/service-cloud/overview/
+4 https://www.salesforce.com/products/marketing-cloud/overview/
+5 https://www.salesforce.com/products/community-cloud/overview/
+6 https://developer.salesforce.com/docs/atlas.en-us.apexcode.meta/apexcode/apex_dev_guide.htm
+7 https://help.salesforce.com/articleView?id=sharing_apps.htm&type=5
+
+                                         Page 2 of 3
+
+                  Salesforce Governance: Background
+
+4.0.   License Management
+4.1.   Salesforce is driven by licenses. It is important to understand the Salesforce Edition
+       and Products, license count, and license types. All these variables come together to
+       determine the pricing through the State’s current reseller, Carahsoft. The Licensing
+       decision starts with selecting the Edition. The most popular choice is the Enterprise
+       Edition. The Unlimited Edition provides everything in the Enterprise Edition, plus
+       additional support. There are various kinds of Lightning Platforms.8 There are
+       various kinds of Users.9
+4.2.   When scoping the cost of licensing for a Salesforce solution before moving it to scale,
+       the ultimate Salesforce licensing is complicated, and a full discussion of the vast
+       number of conditions presents to be beyond the scope of this paper. The best means
+       of arriving at the proper licensing mix is to hold a detailed discussion with the
+       Implementation Partner at the inception of a project. The good news is that it is
+       indeed possible to start small while projecting when to buy additional licenses
+       downstream. Although pre-buying may lock the pricing upfront and be attractive, it
+       is still not recommended to pre-buy beyond reasonable downstream projections.
+
+5.0.   Training
+5.1.   One of the best features of Salesforce is the free training portal: Trailhead.10 It
+       includes training products not just for developers and administrators, but business
+       users and project managers as well.
+
+Initial Issue: 22 September 2021
+Latest Revision: 22 September 2021
+Point-of-Contact: PolicyTeam.OIT@Maine.Gov
+
+8 https://c1.sfdcstatic.com/content/dam/web/en_us/www/documents/pricing/salesforce-
+
+platform-pricing-editions.pdf
+9 https://help.salesforce.com/articleView?id=users_understanding_license_types.htm&type=5
+10 https://trailhead.salesforce.com/en/home
+
+                                         Page 3 of 3

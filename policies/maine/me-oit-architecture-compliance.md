@@ -1,0 +1,121 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maine
+id: me-oit-architecture-compliance
+title: Architecture Compliance Policy
+doc_type: policy
+citation: MaineIT Architecture Compliance Policy
+authority_level: ''
+issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial
+  Services
+source_url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/ArchitectureCompliancePolicy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 32fd39d4a69ba54b90a1850033925e7cf46c518a0bca21a1e9bb82a3510a415c
+effective_date: null
+source_version: 'Latest Revision Date: April 6, 2023'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Architecture Compliance Policy (MaineIT Architecture Compliance Policy)
+
+## At a glance
+
+Defines the enforcement of the State's strategic IT architecture: all information technology efforts must align with the defined architecture.
+
+## Full text
+
+                                       Maine State Government
+                             Dept. of Administrative & Financial Services
+                               Office of Information Technology (OIT)
+
+                           Architecture Compliance Policy
+1.0 Purpose
+
+To be successful, all information technology efforts must be in alignment with a defined
+architecture.
+
+As Maine State information technology becomes more complex, more expensive, more
+interconnected, and more exposed to the external world, it becomes even more important to create
+and adhere to a well-defined architecture. The State has established a strategic architecture. This
+policy defines the enforcement of that architecture.
+
+2.0 Definitions
+
+   2.1 Information Technology Assets: The Computing Technology Industry Association
+       (comptia.org) defines Information Technology as "the use of computer systems or devices to
+       access information.” By extension, Information Technology Assets encompass the entire
+       spectrum of information technology products, such as operating systems, databases, email
+       utilities, word processors, spreadsheets, desktop personal computers, servers, network
+       routers, etc.
+
+   2.2 Semi-autonomous State Agency: An agency created by an act of the Legislature that is not
+       part of the conventional branches of Government, i.e., the Executive Branch, the Legislative
+       Branch, the Judicial Branch, the Office of the Attorney General, the Office of the Secretary of
+       State, the Office of the State Treasurer, and the Audit Department.
+
+3.0 Applicability
+
+   3.1 This Policy applies to all information technology assets, both hardware and software,
+       irrespective of hosting location, including:
+
+      3.1.1   Information technology assets that are owned by the Executive Branch and Semi-
+              autonomous State Agencies, irrespective of where such assets are located or hosted.
+      3.1.2   Information technology assets from other Maine State Government branches that are
+              reliant upon the State wide area network for their operation.
+
+4.0 Responsibilities
+
+   4.1 All persons and parties engaged in information technology work for the State of Maine are
+       responsible for complying with the State of Maine’s defined information technology
+       architecture.
+
+                                              Page 1 of 2
+
+                                       Architecture Compliance Policy
+
+     4.2 The Chief Information Officer (CIO) is responsible for the enforcement of this policy.
+
+5.0 Directives
+
+The Maine State information technology architecture is published at
+https://www.maine.gov/oit/architecture.
+
+6.0 Document Information
+
+      Initial Issue Date: October 14, 2008
+      Latest Revision Date: April 6, 2023
+
+      Point of Contact: PolicyTeam.OIT@Maine.Gov
+      Approved By: Chief Information Officer, OIT
+
+      Legal Citation: Title 5, Chapter 163: Office of Information Technology 1.
+      Waiver Process: See the Waiver Policy 2.
+
+1 http://legislature.maine.gov/statutes/5/title5ch163sec0.html
+2   https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/waiver.pdf
+
+                                                Page 2 of 2
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
