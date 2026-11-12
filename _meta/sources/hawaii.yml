@@ -1,0 +1,932 @@
+# Hawaii seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-11 through the toolkit Fetcher: data.capitol.hawaii.gov (the HRS directory, chapters 27, 27C, 27G, 27J, 487J, 487N, 487R, the 2026 session
+# bill directory), ets.hawaii.gov (home, Policies, IT Governance, IT Steering Committee, Reports, For Vendors, Cybersecurity Program, site map, every library
+# row), data.hawaii.gov (Policies and Documents, AI literacy, sitemap), governor.hawaii.gov (executive order list pages 1 to 3, the sitemaps, the 2026-07-14
+# release on the AI acts), budget.hawaii.gov and spo.hawaii.gov (the documents the IT Governance page links), ags.hawaii.gov, ltgov.hawaii.gov and lrb.hawaii.gov (rules).
+# Statute entries are one HRS section each: the Legislature serves the code as one file per section, so a section is the unit that can be fetched and watched.
+sources:
+
+  - id: hi-st-27-43
+    sha256: "9494a671f56315265f524db3e39defcda5542a10ef93e749a8d5c5aed951f627"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0043.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-43
+    title: Office of enterprise technology services; chief information officer; information technology steering committee; establishment; responsibilities
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - governance
+    - oversight
+    - procurement
+    - funding
+    - cybersecurity
+    - cloud-resilience
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: 'The enabling statute for the Office of Enterprise Technology Services within the Department of Accounting and General Services and for the State''s Chief Information Officer, who organizes, manages and oversees statewide information technology governance: the state IT strategic plan, statewide technology standards, review of each department''s IT budget request and procurement against enterprise architecture policies and standards (including security management), the IT steering committee, the shared services technology special fund, the annual report and rulemaking under chapter 91. The ETS policy library cites this section as its authority.'
+
+  - id: hi-st-27-43-5
+    sha256: "ba749a7538fc3e609720b30a6be4137a882f278cf23a657708b62fd9c232fa74"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0043_0005.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-43.5
+    title: Additional duties of the chief information officer relating to security of government information
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - cybersecurity
+    - governance
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: 'The cybersecurity provision for state systems: the CIO provides for periodic security audits of all executive branch departments and agencies, may contract private auditors, may direct specific remedial actions for insufficient administrative, technical and physical controls, and the audited bodies must cooperate. The only section in chapter 27 that names security (chapter 128B, cybersecurity, is the other statute on state cybersecurity: see hi-st-128b-1).'
+
+  - id: hi-st-27-43-6
+    sha256: "5737054cd57a9e907f4e86052d6fb09d4b9b0e837a5309db25e5cfe6f1a4feff"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0043_0006.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-43.6
+    title: Additional duties of the chief information officer relating to independent verification and validation of information technology projects of the executive branch
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - oversight
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: The CIO identifies executive branch IT projects (including Department of Education and University of Hawaii projects) that are subject to independent verification and validation, and submits each IV&V report to the legislature within ten days.
+
+  - id: hi-st-27-41-1
+    sha256: "19e2ba4c493833265952e2a315786a7395faf478298a20705ace35e7b85e7740"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0041_0001.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-41.1
+    title: Definitions
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: 'Defines ''data'' and ''data set'' for Part VII of chapter 27 (the Technology part): the terms used by the chief data officer and open data provisions of section 27-44.'
+
+  - id: hi-st-27-44
+    sha256: "9e7cb44db13a5da62885ab97db3a588b41ec763cc1dea42e4028cf0eed6f7c98"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0044.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-44
+    title: Chief data officer; electronic data set availability; updates
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - governance
+    - digital-services
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: Establishes the chief data officer within the Office of Enterprise Technology Services (statewide data policies, procedures and standards, data sharing across agencies), requires each executive branch department to make appropriate existing data sets available on the open data portal, sets the update duty, and establishes the data task force. The authority cited by every CDO guideline in the library.
+
+  - id: hi-st-27-44-1
+    sha256: "44a5646f8f185388ce6ee41db06a8bba0d13a19092125339b2770251b2a1c6b5"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0044_0001.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-44.1
+    title: State liability for data sets
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: 'Data sets on the open data portal are informational only: the State does not warrant fitness for a particular purpose.'
+
+  - id: hi-st-27-44-2
+    sha256: "5ff39f07991698ca0d85098d420189f5848b0fb7fe2c2a450220bf03dac57c19"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0044_0002.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-44.2
+    title: Data set licensing
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: The chief data officer may license the departments' electronic data sets published on the open data portal.
+
+  - id: hi-st-27-44-3
+    sha256: "19a468a1604e50b62f11c9945dacae1a7577fb8af4cb7f37b9cd5920b81e127e"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0044_0003.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-44.3
+    title: Data set policies and procedures
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - governance
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: The chief data officer, with the data task force and the office of information practices, develops the policies, procedures and standards for data sets (the statutory basis of the CDO-001 to CDO-007 guidelines).
+
+  - id: hi-st-27-46
+    sha256: "fbd23569e239e3bc228b5f32e4d682c66715055c8421f3d8f38e915e399de6d5"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0046.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27-46
+    title: Multilingual accessibility standards
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - digital-services
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/ (the chapter directory listing)
+    why_relevant: The Office of Enterprise Technology Services, with the office of language access, develops multilingual accessibility standards for electronic information technology developed, purchased, used, modified or provided by a state entity (executive, legislative and judicial branches), and reviews them every three years.
+
+  - id: hi-st-27g-1
+    sha256: "0b48da3c4cb4b61ab8916ebc4fef49c046a815e5b33227f796dc3ff4ef417408"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/HRS_0027G-0001.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27G-1
+    title: Definitions
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - digital-services
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/ (the chapter directory listing)
+    why_relevant: 'Definitions for chapter 27G, the Access Hawaii committee: the portal, the portal manager and the government agencies that use it.'
+
+  - id: hi-st-27g-2
+    sha256: "8d7078f51dd653ddc029239feda15571d3694d2e9137ab0765c9b81d8f3a0ac2"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/HRS_0027G-0002.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27G-2
+    title: Charges for services
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - digital-services
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/ (the chapter directory listing)
+    why_relevant: Government agencies may charge for value added electronic services provided through the portal manager.
+
+  - id: hi-st-27g-3
+    sha256: "52659cece7978f6790a48a2184e30e60cd6e3c28fba10bf60bf031084a799371"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/HRS_0027G-0003.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27G-3
+    title: Access Hawaii committee; establishment; membership; chairperson
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - digital-services
+    - governance
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/ (the chapter directory listing)
+    why_relevant: 'Establishes the Access Hawaii committee within the Department of Accounting and General Services, chaired by the chief information officer: the state portal (eHawaii.gov) governance body.'
+
+  - id: hi-st-27g-4
+    sha256: "ff407a58ead2edcd980e4409b4daf0e2d36fade1d4478fa85528d59d7834d145"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/HRS_0027G-0004.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27G-4
+    title: Duties of the committee
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - digital-services
+    - governance
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/ (the chapter directory listing)
+    why_relevant: 'The committee oversees the portal manager: the annual strategic plan, charges to portal users, new applications and services.'
+
+  - id: hi-st-27g-5
+    sha256: "77756f6beeab94aa03ced6a8c7c8faca3f119f12760d05429822fedfd9b32542"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/HRS_0027G-0005.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27G-5
+    title: Annual report
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - digital-services
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/ (the chapter directory listing)
+    why_relevant: The committee reports annually to the governor and the legislature on the operations of the portal.
+
+  - id: hi-st-27g-6
+    sha256: "8dfd7e01bf8366df10917527fdfb589bab1eec30d279b1a6e0ce88210f6d4011"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/HRS_0027G-0006.htm
+    format: html
+    citation: Hawaii Revised Statutes section 27G-6
+    title: Access Hawaii committee special fund
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - digital-services
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/ (the chapter directory listing)
+    why_relevant: The special fund, into which the Office of Enterprise Technology Services deposits portal fees, that supports the committee.
+
+
+  - id: hi-st-128b-1
+    sha256: "c0eaa22e8c7d95013abcc0aee5ee6374237e87653b641b1d0458b257613b0f07"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol03_Ch0121-0200D/HRS0128B/HRS_0128B-0001.htm
+    format: html
+    citation: Hawaii Revised Statutes section 128B-1
+    title: Cybersecurity, economic, education, and infrastructure security coordinator; powers and duties
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - cybersecurity
+    - governance
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol03_Ch0121-0200D/HRS0128B/ (the chapter directory listing; chapter 128B is titled CYBERSECURITY and holds this one section)
+    why_relevant: 'Establishes the full-time Hawaii cybersecurity, economic, education, and infrastructure security coordinator, placed within the department of law enforcement, to oversee cybersecurity and cyber resiliency matters for the State; the coordinator partners with state government agencies, the state fusion center and cyber resiliency center, federal agencies, the counties, higher education and critical-infrastructure sectors. Much of its subject is critical-infrastructure and economic cybersecurity rather than the State''s own systems: OWNER DECISION whether it belongs.'
+
+  - id: hi-st-487n-1
+    sha256: "cfd790bfa65f161b95db57912e400e18d03d6fa89fa52d17e3247dd7f7193216"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0001.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487N-1
+    title: Definitions
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - cybersecurity
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/ (the chapter directory listing)
+    why_relevant: Definitions for the security-breach chapter, including 'government agency' and 'personal information'.
+
+  - id: hi-st-487n-2
+    sha256: "ebc30b6878dd2ccad6255c626d886b692ed1abace84ae8f75e150502d4e40d1b"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0002.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487N-2
+    title: Notice of security breach
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - cybersecurity
+    - data
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/ (the chapter directory listing)
+    why_relevant: 'The breach-notification duty: a government agency that collects personal information for specific government purposes must notify the affected person of a security breach (the same section binds businesses).'
+
+  - id: hi-st-487n-4
+    sha256: "de65653987695a00212781303c9e136603af48b66a347a35028dbdee11c6f7ae"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0004.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487N-4
+    title: Reporting requirements
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - cybersecurity
+    - data
+    - oversight
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/ (the chapter directory listing)
+    why_relevant: A government agency must report a security breach to the legislature within twenty days of discovery.
+
+  - id: hi-st-487n-5
+    sha256: "e5d661791a817d1acad6d564cdc1c3b03456c5ace9817b00f5eea3f7951c4b04"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0005.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487N-5
+    title: Information privacy and security council; established; duties; reports
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - governance
+    - cybersecurity
+    - data
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/ (the chapter directory listing)
+    why_relevant: Establishes the information privacy and security council (within the Department of Accounting and General Services for administrative purposes) that identifies best practices for state agencies on personal-information security and privacy.
+
+  - id: hi-st-487n-6
+    sha256: "16ee2a04411c25aa30973bac63bfc615daf99f4bc3cba638fecc6badaeb3a70d"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0006.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487N-6
+    title: Personal information security; best practices; websites
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - cybersecurity
+    - data
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/ (the chapter directory listing)
+    why_relevant: The council identifies best practices for government agencies (tools, training, processes, standards) and publishes them.
+
+  - id: hi-st-487n-7
+    sha256: "f16af6c68c8da690f6d75686b578bee2ad996f1ad1f089b08bd974b079ef7686"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/HRS_0487N-0007.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487N-7
+    title: Personal information system; government agencies; annual report
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - oversight
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/ (the chapter directory listing)
+    why_relevant: Each government agency that maintains a personal information system reports annually to the council.
+
+  - id: hi-st-487j-1
+    sha256: "3761053e51109dddfd6abc55027b18cd424f119c7f4cf6618f8361b1ffc9e299"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/HRS_0487J-0001.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487J-1
+    title: Definitions
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/ (the chapter directory listing)
+    why_relevant: Definitions for the personal-information-protection chapter, which applies to businesses and government agencies.
+
+  - id: hi-st-487j-2
+    sha256: "1f1a3f49c838025e302976b3e1ba7c8200d7f876a107e4333d333f918763b0af"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/HRS_0487J-0002.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487J-2
+    title: Social security number protection
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - cybersecurity
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/ (the chapter directory listing)
+    why_relevant: A business or government agency may not make an individual's entire social security number available to the public or require it for access to services.
+
+  - id: hi-st-487j-4
+    sha256: "e79f91657b9b979b8d3f436e6bf6c2a885753d0e989f4f7cd4b6758f02361ad7"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/HRS_0487J-0004.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487J-4
+    title: Reporting requirements
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - oversight
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/ (the chapter directory listing)
+    why_relevant: A government agency must report a prohibited social security number disclosure to the legislature within twenty days of discovery.
+
+  - id: hi-st-487j-5
+    sha256: "8bbc9ec3aaf8a13f8a2d6803bbdc38796c86adbfe8254269b362512c86f3dbb6"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/HRS_0487J-0005.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487J-5
+    title: Policy and oversight responsibility
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - governance
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/ (the chapter directory listing)
+    why_relevant: Each government agency must designate an employee with policy and oversight responsibility for protecting personal information and coordinating compliance with chapters 487J, 487N and 487R.
+
+  - id: hi-st-487r-1
+    sha256: "072fbcc8e0e437f7e969fae1c579d1f3e3ef66c62ba4a29f98ed7189b9b7dcec"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487R/HRS_0487R-0001.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487R-1
+    title: Definitions
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487R/ (the chapter directory listing)
+    why_relevant: Definitions for the destruction-of-personal-information-records chapter.
+
+  - id: hi-st-487r-2
+    sha256: "30c3298aaa5bb6ab04bd65eba1cf3d91d89f180db214cc3cd659766caf01536f"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487R/HRS_0487R-0002.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487R-2
+    title: Destruction of personal information records
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - cybersecurity
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487R/ (the chapter directory listing)
+    why_relevant: A business or government agency that maintains personal information of a Hawaii resident must take reasonable measures to protect against unauthorized access to or use of it in connection with or after its disposal.
+
+  - id: hi-st-487r-4
+    sha256: "a5ee016b939214c7c67f0b5ba2e5f0fc94e6d4a888f314a971220e1bdc6e51ab"
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487R/HRS_0487R-0004.htm
+    format: html
+    citation: Hawaii Revised Statutes section 487R-4
+    title: Reporting requirements
+    doc_type: statute
+    jurisdiction: hawaii
+    issuing_body: Hawaii State Legislature
+    tags:
+    - data
+    - oversight
+    recheck: monthly
+    found_via: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487R/ (the chapter directory listing)
+    why_relevant: A government agency must report unauthorized access to personal information records in connection with their disposal to the legislature within twenty days of discovery.
+
+  - id: hi-pol-ets-306
+    sha256: "6d0aa1199918cc241ce6de647fe94c445a5d257aa3c328c87a04aae273f50833"
+    url: https://ets.hawaii.gov/wp-content/uploads/2024/07/ETS-Guidelines-No-306-PC-Purchasing-Guidelines.pdf
+    format: pdf
+    citation: ETS Doc No. 306
+    title: PC Acquisition Guidelines
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+    tags:
+    - procurement
+    - funding
+    identity_text: PC ACQUISITION GUIDELINES
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/policies/
+    why_relevant: 'Guidelines for executive branch departments'' personal computer procurement decisions (Windows 11 Professional and Office 365, full disk encryption and TPM 2.0, justification for deviations in IT budget and spend requests). Library row: effective 2018/06/22, revised 2024/07/02.'
+
+  - id: hi-std-ets-306-01
+    sha256: "91309a1ce09a5d9dd08e1ddc24aeaa56e82a67ee924fc9708d8e0fe45007c4b2"
+    url: https://ets.hawaii.gov/wp-content/uploads/2024/07/ETS-Guidelines-No-306.01-AttachmentA-ETS-Recommended-PC-Specifications.pdf
+    format: pdf
+    citation: ETS Doc No. 306.01
+    title: Recommended PC Specifications
+    doc_type: standard
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+    tags:
+    - procurement
+    - funding
+    identity_text: 'Doc No: 306.01'
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/policies/
+    why_relevant: 'Attachment A to Doc No. 306: the recommended specification for each user type and the justification required for non-standard types. It prints example device prices and, as an illustration of a justification, sample rows with example user names; they are mirrored as printed. Library row: effective 2018/06/22, revised 2024/07/02. OWNER DECISION whether an attachment of example specifications is an instrument (see left_out).'
+
+  - id: hi-pol-ets-508
+    sha256: "3083d30a94df82f024caf3af1ddf65bd813170a40d957cde798c8b774cad003f"
+    url: https://ets.hawaii.gov/wp-content/uploads/2017/11/ETS-Policy-No.-508-Secure-Device-Policy.pdf
+    format: pdf
+    citation: ETS Policy No. 508
+    title: Secure Device Policy
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+    tags:
+    - cybersecurity
+    identity_text: Policy No. 508 Secure Device Policy
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/ets-policy-no-508-secure-device-policy/ (the page the library row links; it offers this PDF)
+    why_relevant: Minimum requirements for any device to connect to state IT services or access or store state data, by reference to Doc No. 508.01. Effective December 1, 2017. The library row links the policy's web page; the PDF the page offers was fetched and its words equal the page's (measured).
+
+  - id: hi-std-ets-508-01
+    sha256: "1ab5765e18f3e24ba79802d222a50caed04414fded39279ef60802d55edcd7ce"
+    url: https://ets.hawaii.gov/ets-doc-no-508-01-secure-device-standards/
+    format: html
+    citation: ETS Doc No. 508.01
+    title: Secure Device Standards
+    doc_type: standard
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+    tags:
+    - cybersecurity
+    identity_text: Policy No. 508.01 Secure Device Standards
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/policies/
+    why_relevant: 'The minimum device standards table (operating system support, updates, device management, passwords, biometrics, multi-factor authentication, firewall, screen lock, encryption, endpoint protection, jailbroken devices). Effective December 1, 2017, revision September 18, 2018. Text taken from the library row''s own page. The PDF that page offers (''Download this Standard as a PDF'', https://ets.hawaii.gov/wp-content/uploads/2018/10/ETS-Policy-No.-508.01-Secure-Device-Standards-20180918.pdf) was fetched and DIFFERS: its Device passwords row says ''Desktop/Laptop: 10 characters'' where the page says ''14 characters''; OWNER DECISION which copy is of record (see left_out).'
+
+  - id: hi-pol-ets-509
+    sha256: "c4d2e35da036364e5828f910321d55f536ff4655aca6d2600311c71d004394bf"
+    url: https://ets.hawaii.gov/wp-content/uploads/2017/11/ETS-Policy-No.-509-Secure-Access-Policy-Next-Generation-Network.pdf
+    format: pdf
+    citation: ETS Policy No. 509
+    title: Secure Access Policy - Next Generation Network
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+    tags:
+    - cybersecurity
+    identity_text: Policy No. 509 Secure Access Policy
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/ets-policy-no-509-secure-access-policy-next-generation-network/ (the page the library row links; it offers this PDF)
+    why_relevant: Minimum requirements for a device to connect to the state government network (the Next Generation Network), by reference to Doc No. 508.01. Effective December 1, 2017. The PDF's words equal the library page's (measured).
+
+  - id: hi-pol-ets-510
+    sha256: "5e4f6be783d7e427fecad944cdcb53671e614032276d64b2f946f03dea4f7ac6"
+    url: https://ets.hawaii.gov/wp-content/uploads/2017/11/ETS-Policy-No.-510-Secure-Access-Policy-Microsoft-Office-365.pdf
+    format: pdf
+    citation: ETS Policy No. 510
+    title: Secure Access Policy - Microsoft Office 365
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+    tags:
+    - cybersecurity
+    - cloud-resilience
+    identity_text: Policy No. 510 Secure Access Policy
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/ets-policy-no-510-secure-access-policy-microsoft-office-365/ (the page the library row links; it offers this PDF)
+    why_relevant: Minimum requirements for a device to access the Microsoft Office 365 cloud resources licensed to the State, by reference to Doc No. 508.01. Effective December 1, 2017. The PDF's words equal the library page's (measured).
+
+  - id: hi-pol-ets-103-01
+    sha256: "598100399ac5d8189499558a9b47594009118b7ef205b4923ad8322cdc847872"
+    url: https://ets.hawaii.gov/wp-content/uploads/2023/03/Social-Media-Guidance-_-March-2023-part-1-signed.pdf
+    format: pdf
+    citation: 'ETS Doc No. 103.01 (the file prints ETS Doc No: 2023-01)'
+    title: Social Media Guidance
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+    tags:
+    - governance
+    - digital-services
+    identity_text: 'ETS Doc No: 2023-01'
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/policies/
+    why_relevant: 'Guidance for departments and agencies on official use of social media (permitted services, agency plan and approval by ETS, public comments and moderation, use by state employees, security, privacy and accessibility, enforcement). The library row calls it ''Social Media Guidance'' and numbers it 103.01; the file prints ''SOCIAL MEDIA GUIDELINES'' and ''ETS Doc No: 2023-01''. Library row: effective 2023/03/28, rewrite 2023/03/22.'
+
+  - id: hi-std-ets-104-01
+    sha256: "85115cf39717e23294780e1ce1d02884292305a402f86dc5c8a97e3c911151da"
+    url: https://ets.hawaii.gov/wp-content/uploads/2025/01/Hawaii-Electronic-Information-Technology-Disability-Access-Standards.pdf
+    format: pdf
+    citation: ETS Doc No. 104.01
+    title: Hawaii Electronic Information Technology Disability Access Standards
+    doc_type: standard
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services, and Disability and Communication Access Board
+    tags:
+    - digital-services
+    identity_text: Hawaii Electronic Information Technology Disability Access Standards
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/policies/
+    why_relevant: 'The accessibility standards for electronic information technology developed, purchased, used or provided by any state entity (Section 508 standards and WCAG 2.1 Level A and AA, exceptions, procurement and monitoring recommendations), version 1.2. The file prints ''Effective Date: April 20, 2026'' and a revision history; the library row prints effective 2025/01/01 and ''rev. 1.2'' dated 2026/04/21. Issued under the Act 172 (SLH 2022) mandate noted under section 27-43.'
+
+  - id: hi-pol-cdo-001
+    sha256: "d2c0949b3483e2e6ae6954caea4fc4af94d9ef866798ae3a68c2b80e03fe47fe"
+    url: https://data.hawaii.gov/wp-content/uploads/2025/08/CDO001-Data-Quality-Guidelines_0828.pdf
+    format: pdf
+    citation: CDO-001
+    title: Data Quality Guidelines
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Chief Data Officer, Office of Enterprise Technology Services
+    tags:
+    - data
+    identity_text: 'Document No: CDO-001'
+    recheck: monthly
+    found_via: https://data.hawaii.gov/policies-and-documents/
+    why_relevant: Common guidelines for data quality management (accuracy, completeness, consistency, timeliness, uniqueness, validity) across State agencies. Published August 28, 2025. Listed on the State Data Office's Policies and Documents page, which says the guidelines were reviewed and approved by the Data Taskforce and the Attorney General.
+
+  - id: hi-pol-cdo-002
+    sha256: "83937fe2214df91d026c74600f8d14829bdec5b2922813b215300245863c22d0"
+    url: https://data.hawaii.gov/wp-content/uploads/2025/08/CDO002-Data-Privacy-Guidelines_0828.pdf
+    format: pdf
+    citation: CDO-002
+    title: Data Privacy Guidelines
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Chief Data Officer, Office of Enterprise Technology Services
+    tags:
+    - data
+    identity_text: 'Document No: CDO-002'
+    recheck: monthly
+    found_via: https://data.hawaii.gov/policies-and-documents/
+    why_relevant: 'Common guidelines for data privacy management: identifying and protecting personally identifiable information through collection, processing, storage, use and sharing. Published August 28, 2025. Listed on the State Data Office''s Policies and Documents page, which says the guidelines were reviewed and approved by the Data Taskforce and the Attorney General.'
+
+  - id: hi-pol-cdo-003
+    sha256: "6d2934f297b9d4f804875c404b0b7f58b9a423dbc693aa37d6aa1b5acc9b9bf9"
+    url: https://data.hawaii.gov/wp-content/uploads/2025/08/CDO003-Data-Catalog-Guidelines_0828.pdf
+    format: pdf
+    citation: CDO-003
+    title: Data Catalog Guidelines
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Chief Data Officer, Office of Enterprise Technology Services
+    tags:
+    - data
+    identity_text: 'Document No: CDO-003'
+    recheck: monthly
+    found_via: https://data.hawaii.gov/policies-and-documents/
+    why_relevant: Common guidelines for cataloging agencies' data assets (what each data set is, its business owner, how it can be used). Published August 28, 2025. Listed on the State Data Office's Policies and Documents page, which says the guidelines were reviewed and approved by the Data Taskforce and the Attorney General.
+
+  - id: hi-pol-cdo-004
+    sha256: "751e13d5b3a37ec1f2c7dcaf68fcb3df8dc552352c7924211bd1f722c9a27f53"
+    url: https://data.hawaii.gov/wp-content/uploads/2025/10/CDO004-Data-Classification-Guidelines1014.pdf
+    format: pdf
+    citation: CDO-004
+    title: Data Classification Guidelines
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Chief Data Officer, Office of Enterprise Technology Services
+    tags:
+    - data
+    - cybersecurity
+    identity_text: 'Document No: CDO-004'
+    recheck: monthly
+    found_via: https://data.hawaii.gov/policies-and-documents/
+    why_relevant: 'Common guidelines for classifying data by sensitivity, the basis of access control and secured sharing. The file prints ''Published: August 28, 2025''; its URL sits in the site''s 2025/10 folder and ends 1014. Listed on the State Data Office''s Policies and Documents page, which says the guidelines were reviewed and approved by the Data Taskforce and the Attorney General.'
+
+  - id: hi-pol-cdo-005
+    sha256: "57884f9d00844555f21782ccb1119a3c03d452ffeb52a5594e29059b3eaee930"
+    url: https://data.hawaii.gov/wp-content/uploads/2025/08/CDO005-Data-Retention-Guidelines_0828.pdf
+    format: pdf
+    citation: CDO-005
+    title: Data Retention Guidelines
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Chief Data Officer, Office of Enterprise Technology Services
+    tags:
+    - data
+    identity_text: 'Document No: CDO-005'
+    recheck: monthly
+    found_via: https://data.hawaii.gov/policies-and-documents/
+    why_relevant: 'Common guidelines for how long agencies keep data sets and for backups. The file prints ''Publishes: August 28, 2025''. Listed on the State Data Office''s Policies and Documents page, which says the guidelines were reviewed and approved by the Data Taskforce and the Attorney General.'
+
+  - id: hi-pol-cdo-006
+    sha256: "a4863ec37d5ffc4f01f6b51caad7c97d1e21efab3045849f39374f5ea1c1827c"
+    url: https://data.hawaii.gov/wp-content/uploads/2025/08/CDO006-Open-Data-Guidelines_0828.pdf
+    format: pdf
+    citation: CDO-006
+    title: Open Data Guidelines
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Chief Data Officer, Office of Enterprise Technology Services
+    tags:
+    - data
+    - digital-services
+    identity_text: 'Document No: CDO-006'
+    recheck: monthly
+    found_via: https://data.hawaii.gov/policies-and-documents/
+    why_relevant: Framework for identifying, prioritizing and publishing agencies' data sets on the State's open data portal, under sections 27-44 and 27-44.3. Published August 28, 2025. Listed on the State Data Office's Policies and Documents page, which says the guidelines were reviewed and approved by the Data Taskforce and the Attorney General.
+
+  - id: hi-pol-cdo-007
+    sha256: "046fb0efabbaec37818e2b1ffd7f8e61e5a5c951befc3bbe3747dd942ef31bd6"
+    url: https://data.hawaii.gov/wp-content/uploads/2025/09/CDO007-GenAI-Assistant-Technologies-Usage-Guidelines-NEW.pdf
+    format: pdf
+    citation: CDO-007
+    title: GenAI Assistant Technologies Usage Guidelines
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Chief Data Officer, Office of Enterprise Technology Services
+    tags:
+    - ai
+    - data
+    - cybersecurity
+    identity_text: GenAI Assistant Technologies Usage Guidelines
+    recheck: monthly
+    found_via: https://data.hawaii.gov/policies-and-documents/
+    why_relevant: The framework for responsible use of generative AI assistant technologies by State employees using State data on State-owned devices, applying to all State agencies (dos and don'ts, best practices, features of specific tools). The only government-AI instrument found in Hawaii. The file's revision history (section 9.0) prints December 16, 2024, approved by the State Data Task Force, and March 28, 2025, published. Listed on the State Data Office's Policies and Documents page, which says the guidelines were reviewed and approved by the Data Taskforce and the Attorney General.
+
+  - id: hi-pol-ad-18-03
+    sha256: "7acda9914b05b0dbe34fc58f387a4e0b7040c787b0c4100cc832b071d0177589"
+    url: https://budget.hawaii.gov/wp-content/uploads/2018/10/AD-18-03-Program-Governance-and-Independent-Verification-and-Validation-Requirements-for-Enterprise-IT-Projects.pdf
+    format: pdf
+    citation: Administrative Directive No. 18-03
+    title: Program Governance and Independent Verification and Validation Requirements for Enterprise IT Projects
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Office of the Governor
+    tags:
+    - oversight
+    - governance
+    identity_text: ADMINISTRATIVE DIRECTIVE NO. 18-03
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/it-governance/
+    why_relevant: 'The Governor''s directive to all executive branch department heads (September 25, 2018): the mandatory program governance process and IV&V for enterprise IT projects of $1,000,000 or more, projects requiring CIO oversight and projects the CIO identifies, with phase review gates (roadmapping, budgeting, procurement, implementation). Rescinds Administrative Directives 11-02 and 15-02. Linked from the ETS IT Governance page; no rescission or replacement was found.'
+
+  - id: hi-pol-spo-2017-06
+    sha256: "26fcdb235f9d49b81b2bb5ead89bac87d607bac5e9305e4f4ce7850a1d955ec3"
+    url: https://spo.hawaii.gov/wp-content/uploads/2016/12/2017-06-GSA-IT-Services.pdf
+    format: pdf
+    citation: Procurement Circular No. 2017-06
+    title: General Services Administration (GSA) Schedule 70 Contracts for IT Services Only
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: State Procurement Office
+    tags:
+    - procurement
+    identity_text: General Services Administration (GSA) Schedule 70 Contracts
+    recheck: monthly
+    found_via: https://ets.hawaii.gov/it-governance/
+    why_relevant: The State Procurement Office Administrator's determination (December 22, 2016) that GSA Schedule 70 may be used for IT services only, with CIO or designee approval required before use. Linked from the ETS IT Governance page. The file's text layer is OCR with misreadings (e.g. 'HawaN') and is mirrored as the file prints it. The circular's number is printed 'PROCUREMENT CIRCULAR NO. 201 7-06'.
+
+  - id: hi-pol-ets-itsc-charter
+    sha256: "341157f24b9e19439c0a167a62810ae486a0033889d13c869a6c64da3cc70ec6"
+    url: https://ets.hawaii.gov/wp-content/uploads/2017/02/2017-02-23-ITSC-Charter.pdf
+    format: pdf
+    citation: Information Technology Steering Committee Charter (adopted February 23, 2017)
+    title: IT Steering Committee Charter
+    doc_type: policy
+    jurisdiction: hawaii
+    issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+    tags:
+    - governance
+    identity_text: IT Steering Committee Charter
+    recheck: monthly
+    found_via: 'https://ets.hawaii.gov/it-steering-committee/ links this URL (https://ets.hawaii.gov/wp-content/uploads/2017/02/2017-02-23-ITSC-Charter.pdf) from its caption image (attachment_8550); the page''s sidebar Charter link uses the ets80 host (https://ets80.hawaii.gov/wp-content/uploads/2017/02/2017-02-23-ITSC-Charter.pdf), which answered the Fetcher with HTTP 522 on two attempts on 2026-11-11. The bytes fetched through the Fetcher from the ets.hawaii.gov URL print the title block "IT Steering Committee Charter, February 2017, ADOPTED" and "ADOPTED February 23, 2017" on every page footer.'
+    why_relevant: "The charter of the information technology steering committee that section 27-43(c) establishes to assist the CIO in developing statewide IT standards and policies. Four pages; the first two are a cover and a page printed 'THIS PAGE INTENTIONALLY LEFT BLANK'. Borderline as an instrument (a committee charter): OWNER DECISION."
+
+  - id: hi-watch-ets-policies
+    sha256: ''
+    url: https://ets.hawaii.gov/policies/
+    format: html
+    citation: ETS Policies, Standards and Guidelines page
+    title: 'Office of Enterprise Technology Services: Policies, Standards and Guidelines'
+    doc_type: policy
+    jurisdiction: hawaii
+    tags:
+    - governance
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The statewide IT policy library: one table (Document No., Title, Effective Date, Revision) of eight rows on 2026-11-11; the watch sees a new, revised or removed row.'
+
+  - id: hi-watch-ets-it-governance
+    sha256: ''
+    url: https://ets.hawaii.gov/it-governance/
+    format: html
+    citation: ETS IT Governance page
+    title: 'Office of Enterprise Technology Services: IT Governance'
+    doc_type: policy
+    jurisdiction: hawaii
+    tags:
+    - oversight
+    recheck: monthly
+    watch_only: true
+    why_relevant: The page that lists the Governor's Administrative Directive 18-03, the State Procurement Office circular on GSA Schedule 70 and the ETS guidelines (10 items on 2026-11-11).
+
+  - id: hi-watch-data-policies
+    sha256: ''
+    url: https://data.hawaii.gov/policies-and-documents/
+    format: html
+    citation: State Data Office Policies and Documents page
+    title: 'State Data Office: Policies and Documents'
+    doc_type: policy
+    jurisdiction: hawaii
+    tags:
+    - data
+    - ai
+    recheck: monthly
+    watch_only: true
+    why_relevant: The State Data Office's list of the seven CDO guidelines (data quality, privacy, catalog, classification, retention, open data, GenAI assistant usage); the watch sees a new or replaced guideline, including the AI one.
+
+  - id: hi-watch-governor-eos
+    sha256: ''
+    url: https://governor.hawaii.gov/category/newsroom/executive-orders/
+    format: html
+    citation: Governor executive orders list
+    title: 'Office of the Governor: Executive Orders'
+    doc_type: executive_order
+    jurisdiction: hawaii
+    tags:
+    - governance
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The Governor''s executive order list (page 1 of 3 on 2026-11-11; none of the orders listed concerns IT, cybersecurity, data or AI): the watch sees a new order.'
+
+  - id: hi-watch-hrs-27
+    sha256: ''
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/
+    format: html
+    citation: HRS chapter 27 directory
+    title: 'Hawaii Revised Statutes chapter 27: section file listing'
+    doc_type: statute
+    jurisdiction: hawaii
+    tags:
+    - governance
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The Legislature''s directory of the section files of chapter 27: sections 27-43 to 27-46 are the IT governance and data provisions: the watch sees a section added or removed (a section''s own text is watched through its entry).'
+
+  - id: hi-watch-hrs-27g
+    sha256: ''
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027G/
+    format: html
+    citation: HRS chapter 27G directory
+    title: 'Hawaii Revised Statutes chapter 27G: section file listing'
+    doc_type: statute
+    jurisdiction: hawaii
+    tags:
+    - governance
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The Legislature''s directory of the section files of chapter 27G, Access Hawaii committee: the watch sees a section added or removed (a section''s own text is watched through its entry).'
+
+
+  - id: hi-watch-hrs-128b
+    sha256: ''
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol03_Ch0121-0200D/HRS0128B/
+    format: html
+    citation: HRS chapter 128B directory
+    title: 'Hawaii Revised Statutes chapter 128B: section file listing'
+    doc_type: statute
+    jurisdiction: hawaii
+    tags:
+    - cybersecurity
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The Legislature''s directory of the section files of chapter 128B, cybersecurity (one section on 2026-11-11): the watch sees a section added or removed (a section''s own text is watched through its entry).'
+
+  - id: hi-watch-hrs-487n
+    sha256: ''
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487N/
+    format: html
+    citation: HRS chapter 487N directory
+    title: 'Hawaii Revised Statutes chapter 487N: section file listing'
+    doc_type: statute
+    jurisdiction: hawaii
+    tags:
+    - governance
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The Legislature''s directory of the section files of chapter 487N, security breach of personal information: the watch sees a section added or removed (a section''s own text is watched through its entry).'
+
+  - id: hi-watch-hrs-487j
+    sha256: ''
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487J/
+    format: html
+    citation: HRS chapter 487J directory
+    title: 'Hawaii Revised Statutes chapter 487J: section file listing'
+    doc_type: statute
+    jurisdiction: hawaii
+    tags:
+    - governance
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The Legislature''s directory of the section files of chapter 487J, personal information protection: the watch sees a section added or removed (a section''s own text is watched through its entry).'
+
+  - id: hi-watch-hrs-487r
+    sha256: ''
+    url: https://data.capitol.hawaii.gov/hrscurrent/Vol11_Ch0476-0490/HRS0487R/
+    format: html
+    citation: HRS chapter 487R directory
+    title: 'Hawaii Revised Statutes chapter 487R: section file listing'
+    doc_type: statute
+    jurisdiction: hawaii
+    tags:
+    - governance
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The Legislature''s directory of the section files of chapter 487R, destruction of personal information records: the watch sees a section added or removed (a section''s own text is watched through its entry).'
+
+  - id: hi-watch-ags-rules
+    sha256: ''
+    url: https://ags.hawaii.gov/administrative-rules/
+    format: html
+    citation: DAGS Administrative Rules page
+    title: 'Department of Accounting and General Services: Administrative Rules'
+    doc_type: rule
+    jurisdiction: hawaii
+    tags:
+    - governance
+    recheck: monthly
+    watch_only: true
+    why_relevant: 'The department''s list of its administrative rule chapters (14 entries on 2026-11-11, none for the Office of Enterprise Technology Services): the watch sees a rule chapter for ETS appear.'
+left_out:
+  - text: 'RULES, none found. Administrative rules of the Office of Enterprise Technology Services: section 27-43(a)(12) authorizes the CIO to adopt rules under chapter 91, but no ETS rule chapter was found in the three lists read on 2026-11-11: the Lieutenant Governor''s Administrative Rules page (https://ltgov.hawaii.gov/the-office/administrative-rules/, which has no unified code and links each department''s rules; its Title 3 entry is the Department of Accounting and General Services), the Department''s own Administrative Rules page (https://ags.hawaii.gov/administrative-rules/, which lists Office of the Comptroller, Accounting Division, Archives Division, Automotive Management Division, Building Code Council, Campaign Spending Commission, Central Services Division, Land Survey Division, Election Commission, Office of Elections, Procurement Policy Board, Public Works Division, State Foundation on Culture and the Arts and State Procurement Office, with proposed changes for the State Procurement Office, the Automotive Management Division, the Office of Elections and the Office of Information Practices) and the Legislative Reference Bureau''s directory page (https://lrb.hawaii.gov/admin-rules-directory/, which only links a 2001 Table of Statutory Sections Implemented). The Department''s page is seeded as a watch page. Not read: the rule text of any department.'
+  - text: 'ARTIFICIAL INTELLIGENCE STATUTES, none found binding state agencies. (1) Act 247 (HB 2137, 2026), relating to artificial intelligence: civil remedies for harmful deepfake imitations of an individual; private conduct. (2) Act 248 (SB 3001, 2026), relating to artificial intelligence: disclosures, self-harm response protocols and annual reports to the Department of Health by operators of AI companions, and protections for minors; private operators. Both are described in the Governor''s release of 2026-07-14 (https://governor.hawaii.gov/newsroom/office-of-the-governor-news-release-gov-green-signs-legislation-to-support-kupuna-care-and-strengthen-ai-protection/), which signed three measures, two on AI. (3) HB 2597 (2026): out as not in force (bills not yet enacted). The legislature''s directory of 2026 bills (https://data.capitol.hawaii.gov/sessions/session2026/bills/) holds HB2597_.HTM, HB2597_HD1_.HTM and HB2597_SD1_.HTM and no CD1 file; the SD1 (https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2597_SD1_.HTM) is the last version in the directory and says it would take effect on January 1, 2077, a placeholder effective date, so even if it had passed it would not be in force. The HD1 text was fetched (https://data.capitol.hawaii.gov/sessions/session2026/bills/HB2597_HD1_.pdf). It is not among the acts in the Governor''s release. The fetched HRS sections (chapters 27, 27C, 27G, 27J, 128B, 487J, 487N, 487R) contain no occurrence of ''artificial intelligence''. HRS as the Legislature serves it is dated 2026-01-06 in its directory listing, before the 2026 acts. The only AI instrument found is the CDO-007 guideline (seeded).'
+  - text: 'STATUTE SECTIONS OF CHAPTER 27 NOT SEEDED (each section file was fetched and read): 27-1 to 27-5 (functions of statewide concern, assignment by governor), 27-6 (extended state information and services: the Governor''s office reviews requests for providing information and services to the public), 27-7 (departmental data sharing through the statewide longitudinal data system for education and workforce research; sets an ETS data-sharing working group; OWNER DECISION: data governance across agencies, but its subject is education-to-workforce research data), 27-8 (food contracts), 27-9 (parking), 27-11 to 27-15, 27-21 to 27-22 (schools, health, repealed), 27-26 (junior police), 27-31 and 27-32 (highways, parks), 27-36 and 27-42 (repealed), 27-41 (special advisor for technology development: promotion of high technology industry, not state IT), 27-45 (broadband-related permits: automatic approval of permit applications), 27-51 to 27-54 (Hawaii performance partnerships board), 27-61 to 27-65 (Office of wellness and resilience, repealed) and Part X, 27-71 to 27-75 (broadband office, strategic broadband coordinator and broadband revolving fund within the Department of Accounting and General Services: broadband infrastructure policy, not the state''s own IT; OWNER DECISION if broadband counts). Chapter 27C (27C-1, 27C-2: the Governor''s office state information service for public information needs) and chapter 27J (apostilles and certifications) were read and are out of scope. 487J-3, 487N-3 and 487R-3 (Penalties; civil action: they bind businesses only; each records a government-agency carve-out, no action may be brought against a government agency under the chapter, so the obligated party is not the state), 487J-6 (business scanning of identification cards) and 487J-7 (pharmacy benefit managers) bind businesses only. Chapter 26 section 26-6 (the Department of Accounting and General Services'' functions, cited by an ETS report) and chapter 92F (the Uniform Information Practices Act, a general public-records law, cross-referenced from 27-44) were not fetched: the first is a department-organization section, the second is general public-records law, which the other states'' seed lists also leave out.'
+  - text: 'STATUTES, a convention to confirm: the Legislature serves HRS as one file per section, so each section is a document (hi-st-*), not a chapter. A chapter-level document would carry out-of-scope sections (chapter 27 has 46 section files across Parts I to X). OWNER DECISION whether the per-section form is wanted; a chapter form would need a shared change (a snapshot that joins a directory''s files). Bracketed section numbers and headings in the files (e.g. [§27-43.5]) are mirrored as printed; their meaning was not looked up.'
+  - text: 'POLICY LIBRARY, reconciled row by row (https://ets.hawaii.gov/policies/, one table, eight rows on 2026-11-11, all seeded): ETS Doc No. 306 PC Acquisition Guidelines (hi-pol-ets-306), 306.01 Recommended PC Specifications (hi-std-ets-306-01), 508 Secure Device Policy (hi-pol-ets-508), 508.01 Secure Device Standards (hi-std-ets-508-01), 509 Secure Access Policy - Next Generation Network (hi-pol-ets-509), 510 Secure Access Policy - Microsoft Office (hi-pol-ets-510), 103.01 Social Media Guidance (hi-pol-ets-103-01), 104.01 Hawaii Electronic Information Technology Disability Access Standards (hi-std-ets-104-01). No row shows a status column: every row was treated as current. Four findings for the owner: (a) 508.01: the library row''s page and the PDF it offers differ (page ''Desktop/Laptop: 14 characters'', PDF ''Desktop/Laptop: 10 characters'' in the Device passwords row); the page is seeded, the PDF (https://ets.hawaii.gov/wp-content/uploads/2018/10/ETS-Policy-No.-508.01-Secure-Device-Standards-20180918.pdf) is left out as a second copy: OWNER DECISION which is of record. (b) 508, 509 and 510: the library row links a web page; the seeded file is the PDF the page offers, whose words equal the page''s (measured by word comparison). (c) 104.01: the file prints ''Effective Date: April 20, 2026'' where the row prints effective 2025/01/01. (d) The State Data Office page says its guidelines ''are now posted on the ETS website'', but none of the seven CDO guidelines is a row of the ETS table.'
+  - text: 'DATA AND AI GUIDELINES, reconciled (https://data.hawaii.gov/policies-and-documents/, seven entries, all seeded): CDO-001 Data Quality, CDO-002 Data Privacy, CDO-003 Data Catalog, CDO-004 Data Classification, CDO-005 Data Retention, CDO-006 Open Data, CDO-007 GenAI Assistant Technologies Usage. Not seeded: a draft ''Acceptable AI Use Guidelines'' Word file (https://data.hawaii.gov/wp-content/uploads/2026/06/2026-6-22-Acceptable-AI-Use-Guidelines-DRAFT.docx, fetched, 84,270 bytes) that prints ''Document No: CDO-007'' and ''Published: Date'' (a template placeholder), is named DRAFT and is not listed on the Policies and Documents page: a draft is not in force; the watch page will show it if it is published (OWNER DECISION, and note the number CDO-007 is already used by the GenAI guideline). The State Data Office''s other pages (the sitemap lists overview, data governance, meetings, membership, glossary, literacy, success stories, AI literacy) are not instruments; only the AI literacy page was read.'
+  - text: 'IT GOVERNANCE PAGE (https://ets.hawaii.gov/it-governance/) items not seeded: EM 22-03 Attachment A, the Governor''s Budget Execution Policies for fiscal year 2023 (budget.hawaii.gov, 56 pages, fetched): budget execution policy for a past fiscal year, not an IT instrument; SPO-050 (an .xls form) and the ETS-001 Telecommunications Request form and its instructions (forms); the ''GSA IT Schedule 70 instructions'' (https://ets.hawaii.gov/wp-content/uploads/2019/03/GSAITSchedule70-r1-instructions.pdf, one page, fetched): ETS''s request-and-approval procedure under Procurement Circular 2017-06, a procedure sheet: OWNER DECISION; the GSA''s own FAQ page (a federal site, not a Hawaii source). Seeded from that page: Administrative Directive 18-03, Procurement Circular 2017-06 and the two ETS guidelines (306, 306.01, also library rows). The IT Steering Committee charter is seeded from the ets.hawaii.gov URL its page links from the caption image (the sidebar''s ets80 link answered HTTP 522; see its entry). The committee''s meeting pages are agendas and minutes, not instruments.'
+  - text: 'REPORTS AND STRATEGY DOCUMENTS, not instruments (ETS Reports page https://ets.hawaii.gov/reports/, IT Steering Committee page, Cybersecurity Program page, all read): the CIO annual reports 2017 to 2025, the State IT Strategic Plans 2019, 2021 and 2025 and a 2019 overview presentation, the Act 119 (2015), Act 179 (2022) and Act 173 IT consolidation reports, the Act 172 reports, the 2024 IPSC annual PIA summary, the January 2024 Report on the State Executive Branch Cybersecurity Program, quarterly security and penetration reports, independent verification and validation reports, the 2024 Cybersecurity Awareness Month proclamation and release, the CISA ransomware fact sheet and the cybersecurity newsletters. The For Vendors page links only the ETS reports page and the State Procurement Office site.'
+  - text: 'EXECUTIVE ORDERS, none on IT, cybersecurity, data or AI. The Governor''s list (https://governor.hawaii.gov/category/newsroom/executive-orders/, pages 1 to 3, read 2026-11-11) holds: 26-02 renewable energy technology system credits in tax year 2026; 26-01, 25-05, 25-06, 24-02 and 24-03 (civil service and exempt employees excluded from bargaining units; 26-01 and 24-02 and 24-03 read in the PDF, 25-05 and 25-06 by their list titles); 25-10 CREDIT Task Force (reliable energy and decarbonization; read in the PDF); 25-09 Hawaii Relief Program; 25-08 statewide traffic and roadway safety framework; 25-04 deposit beverage container distributor independent audits; 25-02 Operation Hire Hawaii workforce transition; 25-01 renewable energy; 24-06 medical cannabis primary caregivers; 24-01 trauma-informed state; and Land Executive Orders 4688 to 4695 (public land set-asides). The numbers 25-03, 25-07, 24-04 and 24-05 do not appear on the list; the list has no filter for earlier governors and no order before 2023 appears, so no order of an earlier governor was checked; the Governor''s site sitemaps (2022 to 2026 posts) were searched by title for cyber, artificial, technology, data, digital and executive order and showed no further order. The Governor''s Administrative Directive 18-03 on IT project governance is seeded; no index of administrative directives was found on governor.hawaii.gov or budget.hawaii.gov.'

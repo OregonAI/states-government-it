@@ -1,0 +1,10 @@
+[§27-46] Multilingual accessibility standards. (a) The office of enterprise technology services, in consultation with the office of language access, shall develop multilingual accessibility standards to provide technical guidance to state entities regarding public access to vital information and documents. These multilingual accessibility standards shall:
+(1) Encourage state entities to implement language accessibility cost-effectively, taking into consideration the unique challenges and circumstances of each state entity;
+(2) Include functional performance criteria and technical requirements for multilingual accessibility standards;
+(3) Provide recommendations for procurement provisions that can be incorporated into existing state procurement processes to conform to multilingual accessibility standards;
+(4) Offer other guidance for planning, reporting, and monitoring to ensure that state entities implement the multilingual accessibility standards without impeding modernization efforts; and
+(5) Apply to electronic information technology developed, purchased, used, modified, or provided by a state entity to assure access to language services as required by federal and state law, rules, and regulations.
+The office of enterprise technology services, in consultation with the office of language access, shall review the multilingual accessibility standards every three years, or more frequently if the chief information officer deems it necessary, and amend the standards to reflect advances or changes in electronic information technology rules or superseding federal rules, regulations, and guidance.
+(b) For purposes of this section:
+"Access" or "accessibility" means to be informed of, participate in, and benefit from the services, programs, and activities offered by a state entity.
+"State entity" means the executive, legislative, or judicial branch of state government or any department, office, commission, board, or other agency of the executive, legislative, or judicial branches of state government. [L 2024, c 203, §2]

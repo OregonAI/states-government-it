@@ -1,0 +1,46 @@
+                                                     STATE OF HAWAII
+                                 Offices of Enterprise Technology Services Policy No. 508
+                                                    Secure Device Policy
+                                             Effective Date: December 1, 2017
+                                                 Revision No./Date: (n/a)
+
+                                                      INTRODUCTION
+
+The purpose of the Secure Device Policy (“Policy”) is to identify minimum requirements for authorizing any device, as
+appropriate, to connect to State of Hawaii (“State”) government information technology services and/or access and
+potentially store State data. The intent of this Policy is to protect the integrity of private and confidential data.
+
+                                                           SCOPE
+
+This Policy applies to all devices, whether or not provided by the State, connecting to State information technology
+services and/or accessing and potentially storing State data, including but not limited to smartphones, tablets, laptops
+and computers.
+
+Each department, division and agency within the State may establish supplemental standards and procedures that
+enhance the Policy to meet other specific security requirements.
+
+                                                          POLICY
+
+Prior to connecting State services, excluding publicly accessible web resources and guest networks, and/or
+accessing/storing private, confidential, or otherwise protected data maintained by the State, all devices shall meet
+minimum requirements listed in Office of Enterprise Technology Services Policy No. 508.01, Secure Device Standards,
+as applicable.
+
+Downloading State data onto a non-State device, including personal devices, is strongly discouraged but permissible if
+required for State business purposes, provided that the device meets the same minimum requirements.
+
+Any device failing to meet these requirements shall not be allowed to connect.
+
+The State reserves the right to refuse the connection of any device, without notice, if it appears the device is not in
+compliance with this Policy.
+
+Loss of any device with access to State services or data must be immediately reported to the designated information
+technology coordinator.
+
+                                         ADVISORY: DEVICES SUBJECT TO AUDIT
+
+ Any device connecting to State services and/or access and potentially storing State data may be subject to audit to
+ confirm compliance with this Policy or other applicable State policies, such as Department of Human Resources
+ Development Policy No. 103.001, Acceptable Usage of Information Technology Resources, as amended. The State
+ may require the removal of State data from devices at any time. The State is not responsible for personal data lost or
+ compromised.

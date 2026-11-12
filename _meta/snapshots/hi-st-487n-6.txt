@@ -1,0 +1,6 @@
+[§487N-6] Personal information security; best practices; websites. (a) The council shall identify best practices to assist government agencies in improving security and privacy programs relating to personal information. No later than March 31, 2009, the council shall identify best practices relating to:
+(1) Automated tools;
+(2) Training;
+(3) Processes; and
+(4) Applicable standards.
+(b) No later than July 31, 2009, the best practices identified by the council shall be posted on each government agency's website in a manner that is readily accessible by employees of the government agency. [L Sp 2008, c 10, pt of §4]

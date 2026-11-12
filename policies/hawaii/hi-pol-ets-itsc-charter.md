@@ -1,0 +1,135 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: hawaii
+id: hi-pol-ets-itsc-charter
+title: IT Steering Committee Charter
+doc_type: policy
+citation: Information Technology Steering Committee Charter (adopted February 23, 2017)
+authority_level: ''
+issuing_body: Office of Enterprise Technology Services, Department of Accounting and General Services
+source_url: https://ets.hawaii.gov/wp-content/uploads/2017/02/2017-02-23-ITSC-Charter.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 341157f24b9e19439c0a167a62810ae486a0033889d13c869a6c64da3cc70ec6
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# IT Steering Committee Charter (Information Technology Steering Committee Charter (adopted February 23, 2017))
+
+## At a glance
+
+The charter of the information technology steering committee that section 27-43(c) establishes to assist the CIO in developing statewide IT standards and policies. Four pages; the first two are a cover and a page printed 'THIS PAGE INTENTIONALLY LEFT BLANK'. Borderline as an instrument (a committee charter): OWNER DECISION.
+
+## Full text
+
+                                 State of Hawai‘i
+
+                                IT Steering Committee Charter
+                                          February 2017
+                                           ADOPTED
+
+IT Steering Committee Charter                        ADOPTED February 23, 2017
+
+                          THIS PAGE INTENTIONALLY LEFT BLANK
+
+IT Steering Committee Charter                             ADOPTED February 23, 2017
+
+                    IT STEERING COMMITTEE CHARTER
+
+I. PURPOSE
+Act 200, Session Laws of Hawai‘i (SLH) 2010, established the Information Technology Steering
+Committee to assist the Chief Information Officer in executing his responsibilities. The Act, as
+amended by Act 84, SLH 2011, and codified into law as Hawai‘i Revised Statutes (HRS) section
+27-43, reads as follows:
+
+       There is established an information technology steering committee to assist the chief
+       information officer in developing the State's information technology standards and
+       policies, including but not limited to:
+
+          (1) Assisting the chief information officer in developing and implementing the state
+              information technology strategic plans;
+          (2) Assessing executive branch departments' progress in meeting the objectives
+              defined in the state information technology strategic plans and identifying best
+              practices for shared or consolidated services;
+          (3) Ensuring technology projects are selected based on their potential impact and
+              risk to the State, as well as their strategic value;
+          (4) Ensuring that executive branch departments maintain sufficient tools to assess
+              the value and benefits of technology initiatives;
+          (5) Assisting the chief information officer in developing state information
+              technology standards and policies; and
+          (6) Clarifying the roles, responsibilities, and authority of the office of enterprise
+              technology services, specifically as it relates to its statewide duties.
+
+II. MEMBERSHIP
+The committee shall consist of eleven members, with four members to be appointed by the
+Senate President, four members to be appointed by the Speaker of the House of Representatives,
+one member to be appointed by the Chief Justice, and one member to be appointed by the
+Governor, and shall include representatives from executive branch departments, including large
+user agencies such as the Department of Education and the University of Hawai‘i; the Judiciary;
+the Legislature; and private individuals. The Chief Information Officer shall serve as the Chair
+of the committee and shall ensure that the committee is evaluated periodically.
+
+III. ROLES AND RESPONSIBILITIES
+The responsibilities of the committee are as indicated by HRS section 27-43.
+
+IV. METHODS AND PROCEDURES
+
+A. Meetings
+The committee shall meet quarterly and as often as necessary to accomplish its purpose.
+Agendas will be distributed electronically to the committee membership prior to the date of the
+meeting. Meetings will be scheduled for 1.5 hours.
+
+IT Steering Committee Charter                Page 1                   ADOPTED February 23, 2017
+
+B. Meeting Ground Rules
+The Chair presides over the meetings. The committee is advisory in nature, and so may provide
+the Chief Information Officer with advice, insight, and recommendations on any topic related to
+information technology standards and practices.
+
+D. Meeting Minutes
+Office of Enterprise Technology Services staff will prepare and distribute the draft meeting
+minutes to the membership electronically. Members may provide comments or corrections in
+the minutes for a two-week period after the draft minutes have been distributed. The final
+minutes will be distributed to the membership again and stored as permanent records for
+internal viewing and possible distribution to oversight authorities upon request without further
+approval by the committee.
+
+E. Communication
+Meeting invitations, agendas, review documents, and other notices will be distributed by the
+Chair via email to each member unless other means are requested by individual members.
+
+F. Sunshine Law
+As a general statement, the Sunshine Law applies to all state and county boards, commissions,
+authorities, task forces, and committees that have supervision, control, jurisdiction, or advisory
+power over a specific matter and are created by the State Constitution, statute, county charter,
+rule, executive order, or some similar official act.
+
+A committee or other subgroup of a board that is subject to the Sunshine Law is also considered
+to be a “board” for purposes of the Sunshine Law and must comply with the statute’s
+requirements.
+
+IT Steering Committee Charter                 Page 2                   ADOPTED February 23, 2017
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

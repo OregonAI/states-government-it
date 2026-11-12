@@ -1,0 +1,293 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: hawaii
+id: hi-pol-spo-2017-06
+title: General Services Administration (GSA) Schedule 70 Contracts for IT Services Only
+doc_type: policy
+citation: Procurement Circular No. 2017-06
+authority_level: ''
+issuing_body: State Procurement Office
+source_url: https://spo.hawaii.gov/wp-content/uploads/2016/12/2017-06-GSA-IT-Services.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 26fcdb235f9d49b81b2bb5ead89bac87d607bac5e9305e4f4ce7850a1d955ec3
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# General Services Administration (GSA) Schedule 70 Contracts for IT Services Only (Procurement Circular No. 2017-06)
+
+## At a glance
+
+The State Procurement Office Administrator's determination (December 22, 2016) that GSA Schedule 70 may be used for IT services only, with CIO or designee approval required before use. Linked from the ETS IT Governance page. The file's text layer is OCR with misreadings (e.g. 'HawaN') and is mirrored as the file prints it. The circular's number is printed 'PROCUREMENT CIRCULAR NO. 201 7-06'.
+
+## Full text
+
+                                                                                             SARAH ALLEN
+                                                                                             AOMINISTRATOfl
+      DAVID V. ‘GE
+                                                                                             MARA SMITH
+                                                                                         AsscsrANr AoMjNLsTpArc
+
+                                           STATE OF HAWAII
+                                       STATE PROCUREMENT OFFICE
+                                                       P.O. Box 119
+                                             Honolulu, Hawaii 96B100119
+                                                  Tel: (SOS) 586-0554
+                                      email: stataprocuremenloffice@hawau.gov
+                                                  http ://s po. hawah. oov
+                                                  Twitter: @hawaiispo
+
+                                             December 22, 2016
+
+PROCUREMENT CIRCULAR NO. 201 7-06
+
+TO:                  Office of the Governor, Chief of Staff
+                     Office of the Lieutenant Governor, Chief of Staff
+                     Executive Department Heads
+                     Hawaii State Public Library System, State Librarian
+
+                     Chief Procurement Officers (CPOs):
+                        Department of Education, Superintendent
+                        University of HawaN, President
+                        Office of Hawaiian Affairs, Chairperson of the Board
+                        Hawaii Health Systems Corporation, President and Chief Executive Officer
+                        Judiciary, Administrative Director of the Courts
+                        Senate, President
+                        House of Representatives, Speaker
+
+                        Counties of HawaN, Kauai, Maui, and City & County of Honolulu
+                           Executive Branch, Finance Director
+                           Legislative Branch, Chairperson of the County Council
+                           Board/Departments of Water Supply, Manager/Chief Engineer
+                           Honolulu Authority for Rapid Transportation, Executive Director
+
+FROM:                Sarah Allen, AdministratorjfflIr.
+
+SUBJECT:             General Services Administration (GSA) Schedule 70 Contracts
+                     for IT Services Only
+
+The Administrator of the State Procurement Office (SPO) has determined that GSA Schedule 70,
+General Purpose Commercial Information Technology Equipment, Software, and Services, may
+be used for IT SERVICES ONLY.
+
+The General Services Administration (GSA) is a federal government agency that offers a Federal
+Supply Schedule Contracts or the GSA Schedules Program to the Federal Procurement
+Workforce. The GSA Schedules Program was created to streamline government purchasing
+of commercial products and services and to leverage the buying power of the federal government
+
+Procurement Circular 2017-06
+General Services Administration (GSA) Schedule 70 Contracts
+   for IT Services Only
+Page 2
+
+   in the process. GSA Schedule contracts were developed to assist federal employees in
+   purchasing products and services; they contain pre-negotiated prices, delivery terms, warranties,
+   and other terms and conditions which streamline the buying process.
+
+   GSA established the Cooperative Purchasing Program, which allows state and local governments
+   access to GSA Schedule 70 contracts containing IT Special Item Numbers (SINs). No other GSA
+   schedules, including Schedule 84, may be used, notwithstanding governor declared emergency
+   procurements.
+
+   The jurisdiction’s Chief Information Officer (CIO) or designee approval is required prior to using
+   GSA Schedule 70 contracts, and departments must adhere to the following policies. Each
+   jurisdiction shall provide the SPO Administrator the name(s) and contact information of the
+   jurisdiction’s CIO or designee if the jurisdiction chooses to participate in the GSA program.
+
+   A department must notify the CIO of its interest in purchasing off a GSA contract. Such notification
+   shall include:
+
+          an analysis of whether any current statewide contract could meet (or not meet) their
+           needs, and if such contracts do exist, why the department is not using such contract
+          a description of the services sought
+          anticipated period of performance
+          estimated cost
+
+   When a Statewide Contract Exists:
+
+   Departments are not permitted to purchase from a GSA contract if there is another active SPO
+   statewide contract for that service. If a department believes it can negotiate better value using
+   the GSA contract, it must include an analysis and justification in written notification to the attention
+   of the CIO. The CIO may negotiate with existing statewide contractors to “meet or beat” the other
+   contract terms, if possible. If CIO determines that “best value” for a department can only be
+   obtained through the GSA contract, it may recommend approval, in writing, on a case by case
+   basis.
+
+   Examples that might qualify for this scenario include, but are not limited to:
+       Where specific vendor service does not exist on an existing Statewide contract,
+       Where specific vendor service exists on an existing Statewide contract, and on a GSA
+         Schedule 70 contract
+
+   After discussion with the department and review of request, CIO shall make a determination in
+   writing of the appropriate next steps, including but not limited to:
+
+           1)     Determine if there is sufficient need for the service to justify the department
+                  conducting a procurement in according with HRS 103D, Hawaii Procurement
+                  Code; and
+
+           2)     Recommend that the department use an existing Statewide contract.
+
+Procurement Circular 2017-06
+General Services Administration (GSA) Schedule 70 Contracts
+   for IT Services Only
+Page 3
+
+   When a Statewide Contract Does Not Exist:
+
+   After discussion with the department and review of request, CIO shall make a written
+   determination of the appropriate next steps including but not limited to:
+
+          1)     Determine if there is sufficient need for the service to justify the department
+                 conducting a procurement in according with 103D, Hawaii Procurement Code or;
+
+          2)     Recommend that the department conduct a procurement for the necessary
+                 service using the GSA Schedule 70 contract.
+
+   GSA ADVANTAGE!®
+
+   GSA Advantage! is GSA's e-commerce website, which lists GSA contract holder products and
+   services. State, Local and Federal Government customers can use GSA Advantage! to research
+   product information and make on-line purchases (if authorized). GSA Advantage! is also a
+   valuable market research tool.
+
+   Entities are encouraged, but not required, to use GSA’s Schedule Ordering Procedures to ensure
+   competition and to receive the best value from GSA Schedule contractors.
+
+   Step 1: Register on GSA Advantage, as a state government customer, for access to GSA eBUY,
+   the online RFQ tool: https://www.gsaadvantage.gov/advantage/main/start_page.do
+
+   NOTE: The use of GSA Advantage by State and Local Governments is restricted to only those
+   domains (URLs) approved by GSA and approved by the jurisdiction’s CIO or designee.
+
+   Step 2: Follow the eBUY template, which will guide you through the issuing of an RFI or RFQ and
+   help you submit it to vendors.
+
+   Step 3: Issue RFQ and award through eBUY.
+
+   Step 4: The award must be posted on the Procurement and Awards Notices Site (or as amended)
+   or the jurisdiction’s appropriate awards posting site.
+
+   Step 4: After award, deal directly with the vendor and follow the jurisdiction’s procedures for
+   payment to the vendor.
+
+   REMINDER! GSA Schedule 70 shall only be used for IT Services. Agencies shall use
+   applicable procurement method or appropriate price/vendor list for hardware and
+   software.
+
+Procurement Circular 2017-06
+General Services Administration (GSA) Schedule 70 Contracts
+   for IT Services Only
+Page 4
+
+                                     OBTAINING PRICE QUOTES
+
+   If approved by the CIO to use GSA Schedule 70 contracts, the agency shall obtain price
+   quotations as follows:
+
+      1. For purchases under $25,000:
+         a. Obtain a minimum of two (2) price quote from awarded GSA Schedule 70
+            contractors.
+         b. Award is based on best value.
+
+      2. For purchases $25,000 to less than $1,000,000:
+         a. Obtain a minimum of three (3) price quotes from awarded GSA Schedule 70
+            contractors.
+         b. Award is based on best value.
+
+   Personnel conducting or participating in utilizing GSA Schedule 70 contracts are responsible for
+   documenting all quotations. If unable to obtain the minimum number of quotes, written justification
+   is required and kept as a part of the contract file. If award is not made to the lowest bidder,
+   written justification must be provided and kept as a part of the contract file.
+
+   PAYMENTS for contracts exceeding $100,000 shall be based on milestones and deliverables as
+   identified in the statement/scope of work, and not on labor hours alone.
+
+   TRAVEL PAYMENTS: Profit on travel is not allowable.
+
+   TERM OF CONTRACT: The term of contract shall not exceed the one (1) base-year plus four
+   (4) 12-month options to extend.
+
+   PURCHASES/CONTRACTS EXCEEDING $1,000,000. The Competitive Sealed Proposals
+   procurement process pursuant to HRS 103D shall be used, unless granted express approval by
+   both the CIO and SPO to utilize GSA Schedule 70 contracts.
+
+   CONSIDERATION OF QUOTES. Agencies shall consider all responsive and responsible quotes
+   received. The award shall be made to the vendor whose offer represents the best value to the
+   agency. Best value means the most advantageous offer determined by evaluating and comparing
+   all relevant criteria in addition to price so that the offer meeting the overall combination that best
+   services the agency is selected. Price must be found fair and reasonable. These criteria may
+   include, in addition to others, the total cost of ownership, performance, history of the vendor,
+   quality of goods, services, delivery and proposed technical performance (as applicable).
+
+   AGENCY PROCUREMENT OFFICER RESPONSIBILITIES. The agency’s procurement officer
+   must make a written determination that:
+
+       1. The use of the GSA schedule is cost effective and in the best interest of the State.
+       2. The price is equal to or less than the contractor’s current GSA price.
+
+Procurement Circular 2017-06
+General Services Administration (GSA) Schedule 70 Contracts
+   for IT Services Only
+Page 5
+
+       3. The price is fair and reasonable after conducting an analysis of price, quality, and other
+          relevant factors.
+       4. The Contractor is willing to offer GSA pricing and terms to the State.
+       5. The Contractor accepts required State contract terms and conditions.
+
+   APPROVALS. Any and all approvals/requirements and internal controls for these expenditures
+   are the responsibility of the agency/jurisdictions, including but not limited to budget approvals,
+   requests to spend, and applicable IT governance policy and procedures.
+
+   COMPLIANCE PURSUANT TO HRS §103D-310(c). Use of GSA Schedule 70 is for the
+   solicitation process only. Pursuant to HRS section 103D-310(c) and HAR section 3-122-112, the
+   procuring officer shall verify compliance (i.e. vendor is required to provide proof of compliance
+   and may use the Hawaii Compliance Express) for all contracts awarded, and award is required to
+   be posted on the Awards Reporting System. Copies of the HCE certificates (or paper documents)
+   and awards posting are required to be documented in the procurement/contract file.
+
+   ANNUAL REPORTS. All participating CPO jurisdictions and the CIO for the Executive Branch
+   shall provide the Administrator of the SPO an annual report, no later than August 15 for the
+   previous fiscal year, of all contracts/expenditures made using the contracts awarded under the
+   GSA Schedule 70. The report shall be made using the attached template.
+
+   TRAINING: Training on GSA eBuy will be announced in future correspondence.
+
+   Your staff may contact Bonnie Kahakui at 587-4702 or e-mail bonnie.a.kahakui@hawaii.gov for
+   any questions, or you may contact me at 587-4700.
+
+   Attachment
+
+                                                                              GSA Schedule 70 Annual Report
+
+                                                                                  FY:_________________
+
+                                                                          Jurisdiction: ________________________
+
+         Department/Division                          Title/Description                            Contractor              Contract Amount              Term of Contract
+
+Annual Report due 8/15 for the previous Fiscal Year             Submitted by: __________________________________________             Submission Date:_________________________________
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
