@@ -11,11 +11,13 @@ __pycache__/
 # is painful to undo later.
 _meta/.cache/
 
-# Semantic-search artifact (vectors.i8.npy, chunks.jsonl, meta.json). Built on a GPU machine and mounted
-# read-only into the container at runtime, never committed and never baked (the same arrangement as
-# oregon-budget and executive-regulatory-frameworks). It must be ignored: a populated mount would
-# otherwise add `?? _meta/embeddings/` to `git status --porcelain`, which is half of the FTS cache key.
-# The hybrid leg of src/eval_questions.py reads it; the --check gate never does.
+# Semantic-search artifact (vectors.i8.npy, chunks.jsonl, meta.json). Built on a GPU machine and never
+# committed or baked. Today it is read only by the hybrid leg of `src/eval_questions.py --report`; this
+# corpus's corpus.yml configures no semantic module, so the served tools do not use it. If the corpus is
+# deployed with semantic search, it would be mounted read-only as oregon-budget and
+# executive-regulatory-frameworks do. It must be ignored: a populated directory would otherwise add
+# `?? _meta/embeddings/` to `git status --porcelain`, which is half of the FTS cache key.
+# The --check gate never reads it.
 _meta/embeddings/
 
 # corpus-detect-changes writes this to the repo root on every run.
