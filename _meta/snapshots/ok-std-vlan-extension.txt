@@ -1,0 +1,31 @@
+                                       VLAN Extension Standard
+Introduction
+A local area network is a computer network located in one physical location. A virtual LAN is used to
+manage traffic more effectively on the LAN by creating distinct and separate groups or segments of
+users on the same computer network. Utilizing VLANs allows organizations to add layers of
+functionality to computer networks and to increase protection of sensitive or confidential data
+transmitted within certain segments. To achieve a more optimal level of security and overall
+operational efficiency, OMES places limitations on VLAN extensions.
+Purpose
+This document establishes the OMES standard to implement VLAN boundaries.
+Definitions
+VLAN – A virtual local area network that forwards packets for a single broadcast domain.
+Core device – The device on which the VLAN’s layer-3 default gateway address resides.
+Standard
+VLANs are not permitted to extend through core devices beyond the boundaries of a building/site.
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§ 34.11.1 and
+34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended standards policies and
+standards at any time. Compliance is expected with all published policies and standards, and any
+published amendments thereof. Employees found in violation of this standard may be subject to
+disciplinary action, up to and including termination.
+Rationale
+To coordinate and require central approval of state agency information technology purchases and
+projects to enable the chief information officer to assess the needs and capabilities of state agencies
+as well as streamline and consolidate systems to ensure that the state delivers essential public
+services to its citizens in the most efficient manner at the lowest possible cost to taxpayers.
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+    Effective date: 04/12/2022               Review cycle: Annual
+    Last revised: 04/12/2022                 Last reviewed: 08/21/2026
+    Approved by: Dan Cronin, Chief Information Officer

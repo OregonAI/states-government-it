@@ -1,0 +1,230 @@
+Title 260. Office of Management and Enterprise Services
+CHAPTER 15. ACCESSIBILITY OF INFORMATION TECHNOLOGY
+[Authority: 75 O.S. 302
+[Source: Codified 9-11-06]
+260:15-1-1. Purpose
+        This chapter provides information and establishes procedures to assure state compliance
+regarding accessibility of information technology for individuals with disabilities based on the
+provision of Title 62, Section 34.28 and Section 508 of the Rehabilitation Act (29 U.S.C. 794d),
+as amended by the Workforce Investment Act of 1998 (P.L. 105-220), August 7, 1998.
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 30
+Ok Reg 1113, eff 7-1-13]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+emergency action), the text of Section 260:15-1-1 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.
+
+260:15-1-2. Definitions
+         The following words or terms, when used in this Chapter, shall have the following
+meaning unless the context clearly indicates otherwise:
+         "Accessibility" means compliance with nationally accepted accessibility and usability
+standards, such as those established in Section 508 of the Rehabilitation Act (29 U.S.C. 794d), as
+amended by the Workforce Investment Act of 1998 (P.L. 105-220), August 7, 1998;
+         "Appointing authority" means the chief administrative officer of an agency. As the
+term is used in this chapter, the term includes employees of an agency to whom the Appointing
+Authority has lawfully delegated authority to act on his or her behalf.
+         "Director" means the Director of the agency.
+         "Individual with Disabilities" means any individual who is considered to have a
+disability or handicap for the purposes of any Federal or Oklahoma law.
+         "Information Technology" or "IT" means equipment or interconnected system or
+subsystem of equipment that is used in the acquisition, storage, manipulation, management,
+movement, control, display, switching, interchange, transmission, telecommunications, or
+reception of data or information. The term shall include computers, ancillary equipment,
+software, firmware, and similar procedures, services, including support services and consulting
+services, software development, and related resources.
+         "Oklahoma Information Technology Accessibility Standards" or "IT Accessibility
+Standards" or "Standards" means the accessibility standards adopted by the Office of
+Management and Enterprise Services (OMES) to address all technical standard categories based
+on the provisions of Section 508 of the Workforce Investment Act of 1998, which are to be used
+by each state agency in the procurement of information technology, and in the development and
+implementation of custom-designed information technology systems, websites, and other
+emerging information technology systems.
+         "Section 508" means Section 508 of the Rehabilitation Act (29 U.S.C. 794d), as
+amended by the Workforce Investment Act of 1998 (P.L. 105-220), August 7, 1998.
+         "State agency" means any office, officer, bureau, board, counsel, court, commission,
+institution, unit, division, body or house of the executive or judicial branches of the state
+government, whether elected or appointed, excluding political subdivisions of the state. State
+
+agency shall include the Oklahoma State Regents for Higher Education, the institutions, centers,
+or other constituent agencies of The Oklahoma State System of Higher Education, the State
+Board of Career and Technology Education and Technology Center school districts. [62 O.S.,
+Section 34.28]
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 28
+Ok Reg 2367, eff 9-11-11; Amended at 30 Ok Reg 1113, eff 7-1-13; Amended at 32 Ok Reg 1749, eff 9-11-15]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+emergency action), the text of Section 260:15-1-2 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.
+
+260:15-1-3. Information technology accessibility standards
+(a) OMES shall prescribe Information Technology Accessibility Standards to address all
+technical standard categories of Section 508 in accordance with 62 O.S. §34.28. Information
+technology products covered by these standards shall comply with all applicable provisions.
+When developing, procuring, maintaining or using information technology products (either
+directly or through administration of contracts or grants), each state agency, as defined in this
+Chapter, shall ensure that the products comply with these all applicable standards, unless an
+undue burden would be imposed on the agency.
+(b) These standards are effective September 1, 2005 and apply to all information technology
+procured, developed and/or substantially modified or substantially enhanced after the effective
+date of these standards, providing the procurement and/or development process was not initiated
+prior to the effective date.
+(c) The Information Services Division of OMES shall maintain the IT Accessibility Standards.
+(d) The Standards will be made available to the public at the principal office of OMES and shall
+be published on its respective website.
+(e) When compliance with these standards imposes an undue burden, agencies shall provide
+individuals with disabilities the information and data involved by an alternative means of access
+that allows the individual to use the information and data in accordance with other applicable
+State and Federal laws such as Title I and Title II of the Americans with Disabilities Act and
+Section 504 of the Rehabilitation Act.
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 28
+Ok Reg 2367, eff 9-11-11; Amended at 30 Ok Reg 1113, eff 7-1-13; Added at 32 Ok Reg 1673, eff 9-11-15]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+emergency action), the text of Section 260:15-1-3 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.
+
+260:15-1-4. Evaluation of proposed custom-designed information technology systems
+(a) A state agency shall evaluate the accessibility of any proposed custom-designed information
+technology system prior to the expenditure of state funds in accordance with review procedures
+prescribed by the Director, or a designee.
+(b) The Appointing Authority of the agency shall certify the results of the review in writing on a
+form prescribed by the Director, or a designee. If applicable, the form shall include a declaration
+that the agency has determined that an undue burden or exception exists.
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 32
+Ok Reg 1749, eff 9-11-15]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+emergency action), the text of Section 260:15-1-4 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.
+
+260:15-1-5. Accessibility compliance representative
+(a) The Appointing Authority in each state agency shall designate an Accessibility Compliance
+Representative(s) to:
+(1) Ensure all electronic and information technology produced, procured, or developed by the
+agency is accessible to the disabled;
+(2) Receive, investigate and process formal complaints alleging the agency's failure to comply
+with electronic and information technology accessibility laws, rules and/or standards;
+(3) Assist complainants to ensure a complaint is clear and complies with this Chapter;
+(4) Upon receipt of a formal complaint, thoroughly investigate other instances of similar
+accessibility issues in related systems within the agency.
+(5) Annually execute a certified statement assuring compliance with the IT Accessibility
+Standards and submit the name and contact information for the Accessibility Compliance
+Representative to the State CIO by October 1 each year.
+(b) The name and contact information of the designated Accessibility Compliance
+Representative shall be filed and updated, whenever necessary, with OMES and Oklahoma
+ABLE Tech.
+(c) The contact information for the Accessibility Compliance Representative shall be published
+on the agency website.
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 32
+Ok Reg 1749, eff 9-11-15]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+emergency action), the text of Section 260:15-1-5 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.
+
+260:15-1-6. Filing a formal complaint
+(a) Any individual may file a complaint alleging that a state agency or its authorized agent does
+not comply with electronic and information technology accessibility laws or the Information
+Technology Accessibility Standards.
+(b) The written complaint shall be filed with the agency responsible for the information
+technology in question.
+(c) The written complaint must:
+(1) State the name, contact address and telephone number of the complainant;
+(2) Identify the information technology in question; and,
+(3) Describe the non-conformance with the IT Accessibility Standards in sufficient detail as to
+allow a thorough investigation.
+(d) The agency Accessibility Compliance Representative will review the complaint, and when
+necessary, work with the complainant to ensure the complaint is clear and is addressed by the IT
+Accessibility Standards.
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 30
+Ok Reg 1113, eff 7-1-13; Amended at 32 Ok Reg 1749, eff 9-11-15]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+
+emergency action), the text of Section 260:15-1-6 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.
+
+260:15-1-7. Processing a complaint
+(a) Upon receipt, the agency Accessibility Compliance Representative will review the complaint
+to determine whether the technology listed in the complaint is subject to the IT Accessibility
+Standards.
+(b) The Accessibility Compliance Representative will send a written notice to the complainant
+within ten (10) business days, excluding holidays, from the receipt of the written complaint,
+which will include:
+(1) a statement indicating whether the technology in question is or is not subject to the IT
+Accessibility Standards;
+(2) a statement that the agency will conduct a review to confirm whether the technology in
+question is non-compliant, if the technology in question has been determined to be subject to the
+IT Accessibility Standards; and
+(3) a copy of these complaint procedures.
+(c) The Accessibility Compliance Representative will conduct a review within thirty (30) days
+from the receipt of the written complaint to determine whether the technology in question is non-
+compliant. The State Chief Information Officer (CIO) or a designee may assist with the review,
+if necessary.
+(d) Upon completion of the review, the agency shall provide written notice of the results of the
+review to the complainant and OMES, which shall include one of the following:
+(1) Documentation that the technology conforms to all applicable Standards;
+(2) A documented explanation that any non conformance with the Standards was exempted due
+to an exception or undue burden; or
+(3) An agreement in part or in whole with the written complaint that includes a plan with
+reasonable timelines for conforming to applicable IT Accessibility Standards.
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 28
+Ok Reg 2367, eff 9-11-11; Amended at 30 Ok Reg 1113, eff 7-1-13; Amended at 32 Ok Reg 1749, eff 9-11-15]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+emergency action), the text of Section 260:15-1-7 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.
+
+260:15-1-8. Disagreement with final complaint response
+(a) If a complainant is not satisfied with the final complaint response issued by an agency, a
+complaint may be refiled with the agency or with the State CIO.
+(b) Whenever a complaint is filed with the State CIO pursuant to this section, a review team will
+convene to review the complaint and the agency response. Members of this team shall include a
+representative of the Information Services Division of OMES or a designee; a representative of
+Oklahoma ABLE Tech and may include additional members with technical expertise needed to
+determine conformance with the Standards.
+(c) Written notice of receipt of a complaint pursuant to this section shall be sent to the
+complainant, within ten (10) business days, excluding holidays, from the date the complaint is
+filed.
+(d) The review team shall evaluate the complaint and the agency response and may gather
+additional information as necessary to render an independent decision.
+
+(1) If the review team determines the technology does not comply with IT Accessibility
+Standards, the team shall send written notice to the agency of such findings and request a plan of
+resolution including timelines.
+(2) The team shall also send written notice of their findings to the complainant and the agency
+indicating an agreement or disagreement with the agency's initial complaint response. If the
+technology in question is out of compliance, the written notice shall also include a copy of the
+agency's plan for resolution.
+(e) The review team must conclude this review and send the final written notice to the
+complainant and the agency no later than sixty (60) calendar days from the receipt of the written
+complaint with OMES.
+(f) Any actions, decisions or individual proceedings that may occur as a result of a formal
+complaint shall be in accordance with 75 O.S. §250 et seq.
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 28
+Ok Reg 2367, eff 9-11-11; Amended at 30 Ok Reg 1113, eff 7-1-13; Amended at 32 Ok Reg 1749, eff 9-11-15]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+emergency action), the text of Section 260:15-1-8 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.
+
+260:15-1-9. Annual complaint report
+         The Appointing Authority shall maintain summary and statistical information about the
+number, nature and outcome of all formal complaints filed. A complaint report for the prior state
+fiscal year containing such information shall be provided to the State CIO on October 1 each
+year.
+[Source: Added at 23 Ok Reg 3162, eff 9-8-05 through 7-14-06 (emergency)1; Added at 23 Ok Reg 3211, eff 9-11-06; Amended at 30
+Ok Reg 1113, eff 7-1-13; Amended at 32 Ok Reg 1749, eff 9-11-15]
+
+EDITOR’S NOTE: 1This emergency action expired before being superseded by a permanent action. Upon expiration of an emergency
+action enacting a new Section, the text of the Section is no longer effective. Therefore, on 7-15-06 (after the 7-14-06 expiration of the
+emergency action), the text of Section 260:15-1-9 was no longer effective, and remained as such until added by permanent action on 9-
+11-06.

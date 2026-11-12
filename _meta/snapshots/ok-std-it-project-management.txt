@@ -1,0 +1,95 @@
+                                IT Project Management Standard
+
+Introduction
+The Office of Management and Enterprise Services Information Services is charged with
+coordinating IT functions for executive state agencies. Additionally, OMES IS is mandated to
+provide IT resources, guidance, strategic advice and shared services to those agencies. OMES
+IS provides these services to executive state agencies to mitigate inherent complexities in IT
+projects that may not be recognizable from an agency business perspective, reduce risks,
+improve transparency and reporting and save money for other citizen-facing programs and
+initiatives.
+
+The state chief information officer must establish IT standards for executive state agencies and
+ensure compliance. Duties also include the approval of all information technology and
+telecommunication procurement, which encompasses IT projects and investments. Approval of
+IT projects includes the evaluation of architectural integrity, financial sustainability, documented
+system requirements with associated business processes, security, system duplication and other
+risks to the state.
+
+Purpose
+This document communicates expectations regarding the implementation of IT project management
+services as a state standard.
+
+Definitions
+IT Project – A temporary information technology endeavor with an established beginning and end
+time that has a set of defined tasks and assigned resources, undertaken to develop a unique
+product, service or result.
+     • An IT project is a temporary effort undertaken by or on behalf of the State of Oklahoma
+         and affiliates that:
+         o Establishes a new technology-based system or service.
+         o Facilitates a significant business process transformation using technology.
+         o Includes a major change in technology architecture or a system migration beyond
+             what is considered general maintenance, an enhancement or refresh activity.
+     • At OMES IS, a project typically performs one or more of the following functions:
+         o Develops a new system or service.
+         o Improvements to a system or service.
+         o Improves business processes or introduces new ones.
+         o Builds or enhances infrastructure.
+         o Applies new technology.
+         o Upgrades to enterprise applications.
+     • Some examples of work that may not be projects are:
+         o ETF/Operation efforts.
+         o System administration.
+         o System operations.
+         o Break/fix activities.
+         o Customer Service Requests.
+         o Activities undertaken in support of an existing product or service will not be defined
+             as projects for the purposes of this standard, so long as the bulk of the effort involves
+             continuation, with improvement, to the current product or service. Significant cost for
+
+             a procurement or operational activity does not make the procurement or activity a
+             project. For example, routine software upgrades or network component
+             replacements are not necessarily projects. Utilization of project management
+             principles and techniques in the management of maintenance and operational
+             activities are encouraged, whether they are defined to be projects or not.
+
+“Projects and operations differ primarily in that operations are ongoing and produce repetitive
+products, services or results. Projects (along with team members and often the opportunity) are
+temporary and end. Conversely, operations work is ongoing and sustains the organization over
+time. Operations work does not terminate when its current objectives are met but instead follow
+new directions to support the organization’s strategic plans.” (Project Management Institute
+[PMI], 2008, p. 22).
+
+Standard
+OMES IS project management services are required for any IT projects undertaken by executive
+state agencies, as determined by OMES IS through a risk and cost benefit analysis. OMES IS
+works with agencies to appropriately budget project management services.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases and
+projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers essential
+public services to its citizens in the most efficient manner at the lowest possible cost to taxpayers.
+
+References
+    • 62 O.S. § 35.5, Integral Information Technology Assets and Positions - Assessment.
+    • 62 O.S. § 34.11, Chief Information Officer.
+    • 62 O.S. § 34.12, Duties of Information Services Division.
+    • 62 O.S. § 34.20, Additional Powers and Duties of Information Services Division of Office
+       of Management and Enterprise Services.
+    • Project Management Institute (PMI). 2008. A Guide to the Project Management Body of
+       Knowledge (4th ed.). Newtown Square, PA: Project Management Institute, Inc.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+
+  Effective date: 1/26/2022            Review cycle: Annual
+  Last revised: 1/26/2022              Last reviewed: 04/07/2025
+  Approved by: Dan Cronin, Chief Information Officer

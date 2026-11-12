@@ -1,0 +1,125 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: oklahoma
+id: ok-std-sharepoint
+title: SharePoint Standard
+doc_type: standard
+citation: OMES SharePoint Standard
+authority_level: ''
+issuing_body: Office of Management and Enterprise Services, Information Services
+source_url: https://oklahoma.gov/content/dam/ok/en/omes/documents/share-point-standard-UA.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: fa4e7c6c9575f3e1b376e41b8133e13ff24e9cd0bbdce316d6f6b64781ce3c2a
+effective_date: '2022-07-27'
+source_version: Last revised 08/22/2025
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# SharePoint Standard (OMES SharePoint Standard)
+
+## At a glance
+
+A CIO standard in the 'Network and Servers' group of the OMES statewide IT policy and standards library, binding on state agencies under the Information Technology Consolidation and Coordination Act. Its Purpose or Introduction, as printed: The purpose of this standard is to outline the acceptable use of the web-based platform, SharePoint.
+
+## Full text
+
+                                      SharePoint Standard
+
+Introduction
+Microsoft SharePoint provides a secure space for team members and organizations to
+exchange files and share information.
+
+Purpose
+The purpose of this standard is to outline the acceptable use of the web-based platform,
+SharePoint.
+
+Definitions
+Site owner – the person or group within the agency who has full control over an organizational
+SharePoint site or subsite.
+
+Standard
+All SharePoint sites are required to meet the most basic form of administration:
+    • The site owner(s) must take responsibility for the permissions added to the SharePoint
+       site they control, adding or removing access as needed.
+    • All site end users must have a basic understanding of SharePoint usage prior to the site
+       owner or administrator granting access to the site.
+    • All SharePoint sites, by default, are set to private (invite only). If a case requires that the
+       site be set to public (visible to all state employees), the site must adhere to all OMES
+       security standards.
+
+When creating a SharePoint site, it must be determined if it will be a team site, communication
+site or an external SharePoint site:
+    • Team site
+            o Use a SharePoint team site to provide a location where end users individually
+                and/or in a team can work on projects and share information from anywhere on
+                any device. A team site includes a group of related web pages and web parts
+                that can be customized to meet the team’s needs.
+            o A team site is appropriate when collaboration is needed with other members of
+                the same team or with others on a specific project. With a team site, typically all
+                or most members can contribute content to the site and access to the information
+                is limited only to the members of the team or project and specific stakeholders.
+    • Communication site
+            o Use a SharePoint communication site to broadcast information out to a broad
+                audience. With a communication site, typically only a small set of members
+                contribute content that is consumed by a much larger audience.
+            o A communication site can be used to share news, reports, status, and other
+                information in a visually compelling format. Communication sites are responsive
+                and can be viewed from anywhere on any device.
+    • External SharePoint site
+            o Use an external SharePoint site for either a team or communication site type.
+                These sites must be modified by an OMES SharePoint administrator. This site
+                gives the owner the ability to collaborate with external partners.
+
+Settings for version history retention.
+   • All SharePoint Online document libraries must be configured to retain a maximum of
+       three (3) months of version history per document. Versioning settings should be adjusted
+       accordingly to retain only the number of versions that typically accumulate within that 3-
+       month period, based on the document's editing frequency.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+References
+   • Creating a team site in SharePoint.
+   • Creating a communication site in SharePoint.
+   • How versioning works in lists and libraries.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 07/27/2022         Review cycle: Annual
+ Last revised: 08/22/2025           Last reviewed: 08/18/2025
+ Approved by: Dan Cronin, Chief Information Officer
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

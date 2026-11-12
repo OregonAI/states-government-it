@@ -1,0 +1,56 @@
+                             Continuous Deployment Standard
+
+Introduction
+This document identifies the process for deploying code from a GitHub/Azure DevOps
+repository to the platform where the resources are hosted. Azure DevOps is used as the single
+control mechanism for both approval tracking and auditing purposes.
+
+Purpose
+The purpose of this document is to define a standard for automation/releasing software.
+
+Definitions
+Azure DevOps – This is a SaaS solution offered by Microsoft. It has the ability to host Git
+repositories and manage test plans, scrum boards, work items and other things needed for a
+better DevOps practice.
+
+Pipeline – A pipeline is automation; Azure DevOps has two primary kinds: build and release.
+
+Build pipeline – This type of pipeline is used for building and unit testing code.
+
+Release pipeline – This type of pipeline is used for the actual deployment of the code to the
+hosting platform.
+
+GitHub – This is a SaaS solution offered by Microsoft for hosting Git-based repositories.
+
+Standard
+Azure DevOps is to be used for all aspects of a code build and release. This is to make auditing
+needs simpler to track. Having a single control mechanism for orchestration of code builds to
+testing and ultimately to a release, gives a clearer view across all aspects of a deployment.
+Azure DevOps gives flexibility to not only deploy to Azure or OnPrem, but into any cloud
+platform. A release should be retained for a minimum of 30 days, and the last three releases
+should be retained. With the use of Azure DevOps, this retention policy is already set in place.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+References
+   • Creating a CI/CD pipeline with Azure Pipelines and Compute Engine
+   • AWS Toolkit for Azure DevOps
+   • Configuring a CD pipeline for your Jenkins CI
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 05/06/2022         Review cycle: Annual
+ Last revised: 05/06/2022           Last reviewed: 07/29/2025
+ Approved by: Dan Cronin, Chief Information Officer

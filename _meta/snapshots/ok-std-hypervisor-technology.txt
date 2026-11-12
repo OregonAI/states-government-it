@@ -1,0 +1,37 @@
+                                 Hypervisor Technology Standard
+
+Introduction
+Hypervisors enable an organization to create and run multiple virtual machines on the same physical
+hardware equipment. In an effort to simplify administration of hypervisor technology and take
+advantage of available technological interoperability advancements, OMES Information Services
+utilizes a single hypervisor operating system, rather than attempt to support a multi- vendor solution.
+
+Purpose
+This document establishes the state hypervisor technology standard for on-premises. This standard does
+not define the hypervisor utilized by cloud vendors.
+
+Definitions
+Hypervisor – A program used to run and manage one or more virtual machines on a computer.
+
+Standard
+OMES utilizes VMware ESXi hypervisor technology.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§ 34.11.1 and
+34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended standards policies
+and standards at any time. Compliance is expected with all published policies and standards, and
+any published amendments thereof. Employees found in violation of this standard may be subject to
+disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases and
+projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers essential
+public services to its citizens in the most efficient manner at the lowest possible cost to taxpayers.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+
+   Effective date: 03/21/2022          Review cycle: Annual
+   Last revised: 08/30/2022            Last reviewed: 10/09/2026
+   Approved by: Dan Cronin, Chief Information Officer

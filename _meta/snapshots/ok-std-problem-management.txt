@@ -1,0 +1,76 @@
+                              Problem Management Standard
+
+Introduction
+The Oklahoma Office of Management and Enterprise Services Information Services prescribes
+to a standardized process for managing problems and known errors which is aligned with the
+Information Technology Infrastructure Library framework and methodology. Oklahoma state
+agencies, partners, vendors, suppliers and other third parties in conjunction with, as a service
+of, as a request from and/or as a participating member in OMES’ problem management process
+prevents and reduces reoccurring incidents. Problem management is integral in OMES’ vision
+and fulfilling its mission to Oklahomans.
+Coordinating the investigation and approval of information technology problem solutions allows
+OMES IS to assess the requirements, risks and impacts to state agencies, streamlining the
+decisions impacting the State of Oklahoma’s IT systems and solutions.
+
+Purpose
+This document establishes the requirement for Oklahoma state agencies and third parties
+contracting, supporting, managing and/or installing IT services and systems with, on behalf of, in
+partnership with and/or under the authority of Oklahoma state agencies do so in compliance
+with OMES IS policies, standards and procedures. Details regarding OMES IS policies,
+standards and procedures can be found in the State of Oklahoma Policy, Procedures and
+Guidelines website.
+
+Definitions
+Problem investigation – Activities necessary to diagnose, identify, evaluate, assess and
+remediate high impact, reoccurring incidents with IT systems and solutions.
+Third party – Any contractor, service provider, consultant or any other individual and/or
+organization external to state government providing services on behalf of, for or as an agent of
+state government.
+
+Standard
+The purpose of problem management for the State of Oklahoma is to identify, diagnose and
+eliminate reoccurring incident impact(s) to Oklahomans. OMES IS shall conduct problem
+investigations with the intent of permanently eliminating problems, preventing reoccurrence of
+impactful incidents and continually improving the State of Oklahoma’s IT services and solutions.
+The problem investigation should identify and address the problem’s root cause(s) through
+agreed and approved problem resolution actions.
+OMES IS utilizes a centralized IT service management (ITSM) tool for problem management
+activities and documentation. The state’s standard ITSM tool is documented in the enterprise
+reference architecture.
+Additionally, the following applies to problem investigation and diagnosis:
+   •   Third parties must participate in OMES IS problem investigations.
+   •   Third party problem investigation outcomes and remediation plans shall be submitted to
+       OMES IS.
+
+   •   Problem records shall be entered and maintained by the involved parties within the
+       OMES ITSM tool. For parties that do not have access to the OMES ITSM tool,
+       communications and submissions related to problem management shall be sent to
+       problemmanagement@omes.ok.gov.
+   •   OMES IS shall document problem investigations and proposed solutions.
+   •   OMES IS shall review problem investigations and solutions.
+   •   OMES IS shall disseminate problem assessment(s) results to Oklahoma state agencies.
+   •   OMES IS shall update third parties with decisions pertaining to the problem investigation
+       solutions.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+References
+   •   Policy, Standards & Publications (oklahoma.gov).
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 01/18/2022         Review cycle: Annual
+ Last revised: 05/06/2022           Last reviewed: 09/02/2026
+ Approved by: Dan Cronin, Chief Information Officer

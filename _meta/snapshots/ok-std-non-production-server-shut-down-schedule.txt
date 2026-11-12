@@ -1,0 +1,41 @@
+                 Non-Production Server Shut Down Schedule Standard
+
+Introduction
+All non-production virtual servers are considered low priority and will be placed on a scheduled
+shutdown/startup to ensure cost savings to the State of Oklahoma.
+
+Purpose
+This document establishes the OMES standard for power down schedules for non-production
+virtual servers.
+
+Definitions
+Non-production environment – test, development, training, staging and user acceptance
+testing (UAT) environments.
+
+Virtual server – software-based server running from a physical host.
+
+Standard
+All non-production virtual servers hosted on cloud native compute will be shut down every
+evening at 7:00 PM CT (1900 CT) and then powered on every morning at 6:00 AM CT (0600
+CT). If an extension is needed, a service request can be placed to the server team for
+consideration via ServiceNow.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 11/04/2025         Review cycle: Annual
+ Last revised: 10/28/2025           Last reviewed: 10/28/2025
+ Approved by: Dan Cronin, Chief Information Officer

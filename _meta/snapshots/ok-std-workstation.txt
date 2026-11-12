@@ -1,0 +1,161 @@
+                                   Workstation Standard
+
+Introduction
+This standard is intended to support the business needs for all State of Oklahoma agencies by:
+
+   •   Bringing a systematic approach to the lifecycle of computer equipment.
+   •   Ensuring hardware and software requirements are met.
+   •   Standardizing equipment to maximize maintenance and support efforts.
+   •   Providing a cost-effective solution while still accommodating business needs.
+   •   Validating all approved workstations to ensure security standards are met.
+   •   Ensuring only approved workstation configurations and associated services are
+       procured.
+
+Purpose
+OMES has an established list of standard hardware configurations to promote the
+standardization of equipment, improve the security of the state’s computing environment and
+realize economies-of-scale cost savings in the procurement and maintenance of computing
+equipment.
+
+Definitions
+Autopilot with group tagging – a centrally managed, cloud-based configuration for operating
+systems, applications and security controls, deployed through Microsoft Autopilot. Group
+tagging ensures that devices are automatically enrolled with appropriate configurations based
+on their agency or function. This modern provisioning method replaces traditional golden
+images and supports consistent, scalable deployments aligned with state security and
+compliance standards.
+
+Azure AD Join – a method of managing identity and user logon on an endpoint using exclusively
+Microsoft Azure AD/Entra ID.
+
+Business class – devices designed for higher performance and longer service that are securely
+sourced and allow on-site certified maintenance. They typically have longer warranties and are
+known to be compatible with the state’s infrastructure with minimum complexity.
+
+Endpoint management software – software installed on the Windows or MacOS system to allow
+centralized management of the endpoint. This includes update management, software
+installations, removals, patching and asset inventory.
+
+Hybrid AD Join – a method of managing identity and user logon on an endpoint using a
+combination of on-premises hosted Microsoft Active Directory blended with Microsoft Azure
+AD/Entra ID.
+
+Workstation – a computer device that an end user uses to complete work, including any
+desktop, laptop, tablet or virtual desktop hardware.
+
+Standard
+Workstations must be procured from one of the designated configurations approved by OMES
+IS and deployed via an approved service provider.
+
+Deployment of a workstation is included in the procurement.
+
+Hardware standards review cycle
+OMES reviews the workstation standards on a regular basis, or as information becomes
+available from the vendor, to align with agency business needs, ensuring that vendors still
+support the equipment, verifying pricing and updating the model version if necessary.
+
+Hardware refresh cycle
+All devices, whether purchased or leased, must be refreshed on a three-year cycle.
+
+Hardware specifications
+Every device acquired on behalf of the State of Oklahoma must adhere to the following
+specifications:
+   • Manufacturer – Dell, Apple, Microsoft or Panasonic.
+   • Operating system – Windows 11 Enterprise 64-bit or newer, or the latest version of
+        macOS.
+   • Ability to add MacBooks to Apple Business Manager.
+   • Processor – Intel i7 minimum.
+   • Memory – 16GB minimum. 32GB is preferred.
+   • Hard drive size – Solid state drive or M2 drive with minimum storage size of 500GB.
+   • Wi-Fi capability on each device.
+   • TPM enabled in the BIOS.
+   • Security product - Absolute Resilience Premium three-year license – must be factory-
+        installed.
+   • Enterprise-class system model.
+   • Must be covered under the manufacturer’s original warranty. For leased devices, the
+        manufacturer’s extended warranty must be active for the life of the lease.
+   • State agency purchase or lease of devices must be through Insight or Dell.
+
+For information on mobile devices, refer to the Mobile Device Platform Standard.
+
+Software specifications.
+Every device acquired on behalf of the State of Oklahoma must be compatible with the state’s
+Azure image, deployed via Autopilot with group tagging. Agency-specific software requests
+should be submitted to the OMES Service Desk for packaging for distribution via the state’s
+endpoint management solution.
+
+The state’s Azure image with autopilot and group tagging shall be installed on all devices
+acquired on behalf of the State of Oklahoma to ensure supportability, inclusion of all required
+security measures and compliance with enterprise licensing requirements. The state’s Azure
+image with Autopilot shall be used for installations, reimaging and device recovery on all
+existing devices.
+
+Identity shall be managed using Hybrid AD Join or Azure AD Join. Hybrid is the standard for
+existing agencies until an agency is certified ready for Azure AD Join. Azure AD Join shall be
+the standard where supportable, and for all newly collapsed, migrated or formed agencies. All
+Apple Mac devices shall use Azure AD Join. All kiosks shall use Azure AD Join, unless
+otherwise determined to need a hybrid setup by OMES Endpoint Engineering.
+
+Local accounts are prohibited without the written consent of the state CIO.
+All managed workstations shall install and use the state endpoint management software. This is
+automatically installed during enrollment by autopilot, or manually where appropriate.
+
+Users requiring remote desktop services shall utilize the state’s virtual desktop environment
+utilizing the state’s Azure image with group tagging with the default state software configuration.
+Agency-specific software requests should be submitted to the OMES Service Desk for
+packaging for distribution via the state’s endpoint management solution.
+
+Procurement process and approved vendor portal
+Oklahoma Statewide Contract No. 1020 with Dell Marketing L.P. (“SW1020D”) is a mandatory
+contract for the acquisition of computer hardware and related technology products.
+
+All preapproved workstations, accessories, software and associated items must be procured
+through the official OMES technology ordering site: Order Tech Now.
+
+The ordering portal is directly integrated with SW1020D and enforces compliance by limiting
+selections to authorized vendors and OMES-approved configurations that meet statewide
+technical and security standards.
+
+Workstation naming
+All workstations shall be named following the standard naming scheme as described below:
+    • Windows Hybrid AD Join: Workstations shall be named using the agency’s three-digit ID
+        number, followed by a hyphen, then a random string generated by autopilot. The random
+        string is to prevent collisions and failed enrollments in the on-premises Active Directory
+        environment. Example: 090-NuiS23sWyU.
+    • Windows Azure AD Join: Workstations shall be named using the agency’s three-digit ID
+        number, followed by a hyphen, then the device’s serial number as listed on the device.
+        Autopilot completes this naming automatically. Certain devices may be required to use a
+        generic join profile resulting in a name of OKST, followed by a hyphen, then the device’s
+        serial number as listed on the device. This determination is made by OMES Endpoint
+        Engineering during build of an agency autopilot profile. Example: 090-JSYU2U8. Some
+        devices: OKST-JSYU2U8.
+    • Windows kiosks: Kiosks shall be named using “OKST-K”, followed by a hyphen and the
+        device serial number as listed on the device. Autopilot completes this naming
+        automatically. Example: OKST-K-JSYU2U8.
+    • Apple Mac: Apple Mac devices shall be named using the agency’s three-digit ID number,
+        followed by -Mac-, followed by the device’s serial number as listed on the device.
+        Autopilot completes this naming automatically. Example: 090-Mac-JSYU2U8.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+References
+   • Mobile Device Platform Standard.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+
+ Effective date: 04/29/2022         Review cycle: Annual
+ Last revised: 11/02/2026           Last reviewed: 11/02/2026
+ Approved by: Dan Cronin, Chief Information Officer

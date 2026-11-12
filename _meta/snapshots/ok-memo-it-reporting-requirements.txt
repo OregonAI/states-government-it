@@ -1,0 +1,214 @@
+TO:           All State Agency Directors
+
+FROM:         Dan Cronin, Chief Information Officer
+              Office of Management and Enterprise Services
+
+DATE:         June 20, 2025
+
+RE:           Information Technology Statutory and Regulatory Reporting
+              Requirements for State Agencies
+
+The state chief information officer and the Office of Management and Enterprise
+Services have statutory and regulatory duties dependent on state agencies
+providing certain reports and information to the CIO. These CIO and OMES duties
+are primarily detailed in the Information Technology Consolidation and
+Coordination Act (62 O.S. § 35.1-35.9) and the Information Services Act (62 O.S. §
+34.11.1 et seq.). Duties related to information technology accessibility requirements
+are also found in Title 260 of the Oklahoma Administrative Code.
+Attachment A below lists IT-related reports and time-sensitive information agencies
+must submit to the CIO. The list is an attempt to capture all required reports but is
+not provided as legal advice or a substitute for an agency’s independent review. It is
+recommended that the statute and any corresponding rule be reviewed to
+determine what information is required. Likewise, other required reports may not
+be identified below or may be required in the future.
+This memorandum is a friendly reminder to provide the CIO with the reports and
+information described below via the IT statutory and regulatory reporting online
+form. To assist in preparing the report required by Item No. 1 below, see
+Attachment B for pertinent definitions of “information technology assets” and
+“information technology position” set forth in the ITCCA.
+
+                                           1
+
+                ATTACHMENT A: Reporting Requirements (62 O.S. and 260 OAC)
+No.     Due Date     Content                                                    Justification
+                     From each executive state agency1:
+                     A. List of IT assets and IT positions
+                     integral to agency-specific applications or
+                     functions.
+1     Oct. 15
+                     B. Federal, state or constitutional
+                     provision requiring agency to perform
+                     the agency-specific applications or
+                     functions2.
+                     From Higher Education CIO:
+                     Information related to IT and
+2     Oct. 15        telecommunications systems of all higher
+                     education institutions, state regents and
+                     OneNet2.
+                     From each state agency3 that owns,
+                     licenses or maintains computerized
+                     data that includes personal
+                     information:
+3     Immediately    Notice of security breach of a system for
+                     which notification may be required of any
+                     state agency pursuant to 74 O.S. §3113.1
+                     and provide information related to the
+                     breach as requested by the CIO.
+
+                     From state regents:                           For CIO review and approval of
+      Before                                                       enhancement within context of
+4
+      enhancement Plans for enhancement of state regents           statewide telecommunications
+                  telecommunications network.                      network. (§34.23)
+                     From state regents:                           To facilitate development of a
+                                                                   statewide master plan for meeting
+5     July 1         Identify the telecommunication plans of
+                                                                   communication needs of educational
+                     each member of the state system of
+                                                                   entities and state agencies. (§34.23)
+                     higher education.
+                     From Department of Public Safety:             For CIO review and approval of
+                                                                   enhancement within context of
+                  Plans for enhancement of statewide law
+      Before                                                       statewide telecommunications
+6                 enforcement-data communications
+      enhancement                                                  network. (§34.23)
+                  network.
+
+                                                 2
+
+No.     Due Date   Content                                                    Justification
+                   From State Superintendent of Public           To facilitate development of a
+                   Instruction:                                  statewide master plan for meeting
+7     July 1       Identify the telecommunication plans of       communication needs of educational
+                   the public common school system of the        entities and state agencies. (§34.23)
+                   state.
+                   From Department of Career and                 To facilitate development of a
+                   Technology Education director:                statewide master plan for meeting
+8     July 1                                                     communication needs of educational
+                   Identify the telecommunication plans of
+                                                                 entities and state agencies. (§34.23)
+                   technology center school districts.
+                   From Department of Libraries                  To facilitate development of a
+                   director:                                     statewide master plan for meeting
+                                                                 communication needs of educational
+                   A. Identify the telecommunication plans
+                                                                 entities and state agencies. (§34.23)
+                   of public libraries and public library
+                   systems.
+                   B. With respect to libraries that are part
+9     July 1       of state system of higher education,
+                   public elementary and secondary schools,
+                   and technology school districts, certify
+                   that plans of such libraries are consistent
+                   with the plan developed by the Oklahoma
+                   Library Technology Network or explain
+                   any inconsistencies.
+                                                                 To facilitate development of a
+                   Each executive state agency1:                 statewide master plan for meeting
+10    July 1
+                   Identify the telecommunication needs.         communication needs of educational
+                                                                 entities and state agencies. (§34.23)
+                   Each agency, board, commission or             To post online in compliance with the
+                   other entity organized within the state       Taxpayer Transparency Act.
+                   executive department3:                        (§34.24.1)
+                   A. Number of licenses issued, license
+                   renewals and permits issued by the
+                   agency.
+11    Aug. 13      B. Estimated savings incurred by the
+                   entity as a result of the online licensing
+                   and permitting process.
+                   Note: Not applicable to driver’s license
+                   renewals.
+
+                                                3
+
+No.     Due Date         Content                                                                Justification
+                         From Accessibility Compliance                         For consideration by the CIO in
+                         Representative of each agency4:                       accomplishing statutory and
+                                                                               regulatory duties related to
+                         A. Certified statement assuring agency’s
+                                                                               accessibility. (§34.28)
+                         compliance with the IT accessibility
+12    Oct. 1                                                                   (OAC 260:15-1-5)
+                         standards.
+                         B. Submit name and contact information
+                         of the agency accessibility compliance
+                         representative.
+
+                         From appointing authority of each                     For consideration by the CIO in
+                         agency4:                                              accomplishing statutory and
+13    Oct. 1
+                                                                               regulatory duties related to
+                         IT accessibility complaint report.                    accessibility. (OAC 260:15-1-9)
+                         From each state agency1 with an IT                    Identify, prioritize and document
+                         system not consolidated under the                     information security vulnerabilities of
+                         ITCCA or otherwise retained by the                    each state agency. (§34.32)
+14    Dec. 11            agency:
+                         Information security risk assessment to
+                         identify vulnerabilities associated with
+                         the system.
+       1 “State agency,” as used in the Information Services Act sections cited with items 1, 10 and 14, is
+
+       defined at §34.11.1 (N): “Unless otherwise provided for, ‘state agencies’ shall include any office,
+       officer, bureau, board, commission, counsel, unit, division, body, authority or institution of the
+       executive branch of state government, whether elected or appointed; provided … the term “state
+       agencies” shall not include institutions within The Oklahoma State System of Higher Education, the
+       Oklahoma State Regents for Higher Education and the telecommunications network known as
+       OneNet.”
+       2 Although §34.11.1 and 35.5 are not generally applicable to the State System for Higher Education,
+
+       State Regents for Higher Education and OneNet, the requirements of §34.11.1 (D) (items 1 and 2) are
+       specifically applicable to these entities pursuant to §34.11.1 (N).
+       3 Sections 34.11.10 and 34.24.1 (items 3 and 11) are not part of the either the ITCCA or the
+
+       Information Services Act, therefore, the definition of “state agency” is as defined in the Oklahoma
+       State Finance Act at §34.3: “Any agency, board, bureau, commission or other entity organized within
+       the executive department of state government.” There are no executive branch exclusions from the
+       definition.
+       4 “State agency,” as used in §34.28 and corresponding OAC rules with items 12 and 13, has been
+
+       specifically defined in §34.29 and OAC 260:15-1-2 as “any office, officer, bureau, board, counsel,
+       court, commission, institution, unit, division, body or house of the executive or judicial branches of
+       the state government, whether elected or appointed, excluding political subdivisions of the state.
+       State agency shall include the Oklahoma State Regents for Higher Education, the institutions, centers
+       or other constituent agencies of The Oklahoma State System of Higher Education, the State Board of
+       Career and Technology Education and Technology Center school districts.”
+
+                                                          4
+
+       ATTACHMENT B: Statutory definition of IT assets at 62 O.S. §35.3:
+“‘Information technology assets’ means any equipment or interconnected system or
+subsystem of equipment that is used in the acquisition, storage, manipulation,
+management, movement, control, display, switching, interchange, transmission, or
+reception of data or information. The term shall include computers, ancillary
+equipment, software, firmware and similar procedures, services, including support
+services and consulting services, software development and related resources, and
+shall further include telecommunications fiber networks used for conveying
+electronic communication or information systems to multiple physical locations.”
+              Statutory definition of IT position at 62 O.S. §35.3.3:
+“‘Information technology position’ means a classified or unclassified position in the
+following functional areas:”
+   a. Applications programming.                   v. Systems administration.
+   b. EDP audit.                                  w. Systems coordination.
+   c. Data examination.                           x. Systems integration.
+   d. Computer applications.                      y. Systems operation.
+   e. Computer data entry.                        z. Systems
+   f. Computer networking.                            planning/development.
+   g. Computer operations.                        aa. Systems programming.
+   h. Computer programming.                       bb. Systems engineering.
+   i. Computer security.                          cc. Systems service specialist.
+   j. Computer software design.                   dd. Systems support.
+   k. Web applications.                           ee. Network administration.
+   l. Database analysis.                          ff. Network management.
+   m. Data management analysis.                   gg. Network technical.
+   n. Database development.                       hh. Operating systems specialist.
+   o. Database programming.                       ii. Systems program manager.
+   p. Software design/development.                jj. Telecommunications, whether
+   q. Help desk.                                      data or voice.
+   r. Imaging.                                    kk. Software training.
+   s. Systems analysis.                           ll. Technology development or
+   t. Systems application planning.                   support.
+   u. Systems application.
+
+                                          5

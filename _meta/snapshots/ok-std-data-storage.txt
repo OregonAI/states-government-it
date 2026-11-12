@@ -1,0 +1,60 @@
+                                       Data Storage Standard
+
+Introduction
+To ensure quality service and appropriate governance, data should be stored on a narrow set of
+purpose-built platforms.
+
+Purpose
+The purpose of this standard is to provide broad guidance to data owners on where data should
+be stored.
+
+Definitions
+Transactional Data – Data, which is accessed by numerous users to perform fast, simple
+queries. Typically, data which is directly associated with a user-facing application.
+Analytical Data – Multi-dimensional data which is used to drive analytics and insights.
+Document Data – Data derived from scanning paper documents.
+Archival Data – Data which has no active use but needs to be kept because it may be subject to
+audits, open records requests or similar scenarios.
+Historical Data – Data, for which its original use case has been retired, but still needs to be
+periodically searched. These datasets are no longer changing and no longer queried by other
+applications.
+State Data Platform (SDP) – The State Data Platform is a centralized platform with data
+storage, management and processing capabilities.
+
+Standard
+        Data Characteristics             Data Storage Solution                 Details
+    •    Archive or Historical Data      Please see Data Archiving
+                                                 Standard
+
+    •    Application or otherwise         SQL or Oracle database       •   Solution and hosting
+         transactional data                                                location defined by the
+                                                                           Database Administration
+                                                                           team
+
+    •    Operational or Log data                   ITOCC
+
+    •    Documents                       Please see the standard for
+                                             document storage
+
+    •    Analytical, event-based, or        State Data platform        •   Solution defined by the
+         any other type of data                                            Data Platform team
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 07/24/2023              Review cycle: Annual
+ Last revised: 07/20/2023                Last reviewed: 12/10/2024
+ Approved by: Joe McIntosh, Chief Information Officer

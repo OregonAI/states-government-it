@@ -1,0 +1,51 @@
+                              Use of System Utilities Standard
+
+Introduction
+The State of Oklahoma controls and restricts many system utilities to ensure the safety and
+security of state systems and data. Most computer installations have one or more system utility
+programs that might be capable of overriding system and application controls. Use of these
+system utility programs must be restricted and tightly controlled.
+
+Purpose
+This document provides system control options to protect State of Oklahoma assets.
+
+Definitions
+System utilities – Software programs that perform specific tasks related to the operation and
+maintenance of a computer system.
+
+Standard
+The following controls should be considered to protect State of Oklahoma assets:
+   • Use of authentication procedures for system utilities.
+   • Segregation of system utilities from applications software.
+   • Limitation of the use of system utilities to the minimum practical number of
+   • trusted authorized users.
+   • Authorization for ad hoc use of systems utilities.
+   • Limitation of the availability of system utilities, e.g. for the duration of an authorized
+        change.
+   • Logging of all use of system utilities.
+   • Defining and documenting of authorization levels for system utilities.
+   • Removal of all unnecessary software-based utilities and system software.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+References
+   • Information Security Policy, Procedures and Guidelines.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+
+Effective date: 09/06/2024         Review cycle: Annual
+Last revised: 09/06/2024           Last reviewed: 04/04/2025
+Approved by: Dan Cronin, Chief Information Officer

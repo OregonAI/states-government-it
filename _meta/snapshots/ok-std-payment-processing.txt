@@ -1,0 +1,51 @@
+                               Payment Processing Standard
+
+Introduction
+Online payment processing is an important part of state government.
+
+Purpose
+Setting a standard for payment processing and handling of cardholder data.
+
+Standard
+General requirements for payment card processing.
+   •   Any agency, group or individual who wishes to process credit/debit cards (payment
+       cards) must receive approval from their agency head (ex: director, CTO, CFO, CIO,
+       president, executive director) and from OMES’ CIO (hereafter: the approving parties).
+   •   All contracted services or other purchases related to card processing must receive
+       approval from the approving parties before they are initiated. All contracts which involve
+       card processing or link to third party card processing sites, must be reviewed by the
+       approving parties before they are executed. Any contract that pertains to card
+       processing that does not contain required language is required to go through an
+       addendum process before card processing setups are implemented.
+   •   All online card processing must occur on an approved, secure website through an
+       approved third-party processor.
+   •   Face-to-face transactions must be processed on point-of-sale equipment ordered or
+       rented through OMES with terminals approved and provided by the state or through an
+       OMES-approved virtual terminal.
+   •   Access to reporting systems is based on a least privilege basis or limited to the least
+       number of staff that are required to complete the related tasks.
+   •   Cardholder data should not be stored on state-controlled systems. This data should be
+       stored by PCI compliant vendors such as merchant gateway providers or banks.
+   •   The Oklahoma State Treasurer’s office sets the standard for which payment processing
+       providers can be used. At the time of this writing, Authorize.net and NIC are two of the
+       approved vendors.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 07/27/2022         Review cycle: Annual
+ Last revised: 04/01/2022           Last reviewed: 07/02/2026
+ Approved by: Dan Cronin, Chief Information Officer

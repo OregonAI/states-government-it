@@ -1,0 +1,47 @@
+                                   Branch Policy Standard
+
+Introduction
+This standard is intended to define the minimum branch policy to be set up in either GitHub or
+Azure DevOps for each newly created code repository.
+
+Purpose
+The purpose of this document is to define a standard for committing new or changed code to a
+larger codebase.
+
+Definitions
+Pull request – A method of submitting a code contribution to an existing repository.
+
+Status check – Any action that has to result in a true or valid result before the pull request can
+be completed.
+
+Standard
+All new code bases should have a branch policy in place on whichever branch is considered the
+main/master that does not allow code to be checked in directly. All code changes going into this
+branch must be done via a pull request. The branch policy has at least one status check that
+triggers a build of the code to ensure what is attempting to be merged is in a good, buildable
+state. This branch policy is set up in such a way that at least one other developer of the team
+approves it after a thorough code review.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§
+34.11.1 and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended
+standards policies and standards at any time. Compliance is expected with all published policies
+and standards, and any published amendments thereof. Employees found in violation of this
+standard may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To coordinate and require central approval of state agency information technology purchases
+and projects to enable the chief information officer to assess the needs and capabilities of state
+agencies as well as streamline and consolidate systems to ensure that the state delivers
+essential public services to its citizens in the most efficient manner at the lowest possible cost to
+taxpayers.
+
+References
+   • Azure DevOps – Improve code quality with branch policies.
+   • GitHub – Managing a branch protection rule.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 05/06/2022         Review cycle: Annual
+ Last revised: 03/06/2022           Last reviewed: 07/29/2025
+ Approved by: Dan Cronin, Chief Information Officer

@@ -1,0 +1,57 @@
+                               Network Acceptable Use Standard
+
+Introduction
+Access to networks owned or operated by the State of Oklahoma is provided to employees and
+contractors for use to support the mission of the state. Individuals who have access to state
+network resources are responsible for using those resources in an ethical and lawful manner.
+
+Purpose
+This document defines acceptable network use for State of Oklahoma network resources.
+
+Standard
+Excessive or inappropriate usage of network resources may result in network access restriction,
+revocation of access privileges or further sanctions.
+
+The State of Oklahoma Computer and Mobile Computing Device Usage policy for computer usage
+prohibits the use of its resources to access, create, transmit (send or receive), print or download
+material that is discriminatory, derogatory, defamatory, obscene, sexually explicit, offensive or
+harassing based on gender, race, religion, national origin, ancestry, age, disability, medical
+condition, sexual orientation or any other status protected by state and federal laws.
+
+Authorized users of these network resources are only permitted to connect and utilize network
+devices that have been previously reviewed and approved by OMES Cyber Command. Given the
+potential for unapproved devices to cause network disruptions, service outages and reliability
+issues, users are prohibited from connecting such devices to the State of Oklahoma network.
+These prohibited devices include hubs, switches, repeaters, routers, network modems and
+wireless access points.
+
+Devices not approved for use on the State of Oklahoma network will have network access disabled
+and may be confiscated to ensure the stability and availability of the network.
+
+Personal endpoint devices such as cell phones and laptops may only be connected to
+“oklahoma_open” Wi-Fi SSID. While these devices do not require prior review and approval from
+OMES Cyber Command, they are subject to the same rules regarding excessive or inappropriate
+usage.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§ 34.11.1
+and 34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended standards
+policies and standards at any time. Compliance is expected with all published policies and
+standards, and any published amendments thereof. Employees found in violation of this standard
+may be subject to disciplinary action, up to and including termination.
+
+Rationale
+To ensure efficient, secure, and cost-effective delivery of essential public services, all state agency
+IT purchases and projects must receive central approval. This allows the Chief Information Officer
+
+to evaluate agency needs and capabilities, strengthen data protection and security, and streamline
+and consolidate systems to reduce costs for taxpayers.
+
+References
+   • State of Oklahoma Computer and Mobile Computing Device Usage Policy.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 10/07/2026           Review cycle: Annual
+ Last revised: 10/07/2026             Last reviewed: 10/07/2026
+ Approved by: Dan Cronin, Chief Information Officer

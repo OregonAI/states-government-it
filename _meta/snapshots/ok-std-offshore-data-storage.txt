@@ -1,0 +1,55 @@
+                                 Offshore Data Storage Standard
+
+Introduction
+Data is a valuable asset to business and government, and as such, it is imperative that state data be
+stored securely. Offshore data storage is a popular industry option, particularly for cloud storage.
+However, because other countries and regions use different guidelines, international laws and
+regulations, offshore storage options may be less secure and more vulnerable to security incidents
+than data stored within the United States. Offshore data storage also increases the risk that data
+stored offshore could be subject to the sovereign control of another country. To reduce the security
+and jurisdictional concerns inherent to offshore data storage, OMES requires state data to remain
+within the boundaries of the U.S.
+
+Purpose
+This document establishes the standard for state data to be stored within the boundaries of the U.S.
+
+Definitions
+ •   Offshore – a location that is outside the physical borders of the U.S.
+ •   Follow-the-sun model – IT support model that utilizes global resources to provide 24/7 support for
+     IT services and solutions.
+
+Standard
+OMES requires all state data be hosted, stored, processed, transmitted, accessed and disposed of by
+approved vendors within the boundaries of the U.S.
+State agency systems and data shall not be accessible from outside the physical boundaries of the
+U.S. unless following the International Travel Standard, which is limited to employees.
+Vendors/suppliers may be allowed to provide a follow-the-sun service model in order to provide
+24/7 support for IT services, cloud management, incident response, troubleshooting, customer
+support- and application development for services and solutions utilized by state agencies.
+Offshore support is only permitted on systems that use public data. Any regulated data, i.e. HIPAA,
+FERPA, CJI, etc., must be supported by onshore resources only. Vendors/suppliers are required to
+provide the list of countries services will be provided from in order to ensure no undue risk to state
+data and systems will be incurred.
+
+Compliance
+This standard shall take effect upon publication and is made pursuant to Title 62 O.S. §§ 34.11.1 and
+34.12 and Title 62 O.S. § 35.8. OMES IS may amend and publish the amended standards policies and
+standards at any time. Compliance is expected with all published policies and standards, and any
+published amendments thereof. Employees found in violation of this standard may be subject to
+disciplinary action, up to and including termination.
+
+Rationale
+To ensure efficient, secure, and cost-effective delivery of essential public services, all state agency
+IT purchases and projects must receive central approval. This allows the Chief Information Officer
+to evaluate agency needs and capabilities, strengthen data protection and security and streamline
+and consolidate systems to reduce costs for taxpayers.
+
+References
+
+ •   International Travel Standard.
+
+Revision history
+This standard is subject to periodic review to ensure relevancy.
+ Effective date: 06/09/2026            Review cycle: Annual
+ Last revised: 10/07/2026              Last reviewed: 10/07/2026
+ Approved by: Dan Cronin, Chief Information Officer
