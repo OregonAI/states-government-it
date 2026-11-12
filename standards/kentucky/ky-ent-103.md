@@ -1,0 +1,270 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: kentucky
+id: ky-ent-103
+title: ENT-103 Enterprise Digitization Standards
+doc_type: standard
+citation: ENT-103
+authority_level: ''
+issuing_body: Commonwealth Office of Technology
+source_url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-103%20Enterprise%20Digitization%20Standards.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 15abcc925e4a511790ebb34f588031b92d7e4b6efdcb245aa58f3a05c4f8c6d0
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# ENT-103 Enterprise Digitization Standards (ENT-103)
+
+## At a glance
+
+Listed on COT's Policies pageas 'ENT-103 Enterprise Digitization Standards' (type Standards):
+
+## Full text
+
+                                                                                                                          ENT-103
+                                                                                                Enterprise Digitization Standards
+
+ENT-103: Enterprise Digitization Standard
+
+Document Revision History
+
+ Version            Date                  Change Description/ Notes                                                 Author / Editor
+
+ 1.0                11/21/2019            Creation and incorporation of digitization                                John Barnes
+                                          standards.
+
+ 2.0                04/12/2024            Review and Revision                                                       Jason Rowland
+
+ 2.26.07.13         07/13/2026            Reviewed but only technical formatting revisions                          Jason Rowland
+
+Table of Contents
+ENT-103: Enterprise Digitization Standard ..................................................................................1
+       Document Revision History ..................................................................................................1
+Purpose ......................................................................................................................................2
+Applicability.................................................................................................................................2
+Business Context ........................................................................................................................2
+Enterprise Digitization Standards ................................................................................................3
+       Analysis and Planning ..........................................................................................................3
+       Security ................................................................................................................................3
+       Hardware..............................................................................................................................3
+       Software ...............................................................................................................................4
+       Maintenance.........................................................................................................................4
+       Quality Control .....................................................................................................................4
+       Indexing and Metadata .........................................................................................................4
+       Storage ................................................................................................................................5
+       Disposition............................................................................................................................5
+       Contact.................................................................................................................................5
+       References ...........................................................................................................................5
+
+                                                                                                ENT-103
+                                                                      Enterprise Digitization Standards
+
+Purpose
+This document details the digitization standards for the Commonwealth Office of Technology (COT)
+and other executive branch agencies. These standards support CIO-122 Enterprise Document
+Management Policy and are supplemented by the ENT-302 Enterprise Digitization Guidelines and
+Best Practices and ENT-303 Enterprise Document Storage Guidelines and Best Practice
+documents.
+
+Applicability
+These standards apply to all digitization efforts under the authority of the Commonwealth of Kentucky’s
+executive branch agencies. COT, agencies, and vendors shall adhere to the associated policy,
+standards, and guidelines published in the Commonwealth of Kentucky Enterprise IT Policies.
+
+Business Context
+Digitization is the process of converting physical documents into a digital format, usually from a
+hardcopy source such as paper, or other hard-copy formats, including projector slides, green cards, or
+other formats not maintained in a digital realm. Digitization is often called “scanning;” so these terms
+may be used interchangeably in this document and the associated policy and guidelines.
+
+Commonwealth agencies have varying digitization needs based on statutes, policies, business needs,
+resource availability, skill level, and other factors. There are, however, certain standards that agencies
+should apply to their digitization (scanning) operations to enhance the agencies’ efficiency and ensure
+the quality of digitized documents. Regardless of whether an agency conducts scanning in-house or
+outsources to an approved vendor, the standards in this document apply.
+
+Agencies may want or need to digitize their documents for statutory or business reasons, including
+transparency, information accessibility, or reduction of processes and costs associated with physical
+document storage and handling. Some business benefits of digitization standards are:
+         Productivity improvement due to enhanced access to the agency’s records/documents
+         Reduction in filing errors and the volume of duplicate content
+         Improved data sharing across information systems and programs
+         Reduction in the volume of hard-copy information, resulting in better hard-copy
+          management and reduction in associated hard-copy costs
+         Explicit identification of an agency’s “official copy” of documents.
+
+Some business objectives of these standards are to:
+         Support the migration from hard-copy or paper-based documents to electronic documents.
+         Standardize the digitization process and integrate it as part of the records life cycle.
+         Leverage existing investments in Enterprise Content Management (ECM) systems.
+         Serve as a framework into which additional program-specific standards and workflows can
+          be incorporated, based upon the needs of business units.
+         Establish standard business practices to satisfy the requirements of the policies and
+          procedures under which the agencies must operate.
+
+Agencies shall adhere to all statutory requirements related to document handling, including storage,
+processing, security, and destruction of documents. Agencies should review their document
+
+                                                                                              ENT-103
+                                                                    Enterprise Digitization Standards
+
+handling and scanning operations with their records officers and with the Kentucky Department of
+Libraries and Archives (KDLA) to ensure adherence to legal requirements and responsibilities.
+Agencies shall:
+         apply these standards in the capture of hard-copy documents and records in agency
+          content repositories or other designated storage environments, where their use does not
+          jeopardize existing standard business practices; and
+         incorporate the standards into documented agency operating procedures for consistency,
+          progressively establishing a scanning framework for standard business practices.
+
+Technology improvements and changes in requirements may necessitate modifications to these
+standards. Agencies should coordinate with COT in developing the most cost-efficient solution to meet
+their needs. While these standards intend to provide reliable and repeatable quality scanning,
+agencies may need to modify or request exemptions to some standards. In such cases, agencies
+shall coordinate with COT using the appropriate exemptions request forms and processes.
+
+Enterprise Digitization Standards
+Analysis and Planning
+If agencies determine the business need to scan documents, they shall develop and document
+scanning processes and policies in an agency Scanning Plan (alternatively, Digitization Plan).
+At minimum the Scanning Plan shall include the following elements:
+    1. Business Assessment
+    2. Document Analysis and Cataloging
+    3. Document Processing and Personnel
+    4. Scanning Output Requirements
+    5. Security Requirements (hard copy and digital data)
+    6. Storage Repository Planning 7. Hard-copy Document Disposition.
+Agencies may include other topics in their plan as well. E.g., agency-specific scanning policies,
+processes, or practices.
+
+Security
+Agencies shall ensure that their policies and work processes address proper security and handling of
+hard-copy and digital versions of their records. Agencies shall adhere to the Commonwealth of
+Kentucky Enterprise IT Policies, including security policies. When developing their Scanning Plan,
+agencies shall consider all facets of security, including but not limited to physical and logical
+protections, appropriate access control to documents and data, encryption of digital data in transit or
+at rest (in storage) if necessary, separation of duties, etc.
+
+Hardware
+Agencies shall only use scanning hardware (e.g., imaging devices, multi-function devices, special
+format scanners, etc.) approved by COT as found in the Kentucky Information Technology Standards
+(KITS) library. Agencies should coordinate with COT to identify the best hardware scanning solution
+for their business and statutory needs. Specifically, agencies will need to consider their work volume,
+staff expertise, type of documents to scan, document preparation processes, funding, and other
+agency-specific factors, to determine the best hardware for their needs.
+
+If agencies contract with a vendor for scanning operations, the vendor may use different hardware.
+Nonetheless, the vendor must adhere to appropriate security, output, document handling, image
+
+                                                                                                ENT-103
+                                                                      Enterprise Digitization Standards
+
+quality, indexing, and disposition requirements as outlined by Commonwealth and agency standards.
+Agencies will be responsible for outlining the requirements for the vendors.
+
+Software
+Agencies shall use only scanning software approved by COT as listed in the KITS library or software
+tied to KITS-approved hardware. Agencies should coordinate with COT to identify the best software
+solution to meet their needs and to capitalize on economies-of-scale pricing. These standards apply
+both to new acquisitions and to upgrades to software already in use by the agencies. It is not
+the intent of these standards to require wholesale replacement of existing software.
+
+If agencies contract with a vendor for scanning operations, the vendor may use different software.
+Nonetheless, the vendor must adhere to appropriate security, output, document handling, image
+quality, indexing, and disposition requirements as outlined by Commonwealth and agency standards.
+Agencies will be responsible for outlining the requirements for the vendors.
+
+Maintenance
+Agencies shall ensure scanning personnel properly maintain the scanning devices according to
+manufacturer specifications and contract requirements.       Agencies shall incorporate device
+maintenance into their local processes. Maintenance may include:
+     Cleaning the document glass, rollers, and tires
+     Cleaning panels, touch screens, feeder trays, and output trays
+     Running cleaning sheets through the scanner.
+
+Agency scanner personnel should know and follow the proper maintenance procedures for the devices
+used in their business processes. Agencies shall also maintain the appropriate licenses for the
+hardware and software used in their scanning operations.
+
+Quality Control
+Quality control during the digitization process, including document validation of the content, is critical
+to ensuring the integrity and utility of agency business data. Agencies shall incorporate quality control
+steps into their scanning processes and plans to ensure that the digitized content accurately and fairly
+represents the quality and quantity of the original source documents, sufficient to meet regulatory and
+business requirements.
+
+Indexing and Metadata
+Agencies shall use indexing or a similar method to maintain metadata about the scanned documents.
+COT does not require agencies to replace or overhaul existing processes if they do not already
+maintain metadata. However, agencies shall incorporate document indexing or a similar method when
+upgrading or replacing software used in their scanning program.
+
+Indexing should be machine-readable and machine retrievable. Indexing should include at least:
+     The date of the document’s origin and any other agency-specific data (outlined in the agency’s
+      Scanning Plan) that will allow electronic searching to retrieve it, based on an agency’s
+      documented needs for retrieval.
+     Tracking of edits of digitized documents.
+
+Agencies should consider including critical information to which they and their customers refer in their
+day-to-day activities, such as case numbers or permit numbers. COT recommends designing the
+content indexing requirements to strike a balance between adding overhead and resources to the
+
+                                                                                           ENT-103
+                                                                 Enterprise Digitization Standards
+
+scanning process, versus maximizing the power, effectiveness, and accuracy of enterprise search and
+retrieval tools.
+
+Storage
+Agencies shall store scanned documents and images in COT-approved storage repositories. For more
+guidance on storage repositories, refer to ENT-303 Enterprise Document Storage Guidelines and Best
+Practice. Agencies shall not store final documents or images on local workstations.
+
+Disposition
+The agency Scanning Plan shall include guidance on the disposition of original documents following
+scanning. Agencies shall dispose of the hard-copy original according to statutory, KDLA, and agency
+policies. Disposition may include placing documents into physical storage, physical destruction, or
+some combination if necessary. Agencies shall consider open records requests, litigation hold
+requirements, and other requirements when determining the disposition of original documents.
+Agencies should physically destroy documents if statutory and legal considerations allow.
+
+Contact
+For more information about the Commonwealth’s enterprise digitization standards, please contact
+COT’s Enterprise Content Management Services (ECM) Team, or the Commonwealth Service Desk
+by email (“Assign ticket to COT’s ECM Services Team”) or phone (502) 564-7576 or (800) 372-7434.
+
+References
+Helpful references can be found on the Enterprise IT Policies webpage.
+
+ Commonwealth of Kentucky                         Commonwealth Office of Technology
+ Privacy and Audit Support Branch                 500 Mero St
+ Enterprise Guidelines                            Frankfort KY 40601
+ Version 2.260713                                 7-13-2026
+
+                                              *END*
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

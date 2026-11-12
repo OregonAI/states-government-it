@@ -1,0 +1,3 @@
+type: Source-Updated
+
+Added Kentucky: 82 documents (28 KRS sections served as one-page PDFs, 200 KAR 1:016 and 41:010, 43 Commonwealth Office of Technology policies, 9 standards and guidelines including the KITS library export), 1 stub (Executive Order 2012-880, a scan the two OCR engines disagree on the figures of) and 8 watch pages (COT's policy, procedure, executive order and KITS pages; KRS chapters 42 and 61; the 200 KAR chapter and title lists); the left-out record is in `_meta/sources/kentucky.yml`. A state module identifies a KRS section, a regulation or an executive order and reads a regulation's effective date.
