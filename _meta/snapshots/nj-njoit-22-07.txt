@@ -1,0 +1,164 @@
+                                                                                        December 2024
+
+                                                            Overview – IT Circular
+Enterprise Infrastructure Consolidation Guidelines                                    22-07-NJOIT
+PURPOSE
+
+In support of the structure under which we operate in the Executive Branch as codified within
+Executive Order 225 and New Jersey's hybrid consolidation model, this IT Circular outlines the
+processes supporting the current IT Infrastructure Consolidation. This effort provides NJOIT and
+Agency teams with new tools to support quicker migrations, additional dedicated staff, and includes
+collaborative support for affected Agencies and NJOIT technical units.
+
+The objective of this IT Circular is to standardize the consolidation efforts of infrastructure equipment,
+defined by EO 225 as "computer, storage, network, database infrastructure and data center assets" of
+all Executive Branch Agencies. NJOIT targets substantial completion of outstanding consolidation work
+by December 31st, 2023.
+
+Infrastructure portfolio includes Commonality and Consolidation of IT Services such as Backup,
+Archiving and Service Availability and Recovery, two site DC Strategy, Centralized DC Services, footprint,
+power, cooling, UPS, and Backup Generators for maintain Service Availability. Cost Reduction and
+Avoidance efforts include: Software licensing, VMware, Windows Server DC Edition, Red Hat Linux
+Enterprise, Backup Software, Commvault.
+
+Procedurally, Agencies are expected to identify infrastructure equipment that is subject to
+consolidation via scanning and inventorying efforts. Based on the results of the inventories and in
+partnership with NJOIT and agency business leadership, agencies then propose actionable
+consolidation plans to achieve consolidation compliance. NJOIT retains primary ownership and
+accountability for the execution of the consolidation plan in accordance with the agency's plan, but
+the agency owns all initial inventory and planning tasks, taking business needs, dependencies, and
+priorities into account.
+
+SCOPE
+
+All Executive Branch departments and State agencies are directed to cooperate fully with the NJOIT
+and the CTO to implement the provisions of this IT Circular, and to ensure effective use of information
+technology within the Executive Branch of State Government.
+
+22-07-NJOIT Enterprise Infrastructure Consolidation Guidelines                                  Page 1 of 4
+
+PROCEDURE
+
+The updated and optimized process will be centered on Identification (Scan), Plan and Execute
+working with each agency CIO and staff.
+
+Identification - NJOIT will provide a tool to agencies to scan the agency’s complete inventory of
+infrastructure devices that are hosted outside the NJOIT Enterprise Datacenter (EDC). The agencies will
+provide access to their locations and networks to support the scan. Agencies will be the primary lead
+of this effort working with the vendor and NJOIT will be coordinating with the agencies to provide
+support and facilitating the effort. NJOIT staff will be visiting the agency sites to manually verify the
+inventory after the scan reports are received from the tool.
+
+Plan - Review of the inventory collected from the scan tool with the agencies IT teams and plan to
+migrate them onto the NJOIT EDC (the NJOIT Shared Infrastructure environment). Agencies will be the
+primary lead of this planning effort, including preparation of the migration and consolidation plan in
+consultation with NJOIT. NJOIT will be coordinating with the agencies to provide support, best
+practices learned from prior consolidation projects, and hardware to migrate off their existing
+infrastructures currently hosted at agency facilities. Agencies propose migration priorities, phases, and
+timing schedules. Strategically, production, test, and staging systems will be hosted on NJOIT
+enterprise infrastructure at the NJOIT EDC. Disaster Recovery and high-availability systems will be
+hosted on NJOIT enterprise infrastructure at Hamilton.
+
+Execute - NJOIT will be responsible for the execution of the migration plan along with the agency staff
+to support the migrations and test the applications, in accordance with the migration plan proposed
+by the agency and accepted by NJOIT.
+
+NJOIT IT Consolidation Migration Process:
+
+The three different approaches that we consider moving the physical equipment from agencies will
+be: Physical to Virtual; Virtual to Virtual; Lift and Shift.
+
+Physical to Virtual: The physical devices will be migrated to a virtual environment using VMware/HCX
+or Hyper-V, as appropriate. Agencies decommission and retire legacy physical assets at agency
+locations. Agencies are charged for enterprise resources as consumed, according to then current
+service rates. See [name of IT Circular that address decommissioning responsibilities – if that’s not an
+IT Circular, it needs to be issued as one along with this doc.]
+
+Virtual to Virtual: The virtual devices will be migrated from the agency virtual environment to NJOIT
+Shared Virtual environment using VMware/HCX or Hyper-V, as appropriate. Oracle Sun Solaris, and IBM
+Power Platforms will also undergo a Virtual-to-Virtual migration. Once all resources on an agency frame
+are migrated, agencies decommission and retire legacy physical assets. See [same IT Circular reference
+discussed above here. Agencies are charged for enterprise resources as consumed, according to then-
+current service rates.
+
+22-07-NJOIT Enterprise Infrastructure Consolidation Guidelines                                 Page 2 of 4
+
+Lift and Shift: The physical devices will be lifted from the agency sites and moved to the NJOIT EDC
+or Hamilton, as appropriate based on the IT infrastructure’s role. The applications and data will be
+backed up using NJOIT enterprise backup and archive services before the lift and shift will be
+attempted. Agencies bear the cost of relocation of the device (services etc.) to the appropriate
+enterprise data center location, as well as specialized backup and recovery services if the enterprise
+NJOIT services cannot reasonably meet the requirements. Consumption of NJOIT backup services is
+allocated based on data ingestion, after de- duplication of storage volumes, at then current rates
+
+NJOIT IT Consolidation Decommission Process:
+
+Submit a ServiceNow Request to the IT Consolidation team.
+
+IT Consolidation team will identify the asset and confirm ownership.
+
+IT Consolidation team will identify the correct decommissioning approach and provide the agency
+with the appropriate decommission form. The Agency or IT Consolidation team submits the completed
+forms as a request in ServiceNow assigned to OIT Capacity Planning group. The OIT Capacity Planning
+group opens a change order with the appropriate workflow, which notifies all affected groups.
+
+Assets within the EDC: All NJOIT assets will be decommissioned by NJOIT, following the existing
+processes.
+
+Assets at Agency Sites:
+
+Servers: For server hardware decommissioning, agency staff will prepare the appliance by removing
+all cabling connected to the appliance and remove the hard drives. NJOIT will remove the appliance.
+Removal of any cables, racks, monitors, PC’s, etc. are at the agency’s discretion and control.
+
+Hard Drives: For hard drive decommissioning, agency staff will follow their existing process to
+inventory and ship hard drives to the Treasury Warehouse for shredding, including coordination of site
+pickup and delivery to the Warehouse.
+
+SAN/Storage Appliances: For SAN appliance(s) managed by NJOIT, deployed by NJOIT, and cabled by
+NJOIT, NJOIT will un-cable and remove the SAN appliance upon decommission using existing data
+center decommissioning processes. Disks within NJOIT managed SAN appliances that serve a single
+agency will be removed and provided to the agency for hard drive decommissioning.
+
+Disks within NJOIT managed SAN appliances that serve multiple agencies will be decommissioned by
+NJOIT. Agency managed, deployed, cabled SAN devices will follow that Agency's decommissioning
+process.
+
+NJOIT decommission does not include the removal of equipment racks, PC's, monitors, cables, etc.
+
+22-07-NJOIT Enterprise Infrastructure Consolidation Guidelines                              Page 3 of 4
+
+AUTHORITY
+
+Executive Order 225 (EO225) Infrastructure Consolidation, and New Jersey's hybrid consolidation
+model.
+
+NJOIT reserves the right to change or amend this Policy to comply with changes in Agency procedures.
+Any changes or amendments will be announced and made available on NJOIT's Intranet under Policies.
+Changes in this Policy will be effective upon such publication or distribution.
+
+TERMS AND DEFINITIONS
+
+The definitions of terms in this Policy can be found in the NJOIT Policy Glossary located at: NJOIT Policy
+Glossary
+
+Additional definitions can be found in the Statewide Information Security Manual (SISM). For the most
+recent publication, refer to: Statewide Information Security Manual (SISM)
+
+SIGNATURES
+
+           Signature on File                                                  December 2024
+           Christopher J. Rein,                                               Date
+           Chief Technology Officer
+           State of NJ Office of Information Technology
+
+DOCUMENT HISTORY
+
+Printed copies of this document are uncontrolled; please refer to the NJOIT website for the current
+version in effect. Please visit our website at: www.tech.nj.gov .
+
+  Version      Published Date              CTO                   Sections   Descriptions of Modifications
+     1.0          9/28/2022               C. Rein                  All          Original Published Date
+     2.0         12/17/2024               C. Rein                  All                  Format
+
+22-07-NJOIT Enterprise Infrastructure Consolidation Guidelines                                       Page 4 of 4

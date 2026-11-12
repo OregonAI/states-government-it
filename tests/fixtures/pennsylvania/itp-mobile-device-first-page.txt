@@ -1,0 +1,38 @@
+                                  Mobile Device Policy
+
+        Effective Date:                                                Category:
+        July 14, 2026                                                  Security
+
+        Scheduled Review:
+        July 2027
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This document replaces, in its entirety, the Mobile Device Policy, dated January 6, 2025.
+
+3. Purpose
+This Information Technology Policy (ITP) establishes requirements, responsibilities, and security
+controls for the use, management, and protection of Mobile Devices that access, store, or transmit
+Commonwealth data or connect to Commonwealth IT resources and networks.
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the
+Governor’s jurisdiction and any other entity connecting to the Commonwealth Network (hereinafter
+referred to as "agencies").
+
+5. Policy
+For definitions found within this document, refer to the IT Policy Glossary.
+   5.1 General Requirements
+   Mobile Devices shall not store or transmit class “C” or non-public information without the
+   protective measures detailed in the Data Classification Policy and Agency or Delivery Center
+   Information Security Officer (ISO) approval.
+
+   Commonwealth-issued Mobile Devices may not be connected to public Wi-Fi.
+
+   Mobile Devices shall adhere to established security controls, including but not limited to:
+
+   • Physical protection
+
+                                                                                    Page 1 of 2

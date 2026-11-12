@@ -1,0 +1,113 @@
+NEW JERSEY GENERAL AND PERMANENT STATUTES
+(UPDATED THROUGH  P.L.2026, c.50, and J.R.1)
+
+TITLE 1         ACTS, LAWS AND STATUTES
+
+TITLE 52       	STATE GOVERNMENT, DEPARTMENTS AND OFFICERS
+
+52:18A-220  Director of the Division of Risk Management.
+ 	2.	The division shall be under the immediate supervision of a director who shall administer the work of the division under the direction and supervision of the State Treasurer.  The director shall be appointed by the Governor, with the advice and consent of the Senate, and shall serve at the pleasure of the Governor.  The Director of the Division of Risk Management shall receive such salary as shall be determined by the Treasurer within the limits of available appropriations. Notwithstanding the supervision and direction of the director by the State Treasurer, the director shall report directly to the Governor on all activities and responsibilities of the division as specified in this act. 
+
+	L.2007,c.56,s.2.
+
+52:18A-221  Mission of the division.
+ 
+	3.	The mission of the division shall be to implement a well-coordinated strategy to identify and respond to the needs of the various departments and agencies of State Government in this regard.  Specifically, the division shall:
+ 
+	a.	Procure insurance coverage, if appropriate, for any or all of the various departments and agencies of State Government, other than State colleges that procure coverage through risk management programs, joint liability funds, or joint insurance programs pursuant to P.L.2010, c.99 (C.18A:64-86 et seq.) and independent authorities and instrumentalities of the State, including, as otherwise required by law or as appropriate, coverage through self-insurance and use of third party administrators;
+ 
+	b.	Assist the various departments and agencies of State Government in developing sound plans of risk management, including developing programs to protect physical assets, and developing and implementing safety programs to mitigate both the frequency and severity of accidental loss and by reviewing these plans and programs from time to time;
+ 
+	c.	Administer the processing of all claims for the various self-administered and self-funded insurance programs of State agencies and departments, with litigation support from the Department of Law and Public Safety, except those claims processed by risk management programs, joint liability funds, or joint insurance programs established by State colleges pursuant to P.L.2010, c.99 (C.18A:64-86 et seq.);
+ 
+	d.	Compile and distribute, on a monthly basis, accident frequency reports to the Governor, the commissioner of each principal department of State Government, and the Legislature.  These reports shall track each department's current accident rate compared to historical trends and shall include summaries of any protocols in place to reduce risk; and
+ 
+	e.	Continue all of the previous functions and responsibilities of the Bureau of Risk Management, in addition to those listed in this section, and develop new strategies and programs, as appropriate.
+ 
+	L.2007, c.56, s.3; amended 2010, c.99, s.9.
+
+52:18A-222  Risk Management Committee.
+ 	4.  a.  There is created a Risk Management Committee to monitor the State's risk management program as developed and coordinated by the division.  The committee shall be comprised of the commissioner of each principal department in State Government, or his designee.  The State Treasurer and the Commissioner of Banking and Insurance shall serve as co-chairpersons of the committee, and the director of the division shall serve as Executive Secretary.  The committee shall meet at least once every three months to:
+
+	(1)	review the accident frequency reports prepared by the division  pursuant to subsection d. of section 3 of P.L.2007, c.56 (C.52:18A-221);
+
+	(2)	review policy issues related to worker safety and capital repair issues and their relationship to workers' compensation claims;
+
+	(3)	develop a program and schedule for risk management training of appropriate managers within the principal departments; and
+
+	(4)	oversee the establishment and operation of the risk management committees of each of the principal departments.
+
+	b.	Each commissioner shall, pursuant to his general rule-making authority within each respective department, direct the appropriate personnel to administer and enforce any programs or protocols developed by the committee.
+
+	L.2007,c.56,s.4.
+
+52:18A-223  Rules, regulations.
+ 	5.	The Director of the Division of Risk Management shall promulgate rules and regulations pursuant to the "Administrative Procedure Act," P.L.1968, c.410 (C.52:14B-1 et seq.) to effectuate the purposes of this act. 
+
+	L.2007,c.56,s.5.
+
+52:18A-224  Short title.
+ 	6.	Sections 6 through 16 of P.L.2007, c.56 (C.52:18A-224 through C.52:18A-234) shall be known and may be cited as "The Office of Information Technology Reorganization Act."
+
+	L.2007,c.56,s.6.
+
+52:18A-225  Findings, declarations relative to Office of Information Technology.
+ 	7.	The Legislature finds and declares:
+
+	a.	Since its inception, the Office of Information Technology (OIT) has served an integral role in providing essential State services, developing the State's technical infrastructure, and maintaining an efficient and transparent State government; 
+
+	b.	Beyond its core responsibilities of application development and maintenance, data center operations, and telecommunications, OIT provides invaluable data management, Internet development, and geographic information systems to departments and agencies within the Executive Branch of State Government; 
+
+	c.	From developing the Department of Human Services' computer-based disability insurance systems to maintaining criminal databases utilized by the State Police, and from designing the Motor Vehicle Commission's online services to assisting the Division of Taxation in collecting State revenues, OIT provides the critical resources to connect various layers of State Government and deliver services to State residents;
+
+	d.	Despite its achievements, OIT has been restrained by a lack of accountability, control, and monitoring in planning, developing, and conducting department and agency information technology projects; 
+
+	e.	The lack of oversight has contributed to disorganization and economic inefficiencies, while also restricting growth, limiting innovation, and discouraging creative input within OIT;
+
+	f.	In order to realize the office's potential, keep pace with technological advancements, and meet the needs of residents and businesses throughout the State, it is necessary to reinforce OIT's role with a new structure, leadership, and mission; and 
+
+	g.	Therefore, the State must take a proactive approach in coordinating and integrating information technology planning, budgeting, and spending throughout the Executive Branch to advance cost savings, improve the quality of services, and retain operating efficiencies.
+
+	L.2007,c.56,s.7.
+
+52:18A-226  Definitions relative to Office of Information Technology.
+  
+	8.	As used in this act:
+
+	a.	(Deleted by amendment, P.L.2013, c.253)
+ 
+	b.	(Deleted by amendment, P.L.2013, c.253)	
+ 
+	c.	"Office" means the Office of Information Technology established by section 9 of P.L.2007, c.56 (C.52:18A-227).
+ 
+	d.	"Project Review Board" means the New Jersey Information Technology Project Review Board established by section 14 of P.L.2007, c.56 (C.52:18A-232).
+ 
+	L.2007, c.56, s.8; amended 2013, c.253, s.42.
+
+52:18A-227  Office of Information Technology.
+  
+	9. a. There is established an Office of Information Technology.
+
+	b.	The office shall be established in the Executive Branch of State Government and to comply with the provisions of Article V, Section IV, paragraph 1 of the New Jersey Constitution, the office shall be allocated in but not of the Department of the Treasury. Notwithstanding this allocation, the office shall be independent of any supervision or control by the State Treasurer, or the department, or by any division, board, office, or other officer thereof.
+ 
+	c.	The office shall be directed by the Chief Technology Officer, who shall report directly to the Governor.
+ 
+	d.	The Chief Technology Officer shall submit requests for the budget of the office to the Division of Budget and Accounting in the Department of the Treasury.
+ 
+	e.	Under the direction of the Chief Technology Officer, the office shall be responsible for	 providing and maintaining the information technology infrastructure of the Executive Branch of State Government, including all ancillary departments and agencies of the Executive Branch of State Government.
+ 
+	f.	The functions, powers, and duties granted to the office by Executive Order No. 84 of 1984, Executive Order No. 87 of 1998, and Executive Order No. 42 of 2006 shall be continued, and any function, power, or duty granted to the office by the Executive Orders that is inconsistent with the provisions of this act shall be rescinded.
+ 
+	L.2007, c.56, s.9; amended 2013, c.253, s.43.
+
+52:18A-229  Administration of Office of Information Technology; Chief Technology Officer.
+ 	11. a. The Office of Information Technology shall be administered by the Chief Technology Officer for the State of New Jersey.  The Chief Technology Officer shall be appointed by and serve at the pleasure of the Governor.  The Chief Technology Officer shall be qualified by education, training, and prior experience to direct the work of the office and to perform the duties, functions and responsibilities of the position.
+
+	b.	The Chief Technology Officer shall serve during the term of the Governor appointing the officer and until a successor is appointed and has qualified.
+
+	c.	The Chief Technology Officer shall devote full-time to the duties and responsibilities of the office and shall receive a salary as shall be provided pursuant to law.
+
+	d.	A vacancy in the position of Chief Technology Officer shall be filled in the same manner as provided for in the original appointment.
+
+	L.2007,c.56,s.11.
+

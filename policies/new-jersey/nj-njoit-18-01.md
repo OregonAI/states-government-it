@@ -1,0 +1,192 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-jersey
+id: nj-njoit-18-01
+title: Software Asset Reporting Policy
+doc_type: policy
+citation: NJOIT Technology Circular 18-01-NJOIT
+authority_level: ''
+issuing_body: New Jersey Office of Information Technology
+source_url: https://www.nj.gov/it/docs/ps/18-01-NJOIT_Policy_Software_Reporting.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 4b177d85912cd2daf091edabc8dd33d9b85bca3512dee01cb5fc9a30f064aec4
+effective_date: '2018-05-31'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+- funding
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Software Asset Reporting Policy (NJOIT Technology Circular 18-01-NJOIT)
+
+## At a glance
+
+Guidelines and procedures for reporting, managing and tracking software assets on the Treasury's LBAM system, under State Circular 26-12-OMB. The employee expenditure worksheet the library lists with it is left out as a form.
+
+## Full text
+
+         NJ OFFICE OF INFORMATION TECHNOLOGY       P.O. Box 212             www.tech.nj.gov
+         Mikie Sherrill, Governor                  300 Riverview Plaza
+         Kevin Dehmer, Chief Technology Officer      Trenton, NJ 08625-0212
+                                                POLICY NO:
+
+ STATE OF NEW JERSEY TECHNOLOGY                        18-01-NJOIT
+            CIRCULAR                            SUPERSEDES:                 EFFECTIVE DATE:
+                                                      N/A                   05-31-2018
+     Software Asset Reporting                   VERSION:                    LAST REVIEWED:
+
+              Policy                                 3.0                    7/31/2026
+
+1       PURPOSE
+        In accordance with New Jersey State Circular No. 26-12-OMB, this policy
+        establishes guidelines and procedures for effectively reporting, managing, and
+        tracking software assets on the Treasury’s Land and Building Asset Management
+        (LBAM) system. This policy is to ensure that The New Jersey Office of Information
+        Technology (NJOIT) reports all software purchases, developed, or under
+        development that exceed the cost of $100,000.
+
+2       AUTHORITY
+        N.J.S.A. C.52:18A-224 through N.J.S.A. C.52:18A-234; and
+        New Jersey State Circular No. 26-12-OMB
+
+3       SCOPE
+        This policy applies to all NJOIT employees, contractors, and third-party users who
+        have access to NJOIT’s software assets.
+
+4       POLICY
+        NJOIT is responsible for accurately capturing and reporting software procurements
+        and developments and for certifying accuracy to the agency’s Chief Financial
+        Officer (CFO). Annually, at the end of each fiscal year, NJOIT shall certify the
+        accuracy of all software records.
+
+        NJOIT shall record software assets into an internal asset inventory system and into
+        Treasury’s Land and Building Asset Management (LBAM) system when the dollar
+
+18-01-NJOIT, Software Asset Reporting Policy                                                  Page 1 of 4
+
+        threshold is greater than or equal to $100,000. NJOIT shall also record all software
+        purchased, developed, or under development that exceeds $100,000, acquired
+        since FY06 and still in use.
+
+5       PROCEDURES
+        The Fiscal Unit shall record all software purchases valued at $250 or more into the
+        Asset Inventory Management System (AIMS) and LBAM that meet the dollar
+        threshold of $100,000. The following are guidelines to be applied when
+        determining the threshold:
+
+            •    Software assets include software licensing, purchased software, enterprise
+                 agreements (regardless of per-unit cost), internally developed software or
+                 agency modified applications, and multi-year agreements;
+            •    The total value of the software should include that actual software and any
+                 ancillary charges directly attributable to the asset acquisition, such as
+                 professional fees;
+            •    Only costs associated with the application development phase should be
+                 capitalized; and
+            •    Costs associated with the preliminary phase or post implementation are not
+                 reported through this process.
+
+        Internally developed software (defined as any software that incurs costs over
+        $100,000, even if that cost expands over multiple fiscal years) also includes software
+        purchased with “minimal effort to install” (defined by OMB as any installation
+        process that requires configuration or installation on a server. Regarding internally
+        developed software, NJOIT’s Senior Leadership Team (SLT) must:
+
+            •    Determine which software meets the reporting criteria;
+            •    Submit an “Employee Expenditure Reporting” worksheet by June 30th of
+                 each fiscal year to Financial Management; and
+            •    Validate that NJOIT staff click that Governmental Accounting Standards
+                 Board (GASB) indicator in JAMS for each software asset or initiative that is
+                 expected to meet the threshold.
+
+        Subscription-based software licenses shall be reported in a manner similar to how
+        leases are currently reported under GASB Statement No. 87. See Circular No. 23-
+        05 for reporting guidelines concerning Subscription Based Information Technology
+        Arrangements (SBITAs). Perpetual software licenses purchased in Fiscal Year 2026
+        should be reported in LBAM in the same manner as in previous fiscal years.
+
+18-01-NJOIT, Software Asset Reporting Policy                                                Page 2 of 4
+
+        Fiscal shall upload all necessary procurement and payment information into the
+        system, including purchase orders, payment vouchers, line of credit award letters,
+        and Asset Verification Form (AVF) information.
+
+        NJOIT SLT must verify the accuracy of all software recorded and certify the financial
+        information during the fiscal year end asset certification process in AIMS (or any
+        replacement inventory software).
+
+        A letter certifying all software assets must be signed and submitted to the CFO by
+        NJOIT’s CTO, or their designee, by July 31st of each fiscal year.
+
+        OMB Guidelines for Reporting Software Assets and GASB Statement No. 96 shall
+        be referred to for the complete list of software reporting categories and guidelines.
+
+6       COMPLIANCE AND ENFORCEMENT
+        NJOIT reserves the right to take appropriate disciplinary or legal action regarding
+        noncompliance with this policy. Employees who do not comply with this policy risk
+        disciplinary action, up to and including termination of employment and/or civil or
+        criminal legal action, if applicable. Non-compliance will be referred to the CTO for
+        appropriate action.
+
+7       RELATED DOCUMENTS
+        OMB Guidelines for Reporting Software Assets
+        Governmental Accounting Standards Board (GASB) Statement No. 96
+        Circular 26-12-OMB Fiscal Year End Reporting 2026 – Inventory, Captial Assets,
+        Software Reporting, Impairments, Leases, LBAM Training, Capital Assets Held For
+        Sale, And Certification Requirements
+        18-01-F1 NJOIT Employee Expenditure Reporting worksheet
+
+8       ADMINISTRATION
+        This Policy is administered and monitored by the CTO at 300 Riverview Plaza,
+        Trenton, NJ 08625. The CTO reserves the right to change or amend the Policy at
+        any time.
+
+                Signature on File
+        Kevin Dehmer, Chief Technology Officer
+                                                                                  7/31/2026
+
+18-01-NJOIT, Software Asset Reporting Policy                                               Page 3 of 4
+
+9        DOCUMENT HISTORY
+
+                                             Chief
+                    Published                          Sections            Description of
+    Version                               Technology
+                      Date                             Modified            Modifications
+                                            Officer
+ 1.0                                                                      Original Published Date
+ 2.0                12/16/2024            C. Rein      Sections 3 and 5   Annual Review; Updated
+                                                                          Format; Updated
+                                                                          Sections 3 and 5 to
+                                                                          ensure consistency with
+                                                                          Circular No. 24-20-OMB
+ 3.0                7/31/2026             K. Dehmer    All                Updated Format;
+                                                                          Updated policy to
+                                                                          reflect Circular No. 26-
+                                                                          12-OMB. Added
+                                                                          subscription-based
+                                                                          software licenses
+                                                                          reporting procedures.
+
+18-01-NJOIT, Software Asset Reporting Policy                                                         Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

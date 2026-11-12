@@ -1,0 +1,320 @@
+# Florida seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-11 through the toolkit Fetcher: leg.state.fl.us (chapter 282 and sections 112.22 and 286.101), flrules.org (Departments, Divisions 60GG, 60FF,
+# 60EE, 60DD, every chapter page of them), digital.fl.gov (Florida Digital Service: its sitemap, all Resources, Cybersecurity, Project Oversight, Enterprise
+# Architecture and Technology Councils pages), dms.myflorida.com, flgov.com (executive order list, every year 2020 to 2026).
+sources:
+
+  # ---- Statute: one page for the whole chapter on the Legislature's own host
+  - id: fl-st-282
+    sha256: "c06e38863552e121682463a2644dcfb3541d3cdc275c37bec944b82d891cb7b5"
+    url: "https://www.leg.state.fl.us/statutes/index.cfm?App_mode=Display_Statute&URL=0200-0299/0282/0282.html"
+    format: html
+    citation: "Chapter 282, Florida Statutes"
+    title: "Chapter 282. Communications and Data Processing"
+    doc_type: statute
+    jurisdiction: florida
+    issuing_body: Florida Legislature
+    tags: [governance, oversight, procurement, cybersecurity, data, ai, digital-services, cloud-resilience]
+    recheck: monthly
+    why_relevant: "The enabling statute for the Florida Digital Service within the Department of Management Services (s. 282.0051: enterprise architecture, information technology policy, project management and oversight standards, annual compliance assessments) and the state's information technology law. Part I, Information Technology Management (ss. 282.003 to 282.319): definitions, the state data center (282.201), the cloud-first policy (282.206), the State Cybersecurity Act (282.318, the statute behind rule chapter 60GG-2), local government cybersecurity and ransomware incident compliance (282.3185, 282.31855, 282.3186) and the Florida Cybersecurity Advisory Council (282.319). Part II, Accessibility of Information and Technology (ss. 282.601 to 282.606). Part III, Communication Information Technology Services (ss. 282.701 to 282.802): the SUNCOM state network, a telecommunications service that rides along, and s. 282.802, the Government Technology Modernization Council, charged to recommend legislative reforms and a state code of ethics for artificial intelligence systems in state government. Chapter 282 is the only enacted Florida statute found that mentions artificial intelligence in government, and it studies rather than regulates (see left_out)."
+  # ---- Executive order: in force, not expired
+  - id: fl-eo-22-216
+    sha256: "a70fb17625b56700b772135fb42ab145c116b9f8f205b77a979101474bf0b8e9"
+    url: "https://www.flgov.com/eog/sites/default/files/executive-orders/2024/EO-22-216.pdf"
+    format: pdf
+    citation: "Executive Order 22-216"
+    title: "Strengthening Florida Cybersecurity Against Foreign Adversaries"
+    doc_type: executive_order
+    jurisdiction: florida
+    issuing_body: "Office of the Governor"
+    tags: [cybersecurity, procurement]
+    identity_text: "EXECUTIVE ORDER NUMBER 22-216"
+    recheck: monthly
+    why_relevant: "Directs the Department of Management Services to adopt rules so that information and communications technology used by state and local governments is not susceptible to exploitation by foreign countries of concern (s. 286.101); state agencies headed by gubernatorial appointees must conform their practices. It states no expiry (its Section 5: effective immediately). Listed on the Governor's executive order page under 2022 (the file sits in the site's 2024 folder). The PDF's own text layer is imperfect OCR and is mirrored as the file prints it."
+  # ---- Florida Digital Service: the policy and guidance items on digital.fl.gov
+  - id: fl-fds-prohibited-applications-list
+    sha256: "0a9a65cc65e1370156c226b68c204b0b693835b2c6e130a359fb34ac46fb211f"
+    url: "https://www.digital.fl.gov/content/download/163205/file/Prohibited%20Applications%20List_FINAL_4_30_2026.pdf"
+    format: pdf
+    citation: "Prohibited Applications on Government Devices List (April 30, 2026)"
+    title: "Prohibited Applications on Government Devices List"
+    doc_type: policy
+    jurisdiction: florida
+    issuing_body: "Department of Management Services, Florida Digital Service"
+    tags: [cybersecurity, ai]
+    identity_text: "Prohibited Applications on Government Devices List"
+    recheck: monthly
+    why_relevant: "The list the Department of Management Services, through the Florida Digital Service, determined under s. 112.22(1)(f), F.S., and rule 60GG-2.008, F.A.C.: 41 applications, among them AI applications (DeepSeek, Kimi, MiniMax Agent, Z.AI AI Agent App, StepFun AI Assistant and others), each with the date it was added. Public employers must keep them off government devices and evaluate applications not listed. Linked from the Prohibited Applications List page as 'Prohibited Applications List 04/30/2026'; the Florida Digital Service publishes it quarterly."
+  - id: fl-fds-60gg-1-faq
+    sha256: "75b1d767e97f5936f9a87262749880199a4cee82ffe0caf864aef00560a8c363"
+    url: "https://www.digital.fl.gov/content/download/465034/file/FLDS%202026%20Rule%2060GG-1%20FAQ.pdf"
+    format: pdf
+    citation: "Rule Chapter 60GG-1, F.A.C. FAQ"
+    title: "Rule Chapter 60GG-1 F.A.C. Frequently Asked Questions"
+    doc_type: policy
+    jurisdiction: florida
+    issuing_body: "Department of Management Services, Florida Digital Service"
+    tags: [oversight]
+    identity_text: "Rule Chapter 60GG-1, F.A.C. FAQ"
+    recheck: monthly
+    why_relevant: "The Florida Digital Service's guidance to state and Cabinet agencies ('Enterprise Agencies') on the requirements of rule chapter 60GG-1, F.A.C. (IT project management and oversight): which projects are excluded, the operations-and-maintenance threshold, and how the rule applies. Listed on the Project Oversight Resources page as 'Rule Chapter 60GG-1 F.A.C. Frequently Asked Questions'. Guidance, not the rule itself: OWNER DECISION whether guidance belongs (see left_out)."
+  - id: fl-fds-npv-guide
+    sha256: "66d2103fa1529ad3de365098509bd104999768a707f0fc0a552c7364e27a924c"
+    url: "https://www.digital.fl.gov/content/download/604413/file/Net%20Present%20Value%20Guide%20for%20State%20Information%20Technology%20Projects.pdf"
+    format: pdf
+    citation: "Net Present Value Guide for State Information Technology Projects"
+    title: "Net Present Value Guide for State Information Technology Projects"
+    doc_type: policy
+    jurisdiction: florida
+    issuing_body: "Department of Management Services, Florida Digital Service"
+    tags: [oversight, funding]
+    identity_text: "Using Net Present Value to"
+    recheck: monthly
+    why_relevant: "The Florida Digital Service's guide to calculating Net Present Value for state IT project analysis and comparing projects when only some can be funded, tied to the Schedule IV-B and the Legislative Budget Request instructions. The file prints its title as 'Using Net Present Value to Prioritize State Information Technology Projects'; the Project Oversight Resources page lists it as 'Net Present Value Guide for State Information Technology Projects'. Guidance: OWNER DECISION (see left_out)."
+  # ---- Rules: Florida Administrative Code chapters, stubs (legacy .doc, no reader on this machine)
+  - id: fl-fac-60gg-1
+    sha256: ""
+    url: "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=0&cno=60GG-1&caid=1724677&type=4&file=60GG-1.doc"
+    format: doc
+    citation: "Chapter 60GG-1, Florida Administrative Code"
+    title: "DEPARTMENT OF MANAGEMENT SERVICES PROJECT MANAGEMENT AND OVERSIGHT"
+    doc_type: rule
+    jurisdiction: florida
+    issuing_body: "Department of Management Services"
+    tags: [oversight]
+    recheck: monthly
+    stub: true
+    stub_reason: "Legacy Word 97-2003 binary (.doc), a Composite Document File V2 file, served one file per chapter by the Department of State's flrules.org (readFile.asp link on the chapter page). Measured 2026-11-11 on this build machine: antiword, catdoc, soffice and libreoffice are not installed (`which` finds none), pandoc reads docx and odt but not .doc ('couldn't unpack docx container: Did not find end of central directory signature'), and the repo's shared readers (src/ingest_docx.py) take .docx only. The rule's own page (RuleNo.asp) offers only the same .doc link and no HTML or PDF view, and no other official rendering of the rule text was found (Cornell, Justia and similar mirrors are unofficial and not used). The chapter .doc was fetched through the Fetcher (69,632 bytes) to measure this; its text is not committed. The entry becomes a document when a .doc reader is available to the ingester (an apt package is a choice, as src/ingest_docx.py notes)."
+    found_via: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-1"
+    why_relevant: "Chapter 60GG-1 (rules 60GG-1.001 to 60GG-1.004 in force; 60GG-1.005 to 60GG-1.009 shown as Repealed; each shown effective 6/17/2026): purpose and applicability, project management standards, project oversight requirements, and the plan of action and milestones for Florida information technology projects. Issued by the Department of Management Services, Florida Digital Service, under s. 282.0051 (rulemaking authority listed on the chapter's rule pages)."
+  - id: fl-fac-60gg-2
+    sha256: ""
+    url: "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=0&cno=60GG-2&caid=1576849&type=4&file=60GG-2.doc"
+    format: doc
+    citation: "Chapter 60GG-2, Florida Administrative Code"
+    title: "STATE OF FLORIDA CYBERSECURITY STANDARDS"
+    doc_type: rule
+    jurisdiction: florida
+    issuing_body: "Department of Management Services"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: "Legacy Word 97-2003 binary (.doc), a Composite Document File V2 file, served one file per chapter by the Department of State's flrules.org (readFile.asp link on the chapter page). Measured 2026-11-11 on this build machine: antiword, catdoc, soffice and libreoffice are not installed (`which` finds none), pandoc reads docx and odt but not .doc ('couldn't unpack docx container: Did not find end of central directory signature'), and the repo's shared readers (src/ingest_docx.py) take .docx only. The rule's own page (RuleNo.asp) offers only the same .doc link and no HTML or PDF view, and no other official rendering of the rule text was found (Cornell, Justia and similar mirrors are unofficial and not used). The chapter .doc was fetched through the Fetcher (271,872 bytes) to measure this; its text is not committed. The entry becomes a document when a .doc reader is available to the ingester (an apt package is a choice, as src/ingest_docx.py notes)."
+    found_via: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-2"
+    why_relevant: "Chapter 60GG-2, the state's cybersecurity standards for state agencies: 60GG-2.001 purpose, applicability, definitions and agency requirements (effective 9/18/2022; its history note cites rulemaking authority s. 282.318(11) and the NIST Framework for Improving Critical Infrastructure Cybersecurity), 60GG-2.002 Identify, .003 Protect, .004 Detect, .005 Respond, .006 Recover (all 9/18/2022), 60GG-2.0075 Unmanned Aerial Systems (UAS) Minimum Security Requirements (4/5/2023) and 60GG-2.008 Prohibited Applications (12/18/2023). The core of the state's cybersecurity rules."
+  - id: fl-fac-60gg-3
+    sha256: ""
+    url: "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=0&cno=60GG-3&caid=1728169&type=4&file=60GG-3.doc"
+    format: doc
+    citation: "Chapter 60GG-3, Florida Administrative Code"
+    title: "DATA CENTER OPERATIONS"
+    doc_type: rule
+    jurisdiction: florida
+    issuing_body: "Department of Management Services"
+    tags: [cloud-resilience]
+    recheck: monthly
+    stub: true
+    stub_reason: "Legacy Word 97-2003 binary (.doc), a Composite Document File V2 file, served one file per chapter by the Department of State's flrules.org (readFile.asp link on the chapter page). Measured 2026-11-11 on this build machine: antiword, catdoc, soffice and libreoffice are not installed (`which` finds none), pandoc reads docx and odt but not .doc ('couldn't unpack docx container: Did not find end of central directory signature'), and the repo's shared readers (src/ingest_docx.py) take .docx only. The rule's own page (RuleNo.asp) offers only the same .doc link and no HTML or PDF view, and no other official rendering of the rule text was found (Cornell, Justia and similar mirrors are unofficial and not used). The chapter .doc was fetched through the Fetcher (36,352 bytes) to measure this; its text is not committed. The entry becomes a document when a .doc reader is available to the ingester (an apt package is a choice, as src/ingest_docx.py notes)."
+    found_via: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-3"
+    why_relevant: "Chapter 60GG-3 (60GG-3.001 Definitions and 60GG-3.002 Physical Access and Security, 6/30/2026; 60GG-3.004 shown Repealed; 60GG-3.007 Budgeting and Accounting, State Data Center Cost-Recovery Methodology, 7/13/2017): the state data center rules."
+  - id: fl-fac-60gg-4
+    sha256: ""
+    url: "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=0&cno=60GG-4&caid=1324455&type=4&file=60GG-4.doc"
+    format: doc
+    citation: "Chapter 60GG-4, Florida Administrative Code"
+    title: "CLOUD COMPUTING"
+    doc_type: rule
+    jurisdiction: florida
+    issuing_body: "Department of Management Services"
+    tags: [cloud-resilience, procurement]
+    recheck: monthly
+    stub: true
+    stub_reason: "Legacy Word 97-2003 binary (.doc), a Composite Document File V2 file, served one file per chapter by the Department of State's flrules.org (readFile.asp link on the chapter page). Measured 2026-11-11 on this build machine: antiword, catdoc, soffice and libreoffice are not installed (`which` finds none), pandoc reads docx and odt but not .doc ('couldn't unpack docx container: Did not find end of central directory signature'), and the repo's shared readers (src/ingest_docx.py) take .docx only. The rule's own page (RuleNo.asp) offers only the same .doc link and no HTML or PDF view, and no other official rendering of the rule text was found (Cornell, Justia and similar mirrors are unofficial and not used). The chapter .doc was fetched through the Fetcher (43,520 bytes) to measure this; its text is not committed. The entry becomes a document when a .doc reader is available to the ingester (an apt package is a choice, as src/ingest_docx.py notes)."
+    found_via: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-4"
+    why_relevant: "Chapter 60GG-4 (60GG-4.001 to 60GG-4.005, all effective 1/9/2020): cloud purchase and contract elements, cloud financials, cloud security and risk mitigation strategy, and variance or waiver requests, for state agencies under the cloud-first policy of s. 282.206."
+  - id: fl-fac-60gg-5
+    sha256: ""
+    url: "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=0&cno=60GG-5&caid=1531841&type=4&file=60GG-5.doc"
+    format: doc
+    citation: "Chapter 60GG-5, Florida Administrative Code"
+    title: "STATE OF FLORIDA ENTERPRISE ARCHITECTURE"
+    doc_type: rule
+    jurisdiction: florida
+    issuing_body: "Department of Management Services"
+    tags: [cloud-resilience, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "Legacy Word 97-2003 binary (.doc), a Composite Document File V2 file, served one file per chapter by the Department of State's flrules.org (readFile.asp link on the chapter page). Measured 2026-11-11 on this build machine: antiword, catdoc, soffice and libreoffice are not installed (`which` finds none), pandoc reads docx and odt but not .doc ('couldn't unpack docx container: Did not find end of central directory signature'), and the repo's shared readers (src/ingest_docx.py) take .docx only. The rule's own page (RuleNo.asp) offers only the same .doc link and no HTML or PDF view, and no other official rendering of the rule text was found (Cornell, Justia and similar mirrors are unofficial and not used). The chapter .doc was fetched through the Fetcher (54,784 bytes) to measure this; its text is not committed. The entry becomes a document when a .doc reader is available to the ingester (an apt package is a choice, as src/ingest_docx.py notes)."
+    found_via: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-5"
+    why_relevant: "Chapter 60GG-5 (60GG-5.002 Enterprise Architecture in force, effective 4/5/2023; 60GG-5.001 and 60GG-5.003 shown Repealed): the statewide enterprise architecture standards and deliverables enterprise agencies must follow."
+  - id: fl-fac-60ff-3
+    sha256: ""
+    url: "https://www.flrules.org/gateway/readFile.asp?sid=0&tid=0&cno=60FF-3&caid=1477521&type=4&file=60FF-3.doc"
+    format: doc
+    citation: "Chapter 60FF-3, Florida Administrative Code"
+    title: "STATE NETWORK USAGE AND SECURITY"
+    doc_type: rule
+    jurisdiction: florida
+    issuing_body: "Department of Management Services"
+    tags: [cybersecurity]
+    recheck: monthly
+    stub: true
+    stub_reason: "Legacy Word 97-2003 binary (.doc), a Composite Document File V2 file, served one file per chapter by the Department of State's flrules.org (readFile.asp link on the chapter page). Measured 2026-11-11 on this build machine: antiword, catdoc, soffice and libreoffice are not installed (`which` finds none), pandoc reads docx and odt but not .doc ('couldn't unpack docx container: Did not find end of central directory signature'), and the repo's shared readers (src/ingest_docx.py) take .docx only. The rule's own page (RuleNo.asp) offers only the same .doc link and no HTML or PDF view, and no other official rendering of the rule text was found (Cornell, Justia and similar mirrors are unofficial and not used). The chapter .doc was fetched through the Fetcher (59,392 bytes) to measure this; its text is not committed. The entry becomes a document when a .doc reader is available to the ingester (an apt package is a choice, as src/ingest_docx.py notes)."
+    found_via: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60FF-3"
+    why_relevant: "Chapter 60FF-3 (60FF-3.004 Protection Standards for State Network, 60FF-3.005 Security Breach Protection Provisions Required for Department Approved Use of Third Party Network Equipment, Services and Software, and 60FF-3.006 Department Response to System Failures, Security Breaches and Security Exposures, all effective 5/19/2022; 60FF-3.001 shown Repealed): the Department of Management Services' security rules for the SUNCOM state network, which 60GG-2 cross-references. The chapter also holds SUNCOM service-change, cost-recovery, numbering and exemption rules (60FF-3.002, .003, .007 to .011), which ride along."
+  # ---- Index pages as watch_only
+  - id: fl-watch-flrules-60gg-1
+    sha256: ""
+    url: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-1"
+    format: html
+    citation: "flrules.org chapter 60GG-1"
+    title: "Florida Administrative Code chapter 60GG-1: rule list"
+    doc_type: rule
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Department of State's chapter page: the rule chapter list with each rule's effective date (nine rules listed on 2026-11-11, five shown Repealed): the watch sees an amendment or a new rule."
+  - id: fl-watch-flrules-60gg-2
+    sha256: ""
+    url: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-2"
+    format: html
+    citation: "flrules.org chapter 60GG-2"
+    title: "Florida Administrative Code chapter 60GG-2: rule list"
+    doc_type: rule
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Department of State's chapter page: the list of eight rules and their effective dates (latest 12/18/2023 for 60GG-2.008)."
+  - id: fl-watch-flrules-60gg-3
+    sha256: ""
+    url: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-3"
+    format: html
+    citation: "flrules.org chapter 60GG-3"
+    title: "Florida Administrative Code chapter 60GG-3: rule list"
+    doc_type: rule
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Department of State's chapter page: the list of four rules (two shown effective 6/30/2026, one Repealed)."
+  - id: fl-watch-flrules-60gg-4
+    sha256: ""
+    url: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-4"
+    format: html
+    citation: "flrules.org chapter 60GG-4"
+    title: "Florida Administrative Code chapter 60GG-4: rule list"
+    doc_type: rule
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Department of State's chapter page: the list of five rules, all effective 1/9/2020."
+  - id: fl-watch-flrules-60gg-5
+    sha256: ""
+    url: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60GG-5"
+    format: html
+    citation: "flrules.org chapter 60GG-5"
+    title: "Florida Administrative Code chapter 60GG-5: rule list"
+    doc_type: rule
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Department of State's chapter page: the list of three rules (one in force, two shown Repealed)."
+  - id: fl-watch-flrules-60ff-3
+    sha256: ""
+    url: "https://www.flrules.org/gateway/ChapterHome.asp?Chapter=60FF-3"
+    format: html
+    citation: "flrules.org chapter 60FF-3"
+    title: "Florida Administrative Code chapter 60FF-3: rule list"
+    doc_type: rule
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Department of State's chapter page: the list of eleven rules of the SUNCOM state network chapter."
+  - id: fl-watch-flrules-div-60gg
+    sha256: ""
+    url: "https://flrules.org/gateway/Division.asp?DivID=1376"
+    format: html
+    citation: "flrules.org division 60GG"
+    title: "Division 60GG, Florida Digital Service: chapter list"
+    doc_type: rule
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The division page lists the Florida Digital Service's rule chapters (60GG-1 to 60GG-5 on 2026-11-11): the watch sees a new chapter."
+  - id: fl-watch-flrules-div-60ff
+    sha256: ""
+    url: "https://www.flrules.org/gateway/Division.asp?DivID=765"
+    format: html
+    citation: "flrules.org division 60FF"
+    title: "Division 60FF, Technology Program: chapter list"
+    doc_type: rule
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Department of Management Services' Technology Program division: chapters 60FF-1 to 60FF-6 on 2026-11-11 (only 60FF-3 is seeded)."
+  - id: fl-watch-flgov-executive-orders
+    sha256: ""
+    url: "https://www.flgov.com/eog/news/executive-orders?field_eo_category_value=1&field_date_value=All&keys="
+    format: html
+    citation: "Governor's Executive Orders (all years)"
+    title: "Governor's executive order list, Executive Orders category, Year: Any, newest first"
+    doc_type: executive_order
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Governor's list with the visitor filter form's year set to Any (the default view shows 2026 only, so the plain page hides every earlier order). 24 rows a page, newest first; the watch sees additions to the front. Titles are mostly 're:' lines, so an IT order is found by reading the order, not the title."
+  - id: fl-watch-digital-sitemap
+    sha256: ""
+    url: "https://www.digital.fl.gov/sitemap.xml"
+    format: xml
+    citation: "digital.fl.gov sitemap"
+    title: "Florida Digital Service site map (page list)"
+    doc_type: policy
+    jurisdiction: florida
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The site's published page list. digital.fl.gov renders its Resources, Cybersecurity, Prohibited Applications List and Project Oversight pages in the browser (a Next.js page whose link list sits in script data), so a hash of those pages' text sees navigation only and is not seeded; the page list shows a new section appearing."
+left_out:
+- text: '---- Florida: found and left out (each was seen on an official page on 2026-11-11; the reason is recorded here)'
+- text: |-
+    Statutes outside chapter 282. Chapter 282 is seeded whole (Parts II and III ride along: Part II accessibility of information and technology, 282.601 to 282.606, is in scope; Part III, 282.701 to 282.802, holds the SUNCOM telecommunications services, a telecom subject, with s. 282.802, the Government Technology Modernization Council, which is in scope for AI).
+     - s. 112.22, 'Use of applications from foreign countries of concern prohibited' (chapter 112, public officers and employees; the page read through the Fetcher): the statute behind the Prohibited Applications List and rule 60GG-2.008; it binds every public employer, state and local, and gives the Department of Management Services the list. It is one section of a non-IT chapter: OWNER DECISION on section-level slicing (the playbook leaves such sections out pending that decision). The single-section page is a static page that would ingest the same way chapter 282 does.
+     - s. 286.101, 'Foreign gifts and contracts' (chapter 286, public business: miscellaneous): defines 'foreign country of concern' and requires disclosure of foreign contracts and gifts; general to state agencies and not IT. Left out.
+     - Sections named in fetched bytes whose chapters were not fetched: s. 501.171 (breach notification and data security, named in chapter 282's definition of 'breach' and in EO 22-216; it binds state agencies, and is the leading candidate for section-level slicing alongside s. 112.22. Fetched through the Fetcher, outside the seed list: subsection (1)(b) says 'For purposes of the notice requirements in subsections (3)-(6), the term includes a governmental entity', and subsection (2) says 'Each covered entity, governmental entity, or third-party agent shall take reasonable measures to protect and secure data in electronic form containing personal information'; it meets completeness item 2 of playbook #13), s. 287.042 (state purchasing, named in EO 22-216), s. 216.023(4)(a)10 (budget, IT projects over $10 million; the NPV guide) and chapter 20 (the Department of Management Services' creation). Non-IT chapters; left out under the playbook's rule on section-level slicing, OWNER DECISION. Of these four only s. 501.171 was fetched; the wording of s. 287.042, s. 216.023(4)(a)10 and chapter 20 is not described here.
+- text: |-
+    AI statutes binding state agencies: none found in the sources read. Read: the whole text of chapter 282 (the words 'artificial intelligence' occur only in s. 282.802, the council's duty to recommend legislative reforms and a state code of ethics for AI systems in state government, which studies and recommends and does not regulate agency use), s. 112.22 and the Prohibited Applications List (which names AI applications among the prohibited). Not read in bytes: the Legislature's 2026 bill and chapter-law lists. Web discovery (not evidence, nothing from it is in the repo) reported that the 2026 bills on government AI use (SB 146, the AI Bill of Rights, HB 1395) did not pass; a reviewer should confirm that against the Legislature's bill pages. Chapter 282's own text prints History lines citing 2026 session laws (ch. 2026-66, 2026-115, 2026-120 and 2026-233), so the 2026 edition read is current through the 2026 session.
+- text: |-
+    Executive orders: read the Governor's list for every year with the visitor filter form (Executive Orders category, each year 2020 to 2025 read through its last page, 1,514 rows, and the 2026 list, 214 rows; the default view shows 2026 only; the 2019 orders are reachable only through the Any/All view (field_date_value=All, the seeded watch URL), whose pages 70 to 84 hold 255 orders from 2019 (#2019-10 onward): those pages were read and the 255 titles scanned with the same keyword list, and none names an IT subject; the Ethics category was not read). Every title was scanned with a keyword filter (artificial, cyber, technolog, information, data, digital, DOGE, efficien, AI, software, foreign, social, application, network, computer, record, security, China, internet, website) and the site's keyword box was tried with 15 words over all years; only two titles name an IT subject.
+     - Executive Order 22-216, Strengthening Florida Cybersecurity Against Foreign Adversaries: seeded.
+     - Executive Order 25-44, Ensuring Government Efficiency (the Florida DOGE order, 24 February 2025; each agency's DOGE team is to use 'advanced technology, such as artificial intelligence' to find unnecessary spending): its Section 5 reads 'shall expire on March 31, 2026', and no order extending it was found in the 2026 titles. Expired, so not in force; also a fiscal-efficiency order, not an IT instrument.
+     Titles are mostly 'assigns', 'extends', 'suspends' and emergency-management lines; an order on IT filed under a title that does not name it would not be found by this scan (a limit, stated).
+- text: |-
+    Rules, Florida Administrative Code (Department of Management Services, read on flrules.org on 2026-11-11: the Department page, Divisions 60GG, 60FF, 60EE, 60DD and every chapter page of them listed below).
+     - 60GG-1 to 60GG-5 and 60FF-3 are seeded as stubs (legacy .doc, see the stub reason).
+     - 60FF-1 (State Communications Definitions; Usage Qualifications; Exemptions and Clearances, 14 rules) and 60FF-2 (State Communications Order Processing and Billing, 7 rules): SUNCOM telecommunications customer eligibility, orders and billing; telecom is out of scope (60FF-1.005, a customer's notice of a security concern about a network solution, and 60FF-1.013, clearance requests on interoperability and security, are the only security lines). Same legacy .doc source. Borderline for 60FF-1: OWNER DECISION.
+     - 60FF-4 (Florida Statewide Law Enforcement Radio System), 60FF-5 (E911 Board), 60FF-6 (State E911 Plan) and 60FF1-5 (Emergency Communications Board): radio, 911 and law-enforcement communications, out of scope. Only the chapter titles on the division page were read.
+     - 60EE-1 (Accessible and Electronic Information Technology): all four rules shown '(Transferred)', effective 1/23/2007; not in force at this location (the accessibility duty is in s. 282.601 to 282.606 in the seeded chapter 282).
+     - 60DD-2 (Florida Information Resource Security Policies and Standards): all ten rules '(Transferred to 71A-2...)', 2004. 60DD-6 (eligibility and use of the state communications system): all eight '(Repealed)'. 60DD-7 (Information Technology Life Cycle Policies and Standards): all fourteen '(Repealed)', 2004. Repealed or transferred; not in force. 60DD-1, -4, -5 and -8 (wireless 911, regulated communications services, communications procurement, radio): telecom, out of scope.
+     - Division 60I (Information Technology Resource Procurement Advisory Council) and 60J are listed on the Department page with no link and no rules.
+     - Division 60A (State Purchasing, procurement rules) and other agencies' rules (for example records management) were not enumerated for IT content in this pass: a gap, stated.
+     - Inside seeded chapters, repealed rules are shown on the chapter pages (60GG-1.005 to 60GG-1.009, 60GG-3.004, 60GG-5.001, 60GG-5.003, 60FF-3.001) and are not separate instruments.
+- text: |-
+    Florida Digital Service library (digital.fl.gov, read through the Fetcher: its sitemap of 67 page URLs and the Cybersecurity, Cybersecurity Capabilities, Incident Reporting, Local Resources, Local Government Cybersecurity Protection Program, Prohibited Applications List, Weekly Cyber Threat Intelligence Advisory, Enterprise Architecture, Data & Interoperability, Project Oversight, Project Oversight Resources, Resources, Professional Development and Collaboration, Digital Forward and Technology Councils pages). There is no policy and standards library as such (the standards are in rule chapter 60GG, and the chapter 282 text read creates no policy library). Every file the pages link was reconciled:
+     - Project Oversight Resources, 37 rows: 2 seeded (the 60GG-1 FAQ and the Net Present Value guide); 1 left out as a graphic ('Decision Process for Rule Chapter 60GG-1, F.A.C.', a one-page flow chart whose text layer is its title and 'digital.fl.gov', 196 characters); 1 left out as a tips sheet ('Tips for Effective Schedule Development', 2019, issued under the predecessor 'Division of State Technology', a two-page tips sheet on Microsoft Project scheduling with no stated authority; OWNER DECISION); 18 Word files (project charter, business case, plans, SOW, closing package checklist, status report, Project Manager Training Assessment and the like) and 15 Excel workbooks (risk and complexity assessment, RACI chart, decision escalation matrix, logs, spending plan, monthly status report and the like): forms, templates and workbooks, not instruments.
+     - Cybersecurity pages: 'Prohibited Applications List' seeded. Left out: 'Local Government Cybersecurity Resource Packet - Florida Digital Service - 2025' (v2.0; guidance for local governments, out of scope); the 'Local Government Attestation Form' (a Smartsheet form) and the incident report form; 'FLDS-CSOC-After-Action-Report-Form' (PDF and Word, a form); the 'Weekly Cyber Threat Intelligence Advisory' page (a recurring threat bulletin, not an instrument).
+     - 'FLDS - Strategic Plan and Market Analysis Enterprise Approach to Zero Trust' (PDF, linked from Enterprise Architecture, Data & Interoperability, Digital Forward and Resources): a strategic plan and market analysis, not an instrument.
+     - Technology Councils page: 38 meeting notices and agendas (Florida Cybersecurity Advisory Council, Government Technology Modernization Council and their work groups, February to August 2026): not instruments.
+     - Pages about teams, leadership, jobs, professional development and Digital Forward: no instrument.
+     - OWNER DECISION on the two guidance documents seeded as policy (the 60GG-1 FAQ and the NPV guide): both are Florida Digital Service guidance to agencies, neither is a rule or a numbered policy. The playbook excludes forms, templates, workbooks, reports and strategy documents and does not name guidance; they are in so the reviewer sees them, and come out if the owner says guidance is not an instrument.
+     - Index pages: the Resources, Cybersecurity and Project Oversight pages are rendered in the browser from script data (a Next.js page), and the toolkit's HTML text of them is navigation only (measured: 377 and 411 characters, none of the file names), so a watch on them would never see a new file. The page list (sitemap.xml) and the flrules.org and Governor's pages are watched instead; the stale-file risk (a new quarterly Prohibited Applications List gets a new download number) is that the seeded file's url does not move. A toolkit issue text is in the PR body.
+    Other places checked: dms.myflorida.com (the Florida Digital Service page there is script-rendered and its text is navigation only; the Department's site was not otherwise crawled); cyberflorida.org (a University of Central Florida resource page, not a state agency; not read).

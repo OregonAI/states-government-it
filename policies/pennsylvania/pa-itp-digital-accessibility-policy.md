@@ -1,0 +1,239 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: pennsylvania
+id: pa-itp-digital-accessibility-policy
+title: Digital Accessibility Policy
+doc_type: policy
+citation: 'Commonwealth of Pennsylvania IT Policy: Digital Accessibility Policy'
+authority_level: ''
+issuing_body: Office of Administration, Office for Information Technology
+source_url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/digital%20accessibility%20policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: dcffadea3907e1c1375c4207ce0581f9113b39258d0414fecc671055a1a28740
+effective_date: '2026-10-05'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Digital Accessibility Policy (Commonwealth of Pennsylvania IT Policy: Digital Accessibility Policy)
+
+## At a glance
+
+Information Technology Policy of the Office of Administration for agencies under the Governor's jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes requirements to ensure Commonwealth Digital Content and Services are accessible to all users without barriers.
+
+## Full text
+
+                                Digital Accessibility Policy
+
+             Effective Date:                                             Category:
+             October 05, 2026                                            Accessibility
+             Scheduled Review:
+             October 2028
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This document replaces, in its entirety, the Digital Accessibility Policy, dated November 12, 2025.
+
+3. Purpose
+This Information Technology Policy (ITP) establishes requirements to ensure Commonwealth Digital
+Content and Services are accessible to all users without barriers.
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the Governor’s
+jurisdiction and any other entity connecting to the Commonwealth Network (hereinafter referred to as
+"agencies").
+
+Third-party vendors, licensors, contractors, or suppliers shall meet the policy requirements of this policy
+as outlined herein.
+
+5. Policy
+For definitions of terms found within this document, refer to the IT Policy Glossary.
+
+   5.1 Accessibility Standards
+   Agencies shall ensure that Digital Content and Services, whether developed internally or provided
+   through contractual, licensed, or other arrangements, comply with current Section 508 Standards
+   (Revised) and the Web Content Accessibility Guidelines (WCAG).
+
+   At a minimum, Digital Content and Services shall conform to WCAG 2.1, Level AA, but agencies
+   are encouraged to meet the current version of WCAG, level AAA.
+
+   Agencies shall also adhere to the requirements established in the Digital Accessibility Standard.
+
+   5.2 Archived Digital Content
+   Archived digital content shall be made available in an accessible format to any individual eligible
+   for, and requiring access to, such content.
+
+   The agency responsible for the maintenance of the archived digital content shall be responsible for
+                                                                                      Page 1 of 5
+
+providing the information in an accessible format.
+
+5.3 Exempt Digital Content
+The following content is exempt from being compliant with the current version of WCAG, levels A,
+AA, and AAA:
+
+   •       Archived web content;
+   •       Preexisting conventional electronic documents;
+   •       Content posted by a third-party, unless the third-party is posting on behalf of the
+           Commonwealth or on a Commonwealth platform;
+   •       Individualized, password-protected or otherwise secured conventional electronic documents.
+           Conventional electronic documents that are:
+           o About a specific individual, their property, or their account; and
+           o Password-protected or otherwise secured.
+   •       Commonwealth social media posts that are posted before April 24, 2027.
+
+5.4 Accessibility Testing and Reporting
+For information on accessing and using the accessibility testing toolkit, agencies shall access the
+Digital Accessibility Knowledge Repository or contact RA-OAAccessibility@pa.gov.
+
+5.5 Responsibilities
+
+    5.5.1 Agencies
+    All Commonwealth agencies shall:
+       •    Be accountable for their Digital Content and Services meeting the applicable standards.
+       •    Prioritize Digital Content and Services as the owner and financially responsible party;
+       •    Support all costs for accessibility testing and remediation;
+       •    Collaborate with Commonwealth IT staff and vendors on testing, remediation, validation,
+            training, and status reporting;
+       •    Ensure procurement contracts mandate third-party vendors to deliver products that
+            conform to the WCAG 2.1 levels A and AA, ensuring digital accessibility compliance.
+
+    5.5.2 Office of Accessibility
+    The Office of Administration, Office for Information Technology (OA/IT), Office of
+    Accessibility shall:
+       •    Oversee accessibility compliance by providing tools, training, governance
+            communication, compliance tracking, and consolidated reporting.
+       •    Support IT DCs in developing and executing remediation workplans and removing
+            roadblocks.
+       •    Provide the necessary information, templates, training, and tools to support the IT DCs
+            development of a product roadmap by content and/or application, including:
+             o Accessibility compliance requirements and testing frequency.
+
+                                                                                         Page 2 of 5
+
+     o Access to tools and training.
+     o Ongoing testing and remediation plans.
+•   Provide clear and consistent communication about program goals related to accessibility
+    audits and product testing for remediation;
+•   Track accessibility compliance maturity through the Commonwealth approved reporting
+    tool and status updates;
+•   Communicate governance and business owner decisions that impact remediation efforts;
+    and
+•   Review and consolidate the agency system remediation status and plan for overall
+    reporting to executive stakeholders.
+
+5.5.3 Delivery Centers
+OA/IT delivery center IT staff shall:
+•   Review Digital Content and Services and assist agencies with remediation planning,
+    conducting accessibility testing and validation, and collaborating with stakeholders to
+    document compliance efforts and recommend system improvements.
+•   Review Digital Content and Services and provide prioritized portfolio with the Office of
+    Accessibility;
+•   In collaboration with agency portfolio managers, plan, deliver and report product testing
+    and remediation activities through Commonwealth approved tools;
+•   Perform Accessibility testing and validation using Commonwealth approved tools;
+•   Work with vendors to coordinate their digital accessibility testing and validation through
+    the Commonwealth approved testing tools;
+•   Create a process for accountability to review and/or evaluate accessibility testing results
+    and recommend system/product improvements to agencies that align with conformance
+    policies;
+•   Collaborate with the agency, Office of Accessibility, and other stakeholders, as needed, to
+    document current and future-state artifacts, including any gap analysis; and
+•   Provide clear communications of technical and functional aspects, challenges, risks, and
+    benefits of the accessibility conformance to remediate or modernize agency Digital
+    Content and Services.
+
+5.5.4 Service Organizations
+Service Organizations shall:
+•   Make all existing Digital Content and Services accessible as set forth in Section 5.1;
+•   Submit an Accessibility Conformance Report (ACR) for proposed or provided
+    Digital Content and Services in response to solicitations and any resulting contract
+    against all applicable standards outlined in Section 5.1;
+     o Suppliers must use the most current version of the Voluntary Product Accessibility
+       Template® (VPAT);
+     o If ACRs are submitted using an older version of the VPAT, suppliers must also
+       explain why the most current version is not being used. Upon review of the older
+                                                                               Page 3 of 5
+
+                    version template, ACR, and the explanation provided, agencies may require suppliers
+                    to provide additional information for items listed on the new VPAT that are missing
+                    from the old template;
+                o The VPAT should be filled out in its entirety and include testing methodology,
+                  conformance level, and remarks for any partially supported or non-supported level;
+           •    Submit other artifacts (Policy Driven Adoption for Accessibility (PDAA) Assessment,
+                accessibility testing plans, accessibility issue reports, product roadmaps, etc.) when
+                requested and as required by the contract.
+           •    For any known accessibility issue or WCAG success criteria (which the Digital
+                Content and Services either only partially meets, or does not meet), the supplier shall:
+                o Provide a product roadmap setting forth the expected timeframe and release cycle
+                  that will resolve each accessibility issue; or
+                o Detail how the supplier will support the agency in providing equally effective
+                  alternate access for non-conforming Digital Content and Services;
+           •    Provide additional required or requested information to document the accessibility of
+                proposed or provided Digital Content and Services (for example, when responding
+                to solicitations, and as part of contractual agreements); and
+           •    Promptly fix accessibility noncompliance issues that are reported to them.
+
+6. Contact
+Questions or comments may be directed via email to OA, IT Policy.
+
+7. Exception from Policy
+In the event an agency chooses to seek an exception from this policy, a request for a policy exception
+shall be submitted via the IT Policy Governance Process. Refer to IT Policy Governance Policy for
+guidance.
+
+8. Revision History
+This chart contains a history of this publication’s revisions. Redline documents outline the revisions and
+are available to commonwealth users only during the drafting process.
+
+Version        Date          Purpose of Revision
+Original       01/06/2025    Base Document
+
+Revision 07/29/2025          Reworded the purpose statement.
+                             Removed the distinction between new and legacy content (will
+                             all be handled the same).
+                             Removed the details of the accessibility testing toolkit and
+                             replaced with a reference to the Digital Accessibility Knowledge
+                             Repository, where information on accessibility testing can be
+                             found.
+                             Removed requirements for Accessibility Roadmap, Maturity
+                             Assessment, and Progress Reports.
+                             Separated agency and commonwealth IT staff responsibilities.
+Revision 11/12/2025          Added reference to new Digital Accessibility Standard.
+                             Updated link to new Digital Accessibility Knowledge Repository.
+Revision 10/05/2026          Updated date for exempt social media posts to align with DOJ
+                             Title II rule.
+                                                                                          Page 4 of 5
+
+Version   Date   Purpose of Revision
+                 Clarified that WCAG 2.1 Level AA is the minimum required
+                 conformance level, while agencies are encouraged to conform to
+                 the current version of WCAG at Level AAA.
+                 Other minor clarifications and grammatical updates.
+
+                                                                          Page 5 of 5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

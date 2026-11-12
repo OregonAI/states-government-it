@@ -1,0 +1,879 @@
+# Pennsylvania seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-11 through the toolkit Fetcher: Office of Administration policies pages (pa.gov), the IT Policy
+# Crosswalk and Manual 210.03 (Index of Issuances), the General Assembly's statute pages (palegis.us), 4 Pa. Code on
+# pacodeandbulletin.gov. The IT policy library's own list is drawn by script and was NOT read as rows: see left_out.
+sources:
+- id: pa-act-94-2005-breach-of-personal-information-notification
+  sha256: "a4ac2206173993b2a23caea46ed7f6e6ca7ec1f3d5dc98d3e22469b33f45d9df"
+  url: https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=PDF&SessYr=2005&ActNum=0094.&SessInd=0
+  format: pdf
+  citation: Act of Dec. 22, 2005, P.L. 474, No. 94
+  title: Breach of Personal Information Notification Act
+  doc_type: statute
+  jurisdiction: pennsylvania
+  issuing_body: Pennsylvania General Assembly
+  tags: [data, cybersecurity]
+  recheck: monthly
+  why_relevant: 'Defines "entity" to include a State agency and binds it: a State agency that determines it is the subject of a breach of the security of the system must notify the affected residents, a State agency contractor must notify the agency, and the Act sets the notice methods, the consumer reporting agency notice and the credit monitoring a breached entity owes (section 5.1 to 5.4 as amended by Acts 151 of 2022 and 33 of 2024). Private businesses and political subdivisions are covered by the same Act; the page serves the whole Act.'
+- id: pa-act-69-1999-electronic-transactions
+  sha256: "918e96248d24f1b2b2ef75464cd547588cf83aabebc811f85a2167a99bf757a4"
+  url: https://www.palegis.us/statutes/unconsolidated/law-information/view-statute?txtType=PDF&SessYr=1999&ActNum=0069.&SessInd=0
+  format: pdf
+  citation: Act of Dec. 16, 1999, P.L. 971, No. 69
+  title: Electronic Transactions Act
+  doc_type: statute
+  jurisdiction: pennsylvania
+  issuing_body: Pennsylvania General Assembly
+  tags: [digital-services, governance]
+  recheck: monthly
+  why_relevant: 'Chapter 5 (Governmental Agencies) lets each governmental agency decide whether and how it creates, retains, sends and accepts electronic records and signatures, with the security and preservation controls it may specify, and requires executive agencies to comply with the standards the Office of Administration publishes on electronic records and the electronic postmark (sections 501 to 503): the statutory base for the Office of Administration''s electronic-records standards. Chapters 1 to 3 and 7 to 9 (validity of electronic records between private parties) ride along because the PDF serves the whole Act.'
+- id: pa-eo-2016-06
+  sha256: "8cc05d09651e707a480c1bd47f632a2e8c54a3c0670d4aaa47b6aec316b7e269"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/eo/2016-06.pdf
+  format: pdf
+  citation: Executive Order 2016-06
+  title: Enterprise Information Technology Governance
+  doc_type: executive_order
+  jurisdiction: pennsylvania
+  issuing_body: Governor of Pennsylvania
+  tags: [governance, oversight, cybersecurity]
+  recheck: monthly
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for executive order PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Creates the Commonwealth''s central IT organization under the Governor''s Office of Administration, led by the Chief Information Officer: its authority over enterprise and agency IT planning, security, policy, project prioritization and investment, and the Information Technology Policies the other entries here implement. Printed ''As Amended'', dated October 27, 2020.'
+- id: pa-eo-2016-07
+  sha256: "46b2f2717a33ff7ce9f404abd665aa174f7ecd0a8cfa262aeb466dfd62ec2580"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/eo/2016-07.pdf
+  format: pdf
+  citation: Executive Order 2016-07
+  title: Open Data, Data Management, and Data Governance
+  doc_type: executive_order
+  jurisdiction: pennsylvania
+  issuing_body: Governor of Pennsylvania
+  tags: [data, governance]
+  recheck: monthly
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for executive order PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Open data and data governance across agencies under the Governor''s jurisdiction: data planning, access and sharing coordinated through Information Technology Policies. Printed ''As Amended'', dated July 24, 2019.'
+- id: pa-eo-2023-01
+  sha256: "ee37e9a94214f80a87d8d1c9ec66f5cafd1b364c4a1706c846bcda8e6b06cd81"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/eo/2023-01.pdf
+  format: pdf
+  citation: Executive Order 2023-01
+  title: Pennsylvania Longitudinal Data System (PALDS)
+  doc_type: executive_order
+  jurisdiction: pennsylvania
+  issuing_body: Governor of Pennsylvania
+  tags: [data]
+  recheck: monthly
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for executive order PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Sets up the governance (a PALDS Governance Board and a management team) for the Pennsylvania Longitudinal Data System, which brings early learning, K-12, higher education and workforce data held by separate agency systems together: a cross-agency government-data order.'
+- id: pa-eo-2023-08
+  sha256: "5d15d0dc330f4aba61342e6fa63c05b240808923798c8366680a02ca1c6bf624"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/eo/2023-08.pdf
+  format: pdf
+  citation: Executive Order 2023-08
+  title: Bolstering Service Delivery through a Digital Experience Strategy
+  doc_type: executive_order
+  jurisdiction: pennsylvania
+  issuing_body: Governor of Pennsylvania
+  tags: [digital-services, governance]
+  recheck: monthly
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for executive order PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Orders a digital experience strategy for service delivery across agencies, including a directory of services and the Commonwealth Office of Digital Experience (CODE PA), housed in the Office of Administration.
+- id: pa-eo-2023-19
+  sha256: "584c171b3e8870b57f94470aeb9ac8ad1bc6050c7dd92773906eea169aed653c"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/eo/2023-19.pdf
+  format: pdf
+  citation: Executive Order 2023-19
+  title: Expanding and Governing the Use of Generative Artificial Intelligence Technologies Within the Commonwealth of Pennsylvania
+  doc_type: executive_order
+  jurisdiction: pennsylvania
+  issuing_body: Governor of Pennsylvania
+  tags: [ai, governance]
+  recheck: monthly
+  found_via: Linked from https://www.pa.gov/agencies/oa/programs/information-technology2/gen-ai (the address is the page's own link, fetched 2026-11-11; confirmed as an HTTP 200 PDF whose title block names this instrument).
+  why_relevant: 'The Governor''s order on agency use of generative AI: creates the Generative AI Governing Board and directs how agencies adopt and govern the technology.'
+- id: pa-md-205-34
+  sha256: "f4f0d6cc990b39e263307a0d097d32a0716da104f1a2d775192c82fcac7f435a"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/205_34.pdf
+  format: pdf
+  citation: Management Directive 205.34
+  title: Commonwealth of Pennsylvania Information Technology Acceptable Use Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  identity_text: '205.34'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Acceptable use of Commonwealth IT resources by authorized users, monitoring and consent; the baseline conduct directive the IT policies cite.
+- id: pa-md-205-35
+  sha256: "f564c4a83e2437e470c48dc1f3801634b150aa860f8c50729ad46d7f16df7b85"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/205_35.pdf
+  format: pdf
+  citation: Management Directive 205.35
+  title: Information Reporting from the Commonwealth's Enterprise Business Information Warehouse System
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [data, oversight]
+  recheck: monthly
+  identity_text: '205.35'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Policy for planning, managing and using the enterprise Business Warehouse (BW) reporting system, including how agencies request new reports.
+- id: pa-md-205-37
+  sha256: "1557f01ba0b643ecf8be28ceb4c487659ead537009e9164ff542105a58550c5e"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/205_37.pdf
+  format: pdf
+  citation: Management Directive 205.37
+  title: Role Assignment, Security, and Internal Control Maintenance
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration and Office of the Budget
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: '205.37'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Requesting, authorizing and maintaining user roles and security in the enterprise SAP system: access control for the Commonwealth''s enterprise resource planning system. Borderline (issued with the Office of Human Resources Management and the Office of the Budget); kept because it governs access to an enterprise IT system.'
+- id: pa-md-205-43
+  sha256: "e39930857f8fedcad625674644234063958569cf583b0cbf90954537072bfc64"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/205_43.pdf
+  format: pdf
+  citation: Management Directive 205.43
+  title: Quality Assurance for Business Productivity Tools
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration and Office of the Budget
+  tags: [oversight]
+  recheck: monthly
+  identity_text: '205.43'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Quality assurance for spreadsheets, databases and similar tools that support Commonwealth business transactions and financial reporting.
+- id: pa-md-210-12
+  sha256: "74537974b59f6e0382483c4ff0f653434b7920b23ad1cc032ee6e5dbcf93ca0b"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/210_12.pdf
+  format: pdf
+  citation: Management Directive 210.12
+  title: Electronic Commerce Initiatives and Security
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [digital-services, cybersecurity]
+  recheck: monthly
+  identity_text: '210.12'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Implements the Electronic Transactions Act for agencies under the Governor''s jurisdiction: sending, accepting and storing electronic signatures and records, and review of electronic commerce initiatives and their security.'
+- id: pa-md-245-13
+  sha256: "f2066c8c68894f9a6d1b13772a674c6c79b8e0d21114718e8294370e7af2b6de"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/245_13.pdf
+  format: pdf
+  citation: Management Directive 245.13
+  title: Strategic Direction for Information Technology Investments
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [oversight, procurement]
+  recheck: monthly
+  identity_text: '245.13'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: The Office for Information Technology's responsibility for the policy, guidelines and standards that govern IT investments by all agencies; recognizes IT Bulletins as having the force of a management directive.
+- id: pa-md-245-18
+  sha256: "28ee616b6d8ce0e4c6d2d9355876cb70747df697ff25b318f7bb80539784c9f5"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/245_18.pdf
+  format: pdf
+  citation: Management Directive 245.18
+  title: IT Administrator Acceptable Use, Auditing, and Monitoring
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: '245.18'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Acceptable use of Commonwealth IT resources by application, database, network and system administrators, and the auditing and monitoring that checks their privileged access.
+- id: pa-md-245-19
+  sha256: "80891b5274cf0c11b60bda1a6e222353779652734c4eba2b4a7fb0de6a369089"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/245_19.pdf
+  format: pdf
+  citation: Management Directive 245.19
+  title: Enterprise Technology Security Council
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  identity_text: '245.19'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Creates the Enterprise Technology Security Council and sets how the Office for Information Technology deploys enterprise-wide IT security practices under Executive Order 2016-06.
+- id: pa-md-310-37
+  sha256: "c0e05f32c8474e8b90f20d6787895292547b442d8c69f3b7df0de170a00cc597"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/300/310_37.pdf
+  format: pdf
+  citation: Management Directive 310.37
+  title: Approving, Monitoring, and Accounting for New Information Technology Application Projects
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration and Office of the Budget
+  tags: [oversight, funding]
+  recheck: monthly
+  identity_text: '310.37'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Approval, monitoring and accounting for new IT application projects with a total budget of $250,000 or more.
+- id: pa-md-535-09
+  sha256: "3320364a4fa89c74a7f3084e254b4eea96036d21d89f85a00f3230d950306afd"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/500/535_9.pdf
+  format: pdf
+  citation: Management Directive 535.09
+  title: Information Technology Security Trainings
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: '535.09'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Minimum requirement that all Authorized Users of IT Resources receive IT security training at least once per calendar year.
+- id: pa-md-210-11
+  sha256: ''
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/200/210_11.pdf
+  format: pdf
+  citation: Management Directive 210.11
+  title: Acceptance of Imaged Documents
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration
+  tags: [data, digital-services]
+  recheck: monthly
+  identity_text: '210.11'
+  stub: true
+  stub_reason: 'The PDF (10 pages, 505,821 bytes, fetched through the Fetcher on 2026-11-11) has no text layer: pdftotext returns 0 words for all 10 pages, so it is a scan. The index of issuances (Manual 210.03, July 1, 2026) lists it as MD 210.11 dated 6/16/1997. Not OCR''d in this pass.'
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for management directive PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: Policy on agencies' acceptance of imaged (scanned) documents in place of paper originals.
+- id: pa-itp-access-management-policy
+  sha256: "2e076055ea794237aef8808b7811d7eb3c7f4c52d0c67968ea775398ffedb4c0"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/access%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Access Management Policy'
+  title: Access Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Access Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This policy establishes the requirements for the management, control, and monitoring of privileged access to Commonwealth IT Resources.'
+- id: pa-itp-artificial-intelligence-policy
+  sha256: "fca41324845aad81bd816ffe9b08a3d57fb4566038c35b739f988b65c080c6bb"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/artificial%20intelligence%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Artificial Intelligence Policy'
+  title: Artificial Intelligence Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [ai, governance]
+  recheck: monthly
+  identity_text: Artificial Intelligence Policy
+  found_via: Linked from https://www.pa.gov/agencies/oa/programs/information-technology2/gen-ai (the address is the page's own link, fetched 2026-11-11; confirmed as an HTTP 200 PDF whose title block names this instrument).
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes basic guidelines for the use and integration of artificial intelligence (AI) technologies and capabilities into Commonwealth business and decision processes by Commonwealth Employees and Contracted Resources (hereinafter referred to as "users").'
+- id: pa-itp-business-continuity-policy
+  sha256: "0f674135d22d440866780d3b71032d049468393f328aa0a2b345c559f78c09cb"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/business%20continuity%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Business Continuity Policy'
+  title: Business Continuity Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cloud-resilience]
+  recheck: monthly
+  identity_text: Business Continuity Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: The purpose of this Information Technology Policy (ITP) is to establish a policy for the implementation of a Commonwealth Enterprise Continuity of Government Plan that ensures the storage of vital records in off-site facilities in the event of an emergency.'
+- id: pa-itp-business-intelligence-policy
+  sha256: "adbfd0d98c4cb57a5b90522e83dcd7b4d8a4b53d52293427273806b96a007643"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/business%20intelligence%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Business Intelligence Policy'
+  title: Business Intelligence Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [data]
+  recheck: monthly
+  identity_text: Business Intelligence Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes the enterprise-wide policy and standards for Business Intelligence (BI) infrastructure, reporting, and dashboards.'
+- id: pa-itp-centralized-email-policy
+  sha256: "15e7d02495064ef686e943f6011e16c95aa89973c32fa1f8650610ba8d3039a3"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/centralized%20email%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Centralized Email Policy'
+  title: Centralized Email Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [digital-services]
+  recheck: monthly
+  identity_text: Centralized Email Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: The purpose of this Information Technology Policy (ITP) is to establish that the Office of Administration, Office for Information Technology (OA/IT) maintains a centralized enterprise email system.'
+- id: pa-itp-change-management-policy
+  sha256: "946b0769d65783febb560f09ba3ce384d3dc1542304e8b44ae92170d10bac177"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/change%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Change Management Policy'
+  title: Change Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cloud-resilience, oversight]
+  recheck: monthly
+  identity_text: Change Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes and maintains the policy, responsibilities, and procedures for Change Management maintenance, specifically the creation of change Blackout periods and Maintenance Windows, on the Commonwealth’s enterprise information technology platforms.'
+- id: pa-itp-commonwealth-application-certification-and-accreditation-policy
+  sha256: "f4a43c4655beef6e43faa48c6586ece1213473a4467c77e48c2548714ba0db8d"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/commonwealth%20application%20certification%20and%20accreditation%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Commonwealth Application Certification and Accreditation Policy'
+  title: Commonwealth Application Certification and Accreditation Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity, oversight]
+  recheck: monthly
+  identity_text: Commonwealth Application Certification and Accreditation Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) sets forth the policy and technical procedures for the Commonwealth Application Certification and Accreditation (CA)2 Process. This process is a requirement of the Electronic Transactions Act, Act No. 69 of 1999, 73 P.S. § 2260.101, et seq. (Act) and Management Directive (MD) 210.12, Electronic Commerce Initiatives and Security to ensure compliance when using, sending, receiving, and storing electronic records and electronic signatures.'
+- id: pa-itp-data-classification-policy
+  sha256: "fdb214e13228fb0f66e685e33f98ad75e921c3bf5eda2d173647e67091d5852b"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/data%20classification%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Data Classification Policy'
+  title: Data Classification Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [data, cybersecurity]
+  recheck: monthly
+  identity_text: Data Classification Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes policy, responsibilities, and procedures for the identification, classification, categorization of Commonwealth electronic data and the sanitization and destruction of Commonwealth electronic media.'
+- id: pa-itp-data-management-policy
+  sha256: "90283d56eb722f701c8e70ac882f3787ba7c7b5d677715fc47e69d2bd4e293a7"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/data%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Data Management Policy'
+  title: Data Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [data]
+  recheck: monthly
+  identity_text: Data Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes enterprise-wide policy and guidance for the management of Commonwealth data and information. The policy also provides guidance related to data migrations, including those needed to support the GAAP Audit.'
+- id: pa-itp-digital-accessibility-policy
+  sha256: "dcffadea3907e1c1375c4207ce0581f9113b39258d0414fecc671055a1a28740"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/digital%20accessibility%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Digital Accessibility Policy'
+  title: Digital Accessibility Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [digital-services]
+  recheck: monthly
+  identity_text: Digital Accessibility Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes requirements to ensure Commonwealth Digital Content and Services are accessible to all users without barriers.'
+- id: pa-itp-electronic-signature-policy
+  sha256: "3ccdc25f79c4e5c43b50b097430a197ff0d14865d85f777f07faa29bc26e6cfe"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/electronic%20signature%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Electronic Signature Policy'
+  title: Electronic Signature Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [digital-services]
+  recheck: monthly
+  identity_text: Electronic Signature Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes an enterprise-wide approach for the use of electronic signatures in accordance with the Uniform Electronic Transactions Act (UETA) which was adopted by the Commonwealth of Pennsylvania in Chapters 1, 3 and 5 of the Electronic Transaction Act, Act 69 of 1999, 73 Pa.C.S. §§ 2260.101 – 2260.503.'
+- id: pa-itp-encryption-policy
+  sha256: "0176cf703619833d88934045a7c7dc636a1a2c071c8c52d3881fcbfef873e244"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/encryption%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Encryption Policy'
+  title: Encryption Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Encryption Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes standards for the encryption of Commonwealth data while in transit and at rest along with email encryption.'
+- id: pa-itp-enterprise-host-security-policy
+  sha256: "d1f96d0242f8cf7ea7279a3ef570c04c0624c680b4e357c575950868c9c62405"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/enterprise%20host%20security%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Enterprise Host Security Policy'
+  title: Enterprise Host Security Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Enterprise Host Security Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes the security requirements for Hosts connecting to the Commonwealth network and defines the enterprise controls governing technologies such as Endpoint Detection and Response (EDR) and Data Loss Prevention (DLP).'
+- id: pa-itp-enterprise-resource-planning-erp-management-policy
+  sha256: "1de126ed56160877ab96ed9b8e390817421bfa6546984c349abc8b8b8bc904d3"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/enterprise%20resource%20planning%20%28erp%29%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Enterprise Resource Planning (ERP) Management Policy'
+  title: Enterprise Resource Planning (ERP) Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [oversight]
+  recheck: monthly
+  identity_text: Enterprise Resource Planning (ERP) Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This document establishes enterprise-wide standards and policy for the Enterprise Resource Planning (ERP) System and its modules.'
+- id: pa-itp-enterprise-software-asset-management-policy
+  sha256: "f1a95ea7f0f2bc09057e6db7add18c03a8d94766926460fd9a5924fd151c0dda"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/enterprise%20software%20asset%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Enterprise Software Asset Management Policy'
+  title: Enterprise Software Asset Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [oversight, procurement]
+  recheck: monthly
+  identity_text: Enterprise Software Asset Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes the policy and practices for the efficient management of Commonwealth Enterprise Software.'
+- id: pa-itp-firewall-policy
+  sha256: "250e52f02b56cdf3e7d33fcd767561dacbece1608ce1775e5fc44b57dd37c068"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/firewall%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Firewall Policy'
+  title: Firewall Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Firewall Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes an enterprise-wide security policy designed to augment privacy, authentication, and security via deployment of network firewalls.'
+- id: pa-itp-geospatial-information-systems-policy
+  sha256: "9255cb7e2cab3e947950c78d8e56023481d1cd09f48275a1a60a45a0dcd58749"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/geospatial%20information%20systems%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Geospatial Information Systems Policy'
+  title: Geospatial Information Systems Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [data]
+  recheck: monthly
+  identity_text: Geospatial Information Systems Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes the policy and standards for Geospatial Information Systems (GIS) to increase interoperability and reduce duplication of capabilities and investments across agencies. Computer Aided Design (CAD) software and Global Positioning System (GPS) equipment are not covered by this policy'
+- id: pa-itp-information-security-policy
+  sha256: "221d474b1bf19339dba79644503b61e9163e54314d9c128d92d255824c1fa4ac"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/information%20security%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Information Security Policy'
+  title: Information Security Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  identity_text: Information Security Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This policy establishes the Commonwealth’s enterprise information security program to protect the confidentiality, integrity, and availability of Commonwealth IT resources and data in accordance with applicable laws, regulations, and recognized security standards.'
+- id: pa-itp-internet-browser-policy
+  sha256: "b824a942c7f206fc00374784db6bbe52d8e9c37d81ca9b95805812d9028832ca"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/internet%20browser%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Internet Browser Policy'
+  title: Internet Browser Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Internet Browser Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes enterprise-wide policy for internet browser technology.'
+- id: pa-itp-internet-of-things-iot-policy
+  sha256: "5fbf897aaab60c1f2cb1c576ddef7eadff8651a14d94860f77e7172505354539"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/internet%20of%20things%20%28iot%29%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Internet of Things (IoT) Policy'
+  title: Internet of Things (IoT) Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Internet of Things (IoT) Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This policy establishes requirements for the secure use, deployment, and management of Internet of Things (IoT) devices within the Commonwealth’s information technology environment, ensuring alignment with state and federal cybersecurity standards.'
+- id: pa-itp-it-configuration-management-policy
+  sha256: "cfa2065e26334e605c36abd69668607fca9acaf55e7cc673b590ff995c24b487"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/it%20configuration%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: IT Configuration Management Policy'
+  title: IT Configuration Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cloud-resilience]
+  recheck: monthly
+  identity_text: IT Configuration Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This policy establishes requirements for secure and consistent configuration management of Commonwealth IT resources, aligned with recognized standards, to protect the confidentiality, integrity, and availability of Commonwealth information systems.'
+- id: pa-itp-it-policy-governance
+  sha256: "43eda2d067aee6c0d89847ad79029174d987f5c5c273ae69cfc47b767f6ac877"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/it%20policy%20governance.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: IT Policy Governance'
+  title: IT Policy Governance
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [governance]
+  recheck: monthly
+  identity_text: IT Policy Governance
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes the governance structure and lifecycle for IT Policies. It also establishes the policy for exceptions to published ITPs.'
+- id: pa-itp-it-project-and-procurement-policy
+  sha256: "2ebec57a451e4f600f0b0a8eb177852b1b459efb84865157492c9bbab207e4c4"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/it%20project%20and%20procurement%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: IT Project and Procurement Policy'
+  title: IT Project and Procurement Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [oversight, procurement]
+  recheck: monthly
+  identity_text: IT Project and Procurement Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes the requirements to request and obtain approval of IT Projects and IT Procurements (as well as Pre-Solicitation Reviews). It also establishes the policy for the management of the Enterprise Service Catalog and the use of the Enterprise IT Service Offerings it contains.'
+- id: pa-itp-it-resources-patching-policy
+  sha256: "da1b993a89fe34d0677bc35a3822b3002cdb33d75299b2974be508af1982ce92"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/it%20resources%20patching%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: IT Resources Patching Policy'
+  title: IT Resources Patching Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: IT Resources Patching Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) sets forth the requirements for the timely application of security patches.'
+- id: pa-itp-it-risk-management-policy
+  sha256: "3f0ec007f06550f298817fcdc58517374b84b5569f8e3af24ccdc7e5d22eb5d3"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/it%20risk%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: IT Risk Management Policy'
+  title: IT Risk Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity, oversight]
+  recheck: monthly
+  identity_text: IT Risk Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This policy establishes the framework for managing information technology (IT) risks within the Commonwealth. It aims to protect the confidentiality, integrity and availability of Commonwealth IT assets and ensure compliance with legal, regulatory, and operational requirements.'
+- id: pa-itp-it-security-incident-reporting-policy
+  sha256: "5983231c528fdb373fcebf8709a37e59e2a450355f13f0b2d4159c0761918175"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/it%20security%20incident%20reporting%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: IT Security Incident Reporting Policy'
+  title: IT Security Incident Reporting Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: IT Security Incident Reporting Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes the requirements for the reporting of Cyber Security Incidents to ensure timely response, regulatory compliance, and effective risk mitigation across the Commonwealth.'
+- id: pa-itp-minimum-contractor-background-checks-policy
+  sha256: "f82b5633076d383261051025764e33356254fd5f501d29c129fccd56e0623e24"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/minimum%20contractor%20background%20checks%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Minimum Contractor Background Checks Policy'
+  title: Minimum Contractor Background Checks Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity, procurement]
+  recheck: monthly
+  identity_text: Minimum Contractor Background Checks Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes the enterprise-wide policy of minimum background check requirements for contractors.'
+- id: pa-itp-mobile-device-policy
+  sha256: "15a1ab6868804e125db7bf08abf44e6292fb0bb25ba212f3779d1f284ef47046"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/mobile%20device%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Mobile Device Policy'
+  title: Mobile Device Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Mobile Device Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes requirements, responsibilities, and security controls for the use, management, and protection of Mobile Devices that access, store, or transmit Commonwealth data or connect to Commonwealth IT resources and networks.'
+- id: pa-itp-network-policy
+  sha256: "bf835b271f93b58d3d14ecedfded33c9f8af442ffbf4bf5c65a72ac097446fd5"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/network%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Network Policy'
+  title: Network Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cloud-resilience, cybersecurity]
+  recheck: monthly
+  identity_text: Network Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: The purpose of this Information Technology Policy (ITP) is to establish enterprise-wide policy for the allocation, use, and management of critical network and communication infrastructure. The policy helps to ensure secure, efficient, and standardized access to voice, video, and data services, as well as the exchange of information between the Commonwealth and its business partners.'
+- id: pa-itp-office-productivity-policy
+  sha256: "5e07dda3e436e1d603b4c32a703cc48150ae66019e67836e711efd2c9f98b782"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/office%20productivity%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Office Productivity Policy'
+  title: Office Productivity Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [oversight]
+  recheck: monthly
+  identity_text: Office Productivity Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes and maintains the enterprise-wide policy and standards for office productivity technologies.'
+- id: pa-itp-physical-security-policy
+  sha256: "7c1a82e4d85ab922eeb63432827f583fa8a0d5ba160c64800c09e0c093dc5cc2"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/physical%20security%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Physical Security Policy'
+  title: Physical Security Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Physical Security Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes access controls and facility penetration testing requirements to ensure that Commonwealth Information Technology (IT) facilities and resources are protected by physical security measures that prevent physical tampering, damage, theft, or unauthorized physical access.'
+- id: pa-itp-privacy-policy
+  sha256: "a6e527ecc1cba6c85fdef0da74cf85c636c579dbb6b58f4c4eb830641456c18d"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/privacy%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Privacy Policy'
+  title: Privacy Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [data]
+  recheck: monthly
+  identity_text: Privacy Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) sets forth designation and responsibilities of the Privacy Officer (PO).'
+- id: pa-itp-records-management-policy
+  sha256: "319c4628da92b4f0e10690fa9ea1962f3c803defb357ecee44ad41090f139aba"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/records%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Records Management Policy'
+  title: Records Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [data]
+  recheck: monthly
+  identity_text: Records Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: The purpose of this Information Technology Policy (ITP) is to establish the requirements for the management of Commonwealth records in electronic or digital formats. This ITP should be read and applied in conjunction with Management Directive 210.5, which establishes the Commonwealth of Pennsylvania State Records Management Program for records in all formats.'
+- id: pa-itp-security-logging-and-event-monitoring-policy
+  sha256: "ba712eb3c27fedd5166f2224a7e0ea9589584286ba11f7a74625e802f1a5f071"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/security%20logging%20and%20event%20monitoring%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Security Logging and Event Monitoring Policy'
+  title: Security Logging and Event Monitoring Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Security Logging and Event Monitoring Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: The purpose of this Information Technology Policy (ITP) is to provide the requirements for security logging and event monitoring.'
+- id: pa-itp-software-development-life-cycle-policy
+  sha256: "7afac441228f6c0b28699350cc309a4e4ea6be4494260a32667ae5b403fd6fb1"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/software%20development%20life%20cycle%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Software Development Life Cycle Policy'
+  title: Software Development Life Cycle Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [oversight]
+  recheck: monthly
+  identity_text: Software Development Life Cycle Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: This Information Technology Policy (ITP) establishes requirements that govern software and application development throughout the system lifecycle. It is intended to ensure that all new software, irrespective of hosting model or delivery mechanism, is developed and maintained in a manner that preserves security, quality, interoperability, accessibility, and long-term sustainability.'
+- id: pa-itp-vulnerability-management-policy
+  sha256: "c53cee78a6dfd07da044dfa87e1ae5437e4d60c4951fa97b46dbb19d338ef3d9"
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/vulnerability%20management%20policy.pdf
+  format: pdf
+  citation: 'Commonwealth of Pennsylvania IT Policy: Vulnerability Management Policy'
+  title: Vulnerability Management Policy
+  doc_type: policy
+  jurisdiction: pennsylvania
+  issuing_body: Office of Administration, Office for Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  identity_text: Vulnerability Management Policy
+  found_via: Named in the Office of Administration's IT Policy Crosswalk and Manual 210.03 (Index of Issuances); those pages do not link the file. The address was built from the pa.gov file pattern for IT policy PDFs (not copied from a link) and confirmed by an HTTP 200 PDF whose title block names this instrument.
+  why_relevant: 'Information Technology Policy of the Office of Administration for agencies under the Governor''s jurisdiction. Printed purpose: The purpose of this policy is to establish a comprehensive vulnerability management program for the Commonwealth of Pennsylvania.'
+- id: pa-watch-it-policies
+  sha256: ''
+  url: https://www.pa.gov/agencies/oa/policies/it-policies
+  format: html
+  citation: Office of Administration, Information Technology Policies (ITP)
+  title: Information Technology Policies (ITP)
+  doc_type: policy
+  jurisdiction: pennsylvania
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Office of Administration's public IT policy library page. Its list of policies is drawn by script after the page loads (the page served to the Fetcher holds the Sort & Filter shell and the note that the site 'contains all Commonwealth IT Policies available to the public', and no rows), so this watch sees the page's own text and its links (the IT Policy Crosswalk), not additions to the list; the list is watched through the crosswalk entry and the seeded policy files.
+- id: pa-watch-it-policy-crosswalk
+  sha256: ''
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf
+  format: pdf
+  citation: IT Policy Crosswalk
+  title: Information Technology Policy Crosswalk
+  doc_type: policy
+  jurisdiction: pennsylvania
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Office of Administration's crosswalk from the 93 old ITP numbers to the consolidated policies, standards, procedures and guidelines (policy consolidation effective January 6, 2025). The only static list of the policy names; a new or renamed policy shows here.
+- id: pa-watch-index-of-issuances
+  sha256: ''
+  url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/ml/m210_3.pdf
+  format: pdf
+  citation: Manual 210.03 Amended, Index of Issuances
+  title: Manual 210.03 Amended, Index of Issuances (July 1, 2026)
+  doc_type: executive_order
+  jurisdiction: pennsylvania
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Governor's Office index of every executive order, management directive and manual, amended each fiscal year; it marks rescissions. The static counterpart of the script-drawn executive order and management directive lists.
+- id: pa-watch-policies-library
+  sha256: ''
+  url: https://www.pa.gov/agencies/oa/policies
+  format: html
+  citation: Office of Administration, Policies Library
+  title: Policies Library (executive orders, management directives, administrative circulars, IT policies)
+  doc_type: policy
+  jurisdiction: pennsylvania
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The landing page of the Office of Administration''s policies library: filter links for executive orders, management directives and administrative circulars (those lists are drawn by script) and the IT policies link.'
+- id: pa-watch-generative-ai
+  sha256: ''
+  url: https://www.pa.gov/agencies/oa/programs/information-technology2/gen-ai
+  format: html
+  citation: Office of Administration, Generative Artificial Intelligence
+  title: Generative Artificial Intelligence (Commonwealth AI page)
+  doc_type: policy
+  jurisdiction: pennsylvania
+  tags: [ai]
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Office for Information Technology''s AI page: links Executive Order 2023-19 and the Artificial Intelligence Policy, and the AI guidance on a pagov.sharepoint.com site (Commonwealth Artificial Intelligence Resource Center).'
+- id: pa-watch-4pacode-chapter-7
+  sha256: ''
+  url: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/004/chapter7/chap7toc.html
+  format: html
+  citation: 4 Pa. Code chapter 7
+  title: 4 Pa. Code Chapter 7. Miscellaneous Provisions (codified executive orders)
+  doc_type: rule
+  jurisdiction: pennsylvania
+  tags: [ai, governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: Title 4 codifies executive orders by subchapter; Chapter 7 holds Subchapter KKK, Use of Generative Artificial Intelligence Technologies (section 7.991). Watched for new IT subchapters; the codified copies are not seeded (see left_out).
+- id: pa-watch-4pacode-chapter-7a
+  sha256: ''
+  url: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/004/chapter7a/chap7atoc.html
+  format: html
+  citation: 4 Pa. Code chapter 7a
+  title: 4 Pa. Code Chapter 7a. Additional Miscellaneous Provisions (codified executive orders)
+  doc_type: rule
+  jurisdiction: pennsylvania
+  tags: [data, governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: Chapter 7a holds Subchapter N, Open Data, Data Management and Data Governance (section 7a.151) and Subchapter R, Enterprise Information Technology Governance (section 7a.191). Watched for new IT subchapters; the codified copies are not seeded (see left_out).
+- id: pa-watch-4pacode-chapter-5
+  sha256: ''
+  url: https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/004/chapter5/chap5toc.html
+  format: html
+  citation: 4 Pa. Code chapter 5
+  title: 4 Pa. Code Chapter 5. Councils and Committees (codified executive orders)
+  doc_type: rule
+  jurisdiction: pennsylvania
+  tags: [data, digital-services]
+  recheck: monthly
+  watch_only: true
+  why_relevant: Chapter 5 holds Subchapter WWW, Pennsylvania Longitudinal Data System (5.1041) and Subchapter YYY, Commonwealth Office of Digital Experience (5.1061).
+
+left_out:
+- text: |-
+    ---- Pennsylvania: found and left out (each was seen on an official page, through the Fetcher, on 2026-11-11; the reason is recorded here)
+- text: |-
+    IT POLICY LIBRARY, how it was read and what that means. The library is public at https://www.pa.gov/agencies/oa/policies/it-policies (HTTP 200). The page says: 'This site contains all Commonwealth IT Policies available to the public. Other types of documents (Standards, Procedures, and Guidelines) are accessible only by Commonwealth employees on IT Central.' The rows of the list are not in the HTML the Fetcher gets: the page holds the Sort & Filter shell and an empty results template ('No results found'), and the rows are drawn by script from a search service. Calling that service is a site-internal API and was not done. So the list itself was NOT read row by row. What was read instead: the Office of Administration's IT Policy Crosswalk (https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/it-policy-crosswalk.pdf, 15 pages, read in full), which maps 93 old ITP numbers to the consolidated 'policies, standards, procedures, and guidelines' effective January 6, 2025. Every name in the crosswalk's new column that ends in 'Policy' was fetched at the library's file address (https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/<lower-case title>.pdf, the address the library's own AI page links for the Artificial Intelligence Policy) and 36 answered HTTP 200 with a PDF with a text layer: those 36 are seeded (all 36 named in the crosswalk). A policy that is in the library but named in neither the crosswalk nor the guesses below would be missed: that is the gap in this 'every item' claim, and it is the owner's to close by reading the library list in a browser.
+- text: |-
+    IT POLICY LIBRARY, names tried that did not answer (HTTP 404 through the Fetcher, none read): 'information security officer policy', 'it resource patching policy' (the crosswalk's spelling; the file is 'IT Resources Patching Policy', seeded), 'incident reporting policy', 'virtualization policy', 'accreditation policy', 'enterprise telecommunications policy', 'checks policy', 'device security policy', 'screensaver policy', 'testing policy', 'operating system policy', 'e-mail policy', 'browser policy', 'cloud policy', 'identity management policy', 'wireless policy', 'social media policy', 'it asset management policy', 'backup policy', 'disaster recovery policy', 'security awareness policy', 'remote access policy', 'email policy', 'enterprise architecture policy', 'cybersecurity policy', 'vendor risk policy', 'open data policy', 'acceptable use policy', 'telecommunications policy', 'web policy', 'application certification and accreditation policy', 'contractor background checks policy', 'information security officers policy'. The crosswalk's row for ITP-SEC016, Commonwealth of Pennsylvania Information Security Officer Policy, reads 'N/A - Rescinded'; a web-search result listed a PDF at the 'information security officer policy' address, but the Fetcher got HTTP 404 and nothing from it was read, so it is not an entry.
+- text: |-
+    IT POLICY LIBRARY, standards, procedures, guidelines, forms and templates: about 75 distinct names in the crosswalk's new column (a rough parse of the extracted text, e.g. User Authentication Standard, Data Management Standard, Network Technology Standard, Penetration Testing Standard, Virtual Private Network Standard, Digital Accessibility Standard, IT Project Standard, six Generative AI guidelines, IT Policy Exception Procedure and Request Form, Change Blackout Request Form). Not seeded: the library page itself says they are 'accessible only by Commonwealth employees on IT Central'. IT Central (https://pagov.sharepoint.com/sites/OA-GRC/SitePages/IT-Policies.aspx) answered the Fetcher with HTTP 200 and a redirect to login.microsoftonline.com (a Microsoft sign-in page): sign-in only. Their file names were guessed at the public library address for five of them (digital accessibility standard, data management standard, network technology standard, AI transcription software guideline, IT policy exception procedure): all HTTP 404. Several seeded policies cite these standards by name; the standards' text is not public. If the owner counts standards as in scope, they are stubs for a person with a Commonwealth sign-in.
+- text: |-
+    IT POLICY LIBRARY, the 93 old ITP numbers (ITP-ACC001 to ITP-TEL001, e.g. ITP-BUS012, ITP-SEC000): replaced by the consolidated documents on January 6, 2025 per the crosswalk, so not in force; not fetched. Of the 93 rows, the crosswalk marks 'N/A - Rescinded': ITP-INF014 (electronic postmarks), ITP-INT001, ITP-INT002, ITP-INT003, ITP-INT006 and ITP-SEC016 (Information Security Officer Policy). Rows whose new document is only a standard, procedure, guideline or form (e.g. ITP-APP030, ITP-PLT002, ITP-PLT005, ITP-PLT012, ITP-PLT017, ITP-PLT019, ITP-SEC007, ITP-SEC012, ITP-SEC017, ITP-SEC039, ITP-SYM008, ITP-TEL001, ITP-INF006, ITP-INF009) have no public policy to seed. The old numbers are still cited inside some executive orders and management directives.
+- text: |-
+    IT Policy Glossary (https://www.pa.gov/agencies/oa/policies/it-policy-glossary): the page's list is drawn by script like the policy list; the HTML the Fetcher got holds the empty results shell and no definitions. Not an instrument; not read as a list.
+- text: |-
+    EXECUTIVE ORDERS. The list on the policies page (filter links, all governors and years) is drawn by script; the static record is Manual 210.03 Amended, Index of Issuances, July 1, 2026 (https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/ml/m210_3.pdf, 17 pages, read in full; a line count of its printed text finds about 154 executive-order rows, 230 management-directive rows and 27 manual rows). Its rescissions print as text ('Rescinded by EO 2026-01 - 4/15/2026'); strike-through formatting does not survive text extraction, so a row struck through without that note would not show. Seeded: 2016-06 (the central IT body), 2016-07 (open data and data governance), 2023-01 (Pennsylvania Longitudinal Data System), 2023-08 (digital experience strategy; it rescinded EO 2019-04, listed 'Rescinded by EO 2023-08 - 4/25/2023') and 2023-19 (generative AI). The index lists no AI executive order other than 2023-19 through July 1, 2026 and no later IT order (the last rows are 2026-01 to 2026-03, on disability policy and councils). The file address for these PDFs, https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/eo/<number>.pdf (2014_02.pdf for 2014-02), is the one the AI page links for 2023-19.
+- text: |-
+    EXECUTIVE ORDERS left out, borderline, OWNER DECISION: 2014-02 Pennsylvania Justice Network (JNET) Governance Structure (3/18/2014; fetched at .../eo/2014_02.pdf) and its implementing Management Directive 245.16 Amended (fetched, 7 pages, issued by the Office for Information Technology): a justice-information-sharing IT network governed from the Office for Information Technology; left out because the domain excludes law-enforcement technology. If the owner reads JNET as shared enterprise IT governance, both are ready to seed. Left out as not state IT: 2023-05 Pennsylvania Office of Transformation and Opportunity (economic development; its text was fetched and its opening read), 1988-08 Pennsylvania State Data Center (census data; title only), 2012-05 Commonwealth Continuity of Government (title only), 2026 executive order on data center development (the Governor's data-center press release is linked from the AI page; about electricity ratepayers and developers, not state IT; codified at 4 Pa. Code 7.1081, 'Protecting Pennsylvania Consumers from Data Center Impacts'). Rescinded, so not in force: 2019-04 (by 2023-08), 2015-01 and the other rows the index marks rescinded. The other roughly 140 executive-order rows are not on IT, data or AI by title.
+- text: |-
+    4 PA. CODE (https://www.pacodeandbulletin.gov/Display/pacode?file=/secure/pacode/data/004/004toc.html, 'changes effective through 56 Pa.B. 6006 (September 5, 2026)'). Title 4 codifies executive orders by subchapter, so IT instruments exist there too: chapter 7 subchapter KKK 'Use of Generative Artificial Intelligence Technologies' (7.991), chapter 7a subchapter N 'Open Data, Data Management and Data Governance' (7a.151) and R 'Enterprise Information Technology Governance' (7a.191), chapter 5 subchapters WWW 'Pennsylvania Longitudinal Data System' (5.1041) and YYY 'Commonwealth Office of Digital Experience' (5.1061), chapter 6 subchapter SS 'Pennsylvania Justice Network (JNET) Governance Structure' (6.541). These are the same orders as the executive orders seeded; the codified copy is a second mirror, and each chapter is one page serving every subchapter, which needs a slicing hook. Left out, OWNER DECISION: whether to mirror the codified subchapters as rules; the chapter pages are watched. ADMINISTRATIVE RULES OF THE IT AGENCY: none found. The Office of Administration's own chapter, 4 Pa. Code chapter 2 (Offices of Administration and the Budget; read), holds fee-award and interest-penalty rules and one 1992 computer service charge notice, no IT rule; chapters 1, 3, 6, 6a, 9 and 11 were searched for 'information technology', 'cyber', 'chief information', 'computer', 'artificial intelligence' and 'electronic records', and the hits are the index of issuances in chapter 1, the continuity-of-government data processing plan in chapter 3, and the council memberships and codified orders above. The Office for Information Technology issues directives, policies and bulletins, not regulations, in what was read.
+- text: |-
+    STATUTES. No statute creating the Office for Information Technology or the Chief Information Officer was found: Executive Order 2016-06 (seeded) rests on 'Sections 501 and 502 of the Administrative Code of 1929, 71 P.S. §§ 181, 182' (coordination among departments, as the order recites them) and creates the office itself. Read: the Administrative Code of 1929 as the General Assembly serves it (the General Assembly's act list prints it as 'The Administrative Code of 1929', A175, PDF, 399 pages, text searched for 'information technology', 'chief information', 'Office of Administration', 'cyber' and 'geospatial'): the only information-technology provision is section 432.1, the State Geospatial Coordinating Board (with the Office of Administration's duty to make resources available), and no section creates the IT office. Left out, OWNER DECISION: that Act is one 399-page document on all state agencies (the playbook's section-level slicing question); section 432.1 alone is relevant. Acts that bind state agencies and were seeded: Act 94 of 2005 (breach notification; 'State agency' is an 'entity') and Act 69 of 1999 (Electronic Transactions Act, chapter 5 on governmental agencies and the Office of Administration's standards). Consolidated titles: the 75 entries on the page (the Constitution and the titles) (https://www.palegis.us/statutes/consolidated); no title is an IT code, and Title 62 (Procurement), where IT purchasing sits, was not fetched or searched: general procurement code, left out under the playbook rule on sections inside non-IT chapters, OWNER DECISION. Unconsolidated acts: the General Assembly's act-name search pages were read for the words CYBERSECURITY and CYBER (no act name contains either), ARTIFICIAL (2026 Act 99 'Artificial Intelligence Deceptive Advertising Act - Enactment': private advertisers, out of scope), COMPUTER, DATA, DIGITAL (2025 Act 35, digital forgery: a crime, out of scope), ELECTRONIC, INFORMATION, INTERNET, TECHNOLOGY, TELECOMMUNICATIONS, RECORDS, GEOSPATIAL, NETWORK, OPEN, MAPPING and ADMINISTRATION. Left out by title as not binding state agencies' IT: Consumer Protection Against Computer Spyware Act (2010 Act 86), Information Technology Education Act (1984 Act 145, 1993 Act 80), Child Internet Protection Act (2004 Act 197), Uniform Real Property Electronic Recording Act (2012 Act 100), the Crimes Code amendments, Insurance Data Security (2023 Act 2, insurers), Legislative Data Processing Committee acts (legislative branch). Acts 151 of 2022 and 33 of 2024 amend Act 94 and are folded into the PDF of Act 94 (the PDF prints each amendment). No enacted statute on state-agency use of AI was found: none of the act names those searches returned is such an act; bills are out of scope. Right-to-Know Law (Act 3 of 2008) was not read: public records, not IT.
+- text: |-
+    MANAGEMENT DIRECTIVES (policy). The directives are in the index of issuances (about 230 rows; the 'Information Technology Management' category holds 240.07, 245.13, 245.15, 245.16, 245.18, 245.19); the list on the policies page is script-drawn. Their PDFs are at https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/md/<hundred series>/<number>.pdf (for example 205_34.pdf and 245_16.pdf under the 200 folder; the leading zero of the second part is dropped: 535_9.pdf under 500). Seeded (10): 205.34, 205.35, 205.37, 205.43, 210.12, 245.13, 245.18, 245.19, 310.37, 535.09; stub (1): 210.11, a scan. Rows were chosen by title from the whole index (grep for information, data, computer, technology, cyber, security, record, electronic, system, software, network, telecom, internet, web, digital, privacy, e-mail, social, mobile, cloud, SAP, open). Left out: 205.42 Authorized use of Social Media on Behalf of the Commonwealth (3/17/2025; fetched; contact agency is the Governor's Office of Digital Strategy: communications practice, OWNER DECISION), 210.05 State Records Management (fetched; the records program, not IT, though the Records Management Policy seeded says to read the two together; OWNER DECISION), 240.07 Submission of Changes to the Commonwealth Telephone Directory (fetched; directory entries), 245.15 Pennsylvania Statewide Radio Network (fetched; radio, out of scope as telecom), 245.16 JNET (see above), 310.36 Identifying, Recording, and Reporting Computer Software as a Capital Asset (index: 'Rescinded 7/5/2024'), 205.36 Right-to-Know Law Compliance, 310.25, 310.28, 310.29, 310.33, 310.34 and 310.39 (SAP accounting procedures of the Office of the Budget: financial transactions, not read), 570.11 Amending Data in Retirement and Personnel/Payroll System (personnel data entry, not read). The manuals (27 rows) were not read beyond a keyword scan of their titles; 210.03 itself is watched.
+- text: |-
+    NOT INSTRUMENTS, seen and left out: the IT Policy Crosswalk and Manual 210.03 are indexes (watched); OpenAI pilot report 2025 (https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/programs/information-technology/documents/openai-pilot-report-2025.pdf, a report, linked from the AI page); the Governor's March 21, 2025 letter on AI and employees (a letter, linked from the AI page); the AI page's press releases and 'timeline of AI milestones'; the Commonwealth Artificial Intelligence Resource Center and its 'Guidelines for AI' (pagov.sharepoint.com, not requested; the same host answered a sign-in redirect for IT Central); the Office for Information Technology pages (about-it, geospatial services, State Geospatial Coordinating Board, CODE PA) which describe programs; administrative circulars (the policies page lists a 2024 filter).
+- text: |-
+    PUBLIC POLICY, effective dates and status. Seeded IT policies print 'Effective Date' and 'Scheduled Review' blocks; several carry effective dates in September and October 2026 and say they replace earlier versions (Information Security Policy, effective October 05, 2026: 'This document replaces, in its entirety, the Information Security Policy, dated January 6, 2025'; Access Management Policy, effective June 10, 2026, replaces the March 11, 2025 version): the library serves one file per title, so no superseded version was seeded. Policy documents are copied as the PDFs print them. The management directives and executive orders print a 'Date:' (not an 'Effective date:'), so their effective_date stays empty.

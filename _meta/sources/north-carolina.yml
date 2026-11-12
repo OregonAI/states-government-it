@@ -1,0 +1,1519 @@
+# North Carolina seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-11 through the toolkit Fetcher: NCDIT's State IT Policies, State IT Standards, Statewide Information
+# Security Policies, IT Procurement and AI & Policy pages (and every file they link), the General Assembly's statute
+# pages (ncleg.gov), the Office of Administrative Hearings' rules pages (reports.oah.state.nc.us), the Governor's
+# executive order list (governor.nc.gov, all 22 pages).
+sources:
+
+- id: nc-gs-143b-art-15
+  sha256: "02396f79c6b8810b62bdfb538255548dfd52e4147f487aab3b0fbe6241995dd6"
+  url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_143B/Article_15.html
+  format: html
+  citation: G.S. 143B, Article 15
+  title: General Statutes, Chapter 143B, Article 15. Department of Information Technology
+  doc_type: statute
+  jurisdiction: north-carolina
+  issuing_body: North Carolina General Assembly
+  tags: [governance, oversight, procurement, funding, cybersecurity, data, digital-services, cloud-resilience]
+  recheck: monthly
+  why_relevant: 'The enabling statute for the Department of Information Technology and the State Chief Information Officer (State CIO), and the statewide information technology law for executive branch agencies. Its parts, as the page prints them: general provisions, definitions and the Department''s powers, the State CIO''s duties and the consolidation of State information technology (Part 1, 143B-1320 to 143B-1325); planning, funding and reporting, including business continuity, the Information Technology Fund and Internal Service Fund and the Information Technology Strategy Board (Part 2); projects and management, project management standards, standardization and legacy applications (Part 3); procurement of information technology (Part 4, 143B-1350 to 143B-1362); data centers (Part 5); communications and portal services (Part 6); security of information technology: statewide security and privacy standards, State CIO approval of security standards and risk assessments, assessment of agency compliance with cybersecurity standards, and agency cooperation, training, liaisons and county and municipal reporting of cybersecurity incidents (Part 7, 143B-1375 to 143B-1379); the Government Data Analytics Center (Part 8); and, riding along as one page, criminal justice information (Part 9), the 911 Board (Part 10) and the Geographic Information Coordinating Council (Part 11). The page prints repealed sections 143B-1373.2, 143B-1374 and 143B-1405 and 143B-1410 as lines saying so.'
+
+- id: nc-gs-143-art-84
+  sha256: "ed5b62ca71c57a307f3b460b61aa722fd612117ff899e263cfd07587570ab362"
+  url: https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_143/Article_84.html
+  format: html
+  citation: G.S. 143, Article 84
+  title: General Statutes, Chapter 143, Article 84. Various Technology Regulations
+  doc_type: statute
+  jurisdiction: north-carolina
+  issuing_body: North Carolina General Assembly
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: 'Two duties on public agencies about their own networks and systems: G.S. 143-800 bars a State agency or local government entity from paying or communicating with an entity that has encrypted its data and demanded ransom, and requires it to consult the Department of Information Technology under G.S. 143B-1379; G.S. 143-805 bars a public agency from permitting the viewing of pornography on its network or on a device it controls, and requires the annual report to the State CIO that NCDIT''s reporting page collects.'
+
+- id: nc-9-ncac-06a
+  sha256: "b915bd17ddb61480a1e17d0f741d09845442486a6c843651b8a60ce3daaa2b86"
+  url: http://reports.oah.state.nc.us/ncac/title%2009%20-%20governor%20and%20lt.%20governor/chapter%2006%20-%20office%20of%20information%20and%20technology%20services/subchapter%20a/subchapter%20a%20rules.html
+  format: html
+  citation: 09 NCAC Subchapter 06A
+  title: Subchapter 06A – Information Technology Procurement
+  doc_type: rule
+  jurisdiction: north-carolina
+  issuing_body: Office of Administrative Hearings (rules of the Department of Information Technology)
+  tags: [procurement]
+  recheck: monthly
+  why_relevant: The State CIO's rules on forms, terms and conditions and definitions for information technology procurement by purchasing agencies, the Benchmark and the Board of Awards, and the right to petition for a rule. The page prints the whole subchapter, including any rule it marks expired.
+
+- id: nc-9-ncac-06b
+  sha256: "cbb660b127b8cc67ff1e145613c638843b07bc5ab505c886bb37f097782c6740"
+  url: http://reports.oah.state.nc.us/ncac/title%2009%20-%20governor%20and%20lt.%20governor/chapter%2006%20-%20office%20of%20information%20and%20technology%20services/subchapter%20b/subchapter%20b%20rules.html
+  format: html
+  citation: 09 NCAC Subchapter 06B
+  title: Subchapter 06B – Procurement Requests
+  doc_type: rule
+  jurisdiction: north-carolina
+  issuing_body: Office of Administrative Hearings (rules of the Department of Information Technology)
+  tags: [procurement]
+  recheck: monthly
+  why_relevant: The State CIO's rules on agency requests for authorization, solicitation and award, contracts and term contracts, cooperative purchasing, emergency and pressing-need purchases and the other steps of information technology procurement. The page prints the whole subchapter, including rules it marks repealed or expired.
+
+- id: nc-9-ncac-06d
+  sha256: "6055dd9fd8ffe63bc4cce924539c1eae6f2a86405c575d6e3d5079a7109c882f"
+  url: http://reports.oah.state.nc.us/ncac/title%2009%20-%20governor%20and%20lt.%20governor/chapter%2006%20-%20office%20of%20information%20and%20technology%20services/subchapter%20d/subchapter%20d%20rules.html
+  format: html
+  citation: 09 NCAC Subchapter 06D
+  title: Subchapter 06D – Government Data Analytics Center
+  doc_type: rule
+  jurisdiction: north-carolina
+  issuing_body: Office of Administrative Hearings (rules of the Department of Information Technology)
+  tags: [data, governance]
+  recheck: monthly
+  why_relevant: 'The Government Data Analytics Center''s rules for the North Carolina Education Longitudinal Data System: definitions, the data request process, and the data sharing agreements that contributors and requestors must sign.'
+
+- id: nc-eo-24
+  sha256: "5371b00322d3fa75b3042dd7c493d10550c4910b07650c6dccb33a62c8ce594b"
+  url: https://governor.nc.gov/executive-order-no-24-advancing-trustworthy-artificial-intelligence-benefits-all-north-carolinians/open
+  format: pdf
+  citation: Executive Order No. 24
+  title: 'Executive Order No. 24: Advancing Trustworthy Artificial Intelligence That Benefits All North Carolinians'
+  doc_type: executive_order
+  jurisdiction: north-carolina
+  issuing_body: Office of the Governor
+  tags: [ai, governance]
+  recheck: monthly
+  why_relevant: 'Governor Stein''s September 2, 2025 order on artificial intelligence in state government: the North Carolina AI Leadership Council, the AI Accelerator in the Department of Information Technology, AI oversight teams in each agency, and the AI literacy and fraud prevention training program. The official PDF is an image-only scan, read by OCR.'
+  ocr: true
+
+- id: nc-ai-responsible-use-framework
+  sha256: "b6007879e38e03258aee14d0c469e33ed474772a0745f6fa86c3a6228ce03fb7"
+  url: https://it.nc.gov/documents/nc-state-government-responsible-use-artificial-intelligence-framework/download?attachment
+  format: pdf
+  citation: 'NCDIT: North Carolina State Government Responsible Use of Artificial Intelligence Framework'
+  title: North Carolina State Government Responsible Use of Artificial Intelligence Framework
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [ai, governance, data]
+  recheck: monthly
+  why_relevant: 'The statewide framework for state agencies'' use of artificial intelligence: principles and practices, the AI inventory, risk assessment and privacy requirements.'
+  identity_text: Responsible Use of Artificial Intelligence
+
+- id: nc-gen-ai-use-policy
+  sha256: "26c25009d3cad526f003db1bf3c1b63b10794279a837fcf333ae16438493bb06"
+  url: https://it.nc.gov/documents/use-publicly-available-generative-artificial-intelligence/download?attachment
+  format: pdf
+  citation: 'NCDIT: Use of Publicly Available Generative Artificial Intelligence'
+  title: Use of Publicly Available Generative Artificial Intelligence
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [ai, data, cybersecurity]
+  recheck: monthly
+  why_relevant: 'The statewide policy on employees'' use of publicly available generative AI tools: what may not be entered, review of output, registration and privacy settings.'
+  identity_text: Use of Publicly Available Generative
+
+- id: nc-it-procurement-manual
+  sha256: "1eef6f4222ff03e2d65fa155ff12c2356f50937a5086c92b78ff69b97d13b5bb"
+  url: https://it.nc.gov/documents/it-procurement-policies-procedures/download?attachment
+  format: docx
+  citation: 'NCDIT: IT Procurement Policies & Procedures'
+  title: IT Procurement Policies & Procedures
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [procurement]
+  recheck: monthly
+  why_relevant: 'The Statewide IT Procurement Office''s manual for agencies: delegation, the procurement process, types of purchases, term contracts, cooperative purchasing and competitive procurement under G.S. 143B-1350 and 09 NCAC 06B. The index row is dated July 2017; the file prints ''Revised April 2025''.'
+  identity_text: Procurement Policies and Procedures Manual
+
+- id: nc-gsa-contract-purchasing
+  sha256: "b2e6e5c8499db66598e6f7e0cc4bf718164d73c3796c9b01abb514fa77b4bd01"
+  url: https://it.nc.gov/documents/statewide-policies/gsa-ordering-procedures/download?attachment
+  format: pdf
+  citation: 'NCDIT: U.S. General Services Administration Contract Purchasing Procedures'
+  title: U.S. General Services Administration Contract Purchasing Procedures
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [procurement]
+  recheck: monthly
+  why_relevant: Procedures for state agencies' purchases of information technology under a U.S. General Services Administration schedule, under G.S. 143B-1350(c)(4) and 09 NCAC 06B .1006. Listed on NCDIT's IT Procurement Policies & Procedures page, not on the State IT Policies page.
+  identity_text: GSA Contract Purchasing Procedures for North Carolina
+
+- id: nc-it-procurement-pressing-needs
+  sha256: "d6acd6eec5061efbe2c001b0c139855267986eac04232b93cb35c799f1d1bb8b"
+  url: https://it.nc.gov/resources/statewide-it-procurement/it-procurement-policies-procedures/it-procurement-guidance-pressing-needs
+  format: html
+  citation: 'NCDIT: IT Procurement Guidance for Pressing Needs'
+  title: IT Procurement Guidance for Pressing Needs
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [procurement]
+  recheck: monthly
+  why_relevant: Procedure for buying information technology goods and services in a state of emergency or a pressing need, under G.S. 143B-1350 and 09 NCAC 06B .1302. The instrument is a web page, with no file behind it.
+
+- id: nc-third-party-cloud-service-risk
+  sha256: "0e4093b30e0e9724eeadf751dcb9fdceb4450375378e5bb86ffc6a6f861ca8b9"
+  url: https://it.nc.gov/documents/statewide-policies/third-party-cloud-service-risk-authorization-management/open
+  format: pdf
+  citation: 'NCDIT: Third-Party Cloud Service Risk Authorization & Management'
+  title: Third-Party Cloud Service Risk Authorization & Management
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, cloud-resilience, procurement]
+  recheck: monthly
+  why_relevant: The Statewide Information Security Manual supplement that sets the risk authorization (GovRAMP) requirements for third-party cloud services used by executive branch agencies, effective for new contracts from April 1, 2026. Linked from NCDIT's GovRAMP adoption page, not from the State IT Policies page.
+  identity_text: Third-Party Cloud Service Risk Authorization
+
+- id: nc-clean-desk-procedure
+  sha256: "763ef0fa7da258c29f36fb8e0d03d77d567817cd9466ed54a9558740b2aa2527"
+  url: https://it.nc.gov/documents/clean-desk-procedure/download?attachment
+  format: pdf
+  citation: 'NCDIT: Clean Desk Procedure'
+  title: Clean Desk Procedure
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [data, cybersecurity]
+  recheck: monthly
+  why_relevant: The statewide procedure for keeping sensitive information and devices secured at workstations.
+
+- id: nc-fipp-memo
+  sha256: "f00fc98e06c78e90d266876aaccc3e3cb9c2f3a386cc03b4e9816f1b5f93ed21"
+  url: https://it.nc.gov/documents/files/state-adoption-fair-information-practice-principles/download?attachment
+  format: pdf
+  citation: 'NCDIT: State Adoption of Fair Information Practice Principles'
+  title: State Adoption of Fair Information Practice Principles
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [data]
+  recheck: monthly
+  why_relevant: The Chief Privacy Officer's memorandum adopting the Fair Information Practice Principles for state agencies under G.S. 143B-1376.
+  identity_text: Adoption of the Fair Information Practice Principles
+
+- id: nc-data-classification-policy
+  sha256: "d3d541a77879413c786dc0993d32f16521fee723fc6eddcc3b358366ca968c16"
+  url: https://it.nc.gov/documents/statewide-policies/statewide-data-classification-handling-policy/download?attachment
+  format: pdf
+  citation: 'NCDIT: Statewide Data Classification & Handling Policy'
+  title: Statewide Data Classification & Handling Policy
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [data, cybersecurity]
+  recheck: monthly
+  why_relevant: The statewide policy that classifies state data and sets how each class is handled.
+  identity_text: Data Classification and Handling Policy
+
+- id: nc-privacy-data-protection-policy
+  sha256: "b84e1f28293a83d6049634a4fed542486a615edd987bce722efcdac44a8b9f9f"
+  url: https://it.nc.gov/documents/statewide-data-protection-policy/download?attachment
+  format: pdf
+  citation: 'NCDIT: Statewide Privacy & Data Protection Policy'
+  title: Statewide Privacy & Data Protection Policy
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [data]
+  recheck: monthly
+  why_relevant: The statewide policy on privacy and data protection for executive branch agencies.
+  identity_text: Privacy & Data Protection Policy
+
+- id: nc-pta-pia-procedure
+  sha256: "12363baa68d72ada71d9fbad063d5e3a71d5c8fbfe05bdcfead7d61e1ed219d7"
+  url: https://it.nc.gov/documents/statewide-pta-pia-procedure/download?attachment
+  format: pdf
+  citation: 'NCDIT: Statewide Privacy Threshold Analysis & Privacy Impact Assessment Procedure'
+  title: Statewide Privacy Threshold Analysis & Privacy Impact Assessment Procedure
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [data, ai]
+  recheck: monthly
+  why_relevant: The statewide procedure for the privacy threshold analysis and privacy impact assessment of systems, including those that use AI.
+  identity_text: Privacy Threshold Analysis (PTA) and Privacy Impact Assessment (PIA)
+
+- id: nc-pta-pia-guide-agencies
+  sha256: "27df67d50ce838caa41cb5b3577e191c2ab72661bff2fe1e46ae2ef2f91093b6"
+  url: https://it.nc.gov/documents/pta-pia-user-guide-state-agencies/download?attachment
+  format: pdf
+  citation: 'NCDIT: PTA & PIA User Guide for State Agencies'
+  title: PTA & PIA User Guide for State Agencies
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [data]
+  recheck: monthly
+  why_relevant: The user guide for state agencies completing the privacy threshold analysis and privacy impact assessment. Listed by the index as a policy-library row; kept as a procedural document of the privacy threshold analysis process (owner decision, recorded in the left-out note on the State IT Policies page).
+  identity_text: User Guide for State Agencies
+
+- id: nc-pta-pia-guide-ncdit
+  sha256: "d01edd965896b3e0162482f56a0cfff478de57ea7ef36c46ffe94f40b35cf175"
+  url: https://it.nc.gov/documents/pta-pia-user-guide-ncdit-employees/download?attachment
+  format: pdf
+  citation: 'NCDIT: PTA & PIA User Guide for NCDIT Employees'
+  title: PTA & PIA User Guide for NCDIT Employees
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [data]
+  recheck: monthly
+  why_relevant: The user guide for NCDIT employees reviewing the privacy threshold analysis and privacy impact assessment. Listed by the index as a policy-library row; kept as a procedural document of the privacy threshold analysis process (owner decision, recorded in the left-out note on the State IT Policies page).
+  identity_text: User Guide for NCDIT Employees
+
+- id: nc-continuous-monitoring-plan-2016
+  sha256: ''
+  url: https://it.nc.gov/documents/files/2016-continuous-monitoring-plan-memo/download?attachment
+  format: pdf
+  citation: 'NCDIT: Continuous Monitoring Plan (2016)'
+  title: Continuous Monitoring Plan (2016)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: The 2016 memorandum on the statewide continuous monitoring plan for agency security. The index spells the title 'Continuous Monitoring Plam (2016)'. An image-only scan.
+  stub: true
+  stub_reason: 'An image-only scan (7 pages, pdftotext finds no text on any page), so it needs the two-engine OCR procedure, and that procedure refused it on 2026-11-11: tesseract and PaddleOCR agree on the words but on only 88% of the 95 figures (the bar is 90%), so the numbers (section numbers, dates, citations) are contested and the reading cannot be promoted. Becomes a document when a text copy is published or the scan is re-read by a better engine. Source: the file the State IT Policies page links.'
+
+- id: nc-continuous-monitoring-plan-2018
+  sha256: "6eee0ec17d155314ed31c5a007467d89ea0c59700141182b1f8303250137b0aa"
+  url: https://it.nc.gov/documents/files/2018-guidance-annual-legislative-reporting-security/download?attachment
+  format: pdf
+  citation: 'NCDIT: Continuous Monitoring Plan (2018)'
+  title: Continuous Monitoring Plan (2018)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: The 2018 guidance on the continuous monitoring plan and annual legislative reporting on security. An image-only scan, read by OCR.
+  identity_text: Annual Legislative Reporting of Security Assessment and Compliance
+  ocr: true
+
+- id: nc-high-risk-applications-policy
+  sha256: "e6a9064f9682b136bbead31b109120b4bf2d446bffb403d6070c7c32142710f6"
+  url: https://it.nc.gov/documents/policies/high-risk-applications-policy/download?attachment
+  format: pdf
+  citation: 'NCDIT: High-Risk Applications Policy'
+  title: High-Risk Applications Policy
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, ai]
+  recheck: monthly
+  why_relevant: The statewide security policy on the use of high-risk applications, including the DeepSeek and other applications named as high risk.
+  identity_text: Use of High-Risk Applications Policy
+
+- id: nc-mandatory-https-memo
+  sha256: "b12460a30794d5ba44b993206a2258b42444a4961703938f5869942ff95b4cd0"
+  url: https://it.nc.gov/documents/files/mandatory-https-public-sites-memo/download?attachment
+  format: pdf
+  citation: 'NCDIT: Mandatory HTTPS for Public Sites'
+  title: Mandatory HTTPS for Public Sites
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, digital-services]
+  recheck: monthly
+  why_relevant: The 2018 memorandum requiring HTTPS on state public websites. An image-only scan, read by OCR.
+  identity_text: Mandatory Use of HTTPS for Publicly Accessible Websites
+  ocr: true
+
+- id: nc-mobile-device-management-policy
+  sha256: "a3476f56f1aced6be2e17be4f43af29481167d0b3e9e278f7a4143e559ad066c"
+  url: https://it.nc.gov/documents/statewide-policies/mobile-device-management-policy/download?attachment
+  format: pdf
+  citation: SCIO-SEC-321-00
+  title: Mobile Device Management Policy
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: The statewide policy on state-issued and personal mobile devices that connect to or store state information (SCIO-SEC-321-00).
+  identity_text: SCIO-SEC-321-00
+
+- id: nc-secure-cloud-storage-phase-1
+  sha256: ''
+  url: https://it.nc.gov/documents/files/secure-cloud-storage-policy/download?attachment
+  format: pdf
+  citation: 'NCDIT: Secure Cloud Storage, File Sharing and Collaboration - Phase I'
+  title: Secure Cloud Storage, File Sharing and Collaboration - Phase I
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, cloud-resilience]
+  recheck: monthly
+  why_relevant: The January 2017 memorandum on secure cloud storage, file sharing and collaboration, phase I. An image-only scan.
+  stub: true
+  stub_reason: 'An image-only scan (3 pages, no text layer), refused by the two-engine OCR procedure on 2026-11-11: tesseract and PaddleOCR agree on the words but on only 84% of the 19 figures (the bar is 90%), so the dates and numbers are contested and the reading cannot be promoted. Becomes a document when a text copy is published or the scan is re-read by a better engine.'
+
+- id: nc-secure-cloud-storage-phase-2
+  sha256: "96e241128c3d8d33c5afc977cec453a7fbb53271d138adb1c0693aaaf44711a9"
+  url: https://it.nc.gov/documents/files/secure-cloud-storage-and-file-sharing-phase-ii/download?attachment
+  format: pdf
+  citation: 'NCDIT: Secure Cloud Storage, File Sharing and Collaboration - Phase II'
+  title: Secure Cloud Storage, File Sharing and Collaboration - Phase II
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, cloud-resilience]
+  recheck: monthly
+  why_relevant: The February 2018 memorandum on secure cloud storage, file sharing and collaboration, phase II. An image-only scan, read by OCR.
+  ocr: true
+
+- id: nc-securing-multifunctional-devices
+  sha256: "0c4faec755cd7c754a57a3be4fb2c82e3a440d9ceffe9ab97144cc5a0130e12d"
+  url: https://it.nc.gov/documents/files/securing-multifunctional-devices-mfds/download?attachment
+  format: pdf
+  citation: 'NCDIT: Securing Multifunctional Devices (MFDs) and Network Printers'
+  title: Securing Multifunctional Devices (MFDs) and Network Printers
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: The February 2015 memorandum on securing multifunctional devices and network printers. An image-only scan, read by OCR.
+  ocr: true
+
+- id: nc-acceptable-use-policy
+  sha256: "f4d2074f4fe4fa660f595a9242164c127686e32775433e1badc90d242ca2eaed"
+  url: https://it.nc.gov/documents/statewide-policies/statewide-acceptable-use-policy-pdf/open
+  format: pdf
+  citation: 'NCDIT: Statewide Acceptable Use Policy'
+  title: Statewide Acceptable Use Policy
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, data, ai]
+  recheck: monthly
+  why_relevant: The statewide acceptable use policy for state information technology resources, version 1.2 of March 2026. The index row (dated January 2025) links a page offering a Word and a PDF copy; the PDF is taken.
+  identity_text: Acceptable Use Policy
+
+- id: nc-nist-rmf-adoption-memo
+  sha256: "a59edb35ea4ff9f0565f8fbcf9d5ffc4f1c04b57a13bb6cbc44a4479fb4773be"
+  url: https://it.nc.gov/documents/statewide-policies/state-adoption-nist-risk-management-framework/download?attachment
+  format: pdf
+  citation: 'NCDIT: State Adoption of NIST Risk Management Framework'
+  title: State Adoption of NIST Risk Management Framework
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: The State Chief Risk Officer's April 20, 2022 memorandum adopting NIST SP 800-37 Rev. 2 and SP 800-53 Rev. 5 as the statewide standard.
+  identity_text: Adoption of NIST SP 800-37 Rev. 2
+
+- id: nc-it-glossary
+  sha256: "17e3fbbd93e0e03387c1def5e735c7880addc5b73a0b210f4c910fd7781ea94f"
+  url: https://it.nc.gov/documents/statewide-glossary-information-technology-terms/download?attachment
+  format: pdf
+  citation: 'NCDIT: Statewide Glossary of Information Technology Terms'
+  title: Statewide Glossary of Information Technology Terms
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [governance]
+  recheck: monthly
+  why_relevant: The defined terms the statewide policies use. Listed as a policy-library row.
+
+- id: nc-international-travel-policy
+  sha256: "baf88c3f65e103914284a9f899114d1a059c55de66ce91dabad3707348f47fb8"
+  url: https://it.nc.gov/documents/statewide-policies/ncdit-international-travel-guidelines/download?attachment
+  format: pdf
+  citation: SCIO-SEC-320
+  title: Statewide International Travel Policy
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: The statewide policy on information security for devices and data taken on international travel (SCIO-SEC-320).
+  identity_text: International Travel
+
+- id: nc-organizational-threat-management-policy
+  sha256: "20d07433de9fe6d79830783694fc1d61c568da49c8c7ce07a717301e9b329eb8"
+  url: https://it.nc.gov/documents/statewide-organizational-threat-management-policy/download?attachment
+  format: pdf
+  citation: 'NCDIT: Statewide Organizational Threat Management Policy'
+  title: Statewide Organizational Threat Management Policy
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, data]
+  recheck: monthly
+  why_relevant: The statewide policy on organizational threat management, from the Office of Privacy and Data Protection.
+
+- id: nc-corrective-action-plan-instructions
+  sha256: "ddf9707069649585b268f93276ce37d3ea2f2718c70f6a7709720ec9fd874434"
+  url: https://it.nc.gov/documents/files/corrective-action-plan-instructions/open
+  format: pdf
+  citation: 'NCDIT: Corrective Action Plan (CAP) Instructions'
+  title: Corrective Action Plan (CAP) Instructions
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, oversight]
+  recheck: monthly
+  why_relevant: The July 2016 instructions for the corrective action plan an agency files for security findings. The page's other file, the plan template, is a workbook and is left out.
+  identity_text: Corrective Action Plan (CAP)
+
+- id: nc-statewide-information-security-manual
+  sha256: "1fd9dec17dbe323602ea7d4c1b7195db919acafd3232ad61533ffaf1ae591106"
+  url: https://it.nc.gov/documents/statewide-policies/statewide-information-security-manual/download?attachment
+  format: pdf
+  citation: 'NCDIT: Statewide Information Security Manual'
+  title: Statewide Information Security Manual
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: The foundation of information security for state agencies under G.S. 143B-1376, March 2025, the signed manual that frames the SCIO-SEC policies. The index calls it 'Statewide Information Security Manual' (March 2025).
+  identity_text: Statewide Information Security Manual
+
+- id: nc-scio-sec-301
+  sha256: "3d4b1dca692efb8bbd93dbd678b9ed5baddd4f848cac9e2c25763b49fe76decf"
+  url: https://it.nc.gov/documents/statewide-policies/scio-access-control/download?attachment
+  format: pdf
+  citation: SCIO-SEC-301
+  title: Access Control Policy (AC)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-301), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-301
+
+- id: nc-scio-sec-302
+  sha256: "4b8f412bed00a322970950cd90f89a018bb171b3527c66a23e4e12ee7f4a7689"
+  url: https://it.nc.gov/documents/statewide-policies/scio-security-awareness-training/download?attachment
+  format: pdf
+  citation: SCIO-SEC-302
+  title: Awareness and Training Policy (AT)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-302), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-302
+
+- id: nc-scio-sec-303
+  sha256: "635da26279b2a13c88c215f5a71e0e70bac7a5429da9b68e5bdd9b805b3a0b4f"
+  url: https://it.nc.gov/documents/statewide-policies/scio-audit-accountability/download?attachment
+  format: pdf
+  citation: SCIO-SEC-303
+  title: Audit and Accountability Policy (AU)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-303), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-303
+
+- id: nc-scio-sec-304
+  sha256: "9a506886249e516b22a832c92e66a5e0079a8f4b852b9ecf3493d1bc47890844"
+  url: https://it.nc.gov/documents/statewide-policies/scio-security-assessment-authorization/download?attachment
+  format: pdf
+  citation: SCIO-SEC-304
+  title: Security Assessment and Authorization Policy (CA)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-304), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-304
+
+- id: nc-scio-sec-305
+  sha256: "efd1572836e40f6d41d4c91c38314f7c0cefca1825644fb70646d4ef5026bd2c"
+  url: https://it.nc.gov/documents/statewide-policies/scio-configuration-management/download?attachment
+  format: pdf
+  citation: SCIO-SEC-305
+  title: Configuration Management Policy (CM)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-305), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-305
+
+- id: nc-scio-sec-306
+  sha256: "abce7126f5b989be34e3e27da91487930cc86ed6ef282242ee179e3b441838d3"
+  url: https://it.nc.gov/documents/statewide-policies/scio-contingency-planning/download?attachment
+  format: pdf
+  citation: SCIO-SEC-306
+  title: Contingency Planning Policy (CP)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-306), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-306
+
+- id: nc-scio-sec-307
+  sha256: "7d65bceb2dd139211f7e4a6e05aec417ef467f66ac18f3e21a6c6f9f012485ac"
+  url: https://it.nc.gov/documents/statewide-policies/scio-identification-and-authentication/download?attachment
+  format: pdf
+  citation: SCIO-SEC-307
+  title: Identification and Authentication Policy (IA)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-307), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-307
+
+- id: nc-scio-sec-308
+  sha256: "d4f45cb7e1b01e77d3b6a283c7d8b3847530c6fe35f111b9d459018fd23f4fd6"
+  url: https://it.nc.gov/documents/statewide-policies/scio-incident-response/download?attachment
+  format: pdf
+  citation: SCIO-SEC-308
+  title: Incident Response Policy (IR)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-308), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-308
+
+- id: nc-scio-sec-309
+  sha256: "b9c854248d1d5844ee96b2aa0166ec2d7798684467d5507125b36b94c7f034ac"
+  url: https://it.nc.gov/documents/statewide-policies/scio-maintenance/download?attachment
+  format: pdf
+  citation: SCIO-SEC-309
+  title: Maintenance Policy (MA)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-309), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-309
+
+- id: nc-scio-sec-310
+  sha256: "22e44b8594eedd20d68953a3cc6832da18ecabac1cf615ff5e1aab808ef73b91"
+  url: https://it.nc.gov/documents/statewide-policies/scio-media-protection/download?attachment
+  format: pdf
+  citation: SCIO-SEC-310
+  title: Media Protection Policy (MP)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-310), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-310
+
+- id: nc-scio-sec-311
+  sha256: "a12a93f30febb7aadd93114a376767570976e67012066e5b96db7faefcaaae79"
+  url: https://it.nc.gov/documents/statewide-policies/scio-personnel-security/download?attachment
+  format: pdf
+  citation: SCIO-SEC-311
+  title: Personnel Security Policy (PS)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-311), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-311
+
+- id: nc-scio-sec-312
+  sha256: "ffabcea26bc1cc6d6184ad3716c944c0d92265a7952c87046b71b87f6eb04b46"
+  url: https://it.nc.gov/documents/statewide-policies/scio-security-planning/download?attachment
+  format: pdf
+  citation: SCIO-SEC-312
+  title: Security Planning Policy (PL)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-312), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-312
+
+- id: nc-scio-sec-313
+  sha256: "8509237e16402a45f2b62d3a2db7b6cb9019dc2bf51869634a592cee1450df24"
+  url: https://it.nc.gov/documents/statewide-policies/scio-physical-and-environmental-protection/download?attachment
+  format: pdf
+  citation: SCIO-SEC-313
+  title: Physical and Environmental Protection Policy (PE)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-313), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-313
+
+- id: nc-scio-sec-314
+  sha256: "525ca80ead1db119b8c8d8c02d173a4c98d770a7f94ba683f7eba435e0291eec"
+  url: https://it.nc.gov/documents/statewide-policies/scio-risk-assessment/download?attachment
+  format: pdf
+  citation: SCIO-SEC-314
+  title: Risk Assessment Policy (RA)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-314), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-314
+
+- id: nc-scio-sec-315
+  sha256: "c2f9ce1e899489faed1ec3e32f87522d95d801cc75986a271d0a5a628e07337d"
+  url: https://it.nc.gov/documents/statewide-policies/scio-system-and-service-acquisition/download?attachment
+  format: pdf
+  citation: SCIO-SEC-315
+  title: System and Services Acquisition Policy (SA)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-315), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-315
+
+- id: nc-scio-sec-316
+  sha256: "0eeae6d37a46a24887f05ea23fe587d74e6f49d5414283a90ffd0c1c1244db36"
+  url: https://it.nc.gov/documents/statewide-policies/scio-system-and-communications-protection/download?attachment
+  format: pdf
+  citation: SCIO-SEC-316
+  title: System and Communications Protection Policy (SC)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-316), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-316
+
+- id: nc-scio-sec-317
+  sha256: "5cd764ea9b913e91c42193415d7668c67c0aa45d25a6b7a14ee7cb198ced67eb"
+  url: https://it.nc.gov/documents/statewide-policies/scio-system-and-information-integrity/download?attachment
+  format: pdf
+  citation: SCIO-SEC-317
+  title: System and Information Integrity Policy (SI)
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-317), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-317
+
+- id: nc-scio-sec-318
+  sha256: "9cd00816a2b2ba83008605e36dbb4ce0799b75bf3ab07ee5d49ad4123963701d"
+  url: https://it.nc.gov/documents/statewide-policies/scio-supply-chain-risk-management/download?attachment
+  format: pdf
+  citation: SCIO-SEC-318
+  title: Supply Chain Risk Management
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: One of the 18 Statewide Information Security Policies (SCIO-SEC-318), each aligned to a NIST SP 800-53 Rev. 5 control family and binding executive branch agencies under G.S. 143B-1376.
+  identity_text: SCIO-SEC-318
+
+- id: nc-application-data-integration-standard
+  sha256: "58992a833a782e6ae3bcc7f4ed355715e3e2c0c7db36bd6d3aa0544b29905dcc"
+  url: https://it.nc.gov/documents/applicationdata-integration-standard/download?attachment
+  format: pdf
+  citation: 'NCDIT: Application/Data Integration Standard'
+  title: Application/Data Integration Standard
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cloud-resilience, data]
+  recheck: monthly
+  why_relevant: The statewide standard for application and data integration (middleware).
+
+- id: nc-copilot-m365-policy
+  sha256: "127f7f410421bafdb5940145c697a0d6a6baa6957b0054844a2e291c04bf8b02"
+  url: https://it.nc.gov/documents/copilot-microsoft-365-policy/open
+  format: pdf
+  citation: 'NCDIT: Copilot for Microsoft 365'
+  title: Copilot for Microsoft 365
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [ai, cybersecurity]
+  recheck: monthly
+  why_relevant: The statewide policy on agency use of Microsoft 365 Copilot, version 1.1 of February 26, 2025 (the index row is dated December 2024).
+  identity_text: Copilot for Microsoft 365 Policy
+
+- id: nc-digital-accessibility-usability-standard
+  sha256: "53b991ded28afff2b21aeb923ff5fab88c7ebd7a06c15e7cd902fa6db0c537ad"
+  url: https://it.nc.gov/documents/digital-accessibility-usability-standard/download?attachment
+  format: pdf
+  citation: 'NCDIT: Digital Accessibility & Usability Standard'
+  title: Digital Accessibility & Usability Standard
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [digital-services]
+  recheck: monthly
+  why_relevant: The statewide standard for the accessibility and usability of state websites, applications and digital content.
+  identity_text: Digital Accessibility and Usability Standard
+
+- id: nc-former-email-mailbox-policy
+  sha256: "cd9c3377aef64feab1cc15b6898bd659e91dbbde4ac6282d05bdfbc12de93d98"
+  url: https://it.nc.gov/documents/former-email-mailbox-policy/download?attachment
+  format: pdf
+  citation: 'NCDIT: Former Email Mailbox Policy'
+  title: Former Email Mailbox Policy
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [data, governance]
+  recheck: monthly
+  why_relevant: The statewide policy on what happens to a former employee's mailbox.
+  identity_text: Former Employee Mailbox Policy
+
+- id: nc-m365-agency-requirements-policy
+  sha256: "917988f5cf12595bc74bc783cc496104becafbd4056d57067e8d65035d279ac9"
+  url: https://it.nc.gov/documents/microsoft-365-agency-requirements-email-collaboration-services-policy/download?attachment
+  format: pdf
+  citation: 'NCDIT: Microsoft 365 Agency Requirements for Email and Collaboration Services'
+  title: Microsoft 365 Agency Requirements for Email and Collaboration Services
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, data, cloud-resilience]
+  recheck: monthly
+  why_relevant: The statewide policy on what agencies must do to use the state's Microsoft 365 email and collaboration services.
+  identity_text: Agency Requirements for Email and Collaboration Services Policy
+
+- id: nc-sl-2024-26-pornography-memo
+  sha256: "deb41ae01705046f20f06dfdce21df7637afa13008ab3d92ca6d7edb6d0d1878"
+  url: https://it.nc.gov/documents/sl-2024-26-memo/download?attachment
+  format: pdf
+  citation: 'NCDIT: Prohibition on Viewing Pornography on Government Networks & Devices'
+  title: Prohibition on Viewing Pornography on Government Networks & Devices
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: The State CIO's May 29, 2025 memorandum implementing S.L. 2024-26 (G.S. 143-805) for public agencies.
+  identity_text: Prohibition on Viewing Pornography on Government Networks and Devices
+
+- id: nc-143-805-reporting-memo
+  sha256: "512a83a727ec64ea2a0d7249a05ce9a3c30777e44f42ef52090e8546b232bab1"
+  url: https://it.nc.gov/documents/public-agency-reporting-requirements-under-ncgs-143-805/download?attachment
+  format: pdf
+  citation: 'NCDIT: Reporting Requirements for Public Agencies'
+  title: Reporting Requirements for Public Agencies
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: The State CIO's May 29, 2025 memorandum on the annual report public agencies owe under G.S. 143-805.
+  identity_text: Public Agency Reporting Requirements Under N.C.G.S. 143-805
+
+- id: nc-domain-management-guidelines
+  sha256: "311ddf84ad75e8607e7daa8c7032e6f831c4f88bda4022c09d73b4125c0e9130"
+  url: https://it.nc.gov/documents/files/domain-management-guidelines/download?attachment
+  format: pdf
+  citation: 'NCDIT: Domain Management Guidelines'
+  title: Domain Management Guidelines
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [digital-services, governance]
+  recheck: monthly
+  why_relevant: The statewide guidelines for domain names used by state government websites; DIT registers the second- and third-level .gov domains for the state.
+
+- id: nc-epmo-process
+  sha256: "baf36d40b8bb1e927ce8dba36f91376e2fa94ce3babb3b624ab77560239fd706"
+  url: https://it.nc.gov/documents/files/project-management-process/download?attachment
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Management Process'
+  title: Project Management Process
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A work instruction of the Enterprise Project Management Office: how information technology projects are managed, from the standards page''s IT Project Management list.'
+  identity_text: Project Management Process
+
+- id: nc-epmo-initiation
+  sha256: "5bb2c37317427f7186a16373c2c75c190190fadf3333d58681f53b2c2077b133"
+  url: https://it.nc.gov/documents/files/project-initiation/download?attachment
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Initiation'
+  title: Project Initiation
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A work instruction of the Enterprise Project Management Office: how information technology projects are managed, from the standards page''s IT Project Management list.'
+  identity_text: Project Initiation
+
+- id: nc-epmo-planning
+  sha256: "a25d5ad518821e01da4633efa56358dd62a91dcbee69e53a2e473adc857dd3a5"
+  url: https://it.nc.gov/project-planning-design/download?attachment
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Planning and Design'
+  title: Project Planning and Design
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A work instruction of the Enterprise Project Management Office: how information technology projects are managed, from the standards page''s IT Project Management list.'
+  identity_text: Project Planning and Design
+
+- id: nc-epmo-execution
+  sha256: "296853c9f77adefd015ccd4c65c26b8f40a8636808d861d2bd08a91e3b64bc6c"
+  url: https://it.nc.gov/documents/files/project-execution-and-build/download?attachment
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Execution and Build'
+  title: Project Execution and Build
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A work instruction of the Enterprise Project Management Office: how information technology projects are managed, from the standards page''s IT Project Management list.'
+  identity_text: Project Execution and Build
+
+- id: nc-epmo-closeout
+  sha256: "46a8c24be088d6beb8ecfa2f6ab4ff48733e0a1ae6a52074962077a9bbbcd904"
+  url: https://it.nc.gov/documents/files/project-closeout/download?attachment
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Closeout'
+  title: Project Closeout
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A work instruction of the Enterprise Project Management Office: how information technology projects are managed, from the standards page''s IT Project Management list.'
+  identity_text: Project Closeout
+
+- id: nc-epmo-roles-responsibilities
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-management-roles-responsibilities-authorities/download?attachment
+  format: pdf
+  citation: 0300-0300-005-A
+  title: Project Management Roles, Responsibilities and Authorities
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight, governance]
+  recheck: monthly
+  why_relevant: The Enterprise Project Management Office procedure on the roles, responsibilities and authorities of the Office and other participants in IT project management (document 0300-0300-005-A). The PDF has a text layer, but every "ti" ligature in it maps to no character.
+  identity_text: PROJECT MANAGEMENT ROLES
+  stub: true
+  stub_reason: 'The PDF has a text layer, and it is damaged: pdftotext prints 58 replacement characters on 43 lines where the "ti" ligature glyphs are ("Responsibili?es", "Authori?es", "par?cipants"), measured 2026-11-11 on the 4-page file (document 0300-0300-005-A, revision 1.2). Committing that text would not be the instrument. The shared OCR path refuses a PDF that has a text layer (ocrmypdf exit 6, PriorOcrFoundError: page already has text), so the page images cannot be read either. Becomes a document when the shared reader can force OCR on a page whose text layer is defective (see the PR body) or the agency republishes the file.'
+
+- id: nc-epmo-implementation
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-implementation/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Implementation'
+  title: Project Implementation
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: A process or work instruction of the Enterprise Project Management Office, listed on the standards page under IT Project Management.
+  identity_text: Project Implementation
+  stub: true
+  stub_reason: The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 on https://it.nc.gov/documents/files/project-implementation/open, and on the same path with /download?attachment and without a suffix). The reference tables of the seeded work instructions number it 0300-0340-005-C. Its sibling rows (Project Initiation, Planning and Design, Execution and Build, Closeout, Management Process) are Word work instructions of this kind and are seeded, so the row is a process document, not a form. Becomes a document when the agency restores the file.
+
+- id: nc-epmo-qa
+  sha256: ''
+  url: https://it.nc.gov/documents/files/quality-assurance-process/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Quality Assurance Process'
+  title: Quality Assurance Process
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: A process or work instruction of the Enterprise Project Management Office, listed on the standards page under IT Project Management.
+  identity_text: Quality Assurance Process
+  stub: true
+  stub_reason: The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 on https://it.nc.gov/documents/files/quality-assurance-process/open, and on the same path with /download?attachment and without a suffix). The reference tables of the seeded work instructions number it 0800-0800-005-B. Its sibling rows (Project Initiation, Planning and Design, Execution and Build, Closeout, Management Process) are Word work instructions of this kind and are seeded, so the row is a process document, not a form. Becomes a document when the agency restores the file.
+
+- id: nc-epmo-qc
+  sha256: ''
+  url: https://it.nc.gov/documents/files/quality-control-process/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Quality Control Process'
+  title: Quality Control Process
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: A process or work instruction of the Enterprise Project Management Office, listed on the standards page under IT Project Management.
+  identity_text: Quality Control Process
+  stub: true
+  stub_reason: The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 on https://it.nc.gov/documents/files/quality-control-process/open, and on the same path with /download?attachment and without a suffix). The reference tables of the seeded work instructions number it 0810-0810-005-B. Its sibling rows (Project Initiation, Planning and Design, Execution and Build, Closeout, Management Process) are Word work instructions of this kind and are seeded, so the row is a process document, not a form. Becomes a document when the agency restores the file.
+
+- id: nc-epmo-benefits-estimation
+  sha256: ''
+  url: https://it.nc.gov/documents/files/benefits-estimation/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Benefits Estimation (0300-0310-035-C)'
+  title: Benefits Estimation
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0310-035-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Benefits Estimation
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/benefits-estimation/open). The reference tables of the seeded work instructions (Project Management Process, Project Initiation) number it 0300-0310-035-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-cost-estimation
+  sha256: ''
+  url: https://it.nc.gov/documents/files/cost-estimation/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Cost Estimation (0300-0310-030-C)'
+  title: Cost Estimation
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0310-030-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Cost Estimation
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/cost-estimation/open). The reference tables of the seeded work instructions (Project Management Process, Project Initiation) number it 0300-0310-030-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-customer-feedback
+  sha256: ''
+  url: https://it.nc.gov/documents/files/customer-feedback/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Customer Feedback (0300-0395-005-C)'
+  title: Customer Feedback
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0395-005-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Customer Feedback
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/customer-feedback/open). The reference tables of the seeded work instructions (Project Management Process, Project Closeout) number it 0300-0395-005-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-lessons-learned
+  sha256: ''
+  url: https://it.nc.gov/documents/files/lessons-learned/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Lessons Learned (0300-0390-005-C)'
+  title: Lessons Learned
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0390-005-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Lessons Learned
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/lessons-learned/open). The reference tables of the seeded work instructions (Project Management Process, Project Closeout) number it 0300-0390-005-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-program-project-review
+  sha256: ''
+  url: https://it.nc.gov/documents/files/programproject-review/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Program/Project Review (0300-0375-005-C)'
+  title: Program/Project Review
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0375-005-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Program/Project Review
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/programproject-review/open). The reference tables of the seeded work instructions (Project Management Process, Project Management Process) number it 0300-0375-005-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-architecture-review
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-architecture-review/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Architecture Review (0300-0380-005-C)'
+  title: Project Architecture Review
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0380-005-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Architecture Review
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-architecture-review/open). The reference tables of the seeded work instructions (Project Management Process, Project Management Process) number it 0300-0380-005-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-assessment-type
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-assessment-type/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Assessment Type (0300-0310-020-C)'
+  title: Project Assessment Type
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0310-020-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Assessment Type
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-assessment-type/open). The reference tables of the seeded work instructions (Project Management Process, Project Initiation) number it 0300-0310-020-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-change-request
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-change-request/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Change Request (0300-0360-005-C)'
+  title: Project Change Request
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0360-005-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Change Request
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-change-request/open). The reference tables of the seeded work instructions (Project Management Process, Project Execution and Build) number it 0300-0360-005-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-charter
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-charter/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Charter (0300-0310-010-C)'
+  title: Project Charter
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0310-010-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Charter
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-charter/open). The reference tables of the seeded work instructions (Project Management Process, Project Initiation) number it 0300-0310-010-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-contract-award-recommendation
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-contract-award-recommendation/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Contract Award Recommendation (0300-0320-015-C)'
+  title: Project Contract Award Recommendation
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0320-015-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Contract Award Recommendation
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-contract-award-recommendation/open). The reference tables of the seeded work instructions (Project Management Process, Project Management Process) number it 0300-0320-015-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-financial-assessment
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-financial-assessment/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Financial Assessment (0300-0310-015-C)'
+  title: Project Financial Assessment
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0310-015-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Financial Assessment
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-financial-assessment/open). The reference tables of the seeded work instructions (Project Management Process, Project Initiation) number it 0300-0310-015-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-go-live-readiness-assessment
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-go-live-readiness-assessment/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Go-Live Readiness Assessment (0300-0330-010-C)'
+  title: Project Go-Live Readiness Assessment
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0330-010-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Go-Live Readiness Assessment
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-go-live-readiness-assessment/open). The reference tables of the seeded work instructions (Project Management Process, Project Execution and Build) number it 0300-0330-010-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-manager-assessment
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-manager-assessment/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Manager Assessment (0300-0310-025-C)'
+  title: Project Manager Assessment
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0310-025-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Manager Assessment
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-manager-assessment/open). The reference tables of the seeded work instructions (Project Management Process, Project Initiation) number it 0300-0310-025-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-peer-review
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-peer-review/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Peer Review (0300-0382-005-C)'
+  title: Project Peer Review
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0382-005-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Peer Review
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-peer-review/open). The reference tables of the seeded work instructions (Project Management Process, Project Management Process) number it 0300-0382-005-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-rfp-review
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-rfp-review/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project RFP Review (0300-0320-010-C)'
+  title: Project RFP Review
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0320-010-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project RFP Review
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-rfp-review/open). The reference tables of the seeded work instructions (Project Management Process, Project Management Process) number it 0300-0320-010-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-security-review
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-security-review/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Security Review (0300-0381-005-C)'
+  title: Project Security Review
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0381-005-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Security Review
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-security-review/open). The reference tables of the seeded work instructions (Project Management Process, Project Management Process) number it 0300-0381-005-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-epmo-weekly-status-report
+  sha256: ''
+  url: https://it.nc.gov/documents/files/project-weekly-status-report/open
+  format: docx
+  citation: 'NCDIT Enterprise Project Management Office: Project Weekly Status Report (0300-0370-005-C)'
+  title: Project Weekly Status Report
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'A Quality Work Instruction of the Enterprise Project Management Office, document 0300-0370-005-C (the "-C" suffix marks a Quality Work Instruction in the reference tables of the seeded work instructions), listed on the standards page under IT Project Management.'
+  identity_text: Project Weekly Status Report
+  stub: true
+  stub_reason: 'The standards page links this row, and the link answers HTTP 404 (measured 2026-11-11 through the Fetcher on https://it.nc.gov/documents/files/project-weekly-status-report/open). The reference tables of the seeded work instructions (Project Management Process, Project Closeout) number it 0300-0370-005-C; the "-C" suffix is the number of a Quality Work Instruction, as for the seeded Project Initiation, Planning and Design, Execution and Build and Closeout, so the row is a process document, not a form. Its content was not seen. Becomes a document when the agency restores the file.'
+
+- id: nc-gis-water-sewer-data-standard
+  sha256: "200e321c9cc3fdf803c59ae6ee62fb9492450fd04893d949caea408d04e59d11"
+  url: https://it.nc.gov/geographic-data-content-standard-water-distribution-and-sanitary-sewer-systems/download?attachment
+  format: pdf
+  citation: 'NC GIS standard: Geographic Data Content Standard for Water Distribution and Sanitary Sewer Systems'
+  title: Geographic Data Content Standard for Water Distribution and Sanitary Sewer Systems
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: Geographic Information Coordinating Council (published by NCDIT)
+  tags: [data]
+  recheck: monthly
+  why_relevant: The data content standard adopted by the Geographic Information Coordinating Council on December 4, 1997 (version 3.1). Linked on the standards page as /geographic-data-content-standard-water-distribution-and-sanitary-sewer-systems.
+  identity_text: Geographic Data Content Standard for
+
+- id: nc-gis-parcel-data-standard
+  sha256: "70d725ce52550a4ca1dc1c1e9d82a7027a6398049dab3a7a54e17be90a01ea4f"
+  url: https://it.nc.gov/documents/files/nc-parcel-data-standard-revision-2016/download?attachment
+  format: pdf
+  citation: 'NC GIS standard: NC Parcel Data Standard Revision (2016)'
+  title: NC Parcel Data Standard Revision (2016)
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: Geographic Information Coordinating Council (published by NCDIT)
+  tags: [data]
+  recheck: monthly
+  why_relevant: The statewide standard for the content elements of core geospatial parcel data (version 2, adopted August 10, 2016), by the Statewide Mapping Advisory Committee.
+  identity_text: Content Elements for Statewide Publication of Core Geospatial Parcel Data
+
+- id: nc-gis-metadata-profile
+  sha256: "e68685d91469183a12a3468955853537d214fb57a3a5a6bb5d3765f3da28b2f4"
+  url: https://it.nc.gov/documents/files/gicc-smac-state-local-gov-metadata-profile20161230-rev1/download?attachment
+  format: pdf
+  citation: 'NC GIS standard: State and Local Government GIS Metadata Profile'
+  title: State and Local Government GIS Metadata Profile
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: Geographic Information Coordinating Council (published by NCDIT)
+  tags: [data]
+  recheck: monthly
+  why_relevant: The state and local government metadata profile for geospatial data and services (December 30, 2016 version, adopted November 20, 2014). The standards page lists two files with this content; the other differs only in two web addresses and is left out as a duplicate.
+  identity_text: Metadata Profile for
+
+- id: nc-gis-lidar-specification
+  sha256: "c1df0254706462405965140baa26a1b2ad20b3be443dd7256f39969bdf858c97"
+  url: https://it.nc.gov/documents/files/north-carolina-technical-specification-lidar-base-mapping/download?attachment
+  format: pdf
+  citation: 'NC GIS standard: North Carolina Technical Specification for LiDAR Base Mapping'
+  title: North Carolina Technical Specification for LiDAR Base Mapping
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: Land Records Management Division, North Carolina Secretary of State (published by NCDIT)
+  tags: [data]
+  recheck: monthly
+  why_relevant: The technical specification for LiDAR base mapping (adopted January 30, 2013) by the Land Records Management Division of the Secretary of State.
+  identity_text: Technical Specifications for
+
+- id: nc-gis-orthophoto-specification
+  sha256: "77add726e14f75193402401702161f11d622e06a7317878d97f35de6c23f792d"
+  url: https://it.nc.gov/documents/files/north-carolina-technical-specifications-digital-orthophoto-base-mapping/download?attachment
+  format: pdf
+  citation: 'NC GIS standard: North Carolina Technical Specifications for Digital Orthophoto Base Mapping'
+  title: North Carolina Technical Specifications for Digital Orthophoto Base Mapping
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: Land Records Management Division, North Carolina Secretary of State (published by NCDIT)
+  tags: [data]
+  recheck: monthly
+  why_relevant: The technical specifications for digital orthophoto base mapping (December 11, 2014) by the Land Records Management Division of the Secretary of State.
+  identity_text: Digital Orthophoto Base Mapping
+
+- id: nc-gis-gnss-standards
+  sha256: "634182e28eea7e2d6e41d58dbba59b4e92db9d475f52bee8b6188ff50b8be008"
+  url: https://it.nc.gov/documents/files/statewide-global-navigation-satellite-system-gnss-data-collection-and-documentation/download?attachment
+  format: pdf
+  citation: 'NC GIS standard: Statewide Global Navigation Satellite System Data Collection and Documentation Standards'
+  title: Statewide Global Navigation Satellite System Data Collection and Documentation Standards
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: Geographic Information Coordinating Council (published by NCDIT)
+  tags: [data]
+  recheck: monthly
+  why_relevant: The statewide standards for GNSS data collection and documentation (version 4, March 2014), by the Statewide Mapping Advisory Committee.
+  identity_text: Data Collection and Documentation Standards
+
+- id: nc-watch-it-policies
+  sha256: ''
+  url: https://it.nc.gov/resources/state-it-policies
+  format: html
+  citation: 'NCDIT page: State IT Policies'
+  title: 'NCDIT: State IT Policies (index)'
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The statewide IT policy library, in five groups (Artificial Intelligence, IT Procurement, Privacy & Data Protection, Security, Technology) plus Annual Security Training. A policy added, replaced or removed raises a review-the-seed-list report.
+
+- id: nc-watch-it-standards
+  sha256: ''
+  url: https://it.nc.gov/resources/state-it-standards
+  format: html
+  citation: 'NCDIT page: State IT Standards'
+  title: 'NCDIT: State IT Standards (index)'
+  doc_type: standard
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The statewide IT standards library (domain management, geographic information services, identity and access management, IT project management, vendor engagement). A standard added, replaced or removed raises a review-the-seed-list report. The identity and access management standard is text on this page itself.
+
+- id: nc-watch-sism-policies
+  sha256: ''
+  url: https://it.nc.gov/programs/cybersecurity-risk-management/esrmo-initiatives/statewide-information-security-policies
+  format: html
+  citation: 'NCDIT page: Statewide Information Security Policies'
+  title: 'NCDIT: Statewide Information Security Policies (index)'
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [cybersecurity]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Statewide Information Security Manual and the 18 SCIO-SEC policies, a second listing of security policies that the State IT Policies page only partly repeats.
+
+- id: nc-watch-procurement-policies
+  sha256: ''
+  url: https://it.nc.gov/resources/statewide-it-procurement/it-procurement-policies-procedures
+  format: html
+  citation: 'NCDIT page: IT Procurement Policies & Procedures'
+  title: 'NCDIT: IT Procurement Policies & Procedures (index)'
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [procurement]
+  recheck: monthly
+  watch_only: true
+  why_relevant: Links the procurement manual, the IT procurement rules page, the GSA purchasing procedures and the pressing-needs guidance.
+
+- id: nc-watch-ai-policy
+  sha256: ''
+  url: https://it.nc.gov/programs/ai-policy
+  format: html
+  citation: 'NCDIT page: AI & Policy'
+  title: 'NCDIT: AI & Policy (program page)'
+  doc_type: policy
+  jurisdiction: north-carolina
+  issuing_body: North Carolina Department of Information Technology
+  tags: [ai]
+  recheck: monthly
+  watch_only: true
+  why_relevant: Where NCDIT links its AI framework, principles, generative AI guidance, inventory requirements and strategic roadmap; a new AI instrument would appear here.
+
+- id: nc-watch-governor-executive-orders
+  sha256: ''
+  url: https://governor.nc.gov/news/executive-orders
+  format: html
+  citation: Governor's executive order list
+  title: 'Governor of North Carolina: Executive Orders (list)'
+  doc_type: executive_order
+  jurisdiction: north-carolina
+  issuing_body: Office of the Governor
+  tags: [governance, ai]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Governor's list of executive orders (22 pages on 2026-11-11, 20 rows a page, January 2017 to the present); it shows the newest 20 on its first page, so the watch sees additions.
+
+- id: nc-watch-oah-title-09-chapter-06
+  sha256: ''
+  url: http://reports.oah.state.nc.us/ncac.asp?folderName=%5CTitle%2009%20-%20Governor%20and%20Lt.%20Governor%5CChapter%2006%20-%20Office%20of%20Information%20and%20Technology%20Services
+  format: html
+  citation: 'OAH page: 09 NCAC Chapter 06'
+  title: 'OAH: 09 NCAC Chapter 06, Office of Information and Technology Services (index)'
+  doc_type: rule
+  jurisdiction: north-carolina
+  issuing_body: Office of Administrative Hearings
+  tags: [procurement]
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Administrative Code index of the IT agency''s chapter: subchapters 06A and 06B and their rules.'
+
+- id: nc-eo-254
+  sha256: ''
+  url: https://governor.nc.gov/executive-order-no-254/open
+  format: pdf
+  citation: Executive Order No. 254
+  title: 'Executive Order No. 254: Establishment of the North Carolina Joint Cybersecurity Task Force'
+  doc_type: executive_order
+  jurisdiction: north-carolina
+  issuing_body: Office of the Governor
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: Governor Cooper's March 16, 2022 order establishing the Joint Cybersecurity Task Force (NCDIT's Enterprise Security and Risk Management Office, Emergency Management, the National Guard and the local government cybersecurity strike team) and the reporting of significant cybersecurity incidents. In effect until rescinded (Section 4); no order on the Governor's list rescinds it.
+  stub: true
+  stub_reason: 'The official PDF is a scan of the signed order carrying an embedded text layer that is itself poor OCR output: pdftotext reads the letterhead as ''fair nf nrf @arnlina'' and the body with dropped letters (''orth Carolina'', ''oflnformation Technology'', ''ational Guard''), measured 2026-11-11. Committing that layer would not be the order, and the shared OCR path refuses a PDF that already has a text layer (ocrmypdf PriorOcrFoundError), so it cannot be re-read. The Governor''s page for the order holds only the PDF. Becomes a document when the shared reader can force OCR on a defective text layer (see the PR body). In force: Section 4 says it remains in effect until rescinded, and no order on the list rescinds it.'
+
+- id: nc-eo-249
+  sha256: ''
+  url: https://governor.nc.gov/executive-order-no-249/open
+  format: pdf
+  citation: Executive Order No. 249
+  title: 'Executive Order No. 249: Establishing the North Carolina Longitudinal Data System Governance Board'
+  doc_type: executive_order
+  jurisdiction: north-carolina
+  issuing_body: Office of the Governor
+  tags: [data, governance]
+  recheck: monthly
+  why_relevant: Governor Cooper's February 15, 2022 order establishing the governance board of the North Carolina Longitudinal Data System, which the Government Data Analytics Center in NCDIT oversees (G.S. 143B-1385 and 09 NCAC 06D). In effect until December 31, 2029 unless rescinded earlier.
+  stub: true
+  stub_reason: 'The official PDF (4 pages, 729,504 bytes through the Fetcher, 2026-11-11, produced by Adobe Acrobat Pro DC Paper Capture) is a scan of the signed order carrying an embedded OCR text layer. Measured with pdftotext 24.02 -layout, the body reads cleanly but for a few errors, some in figures and citations: the letterhead is ''~faf£ of ~orf~ Qlarolina'', the statute chapter 116E is printed ''Chapter l 16E'', the year 2011 ''20 11'', ''Department oflnformation Technology'' runs words together, a quotation mark prints as two apostrophes in ''(''NCDIT"), ''06D. 0101'' has a stray space, and the Secretary of State''s attestation is ''all Elaine F. M ;''. The letters ''orth Carolina'' and ''ational Guard'' are intact (the wording of EO 254''s damage does not apply to this file). Committing a layer with errors in a citation and a year would not be the order, and the shared OCR path refuses a PDF that already has a text layer (ocrmypdf PriorOcrFoundError), so it cannot be re-read (ocrmypdf re-run 2026-11-11 on this file: PriorOcrFoundError). OWNER DECISION (borderline): take the layer as served, with these errors noted, as a document. Becomes a document when the shared reader can force OCR on a defective text layer (see the PR body). In force: Section 6 says it remains in effect until December 31, 2029, pursuant to G.S. 147-16.2(a), or until earlier rescinded or replaced.'
+
+- id: nc-eo-276
+  sha256: ''
+  url: https://governor.nc.gov/executive-order-no-276/open
+  format: pdf
+  citation: Executive Order No. 276
+  title: 'Executive Order No. 276: Prohibiting the Use of Certain Applications or Websites on State Information Technology'
+  doc_type: executive_order
+  jurisdiction: north-carolina
+  issuing_body: Office of the Governor
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: Governor Cooper's January 12, 2023 order directing the State CIO and the Department of Information Technology to set the policy that bars TikTok and WeChat on state agency information technology (the seeded High Risk Applications policy cites it as its authority). It remains in effect unless rescinded or replaced (Section 4); no order on the Governor's list rescinds it.
+  stub: true
+  stub_reason: 'The official PDF (3 pages, 531,186 bytes through the Fetcher, 2026-11-11) is a scan of the signed order carrying an embedded text layer that is poor OCR output, and the errors reach citations: pdftotext -layout reads the letterhead as ''~tatr of ~ort~ filarolina'', drops letters (''orth Carolina'' three times, ''.C. Gen. Stat.'', ''ofTikTok'' twice, ''ofNorth''), mistypes words (''signjficant'', ''commurucation'', ''Chjnese'', ''Mi litary'') and prints a statute citation of the form 143B-13nn(a) as ''143B-1 32 l(a)'', with spaces and a letter l among the digits. Committing that layer would not be the order, and the shared OCR path refuses a PDF that already has a text layer (ocrmypdf PriorOcrFoundError), so it cannot be re-read (ocrmypdf re-run 2026-11-11 on this file: PriorOcrFoundError). The Governor''s page for the order holds only the PDF. Becomes a document when the shared reader can force OCR on a defective text layer (see the PR body). In force: Section 4 says it is effective immediately and remains in effect unless rescinded or replaced, and no order on the list rescinds it.'
+
+left_out:
+- text: |-
+    ---- North Carolina: found and left out (each was seen on an official page on 2026-11-11 and read through the Fetcher; the reason is recorded here)
+- text: |-
+    State IT Policies page (https://it.nc.gov/resources/state-it-policies), reconciled row by row: 40 document links in its five groups and the Annual Security Training group, plus the related-column links to the AI program page and the IT Procurement Rules page. 30 are seeded as documents (counting the Statewide Acceptable Use Policy and the Corrective Action Plan rows, whose links open a page that offers the files), 2 are stubs (Continuous Monitoring Plan 2016 and Secure Cloud Storage Phase I, scans the two-engine OCR refused), 8 are left out:
+     - 'Telephony Policy – Direct Inward Dialed Number' (Enterprise Operations, version 1.0, November 26, 2024): a policy on the assignment of telephone numbers to the state telephone system, which is telecom; domain.yml scopes out 'broadband, 911 and telecom'. It was seeded in the first pass and is removed.
+     - OWNER DECISION, recorded for review: 'PTA & PIA User Guide for State Agencies' and 'PTA & PIA User Guide for NCDIT Employees' are listed by the index as policy-library rows and are seeded as procedural documents of the privacy threshold analysis and privacy impact assessment process (the procedure they serve is seeded). They are user guides, so the owner may prefer them left out as guidance.
+     - 'Continuous Monitoring Plan - Annual Assessment & Compliance Report Template' (Word, June 2018): a template for the agency's report, a form.
+     - 'ESRMO Forensic Request Form' (Word, August 2018): a form.
+     - 'Vendor Readiness Assessment Report (VRAR)' (March 2022): the page offers two Word questionnaires (state-hosted and non-state-hosted solutions) that vendors fill in; forms.
+     - 'IRS Security Training Confirmation Form for Department of IT Contractors': a one-page signature form, and a federal (IRS) acknowledgement.
+     - 'IRS Security Training for Department of IT Employees and Contractors' (https://www.irsvideos.gov/...): a federal IRS video page, not a state instrument; the Fetcher could not connect to it (connection error).
+     - 'Statewide Glossary of Information Technology Terms Version Updates' (2 pages): a change list for the glossary, which is seeded.
+     - '2025 Statewide Information Security Manual Revisions' (2 pages, March 2025): a table of the revisions made to the manual, which is seeded.
+     The index prints a date for most rows; several differ from the date the file prints (the AI Framework row says August 2024 and the file August 2025; the procurement manual row July 2017 and the file 'Revised April 2025'; the Data Classification row June 2025 and the file version 2.0 February 2026). Each document carries what its file prints.
+- text: |-
+    Statewide Information Security Policies page (https://it.nc.gov/programs/cybersecurity-risk-management/esrmo-initiatives/statewide-information-security-policies): the second official listing of security policies, 27 document links. It holds the 18 SCIO-SEC policies (301 to 318; SCIO-SEC-310 is also a State IT Policies row), the signed Statewide Information Security Manual, and related-content links. All are seeded except: '2025 Statewide Information Security Manual & Policies' (237 pages, 9.9 MB, one compiled book of the manual and the same 18 policies; its pages 1 to 12 have no text layer, and the policies in it are seeded one by one from their own files, so it is a duplicate compilation, left out); the manual revisions table (above); and three related-content links that repeat rows already seeded (Data Classification & Handling Policy at /media/1545, the Acceptable Use Policy page, the Corrective Action Plan page). SCIO-SEC-320 (International Travel) and SCIO-SEC-321-00 (Mobile Device Management) are seeded from the State IT Policies page.
+- text: |-
+    State IT Standards page (https://it.nc.gov/resources/state-it-standards), reconciled row by row: 53 document links under Domain Management (1), Geographic Information Services (18) and IT Project Management (34), plus Desktop Configuration (no document; the page gives a contact address), Identity & Access Management (text on the page itself) and Vendor Engagement Resources (a link to the vendor engagement page). 12 are seeded as documents, 21 are stubs, 20 are left out:
+     - Geographic Information Services, 18 rows, 6 seeded (the water and sewer data content standard of 1997, the parcel data standard of 2016, the state and local metadata profile, the LiDAR and orthophoto base mapping specifications, the GNSS data collection standards): these are the North Carolina data standards and specifications that state agencies work to. 12 left out: 'GIS Mobile Best Practices', 'Oblique Imagery Guidance', 'Assessing Cloud-Based Solutions for Geospatial Data and Mapping', 'Understanding Compression of Geospatial Raster Imagery' and 'GeoMapp Key Findings and Best Practices' (best-practice guides, white papers and a report, not instruments); 'LGC Bylaws' (the bylaws of a council committee); 'NC Parcel Data Standard Revision Summary (2016)' (a one-page summary of changes to a seeded standard); 'GICC-SMAC-State-Local-Gov-Metadata-Profile' (a second file of the seeded metadata profile, the same December 30, 2016 version, differing only in two web addresses); and four federal documents the page republishes: 'Geospatial OneStop Geodetic Control' (an ANSI standard), 'National Digital Elevation Program Guidelines' (USGS), 'North American Vertical Datum of 1988' (a 1993 Federal Register notice), 'U.S. National Grid - Format for Presenting Data' (FGDC-STD-011-2001). OWNER DECISION: whether geospatial data standards belong in a corpus on state IT governance; the six seeded are the ones a state body adopted as binding content standards.
+     - IT Project Management, 34 rows. The reference tables of the seeded work instructions number the documents: a number ending '-A' or '-B' is a procedure, '-C' a Quality Work Instruction and '-D' a form or report. 5 Word work instructions are seeded as documents (Project Management Process, Project Initiation, Planning and Design, Execution and Build, Closeout). 21 are stubs, because their links answer HTTP 404 (measured 2026-11-11 through the Fetcher on the /open links the page prints; Project Closeout Report, Project Change Request, Project Security Review and Project Charter were also tried with /download?attachment and without a suffix, same answer; the content was not seen): the Roles, Responsibilities and Authorities procedure (0300-0300-005-A; its PDF's text layer is damaged, see its reason), Project Implementation (0300-0340-005-C), Quality Assurance Process (0800-0800-005-B), Quality Control Process (0810-0810-005-B), and 17 Quality Work Instructions numbered '-C': Project Charter 0300-0310-010-C, Project Financial Assessment 0300-0310-015-C, Project Assessment Type 0300-0310-020-C, Project Manager Assessment 0300-0310-025-C, Cost Estimation 0300-0310-030-C, Benefits Estimation 0300-0310-035-C, Project RFP Review 0300-0320-010-C, Project Contract Award Recommendation 0300-0320-015-C, Project Go-Live Readiness Assessment 0300-0330-010-C, Project Change Request 0300-0360-005-C, Project Weekly Status Report 0300-0370-005-C, Program/Project Review 0300-0375-005-C, Project Architecture Review 0300-0380-005-C, Project Security Review 0300-0381-005-C, Project Peer Review 0300-0382-005-C, Lessons Learned 0300-0390-005-C and Customer Feedback 0300-0395-005-C. 8 are left out as forms, reports and examples (also 404): Quality Control Decision Points (0810-0810-005-D, a form; it was a stub in the first pass and was called a process document in error), Project Change Request Form (0300-0360-005-D in the Project Management Process table, 0300-0360-015-D in the Project Execution and Build table), Project Closeout Report (0300-0350-005-D), Project RFP Review Form (0300-0320-010-D), Project Security Review Form (0300-0381-005-D), Project Weekly Status Report Form (0300-0370-005-D), Project Weekly Status Report Example (no number printed in the seeded instructions; the Closeout instruction prints 0300-0370-005-D for the report itself), and Project Decision Memo (no number: the revision histories of the seeded Project Initiation and Project Management Process say references to the Project Decision Memo were removed from them).
+     - Identity & Access Management: the standard (state solutions must use NCID, the state's identity and access management service, and support SAML v2, LDAP and SOAP/WSDL; an exception needs just cause) is a section of the index page itself, which is a watch entry. The seed check rejects an unsliced second entry on the same url and accepts a slice only as an article or part, so it is not a document. SHARED CHANGE NEEDED: a way to seed a section of a page, or an OWNER DECISION to seed it from the page and drop the watch entry.
+     - Desktop Configuration: no document (the page says to contact NCDIT Operations Support). Vendor Engagement Resources: see below.
+- text: |-
+    IT Procurement pages (https://it.nc.gov/resources/statewide-it-procurement and the pages it links), read: the Policies & Procedures page (links the manual, the rules page, the GSA purchasing procedures and the pressing-needs guidance: all four seeded or recorded as rules), the Exceptions page (a process page listing exception Forms A, B and C and a presentation: left out as forms and a presentation, and the guiding instruments it lists are seeded; OWNER DECISION if the page's own statement that an exception must be documented and approved should be a document), the Forms & Templates page (IT Procurement Intake Form, Request for Information, Invitation for Bids/Request for Quote forms, Instructions & Optional Terms for RFP, Request for Proposal form: templates, not instruments), the Resources page (a list of outside links), 'IT Procurement Process Overview' (a 5.5 MB PowerPoint deck), PCORE and Statewide IT Contracts (contract pages, not read to document level).
+- text: |-
+    Vendor Engagement page (https://it.nc.gov/resources/vendor-engagement) and GovRAMP adoption page (https://it.nc.gov/node/2707): both read. The vendor page's Architecture, Strategy, Security, Data, Digital and NCDIT Services sections link a Visio template, an architecture example, the strategic plans (strategy documents), and policies already seeded (the manual, the data classification policy, the digital accessibility standard); it adds no instrument. The GovRAMP page states the cloud requirements (new contracts with a cloud component from April 1, 2026, full compliance April 1, 2027) and links the policy document, which is seeded as nc-third-party-cloud-service-risk; the page is program prose with webinar videos and is left out.
+- text: |-
+    Artificial intelligence: no North Carolina statute on state agency use of AI was found. Read in full: chapters 143, 143A, 143B, 147, 132, 75, 114 and 126 of the General Statutes (the General Assembly's by-chapter pages), searched for 'artificial intelligence', 'machine learning' and 'automated decision' with no match; the AI materials are an executive order and NCDIT policies. Not read: the session law list for 2025 and 2026, and the bills a web search surfaced (S 747, H 1161), which were not enacted so far as the results showed (bills not yet enacted are out of scope). AI & Policy page (https://it.nc.gov/programs/ai-policy, a watch entry) and its subpages, all read: 'Principles for Responsible Use of AI' (a web page presenting seven principles and practices; the framework document that contains them is seeded; OWNER DECISION whether the web page, which says agencies 'must' test against the principles, should also be a document), 'Use of Publicly Available Generative AI' (a web page presenting the guidance of the seeded policy), 'AI Framework for Responsible Use' (a link page), 'AI Training' (outside course links), 'AI Inventory & Assessments' (describes the inventory and privacy threshold analysis duties and links an inventory template, a workbook, not fetched), 'AI Terms & Definitions' (a glossary table), 'More Resources' (outside links, NIST and federal), and the 'Statewide AI Strategic Roadmap' (35-page PDF of the AI Leadership Council, a strategy document, left out).
+- text: |-
+    Statutes not seeded:
+     - G.S. 143B Article 15 parts: seeded whole as one page; parts that ride along are Part 6 communications and portal services (including the broadband programs, 143B-1373 to 143B-1374), Part 9 criminal justice information, Part 10 emergency telephone service (the 911 Board, 143B-1400 to 143B-1416), and Part 11 the Geographic Information Coordinating Council, which the domain scopes out (broadband, 911, telecom) or which are marginal. OWNER DECISION on slicing by part (the playbook's section-level slicing question).
+     - G.S. 143-129.8 (purchase of information technology goods and services by units of local government under the State's contracts), 143-48.3 (electronic procurement), 143-59.1 (contracts with foreign vendors: a tax rule), 143-162.5 (use of mobile electronic devices): sections inside the procurement and budget chapters; left out pending the owner's decision on section-level slicing.
+     - Chapter 143B sections outside Article 15 that mention information technology (143B-139.4D health information technology coordination, 143B-146.13 school technology plan, 143B-1209.32 criminal record checks for the Department of IT, 143B-1301 and 143B-1314): sections of other departments' articles, or personnel; out.
+     - G.S. 132-1.10 (social security numbers and other personal identifying information held by public agencies) and 132-6.1 (electronic data-processing and computer databases as public records), in the Public Records Act (chapter 132): a general public records chapter; OWNER DECISION whether these two sections bind agencies as IT or data governance. G.S. 75-65 (security breach notice, chapter 75, Identity Theft Protection Act): the duty binds a 'business'; out. 
+     - G.S. 147-33.72 and following (the former Article 3D, State Information Technology Services, chapter 147): read; its sections are printed as repealed or reserved and its subject moved to 143B Article 15. 147-68.6 and 147-71.2 are in the State Auditor and State Treasurer articles.
+     - G.S. 116E (the Education Longitudinal Data System, which the Government Data Analytics Center operates under 143B-1385 and 09 NCAC 06D) was not read; OWNER DECISION whether it belongs.
+     - Statute sources: the General Assembly serves each article as static HTML and PDF (the by-article links its section lists print: /EnactedLegislation/Statutes/HTML/ByArticle/Chapter_143B/Article_15.html); no API was called. The index https://www.ncleg.gov/Laws/GeneralStatutesTOC was read for the chapter list.
+- text: |-
+    Executive orders: the Governor's list (https://governor.nc.gov/news/executive-orders, a watch entry) was read on all 22 pages: 432 rows, January 6, 2017 to October 22, 2026 (Governors Cooper and Stein; the list holds no order of an earlier governor, and none was sought on it). 241 rows carry a title: read by keyword for technology, cybersecurity, data, information, digital, artificial intelligence, broadband, internet, privacy, security, network, accessibility. 191 rows are titled only by a number ('Executive Order No. N', 2018 to 2024, with emergency, COVID-19 and Spanish-language duplicates among them). The first pass said each of those pages was fetched and searched and four matched; that was not a search of the orders themselves and it missed Executive Order No. 276, whose title contains 'information technology'. Re-done on 2026-11-11 through the Fetcher: for each of the 191 rows the page and the PDF it links ('/open') were fetched (191 PDFs, one per row), and the full text of every PDF was searched for 'information technology', 'cybersecurity', 'artificial intelligence', 'State CIO', 'Department of Information Technology', 'broadband', 'internet', 'data privacy' and 'data security' (the Spanish copies also for 'tecnolog', 'ciberseguridad', 'inteligencia artificial', 'seguridad de informaci' and 'banda ancha'), and the printed title of each order was read. 52 of the PDFs have no usable text layer; for this search only they were read with tesseract (nothing from that reading is committed), and a word broken by a poor embedded OCR layer would be missed. Result: the title of three orders is in scope and in force: Executive Order No. 249, No. 254 (with its Spanish copy) and No. 276 (cited by the seeded High Risk Applications policy as its authority). No title and no text among the 191 cites No. 249, 254 or 276, and none rescinds them. Other orders whose text matched a word, read and left out: No. 298 (Continuity of Operations Planning, January 11, 2024, in effect until rescinded: state agencies' continuity of operations plans, which mention the information technology business continuity plans required by G.S. 143B-1331; an emergency planning order, not IT governance; OWNER DECISION, borderline), No. 118 (unemployment claims by telephone and internet), No. 242 and No. 299 (extending the State Emergency Response Commission, whose members include the State Chief Information Risk Officer), No. 268 (Andrea Harris Equity Task Force; a DIT digital equity office is a member), No. 280 (age-friendly state; broadband outreach for older adults), No. 303 (education and reentry services; DIT assists with reentry tools), No. 326 (surplus property donations after Hurricane Helene; mentions DIT's support role). Seeded: Executive Order No. 24 (artificial intelligence, September 2, 2025; the PDF is an image-only scan, read by OCR). Stubs: Executive Order No. 276 (applications and websites on state information technology, January 12, 2023, in effect unless rescinded or replaced), No. 254 (Joint Cybersecurity Task Force, March 16, 2022, in effect until rescinded) and No. 249 (Longitudinal Data System Governance Board, February 15, 2022, in effect to December 31, 2029; OWNER DECISION, borderline, see its reason): their PDFs are scans carrying an embedded OCR layer with errors, which the shared OCR path refuses (see the stub reasons); EO 254 also has a Spanish-language copy (254 Spanish) as a duplicate row. Left out: Executive Order No. 35 (Commission on Accessibility, March 17, 2026: a commission in the Department of Administration whose four pillars include digital access and which NCDIT supports; OWNER DECISION, borderline), Executive Order No. 91 (2019 Task Force on Connecting North Carolina: broadband, out of scope), Executive Order No. 111 (Advisory Council on Film, Television and Digital Streaming: not IT governance), Executive Order No. 37 (state employee participation in prediction markets: not IT). The list's Termination notices (EO 3, 28 and the numbered ones) concern emergency orders.
+    Leads not on the Governor's list, in-force status unconfirmed, not seeded: the seeded Former Email Mailbox Policy cites 'Executive Order 18 - Email Retention and Archiving Policy (July 7, 2009)' and 'Executive Order 12 - Amending the State Email Retention (May 21, 2013)', and the seeded Microsoft 365 policy cites 'McCrory, Pat Executive Order No. 012 Amending the State E-mail Retention and Archiving Policy': orders of Governors Perdue and McCrory on state email retention and archiving, which the list (from 2017) does not carry. An official copy was looked for by a web search (discovery only) and one State Archives address was tried through the Fetcher (HTTP 404); no official copy was found, so neither is seeded and whether either is still in force is unconfirmed. OWNER DECISION: whether to seek them at the State Archives or the Secretary of State, and whether email retention is IT or records law.
+- text: |-
+    Administrative rules: 09 NCAC Chapter 06 (Office of Information and Technology Services) at http://reports.oah.state.nc.us/ncac.asp has four subchapters on the OAH page (a watch entry): 06A IT procurement (4 rules, seeded), 06B procurement requests (88 rule headings, seeded), 06C the 911 Board (41 rules: emergency telephone service, scoped out by domain.yml; left out), 06D Government Data Analytics Center (4 rules, seeded). Each seeded document is OAH's one HTML file for the subchapter, as the page serves it; rules marked repealed or expired ride along as published: 06A .0103 (expired May 1, 2015), and 06B .0102, .0203, .0207, .0312, .0403, .0702, .1008 (repealed effective September 1, 2013) and .1303 (repealed effective July 1, 2015). The Title 09 chapters 01 to 05 and 07 are reserved, budget, repealed or expired. Other titles of the Administrative Code were not searched for IT rules (the DIT's rules are in Title 09 chapter 06; the Department of Administration's purchasing rules in Title 01 are general procurement and out). The rules site is HTTP only and has no robots.txt (404). Its pages link nc.gov's Disclaimer & Terms of Use, which grants permission to copy and distribute non-image files, documents and information 'for non-commercial use, provided they are copied and distributed without alteration and appropriately cite to the source'. This is a non-commercial term, recorded for the owner (the playbook asks for it in the PR); the rules are mirrored unaltered with the source cited.
+- text: |-
+    Pages and areas not read, so no 'none found' is claimed for them: NCDIT's Privacy & Data Protection program pages (/programs/privacy-data-protection and its Fair Information Practice Principles page), Digital Accessibility and Online Safety pages, the Statewide IT Strategic Plan and NCDIT Strategic Plan pages (strategy documents), the Resources Guide, the N.C. IT Application Portfolio, and any NCDIT document library listing outside the pages above. The Department of Administration's and the Office of State Budget and Management's own IT-related pages were not searched. The identity of the instrument text of every PDF and Word file is checked by the ingester against a phrase the file prints.

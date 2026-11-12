@@ -1,0 +1,411 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-acceptable-use-policy
+title: Statewide Acceptable Use Policy
+doc_type: policy
+citation: 'NCDIT: Statewide Acceptable Use Policy'
+authority_level: ''
+issuing_body: North Carolina Department of Information Technology
+source_url: https://it.nc.gov/documents/statewide-policies/statewide-acceptable-use-policy-pdf/open
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: f4d2074f4fe4fa660f595a9242164c127686e32775433e1badc90d242ca2eaed
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- data
+- ai
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Statewide Acceptable Use Policy (NCDIT: Statewide Acceptable Use Policy)
+
+## At a glance
+
+The statewide acceptable use policy for state information technology resources, version 1.2 of March 2026. The index row (dated January 2025) links a page offering a Word and a PDF copy; the PDF is taken.
+
+## Full text
+
+State of North Carolina
+Acceptable Use Policy
+Statewide Policy
+
+March 2026
+
+                                                                                              State of North Carolina
+
+Document Information
+Revision History
+
+Date               Version         New or            Description                               Author
+                                   Revised
+                                   Requirement
+
+January 2025       1               New               Updated with AI content                   Policy Office
+
+December 2025      1.1             Revised           Added Privacy and Data Protection         Policy Office
+
+March 2026         1.2             Revised           Removed requirement to “disable chat      Policy Office
+                                                     history” when using publicly available
+                                                     GenAI.
+
+Document Details
+
+Department Name              Enterprise Security and Risk Management Office
+
+Owner                        State Chief Information Security Officer
+
+Title                        Acceptable Use Policy (AUP)
+
+Publication Date             March 16, 2025
+
+Next Release                 December 31, 2026
+
+Document Type                Policy
+
+Document Number              1
+
+Version                      1.2
+
+                                                       2                                                 March 2026
+
+                                                                                                                              State of North Carolina
+
+Table of Contents
+Document Information ......................................................................................................................2
+   Revision History ..............................................................................................................................2
+   Document Details ............................................................................................................................2
+Purpose ............................................................................................................................................4
+Owner ...............................................................................................................................................4
+Scope................................................................................................................................................4
+Policy ................................................................................................................................................4
+   Section 1. Agency Policy Requirements and Exceptions ....................................................................4
+   Section 2. Agency Template .............................................................................................................4
+      Section 1. Application ...................................................................................................................5
+      Section 2. Requirements...............................................................................................................5
+      Section 3. Incidental Use ..............................................................................................................8
+      Section 4. Violations .....................................................................................................................8
+      Section 5. Acknowledgement of Policy...........................................................................................8
+References........................................................................................................................................9
+
+                                                                           3                                                              March 2026
+
+                                                                                         State of North Carolina
+
+Purpose
+Information resources are strategic assets of the State of North Carolina and must be treated and
+managed as valuable resources. The purpose of this policy is to do the following:
+
+    1. Establish minimum appropriate and acceptable requirements regarding the use of information
+       resources connected to the State Network.
+    2. Comply with applicable state law and other rules and regulations regarding the management of
+       information resources.
+    3. Educate individuals who may use information resources with respect to their responsibilities
+       associated with computer resource use.
+    4. Establish a process to ensure that users acknowledge and agree to abide by the rules of behavior
+       before gaining access to information resources connected to the State Network .
+
+Owner
+N.C. Department of Information Technology – State Chief Information Security Officer
+
+Scope
+This policy applies to state agencies, departments and other entities not specifically excluded from Article
+15 of N.C. General Statute Chapter 143B.
+
+Policy
+
+Section 1. Agency Policy Requirements and Exceptions
+The Statewide Information Security Policies require agencies to adopt an acceptable use policy that
+describes responsibilities and expected behavior for the use of the State Network, information, and
+information systems. (Security Planning Policy, PL-4 – Rules of Behavior, Personnel Security Policy, PS-6
+– Access Agreements).
+This Acceptable Use Policy sets out the minimum requirements for the development and use of
+individual agency use. Agencies may adopt this policy as their own or adoption a policy with more
+stringent standards applicable to their agency but must retain these minimum requirements set forth
+herein.
+Exceptions to the minimum requirements in this policy template must be approved in writing by the State
+Chief Information Officer. Agencies must use the N.C. Department of Information Technology (NCDIT)
+Exception Request Process and Form to request any exception(s) to this policy.
+This Acceptable Use Policy shall be reviewed annually, at a minimum.
+
+Section 2. Agency Template
+State agencies may use the following template for their acceptable use policies. Agencies that choose not
+to use the template must include all the elements of Sections 1-4 within the following Acceptable Use
+Policy for their agency use. If agencies choose to allow incidental personal use of information technology
+resources, they must include the minimum requirements of Section 3 – Incidental Use—of this policy (p.
+6) within their own Acceptable Use Policy.
+
+                                                     4                                              March 2026
+
+                                                                                        State of North Carolina
+
+                                   Statewide Acceptable Use Policy
+
+Section 1. Application
+
+This policy applies to any state employee, contractor or third party (“Users”) who uses any device,
+whether state-owned or personal, to connect to the State Network. G.S. 143B-1370(a)(5) (g) defines the
+State Network as “any connectivity designed for the purpose of providing Internet Protocol transport of
+information for State agencies.” State law also requires the North Carolina Department of Information
+Technology (NCDIT) to manage the State Network.
+
+Section 2. Requirements
+
+Use of Personal Devices
+
+1. Users may not connect personal devices to the State Network without express written permission
+   from the agency head or the agency head’s designee. This requirement does not apply to users who
+   connect to the State Network through a state-supplied “guest” Wi-Fi network.
+2. Personally owned “smart” devices may not be connected to the State Network. “Smart” devices,
+   commonly referred to as the “Internet of Things,” include smart thermostats, smart appliances, or
+   wearable technologies.
+3. Users are prohibited from downloading State data to personally owned devices unless approved by
+   the agency head or the agency CIO. Access to State email, or M365 applications on a personally
+   owned device must be authenticated leveraging Multi Factor Authentication (MFA) via the Microsoft
+   Authenticator App, or another approved MFA method such as phone call or SMS message.
+
+Access to the Network
+
+1. All devices connected to the State Network must have updated malware/anti-virus protection. Users
+   must accept software updates whenever provided, in accordance with statewide security update
+   requirements. Users must not download or utilize independent malware/anti-virus protection not
+   approved or authorized by the Agency.
+2. Users must not attempt to access any data, documents, email correspondence, and programs
+   contained on systems for which they do not have authorization.
+3. Systems administrators and authorized users must not divulge remote connection information or
+   other access points to information technology resources to anyone without proper authorization.
+4. Users must not share their account(s), passwords, Personal Identification Numbers (PIN), Security
+   Tokens (i.e. Smartcard), or other similar information or devices used for identification and
+   authorization purposes.
+5. Users must not use their state credentials, e.g., .gov email addresses, for non-official tasks.
+6. Users must not operate any utility, application, or service that would obfuscate or anonymize user or
+   device identity (e.g., IP address, MAC address, user identity, geographic location, etc.). Such
+   services include, but are not limited to, the following: personal VPN, Private Relay, and Tor.
+7. Information technology resources must not be used for personal benefit, e.g., gambling, political
+   activity, unsolicited advertising, unauthorized fund raising, personal business ventures, or for the
+   solicitation of performance of any activity that is prohibited by any local, state, or federal law.
+8. Access to the Internet from state-owned, home based, devices must adhere to all acceptable use
+   policies. Employees must not allow family members or other non-employees to access data
+   classified as restricted or highly restricted.
+9. Users should not use unauthorized Cloud Services (e.g., file storage/sharing services like DropBox,
+   Google Drive, etc.) for sharing of State data.
+
+                                                    5                                              March 2026
+
+                                                                                          State of North Carolina
+
+Downloading and Copying
+
+1. Users must not make unauthorized copies of copyrighted or state-owned software.
+2. Users must not download State data to personally owned devices unless approved by the agency
+   head or the agency head’s designee.
+3. Users must not download, install, or distribute software to state-owned devices unless it has been
+   approved by the agency head or the agency head’s designee.
+4. Users must ensure all files downloaded from an external source to the State Network or any device
+   connected to the State Network, including a diskette, compact disc (CD), USB flash drive, or any
+   other electronic medium, is scanned for malicious software such as viruses, Trojan horses, worms or
+   other malicious code.
+5. Users must not download, install or run security programs or utilities such as password cracking
+   programs, packet sniffers, or port scanners that reveal or exploit weaknesses in the security of
+   information technology resources unless approved in writing by the agency head or the agency
+   head’s designee.
+6. Users are prohibited from viewing or downloading pornography on government networks and devices
+   owned, leased, maintained, or controlled by the agency.
+
+Performance
+
+1. Users accessing the State Network through an agency LAN must only access Internet-streaming
+   sites as consistent with the mission of the agency for the minimum amount of time necessary .
+2. Users must not engage in activity that may degrade the performance of information resources,
+   deprive an authorized user of access to resources, obtain extra resources beyond those allocated, or
+   circumvent information security measures.
+
+Retention
+
+1. Users must comply with the State’s Data Retention Guideline located at
+   https://archives.ncdcr.gov/government/state-government-agencies/functional-schedule/information-
+   technology. Note: Per the NC Department of Natural and Cultural Resources (DNCR), OneDrive for
+   Business: Best Practices and Usage, “OneDrive for Business is not intended for permanent storage
+   of public records.”
+   See: https://archives.ncdcr.gov/government/digital-records/digital-records-policies-and-
+   guidelines/microsoft-365-best-practices-and-usage. Long-term storage and collaboration efforts must
+   utilize other available tools, e.g., Microsoft SharePoint.
+2. Users are responsible for all data generated by publicly available AI tools and all data is subject to
+   retention guidelines.
+
+Transmission
+
+1. Users must not purposely engage in activities that are illegal according to local, state or federal law,
+   or activity that may harass, threaten or abuse others, or intentionally access, create, store, or transmit
+   material which may be deemed to be offensive, indecent or obscene such as racial or sexually expli cit
+   materials.
+2. Users must ensure that the transmission or handling of personally identifiable information (PII) or
+   other restricted or highly restricted data is authorized and encrypted.
+3. Users accessing the State Network through a Local Area Network (LAN) must avoid unnecessary
+   network traffic and interference with other users. Specific prohibitions include, but are not limited to,
+   the following:
+
+                                                      6                                              March 2026
+
+                                                                                           State of North Carolina
+
+     (a) Unsolicited commercial advertising by public employees and State Network users. For the
+     purpose of this policy, “unsolicited commercial advertising” includes any transmission initiated by a
+     vendor, provider, retailer, or manufacturer of goods, products, or services, or by a third party retained
+     by, affiliated with, or related to the vendor, provider, retailer, or manufacturer that describes goods,
+     products, or services. This prohibition does not include the following:
+           (i) discussions of a product or service’s relative advantages and disadvantages by users of
+           those products or services (unless the user is also the vendor, retailer, or manufacturer, or
+           related to or affiliated with the vendor, provider, retailer, or manufacturer);
+          (ii) responses to questions, but only if such responses are direct replies to those who inquired
+          via electronic mail, or (iii) mailings to individuals or entities on a mailing list so long as the
+          individual or entity voluntarily placed his/her name on the mailing list.
+     (b) Any other type of mass mailing by employees and others accessing the State Network through
+     the agency LAN that does not pertain to governmental business or a state-sponsored activity.
+4. Users must not send state data to non-authorized individuals or accounts or services via an auto-
+   forwarding capability. Forwarding of state data must comply with the measures outlined within this
+   policy.
+
+Reporting
+
+1. Users must report any weaknesses in computer security to the appointed agency security liaison or
+   designee for follow-up investigation. Weaknesses in computer security include unexpected software
+   or system behavior, which may indicate an unauthorized disclosure of information or exposure to
+   security threats.
+2. Users must report any incidents of possible misuse or violation of the Acceptable Use Policy within a
+   reasonable amount of time.
+3. Users have a responsibility to promptly report the theft, loss or unauthorized disclosure of information
+   within a reasonable amount of time.
+
+Artificial Intelligence (AI) and Generative Artificial Intelligence (GenAI)
+
+The North Carolina Responsible Use of Artificial Intelligence Framework establishes guiding principles for
+the ethical, transparent, and effective use of AI tools in state agencies. To align with this framework, all
+users must adhere to these standards to ensure AI and GenAI tools are deployed ethically and
+responsibly, protecting privacy and minimizing risks. The following requirements outline the key actions
+users must take to comply with these principles and support the responsible use of AI:
+1. Never enter personally identifiable (PII) or confidential information into publicly available generative AI
+    tools.
+2. Prior to entering any code into, or using code generated by, a publicly available generative AI tool,
+    seek agency CIO and security approval, as well as using an AI tool that has been deemed trustworthy
+    by Enterprise Security Risk Management Office (ESRMO).
+3. Review and independently fact check any output produced by publicly available generative AI.
+4. Be transparent and identify when content was drafted using publicly available generative AI.
+5. Users must opt-out of providing conversation history as data for training publicly available generative
+   AI models prior to use, whenever possible.
+
+Privacy and Data Protection
+
+The State of North Carolina monitors State IT devices including, but not limited to, real time monitoring.
+Users have no expectation of or right to privacy in their use of a state-issued device or access to state
+systems including badge swipe data, email contents and website search history. All transactions and
+communication are considered state records or property and include any data users create, access, send
+
+                                                      7                                               March 2026
+
+                                                                                           State of North Carolina
+
+or receive; any messages users send or receive; and any websites that users access. These records
+may be examined for any reason including, but not limited to, security and/or employee conduct.
+
+1. Users agree that they will not disclose any non-public information other than to persons authorized to
+   access such information as identified by state or federal laws, applicable regulations and agency
+   policies. The Statewide Data Classification and Handling Policy can be found here.
+2. Users agree to comply with the State’s Clean Desk Procedure to protect physical (i.e. paper and
+   external electronic media) as outlined here.
+3. Users agree they will not obtain or use data obtained as a result of or through their position as a state
+   employee for personal purposes.
+
+Section 3. Incidental Use
+
+State systems are intended for primarily business purposes, but limited (incidental and occasional)
+personal use may be permissible when authorized by your management and it does not do the following:
+
+4. Interfere with the normal performance of an employee’s work duties.
+5. Result in direct costs to the agency, cause legal action against, or cause embarrassment to the
+   agency. Agencies should restrict incidental personal use of electronic mail, Internet access, fax
+   machines, printers, copiers, and any other information technology resources to employees. This
+   limited permissible access does not include family members. Personal use of State systems by
+   employees’ family members is prohibited.
+Involve interests in personal or outside business and/or other non-authorized organizations and activities
+such as selling or soliciting personal property/items, promoting commercial ventures, charitable, religious,
+or political activities.
+
+Section 4. Violations
+
+Violation of this policy could result in disciplinary action, termination, loss of information resources and
+criminal prosecution.
+
+Section 5. Acknowledgement of Policy
+
+NCDIT employees and contractors must acknowledge in writing that they have received a copy of this
+policy. Written acknowledgement is also required annually on a date determined by Human Resources.
+
+I have read, understand, and will abide by the above Acceptable Use Policy when using computer and
+other electronic resources owned, leased, or operated by the state. I further understand that will abide by
+the above Acceptable Use Policy when using personal computing devices not owned, leased, or operated
+by the state agency. I further understand that I have no expectation of privacy when connecting any
+device to the State Network and that any violation of the regulations above is unethical and may
+constitute a criminal offense. Should I commit any violation of this policy, my access privileges may be
+revoked, disciplinary action may be taken, and/or appropriate legal action may be initiated.
+
+_________________________________                 ________________________
+Name                                              Date
+
+___________________________________
+User Signature
+
+                                                      8                                               March 2026
+
+                                                                                        State of North Carolina
+
+References
+The following sections in the Statewide Information Security Manual provide additional guidance in the
+appropriate use of State information technology resources.
+
+Access Control Policy, AC-2 – Account Management
+Access Control Policy, AC-4 – Information Flow Enforcement
+Access Control Policy, AC-17 – Remote Access
+Access Control Policy, AC-18 – Wireless Access
+Access Control Policy, AC-20 – Use of External Information Systems
+Configuration Management Policy, CM-9 – Configuration Management Plan
+Configuration Management Policy, CM-10 – Software Usage Restrictions
+Configuration Management Policy, CM-11 – User Installed Software
+Personnel Security Policy, PS-6 – Access Agreements
+Security Planning Policy, PL-4 – Rules of Behavior
+System and Information Integrity Policy, SI-3 – Malicious Code Protection
+System and Information Integrity Policy, SI-8 – Spam Protection
+System and Information Integrity Policy, SI-12 – Information Handling and Retention
+
+The following Office of Privacy and Data Protection policies provide additional guidance in the appropriate
+use of State information technology resources.
+
+State Adoption of Fair Information Practice Principles
+Media Protection Policy
+North Carolina State Government Responsible Use of Artificial Intelligence Framework
+Principles for Responsible Use of AI
+Clean Desk Procedures
+
+                                                     9                                             March 2026
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

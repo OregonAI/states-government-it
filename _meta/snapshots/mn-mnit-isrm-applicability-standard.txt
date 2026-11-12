@@ -1,0 +1,238 @@
+Information Security and Risk Management Applicability
+Standard
+From the Office of the Chief Information Officer State of Minnesota
+
+Version:                             1.12
+Effective Date:                      5/1/2016
+Revised:                             12/31/2024
+Approved:                            John Israel, State Chief Information Security Officer            Date: 3/20/2025
+
+Standard Statement
+To fulfill the responsibilities of Minnesota Statutes, chapter 16E (2015), the Office of MNIT Services has
+identified the departments, agencies, offices, councils, boards, commissions, and other entities in the executive
+branch of Minnesota State government that are subject to IT Consolidation and IT Oversight.
+
+Employees must abide by the terms of this standard. Employees who violate this standard may be subject to
+discipline, up to and including discharge.
+
+NOTE: To enhance usability for the reader, the boards, councils, task forces, etc., in this section are listed alphabetically by
+their subject matter (e.g., Board of Dentistry is listed as Dentistry, Board of; Governor’s Council on Workforce Development
+is listed as Workforce Development, Governor’s Council on).
+
+State Entities in Scope for IT Consolidation and IT Oversight
+    •    Accountancy, Board of
+    •    Administration, Department of
+    •    Administrative Hearings, Office of
+    •    African Heritage, Council for Minnesotans of
+    •    Aging, Minnesota Board on
+    •    Agriculture, Department of
+    •    Amateur Sports Commission, Minnesota
+    •    Animal Health, Board of
+    •    Apprenticeship Advisory Board
+    •    Archaeologist, Office of the State
+
+Information Security and Risk Management Applicability Standard                                                                    1
+
+   •   Architecture, Engineering, Land Surveying and Landscape Architecture, Geoscience and Interior Design
+       (AELSLAGID), Board of
+   •   Asian-Pacific Minnesotans, Council on
+   •   Assessors, Board of
+   •   Assistive Technology Advisory Council, Minnesota (Star)
+   •   Barber Examiners, Board of
+   •   Behavioral Health and Therapy, Board of
+   •   Cannabis Management, Office of
+   •   Capitol Area Architectural and Planning Board
+   •   Children, Youth and Families, Department of
+   •   Chiropractic Examiners, Minnesota Board of
+   •   Combative Sports Advisory Council
+   •   Commerce, Department of
+   •   Construction Codes Advisory Council
+   •   Corrections, Department of
+   •   Cosmetologist Examiners, Board of
+   •   Deaf, Deafblind, and Hard of Hearing Minnesotans, Commission of
+   •   Dentistry, Board of
+   •   Developmental Disabilities, Minnesota Governor’s Council on
+   •   Dietetics and Nutrition Practice, Board of
+   •   Direct Care and Treatment, Department of
+   •   Disability, Council on
+   •   Education, Department of
+   •   Electricity, Board of
+   •   Emergency Medical Services Regulatory Board
+   •   Employment and Economic Development, Department of
+   •   Environmental Quality Board, Minnesota
+   •   Explore Minnesota Tourism Council
+   •   Executives and Long Term Supports, Board of
+   •   Families, Office of Ombudsperson for
+   •   Foster Youth Ombudsperson, Board of
+   •   Gambling Control Board
+   •   Health, Department of
+   •   Health Professionals Services Program Committee
+   •   High Pressure Piping Systems, Board of
+   •   Higher Education Services, Office of
+   •   Higher Education Facilities Authority, Minnesota
+   •   Human Rights, Department of
+   •   Human Services, Department of
+   •   Independent Living Council, Statewide
+   •   Indian Affairs Council
+
+Information Security and Risk Management Applicability Standard                                               2
+
+   •   Labor and Industry, Department of
+   •   Latino Affairs, Minnesota Council on
+   •   Management and Budget, Minnesota
+   •   Marriage and Family Therapy, Board of
+   •   Mediation Services, Bureau of
+   •   Medical Practice, Board of
+   •   Medical Services Review Board
+   •   Mental Health and Developmental Disabilities, Ombudsman Committee for
+   •   Minnesota IT Services, Office of
+   •   MNsure
+   •   Natural Resources, Department of
+   •   Nursing, Minnesota Board of
+   •   Nursing Home Administrators, Board of Examiners for
+   •   Occupational Safety and Health Advisory Council
+   •   Occupational Safety and Health Review Board
+   •   Occupational Therapy Practice, Minnesota Board of
+   •   Ombudsman for Long Term Care
+   •   Ombudsperson for American Indian Families, Office of
+   •   Optometry, Board of
+   •   Peace Officer Standards and Training, Board of
+   •   Perpich Center for Arts Education, Board of the
+   •   Pharmacy, Board of
+   •   Physical Therapy, State Board of
+   •   Plumbing Board
+   •   Podiatric Medicine, Board of
+   •   Pollution Control Agency, Minnesota
+   •   Private Detective and Protective Agent Services, Board of
+   •   Professional Educators Licensing and Standards Board
+   •   Psychology, Board of
+   •   Public Facilities Authority, Minnesota
+   •   Public Safety, Department of
+   •   Public Utilities Commission
+   •   Racing Commission
+   •   Rehabilitation Council for the Blind, State
+   •   Rehabilitation Council, State
+   •   Rehabilitation Review Panel
+   •   Revenue, Department of
+   •   Sentencing Guidelines Commission, Minnesota
+   •   Social Work, Board of
+   •   State Academies, The Board of the Minnesota
+   •   State Arts Board, Minnesota
+
+Information Security and Risk Management Applicability Standard                3
+
+   •   State Designer Selection Board
+   •   Tax Court
+   •   Trade Office, Minnesota
+   •   Transportation, Department of
+   •   Veterans Affairs, Department of
+   •   Veterinary Medicine, Minnesota Board of
+   •   Water and Soil Resources, Board of
+   •   Workers’ Compensation, Advisory Council on
+   •   Workers' Compensation Court of Appeals
+   •   Workforce Development Council, Governor’s
+   •   Zoological Board, Minnesota
+
+State Entities Not in Scope for IT Consolidation and IT Oversight
+   •   Constitutional Offices
+          o Attorney General, Office of the
+          o Governor, Office of the
+          o Investment, Board of
+          o Land Exchange Board
+          o Lieutenant Governor, Office of the
+          o Secretary of State, Office of the
+          o State Auditor, Office of the
+          o University of Minnesota
+   •   Semi-State Entity
+          o Agricultural Society (Minnesota State Fair), State
+          o Historical Society, Minnesota
+          o Metropolitan Airports Commission
+          o Metropolitan Council
+          o Metropolitan Sports Facilities Authority
+          o State Retirement System, Minnesota
+   •   Other Excluded Entities
+          o Campaign Finance and Public Disclosure Board
+          o Housing Finance Agency, Minnesota
+          o Iron Range Resources and Rehabilitation Board
+          o Military Affairs, Department of
+          o Public Employees Retirement Association
+          o Radio Board, Statewide
+          o State Colleges and Universities, Minnesota
+          o State Executive Council
+          o State Lottery
+          o Teachers Retirement Association
+
+Information Security and Risk Management Applicability Standard     4
+
+Reason for the Standard
+Identifies the state entities subject to the IT Consolidation Act, as well as the state entities that will be provided
+Information Technology Oversight by the Office of MNIT Services, which includes IT security, IT procurement,
+and IT project management oversight.
+
+Roles & Responsibilities
+    •   Employees, Vendors, and Contractors
+            o Be aware of and follow relevant information security policies, standards, and procedures.
+            o Ensure information security is incorporated into processes and procedures.
+            o Ensure contract language with vendors and contractors includes required information security
+               controls.
+            o Consult with information security staff on the purchase and procurement of information
+               technology systems or services.
+            o Hold employees accountable for following the information security policies, standards, and
+               procedures.
+    •   Information Technology Personnel
+            o Apply appropriate controls to the design, operation, and maintenance of systems, processes,
+               and procedures in conformance with the information security policies, standards, and
+               procedures.
+    •   Information Security Personnel
+            o Develop, maintain, and assess compliance with the information security policies, standards, and
+               procedures.
+            o Develop, maintain, and implement a comprehensive information security program.
+            o Provide training on information security policies, standards, and procedures.
+            o Assist agencies and personnel with understanding and implementing information security
+               policies, standards, and procedures.
+            o Notify appropriate personnel of applicable threats, vulnerabilities, and risks to State data or
+               systems.
+    •   Agency Data Practices Personnel
+            o Assist agencies and personnel with questions on proper data use, collection, storage,
+               destruction, and disclosure.
+
+Related Information
+Information Security and Risk Management Program Policy
+
+Information Security Program Standard
+
+Information Security risk Management Standard
+
+Glossary of Information Security Terms
+Information Security and Risk Management Applicability Standard                                                          5
+
+Minnesota Legislative Manual (Blue Book)
+
+History
+Table 1. Version History
+
+    Version                                       Description                                   Date
+
+ 1.0               Initial Release                                                          1/22/2016
+
+ 1.5               Updated Agency Lists. Split List into two tables. Updated Agency Names   3/18/2016
+
+ 1.6               Updated Compliance Enforcement Date and Template                         12/20/2016
+
+ 1.7               Updated Compliance Enforcement Date                                      10/22/2017
+
+ 1.8               Changed document title. Updated agency names.                            3/10/2020
+
+ 1.9               Scheduled Document Refresh                                               11/1/2021
+
+ 1.10              Scheduled document refresh                                               10/1/2022
+
+ 1.11              Updated version number and revised date                                  10/1/2023
+
+ 1.12              Added enforcement language; added new agency; updated version and        12/2/2024
+                   revision date
+
+Contact
+GRC@state.mn.us
+
+Information Security and Risk Management Applicability Standard                                          6

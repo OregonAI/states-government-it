@@ -1,0 +1,354 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-gen-ai-use-policy
+title: Use of Publicly Available Generative Artificial Intelligence
+doc_type: policy
+citation: 'NCDIT: Use of Publicly Available Generative Artificial Intelligence'
+authority_level: ''
+issuing_body: North Carolina Department of Information Technology
+source_url: https://it.nc.gov/documents/use-publicly-available-generative-artificial-intelligence/download?attachment
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 26c25009d3cad526f003db1bf3c1b63b10794279a837fcf333ae16438493bb06
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- data
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Use of Publicly Available Generative Artificial Intelligence (NCDIT: Use of Publicly Available Generative Artificial Intelligence)
+
+## At a glance
+
+The statewide policy on employees' use of publicly available generative AI tools: what may not be entered, review of output, registration and privacy settings.
+
+## Full text
+
+State of North Carolina
+Use of Publicly Available Generative
+Artificial Intelligence Policy
+Statewide Policy
+
+Version 1.1
+
+April 14, 2026
+
+                                                                                                  State of North Carolina
+
+Document Information
+Revision History
+
+ Date               Version         New or              Description                                Author
+                                    Revised
+                                    Requirement
+
+ February 2, 2026   1.0             New                 Policy Published                           Office of AI &
+                                                                                                   Policy
+
+ April 14, 2026     1.1             Revised             - Added clarification that agencies may    Office of AI &
+                                                        set more strict requirements               Policy
+                                                        - Updated data classifications to match
+                                                        new policy
+
+Document Details
+
+ Agency Name                  NC Department of Information Technology
+
+ Owner                        Office of AI and Policy
+
+ Title                        Use of Publicly Available Generative Artificial Intelligence
+
+ Publication Date             February 2, 2026
+
+ Next Review                  February 2, 2027
+
+ Document Type                PDF
+
+ Document Number              1
+
+ Version                      1.1
+
+Version 1.1                                               2                                               April 14, 2026
+
+                                                                                                                            State of North Carolina
+
+Table of Contents
+Document Information ......................................................................................................................2
+   Revision History ..............................................................................................................................2
+   Document Details ............................................................................................................................2
+Purpose ............................................................................................................................................4
+Content Lead ....................................................................................................................................4
+Scope................................................................................................................................................4
+Definitions ........................................................................................................................................4
+   Publicly Available Data.....................................................................................................................4
+   Publicly Available Generative AI Tool ................................................................................................4
+   Sharing Data ...................................................................................................................................4
+Policy Requirements.........................................................................................................................4
+   Ensuring Responsible Data Sharing with Publicly Available GenAI Tools .............................................5
+   Reporting and Escalation .................................................................................................................5
+   Ensuring Appropriate Use of GenAI Tools..........................................................................................5
+   Publicly Available Generative AI and Public Information .....................................................................5
+Roles and Responsibilities ...............................................................................................................5
+   NCDIT’s Enterprise Security and Risk Management Office (ESRMO) .................................................5
+   Agency AI Oversight Committee .......................................................................................................6
+   Employees ......................................................................................................................................6
+Enforcement .....................................................................................................................................6
+References........................................................................................................................................7
+   Table 1 – Data Classification Summary .............................................................................................7
+
+Version 1.1                                                               3                                                           April 14, 2026
+
+                                                                                           State of North Carolina
+
+Purpose
+The purpose of this policy is to provide clear expectations to state employees on the legal, responsible,
+and ethical use of publicly available generative artificial intelligence (GenAI) tools. This policy covers
+state employees’ use of GenAI tools that are not provided by the State. This policy is designed to support
+innovation, enhance operational efficiency, and encourage thoughtful adoption of GenAI technologies,
+while ensuring their use aligns with applicable laws, ethical standards, data privacy requirements, and
+public trust. By establishing guardrails and best practices, this policy aims to encourage employees to
+safely leverage GenAI tools to improve productivity across state government functions.
+
+This policy sets out the minimum requirements for the use of publicly available generative AI. Agencies
+may adopt this policy as their own or adopt a policy with more stringent standards applicable to their
+agency but must retain these minimum requirements set forth herein.
+
+Content Lead
+N.C. Department of Information Technology – Office of AI and Policy
+
+Scope
+This policy applies to all state agencies, as defined in N.C.G.S.143B-1320(a)(17).
+
+Definitions
+
+Publicly Available Data
+For the purpose of this policy, publicly available data is data that is available and intended for public
+access according to state and federal law, or readily available through public sources and does not
+contain sensitive, personally identifiable information. Publicly available data is defined as “Public” in
+accordance with the State’s Data Classification and Handling Policy.
+
+Publicly Available Generative AI Tool
+A publicly available generative AI tool is a form of generative AI that is made publicly available to users.
+Publicly available GenAI tools are not procured, licensed, or managed through the state.
+
+Sharing Data
+
+Sharing data includes submitting it, uploading it, or otherwise entering it into a publicly available GenAI
+tool.
+
+For additional common AI definitions, reference the State of North Carolina AI Glossary.
+
+Policy Requirements
+Ethical and responsible use of publicly available generative AI requires alignment with the state’s laws,
+policies, mission, and goals. The following guidelines are human centered with a focus on uses of AI that
+benefit North Carolinians and the public good.
+
+Version 1.1                                           4                                            April 14, 2026
+
+                                                                                            State of North Carolina
+
+Ensuring Responsible Data Sharing with Publicly Available GenAI Tools
+
+    •    When using a GenAI tool for State work, it is imperative that employees share only publicly
+         available data.
+             o Employees are prohibited from sharing confidential state information/data into publicly
+                  available GenAI tools.
+    •    Employees are prohibited from sharing personal information (PI), as defined in N.C.G.S. 75-
+         61(10), into publicly available GenAI tools. Sharing Internal, Confidential, or Restricted data, as
+         defined by the Data Classification and Handling Policy, in publicly available generative AI tools is
+         prohibited.
+             o Reference Table 1 for data types and risk classifications.
+    •    Entering existing state and proprietary code into a publicly available GenAI tool is prohibited
+         without prior approval by agency CIO and security liaison.
+
+Reporting and Escalation
+
+    •    Employees must notify supervisors and their agency security liaison of any concerns relating to AI
+         and the use of publicly available GenAI tools.
+    •    Employees must follow existing security policy and incident reporting protocols for suspected
+         security breaches or data protection violations.
+    •    Violations of this policy or failure to implement provisions of this policy may result in disciplinary
+         action up to and including termination, civil litigation, and/or criminal prosecution.
+
+Ensuring Appropriate Use of GenAI Tools
+
+In order to use a publicly available GenAI tool for state work purposes, employees must:
+    • Complete any state and agency GenAI training.
+    • Ensure they are not attempting to use GenAI tools that have been identified by the state as high
+        risk.
+             o Prohibited technologies can be found in the High Risk Applications Policy.
+    • Ensure they are using the GenAI tool in a cloud or online environment, if using the tool on a state
+        device. Employees must not download the tool onto state devices without special approval from
+        ESRMO.
+    • Register to use the tool utilizing their state employee email address, for retention purposes.
+        Sharing a log-in with another person is not permitted.
+    • Regularly review the state’s publicly available generative AI guidance and best practices on the AI
+        Corner.
+
+Publicly Available Generative AI and Public Information
+Sharing information with a publicly available GenAI tool is considered a public release of the information.
+Sharing non-public information with a publicly available GenAI tool can therefore violate privacy and data
+breach laws and regulations.
+
+Roles and Responsibilities
+
+NCDIT’s Enterprise Security and Risk Management Office (ESRMO)
+The ESRMO is responsible for:
+
+    •    Maintaining a list of prohibited applications
+
+Version 1.1                                              5                                          April 14, 2026
+
+                                                                                             State of North Carolina
+
+Agency AI Oversight Committee
+The Agency AI oversight committee is responsible for:
+
+    •    Ensuring that employees are adhering to requirements and best practices
+    •    Creating agency-specific policies and guidelines for the use of publicly available generative AI,
+         including communication between an employee and their supervisor when a publicly available
+         GenAI tool is used for state work
+
+Employees
+Employees are responsible for:
+
+    •    Adhering to all the requirements and best practices included in this Policy and any agency-
+         specific policies while using publicly available generative AI tools
+    •    Reporting any possible misuse of a publicly available generative AI tool
+
+Enforcement
+Violations of this policy or failure to implement provisions of this policy may result in disciplinary action up
+to and including termination, civil litigation, and/or criminal prosecution.
+
+Version 1.1                                            6                                             April 14, 2026
+
+                                                                                                        State of North Carolina
+
+   References
+   Table 1 – Data Classification Summary
+
+                                                                Data Classification
+
+                          Public                     Internal                    Confidential                 Restricted
+
+Description       Available and intended     Typically used within the     Often limited to a small     Represents the highest
+                    for public access.          agency and not for         audience on a need-to-        level of sensitivity and
+                                               public sharing. Most             know basis.               presents the highest
+                                                  documents are                                        risk if disclosed. Access
+                                               classified as Internal                                     to this information is
+                                              within the organization,                                    restricted to a limited
+                                               and most employees                                               audience.
+                                               would have access.
+
+  Types          • Information on publicly   • Employee work             • Business unit plans         • Personal Information
+                   accessible websites         schedules and             • Security features           • PCI Data Security
+                 • Routine                     assignments               • Sensitive public security     Standards
+                   correspondence            • Administrative              information                 • PHI/HIPAA
+                 • Employee                    records                   • Draft versions of           • Criminal Justice
+                   Compensation              • Internal newsletters        agency’s                      Information
+                 • Press releases (final)    • Drafts of documents         annual/quarterly reports    • State and Federal
+                 • Job postings                not yet published         • Forecasting assumptions       Tax Information
+                 • Published policies,         (press releases, draft    • Personnel records (not      • Conflict of Interest
+                   standards, procedures       communication, draft        compensation)                 disclosure
+                   (excluding those            policies)                 • Ongoing or disposed         • Disclosed financial
+                   related to physical or    • Training materials not      legal proceedings and         data
+                   technical security)         created for public use      investigations              • Social Security
+                 • Work email addresses      • Personal email            • Budget information            Administration-
+                                               addresses                 • Source code and detailed      provided information
+                                             • Home addresses              architecture                • Attorney-client
+                                                                         • Policies and guidelines       communications
+                                                                           related to physical or      • State employee
+                                                                           technical security            human resources
+                                                                                                         records
+                                                                                                       • Driver’s information
+                                                                                                         located within
+                                                                                                         NCDMV
+                                                                                                       • Controlled
+                                                                                                         Unclassified
+                                                                                                         Information (CUI)
+   Statewide Data Classification and Handling Policy, February 2025
+
+   A description of the types of data can be found below. For more information on each category, including
+   references to General Statute, reference page 4 of the Statewide Data Classification and Handling Policy.
+
+   Internal:
+       1. Agency policies, standards, guidelines, and procedures not yet published (except those related to
+          physical or technical security)
+       2. Drafts of yet-to-be published documents
+       3. Employee work schedules and duty assignments
+       4. Internal newsletters
+       5. Training materials
+
+   Version 1.1                                                    7                                             April 14, 2026
+
+                                                                                          State of North Carolina
+
+Confidential:
+    1. State Employee Personnel Records – Information that is confidential pursuant to N.C.G.S. 126-
+       22.
+    2. Trade Secrets – Information that is owned by a person, has independent value derived from its
+       secrecy and which the owner takes measures to protect from disclosure.
+    3. Student Records – The Federal Educational Rights and Privacy Act (FERPA) prohibits the
+       disclosure of personally identifiable information derived from education records without a
+       permissible exception defined by the law.
+    4. Security Features – Information that describes security features of electronic data processing
+       systems, information technology systems, telecommunications networks, or electronic security
+       systems, including hardware or software security, passwords, or security standards, procedures,
+       processes, configurations, software, and codes.
+    5. Sensitive Public Security Information – Information containing specific details of public security
+       plans and arrangements or the detailed plans and drawings of public buildings and infrastructure
+       facilities.
+    6. Financial and Strategic Planning Records - Information related to agency financial projections,
+       budgets, legal proceedings and investigations not covered by attorney -client privilege or work
+       product and forecasting assumptions is confidential.
+
+Restricted:
+    1. State and Federal Tax Information (FTI) – Any return or return information received from the
+       Internal Revenue Service (IRS) or secondary source, such as from the Social Security
+       Administration (SSA), Federal Office of Child Support Enforcement, or the Bureau of Fiscal
+       Service.
+    2. Payment Card Industry (PCI) Data Security Standard (DSS) – Confidential credit card
+       information including credit card magnetic stripe data, card verification values, payment account
+       numbers, personal identification numbers, passwords, and card expiration dates.
+    3. Protected Health Information (PHI) – Confidential health care information for natural persons
+       related to past, present, or future conditions, including mental health information.
+    4. Criminal Justice Information (CJI) – Data necessary for law enforcement and civil agencies to
+       perform their missions including but not limited to biometric, identity history, biographic, property,
+       and case and incident history data.
+    5. Social Security Administration (SSA) Provided Information – Information that is obtained
+       from the SSA. This can include a Social Security number verification indicator or other PII data.
+    6. Driver’s Privacy Protection Act (DPPA) - DPPA definition applies exclusively to data
+       maintained by the North Carolina DMV and dictates permissible disclosures and uses under
+       federal law. This law defines “personal information” and “highly restricted personal information” in
+       a manner distinct from North Carolina’s Statewide Data Classification and Handling Policy.
+    7. Controlled Unclassified Information (CUI) - Information that requires safeguarding or
+       dissemination controls pursuant to and consistent with applicable Federal law, regulations, and
+       government-wide policies.
+    8. Personal Information - A person's first name or first initial and last name in combination with
+       identifying information as defined in G.S. 14‑113.20(b).
+
+Version 1.1                                           8                                           April 14, 2026
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

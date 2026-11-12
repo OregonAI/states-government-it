@@ -1,0 +1,292 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-gis-parcel-data-standard
+title: NC Parcel Data Standard Revision (2016)
+doc_type: standard
+citation: 'NC GIS standard: NC Parcel Data Standard Revision (2016)'
+authority_level: ''
+issuing_body: Geographic Information Coordinating Council (published by NCDIT)
+source_url: https://it.nc.gov/documents/files/nc-parcel-data-standard-revision-2016/download?attachment
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 70d725ce52550a4ca1dc1c1e9d82a7027a6398049dab3a7a54e17be90a01ea4f
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# NC Parcel Data Standard Revision (2016) (NC GIS standard: NC Parcel Data Standard Revision (2016))
+
+## At a glance
+
+The statewide standard for the content elements of core geospatial parcel data (version 2, adopted August 10, 2016), by the Statewide Mapping Advisory Committee.
+
+## Full text
+
+  Content Elements for Statewide Publication of Core Geospatial Parcel Data
+                                 Version 2
+
+Developed by the NC Statewide Mapping Advisory Committee in 2005 and revised in 2016
+
+                       Version 1 Adopted May 11, 2005
+                      Version 2 Adopted August 10, 2016
+                NC Geographic Information Coordinating Council
+
+Cadastral core data is a minimum set of elements that describe land parcels used
+for publication and distribution by data producers and maintainers. The elements
+provide basic land parcel information for integration across jurisdictional boundaries
+to facilitate research and analysis. This document describes the elements required
+to achieve that end. As always, data producers may publish additional elements.
+
+The following are UNDERLYING ELEMENTS for the Mapping of Parcels
+
+In order to integrate information across the state and build a seamless parcel map
+for North Carolina the parcel needs to be tied to a common coordinate system. The
+National Standards specify the elements for this common reference. North Carolina
+counties already meet all of these national specifications, which include:
+
+      The National Spatial Reference System (NSRS) - This is coordinated and
+      managed by the National Geodetic Survey and provides a consistent and
+      uniform definition of coordinate system, datums and monumented points
+      throughout the country. In North Carolina, this is supported by the work of the
+      NC Geodetic Survey.
+
+      Orthophotography - This is orthophotography at one foot or smaller
+      resolution that is tied to the NSRS and is current. The orthophotography
+      includes the underlying terrain model to support the generation of the
+      orthophotography and basic terrain information such as break lines. In North
+      Carolina, the NC Land Records Management Program in the Department of
+      the Secretary of State, maintains specifications (revised December 2014) for
+      the collection of orthophotography for the purpose of land records
+      management in local government and for meeting these guidelines. North
+      Carolina’s Statewide Orthoimagery Program provides statewide imagery to
+      local governments consistent with state specifications at 6-inch ground
+      resolution.
+
+      The grid reference system is the North Carolina State Plane Coordinate
+      System.
+
+      A metadata reference will describe the parcel dataset for any given
+      jurisdiction and will meet Federal Geographic Data Committee Content
+      Standard for Digital Geospatial Metadata. It will contain information about the
+      entire dataset such as county name, county parcel contact, date of the file,
+      field definitions, and other descriptive information about property tax
+      assessment. – In North Carolina, the Center for Geographic Information and
+      Analysis provides support and guidance for metadata.
+                                        page 1
+
+The following are desirable PUBLICATION ELEMENTS that meet common
+producer and stakeholder needs for sharing, display, and use of geospatial
+parcel data, especially to cast into regional and statewide applications.
+(Examples: NC OneMap and The National Map).
+
+Element                                 Description
+   Geometry
+Parcel Outline (Polygon)                This is the geographic extent of the parcel, the parcel
+                                        boundaries forming a closed polygon.
+
+Parcel Centroid                         A point within the parcel that can be used to link related
+                                        data or display at smaller mapping scales. It may be but
+                                        need not be the geometric centroid; placement inside the
+                                        boundary of the associated polygon is required.
+Element
+   Fields                  Field Name   Field Description
+Parcel ID                  PARNO        A unique identifier for the parcel as defined by the
+                                        jurisdiction. It should be unique across the jurisdiction.
+
+Parcel ID Alternate        ALTPARNO     An alternate unique identifier for the parcel as defined by
+                                        the jurisdiction. It should be unique across the
+                                        jurisdiction.
+
+Owner Name1                OWNNAME      An indication of the owner name (full name).
+
+Owner Name2                OWNNAME2     A second owner name if available.
+
+Owner’s Mailing Address MAILADD         This is the US Postal address for the owner (street
+                        MCITY           number, street direction, street name, street type), which
+                        MSTATE          is commonly the mailing address for the tax bill, but not in
+                        MZIP            all cases. Separate fields for city, state, and ZIP code are
+                                        common and recommended.
+
+Parcel Street Address      SITEADD      This is the location of the property as the primary street
+                           SCITY        address (site address) for the parcel. Separate fields for
+                           SSTATE       city, state, and ZIP code are recommended.
+                           SZIP
+
+Subdivision Name           SUBDIVISIO   This is the name of the subdivision or condominium name
+                                        in which the parcel is located.
+
+Land Area                  RECAREANO    The area of land in acres as recorded in deeds or the
+                                        survey in number format. An additional field in text format
+                                        may be useful depending on the source format for land
+                                        area.
+
+                           GISACRES     The area of land in acres as calculated from the
+                                        geometry of the polygon using a geographic information
+                                        system (GIS).
+
+Source Reference           SOURCEREF    This is a pointer to or an attribute describing the source
+                                        reference (e.g., deed book and page) for the parcel.
+
+Source Reference           SOURCEDATE   The date of the Source Reference (recorded date of the
+Date                                    deed, in date format).
+
+                                        page 2
+
+Map Reference            MAPREF        This is a pointer to or an attribute describing the recorded
+                                       map reference (e.g., plat book and page) for the parcel.
+
+Owner Type               OWNTYPE       The type of ownership, or a classification of owner by
+                                       taxable status (e.g., private taxable or exempt as defined
+                                       by NC Department of Revenue Form AV-50).
+
+Improvement              STRUCT        This is an attribute to indicate whether or not there is an
+                                       improvement or structure on the parcel (yes or no).
+
+Number of Structures     STRUCTNO      Number of structures on a property.
+
+Year Structure Built     STRUCTYEAR    Year of construction of a primary structure.
+
+Multiple Structures on   MULTISTRUC    Multiple structures on property (yes, no, or unknown).
+Property
+
+Appraised Value for      LANDVAL       This is the appraised value of the land only.
+Land
+
+Appraised Value for      IMPROVVAL     This is the appraised value of improvements.
+Improvements
+
+Value Total              PARVAL        This is the total value of the parcel (defined in the
+                                       PARVALTYPE field).
+
+Parcel Value Type        PARVALTYPE    Parcel value type (usually either the assessed value or
+                                       appraised value of the property).
+
+Parcel Use Description   PARUSEDESC    This is the assessment or tax classification of the parcel.
+                                       These are typically very general and used by assessors
+                                       (e.g., wooded, open, water, farmland).
+
+Parcel Use Code          PARUSECODE    A code for use of the parcel, described in a related field
+                                       or table.
+
+Present Use Value        PRESENTVAL    This is an indicator of Present Use Value of the parcel
+                                       (yes, no, or unknown). Land used for agriculture, forestry,
+                                       horticulture, or a combination may be assessed based on
+                                       its current use, not based on market value.
+
+Source Agent             SOURCEAGNT    Authoritative source of the cadastral data (e.g., Alamance
+                                       County Tax Assessor).
+
+Legal Description        LEGDECFULL    Legal description of the property.
+
+Revision Date            REVISEDATE    Date of the last revision to geometry or field, in date
+                                       format.
+
+Sale Date                SALEDATE      Date of the last sale of the property in date format. An
+                                       additional field for text format may be useful.
+
+Subsurface Owner         SUBSURFOWN Name of the subsurface owner.
+
+Subsurface Owner Type    SUBOWNTYPE Type of subsurface owner.
+
+                                       page 3
+
+ Additional Fields            Field Name      Field Description
+ Not Managed in Local
+ Government Data,
+ Generated by the State for
+ Statewide Datasets
+
+ State Name                   STNAME          State name in standard abbreviation.
+
+ County Name                  CNTYNAME        County name (e.g., Alamance).
+
+ County Identifier            CNTYFIPS        County identifier from the Federal Information Processing
+                                              Standards (FIPS).
+
+ State Identifier             STFIPS          State FIPS identifier.
+
+ State and County             STCNTYFIPS      Combination of state and county FIPS as a unique
+ Identifier                                   identifier.
+
+ National Parcel Number       NPARNO          Nationally Unique Identifier as a combination of
+                                              state/county FIPS and parcel identification number.
+
+ GNIS Identifier              GNISID          The county identifier from the Geographic Names
+                                              Information System, US Geological Survey.
+
+ Transformation Date          TRANSFDATE      The date of transformation of a source county parcel
+                                              dataset to a standardized NC Parcels dataset.
+
+Note: Appropriate disclaimers and source information on assessment elements will be recorded in metadata.
+
+                                              page 4
+
+An Example for North Carolina using PUBLICATION ELEMENTS
+
+ Element                           Type          Source Field Name   Example Value
+
+ Parcel Outline (Polygon)          Geometric     N/A                 N/A
+
+ Parcel Centroid                   Geometric     N/A                 N/A
+
+ Parcel Identification             Attribute     PIN                 0754054071
+
+ Parcel Identification Alternate   Attribute     PIN_Alt             1000-1000-02
+
+ Owner Name                        Attribute     OwnName             Geo, Mary & Charles
+ Owner’s Mailing Address           Attribute     Address1            PO Box 96
+                                                 Address2
+                                                 City                Sharppoint
+                                                 State               NC
+                                                 Zip                 46821-6709
+ Parcel Street Address             Attribute     Address1            104 Beacon Way
+                                                 Address2
+                                                 City                Onemapcity
+                                                 State               NC
+                                                 Zip                 13206-6027
+ Subdivision Name                  Attribute     SubDiv              Red Mountain
+
+ Land Area from Deed or Survey     Attribute     Deed_Acres          0.4886
+
+ Source Reference                  Attribute     Deed                Deed Book/Page
+                                                 Book                6982/0441
+                                                 Page
+ Source Reference Date             Attribute     Date                19780415
+ Owner Type or Exempt Status       Attribute     OwnType             Exempt
+ Improvement                       Attribute     Improve             Yes
+ Appraised Value - Land            Attribute     LandVal             163800
+
+ Appraised Value - Improvement     Attribute     BldgVal             274051
+ Value - Total                     Attribute     TotalVal            437851
+ Parcel Value Type                 Attribute     TotalAssessed       Assessed
+ Parcel Use Description            Attribute     Class               Wooded
+ Number of Structures              Attribute     NumBldg             1
+ Year Structure Built              Attribute     YearBuilt           2009
+
+Note: Appropriate disclaimers and source information on assessment elements will be recorded in metadata.
+
+                                               page 5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

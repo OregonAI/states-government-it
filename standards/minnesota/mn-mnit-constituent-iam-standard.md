@@ -1,0 +1,484 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: minnesota
+id: mn-mnit-constituent-iam-standard
+title: Constituent Identity and Access Management Standard
+doc_type: standard
+citation: MNIT Constituent Identity and Access Management Standard, Version 1.00
+authority_level: ''
+issuing_body: Minnesota IT Services (Office of the Chief Information Officer, State of Minnesota)
+source_url: https://mn.gov/mnit/assets/constituent-identity-access-management-standard_tcm38-638676.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 6af71512c8d90e6a314269cd44edd7e1bfc4fcd5ba86d221f06ee4c38b3134f6
+effective_date: '2024-09-01'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Constituent Identity and Access Management Standard (MNIT Constituent Identity and Access Management Standard, Version 1.00)
+
+## At a glance
+
+Requires state digital services that need the public's private data to move to the enterprise sign-on solution (login.mn.gov) by July 1, 2027, with privacy and security principles for constituent identity.
+
+## Full text
+
+Constituent Identity and Access Management Standard
+From Minnesota IT Services, State of Minnesota
+
+Version:          1.00
+Issued Date:      8/1/2024
+Effective Date:   9/1/2024
+Approval:         John Israel, State Chief Information Security Officer   Date:   7/25/2024
+
+Constituent Identity and Access Management (CIAM) is the practice of security that manages and controls
+access to digital services and resources for constituents of the State of Minnesota. This standard aims to provide
+guidelines for agencies to effectively implement the enterprise CIAM solution, ensuring security, privacy, and
+seamless single sign on user experience for Minnesota constituents. All state digital services that require the
+public to share private data will move to the enterprise solution on login.mn.gov by July 1, 2027.
+
+Standard Statement
+This standard applies to agencies that provide digital services and interacts with constituents or partners that
+support constituents consuming State services, including but not limited to interacting via a mobile application
+or traditional application.
+
+This standard adheres to these principles when implementing the enterprise CIAM solution:
+
+    •   Privacy: Agencies must prioritize constituent privacy by implementing measures to protect personal
+        information, adhere to relevant data protection regulations and obtain explicit consent for data
+        processing activities.
+    •   Security: Robust security controls should be in place to safeguard constituent data against unauthorized
+        access, breaches, and cyber threats. This includes encryption at rest and in transit, multi-factor
+        authentication, identity proofing and regular security audits.
+    •   User Experience: The enterprise CIAM solution provides a seamless and user-friendly experience.
+        Providing the constituent with one State credential minimizes friction during authentication and
+        authorization regardless of which State application the user is accessing.
+    •   Scalability: The enterprise CIAM solution will be scalable to accommodate growing constituent bases
+        and evolving business requirements without compromising performance or security.
+    •   Interoperability: The enterprise CIAM solution will integrate seamlessly with existing system utilizing
+        REST APIs and standard authentication and authorization methods of SAML and/or OIDC. If the
+        application does not use these protocols, the enterprise solution can integrate using a proxy to covert
+        older protocols to SAML or OIDC.
+
+Constituent Identity and Access Management Standard                                                                1
+
+Table 1. Constituent Identity and Access Management Controls
+
+                                                                                            Applicable Data
+ Control
+             Control Name           Control Detail                                          Protection
+ Number
+                                                                                            Categorization
+                                    All agencies must integrate any constituent facing      Low
+             Enterprise CIAM
+ 1                                  application with the enterprise CIAM solution to        Moderate
+             Solution
+                                    provide a single sign on experience for users.          High
+                                    There must be a streamlined registration process        Low
+             Registration
+ 2                                  for constituents and partners, including options for    Moderate
+             Process
+                                    self-service account creation.                          High
+                                    Every user must be assigned a unique ID, which is
+                                                                                            Low
+                                    the user’s email address, to access systems or data.
+ 3           Unique IDs                                                                     Moderate
+                                    Shared email addresses are prohibited.
+                                                                                            High
+                                    Requests to grant or revoke access privileges for
+                                    partners must be documented and approved by the
+                                    application owner before access can be granted.
+
+                                    Application owners must have access approval
+                                    process.
+
+                                    Each delegated administrator request for access
+                                                                                            Moderate
+ 4           Access Approval        must define access needs, including:
+                                                                                            High
+                                       • Systems and data that each user needs to
+                                           access for their job function.
+                                       • Level of privilege required (for example,
+                                           user, administrator, etc.) for accessing
+                                           resources.
+
+                                    Requests for delegated administrator access must
+                                    be approved by the application owner.
+                                    A person must provide proof of their claimed
+                                    identity when requesting access to an application
+                                    based on data classification.
+
+                                    The user’s identity must be properly validated          Moderate
+ 5           User Validation
+                                    before any transaction that has information security    High
+                                    implications, including modifying or communicating
+                                    any authentication credential. For example,
+                                    performing password or token resets, provisioning
+                                    new tokens, or generating new keys.
+                                    The addition, deletion, and modification of user IDs,
+                                    credentials, and other identifier objects must be
+                                                                                            Low
+             Account                restricted to authorized delegated administrators.
+ 6                                                                                          Moderate
+             Management
+                                                                                            High
+                                    The Identity Management and Access Management
+                                    (IAM) team, in conjunction with system/data
+
+Constituent Identity and Access Management Standard                                                           2
+
+                                owners will establish and maintain a list of roles and
+                                their associated rights.
+
+                                Constituents and partners must be able manage
+                                                                                         Low
+            Profile             their profiles, including updating personal
+ 7                                                                                       Moderate
+            Management          information, managing preferences, and configuring
+                                                                                         High
+                                privacy settings.
+
+                                User accounts are locked out based on Azure smart
+                                lockout which takes into consideration the user's
+                                location and passwords entered. After three (3)
+                                unsuccessful password attempts, the account will be
+                                locked.                                                  Low
+ 8          Account Lockout                                                              Moderate
+                                The account must remain locked for at least one
+                                                                                         High
+                                minute. After five (5) lockout periods, the time to
+                                retry increases in duration.
+
+                                Refer to Mitigate credential attacks - Azure AD B2C |
+                                Microsoft Learn for more details.
+
+                                The Identity and Access Management solution must
+                                provide fraud detection to:
+
+                                Detect fraud patterns and identify returning devices
+                                based on device and location attributes.
+ 9
+            Fraud Detection     Reduce user latency by configuring specialized rules
+                                and policies.
+
+                                Protect against bot networks attempting to create
+                                synthetic accounts or gain access to accounts using
+                                stolen credentials.
+
+                                Identity and Access Management solution must
+                                support various authentication methods such as
+                                passwords, biometrics, and multi-factor
+                                authentication (MFA) to verify constituent and
+                                partners identities securely.
+
+                                Multi-factor authentication (MFA) options must
+                                                                                         Low
+                                contain one of the following:
+ 10         Authentication                                                               Moderate
+                                                                                         High
+                                    •   SMS
+                                    •   Voice
+                                    •   Authenticator applications
+                                    •   FIDO2
+
+                                The solution must provide an option for the user to
+                                opt in for MFA.
+
+Constituent Identity and Access Management Standard                                                 3
+
+                                All authenticators must have sufficient strength for
+                                their intended use.
+                                The solution must enforce access controls based on
+                                constituent attributes, roles, and permissions to      Low
+ 11         Authorization       ensure that constituents only have access to the       Moderate
+                                resources and functionalities appropriate for their    High
+                                roles.
+                                Constituents must enable access to multiple services
+                                                                                       Low
+            Single Sign On      and applications with a single credential, improving
+ 12                                                                                    Moderate
+            (SSO)               user experience and reducing authentication
+                                                                                       High
+                                fatigue.
+                                All authentication credentials (such as                Low
+            Password
+ 13                             passwords/phrases) must be cryptographically           Moderate
+            Encryption
+                                protected during transmission and storage.             High
+
+                                Passwords must be at least:
+
+                                   •   8 characters long for constituents.             Low
+ 14         Password Length        •   12 characters long for partner accounts.        Moderate
+                                   •   Feedback must be provided explaining            High
+                                       password rejections.
+
+                                Passwords must contain at least:
+
+                                   •   3 of the 4-character types below for user
+                                       accounts and all mainframe accounts.
+
+                                Character Types:
+                                                                                       Low
+            Password               •   Lower case letters
+ 15                                                                                    Moderate
+            Complexity             •   Upper case letters                              High
+                                   •   Numbers
+                                   •   Special characters (optional)
+
+                                The use of dictionary names or single words must be
+                                prohibited. Passwords must be checked against a
+                                blacklist.
+
+                                Passwords/passphrases must be changed at least:
+                                                                                       Low
+            Maximum
+ 16                                •   Every 30 days for partners.                     Moderate
+            Password Age
+                                                                                       High
+                                   •   Every 120 days for constituents.
+
+                                By default, all passwords must be masked (i.e.,
+                                                                                       Low
+                                made unreadable) when being entered to prevent
+ 17         Mask Password                                                              Moderate
+                                unauthorized individuals from viewing the
+                                                                                       High
+                                password.
+
+Constituent Identity and Access Management Standard                                               4
+
+                                New passwords/phrases must be different from at
+                                least the previous 6 passwords/phrases used by that       Low
+ 18         Password History    account.                                                  Moderate
+                                Feedback must be provided explaining password             High
+                                rejections.
+                                All access to systems or data, other than one time
+                                submission of data and read only access to data with
+                                a data protection categorization of Low, must be
+                                controlled using identification and authentication
+                                mechanisms.
+                                This access control must:
+                                • The Identity and Access Management (IAM) team,
+                                in collaboration with system/data owners will
+                                establish and maintain a list of roles and their
+                                associated rights/entitlements.
+                                                                                          Low
+                                • Assign privileges to individuals based on the
+ 19         Entitlements                                                                  Moderate
+                                individual’s job classification and function.
+                                                                                          High
+                                • Restrict privileges to the least needed for the
+                                individual or service to perform their role.
+                                • Deny all access that is not explicitly granted.
+                                • Remove all system access not explicitly required.
+                                • A justification must be provided when
+                                     requesting a privileged role.
+                                • Data owner must review list of roles and
+                                     entitlements every six (6) months and provide
+                                     any changes to the Identity and Access
+                                     Management team.
+                                Partner and employee accounts and privileges that
+                                are no longer required must be removed or disabled
+                                within:
+                                 • Eight (8) hours of notification or identification of
+            Revoke                                                                        Moderate
+ 20                             voluntary changes in access needs.
+            Entitlements                                                                  High
+                                 • One (1) hour of notification or identification for
+                                users that have been involuntarily terminated or for
+                                accounts with credentials that may have been lost
+                                or compromised.
+
+                                All partner and employee accounts must have an
+                                identified security liaison or supervisor.
+
+                                Users must comply with any required training for
+                                their role before the user can be recertified.
+            Access                                                                        Moderate
+ 21                             All partner and employee accounts must be
+            Recertification                                                               High
+                                reviewed upon changes in user role and at least
+                                annually for user accounts.
+
+                                    •   The review must validate and recertify that
+                                        all access privileges are still needed and
+                                        authorized.
+
+Constituent Identity and Access Management Standard                                                  5
+
+                                     •   The results of the review must be
+                                         documented, and unnecessary access
+                                         privileges must be communicated to
+                                         account administrators for removal.
+                                     • Review documentation must be maintained
+                                         by the account administrator for at least
+                                         two (2) years and made available to the
+                                         Enterprise Identity and Access Management
+                                         team upon request.
+                                     • Access will be revoked if supervisors or
+                                         liaisons fail to certify access.
+                                 Inactive user accounts must be disabled after no
+                                 more than 90 days of inactivity. Disabled user
+                                 accounts must be deleted after 10 years.
+                                         • Constituents
+                                         • Partners
+                                         • Employees                                     Moderate
+ 22         Inactive Accounts
+                                         • Contractors                                   High
+
+                                 Inactive non-user accounts (including service,
+                                 system, and device accounts) must be disabled after
+                                 180 days of inactivity. Disable all accounts that are
+                                 only used annually when not in use.
+                                 Accounts created for testing in a production            Low
+ 23         Test Accounts        environment must be disabled within 24 hours after      Moderate
+                                 testing has been completed.                             High
+                                 Systems must prevent multiple concurrent active
+                                 sessions for individual user accounts. System and       Low
+ 24         Multiple Sessions    application accounts must be limited to the number      Moderate
+                                 of concurrent sessions needed for their purpose and     High
+                                 as documented in the system security plan.
+                                 The information system must automatically
+                                 terminate a user session as described below:
+                                     • For Low systems, the session will terminate
+                                                                                         Low
+            Session                       the user after 12 hours.
+ 25                                                                                      Moderate
+            Termination              • For Moderate systems, the session will
+                                                                                         High
+                                          terminate the user after four (4) hours.
+                                     • For High systems, the session will terminate
+                                          after 30 minutes.
+                                 The session must be automatically terminated after
+                                 15 minutes of application idle time. All information
+                                                                                         Low
+                                 previously visible on the screen must be replaced
+ 26         Inactivity Timeout                                                           Moderate
+                                 with a publicly viewable image during the session
+                                                                                         High
+                                 lock. The user must be required to re-authenticate
+                                 to reestablish the session.
+
+Constituent Identity and Access Management Standard                                                 6
+
+                                   For publicly accessible systems a warning banner
+                                   must be displayed before allowing access. The
+                                   warning banner must include:
+
+                                       •   The user is accessing a restricted
+                                           government information system.
+                                       •   System usage may be monitored, recorded
+                                           and subject to audit.                          Low
+             System User
+ 27                                    •   Unauthorized use of the system is              Moderate
+             Notification
+                                           prohibited and may be subject to criminal      High
+                                           and/or civil penalties.
+                                       •   Use of the system indicates consent to
+                                           monitoring and recording.
+
+                                   For systems containing Federal Tax Information, the
+                                   warning banner must reference the civil and
+                                   criminal penalty sections of Title 26 Sections 7213,
+                                   7213A and 7431
+
+                                   Users must ensure State data is only distributed to
+                                   authorized personnel by:
+
+                                       •   Only allowing authorized personnel to view
+             Authorized                    content on their screen.                       Moderate
+ 28
+             Distribution              •   Only including necessary and relevant          High
+                                           information in system output such as
+                                           reports and printouts.
+                                       •   Only distributing system output to
+                                           individuals authorized to view all content.
+
+Reason for the Standard
+This standard is established to define requirements in meeting the State’s obligation to ensure that users access
+to systems and services is based upon authorization and that unauthorized access is prevented. It is the
+responsibility of all systems owners to ensure appropriate controls, rules, access rights and restrictions are in
+place for their system and data.
+
+Constituent Identity and Access Management Standard                                                             7
+
+Roles & Responsibilities
+Employees and Contractors
+   •   Be aware of and follow relevant information security policies, standards, and procedures.
+   •   Ensure information security is incorporated into processes and procedures.
+   •   Ensure contractors are following required information security controls.
+   •   Contact information security staff or email iamsupport.mnit@state.mn.us with questions about the
+       information security policies, standards, or procedures.
+
+Partners With Delegated Administrator Access
+   •   Be aware of and follow requirements in this document when managing constituent accounts.
+   •   Report suspected account breaches to the appropriate State information security staff.
+
+Supervisors and Managers
+   •   Document roles, associated rights, business rules, and any access restrictions for their system and
+       associated data.
+   •   Ensure employees and contractors are proficient in the information security policies, standards and
+       procedures that are relevant to their role.
+   •   Hold employees accountable for following the information security policies, standards, and procedures.
+
+Information Technology Personnel
+   •   Apply appropriate controls to the design, operation and maintenance of systems, processes, and
+       procedures in conformance with the information security policies, standards, and procedures.
+   •   Do not use privileged accounts for non-administrator activities.
+
+Information Security Personnel
+   •   Develop and maintain access and entitlement review processes and procedures. Maintain this
+       document.
+
+Agency Data Practices Personnel
+   •   Assist agencies and personnel with questions on proper data use, collection, storage, destruction, and
+       disclosure.
+
+Applicability
+This standard applies to all information technology staff whose job duties include developing or implementing
+constituent and partner facing applications.
+
+Constituent Identity and Access Management Standard                                                             8
+
+Related Information
+Identity and Access Management Policy
+Identity and Access Management Standard
+
+History
+Table 2. History
+
+    Version                                     Description                    Date
+
+ Draft             Initial Draft                                           4/1/2024
+
+ 1.0               Publish Date                                            8/1/2024
+
+Contact
+Questions regarding this standard can sent to data.security@state.mn.us.
+
+Constituent Identity and Access Management Standard                                   9
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

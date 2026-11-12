@@ -1,0 +1,159 @@
+ GSA Contract Purchasing Procedures for North Carolina
+ Important Information Regarding the GSA Contract Purchasing Procedures:
+
+ Per G.S. 143B-1350(c)(4), and 9 NCAC 06B.1006 (Cooperative Purchasing) these
+ procedures apply to purchases under U.S. General Services Administration (GSA)
+ Schedule, also known as Federal Supply Schedule, and the Multiple Award Schedule
+ (MAS).
+
+ State Agencies must use established State Term Contracts (9 NCAC 06B.0701) or
+ Master Agreements established for Enterprise use. Not all items under MAS Schedule
+ are available for Agencies to purchase. For example, State Agencies may not use the
+ MAS to purchase Telecommunication Goods and Services as per 09 NCAC 06B.0301.
+ If the MAS is limited and not representative of a competitive marketplace, then the
+ Agency must follow other applicable procurement Rules, policies and procedures.
+
+ IT Schedule 70 is for IT Products, Services and Solutions:
+     Mobile device and mobile application management (MDM/MAM) tools,
+     Automated data processing equipment (firmware),
+     Software,
+     Cloud computing services,
+     Hardware,
+     Support equipment, and
+     Professional IT services.
+
+ Agencies utilizing MAS shall not utilize a “low cost meeting specification” bidding
+ process. MAS pricing is set at a maximum, therefore Agencies must negotiate pricing
+ with the responding Vendors, as well as terms and conditions, to obtain the best value.
+ Please note that MAS Vendors may accept or reject orders placed by the Agencies at
+ their discretion.
+
+ Agencies on the e-Procurement System must issue a Purchase Order (PO) to the MAS
+ Vendor through the e-Procurement System. Purchase Orders for issued for goods are
+ subject to the e-Procurement fee which is paid by the Vendor. GSA purchases are also
+ subject to an Industrial Funding Fee (IFF) which Vendors pay to the federal government.
+ However, MAS pricing already includes the IFF.
+
+ GSA Contract Purchasing Procedures:
+
+I.   Agencies will first determine if the necessary goods or services are available under a
+     State Term Contract. If the goods or services are not available under a State Term
+     Contract, the Agency shall:
+        A. Notify the Statewide IT Procurement Office of its desire to utilize MAS under
+            the GSA, and
+
+                                                                                Rev. 2022.05.17
+
+             B. Identify qualified Vendors under the MAS category, subcategory and Special
+                Item Number (SIN), and
+             C. Conduct and document marketplace research to determine whether the
+                identified MAS Vendors represent the general competitive market.
+
+II.    Upon receipt of the Agency’s request, the Statewide IT Procurement Office shall
+       review.
+
+III.   If the Agency’s GSA request is approved, the Statewide IT Procurement Office will send
+       approval to the Agency via email.
+
+IV.    The Agency must follow the MAS Ordering Procedures for GSA. The web link to the
+       instructions are located at:
+       https://www.gsa.gov/buying-selling/new-to-gsa-acquisitions/how-to-buy-through-us
+
+        V.          The Agency must order through eBuy (https://www.ebuy.gsa.gov/ebuy/) or
+             GSA Advantage!
+             (https://www.gsaadvantage.gov/advantage/ws/main/start_page).       Please note
+             that for GSA terminology, schedule equals contract. In order to determine which
+             tool to use, the Agency will need to perform a requirements analysis.
+             The ordering process may vary based on whether or not a Statement of Work
+             (SOW) is required.
+
+             A. Procedures to use eBuy
+                 1. The eBuy webpage is: https://www.ebuy.gsa.gov/ebuy/
+                 2. The Agency will need to create a login to use.
+                 3. The Agency will have to develop/create a Request for Quote (RFQ) that
+                    will be posted on eBuy, the GSA online tool.
+                 4. The Agency must review the contract’s specific Terms and Conditions
+                    (T&Cs) and decide if they will agree to them. In general, when state or
+                    local governments place orders, all terms and conditions of the
+                    contractor’s Schedule flow down to the order level, except the following:
+                         • Disputes Clause,
+                         • Patent Indemnity Clause,
+                         • Prompt Payment Clause, and
+                         • Certain Commercial Item Contract Terms and Conditions
+                 5. The Agency will need to follow the eBuy template, which will guide you
+                    through issuing the RFQ, and help you submit it to vendors.
+                 6. The Agency may add additional terms and conditions or enhancements
+                    to Schedule terms and conditions as long as they do not conflict with the
+                    base-level Schedule terms and conditions.
+                 7. The Agency will need to negotiate and make risk determinations and
+                    business decisions regarding some of the State’s T&Cs as noted in 4
+                    above.
+                 8. MAS pricing is a contract maximum and Agencies must negotiate final
+
+                                                                                   Rev. 2022.05.17
+
+                   pricing.
+
+           B. Procedures to use GSA Advantage:
+               1. The GSA Advantage! webpage is:
+                  https://www.gsaadvantage.gov/advantage/ws/main/start_page
+               2. The Agency will need to create a login to use.
+               3. The Agency will need search the category lists and choose items
+               4. The Agency must review the items contract’s specific Terms and
+                  Conditions (T&Cs) and decide if they will agree to them. In general,
+                  when state or local governments place orders, all terms and conditions
+                  of the contractor’s Schedule flow down to the order level, except the
+                  following:
+                       • Disputes Clause,
+                       • Patent Indemnity Clause,
+                       • Prompt Payment Clause, and
+                       • Certain Commercial Item Contract Terms and Conditions
+               5. The Agency may add additional terms and conditions or enhancements
+                  to Schedule terms and conditions as long as they do not conflict with the
+                  base-level Schedule terms and conditions.
+               6. The Agency will need to negotiate and make risk determinations and
+                  business decisions regarding some of the State’s T&Cs as noted in 4
+                  above.
+               7. MAS pricing is a contract maximum and Agencies must negotiate final
+                  pricing.
+
+ VI.    The Agency will evaluate the responses they receive, following their normal
+        procurement procedures for review and evaluation. The Agency should use the GSA
+        eLibrary to investigate the industry partners and research their detailed contract
+        information. The Agency may consult with the Statewide IT Procurement Office
+        during negotiations.
+
+VII.    The Agency will then send their award recommendation to the Statewide IT
+        Procurement Office. The Agency’s award recommendation must include:
+           A. The Agency negotiated pricing versus the MAS contract pricing.
+           B. A copy of the MAS applicable contract T&Cs
+           C. The additional State terms and conditions that the Agency negotiated.
+
+VIII.   After review, the Statewide IT Procurement Office will send their approval to the
+        Agency.
+            A. Make the award and issue a PO through eProcurement
+            B. Schedule contractors have the option of accepting orders placed by state and
+               local government buyers. They may decline an order, for any reason, within a
+               five-day period after receipt of the order.
+            C. State and local governments are responsible for ensuring that only authorized
+               representatives place orders against these Schedules.
+
+                                                                                  Rev. 2022.05.17
+
+IX.   The Statewide IT Procurement Office will then review the Agency award
+      recommendation for approval or disapproval.
+         A. If approved, the Agency will issue a Purchase Order (PO) to the awarded
+            vendor. Per the MAS, the Vendor has five (5) days to decide if they will
+            accept or decline the Agency’s PO.
+         B. If the Vendor does not accept the PO, then the Agency may select another
+            qualified and responsive Vendor after notifying the Statewide IT Procurement
+            Office.
+         C. Schedule contractors have the option of accepting orders placed by state and
+            local government buyers. They may decline an order, for any reason, within a
+            five-day period after receipt of the order.
+
+X.    If the Agency is unable to reach agreement with a Vendor using the MAS process,
+      the Agency may elect to proceed pursuant to applicable IT Procurement Rules and
+      procedures.
+
+                                                                              Rev. 2022.05.17

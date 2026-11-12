@@ -1,0 +1,57 @@
+                                                                           Approved:
+                          Information Technology Michael G. Leahy
+                                                                                                                       Jan 5, 2021
+                                                     _
+                            Policy and Standards Michael     _             Michael G. L eahy (Jan 5, 2021 08:54 EST)
+
+                                                         G. Leahy, Secretary                                             Date
+
+    # 20-02              Major IT Development Process (MITDP) Procedures
+Area(s):            ☒ Process             ☐ Procurement           ☐ Security                      ☐ Hardware             ☐ Web
+                    ☐ Facility            ☐ End-User              ☐ Software                      ☐ Network              ☐ Data
+                    ☐ Voice               ☐ Audit                 ☐ Other
+                    Replaces Other Policy: ☒ No           ☐ Yes
+
+Purpose: Establishes procedures for system development plans, system implementation, and oversight of Major IT
+Development Projects (MITDP), for appropriations made to an MITDP; requires that Units comply with standards
+adopted by the Department of Information Technology (Department); and sets forth that standards for these MITDP
+procedures may be amended from time to time, as deemed necessary by the Department.
+
+Policy Statement: The Maryland legislature has established a MITDP program. The Department Secretary reviews
+technology development projects and, based upon certain criteria designated in statute, may designate a project
+as an MITDP. The Secretary is responsible for both oversight of the implementation of the MITDP projects
+and the administration of the MITDP fund. For each MITDP, a covered Unit must submit an ITPR that details,
+among other things, the budget request for the MITDP. When appropriated, funds for MITDPs are designated as
+such, and general funds are appropriated in the MITDP fund. The Department and covered Units are required
+to follow all statutory requirements associated with MITDPs. The Department has adopted an MITDP
+standards manual that governs the administration of MITDPs. Covered Units are required to comply with this
+MITDP standards manual.
+
+Applicable Law & Other Policy: MD State Finance and Procurement Code Ann. § 3A-301-309. The
+Department’s “State of Maryland Re-Baselining Policy and Process”, “State of Maryland Independent Verification and
+Validation (IV & amp; V) Policy and Process”, and “State of Maryland Agile System Development Lifecycle (SDLC) Policy”
+are discontinued and are superseded by this Policy.
+
+Scope and Responsibilities: All executive branch units of state government, except those identified in Maryland
+Code, SF&P § 3A-302. Agency executives, managers and staff shall ensure compliance with this policy.
+
+Key Terms:
+Department of Information Technology (DoIT): An executive branch unit of Maryland state government, organized
+according to Maryland Code, State Finance and Procurement Article, § 3A.
+Information Technology Project Request (ITPR): A request submitted by a covered Unit to the Department regarding a
+proposed information technology project for major IT requests.
+Major Information Technology Development Project (MITDP): Any technology development project meeting the criteria
+as established in Maryland Code, SF&amp;P Article, § 3A-301.
+Policy: A statement of jurisdiction and methods to guide agencies in the management of IT resources and services.
+Units: All executive branch units of state government, except those identified in Maryland Code, SF&P § 3A-302.
+
+     DoIT Policy/Standard #20-02 (SR Draft 1)                                                                              Page 1 of 2
+
+Technical Specifications: Provided in the MITDP Standards Manual at (URL).
+
+Policy Review: By the DoIT IT Policy Review Board annually or as needed.
+
+Contact Information: Chair, IT Policy Review Board, doit-oea@maryland.gov 410-697-9724. The Policy #20-02
+steward is the DoIT Director, Enterprise Program Management Office.
+
+    DoIT Policy/Standard #20-02 (SR Draft 1)                                                     Page 2 of 2

@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 557,
+ "n_nodes": 892,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -137,6 +137,132 @@
    "path": "statutes/colorado/co-crs-24-85.md"
   },
   {
+   "id": "fl-st-282",
+   "title": "Chapter 282. Communications and Data Processing",
+   "doc_type": "statute",
+   "path": "statutes/florida/fl-st-282.md"
+  },
+  {
+   "id": "md-sfp-3-5-artificial-intelligence",
+   "title": "State Finance and Procurement Article, Title 3.5, Subtitle 8: Artificial intelligence (§§ 3.5-801 to 3.5-807)",
+   "doc_type": "statute",
+   "path": "statutes/maryland/md-sfp-3-5-artificial-intelligence.md"
+  },
+  {
+   "id": "md-sfp-3-5-department-of-information-technology",
+   "title": "State Finance and Procurement Article, Title 3.5: Definitions and the Department of Information Technology (§§ 3.5-101, 3.5-201 to 3.5-205)",
+   "doc_type": "statute",
+   "path": "statutes/maryland/md-sfp-3-5-department-of-information-technology.md"
+  },
+  {
+   "id": "md-sfp-3-5-digital-experience-and-mitdp-oversight",
+   "title": "State Finance and Procurement Article, Title 3.5, Subtitle 9: Maryland Office of Digital Experience, Digital Service and MITDP Oversight Division (§§ 3.5-901 to 3.5-907)",
+   "doc_type": "statute",
+   "path": "statutes/maryland/md-sfp-3-5-digital-experience-and-mitdp-oversight.md"
+  },
+  {
+   "id": "md-sfp-3-5-office-of-security-management",
+   "title": "State Finance and Procurement Article, Title 3.5, Subtitle 2A: Office of Security Management and the Maryland Cybersecurity Coordinating Council (§§ 3.5-2A-01 to 3.5-2A-06)",
+   "doc_type": "statute",
+   "path": "statutes/maryland/md-sfp-3-5-office-of-security-management.md"
+  },
+  {
+   "id": "md-sfp-3-5-powers-and-duties-of-the-secretary",
+   "title": "State Finance and Procurement Article, Title 3.5, Subtitle 3: Secretary of Information Technology, master plan, project oversight, investment fund, nonvisual access, data inventory and privacy officers (§§ 3.5-301 to 3.5-315, 3.5-317 to 3.5-319)",
+   "doc_type": "statute",
+   "path": "statutes/maryland/md-sfp-3-5-powers-and-duties-of-the-secretary.md"
+  },
+  {
+   "id": "md-sfp-3-5-telecommunications-and-cybersecurity-reporting",
+   "title": "State Finance and Procurement Article, Title 3.5, Subtitle 4: State telecommunications and networks, and cybersecurity reporting (§§ 3.5-401 to 3.5-406)",
+   "doc_type": "statute",
+   "path": "statutes/maryland/md-sfp-3-5-telecommunications-and-cybersecurity-reporting.md"
+  },
+  {
+   "id": "md-sg-10-1301-to-1308",
+   "title": "State Government Article, §§ 10-1301 to 10-1308: Protection of personal information held by State units",
+   "doc_type": "statute",
+   "path": "statutes/maryland/md-sg-10-1301-to-1308.md"
+  },
+  {
+   "id": "ma-gl-66a",
+   "title": "General Laws, Chapter 66A. Fair Information Practices",
+   "doc_type": "statute",
+   "path": "statutes/massachusetts/ma-gl-66a.md"
+  },
+  {
+   "id": "ma-gl-7d",
+   "title": "General Laws, Chapter 7D. Massachusetts Office of Information Technology",
+   "doc_type": "statute",
+   "path": "statutes/massachusetts/ma-gl-7d.md"
+  },
+  {
+   "id": "ma-gl-93h",
+   "title": "General Laws, Chapter 93H. Security Breaches",
+   "doc_type": "statute",
+   "path": "statutes/massachusetts/ma-gl-93h.md"
+  },
+  {
+   "id": "ma-gl-93i",
+   "title": "General Laws, Chapter 93I. Dispositions and Destruction of Records",
+   "doc_type": "statute",
+   "path": "statutes/massachusetts/ma-gl-93i.md"
+  },
+  {
+   "id": "mn-stat-13",
+   "title": "CHAPTER 13. GOVERNMENT DATA PRACTICES",
+   "doc_type": "statute",
+   "path": "statutes/minnesota/mn-stat-13.md"
+  },
+  {
+   "id": "mn-stat-16e",
+   "title": "CHAPTER 16E. DEPARTMENT OF INFORMATION TECHNOLOGY SERVICES",
+   "doc_type": "statute",
+   "path": "statutes/minnesota/mn-stat-16e.md"
+  },
+  {
+   "id": "nj-njsa-52-17b-193-2",
+   "title": "Cybersecurity incident reporting to the Office of Homeland Security and Preparedness",
+   "doc_type": "statute",
+   "path": "statutes/new-jersey/nj-njsa-52-17b-193-2.md"
+  },
+  {
+   "id": "nj-njsa-52-18a-224",
+   "title": "Office of Information Technology Reorganization Act",
+   "doc_type": "statute",
+   "path": "statutes/new-jersey/nj-njsa-52-18a-224.md"
+  },
+  {
+   "id": "nj-njsa-52-18a-233-1",
+   "title": "21st Century Integrated Digital Experience Act and handwritten-signature study",
+   "doc_type": "statute",
+   "path": "statutes/new-jersey/nj-njsa-52-18a-233-1.md"
+  },
+  {
+   "id": "nj-njsa-52-18a-234-1",
+   "title": "New Jersey Open Data Initiative",
+   "doc_type": "statute",
+   "path": "statutes/new-jersey/nj-njsa-52-18a-234-1.md"
+  },
+  {
+   "id": "nj-njsa-52-18a-234-8",
+   "title": "New Jersey Innovation Authority",
+   "doc_type": "statute",
+   "path": "statutes/new-jersey/nj-njsa-52-18a-234-8.md"
+  },
+  {
+   "id": "nj-njsa-52-27b-67-2",
+   "title": "Disposition of surplus State computers and electronic devices",
+   "doc_type": "statute",
+   "path": "statutes/new-jersey/nj-njsa-52-27b-67-2.md"
+  },
+  {
+   "id": "nj-njsa-56-8-161",
+   "title": "Security of personal information: definitions and disclosure of a breach of security",
+   "doc_type": "statute",
+   "path": "statutes/new-jersey/nj-njsa-56-8-161.md"
+  },
+  {
    "id": "ny-stt-art-1",
    "title": "State Technology Law, Article 1 - Office of Information Technology Services",
    "doc_type": "statute",
@@ -161,10 +287,34 @@
    "path": "statutes/new-york/ny-stt-art-4.md"
   },
   {
+   "id": "nc-gs-143-art-84",
+   "title": "General Statutes, Chapter 143, Article 84. Various Technology Regulations",
+   "doc_type": "statute",
+   "path": "statutes/north-carolina/nc-gs-143-art-84.md"
+  },
+  {
+   "id": "nc-gs-143b-art-15",
+   "title": "General Statutes, Chapter 143B, Article 15. Department of Information Technology",
+   "doc_type": "statute",
+   "path": "statutes/north-carolina/nc-gs-143b-art-15.md"
+  },
+  {
    "id": "or-ors-276a",
    "title": "Chapter 276A - Information Technology (2025 Edition)",
    "doc_type": "statute",
    "path": "statutes/oregon/or-ors-276a.md"
+  },
+  {
+   "id": "pa-act-69-1999-electronic-transactions",
+   "title": "Electronic Transactions Act",
+   "doc_type": "statute",
+   "path": "statutes/pennsylvania/pa-act-69-1999-electronic-transactions.md"
+  },
+  {
+   "id": "pa-act-94-2005-breach-of-personal-information-notification",
+   "title": "Breach of Personal Information Notification Act",
+   "doc_type": "statute",
+   "path": "statutes/pennsylvania/pa-act-94-2005-breach-of-personal-information-notification.md"
   },
   {
    "id": "tx-bc-552",
@@ -359,10 +509,64 @@
    "path": "rules/colorado/co-ccr-8-1501-9.md"
   },
   {
+   "id": "md-comar-14-33",
+   "title": "Subtitle 33 DEPARTMENT OF INFORMATION TECHNOLOGY",
+   "doc_type": "rule",
+   "path": "rules/maryland/md-comar-14-33.md"
+  },
+  {
+   "id": "ma-801-cmr-3",
+   "title": "801 CMR 3.00: Privacy and confidentiality",
+   "doc_type": "rule",
+   "path": "rules/massachusetts/ma-801-cmr-3.md"
+  },
+  {
+   "id": "ma-940-cmr-11",
+   "title": "940 CMR 11.00: Fair information practices act",
+   "doc_type": "rule",
+   "path": "rules/massachusetts/ma-940-cmr-11.md"
+  },
+  {
+   "id": "ma-950-cmr-120",
+   "title": "950 CMR 120.00: Information technology purchasing process",
+   "doc_type": "rule",
+   "path": "rules/massachusetts/ma-950-cmr-120.md"
+  },
+  {
+   "id": "ma-950-cmr-33",
+   "title": "950 CMR 33.00: Fair information practices regulations",
+   "doc_type": "rule",
+   "path": "rules/massachusetts/ma-950-cmr-33.md"
+  },
+  {
+   "id": "mn-rule-1205",
+   "title": "CHAPTER 1205, DATA PRACTICES",
+   "doc_type": "rule",
+   "path": "rules/minnesota/mn-rule-1205.md"
+  },
+  {
    "id": "ny-nycrr-551",
    "title": "CIO/OFT Personal Privacy Protection Regulations",
    "doc_type": "rule",
    "path": "rules/new-york/ny-nycrr-551.md"
+  },
+  {
+   "id": "nc-9-ncac-06a",
+   "title": "Subchapter 06A – Information Technology Procurement",
+   "doc_type": "rule",
+   "path": "rules/north-carolina/nc-9-ncac-06a.md"
+  },
+  {
+   "id": "nc-9-ncac-06b",
+   "title": "Subchapter 06B – Procurement Requests",
+   "doc_type": "rule",
+   "path": "rules/north-carolina/nc-9-ncac-06b.md"
+  },
+  {
+   "id": "nc-9-ncac-06d",
+   "title": "Subchapter 06D – Government Data Analytics Center",
+   "doc_type": "rule",
+   "path": "rules/north-carolina/nc-9-ncac-06d.md"
   },
   {
    "id": "or-oar-128-20",
@@ -431,10 +635,142 @@
    "path": "executive-orders/california/ca-eo-n-9-26.md"
   },
   {
+   "id": "fl-eo-22-216",
+   "title": "Strengthening Florida Cybersecurity Against Foreign Adversaries",
+   "doc_type": "executive_order",
+   "path": "executive-orders/florida/fl-eo-22-216.md"
+  },
+  {
+   "id": "md-eo-01-01-1983-18",
+   "title": "Privacy and State Data System Security",
+   "doc_type": "executive_order",
+   "path": "executive-orders/maryland/md-eo-01-01-1983-18.md"
+  },
+  {
+   "id": "md-eo-01-01-2007-26",
+   "title": "Information Technology",
+   "doc_type": "executive_order",
+   "path": "executive-orders/maryland/md-eo-01-01-2007-26.md"
+  },
+  {
+   "id": "md-eo-01-01-2019-07",
+   "title": "Maryland Cyber Defense Initiative",
+   "doc_type": "executive_order",
+   "path": "executive-orders/maryland/md-eo-01-01-2019-07.md"
+  },
+  {
+   "id": "md-eo-01-01-2021-09",
+   "title": "State Chief Data Officer",
+   "doc_type": "executive_order",
+   "path": "executive-orders/maryland/md-eo-01-01-2021-09.md"
+  },
+  {
+   "id": "md-eo-01-01-2021-10",
+   "title": "Maryland Data Privacy",
+   "doc_type": "executive_order",
+   "path": "executive-orders/maryland/md-eo-01-01-2021-10.md"
+  },
+  {
+   "id": "md-eo-01-01-2022-03",
+   "title": "Maryland Total Human-services Integrated Network",
+   "doc_type": "executive_order",
+   "path": "executive-orders/maryland/md-eo-01-01-2022-03.md"
+  },
+  {
+   "id": "md-eo-01-01-2024-02",
+   "title": "Catalyzing the Responsible and Productive Use of Artificial Intelligence in Maryland State Government",
+   "doc_type": "executive_order",
+   "path": "executive-orders/maryland/md-eo-01-01-2024-02.md"
+  },
+  {
+   "id": "ma-eo-111",
+   "title": "No. 111: Fair information practices",
+   "doc_type": "executive_order",
+   "path": "executive-orders/massachusetts/ma-eo-111.md"
+  },
+  {
+   "id": "ma-eo-166",
+   "title": "No. 166: Providing for the establishment of an electronic data processing center and planning unit in the Executive Office for Administration and Finance",
+   "doc_type": "executive_order",
+   "path": "executive-orders/massachusetts/ma-eo-166.md"
+  },
+  {
+   "id": "ma-eo-286",
+   "title": "No. 286: Software Copyright Compliance",
+   "doc_type": "executive_order",
+   "path": "executive-orders/massachusetts/ma-eo-286.md"
+  },
+  {
+   "id": "ma-eo-602",
+   "title": "No. 602: Establishing the Massachusetts Cyber Incident Response Team",
+   "doc_type": "executive_order",
+   "path": "executive-orders/massachusetts/ma-eo-602.md"
+  },
+  {
+   "id": "ma-eo-614",
+   "title": "No. 614: Establishing the Digital Accessibility and Equity Governance Board",
+   "doc_type": "executive_order",
+   "path": "executive-orders/massachusetts/ma-eo-614.md"
+  },
+  {
+   "id": "ma-eo-629",
+   "title": "No. 629: Establishing an Artificial Intelligence Strategic Task Force",
+   "doc_type": "executive_order",
+   "path": "executive-orders/massachusetts/ma-eo-629.md"
+  },
+  {
+   "id": "mn-eo-22-20",
+   "title": "Directing State Agencies to Implement Cybersecurity Measures to Protect Critical Infrastructure in Minnesota",
+   "doc_type": "executive_order",
+   "path": "executive-orders/minnesota/mn-eo-22-20.md"
+  },
+  {
+   "id": "nj-eo-christie-178",
+   "title": "Executive Order No. 178 (Christie): New Jersey Cybersecurity and Communications Integration Cell",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-jersey/nj-eo-christie-178.md"
+  },
+  {
+   "id": "nj-eo-christie-225",
+   "title": "Executive Order No. 225 (Christie): Executive Branch information technology consolidation",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-jersey/nj-eo-christie-225.md"
+  },
+  {
+   "id": "nj-eo-corzine-42",
+   "title": "Executive Order No. 42 (Corzine): Chief Technology Officer and Project Review Board (the Technology Governing Board provisions rescinded by Executive Order No. 414, 2026)",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-jersey/nj-eo-corzine-42.md"
+  },
+  {
+   "id": "nj-eo-murphy-346",
+   "title": "Executive Order No. 346 (Murphy): Artificial Intelligence Task Force",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-jersey/nj-eo-murphy-346.md"
+  },
+  {
+   "id": "nj-eo-murphy-404",
+   "title": "Executive Order No. 404 (Murphy): Office of Homeland Security and Preparedness",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-jersey/nj-eo-murphy-404.md"
+  },
+  {
+   "id": "nj-eo-murphy-44",
+   "title": "Executive Order No. 44 (Murphy): cybersecurity of elections infrastructure",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-jersey/nj-eo-murphy-44.md"
+  },
+  {
    "id": "ny-eo-117",
    "title": "Establishing the Position of Chief Information Officer (CIO) of the State of New York",
    "doc_type": "executive_order",
    "path": "executive-orders/new-york/ny-eo-117.md"
+  },
+  {
+   "id": "nc-eo-24",
+   "title": "Executive Order No. 24: Advancing Trustworthy Artificial Intelligence That Benefits All North Carolinians",
+   "doc_type": "executive_order",
+   "path": "executive-orders/north-carolina/nc-eo-24.md"
   },
   {
    "id": "or-eo-23-26",
@@ -447,6 +783,36 @@
    "title": "Establishing Responsible Artificial Intelligence Procurement Standards for State Government",
    "doc_type": "executive_order",
    "path": "executive-orders/oregon/or-eo-26-26.md"
+  },
+  {
+   "id": "pa-eo-2016-06",
+   "title": "Enterprise Information Technology Governance",
+   "doc_type": "executive_order",
+   "path": "executive-orders/pennsylvania/pa-eo-2016-06.md"
+  },
+  {
+   "id": "pa-eo-2016-07",
+   "title": "Open Data, Data Management, and Data Governance",
+   "doc_type": "executive_order",
+   "path": "executive-orders/pennsylvania/pa-eo-2016-07.md"
+  },
+  {
+   "id": "pa-eo-2023-01",
+   "title": "Pennsylvania Longitudinal Data System (PALDS)",
+   "doc_type": "executive_order",
+   "path": "executive-orders/pennsylvania/pa-eo-2023-01.md"
+  },
+  {
+   "id": "pa-eo-2023-08",
+   "title": "Bolstering Service Delivery through a Digital Experience Strategy",
+   "doc_type": "executive_order",
+   "path": "executive-orders/pennsylvania/pa-eo-2023-08.md"
+  },
+  {
+   "id": "pa-eo-2023-19",
+   "title": "Expanding and Governing the Use of Generative Artificial Intelligence Technologies Within the Commonwealth of Pennsylvania",
+   "doc_type": "executive_order",
+   "path": "executive-orders/pennsylvania/pa-eo-2023-19.md"
   },
   {
    "id": "va-ed-6-2026",
@@ -1283,6 +1649,648 @@
    "path": "policies/colorado/co-oit-real-time-billing-dispute-process-agency-steps.md"
   },
   {
+   "id": "fl-fds-60gg-1-faq",
+   "title": "Rule Chapter 60GG-1 F.A.C. Frequently Asked Questions",
+   "doc_type": "policy",
+   "path": "policies/florida/fl-fds-60gg-1-faq.md"
+  },
+  {
+   "id": "fl-fds-npv-guide",
+   "title": "Net Present Value Guide for State Information Technology Projects",
+   "doc_type": "policy",
+   "path": "policies/florida/fl-fds-npv-guide.md"
+  },
+  {
+   "id": "fl-fds-prohibited-applications-list",
+   "title": "Prohibited Applications on Government Devices List",
+   "doc_type": "policy",
+   "path": "policies/florida/fl-fds-prohibited-applications-list.md"
+  },
+  {
+   "id": "md-doit-ai-card-call-recording",
+   "title": "AI Governance Card: AI-Powered Call Recording & Transcription Tools",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-ai-card-call-recording.md"
+  },
+  {
+   "id": "md-doit-ai-card-coding-assistants",
+   "title": "AI Governance Card: AI-Powered Coding Assistants",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-ai-card-coding-assistants.md"
+  },
+  {
+   "id": "md-doit-ai-card-gemini-workspace",
+   "title": "AI Governance Card: Gemini Workspace",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-ai-card-gemini-workspace.md"
+  },
+  {
+   "id": "md-doit-ai-card-mcp-servers",
+   "title": "MCP SERVER SECURITY",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-ai-card-mcp-servers.md"
+  },
+  {
+   "id": "md-doit-bod-2026-03-06-kev",
+   "title": "Binding Operational Directive 2026-03-06: Remediation of Known Exploited Vulnerabilities (KEV) on Public-Facing Assets",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-bod-2026-03-06-kev.md"
+  },
+  {
+   "id": "md-doit-bod-mandatory-enrollment-md-isac",
+   "title": "Mandatory Enrollment in the Maryland Information Sharing and Analysis Center (MD-ISAC) BOD 25-01",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-bod-mandatory-enrollment-md-isac.md"
+  },
+  {
+   "id": "md-doit-bod-statewide-vulnerability-disclosure-program",
+   "title": "Statewide Vulnerability Disclosure Program BOD 25-3",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-bod-statewide-vulnerability-disclosure-program.md"
+  },
+  {
+   "id": "md-doit-data-classification-policy",
+   "title": "Data Classification Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-data-classification-policy.md"
+  },
+  {
+   "id": "md-doit-data-governance-policy",
+   "title": "Maryland Data Governance Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-data-governance-policy.md"
+  },
+  {
+   "id": "md-doit-desktops-laptops-policy",
+   "title": "Desktops/Laptops",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-desktops-laptops-policy.md"
+  },
+  {
+   "id": "md-doit-digital-accessibility-policy",
+   "title": "State of Maryland Digital Accessibility Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-digital-accessibility-policy.md"
+  },
+  {
+   "id": "md-doit-emergency-binding-operational-directives-policy",
+   "title": "Cybersecurity Policy Emergency and Binding Operational Directives",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-emergency-binding-operational-directives-policy.md"
+  },
+  {
+   "id": "md-doit-foreign-travel-policy",
+   "title": "State Information Security Foreign Travel Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-foreign-travel-policy.md"
+  },
+  {
+   "id": "md-doit-guidelines-public-disclosure-cyber-incidents",
+   "title": "Guidelines for the Public Disclosure of Cybersecurity Incidents",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-guidelines-public-disclosure-cyber-incidents.md"
+  },
+  {
+   "id": "md-doit-incident-reporting-state-government",
+   "title": "Cybersecurity Incident Reporting Requirements for State Government",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-incident-reporting-state-government.md"
+  },
+  {
+   "id": "md-doit-it-security-policy",
+   "title": "IT Security Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-it-security-policy.md"
+  },
+  {
+   "id": "md-doit-nonvisual-access-regulatory-standards",
+   "title": "Nonvisual Access Regulatory Standards",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-nonvisual-access-regulatory-standards.md"
+  },
+  {
+   "id": "md-doit-open-source-policy",
+   "title": "Maryland Open Source Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-open-source-policy.md"
+  },
+  {
+   "id": "md-doit-policy-20-01-it-policy-program",
+   "title": "IT Policy Program & Guidelines",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-20-01-it-policy-program.md"
+  },
+  {
+   "id": "md-doit-policy-20-02-mitdp-procedures",
+   "title": "Major IT Development Process (MITDP) Procedures",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-20-02-mitdp-procedures.md"
+  },
+  {
+   "id": "md-doit-policy-20-03-enterprise-architecture",
+   "title": "Enterprise Architecture Methods",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-20-03-enterprise-architecture.md"
+  },
+  {
+   "id": "md-doit-policy-20-06-mitdp-funds-distribution-procedure",
+   "title": "MITDP Funds Distribution Procedure",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-20-06-mitdp-funds-distribution-procedure.md"
+  },
+  {
+   "id": "md-doit-policy-20-08-it-security-boundary-protection",
+   "title": "IT Security Boundary Protection Baseline",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-20-08-it-security-boundary-protection.md"
+  },
+  {
+   "id": "md-doit-policy-20-10-it-equipment-support-for-telework",
+   "title": "IT Equipment Support for Telework",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-20-10-it-equipment-support-for-telework.md"
+  },
+  {
+   "id": "md-doit-policy-20-11-electronic-communication-recording",
+   "title": "Electronic Communication Recording and Storage",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-20-11-electronic-communication-recording.md"
+  },
+  {
+   "id": "md-doit-policy-20-13-resource-sharing-agreement-programs",
+   "title": "Resource Sharing Agreement Programs",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-20-13-resource-sharing-agreement-programs.md"
+  },
+  {
+   "id": "md-doit-policy-21-01-key-terms",
+   "title": "Key Terms, Definitions, and Abbreviations",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-21-01-key-terms.md"
+  },
+  {
+   "id": "md-doit-policy-special-it-request-portfolio",
+   "title": "Special IT Request Portfolio",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-policy-special-it-request-portfolio.md"
+  },
+  {
+   "id": "md-doit-prohibited-technologies-policy",
+   "title": "Prohibited Technologies Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-prohibited-technologies-policy.md"
+  },
+  {
+   "id": "md-doit-responsible-ai-implementation-guidance",
+   "title": "The State of Maryland’s Responsible AI Policy Implementation Guidance",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-responsible-ai-implementation-guidance.md"
+  },
+  {
+   "id": "md-doit-responsible-ai-policy",
+   "title": "The State of Maryland’s Responsible AI Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-responsible-ai-policy.md"
+  },
+  {
+   "id": "md-doit-rsa-program-policy-manual",
+   "title": "Resource Sharing Agreements Program Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-rsa-program-policy-manual.md"
+  },
+  {
+   "id": "md-doit-teleworking-printer-guidance",
+   "title": "Teleworking Printer Guidance",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-teleworking-printer-guidance.md"
+  },
+  {
+   "id": "md-doit-website-domain-policy",
+   "title": "Maryland.gov Website Domain Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-doit-website-domain-policy.md"
+  },
+  {
+   "id": "md-pol-100-01",
+   "title": "Cybersecurity & Privacy Governance Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-100-01.md"
+  },
+  {
+   "id": "md-pol-201-01",
+   "title": "Cybersecurity Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-201-01.md"
+  },
+  {
+   "id": "md-pol-202-01",
+   "title": "Asset Management Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-202-01.md"
+  },
+  {
+   "id": "md-pol-203-01",
+   "title": "Acceptable Use Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-203-01.md"
+  },
+  {
+   "id": "md-pol-204-01",
+   "title": "Access Control Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-204-01.md"
+  },
+  {
+   "id": "md-pol-205-01",
+   "title": "Data Protection & Privacy Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-205-01.md"
+  },
+  {
+   "id": "md-pol-206-01",
+   "title": "Awareness & Training Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-206-01.md"
+  },
+  {
+   "id": "md-pol-207-01",
+   "title": "System and Network Security Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-207-01.md"
+  },
+  {
+   "id": "md-pol-208-01",
+   "title": "Continuous Monitoring Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-208-01.md"
+  },
+  {
+   "id": "md-pol-209-01",
+   "title": "Incident Response Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-209-01.md"
+  },
+  {
+   "id": "md-pol-210-01",
+   "title": "Continuity of Operations Policy",
+   "doc_type": "policy",
+   "path": "policies/maryland/md-pol-210-01.md"
+  },
+  {
+   "id": "ma-ad-2018-1",
+   "title": "Administrative Directive 2018-1 Enterprise Security Policies and Awareness Training",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-ad-2018-1.md"
+  },
+  {
+   "id": "ma-ad-2021-1",
+   "title": "Administrative Directive 2021-1 IT Standard Operating Environment",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-ad-2021-1.md"
+  },
+  {
+   "id": "ma-ad-2021-2",
+   "title": "Administrative Directive 2021-2 Retirement of Windows 7 Operating System and Server Operating Systems Modernization",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-ad-2021-2.md"
+  },
+  {
+   "id": "ma-ad-2022-1",
+   "title": "Administrative Directive 2022-1 Security Incident Reporting",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-ad-2022-1.md"
+  },
+  {
+   "id": "ma-ad-2024-1-guidance",
+   "title": "Guidance on Administrative Directive 2024-1: Oversight and Approval of IT Procurements",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-ad-2024-1-guidance.md"
+  },
+  {
+   "id": "ma-ad-2024-1",
+   "title": "Administrative Directive 2024-1: Oversight and Approval of IT Procurements",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-ad-2024-1.md"
+  },
+  {
+   "id": "ma-ai-001",
+   "title": "Enterprise Use and Development of Generative Artificial Intelligence Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-ai-001.md"
+  },
+  {
+   "id": "ma-edp-01",
+   "title": "Enterprise Data Privacy Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-edp-01.md"
+  },
+  {
+   "id": "ma-enterprise-digital-accessibility-policy",
+   "title": "Enterprise Digital Accessibility Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-enterprise-digital-accessibility-policy.md"
+  },
+  {
+   "id": "ma-isp-001",
+   "title": "ISP.001 Information Security Governance Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-001.md"
+  },
+  {
+   "id": "ma-isp-002",
+   "title": "ISP.002 Acceptable Use Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-002.md"
+  },
+  {
+   "id": "ma-isp-003",
+   "title": "ISP.003 Access Management Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-003.md"
+  },
+  {
+   "id": "ma-isp-004",
+   "title": "ISP.004 Asset Management Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-004.md"
+  },
+  {
+   "id": "ma-isp-005",
+   "title": "ISP.005 Incident Response Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-005.md"
+  },
+  {
+   "id": "ma-isp-006",
+   "title": "ISP.006 Change and Configuration Management Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-006.md"
+  },
+  {
+   "id": "ma-isp-007",
+   "title": "ISP.007 Physical and Environmental Security Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-007.md"
+  },
+  {
+   "id": "ma-isp-008",
+   "title": "ISP.008 Software and Application Management Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-008.md"
+  },
+  {
+   "id": "ma-isp-009",
+   "title": "ISP.009 Third Party Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-009.md"
+  },
+  {
+   "id": "ma-isp-010",
+   "title": "ISP.010 Vulnerability and Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-isp-010.md"
+  },
+  {
+   "id": "ma-massgov-privacy-policy",
+   "title": "Mass.gov Privacy Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-massgov-privacy-policy.md"
+  },
+  {
+   "id": "ma-secure-email-terms",
+   "title": "Secure Email Terms of Use",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-secure-email-terms.md"
+  },
+  {
+   "id": "ma-soe-001",
+   "title": "Guidance on Administrative Directive 2021-1: IT Standard Operating Environment",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-soe-001.md"
+  },
+  {
+   "id": "ma-website-domain-policy",
+   "title": "Website Domain Policy",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-website-domain-policy.md"
+  },
+  {
+   "id": "ma-zoom-memo",
+   "title": "Acceptable Use of Zoom and other Collaboration Tools",
+   "doc_type": "policy",
+   "path": "policies/massachusetts/ma-zoom-memo.md"
+  },
+  {
+   "id": "mn-mnit-icam-policy",
+   "title": "Identity, Credential, and Access Management Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-icam-policy.md"
+  },
+  {
+   "id": "mn-mnit-isrm-program-policy",
+   "title": "Information Security and Risk Management Program Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-isrm-program-policy.md"
+  },
+  {
+   "id": "mn-mnit-it-disaster-recovery-policy",
+   "title": "Information Technology Disaster Recovery Planning Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-it-disaster-recovery-policy.md"
+  },
+  {
+   "id": "mn-mnit-physical-environmental-policy",
+   "title": "Physical and Environmental Security Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-physical-environmental-policy.md"
+  },
+  {
+   "id": "mn-mnit-secure-development-acquisition-policy",
+   "title": "Secure Systems Development and Acquisition Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-secure-development-acquisition-policy.md"
+  },
+  {
+   "id": "mn-mnit-security-monitoring-response-policy",
+   "title": "Security Monitoring and Response Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-security-monitoring-response-policy.md"
+  },
+  {
+   "id": "mn-mnit-supply-chain-risk-policy",
+   "title": "Supply Chain Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-supply-chain-risk-policy.md"
+  },
+  {
+   "id": "mn-mnit-technical-security-policy",
+   "title": "Technical Security Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-technical-security-policy.md"
+  },
+  {
+   "id": "mn-mnit-threat-vulnerability-policy",
+   "title": "Threat and Vulnerability Management Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-threat-vulnerability-policy.md"
+  },
+  {
+   "id": "mn-mnit-vulnerability-disclosure-policy",
+   "title": "Vulnerability Disclosure Policy",
+   "doc_type": "policy",
+   "path": "policies/minnesota/mn-mnit-vulnerability-disclosure-policy.md"
+  },
+  {
+   "id": "nj-njoit-06-06",
+   "title": "State of New Jersey Online Disclaimer Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-06-06.md"
+  },
+  {
+   "id": "nj-njoit-07-10",
+   "title": "Use of Statewide Disaster Recovery Facilities Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-07-10.md"
+  },
+  {
+   "id": "nj-njoit-09-05",
+   "title": "Information Security Payment Card Industry (PCI) Data Security Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-09-05.md"
+  },
+  {
+   "id": "nj-njoit-09-11",
+   "title": "Business Entity, IT Services and/or Extranet Policy and Procedure",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-09-11.md"
+  },
+  {
+   "id": "nj-njoit-11-05",
+   "title": "Review and Approval of Agency Request for Proposal Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-11-05.md"
+  },
+  {
+   "id": "nj-njoit-13-09",
+   "title": "Online Privacy Notice Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-13-09.md"
+  },
+  {
+   "id": "nj-njoit-14-11",
+   "title": "Internet and Statewide Intranet Presence for New Jersey State Government Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-14-11.md"
+  },
+  {
+   "id": "nj-njoit-15-03",
+   "title": "Firewall Management Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-15-03.md"
+  },
+  {
+   "id": "nj-njoit-15-05",
+   "title": "State Telecommunication Coordinators Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-15-05.md"
+  },
+  {
+   "id": "nj-njoit-15-06",
+   "title": "Internet Access Policy for New Jersey State Agencies",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-15-06.md"
+  },
+  {
+   "id": "nj-njoit-16-02-p1",
+   "title": "Financial Reporting and Accountability for Information Technology Expenditures Procedure",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-16-02-p1.md"
+  },
+  {
+   "id": "nj-njoit-16-02",
+   "title": "Financial Reporting and Accountability for Information Technology Expenditures Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-16-02.md"
+  },
+  {
+   "id": "nj-njoit-16-03",
+   "title": "Enterprise Technology Solution Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-16-03.md"
+  },
+  {
+   "id": "nj-njoit-16-05-p1",
+   "title": "System Architecture Review (SAR) Procedure",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-16-05-p1.md"
+  },
+  {
+   "id": "nj-njoit-16-05",
+   "title": "System Architecture Review (SAR) Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-16-05.md"
+  },
+  {
+   "id": "nj-njoit-17-03",
+   "title": "Enterprise Information Security Governance and Management Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-17-03.md"
+  },
+  {
+   "id": "nj-njoit-18-01",
+   "title": "Software Asset Reporting Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-18-01.md"
+  },
+  {
+   "id": "nj-njoit-18-02",
+   "title": "Information Security Policy",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-18-02.md"
+  },
+  {
+   "id": "nj-njoit-19-01",
+   "title": "Enterprise Apple Developer Account",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-19-01.md"
+  },
+  {
+   "id": "nj-njoit-20-01-a",
+   "title": "Enterprise Public Cloud Security Foundations, Risks, and Responsibilities Overview",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-20-01-a.md"
+  },
+  {
+   "id": "nj-njoit-20-01",
+   "title": "Enterprise Cloud Computing Guidelines",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-20-01.md"
+  },
+  {
+   "id": "nj-njoit-22-07",
+   "title": "Enterprise Infrastructure Consolidation Guidelines",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-22-07.md"
+  },
+  {
+   "id": "nj-njoit-25-oit-001",
+   "title": "State of New Jersey Guidance on Responsible Use of Generative AI",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-25-oit-001.md"
+  },
+  {
+   "id": "nj-njoit-cybersecurity-incident-response-plan",
+   "title": "Cybersecurity Incident Response Plan",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-njoit-cybersecurity-incident-response-plan.md"
+  },
+  {
+   "id": "nj-treasury-circular-24-04",
+   "title": "Procurements of Information Technology (IT) Hardware, Software, Subscription-Based Solutions and Related Services and Non-IT Equipment",
+   "doc_type": "policy",
+   "path": "policies/new-jersey/nj-treasury-circular-24-04.md"
+  },
+  {
    "id": "ny-its-g26-002",
    "title": "Lake Ontario Map Label Retention",
    "doc_type": "policy",
@@ -1479,6 +2487,300 @@
    "title": "Cybersecurity Supply Chain Risk Management",
    "doc_type": "policy",
    "path": "policies/new-york/ny-nys-p26-001.md"
+  },
+  {
+   "id": "nc-143-805-reporting-memo",
+   "title": "Reporting Requirements for Public Agencies",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-143-805-reporting-memo.md"
+  },
+  {
+   "id": "nc-acceptable-use-policy",
+   "title": "Statewide Acceptable Use Policy",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-acceptable-use-policy.md"
+  },
+  {
+   "id": "nc-ai-responsible-use-framework",
+   "title": "North Carolina State Government Responsible Use of Artificial Intelligence Framework",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-ai-responsible-use-framework.md"
+  },
+  {
+   "id": "nc-clean-desk-procedure",
+   "title": "Clean Desk Procedure",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-clean-desk-procedure.md"
+  },
+  {
+   "id": "nc-continuous-monitoring-plan-2018",
+   "title": "Continuous Monitoring Plan (2018)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-continuous-monitoring-plan-2018.md"
+  },
+  {
+   "id": "nc-copilot-m365-policy",
+   "title": "Copilot for Microsoft 365",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-copilot-m365-policy.md"
+  },
+  {
+   "id": "nc-corrective-action-plan-instructions",
+   "title": "Corrective Action Plan (CAP) Instructions",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-corrective-action-plan-instructions.md"
+  },
+  {
+   "id": "nc-data-classification-policy",
+   "title": "Statewide Data Classification & Handling Policy",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-data-classification-policy.md"
+  },
+  {
+   "id": "nc-fipp-memo",
+   "title": "State Adoption of Fair Information Practice Principles",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-fipp-memo.md"
+  },
+  {
+   "id": "nc-former-email-mailbox-policy",
+   "title": "Former Email Mailbox Policy",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-former-email-mailbox-policy.md"
+  },
+  {
+   "id": "nc-gen-ai-use-policy",
+   "title": "Use of Publicly Available Generative Artificial Intelligence",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-gen-ai-use-policy.md"
+  },
+  {
+   "id": "nc-gsa-contract-purchasing",
+   "title": "U.S. General Services Administration Contract Purchasing Procedures",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-gsa-contract-purchasing.md"
+  },
+  {
+   "id": "nc-high-risk-applications-policy",
+   "title": "High-Risk Applications Policy",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-high-risk-applications-policy.md"
+  },
+  {
+   "id": "nc-international-travel-policy",
+   "title": "Statewide International Travel Policy",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-international-travel-policy.md"
+  },
+  {
+   "id": "nc-it-glossary",
+   "title": "Statewide Glossary of Information Technology Terms",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-it-glossary.md"
+  },
+  {
+   "id": "nc-it-procurement-manual",
+   "title": "IT Procurement Policies & Procedures",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-it-procurement-manual.md"
+  },
+  {
+   "id": "nc-it-procurement-pressing-needs",
+   "title": "IT Procurement Guidance for Pressing Needs",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-it-procurement-pressing-needs.md"
+  },
+  {
+   "id": "nc-m365-agency-requirements-policy",
+   "title": "Microsoft 365 Agency Requirements for Email and Collaboration Services",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-m365-agency-requirements-policy.md"
+  },
+  {
+   "id": "nc-mandatory-https-memo",
+   "title": "Mandatory HTTPS for Public Sites",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-mandatory-https-memo.md"
+  },
+  {
+   "id": "nc-mobile-device-management-policy",
+   "title": "Mobile Device Management Policy",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-mobile-device-management-policy.md"
+  },
+  {
+   "id": "nc-nist-rmf-adoption-memo",
+   "title": "State Adoption of NIST Risk Management Framework",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-nist-rmf-adoption-memo.md"
+  },
+  {
+   "id": "nc-organizational-threat-management-policy",
+   "title": "Statewide Organizational Threat Management Policy",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-organizational-threat-management-policy.md"
+  },
+  {
+   "id": "nc-privacy-data-protection-policy",
+   "title": "Statewide Privacy & Data Protection Policy",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-privacy-data-protection-policy.md"
+  },
+  {
+   "id": "nc-pta-pia-guide-agencies",
+   "title": "PTA & PIA User Guide for State Agencies",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-pta-pia-guide-agencies.md"
+  },
+  {
+   "id": "nc-pta-pia-guide-ncdit",
+   "title": "PTA & PIA User Guide for NCDIT Employees",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-pta-pia-guide-ncdit.md"
+  },
+  {
+   "id": "nc-pta-pia-procedure",
+   "title": "Statewide Privacy Threshold Analysis & Privacy Impact Assessment Procedure",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-pta-pia-procedure.md"
+  },
+  {
+   "id": "nc-scio-sec-301",
+   "title": "Access Control Policy (AC)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-301.md"
+  },
+  {
+   "id": "nc-scio-sec-302",
+   "title": "Awareness and Training Policy (AT)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-302.md"
+  },
+  {
+   "id": "nc-scio-sec-303",
+   "title": "Audit and Accountability Policy (AU)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-303.md"
+  },
+  {
+   "id": "nc-scio-sec-304",
+   "title": "Security Assessment and Authorization Policy (CA)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-304.md"
+  },
+  {
+   "id": "nc-scio-sec-305",
+   "title": "Configuration Management Policy (CM)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-305.md"
+  },
+  {
+   "id": "nc-scio-sec-306",
+   "title": "Contingency Planning Policy (CP)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-306.md"
+  },
+  {
+   "id": "nc-scio-sec-307",
+   "title": "Identification and Authentication Policy (IA)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-307.md"
+  },
+  {
+   "id": "nc-scio-sec-308",
+   "title": "Incident Response Policy (IR)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-308.md"
+  },
+  {
+   "id": "nc-scio-sec-309",
+   "title": "Maintenance Policy (MA)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-309.md"
+  },
+  {
+   "id": "nc-scio-sec-310",
+   "title": "Media Protection Policy (MP)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-310.md"
+  },
+  {
+   "id": "nc-scio-sec-311",
+   "title": "Personnel Security Policy (PS)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-311.md"
+  },
+  {
+   "id": "nc-scio-sec-312",
+   "title": "Security Planning Policy (PL)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-312.md"
+  },
+  {
+   "id": "nc-scio-sec-313",
+   "title": "Physical and Environmental Protection Policy (PE)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-313.md"
+  },
+  {
+   "id": "nc-scio-sec-314",
+   "title": "Risk Assessment Policy (RA)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-314.md"
+  },
+  {
+   "id": "nc-scio-sec-315",
+   "title": "System and Services Acquisition Policy (SA)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-315.md"
+  },
+  {
+   "id": "nc-scio-sec-316",
+   "title": "System and Communications Protection Policy (SC)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-316.md"
+  },
+  {
+   "id": "nc-scio-sec-317",
+   "title": "System and Information Integrity Policy (SI)",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-317.md"
+  },
+  {
+   "id": "nc-scio-sec-318",
+   "title": "Supply Chain Risk Management",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-scio-sec-318.md"
+  },
+  {
+   "id": "nc-secure-cloud-storage-phase-2",
+   "title": "Secure Cloud Storage, File Sharing and Collaboration - Phase II",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-secure-cloud-storage-phase-2.md"
+  },
+  {
+   "id": "nc-securing-multifunctional-devices",
+   "title": "Securing Multifunctional Devices (MFDs) and Network Printers",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-securing-multifunctional-devices.md"
+  },
+  {
+   "id": "nc-sl-2024-26-pornography-memo",
+   "title": "Prohibition on Viewing Pornography on Government Networks & Devices",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-sl-2024-26-pornography-memo.md"
+  },
+  {
+   "id": "nc-statewide-information-security-manual",
+   "title": "Statewide Information Security Manual",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-statewide-information-security-manual.md"
+  },
+  {
+   "id": "nc-third-party-cloud-service-risk",
+   "title": "Third-Party Cloud Service Risk Authorization & Management",
+   "doc_type": "policy",
+   "path": "policies/north-carolina/nc-third-party-cloud-service-risk.md"
   },
   {
    "id": "or-das-107-004-010",
@@ -1719,6 +3021,282 @@
    "title": "Privacy Guidance for the handling and protection of personal information by state of Oregon agencies",
    "doc_type": "policy",
    "path": "policies/oregon/or-eis-privacy-guidance.md"
+  },
+  {
+   "id": "pa-itp-access-management-policy",
+   "title": "Access Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-access-management-policy.md"
+  },
+  {
+   "id": "pa-itp-artificial-intelligence-policy",
+   "title": "Artificial Intelligence Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-artificial-intelligence-policy.md"
+  },
+  {
+   "id": "pa-itp-business-continuity-policy",
+   "title": "Business Continuity Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-business-continuity-policy.md"
+  },
+  {
+   "id": "pa-itp-business-intelligence-policy",
+   "title": "Business Intelligence Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-business-intelligence-policy.md"
+  },
+  {
+   "id": "pa-itp-centralized-email-policy",
+   "title": "Centralized Email Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-centralized-email-policy.md"
+  },
+  {
+   "id": "pa-itp-change-management-policy",
+   "title": "Change Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-change-management-policy.md"
+  },
+  {
+   "id": "pa-itp-commonwealth-application-certification-and-accreditation-policy",
+   "title": "Commonwealth Application Certification and Accreditation Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-commonwealth-application-certification-and-accreditation-policy.md"
+  },
+  {
+   "id": "pa-itp-data-classification-policy",
+   "title": "Data Classification Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-data-classification-policy.md"
+  },
+  {
+   "id": "pa-itp-data-management-policy",
+   "title": "Data Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-data-management-policy.md"
+  },
+  {
+   "id": "pa-itp-digital-accessibility-policy",
+   "title": "Digital Accessibility Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-digital-accessibility-policy.md"
+  },
+  {
+   "id": "pa-itp-electronic-signature-policy",
+   "title": "Electronic Signature Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-electronic-signature-policy.md"
+  },
+  {
+   "id": "pa-itp-encryption-policy",
+   "title": "Encryption Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-encryption-policy.md"
+  },
+  {
+   "id": "pa-itp-enterprise-host-security-policy",
+   "title": "Enterprise Host Security Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-enterprise-host-security-policy.md"
+  },
+  {
+   "id": "pa-itp-enterprise-resource-planning-erp-management-policy",
+   "title": "Enterprise Resource Planning (ERP) Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-enterprise-resource-planning-erp-management-policy.md"
+  },
+  {
+   "id": "pa-itp-enterprise-software-asset-management-policy",
+   "title": "Enterprise Software Asset Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-enterprise-software-asset-management-policy.md"
+  },
+  {
+   "id": "pa-itp-firewall-policy",
+   "title": "Firewall Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-firewall-policy.md"
+  },
+  {
+   "id": "pa-itp-geospatial-information-systems-policy",
+   "title": "Geospatial Information Systems Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-geospatial-information-systems-policy.md"
+  },
+  {
+   "id": "pa-itp-information-security-policy",
+   "title": "Information Security Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-information-security-policy.md"
+  },
+  {
+   "id": "pa-itp-internet-browser-policy",
+   "title": "Internet Browser Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-internet-browser-policy.md"
+  },
+  {
+   "id": "pa-itp-internet-of-things-iot-policy",
+   "title": "Internet of Things (IoT) Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-internet-of-things-iot-policy.md"
+  },
+  {
+   "id": "pa-itp-it-configuration-management-policy",
+   "title": "IT Configuration Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-it-configuration-management-policy.md"
+  },
+  {
+   "id": "pa-itp-it-policy-governance",
+   "title": "IT Policy Governance",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-it-policy-governance.md"
+  },
+  {
+   "id": "pa-itp-it-project-and-procurement-policy",
+   "title": "IT Project and Procurement Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-it-project-and-procurement-policy.md"
+  },
+  {
+   "id": "pa-itp-it-resources-patching-policy",
+   "title": "IT Resources Patching Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-it-resources-patching-policy.md"
+  },
+  {
+   "id": "pa-itp-it-risk-management-policy",
+   "title": "IT Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-it-risk-management-policy.md"
+  },
+  {
+   "id": "pa-itp-it-security-incident-reporting-policy",
+   "title": "IT Security Incident Reporting Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-it-security-incident-reporting-policy.md"
+  },
+  {
+   "id": "pa-itp-minimum-contractor-background-checks-policy",
+   "title": "Minimum Contractor Background Checks Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-minimum-contractor-background-checks-policy.md"
+  },
+  {
+   "id": "pa-itp-mobile-device-policy",
+   "title": "Mobile Device Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-mobile-device-policy.md"
+  },
+  {
+   "id": "pa-itp-network-policy",
+   "title": "Network Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-network-policy.md"
+  },
+  {
+   "id": "pa-itp-office-productivity-policy",
+   "title": "Office Productivity Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-office-productivity-policy.md"
+  },
+  {
+   "id": "pa-itp-physical-security-policy",
+   "title": "Physical Security Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-physical-security-policy.md"
+  },
+  {
+   "id": "pa-itp-privacy-policy",
+   "title": "Privacy Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-privacy-policy.md"
+  },
+  {
+   "id": "pa-itp-records-management-policy",
+   "title": "Records Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-records-management-policy.md"
+  },
+  {
+   "id": "pa-itp-security-logging-and-event-monitoring-policy",
+   "title": "Security Logging and Event Monitoring Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-security-logging-and-event-monitoring-policy.md"
+  },
+  {
+   "id": "pa-itp-software-development-life-cycle-policy",
+   "title": "Software Development Life Cycle Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-software-development-life-cycle-policy.md"
+  },
+  {
+   "id": "pa-itp-vulnerability-management-policy",
+   "title": "Vulnerability Management Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-itp-vulnerability-management-policy.md"
+  },
+  {
+   "id": "pa-md-205-34",
+   "title": "Commonwealth of Pennsylvania Information Technology Acceptable Use Policy",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-205-34.md"
+  },
+  {
+   "id": "pa-md-205-35",
+   "title": "Information Reporting from the Commonwealth's Enterprise Business Information Warehouse System",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-205-35.md"
+  },
+  {
+   "id": "pa-md-205-37",
+   "title": "Role Assignment, Security, and Internal Control Maintenance",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-205-37.md"
+  },
+  {
+   "id": "pa-md-205-43",
+   "title": "Quality Assurance for Business Productivity Tools",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-205-43.md"
+  },
+  {
+   "id": "pa-md-210-12",
+   "title": "Electronic Commerce Initiatives and Security",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-210-12.md"
+  },
+  {
+   "id": "pa-md-245-13",
+   "title": "Strategic Direction for Information Technology Investments",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-245-13.md"
+  },
+  {
+   "id": "pa-md-245-18",
+   "title": "IT Administrator Acceptable Use, Auditing, and Monitoring",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-245-18.md"
+  },
+  {
+   "id": "pa-md-245-19",
+   "title": "Enterprise Technology Security Council",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-245-19.md"
+  },
+  {
+   "id": "pa-md-310-37",
+   "title": "Approving, Monitoring, and Accounting for New Information Technology Application Projects",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-310-37.md"
+  },
+  {
+   "id": "pa-md-535-09",
+   "title": "Information Technology Security Trainings",
+   "doc_type": "policy",
+   "path": "policies/pennsylvania/pa-md-535-09.md"
   },
   {
    "id": "tx-dir-ai-acceptable-use-policy",
@@ -2567,6 +4145,354 @@
    "path": "standards/colorado/co-oit-ts-oea-001.md"
   },
   {
+   "id": "md-doit-authentication-external-users",
+   "title": "Standards and Guidance for Authentication of External Users",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-doit-authentication-external-users.md"
+  },
+  {
+   "id": "md-doit-ea-handbook",
+   "title": "Maryland State Enterprise Architecture Handbook",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-doit-ea-handbook.md"
+  },
+  {
+   "id": "md-doit-it-security-manual-v1-2",
+   "title": "State of Maryland Information Technology Security Manual",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-doit-it-security-manual-v1-2.md"
+  },
+  {
+   "id": "md-doit-mitdp-standards-manual",
+   "title": "Major Information Technology Development Projects (MITDP) Standards Manual",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-doit-mitdp-standards-manual.md"
+  },
+  {
+   "id": "md-doit-password-guidance",
+   "title": "Supplemental Guidance on Passwords and the use of Password Managers",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-doit-password-guidance.md"
+  },
+  {
+   "id": "md-doit-state-minimum-cybersecurity-standards",
+   "title": "State Minimum Cybersecurity Standards",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-doit-state-minimum-cybersecurity-standards.md"
+  },
+  {
+   "id": "md-std-303-au-01",
+   "title": "Audit & Accountability Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-303-au-01.md"
+  },
+  {
+   "id": "md-std-304-ca-01",
+   "title": "Control Assessments Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-304-ca-01.md"
+  },
+  {
+   "id": "md-std-308-ir-01",
+   "title": "Incident Response Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-308-ir-01.md"
+  },
+  {
+   "id": "md-std-309-ma-01",
+   "title": "Maintenance Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-309-ma-01.md"
+  },
+  {
+   "id": "md-std-310-mp-01",
+   "title": "Media Protection Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-310-mp-01.md"
+  },
+  {
+   "id": "md-std-313-pm-01",
+   "title": "Program Management Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-313-pm-01.md"
+  },
+  {
+   "id": "md-std-314-ps-01",
+   "title": "Personnel Security Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-314-ps-01.md"
+  },
+  {
+   "id": "md-std-316-ra-01",
+   "title": "Risk Assessment Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-316-ra-01.md"
+  },
+  {
+   "id": "md-std-317-sa-01",
+   "title": "System & Services Acquisition Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-317-sa-01.md"
+  },
+  {
+   "id": "md-std-318-sc-01",
+   "title": "System & Communication Protection Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-318-sc-01.md"
+  },
+  {
+   "id": "md-std-319-si-01",
+   "title": "System & Information Integrity Standard",
+   "doc_type": "standard",
+   "path": "standards/maryland/md-std-319-si-01.md"
+  },
+  {
+   "id": "ma-cellular-extenders",
+   "title": "Guidelines for Acceptable Use of Cellular Extenders and the Commonwealth Network Infrastructure",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-cellular-extenders.md"
+  },
+  {
+   "id": "ma-is-011",
+   "title": "IS.011 Information Security Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-011.md"
+  },
+  {
+   "id": "ma-is-012",
+   "title": "IS.012 Organization of Information Security Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-012.md"
+  },
+  {
+   "id": "ma-is-013",
+   "title": "IS.013 Acceptable Use of Information Technology Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-013.md"
+  },
+  {
+   "id": "ma-is-014",
+   "title": "IS.014 Access Management Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-014.md"
+  },
+  {
+   "id": "ma-is-015",
+   "title": "IS.015 Asset Management Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-015.md"
+  },
+  {
+   "id": "ma-is-016",
+   "title": "IS.016 Business Continuity and Disaster Recovery Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-016.md"
+  },
+  {
+   "id": "ma-is-017",
+   "title": "IS.017 Communication and Network Security Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-017.md"
+  },
+  {
+   "id": "ma-is-018",
+   "title": "IS.018 Compliance Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-018.md"
+  },
+  {
+   "id": "ma-is-019",
+   "title": "IS.019 Cryptographic Management Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-019.md"
+  },
+  {
+   "id": "ma-is-020",
+   "title": "IS.020 Information Security Incident Management Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-020.md"
+  },
+  {
+   "id": "ma-is-021",
+   "title": "IS.021 Information Security Risk Management Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-021.md"
+  },
+  {
+   "id": "ma-is-022",
+   "title": "IS.022 Logging and Event Monitoring Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-022.md"
+  },
+  {
+   "id": "ma-is-023",
+   "title": "IS.023 Operations Management Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-023.md"
+  },
+  {
+   "id": "ma-is-024",
+   "title": "IS.024 Physical and Environmental Security Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-024.md"
+  },
+  {
+   "id": "ma-is-025",
+   "title": "IS.025 Secure System and Software Life Cycle Management Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-025.md"
+  },
+  {
+   "id": "ma-is-026",
+   "title": "IS.026 Third-Party Information Security Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-026.md"
+  },
+  {
+   "id": "ma-is-027",
+   "title": "IS.027 Vulnerability Management Standard",
+   "doc_type": "standard",
+   "path": "standards/massachusetts/ma-is-027.md"
+  },
+  {
+   "id": "mn-mnit-constituent-iam-standard",
+   "title": "Constituent Identity and Access Management Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-constituent-iam-standard.md"
+  },
+  {
+   "id": "mn-mnit-data-protection-categorization-standard",
+   "title": "Data Protection Categorization Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-data-protection-categorization-standard.md"
+  },
+  {
+   "id": "mn-mnit-icam-standard",
+   "title": "Identity, Credential, and Access Management Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-icam-standard.md"
+  },
+  {
+   "id": "mn-mnit-isrm-applicability-standard",
+   "title": "Information Security and Risk Management Applicability Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-isrm-applicability-standard.md"
+  },
+  {
+   "id": "mn-mnit-isrm-standard",
+   "title": "Information Security Risk Management Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-isrm-standard.md"
+  },
+  {
+   "id": "mn-mnit-it-disaster-recovery-standard",
+   "title": "Information Technology Disaster Recovery Planning Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-it-disaster-recovery-standard.md"
+  },
+  {
+   "id": "mn-mnit-network-security-standard",
+   "title": "Network Security Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-network-security-standard.md"
+  },
+  {
+   "id": "mn-mnit-physical-environmental-standard",
+   "title": "Physical and Environmental Security Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-physical-environmental-standard.md"
+  },
+  {
+   "id": "mn-mnit-public-ai-security-standard",
+   "title": "Public Artificial Intelligence Services Security Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-public-ai-security-standard.md"
+  },
+  {
+   "id": "mn-mnit-secure-configuration-standard",
+   "title": "Secure Configuration Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-secure-configuration-standard.md"
+  },
+  {
+   "id": "mn-mnit-secure-development-acquisition-standard",
+   "title": "Secure Systems Development and Acquisition Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-secure-development-acquisition-standard.md"
+  },
+  {
+   "id": "mn-mnit-security-incident-management-standard",
+   "title": "Security Incident Management Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-security-incident-management-standard.md"
+  },
+  {
+   "id": "mn-mnit-security-logging-monitoring-standard",
+   "title": "Security Logging and Monitoring Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-security-logging-monitoring-standard.md"
+  },
+  {
+   "id": "mn-mnit-security-program-standard",
+   "title": "Information Security Program Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-security-program-standard.md"
+  },
+  {
+   "id": "mn-mnit-supply-chain-risk-standard",
+   "title": "Supply Chain Risk Management Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-supply-chain-risk-standard.md"
+  },
+  {
+   "id": "mn-mnit-threat-vulnerability-standard",
+   "title": "Threat and Vulnerability Management Standard",
+   "doc_type": "standard",
+   "path": "standards/minnesota/mn-mnit-threat-vulnerability-standard.md"
+  },
+  {
+   "id": "nj-njoit-09-05-s1",
+   "title": "Information Security Payment Card Industry (PCI) Data Security Standard",
+   "doc_type": "standard",
+   "path": "standards/new-jersey/nj-njoit-09-05-s1.md"
+  },
+  {
+   "id": "nj-njoit-11-01-s1",
+   "title": "Remote Access Standard",
+   "doc_type": "standard",
+   "path": "standards/new-jersey/nj-njoit-11-01-s1.md"
+  },
+  {
+   "id": "nj-njoit-16-03-s1",
+   "title": "CloudConnect Enterprise Collaboration Standard",
+   "doc_type": "standard",
+   "path": "standards/new-jersey/nj-njoit-16-03-s1.md"
+  },
+  {
+   "id": "nj-njoit-16-03-s2",
+   "title": "WebGuard Enterprise Web Content Filtering Standard",
+   "doc_type": "standard",
+   "path": "standards/new-jersey/nj-njoit-16-03-s2.md"
+  },
+  {
+   "id": "nj-njoit-16-03-s3",
+   "title": "VoIP Service Enterprise Telecommunication Standard",
+   "doc_type": "standard",
+   "path": "standards/new-jersey/nj-njoit-16-03-s3.md"
+  },
+  {
+   "id": "nj-njoit-16-03-s4",
+   "title": "eCATS Enterprise Timekeeping Standard",
+   "doc_type": "standard",
+   "path": "standards/new-jersey/nj-njoit-16-03-s4.md"
+  },
+  {
+   "id": "nj-njoit-web-presence-guidelines",
+   "title": "NJ Web Presence Guidelines: Branding and Usability Standards for Websites and Applications",
+   "doc_type": "standard",
+   "path": "standards/new-jersey/nj-njoit-web-presence-guidelines.md"
+  },
+  {
    "id": "ny-its-s16-003",
    "title": "TLS / SSL Certificate Standard",
    "doc_type": "standard",
@@ -2715,6 +4641,90 @@
    "title": "Digital Identity Standard",
    "doc_type": "standard",
    "path": "standards/new-york/ny-nys-s20-001.md"
+  },
+  {
+   "id": "nc-application-data-integration-standard",
+   "title": "Application/Data Integration Standard",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-application-data-integration-standard.md"
+  },
+  {
+   "id": "nc-digital-accessibility-usability-standard",
+   "title": "Digital Accessibility & Usability Standard",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-digital-accessibility-usability-standard.md"
+  },
+  {
+   "id": "nc-domain-management-guidelines",
+   "title": "Domain Management Guidelines",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-domain-management-guidelines.md"
+  },
+  {
+   "id": "nc-epmo-closeout",
+   "title": "Project Closeout",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-epmo-closeout.md"
+  },
+  {
+   "id": "nc-epmo-execution",
+   "title": "Project Execution and Build",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-epmo-execution.md"
+  },
+  {
+   "id": "nc-epmo-initiation",
+   "title": "Project Initiation",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-epmo-initiation.md"
+  },
+  {
+   "id": "nc-epmo-planning",
+   "title": "Project Planning and Design",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-epmo-planning.md"
+  },
+  {
+   "id": "nc-epmo-process",
+   "title": "Project Management Process",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-epmo-process.md"
+  },
+  {
+   "id": "nc-gis-gnss-standards",
+   "title": "Statewide Global Navigation Satellite System Data Collection and Documentation Standards",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-gis-gnss-standards.md"
+  },
+  {
+   "id": "nc-gis-lidar-specification",
+   "title": "North Carolina Technical Specification for LiDAR Base Mapping",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-gis-lidar-specification.md"
+  },
+  {
+   "id": "nc-gis-metadata-profile",
+   "title": "State and Local Government GIS Metadata Profile",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-gis-metadata-profile.md"
+  },
+  {
+   "id": "nc-gis-orthophoto-specification",
+   "title": "North Carolina Technical Specifications for Digital Orthophoto Base Mapping",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-gis-orthophoto-specification.md"
+  },
+  {
+   "id": "nc-gis-parcel-data-standard",
+   "title": "NC Parcel Data Standard Revision (2016)",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-gis-parcel-data-standard.md"
+  },
+  {
+   "id": "nc-gis-water-sewer-data-standard",
+   "title": "Geographic Data Content Standard for Water Distribution and Sanitary Sewer Systems",
+   "doc_type": "standard",
+   "path": "standards/north-carolina/nc-gis-water-sewer-data-standard.md"
   },
   {
    "id": "or-eis-it-control-standards",

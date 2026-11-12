@@ -1,0 +1,57 @@
+                     Prohibited Applications on Government Devices List
+                                                    April 30, 2026
+
+The Department of Management Services, through the Florida Digital Service, has determined the following applications
+meet the criteria for prohibited applications established in section 112.22(1)(f), Florida Statutes. For waiver requests,
+please see Rule 60GG-2.008, Florida Administrative Code. If you have questions, please reach out to our team via email
+Policy@digital.fl.gov.
+
+                        Application                                  Date Added to Prohibited Applications List
+ Kaspersky                                                   February 12, 2024
+ QQ                                                          February 12, 2024
+ TikTok                                                      February 12, 2024
+ VKontakte                                                   February 12, 2024
+ WeChat                                                      February 12, 2024
+ AliExpress                                                  October 21, 2024
+ AliPay                                                      October 21, 2024
+ CamScanner                                                  October 21, 2024
+ SHAREit                                                     October 21, 2024
+ Temu                                                        October 21, 2024
+ DeepSeek                                                    January 30, 2025
+ Baidu Maps                                                  April 22, 2025
+ Baidu Search                                                April 22, 2025
+ CapCut                                                      April 22, 2025
+ Lemon8                                                      April 22, 2025
+ Moomoo                                                      April 22, 2025
+ Rednote                                                     April 22, 2025
+ Tiger Brokers                                               April 22, 2025
+ UC Browser                                                  April 22, 2025
+ VMate                                                       April 22, 2025
+ WeBull                                                      April 22, 2025
+ WeChat Pay                                                  April 22, 2025
+ WPS Office                                                  April 22, 2025
+ Xender                                                      April 22, 2025
+ Gauth                                                       January 29, 2026
+ Lark                                                        January 29, 2026
+ AutoClaw                                                    April 30, 2026
+ AutoGLM                                                     April 30, 2026
+ Baidu App                                                   April 30, 2026
+ Baixiaoying                                                 April 30, 2026
+ iFlytek                                                     April 30, 2026
+ Kapi Camera                                                 April 30, 2026
+ Kimi                                                        April 30, 2026
+ MiniMax Agent                                               April 30, 2026
+
+Office Raccoon                                                 April 30, 2026
+SenseChat                                                      April 30, 2026
+Senselink Lite                                                 April 30, 2026
+Spark                                                          April 30, 2026
+StepFun: AI Assistant                                          April 30, 2026
+Talkie                                                         April 30, 2026
+Z.AI\AI Agent App                                              April 30, 2026
+*For applications that are not on this list, public employers are required by section 112.22,(2)(a), F.S., to evaluate
+applications to determine if they meet the criteria for a “prohibited application” as defined in section 112.22(1)(f), F.S.,
+and to comply with the requirements regarding such applications set forth therein.
+
+If a public employer has questions or recommendations for inclusion on the next quarterly publication of the Prohibited
+Applications on Government Devices List, please email the Florida Digital Service at Policy@digital.fl.gov.

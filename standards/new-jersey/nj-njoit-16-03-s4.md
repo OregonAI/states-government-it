@@ -1,0 +1,190 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-jersey
+id: nj-njoit-16-03-s4
+title: eCATS Enterprise Timekeeping Standard
+doc_type: standard
+citation: NJOIT Technology Circular 16-03-S4-NJOIT
+authority_level: ''
+issuing_body: New Jersey Office of Information Technology
+source_url: https://www.nj.gov/it/docs/ps/16-03-S4-NJOIT.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 421417eb728eabe51efde3462879b2a6618c920a88c8a0a3e9a86f7d50edad8a
+effective_date: '2017-04-10'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# eCATS Enterprise Timekeeping Standard (NJOIT Technology Circular 16-03-S4-NJOIT)
+
+## At a glance
+
+Enterprise adoption of a web-based service for employees to report, and supervisors to approve, leave and activity time. Listed on the Enterprise Governance page, not in the policy library.
+
+## Full text
+
+                   NJ OFFICE OF INFORMATION TECHNOLOGY           P.O. Box 212               www.tech.nj.gov
+                   Philip D. Murphy, Governor                    300 Riverview Plaza
+                   Christopher J. Rein, Chief Technology Officer   Trenton, NJ 08625-0212
+
+                                                            POLICY NO:
+             STATE OF NEW JERSEY                                       16-03-S4-NJOIT
+            TECHNOLOGY CIRCULAR                             SUPERSEDES:             EFFECTIVE DATE:
+                                                                       NA                 04-10-2017
+     eCATS Enterprise Timekeeping                           VERSION:                LAST REVIEWED:
+
+               Standard                                                2.0                03-18-2025
+
+1.     PURPOSE
+       Tracking and approving employee leave and activity time is a common and mission critical
+       technology requirement for each Department and Agency of the Executive Branch.
+
+       This Standard ensures enterprise adoption of a highly available, web-based service for
+       employees to report, and supervisors to approve, leave and activity time on a daily basis.
+
+       The convergence of multiple solutions to a single product will achieve cost savings, operational
+       efficiencies, and productivity enhancements.
+
+2.     SCOPE
+       The Chief Technology Officer (CTO) and the New Jersey Office of Information Technology
+       (NJOIT) establish the timekeeping product eCATS, (electronic cost accounting timekeeping
+       system), (the Standard), as an Enterprise Technology Solution (ETS) for the Executive Branch of
+       State Government.
+
+       This ETS is governed by the NJOIT Enterprise Technology Solution Policy (16-03-NJOIT).
+
+3.     AUTHORITY
+       All Executive Branch Agencies are directed to cooperate fully with the NJOIT and the CTO to
+       implement the provisions of this Standard.
+
+4.     REQUIREMENTS
+               4.1.1.     Upon the effective date of this Standard, each Agency shall coordinate with
+                          NJOIT and provide a Notice of Intent to deploy eCATS enterprise timekeeping
+                          product for their operation.
+
+16-03-S4-NJOIT, eCATS Enterprise Timekeeping Standard                                                 Page 1 of 4
+
+                          Agencies must adhere to the following requirements:
+
+       4.2. Migration
+               4.2.1.     NJOIT will work with Agency staff to migrate customer reference data,
+                          Personnel Management Information System (PMIS) data, and time and leave
+                          data to the eCATS timekeeping system.
+
+               4.2.2.     Agencies must have an identified timekeeping point of contact prior to
+                          beginning any migration effort into eCATS.
+
+               4.2.3.     Agencies will be responsible for becoming acclimated to the eCATS system
+                          and will provide a basic introduction to their employees so that they will be
+                          able to use the eCATS system.
+
+               4.2.4.     NJOIT will provide a schedule to migrate an Agency into the eCATS
+                          timekeeping system. This includes coordination with New Jersey Office of
+                          Management and Budget (NJOMB) Centralized Payroll and the NJOIT
+                          Enterprise Data Services (EDS) groups.
+
+       4.3. Non-State Owned Devices
+               NJOIT recognizes that state employees may choose to use a non-state-owned device to
+               access the eCATS timekeeping system. Under those circumstances the following are
+               required:
+
+               4.3.1.     Agencies must comply with NJOIT Circular, 01-2012-NJOIT “Use of State
+                          Telephones/Wireless Devices and Personal Telephones/Wireless devices at or
+                          for State Work” Section V,C. State Business on Personal Devices; and
+                          Statewide Circular Letter15-04-OMB/OIT, “Assignments and Use of Cellular
+                          Wireless Devices.”
+
+               4.3.2.     Any non-state-owned device used to access State data must be configured not
+                          to cache data content locally on the device.
+
+               4.3.3.     Agencies are responsible for ensuring their employees comply with the OIT-
+                          0159 “Portable Computing User Agreement”.
+
+5.     COMPLIANCE AND ENFORCEMENT
+       5.1. Compliance
+               5.1.1.     The Standard shall be administered and monitored by the NJOIT Deputy CTO
+                          for Policy.
+
+16-03-S4-NJOIT, eCATS Enterprise Timekeeping Standard                                        Page 2 of 4
+
+       5.2. Exceptions
+               5.2.1.     Agencies with current timekeeping solutions in place may be grandfathered
+                          in on a case-by-case basis. However if the occasion arises to consider another
+                          timekeeping solution.
+
+                            5.2.1.1. Agencies must include eCATS in their evaluation process.
+
+                            5.2.1.2. Agencies must provide NJOIT with a business case for consideration
+                                     of any alternative timekeeping solutions for approval.
+
+               5.2.2.     On a case-by-case basis, and if circumstances warrant, the CTO may approve a
+                          “Deferment” of migration to the eCATS enterprise timekeeping product.
+
+               5.2.3.     Any exception to the Standard must be approved by the CTO in advance.
+
+               5.2.4.     Requests for exceptions to the Standard shall be made to the CTO through the
+                          Agency Commissioner.
+
+               5.2.5.     Agencies on “Deferment” shall obtain annual approval from the CTO to
+                          continue this status.
+
+       5.3. Non-Compliance
+               5.3.1.     Non-compliance is defined as any Agency that has not adopted the Standard
+                          within one year of the date of a Notice of Intent and has not received a
+                          Deferment from the CTO.
+
+               5.3.2.     Non-compliance will be referred to the CTO for appropriate action.
+
+6.     TERM
+       This standard will be re-evaluated every three years or sooner as circumstances warrant.
+
+7.     RELATED DOCUMENTS
+       ◘       NJOIT Circular, 16-03-NJOIT “Enterprise Technology Solution Policy”.
+
+       ◘       NJOIT Circular, 01-2012-NJOIT “Use of State Telephone/Wireless Devices and
+               Personal Telephones/Wireless devices at or for State Work”.
+
+       ◘       Statewide Circular Letter 15-04-OMB/OIT “Assignments and Use of Cellular
+               Wireless Devices”.
+
+       ◘       OIT-0159 “Portable Computing User Agreement”.
+
+16-03-S4-NJOIT, eCATS Enterprise Timekeeping Standard                                           Page 3 of 4
+
+8.         ADMINISTRATION
+           This Policy is administered and monitored by the CTO at 300 Riverview Plaza, Trenton, NJ 08625.
+
+           The Policy must be reviewed annually; however, the CTO reserves the right to change or amend
+           the Policy at any time.
+
+           Signature on File                                                03/18/2025
+           Christopher J. Rein, Chief Technology Officer                      Date
+
+ Version      Published Date       CTO        Sections Modified         Description of Modifications
+     1.0       04/10/2017      D. Weinstein         NEW                   Original Published Date
+     2.0       03/18/2025         C. Rein            All          Annual Review, Updated Links and Format
+
+16-03-S4-NJOIT, eCATS Enterprise Timekeeping Standard                                              Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

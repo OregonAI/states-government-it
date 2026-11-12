@@ -1,0 +1,103 @@
+Guidance for Responsible and Safe Usage
+MCP SERVER SECURITY
+Guidance Card for Responsible and Safe Usage
+Version 2.0
+Maryland Department of Information Technology (DoIT)
+• Last Revised:September 8, 2026
+• Date Issued: May 15, 2026
+• Version: 2.0
+• Author: Sachin Bhatt
+1. An Intro to MCP Servers
+2. Security Risk Landscape
+3. DoIT's Vetting Criteria for MCP Servers
+4. Safe Usage Guidelines for Maryland's State Staff
+5. Special Guidance: BYOD, Desktop Clients & Browser Agents
+6. Incident Response
+7. Accountability
+Scope:
+This governance card applies to Maryland State employees, contractors, and other authorized personnel using MCP-enabled AI tools in connection with State-owned or State-managed systems, data, and devices. It does not govern, and creates no obligations for, members of the public accessing publicly available State websites or services using their own AI tools or browser agents. “Connecting to State systems” in this document means establishing MCP access to internal, authenticated, or non-public State systems or data. It does not refer to public access to public-facing web content.
+1. An Intro to MCP Servers
+Model Context Protocol (MCP) servers are software bridges connecting AI clients – including chat assistants, chatbots, coding tools, and AI-enabled applications – to external systems (email, calendars, databases, file systems, code repositories, and enterprise SaaS tools). When MCP is enabled, the AI can take actions on your behalf: reading files, sending messages, querying databases, or executing commands.
+MCP is an open standard, and MCP servers can be published to one of several public registries or run privately with no registry listing at all. This decentralization means there is no single trusted source of truth, which is why DoIT will maintain its own approved registry. This document establishes DoIT’s guidance for evaluating, approving, and safely operating MCP servers, including desktop clients and browser-based agents. Desktop MCP clients run servers locally on your machine with access to your file system, environment variables, and local tools. Browser-based MCP agents interact with web content and online services in real time and may access authenticated sessions already open in your browser.
+In alignment with DoIT’s Cybersecurity & Privacy Policy Suite, this guidance adopts Zero-Trust architecture.
+2. Security Risk Landscape
+The MCP ecosystem is growing rapidly but still maturing from a security standpoint. Key risks include:
+Risk | Description
+Identity Boundary Collapse | When an AI agent operates through MCP servers, it acts with the full authority of the authenticated user.
+Prompt Injection | Identity Boundary Collapse When an AI agent operates through MCP servers, it acts with the full authority of the authenticated user. Prompt Injection Malicious instructions hidden in documents, emails, or web pages can be executed by an MCP-connected AI agent with tool access, bypassing normal safeguards. The agent treats the tool access as trusted.
+Tool Poisoning | Attackers alter descriptions/behaviors of tools registered within an approved MCP server, causing the AI to perform unauthorized actions or exfiltrate data.
+Excessive Permissions | Analysis of 2,500+ MCP plugins found many had overly broad access (file system, shell, network) granted simultaneously without scoping.
+Credential Compromise | Any access credential (OAuth tokens, API keys, or session cookies) can be compromised through phishing, token theft, or leakage, regardless of method. Static API keys carry additional risk since they are long-lived and easy to hardcode into configs; in one study, of 5,200 open-source MCP servers analyzed, 53% rely on static API keys; only 8.5% use OAuth. Organizations need rapid credential rotation and revocation capability so a compromise is contained quickly rather than persisting undetected. Any access credential (OAuth tokens, API keys, or session cookies) can be compromised through phishing, token theft, or leakage, regardless of method. Static API keys carry additional risk since they are long-lived and easy to hardcode into configs; in one study, of 5,200 open-source MCP servers analyzed, 53% rely on static API keys; only 8.5% use OAuth. Organizations need rapid credential rotation and revocation capability so a compromise is contained quickly rather than persisting undetected.
+Supply Chain Attacks | Malicious packages mimicking trusted ones on npm/PyPI. A vulnerability in mcp-remote (CVE-2025-6514, CVSS 9.6) compromised 437,000+ environments.
+Desktop/Local Risks | Local MCP servers execute code directly on the user’s machine. If misconfigured, they may listen on all network interfaces (not just localhost), lack authentication, or execute OS commands with full user privileges. Also, credential/API-key may be exposed if the MCP server is not sandboxed.
+Browser Agent Risks | Browser-based MCP agents operate within your active browser session, which may already be authenticated to sensitive enterprise systems. This may enable man-in-the-browser attacks, unintended session access, and phishing-triggered actions.
+Confused Deputy | An MCP server may perform operations with broader privileges than the triggering user was meant to have.
+Inadequate Audit Logging | The ecosystem lacks standardized audit logging, making incident investigation and compliance reporting extremely difficult. Logging capability also varies structurally by deployment model.
+3. DoIT's Vetting Criteria for MCP Servers
+Approval Before Use: No enterprise system may connect to an MCP server without prior review and approval by the Office of Security Management (OSM). Submit requests through the DoIT Intake Process (email [email protected], cc your agency’s portfolio officer). “Shadow” MCP servers—those installed without DoIT knowledge—are prohibited.
+Server Vetting Criteria:
+Criteria | Requirement
+Source/Publisher | Known, reputable vendor or verified open-source project
+Authentication | Governed by tier (Section 3.1). All servers, regardless of tier, must still satisfy every other vetting criterion in this table. Tiering affects the authentication requirement only.
+Code Signing | Server binaries/packages must be cryptographically signed
+Scope of Access | Minimum required permissions only
+Audit Logging | Tier 1 (local/stdio): local logging of tool invocations is required (what was called, when, by which server) but tamper-resistance is not required since no server-side logging infrastructure exists at this tier. Tier 2 or 3 (remote/cloud-hosted): tamper-resistant, centralized logging of all tool invocations is required. Logging in all tiers should capture, at minimum: timestamp, tool/action invoked, and outcome.
+Vulnerability History | Review CVE databases and recent disclosures
+Data Handling | Must comply with DoIT Data Classification Policy
+Approved Server Registry: OSM will maintain a registry of approved MCP servers as part of the State's AI inventory. Users must only connect servers from this registry. If a server you want is not on the registry, submit a request for review.
+3.1 MCP Server Authentication Tiers
+Important note: A server’s authentication tier (1, 2 or 3) determines only its authentication requirement. It has no bearing on the data-classification controls.
+ | Tier 1 — Local-Only | Tier 2 — Remote/Internet-Facing (Read-Only) | Tier 3 — Enterprise & Write-Capable
+Applies to | Servers communicating strictly via local transport (stdio); never expose a network-listening port | Remote/network-facing servers where every exposed tool carries an explicit read-only designation — no create, modify, delete, send, approve, or export capability | Any server with at least one tool lacking an explicit read-only designation (create/modify/delete/send/approve/export), or any server processing Level 3 or 4 data regardless of read/write capability
+Authentication requirement | None — no remote authentication surface exists | OAuth 2.0 (implementing OAuth 2.1's security baseline: PKCE, no implicit grant) preferred. Managed API key permitted if vendor doesn't support OAuth | OAuth 2.0 implementing OAuth 2.1's security baseline (PKCE mandatory, no implicit grant, exact redirect URI matching) required, no exception
+Static keys | N/A | Permitted, with conditions (below) | Disqualifying — no exception, due to confused-deputy risk: a compromised static key on a write-capable tool has no way to distinguish legitimate use from attacker-directed use, and the consequences are irreversible
+Static keys | N/A | User-specific key only — never shared/global IP allow listing where feasible; otherwise 30-day max expiration with automated rotation Stored in approved secrets manager only Tamper-resistant audit logging of key usage Reviewed at annual re-vetting — exception does not renew if vendor has since added OAuth | 
+Other Section 3 criteria (source/publisher, code signing, scope, audit logging) | Still fully apply | Still fully apply | Still fully apply
+Re-tiering trigger | Any new network-facing capability → must be re-vetted and reassigned to Tier 2/3 before use | Any new non-read-only tool added → must be re-vetted and reassigned to Tier 3 before use | N/A (highest tier)
+Who assigns the tier | OSM at intake, based on transport/capability — never self-declared by requesting staff or agency | Same | Same
+Unverifiable capability: If OSM cannot conclusively verify a server’s tools as read only (because, for example, the vendor does not self-annotate, annotations are not independently checkable, documentation is incomplete, or the server’s behavior cannot be confirmed through testing), the server defaults to Tier 3 for authentication purposes. The burden is on the requesting agency or vendor to demonstrate read-only status with sufficient clarity for OSM to confirm it. Absence of evidence will be treated as a presence of write risk.
+Outbound calls disqualify Tier 1: Tier 1 requires that a server neither expose a network-listening port nor make outbound network calls to remote or cloud-hosted data sources on the user’s behalf. A server invoked locally via stdio that reaches out to any remote API, cloud storage, or hosted service does not qualify for Tier 1, even if some of its work is local-only; it must be tiered on the outbound connection’s capability and data classification.
+4. Safe Usage Guidelines for All Staff
+Outbound calls disqualify Tier 1: Tier 1 requires that a server neither expose a network-listening port nor make outbound network calls to remote or cloud-hosted data sources on the user’s behalf. A server invoked locally via stdio that reaches out to any remote API, cloud storage, or hosted service does not qualify for Tier 1, even if some of its work is local-only; it must be tiered on the outbound connection’s capability and data classification.
+ | Guideline
+Do | Only connect to DoIT-approved MCP servers. Check a server's assigned authentication tier (Section 3.1) before requesting access. Tier 3 servers require OAuth with no exceptions. If a requested server only offers a static key and handles write-capable or processes Level 3 or 4 data, it cannot be approved regardless of business need.
+Do | Apply least privilege—grant only permissions needed for your specific task
+Do | Read confirmation prompts carefully before MCP tools execute; decline if unclear
+Do | Treat external content (documents, emails, web pages) with skepticism—they may contain hidden instructions
+Do | Report unusual agent behavior to the MD-SOC immediately
+Do | Keep client software and MCP server packages updated promptly
+Don't | Connect personal/third-party MCP servers to State systems without approval
+Don't | Share MCP configuration files (may contain credentials) via email, chat, or version control
+Don't | Grant shell/OS command access unless explicitly required and approved
+Don't | Allow MCP servers to bind to 0.0.0.0 (unrestricted network listening)
+Don't | Assume first-party servers are fully safe—even known vendors have had incidents
+Don't | Process Level 3-Confidential or Level 4-Restricted data without explicit authorization and approved configuration
+5. Special Guidance: BYOD, Desktop Clients & Browser Agents
+5.1 BYOD — Default Position: Prohibited
+Connecting any MCP server to State systems from a personal, unmanaged device is prohibited by default, per DoIT’s IT Acceptable Use Policy, even if the MCP server itself is on the approved registry. No exception is available without explicit, written, case-by-case approval from OSM. The requirements and rules below apply only if OSM has granted a written exception. They do not constitute standing permission to use BYOD for MCP access. Absent a granted exception, BYOD connection to State systems remains prohibited.
+Minimum Device Requirements for OSM to Consider Exception:
+Requirement | Minimum Standard
+MDM Enrollment | Device enrolled in DoIT's MDM platform
+OS & Patches | Vendor-supported OS with current security patches
+Endpoint Protection | Approved antivirus/EDR installed and active
+Screen Lock | Auto-lock after ≤5 minutes of inactivity
+Disk Encryption | Full disk encryption enabled (BitLocker, FileVault)
+MCP Client | Only DoIT-approved AI client software
+No Jailbreak/Root | Device must not be jailbroken or rooted
+Key BYOD Rules: Never store State credentials in plaintext MCP config files on personal devices—use a secrets manager. Browser-based MCP agents on personal devices require a dedicated browser profile exclusively for State tasks with no personal accounts, extensions, or saved credentials. Shadow MCP installations on personal devices are policy violations subject to access revocation and disciplinary action.
+BYOD Incident Response: (1) Disconnect the MCP server and revoke tokens immediately. (2) Do not wipe the device—preserve forensic evidence. (3) Contact the MD-SOC within 1 hour. (4) Device may be required for forensic review per DoIT's Acceptable Use Policy.
+5.2 Desktop MCP Clients
+Desktop clients run or connect to MCP servers as local processes with significant system access. Sandbox servers in containers or VMs where possible. Review each server's directory, port, and service access at installation. Disable unused servers.
+API keys used under Tier 2 authentication must be rotated at least every 30 days, or immediately upon suspected compromise. Tier 1 servers have no key-rotation requirement, as no remote credential exists. Rotate other non-API key credentials at least annually.
+5.3 Browser-Based MCP Agents
+Browser agents operate in an especially sensitive context because they share your authenticated sessions—they can act on any site you are logged into, not just the one you directed them to. Do not use browser agents while authenticated to high-sensitivity systems (HR, financial, admin consoles) unless specifically approved. Use dedicated browser profiles for agent tasks. Avoid directing agents to process untrusted websites.
+6. Incident Response
+If you suspect an MCP server has behaved maliciously, taken unauthorized actions, or exposed sensitive data:
+1. Disconnect your AI client from the MCP server
+2. Do not investigate or remediate independently. Preserve logs and configuration files.
+3. Contact the MD-SOC within 1 hour (24x7): Online: doitmaryland.service-now.com/cybersecurityincident/ | Email: [email protected] | Phone: 410-697-9700, option 5
+4. Document what happened: the task, the agent's actions, and affected systems/data. The MD-SOC will conduct forensic analysis, notify affected parties, and determine regulatory reporting obligations.
+7. Accountability
+Individual users: Use only approved MCP servers; follow Section 4 guidelines.
+Team leads/managers: Ensure team awareness; report shadow MCP deployments to OSM.
+DoIT OSM: Maintain approved registry within the State’s AI inventory; conduct periodic audits; publish updated guidance; assign and document the authentication tier for every approved server at intake and reassess Tier 2 static-key exceptions at each server’s annual re-vetting review; and re-tier any server upon notification of a capability change per Section 3.1.

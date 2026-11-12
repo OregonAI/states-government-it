@@ -1,0 +1,330 @@
+                      STATE OF NEW JERSEY
+                      TECHNOLOGY CIRCULAR
+
+Enterprise Information Security Governance and
+Management Policy                                                                     17-03-NJOIT
+
+ Approved By: Kevin Dehmer, Chief Technology Officer
+              Thomas G. Hauck, Director of NJOHSP
+
+ Version: 3.0                                              Supersedes: N/A
+
+ Effective Date: 10/18/2017                                Revision Date: 09/24/2026
+
+1.    PURPOSE
+      This Policy defines the information security management authorities, roles and
+      responsibilities of the New Jersey Executive Branch officers, departments, and agencies.
+
+2.    AUTHORITY
+      N.J.S.A C.52:18A-224, et. seq. (The Office of Information Technology Reorganization Act);
+      New Jersey Executive Order #5 (Corzine, 3/6/2006).
+      New Jersey Executive Order #178 (Christie, 5/20/2015).
+      New Jersey Executive Order #44 (Murphy, 11/1/18).
+      New Jersey Executive Order #404 (Murphy 11/18/26).
+      The Critical Infrastructure Information Act of 2002, 6 U.S.C. §133, et. seq.
+
+3.    SCOPE
+      All Executive Branch departments and State agencies are directed to cooperate fully with
+      the provisions of this Policy so as to ensure effective use of IT within the Executive Branch
+      of State Government.
+
+4.    POLICY
+      The Chief Technology Officer (CTO) of the New Jersey Office of Information Technology
+      (NJOIT) and the Director of the New Jersey Office of Homeland Security and Preparedness
+      (NJOHSP) jointly establish the Information Security Governance Committee and a
+      management structure for information security across the Executive Branch of New Jersey
+      State government.
+
+      17-03-NJOIT, Enterprise Information Security Governance and Management Policy        Page 1 of 8
+
+5.      ROLES AND RESPONSIBILITIES
+        NJOHSP
+        NJOHSP shall be responsible for administering, coordinating, and leading, New Jersey's
+        counterterrorism, counterintelligence, cybersecurity, and related preparedness efforts,
+        with the goal of unifying prevention, mitigation, response, and recovery activities across
+        federal, state, and local governments, other jurisdictions, non-profit organizations, and
+        the private sector to safeguard the people of New Jersey. In addition, the Director shall
+        be responsible for overseeing the strategic development, execution, and management of
+        an effective and efficient whole-of-state cybersecurity program. This includes:
+               a)      Overseeing the response to information security incidents;
+               b)      Staying abreast of cybersecurity threats; and
+               c)      Advising the Domestic Security Preparedness Task Force (DSPTF) through
+                       regular briefings and reports.
+
+        NJOIT
+        NJOIT is responsible for providing and maintaining the IT infrastructure of the Executive
+        Branch, including all ancillary departments and agencies. The CTO is responsible for
+        coordinating and conducting all Executive Branch IT operations. The CTO directs the
+        planning, implementation, and governance of enterprise IT systems in support of the
+        Executive Branch’s business objectives and operations to improve cost-effectiveness,
+        service quality, and mission development.
+
+        At the CTO's direction, NJOIT fulfills the following responsibilities in support of the State's
+        Information Security Program:
+            a) Design, acquisition, and implementation of enterprise IT systems in compliance
+               with the SISM;
+            b) Operation and support of IT systems in compliance with approved security
+               procedures, including, but not limited to:
+               1. IT asset management;
+               2. Malware protection;
+               3. Patch management;
+               4. Web proxying and Content filtering;
+               5. Secure file exchange; and
+               6. Data encryption;
+            c) Management of third parties providing managed information services to NJOIT
+               and other State Entities;
+            d) Identity and access management;
+            e) Disaster recovery planning and operations;
+
+17-03-NJOIT, Enterprise Information Security Governance and Management Policy                Page 2 of 8
+
+            f) Providing recommendations on policy and control enhancements to NJOHSP's
+               Division of Cybersecurity;
+            g) Monitoring NJOIT's IT environment to identify, contain, or eliminate unauthorized
+               activity;
+            h) Assisting in implementing the Information Security Incident Response Plan;
+            i) Providing subject-matter expertise for technical issues regarding information
+               security; and
+            j) Executing day-to-day security management of enterprise information, systems,
+               and solutions through the application of controls as defined within the SISM.
+
+        NJ Innovation Authority (NJIA)
+        The State Chief Innovation Officer (CIO) leads NJIA with the goal of government
+        modernization via data, AI, and user-centered design. The CIO advises the Executive
+        Branch on technological trends and collaborates with State agencies to design user-
+        friendly digital tools for residents and businesses.
+
+        The CIO carries out their duties through the following initiatives and programs of work:
+           a) Leading both the resident experience initiative to simplify access to benefits and
+              the business experience initiative to streamline starting/operating businesses;
+           b) Utilizing data analytics, AI, and performance metrics to enhance decision-making
+              and improve government transparency;
+           c) Providing expert advice on technology and innovation to the Governor's office and
+              state agencies;
+           d) Developing services tailored to the needs of New Jerseyans, focusing on
+              accessibility and ease of use; and
+           e) Overseeing the strategic direction of the NJIA.
+
+        With respect to information security, the CIO shall:
+           a) Coordinate with the State CISO and NJCCIC on the cybersecurity implications of
+               statewide AI initiatives and emerging technology deployments;
+           b) Ensure that AI systems developed or procured through the NJIA are subject to the
+               AI governance requirements; and
+           c) Participate in the AI production use approval process established in AI-09 (SISM).
+
+        State Chief Information Security Officer (CISO) and Director of the New Jersey
+        Cybersecurity and Communications Integration Cell (NJCCIC)
+        The State CISO and Director of the NJCCIC reports to the Director of NJOHSP and serves
+        as head of NJOHSP's Division of Cybersecurity. The State CISO/Director of the NJCCIC
+        shall develop, execute, and manage a whole-of-state cybersecurity program The State
+        CISO/Director of the NJCCIC has overall responsibility for the development,
+        implementation, and performance of the information security program by:
+17-03-NJOIT, Enterprise Information Security Governance and Management Policy          Page 3 of 8
+
+            a) Developing the State Cybersecurity Strategic Plan and setting strategic information
+               security direction across the Executive Branch of State Government;
+            b) Publishing and maintaining the SISM; Establishing the standards for, and approving
+               the selection of, enterprise cybersecurity tools, technologies, and services to ensure
+               interoperability, consistent security assurance, and alignment with the State
+               Information Security Manual (SISM) across the Executive Branch.
+            c)
+            d) Developing, managing, and executing the Statewide Information Security Incident
+               Response Plan and providing cybersecurity response assistance and subject-matter
+               expertise;
+            e) Supporting State agencies in achieving their business goals and objectives by
+               identifying security requirements that appropriately balance risk mitigation with
+               operational needs;
+            f) Providing information security subject matter expertise and recommending best
+               practices on cybersecurity and resilience measures to public and private entities;
+            g) Developing and implementing a Security Awareness and Training program for State
+               agencies and providing cyber threat intelligence reports, briefings, alerts, and
+               trainings to public and private organizations;
+            h) Providing security metrics to track the performance of the information security
+               program;
+            i) Leading a cybersecurity information sharing and analysis organization to
+               coordinate with CISA, other federal agencies, and public and private sector entities,
+               and promoting shared situational awareness;
+            j) Implementing and monitoring a centralized Security Information and Event
+               Management (SIEM) system and identifying, containing, or eliminating
+               unauthorized activity and other cyber threats;
+            k) Developing and implementing a cybersecurity threat information exchange with
+               appropriate sources including public utilities, critical infrastructure, and private
+               industry;
+            l) Developing working relationships with external organizations including law
+               enforcement, the private sector, academia, Information Sharing and Analysis
+               Organizations and Centers, and regulatory authorities;
+            m) Providing threat, risk, and major incident reports to the New Jersey Domestic
+               Security Preparedness Task Force (DSPTF);
+            n) Maintaining fiscal accountability for the Division of Cybersecurity's budget and
+               resources;
+            o) Managing cybersecurity grant programs, including the State and Local
+               Cybersecurity Grant Program (SLCGP), to support cybersecurity improvements
+               across state and local government; and
+            p) Developing an Information Security Governance, Risk, and Compliance program,
+               including:
+17-03-NJOIT, Enterprise Information Security Governance and Management Policy               Page 4 of 8
+
+                   i. Coordinating and conducting compliance and risk assessments of agencies
+                      and their information assets;
+                 ii.  Conducting and managing vulnerability assessments and penetration tests
+                      of agency networks, applications, databases, and systems; and
+            q) Managing the New Jersey Civilian Cyber Resilience Corps, a DSPTF-authorized
+               volunteer cybersecurity force that provides surge capacity and specialized expertise
+               to support government entities, critical infrastructure providers, and community
+               organizations across the State as part of the NJCCIC's whole-of-state cybersecurity
+               mission.
+            r) Conducting information security risk assessments of third parties with access to
+               State of New Jersey information assets.
+
+        New Jersey State Privacy Officer
+        The New Jersey State Privacy Officer reports to the CTO and serves as the central point of
+        leadership, coordination, and oversight of agency privacy programs. At the CTO’s
+        direction, the State Privacy Officer coordinates the planning, implementation, and
+        management of enterprise privacy initiatives. They are also responsible for the oversight
+        of the State’s compliance with all applicable State and federal laws and regulations
+        regarding the collection, use, sharing, and disposal of personally identifiable information.
+
+        The State Privacy Officer:
+           a) Ensures that the public has access to information about the State’s privacy activities
+               and can communicate with its officials for privacy;
+           b) Ensures that the State’s privacy practices and reports are publicly available; and
+           c) Utilizes publicly-facing email addresses and/or phone lines to enable the public to
+               provide feedback and/or direct questions to privacy offices.
+
+        Heads of State Agencies (Including Secretaries, Directors, Commissioners,
+        Chairpersons, or Equivalent Head of State Entity Within the Executive Branch of
+        State Government)
+        Heads of State Agencies (includes Secretaries, Directors, Commissioners, Chairpersons, or
+        equivalent head of a state entity within the Executive Branch of State Government) are
+        responsible for their respective agency's operations. Likewise, they are responsible for the
+        overall protection and use of information assets owned, managed, or licensed by the
+        agency. To these ends, they are charged with:
+           a) Driving commitment and support for the information security program;
+           b) Accepting risk on behalf of the agency;
+           c) Assigning appropriate IT management responsibilities within their respective
+               agency to a designee who has responsibility for the implementation and
+               management of information technology systems in support of agency goals and
+
+17-03-NJOIT, Enterprise Information Security Governance and Management Policy              Page 5 of 8
+
+               objectives, and in accordance with the Executive Branch of State Government
+               Statewide Information Security Policies and Standards;
+            d) Assigning appropriate responsibilities within their agency to a designee who has
+               the authority and responsibility for ensuring the implementation of, and the
+               adherence to the Information Security Program;
+            e) Promoting adherence to information security policies and cyber awareness
+               programs.
+
+        Agency Chief Information Officer
+        The Agency Chief Information Officer shall be responsible for the direction, planning, and
+        implementation of IT systems in support of agency business goals and objectives. In
+        accordance with NJOIT standards and strategy, the agency Chief Information Officer
+        directs the planning and implementation of the agency's IT systems.
+
+        The officers have the following responsibilities in support of the State’s information
+        security program:
+           a) Design, acquisition, implementation, and operation of IT systems in compliance
+               with approved policies and standards;
+           b) Operation and support of IT systems in compliance with approved security
+               procedures, including, but not limited to: IT asset management, malware
+               protection, patch management, and data encryption;
+           c) Management of third parties that provide managed information services to the
+               agency;
+           d) Identity and access management;
+           e) Disaster recovery planning and operations in coordination with NJOIT;
+           f) Providing policy and control enhancement recommendations to NJOHSP's
+               Division of Cybersecurity;
+           g) Monitoring the agency IT environment and, where appropriate, identifying,
+               containing, and eliminating unauthorized activity;
+           h) Assisting in the implementation of the Information Security Incident Response
+               Plan;
+           i) Executing the day-to-day security management of information, systems, and
+               solutions through the application of controls as defined within the SISM;
+           j) Providing subject-matter expertise for technical issues regarding information
+               security.
+
+        Agency Chief Information Security Officer (CISO)
+        The Agency CISO shall be responsible for protecting and maintaining the confidentiality,
+        integrity, and availability of information assets under their purview.
+
+        The Agency CISO fulfills the following responsibilities in support of the SISM:
+17-03-NJOIT, Enterprise Information Security Governance and Management Policy             Page 6 of 8
+
+            a. Identifying security requirements to limit cyber risks associated with the agency's
+               business goals and objectives;
+            b. Implementing and promoting information security awareness within their
+               respective agency;
+            c. Ensuring compliance with the SISM within their respective State agency,
+               including, but not limited to:
+                   1. Coordination of risk assessments and compliance audits with NJOHSP's
+                      Division of Cybersecurity;
+                   2. Coordination of vulnerability assessments of agency networks,
+                      applications, databases, and systems; and
+                   3. Coordination of risk assessments of third parties having access to agency
+                      information assets;
+            d. Assisting in the implementation of the Information Security Incident Response
+               Plan; and
+            e. Reporting all information on security incidents to the NJCCIC.
+
+        Agency Privacy Officer
+        The Agency Privacy Officer is responsible for the oversight of the agency’s compliance
+        with all applicable State and federal laws and regulations regarding the collection, use,
+        maintenance, sharing, and disposal of personally identifiable information.
+
+        Agency Artificial Intelligence (AI) Governance Officer
+        The Agency AI Governance Officer is responsible for overseeing the Agency's AI risk
+        management program and ensuring AI systems are developed, deployed, and used in
+        accordance with the SISM and all applicable requirements. Responsibilities include:
+           a) Establishing and maintaining the agency's AI governance policies and procedures;
+           b) Maintaining AI system inventory and ensuring AI systems are properly classified;
+           c) Coordinating AI risk assessments and ensuring risks are appropriately managed;
+           d) Providing guidance to agency personnel on acceptable AI use and trustworthy AI
+              requirements;
+           e) Ensuring AI systems meet transparency, accountability, and human oversight
+              requirements;
+           f) Coordinating with the Agency CISO, Privacy Officer, and legal counsel on AI-related
+              matters;
+           g) Reporting on AI governance activities to agency leadership; and
+           h) Serving as the primary point of contact for AI governance matters with NJOIT and
+              NJCCIC.
+
+6.      COMPLIANCE AND ENFORCEMENT
+        NJOIT reserves the right to take appropriate disciplinary or legal action regarding
+        noncompliance with this policy. Employees who do not comply with this policy risk
+17-03-NJOIT, Enterprise Information Security Governance and Management Policy             Page 7 of 8
+
+           disciplinary action, up to and including termination of employment and/or civil or criminal
+           legal action, if applicable. Non-compliance will be referred to the CTO for appropriate
+           action.
+
+7.      RELATED DOCUMENTS
+        New Jersey State Government Statewide Information Security Manual
+
+8.      ADMINISTRATION
+        This Policy is administered and monitored by the New Jersey Chief Information Security
+        Officer (CISO) and the CTO at 300 Riverview Plaza, Trenton NJ 08625. The Director of OHSP
+        and CTO reserve the right to change or amend this Policy at any time.
+
+        Signature on File                                                        09/24/26
+
+        Kevin Dehmer, Chief Technology Officer                                  Date
+
+        Signature on File                                                       09/24/26
+
+        Thomas G. Hauck, Director of NJOHSP                                     Date
+
+9.      DOCUMENT HISTORY
+
+  Version         Published         Chief              Sections                 Description of Modifications
+                    Date         Technology            Modified
+                                   Officer
+     1.0          10/18/17                                                         Original Published Date
+     2.0          04/12/23                                                              Annual Review
+     3.0          09/24/26        K. Dehmer                All              Updated Format. Updated Roles and
+                                                                           Responsibilities to reflect updated SISM.
+                                                                            Added OHSP signature line and logo .
+                                                                           Added New Jersey Executive Order #44
+                                                                             (Murphy, 11/1/18) and New Jersey
+                                                                          Executive Order #404 (Murphy 11/18/26).
+
+17-03-NJOIT, Enterprise Information Security Governance and Management Policy                          Page 8 of 8

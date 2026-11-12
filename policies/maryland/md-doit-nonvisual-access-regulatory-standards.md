@@ -1,0 +1,71 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-doit-nonvisual-access-regulatory-standards
+title: Nonvisual Access Regulatory Standards
+doc_type: policy
+citation: DoIT Nonvisual Access Regulatory Standards guidance (COMAR 14.33.02)
+authority_level: ''
+issuing_body: Maryland Department of Information Technology
+source_url: https://doit.maryland.gov/policies/Accessibility/Pages/Nonvisual-Access-Regulatory-Standards.aspx
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: ac79940686746a261bb9c1291d35581a164e909c008031a4fe4ba092e354d61d
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint
+  site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined
+  by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and
+  page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Nonvisual Access Regulatory Standards (DoIT Nonvisual Access Regulatory Standards guidance (COMAR 14.33.02))
+
+## At a glance
+
+DoIT's guidance page for the nonvisual access regulations (COMAR 14.33.02): it says compliance is mandatory in the procurement of information technologies and the provision of IT services by or on behalf of non-exempt units of the Executive Branch, and that solicitations must include the State's Nonvisual Access Clause.
+
+## Full text
+
+Nonvisual Access Regulatory Standards
+Background
+On March 1, 2005, Maryland’s Information Technology Nonvisual Access (MD IT NVA) regulatory standards became effective (link to COMAR 14.33.02.01-.11). This web site provides assistance to non-exempt units of the Executive Branch in complying with the MD IT NVA regulatory standards, and guidance on the general requirements and responsibilities applicable to ensuring that information technologies are compliant with the regulatory requirements for nonvisual access.
+Guidance
+Compliance with the standards is mandatory in the procurement of information technologies, and the provision of information technology services, by or on behalf of all units and public institutions of higher education in the Executive Branch of State government, with the exception of:
+1. The Maryland Port Administration;
+2. Public institutions of higher education in the management, development, purchase, or use of information technologies solely for academic or research purposes;
+3. The University System of Maryland;
+4. St. Mary's College of Maryland; and
+5. Morgan State University.
+In short, except for information technologies incidental to performing under a contract, where technologies simply do not exist, or compliance is cost prohibitive, all information technologies, that are procured, used, maintained, developed or provided by or on behalf of non-exempt units of the Executive Branch of State government must be nonvisually accessible as established in the MD IT NVA regulations. If a procurement for IT is not subject to an applicable exception, the solicitation must include the State's Nonvisual Access Clause (SF&P 3.5-311)
+In developing the MD IT NVA regulations, the State has adopted or paraphrased many, but not all, of the federal regulations commonly referred to as Section 508*. In addition, Maryland has adopted several IT NVA regulations that are not found in federal regulations.
+* Section 508 of the Rehabilitation Act (29 U.S.C. 794d), as amended by the Workforce Investment Act of 1998 (P.L. 105-220) (August 7, 1998). See also 36 CFR Part 1194.
+Applicable Law & Other Policy
+• COMAR 21.05.08.05
+• About the ICT Accessibility 508 Standards and 255 Guidelines
+• View COMAR 14.33.02 regulations by section.
+Key Terms
+• View COMAR 14.33.01.02 for key terms.
+Contact Information
+Andrew Drummond, Director of Accessibility at the Department of Information Technology at [email protected].
+Learn more about our efforts to comply with the updated federal law through the DoIT Digital Accessibility Initiative and the Maryland Digital Access Policy.
+
+## Curator notes
+
+Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.

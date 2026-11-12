@@ -1,0 +1,283 @@
+{
+  "agreement": 0.9869,
+  "dict_ratio": 0.994,
+  "disagreements": [
+    {
+      "before": [
+        "to",
+        "fostering",
+        "innovation",
+        "advancing"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "and",
+        "state",
+        "agencies",
+        "on"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "other",
+        "critical",
+        "infrastructure",
+        "systems"
+      ],
+      "paddle": "5",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "the",
+        "Governor",
+        "s",
+        "discretion"
+      ],
+      "paddle": "",
+      "tesseract": "2"
+    },
+    {
+      "before": [
+        "trends",
+        "2",
+        "Recommend",
+        "additional"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "privacy",
+        "3",
+        "Recommend",
+        "an"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "academic",
+        "institutions",
+        "that",
+        "drive"
+      ],
+      "paddle": "AI",
+      "tesseract": "A"
+    },
+    {
+      "before": [
+        "for",
+        "AI",
+        "and",
+        "Generative"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "priorities",
+        "and",
+        "to",
+        "track"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "information",
+        "define",
+        "ownership",
+        "of"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "development",
+        "and",
+        "implementation",
+        "of"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "Governor",
+        "by",
+        "June",
+        "30"
+      ],
+      "paddle": "th",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "website",
+        "detailing",
+        "progress",
+        "on"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "shall",
+        "collect",
+        "high",
+        "risk"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "information",
+        "about",
+        "high",
+        "risk"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "Team",
+        "that",
+        "will",
+        "lead"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "privacy",
+        "and",
+        "cybersecurity",
+        "Cabinet"
+      ],
+      "paddle": "agencies",
+      "tesseract": "agencieg"
+    },
+    {
+      "before": [
+        "and",
+        "applications",
+        "ii",
+        "Identifying"
+      ],
+      "paddle": "AI",
+      "tesseract": "Al"
+    },
+    {
+      "before": [
+        "in",
+        "AI",
+        "use",
+        "iv"
+      ],
+      "paddle": "AI",
+      "tesseract": "AJ"
+    },
+    {
+      "before": [
+        "a",
+        "well",
+        "informed",
+        "and"
+      ],
+      "paddle": "AI",
+      "tesseract": "AlI"
+    },
+    {
+      "before": [
+        "AlI",
+        "literate",
+        "population",
+        "Section"
+      ],
+      "paddle": "5 Effect and Duration ThisExecutive",
+      "tesseract": "5, Eff i Durati This Executive"
+    },
+    {
+      "before": [
+        "thousand",
+        "and",
+        "twenty",
+        "five"
+      ],
+      "paddle": "Jab ti",
+      "tesseract": "Dh"
+    },
+    {
+      "before": [
+        "twenty",
+        "five",
+        "Dh",
+        "Josh"
+      ],
+      "paddle": "Stein",
+      "tesseract": "St in"
+    },
+    {
+      "before": [
+        "St",
+        "in",
+        "Governor",
+        "ATTEST"
+      ],
+      "paddle": "th honk",
+      "tesseract": "Sif"
+    },
+    {
+      "before": [
+        "ATTEST",
+        "Sif",
+        "Timpthy",
+        "L"
+      ],
+      "paddle": "Cyowley Chief",
+      "tesseract": "C wley Chi f"
+    },
+    {
+      "before": [
+        "of",
+        "Staff",
+        "Secretary",
+        "of"
+      ],
+      "paddle": "State",
+      "tesseract": "Stat"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9643,
+  "figures": 56,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "a965edc4134706dcdc00ea81b598c0b387de95e942e56076e03e5c8d4a73132c",
+  "pdf_sha256": "5371b00322d3fa75b3042dd7c493d10550c4910b07650c6dccb33a62c8ce594b",
+  "psm": null,
+  "text_sha256": "a4b2e9736846fde10f9cfa7d2fc8871b8267797dfd8064b2bcf8d6cc8fa7c273",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 2182
+}

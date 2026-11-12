@@ -1,0 +1,1082 @@
+SUBCHAPTER 06B – PROCUREMENT REQUESTS
+section .0100 - REQUISITIONING
+
+09 NCAC 06B .0101 agency requests for authorization
+(a) The purchasing agency shall request authorization for procurement action exceeding its delegated authority from the State CIO by means of electronic or written requests, except in cases where a purchase is allowed by rule or other authority (e.g., emergency situations).
+(b) Verbal requests from a purchasing agency for authorization of procurement action exceeding delegated authority may be accepted by ITS in emergency situations. Electronic or written confirmation from the purchasing agency must follow any such request.
+History Note: Authority G.S. 147-33.76(b1); 147-33.95(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0102 VERBAL REQUESTS
+History Note: Authority G.S. 147-33.76(b1); 147-33.95(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Repealed Eff. September 1, 2013.
+
+09 NCAC 06B .0103 CONFIDENTIALITY of solicitation documents
+(a) In order to preserve fairness and encourage competitiveness, all information and documentation in whatever form, (e.g., electronic, written, and verbal forms) relative to the development of a solicitation for a proposed procurement shall be withheld from public inspection until award from that solicitation, unless the purchasing agency abandons or cancels the solicitation and indicates in its procurement records that it does not intend to rebid the solicitation or continue the procurement action.
+(b) The purchasing agency may release such portions of the material as it deems necessary in order to develop a solicitation under Rule .0201 of this Subchapter or to debrief certain vendors as provided in Rule .0405 of this Subchapter.
+History Note: Authority G.S. 147-33.76(b1); 147-33.95(a);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+section .0200 - specifications
+
+09 NCAC 06b .0201 development of it solicitation documents and SPECIFICATIONS
+(a) There shall be one or more types of IT solicitation documents that include specifications established by the State CIO or any other agency as statutorily authorized.
+(b) The State CIO shall establish, develop, and maintain IT solicitation documents and specifications that are current and intended for general or repeated use and publish these forms on its website or other locations available to the purchasing agency (also see 09 NCAC 06B .0302).
+(c) Other types of solicitation specifications that manage specific business needs may be originated by the purchasing agency and either approved or modified as necessary by ITS to manage the State's information technology effectively. A purchasing agency submitting other types of specifications or solicitations must demonstrate how such specifications or solicitations meets its respective business needs and whether other information technologies are commercially available to satisfy those needs.
+History Note: Authority G.S. 147-33.76(b1); 147-33.95(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0202 NEED
+The State CIO may inquire into the need for and level of quality of goods or services requested by a purchasing agency in its solicitation document. After consultation with the purchasing agency, the State CIO may authorize or modify the level of specification to manage overall direction of the State's information technology programs or services, or to comply with 09 NCAC 06B .0301, Procurement Procedures, or other rules.
+History Note: Authority G.S. 147-33.76(b1); 147-33.95(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0203 DEVELOPMENT OF SPECIFICATIONS
+History Note: Authority G.S. 147-33.95(b); 147-33.103(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Repealed Eff. September 1, 2013.
+
+09 NCAC 06B .0204 ARTICLES FOR SPECIAL PURPOSES
+Where articles are to be used:
+(1) for educational or training purposes;
+(2) by persons with disabilities;
+(3) for test and evaluation or research purposes; or
+(4) for any other special purpose deemed necessary by the State CIO, consideration may be given to the suitability of such articles in the preparation of procurement documents, including solicitation specifications, evaluation of offers, requests for limited or waiver of competition, and the final award of contracts. The State CIO shall consult with the purchasing agency prior to making modification of any information or recommendation submitted by that agency.
+History Note: Authority G.S. 147-33.76(b1); 147-33.95(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0205 SUBMISSION FOR ADOPTION
+
+09 NCAC 06B .0206 COPIES OF SPECIFICATIONS
+
+09 NCAC 06B .0207 CONFIDENTIALITY
+History Note: Authority G.S. 147-33.95(b); 147-33.103(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Repealed Eff. September 1, 2013.
+section .0300 – procurement authorization and procedures
+09 ncac 06b .0301 PROCUREMENT PROCEDURES
+(a) The procurement process of requesting or inviting an offer(s) shall be managed by the purchasing agency, including use of standard solicitation document language and terms and conditions established by the State (Rule .0201 of this Subchapter). If an emergency situation or pressing need exists, the procurement process requesting or inviting an offer(s) shall also be managed by the purchasing agency, including the standard terms and conditions issued by the State CIO, unless circumstances prohibit their use. The standard solicitation documents are located at http://it.nc.gov/it-procurement-forms-and-templates.
+(b) All information technology purchases involving the expenditure of state funds by the purchasing agency shall be competitively bid in conformity with the "Best Value" information technology procurement requirements in G.S. 143-135.9 and Rule .0302 of this Section. Exemptions may be granted by the State CIO where limited competition, waiver of competition (See Rule .0901 of this Subchapter), special delegation (see Rules .1303 and .1304 of this Section), exemption, or an emergency purchase is permitted by rule. Purchasing agency procurements not included in a statewide term, convenience, enterprise contract, or master agreement established by the State CIO shall comply with the applicable general delegations and procedures (Rule .1304 of this Subchapter).
+(c) The agency head, or designee, shall set forth in writing procedures for making purchases under the agency's general delegation (Rule .1304 of this Subchapter). For purchases where the total requirements for goods and services involve an expenditure of state funds that does not exceed the purchasing agency's general delegation established by the State CIO, offers in conformity with G.S. 143-135.9 shall be solicited as follows:
+(1) The purchasing agency may advertise solicitations for offers to provide small purchases through the State's designated IT procurement website(s) or by an alternate method of advertising, as may be approved by the State CIO in accordance with Rule .0314 of this Section;
+(2) The purchasing agency shall award contracts for purchases.
+(d) For purchases governed by statute, where the total requirements for goods and services involve an expenditure of State funds that exceeds the purchasing agency's general or special delegation established by the State CIO, offers in conformity with G.S. 143-135.9 shall be solicited as follows to encourage competition:
+(1) The purchasing agency shall issue documents soliciting, requesting or inviting offers, as published by DIT:
+(2) The purchasing agency shall include in solicitation documents standard language, including general or standard terms and conditions for technology purchases as published by DIT and in conformance with Rule .0316 of this Section. If additional terms and conditions are used, they shall not conflict with standard terms and conditions published pursuant to 09 NCAC 06A .0101 unless prior written approval is obtained under Rule .0201 of this Subchapter; and
+(3) The purchasing agency may also request from the State CIO, known vendor sources amenable to competing for award of various State procurements.
+(4) For purchases exceeding an agency's general delegation, the purchasing agency shall submit drafts of solicitation documents to the State CIO for approval prior to proceeding with the procurement process. The State CIO shall then engage in a review and approval process of such solicitation documents to ensure that proposed and actual IT procurements are advantageous to the State:
+(A) After completing review and evaluation of offers received, the purchasing agency may prepare and submit to the State CIO for review a draft recommendation for award;
+(B) After completing review and evaluation of offers received, the purchasing agency shall submit to the State CIO a written, final recommendation for award, including a copy of all offers received and all supporting documentation with its recommendation;
+(C) The State CIO shall then review and either approve the recommendation or direct modification to the recommended procurement action as deemed in the best interest of the State or as directed by the State CIO, (e.g., award, cancellation, rebid, negotiation with known sources of supply, etc.);
+(D) The State CIO shall notify the purchasing agency of any decision regarding that recommended procurement action; and
+(E) Upon receipt of the State CIO notification, the purchasing agency shall proceed with the respective procurement action as directed.
+(5) A contract term shall not be awarded for more than three years including extensions and renewals, without the prior approval of the State CIO, based on a determination that it is advantageous to the State pursuant to best value procurement.
+History Note: Authority G.S. 143-135.9; 143B-1322(c); 143B-1350; 143B-1351(a);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Readopted Eff. March 1, 2016.
+
+09 NCAC 06B .0302 METHODS OF SOURCE SELECTION
+Purchases governed by general delegation or statute shall be solicited, and offers evaluated, in accordance with the following best value methods:
+(1) The purchasing agency shall use the following steps for best value procurements;
+(a) The purchasing agency determines the appropriate best value bidding method through development of one of the solicitations set forth in Sub-item (1)(b) of this Rule;
+(b) The following types of solicitations are available from the State CIO or other types as may be approved by the State CIO pursuant to applicable laws and regulations:
+(i) Requests for Information (RFI), used for gathering information to prepare a solicitation for offers;
+(ii) Invitations for Bid (IFB), used when the best value recommendation for award is based on the lowest priced or highest qualified and technically acceptable selection method;
+(iii) Requests for Quotation are used to contract with a single vendor or a limited group of vendors for purchases of specific goods and services or small purchases of goods, or pursuant to a waiver of competition that satisfies Rule .0901 of this Subchapter;
+(iv) Requests for Proposal (RFP), used for purchases when the State needs to solicit solutions-based offers, where negotiations with one or more vendors may be needed, or when the best value recommendation for award is based on ranking all offers and will not be based solely on the lowest priced-technically acceptable source;
+(v) One-Step solicitation, used when both the technical step one offer and price step two offer are submitted at the same time;
+(vi) Two-Step solicitation, used when the technical step one offer and price step two offer are submitted and evaluated separately;
+(c) The purchasing agency shall develop, advertise, and publish its solicitation for offers in accordance with the rules of this Subchapter;
+(d) The purchasing agency shall hold any scheduled conferences or site visits in accordance with standard solicitation document language established by the State CIO;
+(e) The purchasing agency shall receive offers in response to its solicitation and it shall then conduct a public bid opening and prepare a tabulation of all offers received. For solicitations that allow for negotiation after receipt of offers, only the names of offerors shall be disclosed at the public bid opening or on the tabulation of offers received;
+(f) The purchasing agency's evaluation committee shall evaluate offers in accordance with the stated solicitation selection method and evaluation criteria. For solicitations that include a best value ranking process, the purchasing agency shall rank offers by using any consistent rating or scoring methodology, which may include adjectival, numerical, or ordinal rankings. The purchasing agency's evaluation shall document relative strengths, deficiencies, weaknesses, and risks supporting its award recommendation. Best-Value evaluation shall include evaluating quality factors such as:
+(i) State's total cost of ownership, meaning summation of the State's total cost for acquiring, operating, maintaining, and supporting a product or service over its projected lifetime to include competitive price data; evaluation of the offeror's cost for actual and anticipated components comprising its quotation, as applicable; and value-added conditions or additional services included in the offer;
+(ii) Technical merit of the offer including as applicable, consideration for consistency and compatibility of the proposed solution with the State's strategic program direction; maximum facilitation of data exchange or systems integration; effectiveness of business solution and approach to solicitation's specific purpose or objective; delivery and implementation schedules; and guarantees, warranties, and return policies; and
+(iii) Probability of the offeror performing the work as stated in the solicitation on time, in a manner that accomplishes the stated intent and business objectives, and that maintains compliance with industry standards including, as applicable, consideration of the offeror's financial stability; program or industry experience; past performance with the State; expertise with similar projects, solutions, or technologies; its proven development methodologies and tools, innovative use of technologies; or key personnel and depth of additional resources, compared to scope and intent of business need stated in the solicitation; etc.;
+(g) The purchasing agency may communicate with offerors after receipt of offers and in accordance with instructions, procedures and terms set forth in the solicitation as well as those procedures appropriate to the designated method of source selection. If negotiation is permitted in the solicitation, the purchasing agency may also allow offerors to submit best and final offers subsequent to negotiated changes in the initial offer or previous offer;
+(h) The purchasing agency evaluation committee shall determine a final ranking of all offers under consideration using only the criteria set forth in the solicitation. The purchasing agency evaluation committee shall rank all responsive and responsible offerors from most advantageous to least advantageous to the State, and document such in its final award recommendation;
+(i) Award must be made to the responsive and responsible offeror whose offer is determined to be the most advantageous and best value to the State, using all evaluation criteria set forth in the solicitation (e.g., if the lowest price or highest qualified technically acceptable method is designated in the solicitation, then award must be made to the responsive and responsible offeror with the lowest price or highest qualified technically accepted method.)
+(2) A trade off method of source selection may be utilized when it is in the best interest of the State to award a contract using a comparative evaluation of technical merit and costs. For a solicitation that designates the trade-off source selection method, the following shall apply:
+(a) All factors that will affect the contract award recommendation and the relative importance of each shall be stated as evaluation criteria in the published solicitation;
+(b) The solicitation shall state the importance or numerical weight of all evaluation criteria including consideration of price and total cost of ownership;
+(c) Offers shall be ranked according to the evaluation criteria stated in the solicitation. The relative overall ranking of any offer may be adjusted up or down when considered with, or traded-off against, other non-price factors. For example, an offer with the lowest price when compared to other offers would receive the best ranking in the price evaluation category. However, if other non-price evaluation factors received low rankings, the overall ranking of the offer would be reduced;
+(d) Clarifications are permitted;
+(e) If permitted in the solicitation terms, the purchasing agency may also use negotiations, or other communications, after receipt of an offer.
+(3) The lowest priced or highest qualified technically acceptable source selection method may be used when best value is expected to result from selection of the highest qualified or technically acceptable offer with the lowest evaluated price. When this method is designated in a solicitation, the following shall apply:
+(a) The factors that establish the requirements for technical acceptability shall be set forth in the solicitation's evaluation criteria. Evaluation criteria shall specify that the award will be made on the basis of the lowest evaluated price or most highly qualified technically acceptable of those offers that meet or exceed the acceptability requirements for non-price factors;
+(b) Trade-offs between price and non-price factors are not permitted;
+(c) Proposals are evaluated for acceptability but are not ranked using the non-price factors.
+(d) Clarifications are permitted;
+(e) Negotiations are permitted with this selection method for purchases over the purchasing agency's general delegation, when so specified in the published solicitation. The purchasing agency may negotiate with a potential vendor(s) in an effort to acquire the quality of good or service needed at the best possible price, delivery, or terms and conditions.
+(4) Other competitive best value source selection methodologies may be used if they are determined to be advantageous to the state and are approved for use by the State CIO.
+History Note: Authority G.S. 143-135.9; 143B-1322(c); 143B-1343; 143B-1350; 143B-1355;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Readopted Eff. March 1, 2016.
+
+09 NCAC 06B .0303 Electronic OFFERS
+The purchasing agency may accept offers submitted electronically in response to solicitation documents if such offers comply with these Rules and applicable laws. The purchasing agency's use of digital or electronic signatures must be consistent with applicable statutes and rules. The purchasing agency must authorize but may limit the use of electronic methods of conducting a procurement based on the State's best interests, as determined by the purchasing agency and approved by the State CIO if such methods comply with these Rules and information technology security policies established pursuant to G.S. 147-33.110 et seq.
+History Note: Authority G.S. 66-58.5; 66-325; 147-33.95;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0304 RECALL OF OFFERS
+An offeror may recall its offer by delivering a written request to withdraw prior to acceptance of any offer related to that procurement.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0305 PUBLIC OPENING
+(a) The purchasing agency shall publicly open and tabulate all offers at the time, date and place identified in the solicitation. The tabulation shall be made public at the time it is created unless otherwise provided by these Rules.
+(b) At the time of opening, only the names of offerors and the goods or services offered shall be tabulated when negotiation after receipt of offers is authorized by the solicitation terms, unless otherwise provided by these Rules. The price offer(s) shall become available for public inspection at the time of the award.
+(c) There shall be at least two purchasing agency employees present at the opening when "sealed offers" are required, and at least one purchasing agency employee present when electronic offers are required.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0306 LATE offers
+Offers not received by the due date and time as specified in the solicitation shall not be considered.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0307 clerical errors and clarifications
+When the purchasing agency determines that an offer appears to contain an obvious error or where a clerical error is suspected, the purchasing agency may investigate or act upon the circumstances. Any action taken shall not prejudice the rights of the public or other offerors. Where offers are submitted substantially in accordance with the solicitation terms but are not clear as to intent or some particular fact or where there are other ambiguities, the purchasing agency may seek and accept clarifications or may open communications as permitted by Rule .0302 of this Subchapter. Clarifications shall not be utilized to cure material deficiencies or to negotiate.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0308 EXTENSION OF offer validity
+When the purchasing agency determines it is in the State's best interest, the purchasing agency may request that offerors extend the date through which the offers are valid. Requests by the State for time extensions of offer validity will not result in change to the prices as stated in the original offer unless so specified in the request to extend or subsequently agreed to by the purchasing agency in writing.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0309 EVALUATION
+(a) In determining the award of contracts, the purchasing agency shall consider and evaluate responsive and responsible offers as provided by statute and applicable rules.
+(b) Only persons in the purchasing agency who are assigned to evaluate the offers and accompanying information, or who are otherwise assigned to participate in the procurement process, or others whose participation may be determined necessary on the basis of subject matter expertise by the purchasing agency or State CIO in the procurement process shall possess offers, including any information submitted with the offers or any information related to evaluation of offers, for the purpose of concluding the award process.
+(c) Clarification of offers or negotiation(s) with offerors, if desired, shall be requested by the purchasing agency in writing. An offeror's further participation in the evaluation process is not permitted except as approved by the State CIO for the purpose of concluding the evaluation or the award process.
+(d) After award of the contract or when the need for the good or service is canceled, the complete procurement file (see Rule .1402 of this Subchapter) shall be available for public inspection except as set forth in Rule .1001 of this Subchapter and except as provided by law; provided however, that when a solicitation document is canceled and the purchasing agency intends to reissue the solicitation, information that is confidential under Rule .0103 of this Subchapter and offers received prior to cancellation shall be withheld from public inspection until the re-issued solicitation results in a contract or termination of the procurement.
+History Note: Authority G.S. 147-33.76(b1); 147-33.95(a);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0310 NOTIFICATION OF AWARD
+
+09 NCAC 06B .0311 LACK OF COMPETITION
+
+09 NCAC 06B .0312 SOLICITATION DOCUMENTS
+History Note: Authority G.S. 147-33.100; 147-33.103(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Repealed Eff. September 1, 2013.
+
+09 NCAC 06B .0313 DIVISION OF commodities and service needs
+Commodities or service needs shall not be divided to keep the expenditure under the purchasing agency's delegation to avoid following the appropriate procurement processes and applicable rules. In the case of similar and related items and groups of items, the dollar limits of delegated authority apply to the total cost of ownership rather than the cost of any single item.
+History Note: Authority G.S. 147-135.9; 147-33.76(b1); 147-33.101;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0314 ADVERTISEMENT and notice
+(a) Requirement to Advertise, Publish and Notify:
+(1) Solicitations: To maintain transparency and encourage competition for award of business, the purchasing agency shall advertise and publish solicitations for purchases exceeding the general delegation as established by the State CIO for no less than 10 calendar days, unless the State CIO waives the requirement for advertising;
+(2) Addenda or Changes: Any changes or addenda to a solicitation must be advertised and published with enough time to allow for reasonable consideration and possible incorporation of any changes into potentially competing vendors' response offers. Any changes or addenda to a solicitation must be advertised and published for no less than two business days from the scheduled offer due and opening date, unless the State CIO waives the requirement to advertise and publish changes or addenda to a solicitation;
+(3) Notices of Award: To maintain transparency and promote future competitiveness, the notice of award shall be advertised for no less than 30 calendar days, unless the State CIO waives the requirement to advertise, publish, and issue a notice of award;
+(4) Waiver of requirement to advertise and notify must fall under one of the following conditions in order for the State CIO to waive the requirement:
+(A) Acquisition of commodities or services that are subject to rapid price fluctuations or immediate acceptance;
+(B) Emergency situations or pressing needs;
+(C) Acquisition of goods or services needed for any ongoing job, task, or project;
+(D) Acquisition of goods or services where performance or price competition is not available;
+(E) Any determination that no useful purpose would be served by requiring such; or
+(F) Exceptions identified under Rule .1303 of this Subchapter.
+(b) Required method for Advertising, Publishing, and Notifying: To maintain transparency and promote competitiveness:
+(1) Solicitations:
+(A) The purchasing agency shall electronically advertise and continually publish solicitations via posting to the State's designated IT procurement website, unless a waiver of advertisement method is granted by the State CIO pursuant to waiver of competition under Rule .0901 of this Subchapter, for cooperative agreements under Rule .1006 of this Subchapter, or direct negotiation with vendors as permitted by Rule .0316 of this Subchapter;
+(B) This Rule does not preclude a purchasing agency from soliciting offers by additional direct mailings or additional advertisement;
+(C) Required advertisement and publication data shall include all relevant information pertaining to contacts and due dates, and the complete solicitation document and any attachments (i.e., specifications; requirements; terms and conditions; price model; etc.);
+(D) If a purchasing agency head (or his/her designee) determines that it is not feasible to electronically transmit (due to file size, etc.) a particular solicitation document or attachment(s) through the required method (e.g., a procurement library, architecture reference documents, price model forms, etc.), then the purchasing agency must still electronically transmit a summary notice or advertisement through the designated IT procurement website. In such instance, the advertisement shall include the required information with the addition of a brief explanation for why the entire solicitation is not included, and shall instruct anyone inquiring about the solicitation to contact the purchasing agency for a copy of the actual solicitation document and any respective attachments.
+(2) The required advertisement information shall include:
+(A) Purchasing agency name and website reference, and designated IT procurement website reference;
+(B) Assigned purchasing agency contact's name, telephone number, and electronic mail address;
+(C) Location address for delivery/receipt of offers;
+(D) Solicitation identification number or reference;
+(E) Title (i.e., scope or short description of the good or service solicited);
+(F) Due date and time for solicitation clarifications or questions;
+(G) Date, time, and location for opening of offers received;
+(H) In addition to the specifications, offer terms and conditions, award terms and conditions, etc., the solicitation document must furnish the due date and time; method of request, e.g., regular mail, or electronically via e-mail or facsimile, etc.; and an address for receipt of requests for solicitation clarifications or questions; and
+(I) Conference or site visit date, time and location; assigned meeting contact person and that contact person's telephone number and electronic mail address; and other relevant information relating to attendance. If no conference or site visit is scheduled, then this shall be stated in the advertisement and the solicitation document.
+(3) Addenda or Changes: The same advertisement method that is approved and followed for publishing a solicitation document must also be followed for publishing any respective addenda or changes to the solicitation and resulting notice of award, unless an exception is permitted Subparagraph (5) of this Paragraph.
+(4) Notices of Award:
+(A) To the extent practicable, the purchasing agency shall simultaneously issue an individual notice of award to all offerors responding to the respective solicitation and shall publish the notice of award via the approved method of advertisement for that solicitation and addendum Paragraph (a) of this Rule;
+(B) Notice of Award shall summarize the resulting contract award information including identification of the advertised solicitation; the awardee name and location; scope, start and end dates; authorized value through original end date; and renewal options.
+(5) Exceptions to Required Method:
+(A) When the purchasing agency (or its designee) deems there is a valid reason not to publish via the State's designated IT procurement website, the purchasing agency may request from DIT a waiver of the required method for advertising, publishing, and notifying;
+(B) Valid reasons to request a waiver to the required method include computer failure and networking difficulties;
+(C) The purchasing agency's request for waiver of required method shall include the rationale for requesting, a description of a proposed alternate method, length of time proposed for advertising, and explanation if the solicitation document and any attachments or addenda will not be included or published with the advertisement;
+(D) The purchasing agency's proposed alternate method to the State's designated IT procurement website must be via other medium widely distributed or commonly available to the public, such as publishing in a newspaper, etc.;
+(E) The rationale for requesting waiver of required advertising method, requested alternate method, and respective DIT approval, shall be documented and become part of the procurement file, open for public inspection after award.
+History Note: Authority G.S. 143B-1322; 143B-1350;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Readopted Eff. March 1, 2016.
+
+09 NCAC 06B .0315 MANDATORY CONFERENCES/SITE VISITS
+(a) When a solicitation requires potential offerors to attend a mandatory conference or site visit, then the date, time, location, and other details relating to attendance shall be given in the solicitation document and in the advertisement.
+(b) If only one potential offeror attends the mandatory conference or mandatory site visit, the conference or site visit may be conducted, but the purchasing agency shall endeavor to ascertain why only one potential offeror attended, and whether there is any competition available. If it is determined that competition is available, the purchasing agency may schedule another conference or site visit, if deemed to be to the advantage of the State. If it is determined that there is no competition available, then the procurement may be handled as a waiver of competition as permitted by Rule .0901 of this Subchapter.
+(c) The purchasing agency shall document details of the conference or site visit as part of the official records required in Rule .1402 of this Subchapter.
+(d) Any and all questions or clarifications by a potential offeror regarding a solicitation document shall be addressed to the purchasing agency contact so designated in the solicitation. Any and all revisions to the solicitation document shall be made only by published addendum from the purchasing agency.
+History Note: Authority G.S. 143B-1233(c); 143B-1350;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Readopted Eff. March 1, 2016.
+
+09 NCAC 06B .0316 negotiation
+(a) The purchasing agency shall conduct negotiations under its general delegation. Negotiations may also be conducted to establish contracts exceeding the purchasing agency's delegation, if the purchasing agency receives prior approval to negotiate from the State CIO as permitted by these Rules. Prior approval may be granted upon finding that the capabilities and subject matter knowledge of the agency, availability of knowledgeable personnel within the agency or DIT, use of non-state personnel, and costs of engaging additional resources demonstrate that the agency's negotiation will be more responsive, efficient, and cost-effective consistent with the requirements of best value procurement.
+(b) If a purchasing agency deems negotiations to be advantageous to the State after receiving offers and then determines that soliciting offers again would serve no purpose, the purchasing agency may then conduct negotiations with sources of supply that appear to be capable of satisfying the purchasing agency's business needs. The purchasing agency's negotiation documentation shall include identification of issues or subjects of negotiation, the agency's risk assessment therefor, trade off principles as permitted by G.S. 143-135.9, and other matters directly arising from the solicitation or offer. Negotiations shall be finalized in writing and shall include standard solicitation document language and terms and conditions issued by DIT, or such terms as may be established pursuant to Paragraphs (c) or (d) of this Rule. If the purchasing agency's negotiations are conducted with only one offeror, or if only one offeror responds to a request to negotiate, then the purchasing agency shall document the reasons for the lack of competition as part of the procurement record under Rule .1402 of this Subchapter.
+(c) Purchasing agency negotiations may be conducted under Section .0900 of this Subchapter when conditions merit a limited or waiver of competition or in other situations that are advantageous to the State as determined by the State CIO.
+(d) Modifications, waivers, or any other changes or amendments to a solicitation, including language and terms and conditions issued by the State CIO, made in the course of negotiations must be accompanied by:
+(1) Approval of the negotiating agency;
+(2) Requested approval from DIT;
+(3) Appropriate evaluation documentation reflecting trade-offs between price and non-price factors; and
+(4) Such other documentation as the State CIO may require to conform with Rule .1402 of this Subchapter.
+(e) Negotiations shall not materially alter the intent or scope of the original solicitation document.
+History Note: Authority G.S. 143B-1322(c); 143B-1340(f); 143B-1343; 143B-1350;
+Eff. September 1, 2013;
+Readopted Eff. March 1, 2016.
+section .0400 – rejection of offers
+
+09 NCAC 06B .0401 REJECTION of offers
+(a) Bases for rejection of an offer shall include, late offers; the purchasing agency's determination that the offer is unsatisfactory as to quantity, quality, delivery, price or service offered; the offeror's failure to comply with the intent or conditions of the solicitation document; the lack of competitiveness due to collusion or due to the knowledge that reasonably available competition was not received; error(s) in specifications or indication that revision(s) would be to the State's advantage; cancellation of, or changes in, the intended project or other determination that the commodity or service is no longer needed; limitation or lack of available funds; circumstances that prevent determination of the lowest priced or highest qualified technically acceptable offer or the best value offer; or any determination that rejection would be in the best interest of the State.
+(b) Unsigned offers shall be rejected by the purchasing agency.
+(c) The purchasing agency shall reject late offers and shall not consider modification of offers or withdrawals of offers unless these would have been timely except for the action or inaction of the agency personnel serving the procurement process.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0402 PUBLIC RECORD
+
+09 NCAC 06B .0403 NEGOTIATION
+History Note: Authority G.S. 147-33.103(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Repealed Eff. September 1, 2013.
+
+09 NCAC 06B .0404 notice of rejection
+(a) The purchasing agency shall not be required to provide notice of rejection of offers prior to approval and award of a contract.
+(b) When a competitive range is established by the purchasing agency's evaluation committee, and offers are not included in such range, the purchasing agency may provide notice to an offeror that its offer is excluded, consistent with this Rule and as established in the solicitation.
+(c) The purchasing agency may grant requests for debriefings as provided herein, consistent with this Rule and as may be established in solicitation documents.
+History Note: Authority G.S. 147-33.76(b1);
+Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0405 debriefing offerors
+(a) Pre- or post-award-debriefings of successful and unsuccessful offerors may be completed by personal meeting or by written or electronic communication (e.g., telephone, email, etc.).
+(b) Debriefing shall not include point-by-point comparisons of the debriefed offeror's proposal with those of other offerors. Moreover, debriefing shall not reveal any information not then available for public inspection or properly designated as confidential in accordance with Rule .1001 of this Subchapter, the N.C. Public Records Law, or any other applicable laws.
+(c) If debriefing is authorized by terms of the solicitation:
+(1) The purchasing agency shall implement the debriefing process as follows;
+(A) Include an official summary of the debriefing in the record, per Rule .1402 of this Subchapter, by the protest-period due-date;
+(B) Schedule a debriefing within five business days after receipt of an offeror's written request for a debriefing;
+(C) If requested, grant at its discretion, rejected offeror(s) a delayed debriefing for any good cause shown;
+(2) Accommodation of a competing offeror request for delayed debriefing does not extend the due dates for filing protests.
+(3) All competing offerors may request a debriefing by submission of a written request to the purchasing agency not more than three business days from notice of award date.
+(4) Offeror may, if notified that it is not included in the competitive range:
+(A) Request a pre-award debriefing by delivering such request to the purchasing agency not more than three business days after the notice of rejection date; or
+(B) Request a post-award debriefing by delivering a request for such not more than three business days after the later of the notice of rejection date or notice of the award date.
+(5) Debriefing shall include review of the committee's evaluation of vendor's proposal/offer per terms of the solicitation, including:
+(A) Any weaknesses, deficiencies, or risks to the purchasing agency, identified in evaluation of the offeror's proposal;
+(B) Evaluated cost or price (including unit prices) and the State's total cost of ownership;
+(C) Evaluated vendor responsibility to proposal, including past performance information, etc., as applicable;
+(D) Evaluated vendor responsiveness and the technical merit of its proposal;
+(E) Responses to relevant questions from the vendor about whether source selection procedures, applicable regulations, or other applicable authorities, were followed.
+(6) If debriefing is post-award, the information must include the items listed in Subparagraph (c)(4) of this Rule and may also include:
+(A) Overall ranking of all offerors; and
+(B) A summary of the evaluation and rationale for award to the successful offeror.
+History Note: Authority G.S. 143B-1322(c); 143B-1350;
+Eff. September 1, 2013;
+Readopted Eff. March 1, 2016.
+section .0500 – inspection and testing
+
+09 NCAC 06B .0501 RESPONSIBILITY
+The purchasing agency shall inspect all materials, supplies, and equipment upon delivery to verify compliance with the contract requirements and specifications. The purchasing agency shall also be responsible for verifying that services as provided comply with the terms of the contract.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0502 inspection
+The State CIO may inspect any items, or deliverables or monitor performance to ensure that contractor compliance with contract specifications and terms are met. The purchasing agency must ensure that goods or services purchased comply with applicable codes, statutes, local ordinances, policies and safety requirements.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0503 SAMPLES
+When samples are required in response to a solicitation document, the purchasing agency may test those samples or have them tested at other state or private sector testing facilities. Samples shall not be sent to laboratories outside an agency unless it is determined by an agency that these facilities have the capability, time, and expertise needed.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0504 modifications to contract SPECIFICATIONS
+When the purchasing agency determines it to be in the State's best interest, it may authorize revisions to a contract specification, including any cost adjustment associated with any such revision, as part of contract administration. If an increase in cost results in the total contract value being more than the purchasing agency's delegation, then the purchasing agency shall obtain prior written approval for a special delegation from ITS pursuant to Rule 06B .1304, regardless of what agency initially awarded the contract.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0505 REPORT OF DISCREPANCY
+Where delivered goods or services fail to meet the specifications or contract requirements, the discrepancy shall be resolved by the purchasing agency.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+section .0600 – Guarantees and warranties
+
+09 NCAC 06B .0601 ENFORCEMENT
+The purchasing agency shall enforce the contractual guarantee or warranty applying to the goods or services purchased.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0602 REPORT TO ITS
+The purchasing agency shall report to the State CIO any difficulties in obtaining satisfactory performance including service as provided in a guarantee or warranty.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .0603 RESPONSIBILITY OF purchasing AGENCY
+The purchasing agency must notify the vendor when latent or other defects are discovered. In the event the vendor fails to remedy the condition reported, the purchasing agency shall report the matter to ITS.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+SECTION .0700 - CONTRACTS
+
+09 NCAC 06B .0701 contracts established by DIT
+(a) In determining whether a good or service will be included in an agency specific contract, the agency and the State CIO shall consider available statewide term and convenience contracts and such factors as volume, whether the good or service is necessary for an IT project, nature of the good or service, repetitiveness of use, relative stability of prices, and delivery or transportation costs.
+(b) Term Contracts.
+(1) A "term contract" is a binding agreement between the purchaser and seller to buy and sell IT goods or services for a specific period of time at prices established by contract;
+(2) A statewide term contract consolidates normal, anticipated requirements of all State purchasing agencies into one agreement and shall be awarded by the State CIO. No agency may purchase IT goods or services included in a statewide term contract from any other source unless authorized by the State CIO;
+(3) If an agency documents to the State CIO a need to establish an agency specific contract in lieu of a statewide term contract or an expenditure not covered by a statewide term contract for which the expenditure during the life of the contract exceeds the agency's general delegation, the purchasing agency, with the State CIO's approval, may issue a solicitation document for the purpose of awarding an agency specific contract for use by that agency in accordance with the determining factors set forth in this Rule.
+(c) Convenience Contracts.
+(1) A statewide IT "convenience contract" is an agreement awarded by the State CIO for an indefinite quantity of goods or services that may be used by a State agency. Convenience contracts are not mandatory-use agreements;
+(2) If an agency elects not to purchase the goods or services it requires from an established convenience contract, then that agency must comply with Rule .0301 of this Subchapter.
+(d) A "master IT agreement" is an agreement between a vendor and the State characterized by one or more of the following:
+(1) Goods or services are, or may be, procured from resellers, value added resellers (VARs), original equipment manufacturers (OEMs), or others who represent the master agreement vendor;
+(2) Goods or services are proprietary intellectual property of the master agreement vendor; and
+(3) Master agreements are established without competitive bidding.
+(e) Master agreements may result in agency or statewide term or convenience contracts.
+(f) Solicitations and vendor offers may modify terms of a master agreement if the State's best interests are served and if such is allowed via the terms of the solicitation.
+(g) Master agreement terms and conditions may be negotiated pursuant to Rule .0316 of this Subchapter.
+History Note: Authority G.S. 143B-1322(c); 143B-1350;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Readopted Eff. March 1, 2016.
+
+09 NCAC 06B .0702 DETERMINING FACTORS
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Repealed Eff. September 1, 2013.
+
+09 NCAC 06B .0703 EXTENSION OF CONTRACT TERMINATION DATES
+When in the best interest of the State, offerors may be requested to extend the scheduled termination dates of contracts. Such extensions shall not result in a change in the prices stated in the original contract unless agreed to by the agency in writing. Extensions that result in a cumulative contract value exceeding an agency's delegation must be submitted to ITS for special delegation approval pursuant to Rule .1303 of this Subchapter.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+SECTION .0800 - PARTIAL AND MULTIPLE AWARDS
+09 ncac 06b .0801 USE
+(a) Partial, progressive or multiple awards may be made when it is advantageous to the State.
+(b) Notwithstanding the necessity for awards to more than one supplier, such awards shall be limited to the number of suppliers deemed necessary to satisfy the intended requirements. Quantities shall not be divided among offerors on definite quantity requirements unless and except as provided in the solicitation and unless such division is determined to be in the best interest of the State.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+SECTION 0900 – WAIVER OF COMPETITION
+
+09 NCAC 06B .0901 CONDITIONS FOR LIMITED OR WAIVED COMPETITION
+(a) Under conditions listed in this Rule, and otherwise if deemed to be in the interest of the State by the State CIO, competition may be limited or waived where a factual basis demonstrates support of one or more of the conditions set forth in Paragraph (b) of this Rule. If the procurement is within a purchasing agency's general delegation, then the purchasing agency may waive competition in conformance with this Rule. If the procurement is greater than the agency's delegation, the agency shall submit a written request including facts supporting conditions set forth in Paragraph (b) of this Rule for limited or waived competition to the State CIO for approval.
+(b) Competition may be limited or waived under the following conditions:
+(1) competition is not available;
+(2) a needed product or service is available from only one source of supply;
+(3) emergency action is indicated;
+(4) competition has been solicited but no responsive offers have been received;
+(5) standardization or compatibility is the overriding consideration;
+(6) a donation stipulates the source of supply;
+(7) personal or particular professional services are required;
+(8) a product or service is needed for a person with disabilities and there are overriding considerations for its use;
+(9) additional products or services are needed to complete an ongoing job or task;
+(10) a particular product or service is desired for educational, training, experimental, developmental or research work;
+(11) equipment is already installed, connected and in service, and it is determined advantageous to purchase it;
+(12) items are subject to rapid price fluctuation or immediate acceptance;
+(13) there is evidence of resale price maintenance or other control of prices or collusion on the part of persons or entities that thwarts normal competitive procedures unless otherwise prohibited by law;
+(14) a purchase is being made and a price is available from a previous contract;
+(15) the requirement is for an authorized cooperative project with another governmental unit(s) or a charitable non-profit organization(s); or
+(16) a used item is available on short notice and subject to prior sale.
+History Note: Authority G.S. 143B-1322(c); 143B-1350;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Readopted Eff. March 1, 2016.
+
+09 NCAC 06B .0902 APPROVAL AND DOCUMENTATION
+Although competition may be limited or waived pursuant to Rule .0901 of this Subchapter, the use of competition is required wherever an exception is not approved. After a limitation or waiver of competition is approved as provided in Rule .0901(a) of this Subchapter, negotiations with a potential vendor(s) in an effort to acquire the quality of good or service needed at the best possible price, delivery, terms and conditions, may be conducted.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+section .1000 – miscellaneous provisions
+
+09 NCAC 06B .1001 CONFIDENTIALITY
+(a) The offeror may designate information as a trade secret pursuant to G.S. 132-1.2 and may otherwise designate information as confidential as provided by law, citing the applicable statute on which the claim of confidentiality is made (e.g., offers and supporting documents meeting the criteria of North Carolina's Trade Secrets Protection Act requirements, etc.). Offerors shall identify each page containing confidential information in boldface at the top and bottom; e.g., "CONFIDENTIAL". Price(s) presented in response to a solicitation shall not be deemed confidential.
+(b) To promote maximum competition and to protect the public competitive procedure from being used to obtain information that would normally not be available otherwise, the purchasing agency shall maintain the confidentiality of those portions of an offer properly designated as confidential.
+History Note: Authority G.S. 132-1.2; 147-33.76(b1); 147-33.95(a);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1002 PAYMENT PLANS
+Purchase contracts may provide for payment over a period of time. Such instances shall be justified in the procurement record, kept to a minimum and shall include approval from the agency head for payment provisions when payments will be made over a period of time. Agency heads and governing boards of an agency shall ensure that the agency complies with statutory and State fiscal requirements.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1003 CHANGE IN CORPORATE STRUCTURE OR ASSIGNMENT
+A vendor shall not assign a state contract without prior written approval from the purchasing agency. In cases where the vendor seeks to assign its contract prior to the State's written approval of an assignment, the vendor assignor shall affirm in writing to the State that the assignee is fully capable of performing all obligations of the vendor under the contract. In cases where vendors who have been awarded contracts are involved in corporate consolidations, acquisitions, or mergers, the purchasing agency may negotiate agreements for the transfer of contractual obligations and the continuance of contracts within the framework of the new corporate structures.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1004 PURCHASING FROM OR THROUGH AGENCY EMPLOYEES
+Written approval of the State CIO is required before an agency purchases goods or services from or through an agency employee. In deciding whether to grant approval, the State CIO shall consider the type of item or service needed, the prevailing market conditions, whether competition is available, the cost involved, and the effects of doing business with the employee.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1005 Anticompetitive, deceptive, and fraudulent practices
+(a) A purchasing agency shall act to prevent the continuance of anticompetitive, deceptive, or fraudulent practices. Anticompetitive practices include actions involving offerors that restrain trade or commerce or eliminate competition.
+(b) Anticompetitive, deceptive, or fraudulent practices may be evidenced by one or more of the following:
+(1) Conspiracy (in restraint of trade or commerce);
+(2) Combination bidding (in restraint of trade or commerce);
+(3) Price fixing (which may include reliance upon an industry price list);
+(4) Collusion;
+(5) Identical bidding;
+(6) Agreements to:
+(A) Rotate offers;
+(B) Share the profits with an offeror who is not the low offeror;
+(C) Sublet work in advance of bidding as a means of preventing competition;
+(D) Refrain from bidding;
+(E) Submit prearranged offers;
+(F) Submit complementary offers;
+(G) Set up territories to restrict competition;
+(H) Alternate bidding; or
+(I) Any other unlawful act in restraint of trade or commerce.
+(c) Agency actions to discourage or prevent the continuance of anticompetitive, deceptive, or fraudulent practices may include the following:
+(1) Rejecting the offending offeror's offer;
+(2) Awarding a bid to an offeror with a cost or technical proposal that is evaluated lower than the offending offeror's proposal; and
+(3) Recommending that the State CIO suspend an offeror from doing business with the State;
+(d) The purchasing agency shall report evidence of anticompetitive, deceptive or fraudulent practices to the Attorney General's office and any other appropriate law enforcement authority.
+History Note: Authority G.S. 75-1, et seq.; 133-24, et seq.; 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1006 COOPERATIVE PURCHASING
+When an agency participates in a cooperative project with another governmental entity or with a non-profit organization, goods and services necessary for the project shall be procured according to the Rules in this Chapter. If the interest of the State would be better served by one of the following procurement methods, the State CIO may authorize procurement by:
+(1) Making or authorizing acquisition on behalf of such governmental entity or non-profit organization;
+(2) Authorizing acquisition on the State's behalf under the provisions of another state or another governmental entity, provided due consideration is given by the State CIO to the differences in purchasing rules, regulations, and procedures of the contracting entity; or
+(3) Authorizing acquisition on the State's behalf under provisions of the U.S. General Services Administration Supply Schedule 70 and Consolidated Schedule for Information Technology purchases.
+History Note: Authority G.S. 147-33.76(b1); 147-33.95(b)(2)(a);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1007 RESERVED FOR FUTURE CODIFICATION
+
+09 NCAC 06B .1008 BOARD OF AWARDS
+History Note: Authority G.S. 143-52.1; 147-33.76(b1); 147-33.95; 147-33.101;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Repealed Eff. September 1, 2013. (See Rule 06A .0103).
+
+09 NCAC 06B .1009-.1029 REserved for future codification
+
+09 NCAC 06B .1030 DEFAULT PROCEEDINGS; DEBARMENT
+(a) The agency that issued the solicitation document resulting in the contract may find a contractor in default of contract for failing to perform in accordance with the contract requirements, terms and conditions. If a contractor is found in default of contract, the agency that issued the solicitation document resulting in the contract may take action, immediate if necessary, to purchase the needed goods or services on the open market and charge any additional cost for the goods or services and expense for doing so to the defaulting contractor. If an agency finds a contractor in default, such action and the circumstances shall be reported by the agency to ITS in writing. This does not limit any other remedies that may be available to the state or agency.
+(b) ITS may remove the contractor from any distribution lists that may be utilized and debar the contractor from doing IT procurements with the state for a period a period of one year. ITS shall notify any contractor of debarment action in writing.
+History Note: Authority G.S. 147-33.103(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1031 FAITHFUL PERFORMANCE
+(a) A bond, or other means of ensuring faithful performance, may be required of the contractor at the contractor's expense.
+(b) Liquidated damages may be provided for in the contract, as a means of ensuring faithful performance from the contractor.
+(c) The agency may hold as a retainage a percentage of the contract value to be remitted upon final acceptance by the agency.
+(d) The agency may withhold final payment contingent on acceptance of the final deliverable.
+History Note: Authority G.S. 147-33.103(b);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+SECTION .1100 - BID PROTEST, CONTESTED CASE PROCEDURE
+
+09 NCAC 06B .1101 RIGHT TO HEARING
+Whenever ITS or the State CIO acts in such a way as to affect the rights, duties, or privileges of a party, that party may request a hearing in accordance with this Section and G.S. 150B, Article 3A.
+History Note: Authority G.S. 150B-38;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1010 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1102 PROTEST PROCEDURES for award of contracts
+(a) To ensure fairness to all offerors and to promote open competition, the purchasing agency shall respond to an offeror's protest over IT contract awards.
+(b) This Rule applies to IT contracts with an estimated value of twenty-five thousand dollars ($25,000) or more. The purchasing agency shall establish procedures to address protests by offerors where the award value is less than twenty-five thousand dollars ($25,000).
+(c) When an offeror protests a contract awarded by an agency of twenty-five thousand dollars ($25,000) or more in value, the agency and the offeror shall comply with the following:
+(1) The offeror shall deliver a written request for a protest meeting to the agency head or his designee within 15 calendar days from the date of contract award. The agency head shall furnish a copy of the written request to the State CIO within 10 calendar days of receipt. The offeror's request shall contain specific reasons and any supporting documentation regarding why there is a concern with the award. If the request does not contain this information or the agency head determines that a meeting would serve no purpose, then the agency head, within 10 calendar days from the date of receipt, may respond in writing to the offeror and refuse the protest meeting request. A copy of the agency head's letter shall be forwarded to the State CIO.
+(2) If the protest meeting is granted, the agency head shall give written notice to the State CIO and any awarded vendor of the date and time of the protest meeting. The agency shall give notice to the awarded vendor and the State CIO stating whether any purchase order or performance has been suspended or terminated. The agency head shall schedule the meeting within 30 calendar days after receipt of the letter, unless a later date is accepted by the protesting party and the agency. Within 10 calendar days from the date of the protest meeting, the agency head shall respond to the offeror in writing with an agency decision. A copy of the agency head's letter shall be forwarded to the State CIO.
+(3) If a protest is determined to be valid by the State CIO then the following outcomes may occur:
+(A) The award and issued purchase order shall be canceled and the solicitation for offers to contract is not re-bid;
+(B) The award and issued purchase order shall be canceled and the solicitation for offers to contract is re-bid;
+(C) The award and issued purchase order shall be canceled and the contract shall be awarded to the next lowest priced, technically competent, qualified offeror, if that offeror agrees to still honor its submitted bid.
+(d) When an offeror protests a contract awarded by the State CIO that is twenty-five thousand dollars ($25,000) or more in value, the State CIO and the offeror shall comply with the following:
+(1) The offeror shall deliver a written request for a protest meeting to the State CIO within 15 calendar days from the date of contract award. The offeror's request shall contain specific reasons and any supporting documentation regarding the offeror's concern with the award. If the request does not contain this information or the State CIO determines that a meeting would serve no purpose, then the State CIO, within 10 calendar days from the date of receipt of the offeror's protest, may respond in writing to the offeror and refuse the protest meeting request. A copy of the State CIO's letter shall be forwarded to the designated hearing officer.
+(2) If the protest meeting is granted, the State CIO shall attempt to schedule the meeting within 30 calendar days after receipt of the offeror's protest unless a later date is accepted by the protesting party and the State CIO. Within 10 calendar days from the date of the protest meeting, the State CIO shall respond to the offeror in writing with a decision. A copy of the decision shall be forwarded to the designated hearing officer.
+(e) When an offeror protests a statewide term or convenience contract or master agreement established by the State CIO, the State CIO and the offeror shall comply with the following:
+(1) The offeror shall deliver a written request for a protest meeting to the State CIO within 15 calendar days from the date of the contract award. The offeror's request shall contain specific reasons and any supporting documentation regarding the offeror's concern with the award. If the request does not contain this information or the State CIO determines that a meeting would serve no purpose, the State CIO, within 10 calendar days from the date of receipt of the offeror's request shall respond in writing to the offeror and refuse the protest meeting request. A copy of the State CIO's letter shall be forwarded to the designated hearing officer.
+(2) If the protest meeting is granted, the State CIO shall give written notice to the designated hearing officer and any awarded vendor of the date and time of the protest meeting. Notice shall be given to the awarded vendor and the designated hearing officer stating whether any purchase order or performance has been suspended or terminated. The State CIO shall schedule the meeting within 30 calendar days after receipt of the offeror's protest unless a later date is accepted by the protesting party and the State CIO. Within 10 calendar days from the date of the protest meeting, the State CIO shall respond to the protesting offeror in writing with a decision. A copy of the decision shall be forwarded to the designated hearing officer.
+(f) If a party desires further administrative review after receiving a decision under Paragraph (c), (d), or (e) of this Rule, the protesting party may, within 60 days from the date such decision is received, request a hearing and final decision by the State CIO in accordance with these Rules and Article 3A of G.S. 150B. When further administrative review involves a contract awarded by an agency that is twenty-five thousand dollars ($25,000) or more in value, the agency shall be a party in any further review processes.
+(g) The signature of an attorney or party on a protest constitutes a certification by the signer that the signer has read such document; that to the best of the signer's knowledge, information, and belief formed after reasonable inquiry, it is well grounded in fact and is warranted by existing law; and that it is not interposed for any improper purpose such as to harass, cause unnecessary delay or a needless increase in the cost of the procurement or of the litigation. If a protest is determined to be frivolous or to have been filed without any substantial basis or reasonable expectation to believe that the protest was meritorious, the State CIO, upon motion or upon his own initiative, may impose any sanction available under the N.C. Rules of Civil Procedure. Notification to the affected party shall be in writing.
+History Note: Authority G.S. 147-33.76(b1); 150B-38;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1009 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1103 REQUEST FOR HEARING
+(a) A request for an administrative hearing under Rule .1101 of this Section must be in writing and shall contain the following information:
+(1) name and address of the person requesting the hearing;
+(2) a concise statement of the departmental action being challenged;
+(3) a concise statement of the manner in which the petitioner is aggrieved; and
+(4) a clear and specific demand for a public hearing.
+(b) A request for hearing shall be delivered to the State CIO, or ITS hearing officer, by U.S. Postal Service, commercial or private courier. A request for hearing shall be addressed to the attention of the State CIO or Hearing Officer, N.C. Office of Information Technology Services, P.O. Box 17209, Raleigh, North Carolina 27619-7209; or N.C. Office of Information Technology Services, 3700 Wake Forest Road, Raleigh, North Carolina, 27609.
+History Note: Authority G.S. 147-33.76(b1); 150B-38(a);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1011 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1104 DEFINITIONS
+The definitions contained in G.S. 150B-2 are incorporated in this Section by reference. In addition to those definitions, the following definitions apply to this Section:
+(1) "File or filing" means to place or the placing of the paper or item to be filed into the care and custody of the hearing officer. All documents filed with the hearing officer, except exhibits, shall be in duplicate in letter size 8 1/2" by 11".
+(2) "Hearing officer" shall be the State CIO or appointee under G.S. 150B-40 as the presiding officer, or an administrative law judge assigned under G.S. 150B-40. The phrase "a majority of the agency," or "an agency" as specified in G.S. 150B-40 shall be interpreted in these Rules to mean the State CIO. The phrase "an agency member" or "member of an agency," if not applicable by its terms to the State CIO, shall not be applicable in these Rules.
+(3) "Service or serve" means, unless otherwise provided by law or Rule 4 of the North Carolina Rules of Civil Procedure, delivery by first class United States Postal Service mail or a licensed overnight express mail service, postage prepaid and addressed to the person required to be served at his or her last known address. A certificate of service by the person making the service shall be appended to every document requiring service under this Section. Service by mail or licensed overnight express mail is complete upon placing the item to be served, enclosed in a wrapper addressed to the person to be served, in an official depository of the United States Postal Service; or postage prepaid and wrapped in a wrapper addressed to the person to be served, to an agent of the overnight express mail service.
+History Note: Authority G.S. 147-33.76(b1); 150B-40;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1012 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1105 GENERAL PROVISIONS
+The following general provisions apply to this Section:
+(1) The Rules of Civil Procedure as contained in G.S. 1A-1 and the General Rules of Practice for the Superior and District Courts as authorized by G.S. 7A-34 and found in the Rules Volume of the North Carolina General Statutes apply in matters before the hearing officer unless another specific statute or rule provides otherwise.
+(2) ITS may supply, at the cost for copies, forms for use in contested cases.
+(3) Every document filed with the hearing officer shall be signed by the author of the document, and shall contain his name, address, telephone number, and North Carolina State Bar number if the author is an attorney. An original and one copy of each document shall be filed. In any proceeding referred to the Office of Administrative Hearings (OAH) pursuant to G.S. 150B-40, parties shall deliver a copy of each document filed with the OAH to the State CIO.
+(4) Hearings shall be conducted, as nearly as practical, in accordance with the practice in the Trial Division of the General Court of Justice.
+(5) This Section and copies of all matters adopted by reference in this Section are available from ITS at cost.
+(6) The rules of statutory construction contained in Chapter 12 of the General Statutes apply in the construction of this Section. The rules contained in this Section govern the conduct of contested case hearings under Article 3A of Chapter 150B of the General Statutes.
+(7) Unless otherwise provided in a specific statute, time computations in contested cases under this Section are governed by G.S. 1A-1, Rule 6.
+(8) If the State CIO determines that a hearing would assist him or her in reaching a decision, he or she may schedule a hearing, notwithstanding the fact that no request for a hearing has been received. In such cases the State CIO's written documentation shall be treated as a request for hearing.
+(9) The hearing officer may designate legal counsel as an advisor on matters of law for the benefit of the hearing officer during the proceedings.
+History Note: Authority G.S. 147-33.76(b1); 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1013 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1106 ORDER FOR PREHEARING STATEMENTS
+The hearing officer may serve all parties with an order for prehearing statements together with, or after service of, the notice of hearing. Every party thus served shall, within 30 days after service, file the requested statements setting out the party's present position on the following:
+(1) The nature of the proceeding and the issues to be resolved;
+(2) A brief statement of the facts and reasons supporting the party's position on each matter in dispute;
+(3) A list of proposed witnesses with a brief description of their proposed testimony;
+(4) A description of the discovery, if any, the party will seek to conduct prior to the contested case hearing and an estimate of the time needed to complete discovery;
+(5) Venue considerations;
+(6) Estimation of length of the hearing;
+(7) The name, address, and telephone number of the party's attorney, if any; and
+(8) Other matters permitted under Article 3A of Chapter 150B.
+The prehearing statement shall not be used to amend the original protest or to establish jurisdiction not previously established by the protest or request for hearing.
+History Note: Authority G.S. 147-33.76(b1); 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1014 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1107 DUTIES OF THE HEARING OFFICER
+(a) In conjunction with the powers in this Section, in Article 3D of Chapter 147 of the General Statutes and in G.S. 150B, Article 3A the hearing officer shall perform the following duties, consistent with law and as recommendations to the State CIO, if the hearing officer is not the State CIO:
+(1) Hear and rule on motions;
+(2) Grant or deny continuances;
+(3) Issue orders regarding prehearing matters, including directing the appearance of the parties at a prehearing conference;
+(4) Examine witnesses when deemed to be necessary to make a complete record and to aid in the full development of material facts in the case;
+(5) Make preliminary, interlocutory, or other orders as deemed to be appropriate;
+(6) Recommend a summary disposition of the case or any part thereof when there is no genuine issue as to any material fact or recommend dismissal when the case or any part thereof has become moot or for other reasons; and
+(7) Apply sanctions in accordance with Rule .1114 of this Section.
+(b) Recommended final agency decision. If an appointed hearing officer presides over any hearing, the hearing officer shall issue a written recommended final agency decision. The appointed hearing officer shall serve a copy of the recommended final agency decision upon all parties and the State CIO. Upon review of the recommended decision issued by the appointed hearing officer, the State CIO may adopt, modify or vacate the recommended decision and notify the parties. The State CIO shall make the final agency decision.
+(c) Hearing conducted by the State CIO. In lieu of assigning a hearing officer to preside over any hearing, the State CIO may conduct the hearing. After the time for the filing of proposed findings of fact and conclusions of law by the parties expires, the State CIO shall issue a final agency decision.
+(d) The recommended decision of the hearing officer, if any, and the decision of the State CIO shall be in writing and shall include findings of fact and conclusions of law. The report, decision or determination of the State CIO upon review shall be final unless further appeal is made to the courts under the provisions of Chapter 150B of the General Statutes.
+History Note: Authority G.S. 147-33.76(b1); 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1015 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1108 CONSENT ORDER; SETTLEMENT; STIPULATION
+Informal disposition may be made of a contested case or an issue in a contested case by stipulation, agreement, or consent order at any time during the proceedings. Parties may enter into such agreements on their own or may ask for a settlement conference with the hearing officer to promote consensual disposition of the case. Any such disposition must be approved in writing by the State CIO.
+History Note: Authority G.S. 147-33.76(b1); 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1016 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1109 SETTLEMENT CONFERENCE
+(a) A settlement conference is for the primary purpose of assisting the parties in resolving disputes and for the secondary purpose of narrowing the issues and preparing for hearing. Notice of the conference may be included in the pre-hearing conference notice or in a separate written order. The purpose of a settlement conference is to:
+(1) Explore any grounds upon which a contested case may be resolved without the need for a hearing; and
+(2) Pursue any other matters which will reduce the cost, save time, simplify the issues to be heard, or otherwise aid in the expeditious disposition of the matters to be addressed by the hearing.
+(b) Unless the parties and the hearing officer agree, a unilateral request for a settlement conference does not constitute good cause for a continuance. The conference shall be conducted at a time and place agreeable to all parties and the hearing officer. It shall be conducted by telephone if any party would be required to travel more than 50 miles to attend, unless that party agrees to travel to the location set for the conference. If a telephone conference is scheduled, the parties must be available by telephone at the time of the conference.
+(c) All parties shall attend or be represented at a settlement conference. Parties or their representatives shall be prepared to participate in settlement discussions.
+(d) The parties shall discuss the possibility of settlement before a settlement conference if they believe that a reasonable basis for settlement exists.
+(e) At the settlement conference, the parties shall be prepared to provide information and to discuss all matters required in Rule .1106 of this Section.
+(f) If, following a settlement conference, a settlement has not been reached but the parties have reached an agreement on any facts or other issues, the hearing officer presiding over the settlement conference shall issue an order confirming and approving, if necessary, those matters agreed upon. The order is binding on the parties and on the hearing officer who is assigned to hear the case and subject to final approval by the State CIO if the hearing officer is not the State CIO.
+History Note: Authority G.S. 147-33.76(b1); 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1017 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1110 PREHEARING CONFERENCE
+(a) The purpose of the prehearing conference is:
+(1) to simplify the issues to be determined;
+(2) to obtain stipulations in regard to foundations for testimony or exhibits;
+(3) to obtain stipulations or other agreements as to the facts or the application of particular laws;
+(4) to consider the proposed witnesses for each party;
+(5) to identify and exchange documentary evidence intended to be introduced at the hearing;
+(6) to determine dates or schedules for the completion of any discovery;
+(7) to establish hearing dates and locations if not previously set;
+(8) to consider such other matters that may be necessary or advisable; and, if possible,
+(9) to reach a settlement without the necessity for further hearing. Any final settlement shall be set forth in a settlement agreement or consent order and made a part of the record.
+(b) Upon the request of any party or upon the hearing officer's own motion, the hearing officer may hold a prehearing conference before a contested case hearing. The hearing officer may require the parties to file prehearing statements in accordance with Rule .1106 of this Section. A prehearing conference on the simplification of issues, amendments, stipulations, or other matters may be entered on the record and may be made the subject of an order by the hearing officer. Venue for purposes of a prehearing conference shall be determined in accordance with G.S. 150B-38(e).
+History Note: Authority G.S. 147-33.76(b1); 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1018 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1111 DISCOVERY
+(a) Discovery methods are means designed to assist parties in preparing to meet their responsibilities and protect their rights during hearings without unduly delaying, burdening, or complicating the hearings process and with due regard to the rights and responsibilities of other parties and persons affected. Accordingly, parties shall exhaust all less formal opportunities to obtain discoverable material before utilizing this Rule.
+(b) Any means of discovery available pursuant to the North Carolina Rules of Civil Procedure, G.S. 1A-1, is allowed. If the party from whom discovery is sought objects to the discovery, the party seeking the discovery may file a motion with the hearing officer to obtain an order compelling discovery. In the disposition of the motion, the party seeking discovery shall have the burden of showing that the discovery is needed for the proper presentation of the party's case, is not for purposes of delay, and that the issues in controversy warrant the discovery. In ruling on a motion for discovery, the hearing officer shall recognize all privileges recognized at law.
+(c) When a party serves another party with a request for discovery, that request need not be filed with the hearing officer but shall be served upon all parties.
+(d) The parties shall immediately commence to exchange information voluntarily, to seek access as provided by law to public documents, and to exhaust other informal means of obtaining discoverable material.
+(e) Unless otherwise ordered, all discovery shall be completed no later than the first day of the hearing. The hearing officer may shorten or lengthen the period for discovery and adjust hearing dates accordingly and, where necessary for a fair and impartial hearing, allow discovery during the pendency of the hearing.
+(f) Unless otherwise ordered, no later than 15 days after receipt of a notice requesting discovery, the receiving party shall:
+(1) Move for relief from the request;
+(2) Provide the requested information, material or access; or
+(3) Offer a schedule for reasonable compliance with the request.
+(g) Sanctions for failure of a party to comply with an order of the hearing officer made pursuant to this Rule shall be as provided for by G.S. 1A-1(37), to the extent that a hearing officer may impose such sanctions, and Rule .1114 of this Section.
+History Note: Authority G.S. 147-33.76(b1); 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1020 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1112 CONSOLIDATION OF CASES
+(a) The hearing officer may order a joint hearing of any matters at issue in contested cases involving common questions of law or fact or multiple hearings involving the same or related parties, or may order the cases consolidated or make other orders to reduce costs or delay in the hearings.
+(b) A party requesting consolidation shall serve a motion for consolidation on all parties to the cases to be consolidated and shall file the original with the hearing officer. Any party objecting to the motion shall serve and file its objections within five days after service of the petition for consolidation.
+(c) Upon determining whether cases shall be consolidated, the hearing officer shall serve a written order on all parties that contains a description of the cases for consolidation and the reasons for the decision.
+(d) Nothing contained in this Rule prohibits the parties from stipulating and agreeing to a consolidation, which shall be granted upon submittal of a written stipulation, signed by every party, to the hearing officer.
+(e) Following receipt of a notice of or order for consolidation, any party may move for severance by serving a motion on all other parties and filing it with the hearing officer at least seven days before the first scheduled hearing date. If the hearing officer finds that the consolidation will prejudice any party, he shall order the severance or other relief that will prevent the prejudice from occurring.
+History Note: Authority G.S. 147-33.76(b1); 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1019 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1113 SUBPOENAS
+The cost of service, fees, and expenses of any witnesses subpoenaed shall be paid by the party at whose request the witness appears. A party seeking an order imposing sanctions for failure to comply with any subpoena issued under this Rule must prove proper service of the subpoena.
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1021 Eff. March 19, 2008;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1114 SANCTIONS
+(a) If a party fails to appear at a hearing or fails to comply with an interlocutory order of the hearing officer, the hearing officer may:
+(1) Find that the allegations of or the issues set out in the notice of hearing or other pleading may be taken as true or deemed to be proved without further evidence;
+(2) Dismiss or grant the motion or petition;
+(3) Suppress a claim or defense; or
+(4) Exclude evidence.
+(b) In the event that any party, attorney at law, or other representative of a party fails to comply with a subpoena, engages in behavior that obstructs the orderly conduct of proceedings, or would constitute contempt if done in the General Court of Justice, the hearing officer may enter a show cause order returnable in Superior Court for contempt proceedings in accordance with G.S. 150B-40(c)(6).
+(c) If a witness fails to comply with a subpoena, the hearing officer may enter a show cause order returnable in Superior Court for contempt proceedings in accordance with G.S. 150B-40(c)(6).
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1022 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1115 MOTIONS
+(a) Unless otherwise required or permitted by these Rules, any party may file any motion which would be permitted under the Rules of Civil Procedure as though the contested case was a matter pending in a civil trial court. Motions practice in contested cases before the hearings officer pursuant to G.S. 150B, Article 3A, shall be governed by Rule 6 of the Rules of Civil Procedure and the General Rules of Practice for the Superior and District Courts of North Carolina.
+(b) The opposing party may file such response as is permitted by the Rules of Civil Procedure to any such motion within the time permitted by the Rules of Civil Procedure.
+(c) The hearing officer shall rule on any correctly filed motion. The hearing officer may rule on any motion with or without oral argument. The hearing officer shall notify the parties of the location, date, and time for oral argument if, in the hearing officer's discretion, oral argument is necessary for a full and complete record. The notice shall indicate whether the argument is to be conducted in person or by conference call.
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1023 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1116 INTERVENTION
+(a) Any person not named in the notice of hearing who desires to intervene in a contested case as a party shall file a timely motion to intervene and shall serve the motion upon all existing parties. Timeliness shall be determined by the hearing officer in each case based on circumstances at the time of filing. The motion shall show how the movant's rights, duties, or privileges may be determined or affected by the contested case; shall show how the movant may be directly affected by the outcome or show that the movant's participation is authorized by statute, rule, or court decision; shall set forth the grounds and purposes for which intervention is sought; and shall indicate movant's statutory right to intervene if one exists.
+(b) Any party may object to the motion for intervention by filing a written notice of objections with the hearing officer within five days after service of the motion if there is sufficient time before the hearing. The notice of objection shall state the party's reasons for objection and shall be served upon all parties. If there is insufficient time before the hearing for a written objection, the objection may be made at the hearing.
+(c) When the hearing officer deems it to be necessary to develop a full record on the question of intervention, he may conduct a hearing on the motion to determine specific standards that will apply to each intervenor and to define the extent of allowed intervention.
+(d) The hearing officer shall allow intervention upon a proper showing under this Rule, unless he finds that the movant's interest is adequately represented by one or more parties participating in the case or unless intervention is mandated by statute, rule, or court decision. An order allowing intervention shall specify the extent of participation permitted the intervenor and shall state the hearing officer's reason. An intervenor may be allowed to:
+(1) File a written brief without acquiring the status of a party;
+(2) Intervene as a party with all the rights of a party; or
+(3) Intervene as a party with all the rights of a party but limited to specific issues and to the means necessary to present and develop those issues.
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1024 Eff. March 19, 2008;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1117 CONTINUANCES
+(a) A request for a continuance of a hearing shall be granted upon a showing of good cause. Unless time does not permit, a request for a continuance of a hearing shall be made in writing to the hearing officer and shall be served upon all parties of record. In determining whether good cause exists, due regard shall be given to the ability of the party requesting a continuance to proceed effectively without a continuance. A request for a continuance filed within five days before a hearing shall be denied unless the reason for the request could not have been ascertained earlier.
+(b) During a hearing, if it appears in the interest of justice that further testimony should be received and sufficient time does not remain to conclude the testimony, the hearing officer shall either order the additional testimony taken by deposition or continue the hearing to a future date for which oral notice on the record is sufficient.
+(c) A continuance shall not be granted if granting it would prevent the case from being concluded within any statutory or regulatory deadline.
+(d) As used in this Rule, "good cause" includes death or incapacitating illness of a party, representative, or attorney of a party; a court order requiring a continuance; lack of proper notice of the hearing; a substitution of the representative or attorney of a party if the substitution is shown to be required; a change in the parties or pleadings requiring postponement; and agreement for a continuance by all parties if either more time is necessary to complete mandatory preparation for the case, such as authorized discovery, and the parties and the hearing officer have agreed to a new hearing date or the parties have agreed to a settlement of the case that had been or is likely to be approved by the hearing officer.
+(e) As used in this Rule, "good cause" does not include: intentional delay; unavailability of counsel or other representative because of engagement in another judicial or administrative proceeding unless all other members of the attorney's or representative's firm familiar with the case are similarly engaged; unavailability of a witness if the witness' testimony can be taken by deposition; or failure of the attorney or representative to properly utilize the statutory notice period to prepare for the hearing.
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1025 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1118 RIGHTS AND RESPONSIBILITIES OF PARTIES
+(a) A party has the right to present evidence, rebuttal testimony, and argument with respect to issues of fact, law and policy; and to cross-examine witnesses, including the author of a document prepared by, on behalf of, or for use of the agency and offered in evidence.
+(b) A party shall have all evidence to be presented, both oral and written, available on the date for hearing. Requests for subpoenas, depositions, or continuances shall be made within a reasonable time after their needs become evident to the requesting party. In cases when the hearing time is expected to exceed one day, the parties shall be prepared to present their evidence at the date and time ordered by the hearing officer or agreed upon at a prehearing conference.
+(c) The hearing officer shall send copies of all orders or decisions to all parties simultaneously. Any party sending a letter, exhibit, brief, memorandum, or other document to the hearing officer shall simultaneously send a copy to all other parties.
+(d) All parties have the continuing responsibility to notify the hearing officer of their current addresses and telephone numbers.
+(e) If a party has notified other parties of that party's representation by an attorney, all communications shall be directed to that attorney.
+(f) With the approval of the hearing officer, any person may offer testimony or other evidence relevant to the case. Any nonparty offering testimony or other evidence may be questioned by parties to the case and by the hearing officer.
+(g) Before issuing a recommended decision to the State CIO, the hearing officer may order any party to submit proposed findings of fact and written arguments. Before issuing a final decision in a contested case which has been assigned by the State CIO to a person other than the State CIO as described in G.S. 150B-40(e) and these Rules, the State CIO shall order parties to submit proposed findings of fact and written arguments.
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1026 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1119 WITNESSES
+Any party may be a witness and may present witnesses on the party's behalf at the hearing. All oral testimony at the hearing shall be under oath or affirmation and shall be recorded. At the request of a party or upon the hearing officer's own motion, the hearing officer may exclude witnesses from the hearing room so that they cannot hear the testimony of other witnesses.
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1027 Eff. March 19, 2008;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1120 EVIDENCE
+(a) The North Carolina Rules of Evidence as found in G.S. Chapter 8C govern in all contested case proceedings, except as provided otherwise in this Section and G.S. 150B-41.
+(b) The hearing officer shall admit all evidence that has probative value. Irrelevant, incompetent, immaterial, or unduly repetitious evidence shall be excluded. The hearing officer may, in his discretion, exclude any evidence if its probative value is substantially outweighed by the risk that its admission will require undue consumption of time or create substantial danger of undue prejudice or confusion.
+(c) Contemporaneous objections by a party or a party's attorney are not required in the course of a hearing to preserve the right to object to the consideration of evidence by the hearing officer in reaching a decision or by the court upon judicial review.
+(d) All evidence to be considered in the case, including all records and documents or true and accurate photocopies thereof, shall be offered and made a part of the record in the case. Except as provided in Paragraph (f) of this Rule, factual information or evidence that is not offered shall not be considered in the determination of the case. Documentary evidence incorporated by reference may be admitted only if the materials so incorporated are available for examination by the parties.
+(e) Documentary evidence in the form of copies or excerpts may be received in the discretion of the hearing officer or upon agreement of the parties. Copies of a document shall be received to the same extent as the original document unless a question is raised about the accuracy or authenticity of the copy or, under the circumstances, it would be unfair to admit the copy instead of the original.
+(f) The hearing officer shall take official notice of standards and policies that have been established by ITS pursuant to Article 3D of Chapter 147 of the General Statutes. The hearing officer may take official notice of additional facts or documents as requested by a party or within the specialized knowledge of the hearing officer by entering a statement of the noticed fact or document and its source into the record.
+(g) When the State CIO takes official notice of evidence not in the record when making a final decision, the parties shall be afforded notice and a hearing to present arguments against the consideration of such evidence before a final decision is made.
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1028 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1121 final agency decision; OFFICIAL RECORD
+(a) A copy of any decision or order shall be served as in the manner provided by G.S. 150B-42(a). The cost of the service, fees, and expenses for any witnesses or documents subpoenaed shall be paid in accordance with G.S. 150B-39(c) and G.S. 7A-314.
+(b) The official record of a contested case is available for public inspection during the agency's business hours except for those portions, if any, that the hearing officer ordered sealed as consistent with applicable law.
+(c) The hearing officer may, consistent with law, order part or all of an official record sealed.
+(d) The official record shall be prepared in accordance with G.S. 150B-42.
+(e) Contested case hearings shall be recorded either by a recording system or a court reporter using stenomask or stenotype.
+(f) Costs for a court reporter's services including transcript costs and other copying costs incurred shall be charged to or apportioned equally among the party or parties requesting a transcript or copies of other records.
+(g) A 24-hour hearing cancellation notice is required in all cases. The party or parties responsible for the cancellation shall be liable for any cancellation fees.
+(h) Transcripts of proceedings during which oral evidence is presented shall be made only upon request of a party. Transcript costs shall include the cost of an original. An attorney requesting a transcript on behalf of a party is a guarantor of payment of the cost. Cost shall be determined under supervision of the hearing officer who may require an advance security deposit to cover the prospective cost. The security deposit shall be applied to the actual cost and any excess shall be returned to the party that submitted it.
+(i) Copies of tapes or other transcript media used (e.g., CDs) are available upon written request at a cost of five dollars ($5.00) per tape or CD.
+(j) Copies of the hearing audio recordings, or non-ITS certified transcripts from those audio recordings are not part of the official record.
+History Note: Authority G.S. 150B-38(h);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1029 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+section .1200 – declaratory rulings; default proceedings; disqualifications; and debarment
+
+09 NCAC 06B .1201 declaratory rulings
+(a) Any request for a determination regarding the application of a relevant rule, statute or standard established by the State CIO to a specific factual situation must be directed to the State CIO. The request for a ruling will follow the Rules of this Section and applicable statutes. A declaratory ruling proceeding may include written submissions, an oral hearing, or other procedure as may be appropriate in the circumstances of the particular request.
+(b) Declaratory rulings pursuant to G.S. 150B-4 shall be issued by the State CIO only on the validity of a relevant rule or standard or on the applicability of a rule or order of the State CIO to stipulated facts. A declaratory ruling shall not be issued on a matter requiring an evidentiary proceeding.
+(c) As used in this Section, "standard" shall refer to and include such standards, policies and procedures adopted by the State CIO pursuant to authority found in Article 3D of Chapter 147 of the N.C. General Statutes.
+(d) The petitioner must possess such an interest in the question to be ruled on that the petitioner's need to have such a ruling in order to comply with statutory requirements, ITS rules, or standards shall be apparent from the petition and shall be explained therein.
+History Note: Authority G.S. 147, Article 3D; 150B, Article 4;
+Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1202 requests for declaratory rulings
+(a) Requests for a declaratory ruling shall be in writing, dated and verified by the person submitting the same.
+(b) The request shall contain:
+(1) The petitioner's name, address and telephone number;
+(2) The rule or statute, or both, referred to;
+(3) A statement of facts supporting the petitioner's request for a declaratory ruling;
+(4) The petitioner's option, a statement of any legal authorities, in support of the interpretation given the statute or rule by the petitioner;
+(5) A concise statement of the manner in which the petitioner is aggrieved by the rule, statute, or standard, or its potential application to the petitioner;
+(6) A statement of the practices or procedures likely to be affected by the requested declaratory ruling and the persons likely to be affected by the ruling.
+(7) A draft of the declaratory ruling sought by the petitioner, if a specified outcome is sought by the petitioner; and
+(8) A statement of whether the petitioner desires to present oral argument.
+History Note: Authority G.S. 150B-104;
+Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1203 response to a request for a declaratory ruling
+(a) The State CIO shall consider the request within 30 days of receipt. The State CIO shall issue a ruling except:
+(1) When the State CIO finds that the person making the request is not a "person aggrieved," as defined in G.S. 150B-2(6);
+(2) When the State CIO finds, in a request concerning the validity of a rule, that the rulemaking record shows that the agency considered all factors identified by the petitioner as specific or relevant when the rule in question was adopted;
+(3) When the State CIO finds that the person requesting the ruling is not directly or indirectly affected substantially in his person, property, or public office or employment by the rule, statute, or order of the department which is the subject of the request;
+(4) When the petition does not state with enough specificity the factual situation involved, or the question is presented in such a manner that the State CIO cannot determine what the question is, or that the State CIO cannot respond with a specific ruling that will be binding on all parties;
+(5) When the State CIO has made a determination in a similar contested case, or where the factual context being raised for a declaratory ruling was specifically considered upon the adoption of the rule or directive being questioned, as evidenced by the rulemaking record; or
+(6) Where the subject matter of the request is involved in pending litigation or contested case in any state or federal court in North Carolina.
+(b) The State CIO shall, not later than the 30th day after receiving such a request, deposit in the United States mail, postage prepaid, a written statement addressed to the person making the request and setting forth the ruling on the merits of the request for a declaratory ruling, or setting forth the reason the ruling was not made, as the case may be. The State CIO may rule at any meeting convened to consider the request, or defer the ruling until a later date, but not later than the 30th day after the request for a ruling is received. The State CIO may gather additional information, may give notice to other persons and may permit such other persons to submit information or arguments under such conditions as are set forth in any notice given to the requesting party.
+(c) Whenever the State CIO believes for good cause that the issuance of a declaratory ruling is undesirable, he may refuse to do so. When good cause for refusing to issue a declaratory ruling is deemed to exist, the State CIO shall notify the petitioner of his decision in writing, stating reasons for the denial of a declaratory ruling.
+(d) The State CIO shall consider a request to make a declaratory ruling on the validity of a rule only when the petitioner shows that circumstances are so changed since adoption of the rule that such a ruling would be warranted, or that the rule-making record for the rule evidences a failure by the agency to consider facts presented in the petition at the time of adoption of the rule. The petitioner shall state in his request the consequences of a failure to issue a ruling.
+History Note: Authority G.S. 150B-4;
+Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1204 effect of a declaratory ruling
+For purposes of this Section, a declaratory ruling shall be deemed to be in effect until:
+(1) The statute or rule interpreted by the declaratory ruling is amended or repealed;
+(2) The State CIO changes the declaratory ruling prospectively; or
+(3) Any court sets aside the ruling.
+History Note: Authority G.S. 150B-4;
+Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1205 Record of Ruling
+A record of all declaratory rule making proceedings shall be maintained at the State CIO's office and shall be available for public inspection during business hours.
+History Note: Authority G.S. 150B-4;
+Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1206 DEFAULT PROCEEDINGS; disqualification; and DEBARMENT
+(a) Disqualification: The purchasing agency may find a vendor in default of contract for failing to perform in accordance with the contract requirements, terms and conditions. If a vendor is found in default of contract, the purchasing agency may take action, immediate if necessary, to purchase the needed goods or services on the open market and charge any additional cost for the goods or services and expense for doing so to the defaulting vendor. If an agency other than ITS finds a vendor in default, such action and the circumstances shall be reported by the agency to ITS in writing. This does not limit any other remedies that may be available to the state or agency.
+(b) Causes for Debarment or Suspension: The causes for debarment or suspension include the following:
+(1) conviction for commission of a criminal offense as an incident to obtaining or attempting to obtain a public or private contract or subcontract, or in the performance of such contract or subcontract;
+(2) conviction under State or federal statutes of embezzlement, theft, forgery, bribery, falsification or destruction of records, receiving stolen property, or any other offense indicating a lack of business integrity or business honesty which currently, seriously, and directly affects responsibility as a state vendor;
+(3) conviction under State or federal antitrust statutes arising out of the submission of bids or proposals;
+(4) deliberate failure without good cause to perform a contract in accordance with the specifications or within the time limit provided in the contract: and
+(5) for violation of the State Government Ethics Act or the Lobbying laws set forth in G.S. 138A-1 et seq., and GS 120C-1 et seq. respectively.
+(c) Effect of Debarment: Upon finding cause to debar a vendor, The State CIO may remove the vendor from any distribution lists that may be utilized and prohibit award of any contract to the debarred vendor for a period not to exceed one year.
+(d) Notice: The State CIO shall notify any vendor of the disqualification or debarment in writing.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1030 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1207 PERFORMANCE assurance
+A contract may include terms ensuring a vendor's performance such as:
+(1) A bond, or similar assurance, may be required of the vendor at the vendor's expense;
+(2) Liquidated damages;
+(3) A percentage of the contract value held as a retainage; and
+(4) Withholding final payment contingent on acceptance of the final deliverable.
+History Note: Authority G.S. 147-33.72C; 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1031 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+SECTION .1300 - EXEMPTIONS, EMERGENCIES, AND SPECIAL DELEGATIONS
+
+09 NCAC 06B .1301 EXEMPTIONS
+(a) The following are exemptions to the State CIO review and approval for purchases that exceed an agency's delegated authority.
+(1) Services provided by individuals through direct employment contracts with the state;
+(2) Non-severable services that are merely incidental to the purchase of supplies, materials, or equipment such as installation services;
+(3) Personal services provided by a professional individual (person) on a temporary or occasional basis;
+(4) Services provided directly by an agency of the state, federal or local government, or their employees when performing the service as part of their normal governmental function; and
+(5) Information technology subscriptions for printed materials or online technology information news services. Such services do not include software, or software services, licensed by subscription or delivered online.
+(b) In addition to products and services noted in Paragraph (a) of this Rule, the State CIO may exempt other products and services from purchase through the State CIO provided that the State CIO determines no price or quality advantage would be gained by handling a particular acquisition through the State CIO.
+(c) As used in this Rule, direct employment contract means an agreement for services under Paragraph (a) made by the person and an agency of the State.
+History Note: Authority G.S. 147-33.95(f);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1101 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1302 emergency situations or pressing need
+(a) An agency may make purchases of goods or services in the open market in cases of emergency or pressing need.
+(b) When emergency or pressing need action is necessary, and the estimated expenditure is over the purchasing agency's delegation, prior verbal approval shall be obtained from the State CIO unless the purchase must be made outside of business hours, during holidays or when state offices are otherwise closed. Subsequently, if the expenditure is over the purchasing agency's delegation, an explanation of the emergency or pressing need purchase shall be reported in writing to the State CIO.
+History Note: Authority G.S. 143-52.1; 143B-1322(c); 143B-1350;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1102 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015;
+Amended Eff March 1, 2016.
+
+09 NCAC 06B .1303 SPECIAL DELEGATIONS
+History Note: Authority G.S. 147-33.95(f);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1103 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015;
+Repealed Eff. July 1, 2015 pursuant to G.S. 150B-21.7 (see S.L. 2015-241, s. 7A.2(b)).
+
+09 NCAC 06B .1304 GENERAL DELEGATIONS
+(a) The State CIO may suspend, rescind, lower or raise this general delegation for a specific agency, up to the benchmark established by the Secretary of Administration upon consideration of the agency's overall capabilities, including staff resources, organizational structure, training, purchasing compliance reviews, electronic communication capabilities, and audit reports.
+(b) If an agency wishes to obtain an increase in its general delegation, to the IT benchmark set by the DOA Secretary, it shall submit a request in writing, outlining its overall capabilities, to the State CIO for the State CIO's consideration.
+History Note: Authority G.S. 143B-1322(c); 143B-1350;
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Amended Eff. March 1, 2001;
+Recodified from 09 NCAC 06B .1104 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015;
+Amended Eff. March 1, 2016.
+
+09 NCAC 06B .1305 COMPLIANCE REVIEWS
+(a) The State CIO may conduct compliance reviews on purchasing practices at any purchasing agencies. The purpose of the compliance review shall be for determining if an agency is complying with IT purchasing statutes and rules. A copy of the compliance report shall be provided to the agency head, the State Auditor, and the State Budget Officer.
+(b) Staff designated by the State CIO may request the purchasing agency's purchasing records for the purpose of the compliance review. The purchasing agency shall cooperate with such staff, providing them with all requested records, adequate office space for conducting the review if performed at the agency's location and agency purchasing staff for discussion of purchase transactions. The State CIO shall not require of the agency any more than is needed to complete the review.
+(c) The State CIO shall provide to each agency, upon request, ITS' assistance in educational training for the agency's staff to better acquaint them with State purchasing statutes and rules.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1105 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+section .1400 - records
+
+09 NCAC 06B .1401 RECORD MAINTENANCE
+Except where state law provides to the contrary, after the award of a contract, the purchasing records of an agency are public documents, and these documents shall be maintained for a period of five years after the expiration date of the contract. Record retention shall be in accordance with G.S. 121-5.
+History Note: Authority G.S. 147-33.76(b1);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1201 Eff. March 19, 2008;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest Eff. April 25, 2015.
+
+09 NCAC 06B .1402 procurement file RECORDS
+(a) The purchasing agency shall identify each paper or electronic contract record individually so it can be located and referenced.
+(b) The purchasing agency shall document all purchase transactions. As applicable, each paper or electronic procurement file shall include the following records:
+(1) Requisition;
+(2) Approval to proceed with acquisition;
+(3) Each original executed offer if in writing, or written documentation of verbal offer received;
+(4) Documentation supporting whether each offeror is responsive and responsible to terms of the solicitation, the use of a competitive range selection and rejection of offerors for negotiations, best and final offers (BAFO), award, or cancellation or other disposition of the solicitation as may be applicable;
+(5) Worksheets/evaluations of individual offers;
+(6) Vendor distribution list or proof of fulfilling advertisement requirements, and any conditions and approval for waiver to advertise, publish, and notify any part of a procurement action;
+(7) Written justification for limitation or waiver of competition, or emergency purchase, or waiver of any rule during the solicitation process;
+(8) Tabulation of offers received;
+(9) State CIO approval of award recommendation;
+(10) Purchase order or other payment verification;
+(11) Reason(s) for receiving only one offer in response to a solicitation;
+(12) Summary of vendor debriefing, if any;
+(13) Signed contracts or agency acceptance of offer(s); and
+(14) Protest documents.
+(c) After award of contract, all material in the procurement file, except non-public information, shall be made available for inspection in accordance with the Public Records Law, G.S. 132-1 et seq.
+History Note: Authority G.S. 143B-1350(e);
+Temporary Adoption Eff. January 1, 2000;
+Eff. August 1, 2000;
+Recodified from 09 NCAC 06B .1202 Eff. March 19, 2008;
+Amended Eff. September 1, 2013;
+Pursuant to G.S. 150B-21.3A, rule is necessary without substantive public interest April 25, 2015;
+Amended Eff. March 1, 2016.

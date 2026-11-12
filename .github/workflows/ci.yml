@@ -93,8 +93,8 @@ jobs:
       # snapshot (src/ingest.py --check). The PDFs go through pdftotext, a system binary.
       #
       # Word files (.docx) are read with pandoc, a system binary like pdftotext. The committed text
-      # was made with pandoc 3.11 (the maintainer's copy); Ubuntu 24.04 packages pandoc 3.1.3, which
-      # was measured on 2026-11-11 to give byte-identical text for all 14 Word files held then.
+      # was made with pandoc 3.11, and CI installs that same release (below). Ubuntu 24.04's own
+      # pandoc 3.1.3 reads 19 of the 20 Word files identically but drops one file's cover page.
       # The check does not depend on that staying true: for a Word file `--check` re-derives the text
       # and requires the same words in the same order as the committed text (layout may differ),
       # so a changed word, a dropped paragraph or an edited .txt still fails it. pandoc is missing
@@ -106,7 +106,14 @@ jobs:
       # committed text. The second engine, PaddleOCR, is not installed here: its text is committed
       # beside the snapshot (<id>.paddle.txt) and the agreement between the two texts is recomputed
       # from the committed files, so an edited text or a swapped second reading still fails.
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils pandoc ocrmypdf tesseract-ocr tesseract-ocr-eng tesseract-ocr-osd
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils ocrmypdf tesseract-ocr tesseract-ocr-eng tesseract-ocr-osd
+      # pandoc 3.11 from its own release, checksum-pinned, not Ubuntu's 3.1.3: 3.1.3 drops the cover
+      # page of nc-it-procurement-manual.docx (21 words), measured 2026-11-11. The other 19 Word
+      # files read the same under both.
+      - run: |
+          curl -sSL -o /tmp/pandoc.deb https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-1-amd64.deb
+          echo "89d4c9d97818c62a97157f0072844e4602c6cee795bf84abd1aee7273abcda99  /tmp/pandoc.deb" | sha256sum -c -
+          sudo dpkg -i /tmp/pandoc.deb
       - run: pandoc --version | head -1 && tesseract --version | head -1 && ocrmypdf --version
       - run: python3 src/ingest.py --check
 
@@ -125,5 +132,12 @@ jobs:
       # a skipped test here would be a gate that cannot fail.
       # The OCR tests (tests/test_ingest_ocr.py) run tesseract through ocrmypdf on real scans, for the
       # same reason.
-      - run: sudo apt-get update && sudo apt-get install -y poppler-utils pandoc ocrmypdf tesseract-ocr tesseract-ocr-eng tesseract-ocr-osd
+      - run: sudo apt-get update && sudo apt-get install -y poppler-utils ocrmypdf tesseract-ocr tesseract-ocr-eng tesseract-ocr-osd
+      # pandoc 3.11 from its own release, checksum-pinned, not Ubuntu's 3.1.3: 3.1.3 drops the cover
+      # page of nc-it-procurement-manual.docx (21 words), measured 2026-11-11. The other 19 Word
+      # files read the same under both.
+      - run: |
+          curl -sSL -o /tmp/pandoc.deb https://github.com/jgm/pandoc/releases/download/3.11/pandoc-3.11-1-amd64.deb
+          echo "89d4c9d97818c62a97157f0072844e4602c6cee795bf84abd1aee7273abcda99  /tmp/pandoc.deb" | sha256sum -c -
+          sudo dpkg -i /tmp/pandoc.deb
       - run: python3 -m pytest tests/ -q

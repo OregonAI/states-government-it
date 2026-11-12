@@ -1,0 +1,319 @@
+State of North Carolina
+
+JOSH STEIN
+GOVERNOR
+
+September 2, 2025
+EXECUTIVE ORDER NO. 24
+
+ADVANCING TRUSTWORTHY ARTIFICIAL INTELLIGENCE THAT BENEFITS ALL
+NORTH CAROLINIANS
+
+WHEREAS, artificial intelligence (“AI”) is a transformational and rapidly evolving
+technology impacting countless facets of North Carolina’s economy and communities — presenting
+extraordinary opportunities and new risks for North Carolinians; and
+
+WHEREAS, the State of North Carolina is committed to better serving all North
+Carolinians by effectively and responsibly deploying AI; and
+
+WHEREAS, the Governor is committed to ensuring that all North Carolinians benefit from
+the growth and use of AI; and
+
+WHEREAS, AI presents transformative opportunities to enhance government operations
+and drive economic growth; and
+
+WHEREAS, North Carolina is committed to fostering innovation, advancing Al-driven
+industries, and preparing its workforce for the evolving technological landscape and is uniquely
+positioned to achieve these goals as a top state for business and a national hub for world-class
+academic and training institutions; and
+
+WHEREAS, the responsible and ethical deployment of AI is essential to ensure
+transparency, accountability, and the protection of civil liberties in government operations and
+decision-making; and
+
+WHEREAS, the Governor affirms that the civil rights, privacy, and security of all North
+Carolinians are paramount as use of AI expands in our economy, schools, health care systems,
+government, and daily life; and
+
+WHEREAS, the uncertainty around AI systems and their associated energy and water
+needs is creating new challenges for how North Carolina can maintain an adequate and reliable
+electricity and water supply while not unfairly raising costs for ratepayers or leaving North
+Carolinians responsible for the costs of unnecessary or underutilized infrastructure; and
+
+WHEREAS, in August 2024, the North Carolina Department of Information Technology
+(“NCDIT”) published the North Carolina State Government Responsible Use of Artificial
+Intelligence Framework, which consists of principles, practices, and guidance to state agencies as
+they deploy AI while reducing privacy and data protection risks and protecting sensitive data
+provided to the state by North Carolinians; and
+
+WHEREAS, NCDIT continues to develop robust AI safety and data governance policies
+that enable leading-edge AI capabilities, ensuring security, transparency, and accountability in all
+state-supported IT systems, and supports AI literacy for state employees, educators, and
+communities to build public trust and become a state leader in workforce AI literacy; and
+
+WHEREAS, pursuant to N.C. Gen. Stat. § 143B-1350(j), the NCDIT is authorized to
+operate an Information Technology Innovation Center to develop and demonstrate technology
+solutions to benefit the state and its residents; and
+
+WHEREAS, pursuant to Article III of the North Carolina Constitution and N.C. Gen.
+Stat. §§ 143A-4 and 143B-4, the Governor is the chief executive officer of the state and is
+responsible for formulating and administering the policies of the executive branch of state
+government; and
+
+WHEREAS, pursuant to N.C. Gen. Stat. § 147-12, the Governor has the authority and
+the duty to supervise the official conduct of all executive and ministerial officers.
+
+NOW, THEREFORE, pursuant to the authority vested in me as Governor by the
+Constitution and the laws of the State of North Carolina, IT IS ORDERED:
+
+Section 1; North Carolina AI Leadership Council
+
+A. Establishment and Purpose.
+
+The North Carolina AI Leadership Council (hereinafter “Council”) is hereby established.
+The purpose of the Council is to advise and support the Governor and state agencies on Al strategy,
+policy, and training to ensure North Carolina becomes a national leader in AI literacy, governance,
+and deployment to the benefit of our residents, communities, and economy.
+
+B. Membership.
+
+The Council will consist of twenty-five (25) members (or more, per the Governor’s
+discretion), appointed by the Governor. Members should represent the diversity of all stakeholders
+who will be impacted by the changing AI landscape. Council members will serve a term of two (2)
+years and may be reappointed to successive terms. Vacancies shall be filled by the Governor and
+members appointed to fill vacancies shall serve for the remainder of the unexpired term. Council
+members serve at the pleasure of the Governor.
+
+1. The Secretary of the North Carolina Department of Information Technology, who shall
+serve as Co-Chair of the Council;
+
+2. The Secretary of the North Carolina Department of Commerce or designee, who shall
+serve as Co-Chair of the Council;
+
+3. Four representatives from the private sector with significant experience in the
+development or application of artificial intelligence technologies;
+
+4. One representative with expertise in energy or other critical infrastructure systems;
+
+The Chief Scientist of the Office of State Budget and Management;
+
+6. Four representatives from institutions of higher education with demonstrated expertise
+in artificial intelligence (at least one representative from a UNC System institution, one
+representative from an NC Independent College or University, and one from the North
+Carolina Community College System);
+
+7. One representative from the North Carolina Department of Justice;
+
+8. One representative from the K-12 education community;
+
+9. One representative from a local workforce development board;
+
+10. One member representing the interests of consumers;
+
+11. One representative from local government;
+
+12. Four members of the North Carolina General Assembly;
+
+13. And any additional members to be added at the Governor’s discretion.
+
+2
+
+C. Duties.
+
+The Council shall have the following duties, with an initial set of deliverables due by June
+30, 2026, and an ongoing responsibility to advise, update, and support thereafter.
+
+1. Create a recommended State AI Strategic Roadmap, ensuring alignment with statewide
+objectives and emerging AI trends.
+
+2. Recommend additional Al policy, governance, and ethics frameworks that promote
+safety, transparency, fairness, and privacy.
+
+3. Recommend an Al literacy strategy for the state that will enhance public understanding,
+skill development, and effective utilization of AI.
+
+4. Champion collaboration and facilitate partnerships across the public sector, private
+entities, and academic institutions that drive A] research, development, and utilization
+to continue to make North Carolina an attractive destination for AI businesses.
+
+5. Provide strategic guidance to the AI Accelerator, established in Section 2, to ensure its
+alignment with objectives identified in the State AI Strategic Roadmap after it is
+established.
+
+6. Provide guidance on safeguarding public safety and critical infrastructure from AI-
+related risks, including risk management strategies and protocols to prevent misuse or
+failure in high-impact systems.
+
+7. Track current and projected labor market impacts due, or potentially due, to AI and
+provide guidance to workforce development partners to proactively prepare the state’s
+workforce.
+
+8. Provide AI workforce recommendations to the Department of Commerce to consider
+as AI topics and goals are incorporated into the Strategic Economic Development plan.
+
+9. Provide AI workforce recommendations to the Governor’s Council on Workforce and
+Apprenticeships to consider as AI topics and goals are incorporated into its strategic
+plan.
+
+10. Provide input to the North Carolina Energy Policy Task Force to help assess the energy
+and water consumption and environmental impacts of increased use of AI technologies
+and potential added AI infrastructure in North Carolina.
+
+The Council shall submit an annual AI Strategic Recommendation to the Governor by June
+30 of each year, outlining progress, challenges, and strategic recommendations. This report shall
+incorporate input from public listening sessions, stakeholder engagement, or other community
+feedback mechanisms to ensure transparency and public trust.
+
+D. Meetings.
+
+The Council shall convene quarterly for in-person meetings. Ad hoc sessions may be called
+by the Chair or Governor as needed. A simple majority of Council members shall constitute
+quorum for the purpose of transacting the business of the Council. Recommendations and
+deliverables shall require a two-thirds majority vote.
+
+The Council may establish subcommittees or work groups to address specific topics such
+as ethics, workforce development, AI infrastructure, or others as needed; such subcommittees may
+convene on an ad hoc basis as determined by their respective chairs or the Council.
+
+E. Administration,
+NCDIT shall serve as staff and administrative support services for the Leadership Council.
+
+Members shall serve without compensation but may receive necessary travel and
+subsistence expenses in accordance with State law and policies and regulations of the Office of
+State Budget and Management.
+
+Section 2: North Carolina AI Accelerator
+
+A. Establishment and Purpose.
+
+The North Carolina AI Accelerator (hereinafter “the Accelerator”) is hereby established
+within NCDIT to serve as the State’s centralized hub for AI governance, research, partnership,
+development, implementation, and training.
+
+B. Duties.
+
+The Accelerator shall promote trustworthy AI use, transparency, data privacy, and
+responsible AI development through strategic oversight of state AI efforts. This shall include:
+
+i) The identification and standardization of state-wide definitions for AI and Generative
+Al.
+
+ii) The development of an AI Governance Framework outlining principles for responsible
+AI use, including fairness, accountability, transparency, security, privacy, and the
+protection of civil liberties, to ensure consistent trustworthy AI use for state
+government.
+
+iii) The development of a risk-assessment framework for AI use cases that agencies shall
+use when submitting use case proposals.
+
+The Accelerator shall also be responsible for accelerating AI implementation within state
+government operations by reviewing, prioritizing, and piloting potential AI use cases and serving
+as a collaborative platform for pilot projects, partnerships, and applied research. This shall include:
+
+i) Monitoring AI activities across state agencies to ensure alignment to statewide strategic
+priorities and to track Al-related risks across the state use case inventory.
+
+ii) Developing, implementing, and evaluating pilot projects that apply trustworthy,
+responsible, and sustainable AI to address state government challenges.
+
+iii) Serving as the central hub for AI partnerships by facilitating research collaborations
+and data-sharing agreements among state agencies, institutions of higher education,
+private sector entities, and nonprofit organizations, in compliance with data
+classification and security standards.
+
+iv) Developing and enforcing intellectual property and data protection frameworks to
+safeguard sensitive information, define ownership of Al-generated outputs, and ensure
+transparency, accountability, and security in state AI initiatives and partnerships.
+
+v) Leading the development and implementation of Al literacy training programs for state
+employees and the public, in alignment with the strategic direction of the AI Leadership
+Council, to support workforce development, education, and public safety awareness.
+
+C. Administration.
+
+The Accelerator shall be led and staffed by NCDIT. The Accelerator will use input from
+the Council to guide AI governance and implementation efforts for the state.
+
+D. Reporting and Accountability.
+
+The Accelerator shall submit an annual report to the Governor by June 30" of every year,
+made available to the public on the Department of Information Technology website, detailing
+progress on Al initiatives, including but not limited to:
+
+i) A description and results of AI use cases deployed or implemented by each agency
+through the Accelerator pursuant to Section 3.
+ii) Training program participation and outcomes for the state workforce.
+
+The Accelerator shall collect high-risk Al use cases and make the inventory information
+available on the Accelerator website for public review. The AI Accelerator will define what
+constitutes a high-risk AI use case, ensuring the definition includes applications that involve
+sensitive or personal data, those deployed in critical sectors such as law enforcement, education,
+healthcare, and infrastructure, or those that are highly interconnected with other systems. The
+Accelerator shall work with the Leadership Council to determine what information about high-risk
+Al use cases is important to provide to the public.
+
+Section 3: Mandate for AI Use Case Proposals for State Agencies
+
+Each Cabinet agency shall establish an Agency AI Oversight Team that will lead Al-related
+efforts for the state agency. Each Agency AI Oversight Team shall include a minimum of four (4)
+members and should, to the extent practicable, collectively possess a mix of business, policy, and
+technical expertise, including artificial intelligence, data management, privacy, and cybersecurity.
+
+Cabinet agencieg will submit proposed use cases to the Accelerator for review and
+prioritization for rapid piloting and potential implementation. Use cases are defined as a specific
+application of artificial intelligence by a state agency that has the potential to improve efficiency,
+service delivery, or decision-making processes and aligns with statewide AI governance
+frameworks. The Accelerator will assess use cases for strategic alignment, potential impact, and
+risk.
+
+Each Cabinet agency shall identify, document, and propose to the Accelerator at least three
+AI use case proposals within 180 days of this Executive Order; which the Accelerator will evaluate
+through its pilot process.
+
+State agencies that are not members of the Governor’s Cabinet are encouraged, but not
+required, to provide use cases to the Accelerator for piloting.
+
+Section 4: Statewide AI Literacy and Fraud Prevention Training Program
+
+The Council will provide its recommendations on a State AI Literacy strategy to the
+Accelerator, which will coordinate with state stakeholders, including the Department of
+Commerce, DIT, the North Carolina Business Committee for Education, the North Carolina
+Department of Justice, North Carolina Department of Public Instruction, and others, to develop
+and disseminate AI literacy trainings that are understandable by and accessible to the general
+public, on topics such as:
+
+i) Foundational AI concepts and applications;
+
+ii) Identifying Al-related fraud, scams, and misinformation;
+iii) Ethical considerations in AI use;
+
+iv) AJ safety considerations;
+
+v) And others.
+
+The AI literacy trainings shall be accessible to the general public and shall foster a well-informed
+and AlI-literate population.
+
+Section 5, Eff i Durati
+
+This Executive Order is effective immediately. It shall remain in effect until December 31,
+2028, or until rescinded, provided, however, that the Accelerator may continue to operate upon
+expiration or repeal of this Executive Order.
+
+The Council shall sunset on December 31, 2028, unless extended by the Governor.
+
+IN WITNESS WHEREOF, I have hereunto signed my name and affixed the Great Seal
+of the State of North Carolina at the Capitol in the City of Raleigh, this 2nd day of September in
+the year of our Lord two thousand and twenty-five.
+
+Dh
+
+Josh Stéin
+Governor
+
+ATTEST:
+
+Sif
+
+Timpthy L{C wley
+Chiéf of Staff, Secretary of Stat

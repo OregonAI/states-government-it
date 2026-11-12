@@ -1,0 +1,278 @@
+{
+  "agreement": 0.9904,
+  "dict_ratio": 0.978,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "NC DIT NORTH CAROLINA DEPARTMENT",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "To",
+        "All",
+        "Agency",
+        "CIOs"
+      ],
+      "paddle": "M 81",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "State",
+        "Chief",
+        "Risk",
+        "Officer"
+      ],
+      "paddle": "",
+      "tesseract": "if"
+    },
+    {
+      "before": [
+        "NC",
+        "Department",
+        "of",
+        "Information"
+      ],
+      "paddle": "Technology",
+      "tesseract": "Technolo"
+    },
+    {
+      "before": [
+        "DNS",
+        "infrastructure",
+        "Agencies",
+        "must"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "provided",
+        "list",
+        "of",
+        "websites"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "obsolete",
+        "sites",
+        "as",
+        "applicable"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "be",
+        "configured",
+        "for",
+        "HTTPS"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "as",
+        "purchases",
+        "are",
+        "made"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "following",
+        "services",
+        "and",
+        "capabilities"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "capabilities",
+        "e",
+        "Domain",
+        "validation"
+      ],
+      "paddle": "",
+      "tesseract": "e"
+    },
+    {
+      "before": [
+        "server",
+        "performance",
+        "or",
+        "latency"
+      ],
+      "paddle": "1",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "by",
+        "some",
+        "legacy",
+        "clients"
+      ],
+      "paddle": "2",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "efficiency",
+        "Mixed",
+        "Content"
+      ],
+      "paddle": "3",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "https",
+        "istlsfastyet",
+        "com",
+        "2"
+      ],
+      "paddle": "https",
+      "tesseract": "hups"
+    },
+    {
+      "before": [
+        "cio",
+        "gov",
+        "sni",
+        "3"
+      ],
+      "paddle": "https https",
+      "tesseract": "hups hups"
+    },
+    {
+      "before": [
+        "3",
+        "hups",
+        "hups",
+        "cio"
+      ],
+      "paddle": "gov",
+      "tesseract": "go"
+    },
+    {
+      "before": [
+        "content",
+        "APis",
+        "and",
+        "Services"
+      ],
+      "paddle": "4",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Strict",
+        "Transport",
+        "Security",
+        "HSTS"
+      ],
+      "paddle": "5",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "enable",
+        "the",
+        "secure",
+        "flag"
+      ],
+      "paddle": "6",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "use",
+        "Strength",
+        "and",
+        "Quality"
+      ],
+      "paddle": "7",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "remediation",
+        "efforts",
+        "Communication"
+      ],
+      "paddle": "Strategy Roles",
+      "tesseract": "Strate s"
+    },
+    {
+      "before": [
+        "919",
+        "754",
+        "6578",
+        "4"
+      ],
+      "paddle": "https",
+      "tesseract": "hups"
+    },
+    {
+      "before": [
+        "apis",
+        "Migrating",
+        "APis",
+        "5"
+      ],
+      "paddle": "https https",
+      "tesseract": "hutps hups"
+    },
+    {
+      "before": [
+        "Strict",
+        "Transport",
+        "Security",
+        "6"
+      ],
+      "paddle": "https",
+      "tesseract": "hups"
+    },
+    {
+      "before": [
+        "php",
+        "SecureFlag",
+        "7",
+        "https"
+      ],
+      "paddle": "https",
+      "tesseract": "hutps"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9184,
+  "figures": 45,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "de01ccdd33c9f31c1b1abc7c0816a32f2b8523df4c91bf31adaa3f8b1e8f9686",
+  "pdf_sha256": "b12460a30794d5ba44b993206a2258b42444a4961703938f5869942ff95b4cd0",
+  "psm": null,
+  "text_sha256": "0fd0328b31dd7439795e3529a1b6f460f2a779ea539b97c5e81995c9227963f3",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 1501
+}

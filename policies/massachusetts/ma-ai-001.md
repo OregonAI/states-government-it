@@ -1,0 +1,343 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: massachusetts
+id: ma-ai-001
+title: Enterprise Use and Development of Generative Artificial Intelligence Policy
+doc_type: policy
+citation: AI.001
+authority_level: ''
+issuing_body: Executive Office of Technology Services and Security, Enterprise Privacy Office
+source_url: https://www.mass.gov/doc/enterprise-use-and-development-of-generative-artificial-intelligence-policy-0/download
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: d0e1a438cb6d2d378d5e272def96585dd055134e4dbbe9f774785140be84263b
+effective_date: '2025-01-31'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- governance
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Enterprise Use and Development of Generative Artificial Intelligence Policy (AI.001)
+
+## At a glance
+
+The state's policy on government use of AI: minimum requirements for the development and use of generative AI by Commonwealth agencies and offices (preamble, scope, definitions, principles, policy, the establishment of an AI sandbox). It is the document the state's AI page tells agencies to follow. A second PDF at /doc/enterprise-use-and-development-of-generative-artificial-intelligence-policy/download carries the same words (compared); the one linked from the policy page is seeded.
+
+## Full text
+
+                       Commonwealth of Massachusetts
+                       Executive Office of Technology Services and Security (EOTSS)
+                       Enterprise Privacy Office
+
+    Enterprise Use and Development of Generative Artificial Intelligence
+                                Policy
+
+Document Name: GenAI Policy                                                                Effective Date: 1/31/2025
+Document ID: AI.001                                                                        Last Revised Date: 1/31/2025
+
+Table of Contents
+1. Preamble ................................................................................................................................... 2
+2. Scope......................................................................................................................................... 2
+3. Definitions ................................................................................................................................. 2
+4. Principles ................................................................................................................................... 3
+5. Policy ......................................................................................................................................... 4
+6. Establishment of an AI Sandbox ................................................................................................ 7
+7. Contact Information .................................................................................................................. 7
+8. Document Control ..................................................................................................................... 7
+
+                      Executive Office of Technology Services and Security (EOTSS)
+
+1. Preamble
+The Executive Office of Technology Services and Security (EOTSS) recognizes the potential that
+generative artificial intelligence offers in assisting Commonwealth Agencies and Offices to
+improve the delivery and efficacy of services for Massachusetts constituents. At the same time,
+use of this technology raises risks related to societal harms such as fraud, data integrity,
+discrimination, bias, and disinformation. Harnessing AI for its potential will require mitigating
+these risks.
+
+This Policy is intended to establish minimum requirements for the development and use of
+generative AI by Commonwealth Agencies and Offices. The goal of this Policy is to foster public
+trust, support business outcomes, and ensure the ethical, transparent, and accountable
+development and implementation of generative AI technology by Commonwealth Agencies and
+Offices (as defined below). Recognizing the rapidly evolving nature of generative AI, EOTSS will
+periodically update and assess this Policy to align with emerging technologies, challenges, use
+cases, and input from the Commonwealth’s Artificial Intelligence Strategic Task Force.
+
+2. Scope
+2.1.    This Policy applies to Executive Department Agencies including all executive offices,
+        boards, commissions, agencies, departments, divisions, councils, bureaus, and offices
+        within an executive office. Other Commonwealth entities that voluntarily use or
+        participate in services provided by the Executive Office of Technology Services and
+        Security, such as mass.gov, must agree to comply with this document, with respect to
+        those services, as a condition of use (hereinafter referred to as “Commonwealth
+        Agencies and Offices”). This Policy applies to all state employees, contractors,
+        consultants, vendors, and interns, including full-time, part-time, or voluntary
+        (hereinafter referred to as “Personnel”). Offices, agencies or entities other than
+        Executive Department Agencies may adopt additional standards, guidance, or policies
+        with respect to the use of AI in their own agency/office/entity, provided those
+        standards, guidelines, or policies are at least as protective as those set forth herein.
+
+3. Definitions
+3.1.    “Artificial Intelligence,” as used in this Policy, is a machine-based system that can, for a
+        given set of human objectives, make predictions, recommendations, or decisions.
+
+3.2.    “AI Systems” means any data system, software, hardware, application, tool, or utility
+        that operates in whole or in part using AI.
+
+                                                                                          Page 2 of 7
+Enterprise Use and Development of Generative Artificial Intelligence Policy
+
+                      Executive Office of Technology Services and Security (EOTSS)
+
+3.3.    “Generative Artificial Intelligence” (“Generative AI”) is a type of artificial intelligence
+        technology that can generate many forms of content including but not limited to texts,
+        images, and multimedia.
+
+4. Principles
+4.1.    Similar to risks associated with other types of technology, Generative AI risks can
+        emerge in a variety of ways. To reduce risk, minimize negative impacts, and promote
+        trustworthiness in the use of Generative AI, EOTSS adopts the following technical and
+        social principles. These principles will serve as the foundation for the responsible use
+        and development of Generative AI. The following principles largely track the National
+        Institute of Standards and Technology (NIST) AI Risk Management Framework. The
+        following principles outline the characteristics of trustworthy AI systems to include
+        validation and reliability; safety, security, and resiliency; accountability; transparency;
+        explainability and interpretability; privacy by design; fairness with mitigation of harmful
+        biases; knowing your content; and public purpose and social benefit, as further outlined
+        below.
+
+4.2.    Validation and Reliability
+
+        Generative AI systems can produce inaccurate, unreliable, or poorly generalized data
+        which increases risks and reduces trustworthiness. Consistent and regularly occurring
+        validation processes are key to ensuring accuracy and reliability of their Generative AI
+        systems.
+
+4.3.    Safety, Security, and Resiliency
+
+        Generative AI systems should be designed to operate safely, securely, and exhibit
+        reliability, and resilience under various conditions. Generative AI must not endanger
+        human life, health, property or the environment and must be controllable by humans.
+
+4.4.    Accountability
+
+        Clear accountability measures for Generative AI systems are vital to public trust and
+        users should be held accountable for the performance, impact, and consequences of the
+        use of Generative AI in their work.
+
+4.5.    System and Procedural Transparency
+
+        Documentation of decision-making processes around testing, datasets, and modeling is
+        essential for building transparency in the use of Generative AI systems. Users should
+        provide a record of Generative AI processes and information about AI’s outputs to those
+        interacting with or relying on the system.
+
+4.6.    Explainability and Interpretability
+
+                                                                                          Page 3 of 7
+Enterprise Use and Development of Generative Artificial Intelligence Policy
+
+                      Executive Office of Technology Services and Security (EOTSS)
+
+        Explainability and interpretability assist those operating or overseeing a Generative AI
+        system, as well as users of a Generative AI system, to gain deeper insights into the
+        functionality and trustworthiness of the system, including its outputs. There should be
+        documented and understandable explanations for the decisions made by and with
+        Generative AI systems.
+
+4.7.    Privacy by Design
+
+        Establishing robust data privacy designs and measures at the early stage of development
+        and use of Generative AI fosters trust between the public and the Commonwealth.
+        Generative AI systems should be utilized in a way that respects the rights and
+        obligations of individuals and organizations with respect to the collection, use,
+        retention, disclosure, and destruction of personally identifiable information.
+
+4.8.    Fairness with Mitigation of Harmful Bias
+
+        Generative AI should be developed and used in such a way that it respects, serves, and
+        protects humans’ personal and cultural sense of identity, physical and mental integrity.
+        Generative AI systems should be evaluated for biases and users should create mitigating
+        strategies to ensure that individuals and groups are free from unfair bias, discrimination,
+        and stigmatization.
+
+4.9.    Know your Content
+
+        Users need to “know the content” that Generative AI creates using a label or other mark
+        informing individuals when any output is produced by a Generative AI model rather
+        than a human being. This labeling obligation must protect the public from the alteration
+        of original content and the creation of “deep fakes.”
+
+4.10. Public purpose and social benefit
+
+        Generative AI should be used in a way that improves the delivery and efficacy of
+        equitable services for Commonwealth residents.
+
+5. Policy
+5.1.    Fact Check, Bias Reduction, Review
+
+        Commonwealth Agencies and Offices must implement a continuous processes for fact-
+        checking and human verification of Generative AI-generated content and ensure that all
+        Generative AI practices comply with applicable laws, regulations, policies, and guidelines
+        including those concerning discrimination, privacy, and data protection. This should
+        include a multi-level internal review and approval process. Generative AI systems have
+        the potential to mirror biases from the source materials used for training, encompassing
+        harmful and discriminatory biases that can perpetuate and amplify negative impacts on
+
+                                                                                        Page 4 of 7
+Enterprise Use and Development of Generative Artificial Intelligence Policy
+
+                      Executive Office of Technology Services and Security (EOTSS)
+
+        individuals, organizations, and society. These biases can be related to but not limited to
+        culture, gender, ethnicity, finance, health, and other societal factors. Moreover, the
+        algorithms responsible for parsing and processing contents may introduce such biases as
+        well. Bias identification, management and mitigation must be considered at all stages of
+        the Generative AI development lifecycle, designing, developing, deploying, evaluating,
+        using, and auditing. Personnel must reasonably evaluate any content generated by
+        Generative AI systems or applications to identify any inaccurate information and
+        mitigate unintended or undesirable instances of biases. This includes addressing
+        contents that could potentially be offensive or harmful.
+
+5.2.    Disclosure and Attribution
+
+        Commonwealth Agencies and Offices must be transparent in their use of Generative AI
+        and properly identify and credit AI-generated content. Generative AI content used by
+        Commonwealth Agencies and Offices must be clearly labeled in a conspicuous manner,
+        including details of its review, and editing process. This allows for transparent
+        authorship and responsible content evaluation.
+
+        Examples of disclosures lines that can be used:
+           • This memo was summarized by [generative AI Tool] using the following prompt:
+              “Summarize the following memo: (memo content)”.
+           • The summary was reviewed and edited by [insert name(s)].
+           • This code was written with the assistance of [generative AI tool].
+
+        Commonwealth Agencies and Offices must also perform reasonable due diligence,
+        including consultation with agency legal counsels, to reasonably ensure that no
+        copyrighted material is released without proper attribution or the acquisition of
+        necessary rights. Generative AI systems might unintentionally violate existing copyrights
+        across various media, including audio, video, books, publications, and other forms of
+        intellectual property. Personnel should consult with their legal offices if they have
+        questions about using AI-generated content.
+
+5.3.    Privacy and Confidentiality
+
+        Prior to utilizing PII or other regulated data within a Generative AI system, Personnel
+        must consult with their own legal and security teams. Personnel may consult with the
+        Commonwealth Chief Information Security Officer (CISO) and Commonwealth Chief
+        Privacy Officer (CPO), as needed.
+
+        Commonwealth Agencies and Offices should use the minimum amount of personally
+        identifiable information (PII) or other regulated data necessary to support the objective
+        of the Generative AI system. When handling PII or other regulated data, Commonwealth
+        Agencies and Offices must take appropriate steps to protect such information based on
+        its level of sensitivity and confidentiality. This includes, but is not limited to, complying
+        with the Commonwealth Enterprise Security Policies and Standards, applicable state and
+
+                                                                                          Page 5 of 7
+Enterprise Use and Development of Generative Artificial Intelligence Policy
+
+                      Executive Office of Technology Services and Security (EOTSS)
+
+        federal laws and regulations, and requirements related to access controls, encryption,
+        data retention requirements, and data sharing agreements.
+
+        AI-generated recording tools that record or transcribe a meeting may jeopardize privacy
+        and confidentiality. Personnel must not use any such recording tool unless approved by
+        agency legal counsel or in accordance with agency recording policies.
+
+5.4.    Compliance with Policies and Regulations
+
+        Commonwealth Agencies and Offices utilizing Generative AI systems must comply with
+        the Commonwealth Enterprise Security Policies and Standards. Commonwealth
+        Agencies and Offices that use personally identifiable information or other regulated
+        data within a Generative AI system must comply with applicable state and federal laws,
+        regulations, contractual requirements, policies, and guidelines pertaining to such
+        information or data. Personnel should be aware that Generative AI generated content
+        may be subject to the Commonwealth’s public records law.
+
+        All Personnel must use their Commonwealth-issued email address when creating
+        accounts or using Generative AI tools for work related purposes. The use of personal
+        email addresses is prohibited unless the employee receives prior approval.
+
+5.5.    Procurement of Generative AI Software or Services
+
+        Commonwealth Agencies and Offices must notify and seek approval from the
+        Commonwealth Chief Technology Officer (CTO) if they intend to procure Generative AI
+        specific software or services from a third-party vendor. Notification must be made in
+        advance of procuring the product or services. Requests should be submitted in
+        accordance with the existing process established in the applicable statewide contract for
+        procurements that require EOTSS’ approval. Pursuant to the Commonwealth IT Terms
+        and Conditions, third party-vendors must comply with EOTSS Enterprise Security Polices
+        and Standards. EOTSS reserves the right to review and approve IT contracts for software
+        or services where Generative AI functionality is included.
+
+5.6.    AI Catalog
+
+        EOTSS will provide a GenAI Catalog listing each GenAI solution approved for use within
+        the Commonwealth. EOTSS may request that Commonwealth Agencies and Offices
+        support this project by providing an inventory of any applications currently in use, under
+        development, or in initial discovery phases within their agency that include, either in
+        whole or in part, a Generative AI solution. Reporting will be in a manner prescribed by
+        EOTSS.
+
+5.7.    Ongoing Evaluation
+
+                                                                                       Page 6 of 7
+Enterprise Use and Development of Generative Artificial Intelligence Policy
+
+                      Executive Office of Technology Services and Security (EOTSS)
+
+        EOTSS will periodically assess and update this Policy as appropriate and with input from
+        the Commonwealth’s Artificial Intelligence Strategic Task Force. EOTSS will continue
+        strengthening collaborations with academia, other governmental entities, industry and
+        policy experts, organizations representing employees, and community-based
+        organizations to help inform this Policy.
+
+6. Establishment of an AI Sandbox
+6.1.    EOTSS has created an AI Sandbox designed to provide a safe and secure testing
+        environment for Commonwealth Agencies and Offices, and other authorized entities, to
+        develop AI use cases with the goal of improving the operation of Commonwealth
+        entities and the provision of government services. The AI Sandbox Program is designed
+        to foster innovation and collaboration while providing the necessary guardrails for the
+        development of Generative AI Systems and tools. Additional details about the AI
+        Sandbox Program are included in the AI Sandbox Program Terms and Conditions, to be
+        released separately.
+
+7. Contact Information
+7.1.    Questions regarding this Policy shall be directed to EOTSS Legal/Enterprise Privacy
+        Office at: eotss-privacy@mass.gov
+
+8. Document Control
+ Version No.    Revised By             Effective Date    Description of Changes
+ 1.0            EOTSS Legal/Privacy    4/12/2024         Initial release of the Guidelines for GenAI
+                Office
+ 1.1            EOTSS Legal/Privacy    1/30/2025         Reformatting, revising inventory
+                Office                                   requirement, and conversion to Policy
+
+                                                                                              Page 7 of 7
+Enterprise Use and Development of Generative Artificial Intelligence Policy
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

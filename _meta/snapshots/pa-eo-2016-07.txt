@@ -1,0 +1,148 @@
+                    Executive Order
+                   Commonwealth of Pennsylvania
+                        Governor’s Office
+Subject:                                   Number:
+Open Data, Data Management, and            2016-07 As Amended
+Data Governance
+
+By Direction of: Tom Wolf, Governor        Date: July 24, 2019
+
+WHEREAS,    Commonwealth agencies under the Governor’s jurisdiction (the
+            “Enterprise”) obtain, create, and store significant amounts of data; and
+
+WHEREAS,    these public stores of data have many potential public and private uses,
+            including use as “open data” (i.e. publicly available data structured in a
+            way that enables the data to be fully available and usable by end users);
+            and
+
+WHEREAS,    data planning, development, investment, access, and sharing efforts
+            should be prioritized and coordinated across the Enterprise to maximize
+            efficiency and cost effectiveness, and enhance existing information
+            sharing and technology compatibility through standardization by means
+            of Information Technology Policies (ITPs), and reduce expenditures for
+            research and development; and
+
+WHEREAS,    private enterprises obtaining, creating and storing data have similar
+            needs for efficiency and standardization, and can both benefit from and
+            assist in these efforts; and
+
+WHEREAS,    it is essential that the Commonwealth utilize a central organization to
+            govern, evaluate, coordinate, implement, and improve Enterprise data
+            development, open data planning and cooperation, research, project
+            prioritization, investment, and effectiveness; and
+
+WHEREAS,    The Administrative Code of 1929 (Act 1929-175, P.L. 177, as amended),
+            at Sections 501 and 502 (71 P.S. §§ 181, 182), requires administrative
+            departments and several independent and departmental administrative
+            boards to coordinate their work and activities with other departments,
+            boards, and commissions; and
+
+WHEREAS,    the confidentiality, security, and privacy requirements associated with
+            Commonwealth data and facilities must remain a priority in all open
+            data, data governance, and data development efforts; and
+
+Executive Order 2016-07 As Amended                                    Page 1 of 3
+
+WHEREAS,     the Commonwealth, in order to foster innovation, cooperation, and
+             transparency, should seek to share and/or provide access to all data,
+             both internally and externally, whenever possible unless restricted by
+             federal, state, or other statutes or regulations, or policies, standards or
+             best practices that prohibit the sharing of specific data; and
+
+WHEREAS,     privacy and protection efforts must be prioritized and coordinated across
+             the Enterprise and across Agencies under the Governor’s jurisdiction to
+             maximize the data privacy, privacy standardization, and to reduce the
+             risk of unauthorized public exposure; and
+
+WHEREAS,     the privacy requirements associated with Commonwealth data and
+             facilities must remain a priority in all data efforts.
+
+NOW, THEREFORE, I, Tom Wolf, Governor of the Commonwealth of Pennsylvania, by
+virtue of the authority vested in me by the Constitution of the Commonwealth of
+Pennsylvania and other laws, do hereby order and direct the Governor’s Office of
+Administration (OA) as follows:
+
+1.    Powers and Duties.
+
+      a.     OA shall develop data priorities, strategic plans, direct data investments,
+             procurements, and policy for the Enterprise. The Enterprise shall comply
+             with direction from OA regarding the matters which are the subject of
+             this Executive Order. OA shall make decisions on behalf of the Enterprise
+             regarding operational matters related to open data, data governance,
+             data protection, data development, data analytics, data sharing, and
+             other responsibilities within the scope of this Executive Order.
+
+      b.     OA shall develop and facilitate the approach of the Enterprise to
+             engagement with private and other public stakeholders on the matters
+             which are the subject of this Executive Order.
+
+2.    OA shall be responsible for the following:
+
+      a.     Creating the position of a Chief Data Officer tasked with establishing and
+             maintaining a master data management plan that will be made available
+             to the public, updated annually, and incorporates the following:
+
+      b.     Creating an advisory group (which should include, among others,
+             agency Chief Information Officers, Information Security Officers, Data
+             Stewards, architects, privacy officers, risk managers, and legal
+             representation) to advise OA, Office for Information Technology (OIT)
+             regarding overall data governance.
+
+      c.     Creating frameworks that include policies, processes, and standards
+             that adhere to commonly accepted principles and legal requirements for
+             data governance, data development, and the quality, sourcing, use,
+             access, content, ownership, licensing of relevant data, and Enterprise
+             data sharing.
+
+      d.     Creating a maintenance plan for the Enterprise Open Data Portal for
+             Enterprise and public access.
+
+Executive Order 2016-07 As Amended                                      Page 2 of 3
+
+      e.     Providing guidance to the Enterprise regarding the procurement and
+             standardization of technologies and services related to the subject
+             matter of this Executive Order through the use of Information
+             Technology Policies (ITPs).
+
+      f.     Communicating with the public both by publishing Enterprise open data
+             plans and policies and by soliciting and/or allowing for public input on
+             the subject matter of this Executive Order.
+
+      g.     Examining internally the Commonwealth data sets for business,
+             confidentiality, privacy and security issues, and the reasonable
+             mitigation of those issues, prior to the data’s release for open data
+             purposes.
+
+      h.     Developing and facilitating the approach of the Enterprise to
+             engagement with private and other public stakeholders, including; but
+             not limited to, arranging for and expediting data-sharing and data
+             access agreements, such as Memoranda of Understanding (MOUs), and
+             encouraging and facilitating cooperation and substantive and
+             administrative efficiencies.
+
+      i.     Prioritizing and coordinating data privacy and protection efforts across
+             the Enterprise to maximize the privacy and protection of all data and to
+             reduce the risk of public exposure of private or protected data.
+
+      j.     Identifying other potential areas of risk related to data storage,
+             processing, access and sharing, and creating ways to manage that risk.
+
+      k.     Creating a framework for internal and external entities of the Enterprise
+             to enable data access between citizen profiles and systems of record,
+             data sharing, improve data portability and access, inventories, and
+             analytics, and address barriers to implementing the framework.
+
+3.    Executive Agencies. All agencies under the Governor’s jurisdiction shall
+      provide assistance to and cooperate with OA as requested by OA in the pursuit
+      of the matters which are the subject of this Executive Order.
+
+4.    Independent Agencies, State-Affiliated Entities, and State-Related
+      Entities. Independent agencies, state-affiliated entities, and state-related
+      agencies are strongly encouraged to implement this Executive Order.
+
+5.    Effective Date. This Executive Order shall take effect immediately.
+
+6.    Termination Date. This Executive Order shall remain in effect unless revised
+      or rescinded by the Governor.
+
+Executive Order 2016-07 As Amended                                    Page 3 of 3

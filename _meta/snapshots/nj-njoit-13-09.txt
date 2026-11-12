@@ -1,0 +1,136 @@
+                   NJ OFFICE OF INFORMATION TECHNOLOGY              P.O. Box 212               www.tech.nj.gov
+                   Philip D. Murphy, Governor                       300 Riverview Plaza
+                   Christopher J. Rein, Chief Technology Officer      Trenton, NJ 08625-0212
+
+                                                                 POLICY NO:
+     STATE OF NEW JERSEY TECHNOLOGY           13-09-NJOIT
+                CIRCULAR            SUPERSEDES:        EFFECTIVE DATE:
+                                                                    06-05-NJOIT              01-23-2014
+        Online Privacy Notice Policy                             VERSION:                LAST REVIEWED:
+                                                                            3.0              12-16-2024
+
+1.      PURPOSE
+        To inform individuals how the State of New Jersey (SONJ) collects, uses, retains and discloses
+        the personally identifiable information (PII) of any person who interacts online with an
+        Executive Branch Department or Agency (Agency), either through its website, a third-party or
+        mobile application (app) or other digital service, and how and whom that individual can contact
+        regarding how those Agencies use, store or share their PII. Individuals require this information
+        to manage their privacy interests and make informed decisions about their engagement with
+        the SONJ and Agencies.
+
+        PII is information that can be used to identify an individual including, but not limited to, a
+        Social Security number, name, address (other than the five-digit ZIP code), driver’s license or
+        identification number, telephone number, and email address, financial information, and
+        medical records.
+
+2.      SCOPE
+        All Agencies, including all ancillary departments, are expected to cooperate fully with the New
+        Jersey Office of Information Technology (NJOIT) and the New Jersey Office of Homeland
+        Security and Preparedness (NJHOSP) in executing the provisions of this Policy and to adhere to
+        the Statewide Information Security Manual (SISM) regarding their privacy practices and in the
+        Privacy, Notices provided to individuals who interact online with Agencies.
+
+3.      POLICY
+        NJOIT and the NJOHSP require that all Agencies that host websites or provide online services
+        must clearly and prominently display on their home page(s) and other external facing entry
+        pages the links to both the State of New Jersey Privacy Notice and to their own Agency-
+        developed and Agency-specific Privacy Notice. Agencies are prohibited from adopting or
+
+13-09-NJOIT, Online Privacy Notice Policy                                                                 Page 1 of 4
+
+        stating that the State of New Jersey Privacy Notice (nj.gov) also serves as their own Privacy
+        Notice.
+
+        An Agency Privacy Notice must state at a minimum and in plain language:
+
+        The name, postal address, email address of the Agency Privacy Officer (APO) where feedback,
+        questions and concerns regarding the Agency’s privacy practices and policies may be directed.
+
+        The specific purposes for which PII is collected and processed by that Agency. The specific laws
+        that mandate the collection and use of PII by that Agency.
+
+        The way in which individuals may consent to (opt-in) or revoke (opt-out) their permission to
+        process, disclose or retain their PII.
+
+        Agency privacy policies and procedures and other relevant information to enable individuals
+        to make an informed decision prior to providing their PII to the Agency.
+
+        How individuals may review their PII and petition for corrections if they believe that it is
+        inaccurate or incorrect. The State retains the right to deny such a petition.
+
+        The publication and effective date history of the Agency Privacy Notice beginning with the
+        initial publication, adding the dates and a summary of revisions or corrections.
+
+        Furthermore, the Agency Privacy Notice must include these within the body of the notice:
+
+                If the Agency has digital content or services directed specifically to children under the
+                 age of eighteen (18), then it must be compliant with the Children’s Online Privacy
+                 Protection Act of 1998 (COPPA) and any other applicable federal or State law and affirm
+                 compliance.
+
+                If the Agency permits the download of forms for completion and their return via
+                 unencrypted email or email attachments, then it must notify users in advance of the risk
+                 in sending PII or sensitive personal email via the internet, as well as offer a means to send
+                 in the forms via a physical means of delivery.
+
+                If the Agency elects to obtain information through cookies, then users must be notified
+                 when a cookie is being placed on their device, describe the information to be collected
+                 via cookie and describe how the collected information will be used. Additionally, if the
+                 Agency uses Google Analytics, Web trends, Pixels, Beacons or other similarly purposed
+                 services, then the user must be provided with links to their privacy policies and their
+                 opt-out mechanisms.
+
+                If the Agency uses a third-party provider or platform for any reason, then the Agency
+                 should include that information in its Privacy Policy and the user must be provided with
+                 links to their privacy policies and their opt-out mechanisms.
+
+        The State of New Jersey Privacy Notice must state at a minimum and in plain language:
+
+13-09-NJOIT, Online Privacy Notice Policy                                                          Page 2 of 4
+
+        The postal address and email address of the State Chief Privacy Officer where general feedback,
+        questions, and concerns regarding the SONJ’s privacy practices and policies may be directed.
+
+        Notice to individuals that the State’s Privacy Notice is applicable specifically and exclusively to
+        content on nj.gov; all other digital content is subject to the Privacy Notice of the Agency that
+        hosts it.
+
+        The overall purposes for which PII is collected and processed by the SONJ.
+
+        A summary of the overarching federal and State laws that govern the collection and use of PII.
+
+        A summary of SONJ’s privacy policies, procedures and other relevant reports as needed.
+
+4.      COMPLIANCE
+        In consultation with, and with the permission of, the Agency Chief Information Officer (CIO),
+        Agency Privacy Officers are responsible for creating and revising their Agency’s Privacy Notice
+        and ensuring that it and the State of New Jersey Privacy Notice are clearly and prominently
+        posted as delineated in this policy. A State Agency’s publication of and sole reliance upon the
+        State of New Jersey Privacy Notice, rather than the Agency’s publication and reliance upon its
+        own Privacy Notice, is expressly prohibited.
+
+5.      RELATED FORMS AND DOCUMENTS
+        Statewide Information Security Manual
+
+6.      AUTHORITY
+        N.J.S.A. 52:18A-224 through.52:18A-234
+
+7.      ADMINISTRATION
+        This Policy is administered and monitored by the CTO at 300 Riverview Plaza, Trenton, NJ 08625.
+
+        The Policy must be reviewed annually; however, the CTO reserves the right to change or amend
+        the Policy at any time.
+
+         Signature on File                                                 12/16/2024
+         Christopher J. Rein, Chief Technology Officer                       Date
+
+13-09-NJOIT, Online Privacy Notice Policy                                                       Page 3 of 4
+
+8.         DOCUMENT HISTORY
+  Version   Published Date        CTO       Sections Modified           Description of Modifications
+     1.0        1/23/12                                                   Original Published Date
+     2.0        3/16/22                                         Annual Review; Formerly titled “On-line Privacy
+                                                                                   Policy”
+     3.0        12/16/24         C. Rein           N/A                Annual Review; Updated Format
+
+13-09-NJOIT, Online Privacy Notice Policy                                                            Page 4 of 4

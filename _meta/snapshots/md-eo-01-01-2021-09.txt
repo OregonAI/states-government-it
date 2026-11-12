@@ -1,0 +1,80 @@
+Executive Order 01.01.2021.09
+State Chief Data Officer
+A. State Chief Data Officer.
+  1. There is a State Chief Data Officer in the Office of the Governor.
+  2. The State Chief Data Officer shall be appointed by and serve at the pleasure of the Governor.
+  3. The State Chief Data Officer shall:
+    i. Supervise and direct the use and management of data by units of State government under the supervision and direction of the Governor (“State units”);
+    ii. Assess the data needed by State units to inform policy decisions;
+    iii. Facilitate and coordinate:
+      1) The sharing of State data:
+        a. Among State units, such that State units receiving data comply with all prohibitions and restrictions on disclosure or release of the data applicable to the State unit sharing it; and
+        b. Between State units and the public; and
+      2) Analysis of data by State units;
+    iv. Receive and compile an inventory of State unit data;
+    v. Create a strategic plan for State data (the “State Data Strategic Plan”) that:
+      1) Is consistent with the Statewide Information Technology Master Plan;
+      2) Establishes data use, management, and analysis practices, policies, and standards for the State;
+      3) Provides recommendations for actions to standardize and integrate State data systems and management practices; and
+      4) Is updated every two years;
+    vi. Track progress in implementing secure and efficient data use and management by the State;
+    vii. Measure advancements in the analysis of data by the State; and
+    viii. Assist:
+      1) The Governor’s Office of Crime Prevention, Youth, and Victim Services in evaluating data to make recommendations for State policies and programming that are informed by an understanding of, and mitigate the effects of, adverse childhood experiences; and
+      2) The Opioid Operational Command Center in:
+        a. Integrating and analyzing data sets that it acquires; and
+        b. Studying, understanding, and reducing opioid use and overdoses.
+B. Agency Data Officers.
+  1. A data officer (an “agency data officer”) shall be designated by the following State units no later than October 1, 2021:
+    i. The Department of Aging;
+    ii. The Department of Agriculture;
+    iii. The Department of Budget and Management;
+    iv. The Department of Commerce;
+    v. The Department of Disabilities;
+    vi. The Maryland Department of Emergency Management;
+    vii. The Department of the Environment;
+    viii. The Department of General Services;
+    ix. The Maryland Department of Health;
+    x. The Department of Housing and Community Development;
+    xi. The Department of Human Services;
+    xii. The Department of Information Technology;
+    xiii. The Department of Juvenile Services;
+    xiv. The Maryland Department of Labor;
+    xv. The Department of Natural Resources;
+    xvi. The Department of Planning;
+    xvii. The Department of Public Safety and Correctional Services;
+    xviii. The Department of State Police;
+    xix. The Department of Transportation;
+    xx. The Department of Veterans Affairs; and
+    xxi. The Office of the Secretary of State.
+  2. Other units of State government may designate agency data officers consistent with this Order.
+  3. Each agency data officer shall:
+    i. Implement measures for the secure, efficient, and effective use of data;
+    ii. Provide administrative support to the State Chief Data Officer on behalf of the unit;
+    iii. Receive and promptly address inquiries, requests, or concerns about access to the unit’s data;
+    iv. Comply with direction from the State Chief Data Officer as to the use and management of the unit’s data;
+    v. Conduct an inventory, on or before December 31 of each year, of the unit’s data that:
+      1) Identifies data meeting criteria established by the Chief Data Officer, including that it is:
+        a. Necessary for the operation of the unit; or
+        b. Otherwise required to be collected:
+          I. As a condition to receive federal funds; or
+          II. By federal or state law; and
+      2) Is in such form as prescribed by the State Chief Data Officer;
+    vi. Cooperate with the State Chief Data Officer review of advancements in the analysis of data by the State; and
+    vii. Make available to the State Chief Data Officer any data requested.
+  4. The agency data officers shall meet once a month to:
+    i. Exchange knowledge about data use and management;
+    ii. Solicit relevant input from data experts and practitioners;
+    iii. Advise the State Chief Data Officer on best data privacy and security practices;
+    iv. Issue reports to the State Chief Data Officer about State data use and management; and
+    v. Assist the State Chief Data Officer in developing the State Data Strategic Plan.
+  5. Following the creation of the State Data Strategic Plan, the agency data officers shall:
+    i. Implement it in each of their units; and
+    ii. Submit compliance reports for their unit to the State Chief Data Officer.
+C. The State Chief Data Officer may obtain support and assistance from the Department of Information Technology, Department of Planning, and Governor’s Office of Performance Improvement as necessary and desirable to improve operational efficiency and efficacy.
+D. On or before December 31 of each year, the State Chief Data Officer shall submit a report to Governor addressing State’s progress in:
+  1. Implementing secure and efficient data use and management;
+  2. Promoting the sharing and analysis of data; and
+  3. Complying with the State Data Strategic Plan.
+Administrative History
+Effective date: July 29, 2021

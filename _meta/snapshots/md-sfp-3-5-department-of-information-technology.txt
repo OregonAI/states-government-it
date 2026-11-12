@@ -1,0 +1,59 @@
+Article - State Finance and Procurement
+
+§3.5–101.
+(a) In this title the following words have the meanings indicated.
+(b) “Cloud computing” means a service that enables on–demand self–service network access to a shared pool of configurable computer resources, including data storage, analytics, commerce, streaming, e–mail, document sharing, and document editing.
+(c) “Department” means the Department of Information Technology.
+(d) (1) “Oversight of implementation” means management of the process to implement a new technology, system, or product into practice and use by a unit.
+  (2) “Oversight of implementation” includes:
+    (i) planning and preparation to implement the product or practice; and
+    (ii) ongoing monitoring and support of the implementation team to ensure successful execution and that the project goals are met.
+  (3) “Oversight of implementation” does not include:
+    (i) responsibility for day–to–day management of any individual projects or products; or
+    (ii) responsibility for implementing individual–level process requirements for a project or product.
+(e) “Secretary” means the Secretary of Information Technology.
+(f) “State minimum cybersecurity standards” means the State minimum cybersecurity standards established by the Department of Information Technology.
+(g) “Telecommunication” means the transmission of information, images, pictures, voice, or data by radio, video, or other electronic or impulse means.
+(h) “Unit of State government” means an agency or unit of the Executive Branch of State government.
+
+§3.5–201.
+(a) There is a Department of Information Technology established as a principal department of State government.
+(b) Subject to the provisions of § 3.5–302 of this title, it is the intent of the General Assembly that responsibility and oversight of the information technology projects for units of State government be centralized at the Department and that priority be given to funding information technology projects that address the needs for the public health, education, safety, or financial well–being of the residents of Maryland.
+
+§3.5–202.
+(a) The head of the Department is the Secretary of Information Technology, who shall be appointed by the Governor with the advice and consent of the Senate.
+(b) The Secretary shall have experience in information technology, data processing, telecommunications, and systems procurement, planning, and management.
+(c) Before taking office, the appointee shall take the oath required by Article I, § 9 of the Maryland Constitution.
+(d) The Secretary shall advise the Governor on all matters assigned to the Department and is responsible for carrying out the Governor’s policies on those matters.
+(e) The Secretary is responsible for the operation of the Department and may establish guidelines and procedures to promote the orderly and efficient administration of the Department.
+(f) The Secretary may establish, reorganize, or abolish areas of responsibility in the Department necessary to fulfill the duties assigned to the Secretary.
+
+§3.5–203.
+(a) (1) With the approval of the Governor, the Secretary shall appoint a Deputy Secretary.
+  (2) The Deputy Secretary:
+    (i) serves at the pleasure of the Secretary;
+    (ii) is entitled to the salary provided in the State budget; and
+    (iii) has the duties provided by law or delegated by the Secretary.
+(b) Each assistant secretary and professional consultant is in the executive service, management service, or is a special appointment in the State personnel management system and is appointed by and serves at the pleasure of the Secretary.
+(c) Except as provided in this section or otherwise by law, the Secretary shall appoint and remove all other staff in accordance with the provisions of the State Personnel and Pensions Article.
+(d) The appointment of or removal of staff of any unit in the Department is subject to the approval of the Secretary.
+
+§3.5–204.
+(a) The Attorney General is legal adviser to the Department.
+(b) At the request of the Governor, the Attorney General shall assign to the Department the number of assistant Attorneys General authorized by law to be assigned to the Department.
+(c) (1) The Attorney General shall designate one of the assistant Attorneys General assigned to the Department as counsel to the Department.
+  (2) After the Attorney General designates the counsel to the Department, the Attorney General may not reassign the counsel without consulting the Secretary.
+  (3) (i) The counsel may have no other duty other than to:
+      1. give the legal aid, advice, and counsel required by the Secretary or any other official of the Department;
+      2. supervise the other assistant Attorneys General assigned to the Department; and
+      3. perform for the Department the duties that the Attorney General assigns.
+    (ii) The counsel shall perform these duties subject to the control and supervision of the Attorney General.
+
+§3.5–205.
+(a) The Department shall establish a technical procurement team that includes individuals with expertise in technology procurement and agile procurement.
+(b) The technical procurement team:
+  (1) in collaboration with the Department of General Services, shall develop materials that encourage cost–effective and cost–efficient information technology services spending, including procurement templates, procurement contracts, and other procurement materials; and
+  (2) may assist a unit of State government, including the Department of General Services, to procure information technology services, including:
+    (i) drafting requests for proposals;
+    (ii) reviewing bids and selecting vendors; and
+    (iii) developing information technology service contracts in a manner that encourages competition and full participation by vendors.

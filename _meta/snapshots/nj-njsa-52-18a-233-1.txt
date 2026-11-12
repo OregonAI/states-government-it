@@ -1,0 +1,43 @@
+NEW JERSEY GENERAL AND PERMANENT STATUTES
+(UPDATED THROUGH P.L.2026, c.50, and J.R.1)
+TITLE 52 STATE GOVERNMENT, DEPARTMENTS AND OFFICERS
+
+52:18A-233.1. Short title.
+1. This act shall be known and may be cited as the "21st Century Integrated Digital Experience Act."
+L.2021, c.392, s.1.
+
+52:18A-233.2. Findings and declarations.
+2. The Legislature finds and declares that:
+a. Ensuring New Jersey's global leadership position in technology and electronic government requires an approach that narrows the growing gap between the digital demands of citizens and the methods by which the government provides digital services to New Jersey.
+b. The enhancement of citizen-facing digital experiences can change the paradigm for the delivery of government services and dramatically reduce the cost of government operations.
+c. Many State websites are not equipped to provide an enhanced experience to the growing number of citizens who access government services through a mobile device.
+d. Government lags far behind the private sector in providing a modern, seamless, personalized, and consistent digital experience that provides useful information and services to citizens, businesses, and other stakeholders.
+e. The implementation of modern customer service experiences, such as citizen-centric design, comprehensive self-service capabilities, and uniform mobile rendering will be key to facilitating the transition to from an analog, paper-based government to a digital government that delivers information and government services in an efficient and effective manner.
+f. Transitioning from paper processes to adaptive and intuitive digital forms would significantly improve government services.
+g. All State websites should be accessible to individuals with disabilities.
+L.2021, c.392, s.2.
+
+52:18A-233.3. Definitions.
+3. As used in P.L.2021, c.392 (C.52:18A-233.1 et al.):
+"Agency" means any of the principal departments of the Executive Branch, including the Department of the Treasury, and any division, office, board, bureau, commission, authority, or entity therein or allocated thereto to comply with the provisions of Article V, Section IV, paragraph 1 of the New Jersey Constitution.
+"Cloud computing service" means a service that enables on-demand self-service network access to a shared pool of configurable computer resources including, but not limited to, data storage, analytics, electronic commerce, streaming services, mobile services, electronic mail, and document sharing and editing, which can be rapidly provided and released with minimal management effort or cloud computing service provider interaction.
+"Information technology modernization and improvement plan" or "plan" means the plan prepared by each agency pursuant to section 4 of P.L.2021, c.392 (C.52:18A-233.4).
+L.2021, c.392, s.3.
+
+52:18A-233.4. Information technology modernization and improvement plan submission, Chief Technology Officer.
+4. a. The Chief Technology Officer is authorized to request that any agency submit a plan in accordance with this subsection. Not later than one year following the date on which the Chief Technology Officer requests such plan, the agency shall develop and submit to the Chief Technology Officer an information technology modernization and improvement plan. The plan shall:
+(1) describe how the agency will improve the provision of digital services by leveraging data analytics and related tools to ensure an effective rendering of all publicly facing websites on mobile devices, increasing the use of data analytics to improve website operation, enhancing the delivery of digital services through the adoption of commercial cloud computing services, promoting the use of intuitive and adaptive electronic forms (HTML Living Standard), utilizing electronic signatures, and digitizing government processes and workflows;
+(2) outline a process to be utilized by the agency to ensure that each State website intended for public use is mobile-friendly and accessible by persons with disabilities within one year following the submission of each agency's plan; and
+(3) be developed within the limits of fiscal and other resources available to the agency. Each agency shall make its plan available to the public electronically through a link displayed on its website, except that the agency may redact such information as necessary to address cybersecurity concerns.
+b. The Chief Technology Officer shall review the plans submitted pursuant to subsection a. of this section in collaboration with the Chief Innovation Officer for the State of New Jersey.
+L.2021, c.392, s.4.
+
+52:18A-233.5. Study, impact, redacting person's handwritten signature, published online; report to Governor, Legislature.
+1. a. The Chief Technology Officer, in consultation with the Office of Information Privacy in the Department of Community Affairs, shall conduct a study on the impact of redacting a person's handwritten signature on any document published on the Internet websites of State agencies, and shall prepare and submit a written report, within one year of the effective date of this act, P.L.2023, c.294 (C.52:18A-233.5), to the Governor and, pursuant to section 2 of P.L.1991, c.164 (C.52:14-19.1), to the Legislature, the chairperson of the Assembly Science, Innovation and Technology Committee, and the chairperson of the Senate Commerce Committee, or their successor committees, which shall include, but not be limited to, the following:
+(1) the number of documents across State agency Internet websites containing handwritten signatures;
+(2) the resources necessary for State agencies to archive any document published on the agency's Internet website prior to the effective date of this act that display a person's handwritten signature;
+(3) the resources necessary to republish documents containing a handwritten signature on State agencies' Internet websites if the State agencies redact the person's handwritten signature;
+(4) the implications of these findings on long-term plans for document retention and data security; and
+(5) whether further legislation or regulation is necessary to establish protocols by which State agencies may redact a person's handwritten signature on any documents published on the State agencies' Internet websites.
+b. Upon concluding a study and issuing a report to the Governor and the Legislature pursuant to this act, the Office of Information Privacy may, through regulation adopted pursuant to the "Administrative Procedure Act", P.L. 1968, c.410 (C.52:14B-1 et seq.), establish protocols by which a required State agency shall redact a person's handwritten signature on any documents published on the State agency's Internet website.
+L.2023, c.294.

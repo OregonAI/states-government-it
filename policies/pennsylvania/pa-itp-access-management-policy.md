@@ -1,0 +1,155 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: pennsylvania
+id: pa-itp-access-management-policy
+title: Access Management Policy
+doc_type: policy
+citation: 'Commonwealth of Pennsylvania IT Policy: Access Management Policy'
+authority_level: ''
+issuing_body: Office of Administration, Office for Information Technology
+source_url: https://www.pa.gov/content/dam/copapwp-pagov/en/oa/documents/policies/it-policies/access%20management%20policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 2e076055ea794237aef8808b7811d7eb3c7f4c52d0c67968ea775398ffedb4c0
+effective_date: '2026-06-10'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Access Management Policy (Commonwealth of Pennsylvania IT Policy: Access Management Policy)
+
+## At a glance
+
+Information Technology Policy of the Office of Administration for agencies under the Governor's jurisdiction. Printed purpose: This policy establishes the requirements for the management, control, and monitoring of privileged access to Commonwealth IT Resources.
+
+## Full text
+
+                             Access Management Policy
+
+                Effective Date:                                          Category:
+                June 10, 2026                                            Security
+
+                Scheduled Review:
+                June 2027
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This procedure replaces, in its entirety, the Access Management Policy, dated March 11, 2025.
+
+3. Purpose
+This policy establishes the requirements for the management, control, and monitoring of privileged
+access to Commonwealth IT Resources.
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the
+Governor’s jurisdiction and any other entity connecting to the Commonwealth Network (hereinafter
+referred to as "agencies").
+
+5. Policy
+For definitions of terms found within this document, refer to the IT Policy Glossary.
+
+    5.1 Privileged User Account Types
+    Privileged User account types include:
+
+     •   Administrative Accounts
+     •   Service or Operational Accounts (with elevated privileges)
+     •   System accounts
+
+     All Privileged Accounts shall be properly secured and monitored in accordance with this policy
+    and Management Directive 245.18 Amended, IT Administrator Acceptable Use, Auditing and
+    Monitoring.
+
+                                                                                        Page 1 of 3
+
+   5.2 General Privileged Account Requirements
+   The following requirements apply to all Privileged Accounts:
+    •   Access requires explicit approval from the agency Information Security Officer (ISO).
+    •   Privileged Users shall complete required security awareness and IT administrator acceptable
+        use training prior to access.
+    •   Accounts shall comply with the User Authentication Standard.
+    •   Accounts shall uniquely identify and authenticate a specific user, process, or system.
+    •   Privileged Account passwords are prohibited from being shared.
+    •   Access shall follow the principle of Least Privilege.
+    •   Access shall be assigned using Role-Based Access Control (RBAC).
+    •   Agencies shall maintain a current inventory of all Privileged Accounts.
+    •   Privileged Accounts shall be monitored and audited.
+    •   Privileged access shall be reviewed at least every six months and adjusted as necessary.
+    •   Agencies shall conduct semi-annual reviews or scans to identify undocumented or excessive
+        privileged access.
+
+   5.3 Service or Operational Accounts
+   Service and Operational Accounts with elevated privileges shall be documented and managed in
+   accordance with the User Authentication Standard.
+
+   5.4 System Accounts
+   Built-in or default system accounts shall be used only when no alternative exists.
+
+   Where possible, default accounts shall be disabled; otherwise, they shall be renamed.
+
+   Default credentials shall be changed and managed in accordance with the User Authentication
+   Standard.
+
+   5.5 Reporting of Non-Compliant Systems and Applications
+   Non-compliant or legacy systems shall be documented via an IT Policy Exception as detailed in
+   section 7 below. The exception shall include the nature of non-compliance, data sensitivity,
+   compensating controls, and remediation or replacement plans.
+
+6. Contact
+Questions or comments may be directed via email to OA, IT Policy.
+
+7. Exception from Policy
+In the event an agency chooses to seek an exception from this policy, a request for a policy exception
+shall be submitted via the IT policy exception process. Refer to IT Policy Governance Policy for
+guidance.
+
+8. Revision History
+This chart contains a history of this publication’s revisions. Redline documents outline the revisions
+and are available to Commonwealth users only during the drafting process.
+                                                                                         Page 2 of 3
+
+Version Date          Purpose of Revision
+Original 01/06/2025   Base Document
+Revision 03/11/2025   Added Document Control Section
+                      Added requirement for security awareness and IT administrator
+                      acceptable use training
+                      Alignment with Management Directive 245.18 (ISO approves privileged
+                      accounts)
+                      Alignment with NIST 800-53
+                      Clarified that shared Privileged Accounts are prohibited Clarified
+                      when Privileged Accounts should be disabled or removed
+                      Added requirement to review inactive or unused accounts Added
+                      reference to Security Logging and Event Monitoring
+                      Standard.
+
+Revision 06/10/2026   Reworded to make more concise and remove redundancy
+                      Updating the reporting of non-compliant systems to be via policy
+                      exception
+                      Moved the details around the naming of break-glass accounts to a non-
+                      public document (User Authentication Standard)
+                      Misc. clarifications
+
+                                                                              Page 3 of 3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

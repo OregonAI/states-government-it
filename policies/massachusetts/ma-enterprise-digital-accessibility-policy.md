@@ -1,0 +1,136 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: massachusetts
+id: ma-enterprise-digital-accessibility-policy
+title: Enterprise Digital Accessibility Policy
+doc_type: policy
+citation: Enterprise Digital Accessibility Policy (published August 1, 2025)
+authority_level: ''
+issuing_body: Executive Office of Technology Services and Security
+source_url: https://www.mass.gov/info-details/enterprise-digital-accessibility-policy
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: 2ac671fcbe82419578d60a3def3af5edd6abacecc2ee673d73b1554ade3b80eb
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the mass.gov page: from the page header (category, title, and the date,
+  issuer, organization, referenced-sources, Mass Register and rescission lines it prints) to the end of
+  its content column, one line per block; the cells of a version table are joined with '' | ''. The table-of-contents
+  widget, the visually hidden category label, the downloads widget, the repeated referenced-sources block,
+  the contact column, the feedback form and the footer removed.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Enterprise Digital Accessibility Policy (Enterprise Digital Accessibility Policy (published August 1, 2025))
+
+## At a glance
+
+The Commonwealth's digital accessibility requirements for the Executive Department, other entities that use EOTSS services such as mass.gov, and contracted firms that build digital assets (authority: Article CXIV, G.L. c. 7D section 3, Executive Order 614).
+
+## Full text
+
+Enterprise Digital Accessibility Policy
+The Commonwealth of Massachusetts's Digital Accessibility Requirements
+Published Date: August 1, 2025
+Referenced Sources
+Massachusetts Constitution, Article of Amendment CXIV
+M.G.L. Ch. 7D, Section 3
+Executive Order Number 614
+1. Purpose
+1.1. The purpose of the Enterprise Digital Accessibility Policy is to drive ongoing efforts to make Massachusetts’ Digital Assets accessible and usable by all persons as required by state and federal laws.
+2. Applicability
+2.1. This policy applies to the following entities:
+2.1.1. The Executive Department including all executive offices, boards, commissions, agencies, departments, divisions, councils, bureaus, and offices within an executive office, hereafter referred to as “Commonwealth Agencies and Offices.”
+2.1.2. Other Commonwealth entities that voluntarily use or participate in services provided by the Executive Office of Technology Services and Security, (EOTSS), such as mass.gov, must comply with this policy, with respect to those services as a condition of use.
+2.1.3. Any contracted staff or services firm that creates, customizes, or configures Digital assets on behalf of Commonwealth Agencies and Offices.
+2.1.4. Collectively, all entities for which this policy applies will be referred to as “Covered Entities.”
+3. Definitions
+3.1. "Accessibility" means a person with a disability is afforded the opportunity to acquire the same information, engage in the same interactions, and enjoy the same services as a person without a disability in an equally effective and equally integrated manner, with substantially equivalent ease of use and with the same level of security and privacy.
+3.2. “Accessibility Overlay” refers to a software tool or widget that claims to make website content more accessible. Overlay technologies can fall short in delivering on their claims and may create additional accessibility barriers for users of assistive technology.
+3.3. “Accessibility Violation” is a failure to meet an established accessibility standard, such as the Web Content Accessibility Guidelines (WCAG), or an instance of incompatibility with assistive technology.
+3.4. “ADA” refers to the Americans with Disabilities Act of 1990 as amended.
+3.5. “Automated Accessibility Testing” refers to accessibility testing using a scanning tool that examines code and flags violations of WCAG success criteria. Automated testing is limited in its ability to identify Accessibility Violations.
+3.6. “Digital Accessibility Statement” refers to a public-facing web page that defines an entity’s activities related to digital accessibility, applicable standards, examples of work undertaken to meet such standards, and a communication method where individuals can provide feedback or report an Accessibility Violation.
+3.7. “Digital Asset” refers to any item of value that exists in a digital format.
+3.8. “EOTSS” refers to the Executive Office of Technology Services and Security within the Executive Department of the Commonwealth of Massachusetts.
+3.9. “Manual Accessibility Testing” refers to testing performed by a human tester using manual methods including the use of assistive technology.
+3.10. “Mitigation Plan” refers to a documented set of actions intended to remove access barriers resulting from noncompliance with an established digital accessibility standard. A Mitigation Plan may include workarounds and/or accessible alternative pathways that support access to digital information or task completion. The plan may also include a Digital Accessibility Roadmap with target dates for remediation of specific Accessibility Violations.
+3.11. “Multimedia” refers to content that relays information using audio, video, animation, static images, or any combination of such formats.
+3.12. “Shall” means must and imposes an obligation to perform.
+3.13. “Usable" refers to the degree to which an IT system or product can be used by users to achieve specific goals effectively, efficiently, and with satisfaction.
+3.14. “WCAG” refers to the Web Content Accessibility Guidelines published by the World Wide Web Consortium (W3C).
+4. Authority
+4.1. M.G.L. Ch. 7d provides that “Notwithstanding any general or special law, rule, regulation, executive order, policy or procedure to the contrary, all executive department agencies shall, and other state agencies may, adhere to the policies, procedures and objectives established by the Executive Office of Technology Services and Security (EOTSS) with respect to activities concerning information technology.”
+4.2. The Commonwealth’s digital accessibility obligations derive from several federal and state authorities including but not limited to the following:
+Title II of the Americans with Disabilities Act as Amended, 42 U.S.C. § 12131 et seq.
+Section 504 of the Rehabilitation Act of 1973, 29 U.S.C. § 794.
+The Commonwealth Constitution, Article of Amendment CXIV.
+Massachusetts Equal Rights Act, M.G.L. Ch. 93 §103.
+Unlawful Practices, M.G.L. Ch. 151B §4.
+Discrimination to admission or treatment in places of public accommodation, M.G.L. Ch. 272 §98.
+Massachusetts Executive Order 614, Establishing the Digital Accessibility and Equity Governance Board.
+Massachusetts Executive Order 592, Advancing Workforce Equal Opportunity and Nondiscrimination.
+Massachusetts Executive Order 559, Establishing the Office of Access and Opportunity with the Office of the Governor.
+5. Scope
+5.1. The Digital Assets covered by this policy include websites, web-based software, desktop software, mobile applications, artificial intelligence (AI) products, virtual and augmented reality experiences, electronic documents, multimedia, email communications, social media content, digital maps, hardware that transmits information or has a user interface, and any other information technology used to conduct business on behalf of the Commonwealth.
+5.2. When a Digital Asset has an administrator interface, this policy covers both the administrator and end user interface environments.
+5.3. When a Digital Asset generates digital output, this policy covers both the Digital asset used to author the output and the digital output it creates.
+6. Digital Accessibility Standards
+6.1. EOTSS has adopted the following Digital Accessibility Standards for the respective information technology as shown in Table 1.
+Table 1: Digital Accessibility Standards
+Accessibility Standard | Accessibility Standard
+Web Content Accessibility Guidelines (WCAG) version 2.1 or later level A and AA | Websites, web-based software, desktop software, mobile applications, AI products, virtual reality experiences, electronic documents, social media content, and multimedia
+Authoring Tool Accessibility Guidelines 2.0 (ATAG2) | Any software or application used to create digital content such as online forms, dashboards, multimedia, or PDF files.
+Section 508 Chapter 4: Hardware | Hardware that has a user interface such as display screens, variable message signs, and kiosks.
+Architectural Access Board 521 CMR 1.0 | Hardware that has a user interface such as display screens, variable message signs, and kiosks.
+6.2. Covered Entities may establish more stringent accessibility requirements as required by their business needs, laws, or regulations.
+7. Responsibility
+7.1. With the advisement of the Digital Accessibility and Equity Governance Board (DAEGB), EOTSS is responsible for the development and ongoing maintenance of this policy.
+7.2. The Secretariat IT Accessibility Officer (SIAO) for the respective Commonwealth Agency or Office is responsible for the implementation of this policy.
+7.3. Compliance with this policy is the responsibility of the respective Commonwealth Agency or Office’s Chief Information Officer (CIO), with support from the Agency or Office’s Legal and Risk teams.
+8. Digital Accessibility Requirements
+8.1. Commonwealth Agencies and Offices must adopt, document, and perform the following processes and procedures:
+8.1.1. Training. Ensure that employees complete required and role-specific digital accessibility trainings. Commonwealth Agencies and Offices must maintain training completion data.
+8.1.2. Plan. Follow the defined Project Planning Accessibility Requirements for application development. (link coming soon)
+8.1.3. Design. Adhere to Design Accessibility Requirements including components and documentation of the Massachusetts Design System.
+8.1.3.1. Automated and/or manual testing must be conducted on all interactive digital prototypes to inform design iterations and remediation of Accessibility Violations.
+8.1.4. Development. Adhere to the Application Development Accessibility Requirements. (link coming soon).
+8.1.4.1. Code validation, Automated Accessibility Testing, and Manual Accessibility Testing must be conducted prior to deployment. (link coming soon).
+8.1.5. Accessibility Testing. Perform Web and App Accessibility Testing during the development lifecycle and prior to deployment.
+8.1.6. Electronic Documents and Communications. Adhere to the guidance and testing requirements defined in Creating Accessible Electronic Documents and Communications.
+8.1.7. Procurement. Adhere to the requirements of the Procurement of Accessible Digital Products and Services including the use of Vendor Digital Accessibility Contract Language.
+8.1.8. Monitor. Monitor the accessibility of Digital Assets owned, operated, or maintained on a regular cadence through a combination of Automated Testing and Manual Accessibility Testing. (link coming soon).
+8.1.9. Mitigation Plan. Create and implement a Mitigation Plan for any Digital Asset that does not fully comply with the Digital Accessibility Standards and submit as part of an Exception Request.
+8.1.10. Accessibility Overlay. No Digital Asset within the scope of this policy may contain an accessibility overlay whether developed internally or by a third-party.
+9. Digital Accessibility Statement
+9.1. EOTSS is responsible for the development and ongoing maintenance of the Commonwealth of Massachusetts Executive Department Digital Accessibility Statement.
+10. Exception Requests
+10.1. Exceptions to any part of this policy must be submitted in accordance with the Enterprise Digital Accessibility Policy Exception Request process.
+10.2. Any exception request decision is subject to review by EOTSS and may be overridden.
+11. Compliance
+11.1. A Commonwealth Agency or Office that violates the provisions of this policy may be ineligible for capital funding.
+11.2. Per the Website Domain Policy, Digital Assets that require a domain name will be assessed for compliance with this policy through the domain name request process.
+11.2.1. Domain requests for Digital Assets that violate the provisions of this policy will be denied unless granted an exception through the Exception Request process defined in section 10 of this policy.
+11.2.2. Requests for domains may be denied if a Commonwealth Agency or Office has repeatedly been granted exceptions and has not addressed or mitigated the noncompliance.
+11.3. EOTSS may remove the domain name system ("DNS") record of any Digital Asset that violates this policy from the DNS managed by EOTSS, thereby removing end users' access to the Digital Asset.
+12. Contact
+12.1. Any inquiries or comments regarding this policy can be sent by email to EOTSS’s Accessibility Inquiry inbox at digitalaccessibility@mass.gov.
+
+## Curator notes
+
+Text taken from the mass.gov page: from the page header (category, title, and the date, issuer, organization, referenced-sources, Mass Register and rescission lines it prints) to the end of its content column, one line per block; the cells of a version table are joined with ' | '. The table-of-contents widget, the visually hidden category label, the downloads widget, the repeated referenced-sources block, the contact column, the feedback form and the footer removed.

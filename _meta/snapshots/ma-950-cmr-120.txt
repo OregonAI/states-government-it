@@ -1,0 +1,303 @@
+               950 CMR: OFFICE OF THE SECRETARY OF THE COMMONWEALTH
+
+950 CMR 120.00:         INFORMATION TECHNOLOGY PURCHASING PROCESS
+
+Section
+
+120.01: Purpose
+120.02: Definitions
+120.03: Existing State Technology Standards
+120.04: Indexing Standards
+120.05: Submission and Approval Process
+120.06: Authorization to Procure
+120.07: Post Acquisition Review
+120.08: Appellate Procedure
+
+120.01: Purpose
+
+                The purpose of 950 CMR 120 et seq. is to provide the Registries of Deeds with uniform rules and
+            standards governing the procurement of technology purchases to ensure consistency and compatibility
+            between the Secretary of the Commonwealth’s Office and the Registries of Deeds.
+
+120.02: Definitions
+
+               For the purpose of 950 CMR 120, the following terms will have the meaning assigned, unless
+            another meaning is obvious from the context of 950 CMR 120.00:
+
+            Compatible Growth - the addition of like hardware or software to an existing base or the upgrading
+            of existing hardware or software by substituting a new or more powerful release.
+
+            Feasibility Study - An investigation:
+               (a) to estimate the resources required for a proposed IT Resource acquisition, including the
+               expenditures anticipated and the time, money and other resources to be expended for related
+               undertakings by the Registry such as staffing and site preparation,
+               (b) to verify that these resources are available to the Registry,
+               (c) to provide a best estimate of the benefits expected to be derived for the acquisition, and
+               (d) to determine whether the expected benefits of the proposed procurement are sufficient to
+               warrant the expenditure of those resources.
+
+            Funds - funds include, but are not limited to, all state appropriations, proceeds from bond sales, trust
+            funds, grants, and gifts.
+
+            Hardware - a subset of IT Resources, including any of the following:
+               (a) computers that accept and store data, perform calculations and other processing steps, and
+               produce information from that data.
+               (b) all peripheral or auxiliary equipment used primarily in conjunction with a computer, whether
+               procured with the computer or separately.
+               (c) data transmission or data communications equipment.
+
+            IT - Information Technology - the use of programmable hardware and software to improve
+            effectiveness or efficiency.
+
+            IT Resources - hardware, software, systems, or services or any combination of them, as the context
+            permits.
+
+            Needs Analysis - a study of the objectives of a proposed procurement, in order to prepare technical
+            specifications for the hardware, software, systems or services to be procured.
+
+            Notice of Proposed Procurement - a Registry's initial written statement to the Secretary of its intent to
+            procure IT Resources.
+
+            Registry IT Initiative - a plan detailing the use of IT Resources for automating a business function or
+            process or enhancing an already automated process or function.
+
+               950 CMR: OFFICE OF THE SECRETARY OF THE COMMONWEALTH
+
+120.02: continued
+
+            Registry IT Plan - a document prepared and periodically revised by a Registry to guide its use and
+            acquisition of IT Resources in a manner consistent with the Secretary’s IT Plan. Each Registry IT Plan
+            will contain:
+                 (a) a brief description of the Registry's mission,
+                 (b) specific IT Initiatives
+                 (c) best estimate of cost to implement each IT Initiative, and
+                 (d) the name of the Registry Procurement Coordinator.
+
+            Requirements Definition - the examination of existing information flow, hardware capability and
+            operational procedures within an organization. A Requirements Definition generally consists of four
+            basic parts: a description of the present system and its objectives; a statement of the problem; a
+            presentation of the feasible alternative solutions, and their strengths, weaknesses and estimated costs,
+            and a recommendation.
+
+            Screening Conference - consultation(s) between a Registry Procurement Coordinator and a designee
+            of the Secretary of the Commonwealth to review a Notice of Proposed Procurement, to offer advice
+            concerning the nature and scope of the procurement appropriate to the needs described in the Notice.
+
+            Secretary - the Secretary of the Commonwealth of Massachusetts.
+
+            Secretary’s IT Plan - a document prepared and periodically revised by the Secretary, containing
+            guidelines to the Registries designed to promote consistency and coherence among the Registries in
+            their acquisition of IT Resources.
+
+            Services - the furnishing of labor, time, or effort by private contractors not involving the sale, rental, or
+            license of property to the Commonwealth. The term includes, but is not necessarily limited to:
+                (a) the labor of individuals qualified by education, experience, or training to perform Feasibility
+                Studies, Needs Analyses, system analyses, system design, system specification, programming, data
+                conversion, system implementation, system testing, and other tasks relating to the planning,
+                selection, design, development, and use of IT Resources,
+                (b) the development, enhancement or maintenance of software,
+                (c) the maintenance or repair of hardware, and
+                (d) the use of systems, including service bureau arrangements.
+
+            Software - computer programs and procedures which control the operation and use of hardware.
+            Software includes operating systems, compilers, assemblers, utility programs, library routines,
+            maintenance routines and application programs, and the associated documentation. This includes
+            commercial off-the-shelf software (COTS).
+
+            Statement of Work - a description of duties and tasks to be performed under a contract.
+
+            System - an interacting complementofITResources and other resources organized to perform specific
+            processing tasks and activities and produce specific results.
+
+120.03: Existing State Technology Standards
+
+                The Information Technology Division (ITD), within the Executive Office of Administration and
+            Finance (EOA&F), has published standards for a variety of hardware and software products. Unless
+            the Secretary determines otherwise, all IT resources acquired by registries of deeds shall conform with
+            the ITD standards. These standards are subject to revision. Where a standard has been revised, the
+            most current revision shall apply. The Commonwealth's ITD Web site contains the standards governing
+            the acquisition of:
+
+            (1) personal Computer Workstations,
+
+            (2) local Area Networks,
+
+              950 CMR: OFFICE OF THE SECRETARY OF THE COMMONWEALTH
+
+120.03: continued
+
+           (3) notebook Computers,
+
+           (4) word Processing and Spreadsheet Software,
+
+           (5) logical Network Architecture Guidelines,
+
+           (6) network Management Architecture Guidelines,
+
+           (8) enterprise Network Standards and Guidelines,
+
+           (9) wiring Standards and Guidelines, and
+
+           (10) database Access (SQL).
+
+120.04: Indexing Standards
+
+               The Massachusetts Registers and Assistant Registers of Deeds Association has published Deed
+               Indexing Standards for the Commonwealth of Massachusetts which govern the creation of the
+               Indexes required by M.G.L. c. 36. Unless otherwise noted, all Indexes created by Massachusetts
+               Registries of Deeds shall conform with these Deed Indexing Standards. These standards are
+               subject to revision. Where a standard has been revised, the most current revision shall apply.
+
+120.05: Submission and Approval Process
+
+           (1) To implement a process that ensures that all technology purchases by Registries of Deeds are
+           compatible with each other, itis imperative that all acquisitions be coordinated through a central control
+           point. This "control point" shallbe the Director ofthe Secretary’s Automated Systems Division. The
+           Director will establish a top-down Secretary IT planning process. The Secretary’s ITD Plan will
+           address a framework for all Registry of Deeds hardware, software and telecommunications standards
+           conforming, where practicable, to existing State Information Technology Division (ITD) hardware,
+           software and telecommunications standards.
+
+           (2) Once the Secretary’s IT Plan has been drafted, approved and released, each Registry of Deeds
+           will prepare a Registry ITD Plan that is in consonance with Secretary’s Plan and submit it for review
+           to the Director of the Secretary’s Automated Systems Division.
+
+           (3) Each Registry IT Plan will contain and describe the IT initiatives that it intends to undertake to
+           improve the efficiency and/or effectiveness of their operation. The Director of the Secretary’s
+           Automated Systems Division will review each Registry plan and approve, reject and or return it for
+           additional information. Once the Director of the Secretary’s Automated Systems Division has
+           approved the Registry's IT Plan, individual technology acquisition requests will be reviewed by said
+           Director on the basis of the Registry's plan and its conformance with the Secretary’s IT Plan.
+               The following sections describe this process.
+               (a) Registry Information Technology Plans - Every Registry shall prepare a Registry IT Plan,
+               which is comprised of, but not limited to, a set of its IT initiatives covering a period at least equal
+               to the remainder of the current fiscal year and the succeeding fiscal year. The Registry willsubmit
+               the plan in a format and by a date established by the Director of the Secretary’s Automated
+               Systems Division. The Registries will revise their plan as often as necessary to keep it current, to
+               conform it to the applicable Secretary’s IT Plan, and to maintain the required period of coverage.
+               The Secretary will establish procedures to coordinate the preparation and revision of Registry IT
+               Plans.
+                    Each Registry will deliver its Registry IT Plan and all revisions to the Secretary. Each Registry
+               IT Plan will be subject to review by the Director of the Secretary’s Automated Systems Division,
+               and others as appropriate. The Secretary may delay action on any pending request until the
+               Registry IT Plan of the requesting Registry is complete and current.
+
+               950 CMR: OFFICE OF THE SECRETARY OF THE COMMONWEALTH
+
+120.05: continued
+
+               (b) Registry Information Technology Initiatives - IT Initiatives are planning tools. As such, they
+               may be long-term in focus. They are not limited to the remainder of the current fiscalyear and the
+               succeeding fiscal year. And they need not be specific about exact funding sources for the
+               prospective IT Resources.
+                     Each Registry will deliver to the Secretary their IT Initiatives as they are developed. Each
+               initiative will contain a plan to improve the efficiency and/or effectiveness of its operation. For
+               example, an initiative could describe a project to automate a business function or to enhance an
+               already automated process or function, in order for the Registry to improve the achievement of its
+               mission.
+               (c) Secretary Information Technology Plan - The Director of the Secretary’s Automated Systems
+               Division will prepare a Secretary IT Plan covering a period at least equal to the remainder of the
+               current fiscal year and the succeeding fiscal year. The Secretary IT Plan will address hardware,
+               software and telecommunications standards conforming, where practicable, to existing State
+               Information Technology Division (ITD) hardware, software and telecommunications standards.
+               The Director of the Secretary’s Automated Systems Division will revise the plan as necessary to
+               keep it current and to maintain the required period of coverage.
+
+120.06: Authorization to Procure
+
+               Prior to acquiring any information technology assets, the requesting Registry of Deeds shall comply
+               with the following procedure:
+
+            (1) Procurement Coordinator - The individual in charge of a Registry initiating a procurement of IT
+            Resources will designate an employee of the Registry to serve as the Procurement Coordinator
+            concerning that procurement. The ProcurementCoordinator willcoordinate the Registry’s interactions
+            with the Secretary for that procurement.
+
+            (2) Notice of Proposed Procurement - The Procurement Coordinator will notify the Secretary that
+            the Registry intends to procure IT Resources. This notification will be in the form of a Notice of
+            Proposed Procurement in a form to be determined by the Director of the Secretary’s Automated
+            Systems Division. The Notice of Proposed Procurement will:
+                (a) identify the Registry and the name and address to which the goods and services are to be
+                delivered;
+                (b) state the name, address, telephone number and title of the Procurement Coordinator;
+                (c) describe the IT Resources the Registry intends to obtain;
+                (d) identify the IT Initiative that the procurement will implement;
+                (e) identify the procurement method and form of contract the Registry expects to make with a
+                selected vendor;
+                (f) summarize the Registry needs which the procurement is expected to satisfy; and
+                (g) state the method of vendor selection. If the method to be requested is noncompetitive, the
+                Registry Procurement Coordinator should identify its choice of vendor.
+
+            (3) Screening Conference - The Director of the Secretary’s Automated Systems Division will confer
+            with the Registry Procurement Coordinator to review the Notice of Proposed Procurement. The
+            Director of the Secretary’s Automated Systems Division will offer advice concerning the nature and
+            scope of the procurement described in the Notice and offer assistance in the acquisition of the IT
+            Resource(s). At the request of the Registry, other officers or employees may participate in the
+            conference. The Director ofthe Secretary’s Automated Systems Division may adjourn and reconvene
+            the conference, if necessary to accommodate their participation or to complete the work described in
+            950 CMR 120.06.
+                (a) At or following the Screening Conference, the Director of the Secretary’s Automated Systems
+                Division may request:
+                    1. any additional supporting documents required from the Registry,
+                    2. the justification supporting a Registry's request to select a vendor by method other than a
+                    competitive process.
+
+               950 CMR: OFFICE OF THE SECRETARY OF THE COMMONWEALTH
+
+120.06: continued
+
+               (b) The Director of the Secretary’s Automated Systems Division will consider the nature, scope
+               and importance of the IT Resource requested, in determining what supporting documents are
+               necessary for it to review the request and justify its approval. Examples of the kinds of supporting
+               documents the Director may require are:
+                   1. portions of the Registry IT Plan, with any updates or revisions necessary to reconcile the
+                   plan with the Request
+                   2. a Feasibility Study report.
+                   3. a Requirements Definition report,
+                   4. a confirmation that the estimated funds are available for the request, and
+                   5. the staff to effectively support the planned acquisition are available.
+
+            (4) Preparation And Submission of Acquisition Request. The Registry Procurement Coordinator will
+            complete an acquisition request in a form to be determined by the Director of the Secretary’s
+            Automated Systems Division. The Procurement Coordinator will coordinate the preparation of the
+            supporting documents. The acquisition request form will
+                (a) state whether funds sufficient to cover the estimated amounts to be paid to the contractor in
+                the fiscal year in which the contract term is to begin are available; and
+                (b) identify the Registry IT initiative that the proposed procurement would implement.
+                The Director of the Secretary’s Automated Systems Division will review the acquisition request.
+            Based on this review, the Secretary may approve, reject or return the request, requiring additional
+            information or supporting documentation. The Director of the Secretary’s Automated Systems Division
+            review will take into consideration the following factors:
+                (c) the requested IT resource will provide a technically feasible solution to the problems that gave
+                rise to the request;
+                (d) the proposed IT resource is a cost-effective solution among the feasible alternatives;
+                (e) the request is consonant with the Secretary’s IT Plan and the Registry IT Plan;
+                (f) the Registry has the capability to implement and support/maintain the IT resource; and
+                (g) a method of procurement is available.
+
+            (5) Information Technology Acquisition - Once the request is approved by the Director of the
+            Secretary’s Automated Systems Division it will be forward to any other approval authorities that are
+            required. Once all approvals are obtained, the appropriate procurement documents will be prepared.
+            The specifications will be prepared by Registry initiating the request. Assistance will be provided by
+            the Director of the Secretary’s Automated Systems Division. The method of acquisition must be
+            approved by the Director of Administration and Fiscal within the Secretary’s Office.
+
+120.07: Post Acquisition Review
+
+               To ensure compliance withthis process and procedures, the Director of the Secretary’s Automated
+            Systems Division may perform a post acquisition review of any IT Resource acquisition.
+
+120.08: Appellate Procedure
+
+                In the event that a Registry of Deeds is aggrieved by a decision of the Director of the Secretary’s
+            Automated Systems Division , the aggrieved Registry shall have the right to a hearing before the
+            Secretary’s Information Technology Review Board which shallconsist of three members named by the
+            Secretary. This panel shall meet with a representative of the aggrieved Registry of Deeds and the
+            Director of the Secretary’s Automated Systems Division. The review board will determine whether
+            the decision is in the best interest of the Office of the Secretary, including but not limited to the
+            Registries of Deeds, and shall have the power to uphold, reverse, or modify any decision of the
+            Director of the Secretary’s Automated Systems Division.
+
+REGULATORY AUTHORITY
+
+            950 CMR 120.00: M.G.L. c. 36, § 40.

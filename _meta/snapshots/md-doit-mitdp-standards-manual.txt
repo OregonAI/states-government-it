@@ -1,0 +1,891 @@
+ ENTERPRISE PROGRAM MANAGEMENT
+           OFFICE (EPMO)
+Major Information Technology Development Projects
+                    (MITDP)
+
+             Standards Manual
+
+                                                            Table of Contents
+
+Initiating MITDP’s/MITDP Determinations ............................................................................................... 3
+The Maryland System Development Lifecycle (SDLC) .............................................................................. 4
+DoIT EPMO Oversight Project Management ............................................................................................ 6
+Reporting Requirements........................................................................................................................... 7
+Project Health Assessments and Reviews............................................................................................... 12
+   Health Assessments ............................................................................................................................ 12
+   Portfolio Reviews ................................................................................................................................ 12
+Independent Verification and Validation (IV&V) .................................................................................... 15
+MITDP Re-baseline.................................................................................................................................. 17
+MITDP Closeout ...................................................................................................................................... 19
+Appendix A: IV&V Selection Framework................................................................................................ 20
+Appendix B: DoIT IV&V Initiation and Management Process ................................................................. 22
+Appendix C: Agency IV&V Initiation Process.......................................................................................... 23
+Appendix D: DoIT Re-Baselining Process ................................................................................................ 24
+Appendix E: MITDP Determination Criteria by Statute Definition......................................................... 25
+Acronyms ................................................................................................................................................ 26
+
+Initiating MITDP’s/MITDP Determinations
+Introduction
+A Major Information Technology Development Project (MITDP) is an information technology (IT)
+development project that meets one or more of the following criteria*:
+    1. Total estimated cost of development equals or exceeds $1 million;
+    2. The project is undertaken to support a critical business function associated with the public health,
+       education, safety, or financial well-being of the citizens of Maryland; or
+    3. the Secretary determines that the project requires the special attention and consideration given to
+       a major information technology development project due to:
+           a. The significance of the project’s potential benefits or risks;
+           b. The impact of the project on the public or local governments;
+           c. The public visibility of the project; or
+           d. Other reasons as determined by the Secretary.
+
+*Source: Maryland Annotated Code, State Finance & Procurement sec. 3A-301 et seq.
+
+MITDP Determination
+The MITDP determination process begins with a request submitted to DoIT Intake for an overall
+understanding of the business need and level of support required by the Intake Steering Committee
+(Reference: Special Request Portfolio Policy). The Enterprise Project Management Office (EPMO) will
+evaluate this IT request against the established MITDP criteria as defined in Appendix E: MITDP
+Determination Criteria by Statute Definition
+The EPMO performs an analysis of the IT request taking into consideration certain factors such as; scope,
+cost/funding, impact or criticality to the Agency/State, how it evaluates against the three fundamental
+criteria (See Appendix D) and via further discussion with the respective agency. EPMO also works with
+the DoIT Office of Enterprise Architecture (OEA) to ensure that State methods for IT solution
+development are being followed and that required technical standards are being incorporated (See the
+DoIT Enterprise Architecture Handbook for details).
+Based on this analysis, the EPMO prepares a letter of recommendation presented to the Secretary of DoIT
+for review for MITDP and subsequent signature if deemed as such. The EPMO notifies the respective
+Chief Information Officer (CIO) or designee of the requesting agency of the outcome of their Agency’s
+IT request with this MITDP Determination letter. If an MITDP, the Agency must proceed with the ITPR
+process.
+Information Technology Project Request (ITPR)
+DoIT has designed the Information Technology Project Request (ITPR) for these major IT development
+initiatives. An ITPR is used for documenting the business case and need for the project effort and
+supporting funding request. The ITPR must include the information necessary for DoIT, Department of
+Budget Management (DBM) and the Department of Legislative Services (DLS) to make a determination
+about whether project should be undertaken during that fiscal year.
+This includes:
+
+    •   Documenting a project description and status
+    •   Identifying the risks, security and proposed architecture
+    •   Funding expectations and spending plans
+    •   Benefits and cost savings
+    •   Acquisition strategy
+    •   Business need justification
+    •   Stakeholder involvement
+    •   External dependencies
+    •   Schedule, deliverables and milestones reporting
+    •   Architecture standards alignment
+
+Agencies existing MITDPs, or potential MITDPs must provide an ITPR each fiscal year until the
+completion of the project. All information contained within the ITPR must be accurate and up to date. An
+upcoming fiscal year ITPR must be submitted by each requested fiscal year deadline (estimated August
+30th of each year) of the current fiscal year and updated yearly. In addition, DoIT may request agencies to
+fill out an ITPR in the event their project qualifies as an MITDP. Initially a preliminary estimate for the
+entire project cost SDLC Phases: Planning thru Implementation are necessary, and one year of Operations
+and Maintenance (O&M), to determine if the project meets the financial threshold of >$1M (one of three
+potential thresholds) to qualify as a MITDP.
+
+All project planning and implementation efforts must be reviewed and approved by DoIT prior to any
+work beginning or funds expended.
+
+In the event there is a need identified outside of the standard fiscal year submission process, an Out-of-Cycle
+(OOC) request will be considered. This does not guarantee MITDP approval. It is important and imperative
+for agencies to submit MITDP requests during the annual budget process. For OOC requests, agencies are
+asked to contact DoIT’s EPMO.
+
+The Maryland System Development Lifecycle (SDLC)
+Introduction
+
+Per Maryland Statute, a “Systems development life cycle plan” means a plan that defines all actions,
+functions, or activities to be performed by a unit of State government in the definition, planning,
+acquisition, development, testing, implementation, operation, enhancement, and modification of
+information technology system.
+
+The State System Development Life Cycle (SDLC) is a framework intended to reduce the risk of project
+failure through the application of incremental and iterative solution delivery. This approach focuses on
+the benefits of agile to improve the delivery of, not only major IT development projects, but all
+information technology projects. Aligning our work with the Governor’s priorities and agency missions,
+breaking work down into loosely coupled components or services, and delivering iteratively in rapid
+learning cycles, delivers more value in less time and saves many millions of taxpayer dollars. A lean-agile
+approach forces delivery of value more frequently, allowing us to detect small failures early and treat
+them as learning opportunities leading to an improved product.
+
+Agile SDLC Purpose
+To establish an agile System Development Life Cycle (SDLC) as the standard for the State of Maryland’s
+executive branch agencies. The intent is to promote agility in a pragmatic, not dogmatic, way as it
+pertains to delivering extreme value to our end users and the people of Maryland.
+Scope
+This standard applies to all information technology development as defined in Maryland Annotated Code,
+State Finance & Procurement sec. 3A-301 et seq.
+
+Standard
+State of Maryland Executive Branch agencies must adopt an SDLC which adheres to agile values and
+principles, outlined below. The “Waterfall” SDLC is no longer a supported methodology.
+
+The following agile values shall be applied to all IT solution implementations:
+
+    •   End-to-end value stream alignment over the silo mindset
+    •   Strategic alignment to the Governor’s priorities, State IT Master Plan & agency missions
+    •   Cross-agency collaboration and cooperation
+    •   State IT architecture standards are being followed
+    •   Measurable, data driven decision making and prioritization
+    •   Optimizing the end-to-end customer experience
+    •   Agile delivery over large batch, sequential processes
+    •   Cross-functional small team-based execution
+    •   Frequent, incremental delivery of modular solutions
+    •   Visibility and lean management of work in process
+    •   Intentional, continuous improvement through rapid learning cycles
+    •   Modern development over outdated approaches
+    •   Innovation with modern technology and consideration of open source options
+    •   Ongoing development and technical debt management of production systems
+    •   Built in security, accessibility, quality, and compliance
+    •   Maximum integration of systems and data (with appropriate governance)
+
+Exceptions
+
+Exceptions to this standard or parts herein may be granted at the discretion of the DoIT Secretary if an
+unavoidable impediment to agility prevents adoption.
+
+Enforcement
+
+The DoIT Secretary will exercise the authority granted under the Maryland Annotated Code, State
+Finance & Procurement sec. 3A-301 et seq. in order to enforce this standard.
+
+The SDLC webpages will be updated to incorporate the agile SDLC. For questions or comments, please
+contact the Enterprise Program Management Office (EPMO): epmo.doit@maryland.gov
+
+DoIT EPMO Oversight Project Management
+The Enterprise Program Management Office (EPMO) has been established in order to provide
+governance for all Major IT Development Projects. This includes conveying the technically and
+financially sound project management practices from initiation through closeout of MITDPs, evaluating
+and overseeing the health and viability of these MITDPs, and ensuring compliance with statutory
+regulations. The EPMO supports state law set forth in MD State Fin & Pro Code §§ 3A 301-309. This
+law addresses MITDP development, oversight, and funding and issues direction related to IT program
+management needed to successfully initiate, budget, plan, manage, and complete MITDPs.
+
+Our goal is to establish repeatable processes and provide guidance to improve the success rate of and
+value delivered by MITDPs. This includes the responsibility for:
+
+      • System Development Life Cycle - Project Health Tracking, Performance Metrics, Reporting &
+        Deliverables/Templates
+      • Portfolio Governance- Policies, Processes & Standards
+      • Project Management Guidance- Best Practices & Lessons Learned
+      • Solution Architecture – Best Practices & Lessons Learned
+
+The EPMO works with agencies to:
+
+      • Understand the compliance and reporting practices under the MITDP statute.
+      • Obtain necessary information and documentation to facilitate accurate assessments of the
+        project’s performance and risk factors.
+      • Ensure value is being delivered for the appropriated funding.
+
+While EPMO provides oversight, it does not participate in the execution of MITDPs. Project execution
+remains the responsibility of a project or program team independent of the EPMO.
+
+The State's approach to project management is based on the System Development Life Cycle (SDLC),
+which provides project managers with a repeatable process to guide them through the planning and
+execution of successful IT projects. The SDLC is a key aspect of the State's Oversight
+Methodology and should be used by all project managers to promote the development of safe, secure and
+reliable systems.
+
+The benefits of good project management and following the SDLC are the improved ability to deliver
+projects on time, in scope and within budget, as well as satisfy an agency's business needs. Templates are
+available to provide assistance through the main phases of the SDLC.
+
+This direction, guidelines and support also assist agencies in understanding the roles and responsibilities
+and requirements relating to Major IT development (MITDP) projects.
+
+Role of the Oversight Project Manager (OPM)
+
+The role of the DoIT OPM is to provide oversight project management. This is essential to maintain a
+clear understanding of the project’s objectives, funding, risks, milestones and successes. A variety of
+MITDP activities are performed during the Planning through Implementation Phases to ensure projects
+are well managed, visible to the DoIT executive team, on-track for success and follow adherence to the
+State's System Development Life Cycle (SDLC). Duties of the DoIT OPM include the following:
+
+    •   Guidance regarding adherence to the State's System Development Life Cycle (SDLC)
+        methodology
+    •   Guidance regarding adherence to value driven iterative development
+    •   Periodic assessments of team and organizational agility
+    •   Provide guidance to promote lean principles and eliminate waste
+    •   Working with DoIT OEA to ensure that effective IT architecture methods are being used
+    •   Guidance on Project Planning Request (PPR) and Project Implementation Request (PIR) Phases
+        for MITDPs
+    •   Independent project management oversight:
+            o Create and update templates, work instructions, guidance, and samples for agencies to
+                use in procurements and SDLC activities
+            o Advise agency on proposed project timelines and assessments on project resource needs
+            o Track and communicate funding and approvals or budget guidance (such as encumbering
+                funds, deficiency requests or Out-of-Cycle (OOC) requests
+            o Support the MITDP budget allocation process with project budget reviews based on
+                projected spending and past project performance
+            o Educate agency regarding the State SDLC, rules for MITDPs and required SDLC
+                documentation
+            o Conduct periodic Health Assessments or Portfolio Reviews
+            o Perform Mid-Year and End-of-Year project Reporting to Department of Legislative
+                Services (DLS) for all MITDPs
+            o Perform Fiscal Year Financial Project Reporting to the Department of Budget and
+                Management (DBM)
+            o Provide policy and guidance on Re-Baselining and Independent Verification &
+                Validation (IV&V)
+            o Preparing Oversight Observations Reports to address any potential deficiencies
+                surrounding scope, schedule, cost, and/or process with outlined recommendations
+            o Conduct project Closeout activities upon completion of the project
+
+Reporting Requirements
+DoIT is required to provide oversight to the various State MITDP’, by performing assessments of each
+projects health and progress periodically, inclusive of the Oversight Observations Reports. In order to do
+this effectively, reporting requirements of the Agencies are critical as these provide the information DoIT
+uses to determine that project goals and objectives are being met. It is imperative that the Agencies ensure
+proper project management practices are in place and that project stakeholders are provided timely and
+accurate information showing the projects state of health, periodic progress, and if goals/objectives are
+being met on a consistent basis.
+Below is a high-level Agency oversight and reporting activities table for Major Information Technology
+Development Projects (MITDPs) broken down into four sections:
+
+    •   General Oversight and Procurement
+    •   Project Management
+    •   Reporting
+    •   Budgeting
+This table is not inclusive of all the oversight that is to be provided or required for MITDPs but is
+intended to provide an overview of standard activities and oversight frequency that can be expected when
+
+a project is deemed a MITDPPlease note: This table below is subject to change at any time.
+(https://doit.maryland.gov/epmo/Pages/MITDP/oversight.aspx)
+
+    1. GENERAL OVERSIGHT AND PROCUREMENT
+
+ Activity               Description                                                    Frequency
+
+ OPM involvement                                                                       On going
+                        1. OPM to oversee planning and implementation phases of
+                           Agency MITDP projects. This includes actively
+                           monitoring project status through review of project
+                           artifacts and observe project activities with team
+                           members and stakeholders to maintain a thorough
+                           understanding of project health and progress.
+                        2. Review and facilitate mitigation of project risks,
+                           and recommend intervention measures that may include
+                           identification and determination of an Independent
+                           Verification and Validation (IV&V) assessment.
+                        3. Provide strategic support and thought leadership on
+                           technology acquisition strategy, business process impact
+                           assessment, and human-social collaboration issues related
+                           to system implementation and adoption.
+                        4. In collaboration with DoIT OEA, ensure that proper IT
+                           architecture standards are being followed and proven, re-
+                           usable solutions are considered.
+
+ Submit                 Agencies are required to follow the respective DGS and DoIT On going
+ procurements for       (Intake)* processes for procurement requests, reviews,
+ review and approval    awards. Additional information is provided in the reference
+ through the proper     below.
+ Procurement and
+ Oversight channels
+                        Reference:
+                        https://doit.maryland.gov/policies/Pages/default.aspx
+
+    2. PROJECT MANAGEMENT
+
+ Activity                       Description                                      Frequency
+
+ Agency is accountable for      Work with DoIT on the proper resource plan       On going
+ MITDP Project                  for acquiring resources and managing the
+ Management                     MITDP and perform necessary activities in
+                                these efforts for MITDP success, including
+                                adherence to the State’s System Development
+
+Activity                       Description                                         Frequency
+
+                               Life Cycle (SDLC) implementation
+                               methodology.
+
+Agency to provide State        Provide requisite documentation in keeping          On going
+Required SDLC                  with the State's SDLC implementation
+documents/deliverables per     methodology. Documentation needs to include
+DoIT website                   an iterative implementation approach with
+                               clearly identifiable activities and milestones
+                               resulting in incremental product release(s).
+                               System Development Life Cycle
+
+Agency to review and           Per activity above, SDLC documents should           On going
+approve SDLC deliverables      reflect standard/best Project Management
+prior to submission to DoIT    Practices; DoIT will review and provide any
+for review/recommendations     recommendations for compliance to the SDLC.
+
+Agency to adhere to State      As required by Maryland State Finance and           On going
+requirements for the MITDP     Procurement articles 3A-301-3A-309
+and respective Oversight
+
+Agency to baseline and re-     Re-Baseline represents updating or                  Baseline- Required; Re-
+baseline                       modification of a project's baseline, as a result   baseline as needed per
+                               of any significant change to the schedule, cost,    DoIT Re-Baseline policy
+                               or deliverable content.
+
+  3. REPORTING
+
+Activity                     Description                                           Frequency
+
+Fiscal Year ITPR             Information Technology Project Requests (ITPRs)       Yearly/Due around
+                             are required for all MITDPs on a yearly basis. The    August 30th; System
+                             information contained in the ITPR include project     access available early
+                             specific information such as; identifying             July (communication
+                             stakeholders, describing the project need,            distributed).
+                             providing a scope, identifying the risks, and
+                             estimating costs of the project, including
+                             implementation.
+
+Activity                   Description                                            Frequency
+
+End of Year (EOY)          Yearly project update to show: Project description, Yearly/ Due around
+Report Narrative           project status, scope, cost and schedule changes,   August 30th
+                           and risks/ issues
+
+End of Year (EOY)          Yearly financial status project update to show:        Yearly/ Due around
+Report Financial Table     cost to date, out year costs, and funding for the      September 15th
+                           respective reporting period.
+
+Mid-Year (MY) Report       Mid-Year project update since EOY to detail:           Yearly/ Due around
+Narrative                  Project description, project status, scope, cost and   November 25th
+                           schedule changes, and risks/ issues
+
+Weekly Project Status      Agency provided status reports that provide the        Weekly
+Report                     following minimum information: Project status,
+                           periodic accomplishments, risks, issues, and
+                           mitigation strategies.
+
+Weekly Project Status      Project Meetings with the Vendor and State             Bi-weekly, at minimum
+Meeting                    Teams that OPMs attend/observe and engage in
+                           project level activities at a suitable level to
+                           maintain a clear understanding of the project
+                           progress, activities, risks, and finances.
+
+Stakeholder Meetings and Stakeholder/Steering Committee meetings with             Monthly and/or as
+Steering Committee       key members that OPMs attend and provide any             applicable
+Meetings, as applicable  respective oversight status and responses to
+                         questions/concerns.
+
+Risk Register              Frequently updated Risk Register document that         Monthly, at minimum
+                           details all relevant risks and issues, along with
+                           supporting details that prioritizes mitigation
+                           strategies based on impact, and probability of
+                           occurrence.
+
+Project Health             Monthly update on the project                          10th of Every Month
+Assessment Charts (prior   status/accomplishments, program increments
+Quad Chart)                progress, budget, milestones, risks etc.
+
+Portfolio Review Meeting Stakeholder(s) Executive review of the project; A        As requested by DoIT
+                         forum to present and discuss project status,             Management or Agency
+                                                                                  Stakeholders
+
+Activity                      Description                                         Frequency
+
+                              issues/risks, corrective action plans, additional
+                              support needed, etc.
+
+  4. BUDGETING
+
+Activity                          Description                                     Frequency
+
+Initial and Yearly Budget         Initial budget estimates submitted within the Initially and yearly
+Planning                          IT Project Request (ITPR) form require a      fiscal updates to the
+                                  solid foundation and proven forecasting       ITPR
+                                  methodology and should account for the entire
+                                  project lifecycle; Budget estimates must be
+                                  updated on a Fiscal Year basis
+
+Monthly Spending Reports          Updated spending plans and actuals must be      Monthly- included with
+                                  included with the monthly health assessment     Health Assessment
+                                  chart and other respective agency financial     Chart and other agency
+                                  tracking documents in preparation for the       tracking documents
+                                  health assessment. OPMs may require
+                                  additional spending information.
+
+Contract Management               Ongoing reviews of staffing/resourcing,         As requested by DoIT
+Reviews                           contract modifications and renewals, and any
+                                  other contractual related items may be
+                                  requested and reviewed.
+
+Budget Amendments                 Budget amendment information is required        As requested by DoIT
+                                  prior to funding/spending approval. This
+                                  information will be reviewed by the OPM.
+
+Financial Information             DoIT review of any related                      As requested by DoIT
+Requests                          financial/budgeting/invoicing documents
+(Financial/Budget/Invoicing       related to the execution of the MITDP
+Documents)                        including spending and funding.
+
+Project Health Assessments and Reviews
+Health Assessments and, when requested, Portfolio Reviews are performed on all MITDPs.
+
+Health Assessments
+The Health Assessment is a monthly project performance health check between the Oversight Project
+Managers (OPMs) and Senior Leaders of DoIT, which provides a regular up to date status of critical
+project performance metrics (overall status, scope, schedule, cost, risk, quality, resource) and visibility
+into project information and architecture solutioning to ensure that risks and issues are identified and
+mitigated early on in the process.
+The Agency reporting responsibility for these health assessment meetings is outlined in the Reporting
+Requirements section and templates are provided each Fiscal Year. The monthly report required provides
+key information and an overall view of the health of the project.
+In the event DoIT Senior Leadership wants to further discuss a projects progress the DoIT OPM may be
+requested to provide a more detailed MITDP Health Evaluation and/or initiate an MITDP Portfolio
+Review with the Agency.
+
+Portfolio Reviews
+A Portfolio Review is a more in-depth review on current risks and issues. Portfolio Reviews may be
+requested at any time by DoIT Senior Leadership. These reviews are between the key stakeholders and
+managers respective to the project: the OPM, Senior Leaders of DoIT, and the Agency stakeholders.
+Requests for a Portfolio Review may be necessary in the event a project’s Overall Status is flagged “Red
+or Yellow”. This may occur during the Health Assessment or deemed necessary due to new or upcoming
+critical path tasks/items needing attention.
+Portfolio Reviews are conducted in order to:
+    •   Ensure a mutual understanding of project objectives and status
+    •   Monitor the overall project plans, milestones and intended expenditures
+    •   Report on Overall Status, Scope, Schedule, Cost, Risk, Quality and Resources
+    •   Acknowledge successful phase or project completeness
+    •   Flag any significant issues and risks for awareness and possible mitigation
+    •   Provide guidance and recommendations regarding policy, regulations and best practices
+    •   Proposed architecture solutions are consistent with DoIT standards
+The DoIT OPM schedules the agency Portfolio Review meeting at the request of DoIT Leadership and
+works with the stakeholders to determine the most suitable meeting date and time. Agencies should be
+prepared to provide the most updated versions of project documentation to their DoIT OPM in advance of
+the meetings.
+The Agency Project Manager(s) should create a list of action items generated through the review and
+submit to the OPM for confirmation prior to distributing the list to meeting participants. If no action items
+are recorded, the Agency Project Manager should email the OPM stating no action items being held.
+
+Fiscal Year Budget Process
+The Major Information Technology Development Project Fund (MITDPF) is the fund that supports Major
+Information Technology Development projects throughout the State, by transferring general fund
+appropriations and other funds to projects that have been reviewed and approved for consistency with
+statewide plans, policies, and standards, including a systems development life cycle.
+Funding sources include: General, Special, Federal, or Reimbursable.
+The ITPR process (as stated above in Initiating MITDPs/MITDP Determinations) supports the need for
+project funding. All requests must be supported by a Spend Plan outlining planned expenditures for the
+budget requested and any unspent prior year funds, when applicable. Spend Plan templates are
+available/provided by the EPMO.
+
+Appropriations/Budget Amendment/Revenue Transfer
+ When funds are appropriated each Fiscal Year, a Budget Amendment (BA) is required for authorization
+to spend the appropriated funds. Spend plans are required for approval of the BA. At the close of each
+fiscal year, DoIT Finance will process the appropriate Revenue Transfers (RT) for the expended funds.
+DoIT Oversight will require all associated documentation with the expenditures in order to validate these
+transfers.
+Agencies are responsible for estimating, requesting, forecasting, and tracking MITDP funding and
+spending. Spending of funds allocated to an MITDP, regardless of funding type, applies to the scope
+defined during the planning for the work to be performed in implementation.
+
+Timely estimates and budget requests are critical activities to ensure funding is properly allocated.
+Funding requests included with the ITPR process are submitted with the yearly budget. Upon approval by
+the Legislature, the funds are appropriated to the MITDP program. At that time, the appropriation is
+confirmed by the OPM, and an appropriation letter is sent to the requesting agency. Since the budget
+cycle is annual, there are variances to this process for OOC ITPR requests and Over the Target (OTT)
+funding requests.
+
+Oversight Funding
+Oversight funds are required for all MITDPs. Oversight should be budgeted in ITPR at the minimum
+$50,0000 or 5% up to $500,000 maximum, whichever is greater for each fiscal year of the project until
+closeout. This amount is in addition to project costs.
+Depending on the level of oversight needed, any funding deficiencies, or other unforeseen situations,
+general oversight funds may be realigned in the MITDP fund to offset any shortages each fiscal year for
+any general funded MITDP in the portfolio.
+Please note: Oversight general funds are withheld from project appropriation funds in the budget
+amendment process.
+
+OPMs continuously work with the Office of Budget Analysis (OBA) with regards to reviewing project
+funding for concurrence, supplemental funding alignment, spending reviews, oversight realignment, and
+any issues or questions related to MITDP funding.
+For further budget structure information and the appropriations process, please reference the General
+Assembly of Maryland and the Operating Budget Submission Requirements
+For additional DoIT Finance related information, please refer to the MITDP Funds Disbursement Policy.
+
+Independent Verification and Validation (IV&V)
+Introduction
+The Maryland State Finance and Procurement Code Ann. § 3A-308, provides the Maryland Department
+of Information Technology (DoIT) with a legislative mandate to provide oversight to Major IT
+Development Projects (MITDPs) in the State of Maryland.
+DoIT oversight efforts include determination of MITDP need for Independent Verification and Validation
+(IV&V) oversight. IV&V is the performance of an independent assessment of a deliverable, process, or
+project by a third-party assessor who has no direct involvement with the development and implementation
+of the project under IV&V review. By focusing on the management of the project and its compliance
+with specified requirements through its development stages, the primary objective of the IV&V is to
+provide an independent and objective view of an MITDP with the intent of protecting the state of
+Maryland’s interests. Independence is established by ensuring the following:
+
+   •   Technical Independence- IV&V personnel are not developers, originators, or managers in any
+       stage project lifecycle
+   •   Managerial Independence- IV&V responsibility will be assigned to an organization that is
+       separate from the development and program management organizations.
+   •   Contractual Independence- IV&V contract is separate from the MITDP contract(s).
+   •   Operational Independence- IV&V operates under functional independence enabling the self-
+       determining selection of processes and artifacts to examine or test, the techniques used, and the
+       methods to report findings.
+
+The goal of an IV&V is to derive recommendations to management to achieve defined goals and
+objectives. Benefits of having an IV&V performed on a project include:
+
+   •   An objective appraisal of each facet of the project enabling increased management visibility
+   •   Improved project planning and execution through independent consultation
+   •   The “watchdog effect” where greater focus on quality is derived with staff knowledge that the
+       project is under assessment.
+
+Standards
+   1. DoIT maintains the final decision authority determining if, when, and the duration of an IV&V
+      review.
+   2. DoIT will oversee the IV&V in accordance with IV&V policy, contract, and any further stated
+      objectives.
+   3. Prior to initiating the project, DoIT will determine viability all IV&V reviews. This viability
+      determination follows criteria as noted in Appendix A: IV&V Selection Framework.
+
+    4. An IV&V review requested by DoIT will progress under the process as noted in Appendix B:
+       DoIT IV&V Initiation & Management Process.
+    5. An IV&V review may be requested by the sponsor or agency that owns the project as noted in
+       Appendix C: Agency IV &V Initiation Process. DoIT may initiate an IV&V on their behalf if
+       DoIT determines that the IV&V review is warranted.
+    6. The Agency maintains the responsibility to budget and pay for the IV&V cost out of its project
+       funds.
+    7. DoIT considers information required for and derived from IV&V reviews to be sensitive. DoIT
+       will follow the records retention policy for the IV&V findings report(s). IV&V will only share
+       identifying information and findings with DoIT and the Agency for which the IV&V is
+       conducted.
+    8. DoIT and the Agency are to receive IV&V reports for limited and internal distribution as
+       required.
+    9. It is expected that the agreed upon determinations communicated in IV&V reporting will be used
+       by agency project management to implement efficient and effective processes, pursue risk
+       reduction and enable project success. As part of ongoing oversight responsibility, DoIT will
+       continuously review IV&V results and implementation of recommended actions to assess project
+       changes and continuation.
+    10. Should an agency feel that the IV&V review is not warranted, a waiver from IV&V may be
+        produced with agreement from DoIT. The project remains obligated to support ongoing review
+        by DoIT (OPM) to further enablement of project goals, risk reduction and mitigation, and the
+        implementation of expected management practices.
+
+IV&V Procurement Options
+
+Once DoIT renders the decision to initiate an IV&V, the solicitation and procurement of IV&V services
+from qualified vendors can proceed. DoIT has established master contract as the primary vehicle for
+Agencies wishing to obtain the services of an IV&V Contractor. The objective of this Master Contract is
+to enable Agencies to procure IT assessment services in a timely and economical manner.
+
+DoIT oversight will help guide non-MITDP efforts through this process after the agency has made DoIT
+aware of its decision to initiate an IV&V.
+
+MITDP Re-baseline
+Introduction
+This re-baselining standard is established to ensure that the State’s major Information Technology (IT)
+investments are managed effectively and that the performance of those investments is measured and
+reported to the Maryland Department of Information Technology (DoIT) on a regular basis. This
+standard applies to all Major Information Technology Development Projects (MITDP’s) as defined by
+The Maryland State Finance and Procurement Code Ann. § 3A-308, which are under DoIT’s legislative
+mandate to provide oversight to MITDP’s in the State of Maryland. Oversight includes but is not limited
+to the determination that a project requires re-baselining at any point during its lifecycle.
+General
+Baselining is considered an agreed-to set of requirements, cost, schedule, designs and documents that will
+have changes controlled through a formal approval and monitoring process. Essentially, it is the act of
+recording your original project estimates so you can compare them to actual results at a later time.
+Re-Baseline by implication represents updating or modification of a projects baseline, as a result of any
+approved change to the schedule, cost, or deliverable content. This may result in changes to the entire
+project or just one phase/module/component with no downstream impact. The decision to re-baseline is
+made for any of the following reasons, with the goal being to establish a new planned baseline:
+    •   Current baseline is no longer useful as a management tool for realistic performance measurement.
+    •   Scope, requirements or objectives change resulting from internal or external management
+        decisions, changes in funding level/ availability, or contract issues (including contract protests).
+    •   Where an incremental or iterative system development and planning lifecycle is in use, re-
+        baselining may be necessary when transitioning from one iteration or increment to the next, as
+        scope and objectives evolve.
+Upon completion, re-baselining generally yields the following benefits:
+    •   The ability to accurately assess a projects performance.
+    •   Improve the accuracy of future schedule and cost estimates.
+    •   Provide an opportunity for scope evaluation.
+
+Standard
+The Department of Information Technology maintains the following standard on Re-Baselining:
+DoIT may initiate re-baselining process if:
+    •   It is anticipated that an ongoing project estimated completion cost exceeds the current baseline by
+        10% or more.
+    •   A major deliverable or milestone is forecast to slip by more than 60 days.
+    •   The estimated completion schedule exceeds the current baseline by 10% or more.
+    •   The project or the customer proposes to add or modify either scope elements or functional
+        requirements that would result in changes that exceed the cost and schedule thresholds previously
+        agreed upon.
+
+    •   The project or customer proposes to defer or eliminate functional requirements previously
+        determined to be significant, even if current cost or schedule baselines are unaffected.
+    •   The project is unable to proceed from the Project Planning Request (PPR) phase to the Project
+        Implementation Request (PIR) phase.
+    •   50% or more of scheduled targets in the preceding 6 months have been missed.
+Agencies will be required:
+    1. To have a re-baselining plan developed for all MITDP’s. The plan must state that the new
+       baseline is to be validated, reviewed and approved by management and furthermore reviewed by
+       DoIT.
+    2. To document all re-baselining decisions, including the reasons, specific changes, management
+       reviews and approval.
+
+Request
+A request to re-baseline must describe in detail, the portions of the original baseline (scope, cost, and/or
+schedule) that are to be re-baselined by comparing the currently approved baseline to the requested
+baseline. The level of detail required is as follows:
+    •   If budget or reserves are to be changed, provide a side-by-side comparison of the previously
+        approved budget vs. the proposed re-baseline.
+    •   If the project completion date is to be extended, provide a side-by-side comparison of the
+        previously approved master schedule vs. the proposed re-baselined master schedule.
+    •   If project success criteria or technical objectives are to be modified (e.g., de-scoped), provide a
+        detailed side-by-side comparison of the previously approved scope baseline vs. the proposed re-
+        baseline.
+    •   For all major investments, provide an updated Analysis of Alternatives of the chosen alternative’s
+        cost data at a minimum (or a new analysis if any of the original alternatives is no longer valid)
+        and related recommendation.
+
+Approvals
+All MITDP re-baseline decisions must be approved by the Agency sponsor, in consultation with DoIT.
+Once a re-baselining request is approved, the Project managers must follow the re-baselining process
+described in Appendix D: DoIT Re-Baselining Process to establish new Performance Measurement
+Baseline which will be agreed to by all parties and against which performance will be measured
+henceforth.
+Exceptions
+A project sponsor may request an exception to Re-baselining. In the request for an exception, the project
+sponsor must explain fully how the performance risk of the MITDP has been mitigated sufficiently to
+justify the exception.
+Enforcement
+Any Agency found not to be implementing this policy for their MITDPs will be in danger of having the
+MITDP suspended or terminated.
+
+MITDP Closeout
+All Agencies must formally close MITDPs with DoIT. This process is in place to ensure a formal review and
+closeout activities are performed for final closure and/or dissolution of a MITDP. The Project Closeout
+process is in place to:
+
+    •   Ensure a consistent process is followed when projects are completed/dissolved
+    •   Obtain final project status and required MITDP documentation
+    •   Provide formal notification of the MITDP closeout
+
+A formal closeout is initiated once a project has implemented/went live and is in its first year of O&M; or
+has been deemed closed/cancelled by other situation or accepted by DoIT for closure for any other reason.
+Closeouts are typically conducted between the Agency and DoIT within six (6) months of occurrence.
+The DoIT EPMO will initiate closeout meetings with the Agency project representative to ensure there is
+an understanding of the requirements for closeout. The MITDP Closeout template for Agency completion
+is posted on the DoIT website (https://doit.maryland.gov/SDLC/Pages/templates-phases.aspx) and
+additional final project documents will be requested during this meeting. An MITDP closeout
+authorization letter will be provided to the Agency once all documentation has been accepted and
+validated, and financial obligations satisfied.
+
+                   Appendix A: IV&V Selection Framework
+Upon DoIT conclusion that an IV&V review is needed, project initiation as noted in Appendix B:
+DoIT IV&V Initiation and Management Process is to be followed. If there is Agency determination
+(under its own discretion) that there is a need for an IV&V review, the process outlined in
+Appendix C: Agency IV &V Initiation Process is to be followed.
+IV&V Considerations/Selection:
+Entrance Criteria (IV&V Discussion
+Triggers)
+                                                  •    Deficient documentation and/or communication
+• Budget/Cost Risk                                •    Project in transition from one SDLC Phase to another
+• Organizational Project Management               •    Major schedule slippage
+  Maturity                                        •    Indefinite Agency or DoIT concerns and strategic
+• Vendor Performance                                   requirements
+• Project Management Performance
+• Project Risk/ Issues
+• Scope Concerns
+
+              Entrance Criteria                                         Selection Parameters
+
+The entrance criteria and selection parameters        If met, any parameters or a combination thereof may
+are meant to be baseline indicators and are not       indicate need for IV&V.
+in whole or part prescriptive for entering an
+IV&V project. Actual selection of IV&V
+candidate projects is based on both objective
+and subjective triggers, including input from
+DoIT, Procurement, and the Agency.
+
+Budget/Cost Risk                                  • Realized or anticipated overruns greater than 2.5%
+                                                  • Budgeted project cost over $1M
+                                                  • Mismatch between requirements and funding
+                                                    expectations
+                                                  • Serious discrepancies in cost and funds tracking.
+Organizational Project Management                 • Agency performs very few MITDPs
+                                                  • Agency has performed poorly on prior MITDPs
+                                                  • Immature project management practice or lack of
+                                                     adequate management support
+Vendor Performance                                • Demonstrated vendor performance is unsatisfactory as
+                                                    validated by:
+                                                      a. OPM Oversight
+                                                      b. Portfolio Reviews
+                                                      c. Excessive turnover leading to performance issues
+Project Management Performance                    • Inability to accurately report on project management
+                                                    processes
+                                                  • Inability to manage scope, cost or schedule
+                                                  • Repeated failure to mitigate known issues or risks
+
+                                                 • Lack of required documentation for the proposed
+                                                   methodology
+                                                 • Change requests affecting cost, schedule, and/or scope
+Project Risk/Issues                              • Major risks & issues are identified that may be beyond
+                                                   project team’s ability to mitigate
+                                                 • Excessive number of major risks
+                                                 • Inability to adequately identify risk
+Scope Concerns                                   • Requirements updates indicate major shift in project
+                                                   scope
+                                                 • Baseline requirements cannot be adequately documented
+                                                   and controlled
+Deficient documentation and/or                   • Documentation required to communicate structure,
+communication                                      control, and progress is not complete
+Project in transition from one SDLC phase to     • IV&V used as part of a gate review of high-risk projects
+another
+
+Major schedule slippage                          • Critical path anticipated to exceed 10% over target
+                                                 • Consistent milestone slippage
+                                                 • Missed Certification Deadline
+Indefinite Agency or DoIT concerns and           • Concerns specific to the organization that can encompass
+strategic requirements                             intensified strategic interest or any combination of factors
+                                                   increasing management concerns
+
+Selection Frequency:
+
+-Each MITDP should be assessed to determine need for an IV&V based on DoIT’s oversight plans.
+-Large projects over $100M with significant risks should be assessed for the need of a Lifecycle IV&V.
+-DoIT can initiate an IV&V as needed throughout the course of conducting the Project Oversight.
+
+      Appendix B: DoIT IV&V Initiation and Management Process
+                             Appendix B: DoIT IV&V Initiation & Management Process
+
+Step 1:    The DoIT IV&V Project Manager manages the IV&V through completion.
+Step 2:    OPM performs assessment using IV&V framework (Appendix A).
+          Review project documentation and status reports to determine overall project risks. Projects with
+          “medium” to “high” risk factors may benefit from IV&V process, for example:
+                        •   Project includes new technology
+                        •   Project has high visibility
+                        •   Agency is inexperienced with the MITDP process
+                        •   Cost or schedule variance from original budget
+                        •   Significant changes to the scope of the project that may impact the project delivery
+                            date
+
+Step 3:    OPM meets with the DoIT IV&V Project Manager and DoIT Leadership to justify IV&V request.
+             A.   Outline the risk factors of the project
+             B.   Identify the purpose, focus, and objectives that may qualify
+             C.   Recommend deliverables or artifacts needed to complete the specific IV&V review
+             D.   Approval from DoIT Leadership to initiate IV&V procurement
+             E.   Informs the agency of the IV&V
+
+Step 4:    The DoIT IV&V Project Manager initiates procurement of an IV&V Vendor.
+             •    DoIT IV&V Project Manager will work with Agency responsible for the MITDP to refine the
+                  objectives of the IV&V
+             •    Prepare and release a solicitation (See IV&V Procurement Options) to solicit IV&V services
+             •    Select the best value proposal from the pool of responding IV&V Vendors
+
+Step 4:     DoIT IV&V Project Manager will work with DoIT Procurement to Award.
+
+             •    DoIT IV&V Project Manager will work with the IV&V Vendor for kick-off activities and
+                  management of the contract
+             •    DoIT IV&V Project Manager will keep the DoIT OPM informed as well as setting agency
+                  expectations and managing concerns or issues
+
+Step 5:    The IV&V Vendor completes IV&V assessments throughout the project lifecycle.
+
+Step 6:    The DoIT IV&V Project Manager reviews the draft IV&V assessments and works with the IV&V
+           Vendor, DoIT OPM and Agency to complete the assessments and reviews throughout the IV&V
+           engagement.
+
+Step 7:    The DoIT IV&V Project Manager leads the closeout of the engagement.
+
+         Appendix C: Agency IV&V Initiation Process
+
+Step 1: Agency determines that an IV&V is necessary for its MITDP project.
+
+Step 2: Agency reaches out to DoIT/DoITOPM to hold discussion on need for IV&V
+        including proposed objectives for the IV&V.
+
+Step 3: DoIT OPM communicates with DoIT IV&V Project Manager concerning
+        request for IV&V.
+
+Step 4: DoIT IV&V Project Manager request approval from DoIT Leadership on
+        moving forward with IV&V using IV&V selection framework (Appendix A).
+Step 5: DoIT IV&V Project Manager works with Agency to determines funding
+        source (MITDP Funds, Agency Funds or others)
+
+Step 6: DoIT IV&V Project Manager works with DoIT OPM and Agency to
+        determine objectives.
+
+Step 7: DoIT IV&V Project Manager presents plan with expected funding to DoIT
+        Leadership for approval.
+
+Step 8: If approved, go to DoIT IV&V Initiation Process, Appendix B: Step 4 and
+        continue.
+
+               Appendix D: DoIT Re-Baselining Process
+
+Step 1: Determine that the project should be re-baselined
+        • An explanation of how the revised baseline will lead to success. This explanation
+            must identify the problems that led to the need to re-baseline, why the current plan
+            is not feasible, and remediation plans to prevent problem recurrence, if applicable.
+        • DoIT leadership makes the final determination of whether or not to re-baseline
+Step 2: Develop the proposed new baseline
+        •     Pre-defined decision criteria to be used to determine if the plan is valid.
+Step 3: Validate the proposed new baseline with stakeholders
+
+Step 4: Go through Review and Approval process
+Step 5: Ensure all re-baseline decisions are documented
+        •     A requirement for the proposed baseline to be well-documented, comprehensive,
+              complete, and credible and consistent with industry best practices.
+        •     Documentation of risks associated with cost, schedule, technical performance
+              and management.
+Step 6: Establish New Baseline
+        •     Notification of the baseline revision by updating the Integrated Master Schedule
+              and reporting to DoIT within 30 days of approval of the new baseline.
+
+  Appendix E: MITDP Determination Criteria by Statute Definition
+Question             Answer State Finance and Procurement - Statute Definition (§ 3A-301)
+Is it an IT          [X] Yes   (d) Information technology. – “Information technology” means all electronic
+project?             [ ] No    information processing hardware and software, including:
+                                    (1) maintenance;
+                                    (2) telecommunications; and
+                                    (3) associated consulting services.
+Does it involve      [X] Yes   (1) “Development” means all expenditures for a new information
+development          [ ] No    technology system or an enhancement to an existing system including
+(i.e. it is not in             system:
+O&M)?                               (i) planning;
+                                    (ii) procurement;
+                                    (iii) creation;
+                                    (iv) installation;
+                                    (v) testing; and
+                                    (vi) initial training.
+                               (2) “Development” does not include:
+                                    (i) ongoing operating costs, software or hardware maintenance, routine
+                                    upgrades, or modifications that merely allow for a continuation of the
+                                    existing level of functionality; or
+                                    (ii) expenditures made after a new or enhanced system has been legally
+                                    accepted by the user and is being used for the business process for
+                                    which it was intended.
+Is it Major?         [X] Yes   (f) Major information technology development project. -- "Major
+                     [ ] No    information technology development project" means any information
+                               technology development project that meets one or more of the following
+                               criteria:
+                                    1. Estimated total development cost equals/exceeds $1,000,000;
+                                    2. The project is undertaken to support a critical business function
+                                    associated with the public health, education, safety, or financial well-
+                                    being of the citizens of Maryland; or
+                                    (3) The Secretary determines that the project requires the special
+                                    attention and consideration given to a major information technology
+                                    development project due to:
+                                          (i) Significance of the project's potential benefits or risks;
+                                          (ii) Impact of the project on the public or local governments;
+                                          (iii) Public visibility of the project; or
+                                          (iv) Other reasons as determined by the Secretary.
+
+         Acronyms
+ DBM              Department of Budget Management
+  DLS              Department of Legislative Services
+ DoIT            Department of Information Technology
+ EOY                          End of Year
+EPMO             Enterprise Project Management Office
+   IT                   Information Technology
+ ITPR        Information Technology Procurement Request
+IV & V          Independent Verification and Validation
+MITDP            Major Information Technology Project
+  MY                           Mid- Year
+ OBA                  Office of Budget Allocation
+ OOC                          Out of Cycle
+ OPM                  Oversight Project Manager
+  PCA                    Program Cost Account
+  PIR               Project Implementation Request
+  PPR                  Project Planning Request
+ SDLC                System Development Lifecycle

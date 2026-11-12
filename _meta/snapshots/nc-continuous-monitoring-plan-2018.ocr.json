@@ -1,0 +1,248 @@
+{
+  "agreement": 0.9864,
+  "dict_ratio": 0.9782,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "NC DIT OIN E O NF YECHY PE",
+      "tesseract": "BeBe eRe Se INFORMATION TECHNOLOGY Roy COOPER"
+    },
+    {
+      "before": [
+        "FROM",
+        "Maria",
+        "S",
+        "Thompson"
+      ],
+      "paddle": "",
+      "tesseract": "Wi"
+    },
+    {
+      "before": [
+        "have",
+        "completed",
+        "a",
+        "3"
+      ],
+      "paddle": "rd",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "access",
+        "is",
+        "needed",
+        "https"
+      ],
+      "paddle": "ncconnect sharepoint",
+      "tesseract": "nec epoint"
+    },
+    {
+      "before": [
+        "esrmo",
+        "ext",
+        "Documents",
+        "CSET"
+      ],
+      "paddle": "CSET 208",
+      "tesseract": "CS"
+    },
+    {
+      "before": [
+        "to",
+        "satisfy",
+        "this",
+        "requirement"
+      ],
+      "paddle": "1",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "cseta",
+        "for",
+        "merged",
+        "assessments"
+      ],
+      "paddle": "2",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Site",
+        "Detail",
+        "Report",
+        "docx"
+      ],
+      "paddle": "3",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Appendix",
+        "A",
+        "Compliance",
+        "Report"
+      ],
+      "paddle": "4",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Action",
+        "Plan",
+        "if",
+        "applicable"
+      ],
+      "paddle": "",
+      "tesseract": "PS Sis"
+    },
+    {
+      "before": [
+        "Compliance",
+        "Report",
+        "2",
+        "3"
+      ],
+      "paddle": "rd",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "Thompson",
+        "maria",
+        "s",
+        "thompson"
+      ],
+      "paddle": "nc",
+      "tesseract": "ne"
+    },
+    {
+      "before": [
+        "Manual",
+        "and",
+        "State",
+        "statues"
+      ],
+      "paddle": "",
+      "tesseract": "El"
+    },
+    {
+      "before": [
+        "and",
+        "are",
+        "fully",
+        "operational"
+      ],
+      "paddle": "",
+      "tesseract": "Qo"
+    },
+    {
+      "before": [
+        "by",
+        "a",
+        "private",
+        "vendor"
+      ],
+      "paddle": "",
+      "tesseract": "oO"
+    },
+    {
+      "before": [
+        "accordance",
+        "with",
+        "security",
+        "standards"
+      ],
+      "paddle": "",
+      "tesseract": "Ey"
+    },
+    {
+      "before": [
+        "or",
+        "similar",
+        "assessment",
+        "methodologies"
+      ],
+      "paddle": "",
+      "tesseract": "Oo"
+    },
+    {
+      "before": [
+        "reports",
+        "were",
+        "made",
+        "public"
+      ],
+      "paddle": "",
+      "tesseract": "oO"
+    },
+    {
+      "before": [
+        "24",
+        "hours",
+        "of",
+        "confirmation"
+      ],
+      "paddle": "",
+      "tesseract": "im"
+    },
+    {
+      "before": [
+        "with",
+        "the",
+        "State",
+        "CIO"
+      ],
+      "paddle": "",
+      "tesseract": "Oo"
+    },
+    {
+      "before": [
+        "for",
+        "information",
+        "technology",
+        "security"
+      ],
+      "paddle": "",
+      "tesseract": "o"
+    },
+    {
+      "before": [
+        "by",
+        "the",
+        "State",
+        "CIO"
+      ],
+      "paddle": "",
+      "tesseract": "oO"
+    },
+    {
+      "before": [
+        "Training",
+        "during",
+        "CY",
+        "2017"
+      ],
+      "paddle": "",
+      "tesseract": "Oo"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.958,
+  "figures": 57,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "a2ecef74103d6ae3d96ced8840ff3947503220bb473d784679fcb340ba4400b6",
+  "pdf_sha256": "6eee0ec17d155314ed31c5a007467d89ea0c59700141182b1f8303250137b0aa",
+  "psm": null,
+  "text_sha256": "2f3e11ec8e8e0b3afa1b5b8e8b5366593afce8407fbff7d1cbf4edf61dec5cdb",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 1332
+}

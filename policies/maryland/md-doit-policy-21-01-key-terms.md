@@ -1,0 +1,1048 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-doit-policy-21-01-key-terms
+title: Key Terms, Definitions, and Abbreviations
+doc_type: policy
+citation: 'DoIT Policy/Standard #21-01'
+authority_level: ''
+issuing_body: Maryland Department of Information Technology
+source_url: https://doit.maryland.gov/policies/Departmental/Documents/21-01-Key-Terms.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 8ebfa5e8a0d43331806e71484537eba3f9894ae904244bda2001ac86609ca313
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Key Terms, Definitions, and Abbreviations (DoIT Policy/Standard #21-01)
+
+## At a glance
+
+Listed on DoIT's Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as 'Key Terms'); the signed PDF, which the listing's own page says prevails over the page text. As the policy prints its purpose: Establish a list of key term definitions and abbreviations for use by DoIT and other State units.
+
+## Full text
+
+                                                                                        Approved:
+                           Information Technology Michael G. Leahy                                                                         Mar 24, 2021
+                                                  ____________________                                                                     _________
+                           Policy and Standards   Michael G. Leahy, Secretary
+                                                                                        Michael G. Leahy (Mar 24, 2021 16:00 EDT)
+
+                                                                                                                                             Date
+
+      # 21-01                             Key Terms, Definitions, and Abbreviations
+Area(s):            ☒ Process     ☐Procurement ☐Security                                       ☐Hardware                            ☐Web
+                    ☐Facility     ☐End-User           ☐Software                                      ☐Network                              ☐Data
+                    ☐Voice ☐ Audit             ☐Other
+                    Replaces Other Policy: ☒No                  ☐Yes
+
+Purpose: Establish a list of key term definitions and abbreviations for use by DoIT and other State units.
+
+Policy Statement:
+In order to promote consistency and accuracy in the use of information technology terms, Appendix A provides
+definitions and abbreviations of terms used by DoIT in its policy, methods, and standards documents. The adoption and
+use of these terms and definitions by other State units is a recommended best practice.
+
+Applicable Law & Other Policy: Maryland State Finance and Procurement Code Ann. Title 3A
+
+Scope and Responsibilities: All executive branch units of state government, except those identified in Maryland
+Code, SF&P § 3A-302.
+Key Terms: See Appendix A.
+Technical Specifications:            The terms provided in Appendix A are used frequently or in a significant manner in
+DoIT policy, methods, and standards documents. This document is promulgated to support a common understanding
+with respect to their usage. The primary source for definitions is the publicly-available glossary that is maintained by the
+National Institute of Standards and Technology (NIST) at www.csrc.nist.gov/glossary?index=A. For the definition of terms that
+are not listed in the NIST Glossary, a DoIT-developed definition is used that is derived from excerpts from leading online
+dictionaries, encyclopedias, and other government/industry/academic sources. In that the definitional material may be
+blended from several sources, the definition will be ascribed to DoIT.
+
+Policy Review: By the DoIT IT Policy Review Board annually or as needed.
+
+Contact Information: Chair, IT Policy Review Board, doit-oea@maryland.gov 410-697-9724. The Policy #21-01
+steward is the DoIT Chief Enterprise Architect.
+
+ DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                                           Page 1 of 16
+
+Appendix A
+
+DoIT Key Terms, Definitions, and Abbreviations List                                               Version 1.0
+
+    Term                              Abbreviation           Definition                                                        Source(s)
+
+                                                             In computing, an abstraction layer or abstraction level is a
+    Abstraction Layer /                                      way of hiding the working details of a subsystem, allowing
+                                              ---                                                                                DoIT
+    Abstraction Level                                        the separation of concerns to facilitate interoperability and
+                                                             platform independence.
+
+                                                             Accountable assets are those which are subject to the
+                                                             controls detailed in DoIT Policy 20-04. Accountable assets are
+    Accountable Assets                        ---                                                                                DoIT
+                                                             divided between two categories: Capital Equipment and
+                                                             Sensitive Equipment.
+
+                                                             Directors of DoIT operational units or designated supervisory
+                                                             level employees are AOs and perform the duties described in
+    Accountable Officers                     AOs                                                                                 DoIT
+                                                             the DGS Inventory Control Manual under Section III.01, B:
+                                                             Duties of Accountable Officers.
+
+                                                             Agile methods in project management refers to a process by
+                                                             which a team can more rapidly and successfully complete a
+                                                             project by breaking it up into several stages (requirements,
+    Agile Methods (project                                   minimum viable product, enhancements, testing, delivery)
+                                            Agile                                                                                DoIT
+    management)                                              that center on frequent collaboration with stakeholders,
+                                                             continuous improvement, and iteration at every stage.
+                                                             Examples of specific agile methodologies include Scrum,
+                                                             Kanban, and Adaptive Project Framework.
+
+                                                             In software development, Agile practices involve discovering
+                                                             requirements and developing solutions through the
+                                                             collaborative effort of self-organizing and cross-functional
+                                                             teams and their customer(s)/end user(s). It advocates
+    Agile Methods                                            adaptive planning, evolutionary development, early delivery,
+    (software                               Agile            continual improvement, and encourages flexible responses            DoIT
+    development)                                             to change. It was popularized by the Manifesto for Agile
+                                                             Software Development. The values and principles espoused
+                                                             in this manifesto were derived from and underpin a broad
+                                                             range of software development frameworks, including
+                                                             Scrum, Kanban, and Extreme Programming (XP).
+
+                                                             An apparatus designed to emit radio frequency radiation and
+    Antenna                                   ---                                                                                DoIT
+                                                             operate from a fixed location to provide wireless services.
+
+                                                             Equipment, switches, wiring, cabling, power sources,
+    Antenna Equipment                         ---            shelters, or cabinets associated with an antenna and located        DoIT
+                                                             at the same fixed location as the antenna.
+
+    Application                              App             A software program hosted by an information system.                 NIST
+
+                                                             A highly structured specification of an acceptable approach
+    Architecture                              ---            within a framework for solving a specific problem. An               NIST
+                                                             architecture contains descriptions of all the components of a
+                                                             selected, acceptable solution while allowing certain details of
+
+ DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                              Page 2 of 16
+
+                                                            specific components to be variable to satisfy related
+                                                            constraints (e.g., costs, local environment, user
+                                                            acceptability).
+
+                                                            A piece of evidence, such as text or a reference to a
+   Artifact                                  ---            resource, that is submitted to support a response to a              NIST
+                                                            question.
+
+                                                            The simulation of human intelligence in machines that are
+                                                            programmed to think like humans and mimic abilities such as
+                                                            learning and problem-solving. This is contrasted with
+                                                            “natural intelligence” that is displayed by humans and
+                                                            animals, which involves consciousness and emotionality. The
+                                                            ideal characteristic of artificial intelligence is its ability to
+                                                            rationalize and take actions that have the best chance of
+   Artificial Intelligence                   AI                                                                                 DoIT
+                                                            achieving a specific goal. A subset of artificial intelligence is
+                                                            machine learning, which refers to the concept that computer
+                                                            programs can automatically learn from and adapt to new
+                                                            data without being assisted by humans. Deep learning
+                                                            techniques enable this automatic learning through the
+                                                            absorption of huge amounts of unstructured data such as
+                                                            text, images, or video.
+
+                                                            A major application, general support system, high impact
+                                                            program, physical plant, mission critical system, personnel,
+                                                            equipment, or a logically related group of systems. Anything
+                                                            that has value to an organization, including, but not limited
+                                                            to, another organization, person, computing device,
+   Asset                                     ---                                                                                NIST
+                                                            information technology (IT) system, IT network, IT circuit,
+                                                            software (both an installed instance and a physical instance),
+                                                            virtual computing platform (common in cloud and virtualized
+                                                            computing), and related hardware (e.g., locks, cabinets,
+                                                            keyboards).
+
+                                                            A high-capacity telecommunications trunk line (usually fiber-
+                                                            optic) that connects multiple other network lines to transmit
+   Backbone                                  ---                                                                                DoIT
+                                                            large amounts of data. The backbone provides the long-haul
+                                                            data transmission to regional networks.
+
+                                                            Backhaul refers to the transport network that connects the
+                                                            core telecommunications (cable or copper) network and the
+   Backhaul                                                 RAN (Radio Access Network) which underpins the mobile
+                                             ---                                                                                DoIT
+   (Radio)                                                  network. The mobile network is comprised of specific radio
+                                                            receiving areas “cells” of a half- mile (urban) to 20 miles
+                                                            (rural) from the transmitter.
+
+                                                            A proven method to accomplish a goal (e.g., a process,
+   Best Practice                             ---                                                                                NIST
+                                                            technology, standard, device, or skill).
+
+   Basic Input/Output                                       A set of computer instructions in firmware which control
+                                           BIOS                                                                                 NIST
+   System                                                   input and output functions.
+
+                                                            A mobile device that is personally owned and is properly
+   Bring Your Own Device                   BYOD                                                                                 DoIT
+                                                            authorized to connect to State IT systems (voice, data, video)
+
+   Broadband Technology                                     A government grant program administered by the National
+                                           BTOP             Telecommunications and Information Administration to help           DoIT
+   Opportunities Program
+                                                            bridge the technological divide; create jobs; and improve
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                             Page 3 of 16
+
+                                                            education, health care, and public safety in communities
+                                                            across the country by deploying broadband internet
+                                                            infrastructure.
+
+   Business Process                          --             The step-by-step method for delivering a product or service.      DoIT
+
+                                                            A model for enabling ubiquitous, convenient, on-demand
+                                                            network access to a shared pool of configurable computing
+   Cloud Computing                         Cloud            resources (e.g., networks, servers, storage, applications, and    NIST
+                                                            services) that can be rapidly provisioned and released with
+                                                            minimal management effort or service provider interaction.
+
+                                                            In telecommunications, the practice of locating multiple
+   Co-location                               ---            antenna/antenna equipment on the same tower/within the            DoIT
+                                                            same facility.
+
+                                                            The transmission of data by electrical means. It includes (but
+                                                            is not limited to) the transmission of intelligence by
+   Communication Service                     ---            telephone lines, telegraph lines, messenger-call, police, fire    DoIT
+   (MDFirst)                                                alarm, and traffic control circuits and circuits used to
+                                                            transmit standard television or radio signals.
+
+                                                            The cloud infrastructure is provisioned for exclusive use by a
+                                                            specific community of consumers from organizations that
+                                                            have shared concerns (e.g., mission, security requirements,
+   Community Cloud                           ---            policy, and compliance considerations). It may be owned,          NIST
+                                                            managed, and operated by one or more of the organizations
+                                                            in the community, a third party, or some combination of
+                                                            them, and it may exist on or off premises.
+
+                                                            A device that accepts digital data and manipulates the
+   Computer                                  ---            information based on a program or sequence of instructions        NIST
+                                                            for how data is to be processed.
+
+                                                            A pre-tested set of hardware and software products from
+   Converged Host
+                                             ---            different vendors that can be integrated and operated as a        DoIT
+   Platform
+                                                            single data compute and storage platform.
+
+   Cyber                                     ---            Refers to both information and communication networks.            NIST
+
+                                                            Prevention of damage to, protection of, and restoration of
+                                                            computers, electronic communications systems, electronic
+                                                            communications services, wire communication, and
+   Cybersecurity                             ---                                                                              NIST
+                                                            electronic communication, including information contained
+                                                            therein, to ensure its availability, integrity, authentication,
+                                                            confidentiality, and nonrepudiation.
+
+   Dark Fiber                                ---            A strand of unused or un-activated fiber optic cable.             DoIT
+
+                                                            Information in a specific representation, usually as a
+   Data                                      ---            sequence of symbols that have meaning. A variable-length          NIST
+                                                            string of zero or more (eight-bit) bytes. Datum is singular.
+
+                                                            A repository of information or data, which may or may not
+   Database                                  DB                                                                               NIST
+                                                            be a traditional relational database system.
+
+   Data Center                               ---            A physical facility that organizations use to house their         DoIT
+                                                            critical applications and data. A data center's design is based
+
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                           Page 4 of 16
+
+                                                            on a network of computing and storage resources that
+                                                            enable the delivery of shared applications and data.
+
+                                                            A data lake is a stored collection of raw data, the purpose for
+                                                            which is not yet defined. This is contrasted with a data
+   Data Lake                                 ---                                                                                DoIT
+                                                            warehouse, which is a repository for structured, filtered data
+                                                            that has been processed for a specific purpose.
+
+                                                            A data mart is a logical structure or access pattern that is
+                                                            used to retrieve client-facing data (automated “push” of data
+   Data Mart                                 ---                                                                                DoIT
+                                                            sets). The data mart is a subset of a data warehouse and is
+                                                            usually oriented to a specific business line or team.
+
+                                                            A central repository of structure, integrated data from one or
+   Data Warehouse                           DW                                                                                  DoIT
+                                                            more databases, flat files, web content, or other sources.
+
+                                                            The prevention of authorized access to resources or the
+                                                            delaying of time-critical operations. (Time-critical may be
+                                                            milliseconds or it may be hours, depending upon the service
+                                                            provided). Actions that prevent the network element from
+   Denial of Service                        DoS                                                                                 NIST
+                                                            functioning in accordance with its intended purpose. A piece
+                                                            of equipment or entity may be rendered inoperable or
+                                                            forced to operate in a degraded state; operations that
+                                                            depend on timeliness may be delayed.
+
+                                                            The result of a cryptographic transformation of data that,
+                                                            when properly implemented, provides origin authentication,
+   Digital Signature                       DSIG             assurance of data integrity and signatory non-repudiation.          NIST
+                                                            The result of applying two cryptographic functions: a hash
+                                                            function and a digital signature function.
+
+   Electronic                                               Any communication using telephone, cellular telephone,
+                                             ---                                                                                DoIT
+   Communication                                            voice-over internet protocol, or video teleconferencing.
+
+                                                            An organization with a defined mission/goal and a defined
+   Enterprise                                               boundary, using information systems to execute that
+                                             ---                                                                                NIST
+   (organization)                                           mission, and with responsibility for managing its own risks
+                                                            and performance.
+
+                                                            Electronic communication means any transfer of signs,
+                                                            signals, writing, images, sounds, data, or intelligence of any
+                                                            nature transmitted in whole or in part by a wire, radio,
+   Enterprise                                               electromagnetic, photoelectronic, or photo-optical
+                                             ---            system. Electronic communication does not include:                CJP 10-401
+   (Information Technology)
+                                                            wire or oral communication; communication made through a
+                                                            tone-only paging device; or any communication from a
+                                                            tracking device.
+
+                                                            The description of an enterprise’s entire set of information
+                                                            systems: how they are configured, how they are integrated,
+   Enterprise Architecture                                  how they interface to the external environment at the
+                                             EA                                                                                 NIST
+   (Information Technology)                                 enterprise’s boundary, how they are operated to support the
+                                                            enterprise mission, and how they contribute to the
+                                                            enterprise’s overall security posture.
+
+   Enterprise Architecture                                  The structure, functions, and resources of an entire
+                                            HEA                                                                                 DoIT
+   (Holistic)                                               organization, or set of organizations, in all dimensions.
+
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                              Page 5 of 16
+
+                                                            A system that integrates enterprise-wide information
+   Enterprise Resource                                      including human resources, financials, manufacturing, and
+                                            ERP                                                                               NIST
+   Planning System                                          distribution as well as connects the organization to its
+                                                            customers and suppliers.
+
+   Explicit Consent                                         Consent that is received through an individual’s affirmative
+                                             ---                                                                              DoIT
+   (Electronic Recording)                                   action.
+
+                                                            An inter-network connection device that restricts data
+                                                            communication traffic between two connected networks. A
+                                                            firewall may be either an application installed on a general-
+   Firewall                                  ---            purpose computer or a dedicated platform (appliance),             NIST
+                                                            which forwards or rejects/drops packets on a network.
+                                                            Typically, firewalls are used to define zone borders. Firewalls
+                                                            generally have rules restricting which ports are open.
+
+                                                            Computer programs and data stored in hardware – typically
+                                                            in read-only memory (ROM) or programmable read-only
+   Firmware                                  ---            memory (PROM) – such that the programs and data cannot            NIST
+                                                            be dynamically written or modified during execution of the
+                                                            programs.
+
+                                                            A data storage device that is typically small, removable, re-
+   Flash Drive                               ---                                                                              DoIT
+                                                            writable, and utilizes a USB interface connector.
+
+   Flash Memory                              ---            Non-volatile memory that is writable.                             NIST
+
+                                                            A layered structure indicating what kind of programs can or
+                                                            should be built and how they would interrelate. Some
+                                                            computer system frameworks also include actual programs,
+                                                            specify programming interfaces, or offer programming tools
+                                                            for using the frameworks. A framework may be for a set of
+   Framework                                 ---            functions within a system and how they interrelate; the           NIST
+                                                            layers of an operating system; the layers of an application
+                                                            subsystem; how communication should be standardized at
+                                                            some level of a network; and so forth. A framework is
+                                                            generally more comprehensive than a protocol and more
+                                                            prescriptive than a structure.
+
+                                                            A GIS is a computer system that analyzes and displays
+   Geographic
+                                            GIS             geographically referenced information. It uses data that is       USGS
+   Information System
+                                                            attached to a unique location.
+
+                                                            Processes and methods that support the oversight and
+   Governance                                ---                                                                              DoIT
+                                                            management of unit resources.
+
+   Hardware                                 HW              The physical components of an information system.                 NIST
+
+                                                            A centralized user support service and web/phone contact
+   Help Desk                                 ---                                                                              DoIT
+                                                            point that provides technical assistance and problem fixes.
+
+                                                            A scalable approach to modeling the structure and functions
+   Holistic Enterprise
+                                            HEA             of an entire enterprise in all strategic, business, and           DoIT
+   Architecture
+                                                            technology dimensions.
+
+                                                            The cloud infrastructure is a composition of two or more
+   Hybrid Cloud                              ---            distinct cloud infrastructures (private, community, or public)    NIST
+                                                            that remain unique entities, but are bound together by
+                                                            standardized or proprietary technology that enables data
+
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                           Page 6 of 16
+
+                                                            and application portability (e.g., cloud bursting for load
+                                                            balancing between clouds).
+
+                                                            A pre-tested set of hardware and software products from the
+   Hyper-converged Host
+                                             ---            same vendor that can be integrated and operated as a single        DoIT
+   Platform
+                                                            data computing and storage platform.
+
+   Implied Consent                                          Consent that is received through an individual’s continued
+                                             ---            participation following notification of the initiation of or       DoIT
+   (Electronic Recording)
+                                                            prior activation of an electronic recording.
+
+                                                            A common method by which rights in fiber optic cables are
+                                                            transferred within the telecommunications industry. A
+   Indefeasible Right of                                    contractual right for a defined duration of years in which an
+                                            IRU                                                                                DoIT
+   Use                                                      entity is authorized to utilize certain fiber optic capacity
+                                                            which is not subject to defeasance, denial or withdrawal
+                                                            except on terms stated in the Agreement.
+
+                                                            Information and related resources, such as personnel,
+   Information Resources                     ---                                                                               NIST
+                                                            equipment, funds, and information technology.
+
+                                                            A discrete set of information resources organized for the
+   Information System                        IS             collection, processing, maintenance, use, sharing,                 NIST
+                                                            dissemination, or disposition of information.
+
+                                                            Any equipment or interconnected system or subsystem of
+                                                            equipment that is used in the automatic acquisition, storage,
+                                                            manipulation, management, movement, control, display,
+                                                            switching, interchange, transmission, or reception of data or
+                                                            information by the executive agency. For purposes of the
+                                                            preceding sentence, equipment is used by an executive
+                                                            agency if the equipment is used by the executive agency
+   Information
+                                             IT             directly or is used by a contractor under a contract with the      NIST
+   Technology
+                                                            executive agency which: (i) requires the use of such
+                                                            equipment; or (ii) requires the use, to a significant extent, of
+                                                            such equipment in the performance of a service or the
+                                                            furnishing of a product. The term information technology
+                                                            includes computers, ancillary equipment, software, firmware
+                                                            and similar procedures, services (including support services),
+                                                            and related resources.
+
+   Information
+                                                            A request submitted by a covered Unit to DoIT regarding a
+   Technology Project                       ITPR                                                                               DoIT
+                                                            proposed information technology project.
+   Request
+
+                                                            Facilities, systems, and utility devices that create a
+                                                            communications or computing network (voice, data, video,
+                                                            mobile, or satellite) and related hosting capabilities. This
+                                                            includes data centers, server rooms, wiring closets, air
+   Infrastructure                            ---                                                                               DoIT
+                                                            conditioning and power devices, cable plants,
+                                                            interconnections to external networks, and related
+                                                            structures, hardware, software, firmware, and equipment
+                                                            controllers.
+
+                                                            The capability provided to the consumer is to provision
+   Infrastructure as a                                      processing, storage, networks, and other fundamental
+                                            IaaS
+   Service                                                  computing resources where the consumer is able to deploy
+                                                            and run arbitrary software, which can include operating
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                            Page 7 of 16
+
+                                                            systems and applications. The consumer does not manage or
+                                                            control the underlying cloud infrastructure but has control
+                                                            over operating systems, storage, and deployed applications;
+                                                            and possibly limited control of select networking
+                                                            components (e.g., host firewalls).
+
+                                                            A DoIT process for receiving internal and external requests
+   Intake Process                            ---            for technical assistance from a service team. This includes         DoIT
+                                                            MD State unit requests.
+
+                                                            A small, portable personal computer (PC) with a foldable
+                                                            base and screen form factor, typically having a thin LCD or
+                                                            LED computer screen mounted on the inside of the upper lid
+                                                            of the clamshell and an alphanumeric keyboard on the inside
+                                                            of the lower lid. The clamshell is opened up to use the
+                                                            computer. Laptops are folded shut for transportation, and
+                                                            thus are suitable for mobile use. Its name comes from lap, as
+                                                            it was deemed to be placed on a person’s lap when being
+                                                            used. Although originally there was a distinction between
+                                                            laptop and notebook computers (the former being bigger
+                                                            and heavier than the latter), there is often no longer any
+                                                            difference. Today, laptops are commonly used in a variety of
+                                                            settings, such as at work, in education, for playing games,
+   Laptop Computer                        Laptop            web browsing, for personal multimedia, and general home             DoIT
+                                                            computer use. Laptops combine all the input/output
+                                                            components and capabilities of a desktop computer,
+                                                            including the display screen, small speakers, a keyboard, data
+                                                            storage device, sometimes an optical disc drive, pointing
+                                                            devices (such as a touchpad or trackpad), with an operating
+                                                            system, a processor and memory into a single unit. Most
+                                                            modern laptops feature integrated webcams and built-in
+                                                            microphones, while many also have touchscreens. Laptops
+                                                            can be powered either from an internal battery or by an
+                                                            external power supply from an AC adapter. Hardware
+                                                            specifications, such as the processor speed and memory
+                                                            capacity, significantly vary between different types, models
+                                                            and price points.
+
+                                                            The final connection from a voice or data broadband
+   Last Mile                                 ---            provider’s local network to the end user. The local links           DoIT
+                                                            which provide service to the retail customer.
+
+                                                            A group of computers and other devices dispersed over a
+                                                            relatively limited area and connected by a communications
+   Local Area Network                       LAN                                                                                 NIST
+                                                            link that enables any device to interact with any other on the
+                                                            network.
+
+                                                            A subset of artificial intelligence (AI) referring to the concept
+                                                            that computer programs can automatically learn from and
+                                                            adapt to new data without being assisted by humans. Deep
+   Machine Learning                          ---                                                                                DoIT
+                                                            learning techniques enable this automatic learning through
+                                                            the absorption of huge amounts of unstructured data such as
+                                                            text, images, or video.
+
+                                                            A computer used primarily by large organizations for critical
+   Mainframe Computer                  Mainframe            applications, bulk data processing (such as the census and          NIST
+                                                            industry and consumer statistics, enterprise resource
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                             Page 8 of 16
+
+                                                            planning, and large-scale transaction processing). A
+                                                            mainframe computer is larger and has more processing
+                                                            power than some other classes of computers, such as
+                                                            minicomputers, servers, workstations, and personal
+                                                            computers. Most large-scale computer-system architectures
+                                                            were established in the 1960s, but they continue to evolve.
+                                                            Mainframe computers are often used as servers. The terms
+                                                            “mainframe” and “big iron” derived from the large cabinet,
+                                                            called a main frame, that houses the central processing unit
+                                                            and main memory of early computers. Later, the term
+                                                            mainframe was used to distinguish high-end commercial
+                                                            computers from less powerful machines.
+
+   Major Information
+                                                            Any technology development project meeting the criteria as
+   Technology                             MITDP                                                                             DoIT
+                                                            established in Maryland Code, SF&P Article, § 3A-301.
+   Development Project
+
+                                                            A State-wide 700MHZ radio network that connects state and
+   Maryland First Network                MDFirst                                                                            DoIT
+                                                            local first-responder agencies, and some federal units.
+
+                                                            The coordinated processing of a program by multiple
+                                                            processors that work on different parts of the program, with
+                                                            each processor using its own operating system and memory.
+                                                            Typically, MPP processors communicate using some
+                                                            messaging interface. In some implementations, up to 200 or
+   Massively Parallel                                       more processors can work on the same application. An
+                                           MPP                                                                              DoIT
+   Processing                                               “interconnect” arrangement of data paths allows messages
+                                                            to be sent between processors. Typically, the setup for MPP
+                                                            is more complicated, requiring thought about how to
+                                                            partition a common database among processors and how to
+                                                            assign work among the processors. An MPP system is also
+                                                            known as a “loosely coupled” or “shared nothing” system.
+
+                                                            Information describing the characteristics of data including,
+                                                            for example, structural metadata describing data structures
+   Metadata                                  ---            (e.g., data format, syntax, and semantics) and descriptive      NIST
+                                                            metadata describing data contents (e.g., information security
+                                                            labels).
+
+                                                            The fiber optic link between the backbone fiber optics or
+                                                            core network to the broadband provider’s local network
+   Middle Mile                               ---            plant to the internet services providers’ core network, local   DoIT
+                                                            network plant or telecommunications exchange. It does not
+                                                            typically connect the end-user.
+
+                                                            A portable and/or wearable hardware device that enables
+                                                            communication and/or computing capabilities, such as cell
+   Mobile Device                             ---                                                                            DoIT
+                                                            phones, tablet computers, smart watches, virtual reality
+                                                            goggles, and headsets.
+
+                                                            An authentication system that requires more than one
+                                                            distinct authentication factor for successful authentication.
+   Multifactor                                              Multifactor authentication can be performed using a
+                                           MFA              multifactor authenticator or by a combination of                NIST
+   Authentication
+                                                            authenticators that provide different factors. The three
+                                                            authentication factors are something you know (e.g.,
+                                                            password or PIN), something you have (e.g., cryptographic
+
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                         Page 9 of 16
+
+                                                             identification device), and something you are (e.g.,
+                                                             biometric).
+
+                                                             A subfield of linguistics, computer science, and artificial
+                                                             intelligence that looks at interactions between computers
+                                                             and human language, which is viewed as a particular type of
+                                                             structured data. NLP informs methods to develop software
+                                                             programs and computer devices that can scan, process, and
+    Natural Language                                         analyze large amounts of natural language data. This
+                                             NLP                                                                                                                      DoIT
+    Processing                                               software is, to a limited degree, able to “understand” the
+                                                             contents of documents, including the contextual nuances of
+                                                             the language within them. The NLP technology can then
+                                                             accurately extract information and insights contained in the
+                                                             documents as well as categorize and organize the documents
+                                                             themselves.
+
+                                                             The Maryland State government’s high-speed data network
+    network Maryland                                         for public sector use, operated by DoIT. Requests for                                                    DoIT
+                                                             services are made to DoIT using NSR or CSR forms.
+
+    Network Service                                          A DoIT standard form to request new or changed
+                                            NSR              connections to network Maryland. The form is at                                                          DoIT
+    Request
+                                                             https://doit.maryland.gov/support/Documents/nwmd_requestservices/NSR%20Submission%20Instructions.pdf
+
+                                                             Open Systems Interconnection model (OSI model) is a seven-
+                                                             layer conceptual model that characterizes and standardizes
+                                                             the communication functions of a telecommunication or
+    Open Systems
+                                             OSI             computing system without regard to its underlying internal                                             NIST, DoIT
+    Interconnection Model
+                                                             structure and technology. The layers are: physical, data,
+                                                             network, transport, session, presentation, and application.
+                                                             Layer 8 is the user.
+
+                                                             An externally connected hardware device that
+    Peripheral Device                    Peripheral                                                                                                                   DoIT
+                                                             sends/receives data by a cable or Wi-Fi.
+
+                                                             Voice-grade telephone service employing analog signal
+                                                             transmission over copper wire loops. POTS was the standard
+                                                             service offering from telephone companies from 1876 until
+                                                             the mid-1980s when the Integrated Services Digital Network
+                                                             (ISDN) and Basic Rate Interface (BRI) was introduced,
+                                                             followed in the late 1990s by cellular telephone systems, and
+                                                             Voice-over-IP (VoIP). POTS is still the basic form of
+    Plain Ordinary (Old)
+                                            POTS             residential and small business service connection to the                                                 DoIT
+    Telephone Service
+                                                             telephone network in many parts of the world. The term
+                                                             reflects the technology that has been available since the
+                                                             introduction of the public telephone system in the late 19th
+                                                             century, in a form mostly unchanged despite the
+                                                             introduction of Touch-Tone dialing, electronic telephone
+                                                             exchanges and fiber-optic communication into the Public
+                                                             Switched Telephone Network (PSTN).
+
+                                                             The capability provided to the consumer is to deploy onto
+                                                             the cloud infrastructure consumer-created or acquired
+                                                             applications created using programming languages, libraries,
+    Platform as a Service                   PaaS             services, and tools supported by the provider. The consumer                                              NIST
+                                                             does not manage or control the underlying cloud
+                                                             infrastructure including network, servers, operating systems,
+                                                             or storage, but has control over the deployed applications
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                                                                    Page 10 of 16
+
+                                                             and possibly configuration settings for the application-
+                                                             hosting environment.
+
+                                                             The cloud infrastructure is provisioned for exclusive use by a
+                                                             single organization comprising multiple consumers (e.g.,
+    Private Cloud                             ---            business units). It may be owned, managed, and operated by          NIST
+                                                             the organization, a third party, or some combination of
+                                                             them, and it may exist on or off premises.
+
+                                                             An ongoing funded activity in a government unit, usually
+    Program                                   ---                                                                                DoIT
+                                                             focused on providing mission or support function(s).
+
+                                                             The person responsible for the ongoing operation of a
+                                                             program office and the successful delivery of products and
+    Program Manager                          PM              services to internal and external customers, within the             DoIT
+                                                             constraints of available resources (e.g., budget, assets. Time,
+                                                             people) and quality standards.
+
+                                                             A time-specific funded activity in a government unit, usually
+    Project                                   ---                                                                                DoIT
+                                                             created to develop/implement a new product or service.
+
+                                                             The person responsible for the start-to-finish definition,
+    Project Manager                          PM              execution, and delivery of a product or service within              DoIT
+                                                             designated targets for cost, schedule, and performance.
+
+                                                             Statements, rules or assertions that specify the correct or
+    Policy                                    ---                                                                                NIST
+                                                             expected behavior of an entity.
+
+                                                             Reports directly to the DoIT CFO and performs the duties
+                                                             described in the DGS Inventory Control Manual under
+    Property Officer                         PO              Section III, .01, A.: Duties of Property Officers. The DoIT       DoIT, DGS
+                                                             Property Officer also maintains a list of DoIT Accountable
+                                                             Officers.
+
+                                                             The cloud infrastructure is provisioned for open use by the
+                                                             general public. It may be owned, managed, and operated by
+    Public Cloud                              ---            a business, academic, or government organization, or some           NIST
+                                                             combination of them. It exists on the premises of the cloud
+                                                             provider.
+
+                                                             The measurable end-to-end performance properties of a
+                                                             network service, which can be guaranteed in advance by a
+                                                             Service Level Agreement between a user and a service
+    Quality of Service                      QoS              provider, so as to satisfy specific customer application            NIST
+                                                             requirements. Note: These properties may include
+                                                             throughput (bandwidth), transit delay (latency), error rates,
+                                                             priority, security, packet loss, packet jitter, etc.
+
+                                                             Quantum computing is the use of quantum phenomena such
+                                                             as superposition and entanglement to perform computation.
+                                                             Computers that perform quantum computations are known
+    Quantum Computing                         ---            as quantum computers. Quantum computers are believed                NIST
+                                                             to be able to solve certain computational problems, such as
+                                                             integer factorization (which underlies RSA encryption),
+                                                             substantially faster than classical computers.
+
+                                                             the basic unit of quantum information—the quantum version
+    Qubit                                    QB              of the classic binary bit physically realized with a two-state      NIST
+                                                             device. A qubit is a two-state (or two-level) quantum-
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                              Page 11 of 16
+
+                                                             mechanical system, one of the simplest quantum systems
+                                                             displaying the peculiarity of quantum mechanics. Examples
+                                                             include: the spin of the electron in which the two levels can
+                                                             be taken as spin up and spin down; or the polarization of a
+                                                             single photon in which the two states can be taken to be the
+                                                             vertical polarization and the horizontal polarization. In a
+                                                             classical system, a bit would have to be in one state or the
+                                                             other. However, quantum mechanics allows the qubit to be
+                                                             in a coherent superposition of both states simultaneously, a
+                                                             property which is fundamental to quantum mechanics and
+                                                             quantum computing.
+
+                                                             The center of radiation and reflects the center height of an
+                                                             antenna on a structure. A company will typically receive a
+    Radiation Center                    RAD Center           license to occupy an area on the tower five feet below the       DoIT
+                                                             RAD Center (antenna base height) and five feet above the
+                                                             RAD Center (antenna tip height).
+
+                                                             DoIT or unit employee assigned the responsibility of
+                                                             receiving incoming merchandise as a primary or secondary
+    Receiving Officer                        RO                                                                               DoIT
+                                                             responsibility, and who is not otherwise designated as an
+                                                             Accountable Officer.
+
+                                                             An agreement establishing the terms for the utilization of a
+    Resource Sharing                                         State resource by private industry
+                                             RSA                                                                              DoIT
+    Agreement                                                in exchange for the provision to the State of a
+                                                             communication service or other consideration.
+
+                                                             The storage of audio, video, or text transcription of an
+    Recording                                 --                                                                              DoIT
+                                                             electronic communication in any format.
+
+                                                             The use of software programs (called bots or digital workers)
+                                                             to design or improve business processes. With traditional
+                                                             process improvement tools, a human software developer
+                                                             produces a list of actions to automate a task and specifies
+                                                             interface(s) to computer(s) and data repositories using
+                                                             application programming interfaces (APIs) or dedicated
+                                                             scripting language. In contrast, RPA software, not a human
+                                                             developer, creates the process action list by recording the
+                                                             keyboard and navigation actions of a user and then creating
+                                                             an automation algorithm that allows the computer to
+    Robotic Process                                          emulate and modify/improve the steps in the task, as well as
+                                            RPA                                                                               DoIT
+    Automation                                               to display task steps and outputs to a user. This can lower
+                                                             the barrier to use of automation in products that might not
+                                                             otherwise feature APIs for this purpose. RPA tools have
+                                                             strong technical similarities to graphical user interface
+                                                             testing tools. These tools also automate interactions with the
+                                                             GUI, and often do so by repeating a set of demonstration
+                                                             actions performed by a user. RPA tools differ from such
+                                                             systems in that they allow data to be handled in and
+                                                             between multiple applications, for instance, receiving email
+                                                             containing an invoice, extracting the data, and then typing
+                                                             that into a bookkeeping system.
+
+    Router                                    ---            A computer that is a gateway between two networks at OSI         NIST
+                                                             Layer 3 and that relays and directs data packets through that
+
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                           Page 12 of 16
+
+                                                             inter-network. The most common form of router operates on
+                                                             Internet Protocol packets.
+
+                                                             A public-key algorithm developed by Rivest, Shamir, and
+                                                             Adelman (RSA) that is used for key establishment and the
+    Rivest, Shamir,                                          generation and verification of digital signatures. RSA is a
+                                      RSA Encryption                                                                            NIST
+    Adelman Encryption                                       public-key signature algorithm specified by PKCS #1. As a
+                                                             reversible public-key algorithm, it may also be used for
+                                                             encryption.
+
+                                                             Any State area, as confirmed by the latest decennial census
+                                                             of the Bureau of the Census, which is not located within: 1. A
+                                                             city, town, or incorporated area that has a population of
+                                                             greater than 20,000 inhabitants; or 2. An urbanized area
+    Rural Area                                ---            contiguous and adjacent to a city or town that has a               DoIT
+                                                             population of greater than 50,000 inhabitants. For purposes
+                                                             of the definition of rural area, an urbanized area means a
+                                                             densely populated territory as defined in the latest decennial
+                                                             census of the U.S. Census Bureau.
+
+                                                             Scrum is a subset of Agile concepts that uses a specific
+                                                             method/framework for developing, delivering, and
+                                                             sustaining complex products. Scrum concepts were initially
+                                                             used in software development, then in other fields including
+                                                             research, marketing, and advanced technologies. The Scrum
+                                                             method is designed to be used by teams of ten or fewer
+                                                             members, who break their work into goals that can be
+    Scrum                                     ---                                                                               DoIT
+                                                             completed within time-boxed iterations, called sprints,
+                                                             usually 1-2 weeks but no more than 1 month. The Scrum
+                                                             Team tracks progress in through short (15-20min) daily
+                                                             meetings, called daily scrums, led by a Scrum Master. At the
+                                                             end of the sprint, the team holds sprint review, to
+                                                             demonstrate the work done, and sprint retrospective to
+                                                             improve continuously.
+
+                                                             A computer or device on a network that manages network
+                                                             resources. Examples include file servers (to store files), print
+    Server                                    ---            servers (to manage one or more printers), network servers          NIST
+                                                             (to manage network traffic), and database servers (to
+                                                             process database queries).
+
+                                                             A catalog of services that are provided by the DoIT service
+                                                             delivery teams and made available to State of Maryland units
+    Service Catalog                           ---                                                                               DoIT
+                                                             of government. Additional information can be found at:
+                                                             https://doit.maryland.gov/support/Pages/sc_index.aspx
+
+                                                             Wireless facilities involving antennas, no more than three
+                                                             cubic feet in volume, that can be mounted to a light pole,
+    Small Cells / Microcells                  ---            street sign, or some other vertical support structure              DoIT
+                                                             (electrical-transmission tower or utility pole) no more than
+                                                             50 feet in height.
+
+                                                             Computer programs and associated data that may be
+    Software                                 SW                                                                                 NIST
+                                                             dynamically written or modified during execution.
+
+                                                             The capability provided to the consumer is to use the
+    Software as a Service                   SaaS             provider’s applications running on a cloud infrastructure. The     NIST
+                                                             applications are accessible from various client devices
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                             Page 13 of 16
+
+                                                             through either a thin client interface, such as a web browser
+                                                             (e.g., web-based email), or a program interface. The
+                                                             consumer does not manage or control the underlying cloud
+                                                             infrastructure including network, servers, operating systems,
+                                                             storage, or even individual application capabilities, with the
+                                                             possible exception of limited user-specific application
+                                                             configuration settings.
+
+                                                             Any asset of the State, including but not limited to, land or
+    State Resource                            ---            improvements, structures, or fixtures on State land (owned         DoIT
+                                                             or leased) whereby the State has an exclusive right.
+
+                                                             A storage area network (SAN) or storage network is a
+                                                             computer network which provides access to consolidated,
+                                                             block-level data storage. SANs are primarily used to access
+                                                             data storage devices, such as disk arrays and tape libraries
+    Storage Area Network                                     from servers so that the devices appear to the operating
+                                            SAN                                                                                 DoIT
+    (storage network)                                        system as direct-attached storage. A SAN typically is a
+                                                             dedicated network of storage devices not accessible through
+                                                             the local area network. Although a SAN provides only block-
+                                                             level access, file systems built on top of SANs do provide file-
+                                                             level access and are known as shared-disk file systems.
+
+                                                             A storage array, also called a disk array, is a data storage
+    Storage Array                                            system for block-based storage, file-based storage, or object
+                                              ---            storage. Rather than store data on a server, storage arrays        DoIT
+    (disk array)                                             use multiple drives in a collection capable of storing a huge
+                                                             amount of data, managed by a central management system.
+
+                                                             A computer with a high level of performance as compared to
+                                                             a general-purpose computer. Supercomputer use is also
+                                                             referred to as High Performance Computing (HPC). The
+                                                             performance of a supercomputer is commonly measured in
+                                                             floating-point operations per second (FLOPS) instead of
+                                                             million instructions per second (MIPS). Supercomputers
+                                                             which can perform over 1017 FLOPS (a hundred quadrillion
+                                                             FLOPS, 100 petaFLOPS or 100 PFLOPS). Since 2017, the
+    Supercomputer                             ---            world’s fastest 500 supercomputers run Linux-based                 DoIT
+                                                             operating systems. Supercomputers play an important role
+                                                             in the field of computational science, and are used for a wide
+                                                             range of computationally intensive tasks in various fields,
+                                                             including quantum mechanics, weather forecasting, climate
+                                                             research, oil and gas exploration, molecular modeling
+                                                             (computing the structures and properties of chemical
+                                                             compounds, biological macromolecules, polymers, and
+                                                             crystals), and physical simulations.
+
+                                                             A network device that filters and forwards packets between
+    Switch                                    ---                                                                               NIST
+                                                             network segments.
+
+                                                             A Maryland State government standard document that is
+    Task Order Request for                                   prepared by the Department of General Services (DGS) to
+                                           TORFP                                                                                DoIT
+    Proposals                                                solicit qualified industry providers for a comprehensive
+                                                             proposal for delivering an IT product or service.
+
+    Telecommunication                    Telecomm            The transmission of information, images, pictures,                 DoIT
+
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                             Page 14 of 16
+
+                                                             voice or data by radio, video, or other electronic or impulse
+                                                             means.
+
+                                                             Agency-approved work locations for employees and
+    Telework                                  ---            contractors. The DBM policy for telework can be found at                        DBM
+                                                             https://dbm.maryland.gov/employees/Documents/telework/Telework%20Policy.pdf
+
+                                                             Structures, also known as “Macro Sites,” exceeding 50 feet in
+    Towers                                    ---            height built for the sole or primary purpose of supporting                      DoIT
+                                                             antennas and their associated facilities.
+
+                                                             A set of rules that govern the connection of computer
+                                                             systems to the internet. The TCP/IP suite has four layers
+                                                             (Application, Transport, Internet, Link) that can be mapped
+                                                             to the seven layers of the OSI networking model. The TCP
+                                                             group of protocols provide reliable, ordered, and error-
+    Transmission Control                                     checked delivery of a stream of octets (bytes) between
+    Protocol/Internet                      TCP/IP            applications running on hosts communicating via an IP
+    Protocol                                                 network. The IP group of protocols provide end-to-end data
+                                                             communication by specifying how data should be packetized,
+                                                             addressed, transmitted, routed, and received. The most
+                                                             widely version in use is TCP/IP Version 4. TCP/IP Version 6
+                                                             usage is growing as it provides more robust addressing,
+                                                             security, and more efficient packet processing.
+
+                                                             A State area that does not have two or more facilities-based
+    Underserved                               ---            broadband service providers offering minimum connectivity                       DoIT
+                                                             speeds of 25 Mbps download and 3 Mbps upload.
+
+                                                             A State rural area where broadband service may be available
+                                                             but no facilities-based service providers offer minimum
+    Unserved                                  ---                                                                                            DoIT
+                                                             connectivity speeds of 25 Mbps download and 3 Mbps
+                                                             upload.
+
+    Unit                                                     An organization that is part of Maryland State government
+                                              ---                                                                                            DoIT
+    (MD State)                                               (e.g., Boards, Commissions, Agencies, Departments).
+
+                                                             An industry standard that establishes specifications for
+    Universal Serial Bus                    USB              cables and connectors, as well as protocols for connection,                     DoIT
+                                                             communication, and peripheral devices.
+
+                                                             How a user interacts with and experiences a product,
+    User Experience                      UX or UE            system, or service. This includes the user’s perceptions of                     DoIT
+                                                             usefulness, ease, and efficiency.
+
+                                                             The simulation of the software and/or hardware upon which
+                                                             other software runs. Virtualization is a process for system
+                                                             administrators and users to create multiple simulated
+    Virtualization                                           computing environments within one piece of hardware.
+                                              ---            Instead of using multiple pieces of hardware to run more                      NIST, DoIT
+    (for servers and computers)                              than one operating system, virtualization creates a type of
+                                                             virtual barrier—called a hypervisor—to separate digital
+                                                             functions normally requiring multiple physical units.
+                                                             Essentially, virtualization uses software to act as hardware.
+
+                                                             A simulated environment created by virtualization, including
+    Virtual Machine                          VM              software that allows a single host to run one or more guest                     NIST
+                                                             operating systems. A software-defined complex execution
+
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                                           Page 15 of 16
+
+                                                             stack consisting of virtualized hardware, operating system,
+                                                             and applications.
+
+                                                             A term used to describe the transmission of packetized voice
+    Voice-Over-Internet
+                                            VoIP             using the internet protocol (IP) and consists of both signaling   NIST
+    Protocol
+                                                             and media protocols.
+
+                                                             A physical or logical network that provides data
+                                                             communications to a larger number of independent users
+    Wide Area Network                       WAN              than are usually served by a local area network (LAN) and         NIST
+                                                             that is usually spread over a larger geographic area than that
+                                                             of a LAN.
+
+    Wireless Fidelity                                        Wireless network protocols based on the IEEE 802.11 family
+                                            WiFi             of standards, which are used for local area networking of         DoIT
+    (network)                                                devices and internet access.
+
+                                                             A wiring closet is a small room commonly found in
+                                                             institutional buildings, such as schools and offices, where
+                                                             electrical connections are made. While they are used for
+                                                             many purposes, their most common use is for computer
+                                                             networking where it may be called a premises wire
+                                                             distribution room (PWD room). Many types of network
+                                                             connections place limits on the distance between end user
+                                                             equipment, such as personal computers, and network access
+    Wiring Closet                             ---                                                                              DoIT
+                                                             devices, such as routers. These restrictions might require
+                                                             multiple wiring closets on each floor of a large building.
+                                                             Equipment that may be found in a wiring closet includes:
+                                                             alarm systems, circuit breaker panels, video systems (such as
+                                                             cable TV and closed-circuit television systems), ethernet
+                                                             routers, network switches, firewalls, fiber optic
+                                                             terminations, patch panels, telephone punch down blocks,
+                                                             and wireless access points.
+
+                                                             The process to accomplish a business objective or deliver a
+    Workflow                                  ---                                                                              DoIT
+                                                             product or service.
+
+DoIT Policy/Standard #21-01: Key Terms, Definitions, and Abbreviations / Version 1.0                                            Page 16 of 16
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

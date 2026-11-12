@@ -1,0 +1,104 @@
+Technical Security Policy
+From the Office of the Chief Information Officer, State of Minnesota
+
+Version:        1.7
+Effective Date: 1/1/2016
+Revised:        12/31/2024
+Approved:       John Israel, State Chief Information Security Officer     Date: 3/20/2025
+
+Policy Statement
+The State of Minnesota must ensure that all network connections are restricted to only that which is necessary,
+and all systems are securely configured to protect the confidentiality, availability, and integrity of State data.
+
+Employees must abide by the terms of this policy. Employees who violate this policy may be subject to
+discipline, up to and including discharge.
+
+Reason for the Policy
+Removing unnecessary functionality, securely configuring systems, and limiting network access reduces the
+targets an attacker may leverage to gain access to State data.
+
+Roles & Responsibilities
+    •    Employees, Contractors, and Contractors
+
+             o   Be aware of and follow relevant information security policies, standards, and procedures.
+
+             o   Ensure information security is incorporated into processes and procedures.
+
+             o   Ensure contractors and vendors are following required information security controls.
+
+             o   Contact information security staff or email GRC@state.mn.us with questions about the
+                 information security policies, standards, or procedures.
+
+    •    Supervisors and Managers
+
+             o   Ensure employees and contractors are proficient in the information security policies,
+                 standards and procedures that are relevant to their role.
+
+Technical Security Policy                                                                                        1
+
+            o   Hold employees accountable for following the information security policies, standards, and
+                procedures.
+
+    •   Information Technology Personnel
+
+            o   Apply appropriate controls to the design, operation and maintenance of systems, processes,
+                and procedures in conformance with the information security policies, standards, and
+                procedures.
+
+    •   Information Security Personnel
+
+            o   Develop, maintain, and assess compliance with the information security policies, standards, and
+                procedures.
+
+            o   Develop, maintain, and implement a comprehensive information security program.
+
+            o   Provide training on information security policies, standards, and procedures.
+
+            o   Assist agencies and personnel with understanding and implementing information security
+                policies, standards, and procedures.
+
+    •   Agency Data Practices Personnel
+
+            o   Assist agencies and personnel with questions on proper data use, collection, storage,
+                destruction, and disclosure.
+
+Applicability
+This policy applies to all departments, agencies, offices, councils, boards, commissions, and other entities in the
+executive branch of Minnesota State Government.
+
+Related Information
+Secure Configuration Standard
+
+Network Security Standard
+
+State Standards and Authoritative Source Cross Mapping
+
+Glossary of Information Security Terms
+
+Technical Security Policy                                                                                         2
+
+History
+Table 1. Version History
+
+    Version                                      Description                           Date
+
+ 1.0               Initial Release                                                 7/8/2015
+
+ 1.1               Added Compliance Enforcement Date                               12/29/2015
+
+ 1.2               Updated Compliance Enforcement Date and Template                12/20/2016
+
+ 1.3               Updated Compliance Enforcement Date and Template                10/26/2017
+
+ 1.4               Modified document title and minor edits                         3/10/2020
+
+ 1.5               Removed Compliance Enforcement Date and grammatical updates     10/1/2022
+
+ 1.6               Updated version number and revision date                        10/1/2023
+
+ 1.7               Added enforcement language; updated version and revision date   12/2/2024
+
+Contact
+GRC@state.mn.us
+
+Technical Security Policy                                                                       3

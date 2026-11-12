@@ -1,0 +1,72 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-it-procurement-pressing-needs
+title: IT Procurement Guidance for Pressing Needs
+doc_type: policy
+citation: 'NCDIT: IT Procurement Guidance for Pressing Needs'
+authority_level: ''
+issuing_body: North Carolina Department of Information Technology
+source_url: https://it.nc.gov/resources/statewide-it-procurement/it-procurement-policies-procedures/it-procurement-guidance-pressing-needs
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: 1da2ac9c1dce3d356265de1595d5b51ba4dc82f343336c6724b5df7db48202e2
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from NCDIT''s web page: the page title and the body of its article region,
+  one line per paragraph, list item or heading. The site menus, breadcrumb, side navigation, scripts and
+  footer removed; link addresses are not part of the text.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# IT Procurement Guidance for Pressing Needs (NCDIT: IT Procurement Guidance for Pressing Needs)
+
+## At a glance
+
+Procedure for buying information technology goods and services in a state of emergency or a pressing need, under G.S. 143B-1350 and 09 NCAC 06B .1302. The instrument is a web page, with no file behind it.
+
+## Full text
+
+IT Procurement Guidance for Pressing Needs
+Procurement of Information Technology Products and Services During a State of Emergency or Pressing Need Situations
+Pursuant to N.C.G.S. 143B-1350, along with 09 NCAC 06B .1302: An agency may make purchases of goods and services in the open market in cases of an emergency or pressing need.
+Emergency and Pressing Need Defined
+Emergency - Immediate emergency purchases or rental of goods or services in circumstances that endanger lives, property or the continuation of a vital program are allowed as determined by the agency purchasing director, as defined in 09 NCAC 06A .0102.
+Pressing Need - Immediate purchases or rental of goods or services are also allowed when there is a pressing need, as defined in 09 NCAC 06A .0102. Pressing needs arise from unforeseen circumstances outside of the state's control, including delay by contractors, delay in transportation, breakdown in machinery or unanticipated volume of work, as determined by the agency purchasing director.
+Procedure - Emergency or Pressing Need Procurement
+Step 1. Use Statewide Term Contracts when possible.
+When purchasing goods and services during a state of emergency, state agencies should utilize current Statewide Term Contracts. If the statewide term contract is unable to provide for immediate needs, move to Step 2 below. (Note: entities should submit a Procurement Exception Form A that details the reason the procurement was made from a vendor that is not on the statewide term contract.
+Step 2. Negotiate in the open market when Statewide Term Contracts are not an option.
+When a needed good or service is not provided under a statewide term contract, entities can negotiate with potential vendors in the open market to acquire the best possible price and delivery time.
+Using state solicitation templates, such as Requests for Quotes, Invitations for Bids or Requests for Proposals to document the negotiation is a best practice, as the templates incorporate the state’s terms and conditions (which include federal requirements) that ensure compliance with 2 CFR 200 Requirements.
+If the use of a state template is not feasible, please attempt to incorporate the state’s terms and conditions into the agreement, as these T&Cs (with the federal requirements included) are essential to permit federal reimbursement.
+Step 3. Get approval for expenditures over the agency’s benchmark.
+When emergency or pressing need action is necessary, and the estimated expenditure is over the purchasing agency's delegation, prior verbal approval shall be obtained from the state chief information officer unless the purchase must be made outside of business hours, during holidays or when state offices are otherwise closed. Subsequently, if the expenditure is over the purchasing agency's delegation, an explanation of the emergency or pressing need purchase shall be reported in writing to the state CIO.
+In either case, the agency must submit, as a matter of record, an explanation of the emergency or pressing need necessitating the procurement to the N.C. Department of Information Technology Statewide IT Procurement Office.
+Step 4. Undergo required IT procurement reviews.
+IT procurements are still subject to the following reviews even during an emergency or pressing need situation:
+Enterprise Security and Risk Management Office (ESRMO)
+Enterprise Project Management Office (EPMO)
+Office of Privacy and Data Protection
+N.C. Department of Justice
+Other NCDIT reviews required in the state procurement process
+NCDIT's Statewide IT Procurement Office is committed to expediting and prioritizing these reviews for any emergency procurements.
+
+## Curator notes
+
+Text taken from NCDIT's web page: the page title and the body of its article region, one line per paragraph, list item or heading. The site menus, breadcrumb, side navigation, scripts and footer removed; link addresses are not part of the text.

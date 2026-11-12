@@ -1,0 +1,133 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: north-carolina
+id: nc-epmo-initiation
+title: Project Initiation
+doc_type: standard
+citation: 'NCDIT Enterprise Project Management Office: Project Initiation'
+authority_level: ''
+issuing_body: North Carolina Department of Information Technology
+source_url: https://it.nc.gov/documents/files/project-initiation/download?attachment
+source_format: docx
+retrieved: '2026-11-11'
+source_sha256: fa1c9e6de2f31a31a0c00bbaf2d7dca2a7d4b3c601e29ad5ee6778dbde0bb62f
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes
+  accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's
+  cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet
+  character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside
+  text boxes (such as a cover-page title) are not read. Headings carry no markup.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Project Initiation (NCDIT Enterprise Project Management Office: Project Initiation)
+
+## At a glance
+
+A work instruction of the Enterprise Project Management Office: how information technology projects are managed, from the standards page's IT Project Management list.
+
+## Full text
+
+PROJECT INITIATION
+
+1. SCOPE
+
+This Quality Work Instruction (QWI) defines the Enterprise Project Management Office (EPMO) Project Initiation procedure as the method to effectively document the steps to initiate an Information Technology (IT) project. Project Initiation requires the State Chief Information Officer (SCIO) or designee approval of the project Business Case Decision Point (DP) within 0300-0300-005-B PROJECT MANAGEMENT PROCESS.
+
+2. OWNER
+   1. The Enterprise Project Management Office (EPMO) Director owns this QWI. No changes, additions or alterations may be made without the owner’s written approval.
+3. REFERENCE DOCUMENTS
+
+DOCUMENT IDENTIFICATION | DOCUMENT TITLE
+0100-0800-010-B | FORMS AND RECORDS CONTROL
+0300-0300-005-A | PROJECT MANAGEMENT ROLES, RESPONSIBILTIES AND AUTHORITIES
+0300-0300-005-B | PROJECT MANAGEMENT PROCESS
+0600-0600-005-B | CORRECTIVE ACTION PROCESS
+0300-0310-010-C | PROJECT CHARTER
+0300-0310-015-C | PROJECT FINANCIAL ASSESSMENT
+0300-0310-020-C | PROJECT ASSESSMENT TYPE
+0300-0310-025-C | PROJECT MANAGER ASSESSMENT
+0300-0310-030-C | COST ESTIMATION
+0300-0310-035-C | BENEFITS ESTIMATION
+
+4. ASSOCIATED FORMS
+
+FORMS IDENTIFICATION | FORM TITLE
+0300-0310-010-D | PROJECT CHARTER FORM
+0300-0310-015-D | PROJECT FINANCIAL ASSESSMENT FORM
+0300-0310-020-D | PROJECT ASSESSMENT TYPE FORM
+0300-0310-025-D | PROJECT MANAGER ASSESSMENT FORM
+0810-0810-005-D | QUALITY CONTROL DECISION POINTS
+
+5. DEFINITIONS
+
+• BUSINESS CASE: link to glossary and definitions
+• DECISION POINT: link to glossary and definitions
+• STAKEHOLDERS: link to glossary and definitions
+
+6. PROCEDURE
+
+During the Project Initiation Phase, the project Business Case is the first DP where a project is elevated to statewide visibility. Prior to Project Initiation, agencies research and develop potential IT projects as Business Concepts within the Touchdown System. The purpose of Project Initiation is to present a project Business Case (Project Charter, Project Financial Assessment, Project Benefits, Project Assessment Type and Basic Project Schedule) to the SCIO for review and approval. The EPMO coordinates all Project Initiation activities across state level stakeholders. Key among these is the Director of the Office of State Budget and Management (OSBM).
+
+NOTE: The above is true for both ‘Lite’ and ‘Enterprise’ Project Types.
+
+1. The Project Manager (PM) supports the Business Owner in developing the Project Charter and Project Financial Assessment (with Cost Estimate and Benefits Estimate), and determines a Project Assessment Type in accordance with procedures.
+2. The PM will complete the forms listed below (also found as project detail pages in the Touchdown System), along with any additional relevant project documents, into the Project Document Library in the Touchdown System.
+
+Document Owner | Form | Work Instructions
+Business Owner | 0300-0310-010-D PROJECT CHARTER FORM | 0300-0310-010-C PROJECT CHARTER
+Business Owner | 0300-0310-015-D PROJECT FINANCIAL ASSESSMENT FORM | 0300-0310-015-C PROJECT FINANCIAL ASSESSMENT and 0300-0310-030-C COST ESTIMATION and 0300-0310-035-C BENEFITS ESTIMATION
+Project Manager | 0300-0310-020-D PROJECT ASSESSMENT TYPE FORM | 0300-0310-020-C PROJECT ASSESSMENT TYPE
+
+3. The Project Management Advisor (PMA) will meet with the PM to complete the 0300-0310-025-D PROJECT MANAGER ASSESSMENT FORM. The PMA will place this document and any associated artifacts in the Project Document Library. The PMA brings any issues or concerns to the attention of the appropriate Business Owner.
+4. The PMA, PM and PMO will review and determine what additional Decision Points (DPs) the project requires in accordance with 0810-0810-005-D QUALITY CONTROL DECISION POINTS. At a minimum, all projects will include the Business Case DP (Project Charter, Project Financial Assessment, Project Benefits, Project Assessment Type and Basic Project Schedule). The Project Financial Assessment may undergo additional review and approval cycles to achieve a project baseline cost estimate.
+5. Agency internal reviews and approvals (or cancellations) occur in accordance with agency specific procedures and reside outside the QMS. Once the Business Owner approves the Business Case, the PM submits the project for Initiation.
+6. The Agency Chief Information Officer (CIO) and Agency Chief Financial Officer (CFO) will approve the project Business Case for submission to the SCIO (for ‘Enterprise’ projects) or the EPMO Director (for ‘Lite’ projects) for review and approval. The Agency CIO/CFO may delegate this authority in writing and the delegate will approve on behalf of the responsible agency official. This approval may be in the form of a signed document or an agency Business Case Decision Point approval.
+7. The PMA will create a Business Case Decision Point when agency approval has been completed. For ‘Enterprise’ projects, this will include approval by OSBM, the EPMO Director and the SCIO. For ‘Lite’ projects, this will include approval only by the EPMO Director. If the PMA is not available, the PM can create the Business Case Decision Point.
+8. If the project is approved, the PM is authorized to proceed. If the project is not approved, the PMA will return the project to the agency for revision or cancellation. The EPMO will provide revision requirements in accordance with 0600-0600-005-B CORRECTIVE ACTION.
+
+7. RECORDS
+
+7.1 Unless otherwise specified in this Procedure/QWI, Records shall be maintained in accordance with
+
+0100-0800-010-B FORMS AND RECORDS CONTROL procedure.
+
+8.0 REASON FOR CHANGE
+
+8.1 Corrected text to reference “Business Case” Decision Point vice “Project Initiation”. Added 0810-
+
+0810-005-D QUALITY CONTROL DECISION POINTS in both the text and section 4.0 ASSOCIATED FORMS. Added “Business Case” to section 5.0 DEFINITIONS.
+
+8.2 Removed references to Project Decision Memo in section 3.0 REFERENCE DOCUMENTS, section 4.0
+
+ASSOCIATED FORMS and section 6.0 PROCEDURE.
+
+8.3 Added Project Benefits as part of the business case.
+
+8.4 Change EPMO Manager to EPMO Director.
+
+8.5 Requires Agency CIO and CFO to approve Business Case prior to state level approval.
+
+8.6 Added OSBM and EPMO Director to approve Business Case decision point. Allow PM to create the Business Case decision point.
+
+8.7 Added ‘Lite’ project information.
+
+## Curator notes
+
+Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup.

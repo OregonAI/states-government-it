@@ -1,0 +1,351 @@
+Information Technology Disaster Recovery Planning
+Standard
+From the Office of the Chief Information Officer, State of Minnesota
+
+Version:           1.8
+Effective Date:    1/1/2016
+Revised:           12/31/2024
+Approved:          John Israel, State Chief Information Security Officer   Date: 3/20/2025
+
+Standard Statement
+Information technology disaster recovery plans must be in place that align with the priorities and recovery
+timelines of state agency critical priority services to ensure the State of Minnesota is adequately managing the
+risk of system and service interruptions.
+
+Employees must abide by the terms of this standard. Employees who violate this standard may be subject to
+discipline, up to and including discharge.
+
+Information Technology Disaster Recovery Planning Standard                                                         1
+
+Table 1. Disaster Recovery Planning Controls
+
+                                                                                                  Applicable Data
+ Control
+                 Control Name                              Control Detail                           Protection
+ Number
+                                                                                                  Categorization
+
+             Information                 An IT DR plan must be developed and maintained for         Moderate
+             Technology Disaster         critical systems. Critical systems support state
+             Recovery (IT DR) Plan       agency critical priority services (priority 1 and 2           High
+                                         services) as defined in agency business impact
+                                         analyses (BIA). Plans must:
+
+                                        • Include the following information gathered from
+                                          business priority service owners to develop
+                                          recovery strategies:
+                                          o Recovery Time Objectives (RTO), Recovery Point
+                                             Objectives (RPO), and restoration priorities.
+                                          o Impacts to the priority service and its customers
+                                             if the system is disrupted, compromised, or fails.
+                                          o System users and their primary and alternate
+                                             work locations.
+                                          o Key processing times during the week, month,
+                                             or year when system availability is especially
+                                             important.
+                                          o Essential records stored or created by the
+                                             system.
+     1                                  • Identifies information system assets supporting
+                                          state critical priority services.
+                                        • Documents roles, responsibilities, and assigned
+                                          individuals.
+                                        • Addresses eventual, full system restoration,
+                                          without deterioration of the security measures
+                                          originally planned and implemented.
+                                        • Documents user-level information, system-level
+                                          information, and security-related documentation
+                                          backup frequency.
+                                        • Aligns with IT incident management and continuity
+                                          of operations incident response activities.
+                                       The plan must be reviewed and approved by IT
+                                       leadership in conjunction with business owners.
+                                       Some data contained in an IT disaster recovery plan is
+                                       “security information” within the meaning of
+                                       Minnesota Statutes, Section 13.37, and private data
+                                       within the meanings of Minnesota Statutes, Sections
+                                       13.356 and 13.43. The plan must be protected from
+                                       unauthorized disclosure and modification.
+
+Information Technology Disaster Recovery Planning Standard                                                          2
+
+                                                                                            Applicable Data
+ Control
+               Control Name                            Control Detail                         Protection
+ Number
+                                                                                            Categorization
+
+           IT DR Plan             Distribute copies of the IT DR plan to personnel with a     Moderate
+    2      Distribution           need to know, including MNIT, state agency leaders,
+                                  and key vendors.                                               High
+
+           IT DR Plan Review      Review and update the IT DR plan:                           Moderate
+
+                                      •   To address system or organizational changes.           High
+                                      •   To address problems encountered during plan
+                                          implementation or execution.
+    3
+                                      •   To address test results and identified gaps.
+                                      •   At least annually.
+
+                                  Communicate IT DR plan changes to personnel with a
+                                  need to know.
+
+           IT DR Plan and         Personnel must obtain IT DR plan and procedures             Moderate
+           Procedures Training    training consistent with their assigned roles and
+                                  responsibility:                                                High
+
+                                      •   Within ninety (90) days of assuming an IT DR
+    4                                     plan role or responsibility.
+                                      •   Following significant system or recovery
+                                          strategy changes.
+                                      •   Following IT DR plan updates.
+                                      •   At least annually.
+
+           IT DR Plan Testing     The IT DR plans for systems supporting state critical       Moderate
+                                  priority services must be tested at least annually to
+                                  determine the effectiveness of the plan and MNIT’s             High
+                                  readiness to execute the plan.
+
+    5                             IT DR plan testing must be coordinated with state
+                                  agency partners responsible for related plans.
+
+                                  Test results must be documented in an after-action
+                                  report and improvement plan (AAR/IP) and identified
+                                  gaps addressed.
+
+Information Technology Disaster Recovery Planning Standard                                                    3
+
+                                                                                          Applicable Data
+ Control
+               Control Name                           Control Detail                        Protection
+ Number
+                                                                                          Categorization
+
+           Capacity Planning      Planning must be conducted to ensure the necessary        Moderate
+                                  capacity for information processing,
+    6                             telecommunications, and utility and other support            High
+                                  services are available to recover critical systems
+                                  following an interruption, emergency, or disaster. .
+
+           Alternate Storage      An alternate storage site must be established for         Moderate
+           Site                   systems supporting state critical priority services,
+                                  including necessary agreements to permit the storage         High
+                                  and recovery of system backup information.
+
+                                  The alternate storage site must:
+
+                                      •   Be separated from the primary storage site to
+                                          reduce susceptibility to the same threats as
+    7                                     identified in a risk assessment.
+                                      •   Provide required information security
+                                          safeguards.
+                                      •   Comply with all applicable state and federal
+                                          requirements.
+
+                                  Identify and document multiple travel routes to local
+                                  and regional sites in the event IT professionals must
+                                  report to the site because of an area-wide emergency
+                                  or disaster.
+
+Information Technology Disaster Recovery Planning Standard                                                  4
+
+                                                                                              Applicable Data
+ Control
+               Control Name                            Control Detail                           Protection
+ Number
+                                                                                              Categorization
+
+           Alternate Processing   Establish an alternate processing site including              Moderate
+           Site                   necessary agreements to permit the resumption of
+                                  system operations for critical priority services within          High
+                                  applicable recovery time objectives when the primary
+                                  processing capabilities are unavailable.
+
+                                  Ensure that equipment and supplies required to
+                                  resume operations are available at the alternate site, or
+                                  contracts are in place to support delivery to the site in
+                                  time to support the resumption.
+    8
+                                  Ensure the alternate processing site is separated from
+                                  the primary processing site to reduce susceptibility to
+                                  the same threats as identified in a risk assessment.
+
+                                  Provides required information security safeguards.
+
+                                  Identify multiple travel routes to local and regional
+                                  alternate processing sites in the event IT professionals
+                                  must report to a site because of an area-wide
+                                  emergency or disaster
+
+Information Technology Disaster Recovery Planning Standard                                                      5
+
+                                                                                                 Applicable Data
+ Control
+               Control Name                              Control Detail                            Protection
+ Number
+                                                                                                 Categorization
+
+           Telecommunications      Establish alternate telecommunications services when            Moderate
+           Services                redundant telecommunication services are not
+                                   available from Minnesota IT Services. Where necessary,             High
+                                   agreements must be established to permit the
+                                   resumption of system operations for critical priority
+                                   services within the recovery time objective specified
+                                   when the primary telecommunications capabilities are
+                                   unavailable. If agreements with alternate
+                                   telecommunications providers are needed, they must:
+
+                                       •   Ensure alternate telecommunications
+                                           agreements are in place to permit resumption
+    9                                      of the system within agreed upon Recovery
+                                           Time Objectives (RTO).
+                                       •   Contain priority-of-service provisions in
+                                           accordance with state agency availability
+                                           requirements, including recovery time
+                                           objectives.
+                                       •   Request Telecommunications Service Priority
+                                           for all telecommunications services used for
+                                           national security emergency preparedness if
+                                           the primary and/or alternate
+                                           telecommunications services are provided by a
+                                           common carrier.
+
+           System Backup           Conduct backups of user-level information, system-              Moderate
+                                   level information, and security-related documentation
+                                   consistent with the defined frequency in the IT DR plan.           High
+
+                                   Critical systems must have three generations of
+                                   backups (full as well as all related incremental or
+    10
+                                   differential backups) stored off site.
+
+                                   Protect the confidentiality, integrity, and availability of
+                                   backup information at storage sites. Off-site and on-site
+                                   backups must be logged with name, date, time, and
+                                   action.
+
+           Testing for             Test backup information at least annually to verify             Moderate
+    11     Reliability/Integrity   media reliability and information integrity.
+                                                                                                      High
+
+Information Technology Disaster Recovery Planning Standard                                                         6
+
+                                                                                              Applicable Data
+ Control
+                Control Name                            Control Detail                          Protection
+ Number
+                                                                                              Categorization
+
+             Transaction Recovery   Transaction recovery must be implemented for                 Moderate
+    12                              transaction-based systems.
+                                                                                                    High
+
+             System Recovery and    Provide for the recovery and reconstitution of the           Moderate
+             Reconstitution         system to a known state after a disruption,
+                                    compromise, or failure in a trusted, secure, and                High
+                                    verifiable manner. Secure information system recovery
+                                    and reconstitution includes, but is not limited to:
+
+    13                                  •   Reset of all system parameters (either default
+                                            or MNIT established).
+                                        •   Reinstallation of patches.
+                                        •   Reestablishment of configuration settings.
+                                        •   Reinstallation of application and system
+                                            software.
+                                        •   Full testing of the system.
+
+Reason for the Standard
+Interruptions to information technology systems can have a severe impact on the State of Minnesota’s ability to
+provide critical priority services. IT DR plans provide a roadmap to recover systems so they are available to
+support the continuation of State critical priority services in the event of an emergency or system disruption
+with minimal downtime, data loss and impact to State operations.
+
+Roles & Responsibilities
+   •     Employees, Vendors, and Contractors
+            o Be aware of and follow relevant continuity of operations, IT DR and information security
+                 policies, standards, and procedures.
+            o Ensure continuity of operations, IT DR and information security is incorporated into processes
+                 and procedures.
+            o Ensure vendors and contractors are following required continuity of operations, IT DR and
+                 information security controls and have the required continuity of operations and IT DR plans
+                 and capabilities.
+            o Contact the MNIT continuity of operations coordinator, information security staff or email
+                 GRC@state.mn.us with questions about the information security, continuity of operations and IT
+                 DR policies, standards, or procedures.
+   •     Supervisors and Managers
+
+Information Technology Disaster Recovery Planning Standard                                                      7
+
+            o  Ensure employees and contractors are proficient in the continuity of operations, IT DR and
+               information security policies, standards and procedures that are relevant to their role.
+            o Hold employees accountable for following the continuity of operations, IT DR and information
+               security policies, standards, and procedures.
+    •   Information Technology Personnel
+            o Apply appropriate controls to the design, operation and maintenance of systems, processes, and
+               procedures in conformance with the continuity of operations, IT DR and information security
+               policies, standards, and procedures.
+    •   Information Security Personnel
+            o Develop, maintain, and assess compliance with the information security policies, standards, and
+               procedures.
+            o Develop, maintain, and implement a comprehensive information security program.
+            o Provide training on information security policies, standards, and procedures.
+            o Assist agencies and personnel with understanding and implementing information security
+               policies, standards, and procedures.
+    •   Agency Data Practices Personnel
+            o Assist agencies and personnel with questions on proper data use, collection, storage,
+               destruction, and disclosure.
+    •   MNIT Continuity of Operations Coordinator
+            o Develop, maintain, and assess MNIT compliance with the continuity of operations and IT DR
+               policies, standards, and procedures.
+            o Develop, maintain, and implement a comprehensive MNIT continuity of operations program.
+            o Provide training on continuity of operations and IT DR policies, standards, and procedures to
+               MNIT employees.
+            o Assist agencies and personnel with understanding and implementing continuity of operations
+               and IT DR policies, standards, and procedures.
+
+Applicability
+This standard applies to all departments, agencies, offices, councils, boards, commissions, and other entities in
+the executive branch of Minnesota State Government.
+
+Related Information
+Information Technology Disaster Recovery Planning Policy
+
+Governor’s Executive Order 19-22
+
+Governor’s Executive Order 19-23
+
+State Standards and Authoritative Source Cross Mapping
+
+Glossary of Information Security Terms
+
+Information Technology Disaster Recovery Planning Standard                                                          8
+
+History
+Table 2. Version History
+
+    Version                                      Description                                     Date
+
+ 1.0               Initial Release                                                          7/8/2015
+
+ 1.1               Added Compliance Enforcement Date                                        12/29/2015
+
+ 1.2               Updated Compliance Enforcement Date and New Template                     12/20/2016
+
+ 1.3               Updated Compliance Enforcement Date and New Template                     10/26/2017
+
+ 1.4               New document title. Updated to better align with NIST. Updated referenced 3/10/2020
+                   Governor’s executive orders.
+
+ 1.5               Scheduled Document Refresh                                               11/1/2021
+
+ 1.6               Scheduled document refresh                                               10/1/2022
+
+ 1.7               Added clarified wording from COOP team; version number and revision      10/1/2023
+                   date update
+
+ 1.8               Added enforcement language; updated version and revision date            12/2/2024
+
+Contact
+GRC@state.mn.us
+
+Information Technology Disaster Recovery Planning Standard                                               9

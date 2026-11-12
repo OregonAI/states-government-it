@@ -1,0 +1,58 @@
+                     Enterprise Resource Planning (ERP)
+                            Management Policy
+
+       Effective Date:                                          Category:
+       January 16, 2026                                         Software
+
+       Scheduled Review:
+       January 2027
+
+1. Authority
+Executive Order 2016-06, Enterprise Information Technology Governance
+
+2. Document Control
+This document replaces, in its entirety, the Enterprise Resource Planning (ERP) Management
+Policy, dated January 6, 2025.
+
+3. Purpose
+This document establishes enterprise-wide standards and policy for the Enterprise Resource
+Planning (ERP) System and its modules.
+
+4. Scope
+This policy applies to all offices, departments, boards, commissions, and councils under the
+Governor’s jurisdiction and any other entity connecting to the Commonwealth Network (hereinafter
+referred to as "agencies").
+
+5. Policy
+For definitions of terms found within this document, refer to the IT Policy Glossary.
+
+Agencies shall leverage the Commonwealth ERP System for the functionality outlined in the
+Integrated Enterprise System Office (IESO) catalog, which is summarized in the Enterprise
+Resource Planning (ERP) Guideline. Agencies seeking to implement any of the functionality
+outlined in the Enterprise Resource Planning (ERP) Guideline or the IESO catalog shall adhere to
+the process outlined in the IT Project and Procurement Policy for the creation and submission of an
+IT Project Request in the enterprise project management system. Requests to leverage the ERP
+
+                                                                                          Page 1 of 2
+
+solution are reviewed by the IESO who will engage the Agency requestor and the Business Process
+Owner as needed.
+
+6. Contact
+Questions or comments may be directed via email to OA, IT Policy.
+
+7. Exception from Policy
+In the event an agency chooses to seek an exception from this policy, a request for a policy
+exception shall be submitted via the IT policy exception process. Refer to IT Policy
+Governance Policy for guidance.
+
+8. Revision History
+This chart contains a history of this publication’s revisions. Redline documents outline the
+revisions and are available to Commonwealth users only during the drafting process.
+ Version     Date           Purpose of Revision
+ Original    01/06/2025     Base Document
+ Revision    01/16/2026     Updated references
+                            Moved table of ERP functionality to separate guideline
+                            document
+
+                                                                                      Page 2 of 2

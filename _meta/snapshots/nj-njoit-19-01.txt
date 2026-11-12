@@ -1,0 +1,110 @@
+                                                                               December 2024
+
+                                                                Policy Circular
+Enterprise Apple Developer Account                                            19-01-NJOIT
+PURPOSE
+
+This Circular outlines the process for Executive Branch departments and State agencies to follow
+to upload applications to the Apple Store exclusively to the centralized State of New Jersey's
+Enterprise iOS Developer Account
+
+SCOPE
+
+All Executive Branch departments and State agencies (Agencies)are directed to cooperate fully
+with the NJOIT and the CTO to implement the provisions of the Policy, and to ensure effective
+use of information technology within the Executive Branch of State Government.
+
+POLICY
+
+The Chief Technology Officer (CTO) and The New Jersey Office of Information Technology
+(NJOIT) have created an enterprise Apple Store account for the centralized submission and
+upload of applications. Centralized submission ensures that the State of New Jersey is
+designated as the publisher for applications developed or Agencies by contractors, as well as
+applications developed by Agency teams themselves.
+
+Use of NJOIT's centralized enterprise Apple account does not transfer ownership of the
+application to NJOIT. The Agency or its contractor(s) remain solely responsible for the content of
+the application, As well as the upgrading, monitoring, and maintenance of the application.
+While the Apple Developer Agreement does not permit contractors (Service Providers) to
+upload applications directly to the Apple Store on behalf of the State, contractors may still
+maintain and administer the applications consistent with the terms and conditions in the Apple
+Developer Agreement.
+
+PROCEDURE
+
+The Director of the Department of the Treasury, Division of Purchase and Property (Director) has
+authorized and delegated acceptance of the Apple Developer Agreement terms and conditions
+
+19-01-NJOIT – Enterprise Apple Developer Account                                        Page 1 of 3
+
+to the CTO Under the authorization and delegated authority from the Director, the CTO has
+created and maintains the centralized enterprise Apple Store account for the Executive Branch.
+
+1.     Agencies may submit applications for upload to the State's Apple Store account once
+       the Agency determines that the application is adequately tested, complete, and in
+       compliance with the Apple Developer Agreement terms .and conditions, as well as the
+       corresponding Documentation and Program Requirements, as these terms are defined
+       in the Apple Developer Agreement. The Apple Developer Agreement, Documentation,
+       and Program Requirements are available upon request by email to the address set
+       forth below.
+
+2.     NJOIT may approve requests from Agencies either to establish user accounts in the
+       enterprise Apple account for Agency, or for contractor management of applications
+       and/or for the submission of new applications. Agency requests should specify the role
+       and permissions required for each user account, following the principle of least
+       privilege. Agencies are solely responsible for managing their approved users, as well.as
+       the content submitted under authorized user accounts.
+
+3.     Any costs incurred to the enterprise Apple Store account shaII be reimbursed to NJOIT
+       by the Agency incurring the cost.
+
+4.     All existing published applications must be transferred to this new centralized
+       enterprise Apple Store account.
+
+RELATED FORMS AND DOCUMENTS
+
+Contact sonj-apple-dev-admin@tech.nj.gov for a current copy of the Apple Developer
+Agreement.
+
+COMPLIANCE AND ENFORCEMENT
+
+Exceptions
+
+There are no exceptions to this Policy. Applications published to the Apple Store outside the of
+the State of New Jersey' Enterprise iOS Developer Account may be rejected by Apple.
+
+AUTHORITY
+
+New Jersey Statutes Annotated (N.J.S.A.), Sections C.52:18A-224 through C.52:18A-234 known
+as "The Office of Information Technology Reorganization Act."
+
+NJOIT reserves the right to change or amend this Policy to comply with changes in agency
+procedures. Any changes or amendments will be announced and made available on NJOIT's
+Intranet under Policies. Changes in this Policy will be effective upon such publication or
+distribution and will not require employee sign-off.
+
+19-01-NJOIT – Enterprise Apple Developer Account                                      Page 2 of 3
+
+ TERMS AND DEFINITIONS
+
+ In addition to the terms provided by Apple in the documents noted above, definitions for
+ additional terms in this Policy can be found in the NJOIT Policy Glossary located at: NJOIT Policy
+ Glossary.
+
+ SIGNATURES
+
+        Signature on File                                              December 2024
+        Christopher J. Rein                                            Date
+        Chief Technology Officer
+        State of NJ Office of Information Technology
+
+ DOCUMENT HISTORY
+
+ Printed copies of this document are uncontrolled; please refer to the NJOIT website for the
+ current version in effect. Please visit our website at: www.tech.nj.gov .
+
+Version     Published Date            CTO            Sections         Descriptions of Modifications
+  1.0           11/15/19             C. Rein           NEW                 Original Published Date
+  2.0           12/17/24             C. Rein            All                        Format
+
+ 19-01-NJOIT – Enterprise Apple Developer Account                                         Page 3 of 3

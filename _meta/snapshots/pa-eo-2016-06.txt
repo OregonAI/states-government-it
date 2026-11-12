@@ -1,0 +1,227 @@
+                       Executive Order
+                       Commonwealth of Pennsylvania
+                            Governor’s Office
+ Subject:                                   Number:
+ Enterprise Information Technology          2016-06, As Amended
+ Governance
+
+ By Direction of: Tom Wolf, Governor        Date: October 27, 2020
+
+WHEREAS,     Commonwealth agencies under the Governor’s jurisdiction (the
+             “Enterprise”) invest significant financial resources in obtaining, creating,
+             securing, and supporting the Commonwealth’s information technology
+             (“IT”) infrastructure and information systems; and
+
+WHEREAS,     it is essential that the Commonwealth utilize a central IT organization to
+             govern, evaluate, coordinate, and improve Enterprise and agency IT
+             planning, research, security, policy, governance, project prioritization,
+             investment, and effectiveness; and
+
+WHEREAS,     Sections 501 and 502 of the Administrative Code of 1929, 71 P.S. §§ 181,
+             182, require administrative departments and the several independent and
+             departmental administrative boards and commissions to coordinate their
+             work and activities with other departments, boards, and commissions; and
+
+WHEREAS,     IT investments and development efforts should be prioritized and
+             coordinated across Enterprise agencies to maximize efficiency and cost
+             effectiveness, by enhancing information sharing and system compatibility
+             through standardization, reducing expenditures for research and
+             development, and enabling volume hardware, software and service
+             purchases; and
+
+WHEREAS,     the Governor’s Office of Administration (“OA”) has confirmed that an
+             integrated IT strategy will improve organizational and operational efficiency,
+             streamline data collection and data sharing, and enhance the security
+             posture of the Commonwealth.
+
+NOW, THEREFORE, I, Tom Wolf, Governor of the Commonwealth of Pennsylvania, by virtue
+of the authority vested in me by the Constitution of the Commonwealth of Pennsylvania
+and other laws do hereby establish an Enterprise IT governance structure within OA, and
+order and direct as follows:
+
+Executive Order 2016-06, As Amended                                            Page 1 of 5
+
+1.    Powers and Duties.          The Governor’s Office of Administration, Office for
+      Information Technology (“OA/OIT”) led by the Commonwealth Chief Information
+      Officer (“Commonwealth CIO”), has overall responsibility for the management and
+      operation of IT services for all executive agencies under the Governor’s jurisdiction,
+      including, but not limited to: developing and recommending to the Secretary of
+      Administration priorities and strategic plans; consolidating infrastructure and
+      support services; directing IT investments, procurement advice, and policy; and
+      working to ensure that agencies comply with direction from OA/OIT regarding the
+      above. OA/OIT shall make recommendations to the Secretary of Administration
+      regarding major changes to staffing and Enterprise IT operational matters, and
+      otherwise has the authority to make Enterprise decisions regarding restructuring
+      and operational matters related to consolidation, delivery of shared services,
+      monitoring of project performance and other responsibilities within the scope of this
+      Executive Order.
+
+2.    OA/OIT shall:
+
+      a.     Governance and Strategic Planning.
+
+             (1)    Develop annual Enterprise IT strategic plans that include IT
+                    priorities; coordination and monitoring of resource use and
+                    expenditures; performance review measures; and procurement and
+                    other governance and planning measures.
+
+             (2)    Review and approve individual agency IT strategic plans.
+
+             (3)    Consult with the Governor’s Office of the Budget on budgetary
+                    matters related to IT planning, cost recovery of augmented shared
+                    services, and procurement advice.
+
+             (4)    Create governance structures to facilitate decision-making regarding
+                    the management and operation of IT services under this Executive
+                    Order.
+
+      b.     Portfolio and Project Management, Business Process Review.
+
+             (1)    Establish and maintain an IT portfolio management process for
+                    overall monitoring of program objectives, and alignment with
+                    Enterprise IT priorities, budgets, and expenditures.
+
+             (2)    Identify common IT business functions within agencies, make
+                    recommendations for consolidation, convergence, integration, and
+                    investment, and facilitate the use of common technology, as
+                    appropriate.
+
+             (3)    Expand Enterprise and agency use of project management
+                    methodologies and principles on IT projects, including measures to
+                    review project delivery and quality.
+
+             (4)    Ensure agency compliance with required business process reviews
+                    for agency or Enterprise IT projects.
+
+Executive Order 2016-06, As Amended                                             Page 2 of 5
+
+      c.    IT Procurement and Contract Management.
+
+            (1)    Be consulted by the central procurement organization within the
+                   Department of General Services and:
+
+                   (a)    Assist with or lead the procurement of IT hardware,
+                          software and services for the Enterprise and the agencies.
+
+                   (b)    Assist with or oversee the resolution of Enterprise IT
+                          contract issues.
+
+                   (c)    Oversee or serve as a liaison for contract monitoring and
+                          compliance.
+
+                   (d)    Serve as a liaison between agencies and contracted IT
+                          vendors, where appropriate.
+
+                   (e)    Align the appropriate technology and procurement
+                          methods with the OA/OIT service strategy.
+
+            (2)    In consultation with the Office of General Counsel, advise on
+                   Enterprise IT contract issues, contract negotiations, contract
+                   terms and conditions, privacy, performance monitoring,
+                   compliance, and other legal matters.
+
+      d.    IT Enterprise Architecture, Standards and Policy.
+
+            (1)    Establish an Enterprise IT architecture framework that governs
+                   IT investments. The IT architecture framework includes the
+                   development of standards, policies, processes, and strategic
+                   technology roadmaps; the performance of technical reviews and
+                   capability assessments of services, technologies, and agency
+                   systems; and the evaluation of requests for IT policy exceptions.
+
+            (2)    Develop and implement Enterprise-wide efforts to standardize
+                   data elements and determine data ownership assignments.
+
+            (3)    Develop and maintain a comprehensive Enterprise IT inventory.
+
+            (4)    Monitor agencies’ compliance with IT policy and standards
+                   through an architectural review process.
+
+      e.    IT Security Management.
+
+            (1)    Maintain and strengthen the Commonwealth’s cyber security
+                   posture through security governance.
+
+            (2)    Develop Enterprise security solutions, services, and programs to
+                   protect data and infrastructure.
+
+            (3)    Identify and remediate security risks and maintain citizen trust
+                   in securing their personal information.
+
+Executive Order 2016-16, As Amended                                     Page 3 of 5
+
+            (4)    Implement Enterprise programs, processes, and solutions to
+                   maintain cyber security situational awareness and effectively
+                   respond to cyber security attacks and IT security incidents.
+
+            (5)    Foster an Enterprise culture of situational and risk awareness.
+
+            (6)    Conduct evaluations and compliance audits of Enterprise and
+                   agency security infrastructure.
+
+      f.    IT Shared Services.
+
+            (1)    Recommend and consult with relevant executive agencies
+                   regarding IT services including infrastructure, personnel,
+                   investments, operations, and support services.
+
+            (2)    Establish and facilitate a process for the identification,
+                   evaluation, and optimization of IT shared services in consultation
+                   with the Governor’s Budget Office.
+
+            (3)    Establish, maintain, and communicate service level objectives for
+                   shared services.
+
+      g.    Telecommunications Governance.
+
+            (1)    Establish a process for the development and implementation of
+                   Enterprise telecommunications policy, services, infrastructure,
+                   and for reviewing and authorizing agency requests for enhanced
+                   services.
+
+            (2)    Identify opportunities for convergence and for leveraging
+                   existing  assets    to  reduce   or  eliminate duplicative
+                   telecommunication networks.
+
+      h.    IT Service Management.
+
+            (1)    Establish and maintain an IT service management process library
+                   within OA/OIT to govern the services provided to agencies.
+
+            (2)    Establish a formal governance body to evaluate the introduction
+                   of new IT services as well as retiring of existing IT services.
+
+            (3)    Establish metrics to monitor the health of the services OA/OIT
+                   provides to customer agencies and make appropriate
+                   corrections, as necessary.
+
+3.    Reporting and Performance.
+
+      a.    The Commonwealth CIO is responsible for final approval of the
+            appointment of IT management personnel that report directly to the
+            Commonwealth CIO.
+
+Executive Order 2016-16, As Amended                                      Page 4 of 5
+
+      b.     The performance reviews of all IT senior management personnel shall
+             be conducted by the Commonwealth CIO. The Commonwealth CIO may
+             consult an agency head at the CIO’s discretion.
+
+4.    Implementation.        All Commonwealth agencies under the Governor’s
+      jurisdiction and independent agencies that have entered into an agreement for
+      OA/OIT to provide IT services shall take all steps necessary to implement this
+      Executive Order. All other independent agencies also are strongly encouraged
+      to implement this Executive Order.
+
+5.    General Provisions. This Executive Order shall be implemented consistent
+      with applicable law. This Executive Order is not intended to, and does not
+      create, any right or benefit, substantive or procedural, enforceable at law or in
+      equity by any party against the Commonwealth of Pennsylvania, its
+      departments, agencies, or entities, its officers, employees, or agents, or any
+      other person.
+
+6.    Effective Date.    This Executive Order, as amended, shall take effect
+      immediately and shall remain in effect unless further amended or rescinded by
+      the Governor.
+
+Executive Order 2016-16, As Amended                                        Page 5 of 5

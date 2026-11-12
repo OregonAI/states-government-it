@@ -1,0 +1,640 @@
+State of North Carolina
+Digital Accessibility and
+Usability Standard
+
+N.C. Department of Information Technology
+
+Version 1.1
+January 16, 2025
+
+Document Information
+Revision History
+
+                                New or Revised
+ Date               Version                            Description                                       Author
+                                Requirement
+ April 5, 2024      1.0         New                    Standard Published                                Chris Brittingham
+                                                       • Clarified Third Party website requirements in
+                                                         Scope.
+ Jan 16, 2025       1.1         Update                                                                   Chris Brittingham
+                                                       • Updated the ADA Title II link to the approved
+                                                         regulations.
+
+Document Details
+
+ Department Name          Digital Solutions
+ Owner                    Amy Hepler (Lead UX/Accessibility Developer)
+ Title                    Digital Accessibility and Usability Standard
+ Publication Date         January 16, 2025
+ Document Type            PDF
+ Document Number          1
+ Version                  1.1
+
+                                                                                                                             2
+
+Table of Contents
+Document Information ................................................................................................................................ 2
+   Revision History ......................................................................................................................................... 2
+   Document Details ...................................................................................................................................... 2
+Purpose ........................................................................................................................................................ 4
+Content Lead ............................................................................................................................................... 4
+Scope............................................................................................................................................................ 4
+Accessibility Standards for Websites and Digital Services ................................................................... 5
+   A. WCAG 2.1 (Level AA) Compliance ....................................................................................................... 5
+   B. Consistent Visual Design and Agency Brand Identity ........................................................................... 6
+   C. Authoritative Content that is Easy to Understand ................................................................................. 6
+      1. One Answer ....................................................................................................................................... 6
+      2. Plain Language .................................................................................................................................. 7
+   D. Information and Services that are Discoverable and Optimized for Search ......................................... 7
+   E. Secure by Design, Secure by Default ................................................................................................... 7
+   F. User-Centered Design ........................................................................................................................... 8
+   G. Mobile-First Design that Scales Across Varying Device Sizes ............................................................. 9
+   H. Other Digital Experience Requirements ............................................................................................... 9
+      1. Software Development Principles ...................................................................................................... 9
+      2. Required Links ................................................................................................................................... 9
+Privacy........................................................................................................................................................ 10
+   A. Fair Information Practice Principles (FIPPs) ....................................................................................... 10
+   B. Privacy by Design (PbD) ..................................................................................................................... 10
+   C. Privacy Policy ...................................................................................................................................... 10
+      1. Websites .......................................................................................................................................... 10
+      2. Mobile Applications .......................................................................................................................... 11
+Digitization of Forms and Services ......................................................................................................... 11
+   A. Forms .................................................................................................................................................. 11
+Customer Experience and Digital Service Delivery ............................................................................... 11
+Regulations and Applicable Laws ........................................................................................................... 12
+Standard Review Cycle............................................................................................................................. 12
+Definitions .................................................................................................................................................. 12
+References ................................................................................................................................................. 14
+
+                                                                                                                                                                 3
+
+Purpose
+This standard offers guidance for designing and delivering websites and digital services to prioritize a
+digital-first public experience1 in the State of North Carolina. It outlines statutory requirements, clarifies
+mandates, and expands on best practices for the state's digital assets.
+
+With over 10.2 million constituents served annually, the majority of interactions occur online and
+increasingly on mobile devices. Recognizing the shift to digital channels as the primary means of
+engagement, state agencies are urged to develop and design their websites and digital services to meet
+the public's expectations for high-quality, user-friendly experiences that are seamless, accessible, and
+secure by design. This approach aims to enhance customer satisfaction, trust, and overall experience.
+
+Content Lead
+North Carolina Department of Information Technology (NCDIT) – Digital Solutions Team
+
+Scope
+Except as otherwise provided, this standard applies to all North Carolina state agencies’ websites and
+digital services that are:
+     • Maintained by an agency directly or by a contractor or other entity on behalf of an agency; and
+     • Intended for use by the public
+
+State agencies are also encouraged to apply the requirements of this standard to internal-facing websites
+and digital services, such as social media sites, to the greatest extent practicable.
+
+This standard does not apply to content posted by a third party where the third party is not posting due to
+contractual, licensing, or other arrangements with a public entity.
+
+1
+ Digital-first public experience principles are informed by the White House, Office of the Federal Chief Information Officer, Delivering
+a Digital-First Public Experience
+
+                                                                                                                                      4
+
+Accessibility Standards for Websites and Digital Services
+State agency websites and digital services serve agencies’ missions, aiding users in finding necessary
+information. Agencies should adhere to the requirements and principles described below for a unified,
+high-quality, digital experience that is simple, seamless, and secure across agencies for all users.
+
+A. WCAG 2.1 (Level AA) Compliance
+
+In designing websites and digital services, agencies must strive from the start to maximize access and
+usability, aiming to cater to the broadest audience. All agency websites and digital services must adhere
+to the official WCAG 2.1 (Level AA) compliance standards, in accordance with federal guidelines and
+Americans with Disabilities Acts Title II, for accessibility.
+
+WCAG 2.1 requires that all websites and digital services follow four main principal guidelines. Each
+guideline has success criteria and associated techniques for HTML, CSS, SMIL, client-side scripting,
+server-side scripting, Flash, PDF, Silverlight, and ARIA. Although the WCAG 2.1 compliance standards
+may initially seem overwhelming, the WCAG Quick Reference offers practical implementation techniques
+and guidance. The main principles are as follows:
+         1. Perceivable: Information and user interface components must be presentable to users in
+              ways they can perceive.
+                      1.1.x Provide text alternatives for any non-text content so that it can be changed into
+                            other forms people need, such as large print, braille, speech, symbols, or
+                            simpler language.
+                      1.2.x Provide alternatives for time-based media.
+                      1.3.x Create content that can be presented in different ways without losing
+                            information or structure.
+                      1.4.x Make it easier for users to see and hear content including separating
+                            foreground from background.
+         2. Operable: User interface components and navigation must be operable.
+                      2.1.x Make all functionality available from a keyboard.
+                      2.2.x Provide users enough time to read and use content.
+                      2.3.x Do not design content in a way that is known to cause seizures.
+                      2.4.x Provide ways to help users navigate, find content, and determine where they
+                            are.
+                      2.5.x Make it easier for users to operate functionality through various inputs beyond
+                            keyboard.
+         3. Understandable: Information and the operation of the user interface must be
+              understandable.
+                      3.1.x Make text content readable and understandable.
+                      3.2.x Make Web pages appear and operate in predictable ways.
+                      3.3.x Help users avoid and correct mistakes.
+         4. Robust: Content must be robust enough that it can be interpreted reliably by a wide variety
+              of user agents including assistive technologies.
+                      4.1.x Maximize compatibility with current and future user agents, including assistive
+                            technologies.
+
+        •   Test for Accessibility: Agencies must integrate accessibility testing into website updates
+            and releases, addressing detected issues before code deployment. Testing should
+            encompass automated scanning, manual testing completed by users, and usability testing
+            with people with disabilities, when appropriate, as well as testing with users of adaptive
+            technologies, as automated tools have limitations in detecting all issues. Manual testing is
+            essential to ensure comprehensive coverage of accessibility requirements.
+
+        •   Promote Accessibility and Welcome Feedback: Agencies should develop and publish an
+            accessibility statement that provides a public feedback mechanism to contact the agency in
+
+                                                                                                            5
+
+            case a user encounters problems and wishes to seek assistance or report an accessibility
+            issue.
+
+B. Consistent Visual Design and Agency Brand Identity
+
+Public trust in the State government for unique and reliable information and services is crucial. Clear
+distinction is essential to ensure individuals know when they are accessing state information, using
+government services, or communicating with a representative of the State Government.
+         • Add an official state website identifier: Use the identifier to minimize confusion, indicating
+              that the website is an official government site and highlighting the advantages of secure
+              connections and privacy. Refrain from applying the identifier to test sites or those not
+              intended as official government websites. View a functional example on nc.gov. The identifier
+              reads as follows:
+                       • On devices larger than 575 pixels:
+                           “An official website of the State of North Carolina” should be displayed in the
+                           upper left hand corner.
+                               • It is recommended to follow the nc.gov official state website identification
+                                    followed by a collapsed security/privacy component.
+                       • On devices smaller than 575 pixels, the identifier may be shortened:
+                           “An official website of NC”
+                               • It is recommended to follow the nc.gov official state website identification
+                                    followed by a collapsed security/privacy component.
+         • Use a state government subdomain: Agencies should use an nc.gov subdomain (I.e.
+              "sitename.nc.gov") for public-facing websites and digital services that are used for official
+              communication. It is permitted, but not encouraged, to register domains such as .com, .org,
+              and .net to mitigate against cybersquatting. These URLs should redirect to the canonical
+              nc.gov URL. See NCDIT Domain Management Guidelines for more information.
+         • Streamline user experience: Simplify the user experience by minimizing unnecessary
+              interruptions such as pop-ups, modals, overlays, and messages that impede task completion.
+              Only incorporate such elements when essential to the overall user experience, such as a
+              warning before permanently deleting an item.
+         • Do not alarm users in ways that erode trust: Agencies should carefully craft legal,
+              security, and error messages to avoid undermining trust and hindering user engagement.
+              Notices related to access, authorized use, or monitoring should be communicated clearly
+              without adopting a tone that might deter users, ensuring a welcoming atmosphere for
+              appropriate interaction with the website or digital service.
+
+C. Authoritative Content that is Easy to Understand
+
+State agencies provide unique and essential information to serve diverse purposes and audiences.
+Maintaining high information quality is crucial for public trust, clarity, and efficient government operations.
+To prevent outdated or inaccurate content, agency websites and digital services require regular internal
+reviews to ensure information remains timely, accurate, and free from duplication.
+
+1. One Answer
+
+        •   Remove outdated content: Agencies must promptly rectify outdated or inaccurate
+            content. When removing content, agencies should create redirects (e.g., HTTP 301) to direct
+            the public and search engines to new or more accurate content.
+        •   Retire duplicate websites and digital services: Agencies should eliminate redundant
+            websites and digital services. Each website, digital service, and piece of content should align
+            with the organization's goals and cater to identified user needs.
+        •   Get user feedback on content: Agencies should provide and monitor a feedback option for
+            users to report satisfaction with web content and help identify issues like inaccuracy,
+
+                                                                                                                  6
+
+            outdatedness, lack of clarity, or duplication. Continuous monitoring, measurement, and
+            optimization of content are encouraged to ensure the public receives accurate information
+            and helpful answers.
+        •   Utilize landing pages: Avoid creating standalone websites (“micro sites”) for marketing,
+            advertising, and public awareness campaigns that unnecessarily duplicate information or
+            functionality found on the agency’s principal website. Instead, agencies should use the URL
+            for the authoritative web page or tool on the agency’s principal website in their campaigns
+            (e.g., [agency].nc.gov/find-services).
+
+2. Plain Language
+
+        •   Write content in plain language: Agencies should use plain language for any document
+            that is necessary for obtaining any state service or benefit, provides information about a state
+            service or benefit, or explains to the public how to comply with requirements the Federal
+            Government administers or enforces.
+        •   Write and test content for the intended audience: Agencies should write online content for
+            the intended target audience and should routinely review online content to make sure it is
+            easy for the audience to read and understand, aiming for clarity at an eighth-grade reading
+            level.
+        •   Write content in conversational language: Agencies should use clear and concise
+            sentences; avoid slang, jargon, and acronyms; and use logical organization and informational
+            headings. Agencies should write conversationally, like regular people talk to each other.
+        •   Avoid unnecessary “legalese”: Unnecessary legal and bureaucratic jargon may inhibit
+            public comprehension and should be avoided on websites aimed at the public.
+
+D. Information and Services that are Discoverable and Optimized for Search
+
+Search functionality is a fundamental and expected part of websites and digital services. External search
+engines play a crucial role in public access to state information online. To enhance discoverability,
+agencies' websites should be well-structured, include descriptive metadata, employ machine-readable
+content, and adhere to search engine optimization (SEO) practices.
+        • Use on-site search functionality: Agencies’ public-facing websites must contain a search
+            function that allows users to easily search content intended for public use. This search
+            function should be a site-wide global search.
+        • Design search-engine optimized content: Agencies should structure public content for
+            effective crawling and indexing by search engines. Best practices, such as using sitemaps,
+            robots.txt files, and descriptive metadata in commonly parsed fields, should be employed to
+            enhance web content visibility.
+        • Promote the “right” content: Agencies should prioritize strategic SEO efforts aligned with
+            the target audience. Given the varying importance of content, optimizing it appropriately is
+            crucial to avoid negative user experiences. Conducting keyword research and analyzing
+            third-party search results help agencies understand how the public seeks information,
+            enabling optimization for better alignment with user queries.
+        • Optimize content for discoverability and utility: Optimize online content for efficient
+            navigation, without forcing the user to understand bureaucratic jargon or unnecessary
+            information that hinders understanding.
+
+E. Secure by Design, Secure by Default
+
+State agencies must integrate application security considerations into every phase of website and digital
+service design and development.
+        • Encrypt in transit: Agencies must encrypt all web traffic, both internal and public-facing,
+            using HTTPS. Agencies should “preload” their registered .gov domain as HTTPS-only in
+            modern web browsers.
+
+                                                                                                            7
+
+        •   Provide secure and usable authentication: State websites and digital services that require
+            authentication should be both secure and easy to log into. Public-facing agency systems that
+            support multi-factor authentication (MFA) must give users the option to use phishing-resistant
+            authentication. To ensure a diversity of options for public access, agencies should permit a
+            variety of authentication methods. Agencies shall not require users to periodically rotate their
+            passwords.
+        •   Design secure digital services and experiences: When developing software, agencies
+            should follow and automate security best practices to ensure security is considered
+            throughout all stages of the design and development lifecycle, to the greatest extent
+            possible.
+        •   Conduct regular security assessments and testing: Agencies should regularly assess the
+            risk to websites and provide commensurate security testing of those sites based on that
+            assessment. The assessment should consider the potential impact of a security incident on
+            vital transactions or core services provided to the public, access to timely information,
+            government and vital external operations, and public trust. Agencies should perform manual
+            penetration testing, where appropriate, based on threat analysis and the criticality of the
+            underlying system.
+        •   Allow users to safely report security issues: Each agency should have a vulnerability
+            disclosure that applies to all its internet-accessible websites and digital services, even those
+            that are not intentionally made available to the public. The vulnerability disclosure should be
+            linked to the Statewide Cybersecurity Incident Reporting Form. This disclosure must allow the
+            public to report potential security vulnerabilities and provide that the agency will not pursue
+            legal action based on activities that represent a good faith attempt to comply with the policy.
+            While agencies may list their registered domains as a reference, they must not limit the scope
+            of the disclosure to specific websites or use an allow list to restrict the range of users who
+            may submit reports.
+
+F. User-Centered Design
+
+State websites and digital services should be designed and delivered with users at the center of the
+experience while aligning with agency goals.
+        • Start with users’ wants and needs: Agencies should conduct generative user research to
+            identify pain points and opportunities for improving existing experiences or to design new
+            digital solutions.
+        • Engage users throughout design and development: Agencies should assess the entire
+            user experience of their websites and digital services to minimize public burden.
+                     • Seek actionable feedback from diverse user groups throughout development,
+                          from initial design to usability testing and performance monitoring.
+                     • Establish processes for qualitative feedback from actual users, avoiding reliance
+                          solely on web analytics or frontline staff perspectives.
+                     • Conduct user research directly with the real-life user base.
+        • Test with a representative cross-section of users: Agencies should continually conduct
+            usability testing for websites and digital services, validating ease of use and user satisfaction.
+            In response to identified pain points and challenges, make incremental, iterative changes to
+            address real-time user needs and enhance usability or functionality.
+        • Make data-driven design and development decisions: Agencies should improve website
+            and digital service functionality through data-driven decision-making, including measuring
+            task completion, analyzing user flows and behavior with web analytics, assessing satisfaction
+            via feedback surveys, optimizing web pages for performance, and researching user burden.
+        • Ensure language accessibility: Numerous members of the public engaging with
+            government entities possess limited English proficiency (LEP) or communicate in languages
+            other than English (LOTE). Agencies should seek to align the languages of their websites
+            and digital services with the preferences and requirements of their constituents.
+                     • For important agency related information, agencies should utilize human-based
+                          multilingual content creation and test with native language speakers to verify
+
+                                                                                                             8
+
+                           accuracy and to understand cultural context, when possible. This is the goal that
+                           state websites should strive to meet.
+                      •    If human-based content verification is not possible, agencies should utilize
+                           machine translation services (e.g., services where a computer algorithm
+                           translates text automatically into another language without human assistance or
+                           review, similar to Google Translate features).
+
+G. Mobile-First Design that Scales Across Varying Device Sizes
+
+Publicly targeted state websites and digital services must be accessible and usable across various
+devices and platforms. The majority of the public now accesses state information and services online,
+with a growing trend towards mobile devices.
+         • Design mobile-friendly and device-agnostic websites and digital services: Agencies
+             should ensure public-facing websites and digital services are mobile-friendly, allowing easy
+             navigation and access on smartphones, tablets, or other mobile devices to the extent
+             possible.
+         • Design mobile-first experiences: Agencies should prioritize mobile-first design principles
+             for developing or revamping public-facing websites and digital services. This ensures
+             responsiveness across various devices, screen sizes, and popular mobile browsers.
+         • Test on mobile and tablet devices: Agencies must conduct functional tests for websites
+             and digital services on desktops, laptops, mobile devices, and tablets, assessing both
+             usability and performance. While testing on actual mobile devices is ideal, modern browsers
+             with emulators and viewport constraints serve as acceptable substitutes during development,
+             particularly when resources are limited.
+         • Optimize for performance: Agencies should regularly analyze websites and digital services
+             for load speed, aiming for optimal performance with high page speeds, low load times, and
+             small page sizes. Utilize techniques like minification and image optimization and eliminate
+             unnecessary plugins. Special attention should be given to low-bandwidth users who rely on
+             mobile devices and cellular connectivity to interact with the government online.
+
+H. Other Digital Experience Requirements
+
+1. Software Development Principles
+
+Complex systems can make websites and digital services costly and difficult to manage and maintain
+over time. Building around principles of agility, reliability, scalability, maintainability, interoperability, and
+simplicity can reduce these burdens.
+         • Default to static websites: For websites or digital services without the need for a dynamic
+             back-end service, agencies should favor "static" architectures. These architectures serve
+             static files at specific URLs instead of dynamically executing code, resulting in a smaller
+             attack surface. Static websites are cost-effective and load faster, particularly for users with
+             low-bandwidth internet, as they do not execute server-side code.
+         • Default to HTML: HTML is the standard for web document display, offering benefits like
+             accessibility, assistive technology friendliness, dynamism, and ease of maintenance.
+             Agencies should primarily use HTML for web content instead of other formats like PDF or
+             DOCX, designed for printing or preserving layout, unless a specific user need requires an
+             alternative format.
+
+2. Required Links
+
+Agencies must include the following links to information on legal compliance, points of contact, and other
+relevant topics in the footer of their principal website or sub-agency websites.
+        • nc.gov
+        • Accessibility statement
+
+                                                                                                                     9
+
+        •   Privacy Policy: All state government websites are encouraged to link to the following privacy
+            statement addressing the collection, use, disclosure, and security of information that may be
+            obtained when you visit North Carolina government websites.
+        •   Website Feedback
+        •   Disclaimer & Terms of Use
+
+Privacy
+State agencies must prioritize and safeguard personal information privacy throughout the information
+lifecycle on agency websites and in digital services. This involves identifying and addressing privacy risks
+associated with these products and providing clear, accessible notices about the collection, use,
+maintenance, and dissemination, of personally identifiable information (PII) in accordance with state and
+federal laws and state policy. Effective communication and transparency, within the agency and externally
+through its websites, is crucial to ensuring public awareness and understanding of privacy.
+
+A. Fair Information Practice Principles (FIPPs)
+
+The State of North Carolina adopted the FIPPs in May 2022. The FIPPs provide guidance to agencies
+about how to reduce privacy risks and fairly handle personal information entrusted to the state. The FIPPs
+support the creation of reliable records to inform decision-making. State agencies should be guided by
+the FIPPs in their data collection and use. The eight FIPPs can be found in this memorandum: Adoption
+of Fair Information Practice Principles.
+
+B. Privacy by Design (PbD)
+
+Privacy should be incorporated into agencies’ website creation from the beginning and throughout the
+data and website lifecycle. Information about PbD, including the 7 foundational principles to
+operationalize PbD, can be found under the Guidance tab on the NCDIT Privacy Laws, Policies and
+Guidance page.
+
+C. Privacy Policy
+
+All websites must post a clearly visible privacy policy. If an agency website’s privacy policy differs from
+the nc.gov Privacy Policy, the below guidelines must be followed:
+
+1. Websites
+
+Agencies must post Privacy Policies on all public-facing websites and digital services (including their
+principal, sub-agency, component, and program websites and digital services). For each website,
+agencies must post a link to that website’s Privacy Policy on any known, major entry points to the website
+as well as any webpage that collects PII. A Privacy Policy must:
+         • Be written in plain language and organized in a way that is easy to understand and navigate.
+         • Provide useful information that the public would need to know to make an informed decision
+             about whether and how to interact with the agency.
+         • Be updated whenever the agency makes a substantive change to the practices it describes
+             or data it collects.
+         • Contain contact information for submitting a privacy question or complaint. Agencies must
+             provide appropriate agency contact information for individuals who wish to submit a privacy-
+             related question or complaint.
+
+To ensure appropriate risk management and compliance with applicable law and policy, agencies should
+consult their privacy officers and security liaisons at the earliest planning and development stages for
+websites and digital services that involve PII, complete a privacy threshold analysis, and ensure that
+privacy risks are tracked throughout the development and information lifecycles. A policy threshold
+
+                                                                                                              10
+
+analysis is needed to address and mitigate privacy risks for websites or applications that collect PII. A
+review of the website privacy policy must be completed by the agency privacy officer/privacy point of
+contact and legal counsel.
+
+2. Mobile Applications
+
+For all mobile applications, a Mobile Application Privacy Policy will need to be completed using the Mobile
+Application Privacy Policy Template. A review of the website privacy policy must be completed by the
+agency privacy officer/privacy point of contact and legal counsel prior to posting.
+
+Digitization of Forms and Services
+Relying on paper-based processes hinders the digital experience that the majority now expects.
+Designing and modernizing forms, services, and processes with digital service delivery in mind ensures
+the transformative benefits of a digital government, such as increased convenience, cost savings, and
+higher public satisfaction and trust.
+
+A. Forms
+
+Forms are crucial for accessing North Carolina services. Digital forms, as web applications, offer
+advantages over paper forms, allowing for digital capture, validation, submission, and automated
+processing of structured information. Well-designed digital forms enhance accuracy, usability, security,
+and efficiency, and must be accessible while reducing costs and labor associated with paper document
+management.
+         • Provide a digital option for forms: Prioritize digital forms over paper or electronic ones
+             whenever possible, making them available to the public to the greatest extent practicable. In
+             cases of limited resources, focus on digital options for forms that directly support services or
+             benefits with the most significant public impact.
+         • Design digital forms first: When revising forms with both digital and paper versions, design
+             the digital form first and use it as a baseline for the paper form redesign.
+         • Digitize paper forms: Establish internal review processes to promptly identify non-digital
+             forms and prioritize their digitization, focusing on forms with the highest impact on the public.
+         • Keep digital forms digital, end-to-end: Ensure information collected via a digital form stays
+             digital throughout its lifecycle. Avoid unnecessary conversion or transformation into paper or
+             electronic formats unless strictly necessary.
+
+Customer Experience and Digital Service Delivery
+Customer experience encompasses public perceptions and satisfaction with agency interactions,
+products, or services. Digital experience refers to technology-enabled interactions, covering both digital
+and traditional service channels. A seamless digital experience is crucial for customer trust and
+satisfaction, as modern service delivery relies heavily on digital channels. Agency success in digital
+experience involves a long-term strategy, investment in digital transformation, information technology
+modernization, and building a skilled digital workforce for public service delivery.
+         • Apply customer experience principles: Agencies are encouraged to apply leading
+             customer experience and service delivery practices to all services.
+         • Leverage customer feedback data: Agencies should collect customer metrics for both
+             digital and non-digital experiences, regularly measuring trust, confidence, and satisfaction.
+             Utilize customer experience data and feedback for informed business decision-making and
+             operations.
+         • Provide transparency to users: Agencies should design transparency into the information
+             and services they provide so the public has a greater understanding of how agencies
+             operate.
+
+                                                                                                             11
+
+Regulations and Applicable Laws
+The following reference sections in the N.C. General Statutes provide additional information with respect
+to compliance of state law:
+
+        •   N.C.G.S.143B-1320(a)(17)
+
+        •   N.C.G.S 143B-1376
+
+        •   N.C.G.S. 75-61(10)
+
+Standard Review Cycle
+The Digital Accessibility and Usability Standard will undergo a periodic review at annual intervals, or as
+changes are required. Updates to the standard will be determined based upon the nature of the standard
+and requirements driven by need.
+
+Any identified changes, or outdated information within the standard will be addressed promptly. This may
+involve revisions, additions, or removals as needed to ensure that standards remain current and relevant.
+The following roles provide leadership and management over this standard in accordance with the NCDIT
+Policy Management Policy:
+
+        • Secretary of the N.C. Department of Information Technology and State Chief Information Officer
+        has approval authority.
+
+        • Chief Deputy State Chief Information Officer (or delegate) has policy management
+        responsibilities.
+
+Definitions
+Accessibility
+The "ability to access" and benefit from a system or entity. The definition focuses on enabling access for
+people with disabilities or enabling access through the use of assistive technology. NOTE: Accessibility
+should not be confused with “usability.”
+
+Agency
+Any State government entity, department, division, board, commission, program, initiative, or separate
+unit of government created or established by constitution or law.
+
+Assistive Technology
+Assistive technology (AT) is any item, piece of equipment, software program, or product system that is
+used to increase, maintain, or improve the functional capabilities of persons with disabilities, who are
+aging or experiencing medical conditions.
+
+Customer
+Any individual, business, or organization that interacts with a state agency.
+
+Digital Form
+
+                                                                                                           12
+
+A web application that has the capability to capture, validate, submit, and process structured information
+digitally and in an automated manner.
+
+Digital Service
+Any transactional or informational service that is delivered over the internet across a variety of platforms,
+devices, and delivery mechanisms including web-based software, digital documents, multi-media, web
+applications, and mobile applications.
+
+Languages other than English (LOTE)
+Languages Other Than English refers to any language that is not English. It is commonly used in
+education to refer to the study or teaching of foreign languages.
+
+Limited English Proficiency (LEP)
+Limited English proficiency is a term used in the United States that refers to a person who is not fluent in
+the English language, often because it is not their native language.
+
+Mobile Application
+A software application designed and developed to be used on a mobile device (such as a smart phone or
+tablet) that uses the mobile device’s operating system (e.g., Apple iOS, Google Android). This does not
+include websites and web applications that are optimized for mobile devices and are only accessed using
+a web browser on a mobile device.
+
+Plain Language
+Writing that is clear, concise, well-organized, and follows other best practices appropriate to the subject or
+field and intended audience.
+
+Public-facing
+Intended to be accessed and used by a member of the public or a customer. By contrast, “internal-facing”
+means intended to be accessed and used by state employees or contractors on behalf of an agency.
+Usability
+The quality or state of being usable. The ease of use by an individual user. The extent to which a product
+or service can be used by specific users.
+
+User
+Any individual that interacts with a website or a digital service, often to complete a task or transaction.
+
+Web Application
+A software program that is accessible using a web browser.
+
+Website
+A group of globally accessible interlinked web pages under a unique host name that is accessible using a
+web browser.
+
+                                                                                                              13
+
+References
+Mobile Application Privacy Policy Template
+
+ This mobile application privacy policy template incorporates the principles embodied in the Fair
+ Information Practice Principles adopted by the State in May 2022.
+
+                                             Privacy Policy
+                                                 For the
+                                    [INSERT NAME] Mobile Application
+
+Overview
+ The overview should be a single paragraph that is used to describe the agency mobile application
+ (“mobile app”). It should include the name of the agency that developed the app as well as the name
+ of the mobile app, itself. This overview should also provide a brief description of the mobile app’s
+ purpose and function.
+
+Information Collected
+  Provide the categories of individuals for whom information is collected (e.g. users of the app), and for
+  each category, list all information, including PII and sensitive content (if any) that is collected by the
+  mobile app. Details regarding the retention of information collected by the mobile app should also be
+  addressed in this section.
+
+Uses of Information
+ List each use (internal and external to the agency) of the information collected or maintained by the
+ mobile app. Provide a detailed response that states how and why the different data elements is used.
+
+Information Sharing
+  Discuss the external agency sharing of information, if any. External sharing encompasses sharing with
+  other state and local government, federal government, and private sector entities.
+
+Application Security
+ Discuss the technical safeguards and security controls, specific to the particular mobile app, in place to
+ protect information that is collected and/or maintained by the mobile app.
+
+How to Access or Correct your Information
+ Provide information about the processes in place for users of the mobile app to seek redress which
+ may include access to records about themselves, ensuring the accuracy of the information collected
+ about them, and/or filing complaints.
+
+Analytics Tools
+ Discuss any analytics tools that the mobile app may use. This should include a description of any
+ information collected through these analytic capabilities.
+
+Privacy Policy Contact Information
+Provide contact information so that users may provide feedback and/or ask questions in regards to this
+mobile app Privacy Policy. This contact information may include responsible office’s phone number, email,
+and mailing address.
+
+                                                                                                               14

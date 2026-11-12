@@ -1,0 +1,60 @@
+       BREACH OF PERSONAL INFORMATION NOTIFICATION ACT
+         Act of Dec. 22, 2005, P.L. 474, No. 94        Cl. 12
+                         AN ACT
+Providing for security of computerized data and for the
+   notification of residents whose personal information data
+   was or may have been disclosed due to a breach of the
+   security of the system; and imposing penalties. (Title
+   amended Nov. 3, 2022, P.L.2139, No.151)
+   The General Assembly of the Commonwealth of Pennsylvania
+hereby enacts as follows:
+Section 1. Short title.
+   This act shall be known and may be cited as the Breach of
+Personal Information Notification Act.
+Section 2. Definitions.
+   The following words and phrases when used in this act shall
+have the meanings given to them in this section unless the
+context clearly indicates otherwise:
+   "Breach of the security of the system." The unauthorized
+access and acquisition of computerized data that materially
+compromises the security or confidentiality of personal
+information maintained by the entity as part of a database of
+personal information regarding multiple individuals and that
+causes or the entity reasonably believes has caused or will
+cause loss or injury to any resident of this Commonwealth. Good
+faith acquisition of personal information by an employee or
+agent of the entity for the purposes of the entity is not a
+breach of the security of the system if the personal information
+is not used for a purpose other than the lawful purpose of the
+entity and is not subject to further unauthorized disclosure.
+   "Business." A sole proprietorship, partnership, corporation,
+association or other group, however organized and whether or
+not organized to operate at a profit, including a financial
+institution organized, chartered or holding a license or
+authorization certificate under the laws of this Commonwealth,
+any other state, the United States or any other country, or the
+parent or the subsidiary of a financial institution. The term
+includes an entity that destroys records.
+   "Determination." A verification or reasonable certainty
+that a breach of the security of the system has occurred. (Def.
+added Nov. 3, 2022, P.L.2139, No.151)
+   "Discovery." The knowledge of or reasonable suspicion that
+a breach of the security of the system has occurred. (Def. added
+Nov. 3, 2022, P.L.2139, No.151)
+   "Encryption." The use of an algorithmic process to transform
+data into a form in which there is a low probability of
+assigning meaning without use of a confidential process or key.
+   "Entity." A State agency, a political subdivision of the
+Commonwealth or an individual or a business doing business in
+this Commonwealth.
+   "Health insurance information." An individual's health
+insurance policy number or subscriber identification number in
+combination with access code or other medical information that
+permits misuse of an individual's health insurance benefits.
+(Def. added Nov. 3, 2022, P.L.2139, No.151)
+   "Individual." A natural person.
+   "Medical information." Any individually identifiable
+information contained in the individual's current or historical
+record of medical history or medical treatment or diagnosis
+created by a health care professional. (Def. added Nov. 3, 2022,
+P.L.2139, No.151)

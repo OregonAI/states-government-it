@@ -1,0 +1,206 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-doit-guidelines-public-disclosure-cyber-incidents
+title: Guidelines for the Public Disclosure of Cybersecurity Incidents
+doc_type: policy
+citation: DoIT Guidelines for the Public Disclosure of Cybersecurity Incidents, version 1.0
+authority_level: ''
+issuing_body: Maryland Department of Information Technology
+source_url: https://doit.maryland.gov/policies/Documents/cybersecurity/Cybersecurity-Guidelines-PDCI.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 6817e860dd5b6d755ea5a104fab5d37e2b309ed3710546eb458b912e76d313ef
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Guidelines for the Public Disclosure of Cybersecurity Incidents (DoIT Guidelines for the Public Disclosure of Cybersecurity Incidents, version 1.0)
+
+## At a glance
+
+Guidelines the State Chief Information Security Officer established under Section 8 of SB812, Ch. 242 (2022) to determine when a cybersecurity incident is disclosed to the public; the scope lists units of the Executive Branch of State government (and, in the same list, county governments, local school boards and local health departments). Listed on DoIT's transitional governing policy list (issued 2022-10); the PDF is the file DoIT's policy home page links.
+
+## Full text
+
+      Office of Security Management
+
+Guidelines for the Public Disclosure of
+       Cybersecurity Incidents
+
+Table of Contents
+Introduction                1
+Manner of Reporting         1
+Scope                       1
+General Guidelines          2
+Substance of Report         3
+Timing of Notice            3
+
+                      -1-
+
+Revision History
+ Version    Date               Description of Changes
+ 1.0        October 1, 2022    Initial Version
+
+Approval
+
+____________________                                    __10/1/2022__
+Charles “Chip” Stewart                                  Date
+State Chief Information Security Officer
+
+                                           -2-
+
+Introduction
+Pursuant to Section 8 of SB812, Ch. 242 (2022)1, on or before October 1, 2022, the State Chief
+Information Security Officer (SCISO) is required to establish guidelines to determine when a
+cybersecurity incident shall be disclosed to the public.
+
+Cybersecurity incidents are generally defined as an event that actually or imminently
+jeopardizes, without lawful authority, the confidentiality, integrity, or availability of information or
+an information system; or constitutes a violation or imminent threat of violation of law, security
+policies, security procedures, or acceptable use policies.2
+
+Manner of Reporting
+Reports will be published on the Maryland Department of Information Technology website.
+
+Scope
+The term “units” in this document refers to the entities identified in Md. Code, Public Safety
+Article § 14-104.1 (c)(2) and Md. Code, State Finance & Procurement Article § 3.5-406(d)(2),
+including:
+    ● Units within the Executive Branch of State Government3, including:
+            ○ The principal departments4 defined in MD Code, State Government, § 8-201
+            ○ The Maryland State Department of Education and its subdivisions
+            ○ The Comptroller of Maryland5
+            ○ The Treasurer of Maryland6
+            ○ The Attorney General of Maryland7
+            ○ The Secretary of State8
+            ○ Miscellaneous Executive Agencies9
+
+1
+  See Maryland SB0812 (2022) at https://mgaleg.maryland.gov/2022RS/bills/sb/sb0812E.pdf
+2
+  See 44 U.S. Code § 3552(b)(2).
+3
+  Md. Code, State Fin. & Proc. § 3.5-101(f)
+4
+  MD. State Government Code Ann. § 8-201
+5
+  MD. State Government Code Ann. § 4-101
+6
+  MD. State Government Code Ann. § 5-101
+7
+  MD. State Government Code Ann. § 6-101
+8
+  MD. State Government Code Ann. § 7-101
+9
+  MD. State Government Code Ann. § 9-101
+
+                                                   -1-
+
+            ○ The Governor’s Office of Community Initiatives10
+     ●   County Governments, including Baltimore City11 and their political subdivisions
+     ●   Local School Boards
+     ●   Local School Systems
+     ●   Local Health Departments
+
+The scope excludes:
+   ● Municipal Governments
+   ● The Legislative Branch and its subdivisions
+   ● The Judicial Branch and its subdivisions
+
+General Guidelines
+In general, a cybersecurity incident will be reported publicly when it results in any of the
+following:
+     ● The unauthorized disclosure of a substantial, as determined by the State CISO, amount
+        of:
+            ○ Protected Health Information (PHI)12
+            ○ Personally Identifiable Information (PII).13
+            ○ Private Financial Information that does not meet the definition of PII.
+            ○ Otherwise uncategorized, but sensitive information.
+     ● A substantive disruption to governmental administrative functions.
+     ● Any mission-impacting disruption to critical government-run services, including:
+            ○ Emergency services (e.g., 911, Public Safety Radio System)
+            ○ Water and Wastewater Systems (e.g., potable water distribution)
+            ○ Energy Generation or Distribution
+            ○ Transportation Infrastructure Systems (e.g., Permanently-installed Variable-
+               message signs)
+     ● The permanent loss of a substantial, as determined by the State CISO, number of
+        records that the State has a statutory or regulatory obligation to retain.
+
+The State CISO, at their discretion, may elect to report incidents that do not meet these criteria
+if they believe that transparency regarding the incident is in the public interest.
+
+10
+   MD. State Government Code Ann. § 9.5-101
+11
+   MD. State Government Code Ann. § 1-101
+12
+   See 45 CFR § 160.103
+13
+   See MD. State Government Code Ann. § 10-1301
+
+                                                -2-
+
+Substance of Report
+The report, at a minimum, will contain the following information:
+   ● The date the incident occurred or was detected.
+   ● General information about the identity of the victim, unless the victim agrees to be
+       specifically named or at the discretion of the State CISO.
+   ● A general description of the incident.
+   ● A general description of the impact of the incident.
+   ● Whether any data was stolen, altered, accessed, or used for any other unauthorized
+       purpose.
+
+Timing of Notice
+The timing of the disclosure is based on the date of initial detection, known as “day zero” of the
+incident. If the unit identifies that individually immaterial cybersecurity incidents are material in
+aggregate, the date of that determination will be considered “day zero.”
+
+Units are required to provide a written incident report to the Office of Security Management no
+later than 21 days after it identifies an incident that may meet the criteria above. If the unit
+makes a good-faith effort to complete the investigation but is unable to provide a final report, the
+unit must provide:
+    ● As much information as is reliably known would contribute to the substance of the report.
+    ● An estimate of when the final report will be delivered.
+
+If a final report is not provided, a preliminary notice will be published no more than 10 calendar
+days after notification from the unit that the report will be delayed. The Office of Security
+Management will publish a notice of a cybersecurity incident within 10 days of receiving a final
+investigative report from a unit. Whenever possible, the publishing of any notice will be
+coordinated with the impacted unit.
+
+The State CISO may delay publication of the report if such disclosure would:
+   ● impede a criminal investigation
+   ● adversely affect mitigation or recovery efforts
+   ● or provide an advantage to the threat actor
+   ● would conflict with the notification requirements of Maryland State Government Code
+       §10-1305
+
+Additionally, public reporting of cybersecurity incidents may be delayed to determine the scope
+of the breach, identify the individuals affected, or restore the integrity of the system.
+
+                                                 -3-
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

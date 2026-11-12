@@ -1,0 +1,42 @@
+                     Commonwealth of Pennsylvania
+                             Governor's Office
+
+Subject:                                  Number:
+Quality Assurance for Business            205.43 Amended
+Productivity Tools
+
+Date:                                     By Direction of:
+
+June 25, 2014                             Charles B. Zogby, Secretary of the Budget
+
+                                          Kelly Powell Logan, Secretary of
+                                          Administration
+
+Contact Agency:
+Office of Administration, Office for Information Technology, Telephone 717.787.5440
+Office of the Budget, Office of Comptroller Operations, Bureau of Audits, Telephone
+717.783.0114
+
+     This directive establishes policy, responsibilities, and procedures
+     for the quality assurance of spreadsheets, databases, and other
+     business productivity tools that directly support commonwealth
+     business transactions and financial reporting. The directive has
+     been updated in order to clarify the tools that the policy applies to
+     and removes personal identifiable information as this is covered in
+     other policies, directives and law. Marginal dots are excluded due
+     to major changes.
+
+1. PURPOSE. This directive establishes policy, responsibilities, and procedures for
+   the quality assurance of spreadsheets, databases, and other similar tools that
+   support commonwealth business transactions and financial reporting. Business
+   productivity tools are designed to be meaningful and user-friendly for those who
+   are not professionals in the Information Technology field. The tools created, such
+   as spreadsheets and databases, are not subject to the application development
+   methodologies used by agency Information Technology (IT) professionals.
+   However, if the tools contain calculations that affect key business decisions, the
+   agencies and employees responsible for their use must address creation, security,
+   backup, and change management issues. Failure to do so may pose significant
+   risks to specific business operations or public confidence in commonwealth
+   operations and financial reporting.
+
+Management Directive 205.43 Amended                                      Page 1 of 5

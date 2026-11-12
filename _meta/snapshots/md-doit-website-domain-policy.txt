@@ -1,0 +1,146 @@
+Maryland.gov Website Domain Policy
+Purpose
+The Maryland.gov Website Domain Policy outlines how the executive branch of the State of Maryland manages official government website domain names. This includes web addresses, unique resource locators (URLs), and related subdomains (e.g., example.maryland.gov). Specifically, it defines standards and processes for domains such as maryland.gov, md.gov, and their subdomains, as well as requests for new official government websites.
+The purpose of this policy is to:
+• Maintain a high standard of quality for residents’ digital interactions with the State of Maryland.
+• Build trust between residents and the websites that deliver government services.
+• Protect residents from fraudulent websites that impersonate government services.
+Scope
+This policy applies to:
+• All State Executive Branch agencies, including all executive offices, boards, commissions, agencies, departments, divisions, councils, and bureaus.
+• Any government organization hosting web applications with the Maryland Department of Information Technology (DoIT).
+• Any government organization obtaining an official government web domain through DoIT.
+This policy covers the following domains:
+• maryland.gov
+• md.gov
+• state.md.us
+• Related subdomains (e.g., example.maryland.gov)
+• All domains owned and managed by DoIT.
+This policy covers the following usages and technologies:
+• Websites and web applications accessible to the public on the internet.
+• Chatbots or digital assistants.
+• Application programming interfaces (APIs) accessible on the public internet.
+• Third-party websites used to conduct business on behalf of the State of Maryland.
+Authority
+Under Maryland law, the Department of Information Technology (DoIT) has the authority to establish and enforce information technology policies, procedures, and standards, which includes policies related to the management of official government website domain names. The Chief Digital Experience Officer (CDXO) is responsible for leading efforts to enhance the public-facing digital presence of Maryland’s government.
+Responsibility for Approvals, Oversight, and Updates
+1. The CDXO is responsible for approving requests for all public-facing websites, chatbots, and digital assistants.
+2. The CDXO is also responsible for developing, maintaining, and updating this policy. The CDXO monitors compliance with this policy and may involve other departments in enforcing these standards.
+3. Questions, comments, and proposed updates to this policy can be submitted to DoIT via [email protected]
+Enforcement
+1. Requests for new domain names will only be approved for web applications that comply with this policy and contain all information required to be submitted.
+2. Websites that do not stay in compliance with this policy may have their domain name revoked.
+3. Websites created before this policy are expected to come into compliance as they make updates or changes.
+Domain Name System (DNS) Management
+The Chief Information Security Officer (CISO) and CDXO is responsible for broader DNS standards that apply to all government websites. This policy complies with those standards and will be updated as needed.
+Guidance for Website Owners:
+1. Subdomains of maryland.gov will not be delegated. The Department of Information Technology (DoIT) will retain control of the DNS for maryland.gov and its subdomains.
+2. All hosts must use DoIT’s domain name servers.
+3. You must obtain your domain name through DoIT. Third-party purchases (e.g., GoDaddy, Google Domains, Wix) are not permitted.
+4. To make changes or updates to domain names, you must open a ServiceNow ticket with DoIT. Self-service changes are not allowed.
+5. If using third-party services for bulk emails (e.g., Mailchimp, SendGrid), you must submit a ServiceNow ticket for DoIT to create the necessary DNS records to verify your domain.
+Why This Policy Matters:
+By centralizing DNS management, we ensure security, consistency, and compliance across all state government websites.
+Compliance and Exceptions
+1. Compliance with this policy is mandatory for all Executive branch state agencies.
+2. Exceptions to this policy must be requested through a ServiceNow ticket and approved by the CDXO.
+Domains for Government Websites and Email
+Maryland.gov is the primary digital identity for the State of Maryland for public-facing government services. This means:
+1. Executive agencies must use only maryland.gov domains (e.g. maryland.gov/example and example.maryland.gov).
+2. Maryland.gov and md.gov have been registered with the Department of Information Technology to protect the integrity of these names and avoid confusion.
+3. md.gov will forward to maryland.gov.
+4. The @maryland.gov email address suffix is the standard for email addresses in the executive branch. Only DoIT supported email systems may use @maryland.gov addresses.
+Maryland.gov and its subdomains (e.g. example.maryland.gov, another.example.maryland.gov) are intended for websites that fit all the following descriptions:
+1. Official Maryland government websites
+2. Websites accessible over the public internet
+3. Websites that comply with policies established by the General Services Administration (GSA) for .gov domains
+Maryland.gov and its subdomains may not be used for:
+1. Enterprise services available only inside the state network
+2. Websites with non-government advertisements
+3. Websites with political or campaign information
+4. Websites involved in criminal activity
+5. Websites with obscene images, inappropriate sexually oriented material, or extremist material
+6. Websites with links to sites that violate content restrictions
+Domain for Government Websites and Email
+Domain not ending in .gov
+Government organizations are strongly discouraged from using domains that do not end in “.gov” because anyone can buy one. Private websites masquerade as government websites in order to steal personal information or trick constituents into paying unnecessary fees. This breeds distrust. To build constituents’ trust and to protect their privacy and security, the State of Maryland is moving away from privately procured domains and standardizing primarily on maryland.gov and secondarily on other .gov domains.
+This guidance is consistent with the federal government guidelines. The United States Web Design System encourages all federal government sites to include a standard government website banner, which educates constituents that "official government websites use .gov."
+Domains with state.md.us
+Legacy state.md.us domains exist. To update these to a maryland.gov domain, the application must be brought into compliance with all guidelines applicable to maryland.gov domains. New subdomains of state.md.us for executive branch agencies will only be created for exceptional circumstances, with approval from the DoIT Secretary.
+Domains ending in .gov that are not Maryland.gov
+1. New .gov domains for marketing purposes are discouraged. Existing domains like maryland.gov and its hostnames (e.g., doit.maryland.gov, dgs.maryland.gov) should be used wherever possible.
+2. Marketing-oriented .gov domain names may only be created if:
+  • There is a clear public benefit and a demonstrated need for a separate, memorable URL.
+  • The request is formally approved by the requesting agency’s most senior leader, the Secretary of the Department of Information Technology, and the Chief Digital Experience Officer.
+3. All approved marketing .gov domains must:
+  • Be configured to automatically redirect users to content on the main maryland.gov domain (e.g., MarylandBenefits.gov must redirect to benefits.maryland.gov).
+  • Not host any standalone content; they must serve purely as branded entry points that redirect to the proper maryland.gov location.
+    1. Example, MarylandBenefits.gov must be a redirect to benefits.maryland.gov to ensure consistency with our DNS policy.
+  • Not use any hostnames; (e.g., apply.MarylandBenefits.gov will not be approved).
+    1. Instead of creating additional hostnames for specific functions (e.g., apply.marylandbenefits.gov), agencies should use paths within their existing domains, such as benefits.maryland.gov/apply.
+    2. If "apply" is a top user task, ensure it’s prominently featured on the main landing page (e.g., benefits.maryland.gov) so users can easily find and access it.
+Domain Naming Conventions
+Naming Conventions for Production Environments
+Guiding Principles:
+1. Focus on user needs, making it easy for residents to find services without needing to understand state government structure.
+2. Use plain language wherever possible and avoid acronyms
+3. Design for consistency and simplicity, prioritizing a high-quality user experience.
+Conventions:
+1. Describe the service or regulatory area rather than the department providing it (e.g., rideshare.maryland.gov rather than dot.maryland.gov).
+2. Use organization or product names in the URL if the primary audience is internal (e.g., jira.maryland.gov or designsystem.maryland.gov).
+3. Design for consistency and simplicity, prioritizing a high-quality user experience.
+Naming Conventions for Non-Production Environments
+Guiding Principles:
+1. Use consistent and intuitive prefixes or subdomains for each environment.
+2. Ensure that these environments are easily distinguishable from the production environment to avoid confusion.
+3. Use subdomains to keep the primary domain clean and focused on user-facing services.
+Suggested Conventions:
+1. Testing: test.[service-name].maryland.gov (e.g., test.rideshare.maryland.gov)
+2. Quality Assurance (QA): qa.[service-name].maryland.gov (e.g., qa.rideshare.maryland.gov)
+3. Staging: staging.[service-name].maryland.gov (e.g., staging.rideshare.maryland.gov)
+4. Development (Dev): dev.[service-name].maryland.gov (e.g., dev.rideshare.maryland.gov)
+Additional Recommendations:
+1. Keep Non-Production Domains Separate from Production: Ensure that non-production environments use clear identifiers to prevent any accidental access by end-users or exposure of sensitive information.
+2. Consistent Naming Across Environments: Use the same [service-name] across all environments to maintain consistency (e.g., rideshare remains the same in test.rideshare.maryland.gov and staging.rideshare.maryland.gov).
+3. Consider Access Restrictions: Implement access control for non-production environments to ensure they are not publicly accessible unless required.
+Guidelines for Constituent-Facing Websites
+New websites, web forms, applications, or digital services must adhere to the following:
+1. Be accessible to individuals with disabilities (WCAG 2.1 AA minimum standard).
+2. Include a link to an online accessibility statement.
+3. Be functional on modern devices and supported browsers. Supported browsers are defined as those with over 2% usage based on data from analytics.maryland.gov.
+4. Use a secure connection (HTTPS).
+5. Avoid duplicating content or functionality already available on www.maryland.gov.
+6. Use a domain name consistent with the conventions outlined in this policy.
+DNS Revocation Policy
+Revoking a DNS record is done with care to avoid unintended service disruptions. The Department of Information Technology (DoIT) will prioritize communication with domain owners and aim to work collaboratively before proceeding with revocation. However, certain situations may require immediate action.
+Conditions for DNS Revocation
+DNS records may be revoked under the following conditions:
+1. Security Concerns: If a domain is compromised or associated with malicious activities, its DNS records may be revoked immediately to protect users and prevent further harm.
+2. Decommissioned Services: When a service or website is no longer in use, the associated DNS records may be revoked to prevent users from accessing outdated resources.
+3. Non-Compliance: Websites that fail to adhere to the standards outlined in this policy, including naming conventions and domain usage rules, may have their DNS records revoked.
+4. Incorrect or Misconfigured Records: If a DNS record is found to be incorrect or misconfigured, it may be revoked to avoid misrouting traffic and ensure accurate domain resolution.
+5. Domain Transfer or Migration: During a domain transfer or migration, DNS records may be revoked to ensure traffic is directed to the new domain or service.
+Revocation Process
+1. Notification: Whenever possible, DoIT will reach out to the domain owner to notify them of the issue and work together to resolve it before revocation.
+2. Immediate Revocation: If the issue poses a significant security risk, DoIT reserves the right to revoke the DNS record immediately and follow up with the domain owner afterward.
+3. Verification and Resolution: DoIT will coordinate with the DNS management vendor to ensure that the revocation is implemented correctly and that any related issues are resolved.
+4. Confirmation: After the DNS record has been revoked and verified, DoIT will notify the domain owner of the changes and provide any necessary guidance for next steps.
+Glossary
+• Accessibility: Ensuring that digital content, websites, and applications are usable by individuals with disabilities, as per WCAG (Web Content Accessibility Guidelines) standards.
+• CDXO (Chief Digital Experience Officer): The official responsible for leading efforts to improve Maryland's public-facing digital presence.
+• CISO (Chief Information Security Officer): The official responsible for overseeing the State of Maryland's information security policies, practices, and compliance.
+• DNS (Domain Name System): A system that translates human-readable domain names (e.g., maryland.gov) into IP addresses, enabling users to access websites and services on the internet.
+• DNSSEC (DNS Security Extensions): A security protocol that adds a layer of protection to DNS by ensuring that domain data comes from an authenticated source.
+• Domain: A unique name that identifies a website or service on the internet (e.g., maryland.gov).
+• Domain Revocation: The process of removing or disabling a DNS record, typically due to security risks, non-compliance, or decommissioning of services.
+• Legacy Domain: An older domain that predates current policies or standards, such as those ending in state.md.us.
+• Production Environment: The live, publicly accessible version of a website or application where users interact with the service.
+• Subdomain: A secondary domain that is part of a larger domain (e.g., example.maryland.gov).
+• ServiceNow: A platform used by the Department of Information Technology (DoIT) for managing service requests, including changes or updates to DNS records.
+• WCAG (Web Content Accessibility Guidelines): A set of internationally recognized standards for making web content more accessible to people with disabilities. The minimum standard for Maryland websites is WCAG 2.1 AA.
+• .gov Domains: Reserved domains that signify official U.S. government entities. These domains are highly trusted and regulated.
+• @maryland.gov Email Address: The official email address format for the Executive Branch of the State of Maryland.
+• Non-Production Environment: A website or application environment used for development, testing, or staging purposes, not accessible to the general public.
+• User Engagement Duration: A metric that measures how long users interact with a website or application during a session.
+• URL (Uniform Resource Locator): The specific address used to access a resource on the internet, such as a webpage (e.g., https://example.maryland.gov).
+• Web Application: A software application accessed via a web browser, often used to provide services or information to users.

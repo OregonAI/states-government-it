@@ -1,0 +1,207 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-doit-state-minimum-cybersecurity-standards
+title: State Minimum Cybersecurity Standards
+doc_type: standard
+citation: DoIT State Minimum Cybersecurity Standards, version 1.0
+authority_level: ''
+issuing_body: Maryland Department of Information Technology
+source_url: https://doit.maryland.gov/policies/ci/Pages/state-minimum-cybersecurity-standards.aspx
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: a6255b7617cc43f439f2854c5e3abfcd903e74a02f8baa7b96142c899524fe50
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint
+  site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined
+  by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and
+  page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# State Minimum Cybersecurity Standards (DoIT State Minimum Cybersecurity Standards, version 1.0)
+
+## At a glance
+
+Listed on DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx). As the page prints its purpose: This document establishes the State Minimum Cybersecurity Standards for each agency or unit of the Executive Branch of State government.
+
+## Full text
+
+State Minimum Cybersecurity Standards
+Revision History:
+• Date Issued: 05/22/2023
+• Version: 1.0
+• Approved by: Secretary Katie Savage, Maryland Department of Information Technology
+1. Executive Summary
+This document establishes the State Minimum Cybersecurity Standards for each agency or unit of the Executive Branch of State government.
+2. Purpose
+Pursuant to Section 5 of SB812 Ch. 242 (2022), in a manner and frequency established in regulations adopted by the Department of Information Technology (DoIT), each agency in the Executive Branch of State government shall certify to the Office of Security Management compliance with State Minimum Cybersecurity Standards established by DoIT on or before Jun 30, 2023. Statewide NIST Cybersecurity Framework Assessments, as performed by an independent assessor, may serve the purpose “review” by independent auditors.
+3. Scope
+This standard applies to each agency or unit of the Executive Branch of State government (“unit of State government”).
+4. Authority
+• Section 5 of SB812, Ch. 242 (2022)
+5. Definitions & Acronyms
+• CSF: Cybersecurity Framework, published by NIST
+• CMMI: Cybersecurity Maturity Model Institute
+• DoIT: Maryland Department of Information Technology
+• NIST: National Institute of Standards and Technology
+6. Standards
+The State of Maryland’s Minimum Cybersecurity Standards align to the National Institute of Standards and Technology (NIST) Cybersecurity Framework (CSF), consisting of controls that contribute to an organization’s overall cybersecurity maturity while mitigating or reducing cybersecurity risk and vulnerabilities. The controls below are subject to change on an annual basis and represent the “State Minimum Cybersecurity Requirements” required for the June 30, 2023 certification. Independent audit or 3rd party assessment (All Executive Branch units of State Government are required to have a NIST CSF assessment performed bi-annually. Recent assessments performed by RSM provide CMMI-aligned maturity scores in the appendices section of the assessment. Draft or Final assessment scores may be used to meet minimum requirements) must validate that each control meets a minimum Cybersecurity Maturity Model Institute (CMMI) maturity score of at least a “1” (meaning “Initial” or “Performed) or “2” (meaning “Managed”), depending on the control.
+A score of “1” indicates that the control is performed by the organization in an ad-hoc fashion without consistency or documentation. A score of “2” indicates the control is performed consistently with supporting documentation such as written plans, procedures, or standards. To certify compliance, units of State government must meet the minimum required CMMI maturity scores for each NIST CSF control in sections below
+6.1 Identify (ID) Controls
+Listed by CSF Control #
+• D.AM-1: Physical devices and systems within the organization are inventoried. (Min Requirement: 1)
+• ID.AM-2: Software platforms and applications within the organization are inventoried (Min Requirement: 1)
+• ID.AM-3: Organizational communication and data flows are mapped (Min Requirement: 1)
+• ID.AM-4: External information systems are catalogued (Min Requirement: 1)
+• ID.AM-5: Resources (e.g., hardware, devices, data, and software) are prioritized based on their classification, criticality, and business value (Min Requirement: 1)
+• ID.AM-6: Cybersecurity roles and responsibilities for the entire workforce and third-party stakeholders (e.g., suppliers, customers, partners) are established (Min Requirement: 2)
+• ID.BE-2: The organization’s place in critical infrastructure and its industry sector is identified and communicated (Min Requirement: 1)
+• ID.BE-3: Priorities for organizational mission, objectives, and activities are established and communicated (Min Requirement: 2)
+• ID.BE-4: Dependencies and critical functions for delivery of critical services are established (Min Requirement: 2)
+• ID.BE-5: Resilience requirements to support delivery of critical services are established (Min Requirement: 2)
+• ID.GV-1: Organizational information security policy is established and communicated (Min Requirement: 2)
+• ID.GV-2: Cybersecurity roles and responsibilities are coordinated and aligned with internal roles and external partners (Min Requirement: 1)
+• ID.GV-3: Legal and regulatory requirements regarding cybersecurity, including privacy and civil liberties obligations, are understood and managed (Min Requirement: 1)
+• ID.RA-1: Asset vulnerabilities are identified and documented (Min Requirement: 1)
+• ID.RA-2: Cyber threat intelligence is received from information sharing forums and sources (Min Requirement: 1)
+• ID.RA-3: Threats, both internal and external, are identified and documented (Min Requirement: 1)
+• ID.RA-4: Potential business impacts and likelihoods are identified (Min Requirement: 1)
+• ID.RA-5: Threats, vulnerabilities, likelihoods, and impacts are used to determine risk (Min Requirement: 2)
+• ID.RA-6: Risk responses are identified and prioritized (Min Requirement: 2)
+• ID.RM-1: Risk management processes are established, managed, and agreed to by organizational stakeholders (Min Requirement: 1)
+• ID.RM-2: Organizational risk tolerance is determined and clearly expressed (Min Requirement: 1)
+• ID.RM-3: The organization’s determination of risk tolerance is informed by its role in critical infrastructure and sector-specific risk analysis (Min Requirement: 1)
+6.2 Protect (PR) Controls
+Listed by CSF Control #
+• PR.AC-1: Identities and credentials are issued, managed, verified, revoked, and audited for authorized devices, users, and processes (Min Requirement: 2)
+• PR.AC-2: Physical access to assets is managed and protected (Min Requirement: 2)
+• PR.AC-3: Remote access is managed (Min Requirement: 2)
+• PR.AC-4: Access permissions are managed, incorporating the principles of least privilege and separation of duties (Min Requirement: 2)
+• PR.AC-5: Network integrity is protected, incorporating network segregation where appropriate (Min Requirement: 1)
+• PR.AC-6: Identities are proofed and bound to credentials and asserted in interactions (Min Requirement: 1)
+• PR.AC-7: Users, devices, and other assets are authenticated (e.g., single-factor, multi-factor) commensurate with the risk of the transaction (Min Requirement: 1)
+• PR.AT-1: All users are informed and trained (Min Requirement: 1)
+• PR.AT-2: Privileged users understand roles & responsibilities (Min Requirement: 1)
+• PR.AT-4: Senior executives understand roles & responsibilities (Min Requirement: 1)
+• PR.AT-5: Physical and information security personnel understand roles & responsibilities (Min Requirement: 1)
+• PR.DS-1: Data-at-rest is protected (Min Requirement: 1)
+• PR.DS-2: Data-in-transit is protected (Min Requirement: 1)
+• PR.DS-3: Assets are formally managed throughout removal, transfers, and disposition (Min Requirement: 1)
+• PR.DS-5: Protections against data leaks are implemented (Min Requirement: 1)
+• PR.IP-1: A baseline configuration of information technology/industrial control systems is created and maintained incorporating security principles (e.g., concept of least functionality) (Min Requirement: 1)
+• PR.IP-4: Backups of information are conducted, maintained, and tested periodically (Min Requirement: 1)
+• PR.IP-6: Data is destroyed according to policy (Min Requirement: 1)
+• PR.IP-9: Response plans (Incident Response and Business Continuity) and recovery plans (Incident Recovery and Disaster Recovery) are in place and managed (Min Requirement: 2)
+• PR.IP-10: Response and recovery plans are tested (Min Requirement: 1)
+• PR.IP-11: Cybersecurity is included in human resources practices (e.g., deprovisioning, personnel screening) (Min Requirement: 1)
+• PR.IP-12: A vulnerability management plan is developed and implemented (Min Requirement: 2)
+• PR.MA-1: Maintenance and repair of organizational assets is performed and logged in a timely manner, with approved and controlled tools (Min Requirement: 1)
+• PR.MA-2: Remote maintenance of organizational assets is approved, logged, and performed in a manner that prevents unauthorized access (Min Requirement: 1)
+• PR.PT-1: Audit/log records are determined, documented, implemented, and reviewed in accordance with policy (Min Requirement: 1)
+• PR.PT-2: Removable media is protected and its use restricted according to policy (Min Requirement: 1)
+• PR.PT-3: The principle of least functionality is incorporated by configuring systems to provide only essential capabilities (Min Requirement: 1)
+• PR.PT-4: Communications and control networks are protected (Min Requirement: 1)
+6.3 Detect (DE) Controls
+Listed by CSF Control #
+• DE.AE-2: Detected events are analyzed to understand attack targets and methods (Min Requirement: 1)
+• DE.AE-3: Event data are aggregated and correlated from multiple sources and sensors (Min Requirement: 1)
+• DE.AE-4: Impact of events is determined (Min Requirement: 1)
+• DE.AE-5: Incident alert thresholds are established (Min Requirement: 1)
+• DE.CM-1: The network is monitored to detect potential cybersecurity events (Min Requirement: 1)
+• DE.CM-2: The physical environment is monitored to detect potential cybersecurity events (Min Requirement: 1)
+• DE.CM-3: Personnel activity is monitored to detect potential cybersecurity events (Min Requirement: 1)
+• DE.CM-4: Malicious code is detected (Min Requirement: 1)
+• DE.CM-7: Monitoring for unauthorized personnel, connections, devices, and software is performed (Min Requirement: 1)
+• DE.CM-8: Vulnerability scans are performed (Min Requirement: 1)
+• DE.DP-1: Roles and responsibilities for detection are well defined to ensure accountability (Min Requirement: 1)
+• DE.DP-2: Detection activities comply with all applicable requirements (Min Requirement: 1)
+• DE.DP-4: Event detection information is communicated to appropriate parties (Min Requirement: 1)
+• DE.DP-5: Detection processes are continuously improved (Min Requirement: 1)
+6.4 Respond (RS) Controls
+Listed by CSF Control #
+• RS.RP-1: Response plan is executed during or after an event (Min Requirement: 2)
+• RS.CO-1: Personnel know their roles and order of operations when a response is needed (Min Requirement: 1)
+• RS.CO-2: Incidents are reported consistent with established criteria (Min Requirement: 1)
+• RS.CO-3: Information is shared consistent with response plans (Min Requirement: 1)
+• RS.CO-4: Coordination with stakeholders occurs consistent with response plans (Min Requirement: 1)
+• RS.AN-1: Notifications from detection systems are investigated (Min Requirement: 1)
+• RS.AN-2: The impact of the incident is understood (Min Requirement: 1)
+• RS.AN-3: Forensics are performed (Min Requirement: 1)
+• RS.AN-4: Incidents are categorized consistent with response plans (Min Requirement: 1)
+• RS.AN-5: Processes are established to receive, analyze, and respond to vulnerabilities disclosed to the organization from internal and external sources (e.g., internal testing, security bulletins, or security researchers) (Min Requirement: 1)
+• RS.MI-1: Incidents are contained (Min Requirement: 1)
+• RS.MI-2: Incidents are mitigated (Min Requirement: 1)
+• RS.IM-1: Response plans incorporate lessons learned (Min Requirement: 2)
+6.5 Recover (RC) Controls
+Listed by CSF Control #
+• RC.RP-1: Recovery plan is executed during or after a cybersecurity incident (Min Requirement: 2)
+• RC.CO-1: Public relations are managed (Min Requirement: 1)
+• RC.CO-3: Recovery activities are communicated to internal stakeholders and executive and management teams (Min Requirement: 1)
+6.6 Insurance Application Requirement Standard
+All units of State government must submit an annual Insurance Supplemental Application by to qualify for cybersecurity insurance coverage under the State’s policy. Insurance Supplemental Applications shall be submitted at the time of Statement of Compliance submission via Secure File Transfer. Alternatively, the Insurance Supplemental Application can be submitted via encrypted email to Muriel Turner at [email protected] in the Maryland Treasurer’s Office.
+7. Roles & Responsibilities
+• DoIT OSM (Role)
+  • Responsibility: Update the State’s Minimum Cybersecurity Standards as needed
+• DoIT Secretary (Role)
+  • Responsibility: Review and Approve the State’s Minimum Cybersecurity Standards
+• Unit of State Government: (Role)
+  • Responsibility: Complete online form submission... Submit documents to DoIT by June 30th
+• Authorized Signee for Unit of State Government (Role)
+  • Responsibility: Sign Statement of Compliance on behalf of unit of State Government
+8. Documents and Maintenance
+The following documents shall be maintained in conjunction with this standard:
+• Statement of Compliance (Document)
+  • Description: Signed statement certifying compliance with standards
+• Remediation Plan: (Document)
+  • Description: Plan for remediation of any controls receiving a “0 – Not Performed” maturity score
+• Insurance Supplemental Application Over $200M: (Document)
+  • Description: Required for Submission for Insurance Coverage
+• Insurance Supplemental Application Under $200M: (Document)
+  • Description: Required for Submission for Insurance Coverage
+9. Appendices
+9.1 Appendix A - Statement of Compliance
+Date: [Date]
+To: [DoIT Secretary]
+From: [Organizational Representative]
+Subject: [Statement of Compliance]
+Dear [DoIT Secretary],
+Pursuant to the requirements established in Senate Bill 812 (2002), and after consultation with our qualified information technology and cybersecurity experts, I certify, to the best of my knowledge, that:
+• A 3rd party evaluation or audit of our cybersecurity preparedness evaluating all NIST CSF controls has been performed within the previous two (2) years; and
+• Our systems are compliant with the State’s Minimum Cybersecurity Standards; and/or • All controls not performed at the time of 3rd party assessment or audit are documented in a “Remediation Plan & Status” document submitted to DoIT; and
+• We have ensured that the State has up-to-date contact information for our Information Technology and Cybersecurity team.
+Sincerely,
+[Signature]
+[Name]
+[Title]
+9.2 Appendix B – Remediation Plan
+Org Name: [Enter Unit of State Government Name]
+Plan Submitted by: [Enter Name of Individual Completing This Form]
+Role of Submitter: [Enter Role of Individual Completing This Form]
+Email of Submitter: [Enter Email Address]
+Phone # for Submitter: [Enter Phone #]
+Directions: For any non-remediated controls that do not meet the specified CMMI Maturity Score per the State’s Minimum Cybersecurity Standard at the time of 3rd party assessment, each Maryland unit of State Government shall complete this form and submit to the Department of Information Technology, Office of Security Management prior to June 30, 2023.
+CSF Control #: Enter Control #
+CSF Subcategory: Enter description
+Plan to Remediate Control: Enter Remediation Plan
+Remediation Status: Enter “Complete” or “To Be Performed”
+
+## Curator notes
+
+Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.
