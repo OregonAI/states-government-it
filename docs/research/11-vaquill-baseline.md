@@ -260,6 +260,15 @@ By title, the ones that look relevant: Oregon OAR 125-247 (Department of Adminis
 - Beyond the cells: the kinds line above shows that most distinct expected documents in Oregon, Washington and California are policies, standards or executive orders, which `RULES` maps to no Vaquill citation; Colorado's expected list is mostly statutes and rules plus policies and one standard.
 - Vaquill returned no agency-guidance document from a state IT office in 80 searches (the only guidance rows were seven repeats of one Washington insurance-commissioner advisory). It did return state IT office rules: Oregon EIS/DAS rules (OAR 128-020-0005, -0010, -0025 and 128-030-0020) and Colorado OIT rules (8 CCR 1501-5, -7, -9, -11, -12), which this note counts as matches where expected.
 
+## Cost and scale
+
+Owner's conclusion, 2026-11-12: Vaquill is not a scalable solution for this project. It stays what the spec made it, a one-time outside baseline.
+
+- **Allowance:** the owner reports the free allowance as 1,000 credits a month. The account's balance call showed a single 1,000-credit "bonus" bucket, no plan, expiring 2027-02-10; it does not say whether the bucket renews, so the monthly figure is the owner's, not measured here.
+- **What 1,000 credits buys at the listed prices:** 250 searches without text (4 credits each), or about 15 result pages with text (a page of 10 with bodies is listed at 64 credits). This run of 80 searches, four states and no text, used 320.
+- **Against this corpus:** one pass of the 20 questions over all 42 states held would be 840 searches, 3,360 credits, before any section text is read.
+- **Coverage, apart from cost:** the 21 cells answered only by policies, standards and executive orders scored 0 here, and that layer is where most of this corpus sits.
+
 ## What this does not show
 
 - **One run, one query per cell.** The question as typed, default match type, one page of 10. No rewording, no `get_section_cross_state`, no boolean search, no `fifty_state_survey` prompt, no filters by code or chapter. A tuned Vaquill query could do better; so could a tuned query against ours.
