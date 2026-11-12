@@ -1,0 +1,96 @@
+CIO/OFT Personal Privacy Protection Regulations
+TITLE 9. EXECUTIVE DEPARTMENT
+SUBTITLE N OFFICE FOR TECHNOLOGY
+PART 551.
+ACCESS TO PERSONAL INFORMATION
+(Statutory authority: Public Officers Law, art. 6-A, §94[2]; Executive Law, §206-a[11])
+Section 551.1 Purpose and scope.
+(a) It is the responsibility and the intent of the Office of Information Technology Services to fully comply with the provisions of article 6-A of the Public Officers Law, the Personal Privacy Protection Law.
+(b) The Office of Information Technology Services shall maintain in its records only such personal information that is relevant and necessary to accomplish a purpose of the agency that is required to be accomplished by statute or executive order, or to implement a program specifically authorized by law.
+(c) Personal information will be collected, whenever practicable, directly from the person to whom the information pertains.
+(d) The Office of Information Technology Services seeks to ensure that all records pertaining to or used with respect to individuals are accurate, relevant, timely and complete.
+(e) These regulations provide information regarding the procedures by which members of the public may assert rights granted by the Personal Privacy Protection Law. Specifically, they set forth:
+(1) procedures by which an individual can learn if a system of records contains any records pertaining to him or her;
+(2) reasonable times, places and means for verifying the identity of an individual who requests access to his or her record;
+(3) procedures for providing access, upon the individual's request, to the individual's record; and
+(4) procedures for reviewing a request from an individual for access to, and for correction or amendment of, his or her record, for making a determination on such request, and for an appeal within the agency of an initial adverse agency determination.
+Section 551.2 Definitions
+For purposes of this Part:
+(a) The term data subject means any natural person about whom personal information has been collected by an agency.
+(b) The term persona1 information means any information concerning a data subject which, because of name, number, symbol, mark or other identifier, can be used to identify the data subject.
+(c) The term record shall be given the same meaning as the definition of the same term found in the Public Officers Law, article 6-A, the Personal Privacy Protection Law.
+(d) The term office means the New York State Office of Information Technology Services or its successor.
+(e) The term system of records means any group of records under the actual or constructive control of any agency pertaining to one or more data subjects from which personal information is retrievable by use of the name or other identifier of a data subject.
+Section 551.3 Proof of identity.
+(a) When a request is made pursuant to this Part in person, or when records are made available in person following a request made by mail, the Office of Information Technology Services may require identification, such as a driver's license, an identifier assigned to the data subject by the Office of Information Technology Services, a photograph or similar information that confirms that the records sought pertain to the data subject.
+(b) When a request is made pursuant to this Part, by mail, the Office of Information Technology Services may require verification of a signature or inclusion of an identifier generally known only by a data subject, or similar appropriate identification.
+(c) Proof of identity shall not be required regarding a request for a record accessible to the public pursuant to the Freedom of Information Law (article 6 of the Public Officers Law).
+Section 551.4 Fees.
+(a) Unless otherwise prescribed by statute, there shall be no fee charged for:
+(1) inspection of records;
+(2) search for records; or
+(3) any certification pursuant to this Subpart.
+(b) Unless otherwise prescribed by statute, copies of records will be furnished upon payment of the fee prescribed by Section 87 of the Public Officers Law.
+Section 551.5 Public inspection of records.
+(a) Records shall be made available at the main office of the Office of Information Technology Services, which is located at:
+NYS Office of Information Technology Services
+Empire State Plaza
+Swan Street Building, Core 4
+Albany, NY 12223
+(b) The Office of Information Technology Services shall accept requests for records and produce records during the hours 9:00 a.m. through 12:00 p.m. and 1:00 p.m. through 4:00 p.m.
+Section 551.6 Requests for records and information.
+(a) All requests made pursuant to this Part shall be made in writing and must be accompanied by a reasonable proof of identity.
+(b) A request shall reasonably describe the record to which access is sought or about which information is desired. Whenever possible, the data subject should supply identifying information that assists the Office of Information Technology Services in locating the records sought.
+(c) Requests based upon categories of information described in a notice of a system of records or a privacy impact statement shall be deemed to meet the required description of the record sought.
+(d) Within five business days of the receipt of a proper request, the Office of Information Technology Services shall provide access to the record, deny access in writing explaining the reasons therefore, or acknowledge the receipt of a request in writing, stating the approximate date when the request will be granted or denied, that date shall not exceed 30 days from the date of acknowledgment.
+Section 551.7 Designation of privacy compliance officer.
+(a) The executive deputy commissioner of the Office of Information Technology Services shall designate a privacy compliance officer who is responsible for ensuring that the Office of Information Technology Services complies with the provisions of the Personal Privacy Protection Law and with these regulations. The director may, with respect to any one or more privacy compliance issues, delegate their authority hereunder to an appropriate employee of the Office of Information Technology Services.
+(b) The address of the privacy compliance officer is:
+Privacy Compliance Officer
+NYS Office of Information Technology Services
+State Capitol ESP, P.O. Box 2062
+Albany, NY 12220-0062
+(c) The privacy compliance officer shall coordinate the response to individuals' requests for access to records which contain personal information.
+(d) The privacy compliance officer is responsible for:
+(1) assisting an individual in identifying and requesting personal information, if necessary;
+(2) describing the contents of systems of records orally or in writing in order to enable an individual to learn if a system of records includes a record or personal information identifiable to an individual requesting such record or personal information; and
+(3) ensuring that Office of Information Technology Services personnel take one of the following actions upon locating the record sought:
+(i) make the record available for inspection, in a printed form without codes or symbols, unless an accompanying document explaining such codes or symbols is also provided;
+(ii) permit the individual to copy the record;
+(iii) deny access to the record in whole or in part and explain in writing the reasons therefore;
+(iv) make a copy available upon request, upon payment of or offer to pay established fees, if any, or permit the individual to copy the record;
+(v) upon request, certify that a copy of the record is a true copy; or
+(vi) certify, upon request, that:
+(a) the office does not have possession of the record sought;
+(b) the office cannot locate the record sought after having made a diligent search; or
+(c) the information sought cannot be retrieved by use of the description thereof, or by use of the name or other identifier of the individual without extraordinary search methods being employed by the office.
+Section 551.8 Amendment of records.
+(a) All requests made pursuant to this Part to amend a record shall be made in writing, must be accompanied by a reasonable proof of identity, and must reasonably describe the record to be amended.
+(b) Within 30 days of a request from a data subject for correction or amendment of a record or personal information that is reasonably described and that pertains to the data subject, the Office of Information Technology Services shall:
+(1) make the amendment or correction in whole or in part and inform the data subject that, upon request, such correction or amendment will be provided to any person or governmental unit to which the record or personal information has been or is disclosed pursuant to paragraph (d), (i) or (1) of subdivision one of section 96 of the Public Officers Law; or
+(2) inform the data subject in writing of its refusal to correct or amend the record, including the reasons therefor.
+Section 551.9 Denial of request for a record or amendment or correction of a record or personal information.
+(a) Denial of a request for records or amendment or correction of a record or personal information:
+(1) shall be in writing, explaining the reasons therefore; and
+(2) identify the person to whom an appeal may be directed.
+(b) A failure to grant or deny access to records within five business days of the receipt of a request or within 30 days of an acknowledgment of the receipt of a request, or a failure to respond to a request for amendment or correction of a record within 30 business days of receipt of such request, shall be construed as a denial that may be appealed.
+Section 551.10 Appeal.
+(record or personal information pursuant to section 551.9 of this Part may, within 30 days of such denial, appeal to the Counsel of the Office of Information Technology Services.
+(b) The Counsel may, with respect to any one or more appeals, delegate its authority hereunder to any assistant counsel of the Office of Information Technology Services.
+(c) The time for deciding an appeal shall commence upon receipt of an appeal that identifies:
+(1) the date and location of a request for a record or amendment or correction of a record or personal information;
+(2) the record that is the subject of the appeal; and
+(3) the name and address of the person making the appeal.
+(d) Within seven business days of an appeal of a denial of access, or within 30 days of an appeal concerning denial of a request for correction or amendment, the person determining such appeal shall:
+(1) provide access to or correct or amend the record or personal information; or
+(2) fully explain in writing the factual and statutory reasons for further denial and inform the data subject of the right to seek judicial review of such determination pursuant to article 78 of the Civil Practice Law and Rules.
+(e) If, on appeal, a record or personal information is corrected or amended, the data subject shall be informed that, upon request, the correction or amendment will be provided to any person or governmental unit to which the record or personal information has been or is disclosed pursuant to paragraph (d), (i) or (1) of subdivision one of section 96 of the Public Officers Law.
+(f) The Office of Information Technology Services shall immediately forward to the Committee on Open Government a copy of any appeal made pursuant to this section upon receipt, the determination thereof and the reasons therefore at the time of such determination.
+Section 551.11 Statement of disagreement by data subject.
+(a) If correction or amendment of a record or personal information is denied in whole or in part upon appeal, the determination rendered pursuant to the appeal shall inform the data subject of the right to:
+(1) file with the Office of Information Technology Services, a statement of reasonable length setting forth the data subject's reasons for disagreement with the determination; and
+(2) request that such a statement of disagreement be provided to any person or governmental unit to which the record has been or is disclosed pursuant to paragraph (d), (i) or (1) of subdivision one of section 96 of the Public Officers Law.
+(b) Upon receipt of a statement of disagreement by a data subject, the Office of Information Technology Services shall:
+(1) clearly note any portions of the record that are disputed; and
+(2) attach the data subject's statement as part of the record.
+(c) When providing a data subject's statement of disagreement to a person or governmental unit in conjunction with a disclosure made pursuant to paragraph (d), (i) or (1) of subdivision one of section 96 of the Public Officers Law, the Office of Information Technology Services may also include a concise statement of its reasons for not making the requested amendment or correction.

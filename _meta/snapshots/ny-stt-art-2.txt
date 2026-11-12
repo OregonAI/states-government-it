@@ -1,0 +1,412 @@
+                               ARTICLE II
+                    INTERNET SECURITY AND PRIVACY ACT
+Section 201. Short title.
+        202. Definitions.
+        203. Model internet privacy policy.
+        204. Collection and disclosure of personal information.
+        205. Access to personal information.
+        206. Exceptions.
+        207. Construction.
+        208. Notification; person without valid authorization has
+               acquired private information.
+        209. Notification of a breach of the security of the system or a
+               breach of network security; shared data.
+        210. Cybersecurity protection.
+
+  § 201. Short title. This article shall be known and may be cited as
+the "internet security and privacy act".
+
+  § 202. Definitions. As used in this article, the following terms shall
+have the following meanings:
+  1. "Collect" shall mean to store information, including via cookie
+technology, for purposes of retrieval at a later time to initiate
+communication with or make determinations about the person who is the
+subject of such information.
+  2. "Disclose" shall mean to reveal, release, transfer, disseminate or
+otherwise communicate information orally, in writing or by electronic or
+other means, other than to the person who is the subject of such
+information.
+  3. "Internet" shall mean a system of linked computer networks,
+international in scope, that facilitate data transmission and exchange.
+  4. "Office" shall mean the state office of information technology
+services.
+  5. "Personal information" shall mean any information concerning a
+natural person which, because of name, number, symbol, mark or other
+identifier, can be used to identify that natural person.
+  6. "State agency" shall have the same meaning as the meaning given to
+"agency" under subdivision one of section ninety-two of the public
+officers law.
+  7. "State agency website" shall mean an internet website operated by
+or for a state agency. Such term shall include those websites operated
+on behalf of state agencies by other public or private entities, but
+shall not include any portions of the internet outside the control of
+the state agency.
+  8. "User" shall mean any natural person who uses the internet to
+access a state agency website.
+
+  § 203. Model internet privacy policy. 1. The office shall adopt rules
+and regulations in conformity with the provisions of this article, and
+specify a model internet privacy policy for state agencies that maintain
+state agency websites. Such model privacy policy shall include, but not
+be limited to, the following elements:
+  (a) a statement of any information, including personal information,
+the state agency website will collect with respect to the user and the
+use of the information;
+  (b) the circumstances under which information, including personal
+information, collected may be disclosed;
+  (c) whether any information collected will be retained by the state
+agency, and, if so, the period of time that such information will be
+retained;
+  (d) the procedures by which a user may gain access to the collected
+information pertaining to that user;
+  (e) the means by which information is collected and whether such
+collection occurs actively or passively;
+  (f) whether the collection of information is voluntary or required,
+and the consequences, if any, of a refusal to provide the required
+information; and
+  (g) the steps being taken by the state agency to protect the
+confidentiality and integrity of the information.
+  2. Each state agency that maintains a state agency website shall adopt
+an internet privacy policy which shall, at a minimum, include the
+information required by the model internet privacy policy. Each state
+agency shall post its internet privacy policy on its website. Such
+posting shall include a conspicuous and direct link to such privacy
+policy.
+  3. The model internet privacy policy specified by the office shall
+also be made available at no charge to other public and private
+entities.
+
+  § 204. Collection and disclosure of personal information. No state
+agency shall collect personal information concerning a user through a
+state agency website, or disclose personal information concerning a user
+to any person, firm, partnership, corporation, limited liability company
+or other entity, including internal staff who do not need the
+information in the performance of their official duties pursuant to a
+state agency purpose meeting the requirements of subdivision one of
+section two hundred six of this article, unless such user has consented
+to the collection or disclosure of such personal information. For the
+purposes of this section, the voluntary disclosure of personal
+information to a state agency by a user through a state agency website,
+whether solicited or unsolicited, shall constitute consent to the
+collection or disclosure of the information by the state agency for the
+purposes for which the user disclosed it to the state agency, as
+reasonably ascertainable from the nature and terms of the disclosure.
+
+  § 205. Access to personal information. Except as otherwise provided by
+law, a state agency shall provide users with access to all personal
+information pertaining to such user which has been collected through its
+state agency website. Access to such personal information and the
+opportunity to request correction or amendment of such personal
+information shall be provided to users in the manner provided for access
+to and correction or amendment of personal information under section
+ninety-five of the public officers law. A state agency shall provide a
+user access to such personal information via the internet when such
+access is feasible and only if that access can be provided in a secure
+manner.
+
+  § 206. Exceptions. Notwithstanding section two hundred four of this
+article, a state agency may collect or disclose personal information if
+the collection or disclosure is:
+  1. necessary to perform the statutory duties of the state agency that
+collected or is collecting the personal information, or necessary for
+that agency to operate a program authorized by law, or authorized by
+state or federal statute or regulation;
+  2. made pursuant to a court order or by law;
+  3. for the purpose of validating the identity of the user; or
+  4. if the information is used solely for statistical purposes and is
+in a form that cannot be used to identify any particular person.
+
+  § 207. Construction. Nothing in this article shall abridge public
+access to information available or permitted by any other provision or
+rule of law, including without limitation article six of the public
+officers law. Nothing in this article shall authorize the collection or
+disclosure of information the collection or disclosure of which is
+prohibited or restricted by any other provision of law, including
+without limitation article six-A of the public officers law. Nothing in
+this article shall alter the obligations of state agencies and users
+pursuant to article six-A of the public officers law.
+
+  § 208. Notification; person without valid authorization has acquired
+private information. 1. As used in this section, the following terms
+shall have the following meanings:
+  (a) "Private information" shall mean either: (i) personal information
+consisting of any information in combination with any one or more of the
+following data elements, when either the data element or the combination
+of personal information plus the data element is not encrypted or
+encrypted with an encryption key that has also been accessed or
+acquired:
+  (1) social security number;
+  (2) driver's license number or non-driver identification card number;
+  (3) account number, credit or debit card number, in combination with
+any required security code, access code, password or other information
+which would permit access to an individual's financial account;
+  (4) account number, or credit or debit card number, if circumstances
+exist wherein such number could be used to access to an individual's
+financial account without additional identifying information, security
+code, access code, or password; or
+  (5) biometric information, meaning data generated by electronic
+measurements of an individual's unique physical characteristics, such as
+fingerprint, voice print, or retina or iris image, or other unique
+physical representation or digital representation which are used to
+authenticate or ascertain the individual's identity; or
+  (ii) a user name or e-mail address in combination with a password or
+security question and answer that would permit access to an online
+account.
+  "Private information" does not include publicly available information
+that is lawfully made available to the general public from federal,
+state, or local government records.
+  (b) "Breach of the security of the system" shall mean unauthorized
+acquisition or acquisition without valid authorization of computerized
+data which compromises the security, confidentiality, or integrity of
+personal information maintained by a state entity. Good faith
+acquisition of personal information by an employee or agent of a state
+entity for the purposes of the agency is not a breach of the security of
+the system, provided that the private information is not used or subject
+to unauthorized disclosure.
+  In determining whether information has been acquired, or is reasonably
+believed to have been acquired, by an unauthorized person or a person
+without valid authorization, such state entity may consider the
+following factors, among others:
+  (1) indications that the information is in the physical possession and
+control of an unauthorized person, such as a lost or stolen computer or
+other device containing information; or
+  (2) indications that the information has been downloaded or copied; or
+  (3) indications that the information was used by an unauthorized
+person, such as fraudulent accounts opened or instances of identity
+theft reported.
+  (c) "State entity" shall mean any state board, bureau, division,
+committee, commission, council, department, public authority, public
+benefit corporation, office or other governmental entity performing a
+governmental or proprietary function for the state of New York, except:
+  (1) the judiciary; and
+  (2) all cities, counties, municipalities, villages, towns, and other
+local agencies.
+  (d) "Consumer reporting agency" shall mean any person which, for
+monetary fees, dues, or on a cooperative nonprofit basis, regularly
+engages in whole or in part in the practice of assembling or evaluating
+consumer credit information or other information on consumers for the
+purpose of furnishing consumer reports to third parties, and which uses
+any means or facility of interstate commerce for the purpose of
+preparing or furnishing consumer reports. A list of consumer reporting
+agencies shall be compiled by the state attorney general and furnished
+upon request to state entities required to make a notification under
+subdivision two of this section.
+  2. Any state entity that owns or licenses computerized data that
+includes private information shall disclose any breach of the security
+of the system following discovery or notification of the breach in the
+security of the system to any resident of New York state whose private
+information was, or is reasonably believed to have been, accessed or
+acquired by a person without valid authorization. The disclosure shall
+be made in the most expedient time possible and without unreasonable
+delay, consistent with the legitimate needs of law enforcement, as
+provided in subdivision four of this section, or any measures necessary
+to determine the scope of the breach and restore the integrity of the
+data system. The state entity shall consult with the state office of
+information technology services to determine the scope of the breach and
+restoration measures. Within ninety days of the notice of the breach,
+the office of information technology services shall deliver a report on
+the scope of the breach and recommendations to restore and improve the
+security of the system to the state entity.
+  (a) Notice to affected persons under this section is not required if
+the exposure of private information was an inadvertent disclosure by
+persons authorized to access private information, and the state entity
+reasonably determines such exposure will not likely result in misuse of
+such information, or financial or emotional harm to the affected
+persons. Such a determination must be documented in writing and
+maintained for at least five years. If the incident affected over five
+hundred residents of New York, the state entity shall provide the
+written determination to the state attorney general within ten days
+after the determination.
+  (b) If notice of the breach of the security of the system is made to
+affected persons pursuant to the breach notification requirements under
+any of the following laws, nothing in this section shall require any
+additional notice to those affected persons, but notice still shall be
+provided to the state attorney general, the department of state and the
+office of information technology services pursuant to paragraph (a) of
+subdivision seven of this section and to consumer reporting agencies
+pursuant to paragraph (b) of subdivision seven of this section:
+  (i) regulations promulgated pursuant to Title V of the federal
+Gramm-Leach-Bliley Act (15 U.S.C. 6801 to 6809), as amended from time to
+time;
+  (ii) regulations implementing the Health Insurance Portability and
+Accountability Act of 1996 (45 C.F.R. parts 160 and 164), as amended
+from time to time, and the Health Information Technology for Economic
+and Clinical Health Act, as amended from time to time;
+  (iii) part five hundred of title twenty-three of the official
+compilation of codes, rules and regulations of the state of New York, as
+amended from time to time; or
+  (iv) any other data security rules and regulations of, and the
+statutes administered by, any official department, division, commission
+or agency of the federal or New York state government as such rules,
+regulations or statutes are interpreted by such department, division,
+commission or agency or by the federal or New York state courts.
+  3. Any state entity that maintains computerized data that includes
+private information which such agency does not own shall notify the
+owner or licensee of the information of any breach of the security of
+the system immediately following discovery, if the private information
+was, or is reasonably believed to have been, accessed or acquired by a
+person without valid authorization.
+  4. The notification required by this section may be delayed if a law
+enforcement agency determines that such notification impedes a criminal
+investigation. The notification required by this section shall be made
+after such law enforcement agency determines that such notification does
+not compromise such investigation.
+  5. The notice required by this section shall be directly provided to
+the affected persons by one of the following methods:
+  (a) written notice;
+  (b) electronic notice, provided that the person to whom notice is
+required has expressly consented to receiving said notice in electronic
+form and a log of each such notification is kept by the state entity who
+notifies affected persons in such form; provided further, however, that
+in no case shall any person or business require a person to consent to
+accepting said notice in said form as a condition of establishing any
+business relationship or engaging in any transaction;
+  (c) telephone notification provided that a log of each such
+notification is kept by the state entity who notifies affected persons;
+or
+  (d) Substitute notice, if a state entity demonstrates to the state
+attorney general that the cost of providing notice would exceed two
+hundred fifty thousand dollars, or that the affected class of subject
+persons to be notified exceeds five hundred thousand, or such agency
+does not have sufficient contact information. Substitute notice shall
+consist of all of the following:
+  (1) e-mail notice when such state entity has an e-mail address for the
+subject persons;
+  (2) conspicuous posting of the notice on such state entity's web site
+page, if such agency maintains one; and
+  (3) notification to major statewide media.
+  6. Regardless of the method by which notice is provided, such notice
+shall include contact information for the state entity making the
+notification, the telephone numbers and websites of the relevant state
+and federal agencies that provide information regarding security breach
+response and identity theft prevention and protection information and a
+description of the categories of information that were, or are
+reasonably believed to have been, accessed or acquired by a person
+without valid authorization, including specification of which of the
+elements of personal information and private information were, or are
+reasonably believed to have been, so accessed or acquired.
+  7. (a) In the event that any New York residents are to be notified,
+the state entity shall notify the state attorney general, the department
+of state and the state office of information technology services as to
+the timing, content and distribution of the notices and approximate
+number of affected persons and provide a copy of the template of the
+notice sent to affected persons. Such notice shall be made without
+delaying notice to affected New York residents.
+  (b) In the event that more than five thousand New York residents are
+to be notified at one time, the state entity shall also notify consumer
+reporting agencies as to the timing, content and distribution of the
+notices and approximate number of affected persons. Such notice shall be
+made without delaying notice to affected New York residents.
+  8. The state office of information technology services shall develop,
+update and provide regular training to all state entities relating to
+best practices for the prevention of a breach of the security of the
+system.
+  9. Any covered entity required to provide notification of a breach,
+including breach of information that is not "private information" as
+defined in paragraph (a) of subdivision one of this section, to the
+secretary of health and human services pursuant to the Health Insurance
+Portability and Accountability Act of 1996 or the Health Information
+Technology for Economic and Clinical Health Act, as amended from time to
+time, shall provide such notification to the state attorney general
+within five business days of notifying the secretary.
+  10. Any entity listed in subparagraph two of paragraph (c) of
+subdivision one of this section shall adopt a notification policy no
+more than one hundred twenty days after the effective date of this
+section. Such entity may develop a notification policy which is
+consistent with this section or alternatively shall adopt a local law
+which is consistent with this section.
+
+  § 209. Notification of a breach of the security of the system or a
+breach of network security; shared data. 1. The office shall, within
+twenty-four hours of either being notified of or receiving evidence of a
+breach of the security of the system, or a breach of network security,
+as defined in paragraphs (a) and (b) of subdivision three of this
+section, notify the chief information officer, the chief information
+security officer, and where appropriate, the cyber security coordinator
+of any state entity with which it shares data, provides networked
+services or shares a network connection whose data, services or
+connection is reasonably suspected to be affected by any such breach.
+  2. The office shall provide the chief information officer, the chief
+information security officer, and where appropriate, the cyber risk
+coordinator of any state entity, who has been notified pursuant to
+subdivision one of this section, with its plan for remediation of the
+breach and future protection of such data and network.
+  3. For purposes of this section:
+  (a) "Breach of the security of the system" shall have the same meaning
+as defined in paragraph (b) of subdivision one of section two hundred
+eight of this article.
+  (b) "Breach of network security" shall mean unauthorized access to or
+access without valid authorization of a computer network which
+compromises the security, confidentiality, or integrity of such network.
+  (c) "State entity" shall have the same meaning as provided by
+paragraph (c) of subdivision one of section two hundred eight of this
+article.
+
+  § 210. Cybersecurity protection. 1. Definitions. For purposes of this
+section, the following terms shall have the following meanings:
+  (a) "Breach of the security of the system" shall have the same meaning
+as such term is defined in section two hundred eight of this article.
+  (b) "Data subject" means any natural person about whom personal
+information has been collected by a state agency.
+  (c) "Information system" means a discrete set of information resources
+organized for the collection, processing, maintenance, use, sharing,
+dissemination, or disposition of information.
+  (d) "State agency-maintained personal information" means personal
+information stored by a state agency that was generated by a state
+agency or provided to the state agency by the data subject, a state
+agency, a federal governmental entity, or any other third-party source.
+Such term shall also include personal information provided by an adverse
+party in the course of litigation or other adversarial proceeding.
+  (e) "State agency" shall have the same meaning as such term is defined
+in section one hundred one of this chapter.
+  2. Data protection standards. The director shall issue policies and
+standards for:
+  (a) protection against breaches of the security of the information
+systems and for personal information used by such information systems;
+  (b) data backup;
+  (c) information system recovery;
+  (d) secure sanitization and deletion of data;
+  (e) vulnerability management and assessment; and
+  (f) annual workforce training regarding protection against breaches of
+the security of the system, as well as processes and procedures that
+should be followed in the event of a breach of the security of the
+system.
+  3. Information system inventory. (a) No later than two years after the
+effective date of this section, each state agency shall create, then
+maintain, an inventory of its information systems.
+  (b) Upon written request from the office, a state agency shall provide
+the office with the state agency-maintained information systems
+inventories required to be created or updated pursuant to this
+subdivision.
+  (c) Notwithstanding paragraph (a) of this subdivision, the state
+agency-maintained information systems inventories required to be created
+or updated pursuant to this subdivision shall be kept confidential, as
+disclosure of such information would jeopardize the security of a state
+agency's information systems and information technology assets and,
+further, shall not be made available for disclosure or inspection under
+the state freedom of information law.
+  4. Incident management and recovery. (a) No later than eighteen months
+after the effective date of this section, each state agency shall have
+created an incident response plan for incidents involving a breach of
+the security of the system that render an information system or its data
+unavailable, and incidents involving a breach of the security of the
+system that result in the alteration or deletion of or unauthorized
+access to, personal information.
+  (b) Such incident response plan shall include, but not be limited to,
+a procedure for situations where information systems have been adversely
+affected by a breach of the security of the system, as well as a
+procedure for the recovery of personal information and information
+systems.
+  (c) Beginning January first, two thousand twenty-eight and on an
+annual basis thereafter, each state agency shall complete at least one
+exercise of its incident response plan. Upon completion of such
+exercise, the state agency shall document the incident response plan's
+successes and shortcomings in an incident response plan exercise report.
+The incident response plan and any incident response plan exercise
+reports shall be kept confidential, as disclosure of such information
+would jeopardize the security of a state agency's information systems
+and information technology assets, and, further, shall not be made
+available for disclosure or inspection under the state freedom of
+information law.
+  5. No private right of action. Nothing set forth in this section shall
+be construed as creating or establishing a private cause of action.

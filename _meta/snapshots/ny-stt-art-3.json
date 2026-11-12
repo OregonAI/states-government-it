@@ -1,0 +1,209 @@
+{
+  "success" : true,
+  "message" : "The document structure for STT law",
+  "responseType" : "law-tree",
+  "result" : {
+    "lawVersion" : {
+      "lawId" : "STT",
+      "activeDate" : "2026-03-20"
+    },
+    "info" : {
+      "lawId" : "STT",
+      "name" : "State Technology",
+      "lawType" : "CONSOLIDATED",
+      "chapter" : "57-A"
+    },
+    "publishedDates" : [ "2014-09-22", "2017-12-01", "2018-03-02", "2018-04-27", "2019-08-02", "2019-11-01", "2020-04-10", "2020-04-24", "2021-01-29", "2021-07-09", "2021-12-31", "2022-03-04", "2022-04-15", "2022-12-09", "2023-04-07", "2023-06-02", "2023-06-30", "2023-10-27", "2023-12-29", "2024-02-02", "2024-02-09", "2024-02-16", "2024-06-21", "2024-07-05", "2024-11-29", "2024-12-27", "2025-01-03", "2025-02-21", "2025-03-28", "2025-07-04", "2025-11-21", "2025-12-19", "2025-12-26", "2026-01-09", "2026-02-27", "2026-03-06", "2026-03-20" ],
+    "documents" : {
+      "lawId" : "STT",
+      "lawName" : "State Technology",
+      "locationId" : "A3",
+      "title" : "Electronic Signatures and Records Act",
+      "docType" : "ARTICLE",
+      "publishedDates" : [ "2014-09-22" ],
+      "docLevelId" : "3",
+      "activeDate" : "2014-09-22",
+      "sequenceNo" : 31,
+      "repealedDate" : null,
+      "fromSection" : "301",
+      "toSection" : "309",
+      "text" : "                               ARTICLE III\\n                  ELECTRONIC SIGNATURES AND RECORDS ACT\\nSection 301. Short title.\\n        302. Definitions.\\n        303. Electronic facilitator.\\n        304. Use of electronic signatures.\\n        305. Use of electronic records.\\n        306. Admissibility into evidence.\\n        307. Exceptions.\\n        308. Personal privacy protection.\\n        309. Use of electronic records and signatures to be voluntary.\\n",
+      "documents" : {
+        "items" : [ {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "301",
+          "title" : "Short title",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "301",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 32,
+          "repealedDate" : null,
+          "fromSection" : "301",
+          "toSection" : "301",
+          "text" : "  § 301. Short title. This article shall be known and may be cited as\\nthe \"electronic signatures and records act\".\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "302",
+          "title" : "Definitions",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "302",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 33,
+          "repealedDate" : null,
+          "fromSection" : "302",
+          "toSection" : "302",
+          "text" : "  § 302. Definitions. For the purpose of this article:\\n  1. \"Electronic\" shall mean of or relating to technology having\\nelectrical, digital, magnetic, wireless, optical, electromagnetic, or\\nsimilar capabilities.\\n  2. \"Electronic record\" shall mean information, evidencing any act,\\ntransaction, occurrence, event, or other activity, produced or stored by\\nelectronic means and capable of being accurately reproduced in forms\\nperceptible by human sensory capabilities.\\n  3. \"Electronic signature\" shall mean an electronic sound, symbol, or\\nprocess, attached to or logically associated with an electronic record\\nand executed or adopted by a person with the intent to sign the record.\\n  4. \"Person\" shall mean a natural person, corporation, trust, estate,\\npartnership, incorporated or unincorporated association or any other\\nlegal entity, and also includes any department, agency, authority, or\\ninstrumentality of the state or its political subdivisions.\\n  5. \"Governmental entity\" shall mean any state department, board,\\nbureau, division, commission, committee, public authority, public\\nbenefit corporation, council, office, or other governmental entity or\\nofficer of the state having statewide authority, except the state\\nlegislature, and any political subdivision of the state.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "303",
+          "title" : "Electronic facilitator",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "303",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 34,
+          "repealedDate" : null,
+          "fromSection" : "303",
+          "toSection" : "303",
+          "text" : "  § 303. Electronic facilitator. 1. The office of information technology\\nservices shall be the electronic facilitator and administer this\\narticle. In addition to the authority, duties and responsibilities set\\nforth in article one of this chapter, the electronic facilitator shall\\nhave the authority, duties and responsibilities granted in this article.\\n  2. The electronic facilitator shall have the following functions,\\npowers, and duties:\\n  (a) To promulgate rules and regulations consistent with the provisions\\nof this article. In developing rules and regulations, the electronic\\nfacilitator shall seek the advice of the attorney general, the state\\ncomptroller, the director of budget, government and private entities and\\nindividuals as the electronic facilitator deems appropriate.\\n  (b) To cooperate with government and private entities and individuals\\nin order to assist in the development and implementation of this\\narticle.\\n  (c) To develop guidelines for the improvement of business and commerce\\nby electronic means. Such guidelines shall identify preferred technology\\nstandards relating to security, confidentiality and privacy of\\nelectronic signatures and electronic records.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "304",
+          "title" : "Use of electronic signatures",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "304",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 35,
+          "repealedDate" : null,
+          "fromSection" : "304",
+          "toSection" : "304",
+          "text" : "  § 304. Use of electronic signatures. 1. The electronic facilitator\\nshall establish rules and regulations governing the use of electronic\\nsignatures and authentication. The electronic facilitator shall not\\nestablish rules or regulations that seek to apportion fault or impose or\\nlimit liability relating to the use of electronic signatures.\\n  2. In accordance with this section unless specifically provided\\notherwise by law, an electronic signature may be used by a person in\\nlieu of a signature affixed by hand. The use of an electronic signature\\nshall have the same validity and effect as the use of a signature\\naffixed by hand.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "305",
+          "title" : "Use of electronic records",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "305",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 36,
+          "repealedDate" : null,
+          "fromSection" : "305",
+          "toSection" : "305",
+          "text" : "  § 305. Use of electronic records. 1. In accordance with rules and\\nregulations promulgated by the electronic facilitator, government\\nentities are authorized and empowered to produce, receive, accept,\\nacquire, record, file, transmit, forward, and store information by use\\nof electronic means. If any such government entity uses electronic\\nrecords, it must also ensure that anyone who uses the services of such\\ngovernment entity may obtain access to records as permitted by statute,\\nand receive copies of such records in paper form in accordance with fees\\nprescribed by statute. No person shall be required to submit or file any\\nrecord electronically to any government entity except as otherwise\\nprovided by law. Government entities that obtain, store, or utilize\\nelectronic records shall not refuse to accept hard copy, non-electronic\\nforms, reports, and other paper documents for submission or filing\\nexcept as otherwise provided by law.\\n  2. A government entity shall have the authority to dispose of or\\ndestroy a record in accordance with the arts and cultural affairs law,\\nregardless of format or media.\\n  3. An electronic record shall have the same force and effect as those\\nrecords not produced by electronic means.\\n  4. The director shall study how electronic documents and the\\nmechanisms and processes for obtaining access to and reading electronic\\ndata can be created, maintained, exchanged, and preserved by the state\\nin a manner that encourages appropriate government control, access,\\nchoice, interoperability, and vendor neutrality. The study shall\\nconsider, but not be limited to, the policies of other states and\\nnations, management guidelines for state archives as they pertain to\\nelectronic documents, public access, expected storage life of electronic\\ndocuments, costs of implementation, and savings. The director shall\\nsolicit comments regarding the creation, maintenance, exchange, and\\npreservation of electronic documents by the state from stakeholders,\\nincluding but not limited to, the office of the state comptroller, the\\noffice of the attorney general, the state archives, and the state\\nhistorian. The director shall also solicit comments from members of the\\npublic. The director shall report findings and recommendations to the\\ngovernor, the speaker of the assembly, and the temporary president of\\nthe senate on or before January fifteenth, two thousand eight.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "306",
+          "title" : "Admissibility into evidence",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "306",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 37,
+          "repealedDate" : null,
+          "fromSection" : "306",
+          "toSection" : "306",
+          "text" : "  § 306. Admissibility into evidence. In any legal proceeding where the\\nprovisions of the civil practice law and rules are applicable, an\\nelectronic record or electronic signature may be admitted into evidence\\npursuant to the provisions of article forty-five of the civil practice\\nlaw and rules including, but not limited to section four thousand five\\nhundred thirty-nine of such law and rules.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "307",
+          "title" : "Exceptions",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22", "2021-07-09", "2023-10-27", "2024-02-09", "2025-12-19", "2026-02-27" ],
+          "docLevelId" : "307",
+          "activeDate" : "2026-02-27",
+          "sequenceNo" : 38,
+          "repealedDate" : null,
+          "fromSection" : "307",
+          "toSection" : "307",
+          "text" : "  § 307. Exceptions. This article shall not apply:\\n  * 1. To any document providing for the disposition of an individual's\\nperson or property upon death or incompetence, or appointing a fiduciary\\nof an individual's person or property, including, without limitation,\\nwills, trusts, decisions consenting to orders not to resuscitate, and\\npowers of attorney, with the exception of: (a) contractual beneficiary\\ndesignations; (b) the registration of making, amending, or revoking an\\nanatomical gift under section forty-three hundred ten of the public\\nhealth law; (c) documents and forms authorizing or accepting funeral,\\ncemetery and cremation services; and (d) the execution of a valid power\\nof attorney for the purpose of transferring a salvage certificate of\\ntitle and the execution of an odometer and damage disclosure statement\\nin connection with such title whenever a loss in connection with a\\nprivate automobile is determined by an insurer to be a total loss or\\nconstructive total loss under section three thousand four hundred twelve\\nof the insurance law.\\n  * NB Effective until December 12, 2027\\n  * 1. To any document providing for the disposition of an individual's\\nperson or property upon death or incompetence, or appointing a fiduciary\\nof an individual's person or property, including, without limitation,\\nwills, unless such will is executed pursuant to part six of article\\nthree of the estates, powers and trusts law, trusts, decisions\\nconsenting to orders not to resuscitate, and powers of attorney, with\\nthe exception of: (a) contractual beneficiary designations; (b) the\\nregistration of making, amending, or revoking an anatomical gift under\\nsection forty-three hundred ten of the public health law; (c) documents\\nand forms authorizing or accepting funeral, cemetery and cremation\\nservices; and (d) the execution of a valid power of attorney for the\\npurpose of transferring a salvage certificate of title and the execution\\nof an odometer and damage disclosure statement in connection with such\\ntitle whenever a loss in connection with a private automobile is\\ndetermined by an insurer to be a total loss or constructive total loss\\nunder section three thousand four hundred twelve of the insurance law.\\n  * NB Effective December 12, 2027\\n  2. To any negotiable instruments and other instruments of title\\nwherein possession of the instrument is deemed to confer title, unless\\nan electronic version of such record is created, stored or transferred\\npursuant to this article in a manner that allows for the existence of\\nonly one unique, identifiable and unalterable version which cannot be\\ncopied except in a form that is readily identifiable as a copy.\\n  3. To any other document that the electronic facilitator has\\nspecifically excepted, pursuant to the rules and regulations of the\\nelectronic facilitator, from the application of this article.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "308",
+          "title" : "Personal privacy protection",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "308",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 39,
+          "repealedDate" : null,
+          "fromSection" : "308",
+          "toSection" : "308",
+          "text" : "  § 308. Personal privacy protection. 1. Any information reported to the\\nelectronic facilitator by a government entity in connection with the\\nauthorization of an electronic signature shall continue to be withheld\\nfrom public disclosure if such information was withheld from public\\ndisclosure by such government entity. Electronic records shall be\\nconsidered and treated as any other records for the purposes of the\\nfreedom of information law as set forth in article six of the public\\nofficers law and the personal privacy protection law as set forth in\\narticle six-A of the public officers law.\\n  2. A person or an entity that acts as an authenticator of electronic\\nsignatures shall not disclose to a third party any personal information\\nreported to it by the electronic signatory other than the information\\nnecessary to authenticate the signature unless the disclosure is made\\npursuant to a court order or statute, or if the information or data is\\nused solely for statistical purposes in aggregate form. For purposes of\\nthis section, \"personal information\" shall mean data that identifies a\\nspecific person, including but not limited to home and work addresses,\\ntelephone number, e-mail address, social security number, birthdate,\\ngender, marital status, mother's maiden name, and health data.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        }, {
+          "lawId" : "STT",
+          "lawName" : "State Technology",
+          "locationId" : "309",
+          "title" : "Use of electronic records and signatures to be voluntary",
+          "docType" : "SECTION",
+          "publishedDates" : [ "2014-09-22" ],
+          "docLevelId" : "309",
+          "activeDate" : "2014-09-22",
+          "sequenceNo" : 40,
+          "repealedDate" : null,
+          "fromSection" : "309",
+          "toSection" : "309",
+          "text" : "  § 309. Use of electronic records and signatures to be voluntary.\\nNothing in this article shall require any entity or person to use an\\nelectronic record or an electronic signature unless otherwise provided\\nby law.\\n",
+          "documents" : {
+            "items" : [ ],
+            "size" : 0
+          },
+          "repealed" : false
+        } ],
+        "size" : 9
+      },
+      "repealed" : false
+    }
+  }
+}

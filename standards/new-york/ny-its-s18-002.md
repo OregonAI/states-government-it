@@ -1,0 +1,225 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-york
+id: ny-its-s18-002
+title: Service Taxonomy
+doc_type: standard
+citation: NYS ITS Standard ITS-S18-002
+authority_level: ''
+issuing_body: New York State Office of Information Technology Services (ITS)
+source_url: https://its.ny.gov/service-taxonomy
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 563caca2e3498130d6e6d68ad1c6e2c7564d42bd0f10c07220407a03e299e7f4
+effective_date: null
+source_version: 'Updated: 10/28/2024'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Service Taxonomy (NYS ITS Standard ITS-S18-002)
+
+## At a glance
+
+Item of the ITS statewide technology policy and standards library (https://its.ny.gov/policies), category 'IT Standards, ITS Policies' on the listing. The listing prints original publication 11/16/2018 and last modified 10/28/2024.
+
+## Full text
+
+                                               State Capitol P.O. Box 2062
+                                                 Albany, NY 12220-0062
+                                                     www.its.ny.gov
+
+      Office of Information
+                                                          No: ITS-S18-002
+  Technology Services Standard
+
+                 ITS Standard:                            Updated: 10/28/2024
+
+                                                          Issued By: NYS Office of Information
+       Service Taxonomy                                   Technology Services
+
+                                                          Owner: Chief Technology Office
+
+1.0 Purpose and Benefits
+   Provide a common taxonomy for the services provided by the Office of Information
+   Technology Services (ITS) to foster consistent communication among all stakeholders.
+   As a result, ITS can drive innovation for New York State (NYS) agencies, employees
+   and citizens.
+
+2.0 Authority
+   Section 1 of Executive Order No. 117 1 charges the State Chief Information Officer with
+   overseeing and supervising the management and operations of the ITS. Section 102(2)
+   of the State Technology Law gives the Director of ITS responsibility for the
+   administration of ITS. Details regarding this authority can be found in NYS ITS Policy,
+   NYS-P08-002 Authority to Establish State Enterprise Information Technology (IT)
+   Policy, Standards and Guidelines
+
+3.0 Scope
+       This policy applies to ITS and its employees and contractors.
+
+4.0 Information Statement
+   ITS hereby adopts the Taxonomy developed by the Technology Business Management
+   Council and shall categorize all services using the Council’s framework. Information on
+
+   1
+    All references to Executive Order 117 refer to that which was originally issued by Governor George E. Pataki on
+   January 28, 2002 and continued by Executive Order 5 issued by Governor Eliot Spitzer on January 1, 2007, Executive
+   Order 9 issued by Governor David A. Patterson on June 18, 2008, Executive Order 2 issued by Governor Andrew
+   M. Cuomo on January 1, 2011 and Executive Order 6 issued by Governor Kathy Hochul on October 8, 2021.
+   ITS-S18-002
+                                                                                                         Page 1 of 3
+
+   the taxonomy may be found at https://www.tbmcouncil.org/. Version 4.0 of the
+   Taxonomy is currently being adhered to, with the State Government Business Services
+   extension. The State Government Business Service extension may be found in Exhibit
+   1 of this Policy.
+
+5.0 Compliance
+   This standard shall take effect upon publication. Compliance is required with all
+   enterprise policies and standards. ITS may amend its policies and standards at any
+   time; compliance with amended policies and standards is required.
+   Exceptions must follow NYS's Technology Exception Policy.
+
+6.0 Definitions of Key Terms
+   Except for terms defined in this policy, all terms shall have the meanings found in
+   http://www.its.ny.gov/glossary.
+
+    Term                Definition
+
+    ITBM                Information Technology Business Management
+
+                        Science of classification according to a predetermined system, with
+    Taxonomy            the resulting catalog used to provide a conceptual framework for
+                        discussion, analysis or information retrieval
+
+7.0 Contact Information
+      Submit all inquiries and requests for future enhancements to the policy owner at:
+                                 Chief Technology Office
+                                 Reference: ITS-S18-002
+                 New York State Office of Information Technology Services
+                                    Empire State Plaza
+                             P.O. Box 2062 Albany, NY 12220
+                                Telephone: 518-402-7000
+        Statewide technology policies, standards, and guidelines may be found at the
+                        following website: https://its.ny.gov/policies
+
+8.0 Revision History
+   This standard should be reviewed consistent with the requirements set forth in ITS-P24-
+   003 Process for Establishing Information Technology Policies, Standards, and
+   Guidelines.
+
+   ITS-S18-002                                                                     Page 2 of 3
+
+    Date         Description of Change                         Reviewer
+    7/8/2024     Updated to TBM version 4.0                    Chief Digital
+                                                               Transformation Office
+    11/16/2018   Issued Internal Document                      Chief Technology Office
+    09/23/2020   Scheduled review, taxonomy version updated.   Chief Technology Office
+    10/28/2024   Scheduled update – no changes                 Chief Technology Office
+
+9.0 Related Documents
+   NYS-P03-002 Information Security Policy
+
+   ITS-S18-002                                                             Page 3 of 3
+
+New York State – Office of Information Technology Services – Service
+Taxonomy Exhibit 1
+
+ITS Extensions 2 to the Service Taxonomy Standard
+
+Business Services: State Government
+
+          •   Commerce Services
+                  o Employment Assistance
+                  o Labor Management
+                  o Business Development and Management
+                  o Economic Services
+                  o Regulatory Services
+          •   Education
+                  o Early Childhood Development
+                  o K-12 Education
+                  o Higher Education
+                  o Professional Development and Certification
+                  o Regulatory and Audit Functions
+          •   Military Services
+                  o Veteran Services
+                  o Emergency Management
+                  o National Guard and Militia
+                  o Disaster Management and Planning
+                  o Regulatory and Compliance Services
+          •   Civic Engagement and Law
+                  o Voting and Democratic Participation
+                  o Legislative Services
+                  o Archives and Information Requests
+                  o Civil and Appellate Courts
+                  o Executive Office and Performance Management
+          •   Fiscal and Revenue Services
+                  o Revenue Collection Services
+                  o Regulatory and Enforcement Services
+                  o External Audits
+                  o Internal Audits
+                  o Investment Banking
+                  o Bonds and Interest
+                  o Real Estate
+                  o Capital Management
+
+2
+    State Government TBM Taxonomy – Version 1.0 - February 2020
+
+ITS-S18-002 Exhibit 1                                             Page 1 of 2
+
+        •   Land Management and Conservation
+               o Public Land Administration
+               o Environmental Protections
+               o Animal and Pest Management
+               o Parks and Recreation
+               o Regulatory and Enforcement Services
+        •   Health and Human Services
+               o Public Health
+               o Government Healthcare Provider Administration
+               o Medical Records Management
+               o Medical Licensing
+               o Compliance and Audit Services
+        •   Public Safety
+               o Police and First Responders
+               o Prisons and Corrections
+               o Civil Enforcement
+               o Investigative and Compliance Services
+               o Criminal Justice System
+        •   Transportation and Infrastructure
+               o Maintenance and Operations
+               o Project Delivery
+               o Planning and Modal
+               o Infrastructure Management and Tolling
+               o Fleet Management
+               o Transportation Licensing
+        •   Statewide Services
+               o Statewide Delivery Services
+               o Statewide Infrastructure Services
+               o Statewide Platform Services
+               o Statewide Shared Services
+               o Statewide Workplace Services
+
+ITS-S18-002 Exhibit 1                                            Page 2 of 2
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

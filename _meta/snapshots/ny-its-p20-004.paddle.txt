@@ -1,0 +1,43 @@
+NEWYORK
+Office of Information
+STATE OF
+OPPORTUNITY
+Technology Services
+State Capitol P.O. Box 2062
+Albany, NY 12220-0062
+www.its.ny.gov
+Office of Information
+No: ITS-P20-004
+Technology Services Policy
+Issued: 12/11/2020
+ITS Policy:
+Technology Projects in
+Issued By: NYS Office of Information
+Technology Services
+Response to Critical
+Owner: Chief Portfolio Office
+Incidents and
+Governor's Initiatives
+1.0 Purpose and Benefits
+During Critical Incidents, the Office of Information Technology Services (ITS) is often
+faced with many requests from the Executive Chamber or ITS supported agencies
+(client agency) for work items to support emergency, crises, and disaster response. The
+typical Information Technology (IT) Governance processes utilizing the IT Investment
+Request Form, Agency Governance Boards, and Portfolio Executive Board for decision-
+making may not be well suited to support all response efforts during a Critical Incident
+or Governor's initiative related thereto. For these situations, ITS has created an
+expedited project and initiatives submission and approval process. This policy outlines
+the expedited project and initiative submission and approval process to serve as a
+repeatable process during Critical Incidents or Governor's initiatives related thereto.
+2.0 Authority
+Section 103(10) of the State Technology Law provides ITS with the authority to establish
+statewide technology policies, including technology and security standards. Section 2
+of Executive Order No. 1171, established January 2002, provides the State Chief
+Information Officer (CIO) with the authority to oversee, direct, and coordinate the
+establishment of information technology policies, protocols, and standards for State
+government, including hardware, software, security, and business re-engineering.
+1 All references to Executive Order 117 refer to that which was originally issued by Governor George E. Pataki on
+January 28, 2002 and continued by Executive Order 5 issued by Governor Eliot Spitzer on January 1, 2007,
+Executive Order 9 issued by Governor David A. Patterson on June 18, 2008, and Executive Order 2 issued by
+Governor Andrew M. Cuomo on January 1, 2011, and Executive Order 6 issued by Governor Kathy Hochul on
+October 8, 2021.

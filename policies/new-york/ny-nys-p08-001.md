@@ -1,0 +1,470 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-york
+id: ny-nys-p08-001
+title: Plan to Procure
+doc_type: policy
+citation: NYS ITS Policy NYS-P08-001
+authority_level: ''
+issuing_body: New York State Office of Information Technology Services (ITS)
+source_url: https://its.ny.gov/plan-procure
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 6151a236626f9f34aaa0c78c31372ac975aeb2a80478ed45612871e3173c50c5
+effective_date: null
+source_version: 'Updated: 12/03/2025'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Plan to Procure (NYS ITS Policy NYS-P08-001)
+
+## At a glance
+
+Item of the ITS statewide technology policy and standards library (https://its.ny.gov/policies), category 'Procurement, Statewide Policies' on the listing. The listing prints original publication 04/01/2008 and last modified 12/03/2025.
+
+## Full text
+
+                               State Capitol P.O. Box 2062
+                                 Albany, NY 12220-0062
+                                     www.its.ny.gov
+
+       New York State Information
+                                                No: NYS-P08-001
+          Technology Policy
+
+                                                Updated: 12/03/2025
+                 IT Policy:
+                                                Issued By: NYS Office of
+       Plan to Procure                          Information Technology Services
+
+                                                Owner: Chief Strategy Office
+
+1.0 Purpose and Benefits
+The purpose of this policy is to ensure New York State (NYS or State) strategically
+plans, procures, and manages Information Technology (IT) investments by fully
+leveraging the State's purchasing power and creating value for delivering better
+government services across the State enterprise through greater economies of
+scale.
+
+This policy is designed to:
+
+   •   Enable ITS to proactively understand the technology requirements of NYS
+       government agencies.
+
+   •   Assist in determining if the NYS Office of Information Technology Services
+       (ITS) can supply the technology required, or if ITS must outsource on behalf
+       of the NYS government agency.
+
+   •   Enable ITS to propose cost effective solutions to NYS government
+       agencies, where possible, instead of outsourcing.
+
+   •   Ensure that all work performed by/on behalf of ITS is appropriately funded
+       including, but not limited to: technology reviews, implementation, integration
+       and ongoing operational support.
+
+This policy further elaborates on the shared roles of ITS and the NYS Division of
+the Budget (DOB) in implementing the information technology governance
+framework as defined in both the Statewide Policy for Information Technology
+Investment and Governance H-0300 and Building a High Performance
+Government L-1220. Other partners critical to the successful execution of this
+policy are the NYS Office of the State Comptroller (OSC), and the NYS Office of
+General Services’ (OGS) Business Services Center (BSC).
+
+2.0 Authority
+Section 103(10) of the State Technology Law provides ITS with the authority to
+establish statewide technology policies, including technology and security
+standards. Section 2 of Executive Order No. 117, 1 issued January 2002, provides
+the State Chief Information Officer with the authority to oversee, direct and
+coordinate the establishment of information technology policies, protocols and
+standards for State government, including hardware, software, security, and
+business re-engineering. Details regarding this authority can be found in NYS ITS
+Policy, NYS-P08-002 Authority to Establish State Enterprise Information
+Technology Policy, Standards and Guidelines.
+
+3.0 Scope
+This policy applies to all “State Agencies” (SA) as defined in Section 101 of the
+State Technology Law. This includes employees, and all third parties (e.g., local
+governments, consultants, vendors, contractors, or any other entity that is
+authorized to do business on behalf of the SA), that use or access any Information
+Technology (IT) Resource for which the SA or ITS has administrative responsibility,
+including systems managed or hosted by third parties on behalf of the SA or ITS.
+
+This policy applies to IT procurement activities of SAs or other entities not
+designated as ITS client agencies only if the products/services will integrate with
+or utilize ITS systems and/or services, including connectivity to the ITS network.
+
+Procurement activities are all planned acquisitions, procurements, lease-
+purchases, and/or leases, including amendments to existing contracts, for covered
+IT products and services, regardless of the contract or procurement method
+utilized (IT Purchase). Examples include, but are not limited to, licensing
+agreements, open-market procurements, centralized contract procurements, or
+any other procurement made through or pursuant to the State Finance Law.
+
+1 All references to Executive Order 117 refer to that which was originally issued by Governor George
+
+E. Pataki on January 28, 2002 and continued by Executive Order 5 issued by Governor Eliot Spitzer
+on January 1, 2007, Executive Order 9 issued by Governor David A. Patterson on June 18, 2008,
+and Executive Order 2 issued by Governor Andrew M. Cuomo on January 1, 2011 and Executive
+Order 6 issued by Governor Kathy Hochul on October 8, 2021.
+
+NYS-P08-001                                                                            Page 2 of 10
+
+IT products and services covered under this policy include, but are not limited to,
+operational technology (OT), information management, digital and electronic
+equipment, network-connected devices, software, cloud and “as a service”
+products, operating systems, interface systems, interconnected systems, data
+management systems, telecommunications, networks, broadband network
+management, information and data storage (on-premises/off-premises), hardware,
+licensing, subscription, IT consulting, project and staff augmentation services, data
+center facilities, maintenance, and training. Additionally, this policy encompasses
+security, identity and access management, threat detection and response, incident
+management, regulatory compliance, and governance of IT and OT environments
+to ensure data integrity, confidentiality, and availability across all technology
+systems.
+
+4.0 Information Statement
+To proceed with any IT Purchase, funding must first be identified in the approved
+fiscal year Agency Spend Plan in accordance with DOB Budget Bulletin B-1184,
+Agency Spending Controls: Processes and Approval Requirements, which
+requires DOB approval via the Agency Spending Controls Application (ASCA) for
+agency spending based on request type and value.
+
+As the primary provider of statewide IT policy and strategic direction, ITS delivers
+essential IT products and services to support the mission of NYS. ITS requires all
+SA IT procurements defined in Section 4.1.1 to meet the following conditions:
+
+   •   ITS will provide the product/service requested, either directly or through a
+       third-party vendor, or recommend that it be procured via an ITS-managed
+       contract if that contract offers materially better pricing, support, or
+       integration benefits. Otherwise, the SA may execute the procurement
+       through a valid OGS or statewide contract. For commodity hardware
+       purchases (e.g., simple monitors) that do not involve network integration or
+       processing of NYS-classified data, and are procured via an approved OGS
+       or statewide contract, the SA may execute the procurement directly
+       following ITS review and approval of the associated Plan to Procure (PTP).
+
+   •   Funding is approved that covers ITS implementation and ongoing
+       operational support costs. In the event of a direct bill from ITS, the SA must
+       pay it within 30 days of receipt.
+
+   •   ITS and the SA will have a service level agreement for all ongoing
+       operational support to be provided by ITS.
+
+If an IT Purchase covered by this policy does not meet the conditions above, it will
+be considered and reviewed as an exception. In partnership with ITS, the SA
+should submit a Plan to Procure (PTP) via the ASCA system and obtain approval
+from ITS before issuing the procurement. OSC and OGS BSC require approval of
+a PTP as part of their administrative processes.
+
+NYS-P08-001                                                               Page 3 of 10
+
+SAs submitting PTP requests for projects equal to or greater than $10 million
+dollars are subject to reporting requirements outlined in DOB Budget Bulletin H-
+0300, Statewide Policy for Information Technology Investment and Governance.
+
+4.1       Plan to Procure Process
+
+SAs must consult with ITS a minimum of 90 days (and up to 180 days for larger,
+more complex procurements) prior to the start of any planned technology
+procurement activities to discuss the feasibility of an ITS-supported solution. Early
+engagement with ITS will help to ensure that the procurement can proceed as
+quickly as possible. If it is determined that an exception request is still needed, the
+SA must work with ITS to prepare and submit the PTP request to the ASCA system
+with all of the information required below. Submission of the PTP indicates the
+approval of the agency head.
+
+4.1.1 Submission Requirements
+
+For SAs, as defined in Section 3.0, a PTP is required for:
+
+      •   Any IT Purchase, including renewals, for covered products or services,
+          equal to or greater than $50,000.
+
+      •   Any cloud service, regardless of cost, including but not limited to: software,
+          platform, and infrastructure.
+
+      •   Any purchase that involves an exception to an OGS aggregate buy IT
+          contract (e.g., PC’s, laptops, printers), regardless of cost.
+
+For SA’s or other entities not designated as ITS client agencies, a PTP is required
+for:
+
+      •   Any purchase of a product or service that will integrate with or utilize ITS
+          systems or services, including connectivity to the ITS network, equal to or
+          greater than $50,000.
+
+The PTP must include, at a minimum, the following:
+
+      •   Detailed business case to describe the business goals, problem to be
+          solved, or improvement being made, including process flow diagrams
+          and/or user stories.
+
+      •   Technology solution proposed (description of the products and services),
+          including a breakdown of hardware, software and services.
+
+      •   Data classification, data flow diagram, and any security/risk/privacy
+          assessments completed.
+
+      •   The procurement vehicle/contract expected to be used.
+
+NYS-P08-001                                                                  Page 4 of 10
+
+   •   The timeline for implementation.
+
+   •   Any integrations between third-party systems and ITS products/services.
+
+   •   A detailed profile of the SA’s system and functional requirements including
+       information security and compliance standards and requirements.
+
+   •   Adherence to all applicable NYS IT Policies and Standards.
+
+   •   A copy of the ITS solution proposal and a detailed explanation of the criteria
+       that are neither addressed by nor compatible with the State’s technology
+       standard/recommendation.
+
+   •   A detailed cost/benefit analysis comparing the total cost of ownership for
+       procuring and maintaining the requested product/service as compared to
+       the ITS recommended product/service.
+
+   •   A risk analysis ascertaining sustainability for a non-standard system, as well
+       as any security/risk/privacy assessments completed.
+
+   •   All solicitation drafts (e.g., Requests for Proposals [RFP]), Requests for
+       Quotes [RFQ], etc.) and necessary supporting documents must be attached
+       to the PTP request to facilitate a timely review and disposition.
+
+   •   For renewals, previous contract, RFP response (if applicable), Service
+       Level Agreement and details regarding technology included should be
+       attached to the PTP request.
+
+   •   Any other documentation or information requested by ITS during its review.
+
+SAs are required to coordinate similar or common technology procurements
+across program areas, agency needs, and among their respective regional offices,
+institutions, and other facilities into a single, agency-wide procurement which will
+be reflected in a single PTP submission. To the extent possible, technology
+procurements should not be consolidated with those for non-technical products or
+services (e.g., equipment not connected to a network or the internet,
+program/policy support, training, organizational change management) that do not
+require a PTP review to facilitate PTP approval.
+
+4.1.2 Review Process
+
+ITS will review the PTP’s submitted by SAs based upon the following criteria and
+any other information ITS deems relevant:
+
+   •   The availability of existing/planned ITS products, services and contracts
+       that meet the business need.
+
+NYS-P08-001                                                               Page 5 of 10
+
+   •   The proposed solution, any integration points between third-party systems
+       and NYS systems, and potential data sharing must adhere to ITS policies
+       and technical standards, as well as any SA data compliance rules and
+       requirements.
+
+   •   Integration required (directory/network services, enterprise storage and
+       backup, etc.).
+
+   •   Total cost of ownership (hardware, software, consulting services,
+       maintenance, training and other) of the proposed solution and the alternate
+       ITS solution (if applicable).
+
+   •   Funding source and procurement method, including                  purchase
+       documentation (quotes, statements of work, RFPs, etc.).
+
+   •   Completed enterprise risk assessment with analysis of risk and risk
+       mitigation strategies.
+
+   •   Knowledge transfer provisions to ensure any operational support required
+       by ITS or the SA is accounted for.
+
+   •   Resources required (number of ITS and consultant staff FTEs for both
+       implementation and support).
+
+During the review, ITS may refer the PTP request to a detailed review process
+track to better understand the effort, or specific technology components of the IT
+Purchase. ITS may also prepare and present an alternate proposal for any PTP’s
+that include products or services provided or procured by the SA or a third-party
+vendor. ITS will convene a meeting with the SA to conduct a detailed review of the
+alternate proposal if one is provided.
+
+SAs or other entities that are procuring technology that does not integrate with or
+utilize an ITS product/service/network can request that ITS performs a complete
+review as detailed above. The cost of this review will be estimated based on the
+complexity, and actual costs will be billed to the entity upon completion.
+
+4.1.3 Disposition
+
+All dispositions will be provided to the requesting SA via the ASCA system.
+
+Please note SAs must submit the final PTP approval form along with other required
+documentation to OSC and/or BSC. Purchase requests without a PTP approval
+from ITS will not be approved.
+
+In order to complete a thorough and timely review of PTP requests, ITS will make
+every effort to meet the following PTP processing targets:
+
+   •   Standard processing time is 15 business days from the time of submission.
+
+NYS-P08-001                                                             Page 6 of 10
+
+      •   Large or technically complex IT Purchases processing time is 30 business
+          days from the time of submission, or within reason.
+
+Timeframes are contingent upon, and do not begin to run until the SA submits all
+necessary details and information required for a decision.
+
+ITS approval of a PTP request does not transfer procurement ownership to ITS.
+SAs may continue to execute eligible procurements directly, provided the source
+contract is OGS-authorized and no ITS-managed enterprise agreement exists for
+the same category.
+
+IT Purchases operating under a court order or injunction, a mandate from a state
+or federal agency, or critical equipment failures necessitating an emergency
+procurement to restore critical operations, will be expedited upon request by the
+agency head. Appropriate verification documentation, including specific deadline
+dates, must be attached to the PTP request. ITS reserves the sole right to waive
+the PTP process for an IT Purchase when deemed in the best interest of the State.
+
+4.2       Solicitations
+
+A PTP approval from ITS is required before the SA releases a solicitation (e.g.,
+RFP, PBITS). Following completion of the solicitation process, the SA must submit
+a second PTP for a ‘Contracts – New’ request containing solicitation supporting
+documentation, the final chosen vendor, contract cost, and total cost of ownership
+to sustain the project. The SA cannot announce an award to any other stakeholders
+prior to receipt of approval from ITS.
+
+4.3       Lead Agency Status for Joint or Enterprise Procurements
+
+To advance procuring technology on behalf of the State, ITS review of a given
+acquisition may require the assignment of a "lead agency” for a particular
+technology initiative or a joint procurement opportunity. A lead agency is
+designated to ensure there is a committed “champion” for the initiative who drives
+the effort through completion. Once a lead agency has been designated, other SAs
+might be required to defer pursuing the same technology until a pilot or prototype
+on behalf of the State enterprise is complete.
+
+In most cases, SAs will be requested to coordinate their procurement efforts with
+the lead agency. This can be accomplished by either incorporating all requirements
+into a single procurement based on what the lead agency learned from other SAs;
+procuring from an existing contract; or identifying a joint application development
+or system design between multiple SA efforts.
+
+NYS-P08-001                                                             Page 7 of 10
+
+5.0 Compliance
+This policy shall take effect upon publication. Compliance is required with all ITS
+policies and standards. ITS may amend its policies and standards at any time;
+compliance with amended policies and standards is required.
+
+If compliance with this policy is not feasible, SAs must request an exception
+through the NYS CIO.
+
+6.0 Definitions of Key Terms
+Except for terms defined in this policy, all terms shall have the meanings found in
+http://www.its.ny.gov/glossary.
+
+7.0 Contact Information
+Submit all inquiries and requests for future enhancements to the policy owner at:
+
+                            Chief Strategy Office
+                          Reference: NYS-P08-001
+               NYS Office of Information Technology Services
+                     State Capitol, ESP, P.O. Box 2062
+                              Albany, NY 12220
+                           Email:CSO@its.ny.gov
+
+Statewide technology policies, standards, and guidelines may be found at the
+following website: https://its.ny.gov/policies
+
+8.0 Revision History
+This policy shall be reviewed at least once every two years to ensure relevancy.
+
+ Date          Description of Change                              Reviewer
+
+ 05/15/1996    Issued policy                                      CIO/OFT
+
+ 08/12/1996    Revised policy                                     CIO/OFT
+
+ 02/16/1997    Revised policy                                     CIO/OFT
+
+ 03/31/2004    Revised policy                                     CIO/OFT
+
+NYS-P08-001                                                             Page 8 of 10
+
+ 04/01/2008   Policy NYS-P08-001 replaces policy 96-2A,         CIO/OFT
+              Intent to Purchase; change of policy number;
+              change of policy name from Intent to Purchase
+              to Plan to Procure; change process workflow;
+              and
+
+              change threshold limits.
+
+ 11/03/2008   Reduced PTP request threshold from $100K to       CIO/OFT
+
+              $50K. Reduce staff augmentation renewal
+              option
+
+              from 2 years to 1 year. Added allowance for 18-
+              month fast track procurements.
+
+ 07/16/2009   Section 3.1.2 added Printer Aggregate Contract    CIO/OFT
+
+              under #2; added McAfee Endpoint Security ELA
+              under #3.
+
+ 08/01/2010   Revised PTP Policy to align with the 2009-2012    CIO/OFT
+              NYS Enterprise IT Strategic Plan and provide
+              new review thresholds.
+
+ 07/06/2022   Revised policy to remove cost threshold and to   Chief
+              add eventual integration of PTP process with the Technology
+              DOB ASCA system.                                 Office
+
+ 12/2/2022    Revised policy to state that DOB ASCA system      Chief Portfolio
+              will be used for the submission and reviews of    Office
+              PTP’s.
+
+ 07/06/2023   Revised policy to state that DOB ASCA system      Chief
+              will be used for the submission and reviews of    Technology
+              PTP’s.                                            Office
+
+ 12/03/2025   Revised policy                                    Chief Strategy
+                                                                Office
+
+NYS-P08-001                                                           Page 9 of 10
+
+9.0 Related Documents
+Division of the Budget Bulleting H-0300, Statewide Policy for Information
+Technology Investment and Governance
+
+Division of the Budget Bulletin B-1184, Agency Spending Controls: Processes and
+Approval Requirements
+
+Division of the Budget Bulletin L-1220, Building a High Performance Government
+
+NYS-P08-001                                                         Page 10 of 10
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

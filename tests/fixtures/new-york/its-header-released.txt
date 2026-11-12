@@ -1,0 +1,30 @@
+                              State Capitol P.O. Box 2062
+                                Albany, NY 12220-0062
+                                    www.its.ny.gov
+
+    New York State Information
+    Technology Policy
+                                            No: ITS-P26-003
+
+                                            Released: 10/27/2026
+               IT Policy:
+                                            Issued By: NYS Office of
+          Vulnerability                     Information Technology Services
+
+           Disclosure                       Owner: Chief Information Security Office
+
+1.0 Purpose and Benefits
+The New York State (NYS) Office of Information Technology Services (ITS) is
+committed to ensuring the security of the public by protecting their information.
+Consistent with recommended best practices, and the ITS’ commitment to robust
+cybersecurity, ITS is establishing a statewide Vulnerability Disclosure Program
+(VDP). The purpose of this policy is to provide guidance and define and ensure
+adherence to the VDP as the formal authorized means for external security
+researchers to engage in the good faith identification of potential security
+vulnerabilities in publicly available, ITS-owned, -operated, or -managed systems
+as defined further within this policy.
+
+A VDP serves as a crowdsourced "see something, say something" initiative where
+an organization allows external security researchers to find and report security
+vulnerabilities in their systems. This will facilitate ITS’s awareness of otherwise
+unknown vulnerabilities, enhancing ITS's ability to identify and remediate

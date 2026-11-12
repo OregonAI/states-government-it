@@ -1,0 +1,263 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: new-york
+id: ny-its-p24-003
+title: Process for Establishing Information Technology Policies, Standards, and Guidelines
+doc_type: policy
+citation: NYS ITS Policy ITS-P24-003
+authority_level: ''
+issuing_body: New York State Office of Information Technology Services (ITS)
+source_url: https://its.ny.gov/process-establishing-information-technology-policies-standards-and-guidelines
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: d3de4877264dd30dfeeba98b324a804e5950603389a49f08da1a59a59182d2ad
+effective_date: null
+source_version: 'Updated: 07/10/2024'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Process for Establishing Information Technology Policies, Standards, and Guidelines (NYS ITS Policy ITS-P24-003)
+
+## At a glance
+
+Item of the ITS statewide technology policy and standards library (https://its.ny.gov/policies), category 'Division of Legal, ITS Policies' on the listing. The listing prints original publication 04/04/2002 and last modified 07/10/2024. The listing truncates the title; the title here is the one the PDF prints.
+
+## Full text
+
+                                     State Capitol P.O. Box 2062
+                                       Albany, NY 12220-0062
+                                           www.its.ny.gov
+
+          New York State
+                                                   No: ITS-P24-003
+   Information Technology Policy
+                                                   Updated: 07/10/2024
+                 IT Policy:
+
+                                                   Issued By: NYS Office of Information
+ Process for Establishing                          Technology Services
+ Information Technology                            Owner: Division of Legal Affairs
+ Policies, Standards, and
+        Guidelines
+1.0 Purpose and Benefits
+   This policy sets forth the process for how the New York State Office of Information
+   Technology Services (ITS) develops, updates, and publishes information technology
+   policies, standards, and guidelines.
+   A cohesive process for the development of policies, standards, and guidelines promotes:
+      • alignment with the agency’s mission, vision, and strategic priorities;
+      • consistent formatting and professional presentation; and
+      • efficient, effective, and transparent operations.
+
+2.0 Authority
+   Section 1 of Executive Order No. 1171, issued January 2002, charges the State Chief
+   Information Officer with overseeing and supervising the management and operations of the
+   Office of Information Technology Services (ITS). Section 102(2) of the State Technology
+   Law gives the Director of ITS responsibility for the administration of ITS. Details regarding
+   this authority can be found in NYS-P08-002 Authority to Establish State Enterprise
+   Information Technology (IT) Policy, Standards and Guidelines.
+
+3.0 Scope
+   This policy applies to ITS and its employees, contractors, and consultants.
+
+4.0 Information Statement
+   All ITS policies, standards, and guidelines shall be established and updated in
+   accordance with this policy.
+   4.1    Classification
+   All documents are classified into three categories and three forms.
+      Category
+            1. Statewide documents: These apply to all State Entities, their employees,
+               as well as all consultants, vendors, and contractors of the State Entities
+               that use or access any ITS Information Technology Resource for which ITS
+               has administrative responsibility, including systems managed or hosted by
+               third-parties on behalf of ITS. Examples include processing of State data
+               or security practices.
+            2. ITS Supported Agency documents: These apply to ITS and the agencies
+               ITS supports (i.e., Client Agencies) including their consultants, vendors, or
+               contractors who have access to or manage Client Agency information or
+               data. Examples include domain address requirements and universal
+               navigation.
+            3. Internal documents: These apply to all ITS employees, and may apply to
+               ITS consultants, vendors, or contractors who have access to or manage
+               State Entity information and/or ITS supported agencies. Examples include
+               work rules or building access requirements.
+      Form
+                 1. Policy: A formal, high-level statement that outlines an organization’s
+                    general beliefs, values, goals, objectives, and expectations for a specified
+                    subject area. Compliance with a policy is required.
+                 2. Standard: A directive, mandatory action, rule, or norm surrounding a
+                    particular practice. A standard can be a standalone document or make a
+                    policy more meaningful and effective by including accepted specifications
+                    for hardware, software, or behavior. Compliance with a standard is
+                    required.
+                 3. Guideline: Guidance, best practices, recommendations, or administrativ e
+                    instructions to perform a specific task. A guideline can be a standalone
+                    document or make a policy or standard more meaningful and effective.
+                    Compliance with a guideline is not compulsory, but strongly suggested.
+   4.2   Development
+   Using the most current template, the policy, standard, or guideline must include, at a
+   minimum, the following sections in this exact order:
+      1.0 Purpose and Benefits
+         Clear statement of the objective and benefits of the policy, standard, or guideline.
+      2.0 Authority
+
+   ITS-P24-003                                                                         Page 2 of 6
+
+       Specific reference to the law, rule, regulation, executive order, technical standard,
+       or control agency (e.g., Office of the Attorney General or Office of the State
+       Comptroller) directive in support of the document.
+   3.0 Scope
+      Description of the target audience to which the policy, standard, or guideline
+      applies.
+   4.0 Information Statement
+      Formal outline of expectations, acceptable behavior, preferred methodology, or
+      detailed actions required of the target audience.
+   5.0 Compliance
+      Identification of the effective date of the document, the date that compliance will
+      be expected, if applicable, and the exception reporting instructions if appropriate.
+   6.0 Definitions of Key Terms
+      All documents must include a link to the ITS online glossary and all terms must
+      be included.
+   7.0 Contact Information
+      Owner contact information to promote direct communication with the target
+      audience.
+   8.0 Revision History
+      Outline of the prescribed review period and all previous modifications of the
+      document.
+   9.0 Related Documents
+      References and links to additional documents, source information, or resources
+      on the subject matter.
+4.3    Numbering
+All policies, standards, and guidelines receive a unique reference number prior to
+publication; therefore, only the ITS Division of Legal Affairs (DLA) may assign reference
+numbers to documents. Each reference number consists of a three character category
+code, a one character form code, two digit year code, and a three digit sequential
+number. For example, this policy’s reference number is NYS-P09-003.
+   Category Code
+         • NYS – Statewide document
+         • ITS – ITS Supported Agency documents and Internal documents
+   Form Code
+         • P – Policy
+         • S – Standard
+         • G – Guideline
+4.4   Approval
+The draft policy, standard, or guideline must be vetted using ITS’ established internal
+review process. DLA will review all policies, standards, and guidelines for suitability and
+
+ITS-P24-003                                                                        Page 3 of 6
+
+consistency with all applicable laws, rules, and regulations. All policies, standards, and
+guidelines must receive all necessary ITS executive approvals prior to being finalized
+and sent for publication.
+4.5   Publication
+The ITS Public Information Office must review all policies, standards, and guidelines for
+compliance with formatting and branding guidelines.
+The policy, standard, or guideline is published at the following locations based on
+category:
+   Statewide documents
+      ITS public website and ITS Inside Edge
+   ITS Supported Agency documents and Internal documents
+      ITS Inside Edge and, where applicable, the ITS public website
+Additional communication correspondence may be utilized for publication purposes.
+4.6     Rescission
+If the subject matter of a policy, standard, or guideline is neither relevant nor aligns with
+strategic priorities, becomes obsolete due to changes in law, technology, or a division
+reorganization, or is more logically combined with another policy, standard, or guideline,
+the document may be rescinded.
+A policy, standard, or guideline may be rescinded with a written directive to DLA from
+the owner, with the approval of the ITS General Counsel. Any references to the rescinded
+policy, standard, or guideline that exist in related documents or the agency’s websites
+should be removed or updated. The corresponding reference number will not be used
+for any subsequent policy, standard, or guideline.
+4.7    Periodic Review
+Owners are required to periodically perform a thorough review of their policies,
+standards, and guidelines to ensure relevancy and proper branding updates at least
+once every three years. Owners must also review any applicable glossary terms when
+reviewing their policies, standards, and guidelines to ensure continued relevancy.
+
+Owners must take care that their policies, standards, and guidelines continue to be
+relevant during the interim periods between reviews. Changes in law, rule, regulation,
+guidance, policy, and technology may necessitate changes to ITS policies, standards,
+and guidelines. If changes are needed, owners can submit revised policies, standards,
+and guidelines to DLA for off-cycle reviews.
+
+Material changes or enhancements to existing policies, standards, or guidelines are
+subject to the approval process as outlined in section 4.4 of this policy.
+
+Periodic review cycles will continue in the event of an extraordinary circumstance
+impacting agency operations, to the extent practicable, using virtual meetings and other
+electronic collaboration tools, as applicable.
+
+ITS-P24-003                                                                         Page 4 of 6
+
+5.0 Compliance
+   This policy shall take effect upon publication. Compliance is required with all ITS policies
+   and standards. ITS may amend its policies and standards at any time; compliance with
+   amended policies and standards is required.
+
+6.0 Definitions of Key Terms
+   Except for terms defined in this policy, all terms shall have the meanings found in the
+   ITS Glossary.
+
+7.0 Contact Information
+          Submit all inquiries and requests for future enhancements to the owner at:
+                                 Division of Legal Affairs
+                                 Reference: ITS-P24-003
+                      NYS Office of Information Technology Services
+                           State Capitol, ESP, P.O. Box 2062
+                                     Albany, NY 12220
+                                 Telephone: (518) 473-5115
+                                Email: its.sm.dla@its.ny.gov
+
+     The State of New York Enterprise IT Policies may be found at the following website:
+                                 https://its.ny.gov/policies
+
+8.0 Revision History
+   This policy should be reviewed consistent with the requirements set forth in ITS-P24-
+   003 Process for Establishing Information Technology Polices, Standards and
+   Guidelines.
+    Date             Description of Change                            Reviewer
+    04/04/2002       Original policy release                          OFT
+
+    10/01/2009       Revised policy                                   CIO/OFT
+    01/15/2010       Revised to correct formatting and technical      CIO/OFT
+                     errors
+    12/04/2017       Revised policy                                   Internal Controls Office
+
+    12/27/2019       Revised policy to include new authority and      Internal Controls Office
+                     scope language and clarify form definitions.
+    05/04/2021       Revised to include process during                Internal Controls Office
+                     extraordinary circumstances.
+
+   ITS-P24-003                                                                        Page 5 of 6
+
+    05/24/2021    Updated Scope Language                    Internal Controls Office
+
+    07/10/2024    Changed from External to Internal         Division of Legal affairs
+
+9.0 Related Documents
+   NYS-P08-002 Authority to Establish Enterprise Information Technology Policies,
+   Standards, and Guidelines
+
+   ITS-P24-003                                                             Page 6 of 6
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

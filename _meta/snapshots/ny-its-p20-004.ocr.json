@@ -1,0 +1,94 @@
+{
+  "agreement": 0.9643,
+  "dict_ratio": 0.9966,
+  "disagreements": [
+    {
+      "before": [],
+      "paddle": "NEWYORK",
+      "tesseract": "NEW YORK"
+    },
+    {
+      "before": [
+        "Office",
+        "of",
+        "Information",
+        "No"
+      ],
+      "paddle": "",
+      "tesseract": "P 20 Technology Services Policy 0"
+    },
+    {
+      "before": [
+        "ITS",
+        "P",
+        "20",
+        "004"
+      ],
+      "paddle": "Technology Services",
+      "tesseract": "ITS"
+    },
+    {
+      "before": [
+        "Issued",
+        "12",
+        "11",
+        "2020"
+      ],
+      "paddle": "ITS Policy Technology Projects in",
+      "tesseract": "H i"
+    },
+    {
+      "before": [
+        "Office",
+        "of",
+        "Information",
+        "Technology"
+      ],
+      "paddle": "",
+      "tesseract": "Projects In Technology"
+    },
+    {
+      "before": [
+        "Services",
+        "Response",
+        "to",
+        "Critical"
+      ],
+      "paddle": "Owner Chief Portfolio Office",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "and",
+        "Governor",
+        "s",
+        "Initiatives"
+      ],
+      "paddle": "",
+      "tesseract": "Owner Chief Portfolio Office"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9688,
+  "figures": 33,
+  "forced_rotation": false,
+  "glued": 0,
+  "ocr_page_texts": [
+    "NEW YORK | Office of Information\n\nSTATE OF\n\nOPPORTUNITY. Technology Services\n\nState Capitol P.O. Box 2062\nAlbany, NY 12220-0062\nwww.its.ny.gov\n\nOffice of Information\n\n. . No: -P20-{\nTechnology Services Policy 0: ITS-P20-004\n\nITS Policy: Issued: 12/11/2020\n\nH i Issued By: NYS Office of Information\nTechnology Projects In Technology Services\nResponse to Critical\nIncidents and\nGovernor\u2019s Initiatives\n\nOwner: Chief Portfolio Office\n\n1.0 Purpose and Benefits\n\nDuring Critical Incidents, the Office of Information Technology Services (ITS) is often\nfaced with many requests from the Executive Chamber or ITS supported agencies\n(client agency) for work items to support emergency, crises, and disaster response. The\ntypical Information Technology (IT) Governance processes utilizing the IT Investment\nRequest Form, Agency Governance Boards, and Portfolio Executive Board for decision-\nmaking may not be well suited to support all response efforts during a Critical Incident\nor Governor's initiative related thereto. For these situations, ITS has created an\nexpedited project and initiatives submission and approval process. This policy outlines\nthe expedited project and initiative submission and approval process to serve as a\nrepeatable process during Critical Incidents or Governor's initiatives related thereto.\n\n2.0 Authority\n\nSection 103(10) of the State Technology Law provides ITS with the authority to establish\nstatewide technology policies, including technology and security standards. Section 2\nof Executive Order No. 1171, established January 2002, provides the State Chief\nInformation Officer (CIO) with the authority to oversee, direct, and coordinate the\nestablishment of information technology policies, protocols, and standards for State\ngovernment, including hardware, software, security, and business re-engineering.\n\n1 All references to Executive Order 117 refer to that which was originally issued by Governor George E. Pataki on\nJanuary 28, 2002 and continued by Executive Order 5 issued by Governor Eliot Spitzer on January 1, 2007,\nExecutive Order 9 issued by Governor David A. Patterson on June 18, 2008, and Executive Order 2 issued by\nGovernor Andrew M. Cuomo on January 1, 2011, and Executive Order 6 issued by Governor Kathy Hochul on\nOctober 8, 2021."
+  ],
+  "paddle_sha256": "c3a7dacb33cf37c2ec037ccbaed2afb0721a352f3711530da969b07962f6b701",
+  "pages": [
+    1
+  ],
+  "pdf_sha256": "61651ad023a957301ad2106ca95f4a37545164ab528d6a9829c37bef0b5574e0",
+  "psm": null,
+  "text_sha256": "3e10316c11c91eb6f1c91a54de46a446b98e262f719d451aa27397eb130c2f46",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 295
+}
