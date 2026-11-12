@@ -269,6 +269,10 @@ Owner's conclusion, 2026-11-12: Vaquill is not a scalable solution for this proj
 - **Against this corpus:** one pass of the 20 questions over all 42 states held would be 840 searches, 3,360 credits, before any section text is read.
 - **Coverage, apart from cost:** the 21 cells answered only by policies, standards and executive orders scored 0 here, and that layer is where most of this corpus sits.
 
+## Update on file 10: semantic search is now configured
+
+File 10 says the corpus does not ship the hybrid configuration. That was true when it was written. PR #62, merged 2026-11-12, set `plugins.semantic_search_module` in `_meta/corpus.yml`, so a server with the embeddings mounted serves the hybrid leg. The corpus was not yet deployed when this note was written, so no served result has been measured.
+
 ## What this does not show
 
 - **One run, one query per cell.** The question as typed, default match type, one page of 10. No rewording, no `get_section_cross_state`, no boolean search, no `fifty_state_survey` prompt, no filters by code or chapter. A tuned Vaquill query could do better; so could a tuned query against ours.
