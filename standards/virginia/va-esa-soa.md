@@ -1,0 +1,1320 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-esa-soa
+title: Service Oriented Architecture
+doc_type: standard
+citation: 'EA requirements document: Service Oriented Architecture'
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/Service-Oriented-Architecture.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 9423ed1fcd8da7f427c6124d6cdb41351ceedfc19e8a714d54d86fc903885cbd
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Service Oriented Architecture (EA requirements document: Service Oriented Architecture)
+
+## At a glance
+
+Item of VITA's Enterprise Architecture page, group 'ESA - Enterprise Solutions Architecture Requirements': an EA requirements document under the Enterprise Architecture Standard (EA225), whose requirement statements are mandatory for executive branch agencies. The PDF prints: ETA Service Oriented Architecture Requirements Version 1.1, April 24, 2023.
+
+## Full text
+
+  Commonwealth of Virginia
+Enterprise Technical Architecture [ETA]
+
+      Service Oriented Architecture (SOA)
+                  Topic Report
+              Integration Domain
+
+ vita.virginia.gov                 April 24, 2023
+
+ETA Service Oriented Architecture Requirements                                      Version 1.1 April 24, 2023
+
+                      Service Oriented Architecture Requirements: Version History
+ Revision      Date                  Description
+ 1.0           January 03, 2013      Original
+ 1.1           April 24, 2023        Administrative update for accessibility
+
+Review Process
+This requirements document was posted on VITA’s Online Review and Comment Application (ORCA). All
+agencies, stakeholders, and the public were encouraged to provide their comments through ORCA. All
+comments were evaluated, and individual commenters were notified of action(s) taken.
+
+Standards and Agency Exceptions
+These standards are incorporated within the COV Enterprise Architecture Standard (EA-225), and the
+requirements defined within this document are mandatory for Executive Branch agencies. Agencies
+deviating from these requirements must request an exception for each desired deviation, and receive an
+approved Enterprise Architecture Exception via Archer, prior to developing, procuring, or deploying such
+technology, or not complying with a requirement specified in this document.
+
+Glossary
+As appropriate, terms and definitions used in this document are in the COV ITRM IT Glossary. The COV
+ITRM IT Glossary is available on the ITRM Policies, Standards, and Guidelines web page at the VITA
+website: https://www.vita.virginia.gov/it-governance/glossary/cov-itrm-glossary/
+
+                                                Page 2 of 29
+
+ETA Service Oriented Architecture Requirements                                                                                                                                Version 1.1 April 24, 2023
+
+Contents
+  Introduction ................................................................................................................................................................................................................. 5
+  Purpose ......................................................................................................................................................................................................................... 6
+  Authority ....................................................................................................................................................................................................................... 6
+  Scope.............................................................................................................................................................................................................................. 6
+  Executive Summary ..................................................................................................................................................................................................7
+  ETA SOA Topic Report Scope and Purpose .................................................................................................................................................... 8
+  Domain-wide Principles, Recommended Practices and Requirment ................................................................................................. 9
+  Conceptual SOA Architecture- Commonwealth SOA Platform Component ................................................................................. 10
+  ETA SOA Topic Report Technical Topics .......................................................................................................................................................... 11
+       Module Services ................................................................................................................................................................................................. 12
+       Service Modeling ............................................................................................................................................................................................... 12
+       Distributable Modules ..................................................................................................................................................................................... 12
+       Discoverable Modules ...................................................................................................................................................................................... 13
+       Service Naming .................................................................................................................................................................................................. 13
+       Service Description ........................................................................................................................................................................................... 14
+       Service Metadata .............................................................................................................................................................................................. 14
+       Swappable Modules ......................................................................................................................................................................................... 15
+       Shareable Service Provider Modules ........................................................................................................................................................ 15
+  Service Features ..................................................................................................................................................................................................... 16
+       Security ................................................................................................................................................................................................................. 16
+       Scalability ............................................................................................................................................................................................................. 16
+       Availability ............................................................................................................................................................................................................ 16
+       Performance ......................................................................................................................................................................................................... 17
+       Business Continuity .......................................................................................................................................................................................... 17
+       Problem Management ..................................................................................................................................................................................... 17
+       Change management ..................................................................................................................................................................................... 18
+  Service Planning ...................................................................................................................................................................................................... 18
+  SOA Governance ...................................................................................................................................................................................................... 19
+  Governance Layers ................................................................................................................................................................................................. 19
+       Conceptual SOA Architecture – Commonwealth SOA Infrastructure ......................................................................................... 19
+  Commonwealth SOA Infrastructure ............................................................................................................................................................... 19
+  Governance Policy and Strategy ..................................................................................................................................................................... 20
+       SOA Technical Advisory Group ..................................................................................................................................................................... 21
+       Configuration Management ........................................................................................................................................................................ 23
+
+                                                                                                   Page 3 of 29
+
+ETA Service Oriented Architecture Requirements                                                                                                                          Version 1.1 April 24, 2023
+
+       Quality Assurance ............................................................................................................................................................................................ 23
+       Assurance of Real-World Effect ................................................................................................................................................................. 23
+       Standards Conformance ............................................................................................................................................................................... 23
+       Service Level Agreement .............................................................................................................................................................................. 23
+       Service Reuse .................................................................................................................................................................................................... 24
+       Agency Service Offering & Support Center (Support Center) ..................................................................................................... 26
+  Definition and Terminology ................................................................................................................................................................................ 27
+  Appendices ............................................................................................................................................................................................................... 29
+  References and Links ........................................................................................................................................................................................... 29
+
+                                                                                                Page 4 of 29
+
+ETA Service Oriented Architecture Requirements                                                   Version 1.1 April 24, 2023
+
+Introduction
+
+According to industry experts, SOA is:
+   • “A style of multi-tier computing that helps organizations share logic and data among multiple
+       applications and usage modes.” Gartner
+
+     •    “SOA is an evolution of distributed computing and modular programming. SOA provides a
+          modularity of logic that can be presented as a service for a client (as in client-server architecture)
+          and at the same time function as a client for other services.” Wikipedia
+
+     •    “An application architecture within which all functions are defined as independent services with
+          well-defined invokable interfaces which can be called in defined sequences to form business
+          processes.” IBM
+
+     •    “A software architecture for building applications that implement business processes or services
+          using a set of loosely coupled black-box components orchestrated to deliver a well-defined level
+          of service.” SOA for Dummies
+
+The quotations above point out the diversity of thinking regarding SOA architecture.
+
+The Enterprise Technical Architecture (ETA) Service-Oriented Architecture (SOA) Topic Report addresses
+the principles, requirements and recommended practices to help ensure SOA-based services are
+designed to meet agency and state business needs and are architected for Tier One enterprise use. It’s
+intended to be use by:
+
+     •    Application Managers and Designers
+
+     •    State’s multi-agency SOA Governance teams
+
+     •    Business Analysts
+
+     •    Service Providers and Consumers
+
+     •    Enterprise and Application Solution Architects
+
+1 Source: Service Oriented Architecture, Charles F. Leonhardt, Georgetown University, Washington DC, Accessed 04 June 2012
+2 See: Definition of Key Terms
+
+                                                        Page 5 of 29
+
+ETA Service Oriented Architecture Requirements                                    Version 1.1 April 24, 2023
+
+Purpose
+The intent of these requirements is to guide the purchase, design, implementation, and on-going
+operation of COV IT services and utilized technologies. For further information on the perspectives,
+please reference the most recent version of the Enterprise Technical Architecture (ETA) Requirements
+document.
+
+Authority
+    •   Code of Virginia, §2.2-2007. Powers of the CIO
+    •   Code of Virginia, §2.2-2007.1. Additional duties of the CIO relating to information technology
+        planning and budgeting
+    •   Code of Virginia, §2.2-2009(A). Additional duties of the CIO relating to security of government
+        information
+    •   Code of Virginia, §2.2-2012(A). Additional powers and duties related to the procurement of
+        information technology
+
+Scope
+This standard is applicable to all Executive Branch state agencies (hereinafter collectively referred to as
+"agencies") that are responsible for the management, development, purchase and use of information
+technology resources in the Commonwealth of Virginia. This standard does not apply to research
+projects, research initiatives, or instructional programs at public institutions of higher education.
+
+[Is there a scope associated with this document? Put the information here. State what this document
+addresses/covers and also state what it does not]
+
+In addition to the requirements below all COV IT technology solutions comply with the standards found
+on the VITA Policies Standards & Guidelines page.
+
+Glossary
+As appropriate, terms and definitions used in this document can be found in the COV ITRM IT
+Glossary. The COV ITRM IT Glossary may be referenced on the ITRM Policies, Standards and
+Guidelines web page at http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+Agency Exception Requests
+Agencies that want to deviate from the requirements and/or technology standards specified in
+COV ITRM Standards may request an exception using the Enterprise Architecture
+Change/Exception Request Form. All exceptions shall be approved prior to the agency pursuing
+procurements, deployments, or development activities related to technologies that are not
+compliant with the standard. The instructions for completing and submitting an exception
+request are contained in the current version of COV ITRM Enterprise Architecture Policy. The
+Policy and exception request form is on the ITRM Policies, Standards and Guidelines web page at
+http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+To request an exception to all Security related ITRM Standards please refer to the Process for
+Requesting Exceptions section of the Information Security Policy - COV ITRM Policy SEC519 on
+the ITRM Policies, Standards and Guidelines web page at
+http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+                                                Page 6 of 29
+
+ETA Service Oriented Architecture Requirements                                                       Version 1.1 April 24, 2023
+
+Executive Summary
+The principles, requirements, and recommended practices in the ETA Service-Oriented Architecture Topic
+Report are designed to enable service-oriented architecture (SOA) governance teams to help agencies
+plan, design, and maintain Tier One SOA-based services for enterprise use.
+
+SOA requirements and recommended practices are expected to evolve as more SOA-based services are
+deployed and the multi-agency governance teams collaborate.
+
+The purpose of this report is to establish an overarching technical and governance framework for the
+state’s service-oriented architecture.
+
+This document addresses the following:
+
+     •    How state manages and controls changes to service interfaces;
+
+     •    How state identifies versions of services, and associate sets of service artifacts with a version
+          identifier;
+
+     •    How state ensures that agencies reuse services properly, only creating variants of services when
+          justified by a business case;
+
+     •    How state ensures that services properly achieve their advertised “real world” effect ;
+
+     •    How state ensures that service interfaces conform to the requirements of a service interaction
+          profile within the architecture; and
+
+     •    The standard issues that agencies should consider addressing in the service-level agreement
+          (SLA) for a service.
+
+This document provides principles, requirements and recommended practices to help ensure SOA-based
+services are designed to meet agency and state business needs and are architected for Tier One
+enterprise use. It’s intended to be use by:
+    • State’s multi-agency SOA Governance teams
+    • State’s Service Offerings and Support Center (support center)
+    • Service Providers and Consumers
+
+However, this document does not provide guidance on overall business issues. In particular, it does not
+suggest which services agencies should provide to one another, nor does it suggest which agencies
+should provide which services. These issues should be addressed by individual projects or system
+implementation initiatives.
+
+3
+ Real World Effect: The actual, desired result of the service (e.g., “Get customer information.”) SOA-based services are designed to
+meet business needs. A service consumer is a participant that interacts with a service in order to realize the real-world effect
+produced by a capability to address a consumer need.
+Source: OASIS SOA Reference Model http://en.wikipedia.org/wiki/OASIS_SOA_Reference_Model
+
+                                                          Page 7 of 29
+
+ETA Service Oriented Architecture Requirements                                 Version 1.1 April 24, 2023
+
+ETA SOA Topic Report Scope and Purpose
+
+Scope
+The requirements of this report are applicable to all Executive Branch state agencies and institutions of
+higher education (hereinafter collectively referred to as "agencies") that are responsible for the
+management, development, purchase and use of information technology resources in the Commonwealth
+of Virginia. This standard does not apply to research projects, research initiatives or instructional
+programs at public institutions of higher education.
+
+Purpose
+The ETA Service-Oriented Architecture Topic Report provides the SOA principles, requirements and
+recommended practices, which include service conditions and application design principles to design,
+deploy, and maintain Tier One SOA-based enterprise services.
+These requirements are not a detailed guide on how to develop SOA-based services; however, technical
+standards, guidelines, and reference architectures are expected to evolve from the multi-agency SOA
+Steering Committee and Technical Advisory Group as more services are published with the assistance of
+the state’s Service Offering and Support Center.
+This document contains primarily conceptual and logical level standards to help service providers design
+Tier One ready SOA-based services and enable SOA governance. Physical level design requirements and
+recommend practices are expected to evolve as more Tier One services are deployed and the multi-
+agency governance teams collaborate.
+
+Vision for Commonwealth Applications
+
+                               1. Vision for Commonwealth Applications
+
+Figure 1 depicts the “As Is and “To Be” vision for Commonwealth applications. The applications
+are a collection of information systems (applications and components, purchased or custom-
+developed) supporting or related to the business functions and the Commonwealth’s Enterprise
+Business Model. The above figure depicts an architectural method or design style that results in
+and supports shared, reusable SOA Tier One services.
+
+                                              Page 8 of 29
+
+ETA Service Oriented Architecture Requirements                                                       Version 1.1 April 24, 2023
+
+Domain-wide Principles, Recommended Practices and Requirement
+
+The following principles recommended practices and requirements pertain to all components, in all
+situations and activities related to the ETA Service-Oriented Architecture Report. Component specific
+principles recommended practices and requirements will be discussed in the next section of the report.
+
+Domain-wide Principles
+The following information is provided to help the reader understand general principles for planning and
+designing SOA-based services. Tier One SOA Planning and Design Standards are provided in the next
+section of the report.
+
+          SOA-P-01:            Loose coupling reduces risk that a change in one
+                               application module will force a change in another application module
+
+          Rationale:
+
+               •    Loosely coupled services may be joined to create composite services, or disassembled
+                    into their functional components, even if they use different system technologies.
+
+          SOA-P-02:            Services shall adhere to a service contract as defined by one
+                               or more service description documents and maintained via a central registry.
+
+          Rationale:
+
+               •    Starting from a service description (a contract), both a service consumer and a service
+                    provider should have everything they need to consume or provide the service.
+
+          SOA-P-03:            Beyond what is described in the service contract, services
+                               hide their logic from service consumers.
+
+          SOA-P-04:            Services are not duplicated and logic is granularly divided in
+                               such a manner as to promote service reuse
+
+          SOA-P-05:            Collections of services are assembled to form composite
+                               services. Composite services are composed of individual, unique, services that
+                               can be readily re-assembled, (or re-orchestrated), to assemble other composite
+                               services.
+
+4
+  The Services Registry (SR) is a registry for Web services, which is located centrally within an SOA landscape. The SR contains
+information about services provided in that landscape, with references to the services’ relevant WSDL metadata and to the locations
+of the callable service endpoints. The registered services are classified using semantic-rich classification systems to enable
+browsing of services by classification.
+
+The Services Registry is a central place for developers to find available Web services that they can reuse. Administrators can find
+available service endpoints and manage connections between consumer and provider systems. Source:
+http://help.sap.com/saphelp_nwpi711/helpdata/en/2e/8526937af346a0bc446905ea964ceb/content.htm Accessed 30 June
+2012
+
+                                                           Page 9 of 29
+
+ETA Service Oriented Architecture Requirements                                  Version 1.1 April 24, 2023
+
+Conceptual SOA Architecture- Commonwealth SOA Platform Component
+
+                        2. Commonwealth SOA Platform Components
+
+Figure 2 depicts the business models (groups of entities and relationships), governance roles (predefined
+set of roles into which users are assigned), and the governance lifecycles (predefined set of states and
+transitions that are applied to entities) in the “To Be” environment of the Commonwealth SOA platform
+
+                                             Page 10 of 29
+
+ETA Service Oriented Architecture Requirements                                           Version 1.1 April 24, 2023
+
+ETA SOA Topic Report Technical Topics
+
+Service Conditions and Planning Design
+
+SOA-based application modules are constructed to meet service conditions. Planning design standards
+are provided below in order for the service to meet the desired condition.
+
+Service Conditions
+
+          SOA-R-01:            All Tier One services shall be published on the state
+                               Service Offering and Support Center (SOSC) service registry, once it is created.
+
+          Rationale:
+              • The Service Offering and Support Center (SOSC) promotes the reuse of services and
+                  interfaces across and among agency systems.
+
+          SOA-R-02:            Services shall have well defined interfaces, shall not share state, and shall
+                               communicate by messages.
+
+          Rationale:
+              • All of the elements of service-oriented architecture (SOA) are arranged to connect
+                  through business processes to deliver a precise level of service. SOA develops a basic
+                  arrangement of components that can collectively administer an intricate business
+                  service.
+
+          SOA-R-03:            Services shall have authoritative control over the logic they encapsulate.
+
+          SOA-R-04:            Services shall be constructed modularly, coded unambiguously, be highly secure,
+                               and designed for high performance and scalability.
+
+          SOA-R-05:            The internal mechanisms and data structures of a service shall be hidden behind
+                               a defined interface. Service encapsulation separates the contractual interface
+                               from its implementation.
+
+          Rationale:
+              • This allows for changes and improvements to the service without impacting service
+                  consumers. It also allows the service to be replaced or superseded with another service
+                  that supports the same interface.
+
+5 See: Definition of Key Terms – Tier Definitions
+
+                                                     Page 11 of 29
+
+ETA Service Oriented Architecture Requirements                                   Version 1.1 April 24, 2023
+
+   Module Services
+
+       SOA-R-06:             Services shall be designed to be loosely coupled.
+
+       SOA-R-07:             Service interfaces shall be clearly defined and documented.
+
+       SOA-R-08:             Developers shall enter interface metadata or use tools to generate
+                             interface metadata that specifies an explicit service contract so that
+                             another developer can find and use the service.
+
+       SOA-R-09:             Everything needed by the service to provide its functionality shall be
+                             passed to it when it is invoked. All access to a service shall be via its
+                             exposed interface. No hidden assumptions shall be necessary to invoke
+                             the service.
+
+       SOA-R-10:             Business analysts and architects shall collaborate to ensure business
+                             processes are unique, well defined, and documented, and that service
+                             candidates are capable of meeting business needs and changes.
+
+   Service Modeling
+
+       SOA-R-11:             Each service shall exist within the context of at least one business process;
+                             a service plays a specific role in accomplishing a business process that
+                             achieves demonstrable business value.
+
+       SOA-R-12:             The service provider shall maintain models for business processes, as well
+                             as those for structure and behavior to indicate the roles and functions of
+                             each service.
+
+       SOA-R-13:             The description of each service shall include the business process
+                             model(s) for which the service was designed. This description may be
+                             maintained manually and shall be available on the state’s service
+                             repository for Tier One services.
+
+       SOA-R-14:             The description of each service shall include a contextual summary that
+                             establishes the name of the service and a brief (single paragraph)
+                             description of the real-world effect of using the service.
+
+   Distributable Modules
+
+       SOA-R-15:             The service components shall be able to run on disparate computers and
+                             communicate with each other by sending messages over a network at
+                             runtime.
+
+       Rationale:
+           • Services are typically spread out over multiple physical locations. A service may be used
+               by multiple consumers. SOA applications are inherently distributed applications.
+
+       SOA-R-16:             The service provider shall be responsible for creating a Service Contract for
+                             each service and negotiating with each service consumer. Service
+                             contracts shall be posted on the state SOA Services Registry to
+                             communicate information about the service.
+
+                                            Page 12 of 29
+
+ETA Service Oriented Architecture Requirements                                  Version 1.1 April 24, 2023
+
+       SOA-R-17:             In addition to complying with the ETA SOA Topic Report, service providers
+                             and consumers shall follow the EA Standard (EA225-) for service
+                             application, integration, service bus, and messaging requirements.
+
+   Discoverable Modules
+
+       SOA-R-18:             Services shall be easily identified by their purpose, and easily found by
+                             other agencies. Software developers shall write or generate interface
+                             metadata that specifies an explicit service contract, so other developers
+                             can find and use the service.
+       Rationale:
+
+           •   Developers write or generate technical interface descriptions (interface metadata) so
+               that another developer can find and use the service.
+
+       SOA-R-19:             A centralized support center shall be built and empowered within the
+                             Virginia Information Technologies Agency (VITA) as the approach to
+                             structured application integration matures.
+
+       Rationale:
+
+           •   The Service Offering and Support Center (SOSC) and the enterprise architecture group
+               typically establish the SOA vision, the SOA reference architecture and a state SOSC
+               service registry. An example of a centralized implementation and governance model
+               organization is shown in Appendix A– SOA Centralized Implementation and Governance
+               Model of the Application Domain Report Version 1.0 07-10-2006.
+
+       SOA-R-20:             The state’s SOSC service registry shall be an online catalog that contains
+                             the names and information about each service, including associated
+                             attributes like metadata.
+
+       SOA-R-21:             Once designated as Tier One, services shall be registered in the state SOSC
+                             SOA Services Registry in order to enable discovery, minimize redundancy
+                             of duplicate services, and maximize reuse.
+
+       SOA-R-22:             Software interface definitions shall be maintained in the state’s SOSC SOA
+                             Services Registry, so they are available to application developers.
+
+       SOA-R-23:             Agency Providers with Tier Two services that are likely candidates for
+                             adoption by other agencies shall review these standards before registering
+                             services in the state SOSC Service Registry. Agencies are encouraged to
+                             publish services for reuse. In order to be designated as Tier One, these
+                             services shall meet the design and governance conditions in the SOA Topic
+                             Report which establish requirements for qualifying Tier Two candidates.
+   Service Naming
+
+       SOA-R-24:             Services shall be uniquely identified, secured and versioned. Services shall
+                             be unambiguously named based upon their purpose and to best represent
+                             the task in what is known as the real world effect. Services usually map to
+                             a business task.
+
+       SOA-R-25:             The name of the service shall encapsulate the essential aspects of the real
+                             world effect of the service; that is, the name of the service shall represent
+
+                                            Page 13 of 29
+
+ETA Service Oriented Architecture Requirements                                  Version 1.1 April 24, 2023
+
+                            what the service accomplishes (in business terms), rather than how the
+                            service works.
+
+                            For example, “verify zip code, verify correct address” are representations of
+                            services based or named after the real world effect and are easily
+                            understood by business and technical staff.
+
+       SOA-R-26:            The name shall not indicate the underlying information system that
+                            implements the service, nor the agency or organization that provisions the
+                            service, nor any technical details about how the implementation works.
+
+                            Notes: Additional service naming conventions may be developed by the
+                            multi-agency governance teams.
+
+   Service Description
+
+       SOA-R-27:            Services shall contain a complete description of the real world effect of the
+                            service.
+
+       SOA-R-28:            Services shall contain a list and brief (single paragraph) description of
+                            each of the actions that can be performed on the service.
+
+       SOA-R-29:            Services shall contain a list and brief (single paragraph) description of the
+                            principal information and entities involved in interaction with the service via
+                            its actions.
+
+       SOA-R-30:            Services shall contain a list of the principal metadata categories and
+                            values for the service (a future version of these standards or related
+                            guidelines may specify a standard set of metadata categories for services,
+                            based on experience implementing the integration architecture.
+
+       SOA-R-31:            All aspects of the description shall be free of any implementation details or
+                            dependencies. The description shall not refer to particular databases or
+                            systems in the description of the real world effect; rather, the description
+                            shall describe the business effects of the service.
+   Service Metadata
+
+       SOA-R-32:            Each service interface shall have a complete definition that captures its
+                            semantic meaning. Each attribute shall identify its data type and other
+                            parameters that specify the range of its values.
+
+       SOA-R-33:            Each service interface shall have a set of metadata categories and values,
+                            as appropriate, to define the context of the element.
+
+       SOA-R-34:            The metadata for a service shall include the service provider that owns and
+                            governs the structure of the service and the current version of the service
+                            and messages.
+
+       SOA-R-35:            The name of each service interface shall encapsulate the meaning of the
+                            service in a way free of any reference to implementation detail.
+
+       SOA-R-36:            Each exposed class and service interface shall include an identifier in
+                            service’s registered metadata.
+
+                                            Page 14 of 29
+
+ETA Service Oriented Architecture Requirements                                 Version 1.1 April 24, 2023
+
+   Swappable Modules
+
+       SOA-R-37:             The design of the service module shall allow it to be replaced by another
+                             module that offers the same service without disrupting modules that used
+                             the previous module. This is accomplished by separating the interface
+                             design from the module that implements the service.
+       Rationale:
+
+           •   This separates the implementation (the service provider module's code and data) from
+               the interface metadata. A copy of the interface metadata is accessible to other
+               developers separately from the code that implements the provider component.
+           •   This makes it possible for the consumer developer to use the service without having a
+               copy of the provider software module. It also enables multiple development teams to
+               create interchangeable provider modules.
+
+           •   The consumer and the provider can use disparate programming languages, application
+               servers and operating systems.
+
+       SOA-R-38:             Services that make functionality or information available to other services
+                             shall do so through separate well defined interfaces.
+
+       SOA-R-39:             Services shall be designed so that modules may be replaced without
+                             affecting the consumers.
+
+       SOA-R-40:             Services that use functionality or information provided by other systems or
+                             services shall access that functionality or information in a way that
+                             minimizes dependencies on those other systems’ implementation details.
+
+   Shareable Service Provider Modules
+
+       SOA-R-41:             Services shall be designed and deployed in a way that enables them to be
+                             invoked successively by disparate applications in support of diverse
+                             business activities.
+
+       Rationale:
+
+           •   Multiple agencies, departments or separate agencies and entities can use the same
+               service.
+
+           •   This service condition ensures each provider module in an SOA application can be
+               invoked successively by disparate consumers.
+
+           •   Developers can write different consumer application modules that use the same service
+               as long as they conform to the conditions specified in the interface contract.
+
+       SOA-R-42:             The service shall be posted to and made available on the state SOSC
+                             registry once designated as Tier One.
+
+       SOA-R-43:             The service provider is responsible to ensure the service follows the
+                             requirements of the SOA design process while under development and
+                             implementation.
+
+       SOA-R-44:             The service provider is responsible to ensure changes to the service follow
+
+                                            Page 15 of 29
+
+ETA Service Oriented Architecture Requirements                                    Version 1.1 April 24, 2023
+
+                              the requirements of the SOA governance and Consumers are made aware
+                              of all changes
+Service Features
+The following sections describe service design features, which are similar to application design. Services
+shall be tested to ensure they meet the following design features:
+
+    Security
+
+        SOA-R-45:             Each service shall be designed to ensure provider and consumer security.
+
+        SOA-R-46:             Services shall have the ability to be audited (also see Service Metrics.)
+
+        SOA-R-47:             Vulnerability testing shall occur before services are deployed.
+        Rationale:
+
+            •   Vulnerability Assessment is an emerging area of SOA testing. By creating specialized
+                tests for a target web service, security officers can measure the vulnerability profiles of
+                the target web service.
+
+            •   Security Engineers need to ensure that web services vulnerabilities such as buffer
+                overflows, deeply nested nodes, recursive payloads, schema poisoning and malware
+                traveling over SOAP messages do not affect their critical web services.
+
+            •   Web services vulnerability assessment is a crucial pre-production and post-production
+                step that every developer and security professional shall take to ensure risk mitigation
+                within their service oriented architecture.
+
+        SOA-R-48:             Services that interface with legacy systems shall also ensure the systems
+                              are not exposed to vulnerable security threats or breaches.
+    Scalability
+
+        SOA-R-49:             Service providers shall architect the service, so it is scalable to meet
+                              current and future consumer needs.
+
+        SOA-R-50:             The provider shall identify the service capability, capacity, expected
+                              number of users, and the number of transactions per minute.
+
+        SOA-R-51:             Services shall be designed to handle the number of users per each Service
+                              Level Agreement and architected to be scalable to several times the
+                              number identified in its current configuration.
+    Availability
+
+        SOA-R-52:             The service component architecture shall be highly available, and fully
+                              redundant to allow for the addition of resources without system downtime.
+                              The service shall also enable scalability of backend applications through
+                              load balancing.
+
+        SOA-R-53:             Scheduled maintenance periods shall be identified in each SLA and service
+                              contract. Service maintenance is performed when necessary (hardware
+                              and software upgrades, software patches, faulty hardware replacement,
+                              etc.)
+
+                                               Page 16 of 29
+
+ETA Service Oriented Architecture Requirements                                Version 1.1 April 24, 2023
+
+       SOA-R-54:            The service provider shall coordinate with agency consumers in advance of
+                            scheduled maintenance that will affect agencies or users in accordance
+                            with the SLA.
+
+       SOA-R-55:            The service provider’s technical and operational support staff shall monitor
+                            availability and performance of the service.
+
+       SOA-R-56:            Service monitoring and automated alerting and logging shall be
+                            implemented when possible to monitor each service as well as report state
+                            and utilization.
+   Performance
+
+       SOA-R-57:            Service performance shall be monitored and reviewed to plan for the
+                            addition of resources before performance is significantly impacted.
+
+       SOA-R-58:            Agency consumers, including backend applications shall be monitored for
+                            increased server utilization.
+
+       SOA-R-59:            Service providers and consumers shall ensure adequate testing at initial
+                            deployment and every time a change is made in the system.
+
+   Business Continuity
+
+       SOA-R-60:            The service shall be implemented as fault tolerant, with appropriate
+                            hardware, and software.
+
+       SOA-R-61:            The service provider shall perform full-system backups for onsite and off-
+                            site storage on a scheduled basis.
+
+       SOA-R-62:            Business continuity information shall also be included within the service
+                            contract, as well as services that require an SLA between the provider and
+                            consumers.
+
+   Problem Management
+
+       SOA-R-63:            The service provider shall be responsible for problem management and
+                            shall ensure minimal impact to service consumers.
+
+       SOA-R-64:            The service provider shall establish automated triggers and scheduled
+                            maintenance through use of monitoring tools.
+
+       SOA-R-65:            service provider shall notify agencies of all events that have or may have
+                            an adverse affect on service delivery to customers.
+
+       SOA-R-66:            service provider shall notify agency consumers of all failed processes.
+
+       SOA-R-67:            The service provider shall provide seamless integration of processes that
+                            ensure agency consumer problem resolution satisfaction by tracking,
+                            alerting, escalating and solving problems.
+
+       SOA-R-68:            The service provider shall provide help assistance for consumers via an
+
+                                           Page 17 of 29
+
+ETA Service Oriented Architecture Requirements                                 Version 1.1 April 24, 2023
+
+                            online knowledge base or Customer Service Representatives shall be
+                            available to assist by telephone.
+
+   Change management
+
+       SOA-R-69:            All changes to the service shall follow the appropriate requirements in the
+                            Enterprise Architecture Standard (225-). Changes shall be managed to
+                            promote or provide stability and minimize the impact of the changes to the
+                            agencies.
+
+       SOA-R-70:            Changes shall be planned and communicated with agency consumers and
+                            the SOA governance teams.
+
+     Service Planning
+
+       SOA-R-71:            Tier One services shall have a designated business owner and service
+                            provider
+
+       SOA-R-72:            Agencies shall check the state’s SOSC Doman Service Registry to share or
+                            reuse existing SOA services before building or buying new services.
+
+       SOA-R-73:            based services shall support interoperability and portability and as much
+                            as reasonably possible be independent of any specific vendor’s proprietary
+                            product.
+
+       SOA-R-74:            Where applicable, Request for Proposals (RFP) shall require proposed
+                            vendors to identify and describe proposed solution’s SOA readiness and
+                            SOA architecture.
+
+       SOA-R-75:             SOA-based acquisitions shall include language for vendor to identify its
+                             architecture potential to loosely couple with the state’s shared
+                             infrastructure and services, where applicable
+
+                                            Page 18 of 29
+
+ETA Service Oriented Architecture Requirements                                                     Version 1.1 April 24, 2023
+
+SOA Governance
+
+SOA as a method for solution architecture design is an inherently distributed approach for designing and
+implementing service characteristics requirements. Because of this distributed nature, it is critical that a
+stable and centralized governance framework is in place to support the development lifecycle and
+interests. The focus of governance in a SOA environment is to ensure that the service oriented strategy is
+realized in capabilities, assets, and processes that deliver on the required levels of business and technical
+adaptability; service design questions will influence how responsibility, authority, expertise, and work
+(RAEW) is distributed. SOA governance framework is a layered methodology consisting of 1:
+
+       1. Governance of Services (GOS) – the governance activities that ensure the service architecture,
+          design, and delivered services meet the real needs of the business.
+       2. Governing usage of Services (GUS) – the governance of activities that ensure the service
+          execution has integrity and complies with quality of service requirements.
+
+These two service components determine how oversight roles and responsibilities are designed,
+apportioned, and management of the three layers (Governance Policy and Strategy, Supply and Demand,
+Business Process) of governance and promotes the alignment of SOA practice elements (Service
+Strategy, Organization, Service Assets, and Capability) across each of the layers.
+
+Governance Layers
+
+As was noted previously, the governance framework consists of three layers through which the
+governance of SOA is exercised. This layering approach separates out the various governance concerns
+from a policy setting, design, and implementation perspective.
+
+Conceptual SOA Architecture – Commonwealth SOA Infrastructure
+
+                                     3. Commonwealth SOA Infrastructure
+Figure 3 is a notional representation of the framework for the Commonwealth SOA infrastructure.
+
+6
+    Source: https://www.cioindex.com/channel/enterprise_architecture.aspx accessed on 2/12/2012.
+
+                                                        Page 19 of 29
+
+ETA Service Oriented Architecture Requirements                                     Version 1.1 April 24, 2023
+
+Governance Policy and Strategy
+
+This layer is concerned with matters such as control, intelligence, and policy. Activities such as goals,
+context, and limits for the next layers as creation/acquisition and use of services are explored.
+
+Supply and Demand
+
+Supply and demand focus on questions relating adaptability and alignment – a coordination of service
+demand and supply processes ensuring that he lifecycle of a service is managed as a shred and reusable
+asset.
+
+Business Process
+
+SOA is all about business process execution orchestrated through a range of lifecycle objects (metadata,
+WS, WSDL, Policy, BPEL, etc.). Governance actions in this layer ensure that implementation and usage
+complies with policy and requirements set in prior layers.
+
+Roles and Responsibilities
+This layer establishes the roles of the state’s SOA Steering Committee, SOA Technical Advisory Group
+(SOA TAG), state’s SOSC and service Providers and Consumers for the governance of Tier One SOA-
+based services.
+The multi-agency SOA governance teams with business and technical representation noted below are
+expected to collaborate and coordinate with the state’s SOSC to update the related SOA Planning Design
+Standards as services, technology, and state business needs evolve.
+
+SOA Steering Committee
+
+The SOA Steering Committee provides the strategy and leadership to approve recommended Tier One
+services for enterprise use and ensure they are implemented in ways to achieve targeted benefits. Key
+responsibilities include:
+
+    •   Approves Tier One services as delegated by the CIO Council or recommends those that require
+        approval
+
+    •   Provides leadership to ensure implementation of Tier One services
+
+    •   Approves and endorses recommended strategies for services
+
+    •   Exercises authority to make decisions, resolve issues and remove barriers
+
+    •   Ensures funding models are identified and sustainable
+
+    •   Ensures proposed services are properly vetted
+
+    •   Articulates the business needs that shape the overall SOA strategy, services offering, and
+        supporting infrastructure.
+
+    •   Ensures Change Management policies and process are defined and followed
+
+                                               Page 20 of 29
+
+ETA Service Oriented Architecture Requirements                                         Version 1.1 April 24, 2023
+
+     •    Ensures the needs of consumer, provider agencies, and other stakeholders are satisfied by each
+          service
+
+     •    Partners with state’s Service Offering and Support Center (SOSC) to:
+
+          o    Ensure services meet SOA Governance Standards and SOA Planning Design Standards.
+
+          o    Ensure service providers and consumers are utilizing the state’s Backplane for Tier Once
+               service integration and messaging rather than building point to point solutions.
+
+          o    Plan for potential service candidates that enhance business solutions.
+
+     •    Help develop and evolve SOA standards and guidelines to recommend for statewide adoption.
+
+          SOA-R-76:                SOA Steering Committee membership shall consist of VITA and other state
+                                   agency information technology stakeholders.
+
+     SOA Technical Advisory Group
+
+The enterprise SOA Technical Advisory Group (SOA TAG)2 makes recommendations to the SOA Steering
+Committee, partners with the state SOSC, and agencies’ service providers and consumers to ensure
+services are:
+
+          •    Tier One ready –
+
+                    o    Support multi-agency use with minimized risk and impact. Designed to meet SOA
+                         Planning Design Standards.
+
+                    o    Are architected and tested to ensure security, scalability, availability, performance,
+                         business continuity, problem and change management, and sustained funding.
+
+          •    Designed to meet state Enterprise Architecture standards
+
+          •    Provider is defined and has capability and capacity
+
+          •    Service level agreements are complete
+
+          •    Ensure Change Management process meet Tier One technical requirements
+
+          •    Services and service contracts are published on state SOA registry/repository
+
+          •    Used where possible and best fit for purchasing new or upgrading legacy applications
+
+          SOA-R-77:                SOA TAG membership shall consist of state agency architects, application
+                                   developers, and business representatives or analysts to represent service
+                                   providers and consumers.
+
+7 See Definition of Key Terms
+
+                                                   Page 21 of 29
+
+ETA Service Oriented Architecture Requirements                                     Version 1.1 April 24, 2023
+
+Change Management
+
+Change management standards define the way in which the state and agencies will manage and maintain
+new or acquired services, changes to service interfaces and design (both public and private), and the
+state shared service infrastructure. Change management includes the management of the initial
+deployment of a service.
+
+Change management is the responsibility of the service provider, stakeholders, the SOA Steering
+Committee, SOA Technical Advisory Group, and the state SOSC, which will take the lead in responsibility
+for change management.
+
+Service Provider
+
+        SOA-R-78:              Each service shall have an agency responsible for provisioning the service.
+                               This agency is called the “service provider.” The provider may represent
+                               the interests of several agencies through a program office or similar
+                               organizational unit; however, there is a single entity responsible for
+                               provisioning the service.
+
+        SOA-R-79:              The provider shall be responsible for the implementation and proper
+                               functioning of the service.
+
+        SOA-R-80:              The service provider shall follow SOSC established change management
+                               processes subject to the review and approval/endorsement of the multi-
+                               agency governance teams for Tier One services.
+
+        SOA-R-81:              The Service Provider shall be responsible for identifying a group of
+                               stakeholders of the service.
+
+        Rationale:
+
+            •   This should primarily include agencies responsible for current or planned consumer
+                systems that use (or will use) the service but may also include other stakeholders.
+
+        SOA-R-82:               The provider shall ensure known stakeholders are involved in the decision
+                                process when considering
+
+        Rationale:
+
+            •   This consultation shall begin with a notification, using the service repository’s notification
+                capabilities and other appropriate mechanisms.
+
+Infrastructure
+
+The state’s Service Offering and Support Center SOSC will not typically be the provider of a service yet will
+manage changes to the state SOA Backplane with supporting shared infrastructure.
+
+        SOA-R-83:              The SOSC shall be responsible for notifying users of the infrastructure
+                               about planned changes, consulting with users, and coordinating with users’
+                               project schedules.
+
+                                               Page 22 of 29
+
+ETA Service Oriented Architecture Requirements                                    Version 1.1 April 24, 2023
+
+    Configuration Management
+
+        SOA-R-84:             The provider of a service shall be responsible for assigning version labels
+                              to each new version of a service, according to an accepted convention.
+
+        SOA-R-85:             The service provider is responsible to ensure version updates are posted to
+                              the service repository to reflect the new version and all service consumers
+                              are notified of any changes.
+    Quality Assurance
+
+Mechanisms are necessary to ensure that services reliably achieve their advertised real world effect, and
+that each service conforms to the requirements of the SOA Topic Report.
+
+    Assurance of Real-World Effect
+
+        SOA-R-86:             The provider of a service shall be responsible for assuring the quality of the
+                              service, in particular making sure the service properly achieves the stated
+                              real world effect. VITA can assist the provider in fulfilling this
+                              responsibility (for example, by providing a version of the infrastructure
+                              platform dedicated to testing and service metrics for Tier One services
+                              utilizing the state Backplane), but the final responsibility rests with the
+                              provider.
+
+    Standards Conformance
+
+        SOA-R-87:             Services identified in the state’s service registry/repository or deployed on
+                              the state’s SOA backplane or integration infrastructure shall conform to all
+                              Enterprise Architecture requirements and all information technology
+                              resource management policies and standards.
+
+        SOA-R-88:             The SOA Technical Advisory Group (TAG) and state SOSC shall be
+                              responsible for ensuring that any service deployed on the state’s shared,
+                              common SOA backplane, state SOSC Domain Service Registry or
+                              integration infrastructure conforms to all Enterprise Architecture
+                              requirements and all information technology resource management
+                              policies and standards.
+
+    Service Level Agreement
+
+        SOA-R-89:             When establishing a service-level agreement for a service, the parties
+                              (provider and consumer(s)) shall address the following issues in the
+                              agreement:
+
+                                    a.   Availability requirements (with what probability is the service
+                                         available for interaction, provisions for negotiations and
+                                         notifications for outages)
+
+                                    b. Responsiveness requirements (how quickly does the service
+                                       respond, both synchronously and asynchronously)
+
+                                    c.   Impacts, risks to enterprise and agency services, data stores,
+                                         and systems.
+
+                                              Page 23 of 29
+
+ETA Service Oriented Architecture Requirements                                   Version 1.1 April 24, 2023
+
+                                    d. Privacy requirements (what restrictions are there on what the
+                                       parties may do with information that they obtain as part of the
+                                       service interaction)
+
+                                    e.   Change management processes.
+
+                                    f.   Funding model or cost model.
+
+                                    g. The provider of a private service shall negotiate change
+                                       management processes with consumers of the service.
+
+                                    h. Under what conditions (including how often) a provider may
+                                       change the service’s interface.
+
+                                    i.   How far in advance of a proposed change the provider shall
+                                         notify consumers of the intent to change.
+
+                                    j.   How to resolve disputes between consumers regarding the
+                                         viability or desirability of a change to the interface.
+
+                                    k.   How the partners will fund and implement system changes that
+                                         result from the interface change.
+
+    Service Reuse
+
+Services and interfaces fall under the Enterprise Architecture, Applications Domain and The Integration
+Domain.
+
+        SOA-R-90:             Services and interfaces shall be designated as Tier One common assets
+                              upon demonstration of a clear business case; once designated as such, a
+                              business case is required for an agency to invest in and provide a duplicate
+                              service or interface.
+        Rationale:
+
+            •   It is the role of the state SOSC to promote the reuse of services and interfaces.
+
+        SOA-R-91:             Processes for developing and defining Tier One services for reuse shell be
+                              defined by the SOA Steering Committee, SOA TAG and state SOSC as the
+                              services architecture and service metrics are documented.
+        Rationale:
+
+            •   Providers can attach policies to services that govern their reuse and incorporate these
+                policies into the service-level agreement associated with the service. For instance, a
+                provider can prevent users from “repackaging” a service (simply wrapping the service
+                interface with another service that the user provides) and changing the conditions of use
+                (for instance, by charging users for access to the service.)
+
+State Service Offering and Support Center (SOSC)
+
+The state’s Service Offering and Support Center SOSC is maintained and operated by VITA. It uses a
+
+                                              Page 24 of 29
+
+ETA Service Oriented Architecture Requirements                                  Version 1.1 April 24, 2023
+
+collaborative approach to provide shared-services based solutions for agencies and multi-agency
+applications.
+
+       SOA-R-92:             The state SOSC model shall maximize collaboration and communication
+                             among the state SOSC and agencies. The state’s SOSC also shall support
+                             the state SOA backplane with service registry, infrastructure, and system
+                             integration.
+       Rationale:
+
+       •    The state SOSC is a key to the delivery of quality and reliable enterprise SOA and service
+            integration services and is an important facilitator of an enterprise approach to SOA and
+            integration.
+
+       •    The main objective of the SOSC is to improve the efficiency and effectiveness of SOA-based
+            services and system integration activities, through close coordination of shared SOA
+            backplane and integration infrastructure with system implementation projects.
+
+       SOA-R-93:             The state SOSC shall maintain and monitor the state’s SOA backplane and
+                             integration infrastructure.
+
+       Rationale:
+
+       •    The state SOSC SOA development support function helps agency project team in
+            the design and build of their services and integration connections (adapters) into
+            the integration infrastructure.
+
+       SOA-R-94:             The SOSC shall assist agencies/service providers assemble and maintain
+                             service documentation (service metadata) for the application interactions.
+       Rationale:
+
+       •    The development function also includes ensuring that agencies and projects are aware of
+            available shared integration infrastructure and how to use it to accomplish project
+            objectives.
+
+       SOA-R-95:             The state SOSC shall maintain a single statewide registry/repository of Tier
+                             One SOA-based services and system interfaces.
+
+       SOA-R-96:             The SOSC and multi-agency SOA TAG shall work with service providers to
+                             ensure service models are consistent in format and content across the
+                             enterprise, ensure that each model contains proper, consistent metadata,
+                             ensure the owner agency is identified as accountable for the service, and
+                             ensure that models reflect the reuse of existing services to meet the needs
+                             of new projects.
+       Rationale:
+
+       •    Service reuse is more likely to occur when services are posted to the state’s
+            registry/repository. Service publication helps minimize redundancy and promote
+            collaboration and coordination.
+
+       SOA-R-97:             Each service shall have a set of metrics to measure its performance and
+                             reuse. Service metrics shall provide quality of service, performance, and
+                             reuse information for investment, design, deployment, and maintenance
+                             planning.
+
+                                             Page 25 of 29
+
+ETA Service Oriented Architecture Requirements                                 Version 1.1 April 24, 2023
+
+       Rationale:
+
+            • Service metrics provide information for quality of service, performance and reuse. Helps
+              agencies plan for and maintain services.
+
+       SOA-R-98:             The state’s SOSC is responsible for provisioning the state SOA backplane.
+                             The SOA backplane shall include mechanisms for lifecycle management
+                             such as registry/repository, policies, and service orchestration; business
+                             analytics for service metrics, development tools for security, management,
+                             and adapters; and communications for routing, naming, quality of service,
+                             and transformation.
+
+Agency Service Offering & Support Center (Support Center)
+
+       SOA-RP-01:          Individual agencies should form an organizational unit similar to the state’s
+                           support center to support SOA services within an agency. The state’s
+                           support center may serve as a resource and consultant to agency support
+                            center as needed.
+
+       SOA-RP-02:            Services should avoid service nesting, where possible, to minimize service
+                             dependencies and reduce risk.
+
+       SOA-RP-03:            Providers should consider providing tools to assist consumers in testing
+                             consumer systems that use the service. These tools should include:
+
+                                 a.   Providing a standalone implementation of the service interface(s)
+                                      that a consumer can use in developing a consumer system,
+                                      including basic testing.
+
+                                 b. Deploying the service in a test environment managed by the SOSC
+                                    to support more sophisticated testing and to test performance.
+
+                                             Page 26 of 29
+
+ETA Service Oriented Architecture Requirements                                  Version 1.1 April 24, 2023
+
+Definition and Terminology
+
+This document presents architecture direction for agencies when planning or making changes or
+additions to their information technology through:
+
+   •   Principles – high-level fundamental truths, ideas or concepts that frame and contribute to
+       the understanding of the Enterprise Architecture. They are derived from best practices that
+       have been assessed for appropriateness to the Commonwealth Enterprise Architecture.
+       [COTS EA Workgroup, ―Commonwealth of Virginia Enterprise Architecture – Conceptual
+       Architecture‖, v1.0, February 15, 2001, p 5.]
+
+   •   Requirement(s) – (context: Enterprise Architecture) numbered statements that provide
+       mandatory Enterprise Architecture direction (example: NET-R-01) and strategic
+       components of the Commonwealth’s Enterprise Technical Architecture Technical
+       Component Standards tables which are acceptable activities for current deployments and
+       must be implemented and used for all future deployments.
+
+   •   Recommend Practices – activities which are normally considered leading edge or
+       exceptional models for others to follow. They have been proven to be successful and
+       sustainable and can be readily adopted by agencies. They may or may not be considered
+       the ultimate ― “best practice” by all readers but for this place and time they are
+       recommended practices and should be used and implemented wherever possible.
+       Recommended Practices are optional.
+
+   •   Service-Oriented Architecture (SOA) – architectural approach that presents a set of
+       reusable software components that align with the agency’s business goals and the
+       Commonwealth’s strategic objectives. The services are highly cohesive, loosely coupled,
+       discoverable software components that are decoupled from hardware and network
+       dependencies and that encapsulate the complexities of the underlying implementation.
+
+   •   SOA-based Services – modular, swappable functions, separate from, yet connected to an
+       application via well defined interfaces to provide agility. Often referred to as “services”
+       throughout this document they:
+
+       o   Perform granular business functions such as “get customer address” or larger ones
+           such as “process payment.”
+
+       o   Are loosely coupled to a new or existing application.
+
+       o   Have capability to perform the steps, tasks and activities of one or more business
+           processes.
+
+       o   Can be combined to perform a set of functions - referred to as “service orchestration.”
+
+   •   SOA Steering Committee – This entity provides the strategy and leadership to approve
+       recommended Tier One services for enterprise use and ensure they are implemented in
+       ways to achieve targeted benefits.
+
+   •   SOA Technical Advisory Group (SOA TAG) – This entity recommends and ensures
+       services are and remain Tier One compliant.
+
+                                             Page 27 of 29
+
+ETA Service Oriented Architecture Requirements                                Version 1.1 April 24, 2023
+
+   •   State SOA Backplane - Shared, common infrastructure for lifecycle management such as a
+       services registry, policies, business analytics; routing/addressing, quality of service,
+       communication; development tools for security, management, and adapters.
+
+   •   Service Offering and Support Center (SOSC) – The state SOSC is maintained and operated by the
+       Virginia Information Technology Agency (VITA). The SOSC provides people, processes, and
+       resources to ensure enterprise efficiencies and help agencies meet business and technical
+       needs.
+
+   •   Service Providers and Consumers - In general, entities (people and organizations) offer
+       capabilities and act as service providers. Those with needs who make use of services are
+       referred to as service consumers.
+
+   •   Tier Definitions: Tier One – Services across/among agency systems; Tier Two – Services within
+       an agency; and Tier Three – Sub-agency level.
+
+                                            Page 28 of 29
+
+ETA Service Oriented Architecture Requirements                                  Version 1.1 April 24, 2023
+
+Appendices
+References and Links
+
+State References:
+
+   Service Oriented Architecture (SOA) Planning Design Standards, State of Washington, Olympia, WA,
+   Information Services Board, refer to: http://ofm.wa.gov/ocio/policies/documents/183.10.20.pdf
+
+   Integration Services Gouvernance, State of Washington, Olympia, WA., Information Services Board,
+   refer to: http://ofm.wa.gov/ocio/policies/documents/183.30.10.pdf
+
+   Service-Oriented Architecture (SOA) and Federal Identity Management Vision, November 19, 2007, refer
+   to: http://www.cioarchives.ca.gov/stateIT/pdf/California_SOA_and_IDM_Vision_122007.pdf
+
+Federal References:
+
+   A Practical Guide to Federal Service Oriented Architecture, Architecture and Infrastructure Committee,
+   Federal Chief Information Officers Council, refer to: http://www.cio.gov/Documents/PGFSOA_v1-
+   1.pdf
+
+General References:
+
+   The SOA Source Book, published by The Open Group; refer to: http://www.opengroup.org/soa/source-
+   book/soa/index.htm
+
+    Interoperable Enterprise Business Scenario (K022), published by The Open Group; refer to:
+    www.opengroup.org/bookstore/catalog/k022.htm.
+Magic Quadrant for SOA Governance Technologies, Gartner G00219233, refer to:
+http://www.scribd.com/doc/76706515/Magic-Quadrant-for-Soa-Gover-219233
+
+                                             Page 29 of 29
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

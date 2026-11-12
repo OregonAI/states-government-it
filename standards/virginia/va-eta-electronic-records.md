@@ -1,0 +1,813 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-eta-electronic-records
+title: Electronic Records Management
+doc_type: standard
+citation: 'EA requirements document: Electronic Records Management'
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/Electronic-Records-Management.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 0db5e48f5b23c305513c0f295280aa48d39308bef3160e368de9af5b5f909b2e
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Electronic Records Management (EA requirements document: Electronic Records Management)
+
+## At a glance
+
+Item of VITA's Enterprise Architecture page, group 'EIA - Enterprise Information Architecture Requirements': an EA requirements document under the Enterprise Architecture Standard (EA225), whose requirement statements are mandatory for executive branch agencies. The PDF prints: ETA Electronic Records Management Requirements Version 1.2, May 9, 2023.
+
+## Full text
+
+  Commonwealth of Virginia
+Enterprise Technical Architecture [ETA]
+
+Electronic Records Management Topic Report
+             Information Domain
+
+ vita.virginia.gov              May 9, 2023
+
+ETA Electronic Records Management Requirements                                     Version 1.2 May 9, 2023
+
+                Electronic Records Management Requirements: Version History
+ Revision      Date               Description
+ 1.0           04-04-2011         Initial report
+ 1.1           07-28-2016         Update necessitated by changes in the Code of Virginia and
+                                  organizational changes in VITA. No substantive changes were made to
+                                  this report.
+ 1.2           05-09-2023         Administrative update for accessibility
+
+Review Process
+This requirements document was posted on VITA’s Online Review and Comment Application (ORCA). All
+agencies, stakeholders, and the public were encouraged to provide their comments through ORCA. All
+comments were evaluated and individual commenters were notified of action(s) taken.
+
+Standards and Agency Exceptions
+These standards are incorporated within the COV Enterprise Architecture Standard (EA-225), and the
+requirements defined within this document are mandatory for Executive Branch agencies. Agencies
+deviating from these requirements must request an exception for each desired deviation, and receive an
+approved Enterprise Architecture Exception via Archer, prior to developing, procuring, or deploying such
+technology, or not complying with a requirement specified in this document.
+
+Glossary
+As appropriate, terms and definitions used in this document are in the COV ITRM IT Glossary. The COV
+ITRM IT Glossary is available on the ITRM Policies, Standards, and Guidelines web page at the VITA
+website: https://www.vita.virginia.gov/it-governance/glossary/cov-itrm-glossary/
+
+                                              Page 2 of 17
+
+ETA Electronic Records Management Requirements                                                                                                 Version 1.2 May 9, 2023
+
+Contents
+  Introduction ....................................................................................................................................................................... 4
+  Purpose ............................................................................................................................................................................. 4
+  Authority ............................................................................................................................................................................ 4
+  Scope................................................................................................................................................................................. 4
+  Executive Summary .......................................................................................................................................................... 6
+  Topic-wide Principles, Requirements and Recommended Practices ............................................................................. 7
+  Topic-wide Recommended Practices .............................................................................................................................. 8
+  Life Cycles Phases of Electronic Records ....................................................................................................................... 9
+  Maintain Phase ................................................................................................................................................................ 10
+  Store Phase ..................................................................................................................................................................... 11
+  Dispose Phase ................................................................................................................................................................. 12
+  Reference ........................................................................................................................................................................ 13
+
+                                                                                Page 3 of 17
+
+ETA Electronic Records Management Requirements                                           Version 1.2 May 9, 2023
+
+Introduction
+
+Background
+
+The Commonwealth’s Enterprise Architecture (EA) is a strategic asset used to manage and align the
+commonwealth’s business processes and Information Technology (IT) infrastructure/solutions with the
+State’s overall strategy.
+
+The EA is also a comprehensive framework and repository which defines:
+
+    •   the models that specify the current (“as-is”) and target (“to-be”) architecture environments,
+    •   the information necessary to perform the commonwealth’s mission,
+    •   the technologies necessary to perform that mission, and
+    •   the processes necessary for implementing new technologies in response to the commonwealth’s
+        changing business needs.
+
+Definition of Key Terms
+
+This document presents architecture direction for agencies when planning or making changes or
+additions to their information technology through:
+
+    •   Requirements – statements that provide mandatory Enterprise Architecture direction.
+    •   Recommend Practices – statements that provide guidance to agencies in improving cost
+        efficiencies, business value, operations quality, reliability, availability, decision inputs, risk
+        avoidance or other similar value factors. Recommended Practices are optional.
+
+Purpose
+The intent of these requirements is to guide the purchase, design, implementation, and on-going
+operation of COV IT services and utilized technologies. For further information on the perspectives,
+please reference the most recent version of the Enterprise Technical Architecture (ETA) Requirements
+document.
+
+Authority
+    •   Code of Virginia, §2.2-2007. Powers of the CIO
+    •   Code of Virginia, §2.2-2007.1. Additional duties of the CIO relating to information technology
+        planning and budgeting
+    •   Code of Virginia, §2.2-2009(A). Additional duties of the CIO relating to security of government
+        information
+    •   Code of Virginia, §2.2-2012(A). Additional powers and duties related to the procurement of
+        information technology
+
+Scope
+This standard is applicable to all Executive Branch state agencies (hereinafter collectively referred to as
+"agencies") that are responsible for the management, development, purchase and use of information
+technology resources in the Commonwealth of Virginia. This standard does not apply to research
+projects, research initiatives, or instructional programs at public institutions of higher education.
+
+                                                  Page 4 of 17
+
+ETA Electronic Records Management Requirements                                        Version 1.2 May 9, 2023
+
+In addition to the requirements below all COV IT technology solutions comply with the standards found
+on the VITA Policies Standards & Guidelines page.
+
+Electronic Records Management Report
+This report addresses the management of electronic records. It provides a framework to apply
+effective and efficient management practices to electronic records by designing the necessary
+features into a new or substantially upgraded IT system. Requirements introduced in this report
+will be incorporated into the COV ITRM Enterprise Architecture Standard and/or Policy. As
+appropriate, terms and definitions used in this document can be found in the COV ITRM IT Glossary
+which may be referenced on the VITA ITRM Policies, Standards and Guidelines web page at
+http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+Electronic Records Management Purpose
+The Virginia Public Records Act (VPRA) was created to help ensure that the procedures used to
+manage and preserve public records are uniform throughout the Commonwealth. The Library of
+Virginia (LVA) is responsible for providing the support and guidance agencies and localities need
+to fulfill their obligation to maintain and make available public records throughout their life cycle.
+The Code of Virginia §42.1-85 identifies agencies as being responsible for ensuring that their public
+records are preserved, maintained, and accessible throughout their lifecycle, including converting
+and migrating electronic records as often as necessary so that information is not lost due to
+hardware, software, or media obsolescence or deterioration. LVA, through its Records Analysis
+Services (RAS), assists public entities by publishing Records Retention & Disposition Schedules1,
+presenting workshops, monitoring the disposal of non-permanent records, and assisting with the
+transfer of permanent records to the State Archives.
+
+The Code of Virginia § 42.1-77 defines what constitutes a public record; and the LVA provides
+assistance to public entities to ensure those records are maintained, disposed of, and as
+appropriate available for reference to current and future generations.
+
+The ERM is needed to provide guidance and direction to public entities to address the unique
+requirements for those public records that are electronic in form. The ERM is applicable to all
+executive branch agencies and institutions of higher education that use electronic means in
+creating, maintaining, using or disposing of records in support of conducting public business.
+
+Electronic records (E-Records) are defined in the Virginia Public Records Act as follows:
+
+             "Electronic record" means a public record whose creation, storage, and access require the
+             use of an automated system or device. Ownership of the hardware, software, or media used
+             to create, store, or access the electronic record has no bearing on a determination of
+             whether such record is a public record.”
+
+The LVA also notes that those public records that are in electronic form pose their own unique
+challenges, and must be scheduled, maintained, and disposed of in the same manner as paper records.
+
+The Library’s rules for managing electronic records are published on their Web site and may be found at:
+http://www.lva.virginia.gov/agencies/records/electronic/index.htm         .
+
+    1
+      Library of Virginia, Records Management State Agency General Schedules, 2009:
+    http://www.lva.virginia.gov/agencies/records/sched_state/index.htm
+
+                                                       Page 5 of 17
+
+ETA Electronic Records Management Requirements                                      Version 1.2 May 9, 2023
+
+Executive Summary
+
+The Virginia Public Records Act (VPRA) was created to help ensure that the procedures used to
+manage and preserve public records are uniform throughout the Commonwealth. The Library of
+Virginia (LVA) is responsible for defining what constitutes a public record and providing assistance
+to public entities to ensure those records are maintained, disposed of, and as appropriate, available
+for reference to current and future generations.
+
+Public records are the output of the business and administrative processes of an agency. Records
+management is a process of ensuring the proper creation, maintenance, use and disposal of those
+records throughout their life cycle to achieve efficient, transparent and accountable governance.
+Records management ensures that all the records of an agency created in the conduct of official
+business are, and remain, authoritative and authentic.
+
+The Commonwealth’s Electronic Records Management (ERM) Topic Report provides guidance and
+direction to public entities to address the unique requirements for those public records that are
+electronic in form. ERM is designed to assist agencies to identify and manage electronic records
+effectively and efficiently through the establishment of an appropriate set of records management
+controls. ERM provides a proactive framework to manage electronic records through their life
+cycle. It starts at the initial development stage of an automated application and continues through
+the retirement of any associated electronic records.
+
+Requirements and recommended practices presented in this document establish guidance and
+direction for the management of an agency’s electronic records.
+
+                                                Page 6 of 17
+
+ETA Electronic Records Management Requirements                                    Version 1.2 May 9, 2023
+
+Topic-wide Principles, Requirements and Recommended Practices
+
+The ERM is a guide that uses relevant records management procedures (i.e., context and
+conditions) to help business process owners identify and integrate records management related
+principles, requirements and recommended practices into all aspects of agency business
+operations. This section identifies those principles, requirements and recommended practices that
+cross all five electronic records life cycle phases.
+
+Topic-wide Principles
+
+The following principle is established to provide overall guidance to public entities in managing
+their electronic records.
+
+        ERM-P-01        Public electronic records are Commonwealth assets and must be
+                        effectively managed throughout their life cycle.
+
+Topic-wide Requirements
+
+    The following are topic-wide requirements:
+
+        ERM-R-01            When an agency builds a new automated system or significantly updates
+                            an existing automated system, the agency shall ensure that the system has
+                            the ability to manage records by their appropriate State Agency Records
+                            Retention & Disposition Schedules
+
+        ERM-R-02            Agencies shall require training and education programs for all aspects of
+                            electronic records management to be an integral and ongoing component
+                            of an agency records management program.
+
+        ERM-R-03            Agencies shall ensure that all contracts related to external providers
+                            hosting applications that contain Commonwealth identified public records
+                            have appropriate terms and conditions that require the vendor to manage
+                            those electronic records in compliance with the agency approved records
+                            retention and disposition schedule.
+
+                            Rationale
+                            Public records must be maintained and disposed of to comply with
+                            approved records retention and disposition schedules regardless of their
+                            format or who is maintaining the records.
+
+        ERM-R-04            Agencies shall establish, maintain and implement procedures to ensure all
+                            public electronic records are retained until no longer needed and disposed
+                            of in accordance with their corresponding approved LVA retention and
+                            disposition schedule
+
+                            Rationale
+                                    o   Determines how long to keep electronic records to meet legal,
+                                        business, an historical need, based on the agency’s approved
+                                        records retention and disposition schedule.
+
+                                    o   Confirms the agency approved records retention schedule and
+
+                                                 Page 7 of 17
+
+ETA Electronic Records Management Requirements                                 Version 1.2 May 9, 2023
+
+                                     disposition authority, which identifies its business records in
+                                     any format including electronic.
+
+                                 o   Ensures procedures are in place to allow the application of
+                                     retention schedules so that records that have met retention
+                                     requirements can be identified and disposed of according to
+                                     their corresponding retention schedule.
+
+       ERM-R-05          Agencies shall take appropriate measures to ensure electronic records are
+                         accessible for as long as required by their approved records retention and
+                         disposition schedule. Measures could include but are not limited to
+                         maintaining the hardware, software and media necessary to access the
+                         records; maintaining the pertinent technical expertise, manuals and
+                         documentation required to use this hardware, software, and media in order
+                         to access the records; refreshing electronic storage media; or converting
+                         those records to a different format that makes the records accessible.
+
+                         Rationale
+                             Ensures that electronic records are stored on appropriate devices
+                             based on business needs, preservation requirements, and costs.
+                             Ensures regular integrity checks on performed electronic storage devices.
+                             Ensures electronic storage media are monitored and periodically
+                             refreshed to prevent data loss through media degradation and
+                             obsolescence.
+
+       ERM-R-06          When existing systems are replaced or upgraded, agencies shall ensure
+                         electronic records stored in the old system are either:
+
+                            i. maintained and managed in the old system until
+                               appropriately disposed according to their applicable retention
+                               and disposition schedules; or
+                           ii. migrated and managed in the new system until appropriately
+                               disposed according to their applicable retention and
+                               disposition schedules.
+
+                         Rationale
+                                 o   Ensures an approach to preserving electronic records has
+                                     been selected based on business needs, how well the
+                                     approach will serve them and the agency’s capacity to
+                                     support the approach (financially and technically) in the long
+                                     term.
+                                 o   Ensures preservation strategies are implemented and
+                                     proactively promulgated to relevant staff such as, business
+                                     owners, IT management and records management.
+                                 o   Ensures electronic records and associated metadata are usable
+                                     and accessible with current and future technology
+                                 o   Ensures when electronic records are transferred between
+                                     agencies, the records and associated metadata are
+                                     transferred in data formats that are accessible and functional
+                                     for the receiving agency
+
+                                           Page 8 of 17
+
+ETA Electronic Records Management Requirements                                       Version 1.2 May 9, 2023
+
+Life Cycles Phases of Electronic Records
+
+The remainder of this report is organized by phases associated with the normal life cycle of an
+electronic record. The following phases include requirements pertaining to electronic records
+management that have been published by nationally and internationally recognized standards-
+setting organizations.
+
+Create Phase
+
+   The create phase begins at the point in time when a public record is first created in an electronic
+   format and stored in an automated system.
+
+   Requirements related to the create phase include the following:
+
+       ERM-R-07             Each electronic record created shall have metadata sufficient to manage
+                            the record throughout its life cycle. Types of metadata must include, but
+                            are not limited to, the following:
+
+                                i. “Descriptive” metadata allows for basic identification of a record
+                                   through title, author, and keywords.
+                               ii. “Structural” metadata indicates how objects are put
+                                   together, for example, how pages are ordered to form chapters.
+                              iii. “Administrative” metadata includes technical information
+                                   to help manage a document, such as file type, creation date, format,
+                                   and access restrictions.
+
+                            Rationale
+
+                                     o   Ensures that standardized metadata is created to facilitate
+                                         recordkeeping and disposition sufficient for the agency business
+                                         needs.
+                                     o   Ensures creation and capture of metadata occurs as a normal
+                                         part of business process and recordkeeping operations.
+                                     o   Ensures classification criteria have been developed to assist
+                                         with titling, indexing, and retrieving electronic records.
+
+   The following is the create phase recommended practice:
+
+       ERM-RP-01            Each agency should create and maintain an electronic records file
+                            management plan as a part of their agency file management plan.
+
+   Rationale
+                                Facilitates the management of electronic records. Enables
+                                accountability through full and accurate records Assists the
+                                agency to meet the legal responsibilities
+                                mandated in the Code of Virginia.
+                                Determines how files will be arranged, categorized, accessed, and
+                                stored, whether in paper or electronic format. Having good filing
+                                practices ensures that the right file can be retrieved quickly at the right
+                                time for the lowest possible cost.
+
+                                               Page 9 of 17
+
+ETA Electronic Records Management Requirements                                   Version 1.2 May 9, 2023
+
+Access Phase
+
+   The access phase begins after a public record is initially created and stored in an electronic
+   format. Access is defined as the right bestowed by law to access public records and includes the
+   opportunity and means of finding, using, or retrieving information from public records stored in
+   electronic formats.
+
+   Security controls related to sensitive information contained in electronic records and user
+   authentication and authorization are directly related to the access phase. These controls are needed to
+   protect electronic public records from:
+
+           intentional or unintentional damage;
+           unauthorized access;
+           tampering; and
+           unauthorized modification.
+
+   Access phase requirements related to security controls are addressed by the current version of
+   COV ITRM Information Security Standard SEC501 which can be found at www.vita.virginia.gov .
+   Security controls are essential to ensure:
+
+           protection of electronic records from intentional or unintentional damage, unauthorized access,
+           tampering or unauthorized modification;
+           electronic systems are designed and managed to protect confidential
+           information while providing access by the public to their electronic records and record’s
+           metadata;
+           electronic records are managed according to the Library of Virginia approved retention
+           schedule, and their metadata, are accessible and usable as
+           appropriate by the public;
+           the infrastructure is in place to meet public and official demands for access to electronic
+           records;
+           agency procedures and practices control the appropriate assignment of access permissions
+           to users; and
+           agency procedures are in place to identify and respond to incidents or attempted security
+           breaches of systems that create or store electronic
+           records.
+
+     Maintain Phase
+   The maintain phase includes the maintenance in an unaltered form of an electronic record together
+   with its metadata.
+
+   Requirements related to the maintain phase include:
+
+       ERM-R-08            Agencies shall maintain an adequate electronic records disaster
+                           preparedness plan for the protection of agency electronic records and to
+                           assist in the recovery of agency electronic records from a disaster.
+
+   Rationale
+
+                                Ensures procedures and practices are in place to minimize the risk of
+
+                                             Page 10 of 17
+
+ETA Electronic Records Management Requirements                                        Version 1.2 May 9, 2023
+
+                                    electronic records being lost or damaged as a result of disaster.
+                                    Identifies vital electronic records and ensures that they receive
+                                    appropriate priority in business continuity plans.
+                                    Ensures that business continuity plans include appropriate recovery
+                                    and restoration procedures for electronic records.
+     Store Phase
+   The store phase occurs after an electronic record is no longer needed to support current business
+   practices and prior to that record completing its LVA established retention period. During this
+   period of time, the electronic record must be safely stored until such time that it can be properly
+   disposed of. In this phase, an electronic record may be inactive or semi-active and used to support
+   other activities such as research.
+
+   In many cases agencies will maintain electronic records in automated solution databases until
+   those records meet their retention criteria, when they will be removed from the active files through
+   disposition processes. This means that the same hardware, software and storage media is used
+   for active electronic records (maintain phase) as for non-active records.
+
+   In cases where an automated solution is being shut down, upgraded, or replaced and the old
+   solution contains electronic records that are inactive and that have not completed their established
+   retention criteria, the agency has the choice of converting those records to the new solution and
+   maintain them until they meet the retention criteria or keep those records in the old solution and
+   maintain the records and the solution until those records complete the retention criteria.
+
+   The requirement related to the store phase is:
+
+       ERM-R-09             Agencies shall store electronic records no longer needed to support current
+                            business practices but that have not satisfied their LVA established
+                            retention criteria by:
+                               i.       ensuring the same level of safekeeping as when the electronic
+                                        records were first created and used to actively support agency
+                                        business needs;
+                              ii.       ensuring that those electronic records can continue to be accessed
+                                        electronically through hardware, software, and media migrations
+                                        and upgrades; and
+                             iii.       ensuring the pertinent manuals and documentation required to
+                                        use this hardware, software, and media in
+                                        order to access the records are maintained.
+
+       Rationale
+
+                                    Ensures the same level of care and custody is provided to the
+                                    electronic records in storage as when it was in active and working use.
+                                    Ensures the availability of access to the electronic records while in
+                                    storage by storing and, if necessary, also storing
+                                    and maintaining the hardware, software, and media used to access the
+                                    record.
+
+                                                 Page 11 of 17
+
+ETA Electronic Records Management Requirements                                      Version 1.2 May 9, 2023
+
+     Dispose Phase
+   The dispose phase addresses an electronic records final disposition; either destruction or
+   permanent retention through archiving. Permanent retention of electronic records through
+   archiving can be handled by the agency or through transfer of the records to the Archives at the
+   Library of Virginia. Destruction of electronic records must be accomplished in accordance with
+   LVA retention and disposition schedules and in a manner that permanently eliminates or deletes the
+   electronic records, beyond any possible reconstruction.
+
+   Requirements related to the dispose phase include:
+
+       ERM-R-10             Agencies shall develop and implement procedures to ensure electronic
+                            records are disposed of in a timely fashion as scheduled by their retention
+                            and disposition schedules.
+
+   Rationale
+
+                                Electronic records in the possession of an agency that meet their
+                                retention schedule for disposition criteria and that have not been
+                                disposed of in a timely manner per their retention and disposition
+                                schedules are subject to FIOA requests and legal holds.
+
+   The exceptions to destroying records in accordance with an established retention schedule are holds
+   placed on records due to audits, litigation, investigations; or FOIA requests for information. In this
+   document this is referred to as a “legal hold”, which is defined as a process an agency uses to protect
+   and preserve all forms of relevant information related to an audit, FOIA request, or when litigation is
+   reasonably anticipated or in progress. If records become part of an audit, litigation, or investigation,
+   the retention period does not change. When the hold is lifted the retention period picks up as if the
+   hold never occurred. Therefore, if a retention period expired while a record was on hold, the record
+   should be destroyed immediately after the hold is lifted.
+
+       ERM-R-11             Agencies shall identify all records custodians (staff and/or vendors) that
+                            might have electronic records subject to a litigation hold and ensure that the
+                            custodians are aware of their preservationresponsibilities.
+
+       ERM-R-12             Agencies shall develop and implement procedures to ensure all electronic
+                            records identified and documented as related to a specific legal hold event
+                            be preserved and protected. This includes ensuring that those records will
+                            not be destroyed or reformatted until the event resulting in the records legal
+                            hold has concluded and all appeal periods are exhausted even if the
+                            duration exceeds the relevant records retention and disposition schedule.
+
+   When disposing of electronic records either for archiving purposes or to permanently destroy
+   records, agencies must ensure that those records are totally removed from their storage devices in
+   such a manner that the information contained in those records cannot be reconstructed. VITA’s
+   Commonwealth Security has several security related standards that contain requirements related to
+   effectively removing data from storage devices that must be followed.
+
+                                              Page 12 of 17
+
+ETA Electronic Records Management Requirements                                   Version 1.2 May 9, 2023
+
+Reference
+
+       ANSI/AIIM 21: 2009, Standard Recommended Practice – Strategy Markup Language – Part 1:
+       STratML Core http://www.aiim.org/productcatalog/Product.aspx?id=2230
+
+       AIIM TR32-1994 Paper Forms Design Optimization for Electronic Image Management (EIM)
+       http://www.techstreet.com/standards/AIIM/TR32_1994?product_id=1314
+
+       AIIM TR33-1998 Selecting an Appropriate Image Compression Method to Match User Requirements
+       http://www.techstreet.com/standards/AIIM/TR33_1998?product_id=1316
+
+       AIIM/ASTM BP01-2008, Best Practices - Portable Document Format Healthcare
+       - A Best Practices Guide
+       http://www.aiim.org/productcatalog/product.aspx?ID=1675
+
+       AIIM ARP1-2009 Analysis, Selection, and Implementation of Electronic Document Management
+       Systems (EDMS) http://www.aiim.org/AIIM-ARP1-2009- Recommended-Practice-EDMS.aspx
+
+       ANSI/AIIM TR41-2006 Optical Disk Storage Technology, Management, and Standards
+       http://www.techstreet.com/standards/AIIM/TR41_2006?product_id=1268605
+
+       ANSI/AIIM/ARMA TR48-2006 Revised Framework for the Integration of Electronic Document
+       Management Systems and Electronic Records Management Systems
+       http://www.techstreet.com/cgi-
+       bin/detail?doc_no=AIIM%7CARMA_TR48_2006&product_id=1320648
+
+       ARMA International, Generally Accepted Recordkeeping Principles, Article,
+       http://www.armacanada.org/documents/GARP%20Generally%20Accepted%20Re
+       cordskeeping%20Principles.pdf
+
+       Forrester/ARMA Survey, Records professionals have a strategic role to play in implementing
+       systems and processes for meeting regulatory requirements, protecting information assets,
+       and easing e-discovery burdens, 2009:
+       http://www.thefreelibrary.com/Forrester%2fARMA+survey%3a+mitigating+legal
+       +risks+drives+software...-a0214202021
+
+       Government of South Australia, Adequate Records Management Standard, Commonwealth of
+       Australia, 2008; http://www.archives.sa.gov.au/files/management_standard_ARM.pdf.
+
+       Government of South Australia, Document and Records Management Systems, Commonwealth
+       of Australia, 2009: http://www.archives.sa.gov.au/files/management_standard_documentrecordssys
+       tem.pdf .
+
+       Government of South Australia, South Australian Recordkeeping Metadata Standard v4.1,
+       Commonwealth of Australia, 2009:
+       http://www.archives.sa.gov.au/files/management_standard_metadata.pdf
+
+       Government of Victoria, Errata for Management of Electronic Records (PROS 99/007) (v2.0),
+       Department of Victorian Communities, Commonwealth of Australia, 2008,
+       http://www.prov.vic.gov.au/vers/standard/PROS99-007-Ver2- v1-6-20080701.pdf
+
+                                             Page 13 of 17
+
+ETA Electronic Records Management Requirements                                  Version 1.2 May 9, 2023
+
+       Information Management Journal, Principles for gaining control of electronic information,
+       September 1, 2009,
+       http://www.thefreelibrary.com/Principles+for+gaining+control+of+electronic+inf ormation.-
+       a0214202027
+
+       Information Management Journal, The imperative for Generally Accepted Recordkeeping
+       Principles, September 1, 2009,
+       http://www.newsfactor.com/story.xhtml?story_id=0120016OK5GO
+
+       Information Management Journal, Generally Accepted Recordkeeping Principles,
+       http://www.thefreelibrary.com/The+imperative+for+Generally+Accepted+Recor
+       dkeeping+Principles%5bTM%5d.-a0214202026
+
+       ISO15489, Information and Documentation — Records Management — Part 1: General (ISO/TR
+       15489-1) 2001, ISO Central Secretariat, Geneva, Switzerland,
+       http://www.iso.org/iso/catalogue_detail?csnumber=31908
+
+       ISO15489, Information and documentation — Records Management — Part 2: Guidelines
+       (ISO/TR 15489-2) 2001, ISO Central Secretariat, Geneva, Switzerland,
+              http://www.iso.org/iso/catalogue_detail?csnumber=31908
+
+       ISO/TR 15801, Electronic imaging -- Information stored electronically -- Recommendations for
+       trustworthiness and reliability, ISO Central Secretariat, Geneva, Switzerland,
+       http://www.iso.org/iso/catalogue_detail.htm?csnumber=29093
+
+       ISO/TR 18492:2005, Long-term preservation of electronic document-based information, ISO
+       Central Secretariat, Geneva, Switzerland,
+       http://www.iso.org/iso/catalogue_detail.htm?csnumber=38716
+
+       ISO 19005-1:2005, Document management -- Electronic document file format for long-term
+       preservation -- Part 1: Use of PDF 1.4 (PDF/A-1)
+       http://www.iso.org/iso/catalogue_detail?csnumber=38920
+
+       ISO 32000-1:2008, Document management -- Portable document format -- Part 1: PDF 1.7
+       http://www.iso.org/iso/search.htm?qt=iSO+32000-
+       1%3A2008&sort=rel&type=simple&published=on
+
+       ISO/TR 15801:2009, Document management -- Information stored electronically --
+       Recommendations for trustworthiness and reliability
+       http://www.iso.org/iso/search.htm?qt=ISO%2FTR+15801%3A2009&sort=rel&
+       type=simple&published=on
+
+       ISO/TR 18492:2005, Long-term preservation of electronic document-based information
+       http://www.iso.org/iso/search.htm?qt=iSO+10196%3A2003&sort=rel&type=si
+       mple&published=on
+
+       ISO 32000-1:2008, Document management -- Portable document format -- Part 1: PDF 1.7
+
+                                            Page 14 of 17
+
+ETA Electronic Records Management Requirements                                    Version 1.2 May 9, 2023
+
+       http://www.iso.org/iso/search.htm?qt=ISO+32000-
+       1%3A2008&sort=rel&type=simple&published=on
+
+       ISO 10196:2003, Document imaging applications -- Recommendations for the creation of
+       original documents
+       http://www.iso.org/iso/search.htm?qt=iSO+10196%3A2003&sort=rel&type=si
+       mple&published=on
+
+       ISO 11506:2009 Document management applications -- Archiving of electronic data --
+       Computer output microform (COM) / Computer output laser disc (COLD)
+       http://www.iso.org/iso/search.htm?qt=ISO+11506%3A2009&sort=rel&type=si
+       mple&published=on
+
+       ISO/TR 12033:2009, Document management -- Electronic imaging -- Guidance for the selection
+       of document image compression methods
+       http://www.iso.org/iso/search.htm?qt=ISO%2FTR+12033%3A2009&sort=rel&
+       type=simple&published=on
+
+       ISO/TR 10255:2009, Document management applications -- Optical disk storage technology,
+       management and standards
+       http://www.iso.org/iso/search.htm?qt=&sort=rel&type=simple&published=on
+
+       ISO 12653-1:2000, Electronic imaging -- Test target for the black-and-white scanning of office
+       documents -- Part 1: Characteristics http://www.iso.org/iso/search.htm?qt=iSO+12653-
+       1%3A2000&sort=rel&type=simple&published=on
+
+       ISO 12653-2:2000, Electronic imaging -- Test target for the black-and-white scanning of office
+       documents -- Part 2: Method of use http://www.iso.org/iso/search.htm?qt=ISO+12653-
+       2%3A2000&sort=rel&type=simple&published=on
+
+       ISO 22938:2008, Document management -- Electronic content/document management (CDM)
+       data interchange format
+       http://www.iso.org/iso/search.htm?qt=ISO+22938%3A2008&sort=rel&type=si
+       mple&published=on
+
+       ISO/TR 22957:2009, Document management -- Analysis, selection and implementation of
+       electronic document management systems (EDMS)
+       http://www.iso.org/iso/search.htm?qt=ISO%2FTR+22957%3A2009&sort=rel&
+       type=simple&published=on
+
+       ISO 23081-1:2006 Information and documentation- Metadata for Records - Part 1 - Principles
+       http://www.iso.org/iso/search.htm?qt=ISO+23081-
+       1%3A2006&sort=rel&type=simple&published=on
+
+       ISO 23081-2:2009 Information and documentation- Metadata for Records - Part 2: Conceptual
+       and implementation Issues http://www.iso.org/iso/search.htm?qt=ISO+24517-
+       1%3A2008&sort=rel&type=simple&published=on
+
+                                             Page 15 of 17
+
+ETA Electronic Records Management Requirements                                  Version 1.2 May 9, 2023
+
+       ISO 24517-1:2008, Document management -- Engineering document format using PDF -- Part
+       1: Use of PDF 1.6 (PDF/E-1) http://www.iso.org/iso/search.htm?qt=ISO+24517-
+       1%3A2008&sort=rel&type=simple&published=on
+
+       ISO 23868:2008 Document management -- Monitoring and verification of information stored
+       on 130 mm optical media
+       http://www.iso.org/iso/iso_catalogue/catalogue_ics/catalogue_detail_ics.htm?c
+       snumber=41888&ics1=37&ics2=080
+
+       AIIM TR34-1996 Sampling Procedures for Inspection by Attributes of Images in Electronic
+       Image Management (EIM) and Micrographics Systems (Approved as an ISO standard in 2009
+       but not yet published)
+
+       Library of Virginia, Virginia Public Records Management Manual
+       http://www.lva.virginia.gov/agencies/records/manuals/vprmm.pdf
+
+       NASCIO; Electronic Records Management and Digital, Preservation: Protecting the Knowledge
+       Assets of the State Government Enterprise, Lexington, KY
+
+       PART I: Background, Principles and Action for State CIOs,
+       http://www.nascio.org/publications/documents/NASCIO- RecordsManagement.pdf,
+
+       Part II: Economic, Legal, and Organizational Issues
+       http://www.nascio.org/publications/documents/NASCIO- RecordsManagementPart2.pdf
+
+       Part III: Management Leads and Technology Follows – But Collaboration is King!
+       http://www.nascio.org/publications/documents/NASCIO- RecordsManagementPart3.pdf
+
+       NASCIO, Electronic Records Management and Digital Preservation: Protecting the Knowledge
+       Assets of the State Government Enterprise, Part II: Economic, Legal, and Organizational
+       Issues: http://www.nascio.org/publications/documents/NASCIO-
+       RecordsManagementPart2.pdf
+
+       NASCIO, Virginia’s E-Records Approach through Enterprise Architecture highlighted by
+       NASCIO in its article on E-Records Challenge
+       http://www.nascio.org/publications/documents/NASCIO-E-RecordsChallenges.pdf
+
+       NARA (National Archives and records Administration), ERA Program Management Office
+       (ERA PMO), Electronic Records Archive (ERA), Electronic Records Archives, Introduction to
+       Policies, Templates, and Requirements Concepts, (TEMP v1.0), (WBS #1.1.15), 2003,
+       http://www.archives.gov/era/pdf/policies-templates- requirements.pdf
+
+       Office of Management and Budget, Federal Enterprise Architecture Records Management
+       Profile, V 1.0 December 2005: http://www.archives.gov/records- mgmt/policy/rm-profile.html
+
+       NARA (National Archives and Records Administration), Agency Recordkeeping Requirements:
+       A Management Guide, College Park, MD.: NARA, Office of Records Administration, 1996;
+
+                                            Page 16 of 17
+
+ETA Electronic Records Management Requirements                                   Version 1.2 May 9, 2023
+
+       http://www.archives.gov/records-mgmt/policy/agency- recordkeeping-requirements.html
+
+       NARA (National Archives and Records Administration), National Federal Enterprise
+       Architecture (FEA) Records Management Profile, version 1.0,:
+       http://www.archives.gov/records-mgmt/policy/rm-profile.html
+
+       State of Kansas, Kansas Electronic Records Management Guidelines, Kansas State Historical
+       Society: http://www.kshs.org/government/records/electronic/electronicrecordsguidelines.
+       htm#3_1
+
+       State of New York, Office of Archives and Records Management, Electronic Records, 2009.
+       http://www.archives.nysed.gov/a/records/mr_erecords.shtml
+
+       State of Texas, ACE Data and Electronic Records Management Domain, Data and Electronic
+       Records Management Best Practices – Roles and Responsibilities, Texas Department of
+       Information Resources State of Texas, April 2006
+       http://www.dir.state.tx.us/pubs/derm/roles.pdf
+
+       U.S. Department of the Interior, Interior Enterprise Architecture, Chapter 8 Records
+       Management Architecture V 2.0, October 2003
+       http://www.doi.gov/ocio/architecture/documents/chapter8.doc
+
+       U. S. Department of Defense, (DoD 5012.2-STD) Design Criteria Standard for Electronic
+       Records Management Software Applications, April 2007:
+       http://jitc.fhu.disa.mil/recmgt/p50152stdapr07.pdf
+
+       U. S. Department of Defense, Joint Interoperability Test Command, Records Management
+       Application (RMA), Electronic Records Management Software Applications Design Criteria
+       Standard, April 25, 2007 http://jitc.fhu.disa.mil/recmgt/p50152stdapr07.pdf
+
+       University at Albany, Center for Technology in Government, Practical Approaches to
+       Electronic Records Management and Preservation, Albany, NY, May 1998.
+       http://www.ctg.albany.edu/publications/reports/models_for_action/models_for_a ction.pdf
+
+       University of Pittsburgh, School of Library and Information Sciences, Functional
+       Requirements for Recordkeeping, 1995,
+       http://web.archive.org/web/20000818163633/http://www.sis.pitt.edu/~nhprc/pr og1.html
+
+                                             Page 17 of 17
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

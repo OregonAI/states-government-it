@@ -1,0 +1,1001 @@
+Enterprise Information Architecture                               Version 1.1
+                                                                 July 1, 2016
+
+                Commonwealth of Virginia
+
+         Enterprise Information
+             Architecture
+
+                                      Version 1.1
+
+                                      July 1, 2016
+
+                     Initial EIA Report Approved by
+            Commonwealth of Virginia Chief Information Officer
+                               6/7/2010
+
+Enterprise Information Architecture                                                       Version 1.1
+                                                                            June 7, 2010 July 1, 2016
+
+                                             Prepared by:
+
+                         Virginia Information Technologies Agency
+                           Policy, Practice & Enterprise Architecture (PP
+                           EA) Division, Enterprise Architecture Team
+
+                       ENTERPRISE ARCHITECTURE TEAM MEMBERS
+
+                                 Paul Dodson, VITA PP EA Division
+                   Michael Hammel, VITA PP EA Division - Facilitator
+                               Nadine Hoffman, VITA EAD Division
+                                Todd Kissam, VITA PP EA Division
+                                 Eric Perkins, VITA PP EA Division
+                                Easton Rhodd, VITA PP EA Division
+                                Chuck Tyger, VITA PP EA Division
+                                      Diane Wresinski, VITA PP EA
+                                               Division
+
+                                                   ii
+
+Enterprise Information Architecture                                                         Version 1.1
+                                                                              June 7, 2010 July 1, 2016
+
+Reviews
+
+     This publication was reviewed and approved by the Director of the Policy, Practice and
+      Manager of the Enterprise Architecture Division.
+     Online review was provided for agencies and other interested parties via the VITA Online
+      Review and Comment Application (ORCA).
+
+Publication Version Control
+
+Questions related to this publication should be directed to the Director of the Policy, Practice
+and Manager of the Enterprise Architecture (PP EA) Division. PP EA notifies Agency
+Information Technology Resources (AITRs) at all state agencies, institutions and other
+interested parties of proposed revisions to this document.
+
+This following table contains a history of revisions to this publication.
+
+    Version   Date             Revision Description
+    1.0        06-07-2010     Initial EIA Report
+    2.0         07-01-2016    Update necessitated by changes in the Code of Virginia and organizational
+                              changes in VITA. The changes are administrative. There are no substantive
+                              changes to the principles, recommended practices or requirements.
+
+Identifying Changes in This Document
+
+     See the latest entry in the revision table above
+     Vertical lines in the left margin indicate the paragraph has changes or additions.
+      Specific changes in wording are noted using italics and underlines; with italics only
+      indicating new/added language and italics that is underlines indicating language that
+      has changed.
+
+The following examples demonstrate how the reader may identify requirement updates
+and changes:
+
+      EXA-R-01       Technology Standard Example with No Change – The text is the
+                     same. The text is the same. The text is the same.
+
+      EXA-R-02       Technology Standard Example with Revision – The text is the
+                     same. A wording change, update or clarification is made in this text.
+
+      EXA-R-03       Technology Standard Example of New Standard – This standard
+                     is new.
+
+                                                   3
+
+Enterprise Information Architecture                                                                           Version 1.1
+                                                                                                June 7, 2010 July 1, 2016
+
+                                             Table of Contents
+Executive Summary ....................................................................................................... 1
+Introduction ................................................................................................................. 4
+EIA – Framework .......................................................................................................... 5
+EIA – Data Strategy ....................................................................................................... 7
+EIA – Data Management Program ...................................................................................... 9
+EIA – Data Standardization Process ................................................................................. 10
+EIA – How will it work? ................................................................................................. 12
+The Future State ......................................................................................................... 21
+EIA Context Diagram ................................................................................................... 22
+
+                                                        Figures
+Figure 1 - Enterprise Information Architecture Concepts ........................................................... 1
+Figure 2 - Commonwealth of Virginia Enterprise Architecture Model ............................................. 2
+Figure 3 - Enterprise Information Architecture Components ....................................................... 5
+Figure 4 - EIA Context Diagram ....................................................................................... 22
+
+                                                               4
+
+Enterprise Information Architecture                                                             Version 1.1
+                                                                                  June 7, 2010 July 1, 2016
+
+Executive Summary
+Government and government services are normally information driven. Government
+organizations constantly and dynamically gather and process data to create information
+needed to support their missions, whether it is disaster recovery, environmental protection,
+citizen security, or other direct services. The Enterprise Information Architecture (EIA)
+provides the framework/model and methodology that will enhance each agency’s ability to
+quickly discover, access, and understand data and create the information needed to make
+critical decisions and support agency business functions.
+
+In its simplest terms, the EIA framework has three components as shown in Figure 1 that
+will contain information about the Commonwealth’s data assets that can be used to answer
+questions such as:
+
+        What data is available?
+
+        Who has the data and who owns it?
+
+        Is the data in a format that I can use?
+
+        Is the quality and reliability of the data good enough to meet my needs?
+
+        Can I get access to that data?
+
+                                             Data Sharing
+
+             Data Description
+                                                                            Data Context
+
+                        Figure 1 - Enterprise Information Architecture Concepts
+
+Data Sharing:          Supports the access and exchange of data where access consists of
+                       ad-hoc requests (such as a query of a data asset) and the exchange of
+                       fixed, re-occurring transactions between parties.
+
+Data Description:      Provides a means to uniformly describe data, thereby supporting its
+                       discovery, sharing and standardization.
+
+Data Context:          Facilitates discovery of data through the categorization of data.
+                       Additionally, it facilitates the identification of authoritative data sources
+                       for a business process.
+
+                                                  1
+
+Enterprise Information Architecture                                                         Version 1.1
+                                                                              June 7, 2010 July 1, 2016
+
+The EIA is designed to provide a common framework for the cost effective sharing of
+government information across organizational lines while respecting the security, privacy
+and appropriate use of that information. It must enable agency leaders to manage
+information as a Commonwealth asset to better serve the citizens of Virginia. It increases
+the Commonwealth’s agility in drawing out the value of information as a strategic mission
+asset.
+
+To gain a fuller understanding of the EIA, it must be looked at within the context of the
+Commonwealth’s Enterprise Architecture. Enterprise Architecture provides the strategic
+tools to manage the information needs of the business and the complexity of the
+information environment to meet those needs.
+
+                   Figure 2 - Commonwealth of Virginia Enterprise Architecture Model
+
+These interrelated Architectures provide mechanisms to identify, analyze and, where
+appropriate, facilitate opportunities for sharing, collaboration and strengthening cost
+efficiencies.
+
+This document defines the EIA framework, data strategy, data standardization process and
+corresponding implementation requirements. It also provides a comprehensive overview of
+important topics on how the EIA relates to the overall COV Enterprise Architecture. It
+presents architecture direction and requirements for agencies that are planning or making
+changes or additions to their information technology. Within the scope of this document,
+“state agency” or “agency” is defined as any agency, institution, board, bureau,
+commission, council, or instrumentality of state government in the executive branch listed
+in the Appropriation Act. EA requirements/standards identified in this report are applicable
+to all agencies including the administrative functions (does not include instructional or
+research functions) of institutions of higher education, unless exempted by language
+contained in a specific requirement/standard.
+
+       Requirements are statements that provide mandatory Enterprise
+       Architecture direction and follow the format of EIA-R-nn. Requirements
+       introduced in this report are incorporated into the COV ITRM Enterprise
+       Architecture Standard which can be viewed here:
+       http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+                                                  2
+
+Enterprise Information Architecture                                               Version 1.1
+                                                                    June 7, 2010 July 1, 2016
+
+Glossary
+
+As appropriate, terms and definitions used in this document can be found in the COV ITRM
+IT Glossary. The COV ITRM IT Glossary may be referenced on the ITRM Policies, Standards
+and Guidelines web page at http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+                                            3
+
+Enterprise Information Architecture                                                   Version 1.1
+                                                                        June 7, 2010 July 1, 2016
+
+Introduction
+Government and government services are normally information driven. Government
+organizations constantly and dynamically gather and process data to create information
+needed to support their missions, whether it is disaster recovery, environmental protection,
+citizen security, or other direct services. The Enterprise Information Architecture (EIA)
+provides the framework/model and methodology that will enhance each agency’s ability to
+quickly discover, access, and understand data and create the information needed to make
+critical decisions and support agency business functions.
+
+Data and information management is multi-dimensional and a key component of the EIA
+framework. It is critical to the functioning of an information-intensive knowledge based
+government, yet represents one of government’s toughest business challenges. While some
+government data need to be exposed to the public and made discoverable, other data have
+to be controlled and protected. Getting the right information to the right people at the right
+time is at the heart of the EIA.
+
+What makes data management challenging is that the data are either hidden in the
+processes that produce them or are not available in a commonly understood form. Agencies
+that have a need for data, but lack awareness that it already exists, can end up spending
+additional time and scarce resources to recreate the same or similar data to support their
+individual missions. The lack of data visibility and accessibility results in costly redundancy
+of data within and among government agencies.
+
+The EIA enables the Commonwealth to begin to address the following key questions: How
+do agencies…
+
+        discover data available for sharing and re-use?
+
+        decide what data can be shared internally and externally?
+
+        make data available, visible and accessible for sharing and re-use?
+       ensure procedures for security, privacy, quality and appropriate use of data shared
+       are considered and followed?
+
+        minimize unnecessary redundancies in the collection and storage of data?
+
+        drive down IT system costs through effectively managing their data?
+       improve consistent access to and dissemination of government information to
+       promote a more citizen-centered government?
+
+                                               4
+
+Enterprise Information Architecture                                                         Version 1.1
+                                                                              June 7, 2010 July 1, 2016
+
+EIA – Framework
+In its simplest terms, the EIA framework has three components that will contain information
+about the Commonwealth’s data assets.
+
+                       Figure 3 - Enterprise Information Architecture Components
+
+This framework provides three ways of thinking about the Commonwealth’s data. It helps
+facilitate an agency’s understanding of what data is available (whether “owned” by the
+agency or not), what does the data mean and how it can be shared or accessed; all this
+supporting the goal of having the right data at the right time to meet the business needs of
+the Commonwealth.
+
+Data Context: What is the data that I need for my mission and how
+do I find it?
+
+Data Context facilitates the ordered categorization of data in a business/mission context to
+help an agency understand what data (no matter its format - text, maps, data in analytical
+systems) is needed to support a particular line of business or mission. This is accomplished
+by ensuring all data assets are categorized by subject area and information class when they
+are inventoried. Data categorization will also help in the identification of duplicative data
+resources, discovery of data for reuse and enhancement of search capabilities.
+
+Data Sharing: How do I exchange data?
+
+Data Sharing is the process that provides the data from an information source to an
+information consumer in order to meet a business requirement. Advances in technology
+
+                                                  5
+
+Enterprise Information Architecture                                                    Version 1.1
+                                                                         June 7, 2010 July 1, 2016
+
+such as XML and web services create the opportunity for the sharing of data across
+organizations thereby advancing the ability of agencies to achieve their core mission
+objectives.
+
+The EIA is a catalyst for streamlining information sharing mechanisms and avoiding stove
+pipe approaches. It should create cost savings for federal, state, local and private industry
+partners, especially those who deal with multiple state agencies.
+
+Data Description: How do I understand what the data means?
+
+Data Description improves and facilitates the understanding of data, both in terms of finding
+it and processing it, once it is obtained. It is the reference point to identify COV approved
+data standards and to identify when standards need to be put in place to serve a cross
+agency mission need. It is not enough to be able to find and access data; the data must
+also be of trusted quality.
+
+The EIA is an enterprise wide data strategy designed to address a very real challenge: how
+to make the most efficient use of our investment in data. If one agency already collects the
+data and it can be appropriately reused, why place an additional reporting burden on the
+regulated community or other government entities? The EIA provides the guidance to
+strategically support a department or agency in understanding the data it has, within the
+context of the Commonwealth’s entire data holdings, so it can be deployed cost effectively
+and with appropriate usage.
+
+The EIA facilitates data interoperability, harmonization and, to some extent, standardization
+across Commonwealth agencies in response to identified business and mission needs.
+
+As enumerated below, the EIA supports government leaders in fulfilling their responsibilities
+under existing policy, law, and strategic plan objectives.
+
+       Maximize the practical utility of and public benefit from information collected by or
+       for the Commonwealth and reduce collection burdens on the public.
+
+       Seek to satisfy new information needs through interagency or intergovernmental
+       sharing of information, or through commercial sources where appropriate, before
+       creating or collecting new information.
+
+        Implement processes to organize and categorize government information.
+
+        Identify how information and data are created, maintained, accessed and used.
+       Adopt a basic standard of data quality (including objectivity, utility and integrity) as
+       a performance goal and incorporate information quality criteria into agency
+       dissemination practices.
+
+                                               6
+
+Enterprise Information Architecture                                                      Version 1.1
+                                                                           June 7, 2010 July 1, 2016
+
+EIA – Data Strategy
+The Commonwealth needs to streamline government, improve services while reducing
+costs, and provide greater transparency, while safeguarding privacy. These needs require
+fast access to accurate data – data which supplies real and actionable business information.
+Government business cannot be separated from data and information management.
+
+A data strategy has been developed to help achieve these aims. The data strategy vision
+for the Commonwealth views “enterprise data and information managed as a
+Commonwealth asset to provide value to citizens and stakeholders.” The strategy describes
+business drivers, principles, and vision – and outlines goals, objectives, and strategies
+needed to achieve this vision. The Commonwealth Data Strategy document can be found
+on the EA Data Management website here:
+http://www.vita.virginia.gov/oversight/default.aspx?id=10338. A brief overview of that strategy is
+presented here.
+
+Commonwealth leadership recognizes that business relies on access to, and analysis of,
+meaningful data. The strategy encourages leadership to support the evolution of the data
+management discipline - not only to meet agency needs - but to support and reap the
+benefits of sharing data across the Commonwealth.
+
+IT innovation has made it easier to search and exchange information, and can give better
+understanding of business needs, better service delivery, and clearer documentation of
+results. Understanding and leveraging the options offered by IT advancements to provide
+actionable business information can also support more open/transparent government for
+Virginia’s citizens and provide more public-facing services.
+
+The challenge lies, not in a lack of technological enablers, but in finding the organizational
+will to create a shared business vision and path that shows how to deploy the right tools at
+the right time and place.
+
+The Vision: Enterprise data and information is managed as a Commonwealth
+            asset to provide value to citizens and stakeholders
+
+     Enterprise data is defined as data that is collected by two or more state
+     agencies or shared between state or other entities (local government, federal
+     government and other states).
+
+The Data Strategy vision points toward a future of unlocking the potential of Commonwealth
+data assets. The following goals support this vision.
+
+     Goal 1: Implement an enterprise data management program
+
+               Data management will provide a common framework for the cost effective
+               sharing of government information across organizational lines while
+               respecting security, privacy and the appropriate use of information.
+
+                                                 7
+
+Enterprise Information Architecture                                                   Version 1.1
+                                                                        June 7, 2010 July 1, 2016
+
+     Goal 2: Enable enterprise data sharing
+
+               Create structures that support collaboration among stakeholders, and
+               facilitate “the responsibility to provide” culture across the Commonwealth, for
+               the sharing of data, information, knowledge and expertise.
+
+     Goal 3: Establish data governance and oversight
+
+               Business and IT leaders must provide governance and oversight to ensure
+               that the direction set and decisions made in carrying out the data strategy
+               remain in line with the Commonwealth’s business strategy.
+
+These goals are the building blocks of a solid foundation for leveraging of Commonwealth
+data assets. The continued commitment and participation of Commonwealth agency
+stakeholders in advancing this vision is necessary to keep this model responsive to
+Commonwealth agencies and the citizens, businesses, and governmental organizations they
+serve.
+
+                                               8
+
+Enterprise Information Architecture                                                   Version 1.1
+                                                                        June 7, 2010 July 1, 2016
+
+EIA – Data Management Program
+Currently, individual agencies collect and create data to support the specific business
+processes that they’re responsible for executing. Agencies are often criticized for locking up
+data in unconnected stovepipe legacy systems. The EIA requires that they view the data as
+an asset of the Commonwealth. The EIA supports the emergence of repeatable processes
+that enable agencies to discover, share and seamlessly exchange data and information
+relevant to meet business objectives.
+
+Agency heads, IT leaders, Chief Information Officers (CIOs) and Agency Information
+Technology Resources (AITRs) are in a unique position to ensure that information required
+for a strategic goal or business objective is quickly and easily located, accessed and
+understood by those who need it. To achieve superior performance results, they must
+manage the strategic, tactical and operational data and information needs of their agencies
+in a way that contributes to the needs of the Commonwealth as a whole.
+
+Enterprise data management consists of the planning, execution and oversight of policies,
+practices and projects that acquire, control, protect, deliver and enhance the value of data
+and information assets. The Data Management Association’s (DAMA) data management
+functions and corresponding definitions are being used as the functional framework for the
+Commonwealth’s data management program. The mission of the data management
+program is to meet and exceed the information needs of all the stakeholders in terms of
+information availability, security and quality.
+
+Enterprise data management multiplies the value of existing “siloed” data holdings through
+integration and better understanding of what data means, how to access it and how to
+employ it in support of strategic goals. Successful implementation of enterprise data
+management will lead to fewer incompatible data stores and a future where data will deliver
+better information to those who need it, at less cost.
+
+In order to mature the discipline of data management, the Commonwealth must develop a
+data management program plan which defines the strategic goals, principles and functions
+to be achieved in the short and long term. This plan will be based upon guidance provided
+by DAMA’s Data Management Book of Knowledge (DM-BoK). The implementation of a Data
+Management Program will ultimately improve the ability of the Commonwealth to cost
+effectively collect and deliver the right data to the right person at the right time.
+
+Strategic goals for a Data Management Program may include:
+
+        Understanding the information needs of the enterprise and all its stakeholders.
+
+        Capturing, storing, protecting and ensuring the integrity of enterprise data assets.
+
+        Continually improving the quality of enterprise data and information.
+       Ensuring privacy and confidentiality and to prevent unauthorized or inappropriate
+       use of enterprise data and information.
+
+        Maximizing the effective use and value of enterprise data and information assets.
+       Removing barriers for data sharing so that it is possible to respond timely to state or
+       national situations.
+
+                                               9
+
+Enterprise Information Architecture                                                 Version 1.1
+                                                                      June 7, 2010 July 1, 2016
+
+EIA – Data Standardization Process
+Data management is highly decentralized in the Commonwealth, yet there are considerable
+amounts of commonly used data that if standardized, could increase data sharing and
+interoperability between systems and governmental programs. In order to implement data
+standards, the Commonwealth needs a defined process for how to standardize data.
+
+   EIA-R-01        Data Standardization Process –VITA shall develop and maintain
+                   a defined process for how to standardize enterprise data.
+
+The Data Standardization Process documents how agencies will collaborate to define and
+adopt data standards for use in the Commonwealth. This process puts forth a repeatable
+approach which facilitates the requirement for the Commonwealth to rapidly implement
+information sharing and reuse of data in response to business needs. It also defines the
+key roles and responsibilities for Commonwealth resources as they pertain to the
+development and maintenance of data standards. The Data Standardization Process is one
+of several supporting processes to be developed within the Data Architecture function. Data
+Architecture is one of the ten functions DAMA identifies as part of the data management
+discipline.
+
+Data ownership and oversight is a key role in the data standardization process that allows a
+designated Data Standard Owner(s) (DSO) to exercise authority and control (planning,
+monitoring and enforcement) over the management of data standards. This helps ensure
+that data under the control of data owners is accurate, appropriately shared and protected.
+The DSO and their data stewards provide the business/functional expertise to develop and
+manage a data standard. The Commonwealth is using the DAMA governance model as a
+guide for establishing data governance and oversight roles.
+
+A DSO is a collaborative group of business users who develop a common vocabulary to
+exchange information in pursuit of common goals, interests, missions or business
+processes. A DSO may include any number of members from government or non-
+governmental organizations. A DSO may also include cross-functional members
+representing data consumers, data producers, program managers, and data sharing
+governance groups. A DSO is tasked with resolving common issues affecting their
+communities. They actively participate in developing and maintaining data standards.
+
+The Data Standardization Process is composed of six phases:
+
+       1. Investigate artifacts - Specific sources of information are gathered and
+          examined for the purpose of determining information needs, scoping information
+          deficiencies, and planning information improvements.
+
+       2. Identify and submit requirements - Information engineering structure is
+          applied to data design and provides an initial review of data that could be
+          proposed as an enterprise data standard.
+
+       3. Conduct formal cross-functional review - A formal cross-functional review is
+          conducted on the proposed data standard package.
+
+       4. Resolve comments – Resolve recommended changes and corrections received
+          from stakeholders during the formal review of the proposed data standard
+          package.
+
+                                             10
+
+Enterprise Information Architecture                                                Version 1.1
+                                                                     June 7, 2010 July 1, 2016
+
+       5. Obtain approvals – Proposed data standard package is reviewed and approved
+          as a Commonwealth data standard.
+
+       6. Implement standards – The Commonwealth data standard is put into operation
+          and appropriate communications are provided to the stakeholders about the
+          implementation guidance/requirements of the data standard.
+
+   The Data Standardization Process component part of the EIA provides a means to
+   improve communications and facilitate sharing of data artifacts and information between
+   organizations. The detailed process can be found at
+   http://www.vita.virginia.gov/oversight/default.aspx?id=10342.
+
+                                            11
+
+Enterprise Information Architecture                                                 Version 1.1
+                                                                      June 7, 2010 July 1, 2016
+
+EIA – How will it work?
+Create the ability for rapid information sharing, data
+standardization, and data re-use.
+
+Various mechanisms are used to store and process different types of information
+(metadata) about data. A data asset metadata repository and a data standards catalog are
+two mechanisms used to store information about data to enable discovery, support
+interoperability, and enhance data asset understanding. For additional information, view the
+EA Data Management website here:
+http://www.vita.virginia.gov/oversight/default.aspx?id=10338.
+
+It is important to understand the use of each mechanism and the distinctions between
+them.
+
+A data asset metadata repository is a system that contains information that describes at
+a high level the data assets that comprise the collective data assets of the Commonwealth.
+The Commonwealth Enterprise Technology Repository (CETR) provides the means to
+maintain an inventory of the Commonwealth’s data assets. It can be accessed by
+authorized users here: https://ssl01.apps.vita.virginia.gov/CETR/default.aspx. Access may
+be requested by sending an email to ea@vita.virginia.gov.
+
+   EIA-R-02        Data Asset Repository Maintenance – Agencies shall maintain a
+                   current inventory of the data assets used by their application
+                   portfolio as part of the Commonwealth’s Enterprise Technology
+                   Repository (CETR).
+
+The repository is an application that stores the name and description of the data asset,
+owner, location, and technology of the data asset. It does not contain the actual data or
+information; rather, it simply stores the metadata or information about the data assets
+owned by in-scope executive branch agencies.
+
+A data standards catalog contains the instances of metadata associated with individual
+data standards (i.e. procurement), entities (i.e. vendor or customer) associated with each
+individual data standard, and attributes (i.e. vendor name or vendor ID) associated with
+each individual entity. The catalog does not store the actual information but rather
+describes how attributes about an entity related to a specific data standard are to be
+collected, stored, and shared.
+
+   EIA-R-03        Data Standards Catalog – Approved Commonwealth data
+                   standards shall be posted to the COV Data Standards Catalog.
+
+All COV enterprise and multi-agency data standards will be posted to the COV Data
+Standards Catalog within 10 working days after their approval. The COV Data Standards
+Catalog is available for viewing on the VITA website here:
+http://www.vita.virginia.gov/oversight/default.aspx?id=10344
+
+What is a Data Standard?
+
+A data standard represents a set of requirements related to a specific subject area that
+define how associated data is to be collected, stored, and exchanged. At a minimum, a data
+
+                                                 12
+
+Enterprise Information Architecture                                                 Version 1.1
+                                                                      June 7, 2010 July 1, 2016
+
+standard must include a narrative describing the implementation requirements and
+corresponding time lines for agencies. A data standard may also include artifacts such as
+data models, data dictionaries, and implementation specifications.
+
+   EIA-R-04        Data Standard Narrative – Approved Commonwealth data
+                   standards shall contain a data standard narrative that at a
+                   minimum defines the implementation requirements and
+                   corresponding time lines.
+
+Over time, a data standard should come to represent all the data which is needed by any
+agency for a specific subject area. A data standard does not require that every agency
+carry all data defined as part of a data standard. Agencies need only maintain the data
+required to support their business needs. A data standard requires that if an agency
+maintains data described in the standard, that data should be compliant with the data
+standard.
+
+Types of Data Standards
+
+The Commonwealth Data Standards Catalog contains internal and external types of data
+standards.
+
+Internal COV data standards are developed by business representatives with functional
+subject matter expertise. The Procurement Vendor data standard is an example of an
+internal COV data standard. It defines the data the Commonwealth manages about
+procurement vendors. Each internal data standard contains a data model, data dictionary
+reports generated from the data model and a corresponding narrative document. The
+narrative document describes the scope of the standard, requirements, compliance and
+policy implications.
+
+External data standards are developed and maintained by national, federal or industry
+organizations with input from business experts. External standards will include varying
+levels of detail and may be farther reaching than typical COV developed internal data
+standards. For example, the National Information Exchange Model (NIEM) includes many
+data exchange standards in use by state and federal agencies working on global justice and
+homeland security systems. Another example are the data standards and formats for
+health information exchanges being developed and continually refined by the federal
+government and other industry experts in the Health IT field. Each external data standard
+contains a corresponding guidance document. The guidance or narrative document
+describes the scope of the standard, requirements, policy implications and implementation
+guidance.
+
+Scope of Data Standards Catalog Content and Use
+
+In the near term, the Commonwealth’s priority will be to develop and/or adopt data
+standards for enterprise data.
+
+     Enterprise data is defined as data that is collected by two or more state
+     agencies or shared between state or other entities (local government, federal
+     government and other states).
+
+                                             13
+
+Enterprise Information Architecture                                                   Version 1.1
+                                                                        June 7, 2010 July 1, 2016
+
+Executive branch agencies are required to use the COV Data Standards Catalog as follows:
+
+   EIA-R-05        Implementation – Agencies shall comply with the implementation
+                   requirements of all approved Commonwealth data standards.
+
+   EIA-R-06        Migration – Agencies shall assess the impact of all approved COV
+                   data standards on their existing processes and applications and
+                   define migration strategies for implementation.
+
+   EIA-R-07        New Projects and Major Enhancements – Agencies shall review
+                   the Data Standards Catalog when developing plans for new
+                   applications or major enhancements to existing applications and
+                   document the potential impact of implementing existing data
+                   standards on the planned project.
+
+   EIA-R-08        Develop New Standards – Agencies shall work with VITA to
+                   develop internal enterprise data standards and/or identify external
+                   enterprise data standards for their domain of expertise (e.g.
+                   Finance, Licensing, etc.).
+
+                   Implications:
+
+                   Typically internal data standards will be developed or external
+                   standards introduced as part of new application development
+                   projects or enterprise data exchanges.
+
+   EIA-R-09        RFP/RFI/IFB and Contract language – All Request For
+                   Proposals (RFP), Requests For Information (RFI), Invitation For
+                   Bids (IFB), and contracts that concern IT software solutions shall
+                   contain text that requires any solution to be compliant to the COV
+                   Data Standards or have an approved Data Standard Exception.
+
+                   Implications:
+
+                   Boiler plate language to satisfy this requirement is available in
+                   templates provided by a VITA Supply Chain Management (SCM)
+                   sourcing specialist. Additional information about SCM and their
+                   services can be found here: http://www.vita.virginia.gov/scm/.
+
+   EIA-R-10        Data Standards Catalog – VITA shall maintain and manage the
+                   Data Standards Catalog.
+
+The Commonwealth Data Standards Catalog is publically available and can be found on the
+VITA website at http://www.vita.virginia.gov/oversight/default.aspx?id=10344.
+
+Data Standards Maintenance
+
+Over time, data standards can become out of date and no longer accurately reflect the
+needs of the business. In order to ensure that data standards are current they must be
+reviewed on a periodic basis by the business owners. This is particularly important for the
+narrative that is required for each data standard. The narrative contains information about
+
+                                               14
+
+Enterprise Information Architecture                                                    Version 1.1
+                                                                         June 7, 2010 July 1, 2016
+
+implementation plans and compliance schedules. This type of information will need to be
+updated as needs change and plans progress.
+
+   EIA-R-11           Data Standard Review – Designated Data Standard Owners shall
+                      review Data Standards annually. An update to the Narrative for
+                      each Data Standard shall be made certifying that the Narrative and
+                      any accompanying models are accurate and current.
+
+                      Implications:
+
+                      The Data Standard Owners will follow the Data Standard change
+                      process below to update the Data Standard Catalog.
+
+Key Processes For Developing and Maintaining Data Standards
+
+The Commonwealth will use the following key processes to guide the development and
+maintenance of COV data standards.
+
+Developing a New Data Standard
+
+If it is determined that a new COV data standard is needed, the lead agency or organization
+should fill out the New/Changed Data Standard Request form and email it to
+ea@vita.virginia.gov . This form can be found here:
+http://www.vita.virginia.gov/oversight/default.aspx?id=10344.
+
+VITA will identify a Data Standard Owners group (DSO) related to the request. VITA and
+the DSO will review the request, determine if the request is warranted and develop a work
+plan to accommodate needed activities.
+
+For new internal COV data standards, VITA will help facilitate the data standards creation
+process by answering questions about the Data Standardization Process and providing data
+standard development expertise.
+
+For new external COV data standards, VITA will help facilitate the external data standards
+review, answer questions about the Data Standardization Process, assist in developing
+exceptions to the external data standard and provide expertise related to developing
+implementation criteria.
+
+Once a new proposed COV data standard (internal or external) has been developed and
+validated as complete by the DSO, it will follow the data standard approval process.
+
+    New COV Data Standard Process
+
+                               VITA assists
+                                Agency in                                    Standard
+   Agency completes                                    VITA and DSO
+                             creating/joining a                           completes Data
+   request form and                                     develop data
+                              Data Standard                              Standard Approval
+    emails to VITA                                        standard
+                              Owners group                                   Process
+                                  (DSO)
+
+                                                  15
+
+Enterprise Information Architecture                                                        Version 1.1
+                                                                             June 7, 2010 July 1, 2016
+
+Changing an Existing Data Standard
+
+If an agency or organization believes a change is needed to an existing COV data standard
+(internal or external) or an existing COV data standard is no longer appropriate, the agency
+or organization should complete the New/Changed Data Standard Request form and email it
+to ea@vita.virginia.gov.
+
+VITA will assign the request to an appropriate Data Standard Owners group (DSO). VITA
+and the DSO will review the request, determine if the request is warranted and develop a
+work plan to accommodate needed activities.
+
+VITA will help facilitate the detailed review of the data standard and as needed document
+any required changes, exceptions, or recommendations related to rescinding the data
+standard. VITA will also be available to answer questions about the Data Standardization
+Process and provide assistance in developing appropriate implementation criteria related to
+any recommended changes.
+
+Once proposed changes to the COV data standard (internal or external) have been
+developed and validated as complete by the DSO, it will follow the data standard approval
+process.
+
+     COV Data Standard Change Process
+
+                           VITA assigns
+    Agency completes                       DSO discusses
+                         standard change
+    request form and                       the request with
+                            request to
+     emails to VITA                          the Agency
+                         appropriate DSO
+
+                                           DSO modifies the    DSO completes
+                                                                                             Standard
+                                              standard or       final review and
+                                                                                          completes Data
+                                           completes notice      schedules new
+                                                                                         Standard Approval
+                                             to rescind as    version or notice to
+                                                                                             Process
+                                              necessary       rescind for release
+
+Data Standard Approval Process
+
+Once the DSO has drafted proposed changes to an existing data standard or a new data
+standard and reviewed it with key stakeholders and VITA, the proposed data standard will
+be posted to the VITA Online Review and Comment Application (ORCA) for review and
+comments. After the review period ends and the comments and recommended changes
+have been addressed, the DSO sends the proposed data standard to VITA with their
+recommended action. The data standard is reviewed and if only a minor change is being
+proposed, it can be published to the COV Data Standards Catalog. Otherwise, if a new
+standard is being proposed, an existing data standard is being materially changed, or the
+proposed change is not within assigned delegated authority, the proposed standard with a
+
+                                               16
+
+Enterprise Information Architecture                                               Version 1.1
+                                                                    June 7, 2010 July 1, 2016
+
+recommended action is presented to the CIO/Secretary of Technology for their review and
+action based on the Secretary of Technology’s established procedures.
+
+If the proposed COV data standard is approved, it will be published and distributed using
+the same procedures used for distributing IT related policies, standards, and guidelines.
+Any rejected proposed COV data standards will be returned to VITA and DSO for review and
+possible corrective action. The DSO will review the feedback and determine next steps for
+the data standard.
+
+                                            17
+
+Enterprise Information Architecture                                                       Version 1.1
+                                                                            June 7, 2010 July 1, 2016
+
+   Data Standard Approval Process
+
+     DSO submits
+      internal or
+     external data
+       standard
+                                                                                    Standard is sent
+                                                                                    back to VITA &
+                                                                                       DSO with
+                                                                                       feedback
+   Standard added to                                      VITA internal
+   ORCA for Business                                       review and
+    and Technology                                      recommendation
+        Review                                            development
+                                      NO
+
+     DSO resolves
+                                                        CIO reviews and
+       feedback
+                                                          take action
+                                                           based on
+                                                          established
+                                                          procedures
+
+                                                                                          Yes
+       DSO sends
+                               Meets assigned
+    standard to VITA
+                              delegated approval
+      for adoption/
+                                  authority?
+        approval
+
+                                      Yes               Is further review
+                                                            required?
+
+                                VITA approves
+                                   changes
+                                                               No
+
+                                                          Standard is
+                                                           approved
+
+                                                   18
+
+Enterprise Information Architecture                                                   Version 1.1
+                                                                        June 7, 2010 July 1, 2016
+
+Request an Exception to an Existing Data Standard
+
+If an agency believes it cannot comply with implementation requirements associated with an
+approved data standard, it should submit a Data Standard Exception request by completing
+the EA Change/Exception Request form and submit it to ea@vita.virginia.gov. This form
+can be found here: http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+VITA will facilitate the review and analysis of all received Data Standard Exception requests.
+Review and analysis includes evaluating the request for completeness, assessing the
+business case, analyzing the impact on the agency and the Commonwealth, and receiving
+subject matter expert’s review and recommendations from the appropriate DSO. After the
+review and analysis has been completed, VITA will develop and present the request with
+appropriate recommended actions to the CIO for review and action.
+
+CIO actions taken on an exception request will be provided to the requesting agency and to
+the DSO.
+
+                                              19
+
+Enterprise Information Architecture                                                                Version 1.1
+                                                                                     June 7, 2010 July 1, 2016
+
+   Data Standard Exception Process
+
+   Agency completes
+    request form and    VITA contacts the
+   emails to VITA for    Data Standard
+      analysis and       Owners (DSO)
+   recommendations
+
+                        DSO reviews the
+                          request and
+                        recommendation
+                            of VITA
+
+                           Standard                 DSO continues with exception
+                                                                                                    Data Standard
+                            requires        Yes   process and begins Data Standard
+                                                                                                   Change Process
+                          modification?                   Change Process
+
+                               No
+
+                          DSO makes
+                        recommendation
+                            to VITA
+
+                          VITA Internal
+                          Review and
+                        recommendation
+                           to Chief EA
+
+                                                  Chief EA passes
+                         Chief Enterprise                                        CIO agrees with
+                                            Yes   recommendation
+                         Architect agrees                                       recommendation?
+                                                       to CIO
+
+                               No
+
+                        DSO and Agency
+                          informed of                            Yes or No
+                            decision
+
+                                                  20
+
+Enterprise Information Architecture                                                 Version 1.1
+                                                                      June 7, 2010 July 1, 2016
+
+The Future State
+The Commonwealth of Virginia intends to mature its Enterprise Information Architecture by
+focusing on the following strategic goals and activities:
+
+           Implement an enterprise data management program. The data management
+           program will be developed using the ten functional areas defined by the Data
+           Management Association DM-BoK. The first function to be developed, Data
+           Architecture, will support interagency data exchange through the continued
+           adoption of data standards. The remaining nine functions will be prioritized and
+           developed over time. They included areas such as metadata management, data
+           quality, reference and master data management, data security and data
+           development.
+
+            Enable data sharing by partnering with agencies to manage an inventory of data
+           assets. The inventory will allow agencies to discover sharable information.
+           Processes will be developed to enable the data asset metadata to be maintained
+           in a timely and efficient manner.
+            Establish data governance for enterprise data. Data governance is the exercise
+           of authority and control over the management of data assets. This includes
+           partnering with the business data owners and stewards to formalize data
+           governance through planning and control activities.
+               o Data management planning includes activities such as adopting a data
+                   strategy for the Commonwealth, establishing a data governance
+                   capability, sponsoring data management projects and developing
+                   corresponding policies, standards and procedures.
+               o Data management control coordinates data governance activities,
+                   manages and resolves enterprise data related issues, oversees data
+                   management projects and ensures compliance with data policies,
+                   standards and architecture.
+
+The Enterprise Information Architecture creates a framework to manage the data and
+information needed to support the business of the Commonwealth of Virginia. The Data
+Strategy, Data Management Program and Data Standardization Process provide the
+beginnings of what will ultimately be one of the leading government sponsored Information
+Architecture programs in the country.
+
+                                             21
+
+Enterprise Information Architecture                                                  Version 1.1
+                                                                       June 7, 2010 July 1, 2016
+
+EIA Context Diagram
+The EIA Context Diagram shows the relationship of this document to the other EIA “pieces
+and parts” and their relationships to the overall Commonwealth EA program.
+
+                                      Figure 4 - EIA Context Diagram
+
+                                                   22

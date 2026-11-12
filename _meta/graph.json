@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 406,
+ "n_nodes": 474,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -141,6 +141,72 @@
    "title": "Chapter 276A - Information Technology (2025 Edition)",
    "doc_type": "statute",
    "path": "statutes/oregon/or-ors-276a.md"
+  },
+  {
+   "id": "va-code-18-2-186-6",
+   "title": "§ 18.2-186.6. Breach of personal information notification",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-18-2-186-6.md"
+  },
+  {
+   "id": "va-code-2-2-203-2-4",
+   "title": "§ 2.2-203.2:4. Chief Data Officer; created; report",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-203-2-4.md"
+  },
+  {
+   "id": "va-code-2-2-2699-5",
+   "title": "§ 2.2-2699.5. Information Technology Advisory Council; membership; terms; quorum; compensation; staff",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-2699-5.md"
+  },
+  {
+   "id": "va-code-2-2-2699-6",
+   "title": "§ 2.2-2699.6. Powers and duties of the ITAC; report",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-2699-6.md"
+  },
+  {
+   "id": "va-code-2-2-ch20-1",
+   "title": "Chapter 20.1. Virginia Information Technologies Agency",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-ch20-1.md"
+  },
+  {
+   "id": "va-code-2-2-ch35",
+   "title": "Chapter 35. Information Technology Access Act",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-ch35.md"
+  },
+  {
+   "id": "va-code-2-2-ch38-1",
+   "title": "Chapter 38.1. Protection of Social Security Numbers Act",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-ch38-1.md"
+  },
+  {
+   "id": "va-code-2-2-ch38-2",
+   "title": "Chapter 38.2. Digital Certification of Government Records",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-ch38-2.md"
+  },
+  {
+   "id": "va-code-2-2-ch38",
+   "title": "Chapter 38. Government Data Collection and Dissemination Practices Act",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-ch38.md"
+  },
+  {
+   "id": "va-code-2-2-ch4-3",
+   "title": "Chapter 4.3. Commonwealth Identity Management Standards",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-ch4-3.md"
+  },
+  {
+   "id": "va-code-2-2-ch55-3",
+   "title": "Chapter 55.3. Prohibition on the Use of Certain Products and Services",
+   "doc_type": "statute",
+   "path": "statutes/virginia/va-code-2-2-ch55-3.md"
   },
   {
    "id": "wa-rcw-39-26-340",
@@ -291,6 +357,18 @@
    "title": "Establishing Responsible Artificial Intelligence Procurement Standards for State Government",
    "doc_type": "executive_order",
    "path": "executive-orders/oregon/or-eo-26-26.md"
+  },
+  {
+   "id": "va-ed-6-2026",
+   "title": "Directing a Commonwealth-Wide Preparedness Approach to Cyber Threats Posed by Artificial Intelligence and Recursive Self-Improvement Development",
+   "doc_type": "executive_order",
+   "path": "executive-orders/virginia/va-ed-6-2026.md"
+  },
+  {
+   "id": "va-eo-22-2026",
+   "title": "Establishing New Nation-Leading Standards and Initiatives to Implement the Virginia Data Center Accountability Framework and Responding to Unprecedented Risk From Artificial Intelligence",
+   "doc_type": "executive_order",
+   "path": "executive-orders/virginia/va-eo-22-2026.md"
   },
   {
    "id": "wa-eo-00-02",
@@ -1355,6 +1433,120 @@
    "path": "policies/oregon/or-eis-privacy-guidance.md"
   },
   {
+   "id": "va-ai-policy-ea400",
+   "title": "Artificial Intelligence (AI) Utilization Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-ai-policy-ea400.md"
+  },
+  {
+   "id": "va-buy-it-manual",
+   "title": "IT procurement manual - Buy IT",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-buy-it-manual.md"
+  },
+  {
+   "id": "va-cloud-third-party-use-policy",
+   "title": "Cloud Third Party Use Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-cloud-third-party-use-policy.md"
+  },
+  {
+   "id": "va-ea200",
+   "title": "Enterprise Architecture Policy (EA200)",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-ea200.md"
+  },
+  {
+   "id": "va-ea300-01",
+   "title": "Cloud Based Hosting Services IT Solutions Policy (EA300)",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-ea300-01.md"
+  },
+  {
+   "id": "va-gov102-02",
+   "title": "Information Technology Resource Management Policy (GOV102-02)",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-gov102-02.md"
+  },
+  {
+   "id": "va-gov105-05",
+   "title": "Technology Management Policy (GOV105-05)",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-gov105-05.md"
+  },
+  {
+   "id": "va-it-authority-delegation",
+   "title": "IT Procurement: Authority and Delegation Policies",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-authority-delegation.md"
+  },
+  {
+   "id": "va-it-commonwealth-security-cloud",
+   "title": "Commonwealth Security and Cloud Requirements",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-commonwealth-security-cloud.md"
+  },
+  {
+   "id": "va-it-contingent-labor",
+   "title": "ITCL Policy for Procuring and Managing Contingent Labor Resources",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-contingent-labor.md"
+  },
+  {
+   "id": "va-it-emergency-procurement",
+   "title": "IT Procurement: Emergency Procurement",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-emergency-procurement.md"
+  },
+  {
+   "id": "va-it-joint-cooperative-procurement",
+   "title": "IT Procurement: Joint and Cooperative Procurement Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-joint-cooperative-procurement.md"
+  },
+  {
+   "id": "va-it-small-purchase",
+   "title": "Small Purchase Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-small-purchase.md"
+  },
+  {
+   "id": "va-it-sole-source",
+   "title": "IT Procurement: Sole Source Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-sole-source.md"
+  },
+  {
+   "id": "va-it-swam-procurement",
+   "title": "IT Procurement Policy for Enhancing Opportunities for Small, Women, and Minority-Owned Businesses",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-swam-procurement.md"
+  },
+  {
+   "id": "va-it-telecom-waiver",
+   "title": "IT Procurement: Telecommunications Waiver Policy",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-it-telecom-waiver.md"
+  },
+  {
+   "id": "va-sec519-01",
+   "title": "IT Information Security Policy - SEC519",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-sec519-01.md"
+  },
+  {
+   "id": "va-sec528-00-4",
+   "title": "Prohibited Hardware, Software and Services Policy - SEC528",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-sec528-00-4.md"
+  },
+  {
+   "id": "va-vita-rules",
+   "title": "VITA Rules",
+   "doc_type": "policy",
+   "path": "policies/virginia/va-vita-rules.md"
+  },
+  {
    "id": "wa-data-01-03-g",
    "title": "State Archives Records and Cloud Storage Guidelines",
    "doc_type": "policy",
@@ -2073,6 +2265,222 @@
    "title": "Oregon's Open Data Standard",
    "doc_type": "standard",
    "path": "standards/oregon/or-open-data-standard.md"
+  },
+  {
+   "id": "va-ai-standard",
+   "title": "Artificial Intelligence Standard",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-ai-standard.md"
+  },
+  {
+   "id": "va-cpm110-05",
+   "title": "Commonwealth Project Management Guideline (CPM 110-05)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-cpm110-05.md"
+  },
+  {
+   "id": "va-cpm111-05",
+   "title": "Project Manager Selection and Training Standard (CPM 111)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-cpm111-05.md"
+  },
+  {
+   "id": "va-cpm112-04-8",
+   "title": "Project Management Standard (CPM112)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-cpm112-04-8.md"
+  },
+  {
+   "id": "va-cpm516-04",
+   "title": "Information Technology Investment Management (ITIM) Standard (CPM-516)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-cpm516-04.md"
+  },
+  {
+   "id": "va-ea225",
+   "title": "Enterprise Architecture Standard (EA225)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-ea225.md"
+  },
+  {
+   "id": "va-eia-framework",
+   "title": "EIA Framework",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-eia-framework.md"
+  },
+  {
+   "id": "va-eia-requirements",
+   "title": "Enterprise Information Architecture (EIA)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-eia-requirements.md"
+  },
+  {
+   "id": "va-esa-application-domain",
+   "title": "Application Domain",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-application-domain.md"
+  },
+  {
+   "id": "va-esa-cloud-hosting",
+   "title": "Cloud Based Hosting Services",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-cloud-hosting.md"
+  },
+  {
+   "id": "va-esa-computer-signatures",
+   "title": "Computer Based Signatures",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-computer-signatures.md"
+  },
+  {
+   "id": "va-esa-containers",
+   "title": "Cloud Based Container Services",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-containers.md"
+  },
+  {
+   "id": "va-esa-data-availability",
+   "title": "Data Availability",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-data-availability.md"
+  },
+  {
+   "id": "va-esa-esm",
+   "title": "Enterprise Systems Management (ESM)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-esm.md"
+  },
+  {
+   "id": "va-esa-integration-domain",
+   "title": "Integration Domain",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-integration-domain.md"
+  },
+  {
+   "id": "va-esa-legacy-it",
+   "title": "Legacy Information Technology Solutions",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-legacy-it.md"
+  },
+  {
+   "id": "va-esa-smart-device-use",
+   "title": "Smart Device Use",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-smart-device-use.md"
+  },
+  {
+   "id": "va-esa-soa",
+   "title": "Service Oriented Architecture",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-soa.md"
+  },
+  {
+   "id": "va-esa-web-systems",
+   "title": "Web Systems",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-esa-web-systems.md"
+  },
+  {
+   "id": "va-eta-electronic-records",
+   "title": "Electronic Records Management",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-eta-electronic-records.md"
+  },
+  {
+   "id": "va-eta-event-log",
+   "title": "Event Log Management",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-eta-event-log.md"
+  },
+  {
+   "id": "va-eta-network-telecom",
+   "title": "Network and Telecommunications",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-eta-network-telecom.md"
+  },
+  {
+   "id": "va-eta-platform-architectures",
+   "title": "Personal Computing Server Services Platform Architectures",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-eta-platform-architectures.md"
+  },
+  {
+   "id": "va-eta-technical-architecture",
+   "title": "Enterprise Technical Architecture (ETA)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-eta-technical-architecture.md"
+  },
+  {
+   "id": "va-eta-wan",
+   "title": "Wide Area Network (WAN)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-eta-wan.md"
+  },
+  {
+   "id": "va-gov101-04",
+   "title": "Policy, Standard and Guideline Formulation Standard (GOV101-04)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-gov101-04.md"
+  },
+  {
+   "id": "va-oth701-00",
+   "title": "Model Virginia Map Accuracy Standards Guideline (ITRM Guideline OTH701-00)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-oth701-00.md"
+  },
+  {
+   "id": "va-oth702-00",
+   "title": "VGIN Administrative Boundary Data Standard (OTH 702-00)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-oth702-00.md"
+  },
+  {
+   "id": "va-oth703-00",
+   "title": "Road Center Line Standard (OTH 703-00)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-oth703-00.md"
+  },
+  {
+   "id": "va-sec502-05",
+   "title": "IT Security Audit Standard (SEC502)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-sec502-05.md"
+  },
+  {
+   "id": "va-sec511",
+   "title": "IT Standard Use of Non-Commonwealth Computing Devices to Telework (SEC511)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-sec511.md"
+  },
+  {
+   "id": "va-sec514-5-03",
+   "title": "Removal of Commonwealth Data from Electronic Media Standard (SEC514)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-sec514-5-03.md"
+  },
+  {
+   "id": "va-sec520-06",
+   "title": "IT Risk Management Standard (SEC520)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-sec520-06.md"
+  },
+  {
+   "id": "va-sec527-02",
+   "title": "Security Awareness Training Standard (SEC527)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-sec527-02.md"
+  },
+  {
+   "id": "va-sec530-01-2",
+   "title": "Information Security Standard (SEC530)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-sec530-01-2.md"
+  },
+  {
+   "id": "va-sec540-01",
+   "title": "Data Classification Standard (SEC540)",
+   "doc_type": "standard",
+   "path": "standards/virginia/va-sec540-01.md"
   },
   {
    "id": "wa-data-01-02-s",

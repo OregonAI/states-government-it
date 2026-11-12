@@ -1,0 +1,9 @@
+ Approved IT technologies consuming cloud-based hosting platform services.
+
+                                                 Strategy
+ Effective Dates:
+             • November 1, 2019: the current IT solutions that utilize Prohibited technologies will be
+                  considered legacy IT solutions
+             • December 1, 2019: agencies must identify their legacy IT solutions and the Prohibited
+                  technologies they use to VITA
+             • January 1, 2020: agencies will have submitted Enterprise Architecture Exceptions for

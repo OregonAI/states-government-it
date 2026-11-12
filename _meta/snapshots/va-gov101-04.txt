@@ -1,0 +1,525 @@
+COMMONWEALTH OF VIRGINIA
+Enterprise Architecture (EA)
+Information Technology
+Resource Management (ITRM)
+
+              Policy, standard and
+              guideline formulation
+              standard
+
+                   ITRM Standard (GOV 101-04)
+                                February 2024
+
+Policy, Standard and Guideline Formulation Standard                                          ITRM Standard (GOV 101-04)
+                                                                                              February 29, 2024 June 29, 2020
+
+Reviews
+Updates to this publication and opportunities for review occur through the regulatory process for guidance
+documents.
+
+Publication Version Control
+Please direct questions related to this publication to VITA’s Enterprise Architecture Division (EA) at
+ea@vita.virginia.gov. VITA notifies the Agency Information Technology Resources (AITRs) at all state
+agencies, institutions, and other interested parties of revisions to this document.
+
+The following table contains a history of the revisions to this publication.
+  Version         Date      Revision Description
+    Original      08/10/2000      Base Document
+
+    101-01        12/08/2004      Updated “Authority,” “General Responsibilities;” restructured and number each section,
+                                  sub-section (see Appendix F: PSG Formulation Style Guide); separated PSG procedure
+                                  into 3 processes: Promulgation, Revision, and Rescission; amended each Process
+                                  Flowchart to reflect tasks described in Steps 1 – 7; added Appendices A – F and H;
+                                  and changed the alphanumeric Publication Designator scheme in Appendix G:
+                                  Designators for PSGs.
+
+    101-02        03/01/2016      This is a complete rewrite of the standard (COV 101-) that revises and streamlines
+                                  processes and procedures related to the establishment of a comprehensive and
+                                  uniform process for developing, adopting, maintaining, and retiring, Commonwealth of
+                                  Virginia information technology policies, standards, and guidelines (PSGs).
+
+                                  This revision includes changing the name of the document from “Policies, Standards
+                                  and Guidelines: Process for Initiation, Development, Review, Approval and
+                                  Promulgation Standard” to “Policy, Standard and Guideline Formulation Standard”
+
+                                  This revision also includes administrative changes that reflect the new IT governance
+                                  structure of the commonwealth as well as 2010 and 2015 amendments to the Code of
+                                  Virginia.
+    101-03        06/23/2020      Administrative changes to this version of the standard were necessitated by changes
+                                  in the Code of Virginia, organizational changes in VITA and the Library of Virginia’s
+                                  change to Series 100350 in the Records Retention and Disposal Schedule.
+   101-03.1       01/01/2021       This administrative update addresses organizational changes at VITA, abridged text
+                                   and a font change to Rajdhani (heading) and Roboto (content). No substantive
+                                   changes have been made to the requirements in this document.
+    101-04        02/29/2024       Administrative update to streamline content, add flexibility, and reduce requirements
+                                   pursuant to EO19 (2022)
+
+Identifying Changes in This Document
+
+    •    See the latest entry in the revision table above. Where revisions are not shown with Track Changes, the
+         following convention will be used:
+
+              EXA-R-01 Standard Language Example with No Change – The text is the same.
+              EXA-R-02 Technology Standard Example with Revision – The text is the same. A
+               wording change, update or clarification is made in this text. See italics and underlined
+               words
+              EXA-R-03      Technology Standard Example of New Standard – This standard is new.
+              EXA-R-04 Technology Standard Example of deleted text – This text was deleted
+
+                                                             ii
+
+Policy, Standard and Guideline Formulation Standard                                    ITRM Standard (GOV 101-04)
+                                                                                        February 29, 2024 June 29, 2020
+
+                                                      Preface
+Publication Designation                                         General Responsibilities
+Policy, Standard and Guideline Document Formulation
+ITRM Standard (GOV101-04)                                       Chief Information Officer of the
+                                                                Commonwealth (CIO)
+Subject                                                         Develops and approves statewide technical and
+Formulation and governance of policies, standards               data policies, standards and guidelines for
+and guidelines                                                  information technology and related systems
+
+Effective Date                                                  Directs the formulation and promulgation of
+January x, 2023 June 23, 2020                                   policies, guidelines, standards, and specifications
+                                                                for the purchase, formulation, and maintenance
+Supersedes                                                      of information technology for state agencies.
+GOV101-03.1 January 1e 1, 2021
+                                                                Virginia Information Technologies Agency
+Scheduled VITA Review                                           (VITA)
+Periodically or as needed                                       At the direction of the CIO, VITA leads efforts that
+                                                                draft, review and update technical and data
+Authority                                                       policies, standards, and guidelines for
+Code of Virginia, §2.2-225                                      information technology and related systems.
+(Powers and Duties of the Secretary of Technology)              VITA uses requirements in IT technical and data
+                                                                related policies and standards when establishing
+Code of Virginia, §2.2-2007.1                                   contracts; reviewing procurement requests,
+(Powers of the CIO)                                             agency IT projects, budget requests and strategic
+                                                                plans; and when developing and managing IT
+Code of Virginia, §2.2-2005 et seq.                             related services
+(Powers and Duties of the Virginia Information
+Technologies Agency; “VITA”)                                    Executive Branch Agencies
+                                                                Provide input and review during the formulation,
+Code of Virginia, § 2.2-2009. (Additional duties of the         adoption and update of statewide technical and
+CIO relating to security of government information)             data policies, standards and guidelines for
+                                                                information technology and related systems.
+Scope                                                           Comply with the requirements established by
+This standard is applicable to all Executive Branch             COV policies and standards. Apply for
+agencies as defined in Virginia Code § 2.2-2006 that            exceptions to requirements when necessary.
+manage, develop, purchase, and use information
+technology resources in the Commonwealth of                     Related ITRM Policies, Standards, and
+Virginia.                                                       Guidelines
+                                                                Current version of ITRM Policy (GOV 102 - )
+Purpose                                                         concerning PSG policy formulation and
+This standard establishes a comprehensive and                   maintenance
+uniform process for developing, adopting,
+maintaining, and retiring, Commonwealth of Virginia
+Information Technology policies, standards, and
+guidelines (PSGs).
+.
+
+                                                          iii
+
+Policy, Standard and Guideline Formulation Standard                                                            ITRM Standard (GOV 101-04)
+                                                                                                                February 29, 2024 June 29, 2020
+
+                                                    Table of Contents
+Introduction __________________________________________________________________________________________ 1
+   Background _______________________________________________________________________________________ 1
+   Definition of Key Terms ____________________________________________________________________________ 1
+   Acronyms _________________________________________________________________________________________ 1
+   Glossary __________________________________________________________________________________________ 2
+Policy, Standard and Guideline (PSG) Requirements ___________________________________________________ 3
+   PSG Lifecycle Stages ______________________________________________________________________________ 3
+        Create/Update/Retire Stage_____________________________________________________________________ 3
+        Adopt Stage____________________________________________________________________________________ 5
+        Disposition Stage ______________________________________________________________________________ 6
+   PSG style and format: _____________________________________________________________________________ 6
+
+                                                        List of Figures
+Figure 1 – PSG Lifecycle ....................................................................................................................... 3
+
+                                                                       iv
+
+Policy, Standard and Guideline Formulation Standard                              ITRM Standard (GOV 101-04)
+                                                                                  February 29, 2024 June 29, 2020
+
+Introduction
+
+Background
+The management of information technology (IT) resources requires the establishment and control of a
+set of documents that convey purpose, direction, and required activities. The documents that accomplish
+this in the commonwealth are policies, standards, and guidelines (PSGs). This standard supports the
+framework established by COV ITRM Policy (GOV102-series) through the establishment of a
+comprehensive and uniform process for formulation, review, approval, maintenance and retirement of
+policies, standards, and guidelines (PSGs) for use in information technology resource management
+(ITRM) by executive branch agencies in the Commonwealth of Virginia.
+
+Definition of Key Terms
+ITRM Policy – a document that elaborates on the commonwealth’s information technology resource
+management philosophy by providing general statements of purpose, direction and required activities for
+one or more defined areas of the ITRM framework.
+
+ITRM Standard – a document that elaborates on the commonwealth’s information technology resource
+management program by providing required technical or programmatic activities in detail for a specific
+area of the ITRM framework.
+
+ITRM Guideline – a document that provides information on optional activities related to an area of control
+for the commonwealth’s information technology resource management program. Activities in guidelines
+are considered to be best practices but are not required.
+
+Other Policies, Standards, and Guidelines (not ITRM) – are documents prepared at the direction of the
+Governor and/or General Assembly, involve miscellaneous information technology related issues and are
+not related to technology resource management. These documents are sometimes developed using
+procedures and formats similar to those used in the creation of ITRM policies and standards. However, if
+the area or focus topic addressed is outside of the ITRM framework, it will not have the designation of
+ITRM.
+
+Acronyms
+
+AITR:              Agency Information Technology Resource
+CIO:               Chief Information Officer of the Commonwealth
+EA:                Enterprise Architecture
+IT:                Information Technology
+ITIB:              Information Technology Investment Board
+ITRM:              Information Technology Resource Management
+ORCA:              Online Review and Comment Application
+PSG:               Policy, Standard and Guideline
+VITA               Virginia Information Technologies Agency
+
+                                                       1
+
+Policy, Standard and Guideline Formulation Standard                            ITRM Standard (GOV 101-04)
+                                                                                February 29, 2024 June 29, 2020
+
+Glossary
+As appropriate, terms and definitions used in this document can be found in the COV ITRM IT Glossary.
+The COV ITRM IT Glossary may be referenced on the ITRM Policies, Standards and Guidelines web page
+at https://www.vita.virginia.gov/it-governance/glossary/
+http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+                                                      2
+
+Policy, Standard and Guideline Formulation Standard                                    ITRM Standard (GOV 101-04)
+                                                                                        February 29, 2024 June 29, 2020
+
+Policy, Standard and Guideline (PSG) Requirements
+PSG Lifecycle Diagram
+The following figure represents the lifecycle for developing, approving, maintaining, and retiring
+information technology related polices, standards, and guidelines (PSGs). The top row denotes the PSG
+lifecycle stage and the bottom row indicates the activity during each stage.
+
+                                                 Figure 1 – PSG Lifecycle
+
+PSG Lifecycle Stages
+
+Create/Update/Retire Stages:
+
+Create/Update/Retire includes processes for initiating the formulation, review, revision, and as needed,
+retirement of a PSG.
+
+All new or revised PSG documents or actions to rescind a PSG document shall be subject to stakeholder
+reviews as outlined below.
+
+    PSG-R-01               Initiate PSG formulation - Requests to create/update/retire a PSG shall be sent to
+                           the VITA Enterprise Architecture (EA) Division at ea@vita.virginia.gov.
+
+                           detail to enable EA to understand and identify the rationale for the PSG, the
+                           expected benefits, the stakeholders and appropriate subject matter experts needed
+                           for formulation.
+
+                           Rationale:
+                           Requests or requirements to initiate the formulation of a new PSG can come from a
+                           variety of sources and in various degrees of detail. Sources can include, but are
+                           not limited to the CIO, VITA staff, agencies, advisory bodies, the administration, the
+                           General Assembly, the vendor community, or others.
+
+                                                              3
+
+Policy, Standard and Guideline Formulation Standard                                    ITRM Standard (GOV 101-04)
+                                                                                        February 29, 2024 June 29, 2020
+
+    PSG-R-02               Initiate PSG review and revision or retirement - All PSGs are scheduled to be
+                           reviewed periodically or as needed. All updates are documented in the revision
+                           table at the beginning of the document. A review may result in no action, revision, or
+                           retirement of the PSG.
+
+                           Rationale:
+                           Scheduled reviews are part of the normal processes established when a PSG is
+                           approved to ensure it remains current and relevant.
+
+    PSG-R-03               Document formulation or revision workgroup – The EA Division, together with the
+                           designated business lead organization, establish an appropriate informal workgroup of
+                           subject matter experts from various stakeholder groups to assist in the research, review,
+                           revision, and/or formulation a PSG.
+
+                           EA staff facilitate and assist the workgroup with research and with the formulation and
+                           review of draft documents.
+
+    PSG-R-04               Stakeholder review and comments – The stakeholder review and comment period is one
+                           of the following or the guidance document process through the Virginia Regulatory Town
+                           Hall:
+
+                             a.   Standard comment period involves VITA EA posting the draft PSG
+                                  documents or the Notice to Rescind on the VITA Online Review and
+                                  Comment Application (ORCA) for (30) thirty calendar days to facilitate review
+                                  and comment by all stakeholders.
+                              b. Emergency comment period addresses an emergency situation, as determined by
+                                 the CIO. In this situation, EA takes the necessary steps to have the CIO approve or
+                                 rescind the new or revised PSG immediately, with such notice and posting as is
+                                 practicable.
+
+     PSG-R-05              Agency Information Technology Resource (AITR) notification – Concurrent with posting
+                           the PSG for review and comment, EA notifies by email the Agency Information
+                           Technology Resources (AITRs) at all Executive Branch Agencies, as well as notifies other
+                           stakeholders who may be interested in the revision or rescission of the PSG. Public
+                           notice and comment through the regulatory process may substitute.
+
+    PSG-R-06               Administrative updates – These updates are necessitated by changes in the Code
+                           of Virginia and or organizational changes in VITA. They are made as needed and
+                           stakeholders are advised through their AITRs and/or through the regulatory
+                           process for guidance documents. There will be no Online Review and Comment
+                           Application (ORCA) review of administrative updats.
+
+                           Rationale
+                           An example of an administrative update would be the replacement of the
+                           Information Technology Investment Board (ITIB) with the Information Technology
+                           Advisory Council (ITAC) by the General Assembly in 2010. As a result, numerous
+                           policies, standards and guidelines needed administrative updates to align these
+                           documents with the amendments made to the Code of Virginia.
+
+                                                            4
+
+Policy, Standard and Guideline Formulation Standard                                     ITRM Standard (GOV 101-04)
+                                                                                         February 29, 2024 June 29, 2020
+
+    PSG-R-07              Comment responses - Following the comment period, VITA compiles all of the comments
+                          received into a single document and works with members of the applicable workgroup to:
+                                  a.   develop responses to each comment received;
+
+                                  b. revise the draft PSG document as needed based on the comments
+                                     received;
+
+                                  c.   re-post the draft PSG document for further review if there are substantial
+                                       changes as a result of the comment and review process; and
+
+                                  d. provide a copy of the responses and resolutions to each of the
+                                     respondents.
+
+                             Rationale
+                             To provide for transparency during the formulation of PSG documents and
+                             awareness once it is approved and published.
+
+Adopt Stage:
+
+    PSG-R-08              Final draft review – Final draft documents are submitted to EA for review
+                          and action. EA facilitates and coordinates any needed internal VITA
+                          management reviews prior to submitting the document to the CIO for
+                          review and approval. This includes reviews related to consistency of
+                          format, compliance with existing policies and standards, and document
+                          readability.
+
+                                                             5
+
+Policy, Standard and Guideline Formulation Standard                                      ITRM Standard (GOV 101-04)
+                                                                                          February 29, 2024 June 29, 2020
+
+    PSG-R-09               CIO review and approval - Draft PSG documents and draft Notices to Rescind
+                           documents are provided to the CIO for review and approval along with
+                           appropriate documentation.
+                           Appropriate documentation may include a Decision Brief to
+                           the CIO that contains the following information and the recommendations relative
+                           to the new or revised PSG or to the rescinding of an existing PSG.
+
+                                  a.   Purpose of the document
+
+                                  b. Reason for the update
+
+                                  c.   Changes
+
+                                  d. Impact of changes on agencies and VITA
+
+                           New or revised PSG documents or notice to rescind PSG documents, once approved,
+                           shall be returned to EA for publication or removal.
+
+     PSG-R-10             Publish PSG documents - Standards and guidelines are published on the VITA
+                          website. At a minimum, publication includes the following:
+
+                                  a.   notifying Agency Information Technology Resources (AITRs) and other
+                                       interested parties via email of the actions taken and availability of the
+                                       resulting PSG documents; and
+
+                                  b. posting new and revised PSG documents to the VITA Website (and/or the
+                                     Virginia Regulatory Town Hall if a PSG is a guidance document).
+
+Disposition Stage:
+
+    PSG-R-11               PSG retention - Original PSG documents are retained at VITA.
+
+                           Rationale:
+                           PSG original documents are public records and are retained permanently, in
+                           accordance with General Schedule 101-100350 published by the Library of Virginia.
+
+PSG style and format:
+     PSG-R-12              Document style – The Associated Press Stylebook may be consulted on style issues. A
+                           copy is available through VITA Communications at VITACOMMS@vita.virginia.gov.
+
+     PSG-R-13              Document layout - - The body of the document shall use at least 10-point Roboto
+                           (content) and 12-point or larger Rajdhani (heading) Verdana with single line spacing. The
+                           Preface shall use at least 8-point Roboto Verdana type in double columns with single line
+                           spacing.
+
+                           Names of tables and figures shall use at least 9-point Roboto Verdana.
+
+                           Whenever possible, documents are formatted in portrait mode to fit on 8.5 by 11-inch
+                           paper when printed.
+
+                                                             6
+
+Policy, Standard and Guideline Formulation Standard                                      ITRM Standard (GOV 101-04)
+                                                                                          February 29, 2024 June 29, 2020
+
+                           The document shall have a 1-inch margin for the right and left, and a 0.8-inch
+                           margin for the top and bottom of the page.
+
+    PSG-R-14               Document format – non-procurement – PSGs are organized as follows:
+
+                           Cover – PSGs should use a current cover page design from VITA Comms and include at
+                           least the following information:
+                                    ● title,
+                                    ● number,
+                                    ● identification of the document by listing Commonwealth of Virginia,
+                           VITA, and the business unit and/or program within VITA responsible for the
+                           document.
+
+                           ITRM publication version control
+
+                           Please direct questions related to this publication to VITA’s Enterprise
+                           Architecture Division (EA) at ea@vita.virginia.gov.
+
+                           VITA notifies the Agency Information Technology Resources (AITRs) at all
+                           state agencies, institutions of higher education, and other interested parties of
+                           proposed revisions to this document.
+
+                           The following table contains a history of the revisions to this publication.
+
+                                 Version              Date   Revision Description
+                                 Original      00/00/0000    Base Document
+
+                           Identifying Changes in this Document
+
+                           See the latest entry in the revision table above. Where revisions are not shown with Track
+                           Changes, the following convention will be used:
+
+                           Vertical lines in the left margin may be used to indicate changes or additions.
+                           Specific changes in wording shall be noted using italics and underlines; with italics
+                           only indicating new/added language and italics that is underlined indicating
+                           language that has changed. Deleted language shall be noted by striking it through.
+
+                           The following examples demonstrate how the reader may identify requirement and
+                           recommend practice updates and changes:
+
+                           EXA-R-01 Example with No Change – The text is the same. The text is the same.
+                           The text is the same.
+
+                           EXA-R-02 Example with Revision – The text is the same. A wording change,
+                           update or clarification is made in this text.
+
+                           EXA-R-03 Example of New Text – This language is new.
+
+                           EXA-R-03 Example of Deleted Requirement – This requirement was rescinded on
+                           mm/dd/yyyy.
+
+                                                               7
+
+Policy, Standard and Guideline Formulation Standard                                     ITRM Standard (GOV 101-04)
+                                                                                         February 29, 2024 June 29, 2020
+
+                           Preface (including, but not limited to)
+
+                           Publication Designation: see current version of ITRM Policy GOV102.
+
+                           Subject: restate the document title and add an appropriate description.
+
+                           Effective Date: the date the PSG was approved.
+
+                           Compliance Date (optional): the date an organization must conform to the
+                           requirements stated in the PSG.
+
+                           Supersedes: the name and version number of the PSG superseded by this version
+                           – if this is a new PSG, state “None.”
+
+                           Scheduled VITA Review: the scheduled review timeframe in years from the effect
+                           date.
+
+                           Authority: cite the pertinent sections from the Code of Virginia.
+
+                           Scope: identify the organizations required to comply with this PSG.
+
+                           Purpose: summarize the intent of the document and the reason for its formulation.
+
+                           General Responsibilities: summarize the pertinent language from the Code for the
+                           entities impacted by the PSG.
+
+                           Related PSGs: list any associated polices, standards and or guidelines.
+
+                           Table of Content - The body of the Table of Contents shall include the headings for
+                           major sections (Heading-1, Heading-2 and Heading-3) and their beginning page
+                           number.
+
+                           Heading levels shall be limited to not below Heading-3 (i.e. heading-1 = section 2.
+                           “Heading Name”; heading-2 = section 2.1 “Heading Name”; heading-3 = section
+                           2.1.1 “Heading Name”).
+
+                           The TOC also lists figures, tables, and appendices, endnotes, if used in place of
+                           footnotes and references.
+
+                           Document Body – The body of the document includes, but is not limited to, the
+                           following information categories:
+
+                           Executive Summary (optional in short documents): in lengthy documents, include a
+                           concise and thorough synopsis of the document.
+
+                           Introduction: Introduce the reader to the document report by briefly addressing the
+                           following common elements of an introduction section:
+
+                                a.   The specific focus topic of the document report.
+
+                                b. Why the document report is written and for what purpose.
+
+                                c.   Who are the appropriate or intended audience?
+
+                                                             8
+
+Policy, Standard and Guideline Formulation Standard                                    ITRM Standard (GOV 101-04)
+                                                                                        February 29, 2024 June 29, 2020
+
+                                d. The main contents of the document report.
+
+                                e.   The situational background that brought about the need for the document
+                                     report.
+
+                           Benefits (optional): state the benefits derived from implementing the PSG beyond
+                           compliance with the Code of Virginia.
+
+                           Definitions (optional): explain the meaning of a key word, phrase, etc.
+
+                           Main text of ITRM Policies, Standards, or Guidelines: the main text of the document shall
+                           include statements that describe the purpose and objectives of any requirements or best
+                           practices and the corresponding rationale for their inclusion in the PSG.
+
+                           Page Numbering: Do not number the cover page. Introductory pages such as “Version
+                           Control”, “Preface”, and “Table of Contents” should be numbered with lowercase Roman
+                           numerals. The pages in the body of the document should be numbered in Arabic
+                           numbers.
+
+                           The page number is to be numbered using the following format: Page XX of XX.
+
+                           The pages in the body of the document may be further divided into subsections and
+                           numbered accordingly (e.g., 1-1, 1-2, 1-3, 2-1, 2-2, 2-3, etc.).
+
+    PSG-R-15               Document format – Procurement – IT-related procurement policies, standards
+                           and guidelines may follow the style and format requirements identified in this
+                           standard or another appropriate format.
+
+                                                            9

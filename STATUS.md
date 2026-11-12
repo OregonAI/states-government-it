@@ -6,21 +6,21 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 
 | doc_type | count |
 |---|---|
-| policy | 225 |
-| standard | 128 |
-| statute | 28 |
-| executive_order | 14 |
+| policy | 244 |
+| standard | 164 |
+| statute | 39 |
+| executive_order | 16 |
 | rule | 11 |
 
-**Total: 406**
+**Total: 474**
 
 ## Source manifest
 
-518 declared source(s) across 4 group(s) in `sources`.
+599 declared source(s) across 5 group(s) in `sources`.
 
 ## Freshness (reverify every 90 days)
 
-406 of 406 document(s) overdue for re-verification.
+474 of 474 document(s) overdue for re-verification.
 
 | id | doc_type | last_verified |
 |---|---|---|
@@ -47,6 +47,17 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | co-crs-24-74 | statute | never |
 | co-crs-24-85 | statute | never |
 | or-ors-276a | statute | never |
+| va-code-18-2-186-6 | statute | never |
+| va-code-2-2-203-2-4 | statute | never |
+| va-code-2-2-2699-5 | statute | never |
+| va-code-2-2-2699-6 | statute | never |
+| va-code-2-2-ch20-1 | statute | never |
+| va-code-2-2-ch35 | statute | never |
+| va-code-2-2-ch38-1 | statute | never |
+| va-code-2-2-ch38-2 | statute | never |
+| va-code-2-2-ch38 | statute | never |
+| va-code-2-2-ch4-3 | statute | never |
+| va-code-2-2-ch55-3 | statute | never |
 | wa-rcw-39-26-340 | statute | never |
 | wa-rcw-39-34-240 | statute | never |
 | wa-rcw-40-26 | statute | never |
@@ -63,16 +74,5 @@ Generated 2026-11-11. Non-authoritative; see DISCLAIMER.md.
 | or-oar-128-30 | rule | never |
 | or-oar-128-40 | rule | never |
 | or-oar-128-50 | rule | never |
-| ca-eo-b-34-15 | executive_order | never |
-| ca-eo-n-04-19 | executive_order | never |
-| ca-eo-n-12-23 | executive_order | never |
-| ca-eo-n-30-25 | executive_order | never |
-| ca-eo-n-5-26 | executive_order | never |
-| ca-eo-n-6-26 | executive_order | never |
-| ca-eo-n-9-26 | executive_order | never |
-| or-eo-23-26 | executive_order | never |
-| or-eo-26-26 | executive_order | never |
-| wa-eo-00-02 | executive_order | never |
-| wa-eo-16-01 | executive_order | never |
-| … | *356 more* | |
+| … | *424 more* | |
 

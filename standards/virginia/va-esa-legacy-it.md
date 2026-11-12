@@ -1,0 +1,263 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-esa-legacy-it
+title: Legacy Information Technology Solutions
+doc_type: standard
+citation: 'EA requirements document: Legacy Information Technology Solutions'
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/Legacy-IT-Solutions.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: f27bd3bd65805d1a4110ae900ca68a601ff8bd556ee78169b90537a97dd6a2c7
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Legacy Information Technology Solutions (EA requirements document: Legacy Information Technology Solutions)
+
+## At a glance
+
+Item of VITA's Enterprise Architecture page, group 'ESA - Enterprise Solutions Architecture Requirements': an EA requirements document under the Enterprise Architecture Standard (EA225), whose requirement statements are mandatory for executive branch agencies. The PDF prints: ETA Legacy IT Solutions (LIT) Requirements Version 1.0, October 31, 2019.
+
+## Full text
+
+  Commonwealth of Virginia
+Enterprise Technical Architecture [ETA]
+
+      Legacy Information Technology (IT)
+         Solutions (LIT) Topic Report
+
+ vita.virginia.gov              October 31, 2019
+
+ETA Legacy IT Solutions (LIT) Requirements                                       Version 1.0 October 31, 2019
+
+Legacy IT Solutions Topic Report Requirements: Version History
+ Revision       Date                Description
+ 1.0            10-31-2019          Initial document
+
+Review Process
+This requirements document was posted on VITA’s Online Review and Comment Application (ORCA). All
+agencies, stakeholders, and the public were encouraged to provide their comments through ORCA. All
+comments were evaluated and individual commenters were notified of action(s) taken.
+
+Standards and Agency Exceptions
+These standards are incorporated within the COV Enterprise Architecture Standard (EA-225), and the
+requirements defined within this document are mandatory for Executive Branch agencies. Agencies
+deviating from these requirements must request an exception for each desired deviation, and receive an
+approved Enterprise Architecture Exception via Archer, prior to developing, procuring, or deploying such
+technology, or not complying with a requirement specified in this document.
+
+Glossary
+As appropriate, terms and definitions used in this document are in the COV ITRM IT Glossary. The COV
+ITRM IT Glossary is available on the ITRM Policies, Standards, and Guidelines web page at the VITA
+website: https://www.vita.virginia.gov/it-governance/glossary/cov-itrm-glossary/
+
+Definition of Key Terms
+
+All of the Legacy IT Solutions Topic ETA standards and requirements considered to be critical
+components for implementing the Commonwealth’s ETA are included in this report.
+
+The report presents two forms of technical architecture direction for agencies to consider when planning
+or when making changes or additions to their information technology:
+
+    •   Requirements – mandatory enterprise technical architecture directions. All requirements are
+        included within the ETA Standard.
+
+    •   Recommended Practices - provided as guidance to agencies in improving cost efficiencies,
+        business value, operations quality, reliability, availability, decision inputs, risk avoidance or other
+        similar value factors. Recommended Practices are optional.
+
+The following terminology and definitions are applicable to the use of technologies:
+Approved technologies
+       These technologies have been evaluated, and where appropriate, support is in place. They are
+       approved for current and future deployments.
+            Approved with Constraint: Technologies that are approved for use, but have a very limited
+            footprint within COV. IT governance is applied to any additional use by requiring an approved
+            EA exception. If utilization of this technology expands, the constraint will be removed.
+
+Emerging technologies
+       New versions of approved products/technologies that are not yet ready for deployment by COV.
+       These versions have General Availability (GA), but either lack a hardening template, service pack,
+       or adequate/full support. For an operating system, it may take a year for a fully managed service
+       to be fully developed in support of an updated version of an approved technology. Availability
+
+                                                  Page 2 of 7
+
+ETA Legacy IT Solutions (LIT) Requirements                                  Version 1.0 October 31, 2019
+
+        dates will be published as soon as they are available.
+Divest technologies
+        Agencies shall not make any procurements or additional deployments of Divest technologies.
+        There are two phases within Divest:
+       •    Plan: During this phase, agencies must develop and submit their plan to migrate off of these
+            technologies within their IT Strategic Plan.
+       •    Execution: During this phase, agencies must execute their migration plans for these
+            technologies. These migrations must be completed before the technologies become
+            Prohibited. This may include:
+            o CIO approved IBC (Investment Business Case) and IBC Addendum for projects and
+            supporting Business Requirements for Existing Technologies (BreTs) within agency IT
+            Strategic Plans. o Inclusion of any needed procurements to their agency IT Strategic
+            Plan.
+
+Prohibited technologies
+        Agencies are not allowed to use Prohibited technologies without an approved EA Exception.
+        These technologies are no longer supported by the commonwealth and they represent
+        substantial risk. Any use of Prohibited technologies must be mitigated by:
+       •    Migration plans included within agency’s IT Strategic Plan.
+       •    CIO approved IBC (Investment Business Case) and IBC Addendum for projects and
+            supporting BreTs within agency IT Strategic Plans.
+       •    Inclusion of any needed procurements to their agency IT Strategic Plan.
+       •    Execution of the migration plans including any required reporting.
+
+Agency Exception Requests
+Agencies that desire to deviate from the requirements or the technology component standards specified
+in this report must request an exception for each desired deviation and receive an approved Enterprise
+Architecture Exception via Archer prior to developing, procuring, or deploying such technology or not
+complying with a requirement specified in this report. The instructions for completing and submitting an
+exception request are contained within the Commonwealth Enterprise Architecture Policy.
+
+                                               Page 3 of 7
+
+ETA Legacy IT Solutions (LIT) Requirements                                                                                            Version 1.0 October 31, 2019
+
+Contents
+  Definition of Key Terms .................................................................................................................................................... 2
+      Approved technologies ................................................................................................................................................ 2
+      Emerging technologies ................................................................................................................................................ 2
+      Divest technologies ...................................................................................................................................................... 3
+      Prohibited technologies ............................................................................................................................................... 3
+  Agency Exception Requests ............................................................................................................................................. 3
+  Introduction ....................................................................................................................................................................... 5
+  Purpose ............................................................................................................................................................................. 5
+  Authority ............................................................................................................................................................................ 6
+  Scope................................................................................................................................................................................. 6
+
+                                                                                 Page 4 of 7
+
+ETA Legacy IT Solutions (LIT) Requirements                                      Version 1.0 October 31, 2019
+
+Introduction
+The purpose of this topic report is to provide direction on how the commonwealth will migrate from
+legacy IT solutions to Approved IT solutions and technologies including cloudbased IT solution hosting
+services in support of Executive Order #19: 2018.
+
+                   Commonwealth Legacy IT Solutions Vision and Strategy
+ Legacy IT solutions utilize programming languages or data access methods that the COV considers
+ Prohibited technologies.
+
+     Prohibited languages – Ada, ALGOL, APL, Assembler (BAL), BASIC, C, Clipper (xBase), COBOL,
+     Delphi, Fortran, Natural, LISP, Mapper, Paradox, Pascal, PL/1, Rexx, RPG X
+
+     Prohibited database and other data access methods – Adabas, IMS, VSAM, ISAM, xBase, Paradox,
+     all Network and Hierarchical databases, all data access methods and versions without security
+     patching
+
+                                                  Vision
+ All current legacy IT solutions shall be identified and assessed, then replaced, retired or migrated to
+ Approved IT technologies consuming cloud-based hosting platform services.
+
+                                                 Strategy
+ Effective Dates:
+             • November 1, 2019: the current IT solutions that utilize Prohibited technologies will be
+                  considered legacy IT solutions
+             • December 1, 2019: agencies must identify their legacy IT solutions and the Prohibited
+                  technologies they use to VITA
+             • January 1, 2020: agencies will have submitted Enterprise Architecture Exceptions for
+                  any intended use of legacy IT solutions beyond January 1, 2022
+             •    January 1, 2024: retired or replaced legacy IT solutions must be hosted on Approved
+                  cloud-based platforms.
+
+ Agencies/customers will:
+            • Create projects and procurements within Fiscal Year 2020-2022 IT Strategic Plans to
+               replace current legacy IT solutions with new solutions hosted on Approved platforms
+               consuming Approved technologies
+            • Obtain approved Enterprise Architecture Exceptions by February 1, 2020 for any
+               intended use beyond January 1, 2022 o These exceptions will be renewed each year
+               indicating plans and progress for migration away from Approved technologies
+            • Complete projects and procurements prior to January 1, 2024
+
+Purpose
+The intent of these requirements is to guide the purchase, design, implementation, and on-going
+operation of COV IT services and utilized technologies. For further information on the perspectives,
+please reference the most recent version of the Enterprise Technical Architecture (ETA) Requirements
+document.
+
+[additional text on the purpose of this document]
+
+                                                 Page 5 of 7
+
+ETA Legacy IT Solutions (LIT) Requirements                                     Version 1.0 October 31, 2019
+
+Authority
+    •   Code of Virginia, §2.2-2007. Powers of the CIO
+    •   Code of Virginia, §2.2-2007.1. Additional duties of the CIO relating to information technology
+        planning and budgeting
+    •   Code of Virginia, §2.2-2009(A). Additional duties of the CIO relating to security of government
+        information
+    •   Code of Virginia, §2.2-2012(A). Additional powers and duties related to the procurement of
+        information technology
+
+Scope
+This standard is applicable to all Executive Branch state agencies (hereinafter collectively referred to as
+"agencies") that are responsible for the management, development, purchase and use of information
+technology resources in the Commonwealth of Virginia. This standard does not apply to research
+projects, research initiatives, or instructional programs at public institutions of higher education.
+In addition to the requirements below all COV IT technology solutions comply with the standards found
+on the VITA Policies Standards & Guidelines page.
+
+                                                Page 6 of 7
+
+ETA Legacy IT Solutions (LIT) Requirements                                   Version 1.0 October 31, 2019
+
+LIT-R-01:      agencies must identify their legacy IT solutions and the Prohibited technologies they use
+               to VITA by November 1, 2019.
+
+LIT-R-02:      agencies shall migrate off of all IT solutions that utilize Prohibited technology by January
+               1, 2024. Any intended use of legacy IT solutions beyond this date requires an approved
+               Enterprise Architecture (EA) exception. Agencies shall submit these EA exception
+               requests by January 1, 2020.
+
+LIT-R-03:      any intended use of Prohibited technologies requires an approved Enterprise Architecture
+               (EA) exception. Agencies shall submit these EA exception requests by January 1, 2020.
+
+LIT-R-04:      agencies shall develop business cases to determine the cost and impact of migrating
+               their Legacy IT solutions to Approved technologies hosted on cloud-based platforms.
+
+LIT-R-05:      agencies shall include a migration or replacement plan within their IT Strategic Plan for all
+               Legacy IT solutions that do not have an approved EA exception.
+
+LIT-R-06:      agencies shall add CIO approved IBC (Investment Business Case) and IBC
+               Addendum for projects and supporting BreTs to their agency IT Strategic Plans in support
+               of the migration of their Legacy IT solutions do not have approved EA exceptions.
+
+LIT-R-07:      agencies shall add any needed procurements to their agency IT Strategic Plan in support
+               of the migration or replacement of their Legacy IT solutions that do not have approved EA
+               exceptions.
+
+                                               Page 7 of 7
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,1666 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-eta-event-log
+title: Event Log Management
+doc_type: standard
+citation: 'EA requirements document: Event Log Management'
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/Event-Log-Management.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 3067e6c517379b5fcef94c76704408ebce201abc75673a3bef82ddc54e04d7f1
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Event Log Management (EA requirements document: Event Log Management)
+
+## At a glance
+
+Item of VITA's Enterprise Architecture page, group 'ETA - Enterprise Technical Requirements': an EA requirements document under the Enterprise Architecture Standard (EA225), whose requirement statements are mandatory for executive branch agencies. The PDF prints: ETA Event Log Management, Version 1.5, January 25, 2024.
+
+## Full text
+
+  Commonwealth of Virginia
+Enterprise Technical Architecture [ETA]
+
+               Event Log Management
+
+ vita.virginia.gov                   January 25, 2024
+
+                      Page 1 of 39
+
+ETA Event Log Management                        Version 1.5                                      1/25/2024
+
+Revision History
+                                  Event Log Management: Version History
+ Revision          Date            Description
+ 1.0               04/22/2022      Original.
+                                   This document was adapted from Federal Executive Order
+                                   14028, Improving the Nation's Cybersecurity and the resulting
+                                   OMB memorandum, M-21-31 Improving the Federal Government’s
+                                   Investigative and Remediation Capabilities Related to
+                                   Cybersecurity Incidents.
+ 1.1               05/27/2022      Adjusted per feedback from public comment.
+ 1.2               06/15/2022      Adjusted per feedback from legal on log retention, and for coping
+                                   log collection of SaaS solutions.
+ 1.3               11/01/2022      Updated to address implementation schedule.
+ 1.4               12/15/2022      Administrative edit to clarify ELM-25.
+ 1.5               12/20/2022      Administrative edit to update Appendix B to amend the schema
+                                   documentation requirement to add positions for Agency,
+                                   Application, and Log Name.
+ 1.6               1/25/2024       Administrative edit amend ELM-03 that removes the binding to
+                                   Appendix A.
+
+Review Process
+This standards document was posted on VITA’s Online Review and Comment application (ORCA). All
+agencies, stakeholders, and the public were encouraged to provide their comments through ORCA. All
+comments were evaluated, and individual commenters were notified of action(s) taken.
+
+Requirements & Exceptions
+The requirements included within this document are mandatory. Agencies and suppliers deviating from
+these requirements must request an exception for each desired deviation, and receive an approved
+Enterprise Architecture Exception via Archer, prior to developing, procuring, or deploying such technology,
+or not complying with a requirement specified in this document. The instructions for completing and
+submitting an exception request are contained within the Commonwealth Enterprise Architecture Policy.
+
+                                               Page 2 of 39
+
+ETA Event Log Management                                                   Version 1.5                                                                   1/25/2024
+
+Contents
+
+  Scope ................................................................................................................................................................. 4
+  Authority ............................................................................................................................................................ 4
+  General Provisions .............................................................................................................................................. 4
+  Event Log 1 (EL1) Provisions ................................................................................................................................. 6
+  Event Log 2 (EL2) Provisions ............................................................................................................................... 8
+  Event Log 3 (EL3) Provisions ............................................................................................................................... 9
+  Compliance & Implementation ..........................................................................................................................10
+  Definitions ........................................................................................................................................................11
+  References .......................................................................................................................................................14
+  Appendix A – Log Category Definitions ..............................................................................................................15
+  Appendix B – Documenting Event Logs ..............................................................................................................37
+
+                                                                          Page 3 of 39
+
+ETA Event Log Management                         Version 1.5                                       1/25/2024
+
+Scope
+This standard is applicable to all Executive Branch state agencies (hereinafter collectively referred to as
+"agencies") that are responsible for the management, development, purchase and use of information
+technology resources in the Commonwealth of Virginia. This standard does not apply to research
+projects, research initiatives, or instructional programs at public institutions of higher education
+
+These requirements address logging, log retention, and log management, with a focus on ensuring
+centralized access and visibility for the highest-level enterprise Security Operations Center (SOC) of each
+agency. In addition, it establishes requirements for agencies to increase the sharing of such information,
+as needed and appropriate, to accelerate incident response efforts and to enable more effective defense
+of Commonwealth of Virginia (COV) information and executive branch departments and agencies.
+
+Authority
+    •   Code of Virginia, §2.2-2007. Powers of the CIO
+    •   Code of Virginia, §2.2-2007.1. Additional duties of the CIO relating to information technology
+        planning and budgeting
+    •   Code of Virginia, §2.2-2009(A). Additional duties of the CIO relating to security of government
+        information
+    •   Code of Virginia, §2.2-2012(A). Additional powers and duties related to the procurement of
+        information technology
+
+General Provisions
+        Commonwealth Security Information & Event Management (COV SIEM)
+        ELM-01       COV shall implement a central SIEM platform for ingesting event logs from agency
+                     and supplier applications, capable of analyzing collected logs with User Behavior
+                     Analytics (UBA) and Security, Orchestration, Automation, and Response (SOAR)
+                     workflows.
+        ELM-02       The COV SIEM shall supply an Enterprise Log Manager (ELM) for the central
+                     aggregation of event logs for use by agencies and suppliers.
+        ELM-03       Event logs from all executive branch agencies and their suppliers for all criticality
+                     levels shall be configured and stored locally.
+        ELM-04       COV shall control the event logs that are forwarded to the COV SIEM for ingestion.
+        ELM-05       Agencies shall be able to view and search their log data in the COV SIEM, both real-
+                     time and historical.
+        ELM-06       Agencies shall be able to implement the UBA and SOAR capabilities available in the
+                     COV SIEM.
+        ELM-07       Logs ingested by the COV SIEM shall be multitenant, segregated by agency or
+                     supplier, so that each submitter only has access to their own logs.
+        ELM-08       Logs ingested by the COV SIEM across all agencies and suppliers shall be available
+                     to CSRM for forensic analysis.
+        ELM-09       The record copy of event logs are maintained by the originating agency; retention and
+                     disposition of event logs is the responsibility of the originating agency.
+
+        Commonwealth Security & Risk Management (CSRM)
+        ELM-10       CSRM shall assist and advise agencies in their assessment of logging capabilities.
+
+                                                Page 4 of 39
+
+ETA Event Log Management                        Version 1.5                                     1/25/2024
+
+       ELM-11      CSRM shall define the set of tools to assist agencies in facilitating their assessment
+                   of logging maturity across the organization, and to develop automated hunt and
+                   incident response playbooks.
+       ELM-12      CSRM shall develop and publish guidance for documenting log schemas (see
+                   Appendix B).
+       ELM-13      CSRM shall create and maintain an implementation schedule for the adoption of the
+                   requirements identified in this standard
+
+       Agencies & Suppliers
+       ELM-14      Agencies and suppliers shall use the following event log tiers to characterize event
+                   logs used in any of the agency’s event log categories, and for reporting and analysis.
+                       Tier   Rating            Description
+                       EL0    Not Effective     Logging requirements for Criticality 0 are either not met
+                                                or are only partially met
+                       EL1    Basic             Only logging requirements for Criticality 0 are met
+                       EL2    Intermediate      Logging requirements for Criticalities 1 & 2 are met
+                       EL3    Advanced          Logging requirements for all Criticalities are met
+
+       ELM-15      Agencies and suppliers shall implement EL3 logging maturity.
+       ELM-16      Agencies and suppliers shall assess the maturity of their event log management
+                   against the maturity model in this policy and identify resourcing and implementation
+                   gaps associated with completing each of the requirements within this document.
+       ELM-17      Agencies and suppliers shall employ the following event log categories for any event
+                   log communications including when managing event logs:
+                   •     Anti-Virus and Behavior-Based Malware Protection
+                   •     Application Level
+                   •     Authentication and Authorization
+                   •     COV Cloud Environments1
+                   •     Container
+                   •     Data Loss Prevention
+                   •     Database Level
+                   •     Email Filtering, Spam, and Phishing
+                   •     Identity & Credential Management
+                   •     Mainframes2
+                   •     Network Device Infrastructure
+                   •     Network Traffic
+                   •     Operating Systems
+                   •     PKI Infrastructure
+                   •     Smart Devices
+
+1
+  COV Cloud Environments means infrastructure stood up by COV within a cloud provider. ECOS (SaaS)
+applications fall under ECOS Oversight and the Vendors are contractually liable to perform continuous
+monitoring, with regular reviews meeting SEC-525, and provide monthly reporting through ECOS Oversight
+Services. ECOS vendor logs are available to COV upon request per contract.
+2
+  Mainframe logs stored in a binary format may require 3rd party software to be human readable
+
+                                                Page 5 of 39
+
+ETA Event Log Management                        Version 1.5                                      1/25/2024
+
+                    •   System Configuration and Performance
+                    •   Virtualization System
+                    •   Vulnerability Assessment
+        ELM-18      Agencies and suppliers shall share log information with other COV agencies to
+                    address cybersecurity risks, vulnerabilities, investigations, and incidents when
+                    directed by CSRM.
+        ELM-19      All agencies shall adhere to the published implementation schedule for the adoption
+                    of the requirements identified in this standard.
+
+Event Log 1 (EL1) Provisions
+Agencies and suppliers shall comply with the following requirements to meet the EL1 maturity level. EL1
+maturity is required to meet EL3 maturity.
+
+        ELM-20      Agencies and suppliers shall ensure that Required Logs categorized as Criticality
+                    Level 0 are retained in acceptable formats for specified timeframes, per technical
+                    details described in Appendix A.
+        ELM-21      Agencies and suppliers shall ensure, at a minimum, that each event log contains the
+                    following data, if applicable:
+                    •   Properly formatted and accurate timestamp (see ELM-19)
+                    •   Status code for the event type
+                    •   Device identifier (MAC address5 or other unique identifier) 3
+                    •   Session / Transaction ID
+                    •   Autonomous System Number
+                    •   Source IP (IPv4)
+                    •   Source IP (IPv6)
+                    •   Destination IP (IPv4)
+                    •   Destination IP (IPv6)
+                    •   Status Code
+                    •   Response Time
+                    •   Additional headers (i.e., HTTP headers)
+                    •   Where appropriate, the username and/or userID shall be included
+                    •   Where appropriate, the command executed shall be included
+                    •   Where possible, all data shall be formatted as key-value-pairs allowing for easy
+                        extraction
+                    •   Where possible, a unique event identifier shall be included for event correlation; a
+                        unique event identifier shall be defined per event type
+                        o Software developed by agencies or by contractors on behalf of agencies
+                            must log unique event identifiers for each event in accordance with these
+                            requirements
+        ELM-22      Agencies and suppliers shall employ consistent timestamp formats across all event
+                    logs are necessary for accurate and efficient event correlation and log analysis.
+                    Timestamps shall be applied consistently to logs from all computing devices, routers,
+                    switches, and servers. Agencies shall maintain log timestamps in a format that
+                    meets the following requirements, based on both ISO 7 8601 and RFC 3339: Date and
+                    Time on the Internet:
+
+3
+ Agencies and suppliers should configure all hosts to have MAC randomization turned off; where
+possible, this configuration shall be maintained automatically.
+
+                                                Page 6 of 39
+
+ETA Event Log Management                      Version 1.5                                     1/25/2024
+
+                 •   YYYY-MM-DDThh:mm:ss.mmmZ (Zulu time, UTC+0) and YYYY-MM-
+                     DDThh:mm:ss.mmm+04:00 (UTC+4)
+                     o     YYYY = four-digit year
+                     o     MM = two-digit month
+                     o     DD = two-digit day of the month
+                     o     T = a set character indicating the start of the time element
+                     o     hh = two digits of an hour (00 through 23)
+                     o     mm = two digits of a minute
+                     o     ss = two digits of a second
+                     o     mmm = three digits of a millisecond (000 through 999)
+                     o     +|-= time zone designator (Z or +hh:mm or -hh:mm), the + or – values
+                           indicate how far ahead or behind a time zone is from the UTC (Coordinated
+                           Universal Time) zone
+      ELM-23     Agencies and suppliers shall ensure that their event logs do not capture sensitive
+                 data, such as Protected Health Information (PHI), Personally Identifying Information
+                 (PII), or financial information such as payment cards or accounts.
+      ELM-24     Software developed by agencies or by contractors on behalf of agencies shall log
+                 timestamps for each event in accordance with the timestamp requirements. If the
+                 software does not produce data in this format, COV agencies and suppliers shall
+                 transform records to conform to these standards before the data is ingested into the
+                 SIEM or stored in bulk storage.
+      ELM-25     Agencies and suppliers shall use the GPS master station clock at QTS Richmond as a
+                 baseline reference for timestamps used for logs and systems producing logs:
+                 •   ntp1.cov.virginia.gov
+                 •   ntp2.cov.virginia.gov
+                 If GPS reference is not possible, agencies shall use the NIST Authenticated NTP
+                 Service.
+      ELM-26     Agencies and suppliers shall forward all required logging data, in near real-time and
+                 on an automated basis, to the COV SIEM.
+                 •   Data shall be encrypted in transit between its source and destination
+                 •   Agencies and suppliers shall ensure the original log can be replayed for future
+                     use per the retention period specified in Appendix A
+      ELM-27     Agencies shall protect and monitor the integrity of their logs and systems producing
+                 logs by:
+                 •   Verifying that event logging is enabled and active for system components.
+                     o     Traps shall be put in place to monitor these data streams for disruption
+                     o     These traps shall be monitored, and when triggered, the disruption shall be
+                           escalated and reported
+                 •   Ensuring that only individuals who have a job-related need can view, access, or
+                     modify log files.
+                 •   Documenting views and usage of log files and reviewing/auditing the resulting
+                     records every 30 days.
+                 •   Confirming that current log files are protected from unauthorized modifications
+                     via access control mechanisms, such as virtual or physical segregation.
+
+                                             Page 7 of 39
+
+ETA Event Log Management                       Version 1.5                                      1/25/2024
+
+                    •   Ensuring that current log files are backed up to an authorized source every 24
+                        hours, such as a centralized log server or write-once media. Using integrity-
+                        verification mechanisms to detect unauthorized changes to event logging
+                        configuration and log files that are no longer being written to or are considered
+                        closed.
+                    •   Conducting integrity checks every 30 days and upon access against the log
+                        hashes throughout their retention period.
+                    •   When logging stops unexpectedly, audit alerts shall be sent in near real-time to
+                        any parties responsible for monitoring. The responsible party shall investigate
+                        the cause of the disruption and take appropriate corrective actions and shall
+                        escalate and report disruptions.
+                    •   Monitoring across the enterprise for unexpected changes to files or configuration
+                        items, including changes to:
+                        o   Credentials
+                        o   Privileges and security settings
+                        o   Content
+                        o   Core attributes and size
+                        o   Hash values
+                        o   Configuration values
+        ELM-28      Traps for detecting data-stream disruption shall be monitored by the component-
+                    level SOC. The DNS logging system and accompanying analytics shall be monitored
+                    and triaged by the component-level SOC, who shall escalate and report disruptions.
+        ELM-29      Agencies and suppliers shall implement a Domain Name System (DNS) logging
+                    system that meet the requirements identified in Appendix A, including DNS requests
+                    made over encrypted DNS connections.
+                    •   Agencies and suppliers shall implement accompanying analytics that allow for
+                        rapid identification of the host that sourced each DNS query. This capability shall
+                        be monitored and triaged, and disruptions shall be escalated and reported.
+                    •   Agencies and suppliers shall automate the production of a list of hostnames that
+                        are frequently accessed or looked up by legitimate users within their agency but
+                        are not included in general top domain lists identified by CSRM or available
+                        publicly or via subscription.
+                    •   Agencies should make that list automatically accessible to CSRM or submit it to
+                        CSRM daily via a COV-accepted automated mechanism.
+        ELM-30      Agencies at EL1 stage shall start planning on how to best implement SOAR
+                    capabilities in their environment and develop automated hunt and incident response
+                    playbooks.
+        ELM-31      Agencies and suppliers at EL1 stage shall start planning on how to best implement a
+                    UBA capability in their environment, leveraging the logging requirements, in order
+                    identify potentially malicious or malicious activity.
+
+Event Log 2 (EL2) Provisions
+Agencies shall comply with the following requirements to meet the EL2 maturity level. EL2 maturity is
+required to meet EL3 maturity.
+
+        ELM-32      Agencies and suppliers shall meet all EL1 requirements.
+
+                                              Page 8 of 39
+
+ETA Event Log Management                        Version 1.5                                       1/25/2024
+
+        ELM-33      Agencies and suppliers shall retain Required Logs categorized as Criticality Level 1
+                    and 2 in acceptable formats for specified timeframes, per technical details described
+                    in Appendix A.
+        ELM-34      For all software developed by or on behalf of COV agencies that produces logs and is
+                    deployed in COV environments, agencies shall provide a document detailing the
+                    structure (schema) for those logs to CSRM.
+                    •   Agencies and suppliers shall refer to CSRM guidance when developing this
+                        documented schema (see Appendix B)
+                    •   Agencies shall also provide all updates to the schema to CSRM no later than one
+                        business day after finalization
+                    •   Schema and associated documentation shall be published to the Virginia Open
+                        Data Portal
+        ELM-35      Agencies and suppliers shall retain and store in cleartext form the data or metadata
+                    from Appendix A that is collected in their environment.
+                    •   If agencies or suppliers perform full traffic inspection through active proxies, they
+                        should log additional available fields as described in Appendix A and can work
+                        with CSRM to implement these capabilities.
+                    •   If agencies and suppliers do not perform full traffic inspection, they shall log the
+                        metadata available to them.
+                    •   In general, agencies and suppliers are expected to follow zero-trust principles
+                        concerning least privilege and reduced attack surface, and relevant guidance
+                        from CSRM relating to Zero-Trust Architecture.
+                    •   Data or metadata acquired shall be available to CSRM within one business day.
+        ELM-36      Required Logs categorized as Criticality Levels 0 and 1 shall be accessible and visible
+                    for the highest-level security operations by the head of each agency. Required Logs
+                    categorized as Criticality Levels 2 are retained, at a minimum, at the component level.
+                    •   Traps for detecting data-stream disruption should be monitored by the
+                        component-level and top-level enterprise SOCs, who shall escalate and report
+                        disruptions
+                    •   The DNS logging system and accompanying analytics shall be monitored and
+                        triaged by the component-level and top-level enterprise SOCs, who shall escalate
+                        and report disruptions
+                    •   The enterprise SOC shall ensure that cross-organizational analytics are
+                        established for use across agency components
+
+Event Log 3 (EL3) Provisions
+Agencies shall comply with the following requirements to meet the EL3 maturity level.
+
+        ELM-37      Agencies and suppliers shall meet all EL2 requirements.
+        ELM-38      Agencies and suppliers shall retain Required Logs categorized as Criticality Level 3 in
+                    acceptable formats for specified timeframes, per technical details described in
+                    Appendix A.
+        ELM-39      Agencies and suppliers shall finalize and implement automated hunt and incident
+                    response playbooks that include SOAR capabilities. Agencies shall also provide any
+                    updates to the playbooks and automation integrations to CSRM no later than one
+                    business day after they are finalized.
+
+                                               Page 9 of 39
+
+ETA Event Log Management                         Version 1.5                                       1/25/2024
+
+          ELM-40      Agencies and suppliers shall have real-time access to automated hunt and incident
+                      response playbooks, and to view incidents in progress.
+          ELM-41      Agencies and suppliers shall implement UBA in order to allow for early detection of
+                      malicious behavior. This shall monitor all user and non-user accounts. This capability
+                      shall be monitored and triaged by component-and top-level agency SOCs, who shall
+                      escalate and report disruptions. At a minimum, User Behavior Monitoring should be
+                      configured to detect and alert on:
+                      •   Compromised user credentials
+                      •   Privileged-user compromise
+                      •   Unauthorized Access to systems or data
+                      •   Compromised system/host/device
+                      •   Lateral movement of threat actor
+                      •   Deviations from behavior baseline
+          ELM-42      Agencies and suppliers shall have access to view and query user behavior analytics,
+                      both real-time and historical.
+          ELM-43      Agencies and suppliers shall integrate their container security and monitoring tools
+                      with the COV SIEM to ensure container-related events are captured by the enterprise.
+                      Alternatively, in cases where the uses and privileges of containers are appropriately
+                      constrained by the orchestration layer, agencies may rely on SIEM tools present at
+                      that layer. In general, COV agencies shall ensure that their threat hunt and incident
+                      response teams have appropriate tools and training to identify incidents within a
+                      containerized environment.4
+          ELM-44      Agencies and suppliers shall ensure that Required Logs across all Criticality levels
+                      shall be accessible to the highest-level security operations by the head of each
+                      agency.
+
+Compliance & Implementation
+Understanding that the initial implementation of this logging standard will require a specific level-of-effort
+for agencies and suppliers to meet compliance, the following outline for tiered implementation is
+described.
+          ELM-45      COV agencies and suppliers shall undertake and deliver the following
+                      •   Assess logging capabilities against the model and identify resourcing and
+                          implementation gaps associated with completing each of the requirements
+                      •   Create plans for achieving EL3 maturity for all applications
+                      •   Document logs by application
+                      •   Document application logging schemas
+                      •   Publish documentation to the Virginia Open Data Portal
+          ELM-46      Agencies and suppliers shall maintain event log documentation as new solutions are
+                      consumed, old ones discarded, and existing ones modified.
+          ELM-47      Agencies and suppliers shall incorporate their intentions for achieving EL3 maturity
+                      for each application into their Information Technology Strategic Plans (ITSPs).
+
+4
+    NIST SP 800-191, Application Container Security Guide
+
+                                                Page 10 of 39
+
+ETA Event Log Management                        Version 1.5                                      1/25/2024
+
+          ELM-48     All projects, procurements, and developed solutions initiated after the issuance of
+                     these requirements must meet EL3 maturity at the time of their implementation into
+                     the environment.
+
+Definitions
+As appropriate, terms and definitions used in this document are included in the COV ITRM IT Glossary.
+
+ Active storage                       Refers to data that is stored in a manner that facilitates frequent
+                                      use and ease of access.
+
+ Application monitoring dashboard     A system that provides information about the metrics, usage, and
+                                      performance of an application. Agencies should use a dashboard
+                                      suited to the version, type, and deployment method of each
+                                      application.
+
+ Attachment                           A file sent via email.
+
+ Behavior Monitoring                  The analysis of electronic usage patterns such as destinations,
+                                      frequency/periodicity of identified risk incidents, and/or volumes
+                                      exchanged, which indicate whether the behavior exceeds a
+                                      specified baseline and represents a threat.
+
+ Cold data storage                    Refers to the storage of data in a manner that minimizes costs
+                                      while still allowing some level of access and use.
+
+ Config                               A configuration file used by various applications. It contains plain-
+                                      text parameters that define settings or preferences for building or
+                                      running a program.
+
+ Criticality                          Each log category has an assigned criticality level based on its
+                                      relative cybersecurity value. This cybersecurity value relates to the
+                                      usefulness of the log data for threat detection, with the data of the
+                                      highest value assigned a criticality of zero, and the lowest a
+                                      criticality of 3.
+
+ Database Query                       A request to access data from a database. Capturing the query
+                                      allows for playback so that Hunt and IR teams can identify what
+                                      data was exfiltrated or inserted.
+
+ Database Record                      A set of database fields.
+
+ Enterprise Application               Applications that are owned by a COV service supplier or agency
+                                      that are provided for use to other agencies or service suppliers, or
+                                      which support shared business functions or processes.
+
+                                      Examples
+                                          •   Cardinal
+                                          •   eVA
+                                          •   Archer
+                                          •   ServiceNow
+ Enterprise Mobility Management       A set of technology, processes, and policies to secure and
+ (EMM)                                manage the use of corporate and employee-owned mobile devices
+                                      within an organization.
+
+                                              Page 11 of 39
+
+ETA Event Log Management                     Version 1.5                                        1/25/2024
+
+ Event Log Forwarding              A service that allows network administrators to forward events
+                                   from multiple servers and collect them in one location.
+
+ File                              A resource for recording data in a storage device.
+
+ International Mobile Equipment    A number, usually unique, to identify 3GPP and iDEN mobile
+ Identity (IMEI)                   phones, as well as some satellite phones. It is usually found
+                                   printed inside the battery compartment of the phone but can also
+                                   be displayed on-screen on most phones by entering *#06# MMI
+                                   Supplementary Service code on the dialpad, or alongside other
+                                   system information in the settings menu on smartphone operating
+                                   systems.
+
+ International Mobile Subscriber   A number that uniquely identifies every user of a cellular network.
+ Identity (IMSI)                   It is stored as a 64-bit field and is sent by the mobile device to the
+                                   network. It is also used for acquiring other details of the mobile in
+                                   the home location register (HLR) or as locally copied in the visitor
+                                   location register.
+
+ Log                               A file that contains data about an event that occurred in an
+                                   application or operating system.
+
+ Log Category                      A classification of available event logs.
+
+ Mobile Device Management          Software that allows IT administrators to control, secure and
+ (MDM)                             enforce policies on smart devices.
+
+ Mobile Threat Defense (MTD)       Dynamic protection against cyber threats targeted against smart
+                                   devices.
+
+ Near Real-Time (NRT)              Refers to the time delay introduced by automated data processing
+                                   or network transmission between the occurrence of an event and
+                                   the use of the processed data, such as for display or feedback and
+                                   control purposes. Also known as Nearly Real-Time.
+
+ Packet Capture (PCAP)             Results from the interception and copying of a data packet that is
+                                   crossing or moving over a specific computer network.
+
+ Required Log                      An event log containing data considered essential to the analysis
+                                   and resolution of a cybersecurity incident, sourced from one of the
+                                   following log types:
+                                       •   Perimeter device logs
+                                       •   Operating system event logs
+                                       •   Endpoint logs
+                                       •   Application logs
+                                       •   Proxy logs
+                                       •   IoT logs
+
+ Security, Orchestration,          A stack of capabilities that enable an organization to collect data
+ Automation, and Response          about security threats and respond to security events without
+ (SOAR)                            human assistance. The goal of using a SOAR platform is to
+                                   improve the efficiency of physical and digital security operations
+                                   through security orchestration, security automation, and security
+
+                                           Page 12 of 39
+
+ETA Event Log Management                     Version 1.5                                        1/25/2024
+
+                                    response. Security orchestration connects and integrates with
+                                    monitoring tools in the environment, such as vulnerability
+                                    scanners, endpoint protection products, end-user behavior
+                                    analytics, firewalls, intrusion detection and intrusion prevention
+                                    systems (IDSes/IPSes), and external threat intelligence feeds.
+                                    Security automation consumes the data from the orchestrated
+                                    systems to automatically conduct vulnerability scanning and log
+                                    analysis. Security response is a set of actions that are carried out
+                                    once a threat is detected based on an incident playbook.
+
+ Script                             A configuration file that lets users run or execute certain actions.
+
+ Security Information & Event       A software solution that aggregates and analyzes activity from
+ Management (SIEM)                  disparate data sources from across an IT infrastructure. It
+                                    provides real-time analysis of security alerts generated by
+                                    applications and network hardware.
+
+ Simple Network Management          Exposes network data in the form of variables on the managed
+ Protocol (SNMP)                    systems organized in a management information base (MIB),
+                                    which describe the system status and configuration. These
+                                    variables can then be remotely queried by managing applications.
+
+ Smart device                       An electronic device capable of connecting to a network, or to
+                                    other devices, via wireless communication protocols such as
+                                    Bluetooth, Wi-Fi, 4G, or 5G, and which can operate interactively and
+                                    autonomously to some extent. It includes devices that exhibit
+                                    some properties of ubiquitous computing, such as artificial
+                                    intelligence.
+
+ Security Operations Center (SOC)   A centralized function within an organization employing people,
+                                    processes, and technology to continuously monitor and improve
+                                    an organization's security posture while preventing, detecting,
+                                    analyzing, and responding to cybersecurity incidents.
+
+ User Behavior Analytics (UBA)      A cybersecurity process about detection of insider threats,
+                                    targeted attacks, and financial fraud that tracks a system's users.
+                                    UBA looks at patterns of human behavior, and then analyzes them
+                                    to detect anomalies that indicate potential threats.
+
+ Unified Endpoint Management        A class of software tools that provide a single management
+ (UEM)                              interface for mobile, PC and other devices. It is an evolution of,
+                                    and replacement for, mobile device management (MDM) and
+                                    enterprise mobility management (EMM) and client management
+                                    tools.
+
+ Zero Trust Architecture            A security framework requiring all users, whether in or outside the
+                                    organization’s network, to be authenticated, authorized, and
+                                    continuously validated for security configuration and posture
+                                    before being granted or keeping access to applications and data.
+                                    Zero Trust assumes that there is no traditional network edge;
+                                    networks can be local, in the cloud, or a combination or hybrid with
+                                    resources anywhere as well as workers in any location.
+
+                                            Page 13 of 39
+
+ETA Event Log Management                   Version 1.5                                   1/25/2024
+
+References
+   •   Executive Order 14028, Improving the Nation's Cybersecurity
+   •   M-21-31 Improving the Federal Government’s Investigative and Remediation Capabilities
+       Related to Cybersecurity Incidents
+
+                                          Page 14 of 39
+
+Appendix A – Log Category Definitions
+The set of event logs of interest to COV are separated into log categories that distinguish the different types, which are further characterized by Criticality. They are
+ranked in order of usefulness, where the most useful data is assigned a criticality of zero, and the least a criticality of 3.
+
+ Criticality 0
+ Log Category            Category Target        Required Data                                                          Format                    Retention Period
+
+ COV Cloud               General Events         Nearly all successful attacks on cloud services result from            • Log                    • 12 Months Active
+ Environments                                   customer misconfigurations. With that in mind, the logging and                                    Storage
+                                                monitoring focus should be on:                                                                  • 18 Months Cold
+                                                • Any Activity on Breakglass Account(s)                                                           Data Storage
+                                                • Conditional Access Policy Changes
+                                                • Changes to Environment Policies (e.g., Azure Subscription,
+                                                    AWS Services, Google Solutions, etc.) in Management Logs
+                                                • Privileged Role Changes
+                                                • Virtual Network (VNet) Changes
+                                                • Deletions of Delete Locks
+                                                • Changes to Logging Policies
+                                                • Privileged Identity Management (PIM) and Identity Protection
+                                                    Changes
+                                                • Changes to Alert Rules (Audit the Auditor)
+                                                • Key Vault/Key Management Changes
+                                                • Storage File Access Logs, File, File Hashes
+                                                • Baseline Deviations for Prod App Tiers
+                                                • Baseline Deviations for Prod Data Tiers
+ COV Cloud               General Logging        • IDS / IPS / NTA / NDR / SIEM Logs                                    • Log                    • 12 Months Active
+ Environments                                   • API Activity Logs                                                                               Storage
+                                                • Authentication Logs                                                                           • 18 Months Cold
+                                                • Firewall Logs                                                                                   Data Storage
+                                                • Web Proxy/WAF Logs                                                                            • 72 Hours Packet
+                                                • Service Metrics                                                                                 Capture
+                                                • Billing Data
+                                                • Flow Logs
+                                                • Remote Access/VPN Logs
+                                                • System/OS Logs
+                                                • DLP Logs
+                                                • DNS Query/Response Logs
+
+                                                                             Page 15 of 39
+
+ETA Event Log Management                                          Version 1.5        1/25/2024
+
+ Log Category       Category Target   Required Data                                                   Format   Retention Period
+
+ COV Cloud          AWS               •   AWS Cloudtrail                                              • Log    • 12 Months Active
+ Environments                         •   Amazon Cloudwatch Logs                                                 Storage
+                                      •   AWS Config                                                           • 18 Months Cold
+                                      •   Amazon S3 Access Logs                                                  Data Storage
+                                      •   Amazon VPC Flow Logs
+                                      •   AWS WAF Logs
+                                      •   AWS Shield
+                                      •   AWS Guardduty
+                                      •   AWS Security Hub
+ COV Cloud          Azure             •   Azure Active Directory Logs                                 • Log    • 12 Months Active
+ Environments                         •   Activity Logs                                                          Storage
+                                      •   Active                                                               • 18 Months Cold
+                                      •   Unified Audit Logs (w/Advanced Audit Features)                         Data Storage
+ COV Cloud          GCP               •   Access Transparency Audit Log                               • Log    • 6 Months Active
+ Environments                         •   Admin Audit Log                                                        Storage
+                                      •   Data Studio Audit Log                                                • 18 Months Cold
+                                      •   Drive Audit Log                                                        Data Storage
+                                      •   Email Audit Log
+                                      •   Groups Audit Log
+                                      •   LDAP Audit Log
+                                      •   Login Audit Log
+                                      •   Devices Audit Log
+                                      •   Sail Audit Log
+                                      •   Token Audit Log
+                                      •   User Accounts Audit Log
+                                      •   OAuth Token Audit Log
+                                      •   Security Reports
+                                      •   sage Logs
+                                      •   Storage Logs
+                                      •   Data Access Logs
+
+                                      For Organizational and Default Configuration Settings Enable:
+                                      • Admin Read
+                                      • Data Read
+                                      • Data Write
+ COV Cloud          OCI               • Audit logs                                                    • Log    • 6 Months Active
+ Environments                         • Service logs                                                             Storage
+
+                                                                 Page 16 of 39
+
+ETA Event Log Management                                                   Version 1.5         1/25/2024
+
+ Log Category            Category Target       Required Data                                                 Format     Retention Period
+                                               •   Custom logs                                                          • 18 Months Cold
+                                                                                                                          Data Storage
+ Email Filtering,        NA                    •   IP and Domain Reputation (As Indicated by Mail Server     • Log      • 12 Months Active
+ Spam, and Phishing                                Connection)                                                            Storage
+                                                                                                                        • 18 Months Cold
+                                                                                                                          Data Storage
+ Identity & Credential   NA                    •   Account Creation                                          • Log      • 12 Months Active
+ Management                                    •   Manage Credential Type                                    • Script     Storage
+                                                   o (PIV or CAC) and Derived Credentials                               • 18 Months Cold
+                                                   o Cert                                                                 Data Storage
+                                                   o MFA
+                                                   o Password
+                                               •   Establish/Manage Attributes
+                                                   o Organization
+                                                   o Groups/Roles
+                                               •   Manage/Track Changes in Attributes & Credentials
+                                               •   Track Usage of Credentials
+                                               •   Account Deletion
+ Identity & Credential   Privileged Identity   •   Provisioning                                              • Log      • 12 Months Active
+ Management                                    •   Manage Credential Type                                    • Script     Storage
+                                                   o (PIV or CAC) and Derived Credentials                               • 18 Months Cold
+                                                   o Cert                                                                 Data Storage
+                                                   o MFA
+                                                   o Password
+                                               •   Establish/Manage Attributes
+                                                   o Organization
+                                                   o Groups/Roles
+                                               •   Manage/Track Changes in Attributes & Credentials
+                                               •   Track Usage of Credentials
+                                               •   Deprovisioning
+                                               •   Establish and Manage Privileges (Privilege Credentials)
+                                               •   Isolate, Monitor, Record, Audit Privilege Sessions
+                                               •   Control Privileged Actions
+                                                   o Commands
+                                                   o Tasks
+                                               •   Track Privilege Escalation and Delegation
+                                               •   Monitor, Alert and Respond to Anomalous
+                                                   Behaviors/Activities
+                                                                          Page 17 of 39
+
+ETA Event Log Management                                               Version 1.5       1/25/2024
+
+ Log Category       Category Target        Required Data                                                   Format              Retention Period
+
+ Network Device     For Devices with       DHCP Lease Information, Including:                              • Log               • 12 Months Active
+ Infrastructure     Multiple Interfaces:   • MAC                                                                                 Storage
+                    Interface MAC -If      • IP                                                                                • 18 Months Cold
+                    Correlated to the                                                                                            Data Storage
+                    De-NAT IP Address
+
+ Network Device     DNS -Source IP and     •   Content of Query, Response, and Errors – All Record Types   • Log               • 12 Months Active
+ Infrastructure     Port, Destination IP   •   Zone Transfers Request and Response (Audit Log)                                   Storage
+                    and Port Date and      •   Zone Transfers Request and Response (Content)                                   • 18 Months Cold
+                    Time                                                                                                         Data Storage
+
+ Network Device     Passive DNS Log        •   Tuple (Rrname, Rrtype, Rdata)                               • Log               • 12 Months Active
+ Infrastructure                            •   Time_First                                                  • Database Record     Storage
+                                           •   Time_Last                                                                       • 18 Months Cold
+                                           •   Count                                                                             Data Storage
+                                           •   Bailiwick
+                                           •   Sensor_Id
+                                           •   Zone_Time_First
+                                           •   Zone_Time_Last
+                                           •   Time_First_Ms
+                                           •   Time_Last_Ms
+                                           •   Origin
+                                           •   Count of Questions Asked by Source IP
+                                           •   Count of Questions Asked Overall
+                                           •   Count of Responses by Source IP
+                                           •   Query Size in Bytes
+                                           •   Response Size in Bytes
+                                           •   TTL per Record Returned
+                                           •   Request Was Made Via UDP, TCP or Both
+                                           •   Response Was Made Via UDP, TCP or Both
+                                           •   Passive DNS Source (Used to Identify Which Passive DNS
+                                               Source Data Came From)
+
+                                                                     Page 18 of 39
+
+ETA Event Log Management                                               Version 1.5         1/25/2024
+
+ Log Category       Category Target        Required Data                                                      Format              Retention Period
+
+ Network Device     DNS, DHCP, and Wi-     •   Wi-Fi Supporting Infrastructure Logs Including Security Logs   • Log               • 12 Months Active
+ Infrastructure     Fi                         at Info Level                                                  • SNMP                Storage
+                                           •   Device Authentication Logs with User Agent                                         • 18 Months Cold
+                                           •   URL Browsing Logs + HTTP Methods (e.g., Post, Get, etc.)                             Data Storage
+                                           •   User Authentication Logs
+                                           •   DHCP Lease Information Including MAC, IP
+                                           •   Roaming Logs
+                                           •   Timestamps
+ Network Device     DNS, DHCP, and Wi-     •   Static Network Address Translation Table Mapping as Well       • Log               • 12 Months Active
+ Infrastructure     Fi                         as Port Forwards                                               • Database Record     Storage
+                                               o Date and Time                                                • Script            • 18 Months Cold
+                                               o Protocol                                                     • File                Data Storage
+                                               o Port                                                         • Config
+                                               o Inside Local and Global IP and Port                          • SNMP
+                                           •   Outside Local and Global IP and Port
+ Network Device     General Logging        •   IDS / IPS / NTA / NDR / SIEM Logs                              • Log               • 12 Months Active
+ Infrastructure                            •   API Activity Logs                                              • File                Storage
+                                           •   Authentication Logs                                            • Packet Capture    • 18 Months Cold
+                                           •   Firewall Logs • Web Proxy/WAF Logs                                                   Data Storage
+                                           •   Service Metrics                                                                    • 72 Hours Packet
+                                           •   Network Flow Logs                                                                    Capture
+                                           •   Remote Access/VPN Logs • System/OS Logs
+                                           •   DLP Logs
+                                           •   DNS Query/Response Logs
+ Network Device     Routers and            •   Routing Tables                                                 • Script            • 12 Months Active
+ Infrastructure     Switches               •   Routing Changes (Logging All CLI Commands, BGP)                • File                Storage
+                    (For Devices with      •   IP Addressing Schema and Implementation                        • Config            • 18 Months Cold
+                    Multiple Interfaces:                                                                                            Data Storage
+                    Interface MAC -If
+                    Correlated to the
+                    De-NAT IP Address)
+
+ Network Device     Load Balancer /        Access Logs                                                        • Script            • 12 Months Active
+ Infrastructure     Reverse Proxy          • Connection Type                                                  • File                Storage
+                                           • Date and Time                                                    • Config            • 18 Months Cold
+                                           • Resource ID of the Load Balancer                                                       Data Storage
+                                           • Client IP:Port
+                                           • Target IP:Port
+
+                                                                      Page 19 of 39
+
+ETA Event Log Management                                              Version 1.5       1/25/2024
+
+ Log Category       Category Target        Required Data                                                  Format   Retention Period
+                                           •   Request Processing Time
+                                           •   Target Processing Time
+                                           •   Response Processing Time
+                                           •   Status Code from Load Balancer
+                                           •   Target Status Code
+                                           •   Received Bytes
+                                           •   Bytes Sent
+                                           •   Request
+                                           •   User Agent
+                                           •   SSL Cipher
+                                           •   SSL Protocol
+                                           •   SNI Domain
+                                           •   Matched Rule Priority
+                                           •   Actions Executed
+                                           •   Redirect URL
+                                           •   Error Reason
+                                           •   Target IP:Port List
+                                           •   Target Status Code List
+                                           •   Classification Reason Request Does Not Comply with RFC
+                                               7230
+                                           • Other Implementation Specific Fields
+ Network Device     Proxies and Web        Provides NAT, User, and Gateway IP Address to Provide          • Log    • 12 Months Active
+ Infrastructure     Content Filters        Enhanced Reporting of Malicious Domains and IP Addresses. In              Storage
+                    (For Devices with      the Case of Web, W3c Format.                                            • 18 Months Cold
+                    Multiple Interfaces:   • Date and Time                                                           Data Storage
+                    Interface MAC -If      • Source
+                    Correlated to the          o Hostname
+                    De-NAT IP Address)         o IP Address and Port
+                                               o MAC
+                                           • Destination
+                                               o Hostname
+                                               o IP Address and Port
+                                               o MAC
+                                           • Web URL Methods / User Agent / Decoded Headers
+                                           • URL Categories
+                                           • URL
+                                           • Permitted, Restricted, Denied
+
+                                                                    Page 20 of 39
+
+ETA Event Log Management                                              Version 1.5         1/25/2024
+
+ Log Category       Category Target      Required Data                                                         Format   Retention Period
+
+ Network Device     Proxies and Web      •   Policy Updates                                                    • Log    • 12 Months Active
+ Infrastructure     Content Filters      •   Software Updates                                                             Storage
+                                                                                                                        • 18 Months Cold
+                                                                                                                          Data Storage
+ Network Device     Access, Authoriza-   •   General Information                                               • Log    • 12 Months Active
+ Infrastructure     tion, and                o Date and Time                                                              Storage
+                    Accounting               o Event, Status, or Error Codes                                            • 18 Months Cold
+                                             o Service/Command/Application Name                                           Data Storage
+                                             o User or System Account Associated with an Event
+                                             o Device Used (e.g., Source and Destination IPs, Terminal
+                                                 Session ID, Web Browser, etc.)
+                                         •   Operating System (OS) Events
+                                             o Start-Up and Shutdown of the System
+                                             o Start-Up and Shutdown of a Service
+                                             o Network Connection Changes or Failures
+                                             o Changes to, or Attempts to Change, System Security
+                                                 Settings and Controls
+                                         •   OS Audit Records
+                                             o Log-On Attempts (Success/Failure)
+                                             o The Function(s) Performed after Logging On (e.g.,
+                                                 Reading or Updating a Critical File, Software Installation)
+                                             o Account Changes (e.g., Account Creation and Deletion,
+                                                 Account Privilege Assignment) • Successful/Failed Use
+                                                 of Privileged Accounts
+                                         •   Application Account Information
+                                         •   Application Authentication Attempts (Success/Failure)
+                                         •   Application Account Changes (e.g., Account Creation and
+                                             Deletion, Account Privilege Assignment)
+                                         •   Use of Application Privileges
+                                         •   Application Operations
+                                             o Application Startup and Shutdown
+                                             o Application Failures
+                                             o Major Application Configuration Changes
+                                             o Application Transactions, For Example,
+                                                 ▪ Email Servers Recording the Sender, Recipients,
+                                                     Subject Name, and Attachment Names for Each
+                                                     Email
+                                                 ▪ Web Servers Recording Each URL Requested and the
+                                                     Type of Response Provided by the Server
+                                                                     Page 21 of 39
+
+ETA Event Log Management                                               Version 1.5        1/25/2024
+
+ Log Category        Category Target      Required Data                                                     Format   Retention Period
+                                          •   Business Applications Recording Which Financial Records
+                                              Were Accessed by Each User
+ Operating Systems   Windows              •   User and Administrator Access to OS Components and            • Log    • 12 Months Active
+                     Infrastructure and       Applications                                                             Storage
+                     Operating Systems        o File and Object Access                                               • 18 Months Cold
+                                              o Audit Log Access (Success/Failure)                                     Data Storage
+                                              o System Access and Log Off (Success/Failure)
+                                              o Privilege Access and Log Off (Success/Failure)
+                                              o RDP Access and Log Off (Success/Failure)
+                                              o SMB Access
+                                              o Installation or Removal of Storage Volumes or
+                                                   Removeable Media
+                                          •   System Performance and Operational Characteristics
+                                              o Resource Utilization, Process Status
+                                              o System Events
+                                              o Service Status Changes (Start, Stop, Fail, Restart, etc.)
+                                              o Service Failures and Restarts
+                                              o Process Creation and Termination
+                                          •   System Configuration
+                                              o Changes to Security Configuration (Success/Failure)
+                                              o Audit Log Cleared
+                                              o Changes to Accounts
+                                              o User or Group Management Changes
+                                              o Scheduled Task Changes
+                                          •   File Access
+                                              o Transfer of Data to External Media or Remote Hosts
+                                          •   Host Network Communications
+                                              o Listening Network Port and IP Address
+                                              o Active Network Communication with Other Hosts
+                                          •   Powershell Execution Commands
+                                          •   WMI Events
+                                          •   Registry Access
+                                          •   Command-Line Interface (CLI)
+                                          •   Basic Input Output System (BIOS), Unified Extensible
+                                              Firmware Interface (UEFI), and Other Firmware
+                                              o Version
+                                              o Created Date
+                                              o Installed Date
+                                          •   Manufacturer
+                                                                     Page 22 of 39
+
+ETA Event Log Management                                              Version 1.5        1/25/2024
+
+ Log Category        Category Target     Required Data                                                     Format   Retention Period
+
+ Operating Systems   MACOS (Or Other     •   User and Administrator Access to OS Components and            • Log    • 12 Months Active
+                     Apple Desktop and       Applications                                                             Storage
+                     Server Operating        o File and Object Access                                               • 18 Months Cold
+                     Systems)                o Audit Log Access (Success/Failure)                                     Data Storage
+                                             o System Access and Log Off (Success/Failure)
+                                             o Privilege Access and Log Off (Success/Failure)
+                                             o Remote Terminal or Equivalent Access and Log Off
+                                                  (Success/Failure)
+                                             o Samba/NFS/(S)FTP or Equivalent Access
+                                             o Installation or Removal of Applications
+                                             o Installation or Removal of Storage Volumes or
+                                                  Removeable Media
+                                         •   System Performance and Operational Characteristics
+                                             o Resource Utilization, Process Status
+                                             o System Events
+                                             o Service Status Changes (Start, Stop, Fail, Restart, etc.)
+                                             o Service Failures and Restarts
+                                             o Process Creation and Termination
+                                         •   System Configuration
+                                             o Changes to Security Configuration (Success/Failure)
+                                             o Audit Log Cleared
+                                             o Changes to Accounts
+                                             o User or Group Management Changes
+                                             o Scheduled Task Changes
+                                         •   File Access
+                                             o Transfer of Data to External Media or Remote Hosts
+                                         •   Host Network Communications
+                                             o Listening Network Port and IP Address
+                                             o Active Network Communication with Other Hosts
+                                         •   Command-Line Interface (CLI)
+                                             o System Log Folder: /Var/Log/*
+                                             o System Log: /Var/Log/System.Log
+                                             o Mac Analytics Data: /Var/Log/Diagnosticmessages/*
+                                             o Wi-Fi Log: /Var/Log/Wifi.Log
+                                             o System Application Logs: /Library/Logs/* and
+                                                  /Private/Var/Log/*
+                                             o System Reports: /Library/Logs/Diagnosticreports/ *
+                                             o User Application Logs: /Users/Name/Library/Logs/*
+
+                                                                    Page 23 of 39
+
+ETA Event Log Management                                           Version 1.5         1/25/2024
+
+ Log Category        Category Target   Required Data                                                     Format   Retention Period
+                                           o    User Reports: /Users/Name/Library/Logs/Diag
+                                                nosticreports/*
+                                           o Audit Log: /Var/Audit/*
+                                       •   Basic Input Output System (BIOS), Unified Extensible
+                                           Firmware Interface (UEFI), and Other Firmware
+                                           o Version
+                                           o Created Date
+                                           o Installed Date
+                                       •   Manufacturer
+ Operating Systems   BSD (Linux)       •   User and Administrator Access to OS Components and            • Log    • 12 Months Active
+                                           Applications                                                             Storage
+                                           o File and Object Access                                               • 18 Months Cold
+                                           o Audit Log Access (Success/Failure)                                     Data Storage
+                                           o System Access and Log Off (Success/Failure)
+                                           o Privilege Access and Log Off (Success/Failure)
+                                           o Remote Terminal or Equivalent Access and Log Off
+                                                (Success/Failure)
+                                           o Samba/NFS/(S)FTP or Equivalent Access
+                                           o Installation or Removal of Storage Volumes or
+                                                Removeable Media
+                                       •   System Performance and Operational Characteristics
+                                           o Resource Utilization, Process Status
+                                           o System Events
+                                           o Service Status Changes (Start, Stop, Fail, Restart, Etc.)
+                                           o Service Failures and Restarts
+                                           o Process Creation and Termination
+                                       •   System Configuration
+                                           o Changes to Security Configuration (Success/Failure)
+                                           o Audit Log Cleared
+                                           o Changes to Accounts
+                                           o User or Group Management Changes
+                                           o Scheduled Task Changes
+                                       •   File Access
+                                           o Transfer of Data to External Media or Remote Hosts
+                                       •   Host Network Communications
+                                           o Listening Network Port and IP Address
+                                           o Active Network Communication with Other Hosts
+                                       •   Command-Line Interface (CLI)
+                                       •   Security Enhanced Linux (SELinux) AppArmor or Equivalent
+                                                                   Page 24 of 39
+
+ETA Event Log Management                                            Version 1.5        1/25/2024
+
+ Log Category         Category Target   Required Data                                              Format            Retention Period
+                                            o Warning Logs
+                                            o Violation Logs
+                                        •   System
+                                            o /Var/Log/Messages
+                                            o /Var/Log/Dmesg
+                                            o /Var/Log/Syslog
+                                            o /Var/Log/Daemon.Log
+                                            o /Var/Log/Cron
+                                            o /Var/Log/Kern.Log
+                                            o /Var/Log/Boot.Log
+                                        •   Access And Authentication
+                                            o /Var/Log/Auth.Log
+                                            o /Var/Log/Secure
+                                            o /Var/Log/Faillog
+                                            o /Var/Log/Btmp
+                                            o /Var/Log/Wtmp or /Var/Log/Utmp
+                                        •   Applications
+                                            o /Var/Log/Mail.Log or /Var/Log/Maillog
+                                            o /Var/Log/Xorg.X.Log
+                                        •   Package Install/Uninstall
+                                            o /Var/Log/Dpkg.Log
+                                            o /Var/Log/Yum.Log
+                                        •   Basic Input Output System (BIOS), Unified Extensible
+                                            Firmware Interface (UEFI), and Other Firmware
+                                            o Version
+                                            o Created Date
+                                            o Installed Date
+                                        •   Manufacturer
+
+ Criticality 1
+ Log Category         Category Target   Required Data                                              Format            Retention Period
+
+ Anti-Virus and       NA                •   Date and Time                                          •   Log           •   12 Months Active
+ Behavior-Based                             Source Hostname                                        •   Email             Storage
+ Malware Protection                         o IP                                                       Attachments   •   18 Months Cold
+                                            o Port                                                                       Data Storage
+                                        •   Destination Hostname
+                                            o IP
+                                                                   Page 25 of 39
+
+ETA Event Log Management                                                      Version 1.5         1/25/2024
+
+    Log Category         Category Target        Required Data                                                          Format                   Retention Period
+                                                    o Port
+                                                •   Description of Malicious Code or Action and Severity
+                                                •   Identity or (Hash) Identifier of the File(s)
+                                                •   Description of the Action Taken (Clean, Quarantine, Delete)
+                                                •   Signature Updates
+    Anti-Virus and       Indication of the      •   Date and Time                                                      Log                      •   12 Months Active
+    Behavior-Based       Host that              •   IP and Domain Reputation                                                                        Storage
+    Malware Protection   Connected to a         •   URL                                                                                         •   18 Months Cold
+                         Specific URL           •   Categorization                                                                                  Data Storage
+
+    Application Level    Web Applications       •   URL                                                               •    Log                  •   12 Months Active
+                                                •   Headers                                                           •    Log and PCAP of          Storage
+                                                •   HTTP Methods -Request with Body of Data5                               Plaintext HTTP       •   18 Months Cold
+                                                •   HTTP Response with Body of Data                                        Request and              Data Storage
+                                                                                                                           Response with
+                                                                                                                           Data
+    Application Level    Web Application        •   Database queries                                                   Log                      •   12 Months Active
+                                                •   Response codes                                                                                  Storage
+                                                                                                                                                •   18 Months Cold
+                                                                                                                                                    Data Storage
+    Application Level    Web Application        •   Processes                                                          Log                      •   12 Months Active
+                         Crashes                •   Applications                                                                                    Storage
+                                                                                                                                                •   18 Months Cold
+                                                                                                                                                    Data Storage
+    Application Level    Web Applications &     •   Configuration                                                      Log                      •   12 Months Active
+                         Middleware             •   Version                                                                                         Storage
+                                                                                                                                                •   18 Months Cold
+                                                                                                                                                    Data Storage
+    Authentication and   Administrative         •   Authentication Logons (Success/Failure)                            Log                      •   12 Months Active
+    Authorization                               •   Authentication Logoffs                                                                          Storage
+                                                •   Privilege Elevation (Success/Failure)                                                       •   18 Months Cold
+                                                •   Security Related System Alerts and Failures                                                     Data Storage
+                                                •   User and Group
+                                                    o Additions
+                                                    o Deletions
+
+5
+ Agencies shall evaluate this data to ensure proper protections are in place to encrypt the data at rest and in transit. Agencies shall also ensure that their tools are
+accredited to handle sensitive data and proper oversight controls are implemented to look for signs of inappropriate data usage
+                                                                           Page 26 of 39
+
+ETA Event Log Management                                          Version 1.5       1/25/2024
+
+ Log Category         Category Target   Required Data                                                 Format                Retention Period
+                                             o Modification to Permissions
+                                        • Unauthorized Access Attempts to Critical Systems and File
+ Authentication and   Authorization     All Privileged Operations Including:                           Log                  •   12 Months Active
+ Authorization                          • “sudo” or runas                                                                       Storage
+                                        • Enabling CLI Access                                                               •   18 Months Cold
+                                        • System Administrative Commands                                                        Data Storage
+                                        • Powershell Execution Commands
+                                        • Powershell Script Block Logging
+ Container            Supply Chain      • Log Container Image Sources                                  • Script             •   12 Months Active
+                                        • Log Changes / Deltas Between Image Source Versions           • Manual log entry       Storage
+                                        • Log Vulnerability Scan of Container Images, even if No                            •   18 Months Cold
+                                             Vulnerabilities Are Discovered                                                     Data Storage
+                                        • Log Where Containers Are Deployed and Which System They
+                                             Support
+ Database Level       NA                • Addition of New Users, Especially Privileged Users           • Log                •   12 Months Active
+                                        • Query Being Executed                                         • Database Query         Storage
+                                        • Query, Status (Response), and Traceback                                           •   18 Months Cold
+                                             o Method                                                                           Data Storage
+                                             o Comments or Variables
+                                             o Multiple Embedded Queries
+                                             o Database Alerts or Failures
+                                             o Time to Execute Query
+                                        • Attempts to Elevate Privileges (Success/Failure)
+                                        • Changes to the Database Structure
+                                        • Changes to User Roles or Database Permissions
+                                        • Database Administrator Actions
+                                        • Database Logons (Success/Failure)
+                                        • Failed Logons
+                                        • Use of Executable Commands
+                                        • CLI Commands against the Data Base
+                                        • Database Configuration and Version
+                                        • Access to Sensitive Information within the Databases such as
+                                             Keys, Passwords, Privacy Related Data
+ Email Filtering,     NA                • Content Filtering Policy Updates                             • Log                •   12 Months Active
+ Spam, and Phishing                                                                                                             Storage
+                                                                                                                            •   18 Months Cold
+                                                                                                                                Data Storage
+
+                                                                 Page 27 of 39
+
+ETA Event Log Management                                                 Version 1.5         1/25/2024
+
+ Log Category       Category Target        Required Data                                                        Format       Retention Period
+
+ Network Device     All Devices            •   Hash of the Binary / Binaries Running on the Device              •   Log      •   12 Months Active
+ Infrastructure                            •   Hash of Configs                                                                   Storage
+                                           •   Firmware                                                                      •   18 Months Cold
+                                               o Version                                                                         Data Storage
+                                               o Created Date
+                                               o Installed Date
+                                           •   Manufacturer
+ Network Device     All Devices: IDs /     •   Date and Time                                                    •   Log      •   12 Months Active
+ Infrastructure     IPs Alerts and         •   Source                                                                            Storage
+                    Events                     o Hostname                                                                    •   18 Months Cold
+                    (For Devices with          o IP Address and Port                                                             Data Storage
+                    Multiple Interfaces:       o MAC
+                    Interface MAC -if      •   Destination
+                    Correlated to the          o Hostname
+                    De-NAT IP Address)         o IP Address and Port
+                                               o MAC
+                                           •   Signature Triggered and Associated Details Including:
+                                               o Signature
+                                               o Anomaly
+                                           •   Rate Threshold
+                                           •   Device Name
+                                           •   Type of Event and Category
+                                           •   In the Case of Fortinet Network IPs, Attack Context
+                                           •   (Web / Device) User Agent if Available
+                                           •   Wi-Fi Channel
+                                           •   Wi-Fi Extended Service Set Identifier (ESSID)
+ Network Device     Firewalls              •   All Events from Firewall. At the very least, if access control   •   Script   •   12 Months Active
+ Infrastructure     ( For Devices with         lists (ACL) are enabled and the device is filtering traffic:     •   File         Storage
+                    Multiple Interfaces:       o Action Permit, Teardowns, Closes, Denies, and Drops                         •   18 Months Cold
+                    Interface MAC -If          o Interface                                                                       Data Storage
+                    Correlated to the      •   Source
+                    De-NAT IP Address)         o Hostname
+                                               o IP Address and Port
+                                               o MAC
+                                           •   Destination
+                                               o Hostname
+                                               o IP Address and Port
+                                               o MAC
+
+                                                                        Page 28 of 39
+
+ETA Event Log Management                                                Version 1.5       1/25/2024
+
+ Log Category         Category Target        Required Data                                                    Format    Retention Period
+                                                  o Protocol Type
+                                                  o Rule Name and Number Triggered
+                                                  o URL if Applicable, Associated User and User Agent
+                                             • Date and Time
+ Network Device       VPN Gateway – All      At the very least, for Accepts, Teardowns, Closes, Denies, and   •   Log   •   12 Months Active
+ Infrastructure       Events                 Drops:                                                                         Storage
+                      ( For Devices with     • Date and Time                                                            •   18 Months Cold
+                      Multiple Interfaces:   • Source                                                                       Data Storage
+                      Interface MAC -If           o Hostname
+                      Correlated to the           o IP Address and Port
+                      De-NAT IP Address)          o MAC
+                                             • Destination
+                                                  o Hostname
+                                                  o IP Address and Port
+                                                  o MAC
+                                             • Source IP Address and Port, MAC (Inside Tunnel)
+                                             • Destination IP Address and Port, MAC (Inside Tunnel)
+                                             • Authentication Information (Success/Fail with Username and
+                                                  Device with User Agent)
+                                             • Change in Status of Connections / Tunnel Status
+                                             • VPN Certificate Status Validation
+ PKI Infrastructure   NA                     All Events Related to:                                           •   Log   •   12 Months Active
+                                             • Generation                                                                   Storage
+                                             • Revocation                                                               •   18 Months Cold
+                                             • Access                                                                       Data Storage
+                                             • Update
+                                             • Expiry
+                                             • Recover
+                                             • Authentication Success
+                                             • Authentication Fail
+                                             • LDAP Logs
+ Smart Devices        Agent Logs             • General                                                        •   Log   •   12 Months Active
+                                                  o Date and Time Device Data                                               Storage
+                                             • Device Name                                                              •   18 Months Cold
+                                                  o Device Manufacturer and Model                                           Data Storage
+                                                  o Serial #
+                                                  o Phone #
+                                                  o IMEI, IMSI, OS Version, OS Build
+                                                                       Page 29 of 39
+
+ETA Event Log Management                                           Version 1.5        1/25/2024
+
+ Log Category       Category Target   Required Data                                                        Format   Retention Period
+                                          o   Firmware Version
+                                          o   Device IP Address, Device Root/Jailbreak Status and
+                                              Reasons
+                                          o Developer Mode Enabled
+                                          o Battery/Power Information
+                                          o Hardware Info (Processor, Memory, Storage)
+                                          o Last Time Device Synched with Enterprise
+                                      •   Application Data
+                                          o Application Manifest (Installed Apps, App Version,
+                                              Version History and Installation Timestamps), Installation
+                                              and Data Storage Location
+                                          o Application Permissions
+                                          o Application Hash (e.g., SHA256)
+                                          o Running Apps and Processes
+                                      •   Device Policy Settings
+                                          o Enrollment Policies
+                                          o Policies Successfully/Unsuccessfully Applied
+                                          o Authentication Policies (Password, Pin, Biometric, etc.)
+                                      •   Device Configuration
+                                          o Certificates end Related Information (Validity Period,
+                                              Revocation, etc.)
+                                          o Device Encryption Configuration
+                                          o Android Enterprise Settings
+                                          o System Integrity Status
+                                      •   Network Configuration
+                                          o Allowed/Disallowed Networks
+                                          o Currently Connected Network
+                                          o Proxy/Tunnel and Per-App VPN Info
+                                          o Telephony Info (Some of This Is Covered by Carrier Data)
+                                          o Captive Portals
+                                          o Wi-Fi SSID
+                                          o Network MAC Address
+                                          o Bluetooth
+                                      •   Event / Audit / Crash Logs
+                                          o Event Type and ID
+                                          o Event Date/Timestamp
+                                          o Success/Failure of Various Services
+                                          o User Authentication (Success/Failure)
+                                          o Event Actor and ID (e.g., Admin, System, Device)
+                                                                 Page 30 of 39
+
+ETA Event Log Management                                              Version 1.5       1/25/2024
+
+ Log Category        Category Target      Required Data                                                   Format                Retention Period
+                                              o Event Change Type (CRUD)
+                                          •   MTD Agent Info
+                                              o Agent Activation Status
+                                              o Threat Detection of Variety of Vulns
+                                              o Phishing Protection Status
+                                              o Tampering of Agent, App, or System
+                                              o Privilege Escalation
+                                              o MITM Activities
+                                              o Remediation Actions Taken
+                                              o Last Time Device Synched with Enterprise
+ Smart Devices       Server Logs          EMM (UEM)/MTD Alerts                                            •   Log               •   12 Months Active
+                                          • Date and Time                                                                           Storage
+                                          • Alert Type                                                                          •   18 Months Cold
+                                          • Failure of Cryptographic Protocols                                                      Data Storage
+                                          • Failure of Device Cryptographic Capabilities (e.g., Trusted
+                                              Boot Process)
+                                          • Certificate Validation Failure (Defined in MDM Server
+                                              Protection)
+                                          • Alerts from Agent to Server Defined MDM Agent Protection
+ System              Configuration        Scripts or Database Changes Used to Configure Systems,          •   Database Record   •   12 Months Active
+ Configuration and                        Services on a System, or Applications                           •   Script                Storage
+ Performance                                                                                                                    •   18 Months Cold
+                                                                                                                                    Data Storage
+ System              Endpoint Detection                                                                   •   Log               •   12 Months Active
+ Configuration and   & Response (EDR)                                                                                               Storage
+ Performance                                                                                                                    •   18 Months Cold
+                                                                                                                                    Data Storage
+ System              Configuration        •   Management Action (Success/Failure)                         •   Log               •   12 Months Active
+ Configuration and   Changes              •   Admin Login (Success/Failure)                                                         Storage
+ Performance                                                                                                                    •   18 Months Cold
+                                                                                                                                    Data Storage
+ Virtualization      NA                   •   User Authentication                                         •   Log               •   12 Months Active
+ System                                       o Logon (Success and Failure)                                                         Storage
+                                              o Attempts to Obtain Privileged Access (Success and                               •   18 Months Cold
+                                                  Failure)                                                                          Data Storage
+                                          •   User and Administrator/Root Access and Actions of
+                                              Components and Applications to File and Object Access
+                                              o Audit Log Access (Success and Failure)
+
+                                                                    Page 31 of 39
+
+ETA Event Log Management                                                       Version 1.5        1/25/2024
+
+    Log Category          Category Target         Required Data                                                  Format            Retention Period
+                                                      o System Access (Failure)
+                                                 •    System Performance and Operational Characteristics of
+                                                      Resource Utilization, Process Status
+                                                      o System Events
+                                                      o Service Status Changes (e.g., Started, Stopped)
+                                                 •    System Configuration
+                                                      o Changes to Security Configuration (Success/Failure)
+                                                      o Changes to Hypervisor o Changes to VMS
+                                                      o Changes Made within VMS o Audit Log Cleared
+                                                 •    Creation and Deployment of VMS
+                                                 •    Migration of VMS (e.g., Source and Target Systems, Time,
+                                                      Authorization)
+                                                 •    Creation and Deletion of System-Level Objects
+    Vulnerability         NA                     •    Date and Time                                              •   Log6          •   12 Months Active
+    Assessment                                   •    Hostname, IP Address, and OS                                                     Storage
+                                                 •    Open Ports                                                                   •   18 Months Cold
+                                                 •    Installed Applications                                                           Data Storage
+                                                 •    Version of Installed Applications
+                                                 •    Vulnerabilities Listed in Installed Applications
+                                                 •    Source of Vulnerability and Severity
+
+    Criticality 2
+    Log Category          Category Target         Required Data                                                  Format            Retention Period
+
+    Application Level     Commercial Off the     •   User Authentication (Success/Failure)                       •   Log           •   12 Months Active
+                          Shelf (COTS) and       •   User and Administrator Application Use:                     •   Application       Storage
+                          Custom                     o File and Object Access                                        Monitoring    •   18 Months Cold
+                          Applications               o Audit Log Access (Success/Failure)                            Dashboards        Data Storage
+                                                     o System Access (Failure)
+                                                     o Application Transactions (Web Page Hits, Email
+                                                         Sent/Received, File Transfers Completed)
+                                                 •   Transaction Logs
+                                                 •   System Performance and Operational Characteristics
+                                                     o Resource Utilization
+                                                     o Process Status
+
+6
+    Logs are kept for ALL assessments, even if there are 0 vulnerabilities identified during the assessment.
+                                                                               Page 32 of 39
+
+ETA Event Log Management                                           Version 1.5        1/25/2024
+
+ Log Category        Category Target   Required Data                                                      Format       Retention Period
+                                           o Errors (Input Validation, Dis-Allowed Operations)
+                                           o System Events
+                                           o Service Status Changes (e.g., Started, Stopped)
+                                       •   Application Configuration and Version
+ Application Level   General – Non-    •   User Authentication (Success/Failure)                          •   Log      •   12 Months Active
+                     COTS              •   User Access of Application Components                                           Storage
+                                           o File and Object Access                                                    •   18 Months Cold
+                                           o Audit Log Access (Success/Failure)                                            Data Storage
+                                           o System Access (Failure)
+                                           o Application Transactions
+                                       •   Transaction Logs
+                                       •   System Performance and Operational Characteristics
+                                           o Resource Utilization
+                                           o Errors (Input Validation, Dis-Allowed Operations) and Exit
+                                               Codes
+                                           o Process Status
+                                           o Service Status Changes (e.g., Started, Stopped)
+                                       •   Application Configuration and Version, Middleware
+                                           Configuration and Version
+                                       •   Usage Information, if Applicable
+                                       •   User Request and Response Events, if Applicable
+ Container           Image             •   Vulnerability Scan Log                                         •   Log      •   12 Months Active
+                                       •   Hash of the Binary                                             •   File         Storage
+                                       •   Hash of the Executables                                        •   Script   •   18 Months Cold
+                                       •   Container-Aware Network Monitoring                                              Data Storage
+                                       •   Container-Aware Process Monitoring
+                                       •   Container-Aware Malware Detection
+                                       •   Filesystem Changes Log
+                                       •   Data Monitoring
+                                       •   Read and/or Writes to Well-Known Directories (e.g., /ETC,
+                                           /USR/BIN, USR/SBIN, etc.)
+                                       •   Creating Symlink
+                                       •   Changes in File/Resource Ownership or Mode Changes
+                                           (CHMOD)
+                                       •   Access Control Log
+                                       •   Runtime Vulnerability Scan Log Scan for Malware Log
+                                       •   Digital Signature Verification
+                                       •   Unexpected Network Connections or Socket Mutations
+                                                                  Page 33 of 39
+
+ETA Event Log Management                                           Version 1.5        1/25/2024
+
+ Log Category       Category Target   Required Data                                                     Format            Retention Period
+                                      •   Spawned Processes Using Things Like <Execve>
+                                      •   Executing Shell and/or SSH Binaries
+ Container          Engine            •   Audit Log                                                     •   Log           •   12 Months Active
+                    (Management       •   Account Access Log                                            •   Application       Storage
+                    /Orchestration)   •   Active Storage                                                    Monitoring    •   18 Months Cold
+                                      •   Account Permission Changes                                        Dashboards        Data Storage
+                                      •   Application
+                                      •   Configuration Log
+                                      •   Monitoring
+                                      •   Resource Allocation and Dashboards
+ Container          OS                •   User and Administrator Access to OS Components and            •   Log           •   12 Months Active
+                                          Applications                                                                        Storage
+                                          o File and Object Access                                                        •   18 Months Cold
+                                          o Audit Log Access (Success/Failure)                                                Data Storage
+                                          o System Access and Log Off (Success/Failure)
+                                          o Privilege Access and Log Off (Success/Failure)
+                                          o RDP Access and Log Off (Success/Failure)
+                                          o SMB Access
+                                      •   System Performance and Operational Characteristics
+                                          o Resource Utilization, Process Status
+                                          o System Events
+                                          o Service Status Changes (Start, Stop, Fail, Restart, etc.)
+                                          o Service Failures and Restarts
+                                          o Process Creation and Termination
+                                      •   System Configuration
+                                          o Changes to Security Configuration (Success/Failure)
+                                          o Audit Log Cleared
+                                          o Changes to Accounts User or Group Management
+                                               Changes
+                                          o Scheduled Task Changes
+                                      •   File Access
+                                          o Transfer of Data to External Media
+                                      •   Powershell Execution Commands
+                                      •   WMI Events
+                                      •   Registry Access
+                                      •   Command-Line Interface (CLI)
+
+                                                                 Page 34 of 39
+
+ETA Event Log Management                                                Version 1.5         1/25/2024
+
+ Log Category         Category Target       Required Data                                                     Format                Retention Period
+
+ Data Loss            NA                    •   Date and Time                                                 •   Log               •   12 Months Active
+ Prevention                                 •   Source Hostname                                               •   Email                 Storage
+                                                o IP                                                              Attachments       •   18 Months Cold
+                                                o Port                                                                                  Data Storage
+                                            •   Destination Hostname
+                                                o IP
+                                                o Port
+                                            •   Description of Malicious Code or Action and Severity
+                                            •   Identity or Identifier of the File(s)
+                                            •   Description of the Action Taken (Clean, Quarantine, Delete)
+                                            •   Signature Updates
+ Email Filtering,     Raw and Metadata -    •   Date and Time                                                 •   Log               •   12 Months Active
+ Spam, and Phishing   Filtering Events      •   Sent from Sender, from Sender                                 •   Email                 Storage
+                                            •   Recipient                                                         Attachments       •   18 Months Cold
+                                            •   Subject                                                                                 Data Storage
+                                            •   Email Headers
+                                            •   Rule Triggered – Log of Policies along with Actual Values
+                                                Including but Not Limited to:
+                                                o DNS Records
+                                                o Phish Campaign Identifier
+                                            •   Domain URL
+ Network Traffic      Full Packet Capture   •   Decrypted Plaintext                                           •   Packet Capture    •   72 Hours Packet
+                      Data                  •   Cleartext                                                                               Capture
+
+ System               System Status         •   Resource Utilization                                          •   Log               •   12 Months Active
+ Configuration and                          •   Performance                                                   •   Database Record       Storage
+ Performance                                                                                                  •   Script            •   18 Months Cold
+                                                                                                                                        Data Storage
+
+ Criticality 3
+ Log Category         Category Target       Required Data                                                     Format                Retention Period
+
+ Container            Cluster/Pod Events    •   Container User and Service Logs                               •   Log               •   12 Months Active
+                                            •   Container and Application API Audit Logs                                                Storage
+                                            •   Container Management Access Logs                                                    •   18 Months Cold
+                                            •   Changes to Container Resources Across Containers and                                    Data Storage
+                                                Container Management Environment
+
+                                                                       Page 35 of 39
+
+ETA Event Log Management                                            Version 1.5      1/25/2024
+
+ Log Category         Category Target    Required Data                                              Format                Retention Period
+
+ Email Filtering,     NA                 •   Spam Dictionary Modifications                          •   Log               •   12 Months Active
+ Spam, and Phishing                                                                                                           Storage
+                                                                                                                          •   18 Months Cold
+                                                                                                                              Data Storage
+ Mainframes           NA                 •   Syslog & Syslog Data                                   •   Log               •   12 Months Active
+                                         •   Log4j Data                                                                       Storage
+                                         •   Sysout Data Resource Measurement Facility (RMF) Data                         •   18 Months Cold
+                                         •   System Management Facility (SMF)16                                               Data Storage
+                                         •   Output from Integrated Intrusion Detection Service
+ System               Software Updates   •   User Agent                                             •   Log               •   12 Months Active
+ Configuration and                                                                                  •   Database Record       Storage
+ Performance                                                                                        •   Script            •   18 Months Cold
+                                                                                                                              Data Storage
+
+                                                                   Page 36 of 39
+
+Appendix B – Documenting Event Logs
+Document Format
+Event Logs by Application and Event Log schemas will be transmitted to the Virginia Open Data Portal in
+.CSV format.
+
+Event Logs By Application
+Event Logs by Application and Event Log schemas will be transmitted to the Virginia Open Data Portal in
+.CSV format.
+
+CSV Example for Event Logs By Application
+Agency,Application Name,Event Log
+VDOT,Adopt A Highway,Windows Application
+VDOT,Adopt A Highway,Windows Security
+VDOT,Adopt A Highway,Windows Setup
+VDOT,Adopt A Highway,Windows System
+
+Log Schemas
+Data Elements within an event log shall be documented as follows:
+    • Agency - Name of the submitting agency
+    • Application Name - Name of the application supporting the custom event log
+    • Log Name - Name of the custom event log
+    • Data Element - Name of the column being tracked
+    • Data Type – Scope of the value that the Data Element accepts, such as string, integer, or datetime
+    • Format - Rules for display of the Data Element if any
+    • List Values - All possible codes and their definitions when the Data Element is a code
+
+                                             Page 37 of 39
+
+Log Schema Example
+Agency   Application Name   Log Name   Data Element   Data Type    .                                          List Values
+VDOT     Adopt A Highway    Custom     Source IP      String       x.x.x.x, where x is an octet and must be
+                            Log        (IPv4)                      a decimal value between 0 and 255.
+                                                                   Octets are separated by periods. Must
+                                                                   contain three periods and four octets.
+VDOT     Adopt A Highway    Custom     Source IP      String       xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx
+                            Log        (IPv6)                      Each x is a hexadecimal digit,
+                                                                   representing 4 bits. Leading zeros can
+                                                                   be omitted. The double colon (::) can be
+                                                                   used once in the text form of an
+                                                                   address, to designate any number of 0
+                                                                   bits.
+VDOT     Adopt A Highway    Custom     Cache          String                                                  110-Response is Stale
+                            Log        Warning Code                                                           111-Revalidation Failed
+                                                                                                              112-Disconnected Operation
+                                                                                                              113-Heuristic Expiration
+                                                                                                              199-Miscellaneous Warning
+                                                                                                              214-Transformation Applied
+                                                                                                              299-Miscellaneous Persistent Warning
+VDOT     Adopt A Highway    Custom     Response       Decimal      0.0### ms
+                            Log        Time
+VDOT     Adopt A Highway    Custom     Unique ID      GUID
+                            Log
+VDOT     Adopt A Highway    Custom     MAC            String       XX:XX:XX:XX:XX:XX
+                            Log        address5
+VDOT     Adopt A Highway    Custom     Timestamp      Datetime     YYYY-MM-DDThh:mm:ss.mmmZ (Zulu
+                            Log                                    time, UTC+0)
+                                                                   YYYY-MM-DDThh:mm:ss.mmm+04:00
+                                                                   (UTC+4)
+
+                                                                 Page 38 of 39
+
+CSV Example for Log Schema
+Agency,Application,Log Name,Data Element,Data Type,Format,List Values
+Virginia Department of Transportation,Adopt A Highway,Custom Log,Source IP (IPv4),String,"x.x.x.x,
+where x is an octet and must be a decimal value between 0 and 255. Octets are separated by periods.
+Must contain three periods and four octets.",
+Virginia Department of Transportation,Adopt A Highway,Custom Log,Source IP
+(IPv6),String,"xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx:xxxx
+Each x is a hexadecimal digit, representing 4 bits. Leading zeros can be omitted. The double colon (::) can
+be used once in the text form of an address, to designate any number of 0 bits.",
+Virginia Department of Transportation,Adopt A Highway,Custom Log,Cache Warning Code,String,,"110-
+Response is Stale
+111-Revalidation Failed
+112-Disconnected Operation
+113-Heuristic Expiration
+199-Miscellaneous Warning
+214-Transformation Applied
+299-Miscellaneous Persistent Warning"
+Virginia Department of Transportation,Adopt A Highway,Custom Log,Response Time,Decimal,0.0### ms,
+Virginia Department of Transportation,Adopt A Highway,Custom Log,Unique ID,GUID,,
+Virginia Department of Transportation,Adopt A Highway,Custom Log,MAC
+address5,String,XX:XX:XX:XX:XX:XX,
+Virginia Department of Transportation,Adopt A Highway,Custom Log,Timestamp,Datetime,"YYYY-MM-
+DDThh:mm:ss.mmmZ (Zulu time, UTC+0)
+YYYY-MM-DDThh:mm:ss.mmm+04:00 (UTC+4) ",
+
+                                              Page 39 of 39
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

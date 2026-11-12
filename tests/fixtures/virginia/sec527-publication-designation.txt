@@ -1,0 +1,21 @@
+                                                                                       data policies, standards and guidelines for
+                                                                                       information technology and related systems.
+Subject
+Information Technology Security Awareness Training Standard                            Chief Information Security Officer
+                                                                                       The Chief Information Officer (CIO) has designated the
+Effective Date                                                                         Chief Information Security Officer (CISO) to develop
+                                                                                       Information Security policies, procedures, and
+January 1, 2021                                                                        standards to protect the confidentiality, integrity, and
+                                                                                       availability of the Commonwealth of Virginia’s
+                                                                                       information technology systems and data.
+Compliance Date
+January 1, 2021                                                                        Virginia Information Technologies Agency (VITA)
+                                                                                       At the direction of the CIO, VITA leads efforts that draft,
+Supersedes                                                                             review and update technical and data policies,
+COV ITRM Standard SEC527-1.2                                                           standards, and guidelines for information technology
+                                                                                       and related systems. VITA uses requirements in IT
+                                                                                       technical and data related policies and standards when
+Scheduled VITA Review:
+                                                                                       establishing contracts, reviewing procurement
+One (1) year from the effective date, then every two years thereafter.                 requests, agency IT projects, budget requests and
+                                                                                       strategic plans, and when developing and managing IT

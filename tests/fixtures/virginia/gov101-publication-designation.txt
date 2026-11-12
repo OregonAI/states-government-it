@@ -1,0 +1,15 @@
+                                                                Commonwealth (CIO)
+Subject                                                         Develops and approves statewide technical and
+Formulation and governance of policies, standards               data policies, standards and guidelines for
+and guidelines                                                  information technology and related systems
+
+Effective Date                                                  Directs the formulation and promulgation of
+January x, 2023 June 23, 2020                                   policies, guidelines, standards, and specifications
+                                                                for the purchase, formulation, and maintenance
+Supersedes                                                      of information technology for state agencies.
+GOV101-03.1 January 1e 1, 2021
+                                                                Virginia Information Technologies Agency
+Scheduled VITA Review                                           (VITA)
+Periodically or as needed                                       At the direction of the CIO, VITA leads efforts that
+                                                                draft, review and update technical and data
+Authority                                                       policies, standards, and guidelines for

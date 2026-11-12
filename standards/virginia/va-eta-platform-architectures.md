@@ -1,0 +1,2942 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: virginia
+id: va-eta-platform-architectures
+title: Personal Computing Server Services Platform Architectures
+doc_type: standard
+citation: 'EA requirements document: Personal Computing Server Services Platform Architectures'
+authority_level: ''
+issuing_body: Virginia Information Technologies Agency (VITA)
+source_url: https://www.vita.virginia.gov/media/vitavirginiagov/it-governance/ea/pdf/Personal-Computing-Server-Services-Platform-Architectures.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: a80741c193bd162a42770cd49dbd24d9140b08e16559ec3cbc806e69473c7c7d
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Personal Computing Server Services Platform Architectures (EA requirements document: Personal Computing Server Services Platform Architectures)
+
+## At a glance
+
+Item of VITA's Enterprise Architecture page, group 'ETA - Enterprise Technical Requirements': an EA requirements document under the Enterprise Architecture Standard (EA225), whose requirement statements are mandatory for executive branch agencies. The PDF prints: ETA Platform Domain Report Requirements, Version 3.1, May 2, 2023.
+
+## Full text
+
+  Commonwealth of Virginia
+Enterprise Technical Architecture [ETA]
+
+              Platform Domain Report
+
+ vita.virginia.gov                     May 2, 2023
+
+ETA Platform Domain Report Requirements                                                 Version 3.1 May 2, 2023
+
+                    Platform Domain Report Requirements: Version History
+ Revision      Date               Description
+ 1.0           12-20-2003         Platform Architecture Report
+ 1.1           03-03-2004         Platform Architecture Report
+ 2.0           06-07-2006         Platform Architecture Report
+ 3.0           01-15-2010          The Platform Domain Report has been substantially redone,
+                                  reorganized and reformatted to make it consistent with the other
+                                  domain reports. Only the requirements, technology component standard
+                                  tables and recommended practices that have been added, changed, or
+                                  rescinded are flagged as changes within the report.
+
+                                  New principles: PLA-P-18 through 20 have been added
+
+                                  New recommended practices: PLA-RP-39 through 41 have been added
+
+                                  New requirements: PLA-R-36 through 41 have been added
+
+                                  Recommended practices PLA-RP-01, 06, 07, 09, 10, 13, 14, 16, 18, 25, 32,
+                                  and 37 have been deleted
+
+                                  Requirements PLA-R-01, 04, 05, 09, 12, 14, 16, 26, 27, 28, 30, 34, and 35
+                                  have been rescinded
+
+                                  Technology component standard tables PLA-S-14 and 15 have been
+                                  rescinded
+
+                                  The complete text of the rescinded requirements and technology
+                                  component standard tables and deleted recommended practices can be
+                                  found in Appendix A.
+
+                                  All Desktop Productivity Tools content provided within the previous
+                                  version of the Platform Domain Report was extracted into a separate
+                                  Desktop Productivity Tools Topic Report to enhance the report updating
+                                  and review process.
+
+                                  The Glossary section was removed and combined with all other ITRM IT
+                                  Glossaries to create a new separate document. The COV ITRM IT
+                                  Glossary that may be referenced on the ITRM Policies, Standards and
+                                  Guidelines web page at
+                                  http://www.vita.virginia.gov/library/default.aspx?id=537
+ 3.1           05-02-2023         Administrative update for accessibility.
+
+Review Process
+This requirements document was posted on VITA’s Online Review and Comment Application (ORCA). All
+agencies, stakeholders, and the public were encouraged to provide their comments through ORCA. All
+comments were evaluated and individual commenters were notified of action(s) taken.
+
+Standards and Agency Exceptions
+These standards are incorporated within the COV Enterprise Architecture Standard (EA-225), and the
+requirements defined within this document are mandatory for Executive Branch agencies. Agencies
+deviating from these requirements must request an exception for each desired deviation, and receive an
+approved Enterprise Architecture Exception via Archer, prior to developing, procuring, or deploying such
+technology, or not complying with a requirement specified in this document.
+
+Glossary
+
+                                               Page 2 of 67
+
+ETA Platform Domain Report Requirements                                        Version 3.1 May 2, 2023
+
+As appropriate, terms and definitions used in this document are in the COV ITRM IT Glossary. The COV
+ITRM IT Glossary is available on the ITRM Policies, Standards, and Guidelines web page at the VITA
+website: https://www.vita.virginia.gov/it-governance/glossary/cov-itrm-glossary/
+
+                                             Page 3 of 67
+
+ETA Platform Domain Report Requirements                                                                                                        Version 3.1 May 2, 2023
+
+Contents
+  Purpose ............................................................................................................................................................................. 5
+  Authority ............................................................................................................................................................................ 5
+  Scope................................................................................................................................................................................. 5
+  Executive Summary .......................................................................................................................................................... 6
+  Background ....................................................................................................................................................................... 8
+  Agency Exception Requests ............................................................................................................................................ 10
+  Platform Domain Report ................................................................................................................................................. 10
+  Overview .......................................................................................................................................................................... 11
+  Methodology.................................................................................................................................................................... 11
+  Platform Domain Definition............................................................................................................................................. 11
+  Platform Domain Scope ................................................................................................................................................. 13
+  Personal Computing Devices .......................................................................................................................................... 13
+  Shared Utility Services..................................................................................................................................................... 15
+  Domain-Wide Principles, Recommended Practices and Requirements....................................................................... 16
+  Principles ......................................................................................................................................................................... 16
+  Platform Domain Technical Topics ............................................................................................................................... 18
+  Desktop-attached Printers, Copiers, Fax machines and Scanners ............................................................................... 30
+  Servers ............................................................................................................................................................................ 36
+  Midrange to Low-end Servers ........................................................................................................................................ 43
+  Shared Utility Services .................................................................................................................................................... 49
+      Print, Fax, Scan and Copy Devices ............................................................................................................................ 57
+  Email Utilities, Related Communications Utilities, and Coordination Services ............................................................ 58
+      Network (LAN/WAN) Control Utilities ....................................................................................................................... 62
+  Appendix A: Rescinded Requirements and Technology Component Standard Tables and Deleted Recommended
+  Practices ......................................................................................................................................................................... 63
+
+                                                                                Page 4 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+Purpose
+The intent of these requirements is to guide the purchase, design, implementation, and on-going
+operation of COV IT services and utilized technologies. For further information on the perspectives,
+please reference the most recent version of the Enterprise Technical Architecture (ETA) Requirements
+document.
+
+Authority
+    •   Code of Virginia, §2.2-2007. Powers of the CIO
+    •   Code of Virginia, §2.2-2007.1. Additional duties of the CIO relating to information technology
+        planning and budgeting
+    •   Code of Virginia, §2.2-2009(A). Additional duties of the CIO relating to security of government
+        information
+    •   Code of Virginia, §2.2-2012(A). Additional powers and duties related to the procurement of
+        information technology
+
+Scope
+This standard is applicable to all Executive Branch state agencies (hereinafter collectively referred to as
+"agencies") that are responsible for the management, development, purchase and use of information
+technology resources in the Commonwealth of Virginia. This standard does not apply to research
+projects, research initiatives, or instructional programs at public institutions of higher education.
+
+In addition to the requirements below all COV IT technology solutions comply with the standards found
+on the VITA Policies Standards & Guidelines page.
+
+                                                Page 5 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+Executive Summary
+The purpose of this document is to identify Commonwealth policies, standards, and recommended
+practices for personal computing, server, and utility service platforms to meet the business needs of
+executive branch agencies. Executive branch agencies are any agency, institution, board, bureau,
+commission, council, or instrumentality of state government in the executive branch listed in the
+Appropriation Act. The requirements/standards identified in this report will be included as
+requirements/standards in the COV ITRM Enterprise Architecture Standard.
+The requirements and recommended practices within this report were created to assist agencies in
+meeting their needs while moving towards the future platform vision for the Commonwealth. For
+platforms, the future vision is a simplified architecture to support more uniform, higher quality, and more
+cost-effective services. Platform services may meet the needs of individual workers, centrally supported
+agencies, individual colleges, or centrally supported colleges. The document also defines strategic,
+transitional/contained, obsolescent/rejected, and emerging directions for technical platform
+components.
+The audiences for the Platform Domain report are the business and technical leaders in state and local
+agencies and those involved in centralization and consolidation activities. This information provides
+direction to assist those who make technical decisions related to platforms and platform services in
+being responsive to changing business needs and services.
+In general, the document provides assistance to executive branch agencies and their platform service
+providers by addressing three topics: personal computing devices, servers, and shared utility services.
+
+Personal Computing Devices
+The devices addressed are:
+       • Desktop and Notebook Personal Computers
+       • Personal Computer Operating Systems
+       • Displays
+       • PC Processors, Chipsets and Supported Interfaces
+       • Read/Write Devices
+       • Desktop-attached Printers, Copiers, Fax machines and Scanners
+       • Wireless Connectivity Devices
+       • Security Devices
+       • BlackBerrys, Smartphones and Push Email Services
+       • Surge Protection
+
+The architectural guidance for personal computing devices continues to be one of strong central control
+for: hardware acquisition, desktop display replacement, operating systems (OSs), printers, wireless
+services, and desktop management. Implementing this guidance will result in:
+     • Centralized purchasing of personal computing tools
+     • Increased standardization of desktop and notebook software and hardware
+     • Fewer desktop printers
+     • Simple desktop printers treated as disposable items which are discarded rather than repaired
+     • Increased availability and use of time-saving devices (e.g., smartphones, Netbooks, etc.)
+     • Increased use of wireless devices and mobile services (e.g., Internet on trains and planes)
+     • Standardization of the replacement schedule (life cycle) of personal computing devices to
+         maximize useful life while controlling escalation of support and other costs
+
+Servers
+The server types addressed are:
+        • High-end including OS
+        • Midrange/low-end including OS
+        • Consolidation platforms
+
+                                               Page 6 of 67
+
+ETA Platform Domain Report Requirements                                         Version 3.1 May 2, 2023
+
+The main architectural guidance for servers is resource optimization through consolidation of workload
+to fewer service platforms and limiting levels of complexity across all operating environments.
+Implementing this guidance will result in:
+     • Fewer servers (reducing the number of physical servers supports the Governor’s “Greening of
+        State Government” initiative)
+     • Fewer server locations
+     • More efficient utility services (e.g., for backup provision)
+     • More high-density solutions (e.g., virtual server use)
+     • Increased reliance on telecommunications (e.g., VPNs)
+     • Fewer operating systems across applications
+     • Scalable server solutions for utilities including email, web page serving, and storage
+     • Use of virtual servers for production services, development and some testing
+     • Managed decrease in the use of all platforms not in the architecture
+     • More consistent life-cycle management
+     • More standardized technology life cycles for hardware
+
+Shared Utility Services
+The services addressed are:
+        • Storage Utilities
+        • Print, Fax, Scan and Copy Devices
+        • Email Utilities, Related Communications Utilities, and Coordination Services
+        • Network (LAN/WAN) Control Utilities
+
+Shared utility services are those networked activities that should be performed in a common way across
+all agencies for cost reduction and service improvement. Implementing architectural guidance on shared
+utility services will result in:
+      • Reductions in the number of utility and file servers
+      • Reductions in the number of sites that host utility services
+      • Common deployment of utility servers
+      • Increased use of shared storage systems
+      • A central directory for VITA served agencies
+      • A scalable, central email solution for VITA served agencies
+      • Improved services for print, fax, copy and scan needs for all employees who need these services
+
+In general, the document provides assistance to executive branch agencies and their platform service
+providers by:
+    • Providing requirements and recommended practices for executive branch agencies related to the
+        above topics
+    • Providing rationales and background information
+    • Providing web links of additional information resources for selected technologies (these links
+        may be modified or deleted by those who maintain the websites during the life of this document)
+
+                                              Page 7 of 67
+
+ETA Platform Domain Report Requirements                                          Version 3.1 May 2, 2023
+
+Background
+The Commonwealth’s Enterprise Architecture is a strategic asset used to manage and align the
+Commonwealth’s business processes and Information Technology (IT) infrastructure/solutions with the
+State’s overall strategy.
+The Enterprise Architecture is also a comprehensive framework and repository which defines:
+   • the models that specify the current (“as-is”) and target (“to-be”) architecture environments,
+   • the information necessary to perform the Commonwealth’s mission,
+   • the technologies necessary to perform that mission, and
+   • the processes necessary for implementing new technologies in response to the Commonwealth’s
+       changing business needs.
+The Enterprise Architecture contains four components as shown in the model in Figure 1.
+Figure 1: Commonwealth of Virginia Enterprise Architecture Model
+
+The Business Architecture drives the Information Architecture which prescribes the Solutions
+Architecture that is supported by the Technical (technology) Architecture.
+
+Each of the domains is a critical piece of the overall ETA. The Networking and Telecommunications and
+Platform Domains address the infrastructure base and provide the foundation for distributed computing.
+The Enterprise Systems Management, Database, Application, and Information Domains address the
+business functionality and management of the technical architecture. The Integration Domain addresses
+the interfacing of disparate platforms, systems, databases and applications in a distributed environment.
+The Security Domain addresses approaches for establishing, maintaining, and enhancing information
+security across the ETA.
+
+Definition of Key Terms
+This report is an Enterprise Technical Architecture domain report. Domain reports provide a
+comprehensive overview of important technical topics. They present three forms of architecture direction
+
+                                              Page 8 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+for agencies that are planning or making changes or additions to their information technology:
+     • Requirements – statements that provide mandatory Enterprise Architecture direction.
+     • Technology Component Standard Tables – tables that indicate what technologies or products
+        agencies may acquire at a particular point in time. The requirements are mandatory when
+        acquiring a new or replacing an existing technology or product.
+     • Recommended Practices—statements that provide guidance, which is not mandatory
+
+The following definitions are applicable to the technology component standard tables presented in
+this report:
+                               Technology Component Standard
+                                          Definitions
+    Strategic:
+    This technology is considered a strategic component of the Commonwealth’s Enterprise
+    Architecture. Strategic technologies define the desired “to-be” state of the Commonwealth.
+
+    Before any updated or new Strategic technology can be deployed it must complete a formal
+    operational review. As part of this review, agencies or vendors that provide the services needed
+    to deploy, maintain and/or support that technology must:
+
+    •   Perform the appropriate testing
+    •   Establish the needed technical support
+    •   Follow a formal Change Management process
+    •   Develop any required images
+    •   Obtain the appropriate operational reviews and approvals
+
+    In addition to the operational review, customer agencies should also:
+    • Perform additional testing on impact to agency specific applications
+    • Assess impact on business processes
+    • Assess training needs
+
+    The decision to deploy a Strategic technology is a business decision that is made by the agencies
+    or vendors that provide the services needed to deploy, maintain and/or support that technology
+    and the customer agencies. Input from the operational and customer reviews should also be
+    included when creating implementation plans for new or updated Strategic technologies.
+    Emerging:
+    This technology requires additional evaluation in government and university settings. This
+    technology may be used for evaluative or pilot testing deployments or in a higher education
+    research environment. Any use, deployment or procurement of this technology beyond higher
+    education research environments requires an approved Commonwealth Enterprise Architecture
+    Exception. The results of an evaluation or pilot test deployment should be submitted to VITA’s
+    Policy, Practice and Architecture Division for consideration in the next review of the Enterprise
+    Architecture for that technology.
+    Transitional/Contained:
+    This technology is not consistent with the Commonwealth’s Enterprise Architecture strategic
+    direction. Agencies may use this technology only as a transitional strategy for moving to a
+    strategic technology. Agencies currently using this technology should migrate to a strategic
+    technology as soon as practical. A migration or replacement plan should be included as part of
+    the Agency’s IT Strategic Plan. New deployments or procurements of this technology require an
+    approved Commonwealth Enterprise Architecture Exception.
+    Obsolescent/Rejected:
+
+                                               Page 9 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+                               Technology Component Standard
+                                          Definitions
+    This technology may be waning in use and support, and/or has been evaluated and found not to
+    meet current Commonwealth Enterprise Architecture needs. Agencies shall not make any
+    procurements or additional deployments of this technology. Agencies currently using this
+    technology should plan for its replacement with strategic technology to avoid substantial risk. The
+    migration or replacement plan must be included as part of the Agency’s IT Strategic Plan.
+
+Agency Exception Requests
+Agencies that want to deviate from the requirements and/or technology standards related to the platform
+domain and contained in the COV ITRM Enterprise Architecture Standard may request an exception using
+the Enterprise Architecture Change/Exception Request Form. All exceptions must be approved prior to the
+agency pursuing procurements, deployments, or development activities related to technologies that are
+not compliant with the COV ITRM Enterprise Architecture Standard. The instructions for completing and
+submitting an exception request are contained in the current version of COV ITRM Enterprise Architecture
+Policy.
+
+Platform Domain Report
+This report addresses the Enterprise Technical Architecture Platform Domain. Requirements and
+technology product standards introduced in this domain report will be incorporated into the COV ITRM
+Enterprise Architecture Standard and/or Policy. As appropriate, terms and definitions used in this
+document can be found in the COV ITRM IT Glossary which may be referenced on the ITRM Policies,
+Standards and Guidelines web page at http://www.vita.virginia.gov/library/default.aspx?id=537.
+
+                                              Page 10 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+Overview
+
+The Platform Domain Report includes:
+    •   Overviews of three technical topics: personal computing devices, servers, and shared utility
+        services (an overview of Desktop Productivity Tools appears in a separate Platform Domain
+        Topic report)
+    •   Principles, requirements, recommended practices, and technology standards. for executive
+        branch agencies related to these topics
+    •   Web links provide additional information resources for selected technologies
+In 2003, when the General Assembly created VITA, it gave VITA considerable responsibility for computer
+infrastructure. Whenever VITA is referenced in a requirement, the requirement addresses a function for
+which VITA has been given responsibility such as server consolidation. Such services are provided to
+some executive branch agencies and/or localities, but not to all.
+Concerning local governments and other public bodies, while they are not required to comply with a
+requirement unless the requirement is a prerequisite for using a VITA service or for participating in other
+state-provided service programs, their consideration of relevant requirements is highly recommended.
+This architecture was designed with the intent of encouraging its use in state and local service provision
+efforts.
+
+Methodology
+The platform domain team initially began its work by defining the platform domain, and by delineating the
+team’s goals, objectives, and scope of work. Discussions included how the platform domain interfaces
+with other technical architecture domains, the present and future directions for platforms, and how often
+the information provided in this document is to be updated. The team also reviewed input from
+publications and individuals with specialized knowledge. The results of the team’s efforts and
+deliberations are provided throughout this document. Update efforts review this work and provide
+modifications, additions and deletions as needed.
+
+Platform Domain Definition
+The platform domain addresses personal and business computing hardware systems and related
+software. The hardware platforms include servers, storage systems, server appliances, personal
+computing devices (desktops, notebooks, handhelds and other small intelligent devices), and peripheral
+devices (e.g., printers). Software is limited to operating systems and utility system software used to meet
+basic platform infrastructure needs. Software examples include Windows operating system and server
+backup software. The platform domain addresses the hardware and software issues, requirements and
+recommended practices under three technical topics: personal computing, servers, and utility systems.
+Objectives
+Platform domain objectives include:
+    •   Provide comprehensive coverage of trends, topics, issues, and critical information needs for
+        personal computing, servers, and utilities to guide service providers and agency decision makers.
+    •   Support requirements that will simplify and standardize platform approaches in Commonwealth
+        executive branch agencies with the following goals in mind.
+        o   Provide a long-term target architecture vision with opportunities for short-term payoffs.
+
+                                               Page 11 of 67
+
+ETA Platform Domain Report Requirements                                         Version 3.1 May 2, 2023
+
+       o   Encourage platform acquisition practices within and across agencies that will result in a
+           more homogeneous platform domain, improved support, and greater economies of scale.
+       o   Improve citizen/customer services by improving infrastructure and its management in the
+           Commonwealth.
+       o   Influence standards-based requirements in areas such as solutions design, transmission
+           interface selection, mobile computing technologies, where standards are evolving.
+       o   Enable cost-effective central location and/or central management options for platforms for
+           participating agencies.
+   •   Recommend best practices for IT decision making for Commonwealth-wide efforts and for
+       efforts of the Commonwealth’s state and local agencies.
+       o   Enable the convergence of voice, video, image and data services in the Commonwealth.
+       o   Encourage well-planned solutions within and across agencies that meet business needs
+           while protecting investments and reducing future expenditure escalation.
+
+                                            Page 12 of 67
+
+ETA Platform Domain Report Requirements                                           Version 3.1 May 2, 2023
+
+Platform Domain Scope
+Requirements, technology standards, recommended practices and principals apply to those organizations
+within executive branch agencies that are responsible for supplying, managing, procuring and maintaining
+IT hardware, infrastructure related software, and operating systems. These organizations are hereafter
+referred to in the document as “Agencies with responsibilities for providing IT infrastructure”.
+The Platform Domain addresses the following technical topics and components:
+    •   Personal Computing Devices
+        o   Desktop and Notebook Personal Computers
+        o   Personal Computer Operating Systems
+        o   Displays
+        o   PC Processors, Chipsets and Supported Interfaces
+        o   Read/Write Devices
+        o   Desktop-attached Printers, Copiers, Fax machines and Scanners
+        o   Wireless Connectivity Devices
+        o   Security Devices
+        o   BlackBerrys, Smartphones and Push Email Services
+        o   Surge Protection
+    •   Servers
+        o   High-end servers including OS
+        o   Midrange/low-end servers including OS
+        o   Consolidation platforms
+    •   Shared Utility Services
+        o   Storage Utilities
+        o   Print, Fax, Scan and Copy Devices
+        o   Email Utilities, Related Communications Utilities, and Coordination Services
+        o   Network (LAN/WAN) Control Utilities
+
+Personal Computing Devices
+Personal computing devices include a variety of hardware and operating system components for desktop
+computers, notebooks, handhelds and peripherals. The following components are included in this
+document.
+    • Desktop and Notebook Personal Computers
+    • Personal Computer Operating Systems
+    • Displays
+    • PC Processors, Chipsets and Supported Interfaces
+    • Read/Write Devices
+    • Desktop-attached Printers, Copiers, Fax machines and Scanners
+    • Wireless Connectivity Devices
+    • Security Devices
+    • BlackBerrys, Smartphones and Push Email Services
+    • Surge Protection
+
+                                                Page 13 of 67
+
+ETA Platform Domain Report Requirements                                              Version 3.1 May 2, 2023
+
+Desktops, Notebooks, and Peripherals
+Desktops include all non-mobile personal computer hardware, operating system, and peripherals that
+might be provided as networked or stand-alone desktops. Desktops may be operated as fat or thin clients
+that access server based resources; operating system (OS) can be versions and/or variants of Apple (or
+Macintosh), MS Windows, and Linux software platforms. In addition, some desktops may be fitted with
+terminal emulators such as Citrix or Attachmate.
+Notebooks include all computing devices that provide desktop functionality to a mobile worker in or out
+of the office. Notebook, pen tablet, netbook, and other form factors are included in this category.
+Notebook discussions may cover any of the components in desktops when differences should be noted
+or mobile computing options that are not relevant to desktops (e.g., specially designed mobile chipsets
+that conserve battery power).
+Hardware for desktops and notebooks includes the CPU, I/O ports, network interfaces, communications
+buses, memory, storage, reader/writer, power supply, graphics, audio, integrated networking and
+controller components.
+Operating systems are considered to be an integral part of the desktop or notebook computer. Plug-ins,
+help desk client, network client, and related software may also be included.
+Personal computing peripherals include external monitors, docking stations, printers, speakers, headsets,
+cameras, media read/write devices and removable media. Personal printers are small, inexpensive,
+general use printers that are directly attached to one personal computer.
+
+Handhelds
+Handhelds include all smaller computing devices that typically provide specialized functionality. Typical
+devices today are smartphones. The smartphone meets nearly all the needs of a worker unless the
+worker spends hours rather than minutes using a computer. Limited function devices (e.g., inventory
+picking or function tracking computers) are not covered. Devices specifically excluded from
+consideration in this category are voice-only devices including single purpose telephones, cell phones,
+and communication radios.
+Servers
+Servers include the full range of devices from mainframe computers to small single-socket computers,
+which might function as single service-providers on a client-server network (e.g., file/print server,
+application server, database server, or web server). Excluded are hardware devices that function as both
+client and server in a peer-to-peer network, bridges, routers, and special function machines such as some
+VoIP call manager servers.
+A server solution may include single servers, virtual servers, clusters, farms, frames of server blades (e.g.,
+a blade chassis), and n-tier applications solutions. Server configuration capabilities, management options,
+and shared use options are important considerations in the discussion of servers. Servers may also be
+appliances or specially configured, single purpose devices that are regular servers but are specially
+configured. An example is a storage device.
+Servers include hardware and software as follows: operating systems, processors, I/O ports/interfaces,
+communications buses, memory, storage, power, controller components, frames, and racks. The
+following server components are addressed:
+    •   High-end servers including OS
+    •   Midrange/low-end servers including OS
+    •   Consolidation platforms
+
+                                               Page 14 of 67
+
+ETA Platform Domain Report Requirements                                           Version 3.1 May 2, 2023
+
+Shared Utility Services
+Shared utility services include platform solutions that provide general technical services including
+printing, faxing, scanning, domain name services (and other network services), storage, backup, archiving,
+email and other similar solutions centrally. Shared utility services are defined in this report to support
+centralization and common handling of services that are currently implemented in many different ways
+using different practices across the served entities. The services addressed are those that require the
+least specific knowledge of agency business and provide the greatest opportunity for efficiencies and
+improved practices. The following shared utility services are addressed:
+    •   Storage, archiving, backup and recovery devices and services
+    •   Output servers and devices—print, fax, scan and copy servers and devices
+    •   Messaging/email services (networked, mobile, audio, video, and data)
+    •   Centralized network control services
+
+                                               Page 15 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+Domain-Wide Principles, Recommended Practices and Requirements
+
+The following principles, recommended practices, and requirements pertain to all components, in all
+situations and activities related to the platform domain. Component specific principles, recommended
+practices, and requirements are discussed below in the “Platform Domain Technical Topics” section.
+
+Principles
+Principles are guiding statements that influence the desired future enterprise. The following are platform
+domain-wide principles:
+
+    PLA-P-01          Platform choices will be based on technical standards that have been formally
+                      adopted by standards groups whenever possible.
+
+    PLA-P-02          The design of platform solutions will meet business needs for availability,
+                      reliability, speed, scalability, fault tolerance, and business continuity.
+
+    PLA-P-03          The use of TCO metrics is an important factor in making platform acquisition
+                      decisions.
+
+    PLA-P-04          Platform solutions balance uniformity with business efficiency and effectiveness
+                      goals.
+
+    PLA-P-05          Platform utilities are identified and centralized whenever it is practical and cost
+                      effective to do so.
+
+    PLA-P-06          The Platform Domain should enable the comparison of outsourced and in-sourced
+                      solutions for platform acquisition and management.
+
+    PLA-P-07          Security is an integral part of platform design and acquisition decisions.
+
+    PLA-P-08          Solutions design will address business continuity needs.
+
+    PLA-P-18          Platform solutions should aid in the transition to a centralized infrastructure model.
+
+    PLA-P-19          The number of platform types and OS running on them needs to be reduced. A
+                      simplified architecture enables the Commonwealth to effectively leverage cost
+                      saving based on volumes when making information technology purchases and to
+                      take advantage of the cost savings related to support simplification, skills transfer,
+                      and training.
+
+    PLA-P-20          The Commonwealth and its agencies should always evaluate and leverage viable
+                      alternatives when negotiating solutions and selecting technologies.
+
+    Recommended Practices
+
+    There are no domain-wide recommended practices.
+
+    Requirements
+
+    The following domain-wide requirements apply to all platforms.
+
+                                              Page 16 of 67
+
+ETA Platform Domain Report Requirements                                          Version 3.1 May 2, 2023
+
+   PLA-R-40         Agencies with responsibilities for providing IT infrastructure shall ensure that
+                    proposed hardware and software platform solutions comply with the current COV
+                    ITRM IT Information Security Standard (SEC501).
+
+   PLA-R-02         Agencies with responsibilities for providing IT infrastructure shall acquire platforms
+                    designed for ease of remote administration, diagnosis, and systems management.
+
+                                            Page 17 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+Platform Domain Technical Topics
+
+In this section, personal computing, server, and shared utility platforms technical topics are discussed in
+detail. Also described are component technologies, strategic practices, critical issues, requirements and
+recommended practices.
+
+Personal Computing Devices
+
+    •   Personal computing devices include:
+    •   Desktop and Notebook Personal Computers
+    •   Personal Computer Operating Systems
+    •   Displays
+    •   PC Processors, Chipsets and Supported Interfaces
+    •   Read/Write Devices
+    •   Desktop-attached Printers, Copiers, Fax machines and Scanners
+    •   Wireless Connectivity Devices
+    •   Security Devices
+    •   BlackBerrys, Smartphones and Push Email Services
+    •   Surge Protection
+
+Commonwealth’s Goals for the Personal Computing Devices
+
+The Commonwealth’s goals in selecting, acquiring, refreshing, deploying, and supporting personal
+computing devices are to:
+   • Meet workforce business needs
+   • Promote greater consistency in vendors, versions, images, and tool sets to reduce acquisition
+       and support costs without eliminating competition advantages
+   • Have personal computing solutions that have sufficient penetration in the marketplace to ensure
+       support staff availability
+   • Set life cycle length to maximize useful life while controlling escalation of support and other
+       costs
+   • Ensure that customer value results from centralization of acquisition, support and architectural
+       controls
+
+Key Technology Changes for Personal Computing Devices
+
+Software, hardware, and architectural changes in personal computing are having an impact on decision
+making. Most notable are Microsoft’s changes over the last three years and Microsoft’s planned changes
+including operating systems, product bundling, and product integrations.
+Decision makers are very concerned about Microsoft operating system changes and users are concerned
+about the changes in office software. Three operating systems (Windows XP, Vista, and Windows 7) are
+in competition with one another through 2014 when Windows XP will no longer be supported.
+Windows Vista continues to be unpopular in the business world and Windows 7 is being rolled out by
+Microsoft as an alternative.
+
+Although some expected that virtual desktops, blade computing, application streaming, OS streaming and
+other architectural variations would have a big impact on present day personal computing, these and
+similar approaches to meeting user needs have not been implemented widely. Thin client approaches
+have been used successfully when jobs required predictable workloads of “terminal like” form-filling and
+for specialized applications that affect only a few users such as GIS databases and client access tools.
+
+                                               Page 18 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+There are still many management, security, and networking issues to work out with most of these
+architectural options.
+
+Hardware continues to demonstrate radical change with new processor architectures leading the list.
+Hardware also must be higher-end to accommodate the anticipated software changes. Also important
+are the ever increasing capabilities of handhelds or smartphones.
+
+Principles
+
+The following are guiding principles for Personal Computing Devices.
+
+        PLA-P-09        Uniform, high-quality productivity tools will be used to meet the business needs
+                        of the agencies and employees of the Commonwealth.
+
+        PLA-P-10        Mobile clients will use standards-based communications interfaces whenever
+                        possible.
+
+        PLA-P-11        Personal computing decisions should not add excessive risk to enterprise data
+                        and networks
+
+        PLA-P-12        Personal computer hardware and software selection strategies should be
+                        integrated to maximize cost savings opportunities.
+
+Requirements
+
+The following are requirements for Personal Computing Devices.
+
+        PLA-R-03        Agencies with responsibilities for providing IT infrastructure shall
+                        Implement documented policies and procedures that control the
+                        acquisition, life cycle, security methods and techniques, connectivity and
+                        access methods, and ongoing maintenance support processes for personal
+                        computing devices.
+
+        PLA-R-38        Agencies with responsibilities for providing IT infrastructure shall
+                        establish personal computer base images that comply with strategic office
+                        productivity and security related software technologies as defined in the
+                        COV ITRM EA Standard. These base images must also meet the minimum
+                        security requirements as defined in COV ITRM Security Standards.
+                        Customer agencies can add to these images to meet agency-specific
+                        security needs. Any changes to the base image must be recorded in a
+                        configuration management database.
+
+        PLA-R-39        Agencies with responsibilities for providing IT infrastructure shall provide
+                        extensions to the base image to support business unit or departmental
+                        needs
+
+Rationale:
+Increases uniformity while decreasing time and effort required to replace or deploy new systems.
+
+                                              Page 19 of 67
+
+ETA Platform Domain Report Requirements                                                           Version 3.1 May 2, 2023
+
+Desktop and Notebook Personal Computers
+
+Establishing an average number of years for desktops and notebooks (a range of years) that is acceptable
+for general refresh permits the design of a multi-year cycle that will allow for budgeting of hardware and
+deployment cost. The chosen number typically does not affect whether the individual’s specific needs are
+met. It simply enables a periodic refresh for the majority of users, who have no specific refresh requirement.
+Agency-side costs include fees to providers, the reworking of applications, testing, staff training for
+software and OS changes, staff productivity decreases due to implementing changes, certain network
+infrastructure, personal printing supplies and more.
+
+The present recommended replacement life cycle timeframe for desktop computers is four to five years
+and for notebook computers three and one half to five years. Gartner recommends having an available pool
+of 2 percent of the notebooks in use by mobile workers available for express shipping to the mobile worker
+to ensure next day availability to meet their needs. Gartner cautions that this same notebook pool should
+not be used for loans to those desktop users who need a notebook for a short period of time.
+
+1 Gartner, Best Practices for Notebook Hardware Maintenance, 15 March 2006, Leslie Fiering, ID Number: G00138283.
+
+                                                       Page 20 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+Requirements
+
+The following is a requirement for the Desktop and Notebook Personal Computers component.
+
+           PLA-R-13           Agencies with responsibilities for providing IT infrastructure shall adopt
+                              replacement life cycles of four to five years for desktop computers and
+                              three and one-half to five years for notebook computers.
+
+Technology Component Standards
+
+The following is a technology component standard for Desktop and Notebook Personal
+Computers.
+
+       Table PLA-S-06: Miscellaneous PC Components
+       Technology Component Standard
+       Updated January 15, 2010
+       Strategic:
+       Cardbus type PC Cards with parallel interface, DMA, and 32 bit path
+       ExpressCard1 —PCMCIA Cardbus replacement that provides high speed serial access
+       embracing USB 2.0 and PCI-Express 2.0
+       Emerging:
+
+       Transitional/Contained:
+       PC Card with parallel interface and 16 bit path; PCI; PCI-X; AGP2
+       Obsolescent/Rejected:
+
+Personal Computer Operating Systems
+
+In general, the platform architecture recommends skipping releases of software when business reasons
+for making a change are inadequate. The agency-side costs for making a change include the costs of
+testing, staff learning time, staff training, business application changes, and in some cases, the costs of
+lost employee productivity due to software setup and learning curves slowing daily work.
+
+Both technical and business staff should have input into the decision of whether to upgrade office
+software. Only when support discontinuation and security are issues (e.g., end of life cycle established by
+Microsoft) should providers and technical staff force an upgrade or software change.
+
+Agencies who provide infrastructure services must replace operating system software on all machines,
+typically three to six months before the end-of-support date. End-of-support means no security patches
+and therefore, a higher level of vulnerability unless patches can be provided by a third party. When the
+service provider offers a new operating system (e.g., Vista SP2, Windows 7, or Atom) they should allow
+one year of advanced notice for planning and testing. Because agency-side costs are quite significant for
+a rollout, the notice is needed for both staff work planning and for budget estimation.
+
+Upgrading software during the life of the computer or the operating system is not recommended. The
+basic assumption is that you are buying a tool that is to meet business needs for the life of the hardware.
+
+2 This technology is now implemented throughout the market place.
+3
+    http://www.semiapps.com/System_Functions/Digital_Interface/PCI_PCI_Express/
+
+                                                       Page 21 of 67
+
+ETA Platform Domain Report Requirements                                               Version 3.1 May 2, 2023
+
+The less you touch the tool, the less it costs to own and maintain. Of course, if business needs require
+additional functionality and that functionality is cost-effective, it should be added. However, the cost to all
+users and all operations must be considered.
+
+Hardware should be designed and acquired for a particular image that will meet business needs for the
+entire life of the hardware. This, of course, does not exclude pushing out changes over the network for
+security, bug fixes and simple patches and upgrades that have little effect on agencies (e.g., an Adobe
+Acrobat Reader upgrade). However, such upgrades should be thoroughly tested before being rolled out.
+
+To date, there has been little evidence of large enterprises in the US moving to Linux. Even though some
+suggest that Linux can be explored as an alternative to Windows for use by staff members who perform
+only data entry type tasks, the complications of having two desktop OSs can easily outweigh the cost
+savings. One example is that selected Commonwealth-wide applications that are based on commercial,
+off-the-shelf packages may not be designed to work with more than one client OS.
+
+Recommended Practices
+
+The following is a recommended practice for Personal Computer Operating Systems
+
+        PLA-RP-41        Agencies with responsibilities for providing IT infrastructure should not upgrade
+                         operating systems software during the life of the computer unless they
+                         document a compelling business reason to do so or a compelling return-on-
+                         investment (RIO) that offsets all hard and soft costs for making the change.
+
+        Implications:
+        One concern about using this approach is that support staff may have to support two or three
+        operating system versions. This can be an issue for small agencies but is not an important issue
+        for a large, Commonwealth-wide support service. The organizing of personal computer support
+        teams by OS/software version combinations rather than by agency can easily mitigate the effects
+        of this problem. Dedicated teams also facilitate the tracking of problems by version of software
+        and year of hardware and software.
+
+                                                Page 22 of 67
+
+ETA Platform Domain Report Requirements                                                            Version 3.1 May 2, 2023
+
+Technology Component Standards
+The following is a technology component standard for Personal Computer Operating Systems. This
+standard contains a recommended move from Windows XP directly to Windows 7. As a result of that
+recommendation, Windows XP Pro remains strategic, Windows Vista moves to Contained due to not
+being chosen for implementation, and Windows 7 is placed in emerging due to its not yet being
+adequately tested. It is expected that Windows 7 will move to strategic following the accumulation of
+adequate data from real business implementations. This is expected sooner than the usual two years
+following release. This decision was based on the unpopularity of Vista and the good reports on the beta
+and release code versions of Windows 7.
+The recommendation to move Windows 7 to strategic as soon as adequate testing is completed means
+that agencies that provide infrastructure services and their customers will need to begin testing Windows
+7 immediately. All agency and business-side applications will have to be tested, new interfaces written,
+hardware tested or replaced, peripherals tested or replaced, etc.
+Because Microsoft will stop supporting XP in 2014, XP computers put into service after June 2009 will
+not have a full 5 years of support from Microsoft. This means that any PC that is used beyond the support
+end date will be need to be re-imaged.
+
+                                      Table PLA-S-01: PC Operating Systems
+                                        Technology Component Standard
+                                              Updated January 15, 2010
+    Strategic:
+    Windows XP Pro (with tested Service Packs)
+    Note: Windows 7 may be tested immediately in its release code or RC version and will be moved
+    to strategic as soon as adequate evidence exists
+    Macintosh OS X v10.x
+    Emerging:
+    Windows 7 (at the time of publication of this standard, W7 was in the earliest phases of its
+    release cycle. Agencies who provide infrastructure services need to perform the assessment of
+    W7 as a technology as well as their ability to deploy, manage, and support it)
+    Linux (e.g. Ubuntu)
+    Transitional/Contained:
+    Windows Vista (the strategy is to skip this OS to save cost) 3
+    Windows 2000 Professional (7-13-2010 is end-of-support)
+    Macintosh OS 9.x
+    Obsolescent/Rejected:
+    Windows earlier than Windows 2000
+    Any home version of Windows
+
+4 Gartner: Windows 7 Release Will Affect Vista Deployment Plans; 13 May 2009; Michael A. Silver and Stephen Kleynhans.
+
+Datamation: Nearly-50-of-IT-Shops-to-Skip-Windows-Vista; December 12, 2008; Stuart J. Johnston;
+http://itmanagement.earthweb.com/entdev/article.php/3790751/Nearly-50-of-IT-Shops-to-Skip-Windows-Vista.htm. Computer
+World: Windows 7: Why I'm Rolling It Out Early; By Shane O'Neill; May 18, 2009 04:44 PM;
+http://www.computerworld.com/action/article.do?command=viewArticleBasic&taxonomyName=Windows&articleId=9133206&taxo
+nomyId=125&pageNumber=1
+
+                                                       Page 23 of 67
+
+ETA Platform Domain Report Requirements                                                                   Version 3.1 May 2, 2023
+
+Displays
+In the marketplace, 19 inch screens are becoming more common and have a low price. Gartner and
+others have suggested that the life cycle of a flat panel LCD can be 13.4 years on average 4 if the backlight
+does not fail). However, if there is an update or change to the operating system within the life cycle then
+the monitors in use must be checked for compatibility.
+
+Requirements
+The following is a requirement for Displays.
+
+          PLA-R-06             Display replacement decisions for all agencies including administrative
+                               units of higher education must be based on customer business needs,
+                               support considerations, cost-of-ownership data, and hardware
+                               compatibility considerations. Agencies shall ensure separate
+                               computer/display acquisition pricing.
+
+          Rationale:
+          Because desktop displays have a longer life cycle than the computers they support, their
+          replacement shall not be automatic at the time of a desktop replacement.
+
+5 http://www.epa.gov/oppt/dfe/pubs/comp-dic/lca/Ch2.pdf         or for the whole document and appendices, see
+http://www.epa.gov/oppt/dfe/pubs/comp-dic/lca/ The EPA compares 15” LCD and 17” CRT monitor on life cycle related issues in
+Chapter 2. Backlights may fail between 4.0 and 13.4
+years depending on the manufacturer, but they are field replaceable. These data are fairly old but more recent data are not available.
+In the report, discussions with Dell officials indicate that most of their LCD backlights have the 50,000 hour life or a life that exceeds
+the 13.4 years.
+
+                                                            Page 24 of 67
+
+ETA Platform Domain Report Requirements                                          Version 3.1 May 2, 2023
+
+Technology Component Standards
+
+The following is a technology component standard for Displays.
+
+                  Table PLA-S-02: Displays and Interface Components
+                          Technology Component Standard
+                                Updated January 15, 2010
+   Strategic:
+   Display Sizes
+           Note: Size requirements below specify only the minimum display size that is permitted for
+           standard desktop use. High-end needs such as GIS and special needs are not
+           addressed. An agency may have larger display sizes.
+
+           Minimum of a 17” diagonal specification for a flat panel display when a flat panel is used
+           for standard desktops. An example shape and size is presented on the left above. A
+           typical diagonal measure is exactly 17”.
+           Minimum of a 20” diagonal specification for a widescreen flat panel display with a 16:10
+           aspect ratio. (Approximate measurements are 11” high by 16.5” wide.) An example shape
+           is provided in the middle above.
+           Minimum of a 19”diagonal specification for a widescreen flat panel display with a 3:2 or
+           15:10 aspect ratio. (Approximate measurements are 10” high by 16” wide.) An example
+           shape is provided on the right above.
+   Display life cycle
+           A desktop flat panel solution is to be used for its full life which may include backlight
+           replacement.
+   Flat Panels
+           A flat panel is the standard recommended replacement for desktop displays.
+   Mouse
+           An optical USB mouse is the standard recommended replacement to be included with a
+           desktop.
+   Keyboard
+           A USB keyboard is the standard recommended replacement to be included with a
+           desktop.
+   Emerging:
+   OLED or Active Matrix OLED (AMOLED) displays (e.g., AMOLED in iRiver Clix Gen2)
+         Light emitting diode displays are in higher use for small MP3/4 sized screens to large
+         outdoor displays but still have not made a large impact in the personal computing space.
+   Transitional/Contained:
+   Less than 17” flat panel for desktops
+   CRT (e.g., smaller displays may be appropriate for point of sale)
+   Mechanical Mouse
+   Obsolescent/Rejected:
+   CRT for desktop replacements
+
+                                             Page 25 of 67
+
+ETA Platform Domain Report Requirements                                          Version 3.1 May 2, 2023
+
+PC Processors, Chipsets and Supported Interfaces
+
+Typically, the components of a computer are determined by the manufacturer with little choice on the part
+of the purchaser unless units are custom built. For personal computers, the Intel processors and chipsets
+dominate the market, but AMD and others offer equivalent business utility, often at a lower price. At
+present, with Office 2003 and Windows XP, most available processors and chipsets include features that
+exceed the needs of the typical office worker given the software they use and the way they work. A dual
+core processor may be helpful to users who have numerous applications running at the same time.
+
+Most, if not all of the chipsets and processors currently on the market are fine for running operating
+system and productivity software, but they have some features that are unneeded by business users.
+Some will caution purchasers that the low-end items such as Intel’s Celeron and AMD’s Sempron, while
+they may meet business needs, may not actually be significantly cheaper due to price competition. The
+better processor may be the better buy because of this.
+For both AMD and Intel, there are excellent mobile processors and mobile chipsets. The chipsets are
+designed for business management, graphics, connectivity, wireless mobility, video, speed, multitasking,
+energy use reduction, battery life and more. Each new generation adds functionality. The current push is
+to address mobility in time to take advantage of coming capabilities in the wireless world. For example,
+the latest models in development are called Intel Centrino Calpella and AMD Fusion. Intel is holding
+Calpella to enable the sales of older models that remain on shelves due to the sluggish economy. Calpella
+features are provided as an example in Table 1. Some features are clearly for gaming and multimedia
+needs that may have less business utility.
+
+Most AMD and Intel processors are dual core technologies. The exception is the single core Atom
+processor by Intel, which has captured the present netbooks, handhelds and other small intelligent
+devices market. For regular notebooks and desktops, dual cores tend to have greater energy efficiency.
+As a result, the majority of business desktops and notebooks will be sold with dual core processors. For
+Intel, these will be Core 2 Duo models. For AMD, the processors will be Athlon X2. Both Intel 4 core and
+AMD three and four core processors are available in business desktop models, but they are beyond
+typical business needs.
+
+                                              Page 26 of 67
+
+ETA Platform Domain Report Requirements                                                  Version 3.1 May 2, 2023
+
+Table 1: Future Intel Mobile Chipset Components and Features
+
+     Centrino                                           Future Calpella Platform5
+     Mobile          An Intel Mobile Express series chipset with Intel's graphics technology that will allow for
+     chipset         optimized decoding/encoding and editing/playback of H.264/MPEG-4 AVC video used in Blu-
+                     ray Discs and HD 1080p video, optimized for MPEG-2 (DVD) video playback and editing.
+                     • Intel QuickPath Interconnect support which directly connects to the CPU, removing the
+                         outdated FSB technology.
+                     • Direct connect to DisplayPort with DPCP as with its predecessor along with legacy support
+                         for HDMI (and HDCP), DVI, and VGA.
+                     • RAM supported for DDR3-800, DDR3-1066, DDR3-1333 and DDR3-1600 SO-DIMM.
+                     • Solid-state drive or Hybrid hard drives support.
+     Mobile          Processors - based on Intel Nehalem microarchitecture (codenamed Gilo)
+     processor       • an Intel processor (codenamed Clarksfield) 45nm for Quad Core version, 45-55W TDP.
+                     • an Intel processor (codenamed Arrandale) 32nm.
+     Mobile          Wireless Modules
+     Wireless        • an Intel WiFi Link (802.11 a/b/g/n) (codenamed Puma Peak) and WiMax (802.16)
+     networks            (codenamed Kilmer Peak)
+
+One current feature of chipsets is connectivity to future network services. For example, in Table 1, both
+802.11n WiFi and 802.16 WiMax are supported. Currently, chipsets tend to contain connectivity options
+based on standards that are not yet ratified by industry groups to date. Both AMD with its Fusion product
+and Intel with its Calpella product have delayed the completion and production of their new models until
+the 2010-2011 time frame. By then, the standards may be ratified.
+
+Requirements
+The following is a requirement for PC Processors, Chipsets and Supported Interfaces.
+
+            PLA-R-07           Agencies with responsibilities for providing IT infrastructure involved in
+                               acquisitions and contracts shall establish minimum bid specifications for low-end
+                               personal computers to be used by the majority of the workforce. These
+                               specifications shall include the lowest of the currently available Intel, AMD, or
+                               comparable chipsets and components that will cost-effectively meet the
+                               anticipated processing needs for productivity software, typical business needs,
+                               special needs of the mobile worker, and/or needs related to life cycle
+                               requirements. Example: the future availability of various memory options (DDR
+                               SDRAM, DDR2, DDR3, etc.) if users’ memory needs increase during the life cycle of
+                               their desktops or notebooks.
+
+Read/Write Devices
+
+The devices addressed here are desktop and notebook devices that read from and write to transportable
+external media. “Writable” media for desktops and notebooks include floppies, CDs, DVDs, USB drives
+(which go by many names) and more.
+
+The Commonwealth’s workforce tends to use CD and DVD devices mainly for reading and USB drives for
+occasional writing. Also, a small percentage of users benefit from the advantages of using USB devices
+to transport data, documents and presentations securely to remote locations. Some mobile workers use
+USB devices for providing document backups. Writing to external media is rarely done by most workers
+6
+    Taken from http://en.wikipedia.org/wiki/Centrino#Calpella_platform_.282009.29
+
+                                                         Page 27 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+due to the ease of using email or shared drives for transferring and accessing files. Even though external
+media is rarely used by the workforce, new computers tend to have multiple methods available for writing.
+Because all writing methods and media have been used to some degree, narrowing future directions for
+the state will be problematic for some. Meeting the reading and writing needs of those who most use
+external media is an important decision factor but providing some capabilities to all is also required.
+
+As netbooks, handhelds and other small intelligent device form factors for notebooks become more
+popular, everyone relies more heavily on the USB drive for I/O. The size and weight competition in the
+market have resulted in the elimination of the relatively heavy and space-consuming CD/DVD drive. Those
+who need the CD/DVD capability must use an external DVD/CD drive. A typical requirement is loading
+software or accessing video/audio information.
+
+Of the available external device writing options, USB devices have the best secure data transport solution
+for those needing security and no special software beyond that provided with the device is needed to use
+them. Also, USB flash drives have become inexpensive.
+
+Even though DVD write standards have finally solidified for multimedia with Blu-ray in the winner’s circle,
+many feel that a single standard will never exist on the low end. CD and DVD writing is done by only a
+small percentage of workers. However, reading capabilities are more useful. Most computer support
+providers use USB drives, network downloads, or network push outs for software changes to the agency
+standard image.
+
+New state computers no longer have floppy drives and the workforce appears to have adjusted. They will
+also adjust if DVD and CD devices disappear as they have in opting for netbooks, handhelds and other
+small intelligent device form factor computers.
+
+Some agencies require secure storage or off loading. Personnel who need these capabilities should use
+the security features available with certain USB drives and computer encryption capabilities.
+
+Recommended Practices
+The following is a recommended practice for Read/Write Devices.
+        PLA-RP-08        Desktop units and/or monitors on state contract should have front facing or
+                         easily accessible USB ports.
+        Rationale:
+        Easily accessible USB ports are an enabler for using USB key fobs for authentication, USB devices
+        for storage, and other USB peripherals.
+
+Requirements
+The following is a requirement for Read/Write Devices.
+        PLA-R-08         Agencies with responsibilities for providing IT infrastructure involved in
+                         procurements and contracts shall include a CD/DVD reader with CD or DVD write
+                         capabilities when establishing minimum bid specifications for desktop and
+                         notebook personal computers.
+
+                                               Page 28 of 67
+
+ETA Platform Domain Report Requirements                                          Version 3.1 May 2, 2023
+
+Technology Component Standards
+The following is a technology component standard for Read/Write Devices .
+
+                      Table PLA-S-03: Read/Write Devices (Storage)
+                            Technology Component Standard
+                                 Updated January 15, 2010
+   Strategic:
+   USB Flash Drives
+           USB drives typically store from 1 to 64 GB and may include security software options.
+           With security software, they are the preferred choice for transporting sensitive files and
+           information. These drives are recommended over CDs and DVDs for employee storage
+           use.
+   A CD/DVD Combo Drives
+           CDs and DVDs remain popular for loading software and viewing multimedia, but are
+           waning in popularity for storage, They have moved to external devices in the smallest
+           form factor computers because they are not generally used but still may be required for
+           loading software in certain cases.
+   External USB Hard Drives and DVD/CD drives
+           External drives are another option for mobile worker backups when connectivity is not
+           available
+   Blu-Ray Drives (BD-R)
+           PC manufacturers now have blu-ray players in notebooks and desktops at prices around
+           $150. However, they are not likely to be provided in the near future on a standard
+           computer for the Commonwealth.
+   Emerging:
+   Blu-ray BD-RW (write technologies continue to be too costly for general use. When prices
+   decrease, this technology may become common in personal computing)
+    (For enterprise storage use of Blu-Ray disks and DVDs, see the shared utility services technical
+   topic)
+   Transitional/Contained:
+   Shared external floppy drives may be of transitional use to agencies.
+   Obsolescent/Rejected:
+   Zip Drive (Iomega)
+   Jaz Drive (Iomega successor to Zip Drive)
+   5 ¼ Floppy
+   3.5 Floppy Drive in a PC
+
+                                             Page 29 of 67
+
+ETA Platform Domain Report Requirements                                               Version 3.1 May 2, 2023
+
+Desktop-attached Printers, Copiers, Fax machines and Scanners
+
+Some agencies tend to use large numbers of desktop-attached printers. In some cases, this usage
+pattern is because of continuous printing of confidential information or printing forms that require
+an ink signature from the customer who is in the worker’s office. Others are used because a
+worker’s job requires label printing or special document printing (e.g., certificates). As many as half
+of the printers presently in use across agencies are desktop attached. Agencies may want to
+reduce this practice as much as possible to achieve cost savings. Costs of desktop printers are
+high due to:
+
+    •   Higher per page printing costs (two to four times as expensive)
+    •   Increasing costs of supplies as the printers age
+    •   Frequency of ordering supplies due to small sizes (more staff time)
+    •   Buying desktop printers singly rather than in bulk (supporting numerous brands and
+        models and not getting price advantages when printers are needed)
+    •   Higher support costs (changing cartridges, fixing paper jams)
+    •   Fixing broken printers when they are out of warranty instead of replacing them (high
+        support costs associated with repairs)
+
+Recommended Practices
+
+The following are recommended practices for Desktop-attached Printers, Copiers, Fax machines
+and Scanners.
+
+        PLA-RP-39        Agencies should reduce desktop-attached printer usage as much as
+                         possible. If agency personnel only occasionally need to print confidential
+                         documents, workgroup printers that enable security passwords for the
+                         printing of selected documents may be a viable alternative to permitting
+                         desktop printers.
+
+        PLA-RP-02        Agencies that use desktop-attached high-cost desktop printers, faxes,
+                         scanners and copiers should establish a policy for their acquisition, use,
+                         maintenance and replacement. To reduce costs, they should employ quiet,
+                         black and white laser printers with a low cost per page and a high consumer
+                         rating.
+
+        PLA-RP-40        Ink jet printers are appropriate for mobile users only and generally should
+                         not be used in offices.
+
+                                                Page 30 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+Technology Component Standards
+
+The following is a technology component standard for Desktop-attached Printers, Copiers, Fax
+machines and Scanners.
+
+                         Table PLA-S-04: Desktop Attached Printing
+                             Technology Component Standard
+                                  Reviewed January 15, 2010
+    Strategic:
+    Laser printing devices are required for non-mobile black and white printing uses in situations
+    where a desktop attached black and white printer must be used
+    (Note: Desktop attached printers are strongly discouraged for most workers. See discussion in
+    Utilities section.)
+    Emerging:
+
+    Transitional/Contained:
+    Desktop attached (non-mobile) ink-jet printers for black and white printing are to be phased out
+    (Note: Desktop attached printers are strongly discouraged for most workers. See discussion in
+    Utilities section.)
+    Obsolescent/Rejected:
+
+Wireless Connectivity Devices
+Although use of wireless technologies for mouse and keyboard connections is becoming more
+popular, the more typical wireless connections in Commonwealth offices are for notebook
+connections to the local area network in conference rooms, PDA/smartphone connections to
+desktops, and Blackberry connections to servers. Wireless printing is rare.
+
+Several technologies support device interfaces and device to network interfaces including
+modems, infrared connections (IrDA), Bluetooth (IEEE 802.15), and wireless network interface
+cards or chipsets (IEEE 802.11 or WiFi), and more. Bluetooth personal area network (PAN) interface
+technologies (radio frequency, 1-100 meter) are expected to eventually replace infrared (optical,
+half meter) connections because of the relative improvements in speed, distance interference, and
+flexibility.
+
+The use of Bluetooth has increased drastically in recent years, and is especially popular in headset
+implementations for phones, wireless keyboards, mice, printers, and other uses. The WiMedia
+Alliance's multiband orthogonal frequency division multiplexing (MB-OFDM) version of ultra-
+wideband (UWB) was chosen for the new Bluetooth standard.
+
+IEEE 802.11a, b and g products are available in one card or as an embedded chip both as single
+protocols and in combinations (e.g., one card provides a, b and g frequencies and transmission
+methods) for providing wireless connectivity. Network Interface Cards (NICs) and embedded chips
+should accommodate all three WiFi standards due to the need to access multiple networks and to
+constant changes in wireless networks to improve capacity or availability. A given wireless network
+could use all three standards. At present, 802.11n devices and G plus devices are proprietary and
+should not be used in Commonwealth networks. Ratification of 802.11n devices is expected in
+January of 2010, but network infrastructure replacement should be part of any move to these
+devices within Commonwealth networks. However, it may not be possible to buy computers or
+
+                                               Page 31 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+other devices without the 802.11n protocol. The inclusion of this protocol along with 802.11 a, b,
+and c should not eliminate a device from consideration.
+
+With a move towards anywhere connectivity, wireless interfaces have become a necessity.
+Agencies should have in place wireless use policies appropriate for their business. For example,
+the agency may want the user to send emails using encryption on all connections but may
+encourage the free use of public Internet access with a personal firewall installed.
+
+Wireless security is beyond the scope of the Platform Domain, but agencies that choose to deploy
+wireless personal computing devices must consider the business needs and their security
+requirements. In some instances this will require discussions with wireless service providers and
+in other instances, with agency or VITA security personnel.
+
+The cost of wireless computing is decreasing as use spreads making it very likely that wireless
+PANs, LANs and MANs will dominate future connectivity. For personal computing, this will mean
+wireless keyboards, monitors, mice, headsets, computers, and speakers in every office and
+wireless management of devices and software. Everything including power could be wireless. Now,
+wireless connections to Internet and entertainment on passenger computers are even provided on
+numerous airplanes.
+
+Recommended Practices
+
+The following are recommended practices for Wireless Connectivity Devices.
+
+        PLA-RP-03       Agencies with responsibilities for providing IT infrastructure that procure
+                        computers should equip the standard notebook computer with a wireless
+                        interface (e.g., IEEE 802.11a, b, or g card or embedded capability) to enable
+                        state workers to take advantage of wireless connectivity provided in public
+                        spaces.
+
+        PLA-RP-04       Agencies with responsibilities for providing IT infrastructure should disable
+                        wireless connectivity capabilities by default and only allow enabling of them
+                        at time of use.
+
+        Rationale:
+        This will minimize the unnecessary wireless poll signals as well as save on Dynamic Host
+        Configuration Protocol (DHCP) issued IP addresses.
+
+                                              Page 32 of 67
+
+ETA Platform Domain Report Requirements                                                            Version 3.1 May 2, 2023
+
+Technology Component Standards
+
+The following is a technology component standard for Wireless Connectivity Devices .
+
+                       Table PLA-S-05: Miscellaneous Mobile Components
+                               Technology Component Standard
+                                    Updated January 15, 2010
+    Strategic:
+    Receivers/transmitters for Local and Personal area networks (LAN & PAN) and mobile devices
+       IrDA—infrared used on handhelds
+       Bluetooth devices 2.1+EDR; 3.0
+       WiFi 802.11 (a+b+g)
+    Emerging:
+    WiMax Capable Devices
+       True Mobile 4G services from Sprint are supported by a few devices including Centrino 2, an
+       IBM Thinkpad, and some Aircards. Devices supporting new mobile wireless WiMax standards
+       and those in development will make this a reality in more locations if the economy permits
+       progress. This means very high speed connectivity and data transfers in moving vehicles.
+       Mobile 4G services are in place in the US in Baltimore (Sprint XOHM) with the next nearest
+       (to Virginia) service to be in DC. There are no plans for services in VA at present, thus
+       leaving this technology in the Emerging category for some time. 6 XOHM users have had
+       some connectivity problems. IEEE ratification was expected in March 2009, but another RFC
+       was created.
+    802.11n WiFi Capable Devices
+       Provides next generation wireless with reduced distance degradation and better multimedia
+       streaming at higher speeds; ratification of the standard expected in the Fall of 2009 (100
+       Mbs). Use of devices on the market requires infrastructure replacements that are not
+       permitted until ratified. However, devices may have n capabilities built in (e.g., notebook
+       chipsets) as long as it is not used.
+    Transitional/Contained:
+    PC Cards (PCMCIA) and internal devices (e.g., embedded in chipsets) that are not receiving all
+    ratified standards including 802.11 a, b and g (to maximize wireless network design possibilities)
+    and soon, 802.11n
+    Bluetooth devices, less than version 2.1
+    Obsolescent/Rejected:
+
+7 Sprint's 4G Xohm WiMax: How fast is it?; By Brian Nadel; October 10, 2008 12:00 PM ET: Computer World.
+
+http://www.computerworld.com/action/article.do?command=viewArticleBasic&taxonomyName=Mobile+and+Wireless&articleId=9
+116844&taxonomyId=15&pageNumber=2
+
+                                                       Page 33 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+Security Devices
+A variety of security devices are available to enhance network security or data security via
+improving authentication or access requirements by adding another layer. This is especially useful
+with mobile devices that are easily lost or that are targeted for theft.
+Biometrics and smartcards are used for adding an authentication security layer for accessing both
+networked servers and personal computers. Smartcard and biometric methods typically require a
+reader that attaches to the personal computing platform in the form of a keyboard/reader
+combination or a separate reader. Several manufacturers including IBM and HP have added
+biometric readers to notebook offerings. Most workers do not activate biometrics as they lengthen
+the process for accessing the computer beyond the now required long boot up, accepting
+responsibility screen, hardware login, VPN login and login to other systems accessed. Key fobs are
+usually key ring or medallion objects and smartcards are in credit card form. Some key fobs provide
+pin accessible password tokens that are keyed into the system or application, some signal to a
+radio frequency (RF) reader that may be attached to a USB port and read by software. Depending
+on data sensitivity and risk issues, these devices may be useful.
+
+BlackBerrys, Smartphones and Push Email Services
+Two push email server competitors vie for the bulk of business-provided services. These are
+BlackBerry Enterprise Server and Microsoft's Exchange ActiveSync with System Center Mobile
+Device Manager. The operating systems are respectively, Research in Motion (RIM) with a 40%
+market share and Windows Mobile (Versions 6.1 (current)), 6.5 (late 2009 release) and 7.0 (early
+2010 release)) with a 28 percent share.
+
+Device competition in the consumer market for smartphones, which are supported by
+telecommunication providers, has a significant impact on the service development directions and
+product options chosen by the push email providers for business settings. The competition over is
+fierce with the debut of new models with each of the most popular operating systems. The most
+recently released Palm Pre and iPhone 3G S sport such features as multitasking, which is quite
+valuable (Palm), a slide-out physical keyboard, which would please BlackBerry customers (Palm),
+and a video-camera (iPhone), which could have limited business importance for some agency
+workers. The BlackBerry Storm 2 is expected soon. The BlackBerry Tour will be available soon as
+a device for both Sprint and Verizon.
+
+The newest models of available smartphones including the Blackberry Storm typically have touch
+interfaces. Other consumer features and capabilities include GPS, Internet connectivity options
+including WiFi, cameras, video (30 fps) and audio recording, sliding keyboards, music, television,
+substantial storage (up to 32 GB), large screens, numerous applications, USB power/charging
+options, easy SIM swapping, geo-tagged photos (Symbian), built in compass for reorientation of
+GPS screens, and more. Perhaps most important to note is that users with these phones will prefer
+having secure options for adding business services to their phone rather than being forced to carry
+two devices. Internet-based email options of the future may provide the needed notifications and
+functionality.
+
+Currently, for BlackBerry services, the best models may still be the QWERTY physical keypad
+models, which include the new BlackBerry Tour. User reports on BlackBerry Storm models are not
+glowing, even though some improvements have been released. Users miss the physical keyboard
+and find the interface sluggish and the virtual keyboard to be unacceptable. If RIM is the OS of
+choice, continuing to use the older hardware for a while longer awaiting the availability of the Tour
+may be the best option
+
+Microsoft’s push email services use two different servers plus Exchange server to support a variety
+of phones including Apple iPhone, some Nokias and Windows Mobile. Sales are dropping on
+Windows Mobile devices compared to last year’s levels. Overall, critics agree that these devices
+
+                                               Page 34 of 67
+
+ETA Platform Domain Report Requirements                                                                Version 3.1 May 2, 2023
+
+need substantial improvements. Having access to a variety of applications that work on the devices
+is a major consideration for consumers. Both Nokia and BlackBerry have added application store
+features
+
+In consumer markets, smartphones will continue to capture growing shares of the communications
+device sales and will set the standard for business device choices. The present state of the
+economy has had an effect of slowing the purchase of personal and business smartphones.
+Consumer acquisition of smartphones will continue to grow, but at a slower rate over the next few
+years. Consumers will continue to favor the high-end devices similar to the iPhone and with WiFi.
+Growth in smartphone purchases in government will be slower and will favor the less capable
+devices
+
+Surge Protection
+
+All computers that are used to store valuable information should have some form of power surge
+protection when they are plugged in to electrical, cable, network or phone wiring. An example is a
+computer used by mobile workers who have no access to a VPN or server connection to store the
+day’s work. Service entrance surge protection does not take the place of point-of-use surge
+protection. A surge can originate inside the building if lightning hits the building wiring or if other
+building appliances cause the surge. Alternate energy sources also do not eliminate the need.
+The following list of caveats is not comprehensive. More information can be found on the State
+Farm Insurance web site at the following listing:
+http://www.statefarm.com/consumer/vhouse/articles/surgprot.htm
+
+Some important considerations are as follows:
+
+     •    A surge protector must be UL 1449, second edition rated, which means that it meets
+          current Underwriter Laboratory's requirements for surge protector safety 7.
+     •    A surge protector should be grounded and should never be used with a non-grounded
+          extension cord
+     •    A surge protector that will no longer conduct electricity if its protection capabilities have
+          been destroyed by too many surges is recommended. A light typically only means that
+          electricity is being conducted and not that the surge protection works. Surge protectors
+          can wear out.
+     •    You must use the jacks in the surge protector for phone and other electrical input to have
+          full protection. No electrical input should go directly into your computer.
+     •    The surge protector must have input and output for the connectivity you use. For
+          example, different recommended jacks (RJ specifications) are used for phone (POTS),
+          ISDN, DSL, T1, etc. (e.g., RJ11, RJ45, RJ48).
+     •    Buy a surge protector with a warranty and keep the warranty.
+     •    Remember to use a surge protector on your notebook. Notebook surge protectors are
+          often small and have retractable phone or data line connection cords.
+     •    The newer your equipment, the more sensitive it is likely to be to surges.
+
+8 UL1449 has basic safety tests no different from most UL standards for safety. These tests include leakage current, dielectric
+
+withstand, insulation resistance, temperature rise and mechanical integrity tests such as impact, drop, crush and mold stress relief
+distortion for plastics among others. http://www.leviton.com/sections/prodinfo/surge/ul1449.htm
+
+                                                          Page 35 of 67
+
+ETA Platform Domain Report Requirements                                              Version 3.1 May 2, 2023
+
+Recommended Practices
+
+The following is a recommended practice for Surge Protection.
+
+        PLA-RP-12        Agencies should provide surge protection for personal computers and
+                         should protect against surges for all electrical inputs. A two stage surge
+                         protector is best. Agencies should protect both at the service entrance
+                         and at the point of use.
+
+        Requirements
+        The following is a requirement for Surge Protection.
+
+        PLA-R-15         Agencies shall provide a surge protector that can protect from surges
+                         through electrical inputs including network, telephone and power lines to
+                         field workers who need to protect the data stored on their personal
+                         computers.
+
+        Rationale:
+        The term, “field worker” includes teleworkers, roadway inspectors, park rangers and similar
+        workers who work outside of a networked office. Workers in networked environments
+        typically have the needed data protection, data backups, and server UPS protections
+        provided through their computing environments. Teleworkers typically store data
+        continuously through Virtual Private Networks (VPNs) that connect to protected
+        telecommunications and servers.
+
+Servers
+
+The platform domain addresses servers as single hardware devices and as configurations for utility
+service provision. Servers as hardware include the full range of computing devices from mainframe
+computers to small single-socket computers. Servers may support file and print controls, business
+applications, databases, Internet presence, voice communications, email, and other important functions
+for the enterprise.
+
+Most servers are part of a network. A server hardware solution may include single servers, virtual servers,
+clusters, farms, frames of server blades (e.g., servers in a blade chassis), server appliances, or n-tier
+applications solutions. Server and server solution capabilities, scalability, reliability, management options,
+and shared use options are important factors in decisions regarding servers.
+
+Server hardware considerations include sockets, processors, ports, interfaces, communications buses,
+and memory, storage, power, and controller components. Server software discussed in this section
+includes operating systems and similar management software. Other utility software such as email
+software is discussed in the utility section of this report. The following server components are addressed:
+
+    •   High-end servers including OS
+    •   Midrange/low-end servers including OS
+    •   Consolidation platforms
+
+Commonwealth’s Strategies for the Server Architecture
+
+A Commonwealth-wide strategic perspective should ensure the following enterprise architecture
+objectives:
+
+                                                Page 36 of 67
+
+ETA Platform Domain Report Requirements                                                           Version 3.1 May 2, 2023
+
+       •    Reduce server platform operating cost across the enterprise
+       •    Improve servers (and service delivery) performance quality for customers
+       •    Provide a full range of platform capabilities to meet strategic and operational business
+            requirements
+       •    Implement storage consolidation methods; limit backup and recovery storage costs, reduce the
+            risk of data loss, and ensure service restoration within defined recovery timelines
+       •    Implement homogeneous server solutions across the enterprise (e.g., reducing the number of
+            OSs, images, brands, management solutions, etc.)
+       •    Utilize virtualization approaches where practical
+       •    Ensure performance metrics for the total solution are factored into the decision making process
+       •    Ensure reliability and availability for mission critical processes
+
+The ability to grant exceptions to the requirement to only use “strategic” operating systems will be critical,
+especially for servers that support business applications that cannot be moved cost-effectively. Also,
+when agencies wish to adopt applications developed for other states, the agency may need an exception
+if the application has only been proven on one out-of-architecture platform. Agencies should only migrate
+from existing platforms when it is cost-effective to do so or when the manufacturer/vendor has
+scheduled the existing platform for obsolescence (i.e., plans to eliminate support).
+
+Multiprocessors and 32 vs. 64 bit Processors
+
+In recent years, physical limits in materials used in processors (i.e., silicon) have resulted in an end to the
+rapid upward trend in processing speeds (i.e., CPU GHz). These limits have resulted in a turn to other
+architectural redesign methods similar to what is done in the mainframe world to improve processing.
+
+Now, multiprocessing, simultaneous dual threading, multiple direct connections to I/O and memory, and
+strategic use of cache are the main methods for improving processing capabilities in servers.
+
+However, there are business side costs to taking advantage of these improvements. Now, it is extremely
+important to evaluate commercial off-the-shelf software (COTS) for its ability to take advantage of
+processor improvements (specific processors) that use multiple cores and simultaneous threading.
+
+Actually, applications will have to have benchmarks based on total server hardware configurations as the
+drive and memory speeds will also come into play. For non-COTS, agency specific software, agencies
+needing performance improvements may have to rewrite existing software to enable use of new
+architectural designs.
+
+Now, there are two issues of importance. Agencies that in the past have relied on hardware
+improvements to assist them with meeting the demands of increased utilization of software (e.g., due to
+steady growth in the number of customers served) can no longer depend on hardware for this. The
+growth will cause movement of bottlenecks from the hardware provider side of the equation (new
+hardware is needed) to the agency side.
+
+The new, more capable hardware will only be of value if the software can use its capabilities. The
+software must be adjusted to improve parallelism and the ability to process simultaneous threads. This
+will be of increasing importance in the future as processors increase cores and threads and replace
+interconnection strategies.
+
+Present competition between AMD and Intel for the processor market share show Intel with about 89
+percent and AMD with 11 percent8. The strong competition between the two companies has resulted in
+both quality and price competition. Intel’s strategy allows each core to handle multiple instructions at
+
+9
+    IDC analyst Shane Rau. Reported in China Daily http://www.chinadaily.com.cn/world/2009-06/02/content_7964192.htm
+
+                                                        Page 37 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+once, but this is not useful to every application. AMD provides value in quality and cost, thus causing Intel
+to slowly lose market share in a dwindling market. Intel’s latest processor is the eight core Nehalem EX
+which will be competing in 2010 with its own Xeon 7400. AMD competes with its six core Opteron. Future
+designs continue to increase cores and access times in the “x86” market and on the high-end machines.
+
+Present application providers are scurrying to move from 32 bit to 64 bit processing without losing their
+current processing power and speed and Microsoft is in a race to go far beyond 64 bits to take advantage
+of the ever increasing cores, threads and resulting instances of simultaneous multiprocessing.
+
+From an agency perspective, the question is whether any change will cause problems or result in an
+improvement. Upgrades of hardware, OS, or any other single software product used in the application can
+affect performance and the operations of business critical systems. Because of this, stepwise testing of
+changes is recommended whenever it is possible and not too costly to do so. For applications, those
+agencies with tiered systems will be in a better position to assess the separate affects of changes to
+hardware and/or operating systems for applications, middleware, databases, storage, and backup
+systems.
+
+Those agencies that have been using Linux and UNIX will have a lesser challenge as those components
+of their application architectures can accommodate hardware changes without OS changes and
+application changes.
+
+The difficulty from the perspective of an application is this: servers are no longer providing clock speed
+improvements which were helpful in extending application life. Now, server process increases are
+available for squeezing more efficiency out of the CPU. This method puts the burden of improved
+application functioning on the shoulders of the developer.
+
+Each server socket has “server processes” in a number equal to the number of cores times the number of
+threads per core. This means that for the application to improve efficiency, it must be able to make
+simultaneous use of additional processes. The term used to describe this is simultaneous multithreading
+or SMT.
+
+Both the operating system and the application software must be multithreaded. At present, Windows is
+not able to take full advantage of all the processors currently on the market. Because the number of
+processes per socket is expected to grow rapidly over the next few years, both operating systems and
+application software will have shortened life cycles, thus increasing agency costs.
+
+Microsoft has announced that Windows Server 2008 is the last Windows OS that will permit downgrading
+to 32 bit addressing. This means that all agencies running Windows applications will have to upgrade
+their applications to accommodate 64 bit addressing by 2018 when Windows 2008 is at end of support.
+The R2 version of Windows 2008 is expected in 2010 and will have improved scalability to 256
+simultaneous processes. However, the Hyper V will be more limited in scalability.
+
+One final issue is the unknown landscape that will result from Oracle’s 2009, third quarter acquisition of
+Sun including hardware, operating systems, the Sparc processor and more. Only speculation is possible
+at this point because Oracle will not release its roadmap until after the acquisition.
+
+In summary, those agencies running applications, middleware, databases, or storage/backup systems on
+multi-processor servers (Windows, Sun, Fujitsu PrimePower, etc.) or on single processor servers have
+considerable change and uncertainty heading their way. Unfortunately, the agency-side changes to
+applications that may be required could be costly and difficult to accommodate during a recession. Over
+the next ten years, careful planning is required to sequence the changes to OS, applications and hardware
+to maximize business benefit.
+
+                                               Page 38 of 67
+
+ETA Platform Domain Report Requirements                                                Version 3.1 May 2, 2023
+
+Server Consolidation
+Server consolidation is an architectural strategy that can control costs in situations where the enterprise
+will realize scalability, attain improved simplification of processes and enhance backup and recovery
+procedures.
+
+Gartner suggests there are three consolidation approaches (basic definitions are from Gartner).
+
+    •       The first type of consolidation, logical consolidation, leaves servers where they are and manages
+            them centrally. The management software used for remote administration must handle well the
+            types of servers in the current and envisioned future architecture.
+    •       The second type, physical consolidation, requires moving agency server hardware to one or more
+            central locations to be managed across groups of agencies or co-locating replacement hardware
+            as existing servers become obsolete. In Virginia, this consolidation solution also requires
+            effective telecommunications for getting the data and functions to the users in addition to an
+            efficient central management process and procedures.
+    •       The third type of consolidation, rationalized consolidation, requires using scale-up and scale-out
+            consolidation platforms for the co-location (perhaps by type) of applications, databases, general
+            storage, network functions, and utility functions (e.g., those network, application, or database
+            functions that are handled commonly across agencies). Collocation of such applications might
+            involve using hardware provisioning such as blade servers racks and utilize techniques such as
+            server clustering, server partitioning, or server virtualization.
+
+            Rationalized consolidation might include bringing together many different applications to one
+            platform (e.g., all Oracle databases) or consolidating multiple instances of the same utility
+            application such as email. Rationalized consolidation is the most risky and, therefore, requires
+            particular attention to assessing risks and costs for the alternatives being compared.
+
+To-Be Architecture
+
+The Commonwealth’s present server architecture is predominantly Microsoft and UNIX, with UNIX being
+used primarily for applications that require higher-end server capabilities. This will not change in the near
+future. The server architecture will continue to include Microsoft, UNIX (including HP-UX, AIX, Solaris and
+Linux) and the IBM z/OS mainframe. The Commonwealth’s long-term architecture goals will:
+
+        •    Reduce the number of servers
+        •    Minimize the number of data centers
+        •    Relocate critical servers from unsecured locations to secure data centers
+        •    Limit the number of operating systems and versions
+        •    Track planned retirement dates for applications and for server hardware
+        •    Increase the use of Linux across the enterprise where appropriate
+
+Principles
+The following are guiding principles for Servers.
+
+            PLA-P-13        Server selection flexibility is vital to accommodate large-scale enterprise
+                            business strategy.
+
+            PLA-P-14        The server consolidation process should be efficient.
+
+            PLA-P-15        Server complexity should be reduced in a competitive manner.
+
+                                                  Page 39 of 67
+
+ETA Platform Domain Report Requirements                                              Version 3.1 May 2, 2023
+
+Recommended Practices
+
+The following are recommended practices for Servers.
+
+        PLA-RP-15       Agencies with responsibilities for providing IT infrastructure are encouraged to
+                        adopt ITIL-ICTIM (Information Technology Infrastructure Library – Information and
+                        Communication Technology Infrastructure Management) best practices to
+                        manage platform life cycles.
+
+        PLA-RP-17       Agencies with responsibilities for providing IT infrastructure should leverage their
+                        business volumes and central control to pursue the costs savings and benefits of
+                        architecture simplification in platform procurement and scaling decisions.
+
+        Rationale:
+        Acquisitions of servers, appliances, blades, etc., and related hardware or software should be
+        restricted to no more than two brands for a hardware type to promote price competition and
+        simplifying the architecture. New contracts may be appropriate every one to two years. The
+        competition should be based on the most procured size and type of server for an in-architecture
+        operating system, but the award should extend to variations within the class (e.g., within the
+        commodity class or low-end). Support, reliability, performance, and other needed qualities should
+        be weighed appropriately. The advantage of having two brand selections is continued competition
+        over the contract for performance and price. Areas of greatest savings should be addressed first.
+
+        PLA-RP-19       Agencies with responsibilities for providing IT infrastructure should ensure that the
+                        maintenance support response-time is in line with business needs for all
+                        applications on each specific server.
+
+        PLA-RP-20       Agencies with responsibilities for providing IT infrastructure should follow the OS
+                        manufacturer’s specific systems setup policies and best practices.
+
+        PLA-RP-21       Rack mounted servers should be used whenever possible. Blades may be more
+                        appropriate in some instances but should be considered on an application by
+                        application basis. Concerns about the proliferation of proprietary management
+                        systems should also be considered.
+
+Requirements
+
+The following are requirements for Servers.
+
+        PLA-R-17        Agencies with responsibilities for providing IT infrastructure and/or service
+                        providers shall ensure that servers which support production are under a
+                        maintenance agreement for the planned life of the server. For x86 architecture, the
+                        planned life shall be a minimum of five years.
+
+        PLA-R-18        Agencies with responsibilities for providing IT infrastructure shall migrate to either
+                        NAS (Network Attached Storage) or SAN (Storage Area Network) or combination
+                        whenever feasible and cost beneficial.
+
+        PLA-R-19        Agencies with responsibilities for providing IT infrastructure shall not use OEM
+                        provided operating systems (OS) for x86 server hardware.
+
+                                              Page 40 of 67
+
+ETA Platform Domain Report Requirements                                                  Version 3.1 May 2, 2023
+
+        PLA-R-36          Agencies with responsibilities for providing IT infrastructure shall consider growth
+                          requirements over the server life to enable minimizing costs and reducing wasted
+                          capacity.
+
+        Rationale:
+
+        Planning may enable acquisition of a small number of large capacity memory modules instead of a
+        large number of smaller modules and may enable avoiding excess and underused server capacity.
+
+        PLA-R-37          The release version levels of all server operating systems shall have vendor or
+                          equivalent level support. This support shall include security update and hotfix
+                          support. The use of unsupported open source server operating systems shall be
+                          avoided.
+
+High-End Servers
+High-end servers are defined as servers that may scale to more than 16 sockets in size and that use highly
+specialized architectures and processors. These mainframe-type servers typically cost more than $250,000
+and have significantly greater capabilities in areas including reliability, availability, serviceability, security,
+privacy, business continuity provision, management consistency, and risk reduction. The operating
+systems such as zOS provide these characteristics. They are more scalable than midrange servers, which
+have similar characteristics (e.g., SMP/NUMA).
+
+                                                  Page 41 of 67
+
+ETA Platform Domain Report Requirements                                           Version 3.1 May 2, 2023
+
+Technology Component Standards
+
+The following is a technology component standard for High-End Servers.
+
+                              Table PLA-S-08: High-End Servers
+                              Technology Component Standard
+                                    Updated January 15, 2010
+  Strategic:
+  Software
+      z/OS
+      Solaris*
+      HP-UX
+      AIX
+      Windows (may not be keeping up with hardware advances)
+      Linux in virtual partitions
+      Virtual Server OSs (e.g., zVM, VMware, strategic only for: supporting OSs that are in the desired
+      future architecture (e.g., Linux, Windows, HP-UX and Solaris* and for use in building test
+      environments
+       Hypervisors are critical management tools for provider and agency-side cost reduction
+  Hardware
+      IBM, Sun*, and HP platforms are strategic.
+      Hardware alternatives to these platforms may be considered if they are fully compatible for
+      running applications designed for strategic systems, provide equal or better performance for all
+      application and architectural requirements, and introduce no problems to the Virginia
+      architecture other than those that may be cost-effectively resolved. (Fujitsu, for example, is an
+      alternative to Sun* for the Solaris OS)
+
+  * Note: Sun’s Q3 2009 acquisition of Oracle may cause Sun’s and Solaris’ inclusion in “Strategic”
+          to be reevaluated
+  Emerging:
+  Software
+      Windows Virtual Server 2008 R2
+      Hyper V
+  Transitional/Contained:
+  Software
+      Unisys OS2200
+      VMS
+      Unix other than Solaris, AIX, Linux, and HP-UX
+      Virtual Server OSs used to support older versions of a strategic OS in cost-effective
+      consolidation transitional plans
+      OS 5i (formerly OS/400)
+  Hardware
+      IBM ES9000 (9221)
+  Obsolescent/Rejected:
+  Software
+      MVS XA
+      MPE
+      OS/400 (library OS)
+      MVS OS/390
+
+                                              Page 42 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+Midrange to Low-end Servers
+Midrange to low-end servers typically cost $50,000 or less. The low-end servers would usually have one to
+four sockets, but with dual-core or quad core processors that are multithreaded, they are quite powerful.
+With the wide variety of configurations possible, these servers will be able to scale both up based on
+processors chosen and scale-out via cluster and mesh configurations. Typically, these servers run Linux
+and Windows.
+
+A midrange computer may be described as a scaled-down version of a high-end server. However, with the
+changing processor architectures on the low end, the specialized management capabilities in the
+midrange are now more defining than the number of CPUs. However, Windows is less scalable, and so
+Linux and UNIX provide greater scalability in the midrange.
+
+Although the midrange market still exists, there seems to be a practical division between high-end scale-
+up solutions and low-end scale-out possibilities. This is partly due to the competitive pricing of the high-
+end and partly due to processor changes and scalability improvements at the low-end.
+
+However, because Windows is so dominant at the low-end the present day Windows server OS will have
+to change drastically to keep up with modern processor and hardware changes. Currently, the Windows
+OS is a significant bottleneck to low-end scalability. Planned changes in Windows to better accommodate
+multiprocessing and parallel processing will be extremely important but may also have a domino effect
+requiring changes in all the applications that run on Windows.
+
+                                               Page 43 of 67
+
+ETA Platform Domain Report Requirements                                          Version 3.1 May 2, 2023
+
+Technology Component Standards
+
+The following is a technology component standard for Midrange/Low-end Servers.
+
+                       Table PLA-S-09: Midrange/Low-end Servers
+                            Technology Component Standard
+                                 Updated January 15, 2010
+   Strategic:
+   Software
+       Windows Server 2003 family
+       Microsoft Windows Server 2008 not including Hyper-V
+       Unix (Solaris, AIX, HP-UX and Linux)
+       Virtual Server OSs (e.g., VMware and zVM; Xen Virtual Hypervisor)
+   Examples
+       Windows Server 2003/2008 and Exchange 2007 servers are especially appropriate for
+       shared utility services including domain controller, file, print, email, etc.
+       Linux may be an alternative for Web, database, and shared utility services
+       Virtual servers and virtual machines aid in providing test environment setup
+   Hardware
+       Numerous manufacturers compete for low to midrange server hardware; narrowing the
+       variety used by the Commonwealth at a point in time is important to reducing acquisition,
+       maintenance and support across agency solutions
+       Multicore processors will be used increasingly as a method of improving processing
+       capabilities of server hardware, but without corresponding application changes to take
+       advantage of multithreading and parallel processing, agencies may see application
+       degradation rather than improvement when moved to new hardware.
+   Emerging:
+   Software
+       Microsoft Windows Server 2008 with Hyper-V (still scalability issues; may meet certain needs
+       well)
+       Microsoft Windows Server 2008 R2
+   Transitional/Contained:
+   Software
+       Windows 2000 Advanced Server family (By June 2010, agencies should have completed
+       migration of all business applications to a newer version. Migrations should be underway well
+       before the support end date; extended support is presently scheduled for ending July 13,
+       2010)
+       Virtual Server OSs (e.g., VMware hypervisor, Integrity Virtual Machines, and in some cases,
+       Windows 2003 Virtual Server R2) enable transition strategies for multiple versions of the
+       same OS
+       OS10 Server as a transitional OS for aiding in the use of Windows staff for Unix work due to
+       the Windows-like user interface instead of command line
+   Obsolescent/Rejected:
+   Software
+       NT
+       Novell
+       OSX
+
+                                             Page 44 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+Consolidation Platforms
+
+A consolidation platform is typically a single high-end platform or a large aggregation of midrange or low-
+end platforms. Consolidation platforms are used to accomplish the following types of work more cost-
+effectively with improved backup, recovery, security, management, and business solution quality:
+
+    •   Centralizing a distributed information resource such as GIS data, library digital documents for
+        universities, customer data, library holdings, or other data. The centralized data are often of
+        enterprise significance and/or reusable resources. The data are often duplicated multiple times
+        across the enterprise prior to consolidation.
+    •   Centralizing an application that is implemented in a duplicative rather than in a distributed
+        manner such as centralizing numerous separate instances of email services (e.g., Exchange) and
+        related directories (e.g., Active Directories).
+    •   Centralizing a function that is implemented in many ways (numerous different applications)
+        across agencies such as license provision, federal grant management, or hospital information
+        systems.
+    •   Providing one server that can be partitioned for running many applications for many agencies
+        with limited and definable risk.
+    •   Providing one server that runs many applications for a single large agency.
+    •   Providing a central utility or service that does not require significant knowledge of the business
+        but that can be tailored in checklist fashion to meet each agency’s business needs such as
+        storage, mirroring, backup and recovery, sign on, network management, etc.
+
+                                              Page 45 of 67
+
+ETA Platform Domain Report Requirements                                           Version 3.1 May 2, 2023
+
+Technology Component Standards
+
+The following are technology component standards for Consolidation Platforms
+
+                               Table PLA-S-10:
+         Consolidate by aggregation on midrange to high-end platforms
+                       Technology Component Standard
+                            Updated January 15, 2010
+   Strategic:
+   Software
+       Unix (HP-UX, Solaris, AIX and Linux)-- (caution: Q3 2009 acquisition of Sun by Oracle)
+       z/OS
+       Windows
+   Consolidation Examples:
+       Appropriate for critical application and database tiers that require exceptional scaling, speed,
+       transaction processing, reliability, etc.)
+   Hardware
+       Exceptional partitioning and workload management are required for the server solution.
+       Example platforms include but are not limited to: IBM Mainframe, IBM POWERx, Sun/Fujitsu*
+       SPARC/UltraSPARC, Fujitsu/HP Itanium x (64) and AMD Opteron (64). (caution: Q3 2009
+       acquisition of Sun by Oracle)
+
+   * Note: Sun’s Q3 2009 acquisition of Oracle may cause Su/Fujitsu’s’ inclusion in “Strategic” to
+            be reevaluated
+   Emerging:
+   Ongoing management improvements. Ongoing CPU improvements: Multicore expansion to 8,
+   12+ processors; power saving design changes; thread count increases; cache increases.
+   Transitional/Contained:
+
+   Obsolescent/Rejected:
+   Software
+       MPE
+       MVS OS 390
+       Unisys OS2200
+       VMS
+       OS/400
+       IBM ES9000 (9221)
+
+                                              Page 46 of 67
+
+ETA Platform Domain Report Requirements                                          Version 3.1 May 2, 2023
+
+                       Table PLA-S-11: Consolidate by Scaling Out
+                            Technology Component Standard
+                                 Updated January 15, 2010
+   Strategic:
+   Software
+       Windows Server 2003/2008
+       Solaris*
+       HP-UX
+       AIX
+       Linux
+       Examples
+           (Note: clustering capabilities may come from other software such as MySQL Cluster
+           which runs on most of the above operating systems.)
+           Clusters are appropriate for MS Exchange Server (e.g., an email farm): clustered low-end
+           to low midrange solution on Windows Server 2003/2008.
+           Appropriate as a tier for single large or mirrored databases—e.g., Oracle real application
+           clusters (RAC) running on HP-UX, AIX, Windows or Linux.
+           Appropriate for Web hosting: (e.g., on Windows Server 2003/2008, HP-UX, Solaris*, AIX
+           or Linux)
+   Hardware
+       Typical solutions include farms/clusters using blades or servers in racks. Commodity servers
+       are commonly employed. Other options are possible.
+
+   * Note: Sun’s Q3 2009 acquisition of Oracle may cause Solaris’ inclusion in “Strategic” to be
+            reevaluated
+   Emerging:
+
+   Transitional/Contained:
+
+   Obsolescent/Rejected:
+   Software
+       Windows NT
+       Windows 2000
+
+                                             Page 47 of 67
+
+ETA Platform Domain Report Requirements                                           Version 3.1 May 2, 2023
+
+                     Table PLA-S-12: Consolidate using virtual tools
+                            Technology Component Standard
+                                 Updated January 15, 2010
+   Strategic:
+   Software
+       Virtual Servers (via Hypervisors, or Virtual Machine Software)
+            zVM or VMware
+       Permit virtual Windows, Solaris*, AIX, HP-UX, or Linux machines or servers in scale-out
+       solutions provided via zVM or VMware
+   Hardware
+       Typical solutions include low-end to high-end servers whose resources are divided and
+       shared among the virtual servers which run natively within the multiple partitions.
+
+   * Note: Sun’s Q3 2009 acquisition of Oracle may cause Solaris’ inclusion in “Strategic” to be
+            reevaluated
+   Emerging:
+   Software
+       Windows 2008 Hyper V (Virtual Server) (scaling issues)
+   Hardware
+       Intel and others are working to improve sub-processor partitioning capabilities
+   Transitional/Contained:
+   Software
+       Windows Virtual Server (still lacks scalability needed for many scale-out applications)
+       Permit virtual servers of older versions of supported OS in transitional efforts (may have
+       some use here)
+   Obsolescent/Rejected:
+
+                                             Page 48 of 67
+
+ETA Platform Domain Report Requirements                                                                Version 3.1 May 2, 2023
+
+Shared Utility Services
+
+Shared utility services are defined in this report to promote centralization and common handling of
+networked services that are currently implemented in many different ways using different practices
+across the served agencies and customers.
+
+The included shared utility services have been chosen from candidate services to be implemented
+first because they are expected to result in the best cost savings, service improvement and other
+benefits.
+
+The Commonwealth has a large installed base of Microsoft related products ranging from
+individual computing software to enterprise level software solutions. UNIX, Novell and other
+operating systems are on a relatively small portion of servers, although they are providing mission-
+critical application and services.
+
+Microsoft provides considerable well-tested guidance9 for architecting and managing Microsoft
+environments. In the area of utility services, Microsoft provides guidance for reducing risks,
+reducing costs, and providing better management of resources.
+
+Platform controls for networked utility services and devices, which may be provided in a common
+manner across agencies, will enable:
+
+   • Service consolidations
+   • Creation of more cost-effective services
+   • Simplification of the overall architecture across technical domains
+   • Easier provision of qualified platform and services staffs
+   • Improved customer access to quality services
+The utilities defined and addressed here are as follows:
+   • Storage Utilities: including devices and services for general storage, archiving, backup and
+         recovery
+   • Print, Fax, Scan and Copy Devices: Output servers and devices
+   • Email, Related Communications Utilities, and Coordination Services: Messaging with and
+         initial focus on email services that could later be expanded to include other networked,
+         mobile, audio, video, and data messaging services
+   • Network (LAN/WAN) Control Utilities control services: including initially server-based
+         network utilities and foundation services such as directories, IP addressing, DHCP servers
+         and DNS servers
+
+10 A good example of Microsoft’s guidance may be found in this older, but still relevant audio/slide presentation
+
+http://www.microsoft.com/seminar/shared/asp/view.asp?url=/Seminar/en/20030424vcon85/manifest.xml .
+
+                                                          Page 49 of 67
+
+ETA Platform Domain Report Requirements                                               Version 3.1 May 2, 2023
+
+Principles
+
+The following are guiding principles for Shared Utility Services.
+
+        PLA-P-16         Use of roadmapping techniques is encouraged as one method for limiting
+                         information technology risks and to defining transitioning activities in
+                         highly volatile and rapidly changing business and information technology
+                         environments.
+
+        PLA-P-17         Viable centralization, consolidation, access levels, and/or simplification
+                         for shared utility services including storage, firewall platforms, web
+                         servers, output servers, output devices, and related hardware and
+                         software should be facilitated.
+
+Requirements
+
+The following are requirements for Shared Utility Services.
+
+        PLA-R-20         Agencies with responsibilities for providing IT infrastructure shall
+                         standardize deployment, management methods and procedures for shared
+                         utility services where possible.
+
+        PLA-R-21         Agencies with responsibilities for providing IT infrastructure shall consider
+                         Microsoft best practices as guides for standardizing Microsoft Windows
+                         services across agencies until alternative shared utility services are studied
+                         and alternative methods are put into place.
+
+        Implications:
+
+        This requirement should not be construed to mean that only Microsoft Windows solutions
+        shall be deployed for utilities, or that only Microsoft best practices should be used. Any
+        alternatives considered should be analyzed using Microsoft utilities and Microsoft
+        deployment recommendations as the base service to which alternatives may be compared.
+
+        For example, the majority of web server deployments may use IIS servers and may follow
+        Microsoft best practices for their deployment. The alternative shared utility services below
+        may have general benefit for agencies, but should be compared in cost and benefit analyses
+        with other in-architecture options before proceeding. Example alternative shared utility
+        services include:
+        • Linux as a database OS (e.g., ESRI; Oracle RAC on Linux, MySQL clusters)
+        • Linux for selected utilities including web hosting running on low-end servers or in soft
+            partitions on midrange or high-end servers
+        • Linux for selected business applications proven on this platform
+        • Apache servers on Linux instead of IIS servers on Windows
+
+                                               Page 50 of 67
+
+ETA Platform Domain Report Requirements                                          Version 3.1 May 2, 2023
+
+Storage Utilities
+
+The term “storage system” encompasses the hardware, software, communications, networking,
+media, media controllers and management tools required to record data somewhere other than on
+a local PC and to index the data in a manner that allows it to be retrieved at a later time.
+Storage provision must be approached as a utility service designed to decrease costs and reduce
+risks while maintaining or improving performance and data availability.
+Other enterprise technical domains will address what management tools should be used (Systems
+Management Domain), what types of networking and protocols are restricted (Network Domain),
+what security tools are appropriate (Security Domain), and what middleware tools (Integration
+Domain) might be involved.
+
+Commonwealth’s Goals for a Storage Architecture
+
+The Commonwealth’s goal for storage is to have both local and central storage systems that are
+well planned, appropriately implemented and well managed. By conducting data storage capacity
+planning and identifying agency-wide storage requirements, an agency will be in a better position
+to match data retention and archival requirements with business requirements. The following list
+provides examples of goals for improving data storage systems:
+    • Increase storage reliability (e.g., address data availability and redundancy)
+    • Improve storage scalability (e.g., implement a solution that will overcome present software
+        and solution limits)
+    • Improve service levels (e.g., improve response time and speed)
+    • Increase hardware utilization rates (e.g., lower storage costs by using a greater percentage
+        of available capacity and implementing systems that can be managed with fewer human
+        resources)
+    • Reduce the need for planned outages (e.g., enable hot-swapping, remove storage traffic
+        from the LAN)
+    • Improve backup systems or disaster recovery (e.g., by central management and control of
+        options)
+    • Improve file-serving speed (NAS)
+    • Improve block-servicing speeds
+    • Decrease I/O burden on hosts
+    • Improve network availability (e.g., create a separate storage infrastructure (SAN))
+    • Meet write-once, read many times (WORM) media needs of some legal documents (e.g.,
+        CDs/DVDs may be a good option for meeting these needs)
+    • Accommodate distance requirements
+    • Reuse skills of existing staff in providing systems improvements (e.g., NAS models can be
+        implemented with existing network staff)
+    • Reduce management time
+    • Take advantage of management capabilities of more advanced systems and software
+        (e.g., storage management software may provide environment management, virtual
+        storage, metrics, off-site tape tracking, etc.)
+    • Take advantage of automation opportunities (e.g., server-less backup, business
+        continuation volumes, data warehouse input, synchronous or asynchronous mirroring,
+        snap shot, etc.)
+
+Data Storage Planning
+
+Storage planning metrics and reporting are very important for building services to meet agency
+needs across the many customer units (e.g., agencies for VITA, departments for universities,
+colleges for the Virginia Community College System (VCCS)) and locations. Good planning requires
+
+                                              Page 51 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+looking at storage needs from both unit and enterprise perspectives. Every agency or other unit,
+small or large, needs to consider the following:
+    • Special needs of each business application or utility service (e.g., email) including
+        permissible risks, performance, security, privacy, availability requirements, etc.
+    • Changing needs of applications (e.g., over time)
+    • Whether backup and disaster recovery systems are adequate
+    • How well storage traffic is being handled and will be handled in the future by the involved
+        networks, connections, and network services used in transmitting data (e.g., local area
+        networks (LANs), SCSI connections, wide area services (WANs) or special storage
+        networks (SANs))
+    • Costs and benefits of storage, backup and recovery alternatives
+
+Storage Parameters
+
+Many factors come into play in choosing among storage solutions: present storage needs,
+anticipated storage growth, server locations, user locations, transmission needs, specialized
+service needs, and more. Storage planning also requires joint consideration of aggregate needs
+and Commonwealth-wide opportunities for improving services or reducing service costs through
+central solutions.
+
+Data Types and Uses
+
+Much of storage solution planning should be done by data type and data use patterns. Solution
+options may vary for different data types. Example data types include real-time databases used by
+widely distributed users, static data used by users in only one location, indexed image data
+accessed via the Internet, email, email attachments, web pages accessed via the Internet, and
+static online library reference systems. These data types require different approaches to storage
+and to backup and recovery. For example, static data may require offsite, accessible copies but
+may not require periodic backup.
+
+Unneeded Data
+
+Modern storage management software permits policy-driven archiving. This type of mechanism
+provides interesting possibilities for reducing storage systematically. Agencies with
+responsibilities for providing IT infrastructure that provide central storage should provide tools to
+help agencies, departments and other units in decreasing the amount of stored data they maintain.
+
+Storage Solution Types
+
+Each storage solution type is appropriate for some business needs and not for others.
+
+•   Agencies with modest storage needs where central storage options with MPLS VPN access
+    may be prohibitively expensive. These agencies might benefit from LAN resident file servers
+    and occasional SCSI attached DAS. In this instance, agencies with responsibilities for providing
+    IT infrastructure might assist by selecting a solution (e.g., a canned NAS system), providing
+    purchase, maintenance, remote management, and standardization of backup and recovery.
+•   Agencies with high storage volumes mixed application servers (e.g., UNIX and Windows), or a
+    need to share files across a mixed environment: A central service might encourage use of NAS
+    instead of file servers. These agencies may effectively use a combination of file servers, DAS
+    and NAS in their environment, but simplification may be beneficial.
+•   Agencies with large web-hosted applications requiring cache, large volumes of email, or
+    databases that are accessed frequently. These agencies may also benefit from NAS and
+    NAS/DAS combined solutions.
+
+                                               Page 52 of 67
+
+ETA Platform Domain Report Requirements                                           Version 3.1 May 2, 2023
+
+•   Agencies with very large databases, heavy transaction processing, many data producing
+    applications, many employees, and/or over-committed network resources. These agencies
+    may need to consider the installation of SANs or unified NAS/SAN options.
+
+If telecommunications are affordable and remote storage meets business throughput needs, many
+agencies will benefit by using consolidated storage options (e.g., virtual remote storage). Multi-
+agency storage consolidations in locations of varying distances from the users, presentation
+servers, and application servers are now more cost effective and workable than they have been in
+recent years. Solutions such as MPLS VPNs and WAN acceleration services enable transmissions
+of data across WANS without suffering unacceptable delays that are often inherent in WAN but not
+in LAN solutions.
+
+An agency may be able to reduce costs significantly by having short-term and archived solutions
+for the application. Planned disposal of the data at some point in time, whether user generated and
+managed or business application generated will help to reduce storage cost escalation.
+
+Email storage is a significant and escalating cost for agencies. Colleges and universities are now
+taking advantage of free student email services offered by companies including Microsoft and
+Google. For storage related to other office applications including word processing, spreadsheet
+and presentation software, Google also provides free storage. However using a "free storage
+solution" may be prohibited due to State or Federal requirements because email may contain
+agency-confidential or PHI (protected health information).
+
+Storage from a Central Perspective
+
+The following are some possible areas for achieving cost savings in the provision of storage
+alternatives that meet business needs.
+
+    •   Having common central planning data across agencies and applications
+    •   Consideration of Microsoft tools and Microsoft best practices where feasible given the
+        overwhelming use of Microsoft for both applications and databases
+    •   Consideration of third-party add-ons to Microsoft systems when weak solutions are
+        provided
+    •   Consideration of virtual storage options
+    •   Strategic choice of storage platform solutions (e.g., appropriate use of NAS devices,
+        blades, and tapes)
+    •   Ensuring that storage management software has specialized handling capabilities for
+        storage associated with selected services with escalating storage needs such as email
+        services or databases
+    •   Centralizing or regionalizing data storage for data that is currently stored many times
+        across the executive branch (e.g., certain map data, accident report data, customer data,
+        or library reference data)
+    •   Providing cost-saving options for customers that reduce costs while meeting business
+        needs (e.g., storage options with levels of services such as backup frequency alternatives
+        to accommodate data that changes only once annually versus data that changes every
+        day)
+    •   Providing well planned backup and recovery services as a utility
+    •   Ensuring good toolset integration across management tools used
+    •   Providing agencies with the information, reporting and tools they need to establish policy
+        and policy implementation feedback mechanisms for storage controls to the fiscal unit
+        level if possible
+    •   Good storage management and provisioning
+
+                                              Page 53 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+Central Services Hardware and Software
+
+Most high end storage systems are end-to-end solutions with one or more high value capabilities.
+Hardware, software, interface, and tunneling capabilities change continuously. Within an
+enterprise, storage experts tend to make decisions about cost effective choices based on input
+from platform and application specialists that design, build and monitor the systems producing the
+stored data.
+
+When purchasing systems, it is important that they meet needs across server platforms and utility
+services. However, it is also important not to eliminate special capabilities of the platforms when
+attempting to combine platform output. For this reason, hardware and software advances will only
+be discussed in relation to particular crucial, multiagency needs.
+
+The ability to control growth of storage when possible and utilize less expensive storage solutions
+tends to be more a policy and training vs. hardware or software concern. Business requirements
+are critical to success in making hardware and software choices for central systems. Among the
+most important requirements are storage growth control and legal requirements demanding
+storage parameters
+
+Recommended Practices
+
+The following are recommended practices for Storage Systems.
+
+        PLA-RP-24       Agencies with responsibilities for providing IT infrastructure should
+                        consider the full range of storage alternatives. NAS, SAN, DAS, file servers,
+                        NAS/SAN combinations may all be appropriate depending on storage
+                        volumes, LAN bandwidths, WAN throughputs, connectivity requirements,
+                        and other factors.
+
+        PLA-RP-26       Agencies with responsibilities for providing IT infrastructure that provide
+                        storage services should evaluate Linux as an operating system for storage
+                        solutions (e.g., in solutions such as backup).
+
+        Rationale:
+        Linux is being explored worldwide as an alternative to Windows for selected uses and may
+        provide cost savings.
+
+Requirements
+
+The following are requirements for Storage Systems.
+
+        PLA-R-22        Agencies shall perform periodic capacity and storage planning and provide
+                        those plans when requested to the agency with responsibilities for
+                        providing their IT infrastructure. The availability of planning data will
+                        improve storage, backup and disaster recovery solutions for the
+                        Commonwealth.
+
+        PLA-R-23        with responsibilities for providing IT infrastructure must offer capacity
+                        planning and storage planning services to assist supported agencies in
+                        determining their present and future requirements.
+
+                                              Page 54 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+       PLA-R-24        Agencies shall consider all of their applications when conducting capacity
+                       planning and when developing a storage plan.
+
+       PLA-R-25        Agencies with responsibilities for providing IT infrastructure that manage
+                       storage consolidation shall design consolidated storage solutions with for
+                       servers used by multiple applications within an agency, by multiple
+                       agencies, or managed as a group across agencies and applications.
+
+       PLA-R-29        Agencies with responsibilities for providing IT infrastructure shall consider
+                       the value of improved backup and recovery management, reduced backup
+                       and recovery costs, and improved backup and recovery service levels when
+                       developing storage management plans and costs. This very important
+                       benefit of server and storage consolidation must be included in cost
+                       comparisons.
+
+       PLA-R-31        Agencies with responsibilities for providing IT infrastructure shall include
+                       assessments of connectivity needs and options for the customer base
+                       when designing consolidated storage solutions.
+
+       Rationale:
+       A consolidated solution often requires added connectivity. This connectivity may both
+       increase costs and degrade throughput. The distance to the consolidation system and the
+       costs of connectivity may be critical factors. Solutions including iSCSI, MPLS VPNs, WAFS,
+       blade chassis, storage virtualization, and SAS are among the tools that may be beneficial in
+       reducing total storage costs.
+
+       PLA-R-32        Agencies with responsibilities for providing IT infrastructure when
+                       designing consolidated storage solutions must evaluate the cost-
+                       effectiveness of locally consolidated storage options for the physically co-
+                       located servers if central remote storage is cost-prohibitive.
+
+                                             Page 55 of 67
+
+ETA Platform Domain Report Requirements                                                             Version 3.1 May 2, 2023
+
+Technology Component Standards
+The following is a technology component standard for Storage Systems.
+
+                                     Table PLA-S-13: Storage Interfaces
+                                      Technology Component Standard
+                                           Updated January 15, 2010
+     Strategic10:
+     FC—FIBRE Channel single or multimode up to 12.75 Gbps in each direction: Topologies—FC-AL
+     (arbitrated loop), FC P2P (point to point), FC SW (switched); typically Remote FCIP)
+     FICON
+     SCSI
+     10/100/Gb Ethernet; 10/100/2Gb Ethernet
+     iSCSI
+     PCI Express
+     FC-IP
+     10GigE
+     SAS (Serial Attached SCSI)
+     InfiniBand (IB)
+     Emerging:
+     FCoE (Fibre Channel over Ethernet)
+     10 GB Ethernet
+     Transitional/Contained:
+     10/100 Ethernet
+
+     Obsolescent/Rejected:
+     ESCON, 17 Mbps (Mainframe)
+     Block/Parallel (distance limits and speed problems) 4.5 Mbps (Mainframe)
+
+11For example, these a re 2008 high end storage connectivity solutions: The Symmetrix 8000 series provides concurrent multi-host
+
+support for a wide range of open systems and mainframe platforms and operating systems with Ultra/Ultra2 SCSI, ESCON, FICON,
+and Fibre Channel (FC-AL or FC-SW) interfaces. Connect storage from virtually all UNIX, Windows2000/NT, Linux, mainframe, PC
+LAN, and AS/400 servers. http://www.sandirect.com/product_info.php?cPath=145_152&products_id=352
+
+                                                        Page 56 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+    Print, Fax, Scan and Copy Devices
+For networked print, fax, scan and copy services, the standardizing of hardware, software, supplies,
+deployment, management, and staff training all offer high potential savings when coupled with paper
+reduction efforts.
+The Commonwealth can improve services to employees and agencies by providing better color printing,
+faster printing, more available printing, more accessible scan and fax services, and better agency-level
+reporting of service usage for improved policy setting and cost reduction.
+While it is important on the one hand to have the services needed, it is also important to have controls.
+Policies within are a very critical part of controlling escalating and unnecessary output production. Also
+important is having solid alternative practices and tools including the use of media alternatives to paper
+libraries for those who have this need.
+In recent years, network print, fax, copy and scan devices have become more capable, more
+multifunctional, and more cost effective. Color printing is more affordable and presents a great business
+tool for reaching customers and others with whom agencies communicate. In most offices, use of shared
+workgroup devices is now considered to be common and desirable. For some business units, having
+access to high-speed printers and copiers that can collate and staple large numbers of documents when
+necessary is considered to be a necessity.
+
+Minimum Service Levels
+Recommendations presented here address minimum service levels including distance to service centers
+from individual offices and work stations, minimum on-site availability of services, and duplication of
+services when devices fail. These levels are proposed as best practices based on vendor
+recommendations, industry practices, and the perceived needs of knowledge-workers. Agencies and
+other customer groups may wish to modify these levels up or down based on actual work done or policies
+for use reduction.
+
+Recommended Practices
+The following are recommended practices for Print, Fax, Scan and Copy Devices.
+        PLA-RP-27        Agency employees should have access to networked print, fax, and scan services
+                         within approximately 100 feet of their work area.
+        PLA-RP-28        Agency employees should have office access to laser color printing, laser black
+                         and white printing, collating with stapling, and two-sided printing at a minimum in
+                         any office with more than 20 users of PCs. In small offices, business needs may
+                         dictate using services rather than having all capabilities in house.
+        PLA-RP-29        Agencies should deploy one or more multifunction document handling
+        PLA-RP-30        Agencies with responsibilities for providing IT infrastructure who provide
+                         document handling devices should replace them every five years or more often if it
+                         is cost-effective to do so. Estimates of employee productivity loss due to device
+                         downtime should be included in the process for deciding when to replace.
+        PLA-RP-31        Agencies that support print, fax, scan and copy devices should implement a
+                         minimum service plan for networked document handling devices for all customer
+                         sites with options for customer additions and deletions.
+        Implication:
+        The actual implementations should include consideration of whether a network exists in the
+        location, whether high or low volumes of documents are handled due to business differences,
+
+                                               Page 57 of 67
+
+ETA Platform Domain Report Requirements                                             Version 3.1 May 2, 2023
+
+        whether extra devices are required to reduce distances, whether savings on services will cover
+        office reconfiguration, and other local considerations.
+        PLA-RP-33        Agencies should establish practices and policies to help control the escalation of
+                         printed output.
+        Implication:
+        For example, the agency could address personal printer use, track and post printing growth, post
+        color versus black and white price differentials, provide print-on-demand web libraries as an
+        alternative to printing extra copies of documents and storing them, or encourage employee use of
+        personal CD/DVD libraries of non-critical reference materials to reduce printing escalation and
+        costs.
+        PLA-RP-34        Agencies should control the acquisition of copy and print supplies to reduce costs.
+        Rationale:
+        When output device supplies are proprietary, better prices may be negotiated as part of the
+        acquisition contract. Certainly, these highly variable costs should be included in the TCO of any
+        equipment acquisition decision.
+        PLA-RP-35        Agencies with responsibilities for providing IT infrastructure should provide secure
+                         printing and scanning options to customers when they are cost-effective
+                         alternatives to agency use of desktop printers.
+        PLA-RP-36        Agencies with responsibilities for providing IT infrastructure should track the need
+                         for specialized input and output devices including plotters and photo-capable
+                         printers for potential cost savings opportunities.
+
+Requirements
+The following is a requirement for Print, Fax, Scan and Copy Devices.
+        PLA-R-33         Agencies with responsibilities for providing IT infrastructure shall manage and
+                         refresh as needed in a consistent, scheduled manner all customer-oriented input
+                         and output devices that are deployed as networked devices. These devices
+                         include document scanners, fax machines, copiers, and printers along with the
+                         servers that support them.
+
+Email Utilities, Related Communications Utilities, and Coordination Services
+
+Historically, communications services such as email, BlackBerrys, calendaring, scheduling,
+conferencing, and other communications, coordination, and personal organization services were
+provided by individual agencies. Sometimes, the agencies used more than one product to address
+the email, calendaring and related needs. Typically, with the exception of phone contracts, the
+decisions were not made from an enterprise-wide perspective.
+
+As the Commonwealth moves to enterprise approach in providing these services, comprehensive,
+unified messaging and communications plans will become increasingly crucial. Some
+communications elements that should be considered in this planning are:
+
+    •   Email, multimedia attachments to email, and email hygiene (virus, spam, etc.)
+    •   Instant Messaging (IM)/Short Message Service (SMS)/Internet Protocol (IP) Video/Voice
+        over IP (VoIP) and Really Simple Syndication (RSS)
+    •   Calendar with sharing
+
+                                               Page 58 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+   •   Scheduling with multimedia attachments
+   •   Video/VoIP/Email/IM with integration of contacts, voicemail and dialing
+   •   Mobility Service and integration across voice/video systems
+   •   Calendar, alarms, and tasks integrated with email
+   •   Push email services
+   •   Secure email services
+   •   Unified communications across all systems
+   •   Policy management, especially for storage of voicemail, email and attachments
+   •   Policy management for the automated deletion of all communications
+   •   Multi-person Audio/video conferencing integrated with contacts and email (e.g., missed
+       calls)
+   •   Integrating storage solutions across communications and applications with agency-established
+       policy-driven capabilities
+
+       Most agencies use Microsoft Exchange as an email solution. Others solutions include
+       IBM’s Lotus/Domino, Sun One, Sendmail, and Google Mail (gmail). Recently, universities
+       have deployed free student education email by providers including Google and Microsoft.
+
+       Microsoft is the de facto standard for email across non-higher education agencies and is
+       the integration standard for agencies served by VITA. Exchange requires the use of Active
+       Directory and this has significant and far-reaching implications for security, access, and
+       application choices in the Commonwealth agencies served. Having a central directory and
+       central identity management services are significant enablers of good communications
+       solutions for VITA-served agencies.
+
+       Because storage will continue to escalate over time due to numbers of messages and
+       increasing use of video and audio, appropriate storage for messaging must be placed high
+       in the storage design list. New options will continue to be developed by the storage vendors
+       and email solution providers.
+
+       Costs of these options should be broken down into service charge and agency controllable
+       costs when performing comparative analyses. In the storage arena, especially for
+       communications, agencies will have a great deal of control over how much storage will
+       cost them. Agency policies and staff training are critical in changing what is stored and for
+       how long. Note: agency policies need to comply with the Virginia Public Records Act and
+       the appropriate General Schedule or Agency Specific Schedule approved by the Library of
+       Virginia.
+
+       Exchange 2007 provides little improvement over Exchange 2003 for storage and storage
+       management issues. In fact, there are few reasons to switch to Exchange 2007 other than
+       the end-of-support date nearing and Exchange 2010 is coming soon. Exchange users must
+       still rely on 3rd party vendors for usable solutions. Table 2 provides some suggestions for
+       provider-side controls to help with storage reduction. Agency buy-in in the use of these
+       controls is important.
+
+                                              Page 59 of 67
+
+ETA Platform Domain Report Requirements                                                Version 3.1 May 2, 2023
+
+            Table 2: Provider-Side Cost reduction Options for Exchange Email Storage
+
+                                                                                 Relative Importance in
+            Cost Reduction Action                           Explanation             Cost Reduction
+ Delete email based on user role                    Agency heads and acting Very significant
+                                                    heads; legal or fiscal      differences in required
+                                                    group; students; all others email retention
+ Force deletion by date range (e.g.,                Overall reduction in        Very significant
+ 3 years)                                           storage escalation
+ Control of user box size                           Agency policy               Cost of negatives will far
+                                                                                outweigh savings
+
+On the agency side, many policy options are possible. These options do tend to be staff intensive,
+but if the agency keeps in mind the consequences of not controlling storage, staff use may seem
+less problematic. In fact, agencies should have clear policies about what should be saved and for
+how long, and staff should be trained in dealing with each electronic or paper record.
+
+E-discovery for legal purposes is one of the driving forces for central storage and deleting
+unneeded records, whether email, files, email attachments, web pages or data. At present, there
+are federal rulings and Virginia laws that permit e-discovery of court case related emails and
+documents. Also, agreements among litigants can result in expensive manual and electronic
+searches for related records. A federal ruling in 200611 essentially made it necessary to archive for
+a reasonable amount of time or juries could make an assumption of incriminating evidence in
+electronic documents that had been destroyed.
+
+Universities face unique problems. Administrative email and student email require separate
+planning and policy decisions. Many universities may benefit from using Google mail type solutions
+for students and other approaches for faculty and administrators.
+
+Google is providing substantial messaging and communications integration to users. IM, email,
+calendaring, documents, photos, and more are well integrated. Emails can be initiated from within
+all applications and the user can also collaborate online with any document or share it on the
+Internet as read only. Substantial storage is also provided to users with options to pay for more if
+free storage limits are exceeded. Free services provided to universities and colleges include all
+these benefits.
+
+An even better alternative may be to allow students to continue using their email of choice and to
+have a way to record two to five alternate contact methods for each student. Students are reluctant
+to use solutions provided by universities. Some use forwarding options to consolidate inboxes.
+Universities may wish to consider not offering student email or using a separate free service to
+reduce liabilities. For faculty and staff, they should implement policies for archiving that centralize
+and limit risk by providing reasonable and not eternal storage of email and attachments.
+
+K-12 schools in Virginia are also trying application attached value-added email and storage
+alternatives specifically designed for young students such as Gagglemail. In addition to providing
+school services, Gagglemail also competes in the email storage arena.
+
+10
+     http://www.edweek.org/dd/articles/2007/09/12/02email.h01.html
+
+                                                       Page 60 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+Some local school divisions are using specially designed storage services that allow the school or
+division to set storage policies for litigation purposes. In many cases, these storage services are
+less expensive that the installation of internal systems.
+
+Requirements
+
+The following is a requirement for Email Utilities, Related Communications Utilities, and
+Coordination Services.
+
+        PLA-R-41        Storage for email shall address business needs and Commonwealth and
+                        Federal document retention requirements. Examples: Virginia Public
+                        Records Act and Federal HIPAA requirements.
+
+Technology Component Standards
+
+The following is a technology component standard for email.
+
+                                    Table PLA-S-16: Email
+                               Technology Component Standard
+                                    Updated January 15, 2010
+    Strategic:
+    Microsoft 32 bit Exchange Server 2003
+    Microsoft Exchange Server 2007 (weak value of upgrade without implementing Microsoft unified
+    messaging)
+    Email SAAS (e.g., Google, Microsoft, Yahoo, or similar email for college students)
+    Emerging:
+    Microsoft Exchange Server 2010 (weak value anticipated without switching to Microsoft unified
+    communications)
+    3rd Party solutions for email storage management policy implementation (Microsoft is still lacking
+    in this area; this is a crucial part of email service provision)
+
+    Transitional/Contained:
+    Microsoft Exchange Server 2000 (Extended support ends in 2011)
+    Unsupported open source implementations
+    Non-Exchange for VITA served-agencies
+
+    Obsolescent/Rejected:
+    Microsoft Exchange Server 5.5 and earlier
+
+                                              Page 61 of 67
+
+ETA Platform Domain Report Requirements                                              Version 3.1 May 2, 2023
+
+    Network (LAN/WAN) Control Utilities
+Network control utilities are those recurring services that should be managed as a common service.
+Examples of network utility services are secondary Domain Name System (DNS) services, directory
+services, and Dynamic Host Configuration Protocol (DHCP) servers. As networks are combined across
+agencies to create one centrally managed network, the centralization and standardization of look up and
+control services will become increasingly important.
+
+Recommended Practices
+The following is a recommended practice for Network (LAN/WAN) Control Utilities.
+
+        PLA-RP-38       Agencies with responsibilities for providing IT infrastructure should initiate
+                        common management and configuration practices for network utilities
+                        beginning with the key controls (e.g., IP address management, central
+                        directories) and then expanding to LAN/WAN services implemented on the
+                        greatest numbers of servers.
+        Implication:
+        One central Active Directory should be a goal.
+
+                                               Page 62 of 67
+
+ETA Platform Domain Report Requirements                                         Version 3.1 May 2, 2023
+
+Appendix A: Rescinded Requirements and Technology Component Standard
+Tables and Deleted Recommended Practices
+
+The following requirements were rescinded on January 15, 2010:
+
+       PLA-R-01:      VITA shall consider business security requirements up front when making
+                      decisions for all platforms from personal computing devices to enterprise
+                      servers.
+
+       PLA-R-04:      VITA shall establish the minimum requirements or the starting point for the base
+                      image to be used on personal computers that access VITA-controlled networks.
+                      Agencies will add to these images to meet agency-specific security needs. The
+                      VITA base image shall contain VITA-approved security software such as antivirus
+                      software. Agencies that operate on networks not controlled by VITA must
+                      establish minimum personal computing security software for the business they
+                      conduct and the networks they use. This software must be provided as part of
+                      the agency’s base image.
+
+       PLA-R-05:      VITA shall provide location-based personal computing support options for
+                      geographically dispersed agency groups when central services are inadequate to
+                      meet customer needs. Costs and benefits of various location-based service
+                      options must be evaluated.
+
+       PLA-R-09:      VITA shall develop starting point, typical base images for the most commonly
+                      needed desktop and notebook computer configurations to reduce setup decision
+                      making and costs for agencies VITA supports. This shall include standard
+                      software setup (e.g., for office products, security, and other software) and
+                      system lockdown policies. Typically, agencies will add to these base images to
+                      accommodate agency-specific requirements.
+
+       PLA-R-12:      VITA shall ensure that personal productivity software calendar information,
+                      tasks, contacts, and user files shall be accessible by using Personal Digital
+                      Assistant (PDA) capabilities on various communications devices used by
+                      employees. VITA shall accommodate standard access methods.
+
+       PLA-R-14:      Agencies shall not upgrade operating systems software or office productivity
+                      software during the life of the computer unless they document a compelling
+                      business reason to do so or a compelling return-on-investment that offsets all
+                      hard and soft costs for making the change.
+
+       PLA-R-16:      For any teleworking employee whose job requires the use of information
+                      technology tools, a minimum toolset, as determined by the agency, must be
+                      provided. The agency determines what tool set is necessary to enable the
+                      employee to do his or her job. If needed for the specific job and person, and not
+                      otherwise available in or near the off-site workplace, the following personal
+                      computing tools shall be provided for use in the employee’s home office, a
+                      hoteling space, or a mobile office.
+
+                          •   mobile notebook (e.g., wireless connectivity within a notebook designed
+                              for mobile use),
+                          •   docking station with a separate display,
+
+                                            Page 63 of 67
+
+ETA Platform Domain Report Requirements                                         Version 3.1 May 2, 2023
+
+                         •   keyboard and mouse,
+                         •   surge protector (e.g., for mobile use, for docking station, or other
+                             computer setup)
+                         •   connectivity to agency’s LAN (e.g., VPN; secure, high-speed or other
+                             possible requirements as needed),
+                         •   file backup,
+                         •   output,
+                         •   email,
+                         •   voice and/or video conferencing,
+                         •   training,
+                         •   Internet services (e.g., appropriate Internet services when not available in
+                             the spaces used; wireless routers when wireless access is not available
+                             in the spaces used); and
+                         •   local and long distance voice services (e.g., VoIP, Skype, cellular, or other
+                             voice services if a needed service is not available in the spaces used).
+
+       PLA-R-26:     Agencies shall use consolidated, single and multi-agency, networked storage
+                     solutions whenever the consolidated solution shows cost-effectiveness across
+                     an agency’s applications (i.e., meets business needs at an equal or lower total
+                     cost for the agency). For example, if the agency adds a small application that
+                     could use dedicated storage more cheaply than consolidated storage, the
+                     dedicated storage may not be used unless the agency-wide storage plan shows
+                     dedicated storage to be more cost-effective than consolidated storage.
+
+       PLA-R-27:     VITA shall work with the Library of Virginia to simplify retention requirements for
+                     electronically stored data such that automated, policy-based methods may be
+                     used to control storage growth. Specifically, efforts should simplify the deletion
+                     of stored files, emails (except emails from agency heads and Governor’s staffs),
+                     and other data that are not of historic value. Efforts would specifically enable the
+                     creation of VITA services for the deletion of old data, unused data, and data with
+                     no owner for agencies.
+
+       PLA-R-28:     When an agency changes its storage from application-based stores to central or
+                     consolidated stores, it must first consider what may be deleted prior to moving
+                     the remaining stores. This effort must be jointly conducted by the data-owning
+                     agencies and the centralization project staff.
+
+       PLA-R-30:     To reduce escalating storage costs, VITA shall consider the cost-effectiveness of
+                     alternate storage consolidation and storage reduction (e.g., policy deletion
+                     options for stored data) opportunities. When considering new utility services for
+                     central handling, VITA shall separately address storage consolidation and
+                     reduction for the service. Examples of utility services that would have large
+                     storage needs and/or growing storage needs are email services, backup, and
+                     Web hosting services.
+
+       PLA-R-34:     VITA shall examine the feasibility, costs, and benefits of standardizing on
+                     Exchange as the future enterprise email solution. The study shall consider
+                     whether centralizing email is cost effective and whether standardizing on
+                     Microsoft Exchange or other enterprise solutions is cost effective. Until this
+                     study is conducted, Microsoft Exchange will be the solution VITA-served
+                     agencies shall employ when making changes.
+
+                                           Page 64 of 67
+
+ETA Platform Domain Report Requirements                                         Version 3.1 May 2, 2023
+
+       PLA-R-35:       Servers in VITA supported agencies that provide network-wide control services
+                       (e.g., domain design, secondary DNS provision, IP (Internet Protocol) addressing,
+                       and directory services) must use the same operating system to facilitate central
+                       management and central consolidation. Microsoft Windows is the target
+                       architecture standard for LAN/WAN control services for all VITA controlled
+                       networks.
+
+The following technology component standard tables were rescinded on January 15,
+2010:
+
+                          Table PLA-S-14: Disk Storage Hardware
+                            Technology Component Standard
+                                 Rescinded: January 15, 2010
+   Strategic:
+   External Controller-based RAID
+   ATA Disks; SATA Disks
+   Disks
+   CDs (archive quality)
+
+   Emerging:
+   DVD (awaiting stable write standards) No DVD write option for enterprise storage systems is
+   being recommended for the Commonwealth at this time.
+   MEMS (microelectrico-mechanical system) probe device
+   MAID
+
+   Transitional/Contained:
+
+   Obsolescent/Rejected:
+
+                                   Table PLA-S-15: Tape
+                              Technology Component Standard
+                                  Rescinded: January 15, 2010
+   Strategic:
+   LTO (linear tape open)
+   SDLT (super digital linear tape)
+   Virtual Tape (Disk)
+   Magstar (IBM 3590; STK 9x40)
+   Emerging:
+   Terabyte tapes
+   Transitional/Contained:
+   36 track
+   DLT (digital linear tape)
+   AIT (advanced intelligent tape)
+
+   Obsolescent/Rejected:
+   9 track,
+   18 track
+
+                                            Page 65 of 67
+
+ETA Platform Domain Report Requirements                                            Version 3.1 May 2, 2023
+
+The following recommended practices were deleted on January 15,
+2010:
+
+   PLA-RP-01:       Government-wide Technology Clearinghouse: VITA should explore agency
+                    interest in sharing information technology business applicability, surveys,
+                    technology test results, test facilities, test plans, testing opportunities, test uses,
+                    and lessons learned. This sharing to promote reuse could be in the form of a
+                    clearinghouse. Coordination and communications could include all branches of
+                    state government. Possible homes for the Clearinghouse might be VITA, a
+                    university, a large agency (other than a university), or the Council on Technology
+                    Services (COTS). A university may be an especially appropriate host due to their
+                    education role, their ability to apply successfully for external funds, their own
+                    interest in publicizing internal research and development efforts, and their access
+                    to special test facilities. VITA may wish to request that COTS consider exploring
+                    these possibilities.
+
+   PLA-RP-06:       Browsers – At this time, not all Internet applications perform acceptably on Internet
+                    Explorer. Because of this, VITA and institutions of higher education should try to
+                    accommodate two browsers securely.
+
+   PLA-RP-07:       Hard Drive Encryption – Some agencies have a need to provide enhanced security
+                    to their mobile worker’s computing devices. Hard drive encryption software may be
+                    particularly useful in meeting the needs of workers who store medical and personal
+                    information on their notebooks and PDAs.
+
+   PLA-RP-09:       Guidance for Cost-Effective Matching of Toolsets to Workers – VITA should
+                    provide guidelines to agencies for cost-effective pairing of workers and high-cost
+                    personal computing devices and services including notebooks, push email devices
+                    (Blackberries), smartphones, and projectors.
+
+   PLA-RP-10:       Push Email – There will soon be stronger and possibly more cost-effective options
+                    for push email. VITA should study the alternatives in the 2006-2007 timeframe.
+                    Change to a new system could be phased in as devices are replaced.
+
+   PLA-RP-13:       Planning for Workload Types – VITA should define platform consolidation
+                    strategies by workload type, e.g. email, database, applications, etc.
+
+   PLA-RP-14:       Staff Planning for Servers – For in-house staff and operations, to ensure
+                    continuous support of the Commonwealth’s information technology infrastructure,
+                    VITA should track data on staffing, staff retirement plans, staff skills and staff
+                    retraining interests.
+
+   PLA-RP-16:       Consider Application Total Costs – When conducting cost-benefit analyses for an
+                    application, owning agencies should consider full costs of alternatives and not just
+                    up-front costs.
+
+   PLA-RP-18:       Planning for the Common Good – Individual agencies that provide server
+                    infrastructure and VITA should consider the agency’s goals, the Commonwealth’s
+                    goals, and Enterprise Architecture guidance when selecting among server
+                    solutions.
+
+                                             Page 66 of 67
+
+ETA Platform Domain Report Requirements                                      Version 3.1 May 2, 2023
+
+   PLA-RP-25:       Storage Reduction Assistance – VITA should consider offering workshops or
+                    coordinating other assistance to help agencies plan for and implement storage
+                    reduction programs.
+   PLA-RP-32:       Standard Set of Document Handling Devices: The Commonwealth should
+                    standardize on document handling devices purchased during a particular year or
+                    other appropriate time period to increase volume purchasing discounts for
+                    equipment and supplies, reduce employee learning time and reduce internal
+                    support costs.
+   PLA-RP-37:       Unified Communications. VITA should gather data on current and projected
+                    communication needs of the workforce and use this information to establish a plan
+                    for unified communications across all served agencies.
+
+                                          Page 67 of 67
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

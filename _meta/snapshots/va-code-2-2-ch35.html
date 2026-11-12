@@ -1,0 +1,491 @@
+    <!-- #region Login -->
+    <!-- #endregion -->
+
+
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+	<head id="Head1">
+		    <title>Code of Virginia Code - Chapter 35. Information Technology Access Act</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<link rel="apple-touch-icon" href="./images/favicon-law16.png" sizes="16x16" />
+		<link rel="apple-touch-icon" href="./images/favicon-law32.png" sizes="32x32" />
+        <script src="/Scripts/session.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="/Content/base.css" type="text/css" media="all" />
+		<!--[if lt IE 9 ]><link rel="stylesheet" href="./Content/720_grid.css" type="text/css" /><![endif]-->
+		<link rel="stylesheet" href="/Content/720_grid.css" type="text/css" media="screen and (min-width: 720px)" />
+		<link rel="stylesheet" href="/Content/986_grid.css" type="text/css" media="screen and (min-width: 986px)" />
+		<link rel="stylesheet" href="/Content/1236_grid.css" media="screen and (min-width: 1236px)" />
+		<link rel="stylesheet" href="/Content/font-awesome.min.css" />
+		<link href='https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700' rel='stylesheet' type='text/css' />
+		<link type="text/css" rel="stylesheet" href="https://fonts.googleapis.com/css?family=PT Serif:r,i,400,700" />
+		
+		<link href='https://fonts.googleapis.com/css?family=Lato:400,700,300,300italic,400italic,700italic' rel='stylesheet' type='text/css' />
+		<link rel="stylesheet" href="/Content/jquery.fancybox.css" type="text/css" media="all" />
+		<link rel="stylesheet" href="/Content/jquery.qtip.min.css" type="text/css" media="all" />
+		
+    
+
+		<style type="text/css">.fancybox-margin {margin-right: 0px;}</style>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-F6YYKCXH17"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+          gtag('config', 'G-F6YYKCXH17');
+        </script>
+        <script src="/Scripts/jquery.min.js" type="text/javascript"></script>
+        <script src="/Scripts/jquery-ui.min.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            $('document').ready(function () {
+                $('#print').attr("aria-label", "Print Button");
+                $('#txtsearch-in').attr("aria-label", "Search within the current selection");
+                
+                $("#mobile-menu-toggle").click(function () {
+                    $("#section-menu").toggleClass("open");
+                    $(".mobile-overlay").toggleClass("open");
+                });
+
+                $(".mobile-overlay").click(function () {
+                    $("#section-menu").removeClass("open");
+                    $(".mobile-overlay").removeClass("open");
+                });
+            });
+        </script>
+        <script>
+            $(function () {
+                var searchList = document.getElementById("searchList");
+                if (!searchList.length) {
+                    return;
+                }
+
+                var path = (window.location.pathname || "").toLowerCase();
+                var selectedValue = "all";
+                document.getElementById("searchList").value = "LAW";
+
+                if (path.includes("/admincode")) {
+                    selectedValue = "admin";
+                    document.getElementById("searchBtn").value = "Administrative_Code";
+                } else if (path.includes("/constitution")) {
+                    selectedValue = "constitution";
+                    document.getElementById("searchBtn").value = "Constitution";
+                } else if (path.includes("/vacode")) {
+                    selectedValue = "code";
+                    document.getElementById("searchBtn").value = "Code_of_Virginia";
+                } else if (path.includes("/charters")) {
+                    selectedValue = "charters";
+                    document.getElementById("searchBtn").value = "Charters";
+                } else if (path.includes("/authorities")) {
+                    selectedValue = "authorities";
+                    document.getElementById("searchBtn").value = "Authorities";
+                } else if (path.includes("/compacts")) {
+                    selectedValue = "compacts";
+                    document.getElementById("searchBtn").value = "Compacts";
+                } else if (path.includes("/uncodifiedacts")) {
+                    selectedValue = "uncodified";
+                    document.getElementById("searchBtn").value = "Uncodified_Acts";
+                }
+
+                searchList.querySelectorAll("option").forEach(function(option) {
+                    option.selected = false;
+                });
+                var selectedOption = searchList.querySelector('option[value="' + selectedValue + '"]');
+                if (selectedOption) {
+                    selectedOption.selected = true;
+                }
+            });
+        </script>
+	</head>
+
+<body>
+    <input aria-hidden="true" type="text" style="width:0;height:0;visibility:hidden;position:absolute;left:0;top:0" /> 
+    <input aria-hidden="true" type="password" style="width:0;height:0;visibility:hidden;position:absolute;left:0;top:0" />
+    <input aria-hidden="true" type="hidden" id="hidSignIn" value="0" />
+    
+    
+    <div class="mobile-overlay"></div>
+    <div class="top-bar"></div>
+    <header>
+        <nav>
+            <div class="lis-links-content full">
+                <ul>
+                    <li><a href="https://virginiageneralassembly.gov/">Virginia General Assembly</a> /</li>
+                    <li><a href="https://help.lis.virginia.gov">LIS Learning Center</a> /</li>
+                    <li><a href="https://lis.virginia.gov/privacy">Privacy Policy</a> /</li>
+                    <li><a href="https://lis.virginia.gov">LIS home</a> /</li>
+                    <li><a href="https://lis.virginia.gov/register-account">Register Account</a> /</li>
+                    <li><a href="https://lis.virginia.gov/login">Login</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="grid-wrapper one-and-three halves">
+        
+			<a href="https://lis.virginia.gov" id="logo-link">
+				<img alt="LIS Logo" src="/images/lis_logo.png" /> 
+			</a>
+		
+        <div class="portal-links">
+            <ul>
+                <li>
+                    <a class="txt-blue" href="https://lis.virginia.gov">Session Information</a>
+                </li>
+                <li>
+                    <a class="txt-dark-blue" href="https://lis.virginia.gov/bill-search">Bills & Resolutions</a>
+                </li>
+                <li>
+                    <a class="txt-green" href="https://budget.lis.virginia.gov/default/2025/1">State Budget</a>
+                </li>
+                <li>
+                    <a class="txt-light-green" href="https://law.lis.virginia.gov/">Virginia Law</a>
+                </li>
+                <li>
+                    <a class="txt-orange" href="https://rga.lis.virginia.gov/">Reports to the General Assembly</a>
+                </li>
+            </ul>
+        </div>
+
+        <div class="mobile-menu">
+            <i id="mobile-menu-toggle" class="fa fa-bars"></i>
+        </div>
+    </div>
+        
+        
+        <div class="va-law">
+            <div class="grid">
+                <div class="row">
+                    <div class="slot-0-1-2">
+                        <h1><a href="https://law.lis.virginia.gov">Virginia Law</a></h1>
+                    </div>
+                    <div class="slot-3-4-5">
+                        <div class="input-group .search-comp ">
+                            <div class="input-group-btn">
+                                <label for="searchList" class="sr-only">Select Search Type</label>
+                                <select id="searchList" name="searchTypeSelect" class="btn input-sm btn-default dropdown-toggle" aria-label="Select Search Type">
+                                    <option value="all">All</option>
+                                    <option value="code">Code of Virginia</option>
+                                    <option value="admin">Administrative Code</option>
+                                    <option value="constitution">Constitution</option>
+                                    <option value="charters">Charters</option>
+                                    <option value="authorities">Authorities</option>
+                                    <option value="compacts">Compacts</option>
+                                    <option value="uncodified">Uncodified Acts</option>
+                                </select>
+                            </div>
+                            <input aria-label="search input" type="text" id="txtSearch" class="form-control input-sm" placeholder="Search" />
+                            <span class="input-group-btn">
+                                <button aria-label="search button" class="btn btn-sm btn-default" id="searchBtn" type="submit" value="LAW">
+                                    <i class="fa fa-search"></i>
+                                </button>
+                            </span>
+                        </div>
+                        <!-- /input-group -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        
+        <div class="grid">
+                <!-- #region Variables -->
+    <!-- #endregion -->
+    <!-- #region Highlights -->
+    <!-- #endregion -->
+    <!-- #region Build Pages -->
+    <!-- #endregion -->
+
+<body class="flipcol ">
+    <input type="hidden" id="hidST" />
+    <input type="hidden" id="hidToC" value="0" />
+    <input type="hidden" id="hidID" />
+    <input type="hidden" id="hidNote" />
+    <input type="hidden" id="hidBiP" value="false" />
+    <input type="hidden" id="hidReport" value="0" />
+    <input type="hidden" id="hidSegments" />
+    <input type="hidden" id="hidPage" value="vacode" />
+    <div class="grid">
+        <div class="row">
+            <div class="slot-6-7-8">
+                <section id="pageTitle"><h2 class='pg-title'>Code of Virginia</h2></section>
+                <section class="breadcrumbs" id="breadcrumbs"><p><a href='/vacode/'>Table of Contents</a> &raquo; <a href='/vacode/title2.2'>Title 2.2. Administration of Government</a> &raquo; <span class='breadcrumb-inactive'>Chapter 35. Information Technology Access Act</span></p></section>
+                <section class="content-header-menu" id="menucontainer">
+                    <nav class="content-header-menu-left"><ul><li><a title='Part Chapter 34. Interpreters for the Deaf in Agency Proceedings' href='/vacodefull/title2.2/partA//part34/'><i class='fa fa-long-arrow-left'></i></a> Part <a title='Part Chapter 36. State Government Volunteers Act' href='/vacodefull/title2.2/partA//part36/'><i class='fa fa-long-arrow-right'></i></a></li></ul></nav>
+                    <div class="scroll_top" aria-hidden="true"><i href="#" class="fa fa-arrow-up"></i></div>
+                    <nav class="content-header-menu-middle"></nav>
+                            <nav class="content-header-menu-right"></nav>
+
+                </section>
+                <p class="sidenote alert rptCheckbox"><strong>Creating a Report:</strong> Check the sections you'd like to appear in the report, then use the "Create Report" button at the bottom of the page to generate your report. Once the report is generated you'll then have the option to download it as a pdf, print or email the report.</p>
+                <article id="vacode" class="content">
+                    <div id="printStuff"><div id='printHeader'>Code of Virginia<br/>Title 2.2. Administration of Government<br/>Subtitle II. Administration of State Government<br/>Chapter 35. Information Technology Access Act</div><div id='printDate'>11/11/2026</div></div>
+                    <span id='va_code'><h2>Chapter 35. Information Technology Access Act.</h2><b>§ 2.2-3500. Findings; policy.</b><section class='body'><p>A. The General Assembly finds that (i) the advent of the information age throughout the United States and around the world has resulted in lasting changes in information and communications technology; (ii) use of information and communications technology by state and state-assisted organizations has become a widespread means of access for employees and the public to obtain information available electronically, but access for persons with disabilities has often been overlooked when developing, designing, purchasing, and deploying the latest information and communications technology; (iii) when presentation of data through information and communications technology is not accessible by persons with disabilities, it prevents them from participating on equal terms in crucial areas of life, such as education and employment; (iv) accessible information and communications technology is often cheaper for the government in the long run because it does not require post-implementation adaptions and does not expose the government to liability under various state and federal laws that require access for persons with disabilities; and (v) the goals of the state in obtaining and deploying the most advanced forms of information and communications technology properly include universal access so that persons with disabilities will not continue to be left out of the latest and future technological innovations.</p><p>B. It is the policy of the Commonwealth that all covered entities shall conduct themselves in accordance with the following principles: (i) all persons with disabilities have the right to full participation in the life of the Commonwealth, including the use of information and communications technology that is provided by such covered entities for use by employees, program participants, students, and members of the general public, and (ii) technology purchased in whole or in part with funds provided by the Commonwealth, acquired, or developed in-house by a covered entity to be used for the creation, storage, retrieval, display, or dissemination of information and intended for use by employees, program participants, students, and members of the general public shall be accessible by all persons with disabilities.</p><p>1999, cc. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0769'>769</a>, <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0773'>773</a>, § 2.1-807; 2001, c. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?011+ful+CHAP0844'>844</a>; 2025, c. <a href='https://lis.virginia.gov/bill-details/20251/HB2541/text/CHAP0571'>571</a>.</p></section><b>§ 2.2-3501. Definitions.</b><section class='body'><p>As used in this chapter, unless the context requires a different meaning:</p><p>"Accessibility" means alignment with federal § 508 standards and § 255 guidelines adopted pursuant to 29 U.S.C. § 794d and 47 U.S.C. § 255, and 28 C.F.R. § 35.200.</p><p>"Accessibility Conformance Report" means a completed Voluntary Product Accessibility Template (VPAT) or other document indicating the conformance of a product to accessibility standards such as federal § 508 Standards and § 255 Guidelines adopted pursuant to 29 U.S.C. § 794d and 47 U.S.C. § 255. The Accessibility Conformance Report shall be completed by a digital accessibility subject matter expert with significant experience with product evaluation or by a qualified neutral third party.</p><p>"Acquired" means obtained from a third party without the need to engage in the procurement process.</p><p>"Covered entity" means all state agencies, public school divisions, public institutions of higher education, and political subdivisions of the Commonwealth.</p><p>"Head of each covered entity" means the person responsible for making executive decisions on behalf of the covered entity.</p><p>"Information and communications technology" or "ICT" means any website, application, or other product or service primarily intended to fulfill or enable the function of information processing and communication by electronic means, including transmission and display via the Internet.</p><p>"Person with a disability" means the same as that term is defined in § <a href='/vacode/51.5-40.1/'>51.5-40.1</a>.</p><p>"Procured" means a product or service obtained through a covered entity's procurement process.</p><p>"Vendor Accessibility Roadmap" means a document prepared and provided by the vendor highlighting the aspects and elements of the product that do not meet accessibility standards and includes the timelines for these aspects and elements to meet such accessibility standards.</p><p>1999, cc. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0769'>769</a>, <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0773'>773</a>, § 2.1-808; 2001, c. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?011+ful+CHAP0844'>844</a>; 2012, cc. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?121+ful+CHAP0803'>803</a>, <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?121+ful+CHAP0835'>835</a>; 2016, c. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?161+ful+CHAP0296'>296</a>; 2025, c. <a href='https://lis.virginia.gov/bill-details/20251/HB2541/text/CHAP0571'>571</a>.</p></section><b>§ 2.2-3502. Assurance of accessibility.</b><section class='body'><p>In general, the head of each covered entity or his designee shall ensure that the accessibility of the ICT used by employees, program participants, students, or members of the general public who have a disability (i) is equivalent to that provided to individuals who do not have a disability; (ii) is designed to present information (including prompts used for interactive communications) in formats accessible or adaptable to both persons with and without disabilities; and (iii) conforms with the accessibility requirements as provided in 28 C.F.R. § 35.200, whether developed in-house by a covered entity or procured.</p><p>1999, cc. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0769'>769</a>, <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0773'>773</a>, § 2.1-809; 2001, c. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?011+ful+CHAP0844'>844</a>; 2025, c. <a href='https://lis.virginia.gov/bill-details/20251/HB2541/text/CHAP0571'>571</a>.</p></section><b>§ 2.2-3503. Procurement requirements.</b><section class='body'><p>A. An information and communications technology access clause shall be developed by the Secretary of Administration and shall require that the vendor certify that any product procured by a covered entity conforms with accessibility. If the vendor cannot certify conformance of accessibility of the ICT product being procured, the covered entity may require such vendor to provide a current vendor-paid and completed Accessibility Conformance Report indicating the level of conformance with accessibility for the ICT being procured by the covered entity. Any areas of nonconformance shall be documented with a vendor-paid and completed Vendor Accessibility Roadmap highlighting areas requiring improved accessibility, including a timeline for each nonconforming area's completion. Consistent with 28 C.F.R. § 35.201 and 36 C.F.R. Part 1194, Appendix A, § E202, this clause should allow for the adoption of non-accessible ICT, provided that the use of such technology does not result in individuals with disabilities being denied the benefit of any program, service, or activity provided by the covered entity. The clause shall be included in all future contracts for the procurement of ICT by, or for the use of, entities covered by this chapter for which negotiation or renegotiation is begun on or after the effective date of this chapter.</p><p>B. Such procurement procedure adopted pursuant to this section shall not supersede or conflict with any vendor procedure or policy adopted by a public institution of higher education under the Restructured Higher Education Financial and Administrative Operations Act (§ <a href='/vacode/23.1-1000/'>23.1-1000</a> et seq.).</p><p>1999, cc. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0769'>769</a>, <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0773'>773</a>, § 2.1-810; 2001, c. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?011+ful+CHAP0844'>844</a>; 2020, c. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?201+ful+CHAP0738'>738</a>; 2025, c. <a href='https://lis.virginia.gov/bill-details/20251/HB2541/text/CHAP0571'>571</a>.</p></section><b>§ 2.2-3504. Exclusions to digital accessibility.</b><section class='body'><p>The head of any covered entity or his designee shall report to the appropriate executive branch agency any ICT that does not conform with accessibility and is not included in the exceptions found in 28 C.F.R. § 35.201 or 36 C.F.R. Part 1194, Appendix A, § E202. Each executive branch agency shall report annually to the General Assembly on such ICT and provide an estimate on the fiscal impact involved in bringing such technology into compliance with federal and state laws and regulations.</p><p>1999, cc. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0769'>769</a>, <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?991+ful+CHAP0773'>773</a>, § 2.1-811; 2001, c. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?011+ful+CHAP0844'>844</a>; 2020, c. <a href='http://legacylis.virginia.gov/cgi-bin/legp604.exe?201+ful+CHAP0738'>738</a>; 2025, c. <a href='https://lis.virginia.gov/bill-details/20251/HB2541/text/CHAP0571'>571</a>.</p></section><b>§ 2.2-3505. Designation of covered entity digital accessibility coordinator.</b><section class='body'><p>A. The head of each covered entity or his designee may designate an employee to serve as such covered entity's digital accessibility coordinator. The digital accessibility coordinator shall be responsible for ensuring that the covered entity complies with state and federal laws, including the Virginians with Disabilities Act (§ <a href='/vacode/51.5-1/'>51.5-1</a> et seq.) and the Virginia Human Rights Act (§ <a href='/vacode/2.2-3900/'>2.2-3900</a> et seq.), to ensure that the ICT and other products or services can be accessed by persons with disabilities. The covered entity's digital accessibility coordinator shall also be responsible for developing and implementing the covered entity's digital accessibility policy.</p><p>B. Each covered entity shall publish, in a conspicuous and easily accessible location on its website, the name, phone number, email address, and office address of the covered entity's digital accessibility coordinator or other person to whom reports of barriers to digital accessibility may be reported. The digital accessibility coordinator or other person designated by the covered entity shall develop procedures to review and respond to reports of barriers to digital accessibility.</p><p>2025, c. <a href='https://lis.virginia.gov/bill-details/20251/HB2541/text/CHAP0571'>571</a>.</p></section></span>
+
+
+
+                </article>
+                <div id="HistoryNote"></div>
+                        <nav class="content-footer-menu"><ul><li><a title='Part Chapter 34. Interpreters for the Deaf in Agency Proceedings' href='/vacodefull/title2.2/partA//part34/'><i class='fa fa-long-arrow-left'></i></a> Part <a title='Part Chapter 36. State Government Volunteers Act' href='/vacodefull/title2.2/partA//part36/'><i class='fa fa-long-arrow-right'></i></a></li></ul></nav>
+
+            </div>
+            <div class="slot-9">
+                <nav id="section-menu">
+					<ul class="section-header-menu">
+						<li class="selected" aria-label="Currently selected page">
+							<a href="/vacode">Code of Virginia</a>
+						</li>
+						<li class="sub-menu">
+							<a href="/vacodepopularnames">Popular Names</a>
+						</li>
+						<li id="covUpdates" class="sub-menu">
+							<a  href='/vacodeupdates/'>2026 Updates</a>
+						</li>
+						<li id='search-box' class="sub-menu">
+							<label class="form-title" for="search-text">Section Look Up</label>
+						
+						
+							<div action='/search' id='search-form' method='get' target='_top'>
+								<input aria-label="Section look up input" title="Section look up input" type="text" id='search-text' name='q' placeholder='ex.  2.2-4007.01' readonly onfocus="if (this.hasAttribute('readonly')) {this.removeAttribute('readonly'); this.blur(); this.focus(); }"/>
+								<button aria-label="Section look up button" title="Section look up button" id='search-button' type='submit'>Go</button>
+							</div>
+						</li>
+						<li>
+							<a href="/admincode">Administrative Code</a>
+						</li>
+						<li>
+							<a href="/constitution">Constitution of Virginia</a>
+						</li>
+						<li>
+							<a href="/charters">Charters</a>
+						</li>
+						<li>
+							<a href="/authorities">Authorities</a>
+						</li>
+						<li>
+							<a href="/compacts">Compacts</a>
+						</li>
+						<li>
+							<a href="/uncodifiedacts">Uncodified Acts</a>
+						</li>
+					</ul>
+				</nav>
+            </div>
+        </div>
+    </div>
+    <!-- / .grid -->
+    <script type="text/javascript">var siteurl = 'https://law.lis.virginia.gov';</script>
+    <script src="/Scripts/jquery.min.js" type="text/javascript"></script>
+    <script src="/Scripts/responsive.js" type="text/javascript"></script>
+    <script src="/Scripts/modernizer.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/Scripts/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/Scripts/jquery.fancybox.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/Scripts/fancybox/jquery.easing-1.3.pack.js" type="text/javascript"></script>
+    <script src="/Scripts/fancybox/jquery.mousewheel-3.0.4.pack.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.floatThead.min.js" type="text/javascript"></script>
+    <script src="/Scripts/printThisCoV.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.cookie.js" type="text/javascript"></script>
+    <script src="/Scripts/searchCoV.js" type="text/javascript"></script>
+    <script src="/Scripts/isFontFaceSupported.js" type="text/javascript"></script>
+    <script src="/Scripts/jquery.qtip.js" type="text/javascript"></script>
+    <script src="/Scripts/search.js" type="text/javascript"></script>
+    
+    <link rel="stylesheet" href="/Content/msgBoxLight.css" />
+    <script src="/Scripts/jquery.msgBox.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/Scripts/tinymce/tinymce.min.js" type="text/javascript" charset="utf-8"></script>
+    <script src="/Scripts/edit.js" type="text/javascript"></script>
+    <script src="/Scripts/CoVInit.js" type="text/javascript"></script>
+    
+    <script src="/Scripts/report.js" type="text/javascript"></script>
+    <script src="/Scripts/default.js" type="text/javascript"></script>
+    <script src="/Scripts/pdf.js" type="text/javascript"></script>
+    <script type="text/javascript">
+		    $('document').ready(function () {
+		        $('#print').click(function () {
+		            $("#vacode").printThis();
+		            return (false);
+		        });
+
+		        var val = parseInt($.browser.version);
+		        if ($.browser.msie || (val > 7 && val <= 11)) {
+		            //stuff here (like adding an IE10 class to the body or html tag
+		            $(".input-sm").css("margin-top", "1px");
+		        }
+
+		        $('a.fancybox').fancybox({
+		            type: "iframe",
+		            'width': 650,
+		            'height': 520
+		        });
+
+		        $("a.single_image").fancybox({
+		            type: "iframe",
+		            'width': 650,
+		            'height': 720
+		        });
+
+		        $('.fancybox').attr('href', "/emailForm?parent=vacode/" + $('#hidSegments').val());
+
+		        $('.hdr-read-text a').fancybox({
+		            type: "iframe",
+		            'width': 650,
+		            'height': 701,
+		            'autoDimensions': false,
+		            'autoSize': false,
+		            afterClose: function (event, ui) {
+		                //parent.document.getElementById("hidBiP").value = "false";
+		                parent.$("#hidBiP").val("false");
+		            }
+		        });
+
+		        var _hidVal = $('#hidBiP').val();
+		        if (_hidVal == 'true') {
+		            $('.hdr-read-text a').click();
+		        }
+
+		        if (isFontFaceSupported() == false) {
+		            $('.fa').iconfontFallback();
+		        }
+
+		        $('p.hdr-read-text a').qtip({
+		            content: 'Bills currently before the General Assembly',
+		            style: {
+		                textAlign: 'center',
+		                tip: true,
+		                classes: 'qtip-rounded qtip-shadow',
+		            },
+		            position: {
+		                my: 'top center',
+		                at: 'bottom center'
+		            }
+		        });
+		    });
+
+		    function PrintPreview() {
+		        $('table').floatThead('reflow');
+		        $('table').floatThead('reflow');
+		        printWindow = window.open("", "", "location=1,status=1,scrollbars=1,width=650,height=600");
+		        printWindow.document.write('<!DOCTYPE html><html><head>');
+		        printWindow.document.write('<link rel="stylesheet" href="./css/base.css" type="text/css" media="all" />');
+		        printWindow.document.write('<link rel="stylesheet" href="./css/720_grid.css" type="text/css" media="all" />');
+		        printWindow.document.write('<style type="text/css">@media print{.no-print, .no-print *{display: none !important;}h6{display:none !important;}#printPages{display:none !important;}}#printDate {display:none !important;}</style>');
+		        printWindow.document.write('<style type="text/css">#printHeader{display:block;font-size:1em;line-height:1.3em;text-align:left;margin-bottom:.8em;}</style>');
+
+		        printWindow.document.write('<style type="text/css">body{color:#444;font-family:"PT Serif",Georgia,serif;line-height:1.3em;font-size: .95em;}h2{margin:0 0 .1em 0;font-weight:normal;line-height:1.2em;font-size:1.4em;letter-spacing:.01em;padding:0 .35em 0 0.25em;}');
+		        printWindow.document.write('.hdr-read-text,.read-text,.rptCheckbox{display:none;}ul .outline{margin-bottom:1em;}ul{list-style:none;}.outline ul{margin-left:1em;}a, a:link{color:#1a73ae;text-decoration:none;}');
+		        printWindow.document.write('b{margin:0;padding:0;border:0;font-size:100%;vertical-align:baseline;}.number-descrip-list{line-height:1.55em;margin-bottom:1em;height:auto;}');
+		        printWindow.document.write('.number-descrip-list dt {clear: left;float: left;display: table-cell;font-weight: bold;width: 6.75em;}.number-descrip-list dd {padding-bottom: .125em;display: table-cell;}');
+		        printWindow.document.write('.number-descrip-list-outline{margin-left:1em;line-height:1.55em;}.number-descrip-list-outline dt{width:7em;font-weight:bold;}');
+		        printWindow.document.write('.number-descrip-list-outline dd{display:table-cell;padding-bottom:0;}</style>');
+
+		        printWindow.document.write('<style type="text/css">h6 {font-family: "Lato", Helvetica, Arial, sans-serif;font-size: 14px;border-bottom: 1px solid #ddd;padding-bottom: 15px;}');
+		        printWindow.document.write('table{border-collapse: collapse;border-spacing: 0;margin-bottom: 15px;}.printButtons {width: 100%;text-align: right;position: absolute;right: 10px;top: 28px;}</style>');
+		        printWindow.document.write('<style>#printPages{position:absolute;left: 120px;top: 30px;}.hiddenTable {display: none !important;}</style>');
+
+		        printWindow.document.write('</head><body>');
+		        printWindow.document.write('<h6>Print Preview</h6><span id="printPages"></span>')
+		        printWindow.document.write('<div class="printButtons">');
+
+		        //Print and cancel button
+		        printWindow.document.write('<input type="button" id="btnPrint" value="Print" class="no-print" onclick="window.print();window.onfocus=function(){window.close();}" />');
+		        printWindow.document.write('<input type="button" id="btnCancel" value="Cancel" class="no-print" onclick="window.close()" />');
+
+		        printWindow.document.write('</div>');
+
+		        //You can include any data this way.
+		        var _page = '<div id="va_code" class="va_code">' + $('#printStuff').html() + $('#va_code').html() + '</div>';
+		        printWindow.document.write(_page);
+		        printWindow.document.write('<scr' + 'ipt type="text/javascript">var divHeight;var obj = document.getElementById("va_code");if(obj.offsetHeight){divHeight=obj.offsetHeight;}else if(obj.style.pixelHeight){divHeight=obj.style.pixelHeight;}document.getElementById("printPages").innerHTML="Approximate Number of Pages: " + Math.ceil(divHeight / 850);</sc' + 'ript>');
+		        printWindow.document.write('</body></html>');
+		        printWindow.document.close();
+		        printWindow.focus();
+		    }
+    </script>
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+
+</body>
+        </div>
+        
+        
+            <div class="va-law-footer" id="valawfooter">
+                <div class="grid">
+                    <div class="row">
+                        <div class="slot-6 foot-callout">
+                            <h4><i class="fa fa-book"></i> Virginia Law Library</h4>
+                            
+                            <p>The Code of Virginia, Constitution of Virginia, Charters, Authorities, Compacts and Uncodified Acts are available in both PDF and CSV formats. <a aria-label="Virginia Law Library" class="more" href="/law-library"><i class="fa fa-arrow-circle-right"></i></a></p>
+                        </div>
+                        <div class="slot-7 foot-callout">
+                            <h4><i class="fa fa-question-circle"></i> Helpful Resources</h4>
+                            <ul>
+                                <li><a href="http://codecommission.dls.virginia.gov/">Virginia Code Commission</a></li>
+                                <li><a href="http://register.dls.virginia.gov/">Virginia Register of Regulations</a></li>
+                                <li><a href="https://www.archives.gov/exhibits/charters/constitution_transcript.html">U.S. Constitution</a></li>
+                            </ul>
+                        </div>
+                        <div class="slot-8 foot-callout">
+                            <h4 href="/developers"><i class="fa fa-wrench"></i> For Developers</h4>
+                            <p>The Virginia Law website data is available via a web service. <a aria-label="For Developers" class="more" href="/developers"><i class="fa fa-arrow-circle-right"></i></a></p>
+                        </div>
+                        <div class="slot-9 foot-callout">
+                            
+                            
+                            <div style="height: 4px;"></div>
+                            <img id="ga-seal" src="/images/ga_seal_lis.png" alt="virginia general assembly seal" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div class="footer">
+            <nav class="footer-links" style="line-height: 1.4;">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div aria-hidden="true" id='generic_login_div' style="display:none;z-index:9999;padding:10px;" class="corners dropshadow">
+                            <h3>Sign In</h3>
+                            <div class='form-row'>
+                                <label id='lblusername' for='username'>Username:&nbsp; </label>
+                                <input type='text' class="user" name='username' placeholder="Username" id='username' />
+                                <label id="userError"></label>
+                            </div>
+                            <div class='form-row'>
+                                <label id='lblpassword' for='password'>Password:&nbsp; </label>
+                                <input type='password' class="pass" name='password' placeholder="Password" id='password' />
+                                <label id="passError"></label>
+                            </div>
+                            <div class='submit-row'>
+                                <input type='button' id="btnLogin" class="button" value='Login' />
+                                <a onclick='hideLogin()' class="hover">Cancel</a>
+                            </div>
+                        </div>
+                        <div id="dialog-modal" style="display:none;"></div>
+                        <span class="col-xs-12 text-center">
+                            <ul>
+                                <li><a href="https://lis.virginia.gov">LIS Home</a></li>
+                                <li><a id="aLIAB" href="https://lis.virginia.gov/register-account">Lobbyist-in-a-Box</a></li>
+                                <li><a href="https://lis.virginia.gov/privacy">Privacy Policy</a></li>
+                                
+                            </ul>
+                            <p>
+                                © Copyright Commonwealth of Virginia,
+                                <script>document.write(new Date().getFullYear())</script>. All rights reserved. Site developed by the <a href="http://dlas.virginia.gov">Division of Legislative Automated Systems (DLAS)</a>.
+                                <a aria-hidden="true" href="" id="signin" onclick="showLogin();return false;">Sign In</a>
+                                
+                            </p>
+                        </span>
+                    </div>
+                </div>
+            </nav>
+        </div>
+        
+</body>
+</html>
+
+<!--[if lt IE 10 ]><script async src="<%: FriendlyUrl.Href("~/Scripts/placeHolder.js" type="text/javascript"></script><![endif]-->
+<!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!--[if lt IE 9]>
+<script src="~/Scripts/html5shiv.js"></script>
+<script src="~/Scripts/respond.js"></script>
+<![endif]-->
+
+<script src="/Scripts/SwitchMode.js" type="text/javascript"></script>
