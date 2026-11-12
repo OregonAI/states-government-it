@@ -1,6 +1,6 @@
 {
  "corpus": "states-government-it",
- "n_nodes": 1617,
+ "n_nodes": 2078,
  "n_edges": 0,
  "n_edges_external": 0,
  "nodes": [
@@ -1763,6 +1763,162 @@
    "path": "statutes/missouri/mo-rsmo-41-1018.md"
   },
   {
+   "id": "mt-mca-18-5-601",
+   "title": "Nonvisual access technology procurement",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-18-5-601.md"
+  },
+  {
+   "id": "mt-mca-2-15-1021",
+   "title": "Information technology board: membership, qualifications, vacancies, compensation",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-15-1021.md"
+  },
+  {
+   "id": "mt-mca-2-15-114",
+   "title": "Security responsibilities of departments for data",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-15-114.md"
+  },
+  {
+   "id": "mt-mca-2-17-1101",
+   "title": "Montana Digital Government Services Act",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-17-1101.md"
+  },
+  {
+   "id": "mt-mca-2-17-504",
+   "title": "Montana Information Technology Act",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-17-504.md"
+  },
+  {
+   "id": "mt-mca-2-17-532",
+   "title": "Digital access systems of state agencies",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-17-532.md"
+  },
+  {
+   "id": "mt-mca-2-17-534",
+   "title": "Security responsibilities of the Department of Administration",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-17-534.md"
+  },
+  {
+   "id": "mt-mca-2-17-550",
+   "title": "Internet privacy: state and local government operators of websites",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-17-550.md"
+  },
+  {
+   "id": "mt-mca-2-17-560",
+   "title": "Long-range information technology capital projects",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-17-560.md"
+  },
+  {
+   "id": "mt-mca-2-21-101",
+   "title": "Government use of artificial intelligence",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-21-101.md"
+  },
+  {
+   "id": "mt-mca-2-6-1501",
+   "title": "State agency protection of personal information",
+   "doc_type": "statute",
+   "path": "statutes/montana/mt-mca-2-6-1501.md"
+  },
+  {
+   "id": "ne-rs-86-5-100",
+   "title": "Network Nebraska, Neb. Rev. Stat. 86-5,100",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-86-5-100.md"
+  },
+  {
+   "id": "ne-rs-86-501-530",
+   "title": "Information Technology Infrastructure Act, Neb. Rev. Stat. 86-501 to 86-530",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-86-501-530.md"
+  },
+  {
+   "id": "ne-rs-86-550-568",
+   "title": "Intergovernmental Data Services Program Act, Neb. Rev. Stat. 86-550 to 86-568",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-86-550-568.md"
+  },
+  {
+   "id": "ne-rs-86-569-573",
+   "title": "Geographic Information Systems Council, Neb. Rev. Stat. 86-569 to 86-573",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-86-569-573.md"
+  },
+  {
+   "id": "ne-rs-86-611",
+   "title": "Digital and electronic signatures and electronic communications authorized, Neb. Rev. Stat. 86-611",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-86-611.md"
+  },
+  {
+   "id": "ne-rs-86-644",
+   "title": "Electronic postmark; use by state agency, Neb. Rev. Stat. 86-644",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-86-644.md"
+  },
+  {
+   "id": "ne-rs-87-801-808",
+   "title": "Financial Data Protection and Consumer Notification of Data Security Breach Act of 2006, Neb. Rev. Stat. 87-801 to 87-808",
+   "doc_type": "statute",
+   "path": "statutes/nebraska/ne-rs-87-801-808.md"
+  },
+  {
+   "id": "nv-nrs-233f",
+   "title": "CHAPTER 233F - STATE SYSTEM OF COMMUNICATIONS",
+   "doc_type": "statute",
+   "path": "statutes/nevada/nv-nrs-233f.md"
+  },
+  {
+   "id": "nv-nrs-239b",
+   "title": "CHAPTER 239B - DISCLOSURE OF PERSONAL INFORMATION TO GOVERNMENTAL AGENCIES",
+   "doc_type": "statute",
+   "path": "statutes/nevada/nv-nrs-239b.md"
+  },
+  {
+   "id": "nv-nrs-242",
+   "title": "CHAPTER 242 - INFORMATION SERVICES",
+   "doc_type": "statute",
+   "path": "statutes/nevada/nv-nrs-242.md"
+  },
+  {
+   "id": "nv-nrs-603a",
+   "title": "CHAPTER 603A - SECURITY AND PRIVACY OF PERSONAL INFORMATION",
+   "doc_type": "statute",
+   "path": "statutes/nevada/nv-nrs-603a.md"
+  },
+  {
+   "id": "nh-st-21-r",
+   "title": "Chapter 21-R Department of Information Technology",
+   "doc_type": "statute",
+   "path": "statutes/new-hampshire/nh-st-21-r.md"
+  },
+  {
+   "id": "nh-st-359-n",
+   "title": "Chapter 359-N Regulation of Biometric Information",
+   "doc_type": "statute",
+   "path": "statutes/new-hampshire/nh-st-359-n.md"
+  },
+  {
+   "id": "nh-st-4-f",
+   "title": "Chapter 4-F New Hampshire Geographic Information System Committee",
+   "doc_type": "statute",
+   "path": "statutes/new-hampshire/nh-st-4-f.md"
+  },
+  {
+   "id": "nh-st-5-d",
+   "title": "Chapter 5-D Use of Artificial Intelligence by State Agencies",
+   "doc_type": "statute",
+   "path": "statutes/new-hampshire/nh-st-5-d.md"
+  },
+  {
    "id": "nj-njsa-52-17b-193-2",
    "title": "Cybersecurity incident reporting to the Office of Homeland Security and Preparedness",
    "doc_type": "statute",
@@ -1805,6 +1961,18 @@
    "path": "statutes/new-jersey/nj-njsa-56-8-161.md"
   },
   {
+   "id": "nm-nmsa-9-27",
+   "title": "Department of Information Technology",
+   "doc_type": "statute",
+   "path": "statutes/new-mexico/nm-nmsa-9-27.md"
+  },
+  {
+   "id": "nm-nmsa-9-27a",
+   "title": "Cybersecurity",
+   "doc_type": "statute",
+   "path": "statutes/new-mexico/nm-nmsa-9-27a.md"
+  },
+  {
    "id": "ny-stt-art-1",
    "title": "State Technology Law, Article 1 - Office of Information Technology Services",
    "doc_type": "statute",
@@ -1841,6 +2009,102 @@
    "path": "statutes/north-carolina/nc-gs-143b-art-15.md"
   },
   {
+   "id": "nd-ndcc-54-46",
+   "title": "Chapter 54-46 - Records Management",
+   "doc_type": "statute",
+   "path": "statutes/north-dakota/nd-ndcc-54-46.md"
+  },
+  {
+   "id": "nd-ndcc-54-59-1",
+   "title": "Chapter 54-59.1 - Cybersecurity Incident Reporting Requirements",
+   "doc_type": "statute",
+   "path": "statutes/north-dakota/nd-ndcc-54-59-1.md"
+  },
+  {
+   "id": "nd-ndcc-54-59",
+   "title": "Chapter 54-59 - Information Technology Department",
+   "doc_type": "statute",
+   "path": "statutes/north-dakota/nd-ndcc-54-59.md"
+  },
+  {
+   "id": "oh-orc-125-18",
+   "title": "Office of information technology - duties of director - contracts.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-125-18.md"
+  },
+  {
+   "id": "oh-orc-125-183",
+   "title": "Applications prohibited on state networks and devices.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-125-183.md"
+  },
+  {
+   "id": "oh-orc-125-32",
+   "title": "Enterprise data management and analytics program.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-125-32.md"
+  },
+  {
+   "id": "oh-orc-125-70",
+   "title": "Data matching agreements.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-125-70.md"
+  },
+  {
+   "id": "oh-orc-126-41",
+   "title": "Cybersecurity and fraud advisory board.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-126-41.md"
+  },
+  {
+   "id": "oh-orc-126-506",
+   "title": "Participation in technology consolidation projects.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-126-506.md"
+  },
+  {
+   "id": "oh-orc-1306-21",
+   "title": "Rules for state agency use of electronic records or electronic signatures.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-1306-21.md"
+  },
+  {
+   "id": "oh-orc-1306-23",
+   "title": "Exemptions to public records laws.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-1306-23.md"
+  },
+  {
+   "id": "oh-orc-5162-90",
+   "title": "Use of automated review tools.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-5162-90.md"
+  },
+  {
+   "id": "oh-orc-5164-11",
+   "title": "Use of automated review tools.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-5164-11.md"
+  },
+  {
+   "id": "oh-orc-9-16",
+   "title": "Governmental use of distributed ledger technology.",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-9-16.md"
+  },
+  {
+   "id": "oh-orc-ch1347",
+   "title": "Personal Information Systems",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-ch1347.md"
+  },
+  {
+   "id": "oh-orc-ch5922",
+   "title": "Civilian Cyber Security Reserve Forces",
+   "doc_type": "statute",
+   "path": "statutes/ohio/oh-orc-ch5922.md"
+  },
+  {
    "id": "or-ors-276a",
    "title": "Chapter 276A - Information Technology (2025 Edition)",
    "doc_type": "statute",
@@ -1857,6 +2121,60 @@
    "title": "Breach of Personal Information Notification Act",
    "doc_type": "statute",
    "path": "statutes/pennsylvania/pa-act-94-2005-breach-of-personal-information-notification.md"
+  },
+  {
+   "id": "ri-gl-11-49-3",
+   "title": "Identity Theft Protection Act of 2015",
+   "doc_type": "statute",
+   "path": "statutes/rhode-island/ri-gl-11-49-3.md"
+  },
+  {
+   "id": "ri-gl-42-11-2-5",
+   "title": "Information technology restricted receipt account and large systems initiatives fund",
+   "doc_type": "statute",
+   "path": "statutes/rhode-island/ri-gl-42-11-2-5.md"
+  },
+  {
+   "id": "ri-gl-42-11-2-6",
+   "title": "Office of Digital Excellence established",
+   "doc_type": "statute",
+   "path": "statutes/rhode-island/ri-gl-42-11-2-6.md"
+  },
+  {
+   "id": "ri-gl-42-11-2-8",
+   "title": "Division of enterprise technology strategy and services established",
+   "doc_type": "statute",
+   "path": "statutes/rhode-island/ri-gl-42-11-2-8.md"
+  },
+  {
+   "id": "ri-gl-42-165",
+   "title": "Rhode Island Integrated Data System Act",
+   "doc_type": "statute",
+   "path": "statutes/rhode-island/ri-gl-42-165.md"
+  },
+  {
+   "id": "sc-code-1-ch-11",
+   "title": "Code of Laws, Title 1, Chapter 11. Department of Administration",
+   "doc_type": "statute",
+   "path": "statutes/south-carolina/sc-code-1-ch-11.md"
+  },
+  {
+   "id": "sc-code-11-ch-53",
+   "title": "Code of Laws, Title 11, Chapter 53. South Carolina Enterprise Information System",
+   "doc_type": "statute",
+   "path": "statutes/south-carolina/sc-code-11-ch-53.md"
+  },
+  {
+   "id": "sc-code-30-ch-2",
+   "title": "Code of Laws, Title 30, Chapter 2. Family and Personal Identifying Information Privacy Protection",
+   "doc_type": "statute",
+   "path": "statutes/south-carolina/sc-code-30-ch-2.md"
+  },
+  {
+   "id": "sd-sdcl-1-33-bit",
+   "title": "Department of Executive Management, Bureau of Information and Technology (sections of SDCL chapter 1-33)",
+   "doc_type": "statute",
+   "path": "statutes/south-dakota/sd-sdcl-1-33-bit.md"
   },
   {
    "id": "tx-bc-552",
@@ -1911,6 +2229,30 @@
    "title": "Government Code, Chapter 620. Use of Certain Social Media Applications and Services on Governmental Entity Devices Prohibited",
    "doc_type": "statute",
    "path": "statutes/texas/tx-gv-620.md"
+  },
+  {
+   "id": "ut-code-63a-16",
+   "title": "Governance Of Technology",
+   "doc_type": "statute",
+   "path": "statutes/utah/ut-code-63a-16.md"
+  },
+  {
+   "id": "ut-code-63a-19",
+   "title": "Government Data Privacy Act",
+   "doc_type": "statute",
+   "path": "statutes/utah/ut-code-63a-19.md"
+  },
+  {
+   "id": "ut-code-63a-20",
+   "title": "State-Endorsed Digital Identity",
+   "doc_type": "statute",
+   "path": "statutes/utah/ut-code-63a-20.md"
+  },
+  {
+   "id": "ut-code-63c-27",
+   "title": "Cybersecurity Commission",
+   "doc_type": "statute",
+   "path": "statutes/utah/ut-code-63c-27.md"
   },
   {
    "id": "va-code-18-2-186-6",
@@ -2123,6 +2465,90 @@
    "path": "rules/minnesota/mn-rule-1205.md"
   },
   {
+   "id": "nv-nac-242",
+   "title": "CHAPTER 242 - INFORMATION SERVICES",
+   "doc_type": "rule",
+   "path": "rules/nevada/nv-nac-242.md"
+  },
+  {
+   "id": "nm-nmac-1-12-1",
+   "title": "General Provisions",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-1.md"
+  },
+  {
+   "id": "nm-nmac-1-12-10",
+   "title": "Internet, Intranet, Email, and Digital Network Usage",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-10.md"
+  },
+  {
+   "id": "nm-nmac-1-12-11",
+   "title": "Enterprise Architecture",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-11.md"
+  },
+  {
+   "id": "nm-nmac-1-12-12",
+   "title": "Application Software Selection",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-12.md"
+  },
+  {
+   "id": "nm-nmac-1-12-2",
+   "title": "Commission Operating Procedures",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-2.md"
+  },
+  {
+   "id": "nm-nmac-1-12-20",
+   "title": "Information Security Operation Management",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-20.md"
+  },
+  {
+   "id": "nm-nmac-1-12-3",
+   "title": "Electronic Mail Third-Party Relay",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-3.md"
+  },
+  {
+   "id": "nm-nmac-1-12-4",
+   "title": "MAGnet Network Aggregation",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-4.md"
+  },
+  {
+   "id": "nm-nmac-1-12-5",
+   "title": "Oversight of Information Technology Projects",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-5.md"
+  },
+  {
+   "id": "nm-nmac-1-12-6",
+   "title": "Architectural Configuration Requirements",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-6.md"
+  },
+  {
+   "id": "nm-nmac-1-12-7",
+   "title": "Digital / Electronic Signature",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-7.md"
+  },
+  {
+   "id": "nm-nmac-1-12-8",
+   "title": "Notification of Internet Protocol Addresses",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-8.md"
+  },
+  {
+   "id": "nm-nmac-1-12-9",
+   "title": "Project Certification of Technology Projects",
+   "doc_type": "rule",
+   "path": "rules/new-mexico/nm-nmac-1-12-9.md"
+  },
+  {
    "id": "ny-nycrr-551",
    "title": "CIO/OFT Personal Privacy Protection Regulations",
    "doc_type": "rule",
@@ -2145,6 +2571,36 @@
    "title": "Subchapter 06D – Government Data Analytics Center",
    "doc_type": "rule",
    "path": "rules/north-carolina/nc-9-ncac-06d.md"
+  },
+  {
+   "id": "nd-nac-113-02-01",
+   "title": "Chapter 113-02-01 - North Dakota Health Information Network",
+   "doc_type": "rule",
+   "path": "rules/north-dakota/nd-nac-113-02-01.md"
+  },
+  {
+   "id": "oh-oac-123-3-1",
+   "title": "Electronic Signatures and Records",
+   "doc_type": "rule",
+   "path": "rules/ohio/oh-oac-123-3-1.md"
+  },
+  {
+   "id": "oh-oac-123-3-2",
+   "title": "Personal Information Systems Definitions",
+   "doc_type": "rule",
+   "path": "rules/ohio/oh-oac-123-3-2.md"
+  },
+  {
+   "id": "oh-oac-123-4",
+   "title": "Accessing Confidential Personal Information",
+   "doc_type": "rule",
+   "path": "rules/ohio/oh-oac-123-4.md"
+  },
+  {
+   "id": "ok-oac-260-15",
+   "title": "CHAPTER 15. ACCESSIBILITY OF INFORMATION TECHNOLOGY",
+   "doc_type": "rule",
+   "path": "rules/oklahoma/ok-oac-260-15.md"
   },
   {
    "id": "or-oar-128-20",
@@ -2417,6 +2873,18 @@
    "path": "executive-orders/missouri/mo-eo-26-02.md"
   },
   {
+   "id": "mt-eo-3-2025",
+   "title": "Integrating Information Technology Resources and Creating an Enterprise Information Technology Governance",
+   "doc_type": "executive_order",
+   "path": "executive-orders/montana/mt-eo-3-2025.md"
+  },
+  {
+   "id": "ne-eo-25-04",
+   "title": "Banning the Use or Download of Applications, Software, and Platforms Created or Owned by China-based Companies or Companies Affiliated with the Chinese Communist Party",
+   "doc_type": "executive_order",
+   "path": "executive-orders/nebraska/ne-eo-25-04.md"
+  },
+  {
    "id": "nj-eo-christie-178",
    "title": "Executive Order No. 178 (Christie): New Jersey Cybersecurity and Communications Integration Cell",
    "doc_type": "executive_order",
@@ -2453,6 +2921,18 @@
    "path": "executive-orders/new-jersey/nj-eo-murphy-44.md"
   },
   {
+   "id": "nm-eo-2022-141",
+   "title": "Establishing the Cyber Security Planning Committee",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-mexico/nm-eo-2022-141.md"
+  },
+  {
+   "id": "nm-eo-2024-011",
+   "title": "Strengthening State Agency Cybersecurity",
+   "doc_type": "executive_order",
+   "path": "executive-orders/new-mexico/nm-eo-2024-011.md"
+  },
+  {
    "id": "ny-eo-117",
    "title": "Establishing the Position of Chief Information Officer (CIO) of the State of New York",
    "doc_type": "executive_order",
@@ -2463,6 +2943,30 @@
    "title": "Executive Order No. 24: Advancing Trustworthy Artificial Intelligence That Benefits All North Carolinians",
    "doc_type": "executive_order",
    "path": "executive-orders/north-carolina/nc-eo-24.md"
+  },
+  {
+   "id": "oh-eo-2019-15d",
+   "title": "Modernizing Information Technology Systems in State Agencies",
+   "doc_type": "executive_order",
+   "path": "executive-orders/ohio/oh-eo-2019-15d.md"
+  },
+  {
+   "id": "oh-eo-2022-07d",
+   "title": "Creation of the Cybersecurity Strategic Advisor",
+   "doc_type": "executive_order",
+   "path": "executive-orders/ohio/oh-eo-2022-07d.md"
+  },
+  {
+   "id": "oh-eo-2023-03d",
+   "title": "Prohibition of Certain Applications, Platforms, and Websites on State-Owned and State-Leased Devices",
+   "doc_type": "executive_order",
+   "path": "executive-orders/ohio/oh-eo-2023-03d.md"
+  },
+  {
+   "id": "ok-eo-2022-33",
+   "title": "Executive Order 2022-33",
+   "doc_type": "executive_order",
+   "path": "executive-orders/oklahoma/ok-eo-2022-33.md"
   },
   {
    "id": "or-eo-23-26",
@@ -2505,6 +3009,36 @@
    "title": "Expanding and Governing the Use of Generative Artificial Intelligence Technologies Within the Commonwealth of Pennsylvania",
    "doc_type": "executive_order",
    "path": "executive-orders/pennsylvania/pa-eo-2023-19.md"
+  },
+  {
+   "id": "sc-eo-2017-08",
+   "title": "Executive Order No. 2017-08: Establishing the South Carolina Critical Infrastructure Cybersecurity Executive Oversight Group",
+   "doc_type": "executive_order",
+   "path": "executive-orders/south-carolina/sc-eo-2017-08.md"
+  },
+  {
+   "id": "sc-eo-2022-03",
+   "title": "Executive Order No. 2022-03: IT Shared Services Plan Implementation",
+   "doc_type": "executive_order",
+   "path": "executive-orders/south-carolina/sc-eo-2022-03.md"
+  },
+  {
+   "id": "sd-eo-2022-10",
+   "title": "Prohibition of the Use of TikTok Application on Government-Issued Devices",
+   "doc_type": "executive_order",
+   "path": "executive-orders/south-dakota/sd-eo-2022-10.md"
+  },
+  {
+   "id": "sd-eo-2023-06",
+   "title": "Banning Tencent for State Government",
+   "doc_type": "executive_order",
+   "path": "executive-orders/south-dakota/sd-eo-2023-06.md"
+  },
+  {
+   "id": "ut-eo-2026-08",
+   "title": "Establishing Utah’s Pro-Human Approach to Artificial Intelligence in State Government",
+   "doc_type": "executive_order",
+   "path": "executive-orders/utah/ut-eo-2026-08.md"
   },
   {
    "id": "va-ed-6-2026",
@@ -5093,6 +5627,486 @@
    "path": "policies/missouri/mo-sp-19.md"
   },
   {
+   "id": "mt-itb-operating-procedures-2026",
+   "title": "Information Technology Board Operating Procedures",
+   "doc_type": "policy",
+   "path": "policies/montana/mt-itb-operating-procedures-2026.md"
+  },
+  {
+   "id": "ne-nitc-1-101",
+   "title": "1-101. Definitions.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-101.md"
+  },
+  {
+   "id": "ne-nitc-1-102",
+   "title": "1-102. Authority; applicability.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-102.md"
+  },
+  {
+   "id": "ne-nitc-1-103",
+   "title": "1-103. Waiver policy.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-103.md"
+  },
+  {
+   "id": "ne-nitc-1-201",
+   "title": "1-201. Information technology plans.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-201.md"
+  },
+  {
+   "id": "ne-nitc-1-202",
+   "title": "1-202. Project reviews; information technology projects submitted as part of the state biennial budget process.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-202.md"
+  },
+  {
+   "id": "ne-nitc-1-203",
+   "title": "1-203. Project progress reports.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-203.md"
+  },
+  {
+   "id": "ne-nitc-1-204",
+   "title": "1-204. Procurement review policy.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-204.md"
+  },
+  {
+   "id": "ne-nitc-1-205",
+   "title": "1-205. List of pre-approved items for purchase.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-205.md"
+  },
+  {
+   "id": "ne-nitc-1-206",
+   "title": "1-206. Enterprise projects.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-1-206.md"
+  },
+  {
+   "id": "ne-nitc-2-101",
+   "title": "2-101. Accessibility policy.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-2-101.md"
+  },
+  {
+   "id": "ne-nitc-7-101",
+   "title": "7-101. State communications system; acceptable use policy.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-7-101.md"
+  },
+  {
+   "id": "ne-nitc-8-101",
+   "title": "8-101. Purpose.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-101.md"
+  },
+  {
+   "id": "ne-nitc-8-102",
+   "title": "8-102. Scope.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-102.md"
+  },
+  {
+   "id": "ne-nitc-8-103",
+   "title": "8-103. Roles and responsibilities.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-103.md"
+  },
+  {
+   "id": "ne-nitc-8-104",
+   "title": "8-104. Policy exception process.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-104.md"
+  },
+  {
+   "id": "ne-nitc-8-201",
+   "title": "8-201. Acceptable use.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-201.md"
+  },
+  {
+   "id": "ne-nitc-8-202",
+   "title": "8-202. Change control management.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-202.md"
+  },
+  {
+   "id": "ne-nitc-8-203",
+   "title": "8-203. Multi-function devices.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-203.md"
+  },
+  {
+   "id": "ne-nitc-8-204",
+   "title": "8-204. Email.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-204.md"
+  },
+  {
+   "id": "ne-nitc-8-205",
+   "title": "8-205. Portable storage devices.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-205.md"
+  },
+  {
+   "id": "ne-nitc-8-206",
+   "title": "8-206. Facilities; physical security requirements.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-206.md"
+  },
+  {
+   "id": "ne-nitc-8-207",
+   "title": "8-207. Facilities; identification badges; visitors.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-207.md"
+  },
+  {
+   "id": "ne-nitc-8-208",
+   "title": "8-208. External service providers.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-208.md"
+  },
+  {
+   "id": "ne-nitc-8-209",
+   "title": "8-209. Agency security planning and reporting.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-209.md"
+  },
+  {
+   "id": "ne-nitc-8-210",
+   "title": "8-210. Information security strategic plan.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-210.md"
+  },
+  {
+   "id": "ne-nitc-8-211",
+   "title": "8-211. System security plan.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-211.md"
+  },
+  {
+   "id": "ne-nitc-8-213",
+   "title": "8-213. International travel.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-213.md"
+  },
+  {
+   "id": "ne-nitc-8-301",
+   "title": "8-301. Remote access.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-301.md"
+  },
+  {
+   "id": "ne-nitc-8-302-1",
+   "title": "8-302.1. Public accounts; passwords.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-302-1.md"
+  },
+  {
+   "id": "ne-nitc-8-302",
+   "title": "8-302. Passwords.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-302.md"
+  },
+  {
+   "id": "ne-nitc-8-303",
+   "title": "8-303. Identification and authorization.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-303.md"
+  },
+  {
+   "id": "ne-nitc-8-304",
+   "title": "8-304. Privileged access accounts.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-304.md"
+  },
+  {
+   "id": "ne-nitc-8-401",
+   "title": "8-401. Network documentation.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-401.md"
+  },
+  {
+   "id": "ne-nitc-8-402",
+   "title": "8-402. Network transmission security.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-402.md"
+  },
+  {
+   "id": "ne-nitc-8-403",
+   "title": "8-403. Network architecture requirements.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-403.md"
+  },
+  {
+   "id": "ne-nitc-8-404",
+   "title": "8-404. External connections.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-404.md"
+  },
+  {
+   "id": "ne-nitc-8-405",
+   "title": "8-405. Wireless networks.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-405.md"
+  },
+  {
+   "id": "ne-nitc-8-501",
+   "title": "8-501. System security; approved hardware and software; documentation.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-501.md"
+  },
+  {
+   "id": "ne-nitc-8-502",
+   "title": "8-502. Minimum user account configuration.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-502.md"
+  },
+  {
+   "id": "ne-nitc-8-503",
+   "title": "8-503. Minimum server configuration.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-503.md"
+  },
+  {
+   "id": "ne-nitc-8-504",
+   "title": "8-504. Minimum workstation configuration.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-504.md"
+  },
+  {
+   "id": "ne-nitc-8-506",
+   "title": "8-506. Minimum mobile device configuration.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-506.md"
+  },
+  {
+   "id": "ne-nitc-8-507",
+   "title": "8-507. System maintenance.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-507.md"
+  },
+  {
+   "id": "ne-nitc-8-508",
+   "title": "8-508. Kiosks and public access workstations.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-508.md"
+  },
+  {
+   "id": "ne-nitc-8-601",
+   "title": "8-601. Application documentation.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-601.md"
+  },
+  {
+   "id": "ne-nitc-8-602",
+   "title": "8-602. Application code.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-602.md"
+  },
+  {
+   "id": "ne-nitc-8-603",
+   "title": "8-603. Separation of test and production environments.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-603.md"
+  },
+  {
+   "id": "ne-nitc-8-604",
+   "title": "8-604. Application development.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-604.md"
+  },
+  {
+   "id": "ne-nitc-8-605",
+   "title": "8-605. Web applications and services.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-605.md"
+  },
+  {
+   "id": "ne-nitc-8-606",
+   "title": "8-606. Staff use of cloud storage websites.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-606.md"
+  },
+  {
+   "id": "ne-nitc-8-607",
+   "title": "8-607. Cloud computing.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-607.md"
+  },
+  {
+   "id": "ne-nitc-8-608",
+   "title": "8-608. Low-code/no-code and containerization development.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-608.md"
+  },
+  {
+   "id": "ne-nitc-8-609",
+   "title": "8-609. Artificial intelligence policy.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-609.md"
+  },
+  {
+   "id": "ne-nitc-8-701",
+   "title": "8-701. Auditing and compliance; responsibilities; review.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-701.md"
+  },
+  {
+   "id": "ne-nitc-8-702",
+   "title": "8-702. Awareness and training.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-702.md"
+  },
+  {
+   "id": "ne-nitc-8-703",
+   "title": "8-703. Security reviews; risk management.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-703.md"
+  },
+  {
+   "id": "ne-nitc-8-704",
+   "title": "8-704. Logging.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-704.md"
+  },
+  {
+   "id": "ne-nitc-8-705",
+   "title": "8-705. Logging; format, storage, and retention.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-705.md"
+  },
+  {
+   "id": "ne-nitc-8-706",
+   "title": "8-706. Logging; auditable events.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-706.md"
+  },
+  {
+   "id": "ne-nitc-8-707",
+   "title": "8-707. Logging; audit log contents.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-707.md"
+  },
+  {
+   "id": "ne-nitc-8-708",
+   "title": "8-708. Logging; audit review, monitoring, findings and remediation.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-708.md"
+  },
+  {
+   "id": "ne-nitc-8-709",
+   "title": "8-709. Logging; application logging review and monitoring.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-709.md"
+  },
+  {
+   "id": "ne-nitc-8-801",
+   "title": "8-801. Incident response.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-801.md"
+  },
+  {
+   "id": "ne-nitc-8-802",
+   "title": "8-802. Incident response plan.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-802.md"
+  },
+  {
+   "id": "ne-nitc-8-803",
+   "title": "8-803. Penetration testing.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-803.md"
+  },
+  {
+   "id": "ne-nitc-8-804",
+   "title": "8-804. Vulnerability scanning.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-804.md"
+  },
+  {
+   "id": "ne-nitc-8-805",
+   "title": "8-805. Malicious software protection.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-805.md"
+  },
+  {
+   "id": "ne-nitc-8-806",
+   "title": "8-806. Security deficiencies.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-806.md"
+  },
+  {
+   "id": "ne-nitc-8-807",
+   "title": "8-807. Third party cyber risk management.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-807.md"
+  },
+  {
+   "id": "ne-nitc-8-901",
+   "title": "8-901. State data.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-901.md"
+  },
+  {
+   "id": "ne-nitc-8-902",
+   "title": "8-902. Data classification categories.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-902.md"
+  },
+  {
+   "id": "ne-nitc-8-903",
+   "title": "8-903. Data inventory.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-903.md"
+  },
+  {
+   "id": "ne-nitc-8-904",
+   "title": "8-904. Data security control assessment.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-904.md"
+  },
+  {
+   "id": "ne-nitc-8-905",
+   "title": "8-905. Data sharing.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-905.md"
+  },
+  {
+   "id": "ne-nitc-8-906",
+   "title": "8-906. Data destruction.",
+   "doc_type": "policy",
+   "path": "policies/nebraska/ne-nitc-8-906.md"
+  },
+  {
+   "id": "nv-ada-technology-accessibility-guidelines",
+   "title": "ADA Technology Accessibility Guidelines",
+   "doc_type": "policy",
+   "path": "policies/nevada/nv-ada-technology-accessibility-guidelines.md"
+  },
+  {
+   "id": "nv-gto-ai-guidelines-memo",
+   "title": "Guidelines for the Use and Security of AI Tools",
+   "doc_type": "policy",
+   "path": "policies/nevada/nv-gto-ai-guidelines-memo.md"
+  },
+  {
+   "id": "nv-sec-100",
+   "title": "State Information Security Program Policy",
+   "doc_type": "policy",
+   "path": "policies/nevada/nv-sec-100.md"
+  },
+  {
+   "id": "nv-sec-s-2-03-01",
+   "title": "Information Security Committee Charter",
+   "doc_type": "policy",
+   "path": "policies/nevada/nv-sec-s-2-03-01.md"
+  },
+  {
    "id": "nj-njoit-06-06",
    "title": "State of New Jersey Online Disclaimer Policy",
    "doc_type": "policy",
@@ -5241,6 +6255,54 @@
    "title": "Procurements of Information Technology (IT) Hardware, Software, Subscription-Based Solutions and Related Services and Non-IT Equipment",
    "doc_type": "policy",
    "path": "policies/new-jersey/nj-treasury-circular-24-04.md"
+  },
+  {
+   "id": "nm-doit-data-policy",
+   "title": "Data Policy",
+   "doc_type": "policy",
+   "path": "policies/new-mexico/nm-doit-data-policy.md"
+  },
+  {
+   "id": "nm-doit-ediscovery-policy",
+   "title": "eDiscovery Access and Use Policy",
+   "doc_type": "policy",
+   "path": "policies/new-mexico/nm-doit-ediscovery-policy.md"
+  },
+  {
+   "id": "nm-doit-gen-ai-policy",
+   "title": "Generative AI Use Guidelines Policy",
+   "doc_type": "policy",
+   "path": "policies/new-mexico/nm-doit-gen-ai-policy.md"
+  },
+  {
+   "id": "nm-doit-gen-ai-quick-guide",
+   "title": "Generative AI Use Guidelines Policy Quick Guide",
+   "doc_type": "policy",
+   "path": "policies/new-mexico/nm-doit-gen-ai-quick-guide.md"
+  },
+  {
+   "id": "nm-doit-n-guide-001",
+   "title": "Network Guideline",
+   "doc_type": "policy",
+   "path": "policies/new-mexico/nm-doit-n-guide-001.md"
+  },
+  {
+   "id": "nm-doit-s-guide-002",
+   "title": "Enterprise IT Security Guidelines",
+   "doc_type": "policy",
+   "path": "policies/new-mexico/nm-doit-s-guide-002.md"
+  },
+  {
+   "id": "nm-doit-s-pol-003",
+   "title": "Security Training and Awareness Standard",
+   "doc_type": "policy",
+   "path": "policies/new-mexico/nm-doit-s-pol-003.md"
+  },
+  {
+   "id": "nm-ocs-ciso-order-2025-01",
+   "title": "Cybersecurity Incident Reporting",
+   "doc_type": "policy",
+   "path": "policies/new-mexico/nm-ocs-ciso-order-2025-01.md"
   },
   {
    "id": "ny-its-g26-002",
@@ -5733,6 +6795,210 @@
    "title": "Third-Party Cloud Service Risk Authorization & Management",
    "doc_type": "policy",
    "path": "policies/north-carolina/nc-third-party-cloud-service-risk.md"
+  },
+  {
+   "id": "nd-ndit-ai-guideline",
+   "title": "Artificial Intelligence Guideline",
+   "doc_type": "policy",
+   "path": "policies/north-dakota/nd-ndit-ai-guideline.md"
+  },
+  {
+   "id": "nd-ndit-ai-policy",
+   "title": "Artificial Intelligence Policy",
+   "doc_type": "policy",
+   "path": "policies/north-dakota/nd-ndit-ai-policy.md"
+  },
+  {
+   "id": "nd-ndit-data-classification-policy",
+   "title": "State of North Dakota Data Classification Policy",
+   "doc_type": "policy",
+   "path": "policies/north-dakota/nd-ndit-data-classification-policy.md"
+  },
+  {
+   "id": "nd-ndit-international-traveler-guidelines",
+   "title": "International Traveler Guidelines",
+   "doc_type": "policy",
+   "path": "policies/north-dakota/nd-ndit-international-traveler-guidelines.md"
+  },
+  {
+   "id": "nd-ndit-prohibited-technologies-policy",
+   "title": "Prohibited Technologies Policy",
+   "doc_type": "policy",
+   "path": "policies/north-dakota/nd-ndit-prohibited-technologies-policy.md"
+  },
+  {
+   "id": "oh-ai-council-charter",
+   "title": "State of Ohio Artificial Intelligence (AI) Council Charter",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-ai-council-charter.md"
+  },
+  {
+   "id": "oh-it-01",
+   "title": "Authority of the State Chief Information Officer to Establish Ohio IT Policy",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-01.md"
+  },
+  {
+   "id": "oh-it-02",
+   "title": "Information Technology Strategic Investment Planning",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-02.md"
+  },
+  {
+   "id": "oh-it-03",
+   "title": "Software Licensing",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-03.md"
+  },
+  {
+   "id": "oh-it-04",
+   "title": "Use of Internet, E-mail and Other IT Resources",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-04.md"
+  },
+  {
+   "id": "oh-it-05",
+   "title": "Disposal, Servicing and Transfer of IT Equipment",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-05.md"
+  },
+  {
+   "id": "oh-it-06",
+   "title": "Ohio.gov Standardization & Registration of Domain Names",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-06.md"
+  },
+  {
+   "id": "oh-it-07",
+   "title": "Electronic Records",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-07.md"
+  },
+  {
+   "id": "oh-it-08",
+   "title": "Website Standardization",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-08.md"
+  },
+  {
+   "id": "oh-it-09",
+   "title": "Digital Accessibility",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-09.md"
+  },
+  {
+   "id": "oh-it-10",
+   "title": "Moratorium on the Use of Advertisements, Endorsements, and Sponsorships on State-Controlled Websites",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-10.md"
+  },
+  {
+   "id": "oh-it-11",
+   "title": "Use of State Telephones",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-11.md"
+  },
+  {
+   "id": "oh-it-12",
+   "title": "Telecommunications Utility Services",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-12.md"
+  },
+  {
+   "id": "oh-it-13",
+   "title": "Data Classification",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-13.md"
+  },
+  {
+   "id": "oh-it-14",
+   "title": "Data Encryption and Securing Confidential Data",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-14.md"
+  },
+  {
+   "id": "oh-it-15",
+   "title": "Information Security and Privacy Awareness Training",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-15.md"
+  },
+  {
+   "id": "oh-it-16",
+   "title": "Major Project Governance Policy",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-16.md"
+  },
+  {
+   "id": "oh-it-17",
+   "title": "Use of Artificial Intelligence in State of Ohio Solutions",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-17.md"
+  },
+  {
+   "id": "oh-it-18",
+   "title": "Information Security & Privacy Incident Response",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-18.md"
+  },
+  {
+   "id": "oh-it-19",
+   "title": "Data Governance",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-19.md"
+  },
+  {
+   "id": "oh-it-20",
+   "title": "Vulnerability Management",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-20.md"
+  },
+  {
+   "id": "oh-it-21",
+   "title": "Information Technology Supplier Risk Management",
+   "doc_type": "policy",
+   "path": "policies/ohio/oh-it-21.md"
+  },
+  {
+   "id": "ok-memo-it-reporting-requirements",
+   "title": "Information Technology Statutory and Regulatory Reporting Requirements for State Agencies",
+   "doc_type": "policy",
+   "path": "policies/oklahoma/ok-memo-it-reporting-requirements.md"
+  },
+  {
+   "id": "ok-pim-it-acquisitions-delegation",
+   "title": "Procurement Information Memorandum: Delegation of Authority from CIO for Purchase of Certain Information Technology and Telecommunication Products",
+   "doc_type": "policy",
+   "path": "policies/oklahoma/ok-pim-it-acquisitions-delegation.md"
+  },
+  {
+   "id": "ok-pol-hipaa-hitech",
+   "title": "OMES HIPAA Privacy and Security Policy",
+   "doc_type": "policy",
+   "path": "policies/oklahoma/ok-pol-hipaa-hitech.md"
+  },
+  {
+   "id": "ok-pol-information-security-ppg",
+   "title": "Information Security Policy, Procedures and Guidelines",
+   "doc_type": "policy",
+   "path": "policies/oklahoma/ok-pol-information-security-ppg.md"
+  },
+  {
+   "id": "ok-pol-isd-procurement",
+   "title": "OMES ISD Procurement Policies",
+   "doc_type": "policy",
+   "path": "policies/oklahoma/ok-pol-isd-procurement.md"
+  },
+  {
+   "id": "ok-pol-it-risk-management",
+   "title": "OMES IS Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/oklahoma/ok-pol-it-risk-management.md"
+  },
+  {
+   "id": "ok-pol-social-media-guidelines",
+   "title": "OMES Social Networking & Social Media Guidelines",
+   "doc_type": "policy",
+   "path": "policies/oklahoma/ok-pol-social-media-guidelines.md"
   },
   {
    "id": "or-das-107-004-010",
@@ -6251,6 +7517,168 @@
    "path": "policies/pennsylvania/pa-md-535-09.md"
   },
   {
+   "id": "ri-etss-09-01",
+   "title": "Mobile Devices Service and Support Policy 09-01",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-09-01.md"
+  },
+  {
+   "id": "ri-etss-10-04",
+   "title": "State Network Device Security Policy 10-04",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-10-04.md"
+  },
+  {
+   "id": "ri-etss-100-11",
+   "title": "Physical and Environmental Security Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-100-11.md"
+  },
+  {
+   "id": "ri-etss-100-2",
+   "title": "System Maintenance Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-100-2.md"
+  },
+  {
+   "id": "ri-etss-100-6",
+   "title": "Contingency Planning Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-100-6.md"
+  },
+  {
+   "id": "ri-etss-300-1",
+   "title": "Access Control Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-1.md"
+  },
+  {
+   "id": "ri-etss-300-10",
+   "title": "Media Protection Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-10.md"
+  },
+  {
+   "id": "ri-etss-300-12",
+   "title": "Security Planning Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-12.md"
+  },
+  {
+   "id": "ri-etss-300-13",
+   "title": "Cybersecurity and Risk Program Management",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-13.md"
+  },
+  {
+   "id": "ri-etss-300-14",
+   "title": "Personnel Security Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-14.md"
+  },
+  {
+   "id": "ri-etss-300-2",
+   "title": "Risk Assessment Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-2.md"
+  },
+  {
+   "id": "ri-etss-300-3",
+   "title": "Audit and Accountability Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-3.md"
+  },
+  {
+   "id": "ri-etss-300-4",
+   "title": "System and Communications Protection Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-4.md"
+  },
+  {
+   "id": "ri-etss-300-5",
+   "title": "System and Information Integrity Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-5.md"
+  },
+  {
+   "id": "ri-etss-300-6",
+   "title": "Assessment, Authorization, and Continuous Monitoring Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-6.md"
+  },
+  {
+   "id": "ri-etss-300-7",
+   "title": "Identification and Authentication Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-7.md"
+  },
+  {
+   "id": "ri-etss-300-8",
+   "title": "Cybersecurity Incident Handling and Response Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-300-8.md"
+  },
+  {
+   "id": "ri-etss-400-2",
+   "title": "Federal Tax Information Access and Data Handling Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-400-2.md"
+  },
+  {
+   "id": "ri-etss-500-1",
+   "title": "Configuration Management Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-500-1.md"
+  },
+  {
+   "id": "ri-etss-800-1",
+   "title": "System and Services Acquisition Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-800-1.md"
+  },
+  {
+   "id": "ri-etss-800-2",
+   "title": "Supply Chain Risk Management Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-800-2.md"
+  },
+  {
+   "id": "ri-etss-950-2",
+   "title": "Awareness and Training Policy",
+   "doc_type": "policy",
+   "path": "policies/rhode-island/ri-etss-950-2.md"
+  },
+  {
+   "id": "sc-admin-data-classification-schema-guidelines",
+   "title": "Data Classification Schema and Guidelines",
+   "doc_type": "policy",
+   "path": "policies/south-carolina/sc-admin-data-classification-schema-guidelines.md"
+  },
+  {
+   "id": "sc-admin-data-handling-guidelines",
+   "title": "Information Security and Privacy Data Handling Guidelines",
+   "doc_type": "policy",
+   "path": "policies/south-carolina/sc-admin-data-handling-guidelines.md"
+  },
+  {
+   "id": "sc-admin-it-shared-services-governance-overview",
+   "title": "IT Shared Services Governance Overview",
+   "doc_type": "policy",
+   "path": "policies/south-carolina/sc-admin-it-shared-services-governance-overview.md"
+  },
+  {
+   "id": "sc-admin-mobile-device-protection-policy",
+   "title": "Mobile Device Protection Policy",
+   "doc_type": "policy",
+   "path": "policies/south-carolina/sc-admin-mobile-device-protection-policy.md"
+  },
+  {
+   "id": "sc-admin-statewide-infosec-program-policy",
+   "title": "South Carolina Statewide Information Security Program Policy",
+   "doc_type": "policy",
+   "path": "policies/south-carolina/sc-admin-statewide-infosec-program-policy.md"
+  },
+  {
    "id": "tx-dir-ai-acceptable-use-policy",
    "title": "AI Acceptable Use Policy",
    "doc_type": "policy",
@@ -6273,6 +7701,36 @@
    "title": "State Website Linking and Privacy Policy",
    "doc_type": "policy",
    "path": "policies/texas/tx-dir-state-website-linking-privacy-policy.md"
+  },
+  {
+   "id": "ut-dts-1000-0003",
+   "title": "Acceptable Use of Information Technology Resources",
+   "doc_type": "policy",
+   "path": "policies/utah/ut-dts-1000-0003.md"
+  },
+  {
+   "id": "ut-dts-1000-0019",
+   "title": "Vendor Service Level Agreement Standards",
+   "doc_type": "policy",
+   "path": "policies/utah/ut-dts-1000-0019.md"
+  },
+  {
+   "id": "ut-dts-2000-0014",
+   "title": "Background Investigations",
+   "doc_type": "policy",
+   "path": "policies/utah/ut-dts-2000-0014.md"
+  },
+  {
+   "id": "ut-dts-4000-0008",
+   "title": "Enterprise Generative AI",
+   "doc_type": "policy",
+   "path": "policies/utah/ut-dts-4000-0008.md"
+  },
+  {
+   "id": "ut-dts-5000-0002",
+   "title": "Information Security",
+   "doc_type": "policy",
+   "path": "policies/utah/ut-dts-5000-0002.md"
   },
   {
    "id": "va-ai-policy-ea400",
@@ -8801,6 +10259,372 @@
    "path": "standards/missouri/mo-virus-policy-best-practices-cc.md"
   },
   {
+   "id": "ne-nitc-3-101",
+   "title": "3-101. GIS software.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-101.md"
+  },
+  {
+   "id": "ne-nitc-3-102",
+   "title": "3-102. NebraskaMAP portal.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-102.md"
+  },
+  {
+   "id": "ne-nitc-3-201",
+   "title": "3-201. Geospatial metadata standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-201.md"
+  },
+  {
+   "id": "ne-nitc-3-202",
+   "title": "3-202. Land record information and mapping standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-202.md"
+  },
+  {
+   "id": "ne-nitc-3-203",
+   "title": "3-203. Lidar standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-203.md"
+  },
+  {
+   "id": "ne-nitc-3-204",
+   "title": "3-204. Imagery standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-204.md"
+  },
+  {
+   "id": "ne-nitc-3-205",
+   "title": "3-205. Street centerlines.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-205.md"
+  },
+  {
+   "id": "ne-nitc-3-206",
+   "title": "3-206. Address points.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-206.md"
+  },
+  {
+   "id": "ne-nitc-3-301",
+   "title": "3-301. Nebraska Plane Coordinate System.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-3-301.md"
+  },
+  {
+   "id": "ne-nitc-4-201",
+   "title": "4-201. State government web pages; footer guidelines.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-4-201.md"
+  },
+  {
+   "id": "ne-nitc-4-202",
+   "title": "4-202. Web cookie standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-4-202.md"
+  },
+  {
+   "id": "ne-nitc-4-203",
+   "title": "4-203. Security statement.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-4-203.md"
+  },
+  {
+   "id": "ne-nitc-5-201",
+   "title": "5-201. Email standard for state agencies.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-5-201.md"
+  },
+  {
+   "id": "ne-nitc-5-301",
+   "title": "5-301. Internet fax standard for state agencies.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-5-301.md"
+  },
+  {
+   "id": "ne-nitc-5-401",
+   "title": "5-401. Active Directory; user photographs.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-5-401.md"
+  },
+  {
+   "id": "ne-nitc-7-102",
+   "title": "7-102. DNS forwarding standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-102.md"
+  },
+  {
+   "id": "ne-nitc-7-103",
+   "title": "7-103. SMTP routing standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-103.md"
+  },
+  {
+   "id": "ne-nitc-7-104",
+   "title": "7-104. Web domain name standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-104.md"
+  },
+  {
+   "id": "ne-nitc-7-105",
+   "title": "7-105. Wireless local area network standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-105.md"
+  },
+  {
+   "id": "ne-nitc-7-106",
+   "title": "7-106. Internet of Things (IoT) standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-106.md"
+  },
+  {
+   "id": "ne-nitc-7-201",
+   "title": "7-201. Network Nebraska; network edge device standard.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-201.md"
+  },
+  {
+   "id": "ne-nitc-7-202",
+   "title": "7-202. Contracting guideline for an upgrade of distance learning services.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-202.md"
+  },
+  {
+   "id": "ne-nitc-7-203",
+   "title": "7-203. IP communication protocol standard for synchronous distance learning and videoconferencing over Network Nebraska.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-203.md"
+  },
+  {
+   "id": "ne-nitc-7-204",
+   "title": "7-204. Video and audio compression standard for synchronous distance learning and videoconferencing.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-204.md"
+  },
+  {
+   "id": "ne-nitc-7-205",
+   "title": "7-205. Scheduling standard for synchronous distance learning and videoconferencing.",
+   "doc_type": "standard",
+   "path": "standards/nebraska/ne-nitc-7-205.md"
+  },
+  {
+   "id": "nv-ada-web-style-standard",
+   "title": "Web Style Standard",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-ada-web-style-standard.md"
+  },
+  {
+   "id": "nv-sec-s-2-05-01",
+   "title": "Information Security Evaluations",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-2-05-01.md"
+  },
+  {
+   "id": "nv-sec-s-3-02-01",
+   "title": "Data Sensitivity",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-3-02-01.md"
+  },
+  {
+   "id": "nv-sec-s-3-02-02",
+   "title": "Information Security Policy Statement",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-3-02-02.md"
+  },
+  {
+   "id": "nv-sec-s-3-03-01",
+   "title": "Information Security Officer (ISO) Roles and Responsibilities",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-3-03-01.md"
+  },
+  {
+   "id": "nv-sec-s-3-04-01",
+   "title": "Personnel Security",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-3-04-01.md"
+  },
+  {
+   "id": "nv-sec-s-3-04-03",
+   "title": "Social Media for Business Use",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-3-04-03.md"
+  },
+  {
+   "id": "nv-sec-s-3-07-01",
+   "title": "Information Security Risk Analysis",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-3-07-01.md"
+  },
+  {
+   "id": "nv-sec-s-3-09-01",
+   "title": "IT Contingency Planning",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-3-09-01.md"
+  },
+  {
+   "id": "nv-sec-s-4-01-01",
+   "title": "Enterprise Physical Security and Environmental Controls",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-4-01-01.md"
+  },
+  {
+   "id": "nv-sec-s-4-02-02",
+   "title": "Mobile and Non-State Device Security Management",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-4-02-02.md"
+  },
+  {
+   "id": "nv-sec-s-4-02-03",
+   "title": "Multi-Function Devices (MFDs)",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-4-02-03.md"
+  },
+  {
+   "id": "nv-sec-s-4-03-01",
+   "title": "Electronic Media Security",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-4-03-01.md"
+  },
+  {
+   "id": "nv-sec-s-4-07-01",
+   "title": "Security for Software Development",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-4-07-01.md"
+  },
+  {
+   "id": "nv-sec-s-4-08-02",
+   "title": "Information Security Incident Management",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-4-08-02.md"
+  },
+  {
+   "id": "nv-sec-s-5-01-01",
+   "title": "User Identification and Authentication",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-01-01.md"
+  },
+  {
+   "id": "nv-sec-s-5-02-02",
+   "title": "Access Controls and Audit Trails",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-02-02.md"
+  },
+  {
+   "id": "nv-sec-s-5-04-01",
+   "title": "Border Security",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-04-01.md"
+  },
+  {
+   "id": "nv-sec-s-5-04-02",
+   "title": "Data Communications and Remote Connections",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-04-02.md"
+  },
+  {
+   "id": "nv-sec-s-5-04-03",
+   "title": "Remote Access",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-04-03.md"
+  },
+  {
+   "id": "nv-sec-s-5-04-04",
+   "title": "Data Security Architecture",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-04-04.md"
+  },
+  {
+   "id": "nv-sec-s-5-06-01",
+   "title": "Cloud Services",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-06-01.md"
+  },
+  {
+   "id": "nv-sec-s-5-06-02",
+   "title": "Domain Name System (DNS)",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-06-02.md"
+  },
+  {
+   "id": "nv-sec-s-5-08-01",
+   "title": "Wireless Networks",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-5-08-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-02-01",
+   "title": "Software Inventory and Control",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-02-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-02-07-a",
+   "title": "Banned Technology List",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-02-07-a.md"
+  },
+  {
+   "id": "nv-sec-s-6-02-07",
+   "title": "Technology Bans",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-02-07.md"
+  },
+  {
+   "id": "nv-sec-s-6-03-01",
+   "title": "Software Patch Management",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-03-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-03-02",
+   "title": "Vulnerability Management",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-03-02.md"
+  },
+  {
+   "id": "nv-sec-s-6-05-01",
+   "title": "Secure Software Configuration",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-05-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-08-01",
+   "title": "Malware Defenses",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-08-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-10-01",
+   "title": "Backup and Recovery Capabilities",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-10-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-13-01",
+   "title": "Data Protection",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-13-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-15-01",
+   "title": "Wireless Access Control",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-15-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-16-01",
+   "title": "Account Monitoring and Control",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-16-01.md"
+  },
+  {
+   "id": "nv-sec-s-6-17-01",
+   "title": "Information Security Awareness and Training Program",
+   "doc_type": "standard",
+   "path": "standards/nevada/nv-sec-s-6-17-01.md"
+  },
+  {
    "id": "nj-njoit-09-05-s1",
    "title": "Information Security Payment Card Industry (PCI) Data Security Standard",
    "doc_type": "standard",
@@ -8841,6 +10665,90 @@
    "title": "NJ Web Presence Guidelines: Branding and Usability Standards for Websites and Applications",
    "doc_type": "standard",
    "path": "standards/new-jersey/nj-njoit-web-presence-guidelines.md"
+  },
+  {
+   "id": "nm-doit-n-glossary",
+   "title": "Glossary of Terms",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-n-glossary.md"
+  },
+  {
+   "id": "nm-doit-n-std-004",
+   "title": "Firewall Functionality Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-n-std-004.md"
+  },
+  {
+   "id": "nm-doit-n-std-008",
+   "title": "Wireless Access Point Hardware",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-n-std-008.md"
+  },
+  {
+   "id": "nm-doit-s-std-001",
+   "title": "Authentication and Directory Services Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-001.md"
+  },
+  {
+   "id": "nm-doit-s-std-002",
+   "title": "Configuration Management Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-002.md"
+  },
+  {
+   "id": "nm-doit-s-std-003",
+   "title": "IT Risk Management Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-003.md"
+  },
+  {
+   "id": "nm-doit-s-std-004",
+   "title": "Account Management Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-004.md"
+  },
+  {
+   "id": "nm-doit-s-std-005",
+   "title": "Network Security Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-005.md"
+  },
+  {
+   "id": "nm-doit-s-std-006",
+   "title": "Virus and Malicious Code Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-006.md"
+  },
+  {
+   "id": "nm-doit-s-std-007",
+   "title": "Session Controls Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-007.md"
+  },
+  {
+   "id": "nm-doit-s-std-009",
+   "title": "IT Physical Security Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-009.md"
+  },
+  {
+   "id": "nm-doit-s-std-010",
+   "title": "Backups",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-010.md"
+  },
+  {
+   "id": "nm-doit-s-std-011",
+   "title": "Personnel Security Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-011.md"
+  },
+  {
+   "id": "nm-doit-s-std-012",
+   "title": "Incident Response and Reporting Standard",
+   "doc_type": "standard",
+   "path": "standards/new-mexico/nm-doit-s-std-012.md"
   },
   {
    "id": "ny-its-s16-003",
@@ -9077,6 +10985,822 @@
    "path": "standards/north-carolina/nc-gis-water-sewer-data-standard.md"
   },
   {
+   "id": "oh-its-sec-01",
+   "title": "Data Encryption and Cryptography",
+   "doc_type": "standard",
+   "path": "standards/ohio/oh-its-sec-01.md"
+  },
+  {
+   "id": "oh-its-sec-02",
+   "title": "Enterprise Security Controls Framework",
+   "doc_type": "standard",
+   "path": "standards/ohio/oh-its-sec-02.md"
+  },
+  {
+   "id": "ok-std-acceptable-use",
+   "title": "Acceptable Use Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-acceptable-use.md"
+  },
+  {
+   "id": "ok-std-accessibility-of-information-and-communication-technology",
+   "title": "Accessibility of Information and Communication Technology Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-accessibility-of-information-and-communication-technology.md"
+  },
+  {
+   "id": "ok-std-account-management",
+   "title": "Account Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-account-management.md"
+  },
+  {
+   "id": "ok-std-administrator-account",
+   "title": "Administrator Account Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-administrator-account.md"
+  },
+  {
+   "id": "ok-std-agency-electronic-information-request",
+   "title": "Agency Electronic Information Request Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-agency-electronic-information-request.md"
+  },
+  {
+   "id": "ok-std-agile-software-development",
+   "title": "Agile Software Development Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-agile-software-development.md"
+  },
+  {
+   "id": "ok-std-annual-review-of-it-standards",
+   "title": "Annual Review of IT Standards Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-annual-review-of-it-standards.md"
+  },
+  {
+   "id": "ok-std-api-management",
+   "title": "API Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-api-management.md"
+  },
+  {
+   "id": "ok-std-application-authentication",
+   "title": "Application Authentication Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-application-authentication.md"
+  },
+  {
+   "id": "ok-std-application-delivery-controller",
+   "title": "Application Delivery Controller Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-application-delivery-controller.md"
+  },
+  {
+   "id": "ok-std-application-security",
+   "title": "Application Security Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-application-security.md"
+  },
+  {
+   "id": "ok-std-application-software-support",
+   "title": "Application Software Support",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-application-software-support.md"
+  },
+  {
+   "id": "ok-std-automated-local-profile-lifecycle-management",
+   "title": "Automated Local Profile Lifecycle Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-automated-local-profile-lifecycle-management.md"
+  },
+  {
+   "id": "ok-std-automated-testing",
+   "title": "Automated Testing Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-automated-testing.md"
+  },
+  {
+   "id": "ok-std-azure-virtual-desktop",
+   "title": "Azure Virtual Desktop Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-azure-virtual-desktop.md"
+  },
+  {
+   "id": "ok-std-b2c-identity",
+   "title": "B2C Identity Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-b2c-identity.md"
+  },
+  {
+   "id": "ok-std-background-check",
+   "title": "Background Check Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-background-check.md"
+  },
+  {
+   "id": "ok-std-batch-file-transfer",
+   "title": "Batch File Transfer Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-batch-file-transfer.md"
+  },
+  {
+   "id": "ok-std-biometric-data-security",
+   "title": "Biometric Data Security Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-biometric-data-security.md"
+  },
+  {
+   "id": "ok-std-board-member-accounts",
+   "title": "Board Member Accounts Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-board-member-accounts.md"
+  },
+  {
+   "id": "ok-std-branch-policy",
+   "title": "Branch Policy Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-branch-policy.md"
+  },
+  {
+   "id": "ok-std-bring-your-own-device-cell-phone",
+   "title": "Bring Your Own Device - Cell Phone Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-bring-your-own-device-cell-phone.md"
+  },
+  {
+   "id": "ok-std-business-continuity-and-disaster-recovery",
+   "title": "Business Continuity and Disaster Recovery Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-business-continuity-and-disaster-recovery.md"
+  },
+  {
+   "id": "ok-std-caching",
+   "title": "Caching Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-caching.md"
+  },
+  {
+   "id": "ok-std-change-management",
+   "title": "Change Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-change-management.md"
+  },
+  {
+   "id": "ok-std-chromebook-exception",
+   "title": "Chromebook Exception Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-chromebook-exception.md"
+  },
+  {
+   "id": "ok-std-cloud-tagging-labeling",
+   "title": "Cloud Tagging Labeling Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-cloud-tagging-labeling.md"
+  },
+  {
+   "id": "ok-std-code-escrow",
+   "title": "Code Escrow Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-code-escrow.md"
+  },
+  {
+   "id": "ok-std-collaborative-computing-devices-and-applications",
+   "title": "Collaborative Computing Devices and Applications Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-collaborative-computing-devices-and-applications.md"
+  },
+  {
+   "id": "ok-std-confidential-technology",
+   "title": "Confidential Technology Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-confidential-technology.md"
+  },
+  {
+   "id": "ok-std-configuration-management",
+   "title": "Configuration Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-configuration-management.md"
+  },
+  {
+   "id": "ok-std-continuous-deployment",
+   "title": "Continuous Deployment Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-continuous-deployment.md"
+  },
+  {
+   "id": "ok-std-contractor-requirements",
+   "title": "Contractor Requirements Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-contractor-requirements.md"
+  },
+  {
+   "id": "ok-std-cross-channel-communications-marketing-solutions",
+   "title": "Cross-channel Communications Marketing Solutions Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-cross-channel-communications-marketing-solutions.md"
+  },
+  {
+   "id": "ok-std-custom-application-development-for-agile-methodology",
+   "title": "Custom Application Development for Agile Methodology",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-custom-application-development-for-agile-methodology.md"
+  },
+  {
+   "id": "ok-std-custom-application-development-for-waterfall-methodology",
+   "title": "Custom Application Development for Waterfall Methodology",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-custom-application-development-for-waterfall-methodology.md"
+  },
+  {
+   "id": "ok-std-data-classification-security",
+   "title": "Data Classification Security Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-data-classification-security.md"
+  },
+  {
+   "id": "ok-std-data-encryption",
+   "title": "Data Encryption Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-data-encryption.md"
+  },
+  {
+   "id": "ok-std-data-privacy",
+   "title": "Data Privacy Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-data-privacy.md"
+  },
+  {
+   "id": "ok-std-data-retention",
+   "title": "Data Retention Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-data-retention.md"
+  },
+  {
+   "id": "ok-std-data-security",
+   "title": "Data Security Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-data-security.md"
+  },
+  {
+   "id": "ok-std-data-storage",
+   "title": "Data Storage Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-data-storage.md"
+  },
+  {
+   "id": "ok-std-defects-tracking",
+   "title": "Defects Tracking Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-defects-tracking.md"
+  },
+  {
+   "id": "ok-std-desktop-shortcut-icon",
+   "title": "Desktop Shortcut Icon Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-desktop-shortcut-icon.md"
+  },
+  {
+   "id": "ok-std-development-continuous-integration-and-continuous-delivery",
+   "title": "Development – Continuous Integration and Continuous Delivery Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-development-continuous-integration-and-continuous-delivery.md"
+  },
+  {
+   "id": "ok-std-devops",
+   "title": "DevOps Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-devops.md"
+  },
+  {
+   "id": "ok-std-digital-forensics",
+   "title": "Digital Forensics Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-digital-forensics.md"
+  },
+  {
+   "id": "ok-std-digital-public-facing-identity",
+   "title": "Digital Public Facing Identity Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-digital-public-facing-identity.md"
+  },
+  {
+   "id": "ok-std-dod-information-network",
+   "title": "DoD Information Network Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-dod-information-network.md"
+  },
+  {
+   "id": "ok-std-dsr",
+   "title": "DSR Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-dsr.md"
+  },
+  {
+   "id": "ok-std-early-and-ongoing-engagement-in-major-it-projects",
+   "title": "Early and Ongoing Engagement in Major IT Projects Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-early-and-ongoing-engagement-in-major-it-projects.md"
+  },
+  {
+   "id": "ok-std-electronic-discovery-vendor",
+   "title": "Electronic Discovery Vendor Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-electronic-discovery-vendor.md"
+  },
+  {
+   "id": "ok-std-electronic-signature",
+   "title": "Electronic Signature Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-electronic-signature.md"
+  },
+  {
+   "id": "ok-std-email-acceptable-use",
+   "title": "Email Acceptable Use Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-email-acceptable-use.md"
+  },
+  {
+   "id": "ok-std-email-protection",
+   "title": "Email Protection Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-email-protection.md"
+  },
+  {
+   "id": "ok-std-endpoint-protection-and-connectivity",
+   "title": "Endpoint Protection and Connectivity Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-endpoint-protection-and-connectivity.md"
+  },
+  {
+   "id": "ok-std-exchanges-of-information-and-software",
+   "title": "Exchanges of Information and Software Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-exchanges-of-information-and-software.md"
+  },
+  {
+   "id": "ok-std-firewall-security",
+   "title": "Firewall Security Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-firewall-security.md"
+  },
+  {
+   "id": "ok-std-geographic-information-system",
+   "title": "Geographic Information System Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-geographic-information-system.md"
+  },
+  {
+   "id": "ok-std-giant-it-project-management",
+   "title": "Giant IT Project Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-giant-it-project-management.md"
+  },
+  {
+   "id": "ok-std-graphic-design-software",
+   "title": "Graphic Design Software Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-graphic-design-software.md"
+  },
+  {
+   "id": "ok-std-hardware-support",
+   "title": "Hardware Support Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-hardware-support.md"
+  },
+  {
+   "id": "ok-std-help-desk-management",
+   "title": "Help Desk Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-help-desk-management.md"
+  },
+  {
+   "id": "ok-std-hr-investigation",
+   "title": "HR Investigation Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-hr-investigation.md"
+  },
+  {
+   "id": "ok-std-human-capital-management",
+   "title": "Human Capital Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-human-capital-management.md"
+  },
+  {
+   "id": "ok-std-hypervisor-technology",
+   "title": "Hypervisor Technology Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-hypervisor-technology.md"
+  },
+  {
+   "id": "ok-std-identity-management",
+   "title": "Identity Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-identity-management.md"
+  },
+  {
+   "id": "ok-std-international-network-traffic",
+   "title": "International Network Traffic Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-international-network-traffic.md"
+  },
+  {
+   "id": "ok-std-international-travel",
+   "title": "International Travel Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-international-travel.md"
+  },
+  {
+   "id": "ok-std-internet-protocol-address-allocation",
+   "title": "Internet Protocol Address Allocation Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-internet-protocol-address-allocation.md"
+  },
+  {
+   "id": "ok-std-it-audit-request-and-reporting",
+   "title": "IT Audit Request and Reporting Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-it-audit-request-and-reporting.md"
+  },
+  {
+   "id": "ok-std-it-operations-command-center",
+   "title": "IT Operations Command Center Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-it-operations-command-center.md"
+  },
+  {
+   "id": "ok-std-it-project-management",
+   "title": "IT Project Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-it-project-management.md"
+  },
+  {
+   "id": "ok-std-kiosk-workstation",
+   "title": "Kiosk Workstation Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-kiosk-workstation.md"
+  },
+  {
+   "id": "ok-std-least-functionality",
+   "title": "Least Functionality Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-least-functionality.md"
+  },
+  {
+   "id": "ok-std-lincoln-data-center-and-whitespace",
+   "title": "Lincoln Data Center and Whitespace Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-lincoln-data-center-and-whitespace.md"
+  },
+  {
+   "id": "ok-std-linux-server",
+   "title": "Linux Server Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-linux-server.md"
+  },
+  {
+   "id": "ok-std-mobile-device-platform",
+   "title": "Mobile Device Platform Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-mobile-device-platform.md"
+  },
+  {
+   "id": "ok-std-mobile-services",
+   "title": "Mobile Services Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-mobile-services.md"
+  },
+  {
+   "id": "ok-std-naming-convention",
+   "title": "Naming Convention Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-naming-convention.md"
+  },
+  {
+   "id": "ok-std-network-acceptable-use",
+   "title": "Network Acceptable Use Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-network-acceptable-use.md"
+  },
+  {
+   "id": "ok-std-network-routing-and-switching",
+   "title": "Network Routing and Switching Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-network-routing-and-switching.md"
+  },
+  {
+   "id": "ok-std-non-production-server-shut-down-schedule",
+   "title": "Non-Production Server Shut Down Schedule Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-non-production-server-shut-down-schedule.md"
+  },
+  {
+   "id": "ok-std-offshore-data-storage",
+   "title": "Offshore Data Storage Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-offshore-data-storage.md"
+  },
+  {
+   "id": "ok-std-oklahoma-ui-ux",
+   "title": "Oklahoma UI/UX Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-oklahoma-ui-ux.md"
+  },
+  {
+   "id": "ok-std-password-requirements",
+   "title": "Password Requirements Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-password-requirements.md"
+  },
+  {
+   "id": "ok-std-payment-processing",
+   "title": "Payment Processing Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-payment-processing.md"
+  },
+  {
+   "id": "ok-std-peer-code-review",
+   "title": "Peer Code Review Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-peer-code-review.md"
+  },
+  {
+   "id": "ok-std-permitted-technology",
+   "title": "Permitted Technology Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-permitted-technology.md"
+  },
+  {
+   "id": "ok-std-personal-device",
+   "title": "Personal Device Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-personal-device.md"
+  },
+  {
+   "id": "ok-std-physical-security",
+   "title": "Physical Security Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-physical-security.md"
+  },
+  {
+   "id": "ok-std-printer-management",
+   "title": "Printer Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-printer-management.md"
+  },
+  {
+   "id": "ok-std-problem-management",
+   "title": "Problem Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-problem-management.md"
+  },
+  {
+   "id": "ok-std-productivity-software-support",
+   "title": "Productivity Software Support",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-productivity-software-support.md"
+  },
+  {
+   "id": "ok-std-prohibited-technology",
+   "title": "Prohibited Technology Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-prohibited-technology.md"
+  },
+  {
+   "id": "ok-std-records-management-imaging",
+   "title": "Records Management Imaging Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-records-management-imaging.md"
+  },
+  {
+   "id": "ok-std-reference-architecture",
+   "title": "Reference Architecture Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-reference-architecture.md"
+  },
+  {
+   "id": "ok-std-reporting-data-analytics-and-business-intelligence",
+   "title": "Reporting, Data Analytics and Business Intelligence Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-reporting-data-analytics-and-business-intelligence.md"
+  },
+  {
+   "id": "ok-std-reporting-lost-or-stolen-digital-assets",
+   "title": "Reporting Lost or Stolen Digital Assets Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-reporting-lost-or-stolen-digital-assets.md"
+  },
+  {
+   "id": "ok-std-robotic-process-automation",
+   "title": "Robotic Process Automation Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-robotic-process-automation.md"
+  },
+  {
+   "id": "ok-std-salesforce-development-and-administration",
+   "title": "Salesforce Development and Administration Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-salesforce-development-and-administration.md"
+  },
+  {
+   "id": "ok-std-security-awareness-training",
+   "title": "Security Awareness Training Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-security-awareness-training.md"
+  },
+  {
+   "id": "ok-std-security-incident-response",
+   "title": "Security Incident Response Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-security-incident-response.md"
+  },
+  {
+   "id": "ok-std-security-services",
+   "title": "Security Services Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-security-services.md"
+  },
+  {
+   "id": "ok-std-server-backup",
+   "title": "Server Backup Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-server-backup.md"
+  },
+  {
+   "id": "ok-std-service-account",
+   "title": "Service Account Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-service-account.md"
+  },
+  {
+   "id": "ok-std-servicenow-work-ticket-update-schedule",
+   "title": "ServiceNow Work Ticket Update Schedule Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-servicenow-work-ticket-update-schedule.md"
+  },
+  {
+   "id": "ok-std-sharepoint",
+   "title": "SharePoint Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-sharepoint.md"
+  },
+  {
+   "id": "ok-std-simulated-phishing-campaign",
+   "title": "Simulated Phishing Campaign Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-simulated-phishing-campaign.md"
+  },
+  {
+   "id": "ok-std-site-to-site-vpn-encryption",
+   "title": "Site to Site VPN Encryption Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-site-to-site-vpn-encryption.md"
+  },
+  {
+   "id": "ok-std-software-architecture",
+   "title": "Software Architecture Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-software-architecture.md"
+  },
+  {
+   "id": "ok-std-software-licensing",
+   "title": "Software Licensing Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-software-licensing.md"
+  },
+  {
+   "id": "ok-std-ssl-inspection",
+   "title": "SSL Inspection Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-ssl-inspection.md"
+  },
+  {
+   "id": "ok-std-standards-as-policy",
+   "title": "Standards as Policy Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-standards-as-policy.md"
+  },
+  {
+   "id": "ok-std-state-strategy-for-business-analytics",
+   "title": "State Strategy for Business Analytics Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-state-strategy-for-business-analytics.md"
+  },
+  {
+   "id": "ok-std-statewide-hosted-contact-center",
+   "title": "Statewide Hosted Contact Center Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-statewide-hosted-contact-center.md"
+  },
+  {
+   "id": "ok-std-statewide-network-labeling",
+   "title": "Statewide Network Labeling Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-statewide-network-labeling.md"
+  },
+  {
+   "id": "ok-std-statutory-reporting-collection-process",
+   "title": "Statutory Reporting Collection Process Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-statutory-reporting-collection-process.md"
+  },
+  {
+   "id": "ok-std-supply-chain-security",
+   "title": "Supply Chain Security Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-supply-chain-security.md"
+  },
+  {
+   "id": "ok-std-system-acceptable-use",
+   "title": "System Acceptable Use Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-system-acceptable-use.md"
+  },
+  {
+   "id": "ok-std-tagging-governance",
+   "title": "Tagging Governance Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-tagging-governance.md"
+  },
+  {
+   "id": "ok-std-ticket-management",
+   "title": "Ticket Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-ticket-management.md"
+  },
+  {
+   "id": "ok-std-unused-firewall-rule",
+   "title": "Unused Firewall Rule Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-unused-firewall-rule.md"
+  },
+  {
+   "id": "ok-std-use-of-ai-agents-and-agentic-systems",
+   "title": "Use of AI Agents and Agentic Systems Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-use-of-ai-agents-and-agentic-systems.md"
+  },
+  {
+   "id": "ok-std-use-of-ai-in-oklahoma-state-government",
+   "title": "Use of AI in Oklahoma State Government Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-use-of-ai-in-oklahoma-state-government.md"
+  },
+  {
+   "id": "ok-std-use-of-system-utilities",
+   "title": "Use of System Utilities Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-use-of-system-utilities.md"
+  },
+  {
+   "id": "ok-std-version-control-and-hosting",
+   "title": "Version Control and Hosting Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-version-control-and-hosting.md"
+  },
+  {
+   "id": "ok-std-vlan-extension",
+   "title": "VLAN Extension Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-vlan-extension.md"
+  },
+  {
+   "id": "ok-std-vulnerability-management",
+   "title": "Vulnerability Management Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-vulnerability-management.md"
+  },
+  {
+   "id": "ok-std-web-content-management-system",
+   "title": "Web Content Management System Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-web-content-management-system.md"
+  },
+  {
+   "id": "ok-std-website-development-lifecycle",
+   "title": "Website Development Lifecycle Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-website-development-lifecycle.md"
+  },
+  {
+   "id": "ok-std-wifi",
+   "title": "WiFi Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-wifi.md"
+  },
+  {
+   "id": "ok-std-workday-security",
+   "title": "Workday Security Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-workday-security.md"
+  },
+  {
+   "id": "ok-std-workstation",
+   "title": "Workstation Standard",
+   "doc_type": "standard",
+   "path": "standards/oklahoma/ok-std-workstation.md"
+  },
+  {
    "id": "or-eis-it-control-standards",
    "title": "Statewide Information Technology (IT) Control Standards",
    "doc_type": "standard",
@@ -9087,6 +11811,48 @@
    "title": "Oregon's Open Data Standard",
    "doc_type": "standard",
    "path": "standards/oregon/or-open-data-standard.md"
+  },
+  {
+   "id": "ri-etss-400-1g",
+   "title": "Data Classification Guideline",
+   "doc_type": "standard",
+   "path": "standards/rhode-island/ri-etss-400-1g.md"
+  },
+  {
+   "id": "sc-admin-electronic-mail-standard",
+   "title": "Email Standard",
+   "doc_type": "standard",
+   "path": "standards/south-carolina/sc-admin-electronic-mail-standard.md"
+  },
+  {
+   "id": "sc-admin-end-user-computing-devices-standard",
+   "title": "End-User Computing Device Standard",
+   "doc_type": "standard",
+   "path": "standards/south-carolina/sc-admin-end-user-computing-devices-standard.md"
+  },
+  {
+   "id": "sc-admin-enterprise-technology-architecture-principles",
+   "title": "Enterprise Architecture Framework and Principles",
+   "doc_type": "standard",
+   "path": "standards/south-carolina/sc-admin-enterprise-technology-architecture-principles.md"
+  },
+  {
+   "id": "sc-admin-enterprise-technology-architecture",
+   "title": "Enterprise Technology Architecture",
+   "doc_type": "standard",
+   "path": "standards/south-carolina/sc-admin-enterprise-technology-architecture.md"
+  },
+  {
+   "id": "sc-admin-hyper-converged-infrastructure-standard",
+   "title": "Hyper Converged Infrastructure System Standard",
+   "doc_type": "standard",
+   "path": "standards/south-carolina/sc-admin-hyper-converged-infrastructure-standard.md"
+  },
+  {
+   "id": "sc-admin-scdis-501",
+   "title": "SCDIS-501 Information Media Disposal Procedure",
+   "doc_type": "standard",
+   "path": "standards/south-carolina/sc-admin-scdis-501.md"
   },
   {
    "id": "tx-dir-ai-training-certification-standards-fy26-27",
