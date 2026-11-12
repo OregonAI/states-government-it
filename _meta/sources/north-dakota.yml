@@ -1,0 +1,317 @@
+# North Dakota seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: North Dakota Information Technology (ndit.nd.gov: home, IT Governance,
+# Principles, Policies, Standards, Guidelines, Statewide IT Planning, IT Procurement, Cybersecurity GRC, and the 66 pages
+# the home page's menus link under services, about-us and support), the Legislative Council's Century Code and
+# Administrative Code indexes and chapter PDFs (ndlegis.gov), and the Governor's executive order list and archive
+# (governor.nd.gov), and OMB's IT Procurement Guidelines page (omb.nd.gov).
+sources:
+
+
+- id: nd-ndcc-54-59
+  sha256: "aec863f82a7d481c708ac236921170201f4378e5b7cd0ad60eda202f47af96f4"
+  url: https://ndlegis.gov/cencode/t54c59.pdf
+  format: pdf
+  citation: N.D.C.C. chapter 54-59
+  title: Chapter 54-59 - Information Technology Department
+  doc_type: statute
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Legislative Assembly
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - funding
+  - cybersecurity
+  - data
+  - cloud-resilience
+  recheck: monthly
+  why_relevant: 'The enabling statute for the Information Technology Department and the state chief information officer, as the chapter file prints it. In force: the department''s responsibility for wide area network and statewide technology services (54-59-02), the CIO and the CIO''s duties (54-59-03, 54-59-04), the department''s powers and duties, including advising on and overseeing cybersecurity strategy for executive branch agencies (54-59-05), the business plan (54-59-06), required use of wide area network services (54-59-08), information technology standards (54-59-09), coordinators, plans and project planning (54-59-10, 54-59-11, 54-59-11.1), required use of electronic mail, server and desktop support services (54-59-22, 54-59-22.1), project reports (54-59-23), major project oversight (54-59-32), distributed ledger technologies (54-59-02.2), the health information technology office, loan and grant programs and health information exchange (54-59-26 to 54-59-31), the statewide longitudinal data system (54-59-34, 54-59-36, 54-59-37) and mandatory provision of information (54-59-39). The file prints these sections as repealed, with no text: 54-59-02.1 (prioritization of major projects) and 54-59-07 (State information technology advisory committee), both by S.L. 2023, ch. 481, § 4; 54-59-13 (compliance reviews, S.L. 2003, ch. 665, § 21); 54-59-17 and 54-59-18 (educational technology council, S.L. 2019, ch. 144, § 4); 54-59-21 (criminal justice information sharing board, S.L. 2015, ch. 37, § 15); and 54-59-25 (health information technology advisory committee), 54-59-33, 54-59-35 and 54-59-38 (statewide longitudinal data system committee), all by S.L. 2025, ch. 479, § 39.'
+
+- id: nd-ndcc-54-59-1
+  sha256: "93e2ec7ff296e00f762bd0da35a36be504ce326574954fae3ca63cb4e4c5b22b"
+  url: https://ndlegis.gov/cencode/t54c59-1.pdf
+  format: pdf
+  citation: N.D.C.C. chapter 54-59.1
+  title: Chapter 54-59.1 - Cybersecurity Incident Reporting Requirements
+  doc_type: statute
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Legislative Assembly
+  tags:
+  - cybersecurity
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: 'The cybersecurity statute for state systems: definitions of breach, ransom, malware and significant damage, and the duty of an executive branch state agency or political subdivision to report cybersecurity incidents to the Information Technology Department.'
+
+- id: nd-ndcc-54-46
+  sha256: "369e8144801bb8a3b829e7258bf54cf5ff9ae9d7e507e6bb492dff61b9dcb1d0"
+  url: https://ndlegis.gov/cencode/t54c46.pdf
+  format: pdf
+  citation: N.D.C.C. chapter 54-46
+  title: Chapter 54-46 - Records Management
+  doc_type: statute
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Legislative Assembly
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  why_relevant: 'The Records Management Act: the state chief information officer serves as state records administrator and runs the executive branch records management program, including retention of electronic mail data of agency heads. Seeded because the CIO is the administrator and it governs state-held electronic records; whether a records statute belongs in the corpus is an owner decision.'
+
+- id: nd-nac-113-02-01
+  sha256: "eb710201cd020e1f4cede54b9ba5b9e2803df0e9b174c15b8003e077870ee342"
+  url: https://ndlegis.gov/information/acdata/pdf/113-02-01.pdf
+  format: pdf
+  citation: N.D. Admin. Code ch. 113-02-01
+  title: Chapter 113-02-01 - North Dakota Health Information Network
+  doc_type: rule
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology Department (Health Information Technology Office)
+  tags:
+  - data
+  - governance
+  - digital-services
+  recheck: monthly
+  why_relevant: 'The only administrative rules issued by the Information Technology Department (Title 113 of the Administrative Code): organization of the Health Information Technology Office, definitions, individual participation, authorized participants, use and disclosure of protected health information, enforcement, and privacy and security protections of the North Dakota Health Information Network. Its participants include private health care providers, so whether it is within the corpus''s inclusion test is an owner decision.'
+
+- id: nd-ndit-ai-policy
+  sha256: "2bf88d2ea5a63e69d6dfeeb0cf482640d85135acf7ae24e685b0a44e1ae84918"
+  url: https://www.ndit.nd.gov/sites/default/files/documents/about-Us/it-governance/doc/Artificial-Intelligence-Policy.pdf
+  format: pdf
+  citation: 'NDIT: Artificial Intelligence Policy'
+  title: Artificial Intelligence Policy
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - ai
+  - governance
+  - data
+  - cybersecurity
+  recheck: monthly
+  why_relevant: The statewide policy on use of artificial intelligence by executive branch state agencies (the PDF prints Created 8/10/2023, Revised and Reviewed 11/17/2025). Listed first on the IT Policies page.
+
+- id: nd-ndit-data-classification-policy
+  sha256: "b4a24bbd28f3f07aea70f62f4c8561dd9da39fcb9d4b1efed282081659e2049b"
+  url: https://www.ndit.nd.gov/sites/default/files/documents/about-Us/it-governance/doc/Data-Classification-Policy.pdf
+  format: pdf
+  citation: 'NDIT: Data Classification Policy'
+  title: State of North Dakota Data Classification Policy
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - data
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: The statewide policy classifying state data and giving the protection controls for each class, with roles and responsibilities and the data type classifications (the PDF prints Created 10/19/2022, Revised and Reviewed 12/15/2025). Listed on the IT Policies page.
+
+- id: nd-ndit-prohibited-technologies-policy
+  sha256: "449f0d017c57bd43978eaa801d8bf067235150ef2ebbb7ae4993b9838b13ea26"
+  url: https://www.ndit.nd.gov/sites/default/files/documents/about-Us/it-governance/doc/Prohibited-Technologies-Policy.pdf
+  format: pdf
+  citation: 'NDIT: Prohibited Technologies Policy'
+  title: Prohibited Technologies Policy
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: The statewide policy barring prohibited applications, software and hardware from state-owned devices and the state network STAGEnet (the PDF prints Created 03/10/2025, Revised and Reviewed 05/18/2026). It refers to a Prohibited Technologies Standard held on the wiki, which is a stub.
+
+- id: nd-ndit-ai-guideline
+  sha256: "a44023f63c737ff22b9805496186265709f27cd0ee3edbd5e2d20ea9a66ea4fc"
+  url: https://www.ndit.nd.gov/sites/default/files/documents/about-Us/it-governance/doc/Artificial-Intelligence-Guidelines.pdf
+  format: pdf
+  citation: 'NDIT: Artificial Intelligence Guideline'
+  title: Artificial Intelligence Guideline
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - ai
+  - governance
+  recheck: monthly
+  why_relevant: NDIT's guideline on best practices for use of artificial intelligence by executive branch agencies (the PDF prints Created 04/17/2023, Revised and Reviewed 11/17/2025). It is a guideline, the governance tier below policy and standard that state law (54-59-09) names; the index lists it as one of the two IT Guidelines. Seeded as a policy-type document because the library lists it; whether guidelines belong is an owner decision.
+
+- id: nd-ndit-international-traveler-guidelines
+  sha256: "4dd9a8b2224188f1622797203e9136a2468f82dd651425472f7e48a4a2615bf7"
+  url: https://www.ndit.nd.gov/sites/default/files/documents/about-Us/it-governance/doc/International-Traveler-Guidelines.pdf
+  format: pdf
+  citation: 'NDIT: International Traveler Guidelines'
+  title: International Traveler Guidelines
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: NDIT's guidelines for team members who travel abroad with a state-owned device or a personal device with access to state data (the PDF prints Created 07/05/2022, Revised and Reviewed 08/18/2025). A guideline; seeded because the IT Guidelines page lists it, with the owner decision noted on the AI Guideline.
+
+- id: nd-eo-2026-06
+  sha256: ''
+  url: https://www.governor.nd.gov/sites/default/files/documents/Executive%20Order%202026-06%20rescinding%20TikTok%20ban.pdf
+  format: pdf
+  citation: Executive Order 2026-06
+  title: 'Executive Order 2026-06: Armstrong Rescinds Ban on TikTok on State-owned Devices'
+  doc_type: executive_order
+  jurisdiction: north-dakota
+  issuing_body: Office of the Governor
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: Governor Armstrong's order rescinding Executive Order 2022-10 (the TikTok ban on state-owned devices) and directing that NDIT continue to monitor and enforce general cybersecurity controls on state-owned devices and networks. The only executive order on the governor's current list that concerns state IT. The official PDF is a two-page image with a garbled hidden text layer.
+  stub: true
+  stub_reason: "The PDF is two page images (pdfimages: 1275 x 1650, 150 ppi) carrying a hidden OCR text layer that is garbled (pdftotext reads 'EXECUTTVE ORDER 2026-06', 'Eost Boulevord', 'lnformation', '2O22'), so the layer cannot be mirrored as the text. The shared two-engine OCR procedure refused it on 2026-11-12: ocrmypdf exit 6, PriorOcrFoundError 'page already has text! - aborting', because the file already has a text layer and the shared reader does not pass --force-ocr or --redo-ocr. Tesseract run by hand on the page image read the heading and the body correctly, so the order becomes a document when src/ingest_ocr.py can OCR a PDF that has a bad text layer (SHARED CHANGE NEEDED, not made here) or the Governor publishes a clean copy. Source: the file the Executive Orders page links."
+
+- id: nd-watch-it-policies
+  sha256: ''
+  url: https://www.ndit.nd.gov/about-us/it-governance/it-policies
+  format: html
+  citation: 'NDIT page: IT Policies'
+  title: 'NDIT: IT Policies (index)'
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: 'The statewide IT policy library: three policies (Artificial Intelligence, Data Classification, Prohibited Technologies). A policy added, replaced or removed raises a review-the-seed-list report.'
+  watch_only: true
+
+- id: nd-watch-it-guidelines
+  sha256: ''
+  url: https://www.ndit.nd.gov/about-us/it-governance/it-guidelines
+  format: html
+  citation: 'NDIT page: IT Guidelines'
+  title: 'NDIT: IT Guidelines (index)'
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: 'The statewide IT guidelines list: Artificial Intelligence and International Traveler.'
+  watch_only: true
+
+- id: nd-watch-it-standards
+  sha256: ''
+  url: https://www.ndit.nd.gov/about-us/it-governance/it-standards
+  format: html
+  citation: 'NDIT page: IT Standards'
+  title: 'NDIT: IT Standards (index)'
+  doc_type: standard
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: 'The IT Standards page. It lists no standard itself: it links to a wiki (wiki.nd.gov) that the Fetcher cannot resolve, so the standards are a stub. A change to this page (for example a standards list published on it) raises a review-the-seed-list report.'
+  watch_only: true
+
+- id: nd-watch-it-governance
+  sha256: ''
+  url: https://www.ndit.nd.gov/about-us/it-governance
+  format: html
+  citation: 'NDIT page: IT Governance'
+  title: 'NDIT: IT Governance (index)'
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: 'The IT governance landing page: it states that North Dakota law requires shared IT policies, standards and guidelines and links the principles, policies, standards and guidelines pages.'
+  watch_only: true
+
+- id: nd-watch-it-governance-changes
+  sha256: ''
+  url: https://www.ndit.nd.gov/sites/default/files/documents/about-Us/it-governance/doc/North-Dakota-State-IT-Governance-Changes.pdf
+  format: pdf
+  citation: 'NDIT: State IT Governance Changes'
+  title: 'NDIT: State IT Governance Changes (change log)'
+  doc_type: policy
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: A two-page change log NDIT publishes for its IT policies and guidelines (the PDF prints Created 07/16/2025, Revised and Reviewed 05/18/2026). Not an instrument; watched because a new entry in it announces a new or revised policy, guideline or standard.
+  watch_only: true
+
+- id: nd-watch-executive-orders
+  sha256: ''
+  url: https://www.governor.nd.gov/executive-orders
+  format: html
+  citation: 'Governor page: Executive Orders'
+  title: 'Governor: Executive Orders 2024 to date (index)'
+  doc_type: executive_order
+  jurisdiction: north-dakota
+  issuing_body: Office of the Governor
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The governor's list of executive orders from 2024 to date, with a PDF link per order. An order on IT, cybersecurity, data or AI added here raises a review-the-seed-list report.
+  watch_only: true
+
+- id: nd-watch-executive-order-archive
+  sha256: ''
+  url: https://www.governor.nd.gov/executive-orders/executive-order-archive
+  format: html
+  citation: 'Governor page: Executive Order Archive'
+  title: 'Governor: Executive Order Archive (index)'
+  doc_type: executive_order
+  jurisdiction: north-dakota
+  issuing_body: Office of the Governor
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The archive of executive orders from 2023 back to 1963. Its rows carry no links to the orders.
+  watch_only: true
+
+- id: nd-it-standards-wiki
+  sha256: ''
+  url: https://wiki.nd.gov/i/spaces/TeamND/pages/132056027/IT+Standards
+  format: html
+  citation: 'NDIT: IT Standards (wiki)'
+  title: IT Standards (Team ND wiki)
+  doc_type: standard
+  jurisdiction: north-dakota
+  issuing_body: North Dakota Information Technology (NDIT)
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  why_relevant: The statewide IT standards, which NDIT's IT Standards page links on a wiki, and which the Prohibited Technologies Policy and the change log say hold the Prohibited Technologies Standard and the other standards (the International Traveler Guidelines name a Remote User Access Standard).
+  stub: true
+  stub_reason: 'The host wiki.nd.gov does not resolve: the Fetcher answered ConnectError ''[Errno -2] Name or service not known'' for the page the IT Standards page links and for https://wiki.nd.gov/ itself on 2026-11-12, and a second, unrelated lookup (the WebFetch discovery tool) also failed with ENOTFOUND. The standards could not be listed from the wiki, so none is seeded individually. Two are known by name from the OMB IT Procurement Guidelines page, which links them on ndit.nd.gov, and the Fetcher answered ConnectError ''[Errno -2] Name or service not known'' for both on 2026-11-12: ''Project Management for Information Technology Standard'' (https://www.ndit.nd.gov/standards/POL0020207) and ''IT Procurement Standard'' (https://www.ndit.nd.gov/standards/POL0020208). Becomes documents when the wiki is publicly reachable or NDIT publishes the standards on ndit.nd.gov.'
+
+left_out:
+- text: |-
+    ---- North Dakota: found and left out (each was seen on an official page on 2026-11-12 and read through the Fetcher; the reason is recorded here)
+- text: |-
+    NDIT IT Policies page (https://www.ndit.nd.gov/about-us/it-governance/it-policies), reconciled row by row: 3 rows (Artificial Intelligence, Data Classification, Prohibited Technologies), all seeded as documents. IT Guidelines page: 2 rows (Artificial Intelligence, International Traveler), both seeded, as policy-type documents (OWNER DECISION: guidelines are the tier below policy and standard that N.D.C.C. 54-59-09 names; seeded because the library lists them, the owner may prefer them left out as non-binding guidance). The IT Standards page lists no standard: it links one wiki page on wiki.nd.gov, whose host does not resolve (see the stub). The IT Principles page (nine one-line principles: Enterprise First, Citizen Focused, Responsible Data Use, Security and Privacy by Design, Reuse Before Buying or Building, Keep Solutions Simple, Use Consistent Technology, Integrate and Adapt, Use Open Standards) is web text with no document and is left out as a statement of principles, not an instrument (OWNER DECISION if it should be a document; it is not a watch entry only because the IT Governance landing page, which is, links it).
+- text: |-
+    State IT Governance Changes (https://www.ndit.nd.gov/sites/default/files/documents/about-Us/it-governance/doc/North-Dakota-State-IT-Governance-Changes.pdf): a change log, watched, not seeded as an instrument. It names two guideline documents that the Guidelines page no longer offers and that were not found, so they are left out as not published: 'Electronic Records Management Guidelines' (revisions 07/10/2017) and 'Electronic Signature Guidelines' (revisions 09/30/2004). It also says the Prohibited Technology List 'turned into a Standard. Moved to Wiki with other Standards' on 05/18/2026.
+- text: |-
+    Other NDIT pages read (the 66 pages linked from the home page's menus; every file they link was listed): Statewide IT Planning, IT Procurement, Initiative Intake, Project Management, Enterprise Architecture, Cybersecurity pages. They are process and service pages with no instrument. Files they link and left out as not instruments: Service-Level-Objectives.pdf (a service commitment), the billing rate sheets (ndit-telecommunications-projected-rates-25-27.pdf and the 2027-2029 Data Processing and Telecommunications Rates), the broadband reports and the BEAD Final Proposal (broadband and reports), the Digital Accessibility Hub quick cards, ADA one-pagers and the Website Tracker Template (guidance, a template), secure-file-transfer-system-user-guide-2022.pdf (a user guide), the annual report financial statements and five other states' IT service catalogs (reports), abbreviations-used-on-retention-schedules.pdf and the records retention schedule (https://apps.nd.gov/itd/recmgmt/rm/recSer/retention.pdf, not fetched: a retention schedule of records, which the Records Management Act in chapter 54-46 makes the state records administrator issue; OWNER DECISION whether schedules belong).
+- text: |-
+    Statutes. Seeded: chapter 54-59 (Information Technology Department), chapter 54-59.1 (Cybersecurity Incident Reporting Requirements), chapter 54-46 (Records Management). Read and left out: chapter 54-69 (Advanced Technology Review Committee: a Department of Commerce grant program that gives priority to artificial intelligence research proposals; it binds no agency's use of IT); chapter 51-30 (Notice of Security Breach for Personal Information: its duties fall on 'any person' with no mention of state agencies, so it is a private-sector law, and the agency duty is chapter 54-59.1); chapter 44-04 (Duties, Records, and Meetings: open records and meetings law, not IT). Statute sections inside non-IT chapters (procurement, budget: 54-44.4 and 54-44.1) were not read at section level and are left out pending the owner's decision on section slicing. The chapter file for 54-59 carries, as the Legislative Council prints it, sections on distributed ledger technologies (54-59-02.2), the health information technology office and exchange (54-59-26 to 54-59-31) and the statewide longitudinal data system (54-59-34, 54-59-36, 54-59-37), which ride along. Sections 54-59-02.1, 07, 13, 17, 18, 21, 25, 33, 35 and 38 print as repealed in the same file (including the criminal justice information sharing board, 54-59-21, repealed by S.L. 2015, ch. 37, § 15, and the health information technology advisory committee, 54-59-25, repealed by S.L. 2025, ch. 479, § 39).
+- text: |-
+    Statute sections inside non-IT chapters that the Century Code index (https://ndlegis.gov/general-information/north-dakota-century-code/index.html, read through the Fetcher on 2026-11-12) lists with an IT heading, left out as 'section inside a non-IT chapter, pending the owner's section-slicing decision' (headings as the index prints them): 54-35-15 'Information technology program - Staff - Powers and duties', 54-35-15.1 'Information technology committee - Appointment', 54-35-15.2 'Information technology committee - Powers and duties', 54-35-15.3 'Information technology project quality assurance - Information technology committee review - Suspension of funds' and 54-35-15.4 'Information technology committee - Information technology reviews' (OWNER DECISION: a legislative committee that binds executive agencies' IT projects through suspension of funds); 9-16-16 'Creation and retention of electronic records and conversion of written records by governmental agencies', 9-16-17 'Acceptance and distribution of electronic records by governmental agencies' and 9-16-18 'Interoperability'; 54-10-28 'Information technology responsibilities' and 54-10-29 'Audits of computer systems - Penalty' (State Auditor); 15-10-44 'Higher education information technology - Board duties - Reports' (with 15-10-44.1 to 15-10-44.3 under it on the index); 44-04-24 'Security system plan - Disaster and cybersecurity information - Exemption'. The text of these sections was not read; only the index headings were. Procurement and budget law (54-44.4, 54-44.1) is likewise left out unread.
+- text: |-
+    OMB IT Procurement Guidelines (https://www.omb.nd.gov/doing-business-with-the-state/procurement/guidelines-rules-and-laws/it-procurement-guidelines, read through the Fetcher on 2026-11-12): a web page, not a file, that states 'These guidelines are established by North Dakota Information Technology and the Office of Management and Budget State Procurement Office'. It is the same guideline tier as the NDIT guidelines seeded above, but it is a procurement-process page (IT plans, Technology Business Partners, the initiative intake requirement, the intake tracker) with no document, so it is left out as a procurement-process web page (OWNER DECISION, the same as for the NDIT guidelines: whether guidelines belong, and whether this page should be a watch entry). The page links two standards on ndit.nd.gov that the Fetcher could not reach (ConnectError '[Errno -2] Name or service not known' on 2026-11-12): 'Project Management for Information Technology Standard' (https://www.ndit.nd.gov/standards/POL0020207) and 'IT Procurement Standard' (https://www.ndit.nd.gov/standards/POL0020208); see the standards wiki stub.
+- text: |-
+    AI statutes: none found that binds state agencies. 'None found' is stated only for what was read: the 1,740 chapter headings on the Century Code index (https://ndlegis.gov/general-information/north-dakota-century-code/index.html) were searched for artificial intelligence, information, technology, cyber, data, records, electronic, digital, security and privacy, and no chapter is titled for AI; the full text of chapters 54-59, 54-59.1, 54-46, 54-69, 51-30 and 44-04 was searched for 'artificial intelligence' and it appears only in 54-69. Web discovery (not text of record) found the 2025 enactments on AI are HB 1167 (political content disclaimers, amends chapter 16.1-10) and bills on computer-generated sexual images, which bind private persons and are out of scope; a SB 2280 on health care AI was named by one secondary source and was not confirmed or read. State agency AI use is governed by NDIT's Artificial Intelligence Policy (seeded).
+- text: |-
+    Administrative Code (https://ndlegis.gov/agency-rules/north-dakota-administrative-code/index.html, every title and article heading read): the Information Technology Department has one title, Title 113 (North Dakota Health Information Network, article 113-02, chapter 113-02-01), which is seeded (OWNER DECISION: its participants are health care providers). Left out: Title 110 (Criminal Justice Information Sharing Board, marked Repealed on the index); article 4-05 (Records Management and Central Microfilm, Office of Management and Budget: the file reads 'Superseded by Article 4-06' and the index lists 4-06 as Repealed, so no rule is in force); article 4-09 (State Records Management, marked Repealed); article 4-10 (Forms Management, marked Repealed); article 10-13 (Criminal History Record Information) and article 10-18 (Criminal Justice Data Information Sharing), the Attorney General's law-enforcement data rules, scoped out by domain.yml (law-enforcement technology). The Administrative Code title index is not a watch entry: it is a 1 MB page of every agency's rules, whose changes would be reported as noise.
+- text: |-
+    Executive orders (https://www.governor.nd.gov/executive-orders, 2024 to date, 27 rows read; https://www.governor.nd.gov/executive-orders/executive-order-archive, 190 rows from 2023 back to 1963, read): seeded is Executive Order 2026-06 (rescinds the TikTok ban of Executive Order 2022-10 and keeps NDIT's cybersecurity enforcement). Executive Order 2022-10 (Burgum bans TikTok from state-owned devices) is not in force: 2026-06 rescinds it in its entirety. Read by title and left out as not about state IT, cybersecurity, data or AI: every other order on the lists (emergency and disaster declarations, hours of service waivers, special sessions, task forces and commissions). Orders whose title concerns IT but which could not be seeded: 2022-03 'Burgum Creates State Geospatial Committee' and 2001-06 'Establishing the Geographical Information Systems Technical Committee' (geospatial committees; the archive rows have no link and the file was not found: three URL patterns guessed for 2022-03 answered HTTP 404; also an OWNER DECISION whether a geospatial committee is within the domain); the Dalrymple orders of 2011-07-06 and 2013-04-10 'Additional Oversight of the Contracting and Implementation Process for Large Scale IT Projects' (archive rows with no link; they pre-date the statutory oversight in chapter 54-59 and their status could not be established, so they are not claimed to be in force; they are a stub candidate if the owner wants them chased); 2014-03-25 'Adds North Dakota Information Technology Department to Fusion Center' and 2012-09-14 'Statewide Interoperability Executive Committee' (law-enforcement and radio communications, scoped out).
+- text: |-
+    Note: issue #41 says to add north-dakota to `states` in _meta/domain.yml, but domain.yml says it does not list the states (they are the files in _meta/sources/), and a state PR edits no shared file; this branch does not edit it.

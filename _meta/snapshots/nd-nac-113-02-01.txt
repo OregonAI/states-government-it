@@ -1,0 +1,291 @@
+                                  ARTICLE 113-02
+                    NORTH DAKOTA HEALTH INFORMATION NETWORK
+Chapter
+113-02-01       North Dakota Health Information Network
+
+                               CHAPTER 113-02-01
+                    NORTH DAKOTA HEALTH INFORMATION NETWORK
+Section
+113-02-01-01    Organization of the Health Information Technology Office
+113-02-01-02    Definitions
+113-02-01-03    Individual Participation
+113-02-01-04    Authorized Participants
+113-02-01-05    Use and Disclosure of Protected Health Information
+113-02-01-06    Fees [Reserved]
+113-02-01-07    Enforcement
+113-02-01-08    Privacy and Security Protections
+
+   113-02-01-01. Organization of the health information technology office.
+
+   1.   History. The sixty-first legislative assembly created the health information technology office in
+        the department of information technology and created the health information technology
+        advisory committee.
+
+   2.   Purpose. The health information technology office, upon recommendations of the advisory
+        committee, shall implement a statewide interoperable health information infrastructure that is
+        consistent with emerging national standards; promote the adoption and use of electronic
+        health records and other health information technologies; promote interoperability of health
+        information systems for the purpose of improving health care quality, patient safety, and the
+        overall efficiency of health care and public health; apply for federal funds that may be available
+        to assist the state and health care providers in implementing and improving health information
+        technology; and establish a health information technology loan program to provide loans to
+        health care providers for the purpose of purchasing and upgrading certified electronic health
+        record technology, training personnel in the use of such technology, and improving the secure
+        electronic exchange of health information.
+
+        The health information advisory committee shall collaborate with and make recommendations
+        to the health information technology office. The health information technology advisory
+        committee consists of the state chief information officer or the chief information officer's
+        designee, the state health officer or the state health officer's designee, the governor or the
+        governor's designee, the executive director of the department of human services or the
+        executive director's designee, the chairman of the house human services committee and the
+        chairman of the senate human services committee or if either or both of them are unwilling or
+        unable to serve then the chairman of the legislative management shall appoint a replacement
+        who is a member of the same legislative chamber as the individual being replaced, and
+        individuals appointed by the governor to represent a broad range of public and private health
+        information technology stakeholders.
+
+   3.   Inquiries. General inquiries regarding the North Dakota health information technology office
+        should be addressed to:
+
+        North Dakota Health Information Technology Office
+        600 East Boulevard Avenue, Dept. 113
+        Bismarck, ND 58505-0100
+
+                                                   1
+
+History: Effective January 1, 2014.
+General Authority: NDCC 54-59-26
+Law Implemented: NDCC 28-32-02.1, 54-59-25, 54-59-26, 54-59-27, 54-59-28, 54-59-29, 54-59-30
+
+   113-02-01-02. Definitions.
+
+   Throughout this title, unless specifically stated otherwise, the following terms mean:
+
+   1.   "Authorized user" means a person who is authorized by a participant to participate in the North
+        Dakota health information network and includes health care practitioners, employees,
+        contractors, agents, or business associates of a participant. Those who may qualify as
+        authorized users may be further defined in the North Dakota health information network
+        policies and procedures.
+
+   2.   "Breach" means the acquisition, access, use, or disclosure of protected health information in a
+        manner not permitted under 45 CFR 164.402 which compromises the security or privacy of
+        the protected health information.
+
+   3.   "Business associate" has the meaning set forth in 45 CFR 160.103 and generally means a
+        person who creates, receives, maintains, or transmits protected health information in the
+        performance of a function or activity on behalf of the covered entity. A subcontractor of a
+        business associate may also be considered a business associate.
+
+   4.   "Individual" means a person who is the subject of protected health information and has the
+        meaning set forth in 45 CFR 160.103 and shall include a person who qualifies as a personal
+        representative in accordance with 45 CFR 164.502(g).
+
+   5.   "Opt out" means that an individual has chosen to not participate in the North Dakota health
+        information network.
+
+   6.   "Participant" includes any organization, health care practitioner or institution, health plan, or
+        clearinghouse who has executed a written participation agreement and business associate
+        agreement with the North Dakota health information network.
+
+   7.   "Protected health information" means individually identifiable health information (any oral or
+        recorded information relating to the past, present, or future physical or mental health of an
+        individual; the provision of health care to the individual; or the payment for health care)
+        maintained by any medium and transmitted by electronic media or in any other form or
+        medium.
+
+History: Effective January 1, 2014.
+General Authority: NDCC 54-59-26
+Law Implemented: NDCC 23-12-19, 54-59-25, 54-59-26, 54-59-28, 54-59-29
+
+   113-02-01-03. Individual participation.
+
+   1.   Purpose. The North Dakota health information network functions to provide for the electronic
+        use and disclosure of a participating individual's protected health information by qualifying
+        participants and their authorized users.
+
+   2.   Individual participation.
+
+        a.   Individual participation in the North Dakota health information network is voluntary. All
+             individuals are considered to be participating until an individual has made a written
+             decision to opt out of participation in the North Dakota health information network. Unless
+             an individual elects to not participate, the individual's protected health information will be
+
+                                                   2
+
+             available through the North Dakota health information network for the purposes specified
+             in section 113-02-01-05.
+
+        b.   An individual may choose not to participate completely or except for a medical
+             emergency by completing and submitting the designated form to the North Dakota health
+             information network.
+
+        c.   If an individual has chosen to not participate in the North Dakota health information
+             network, then the individual's protected health information will not be available for use
+             and disclosure through the North Dakota health information network except as required
+             by law, as authorized by the individual in a medical emergency, or by the provider who
+             originally created or ordered the creation of the individual's protected health information.
+
+        d.   An individual may change a prior election by completing and submitting the designated
+             form to the North Dakota health information network.
+
+   3.   Individual rights.
+
+        a.   An individual has the right to opt out of participation in the North Dakota health
+             information network.
+
+        b.   A participant may not withhold coverage or care from an individual nor may a health
+             insurer deny an individual a health insurance benefit based solely on that individual's
+             choice to opt out of participation in the North Dakota health information network.
+
+        c.   An individual has the right to request an amendment of incorrect protected health
+             information created by the North Dakota health information network. The North Dakota
+             health information network may review the request if it relates to information created by it
+             or may require participants who created the information to review the request for an
+             amendment.
+
+        d.   An individual has the right to request an accounting of disclosures as defined under 45
+             CFR 164.528 and 42 U.S.C. 17935 section 13405(c).
+
+        e.   An individual has the right to request a copy of the individual's protected health
+             information that is available through the North Dakota health information network. The
+             North Dakota health information network may provide the health information directly to
+             the individual or may require participants to provide access to individuals.
+
+        f.   An individual has the right to be notified, pursuant to 45 CFR 164.404, of a breach that
+             affects the individual's protected health information.
+
+        g.   An individual has the right to file a complaint as defined in the North Dakota health
+             information network policies and procedures.
+
+History: Effective January 1, 2014.
+General Authority: NDCC 54-59-26
+Law Implemented: NDCC 23-12-19, 54-59-25, 54-59-26, 54-59-28, 54-59-29
+
+   113-02-01-04. Authorized participants.
+
+   1.   Access. The North Dakota health information network grants the rights to access the North
+        Dakota health information network to participants and authorized users with a legitimate
+        business need for purposes of treatment, obtaining payment for treatment, health care
+        operations, to comply with public health reporting requirements, and as required by law.
+
+                                                   3
+
+   2.   Participant agreement requirement. Participants must execute a participation agreement with
+        the North Dakota health information network prior to being granted access. Access and use of
+        the North Dakota health information network is nontransferable by the participant.
+
+   3.   Responsibilities. Participants shall identify all of its authorized users in accordance with the
+        North Dakota health information network policies and procedures. The North Dakota health
+        information network shall establish a unique identifier for each authorized user.
+
+        a.   Access to an individual's protected health information shall be based on the authorized
+             user's job function and relationship to the individual according to policies and procedures
+             established by the North Dakota health information network.
+
+        b.   Participants shall notify the North Dakota health information network within twenty-four
+             hours of any authorized user who by reason of termination of employment or otherwise is
+             removed as an authorized user.
+
+        c.   Participants shall provide training for all of its authorized users consistent with the
+             participant's and North Dakota health information network policies, including privacy and
+             security requirements.
+
+        d.   The participant may suspend, limit, or revoke the access authority of an authorized user
+             on its own initiative upon a determination that the authorized user has not complied with
+             the participant's or the North Dakota health information network policies. The participant
+             shall be responsible for informing the North Dakota health information network
+             immediately, and in any case within twenty-four hours, of any revocation or suspension.
+
+   4.   Notification of breach. If an actual or suspected breach relates to the North Dakota health
+        information network, participants shall notify the North Dakota health information network in
+        the most expedient time possible and without unreasonable delay following discovery but no
+        later than established policies of the North Dakota health information network and pursuant to
+        45 CFR 164, subpart D.
+
+History: Effective January 1, 2014.
+General Authority: NDCC 54-59-26
+Law Implemented: NDCC 23-12-19, 54-59-25, 54-59-26, 54-59-28, 54-59-29
+
+   113-02-01-05. Use and disclosure of protected health information.
+
+   1.   Approved uses and disclosures. A participant may use and disclose the protected health
+        information accessible in the North Dakota health information network only for the following
+        purposes:
+
+        a.   Treatment, payment, and health care operations;
+
+        b.   Permitted uses described in the participation agreement;
+
+        c.   As allowed under 45 CFR parts 160 and 164; and
+
+        d.   As required by law.
+
+   2.   Prohibited uses and disclosures. An individual's protected health information may not be used
+        without the individual's authorization by the North Dakota health information network, a
+        participant, or a business associate for any of the following purposes:
+
+        a.   Uses prohibited by law, including federal, state, or local laws, rules, or regulations;
+
+        b.   Comparative studies or by third parties; or
+
+                                                    4
+
+         c.   The sale or commercial use of protected health information.
+
+    3.   Audits. The North Dakota health information network is responsible for auditing the use of the
+         health information network.
+
+History: Effective January 1, 2014.
+General Authority: NDCC 54-59-26
+Law Implemented: NDCC 23-12-19, 54-59-25, 54-59-26, 54-59-28, 54-59-29
+
+   113-02-01-06. Fees.
+
+   Reserved
+
+   113-02-01-07. Enforcement.
+
+    1.   The health information technology director may suspend or terminate the participation in the
+         North Dakota health information network of any participant or authorized user.
+
+    2.   The health information technology director, or designee, may provide written notice of
+         suspension of a participant's access to the North Dakota health information network to all
+         participants and may provide a written summary of the reasons for the suspension to the
+         suspended participant. The participant may follow the necessary provisions for the appeal
+         mechanisms of the North Dakota health information network policies and procedures by
+         responding to the suspension with a plan of correction or an objection to the suspension. The
+         health information technology director shall review and either accept or reject the plan of
+         correction.
+
+         a.   If the plan of correction is accepted, the health information technology director shall,
+              upon completion of the plan of correction, reinstate the participant's access to the North
+              Dakota health information network.
+
+         b.   If the plan of correction is rejected, the participant may appeal the health information
+              technology director's decision to the health information technology advisory committee
+              for a final determination.
+
+History: Effective January 1, 2014.
+General Authority: NDCC 54-59-26
+Law Implemented: NDCC 23-12-19, 54-59-25, 54-59-26, 54-59-28, 54-59-29
+
+   113-02-01-08. Privacy and security protections.
+
+    Appropriate safeguards must be used to prevent use or disclosure of protected health information
+other than permitted by the North Dakota health information network policies, including appropriate
+administrative, physical, and technical safeguards that protect the confidentiality, integrity, and
+availability of protected health information through the North Dakota health information network.
+
+    1.   At a minimum, appropriate safeguards shall be those identified in 45 CFR part 164, subpart C;
+         and other applicable federal and state standards.
+
+    2.   The North Dakota health information network shall report to a participant any successful
+         unauthorized access, use, disclosure, modification, or destruction of a participant's electronic
+         protected health information of which the North Dakota health information network is aware.
+
+History: Effective January 1, 2014.
+General Authority: NDCC 54-59-26
+Law Implemented: NDCC 23-12-19, 54-59-25, 54-59-26, 54-59-28, 54-59-29
+
+                                                   5

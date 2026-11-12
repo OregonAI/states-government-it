@@ -1,0 +1,680 @@
+                                         CHAPTER 54-59
+                         INFORMATION TECHNOLOGY DEPARTMENT
+
+    54-59-01. Definitions.
+    As used in this chapter:
+    1. "Agency" or "entity" does not include any agricultural commodity promotion group or
+         any occupational or professional board.
+    2. "Cybersecurity" means processes or capabilities, wherein, systems, communications,
+         and information are protected and defended against damage, unauthorized use or
+         modification, and exploitation.
+    3. "Cybersecurity strategy" means a vision, plan of action, or guiding principles. Unless
+         otherwise defined in this chapter, the term does not mean an associated operational
+         plan.
+    4. "Department" means the information technology department.
+    5. "Information technology" means the use of hardware, software, services, and
+         supporting infrastructure to manage and deliver information using voice, data, and
+         video.
+    6. "Major information technology project" means a project that meets one or more of the
+         following criteria, as determined by the chief information officer:
+         a. An estimated total cost, as defined by the department, of five million dollars or
+               more;
+         b. Requires one year or longer to reach operational status; or
+         c. Requires oversight due to its potential benefits, risks, public impact, visibility, or
+               other significant reason.
+    7. "Network services" means the equipment, software, and services necessary to
+         transmit voice, data, or video.
+
+     54-59-02. Information technology department - Responsibility - Public policy.
+     The information technology department is established with the responsibility for all wide
+area network services planning, selection, and implementation for all state agencies, including
+institutions under the control of the board of higher education, counties, cities, and school
+districts in this state. With respect to a county, city, or school district, wide area network services
+are those services necessary to transmit voice, data, or video outside the county, city, or school
+district. In exercising its powers and duties, the department is responsible for computer support
+services, host software development, statewide communications services, standards for
+providing information to other state agencies and the public through the internet, technology
+planning, process redesign, and quality assurance. The department may not exercise its powers
+and duties in a manner that competes or otherwise interferes with the provision of
+telecommunications service to a private, charitable, or nonprofit entity by a privately or
+cooperatively owned telecommunications company.
+
+    54-59-02.1. Prioritization of proposed major information technology projects.
+    Repealed by S.L. 2023, ch. 481, § 4.
+
+     54-59-02.2. Distributed ledger technologies - Authorization - Pilot program - Report.
+     The department shall research and develop the use of distributed ledger-enabled platform
+technologies, such as blockchains, for computer-controlled programs, data transfer and storage,
+and program regulation to protect against falsification, improve internal data security, and
+identify external hacking threats. Research must include efforts to protect the privacy of
+personal identifying information maintained within distributed ledger programs. The department
+shall select a state agency, upon the request of the state agency, to serve as a pilot program for
+the implementation and use of distributed ledger-enabled platform technologies. Before June
+first of each even-numbered year, the chief information officer shall report to the legislative
+management regarding the implementation of distributed ledger technologies.
+
+                                              Page No. 1
+
+     54-59-03. Chief information officer of the state.
+     The governor shall appoint the chief information officer of the state. The governor shall
+appoint the chief information officer on the basis of education, experience, and other
+qualifications in information technology and administration. The position of chief information
+officer is not a classified position. The chief information officer serves at the pleasure of the
+governor. The governor shall set the salary of the chief information officer within the limits of
+legislative appropriations.
+
+    54-59-04. Duties of chief information officer.
+    The chief information officer shall:
+    1. Administer the department.
+    2. Employ any personnel determined to be necessary to carry out the responsibilities of
+         the department and duties as prescribed by law.
+    3. Fix the salaries of all employees within the department, within the limits of legislative
+         appropriation. All personnel within the department are entitled to actual and necessary
+         travel expenses at the same rate as for other employees of the state.
+
+    54-59-05. Powers and duties of department.
+    The department:
+    1. Shall provide, supervise, and regulate information technology of all executive branch
+         state entities, excluding the institutions under the control of the state board of higher
+         education.
+    2. Shall provide network services in a way that ensures the network requirements of a
+         single entity do not adversely affect the functionality of the whole network, facilitates
+         open communications with the citizens of the state, minimizes the state's investment in
+         human resources, accommodates an ever-increasing amount of traffic, supports rapid
+         detection and resolution of problems, protects the network infrastructure from damage
+         and security breaches, provides for the aggregation of data, voice, video, and
+         multimedia into a statewide transport mechanism or backbone, and provides for the
+         network support for the entity to carry out its mission.
+    3. May review and approve additional network services that are not provided by the
+         department.
+    4. May purchase, finance the purchase, or lease equipment, software, or implementation
+         services or replace, including by trade or resale, equipment or software as may be
+         necessary to carry out this chapter. An agreement to finance the purchase of software,
+         equipment, or implementation services may not exceed a period of five years. The
+         department shall submit any intended financing proposal for the purchase of software,
+         equipment, or implementation services under this subsection, which is in excess of
+         one million dollars, to the legislative assembly or the budget section if the legislative
+         assembly is not in session before executing a financing agreement. Any request
+         considered by the budget section must comply with section 54-35-02.9. If the
+         legislative assembly or the budget section does not approve the execution of a
+         financing agreement, the department may not proceed with the proposed financing
+         arrangement. The department may finance the purchase of software, equipment, or
+         implementation services only to the extent the purchase amount does not exceed
+         seven and one-half percent of the amount appropriated to the department during that
+         biennium.
+    5. Shall review requests for lease, purchase, or other contractual acquisition of
+         information technology as required by this subsection. Each executive branch agency
+         or institution, excluding the institutions under the control of the board of higher
+         education, shall submit to the department, in accordance with guidelines established
+         by the department, a written request for the lease, purchase, or other contractual
+         acquisition of information technology. The department shall review requests for
+         conformance with the requesting entity's information technology plan and compliance
+         with statewide policies and standards. If the request is not in conformance or
+
+                                           Page No. 2
+
+      compliance, the department may disapprove the request or require justification for the
+      departure from the plan or statewide policy or standard.
+ 6.   Shall provide information technology, including assistance and advisory service, to the
+      executive, legislative, and judicial branches. If the department is unable to fulfill a
+      request for service from the legislative or judicial branch, the information technology
+      may be procured by the legislative or judicial branch within the limits of legislative
+      appropriations.
+ 7.   Shall request and review information, including project startup information
+      summarizing the project description, project objectives, business need or problem,
+      cost-benefit analysis, and project risks and a project closeout information summarizing
+      the project objectives achieved, project budget and schedule variances, and lessons
+      learned, regarding any major information technology project of an executive branch
+      agency. The department shall present the information to the information technology
+      committee on request of the committee.
+ 8.   May request and review information regarding any information technology project of an
+      executive branch agency with a total cost of between one hundred thousand and five
+      million dollars as determined necessary by the department. The department shall
+      present the information to the information technology committee on request of the
+      committee.
+ 9.   Shall study emerging technology and evaluate its impact on the state's system of
+      information technology.
+10.   Shall develop guidelines for reports to be provided by each agency of the executive,
+      legislative, and judicial branches, excluding the institutions under the control of the
+      board of higher education, on information technology in those entities.
+11.   Shall collaborate with the state board of higher education on guidelines for reports to
+      be provided by institutions under control of the state board of higher education on
+      information technology in those entities.
+12.   Shall perform all other duties necessary to carry out this chapter.
+13.   May provide wide area network services to a state agency, city, county, school district,
+      or other political subdivision of this state. The information technology department may
+      not provide wide area network service to any private, charitable, or nonprofit entity
+      except the information technology department may continue to provide the wide area
+      network service the department provided to the private, charitable, and nonprofit
+      entities receiving services from the department on January 1, 2003.
+14.   Shall assure proper measures for security, firewalls, and internet protocol addressing
+      at the state's interface with other facilities.
+15.   Notwithstanding subsection 13, may provide wide area network services for a period
+      not to exceed four years to an occupant of a technology park associated with an
+      institution of higher education or to a business located in a business incubator
+      associated with an institution of higher education.
+16.   Shall advise and oversee cybersecurity strategy for all executive branch state
+      agencies, including institutions under the control of the state board of higher
+      education, counties, cities, school districts, or other political subdivisions. For purposes
+      of this subsection, the department shall consult with the attorney general on
+      cybersecurity strategy.
+17.   Shall advise and consult with the legislative and judicial branches regarding
+      cybersecurity strategy.
+18.   Notwithstanding chapter 54-40.2, may enter a memorandum of understanding with
+      other state, local, tribal, or territorial governments of the United States for purposes of
+      ensuring the confidentiality, availability, and integrity of state, local, and tribal
+      information systems and data, including consulting, developing cybersecurity strategy,
+      prevention of cybersecurity incidents, and response strategies to cybersecurity
+      incidents. The department may charge an amount equal to the cost of the services
+      rendered by the department to all agencies that receive and expend moneys from
+      other than the general fund.
+
+                                         Page No. 3
+
+   19.   Notwithstanding chapter 54-40.2, may enter a mutual aid agreement with other state,
+         local, tribal, or territorial governments of the United States agreeing to the reciprocal
+         exchange of resources and services for mutual benefit of the parties related to
+         cybersecurity efforts for the purposes of responding to or mitigating active
+         cybersecurity incidents. The department may receive in-kind benefits that reduce
+         cybersecurity risks to information technology or shall charge an amount equal to the
+         cost of the services rendered by the department to all agencies that receive and
+         expend moneys from other than the general fund.
+   20.   May provide information technology and cybersecurity services to any administrative,
+         elementary education, secondary education, and higher education institution under the
+         control of a tribal government of this state. The services provided and the cost of
+         services must be equal to those provided to state agencies. An agreement for services
+         entered under this section is not subject to the provisions of chapter 54-40.2.
+
+    54-59-06. Business plan.
+    The department shall develop and maintain a business plan. The business plan must:
+    1. Define the department's overall organization, mission, and delivery of services.
+    2. Define the department's short-term and long-term goals and objectives based on
+         customer needs.
+    3. Outline the strategies and activities necessary to meet the goals and objectives of the
+         department while improving the efficiency of the department and improving service to
+         customers.
+    4. Define rates and funding mechanisms necessary to finance the proposed activities of
+         the department.
+    5. Define a method for evaluating progress toward the goals outlined in the business
+         plan.
+    6. Determine the specific strategies and processes to ensure that agencies share
+         information, systems, and the statewide network.
+    7. Address the processes that will be put in place to ensure that the department
+         exercises its powers and duties with minimal delay, cost, and procedural burden to an
+         entity receiving services from the department; to ensure that the department provides
+         prompt, high-quality services to an entity receiving services from the department; to
+         ensure that an entity receiving services from the department is aware of the
+         technology available and to ensure training on its use; and to foster information
+         technology innovation by state entities.
+
+    54-59-07. State information technology advisory committee.
+    Repealed by S.L. 2023, ch. 481, § 4.
+
+     54-59-08. Required use of wide area network services.
+     Each state agency and institution that desires access to wide area network services and
+each county, city, and school district that desires access to wide area network services to
+transmit voice, data, or video outside that county, city, or school district shall obtain those
+services from the department. The chief information officer may exempt from the application of
+this section a county, city, or school district that demonstrates its current wide area network
+services are more cost-effective for or more appropriate for the specific needs of that county,
+city, or school district than wide area network services available from the department. For
+purposes of enhanced 911 and next generation 9-1-1 communications services, governmental
+entities are exempt from the provisions of this section. In selecting enhanced 911 and next
+generation 9-1-1 communication network providers, governmental entities shall select providers
+that are cost-effective, demonstrably reliable, and which follow interoperable standards set by
+the emergency services communications coordinating committee.
+
+                                           Page No. 4
+
+     54-59-09. Information technology standards.
+     Based on information from state agencies and institutions, the department and the office of
+management and budget shall develop statewide information technology policies, standards,
+and guidelines. The policies, standards, and guidelines must recognize the uniqueness of
+certain agencies and state which agencies are included or exempted from the policies,
+standards, and guidelines. Each executive branch state agency and institution, excluding the
+institutions under the control of the board of higher education, shall comply with the policies and
+standards developed by the department and the office of management and budget unless the
+chief information officer exempts an agency from the policies, standards, and guidelines to
+address situations unique to that agency. Unless an exemption is granted by the chief
+information officer, each entity receiving wide area network services provided by the department
+shall comply with the policies and standards developed by the department with respect to
+access to or use of wide area network services.
+
+    54-59-10. Information technology coordinators.
+    Each agency or institution shall appoint an information technology coordinator. The
+coordinator shall maintain liaison with the department and assist the department in areas related
+to making the most economical use of information technology.
+
+     54-59-11. Information technology plans.
+     Each executive branch state agency or institution, excluding the institutions under the
+control of the board of higher education, unless the chief information officer grants an
+exemption, shall participate in the information technology planning process based on guidelines
+developed by the department. The statewide information technology plan must be developed
+with emphasis on agency strategic goals, business objectives, and alignment to statewide
+information technology initiatives.
+
+     54-59-11.1. Information technology project planning.
+     Each executive branch state agency, excluding entities under the control of the state board
+of higher education, considering the development of an information technology project with an
+estimated cost of one hundred thousand dollars or more shall involve the information technology
+department in the planning and study of the project. A state agency must receive a
+recommendation from the information technology department prior to proceeding with any study
+relating to the project.
+
+     54-59-12. Coordination of activities - Reports.
+     The department shall cooperate with each state entity providing access to any computer
+database or electronically filed or stored information under subsection 4 of section 44-04-18 to
+assist in providing economical, efficient, and compatible access. The chief information officer
+shall conduct conferences and meetings with political subdivisions to review and coordinate
+information technology. The chief information officer and the chief information officer of the
+North Dakota university system shall meet at least twice each year to plan and coordinate their
+information technology. The chief information officer and the chief information officer of the
+North Dakota university system shall consider areas in which joint or coordinated information
+technology may result in more efficient and effective state government operations. Upon
+request, the chief information officer shall report to the legislative management regarding the
+coordination of services with political subdivisions, and the chief information officer and the chief
+information officer of the North Dakota university system shall report to the legislative
+management regarding their findings and recommendations.
+
+    54-59-13. Compliance reviews.
+    Repealed by S.L. 2003, ch. 665, § 21.
+
+                                             Page No. 5
+
+    54-59-14. Information technology operating fund - Continuing appropriation - Report.
+    1. The department shall establish a state information technology operating fund in the
+         state treasury to be used for procuring and maintaining information technology and
+         network services and for providing information technology and network services to
+         state entities and network services to users of the state network.
+    2. Unless exempted by law, each agency or institution provided with information
+         technology or network services shall pay to the department the charges for services
+         provided as determined by the department. The department shall deposit the amounts
+         received in the information technology operating fund, which are appropriated to the
+         department on a continuing basis for purposes provided under this section, except the
+         department may not use continuing appropriation authority to pay salaries and wages-
+         related expenses.
+    3. The department shall compile a report regarding the status of the information
+         technology operating fund to be provided at each meeting of the budget section. The
+         report must include information regarding expenditures paid from the fund for
+         department administration, operations, and information technology projects by specific
+         object code, the amount and category of services provided to state agencies and
+         institutions and users of the state network from moneys in the fund, and the balance
+         remaining in the fund from the most recently completed quarter. The department shall
+         present the mostly recently completed report to the appropriation committees of the
+         legislative assembly each legislative session.
+
+     54-59-15. Acceptance of funds.
+     The department may accept federal or other funds, which must be deposited in the
+information technology operating fund or other funds specified by the office of management and
+budget and which may be spent subject to legislative appropriation. The department may apply
+for any public or private grants available for the improvement of information technology.
+
+     54-59-16. Confidentiality.
+     The department may receive from various agencies and various agencies may provide to
+the department any information from the agencies necessary to effect the purposes of this
+chapter without regard to the confidential nature of the information. Each agency shall notify the
+department regarding the confidential nature of any information submitted to the department.
+The department is subject to the same restrictions and penalties regarding the dissemination of
+this information as the entity involved. Except for a request for access authorized by section
+54-10-22.1 or a request to access information collected to carry out section 54-59-09, 54-59-11,
+or 54-59-13, the department shall refer a request for access to or inspection of information
+provided by an agency to that agency for response. Referral to the agency satisfies any
+responsibility of the department to provide that information under open records requirements.
+Upon court order, the department shall provide access to or inspection of this information in
+accordance with restrictions of that entity involved governing dissemination of that information.
+
+    54-59-17. Educational technology council - Meetings - Compensation.
+    Repealed by S.L. 2019, ch. 144, § 4.
+
+    54-59-18. North Dakota educational technology council - Powers and duties.
+    Repealed by S.L. 2019, ch. 144, § 4.
+
+   54-59-19. Information technology department annual report.
+   The department shall prepare and present an annual report to the information technology
+committee. The report must contain:
+   1. A list of all projects for which financing agreements have been executed.
+   2. A comparison of the department's rates charged for services compared to rates
+        charged for comparable services in other states and in the private sector.
+
+                                            Page No. 6
+
+    3.   Information regarding the delivery of services to agencies, including service
+         dependability, agency complaints, and information technology department
+         responsiveness.
+    4.   A description of the status and progress of programs established pursuant to chapter
+         54-46 and as specifically required by section 54-46-11.
+
+    54-59-20. Security background information.
+    The chief information officer may require as a condition of employment or as a condition of
+contracting with the department that individuals, including any individuals employed by the
+contractor or a subcontractor to perform work under the contract, who have unescorted physical
+access to the facilities or other security-sensitive areas of the department designated by the
+chief information officer submit to a criminal history record check in accordance with section
+12-60-24. The chief information officer may require as a condition of contracting with the
+department or other state agency or department with respect to an information technology
+project that any individual employed by the contractor or a subcontractor to perform the work
+under the contract submit to a criminal history record check in accordance with section
+12-60-24.
+
+   54-59-21. Criminal justice information sharing board - Membership - Duties and
+powers - Director - Exempt records.
+   Repealed by S.L. 2015, ch. 37, § 15.
+
+     54-59-22. Required use of electronic mail, file and print server administration,
+database administration, application server, and hosting services.
+     Each state agency and institution, excluding the legislative and judicial branches, the
+institutions under the control of the state board of higher education, the attorney general, and
+any entity exempted by the office of management and budget after advisement by the
+information technology department, shall obtain electronic mail, file and print server
+administration, database administration, storage, application server, and hosting services
+through a delivery system established by the information technology department in conjunction
+with the office of management and budget. The office of management and budget, after
+receiving advice from the information technology department, shall establish policies and
+guidelines for the delivery of services, including the transition from existing systems to functional
+consolidation, with consideration given to the creation of efficiencies, cost-savings, and
+improved quality of service.
+
+    54-59-22.1. Required use of centralized desktop support services.
+    1. The following state agencies shall obtain centralized desktop support services from the
+         information technology department:
+         a. Office of administrative hearings.
+         b. Office of the governor.
+         c. Commission on legal counsel for indigents.
+         d. Public employees retirement system.
+         e. North Dakota university system office.
+          f. Department of career and technical education.
+         g. Department of financial institutions.
+         h. Department of veterans' affairs.
+          i. Aeronautics commission.
+          j. Council on the arts.
+         k. Agriculture commissioner.
+          l. Department of labor and human rights.
+        m. Indian affairs commission.
+         n. Protection and advocacy project.
+         o. Secretary of state.
+         p. State treasurer.
+
+                                             Page No. 7
+
+         q. State auditor.
+    2.   The office of management and budget, after receiving advice from the information
+         technology department, shall establish policies and guidelines for the delivery of
+         desktop support services, including the transition from existing systems to functional
+         consolidation, with consideration given to the creation of efficiencies, cost-savings, and
+         improved quality of service. For purposes of this section "desktop support services"
+         means technical assistance and device management relating to the use of personal
+         computers and peripheral devices.
+
+    54-59-23. Information technology projects - Reports.
+    1. An executive, legislative, or judicial branch agency, except for institutions under the
+         control of the state board of higher education, shall report to the department before
+         September first of each even-numbered year regarding the plan for and status of any
+         information technology project that is estimated to cost more than five hundred
+         thousand dollars.
+    2. During the life of the project, the agency shall notify the department if:
+         a. At a project milestone, the amount expended on project costs exceeds the
+              planned budget for that milestone by twenty percent or more; or
+         b. At a project milestone, the project schedule extends beyond the planned
+              schedule to attain that milestone by twenty percent or more.
+    3. A report under subsection 2 must specify corrective measures being undertaken to
+         address any cost or time of completion issue. If the agency has not taken adequate
+         corrective measures within ninety days after the report, the agency shall submit a
+         report to the legislative management's information technology committee regarding the
+         project.
+    4. Upon completion of the project, the agency shall notify the department if:
+         a. The budget for the project exceeded the original budget by twenty percent or
+              more; or
+         b. The final project completion date extended beyond the original project scheduled
+              completion date by twenty percent or more.
+
+    54-59-24. Borrowing authority - E-rate funding - Emergency commission approval.
+    Notwithstanding the limitations provided in section 54-59-05 and upon the approval of the
+emergency commission, the department may borrow from the Bank of North Dakota an amount
+necessary to pay telecommunications costs for connecting approved schools and libraries in the
+event e-rate funding is not received by the department from the schools and libraries division of
+the universal service administrative company. In addition to the principal repayment, the Bank of
+North Dakota is entitled to receive interest on the loan at a rate equal to other state agency
+borrowings. If at the end of the biennium a balance exists on any loan obtained pursuant to this
+section and funds are not anticipated to be available from the schools and libraries division of
+the universal service administrative company to repay the loan, the department shall request a
+deficiency appropriation from the legislative assembly to repay the loan.
+
+    54-59-25. Health information technology advisory committee - Duties.
+    Repealed by S.L. 2025, ch. 479, § 39.
+
+    54-59-26. Health information technology office - Duties - Loan and grant programs.
+    1. The health information technology office is created in the department.
+    2. The health information technology office director shall:
+         a. Apply for federal funds that may be available to assist the state and health care
+              providers in implementing and improving health information technology.
+         b. Implement and administer a health information exchange that utilizes information
+              infrastructure and systems in a secure and cost-effective manner to facilitate the
+              collection, storage, and transmission of health records.
+
+                                            Page No. 8
+
+         c.    Adopt rules under chapter 28-32 for the use of health information, use of the
+               health information exchange, and participation in the health information
+               exchange.
+         d. Adopt rules under chapter 28-32 for accessing the health information exchange to
+               ensure appropriate and required privacy and security protections and relating to
+               the authority of the director to suspend, eliminate, or terminate the right to
+               participate in the health information exchange.
+         e. Establish a health information technology planning loan program to provide
+               low-interest loans to health care entities to assist those entities in improving their
+               health information technology infrastructure under section 6-09-43.
+          f. Facilitate and expand electronic health information exchange in the state, directly
+               or by awarding grants.
+         g. Establish an application process and eligibility criteria for and accept and process
+               applications for loans and grants under subdivisions e and f. The eligibility criteria
+               must be consistent with federal requirements associated with federal funds
+               received under subdivision a. The eligibility criteria for loans under subdivision f
+               must include a requirement that the recipient's approved health information
+               technology be strategically aligned with the state's health information technology
+               plan and the associated federal standards and that the recipient has passed an
+               onsite electronic medical record readiness assessment conducted by an
+               assessment team determined by the health information technology office director.
+         h. Determine fees and charges for access and participation in the health information
+               exchange. Any moneys collected under this subdivision must be deposited in the
+               electronic health information exchange fund.
+          i. Consult and coordinate with the department of health and human services to
+               facilitate the collection of health information from health care providers and state
+               agencies for public health purposes, including identifiable health information that
+               may be used by state agencies, departments, or institutions to comply with
+               applicable state or federal laws.
+    3.   The health information technology office director may join with another state or states
+         to establish, implement, and administer a health information exchange consistent with
+         this chapter.
+
+   54-59-27. Health information technology office - Electronic health information
+exchange fund.
+   1. There is created an electronic health information exchange fund. The fund consists of
+        moneys deposited in the fund from federal or other sources or moneys transferred into
+        the fund as directed by the legislative assembly. The health information technology
+        office shall administer this fund and shall distribute moneys in the fund accordingly.
+        The moneys in the fund must be used to facilitate and expand electronic health
+        information exchange. Moneys in the fund may be used, subject to legislative
+        appropriations, to provide services directly, for grants as provided under this section,
+        and for the costs of administration of the fund.
+   2. A grant applicant shall submit an application to the health information technology
+        office, which shall determine the applicant's eligibility based upon criteria established
+        by the health information technology office director.
+   3. This section does not create an entitlement to any funds available for grants under this
+        section. The health information technology office may award these grants to the extent
+        funds are available and, within the office's discretion, to the extent such applications
+        are approved.
+
+   54-59-28. Participation in the health information exchange by executive branch state
+agencies and institutions of higher education.
+   1. Before January 1, 2015, each executive branch state agency and each institution of
+        higher education that implements, acquires, or upgrades health information technology
+        systems shall use health information technology systems and products that meet
+
+                                            Page No. 9
+
+         minimum standards adopted by the health information technology office for accessing
+         the health information exchange. A state agency or institution of higher education that
+         participates in or has health information that supports or develops the health
+         information exchange shall provide access to patient-specific data to complete the
+         patient record within the health information exchange. Notwithstanding any other
+         provision of law, each participating agency and institution shall provide patient-specific
+         data to the health information exchange.
+    2.   Participation in the health information exchange by a state agency or institution has no
+         effect on the content, use, or disclosure of health information of patient participants
+         which is held in locations other than the exchange. This section does not limit or
+         change the obligation of an agency or institution to exchange health information in
+         accordance with other applicable federal and state laws or rules.
+
+     54-59-29. Health information exchange - Confidential and exempt records.
+     Information submitted to, stored in, or transmitted by the health information exchange under
+this chapter and any such data or record in the possession of the health information technology
+office is an exempt record under chapter 44-04 unless the information is confidential under
+applicable federal or state law.
+
+     54-59-30. Immunity for reliance on data from the health information exchange.
+     A health care provider that relies in good faith upon any information provided through the
+health information exchange in the treatment of a patient is immune from criminal or civil liability
+arising from any damages caused by that good-faith reliance. The immunity granted under this
+section does not apply to acts or omissions constituting gross negligence or reckless, wanton,
+or intentional misconduct.
+
+    54-59-31. Certified electronic health records systems.
+    1. An executive branch state agency, an institution of higher education, and any health
+         care provider or other person participating in the health information exchange may use
+         only an electronic health record system for use in the exchange which is certified
+         under rules adopted by the office of the national coordinator for health information
+         technology.
+    2. Subsection 1 does not apply if:
+         a. The office of the national coordinator for health information technology does not
+              require certification of the electronic health record system for that type of
+              provider; or
+         b. The North Dakota health information technology director waives the certification
+              requirement.
+
+    54-59-32. Major information technology projects - Oversight.
+    1. An executive branch state agency, excluding institutions under the control of the state
+         board of higher education, proposing to conduct a major information technology
+         project, the department, and the office of management and budget, in consultation with
+         the attorney general, shall collaborate on the procurement, contract negotiation, and
+         contract administration of the project. The agency, the department, and the office of
+         management and budget, in consultation with the attorney general, shall approve the
+         solicitation, contract, or agreement, and any amendments relating to the project before
+         submission to the oversight committee as provided in subsection 3.
+    2. The procurement officer and primary project manager for a major information
+         technology project must meet the qualifications established by the department and the
+         office of management and budget.
+    3. An oversight committee must be appointed to oversee a major information technology
+         project. The chief information officer shall appoint a chairman of the committee. The
+         oversight committee may include the director of the office of management and budget
+         or a designee of the director, the chief information officer or a designee of the officer,
+
+                                            Page No. 10
+
+         the head of the agency contracting for the project or a designee, the project sponsor,
+         and a large project oversight analyst designated by the chief information officer. The
+         oversight committee shall monitor the overall status of the project and make
+         recommendations to the head of the agency contracting for the project or a designee,
+         and the project sponsor, regarding project decisions, negotiation and execution of
+         contracts, approval of project budgets, implementation of project schedules,
+         assessment of project quality, and consideration of scope changes.
+    4.   An agreement or contract, including an amendment, revision, or scope change, for a
+         major information technology project may not be entered unless signed by the head of
+         the contracting agency or a designee and the chief information officer or a designee of
+         the officer.
+
+    54-59-33. Statewide longitudinal data system committee - Membership.
+    Repealed by S.L. 2025, ch. 479, § 39.
+
+    54-59-34. Statewide longitudinal data system - Information technology department -
+Duties.
+    1. The department shall manage a statewide longitudinal data system among education,
+         workforce, and training entities that:
+         a. Provides for the dissemination of management information to stakeholders and
+              partners of state education, training, and employment systems;
+         b. Is required to provide on an annual basis to education and workforce
+              development programs, to the extent permitted by federal law, the wage record
+              interchange system 2 data sharing agreement and the state wage interchange
+              system data sharing agreement and state performance reports that measure the
+              aggregate outcomes of participants in the workforce and continuing education
+              programs, including private workforce and education programs that request the
+              reports; and
+         c. Uses data from educational and workforce systems as central sources of
+              statewide longitudinal data.
+    2. The department may, subject to federal and state privacy laws, enter interagency
+         agreements, including agreements designating authorized representatives of the
+         educational agencies participating in the system, under the Family Educational Rights
+         and Privacy Act [20 U.S.C. 1232(g); 34 CFR 99].
+    3. The department shall establish policies and adopt rules addressing access to and the
+         collection, storage, and sharing of information and the systems necessary to perform
+         those functions, subject to applicable federal and state privacy laws and interagency
+         agreements and restrictions relating to confidential information required to conform to
+         applicable federal and state privacy laws.
+    4. The department shall provide operational oversight for information sharing activities
+         and make recommendations for and provide oversight of information sharing budgets.
+    5. The department shall:
+         a. Establish the terms and conditions under which a person may be authorized to
+              access data through the statewide longitudinal data system;
+         b. Direct that all statewide longitudinal data system administrators implement
+              approved data protection practices to ensure the security of electronic and
+              physical data, provided that the practices include requirements for encryption and
+              staff training;
+         c. Provide for biennial privacy and security audits of the statewide longitudinal data
+              system;
+         d. Establish protocols, including procedures, for the notification of students and
+              parents in the event of a data breach involving the statewide longitudinal data
+              system;
+         e. Require that data retention and disposition by the statewide longitudinal data
+              system be governed by the same policies as those instituted for the information
+              technology department; and
+
+                                          Page No. 11
+
+         f.  Require the provision of annual training regarding data protection to any
+             individuals who have access to the statewide longitudinal data system, including
+             school district employees, employees of the North Dakota university system office
+             and institutions under the control of the state board of higher education, and
+             elected or appointed state or local governmental officials.
+    6.   The department may authorize studies to benefit and improve workforce training and
+         education.
+
+    54-59-35. Statewide longitudinal data system committee - Powers.
+    Repealed by S.L. 2025, ch. 479, § 39.
+
+     54-59-36. Statewide longitudinal data system - Report to legislative management.
+     During each interim the department shall provide a report regarding the statewide
+longitudinal data system to one or more committees designated by the legislative management
+and shall provide recommendations for further development, cost proposals, proposals for
+legislation, and recommendations for data sharing governance.
+
+    54-59-37. Statewide longitudinal data system - Continuing appropriation.
+    The department may solicit and receive gifts, grants, and donations from public and private
+sources. Any moneys received in accordance with this section are appropriated on a continuing
+basis for the support of the statewide longitudinal data system.
+
+   54-59-38. Statewide longitudinal data system committee - Information technology
+department.
+   Repealed by S.L. 2025, ch. 479, § 39.
+
+    54-59-39. State agencies - Mandatory provision of information - Confidentiality.
+    1. The information technology department may request from any state agency:
+         a. All information required by 20 U.S.C. 9871(e)(2)(D);
+         b. Any other educational information required for a longitudinal data system to
+               comply with state or federal law; and
+         c. Unemployment insurance wage data from job service North Dakota for education
+               and workforce development program evaluations, except that the information
+               technology department may not redisclose any data identifying an individual
+               unless the redisclosure is expressly permitted by a written agreement between
+               job service North Dakota and the department or is otherwise expressly permitted
+               or required by federal or state law.
+    2. A state agency providing information requested under subsection 1 shall enter an
+         interagency agreement with the department which identifies applicable federal and
+         state privacy laws and agency-established restrictions relating to its confidential
+         information the agency has determined is required to comply with federal and state
+         privacy laws.
+    3. Subject to applicable restrictions on the use and disclosure of confidential information
+         required to comply with federal and state privacy laws and the terms of the interagency
+         agreement, any state agency receiving a request for information under subsection 1
+         shall provide the information at the time and in the manner required by the information
+         technology department.
+
+                                          Page No. 12
