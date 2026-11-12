@@ -1,0 +1,60 @@
+               State of Iowa Enterprise Information Security Standard
+                                                  3-18-2008
+
+Purpose
+This Standard establishes the minimum computer security requirements for state agencies with the goal
+of protecting the confidentiality, integrity and availability of state computing systems and information.
+
+Overview
+State agencies collect and process a variety of information, including confidential information, in the
+course of their activities. Measures must be taken to protect agency information and the supporting
+computer systems from unauthorized access, modification, destruction, whether accidental or intentional,
+and to ensure authenticity, integrity and availability of state computer systems and information.
+
+Scope
+For the purpose of this standard, security is defined as the ability to protect the confidentiality, integrity,
+and availability of information processed, stored and transmitted by an agency. Information technology
+assets covered by this policy include those that process, store, transmit or monitor digital information. It
+includes the security of information technology facilities and off-site information storage; computing,
+telecommunications and applications related services purchased from other state agencies or commercial
+entities; and Internet-related applications and connectivity.
+
+This policy applies to all agencies as defined by Iowa Code Chapter 8A, Section 101. Non-participating
+agencies are encouraged to follow the guidelines in this and other enterprise level security standards, as
+well as participate in enterprise level security programs.
+
+Updates
+This document will be reviewed at least every two years and updated as needed.
+
+DEFINITIONS
+
+Selected terms used in the Enterpise Security Standard are defined below:
+
+        Confidentiality - The property that sensitive information is not disclosed to unauthorized
+        individuals, entities or processes.
+
+        Integrity - The property that sensitive information has not been modified or deleted in an
+        unauthorized and undetected manner.
+
+        Availability - Ensuring timely and reliable access to and use of information.
+
+ENTERPRISE INFORMATION SECURITY STANDARD
+
+It is the Information Security Standard of the State of Iowa that:
+
+  1. Trusted Environment: Each agency operates in a manner consistent with the maintenance of a
+     shared, trusted environment within state government. Agencies shall not jeopardize the
+     confidentiality, integrity or availability of state computing systems; or the information stored,
+     processed and transmitted by any state information system.
+
+  2. Enterprise Standards: Each agency follows established enterprise security standards except where
+     agency policy provides a higher level of security.
+
+  3. Policy: Each agency is responsible for developing policies, processes and procedures to meet this
+     standard. Agency policies may be more stringent than the Enterprise standard. All employees,
+     including interns, contractors, temporary and part-time employees, must agree (in writing or
+     electronically) to follow state and agency security policies before being authorized to access state
+     computer resources.
+
+  4. Continuity Plan: Each agency will develop, implement, and exercise an agency business continuity
+     plan. The plan will be based on asset criticality and be consistent with the enterprise continuity of

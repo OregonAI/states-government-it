@@ -1,0 +1,537 @@
+                                                                                       STATE OF IOWA
+                                                                                       ​
+
+ K​IM R ​ YNOLDS, ​G​OVERNOR
+      ​ E                                                                                              R
+                                                                                                       ​ OBERT VON WOLFFRADT
+ A​DAM G    ​ EGG​,​ L
+          ​ R        ​ ​T. G ​ VERNOR
+                           ​ O                                                                       CHIEF INFORMATION OFFICER
+
+                                  Project Management Policy/Standard (“Policy/Standard”)
+
+         1.       Overview. ​This Policy/Standard establishes Project management requirements applicable
+                  to Information Technology Projects of Participating Agencies in the State of Iowa, including:
+                 1.1.        Requiring the assignment and continued use of Project Managers during the
+                             Planning, Execution, and Completion phases of a Project;
+                 1.2.        Establishing minimum qualifications for those serving as Project Managers; and
+                 1.3.        Defining certain roles, responsibilities, and duties and standards of practice of and
+                             for assigned Project Managers.
+
+         2.       Purpose. ​The purpose of this Policy/Standard is to establish a consistent discipline for the
+                  management of IT Projects throughout State government and to ensure successful Project
+                  Completion without runaway costs, unclear scope, or schedule overruns.
+
+         3.       Scope/Application. ​This Policy/Standard applies to all Participating Agencies and any State
+                  Personnel of the foregoing. Non-Participating Agencies are encouraged to follow this
+                  Policy/Standard and other Enterprise IT Governance Documents. ​This Policy/Standard shall
+                  be deemed to have been adopted by all Participating Agencies. Participating Agencies may
+                  adopt Governance Documents augmenting but not diminishing this Policy Standard​. In the
+                  event of any conflict or inconsistency between this Policy/Standard and a Governance
+                  Document adopted by a Participating Agency, this Policy/Standard shall prevail.
+
+         4.       Definitions. ​Capitalized terms not defined herein shall have the same meaning as the
+                  corresponding defined term in the following sources, as may be amended from time to time,
+                  in the following priority order: Iowa Code Chapter 8B, Iowa Administrative Code Chapter
+                  129; and the Information Technology Governance Document Taxonomy (​“Taxonomy”​). In
+                  addition to any other terms specifically defined herein, the following terms, primarily sourced
+                  from the ​Project Management Institute​ (​“PMI”​), are defined as follows:
+
+                 4.1.        “Approval to Plan” ​means a Justification Form that has been approved by the CIO.
+
+                 4.2.        “Approval to Proceed” ​means a Request to Proceed that has been approved by
+                             the CIO.
+
+                 4.3.        “Information Technology Contract(s)” ​or “Contract(s)” has the same meaning as
+                             given it in the Taxonomy.
+
+                 4.4.        “Information Technology Project(s)​,​” ​“IT Project(s)​,​” ​or ​“Project(s)” ​has the
+                             same meaning as given it in the Taxonomy.
+
+                 4.5.        “Project Approval(s)” or ​“Approval(s)” means ​any and all necessary approvals or
+                             signatures required over the Project Lifecycle as a precondition to proceeding to the
+                             next Project phase, including but not limited to an Approval to Plan, Approval to
+                             Proceed, or any other approval or signature as may otherwise required by:
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319     515.281.5503       ​CIO@IOWA.GOV
+                                                                  1
+
+                       4.5.1.     The CIO or Office;
+
+                       4.5.2.     Any applicable IT Subcommittees; or
+
+                       4.5.3.     Any applicable laws, rules, or IT Governance Documents.
+
+              4.6.     “Project Budget”​ or ​“Budget” ​has the same meaning as given it in the Taxonomy.
+
+              4.7.     “Project Change Approval(s)” or ​“Change Approval(s)” ​means a Change
+                       Request that has been Approved by the CIO.
+
+              4.8.     “Project Change(s)” or ​“Change(s)” means a change to the Scope, Budget,
+                       Timeline, Milestones, and/or other deliverables or resources of or related to a
+                       Project.
+
+              4.9.     “Project Change Request(s)” or ​“Change Request(s)” ​means a formal request
+                       submitted to the CIO/Office for a Change to a Project.
+
+            4.10.      “Project Charter” or ​“Charter” ​means a document signed by the head of the
+                       Participating Agency sponsoring the Project which, at a minimum:
+
+                        4.10.1.     Provides​ express authorization to proceed with a Project;
+
+                        4.10.2.     Designates a Project Manager with the authority to apply organizational
+                                    resources to Project activities and otherwise carry out and coordinate the
+                                    successful Completion of the Project;
+
+                        4.10.3.     Describes the anticipated Scope;
+
+                        4.10.4.     Identifies an estimated Budget; and
+
+                        4.10.5.     Identifies initial, estimated key Milestones and Timelines, including an
+                                    estimated Project Completion date.
+
+            4.11.      “Project Closeout Report” ​or ​“Closeout Report” ​means a final, formalized report,
+                       at a minimum:
+
+                        4.11.1.     Summarizing the Completed Project and comparing the Project as
+                                    Completed against the Approved Scope, Budget, Timeline, and
+                                    Milestones, including any previously Approved Changes to any of the
+                                    foregoing; and
+
+                        4.11.2.     Describing any key lessons learned or issues encountered over the
+                                    Project Lifecycle.
+
+            4.12.      “Project Completion​,​” ​“Project Closeout​,​” ​“Completion​,​” ​or ​“Closeout” means
+                       the successful delivery of a Project consistent with the Scope, including any
+                       previously Approved Changes thereto. Completion includes any final tasks, steps,
+                       documentation, reports, or offboarding completed, generated, or required to officially
+                       close a Project, including the submission of the Project Closeout Report to the
+                       CIO/Office.
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319   515.281.5503     ​CIO@IOWA.GOV
+                                                                  2
+
+            4.13.      “Project Execution” ​or ​“Execution” means, following the receipt of an Approval to
+                       Proceed from the CIO, by way of example only, the:
+
+                        4.13.1.     Execution of ​any Contract(s) or Purchasing Instrument(s) resulting from
+                                    any procurement processes completed during Project Planning;
+
+                        4.13.2.     Execution of any Purchasing Instruments under any pre-existing
+                                    Contract(s) vehicles.
+
+                        4.13.3.     In the case where the Project will be accomplished through the
+                                    deployment of existing State resources available through the Office, in
+                                    whole or in part, execution of any statement of work or other like
+                                    document between the Participating Agency and the Office documenting
+                                    and formalizing the roles, responsibilities, and expectations of the parties.
+
+                        4.13.4.     Directing, managing, performing, and accomplishing of Project work;
+                                    provisioning of deliverables; and/or provisioning of work performance
+                                    information.
+
+            4.14.      “Project Initiation” ​or ​“Initiation” ​means launching the process that can result in
+                       the authorization of a new project. Initiation begins at the idea/conception stage.
+
+            4.15.      “​Project Justification Form(s)” ​or “Justification Form(s)” ​means ​a formal
+                       request for approval submitted to the CIO/Office at the beginning towards the end of
+                       Project Initiation, but before Project Planning, outlining the business need for a
+                       proposed Project.
+
+            4.16.      “Project Life Cycle” ​or ​“Life Cycle” ​means the entire series of phases that a
+                       Project passes through from Initiation through Completion/Closeout.
+
+            4.17.      “Project Manager” means a designated individual who is responsible for leading
+                       and managing a Project from Planning through Completion/Closeout. This individual
+                       is designated in the Charter.
+
+            4.18.      “Project Milestone(s)” ​or “Milestone(s)” has the same meaning as given it in the
+                       Taxonomy.
+
+            4.19.      “Project Planning” or “Planning” ​means, following the receipt of an Approval to
+                       Plan from the CIO, ​the ​process of:
+
+                        4.19.1.     Drafting​ and executing a Charter;
+
+                        4.19.2.     Identifying, defining, estimating, and documenting the anticipated Scope,
+                                    Budget, Timeline, Milestones and other goals, objectives, tasks,
+                                    deliverables and risks associated with or required to successfully
+                                    Complete a proposed Project;
+
+                        4.19.3.     Identifying and documenting any procurement processes that may need
+                                    to be followed or pre-existing Contract(s) vehicles that may be utilized to
+                                    successfully Complete a proposed Project;
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319   515.281.5503       ​CIO@IOWA.GOV
+                                                                  3
+
+                        4.19.4.     Conducting any procurement processes and drafting any resulting
+                                    Contracts and/or Purchasing Instruments that may need be executed;
+
+                        4.19.5.     Drafting any Purchasing Instruments under any pre-existing Contract(s)
+                                    vehicles that may need to be executed;
+
+                        4.19.6.     In the case where the Project will be accomplished through the
+                                    deployment of existing State resources available through the Office, in
+                                    whole or in part, drafting of any statement of work or other like document
+                                    between the Participating Agency and the Office documenting and
+                                    formalizing the roles, responsibilities, and expectations of the parties.
+
+                        4.19.7.     Securing any other Approvals required prior to Execution.
+
+            4.20.      “Project Scope”​ or ​“Scope” ​has the same meaning as given it in the Taxonomy.
+
+            4.21.      “Project Status Report(s)” ​or “Status Report(s)” means a regular, formalized
+                       report summarizing the Project progress/status against the Approved Scope, Budget,
+                       Timeline, and Milestones, including any previously Approved Changes any of the
+                       foregoing.
+
+            4.22.      “Project Timeline(s)” ​or ​“Timeline” ​has the same meaning as given it in the
+                       Taxonomy.
+
+            4.23.      “Purchasing Instrument(s)” ​has the same meaning as given it in the Taxonomy.
+
+            4.24.      “Request(s) to Proceed” means a formal request for approval submitted to the
+                       CIO/Office towards the end of Project Planning, but before Project Execution:
+
+                        4.24.1.     Describing the Project’s final documented Scope, Budget, Timelines, and
+                                    Milestones and ​a summary of any Changes​; and
+
+                        4.24.2.     Which request must be accompanied by:
+
+                                     4.24.2.1.      Any applicable Contracts and/or corresponding Purchasing
+                                                    Instruments that are ready for countersignature following the
+                                                    CIO’s Approval;
+
+                                     4.24.2.2.      In the case where the Project will be accomplished through
+                                                    the deployment of existing State resources available through
+                                                    the Office, in whole or in part, a statement of work or other lik
+                                                    document between the Participating Agency and the Office
+                                                    documenting and formalizing the roles, responsibilities, and
+                                                    expectations of the parties.
+
+       5.     Enterprise Project Management Policy (“Policy”). ​It is the policy of the State of Iowa that,
+              regardless of the estimated Project Budget, Participating Agencies conducting an IT Project
+              shall deploy a Project Manager during the Planning, Execution, and Completion phases of a
+              Project, and in accordance with the Enterprise Project Management Standard set forth
+              below.
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319     515.281.5503         ​CIO@IOWA.GOV
+                                                                  4
+
+       6.     Enterprise Project Management Standard (“Standard”).
+
+              6.1.     Who may serve/experience.​
+                       6.1.1.     Who may serve​. To the extent consistent with the requirements of Section
+                                  6.1.2 (Experience), below, and other applicable laws, rules, regulations,
+                                  and IT Governance Documents, a Project Manager may be any of the
+                                  following:
+                                  6.1.1.1.      Existing State Personnel employed by a Participating Agency;
+                                  6.1.1.2.      Newly hired State Personnel employed by Participating Agency;
+                                  6.1.1.3.      State Personnel made available by and through the OCIO
+                                                Project Management Division; or
+                                  6.1.1.4.      Vendor Contractors or Vendor Personnel.
+
+                       6.1.2.     Experience​. All Participating Agencies conducting a Project shall assign a
+                                  Project Manager during Project Planning, and continue the use of Project
+                                  Manager through Project Completion or until a Project is otherwise
+                                  terminated, with the following experience in accordance with the following
+                                  dollar thresholds:
+                                  6.1.2.1.      All Participating Agencies conducting a Project with an
+                                                estimated project value of ​less than or equal to ​$100,000 shall
+                                                assign a Project Manager. No specific prior or formal experience
+                                                is required for a Project with this estimated value, but a
+                                                designated point of contact responsible for the coordination and
+                                                Completion of the Project is essential to a Project’s success.
+                                  6.1.2.2.      All Participating Agencies conducting a Project with an
+                                                estimated Project value of ​over ​$100,000 shall assign a Project
+                                                Manager who can demonstrate ​either​:
+                                               6.1.2.2.1.      Past experience managing at least one Project of
+                                                               similar size, scale, and complexity; ​or
+                                               6.1.2.2.2.      Formal Project management training.
+                                  6.1.2.3.      All Participating Agencies conducting a Project with an
+                                                estimated Project value of ​over ​$500,000 shall assign a Project
+                                                Manager who can demonstrate ​both​:
+                                               6.1.2.3.1.      Past experience managing at least one Project of
+                                                               similar size, scale and complexity; ​and
+                                               6.1.2.3.2.      Formal Project management training.
+
+              6.2.     Project Manager’s roles, responsibilities, and duties and standards of practice.​ ​Each
+                       Participating Agency shall require as a condition of employment/assignment that the
+                       assigned Project Manager be responsible for defining, describing, documenting,
+                       planning, monitoring, coordinating, and managing appropriate aspects of the
+                       following during the ​Planning, Execution, and Completion phases of a Project​:
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319    515.281.5503        ​CIO@IOWA.GOV
+                                                                  5
+
+                         6.2.1.     Project Planning​. The Project Manager shall be responsible for facilitating
+                                    and coordinating Planning activities and assisting in the preparation of
+                                    necessary documentation during the Planning phase. This includes, but is
+                                    not limited to, in coordination with appropriate State Personnel from the
+                                    Participating Agency and/or other stakeholders of the Project, and, to the
+                                    extent appropriate, other Governmental Entities responsible for
+                                    overseeing/managing State procurement/contracting/project management
+                                    processes:
+                                    6.2.1.1.      Scope, Budget, Timelines, and Milestones. Identifying,
+                                                  defining, describing, estimating, and documenting, as
+                                                  applicable, the anticipated Scope, Budget, Timeline,
+                                                  Milestones and other goals, objectives, tasks, deliverables and
+                                                  risks associated with or required to successfully Complete a
+                                                  proposed Project, in accordance with the following:
+                                                  6.2.1.1.1.     Scope. In identifying, defining, describing, and
+                                                                 documenting the Scope, the Project Manager
+                                                                 shall make reasonable efforts to ensure that the
+                                                                 Scope includes all the work required, ​and only
+                                                                 the work required​, to successfully Complete the
+                                                                 Project.
+                                                  6.2.1.1.2.     Budget. In estimating and documenting the
+                                                                 Project Budget, the Project Manager shall, in
+                                                                 coordination with appropriate State Personnel
+                                                                 from the Participating Agency and/or other
+                                                                 Project stakeholders, forecast and document all
+                                                                 reasonable anticipated costs and expenses
+                                                                 expected to be incurred over the entire Project
+                                                                 Life Cycle.
+                                                  6.2.1.1.3.     Timelines/Milestones.
+                                                                  6.2.1.1.3.1.   In identifying and documenting
+                                                                                 estimated Project Timelines and
+                                                                                 Project Milestones, the Project
+                                                                                 Manager shall, in coordination
+                                                                                 with appropriate State Personnel
+                                                                                 from the Participating Agency
+                                                                                 and/or other stakeholders of the
+                                                                                 Project, work to identify desired,
+                                                                                 yet    reasonably     achievable,
+                                                                                 Project Timelines and Milestones.
+                                                                  6.2.1.1.3.2.   In identifying and documenting
+                                                                                 estimated Project Timelines and
+                                                                                 Project Milestones, the Project
+                                                                                 Manager shall ensure the Project
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319      515.281.5503       ​CIO@IOWA.GOV
+                                                                  6
+
+                                                                                 has both an estimated beginning
+                                                                                 and end date.
+                                    6.2.1.2.      Project Charter.
+                                                  6.2.1.2.1.     Assisting in the drafting and facilitating the
+                                                                 execution of a Project Charter by the head of the
+                                                                 Participating Agency; and
+                                                  6.2.1.2.2.     Submitting, answering questions and supplying
+                                                                 follow-up information, and defending the Project
+                                                                 Charter to the Projects and Investments
+                                                                 Subcommittee in the course of obtaining an
+                                                                 Approval to Proceed from the CIO in accordance
+                                                                 with and as required by the Information
+                                                                 Technology Project Governance IT Governance
+                                                                 Process.
+                                    6.2.1.3.      Procurement/Sourcing Processes. Identifying, assisting, and
+                                                  coordinating in the performance, negotiation, and drafting of or
+                                                  related to any necessary, as applicable:
+                                                  6.2.1.3.1.     Procurement processes and resulting Contracts
+                                                                 and/or Purchasing Instruments that may need be
+                                                                 executed;
+                                                  6.2.1.3.2.     Purchasing Instruments under any pre-existing
+                                                                 Contract(s) vehicles;
+                                                  6.2.1.3.3.     In the case where the Project will be
+                                                                 accomplished through the deployment of existing
+                                                                 State resources available through the Office, in
+                                                                 whole or in part, any statement(s) of work or other
+                                                                 like document(s) between the Participating
+                                                                 Agency and the Office documenting and
+                                                                 formalizing the roles, responsibilities, and
+                                                                 expectations of the parties.
+                                    6.2.1.4.      Request to Proceed.
+                                                  6.2.1.4.1.     Assisting in the drafting and finalization of a
+                                                                 Request to Proceed; and
+                                                  6.2.1.4.2.     Submitting, answering questions and supplying
+                                                                 follow-up information, and defending the Request
+                                                                 to Proceed to the Projects and Investments
+                                                                 Subcommittee in the course of obtaining an
+                                                                 Approval to Proceed from the CIO in accordance
+                                                                 with and as required by the Information
+                                                                 Technology Project Governance IT Governance
+                                                                 Process.
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319      515.281.5503        ​CIO@IOWA.GOV
+                                                                  7
+
+                                                  6.2.1.4.3.     Supplying to the Projects and Investments
+                                                                 Subcommittee in connection with a Request to
+                                                                 Proceed:
+                                                                 6.2.1.4.3.1.   Contracts and/or corresponding
+                                                                                Purchasing Instruments that are
+                                                                                ready      for    countersignature
+                                                                                following the CIO’s Approval;
+                                                                 6.2.1.4.3.2.   In the case where the Project will
+                                                                                be accomplished through the
+                                                                                deployment of existing State
+                                                                                resources available through the
+                                                                                Office, in whole or in part, a
+                                                                                statement(s) of work or other like
+                                                                                document(s)        between     the
+                                                                                Participating Agency and the
+                                                                                Office        documenting      and
+                                                                                formalizing         the     roles,
+                                                                                responsibilities, and expectations
+                                                                                of the parties.
+                         6.2.2.     Project Execution​. The Project Manager shall be responsible for
+                                    facilitating and coordinating Execution activities and assisting in the
+                                    preparation of necessary documentation during the Execution phase. This
+                                    includes, but is not limited to, in coordination with appropriate State
+                                    Personnel from the Participating Agency and/or other stakeholders of the
+                                    Project, and, to the extent appropriate, other Governmental Entities
+                                    responsible           for          overseeing/managing            State
+                                    procurement/contracting/project management processes:
+                                    6.2.2.1.      Procurement/Sourcing Processes. Coordinating and facilitating
+                                                  the execution of any necessary:
+                                                  6.2.2.1.1.     Contracts and/or corresponding Purchasing
+                                                                 Instruments that are ready for countersignature
+                                                                 following the CIO’s Approval;
+                                                  6.2.2.1.2.     In the case where the Project will be
+                                                                 accomplished through the deployment of existing
+                                                                 State resources available through the Office, in
+                                                                 whole or in part, a statement(s) of work or other
+                                                                 like document(s) between the Participating
+                                                                 Agency and the Office documenting and
+                                                                 formalizing the roles, responsibilities, and
+                                                                 expectations of the parties.
+                                    6.2.2.2.      Scope, Budget, Timelines, and Milestones. Tracking and
+                                                  documenting:
+                                                  6.2.2.2.1.     Scope. All work completed against the previously
+                                                                 Approved Scope.
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319     515.281.5503       ​CIO@IOWA.GOV
+                                                                  8
+
+                                                  6.2.2.2.2.     Budget. The actual costs incurred against the
+                                                                 previously Approved Budget.
+                                                  6.2.2.2.3.     Timelines/Milestones. ​All work completed
+                                                                 against the previously Approved Timelines and
+                                                                 Milestones in accordance with applicable contract
+                                                                 terms, conditions, and procedures, including but
+                                                                 not limited to those related to the testing or
+                                                                 acceptance of any deliverables;
+                                    6.2.2.3.      Project Changes. Actively managing, monitor, and
+                                                  documenting all Changes and, with respect to such Changes:
+                                                  6.2.2.3.1.     Assisting in the drafting and finalization of Project
+                                                                 Change Requests;
+                                                  6.2.2.3.2.     Submitting, answering questions and supplying
+                                                                 follow-up information, and defending Project
+                                                                 Change Requests to the Projects and
+                                                                 Investments Subcommittee in the course of
+                                                                 obtaining a Change Approval from the CIO in
+                                                                 accordance with and as required by the
+                                                                 Information Technology Project Governance IT
+                                                                 Governance Process;
+                                                  6.2.2.3.3.     Supplying to the Projects and Investments
+                                                                 Subcommittee in connection with a Change
+                                                                 Request:
+                                                                 6.2.2.3.3.1.   Proposed Contract amendments,
+                                                                                and/or proposed new Purchasing
+                                                                                Instruments,    amendments     to
+                                                                                previously executed Purchasing
+                                                                                Instruments, or change orders, as
+                                                                                applicable, that are ready for
+                                                                                countersignature following the
+                                                                                CIO’s Approval;
+                                                                 6.2.2.3.3.2.   In the case where the Project will
+                                                                                be accomplished through the
+                                                                                deployment of existing State
+                                                                                resources available through the
+                                                                                Office, in whole or in part,
+                                                                                proposed new statement(s) of
+                                                                                work, amendments to statement(s)
+                                                                                of work, change orders, or other
+                                                                                like documents ​documenting and
+                                                                                formalizing        the      roles,
+                                                                                responsibilities, and expectations
+                                                                                of the parties in light of the
+                                                                                proposed Change.
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319      515.281.5503         ​CIO@IOWA.GOV
+                                                                  9
+
+                                    6.2.2.4.      Performance​. Otherwise monitoring, coordinating, facilitating,
+                                                  or directing ​the performance of Project Work, including but not
+                                                  limited to:
+                                                  6.2.2.4.1.     Escalating any issues that may substantially
+                                                                 impair the Project’s success to appropriate ​State
+                                                                 Personnel from the Participating Agency and/or
+                                                                 other stakeholders of the Project, and, to the
+                                                                 extent appropriate, other Governmental Entities
+                                                                 responsible for overseeing/managing State
+                                                                 procurement/contracting/project     management
+                                                                 processes;
+                                                  6.2.2.4.2.     Ensuring applicable Contract or statement(s) of
+                                                                 work terms, conditions, and procedures are
+                                                                 followed.
+                         6.2.3.     Project Status Reports​. The Project Manager shall be responsible for
+                                    drafting and submitting Project Status Reports to the Projects and
+                                    Investments Subcommittee during both the Planning and Execution
+                                    phases in accordance with and as required by the Information Technology
+                                    Project Governance IT Governance Process.
+                         6.2.4.     Project Closeout​. The Project Manager shall be responsible for facilitating
+                                    and coordinating Closeout activities and assisting in the preparation of
+                                    necessary documentation during the Closeout phase. This includes, but is
+                                    not limited to, in coordination with appropriate State Personnel from the
+                                    Participating Agency and/or other stakeholders of the Project, and, to the
+                                    extent appropriate, other Governmental Entities responsible for
+                                    overseeing/managing State procurement/contracting/project management
+                                    processes:
+                                    6.2.4.1.      Project Closure Report. ​Drafting and submitting a Closeout
+                                                  Report to the Projects and Investments Subcommittee in
+                                                  accordance with and as required by the Information
+                                                  Technology Project Governance IT Governance Process.
+                                    6.2.4.2.      Ensuring all applicable contract or statement(s) of work terms,
+                                                  conditions, and procedures are completed, including but not
+                                                  limited to those related to the testing or acceptance of any
+                                                  deliverables;
+                                    6.2.4.3.      Meeting with appropriate State Personnel from the
+                                                  Participating Agency and/or other stakeholders of the Project
+                                                  to discuss the overall successes or failures.
+
+       7.     Vendors/Contractors. ​Participating Agencies deploying Vendor Contractors or Vendor
+              Personnel as a Project Manager for a Project shall make compliance with this IT
+              Governance Document contractual obligations of such Vendor Contractors or Vendor
+              Personnel.
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319     515.281.5503        ​CIO@IOWA.GOV
+                                                                  10
+
+       8.     Amendment. ​This IT Governance Document shall be reviewed at least every two (2) years
+              and amended as needed. This IT Governance Document ​may be amended in the sole
+              discretion of the CIO, taking into consideration the advice and input of the TLG and its
+              various Subcommittees.
+
+       9.     Enforcement. ​This IT Governance Document shall be enforced pursuant to Iowa
+              Administrative Code rules 11— 25.11 and 11—117.11 and Iowa Code sections 8B.21(1)(d),
+              (f), and (h), 8B.23(1), 8B.23, and 8B.24(1), as applicable. Upon a finding of a violation of or
+              noncompliance with this IT Governance Document, the Office may, by way of example only:
+              9.1.     Bar or otherwise limit a Participating Agency’s use of Contracts entered into by the
+                       office;
+              9.2.     Remove or bar State Personnel of a Participating Agency from participating on IT
+                       Governance Subcommittees, work groups, or task forces established, organized, or
+                       managed by the Office;
+              9.3.     Report such violations or noncompliance to the department of management, office of
+                       the governor, or auditor of state;
+              9.4.     Recover administrative fees commensurate with any increased fees incurred by the
+                       Office or other Participating Agencies as a result of the violation or noncompliance.
+      10.     Waiver/Variance. Iowa Administrative Code rules 11—25.11(2) and 11—117.11(3) and
+              Iowa Code section 8B.21(5) provide for variances\waivers from IT Governance Documents.
+              Requests for a waiver/variance from any of the requirements of this IT Governance
+              Document shall be submitted in writing to the Office in accordance with the requirements of
+              those statutes and rules, as applicable.
+      11.     Dispute resolution. ​If a dispute arises between the Office and a Participating Agency as it
+              relates to compliance with or the administration or enforcement of this IT Governance
+              Document, such dispute shall be resolved as provided by Iowa Code section 679A.19.
+
+          IN WITNESS WHEREOF​, ​the CIO has caused the CIO’s duly authorized representative to
+          execute this IT Governance Document, which is effective as of the date of signature below.
+
+            Chief Information Officer
+            State of Iowa
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319   515.281.5503    ​CIO@IOWA.GOV
+                                                                  11

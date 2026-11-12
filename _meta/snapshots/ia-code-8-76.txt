@@ -1,0 +1,136 @@
+1          DEPARTMENT OF MANAGEMENT — BUDGET AND FINANCIAL CONTROL ACT, §8.76
+
+  8.76 Definitions.
+  As used in this subchapter, unless the context otherwise requires:
+  1. “Broadband” means a high-speed, high-capacity electronic transmission medium,
+including fixed wireless and mobile wireless mediums, that can carry data signals from
+independent network sources by establishing different bandwidth channels and that is
+commonly used to deliver internet services to the public.
+  2. “Broadband infrastructure” means the physical infrastructure used for the transmission
+of data that provides broadband services. “Broadband infrastructure” does not include land,
+buildings, structures, improvements, or equipment not directly used in the transmission of
+data via broadband.
+  3. “Communications service provider” means a service provider that provides broadband
+service.
+  4. “Crop operation” means the same as defined in section 717A.1.
+  5. “Department” means the department of management.
+  6. “Director” means the director of the department of management.
+  7. “Facilitate” means a communication service provider’s ability to provide broadband
+service at or above the download and upload speeds specified in the definition of targeted
+service area in this section to a home, farm, school, or business within a commercially
+reasonable time and at a commercially reasonable price upon request by a consumer.
+  8. “Information technology” means computing and electronics applications used to
+process and distribute information in digital and other forms and includes information
+technology devices, information technology services, infrastructure services, broadband and
+broadband infrastructure, and value-added services.
+  9. “Information technology device” means equipment or associated software, including
+programs, languages, procedures, or associated documentation, used in operating the
+equipment which is designed for utilizing information stored in an electronic format.
+“Information technology device” includes but is not limited to computer systems, computer
+networks, and equipment used for input, output, processing, storage, display, scanning, and
+printing.
+  10. “Information technology services” means services designed to do any of the following:
+  a. Provide functions, maintenance, and support of information technology devices.
+  b. Provide services including but not limited to any of the following:
+  (1) Computer systems application development and maintenance.
+  (2) Systems integration and interoperability.
+  (3) Operating systems maintenance and design.
+  (4) Computer systems programming.
+  (5) Computer systems software support.
+  (6) Planning and security relating to information technology devices.
+  (7) Data management consultation.
+  (8) Information technology education and consulting.
+  (9) Information technology planning and policies.
+  (10) Establishment of local area network and workstation management policies.
+  11. “Information technology staff” includes any employees performing information
+technology services, including but not limited to department or establishment employees
+in information technology classifications, contractors, temporary workers, and any other
+employees providing information technology services.
+  12. “Infrastructure services” includes all of the following:
+  a. Data centers used to support mainframe and other computers and their associated
+components including servers, information networks, storage systems, redundant or backup
+power systems, redundant data communications connections, environmental controls, and
+security devices.
+  b. Servers, mainframes, or other centralized processing systems.
+  c. Storage systems, including but not limited to disk, tape, optical, and other structured
+repositories for storing digital information.
+  d. Computer networks commonly referred to as local area networks.
+
+Wed Dec 10 21:42:49 2025                                  Iowa Code 2026, Section 8.76 (47, 1)
+
+§8.76, DEPARTMENT OF MANAGEMENT — BUDGET AND FINANCIAL CONTROL ACT                              2
+
+  e. Network services, including equipment and software which support local area
+networks, campus area networks, wide area networks, and metro area networks. Network
+services also include data network services such as routers, switches, firewalls, virtual
+private networks, intrusion detection systems, access control, internet protocol load
+balancers, event logging and correlation, and content caching. Network services also include
+cybersecurity support and information technology support for the public broadcasting
+division of the department of education. “Network services” does not extend to control of
+the federally licensed television airwaves.
+  f. Groupware applications used to facilitate collaboration, communication, and workflow,
+including electronic mail, directory services, calendaring and scheduling, and imaging
+systems.
+  g. Information technology help desk services.
+  h. Cyber security functions and equipment.
+  i. Digital printing and printing procurement services.
+  j. Data warehouses, including services that assist in managing and locating digital
+information.
+  k. Disaster recovery technology and services.
+  l. Cloud computing solutions including but not limited to solutions based on software as
+a service, platform as a service, and infrastructure as a service.
+  m. Other similar or related services as determined by the director.
+  13. “Supported entity” means a unit of state government, which is an authority, board,
+commission, committee, council, department, or independent agency as defined in section
+7E.4, including but not limited to each principal central department enumerated in section
+7E.5. However, “supported entity” does not mean any of the following:
+  a. The office of the governor or the office of an elective constitutional or statutory officer.
+  b. The general assembly, or any office or unit under its administrative authority.
+  c. The judicial branch, as provided in section 602.1102.
+  d. A political subdivision of the state or its offices or units, including but not limited to a
+county, city, or community college.
+  e. The state board of regents and institutions operated under its authority.
+  14. “Targeted service area” means any of the following:
+  a. A United States census bureau census block located in this state, including any crop
+operation located within the census block, or other geographic unit the department sets by
+rule, within which no communications service provider offers or facilitates broadband service
+at or above the tier 1, tier 2, or tier 3 download and upload speeds. As used in this subsection:
+  (1) “Tier 1” means a maximum download speed of less than twenty-five megabits per
+second and a maximum upload speed of less than three megabits per second.
+  (2) “Tier 2” means a minimum download speed of greater than or equal to twenty-five
+megabits per second but less than fifty megabits per second.
+  (3) “Tier 3” means a minimum download speed of greater than or equal to fifty megabits
+per second but less than eighty megabits per second.
+  b. Any geographic area, as the department sets by rule, that is materially underserved
+by broadband service such that tier 1, tier 2, and tier 3 download and upload speeds are
+not meaningfully available. The department’s power to determine the geographic area by
+rule under this paragraph includes the power to define and interpret policies as to whether a
+geographic area is materially underserved and broadband service is meaningfully available.
+  15. “Underserved area” means any portion of a targeted service area within which no
+communications service provider facilitates broadband service meeting the tier 1 download
+and upload speeds specified in the definition of targeted service area in this section.
+  16. “Value-added services” means services that offer or provide unique, special, or
+enhanced value, benefits, or features to the customer or user including but not limited
+to services in which information technology is specially designed, modified, or adapted
+to meet the special or requested needs of the user or customer; services involving the
+delivery, provision, or transmission of information or data that require or involve additional
+processing, formatting, enhancement, compilation, or security; services that provide the
+customer or user with enhanced accessibility, security, or convenience; research and
+
+Wed Dec 10 21:42:49 2025                                     Iowa Code 2026, Section 8.76 (47, 1)
+
+3                DEPARTMENT OF MANAGEMENT — BUDGET AND FINANCIAL CONTROL ACT, §8.76
+
+development services; and services that are provided to support technological or statutory
+requirements imposed on supported entities and other governmental entities, businesses,
+and the public.
+  2013 Acts, ch 129, §5
+  C2014, §8B.1
+  2015 Acts, ch 120, §26, 27; 2018 Acts, ch 1123, §1, 7; 2019 Acts, ch 159, §2 – 4; 2020 Acts,
+ch 1078, §1, 17; 2021 Acts, ch 47, §1, 5, 6; 2024 Acts, ch 1185, §46 – 56, 85
+  C2025, §8.76
+  2025 Acts, ch 30, §1
+    Referred to in §8.3A, 8.5, 8.85, 15E.167, 422.7(10)(b), 422.35, 427.1(40)(a), 427.1(40)(b), 427.1(40)(f), 524.901
+    Unnumbered paragraph 1 amended
+
+Wed Dec 10 21:42:49 2025                                                                   Iowa Code 2026, Section 8.76 (47, 1)

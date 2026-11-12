@@ -1,0 +1,60 @@
+                                                                                         STATE OF IOWA
+                                                                                         ​
+
+ K​IM R ​ YNOLDS, ​G​OVERNOR
+      ​ E                                                                                                  R
+                                                                                                           ​ OBERT VON WOLFFRADT
+ A​DAM G    ​ EGG​,​ L
+          ​ R        ​ ​T. G ​ VERNOR
+                           ​ O                                                                           CHIEF INFORMATION OFFICER
+
+                         Information Technology Governance Document Taxonomy (“Taxonomy”)
+
+         1.       Overview/Purpose. ​The development of a common language is critical to consistent and
+                  effective communication and thereby governance. To that end, this Taxonomy sets forth
+                  defined terms to be utilized in both Enterprise and Agency-Specific Governance Documents,
+                  including but not limited to Information Technology Charters, Policies, Standards,
+                  Processes, Guidelines, and/or Procedures (collectively referred to herein as ​“IT
+                  Governance Document(s)” ​or ​“Governance Document(s)”​).
+
+         2.       Incorporation/Order of Priority. ​Unless expressly stated to the contrary in the applicable
+                  Governance Document or this Taxonomy, capitalized terms used in an Enterprise IT
+                  Governance Document not specifically defined therein shall be given the same meaning as
+                  the corresponding defined term in the following sources, as may be amended from time to
+                  time, in the following priority order:
+                 2.1.        Iowa Code chapter 8B;
+                 2.2.        Iowa Administrative Code chapter 129;
+                 2.3.        This Taxonomy.
+
+         3.       Taxonomy. The following defined terms may be utilized in both Enterprise and
+                  Agency-Specific IT Governance Documents.
+                 3.1.                                                                 ​
+                             “Agency-Specific” ​as used in connection with an IT Governance Document (​e.g.,
+                             Agency-Specific IT Policy) means an IT Governance Document promulgated by a
+                             single agency and which is applicable solely to that agency, as opposed to all
+                             Participating Agencies.
+                 3.2.        “Budget” or ​“Project Budget” ​means ​t​he total costs and expenditures estimated to
+                             be incurred in connection with a Project.
+                 3.3.        “Chief Information Officer” ​or ​“CIO” means the State Chief Information Officer, as
+                             established by Iowa Code chapter 8B, or the CIO’s designee.
+                 3.4.        “Cloud Services”​ or ​“X-as-a-Service”​ shall include the following, without limitation:
+                              3.4.1.    “Software-as-a-Service” or ​“SaaS” which means the capability provided
+                                        by a Vendor to the State or its Agencies (including State Personnel or any
+                                        end users of the foregoing) (collectively referred to as ​“Users”​) to use the
+                                        Vendor’s Software or applications from various client devices through a
+                                                           ​ such as a Web browser (​e.g., Web-based email) or a
+                                        thin-client interface
+                                        program interface. The User does not manage or control the underlying
+                                        Infrastructure including network, servers, operating systems, storage or
+                                        even individual Software or application capabilities, with the possible
+                                        exception of limited, User-specific Software or Application configuration
+                                        settings.
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319         515.281.5503             ​CIO@IOWA.GOV
+                                                                  1
+
+                        3.4.2.     “Platform-as-a-Service” or ​“PaaS” which means the capability provided
+                                   by a Vendor to Users to deploy onto the Vendor’s Infrastructure
+                                   User-created or -acquired Software or applications created using
+                                   programming languages and tools supported by the Vendor. This
+                                   capability does not necessarily preclude the use of compatible

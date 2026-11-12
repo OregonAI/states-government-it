@@ -1,0 +1,162 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: iowa
+id: ia-code-8-85
+title: Procurement of information technology
+doc_type: statute
+citation: Iowa Code § 8.85
+authority_level: ''
+issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+source_url: https://www.legis.iowa.gov/docs/code/8.85.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 51c338b40759354813de12f2952c1a56ae746c94df98fe0672a2761fbf4aa76a
+effective_date: null
+source_version: Iowa Code 2026
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Procurement of information technology (Iowa Code § 8.85)
+
+## At a glance
+
+How supported entities procure information technology under the department's policies, and the department's procurement powers.
+
+## Full text
+
+1          DEPARTMENT OF MANAGEMENT — BUDGET AND FINANCIAL CONTROL ACT, §8.85
+
+  8.85 Procurement of information technology.
+  1. Policies established by the department, unless waived by the department, apply to all
+information technology procurements for supported entities.
+  2. The department shall institute procedures to ensure effective and efficient compliance
+with policies established by the department.
+  3. The department shall develop policies and procedures that apply to all information
+technology goods and services acquisitions, and shall ensure the compliance of all supported
+entities. The department shall also be the sole provider of information technology goods and
+services for supported entities, the sole authority in state government for the procurement
+of information technology goods and services for supported entities, the sole authority in
+state government for the establishment of master agreements for information technology
+goods and services, and the sole authority in state government for determining whether any
+particular procurement is an information technology procurement.
+  4. The department, by rule, may implement a prequalification procedure for contractors
+with which the department has entered or intends to enter into agreements regarding the
+procurement of information technology.
+  5. Notwithstanding the provisions governing purchasing as provided in chapter 8A,
+subchapter III, the department may procure information technology as provided in this
+section. The department may cooperate with other governmental entities in the procurement
+of information technology in an effort to make such procurements in a cost-effective,
+efficient manner as provided in this section. The department, as deemed appropriate and
+cost effective, may procure information technology using any of the following methods:
+  a. Cooperative procurement agreement. The department may enter into a cooperative
+procurement agreement with another governmental entity relating to the procurement of
+information technology, whether such information technology is for the use of the department
+or other governmental entities. The cooperative procurement agreement must clearly specify
+the purpose of the agreement and the method by which such purpose will be accomplished.
+Any power exercised under such agreement shall not exceed the power granted to any party
+to the agreement.
+  b. Negotiated contract. The department may enter into an agreement for the purchase
+of information technology if any of the following apply:
+  (1) The contract price, terms, and conditions are pursuant to the current federal supply
+contract, and the purchase order adequately identifies the federal supply contract under
+which the procurement is to be made.
+  (2) The contract price, terms, and conditions are no less favorable than the contractor’s
+current federal supply contract price, terms, and conditions; the contractor has indicated in
+writing a willingness to extend such price, terms, and conditions to the department; and the
+purchase order adequately identifies the contract relied upon.
+  (3) The contract is with a vendor who has a current exclusive or nonexclusive price
+agreement with the state for the information technology to be procured, and such information
+technology meets the same standards and specifications as the items to be procured and all
+of the following apply:
+  (a) The quantity purchased does not exceed the quantity which may be purchased under
+the applicable price agreement.
+  (b) The purchase order adequately identifies the price agreement relied upon.
+  c. Contracts let by another entity. The department may contract for information
+technology by leveraging an existing, competitively procured contract established by any
+other governmental entity or cooperative purchasing organization.
+  d. Reverse auction.
+  (1) The department may enter into an agreement for the purchase of information
+technology utilizing a reverse auction process. Such process shall result in the purchase
+of information technology from the vendor submitting the lowest responsible bid amount
+for the information technology to be acquired. The department, in establishing a reverse
+auction process, shall do all of the following:
+
+Wed Dec 10 21:42:54 2025                                   Iowa Code 2026, Section 8.85 (32, 2)
+
+§8.85, DEPARTMENT OF MANAGEMENT — BUDGET AND FINANCIAL CONTROL ACT                            2
+
+  (a) Determine the specifications and requirements of the information technology to be
+acquired.
+  (b) Identify and provide notice to potential vendors concerning the proposed acquisition.
+  (c) Establish prequalification requirements to be met by a vendor to be eligible to
+participate in the reverse auction.
+  (d) Conduct the reverse auction in a manner as deemed appropriate by the department
+and consistent with rules adopted by the department.
+  (2) Prior to conducting a reverse auction, the department shall establish a threshold
+amount which shall be the maximum amount that the department is willing to pay for the
+information technology to be acquired.
+  (3) The department shall enter into an agreement with a vendor who is the lowest
+responsible bidder which meets the specifications or description of the information
+technology to be procured, or the department may reject all bids and begin the process
+again. In determining the lowest responsible bidder, the department may consider various
+factors including but not limited to the past performance of the vendor relative to quality
+of product or service, the past experience of the department in relation to the product or
+service, the relative quality of products or services, the proposed terms of delivery, and the
+best interest of the state.
+  e. Competitive bidding. The department may enter into an agreement for the
+procurement or acquisition of information technology in the same manner as provided under
+chapter 8A, subchapter III, for the purchasing of service. The department may also contract
+for the purchase of information technology goods or services using a competitive bidding
+process that includes a vendor selection process that focuses on realized, efficiency-based
+competition models.
+  f. Other agreement. In addition to the competitive bidding procedure provided for under
+paragraph “e”, the department may enter into an agreement for the purchase, disposal, or
+other disposition of information technology in the same manner and subject to the same
+limitations as otherwise provided in this subchapter.
+  6. a. The department shall, when feasible, prioritize the procurement of cloud computing
+solutions and other information technology and related services that are not hosted on
+premises by the state. The department may contract for multiple cloud computing solutions.
+The ownership of state data stored within cloud computing solutions shall remain with the
+state.
+  b. The department shall make reasonable efforts to ensure the portability of state data
+stored within cloud computing solutions. The department shall develop contractual terms
+and conditions for cloud computing solutions to ensure the confidentiality, integrity, and
+availability of state data and to maximize cybersecurity protections.
+  c. For purposes of this subsection, “cloud computing solutions” means the same as
+described in section 8.76, subsection 12, paragraph “l”.
+  7. The department shall adopt rules pursuant to chapter 17A to implement the
+procurement methods and procedures provided for in subsections 2 through 6.
+  8. The department may establish and collect administrative fees associated with
+purchases made from department information technology agreements. The department may
+retain fees collected under this subsection in a fund created pursuant to section 8.92.
+  2013 Acts, ch 129, §21
+  C2014, §8B.24
+  2024 Acts, ch 1185, §70, 85
+  C2025, §8.85
+  2025 Acts, ch 30, §2
+  Referred to in §8.92
+  Subsection 6, paragraph c amended
+
+Wed Dec 10 21:42:54 2025                                   Iowa Code 2026, Section 8.85 (32, 2)
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

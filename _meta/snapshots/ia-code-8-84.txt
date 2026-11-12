@@ -1,0 +1,17 @@
+1          DEPARTMENT OF MANAGEMENT — BUDGET AND FINANCIAL CONTROL ACT, §8.84
+
+  8.84 Information technology policies.
+  1. The department shall develop and adopt information technology policies applicable to
+the procurement of information technology by all supported entities. Such policies, unless
+waived by the department, apply to all information technology procurements for supported
+entities.
+  2. The office of the governor or the office of an elective constitutional or statutory officer
+shall consult with the department prior to procuring information technology and consider the
+information technology policies adopted by the department, and provide a written report to
+the department relating to the office’s decision regarding such acquisitions.
+  2013 Acts, ch 129, §20
+  C2014, §8B.23
+  2024 Acts, ch 1185, §69, 85
+  C2025, §8.84
+
+Wed Dec 10 21:42:53 2025                                     Iowa Code 2026, Section 8.84 (23, 0)
