@@ -1,0 +1,166 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-doit-data-governance-policy
+title: Maryland Data Governance Policy
+doc_type: policy
+citation: Policy Number OED.100.1.0.2025, Maryland Data Governance Policy, version 1.1
+authority_level: ''
+issuing_body: Maryland Department of Information Technology
+source_url: https://doit.maryland.gov/policies/Websites-and-Data/Pages/Maryland-Data-Governance-Policy.aspx
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: 3b6c6d1dfc99335d7d9572439d1afda8a42e7fd3e1382082cf31b5ffe9d7f0e9
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint
+  site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined
+  by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and
+  page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Maryland Data Governance Policy (Policy Number OED.100.1.0.2025, Maryland Data Governance Policy, version 1.1)
+
+## At a glance
+
+Listed on DoIT's Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx). As the page prints its purpose: Modernizing and aligning data programs across State Government is essential to efficiently advancing the State’s mission, adopting informed business practices, and delivering innovative solutions to Maryland’s constituents.
+
+## Full text
+
+Maryland Data Governance Policy
+Policy Number: OED.100.1.0.2025
+Revision History
+• Last Revised: 11/19/2025
+• Date Issued: 12/01/2025
+• Version 1.1
+• Approved by Katie Savage, Secretary of the Department of Information Technology, Natalie Evans Harris, State Chief Data Officer at the Department of Information Technology
+1.0 Purpose
+Modernizing and aligning data programs across State Government is essential to efficiently advancing the State’s mission, adopting informed business practices, and delivering innovative solutions to Maryland’s constituents. In accordance with Executive Order 01.01.2021.09, Agencies are expected to administer data programs that deliver data efficiently, reliably, transparently, and are accountable for innovative and cost effective data-driven solutions.
+Agencies are responsible for maximizing the value of the data they collect and process, to ensure data-driven strategic decisions, and critical insights, all while minimizing the risk of data misuse. Achieving this objective requires a statewide approach to responsible data governance which sets expectations for deliberate and defined data use, management, and sharing practices. Good data governance establishes accountability, facilitates consistent and secure data handling, promotes technical efficiency, improves data quality, reliability, and accessibility, expands opportunities for confidently leveraging data in innovation, and supports interoperable and collaborative initiatives to mature Agency data programs and enhance the State’s overall data posture.
+2.0 Scope
+This policy applies to all electronic data, collected, created or processed by Agencies.
+This policy applies to all Agencies and their employees, contractors, processors, and data users granted authorized access to data and information systems.
+This policy sets the authority and controls upon which units of State government, as defined in the Md. State Finance and Procurement Code Ann, §3.5-101(f), (“Agency” or “Agencies”), are guided and measured in their governance of data.
+Adherence to this policy helps to ensure that data is used, managed, and shared in accordance with Federal and State laws, policies, and standards.
+Participation is encouraged for any entities, including the legislative and judicial branches of State government, that collect, use, manage, or share State data, but which are not explicitly subject to this Policy.
+3.0 Authority
+Md. State Finance and Procurement Code Ann, § 3.5-303
+Md. State Finance and Procurement Code Ann, § 3.5-318
+Md. Executive Order 01.01.2021.09
+Md. Executive Order 01.01.2021.10
+4.0 Policy
+This policy addresses the data governance structure and data governance controls for data use, data management, and data sharing by Agencies.
+5.0 Data Governance
+Strong data governance is essential to enhancing the State’s data posture, driving effective data use, management, mitigating security and privacy risks, and improving the State’s data maturity. The Office of Enterprise Data (OED) is located within DoIT and is dedicated to facilitating a statewide approach for the responsible use, management, and sharing of State data.
+When Agencies participate in a statewide approach, it empowers them to shape and own their data programs at the strategic, tactical, and operational levels. It aligns Agency programs with the statewide data program, streamlining an Agency’s participation in the enterprise data ecosystem, ensuring an Agency’s data practices are in compliance with established laws, policies, and standards, and fostering a statewide community that is collaborative, interoperable, efficient, and innovative.
+5.1 Data Governance Roles and Responsibilities
+5.1.1. State Chief Data Officer (SCDO)
+The SCDO is responsible for directing, coordinating, and implementing the statewide data strategy and policies for Agencies. This position oversees responsible data governance and management, promotes standardization, collaboration, and efficient data practices.
+5.1.2. Office of Enterprise Data (OED)
+OED administers a data governance framework that clearly defines the responsibilities, accountability, and desired outcomes for a data program. This framework guides how to optimally deploy people, processes, and technology, within an Agency, to maximize the value of data and contribute to solutions that advance the Governor’s initiatives, along with achieving an Agency’s business objectives and goals. This includes monitoring compliance with established State regulations and offering services to support Agency data programs maturity and regulatory compliance.
+OED is responsible for:
+• Defining frameworks, functions, and processes that achieve optimal data use, management, and sharing statewide;
+• Administering additional policies in support of the data governance framework (e.g., Data Readiness, Data Sharing, Data Quality);
+• Establishing and administering clear and concise metrics and measures, regarding compliance, for established data policies, standards, and directives;
+• Distributing Data Sharing Agreement (DSA) and Data Use Agreement (DUA) templates for use between units of State government and non-State entities;
+• Coordinating and maintaining the Authoritative Data Program to assess and certify data quality, and identify and name the best, most authoritative data set for a given topic;
+• Coordinating the completion of biennial Agency data maturity assessments;
+• Coordinating the annual reporting of Agency data inventories; and
+• Establishing and leading the Chief Data Officers (CDO) Council and supporting Working Groups.
+5.1.3. Agencies
+Agencies are responsible for the governed use, management, and sharing of State data. This requires a defined strategy and structure to achieve established goals and objectives, and the implementation of measures to monitor for the secure, efficient, and effective use and management of the Agency’s data.
+Agencies are responsible for:
+• Appointing the role of Agency Data Officer (ADO) to a dedicated individual within the agency and reporting to OED the name of the individual;
+• Participating in the CDO Council by attending meetings, reporting on outcomes and results, providing feedback, upon request and participating in working groups, through their designated ADO;
+• Publishing an Agency data governance policy that, consistent with the State’s governance framework, includes a structure that creates a collaborative environment and effectively defines an Agency’s decision making on how to govern its data.
+• Publishing standards, processes, and controls for data handling for all data classification levels as defined in the Statewide Data Classification Policy;
+• Identifying and maintaining a list of personnel who handle Level 3 and Level 4 data, as defined in the Statewide Data Classification Policy, and establishing and documenting appropriate procedures and training for those personnel;
+• Executing Data Sharing Agreements (DSAs) and Data Use Agreements (DUAs) between units of State government and non-State entities and providing a list of all active DUAs and DSAs to OED annually.
+• Assessing the Agency’s data maturity per industry standards (e.g., Data Management Capability Assessment Model (DCAM), Data Management Body of Knowledge (DAMA-DMBOK)) and submitting the results to OED, no less often than every two (2) years; and
+• Completing and submitting to OED an annual Agency data inventory.
+5.1.4. Chief Data Officers Council (CDO Council)
+5.1.4.1 Council Membership
+The Council consists of the following members:
+• The SCDO, or the SCDO’s Designee;
+• State Chief Information Security Officer (SCISO), or the SCISO’s Designee;
+• The State Chief Privacy Officer (SCPO); and
+• Agency Data Officers (ADOs).
+The CDO Council should meet at least four (4) times a year.
+5.1.4.2. Council Responsibilities
+The CDO Council is an advisory body for data governance policies and priorities, including but not limited to ensuring that Maryland data is fully leveraged as a strategic asset. The Council aims to support the statewide adoption of data governance, strategic data utilization, collaborative data exchange, compliance and data quality, and data literacy and culture development.
+The Council is responsible for:
+• Advising the SCDO on matters associated with administering consistent and cooperative data governance statewide;
+• Providing feedback on the development of enterprise architecture and common data platforms or tools;
+• Providing feedback on Data Sharing Agreements (DSAs) and Data Use Agreements (DUAs) for sharing data not classified as open data between units of State government and non-State entities; and
+• Consulting with the Council on Open Data on improvements to engagement with and access to Maryland open data assets.
+5.1.5. Council on Open Data
+The Council on Open Data shall be consulted on matters that impact open data and requested to participate in recommending, coordinating, promoting, and advocating for the innovative and transparent use of data.
+6.0 Mandatory Policy Compliance
+OED will submit compliance reports to the SCDO on a quarterly basis. These reports will communicate the State’s data maturity based on the established data governance framework. Through reporting, Agencies, individually, and the State, as a whole, will be able to measure the impact of standardized data governance, data use for improved decision-making processes, clear and reliable management for improved efficiency, and data sharing on improvements to government services. Implementation of this policy to occur beginning FY 2027.
+The following areas, at a minimum, will be measured against metrics defined by the CDO Council and reviewed annually:
+Data Governance: These metrics track progress, identify areas for improvement, and demonstrate the value of data governance initiatives.
+Data Quality: These metrics identify and address data issues, improve data accuracy and consistency, and ensure data reliability.
+Data Discoverability: These metrics evaluate the preparation and maintenance of data to ensure users can find and access relevant data.
+Data Usability: These metrics assess the preparation and maintenance of data to ensure users understand and can use the data effectively.
+7.0 References
+• EO 01.01.2021.09 State Chief Data Officer: EO 01.01.2021.09
+• EO 01.01.2021.10 Maryland Data Privacy: EO 01.01.2021.10
+• Maryland Open Data Act: State Government §10-1501 through 10-1504
+• Cybersecurity - Coordination and Governance: State Finance and Procurement § 3.5-2A-04
+• Maryland Data Inventory: State Finance and Procurement § 3.5-318
+• Maryland Information Technology Security Manual: MD ITSM v1.2
+• Maryland Data Classification Policy: MD - OSM - Data Classification Policy v1.1
+• NIST SP 800-37 - Risk Mgmt Framework for Info Systems & Organizations: NIST SP 800-37 rev 2, www.nist.gov
+• NIST SP 800-53 - Privacy Framework: NIST SP 800-53, www.nist.gov
+• Federal Data Strategy: https://strategy.data.gov
+8.0 Maintenance
+This State Chief Data Officer (SCDO) is responsible for maintaining this policy, ensuring its ongoing relevance and accuracy. The Office of Enterprise Data (OED) within DoIT will oversee the official publication and communication of this policy to all relevant State Agencies and stakeholders. This policy shall be reviewed and/or updated at least annually.
+9.0 Approval
+• Katie Savage, Secretary of the Department of Information Technology on 11/26/2025
+• Natalie Evans Harris, State Chief Data Officer at the Department of Information Technology on 11/25/2025
+Appendix A - Glossary (Terms and Acronyms)
+• Agency: Processes involved in identifying, classifying, and providing visibility into the context of structured and unstructured data assets.
+• Agency Data Officer (ADO): An individual designated by a State unit to implement measure for the secure, efficient, and effective use of data; provide administrative support to the State Chief Data Officer (SCDO) on behalf of the the unit; receive and promptly address inquiries, requests, or concerns about access to the unit’s data; comply with direction from the SCDO as to the use and management of the unit’s data in accordance with EO 01.01.2021.09 SCDO.
+• CDO Council: The Chief Data Officers (CDO) Council is a group that coordinates efforts between the State program and Agency data governance programs, facilitated by the SCDO and attended by the ADO from each participating Agency.
+• Council on Open Data: The Council on Open Data consists of members as indicated in Maryland Code, State Government, §§ 10-1503 and 10-1504. This Council promotes the Open Data Act by providing guidance, policy recommendations, and consulting with the public and engaging with private users of government data and other stakeholders on how to improve access to data assets of the State.
+• DAMA DMBOK: The Data Management Association International (DAMA) Data Management Body of Knowledge (DMBOK) is a comprehensive framework with a collection of processes and best practices for data management. See also www.dama.org.
+• Data Asset: A digital resource or element that holds value for an organization, such as databases, documents, files, or datasets, and is managed to support its operations and objectives.
+• Data Classification: Data Categorization is the process of categorizing data based on its sensitivity, value, and the potential impact if it is compromised. This categorization is crucial for determining the appropriate security controls, handling procedures, and access restrictions necessary to protect data through all stages of the data lifecycle. According to the Maryland Data Classification Policy, the four (4) levels of classification are: 1) Public, 2) Protected / Internal-Only, 3) Confidential, and 4) Restricted. See also the Data Classification Policy.
+• Data Discovery: Processes involved in identifying, classifying, and providing visibility into the context of structured and unstructured data assets.
+• Data Governance: The exercise of authority and control (planning, monitoring, and enforcement) over the management of data assets with the purpose of ensuring that data is managed properly, according to policies and best practices.
+• Data Interoperability: The exercise of authority and control (planning, monitoring, and enforcement) over the management of data assets with the purpose of ensuring that data is managed properly, according to policies and best practices.
+• Data Inventory: A catalog of data assets within an organization. It provides information related to the type of data collected, who can access it, where it’s stored and how it is used.
+• Data Lifecycle: The entire period that data exists in a system, from first acquisition or creation to archiving or disposal. Consists of six (6) key phases: Plan, Design/Enable, Create/Obtain, Store/Maintain, Share/Use, and Enhance.
+• Data Management: TThe development, execution, and supervision of plans, policies, programs, and practices, that deliver, control, protect, and enhance the value of data and information assets throughout their lifecycles.
+• Data Privacy: The protection and control of individuals' personal information and how it is collected, stored, shared, and used by organizations or entities, ensuring that it is handled in compliance with privacy regulations and individuals' preferences.
+• Data Quality: The state of the data as it relates to accuracy, reliability, consistency, timeliness, validity, and uniqueness.
+• Data Retention: Policies and procedures governing the storage, preservation, and disposal of data and records over time, typically to comply with legal, regulatory, or business requirements.
+• Data Security: The measures, policies, and practices implemented to protect digital data from unauthorized access, alteration, or destruction, ensuring its confidentiality, integrity, and availability.
+• Data Sharing Agreement (DSA): Data Sharing Agreement is a contract between two or more parties that outlines the terms and conditions for the secure and responsible exchange of data. It defines the purpose of the data sharing, the type of data to be shared, and the responsibilities of each party to protect that data’s confidentiality and integrity.
+• Data Use Agreement (DUA): Data Use Agreement is a contract between the entity that owns access to a data source, dataset, or database, and a secondary entity that will receive the data, or subset of it, for reuse. In Maryland, DUAs are mandatory for the external sharing of data containing personal information and for third-party processors of PII. See also PII.
+• Metadata: Form of data that describes other data, including attributes such as what data an organization has, what it represents, how it is classified, where it came from, how it moves within the organization, how it evolves through use, who can and cannot use it, and whether it is of high quality.
+• NIST: The US Department of Commerce’s National Institute of Standards for Technologies is responsible for coordinating Federal, State, and local documentary standards and conformity assessment activities. More information at www.nist.gov.
+• OED: The Office of Enterprise Data within the Maryland Department of Information Technology.
+• Personally Identifiable Information (PII): Means any information that, taken alone or in combination with other information, enables the identification of an individual, including: (i) a full name; (ii) a Social Security number; (iii) a driver's license number, State identification card number, or other individual identification number; (iv) a passport number; (v) biometric information including an individual's physiological, biological, or behavioral characteristics, including an individual's deoxyribonucleic acid (DNA), that can be used, singly or in combination with each other or with other identifying data, to establish individual identity; (vi) geolocation data; (vii) Internet or other electronic network activity information, including browsing history, search history, and information regarding an individual's interaction with an Internet website, application, or advertisement; and (viii) a financial or other account number, a credit card number, or a debit card number that, in combination with any required security code, access code, or password, would permit access to an individual's account. PII does not include data rendered anonymous through the use of techniques, including obfuscation, delegation and redaction, and encryption, so that the individual is no longer identifiable (Source: State Government § 10-13A-01).
+• State Chief Data Officer (SCDO): The State Chief Data Officer is appointed by the Governor to supervise and direct the use and management of data by units of State government under the supervision and direction of the Governor. See also EO 01.01.2021.09 and Agency Data Officer (ADO).
+
+## Curator notes
+
+Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.

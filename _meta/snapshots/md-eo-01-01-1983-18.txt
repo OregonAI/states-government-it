@@ -1,0 +1,50 @@
+Executive Order 01.01.1983.18
+Privacy and State Data System Security
+1. Purpose — The purpose of this Executive Order is to direct adherence by State agencies to the following principles of information practice:
+  (a) There should be no personal record system whose existence is secret;
+  (b) Personal records should not be collected unless the need for the information has been clearly established;
+  (c) A personal record should be appropriate and relevant to the purpose for which it has been collected;
+  (d) Personal information should not be obtained by fraudulent and unfair means;
+  (e) Personal records should be accurate and current, to the greatest extent practicable;
+  (f) A data subject should generally be able to learn the purpose for which personal information has been recorded and particulars about its use; and
+  (g) Appropriate administrative, technical and physical safeguards should be established to ensure the security of public records and to protect against reasonably anticipated threats or hazards to their security or integrity.
+2. Definitions — As used in this Executive Order, the following terms have the meanings indicated:
+  (a) “Data subject” means a natural person about whom personal information is indexed or may be reasonably located in a personal record system by name, personal number, or other identifying particulars;
+  (b) “Personal information” means any information about data subject or a data subject's immediate family that identifies or describes any characteristic including but not limited to education, financial transactions or worth, medical history, criminal or employment record or things done by or to the data subject or the immediate family;
+  (c) “Personal record” means any public record pertaining to a data subject whose identity can be ascertained from the record with reasonable certainty either by name, address, number, description, finger or voice print, picture or any other identifying factor or factors;
+  (d) “Public record” means any correspondence, form, book, photograph, film, microfilm, sound recording, map, drawing, card, tape, computerized record or other documentary material, regardless of physical form or characteristics, that has been made by a State agency;
+  (e) “Record system” means a collection or group of public records; and
+  (f) “State agency” means any agency, board, commission, department, bureau, or other entity of the Executive Branch of Maryland State Government.
+3. Collection of Personal Information by State Agencies
+  (a) Except as otherwise provided by law, any State agency maintaining a personal record system shall:
+    (1) Collect personal information to the greatest extent practicable from the data subject directly; and
+    (2) After July 1, 1984, provide the following information to each data subject who is requested to disclose personal information on a standardized form:
+      (i) The principle purpose for which the information is intended to be used;
+      (ii) Any specific consequences for the data subject which are likely to result from nondisclosure;
+      (iii) The data subject's statutory right to inspect, amend, or correct personal records, if any;
+      (iv) Whether the information is generally available for public inspection; and
+      (v) Whether the information is routinely shared with State, federal or local government agencies.
+  (b) The information to be provided under paragraph(a)(2) may appear either on the standardized form or on a separate statement.
+4. Security of Public Records
+  (a) A state agency maintaining a public record system shall prescribe and implement appropriate safeguards to ensure the security of the system.
+  (b) Each state agency which maintains a computerized record system shall assign a qualified employee the responsibility to monitor the security of the system.
+  (c) A State Data Security Committee is created to regularly evaluate the security of state agency systems containing computerized records. The Committee shall consist of nine data professionals within State service. Each of the following agencies has a permanent representative on the Committee: Comptroller of the Treasury, Department of Transportation, Department of Public Safety and Correctional Services, the University of Maryland, the Board of Trustees of the State Universities and Colleges and the Department of Budget and Fiscal Planning, whose representative shall be the Chairman. The other members of the Committee shall be appointed by the Governor upon the recommendation of the Chairman. If any agency security officer is assigned to this Committee, he shall not participate as a member of the Committee in any computer system security analysis of his agency by the Committee. The Committee shall evaluate system risks including the review, formulation, and periodic testing of the appropriate levels of security.
+  (d) Each state agency shall cooperate with the State Data Security Committee and shall comply with any directive concerning the submission of plans or system security measures to be undertaken.
+  (e) The State Data Security Committee shall provide semi-annually a report on its activities to the Governor and to the appropriate chairmen of the legislative committees having jurisdiction over issues related to state data system security.
+5. Exceptions — The collection of the following information is exempt from the provisions of Section 3 of this Executive Order:
+  (a) Any information pertaining to the enforcement of criminal laws or the administration of the penal system, including efforts of the Department of Public Safety and Correctional Services to prevent, investigate, control or reduce crime;
+  (b) Information contained in investigative materials kept for the purpose of investigating a specific violation of State law and maintained by a State agency whose principal function may be other than the enforcement of criminal law;
+  (c) Student and other educational records described in COMAR 13A.08.02.05N and 45 CFR §99.1 et seq;
+  (d) Information consisting only of names, addresses, telephone numbers and other limited factual data, which could not, in any reasonable way:
+    (1) reflect or convey anything detrimental, disparaging, or threatening to an individual's reputation, rights, benefits, privileges, or qualifications; or
+    (2) be used by an agency to make a determination that would affect an individual's rights, benefits, privileges, or qualifications.
+  (e) Information contained in public records which are accepted by the State Archivist for deposit in the Maryland Hall of Records;
+  (f) Information contained in patient medical and psychological records at State medical facilities, hospitals or institutions, except that the extent of any routine sharing of personal information with other governmental agencies shall be disclosed in writing to the data subject;
+  (g) Information contained in applications for employment in State service, except that the extent of any routine sharing of personal information with other governmental agencies shall be disclosed in writing to the data subject; and
+  (h) Information gathered as part of formal research projects previously reviewed and approved by federally mandated Institutional Review Boards.
+6. Scope — This Executive Order is not intended to and may not be construed to confer any right, privilege or status on any private party cognizable by a court in any proceeding.
+Administrative History
+Effective date: October 24, 1983 (10:23 Md. R. 2055)
+Cross References
+11.15.31.11D(4)(c)(i)
+13A.11.06.01A(4)

@@ -1,0 +1,67 @@
+Executive Order 01.01.2022.03
+Maryland Total Human-services Integrated Network(Amends Executive Order 01.01.2021.11)
+A. The following terms have the meanings indicated:
+  1. “Operator” means the unit of State government designated by the MD THINK Committee to develop, maintain, and operate:
+    i. The Platform; and
+    ii. Business products, applications, data, and services in the Portfolio, as may be agreed to with Participating Units.
+  2. “Participating Unit” means a unit of State government approved by the MD THINK Committee that:
+    i. Operates business products, applications, data, or services on the Platform;
+    ii. Contributes funding to support the development, operation, and maintenance of the Platform; and
+    iii. Executes an agreement for access to, or operation or use of, the business products, applications, data, and services hosted and managed on the Platform.
+  3. “Platform” means the MD THINK platform composed of the servers, network infrastructure, software, and application components established, developed, maintained, and operated to host and manage the Portfolio.
+  4. “Portfolio” means the business products, applications, data, and services hosted and managed on the Platform, as directed by the MD THINK Committee.
+  5. “Strategic Initiatives Office” means a management office to support the MD THINK Committee established within the Operator for administrative, staffing, and budgetary purposes.
+  6. “MD THINK Enterprise” means the combination authorized resources or provided from the operator and participating units for the purpose of assessing from the, planning, designing, developing, operating, maintaining, and enhancing the portfolio, as directed by the MD THINK Committee.
+B. MD THINK Committee
+  1. There is a MD THINK Committee of the Governor’s Executive Council.
+  2. The members of the MD THINK Committee shall be:
+    i. The Secretary of Budget and Management;
+    ii. The Secretary of Human Services;
+    iii. The Secretary of Information Technology;
+    iv. The Secretary of Juvenile Services;
+    v. The Secretary of Health; and
+    vi. The Secretary of Public Safety and Correctional Services.
+  3. The Governor or his designee shall chair the MD THINK Committee.
+  4. The MD THINK Committee shall:
+    i. Promote the appropriate sharing of data among units of State government;
+    ii. Set policy, objectives, and priorities for, and govern, the portfolio data, Platform technology assets, and MD THINK Enterprise;
+    iii. Be responsible for the protection, privacy, and appropriate use of shared data and personal information on the Platform;
+    iv. Designate the Operator;
+    v. Oversee, coordinate, and authorize the assignment or provision of resources to the MD THINK Enterprise from the operator and participating units for the purpose of assessing, planning, designing, developing, operating, maintaining, and enhancing the portfolio;
+    vi. Establish working groups;
+    vii. Support the Two Generation Family Economic Security Commission in transforming the State’s interactions with families, mitigating multigenerational poverty, and promoting family wellbeing;
+    viii. Make recommendations for State policies and the delivery of services to those who have had adverse childhood experiences so as to reduce their effects; and
+    ix. Produce a report to the Governor, on or before December 15 of each year, addressing:
+      1) Its activities and plans in regard to data sharing in the State;
+      2) The impact of its work on Maryland citizens; and
+      3) Recommendations for future Executive Branch actions to support increased collaboration in the delivery of health and human services.
+C. MD THINK Executive Director.
+  1. There is an MD THINK Executive Director.
+  2. The MD THINK Executive Director shall be designated by and serve at the pleasure of the Governor.
+  3. The MD THINK Executive Director shall be, as directed by the Governor, part of the operator or a Participating Unit for administrative, staffing, and budgetary purposes.
+  4. The MD THINK Executive Director shall:
+    i. Use and manage the MD THINK Enterprise to achieve MD THINK Committee goals and objectives;
+    ii. Facilitate and coordinate the delivery of portfolio products and services; and
+    iii. Ensure the faithful execution of all agreements entered into by the operator on behalf of the MD THINK Enterprise.
+D. The Platform shall be developed, maintained, and operated to:
+  1. Provide support to Participating Units, in accordance with the policies, objectives, and priorities established by the MD THINK Committee;
+  2. Conform to modernized and current business and technological standards; and
+  3. Host and manage modernized applications and shared data for the Medicaid Modernization Transformation program for the delivery of Medicaid administrative services.
+E. The Strategic Initiatives Office shall:
+  1. Coordinate and manage the work and activities of the MD THINK Committee;
+  2. Assess the Platform and Portfolio’s compliance with the policies, objectives, and priorities of the MD THINK Committee; and
+  3. Report to the MD THINK Committee about:
+    i. Its activities, including any support provided to information privacy or data sharing programs of the State;
+    ii. Progress on achieving the MD THINK Committee’s objectives and priorities;
+    iii. The implementation, maintenance, and operation of the Platform;
+    iv. The products, applications, data, and services in the Portfolio, including their availability to specific Participating Units;
+    v. Any products, applications, data, or services that are no longer needed once hosted on the Platform, including the anticipated termination dates for each;
+    vi. All agreements with Participating Units, including the expiration of those agreements;
+    vii. Proposals for any new or additional Participating Units; and
+    viii. Recommendations for objectives and priorities.
+F. The MD THINK Committee, Executive Director, Operator, and Strategic Initiatives Office shall act in accordance and consistently with the Secretary of Information Technology’s information technology policies, procedures, and standards and the Statewide Information Technology Master Plan.
+G. Data on the Platform shall be shared for authorized business and technical purposes to the maximum extent consistent with appropriate security and privacy practices and standards.
+Administrative History
+Effective date: April 20, 2022
+Cross References
+01.01.2021.11

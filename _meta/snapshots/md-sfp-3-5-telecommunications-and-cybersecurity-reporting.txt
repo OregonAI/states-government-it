@@ -1,0 +1,93 @@
+Article - State Finance and Procurement
+
+§3.5–401.
+(a) The Department shall:
+  (1) coordinate the development, management, and operation of telecommunication equipment, systems, and services by State government;
+  (2) acquire and manage common user telecommunication equipment, systems, or services and charge units of State government for their proportionate share of the costs of installation, maintenance, and operation of the common user telecommunication equipment, systems, or services;
+  (3) promote compatibility of telecommunication systems by developing policies, procedures, and standards for the acquisition and use of telecommunication equipment, systems, and services by units of State government;
+  (4) coordinate State government telecommunication systems and services by reviewing requests by units of State government for telecommunication equipment, systems, or services;
+  (5) advise units of State government about planning, acquisition, and operation of telecommunication equipment, systems, or services; and
+  (6) provide radio frequency coordination for State and local governments in accordance with regulations of the Federal Communications Commission.
+(b) The Department may make arrangement for a user other than a unit of State government to have access to and use of State telecommunication equipment, systems, and services and shall charge the user any appropriate amount to cover the cost of installation, maintenance, and operation of the telecommunication equipment, system, or service provided.
+
+§3.5–402.
+(a) The provisions of this subtitle do not apply to a telecommunication system or service that is owned or operated by the University System of Maryland, Morgan State University, Baltimore City Community College, or a unit of the Legislative or Judicial Branch.
+(b) The provisions of this subtitle do not preempt the authority of the Maryland Public Broadcasting Commission to own, operate, or manage telecommunication equipment, systems, or services.
+
+§3.5–403.
+Telecommunications, including those of the Maryland Public Broadcasting System, shall be consistent with statewide information technology policies and standards and the statewide information technology master plan.
+
+§3.5–404.
+(a) The General Assembly declares that:
+  (1) it is the policy of the State to foster telecommunication and computer networking among State and local governments, their agencies, and educational institutions in the State;
+  (2) there is a need to improve access, especially in rural areas, to efficient telecommunication and computer network connections;
+  (3) improvement of telecommunication and computer networking for State and local governments and educational institutions promotes economic development, educational resource use and development, and efficiency in State and local administration;
+  (4) rates for the intrastate inter–LATA telephone communications needed for effective integration of telecommunication and computer resources are prohibitive for many smaller governments, agencies, and institutions; and
+  (5) the use of improved State telecommunication and computer networking under this section is intended not to compete with commercial access to advanced network technology, but rather to foster fundamental efficiencies in government and education for the public good.
+(b) (1) The Department shall establish a telecommunication and computer network in the State.
+  (2) The network shall consist of:
+    (i) one or more connection facilities for telecommunication and computer connection in each local access transport area (LATA) in the State; and
+    (ii) facilities, auxiliary equipment, and services required to support the network in a reliable and secure manner.
+(c) The network shall be accessible through direct connection and through local intra–LATA telecommunications to State and local governments and public and private educational institutions in the State.
+(d) In a manner and frequency established in regulations adopted by the Department, each unit of local government and any local agencies that use the network established under subsection (b) of this section shall certify to the Department that the unit is in compliance with the Department’s minimum security standards.
+(e) (1) The Office shall ensure that at least once every 2 years, or more often if required by regulations adopted by the Department, each unit of State government shall complete an external assessment.
+  (2) The Office shall assist each unit to remediate any security vulnerabilities or high–risk configurations identified in the assessment required under paragraph (1) of this subsection.
+(f) (1) In this subsection, “IT unit” means a unit of the Legislative Branch or Judicial Branch of State government, the Office of the Attorney General, the Office of the Comptroller, or the Office of the State Treasurer that provides information technology services for another unit of government.
+  (2) Each IT unit shall:
+    (i) be evaluated by an independent auditor with cybersecurity expertise to determine whether the IT unit, and the units it provides information technology services for, meet relevant cybersecurity standards recommended by the National Institute of Standards and Technology; and
+    (ii) certify compliance with the recommended National Institutes of Standards and Technology cybersecurity standards to:
+      1. if the IT unit is part of the Legislative Branch, the President of the Senate and the Speaker of the House;
+      2. if the IT unit is part of the Office of the Attorney General, to the Attorney General;
+      3. if the IT unit is part of the Comptroller’s Office, to the Comptroller;
+      4. if the IT unit is part of the State Treasurer’s Office, to the State Treasurer; and
+      5. if the IT unit is part of the Judicial Branch of State government, the Chief Judge.
+
+§3.5–405.
+(a) On or before December 1 each year, each unit of State government shall:
+  (1) report the results of any cybersecurity preparedness assessments performed in the prior year to the Office of Security Management in accordance with guidelines developed by the Office; and
+  (2) submit a report to the Governor and the Office of Security Management that includes:
+    (i) an inventory of all information systems and applications used or maintained by the unit;
+    (ii) a full data inventory of the unit;
+    (iii) a list of all cloud or statistical analysis system solutions used by the unit;
+    (iv) a list of all permanent and transient vendor interconnections that are in place;
+    (v) the number of unit employees who have received cybersecurity training;
+    (vi) the total number of unit employees who use the network;
+    (vii) the number of information technology staff positions, including vacancies;
+    (viii) the number of noninformation technology staff positions, including vacancies;
+    (ix) the unit’s information technology budget, itemized to include the following categories:
+      1. services;
+      2. equipment;
+      3. applications;
+      4. personnel;
+      5. software licensing;
+      6. development;
+      7. network projects;
+      8. maintenance; and
+      9. cybersecurity;
+    (x) any major information technology initiatives to modernize the unit’s information technology systems or improve customer access to State and local services;
+    (xi) the unit’s plans for future fiscal years to implement the unit’s information technology goals;
+    (xii) compliance with timelines and metrics provided in the Department’s master plan; and
+    (xiii) any other key performance indicators required by the Office of Security Management to track compliance or consistency with the Department’s statewide information technology master plan.
+(b) (1) Each unit of State government shall report a cybersecurity incident in accordance with paragraph (2) of this subsection to the State Chief Information Security Officer.
+  (2) For the reporting of cybersecurity incidents under paragraph (1) of this subsection, the State Chief Information Security Officer shall determine:
+    (i) the criteria for determining when an incident must be reported;
+    (ii) the manner in which to report; and
+    (iii) the time period within which a report must be made.
+
+§3.5–406.
+(a) This section does not apply to municipal governments.
+(b) In a manner and frequency established in regulations adopted by the Department, each county government, local school system, and local health department shall:
+  (1) in consultation with the local emergency manager, create or update a cybersecurity preparedness and response plan; and
+  (2) complete a cybersecurity preparedness assessment.
+(c) The assessment required under paragraph (b)(2) of this section may, in accordance with the preference of each county government, be performed by the Department or by a vendor authorized by the Department.
+(d) (1) On request, the Department shall advise local school systems on:
+    (i) compliance with the State minimum cybersecurity standards;
+    (ii) conducting cybersecurity maturity assessments every 2 years; and
+    (iii) remediation efforts.
+  (2) The Department is not responsible for the successful performance of or day–to–day management of the duties of a local school system described in paragraph (1) of this subsection.
+(e) (1) Each local government shall report a cybersecurity incident, including an attack on a State system being used by the local government, to the appropriate local emergency manager and the State Security Operations Center in the Department in accordance with paragraph (2) of this subsection.
+  (2) For the reporting of cybersecurity incidents to local emergency managers under paragraph (1) of this subsection, the State Chief Information Security Officer shall determine:
+    (i) the criteria for determining when an incident must be reported;
+    (ii) the manner in which to report; and
+    (iii) the time period within which a report must be made.
+  (3) The State Security Operations Center shall immediately notify the appropriate agencies of a cybersecurity incident reported under this subsection through the State Security Operations Center.

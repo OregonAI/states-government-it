@@ -1,0 +1,193 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-sfp-3-5-artificial-intelligence
+title: 'State Finance and Procurement Article, Title 3.5, Subtitle 8: Artificial intelligence (§§ 3.5-801
+  to 3.5-807)'
+doc_type: statute
+citation: Md. Code, State Fin. & Proc. §§ 3.5-801 to 3.5-807
+authority_level: ''
+issuing_body: Maryland General Assembly; compiled and published by the Department of Legislative Services
+  on the General Assembly website
+source_url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsf&section=3.5-801&enactments=true
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: 527db707c7d868dd0bb1518fd823d9a190604594edad2d64d52819a8de40433f
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the General Assembly''s statute pages (mgaleg.maryland.gov, Laws, Statutes,
+  ''in effect as of October 1st of this year'' view): the site serves one section per page, so each listed
+  section''s text was taken from its page and the sections are joined in order, a blank line before each.
+  The page''s Previous and Next buttons are not read; the source''s indentation is kept as two spaces
+  per level. The article line is printed once. When a page prints two versions of a section (one marked
+  IN EFFECT and one that takes effect later), only the version in effect is read; the snapshot keeps both.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# State Finance and Procurement Article, Title 3.5, Subtitle 8: Artificial intelligence (§§ 3.5-801 to 3.5-807) (Md. Code, State Fin. & Proc. §§ 3.5-801 to 3.5-807)
+
+## At a glance
+
+The statute on State agencies' use of AI (the Artificial Intelligence Governance Act of 2024, SB 818, which DoIT's AI policy pages cite): each unit's inventory of systems that employ high-risk AI (3.5-803), DoIT's policies and procedures for development, procurement, deployment and use (3.5-804), the bar on procuring or deploying a new AI system that does not comply (3.5-805, from July 1, 2025), impact assessments, the Governor's Artificial Intelligence Subcabinet (3.5-806), and the Workgroup on Artificial Intelligence Implementation (3.5-807, printed 'EFFECTIVE UNTIL JUNE 30, 2029 PER CHAPTER 105 OF 2025'), which rides along.
+
+## Full text
+
+Article - State Finance and Procurement
+
+§3.5–801.
+(a) In this subtitle the following words have the meanings indicated.
+(b) (1) “Algorithmic decision system” means a computational process that facilitates decision making.
+  (2) “Algorithmic decision system” includes decisions derived from machines, statistics, facial recognition, and decisions on paper.
+(c) “Artificial intelligence” means a machine–based system that:
+  (1) can, for a given set of human–defined objectives, make predictions, recommendations, or decisions influencing real or virtual environments;
+  (2) uses machine and human–based inputs to perceive real and virtual environments and abstracts those perceptions into models through analysis in an automated manner; and
+  (3) uses model inference to formulate options for information or action.
+(d) (1) “High–risk artificial intelligence” means artificial intelligence that is a risk to individuals or communities, as defined under regulations adopted by the Department in consultation with the Governor’s Artificial Intelligence Subcabinet.
+  (2) “High–risk artificial intelligence” includes rights–impacting artificial intelligence and safety–impacting artificial intelligence.
+(e) “Impact assessment” means an assessment of artificial intelligence systems made under regulations adopted by the Department in consultation with the Governor’s Artificial Intelligence Subcabinet and required under § 3.5–803 of this subtitle.
+(f) “Public senior higher education institution” means:
+  (1) the constituent institutions of the University System of Maryland and the University of Maryland Center for Environmental Science;
+  (2) Morgan State University; or
+  (3) St. Mary’s College of Maryland.
+(g) “Rights–impacting artificial intelligence” means artificial intelligence whose output serves as a basis for decision or action that is significantly likely to affect civil rights, civil liberties, equal opportunities, access to critical resources, or privacy.
+(h) “Safety–impacting artificial intelligence” means artificial intelligence that has the potential to significantly impact the safety of human life, well–being, or critical infrastructure.
+
+§3.5–802.
+(a) (1) Except as provided in paragraph (2) of this subsection, this subtitle does not apply to:
+    (i) the Office of the Attorney General;
+    (ii) the Comptroller; or
+    (iii) the State Treasurer.
+  (2) On or before June 1, 2025, each entity listed under paragraph (1) of this subsection shall establish policies and procedures that are functionally compatible with the policies and procedures adopted under § 3.5–804(a) of this subtitle for the development, procurement, deployment, use, and ongoing assessment of systems that employ high–risk artificial intelligence.
+(b) (1) Except as provided in paragraph (2) of this subsection, this subtitle applies to each public senior higher education institution and Baltimore City Community College.
+  (2) This subtitle does not apply to artificial intelligence deployed by a public senior higher education institution or Baltimore City Community College that is used solely for a research or academic purpose, including in partnership with a unit of State government for the development, procurement, deployment, or use of artificial intelligence.
+  (3) On or before June 1, 2025, each public senior higher education institution and Baltimore City Community College shall establish policies and procedures that are functionally compatible with the policies and procedures adopted under § 3.5–804(a) of this subtitle for the development, procurement, deployment, use, and ongoing assessment of systems that employ high–risk artificial intelligence used solely for a research or academic purpose.
+  (4) On or before September 1, 2025, and each year thereafter, each public senior higher education institution and Baltimore City Community College shall submit to the Department a report on all high–risk artificial intelligence procured and deployed for a research or academic purpose.
+
+§3.5–803.
+(a) On or before December 1, 2025, and regularly thereafter, each unit of State government shall:
+  (1) conduct an inventory of systems that employ high–risk artificial intelligence; and
+  (2) provide the inventory to the Department in a format required by the Department.
+(b) For each system, the inventory required by this section shall include:
+  (1) the name of the system;
+  (2) the vendor that provided the system, if applicable;
+  (3) a description of the capabilities of the system;
+  (4) a statement of the purpose and the intended uses of the system;
+  (5) whether the system underwent an impact assessment prior to being deployed;
+  (6) whether the system is used to independently make a decision or judgment or to inform or support a decision or judgment determined by the Department to involve high–risk artificial intelligence; and
+  (7) a summary of the results of the most recent impact assessment.
+(c) The Department shall make an aggregated statewide inventory publicly available on its website.
+(d) (1) The Department may not make publicly available on the Department’s website information from the inventories required by this section that relate to the safety and security of State systems if the publication of the information is likely to compromise the security or integrity of the system.
+  (2) On request, the Department shall provide to the Governor, members of the General Assembly, and law enforcement the information described in paragraph (1) of this subsection.
+(e) (1) On or before December 31, 2026, each unit of State government shall conduct an impact assessment of a system procured on or after February 1, 2026, that involves high–risk artificial intelligence.
+  (2) On or before July 1, 2027, each unit of State government shall conduct an impact assessment of a system procured before February 1, 2026, that involves high–risk artificial intelligence.
+
+§3.5–804.
+(a) On or before December 1, 2024, the Department, in consultation with the Governor’s Artificial Intelligence Subcabinet, shall adopt policies and procedures concerning the development, procurement, deployment, use, and ongoing assessment of systems that employ high–risk artificial intelligence by a unit of State government.
+(b) The policies and procedures required by subsection (a) of this section shall:
+  (1) subject to any other applicable law, govern the procurement, deployment, and ongoing assessment of systems that employ high–risk artificial intelligence by a unit of State government;
+  (2) define the criteria for an inventory of systems that employ high–risk artificial intelligence;
+  (3) be sufficient to ensure that the use of any system that employs artificial intelligence by a unit of State government is governed by adequate guardrails to protect individuals and communities;
+  (4) if the Department is notified that an individual or group of individuals may have been negatively impacted by a system that employs high–risk artificial intelligence, require the Department to:
+    (i) notify an individual or a group of individuals determined to have been negatively impacted; and
+    (ii) provide guidance to an individual or a group of individuals determined to have been negatively impacted on available options to opt out of the system; and
+  (5) provide guidance to units of State government on procurement of a system that employs high–risk artificial intelligence that ensures data privacy and compliance with applicable statutes and regulations.
+(c) The Department shall make the policies and procedures required by subsection (a) of this section publicly available on its website within 45 days after the policies and procedures are adopted.
+
+§3.5–805.
+(a) Beginning July 1, 2025, a unit of State government may not procure or deploy a new system that employs artificial intelligence unless the system complies with the policies and procedures adopted under § 3.5–804 of this subtitle.
+(b) A unit of State government that employs high–risk artificial intelligence shall conduct regular impact assessments, as determined by the Governor’s Artificial Intelligence Subcabinet of the Governor’s Executive Council.
+
+§3.5–806.
+(a) There is a Governor’s Artificial Intelligence Subcabinet of the Governor’s Executive Council.
+(b) The purpose of the Subcabinet is to facilitate and enhance cooperation among units of State government, in consultation with academic institutions and industries utilizing artificial intelligence.
+(c) The Subcabinet consists of the following members:
+  (1) the Secretary, or the Secretary’s designee;
+  (2) the Secretary of Budget and Management, or the Secretary’s designee;
+  (3) the Secretary of General Services, or the Secretary’s designee;
+  (4) the Secretary of Labor, or the Secretary’s designee;
+  (5) the Secretary of Commerce, or the Secretary’s designee;
+  (6) the Director of the Governor’s Office of Homeland Security, or the Director’s designee;
+  (7) the Chief Privacy Officer, or the Chief Privacy Officer’s designee;
+  (8) the Chief Data Officer, or the Chief Data Officer’s designee;
+  (9) the Chief Information Security Officer, or the Chief Information Security Officer’s designee;
+  (10) the Governor’s Senior Advisor for Responsible Artificial Intelligence, or the Senior Advisor’s designee; and
+  (11) any other member of the Governor’s Executive Council, appointed by the Governor.
+(d) The Secretary shall chair the Subcabinet.
+(e) The Subcabinet shall:
+  (1) develop strategy, policy, and monitoring processes for responsible and productive use of artificial intelligence and associated data by units of State government;
+  (2) oversee the State’s implementation of:
+    (i) artificial intelligence inventory;
+    (ii) artificial intelligence impact assessments;
+    (iii) monitoring of high–risk artificial intelligence; and
+    (iv) compliance with State policies and procedures;
+  (3) support artificial intelligence and data innovation across units of State government;
+  (4) develop and implement a comprehensive action plan for responsible and productive use of artificial intelligence and associated data by units of State government;
+  (5) establish partnerships, memoranda of understanding, and contracts to support the aims of this section;
+  (6) promote artificial intelligence knowledge, skills, and talent in State government; and
+  (7) identify artificial intelligence use cases and build foundational infrastructure by requiring:
+    (i) the Department to evaluate relevant infrastructure to safely, securely, and efficiently test artificial intelligence proofs of concept and pilots;
+    (ii) the Department of General Services, in consultation with the Department, to create a model for running and procuring artificial intelligence proofs of concept and pilots, in accordance with State laws, regulations, and policies; and
+    (iii) the Department, in consultation with the Subcabinet, to coordinate with agencies to provide support in identifying and prioritizing use cases and executing proofs of concept and pilots aligned with the Governor’s priorities.
+(f) The Subcabinet may request research to be completed under § 14–111 of the Education Article.
+(g) The Governor shall provide the Subcabinet with sufficient resources to perform the functions of this section.
+
+§3.5–807. IN EFFECT
+// EFFECTIVE UNTIL JUNE 30, 2029 PER CHAPTER 105 OF 2025 //
+(a) There is a Workgroup on Artificial Intelligence Implementation.
+(b) The Workgroup consists of the following members:
+  (1) two members of the Senate of Maryland, appointed by the President of the Senate;
+  (2) two members of the House of Delegates, appointed by the Speaker of the House;
+  (3) the Attorney General, or the Attorney General’s designee;
+  (4) the Chief Executive Officer of the Maryland Technology Development Corporation, or the Chief Executive Officer’s designee; and
+  (5) (i) the following members, appointed by the Governor:
+      1. three representatives from the Maryland Technology Council;
+      2. two representatives from the e–commerce industry;
+      3. two representatives from the biotechnology industry;
+      4. two representatives from the real estate community;
+      5. two representatives from the health care sector, including at least one representative with clinical experience;
+      6. two representatives from the education sector;
+      7. three representatives from academia with expertise in the development, operation, or social implications of data science, artificial intelligence, or machine learning;
+      8. two representatives from nonprofit organizations that focus on civil rights and liberties; and
+      9. one representative from the Maryland Veterans Chamber of Commerce with artificial intelligence expertise;
+    (ii) the following members, appointed by the President of the Senate:
+      1. two representatives from nonprofit organizations with artificial intelligence expertise that focus on consumer protections; and
+      2. two representatives from the cybersecurity sector with expertise in artificial intelligence; and
+    (iii) the following members, appointed by the Speaker of the House:
+      1. two representatives from nonprofit organizations that focus on establishing data privacy protections; and
+      2. two representatives that work with the AFL–CIO Tech Institute.
+(c) The President of the Senate and the Speaker of the House jointly shall designate the chair of the Workgroup.
+(d) It is the intent of the General Assembly that the Workgroup shall coordinate with the Maryland Cybersecurity Council in a manner agreed on by the chairs of the Workgroup and the Council.
+(e) The University of Maryland Center for Health and Homeland Security shall provide staff for the Workgroup.
+(f) A member of the Workgroup:
+  (1) may not receive compensation as a member of the Workgroup; but
+  (2) is entitled to reimbursement for expenses under the Standard State Travel Regulations, as provided in the State budget.
+(g) The Workgroup shall monitor issues and make recommendations related to artificial intelligence including:
+  (1) the regulation of artificial intelligence used in decisions that significantly impact the livelihood and life opportunities of individuals in the State;
+  (2) deployer and developer obligations related to labor and employment and protection of individual privacy rights;
+  (3) protection of consumer rights;
+  (4) current private sector use of artificial intelligence;
+  (5) general artificial intelligence disclosures for all consumers;
+  (6) enforcement authority for the Office of the Attorney General’s Consumer Protection Division; and
+  (7) the impact of the use of artificial intelligence in the determination of government benefits.
+(h) On or before July 1, 2026, and each year thereafter, the Workgroup shall report its findings and recommendations, in accordance with § 2–1257 of the State Government Article, to the Senate Finance Committee and the House Economic Matters Committee.
+(i) For fiscal year 2027 and each fiscal year thereafter, the Governor may include in the annual budget bill an appropriation of $100,000 to support the Workgroup.
+
+## Curator notes
+
+Text taken from the General Assembly's statute pages (mgaleg.maryland.gov, Laws, Statutes, 'in effect as of October 1st of this year' view): the site serves one section per page, so each listed section's text was taken from its page and the sections are joined in order, a blank line before each. The page's Previous and Next buttons are not read; the source's indentation is kept as two spaces per level. The article line is printed once. When a page prints two versions of a section (one marked IN EFFECT and one that takes effect later), only the version in effect is read; the snapshot keeps both.

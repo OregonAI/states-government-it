@@ -1,0 +1,52 @@
+    
+
+                                                                             Approved:
+                               Information Technology
+                                                      ____________________ 
+                                 Policy and Standards Michael G. Leahy, Secretary _________
+                                                                                    Date
+
+          # 20-13              Resource Sharing Agreement Programs
+    Area(s):             Process             Procurement       Security               ☐ Hardware          ☐ Web
+                        ☐ Facility           ☐ End-User         ☐ Software                Network           ☐ Data
+                         Voice              ☐ Audit             Other
+                        Replaces Other Policy:  No       Yes: RSA Program Policy, October 2019
+
+    Purpose: To establish a comprehensive programmatic framework to which all State information technology (IT)
+    Resource Sharing Agreements (RSAs) subject to DoIT oversight will adhere.
+
+    Policy Statement: The sharing of State resources (e.g., towers, rights of way, roof tops, bridges, etc.) increases
+    Agency mission effectiveness and lowers operating costs. Accordingly, Agencies covered by this policy must comply with
+    the provisions of the State Resource Sharing Law and shall do so using the procedures provided in the attached RSA
+    Program Policy Manual.
+
+    Applicable Law & Other Policy: MD State Finance and Procurement Code Ann. Sections 3A-301; 3A-303; 3A-
+    307. Maryland, Transportation Article (TA) § 8-654 & Maryland, Public Utilities Article (PU) § 5-410 & 8-103 & Local
+    Government Article (L”), § 1-708 (c).
+
+    Scope and Responsibilities: This Policy applies to all Agencies or units of the Executive Branch and commissions
+    of Maryland State Government (“Agencies”) as delineated in State Finance & Procurement Article (“SF&P”) § 3A-307, in
+    connection with information technology proposals involving resource sharing (“Resource Sharing Agreements” or
+    “RSA(s)”) with private industry for the use of a State resource.
+
+    Key Terms: Provided in Section 5 of the IT RSA Program Policy Manual (Attachment 1).
+    .
+    Technical Specifications: Provided in Section 5 of the IT RSA Program Policy Manual (Attachment 1).
+
+    Policy Review: By the DoIT IT Policy Review Board annually or as needed.
+
+    Contact Information: Chief, Public Safety Communications, norman.farley@maryland.gov 410-697-9681. The
+    Policy #20-13 steward is the Chief, Public Safety Communications.
+
+         DoIT Policy/Standard #20-13 (SR Draft 1)                                                               Page 1 of 2
+
+    
+
+    Attachment 1
+
+                                    Information Technology Resource Sharing Agreement
+                                                  Program Policy Manual
+
+                                                    Click the image to open the document.
+
+         DoIT Policy/Standard #20-13 (SR Draft 1)                                           Page 2 of 2

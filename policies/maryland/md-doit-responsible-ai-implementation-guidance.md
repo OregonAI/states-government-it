@@ -1,0 +1,185 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-doit-responsible-ai-implementation-guidance
+title: The State of Maryland’s Responsible AI Policy Implementation Guidance
+doc_type: policy
+citation: DoIT Responsible AI Policy Implementation Guidance, version 1.0
+authority_level: ''
+issuing_body: Maryland Department of Information Technology
+source_url: https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy-implementation-guidance.aspx
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: 28408a0612b30ee0568162a2fb8a3145bbebf27184b52d29f87ebc43af40d218
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint
+  site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined
+  by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and
+  page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# The State of Maryland’s Responsible AI Policy Implementation Guidance (DoIT Responsible AI Policy Implementation Guidance, version 1.0)
+
+## At a glance
+
+Listed on DoIT's AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies. As the page prints its purpose: This document helps State agencies understand and operationalize the path to responsible AI governance and monitoring - in line with the State’s Responsible AI Policy. It is meant as “living guidance”, given the pace of change in the AI sector.
+
+## Full text
+
+The State of Maryland’s Responsible AI Policy Implementation Guidance
+Revision History:
+• Effective Date: 05/25
+• Version 1.0
+Purpose
+This document helps State agencies understand and operationalize the path to responsible AI governance and monitoring - in line with the State’s Responsible AI Policy. It is meant as “living guidance”, given the pace of change in the AI sector. The Maryland Department of Information Technology (DoIT) will iterate on the processes and recommendations herein to account for developments in the field, so check DoIT’s website for updates to ensure you are using the latest version.
+First Steps for Agencies Exploring AI
+• Learn the fundamentals and beyond: Build basic AI literacy on responsible and productive use by taking the learning modules made available by a partnership between DoIT and InnovateUS. Further training(s) will be made available over time. Review Maryland’s 2025 AI Strategy & Study Roadmap for high-level context on the State’s developing approach. Read through the Responsible AI Policy and this guidance document.
+• Designate an AI Lead: This should be someone at your agency with the interest, expertise, and bandwidth to lead AI efforts, understand State policies and laws, engage with the AI Community of Practice, shepherd AI projects with DoIT, and collaborate with security, privacy, data, and business stakeholders.
+• Develop your initial use case(s): Take a “crawl, walk, run” approach, and start by clearly defining the problem(s) or opportunity you want to address with AI. Having well-scoped use cases/problem statements, expected benefits, anticipated risks, and clear success metrics is necessary to establish guardrails and to procure or build solutions that align with your goals. Prioritize where you want to start, and which subset of these use cases to prioritize. Read the Center for Democracy & Technology’s To AI or Not to AI to understand whether AI is the right solution for your problem.
+• Engage Early: Contact DoIT’s AI Enablement Team and your Agency’s Portfolio Officer early, along with your CIO, Privacy Officer, and Data Officer. Maryland’s AI intake process provides guidance on risk classification, data sharing, and best practices.
+• Inventory and Data Check: Document datasets needed for prioritized use cases and ensure data quality. Review the AI inventory once published to identify existing solutions and avoid duplication across agencies.
+• Understand “high-risk AI”: Assess whether your AI use cases fall under high-risk categories, such as those affecting public safety, individual rights, or critical services, which require higher oversight.
+• Review the Interim GenAI Guidelines: These provide tactical guidance for using commercial, off-the-shelf GenAI tools responsibly.
+• Review available “Governance Cards”: Governance Cards outline do’s, don’ts, governance considerations, documentation, and recommended tools for high-impact use cases. These will be updated regularly on the DoIT website starting Q2 2025.
+• Join the State’s AI Community of Practice: A collaboration channel for AI across the State, restarting in Q2 2025. Email [email protected] to be added.
+AI Intake Process
+Getting Started with the AI Intake Process
+If after reviewing the latest policies and governance cards you want to move forward with a AI use case then it’s time to proceed through the rest of the AI Intake Process.
+This process provides the general review framework for AI projects across the State, taking a risk-based approach, to go from idea, use case, or proposal, to approval. Its goal is to help agencies move forward responsibly and ethically in a consultative fashion, with low risk use cases moving forward quickly, and high-risk use cases undergoing appropriate due diligence and oversight as a collaboration between DoIT and the Agency. DoIT will increase the “maturity” of this process over time, with stronger guardrails and faster throughput to support evolving possibilities in leveraging AI to solve problems.
+1. Intake Submission - AI Use Case:
+The agency submits an AI project proposal through DoIT’s intake process. This includes basic project details (purpose, scope, data involved, etc.). You can submit a ticket for an AI use case via DoIT intake. Below is the information you will be requested to provide in addition to assigning risk in Step 2.
+You will need to answer the following questions:
+Intake Ticket Task:
+• Is this an AI use case?
+• Acknowledge you have reviewed the AI Governance Cards, AI Policy and Implementation Guidance.
+• Attach all relevant documentation for this use case.
+How to write your ticket and what information to provide:
+In addition to answering the questions on the intake form you should provide the following information in your ticket description.
+• AI Use Case: Briefly describe the purpose or problem the AI solution aims to address (e.g., process automation, decision support, customer service).
+• Business Case: Explain why this AI project is important to the agency. What value or improvements will it bring? (e.g., cost savings, reduced wait times, enhanced data insights).
+• Success Metrics: Identify the key performance indicators or metrics you plan to track (e.g., accuracy rate, user satisfaction, error reduction, time savings).
+• Reference Materials / Tools / Solutions: List any relevant studies, tools, existing solutions or frameworks considered when planning this AI implementation.
+• Risk Classification: Please describe the risk level you perceive of using this AI use case.
+Accessibility Through AI Tip: Copy and paste the AI template into Gemini and ask it to take your information (everything you can provide) and generate the ticket for you along with asking you any questions you should consider. Review Appendix 2 to see the prompt template.
+Intake Submission - Risk Classification: The proposal is evaluated for risk (initial risk setting should be done by the submitting party). Factors include the sensitivity of data, the impact on constituents, and the AI’s criticality. Projects are classified into a risk tier (for example, limited-risk vs. high-risk) initially by the submitting agency. Under SB818 (2024), high-risk AI generally refers to systems that could impact safety, civil liberties, equal opportunities, access to essential services, or privacy in a significant way. The following matrix helps you establish which risk category your submission falls under by providing definitions, associated data classification types, and examples of use cases that often fall within it. To use the Risk Assessment Matrix, first determine the type of data your AI system will be processing. To understand the data classification refer to the Privacy Threshold Analysis and Data Classification Policy. Then, review the definitions of each AI Risk Category to identify which best describes the potential impact of your system. In some cases a system may use Level 1 data but still be considered high risk - e.g. a system that predicts crime hotspots and allocates police resources based solely on publicly available data. Although it uses public data, it could perpetuate existing biases in policing and lead to over-policing in certain areas, disproportionately affecting specific communities. If you’re still unsure about your use case’s risk classification, consult with DoIT or default to the higher risk category. Refer to Appendix 1 to see how this information is captured in our example.
+Risk Assessment Matrix:
+• Unacceptable Risk: Systems posing extreme risks to public welfare, safety, or rights that cannot be mitigated. They may violate fundamental rights (e.g., unlawful surveillance, social scoring) or fail to align with State values. These systems are banned entirely, regardless of data classification, as no combination of safeguards can offset the risk they pose. Use cases that result in violations of law or core civil liberties are not permissible.
+  • Data Classification Type(s): No Relevant Data Classification
+    • There is no corresponding data classification that suggests this risk label. Even if the data in question might normally be classified at Level 1, 2, 3, or 4, the system itself is not permissible due to the nature of its risk, rather than the sensitivity of the data.
+For instance, a system that attempts to track or socially score individuals en masse would be “unacceptable,” even if it only accessed public (Level 1) data. The risk category overrides any data classification considerations.
+  • Use Case Example(s):
+    • Unlawful Mass Surveillance: For example, an AI tool that attempts to track constituents’ every movement via facial recognition in real time without oversight or statutory authority.
+    • Uncontrolled Social Scoring: A system that ranks or penalizes constituents’ daily behavior, akin to certain types of “social credit,” contradicting fundamental principles of fairness and privacy.
+(Even if such a system used largely public data, it would remain “unacceptable” based on the AI policy’s ethical and legal prohibitions.)
+• High-Risk: AI systems that significantly affect individuals or critical government operations. Often influence outcomes related to health, safety, law enforcement, eligibility for essential services, privacy, financial or legal rights, or other high-impact areas (civil rights, civil liberties, equal opportunities, access to critical resources, or privacy).
+  • Mandatory Safeguards:
+    • Comprehensive Algorithmic Impact Assessment (AIA) before deployment.
+    • Risk mitigation measures (e.g., bias testing/correction, cybersecurity hardening, etc.).
+    • Ongoing monitoring, with human-in-the-loop oversight for critical decisions.
+    • Aligns with NIST AI RMF best practices (mapping, measuring, mitigating, and managing risk continually).
+  • Data Classification Type(s): Likely Level 4 (Restricted) or Level 3 (Confidential)
+    • Level 4 (Restricted) data involves severe impacts if disclosed (e.g., Criminal Justice Information (CJI), Federal Tax Information (FTI)). Unauthorized access could cause irreparable harm, may carry legal or criminal consequences, and is typically protected by strict laws (IRS Publication 1075, CJIS Security Policy, etc.).
+    • Level 3 (Confidential) data includes sensitive information (PII, PHI, financial/student data), which is protected by law from disclosure. Unauthorized access can severely harm individuals or the State and requires safeguards such as encryption at rest/in transit.
+AI systems that process or make critical decisions using these high-sensitivity data levels fit squarely into High-Risk.
+  • Use Case Example(s):
+    • AI for Eligibility Determinations: A tool that decides whether individuals qualify for social services (e.g., Medicaid, housing assistance). It uses Confidential (Level 3) data like PII and financial records. Because erroneous or biased decisions could seriously impact constituents, it is “High-Risk” and requires a full Algorithmic Impact Assessment (AIA).
+    • Law Enforcement Investigative AI: An AI system that taps into Restricted (Level 4) data (e.g., Criminal Justice Information) to recommend suspect lists or inform sentencing guidelines. Such usage has high stakes for individual rights and must be thoroughly vetted, tested for bias, and subject to human oversight.
+    • Financial Lending/Underwriting Tool: An AI that sets loan terms for constituents or businesses, using robust sets of personal/financial data. A misclassification, bias, or data breach could cause serious harm, making it High-Risk.
+• Limited-Risk: AI systems with moderate or low overall impact that do not autonomously decide critical outcomes for individuals (e.g., no direct control over law enforcement, healthcare coverage, or major financial decisions – humans need to be the decision maker of any AI output). Typically used to improve internal efficiency or enhance customer service with minimal chance of harm if errors occur.
+  • Mandatory Safeguards:
+    • Light-touch requirements: transparency (e.g., disclose use of AI in chatbots), basic testing for fairness/accuracy.
+    • If usage expands or new risks emerge, reclassify as High-Risk.
+  • Data Classification Type(s): Primarily Level 2 (Protected / Internal Use Only)
+    • Level 2 data might include internal agency documents (draft analyses, budget proposals, memos) or other data not meant for broad public release but not legally restricted. Unauthorized disclosure could result in some form of negative impact, but not on par with potential harms related to PII or CJI.
+Could occasionally involve Level 1 (Public) data if the system uses openly available information but still requires moderate protective measures (e.g., an internal tool that references public stats but must remain behind an internal firewall).
+In general, Limited-Risk systems do not handle highly confidential or restricted data.
+  • Use Case Example(s):
+    • AI-Driven FAQ Chatbot (External): A virtual assistant to help the public find information on agency services. It may use a combination of Level 1 public data and some Level 2 internal knowledge base. Impact is moderate—errors might cause confusion, but not irreparable harm.
+    • Internal Analytics Dashboard: Aggregates departmental performance metrics from Protected/Internal (Level 2) data (like draft budget files) to present dashboards for leadership. Misclassification could cause moderate risk, but it typically doesn’t impact individual rights in a critical way.
+    • Customer Service Triage Tool: Routes inquiries or complaints internally based on fairly routine categories. The data is mostly administrative and does not involve legally protected personal information.
+• Minimal-Risk: AI applications that pose negligible risk, usually embedded in standard office software or used for non-critical, purely internal tasks (e.g., spam filters, grammar correction). They do not impact individual rights or major government processes if they malfunction.
+  • Safeguards:
+    • No special AI-specific approvals beyond standard IT/security reviews.
+    • Still recommended to track/catalog these tools so that if they malfunction, they can be reassessed for potential reclassification.
+  • Data Classification Type(s): Most Commonly Level 1 (Public) Data, Possibly Low-Sensitivity Level 2:
+    • Level 1 (Public) data: Data that can be freely shared without negative consequences (e.g., open datasets, publicly available information).
+If the tool processes Level 2 (Internal Use) data, it is typically in ways that present extremely low risk (e.g., scanning a publicly available document for grammar suggestions).
+Minimal-risk AI does not rely on sensitive personal data or restricted data.
+  • Use Case Example(s):
+    • Email Spam Filter: Uses low-level AI to sort phishing from legitimate email. Even if it occasionally flags a legitimate message, the risk is negligible. Operates on routine data that is not highly sensitive in bulk form.
+    • Spell Checker / Grammar Tool: An AI embedded within a word processor that checks for mistakes. The data involved is primarily open or low-sensitivity text, meaning minimal-risk if misclassified or leaked.
+    • Automated Meeting Scheduler: An AI that finds open calendar slots among staff. The data is mostly staff names and times, not restricted or confidential. If it fails or leaks, the harm is minimal.
+2. If categorized as High-Risk complete additional documentation (Algorithmic Impact Assessment (AIA)):
+These projects require deeper due diligence and oversight. DoIT will review the proposal in depth. Additional documentation and testing ( Algorithmic Impact Assessment and Privacy Impact Assessment) will be required. High-risk AI proposals must demonstrate they have robust safeguards. You can complete the AIA as part of your intake submission.
+3. Review & Feedback:
+During intake, DoIT will jointly work with the Agency to identify risks and propose risk mitigation strategies. For example, DoIT might require the agency to conduct a Proof-of-Concept first (for a high-risk or novel AI) or to put specific privacy measures in place. At this stage, the agency and oversight reviewers collaborate to refine the plan so it meets compliance requirements and responsible use standards without stifling innovation.
+4. Approval and Next Steps:
+Once the proposal satisfies the necessary conditions, it is approved for implementation via the appropriate pathway:
+• Some projects (especially limited-risk ones) might receive a green light to proceed directly to development or procurement.
+• High-risk projects might receive conditional approval—for instance, to run a Proof-of-Concept or to deploy with continuous monitoring requirements.
+Considerations During Procurement
+Intake should happen in parallel with procurement processes - start an intake process when considering moving forwards with procurement.
+Throughout this process, the emphasis is on enabling agencies to pursue AI that adds value while ensuring the level of oversight is commensurate with the risk.
+Monitoring and Managing AI Risk
+Monitoring and managing risk is a continuous phase that kicks in once an AI system is operating in your agency. Governance doesn’t stop at deployment; there should be ongoing oversight, auditing, and risk mitigation for high-risk AI systems. This ensures that an AI that was acceptable at launch remains safe and effective as conditions change (or if the AI learns and changes itself).
+• Record Management: AI synthetic products from AI systems would be governed by the State of MD policies around record management. A record is any documentary material created or received by an agency in connection with the transaction of public business. Agencies will need to consult their record retention schedules regarding retention and disposal requirements. Each agency is required to have a Records Officer from among its executive staff who is responsible for developing and overseeing the agency’s records management program and serves as a liaison to the Maryland Archives, and they should be consulted as well.
+• Use the AI Risk Classification & Assessment Framework: This framework will integrate with existing risk management processes and provide tools for evaluating AI-specific risks (like bias, security vulnerabilities, reliability issues). As part of monitoring, you should revisit this assessment and risk classification to ensure there are no changes from your initial assessment.
+• Continuous Monitoring: Set up processes to continuously monitor the AI system’s performance and behavior.
+  • Performance Metrics: Track metrics that indicate if the AI is working as intended. For example, the accuracy of predictions, the number of errors or exceptions, response time, uptime, etc., depending on the system. A drift in these metrics could signal a problem (e.g., the model’s accuracy might degrade over time as real-world data evolves).
+  • Outcome Auditing: Regularly audit the outcomes of the AI for fairness and correctness. If it’s supporting decision making, sample those decisions periodically and ensure they align with policy and there’s no systemic bias. This might be done by an internal audit team or in some cases by an external auditor or an AI ethics board. Bias mitigation is not a one-time task; continuous auditing helps catch emergent biases or unintended discrimination.
+  • User Feedback: Provide channels for users (employees or public users) to report issues with the AI. For instance, if an employee thinks the AI recommendation system is making odd suggestions, they should know how to flag this. Public-facing AI in particular should have a feedback mechanism, and your agency should monitor if there are complaints or questions coming in related to the AI’s decisions.
+  • Error Logs and Incident Response: Monitor error logs or any fail-safe triggers. If for example the AI system has a fallback when it’s unsure (e.g., escalates to a human or refuses to answer), log those events and review them. Establish an incident response plan for AI issues: if something potentially harmful or unethical is detected (like the AI made a privacy violation or a biased decision), have a plan to immediately intervene (disable the AI function if needed), analyze the issue, and inform the necessary oversight bodies. If individuals might have been negatively impacted by a high-risk AI, DoIT should be notified and the Agency with DoIT’s assistance as needed will guide affected individuals — so loop in DoIT as part of your incident protocol for major issues.
+• Regular Risk Assessments and Reports: Maryland law specifically requires agencies using high-risk AI to conduct regular impact assessments of those systems. This should be done at least annually - and can be completed by re-evaluating the system via the Algorithmic Impact Assessment.
+• Adaptive Risk Mitigation: Be ready to adjust or even deactivate the AI if risks become unacceptable. Managing AI risk is an active process:
+  • If monitoring shows performance issues, plan a model update or retraining. (Coordinate with the vendor if it’s their product – ensure they provide timely updates or patches.)
+  • If an audit reveals bias, take corrective action: this could be data augmentation, tweaking decision thresholds, or adding a rule-based layer to counteract the bias. For example, if a recruiting AI is scoring female candidates lower, you might adjust the model or introduce a step to ensure gender-neutral evaluation criteria.
+  • For security risks (e.g., adversarial attacks or data leaks through the AI), work with your cybersecurity team and DoIT’s Office of Security Management. As AI systems can introduce new attack surfaces, ensure they are part of your cybersecurity audits.
+• Transparency and Accountability: Maintain transparency in your AI operations as part of risk management:
+  • Continue to update the public AI inventory with current information about the system (see the Transparency section). If the system changes significantly (new version or new uses), that should be reflected.
+  • Be prepared to share information about the AI’s performance and governance with oversight entities. The AI Subcabinet or legislative committees may request updates or conduct reviews. Having your monitoring data and assessment reports organized will make these interactions smoother and demonstrate your agency’s accountability.
+  • If appropriate, publish summary results of your AI’s audits or impact assessments on your agency website or in public reports.
+Appendices
+Appendix 1: Example Ticket
+AI Use Case
+We plan to implement an AI-powered chatbot on our public-facing website. The chatbot will assist constituents by:
+• Answering frequently asked questions (FAQ).
+• Guiding users to appropriate web pages, forms, and applications.
+• Streamlining service requests (e.g., scheduling appointments or accessing records).
+The primary goal is to improve customer service efficiency, reduce response times, and ensure constituents get accurate, real-time information about our department’s services.
+Business Case
+Our department receives a high volume of routine inquiries (e.g., questions about licensing processes, application requirements, and eligibility criteria). Currently, staff must respond to every inquiry via phone or email, leading to backlogs and longer wait times. By deploying an AI chatbot
+• Cost Savings: Reduce the need for additional customer support staff and free existing staff to handle more complex cases.
+• Improved Efficiency: Constituents get quick answers online, 24/7.
+• Enhanced Accessibility: The chatbot can provide immediate assistance to users who may have difficulty navigating the site or are unfamiliar with government terminology.
+Overall, the chatbot supports our commitment to faster, more transparent services while allowing staff to dedicate their efforts to high-value tasks.
+Success Metrics
+• Response Accuracy Rate: Target of at least 90% correct answers for FAQ-related queries.
+• User Satisfaction Rating: Gather feedback via optional survey prompts at the end of chat sessions (aim for >80% satisfaction).
+• Reduction in Support Tickets: Reduce phone/email inquiries by 30% within the first six months.
+• Average Handling Time: Maintain or improve average resolution time compared to existing manual processes.
+Risk Level: Limited Risk - The data involved is a combination of public information (Level 1) and internal knowledge (Level 2), as stated in the data classification for Limited-Risk.
+Appendix 2: Prompt Template for Gemini + Guidance Document
+"Hello, I'm [Your name] from [Your agency], and I need help preparing an AI use case ticket for my agency, following the guidance in the Maryland Responsible AI Implementation document. Here is the document I'm working with: [PASTE THE ENTIRE DOCUMENT CONTENT HERE - from the Google doc]. Based on the information in this document, and specifically for my role at [Your agency], please: Provide me with a template for writing an AI use case ticket, including the key sections I need to cover (AI Use Case, Business Case, Success Metrics, etc.) and questions I should answer. Help me brainstorm potential AI use cases specific to my agency, [Your agency]. Considering our role in information technology for the state, what are some areas where AI could be applied? Give me advice on how to think about these AI use cases within my agency, [Your agency], considering risk levels and data classifications. What are some examples of limited-risk versus high-risk AI applications that would be relevant for us? Offer tips for identifying appropriate success metrics for an AI project, keeping in mind [Your agency]'s specific functions. How can I best leverage Gemini to help write my ticket and refine my thinking about potential AI use cases?"
+Additional Support: For additional support, explore Maryland’s AI resources and tools at the state’s official AI portal.
+
+## Curator notes
+
+Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.

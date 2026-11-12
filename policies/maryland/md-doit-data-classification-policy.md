@@ -1,0 +1,186 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-doit-data-classification-policy
+title: Data Classification Policy
+doc_type: policy
+citation: DoIT Data Classification Policy, version 1.2
+authority_level: ''
+issuing_body: Maryland Department of Information Technology
+source_url: https://doit.maryland.gov/policies/ci/Pages/data-classification-policy.aspx
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: eb1469ab9047b98ce41d52cb7d28cbfa665d1fb9a90b3cd8f9958d6072959bca
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint
+  site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined
+  by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and
+  page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Data Classification Policy (DoIT Data Classification Policy, version 1.2)
+
+## At a glance
+
+Listed on DoIT's Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx). As the page prints its purpose: This policy establishes standards of information classification, providing a framework outlining security levels that promotes effective management and oversight of data to protect against unauthorized access and use.
+
+## Full text
+
+Data Classification Policy
+Revision History
+• Last Revised: 08/03/2026
+• Date Issued: 10/01/2024
+• Version 1.2
+• Approved by: James Saunders, SCISO; Natatie Evans-Harris, SCDO, Caterina Pañgilinan, SCPO
+1. Purpose
+This policy establishes standards of information classification, providing a framework outlining security levels that promotes effective management and oversight of data to protect against unauthorized access and use. The State’s policy is to be transparent in enabling the public to access public information while at the same time protecting individuals’ rights to data privacy and the State’s interest in maintaining the confidentiality of sensitive or non-public information.
+This policy forms the basis from which Maryland Executive Branch agencies create procedures to protect the confidentiality, integrity and availability (CIA) of data by considering data content, data context, regulatory requirements, and risk level to stakeholders (public, individuals, agencies). Risk of harm to individuals who authorize the use of their “personal information” for a specific purpose is a key factor when determining data classification. Risk of harm to the agency and the State, be it financial, reputational, or social welfare, is considered as well. Data classification informs the level of security to be applied to a system to protect against unauthorized access to the data. Data classification also informs the data user on what level of protection is needed for the data.
+Agencies are responsible for adhering to this Data Classification Policy and the application of appropriate handling requirements to ensure data is used and protected in accordance with its data classification.
+2. Scope
+This policy applies to all data, whether in electronic or non-electronic formats, collected, created or processed by all Executive Branch agencies. This policy applies to all Executive Branch agency data owners, employees, contractors, processors, and data users granted authorized access to State data and information systems. Information security personnel use data classification levels to provide the appropriate system security level.
+This policy is subject to applicable law. In the event of a conflict between the provisions of this policy and applicable law, including, without limitation, Md. Gen. Provisions Article, Title 4, Public Information Act (MPIA), the provisions of applicable law shall control.
+3. Authority
+Md. State Finance and Procurement Art., § 3.5-2A-04(b)(1)
+Md. State Finance and Procurement Art., § 3.5-303
+Md. General Provisions Art., § 4-101 to § 4-601
+4. Policy
+Data classification aids in the proper management and security of data in use, in transit, and at rest. This Data Classification Policy establishes a baseline against which to assess the responsibilities for CIA (Appendix B, Table 1), and legal requirements to ensure the appropriate designation for data accessibility and protection. Data creators/generators and owners are responsible for appropriate classification of their data, while data users are responsible for following data protection guidelines for each data classification.
+While data may be assigned security levels above the data’s classification, data should not have security levels below its classification. Assigning higher data protection levels than necessary may impact data protection resource requirements and lessen transparency and needed access.
+This Policy categorizes data into four (4) levels of classifications, as follows:
+1. Public
+2. Protected/Internal Use Only
+3. Confidential
+4. Restricted
+Level 1 -Public
+Public data is data that a State entity has collected or created and is permitted, required or able to make available to the public consistent with applicable laws, rules, and regulations.
+Correctly classifying data as Public is the most effective way to deliver government transparency and accountability and maximize access to authoritative, reliable, and current data.
+Level 2 - Protected/Internal Use Only
+Data within this classification is accessible to agency personnel or contractors who require access. Protected/Internal Use Only data requires protection from unauthorized use, disclosure, modification, or destruction. For example, draft versions of statistical or factual information that are used for internal analysis by a governmental entity do not constitute “open data” under the Open Data Act and should be classified as “Protected/Internal Use Only.” Storage of Protected/Internal Only data should be protected via physical and logical access controls to ensure authorized staff can easily access the data and maintain a level of control such that unauthorized individuals cannot easily access the data.
+Level 3 - Confidential
+The sensitive nature of some data requires that it be treated as confidential. Confidential data is information that is protected from either release or disclosure by law. Confidential data includes but is not limited to Personal Information (PI), Sensitive Data, Precise Geolocation Data, Protected Health Information (PHI), credit card and financial information, student records, NCIC Non-Restricted Files, and other privileged information.
+Confidential data must be kept confidential and secure, and requires individual consent, de-identification or anonymization, a public health mandate, or other requirement of law prior to being released. Confidential data should be accessible to Authorized Users only, remain encrypted at rest and in transit, and used for only those purposes for which it was collected or for which an individual consented.
+Regarding Personal Information, various data elements alone may not constitute Personal Information, but the combination of disparate data elements may transform data into Personal information that is subject to the protections of a higher data classification level. Conversely, if Personal Information is obfuscated or otherwise anonymized so that an individual is no longer identifiable and cannot reasonably be re-identified, it no longer meets the definition of Personal Information and may be assigned a lower classification level.
+Level 4 - Restricted
+Restricted data is data that, if disclosed, accessed, altered or destroyed without authorization, could cause significant damage to the State (e.g., financial loss, damage to the State’s reputation), or the individual(s) whose information is compromised, and may lead to criminal charges or other legal consequences. Statutes, regulations, and other legal obligations or mandates protect much of this information. Federal and/or state laws or regulations mandate that specific, restrictive, administrative, technical, and physical controls be in place throughout the Restricted data’s lifecycle.
+Examples of Restricted data include Federal Tax Information (FTI) and Criminal Justice Information (CJI). Restricted data should be accessible to only Authorized Users who meet the regulatory requirements to access the information, remain encrypted at rest and in transit, and used for only those purposes for which an individual consented or a governing authority allows.
+Where there is no clear system to assign the proper classification to a particular dataset, the impact as described in Table 1 below can lend to assigning the appropriate level of protection.
+Table 1: Data Classification
+Data Class: Level 1, Public Information Description: Information that can be or currently is released to the public. It does not need protection from unauthorized disclosure. Example: The original or copy of any documentary material in any form, including written materials, books, photographs, photocopies, films, microfilms, records, tapes, computerized records, maps, and drawings created or received by the agency in connection with the transaction of public business. Data collected and permitted, required, or able to be made available to the public in a machine-readable format. Includes recordings of public meetings, public announcements, public reports, and procurement related information. Data Class: Level 2, Protected/Internal-Only Information Description: Information that may not be specifically protected from disclosure by law, is generally for official use only, and is not released to the public unless specifically requested and permissible. Does not include confidential information. Protected/ Internal Only data could be potentially harmful were unauthorized people to access it. Example: Draft versions of statistical or factual information reserved for internal analysis, draft reports and memos, internal project documents, learning management data, budget documentation, minutes or recordings of departmental or inter-departmental meetings, unreleased press releases, unpublished marketing materials, and competitive analysis. Data Class: Level 3, Confidential Information Description: Information subject to protection by law or regulation and access to which requires specific authorization. The data is subject to protection from disclosure. Example: Personnel records, financial records, student records, health records, non-critical infrastructure information, non-critical network information, Sensitive Data, and customer transaction account data. Includes data such as Personal Information (PI), Protected Health Information (PHI), Payment Card Information (PCI), student records under the Family Educational Rights and Privacy Act (FERPA), Substance Use Disorder (SUD) patient records, Noncriminal Justice Information Center (NJIC) Non-restricted files. Data Class: Level 4, Restricted Information Description: Information that is specifically protected from disclosure by law. Unauthorized disclosure of data could cause irreparable damage to an agency and/or the State and may lead to criminal charges and/or other legal consequences. If released could endanger the public health, safety, or welfare, hinder the operation of government, impose an undue financial, operational, or administrative burden on a State entity, and disclose proprietary or confidential information. Example: Criminal Justice Information (CJI), federal tax information (FTI), executive privileged data, legally privileged data, critical infrastructure information, critical network information, information about security vulnerabilities and risk, cybersecurity assessments and findings, cybersecurity audits, and physical security access logs.
+5. Policy Roles and Responsibilities
+Everyone with authorized access to Protected/Internal Only, Confidential, and/or Restricted data is accountable to protect the data from unauthorized use and disclosure. Data governance and privacy mechanisms delineate the appropriate disclosure, processing, and analysis of data. Data Users, Agency Data Officers, Data Owners, and Data Stewards are responsible for effective data management at each agency.
+6. References and Maintenance
+The State Chief Information Security Officer, State Chief Privacy Officer, and State Chief Data Officer maintain and review this policy annually and on an ad hoc basis in response to changes in security and privacy related laws and regulations.
+The following regulations, recommendations, and standards impact the data classification policy:
+42 CFR Part 2 - Confidentiality of Substance Use Disorder Patient Records
+45 CFR Part 160 and Subparts A and E of Part 164 - Health Information Protection and Portability Act (HIPAA) Privacy Rule.
+Internal Revenue Service Publication 1075 -Tax Information Security Guidelines (2021)
+US Department of Justice: Criminal Justice Information System (CJIS) Security Policy, v.5.9.4
+Maryland General Provisions Article, Title 4, Public Information Act
+Maryland State Finance and Procurement Article, § 3.5-2A-04(b)(1)
+Maryland State Government Article, Title 10, Subtitle 13, Protection of Information in Government Agencies (Md. PIGA)
+Maryland State Government Article, Title 10, Subtitle 15, Open Data
+NIST 800-53 v5, AC-11
+APPENDIX A. Definitions & Acronyms
+Capitalized terms in this policy have the meanings defined below:
+Acronym/Phrase: Agency Data Officer (ADO)
+Definition: An individual designated by a State unit to implement measures for the secure, efficient, and effective use of data; provide administrative support to the State Chief Data Officer on behalf of the unit; receive and promptly address inquiries, requests, or concerns about access to the unit’s data; comply with direction from the State Chief Data Officer as to the use and management of the unit’s data in accordance with Executive Order 01.01.2021.09 State Chief Data Officer.
+Source: Office of Enterprise Data Glossary
+Acronym/Phrase: Authorized User
+Definition: Any appropriately cleared individual with a requirement to access an information system (IS) for performing or assisting in a lawful and authorized government function.
+Source: CNSSI 4009-2015
+Acronym/Phrase: Criminal Justice Information (CJI)
+Definition: Criminal Justice Information is the abstract term used to refer to all of the FBI CJIS provided data necessary for law enforcement agencies to perform their mission and enforce the laws, including but not limited to: biometric, identity history, person, organization, property (when accompanied by any personally identifiable information), and case/incident history data. In addition, CJI refers to the FBI CJIS-provided data necessary for civil agencies to perform their mission; including but not limited to data used to make hiring decisions. The following types of data are exempt from the protection levels required for CJI: transaction control type numbers (e.g., ORI, NIC, UCN, etc.) when not accompanied by information that reveals CJI or PI.
+Source: CJIS Security Policy, v.5.9.4
+Acronym/Phrase: Data Owner
+Definition: An individual or entity that is responsible for data within a specific domain. The Data Owner typically dictates and establishes standards and goals associated with the data, and can authorize or deny access to the data and is responsible for its accuracy, integrity, and timeliness.
+Source: Office of Enterprise Data Glossary
+Acronym/Phrase: Data Steward
+Definition: The person with day-to-day management responsibility of individual databases, datasets, or information systems. In general, a data steward has business knowledge of the data and can answer questions about the data itself.
+Source: Office of Enterprise Data Glossary
+Acronym/Phrase: Data User
+Definition: An employee, contractor, or other individual affiliated with the State who is eligible and authorized to collect, access and/or use the data. A dataset may have more than one user group.
+Source: Office of Enterprise Data Glossary
+Acronym/Phrase: Federal Tax Information (FTI)
+Definition: FTI includes tax returns or tax return information received directly from the IRS or obtained through an authorized secondary source such as the Social Security Administration (SSA), Federal Office of Child Support Enforcement (OCSE), Bureau of the Fiscal Service (BFS) or Centers for Medicare and Medicaid Services (CMS), or another entity acting on behalf of the IRS pursuant to an IRC § 6103(p)(2)(B) Agreement. FTI includes any information created by the recipient (agency) that is derived from federal return or return information that is received from the IRS or obtained through a secondary source.
+In addition to “Personal Information” as defined below, FTI also includes taxpayer mailing address, taxpayer identification number, telephone numbers, date and place of birth, and mother’s maiden name, or a combination of any personal information.
+Source: Publication 1075, 2021
+Acronym/Phrase: Noncriminal Justice Information Center (NCIC) Non-Restricted Files
+Definition: NCIC Non-Restricted Files are those not listed as restricted files in Section 4.2.2 of the CJIS Security Policy, v.5.9.4. NCIC Non-Restricted Files information may be accessed and used for any authorized purpose consistent with the inquiring agency’s responsibility. Information obtained may be disseminated to (a) other government agencies or (b) private entities authorized by law to receive such information for any purpose consistent with their responsibilities.
+Source: CJIS Security Policy, v.5.9.4
+Acronym/Phrase: Open Data
+Definition: Data that, consistent with any applicable laws, rules, regulations, ordinances, resolutions, policies of other restrictions including requirements or rights associated with the data, a State entity has collected, and is permitted, required, or able to make available to the public.
+Source: Md. State Government Article, § 10-1501
+Acronym/Phrase: Personal Information (PI)
+Definition: Personal Information means an individual's first name or first initial and last name, personal mark, or unique biometric or genetic print or image, in combination with one or more of the following data elements:
+1. a Social Security number, an individual taxpayer identification number, a passport number, or other identification number issued by the United States government;
+2. a driver's license number, state identification card number, or other individual identification number issued by a unit;
+3. a financial or other account number, a credit card number, or a debit card number that, in combination with any required security code, access code, or password, would permit access to an individual's account;
+4. a username or email address in combination with a password or security question and answer that permits access to an individual's email account;
+5. genetic and health-related data, including mental health, substance use disorder, and disability; or
+6. Sensitive Data, as defined in § 14-4701 of the Commercial Law Article (see below for definition).
+Source: Md. State Government Article, § 10-1301 (effective October 1, 2026)
+Acronym/Phrase: Person in Interest
+Definition: Person in interest means a person, the person’s designee, the parent or legal representative of a person with a legal disability, or governmental unit that is the subject of a public record.
+Source: Md. Gen. Provisions Article, § 4-101
+Acronym/Phrase: Precise Geolocation
+Definition: Information derived from technology that can precisely and accurately identify, within a radius of 1,750 feet, the specific location of an individual, a mobile device, or a vehicle. Precise Geolocation includes latitude and longitude coordination of similar precision of those produced by a global positions system or a similar mechanism.
+Source: Md. Commercial Law Article, § 14-4701
+Acronym/Phrase: Protected Health Information (PHI)
+Definition: Means individually identifiable health information that is transmitted and maintained by electronic or any other form of medium. The eighteen identifiers include names; all geographical subdivisions smaller than a State all elements of dates (except year) for dates directly related to an individual; phone numbers; fax numbers; electronic mail addresses; Social Security numbers; medical record numbers; health plan beneficiary numbers; account numbers; certificate/license numbers; vehicle identifiers and serial numbers, including license plate numbers; device identifiers and serial numbers; web universal resource locators (URLs); internet protocol (IP) address numbers; biometric identifiers, including finger and voice prints; full face photographic images and any comparable images; and any other unique government issued identifying number, characteristic, or code (except unique codes assigned by the investigator to code the data).
+PHI excludes individually identifiable health information that is not related to healthcare treatment, payment or operations, such as student records under Family Educational Rights and Privacy Act (FERPA) or employment records held by a covered entity in its role as employer.
+Source: Privacy Rule,45 CFR Part 160 and Subparts A and E of Part 164.
+Acronym/Phrase: Public Record
+Definition: A Public Record is defined as the original or copy of any documentary material in any form, including written materials, books, photographs, photocopies, films, microfilms, records, tapes, computerized records, maps, and drawings created or received by the department in connection with the transaction of public business.
+Source: Md. General Provisions, Title 4, § 4-101
+Acronym/Phrase: Sensitive Data
+Definition: Data revealing racial or ethnic origin, religious beliefs, consumer health data, sex life, sexual orientation, status as transgender or nonbinary, national origin, citizenship or immigration status, Genetic Data or biometric data, personal data of an individual that the controller (or data owner) knows or has reason to know is a child, or Precise Geolocation. Sensitive Data includes data inferred by a controller based on personal data that, alone or in combination with other data, is used to describe any of the Sensitive Data elements.
+Source: Md. Commercial Law Article, § 14-4701
+Acronym/Phrase: Substance Use Disorder (SUD) Patient Records
+Definition: A cluster of cognitive, behavioral, and physiological symptoms indicating that the individual continues using the substance despite significant substance-related problems such as impaired control, social impairment, risky use, and pharmacological tolerance and withdrawal. 42 CFR Part 2 imposes restrictions upon the use and disclosure of substance use disorder (SUD) patient records which are maintained in connection with the performance of any Part 2 program. The regulation provides for limited exceptions for the disclosure of these records.
+Source: 42 CFR Part 2 - Confidentiality of Substance Use Disorder Patient Records
+APPENDIX B. Confidentiality, Integrity and Availability
+Table 1. Data Security Objectives
+Security Objective: Confidentiality
+FISMA Definition [44 U.S.C., Sec. 3542: “Preserve authorized restrictions on information access and disclosure, including means for protecting personal privacy and proprietary information…”
+FIPS 199 Definition: A loss of confidentiality is the unauthorized disclosure of information.
+Security Objective: Integrity
+FISMA Definition [44 U.S.C., Sec. 3542: Avoid “improper information modification or destruction, and include ensuring information nonrepudiation and authenticity…”
+FIPS 199 Definition: A loss of integrity is the unauthorized modification or destruction of information.
+Security Objective: Availability
+FISMA Definition [44 U.S.C., Sec. 3542: “Ensure timely and reliable access to and use of information…”
+FIPS 199 Definition: A loss of availability is the disruption of access to or use of information or an information system.
+Table 2. Data Security Impacts
+Security Objective: Confidentiality
+Low Impact: Unauthorized access of data could be expected to have a limited adverse effect on agencies’ operations, assets, or employees.
+Moderate Impact: Unauthorized access to data could be expected to have a serious adverse effect on agencies’ operations, assets, or employees.
+High Impact: Unauthorized access to data could be expected to have a severe or catastrophic adverse effect on agencies’ operations, assets, or employees.
+Security Objective: Integrity
+Low Impact: Unauthorized modification or destruction of data could be expected to have a limited adverse effect on agencies’ operations, assets, or employees.
+Moderate Impact: Unauthorized modification or destruction of data could be expected to have a serious adverse effect on agencies’ operations, assets, or employees.
+High Impact: Unauthorized modification or destruction of data could be expected to have a severe or catastrophic adverse effect on agencies’ operations, assets, or employees.
+Security Objective: Availability
+Low Impact: Disruption of access to or use of information could be expected to have a limited adverse effect on agencies’ operations, assets, or employees.
+Moderate Impact: Disruption of access to or use of information could be expected to have a serious adverse effect on agencies’ operations, assets, or employees.
+High Impact: Disruption of access to or use of information could be expected to have a severe or catastrophic adverse effect on agencies’ operations, assets, or employees.
+
+## Curator notes
+
+Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.

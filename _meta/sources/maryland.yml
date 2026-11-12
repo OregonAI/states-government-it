@@ -1,0 +1,1490 @@
+# Maryland seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Issue #19. Discovery 2026-11-11: DoIT's policy library (home, eight category pages, the suite's directives and transitional lists),
+# the AI portal, the General Assembly's statute section pages, COMAR title 14 and title 01 (executive orders) as published by the Division
+# of State Documents, and the Governor's executive order list. Seed entries with `sections:` are statute documents built from one page per section.
+sources:
+- id: md-sfp-3-5-department-of-information-technology
+  sha256: "4c9f22786d6b763e1225b7c8e9668506d89ccd8cfd63e3bd73a78b61fe593f6a"
+  url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsf&section=3.5-101&enactments=true
+  format: html
+  citation: Md. Code, State Fin. & Proc. §§ 3.5-101, 3.5-201 to 3.5-205
+  title: 'State Finance and Procurement Article, Title 3.5: Definitions and the Department of Information Technology (§§ 3.5-101, 3.5-201 to 3.5-205)'
+  doc_type: statute
+  issuing_body: Maryland General Assembly; compiled and published by the Department of Legislative Services on the General Assembly website
+  tags:
+  - governance
+  - procurement
+  article: gsf
+  sections:
+  - 3.5-101
+  - 3.5-201
+  - 3.5-202
+  - 3.5-203
+  - 3.5-204
+  - 3.5-205
+  found_via: https://mgaleg.maryland.gov/mgawebsite/Laws/Statutes (section pages requested by number; see the left-out notes for the numbers tried)
+  why_relevant: 'The enabling statute for DoIT: definitions for title 3.5 (including ''Unit of State government'' as an agency or unit of the Executive Branch), the Department as a principal department of State government (3.5-201), the Secretary of Information Technology (3.5-202), the Deputy Secretary (3.5-203), the Attorney General as legal adviser (3.5-204) and the Department''s technical procurement team (3.5-205).'
+  jurisdiction: maryland
+  recheck: monthly
+- id: md-sfp-3-5-office-of-security-management
+  sha256: "67de6e2edb0307b242c2f4ddf3dd8d26b99d6035c92846e9e8a2bbf4ad77193b"
+  url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsf&section=3.5-2A-01&enactments=true
+  format: html
+  citation: Md. Code, State Fin. & Proc. §§ 3.5-2A-01 to 3.5-2A-06
+  title: 'State Finance and Procurement Article, Title 3.5, Subtitle 2A: Office of Security Management and the Maryland Cybersecurity Coordinating Council (§§ 3.5-2A-01 to 3.5-2A-06)'
+  doc_type: statute
+  issuing_body: Maryland General Assembly; compiled and published by the Department of Legislative Services on the General Assembly website
+  tags:
+  - cybersecurity
+  - governance
+  article: gsf
+  sections:
+  - 3.5-2A-01
+  - 3.5-2A-02
+  - 3.5-2A-03
+  - 3.5-2A-04
+  - 3.5-2A-05
+  - 3.5-2A-06
+  found_via: https://mgaleg.maryland.gov/mgawebsite/Laws/Statutes (section pages requested by number; see the left-out notes for the numbers tried)
+  why_relevant: 'The cybersecurity statute for State systems: the Office of Security Management within DoIT (3.5-2A-02), its head the State Chief Information Security Officer (3.5-2A-03), the Office''s responsibility for the security requirements for information and information systems (3.5-2A-04, cited by DoIT''s directives and policies) and the Maryland Cybersecurity Coordinating Council (3.5-2A-05, 3.5-2A-06).'
+  jurisdiction: maryland
+  recheck: monthly
+- id: md-sfp-3-5-powers-and-duties-of-the-secretary
+  sha256: "8ef06ffb8ca4508bf18df3bd245c199dc715a607277a1127b2fcc713932ec272"
+  url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsf&section=3.5-301&enactments=true
+  format: html
+  citation: Md. Code, State Fin. & Proc. §§ 3.5-301 to 3.5-315, 3.5-317 to 3.5-319
+  title: 'State Finance and Procurement Article, Title 3.5, Subtitle 3: Secretary of Information Technology, master plan, project oversight, investment fund, nonvisual access, data inventory and privacy officers (§§ 3.5-301 to 3.5-315, 3.5-317 to 3.5-319)'
+  doc_type: statute
+  issuing_body: Maryland General Assembly; compiled and published by the Department of Legislative Services on the General Assembly website
+  tags:
+  - governance
+  - oversight
+  - funding
+  - procurement
+  - data
+  - digital-services
+  - cybersecurity
+  article: gsf
+  sections:
+  - 3.5-301
+  - 3.5-302
+  - 3.5-303
+  - 3.5-304
+  - 3.5-305
+  - 3.5-306
+  - 3.5-307
+  - 3.5-308
+  - 3.5-309
+  - 3.5-310
+  - 3.5-311
+  - 3.5-312
+  - 3.5-313
+  - 3.5-314
+  - 3.5-315
+  - 3.5-317
+  - 3.5-318
+  - 3.5-319
+  found_via: https://mgaleg.maryland.gov/mgawebsite/Laws/Statutes (section pages requested by number; see the left-out notes for the numbers tried)
+  why_relevant: 'The statute DoIT''s policies cite as ''3.5-301 to 3.5-309'' (its older policies cite the same duties as ''SF&P 3A-301-309''): definitions (3.5-301), exemptions (3.5-302), the Secretary''s duties (3.5-303), the statewide information technology master plan (3.5-304, 3.5-306), each unit''s IT policies, standards and plans (3.5-305), review and approval of IT purchases and project requests (3.5-307, 3.5-308), the Information Technology Investment Fund (3.5-309), the nonvisual access requirements (3.5-311), delegation (3.5-312), security-sensitive data (3.5-314), the Information Sharing and Analysis Center (3.5-315), biennial independent assessments of the cybersecurity and IT systems of each unit (3.5-317), and the annual data inventory and the unit Privacy Officer (3.5-318, 3.5-319, in the October 1, 2026 view). Section 3.5-313 (the searchable State payment-data website) rides along. Sections 3.5-316 and 3.5-320 to 3.5-325 returned no text. The page for 3.5-309 prints two versions of the section: ''IN EFFECT'' and, after it, ''// EFFECTIVE JUNE 30, 2031 PER CHAPTERS 436 AND 437 OF 2026 //'' with the text that takes over then; the document keeps only the version marked IN EFFECT and the snapshot keeps both (owner decision, see the left-out record).'
+  jurisdiction: maryland
+  recheck: monthly
+- id: md-sfp-3-5-telecommunications-and-cybersecurity-reporting
+  sha256: "cf100d36fb408bfd255202a315c0e11ec71fa265e5309c04059e47854e039b6b"
+  url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsf&section=3.5-401&enactments=true
+  format: html
+  citation: Md. Code, State Fin. & Proc. §§ 3.5-401 to 3.5-406
+  title: 'State Finance and Procurement Article, Title 3.5, Subtitle 4: State telecommunications and networks, and cybersecurity reporting (§§ 3.5-401 to 3.5-406)'
+  doc_type: statute
+  issuing_body: Maryland General Assembly; compiled and published by the Department of Legislative Services on the General Assembly website
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  - oversight
+  article: gsf
+  sections:
+  - 3.5-401
+  - 3.5-402
+  - 3.5-403
+  - 3.5-404
+  - 3.5-405
+  - 3.5-406
+  found_via: https://mgaleg.maryland.gov/mgawebsite/Laws/Statutes (section pages requested by number; see the left-out notes for the numbers tried)
+  why_relevant: DoIT's duties to coordinate State government telecommunication equipment, systems and services (3.5-401), networkMaryland (3.5-404), and the annual duty of each unit of State government to report cybersecurity preparedness assessments and an inventory of information systems, data and cloud solutions to the Office of Security Management and the Governor (3.5-405). Section 3.5-406, which sets local government cybersecurity duties and the incident reporting criteria DoIT cites for units of State government, rides along; it is not about State units alone.
+  jurisdiction: maryland
+  recheck: monthly
+- id: md-sfp-3-5-artificial-intelligence
+  sha256: "11a82539dc10fae934a0428fbd19570c6033fbf8a4d72781e08aa8e91648534f"
+  url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsf&section=3.5-801&enactments=true
+  format: html
+  citation: Md. Code, State Fin. & Proc. §§ 3.5-801 to 3.5-807
+  title: 'State Finance and Procurement Article, Title 3.5, Subtitle 8: Artificial intelligence (§§ 3.5-801 to 3.5-807)'
+  doc_type: statute
+  issuing_body: Maryland General Assembly; compiled and published by the Department of Legislative Services on the General Assembly website
+  tags:
+  - ai
+  - governance
+  article: gsf
+  sections:
+  - 3.5-801
+  - 3.5-802
+  - 3.5-803
+  - 3.5-804
+  - 3.5-805
+  - 3.5-806
+  - 3.5-807
+  found_via: https://mgaleg.maryland.gov/mgawebsite/Laws/Statutes (section pages requested by number; see the left-out notes for the numbers tried)
+  why_relevant: 'The statute on State agencies'' use of AI (the Artificial Intelligence Governance Act of 2024, SB 818, which DoIT''s AI policy pages cite): each unit''s inventory of systems that employ high-risk AI (3.5-803), DoIT''s policies and procedures for development, procurement, deployment and use (3.5-804), the bar on procuring or deploying a new AI system that does not comply (3.5-805, from July 1, 2025), impact assessments, the Governor''s Artificial Intelligence Subcabinet (3.5-806), and the Workgroup on Artificial Intelligence Implementation (3.5-807, printed ''EFFECTIVE UNTIL JUNE 30, 2029 PER CHAPTER 105 OF 2025''), which rides along.'
+  jurisdiction: maryland
+  recheck: monthly
+- id: md-sfp-3-5-digital-experience-and-mitdp-oversight
+  sha256: "635a4a69fad33a2dc098adb330b676e044b105c426bba4c395814581ac1a0445"
+  url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsf&section=3.5-901&enactments=true
+  format: html
+  citation: Md. Code, State Fin. & Proc. §§ 3.5-901 to 3.5-907
+  title: 'State Finance and Procurement Article, Title 3.5, Subtitle 9: Maryland Office of Digital Experience, Digital Service and MITDP Oversight Division (§§ 3.5-901 to 3.5-907)'
+  doc_type: statute
+  issuing_body: Maryland General Assembly; compiled and published by the Department of Legislative Services on the General Assembly website
+  tags:
+  - oversight
+  - digital-services
+  - governance
+  article: gsf
+  sections:
+  - 3.5-901
+  - 3.5-902
+  - 3.5-903
+  - 3.5-904
+  - 3.5-905
+  - 3.5-906
+  - 3.5-907
+  found_via: https://mgaleg.maryland.gov/mgawebsite/Laws/Statutes (section pages requested by number; see the left-out notes for the numbers tried)
+  why_relevant: The Maryland Office of Digital Experience and its Chief Digital Experience Officer (3.5-902, 3.5-903), the Maryland Digital Service Unit (3.5-905), the Major Information Technology Development Project Oversight Division that adopts the standards MITDPs must meet in alignment with the State System Development Life Cycle (3.5-906), and a reporting duty on large projects under the Statewide Agile Resources and Teams contract (3.5-907).
+  jurisdiction: maryland
+  recheck: monthly
+- id: md-sg-10-1301-to-1308
+  sha256: "fa212bcff6230e39caa57802bb7d8a5ba0b7a1494b9aeb161cf35f2c73d84de5"
+  url: https://mgaleg.maryland.gov/mgawebsite/Laws/StatuteText?article=gsg&section=10-1301&enactments=true
+  format: html
+  citation: Md. Code, State Gov't §§ 10-1301 to 10-1308
+  title: 'State Government Article, §§ 10-1301 to 10-1308: Protection of personal information held by State units'
+  doc_type: statute
+  issuing_body: Maryland General Assembly; compiled and published by the Department of Legislative Services on the General Assembly website
+  tags:
+  - data
+  - cybersecurity
+  article: gsg
+  sections:
+  - 10-1301
+  - 10-1302
+  - 10-1303
+  - 10-1304
+  - 10-1305
+  - 10-1306
+  - 10-1307
+  - 10-1308
+  found_via: https://mgaleg.maryland.gov/mgawebsite/Laws/Statutes (section pages requested by number; see the left-out notes for the numbers tried)
+  why_relevant: 'The statute DoIT''s policies cite as ''MD State Government Code §10-1301-1308'': definitions of personal information and encryption (10-1301), exclusions (10-1302), destruction of records (10-1303), the duty of a unit that collects personal information to keep reasonable security procedures and practices, including for contracts with third parties (10-1304), breach of the security of a system and notice (10-1305) and the sections that follow (10-1306 to 10-1308).'
+  jurisdiction: maryland
+  recheck: monthly
+- id: md-pol-100-01
+  sha256: "9c5fa15dfcc95c4b0496b3dd2b0253aa36a32686ca48e15e34bfcfb2fd556317"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-100-01-Cybersecurity-and-Privacy-Governance-Policy.pdf
+  format: pdf
+  citation: MD-POL-100-01
+  title: Cybersecurity & Privacy Governance Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: MD-POL-100-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-100)
+  why_relevant: 'Row MD-POL-100 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Cybersecurity & Privacy Governance Policy establishes the policy framework through which the State of Maryland defines, implements, and oversees cybersecurity and privacy practices aligned with regulatory requirements, industry standards, and strategic objectives.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-201-01
+  sha256: "f2a259777a84b6bd27a3a6e61657812f5f1529ab93c41dc6ef7fad8c2fb98e9c"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-201-01-Cybersecurity-Risk-Management-Policy.pdf
+  format: pdf
+  citation: MD-POL-201-01
+  title: Cybersecurity Risk Management Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-POL-201-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-201)
+  why_relevant: 'Row MD-POL-201 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Cybersecurity Risk Management Policy establishes the requirements for managing information security risk to the State by assessing risk, responding to risk once determined, and monitoring risk over time.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-202-01
+  sha256: "23024ed0f68fb7f9237457b534dcf277587d40fe3fd24b4503e395530670059b"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-202-01-Asset-Management-Policy.pdf
+  format: pdf
+  citation: MD-POL-202-01
+  title: Asset Management Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-POL-202-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-202)
+  why_relevant: 'Row MD-POL-202 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Asset Management Policy establishes the requirements for identification and management of all information technology (IT) assets consistent with their relative importance to the State.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-203-01
+  sha256: "219273fa00f930b0fcdac11683e8de328e31a2ce964b09feb776e84678c6dcb6"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-203-01-Acceptable-Use-Policy.pdf
+  format: pdf
+  citation: MD-POL-203-01
+  title: Acceptable Use Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-POL-203-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-203)
+  why_relevant: 'Row MD-POL-203 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Acceptable Use Policy establishes allowances and conditions for the acceptable use of State-owned or State-managed IT assets.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-204-01
+  sha256: "2bd13aaab1a6fefc7c54b2e96ef93db7b227845a3912aff5bc4d188385e4c855"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-204-01-Access-Control-Policy.pdf
+  format: pdf
+  citation: MD-POL-204-01
+  title: Access Control Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-POL-204-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-204)
+  why_relevant: 'Row MD-POL-204 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Access Control Policy establishes a framework for managing and safeguarding access to State information systems and resources.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-205-01
+  sha256: "ab2ef3e2356a02f038d336b85db8c7dfeb1d57b3206b6ba2a7e0d294d7192bd8"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-205-01-Data-Protection-and-Privacy-Policy.pdf
+  format: pdf
+  citation: MD-POL-205-01
+  title: Data Protection & Privacy Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  - data
+  identity_text: MD-POL-205-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-205)
+  why_relevant: 'Row MD-POL-205 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Data Protection & Privacy Policy establishes requirements for safeguarding State data throughout its lifecycle and managing privacy risks in alignment with State and regulatory expectations.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-206-01
+  sha256: "7986d61161ca172ff65fd916365d0d71974b1f5d76c20b435fb2e9570766d0bc"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-206-01-Awareness-and-Training-Policy.pdf
+  format: pdf
+  citation: MD-POL-206-01
+  title: Awareness & Training Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-POL-206-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-206)
+  why_relevant: 'Row MD-POL-206 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Awareness & Training Policy establishes the requirements for developing and maintaining an awareness and training program for cybersecurity and privacy.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-207-01
+  sha256: "7e87d2397fffb13d81482e1b7251abc1c2ad397819b0ce4deeb003ae840b4bea"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-207-01-System-and-Network-Security-Policy.pdf
+  format: pdf
+  citation: MD-POL-207-01
+  title: System and Network Security Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-POL-207-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-207)
+  why_relevant: 'Row MD-POL-207 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The System and Network Security Policy establishes the requirements for managing the hardware, software, and services of physical and virtual platforms to protect their confidentiality, integrity, and availability.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-208-01
+  sha256: "323930f34532f2690dbf3eaf2294a3afdf05a5cdfc15ed5937ae4df2f731019d"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-208-01-Continuous-Monitoring-Policy.pdf
+  format: pdf
+  citation: MD-POL-208-01
+  title: Continuous Monitoring Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-POL-208-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-208)
+  why_relevant: 'Row MD-POL-208 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Continuous Monitoring Policy establishes the requirements for maintaining ongoing awareness of information security risks, vulnerabilities, and threats to enable timely and effective threat response within the State of Maryland.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-209-01
+  sha256: "c7a8b278e36f4df3506d9387221a1871ba8af5b92d2c0f39e931d2b6d7876560"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-209-01-Incident-Response-Policy.pdf
+  format: pdf
+  citation: MD-POL-209-01
+  title: Incident Response Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-POL-209-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-209)
+  why_relevant: 'Row MD-POL-209 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Incident Response Policy establishes a structured and effective approach for identifying, managing, and mitigating the risk of cybersecurity and privacy incidents that threaten the confidentiality, integrity, or availability of information and State assets.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-pol-210-01
+  sha256: "30b83a71e67668a1817e2104cf04651234c7a86c19b5764cf14a42e69ea4fb09"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-POL-210-01-Continuity-of-Operations-Policy.pdf
+  format: pdf
+  citation: MD-POL-210-01
+  title: Continuity of Operations Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  identity_text: MD-POL-210-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-POL-210)
+  why_relevant: 'Row MD-POL-210 of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Continuity of Operations Policy establishes the requirements for building and maintaining restoration capabilities that support recovery to normal State operations after an incident or disruption.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-303-au-01
+  sha256: "e6b14556db1cc51fd20c951639cd48044f443e4e6739c8ffcdc771b6a2b0f943"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-303-AU-01-Audit-and-Accountability.pdf
+  format: pdf
+  citation: MD-STD-303-AU-01
+  title: Audit & Accountability Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-303-AU-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-303-AU)
+  why_relevant: 'Row MD-STD-303-AU of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Audit & Accountability Standard requires systems to generate, protect, and retain audit records to support the detection, investigation, and response to unauthorized or suspicious activity.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-304-ca-01
+  sha256: "d983f2b14af8e37e0d5010a7c2baf91eeff3990507b7bee35576a524ebd3a2ac"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-304-CA-01-Control-Assessments.pdf
+  format: pdf
+  citation: MD-STD-304-CA-01
+  title: Control Assessments Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-304-CA-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-304-CA)
+  why_relevant: 'Row MD-STD-304-CA of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Control Assessments Standard establishes a process for each agency to systematically evaluate the security posture, authorize systems before deployment, and continually monitor for risk.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-308-ir-01
+  sha256: "94c0ad7340d1bdd423f2cdf8b52045081e7015e045508dbf11caca752bc9a9bf"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-308-IR-01-Incident-Response-Standard.pdf
+  format: pdf
+  citation: MD-STD-308-IR-01
+  title: Incident Response Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-308-IR-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-308-IR)
+  why_relevant: 'Row MD-STD-308-IR of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Incident Response Standard provides the technical and operational specifications needed to detect, respond to, and recover from security incidents.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-309-ma-01
+  sha256: "f9eb6f957399f946bdad56e269193cb67e134923cd24f054eed006334239ccba"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-309-MA-01-Maintenance-Standard.pdf
+  format: pdf
+  citation: MD-STD-309-MA-01
+  title: Maintenance Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-309-MA-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-309-MA)
+  why_relevant: 'Row MD-STD-309-MA of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Maintenance Standard provides the technical and operational specifications needed to maintain effective security controls over time.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-310-mp-01
+  sha256: "2d87a0556030533a13c3e5bc5a23be5cc67e4cc6ac2e81b6cba769621ce1d8b1"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-310-MP-01-Media-Protection-Standard.pdf
+  format: pdf
+  citation: MD-STD-310-MP-01
+  title: Media Protection Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-310-MP-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-310-MP)
+  why_relevant: 'Row MD-STD-310-MP of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Media Protection Standard provides the technical and operational specifications needed to protect the confidentiality, integrity, and availability of State Data stored on various media formats.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-313-pm-01
+  sha256: "b0a80c93afd57690fccea158e4cca2ab79fb02657bda8cb14aa016c6068e2727"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-313-PM-01-Program-Management-Standard.pdf
+  format: pdf
+  citation: MD-STD-313-PM-01
+  title: Program Management Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: MD-STD-313-PM-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-313-PM)
+  why_relevant: 'Row MD-STD-313-PM of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Program Management Standard provides the technical and operational specifications needed to oversee and coordinate cybersecurity programs.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-314-ps-01
+  sha256: "a50e241b05e35e083d6b9927e17a2a05d287194ed707431865cf1cc72d58792f"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-314-PS-01-Personnel-Security-Standard.pdf
+  format: pdf
+  citation: MD-STD-314-PS-01
+  title: Personnel Security Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-314-PS-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-314-PS)
+  why_relevant: 'Row MD-STD-314-PS of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Personnel Security Standard provides the technical and operational specifications needed to manage personnel security measures that protect organizational assets, operations, and information.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-316-ra-01
+  sha256: "97e0a6c37e885519a6b82e21ade25f631ced179ac7b5ce65762765d64a757d50"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-316-RA-01-Risk-Assessment-Standard.pdf
+  format: pdf
+  citation: MD-STD-316-RA-01
+  title: Risk Assessment Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-316-RA-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-316-RA)
+  why_relevant: 'Row MD-STD-316-RA of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The Risk Assessment Standard provides the technical and operational specifications needed for security threats and vulnerabilities to be systematically evaluated and addressed.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-317-sa-01
+  sha256: "f388501672adab560b5f04ed3044ea28701817b4980c8f82e498cdaa5474ba77"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-317-SA-01-System-and-Services-Acquisition-Standard.pdf
+  format: pdf
+  citation: MD-STD-317-SA-01
+  title: System & Services Acquisition Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  - procurement
+  identity_text: MD-STD-317-SA-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-317-SA)
+  why_relevant: 'Row MD-STD-317-SA of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The System & Services Acquisition Standard provides the technical and operational specifications needed to effectively procure, develop, and maintain technology solutions that align with security, operational, and business objectives in a secure manner.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-318-sc-01
+  sha256: "9abf1c57281687853e9d1f5f6b9c7eb08c813ed30b9e1d55cbc89e15810737a5"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-318-SC-01-System-and-Communication-Protection-Standard.pdf
+  format: pdf
+  citation: MD-STD-318-SC-01
+  title: System & Communication Protection Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-318-SC-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-318-SC)
+  why_relevant: 'Row MD-STD-318-SC of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The System & Communication Protection Standard provides the technical and operational specifications needed to prevent unauthorized access, detect threats and secure State data.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-std-319-si-01
+  sha256: "a9f7306bcf56fd76b74c7e0e04cfd147d6b7d1a42b3b2e21730030c9c66018ee"
+  url: https://doit.maryland.gov/policies/ci/Documents/MD-STD-319-SI-01-System-and-Information-Integrity-Standard.pdf
+  format: pdf
+  citation: MD-STD-319-SI-01
+  title: System & Information Integrity Standard
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology, Office of Security Management
+  tags:
+  - cybersecurity
+  identity_text: MD-STD-319-SI-01
+  found_via: https://doit.maryland.gov/policies/ci/Pages/default.aspx (Cybersecurity & Privacy Policy Suite table, row MD-STD-319-SI)
+  why_relevant: 'Row MD-STD-319-SI of the Cybersecurity & Privacy Policy Suite table on DoIT''s policy hub, which says the suite (unveiled February 2026) replaces legacy IT standards for the Executive Branch. The table describes it: The System & Information Integrity Standard provides the technical and operational specifications needed for data to remain accurate, unaltered, and protected from unauthorized modifications.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-responsible-ai-policy
+  sha256: "8df40696f9a7b71eb47f7b3013d463e5fb0472cef79f371117a0063c79a6f4c8"
+  url: https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy.aspx
+  format: html
+  title: The State of Maryland’s Responsible AI Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - ai
+  - governance
+  found_via: DoIT's AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies
+  why_relevant: 'Listed on DoIT''s AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies. As the page prints its purpose: This policy provides a governance framework for AI systems used by or on behalf of the State of Maryland (the “State”), enabling State agencies to use AI systems for the benefit of constituents while safeguarding against potential harms.'
+  citation: DoIT Responsible AI Policy, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-responsible-ai-implementation-guidance
+  sha256: "412ed59f8d85c101608aae20b62c60046e7f46d5538180fe4c8ea9284d300677"
+  url: https://doit.maryland.gov/policies/ai/Pages/maryland-responsible-ai-policy-implementation-guidance.aspx
+  format: html
+  title: The State of Maryland’s Responsible AI Policy Implementation Guidance
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - ai
+  - governance
+  found_via: DoIT's AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies
+  why_relevant: 'Listed on DoIT''s AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies. As the page prints its purpose: This document helps State agencies understand and operationalize the path to responsible AI governance and monitoring - in line with the State’s Responsible AI Policy. It is meant as “living guidance”, given the pace of change in the AI sector.'
+  citation: DoIT Responsible AI Policy Implementation Guidance, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-ai-card-call-recording
+  sha256: "c93a393b522249197b03eb87b1642ee753660b7d3c37536c84aa2293a92494a1"
+  url: https://doit.maryland.gov/policies/ai/Pages/AI-governance-card-call-recording-transcription-tools.aspx
+  format: html
+  title: 'AI Governance Card: AI-Powered Call Recording & Transcription Tools'
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - ai
+  found_via: DoIT's AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies
+  why_relevant: 'Listed on DoIT''s AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies. As the page prints its purpose: This governance card provides guidance on baseline definitions and guidelines in Maryland''s Responsible AI Policy, Responsible AI Implementation Guidance, SB818, and Governor''s EO applied to AI-powered call recording and transcription.'
+  citation: 'DoIT AI Governance Card: Call Recording & Transcription, version 1.0'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-ai-card-coding-assistants
+  sha256: "6608da62932aa77598d4dda4602bd8c77004fc27837d41f9417ebb1dc921a855"
+  url: https://doit.maryland.gov/policies/ai/Pages/AI-powered-coding-assistants.aspx
+  format: html
+  title: 'AI Governance Card: AI-Powered Coding Assistants'
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - ai
+  found_via: DoIT's AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies
+  why_relevant: 'Listed on DoIT''s AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies. As the page prints its purpose: This governance card forms foundational guidelines for use of AI-powered coding assistants within Maryland’s State government. It builds upon the State''s existing frameworks, including ...'
+  citation: 'DoIT AI Governance Card: AI-Powered Coding Assistants, version 4.1'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-ai-card-gemini-workspace
+  sha256: "07313bcea216d7d87c13a3560ea8bcb53569bead9fe6e6118c3bee166ffd5c3d"
+  url: https://doit.maryland.gov/policies/ai/Pages/AI-governance-card-gemini-workspace.aspx
+  format: html
+  title: 'AI Governance Card: Gemini Workspace'
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - ai
+  found_via: DoIT's AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies
+  why_relevant: 'Listed on DoIT''s AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies. As the page prints its purpose: This governance card mirrors Maryland’s broader responsible AI policy, which provides guidance for standalone commercial GenAI tools. All Maryland state employees and contractors should review this policy before using Google’s Gemini Workspace.'
+  citation: 'DoIT AI Governance Card: Gemini Workspace, version 1.1'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-ai-card-mcp-servers
+  sha256: "e7aefebfa30230bc65a5e466cfe898c944d2a98abdaab8061dfd6ffa43908331"
+  url: https://doit.maryland.gov/policies/ai/Pages/MCP-Guidance-for-Responsible-and-Safe-Usage.aspx
+  format: html
+  title: MCP SERVER SECURITY
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - ai
+  - cybersecurity
+  found_via: DoIT's AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies
+  why_relevant: 'Listed on DoIT''s AI policies page and on ai.maryland.gov/state-employee-guidance/policies (as ''MCP Servers''). The page prints its scope: it applies to Maryland State employees, contractors and other authorized personnel using MCP-enabled AI tools in connection with State-owned or State-managed systems, data and devices.'
+  citation: DoIT MCP Server Security Guidance Card, version 2.0
+  identity_text: Guidance Card for Responsible and Safe Usage
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-it-security-policy
+  sha256: "b8129fd098fada0ca492008429b0f9cfb6cdd28d5c0def632436aeda07f8cfe6"
+  url: https://doit.maryland.gov/policies/ci/Pages/IT-Security-Policy.aspx
+  format: html
+  title: IT Security Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  - governance
+  found_via: DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx)
+  why_relevant: 'Listed on DoIT''s Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx). As the page prints its purpose: This document establishes the requirement that units within the Executive Branch must comply with the Information Technology Security manuals, standards, processes/procedures, and guidelines.'
+  citation: DoIT IT Security Policy
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-foreign-travel-policy
+  sha256: "ea50c73d44eaca4fd971b61d49a08fcb34e5efe2c3f40d86d9f12a3a044379ac"
+  url: https://doit.maryland.gov/policies/ci/Pages/state-information-security-foreign-travel-policy.aspx
+  format: html
+  title: State Information Security Foreign Travel Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  found_via: DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx) and DoIT's Hardware policies page, where it is listed as 'Traveling with State-Issued Technology'
+  why_relevant: 'Listed on DoIT''s Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx) and DoIT''s Hardware policies page, where it is listed as ''Traveling with State-Issued Technology''. As the page prints its purpose: This policy establishes the information security requirements and provides guidance for State employees and contingent workers traveling internationally with State issued electronic devices. The process that must be followed when traveling with State-issued electronic devices is defined below.'
+  citation: DoIT State Information Security Foreign Travel Policy, version 2.1
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-state-minimum-cybersecurity-standards
+  sha256: "2b45966352b8917c0a884095f641d21134493a601ab876aea08fea104f6beafe"
+  url: https://doit.maryland.gov/policies/ci/Pages/state-minimum-cybersecurity-standards.aspx
+  format: html
+  title: State Minimum Cybersecurity Standards
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  found_via: DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx)
+  why_relevant: 'Listed on DoIT''s Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx). As the page prints its purpose: This document establishes the State Minimum Cybersecurity Standards for each agency or unit of the Executive Branch of State government.'
+  citation: DoIT State Minimum Cybersecurity Standards, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-authentication-external-users
+  sha256: "23931272f99f41a14a5a84bf3d92cd49affca6682fe175dbce4c43fcdc24b324"
+  url: https://doit.maryland.gov/policies/ci/Pages/standards-and-guidance-for-authentication-of-external-users.aspx
+  format: html
+  title: Standards and Guidance for Authentication of External Users
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  - digital-services
+  found_via: DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx)
+  why_relevant: 'Listed on DoIT''s Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx). As the page prints its purpose: As government services transition to online delivery, validation of citizen’s digital identities is an important component of protecting the confidentiality and integrity of the data we manage. The predominant mechanism for proofing a digital identity assertion is digital authentication.'
+  citation: DoIT Standards and Guidance for Authentication of External Users, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-password-guidance
+  sha256: "10e6ddf91eae253734164f7fcb3f0aab892769dfd8c623c54b68ef0c8f09fbb3"
+  url: https://doit.maryland.gov/policies/ci/Pages/supplemental-guidance-on-passwords-and-the-use-of-password-managers.aspx
+  format: html
+  title: Supplemental Guidance on Passwords and the use of Password Managers
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  found_via: DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx)
+  why_relevant: 'Listed on DoIT''s Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx). As the page prints its purpose: Validating the identity of users is a keystone of security. The use of memorized secrets continues to be the primary mechanism to validate the identity of a user. Memorized secrets can take many forms, including ...'
+  citation: DoIT Supplemental Guidance on Passwords and Password Managers, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-incident-reporting-state-government
+  sha256: "f60fb66fedfce9537fc2fc5ddcc29fff4715e7ccda475141716e51f4a3e7619d"
+  url: https://doit.maryland.gov/policies/ci/Pages/cybersecurity-incident-reporting-requirements-for-state-governments.aspx
+  format: html
+  title: Cybersecurity Incident Reporting Requirements for State Government
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  found_via: DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx)
+  why_relevant: 'Listed on DoIT''s Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx). As the page prints its purpose: Pursuant to the requirements of Md. Code, State Finance & Procurement Article § 3.5-406(b)(2) the State Chief Information Security Officer (SCISO) must establish criteria for units of State government to report cybersecurity incidents. The law compels the SCISO to set criteria for ...'
+  citation: DoIT Cybersecurity Incident Reporting Requirements for State Government, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-emergency-binding-operational-directives-policy
+  sha256: "d945eb5e463ec2c4a265d3dd8ea036b671d9d95d450e59fea2d80e4ac612f242"
+  url: https://doit.maryland.gov/policies/ci/Pages/policy-emergency-binding-operational-directives.aspx
+  format: html
+  title: Cybersecurity Policy Emergency and Binding Operational Directives
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  - governance
+  found_via: DoIT's Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx)
+  why_relevant: 'Listed on DoIT''s Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx). As the page prints its purpose: Emergency and binding operational directives are compulsory directions to Units within the Executive Branch for purposes of safeguarding information and information systems. This policy establishes the mandate to follow the directives and the mechanism by which the State Chief Information Security Officer (SCISO) issues and communicates these mandates.'
+  citation: DoIT Cybersecurity Policy Emergency and Binding Operational Directives, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-prohibited-technologies-policy
+  sha256: "34532987e9ce647a0766a74d6a30177072037f21eb1d849ffe9d943f616fb5c2"
+  url: https://doit.maryland.gov/policies/ci/Pages/prohibited-technologies-policy.aspx
+  format: html
+  title: Prohibited Technologies Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  - procurement
+  found_via: DoIT's Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx) (as 'Prohibited Technologies Policy (E.D.)') and DoIT's policy home page (as 'Prohibited Technology Emergency Directive')
+  why_relevant: 'Listed on DoIT''s Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx) (as ''Prohibited Technologies Policy (E.D.)'') and DoIT''s policy home page (as ''Prohibited Technology Emergency Directive''). As the page prints its purpose: The Office of Security Management (OSM) is responsible for establishing security requirements for information and information systems (Md. Code, State Fin. & Proc. (“SF&P”) § 3.5-2A-04), and is headed by the State Chief Information Security Officer (State CISO) (SF&P § 3.5-2A-03).'
+  citation: DoIT Prohibited Technologies Policy (Emergency Directive), version 1.1
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-bod-statewide-vulnerability-disclosure-program
+  sha256: "0ae700feb918256565b5f2b7f856672d1949cfe3d527970e6352e32b9055b533"
+  url: https://doit.maryland.gov/policies/ci/binding-operational-directive-statewide-vulnerability-disclosure-program/Pages/default.aspx
+  format: html
+  title: Statewide Vulnerability Disclosure Program BOD 25-3
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  found_via: DoIT's Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx)
+  why_relevant: 'Listed on DoIT''s Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx). As the page prints its purpose: The objective of this Binding Operational Directive (BOD) is to define and ensure deployment and adherence to the Vulnerability Disclosure Program (VDP), as the formal authorized means for external security researchers to engage in the good faith identification of potential security vulnerabilities in State owned, operated, and/or managed systems as defined further within this ...'
+  citation: DoIT Binding Operational Directive 25-3, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-bod-mandatory-enrollment-md-isac
+  sha256: "48e95f59c794ee11e3f596ed5d648723ee26ec52db366b7f4200a9f255d9b0d6"
+  url: https://doit.maryland.gov/policies/ci/binding-operational-directive-mandatory-enrollment-MD-ISAC/Pages/default.aspx
+  format: html
+  title: Mandatory Enrollment in the Maryland Information Sharing and Analysis Center (MD-ISAC) BOD 25-01
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  found_via: DoIT's Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx)
+  why_relevant: 'Listed on DoIT''s Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx). As the page prints its purpose: This directive requires all entities of the State of Maryland to become members of the Maryland Information Sharing and Analysis Center (MD-ISAC).'
+  citation: DoIT Binding Operational Directive 25-01, version 1.0
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-bod-2026-03-06-kev
+  sha256: "c8032f4dd6be10d2a572a73d473e28cd6014e54f48b76bedf2c4cbbcb6b0dbc5"
+  url: https://doit.maryland.gov/policies/ci/cpp/Documents/Binding-Operational-Directive-2026-03-06.pdf
+  format: pdf
+  citation: DoIT Binding Operational Directive 2026-03-06
+  title: 'Binding Operational Directive 2026-03-06: Remediation of Known Exploited Vulnerabilities (KEV) on Public-Facing Assets'
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  identity_text: BINDING OPERATIONAL DIRECTIVE 2026-03-06
+  found_via: DoIT's Emergency and Binding Operational Directives page (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx) and DoIT's policy home page
+  why_relevant: Listed on DoIT's Emergency and Binding Operational Directives page (issued 2026-03) and featured on DoIT's policy home page. The directive's background says the Office of Security Management establishes security requirements for State information systems under SF&P 3.5-2A-04 and that this directive concerns remediation of known exploited vulnerabilities on public-facing assets.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-guidelines-public-disclosure-cyber-incidents
+  sha256: "6817e860dd5b6d755ea5a104fab5d37e2b309ed3710546eb458b912e76d313ef"
+  url: https://doit.maryland.gov/policies/Documents/cybersecurity/Cybersecurity-Guidelines-PDCI.pdf
+  format: pdf
+  citation: DoIT Guidelines for the Public Disclosure of Cybersecurity Incidents, version 1.0
+  title: Guidelines for the Public Disclosure of Cybersecurity Incidents
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  - data
+  identity_text: Guidelines for the Public Disclosure of
+  found_via: DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx) (also an HTML page of the same title) and DoIT's policy home page (the PDF, as 'Public Disclosure of Cybersecurity Incidents')
+  why_relevant: Guidelines the State Chief Information Security Officer established under Section 8 of SB812, Ch. 242 (2022) to determine when a cybersecurity incident is disclosed to the public; the scope lists units of the Executive Branch of State government (and, in the same list, county governments, local school boards and local health departments). Listed on DoIT's transitional governing policy list (issued 2022-10); the PDF is the file DoIT's policy home page links.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-it-security-manual-v1-2
+  sha256: "33ed648e3d7740e19851461419c3948b1fbdc7f0612d11eacfb8ecffa1316d34"
+  url: https://doit.maryland.gov/policies/ci/Documents/Maryland-IT-Security-Manual-v1-2.pdf
+  format: pdf
+  citation: State of Maryland Information Technology Security Manual, version 1.2 (June 28, 2019)
+  title: State of Maryland Information Technology Security Manual
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: INFORMATION TECHNOLOGY SECURITY MANUAL
+  found_via: DoIT's Cybersecurity & Privacy Policy Suite page, Transitional Governing Policy Documents list (https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx) (as 'IT Security Manual', last revised 2019-06)
+  why_relevant: The legacy statewide IT security manual (version 1.2, June 28, 2019). DoIT's Transitional Governing Policy Documents page lists it as remaining in transition while the Cybersecurity & Privacy Policy Suite is implemented, and the IT Security Policy requires units to comply with it.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-data-classification-policy
+  sha256: "e30b7b93a67b2caf32d4581a98c89410f61f5a8a6fc8b0d8e6ae9b04e9c3803e"
+  url: https://doit.maryland.gov/policies/ci/Pages/data-classification-policy.aspx
+  format: html
+  title: Data Classification Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - data
+  - cybersecurity
+  found_via: DoIT's Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx)
+  why_relevant: 'Listed on DoIT''s Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx). As the page prints its purpose: This policy establishes standards of information classification, providing a framework outlining security levels that promotes effective management and oversight of data to protect against unauthorized access and use.'
+  citation: DoIT Data Classification Policy, version 1.2
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-data-governance-policy
+  sha256: "2d3d3378d2ca345aa6ed7fc8be978cc1ce02ff35355451fdbf6f949b1cccc047"
+  url: https://doit.maryland.gov/policies/Websites-and-Data/Pages/Maryland-Data-Governance-Policy.aspx
+  format: html
+  title: Maryland Data Governance Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - data
+  - governance
+  found_via: DoIT's Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx)
+  why_relevant: 'Listed on DoIT''s Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx). As the page prints its purpose: Modernizing and aligning data programs across State Government is essential to efficiently advancing the State’s mission, adopting informed business practices, and delivering innovative solutions to Maryland’s constituents.'
+  citation: Policy Number OED.100.1.0.2025, Maryland Data Governance Policy, version 1.1
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-open-source-policy
+  sha256: "203c0e67e65f95f8d741c7502127f4555934038216bbbf71667551f1e0c10018"
+  url: https://doit.maryland.gov/policies/Websites-and-Data/Pages/Maryland-Open-Source-Policy.aspx
+  format: html
+  title: Maryland Open Source Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - digital-services
+  - governance
+  found_via: DoIT's Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx)
+  why_relevant: 'Listed on DoIT''s Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx). As the page prints its purpose: The Maryland Department of Information Technology (DoIT) is committed to improving how state agencies acquire, build, and deliver information technology (IT) solutions to better support cost efficiency, operational effectiveness, and the public’s experience with government programs.'
+  citation: DoIT Maryland Open Source Policy
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-website-domain-policy
+  sha256: "1927fdf65e4cef396e5f45c0dc01445295c1c3472929f18b6f8929f51b92f42e"
+  url: https://doit.maryland.gov/policies/Websites-and-Data/Pages/Maryland-gov-Website-Domain-Policy.aspx
+  format: html
+  title: Maryland.gov Website Domain Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - digital-services
+  found_via: DoIT's Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx)
+  why_relevant: 'Listed on DoIT''s Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx). As the page prints its purpose: The Maryland.gov Website Domain Policy outlines how the executive branch of the State of Maryland manages official government website domain names. This includes web addresses, unique resource locators (URLs), and related subdomains (e.g., example.maryland.gov).'
+  citation: DoIT Maryland.gov Website Domain Policy
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-desktops-laptops-policy
+  sha256: "e15d58f95c6df0d7884dccb9be01d540f10ab0d7adaa70fe1ec756063f227eec"
+  url: https://doit.maryland.gov/policies/hardware/Pages/Desktops-Laptops.aspx
+  format: html
+  title: Desktops/Laptops
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - procurement
+  - cloud-resilience
+  found_via: DoIT's Hardware policies page (https://doit.maryland.gov/policies/hardware/Pages/default.aspx)
+  why_relevant: 'Listed on DoIT''s Hardware policies page (https://doit.maryland.gov/policies/hardware/Pages/default.aspx). As the page prints its purpose: The purpose of this policy is to define DoIT requirements for computer hardware. Computers are essential equipment for the State. In order to drive compliance and adhere to DoIT standards, all types of computers should be purchased, inventoried, and disposed of using established DoIT procedures.'
+  citation: DoIT Desktop / Laptop Policy
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-teleworking-printer-guidance
+  sha256: "d84f86e2ed6ee5da6642ea2a858ebe8987f26c3c8d14f3cbedf3b769076f7db5"
+  url: https://doit.maryland.gov/policies/telework/Pages/teleworking-printer-guidance.aspx
+  format: html
+  title: Teleworking Printer Guidance
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  - data
+  found_via: DoIT's Telework policies page (https://doit.maryland.gov/policies/telework/Pages/default.aspx)
+  why_relevant: A memorandum from the State Chief Information Security Officer to agency IT leadership (08/13/2021) on employee use of personally owned printers and cloud printing services while teleworking, listed on DoIT's Telework policies page. The memo says it should not be construed as a statement of policy; it is recorded because the library lists it and it states DoIT's position for units.
+  citation: DoIT Teleworking Printer Guidance (memorandum of 08/13/2021)
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-nonvisual-access-regulatory-standards
+  sha256: "771e754c9b70db206123d0cd1e649e6d3eb51f955552f09b21d76683a766bc69"
+  url: https://doit.maryland.gov/policies/Accessibility/Pages/Nonvisual-Access-Regulatory-Standards.aspx
+  format: html
+  title: Nonvisual Access Regulatory Standards
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - digital-services
+  found_via: DoIT's Accessibility policies page (https://doit.maryland.gov/policies/Accessibility/Pages/default.aspx)
+  why_relevant: 'DoIT''s guidance page for the nonvisual access regulations (COMAR 14.33.02): it says compliance is mandatory in the procurement of information technologies and the provision of IT services by or on behalf of non-exempt units of the Executive Branch, and that solicitations must include the State''s Nonvisual Access Clause.'
+  citation: DoIT Nonvisual Access Regulatory Standards guidance (COMAR 14.33.02)
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-digital-accessibility-policy
+  sha256: "8d966cea53fb2bad59c2903f160b543d58673a9215017ac46e6415b4df29f6fc"
+  url: https://doit.maryland.gov/policies/Accessibility/Documents/Digital-Accessibility-Policy-Final.pdf
+  format: pdf
+  citation: State of Maryland Digital Accessibility Policy
+  title: State of Maryland Digital Accessibility Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - digital-services
+  identity_text: DIGITAL ACCESSIBILITY POLICY
+  found_via: DoIT's Accessibility policies page (https://doit.maryland.gov/policies/Accessibility/Pages/default.aspx; the page of the same name repeats the text and links this PDF)
+  why_relevant: Establishes the responsibilities of Maryland's Executive Branch agencies for implementing the State's nonvisual access laws and regulations and for equal access to State procured and developed information technology (purpose 1.1 and 1.3 as printed). DoIT's Accessibility page lists it as 'Maryland Digital Accessibility Policy'; the PDF's metadata title reads 'Updated_12_2_2025'.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-20-01-it-policy-program
+  sha256: "3c9aa75f18419a8099a12ac7f95a10659a90f3c6e58dbf628f77e744afebf892"
+  url: https://doit.maryland.gov/policies/Departmental/Documents/20-01-IT-Policy-Program.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-01'
+  title: IT Policy Program & Guidelines
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - governance
+  identity_text: IT Policy Program & Guidelines
+  found_via: DoIT's Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as 'IT Policy Program'); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as ''IT Policy Program''); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Implements the Department of Information Technology (DoIT) Secretary’s memorandum of November 15, 2019 (Attachment 1), which establishes an online IT Policy Catalog and an IT Policy Review Board. Provides the process for policy development, approval, posting, modification, and use by planning and operations groups at DoIT and other State agencies.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-20-03-enterprise-architecture
+  sha256: "072923e31d0c4b46fca33dd80d80addcf2fafb83e3a189afeb3fd6dafe0051bc"
+  url: https://doit.maryland.gov/policies/Departmental/Documents/20-03-Enterprise-Architecture.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-03'
+  title: Enterprise Architecture Methods
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - governance
+  - cloud-resilience
+  identity_text: Enterprise Architecture Methods
+  found_via: DoIT's Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as 'Enterprise Architecture'); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as ''Enterprise Architecture''); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Provide state-wide government standards for using enterprise architecture concepts and methods.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-special-it-request-portfolio
+  sha256: "980d1b23b26efca937368484c0d9cd68952ee4dbe243de193765e23f6ae2a922"
+  url: https://doit.maryland.gov/policies/Departmental/Documents/20-05-Intake-Request-Process.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-06 (file 20-05-Intake-Request-Process.pdf)'
+  title: Special IT Request Portfolio
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - governance
+  - oversight
+  identity_text: Special IT Request Portfolio
+  found_via: DoIT's Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as 'Intake Process'; the PDF prints number 20-06); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as ''Intake Process''; the PDF prints number 20-06); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Provide a framework for how Special IT Requests shall be managed from inception to completion.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-20-11-electronic-communication-recording
+  sha256: "08018a7c1668326d585203fb4ae3047a6fcd81187dd63e6c137784a301f24ebf"
+  url: https://doit.maryland.gov/policies/Departmental/Documents/20-11-Electronic-Recordings.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-11 (the PDF prints #20-24 in its page footer)'
+  title: Electronic Communication Recording and Storage
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - data
+  - cybersecurity
+  identity_text: Electronic Communication Recording and Storage
+  found_via: DoIT's Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as 'Communication Recordings'; also listed under the transitional governing policies); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as ''Communication Recordings''; also listed under the transitional governing policies); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Establish requirements for the recording and storage of electronic communications. The increased adoption of online collaboration tools and the legal implications around the recording and storage of electronic communications creates the need for this policy.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-20-13-resource-sharing-agreement-programs
+  sha256: "a6f0086b5dc505610effb02fbad67e87a67155e2fd7640177404cf885eec8a66"
+  url: https://doit.maryland.gov/policies/Departmental/Documents/20-13-Resource-Sharing-Agreements.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-13'
+  title: Resource Sharing Agreement Programs
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - governance
+  - cloud-resilience
+  identity_text: Resource Sharing Agreement Programs
+  found_via: DoIT's Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as 'RSA Programs'); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as ''RSA Programs''); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: To establish a comprehensive programmatic framework to which all State information technology (IT) Resource Sharing Agreements (RSAs) subject to DoIT oversight will adhere.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-21-01-key-terms
+  sha256: "8ebfa5e8a0d43331806e71484537eba3f9894ae904244bda2001ac86609ca313"
+  url: https://doit.maryland.gov/policies/Departmental/Documents/21-01-Key-Terms.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #21-01'
+  title: Key Terms, Definitions, and Abbreviations
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - governance
+  identity_text: Key Terms, Definitions, and Abbreviations
+  found_via: DoIT's Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as 'Key Terms'); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (listed as ''Key Terms''); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Establish a list of key term definitions and abbreviations for use by DoIT and other State units.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-20-08-it-security-boundary-protection
+  sha256: "a524889f52df686cd2bb003ee084f523dbb125615cf84793b74f06d52e3a67f4"
+  url: https://doit.maryland.gov/policies/hardware/Documents/20-08-IT-Boundary-Protection.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-08'
+  title: IT Security Boundary Protection Baseline
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  identity_text: IT Security Boundary Protection Baseline
+  found_via: DoIT's hardware policies page (https://doit.maryland.gov/policies/hardware/Pages/default.aspx) (listed as 'Boundary Protection'); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s hardware policies page (https://doit.maryland.gov/policies/hardware/Pages/default.aspx) (listed as ''Boundary Protection''); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Establishes the requirement that units within the Executive Branch must utilize a documented baseline standard for boundary devices, ensure that the standard is followed, and audit devices to ensure compliance.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-20-06-mitdp-funds-distribution-procedure
+  sha256: "4de9360ec92dcd3d87007a37f2bbd2cdc0c8db53ea449eb7513a8f40edfaa313"
+  url: https://doit.maryland.gov/policies/mitdp/Documents/20-06-MITDP-Fund-Disbursements.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-06 (MITDP Funds Distribution Procedure)'
+  title: MITDP Funds Distribution Procedure
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - oversight
+  - funding
+  identity_text: MITDP Funds Distribution Procedure
+  found_via: DoIT's mitdp policies page (https://doit.maryland.gov/policies/mitdp/Pages/default.aspx) (listed as 'MITDP Fund Disbursements'); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s mitdp policies page (https://doit.maryland.gov/policies/mitdp/Pages/default.aspx) (listed as ''MITDP Fund Disbursements''); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Establishes the procedure for to be used when requesting disbursement of funds for a designated Major IT Development Project (MITDP).'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-20-02-mitdp-procedures
+  sha256: "a2cbb052bddc89ff1906833816389a1a17e0bc842f9cc35c62ca85028c180e6a"
+  url: https://doit.maryland.gov/policies/mitdp/Documents/20-02-MITDP-Procedures.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-02'
+  title: Major IT Development Process (MITDP) Procedures
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - oversight
+  - funding
+  identity_text: Major IT Development Process (MITDP) Procedures
+  found_via: DoIT's mitdp policies page (https://doit.maryland.gov/policies/mitdp/Pages/default.aspx) (listed as 'MITDP Procedures'); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s mitdp policies page (https://doit.maryland.gov/policies/mitdp/Pages/default.aspx) (listed as ''MITDP Procedures''); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Establishes procedures for system development plans, system implementation, and oversight of Major IT Development Projects (MITDP), for appropriations made to an MITDP; requires that Units comply with standards adopted by the Department of Information Technology (Department);'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-policy-20-10-it-equipment-support-for-telework
+  sha256: "6677d1b7712296d6df2053a54dd147aa844021e81cbcf715025d9cd3a8c6189a"
+  url: https://doit.maryland.gov/policies/telework/Documents/20-10-IT-Support-for-Telework.pdf
+  format: pdf
+  citation: 'DoIT Policy/Standard #20-10'
+  title: IT Equipment Support for Telework
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - cloud-resilience
+  identity_text: IT Equipment Support for Telework
+  found_via: DoIT's telework policies page (https://doit.maryland.gov/policies/telework/Pages/default.aspx) (listed as 'IT Support for Telework'); the signed PDF, which the listing's own page says prevails over the page text
+  why_relevant: 'Listed on DoIT''s telework policies page (https://doit.maryland.gov/policies/telework/Pages/default.aspx) (listed as ''IT Support for Telework''); the signed PDF, which the listing''s own page says prevails over the page text. As the policy prints its purpose: Provide guidance on the process for Maryland State agencies to use in managing Accountable information technology (IT) assets that used to support employee and contractor telework.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-ea-handbook
+  sha256: "4415c4d35d066aafc7653139cf558648b1c6a4813ed5ddb4a7ebff4d0d213327"
+  url: https://doit.maryland.gov/policies/Departmental/Documents/DoIT-EA-Handbook.pdf
+  format: pdf
+  citation: Maryland State Enterprise Architecture Handbook, Version 1D
+  title: Maryland State Enterprise Architecture Handbook
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - governance
+  - cloud-resilience
+  identity_text: Enterprise Architecture Handbook
+  found_via: 'DoIT''s Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (the ''Enterprise Architecture'' page links it as the Handbook; Policy #20-03 names it as its technical specifications)'
+  why_relevant: 'The Handbook that DoIT Policy #20-03 (Enterprise Architecture Methods) names as its ''Technical Specifications'': the State''s enterprise architecture framework and methods, version 1D, with ''Department of Information Technology, 2020'' printed on its pages.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-rsa-program-policy-manual
+  sha256: "1e7ab48a223100c12b911e5ed1a7f2ffa26f11b6a81a80b26ff532a80e67d17a"
+  url: https://doit.maryland.gov/policies/Departmental/Documents/DoIT-RSA-Program-Policy.pdf
+  format: pdf
+  citation: DoIT Resource Sharing Agreements Program Policy (last update 01 November 2023)
+  title: Resource Sharing Agreements Program Policy
+  doc_type: policy
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - governance
+  - cloud-resilience
+  identity_text: Resource Sharing Agreement Policy
+  found_via: 'DoIT''s Departmental policies page (https://doit.maryland.gov/policies/Departmental/Pages/default.aspx) (the ''RSA Programs'' page links it as the IT RSA Program Policy Manual, the attachment of Policy #20-13)'
+  why_relevant: 'The Resource Sharing Agreements Program Policy (last update 01 November 2023) that DoIT Policy #20-13 attaches as its procedures: the framework for State information technology proposals involving resource sharing or the disposition of communications facilities or frequencies subject to DoIT oversight, under SF&P 3.5-307 and 3.5-308. The PDF''s text layer carries character errors (for example ''ofthe'' and ''faci lities''); they are kept as published.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-mitdp-standards-manual
+  sha256: "11ab3c4b594ddd6d3a9c8bc74e0d41e7bb1d470ff00334adc15a5811a0c5f45a"
+  url: https://doit.maryland.gov/policies/mitdp/Documents/EPMO-MITDP-Standards-Manual-DRAFT-V4.pdf
+  format: pdf
+  citation: EPMO MITDP Standards Manual
+  title: Major Information Technology Development Projects (MITDP) Standards Manual
+  doc_type: standard
+  issuing_body: Maryland Department of Information Technology
+  tags:
+  - oversight
+  - funding
+  identity_text: Standards Manual
+  found_via: DoIT's MITDP policies page, page 'MITDP Procedures' (https://doit.maryland.gov/policies/mitdp/Pages/MITDP-Procedures.aspx), which names it as the standards manual covered units must comply with
+  why_relevant: 'The MITDP standards manual that DoIT Policy #20-02 says the Department has adopted and covered units are required to comply with (determinations, the SDLC, oversight, reporting, health assessments, IV&V, re-baselining and closeout). The file name ends ''DRAFT-V4'' and the PDF''s metadata Subject reads ''EPMO-MITDP-Standards-Manual-DRAFT-V4'' (pdfinfo; the document''s pages print no draft marking) while DoIT''s MITDP Procedures page links this file as the manual in force. Seeded on that basis, owner decision, reviewed together with the nine suite standards left out for a DRAFT cover marking (see the left-out record).'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-eo-01-01-2024-02
+  sha256: "efe8079107c7cb7498e1c973a2653e70b87c275ffef21bfabc9d08c654e07336"
+  url: https://raw.githubusercontent.com/maryland-dsd/law-html/publication/2026-10-26/us/md/exec/comar/01.01.2024.02/index.html
+  format: html
+  citation: Executive Order 01.01.2024.02
+  title: Catalyzing the Responsible and Productive Use of Artificial Intelligence in Maryland State Government
+  doc_type: executive_order
+  issuing_body: Office of the Governor; published by the Division of State Documents in the Code of Maryland Regulations (COMAR title 01, subtitle 01)
+  tags:
+  - ai
+  - governance
+  found_via: COMAR title 01 subtitle 01 (Executive Orders), year index pages 01.01.1971 to 01.01.2026 in the maryland-dsd/law-html publication of 2026-10-26
+  why_relevant: 'Governor Moore''s executive order of January 8, 2024 on State agencies'' use of artificial intelligence: definitions, principles (fairness, privacy, safety, validity and others) and the directions it gives State agencies. Listed on the Governor''s Executive Orders page (EO# 01.01.2024.02) and in COMAR; DoIT''s AI governance cards cite it.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-eo-01-01-2019-07
+  sha256: "4319c30ef03fe35672a109e5055e93739427963ea93779b67ec8d6e7bb13c39e"
+  url: https://raw.githubusercontent.com/maryland-dsd/law-html/publication/2026-10-26/us/md/exec/comar/01.01.2019.07/index.html
+  format: html
+  citation: Executive Order 01.01.2019.07
+  title: Maryland Cyber Defense Initiative
+  doc_type: executive_order
+  issuing_body: Office of the Governor; published by the Division of State Documents in the Code of Maryland Regulations (COMAR title 01, subtitle 01)
+  tags:
+  - cybersecurity
+  - governance
+  found_via: COMAR title 01 subtitle 01 (Executive Orders), year index pages 01.01.1971 to 01.01.2026 in the maryland-dsd/law-html publication of 2026-10-26
+  why_relevant: Creates the Maryland Cyber Defense Initiative, the State Chief Information Security Officer and the Office of Security Management within DoIT, responsible for the cybersecurity strategy and policy of the Executive Branch (effective June 18, 2019). DoIT's IT Security Policy page cites it as the Office's authorization.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-eo-01-01-2021-09
+  sha256: "7a0e4fa73df3561b9965a411d88e9eb8ac20c20e66b6bd17735e5223e161122b"
+  url: https://raw.githubusercontent.com/maryland-dsd/law-html/publication/2026-10-26/us/md/exec/comar/01.01.2021.09/index.html
+  format: html
+  citation: Executive Order 01.01.2021.09
+  title: State Chief Data Officer
+  doc_type: executive_order
+  issuing_body: Office of the Governor; published by the Division of State Documents in the Code of Maryland Regulations (COMAR title 01, subtitle 01)
+  tags:
+  - data
+  - governance
+  found_via: COMAR title 01 subtitle 01 (Executive Orders), year index pages 01.01.1971 to 01.01.2026 in the maryland-dsd/law-html publication of 2026-10-26
+  why_relevant: Creates the State Chief Data Officer in the Office of the Governor to direct the use and management of data by State units, to receive an inventory of State unit data and to produce a State Data Strategic Plan (effective July 29, 2021). DoIT's Data Governance Policy cites it.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-eo-01-01-2021-10
+  sha256: "5250f79ede08af50a8e4aa3872e61ca93480c8ab1bc83174bf852fc46ede11a8"
+  url: https://raw.githubusercontent.com/maryland-dsd/law-html/publication/2026-10-26/us/md/exec/comar/01.01.2021.10/index.html
+  format: html
+  citation: Executive Order 01.01.2021.10
+  title: Maryland Data Privacy
+  doc_type: executive_order
+  issuing_body: Office of the Governor; published by the Division of State Documents in the Code of Maryland Regulations (COMAR title 01, subtitle 01)
+  tags:
+  - data
+  - cybersecurity
+  found_via: COMAR title 01 subtitle 01 (Executive Orders), year index pages 01.01.1971 to 01.01.2026 in the maryland-dsd/law-html publication of 2026-10-26
+  why_relevant: Sets privacy and security duties for State units for personally identifiable information, including agency privacy officers (effective July 29, 2021).
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-eo-01-01-2022-03
+  sha256: "50ddd36a4d2b0e3a783bcb1699d7f8ad959f96f86d5ce48454557ba24feeceb0"
+  url: https://raw.githubusercontent.com/maryland-dsd/law-html/publication/2026-10-26/us/md/exec/comar/01.01.2022.03/index.html
+  format: html
+  citation: Executive Order 01.01.2022.03
+  title: Maryland Total Human-services Integrated Network
+  doc_type: executive_order
+  issuing_body: Office of the Governor; published by the Division of State Documents in the Code of Maryland Regulations (COMAR title 01, subtitle 01)
+  tags:
+  - governance
+  - data
+  - cloud-resilience
+  found_via: COMAR title 01 subtitle 01 (Executive Orders), year index pages 01.01.1971 to 01.01.2026 in the maryland-dsd/law-html publication of 2026-10-26
+  why_relevant: 'Governs the MD THINK platform, the shared human-services technology platform: the MD THINK Committee, Executive Director, operator and participating units, which must act consistently with the Secretary of Information Technology''s policies, procedures and standards and the Statewide Information Technology Master Plan. This order amends and restates Executive Order 01.01.2021.11, which is therefore not seeded.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-eo-01-01-2007-26
+  sha256: "6aa6f1da6cee62fb4499e65046e877cdb30b3490ef9327888b6137ad1c0f9ae4"
+  url: https://raw.githubusercontent.com/maryland-dsd/law-html/publication/2026-10-26/us/md/exec/comar/01.01.2007.26/index.html
+  format: html
+  citation: Executive Order 01.01.2007.26
+  title: Information Technology
+  doc_type: executive_order
+  issuing_body: Office of the Governor; published by the Division of State Documents in the Code of Maryland Regulations (COMAR title 01, subtitle 01)
+  tags:
+  - governance
+  - oversight
+  found_via: COMAR title 01 subtitle 01 (Executive Orders), year index pages 01.01.1971 to 01.01.2026 in the maryland-dsd/law-html publication of 2026-10-26
+  why_relevant: Directs chief information officers of principal departments to cooperate with the Chief of Information Technology on streamlining and consolidating IT projects and on security and disaster recovery planning (effective November 30, 2007). Its COMAR file prints no note of rescission or amendment; later orders were not searched for one.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-eo-01-01-1983-18
+  sha256: "031e7a92648875abfd83b99d53c9cd859727c3142fbee2c7bd5f35c4c2246899"
+  url: https://raw.githubusercontent.com/maryland-dsd/law-html/publication/2026-10-26/us/md/exec/comar/01.01.1983.18/index.html
+  format: html
+  citation: Executive Order 01.01.1983.18
+  title: Privacy and State Data System Security
+  doc_type: executive_order
+  issuing_body: Office of the Governor; published by the Division of State Documents in the Code of Maryland Regulations (COMAR title 01, subtitle 01)
+  tags:
+  - data
+  - cybersecurity
+  found_via: COMAR title 01 subtitle 01 (Executive Orders), year index pages 01.01.1971 to 01.01.2026 in the maryland-dsd/law-html publication of 2026-10-26
+  why_relevant: Directs State agencies to follow principles of information practice for personal record systems, including safeguards for the security of public records (effective October 24, 1983). Its COMAR file prints no note of rescission or amendment and lists COMAR 11.15.31.11D(4)(c)(i) as a cross reference; later orders were not searched for a rescission.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-comar-14-33
+  sha256: "ce9f26c48f9ce1977b405f01e5f2eb9074d9a7f71a802161382a1c5950356653"
+  url: https://raw.githubusercontent.com/maryland-dsd/law-html/publication/2026-10-26/us/md/exec/comar/14.33/index.full.html
+  format: html
+  citation: COMAR 14.33 (Title 14, Subtitle 33)
+  title: Subtitle 33 DEPARTMENT OF INFORMATION TECHNOLOGY
+  doc_type: rule
+  issuing_body: Maryland Department of Information Technology; published by the Division of State Documents in the Code of Maryland Regulations
+  tags:
+  - digital-services
+  - procurement
+  found_via: COMAR title 14 contents page (the only subtitle named for the Department of Information Technology) in the maryland-dsd/law-html publication of 2026-10-26
+  why_relevant: 'The Department of Information Technology''s regulations: chapter 01 (definitions and general provisions, including which units the subtitle covers) and chapter 02 (Information and Communication Technology Nonvisual Access Standards for the procurement of ICT and ICT services by or on behalf of agencies, .01 to .11 as the publisher prints it). Contradiction in the publisher''s file, owner decision (see the left-out record): chapter 02''s Administrative History says ''Regulations .03—.11 repealed effective March 7, 2022 (49:5 Md. R. 366)'' and then that only ''Regulations .03—.06 adopted'' and ''Regulation .12 amended and recodified to be Regulation .07'' on that date, yet the same file and the subtitle''s contents page still print .08 to .11, which cite ''Regulation .06D(1) and (2)'' (the current .06 has no such paragraph) and repeat a second ''Functional Performance Criteria'' (.10); those four may be repealed text the publisher did not remove, and are in this document as printed. The file is the Division of State Documents'' full-subtitle HTML; chapter 02 is published in it as one file.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies
+  url: https://doit.maryland.gov/policies/Pages/default.aspx
+  format: html
+  citation: DoIT Policies & Guidance (home of the statewide IT policy library)
+  title: DoIT Policies & Guidance (home of the statewide IT policy library)
+  doc_type: policy
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: 'The statewide policy library''s home: it links the eight category pages and features recent items. A new category or featured instrument raises a review report.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies-accessibility
+  url: https://doit.maryland.gov/policies/Accessibility/Pages/default.aspx
+  format: html
+  citation: 'DoIT Policies: Accessibility'
+  title: 'DoIT Policies: Accessibility'
+  doc_type: policy
+  tags:
+  - digital-services
+  watch_only: true
+  why_relevant: Category page of DoIT's policy library (Accessibility). An item added, replaced or removed here raises a review-the-seed-list report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies-ai
+  url: https://doit.maryland.gov/policies/ai/Pages/default.aspx
+  format: html
+  citation: 'DoIT Policies: AI'
+  title: 'DoIT Policies: AI'
+  doc_type: policy
+  tags:
+  - ai
+  watch_only: true
+  why_relevant: Category page of DoIT's policy library (AI). An item added, replaced or removed here raises a review-the-seed-list report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies-ci
+  url: https://doit.maryland.gov/policies/ci/Pages/default.aspx
+  format: html
+  citation: 'DoIT Policies: Cybersecurity & Privacy Policy Suite'
+  title: 'DoIT Policies: Cybersecurity & Privacy Policy Suite'
+  doc_type: policy
+  tags:
+  - cybersecurity
+  watch_only: true
+  why_relevant: Category page of DoIT's policy library (Cybersecurity & Privacy Policy Suite). An item added, replaced or removed here raises a review-the-seed-list report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies-departmental
+  url: https://doit.maryland.gov/policies/Departmental/Pages/default.aspx
+  format: html
+  citation: 'DoIT Policies: Departmental'
+  title: 'DoIT Policies: Departmental'
+  doc_type: policy
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: Category page of DoIT's policy library (Departmental). An item added, replaced or removed here raises a review-the-seed-list report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies-hardware
+  url: https://doit.maryland.gov/policies/hardware/Pages/default.aspx
+  format: html
+  citation: 'DoIT Policies: Hardware'
+  title: 'DoIT Policies: Hardware'
+  doc_type: policy
+  tags:
+  - cloud-resilience
+  watch_only: true
+  why_relevant: Category page of DoIT's policy library (Hardware). An item added, replaced or removed here raises a review-the-seed-list report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies-mitdp
+  url: https://doit.maryland.gov/policies/mitdp/Pages/default.aspx
+  format: html
+  citation: 'DoIT Policies: MITDP'
+  title: 'DoIT Policies: MITDP'
+  doc_type: policy
+  tags:
+  - oversight
+  watch_only: true
+  why_relevant: Category page of DoIT's policy library (MITDP). An item added, replaced or removed here raises a review-the-seed-list report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies-telework
+  url: https://doit.maryland.gov/policies/telework/Pages/default.aspx
+  format: html
+  citation: 'DoIT Policies: Telework'
+  title: 'DoIT Policies: Telework'
+  doc_type: policy
+  tags:
+  - cloud-resilience
+  watch_only: true
+  why_relevant: Category page of DoIT's policy library (Telework). An item added, replaced or removed here raises a review-the-seed-list report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-policies-websites-and-data
+  url: https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx
+  format: html
+  citation: 'DoIT Policies: Websites and Data'
+  title: 'DoIT Policies: Websites and Data'
+  doc_type: policy
+  tags:
+  - data
+  watch_only: true
+  why_relevant: Category page of DoIT's policy library (Websites and Data). An item added, replaced or removed here raises a review-the-seed-list report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-directives
+  url: https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Emergency-and-Binding-Operational-Directives.aspx
+  format: html
+  citation: DoIT Emergency and Binding Operational Directives
+  title: DoIT Emergency and Binding Operational Directives
+  doc_type: policy
+  tags:
+  - cybersecurity
+  watch_only: true
+  why_relevant: Lists the active Emergency Directives and Binding Operational Directives. A new or rescinded directive raises a review report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-doit-transitional-policies
+  url: https://doit.maryland.gov/policies/ci/cpp/Pages/Cybersecurity-and-Privacy-Policy-Transitional-Governing-Policy-Documents.aspx
+  format: html
+  citation: DoIT Transitional Governing Policy Documents
+  title: DoIT Transitional Governing Policy Documents
+  doc_type: policy
+  tags:
+  - cybersecurity
+  watch_only: true
+  why_relevant: Lists the legacy and transitional cybersecurity policy documents that stay in force while the Cybersecurity & Privacy Policy Suite is implemented. A document moving out when the suite replaces it raises a review report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-ai-maryland-policies
+  url: https://ai.maryland.gov/state-employee-guidance/policies
+  format: html
+  citation: 'ai.maryland.gov: State Employee Guidance, Policies'
+  title: 'ai.maryland.gov: State Employee Guidance, Policies'
+  doc_type: policy
+  tags:
+  - ai
+  watch_only: true
+  why_relevant: The AI portal's second listing of the State's AI policy and governance cards; a card added here raises a review report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-ai-maryland-legislation
+  url: https://ai.maryland.gov/ai-maryland/legislation
+  format: html
+  citation: 'ai.maryland.gov: AI legislation passed by Maryland'
+  title: 'ai.maryland.gov: AI legislation passed by Maryland'
+  doc_type: statute
+  tags:
+  - ai
+  watch_only: true
+  why_relevant: 'The AI portal''s list of AI legislation by year (read 2026-11-11: 2024 to 2026). A new act raises a review report for the statute seed list.'
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-governor-executive-orders
+  url: https://governor.maryland.gov/official-actions/executive-orders
+  format: html
+  citation: Governor's Executive Orders list
+  title: Governor's Executive Orders list
+  doc_type: executive_order
+  tags:
+  - ai
+  - governance
+  watch_only: true
+  why_relevant: The Governor's list of executive orders (117 on 2026-11-11, all Governor Moore's; the list has a keyword filter and no governor filter). A new order raises a review report.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-comar-14-33
+  url: https://regs.maryland.gov/us/md/exec/comar/14.33
+  format: html
+  citation: 'COMAR Title 14, Subtitle 33 (DoIT): contents page'
+  title: 'COMAR Title 14, Subtitle 33 (DoIT): contents page'
+  doc_type: rule
+  tags:
+  - digital-services
+  watch_only: true
+  why_relevant: The Library of Maryland Regulations contents page of DoIT's subtitle (chapters 01 and 02 on 2026-11-11). A new chapter raises a review report. The site asks readers not to scrape and offers bulk downloads, so this one page is the only page of that site watched.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-watch-mitdp-sdlc
+  url: https://maryland-gov.github.io/mitdp/sdlc/
+  format: html
+  citation: Maryland System Development Life Cycle (SDLC), MITDP Oversight
+  title: Maryland System Development Life Cycle (SDLC), MITDP Oversight
+  doc_type: standard
+  tags:
+  - oversight
+  watch_only: true
+  why_relevant: DoIT's SDLC guide for Major IT Development Projects (version 1.3, updated Oct 21, 2026 as printed), published on the State's maryland-gov GitHub Pages site and linked from DoIT's MITDP Oversight page. Not seeded as a document (see the left-out notes); watched so a change is reported.
+  recheck: monthly
+  jurisdiction: maryland
+- id: md-doit-open-data-portal-policy-and-standards
+  url: https://opendata.maryland.gov/Administrative/Open-Data-Portal-Policy-and-Standards/axj6-iyhf/about_data
+  format: html
+  citation: Open Data Portal Policy and Standards
+  title: Open Data Portal Policy and Standards
+  doc_type: policy
+  issuing_body: State of Maryland (opendata.maryland.gov)
+  tags:
+  - data
+  - digital-services
+  stub: true
+  stub_reason: Text not obtainable from the bytes the Fetcher gets, measured 2026-11-11. DoIT's Websites and Data policies page links this address; it answered 200 and redirected to https://opendata.maryland.gov/Administrative/Open-Data-Portal-Standards/axj6-iyhf (page title 'Open Data Portal Standards'; 546,824 bytes), a script-rendered Socrata dataset page whose HTML holds 43 lines of text, all site navigation (menu, sign-in, county links) and no policy text. The dataset's content is loaded by script from the portal's own data API, which this corpus does not call. Becomes a document when a static official copy of the policy is found.
+  found_via: DoIT's Websites and Data policies page (https://doit.maryland.gov/policies/Websites-and-Data/Pages/default.aspx)
+  why_relevant: 'Listed on DoIT''s Websites and Data policies page as ''Open Data Portal Policy and Standards'': the policy and standards for the State''s open data portal.'
+  recheck: monthly
+  jurisdiction: maryland
+left_out:
+- text: |-
+    ---- Maryland: found and left out (each was seen on an official page on 2026-11-11; the reason is recorded here). 'Owner decision' marks a judgment call a reviewer should confirm.
+- text: |-
+    Rules: COMAR title 14, subtitle 33 (Department of Information Technology; chapter 01 and chapter 02, nonvisual access) is seeded as one document. The Title 14 contents page (maryland-dsd/law-html, publication/2026-10-26, comar/14/index.html) lists 'Subtitle 33 DEPARTMENT OF INFORMATION TECHNOLOGY' and the subtitle's contents page lists those two chapters only. No chapter implements the DoIT regulations that SF&P 3.5-404 and 3.5-406 mention (certification of compliance with minimum security standards, local cybersecurity preparedness plans): DoIT's page on minimum security standards for networkMaryland says the frequency is 'not yet established in regulation'. The contents pages of other COMAR titles were not read, so a DoIT-related rule filed under another agency's title would not have been found; a search for 'Information' or 'Technolog' in the Title 14 subtitle names found only subtitle 33.
+- text: |-
+    Source of the COMAR text and of the executive orders, owner decision: the Library of Maryland Regulations (regs.maryland.gov) prints on every page 'Please do not scrape. Instead, bulk download the CC BY-NC-SA-4.0 HTML or XML or CC0 HTML or XML' (github.com/maryland-dsd/law-html and law-xml-codified, and the -cc0 copies), licenses the version it serves under CC BY-NC-SA 4.0 with copyright held by the State of Maryland, and says it is dedicated to the public domain under CC0 1.0 180 days after publication. Its robots.txt (fetched 2026-11-11) allows all paths for the agent '*' except '/_*', carries 'Content-signal: search=yes,ai-train=no', and disallows by name Amazonbot, Applebot-Extended, Bytespider, CCBot, ClaudeBot, Google-Extended, GPTBot and meta-externalagent; this corpus's agent (OregonAI-CivicCorpus) is none of those and the Fetcher does not enforce robots.txt. To follow the 'do not scrape' request the seed takes the text from the Division of State Documents' own bulk publication, the CC BY-NC-SA HTML repository at its dated branch publication/2026-10-26 (raw.githubusercontent.com, 2 pages for the rule and the contents pages, one file per order), not from regs.maryland.gov. The Fetcher read regs.maryland.gov for four pages only (robots.txt, the home page, the section page COMAR 14.33.02.01 while the layout was being discovered, and the 14.33 contents page that is the one watched page). Consequences for the owner: (1) the NC term of CC BY-NC-SA and the ai-train=no signal bear on whether this corpus may mirror these pages; (2) the seed urls name a dated branch, so the monthly drift run will never see a change there: the watched contents page is the only detector, and the seed needs a new branch name after each publication (the repository's default branch changes with each one).
+- text: |-
+    Statutes: seeded as seven documents (State Finance and Procurement Article title 3.5, subtitles 1 and 2, 2A, 3, 4, 8 and 9, and State Government Article 10-1301 to 10-1308). The General Assembly's site serves one section per page and its section list and Previous/Next buttons are fed by its internal API, which this corpus does not call, so the sections were found by requesting each number in these ranges through the Fetcher (the page answers 200 with 'File Not Found' for a number that does not exist), in the view 'in effect as of October 1st of this year' (enactments=true, the site's default): State Finance and Procurement 3.5-101 to 3.5-119, 3.5-201 to 3.5-215, 3.5-2A-01 to 3.5-2A-11, 3.5-301 to 3.5-325, 3.5-401 to 3.5-415, 3.5-501 to 3.5-515, 3.5-601 to 3.5-611, 3.5-701 to 3.5-711, 3.5-801 to 3.5-811, 3.5-901 to 3.5-925, 3.5-1001 to 3.5-1003; State Government 10-1301 to 10-1311 and 9-2901 to 9-2905. Sections found: 3.5-101, 3.5-201 to 3.5-205, 3.5-2A-01 to 3.5-2A-06, 3.5-301 to 3.5-315, 3.5-317 to 3.5-319, 3.5-401 to 3.5-406, 3.5-701 and 3.5-702, 3.5-801 to 3.5-807, 3.5-901 to 3.5-907, 10-1301 to 10-1308 and 9-2901; every other number in the ranges returned 'File Not Found' (3.5-316 is cited as the 'Modernize Maryland Commission' section by 3.5-317 and returned none). A section outside those ranges, or a subtitle with letters other than 2A, would not have been found. A first listing taken in the January 1 view (enactments=false) lacked 3.5-319 and ended its subtitle 9 at 3.5-905, which is why the October 1 view is the one seeded. The statute documents are bundles of the listed sections, so the monthly drift run, which reads each entry's url (the first section only), will report them as changed every month until corpus-toolkit can recheck a multi-page source (the same limit the California slices have).
+- text: |-
+    Statute sections found and left out: 3.5-701 and 3.5-702 (the Department of Aging's Senior Call-Check and Social Connections Program, filed in title 3.5 but a service program, not IT governance); State Government 9-2901 (Maryland Cybersecurity Council: a council in the Attorney General's office whose members include private-sector and higher-education representatives and whose subject is cybersecurity of the State's critical infrastructure generally, not the security of State systems; owner decision, it would belong with 3.5-2A on the playbook's cybersecurity item). Subtitle 3 carries along 3.5-313 (the State payment-data website) and subtitle 4 carries 3.5-406 (local governments) because the seed takes whole subtitles; subtitle 8 carries 3.5-807 (the Workgroup on Artificial Intelligence Implementation, which includes industry members and is printed as effective until June 30, 2029).
+- text: |-
+    Statutes not read: breach and data statutes outside State Government 10-1301 to 10-1308 that bind private businesses (the Commercial Law personal-information protection act, the online data privacy act), Public Safety 14-104.1 (local government incident reporting, cited by DoIT's local-government pages), the Public Information Act, State records and archives statutes, and procurement law outside title 3.5 (State Finance and Procurement division II): the playbook leaves procurement-code sections out pending an owner decision on section-level slicing, and the others were not fetched. They are named here so a reviewer can say whether any belongs.
+- text: |-
+    AI legislation: the AI portal's list of laws (https://ai.maryland.gov/ai-maryland/legislation, updated July 29, 2026, watched) names SB 818 (2024, Ch. 496), the Artificial Intelligence Governance Act of 2024, which is codified in 3.5-801 to 3.5-807 (seeded); SB 114 (2026, Ch. 434, a 3-1-1 expansion program using AI and an oversight board) and SB 1068/HB 1141 (2024, Ch. 450, a DoIT evaluation of a 3-1-1 portal that may use AI): service-program and study provisions, not governance of State IT, and not fetched; SB 597 (2026, Ch. 633, the Maryland Artificial Intelligence Partnership in the University System of Maryland: a university program); HB 956 (2025, Ch. 105, the Workgroup, codified at 3.5-807 and carried by the seeded subtitle); HB 820 (2025, Ch. 747, AI in health insurance utilization review: binds insurers, private); SB 294 (2025, Ch. 628, the Maryland Cybersecurity Council's AI and quantum scope: see 9-2901 above). Owner decision on the 3-1-1 acts. A search of the sections read found no other Maryland statute on State agency use of AI; the Code was not searched in full.
+- text: |-
+    Executive orders: the Governor's list (https://governor.maryland.gov/official-actions/executive-orders, watched; 117 orders on 3 pages, all Governor Moore's 2023 to 2026 orders; the page has a keyword filter and no filter by governor) and the Division of State Documents' year index pages for 2015 to 2026 (92 titles read for 2015 to 2026, and 92 more for 1971 to 2014, of which seven year pages do not exist: 1974 to 1977, 1979, 1982, 1997) were read. Seeded: 01.01.2024.02 (AI), 01.01.2019.07 (Cyber Defense Initiative), 01.01.2021.09 (State Chief Data Officer), 01.01.2021.10 (Maryland Data Privacy), 01.01.2022.03 (MD THINK), 01.01.2007.26 (Information Technology), 01.01.1983.18 (Privacy and State Data System Security). Left out: 01.01.2021.11 (MD THINK; amended and restated in full by 01.01.2022.03, whose text differs by the added definitions and the Executive Director; the older order is not in force as printed); 01.01.2025.06 (Statewide Digital Infrastructure Group in DoIT: coordination of wired and wireless communications and broadband infrastructure, which the domain file excludes as broadband and telecom; owner decision because it sits in DoIT and names 'digital information technology infrastructure'); 01.01.2023.05 (Council on Innovation and Impact), 01.01.2025.08 (Office of Performance Improvement), 01.01.2024.25 (Plain Language Initiative), 01.01.2024.20 (communications interoperability: public safety), 01.01.2024.38 and 01.01.2023.03 (procurement and minority business reporting generally), 01.01.2026.16 (data center development: ratepayers and energy), 01.01.2026.09 (executive branch employees' use of confidential information in prediction markets: conduct), and the other orders, which do not govern State IT, cybersecurity, data or AI by title. The Governor's AI Principles page (https://governor.maryland.gov/official-actions/ai-principles) was listed in the site menu and not read. Orders are filed in COMAR only if the Division publishes them: the Division's 2025 and 2026 year pages list fewer orders than the Governor's list, so an order on IT that the Division did not file would be found only on the Governor's list; none was seen there by title. The status of the seeded orders is 'printed in COMAR with no rescission note'; later orders were not searched for a rescission.
+- text: |-
+    DoIT policy library: reconciled row by row against the library home (https://doit.maryland.gov/policies/Pages/default.aspx), its eight category pages (Accessibility, AI, Cybersecurity & Privacy Policy Suite, Departmental, Hardware, MITDP, Telework, Websites and Data), the suite's Emergency and Binding Operational Directives and Transitional Governing Policy Documents pages, and the AI portal's policies page (ai.maryland.gov/state-employee-guidance/policies, which lists the six AI instruments and not the roadmap). The library has no status column; where a page prints a revision history or a 'DRAFT' marking it was read. Every row is a document (62 seeded from DoIT), a stub (1) or one of the items below. Rows listed in more than one place are one document: Communication Recordings (Departmental page, transitional list and the PDF of policy 20-11: the PDF is the document), Foreign Travel / 'Traveling with State-Issued Technology' (Hardware page and transitional list), Prohibited Technologies (policy home, directives list), the KEV directive and the public-disclosure guidelines (policy home and their lists), the Responsible AI Policy, and the Desktop / Laptop Policy (policy home and category pages).
+- text: |-
+    DoIT library, text of record is the PDF where the page says so: for the numbered 20-xx policies the HTML page repeats the PDF and says 'The PDF version of this policy represents the authoritative policy document ... shall prevail', so the PDFs are seeded and the 12 pages are left out as duplicates (Communication Recordings x2, Enterprise Architecture, Intake Process, IT Policy Program, Key Terms, RSA Programs, Boundary Protection, MITDP Fund Disbursements, MITDP Procedures, IT Support for Telework and Maryland Digital Accessibility Policy). The 20-05 file prints policy number 20-06 and the 20-11 file prints 20-24 in its footer; both are recorded as printed. Documents attached to these policies are seeded as separate documents where they are instruments: the Enterprise Architecture Handbook (version 1D), the RSA Program Policy Manual (last update 01 November 2023) and the MITDP Standards Manual (the file name ends 'DRAFT-V4'; the document prints no draft marking).
+- text: |-
+    DoIT library, Cybersecurity & Privacy Policy Suite table (32 rows): 11 policies and 11 standards seeded; 9 standards left out because their cover prints 'DRAFT' under the document number (this corpus takes in-force instruments only; the table does not mark them, and the page says the suite 'replaces legacy IT standards'; owner decision, they are one rerun away if the owner treats the marking as a stale watermark): MD-STD-301-AC Access Control Standard (MD-STD-301-AC-01); MD-STD-302-AT Awareness & Training Standard (MD-STD-302-AT-01); MD-STD-305-CM Configuration Management Standard (MD-STD-305-CM-01); MD-STD-306-CP Contingency Planning Standard (MD-STD-306-CP-01); MD-STD-307-IA Identification & Authentication Standard (MD-STD-307-IA-01); MD-STD-311-PE Physical & Environmental Protection Standard (MD-STD-311-PE-01); MD-STD-312-PL Planning Standard (MD-STD-312-PL-01); MD-STD-315-PT PII and Transparency Standard (MD-STD-315-PT-01); MD-STD-320-SR Supply Chain & Risk Management Standard (MD-STD-320-SR-01); and the 'Cybersecurity & Privacy Glossary' (38 pages, last updated 07/02/2026), a reference list of terms drawn largely from NIST sources, left out as a glossary, not a requirement (owner decision).
+- text: |-
+    DoIT library, left out as not instruments or out of scope: Accessibility: 'ADA Title II Final Rule Update' (an explanation of the Department of Justice's federal rule and its April 24, 2026 deadline; federal requirement) and the 'Digital Accessibility Initiative' page linked from the policy home (a services page). AI: '2025 AI Roadmap' (the Governor's AI Subcabinet's memorandum 'MEMORANDUM FOR: Governor Wes Moore and the Maryland General Assembly, SUBJECT: 2025 Maryland AI Enablement Strategy & AI Study Roadmap': a strategy document). Cybersecurity suite: 'Cybersecurity and Privacy Policy Suite FAQs' (an FAQ page) and 'The Modernizing Maryland's Security Standards' fact sheet (3-page PDF; explanatory); the two spreadsheets attached to the 2026-03-06 directive ('Non-Compliant Data Sheet' and 'Public-Facing Asset Data Call Sheet', .xlsx: forms or workbooks); the 'Vulnerability Disclosure Program (VDP) Frequently Asked Questions' page (an FAQ for the directive) and the statewide VDP program page (a service description). Transitional list: 'Cybersecurity Incident Reporting Requirements for Local Governments' (binds county governments, local school systems and local health departments), 'Cybersecurity Incident Reporting Requirements for Public Utilities' (binds public service companies, which are private), 'Cybersecurity Legal Requirements for Local Governments (Local Cybersecurity Act of 2022)' and 'Guidelines for Locals to Certify Compliance with State Minimum Cybersecurity Standards' (local governments): the domain file excludes local-government instruments; 'Minimum Security Standards for Connecting to networkMaryland' (it says it applies to each unit of local government and local agencies that use the network and 'any entities connecting to' it; whether that reaches State units is not stated; owner decision); 'State Minimum Cybersecurity Standards Best Practices Guidebook' (says 'This document should not be viewed as an authoritative policy'; guidance for agencies and local jurisdictions; owner decision). Departmental: the 'IT Policy Program' template PDF (a template). MITDP Oversight pages (doit.maryland.gov/MITDP-Oversight): the overview page (criteria, dashboard, deadlines and portfolio list), 'MITDP Oversight Process' (a description of the Oversight Division's monitoring) and 'SDLC Template Library' (a pointer to the Launchpad site) are informational pages; https://doit.maryland.gov/MITDP-Oversight/Pages/default.aspx answered HTTP 401 (sign-in), while the same section's pages above answered 200.
+- text: |-
+    The State's System Development Life Cycle and MITDP Launchpad (https://maryland-gov.github.io/mitdp/sdlc/ and /launchpad/, 'This content is published by the State of Maryland Department of Information Technology (DoIT)', version 1.3, updated Oct 21, 2026 as printed): a multi-tab framework site with templates, linked from DoIT's SDLC page ('Find the latest version of our SDLC at ...'). The SDLC page is watched; it is not seeded because the Launchpad part is templates and the site is a web application rather than a policy text (owner decision, the SDLC is the standard MITDP policy 20-02 and SF&P 3.5-906 require units to follow).
+- text: |-
+    Other pages read and not seeded: the DoIT AI services page and ai.maryland.gov pages (portal, state employee guidance; watched where they list instruments), DoIT's Cybersecurity services pages, and the General Assembly's Laws pages. Pages not fetched: DoIT's contracts and procurement pages (IT Contracts & Procurement, DoIT Contracts, Statewide Contracts): procurement and contracting pages, outside the policy library; the DoIT Offices pages. The Maryland Register (proposed regulations) was not read, so a proposed DoIT regulation is not known.
+- text: |-
+    Fetching notes: every request went through the toolkit Fetcher (the crawler User-Agent; the curl-on-challenge transport was on and no host challenged). doit.maryland.gov, mgaleg.maryland.gov and ai.maryland.gov answered every requested page with 200 except the one 401 above and the 404s for robots.txt and sitemap.xml; robots.txt on doit.maryland.gov and mgaleg.maryland.gov answered 404 (so no robots position), governor.maryland.gov's robots.txt is the standard Drupal list and disallows none of the paths read. DoIT's e-mail addresses print as '[email protected]' because the site obscures them; that is kept as published. PDFs: every seeded PDF was checked page by page for pages with no text layer; none has one (the RSA manual's text layer contains character errors such as 'ofthe', kept as published). The statute text is the 'in effect as of October 1' view; the General Assembly's page says the Session Laws prevail over the Code in a conflict.
+- text: |-
+    Owner decisions added in review. (1) Two DRAFT calls, review together: the MITDP Standards Manual (md-doit-mitdp-standards-manual) is seeded although its file name ends 'DRAFT-V4' and the PDF metadata Subject reads 'EPMO-MITDP-Standards-Manual-DRAFT-V4' (its pages print no draft marking; DoIT's MITDP Procedures page links it as the manual), while the nine cybersecurity suite standards listed above are left out because their cover prints 'DRAFT'. Either both are in force or neither; the owner decides. (2) COMAR 14.33.02 .08 to .11 (md-comar-14-33): the chapter's Administrative History says .03 to .11 were repealed on March 7, 2022 (49:5 Md. R. 366) and only .03 to .06 adopted and .12 recodified as .07, but the publisher's file and the State Documents contents page (14.33.02/index.html, branch publication/2026-10-26) still print .08 to .11. They are in the document as printed; if the owner agrees they are repealed, the document is cut to .01 to .07 (test first) and regenerated. (3) State Finance and Procurement 3.5-309 (md-sfp-3-5-powers-and-duties-of-the-secretary): the General Assembly's page prints the section twice, 'IN EFFECT' and '// EFFECTIVE JUNE 30, 2031 PER CHAPTERS 436 AND 437 OF 2026 //' with different text; the document reads only the version marked IN EFFECT, the snapshot holds both, and the 2031 version is not mirrored until it is in effect.

@@ -1,0 +1,125 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maryland
+id: md-doit-ai-card-coding-assistants
+title: 'AI Governance Card: AI-Powered Coding Assistants'
+doc_type: policy
+citation: 'DoIT AI Governance Card: AI-Powered Coding Assistants, version 4.1'
+authority_level: ''
+issuing_body: Maryland Department of Information Technology
+source_url: https://doit.maryland.gov/policies/ai/Pages/AI-powered-coding-assistants.aspx
+source_format: html
+retrieved: '2026-11-11'
+source_sha256: f692bf4b44d82874bac1c00ed84a935ed6011b984f4144e4098b88e4649c14df
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint
+  site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined
+  by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and
+  page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# AI Governance Card: AI-Powered Coding Assistants (DoIT AI Governance Card: AI-Powered Coding Assistants, version 4.1)
+
+## At a glance
+
+Listed on DoIT's AI policies page (https://doit.maryland.gov/policies/ai/Pages/default.aspx) and ai.maryland.gov/state-employee-guidance/policies. As the page prints its purpose: This governance card forms foundational guidelines for use of AI-powered coding assistants within Maryland’s State government. It builds upon the State's existing frameworks, including ...
+
+## Full text
+
+AI Governance Card: AI-Powered Coding Assistants
+• Last Revised: 08/04/2026
+• Date Issued: 01/27/2026
+• Version: 4.1
+• Author: Solomon Abiola, Lauren Maffeo
+Table of Contents
+• Purpose and Scope
+• Definition and Autonomy Levels
+• Risk Classification
+• Developer Roadmap (Mandatory Do’s and Don’ts)
+• Risk Analysis and Mitigation
+• Coding Assistant Tool Status
+• Agency Compliance and Intake
+• Analogy for Understanding
+1.0 Purpose and Scope
+This governance card forms foundational guidelines for use of AI-powered coding assistants within Maryland’s State government. It builds upon the State's existing frameworks, including:
+• Maryland’s Responsible AI Policy
+• Executive Order Catalyzing the Responsible and Productive Use of Artificial Intelligence in Maryland State Government
+• SB0818
+Maryland’s governance card on AI coding assistants applies to all Executive Branch agencies and all personnel (employees, contractors, and consultants) who develop, maintain, or leverage AI systems to provide services to the State. While agencies must adopt this guidance in its entirety, they can require more stringent guidelines based on their own operational context.
+2.0 Definition and Autonomy Levels
+AI-powered coding assistants use generative AI to suggest code completions, generate functions, or provide chatbot assistance. While these tools can increase productivity by automating boilerplate tasks, they do not replace developer expertise.
+Developers remain 100% responsible for the final versions of any outputs that AI coding assistants produce. The State correlates risk with the level of autonomy per type of coding assistant:
+This governance card's author created this image using Claude.ai, specifying in their prompt that this image must comply with the Maryland Web Design System (MWDS).
+Low Autonomy (Code Completion)
+The tool offers single-line suggestions as the developer types (e.g., GitHub Copilot inline). The developer acts as the primary author, and risk is minimal/limited because human review is constant.
+Medium Autonomy (Conversational/Batch)
+The tool generates large code blocks based on prompts (e.g., Google AI Studio). The developer acts as a reviewer/editor, and risk is limited, mitigated by the deliberate human action of copying and pasting the code.
+High Autonomy (Agentic/Asynchronous)
+The tool can perform sequential steps like editing files and running commands (e.g., Jules, Cline). The developer provides oversight and approval, but risk is high due to the potential for unintended changes or data leakage.
+3.0 Risk Classification
+According to the standards in the State of Maryland’s AI risk assessment matrix, AI coding assistants are broadly classified as Limited Risk because they do not autonomously decide critical outcomes for individuals. Human developers and testers are the final decision-makers, because Maryland does not allow AI to make autonomous choices when used for State business.
+However, the risk tier escalates to High if state staff give coding assistants access to sensitive files, ask them to execute commands without explicit approval, or if the tool's privacy settings enable data training. Additionally, Maryland law prohibits using coding assistants from companies based outside of the U.S. (e.g., Mistral, Qwen) due to physical access control requirements.
+4.0 Developer Roadmap (Mandatory Do’s and Don’ts)
+This governance card's author created this image using Claude.ai, specifying in their prompt that this image must comply with the Maryland Web Design System (MWDS).
+Phase 1: Setup and Configuration
+• Confirm Data: Level 3 (Confidential) and Level 4 (Restricted) data is not allowed for use in state-provided AI coding assistants.
+• Approved Versions: Use only versions of coding assistants that do not train on code, data, or other artifacts, such as Enterprise or Government solutions. Individual or free versions that require you to permit training on State data are prohibited.
+• Privacy Hardening: You must uncheck "Allow vendor to use code for training" and enable filters that block suggestions matching public code.
+• Limit Access: Write permissions files (e.g., .gitignore, .copilotignore) to explicitly block the AI from reading sensitive directory segments or environment files containing secrets.
+Phase 2: Responsible Usage
+• Zero Sensitive Data: Never input PII, PHI, or authentication secrets (API keys, passwords). If code must be generated for a sensitive field, use an abstract placeholder (e.g., USER_SSN).
+• Human-in-the-Loop: Treat AI as a junior developer: Helpful but potentially flawed. Review every suggestion for correctness, security vulnerabilities (like SQL injection or weak cryptography), and adherence to team style standards.
+• Sanitize Environments: Use only synthetic data for development and testing.
+• Keep Code Transparent: Add code comments like // Generated with AI assistance - Tool [date]. Maryland state staff must be able to explain how their code works, regardless of whether they or an AI coding assistant wrote it. Adding code comments confirms your source and provides key metadata.
+• Assess Impact:Users must complete an algorithmic impact assessment to confirm there is no disparate impact on protected groups.
+Phase 3: Final Checks and Commits
+• Validation: All significant AI-generated code must undergo peer review and rigorous unit/integration testing.
+• Automated Scans: Run static analysis (linters), SAST, secret scanning, and code quality checks before merging. AI can produce syntactically correct code that passes standard quality checks while harboring subtle logic or runtime vulnerabilities. Mandating this series of scans before deployment, and continuously after, helps mitigate that risk.
+• Accountability: Before committing, you must fully understand the code and be able to explain how it works: “AI did it" is not an acceptable excuse for bugs or security incidents.
+• Accessibility: Confirm that AI-generated code meets WCAG 2.1 AA standards and doesn't introduce usability barriers.
+5.0 Risk Analysis and Mitigation
+This governance card's author created this image using Claude.ai, specifying in their prompt that this image must comply with the Maryland Web Design System (MWDS).
+• Intellectual Property and Copyright: AI may reproduce licensed code verbatim, raising the risk of copyright infringement or license violations.
+  • Mitigation:Enable public code filters. If a coding assistant suggests a substantial block of text, manually search public repositories to ensure compliance with open-source licenses.
+• Data Leakage: Cloud-based tools may send proprietary state code as prompts to external services.
+  • Mitigation: Use FedRAMP-authorized Government clouds where data remains within the U.S. and is not used for model training.
+• Security Vulnerabilities: AI can suggest outdated algorithms (e.g., MD5) or be manipulated via rules-file backdoors to insert malicious instructions.
+  • Mitigation: Perform dynamic analysis and penetration testing on all output that coding assistants produce.
+• Automation Bias: Developers may blindly trust AI suggestions due to their sophisticated appearance.
+  • Mitigation: Maintain healthy skepticism and annotate which code sections were AI-suggested during reviews.
+• Algorithmic Bias: AI risks embedding discriminatory patterns from training data.
+  • Mitigation: Conduct an algorithmic impact assessment to confirm your code has no disparate impact on protected groups.
+• Transparency Gaps: No record of AI-generated vs. human code.
+  • Mitigation: Use inline documentation and log AI tool usage in commit messages.
+• Data Overexposure:The coding assistant receives more codebase context than necessary.
+  • Mitigation: Use workspace-level ignore files and review tool permissions quarterly.
+6.0 Agency Compliance and Intake
+All use of AI coding assistants must be documented in the State’s AI inventory per SB818. Agencies that wish to use unapproved coding assistants must request to use them through DoIT’s intake process.
+Once you submit your intake request to use your coding assistant of choice, you will receive a questionnaire that asks about the tool’s data ownership (State must retain all rights), data residency (U.S.-based only), and vendor indemnification for infringing code. Be prepared to answer these questions and explain why this coding assistant is the best tool to fulfill your business use case.
+Maryland's AI subject-matter experts may reach out during intake to share pre-approved coding assistants that you can use instead. If your proposed coding assistant is still the best fit for your use case, the Software Review Board at Maryland’s Department of Information Technology will assess it for approval to use when conducting State business.
+7.0 Analogy for Understanding
+Using an AI coding assistant is like using an advanced cruise control system. While the system can handle the monotony of the highway (boilerplate code), the driver (the developer) must keep their hands on the wheel and eyes on the road. Their goal is twofold: arrive at the right destination, and keep everyone else on the road safe from harm.
+If the system suggests a dangerous lane change (a security vulnerability) or ignores a Private Property sign (copyright infringement), the driver is the one legally and practically responsible for the outcome. To avoid this, they must follow the right signs (transparent documentation), use only necessary roads (data minimization), and prioritize passenger safety (human-centered design) over their speed of arrival.
+The State of Maryland applies this same lens to coding assistants. We pledge to always use AI in service to State residents, employees, and organizations. That involves using AI like coding assistants to deliver state services more effectively. Keeping Maryland’s civil servants in the driver’s seat empowers the State to innovate responsibly.
+Additional Support: For additional support, explore Maryland’s AI resources and tools at the state's official AI website.
+
+## Curator notes
+
+Text taken from the page's main content (title and rich-text field) as DoIT's SharePoint site serves it, one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list items carry a bullet or their number). Links are written as their text, pictures and page navigation are not read, and an e-mail address the site obscures prints as '[email protected]'.
