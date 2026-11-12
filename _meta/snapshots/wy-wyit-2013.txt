@@ -1,0 +1,205 @@
+Electronic Data Destruction and
+Sanitization
+WyIT.2013
+
+ Policy Owner           Department of Enterprise Services, Data Privacy
+ Policy Contact         Pat Potter, Deputy Chief Data Officer
+ Policy Approver        Wyoming Data Governance Committee (WDGC)
+ Effective Date         September 12, 2025
+ Next Review Date       April 1, 2027
+ Policy Version         2026-09.1
+
+Scope:
+​
+This policy establishes requirements for protecting state electronic data resources through proper data
+destruction and sanitization procedures. It provides agencies with guidance on how to properly handle
+data destruction and sanitization within the State of Wyoming, ensuring compliance with data privacy
+and security regulations.
+
+This policy addresses the secure disposal of electronic media containing state data to prevent
+unauthorized access, data breaches, and compliance violations.
+
+Authority
+This policy is promulgated under the authority of Wyoming State Statute 9-2-2906 and its subsections,
+the Department of Enterprise Technology Services is required to adopt and enforce information
+technology standards, and promote efficient use of information technology throughout state
+government.
+
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+                                                       ​
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store state data.
+
+Definitions
+Key Definitions, Acronyms, and Terms
+
+​
+Policy Statements:
+ 1.​   The agency may create agency-specific policies that meet the outlined scope, purpose, and
+       requirements as stated in this policy. In lieu of agency-specific policies that meet the outlined
+       scope, purpose, and requirements as stated in this policy, this policy shall serve as the
+       governing policy.
+       [1], [2], [3]
+
+ 2.​   Agencies may implement supplemental policies to augment this governing policy as needed.
+       This policy does not supersede any State or Federal regulation and does not override, waive, or
+       provide exemption from the requirements of the Wyoming Public Records Act (Wyoming Statute
+       16-4-201 through 205). Agencies remain fully obligated to comply with all legal requirements
+       while implementing appropriate privacy safeguards for exempt information.
+       [1], [2], [3]
+
+ 3.​   The State CIO recognizes three levels of media sanitization:​
+
+       3.1.​     Clear: Perform a full manufacturer's reset, reinstall or a format of the storage to either ​
+                 restore the equipment to its factory default settings or simply format over the storage.​
+
+       3.2.​     Purge: Use crypto shredding, wiping, or degaussing in an organizationally approved
+                 degausser rated at a minimum for the media.​
+
+       3.3.​     Destroy: Shred, disintegrate, pulverize, or incinerate the device in a licensed incinerator.
+       [4], [2], [5], [6], [3]
+
+ 4.​   Agencies shall classify their data according to WyIT 2001 Information Classification levels and
+       those levels shall determine disposal methods.
+       [2], [8], [3]
+
+ 5.​   Public Data:​
+       ​
+       Media remaining within your agency (internal reuse, storage): The agency may choose to
+       perform a clear sanitization (factory reset/format). Media transferred to another agency must be
+       cleared.
+
+                                                       2
+
+                                                      ​
+       5.1.​     Media remaining within your agency (internal reuse, storage): The agency may choose
+                 to perform a clear (factory reset/format).Media transferred to another agency must
+                 perform a clear.
+       5.2.​     If the media leaves the State’s control, it must be purged. This can be done by the
+                 agency, contracted services, ETS, or Surplus Property.
+       [4], [2], [3]
+
+ 6.​   Internal Data:
+
+       6.1.​     Media remaining within your agency (internal reuse, storage): The agency may choose
+                 to perform a clear sanitization (factory reset/format).Media transferred to another agency
+                 must perform a clear sanitization.
+
+       6.2.​     If the media leaves the State’s control, it must be purged. This can be done by the
+                 agency, contracted services, or ETS.
+
+       6.3.​     If the media is not to be reused, it must be destroyed in a manner that renders the
+                 electronic media unreadable and unusable.
+       [4], [2], [5], [3]
+
+ 7.​   Confidential Data:
+
+       7.1.​     If the media is not to be reused or is leaving the agency's control, it must be destroyed in
+                 a manner that renders the electronic media unreadable and unusable.
+
+       7.2.​     If the media is to be reused within the agency, it must be purged.
+       [4], [2], [5], [6], [3]
+
+ 8.​   Agencies shall identify and comply with federal and state regulations where applicable as
+       determined by the agency data owner.​
+       [2], [7], [8], [3]
+
+ 9.​   When verification of destruction is required, agencies shall contract with qualified vendors to
+       provide documented proof of media destruction completion. Such verification shall include
+       certificates of destruction that detail the destruction method, date, location, and witness
+       information.​
+       [4], [2], [9], [3]
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ National Institute of Standards and Technology (NIST) SP 800-100
+   2.​ National Institute of Standards and Technology (NIST) SP 800-53, Rev 5
+   3.​ ISO/IEC 27001
+   4.​ National Institute of Standards and Technology (NIST) SP 800-88, Rev 1
+   5.​ Payment Card Industry Data Security Standard (PCI DSS)
+   6.​ Health Insurance Privacy and Accountability Act (HIPAA), Security Rule
+   7.​ National Institute of Standards and Technology (NIST) Cyber Security Framework (CSF) 2.0
+
+                                                      3
+
+                                                    ​
+   8.​ WyIT 2001, Information Classification
+   9.​ International Secure Information Governance & Management Association), NAID AAA
+       Certification
+   10.​WyIT 2001-S1, Data Owner Standard
+   11.​WyIT 2001-S2, Data Steward Standard
+   12.​WyIT 2001-S3, Data Custodian Standard
+   13.​WyIT 2001-S4, Data Domain Standard
+   14.​WyIT 2001-G1, Information Classification Guide
+   15.​WyIT 2001-G2, Information Classification Procedures Guide
+   16.​WyIT 3015, Physical Media
+
+Compliance & Exceptions:
+Compliance
+Employees who violate this policy may be subject to appropriate disciplinary action up to and including
+discharge as well as both civil and criminal penalties. Non-employees, including, without limitation,
+contractors, may be subject to termination of contractual agreements, denial of access to IT resources,
+and other actions as well as both civil and criminal penalties.
+
+Exceptions
+Requests for exceptions to this policy shall be reviewed by the Chief Information Security Officer
+(CISO) and the Chief Information Officer (CIO). Departments requesting exceptions shall provide such
+requests to the CIO in accordance with WyIT.3002 Policy Exception Request.
+
+The request should specifically state the scope of the exception along with justification for granting the
+exception, the potential impact or risk attendant upon granting the exception, risk mitigation measures
+to be undertaken by the IT Department, initiatives, actions and a time-frame for achieving the minimum
+compliance level with the policies set forth herein. The CIO shall review such requests; confer with the
+requesting department.
+
+Any exception to established policy shall be defined and tracked as a risk to the state and established
+mitigating controls monitored by the agency.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+                                                    4
+
+                                                        ​
+ Jeffrey Clines                                                    Chief Information Officer
+ Officer Name                                                      Officer Title
+
+ Officer’s Signature                                               Date
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version        Change                                                          Author(s)        Date of Change
+ 2026-09.1      ETS Director Signature                                    GRC                    September
+                                                                                                 2026
+ UKN            WyIT 2013, Electronic Data Destruction and                Wyoming Data           February 2024
+                Sanitization, Originally Published                        Governance
+                                                                          Committee
+ UKN            09400-P221, Electronic Hardware and Data                  UKN                    November 2018
+                Sanitization Policy
+ UKN            09400-S221, Standard for Electronic Data Destruction      UKN                    November 2018
+                and Sanitization
+
+                                                         5

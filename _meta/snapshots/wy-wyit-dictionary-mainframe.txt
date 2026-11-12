@@ -1,0 +1,82 @@
+                       ‭Mainframe Specific Definitions‬
+
+‭ URPOSE:‬‭This document provides a list of words and‬‭definitions to clarify the‬
+P
+‭mainframe-specific terminology contained within the State of Wyoming Policies and‬
+ ‭Standards.‬
+
+ ‭I.‬ ‭APPLICABILITY‬
+
+      ‭ his policy applies to all Executive Branch agencies, boards, and commissions staff‬
+      T
+      ‭(collectively referred to as “agencies”). This policy is also applicable to consultants,‬
+       ‭affiliates, and temporary employees.‬
+
+ ‭II.‬ ‭MAINFRAME SPECIFIC DEFINITIONS‬
+
+‭A‬
+      ‭●‬ ‭Agency‬‭Liaison‬‭:‬‭Designated‬‭mainframe‬‭security‬‭liaisons‬‭who‬‭manage‬‭mainframe‬
+           ‭access for personnel accessing their respective agencies’ data.‬
+
+‭E‬
+      ‭●‬ ‭ETS‬‭Liaison‬‭:‬‭The‬‭designated‬‭mainframe‬‭security‬‭liaison‬‭at‬‭ETS.‬‭This‬‭person‬‭also‬
+           ‭manages access for agency liaisons.‬
+
+‭F‬
+      ‭●‬ ‭F541‬‭:‬ ‭Mainframe‬ ‭forms‬ ‭used‬ ‭to‬ ‭create,‬ ‭change,‬ ‭delete,‬ ‭and‬ ‭acknowledge‬
+           ‭mainframe user accounts.‬
+
+      ‭●‬ ‭Invalid‬‭login‬‭actions/repercussions:‬ ‭See‬‭sections‬‭IV.I.1,‬‭Login‬‭Banner,‬‭and‬‭IV.L.3,‬
+           ‭Reviews for Detection of Unauthorized Access.‬
+
+      ‭●‬ ‭ISV‬ ‭Software‬‭:‬ ‭Independent‬ ‭Software‬ ‭Vendor‬ ‭Software.‬ ‭Non-IBM‬ ‭systems‬
+           ‭software that supports mainframe operations.‬
+                                                                       ‭Mainframe Specific Definitions      Page‬‭1‬
+
+‭M‬
+      ‭●‬ ‭Mainframe‬ ‭security‬ ‭liaison:‬ ‭A‬ ‭person‬ ‭appointed‬ ‭by‬ ‭an‬ ‭agency‬ ‭director‬ ‭to‬
+           ‭perform‬‭mainframe‬‭security‬‭access‬‭duties,‬‭i.e.,‬‭submit‬‭F541‬‭forms‬‭for‬‭adding‬‭and‬
+            ‭user‬ ‭access‬ ‭and‬ ‭resetting‬ ‭passwords.‬ ‭In‬ ‭this‬ ‭document,‬ ‭mainframe‬ ‭security‬
+             ‭liaisons may also be referred to as security liaisons or liaisons.‬
+
+      ‭●‬ ‭Message‬ ‭of‬ ‭the‬ ‭Day:‬ ‭This‬ ‭term‬ ‭is‬‭not‬‭used‬‭by‬‭this‬‭document.‬‭See‬‭section‬‭IV.I.1,‬
+           ‭Login Banner.‬
+
+‭P‬
+      ‭●‬ ‭Password‬‭requirements‬‭:‬ ‭Standards‬‭for‬‭password‬‭creation.‬‭(‬‭WyIT‬‭-‬‭3024,‬‭Section‬
+           ‭XI‬‭)‬
+
+‭R‬
+      ‭●‬ ‭Resource Access Control Facility (RACF)‬‭: IBM’s mainframe‬‭security software.‬
+
+      ‭●‬ ‭Remote‬ ‭access‬ ‭allowances:‬ ‭Who‬ ‭is‬ ‭allowed‬ ‭to‬ ‭access‬ ‭the‬‭mainframe‬‭remotely.‬
+           ‭(‭W
+              ‬ yIT - 3024, Section VII‬‭)‬
+
+‭S‬
+      ‭●‬ ‭Session‬ ‭Lock‬ ‭requirements:‬ ‭Inactivity‬ ‭that‬ ‭locks‬ ‭a‬ ‭user’s‬ ‭session.‬ ‭See‬ ‭section‬
+           ‭IV.G.2.‬
+
+‭T‬
+
+      ‭●‬ ‭Technical‬‭authentication‬‭process:‬ ‭How‬‭access‬‭permissions‬‭are‬‭determined.‬‭See‬
+           ‭sections IV.F.3, IV.G.1.a, IV.H.1‬
+
+‭U‬
+      ‭●‬ ‭Usage restrictions:‬‭See Session Lock requirements,‬‭section IV.G.2.‬
+
+                                                                           ‭Mainframe Specific Definitions        Page‬‭2‬
+
+                       ‭DOCUMENT HISTORY‬
+
+                        ‭ORIGINAL SUBMISSION‬
+‭SUBMITTED‬   ‭SUBMITTED‬     ‭APPROVED BY‬     ‭ISSUED DATE‬         ‭EFFECTIVE‬
+    ‭ON‬          ‭BY‬                                                   ‭DATE‬
+
+                              ‭REVISIONS‬
+‭LAST REVISION DATE‬        ‭LAST REVISED BY‬            ‭LAST APPROVED BY‬
+
+                               ‭REVIEWS‬
+ ‭LAST REVIEW DATE‬         ‭LAST REVIEWED BY‬          ‭NEXT REVIEW DATE‬
+
+                                                     ‭Mainframe Specific Definitions   Page‬‭3‬

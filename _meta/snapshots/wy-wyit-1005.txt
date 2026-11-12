@@ -1,0 +1,101 @@
+        ARTIFICIAL INTELLIGENCE USAGE AND CODING
+                                            WyIT 1005
+
+ PURPOSE: The purpose of this policy is to establish minimum mandatory expectations
+ for the responsible and ethical use of Artificial Intelligence (AI) within the State of
+ Wyoming for Code Generation and support.
+
+ I.​ APPLICABILITY
+
+        This policy applies to all Executive Branch agencies, boards and commissions staff
+        (collectively referred to as ‘agencies). This policy is also applicable to consultants,
+        affiliates and temporary employees.
+
+II.​ DEFINITIONS​
+
+         All definitions for this policy are located in the Policy Dictionary.
+
+III.​ EXCEPTIONS​
+      ​
+      Any exceptions provided to the following policy must abide by the WyIT 3002,
+      Security Exception Request policy.​
+
+ IV.​    ACCEPTABLE USE​
+
+         A.​ For Generative Artificial Intelligence (GenAI) Acceptable Use refer to WyIT
+             3023, Generative Artificial Intelligence Acceptable Use.
+
+  V.​    CODE GENERATION AND SUPPORT​
+
+         A.​ Developers are accountable for all computer code generated using GenAI. All
+             code must adhere to existing coding standards and practices. (WyIT 3025,
+
+                                                                                  WyIT 1005​      Page 1
+
+        Source Control Policy)​
+
+     B.​ Developers must keep detailed records regarding the use of GenAI for all AI
+         used for projects. This documentation should contain the user, name of the
+         project, and manner of usage to help track effectiveness and ensure
+         compliance with WyIT 3023, Generative Artificial Intelligence Acceptable Use.
+
+     C.​ Developers must verify that GenAI code does not introduce security risks, and
+         aligns with project requirements, as if it were manually written code.
+
+     D.​ Developers must track the quality of GenAI's code and its impact on
+         productivity. They must also address any issues or limitations that arise.
+
+     E.​ Developers must test and validate all GenAI code.
+
+     F.​ Developers must ensure the GenAI is robust, secure, and subject to controls,
+         as well as appropriate technical and organizational measures to monitor
+         security, accuracy, effectiveness, and performance.
+
+     G.​ Developers must ensure that GenAI undergoes continuous testing, checks,
+         reviews, and maintenance to ensure that the GenAI is performing as expected.
+
+     H.​ Developers must identify and manage all risks associated with the GenAI tool,
+         including those arising from unintended use.
+
+     I.​ Developers must ensure human oversight and thorough validation of all
+         outputs and generated content, mainly to check for accuracy, bias, quality,
+         duplication of response, and infringement of third-party intellectual property
+         rights.​
+
+     J.​ Developers must not rely on GenAIl to implement security features. Regardless
+         of source, all outputs must be thoroughly reviewed from a security perspective.
+
+REFERENCES: ​
+
+  ●​ WyIT 3012, System Information Integrity​
+
+                                                                            WyIT 1005​     Page 2
+
+  ●​ WyIT 3023, Generative Artificial Intelligence Acceptable Use​
+
+  ●​ WyIT 3025, Source Control Policy​
+
+SUPERSEDED POLICY: This policy does not supersede any previous, known
+policies.
+
+                                                                     WyIT 1005​   Page 3
+
+                       DOCUMENT HISTORY
+
+                         ORIGINAL SUBMISSION
+ SUBMITTED        SUBMITTED        APPROVED           ISSUED           EFFECTIVE
+    ON               BY               BY               DATE              DATE
+
+January 2025   ETS Governance,   Public Comment   02/07/2025 -      March 2025
+               Risk and          Period           02/21/2025
+               Compliance
+
+                                 REVISIONS
+  REVISION         REVISED                SUMMARY OF                    LAST
+    DATE             BY                    REVISIONS                 APPROVED BY
+
+                                   REVIEWS
+         REVIEW                      LAST                           NEXT
+          DATE                   REVIEWED BY                     REVIEW DATE
+
+                                                                   WyIT 1005 ​   ​   Page 4

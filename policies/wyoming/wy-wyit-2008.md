@@ -1,0 +1,210 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: wyoming
+id: wy-wyit-2008
+title: Website Online Maps and Data Disclaimer
+doc_type: policy
+citation: WyIT 2008
+authority_level: ''
+issuing_body: Wyoming Department of Enterprise Technology Services (Office of the Chief Information Officer)
+source_url: https://drive.google.com/uc?export=download&id=1kW3AEBNkW03kbP-cL7cKsrZ7yviCfnqT
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 5bec2b4233208e71704cc624439106e91dbf09b90f681e5f33ab8853189abf88
+effective_date: '2025-09-12'
+source_version: 2026-09.1
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). effective_date is the Effective Date cell of the file's header table, as printed. source_version
+  is the Policy Version (or Document Version) cell of the header table, as printed.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Website Online Maps and Data Disclaimer (WyIT 2008)
+
+## At a glance
+
+WyIT 2008, Website Online Maps and Data Disclaimer: a statewide policy in the Enterprise Technology Services policy library. Per the Applicability section of the file it applies to all Executive Branch agencies, boards and commissions staff and to consultants, affiliates and temporary employees.
+
+## Full text
+
+Website Online Maps and Data
+Disclaimer
+WyIT.2008
+
+ Policy Owner           Department of Enterprise Services, Data Privacy
+ Policy Contact         Pat Potter, Deputy Chief Data Officer
+ Policy Approver        Wyoming Data Governance Committee (WDGC)
+ Effective Date         September 12, 2025
+ Next Review Date       April 1, 2027
+ Policy Version         2026-09.1
+
+Scope:
+This policy establishes mandatory disclaimer language requirements for all Wyoming state agency
+websites that feature interactive mapping applications, ensuring consistent legal protection and
+transparent communication of data limitations to public users. The policy ensures consistent liability
+protection and user notification standards across all state digital mapping services.
+
+This policy addresses legal risk mitigation, user expectation management, and standardization of
+disclaimer language for government-provided geospatial data and mapping services.
+
+Authority
+This policy is promulgated under the authority of Wyoming State Statute 9-2-2906 and its subsections,
+the Department of Enterprise Technology Services is required to adopt and enforce information
+technology standards, and promote efficient use of information technology throughout state
+government.
+
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+                                                     ​
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store state data.
+
+Definitions
+Key Definitions, Acronyms, and Terms d.
+
+Policy Statements:
+ 1.​   REQUIREMENTS​
+
+       1.1.​   All State Agency websites featuring maps and mapping applications must display the
+               following disclaimer language prominently and conspicuously, in addition to any existing
+               agency disclaimer language.
+
+       1.2.​   Required Disclaimer Text
+               "The State of Wyoming and its agencies make no express or implied warranties as to the
+               accuracy, completeness, reliability, or suitability of this map or the data it presents. All
+               information is provided “as is” and is subject to change without notice. Users of this
+               information are encouraged to review or consult the primary data and information before
+               making any decisions or taking any actions based on it.
+
+               The State of Wyoming and its agencies expressly disclaim any and all liability for errors,
+               omissions, or inaccuracies, as well as for any reliance placed on this information. By
+               using this map and its associated data, the user assumes all risk associated with such
+               use. Nothing in this disclaimer shall be construed as a waiver of the State of Wyoming’s
+               sovereign immunity, and it specifically retains sovereign immunity and all defenses
+               provided by law."
+               [1]
+
+       1.3.​   Disclaimer text shall be prominently displayed and easily readable, positioned either: a)
+               Immediately above or below the interactive map interface, or b) Accessible via a clearly
+               labeled link positioned adjacent to the map with text such as 'Data Disclaimer' or
+               'Important Information'.
+               [2], [3]
+
+       1.4.​   For mapping applications that integrate third-party services (e.g., Google Maps, Esri
+               Services), agencies shall ensure disclaimer language remains visible and legally binding
+               regardless of the underlying mapping technology provider.
+               [1]
+
+                                                      2
+
+                                                    ​
+       ​
+
+ 2.​   DISPLAY REQUIREMENTS
+       2.1.​ The disclaimer must be clearly visible and accessible to users before or during their
+             interaction with mapping applications.
+               [2]
+
+       2.2.​   Disclaimer text must be presented in a readable format compliant with web accessibility
+               standards.​
+               [3]
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ Wyoming Governmental Claims Act (W.S. § 1-39-101 et seq.)
+   2.​ Web Content Accessibility Guidelines (WCAG) 2.1 Level A
+   3.​ Rehabilitation Act. Section 508
+   4.​ WyIT 1004, Web Standards & Compliance
+   5.​ WyIT 3002, Security Exception Request
+
+Compliance & Exceptions:
+Compliance
+Employees who violate this policy may be subject to appropriate disciplinary action up to and including
+discharge as well as both civil and criminal penalties. Non-employees, including, without limitation,
+contractors, may be subject to termination of contractual agreements, denial of access to IT resources,
+and other actions as well as both civil and criminal penalties.
+
+Exceptions
+Requests for exceptions to this policy shall be reviewed by the Chief Information Security Officer
+(CISO) and the Chief Information Officer (CIO). Departments requesting exceptions shall provide such
+requests to the CIO in accordance with WyIT.3002 Policy Exception Request.
+
+The request should specifically state the scope of the exception along with justification for granting the
+exception, the potential impact or risk attendant upon granting the exception, risk mitigation measures
+to be undertaken by the IT Department, initiatives, actions and a time-frame for achieving the minimum
+compliance level with the policies set forth herein. The CIO shall review such requests; confer with the
+requesting department.
+
+Any exception to established policy shall be defined and tracked as a risk to the state and established
+mitigating controls monitored by the agency.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+                                                    3
+
+                                                        ​
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+Approval
+This policy as signed by the appropriate officer (listed below) is considered approved and enforced, per
+Wyoming State Statutes (W.S 9-2-2906,(b), (iii)) and (W.S. 9-2-2906,(b), (vi)).
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+ Jeffrey Clines                                                    Chief Information Officer
+ Officer Name                                                      Officer Title
+
+ Officer’s Signature                                               Date
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version        Change                                                    Author(s)              Date of Change
+ 2026-09.1      ETS Director signature                                           GRC               September
+                                                                                                      2026
+ 2024-06.1      WyIT 2008, Website Online Maps and Data                      Wyoming Data          June 2024
+                Disclaimer, Originally Published                              Governance
+                                                                              Committee
+    UKN         03500-P016, Policy Website Online Maps and Data                  UKN                July 20216
+                Disclaimer
+
+                                                         4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). effective_date is the Effective Date cell of the file's header table, as printed. source_version is the Policy Version (or Document Version) cell of the header table, as printed.

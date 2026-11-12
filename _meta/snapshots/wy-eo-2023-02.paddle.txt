@@ -1,0 +1,130 @@
+STATE OF WYOMING EXECUTIVE DEPARTMENT
+EXECUTIVE DEPARTMENT
+EXECUTIVE ORDER
+Order 2023-02
+ESTABLISHMENT OF THE WYOMING CYBER ASSISTANCE RESPONSE
+EFFORT TEAM
+WHEREAS, due to the increasing involvement of technology in daily life, cybersecurity
+threats have become increasingly common and sophisticated, posing a significant risk to
+the security and well-being of Wyoming citizens and critical infrastructure; and
+WHEREAS, cyber-attacks on Wyoming's government agencies, businesses, critical
+infrastructure, and people can result in the theft of sensitive information, the disruption of
+essential services, and financial losses; and
+WHEREAS, these cyber-attacks can have severe consequences for Wyoming's economy
+and public safety, as well as potentially compromising national security; and
+WHEREAS, there are sixteen Critical Infrastructure Sectors, as defined by Presidential
+Policy Directive/PPD-21, whose systems, networks, and other assets are vital to the State
+of Wyoming's economy, safety, and well-being; and
+WHEREAS, any impairment or destruction of these assets, would have severe
+consequences for Wyoming's security, economic stability, public health, and safety; and
+WHEREAS, it is essential that Wyoming take proactive measures to prevent and
+respond to cybersecurity incidents; and
+WHEREAS, maintaining cybersecurity is a shared responsibility in which everyone has
+a critical role to play; and
+WHEREAS, effective prevention and responsiveness necessitates that state agencies,
+local governments, tribal governments, the private sector, academic institutions, and other
+MARK GORDON
+200 WEST 24TH STREET
+307.777.7434 • GOVERNOR@WYO.GOV
+CHEYENNE, WY 82002-0010
+GOVERNOR OF WYOMING
+HTTP://GOVERNOR.WYO.GOV
+EO 2023-02
+Establishment of the Wyoming Cyber Assistance Response
+Page 2
+relevant entities exercise due diligence in mitigating cyber risks through coordinated
+information sharing, monitoring, and incident response; and
+WHEREAS, it is vital to marshal the resources and expertise needed to combat these
+threats and defend Wyoming's digital frontier, including the establishment of a Cyber
+Assistance Response Effort (CARE) Team;
+NOW, THEREFORE, pursuant to the authority vested in me by the Constitution and
+laws of the State of Wyoming, I , Governor Mark Gordon, do hereby order and direct:
+1. The Wyoming Cyber Assistance Response Effort (CARE) Team is hereby
+established.
+2. The mission of the CARE Team is to protect Wyoming and its institutions by
+reducing the impacts of cyber-related events, including incidents and disruptions,
+through prevention, response, and recovery. This Executive Order provides a
+framework that enables the state emergency management and information
+technology to work seamlessly with state, local, tribal, private sector, and other
+relevant partners to rapidly respond to and minimize the impact of cyber events in
+Wyoming.
+3. Members of the CARE Team shall include, but are not limited to, at least one
+representative from each of the following entities:
+a. The Wyoming Office of the Chief Information Officer and Enterprise
+Technology Services (ETS);
+b. The Wyoming Information Analysis Team;
+c. The Wyoming Division of Criminal Investigation's Computer Crime Team;
+d. The Wyoming Office of Homeland Security; and
+e. The Wyoming National Guard.
+4. The Wyoming Office of Homeland Security (WOHS) shall lead the CARE Team
+and shall determine the frequency of its meetings.
+MARK GORDON
+200 WEST 24TH STREET
+307.777.7434• GOVERNOR@WYO.GOV
+CHEYENNE, WY 82002-0010
+GOVERNOR OF WYOMING
+HTTP://GOVERNOR.WYO.GOV
+EO 2023-02
+Establishment of the Wyoming Cyber Assistance Response
+Page 3
+5. The CARE Team shall review cybersecurity and other technology-based threat
+information and assess vulnerabilities, and present their findings and
+recommendations for the protection of State resources to the Governor's Office.
+6. The CARE Team shall continuously review, update, and implement the Wyoming
+Cyber Disruption Response Plan. As updates to the plan are made, the CARE
+Team shall submit the plan to the Governor's Office for review and approval. This
+plan provides a common framework for identifying and responding to
+technological threats that mirrors the federal government model, with
+corresponding responses to address threats of increasing scope and severity.
+7. All Wyoming state agencies shall report known or suspected cybersecurity
+incidents to ETS immediately upon detection. ETS shall carry out the following
+functions:
+a. Pursuant to Wyo. Stat. Ann. §§ 9-2-2901 through -2906, ETS is
+responsible for working with state agencies managing security risks. This
+includes managing information security policies and standards, working
+with agencies on technical matters, and ensuring enterprise projects meet
+security requirements.
+b. ETS, in cooperation with CARE Team members and other subject matter
+experts, shall investigate all state agency reports of cybersecurity incidents.
+c. ETS will decide on behalf of state agencies in determining the appropriate
+reactive measures to a cyber event and shall regularly and promptly notify
+the CARE Team members of such events, event details, and response
+efforts.
+8. The CARE Team will create partnerships that help protect Wyoming Critical
+Infrastructure and Key Resources, as that term is defined by the United States
+Department of Homeland Security. This includes the following actions:
+a. The CARE Team shall seek to work and partner with relevant federal
+agencies including the Department of Homeland Security (DHS), the
+Cybersecurity Infrastructure Security Agency (CISA), the Federal Bureau
+MARK GORDON
+200 WEST 24TH STREET
+307.777.7434•GOVERNOR@WYO.GOV
+CHEYENNE, WY 82002-0010
+GOVERNOR OF WYOMING
+HTTP://GOVERNOR.WYO.GOV
+EO 2023-02
+Establishment of the Wyoming Cyber Assistance Response
+Page 4
+of Investigation (FBI), and the Federal Emergency Management Agency
+(FEMA).
+b. The CARE Team shall seek to work and partner with Wyoming public and
+private sector Critical Infrastructure and Key Resources (CIKR) partners.
+The CARE Team shall also work to establish a cooperative environment of
+information sharing between the CARE Team and public and private CIKR
+partners for the purpose of threat mitigation, response, and recovery.
+c. Use the forgoing directives and authorization to implement a continuous
+improvement process to enhance, improve and harden Wyoming and its
+institutions against cybersecurity threats and events.
+This Executive Order is effective n, 2023. It shall remain in effect until such
+time as it is rescinded.
+Given under my hand and the Executive Seal of the State of Wyoming thisday
+of gume
+, 2023.
+Mark Gordon
+Governor
+MARK GORDON
+200 WEST 24TH STREET
+307.777.7434• GOVERNOR@WYO.GOV
+CHEYENNE, WY 82002-0010
+GOVERNOR OF WYOMING
+HTTP://GOVERNOR.WYO.GOV

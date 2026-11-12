@@ -1,0 +1,142 @@
+Data Protection for Electronic
+Government Services
+WyIT.2002
+
+ Policy Owner            Drew Dilly, Chief Data Officer
+ Policy Contact          Pat Potter, Deputy Chief Data Officer
+ Policy Approver         Jeff Clines, Chief Information Officer
+ Effective Date
+ Next Review Date        October 01, 2027
+ Policy Version
+
+​
+Scope:
+This policy governs proper information classification, protection, and handling of State of Wyoming
+information, regardless of format (e.g., written and/or electronic), using a domain-based approach. It
+establishes the foundation for protecting information based on sensitivity, ensuring regulatory
+compliance, and implementing appropriate controls throughout the information lifecycle.
+
+This policy serves as the state baseline. Agencies may implement more restrictive policies to meet
+applicable state and federal regulations or agency-specific requirements, provided they do not deviate
+substantially from this policy. In lieu of agency-specific policies, this policy shall serve as the governing
+standard.
+
+Authority
+This policy is promulgated under the authority of Wyoming State Statute 9-2-2906 and its subsections,
+the Department of Enterprise Technology Services is required to adopt and enforce information
+technology standards, and promote efficient use of information technology throughout state
+government.
+
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+                                                     ​
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store data.
+
+Definitions
+Key Definitions, Acronyms, and Terms
+
+Policy Statements:
+ 1.​   This policy does not supersede any State or Federal regulation and does not override, waive, or
+       provide exemption from the requirements of the Wyoming Public Records Act. Agencies remain
+       fully obligated to comply with all legal requirements while implementing appropriate privacy
+       safeguards for exempt information.
+       [1], [2], [3]
+
+ 2.​   Upon request, information about their data protection practices, including privacy policies, data
+       use statements, and citizen rights.
+
+       2.1.​     Requests for specific technical security implementations, system architectures, or
+                 detailed protection methods must be reviewed by agency staff in consultation with ETS
+                 security office before releasing the information to ensure disclosure would not
+                 compromise security.
+
+       2.2.​     Agencies may deny requests that could facilitate unauthorized access or compromise
+                 system security.
+       [2], [4], [5], [6]
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ National Institute of Standards and Technology (NIST) SP 800-100
+   2.​ National Institute of Standards and Technology (NIST) SP 800-53, Rev 5
+   3.​ Wyoming Statute .S. 16-4-201 through 205
+   4.​ National Institute of Standards and Technology (NIST) Privacy Framework
+   5.​ WyIT.2011, Wyoming State Data Collection, Transparency and Consent
+   6.​ FTC Fair Information Practice Principles: Notice/Awareness
+
+Compliance & Exceptions:
+Compliance
+Employees who violate this policy may be subject to appropriate disciplinary action up to and including
+discharge as well as both civil and criminal penalties. Non-employees, including, without limitation,
+contractors, may be subject to termination of contractual agreements, denial of access to IT resources,
+and other actions as well as both civil and criminal penalties.
+
+                                                      2
+
+                                                        ​
+Exceptions
+Requests for exceptions to this policy shall be reviewed by the Chief Information Security Officer
+(CISO) and the Chief Information Officer (CIO). Departments requesting exceptions shall provide such
+requests to the CIO in accordance with WyIT.3002 Policy Exception Request.
+
+The request should specifically state the scope of the exception along with justification for granting the
+exception, the potential impact or risk attendant upon granting the exception, risk mitigation measures
+to be undertaken by the IT Department, initiatives, actions and a time-frame for achieving the minimum
+compliance level with the policies set forth herein. The CIO shall review such requests; confer with the
+requesting department.
+
+Any exception to established policy shall be defined and tracked as a risk to the state and established
+mitigating controls monitored by the agency.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+Approval
+This policy as signed by the appropriate officer (listed below) is considered approved and enforced, per
+Wyoming State Statutes (W.S 9-2-2906,(b), (iii)) and (W.S. 9-2-2906,(b), (vi)).
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+ Jeffrey Clines                                                    Chief Information Officer
+ Officer Name                                                      Officer Title
+
+ Officer’s Signature                                               Date
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version        Change                                                    Author(s)              Date of Change
+ 2026-09.1      ETS Director signature                                           GRC               September
+                                                                                                      2026
+
+                                                         3
+
+                                                    ​
+2025-09.2   WyIT 2002, Protection for Electronic Government         Pat Potter     September
+            Services, Updated Document Template                                      2025
+            WyIT 2002, Data Protection for Electronic             Wyoming Data
+2024-06.1   Government Services, Originally Published              Governance      June 2024
+                                                                Committee (WDGC)
+            08100-P166, Policy Data Protection for Electronic
+  UKN       Government Services, Originally Published                 UKN            UKN
+
+                                                    4

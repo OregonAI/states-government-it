@@ -1,0 +1,206 @@
+                    CHAPTER 21 - DATA POLICIES
+
+            ARTICLE 1 - DATA POLICIES-STATE AGENCIES
+
+     9-21-101.   Data policies.
+
+     (a) Every agency shall adopt, enforce and maintain a
+policy regarding the collection, access, security and use of
+data. The policy shall, at a minimum, comply with applicable
+federal and state law, adhere to standards set by the state
+chief information officer and include the following:
+
+          (i) An inventory and description of all data required
+of, collected or stored by an agency;
+
+          (ii) Authorization and authentication mechanisms for
+accessing the data;
+
+          (iii) Administrative, physical and logical security
+safeguards, including employee training and data encryption;
+
+           (iv)   Privacy and security compliance standards;
+
+          (v) Processes for identification of and response to
+data security incidents, including breach notification and
+mitigation procedures;
+
+          (vi) In accordance with existing law, processes for
+the destruction and communication of data.
+
+     (b) As used in this section, "agency" means any office,
+department, board, commission, council, institution, separate
+operating agency or any other operating unit of the executive
+branch of state government. "Agency" shall not include the
+state legislature, judiciary, University of Wyoming or any
+community college in the state.
+
+     (c) The governor, after consultation with the chief
+information officer, may set a date for specific agencies to
+comply with subsection (a) of this section and may revise that
+date as necessary.
+
+           ARTICLE 2 - DATA PRIVACY-GOVERNMENT ENTITIES
+
+     9-21-201.    Definitions.
+
+     (a)   As used in this article:
+
+          (i) "Deidentified data" means data that cannot
+reasonably be used to infer information about, or otherwise be
+linked to, an identified or identifiable natural person or
+personal digital identity or a device linked to a natural person
+or personal digital identity;
+
+          (ii) "Government entity" means the state and all its
+political subdivisions, agencies, instrumentalities and
+institutions and any local government entity. "Government
+entity" shall not include the judicial branch of government or
+any law enforcement agency in Wyoming;
+
+          (iii) "Identified or identifiable natural person"
+means a natural person who can be readily identified, directly
+or indirectly, by reference to an identifier such as a name, an
+identification number, specific geolocation data or an online
+identifier;
+
+          (iv) "Law enforcement agency" means a county,
+municipal, college or university police force, Wyoming highway
+patrol, the division of criminal investigation, the department
+of corrections, the game and fish department when acting within
+its law enforcement capacity or any state or local agency or
+political subdivision or part of an agency or political
+subdivision to the extent that the primary purpose of the agency
+or political subdivision, or part thereof, is the prevention or
+investigation of crime or the enforcement of penal, traffic,
+regulatory or criminal laws. "Law enforcement agency" shall not
+include the office of any city, county or district attorney or
+other division of the attorney general;
+
+          (v) "Personal data" means information that is linked
+or reasonably linkable to an identified or identifiable natural
+person or personal digital identity and does not include
+deidentified data;
+
+          (vi) "Personal digital identity" means as defined in
+W.S. 8-1-102(a)(xviii).
+
+     9-21-202. Limitations on personal data by government
+entities; conflict of laws.
+
+     (a) No government entity shall purchase, sell, trade or
+transfer personal data without the express written consent of
+the natural person whom the personal data references except as
+otherwise expressly provided by law and except that:
+
+          (i) A government entity may transfer personal data to
+another government entity provided that the other government
+entity complies with this article;
+
+          (ii) A government entity may transfer personal data
+to a nongovernment entity contracted by the government entity to
+provide or assist with government services provided by the
+government entity. Any contract for services with a
+nongovernment entity shall include requirements for the
+protection of personal data consistent with this article. Any
+personal data transferred pursuant to this paragraph shall be
+
+returned or destroyed by the nongovernment entity once the
+personal data is no longer necessary for the provision of the
+government service. No nongovernment entity shall maintain,
+sell, transfer, process or otherwise use the personal data in
+any manner except as necessary to provide the contracted
+service;
+
+          (iii) A government entity may petition the elected
+governing person or body with authority over the government
+entity for an exception to this subsection on a case by case
+basis. The elected governing person or body, in the elected
+governing person's or body's discretion, may publicly approve in
+writing an exception to this subsection not to exceed a term of
+two (2) years per petition; and
+
+          (iv) Nothing in this subsection shall be construed to
+prohibit the transfer of personal data that is transferrable
+pursuant to the Health Insurance Portability and Accountability
+Act or the Family Education Rights and Privacy Act.
+
+     (b) Any current or former Wyoming resident or the
+resident's legally authorized representative may request a copy
+of their personal data from any government entity maintaining
+it. The government entity may charge a fee for production of
+the requested personal data consistent with fees authorized to
+be charged under the Wyoming Public Records Act, W.S. 16-4-201
+through 16-4-205.
+
+     (c) A current or former Wyoming resident or the resident's
+legally authorized representative who objects to the accuracy,
+completeness, pertinence, timeliness, relevance, retention,
+dissemination or denial of access to the resident's own personal
+data that is maintained by a government entity may, individually
+or through a duly authorized representative, file an objection
+with the government entity that maintains the data. The
+government entity maintaining the personal data shall, within
+sixty (60) days of the receipt of an objection:
+
+          (i) Verify the identity of the current or former
+Wyoming resident or the resident's legally authorized
+representative who filed the objection with the government
+entity;
+
+          (ii)   Review the validity of the objection;
+
+          (iii) If the objection is found to be meritorious
+after review, alter the contents of, or the methods for holding,
+
+or the dissemination or use of the personal data, or delete or
+grant access to it;
+
+          (iv) If the objection is found to lack merit after
+review, provide the resident the opportunity to have a statement
+reflecting the resident's views maintained with the personal
+data in question;
+
+          (v) Notify the resident in writing of any decision
+regarding the resident's objection.
+
+     (d) To the extent that a provision of this article
+conflicts with another provision of state or federal law, the
+other provision shall control. Nothing in this article shall be
+construed to abrogate any disclosure of data or public records
+under the Wyoming Public Records Act, W.S. 16-4-201 through 16-
+4-205.
+
+     9-21-203. Personal data collection and retention by
+government entities. Note: this section is effective as of
+7/1/2027.
+
+     (a) In addition to the policies required under W.S. 9-21-
+101, if applicable, each government entity that collects or
+retains personal data shall adopt, enforce and maintain a policy
+regarding the collection, access, retention, security and use of
+personal data consistent with all applicable federal and state
+laws, including this article.
+
+     (b) No government entity shall collect or maintain more
+personal data than is reasonably necessary for the performance
+of the government entity's lawful functions. All personal data
+collected and maintained by government entities shall be
+necessary for a specific purpose identified in the adopted
+policies of the government entity.
+
+     (c) No government entity shall maintain personal data for
+longer than three (3) years without a written policy identifying
+the extended retention period and providing a reasonable
+justification for the extended retention period. Statutory
+retention requirements provided for in W.S. 9-2-405 through 9-2-
+413 constitute a reasonable justification.
+
+     (d) A government entity to which the Health Insurance
+Portability and Accountability Act or the Family Education
+Rights and Privacy Act applies that is compliant with a written
+data collection and retention policy that meets the requirements
+
+of the Health Insurance Portability and Accountability Act or
+the Family Education Rights and Privacy Act shall be deemed
+compliant with this section.

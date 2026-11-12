@@ -1,0 +1,246 @@
+Agency Official for Privacy
+WyIT.2006
+
+ Policy Owner           Department of Enterprise Services, Data Privacy
+ Policy Contact         Pat Potter, Deputy Chief Data Officer
+ Policy Approver        Wyoming Data Governance Committee (WDGC)
+ Effective Date         September 12, 2025
+ Next Review Date       April 1, 2027
+ Policy Version         2026-09.1
+
+Scope:
+This policy establishes the requirements for designating and empowering an Agency Official for Privacy
+(AOP) role within each Executive Branch agency to ensure appropriate governance, compliance, and
+risk management regarding data privacy operations. The AOP serves as the central privacy authority
+responsible for developing, implementing, and maintaining comprehensive privacy programs that
+protect sensitive data and information, regardless of format, structure, or formal asset designation and
+ensure compliance with applicable privacy laws and regulations.
+
+This policy addresses the critical need for dedicated privacy leadership within state agencies to
+manage privacy risks, ensure regulatory compliance, and provide accountability for privacy-related
+decisions and incidents.
+
+Authority
+This policy is promulgated under the authority of Wyoming State Statute 9-2-2906 and its subsections,
+the Department of Enterprise Technology Services is required to adopt and enforce information
+technology standards, and promote efficient use of information technology throughout state
+government.
+
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+                                                         ​
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store state data
+
+Definitions
+Key Definitions, Acronyms, and Terms
+
+Policy Statements:
+ 1.​   AGENCY OFFICIAL FOR PRIVACY (AOP) DESIGNATION REQUIREMENTS
+       1.1.​ The Agency Official for Privacy (AOP) shall:
+
+               1.2.​       Be an official serving in a central leadership position at the agency;​
+
+               1.3.​       Have visibility into relevant agency operations; and ​
+
+               1.4.​       Is positioned highly enough within the agency to regularly engage with other
+                           agency leadership.​
+
+               1.5.​       Classification must occur upon data creation, acquisition, or when existing data
+                           undergoes significant modification.
+                [1], [2]
+
+       1.2.​   Personnel identified by the agency as the AOP(s) shall have the necessary skills,
+               knowledge, and expertise to lead and direct privacy programs.
+                1.2.1.​ The agency AOP(s) shall receive training consistent with the ability to carry
+                        out the privacy-related functions dictated by the needs of the State and
+                        agency as well as those described in law and policies.
+               [1], [3], [4]
+
+       1.3.​   The AOP shall have the necessary authority at the agency to lead and direct the
+               agency's privacy program and carry out the privacy-related functions described in law
+               and policies.​
+               [1], [3], [5]​
+
+ 2.​   RESPONSIBILITIES
+       2.1.​ The Agency Head is ultimately responsible for ensuring privacy interests are protected,
+             and sensitive data and information, regardless of format, structure, or formal asset designation
+             is managed responsibly within the agency. To ensure agencies effectively carry out the
+             privacy-related functions described in law and policy, the agency head shall designate
+             an AOP with the following responsibilities:
+
+                2.1.1.​        The agency shall develop, implement, document, maintain, and oversee an
+                               agency-wide privacy program that supports state data governance
+
+                                                         2
+
+                                                 ​
+                       requirements and ensures protection of sensitive data and information,
+                       regardless of format, structure, or formal asset designation in accordance with
+                       applicable state and federal law.​
+
+         2.1.2.​       The privacy program shall be led by an AOP responsible for ensuring
+                       compliance with applicable privacy requirements, developing and evaluating
+                       privacy policy, and managing privacy risks consistent with the agency's
+                       mission.
+                        [1], [3], [5], [6], [7]​
+
+2.2.​   At the discretion of the AOP or agency head, other qualified agency personnel may
+        perform specific privacy functions under AOP oversight, excluding final decision-making
+        authority for privacy risk acceptance and incident response. The AOP retains ultimate
+        accountability for all delegated privacy activities and must ensure proper training and
+        supervision of delegated personnel.
+        [1],[2],[3]​
+
+2.3.​   The AOP shall ensure that the agency considers and addresses the privacy implications
+        of all agency regulations and policies and shall lead the agency's evaluation of the
+        privacy implications of legislative proposals.​
+        [1], [3]​
+
+2.4.​   The AOP shall have a central role in overseeing, coordinating, and facilitating the
+        agency's privacy compliance efforts. The AOP shall ensure that the agency complies
+        with applicable privacy requirements in law, regulation, and policy.​
+        [1], [3], [6], [7]
+
+2.5.​   The AOP shall manage privacy risks throughout the complete lifecycle of sensitive data
+        and information, regardless of format, structure, or formal asset designation, from
+        collection through disposal. The AOP's review of privacy risks shall begin at the earliest
+        planning and development stages of agency actions and policies that involve sensitive
+        data and information, and continue throughout the lifecycle of the programs or
+        information systems. Appropriately managing privacy risks may require agencies to take
+        steps beyond those required in law, regulation, and policy.​
+        [1], [3]
+
+2.6.​   The AOP shall implement a procedure in their agency to report suspected privacy
+        incidents and/or breaches for agency staff to the AOP.​
+        [1], [3]​
+
+2.7.​   The AOP shall represent their agency on any subcommittee, committee, or council that
+        governs privacy in the state.​
+        [1], [3]​
+
+                                                 3
+
+                                                   ​
+       2.8.​   ETS shall provide training to the AOP on privacy concepts. This training shall not be
+               construed as a substitute for any training required for agencies that have federal
+               requirements. Agencies shall remain subject to federal and regulatory training
+               requirements.​
+               [1], [3]​
+
+ 3.​   IMPLEMENTATION
+       3.1.​ The head of each agency shall assess the extent, management, structure, and operation
+             of the agency's privacy program and designate an official(s) to serve as the Agency
+             Official for Privacy (AOP).​
+             [1], [3]​
+
+       3.2.​   Agencies shall conduct privacy risk assessments of existing information systems that
+               process, store, or transmit sensitive information, regardless of format, structure, or
+               formal asset designation, prioritizing systems based on risk level.​
+               [1], [3]
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ National Institute of Standards and Technology (NIST) Privacy Framework
+   2.​ OMB Circular A-130
+   3.​ National Institute of Standards and Technology (NIST) SP 800-53, Rev 5
+   4.​ IAPP Privacy Program Management
+   5.​ Wyoming Statute .S. 9-21-101(a)(i)
+   6.​ EU-U.S. Data Privacy Framework (DPF)
+   7.​ ISO/IEC 27001
+   8.​ WyIT.2001-G1, Information Classification Guide
+   9.​ WyIT.2001-S1, Data Owner Standard
+   10.​National Institute of Standards and Technology (NIST) SP 800-171, Rev 2
+   11.​FBI Criminal Justice Information Services (CJIS) Security Policy
+   12.​Health Insurance Privacy and Accountability Act (HIPAA), Security Rule
+   13.​Family Educational Rights and Privacy Act (FERPA), 34 CFR Part 99
+   14.​IRS Publication 1075
+   15.​WyIT.2005, Information Residency and Transportation
+   16.​WyIT.2001-S2, Data Steward Standard
+   17.​WyIT.2001-S3, Data Custodian Standard
+   18.​WyIT.2001-S4, Data Domain Standard
+   19.​WyIT.2001-G1, Information Classification Guide
+   20.​WyIT.2001-G2, Information Classification Procedures Guide
+   21.​Wyoming Public Records Act (W.S.§ 16-4-201 through 16-4-205)
+   22.​WyIT.2013, Electronic Data Destruction and Sanitization
+   23.​WyIT.2003, Data Backup, Storage and Restoration
+   24.​WyIT. 2005, Information Residency and Transportation
+   25.​WyIT.2009, “Clean Desk” Confidential Information and Sensitive Materials Policy
+
+                                                   4
+
+                                                    ​
+   26.​WyIT.2014, Data Sharing Agreement Documentation Governance
+   27.​WyIT.3015, Physical Media
+
+Compliance & Exceptions:
+Compliance
+Employees who violate this policy may be subject to appropriate disciplinary action up to and including
+discharge as well as both civil and criminal penalties. Non-employees, including, without limitation,
+contractors, may be subject to termination of contractual agreements, denial of access to IT resources,
+and other actions as well as both civil and criminal penalties.
+
+Exceptions
+Requests for exceptions to this policy shall be reviewed by the Chief Information Security Officer
+(CISO) and the Chief Information Officer (CIO). Departments requesting exceptions shall provide such
+requests to the CIO in accordance with WyIT.3002 Policy Exception Request.
+
+The request should specifically state the scope of the exception along with justification for granting the
+exception, the potential impact or risk attendant upon granting the exception, risk mitigation measures
+to be undertaken by the IT Department, initiatives, actions and a time-frame for achieving the minimum
+compliance level with the policies set forth herein. The CIO shall review such requests; confer with the
+requesting department.
+
+Any exception to established policy shall be defined and tracked as a risk to the state and established
+mitigating controls monitored by the agency.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+Approval
+This policy as signed by the appropriate officer (listed below) is considered approved and enforced, per
+Wyoming State Statutes (W.S 9-2-2906,(b), (iii)) and (W.S. 9-2-2906,(b), (vi)).
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+ Jeffrey Clines                                               Chief Information Officer
+ Officer Name                                                 Officer Title
+
+ Officer’s Signature                                          Date
+
+                                                    5
+
+                                                        ​
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version       Change                                                    Author(s)               Date of Change
+ 2026-09.1     ETS Director signature                                           GRC              September
+                                                                                                 2026
+ 2025-09.2     WyIT 2006, Agency Official for Privacy (AOP),                  Pat Potter           September
+               Updated Document Template                                                              2025
+               WyIT 2006, Agency Official for Privacy (AOP),               Wyoming Data
+ 2024-06.1     Originally Published                                         Governance              June 2024
+                                                                         Committee (WDGC)
+
+                                                         6

@@ -1,0 +1,447 @@
+Data Classification Guide
+WyIT.2001-G1
+
+ Policy Owner           Drew Dilly, Chief Data Officer
+ Policy Contact         Pat Potter, Deputy Chief Data Officer
+ Policy Approver        Jeff Clines, Chief Information Officer
+ Effective Date         September 12, 2025
+ Next Review Date       April 1, 2027
+ Policy Version         2026-09.01
+ Associated Policy      WyIT 2001, Information Classification
+
+​
+Introduction:
+This guide supports Wyoming state agencies in properly classifying, protecting, and handling state
+information. This guide incorporates data domain concepts as a foundational element of effective
+information governance.
+
+This standard applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This standard is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store data. ​
+
+Authority
+This guideline is promulgated under the authority of Wyoming State Statute 9-2-2906 and its
+subsections, the Department of Enterprise Technology Services is required to adopt and enforce
+information technology standards, and promote efficient use of information technology throughout state
+government.
+
+Specifically, this policy is further promulgated under the authority of the below listed Wyoming State
+Statute subsections.
+
+   ●​ Implements and maintains an information technology governance program for state agencies
+      (W.S 9-2-2906,(b), (ii));
+   ●​ Establishes and enforces data security and privacy policies and standards for the state data
+      infrastructure Establishes review criteria for the agencies information technology projects,
+      procurements and purchases. (W.S 9-2-2906,(b), (iii)); and
+
+                                                     ​
+Adopts information technology policies and standards and ensures agency compliance with those
+policies and standards (W.S. 9-2-2906,(b), (vi)).
+
+Audience
+This policy applies to all Executive Branch agencies, boards, and commissions staff (collectively
+referred to as "agencies"). This policy is also applicable to consultants, affiliates, third party vendors
+and temporary employees that use or store state data.
+
+Definitions
+Key Definitions, Acronyms, and Terms
+
+Data Classification Levels:
+
+   ●​ Public (Low Sensitivity)
+
+       ○​ Information that poses no risk to the State if made generally available.
+
+       ○​ This includes information intended for public release or already publicly available.
+
+       ○​ Example data types: press releases, public meeting minutes, published reports, agency
+          contact information, public-facing website content.
+
+   ●​ Internal (Moderate Sensitivity):
+      ○​ Information whose loss, corruption, or unauthorized disclosure is of importance only inside
+          the State and, therefore, would not result in a tangible business, financial, or legal loss.
+
+       ○​ This information is not routinely shared outside the State government but is generally
+          accessible to State employees.
+
+   ●​ Confidential (High Sensitivity):
+      ○​ Information whose loss, corruption, or unauthorized disclosure would seriously harm an
+         individual's, business's, or the State's reputation or business position, resulting in severe
+         financial and legal loss.
+
+       ○​ Confidential information is subject to controlled access and special handling requirements.
+
+           ○​ Confidential-Standard: Sensitive business or operational information
+
+           ○​ Confidential-Regulated: Information subject to specific regulatory requirements
+
+Other Key Concepts
+   ●​ Classification Inheritance
+
+           ○​ The process by which compiled or derivative information takes on the highest
+              classification level of any component information.
+           ○​ When information consists of elements with different classification levels, the entire
+              information asset shall be classified at the highest level of any component element.
+
+                                                      2
+
+                                                    ​
+   ●​ Aggregated Data
+
+           ○​ Collections of data elements from multiple sources that may require higher classification
+              than individual elements due to revealing patterns or sensitive insights when combined.
+           ○​ Agencies must consider whether aggregated data requires higher classification than its
+              component parts due to mosaic effects or inference risks.
+
+Detailed Classification System:
+ 1.​   PUBLIC (LOW SENSITIVITY) INFORMATION
+       1.1.​ Public (low sensitivity) information is information that poses no risk to the State, if made
+             generally available. This type of information is typically either Unrestricted or Available
+             Upon Request.​
+
+       1.2.​   Unrestricted:​
+
+               1.2.1.​   Information that is public knowledge or readily available to the public.​
+
+               1.2.2.​   May be disclosed in the normal course of conversation or other methods of
+                         communication without regard to whom the communication occurs.
+
+       1.3.​   Available Upon Request
+                1.3.1.​ Information readily available to the public but requires a formal request either
+                         in written form or in person.​
+
+               1.3.2.​   Personnel should verify that the request is reasonable based on the Wyoming
+                         Public Records Act (WPRA).​
+
+               1.3.3.​   Example types: employee names and direct telephone numbers, general or
+                         generic information about the organization, public meeting minutes.​
+
+       1.4.​   Typically, the handling requirements for this type of information:​
+
+               1.4.1.​   May be freely distributed without restrictions, in accordance with W.S.
+                         §16-4-202.​
+
+               1.4.2.​   May be published on internet websites available to all internet users.​
+
+               1.4.3.​   Have no special security measures required beyond normal good practices.​
+
+               1.4.4.​   Should still be reviewed for accuracy before public release.​
+
+ 2.​   INTERNAL (MODERATE SENSITIVITY) INFORMATION
+       2.1.​ Examples may include, but are not limited to:​
+
+               2.1.1.​   Internal Memos​
+
+                                                     3
+
+                                                    ​
+              2.1.2.​    Project Plans​
+
+              2.1.3.​    Non-sensitive Internal Communications​
+
+              2.1.4.​    Draft Documents​
+
+              2.1.5.​    General Operating Procedures​
+
+              2.1.6.​    General Employee Directories​
+
+              2.1.7.​    Non-sensitive Meeting Notes​
+
+              2.1.8.​    Routine Administrative Information​
+
+      2.2.​   Typically, the handling requirements for this type of information:​
+
+              2.2.1.​    Should be kept within state organization​
+
+              2.2.2.​    May be shared between agencies but not with external parties without
+                         approval​
+
+              2.2.3.​    Requires basic access controls to ensure only authorized state personnel can
+                         access.​
+
+              2.2.4.​    May be included in agency intranets and areas of internet websites that
+                         require users to log in.​
+
+              2.2.5.​    Should be labeled as “internal” where practical​
+
+              2.2.6.​    Should be stored in systems with appropriate security controls.
+
+3.​   CONFIDENTIAL (HIGH SENSITIVITY)
+      3.1.​ Confidential (high sensitivity) is information whose loss, corruption, or unauthorized
+            disclosure would seriously harm an individual's, business's, or the State's reputation or
+            business position, resulting in severe financial and legal loss.​
+
+      3.2.​   Confidential-Standard information is sensitive business or operational information.
+
+              3.2.1.​    Example data types: security plans, sensitive strategic plans, contract
+                         negotiations, legal opinions, processing volumes, service pricing, equipment
+                         configurations, vendor information, application software configurations, and
+                         other similar business and technical information.​
+
+              3.2.2.​    Confidential-Regulated information is information subject to specific regulatory
+                         requirements and requires strict control due to legal and regulatory mandates.​
+
+                 3.2.2.1.​    Example data types​
+
+                        3.2.2.1.1.​   Personally Identifiable Information (PII)​
+
+                                                     4
+
+                                                    ​
+                        3.2.2.1.2.​   Protected Health Information (PHI)​
+
+                        3.2.2.1.3.​   Federal Tax Information (FTI)​
+
+                        3.2.2.1.4.​   Criminal Justice Information (CJI)​
+
+                        3.2.2.1.5.​   Payment Card Data​
+
+                        3.2.2.1.6.​   Employee private information (home address, telephone number,
+                                      years of service, etc.); and​
+
+                        3.2.2.1.7.​   Customer information (names, contacts, addresses, etc.)​
+
+              3.2.3.​    The handling requirements for this type of information includes:​
+
+                 3.2.3.1.​    Strict control requirement;.​
+
+                 3.2.3.2.​    Access on a need-to-know basis only;
+
+                 3.2.3.3.​    Encryption for storage and transmission;
+
+                 3.2.3.4.​    Written approval is needed for any external disclosure, in compliance with
+                              W.S. §16-4-203 and applicable federal laws;
+
+                 3.2.3.5.​    Never published on any Internet Website;
+
+                 3.2.3.6.​    Clear labeling as "Confidential" required;
+
+                 3.2.3.7.​    Should be stored in secured systems with robust access controls; and
+
+                 3.2.3.8.​    Transfer and sharing subject to additional restrictions
+
+4.​   DATA DOMAINS
+      4.1.​ Data domains are logical groupings of related data that share common characteristics,
+            serve similar business functions, or support specific program areas within an
+            organization. They represent distinct categories of information that an agency manages
+            and uses to fulfill its mission.
+5.​   ALIGN DATA DOMAINS WITH ORGANIZATIONAL STRUCTURE AND FUNCTIONS​
+
+      5.1.​   Identify domains based on major program areas within your agency.​
+
+      5.2.​   Ensure domains reflect the primary functions and services your agency provides.​
+
+              5.2.1.​    Example: A health department might have domains for vital records, disease
+                         surveillance, provider licensing, and public health education.
+
+                                                     5
+
+                                                      ​
+ 6.​    ACCESS DATA CLASSIFICATION AND SENSITIVITY
+        6.1.​ Use Wyoming's three-tier classification system to group data with similar sensitivity
+              levels.​
+
+        6.2.​   Group data with similar protection requirements to streamline security controls.​
+
+                 6.2.1.​   Example: Group all data containing personally identifiable information (PII)
+                           that requires similar protection.
+
+ 7.​    CONSIDER REGULATORY AND COMPLIANCE FACTORS
+        7.1.​ Identify data subject to specific regulations or statutes.​
+
+        7.2.​   Group data that shares compliance requirements.​
+
+                 7.2.1.​   Example: Create a domain for all data subject to HIPAA regulations in a
+                           healthcare agency.​
+
+ 8.​    ANALYZE DATA RELATIONSHIPS AND DEPENDENCIES
+        8.1.​ Map how data flows between systems and stakeholders.​
+
+        8.2.​   Identify relationships between different types of data​
+
+                 8.2.1.​   Example: Customer contact information used across multiple programs should
+                           be managed as a single domain.​
+
+ 9.​    EVALUATE DATA LIFECYCLE CONSIDERATIONS
+        9.1.​ Group data with similar retention schedules.​
+
+        9.2.​   Consider how data is created, updated, archived, and destroyed​
+
+                 9.2.1.​   Example: Group financial records that must be retained for 7 years​
+
+10.​    ASSESS OPERATIONAL MANAGEMENT FACTORS
+       10.1.​ Identify natural groupings based on who manages the data.​
+
+       10.2.​   Consider who needs access to the data and how it's used​
+
+                10.2.1.​   Example: Create a domain for all GIS data that requires specialized
+                           knowledge and tools​
+
+11.​    DATA DOMAINS AND CLASSIFICATION SUPPORT
+       11.1.​ Establish clear lines of responsibility for data classification.​
+
+       11.2.​   Enable designation of specific data stewards responsible for classification.​
+
+                                                      6
+
+                                                     ​
+       11.3.​   Create clear accountability for data quality, security, and compliance.​
+
+12.​    ENHANCED DATA QUALITY AND CONSISTENCY
+       12.1.​ Allow for consistent classification across similar data types.​
+
+       12.2.​   Facilitate implementation of appropriate quality measures for each domain.​
+
+       12.3.​   Reduce redundancy and conflicting classification decisions.​
+
+13.​    OPTIMIZED SECURITY CONTROLS
+       13.1.​ Enable right-sized security controls based on domain sensitivity.​
+
+       13.2.​   Facilitate better risk assessment and mitigation strategies.​
+
+       13.3.​   Streamline compliance with relevant regulations.​
+
+14.​    BETTER DATA SHARING AND INTEGRATION
+       14.1.​ Enable appropriate sharing within and across agencies.​
+
+       14.2.​   Define clear boundaries for what data can be shared, with whom, and under what
+                conditions.​
+
+       14.3.​   Facilitate data integration between systems and agencies
+
+Data Domain Example and Documentation Template:
+
+Example Data Domains for a Wyoming State Agency
+  Domain
+   Name           Description         Classification Level        Primary Systems                Data Owner
+Vital           Birth, death, and   Confidential-Regulated       Vital Records             Vital Records Program
+Records         marriage records                                 System                    Manager
+Financial       Budget,             Internal                     Financial                 Chief Financial Officer
+Data            accounting, and                                  Management
+                procurement                                      System
+                records
+Public          Aggregated,         Public                       Health Statistics         State Epidemiologist
+Health          de-identified                                    Database
+Statistics      health trend data
+Employee        Personnel files,    Confidential-Standard        HR Management             Human Resources
+Records         payroll, and                                     System                    Director
+                benefits
+                information
+
+                                                     7
+
+                                                    ​
+  Domain
+   Name            Description       Classification Level        Primary Systems              Data Owner
+Licensing      Professional and Internal/Confidential*          Licensing Database      Licensing Division
+Data           business licenses                                                        Manager
+
+*Note: Basic license status information is Internal while detailed application materials may be
+Confidential
+
+Data Domain Documentation Template
+When documenting your data domains, consider using the following template:
+
+            Domain Attribute                                         Description
+Domain Name                              Clear, descriptive title for the domain
+Description                              Summary of the data contained in this domain
+Data Types                               List of major data types/categories included
+Classification Level                     Public, Internal, or Confidential per WyIT-2001
+Data Owner                               Individual accountable for the domain
+Data Steward(s)                          Individual(s) responsible for day-to-day management
+Related Systems                          Information systems that create or store this data
+Regulatory Requirements                  Applicable laws, regulations, or policies
+Retention Period                         How long data must be kept
+Sharing Restrictions                     Limitations on how data can be shared
+
+Applicable State Policies, Federal, State or Industry Rules, Laws, and/or Regulations
+
+   1.​ National Institute of Standards and Technology (NIST) SP 800-53, Rev 5
+   2.​ National Institute of Standards and Technology (NIST) SP 800-60
+   3.​ National Institute of Standards and Technology (NIST) SP 800-122
+   4.​ Federal Privacy Act of 1974: 5 U.S.C. § 552a
+   5.​ WyIT 2001, Information Classification
+   6.​ WyIT 2001-S1, Data Owner Standard
+   7.​ WyIT 2001-S2, Data Steward Standard
+   8.​ WyIT 2001-S3, Data Custodian Standard
+   9.​ WyIT 2001-S4, Data Domain Standard
+   10.​WyIT 2001-GL2, Information Classification Procedures Guide
+   11.​WyIT-2004, Information Breach, Disclosure or Data Leak
+   12.​WyIT 2004-GL, Information Breach Response Guide
+   13.​WyIT-2005, Information Residency and Transportation
+   14.​WyIT-2006, Agency Official for Privacy (AOP)
+   15.​WyIT-2011, Wyoming State Data Collection, Transparency, and Consent
+
+                                                    8
+
+                                                        ​
+    16.​WyIT-2013, Electronic Data Destruction and Sanitization
+    17.​WyIT 2014, Data Sharing Agreement Documentation and Governance
+
+Compliance & Exceptions:
+Compliance
+This document supports an established policy, so there are no compliance requirements.
+
+Exceptions
+Since standards are not held to a compliance standard, there are no exceptions to this standard.
+
+Review/Approval:
+Date Issued/Review Date
+This policy shall be reviewed at least annually and updated / reviewed / approved as defined in the
+Office of Chief Information Officer (OCIO) Policy lifecycle.
+
+The review and update process shall be coordinated by Governance, Risk and Compliance (GRC),
+completed by the policy owner and approved through the OCIO policy review workflow.
+
+Approval
+This policy as signed by the appropriate officer (listed below) is considered approved and enforced, per
+Wyoming State Statutes (W.S 9-2-2906,(b), (iii)) and (W.S. 9-2-2906,(b), (vi)).
+
+To obtain a signed copy of this document, contact Enterprise Technology Services Governance,
+Risk and Compliance (ets-ocio-grc@wyo.gov).
+
+ Jeffrey Clines                                                    Chief Information Officer
+ Officer Name                                                      Officer Title
+
+ Officer’s Signature                                               Date
+
+Revision History
+The current version of this policy, as identified in the Revision History below, supersedes all previous documents
+listed below.
+
+ Version        Change                                                         Author(s)         Date of Change
+ 2026-09.1      ETS Director signature                                           GRC               September
+                                                                                                      2026
+ 2025-09.0      WyIT 2001-G1, Information Classification Guide,                Pat Potter          September
+     1          Updated Document Template                                     Deputy CDO              2025
+
+                                                         9
+
+                                                  ​
+October   WyIT 2001-GL, Information Classification Guideline      Wyoming Data    August 2024
+ 2022     Replaced by                                              Governance
+          ●​ WyIT 2001-S1, Data Owner Standard                     Committee
+          ●​ WyIT 2001-S2, Data Steward Standard
+          ●​ WyIT 2001-S3, Data Custodian
+          ●​ WyIT 2001-S4, Data Domain Standard
+
+          WyIT 2001-S, Information Classification Standard
+          Replaced by
+          ●​ WyIT 2001-S1, Data Owner Standard                  Wyoming Data
+ UKN      ●​ WyIT 2001-S2, Data Steward Standard                Governance        August 2024
+          ●​ WyIT 2001-S3, Data Custodian                       Committee
+          ●​ WyIT 2001-S4, Data Domain Standard
+
+ UKN      08100-P131, Policy Information Classification         UKN              November 2018
+          Replaced by
+          ●​ WyIT 2001-S, Information Classification Standard
+          ●​ WyIT 2001-GL, Information Classification
+             Guideline
+
+ UKN      08100-S131, Information Classification Standard       UKN                May 2018
+          Replaced by
+          ●​ WyIT 2001-S, Information Classification Standard
+          ●​ WyIT 2001-GL, Information Classification
+             Guideline​
+
+                                                 10

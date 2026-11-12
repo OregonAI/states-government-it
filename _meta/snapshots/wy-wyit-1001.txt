@@ -1,0 +1,132 @@
+ AGENCY CONTROLLED INFORMATION TECHNOLOGY
+  (IT) CHANGE MANAGEMENT AND MAINTENANCE
+                                           WyIT - 1001
+
+ PURPOSE: To ensure agencies managing internal IT infrastructure maintain an IT
+ change management practice; minimizing risk to agency business and maintaining
+ compliance with statewide security policies, standards, and procedures.
+
+  I.   APPLICABILITY
+
+       This policy applies to all Executive Branch agencies, boards, and commissions staff
+       (collectively referred to as “agencies”). This policy is also applicable to consultants,
+       affiliates, and temporary employees.
+
+ II.   DEFINITIONS
+
+       All definitions for this policy are located in the Policy Dictionary.
+
+III.   EXCEPTIONS
+
+       Any exceptions provided to the following policy must abide by WyIT - 3002 -
+       Security Exception Request policy.
+
+IV.    CHANGE MANAGEMENT
+
+       A. Requirements
+
+          ● Must establish a process for change management for IT operations and
+            services to ensure requested changes are thoroughly checked and assessed
+            technically and from a business perspective. The process should include:
+            ○ Change classification types with varying response levels.
+
+                                                                               WyIT 1001          Page 1
+
+           ○ Defined roles and responsibilities for participants.
+           ○ Procedure process workflow.
+           ○ Key performance indicators of success or failure.
+         ● One-week notice to ETS is required for all changes. The notice must include:
+           ○ Change description,
+           ○ Point of contact, and
+           ○ Time of execution.
+
+         Email notice should be emailed to the distribution group ets-change@wyo.gov.
+
+V.    MAINTENANCE REQUIREMENTS
+
+      A. Agency Controlled Maintenance
+
+         ● Schedule, perform, document, and review maintenance records of
+           maintenance on technology components according to manufacturer or
+           vendor specifications and requirements.
+         ● System owners are required to explicitly approve the removal of the
+           information system or system components from facilities for off-site
+           maintenance or repairs. Equipment must be sanitized prior to removal.
+         ● Following maintenance, check all potentially impacted security controls to
+           verify that they are still functioning properly following maintenance or repair
+           actions.
+
+      B. Vendor Controlled Maintenance
+
+         ● Monitor and retain all affiliate-provided maintenance and diagnostic activities.
+         ● Allow the use of affiliate diagnostic tools as consistent with policy and
+           documented in the security plan for the information system.
+         ● Employ strong authenticators in the establishment of affiliate maintenance
+           and diagnostic sessions.
+         ● Terminate session and network connections when affiliate maintenance is
+           completed.
+         ● Document the security plan for the information system, the policies and
+           procedures for the establishment and use of affiliate maintenance and
+           diagnostic connections.
+
+VI.   PERSONNEL REQUIREMENTS
+
+                                                                       WyIT 1001              Page 2
+
+    A. Establish a process for authorizing maintenance personnel authorization.
+
+    B. Maintain a current list of authorized personnel available to ETS upon request.
+
+    C. Ensure non-escorted personnel performing maintenance have required access
+       authorizations.
+
+    D. Designate personnel with required access authorizations and technical
+       competence to supervise the maintenance activities of personnel who do not
+       possess required access authorizations.
+
+REFERENCES:
+
+   ● Wyoming §§ 40-21-101 — 40-21-119
+
+   ● IRS Publication 1075, Safeguards for Protecting Federal Tax Returns and Return
+     Information
+
+   ● Health Insurance Portability and Accountability Act (HIPAA)
+
+   ● Minimum Acceptable Risk Standards for Exchanges (MARS-E) 2.0 Framework
+
+   ● Family Education Rights Privacy Act (FERPA)
+
+   ● Payment Card Industry – Data Security Standards (PCI-DSS)
+
+   ● Criminal Justice Information Services (CJIS)
+
+   ● Children’s Online Privacy Protection Act (COPPA)
+
+SUPERSEDED POLICIES: This policy supersedes the policies listed below.
+
+   ● 03100-P101, Information      Technology    Change    Management      Policy,   dated
+     December 28, 2017
+
+   ● 03100-G010, Information Technology Change Management Guideline, dated
+     December 28, 2017
+
+                                                                     WyIT 1001              Page 3
+
+                       DOCUMENT HISTORY
+
+                        ORIGINAL SUBMISSION
+ SUBMITTED     SUBMITTED           APPROVED       APPROVED BY        EFFECTIVE
+    ON            BY                  BY            DATE(S)            DATE
+
+June 2024     ETS Governance,    Public Comment   06/14/2024 -     July 2024
+              Risk and           Period           06/28/2024
+              Compliance
+
+                                  REVISIONS
+  LAST REVISION DATE            LAST REVISED BY              LAST APPROVED BY
+
+                                   REVIEWS
+   LAST REVIEW DATE             LAST REVIEWED BY            NEXT REVIEW DATE
+
+                                                                 WyIT 1001       Page 4

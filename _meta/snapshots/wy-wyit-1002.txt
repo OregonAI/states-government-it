@@ -1,0 +1,171 @@
+       ELECTRONIC COMMUNICATION MANAGEMENT
+                                           WyIT - 1002
+
+ PURPOSE: To ensure agencies managing internal IT infrastructure maintain an IT
+ change management practice, minimize risk to agency business, and maintain
+ compliance with statewide security policies, standards, and procedures.
+
+  I.   APPLICABILITY
+
+       This policy applies to all Executive Branch agencies, boards, and commissions staff
+       (collectively referred to as “agencies”). This policy is also applicable to consultants,
+       affiliates, and temporary employees.
+
+ II.   DEFINITIONS
+
+       All definitions for this policy are located in the Policy Dictionary.
+
+III.   EXCEPTIONS
+
+       Any exceptions provided to the following policy must abide by WyIT - 3002 -
+       Security Exception Request policy.
+
+IV.    ELECTRONIC COMMUNICATION CONTROLS
+
+       A. Monitoring and Access
+
+          ● The State of Wyoming:
+            o Owns all electronic communication data and reserves the right to specify
+               and control its use.
+            o Reserves the right to inspect all email-related data at any time as
+               authorized by statute or policy.
+          ● Requests to access or monitor an employee’s email account:
+
+                                                                               WyIT 1002          Page 1
+
+           o Must have the approval of the Director or designee, and
+           o Authorization of the Attorney General’s Office.
+
+     B. Account Delegation
+
+        ● Upon employee termination or an inter-agency transfer, delegated access to
+          the employee’s email account may be granted to the employee’s successor
+          or appropriate management as determined by the originating agency.
+        ● If the originating agency denies a request to transfer an account, a new
+          account will be created for the employee at the new agency following the
+          naming convention standard.
+
+     C. Official Records
+
+        ● All documents created in, sent by, or attached to electronic mail may
+          constitute official records of the State of Wyoming and may be subject to
+          public information requests.
+        ● To the extent that email constitutes a “record” for records management
+          purposes, there may be State statutes or other policies affecting its use and
+          maintenance.
+        ● Email that has been identified in any court or regulatory proceedings as
+          having a high likelihood of imminent litigation shall remain available for
+          discovery until the legal hold has been removed. In all situations where this
+          section applies, an email system administrator must be notified immediately.
+
+     D. Retention of Public Records
+
+        ● Email content created or received in the course of conducting State of
+          Wyoming business will be retained and maintained in an alternative format as
+          prescribed by state and agency records retention schedules.
+
+     E. Revoking Access
+
+        ● Access to the email system may be denied by:
+          o The owning agency, or
+          o ETS if determined a violation of policy or abuse has occurred.
+
+V.   ACCEPTABLE USE
+
+     A. Authorized Access
+
+        Agencies may grant employees access to enterprise email and instant
+
+                                                                    WyIT 1002             Page 2
+
+         messaging to carry out assigned duties. Access for non-state employees shall
+         be granted only with the approval of the agency director or designee.
+
+      B. Personal Use
+
+         ● The State of Wyoming’s email system is to be used primarily for legitimate
+           state business purposes.
+         ● Incidental personal use is acceptable if it does not unreasonably impact the
+           employee’s work performance or the ability to conduct State of Wyoming
+           business activities and does not compromise system security.
+
+VI.   UNACCEPTABLE USE
+
+      A. The following uses are prohibited:
+
+         ●   Illegal Activities - Any illegal or wrongful conduct is prohibited. Any
+             information or knowledge regarding illegal actions will be provided to the
+             Attorney General, Division of Criminal Investigation, or appropriate law
+             enforcement agency.
+         ●   Intellectual Property Infringement - Inclusion of copyrighted material in email
+             that violates copyright laws is prohibited.
+         ●   Discrimination and Harassment - The use of the email and instant messaging
+             system to transmit data that is disparaging or harassing to individuals or
+             groups will not be tolerated. This includes but is not limited to, writings,
+             drawings, jokes, or any other form of data that is degrading or harassing to
+             others based on an individual’s race, religion, color, sex, national origin, age,
+             or disability.
+         ●   Insensitive or Profane Language - Users must not send messages containing
+             offensive, derogatory, profane, or abusive language.
+         ●   Objectionable Material - Users must not use the system to distribute
+             pornography, malicious code, or illegal software.
+         ●   Interference with System Operation - Any use that seriously and unduly
+             affects system functionality is prohibited. This includes, but is not limited to,
+             intentional misuse of group addresses, forwarding chain letters, sending
+             SPAM messages, email bombs, initiating denial of service attacks, or other
+             forms of cyber terrorism.
+         ●   Use of Other Accounts - The use of another user’s account or intentionally
+             falsifying an identity to send or receive communications (identity theft) is
+             prohibited.
+         ●   Personal Gain - The system may not be used for personal, commercial
+             ventures, or other personal gains.
+
+                                                                          WyIT 1002              Page 3
+
+       ●   Religious or Political Use - Using the system for the promotion of religious or
+           political causes or endorsement of candidates is prohibited
+
+REFERENCES
+
+       ● Wyoming §§ 40-21-101 — 40-21-119
+
+       ● IRS Publication 1075, Safeguards for Protecting Federal Tax Returns and
+         Return Information
+
+       ● Health Insurance Portability and Accountability Act (HIPAA)
+
+       ● Minimum Acceptable Risk Standards for Exchanges (MARS-E) 2.0 Framework
+
+       ● Family Education Rights Privacy Act (FERPA)
+
+       ● Payment Card Industry – Data Security Standards (PCI-DSS)
+
+       ● Criminal Justice Information Services (CJIS)
+
+       ● Children’s Online Privacy Protection Act (COPPA)
+
+SUPERSEDED POLICIES: This policy supersedes the policies listed below.
+
+   ● 03400-P010, Electronic Mail Management Policy, dated July 05, 2015
+
+   ● 03400-S010, Electronic Mail Management Standard, dated July 05, 2015
+
+                                                                      WyIT 1002              Page 4
+
+                       DOCUMENT HISTORY
+
+                         ORIGINAL SUBMISSION
+ SUBMITTED     SUBMITTED           APPROVED        APPROVED BY      EFFECTIVE
+    ON            BY                  BY             DATE(S)          DATE
+
+June 2024     ETS Governance,    Public Comment   06/14/2024 -    July 2024
+              Risk and           Period           06/28/2024
+              Compliance
+
+                                  REVISIONS
+  LAST REVISION DATE            LAST REVISED BY             LAST APPROVED BY
+
+                                   REVIEWS
+   LAST REVIEW DATE             LAST REVIEWED BY            NEXT REVIEW DATE
+
+                                                                 WyIT 1002      Page 5
