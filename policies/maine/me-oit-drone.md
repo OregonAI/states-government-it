@@ -1,0 +1,769 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maine
+id: me-oit-drone
+title: Drone (Unmanned Aerial Vehicle) Policy
+doc_type: policy
+citation: MaineIT Drone (Unmanned Aerial Vehicle) Policy
+authority_level: ''
+issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial
+  Services
+source_url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DronePolicy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 22e704fd6ef6c7668a19f3ae323e9d13ed1e00171654196396aec5f928dd2f82
+effective_date: null
+source_version: 'Latest Revision Date: August 21, 2024'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Drone (Unmanned Aerial Vehicle) Policy (MaineIT Drone (Unmanned Aerial Vehicle) Policy)
+
+## At a glance
+
+Guidelines for the use of Unmanned Aerial Vehicles (drones) by State of Maine Executive Branch personnel, excluding law enforcement and public safety use.
+
+## Full text
+
+                                   Maine State Government
+                     Department of Administrative and Financial Services
+                           Office of Information Technology (OIT)
+
+                              Drone (Unmanned Aerial Vehicle) Policy
+
+1.0.    Purpose
+        This policy sets forth guidelines for appropriate Unmanned Aerial Vehicle (UAV)
+        (also known as “drone”) use by State of Maine Executive Branch personnel.
+
+2.0.    Applicability
+        This policy applies to all State of Maine Executive Branch personnel, excluding those
+        conducting business in a law enforcement or public safety capacity. For public safety
+        and law enforcement requirements please see the Maine State Police UAV Policy
+        (internal only).1
+
+3.0.    Compliance
+        A State of Maine Executive Branch Employee that intentionally uses a UAV without
+        proper authorization and/or in deviation of the standards set forth in this policy
+        may be subject to disciplinary action, up to and including revocation of flight
+        approval, or termination.
+
+4.0.    Definitions
+4.1.    Data Classification: The taxonomy of organizing data into categories, so that data
+        may be used and protected efficiently. OIT has adopted the Federal Homeland
+        Security Traffic Light Protocol2 for this purpose. For more information, see the Data
+        Classification Policy.3
+
+4.2.    Declaration of Compliance: A Federal Aviation Administration process to provide an
+        effective and cost-efficient way to establish which UAV meet the appropriate
+        eligibility requirements for operations over people.
+
+4.3.    Civil Twilight: The period when enough natural light remains that artificial light is
+        not needed. Morning civil twilight begins when the geometric center of the sun is 6°
+
+1
+  http://www.ps.state.me.us/orders/mspgo/orders/code4/MSPGOE-135_08082017.html
+2
+  https://www.us-cert.gov/tlp
+3
+  https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DataClassificationPolicy.pdf
+
+                                                  Page 1 of 16
+
+        below the horizon and ends at sunrise. Evening civil twilight begins at sunset and
+        ends when the geometric center of the sun reaches 6° below the horizon.
+
+4.4.    Federal Aviation Administration (FAA): A governmental body of the United States
+        Department of Transportation with powers to regulate all aspects of civil aviation in
+        the nation as well as over its surrounding international waters.
+
+4.5.    Flight Visibility: The average slant distance from the control station at which
+        prominent unlighted objects may be seen and identified by day and prominent
+        lighted objects may be seen and identified by night.
+
+4.6.    Hazardous material: A substance or material that has been determined as capable of
+        posing an unreasonable risk to health, safety, and property when transported in
+        commerce, and is designated as hazardous under section 5103 of the Federal
+        hazardous materials transportation law (49 U.S.C. 51034). The term includes
+        hazardous substances, hazardous wastes, marine pollutants, elevated temperature
+        materials, materials designated as hazardous in the Hazardous Materials Table (49
+        CFR 172.1015), and materials that meet the defining criteria for hazards.
+
+4.7.    Remote Pilot: An agency personnel who is certified to operate an Unmanned Aerial
+        Vehicle (UAV). Prior to operating a UAV, a Remote Pilot must hold a current FAA
+        Remote Pilot Certification that evidences that the pilot meets minimum standards
+        required for the operation of a UAV.
+
+4.8.    Remote Pilot Certification: In order to fly a Small Unmanned Aircraft System (sUAS)
+        under the FAA’s Small UAS rule (Part 107), the Remote Pilot must obtain a Remote
+        Pilot Certification from the FAA. This certificate demonstrates that the Remote Pilot
+        understand the regulations, operating requirements, and procedures for safely
+        flying UAVs.
+
+4.9.    Small Unmanned Aircraft System (sUAS, or Small UAS): A small unmanned aircraft
+        and its associated elements (including communication links and the components
+        that control the small unmanned aircraft) that are required for the safe and efficient
+        operation of the vehicle in the national airspace system.
+
+4.10. Statute Mile: A unit of distance on land equal to 5,280 feet, or 1,760 yards.
+
+4
+  https://www.govinfo.gov/content/pkg/USCODE-2018-title49/pdf/USCODE-2018-title49-subtitleIII-chap51-
+sec5103.pdf
+5
+  https://ecfr.federalregister.gov/on/2021-03-02/title-49/subtitle-B/chapter-I/subchapter-C/part-172/subpart-
+B/section-172.101
+
+                                                 Page 2 of 16
+
+4.11. Unmanned Aerial Vehicle (UAV): A remotely-controlled/-guided aircraft operated
+      without a physical human presence within or on the aircraft and which, in the way it
+      is used or the manner in which it is equipped, is capable of performing audio, visual,
+      or other types of comprehensible surveillance.
+      4.11.1. An sUAS is a type of UAV.
+      4.11.2. For this policy, drones and small unmanned aerial vehicles will be
+              collectively referred to as UAVs.
+
+4.12.      Visual Observer: a person who assists the Remote Pilot and the person manipulating
+           the flight controls of the small UAV (if that person is not the remote pilot in
+           command) to see and avoid other air traffic or objects aloft or on the ground.
+
+5.0.       Responsibilities
+5.1.       The Chief Information Officer (CIO) in collaboration with Agency Management is
+           responsible for enforcing this policy.
+
+5.2.       Agency Management in the Department which uses an UAV is responsible for the
+           following:
+           5.2.1. In collaboration with the CIO, owning, executing and enforcing this policy.
+           5.2.2. Complying with the Data Classification Policy6 for classification of all image
+                   data captured with the UAV.
+           5.2.3. Securely storing all data captured by the UAV based on data classification and
+                   compliance.
+           5.2.4. Maintaining a list of Remote Pilot(s).
+           5.2.5. Maintaining a list of make/model of each department-owned UAV.
+           5.2.6. Maintaining and storing all UAV equipment.
+           5.2.7. Storing the UAV in a secure location when not in use.
+           5.2.8. Developing internal policy on what data can be captured by the UAV.
+           5.2.9. Ongoing knowledge of the operations of the UAV.
+           5.2.10. Ongoing knowledge of safe operation of all UAVs within the agency.
+           5.2.11. Ongoing knowledge of UAV incident management.
+           5.2.12. Obtaining waiver and/or airspace authorization through the FAA.
+           5.2.13. Confirming liability insurance requirements are achieved through State of
+                   Maine Risk Management annually for new and existing UAV’s; see 6.1.5. for
+                   more information.
+
+5.3.       A Remote Pilot is responsible for:
+           5.3.1. Complying with this policy.
+           5.3.2. Maintaining current FAA Remote Pilot certification.
+
+6
+    https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DataClassificationPolicy.pdf
+
+                                                    Page 3 of 16
+
+        5.3.3. Making available to the FAA, upon request, the UAV for inspection or testing,
+               and any associated documents/records required to be kept under the rule.
+        5.3.4. The operation of the UAV.
+        5.3.5. Ensuring that the UAV will pose no undue hazard to other people, other
+               aircraft, or other property in the event of a loss of control of the aircraft for
+               any reason.
+        5.3.6. Ensuring that UAV operation complies with all applicable regulations of FAA
+               Part 89, Remote Identification of Unmanned Aircraft7.
+        5.3.7. Ensuring that UAV operation complies with all applicable regulations of FAA
+               Part 107, Small Unmanned Air Systems.8
+        5.3.8. Reporting to the FAA within ten (10) days of any operation that results in at
+               least serious injury, loss of consciousness, or property damage of at least
+               $500. For more information, contact the local Flight Standards District
+               Office.9
+               5.3.8.1. In the event of damage or injury arising from use of the UAV, the
+                         Remote Pilot will notify Agency Management to report the incident
+                         to the FAA10 and ensure the incident is documented in an incident
+                         report.
+               5.3.8.2. For damages to State of Maine property, this provision does not
+                         apply, and the FAA is not required to be notified. In the event of
+                         damage to State of Maine property, Agency Management must be
+                         notified.
+
+6.0.    Directives
+6.1.    A Remote Pilot conducting State of Maine business may use a UAV provided that all
+        the requirements below are satisfied:
+        6.1.1. Prior to the deployment of a UAV, a Remote Pilot must be adequately trained
+               in its use and operation and must be knowledgeable of the standards set
+               forth in this Policy.
+
+        6.1.2. The Remote Pilot must hold a current FAA Remote Pilot Certification that
+               includes evidence that the pilot meets the minimum standards required for
+               the operation of a UAV (see Become a Drone Pilot).11 To qualify for a Remote
+               Pilot Certification, personnel must meet all FAA eligibility requirements12
+               and complete all of the following as it relates to current Remote Pilot status.
+               6.1.2.1. First-time pilots must:
+
+7
+  https://ecfr.gov/current/title-14/chapter-I/subchapter-F/part-89
+8
+  https://ecfr.federalregister.gov/current/title-14/chapter-I/subchapter-F/part-107
+9
+  https://www.faa.gov/about/office_org/field_offices/fsdo/?state=ME
+10
+   https://faadronezone.faa.gov/#/
+11
+   https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot/
+12
+   https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot/
+
+                                                  Page 4 of 16
+
+                         6.1.2.1.1. Obtain an FAA Tracking Number (FTN) by creating an
+                                    Integrated Airman Certification and Rating Application13
+                                    (IACRA) profile prior to registering for a knowledge test;
+                         6.1.2.1.2. Schedule and pass an initial aeronautical knowledge test
+                                    at an FAA approved Knowledge Testing Center;14
+                         6.1.2.1.3. Complete and electronically submit FAA Form 8710-1315
+                                    for a remote pilot certificate using the electronic FAA
+                                    Integrated Airman Certificate and/or IACRA.
+                6.1.2.2. Existing Part 6116 Certificate Holders must (Part 61, and the
+                         provision below, apply only to those pilots who currently hold a
+                         private fixed wing or rotary wing pilot certification):
+                         6.1.2.2.1. Hold a pilot certificate issued under 14 CFR part 61. 17
+                         6.1.2.2.2. Have completed a flight review within the previous 24
+                                    months.
+                         6.1.2.2.3. Complete the Part 107 Small Unmanned Aircraft Systems
+                                    ALC-45118 online training course.
+                         6.1.2.2.4. Complete the FAA Form 8710-1319 for a remote pilot
+                                    certificate.
+                         6.1.2.2.5. Make an appointment with one of the following entities to
+                                    validate the Remote Pilot’s identity. Remote Pilots must
+                                    bring the completed Form 8710-13, proof of current flight
+                                    review, photo ID, and online course completion
+                                    certificate.
+                                    6.1.2.2.5.1. FAA Flight Standards District Office 20
+                                                 (FSDO);
+                                    6.1.2.2.5.2. FAA-designated pilot examiner21 (DPE);
+                                    6.1.2.2.5.3. Airman certification representative22 (ACR);
+                                                 or
+                                    6.1.2.2.5.4. FAA-certificated flight instructor23 (CFI).
+
+13
+   https://iacra.faa.gov/IACRA/Default.aspx
+14
+   https://faa.psiexams.com/faa/login
+15
+   https://www.faa.gov/documentLibrary/media/Form/FAA_Form_8710-13..pdf
+16
+   https://www.ecfr.gov/cgi-bin/text-
+idx?SID=95d4d05b07bd4272c3b4692d296c11cb&mc=true&node=pt14.2.61&rgn=div5
+17
+   https://www.ecfr.gov/cgi-bin/text-
+idx?SID=95d4d05b07bd4272c3b4692d296c11cb&mc=true&node=pt14.2.61&rgn=div5
+18
+   https://www.faasafety.gov/gslac/ALC/course_content.aspx?pf=1&preview=true&cID=451
+19
+   https://www.faa.gov/documentLibrary/media/Form/FAA_Form_8710-13..pdf
+20
+   https://www.faa.gov/about/office_org/field_offices/fsdo/
+21
+   https://www.faa.gov/other_visit/aviation_industry/designees_delegations/individual_designees/dpe/
+22
+   https://www.faa.gov/licenses_certificates/airmen_certification/contact_airmen_certification/
+23
+   https://av-info.faa.gov/PilotSchool.asp
+
+                                               Page 5 of 16
+
+                6.1.2.3. Recurrent training requirements must be completed every 24
+                         months to keep a Remote Pilot certification current.24
+
+        6.1.3. All Remote Pilots must have their Remote Pilot Certificate available on their
+               persons whenever their UAV is in flight.
+
+        6.1.4. Any operation of a UAV must fully comply with all FAA Small Unmanned
+               Aircraft Rule, Part 10725 requirements and guidelines as well as with any
+               other applicable law, including, but not limited to, 25 M.R.S. section 4501,
+               Regulation of Unmanned Aerial Vehicles.26
+
+        6.1.5. Any purchased, contracted, or volunteered UAV device used for state
+               business should confirm the liability insurance requirements are being
+               satisfied with the State of Maine Risk Management Division. Contact State of
+               Maine Risk Management at (207) 287-3351 for consultation and assistance.
+
+6.2.    Prior to UAV flight, all Remote Pilots must:
+        6.2.1. Ensure that the UAV complies with the existing registration requirements
+               specified in 14 C.F.R. sec. 91.203(a)(2), Civil Aircraft: Certifications
+               Required,27 including but not limited to:
+               6.2.1.1. UAV must be registered on the FAA’s UAS registry.28
+               6.2.1.2. UAV must be marked with FAA registration number (see, How to
+                         Label your Drone).29
+
+        6.2.2. Perform a pre-flight inspection30 in accordance with the UAV manufacturer’s
+               recommendations and FAA guidelines to ensure the UAV is in a condition for
+               safe operation. This inspection must confirm that:
+               6.2.2.1. No part of the UAV is loose or missing and batteries are charged and
+                        in working condition.
+                        6.2.2.1.1. The UAV must not be operated unless it is in a condition
+                                   for safe operation.
+                        6.2.2.1.2. The UAV must not continue flight if the Remote Pilot has
+                                   reason to know that the UAV is no longer in a condition
+                                   for safe operation.
+               6.2.2.2. All control links between the ground control station and the UAV are
+                        working properly.
+
+24
+   https://www.faa.gov/uas/commercial_operators/become_a_drone_pilot/#keepCurrent
+25
+   https://www.faa.gov/uas/media/Part_107_Summary.pdf
+26
+   http://legislature.maine.gov/statutes/25/title25sec4501.html
+27
+   https://www.law.cornell.edu/cfr/text/14/91.203
+28
+   https://faadronezone.faa.gov/#/
+29
+   https://www.faa.gov/uas/getting_started/register_drone/media/UAS_how_to_label_Infographic.pdf
+30
+   https://www.faasafety.gov/files/gslac/courses/content/451/1458/PreflightInspectionChecklist.pdf
+
+                                               Page 6 of 16
+
+              6.2.2.3. Any object attached to or carried by the UAV is secure and does not
+                       adversely affect the flight characteristics or controllability of the
+                       aircraft.
+
+       6.2.3. Assess the operating environment, considering risks to persons and property
+              in the immediate vicinity both on the surface and in the air. This assessment
+              must include:
+              6.2.3.1. Local weather conditions;
+              6.2.3.2. Local airspace and any flight restrictions;
+              6.2.3.3. The location of persons and property on the surface; and
+              6.2.3.4. Other ground hazards.
+
+       6.2.4. Ensure that all persons directly participating in the UAV operation are
+              informed about the operating conditions, emergency procedures,
+              contingency procedures, roles, responsibilities, and potential hazards.
+
+       6.2.5. Report any safety related issues immediately to Agency Management.
+
+6.3.   During flight operations, Remote Pilots must have in their physical possession,
+       documentation that includes, but may not be limited to, the following:
+       6.3.1. Remote Pilot certificate with UAV rating and identification.
+
+       6.3.2. Proper identifications that contain the Remote Pilot’s:
+              6.3.2.1. Photograph;
+              6.3.2.2. Signature;
+              6.3.2.3. Date of birth; and
+              6.3.2.4. Permanent mailing address.
+
+       6.3.3. Proof of access to public or private property associated with flight
+              operations.
+
+       6.3.4. Proof of Part 107 waiver approval authorization from the FAA associated
+              with flight operations.
+
+6.4.   For operations conducted over people, the UAV must meet one of the following
+       requirements:
+       6.4.1. That person is directly participating in the operation of the UAV;
+
+       6.4.2. That person is located under a covered structure or inside a stationary
+              vehicle that can provide reasonable protection from a falling UAV; or
+
+                                        Page 7 of 16
+
+        6.4.3. The operation meets the requirements of at least one of the following
+               operational categories: Category 1, Category 2, Category 3, or Category 4 as
+               outlined below.
+
+        6.4.4. Category 1 operations:
+               6.4.4.1. To conduct Category 1 operations, a Remote Pilot must use a UAV
+                        that:
+                        6.4.4.1.1. Weighs 0.55 pounds or less on takeoff and throughout the
+                                   duration of each operation, including everything that is
+                                   on board or otherwise attached to the UAV; and
+                        6.4.4.1.2. Does not contain any exposed rotating parts that would
+                                   lacerate human skin upon impact with a person.
+
+        6.4.5. Category 2 operations:
+               6.4.5.1. To conduct Category 2 operations, a Remote Pilot must use a UAV
+                        designed, produced, or modified to meet the following
+                        requirements:
+                        6.4.5.1.1. Will not cause injury to a person that is equivalent to or
+                                   greater than the severity of injury caused by a transfer of
+                                   11 foot-pounds of kinetic energy upon impact from a rigid
+                                   object;
+                        6.4.5.1.2. Does not contain any exposed rotating parts that would
+                                   lacerate human skin upon impact with a person; and
+                        6.4.5.1.3. Does not contain any safety defects.
+               6.4.5.2. The Category 2 UAV must be listed on an FAA-accepted declaration
+                        of compliance31 as eligible for Category 2 operations and meet all
+                        the following requirements:
+                        6.4.5.2.1. Display a label indicating eligibility to conduct Category 2
+                                   operations. The label must be in English and be legible,
+                                   prominent, and permanently affixed to the UAV. If a
+                                   Category 2 label affixed to a UAV is damaged, destroyed,
+                                   or missing, the Remote Pilot must label the aircraft in
+                                   English such that the label is legible, prominent, and will
+                                   remain on the UAV for the duration of the operation. The
+                                   label must correctly identify the category or categories of
+
+31
+   For all UAV manufactured after the operations over people rule change, effective March 16, 2021, the burden of
+submitting a declaration of compliance for Category 2 or Category 3 operations to the FAA falls on the person(s)
+who designs, produces, or modifies the UAV for such operations. For all existing UAV manufactured prior to the
+rule change, an applicant with a previously manufactured UAV may establish eligibility to operate over people by
+listing the applicable aircraft serial numbers for the identified UAV on the declaration of compliance submitted to
+the FAA. Any applicant requesting acceptance would be responsible for developing remote pilot operating
+instructions for the existing UAV and making those instructions available to remote pilots or owners of the UAV.
+
+                                                  Page 8 of 16
+
+                           operation over people that the UAV is qualified to
+                           conduct.
+                6.4.5.2.2. Have readily available Remote Pilot operating
+                           instructions that apply to the operation of the UAV. The
+                           instructions must address, at a minimum:
+                           6.4.5.2.2.1. A system description that includes the
+                                        required UAV system components, any
+                                        system limitations, and the declared category
+                                        or categories of operation;
+                           6.4.5.2.2.2. Modifications that have been made to the
+                                        UAV (modifications must not change the
+                                        ability of the UAV to meet the requirements
+                                        for the category or categories of operation
+                                        the UAV is eligible to conduct); and
+                           6.4.5.2.2.3. Instructions for how to verify and change the
+                                        mode or configuration of the UAV, if they are
+                                        variable.
+                6.4.5.2.3. Maintain product support and notification procedures to
+                           notify the public and the FAA of:
+                           6.4.5.2.3.1. Any defect or condition that causes the UAV
+                                        to no longer meet these requirements; and
+                           6.4.5.2.3.2. Any identified safety defect that causes the
+                                        UAV to exceed a low probability of casualty.
+
+6.4.6. Category 3 operations:
+       6.4.6.1. To conduct Category 3 operations, a Remote Pilot must use a UAV
+                designed, produced, or modified to meet the following
+                requirements:
+                6.4.6.1.1. Will not cause injury to a person that is equivalent to or
+                           greater than the severity of the injury caused by a
+                           transfer of 25 foot-pounds of kinetic energy upon impact
+                           from a rigid object;
+                6.4.6.1.2. Does not contain any exposed rotating parts that would
+                           lacerate human skin upon impact with a person; and
+                6.4.6.1.3. Does not contain any safety defects.
+       6.4.6.2. The Category 3 UAV must be listed on an FAA-accepted declaration
+                of compliance as eligible for Category 3 operations and meet all the
+                following requirements:
+                6.4.6.2.1. The UAV must display a label indicating eligibility to
+                           conduct Category 3 operations. The label must be in
+                           English and be legible, prominent, and permanently
+
+                                 Page 9 of 16
+
+                    affixed to the UAV. If a Category 3 label affixed to a UAV is
+                    damaged, destroyed, or missing, the Remote Pilot must
+                    label the aircraft in English such that the label is legible,
+                    prominent, and will remain on the UAV for the duration of
+                    the operation before conducting operations over people.
+                    The label must correctly identify the category or
+                    categories of operation over people that the UAV is
+                    qualified to conduct.
+         6.4.6.2.2. Have readily available Remote Pilot operating
+                    instructions that apply to the operation of the UAV. The
+                    instructions must address, at a minimum:
+                    6.4.6.2.2.1. A system description that includes the
+                                 required UAV system components, any
+                                 system limitations, and the declared category
+                                 or categories of operation;
+                    6.4.6.2.2.2. Modifications that have been made to the
+                                 UAV (modifications must not change the
+                                 ability of the UAV to meet the requirements
+                                 for the category or categories of operation
+                                 the UAV is eligible to conduct); and
+                    6.4.6.2.2.3. Instructions for how to verify and change the
+                                 mode or configuration of the UAV, if they are
+                                 variable.
+         6.4.6.2.3. Maintain product support and notification procedures to
+                    notify the public and the FAA of:
+                    6.4.6.2.3.1. Any defect or condition that causes the UAV
+                                 to no longer meet these requirements; and
+                    6.4.6.2.3.2. Any identified safety defect that causes the
+                                 UAV to exceed a low probability of casualty.
+6.4.6.3. Category 3 UAV:
+         6.4.6.3.1. Must not be operated over open-air assemblies of people;
+                    and
+         6.4.6.3.2. May only operate above people if the operation meets one
+                    of the following conditions:
+                    6.4.6.3.2.1. The operation is within or over a closed- or
+                                 restricted-access site and all people located
+                                 within the closed- or restricted-access site
+                                 are on notice that a UAV may fly over them;
+                                 or
+                    6.4.6.3.2.2. The UAV does not maintain sustained flight
+                                 over any person unless that person is:
+
+                          Page 10 of 16
+
+                                                          6.4.6.3.2.2.1. Directly participating in the
+                                                                         operation of the UAV; or
+                                                          6.4.6.3.2.2.2. Located under a covered
+                                                                         structure or inside a stationary
+                                                                         vehicle that can provide
+                                                                         reasonable protection from a
+                                                                         falling UAV.
+
+           6.4.7. Category 4 operations:
+                  6.4.7.1. To conduct Category 4 operations over people, the Remote Pilot of a
+                           Category 4 aircraft must:
+                           6.4.7.1.1. Have an FAA issued airworthiness certificate32 for the
+                                      UAV.
+                           6.4.7.1.2. Operate the UAV in accordance with the operating
+                                      limitations specified in the approved Flight Manual and
+                                      the operating limitations must not prohibit operations
+                                      over people.
+                           6.4.7.1.3. Have maintenance, preventive maintenance, alterations,
+                                      or inspections performed by an individual in accordance
+                                      with the following requirements:
+                                      6.4.7.1.3.1. Uses the methods, techniques, and practices
+                                                   prescribed in the manufacturer's current
+                                                   maintenance manual or Instructions for
+                                                   Continued Airworthiness;
+                                      6.4.7.1.3.2. Has the knowledge, skill, and appropriate
+                                                   equipment to perform the work;
+                                      6.4.7.1.3.3. Performs the maintenance, preventive
+                                                   maintenance, or alterations on the UAV in
+                                                   accordance with the methods, techniques,
+                                                   and practices prescribed in the
+                                                   manufacturer's current maintenance manual
+                                                   or Instructions for Continued Airworthiness;
+                                      6.4.7.1.3.4. Inspects the UAV in accordance with the
+                                                   manufacturer's instructions; and
+                                      6.4.7.1.3.5. Performs the maintenance, preventive
+                                                   maintenance, or alterations using parts of
+                                                   such a quality that the condition of the
+                                                   aircraft will be at least equal to its original or
+                                                   properly altered condition.
+
+32
+     https://www.faa.gov/aircraft/air_cert/airworthiness_certification/aw_overview/
+
+                                                  Page 11 of 16
+
+                      6.4.7.1.4. Maintain, and have readily available upon request by the
+                                 FAA, all documented records of maintenance, preventive
+                                 maintenance, and alterations performed on the aircraft
+                                 according to the following directives:
+                                 6.4.7.1.4.1. The records must contain the description of
+                                              the work performed, the date the work was
+                                              completed, and the name of the person who
+                                              performed the work.
+                                 6.4.7.1.4.2. All records documenting maintenance,
+                                              preventive maintenance, or alterations
+                                              performed must be retained for one (1) year
+                                              from when the work was completed or until
+                                              the maintenance is repeated or superseded
+                                              by other work.
+                                 6.4.7.1.4.3. All records documenting the status of life-
+                                              limited parts, compliance with airworthiness
+                                              directives, and inspection status of the UAV
+                                              must be retained and transferred with the
+                                              aircraft upon change in ownership.
+                      6.4.7.1.5. Maintain all records containing:
+                                 6.4.7.1.5.1. The status of life-limited parts that are
+                                              installed on, or part of, the UAV;
+                                 6.4.7.1.5.2. The inspection status of the aircraft; and
+                                 6.4.7.1.5.3. The status of applicable airworthiness
+                                              directives including the method of
+                                              compliance, the airworthiness directive
+                                              number, and revision date. If the
+                                              airworthiness directive involves recurring
+                                              action, the record must contain the time and
+                                              date of the next required action.
+             6.4.7.2. Category 4 UAV must not be operated in sustained flight over open-
+                      air assemblies of people.
+                      6.4.7.2.1. Sustained flight over an open-air assembly includes
+                                 hovering above the heads of people gathered in an open-
+                                 air assembly, flying back and forth over an open-air
+                                 assembly, or circling above the assembly in such a way
+                                 that the UAV remains above some part of the assembly.
+
+6.5.   Operations over moving vehicles:
+       6.5.1. A UAV must not be operated over a person located inside a moving vehicle
+              unless the following conditions are met:
+
+                                      Page 12 of 16
+
+                    6.5.1.1. The operation occurs in accordance with all FAA requirements for
+                             Category 1 operations; Category 2 operations; Category 3
+                             operations; or Category 4 operations. See 6.4, above.
+
+           6.5.2. For all operations performed under Category 1, Category 2, or Category 3, the
+                  UAV, throughout the operation must:
+                  6.5.2.1. Remain within or over a closed- or restricted-access site, and all
+                           people located inside a moving vehicle within the closed- or
+                           restricted-access site must be on notice that a UAV may fly over
+                           them.
+                  6.5.2.2. Not maintain sustained flight over moving vehicles.
+
+           6.5.3. For operations performed under Category 4, the UAV must:
+                  6.5.3.1. Have an FAA issued airworthiness certificate.33
+                  6.5.3.2. Be operated in accordance with the operating limitations specified
+                           in the approved Flight Manual and the operating limitations must
+                           not prohibit operations over people located inside moving vehicles.
+
+6.6.       Operations at night:
+           6.6.1. A UAV may be operated at night and during periods of civil twilight if the
+                  following criteria are satisfied:
+                  6.6.1.1. The Remote Pilot has completed an initial knowledge test or
+                           training, after March 1, 2021; and
+                  6.6.1.2. The UAV has lighted anti-collision lighting visible for at least three
+                           (3) statute miles that has a flash rate sufficient to avoid a collision.
+                           The Remote Pilot may reduce the intensity of, but may not
+                           extinguish, the anti-collision lighting if the Remote Pilot determines
+                           that, because of operating conditions, it would be in the interest of
+                           safety to do so.
+
+           6.6.2. As of May 17, 2021, no UAV may be operated in accordance with a certificate
+                  of waiver issued prior to March 16, 2021. All operations at night waivers
+                  issued prior to March 16, 2021 that authorize deviation from operations at
+                  night terminated on May 17, 2021.
+
+6.7.       Visual line of sight aircraft operation:
+           6.7.1. With vision that is unaided by any device other than corrective lenses, the
+                   Remote Pilot, visual observer (if used), and the person manipulating the
+                   flight control of the UAV must be able to see the UAV throughout the entire
+                   flight in order to:
+
+33
+     https://www.faa.gov/aircraft/air_cert/airworthiness_certification/aw_overview/
+
+                                                  Page 13 of 16
+
+                   6.7.1.1.   Always know the location of the UAV;
+                   6.7.1.2.   Determine the UAV's attitude, altitude, and direction of flight;
+                   6.7.1.3.   Observe the airspace for other air traffic or hazards; and
+                   6.7.1.4.   Ensure the UAV does not endanger the life or property of another.
+
+6.8.       Visual observer:
+           6.8.1. If a visual observer is used during UAV operation, all the following
+                  requirements must be met:
+                  6.8.1.1. The Remote Pilot, the person manipulating the flight controls of the
+                            UAV, and the visual observer must always maintain effective
+                            communication with each other.
+                  6.8.1.2. The Remote Pilot must ensure that the visual observer is able to see
+                            the UAV in the manner specified in 6.7 above.
+                  6.8.1.3. The Remote Pilot, the person manipulating the flight controls of the
+                            UAV, and the visual observer coordinate to do the following:
+                            6.8.1.3.1. Scan the airspace where the UAV is operating for any
+                                       potential collision hazard; and
+                            6.8.1.3.2. Maintain awareness of the position of the UAV through
+                                       direct visual observation.
+
+6.9.       Operation of multiple UAVs:
+           6.9.1. A person may not manipulate flight controls or act as a Remote Pilot or visual
+                  observer in the operation of more than one UAV at the same time.
+
+6.10. Carriage of hazardous material:
+      6.10.1. A UAV must not carry hazardous material.
+
+6.11. Operation near aircraft:
+      6.11.1. All UAVs must yield the right of way to all aircraft, airborne vehicles, and
+              launch and reentry vehicles. Yielding the right of way means that the UAV
+              must give way to the aircraft or vehicle and may not pass over, under, or
+              ahead of it unless well clear.
+
+           6.11.2. The UAV must not operate so close to another aircraft as to create a collision
+                   hazard.
+
+6.12. Operation in certain airspace:
+      6.12.1. A UAV must not be operated in a Class B, Class C, or Class D airspace34 or
+              within the lateral boundaries of the surface area of Class E airspace
+
+34
+     https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/media/17_phak_ch15.pdf
+
+                                               Page 14 of 16
+
+                   designated for an airport unless prior authorization has been received from
+                   Air Traffic Control.
+
+6.13. Operation in the vicinity of airports:
+      6.13.1. A UAV must not be operated in any manner that interferes with operations
+              and traffic patterns at any airport, heliport, or seaplane base.
+
+6.14. Operation in prohibited or restricted areas:
+      6.14.1. A UAV must not be operated in prohibited or restricted areas unless prior
+              authorization has been received from the using or controlling agency, as
+              appropriate.
+
+6.15. The Remote Pilot must comply with all the following operating limitations when
+      operating a UAV:
+      6.15.1. The groundspeed of the UAV must not exceed 100 miles per hour.
+
+           6.15.2. The altitude of the UAV must not exceed 400 feet above ground level, unless
+                   the UAV:
+                   6.15.2.1. Is flown within a 400-foot radius of a structure; and
+                   6.15.2.2. Does not fly higher than 400 feet above the structure's immediate
+                             uppermost limit.
+
+           6.15.3. The minimum flight visibility, as observed from the location of the control
+                   station must be no less than three (3) statute miles.
+
+           6.15.4. The minimum distance of the UAV from clouds must be no less than:
+                   6.15.4.1. 500 feet below the cloud; and
+                   6.15.4.2. 2,000 feet horizontally from the cloud.
+
+6.16. The Remote Pilot must request a waiver35 through the FAA for any operations not
+      approved under Part 107 rules including, but not limited to:
+      6.16.1. Operating a UAV from a moving vehicle or aircraft.
+      6.16.2. Operating multiple UAVs simultaneously.
+      6.16.3. Operating a UAV without yielding the right of way.
+      6.16.4. Operating a UAV in a Class B, Class C, or Class D airspace.36
+      6.16.5. Operating a UAV over people outside of the FAA approved conditions.
+      6.16.6. Operating a UAV at night without proper anti-collision lighting.
+      6.16.7. Operating a UAV beyond the visual line of site.
+      6.16.8. Operating a UAV outside of standard operating limits.
+
+35
+     https://www.faa.gov/uas/commercial_operators/part_107_waivers/media/waiver_application_instructions.pdf
+36
+     https://www.faa.gov/regulations_policies/handbooks_manuals/aviation/phak/media/17_phak_ch15.pdf
+
+                                                Page 15 of 16
+
+7.0.    Document Information
+7.1.    Initial Issue Date: April 3, 2020
+7.2.    Latest Revision Date: August 21, 2024
+7.3.    Point of Contact: PolicyTeam.OIT@Maine.Gov
+7.4.    Approved By: Chief Information Officer, OIT
+7.5.    Legal Citation: Title 5, Chapter 163: Office of Information Technology37
+7.6.    Waiver: Waiver Policy38
+7.7.    Distribution: Internet39
+
+37
+   https://legislature.maine.gov/statutes/5/title5ch163sec0.html
+38
+   https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/waiver.pdf
+39
+   https://www.maine.gov/oit/policies-standards
+
+                                                 Page 16 of 16
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

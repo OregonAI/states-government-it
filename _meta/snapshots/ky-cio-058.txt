@@ -1,0 +1,69 @@
+  COMMONWEALTH OFFICE OF TECHNOLOGY                                           Page 1 of 2
+  Office of the Chief Information Officer Enterprise Policy (CIO)
+  CIO–058: Commonwealth Data Center IT Equipment Room Physical Access
+                                         REVISED: 11/19/2021            REVIEWED: 11/19/2021
+  EFFECTIVE DATE: 09/22/2015
+                                         11/27/2023                     11/27/2023, 10/07/2025
+
+ I.    PURPOSE
+
+       This policy establishes controls related to physical access to the Commonwealth Data
+       Center (CDC) and Commonwealth Alternate Data Center (ADC) information technology
+       (IT) equipment rooms. The policy provides guidance in decision-making and practices that
+       optimize resources, mitigate risk, and maximize return on investment. Specifically, the
+       policy ensures physical access is reviewed and implemented in a rational and predictable
+       manner to increase efficiency and minimize the impact of change-related incidents upon
+       service quality.
+
+II.    DEFINITION
+
+       Visitors - means persons (staff, contractors, vendors, etc.) authorized by the Agency to
+       access the Agency’s IT equipment located at the CDC.
+
+III.   POLICY
+
+       The Commonwealth Office of Technology (COT) maintains infrastructure stability and
+       reliability for the Commonwealth of Kentucky. The IT infrastructure supported by COT is
+       continuously expanding and becoming more complex. COT shall secure visitors’ physical
+       access to the CDC. Any visitor accessing the CDC must:
+
+       •   Be an agency authorized contact or data center representative, and provide proof of
+           identity.
+       •   Request access 24 hours in advance via email to COT MainConsoleOperations@ky.gov
+           stating reason for access to the Commonwealth Data Center; a service request ticket
+           will be created and provided to the customer.
+       •   Upon arrival present a service request ticket number to the COT Main Console
+           Operator.
+       •   Follow all physical access processes and procedures as defined by COT.
+
+IV.    CORRECTIVE OR DISCIPLINARY ACTION
+
+       Each agency shall ensure that all relevant staff within their organizational authority are
+       aware of and comply with this policy. The agency is responsible for enforcing it.
+       Unauthorized and/or neglectful actions regarding this policy may result in disciplinary action
+       up to and including dismissal. COT may require additional service charges for remediation
+       efforts due to non-compliance with this policy.
+
+V.     APPLICABILITY
+
+       All executive branch agencies and non-executive branch agencies using COT-managed
+       infrastructure or services shall adhere to this policy. This includes employees, contractors,
+                                             Page 1 of 2
+
+  COMMONWEALTH OFFICE OF TECHNOLOGY                                           Page 2 of 2
+  Office of the Chief Information Officer Enterprise Policy (CIO)
+  CIO–058: Commonwealth Data Center IT Equipment Room Physical Access
+                                        REVISED: 11/19/2021            REVIEWED: 11/19/2021
+  EFFECTIVE DATE: 09/22/2015
+                                        11/27/2023                     11/27/2023, 10/07/2025
+
+      consultants, temporaries, volunteers, and other workers within state government.
+      Organizations may modify this policy to fulfill their responsibilities but must obtain approval
+      through an exception request. Staff should refer to their internal policy, which may have
+      additional information or clarification.
+
+VI.   REFERENCES:
+
+      Helpful references can be found on the Enterprise IT Policies webpage.
+
+                                             Page 2 of 2

@@ -1,0 +1,180 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-g210
+title: G210 – IT Project Profile
+doc_type: standard
+citation: ITA Guideline G210
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/g210-1.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 6186f7470bbe97e8bbfc516652452cf8ed7c52e64e35fc30de87d1ae39c7db03
+effective_date: '2002-02-20'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# G210 – IT Project Profile (ITA Guideline G210)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category 'G200 - Project Profile, Guidelines', a guideline (advisory, filed as a standard because the corpus has no guideline type; see the left-out notes). The library's own summary: "ITA Guideline G210 provides a template for creating IT project profiles, ensuring comprehensive documentation and alignment with state IT objectives."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE GUIDELINES – G200 PROJECT SUMMARY
+
+Category:      G210 – IT PROJECT PROFILE
+
+CONTENTS:
+I.   Definition
+II. Rationale
+III. Guideline
+IV. Procedure Reference
+V. Contact Information
+     Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (Glossary of Terms) for any definitions.
+
+II. RATIONALE
+
+   These guidelines are intended to assist Agencies in the evaluation and preparation
+   of an Information Technology (IT) project profile as required by ITA Policy P2030
+   (Information Technology Large-Scale Project Review). A project profile provides a
+   framework for analysis and the basis for evaluation and comparison with similar
+   projects from other Agencies. Agencies can use the information and knowledge
+   gained through this process when planning similar projects.
+
+III. GUIDELINE
+
+   The following categories and related discussions can be used as a guideline for the
+   preparation of an Agency project profile:
+
+   1. Project Summary – Provide a brief description of the project. This should
+      summarize the detailed description contained in the Agency’s IT Plan describing
+      the relationship of the project to your business needs and goals. The summary
+      should identify the type of project (i.e., application development, hardware,
+      software, networking, training and/or other) along with the basic technology used
+      to complete the project. For example: :
+          a. Cloud Deployment Model (SaaS, PaaS, IaaS)
+          b. Data Classification and Security Level
+          c. API/Integration Strategy
+          d. User Experience (UX)/Service Design
+
+G210 – IT Project Profile                                                     Page 1 of 3
+
+   2. User Base – Describe who will use and/or be served by this system/application,
+      and indicate the number of users.
+
+   3. Implementation Schedule – Indicate a timeline by defining the project life cycle by
+      fiscal year. Project milestones will be established to provide a means to measure
+      progress and the completion of major tasks.
+
+   4. Estimated Project Costs by Fiscal Year – Estimate the total project costs in the
+      following areas: hardware, software, training, indicate any new Full Time
+      Position(s) (FTP) (also known as Full Time Employees [FTE]) or dedicated
+      contractors required to complete and/or sustain the project. The total estimated
+      costs should include all costs associated with the project. These may not be
+      known at the early planning stages of a project and should be revised as
+      appropriate.
+
+   5. New Hardware – List any new hardware required for the project.
+
+   6. New Software – List any new software required for the project.
+
+   7. Telecommunication Impact – Indicate if an upgrade in telecommunications will be
+      required or if this project will impact the existing telecommunications
+      infrastructure.
+
+   8. Outside Resources – Identify any external resources to the Agency that are
+      required to complete the project, such as federal funding, private partnerships,
+      etc.
+
+   9. Multi-Organization Partnerships – Identify any partnerships with the federal
+      government, other states, or other Idaho state agencies needed to accomplish
+      this project.
+
+   10. Statutory Changes – Describe any statutory changes needed to accomplish this
+       project.
+
+   11. Federal or Legislative Mandate – Identify any directives from federal or state
+       government that require this project to be completed.
+
+   12. Idaho.gov Impact – Identify any resources offered through the Access Idaho
+       partnership that are needed to accomplish this project. Indicate if there will be an
+       impact on the State web servers or State home page.
+
+   13. Risk Assessment – Include Summary of Key findings from the risk assessment
+       that was completed per G215. The Agency is required to perform a risk
+       assessment for this project [ITA Policy P2040 (Risk Assessment)]. Areas of risk
+       include strategic risk, financial risk, project management risk, technology risk and
+       operational risk. Risk assessment is a critical element of project management
+       and should not stop at the planning stage.
+
+G210 – IT Project Profile                                                        Page 2 of 3
+
+    14. Cost – Benefit Analysis – Include Summary of Key findings of Cost Benefit
+        Analysis per G225.
+
+    15. Project Management – Indicate that a project manager has been assigned to the
+        project and that a formal project plan and/or work breakdown structure has been
+        accomplished for the project.
+
+    16. ITA Presentation – Upon request by ITA, State Agencies may be scheduled to
+        make a formal presentation of the project plan to the ITA for review and approval.
+        The complete project plan submitted to ITA at that time should contain detailed
+        information concerning project milestones and for each of the items summarized
+        in the project profile.
+
+IV. PROCEDURE REFERENCE
+
+    Policies for IT project profile are detailed in ITA Policies P2030 (Information
+    Technology Large-Scale Project Review) and P2040 (Risk Assessment).
+
+V. CONTACT INFORMATION
+
+    For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+05/05/2026 – Modernize, enhance technical project‑summary elements, streamline cost
+         and analysis sections, and clarify requirements.
+
+07/01/13 – Changed “ITRMC” to “ITA”.
+
+6/16/09 – Added Contact Information and Revision History, deleted Timeline
+
+11/15/2006 – Updated to reflect the IT Project Profile review procedure. Provided
+             detailed descriptions for each component of the IT Project Profile.
+
+               Effective Date: February 20, 2002
+
+G210 – IT Project Profile                                                             Page 3 of 3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

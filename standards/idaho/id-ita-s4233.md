@@ -1,0 +1,1205 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4233
+title: S4233 – Hydrography Data Exchange
+doc_type: standard
+citation: ITA Standard S4233
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/s4233-ADA.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: a35f5f7ef9ec44f945ac809c3d0ae7ade86209ea875880ac0a8efbe9fe5df4b2
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4233 – Hydrography Data Exchange (ITA Standard S4233)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4233 facilitates the exchange of hydrography data, ensuring accurate and consistent water resource information across state agencies."
+
+## Full text
+
+                                  STATE OF IDAHO
+
+             Hydrography Data Exchange Standard
+                       for the Hydrography Framework Theme
+
+                                       Version 2.0
+                                 Effective Sept. 17, 2015
+
+Revision History
+Revised for ADA compliance July 24, 2025
+Established by ITRMC (now ITA) April 27, 2011
+First Draft June 4, 2014
+Second Draft June 21, 2014
+Third Draft July 24, 2015
+Fourth Draft March 6, 2015
+Fifth Draft April 10, 2015
+Sixth Draft May 28, 2015
+Definitions removed, reference to ITA Glossary of Terms Added May 2019
+
+Contact
+Linda Davis
+Idaho Dept. of Water Resources
+208.287.4800
+Linda.Davis@idwr.idaho.gov
+
+CONTENTS
+1. Introduction to the Water Features Data Exchange Standard ........................................ 3
+  1.1. Mission and Goals of the Standard ............................................................................... 3
+  1.2. Relationship to Existing Standards .............................................................................. 3
+  1.3. Description of the Standard .......................................................................................... 4
+  1.4. Applicability and Intended Uses ................................................................................... 4
+  1.5. Standard Development Process..................................................................................... 4
+  1.6. Maintenance of the Standard ........................................................................................ 5
+2. Body of the Standard ............................................................................................................ 5
+  2.1. Scope and Content.......................................................................................................... 5
+  2.2. Need ................................................................................................................................. 5
+  2.3. Participation in the Standard Development ................................................................ 5
+  2.4. Integration with Other Standards ................................................................................ 6
+  2.5. Technical and Operation Context ................................................................................. 6
+     2.5.1. Data Environment ................................................................................................... 6
+     2.5.2. Reference Systems ................................................................................................... 6
+     2.5.3. Global Positioning Systems (GPS) ......................................................................... 6
+     2.5.4. Interdependence of Themes ................................................................................... 6
+     2.5.5. Encoding .................................................................................................................. 7
+     2.5.6. Resolution ................................................................................................................ 7
+     2.5.7. Accuracy .................................................................................................................. 7
+     2.5.8. Edge Matching ........................................................................................................ 7
+     2.5.9. Unique Identifier ..................................................................................................... 7
+     2.5.10. Attributes ................................................................................................................. 7
+     2.5.11. Stewardship ............................................................................................................. 8
+     2.5.12. Records Management and Archiving.................................................................... 8
+     2.5.13. Metadata .................................................................................................................. 8
+3. Data Characteristics ............................................................................................................. 8
+  3.1. Minimum Graphic Data Elements................................................................................ 8
+  3.2. Minimum Attributes or Non-graphic Data Elements ................................................. 9
+  3.3. Optional Graphic Data Elements................................................................................ 11
+  3.4. Optional Attributes or Non-graphic Data Elements ................................................. 11
+  3.5. Data Quality .................................................................................................................. 12
+Appendix A: References .............................................................................................................. 13
+Appendix B: Glossary .................................................................................................................. 14
+Appendix C: Acronyms ............................................................................................................... 15
+Appendix D: Feature Templates for Selected NHD Hydrography Dataset Data Elements…….16
+Water Features Standard ver. 2.0                                                                                                              2
+
+1. Introduction to the Water Features Data Exchange Standard
+   A statewide Hydrography Framework is a critical source of information for resource land
+   management, community and economic development needs, infrastructure maintenance,
+   research and analysis, business development, public safety, and more. Many private sector
+   and local, state, and federal government agencies have business needs for Hydrography
+   Framework.
+
+   A Hydrography Framework standard is intended to facilitate integration and sharing of up-to-
+   date hydrography data and enhance the dissemination and use of hydrographic information.
+   This standard does not instruct on how hydrologic databases are designed for internal use.
+
+   This standard was developed based on the National Hydrography Database (NHD). The
+   standard was reviewed by the Idaho Hydrography Technical Work Group (Hydro TWG), for
+   The Idaho Map (TIM). This standard will be reviewed every 5 years and updated as needed.
+
+   1.1. Mission and Goals of the Standard
+
+   The purpose of the Hydrography Data Standard is to specify a common method for locating
+   and identifying surface water features and nested drainage basin delineations in Idaho. Since
+   it is based on national models, hydrography data maintained according to this standard can be
+   exchanged with entities in other states and the federal government.
+
+   The Hydrography Data Exchange Standard supports a statewide dataset that is consistent
+   with applicable state and national standards. It establishes the minimum attributes and
+   geospatial feature classes within the National Hydrography Database schema for the
+   Hydrography Framework. It will communicate with and may have similar attributes to other
+   Idaho Framework data standards. It encourages all Idaho-based agencies with geospatial
+   surface water data to contribute to Hydrography Framework.
+
+   1.2. Relationship to Existing Standards
+   This Water Features Data Exchange Standard relates to existing standards as follows:
+
+   Standards for the National Hydrography Dataset (Draft), Version 1.0, et seq., provides a
+   definition and structure for hydrographic data sharing at all levels of government and the
+   private sector and specifically facilitates participation in the hydrography component of the
+   National Spatial Data Infrastructure.
+
+  Federal Standards and Procedures for the National Watershed Boundary Dataset,
+  Fourth Edition, et seq., relates to this standard because surface water features are
+  contained within Watershed Boundaries. Also, Watershed Boundaries are an Element
+  of Hydrography Framework of the TIM.
+Water Features Standard ver. 2.0                                                                   3
+
+   All geospatial datasets developed from this standard must also adhere to the Federal
+   Geographic Data Committee, Content Standard for Digital Geospatial Metadata.
+
+   1.3. Description of the Standard
+   This standard includes the elements necessary to accurately identify and locate surface water
+   features and watershed boundaries.
+
+   This standard describes the vision and geospatial data structure of a Hydrography Framework
+   in the state of Idaho. This standard is devised to be:
+        • Simple, easy to understand, and logical
+        • Uniformly applicable, whenever possible
+        • Flexible and capable of accommodating future expansions
+        • Dynamic in terms of continuous review
+
+   1.4. Applicability and Intended Uses
+   This standard applies to the Hydrography theme of The Idaho Map (TIM). It is a digital
+   representation of surface water features and drainage basins in the State of Idaho. When
+   implemented, it will enable access to geometry and attribute information about Idaho’s
+   surface water hydrography and watersheds. It will increase interoperability between
+   automated geographic information systems and enable sharing and efficient transfer of
+   information for aggregation. Further, it will encourage partnerships between government, the
+   private sector, and the public in order to avoid duplication of effort and ensure effective
+   management of information resources. It will help improve hydrography data quality as
+   errors are identified and resolved.
+
+   This standard does not consider data sharing agreements, contracts, transactions, privacy
+   concerns, or any other issues relating to the acquisition and dissemination of hydrography
+   data.
+
+   1.5. Standard Development Process
+   The National Hydrography Database (NHD) was developed by the United States Geological
+   Survey (USGS) and U.S. Environmental Protection Agency (EPA) in the 1990s to support he
+   needs of the National Map and water quality programs. Likewise the Watershed Boundary
+   Dataset (WBD) has been developed since the 1970’s by the USGS and National Resources
+   Conservation Service (NRCS) to depict drainage basins in the U.S. The Standards and
+   Procedures developed to support the NHD and WBD have been adopted by many federal,
+   state, local, and private entities. State, local and federal partners have been involved in
+   updating, enhancing and delineating both the NHD and WBD.
+   The Hydro TWG, is a voluntary group of private, city, county, tribal, state, and federal
+   representatives. While NHD has been a standard dataset within the in the Pacific Northwest,
+
+Water Features Standard ver. 2.0                                                                 4
+
+   there is a need to go through the formal Idaho state process of examining the needs of Idaho
+   hydrography users. In March 2014, the Hydro TWG Lead began developing a draft standard
+   for TIM Hydrography Framework. The Draft Water Features Data Exchange Standard was
+   written in the format required by the Idaho Technology Authority (ITA) Framework
+   Standards Development Policy (P5030).
+   The draft standard was presented at the Hydro TWG meetings on July 24, 2014, March 12,
+   2015, and Sept. 10, 2015. The standard was also presented at the Idaho Geospatial Forum on
+   May 14, 2015. Several comment periods were provided and iterations of the standard were
+   posted to incorporate any needed changes. The final standard was presented to the Idaho
+   Geospatial Council Executive Committee for approval Sept. 17, 2015.
+
+   1.6. Maintenance of the Standard
+   This standard will be revisited every 5 years and revised as needed in accordance with the
+   ITA Framework Standards Development Policy (P5030).
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+   The scope of the Water Features Data Exchange Standard is to describe statewide GIS data
+   layers which identify the physical locations and attributes of surface water hydrography in
+   Idaho. It encompasses any surface water features and drainage basin located within the state
+   of Idaho. This includes but is not limited to: lakes, streams, canals, basins, and watersheds.
+   The NHD and WBD have references to other framework features, for these items, the
+   specific framework theme should be considered the authoritative source.
+
+   2.2. Need
+   Hydrography is a key dataset needed for resource land managers, community and business
+   development needs, infrastructure maintenance, research, homeland security, public safety,
+   and more. This standard provides the foundation to aggregate hydrography data for
+   centralized access and stewardship information. It provides an elemental foundation not only
+   for the consistent depiction of surface water features and drainage areas, but also information
+   tied to these features. Its use spans a wide array of functions from providing background
+   information on maps to enabling the modeling of flow and material transportation through a
+   stream network.
+
+  2.3. Participation in the Standard Development
+  The development of the Water Features Data Exchange Standard adheres to the ITA
+  Framework Standards Development Policy (P5030). The Hydro TWG tasked with
+  developing this standard represents private, county, state, and federal organizations. As the
+Water Features Standard ver. 2.0                                                                5
+
+   standard is reviewed in accordance with Policy P5030 requirements, there will be
+   opportunity for broad participation and input by stakeholders in the development of this
+   standard. The process will be equally broad for input on updates and enhancements to the
+   standard. As with all Idaho Framework standards, public review and comments on the Water
+   Features Data Exchange Standard is encouraged.
+
+   2.4. Integration with Other Standards
+   The Water Features Data Exchange Standard follows the same format as other Idaho
+   geospatial framework data standards. The standard may contain some of the same attributes
+   as other framework standards and may adopt the field name, definition, and domain from the
+   other standards to promote consistency.
+
+   2.5. Technical and Operation Context
+
+       2.5.1. Data Environment
+       The data environment is a digital model, containing closed vector points, lines, and
+       polygons with a specific, standardized set of attributes. The digital model is the data
+       model of the National Hydrography Database
+       (http://nhd.usgs.gov/NHDv2.2_poster_052714.pdf) or the Watershed Boundary Database
+       (http://nhd.usgs.gov/WBDposter_6_30_09a.pdf ). Hydrography data shared under these
+       standards must be in a format supporting points, lines, or closed vector polygons
+       depending on which feature is described. For a precise description of feature type for
+       each feature, please refer to the NHD Feature Catalog
+       (http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/NHD_
+       Feature_Catalog.htm) or Watershed Boundary Dataset Standards and Procedures
+       (http://pubs.usgs.gov/tm/11/a3/).
+
+       2.5.2. Reference Systems
+       The NHD is published in the Geographic reference system, Datum: NAD83. NHD that
+       are identified as part of the Hydrography Framework can be extracted from the NHD and
+       published in the Idaho Transverse Mercator (IDTM) NAD83 coordinate system, which is
+       the State of Idaho’s single-zone coordinate system. Data is not required to be submitted
+       in the ITDM coordinate system but must have a defined coordinate system clearly
+       described in the metadata.
+
+       2.5.3. Global Positioning Systems (GPS)
+       Some data provided might contain geometry from GPS methods, and the provided
+       metadata should describe this, if applicable. However, geometry from a GPS is not
+       required to meet this standard.
+
+       2.5.4. Interdependence of Themes
+Water Features Standard ver. 2.0                                                              6
+
+       Feature geometry representing hydrography may be coincident with other framework
+       data, such as parcels, roads, and structures. At this time there is no enforcement of
+       coincidence or topology relationships between Hydrography Framework and other Idaho
+       Framework elements.
+
+       2.5.5. Encoding
+       When data is imported into and exported from the National Hydrography Database,
+       encoding will take place to convert data formats and attributes including the ESRI
+       geodatabase format.
+
+       2.5.6. Resolution
+       High-Resolution National Hydrography Database and Watershed Boundary Dataset are
+       defined at the 1:24,000. Data of 1:24,000 scale or better is required for inclusion into the
+       High-Resolution National Hydrography Database and Watershed Boundary Dataset. It
+       is the intention of this standard to allow for the integration of data collected at multiple
+       spatial resolutions. Feature specific resolution will be documented in the metadata.
+
+       2.5.7. Accuracy
+       The minimum accuracy for data in this standard is 1:24,000. Data of 1:24,000 scale or
+       better is required for inclusion into the High-Resolution National Hydrography Database
+       and Watershed Boundary Dataset. The NHD and WBD follow USGS Map Accuracy
+       Standards. USGS Map Accuracy standards for 1:24,000 data require ninety percent of
+       well-defined features to lie within 40 feet of their true geographic position. Feature
+       specific accuracy will be documented in the metadata. As with resolution, the intention
+       of this standard is to support varying levels of positional and attribute accuracy. Feature
+       specific accuracy will be documented in the metadata.
+
+       2.5.8. Edge Matching
+       No edge matching between jurisdictions is required. Edge matching will occur when
+       features are integrated into the National Hydrography Database or Watershed Boundary
+       Dataset.
+
+       2.5.9. Unique Identifier
+       There is no requirement for a permanent unique identifier specific to each feature.
+       However, one may be assigned when integrated into the National Hydrography Database
+       or Watershed Boundary Dataset.
+
+       2.5.10. Attributes
+       Attributes for public and intergovernmental distribution are described in Section 3 of this
+       standard.
+
+Water Features Standard ver. 2.0                                                                      7
+
+       2.5.11. Stewardship
+       Perpetual maintenance and other aspects of lifecycle management are essential to
+       Hydrography Framework. Details of stewards, their roles and responsibilities, and
+       processes are set forth in a Draft Hydrography Framework Stewardship Plan and related
+       documents. The Stewardship Plans for the NHD and WBD are available at:
+       http://gis.idaho.gov/portal/coordination/steward.html
+
+       2.5.12. Records Management and Archiving
+       Details of records management and archiving for Hydrography Framework are set forth
+       in a Draft Hydrography Framework Stewardship Plan and related documents. The
+       Stewardship Plans for the NHD and WBD are available at:
+       http://gis.idaho.gov/portal/coordination/steward.html
+
+       2.5.13. Metadata
+       The Hydrography Framework metadata will be stored at both the dataset and the feature
+       level in the same fashion as it is collected and stored in the NHD & WBD. This
+       metadata conforms to metadata standards of the State of Idaho as defined in the ITA
+       Standard Geospatial Metadata (S4220) (http://ita.idaho.gov/psg/s4220.pdf) and
+       accompany any files exchanged under this Standard.
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+   Minimum graphic data elements are the identified features in the following feature classes in
+   the NHD and WBD.
+
+   Described in the Federal Standards and Procedures for the National WBD:
+   WBDHU12 (Polygon Features)
+   WBDLine (Line Features)
+
+   For the NHDArea and NHDWaterbodies feature classes, only features with the FTYPE
+   specified below are required elements.
+
+   Described in the NHD Feature Catalog:
+   NHDFlowlines (Line Features)
+
+   NHDAreas (Polygon Features)
+     Specifically FTYPE:
+        - StreamRiver
+        - CanalDitch
+
+Water Features Standard ver. 2.0                                                               8
+
+   NHDWaterbodies (Polygon Features)
+     Specifically FTYPE:
+        - LakePond
+        - Reservoir
+
+   Feature Templates for Selected NHD Hydrography Dataset Data Elements are listed in
+   Appendix D. The current Feature Catalog for surface water elements is available at
+   http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/NHD_Feat
+   ure_Catalog.htm. Geospatial Data Structure and data capture requirements for watershed
+   boundaries are available at http://pubs.usgs.gov/tm/11/a3/.
+
+   3.2. Minimum Attributes or Non-graphic Data Elements
+   The following attributes are established for public and government distribution.
+
+   Minimum attributes will be defined by the attribution required for the features identified in
+   the following feature classes in the NHD and WBD.
+
+   Described in the Federal Standards and Procedures for the National WBD:
+   WBDHU12 (Polygon Features)
+   WBDLine (Line Features)
+
+   For the NHDArea and NHDWaterbodies feature classes, only features with the FTYPE
+   specified below are required elements.
+
+   Described in the NHD Feature Catalog:
+   NHDFlowlines (Line Features)
+
+   NHDAreas (Polygon Features)
+   Specifically FTYPE:
+      - StreamRiver
+      - CanalDitch
+
+   NHDWaterbodies (Polygon Features)
+   Specifically FTYPE:
+      - LakePond
+      - Reservoir
+
+   Feature Templates for Selected NHD Hydrography Dataset Data Elements are listed in
+   Appendix D. The current Feature Catalog for surface water elements is available at
+Water Features Standard ver. 2.0                                                                   9
+
+   http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/NHD_Feat
+   ure_Catalog.htm. Geospatial Data Structure and data capture requirements for watershed
+   boundaries are available at http://pubs.usgs.gov/tm/11/a3/.
+
+   Example attributes for area features:
+
+ Field Name      Data     Length                   Description                       Comments
+                 Type
+
+FTYPE             INT           3    Three-digit integer value; unique           Domain of Values
+                                     identifier of a feature type.
+FCODE             INT           5    Five-digit integer value; composed of the   Domain of Values
+                                     feature type and combinations of
+                                     characteristics and values.
+Elevation       Double               The vertical distance from a given          Range of Values.
+                                     datum                                       Stage of the water
+                                                                                 elevation is encoded
+                                                                                 in the FCode.
+                 TXT         10      Unique identifier assigned by GNIS          GNIS_ID = “null” if
+GNIS_ID                                                                          no name associated
+                                                                                 with the feature
+GNIS_NAME        TXT         65      Proper name, specific term, or              GNIS_Name = “null”
+                                     expression by which a particular            if no name associated
+                                     geographic entity is known                  with the feature
+
+   Example attributes for linear features:
+
+ Field Name     Data     Length                   Description                        Comments
+                Type
+
+FTYPE            INT        3       Three-digit integer value; unique            Domain of Values
+                                    identifier of a feature type.
+
+FCODE            INT        5       Five-digit integer value; composed of the    Domain of Values
+                                    feature type and combinations of
+                                    characteristics and values.
+                TXT         10      Unique identifier assigned by GNIS           GNIS_ID = “null” if
+GNIS_ID                                                                          no name associated
+                                                                                 with the feature
+GNIS_NAME       TXT         65      Proper name, specific term, or expression    GNIS_Name = “null”
+                                    by which a particular geographic entity is   if no name associated
+                                    known                                        with the feature
+
+Water Features Standard ver. 2.0                                                                    10
+
+FlowDir         TXT        4       Direction of flow relative to coordinate   Domain of values:
+                                   order
+                                                                              With digitized
+
+                                                                              Uninitialized
+
+   3.3. Optional Graphic Data Elements
+   The National Hydrography Database (NHD) and Watershed Boundary Dataset (WBD) store
+   several types of water related features. Optional graphic data elements are the any feature
+   class supported by the NHD and WBD not specified below:
+
+   Described in the Federal Standards and Procedures for the National WBD:
+   WBDHU12 (Polygon Features)
+   WBDLine (Line Features)
+
+   Described in the NHD Feature Catalog:
+   NHDFlowlines (Line Features)
+
+   For the NHDArea and NHDWaterbodies feature classes, all feature types are optional except
+   the those with the FTYPE specified below:
+
+   Described in the NHD Feature Catalog:
+   NHDAreas (Polygon Features)
+   Specifically FTYPE:
+      - StreamRiver
+      - CanalDitch
+   NHDWaterbodies (Polygon Features)
+   Specifically FTYPE:
+      - LakePond
+      - Reservoir
+
+   For specifics on all features types and definitions, please see the NHD Feature Catalog
+   (http://nhd.usgs.gov/userguide.html?url=NHD_User_Guide/Feature_Catalog/NHD_Feature_
+   Catalog.htm) and the Federal Standards and Procedures for the National WBD
+   (http://pubs.usgs.gov/tm/11/a3/ ).
+
+   3.4. Optional Attributes or Non-graphic Data Elements
+   The National Hydrography Database (NHD) stores several types of water related features.
+
+Water Features Standard ver. 2.0                                                                  11
+
+   For specifics on attributes of optional features types, please see the NHD Feature Catalog
+   (http://nhd.usgs.gov/userguide.html?url=NHD_User_Guide/Feature_Catalog/NHD_Feature_
+   Catalog.htm) and the Federal Standards and Procedures for the National WBD
+   (http://pubs.usgs.gov/tm/11/a3/ ).
+
+   3.5. Data Quality
+   Data quality considerations for the Hydrography Framework will be consistent with those of
+   the NHD and WBD. These considerations for surface water features include:
+       a) All watershed, waterbody and area polygons should close.
+       b) Vertical relationships between features in a feature class should be identified.
+       c) Flow direction for linear hydrography dataset features should be “with digitized” to
+          ensure correct flow direction for network analysis. With digitized indicates the
+          direction of flow in relation to coordinate order.
+       d) All Hydrologic Unit numbering should flow from upstream unit to downstream unit.
+
+Water Features Standard ver. 2.0                                                             12
+
+Appendix A: References
+
+Simley, Jeffrey D. and William J. Carswell, Jr. March 2010. The National Map –
+Hydrography, revised. U.S. Geological Survey Fact Sheet 2009-3054. Internet.
+http://pubs.usgs.gov/fs/2009/3054/pdf/FS2009-3054.pdf
+
+U.S. Environmental Protection Agency and U.S. Department of the Interior, U.S.
+Geological Survey, National Mapping Division, July 1999. Standards for the National
+Hydrography Dataset (Draft). Internet.
+http://nationalmap.gov/standards/pdf/NHDH0799.PDF
+
+U.S. Geological Survey and U.S. Department of Agriculture, Natural Resources
+Conservation Service, 2013, Federal Standards and Procedures for the National
+Watershed Boundary Dataset (WBD) (4 ed.): Techniques and Methods 11–A3, 63 p.
+Internet. http://pubs.usgs.gov/tm/11/a3/
+
+Environmental Systems Research Institute (ESRI). Internet. http://www.esri.com
+
+Information Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. Internet. http://ita.idaho.gov/psg/p5030.pdf
+
+Information Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. Internet.
+http://ita.idaho.gov/psg/S4220.pdf
+
+Water Features Standard ver. 2.0                                                        13
+
+Appendix B: Glossary
+
+See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+Water Features Standard ver. 2.0                                  14
+
+Appendix C: Acronyms
+
+EPA: United States Environmental Protection Agency
+
+FGDC: Federal Geographic Data Committee
+
+Hydro TWG: Hydrography Technical Working Group
+
+IDTM83: The Idaho coordinate system of 1983, single zone as described in 55-1705 (4) Idaho
+Code
+
+IGC: Idaho Geospatial Council
+
+IGC-EC: Idaho Geospatial Council – Executive Committee
+
+INSIDE Idaho: Interactive Numeric and Spatial Information Data Engine of Idaho
+
+ITA: Idaho Technology Authority
+
+ITRMC: Information Technology Resource Management Council
+
+NHD: National Hydrography Dataset
+
+P5030: Idaho Technology Authority Framework Standards Development Policy 5030
+
+S4220: Idaho Technology Authority Geospatial Metadata Standard 4220
+
+SDI: Spatial Data Infrastructure
+
+TIM: The Idaho Map
+
+USGS: United States Geological Survey
+
+WBD: Watershed Boundary Dataset
+
+Water Features Standard ver. 2.0                                                             15
+
+Appendix D: Feature Templates for Selected NHD Hydrography Dataset Data Elements
+
+NHD WATERBODY
+
+Definition – Lake/Pond
+
+A standing body of water with a predominantly natural shoreline surrounded by land or a flooded
+river system where a dam has been built to withhold water.
+
+Delineation
+
+       The limit of LAKE/POND where STREAM/RIVER enters or leaves is determined by the
+conformation of the land.
+
+          The limit of a naturally formed, perennial LAKE/POND is the position of shoreline when
+the water is at the stage that prevails for the greater part of the year (Average Water Elevation) or
+if this limit cannot be determined, the visible edge of the water body (Date of Photography).
+
+        The limit of an artificially formed, perennial LAKE/POND is the position of shoreline
+when the water is at the stage that prevails for the greater part of the year (Normal Pool), or if
+this limit cannot be determined, the limits defined by the spillway (Spillway Elevation), or the
+visible edge of the water body (Date of Photography).
+
+        The limit of an intermittent LAKE/POND is the position of shoreline when the water is at
+the stage that prevails when the feature is at or near capacity (High Water Elevation) or, if this
+limit cannot be determined, the visible edge of the water body (Date of Photography).
+
+Data Extraction
+
+Capture Conditions
+
+       If LAKE/POND is in an arid area, Or If LAKE/POND is not in an arid area and is ≥ 0.05"
+        along the shortest axis, then capture.
+
+Attribute Information
+
+       If Hydrographic Category = Intermittent, Then Stage = High Water Elevation, Or If High
+        Water Elevation cannot be determined, Then Stage = Date of Photography.
+
+Water Features Standard ver. 2.0                                                                     16
+
+      If LAKE/POND is a natural lake, and Hydrographic Category = Perennial, Then Stage =
+       Average Water Elevation, Or If Average Water Elevation cannot be determined, Then
+       Stage = Date of Photography.
+
+       If LAKE/POND is an artificially impounded lake, and Hydrographic Category =
+       Perennial, and the water level is reasonably constant, Then Stage = Normal Pool.
+
+      If LAKE/POND is an artificially impounded lake, and Hydrographic Category =
+       Perennial, and the water level is not reasonably constant, Then Stage = Spillway
+       Elevation.
+
+      If LAKE/POND is an artificially impounded lake, and Hydrographic Category =
+
+      Perennial, and the Normal Pool or Spillway Elevation cannot be determined, Then Stage =
+       Date of Photography.
+
+      See INUNDATION AREA for capture of flood elevation.
+
+      If LAKE/POND has a printed elevation on a 1:24,000-scale graphic,
+
+      Then Elevation = (Integer Value)
+
+      Else Elevation = Unspecified.
+
+Source Interpretation Guidelines
+
+All
+
+         Do not capture dry lakes as LAKE/POND. See PLAYA.
+
+          Refer to the feature definition to decide how to categorize a given feature instance. Do
+ not use the proper name of the feature as a guide. Many features that are known as
+ "Reservoirs" or labeled on the graphic as "Reservoirs" will be captured as LAKE/PONDS.
+ "Stock Tanks" may be RESERVOIR or LAKE/POND depending on their form. As a general
+ rule, if a water body has a geometric shape or      other information indicates it is contained by
+ a constructed basin, capture it as RESERVOIR. If it does not appear to be contained by a
+ constructed basin, capture it as LAKE/POND.
+
+         The minimum size for islands within LAKE/POND is 0.03" along the shortest axis.
+
+        Graphic
+Water Features Standard ver. 2.0                                                                 17
+
+         If Elevation shown on map is preceded by "Spillway",
+
+         Then Stage = Spillway.
+
+ If Elevation is collected from the graphic, and LAKE/POND is artificially impounded, and
+ "Spillway (elevation)" is not printed,
+
+         Then Stage = Normal Pool.
+
+         Revision – General
+
+         If image shows lower than average water level, then capture LAKE/POND at a normal
+ pool or average water level by using ancillary sources or evidence of water marks on images.
+
+        If image shows lower than average water level and the average water elevation or
+ normal Pool elevation cannot be determined, then capture LAKE/POND at the visible edge of
+ the water body. If image shows higher than average water level, then capture LAKE/POND at
+ a normal pool or average water level by using ancillary sources.
+
+         If image shows higher than average water level and the average water elevation or
+ normal pool elevation cannot be determined, then capture LAKE/POND at the visible edge of
+ the water body.
+
+         Within a newly added manmade LAKE/POND, retain contours, single and double-line
+ drains, blue water tint, drain names, PLSS subdivisions, and civil boundaries. All other features
+ are deleted.
+
+         Revision - Standard
+
+         Revision - Limited
+
+         Use ancillary source when the collection of Elevation is required.
+
+         Encode the value for Hydrographic Category by looking at the surrounding drainage
+
+(http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/Hydrography
+_Dataset/Feature_Delineation_Popups/NHDWaterbodyPopups/LakePond.htm)
+
+Definition – Reservoir
+
+A constructed basin formed to contain water or other liquids.
+
+Delineation
+Water Features Standard ver. 2.0                                                               18
+
+       The limit of RESERVOIR is the rim of the constructed basin.
+
+Data Extraction
+
+       Capture Conditions
+
+          If RESERVOIR is a sewage treatment pond or a filtration pond, Or If RESERVOIR is
+for water storage and is in an arid region, Or If RESERVOIR is not a sewage treatment pond or
+filtration plant, and is ≥ 0.03" along the shortest axis, Then capture.
+
+Attribute Information
+
+        If RESERVOIR has a printed elevation on a 1:24,000-scale graphic, Then Elevation =
+(Integer Value), Else Elevation = Unspecified.
+
+       If Reservoir Type = Water Storage and Cover Status = Covered, Then Hydrographic
+Category = Unspecified.
+
+      If Reservoir Type = Water Storage and Construction Material = Nonearthen, then
+Hydrographic Category = Unspecified.
+
+        If Disposal Type = Tailings Pond, Then Construction Material = Earthen.
+
+       Reservoir Type = Unspecified only in limited update. See Source Interpretation
+Guidelines,
+
+       Revision.
+
+       If Reservoir Type = Decorative Pool or Swimming Pool,Then Construction Material =
+Nonearthen.
+
+               If Cover Status = Covered, Then Construction Material = Nonearthen.
+
+               If Reservoir Type = Aquaculture or Treatment, Then Construction Material =
+Unspecified.
+
+               If Reservoir Type = Evaporator, Then Construction Material = Unspecified.
+
+Source Interpretation Guidelines
+
+All
+
+Refer to the feature definition to decide how to categorize a given feature instance.
+
+Do not use the proper name of the feature as a guide. Many features that are known as
+"Reservoirs" or labeled on the graphic as "Reservoirs" will be captured as LAKE/PONDS.
+"Stock Tanks" may be RESERVOIR or LAKE/POND depending on their form. As a general
+Water Features Standard ver. 2.0                                                       19
+
+rule, if a water body has a geometric shape or other information indicates it is contained by a
+constructed basin, capture it as RESERVOIR. If it does not appear to be contained by a
+constructed basin, capture it as LAKE/POND.
+
+If RESERVOIR is identified as a Minnow Pond, Fish Hatchery, Rearing Pond, Fish Pond, or
+similar facility, then capture RESERVOIR with Reservoir Type = Aquaculture.
+
+Fish ponds in natural water bodies are not captured as RESERVOIR. See ESTUARY,
+LAKE/POND or SEA/OCEAN.
+
+If RESERVOIR is < 0.03" along the shortest axis and is within 0.02" of another RESERVOIR
+with the same attribute values, then capture as one RESERVOIR only if the combined areas are
+≥ 0.03" along the shortest axis.
+
+If two RESERVOIRS are < 0.005" apart and have the same attribute values, then capture as two
+RESERVOIRS with a shared perimeter line.
+
+If two RESERVOIRS are < 0.005" apart and do not have the same attribute values, then displace
+the perimeter lines equally and capture so that the perimeter lines are 0.005" apart.
+
+If RESERVOIR is an oil sump or sludge pit, then collect in the theme Built-Up.
+
+ If RESERVOIR is divided by wire mesh, screens, or grates, then do not capture the resulting
+divisions as separate RESERVOIRS.
+
+If RESERVOIR is identified as a sewage disposal pond, then capture RESERVOIR with
+Reservoir Type = Treatment and Treatment Type = Sewage Treatment Pond.
+
+Graphic
+
+If RESERVOIR is symbolized with a black outline, then Construction Material = Non-earthen.
+
+If RESERVOIR is symbolized with a blue or brown outline, then Construction Material =
+Earthen.
+
+If RESERVOIR is < 0.03" along the shortest axis, and shares an outline with another
+
+RESERVOIR with the same attribute values and their combined area is ≥ 0.03"along the shortest
+axis, then capture the combined areas as one RESERVOIR.
+
+               Revision – Standard
+
+               Revision - Limited
+
+Reservoir Type = Unspecified for newly collected RESERVOIRS. Retain Reservoir
+
+                       Type on existing RESERVOIRS.
+Water Features Standard ver. 2.0                                                                  20
+
+Elevation = Unspecified for newly collected RESERVOIRS. Retain Elevation on existing
+RESERVOIRS.
+
+(http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/Hydrography
+_Dataset/Feature_Delineation_Popups/NHDWaterbodyPopups/Reservori_Template.htm)
+
+NHDFLOWLINE
+
+Definition – Stream/River
+
+A body of flowing water.
+
+Delineation – Stream/River
+
+         The limit of a perennial STREAM/RIVER is the position of the shoreline when the water
+is at the stage that prevails for the greater part of the year.
+
+        The limit of an intermittent STREAM/RIVER is the position of the shoreline when the
+water is at the stage that prevails when the feature is at or near capacity.
+
+       The limit of an ephemeral STREAM/RIVER is the edge of the channel.
+
+       The upper limit of STREAM/RIVER is where the feature first becomes evident as a
+channel.
+
+       The limit of STREAM/RIVER where it enters or leaves LAKE/POND is determined by
+the conformation of the land.
+
+       The limit of STREAM/RIVER where it enters ESTUARY is based on the Tidal Fresh
+       Zone from the NOAA Coastal Assessment Framework (CAF).
+
+              To accommodate variations in the shortest axis of STREAM/RIVER:
+
+               If shortest axis of STREAM/RIVER is: < 0.025" but ≥ 0.01" for a distance <
+       2.64", and is connected at both ends to a 2- dimensional STREAM/RIVER, Then
+       STREAM/RIVER is represented as a 2-dimensional basic feature object.
+
+               < 0.025" but ≥ 0.01" for a distance ≥ 2.64", or < 0.01" regardless of distance, and
+       is connected at both ends to a 2-dimensional STREAM/RIVER, then STREAM/RIVER
+       is represented as a 1-dimensional basic feature object.
+
+        ≥ 0.025" but < 0.04" for a distance < 2.64", and is connected at both ends to a 1-
+dimensional STREAM/RIVER, then STREAM/RIVER is represented as a 1-dimensional basic
+feature object.
+
+               ≥ 0.025" but < 0.04" for a distance ≥ 2.64", or ≥ 0.04" regardless of distance, and
+       is connected at both ends to a 1-dimensional STREAM/RIVER, then STREAM/RIVER
+Water Features Standard ver. 2.0                                                                21
+
+       is represented as a 2-dimensional basic feature object.
+
+Data Extraction
+
+       Capture Conditions
+
+               If STREAM/RIVER flows from LAKE/POND or SPRING/SEEP, Or If
+       STREAM/RIVER is ≥ 1.25" along the longest axis, Or If STREAM/RIVER is perennial
+       and is in an arid region, Then capture.
+
+       Attribute Information
+
+              If the water level of STREAM/RIVER is controlled for navigation by
+       DAM/WEIR or GATE with Gate Type = Lock, then Elevation = (Integer Value), Else
+       Elevation = Not Applicable.
+
+              If STREAM/RIVER coincides with LOCK CHAMBER, Then Elevation = Not
+       Applicable.
+
+              If STREAM/RIVER is represented as a 2-dimensional basic feature object, Then
+       Positional
+
+               Accuracy = Not Applicable
+
+Source Interpretation Guidelines
+
+All
+
+        In arid areas it is difficult to distinguish between narrow intermittent and ephemeral
+drains and no distinction will be made. All drainages < 0.025" are collected as 1-dimensional
+intermittent streams. Thin drainage in arid areas to appropriately represent the "wetness" of the
+area. Rules for thinning intermittent streams in arid areas will be documented as more
+information becomes available.
+
+       If a portion of STREAM/RIVER flows through SWAMP/MARSH, then select the
+appropriate Hydrographic Category according to the definitions given.
+
+Do not capture areal dry washes, arroyos, dry gulches and ephemeral streams as
+STREAM/RIVER. See WASH.
+
+       The minimum size for islands within STREAM/RIVER is 0.03" along the shortest axis.
+
+       If a stream flows in a braided pattern, Then see AREA OF COMPLEX CHANNELS.
+
+       Graphic
+
+       If STREAM/RIVER flows from SPRING/SEEP, then capture STREAM/RIVER starting
+Water Features Standard ver. 2.0                                                                22
+
+at the center of SPRING/SEEP symbol
+
+       Revision - General
+
+       If the headwaters of STREAM/RIVER are closer than 0.5" from a saddle or divide, then
+capture STREAM/RIVER starting 0.5" from the saddle or divide.
+
+       If image shows lower than average water level, then capture STREAM/RIVER at a
+normal pool or average water level by using ancillary sources or evidence of water marks on
+images.
+
+If image shows lower than average water level and the average water elevation or normal pool
+elevation cannot be determined, then capture STREAM/RIVER at the visible edge of the water
+body.
+
+       If image shows higher than average water level, then capture STREAM/RIVER at a
+normal pool or average water level by using ancillary sources.
+
+        If image shows higher than average water level and the average water elevation or normal
+pool elevation cannot be determined, then capture STREAM/RIVER at the visible edge of the
+water body.
+
+       Revision – Standard
+
+       Revision – Limited
+
+        Do not add new features. Modify existing features only if there are obvious changes in
+the stream channel.
+
+       Use ancillary source if Elevation is required.
+
+               Value Hydrographic Category by looking at the surrounding drainage.
+
+(http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/Hydrography
+_Dataset/Feature_Delineation_Popups/NHDFlowline_Popups/StreamRiver_Template.htm)
+
+Definition – Canal/Ditch
+
+An artificial open waterway constructed to transport water, to irrigate or drain land, to connect
+two or more bodies of water, or to serve as a waterway for watercraft.
+
+Delineation
+
+The limit of CANAL/DITCH is the top of the banks of the artificial waterway.
+
+Water Features Standard ver. 2.0                                                                    23
+
+              To accommodate variations in the shortest axis of CANAL/DITCH:
+
+               If shortest axis of CANAL/DITCH is:
+
+                  ·        < 0.025" but ≥ 0.01" for a distance < 2.64", and is connected at both
+                        ends to a 2-dimensional CANAL/DITCH, Then CANAL/DITCH is
+                        represented as a 2-dimensional basic feature object.
+
+               ·      < 0.025" but ≥ 0.01" for a distance ≥ 2.64", or < 0.01" regardless of
+       distance, and is connected at both ends to a 2-dimensional CANAL/DITCH, Then
+       CANAL/DITCH is represented as a 1-dimensional basic feature object.
+
+                ·    ≥ 0.025" but < 0.04" for a distance < 2.64", and is connected at both ends
+       to a 1-dimensional CANAL/DITCH, Then CANAL/DITCH is represented as a 1-
+       dimensional basic feature object.
+
+               ·      ≥ 0.025" but < 0.04" for a distance ≥ 2.64", or ≥ 0.04" regardless of
+       distance, and is connected at both ends to a 1-dimensional CANAL/DITCH, Then
+       CANAL/DITCH is represented as a 2-dimensional basic feature object.
+
+Data Extraction
+
+       Capture Conditions
+
+               If CANAL/DITCH is named, Or If CANAL/DITCH is ≥ 0.005" along the shortest
+       axis, Then capture.
+
+Attribute Information
+
+                     If water level of CANAL/DITCH is controlled by GATE with Gate Type =
+             Lock, and CANAL/DITCH is ≥ 0.025" along the shortest axis and ≥ 0.5" along the
+             longest axis and is not coincident with LOCK CHAMBER, then Elevation =
+             (Integer Value), Else Elevation = Not Applicable.
+
+Source Interpretation Guidelines
+
+All
+
+               If CANAL/DITCH meets capture conditions, and coincides with BRIDGE,
+       LOCK CHAMBER, or TUNNEL, Then capture both CANAL/DITCH and the other
+       feature.
+
+               If CANAL/DITCH meets capture conditions, and coincides with a structure, but
+       that structure does not meet the definition and capture conditions for another feature
+       (BRIDGE, FLUME, PIPELINE with Pipeline Type = Siphon, TUNNEL), Then capture
+       CANAL/DITCH and, if required, capture UNDERPASS to allow definition of the
+       relationship between CANAL/DITCH and the feature over or under which it passes.
+Water Features Standard ver. 2.0                                                                   24
+
+           Structures which carry CANAL/DITCH over another feature are captured as
+       FLUME or BRIDGE.
+
+              Do not capture underground aqueducts that are not in TUNNEL as
+       CANAL/DITCH. See PIPELINE with Product = Water, Pipeline Type = Aqueduct, and
+       Relationship to Surface = Underground.
+
+              Do not capture rivers that have been channelized to control flooding or erosion, or
+       to maintain flow for navigation as CANAL/DITCH. See STREAM/RIVER. Capture as
+       CANAL/DITCH only those inland navigation waterways that are cut through land to
+       bypass outcrops or rapids, or to connect two bodies of water.
+
+             If a canal or ditch passes through a siphon that meets capture conditions for
+       PIPELINE with Pipeline Type = Siphon, then do not capture CANAL/DITCH. See
+       PIPELINE.
+
+               Do not capture ditches associated with a cranberry bog.
+
+               If 2-dimensional CANAL/DITCH meets capture conditions, and coincides with
+       NONEARTHEN SHORE or WALL, then capture both CANAL/DITCH and the other
+       feature.
+
+               Graphic
+
+               Revision - General
+
+               Revision - Standard
+
+               Revision - Limited
+
+Use ancillary source when the collection of Elevation is required.
+
+(http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/Hydrography
+_Dataset/Feature_Delineation_Popups/NHDAreaPopups/CanalDitch_Template.htm )
+
+Definition – Pipeline
+
+A closed conduit, with pumps, valves and control devices, for conveying fluids, gases, or finely
+divided solids.
+
+Relationship to Surface
+
+       - Vertical location relative to the surface.
+
+        At or near - At or slightly above the surface
+
+        Elevated - Supported above the earth
+Water Features Standard ver. 2.0                                                               25
+
+        Underground - Buried
+
+        Underwater - Always submerged
+
+        Unspecified - The value is not known and is not required
+
+Delineation
+
+        The limit of PIPELINE that is underground is the edge of the ground scars or linear
+clearings.
+
+        The limit of PIPELINE that is at or near the ground or elevated is the extent of the
+structure.
+
+      The limit of PIPELINE that is underwater is as shown on the final compilation provided
+to USGS by NOS.
+
+Data Extraction
+
+       Capture Conditions
+
+               If PIPELINE is an aqueduct, Or If PIPELINE is aboveground and is outside of a
+       congested area; and is a trunk line; and is ≥ 0.25" from a paralleling road, railway, or
+       other linear feature, Or If PIPELINE is underground and surface scars are present; and is
+       outside of a congested area; and is a trunk line; and is ≥ 0.25" from a paralleling road,
+       railway, or other linear feature, Or If PIPELINE is a penstock or siphon and is ≥ 0.12"
+       along the longest axis, Then capture.
+
+              If PIPELINE is for stormwater, local data stewards will provide capture
+       conditions.
+
+       Attribute Information
+
+               If Pipeline Type = Siphon, Then Relationship to Surface = Unspecified.
+
+       Source Interpretation Guidelines
+
+       All
+
+       If PIPELINE, with Pipeline Type = Siphon, causes a gap in CANAL/DITCH, Then
+capture PIPELINE only.
+
+      If a siphon does not meet capture conditions for PIPELINE, Then capture
+CANAL/DITCH and, if required, capture UNDERPASS to allow definition of the relationship
+between CANAL/DITCH and the feature over or under which it passes.
+
+       If PIPELINE is elevated over a depression by a structure built for that purpose,
+Water Features Standard ver. 2.0                                                               26
+
+Thencapture only PIPELINE, with Relationship to Surface = Elevated.
+
+       If PIPELINE is within TUNNEL, Then capture both PIPELINE and TUNNEL.
+
+       If PIPELINE conveys water, Then collect in the theme Hydrography.
+
+       If PIPELINE conveys a product other than water, Then collect in the theme Built-up.
+
+       Graphic
+
+       If PIPELINE is labeled "Pipeline Bridge", Then capture PIPELINE, with Relationship to
+Surface = Elevated.
+
+       Revision – General
+
+       Revision – Standard
+
+       Revision – Limited
+
+       Revise above ground pipelines only. Retain existing features.
+
+(http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/Hydrography
+_Dataset/Feature_Delineation_Popups/NHDFlowline_Popups/Pipeline_Template.htm )
+
+Definition – Connector
+
+A known, but nonspecific, invisible connection between two nonadjacent network segments.
+
+Delineation
+
+      The limit of CONNECTOR is the imaginary line connecting two nonadjacent network
+segments.
+
+Data Extraction
+
+       Capture Conditions
+
+       If CONNECTOR is required to maintain connectivity between two network feature
+objects that represent AREA OF COMPLEX CHANNELS, CANAL/DITCH,
+ESTUARY,LAKE/POND, RESERVOIR, SEA/OCEAN, or STREAM/RIVER, then capture.
+
+Source Interpretation Guidelines
+
+All
+
+The following list of conditions indicates when and why the capture of CONNECTOR is
+important:
+Water Features Standard ver. 2.0                                                             27
+
+1) When CONNECTOR is part of a network that is represented as being connected.
+
+2) When there is a gap with no collected network feature object between pieces of the network,
+for example, at a 2-dimensional DAM/WEIR that causes a gap between an upstream
+LAKE/POND and a downstream STREAM/RIVER.
+
+Graphic
+
+Revision – General
+
+Revision – Standard
+
+Revision - Limited
+
+(http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/Hydrography
+_Dataset/Feature_Delineation_Popups/NHDFlowline_Popups/Connector_Template.htm )
+
+Definition – Artificial Path
+
+A surrogate for general flow direction in NHDWaterbodies and NHDAreas. Artificial Paths
+carry the name of the flowline feature. NHDArea StreamRivers will have an Artificial Path that
+will carry the name of the River.
+
+Delineation
+
+       The limit of ARTIFICIAL PATH is:
+
+the connection between the inflow and outflow points of an in-line open water body;
+
+the line through a head or terminal open water body that connects to the inflow or outflow point.
+
+Data Extraction
+
+       Source Interpretation Guidelines
+
+All
+
+If ARTIFICIAL PATHS are used to model flow through an ESTUARY that also has
+COASTLINE around the ESTUARY, flow direction will be “with digitized” on the
+ARTIFICIAL PATHS and the COASTLINE around the ESTUARY will have flow direction =
+“uninitialized”. This rule is necessary to allow network models to work properly.
+
+               Graphic
+
+               Revision – General
+Water Features Standard ver. 2.0                                                               28
+
+              Revision – Standard
+
+              Revision – Limited
+
+(http://nhd.usgs.gov/userGuide/Robohelpfiles/NHD_User_Guide/Feature_Catalog/Hydrography_Dataset/
+Feature_Delineation_Popups/NHDFlowline_Popups/Artificial_Path_Template.htm )
+
+Water Features Standard ver. 2.0                                                              29
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

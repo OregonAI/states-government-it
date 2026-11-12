@@ -1,0 +1,494 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4262
+title: S4262 – Active Faults Data
+doc_type: standard
+citation: ITA Standard S4262
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/S4262-ADA.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 202e4f95e6a1a5fb518b8fd1baf44d8261186e20aff7f51f6db974651ca71f3a
+effective_date: '2023-07-20'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Pages 13 of the PDF have no text layer (figures, blank pages or scanned forms) and add no
+  text here.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4262 – Active Faults Data (ITA Standard S4262)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4262 establishes data protocols for managing active fault information, aiding seismic hazard analysis, infrastructure safety, and public planning." The last page of the PDF (13) is blank (checked by rendering it), so it is listed as no_text_pages.
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:    S4262 –Active Faults Layer Standard
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Active Fault layer and data standard, which is part of the Hazards data
+   theme, is a critical source of information for resource land management, community
+   and economic development needs, infrastructure maintenance, research and
+   analysis, business development, public safety, and more. This standard provides the
+   active fault data for Idaho. When implemented, it will enable access to geometry and
+   attribute information about active faults in Idaho which will increase interoperability
+   between automated geographic information systems, and enable sharing and
+   efficient transfer of information for aggregation. Further, it will encourage
+   partnerships between government, the private sector, and the public to avoid
+   duplication of effort and ensure effective management of information.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCTS(S)
+
+   Any GIS Software, either desktop or online, capable of ingesting and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+   A statewide Active Fault dataset is a critical source of information as stated under ‘II
+   Rationale’ in this standard. A data exchange standard supports the use and
+   dissemination of the data, will improve collaboration, and encourage use of this
+   dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   Any GIS Software, either desktop or online, capable of ingesting and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   Data will be shared in accordance with ITA Standard S4250 –Geographic
+   Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+   The format, content, and development of this standard adhere to ITA Policy P5030 -
+   Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+   Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+   Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   07/24/2025 - Revised for ADA compliance
+
+   07/20/2023 – Standard Presented to the IGC-EC                                          2
+
+Active Faults
+
+                                  STATE OF IDAHO
+
+                Idaho Active Faults Data Standard
+                               Part of the Hazards Theme
+
+                                          Version 1
+                                   Effective July 20, 2023
+
+                    Developed by the Hazards Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4064
+contact@its.idaho.gov
+
+Active Faults                                                          3
+
+CONTENTS
+1. 5
+  1.1. 5
+  1.2. 5
+  1.3. 5
+  1.4. 6
+  1.5. 6
+  1.6. 7
+2. 7
+  2.1. 7
+  2.2. 7
+  2.3. 7
+  2.4. 8
+  2.5. 8
+     2.5.1. 8
+     2.5.2. 8
+     2.5.3. 8
+     2.5.4. 8
+     2.5.5. 8
+     2.5.6. 9
+     2.5.7. 9
+     2.5.8. 9
+     2.5.9. 9
+     2.5.10.  9
+     2.5.11.  9
+     2.5.12.  10
+     2.5.13.  10
+3. 10
+  3.1. 10
+  3.2. 10
+  3.3. Error! Bookmark not defined.
+  3.4. 11
+Appendix A: References .............................................................................................................. 11
+Appendix B: Glossary.................................................................................................................. 12
+
+Active Faults                                                                                                                          4
+
+1. Introduction to the Active Fault Data Standard
+
+   A statewide Active Fault layer is a critical source of information for resource land
+   management, community and economic development needs, infrastructure maintenance,
+   research and analysis, business development, public safety, and more. This standard provides
+   the active fault data for centralized access and stewardship information. This standard applies
+   to the Active Fault element of The Idaho Map (TIM). When implemented, it will enable
+   access to geometry and attribute information about active faults in Idaho. It will increase
+   interoperability between automated geographic information systems and enable sharing and
+   efficient transfer of information for aggregation. Further, it will encourage partnerships
+   between government, the private sector, and the public to avoid duplication of effort and
+   ensure effective management of information resources.
+
+   An Active Fault Standard is intended to facilitate integration and sharing of up-to-date Active
+   Fault data and enhance the dissemination and use of Active Fault information. This standard
+   does not instruct on how Active Fault databases are designed for internal use.
+
+   This standard was developed by the Hazards Technical Working Group, a subgroup of the
+   Idaho Geospatial Council – Executive Committee (IGC-EC). This standard will be reviewed
+   on an annual basis and updated as needed.
+
+   1.1. Mission and Goals of the Standard
+
+   The Active Fault Standard supports a statewide dataset that is consistent with applicable state
+   and national standards. It establishes the minimum attributes and geospatial database schema
+   for the Active Fault Framework. The Standard will communicate with, and may have similar
+   attributes to, other Idaho Framework data standards. It encourages all Idaho-based agencies
+   with geospatial Active Fault data to contribute to Active Fault Framework.
+
+   The Active Fault Framework will be appropriately shared and beneficial to all. The fields in
+   the Active Fault Data Exchange Standard will be general enough to incorporate basic
+   information without requiring major changes in internal data models. This standard allows
+   for expansion to a more complex data structure and schema.
+
+   1.2. Relationship to Existing Standards
+
+   This Active Fault Exchange Standard relates to existing standards as follows:
+
+       ● No other standards apply.
+
+Active Faults                                                                                     5
+
+   1.3. Description of the Standard
+   This standard describes the vision and geospatial data structure of a Active Fault Framework
+   in the state of Idaho. This standard is devised to be:
+
+        ●   Simple, easy to understand, and logical
+        ●   Uniformly applicable, whenever possible
+        ●   Flexible and capable of accommodating future expansions
+        ●   Dynamic in terms of continuous review
+
+   1.4. Applicability and Intended Uses
+
+   This standard applies to the Active Fault element of the Hazards theme of The Idaho Map
+   (TIM).
+
+   When implemented this standard will enable access and exchange of the data. A predictable
+   standard will support data collection, improve data collaboration, help identify and report
+   errors and allow agencies to incorporate this data into their own data products.
+
+   This standard does not consider data sharing agreements, contracts, transactions, privacy
+   concerns, or any other issues relating to the acquisition and dissemination of Active Fault
+   data.
+
+   1.5. Standard Development Process
+
+   The Hazards Technical Working Group is a voluntary group of private, city, county, tribal,
+   state, and federal representatives. In 2023, the Active Fault Lead began developing the
+   standard for the Active Fault Framework using the standard development automation tools
+   developed by the IGC-EC to generate the first draft of the Standard. This standard was then
+   reviewed and edited by the members of the Hazards Technical Working Group.
+   After initial development, the draft standard document was shared with the Idaho Geospatial
+   Council Executive Committee (IGC-EC) and the Idaho Geospatial Council (IGC) in
+   accordance with the review and approval process described in ITA Policy P5030 Framework
+   Standards Development.
+
+Active Faults                                                                                    6
+
+   1.6. Maintenance of the Standard
+
+   This standard will be revised on an annual basis as needed and in accordance with the ITA
+   Policy P5030 Framework Standards Development.
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+
+   The scope of the Active Fault Data Exchange Standard is to describe a statewide layer which
+   identifies the physical locations and attributes of Active Faults in Idaho.
+
+   2.2. Need
+
+   Active Faults are a key dataset needed for resource land management, community and
+   economic development needs, infrastructure maintenance, research and analysis, business
+   development, public safety, and more. This standard provides the active fault data for
+   centralized access and stewardship information. This standard provides the foundation to
+   aggregate Active Fault data for centralized access and stewardship information.
+
+   Active Fault data is needed because The Active Fault Standard supports a statewide dataset
+   that is consistent with applicable state and national standards. It establishes the minimum
+   attributes and geospatial database schema for the Active Fault Framework. The standard will
+   communicate with, and may have similar attributes to, other Idaho Framework data
+   standards. It encourages all Idaho-based agencies with geospatial active fault data to
+   contribute to the Active Fault Framework.
+
+   2.3. Participation in the Standard Development
+
+   The development of the Active Fault Data Exchange Standard adheres to the ITA Policy
+   P5030 - Framework Standards Development. The Hazards Standard Team tasked with
+   development, invite input and comments from private, county, state, and federal
+   organizations. As the standard is reviewed in accordance with Policy P5030 requirements,
+   there will be opportunity for broad participation and input by stakeholders. The process will
+   be equally broad for input on updates and enhancements to the standard. As with all Idaho
+   Framework standards, public review and comment on the Active Fault Data Exchange
+   Standard is encouraged.
+
+Active Faults                                                                                      7
+
+   2.4. Integration with Other Standards
+
+   The Active Fault Data Exchange Standard follows the same format as other Idaho geospatial
+   framework data standards. The Active Fault standard may contain some of the same
+   attributes as other framework standards and may adopt the field name, definition, and domain
+   from the other standards to promote consistency.
+
+   2.5. Technical and Operation Context
+
+       2.5.1. Data Environment
+
+       The data environment is a digital vector line with a specific, standardized set of attributes
+       pertinent to the Active Fault Framework. Active Fault data shared under this standard
+       must be in a format supporting vector lines.
+
+       2.5.2. Reference Systems
+
+       The Active Fault Framework is published in the WGS 1984 Web Mercator coordinate
+       system.
+
+       2.5.3. Global Positioning Systems (GPS)
+
+       Some data provided might contain geometry from GPS methods, and the provided
+       metadata should describe this, if applicable. Some data provided might contain geometry
+       from GPS methods, and the provided metadata should describe this, if applicable.
+
+       2.5.4. Interdependence of Themes
+
+       Active Faults has geometry data may be coincident with other framework data, such as
+       Shake Map data layer(s). Attributes found in the Active Fault layer are related to the
+       attributes found in Shake Map data layer(s). At this time, there is no enforcement of
+       coincidence or topology relationships between Active Faults Framework and other
+       Framework elements.
+
+       2.5.5. Encoding
+
+Active Faults                                                                                      8
+
+       When data is imported into and exported from the Active Fault Framework, encoding
+       will take place to convert data formats and attributes.
+
+       2.5.6. Resolution
+
+       No specific requirements for resolution are specified in this standard. Resolution will be
+       documented in the metadata. Resolution will be documented in the metadata.
+
+       2.5.7. Accuracy
+
+       No specific requirements for accuracy are specified in this standard. Accuracy will be
+       documented in the metadata.
+
+       2.5.8. Edge Matching
+
+       No edge matching is required between jurisdictions, or between this and other framework
+       layers.
+
+       2.5.9. Unique Identifier
+
+       There unique identifier is the fault_id
+
+       2.5.10. Attributes
+
+       Attributes for public and intergovernmental distribution are described in Section 3 of this
+       standard.
+
+       2.5.11. Stewardship
+
+       Perpetual maintenance and other aspects of lifecycle management are essential to the
+       Active Fault Framework. Details of stewards, their roles and responsibilities, and
+       processes are set forth, or are being planned to set forth in an Active Fault Framework
+       Stewardship Plan and related documents.
+
+Active Faults                                                                                       9
+
+        2.5.12. Records Management and Archiving
+
+        Details of records management and archiving for Active Fault Framework should be set
+        forth in an Active Fault Framework Stewardship Plan and related documents.
+
+        2.5.13. Metadata
+
+        The Active Fault Framework metadata will describe the methods used to update and
+        aggregate the individual Active Fault data contributions, processes or crosswalks
+        performed, definition of attributes, and other required information. This metadata will
+        conform to the metadata standards as set out in ITA Standard S4220 Geospatial Metadata.
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+
+   The geometry of the features in the Active Fault Framework is vector line.
+
+   3.2. Optional Graphic Data Elements
+
+   Not applicable.
+
+   3.3. Standard Attribute Schema
+
+ Field Name      Data Type     Length          Description                   Examples
+ fault_name      Text          100       Name of the fault          Beaverhead fault
+                                         Name of the section in a
+ section_name    Text          100       fault                      Lemhi section
+                                         Numerical identification
+ fault_id        Text          10                                   603
+                                         of the fault
+                                         Coded identification of
+ section_id      Text          1                                    a
+                                         the section name
+                                         State where fault
+ Location        Text          100                                  Idaho
+                                         primarily resides
+                                         Confidence of fault
+ linetype        Text          50                                   Inferred, Well Constrained
+                                         mapping
+                                         Age of last fault          late Quaternary,
+ age             Text          50
+                                         movement                   undifferentiated Quaternary
+                                         Angle of the fault with
+ dip_direct      Text          50                                   W
+                                         respect to the surface
+
+Active Faults                                                                                     10
+
+ Field Name        Data Type     Length          Description                      Examples
+ slip_rate         Text          100       Average distance traveled     Less than 0.2 mm/yr
+                                           Relative motion of the
+                                           rock on each side of the
+ slip_sense        Text          50                                      Normal
+                                           fault concerning the other
+                                           side
+                                           Scale at which the fault is
+ scale             Text          50                                      1:250,000
+                                           mapped
+                                           Fault class category as
+ class             Text          50        defined by Crone and          A
+                                           Wheeler (2000)
+ certainty         Text          200                                     Good, Poor
+                                           Average strike of fault or
+ strike            Text          50                                      N8˚E
+                                           fault section
+                                           Length of fault in
+ fault_leng        Text                                                  55
+                                           kilometers
+ cooperator        Text          200       Cooperating agency            U.S. Geological Survey
+                                           Earthquake associated
+ earthquake        Text          200                                     Borah Peak earthquake
+                                           with the fault
+ review_dat        Date                    Date of review                11/9/2010
+                                           URL of the associated         https://earthquake.usgs.gov/
+                                           archived fault report         cfusion/qfault/
+ fault_url         Text          254                                     show_report_AB_archive.cfm
+                                                                         ?
+                                                                         fault_id=601&section_id=b
+                                           Value composed of line
+                                           type and age for display
+ symbology         Text          100                                     historic Well Constrained
+                                           purposes in web
+                                           application
+                                           Reference ID for linking
+ ref_id            Text          50        associated citations with     601b
+                                           the faults
+ Shape_Length      Double
+ archive_pdf       Text          255
+
+   3.4. Data Quality
+
+   Data quality considerations for Active Faults include:
+          a) All Active Faults should have Active Fault IDs.
+
+Appendix A: References
+
+Active Faults                                                                                        11
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/P5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/S4220.pdf
+
+U.S. Geological Survey and Idaho Geological Survey, Quaternary fault and fold database for the
+United States. https://www.usgs.gov/natural-hazards/earthquake-hazards/faults
+
+Appendix B: Glossary
+
+See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+Active Faults                                                                               12
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Pages 13 of the PDF have no text layer (figures, blank pages or scanned forms) and add no text here.

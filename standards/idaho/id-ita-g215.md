@@ -1,0 +1,828 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-g215
+title: G215 – Risk Assessment
+doc_type: standard
+citation: ITA Guideline G215
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/g215.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 9f1225d5c9e4957d8498925ad280b088a2fe7f260eebfab9a296586b7cf36b46
+effective_date: '2002-06-19'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# G215 – Risk Assessment (ITA Guideline G215)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category 'G200 - Project Profile, Guidelines', a guideline (advisory, filed as a standard because the corpus has no guideline type; see the left-out notes). The library's own summary: "ITA Guideline G215 provides a structured risk assessment process, ensuring state agencies can identify and mitigate potential IT risks effectively."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE GUIDELINES – G200 PROJECT SUMMARY
+
+Category:    G215 – RISK ASSESSMENT
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Guideline
+IV. Procedure Reference
+V. Contact Information
+VI. Strategic Risk
+VII. Financial Risk
+VIII. Project Management Risk
+IX. Technology Risk
+X. Change Management / Operational Risk
+      Revision History
+
+I. DEFINITION
+
+   Risk assessment is one component of "best" project management practices and
+   is the analysis and ongoing management of key elements critical to implementing a
+   successful information systems project.
+
+II. RATIONALE
+
+   These guidelines are intended to assist Agencies in the evaluation and preparation
+   of the risk assessment portion of their Agency IT Project Plan in conformance with
+   ITA Policy 2040 – Risk Assessment. These guidelines represent general categories
+   to be considered in completing a risk assessment analysis. Agencies may use these
+   checklists as a staring point in their internal risk assessments and/or internal control
+   evaluations. However, these sample questionnaires and checklists may need to be
+   expanded for your Agency.
+
+III. GUIDELINE
+
+   The completion of a Risk Assessment Analysis for a large-scale IT Project should be
+   noted in the “Risk Assessment” section of the IT project profile (See G210 – IT
+   Project Profile).
+
+   The following categories represent critical elements of “best” project management
+   practices. Careful consideration of these elements can be used as a guideline for
+   the preparation of an Agency IT Project Risk Assessment Analysis:
+
+G215 – Risk Assessment                                                          Page 1 of 16
+
+   1. User Involvement – User involvement relates to the need to extensively involve
+      those who will be using the computer system in all aspects of planning and
+      development, especially when assessing needs. Experienced users should be
+      included on the executive steering committee and on the project team.
+      Administrators and managers often do not have a detailed knowledge of the day-
+      to-day needs of the people who actually use the system.
+
+   2. Executive Management Support – The need to obtain top management support
+      for, or sponsorship of, a project is critical. Without this support, the project may
+      not have adequate staffing, or it may become overwhelmed by disagreements
+      between departments. The project manager should also receive and review
+      regular progress reports with the executive sponsor to quickly identify and avoid
+      problems.
+
+   3. Clear Statement of Requirements – A statement of requirements begins with
+      performing a thorough needs assessment involving experienced end-users. If
+      possible, the needs assessment should be done by an independent consultant or
+      in-house experts and not by someone trying to sell a product. It should involve a
+      thorough review of existing systems and a number of decisions regarding exactly
+      what is desired of the new system. Clearly defining the Agency’s needs will
+      reduce the number and magnitude of project changes and revisions once the
+      project has begun. A new system may be just one solution to improving the
+      existing process. Available existing software packages should be evaluated to
+      determine if one might possibly fit Agency needs. Vendors may have created a
+      system for another state, which may be modified at much less expense to fill the
+      needs of the State of Idaho. This needs assessment should then be used to set
+      detailed project specifications in the Request For Proposals and in the final
+      contract. These should include project milestones (deliverables) and timeframes
+      to be met by the contractor prior to releasing payment. They should also include
+      realistic penalties for contractor non-performance or delays. In addition, they
+      should specify all acquisition standards for computerized systems adopted by the
+      State of Idaho. Contract language should be very specific and contain sufficient
+      detail to specify exactly what the contractor is to provide. Proposals should be
+      compared to the Agency’s statement of requirements rather than other proposals
+      to determine a best fit. Contracts should be fixed price products rather than “time
+      and materials.” This will help control project costs and ensure that the product
+      received is the product desired.
+
+   4. Proper Planning – Proper planning includes the use of a systematic methodology
+      to detail a step-by-step sequence of events which, when completed, may result in
+      a successfully implemented system. Proper planning also involves providing for
+      adequate resources and infrastructure. This includes planning for adequate time,
+      personnel, building capacity, equipment capacity, and money, and should be
+      addressed by an experienced full-time project manager. A full-time project
+      manager and a detailed project plan are the keys to holding a good plan
+      together.
+
+G215 – Risk Assessment                                                          Page 2 of 16
+
+   5. Realistic Expectations – This relates to the need for each member of the steering
+      committee to understand exactly what the new technology is capable of, what the
+      project team is capable of, and the cost of putting these two together to form a
+      system capable of meeting the needs of the Agency. This may be achieved by
+      conferring with an independent contractor or through research by technically
+      competent in-house staff. In addition, it also involves the realistic budgeting of
+      both time and money. A detailed project plan and vendor contract addressing
+      specific measurable deliverables and milestones will help everyone maintain
+      realistic expectations for both the project team and the system. These two items
+      can help to address unrealistic expectations up front before they become a
+      problem. A loose contract provides a greater opportunity for a vendor to promise
+      things they cannot deliver, and then receive payment for not delivering them.
+      Remember, if it is not in the contract, it does not exist. Following an organized,
+      established methodology will also help filter wishes, dreams, dazzling promises,
+      and reality into a finely tuned project plan, minimizing the risks of project
+      challenges and failure.
+
+   6. Smaller Project Milestones – Break the project up into smaller, more manageable
+      pieces or phases. These pieces or phases are made up of agreed upon sets of
+      deliverables. Deliverables should be measurable so that each party to the
+      project may clearly determine the completion of each phase or milestone.
+      Deliverables may be a wide variety of things such as program features, lines of
+      code, or specific load-handing capabilities. Following these guidelines may
+      prevent what is sometimes phrased as “biting off more than you can chew.”
+      Although some Agencies have managed to pull off “big bang” implementations
+      (all components at one time), on average, projects with smaller project
+      milestones are less likely to fail or be racked with major problems.
+
+   7. Competent Staff – Staffing the project with individuals technically competent to
+      complete their assigned tasks is critical. Technical competence is achieved
+      through education and experience at working on projects with similar
+      technologies. Incompetent staff may cause project delays due to learning curve
+      issues. Vendors may also claim that incompetent staff affected their ability to
+      complete the project on time. Project staff must also be experienced and familiar
+      enough with similar technology to maintain it at the completion of the project.
+      Without this experience and familiarity, the system may become plagued with
+      problems after a working system is delivered.
+
+   The following questions are intended to help you evaluate the risk related to your
+   project. The evaluation of risk for your project should be an on-going function of
+   your project management.
+
+G215 – Risk Assessment                                                        Page 3 of 16
+
+IV. PROCEDURE REFERENCE
+
+   Policies for risk assessment are detailed in ITA Information Technology Enterprise
+   Policies P2040 – Risk Assessment.
+
+V. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+VI. STRATEGIC RISK
+
+   1. To what degree is the project's purpose aligned with the Agency's overall
+      business strategy?
+
+      This question assesses the degree of alignment between the project objectives
+      and the Agency's business objectives.
+
+      A. Project objectives have been clearly documented and can be linked to
+         specific Agency business objectives;
+
+      B. The project direction is consistent with the business strategy, but the
+         relationship has not been clearly documented;
+
+      C. Project objectives are not clearly related to the business strategy; or
+
+      D. Some or all project objectives may be in conflict with the stated strategy for
+         the business.
+
+   2. How clearly are the expected project outcomes defined?
+
+      This question is concerned with the way in which project objectives have been
+      set. Vague objectives increase the probability that project outcomes will vary
+      from the expectations/input of the project supervisors.
+
+      A. Expected outcomes are well defined;
+
+      B. Expected outcomes are minimally defined;
+
+      C. Overall project outcomes are broadly defined; or
+
+      D. Outcomes are not clearly defined or contain little detail.
+
+   3. Have metrics been established to verify the successful completion of each
+      project phase?
+
+      This question addresses the need to have a means of measuring project
+      completion. Without these means, risk is increased.
+
+G215 – Risk Assessment                                                         Page 4 of 16
+
+       A. Metrics have been established for each phase of the project;
+
+       B. Metrics have been established for the first phase of the project;
+
+       C. Metrics to determine the success of the total project have been established,
+          but not specific to a phase; or
+
+       D. No metrics have been established to ensure successful project completion.
+
+   4. To what extent are senior management committed to the project and its
+      outcomes?
+
+       The project is at much risk without the commitment from the senior management
+       team.
+
+       A. Senior management are fully committed and have openly endorsed the
+          project;
+
+       B. Senior management agree with the need for the project, but it does not
+          represent their highest priority;
+
+       C. Senior management does not have a consensus regarding the project; or
+
+       D. The consensus of senior management is that the project is not warranted.
+
+   5. How severe would be the result of late delivery?
+
+       This question probes the urgency to which the new system is needed to perform
+       the business processes.
+
+       A. No noticeable disruption of the business;
+
+       B. Some disruption to limited, non-critical areas of the business;
+
+       C. Some disruption to critical, time-valued areas of the business; or
+
+       D. Major disruption to the business because the new system is critical to the
+          core business functions.
+
+VII.   FINANCIAL RISK
+
+   1. What is the end-to-end expenditure that this project will require?
+
+       This question assesses the overall financial risk to the State for the entire project
+       (including all phases).
+
+       A. Less than $10 M;
+
+       B. Between $10 M and $20 M;
+
+G215 – Risk Assessment                                                           Page 5 of 16
+
+      C. Between $20 M and $40 M; or
+
+      D. Greater than $40 M.
+
+   2. Are the cost-benefits clearly defined with a documented write-up?
+
+      This question will gauge the economic feasibility of the project. Without clear
+      financial need for the proposed system, there is a risk that management will not
+      see the need for the project.
+
+      A. Yes, a cost-benefit analysis has been performed by a qualified, experienced
+         resource;
+
+      B. Yes, a cost/benefit analysis has been performed by an entity not necessarily
+         having experience;
+
+      C. Cost-benefits have been informally derived but not clearly documented; or
+
+      D. A cost-benefit analysis has not yet been performed.
+
+   3. Is there a clearly defined payback for this system?
+
+      This measures the economic justification for a project. Projects with little or no
+      payback often get canceled.
+
+      A. There is a clearly defined payback and it is fully justified;
+
+      B. There is not a clearly defined payback, but the system is necessary
+         regardless (i.e., for public safety, etc.);
+
+      C. There is a payback period, but it is not clearly defined; or
+
+      D. There is neither a payback period nor apparent justification on the basis of
+         public safety.
+
+   4. What is the payback time for the project?
+
+      It is necessary to determine if the length of time to pay off the project investment
+      is short enough to justify continuing the project.
+
+      A. The payback period is within two (2) years;
+
+      B. The payback period exceeds two (2) years but is less than four (4) years;
+
+      C. The payback period will be greater than four (4) years; or
+
+      D. The payback period has not been quantified.
+
+   5. To what degree have existing expenditures met budgeted amounts?
+
+G215 – Risk Assessment                                                          Page 6 of 16
+
+        This question will assess the current budget performance to-date.
+
+        A. Existing expenditures have consistently been within budget amounts;
+
+        B. Most expenditures have been within the budget amounts, with a small
+           percentage exceeding budget amounts;
+
+        C. Some significant expenditures have exceeded budget amounts, with others
+           remaining within budget; or
+
+        D. Existing expenditures have consistently exceeded budget amounts, or clear
+           budgets have not yet been established.
+
+    6. Is the vendor well established in the business community, with a strong financial
+       background?
+
+        This question is intended to measure the vendor's viability in the community.
+
+        A. The vendor is well established and in good financial condition;
+
+        B. The vendor is well established, but financial condition is unknown;
+
+        C. The vendor has been established for less than two (2) years; or
+
+        D. The vendor is a startup business with little financial history.
+
+VIII.   PROJECT MANAGEMENT RISK
+
+    1. Does the project management team have relevant experience?
+
+        This question determines the degree of experience in dealing with similar-sized
+        projects.
+
+        A. Members of the project management team have experience leading projects
+           of similar size and complexity;
+
+        B. Members of the project management team have had exposure to projects of
+           similar size and complexity, but not in lead roles;
+
+        C. Members of the project management team have had limited exposure to
+           projects of similar size and complexity, and generally lack detailed
+           knowledge; or
+
+        D. Members of the project management team have no experience with projects
+           of similar size and complexity.
+
+    2. To what extent has a work plan been developed for the entire project lifecycle?
+
+G215 – Risk Assessment                                                           Page 7 of 16
+
+      This question determines if the proper resource levels have been ascertained
+      throughout the whole project.
+
+      A. A detailed work plan has been created using an industry-accepted
+         methodology and experience from projects of similar size and scope;
+
+      B. A work plan has been created using detailed project estimates, but not based
+         on a comparable project;
+
+      C. A work plan has been created using general areas of the project lifecycle, but
+         there is not a clear understanding yet of the needed resources; or
+
+      D. No work plan exists at this time.
+
+   3. To what degree have critical checkpoints and milestones been established for
+      this project?
+
+      This question determines if established checkpoints have been made for the
+      project, and will allow the project managers to more effectively reach project
+      milestones.
+
+      A. Clearly measurable and achievable milestones with firm dates have been
+         created throughout the entire project lifecycle;
+
+      B. Milestones, although not clearly measurable, with firm dates have been set
+         for part of the project;
+
+      C. Milestones have been created for the project but dates are not firmly set; or
+
+      D. No milestones or checkpoints exist at this time.
+
+   4. What is the total elapsed time of the project from start to finish?
+
+      Longer projects typically are at more risk than shorter ones. This is because
+      more influencing factors may be introduced throughout the life of the project.
+
+      A. 1 - 6 months;
+
+      B. 7 - 12 months;
+
+      C. 13 - 24 months; or
+
+      D. More than 24 months.
+
+   5. Have scope changes occurred which appear to exert pressure on schedule
+      demands?
+
+G215 – Risk Assessment                                                        Page 8 of 16
+
+      This question will determine if the business requirements of the project have
+      recently changed. Any such change can negatively impact the success of the
+      project.
+
+      A. No scope changes have occurred;
+
+      B. Yes, but only small changes have been made and have been well
+         documented;
+
+      C. Yes, significant scope changes have been made and have been well
+         documented; or
+
+      D. Yes, significant changes have been made and have not been clearly
+         documented.
+
+   6. To what degree have “open issues” been tracked and included as part of ongoing
+      management processes?
+
+      This question probes the level of management involvement in day-to-day
+      activities. Issue tracking is important so that unresolved issues do not pose a
+      threat to the success of the project.
+
+      A. There is a proven method of issue tracking and resolution currently in place,
+         which is widely used by all parties;
+
+      B. There is a method of issue tracking and resolution currently in place, which is
+         generally used by all parties;
+
+      C. Open issues are dealt with on an item-by-item basis and are not tracked
+         using a standard method; or
+
+      D. There is no clear issue tracking or resolution approach in use on the project.
+
+   7. Is the project development team organized and deployed to a single location?
+
+      The project contains more risk if the development sites are spread out in various
+      locations.
+
+      A. All development team members are together with daily interactions with the
+         users;
+
+      B. All development team members are co-located, but have limited user contact;
+
+      C. Development team members are in multiple locations but meet regularly; or
+
+      D. Development team is located off site and rarely get together as a whole.
+
+   8. To what degree are the development and user skill requirements defined?
+
+G215 – Risk Assessment                                                        Page 9 of 16
+
+      This question explores the level of detail to which skill requirements have been
+      defined.
+
+      A. Skill requirements with corresponding timeframe requirements have been
+         clearly documented for all phases of the project;
+
+      B. Skill requirements have been clearly documented for all phases of the project,
+         but do not include corresponding timeframe requirements;
+
+      C. Skill requirements are loosely defined for the project; or
+
+      D. Skill requirements are vague or not well defined for the project.
+
+IX. TECHNOLOGY RISK
+
+   1. Is there a plan for ensuring that deliverables meet the need of the users?
+
+      This question intends to evaluate whether or not users are sufficiently included in
+      the most important phase, final delivery.
+
+      A. There is a plan to ensure that the needs of the users are thoroughly met;
+
+      B. The plan for verification of user deliverables is nearly complete;
+
+      C. The plan for ensuring user deliverables is in the conceptual phase; or
+
+      D. There is no plan for ensuring that deliverables meet user needs.
+
+   2. Is there a system load test or other measures to ensure good system
+      performance (i.e., measures to test response time, system efficiency, etc.)?
+
+      This question measures system performance and the risk associated with failing
+      to test for performance.
+
+      A. There is a load test for system performance in accordance with accepted
+         industry standards;
+
+      B. There is a methodology for load testing, but some phases are not complete;
+
+      C. The load testing plans have been discussed, but are not in place at this time;
+         or
+
+      D. There are no plans for load testing the system.
+
+   3. How thoroughly have the technology options been evaluated?
+
+      This question explores how the options for all aspects of the hardware and
+      software environment have been selected.
+
+G215 – Risk Assessment                                                        Page 10 of 16
+
+      A. Experienced technical specialists performed a comprehensive evaluation of
+         options using a proven methodology;
+
+      B. Experienced technical specialists made recommendations based on prior
+         experiences;
+
+      C. Recommendations for the options were made by key functional personnel; or
+
+      D. A detailed evaluation has not yet been performed.
+
+   4. What is the knowledge of the proposed technology environment?
+
+      This question is concerned with the degree of knowledge available to the staff of
+      the chosen hardware and operating system.
+
+      A. The proposed platform is well understood by the staff, and any technical
+         difficulties that emerge are likely to be handled in-house;
+
+      B. There are parts of the platform that are very clearly understood, however,
+         aspects of the new platform will be seen for the first time;
+
+      C. The platform is not well known to the staff, but specialized expertise is readily
+         available from vendors or constituents; or
+
+      D. The platform is not well known to the staff, and specialized expertise is not
+         easily available.
+
+   5. Do the key technologies appear to be the appropriate foundation, given the
+      system design?
+
+      This question assesses the degree to which the chosen technologies will be
+      maintainable and upgradeable.
+
+      A. There is every reason to believe that the proposed technology represents a
+         solid foundation for the foreseeable future;
+
+      B. Certain components may reach the end of their lifecycle before the system
+         does, but there is a high probability that there will be an upgrade path for
+         replacement;
+
+      C. Certain components may reach the end of their lifecycle before the system
+         does, and there does not appear to be a logical upgrade path; or
+
+      D. Various components appear to have reached the end of their lifecycle and
+         more advanced technology exists in the market, or technology foundation has
+         yet to be determined.
+
+   6. How many existing computer systems must the project system interact with?
+
+G215 – Risk Assessment                                                        Page 11 of 16
+
+      This question addresses the number of different computer interfaces that must
+      be managed in order to complete the project.
+
+      A. A limited number of interfaces;
+
+      B. A moderate number of interfaces;
+
+      C. A large number of interfaces; or
+
+      D. The number of interfaces is not known.
+
+   7. To what extent will the new system enable de-installation of the existing system?
+
+      This question will assess the degree to which the proposed system replaces an
+      existing system process.
+
+      A. The new system will completely replace an existing system, or an existing
+         system does not exist;
+
+      B. The new system will be a new layer that will lead to the eventual replacement
+         of an existing system;
+
+      C. The new system will be a new layer and there is not a business case for the
+         elimination of any existing systems; or
+
+      D. The new system will be run in parallel to an existing system.
+
+   8. What is the vendor’s ability to implement the technology?
+
+      This question measures the risk associated with vendor experience or lack of it.
+
+      A. The vendor has successfully completed a number of previous
+         implementations;
+
+      B. The vendor has successfully completed some previous implementations (1-
+         3);
+
+      C. The vendor has limited experience with this technology; or
+
+      D. The vendor has not previously implemented this technology.
+
+X. CHANGE MANAGEMENT / OPERATIONAL RISK
+
+   1. How is the acceptance testing plan being developed?
+
+      This question explores the assumptions about the way in which testing has been
+      planned and conducted.
+
+G215 – Risk Assessment                                                      Page 12 of 16
+
+      A. Acceptance planning is being developed using an industry-accepted
+         methodology, with comprehensive input from user experts;
+
+      B. Acceptance planning is being developed by using an industry-accepted
+         methodology, with limited input from user experts;
+
+      C. Acceptance planning is being developed by using an approach based upon
+         prior experiences, but no formal methodology; or
+
+      D. Acceptance planning has not yet been completed.
+
+   2. Is the current operations organization prepared to support the new system?
+
+      This question assesses the degree to which the current operations unit can
+      support the new system.
+
+      A. Operations has significant experience in managing similar environments and
+         will require little or no training;
+
+      B. Operations has experience with similar environments but will probably require
+         some degree of training;
+
+      C. Operations has limited or no experience with the environment and will require
+         extensive training to be effective; or
+
+      D. Operations does not have the expertise required to manage the operations
+         and new resources will have to be hired or contracted.
+
+   3. Is the proposed hardware/software environment in production already within the
+      organization (i.e., mainframe, client server, middleware, etc.)?
+
+      This question addresses the additional problems that might be posed by
+      introducing new and possible unfamiliar facilities, as well as a new system.
+
+      A. The environment is in production and is well established;
+
+      B. The environment is currently in use in production, but not well established and
+         is subject to changes;
+
+      C. The environment is currently in use for development efforts, but has not yet
+         been established in production; or
+
+      D. Hardware/software environment is not currently in use.
+
+   4. How clearly defined are the system operating procedures (backups,
+      restart/recovery, etc.)?
+
+      This question evaluates the thoroughness of system documentation for
+      maintenance purposes.
+
+G215 – Risk Assessment                                                       Page 13 of 16
+
+      A. Well defined with easy, well documented, legible procedures;
+
+      B. Maintenance procedures exist and some documentation exists;
+
+      C. Maintenance procedures exist but documentation is limited; or
+
+      D. System maintenance procedures are not clearly defined or documented.
+
+   5. How severely would business be impacted by a system failure?
+
+      This question probes the reliance that the business will place upon the system
+      when it is operational.
+
+      A. Minimal impact – system is not critical to daily business functions;
+
+      B. Moderate impact – system is critical to business but a well documented,
+         automated contingency approach exists;
+
+      C. Significant impact – system is critical to the business and contingency plan
+         relies on work-around; or
+
+      D. Severe impact – system is critical to the business, and there is no well
+         documented contingency plan.
+
+   6. What will be the magnitude of change that the new system will impose upon the
+      users?
+
+      This question will determine how much change the system will inflict upon the
+      organization. The more change a project brings to the organization, the less
+      likely people are willing to accept it.
+
+      A. The new system will impose very little change, if any, upon the users;
+
+      B. The new system will change slightly the current daily operations of the users;
+
+      C. The new system will require significant changes by the users and will require
+         training; or
+
+      D. The new system will present an entirely new way for the users to complete
+         daily operations.
+
+   7. Are department staff willing to accept this change?
+
+      This question determines if the staff is positive and committed to accepting the
+      new system.
+
+      A. Yes – staff are well informed about the change and show strong enthusiasm;
+
+G215 – Risk Assessment                                                          Page 14 of 16
+
+      B. Probably – staff seem enthusiastic, but there has been no formal evaluation
+         of their enthusiasm or detailed knowledge of the change;
+
+      C. Unclear – only limited or informal feedback from staff have been received; or
+
+      D. No – firsthand feedback clearly indicates reluctance to the change.
+
+   8. Will staff numbers be reduced as a result of implementing the system?
+
+      This question determines if employees will be threatened by the new system. If
+      so, risk of users not accepting the system increases.
+
+      A. There will not be a reduction in staff as a result of the new system;
+
+      B. A small number of reductions is expected to isolated areas of the
+         organization;
+
+      C. Numerous reductions are expected at several levels of the organization; or
+
+      D. Staffing projections have not been completed.
+
+   9. Will multiple business organization units be affected by the new system?
+
+      This question will determine the number of business units that will be affected by
+      the new system. The more business units involved increases risk of the project.
+
+      A. There will only be one (1) business organization affected;
+
+      B. Multiple business units within the same Agency will be affected;
+
+      C. Multiple business units in several Agencies will be affected; or
+
+      D. Multiple business units across several levels of state government (e.g., state,
+         county, local) will be affected.
+
+   10. To what degree are changes to the current business processes being managed?
+
+      This question assesses how well changes to current processes have been
+      planned.
+
+      A. There is a well documented plan in place for the redesign of the changed
+         processes, with a detailed rollout schedule;
+
+      B. There is a well documented plan in place for the redesign of the changed
+         processes, but a detailed rollout schedule has not yet been developed;
+
+      C. New process changes have been considered, but are not clearly defined and
+         documented; or
+
+G215 – Risk Assessment                                                           Page 15 of 16
+
+        D. Process changes have not yet been considered.
+
+    11. What is the level of user involvement in the project?
+
+        This question measures the level of user involvement, with the notion that less
+        user involvement increases risk of success.
+
+        A. The users are involved and have a permanent presence on the staff;
+
+        B. The users are available for consultation and to provide functional advice;
+
+        C. The users are minimally engaged in the project and clarification of
+           requirements is difficult; or
+
+        D. The users are not involved in the project.
+
+ REVISION HISTORY
+
+   07/01/13 – Changed “ITRMC” to “ITA”.
+
+   6/16/09 – Added Procedure Reference, Contact Information and Revision History to
+   this guideline; changed the layout and deleted Timeline.
+
+11/15/2006 – Updated to reflect consistent language with ITA Policy P2040.
+
+8/25/2005 – Revised to remove references to a Risk Assessment Model.
+
+              Effective Date:      June 19, 2002
+
+ G215 – Risk Assessment                                                          Page 16 of 16
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,205 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maine
+id: me-oit-web-standards
+title: Web Standards
+doc_type: standard
+citation: MaineIT Web Standards
+authority_level: ''
+issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial
+  Services
+source_url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/WebStandards.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 20ef544cf5372670740e92367bdf1967b4f19c0c6a450839d2320425c0ccebf2
+effective_date: null
+source_version: 'Latest Revision Date: January 3, 2020'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Web Standards (MaineIT Web Standards)
+
+## At a glance
+
+Standards for the State's websites: consistent, accessible design and management across the enterprise.
+
+## Full text
+
+Maine State Web Standards
+Statement of Purpose
+The Web is one of the most important means by which the State communicates with the
+public. Often an agency's website is the only interface that a citizen or business has with
+a particular agency. As website usage by the public continues to grow, it is critical that
+Maine 's state websites present a professional, user-friendly, integrated portal to state
+information and services.
+
+All state websites must be accessible to the broadest possible audience and easy to
+understand and use.
+
+The Internet should be used to facilitate cost-effective and efficient business. This
+means that the Internet should be seen as a tool for streamlining agency business
+practices, completing transactions without paper, reducing the number of paper forms
+and incoming calls, answering commonly asked questions, etc. Maintaining standards for
+consistent website design and management across the enterprise is necessary to meet
+the needs of the public and to provide the best possible electronic services.
+
+Maine State's presence on the Internet must be professional, comprehensive, and
+coordinated.
+
+While eGovernment Services within the Office of the CIO and the InforME Governing
+Board will provide general coordination, the ultimate stewardship of Maine 's presence
+on the Internet rests with State agencies. It is each State agency's responsibility to
+contribute to a professional, appropriate, and coordinated presence for State of Maine
+on the Internet. The purpose of the State of Maine Web Standards is to:
+
+   •   Reinforce Maine.gov identity and make it clear to users they are on a Maine state
+       site
+   •   Provide consistency and continuity in website appearance
+   •   Improve the quality, usability and accessibility of State web sites and services for
+       the public
+   •   Ensure that critical state links appear on all agency sites
+   •   Integrate agency sites, web applications and the portal, to support the "one
+       government" approach and move away from bureaucratic separation of
+       information
+   •   Increase efficiency of website development and management by agencies
+
+Scope
+
+These standards apply to all Maine State Executive Branch agencies as well as those
+qualifying as semi-autonomous state agencies within 5 MRSA chapter 163. In addition,
+all sites and applications must comply with the Digital Accessibility Policy of the State of
+Maine (PDF) .
+
+Web Design and Content Requirements
+Web design standards support the state's goals for user-friendly, professional quality,
+and accessible websites with an integrated portal to state information and services. In
+order to meet the needs of the public and provide the best possible electronic service,
+web standards must be maintained for consistent design across the enterprise. The
+required templates have been designed to meet industry standards for browser
+compatibility, usability, accessibility and provide a consistent look, layout, and style.
+
+   •   Server-side Maine.gov header: Throughout the Maine.gov website, all pages will
+       display the standard Maine.gov header that easily establishes the site as part of
+       the State of Maine website and provides access to key state links. This header will
+       be a small sliver to appear across the top of all agency pages and will be applied
+       server-side by InforME to applicable sites on the state server. The header will
+       include the Maine.gov logo, state search, and links to statewide information such
+       as the state agency index, web policies, online services, and the Maine.gov home
+       page.
+   •   Design Templates: Agencies are required to use the standard agency website
+       design templates in accordance with the Maine.gov Style Guide. These templates
+       will provide a consistent layout and style across the entire Maine.gov
+       enterprise. All new and redesigned sites must use the templates and follow the
+       design standards. For existing sites, agencies must provide to the Office of
+       eGovernment Services an implementation date. The Templates are available
+       online (internal use only)
+       at http://www.maine.gov/webmasters/agency_template/index.html.
+   •   Style Guide: The Maine.gov Style Guide provides instructions and standards to
+       accompany the required state agency website templates. The Style Guide
+       provides detailed specification of the templates and instructions for using
+       them. Agencies are required to follow the standards and specifications in the
+       Style Guide for new and redesigned sites. For existing sites, agencies must
+       provide to eGovernment Services an implementation date. The Style Guide is
+       available online (internal use only)
+       at http://www.maine.gov/webmasters/agency_template/styleguide/index.html.
+   •   Contact Information: Each agency's website will have a "Contact Us" page easily
+       accessed from the home page. Contact information should include: Mailing
+       address, fax number, phone number, toll free number and TTY number if
+       available, and an email address or web response form.
+
+  •   Online Services: Each agency, when applicable, should have a page called "Online
+      Services" that includes links to any e-government or interactive applications in
+      which users can accomplish a transaction online with the agency.
+  •   Agency Information: Each agency will have an "About Us" or "About [Agency]"
+      page or section that describes the functions of the agency and may include but is
+      not limited to: the agency's mission, vision, or purpose; organizational structure;
+      staff; news releases; location; job opportunities.
+  •   Site Map/Search: Each site should include a site map and site search. Typically,
+      the site search and the Site Map link will be part of the Agency Header.
+  •   Page Titles: Each agency will use unique and descriptive page titles for each web
+      page.
+  •   Page Width: Agency web pages must be viewable without horizontal scrolling by
+      utilizing the formatting of templates provided by the standard style sheets in the
+      approved Maine.gov Templates.
+  •   Browser Compatibility: Externally-facing content must be compatible with the
+      current manufacturer-supported versions of Microsoft Edge, Mozilla Firefox,
+      Google Chrome, and Apple Safari. Internally-facing content must be compatible
+      with the current manufacturer-supported versions of Microsoft Edge. Web
+      content must not be dependent on the idiosyncrasies of any particular browser.
+      All features should remain minimally usable with the older versions of said
+      browsers. It is acceptable for some features to require a more recent browser
+      version or plug-in for the maximal effect. Nevertheless, web content should still
+      remain minimally usable even without the benefit of such an upgrade or plug-in.
+      Further, any such upgrade or plug-in must be easily available for download
+      without incurring any fees. It is acceptable for web content to have some minimal
+      differences in look and feel across the spectrum of browsers and versions.
+  •   Google Analytics: Maine.gov now tracks website usage using Google
+      Analytics. Analytics enables web coordinators to analyze site traffic using easy-
+      to-understand reports on visitors – where they come from, how they use the site,
+      and much more. A few things to note:
+          o Accounts are limited to web coordinators and are administered by request
+              to InforME.
+          o Google Analytics is a self-service tool; the Maine.gov Analytics access is
+              limited to user accounts, since each sub-domain is a subset of the overall
+              Maine.gov account. This means that some functionality, such as real-time
+              statistics, is unavailable.
+          o The Google Analytics tracking code is automatically added to site pages by
+              InforME. There is no need to change any code within existing web pages.
+
+Website Administration Requirements
+  •   Portal Updates: Agencies should notify the Maine.gov portal when new services
+      or sites are added, and when site structure is changed so that existing links to the
+      site might be affected. Contact creative@informe.org to report changes.
+
+   •   Site Management Plan: Agencies must develop a formal website management
+       plan. This plan should identify roles and responsibilities, site monitoring and
+       evaluation, content maintenance, oversight, user feedback and other aspects of
+       site management.
+   •   Webmaster Directory: All state employees who work on websites are required to
+       be listed in the webmaster directory. This directory is a vehicle to disseminate
+       information and maintain communication. Additionally, this directory is used to
+       enhance server security by requiring webmasters be in the directory in order to
+       obtain FTP access to the web server.
+   •   Website Coordinators: Each agency is required to designate one or two
+       individuals who will serve as the coordinators of all website activities for the
+       agency, including ensuring that all state web standards and policies are met. The
+       website coordinator will be the point of contact for both the eGov and InforME,
+       will be responsible for the agency's Web Management Plan and will be
+       responsible for keeping the agency's listings in the Webmaster Directory up to
+       date.
+   •   Approved Web Software: Drupal and the most current Adobe Dreamweaver
+       version and are the only approved web-authoring software for state webmaster
+       use. Agencies using other software must transition to Dreamweaver or Drupal.
+   •   Backups: Agencies must maintain current backups of their web pages.
+
+Resources
+   •   Maine.gov Style Guide
+   •   Template Kit
+   •   Management Plan Template
+
+Document Information
+Latest Revision Date: January 3, 2020 - To update Document Information.
+
+Waiver Process: See the Waiver Policy
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

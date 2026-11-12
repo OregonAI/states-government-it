@@ -1,0 +1,729 @@
+# Delaware seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Issue #26. Discovery 2026-11-11: the Delaware Code Online (Title 29 chapter list, chapter 90C and its four subchapter pages, Title 6 chapters 12A, 12B, 12C, 12D, 50C),
+# DTI's Standards and Policies library (38 rows) and its PDFs, the regulations.delaware.gov Administrative Code shell and the old static Administrative Code site, the Governor's
+# executive order list (two pages) and the Delaware Public Archives' order lists for every governor. The three executive orders are scans read by the OCR procedure.
+sources:
+- id: de-code-29-ch-90c-subch-i
+  sha256: "1dc137026d7093b8c9a72bfb722a84e4c647c08d0822e6397997be062ea2e543"
+  url: https://delcode.delaware.gov/title29/c090c/sc01/index.html
+  format: html
+  citation: 29 Del. C. ch. 90C, subch. I
+  title: 'Title 29, Chapter 90C, Subchapter I: General Provisions (§§ 9001C to 9016G)'
+  doc_type: statute
+  issuing_body: Delaware General Assembly; compiled and published by the Division of Research on the Delaware Code Online
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - funding
+  - cybersecurity
+  - data
+  found_via: https://delcode.delaware.gov/title29/c090c/index.html (the chapter page links its four subchapter pages; the full Title 29 chapter list was read at https://delcode.delaware.gov/title29/index.html)
+  why_relevant: 'The enabling statute for DTI and the State Chief Information Officer: intent (9001C), establishment of the Department (9002C), definitions including ''Agency'' and ''Technology'' (9003C), the Department''s powers including statewide technology policies, standards and guidelines (9004C), requirements for agency technology projects and the statewide data dictionary (9006C), the CIO (9007C, 9008C), budgeting and chargeback (9009C), the state information security requirements and the Security Operations Center (9011C), mandatory statewide technology contracts and standards for procurement (9016E), reallocation of technology personnel and equipment (9016F) and criminal background checks (9016G). The page prints the repealed sections 9005C (transferred), 9012C, 9013C and 9014C as headings with their repeal notes.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-code-29-ch-90c-subch-ii
+  sha256: "1a2d67be4603f1b5f10e4ca950aad0743702f462aa008079bf7203aa0cb632c0"
+  url: https://delcode.delaware.gov/title29/c090c/sc02/index.html
+  format: html
+  citation: 29 Del. C. ch. 90C, subch. II
+  title: 'Title 29, Chapter 90C, Subchapter II: Internet Privacy (§§ 9017C to 9022C)'
+  doc_type: statute
+  issuing_body: Delaware General Assembly; compiled and published by the Division of Research on the Delaware Code Online
+  tags:
+  - data
+  - digital-services
+  found_via: https://delcode.delaware.gov/title29/c090c/index.html (the chapter page links its four subchapter pages; the full Title 29 chapter list was read at https://delcode.delaware.gov/title29/index.html)
+  why_relevant: 'Obligations of every state agency that maintains a website: a privacy policy built to the elements in 9018C (DTI writes a model policy), posting it with a link (9019C), and no disclosure of a user''s personal information without consent except as 9021C allows.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-code-29-ch-90c-subch-iii
+  sha256: "d3c4df690de2e927cc61f790475ade27a3acaecd3a0f22c1228b94afa242993e"
+  url: https://delcode.delaware.gov/title29/c090c/sc03/index.html
+  format: html
+  citation: 29 Del. C. ch. 90C, subch. III
+  title: 'Title 29, Chapter 90C, Subchapter III: Cyber Security (§ 9030C)'
+  doc_type: statute
+  issuing_body: Delaware General Assembly; compiled and published by the Division of Research on the Delaware Code Online
+  tags:
+  - cybersecurity
+  - governance
+  found_via: https://delcode.delaware.gov/title29/c090c/index.html (the chapter page links its four subchapter pages; the full Title 29 chapter list was read at https://delcode.delaware.gov/title29/index.html)
+  why_relevant: Establishes the Delaware Cyber Security Advisory Council, chaired by the State CIO, with DTI providing staff and fiscal support (9030C). It is the statute that continues the council Executive Order 55 (2015) created.
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-code-29-ch-90c-subch-iv
+  sha256: "11b89f3c76ed3930b07ec4f35e4ace4486aa0c4e04af2a97b0f695fa04e78db6"
+  url: https://delcode.delaware.gov/title29/c090c/sc04/index.html
+  format: html
+  citation: 29 Del. C. ch. 90C, subch. IV
+  title: 'Title 29, Chapter 90C, Subchapter IV: Delaware Artificial Intelligence (AI) Commission (§§ 9041C to 9047C)'
+  doc_type: statute
+  issuing_body: Delaware General Assembly; compiled and published by the Division of Research on the Delaware Code Online
+  tags:
+  - ai
+  - governance
+  found_via: https://delcode.delaware.gov/title29/c090c/index.html (the chapter page links its four subchapter pages; the full Title 29 chapter list was read at https://delcode.delaware.gov/title29/index.html)
+  why_relevant: 'The AI statute for state agencies: the Delaware AI Commission, placed within DTI with the CIO providing staff, recommends statewide processes, principles and guidelines for executive, legislative and judicial agencies on the use of AI and conducts an inventory of generative AI use in those agencies (9041C, 9044C). Defines ''Artificial Intelligence'' and ''Generative AI'' (9042C); annual report (9047C). The page''s head reads ''Expires July 17, 2034, pursuant to 84 Del. Laws, c. 307, § 3''. The commission member change of 85 Del. Laws, c. 17 is in the codified text.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-code-6-ch-12b
+  sha256: "4569af46ea48a5fab98d9f066910912b36a9ba867ebb9170d27d290e3c04052e"
+  url: https://delcode.delaware.gov/title6/c012b/index.html
+  format: html
+  citation: 6 Del. C. ch. 12B
+  title: 'Title 6, Chapter 12B: Computer Security Breaches (§§ 12B-100 to 12B-104)'
+  doc_type: statute
+  issuing_body: Delaware General Assembly; compiled and published by the Division of Research on the Delaware Code Online
+  tags:
+  - cybersecurity
+  - data
+  found_via: Cited by DTI's State of Delaware Information Security Policy (SE-ESP-001) and Cloud Services policy (SE-CLD-001) and agreement; page at https://delcode.delaware.gov/title6/c012b/index.html
+  why_relevant: The breach statute DTI's cloud policy and agreement tell providers to follow ('6 Del. C. §12B-100 et seq.'). It binds 'any person who conducts business in this State', and 12B-101(6) defines 'Person' to include 'government; governmental subdivision, agency, or instrumentality', which is why it is held; whether a state agency 'conducts business' is the owner's call (see the left-out record).
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-eo-markell-20
+  url: https://archivesfiles.delaware.gov/Executive-Orders/Markell/Markell_EO20.pdf
+  format: pdf
+  citation: Del. Governor Markell, Exec. Order No. 20
+  title: More Effectively Utilizing Information Technology Resources to Drive Cost Savings in State Government
+  doc_type: executive_order
+  issuing_body: Governor of Delaware (Jack A. Markell)
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - funding
+  found_via: https://archives.delaware.gov/executive-orders/governor-jack-markell/ (row 20, dated August 27, 2010)
+  why_relevant: Directs DTI to review each Executive Branch Agency for IT consolidation, centralize IT funding with OMB, write policies for managing IT vendors and a state-wide rate card, and review any IT purchase over $10,000 before a purchase order or contract. No rescission was found; the Public Archives list carries no status column (see the left-out record).
+  jurisdiction: delaware
+  recheck: monthly
+  stub: true
+  stub_reason: "Markell_EO20.pdf (3 pages) is a scan: each page is one 200 dpi image under a text layer that Adobe Paper Capture made (pdfimages and pdfinfo, 2026-11-11). The shared OCR procedure (src/ingest_ocr.py) runs ocrmypdf without --force-ocr or --skip-text and stops on such a page with 'PriorOcrFoundError: page already has text!' (ingest run 2026-11-11, ocrmypdf exit 6). The embedded layer was not used: it carries recognition errors (for example \"State' s General Fund\" with a space inside the possessive) and is not a human-verified reading. Needs a shared change (see the PR body: an `ocr_force` seed key or --skip-text)."
+- id: de-eo-carney-18
+  url: https://archivesfiles.delaware.gov/Executive-Orders/Carney/Carney_EO18.pdf
+  format: pdf
+  citation: Del. Governor Carney, Exec. Order No. 18
+  title: Delaware Open Data Council to Promote a More Open, Accountable and Effective Government
+  doc_type: executive_order
+  issuing_body: Governor of Delaware (John C. Carney)
+  tags:
+  - data
+  - governance
+  found_via: https://archives.delaware.gov/executive-orders/governor-john-carney/ (row 18, dated February 12, 2018)
+  why_relevant: Continues the Delaware Open Data Council, co-chaired by the State CIO and the Director of the Government Information Center, to recommend standards and policies to DTI and the cabinet agencies on data strategy, open data and data sharing, and requires agencies to inventory and publish datasets on the Open Data Portal. Its paragraph 10 rescinds Executive Order 57 of January 27, 2016 (Markell).
+  jurisdiction: delaware
+  recheck: monthly
+  stub: true
+  stub_reason: "Carney_EO18.pdf (3 pages) is a scan: each page is one 200 dpi image under a text layer that Adobe Paper Capture made (pdfimages and pdfinfo, 2026-11-11). The shared OCR procedure (src/ingest_ocr.py) runs ocrmypdf without --force-ocr or --skip-text and stops on such a page with 'PriorOcrFoundError: page already has text!' (ingest run 2026-11-11, ocrmypdf exit 6). The embedded layer was not used: it carries recognition errors ('Counci l', '20 18') and is not a human-verified reading. Needs a shared change (see the PR body: an `ocr_force` seed key or --skip-text)."
+- id: de-eo-hall-long-3
+  url: https://archivesfiles.delaware.gov/Executive-Orders/Hall-Long/Hall-Long-EO003.pdf
+  format: pdf
+  citation: Del. Governor Hall-Long, Exec. Order No. 3
+  title: Creation of the Delaware Commission on the Social Drivers of Health
+  doc_type: executive_order
+  issuing_body: Governor of Delaware (Bethany A. Hall-Long)
+  tags:
+  - ai
+  - data
+  - governance
+  found_via: https://archives.delaware.gov/governor-hall-long/ (row 3, dated January 17, 2025; the Public Archives list for the 14 days Hall-Long served as Governor has three orders)
+  why_relevant: 'The one executive order found that is about AI in state programs: it establishes a Commission appointed by the Governor ''to address and recommend solutions to facilitate the integration of artificial intelligence (AI) technology and data-driven programs'' for health, housing, labor and vulnerable populations, with a representative of the Delaware Artificial Intelligence Commission as a member, and names an AI-driven Smart Food Program app as a priority project. Owner decisions: it is a health and social-policy commission that uses AI as a tool, and no rescission or later status was found. Scan (a copier''s output with a text layer) read by the two-engine OCR procedure.'
+  jurisdiction: delaware
+  recheck: monthly
+  stub: true
+  stub_reason: "Hall-Long-EO003.pdf (5 pages) is a scan from a Canon copier (Creator 'Canon iR-ADV C5840 PDF', page images and masks, pdfimages 2026-11-11) under a text layer. The shared OCR procedure (src/ingest_ocr.py) runs ocrmypdf without --force-ocr or --skip-text and stops on such a page with 'PriorOcrFoundError: page already has text!' (ingest run 2026-11-11, ocrmypdf exit 6). The embedded layer was not used: it carries recognition errors ('I 0.7%', '(Al)' for '(AI)', signature noise) and is not a human-verified reading. Needs a shared change (see the PR body: an `ocr_force` seed key or --skip-text)."
+- id: de-dti-0042-02
+  sha256: "e86e20a5f608644ccfd3f432138541f200585ac9d29b0b71508b22098cffb8cd"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/AcceptableUsePolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy DTI-0042.02
+  title: Acceptable Use Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: DTI-0042.02
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Access')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Access''. Synopsis as printed: Guide Behaviors in Using the State’s Communications and Computer Systems.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-ac-dig-001
+  sha256: "15f6ad331cab0e1e4392fb6deb06dea4003ae53855215684e24471cec63ec1fb"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Digital%20Accessibility%20Policy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy AC-DIG-001
+  title: Digital Accessibility Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - digital-services
+  identity_text: AC-DIG-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Access')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Access''. Synopsis as printed: This policy contains scope and technical requirements for State of Delaware agencies to ensure accessibility and usability for all digital information by individuals with disabilities.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-ot-ai-001
+  sha256: "a3ec659c7ac29aefe05b082a1af1e47918dd6f7b1df556434a7ce377333f7214"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Generative%20Artificial%20Intelligence%20Policy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy OT-AI-001
+  title: Generative Artificial Intelligence Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - ai
+  - governance
+  - data
+  identity_text: OT-AI-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Access')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Access''. Synopsis as printed: Ensure the legal and ethical use of Generative Artificial Intelligence.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-ac-soc-001
+  sha256: "c7f67679929f7f00d1cb65d1df0d423d711ad13abf45c57c6a1db4e5bb15d637"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/SocialMediaPolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy AC-SOC-001
+  title: Social Media Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - digital-services
+  - governance
+  identity_text: AC-SOC-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Access')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Access''. Synopsis as printed: Provide guiding principles for conduct by State Employees who will use Social Media and Social Media Platforms to engage with customers on behalf of the State of Delaware.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-esp-serv-001
+  sha256: "daf5ed9fb40cf8d998721899dc690f50bf437a13c2f0f427b6947ec709ca29b7"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Enterprise%20Services%20Policy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy ESP-SERV-001
+  title: Enterprise Services Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - governance
+  - cloud-resilience
+  identity_text: ESP-SERV-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Application')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Application''. Synopsis as printed: Provide standardized services for organizations in the State and guidance in the use of other solutions. Robust and reliable access to common solutions is key to delivering government services.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-pl-off-001
+  sha256: "c4e58dfd2980f4ec9a438d100f25d975b04ee37667bfdd543407d6027465048c"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/OffshoreITStaffingPolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy PL-OFF-001
+  title: Offshore IT Staffing
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - procurement
+  - governance
+  identity_text: PL-OFF-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Application')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Application''. Synopsis as printed: Establish Guidelines for use of offshore IT staffing.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-in-dataclass-001
+  sha256: "09e7d94e9eb9f09cb70ab85ad81c163c019075db2ca13cbdc986d6af7b438f59"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/DataClassificationPolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy IN-DataClass-001
+  title: Data Classification Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - data
+  - cybersecurity
+  identity_text: IN-DataClass-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Information')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Information''. Synopsis as printed: The goal of this policy is to enhance the State’s ability to protect data and information through data classification.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-oth-psp-001
+  sha256: "c807dd5e234cfb60c809cb8f3a7765b9ef41ee788682d74741c60eaa7be80143"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Partner%20Services%20Policy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy OTH-PSP-001
+  title: Partner Services Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - governance
+  identity_text: OTH-PSP-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Other')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Other''. Synopsis as printed: Establishes DTI’s framework for delivery of technology services to State Agencies'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-pi-erec-001
+  sha256: "c63ecca1ac2686f02a9fd4ee7a8d2fba785664eb5d2f3b9724de1d981ceec9bf"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/eRecordsRequestPolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy PI-EREC-001
+  title: Disclosure of Individual User e-Resource Records
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - data
+  - governance
+  identity_text: PI-EREC-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Privacy')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Privacy''. Synopsis as printed: Users of the State’s Communications and Computing resources can expect that their transactions are treated confidentially because DTI does not monitor e-mail transactions. However, e-mail messages, web access, mainframe and server access are all electronic records that could be subject to review with just cause. This policy provides a controlled process for obtaining access to individual e-resource records.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-esp-001
+  sha256: "97c3617666d699c87b46e575ada18a61f244ade662222243570c71cd524ca668"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/DelawareInformationSecurityPolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy SE-ESP-001
+  title: State of Delaware Information Security Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: SE-ESP-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security''. Synopsis as printed: The goal of this policy is to preserve the Confidentiality, Integrity and Availability (known as the CIA triad) for all State communications and computing resources.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-cld-001
+  sha256: "a05db7e1ba56a0599ef460ae5ec274e368016d5aac70424f213149a89f6ffc36"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Terms%20and%20Conditions%20Governing%20Cloud%20Services%20and%20Data%20Usage%20Policy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy SE-CLD-001
+  title: Terms and Conditions Governing Cloud Services and Data Usage
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cloud-resilience
+  - cybersecurity
+  - data
+  - procurement
+  identity_text: SE-CLD-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security''. Synopsis as printed: This policy provides guidance for State of Delaware organizations to utilize offsite or cloud facilities and services, including hosting and computing (XaaS: e.g, Software-, Infrastructure-, Platform-, etc., as-a-Service). Additionally, it addresses situations when State data is used by an entity for audit, research, or other purposes.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-dti-0051-01
+  sha256: "ff2a37a5135a5d765ff8ef608ae30f9722bae22f99021ccfbf296377eb955ddf"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/DisposalOfElectronicEquipmentAndStorageMediaPolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy DTI-0051.01
+  title: Disposal of Electronic Equipment/Storage Media
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  - data
+  identity_text: DTI-0051.01
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security''. Synopsis as printed: Provides requirements on the Disposal of Storage Media, Personal Computers, Peripherals, Handheld Devices, other electronic media that store State’s data, and printed media generated from State systems.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-key-001
+  sha256: "4d8c014f39ec93e1b3b750387cd731c3eb607cb011125b8ad62a779711824e51"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/EncryptionKeyManagementPolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy SE-KEY-001
+  title: Encryption Key Management Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  identity_text: SE-KEY-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security''. Synopsis as printed: This policy provides ways to securely handle encryption keys in order to avoid the loss of data in State of Delaware organizations.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-iam-001
+  sha256: "02c8e4fc511b2ab334104bbb0803efde131db30caec50b320cc36fa172d809e7"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Identity%20and%20Access%20Management%20Policy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy SE-IAM-001
+  title: Identity and Access Management Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  - digital-services
+  identity_text: SE-IAM-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security''. Synopsis as printed: Management of identity and the authentication of users prior to obtaining access to State information is critical.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-videosurv-001
+  sha256: "8456af7dc5cecb66941b9da39a2d840c91cd469862d39a209f97c9e0e8cf9f3a"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Video%20Surveillance%20Policy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy SE-VideoSurv-001
+  title: Video Surveillance Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  identity_text: SE-VideoSurv-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security''. Synopsis as printed: The goal of this policy is to establish the permissible uses and technical specifications for the State’s Video Surveillance Information.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-vul-001
+  sha256: "8287ab581d75df002b978402f0ff34579c4290791f1cb137eed1c17533db50bc"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Vulnerability%20Disclosure%20Policy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy SE-VUL-001
+  title: Vulnerability Disclosure Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  identity_text: SE-VUL-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security''. Synopsis as printed: Guide collaboration between the public and DTI regarding reported vulnerabilities.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-pl-gas-001
+  sha256: "9af86471b0bb82f1680dcd436c8dd497a7b19ed79c7386fbc82219a51acc9c8f"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/SoftwarePolicy.pdf
+  format: pdf
+  citation: DTI Enterprise Policy PL-GAS-001
+  title: Software Policy
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - procurement
+  - governance
+  identity_text: PL-GAS-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'System Management')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''System Management''. Synopsis as printed: This policy stipulates that software purchased and/or obtained for use on State production systems must be in final/gold and/or General Availability (GA) release status and it must meet certain criteria.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-ac-clf-001
+  sha256: "5266b40f644875da3ef0c9f20fdef90e3938b1c6af2b8068d11cef58ef126ff2"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/WebsiteCLF.pdf
+  format: pdf
+  citation: DTI Standard ID AC-CLF-001
+  title: Website Common Look & Feel
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - digital-services
+  identity_text: AC-CLF-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Access')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Access'': a standard of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Access; Discipline: Branding).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-ac-gui-001
+  sha256: "38efce73db570952534c530fc4565eeabf0d3c40dcc311d4bf59296ade6a8bad"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Social%20Media%20and%20Streaming%20Media%20Guidelines.pdf
+  format: pdf
+  citation: DTI Guideline ID AC-GUI-001
+  title: Social Media and Streaming Media Guidelines
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - digital-services
+  identity_text: AC-GUI-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Access')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Access'': a guideline of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Access; Discipline: Social Media).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-ap-src-002
+  sha256: "3f5143135a516757b5aee75cf00820031f28b7b7f42b910640a58286a0b674c9"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/ApplicationSourcingGuideline.pdf
+  format: pdf
+  citation: DTI Standard ID AP-SRC-002
+  title: Application Sourcing Guideline
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - procurement
+  - cloud-resilience
+  identity_text: AP-SRC-002
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Application')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Application'': a guideline (the document prints a ''Standard ID'' and the title ''Application Sourcing Guideline'') of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Application; Discipline: Sourcing).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-es-serv-001
+  sha256: "100d69f63771b4f65c3d144437cbeb69306be119c91ba9e2e36f16913ba94ed6"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Enterprise%20Services%20Standard.pdf
+  format: pdf
+  citation: DTI Standard ID ES-SERV-001
+  title: Enterprise Services
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - governance
+  - cloud-resilience
+  identity_text: ES-SERV-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Application')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Application'': a standard of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Services; Discipline: Solution Portfolio).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-pl-dr-002
+  sha256: "04edffbdbc687e72fbfcf0593fd45026c238dab9bc1d7ff2de2a7937671a47ea"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Backup%2C%20Recovery%20and%20Retention%20Guidelines.pdf
+  format: pdf
+  citation: DTI Standard ID PL-DR-002
+  title: Backup, Recovery and Retention Guidelines
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cloud-resilience
+  - data
+  identity_text: PL-DR-002
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Information')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Information'': a guideline (the document prints a ''Standard ID'') of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Information; Discipline: Backup).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-in-dbms-002
+  sha256: "2fc2e4345b117ca2570ab1b48e58267a0f1993ed658c838489daf99ef7c1a0da"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/DatabaseManagementSystemsGuideline.pdf
+  format: pdf
+  citation: DTI Guideline ID IN-DBMS-002
+  title: Database Management Systems Guideline
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - data
+  - cloud-resilience
+  identity_text: IN-DBMS-002
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Information')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Information'': a guideline of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Platform; Discipline: Data Management).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-gu-dataclass-001
+  sha256: "da471e1e4e34a516bd3133945da9e6b16069e3ba1f43000101f39860a327cefa"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/DataClassificationGuideline.pdf
+  format: pdf
+  citation: DTI Guideline ID GU-DataClass-001
+  title: Data Classification Guideline
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - data
+  identity_text: GU-DataClass-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Information')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Information'': a guideline of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Information; Discipline: Data Classification).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-ne-cabling-002
+  sha256: "f06e3959546697c0437553ed0d990b25f2900da847705dd7cf6582c1ee1ffea8"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/CablingAndWiringStandard.pdf
+  format: pdf
+  citation: DTI Standard ID NE-Cabling-002
+  title: Structured Cabling System Standards and Specifications for State-Managed Facilities
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cloud-resilience
+  identity_text: NE-Cabling-002
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Network')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Network'': a standard (the library lists it as ''Cabling and Wiring Standard'') of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Network and Storage; Discipline: Cabling).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-sy-gre-001
+  sha256: "caf93e9ea79cb1d3719540747b4a2678c2b1ae4a23ebb1bdb1ca17a675371034"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/GreenITGuideline.pdf
+  format: pdf
+  citation: DTI Standard ID SY-GRE-001
+  title: Green IT Guideline
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cloud-resilience
+  identity_text: SY-GRE-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Other')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Other'': a guideline (the document prints a ''Standard ID'') of the Delaware State-Wide Information Technology and Architecture Standards (Domain: System Management; Discipline: Green IT).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-access-001
+  sha256: "18f6a86ddbdb102ce986a456c1965d8d1449a901923cd77e22080a27c5552857"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/BuildingAccessSecurityStandard.pdf
+  format: pdf
+  citation: DTI Standard ID SE-ACCESS-001
+  title: Building Access Security Standard
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  identity_text: SE-ACCESS-001
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security'': a standard of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Security; Discipline: Physical access).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-iam-002
+  sha256: "ab62c765a9f7d1a3de78033680158b51c49a644324695a00f608162489771fc5"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Identity%20and%20Access%20Management%20Standard.pdf
+  format: pdf
+  citation: DTI Standard ID SE-IAM-002
+  title: Identity and Access Management Standard
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  - digital-services
+  identity_text: SE-IAM-002
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security'': a standard of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Security; Discipline: Identity and Access Management).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-iam-003
+  sha256: "d73f772a60981cf74172b65160045f2cf023958668be10162de81cc2c0c23237"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Identity%20and%20Access%20Management%20Guidelines.pdf
+  format: pdf
+  citation: DTI Guidelines ID SE-IAM-003
+  title: Identity and Access Management Guideline
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cybersecurity
+  - digital-services
+  identity_text: SE-IAM-003
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Security'': a guideline of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Security; Discipline: Identity and Access Management).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-es-guide
+  url: https://state.extranet.dti.state.de.us/documents/Enterprise%20Services%20Guide.pdf
+  format: pdf
+  citation: DTI Enterprise Services Guide
+  title: Enterprise Services Guide
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - governance
+  - cloud-resilience
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Application'; the page marks the link '* Link is only available on the State network')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Application'': the guide to the enterprise services the Enterprise Services Policy and Standard describe.'
+  stub: true
+  stub_reason: 'The library links it on the host state.extranet.dti.state.de.us and marks it ''Link is only available on the State network''. Fetching it through the Fetcher on 2026-11-11 failed with ConnectError: [Errno -5] No address associated with hostname (the name does not resolve from the public internet).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-se-architecture-standard
+  url: https://extranet.dti.state.de.us/pdf/standards/SystemArchitectureStandard.pdf
+  format: pdf
+  citation: DTI Systems Architecture Standard
+  title: Systems Architecture Standard
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cloud-resilience
+  - governance
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Architecture'; the page marks the link '* Link is only available on the State network')
+  why_relevant: 'Item of the DTI Standards and Policies library, section ''Architecture'': the statewide systems architecture standard.'
+  stub: true
+  stub_reason: 'The library links it on the host extranet.dti.state.de.us and marks it ''Link is only available on the State network''. Fetching it through the Fetcher on 2026-11-11 was refused: ''connection closed without a response (Server disconnected without sending a response.)''.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-cloud-services-agreement
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Terms%20and%20Conditions%20Governing%20Cloud%20Services%20and%20Data%20Usage%20Agreement.pdf
+  format: pdf
+  citation: DTI Terms and Conditions Governing Cloud Services and Data Usage Agreement (Form Revision Date 8/21/23)
+  title: State of Delaware Terms and Conditions Governing Cloud Services and Data Usage Agreement
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - cloud-resilience
+  - cybersecurity
+  - data
+  - procurement
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies (section 'Security', listed beside the Cloud Services and Data Usage Policy)
+  why_relevant: The contract appendix a vendor signs when it hosts or has access to State of Delaware data (the library lists it with the policy SE-CLD-001); it holds the provider's security, breach-notice and data-return terms.
+  stub: true
+  stub_reason: 'A blank form of agreement: its first lines read ''Contract/Agreement # ____, Appendix ____ between State of Delaware and ____ dated ____'', and the PDF (4 pages, text layer present) is a fill-in contract appendix for each procurement. Held as a stub under the interim practice for blank templates (docs/spec.md, Open); the owner may decide it is an instrument.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-ot-ai-001-examples
+  sha256: "1c167d98812a15049c0b7e3b87d3cc24d12da8eaba0e4f0e23d4b47d1eb4a52f"
+  url: https://webfiles.dti.delaware.gov/pdfs/pp/Generative%20Artificial%20Intelligence%20Examples.pdf
+  format: pdf
+  citation: DTI Generative Artificial Intelligence (GenAI) Examples
+  title: Generative Artificial Intelligence (GenAI) Examples, with the list of Prohibited GenAI Tools
+  doc_type: standard
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - ai
+  - governance
+  - cybersecurity
+  identity_text: Prohibited GenAI Tools Examples
+  found_via: 'The two links in the text of the seeded Generative Artificial Intelligence Policy OT-AI-001 (de-ot-ai-001; its text reads ''A non-exhaustive list of prohibited GenAI tools can be located here''), and the library zip State_of_DE_Standards_Policies.zip, which holds the same file; the Standards and Policies page does not link it (the file name was taken from the policy''s link annotations and the zip listing, not from an index row)'
+  why_relevant: 'One page that DTI issues through the Technology and Architecture Standards Committee under its standards header: examples of public and enterprise generative AI products, and the ''Prohibited GenAI Tools'' list (RedNote, DeepSeek, Webull, WeChat AI, Qwen, WormGPT, FraudGPT), ''an initial list that meets the criteria in the policy''. The policy OT-AI-001 points users to it. Owner decision: seeded as doc_type standard (its header is the standards header; it prints no document number or revision), and as an instrument because it names the tools users may not use; its first list says it is examples only.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-dti-0065-02
+  sha256: "c0b26288679fb74c60f16fd7bbdcac0eb687bee22cf7564531cae71763a0919f"
+  url: https://webfiles.dti.delaware.gov/pdfs/policies/DTI%20Confidentiality%20&%20Integrity%20of%20Data%20Policy.pdf
+  format: pdf
+  citation: DTI Policy DTI-0065.02
+  title: Confidentiality (Non-Disclosure) and Integrity of Data
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - data
+  - cybersecurity
+  identity_text: DTI-0065.02
+  found_via: 'The link in four seeded DTI PDFs (found in their link annotations); the library page does not list it (the library has 38 rows, none of them this policy)'
+  why_relevant: 'Policy Type ''Internal Only'', Effective Date December 7, 2005, revision 2 dated 11/1/2016 (logo and formatting): obligates DTI employees and contractors to safeguard the citizen, customer and employee records and State data they can reach and to report any situation that might lead to unauthorized disclosure or modification. Owner decision: it binds DTI staff and its contractors rather than all state agencies, and the library does not list it; seeded because the seeded policies cite it. The PDF prints no ''Revision Number'' label, so its source_version is empty (the revision history is in the text).'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-watch-dti-standards-policies
+  url: https://dti.delaware.gov/technology-services/standards-and-policies
+  format: html
+  citation: DTI Standards and Policies library (index page)
+  title: 'DTI Standards and Policies library: index page'
+  doc_type: policy
+  issuing_body: Delaware Department of Technology and Information (DTI)
+  tags:
+  - governance
+  found_via: https://dti.delaware.gov/technology-services/standards-and-policies
+  watch_only: true
+  why_relevant: 'The library index: 38 rows on 2026-11-11, each a document, stub or left-out record here. The monthly drift run reports additions and removals.'
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-watch-governor-executive-orders
+  url: https://governor.delaware.gov/executive-orders/
+  format: html
+  citation: Governor Meyer executive orders (index page)
+  title: 'Governor Matt Meyer: Executive Orders (index page, page 1 of 2)'
+  doc_type: executive_order
+  issuing_body: Governor of Delaware
+  tags:
+  - governance
+  found_via: https://governor.delaware.gov/executive-orders/
+  watch_only: true
+  why_relevant: The current governor's order list (Executive Orders 1 to 28 on 2026-11-11, two pages of 15 and 13); new orders appear at the top of page 1. The monthly drift run reports a new order, which then needs the IT, data and AI test.
+  jurisdiction: delaware
+  recheck: monthly
+- id: de-watch-code-29-ch-90c
+  url: https://delcode.delaware.gov/title29/c090c/index.html
+  format: html
+  citation: 29 Del. C. ch. 90C (chapter index page)
+  title: 'Title 29, Chapter 90C: Department of Technology and Information (chapter index page)'
+  doc_type: statute
+  issuing_body: Delaware General Assembly; compiled and published by the Division of Research on the Delaware Code Online
+  tags:
+  - governance
+  found_via: https://delcode.delaware.gov/title29/c090c/index.html
+  watch_only: true
+  why_relevant: The chapter's index of subchapters (I to IV on 2026-11-11); a new subchapter (for example a new AI or data subchapter) would appear here.
+  jurisdiction: delaware
+  recheck: monthly
+left_out:
+- text: "---- Delaware: found and left out (each was seen on an official page on 2026-11-11, unless the item says otherwise; the reason is recorded here). 'Owner decision' marks a judgment call a reviewer should confirm."
+- text: "DTI Standards and Policies library (https://dti.delaware.gov/technology-services/standards-and-policies, 38 rows in 9 sections: Access 8, Application 5, Architecture 1, Information 4, Network 1, Other 2, Privacy 2, Security 14, System Management 1). Reconciled row by row: 29 documents (17 Enterprise Policies and 12 standards and guidelines), 3 stubs (Enterprise Services Guide and Systems Architecture Standard, State-network only; the blank Cloud Services and Data Usage Agreement) and 6 left out, listed next. The library has no status column and marks no row retired or draft; the older address dti.delaware.gov/information/standards-policies.shtml serves the same page (identical size). Guidelines are seeded as doc_type standard (the library files them with the standards and several print a 'Standard ID'; owner decision, as for Virginia's guidelines)."
+- text: "Library rows left out: (1) 'Acceptable Use Policy Self Test' (https://dti.delaware.gov/security/delaware-acceptable-use-policy-self-test/): a quiz page, not an instrument; not fetched. (2) 'Website CLF Supporting Documents' (https://gic.delaware.gov/common-look-feel/): a page of another agency's supporting files (the Government Information Center); not fetched. (3) 'eRecord Request Form' (eRecords_Request_Form.pdf, 3 pages, fetched): a request form with selection descriptions, drop-downs and a signature line; a form, not an instrument. (4) 'Data Destruction Certification Form' (DataDestructionCertificationForm.pdf, 1 page, fetched): a certificate a vendor fills in ('Form: DTI - DES 001'); a form. (5) 'Terms and Conditions Governing Cloud Security FAQ' (Cloud Security Terms and Conditions FAQ.pdf, 3 pages, fetched): questions and answers on how the cloud policy and agreement are used in an RFP; explanatory, prints no policy number; owner decision, it could be a policy-level guidance document. (6) 'Authorized ProWatch Vendors' (https://mmp.delaware.gov/Contracts/Details/4581): a contract details page on another host; not fetched."
+- text: "The library's bulk download (https://webfiles.dti.delaware.gov/pdfs/pp/State_of_DE_Standards_Policies.zip, 15,006,522 bytes, fetched): a zip of 35 PDFs; not seeded as a file, the individual PDFs are the sources. 33 of its files are the PDFs the library page links; two are not linked from the page. (1) 'Generative Artificial Intelligence Examples.pdf': the GenAI examples and Prohibited GenAI Tools list that the Generative Artificial Intelligence Policy OT-AI-001 links; its text is identical to the file fetched at its own address (webfiles.dti.delaware.gov/pdfs/pp/Generative%20Artificial%20Intelligence%20Examples.pdf, HTTP 200, 1 page); seeded as de-ot-ai-001-examples (owner decision on type, see its entry). (2) 'eRecords Designation Form.pdf' (1 page, 'ELECTRONIC RECORDS (RESOURCES) DESIGNATION FORM', March 1, 2023, with a Clear Form button, blank name, title, phone and signature fields): a form an organization head fills in to name a designee under the eRecords policy; a form, not an instrument; left out."
+- text: "Statutes read and seeded: Title 29, Chapter 90C (the whole chapter, as its four subchapter pages: the CIO and Department, internet privacy, cyber security, the AI Commission) and Title 6, Chapter 12B (computer security breaches; owner decision: it binds 'any person who conducts business in this State' and defines person to include a government agency, and DTI's cloud policy and agreement cite it, but whether a state agency conducts business is a legal question)."
+- text: "Statutes read and left out: Title 6 Chapter 12D (Delaware Personal Data Privacy Act): the page's section on applicability says the chapter does not apply to 'any regulatory, administrative, advisory, executive, appointive, legislative, or judicial body of the State ... including any board, bureau, commission, agency of the State'; it binds private persons. Title 6 Chapter 50C (Safe Destruction of Records Containing Personal Identifying Information): binds a 'commercial entity'; its exclusions include 'any government, governmental subdivision, agency, or instrumentality'. Title 6 Chapter 12A (Uniform Electronic Transactions Act): a general commercial-transactions law; its definition of 'governmental agency' and a subsection that leaves a state agency free to specify additional retention requirements for its own records were seen, but the chapter is not about state IT; owner decision, a section-level slice is possible. Title 6 Chapter 12C (Delaware Online Privacy and Protection Act): its definitions concern operators of websites and advertising services, i.e. private operators; DTI's cloud policy cites its section 1202C only for the definition of personal information; the chapter was not read beyond the definitions. Title 29 Chapter 5, Subchapter I (Public Records, the Delaware Public Archives): records management for all public records, with a definition of 'electronic record' (section 502); read in outline (section list and definitions); not an IT-governance statute, owner decision (it is the closest statute to a data-retention rule for state agencies). Title 29 Chapter 100 (Freedom of Information Act), Chapter 66C (Delaware Children's Internet Protection Act, a library and school filtering law), Chapter 73 (Architectural Accessibility Act, buildings) and Chapter 69 (state procurement) were seen only as titles in the Title 29 chapter list (https://delcode.delaware.gov/title29/index.html) and not read: none is a statute of IT, data or AI as a state function by its title."
+- text: "AI statutes: the only one found binding state agencies is Title 29 Chapter 90C Subchapter IV (the AI Commission, seeded). Basis of that claim: the Title 29 and Title 6 chapter lists were read, and discovery searches on the web (not fetched, so nothing from them is in the repo) named only House Bill 333 (2024; creates the Commission, 84 Del. Laws, c. 307) and House Bill 16 (2025; 85 Del. Laws, c. 17, the student member), both of which are in the codified subchapter. The Delaware Code Online has no text search the Fetcher could use without a form, so a statute that mentions AI inside a chapter of another subject would not have been found. Governor Meyer's AI Sandbox joint resolution, a Department of Education K-12 generative AI guidance and the Supreme Court's interim policy on generative AI were named in web-search results only; they were not fetched and are out of scope by type (a resolution is not binding law, K-12 edtech and the judicial branch are out_of_scope in domain.yml)."
+- text: "Rules: the Administrative Code. regulations.delaware.gov/AdminCode/ is a JavaScript application: the Fetcher received a 2,709-byte shell with no content. The old static site (https://archive.regulations.delaware.gov/AdminCode/, read) lists 20 titles (1 to 10, 12, 14, 15, 16, 18, 19, 20, 24, 26, 29); Title 8 (Public Information, FOIA) lists '1300 Policies and Procedures Regarding FOIA Requests' under 'Department of Technology and Information, Office of the Secretary' (the PDF 1300.pdf, fetched, is DTI's policy for answering public-records requests under 29 Del. C. ch. 100). It is DTI's only rule found. Left out: a public-records procedure, not an IT, data or AI instrument, and the only text the Fetcher could read is on the archive host, whose currency is unknown (its pages list Governor Markell and Attorney General Biden in the header, so it is a snapshot from about 2015). Owner decision: held out as outside the domain; seeding it needs the current text from the new site. The 'api/register' route named in the issue was not followed: it is an endpoint of the application, not a page or file a visitor's link points to, and no documented public API for the Administrative Code was found. No other DTI rule was found in the archive's title list (Titles 1 to 29 headings read, none for technology)."
+- text: "Executive orders. Governor Meyer's page (https://governor.delaware.gov/executive-orders/, both pages, Executive Orders 1 to 28, titles read): none concerns IT, data or AI as a state function. Executive Order 3 (January 22, 2025, 'Committing to a Good Government That Is Ethical, Transparent, and Effective') was read in full: it says state agencies shall be 'as transparent with policies, data, and information as the law allows' (paragraph 12) but is an ethics and efficiency order; left out. Executive Orders 16 and 18 (smart growth; the Delaware Permitting Accelerator) were seen by title only. Previous governors (Delaware Public Archives, https://archives.delaware.gov/executive-orders/, all 14 governor pages fetched; the orders of Carney 65 and Markell 63 were listed in full, those of the other twelve were filtered by title for technology, information, cyber, data, digital, computer, internet, artificial, AI, electronic, security, software, broadband, privacy and records): seeded are Markell 20 (IT consolidation, 2010), Carney 18 (Open Data Council, 2018) and Hall-Long 3. The archive page has no status column, so 'in force' rests on the order's own text and the absence of a rescission in the lists read; both are owner decisions. Left out: Markell 55 (Delaware Cyber Security Advisory Council, October 28, 2015; fetched and read): its council is now established by 29 Del. C. section 9030C (seeded), no order rescinding it was found; held out as superseded by the statute, owner decision. Markell 57 (Open Data Council, dated 'January 27, 2017' on the archive list, 'January, 2016' in its text; fetched and read): rescinded by paragraph 10 of Carney 18. Markell 31 (uniform FOIA procedures, 2011): public-records procedure, title only. Minner 102 (Delaware Information Assurance Task Force, September 20, 2007; fetched and read): a task force whose report was due December 15, 2007. Carper 77 (Electronic Government Steering Committee, February 22, 2000; fetched and read): a steering committee of 2000 with no end date in its text; the Minner list repeats the title (not fetched); both predate and are overtaken by DTI's statute, but no rescission was found; owner decision, older than the domain's use. Titles only, not fetched: Minner's Governor's Information Task Force, Enhanced Public Access Technology Task Force and Delaware Spatial Data I-Team; Tribbitt's and du Pont's Advisory Councils on Data Processing; Castle's High Technology Task Force and Delaware Technology Park orders; Markell 15 (STEM Council). Hall-Long Executive Order 3 (Commission on the Social Drivers of Health, January 17, 2025) is seeded as an AI order, owner decision; Hall-Long Executive Orders 1 (LGBTQ+ Commission, title only) and 2 (Smart Food Program: a report on an AI-driven food-coupon app pilot, due October 15, 2025; fetched and read) are left out as not IT governance and, for 2, a one-time report order."
+- text: "Not searched, so no claim is made: the Delaware Code beyond the chapter lists of Titles 6 and 29 (for example Title 11, the Delaware Criminal Justice Information System, which is law-enforcement technology and out_of_scope in domain.yml); the Office of Management and Budget's and Department of Finance's own IT-related policies (the OMB Budget and Accounting Policy Manual, procurement rules); DTI's other web pages (Security, Digital Accessibility, IT Business Cases, Go DE), which are descriptive pages and were seen only as menu items; legislative and judicial branch IT policies (out_of_scope)."
+- text: "Links on the library page that are not library rows (both fetched 2026-11-11): the 'ARB Templates page' (https://dti.delaware.gov/about-dti/arb-templates/, in the page's introduction): a page about the Architecture Review Board's templates and requests; templates are not instruments; left out by type. The footer 'FOIA Policy' (https://dti.delaware.gov/about-dti/foia-policy/): DTI's current page on public-records requests; it states that 'The FOIA Policy establishes the guidelines governing the providing of Delaware Department of Technology and Information public records' and cites 'Policy and Procedures Regarding FOIA Requests [ 15 DE Reg 906-910 ]', Delaware Register of Regulations, Volume 15, Issue 6, December 1, 2011. That is the rule the archived Administrative Code lists as 1300 (Title 8), so the page is the current form of the same rule, and the 2011 register date is its currency evidence. It is held out, as the archived rule is, as a public-records procedure (an answer to FOIA requests under 29 Del. C. ch. 100), not an IT, data or AI instrument; owner decision."

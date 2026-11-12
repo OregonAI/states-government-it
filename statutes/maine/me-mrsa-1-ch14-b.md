@@ -1,0 +1,130 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maine
+id: me-mrsa-1-ch14-b
+title: Data Governance Program
+doc_type: statute
+citation: 1 M.R.S. ch. 14-B
+authority_level: ''
+issuing_body: Maine Legislature, Office of the Revisor of Statutes
+source_url: https://legislature.maine.gov/statutes/1/title1ch14-B.docx
+source_format: docx
+retrieved: '2026-11-12'
+source_sha256: b6b767aa3bbe6d8c161b7e33faa08b22f7aaabb90c1cd7dd29848f1035ec5c0c
+effective_date: null
+source_version: Current through October 1, 2026 (Second Regular Session of the 132nd Maine Legislature)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes
+  accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's
+  cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet
+  character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside
+  text boxes (such as a cover-page title) are not read. Headings carry no markup.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Data Governance Program (1 M.R.S. ch. 14-B)
+
+## At a glance
+
+The Secretary of State and the Commissioner of Administrative and Financial Services establish a State data governance program: data project priorities, privacy compliance, data structure and data-sharing policies, records management and adherence to the State Archivist's retention schedules, with quarterly consultations and an annual report to the Legislature.
+
+## Full text
+
+CHAPTER 14-B
+
+DATA GOVERNANCE PROGRAM
+
+§547. Data governance program established
+
+The Secretary of State, or the secretary's designee, and the Commissioner of Administrative and Financial Services, or the commissioner's designee, shall establish a data governance program. [PL 2023, c. 581, §1 (AMD).]
+
+1. Implementation. Implementation of a data governance program must include:
+
+A. Establishing data project priorities; [PL 2021, c. 717, §1 (NEW).]
+
+B. Ensuring data privacy compliance and that best practices are followed; [PL 2021, c. 717, §1 (NEW).]
+
+C. Developing data structure policies that ensure the best data quality, alignment and availability across systems; and [PL 2021, c. 717, §1 (NEW).]
+
+D. Establishing data-sharing policies and agreements. [PL 2021, c. 717, §1 (NEW).]
+
+[PL 2021, c. 717, §1 (NEW).]
+
+2. Program requirements. The data governance program must:
+
+A. Support decision making and improve citizen access to government services; [PL 2021, c. 717, §1 (NEW).]
+
+B. Promote consistent collection of racial and ethnic demographic data; [PL 2021, c. 717, §1 (NEW).]
+
+C. Use evidence-based strategies to improve data collection; [PL 2021, c. 717, §1 (NEW).]
+
+D. Address technology barriers that restrict the ability of state agencies to share data between agencies; [PL 2021, c. 717, §1 (NEW).]
+
+E. Create models for sharing data with the public and for developing policies to reduce disparities and increase equity that take into consideration the norms and expectations of the diverse populations of the State; [PL 2023, c. 581, §1 (AMD).]
+
+F. Include records management capabilities and compliance; [PL 2023, c. 581, §1 (AMD).]
+
+G. Ensure that data sharing and usage complies with state and federal laws, rules and regulations; and [PL 2023, c. 581, §1 (AMD).]
+
+H. Adhere to the records retention schedules developed by the State Archivist pursuant to Title 5, section 95‑C. [PL 2023, c. 581, §1 (NEW).]
+
+[PL 2023, c. 581, §1 (AMD).]
+
+3. Consultations. The Secretary of State, or the secretary's designee, and the Commissioner of Administrative and Financial Services, or the commissioner's designee, shall consult at least quarterly with:
+
+A. The Permanent Commission on the Status of Racial, Indigenous and Tribal Populations established by Title 5, section 12004‑J, subsection 19 to discuss how racial equity will be incorporated in the data governance program as well as in all projects related to the program. The consultation must include discussion of methods for building racial equity considerations into every aspect of the data life cycle, including planning, data collection, data access, algorithms, statistical tools, data analysis, reporting and dissemination; and [PL 2021, c. 717, §1 (NEW).]
+
+B. The State Archivist, or the archivist's designee, regarding the development and implementation of the data governance program and to generate a records management and retention plan and program in compliance with Title 5, section 95‑C. [PL 2021, c. 717, §1 (NEW).]
+
+[PL 2023, c. 581, §1 (AMD).]
+
+4. Report. The Secretary of State, or the secretary's designee, the Commissioner of Administrative and Financial Services, or the commissioner's designee, and the Permanent Commission on the Status of Racial, Indigenous and Tribal Populations established by Title 5, section 12004‑J, subsection 19 shall jointly report on the status of the program and the consultations under subsection 3 to the joint standing committee of the Legislature having jurisdiction over state and local government matters annually by February 15th. The committee may report out a bill based on the report during the legislative session in which the report is received.
+
+[PL 2023, c. 581, §1 (AMD).]
+
+5. State agency designee. Each state agency shall designate an employee with the responsibility to oversee the agency's compliance with the data governance program established pursuant to this section.
+
+[PL 2023, c. 581, §1 (NEW).]
+
+6. Inventory. The Commissioner of Administrative and Financial Services, or the commissioner's designee, shall work with the state agency designees under subsection 5 to inventory the collection and availability of demographic data fields by the state agency, including, but not limited to, gender, location, race, ethnicity, birth sex, citizenship, socioeconomic status, education, sexual orientation, veteran status, disability status and age. This inventory is distinct from the definitions and standards developed pursuant to subsection 7 and is not itself data collection.
+
+[PL 2023, c. 581, §1 (NEW).]
+
+7. Definitions and standards. The Commissioner of Administrative and Financial Services, or the commissioner's designee, shall develop a definition and standard for certain demographic data fields, including, but not limited to, gender, location, race, ethnicity, birth sex, citizenship, socioeconomic status, education, sexual orientation, veteran status, disability status and age. The definitions and standards must be developed in consultation with the Department of the Secretary of State and the Permanent Commission on the Status of Racial, Indigenous and Tribal Populations established by Title 5, section 12004‑J, subsection 19.
+
+[PL 2023, c. 581, §1 (NEW).]
+
+8. Stakeholder group. To the extent resources are available, the Commissioner of Administrative and Financial Services, or the commissioner's designee, shall work with the Department of the Secretary of State and the Permanent Commission on the Status of Racial, Indigenous and Tribal Populations established by Title 5, section 12004‑J, subsection 19 to convene a stakeholder group at least once each year to review progress in developing and implementing the data governance program. When inviting members to the stakeholder group, consideration must be given to racial, ethnic, gender, socioeconomic and other demographic diversity.
+
+[PL 2023, c. 581, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2021, c. 717, §1 (NEW). PL 2023, c. 581, §1 (AMD).
+
+The State of Maine claims a copyright in its codified statutes. If you intend to republish this material, we require that you include the following disclaimer in your publication:
+
+All copyrights and other rights to statutory text are reserved by the State of Maine. The text included in this publication reflects changes made through the Second Regular Session of the 132nd Maine Legislature and is current through October 1, 2026 . The text is subject to change without notice. It is a version that has not been officially certified by the Secretary of State. Refer to the Maine Revised Statutes Annotated and supplements for certified text.
+
+The Office of the Revisor of Statutes also requests that you send us one copy of any statutory publication you may produce. Our goal is not to restrict publishing activity, but to keep track of who is publishing what, to identify any needless duplication and to preserve the State's copyright rights.
+
+PLEASE NOTE: The Revisor's Office cannot perform research for or provide legal advice or interpretation of Maine law to the public. If you need legal assistance, please contact a qualified attorney.
+
+## Curator notes
+
+Text extracted from the Word file (.docx) with pandoc's docx reader, tracked changes accepted and the result rendered one line per paragraph, heading, list item and table row (a table row's cells are joined by ' | '; list markers are written out as the file numbers them, bullets as a bullet character; footnotes follow the text as [n]). Running headers and footers, pictures and the text inside text boxes (such as a cover-page title) are not read. Headings carry no markup.

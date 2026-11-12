@@ -1,0 +1,1191 @@
+# Louisiana seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: the Legislature's Revised Statutes tables of contents (Titles 39, 42, 49,
+# 51, 36, 44) and the section pages they link (legis.la.gov), OTS's own site (ots.la.gov) and the Division of
+# Administration's pages (doa.la.gov: the legacy OTS Policies and Forms page, the DOA Policies page, the Louisiana
+# Administrative Code index and its Title 4 file), and the Governor's executive orders.
+sources:
+
+- id: la-rs-39-15-1
+  sha256: "15f3be73c18713b457f9540a0370d298e0d2a57be8a032522346c829cc60213c"
+  url: https://legis.la.gov/legis/Law.aspx?d=95981
+  format: html
+  citation: R.S. 39:15.1
+  title: R.S. 39:15.1. Office of technology services; scope
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: Gives the Office of Technology Services authority over all information technology systems and services for executive branch agencies, except agencies of a statewide elected official. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-15-1-1
+  sha256: "46d0d92b082e7b3219916c9e0c881ef071fb06df30197e27889c0f091447b2a1"
+  url: https://legis.la.gov/legis/Law.aspx?d=1056809
+  format: html
+  citation: R.S. 39:15.1.1
+  title: R.S. 39:15.1.1. Criminal history information; access to federal tax information
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Authorizes the Office of Technology Services to run criminal history records checks of its current and prospective employees, contractors and subcontractors, and directs the commissioner of administration to make rules. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-15-1-2
+  sha256: "e0c063b447a2671ee708f8649aeb9038ecf3e519c569cd944093735bbd84ea80"
+  url: https://legis.la.gov/legis/Law.aspx?d=1056810
+  format: html
+  citation: R.S. 39:15.1.2
+  title: R.S. 39:15.1.2. Criminal history information; access to restricted data
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Authorizes the Office of Technology Services to perform criminal history records checks of employees, contractors and subcontractors with access to restricted data. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-15-2
+  sha256: "70dc1d3719f0dd37dc9a200930c940bf4d42ddd27147935476baaeeee6e17fd4"
+  url: https://legis.la.gov/legis/Law.aspx?d=95982
+  format: html
+  citation: R.S. 39:15.2
+  title: R.S. 39:15.2. Office of technology services; state chief information officer
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: Establishes the Office of Technology Services in the division of administration under the state chief information officer, who is appointed by the governor and is the principal adviser on information technology policy. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-15-3
+  sha256: "636cb9c1e1715347574903059b46caf758e3b81f564787aa37664ada9375f50f"
+  url: https://legis.la.gov/legis/Law.aspx?d=95983
+  format: html
+  citation: R.S. 39:15.3
+  title: R.S. 39:15.3. Office of technology services; offices and staff; duties
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  - oversight
+  - procurement
+  - cybersecurity
+  - digital-services
+  - cloud-resilience
+  recheck: monthly
+  why_relevant: 'The state chief information officer''s duties: statewide IT systems and services, the master IT plan, IT standards and architecture, IT procurement approval, project oversight, security systems and the annual cybersecurity readiness report to the Joint Legislative Committee on Technology and Cybersecurity. Page address built from the Legislature''s own Title 39 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-39-15-7
+  sha256: "7daec0455f6fb2ac40951d7da36d8079d37ed787dca6d4cb1fb1cff357b65239"
+  url: https://legis.la.gov/legis/Law.aspx?d=1186813
+  format: html
+  citation: R.S. 39:15.7
+  title: R.S. 39:15.7. State Cybersecurity and Information Technology Fund
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - funding
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Creates the State Cybersecurity and Information Technology Fund in the state treasury. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-15-11
+  sha256: "ed53fd1d779fd6656d32e6e993cf6ca910cf44c9987213f4dca0cbbef5e4e726"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337707
+  format: html
+  citation: R.S. 39:15.11
+  title: R.S. 39:15.11. Legislative intent
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: 'Legislative findings behind the Louisiana Cybersecurity Commission: coordination of cybersecurity efforts among local, state, tribal and federal governments and the private sector. Page address built from the Legislature''s own Title 39 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-39-15-12
+  sha256: "9881fa652276cca7059a42d16a59f4578483f78deb071ad661c69012dab19f33"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337712
+  format: html
+  citation: R.S. 39:15.12
+  title: R.S. 39:15.12. Definitions
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Definitions for the Louisiana Cybersecurity Commission part, including the critical infrastructure sectors. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-15-13
+  sha256: "924a7429f15afbf7799fc5fe947b86d90fc98155d3c5281f9702c58e1d37a097"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337713
+  format: html
+  citation: R.S. 39:15.13
+  title: R.S. 39:15.13. Louisiana Cybersecurity Commission; creation; membership
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: Creates the Louisiana Cybersecurity Commission in the division of administration and sets its membership. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-15-14
+  sha256: "fa907fe200b977c4714ddf6f222f071763360e0e10f78ea6dee1a00f07481c3b"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337714
+  format: html
+  citation: R.S. 39:15.14
+  title: R.S. 39:15.14. Purposes and powers of the commission
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: 'The commission''s purposes, duties and powers: identify and mitigate the state''s cyber risk and develop a state cybersecurity strategy. Page address built from the Legislature''s own Title 39 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-39-15-15
+  sha256: "313b13e28878dde985e8ed1bbbaf04e12c55d05ea8b6dd9a58abfd17244ce4d0"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337715
+  format: html
+  citation: R.S. 39:15.15
+  title: R.S. 39:15.15. Staffing of the commission; reports
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: Staffing of the commission by the Military Department, cooperation by state agencies, and its annual report. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-196
+  sha256: "4dc74e371229eb8ed679baf4501eba99308ee9c7ca62d767fac761fcbc3bfb55"
+  url: https://legis.la.gov/legis/Law.aspx?d=96237
+  format: html
+  citation: R.S. 39:196
+  title: 'R.S. 39:196. Application of Part: responsibility for determining; state chief information officer'
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - procurement
+  - governance
+  recheck: monthly
+  why_relevant: Applies the information technology procurement Part to executive branch agencies and gives the Office of Technology Services sole authority to define the IT systems and services it covers. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-197
+  sha256: "ac2484081bc2d253f15ebcc540e6d6ce15e961bf5223ff074dcc6b55ee06518b"
+  url: https://legis.la.gov/legis/Law.aspx?d=96247
+  format: html
+  citation: R.S. 39:197
+  title: R.S. 39:197. Definitions
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - procurement
+  recheck: monthly
+  why_relevant: Definitions for the information technology procurement Part. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-198
+  sha256: "87d2b22226e5c80ffad55c6fa6b563ca7e703dbcd2867d5699d88706943f90f7"
+  url: https://legis.la.gov/legis/Law.aspx?d=96248
+  format: html
+  citation: R.S. 39:198
+  title: R.S. 39:198. Types of contracts permitted
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - procurement
+  recheck: monthly
+  why_relevant: Types of contracts permitted in the procurement of information technology systems, services and software, entered through the Office of Technology Services. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-199
+  sha256: "26c63b35e77a5d09a162b2d8c0247878d41b6e6df773f821e0c9122b2f80a9cd"
+  url: https://legis.la.gov/legis/Law.aspx?d=96258
+  format: html
+  citation: R.S. 39:199
+  title: R.S. 39:199. Methods of procurement
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - procurement
+  recheck: monthly
+  why_relevant: 'Methods of procurement for information technology systems and services: requests for proposals and evaluation. Page address built from the Legislature''s own Title 39 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-39-199-1
+  sha256: "0413640d3dc35d3138889cf20fed47501a1b66c45407f33792cfc7e57a2fd811"
+  url: https://legis.la.gov/legis/Law.aspx?d=1186847
+  format: html
+  citation: R.S. 39:199.1
+  title: R.S. 39:199.1. Alternative procedures
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - procurement
+  recheck: monthly
+  why_relevant: 'Alternative procedures: an agency need not follow the IT procurement Part in the circumstances the section lists. Page address built from the Legislature''s own Title 39 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-39-200
+  sha256: "a9d7196f2bc4ea39ed72ba49d7c5e112eec9a62d6cbdc97bbc25745d4fda5ffc"
+  url: https://legis.la.gov/legis/Law.aspx?d=96264
+  format: html
+  citation: R.S. 39:200
+  title: "R.S. 39:200. General provisions"
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - procurement
+  recheck: monthly
+  why_relevant: "The last section of the information technology procurement Part (R.S. 39:196-200, as Executive Order JML 26-107 cites it), seeded with the sections before it. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked."
+
+- id: la-rs-39-17-1
+  sha256: "dd132d62673a78faa6a05521bc8ad4e01761af91c8716f1de2972ea4a109f9a3"
+  url: https://legis.la.gov/legis/Law.aspx?d=1148754
+  format: html
+  citation: R.S. 39:17.1
+  title: "R.S. 39:17.1. Definitions"
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  why_relevant: "Definitions for the digitized credentials Subpart (R.S. 39:17.1-17.5). Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked."
+
+- id: la-rs-39-17-2
+  sha256: "4caf8d59f43484108f31636972297bae2eaefcf81f69bb12c8188eeb56fcdc97"
+  url: https://legis.la.gov/legis/Law.aspx?d=1148755
+  format: html
+  citation: R.S. 39:17.2
+  title: "R.S. 39:17.2. Digitized credentials; authorization; implementation; validity"
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  why_relevant: "Makes state credentials available in an electronic wallet and directs the commissioner of administration to adopt rules for the program: a state entity's digital-identity service. OWNER DECISION: borderline, seeded with its Subpart (see left_out). Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked."
+
+- id: la-rs-39-17-3
+  sha256: "237e98255b56a60410906da42b523a8123a8a86180f339e059c54d5deac4af2c"
+  url: https://legis.la.gov/legis/Law.aspx?d=1148756
+  format: html
+  citation: R.S. 39:17.3
+  title: "R.S. 39:17.3. Fee"
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  why_relevant: "The fee section of the digitized credentials Subpart (R.S. 39:17.1-17.5). Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked."
+
+- id: la-rs-39-17-4
+  sha256: "6f8da6c0d66cd0d050dadee4ef6b4869eff11a8559197806fe1bae9902ba8dd8"
+  url: https://legis.la.gov/legis/Law.aspx?d=1148877
+  format: html
+  citation: R.S. 39:17.4
+  title: "R.S. 39:17.4. Privacy"
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  why_relevant: "The privacy section of the digitized credentials Subpart (R.S. 39:17.1-17.5). Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked."
+
+- id: la-rs-39-17-5
+  sha256: "2c2b1ad0011d3b7364e9b3dc4cbe887b932a0b6f7ec478cd681b4fb78ad79831"
+  url: https://legis.la.gov/legis/Law.aspx?d=1148878
+  format: html
+  citation: R.S. 39:17.5
+  title: "R.S. 39:17.5. Renewals"
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  why_relevant: "The renewals section of the digitized credentials Subpart (R.S. 39:17.1-17.5). Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked."
+
+- id: la-rs-39-249
+  sha256: "0b8e067291971d1c4ad15e09d970926e1f60731890d358e27c172483554820e3"
+  url: https://legis.la.gov/legis/Law.aspx?d=1108694
+  format: html
+  citation: R.S. 39:249
+  title: R.S. 39:249. Prohibition of pornography on state computers
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Requires the division of administration to adopt acceptable-use policies for state computers and the Office of Technology Services to block harmful material on them. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-39-1753-1
+  sha256: "30e08b69504225a0b96e26ed2457598b3ec9d3c6dc7115c383c700cee6b1f6ed"
+  url: https://legis.la.gov/legis/Law.aspx?d=1195352
+  format: html
+  citation: R.S. 39:1753.1
+  title: R.S. 39:1753.1. Procurement of telecommunications or video surveillance equipment or services by state agencies and certain educational entities
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - procurement
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Restricts procurement of certain telecommunications or video surveillance equipment and services by state agencies. Page address built from the Legislature's own Title 39 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-42-1267
+  sha256: "9e72bb94af0a78fe61d3bdf7d94f2c83bfea7b0e697f98b26a6162a9540f0550"
+  url: https://legis.la.gov/legis/Law.aspx?d=1187594
+  format: html
+  citation: R.S. 42:1267
+  title: R.S. 42:1267. Required training; cybersecurity
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Requires cybersecurity awareness training for state and local agency employees and contractors, with the Department of State Civil Service providing it and agency heads reporting completion. Page address built from the Legislature's own Title 42 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-42-1471
+  sha256: "70a1ae6126b466a70ddf2dc6b3ed46fbb451d93cacdb15319e92749ecfc9e95b"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337770
+  format: html
+  citation: R.S. 42:1471
+  title: R.S. 42:1471. Definitions
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: Definitions for the chapter that bars covered applications (TikTok and successors) from state-owned or state-leased computers, devices and networks. Page address built from the Legislature's own Title 42 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-42-1472
+  sha256: "7e56c0913c242add221a984645c4c89d5a808eb3467badc74b34ec83f1cb9b7b"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337771
+  format: html
+  citation: R.S. 42:1472
+  title: R.S. 42:1472. Prohibited use of state computers and networks
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: Requires the Office of Technology Services to develop, with Joint Legislative Committee on Technology and Cybersecurity approval, a policy prohibiting covered applications on state-owned or leased computers, devices and networks. Page address built from the Legislature's own Title 42 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-42-1473
+  sha256: "2d8c9e40a93e673383ec5bc723b3cefb90e4506a4cdf95bb6dc1bf438d896ec4"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337781
+  format: html
+  citation: R.S. 42:1473
+  title: R.S. 42:1473. Penalties
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Civil penalty on an agency head who fails to implement the covered-application policy. Page address built from the Legislature's own Title 42 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-42-1474
+  sha256: "d5de1bde5a6bc4717a2e481aef7d197c09379be4db75708f2f0c5c6bf6d03018"
+  url: https://legis.la.gov/legis/Law.aspx?d=1337782
+  format: html
+  citation: R.S. 42:1474
+  title: R.S. 42:1474. Exceptions
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: 'Exceptions to the covered-application prohibition: networks open to the public. Page address built from the Legislature''s own Title 42 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-49-1051
+  sha256: "64e022e2f81b84f5bf87ed3d1a7ed910d73571474c2ecfbc3da6a0392c147a9f"
+  url: https://legis.la.gov/legis/Law.aspx?d=103479
+  format: html
+  citation: R.S. 49:1051
+  title: R.S. 49:1051. Statement of purpose
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  why_relevant: 'Statement of purpose of the Louisiana Geographic Information Systems Council chapter: interagency cooperation on state geographic information systems. Page address built from the Legislature''s own Title 49 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-49-1052
+  sha256: "ad0eb6f0617ade215d64d45050a2494164b4ac08907cb86cb92743bc08a4ee3f"
+  url: https://legis.la.gov/legis/Law.aspx?d=103480
+  format: html
+  citation: R.S. 49:1052
+  title: R.S. 49:1052. Definitions
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  why_relevant: Definitions for the geographic information systems chapter. Page address built from the Legislature's own Title 49 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-49-1053
+  sha256: "0914c993a8b7e3a475fa5e740aa1e524477fa16bf793b4b0ae6b413ed5139964"
+  url: https://legis.la.gov/legis/Law.aspx?d=103481
+  format: html
+  citation: R.S. 49:1053
+  title: R.S. 49:1053. Louisiana Geographic Information Systems Council; creation; membership; quorum; domicile
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: Creates the Louisiana Geographic Information Systems Council in the division of administration and sets its membership. Page address built from the Legislature's own Title 49 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-49-1054
+  sha256: "3994c71616a75df3f7025e8eec2a3e073c86331e7978762553de8ddf7ec9f644"
+  url: https://legis.la.gov/legis/Law.aspx?d=103482
+  format: html
+  citation: R.S. 49:1054
+  title: R.S. 49:1054. Duties of the Louisiana Geographic Information Systems Council
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: 'Duties of the council: advise the state chief information officer and oversee the Louisiana Geographic Information Center. Page address built from the Legislature''s own Title 49 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-49-1054-1
+  sha256: "18513b2181b9787e8e0dd7c2c920f5ff49c562cb15b875f22638d07f556c4480"
+  url: https://legis.la.gov/legis/Law.aspx?d=330417
+  format: html
+  citation: R.S. 49:1054.1
+  title: R.S. 49:1054.1. Duties of the Louisiana Geographic Information Center
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  why_relevant: Duties of the Louisiana Geographic Information Center, including a statewide geo-spatial portal. Page address built from the Legislature's own Title 49 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-49-1055
+  sha256: "ffb3e35c3fb28b1aa212cd831627df5173b81290cf9358a8e31f747a549730b2"
+  url: https://legis.la.gov/legis/Law.aspx?d=103483
+  format: html
+  citation: R.S. 49:1055
+  title: R.S. 49:1055. Staff of the council; cooperation by departments and local units of government
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: Staff of the council and the duty of state and local agencies to cooperate and share data. Page address built from the Legislature's own Title 49 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-49-1056
+  sha256: "e8ec145e091a74682148577006bfea669c09e424462fc693183b8b2b7a0402da"
+  url: https://legis.la.gov/legis/Law.aspx?d=103484
+  format: html
+  citation: R.S. 49:1056
+  title: R.S. 49:1056. Reports
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - oversight
+  recheck: monthly
+  why_relevant: The council's periodic report on GIS technology and data sharing in state government. Page address built from the Legislature's own Title 49 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-49-1057
+  sha256: "c3a48bb20897a82ffe88a1cf76f81ad1bd696d0adb59d739aebcea36fc495250"
+  url: https://legis.la.gov/legis/Law.aspx?d=103485
+  format: html
+  citation: R.S. 49:1057
+  title: R.S. 49:1057. Receipt of donations and grants
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - funding
+  recheck: monthly
+  why_relevant: The council may receive donations and grants for GIS technology and data sharing. Page address built from the Legislature's own Title 49 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-49-1061
+  sha256: "d87f636e03d2311e2ddb40064adbe38bff2bcf43579561f68029bae33312c89e"
+  url: https://legis.la.gov/legis/Law.aspx?d=1187677
+  format: html
+  citation: R.S. 49:1061
+  title: R.S. 49:1061. Data sharing review
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  why_relevant: 'Data sharing review: a state agency requesting data from another may petition the joint committee on governmental affairs for authorization. Page address built from the Legislature''s own Title 49 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-51-2106
+  sha256: "cfc5426317a60045dc06a94986e12a8ca8237868b00091f7d0446a23c5e9a753"
+  url: https://legis.la.gov/legis/Law.aspx?d=1148231
+  format: html
+  citation: R.S. 51:2106
+  title: R.S. 51:2106. Receipt of cyber threat indicators and defensive measure information; appropriate state entities
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: Names the state entities that may receive cyber threat indicators and defensive measure information, including the Louisiana State Police Fusion Exchange. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-51-2111
+  sha256: "1876ebb0ed0c472418396a0f775e4fe1fc6363962699a9612824b4ae5409f5ce"
+  url: https://legis.la.gov/legis/Law.aspx?d=1187004
+  format: html
+  citation: R.S. 51:2111
+  title: R.S. 51:2111. Scope and purpose
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  why_relevant: Scope and purpose of the chapter on managed service providers and managed security service providers doing business with a public body. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-51-2112
+  sha256: "3c27dcd30256b65aebc7059e7acff24b32438ef314e17bfdba776babdd26b57b"
+  url: https://legis.la.gov/legis/Law.aspx?d=1187005
+  format: html
+  citation: R.S. 51:2112
+  title: R.S. 51:2112. Definitions
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  why_relevant: 'Definitions for the managed service provider chapter: cyber incident, ransomware, public body, provider. Page address built from the Legislature''s own Title 51 table of contents (Laws_Toc.aspx), which lists each section''s Law.aspx?d= link; the label and section line in the fetched bytes were checked.'
+
+- id: la-rs-51-2113
+  sha256: "327b2f83a1f441fe8ccdd514940aa08c60d66cac4e1c7b2436882f6011885b1b"
+  url: https://legis.la.gov/legis/Law.aspx?d=1187006
+  format: html
+  citation: R.S. 51:2113
+  title: R.S. 51:2113. Requirements for doing business
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  why_relevant: A provider may not provide managed security services to a public body unless registered with the secretary of state. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-51-2114
+  sha256: "b9b316eeadd68f1523cbc40d37e54231776dbb3f89bb58fc0c57d6681ea75de4"
+  url: https://legis.la.gov/legis/Law.aspx?d=1187007
+  format: html
+  citation: R.S. 51:2114
+  title: R.S. 51:2114. Notification of cyber incidents and payment of cyber ransoms
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  why_relevant: A provider with knowledge of a cyber incident affecting a public body must notify the Louisiana Fusion Center within twenty-four hours, and report ransom payments. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-51-2115
+  sha256: "8695e1bb65e710528dd4de8725f0239b3771f786652a8bb9f2ff8b667d45a806"
+  url: https://legis.la.gov/legis/Law.aspx?d=1187008
+  format: html
+  citation: R.S. 51:2115
+  title: R.S. 51:2115. Prohibition on contracting with a provider
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  why_relevant: A public body may not contract for managed security services with an unregistered provider. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-51-2116
+  sha256: "8bdd8236882815685390b067263d08c46a4cace37e4e27dd8e3f4e0175d0ce76"
+  url: https://legis.la.gov/legis/Law.aspx?d=1187009
+  format: html
+  citation: R.S. 51:2116
+  title: R.S. 51:2116. Rules
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: The secretary of state's rulemaking for the managed service provider chapter. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-51-2108
+  sha256: "4431c8e7b469522552e046e822a70d9f4396c340758327ea62addb450c622c38"
+  url: https://legis.la.gov/legis/Law.aspx?d=1148237
+  format: html
+  citation: R.S. 51:2108
+  title: "R.S. 51:2108. Reporting"
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: "Relieves a state entity that receives cybersecurity information shared under the Chapter of the reporting requirements of 6 U.S.C. 1508: it concerns state entities only. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked."
+
+- id: la-rs-51-3073
+  sha256: "4b5ebc056fbd42dc2d39f90c2de6ea7485cd1620fd06f6410935a3bcfb9957ff"
+  url: https://legis.la.gov/legis/Law.aspx?d=322029
+  format: html
+  citation: R.S. 51:3073
+  title: R.S. 51:3073. Definitions
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Definitions for the Database Security Breach Notification Law; 'agency' includes the state and its agencies. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-rs-51-3074
+  sha256: "e56e65e87c27eca341b14a00f78b722dd7e2fb87d80699879f39afe5ba220ba3"
+  url: https://legis.la.gov/legis/Law.aspx?d=322030
+  format: html
+  citation: R.S. 51:3074
+  title: R.S. 51:3074. Protection of personal information; disclosure upon breach in the security of personal information; notification requirements; exemption
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Breach notification duties of any person or agency that owns or licenses computerized personal information, including state agencies. Page address built from the Legislature's own Title 51 table of contents (Laws_Toc.aspx), which lists each section's Law.aspx?d= link; the label and section line in the fetched bytes were checked.
+
+- id: la-ots-information-security-policy
+  sha256: "9734658ce3a98b26d9dd4294faf9f195ed3140bfadf9112a2cf78fa0e724368f"
+  url: https://ots.la.gov/policies-forms/information-security
+  format: html
+  citation: OTS Statewide Policy No. 1
+  title: Information Security Policy
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - cybersecurity
+  - data
+  - governance
+  - cloud-resilience
+  recheck: monthly
+  why_relevant: 'OTS Statewide Policy No. 1: the information security policy and procedures every entity under the authority of OTS must follow (access control, change and vulnerability management, incident management, encryption, risk management, third-party and contractor requirements), approved and published 12/22/2025 as the page prints. The Division of Administration''s legacy page links a PDF copy of the same current policy, which is left out in favor of this page (see left_out).'
+  identity_text: Information Security Policy
+
+- id: la-ots-ai-acceptable-use-policy
+  sha256: "82b8728c02475ccd4f8d274dfd9004ef2517fffde77dfa292fa4b46b4bfe4f5d"
+  url: https://ots.la.gov/policies-forms/artificial-intelligence-acceptable-use
+  format: html
+  citation: OTS Statewide Policy No. 3
+  title: Artificial Intelligence Acceptable Use Policy
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - ai
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: 'OTS Statewide Policy No. 3, effective September 29, 2025: guidelines for the use of AI by agencies and employees under OTS authority, including what users may not do without authorization (entering restricted data into commercial AI, AI making business decisions on enrollment, employment, eligibility, finances, law enforcement or welfare), labeling, human verification and AI incidents.'
+  identity_text: Artificial Intelligence Acceptable Use Policy
+
+- id: la-ots-movable-property-tagging-policy
+  sha256: "35622008f75bd0a1b7058d354d8ac130b7bf35644d5d9c963d5c81396b208799"
+  url: https://ots.la.gov/policies-forms/movable-property-tagging
+  format: html
+  citation: OTS Statewide Policy No. 2
+  title: Movable Property Tagging Policy
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - governance
+  - oversight
+  recheck: monthly
+  why_relevant: 'OTS Statewide Policy No. 2, effective April 1, 2024: tagging of technology movable property valued at $5,000 or more procured by executive branch agencies, the IT commodity class codes that require OTS approval, and the transfer of OTS-tagged assets back to agencies.'
+  identity_text: Movable Property Tagging Policy
+
+- id: la-ots-change-management-policy
+  sha256: "cf48198c2ab36cc14ace503724bd3ee2f7c47eeb86d94f27ba2da75e9d0311a2"
+  url: https://www.doa.la.gov/media/lhibcody/ots_change_management_policy.pdf
+  format: pdf
+  citation: OTS Change Management Policy (June 2020)
+  title: Change Management Policy
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - governance
+  - cloud-resilience
+  - cybersecurity
+  recheck: monthly
+  why_relevant: OTS enterprise governance policy (36 pages, June 2020) on how changes to systems are requested, reviewed, approved and implemented; the Information Security Policy points to it for change management.
+  identity_text: CHANGE MANAGEMENT POLICY
+  no_text_pages: [3]   # page 3 is the sponsor acceptance page: a scanned signature block (11 words, a handwritten signature and date); the OCR procedure needs 100 words and cannot read it
+
+- id: la-ots-incident-response-policy
+  sha256: "003c8bd189f6d26994fc3f5e502a70f6c110d1ad7a14e4d2c3ca7412f70dd384"
+  url: https://www.doa.la.gov/media/f1hooo3l/incident_response_policy_and_procedure_redacted.pdf
+  format: pdf
+  citation: OTS Incident Response Policy and Procedure, Revision 2.01
+  title: Incident Response Policy and Procedure
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: 'Revision 2.01, June 23, 2025: the State''s incident response plan run by the Information Security team (identification, classification and the phases that follow). The file is the redacted public version, as its address says.'
+  identity_text: Incident Response Policy and Procedure
+  ocr: [6, 7, 18, 19, 20, 21]   # these pages are page-sized images of text (no text layer): read by the two-engine OCR procedure
+
+- id: la-ots-data-sanitization-policy
+  sha256: "3d5ec91d0979bb67765de7734a198788b20fac4595637e9a429ea73fba9bd7f0"
+  url: https://www.doa.la.gov/media/mgohnnpz/data_sanitization_policy_and_procedures.pdf
+  format: pdf
+  citation: OTS Data Sanitization Policy and Procedures, Revision 1.03
+  title: Data Sanitization Policy and Procedures
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  why_relevant: 'Revision 1.03, October 28, 2024: how data is sanitized from media before reuse or disposal. The Information Security Policy says this document serves as its sanitization appendix.'
+  identity_text: Data Sanitization Policy and Procedures
+
+- id: la-ots-end-user-agreement
+  sha256: "bd3f4e0ca87db5c8b6f080bdee11dc07891e291647adda60247366d60b3d5a03"
+  url: https://www.doa.la.gov/media/ifxpedx3/isp-enduseragreement.pdf
+  format: pdf
+  citation: OTS Information Security Policy End User Agreement, Revision 2.00
+  title: Information Security Policy End User Agreement
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  why_relevant: 'Revision 2.00, January 7, 2025: the acceptable-use rules every user of State systems must agree to (11 pages). It ends in a signature page, so the owner may prefer it left out as a form; see left_out.'
+  identity_text: End User Agreement
+
+- id: la-doa-policy-1
+  sha256: "1600e2d0fdedad56fce6578d068c820c6866cbd9b98744229bb4e724a057a968"
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/1-information-technology-responsibilities/
+  format: html
+  citation: DOA Policy No. 1
+  title: Information Technology Responsibilities
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Assigns information technology responsibilities within the Division of Administration (effective January 31, 1994, revised to February 1, 2005). Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+- id: la-doa-policy-2
+  sha256: "a5c579b9118e5b34d3dd14bc628a6fea1b297d7b425ee857ad68d74d23509843"
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/2-personal-computer-documentation-standards/
+  format: html
+  citation: DOA Policy No. 2
+  title: Personal Computer Documentation Standards
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - oversight
+  recheck: monthly
+  why_relevant: Documentation standards for personal computers within the Division of Administration (revised August 26, 2002). Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+- id: la-doa-policy-3
+  sha256: "72baf6007f24551f286e461e28008e61cdae031338a386c7386da2d85dddbe59"
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/3-acceptable-use-of-information-technology-systems-and-networks/
+  format: html
+  citation: DOA Policy No. 3
+  title: Acceptable Use of Information Technology Systems and Networks
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: What Division of Administration employees may and may not do on IT systems and networks (revised May 20, 2003). Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+- id: la-doa-policy-5
+  sha256: "75fd5e62f978fba0e404bc43787b9282e94df70af442aa2dabc202a49490449c"
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/5-publication-of-information-on-the-internet-and-doa-intranet-incorporates-doa-policy-no-15/
+  format: html
+  citation: DOA Policy No. 5
+  title: Publication of Information on the Internet and DOA Intranet (Incorporates DOA Policy No. 15)
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  why_relevant: Rules for publishing Division of Administration information on the Internet and intranet (revised February 1, 2005). The DOA index lists it as 'Publication of Information on Info Louisiana and the World Wide Web'; the page's own subject line is used as the title. Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+- id: la-doa-policy-7
+  sha256: "d0ce975d687750a8a016b84ec0443b83fa3857a0ff5924d362322f3920c30fb7"
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/7-year-2000-compliance/
+  format: html
+  citation: DOA Policy No. 7
+  title: Year 2000 Compliance
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - oversight
+  recheck: monthly
+  why_relevant: The 1996 policy (revised March 16, 1998) on year 2000 compliance of Division of Administration systems. The index still lists it and marks it neither superseded nor rescinded. Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+- id: la-doa-policy-20
+  sha256: "4c9da263e89bd4b8e77584f7b23e166ec264feef66c69478d326d7813334d361"
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/20-security-of-information-technology-systems-and-networks/
+  format: html
+  citation: DOA Policy No. 20
+  title: Security of Information Technology Systems and Networks
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - cybersecurity
+  recheck: monthly
+  why_relevant: Security duties for Division of Administration IT systems and networks (effective May 20, 2003, revised February 1, 2005). Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+- id: la-doa-policy-22
+  sha256: "cf7c1f7e460a44d13859cf294f38034dbc9f29b4c1ed13f6d4642252eba3d6f3"
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/22-data-sanitization/
+  format: html
+  citation: DOA Policy No. 22
+  title: Data Sanitization
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  why_relevant: Sanitizing data on Division of Administration equipment before disposal (effective January 26, 2006). Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+- id: la-doa-policy-23
+  sha256: "0b79f37b9d51a61afb72347a2df0809550ec267408249d064656fe9f95cbe807"
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/23-use-of-smartphone-devices-for-access-to-state-data/
+  format: html
+  citation: DOA Policy No. 23
+  title: Use of Smartphone Devices for Access to State Data
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  why_relevant: Conditions for using smartphones to access State data (effective February 1, 2011). Listed on the Division of Administration Office of Human Resources 'DOA Policies' page, which the OTS Policies and Forms page links as the overarching DOA policies.
+
+- id: la-eo-jml-25-109
+  sha256: ''
+  url: https://gov.louisiana.gov/news/4953
+  format: pdf
+  citation: Executive Order JML 25-109
+  title: Amended State Government's Use of AI
+  doc_type: executive_order
+  jurisdiction: louisiana
+  issuing_body: Office of the Governor
+  tags:
+  - ai
+  - governance
+  - data
+  recheck: monthly
+  why_relevant: 'Governor Landry''s order of September 29, 2025, amending his order JML 25-103: state agency use of any AI source needs the state CIO''s approval, no AI procurement before December 15, 2025, the CIO and agency heads to issue AI acquisition and data management policies, datasets reviewed before use in an AI system, and a ban on free AI tools made by hostile foreign governments. It continues until amended or rescinded. The address is the governor''s own news item 4953, which serves this PDF (found through the governor''s older index.cfm/newsroom/detail/4953 link; the PDF''s heading line was checked).'
+  stub: true
+  stub_reason: "The official PDF is a scan of the signed order that carries an embedded OCR layer. The shared OCR path (ocrmypdf) refuses a page that already has text ('PriorOcrFoundError: page already has text'), and the embedded layer is not a faithful copy: it misreads words (for example 'Al' for 'AI', 'c01mnerce' for 'commerce', 'GoVERN0R', 'OFSTATE'), so taking it as the text would put errors in the mirror. Refused on 2026-11-12 as three North Carolina orders were. Becomes a document when the shared OCR path can re-read a page that has a text layer (a shared change; see the PR) or the Governor publishes a text copy."
+
+- id: la-eo-jml-26-107
+  sha256: ''
+  url: https://gov.louisiana.gov/assets/2026-Executive-Orders/JML-Exective-Order-26-107.pdf
+  format: pdf
+  citation: Executive Order JML 26-107
+  title: Renewal of State of Emergency - Cybersecurity Incidents
+  doc_type: executive_order
+  jurisdiction: louisiana
+  issuing_body: Office of the Governor
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  why_relevant: The renewal, effective October 30 through November 29, 2026, of the state of emergency over cybersecurity incidents against public entities, with the emergency powers and suspensions it lists (including of the Information Technology Procurement Code, R.S. 39:196-200, where strict compliance would hinder the response). It is renewed monthly, so the instrument in force changes each month.
+  stub: true
+  stub_reason: "The official PDF is a scan of the signed order that carries an embedded OCR layer. The shared OCR path (ocrmypdf) refuses a page that already has text ('PriorOcrFoundError: page already has text'), and the embedded layer is not a faithful copy: on page 3 it misreads words and citations ('lnfonnation' for 'Information', 'R.S. 29:724(0)(1)', 'R.S. 39: 1551', '_suspended', 'ofthe', 'ofUnderstanding', 'OFSTATE'), so taking it as the text would put errors in the mirror. Refused on 2026-11-12 as three North Carolina orders were. Becomes a document when the shared OCR path can re-read a page that has a text layer (a shared change; see the PR) or the Governor publishes a text copy."
+
+- id: la-lac-4-xv
+  sha256: ''
+  url: https://www.doa.la.gov/media/j1vpjkkd/04v01-09.docx
+  format: docx
+  citation: LAC 4:XV
+  title: Louisiana Administrative Code, Title 4, Part XV. Information Technology
+  doc_type: rule
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - governance
+  - procurement
+  - digital-services
+  recheck: monthly
+  why_relevant: 'The Office of Technology Services'' rules: the CIO and OTS under R.S. 39:15.1-6 (Chapter 1), the duty of agencies to comply with OTS policies and guidelines (Chapter 3), the OTS policy and guideline publication rule (Chapter 5) and the rules for submitting and receiving electronic bids (Chapter 7); about five pages inside the file for all of Title 4.'
+  stub: true
+  stub_reason: 'The only official source is one 11.7 MB Word file for the whole of Title 4, Administration (15,729 lines of plain text from ''pandoc -t plain'' with pandoc 3.11, in 13 parts numbered I to XXV: I, III, V, VII, IX, XIII, XV, XVII, XIX, XXI, XXIII, XXIV, XXV; in that conversion Part XV is lines 11,682-11,885 and begins at the heading ''Part XV Information Technology''). The shared Word reader takes the whole file and has no slice, so ingesting it would commit the whole of Title 4 as an IT rule, and a state module cannot add a slice because the Word path does not call a state hook. Needs a shared change: a `slice: {part: XV}` for Word files in src/states/__init__.py (or src/ingest_docx.py). Fetched through the Fetcher on 2026-11-12 and Part XV read in the converted text.'
+
+- id: la-watch-ots-policies-forms
+  sha256: ''
+  url: https://ots.la.gov/policies-forms
+  format: html
+  citation: 'OTS page: Policies and Forms'
+  title: 'OTS: Policies and Forms (index)'
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: 'OTS''s own policy library: three policies (Artificial Intelligence Acceptable Use, Information Security, Moveable Property Tagging) and a link to the DOA policies. A policy added, replaced or removed raises a review-the-seed-list report.'
+  watch_only: true
+
+- id: la-watch-doa-ots-policies-forms
+  sha256: ''
+  url: https://doa.la.gov/doa/ots/policies-and-forms/
+  format: html
+  citation: 'DOA page: OTS Policies and Forms (legacy)'
+  title: 'DOA: OTS Policies and Forms (legacy index)'
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The older listing of OTS statewide policies, the Information Security Policy appendices and the network services forms on the Division of Administration site, which still answers. A second official listing of the same policies; a row added or removed raises a report.
+  watch_only: true
+
+- id: la-watch-doa-hr-policies
+  sha256: ''
+  url: https://doa.la.gov/doa/hr/policies/doa-policies/
+  format: html
+  citation: 'DOA page: DOA Policies'
+  title: 'DOA: DOA Policies (index)'
+  doc_type: policy
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The Division of Administration's numbered policies (22 rows); eight are IT policies and are seeded. A row added, replaced or removed raises a report.
+  watch_only: true
+
+- id: la-watch-ots-enabling-legislation
+  sha256: ''
+  url: https://ots.la.gov/about/enabling-legislation
+  format: html
+  citation: 'OTS page: Enabling Legislation'
+  title: 'OTS: Enabling Legislation (index)'
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Office of Technology Services, Division of Administration
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: OTS's list of the acts that created and shaped the office (Acts 712 of 2014, 241 and 46 of 2015, 409 of 2009 and others). A new act listed raises a review-the-seed-list report.
+  watch_only: true
+
+- id: la-watch-lac-index
+  sha256: ''
+  url: https://www.doa.la.gov/doa/osr/louisiana-administrative-code/
+  format: html
+  citation: 'DOA page: Louisiana Administrative Code'
+  title: Louisiana Administrative Code (index of titles)
+  doc_type: rule
+  jurisdiction: louisiana
+  issuing_body: Division of Administration
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The Office of the State Register's list of Administrative Code titles, one Word file per title (Title 4 holds the OTS rules in Part XV). A changed file address or a new title raises a report.
+  watch_only: true
+
+- id: la-watch-legis-title-39
+  sha256: ''
+  url: https://www.legis.la.gov/legis/Laws_Toc.aspx?folder=113&title=39.
+  format: html
+  citation: 'Legislature page: Revised Statutes Title 39 table of contents'
+  title: 'Louisiana Revised Statutes Title 39: table of contents (index)'
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The Legislature's table of contents of R.S. Title 39, listing every section with its Law.aspx address. A section added, repealed or retitled in the chapters this corpus holds raises a review-the-seed-list report (it also changes for sections outside them, so most reports will be noise).
+  watch_only: true
+
+- id: la-watch-legis-title-42
+  sha256: ''
+  url: https://www.legis.la.gov/legis/Laws_Toc.aspx?folder=116&title=42.
+  format: html
+  citation: 'Legislature page: Revised Statutes Title 42 table of contents'
+  title: 'Louisiana Revised Statutes Title 42: table of contents (index)'
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The Legislature's table of contents of R.S. Title 42, listing every section with its Law.aspx address. A section added, repealed or retitled in the chapters this corpus holds raises a review-the-seed-list report (it also changes for sections outside them, so most reports will be noise).
+  watch_only: true
+
+- id: la-watch-legis-title-49
+  sha256: ''
+  url: https://www.legis.la.gov/legis/Laws_Toc.aspx?folder=123&title=49.
+  format: html
+  citation: 'Legislature page: Revised Statutes Title 49 table of contents'
+  title: 'Louisiana Revised Statutes Title 49: table of contents (index)'
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The Legislature's table of contents of R.S. Title 49, listing every section with its Law.aspx address. A section added, repealed or retitled in the chapters this corpus holds raises a review-the-seed-list report (it also changes for sections outside them, so most reports will be noise).
+  watch_only: true
+
+- id: la-watch-legis-title-51
+  sha256: ''
+  url: https://www.legis.la.gov/legis/Laws_Toc.aspx?folder=125&title=51.
+  format: html
+  citation: 'Legislature page: Revised Statutes Title 51 table of contents'
+  title: 'Louisiana Revised Statutes Title 51: table of contents (index)'
+  doc_type: statute
+  jurisdiction: louisiana
+  issuing_body: Louisiana Legislature
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The Legislature's table of contents of R.S. Title 51, listing every section with its Law.aspx address. A section added, repealed or retitled in the chapters this corpus holds raises a review-the-seed-list report (it also changes for sections outside them, so most reports will be noise).
+  watch_only: true
+
+- id: la-watch-gov-home-orders
+  sha256: ''
+  url: https://gov.louisiana.gov/
+  format: html
+  citation: 'Governor page: home page order block'
+  title: "Governor: home page (latest executive orders)"
+  doc_type: executive_order
+  jurisdiction: louisiana
+  issuing_body: Office of the Governor
+  tags:
+  - governance
+  recheck: monthly
+  why_relevant: The Governor's order list (news?cat=11) is script-rendered and empty in the bytes the Fetcher gets, but the home page prints the latest orders as links (JML 26-038, 26-108 and 26-107 on 2026-11-12). It reports the next renewal of the cybersecurity state of emergency, JML 26-107. Noisy, because every new order of any subject changes it.
+  watch_only: true
+
+left_out:
+- text: |-
+    ---- Louisiana: found and left out (each was seen on an official page on 2026-11-12 and read through the Fetcher; the reason is recorded here)
+- text: |-
+    OTS Policies and Forms (https://ots.la.gov/policies-forms), reconciled row by row: 3 policies and the link to the DOA policies. All 3 are seeded. The Division of Administration's legacy OTS page (https://doa.la.gov/doa/ots/policies-and-forms/) lists 12 'Statewide Policies and Forms' rows: 6 are seeded (Change Management Policy, End User Agreement, Incident Response Policy and Procedure, Data Sanitization Policy and Procedures, and the Movable Property Tagging policy, #2, and the AI policy, #3, whose seeded copies are the ots.la.gov pages), 6 are left out:
+     - 'Statewide Policy #1: Information Security Policy (V.2.0)' PDF (https://www.doa.la.gov/media/wvmhsr1r/information-security-policy.pdf, 130 pages): the file prints 'Revision: 2.00, Date Published: December 16, 2015' and also 'Date Updated: 12/22/2025' and 'The Information Security Policy and Procedures were reviewed, approved, and published on 12/22/2025', the same approval line as the seeded ots.la.gov page. It is not an older revision: it is a second official copy of the current policy (PDF 37,240 words, page text 33,633) and the place where the citation 'OTS Statewide Policy No. 1' is printed. The HTML page was seeded because it is the OTS site's own page for the policy and is extracted as structured text; the PDF is left out as a duplicate. OWNER DECISION: seed the PDF as well if both copies are wanted.
+     - 'Chain of Custody' (1-page PDF with blanks), 'Request for Policy Exception Form' (https://www.doa.la.gov/media/wlfppcdr/isp-exception-request-form.pdf), 'Risk Acceptance Form' (https://www.doa.la.gov/media/k2unypjh/isp-risk-acceptance-form.pdf): appendix forms of the Information Security Policy.
+     - 'Third Party Information Security Questionnaire' (Excel workbook linked from the page, not fetched): a questionnaire vendors fill in.
+     - 'Criminal History Review - Applicant Privacy Rights' (5-page PDF): the notice to applicants whose fingerprints are submitted to the State Police and the FBI; a notice of rights, not an IT instrument.
+    The same page's 'Network Services and Telecommunications Forms' (General, Conferencing, Network Data Services, Voice Services, Wire and Cable groups: OTS-11, OTS-15, OTS-16 with its instructions, ticketing guide and planning checklist, OTS-26, OTS/S-1, OTS/S-2, OTS-103, OTS-104, OTS-30, OTS-39, OTS-7, OTS-32, OTS-60, OTS-65, OTS-50 and two quote-request forms) and 'Production Support Services Forms' (DA-200 Printing Request, DA-201 Estimate Request) are order, request and billing forms: forms are not instruments, and telecom and printing services are out of scope. None fetched.
+- text: |-
+    DOA Policies page (https://doa.la.gov/doa/hr/policies/doa-policies/), reconciled row by row: 22 rows, 8 seeded (Nos. 1, 2, 3, 5, 7, 20, 22, 23), 14 left out:
+     - OWNER DECISION, recorded for review: No. 6 'Use of State Resources (Incorporates DOA Personnel Policy No. 24)' and No. 19 'Acquisitions'. No. 6 governs State-owned equipment, vehicles, records and IT resources together; No. 19 governs all DOA acquisitions and has an IT approval path (IT purchases of $100,000 or more need the Office of Information Technology). Both are general-purpose, so they are left out; the owner may want them.
+     - No. 18 'Cellular Phone Utilization and Reimbursement': a telephone use and reimbursement policy; telecom is scoped out.
+     - No. 24 'Records Retention Policy': records management, not IT.
+     - Nos. 4 (In-Domicile Travel, which the index itself marks superseded by PPM 49), 12 (Bloodborne Pathogens Program), 13 (Drivers' Safety Policy), 14 (Bonds and Crimes Loss Control Program), 16 (Mail and Package Handling Procedures), 17 (Prohibition of Open Flames), 21 (Supplemental Benefits Solicitation Policy), 25 (State Vehicle Maintenance Policy), 26 (Receipt of Cash and Cash Equivalents), 27 (Workers' Comp Post-Accident Drug Testing Policy): not IT.
+- text: |-
+    Statutes. Sections were found in the Legislature's own table of contents of Titles 39, 42, 49, 51, 36 and 44 (captions searched for artificial, automated decision, algorithm, machine, cyber, information technology, technology services, breach, digital, geographic information; no caption names artificial intelligence), and every section on this list was fetched. Left out:
+     - R.S. 39:15.4, 15.5, 15.6: the page prints each as repealed (Acts 2013, No. 184).
+     - R.S. 39:140, 141, 142, 143 (Office of Telecommunications Management, merged into OTS by Act 241 of 2015) and R.S. 39:1751-1755 (procurement of telecommunications systems and services): telecom is scoped out. OWNER DECISION: these put telecom services under the state CIO and the owner may want them. Not fetched.
+     - R.S. 51:2101-2105, 2107, 2109 (the cybersecurity information sharing act: legal protections for any person or entity that shares threat indicators, the state police's rulemaking): they bind private and public sharers alike and not state agencies as such; R.S. 51:2106, naming the state entities that receive the information, and R.S. 51:2108, which concerns state entities only (relief from the reporting requirements of 6 U.S.C. 1508), are seeded. R.S. 51:3071, 3072, 3075, 3076, 3077 (short title, findings, damages, financial institutions, rulemaking of the breach notification law): only the definitions (3073) and the duties (3074) that bind agencies are seeded.
+     - R.S. 39:17.1-17.5 (Subpart E, Digitized Credentials) are seeded: 17.2 makes state credentials available in an electronic wallet and directs the commissioner of administration to adopt rules, a state entity's digital-identity service. OWNER DECISION: borderline; remove them if the owner reads the Subpart as outside the domain.
+     - R.S. 9:2601-2619 (Louisiana Uniform Electronic Transactions Act) and R.S. 33:2933 (electronic governmental transactions), which OTS's enabling-legislation page links: general commercial and local-government law, not found in the IT body's statute; not fetched. OWNER DECISION on whether the electronic-records law belongs.
+     - The Statewide Data Exchange Compact (Act 477 of 2026, 'R.S. 39:18.1 through 18.3' according to web search; enrolled bill not fetched): the Legislature's Title 39 table of contents fetched on 2026-11-12 lists no section 39:18.1-18.3, so there is no official page to fetch yet. Revisit when the table of contents lists it; the Title 39 watch entry will report it.
+     - Session laws (Acts 712 of 2014, 241 and 46 of 2015, 45 and 15 of 2014, 409 of 2009, 308 of 2023) are the acts the sections above come from; the codified sections are seeded, not the acts. SCR 49 (2026) is a study resolution, not law. No statute binding state agencies' use of AI was found in the lists above.
+- text: |-
+    Rules. LAC 4:XV is the stub above (a shared-code limit). Other parts of the same Title 4 file, seen in the converted text and left out: Part IX Telecommunications (the Office of Telecommunications Management's rules; telecom), Part XVII Records Management Policies and Practices, Part XXIII ADA Accessibility (public meetings by electronic means for people with disabilities, a meeting-access rule), Part XXIV Reporting for Nongovernmental Entity Database, Part V Policy and Procedure Memoranda (general state administration), and Part XXI broadband grants (scoped out). Title 34 (Government Contracts, Procurement and Property Control) is the Office of State Procurement's general procurement rules: not read part by part and not seeded. The Code index lists one Word file per title; no other title was opened.
+- text: |-
+    Executive orders. The Governor's list (https://gov.louisiana.gov/news?cat=11) is script-rendered (the Governor's home page, which prints the latest orders as links, is watched instead: la-watch-gov-home-orders) ('Load More', empty in the page the Fetcher gets) and the site's feed behind it is an internal endpoint that is not used, so the list could not be read row by row; the Governor's home page lists the three latest orders, JML 26-106, 26-107 and 26-108. Orders were found by search and each seeded or left out here was fetched. 'None found' covers only these: found and in force: JML 25-109 and JML 26-107 (seeded as stubs). Left out:
+     - JML 25-103 'State Government's Use of AI' (September 2025): amended by JML 25-109, whose heading reads 'Amended State Government's Use of AI' and which restates every section; 25-109 is seeded.
+     - JML 26-020, JML 26-063 and the other earlier renewals of the cybersecurity state of emergency (JML 26-008 among them): each ran 30 days and has been replaced by a later renewal; the one effective October 30 to November 29, 2026 is JML 26-107. The seeded entry must be replaced with each renewal.
+     - JBE 17-31 (Louisiana Cybersecurity Commission, December 2017), JBE 19-19 and JBE 2022-9 (amendments): the addresses web search gave (www.doa.la.gov/media/uu3nd3eq/jbe-17-31.pdf and doa.la.gov/media/tzxdypr1/jbe-2022-9-amending-cybersecurity-commission.pdf) answered 404 on 2026-11-12, so the text could not be fetched and whether they are in force could not be checked; the Legislature created the commission in statute in 2023 (R.S. 39:15.11-15.15, seeded). Not withdrawn as far as is known; revisit if an official address is found.
+     - JML 26-058 (criteria for data center tax certifications: energy and economic development, not government IT), JML 26-038 (suspension of party primary elections), JML 26-106 (flags at half-staff) and JML 26-108 (tropical storm emergency): not IT.
+     - JML 25-109 and JML 26-107 are in force but stubs (scans with an embedded, error-bearing OCR layer that the shared OCR path refuses); see the stub reasons.
+- text: |-
+    Not instruments or out of scope: OTS's strategy plan (office-of-technology-strategic-plan_fy24-fy28.pdf, a strategy document found by search, not fetched), the OTS news item 'OTS Publishes First State AI Policy' and the OTS pages on services, vendors and modernization (descriptions, not instruments).

@@ -1,0 +1,390 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: delaware
+id: de-ap-src-002
+title: Application Sourcing Guideline
+doc_type: standard
+citation: DTI Standard ID AP-SRC-002
+authority_level: ''
+issuing_body: Delaware Department of Technology and Information (DTI)
+source_url: https://webfiles.dti.delaware.gov/pdfs/pp/ApplicationSourcingGuideline.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 3f5143135a516757b5aee75cf00820031f28b7b7f42b910640a58286a0b674c9
+effective_date: '2023-01-13'
+source_version: Revision 0 (reviewed 06/23/2023)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Application Sourcing Guideline (DTI Standard ID AP-SRC-002)
+
+## At a glance
+
+Item of the DTI Standards and Policies library, section 'Application': a guideline (the document prints a 'Standard ID' and the title 'Application Sourcing Guideline') of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Application; Discipline: Sourcing).
+
+## Full text
+
+                                                                  DELAWARE STATE-WIDE INFORMATION
+                                                     TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+            Standard ID:      AP-SRC-002
+
+                   Title:     Application Sourcing Guideline
+
+     Revision Number:         0
+
+               Domain:        Application
+
+             Discipline:      Sourcing
+
+              Effective:      01/13/2023
+              Reviewed:       06/23/2023
+        Approved By:          Chief Technology Officer
+               Sponsor:       Chief Technology Officer
+
+I.            Authority, Applicability and Purpose
+      A. Authority: Title 29 Chapter 90C Delaware Code, §9004C – General Powers, duties and
+         functions of DTI “2) Create, implement and enforce statewide and agency technology solutions,
+         policies, standards and guidelines, including as recommended by the CIO”
+      B. Applicability: Applies to all State of Delaware communications and computing resources. The
+         Department of Technology and Information (DTI) is an Executive Branch Agency and has no
+         authority over the customers in Legislative and Judicial Branches, as well as Local Education
+         Agencies, and other Federal and Local Government entities that use these resources. However,
+         all users, including these entities, must agree to abide by all policies, standards promulgated by
+         DTI as a condition of funding, access and continued use of these resources.
+      C. Purpose: The purpose of this guideline is to assist decision makers when seeking an IT solution
+         to fill their business needs. This guideline is to aid in areas such as security, customization, and
+         resources.
+
+II. Scope
+       A.    Areas Covered: All solutions to business problems.
+       B.    Environments: This guidance is focused on the production environment.
+
+These guidelines are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            1 of 8
+
+                                                                  DELAWARE STATE-WIDE INFORMATION
+                                                     TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+III. Process
+     A.    Adoption: These guidelines have been adopted by the Department of Technology and
+           Information (DTI) through the Technology and Architecture Standards Committee (TASC) and
+           are applicable to all Information Technology use throughout the State of Delaware.
+     B.    Revision: Technology is constantly evolving; therefore the guidelines will need to be regularly
+           reviewed. It is the intent of the TASC to review this guideline annually. The TASC is open to
+           suggestions and comments from knowledgeable individuals within the state, although we ask
+           that they be channeled through your Information Resource Manager (IRM).
+     C.    Contractors: Contractors or other third parties are required to comply with these guidelines
+           when proposing technology solutions to DTI or other state entities. Failure to do so could result
+           in rejection of the proposed technology solution. For further guidance, or to seek review of a
+           component that is not rated below, contact the TASC at dti_tasc@delaware.gov.
+     D.    Implementation responsibility: DTI and/or the organization’s technical staff will implement
+           these guidelines during the course of normal business activities, including business case
+           review, architectural review, project execution and the design, development, or support of
+           systems.
+     E.    Enforcement: DTI will enforce these guidelines during the course of normal business activities,
+           including business case and architectural review of proposed projects and during the design,
+           development, or support of systems. These guidelines may also be enforced by others during
+           the course of their normal business activities, including audits and design reviews.
+     F.    Contact us: Any questions or comments should be directed to dti_tasc@delaware.gov.
+
+IV. Definitions/Declarations
+     A.    Definitions
+              1. COTS – Commercial Off-The-Shelf software, for example QuickBooks.
+              2. Custom1 - (also known as bespoke or tailor-made) is specially developed for some
+                 specific organization or user. As such, it can be contrasted with the use of software
+                 packages developed for the mass market, such as commercial off-the-shelf (COTS)
+                 software, or SaaS.
+              3. Host Internally – A solution that is deployed on State infrastructure within a State-owned
+                 facility. For example, DTI.
+              4. Host Externally – for example:
+
+1 https://en.wikipedia.org/wiki/Custom_software
+
+These guidelines are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            2 of 8
+
+                                                                  DELAWARE STATE-WIDE INFORMATION
+                                                     TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+                         i. Infrastructure as a Service (IaaS) 2 “The capability provided to the consumer is to
+                            provision processing, storage, networks, and other fundamental computing
+                            resources where the consumer is able to deploy and run arbitrary software,
+                            which can include operating systems and applications. The consumer does not
+                            manage or control the underlying cloud infrastructure but has control over
+                            operating systems, storage, and deployed applications; and possibly limited
+                            control of select networking components (e.g., host firewalls).” For example, a
+                            DR/BC site. While the term IaaS is not utilized in this document, it is presented
+                            here for the purposes of comparison to PaaS and SaaS.
+                        ii. Platform as a Service (PaaS) – “The capability provided to the consumer is to
+                            deploy onto the cloud infrastructure consumer-created or acquired applications
+                            created using programming languages, libraries, services, and tools supported
+                            by the provider. The consumer does not manage or control the underlying cloud
+                            infrastructure including network, servers, operating systems, or storage, but has
+                            control over the deployed applications and possibly configuration settings for the
+                            application-hosting environment.” For example, Amazon Web Services (AWS).
+                        iii. Software as a Service (SaaS) – “The capability provided to the consumer is to
+                             use the provider’s applications running on a cloud infrastructure. The applications
+                             are accessible from various client devices through either a thin client interface,
+                             such as a web browser (e.g., web-based email), or a program interface. The
+                             consumer does not manage or control the underlying cloud infrastructure
+                             including network, servers, operating systems, storage, or even individual
+                             application capabilities, with the possible exception of limited user-specific
+                             application configuration settings.” For example, SalesForce.
+              5. Managed business services3 - the practice of outsourcing day-to-day management
+                 responsibilities and functions as a strategic method for improving operations and cutting
+                 expenses this can include outsourcing for example business processes like HR, or
+                 licensing.
+              6. Managed IT services4 - the practice of outsourcing day-to-day management
+                 responsibilities and functions of IT as a strategic method for improving operations and
+                 cutting expenses. This can include outsourcing IT processes like Virtual Application
+                 Services or licensing a third party to manage relationships between cloud providers.
+              7. Recoverability – the ability to be restored to a normal operational state.
+              8. Reliability - the ability to be relied on or depended on, as for accuracy, honesty, or
+                 achievement.
+
+2 http://csrc.nist.gov/publications/nistpubs/800-145/SP800-145.pdf for the definitions of SaaS, PaaS and
+
+IaaS
+3 https://en.wikipedia.org/wiki/Managed_services
+
+4 https://en.wikipedia.org/wiki/Managed_services
+
+These guidelines are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            3 of 8
+
+                                                                  DELAWARE STATE-WIDE INFORMATION
+                                                     TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+              9. Security - the protection of information assets through the use of technology processes.
+              .
+     B.    Declarations
+
+        1. The following sourcing list should be used when choosing a solution that satisfies the
+           organization’s requirements. All sourcing decisions should utilize this list in the order presented.
+           For example, SaaS is to be eliminated as a suitable solution before COTS can be considered.
+                  o Existing State application or contract regardless of premises
+                  o SaaS application
+                  o COTS application using PaaS with vendor support
+                  o COTS application using internally hosted with vendor application support
+                  o Custom application using PaaS with vendor support
+                  o Custom application internally hosted with vendor application support
+                  o Custom application internally hosted with State application support
+
+V. Guidelines
+
+     A.    Considerations
+              1. Solve the Business Needs
+                         i. This guideline is to assist decision makers when seeking an IT solution that fills
+                            their business needs. This guideline is to aid in areas such as security,
+                            customization, and resources.
+                         ii. When an IT solution is called for, a team of subject-matter experts is assembled
+                             to find the right solution. Those chosen to pick the solution face a forest of
+                             acronyms, mergers, consolidations, start-ups, privacy breach reports, RFP and
+                             contracting rules, and competing claims from vendors and consultants.
+                        iii. The determination of the levels of risk and the appropriate measures to be taken
+                             to manage the risks should be determined by all affected ISO’s and IRM’s.
+              2. Repair or Replace
+                         i. The decision whether to repair a system or replace it traditionally has been tied to
+                            the amount of funding available. Until the philosophy of an IT depreciation cycle
+                            becomes a part of the budgeting and planning process, we will continue to
+                            struggle with outdated, costly software that is difficult to support in addition to a
+                            mounting list of ancillary systems needed to support production.
+
+These guidelines are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            4 of 8
+
+                                                                  DELAWARE STATE-WIDE INFORMATION
+                                                     TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+                                  1. Expect hardware to have a 3 - 5 year lifespan5.
+                                  2. Operating systems typically last less than 9 Years 6.
+                                  3. The optimal7 average lifespan of a programming language is 9 8 years
+                                     before they become exceptionally costly to maintain.
+                        ii. Budget submissions and business cases should always include at least 20% of
+                            the cost of the system annually. This will allow for depreciation and changes in
+                            technology. As the current system technology nears end-of-life, business
+                            processing analysis and budget requests must be analyzed more closely.
+                        iii. In addition, the organization needs to consider the impact to its operating staff, its
+                             Service Desk and its vendor managers. When contracting with a cloud provider,
+                             the cost of vendor management, SLA management, business analysts and IT
+                             specialists must be included in calculating the true cost of the cloud solution. The
+                             impact on staff and productivity is very often under-estimated.
+                        iv. The decision to repair or replace a system or component should be led by risk
+                            and cost management. When performing major repairs all technology that is
+                            disallowed or nearing end-of-life, must be replaced with a standard technology.
+                        v. Before making the final decision to repair or replace a system consult and adhere
+                           to the current State standards and policies. Spending time and money to
+                           implement outdated, unsupported or disallowed platforms is against State policy.
+                        vi. Always consider the life-cycle of the programming language, operating system
+                            and hardware whenever major changes to the system are required.
+              3. Commercial off the Shelf (COTS) vs Customized
+                         i. When choosing a solution, it is best to keep modifications to the application
+                            system to a minimum (Zero-software code configuration). Adopting this strategy
+                            may require changes in business practices or processes, however, when an
+                            application system is customized, the costs for upgrades and maintenance
+                            increase.
+                        ii. All requests for customization should be analyzed to ensure that the total cost of
+                            the system over 5 – 15 years does not outweigh the business value of the
+                            system.
+                        iii. Advantages of Customizations9
+
+5 http://www.irs.gov/irm/part1/irm_01-035-006.html
+
+6 http://benjamin-schweizer.de/operating-systems-lifecycle-chart.html
+
+7 Before finding knowledgeable programmers becomes problematic
+
+8 http://www.levenez.com/lang/
+
+9 https://blogs.oracle.com/stevenChan/entry/ebs_customization_implications
+
+These guidelines are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            5 of 8
+
+                                                                  DELAWARE STATE-WIDE INFORMATION
+                                                     TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+                                  1. Functionality meets your requirements more closely
+                        iv. Disadvantages of Customizations
+                                  1. More costly than deploying a "plain vanilla" solution
+                                  2. Requires specialized development skills
+                                  3. May require updates, testing, and maintenance whenever:
+                                           a. New patches are released
+                                           b. New architectures are deployed
+                                           c.   New technology certifications are released
+                                  4. Increases support complexity and overhead
+                                  5. Can potentially complicate upgrades to new releases
+                        v. The costs for development and implementation occur once; the increased costs
+                           for maintenance and upgrades of customized code are continuous.
+                        vi. In all cases, the solutions first to be reviewed for suitability are the existing
+                            State’s systems and cloud vendors under State contract.
+                       vii. Regardless of the type of chosen solution, the recurring costs for maintenance,
+                            support and upgrades must be included in the contract and planned for in
+                            succeeding budget years.
+                      viii. The expected lifespan of a large application should be a maximum of 15 years.
+                        ix. The per-year software maintenance for a COTS solution is generally 20% of the
+                            list price.
+                        x. The total cost of a COTS solution has been estimated to be at least 3 times the
+                           initial investment over a 15-year lifetime. This does not include hardware or
+                           operating system upgrades, or system maintenance.
+                        xi. A Highly customized COTS solution has been estimated to be more than 10
+                            times the initial investment10 over a 15-year lifetime.
+                       xii. For example, the total cost of ownership of a $1 million application system
+                            (including licenses, implementation and training) over a 15-year lifetime will cost:
+                                  1. $3+ million for little or no customization
+                                  2. $30+ million for a highly customized solution
+                      xiii. Of the many considerations to be taken into account when choosing an IT
+                            solution are:
+
+10 “The Four Laws of Application Total Cost of Ownership” 03 April 2012 G00230382
+
+Gartner Analyst(s): Andy Kyte
+
+These guidelines are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            6 of 8
+
+                                                                   DELAWARE STATE-WIDE INFORMATION
+                                                     TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+                                  1. Risk –
+                                           a. Security
+                                           b. Privacy
+                                           c.   Reliability
+                                           d. Recoverability
+                                  2. Uniqueness of the business processes
+                                  3. The available human resources to dedicate to a new solution
+                                  4. The available IT capacity or capability to dedicate to a new solution
+                                  5. The frequency of changes to essential requirements
+                      xiv. The required reliability and recoverability should be contracted regardless of
+                           whether the solution is internally or externally hosted. It is noted that Delaware is
+                           a small State and as such, may not be seen as critical when reliability and
+                           recoverability are essential.
+
+     B.    When the Risk is low and IT resources are low, look to:
+              1. Host Externally
+                         i. SaaS
+                                  1. Common business processes
+                                  2. Low frequency of requirement changes
+                                  3. Low availability of process knowledge workers
+                        ii. COTS
+                                  1. Unique business processes
+                                  2. Low frequency of requirement changes
+                        iii. Custom
+                                  1. Extremely Unique business processes
+                                  2. High frequency of requirement changes
+
+     C.    When the Risk is High and IT Resources are low, look to:
+              2. Host Internally
+                         i. COTS
+                                  1. Unique business processes
+                                  2. Low frequency of requirement changes
+
+These guidelines are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                              7 of 8
+
+                                                                  DELAWARE STATE-WIDE INFORMATION
+                                                     TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+                        ii. Custom
+                                  1. Extremely Unique business processes
+                                  2. High frequency of requirement changes
+
+     D.    When Business Resources are very scarce or can be put to better use elsewhere, look
+           to:
+              1. Managed Business Services
+                         i. Common business processes
+                        ii. Low frequency of requirement changes
+
+     E.    When IT Resources are very scarce, or can be put to better use elsewhere, look to:
+              1. Managed IT Services
+                         i. Commodity IT services
+                        ii. Low frequency of requirement changes or flexible contracting
+
+VI. Development and Revision History
+     Date                     Revision
+     1/13/2023                Rev 0 – Initial version based on prior policy
+     11/1/2024                Rev 0 - Removed references to the Technology Investment Council and added a
+                              clarification in the Process section
+
+These guidelines are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            8 of 8
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

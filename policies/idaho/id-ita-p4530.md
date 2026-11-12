@@ -1,0 +1,144 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-p4530
+title: P4530 – Cleansing Data from Surplus Computer Equipment
+doc_type: policy
+citation: ITA Policy P4530
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/p4530.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 3372f42eb12e59d7522170bb5f27b4dea2206d25472c47022a1a99535119037d
+effective_date: '2006-09-13'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# P4530 – Cleansing Data from Surplus Computer Equipment (ITA Policy P4530)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4500 - Security - Computer and Operations Management, Policies', a policy. The library's own summary: "ITA Policy P4530 defines requirements for data removal from surplus computer equipment, ensuring sensitive information is unrecoverable."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE POLICY – P4500 COMPUTER AND OPERATIONS
+MANAGEMENT
+
+Category:    P4530 – CLEANSING DATA FROM SURPLUS COMPUTER EQUIPMENT
+
+CONTENTS:
+I.   Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI. Procedure Reference
+VII. Contact Information
+     Revision History
+
+I. AUTHORITY
+
+   Authority: Idaho Code 67-831 through 67-833
+
+II. ABSTRACT
+
+   The purpose of this policy is to define the minimum requirements for the removal of data
+   from State owned computer equipment prior to being surplused, transferred, traded-in,
+   disposed of, or replaced. Such removal prevents the unauthorized use or misuse of
+   State information, and promotes the privacy and security of sensitive and/or confidential
+   information resources within the State of Idaho.
+
+III. DEFINITIONS
+
+   1. Removal of State of Idaho Data – The process of removing sensitive and/or
+      confidential programs or data files on computer hard drives or electronic media in a
+      manner that gives assurance that the information cannot be recovered by keyboard
+      or laboratory attack.
+
+   2. Physical Destruction – Physically destroying hard drives or electronic media when
+      they are defective or cannot be economically repaired.
+
+   3. Degaussing – A process whereby the magnetic media are erased (i.e., returned to a
+      zero state).
+
+   4. Overwriting or Scrubbing – Replacing previously stored data on a drive or disk with a
+      predetermined pattern of meaningless information.
+
+P4530 – Cleansing Data From Surplus Computer Equipment                            Page 1 of 2
+
+IV. POLICY
+
+   1. Before a computer system (or electronic storage device) is surplused, transferred,
+      reassigned, traded-in, disposed of, or replaced, all storage media should be
+      completely erased or otherwise made unreadable unless there is specific intent to
+      transfer the particular software or data to the purchaser/recipient.
+
+   2. Hard drives of surplus computer equipment must be securely erased and overwritten
+      within sixty (60) days after replacement or prior to leaving the owning agency’s
+      possession whichever occurs first to facilitate the timely sanitization of sensitive
+      programs and/or data.
+
+   3. Whenever licensed software is resident on any computer being surplused,
+      transferred, traded-in, disposed of, or the hard drive is replaced, the terms of the
+      license agreement must be followed.
+
+   4. Each agency must create an audit function to randomly test for compliance with this
+      policy, any computer equipment that is surplused, ready for public auction,
+      transferred, traded-in, disposed of, or when being replaced.
+
+V. EXEMPTION PROCESS
+
+   Refer to ITA Policy P1010 (IT Policies, Standards, and Guidelines Framework).
+
+VI. PROCEDURE REFERENCE
+
+   Approved procedures to cleanse data from computer systems, hard drives, and other
+   electronic media are provided in ITA Guideline G540 (Mobile Devices) and ITA Guideline
+   G550 (Cleansing Data from Surplus Computer Equipment).
+
+VII. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+05/30/19 – Revised and modernized Sections II; and IV.
+
+07/01/18 – Updated Idaho statute references.
+
+07/01/13 – Changed “ITRMC” to “ITA”.
+
+6/16/09 – Added Exemption Process, Contact Information and Revision History, deleted
+          Timeline.
+
+           Effective Date: September 13, 2006
+
+P4530 – Cleansing Data From Surplus Computer Equipment                              Page 2 of 2
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

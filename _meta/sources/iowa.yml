@@ -1,0 +1,995 @@
+# Iowa seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Issue #29. Discovery 2026-11-11 through the toolkit Fetcher: the Iowa Legislature (Code, Administrative Code, executive orders), the
+# Office of the CIO's standards library on ocio.iowa.gov (now part of the Department of Management) and the State of Iowa policy portal.
+sources:
+- id: ia-code-8-5
+  sha256: "74f34ffe5da9d635404b1390de7f66cd713bbf79684a55448ecee7addceab923"
+  url: https://www.legis.iowa.gov/docs/code/8.5.pdf
+  format: pdf
+  citation: Iowa Code § 8.5
+  title: General powers and duties
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - governance
+  - oversight
+  - cybersecurity
+  recheck: monthly
+  identity_text: 8.5 General powers and duties
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: 'The Department of Management''s general powers and duties: this one section includes the IT items (subsection 17 designating the state chief information officer, 18 on advice to the governor on information technology, 19 on information technology consultation, 20 on cybersecurity, where the department has the sole executive-branch authority to convene cross-jurisdictional collaborations) beside the budget and financial control duties. The whole section is taken, so its budget subsections ride along. OWNER DECISION: whole section or none (section-level slicing is not available for a PDF).'
+- id: ia-code-8-76
+  sha256: "9a472c43495e02f402cdad7231d8f66bcd30624161ec76ed0fed2fb6e0e12c5d"
+  url: https://www.legis.iowa.gov/docs/code/8.76.pdf
+  format: pdf
+  citation: Iowa Code § 8.76
+  title: Definitions
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: 8.76 Definitions
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: The definitions of the information technology subchapter (broadband, information technology, supported entity and others). Some of its definitions concern broadband and ride along.
+- id: ia-code-8-77
+  sha256: "640ee6748c045a5fba5307ac01e1d8afe174021f48f6a0fbe248b4f6eca7bc19"
+  url: https://www.legis.iowa.gov/docs/code/8.77.pdf
+  format: pdf
+  citation: Iowa Code § 8.77
+  title: Information technology services — chief information officer powers and duties — responsibilities
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - governance
+  - oversight
+  - cybersecurity
+  - procurement
+  - digital-services
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 8.77 Information technology services
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: 'The enabling provision for the chief information officer: the CIO''s powers (approving IT for supported entities, binding IT, cybersecurity, geospatial, application development and procurement policies and rules, a security operations center), and the department''s responsibilities.'
+- id: ia-code-8-78
+  sha256: "8fff04b9dc84d9a3b46234d5a1a5d32486014d984400a54eb2698125b18463a2"
+  url: https://www.legis.iowa.gov/docs/code/8.78.pdf
+  format: pdf
+  citation: Iowa Code § 8.78
+  title: Background checks
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  identity_text: 8.78 Background checks
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: Background checks for the department's personnel and for persons with access to state information technology systems.
+- id: ia-code-8-80
+  sha256: "1704b6e4f0f976f5af86055af47d70b5bf295ba9e729eba568cc0bf0a8477920"
+  url: https://www.legis.iowa.gov/docs/code/8.80.pdf
+  format: pdf
+  citation: Iowa Code § 8.80
+  title: Services to governmental entities and nonprofit organizations
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - governance
+  - funding
+  recheck: monthly
+  identity_text: 8.80 Services to governmental entities and nonprofit organizations
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: Agreements under which the department furnishes IT services and facilities to supported entities and other governmental entities.
+- id: ia-code-8-81
+  sha256: "8953729306caaa757d08d136c2a85110544514ad62b2703d24ca9e2d49b18249"
+  url: https://www.legis.iowa.gov/docs/code/8.81.pdf
+  format: pdf
+  citation: Iowa Code § 8.81
+  title: Billing — credit card payments
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - funding
+  recheck: monthly
+  identity_text: 8.81 Billing
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: How the department bills governmental entities for IT services and accepts credit card payments.
+- id: ia-code-8-82
+  sha256: "3e7ac541ecf9e9f4f7c7acdd4291a0080f7705ac9684383ae1ea1408840c9d13"
+  url: https://www.legis.iowa.gov/docs/code/8.82.pdf
+  format: pdf
+  citation: Iowa Code § 8.82
+  title: Department debts and liabilities — appropriation request
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - funding
+  recheck: monthly
+  identity_text: 8.82 Department debts and liabilities
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: What happens when a service funded from an IT internal service fund ceases and its debts exceed the fund.
+- id: ia-code-8-83
+  sha256: "776dc5482a89255c55418382c0fe471dc7052194b8f75013e9ca8860368534e9"
+  url: https://www.legis.iowa.gov/docs/code/8.83.pdf
+  format: pdf
+  citation: Iowa Code § 8.83
+  title: Digital government
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  identity_text: 8.83 Digital government
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: The department's duty to initiate and support electronic commerce, electronic government, mobile and internet applications across supported entities, and to set policies for electronic signatures and data integration.
+- id: ia-code-8-84
+  sha256: "4e986c88051c0023e88d5c969e2e0230180e72111f37c0ea02ba693e262d104d"
+  url: https://www.legis.iowa.gov/docs/code/8.84.pdf
+  format: pdf
+  citation: Iowa Code § 8.84
+  title: Information technology policies
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - governance
+  - procurement
+  recheck: monthly
+  identity_text: 8.84 Information technology policies
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: The department's duty to adopt IT procurement policies for supported entities, and the consultation duty of the governor's office and elected officers' offices.
+- id: ia-code-8-85
+  sha256: "51c338b40759354813de12f2952c1a56ae746c94df98fe0672a2761fbf4aa76a"
+  url: https://www.legis.iowa.gov/docs/code/8.85.pdf
+  format: pdf
+  citation: Iowa Code § 8.85
+  title: Procurement of information technology
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - procurement
+  recheck: monthly
+  identity_text: 8.85 Procurement of information technology
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: How supported entities procure information technology under the department's policies, and the department's procurement powers.
+- id: ia-code-8-88
+  sha256: "9fe83f5e13f67ed3122e18b4b6c169d6e96ad0ef896c0b82e950fc32164f5b9f"
+  url: https://www.legis.iowa.gov/docs/code/8.88.pdf
+  format: pdf
+  citation: Iowa Code § 8.88
+  title: IowAccess — office duties and responsibilities
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  identity_text: 8.88 IowAccess
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: The department's duties for the IowAccess state portal (digital services).
+- id: ia-code-8-89
+  sha256: "21f27f0f54f047855282f39bbd6494059c6ea72b3d93ab053d8884a358d56c7e"
+  url: https://www.legis.iowa.gov/docs/code/8.89.pdf
+  format: pdf
+  citation: Iowa Code § 8.89
+  title: Financial transactions
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - digital-services
+  - funding
+  recheck: monthly
+  identity_text: 8.89 Financial transactions
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: How money paid through IowAccess electronic transactions is transferred and deposited.
+- id: ia-code-8-90
+  sha256: "2552f3ba355d7e971f6279de30939a10ad9832900c0b38440db643f1e46881b2"
+  url: https://www.legis.iowa.gov/docs/code/8.90.pdf
+  format: pdf
+  citation: Iowa Code § 8.90
+  title: IowAccess revolving fund
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - funding
+  - digital-services
+  recheck: monthly
+  identity_text: 8.90 IowAccess revolving fund
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: The IowAccess revolving fund.
+- id: ia-code-8-92
+  sha256: "fe25948b60554811b228cd8750e0dd63a0fc1ad88d61c31ba45b5f2cdd71cd4f"
+  url: https://www.legis.iowa.gov/docs/code/8.92.pdf
+  format: pdf
+  citation: Iowa Code § 8.92
+  title: Department internal service funds — information technology
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - funding
+  recheck: monthly
+  identity_text: 8.92 Department internal service funds
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: The internal service funds through which the department funds its IT services.
+- id: ia-code-8-93
+  sha256: "d4db6751fb99a0f2a377e40b35331ae2f1d4bc43b9ba4bacbb4f946f2607de54"
+  url: https://www.legis.iowa.gov/docs/code/8.93.pdf
+  format: pdf
+  citation: Iowa Code § 8.93
+  title: Cybersecurity
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 8.93 Cybersecurity
+  found_via: 'Iowa Code chapter 8''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 (read in full; each row''s PDF link is /docs/code/2026/8.<n>.pdf). The seeded url is the same link without the edition year (/docs/code/8.<n>.pdf), which the Legislature serves from the same bytes (checked for 8.77: identical sha256) and which follows the current edition.'
+  why_relevant: 'The statewide cybersecurity policy: a whole-of-state approach, state and local entities deemed covered entities under chapter 554G when they run a cybersecurity program, the department''s cybersecurity reporting function for local governments and its support services and grants.'
+- id: ia-code-715c
+  sha256: "4ddbc079835658459607734358b94d97374cb4bce80678813a4e863cd91a53e8"
+  url: https://www.legis.iowa.gov/docs/code/715C.pdf
+  format: pdf
+  citation: Iowa Code ch. 715C
+  title: Personal Information Security Breach Protection
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: Iowa General Assembly; published by the Legislative Services Agency (legis.iowa.gov)
+  tags:
+  - data
+  - cybersecurity
+  recheck: monthly
+  identity_text: 715C.1 Definitions.
+  found_via: Iowa Code chapter 715C (https://www.legis.iowa.gov/docs/code/715C.pdf, fetched, 2 sections). Found by reading its definition of 'person' (715C.1(10)), which includes 'government; governmental subdivision, agency, or instrumentality'.
+  why_relevant: 'The breach notification statute. It is seeded because it expressly binds state agencies: 715C.1 defines ''person'' to include a government and a governmental subdivision, agency or instrumentality, so an agency that owns or licenses computerized personal information must notify consumers of a breach (715C.2). It also binds private persons, which are out of scope; the chapter is two sections and is taken whole. OWNER DECISION whether a general breach statute that binds agencies and businesses alike belongs.'
+- id: ia-iac-129-8
+  sha256: "67b404dd0727723112f4ff6ba1a1a593e510a032414a406889f12b3f22dab6f9"
+  url: https://www.legis.iowa.gov/docs/iac/chapter/129.8.pdf
+  format: pdf
+  citation: Iowa Admin. Code ch. 129-8
+  title: Information Technology Governance
+  doc_type: rule
+  jurisdiction: iowa
+  issuing_body: Iowa Office of the Chief Information Officer [129]; published by the Legislative Services Agency
+  tags:
+  - governance
+  - oversight
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  identity_text: CHAPTER 8
+  identity_title: INFORMATION TECHNOLOGY GOVERNANCE
+  found_via: 'Iowa Administrative Code agency page ''Chief Information Officer, Office of the [129]'' (https://www.legis.iowa.gov/law/administrativeRules/chapters?agency=129&pubDate=11-11-2026, read in full: chapters 8, 10, 20, 21, 22 are listed with a chapter PDF). The seeded url is the page''s chapter link without its pubDate prefix (/docs/iac/chapter/129.8.pdf); the dated and undated links served identical bytes (same sha256).'
+  why_relevant: 'The CIO''s rules on information technology governance: definitions, purpose and applicability, advisory groups, the IT governance requirements binding participating agencies (8.4, the authority cited by the generative AI policy and the software usage standard), assessment and enforcement, waivers, public availability and appeals. The rules still cite Iowa Code chapter 8B, which 2024 Acts, ch 1185 repealed and transferred into chapter 8; the IAC prints them as current (chapter rescission date 1/1/28).'
+- id: ia-iac-129-10
+  sha256: "9c5ca65e3267de13e3c0788b075e8a22b5dd3e0ae46a3598878d43fb369e3d8d"
+  url: https://www.legis.iowa.gov/docs/iac/chapter/129.10.pdf
+  format: pdf
+  citation: Iowa Admin. Code ch. 129-10
+  title: Procurement of Information Technology
+  doc_type: rule
+  jurisdiction: iowa
+  issuing_body: Iowa Office of the Chief Information Officer [129]; published by the Legislative Services Agency
+  tags:
+  - procurement
+  - governance
+  - oversight
+  recheck: monthly
+  identity_text: CHAPTER 10
+  identity_title: PROCUREMENT OF INFORMATION TECHNOLOGY
+  found_via: Same agency page as ia-iac-129-8 (chapter 10 link); the url is built by the same pattern as 129.8 (the pattern was confirmed for chapter 8; the chapter heading is confirmed in the fetched bytes).
+  why_relevant: 'The CIO''s rules on information technology procurement: methods of procurement, master IT agreements, prequalification of vendors, the approval process for participating agencies (10.7), delegated procurement authority, contract duration, performance reviews and suspension or debarment of vendors, and confidentiality in a solicitation response.'
+- id: ia-dom-policy-generative-ai
+  sha256: "0a44af7465f41726d945e01452bf13cb284199be09515c38bc0d062ac7ad6e1a"
+  url: https://policies.iowa.gov/dom/policy/generative-artificial-intelligence-ai-policy/
+  format: html
+  citation: Iowa Department of Management Generative Artificial Intelligence (AI) Policy, Version 7, ENTERPRISE PY-AI
+  title: Generative Artificial Intelligence (AI) Policy
+  doc_type: policy
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management
+  tags:
+  - ai
+  - governance
+  recheck: monthly
+  identity_text: 'Policy Number: ENTERPRISE PY-AI'
+  found_via: 'the State of Iowa policy portal''s list https://policies.iowa.gov/search/?agency=1 (scope ''State of Iowa'': ''4 policies found. Showing 1-4. Page 1 of 1'') and https://policies.iowa.gov/dom/; the policy''s own page, whose published text is taken (the portal''s PDF version differs in bytes at every request).'
+  why_relevant: 'The enterprise policy on generative AI use by agency employees and contractors, binding on supported entities (authority: Iowa Admin. Code r. 129-8.4): responsible and ethical use, minimum requirements and prohibited uses, state IT procurement rules for AI tools and legal review and labelling of AI-generated code. Its printed review date (March 31, 2026) has passed; the portal still publishes it as the current version (Version 7, published January 14, 2026).'
+- id: ia-dom-policy-digital-accessibility
+  sha256: "e5fd576de5ca4a64b1fb5e7c79319d39d3af554eb0f93ddac64a0b929323898f"
+  url: https://policies.iowa.gov/dom/policy/digital-accessibility-policy/
+  format: html
+  citation: Iowa Department of Management Digital Accessibility Policy, ADMN.303.02.E
+  title: Digital Accessibility Policy
+  doc_type: policy
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management
+  tags:
+  - digital-services
+  - governance
+  recheck: monthly
+  identity_text: 'Policy Number: ADMN.303.02.E'
+  found_via: 'the State of Iowa policy portal''s list https://policies.iowa.gov/search/?agency=1 (scope ''State of Iowa'': ''4 policies found. Showing 1-4. Page 1 of 1'') and https://policies.iowa.gov/dom/; the policy''s own page, whose published text is taken (the portal''s PDF version differs in bytes at every request).'
+  why_relevant: 'The state''s requirement that its digital content and services be accessible to people with disabilities, with a single conformance target (authority: Iowa Code 8.77 and 8.85), applying to all enterprise workers of the department and supported entities.'
+- id: ia-dom-policy-background-investigation
+  sha256: "4020cecebd4fc7b6c37b0cb650e151941b24422495ab50b0a14ca19c2282f6aa"
+  url: https://policies.iowa.gov/dom/policy/department-background-investigation-policy/
+  format: html
+  citation: Iowa Department of Management Background Investigation Policy, ISEC.1403.01.I
+  title: Department of Management (DOM) Background Investigation Policy
+  doc_type: policy
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  identity_text: 'Policy Number: ISEC.1403.01.I'
+  found_via: 'the State of Iowa policy portal''s list https://policies.iowa.gov/search/?agency=1 (scope ''State of Iowa'': ''4 policies found. Showing 1-4. Page 1 of 1'') and https://policies.iowa.gov/dom/; the policy''s own page, whose published text is taken (the portal''s PDF version differs in bytes at every request).'
+  why_relevant: 'When background investigations are required for department workers with access to State of Iowa systems and information (authority: Iowa Code 8.78). Its type is ''DOM Internal Policy'': it binds the department''s own workers, which are state government''s own IT workforce. OWNER DECISION whether an internal policy of one department belongs.'
+- id: ia-dom-policy-procurement-contract-signing
+  sha256: "62c0ec05e7d482f68629f27c0296c4f538d42e56278d56a9489886845a4ecbde"
+  url: https://policies.iowa.gov/dom/policy/department-of-management-procurement-and-contract-signing-policy/
+  format: html
+  citation: Iowa Department of Management Procurement and Contract Signing Policy, Version 10, ADMN.103.01.E
+  title: Department of Management Procurement and Contract Signing Policy
+  doc_type: policy
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management
+  tags:
+  - procurement
+  - governance
+  recheck: monthly
+  identity_text: 'Policy Number: ADMN.103.01.E'
+  found_via: 'the State of Iowa policy portal''s list https://policies.iowa.gov/search/?agency=1 (scope ''State of Iowa'': ''4 policies found. Showing 1-4. Page 1 of 1'') and https://policies.iowa.gov/dom/; the policy''s own page, whose published text is taken (the portal''s PDF version differs in bytes at every request).'
+  why_relevant: 'IT procurement and contract signing requirements for the department and supported entities (authority: Iowa Code 8.77): price comparison, formal procurements and signature authority. The portal lists one attachment (SignaturePolicyComms.pdf), which is left out (see the left-out record).'
+- id: ia-ocio-1027
+  sha256: "60f4f95c6c058ba3c0ea074768f8e8d48110fdbdc59f3ff9b449fb7839a9c2d2"
+  url: https://ocio.iowa.gov/media/1027/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa - Data Backup Operational Standard, September 2, 2014
+  title: State of Iowa - Data Backup Operational Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cloud-resilience
+  - data
+  recheck: annual
+  identity_text: State of Iowa - Data Backup Operational Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Data Backup', row 'Data Backup Standard', its 'Standard PDF Version' link /media/1027/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Requires state agencies to back up operational and historic electronic data and to be able to restore it after a disaster.
+- id: ia-ocio-1028
+  sha256: "d2f17871a36a783771993db100302ddd6b78cef3cb38a0d4c2423c36421bf8b3"
+  url: https://ocio.iowa.gov/media/1028/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Data Classification Security Standard, September 2, 2014
+  title: State of Iowa Enterprise Data Classification Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - data
+  - cybersecurity
+  recheck: annual
+  identity_text: State of Iowa Enterprise Data Classification Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Data Classification', its 'Standard PDF Version' link /media/1028/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Data classification requirements for state agencies, to protect the confidentiality, integrity and availability of state data.
+- id: ia-ocio-1029
+  sha256: "33d8c79c29fd2da85ca5be86824523ec9b982fe39d212720c5201d27cd96c566"
+  url: https://ocio.iowa.gov/media/1029/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Data Stewardship Security Standard, September 2, 2014
+  title: State of Iowa Enterprise Data Stewardship Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - data
+  - cybersecurity
+  - governance
+  recheck: annual
+  identity_text: State of Iowa Enterprise Data Stewardship Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Data Stewardship', its 'Standard PDF Version' link /media/1029/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Data stewardship requirements for state agencies.
+- id: ia-ocio-1030
+  sha256: "8d9976b0b034ea644153a596c3bfb26ea31a2b167ba25fe7dd733359d2a246f5"
+  url: https://ocio.iowa.gov/media/1030/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Email Security Standard, December 14, 2011
+  title: State of Iowa Enterprise Email Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: annual
+  identity_text: State of Iowa Enterprise Email Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Email Security Standard', its 'Standard PDF Version' link /media/1030/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum requirements for securing information sent by email.
+- id: ia-ocio-1032
+  sha256: "50ca8acaf12771990b2c0ff2fce1d979e27c1c4ab87e424b131c230f0ad9b2fb"
+  url: https://ocio.iowa.gov/media/1032/download?inline
+  format: pdf
+  citation: Iowa OCIO Enterprise Malware Protection Security Standard
+  title: Enterprise Malware Protection Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: annual
+  identity_text: Enterprise Malware Protection Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Enterprise Malware Protection Security Standard', its 'Standard PDF Version' link /media/1032/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum requirements participating agencies must follow in scanning for, identifying and removing malware.
+- id: ia-ocio-1033
+  sha256: "276fcaa6de0008dd52be7465c119158c825bcd7996954e982e34867995dc1f09"
+  url: https://ocio.iowa.gov/media/1033/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Information Security Standard, 3-18-2008
+  title: State of Iowa Enterprise Information Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - governance
+  recheck: annual
+  identity_text: State of Iowa Enterprise Information Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Information Security', its 'Standard PDF Version' link /media/1033/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: The minimum computer security requirements for state agencies, to protect the confidentiality, integrity and availability of state computing systems and information.
+- id: ia-ocio-1034
+  sha256: "6c8f08ae1a9f5e6718e337491dc314b356f5591502e03f465eca866e00e3f9d1"
+  url: https://ocio.iowa.gov/media/1034/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Information Security Compliance Standard, December 2, 2009
+  title: State of Iowa Enterprise Information Security Compliance Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - oversight
+  recheck: annual
+  identity_text: State of Iowa Enterprise Information Security Compliance Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Information Security Compliance', its 'Standard PDF Version' link /media/1034/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Information security compliance reporting requirements for participating agencies. It cites Iowa Code section 8A.204 and the Technology Governance Board, which the current Code no longer provides for; the index still lists it.
+- id: ia-ocio-1036
+  sha256: "f7ab7da25442eaf6bd44928af654a2dd0b6a8c69d825adf38536ad28763755c5"
+  url: https://ocio.iowa.gov/media/1036/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Interconnectivity Security Standard, June 22, 2011
+  title: State of Iowa Enterprise Interconnectivity Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: annual
+  identity_text: State of Iowa Enterprise Interconnectivity Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Interconnectivity Standard', its 'Standard PDF Version' link /media/1036/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum requirements to establish, maintain and terminate interconnections with the shared state IT infrastructure or with IT systems outside state government.
+- id: ia-ocio-1037
+  sha256: "a131faf831c76d8844ac759fb58a76a9f7ddad33da3465b09c2d571b113fcbc6"
+  url: https://ocio.iowa.gov/media/1037/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Laptop Data Protection Security Standard, April 12, 2012
+  title: State of Iowa Enterprise Laptop Data Protection Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - data
+  recheck: annual
+  identity_text: State of Iowa Enterprise Laptop Data Protection Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Laptop Data Protection Security Standard', its 'Standard PDF Version' link /media/1037/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum security requirements for laptop computers and the data on them.
+- id: ia-ocio-1038
+  sha256: "2857f908ec88ae1abd70ab8aa2a1531c2c2917dc8c7f6afd84ac9494d473a54b"
+  url: https://ocio.iowa.gov/media/1038/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Mobile Device Security Standard, August 27, 2013
+  title: State of Iowa Enterprise Mobile Device Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: annual
+  identity_text: State of Iowa Enterprise Mobile Device Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Mobile Device Security', its 'Standard PDF Version' link /media/1038/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum requirements for secure use of mobile devices and tablets.
+- id: ia-ocio-1039
+  sha256: "46e8431b2c027c3bf3477bc5a4044104e8300bc233a6ff200de0e418061b97de"
+  url: https://ocio.iowa.gov/media/1039/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Removable Storage Device Security Standard, June 22, 2011
+  title: State of Iowa Enterprise Removable Storage Device Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - data
+  recheck: annual
+  identity_text: State of Iowa Enterprise Removable Storage Device Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Removable Storage Encryption', its 'Standard PDF Version' link /media/1039/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum requirements for secure use of removable storage devices.
+- id: ia-ocio-1056
+  sha256: "cc3427768d5ee6e56dcd9aea088b1eee9544487ada11d37f10d235cc349dc5fe"
+  url: https://ocio.iowa.gov/media/1056/download?inline
+  format: pdf
+  citation: Iowa OCIO Software Usage Restrictions, 12/14/2022
+  title: Software Usage Restrictions
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: annual
+  identity_text: Software Usage Restrictions
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Software Usage Restrictions', its 'Standard PDF Version' link /media/1056/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: 'The OCIO standard on restrictions on software use in state government (authority: Iowa Administrative Code 129-8.4(8B)); the newest standard in the library.'
+- id: ia-ocio-1041
+  sha256: "fe22f46d731cdabbeabca8927b0d90c5e45127a3c945aed887f055a87865d3f5"
+  url: https://ocio.iowa.gov/media/1041/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Social Networking Security Standard, February 10, 2012
+  title: State of Iowa Enterprise Social Networking Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - digital-services
+  recheck: annual
+  identity_text: State of Iowa Enterprise Social Networking Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Social Networking Security', its 'Standard PDF Version' link /media/1041/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum security requirements for use of social networking by state employees, contractors, volunteers and interns.
+- id: ia-ocio-1042
+  sha256: "38c12e8246ca417a683d8a9127e392479d8c73e9f4ff714f1ecc95e3cbb83fe7"
+  url: https://ocio.iowa.gov/media/1042/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Telework Security Standard, December 14, 2011
+  title: State of Iowa Enterprise Telework Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: annual
+  identity_text: State of Iowa Enterprise Telework Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Telework Security', its 'Standard PDF Version' link /media/1042/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum security requirements for teleworking.
+- id: ia-ocio-1043
+  sha256: "ecf343ffad125361f86b6e1c6d60bc462a96d5a52e938f11461b5acc196b36b6"
+  url: https://ocio.iowa.gov/media/1043/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Vulnerability Management Security Standard, May 9, 2012
+  title: State of Iowa Enterprise Vulnerability Management Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  recheck: annual
+  identity_text: State of Iowa Enterprise Vulnerability Management Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Vulnerability Management', its 'Standard PDF Version' link /media/1043/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum requirements for vulnerability management of state IT systems.
+- id: ia-ocio-1044
+  sha256: "609acdf80f5a19ebfa0bdf347fbeb40b6944b26aec3e2a6c6492e9cfd5129eb3"
+  url: https://ocio.iowa.gov/media/1044/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Web Application Security Standard, June 7, 2010
+  title: State of Iowa Enterprise Web Application Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - digital-services
+  recheck: annual
+  identity_text: State of Iowa Enterprise Web Application Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Web Application Security', its 'Standard PDF Version' link /media/1044/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum security requirements for web applications developed, owned or managed by state agencies.
+- id: ia-ocio-1045
+  sha256: "2236aa3611700acea0ae222ed06f17ab5f4617ac543c2cd14a1e2d4f7134924a"
+  url: https://ocio.iowa.gov/media/1045/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Wireless LAN Security Standard, May 9, 2016
+  title: State of Iowa Enterprise Wireless LAN Security Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: annual
+  identity_text: State of Iowa Enterprise Wireless LAN Security Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Security', row 'Wireless LAN Security', its 'Standard PDF Version' link /media/1045/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum requirements for installing and operating wireless local area networks of state agencies.
+- id: ia-ocio-1046
+  sha256: "9b9ccf545748313cf087049ee156d2a79025089d0452f3a8d9861f523e4d6191"
+  url: https://ocio.iowa.gov/media/1046/download?inline
+  format: pdf
+  citation: Iowa OCIO Data/Information Sharing Policy, 6/30/2017
+  title: Data/Information Sharing Policy
+  doc_type: policy
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - data
+  - governance
+  recheck: annual
+  identity_text: Data/Information Sharing Policy
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Internet and Web', row 'Data Information Sharing Policy', its 'Standard PDF Version' link /media/1046/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: The terms on which state agencies may obtain access to enterprise productivity tools that let them share data and information inside and outside state government. The index names it 'Data Information Sharing Policy' on its page link /iowa-interim-data-information-sharing-policy.
+- id: ia-ocio-1047
+  sha256: "66e555d4e81e478b946f831cf3f67302c4e67af42ba61b14ec25688e3d3c1191"
+  url: https://ocio.iowa.gov/media/1047/download?inline
+  format: pdf
+  citation: 'Iowa OCIO Enterprise Operational Standard: Web Content Management System, Revised December 1, 2015'
+  title: 'Enterprise Operational Standard: Web Content Management System'
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  recheck: annual
+  identity_text: 'Enterprise Operational Standard: Web Content Management System'
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Internet and Web', row 'Web Content Management System', its 'Standard PDF Version' link /media/1047/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Requires participating agencies to use a common website content management system.
+- id: ia-ocio-1048
+  sha256: "0d171498edbe90ab42c7ff72514561db72451aa5a0a64ba98698b31da5013ef7"
+  url: https://ocio.iowa.gov/media/1048/download?inline
+  format: pdf
+  citation: 'Iowa OCIO Enterprise Operational Standard: Web Site Policy Notices, Revised February 1, 2017'
+  title: 'Enterprise Operational Standard: Web Site Policy Notices'
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  - data
+  recheck: annual
+  identity_text: 'Enterprise Operational Standard: Web Site'
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Internet and Web', row 'Website Policy Notices', its 'Standard PDF Version' link /media/1048/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Standards for privacy, terms of use, non-discrimination and social media notices on agency websites.
+- id: ia-ocio-1049
+  sha256: "63f5851a8e8746f9c1db37daa7566ceb087132bb506b77b9d7e97a2e06a98e33"
+  url: https://ocio.iowa.gov/media/1049/download?inline
+  format: pdf
+  citation: 'Iowa OCIO Enterprise Operational Standard: Website Accessibility, Revised May 1, 2017'
+  title: 'Enterprise Operational Standard: Website Accessibility'
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  recheck: annual
+  identity_text: 'Enterprise Operational Standard: Website Accessibility'
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Internet and Web', row 'Website Accessibility', its 'Standard PDF Version' link /media/1049/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Makes external state websites accessible to the widest audience including people with disabilities.
+- id: ia-ocio-1050
+  sha256: "1e13b3251cd9ac50bc25d7f329d3b805373c83f0af161374a615448139b77511"
+  url: https://ocio.iowa.gov/media/1050/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Desktop and Laptop Purchasing Standard, Revised August 27, 2013
+  title: State of Iowa Enterprise Desktop and Laptop Purchasing Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - procurement
+  recheck: annual
+  identity_text: State of Iowa Enterprise Desktop and Laptop Purchasing Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Platform Architecture - Hardware', row 'Desktop and Laptop Purchasing', its 'Standard PDF Version' link /media/1050/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Requires participating agencies to purchase desktops and laptops through the state's contract vehicle.
+- id: ia-ocio-1051
+  sha256: "fc85ba4b886e8d4a937a90a4571aa96b8b3aa0df323328534c559aa4f819b5c5"
+  url: https://ocio.iowa.gov/media/1051/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa - Desktop Management Operational Standard, Updated September 2, 2014
+  title: State of Iowa - Desktop Management Operational Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cloud-resilience
+  - governance
+  recheck: annual
+  identity_text: State of Iowa - Desktop Management Operational Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Desktop', row 'Desktop Management', its 'Standard PDF Version' link /media/1051/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Baseline operational management elements for an IT desktop management function in executive branch agencies.
+- id: ia-ocio-1052
+  sha256: "7bcb32969b410e939c575bd75a86915f42a70079eac02a39140781e615a59978"
+  url: https://ocio.iowa.gov/media/1052/download?inline
+  format: pdf
+  citation: Iowa OCIO State of Iowa Enterprise Personal Computer (PC) Operating System Standard, May 5, 2015
+  title: State of Iowa Enterprise Personal Computer (PC) Operating System Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - cloud-resilience
+  recheck: annual
+  identity_text: State of Iowa Enterprise Personal Computer (PC) Operating System Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Desktop', row 'Enterprise Personal (PC) Operating System Standard', its 'Standard PDF Version' link /media/1052/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Minimum expected operating system requirements for client computers purchased and used by state agencies.
+- id: ia-ocio-1053
+  sha256: "60ebafd72cff2d8b0bb43eb4b9934ccf8eb616703d06e28a4e6a82586c153786"
+  url: https://ocio.iowa.gov/media/1053/download?inline
+  format: pdf
+  citation: Iowa OCIO Information Technology Governance Document Taxonomy
+  title: Information Technology Governance Document Taxonomy
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - governance
+  recheck: annual
+  identity_text: Information Technology Governance Document Taxonomy
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Taxonomy', row 'Information Technology Governance Document Taxonomy', its 'Standard PDF Version' link /media/1053/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: The common vocabulary for IT governance documents (policies, standards, processes) issued under the CIO's rules.
+- id: ia-ocio-1054
+  sha256: "625aaa4e02adc04a147205c3b1bbd7c9cbaf16cd6fc8abd2de9209b835186b1f"
+  url: https://ocio.iowa.gov/media/1054/download?inline
+  format: pdf
+  citation: Iowa OCIO Project Governance IT Governance Policy/Process/Standard
+  title: Project Governance IT Governance Policy/Process/Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - oversight
+  - governance
+  recheck: annual
+  identity_text: Project Governance IT Governance Policy/Process/Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Project Governance', row 'Project Governance Policy Process Standard', its 'Standard PDF Version' link /media/1054/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: 'The governing process for all technology projects and procurements: when participating agencies interact with the CIO''s office for project oversight and the standards by which it decides whether projects proceed.'
+- id: ia-ocio-1055
+  sha256: "406ec2ce64388a4d65a9772497e6020b25258fb35dd1110e09b5e315137add65"
+  url: https://ocio.iowa.gov/media/1055/download?inline
+  format: pdf
+  citation: Iowa OCIO Project Management Policy/Standard
+  title: Project Management Policy/Standard
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: Iowa Department of Management (Office of the Chief Information Officer)
+  tags:
+  - oversight
+  recheck: annual
+  identity_text: Project Management Policy/Standard
+  found_via: the OCIO standards index https://ocio.iowa.gov/standards ('Enterprise IT Standards', table section 'Project Governance', row 'Project Management Standard', its 'Standard PDF Version' link /media/1055/download?inline). The index's 'Policy PDF' column is empty for every row, and its note says a policy link in that column would supersede the standard.
+  why_relevant: Project management requirements for IT projects of participating agencies.
+- id: ia-eo-reynolds-18
+  sha256: ''
+  url: https://www.legis.iowa.gov/docs/publications/EO/1602511.pdf
+  format: pdf
+  citation: Iowa Executive Order 18 (Governor Reynolds, February 10, 2026)
+  title: Executive Order Number 18
+  doc_type: executive_order
+  jurisdiction: iowa
+  issuing_body: Governor of Iowa; published by the Legislative Services Agency
+  tags:
+  - cybersecurity
+  - procurement
+  - governance
+  recheck: annual
+  identity_text: EXECUTIVE ORDER NUMBER EIGHTEEN
+  stub: true
+  stub_reason: 'The PDF is a scan whose page 4 carries a rotation (pdfinfo: page rot 270). The shared OCR procedure (src/ingest_ocr.py ocr_scan) retries with a forced rotation only when its first reading fails its thresholds; tesseract read page 4 upside down and still passed them (94% agreement), so the committed text would have held about 20 lines of reversed garbage (''ALVLS JO AUVLAWOAS'' and the like) in place of SECTION FOURTEEN (the distribution clause) and the signature and date block (''THIS TENTH DAY OF FEBRUARY ... TWO THOUSAND TWENTY SIX ... KIMBERLY K. REYNOLDS''), which a second reading (paddle) printed correctly. No seed key can ask for the forced rotation. A shared change is needed (see the PR''s shared changes): a seed key (for example ocr_force_rotate: true) that ocr_scan passes as force_rotate. Once it exists, re-ingest the order and fill sha256.'
+  found_via: the Legislature's executive order list https://www.legis.iowa.gov/publications/otherResources/executiveOrders (all governors, 247 rows read in full, 'Further Disposition' column empty for this order)
+  why_relevant: 'Directs state agencies to strengthen protections and reduce vulnerabilities against threats by the Chinese government: an annual state risk assessment and a vulnerability study by Homeland Security and Emergency Management (cybersecurity among them), and an inventory of critical procurements by the departments of Administrative Services and Management, including information technology. The PDF is a scan whose pages are rotated; content read as discovery only.'
+- id: ia-eo-branstad-87
+  sha256: ''
+  url: https://www.legis.iowa.gov/docs/publications/EO/966073.pdf
+  format: pdf
+  citation: Iowa Executive Order 87 (Governor Branstad, December 21, 2015)
+  title: Executive Order Number 87
+  doc_type: executive_order
+  jurisdiction: iowa
+  issuing_body: Governor of Iowa; published by the Legislative Services Agency
+  tags:
+  - cybersecurity
+  - governance
+  recheck: annual
+  identity_text: EXECUTIVE ORDER NUMBER EIGHTY-SEVEN
+  stub: true
+  stub_reason: 'The PDF is a scan from the State Library of Iowa (''COURTESY STATE LIBRARY OF IOWA'') that carries an embedded OCR text layer (fonts ''HiddenHorzOCR'' or an OCR typeface; legislature document 966073). The shared OCR procedure (src/ingest_ocr.py, ocrmypdf without --force-ocr or --redo-ocr) refuses any page that already has text (measured: ocrmypdf exit 6, PriorOcrFoundError: ''page already has text''), and the shared pdf reader would commit the embedded layer, an unrecorded machine reading with measured errors (''arid'' and ''anti'' for ''and'', ''S.tate'', ''Helvetica'' glyph junk in the letterhead), as if it were the text of record. A shared change is needed (see the PR''s shared changes): let the seed entry ask for a forced re-read of a page whose text layer is an embedded OCR layer. Content, read as discovery only: see why_relevant.'
+  found_via: the Legislature's executive order list https://www.legis.iowa.gov/publications/otherResources/executiveOrders (all governors, 247 rows read in full, 'Further Disposition' column empty for this order)
+  why_relevant: 'Declares cybersecurity a top priority and directs the Office of the Chief Information Officer to draft the State of Iowa Cybersecurity Strategy (due July 1, 2016) with data breach reporting and notification requirements, and Homeland Security to update the emergency response plan. It has no expiry date and the list records no further disposition, but its deliverable was due in 2016: OWNER DECISION whether it is in force in substance.'
+- id: ia-eo-branstad-73
+  sha256: ''
+  url: https://www.legis.iowa.gov/docs/publications/EO/966059.pdf
+  format: pdf
+  citation: Iowa Executive Order 73 (Governor Branstad, May 3, 2011)
+  title: Executive Order Number 73
+  doc_type: executive_order
+  jurisdiction: iowa
+  issuing_body: Governor of Iowa; published by the Legislative Services Agency
+  tags:
+  - digital-services
+  - governance
+  recheck: annual
+  identity_text: EXECUTIVE ORDER NUMBER SEVENTY-THREE
+  stub: true
+  stub_reason: 'The PDF is a scan from the State Library of Iowa (''COURTESY STATE LIBRARY OF IOWA'') that carries an embedded OCR text layer (fonts ''HiddenHorzOCR'' or an OCR typeface; legislature document 966059). The shared OCR procedure (src/ingest_ocr.py, ocrmypdf without --force-ocr or --redo-ocr) refuses any page that already has text (measured: ocrmypdf exit 6, PriorOcrFoundError: ''page already has text''), and the shared pdf reader would commit the embedded layer, an unrecorded machine reading with measured errors (''arid'' and ''anti'' for ''and'', ''S.tate'', ''Helvetica'' glyph junk in the letterhead), as if it were the text of record. A shared change is needed (see the PR''s shared changes): let the seed entry ask for a forced re-read of a page whose text layer is an embedded OCR layer. Content, read as discovery only: see why_relevant.'
+  found_via: the Legislature's executive order list https://www.legis.iowa.gov/publications/otherResources/executiveOrders (all governors, 247 rows read in full, 'Further Disposition' column empty for this order)
+  why_relevant: Creates the Website Standardization Committee to promote accessibility improvements on state websites. The list records no further disposition. OWNER DECISION whether a 2011 committee order is in force in substance.
+- id: ia-eo-culver-26
+  sha256: ''
+  url: https://www.legis.iowa.gov/docs/publications/EO/966100.pdf
+  format: pdf
+  citation: Iowa Executive Order 26 (Governor Culver, October 14, 2010)
+  title: Executive Order Number 26
+  doc_type: executive_order
+  jurisdiction: iowa
+  issuing_body: Governor of Iowa; published by the Legislative Services Agency
+  tags:
+  - governance
+  - oversight
+  recheck: annual
+  identity_text: EXECUTIVE ORDER NUMBER TWENTY-SIX
+  stub: true
+  stub_reason: 'The PDF is a scan from the State Library of Iowa (''COURTESY STATE LIBRARY OF IOWA'') that carries an embedded OCR text layer (fonts ''HiddenHorzOCR'' or an OCR typeface; legislature document 966100). The shared OCR procedure (src/ingest_ocr.py, ocrmypdf without --force-ocr or --redo-ocr) refuses any page that already has text (measured: ocrmypdf exit 6, PriorOcrFoundError: ''page already has text''), and the shared pdf reader would commit the embedded layer, an unrecorded machine reading with measured errors (''arid'' and ''anti'' for ''and'', ''S.tate'', ''Helvetica'' glyph junk in the letterhead), as if it were the text of record. A shared change is needed (see the PR''s shared changes): let the seed entry ask for a forced re-read of a page whose text layer is an embedded OCR layer. Content, read as discovery only: see why_relevant.'
+  found_via: the Legislature's executive order list https://www.legis.iowa.gov/publications/otherResources/executiveOrders (all governors, 247 rows read in full, 'Further Disposition' column empty for this order)
+  why_relevant: 'Outlines the authority of the Chief Information Officer and directs the CIO to oversee the Department of Administrative Services'' IT consolidation. The list records no further disposition, but the Code has since moved the CIO''s authority (2013 Acts, ch 129, then 2024 Acts, ch 1185): OWNER DECISION whether it is in force in substance.'
+- id: ia-eo-branstad-61
+  sha256: ''
+  url: https://www.legis.iowa.gov/docs/publications/EO/966047.pdf
+  format: pdf
+  citation: Iowa Executive Order 61 (Governor Branstad, July 15, 1997)
+  title: Executive Order Number 61
+  doc_type: executive_order
+  jurisdiction: iowa
+  issuing_body: Governor of Iowa; published by the Legislative Services Agency
+  tags:
+  - governance
+  recheck: annual
+  identity_text: EXECUTIVE ORDER NUMBER 61
+  stub: true
+  stub_reason: 'The PDF is a scan from the State Library of Iowa (''COURTESY STATE LIBRARY OF IOWA'') that carries an embedded OCR text layer (fonts ''HiddenHorzOCR'' or an OCR typeface; legislature document 966047). The shared OCR procedure (src/ingest_ocr.py, ocrmypdf without --force-ocr or --redo-ocr) refuses any page that already has text (measured: ocrmypdf exit 6, PriorOcrFoundError: ''page already has text''), and the shared pdf reader would commit the embedded layer, an unrecorded machine reading with measured errors (''arid'' and ''anti'' for ''and'', ''S.tate'', ''Helvetica'' glyph junk in the letterhead), as if it were the text of record. A shared change is needed (see the PR''s shared changes): let the seed entry ask for a forced re-read of a page whose text layer is an embedded OCR layer. Content, read as discovery only: see why_relevant.'
+  found_via: the Legislature's executive order list https://www.legis.iowa.gov/publications/otherResources/executiveOrders (all governors, 247 rows read in full, 'Further Disposition' column empty for this order)
+  why_relevant: 'Vests the authority to coordinate IT and provide enterprise-wide IT services to executive branch agencies in the Information Technology Services director. The list records no further disposition; the office it names no longer exists under that name: OWNER DECISION.'
+- id: ia-eo-branstad-66
+  sha256: ''
+  url: https://www.legis.iowa.gov/docs/publications/EO/966052.pdf
+  format: pdf
+  citation: Iowa Executive Order 66 (Governor Branstad, May 21, 1998)
+  title: Executive Order Number 66
+  doc_type: executive_order
+  jurisdiction: iowa
+  issuing_body: Governor of Iowa; published by the Legislative Services Agency
+  tags:
+  - digital-services
+  - governance
+  recheck: annual
+  identity_text: EXECUTIVE ORDER NUMBER 66
+  stub: true
+  stub_reason: 'The PDF is a scan from the State Library of Iowa (''COURTESY STATE LIBRARY OF IOWA'') that carries an embedded OCR text layer (fonts ''HiddenHorzOCR'' or an OCR typeface; legislature document 966052). The shared OCR procedure (src/ingest_ocr.py, ocrmypdf without --force-ocr or --redo-ocr) refuses any page that already has text (measured: ocrmypdf exit 6, PriorOcrFoundError: ''page already has text''), and the shared pdf reader would commit the embedded layer, an unrecorded machine reading with measured errors (''arid'' and ''anti'' for ''and'', ''S.tate'', ''Helvetica'' glyph junk in the letterhead), as if it were the text of record. A shared change is needed (see the PR''s shared changes): let the seed entry ask for a forced re-read of a page whose text layer is an embedded OCR layer. Content, read as discovery only: see why_relevant.'
+  found_via: the Legislature's executive order list https://www.legis.iowa.gov/publications/otherResources/executiveOrders (all governors, 247 rows read in full, 'Further Disposition' column empty for this order)
+  why_relevant: 'Creates the IowAccess Advisory Council to advise the Director of Information Technology Services on the state portal. The list records no further disposition: OWNER DECISION whether it is in force in substance.'
+- id: ia-watch-ocio-standards
+  sha256: ''
+  url: https://ocio.iowa.gov/standards
+  format: html
+  citation: 'OCIO: Enterprise IT Standards'
+  title: 'Iowa OCIO Standards & Policies: Enterprise IT Standards'
+  doc_type: standard
+  jurisdiction: iowa
+  issuing_body: State of Iowa
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The statewide IT standards library: 8 table sections, 29 PDF links read on 2026-11-11 (27 seeded, 2 left out). A row added or removed, or a policy link added to the ''Policy PDF'' column (which would supersede its standard), raises a review report.'
+- id: ia-watch-dom-policy-portal
+  sha256: ''
+  url: https://policies.iowa.gov/search/?agency=1
+  format: html
+  citation: 'Policy portal: State of Iowa scope'
+  title: 'State of Iowa policy portal: all policies'
+  doc_type: policy
+  jurisdiction: iowa
+  issuing_body: State of Iowa
+  tags:
+  - governance
+  - ai
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The policy portal''s list for the ''State of Iowa'' scope: 4 policies found on 2026-11-11, all the Department of Management''s. A policy added by the department, or by another agency (the portal''s agency menu lists 18 agencies, all but the department empty), raises a review report.'
+- id: ia-watch-eo-list
+  sha256: ''
+  url: https://www.legis.iowa.gov/publications/otherResources/executiveOrders
+  format: html
+  citation: 'Legislature: executive orders list'
+  title: 'Iowa Legislature: Executive Orders (all governors)'
+  doc_type: executive_order
+  jurisdiction: iowa
+  issuing_body: State of Iowa
+  tags:
+  - governance
+  - cybersecurity
+  - ai
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Legislative Services Agency's list of every governor's executive orders with description, bulletin page and further disposition. A new order on state IT, cybersecurity, data or AI, or a rescission of a seeded order, appears here.
+- id: ia-watch-iac-129
+  sha256: ''
+  url: https://www.legis.iowa.gov/docs/iac/agency/129.pdf
+  format: pdf
+  citation: 'IAC: Office of the Chief Information Officer [129]'
+  title: 'Iowa Administrative Code: Chief Information Officer, Office of the [129] (whole agency)'
+  doc_type: rule
+  jurisdiction: iowa
+  issuing_body: State of Iowa
+  tags:
+  - governance
+  - procurement
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The whole agency''s rules: chapters 8 and 10 (seeded), 20 to 22 (broadband, left out) and the rescinded chapters 1 to 7. A new or rescinded chapter appears here.'
+- id: ia-watch-code-ch8
+  sha256: ''
+  url: https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026
+  format: html
+  citation: Iowa Code ch. 8 section index
+  title: Iowa Code chapter 8 section index (Code 2026)
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: State of Iowa
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: The section index of chapter 8 (Department of Management, Budget and Financial Control Act), whose subchapter XI (8.76 to 8.93) holds the state's information technology law. A section added to or removed from subchapter XI appears here. The url names the 2026 edition.
+- id: ia-watch-code-ch8b
+  sha256: ''
+  url: https://www.legis.iowa.gov/docs/code/8B.pdf
+  format: pdf
+  citation: Iowa Code ch. 8B
+  title: Iowa Code chapter 8B (repealed or transferred)
+  doc_type: statute
+  jurisdiction: iowa
+  issuing_body: State of Iowa
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The former Information Technology chapter, which now prints only that its provisions were repealed or transferred to chapter 8, subchapters II and XI, by 2024 Acts, ch 1185, sections 83 and 85. It is watched in case the Legislature reuses it.
+left_out:
+- text: '---- Iowa: found and left out (each was seen in bytes fetched through the toolkit Fetcher on 2026-11-11 unless it says it was seen only in a web search; the reason is recorded here)'
+- text: 'Where Iowa''s IT law and policy sit (so the reconciliation below can be checked): the Office of the Chief Information Officer was folded into the Department of Management by 2024 Acts, ch 1185. Iowa Code chapter 8B (Information Technology) now prints only ''Provisions of chapter repealed or transferred to chapter 8, subchapters II and XI, by 2024 Acts, ch 1185, sections 83, 85'' (https://www.legis.iowa.gov/docs/code/8B.pdf, fetched, one page; watched, not a document). The IT statute is chapter 8 subchapter XI (8.76 to 8.93). The OCIO web site ocio.iowa.gov is now the Department of Management''s. Its rules remain in the Administrative Code under ''Chief Information Officer, Office of the [129]'' and still cite chapter 8B.'
+- text: 'Iowa Code chapter 8 sections left out (the chapter''s section index https://www.legis.iowa.gov/law/iowaCode/sections?codeChapter=8&year=2026 was read in full): 8.79 Targeted service areas, 8.86 Fiberoptic network conduit installation program, 8.87 Broadband permitting process and 8.91 Empower rural Iowa broadband grants (subchapter XI, but broadband is out of scope in _meta/domain.yml); every section of subchapters I, III to X and the rest of subchapter II except 8.5 (budget, appropriations, funds and grants: not IT; 8.5 is seeded because it holds the CIO designation and the cybersecurity duty, see its entry). 8.6 ''Specific powers and duties'' is printed as repealed by 2024 Acts, ch 1185, section 83. The sections were seeded one by one from the Legislature''s per-section PDFs, so no other section of chapter 8 rides along; the whole-chapter PDF (https://www.legis.iowa.gov/docs/code/8.pdf, 112 pages, fetched) was read only to find the IT sections.'
+- text: 'Iowa Code chapter 554G (Cybersecurity programs, an affirmative defense in tort actions: https://www.legis.iowa.gov/docs/code/554G.pdf, fetched): it governs private covered entities'' liability; 8.93(2) says a state or local entity that complies with it is deemed a covered entity. Left out as a private-sector liability statute; 8.93 (seeded) carries the state-facing rule. Iowa Code chapter 8A (Department of Administrative Services: https://www.legis.iowa.gov/docs/code/8A.pdf, fetched and searched for ''information technology'', ''cyber'' and ''software'': no IT provision; its hits are electronic access to documents and electronic purchasing format). Iowa Code chapter 22 (public records, fetched) was not read for IT content and is not seeded.'
+- text: 'Artificial intelligence, statutes: none found that binds state agencies. List read: the Legislative Services Agency''s Legal Background Briefing ''State of Artificial Intelligence Laws'' (June 2026, https://www.legis.iowa.gov/docs/publications/BF/1607981.pdf, fetched, read in full), which says Senate File 2417 (2026 Iowa Acts, ch 1068, Iowa Code chapter 554J) is the General Assembly''s first law that directly addresses AI and describes it as requirements for operators of conversational AI services (private operators: out of scope, so not seeded); it names no enacted law on AI use by government agencies and says the General Assembly ''considered legislation related to ... the use of AI by government agencies''. A bill on a state AI inventory (Senate Study Bill 3014) and House File 2199 were seen only in web-search results and the briefing''s footnote, not in bytes of a bill text, and bills not enacted are out of scope. The only state-agency AI instrument found is the Department of Management''s Generative AI Policy (seeded).'
+- text: 'Administrative rules, reconciled row by row. Agency table https://www.legis.iowa.gov/law/administrativeRules/agencies (read: ''Chief Information Officer, Office of the[129]'' is the only IT agency row). Agency [129] (https://www.legis.iowa.gov/docs/iac/agency/129.pdf, fetched, analysis read in full): chapters 1 to 7 are rescinded or reserved (office procedures, records, petitions, declaratory orders, rule making, contested cases, waivers; rescinded effective 2/25/26 and 2026 Iowa Acts, Senate File 2463); chapter 8 and chapter 10 are seeded; chapter 9 is reserved; chapters 20 (Broadband infrastructure, targeted service areas), 21 (Broadband infrastructure, project certification) and 22 (Broadband grants program) are broadband and left out. Administrative Services Department [11] (https://www.legis.iowa.gov/docs/iac/agency/11.pdf, fetched, table of contents read): its Title II ''Information Technology'' is listed as chapters 20 to 34 reserved; nothing seeded. Management Department [541] (https://www.legis.iowa.gov/docs/iac/agency/541.pdf, fetched, analysis read: chapters 1 organization, 8 public records and fair information practices, 11 grants enterprise management, 12 DAS customer council, 13 suspension and reinstatement of state funds): no IT chapter; nothing seeded. Other agencies'' rules were not searched for IT content (the Administrative Code has about 80 agencies).'
+- text: 'Executive orders, reconciled. List: the Legislature''s page of all governors'' orders (https://www.legis.iowa.gov/publications/otherResources/executiveOrders, 247 rows read, with the ''Description'' and ''Further Disposition'' columns). Only the descriptions were searched, by keyword (technolog, cyber, informat, data, comput, artificial, digital, network, software, internet, security, innovation, efficien, app, broadband, website, electronic), and every hit was read; an order whose description does not use those words was not read. SEEDED (no recorded further disposition; the Legislature''s list is the status of record): Reynolds 18, Branstad 87, 73, 61, 66, Culver 26 (the older five are OWNER DECISIONS, see each entry). LEFT OUT: Reynolds 12 (February 10, 2025, Department of Government Efficiency Task Force: its scope is government efficiency and it asks the task force to evaluate AI and automation, a one-line mention; it expires on submission of a final report and whether it was submitted is not shown; OWNER DECISION), Branstad 65 (1998, Iowa Geographic Information Council: GIS coordination; read; OWNER DECISION whether GIS is IT governance), Reynolds 11 (June 6, 2024: rescinds or amends about 65 older orders; its text was read as a scan (discovery) and does not list 87, 73, 66, 65, 61 or Culver 26; it is not itself an IT instrument). The list holds no order, under any number, on generative AI. The Governor''s directive of 2025-02-19 to the Department of Management on state use of RedNote, Lemon8 and DeepSeek was seen only in news reports found by web search (a directive, not a numbered order, like the TikTok directive of 2022-12-13 that standard 1056 implements); its text was not found on governor.iowa.gov or ocio.iowa.gov, and 1056 (12/14/2022) names only TikTok, so the directive''s text is not published in the standards library; nothing is seeded for it. OWNER DECISION / lead for a reviewer: whether to look for the directive''s text through a records request. Older orders on IT that the list records as rescinded or repealed (Branstad 18 and 33, Vilsack 3, Culver 20) are out by the in-force rule. The orders'' PDFs are scans read by OCR: see each entry.'
+- text: 'OCIO standards library (https://ocio.iowa.gov/standards, read in full), reconciled row by row: 29 PDF links in 8 table sections (Data Backup 1, Security 18, Internet and Web 4, Platform Architecture - Hardware 1, Desktop 2, Taxonomy 1, Project Governance 2). 27 are seeded (ia-ocio-1027 to 1056, except the two below). LEFT OUT: media 1031, the FAQ to the Email Security Standard (FAQ dated February 9, 2012: an explanatory document, not an instrument) and media 1035, ''Agency Enterprise Information Security Standards Status Report 2012'' (a blank report form to be returned to the Information Security Office: a form). The index''s ''Policy PDF'' column holds no link on any row; its note says such a link would supersede the standard, so none is superseded. Every standard is old (2008 to 2017, one of 2022); the index still lists them all as the ''Enterprise IT Standards'', so they are seeded; several cite bodies and Code sections that no longer exist (for example the Technology Governance Board and section 8A.204): OWNER DECISION whether the oldest are kept. The standards'' ''web version'' pages (about 27 pages such as /data-backup-standard) repeat the PDFs; two were read (Data Backup, Project Governance) and match the PDF''s opening; none is seeded separately. Library filter: none, every row taken.'
+- text: 'State of Iowa policy portal (https://policies.iowa.gov/search/?agency=1, ''State of Iowa'' scope): ''4 policies found. Showing 1-4. Page 1 of 1''; all four are the Department of Management''s and all four are seeded. The agency menu lists 18 agencies; the Department of Administrative Services scope (?agency=4) returned ''No policies''; the other 16 agencies were not each fetched, and the State of Iowa scope, which rolls up the agencies, shows only these four. The policy ''Department of Management Procurement and Contract Signing Policy'' lists one attachment, SignaturePolicyComms.pdf (94.4 KB); the portal link (/policies/<slug>/documents/3/download/) answered with the portal''s HTML page, not a PDF, so the attachment could not be read and is left out. Each policy''s PDF version (/pdf/) is generated anew at every request (two fetches of one policy differed by one byte), so the policies are taken from their HTML pages.'
+- text: 'Pages of the OCIO site read and left out as not instruments: (a) IT Procurement - Contracts, Sourcing and Vendor Management and its sub-pages (Terms & Conditions and Forms; Information Technology Master Agreements; Vendor Information; IT Governance Initiation Process): contract templates, forms and guides, not instruments: IT General Terms and Conditions rev. 7.1.2026 (Word), IT Business Associate Agreement, IT Qualified Service Organization Agreement, Federal Certifications, Sole Source Justification Form, Emergency Procurement Justification Form, DOM Statement of Work Template, Statement of Work Guidance, Contract Negotiation Reference Guide, Vendor Quarterly Report Template, IT Master Agreements Guide, two ServiceDesk Plus how-to guides. OWNER DECISION whether the IT General Terms and Conditions (the terms a vendor under a state IT contract accepts) belong, since a vendor under a state contract is within the inclusion test; they are a template and a Word file and are not seeded. (b) ''General Terms and Conditions of Cybersecurity Services'' (media 193): the terms on which the department sells cybersecurity services to entities; a service contract. (c) Enterprise IT Plan - March 2025 (media 797), the 2019 Cyber Security Strategy (media 241), the FY23 Internal Services Report (media 240) and the IowAccess annual reports on the Reports page: strategy documents and reports. (d) Strategic IT Consolidation page, Help for Iowa Constituents, Cybersecurity page (an incident-report Google form and links): no instrument. (e) Archived Documents (https://ocio.iowa.gov/archived-documents, 2 pages read, 25 items) and Proposed Rules & Regulatory Analyses (2 pages read, 21 items, one more on the Code, Rules & Policies page): regulatory analyses and red tape review reports of rule making for chapters 129-1 to 7, 541, 543, 545 and 547, rule-making records. (f) Broadband, Lean Enterprise, Local Government, State Budget, Boards & Committees and Data & Analytics sections: not IT governance or out of scope.'
+- text: 'The Governor''s own list of executive orders (https://governor.iowa.gov/meet-governor-kim-reynolds/executive-orders, fetched through the Toolkit Fetcher on 2026-11-11 and read): Reynolds orders 1 to 20 are listed with a one-line description each. No in-scope order beyond those seeded: Order 19 (Iowa Office of Outdoor Recreation) and Order 20 (Iowa Medicaid Fraud Elimination Task Force) are out of scope. Order 18 is on both lists. Press releases on governor.iowa.gov that web search returned (for example a June 2026 item on moving state IT to the cloud) were not fetched and nothing is claimed from them.'
+- text: 'Digital Asset Policy (ADMN.302.01.D): the seeded Digital Accessibility Policy (ADMN.303.02.E) names it as the policy that ''governs how websites are built and operated and sets the required Public-Facing Notices''. It is not in the portal''s State of Iowa list (4 rows, all read) and the pattern-built URL https://policies.iowa.gov/dom/policy/digital-asset-policy/ answered HTTP 404 through the Fetcher on 2026-11-11 (the address is a guess from the portal''s slug pattern, not copied from an index). Left out: not found. OWNER DECISION: whether to seek it; and whether it supersedes ia-ocio-1048 (Web Site Policy Notices, 2017) and ia-ocio-1047 (Web Content Management System, 2015), and whether the 2026 Digital Accessibility Policy supersedes ia-ocio-1049 (Website Accessibility, 2017). None of these questions is settled by the bytes read; all three standards stay seeded as the index lists them.'

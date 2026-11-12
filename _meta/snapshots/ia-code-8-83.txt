@@ -1,0 +1,30 @@
+1          DEPARTMENT OF MANAGEMENT — BUDGET AND FINANCIAL CONTROL ACT, §8.83
+
+  8.83 Digital government.
+  1. The department is responsible for initiating and supporting the development of
+electronic commerce, electronic government, mobile applications, and internet applications
+across supported entities and in cooperation with other governmental entities.
+  2. In developing the concept of digital government, the department shall do all of the
+following:
+  a. Establish policies, consistent with other state law, for the implementation of electronic
+commerce, including policies for the technical implementation of electronic signatures
+pursuant to chapter 554D, electronic currency, and other items associated with electronic
+commerce.
+  b. Establish guidelines for the appearance and functioning of applications.
+  c. Establish policies for the integration of electronic data across state agencies.
+  d. Foster joint development of electronic commerce and electronic government involving
+the public and private sectors.
+  e. Develop customer surveys and citizen outreach and education programs and material,
+and provide for citizen input regarding the state’s electronic commerce and electronic
+government applications.
+  f. Assist supported entities in converting printed government materials to electronic
+materials which can be accessed through an internet searchable database.
+  g. Encourage supported entities to utilize duplex printing and a print on demand strategy
+to reduce printing costs, publication overruns, excessive inventory, and obsolete printed
+materials.
+  2013 Acts, ch 129, §19
+  C2014, §8B.22
+  2024 Acts, ch 1185, §68, 85
+  C2025, §8.83
+
+Wed Dec 10 21:42:53 2025                                   Iowa Code 2026, Section 8.83 (23, 0)

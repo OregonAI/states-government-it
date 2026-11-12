@@ -1,0 +1,112 @@
+                                      Maine State Government
+                            Dept. of Administrative & Financial Services
+                              Office of Information Technology (OIT)
+
+                     Enterprise Name Resolution Procedure
+1.0 Purpose
+
+The Office of Information Technology has established a Domain Naming Policy for Domain Name
+System (DNS) use in the State of Maine environment. State agencies will use this procedure as a
+guide in naming enterprise information technology assets.
+
+This procedure is intended to ensure that the method of name resolution utilized is DNS and to
+create the complementary enforcement mechanism.
+
+2.0 Definitions
+
+   2.1 Domain Name System (DNS): Identified as the international standard for name resolution
+       across networks of any size and within any routed, networked environment based on its
+       scalability, reliability and fault tolerance.
+
+3.0 Applicability
+
+   3.1 This procedure applies to all information technology assets, both hardware and software,
+       including:
+
+      3.1.1   Information technology assets that are owned by the Executive Branch and Semi-
+              autonomous State Agencies irrespective of where such assets are located or hosted,
+              and;
+      3.1.2   Information technology assets from other Maine State Government branches that are
+              reliant upon the State wide-area network and its support systems for their operation.
+
+4.0 Responsibilities
+
+   4.1 The Chief Information Officer is responsible for the enforcement of this procedure.
+
+   4.2 All persons and parties engaged in information technology work for the State of Maine are
+       responsible for complying with the defined and approved enterprise name
+       resolution procedure. These roles include:
+
+      4.2.1   Enterprise DNS Administrator - Responsible for the Architecture and Maintenance of
+              the States DNS infrastructure.
+      4.2.2   Server Administrators - Responsible for properly configuring servers and other
+              devices pursuant to the Enterprise Name Resolution Procedure.
+      4.2.3   Client Technologies -Responsible for the proper building and configuration of client
+              desktops and laptops pursuant to the Enterprise Name Resolution Procedure.
+
+                                             Page 1 of 3
+
+                               Enterprise Name Resolution Procedure
+
+5.0 Directives
+
+  5.1 It is acknowledged that there are currently I.T. assets in the State’s environment that are
+      unable to utilize DNS to perform name resolution, but it is recognized that the vast majority
+      of devices on the network have no problem using DNS.
+
+  5.2 Any system, application, or environment that needs to refer to networked assets should
+      utilize DNS to perform name resolution.
+
+     5.2.1   This includes not only systems currently using DNS, but those currently utilizing
+             WINS (NetBIOS), or Host Files, which could utilize DNS but are not currently doing so.
+
+  5.3 DNS has been established as the only officially supported method of name resolution
+      provided from the enterprise, and all systems requiring name resolution services are
+      required to utilize DNS.
+
+  5.4 Wherein DNS is the only supported name resolution protocol, the use of FQDN’s (Fully
+      Qualified Domain Names) will be critical.
+
+     5.4.1   All servers, appliances and PC’s or laptops on the State WAN are required to have a
+             properly registered FQDN to assist in DNS queries for that device.
+
+     5.4.2   All queries performed via DNS to locate such devices must use the FQDN format of
+             “machine-name.xxx.xxx.xxx.xxx.xxx” (i.e. – “computer.som.w2k.state.me.us”).
+
+     5.4.3   All computer or device names registered in DNS must follow the naming standard
+             format already established in the State of Maine’s Device Naming Standard.
+
+     5.4.4   No hard coded dotted number quad; all references should be to names.
+
+  5.5 It will be specifically mentioned that there are devices on the network that do not need DNS
+      name resolution, and as such should not actually have DNS records associated with them.
+      Only devices that will need to be located via their DNS names should have records in the DNS
+      database
+
+     5.5.1   Examples of devices requiring DNS records are servers and PC’s, appliances, etc.
+
+     5.5.2   Examples of devices not necessarily requiring DNS records are: infrastructure devices
+             (such as environmental monitoring equipment), badge readers, web-cams, etc.
+
+  5.6 All systems that could be using DNS but are not currently doing so must be converted to use
+      our Enterprise DNS solution.
+
+6.0 Document Information
+
+  Initial Issue Date: February 9, 2010
+  Latest Revision Date: April 4, 2019 – To update Document Information.
+
+   Point of Contact: PolicyTeam.OIT@Maine.Gov
+   Approved By: Chief Information Officer, OIT
+
+                                            Page 2 of 3
+
+                                      Enterprise Name Resolution Procedure
+
+   Legal Citation: Title 5, Chapter 163: Office of Information Technology1.
+   Waiver Process: See the Waiver Policy2.
+
+1 http://legislature.maine.gov/statutes/5/title5ch163sec0.html
+2 https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/waiver.pdf
+
+                                                     Page 3 of 3

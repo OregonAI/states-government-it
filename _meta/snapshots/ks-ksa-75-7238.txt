@@ -1,0 +1,14 @@
+75-7238. (a) There is hereby established the position of executive branch chief information security officer (CISO). The executive CISO shall be in the unclassified service under the Kansas civil service act, shall be appointed by the governor and shall receive compensation in an amount fixed by the governor.
+(b) The executive CISO shall:
+(1) Report to the executive branch chief information technology officer;
+(2) establish security standards and policies to protect the branch’s information technology systems and infrastructure in accordance with subsection (c);
+(3) ensure the confidentiality, availability and integrity of the information transacted, stored or processed in the branch’s information technology systems and infrastructure;
+(4) develop a centralized cybersecurity protocol for protecting and managing executive branch information technology assets and infrastructure;
+(5) detect and respond to security incidents consistent with information security standards and policies;
+(6) be responsible for the cybersecurity of all executive branch data and information resources;
+(7) collaborate with the chief information security officers of the other branches of state government to respond to cybersecurity incidents;
+(8) ensure that the governor and all executive branch employees complete cybersecurity awareness training annually and that if an employee does not complete the required training such employee’s access to any state-issued hardware or the state network is revoked;
+(9) ensure that all contracts related to information technology entered into by a person or entity within the executive branch contain provisions to reduce the risk of security vulnerabilities within the supply chain or product and each contract contains standard security language; and
+(10) adopt statewide cybersecurity standards, controls, directives and maturity and tier expectations for the executive branch and continually evaluate standards and expectations to address evolving threats, federal requirements, technological changes and statewide risk conditions.
+(c) The executive CISO shall develop a cybersecurity program for each executive branch agency based on a nationally recognized standard for governmental entities. Beginning in 2027 and every two years thereafter, the executive CISO shall report to the joint committee on information technology, the house of representatives standing committee on appropriations and the senate standing committee on ways and means on the maturity level of the program. The agency head of each executive branch agency shall coordinate with the executive CISO to achieve such standards.
+[2026 Session Laws of Kansas, chapter 53, House Bill No. 2574, section 13. Approved April 6, 2026.]

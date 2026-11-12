@@ -1,0 +1,94 @@
+                                     COMPLIANCE COMPONENT
+
+                                                      DEFINITION
+Name                   Inactivity Controls
+                       Inactivity controls protect against unauthorized system usage by disabling an electronic
+Description
+                       device or session after a pre-determined time of inactivity.
+                       Appropriate inactivity safeguards must be used to protect against unauthorized access to or
+                       use of information, data, and software resident on computers, peripheral devices, and
+                       storage media. Inactivity controls are particularly necessary in open offices where there are
+Rationale
+                       no walls and many people leave their computers on and available for anyone who happens
+                       to walk by. Inactivity controls can also be used to protect information or data transmitted
+                       over communication lines or networks.
+                       • Protect against unauthorized disclosure
+Benefits
+                       • Protect against unauthorized system usage
+
+                                       ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name         Security
+Specify the Discipline Name     Technical Controls
+Specify the Technology Area
+                                Logical Access Controls
+Name
+Specify the Product
+Component Name
+
+                                             COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+
+                                                 COMPLIANCE DETAIL
+                                •    To maintain the confidentiality and integrity of information and information
+                                     systems, users shall lock the system, log-out or invoke a password-protected
+                                     screen saver before leaving any computer or electronic device unattended.
+                                •    If there has been no activity on a computer or electronic device for a maximum
+                                     of fifteen (15) minutes, the computer or electronic device shall be locked. Re-
+State the Guideline, Standard        establishment of the computer or electronic device shall take place only after
+or Legislation                       the user has renewed access via the proper authentication, such as a
+                                     password.
+                                •    While computing, user sessions are locked after fifteen (15) minutes of
+                                     inactivity. Users will be required to re-authenticate to continue their sessions
+                                     after screen lockout due to inactivity.
+
+                                NIST SP 800-53, Rev. 5
+Document Source Reference #
+                                IRS Publication 1075, revision 11-2021
+
+                                                 Compliance Sources
+                                 National Institute of
+                                Standards and Technology
+Name                                                                Website
+                                (NIST), Computer Security                          http://csrc.nist.gov/
+                                Resource Center (CSRC)
+Contact Information             inquiries@nist.gov
+Name                            Internal Revenue Service            Website        http://www.irs.gov/
+Contact Information             SafeguardReports@irs.gov
+
+                                                        KEYWORDS
+                                Idle, time out, login, log-out, screen saver, session, lockout, inactivity, re-
+List Keywords
+                                authenticate.
+
+                                             COMPONENT CLASSIFICATION
+Provide the Classification          Emerging                  Current                    Twilight            Sunset
+     Sunset Date
+
+                                           COMPONENT SUB-CLASSIFICATION
+ Sub-Classification          Date                          Additional Sub-Classification Information
+    Technology Watch
+    Variance
+    Conditional Use
+
+                                      Rationale for Component Classification
+Document the Rationale for
+Component Classification
+
+                                                     Migration Strategy
+Document the Migration
+Strategy
+                                               Impact Position Statement
+Document the Position
+Statement on Impact
+
+                                                     CURRENT STATUS
+Provide the Current Status          In Development            Under Review               Approved           Rejected
+
+                                                       AUDIT TRAIL
+Creation Date                   03/06/2003                    Date Approved / Rejected     03/24/2003
+     Reason for Rejection
+Last Date Reviewed              09/21/2022                    Last Date Updated            09/30/2022
+     Reason for Update          Vitality

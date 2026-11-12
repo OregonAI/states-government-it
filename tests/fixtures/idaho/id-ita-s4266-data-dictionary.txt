@@ -1,0 +1,51 @@
+SUFFIX         Text       1                                              D
+                                   panel number)
+FIRM_PAN       Text       11       Complete FIRM panel number            16005C0565D
+                                   Whether panel is community-based
+                                                                         Countywide,
+PANEL_TYP      Text       30       of countywide, whether panel is
+                                                                         Panel Printed
+                                   printed or not
+                                   Preliminary release date of current
+PRE_DATE       Date       -                                              9/9/9999
+                                   map revision
+                                   Effective date of current map
+EFF_DATE       Date       -                                              7/7/2009
+                                   revision
+SCALE          Text       5        Denominator of map scale              6000, 12000
+                                                                         AREA OUTSIDE
+                                                                         COUNTY
+                                   Reason panels are not printed if      BOUNDARY,
+PNP_REASON     Text       254      hardcopy panel is not printed by      NO SPECIAL
+                                   FEMA                                  FLOOD
+                                                                         HAZARD
+                                                                         LAYERS
+                                                                                         12
+
+                 Data
+ Field Name                    Length             Description                     Examples
+                 Type
+                                        Type of basemap used for the FIRM
+BASE_TYP      Text         10                                                NP
+                                        panel
+                                        Abbreviation used in metadata file
+SOURCE_CIT    Text         21           when describing source information   16005C_BASE14
+                                        for the feature
+
+    3.3.3. Letters of Map Revisions
+
+                 Data
+ Field Name                    Length             Description                     Examples
+                 Type
+                                        Study identifier, within each FIRM
+DFIRM_ID      Text         6            Database, the DFIRM_ID value will    16005C
+                                        be identical
+                                        Identifies the product version and
+VERSION_ID    Text         11           relates the features to standards    1.1.1.0
+                                        according to how it was created
+LOMR_ID       Text         32           Primary key for table lookup         16005C_1
+EFF_DATE      Date         -            Effective date of the LOMR           3/2/2022
+                                        Case number of the LOMR
+CASE_NO       Text         13                                                21-10-0870P
+                                        assigned by FEMA
+SCALE         Text         5            Denominator of map scale             6000, 12000

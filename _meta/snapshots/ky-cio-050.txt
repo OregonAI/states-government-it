@@ -1,0 +1,112 @@
+ COMMONWEALTH OFFICE OF TECHNOLOGY                                            Page 1 of 3
+ Office of the Chief Information Officer Enterprise Policy (CIO)
+ CIO–050: Enterprise Procurement of Information Technology
+                                        REVISED: 02/04/2019,            REVIEWED: 08/16/2023,
+ EFFECTIVE DATE: 12/15/2014
+                                        08/16/2023, 10/10/2025          10/10/2025
+
+ I.    PURPOSE
+
+       The purpose of this policy is to describe responsibilities and processes regarding the
+       procurement, ownership, and tracking of information technology (IT) assets.
+
+ II.   DEFINITIONS
+
+       “Asset” - means any piece of software or hardware in the information technology
+       environment that can be identified by an IT-related commodity code in the Commonwealth’s
+       accounting system, or that interfaces directly with the enterprise data network. This includes,
+       but is not limited to hardware, software, and service offerings.
+
+       “Kentucky Information Technology Standards (KITS)” - means the KITS is comprised of
+       formalized IT standards covering the broad spectrum of technology environments including
+       software, hardware, networks, applications, data, security, access, communications, project
+       management and other relevant architecture disciplines.
+
+III.   POLICY and PROCEDURES:
+
+       This policy governs the procurement and inventory processes used to manage the lifecycle
+       of IT assets, at both the strategic and operational levels.
+
+       IT Services Requests:
+
+       Requests for new IT services or enhancements to existing services shall be submitted by
+       an authorized Agency IT Services Contact to the Commonwealth Office of Technology
+       (COT) via the IT Service Management (ITSM) Self-Service Portal or by contacting the
+       Commonwealth Service Desk (CSD). The Self-Service Portal allows direct access for
+       Agency IT Services Contacts to submit service requests directly into the system, creating
+       automated tasks to be assigned to the appropriate COT teams.
+
+       During the review process, COT reserves the right to request additional information, and/or
+       suggest alternatives to the request. In cases where COT offers a rated service that
+       reasonably meets the agency’s requirements, the rated service is the preferred solution. If
+       COT determines that procurement of additional IT assets is necessary, in order to deliver
+       the desired outcome under a rated service, the procurement process shall be followed.
+
+       Agencies requesting products or services outside the parameters of the Kentucky
+       Information Technology Standards (KITS), regardless of cost, must submit a Request for
+       Exception/Addition/Modification outlining the business case supporting the purchase. This
+       process is described in detail on the COT website under the “About the Agency” header.
+
+ COMMONWEALTH OFFICE OF TECHNOLOGY                                           Page 2 of 3
+ Office of the Chief Information Officer Enterprise Policy (CIO)
+ CIO–050: Enterprise Procurement of Information Technology
+                                       REVISED: 02/04/2019,            REVIEWED: 08/16/2023,
+ EFFECTIVE DATE: 12/15/2014
+                                       08/16/2023, 10/10/2025          10/10/2025
+
+      Procurement:
+
+      The procurement process shall be followed for purchases that are for an agency-specific
+      function, or that are outside the scope of COT rated services. Requests for IT hardware
+      assets with a cost of $1,000 or greater, all software assets regardless of cost, and all IT
+      related services regardless of cost, must go through the Strategic Procurement Request
+      (SPR1) review process prior to purchase. This also includes all KITS approved requests.
+
+      Ownership and Tracking:
+
+      IT assets that have been purchased by COT and provisioned by a COT rated service will
+      be owned by the Finance and Administration Cabinet and tracked as inventory by COT. In
+      addition, COT will track, as inventory, any asset procured by the Agency prior to subscribing
+      to the associated COT service. Examples include, but are not limited to, telephone systems
+      and computers purchased for a specific use case.
+
+      IT assets that have been purchased by COT for an agency-specific function and that are
+      not provisioned by a COT rated service will be owned and tracked as inventory by the
+      agency that initiated the purchase.
+
+      IT assets procured by an agency under delegated, one-time procurement authority from
+      COT will be owned and tracked by the agency that initiated the purchase.
+
+IV.   CORRECTIVE AND DISCIPLINARY ACTION
+
+      Each agency must ensure that staff within their organizational authority are made aware of
+      and comply with this policy. The agency is responsible for enforcing it. Failure to comply
+      with this policy may result in disciplinary action up to and including dismissal. COT may
+      require additional service charges for remediation efforts due to non-compliance with this
+      policy.
+
+V.    APPLICABILITY
+
+      All executive branch agencies and non-executive branch agencies using COT-managed
+      infrastructure or services shall adhere to this policy. This includes employees, contractors,
+      consultants, temporaries, volunteers, and other workers within state government.
+      Organizations may modify this policy to fulfill their responsibilities but must obtain approval
+      through an exception request. Staff should refer to their internal policy, which may have
+      additional information or clarification.
+
+ COMMONWEALTH OFFICE OF TECHNOLOGY                                       Page 3 of 3
+ Office of the Chief Information Officer Enterprise Policy (CIO)
+ CIO–050: Enterprise Procurement of Information Technology
+                                        REVISED: 02/04/2019,       REVIEWED: 08/16/2023,
+ EFFECTIVE DATE: 12/15/2014
+                                        08/16/2023, 10/10/2025     10/10/2025
+
+VI.   REFERENCES
+
+      Helpful references can be found on the Enterprise IT Policies webpage.
+
+      About the Agency
+
+      KITS
+
+      Exception/Addition/Modification

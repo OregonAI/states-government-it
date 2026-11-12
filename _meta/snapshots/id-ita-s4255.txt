@@ -1,0 +1,608 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:    S4255 – Idaho Digital Orthoimagery and Data Exchange Standard for the
+             National Agriculture Imagery Program (NAIP) Layer
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Imagery Framework is a critical source of information for many private and
+   public sector entities. The statewide National Agricultural Imagery Program (NAIP) aerial
+   imagery layer is an essential source of information within the state’s Imagery
+   Framework. The NAIP layer may be used as a reference for agriculture and precision
+   farming; taxing entities; parcel management, surface water resource management;
+   wildlife and habitat management; land, rangeland, and forest resources management;
+   natural resources conservation; infrastructure and construction management; geologic
+   resource assessment and hazard mitigation; flood risk management; water supply;
+   scholarly research and analysis; homeland security; public safety and disaster response;
+   business, community, and economic development needs; wildfire management,
+   planning, and response; urban and regional planning; and recreation and more. As can
+   be seen from the above examples, many private sector and local, state, and federal
+   government agencies have business needs for NAIP Imagery.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCTS(S)
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying Open
+  Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+  A statewide Imagery Framework is a critical source of information for many private and
+  public sector entities.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying Open
+  Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+  Data will be shared in accordance with Enterprise Standard 4250 – Enterprise
+  Geographic Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+  The format, content and development of this standard adhere to Policy P5030 for
+  Framework Standards, S4250 for Data Sharing Standards and S4220 for Geospatial
+  Metadata.
+
+IX. REVIEW CYCLE
+
+  Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+  For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+  07/24/2025 - Revised for ADA compliance
+
+  05/19/2022 – Standard Created and presented to the IGC-EC
+
+                                   STATE OF IDAHO
+
+     Idaho Digital Orthoimagery and Data Exchange
+     Standard for the National Agriculture Imagery
+                 Program (NAIP) Layer
+                               Part of the Imagery Theme
+
+                                          Version 1
+                                   Effective April 6, 2022
+
+                    Developed by the Imagery Technical Working Group
+
+Revision History
+Established by Imagery Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services (208)
+605-4064
+contact@its.idaho.gov
+
+CONTENTS
+1. Introduction to the Orthoimagery and Data Exchange Standard ................................... 4
+     1.1.       Mission and Goals of the Standard ........................................................................... 4
+     1.2.       Relationship to Existing Standards ........................................................................... 5
+     1.3.       Description of the Standard ....................................................................................... 5
+     1.4.       Applicability and Intended Uses ............................................................................... 5
+     1.5.       Standard Development Process ................................................................................. 6
+     1.6.       Maintenance of the Standard .................................................................................... 6
+2.     Body of the Standard ............................................................................................................ 6
+     2.1.       Scope and Content ...................................................................................................... 7
+     2.2.       Need.............................................................................................................................. 7
+     2.3.       Participation in the Standard Development............................................................. 7
+     2.4.       Integration with Other Idaho Framework Standards ............................................ 7
+     2.5.       Technical and Operational Context .......................................................................... 8
+       2.5.1.      Data Environment................................................................................................... 8
+       2.5.2.      Spatial Reference Systems...................................................................................... 8
+       2.5.3.      Global Navigation Satellite Systems (GNSS)........................................................ 8
+       2.5.4.      Interdependence of Themes ................................................................................... 8
+       2.5.5.      Encoding .................................................................................................................. 8
+       2.5.6.      Resolution ................................................................................................................ 9
+       2.5.7.      Accuracy .................................................................................................................. 9
+       2.5.8.      Edge Matching ........................................................................................................ 9
+       2.5.9.      Unique Identifier ................................................................................................... 10
+       2.5.10.         Attributes ........................................................................................................... 10
+       2.5.11.         Stewardship........................................................................................................ 10
+       2.5.12.         Records Management and Archiving .............................................................. 10
+       2.5.13.         Metadata ............................................................................................................ 10
+3.     Data Characteristics ........................................................................................................... 11
+     3.1.       Minimum Graphic Data Elements .......................................................................... 11
+     3.2.       Optional Graphic Data Elements ............................................................................ 11
+     3.3.       Standard Attribute Schema ..................................................................................... 11
+
+Imagery Standard                                                                                                                                  2
+
+   3.3.1.       Standard Attribute Schema for the NAIP Data Standard ................................... 11
+   32-bit pixels, 4 band color(RGBIR) values 0 – 255 .............................................................. 11
+   3.3.2. Standard Attribute Schema for the NAIP Data Exchange from Idaho State
+   University’s GIS Trec ............................................................................................................. 11
+   3.3.3. Standard Attribute Schema for the NAIP Data Exchange from INSIDE Idaho’s
+   Geospatial Data Clearinghouse ............................................................................................. 12
+   3.4.         Data Quality .............................................................................................................. 13
+Appendix B: Glossary ................................................................................................................... 14
+
+Imagery Standard                                                                                                                            3
+
+1. Introduction to the Orthoimagery and Data Exchange Standard
+
+   A statewide Imagery Framework is a critical source of information for many private and
+   public sector entities. The statewide National Agricultural Imagery Program (NAIP) aerial
+   imagery layer is an essential source of information within the state’s Imagery Framework.
+   The NAIP layer may be used as a reference for agriculture and precision farming; taxing
+   entities; parcel management, surface water resource management; wildlife and habitat
+   management; land, rangeland, and forest resources management; natural resources
+   conservation; infrastructure and construction management; geologic resource assessment and
+   hazard mitigation; flood risk management; water supply; scholarly research and analysis;
+   homeland security; public safety and disaster response; business, community, and economic
+   development needs; wildfire management, planning, and response; urban and regional
+   planning; and recreation and more. As can be seen from the above examples, many private
+   sector and local, state, and federal government agencies have business needs for NAIP
+   Imagery.
+
+   The NAIP Imagery Standard is intended to facilitate the integration and sharing of current
+   and historical NAIP data as well as to enhance the dissemination and use of other Idaho
+   Framework datasets along with NAIP information through the NAIP Data Exchange. This
+   standard does not instruct on how NAIP imagery is collected or designed for internal use.
+
+   This standard was developed by the Imagery Technical Working Group (TWG), a subgroup
+   of the Idaho Geospatial Council – Executive Committee (IGC-EC). This standard will be
+   reviewed on a regular basis and updated as needed.
+
+   1.1. Mission and Goals of the Standard
+
+   The Orthoimagery and Data Exchange Standard supports a statewide dataset that is
+   consistent with applicable state and national standards, is regularly updated, seamless,
+   appropriately accessible, and mutually beneficial to both data producers and data consumers.
+   It is designed to be broad enough to support a wide range of functions within the public and
+   private sectors but is sufficiently focused to facilitate and enhance specialized workflows for
+   the individualized business needs of various data producers and users thereby helping to
+   ensure the compatibility of datasets within and between other Idaho framework datasets.
+
+   The Orthoimagery and Data Exchange Standard establishes the minimum attributes and
+   geospatial database schema for an Imagery Framework dataset and will communicate with
+   and may have similar attributes to other Idaho Framework data standards. It encourages all
+   Idaho-based agencies with geospatial data to contribute to the Idaho Framework. It will also
+   help to ensure that Framework attribution (including geometry) is as current as possible by
+
+Imagery Standard                                                                                  4
+
+   relying on source stewards’ expertise and their local mandates for data quality (e.g.,
+   completeness, positional accuracy, attribute accuracy). Furthermore, this standard will ensure
+   data consumers are able to acquire and seamlessly integrate data from disparate sources.
+
+   A goal of the Orthoimagery and Data Exchange Standard is to ensure that any applications
+   requiring base map imagery are assured that the most current NAIP imagery is available for
+   all applications with readily available metadata. The fields in the NAIP Data Exchange will
+   be general enough to incorporate basic information without requiring major changes in
+   internal data models. This standard allows for expansion to a more complex data structure
+   and schema if needed in the future.
+
+   1.2. Relationship to Existing Standards
+
+   This Orthoimagery and Data Exchange Standard relates to existing standards as described in
+   the following FGDC guidelines for geospatial accuracy reporting:
+
+       •   Part 0, Base document, FGDC-STD-014.0-2008
+       •   Part 1, Cadastral, FGDC-STD-014.1-2008
+       •   Part 2, Digital Orthoimagery, FGDC-STD-014.2-2015
+       •   Part 3, Elevation, FGDC-STD-014.3-2008
+       •   Part 4, Geodetic Control, FGDC-STD-014.4-2008
+       •   Part 5, Governmental Unit and Other Geographic Area boundaries, FGDC-STD-
+           014.5-2008
+       •   Part 6, Hydrography, FGDC-STD-014.6-2008
+       •   Part 7, Transportation Base, FGDC-STD-014.7-2008
+
+   1.3. Description of the Standard
+   This standard describes the vision and geospatial data structure of the Imagery Framework in
+   the state of Idaho. This standard is designed to be:
+        • Simple, easy to understand, and logical
+        • Uniformly applicable, whenever possible
+        • Flexible and capable of accommodating future expansions
+        • Dynamic in terms of continuous review
+
+   1.4. Applicability and Intended Uses
+
+   This standard applies to the NAIP element of the Imagery theme of The Idaho Map (TIM).
+
+Imagery Standard                                                                                 5
+
+   When implemented, it will enable access to both current and historical NAIP imagery for
+   Idaho. It increases interoperability between automated geographic information systems and
+   enables the sharing and efficient transfer of information. Further, it will encourage
+   partnerships between government, the private sector, and the public in order to avoid
+   duplication of effort and ensure effective management of information resources. It will help
+   improve the data quality of NAIP imagery as errors are identified, resolved, and reported to
+   the source stewards.
+
+   This standard does not consider data sharing agreements, contracts, transactions, privacy
+   concerns, or any other issues relating to the acquisition and dissemination of NAIP data.
+
+   1.5. Standard Development Process
+
+   The Imagery Technical Working Group is a voluntary group of private, city, county, tribal,
+   state, and federal representatives. In March 2022 the Imagery TWG Lead began developing
+   the Orthoimagery and Data Exchange Standard for the NAIP Layer using automation tools
+   provided and developed by the IGC-EC to generate a first draft of the Standard. It is written
+   in the format required by the Idaho Technology Authority (ITA) Framework Standards
+   Development Policy (P5030).
+   The Draft Standard was made available for review to those in the GIS Community who are
+   members of the Geotech Listserv prior to an April 6, 2022 Imagery TWG meeting.
+   Comments, feedback, and discussion of the Draft Standard were recorded at the April 6,
+   2022 Imagery TWG meeting. Shortly thereafter, the Draft Standard was edited and further
+   reviewed by members of the Imagery Technical Working Group. After incorporating any
+   needed changes, another comment period will be provided.
+   If there are no objections to the Draft Standard following the review period after the April 6,
+   2022 Imagery TWG meeting, this draft standard document will be shared with the IGC-EC
+   and IGC in accordance with the review and approval process described in ITA’s Framework
+   Standards Development Policy (P5030).
+
+   1.6. Maintenance of the Standard
+
+   This standard will be revised as needed and in accordance with the ITA Framework
+   Standards Development Policy (P5030).
+
+2. Body of the Standard
+
+Imagery Standard                                                                                   6
+
+   2.1. Scope and Content
+
+   The scope of the Orthoimagery and Data Exchange Standard is to describe a statewide layer
+   which identifies the physical locations and attributes of NAIP imagery for Idaho.
+
+   2.2. Need
+   NAIP imagery is a key dataset that has been found to be enormously beneficial for many
+   private and public sector entities creating, developing, and serving Imagery Framework data.
+   The statewide NAIP Imagery and NAIP Data Exchange Framework is a critical source of
+   information for agriculture and precision farming; taxing entities; parcel river and stream
+   resource management; wildlife and habitat management; land, rangeland, and forest
+   resources management; natural resources conservation; infrastructure and construction
+   management; geologic resource assessment and hazard mitigation; flood risk management;
+   water supply; scholarly research and analysis; homeland security; public safety and disaster
+   response; business, community, and economic development needs; wildfire management,
+   planning, and response; urban and regional planning; and recreation and more.
+
+   This standard provides the foundation to aggregate NAIP data for centralized access and
+   stewardship information.
+
+   2.3. Participation in the Standard Development
+
+   The development of the Orthoimagery and Data Exchange Standard adheres to the ITA
+   Framework Standards Development Policy (P5030). The NAIP Standard Team tasked with
+   developing this standard represents private, county, state, and federal organizations. As the
+   standard is reviewed in accordance with Policy P5030 requirements, there will be
+   opportunity for broad participation and input by stakeholders in the development of this
+   standard. The process will be equally broad for input on updates and enhancements to the
+   standard. As with all Idaho Framework standards, public review and comments on the
+   Orthoimagery and Data Exchange Standard is encouraged.
+
+   2.4. Integration with Other Idaho Framework Standards
+
+   The Orthoimagery and Data Exchange Standard follows the same format as other Idaho
+   geospatial framework data standards. The NAIP standard may contain some of the same
+   attributes as other framework standards and may adopt the field name, definition, and domain
+   from the other standards to promote consistency.
+
+Imagery Standard                                                                                   7
+
+   2.5. Technical and Operational Context
+
+      2.5.1. Data Environment
+
+      The data environment is a digital raster with a specific, standardized set of attributes
+      pertinent to the NAIP Framework. NAIP data shared under this standard must be in a
+      format supporting raster.
+
+      2.5.2. Spatial Reference Systems
+
+      The NAIP imagery is published as an image service in IDTM83. The source data retains
+      its original spatial reference system - UTM Zones 11 and 12 north using the North
+      American Datum of 1983.
+
+      2.5.3. Global Navigation Satellite Systems (GNSS)
+
+      Some data provided might contain geometry from GNSS (e.g., GPS) methods, and the
+      provided metadata should describe this, if applicable. However, geometry from a GNSS
+      is not required to meet this standard.
+
+      2.5.4. Interdependence of Themes
+
+      This standard is intended to support a seamless dataset across Idaho. Similar datasets
+      from adjacent states and adjacent mapping areas using the same reference system should
+      merge without gaps. The geometry behind the NAIP Imagery and the Digital
+      Orthoimagery and Data Exchange may be coincident with other Idaho geospatial
+      framework data standards in addition to other FGDC standard datasets such as cadastral
+      data, elevation data, geodetic control data, governmental unit boundary data,
+      hydrographic feature data, and transportation network data. At this time there is no
+      enforcement of coincidence or topology relationships between the NAIP Framework and
+      other Idaho Framework elements.
+
+      2.5.5. Encoding
+
+      When data is imported into and exported from the Imagery Framework, encoding will
+      take place to convert data formats and attributes.
+
+Imagery Standard                                                                                 8
+
+      2.5.6. Resolution
+
+      No specific requirements for resolution are specified in this standard. Resolution will be
+      documented in the metadata.
+
+      2.5.7. Accuracy
+
+      Currently, NAIP imagery is acquired at 60-centimeter ground sample distance (GSD).
+      Earlier years of Idaho NAIP collection were acquired at one meter GSD with two
+      exceptions: 2006 was acquired at 2- meter GSD for agriculture lands only and 2013 was
+      acquired at 50-centimeter GSD as part of a pilot project by the USDA.
+
+      All imagery is inspected for horizontal accuracy and tonal quality by the source stewards.
+      NAIP horizontal accuracy specifications have evolved over the life of the NAIP program.
+      From 2003 to 2004 the specifications were as follows: 1-meter GSD imagery was to
+      match within 3-meters, and 2-meter GSD to match within 10 meters of reference
+      imagery. For 2005 the 1-meter GSD specification was changed to 5 meters matching the
+      reference imagery. In 2006 a pilot project was performed using true ground specifications
+      rather than reference imagery. All states used the same specifications as 2005 except
+      Utah, which required a match of +/- 6 meters to true ground. In 2007 all specifications
+      were the same as 2006 except Arizona used true ground specifications and all other states
+      used reference imagery. In 2008 and subsequent years no 2-meter GSD imagery was
+      acquired, and all specifications were the same as 2007 except approximately half of the
+      states acquired used true ground specifications and the other half used reference imagery.
+      The 2008 states that used absolute ground control where; Indiana, Minnesota, New
+      Hampshire, North Carolina, Texas, Vermont, and Virginia. From 2009 to present all
+      NAIP imagery acquisitions used the +/- 6 meters to ground specification.
+
+      The default spectral resolution is natural color (Red, Green, and Blue, or RGB) but
+      beginning in 2009, Idaho NAIP imagery has been delivered with four bands of data: RGB
+      and Near Infrared (NIR). Contractually, NAIP vendors make every attempt to comply
+      with the specification of no more than 10% cloud cover per quarter quad tile, weather
+      conditions permitting.
+
+      2.5.8. Edge Matching
+
+      This standard is intended to support a seamless dataset across Idaho. Similar datasets
+      from adjacent states and adjacent mapping areas using the same reference system should
+      merge without gaps.
+
+Imagery Standard                                                                                   9
+
+      2.5.9. Unique Identifier
+
+      The tiling format and naming convention of the NAIP imagery follows USGS
+      specifications: 3.75' x 3.75' quarter quadrangle with a 300-pixel buffer on all four sides.
+      For example, Name: m_4111101_ne_12_1_yyyymmdd where:
+           m_ = the type of imagery acquired by the sensor. For example, m = 4 band Color
+           Near Infrared (CNIR - Infrared, Red, Green, Blue)
+           2-digits = latitude of SE corner of 1* block
+           3-digits = longitude of SE corner of 1* block
+           2-digits_ = identifies the 7.5* quadrangle within the 1* block (values = 1-64)
+           2-letter designation_ = quarter quad
+           2-digits = UTM Zone
+           1 -digit = version
+           yyyymmdd = year/month/day of data acquisition
+
+      2.5.10. Attributes
+
+      Attributes for public and intergovernmental distribution are described in Section 3 of this
+      standard.
+
+      2.5.11. Stewardship
+
+      Perpetual maintenance and other aspects of lifecycle management are essential to the
+      Imagery Framework. Details of stewards, their roles and responsibilities, and processes
+      will be set forth in a Framework Stewardship Plan and related documents.
+
+      2.5.12. Records Management and Archiving
+
+      NAIP imagery is served as an Esri Image Service as well as an Open Geospatial
+      Consortium (OGC) Web Map Standard (WMS) service through two end points: INSIDE
+      Idaho, Idaho's Geospatial Data Clearinghouse managed by the University of Idaho
+      Library and Idaho State University's GIS Training and Research Center (GIS TReC).
+      INSIDE provides access and download capability to all years of Idaho NAIP. ISU's GIS
+      TReC provides the most recent year of Idaho NAIP only.
+
+      2.5.13. Metadata
+
+      The NAIP Framework metadata will describe the methods used to update and aggregate
+      the individual NAIP data contributions, processes or crosswalks performed, definition of
+      attributes, and other required information. This metadata will conform to the metadata
+
+Imagery Standard                                                                                10
+
+      standards as set out in S4220 – GEOSPATIAL METADATA. Geospatial standards-
+      based metadata accompanies each individual image.
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+
+   The geometry of the features in the NAIP Framework is raster.
+
+   3.2. Optional Graphic Data Elements
+
+   Not applicable.
+
+   3.3. Standard Attribute Schema
+
+      3.3.1. Standard Attribute Schema for the NAIP Data Standard
+
+      32-bit pixels, 4 band color(RGBIR) values 0 – 255
+
+      3.3.2. Standard Attribute Schema for the NAIP Data Exchange from Idaho State
+           University’s GIS Trec
+    Field Name       Data Type   Length       Description                  Examples
+
+    OBJECTID         ObjectID                 OBJECTID
+
+      Shape          Geometry                    Shape                      Polygon
+
+     RASTER           Raster                    RASTER
+
+      Name             Text       200       Name of GeoTiff        m_4311339_sw_12_1_20170623
+
+                                          Minimum Pixel Size
+      MinPS           Double                                                   0
+                                          (based on overview)
+
+                                          Maximum Pixel Size
+      MaxPS           Double                                                   24
+                                          (based on overview)
+
+                                          Source Pixel Size of
+      LowPS           Double                                                  0.6
+                                              the Raster
+                                          Maximum Pixel Size
+      HighPS          Double              of the Pyramid that is              2.4
+                                                   used
+
+Imagery Standard                                                                                11
+
+                               Coded
+     Category        Long                                        Unknown, Primary, Overview, +6 more…
+                               Values
+
+        Tag          Text       100                                              Dataset
+
+    GroupName        Text       100                                               N/A
+
+    ProductName      Text       100                                               N/A
+
+      CenterX       Double                                                  2618802.575126
+
+      CenterY       Double                                                  1364142.719898
+
+      ZOrder         Long                                                         N/A
+
+     Thumbnail       Blob                                                         Blob
+
+       3.3.3. Standard Attribute Schema for the NAIP Data Exchange from INSIDE
+            Idaho’s Geospatial Data Clearinghouse
+
+    Field Name     Data Type   Length       Description                        Examples
+
+    OBJECTID       ObjectID                  OBJECTID
+
+       Shape       Geometry                    Shape                            Polygon
+
+     RASTER         Raster                    RASTER
+
+       Name          Text       200       Name of GeoTiff           m_4311339_sw_12_1_20170623
+
+                               Coded
+     Category       Integer                   Category           Unknown, Primary, Overview, +6 more…
+                               Values
+
+                     Small     Coded
+    AcqYearFirst                        Acquisition Year First                    2017
+                    Integer    Values
+
+                     Small     Coded
+    AcqYearLast                         Acquisition Year Last                     2017
+                    Integer    Values
+
+     Resolution      Float                 Resolution (cm)                        100
+
+      Product        Small     Coded                             Unknown, Natural Color, Natural Color +
+                                         Band Combination
+     Definition     Integer    Values                                     Infrared, +2 more…
+
+     Collection      Small     Coded    Label that Defines the
+                                                                               Idaho 2017
+      Name          Integer    Values        Collection
+
+Imagery Standard                                                                                           12
+
+                     Small    Coded
+    Rectification                      Type of Rectification                  Orthorectified
+                    Integer   Values
+
+                     Small    Coded
+     Constraints                            Constraints                           Public
+                    Integer   Values
+
+                     Small    Coded
+       Source                             Imagery Source                    USDA-FSA-APFO
+                    Integer   Values
+
+    AcqDateFirst     Date       8      Acquisition Date First                   6/23/2017
+
+    AcqDateLast      Date       8      Acquisition Date Last                    6/23/2017
+
+                                                                https://www.northwestknowledge.net/data/do
+                                                                wnload.php?uuid=c8aacf49-e484-4068-98c6-
+   DownloadURL      String     256        Download URL
+                                                                 9c267bf36fe8/d2393084-b1c3-4072-80e1-
+                                                                              189992b10d0f
+
+   3.4. Data Quality
+
+   Data quality considerations for NAIP imagery include:
+      a) All NAIP Geotiffs shall have unique identifiers.
+      b) The NAIP acquisition cycle is based on a minimum 3-year refresh of base ortho
+   imagery.
+      c) The tiling format of the NAIP imagery is based on a 3.75' x 3.75' quarter quadrangle
+   with a 300-pixel buffer on all four sides.
+      d) NAIP quarter quads are formatted to the UTM coordinate system using the North
+   American Datum of 1983.
+      e) NAIP imagery may contain as much as 10% cloud cover per tile.
+
+Appendix A: References
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/p5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/s4220.pdf
+
+Geographic information Framework Data Standard Part 0, Base document, FGDC-STD-014.0-
+2008
+Geographic information Framework Data Standard Part 1, Cadastral, FGDC-STD-014.1-2008
+Geographic information Framework Data Standard Part 2, Digital Orthoimagery, FGDC-STD-
+014.2-2015
+
+Imagery Standard                                                                                             13
+
+Geographic information Framework Data Standard Part 3, Elevation, FGDC-STD-014.3-2008
+Geographic information Framework Data Standard Part 4, Geodetic Control, FGDC-STD-014.4-
+2008
+Geographic information Framework Data Standard Part 5, Governmental Unit and Other
+Geographic Area boundaries, FGDC-STD-014.5-2008
+Geographic information Framework Data Standard Part 6, Hydrography, FGDC-STD-014.6-
+2008
+Geographic information Framework Data Standard Part 7: Transportation Base FGDC-STD-
+014.7-2008
+National Agriculture Imagery Program (NAIP) Data Dictionary (link)
+Mosaic Dataset Attribute Table (link)
+ITA Enterprise Standards: S4210 – Single Zone Coordinate System for GIS Data
+
+Appendix B: Glossary
+
+See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+Imagery Standard                                                                      14

@@ -1,0 +1,255 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maine
+id: me-oit-off-hours-coverage
+title: Off-Hours Coverage Policy
+doc_type: policy
+citation: MaineIT Off-Hours Coverage Policy
+authority_level: ''
+issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial
+  Services
+source_url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/OffHoursCoveragePolicy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: d6f4ddc96b1b81603209c2d6c7ca683369d3f69de8819116077d5cab324de2a6
+effective_date: null
+source_version: 'Latest Revision Date: August 28, 2018'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Off-Hours Coverage Policy (MaineIT Off-Hours Coverage Policy)
+
+## At a glance
+
+Customer expectations and staff compensation for OIT off-hours coverage.
+
+## Full text
+
+                                       Maine State Government
+                             Dept. of Administrative & Financial Services
+                               Office of Information Technology (OIT)
+
+                               Off-Hours Coverage Policy
+1.0 Purpose
+
+This policy establishes customer expectations and identifies staff compensation for OIT Off-Hours
+coverage.
+
+The services furnished by OIT are important to the operation of Maine State government. In order
+to respond to issues, both planned and unplanned, OIT Employees are occasionally called to duty
+outside of their scheduled work week. This policy defines the default Off-Hours support that Agency
+customers can expect from OIT, as well as the compensation OIT Employees can expect for working
+outside their scheduled (typically 40-hour) work week.
+
+2.0 Definitions
+
+   2.1 Call-Out: Called to report to duty without advance notification. The employee must
+       physically report to work to have been Called-Out under the Collective Bargaining
+       Agreement.
+
+   2.2 Off-Hours: Hours beyond the regular scheduled workweek (typically 40 hours), including
+       evenings, nights, early mornings, weekends, and holidays.
+
+   2.3 Standby: Notified in advance to expect an alert, and, should it materialize, report to duty as
+       soon as possible. The location of duty could be either remote or on-premises, depending on
+       the nature of the issue.
+
+3.0 Applicability
+
+This policy applies to all OIT Employees.
+
+4.0 Responsibilities
+
+   4.1 Chief Information Officer (CIO): The Chief Information Officer owns, executes, and enforces
+       this policy.
+
+   4.2 Account Managers (AMS): Educates the Agencies regarding the default OIT Off-Hours
+       support expectations for all services except Agency-specific applications, and, should the
+       Agency expectations vary with that default, holds follow-up funding discussions with the
+       Agency.
+
+                                              Page 1 of 4
+
+                                      Off-Hours Coverage Policy
+
+  4.3 Application Director: Educates their Agencies regarding the default OIT Off-Hours support
+      expectations for Agency-specific applications, and, should the Agency expectations vary with
+      that default, holds follow-up funding discussions with the Agency.
+
+5.0 Directives
+
+  5.1 Exempt Personnel:
+
+     5.1.1   Ordinarily, employees in positions that are in classifications above Pay Grade 21, and
+             “exempt” from the premium overtime compensation requirements of the Fair Labor
+             Standards Act (FLSA) and Maine Law are not eligible for overtime compensation
+             based on additional hours worked beyond the standard 40 hours per week.1
+
+  5.2 Off-Hours Coverage Expectations:
+
+     5.2.1   The default Off-Hours Coverage includes the essential services’ uptime & monitoring.
+             Essential services include the Network, Critical Enterprise Servers, Critical Enterprise
+             Applications (such as Email), Basic Cyber Security, and certain pre-defined Agency
+             business applications. This support is already folded into the existing OIT rates.
+             Should an Agency require Off-Hours support that extends beyond this default, then
+             separate support and funding arrangements must be made.
+     5.2.2   OIT Service Managers shall establish a rotation schedule among staff to satisfy the
+             default Off-Hours Coverage. All effort will be made to ensure equitable distribution,
+             factoring in seniority, qualifications, training, and the ability to perform the specific
+             work required.
+
+  5.3 Expectations from Standby Personnel:
+
+     5.3.1   A Standby Person shall maintain the level of alertness and accountability necessary to
+             allow them to respond to an issue. For instance, alcohol cannot impair their ability to
+             respond. Further, they must respond quickly, be it remotely, or by appearing on-
+             premises within a pre-agreed-upon timeframe.
+     5.3.2   The Standby person is responsible for monitoring, and responding to, automated
+             alerts, and/or emails, and/or text messages, and/or telephone calls, regarding issues
+             under their designation.
+     5.3.3   The Standby Person is accountable for ensuring that the issue is addressed,
+             preferably to full resolution, but at least to the restoration of essential services and/or
+             the safety and integrity of the State network.
+
+  5.4 Expectations from Call-Out Personnel:
+
+     5.4.1   Depending on the issue at hand, any OIT Employee beyond the designated Standby
+             Person may be called OUT in order to assist the Standby Person.
+
+  5.5 Compensation:
+
+1 http://maine.gov/bhr/rules_policies/memos/2016/hrmem2-16.pdf
+
+                                              Page 2 of 4
+
+                                            Off-Hours Coverage Policy
+
+      5.5.1    Directives regarding compensation may be best summarized by the following chart:
+
+                             Standby
+                                                       Overtime Compensation         Call-Out Compensation
+                             Compensation
+                                                       Straight time for work
+                                                       up to 40 hours                Call-Out 4 hour minimum
+ Employees eligible for         Per Collective
+                                                                                     only when physically
+   Overtime under                Bargaining
+                                                       Time + 1/2 for work           reporting to work outside
+ Collective Bargaining         Agreement16%
+                                                       over 40 hours (Sick,          of and not continuous with
+      Agreement                    hourly
+                                                       vacation do not count as      their regular work hours
+                                                       time worked)
+                                                       Straight time for work
+                                                       up to 40 hours
+   Employees FLSA               2 hours for Sat
+                                                                                     Not eligible for Call-Out
+Overtime eligible (ISSS II      2 hours for Sun        Time + 1/2 for work
+                                                                                     compensation
+        only)                 2 hours for Holiday      over 40 hours (Sick,
+                                                       vacation do not count as
+                                                       time worked)
+                                                       Salaried employees are
+                                                       not eligible to be paid for
+                                                       hours worked over 40
+
+                                2 hours for Sat        Flexibility of work
+Employees not eligible                                                               Not eligible for Call-Out
+                                2 hours for Sun        schedules within the bi-
+    for Overtime                                                                     compensation
+                              2 hours for Holiday      weekly pay period
+
+                                                       Director can put
+                                                       employee on Standby
+                                                       status
+
+  5.6 Compensation for Standby Personnel:
+
+      5.6.1    If Overtime-eligible under the Collective Bargaining Agreement, then 16% hourly for
+               each Standby hour.
+      5.6.2    If Overtime-eligible under the Federal Fair Labor Standards Act (ISSS II only), then
+               Two (2) hours of Straight Time Pay for each Standby weekend day and holiday, but
+               not weekday.
+      5.6.3    If not Overtime-eligible, then Two (2) hours of Straight Time Pay for each Standby
+               weekend day and holiday, but not weekday.
+
+  5.7 Compensation for Overtime-Eligible Personnel:
+
+      5.7.1    Straight time for hours worked up to 40 hours.
+      5.7.2    Time + 1/2 for actual time worked over 40 hours.
+      5.7.3    Employees in the Information System Support Specialist II classification (those who
+               are not Overtime-eligible under the Collective Bargaining Agreement but are
+               Overtime-eligible under the Fair Labor Standards Act) will receive overtime after 40
+               hours of work along with Standby compensation.
+      5.7.4    In lieu of overtime pay, employees may, upon mutual agreement with management,
+               take compensating time at the rate of one and one half (1½) hours of compensating
+               time for each overtime hour worked.
+
+                                                    Page 3 of 4
+
+                                        Off-Hours Coverage Policy
+
+      5.7.5   If not Overtime-eligible, then employees are eligible to flexible schedule within the bi-
+              weekly pay period at the discretion of management.
+
+   5.8 Compensation for Call-Out Personnel:
+
+      5.8.1   Under the Collective Bargaining Agreement, only Overtime-eligible employees who
+              physically report to work may receive Call-Out compensation.
+      5.8.2   Any Overtime-eligible employee who is Called-Out for work outside of, and not
+              continuous with their regular hours, will be paid a minimum of four (4) hours of the
+              employee’s regular rate of pay, or hours actually worked at the appropriate rate,
+              whichever is greater.
+
+6.0 References
+
+   6.1 This policy does NOT modify any negotiated terms and conditions or Human Resources
+       policies. This policy merely consolidates them into a single succinct document. If there are
+       any inconsistencies between this policy and the documents included in this section (or their
+       descendants), the documents take precedence.
+
+   6.2 Agreement between the State of Maine and the Maine State Employees Association SEIU
+       Local 1989, Professional & Technical Services Bargaining Unit, 2017-20192
+
+   6.3 Agreement between the State of Maine and the Maine State Employees Association SEIU
+       Local 1989, Supervisory Services Bargaining Unit, 2017-20193
+
+7.0 Document Information
+
+    Initial Issue Date: May 31, 2016
+    Latest Revision Date: August 28, 2018 – to update Document Information.
+
+    Point of Contact: PolicyTeam.OIT@Maine.Gov
+    Approved By: Chief Information Officer, OIT
+
+    Legal Citation: Title 5, Chapter 163: Office of Information Technology4.
+    Waiver Process: See the Waiver Policy5.
+
+2 https://www.maine.gov/oer/contracts/msea/PT%202017-2019%20Arial%20FINAL%2007-23-2018.pdf
+3 https://www.maine.gov/oer/contracts/msea/SSU%202017-2019%20Arial%20FINAL%2007-23-2018.pdf
+4 http://legislature.maine.gov/statutes/5/title5ch163sec0.html
+5 http://www.maine.gov/oit/policies/waiver.pdf
+
+                                                 Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

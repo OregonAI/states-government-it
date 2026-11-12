@@ -1,0 +1,95 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S3000 NETWORK AND
+TELECOMMUNICATIONS
+Category:     S3130 – NETWORK SERVICES – VIDEO CONFERENCING
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+      Revision History
+
+I. DEFINITION
+
+   Video conferencing systems allow individuals at two or more different geographical
+   locations to see and hear each other, exchange data, and work together using
+   interactive video, audio and computer technologies.
+
+II. RATIONALE
+
+   Video conferencing standards are needed to enable the innovative use of this
+   technology within an environment that is well understood and defined. The standards
+   and protocols recommended by the International Telecommunication Union’s (ITU)
+   Telecommunication Standardization Sector (ITU-T) are recognized as the primary
+   standard for video conferencing systems.
+
+III. APPROVED STANDARD(S)
+
+   1. ITU-T H.323; and
+
+   2. ITU-T H.320.
+
+IV. APPROVED PRODUCTS(S)
+
+   Standards-based
+
+S3130 – Network Services – Video Conferencing                                   Page 1 of 2
+
+V. JUSTIFICATION
+
+   Products must comply with approved ITU-T standards. New products should meet
+   H.323 standards.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   The deployment, configuration and management of a video conferencing system is a
+   complex task that requires skilled resources.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   The ITA is aware that several major video conferencing vendors have adopted the SIP
+   protocol (short for Session Initiation Protocol) and included it in their product offerings.
+   Products based on SIP are expected to gain an increasing market share. ITA will continue
+   to follow industry developments. If the industry does continue in its current direction, it
+   may be appropriate to consider including SIP as an approved standard.
+
+   Agencies upgrading existing video conferencing equipment or purchasing new
+   equipment may want to consider products that maintain support of the H.323 protocol, as
+   the state standard, while including optional support for the SIP protocol to ensure the
+   widest compatibility with other systems.
+
+VIII. PROCEDURE REFERENCE
+
+   There are no procedure references for this standard.
+
+IX. REVIEW CYCLE
+
+   Twelve (12) Months
+
+X. CONTACT INFORMATION
+
+For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   07/01/13 – Changed “ITRMC” to “ITA”.
+
+   6/16/09 – Added Procedure Reference and deleted Timeline
+
+    3/7/07 – Review cycle adjusted to 12 months.
+
+   9/13/06 – Section VII, Emerging Trends and Architectural Directions, updated to reflect
+             current aspects of video conferencing industry. No changes to approved
+             standards at this time.
+
+              Effective Date:      February 20, 2002
+
+S3130 – Network Services – Video Conferencing                                       Page 2 of 2

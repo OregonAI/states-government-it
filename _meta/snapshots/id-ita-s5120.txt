@@ -1,0 +1,172 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – 5000 WEB
+
+Category:      S5120 – WEB PUBLISHING
+
+CONTENTS:
+
+I.     AUTHORITY
+II.    ABSTRACT
+III.   DEFINITIONS
+IV.    STANDARDS
+V.     REFERENCE DOCUMENTS
+VI.    ADDITIONAL RESOURCES
+VII. CONTACT INFORMATION
+VIII. TIMELINE
+IX.    REVISION HISTORY
+
+I.      AUTHORITY
+
+        Authority:    Idaho Code § 67-833
+
+II.     ABSTRACT
+
+        The purpose of this standard is to ensure logical and consistent presentation of web-
+        based materials and services while conforming to federal standards for accessibility
+        by users with disabilities. The requirements of this standard apply to all public-facing
+        web pages registered under the idaho.gov domain.
+
+III.    DEFINITIONS
+
+        See ITA Enterprise Guideline G105 (Glossary of Terms) for any definitions.
+
+IV.     STANDARDS
+
+        A. Branding
+
+           The State of Idaho is dedicated to a cohesive approach for its online presence,
+           ensuring consistent domain names, a unified look, and a seamless navigation
+           experience.
+
+           1. Domain Names -- See ITA Policy P5020 (.GOV Domain).
+
+S5120 – Web Publishing                                                                Page 1 of 4
+
+          2. State Web Design Template - See ITA Policy P5010 (Web Publishing).
+
+      B. Accessibility
+
+          The standards in this section fall under Title II of the Americans with Disabilities
+          Act that sets enforceable technical standards for website and mobile app
+          accessibility. State websites and web applications must comply with the success
+          criteria of Web Content Accessibility Guidelines (WCAG):
+
+          1. WCAG 2.1 Level AA
+          2. WCAG 2.1 Level AAA Guideline 3.2.5 - Change on Request - Users have full
+             control of major content changes. For example: Do not disable the Back button
+             or system function of browsers.
+
+      C. Content
+
+          1. Use the clearest and simplest language appropriate for a website's content.
+          2. All pages must be thoroughly checked for the appropriate use of any
+             materials. All possible copyrighted, patented, and/or trademarked materials
+             must be properly authorized and cited.
+          3. Information published on State of Idaho Internet web servers should not
+             include any content that may promote harmful activities. Agencies should
+             review all content published on applicable Internet web servers to identify
+             potentially sensitive information that could assist in the development and/or
+             execution of harmful acts. Suggested information that should be restricted
+             includes, but is not limited to, the following:
+
+             a) bio-terrorism response plans;
+             b) chemical accident risk management plans;
+             c) computer network diagrams;
+             d) computer network risk/vulnerability assessment reports;
+             e) detailed floor plans to government facilities;
+             f) facility risk/vulnerability assessment reports;
+             g) physical security plans and procedures;
+             h) preparedness or status reports on the ability to respond to terrorist acts;
+                and
+             i) water supply maps.
+
+      D. Privacy
+
+          See ITA Policy P1020 (Idaho.gov Portal Privacy Notice).
+
+      E. Metatags
+
+          See ITA Standard S4221 (Metatags).
+
+S5120 – Web Publishing                                                               Page 2 of 4
+
+V.      REFERENCE DOCUMENTS
+
+        In addition to this standard, the following documents apply:
+
+        ITA Enterprise Policy 1020 (Idaho.Gov Portal Privacy Notice)
+
+        ITA Enterprise Policy 5010 (Web Publishing)
+
+        ITA Enterprise Policy 5020 (.GOV Domain)
+
+        ITA Enterprise Standard 4221(Metatags)
+
+        ITA Enterprise Guideline 310 (Web Publishing)
+
+VI.     ADDITIONAL RESOURCES
+
+        Web Content Accessibility Guidelines 2.1
+
+        Web Content Accessibility Guidelines Quick Reference
+
+        Department of Justice, Civil Rights Division [Ruling: CRT Docket No. 144; AG Order
+        No. 5919-2024] - Nondiscrimination on the Basis of Disability; Accessibility of Web
+        Information and Services of State and Local Government Entities - Federal Register,
+        24 April 2024 [2024-07758 (89 FR 31320)]
+
+        Idaho Webmaster Resources
+
+        ITS Training & Resources
+
+VII.    CONTACT INFORMATION
+
+        For more information, contact the ITA Staff at (208) 605-4064.
+
+VIII.   TIMELINE
+
+        Date Established:          April 24, 2002
+        Last Reviewed:             April 15, 2025
+        Last Revised:              April 15, 2025
+        Last ITLC Approval:        April 15, 2025
+
+IX.     REVISION HISTORY
+
+        07/24/25     Revised for ADA compliance
+
+S5120 – Web Publishing                                                           Page 3 of 4
+
+      04/15/25      Added the Authority, Abstract, and Definitions sections to align with the
+                    ITA document layout. Moved the Definitions to G105. Changed the title
+                    of Approved Standard(s) to Standards. Changed the title of Style
+                    Standards to Accessibility, and updated the accessibility-related
+                    requirements. Moved the remaining Style Standard(s) to the Content
+                    (standards) section. Added the Privacy and Metadata sections (both
+                    were moved from G310). Created a new Additional Resources section
+                    to include links to WCAG, Federal Register, and ITS-provided
+                    resources.
+
+      12/18/14      Allow HTML frame usage if absolutely necessary.
+
+      07/01/13      Changed “ITRMC” to “ITA”.
+
+      4/22/09       Updated the Style Standards section to address screen resolution,
+                    scrolling, font size adjustability, and fluid web page design. Provided a
+                    list of cross-referenced documents. Added a Contact section. Adjusted
+                    the language so that it would be consistent with the Web Publishing
+                    Policy (P5010) and Web Publishing Guideline (G310).
+
+      5/15/07       Adjusted the Review Cycle to 12 months.
+
+      4/25/05       Updated the Style Standards section to reflect changes in the resolution
+                    of monitors that are being used by citizens, to clarify how contact
+                    information is to be used on web pages, to clarify the format of file
+                    names, and to recommend that style sheets be used to help keep
+                    formatting consistent on agencies’ web pages. These changes,
+                    suggested by the webmasters, help the ITRMC standards reflect the
+                    industry standards.
+
+      2/2/11        5000 group title changed from “Information and Data”.
+
+S5120 – Web Publishing                                                             Page 4 of 4

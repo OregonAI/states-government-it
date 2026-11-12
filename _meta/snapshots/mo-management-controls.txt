@@ -1,0 +1,137 @@
+                                                         D
+                                                         Diisscciipplliinnee
+
+                                                         D
+                                                         DEEFFIIN
+                                                                NIITTIIO
+                                                                       ONN
+Name                    Management Controls
+                        Management Controls are techniques and concerns, normally addressed by
+Description             management, regarding the organization’s computer security strategy. It
+                        includes the mitigation of risk within the organization.
+                        Addresses security within a business context and provides implementation
+Rationale
+                        authority.
+Benefits                Promotes trust, maintains continuous business flow, provides guidance
+                                                         BBO
+                                                           OUUN
+                                                              NDDA
+                                                                 ARRYY
+                                 Security controls that focus on the management of the enterprise
+Boundary Limit Statement
+                                 security programs and managing security risks.
+                                 Life Cycle Management;
+                                 Risk Management;
+                                 Review of Security Controls;
+Boundary Topics
+                                 System Certification and Accreditation;
+                                 System Security Planning;
+                                 Personnel Security
+                                                 A
+                                                 ASSSSO
+                                                      OCCIIA
+                                                           ATTEED
+                                                                DDDO
+                                                                   OMMA
+                                                                      AIIN
+                                                                         N
+List the Domain Name             Security
+                                                C
+                                                CRRIITTIIC
+                                                         CAALL RREEFFEERREEN
+                                                                           NCCEESS
+                                              Related Domains/Disciplines
+     Interface – Branding                   Integration – Functional Integration     Systems Mgt – Business Continuity
+     Interface – Access                     Integration – Middleware                 Security – Management Controls
+     Interface – Accessibility              Application – Application Engineering    Security – Operational Controls
+     Information – Knowledge Mgt            Application – Electronic Collaboration   Security – Technical Controls
+     Information – Data Mgt                 Systems Mgt – Asset Mgt                  Privacy – Profiling
+     Information- GIS                       Systems Mgt – Change Mgt                 Privacy – Personification
+     Infrastructure - Network               Systems Mgt – Console/Event Mgt          Privacy – Privacy
+     Infrastructure - Platform              Systems Mgt – Help Desk/Problem Mgt
+                                   Standard Organizations/Government Bodies
+                                 National Institute of Standards & Technology (NIST)
+                                        Computer Security Resource Center
+List Standard Organizations             http://csrc.nist.gov/
+                                 International Organization for Standardization (ISO)
+                                        http://www.iso.ch/iso/en/ISOOnline.frontpage
+List Government Bodies           NSA, FBI, Department of Homeland Security
+
+                                                 Stakeholders/Roles
+                               Executive Management – Department Director, Department CIO,
+List Stakeholders
+                               Department CFO, etc.
+List Roles                     Decision makers; administrative authority
+                                     Discipline-specific Technology Trends
+List Discipline-specific
+Technology Trends
+Technology Trend Source
+                                A
+                                ASSSSO
+                                     OCCIIA
+                                          ATTEED
+                                               DCCO
+                                                  OMMPPLLIIA
+                                                           ANNC
+                                                              CEE C
+                                                                  COOM
+                                                                     MPPO
+                                                                        ONNEEN
+                                                                             NTTSS
+List Discipline-level
+Compliance Components
+                                                M
+                                                MEETTH
+                                                     HOOD
+                                                        DOOLLO
+                                                             OGGIIEESS
+                               National Institute of Standards and Technologies (NIST), Computer
+List methodologies followed
+                               Security Resource Center
+                              D
+                              DIISSC
+                                   CIIPPLLIIN
+                                            NEE D
+                                                DOOC
+                                                   CUUM
+                                                      MEEN
+                                                         NTTA
+                                                            ATTIIO
+                                                                 ONN RREEQ
+                                                                         QU       MEEN
+                                                                           UIIRREEM  NTTSS
+Provide documentation
+requirements for this
+Discipline
+                                     A
+                                     ASSSSO
+                                          OCCIIA
+                                               ATTEED
+                                                    D TTEEC
+                                                          CHHN
+                                                             NOOLLO
+                                                                  OGGYY A
+                                                                        ARREEA
+                                                                             ASS
+                               Information Classification;
+List the Technology Areas
+                               Personnel Security;
+associated with this
+Discipline                     Security Risk Management;
+                               Vulnerability Testing
+                                                C
+                                                CUURRRREEN
+                                                         NTT SSTTA
+                                                                 ATTU
+                                                                    USS
+Provide the Current Status          In Development         Under Review            Approved    Rejected   Deleted:
+
+                                                     A
+                                                     AUUD
+                                                        DIITT TTRRA
+                                                                  AIILL
+Creation Date                  12-19-2002                      Date Accepted / Rejected   01-21-2003      Deleted:
+
+     Reason for Rejection
+Last Date Reviewed                                             Last Date Updated
+     Reason for Update

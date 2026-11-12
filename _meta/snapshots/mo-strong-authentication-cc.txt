@@ -1,0 +1,182 @@
+                                            C
+                                            Coom
+                                               mpplliiaannccee C
+                                                               Coom
+                                                                  mppoonneenntt
+
+                                                   D
+                                                   DEEFFIIN
+                                                          NIITTIIO
+                                                                 ONN
+Name                   Strong Authentication
+                       Strong Authentication is the requirement to use multiple factors to verify the
+Description            identity of a user accessing networks and/or applications, as opposed to the
+                       typical method which requires only one factor of authentication.
+                       Strong authentication provides additional assurance that the user is who they say
+Rationale
+                       they are and the data they send to you is authentic.
+                       Strong authentication counters the weaknesses inherent in typical, one-factor
+                       authentication methods because they are:
+                          •   Harder to duplicate,
+                          •   Cannot be re-generated,
+Benefits                  •   Cannot be easily guessed,
+                          •   Cannot be re-used, or are
+                          •   Physically stored independently from the other factor of authentication,
+                              thereby deterring simultaneous use by an unauthorized user.
+
+                       Strong authentication increases the feasibility of using single sign-on (SSO).
+                                   A
+                                   ASSSSO
+                                        OCCIIA
+                                             ATTEED
+                                                  DAARRC
+                                                       CHHIITTEEC
+                                                                CTTU
+                                                                   URREE LLEEVVEELLSS
+List the Domain
+                       Security
+Name
+List the Discipline
+                       Technical Controls
+Name
+List the Technology
+Area Name
+List Product
+Component Name
+                                    C
+                                    COOM
+                                       MPPLLIIA
+                                              ANNC
+                                                 CEE C
+                                                     COOM
+                                                        MPPO
+                                                           ONNEEN
+                                                                NTT TTYYPPEE
+Document the
+Compliance             Guideline
+Component Type
+Component Sub-
+type
+                                            C
+                                            COOM
+                                               MPPLLIIA
+                                                      ANNC
+                                                         CEE D
+                                                             DEETTA
+                                                                  AIILL
+                       The three factors of authentication for users are:
+
+                          1. Something they know, for example:
+                             • Password
+State the Guideline,
+                             • Personal Identification Number (PIN)
+Standard or
+Legislation                  • Personal Question (such as your favorite color)
+                          2. Something they have, for example:
+                             • Token
+                             • Certificate
+                             • Smartcard
+
+                            • Magnetic Stripe/Credit/Debit Card
+                            • One-time Pad
+                            • Proximity Card
+                         3. Something they are, for example:
+                            • Fingerprint
+                            • Retinal Scan
+                            • Voice Scan
+                            • Facial Scan
+
+                      Strong Authentication must use two different factors from the list above. For
+                      example, one password they know plus one token they have. It must not use two
+                      of the same type of factor, for instance, a password and a personal question.
+
+                      Cookies are not an acceptable authentication factor.
+
+                      Strong Authentication must be implemented when:
+                         • Users access the private network from public connections, such as the
+                             Internet
+                         • Applications perform transactions involving CONFIDENTIAL or financial
+                             information via the Internet
+                         • Administrators remotely manage security devices
+                         • Password policies cannot be enforced
+
+                      Strong Authentication should be implemented when:
+                         • CONFIDENTIAL information is accessed within the internal network
+                         • Administrators remotely manage servers and network devices
+
+                      Strong Authentication methods must lock the user account, and require
+                      administrator intervention or a waiting period of at least 30 minutes, after a
+                      minimum of 5 failed authentication attempts.
+Document Source
+                      N/A
+Reference #
+                                       Standard Organization
+Name                                                     Website
+Contact Information
+                                           Government Body
+                      National Institute of Standards and                             http://csrc.nist.gov/
+Name                  Technology (NIST), Computer Security         Website
+                      Resource Center (CSRC)
+Contact Information   inquiries@nist.gov
+Name                                                               Website
+Contact Information
+                                                K
+                                                KEEYYW
+                                                     WOOR
+                                                        RDDS
+                                                           S
+                      Password, One-Time, Token, Certificate, Bio-Metric, Smartcard, advanced
+List all Keywords
+                      authentication, two-factor, Single Sign On, SSO, cookies, transaction, PIN
+                                    C
+                                    COOM
+                                       MPPO
+                                          ONNEEN
+                                               NTT C
+                                                   CLLA
+                                                      ASSS
+                                                         SIIFFIIC
+                                                                CAATTIIO
+                                                                       ONN
+Provide the
+                        Emerging            Current           Twilight       Sunset
+Classification
+
+                            Rationale for Component Classification
+Document the
+Rationale for
+Component
+Classification
+                                     Conditional Use Restrictions
+Document the
+Conditional Use
+Restrictions
+                                            Migration Strategy
+Document the
+Migration Strategy
+                                         Impact Position Statement
+Document the
+Position Statement
+on Impact
+                                             C
+                                             CUUR
+                                                RRREEN
+                                                     NTT S
+                                                         STTA
+                                                            ATTU
+                                                               USS
+Provide the Current
+                        In Development       Under Review       Approved         Rejected
+Status)
+                                                A
+                                                AUUD
+                                                   DIITT TTR
+                                                           RAAIILL
+                                                                     Date Accepted /
+Creation Date         05/12/05                                                           09-27-2005
+                                                                     Rejected
+    Reason for
+Rejection
+Last Date Reviewed                                                   Last Date Updated
+    Reason for
+Update

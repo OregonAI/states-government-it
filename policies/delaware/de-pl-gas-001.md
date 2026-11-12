@@ -1,0 +1,361 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: delaware
+id: de-pl-gas-001
+title: Software Policy
+doc_type: policy
+citation: DTI Enterprise Policy PL-GAS-001
+authority_level: ''
+issuing_body: Delaware Department of Technology and Information (DTI)
+source_url: https://webfiles.dti.delaware.gov/pdfs/pp/SoftwarePolicy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 9af86471b0bb82f1680dcd436c8dd497a7b19ed79c7386fbc82219a51acc9c8f
+effective_date: '2008-08-11'
+source_version: Revision 2 (reviewed 6/23/2023)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- procurement
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Software Policy (DTI Enterprise Policy PL-GAS-001)
+
+## At a glance
+
+Item of the DTI Standards and Policies library, section 'System Management'. Synopsis as printed: This policy stipulates that software purchased and/or obtained for use on State production systems must be in final/gold and/or General Availability (GA) release status and it must meet certain criteria.
+
+## Full text
+
+                                                  STATE OF DELAWARE
+                                  DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                 801 Silver Lake Blvd.
+                                                Dover, Delaware 19904
+
+Doc Ref Number:     PL-GAS-001                                        Revision Number: 2
+Document Type:      Enterprise Policy                                    Page: 1 of 6
+    Policy Title:   Software Policy
+
+      Synopsis:     This policy stipulates that software purchased and/or obtained for use
+                    on State production systems must be in final/gold and/or General
+                    Availability (GA) release status and it must meet certain criteria.
+      Authority:    Title 29 Chapter 90C Delaware Code, §9004C – General Powers,
+                    duties and functions of DTI “2) Create, implement and enforce
+                    statewide and agency technology solutions, policies, standards and
+                    guidelines, including as recommended by the CIO”
+   Applicability:   This Policy is applicable to all users of the State of Delaware
+                    communications and computing resources. DTI is an Executive
+                    Branch Agency and has no authority over the customers in Legislative
+                    and Judicial Branches, as well as Local Education Agencies, and other
+                    Federal and Local Government entities that use these resources.
+                    However, all users, including these entities, must agree to abide by
+                    all policies, standards promulgated by DTI as a condition of access
+                    and continued use of these resources.
+      Effective:    8/11/2008
+     Reviewed:      6/23/2023
+   Approved By:     Chief Information Officer
+       Sponsor:     Chief Technology Officer
+
+                       “Delivering Technology that Innovates”
+
+                                                                STATE OF DELAWARE
+                                                    DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                              801 Silver Lake Blvd.
+                                                             Dover, Delaware 19904
+
+         Doc Ref Number:       PL-GAS-001                                       Revision Number: 2
+          Document Type:       Enterprise Policy                                      Page: 2 of 8
+              Policy Title:    Software Policy
+
+TABLE OF CONTENTS
+
+    Section                                                                                          Page
+
+    I.       Policy                                                                                     2
+
+    II.      Definitions                                                                                5
+
+    III.     Development and Revision History                                                           7
+
+    IV.      Approval Signature Block                                                                   8
+
+I.        Policy
+
+EXECUTIVE SUMMARY
+Properly maintaining State systems requires the technical staff to use software at the
+General Availability (GA) release status level. Use of software that is not GA release
+can directly affect the technical staff’s ability to support, maintain, patch, and secure
+systems that support the State’s business, goals, and objectives.
+
+This action also complies with copyright laws1 (17 USC Sec. 105, 205; 36 USC Sec.
+2114; 40 USC Sec. 11101) involving the procurement, installation, distribution, and
+use of computer software. It also complies with sections in the State of Delaware
+Information Security Policy (DISP), which include Segregation of Production and
+Test, Change Control, System Documentation, Software Copyright (Licensure), Patch
+Management, Software Development and Intellectual Property, Outsourced Software
+Development, and Procurement Security. See the State of Delaware Information
+Security Policy.
+
+PURPOSE
+The purpose of this policy is to require the installation and use of General Availability
+(GA) software on State systems. This action will support the availability, reliability,
+and security of the State’s production systems.
+
+1
+    http://uscode.house.gov/search/criteria.shtml
+
+                              “Delivering Technology that Innovates”
+
+                                                       STATE OF DELAWARE
+                                           DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                     801 Silver Lake Blvd.
+                                                    Dover, Delaware 19904
+
+   Doc Ref Number:       PL-GAS-001                                     Revision Number: 2
+    Document Type:       Enterprise Policy                                   Page: 3 of 8
+         Policy Title:   Software Policy
+
+Only the official certified release from the licensor, also known as General Availability
+(GA) release, software shall be used/installed onto production systems. Unlabeled
+copies or duplicate software should not be used unless its origin can be directly
+linked to officially certified GA release from the licensor.
+
+Compliance with this policy is mandatory for all State production systems.
+
+This policy will be revised and reviewed every three years. However, the State is
+obligated to comply with new laws or regulations coming into effect between
+revisions.
+
+POLICY STATEMENT
+
+    1. All software that supports State production systems must be Generally
+       Available (GA) release software. Technical staff should verify this from the
+       installation media or licensor’s web site and should never install software
+       from media that contains handwritten information on the label, without
+       verifying the content with the officially certified GA release from the licensor.
+    2. Software must be controlled and maintained properly by authorized
+       personnel to ensure that systems continue to operate properly.
+    3. Software maintenance standards, procedures, and conventions must be
+       established to help ensure the integrity of data and operating effectiveness.
+       They also help control access to system resources.
+    4. All software that supports State production systems must controlled by a
+       process that monitors and applies patches to ensure proper currency. State
+       software should never fall outside of the licensor’s published supported life
+       cycle.
+       Agencies and DTI are to continue to monitor the proper product lifecycles
+       and plan hardware and software deployments accordingly. Minor releases are
+       to be deployed on a tactical, as-needed basis; major releases are to be
+       deployed only after extensive application and integration testing has been
+       performed.
+    5. To maintain availability and reliability of provided Business Services agreed
+       upon maintenance windows must be predetermined by Agency or DTI.
+
+                         “Delivering Technology that Innovates”
+
+                                                  STATE OF DELAWARE
+                                      DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                801 Silver Lake Blvd.
+                                               Dover, Delaware 19904
+
+Doc Ref Number:     PL-GAS-001                                      Revision Number: 2
+Document Type:      Enterprise Policy                                   Page: 4 of 8
+    Policy Title:   Software Policy
+
+6. All software that supports State production systems must address three
+   specific concerns: proprietary rights indemnification, validation of the source
+   and supportability. The definitions for these concerns are detailed in the
+   definitions section.
+       a. For open source software under contract, proprietary rights
+          indemnification is required.
+       b. For open source software not under contract, the need for proprietary
+          rights indemnification should be based on risk.
+       c. When proprietary rights indemnification is not provided by the
+          contractor or a third party, proprietary rights indemnification risk is
+          borne by the State.
+       d. If support of open source software is not contracted, the State agency
+          or branch of government assumes responsibility for support.
+7. Alpha, Beta or Release Candidate software, if installed, must be in a
+   development or test environment only, and DTI must give authority to install
+   and/or connect systems using that software to the State Network. The user
+   of Alpha, Beta or Release Candidate software must understand that it is not
+   production-ready software and may fail unexpectedly. Agencies testing
+   Alpha, Beta or Release Candidate software should expect only limited support
+   from DTI or the software vendor.
+8. Non-authorized end users must not install software on computing devices. In
+   addition, tools should be deployed that govern an end-user’s ability to install
+   software on end user computing devices. The type of computers included
+   are:
+       a. Office desktop
+       b. Agency provided laptop
+       c. Home computers that are provided by an Agency
+       d. Agency provided tablets
+
+                    “Delivering Technology that Innovates”
+
+                                                       STATE OF DELAWARE
+                                           DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                     801 Silver Lake Blvd.
+                                                    Dover, Delaware 19904
+
+   Doc Ref Number:       PL-GAS-001                                     Revision Number: 2
+    Document Type:       Enterprise Policy                                   Page: 5 of 8
+         Policy Title:   Software Policy
+
+IMPLEMENTATION RESPONSIBILITY
+
+DTI and/or the organization’s technical staff will implement this policy during the
+course of normal business activities, including business case review, architectural
+review, project execution and the design, development, or support of systems.
+Formal change control procedures should be used to ensure that only authorized
+changes are made to software.
+
+ENFORCEMENT and WAIVER
+
+DTI will enforce this policy during the course of normal business activities, including
+business case and architectural review of proposed projects and during the design,
+development, or support of systems. This policy may also be enforced by others
+during the course of their normal business activities, including audits, design
+reviews, and automated tools such as SCCM. Audits should be conducted on a
+monthly basis to ensure compliance.
+
+If there is an immediate need to run non-Generally Available (GA) release software
+on a State production system for a feature fix, security vulnerability, or patch/work-
+around then the organization should follow its normal system change control
+processes and then document the installation with a waiver request. That waiver will
+be issued for a limited time, and the organization then has a responsibility to follow
+up with the licensor and obtain a Generally Available (GA) release software version
+that contains those fixes.
+
+If there is ambiguity or confusion regarding any part of this policy, contact the point
+of contact defined in the header of this policy.
+
+II. Definitions
+Alpha – Software that is in the early part of the development life cycle and should
+   never be used in any production environment.
+
+Beta – Software that has passed the Alpha stage and is more refined. Beta software
+   is often released to get core customers a look at new or enhanced functions. This
+
+                         “Delivering Technology that Innovates”
+
+                                                       STATE OF DELAWARE
+                                           DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                     801 Silver Lake Blvd.
+                                                    Dover, Delaware 19904
+
+   Doc Ref Number:       PL-GAS-001                                     Revision Number: 2
+    Document Type:       Enterprise Policy                                   Page: 6 of 8
+         Policy Title:   Software Policy
+
+   software is still a work in progress and not to be used in production
+   environments.
+
+Business Services – A customer, partner, or user-facing group of applications that
+   are supported by an IT infrastructure. This infrastructure; middleware, security,
+   storage, networks and other come together to enable a comprehensive, end-to-
+   end business process, transaction or exchange of information.
+
+General Availability (GA) – Software that is considered to be the final product.
+  This software is considered to be very stable and relatively bug-free. This is also
+  the version that patches and/or security fixes are tested against for compatibility.
+
+Gold – Software that is considered to be the final product released for use. Also
+   known as General Availability (GA) release software.
+
+Product Lifecycle – Software Product Support Lifecycle policies provides consistent
+   and predictable guidelines for product support availability when a product
+   releases and throughout that product’s life. Understanding this lifecycle is critical
+   to maximize and manage IT investments and strategically plan for a successful IT
+   future.
+
+Proprietary Rights Indemnification – It must indemnify and defend the State of
+   Delaware and the agency signatory against all claims that the software infringes
+   any patent, copyright or other rights of third parties. It also must provide that
+   the Licensor will pay any costs, damages and attorney's fees awarded against the
+   State.
+
+Release Candidate – Software that has the potential to be a final product. This
+   phase is usually closer to complete code but still should not be used in production
+   environments as there is the potential that bugs may still exist.
+
+Software License – The legal agreement that defines the appropriate use and
+   deployment of software.
+
+Supportability – Addresses the concern that there is a patching mechanism to
+   address security vulnerabilities. Also that patching mechanism should include
+
+                         “Delivering Technology that Innovates”
+
+                                                      STATE OF DELAWARE
+                                          DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                    801 Silver Lake Blvd.
+                                                   Dover, Delaware 19904
+
+   Doc Ref Number:      PL-GAS-001                                    Revision Number: 2
+    Document Type:      Enterprise Policy                                   Page: 7 of 8
+        Policy Title:   Software Policy
+
+   validation of the source and appropriate indemnification (as described above) as
+   part of that process. Stated or observed duration of vendor support of prior,
+   current, and future software releases should be considered prior to any software
+   procurement.
+
+Validation of the Source – Refers to any downloaded (vs. traditional delivered on
+   media) software and addresses the concern that the distribution is free of
+   malware and/or any backdoor code which may place State systems and/or data
+   at the risk of compromise. It would also provide a trusted mechanism for
+   obtaining the source code for open source distributions. All downloads of
+   software/source code should be obtained from the Vendor’s site whenever
+   possible, and downloaded files should be checked against MD5 hash or other file
+   integrity mechanisms. Software should never be downloaded from a peer to peer
+   file sharing network.
+
+III. Development and Revision History
+
+      Date               Revision
+      8/11/2008          Rev 0 – Initial version
+      4/9/2010           Rev 1 – Added three specific concerns
+      1/17/2013          Rev 2 – Made changes related to indemnification
+      12/11/2015         Rev 2 – Added language to address User installed software and
+                         Software Maintenance as per IRS findings
+      2/3/2023           Rev 2 – Removed broken links
+      11/4/2024          Rev 2 - Removed a reference to the Technology Investment
+                         Council
+
+                        “Delivering Technology that Innovates”
+
+                                                      STATE OF DELAWARE
+                                          DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                    801 Silver Lake Blvd.
+                                                   Dover, Delaware 19904
+
+   Doc Ref Number:      PL-GAS-001                                    Revision Number: 2
+   Document Type:       Enterprise Policy                                   Page: 8 of 8
+       Policy Title:    Software Policy
+
+IV. Approval Signature Block
+
+        Name & Title:                                                 Date
+        State Chief Information Officer
+
+                        “Delivering Technology that Innovates”
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

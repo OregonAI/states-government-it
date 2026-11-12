@@ -1,0 +1,37 @@
+                 OFFICE OF ADMINISTRATION
+                  ADMINISTRATIVE POLICY
+POLICY TITLE:                                       AUTHORIZED BY:
+Information Technology Projects
+
+POLICY :        C-16                                PAGE:          1 of 1
+ISSUED:         October 26, 2000                    REVISED:
+
+I.     General Statement
+
+       This policy is established to provide standardization for the approval and
+       implementation of Information Technology (hardware, software, and networks)
+       projects within the Office of Administration.
+
+II.    Purpose
+
+       This policy defines the process to be followed for defining and approving
+       Information Technology projects within the Office of Administration.
+
+III.   Policy
+
+       The Division of Information Services will be responsible for review of all
+       Information Technology initiatives within the Office of Administration. The
+       Division of Information Services will create an annual Office of Administration
+       technology plan. The plan will include all Information Technology projects
+       regardless of funding source (i.e., decision item, core, special funding, etc). The
+       Division of Information Services will conduct a review of all Information
+       Technology projects by meeting with each Office of Administration division, on
+       an annual basis, to determine the divisions’ IT needs. The review will include
+       purpose, cost, time frames, development approach, responsibilities, infrastructure,
+       maintenance and support.
+
+       The Division of Information Services will develop a project checklist that will aid
+       in the development of the annual plan.
+
+       The Division of Information Services will present the annual plan to the Office of
+       Administration management team for review and approval.

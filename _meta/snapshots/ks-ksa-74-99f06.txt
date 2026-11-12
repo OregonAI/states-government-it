@@ -1,0 +1,13 @@
+74-99f06. State geographic information systems officer; powers and duties. (a) There is hereby established the office of state geographic information systems officer who shall be appointed by the governor and who shall serve in the office of information technology services.
+(b) The state geographic information systems officer shall:
+(1) Implement Kansas one map, an enterprise statewide mapping strategy that: (A) Supports Kansas state entities and local governments as they foster economic vitality, manage resources, educate, save and restore the natural environment, advance health initiatives, ensure public safety and support science; and (B) enables state entities and local governments to better implement and coordinate policies and programs across Kansas;
+(2) implement and maintain the Kansas data access and support center, an enterprise geospatial data clearinghouse to include a central store and catalog of Kansas data and mapping services available to all state entities and the public;
+(3) recruit a technical committee and appoint the technical committee chair;
+(4) provide oversight for the development of the Kansas one map program and monitor Kansas one map metrics;
+(5) establish and manage a Kansas one map communications plan and provide for Kansas one map education;
+(6) maintain a liaison relationship with state, federal, regional, county and municipal organizations;
+(7) promote, advertise and market applications, capabilities, benefits and results of the Kansas one map program;
+(8) assist in the identification and capturing of funding to support the Kansas one map program; and
+(9) recommend to the executive chief information technology officer rules and regulations as may be necessary to implement the provisions of the Kansas one map act.
+(c) The executive chief information technology officer may adopt rules and regulations to implement the provisions of the Kansas one map act.
+History: L. 2012, ch. 174, § 6; June 7.

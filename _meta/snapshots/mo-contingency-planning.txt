@@ -1,0 +1,77 @@
+                                            Technology Area
+
+                                                      DEFINITION
+Name                  Contingency Planning
+                      Contingency planning establishes plans, procedures, and technical measures that can
+                      enable a system to be recovered quickly and effectively following a service disruption or
+Description           disaster. Interim measures may include the relocation of systems and operations to an
+                      alternate site, the recovery of functions using alternate equipment, or the performance of
+                      functions using manual methods.
+                      Information systems are vital elements in most state business processes. State agencies
+                      must have contingency plans in place to ensure that critical operations can be continued
+                      during any disruption and resume normal operations within a reasonable period.
+Rationale
+                      As the mission and nature of each state agency differs considerably, they must tailor their
+                      contingency plans to address their specific risks. However, the format and contents should
+                      be compatible with and support the state’s contingency plan.
+                          •   Provides an efficient approach for agencies to develop policies and procedures for
+                              the timely recovery and restoration of critical processes and vital services to the
+                              citizens.
+Benefits
+                          •   Maximizes the state’s response, resumption, recovery, and restoration operations.
+                          •   Minimizes the inconvenience to customers and clients when non-essential services
+                              are lost.
+
+                                          ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name        Security
+Specify the Discipline
+                               Operational Controls
+Name
+
+                                    ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance            •   Contingency Plan Process
+Component Names                •   Contingency Plan Testing, Maintenance and User Training
+
+                                       ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                        TECHNOLOGY AREA DETAIL
+                               NIST Special Publication (SP) 800-34, Rev. 1, Contingency Planning Guide for
+                                  Information Technology Systems, (May, 2010)
+Supporting Documentation
+
+Document Source
+                               NIST 800-34, Rev 1 Contingency Planning Guide for Federal Information Systems
+Reference #
+                                                Compliance Sources
+                               National Institute of
+Name                           Standards and Technology         Website       http://csrc.nist.gov/
+                               (NIST), Computer Security
+
+                             Resource Center (CSRC)
+
+Contact Information
+Name                                                           Website
+Contact Information
+
+ Name                                                              Website
+ Contact Information
+
+                                                    KEYWORDS
+                             Recovery, alternate, restoration, exercises, review, vital, storage, backup,
+List Keywords
+                             reconstitution, disaster, disruption, business impact analysis, BIA, preventative.
+
+                                           COMPONENT CLASSIFICATION
+Provide the Classification      Emerging                 Current                    Twilight          Sunset
+     Sunset Date
+
+                                                 CURRENT STATUS
+Provide the Current Status      In Development            Under Review              Approved          Rejected
+
+                                                   AUDIT TRAIL
+Creation Date                10/26/2006                  Date Approved / Rejected     11/28/2006
+     Reason for Rejection
+Last Date Reviewed           1/10/2024                   Last Date Updated            1/12/2024
+     Reason for Update       Vitality

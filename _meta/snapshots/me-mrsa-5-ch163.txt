@@ -1,0 +1,787 @@
+CHAPTER 163
+
+OFFICE OF INFORMATION TECHNOLOGY
+
+SUBCHAPTER 1
+
+CHIEF INFORMATION OFFICER
+
+§1971. Chief Information Officer; appointment; qualifications
+
+The Commissioner of Administrative and Financial Services shall appoint the Chief Information Officer. The Chief Information Officer must be a qualified professional person who shall: [PL 2005, c. 12, Pt. SS, §9 (RPR).]
+
+1. Policy-making information. Direct, coordinate and oversee information technology policy making, planning, architecture and standardization; and
+
+[PL 2005, c. 12, Pt. SS, §9 (NEW).]
+
+2. Provide services. Direct and oversee the provision of information technology and enterprise services in data processing and telecommunications throughout State Government.
+
+[PL 2005, c. 12, Pt. SS, §9 (NEW).]
+
+SECTION HISTORY
+
+PL 2001, c. 388, §14 (NEW). PL 2005, c. 12, §SS9 (RPR).
+
+§1972. Definitions
+
+As used in this chapter, unless the context otherwise indicates, the following terms have the following meanings. [PL 2001, c. 388, §14 (NEW).]
+
+1. Board.
+
+[PL 2005, c. 12, Pt. SS, §10 (RP).]
+
+2. Chief Information Officer. "Chief Information Officer" means the person who holds the lead information technology position within the executive branch that directs, coordinates and oversees information technology policy making, planning, architecture and standardization. The Chief Information Officer is also responsible for the provision of information technology and enterprise services in data processing and telecommunications throughout State Government.
+
+[PL 2005, c. 12, Pt. SS, §10 (AMD).]
+
+3. Commissioner. "Commissioner" means the Commissioner of Administrative and Financial Services.
+
+[PL 2001, c. 388, §14 (NEW).]
+
+4. Computer system. "Computer system" has the same meaning as in Title 17‑A, section 431.
+
+[PL 2001, c. 388, §14 (NEW).]
+
+4-A. Cyberattack. "Cyberattack" has the same meaning as in Title 37‑B, section 703, subsection 1‑A.
+
+[PL 2025, c. 698, §5 (NEW).]
+
+4-B. Cybersecurity. "Cybersecurity" means the protection of information and communications technology infrastructure, systems and services affecting the enterprise and the State's critical infrastructure, whether physical or nonphysical, by detecting, preventing and responding to cyberattacks.
+
+[PL 2025, c. 698, §6 (NEW).]
+
+5. Leadership positions.
+
+[PL 2003, c. 176, §1 (RP).]
+
+6. Data processing. "Data processing" means the process that encompasses all computerized and auxiliary automated information handling, including systems analysis and design, conversion of data, computer programming, information storage and retrieval, data and facsimile transmission, requisite system controls, simulation and all related interactions between people and machines. "Data processing" also includes all word or text manipulation processing.
+
+[PL 2005, c. 12, Pt. SS, §10 (NEW).]
+
+7. Enterprise. "Enterprise" means collectively all departments and agencies of the executive branch.
+
+[PL 2005, c. 12, Pt. SS, §10 (NEW).]
+
+7-A. Information security. "Information security" means the ability to protect or defend the information and communications technology infrastructure, systems or services affecting the enterprise or the State's critical infrastructure, whether physical or nonphysical, from unauthorized access, use, disclosure, disruption, modification or destruction to provide confidentiality, integrity and availability.
+
+[PL 2025, c. 698, §7 (NEW).]
+
+8. Office. "Office" means the Office of Information Technology.
+
+[PL 2005, c. 12, Pt. SS, §10 (NEW).]
+
+9. Semiautonomous state agency. "Semiautonomous state agency" means an agency created by an act of the Legislature that is not a part of the Executive Department. This term does not include the Legislature, Judicial Department, Department of the Attorney General, Department of the Secretary of State, Office of the Treasurer of State and Office of the State Auditor.
+
+[PL 2005, c. 12, Pt. SS, §10 (NEW); PL 2013, c. 16, §10 (REV).]
+
+10. Telecommunications. "Telecommunications" means, but is not limited to, the process of transmitting and receiving any information, including voice, data and video, by any medium, including wire, microwave, fiberoptics, radio, laser and satellite.
+
+[PL 2005, c. 12, Pt. SS, §10 (NEW).]
+
+SECTION HISTORY
+
+PL 2001, c. 388, §14 (NEW). PL 2003, c. 176, §1 (AMD). PL 2005, c. 12, Pt. SS, §10 (AMD). PL 2013, c. 16, §10 (REV). PL 2025, c. 698, §§5-7 (AMD).
+
+§1973. Responsibilities of the Chief Information Officer
+
+1. Information technology leadership. The Chief Information Officer shall:
+
+A. Provide central leadership and vision in the use of information and telecommunications technology on a statewide basis; [PL 2001, c. 388, §14 (NEW).]
+
+B. Set policies and standards for the implementation and use of information and telecommunications technologies, including privacy and security standards and standards of the federal Americans with Disabilities Act, for information technology; [PL 2005, c. 12, Pt. SS, §11 (AMD).]
+
+C. Assist the Governor's Office and the commissioner with development and support of information technology-related legislation; [PL 2001, c. 388, §14 (NEW).]
+
+D. Identify and implement information technology best business practices and project management; [PL 2005, c. 12, Pt. SS, §11 (AMD).]
+
+E. Facilitate research and development activities to identify and establish effective information technology service delivery in State Government; and [PL 2005, c. 12, Pt. SS, §11 (AMD).]
+
+F. Facilitate interjurisdictional collaboration, services, sharing and initiatives among agencies, instrumentalities and political subdivisions of State Government and with other states and the Federal Government. [PL 2005, c. 12, Pt. SS, §11 (NEW).]
+
+[PL 2005, c. 12, Pt. SS, §11 (AMD).]
+
+2. Information technology communications. The Chief Information Officer shall provide information technology communications by serving:
+
+A. As the lead advocate for information and telecommunications technology directions, policies, standards and plans for the executive branch and independent units of State Government, constitutional offices, the media and the general public; [PL 2001, c. 388, §14 (NEW).]
+
+B. As information technology liaison to the Governor's office; [PL 2001, c. 388, §14 (NEW).]
+
+C. As information technology liaison to the judicial branch; [PL 2001, c. 388, §14 (NEW).]
+
+D. As information technology liaison to the legislative branch; and [PL 2001, c. 388, §14 (NEW).]
+
+E. On boards and committees as appropriate and as needed. [PL 2001, c. 388, §14 (NEW).]
+
+[PL 2001, c. 388, §14 (NEW).]
+
+3. Information technology planning. In assisting with the development of an information technology plan, the Chief Information Officer shall:
+
+A. Establish and manage the process for strategic information technology planning, including the approval of all departments' information technology plans; [PL 2001, c. 388, §14 (NEW).]
+
+B. Submit a report on the information technology planning process to the Governor and the Legislature at the beginning of each legislative session; [PL 2001, c. 388, §14 (NEW).]
+
+C. Ensure integration of the enterprise strategic plan with unit-level information technology planning processes; and [PL 2001, c. 388, §14 (NEW).]
+
+D. Develop, implement and monitor compliance with statewide standards and architecture. [PL 2001, c. 388, §14 (NEW).]
+
+[PL 2001, c. 388, §14 (NEW).]
+
+4. Information technology financial performance management. The Chief Information Officer shall develop an information technology financial performance management process to:
+
+A. Protect current and future investments in information and telecommunications technologies in State Government; [PL 2001, c. 388, §14 (NEW).]
+
+B. Identify ways to use information and telecommunications technologies to reduce cost of government and improve service to customers; [PL 2001, c. 388, §14 (NEW).]
+
+C. Identify business process improvement priorities that will yield the greatest cost benefits to the State; [PL 2001, c. 388, §14 (NEW).]
+
+D. Develop and administer a statewide information technology financial management and budget planning process; and [PL 2001, c. 388, §14 (NEW).]
+
+E. Establish performance and other outcomes measures and cost benefit analyses for information technology. [PL 2001, c. 388, §14 (NEW).]
+
+[PL 2001, c. 388, §14 (NEW).]
+
+5. Information technology procurement and contract management. The Chief Information Officer shall:
+
+A. Approve all major or nonstandard information and telecommunications technology initiatives, contracts and acquisitions, including enterprise initiatives; and [PL 2001, c. 388, §14 (NEW).]
+
+B. Approve the standards and evaluation procedures of the division of purchases within the Department of Administrative and Financial Services, Bureau of General Services for standard information and telecommunications technology acquisitions and contracts. [PL 2025, c. 698, §8 (AMD).]
+
+[PL 2025, c. 698, §8 (AMD).]
+
+6. Information technology resource management. The Chief Information Officer shall establish a professional development plan with incentives and opportunities for the recruitment, retention, skill development and career advancement for information and telecommunications technology personnel.
+
+[PL 2001, c. 388, §14 (NEW).]
+
+SECTION HISTORY
+
+PL 2001, c. 388, §14 (NEW). PL 2005, c. 12, §SS11 (AMD). PL 2025, c. 698, §8 (AMD).
+
+§1974. Other powers and duties of Chief Information Officer
+
+1. Approve the acquisition and use of equipment. The Chief Information Officer, or the Chief Information Officer's designee, working with the division of purchases within the Department of Administrative and Financial Services, Bureau of General Services and in accordance with written standards established by this chapter, shall approve acquisition and use of all data processing and telecommunications services, equipment and systems by state agencies.
+
+[PL 2025, c. 698, §9 (AMD).]
+
+2. Develop training and development programs in data processing. The Chief Information Officer, or the Chief Information Officer's designee, is responsible for developing training and development programs for state employees in data processing and for the implementation of these programs.
+
+[PL 2025, c. 698, §10 (AMD).]
+
+3. Develop and administer written standards for data processing and telecommunications. The Chief Information Officer, or the Chief Information Officer's designee, shall develop and administer written standards for data processing and telecommunications. These written standards pertain to:
+
+A. Acquisition of equipment; [PL 2001, c. 388, §14 (NEW).]
+
+B. Acquisition of computer software and systems; [PL 2001, c. 388, §14 (NEW).]
+
+C. Development of computer systems and computer programs; [PL 2001, c. 388, §14 (NEW).]
+
+D. Computer operations; [PL 2025, c. 698, §11 (AMD).]
+
+D-1. Information security and cybersecurity policies, procedures and related operations; and [PL 2025, c. 698, §11 (NEW).]
+
+E. Any other standards determined necessary by the Chief Information Officer. [PL 2025, c. 698, §11 (AMD).]
+
+[PL 2025, c. 698, §11 (AMD).]
+
+4. Board approval required for written standards for data processing and telecommunications.
+
+[PL 2005, c. 12, Pt. SS, §13 (RP).]
+
+5. Develop and implement strategic and departmental planning process. The Chief Information Officer, with the participation of the affected state agencies, shall develop and maintain strategic planning initiatives for all of State Government and specific state agencies for data processing and telecommunications. The Chief Information Officer is responsible for assisting state agencies in implementing the planning process.
+
+The Chief Information Officer shall submit a report on the planning process to the Governor and the Legislature at the beginning of each legislative session.
+
+[PL 2005, c. 12, Pt. SS, §14 (AMD).]
+
+6. Report to the Legislature. The Chief Information Officer shall report to the joint standing committee of the Legislature having jurisdiction over appropriations and financial affairs by January 31st of each year with respect to the achievements, the problems and the procedures planned for resolving the problems of the office and its mission. This report must include a complete compilation of written standards for data processing and telecommunications.
+
+[PL 2005, c. 12, Pt. SS, §14 (AMD).]
+
+SECTION HISTORY
+
+PL 2001, c. 388, §14 (NEW). PL 2005, c. 12, §§SS12-14 (AMD). PL 2025, c. 698, §§9-11 (AMD).
+
+§1975. Noncompliance
+
+The purchase of data processing equipment, software or services or internal systems development efforts may not be made except in accordance with this chapter. An agency may not purchase any data processing equipment, software or services without the prior written approval of the commissioner or the Chief Information Officer or the Chief Information Officer's designee. The State Controller may not authorize payment for data processing equipment, software or services without evidence of prior approval of the purchases by the commissioner or the Chief Information Officer or the Chief Information Officer's designee. [PL 2025, c. 698, §12 (AMD).]
+
+1. Noncompliance. A state agency is in noncompliance with this chapter if the agency:
+
+A. Purchases data processing equipment, software or services in noncompliance with this chapter; or [PL 2001, c. 667, Pt. A, §3 (AMD).]
+
+B. Fails to adhere to the data processing standards established by the commissioner and the Chief Information Officer or the Chief Information Officer's designee. [PL 2025, c. 698, §12 (AMD).]
+
+[PL 2025, c. 698, §12 (AMD).]
+
+2. Penalty. Any state agency found to be in noncompliance as defined in this section is prohibited from acquiring or purchasing data processing equipment, software and services until the commissioner or the Chief Information Officer determines that the state agency is in compliance with this chapter.
+
+Notwithstanding the provisions of this section, the commissioner or the Chief Information Officer may act to acquire or purchase data processing equipment, software and services to maintain or meet the emergency needs of a state agency.
+
+[PL 2001, c. 667, Pt. A, §3 (AMD).]
+
+3. Cybersecurity services. Notwithstanding the requirements of sections 1553 and 1825‑B, or any other statutory or regulatory provisions to the contrary, the Chief Information Officer, after reasonable investigation, may procure cybersecurity services on a retainer basis when determined necessary to ensure the State is prepared to detect, prevent and respond to cyberattacks.
+
+[PL 2025, c. 698, §12 (NEW).]
+
+SECTION HISTORY
+
+PL 2001, c. 388, §14 (NEW). PL 2001, c. 667, §A3 (AMD). PL 2005, c. 12, §SS15 (AMD). PL 2025, c. 698, §12 (AMD).
+
+§1976. Use of State Government computer system
+
+1. Confidentiality. Computer programs, technical data, logic diagrams and source code related to data processing or telecommunications are confidential and are not public records, as defined in Title 1, section 402, subsection 3, to the extent of the identified trade secrets. To qualify for confidentiality under this subsection, computer programs, technical data, logic diagrams and source code must:
+
+A. Contain trade secrets, as defined in Title 10, section 1542, subsection 4, held in private ownership; and [PL 2001, c. 388, §14 (NEW).]
+
+B. Have been provided to a state agency by an authorized independent vendor or contractor under an agreement by which:
+
+(1) All trade secrets that can be protected are identified without disclosing the trade secret;
+
+(2) The vendor or contractor retains all intellectual property rights in those trade secrets; and
+
+(3) The state agency agrees to hold and use the programs, data, diagrams or source code without disclosing any identified trade secrets. [PL 2001, c. 388, §14 (NEW).]
+
+[PL 2001, c. 388, §14 (NEW).]
+
+2. Public records. Except as provided in subsection 1, any document created or stored on a State Government computer must be made available in accordance with Title 1, chapter 13.
+
+[PL 2007, c. 597, §4 (AMD).]
+
+3. Violation.
+
+[PL 2003, c. 176, §2 (RP).]
+
+4. Penalty.
+
+[PL 2003, c. 176, §2 (RP).]
+
+SECTION HISTORY
+
+PL 2001, c. 388, §14 (NEW). PL 2003, c. 176, §2 (AMD). PL 2007, c. 597, §4 (AMD).
+
+SUBCHAPTER 2
+
+INFORMATION TECHNOLOGY SERVICES
+
+§1981. Mission of Office of Information Technology
+
+The mission of the Office of Information Technology includes providing high-quality, responsive, cost-effective information technology services to the agencies, instrumentalities and political subdivisions of State Government. These services include, but are not limited to, voice and data computer and networking services, applications development and maintenance and desktop support, centralized geographic information systems and data and security advice to customers. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+1. Service agency. The office shall serve as a service agency to meet the needs of client agencies in a timely, efficient and cost-effective manner.
+
+A. The office shall ensure that a high quality of service is provided to all users. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+B. The office shall allocate resources as necessary to meet peak demands and to best use available resources. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+C. The office shall ensure adequate backup for all information services. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+2. Duties of office. The office shall provide the major data processing and telecommunications services in State Government, including computer operations and programming and applications systems. The office, as authorized by the commissioner, shall work to ensure consistency in programming services, stability in data processing functions, reliability in the operation and maintenance of systems throughout State Government and responsiveness and flexibility to react to changing situations and needs.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1982. Powers and duties
+
+1. Maintain central telecommunications services. The Chief Information Officer shall maintain and operate central telecommunications services and may:
+
+A. Employ or engage outside technical and professional services that may be necessary for telecommunications purposes; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+B. Levy charges, according to a rate schedule based on uniform billing procedures approved by the commissioner, against all units utilizing telecommunications services; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+C. Submit a budget of estimated revenues and costs to be incurred by the office as part of the unified current services budget legislation in accordance with sections 1663 to 1666. Notwithstanding section 1583, allocations may be increased or adjusted by the State Budget Officer, with approval of the Governor, to specifically cover those adjustments determined to be necessary by the commissioner. A request for adjustment to the allocation is subject to review by the joint standing committee of the Legislature having jurisdiction over appropriations and financial affairs; and [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+D. Require departments and agencies to be a part of the central telecommunications service network. Capital items purchased through the office may not be given, transferred, sold or otherwise conveyed to any other department, agency or account without authorization through the normal budgetary process. Except as authorized by the Chief Information Officer, telecommunications services, equipment and systems are the responsibility and property of the office. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+2. Staff and technical assistance. The Chief Information Officer shall provide staff and technical assistance in data processing to other state agencies.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+3. Maintain central data processing services. The Chief Information Officer shall maintain and operate central data processing and geographic information systems pursuant to subchapter 3.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+4. InforME responsibilities. The Chief Information Officer shall serve as the contracting authority under Title 1, chapter 14 and shall provide staff to the InforME Board established in Title 1, chapter 14.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+5. Charges. The Chief Information Officer may levy appropriate charges against all state agencies using services provided by the office and for operations of the office of the Chief Information Officer. The charges must be those fixed in a schedule or schedules prepared and revised as necessary by the Chief Information Officer and approved by the commissioner. The schedule of charges must be supported and explained by accompanying information.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+6. Budget. The Chief Information Officer shall submit a budget of estimated revenues and costs to be incurred by the office.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+7. Professional and technical services. The Chief Information Officer may employ or engage, within funds available, outside technical or professional personnel and services as necessary for carrying out the purposes of this chapter, subject to the approval of the commissioner.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+8. Rules. The Chief Information Officer may make rules, subject to the approval of the commissioner, for carrying out the purposes of this chapter.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+9. Protection of information files. The Chief Information Officer shall develop rules regarding the safeguarding, maintenance and use of information files relating to data processing, subject to the approval of the commissioner. The office is responsible for the enforcement of those rules. All data files are the property of the agency or agencies responsible for their collection and use.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1983. Intergovernmental cooperation and assistance
+
+The commissioner may enter into agreements with the Federal Government, the University of Maine System, the Maine Community College System and other agencies and organizations that will promote the objectives of this chapter and accept funds from the Federal Government, municipal and county agencies or any individual or corporation to be expended for purposes consistent with this chapter. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1984. Internal services fund accounts
+
+The office may establish internal services fund accounts. These funds include, but are not limited to, appropriations made to the office, funds transferred to the office from within the department and funds received for data processing and telecommunications planning services rendered to state agencies. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1985. Response to requests for public records
+
+Each agency that collects and uses data or information is responsible for responding to requests for public data or information hosted on state-owned computer devices. The office shall assist the agency in searching for and identifying all data and information stored within the office and in retrieving and compiling the data and information. [PL 2009, c. 165, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2009, c. 165, §1 (NEW).
+
+§1986. Criminal history record information for employees and contractors
+
+1. Definitions. As used in this section, unless the context otherwise indicates, the following terms have the following meanings.
+
+A. "Federal Bureau of Investigation" means the United States Department of Justice, Federal Bureau of Investigation. [PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+B. "State Police" means the Department of Public Safety, Bureau of State Police. [PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+2. Background investigation requirements. The office shall perform fingerprint-based criminal history record checks for any person employed by the office, who may be offered employment by the office or who is employed by or may be offered employment by a contractor or subcontractor for the office to satisfy federal statutory and regulatory background investigation requirements, including but not limited to those established by the United States Internal Revenue Service's tax information security guidelines for federal, state and local agencies, and the Federal Bureau of Investigation, Criminal Justice Information Services Division's information security requirements for criminal history record information used for noncriminal justice purposes.
+
+The criminal history record checks must include fingerprinting and obtaining national criminal history record information from the Federal Bureau of Investigation.
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+3. Fingerprint-based criminal history obtained. A person employed by the office or a person who is employed by a contractor or subcontractor for the office shall consent to having and have the person's fingerprints taken. A person who may be offered employment by the office or by a contractor or subcontractor for the office shall consent to having and have the person's fingerprints taken prior to being employed by the office or by a contractor or subcontractor for the office. The State Police shall take or cause to be taken the fingerprints of a person who has consented under this subsection and shall forward the fingerprints to the Department of Public Safety, State Bureau of Identification so that the bureau may conduct a state and national criminal history record check on the person. The bureau shall forward the results obtained to the office. The fee charged to the office by the State Police must be consistent with the fee charged to executive branch agencies receiving similar services. Except for the portion of the payment that constitutes the processing fee charged by the Federal Bureau of Investigation, all money received by the State Police under this subsection must be paid to the Treasurer of State, who shall apply the money to the expenses of administration of this section by the Department of Public Safety.
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+4. Updates to information. The fingerprint-based criminal history record check under subsection 3 must be conducted at least once every 5 years as the office determines appropriate or as required under federal regulations. The office may request continuous notifications of updated criminal history record information if a service providing notifications of updated criminal history record information becomes available.
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+5. Confidentiality. Information obtained pursuant to this section is confidential and may not be disseminated for purposes other than as provided in subsections 6 and 7.
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+6. Use of information obtained. Criminal history record information obtained pursuant to this section may be used by the office for employment purposes only. The information may be used only for making decisions regarding the suitability of a person described in this section for new or continued employment with the office. The subject of any criminal history record check under this section may contest any negative decision made by the office based upon the information received pursuant to the criminal history record check.
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+7. Person's access to information obtained. A person subject to the criminal history record check pursuant to subsection 3 must be notified each time a criminal history record check is performed on the person. A person subject to the criminal history record check under subsection 3 may inspect and review the criminal history record information pursuant to Title 16, section 709 and obtain federal information obtained pursuant to the criminal history record check by following the procedures outlined in 28 Code of Federal Regulations, Sections 16.32 and 16.33.
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+8. Right of subject to remove fingerprints from record. Upon request from a person subject to a criminal history record check pursuant to subsection 3, the Department of Public Safety shall remove the person's fingerprints from the Department of Public Safety's records and provide written confirmation of the removal to the person.
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+9. Refusal to consent. The office may not employ or permit the employment by a contractor or subcontractor of a person who has refused to consent to the background investigation requirements under this section in a position for which such background investigations are required under subsection 2.
+
+[PL 2019, c. 616, Pt. S, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2019, c. 616, Pt. S, §1 (NEW).
+
+SUBCHAPTER 3
+
+GEOGRAPHIC INFORMATION SYSTEMS
+
+§1991. Definitions
+
+As used in this subchapter, unless the context otherwise indicates, the following terms have the following meanings. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+1. Administrator. "Administrator" means the Administrator of the Office of Geographic Information Systems.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+2. Geographic information system or GIS. "Geographic information system" or "GIS" means an entire formula, pattern, compilation, program, device, method, technique, process, digital data base or system that electronically records, stores, reproduces and manipulates by computer geographic information system data.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+3. Geographic information system data or GIS data. "Geographic information system data" or "GIS data" means geographic information that has been compiled and digitized for use in geographic information systems by a state agency, either alone or in cooperation with other agencies.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+4. Geographic information system services or GIS services. "Geographic information system services" or "GIS services" means the process of gathering, storing, maintaining and providing geographic information system data for geographic information systems. "Geographic information system services" or "GIS services" does not include general purpose data processing services.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1992. Office of Geographic Information Systems established
+
+The Office of Geographic Information Systems is established within the Office of Information Technology. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1993. Powers
+
+The Office of Information Technology through the Office of Geographic Information Systems shall: [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+1. Geographic information system. Establish, maintain and operate a geographic data base information center, develop and administer standards, subject to the approval of the Chief Information Officer, and provide geographic information system services to the public. A request to provide the Legislature or an office of the Legislature with existing information for the purposes of making policy decisions must be considered high priority;
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+2. GIS data repository. Create a GIS data repository for the proper management of GIS data and ensure the GIS data are documented, including ownership. Data must be stored and managed in a manner that facilitates the evolution of a distributed agency GIS network;
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+3. Data ownership. Maintain GIS base map data and other multipurpose data not specific to any state agency. All other GIS data are owned by the agency originally compiling the mapped data that were digitized for the GIS. Data owners are responsible for updating their GIS data and certifying its accuracy;
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+4. Accuracy level. Ensure that GIS data added on the GIS data repository are developed and maintained at an accuracy level and in a format that meets the GIS data standards, kept in a format that is compatible with the GIS and, upon request of a potential user, made available to the user;
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+5. Charges. Levy appropriate charges on those using the services provided by the office, except that charges may not be levied on the Legislature for existing information. The charges must be fixed in a schedule or schedules. The schedule of charges must be supported and explained by accompanying information and approved by the Chief Information Officer and the commissioner; and
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+6. Consultation with Chief Information Officer. Consult with the Chief Information Officer on all major policy issues, including fee schedules, related to the management of GIS data and development of GIS data standards.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1994. Intergovernmental cooperation and assistance
+
+The administrator, with the approval of the Chief Information Officer, may enter into such agreements with other agencies and organizations as will promote the objectives of this subchapter and accept funds from public and private organizations to be expended for purposes consistent with this subchapter. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1995. Licensing agreements
+
+GIS data are subject to licensing agreements and may be made available only in accordance with this subchapter and upon payment of fees established under this subchapter. The licensing agreement must protect the security and integrity of the GIS data, limit the liability of the data owners and the office providing the services and products and identify the source of the GIS data. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§1996. Priority of responsibilities
+
+The activities authorized under this subchapter do not take priority over the primary responsibilities of the Office of Information Technology. If there are not sufficient financial or personnel resources for the Office of Geographic Information Systems to perform certain GIS services and deliver GIS data and products as provided in this subchapter, the administrative management functions related to the Office of Geographic Information Systems, technical support for other state agency GIS users, office equipment maintenance and GIS data base management must take precedence. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+SUBCHAPTER 4
+
+MAINE LIBRARY OF GEOGRAPHIC INFORMATION
+
+§2001. Short title
+
+This subchapter may be known and cited as "the Maine Library of Geographic Information Act." [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§2002. Definitions
+
+As used in this subchapter, unless the context otherwise indicates, the following terms have the following meanings. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+1. Association. "Association" means an organization:
+
+A. Whose membership is identifiable by regular payment of organizational dues and regularly maintained membership lists; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+B. That is registered with the State or is a corporation in the State; and [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+C. That exists for the purpose of advancing the common occupation or profession of its membership. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+2. Data custodian. "Data custodian" means a federal data custodian, state data custodian or nonstate data custodian.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+3. Federal data custodian. "Federal data custodian" means any branch, agency or instrumentality of the Federal Government.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+4. Geographic information board. "Geographic information board" means the Maine Library of Geographic Information Board.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+5. Geographic information system. "Geographic information system" or "GIS" means a computer system capable of assembling, storing, manipulating, analyzing and displaying information identified according to locations. A GIS includes operating personnel, hardware, software and the data that go into the system.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+6. Maine Library of Geographic Information. "Maine Library of Geographic Information" or "library" means the statewide network created pursuant to this subchapter by which data custodians or their designees organize and catalog public geographic information and provide access to that information to all levels of government and to the public.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+7. Nonstate data custodian. "Nonstate data custodian" means any agency or instrumentality of a political subdivision of the State.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+8. Public geographic information. "Public geographic information" means public information that is referenced to a physical location. Public geographic information includes, but is not limited to, physical, legal, economic or environmental information or characteristics concerning land, water, groundwater, subsurface resources or air in this State relating to:
+
+A. Topography, soil, soil erosion, geology, minerals, vegetation, land cover, wildlife and associated natural resources; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+B. Land ownership, land use, land use controls and restrictions, jurisdictional boundaries, tax assessments, land value and land survey records and references; and [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+C. Geodetic control networks, aerial photographs, maps, planimetric data, remote sensing data, historic and prehistoric sites and economic projections. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+9. Public information. "Public information" means information that is stored, gathered, generated, maintained or financed by a data custodian. Information of state and nonstate data custodians is public information only if it is either:
+
+A. A public record under Title 1, section 402, subsection 3; or [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+B. Otherwise expressly authorized by law to be released. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+The presence of data in the library does not, by itself, make that information a public record.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+10. State data custodian. "State data custodian" means any branch, agency or instrumentality of State Government.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+11. State funds. "State funds" means bond revenues and General Fund money appropriated by the Legislature for the purposes of this chapter.
+
+[PL 2015, c. 267, Pt. YYY, §1 (AMD).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW). PL 2015, c. 267, Pt. YYY, §1 (AMD).
+
+§2003. Maine Library of Geographic Information Board
+
+1. Purposes and duties. The Maine Library of Geographic Information Board, as established by section 12004‑G, subsection 30‑B, has the following purposes and duties:
+
+A. To oversee the Maine Library of Geographic Information to ensure that it operates as a coordinated, cost-effective electronic gateway providing public access to data custodians' public geographic information. Nothing in this paragraph may be construed to affect the rights of persons to inspect or copy public records under Title 1, chapter 13, subchapter 1, or the duty of data custodians to provide for public inspection and copying of those records; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+B. To establish and maintain standards, rules and policies for nonstate data custodians' geographic information that is incorporated into the Maine Library of Geographic Information. These standards, rules and policies must be consistent with the standards, rules and policies set by the Chief Information Officer that govern state data custodians' information technology. The geographic information board shall adopt rules to carry out this subchapter. Rules adopted pursuant to this paragraph are routine technical rules as defined in chapter 375, subchapter 2‑A. Standards and policies may concern, without limitation:
+
+(1) Methods of access and delivery of information held by the library;
+
+(2) Geographic information system technical specifications;
+
+(3) Data content, metadata and security, including guideline criteria for accepting 3rd-party data from data custodians or data volunteered by the private sector;
+
+(4) Privacy and privacy protection;
+
+(5) Mechanisms to correct inaccuracies; and
+
+(6) Data validation tools and processes; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+C. To reduce redundancies in the creation, verification and maintenance of public geographic information and to enhance its utility for complex analyses.
+
+(1) Each state data custodian, or its designee, that acquires, purchases, verifies, maintains or produces geographic information with state funds or grants shall:
+
+(a) Inform the geographic information board and the Office of Geographic Information Systems of the existence of this information and its geographic extent; and
+
+(b) Upon request, provide to the library and office an electronic copy of all information classified as public, in a form compatible with standards set by the Chief Information Officer.
+
+(2) Each nonstate data custodian, or its designee, that acquires, purchases, verifies, maintains or produces geographic information with state funds specifically provided for that purpose shall:
+
+(a) Inform the geographic information board and the Office of Geographic Information Systems of the existence of this information and its geographic extent; and
+
+(b) Upon request, provide to the library and Office of Geographic Information Systems an electronic copy of all information classified as public, in a form compatible with standards set by the Chief Information Officer; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+D. To set priorities and authorize the expenditure of state funds, including awarding of grants or subgrants to data custodians when available. The geographic information board may seek federal and other funding partners, accept gifts and grants and expend the funds acquired for purposes consistent with this subchapter; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+E. To promote innovative uses of geographic information through the provision of verified, coordinated, intergovernmental information via the Maine Library of Geographic Information. The geographic information board shall seek advice from the general public, professional associations, academic groups and institutions and individuals with knowledge of and interest in geographic information regarding needed information and potential innovative uses of geographic information; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+F. To enter partnerships to promote the purposes of this subchapter; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+G. To hear and resolve disputes that may arise between data custodians or with respect to information to be placed in the Maine Library of Geographic Information, enforcement of geographic information board standards, rules or policies or other related matters, all in accordance with the Maine Administrative Procedure Act. Complainants may directly present their case to the geographic information board, which has the power to hold investigations, inquiries and hearings concerning matters brought to its attention and to make decisions with respect to the case. All interested parties must be given reasonable notice of the hearing and an opportunity to be heard. Hearings must be open to the public; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+H. To conduct studies relating to the coordination, development and use of statewide geographic information; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+I. To report annually by January 1st to the joint standing committees of the Legislature having jurisdiction over natural resources matters, and state and local government matters. The report must provide a review of the past year's activities, including, but not limited to, a description of standards adopted, data added to the library, partnerships established, disputes addressed, studies conducted and financial activity. The library shall also make this report available to the public. This report may also include suggested legislative language intended to address geographic information issues needing legislative action; and [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+J. To develop appropriate internal services to facilitate generalized access for and use of data by governmental agencies and the public. The library may not compete directly with private enterprise. The library shall work in partnership with nonstate data custodians to promote the purposes of this subchapter. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+2. Membership. The geographic information board consists of 15 voting members as follows:
+
+A. The commissioner or the commissioner's designee; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+B. The Chief Information Officer or the Chief Information Officer's designee; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+C. Two members, or the members' designees, who are responsible for overseeing GIS functions of a state department that is a data custodian of geographic information, appointed by the Governor; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+D. Eight representatives as follows:
+
+(1) A representative of the University of Maine System, appointed by the Chancellor of the University of Maine System;
+
+(2) Two representatives of a statewide association of municipalities, one representative appointed by the President of the Senate from nominations made by the association's governing body and one representative appointed by the Speaker of the House from nominations made by the association's governing body;
+
+(3) One representative of a statewide association of regional councils, appointed by the Speaker of the House from nominations made by the Department of Agriculture, Conservation and Forestry;
+
+(4) One representative of a statewide association of counties, appointed by the Governor from nominations made by the association's governing body;
+
+(5) One representative of a statewide association representing real estate and development interests, appointed by the President of the Senate;
+
+(6) One representative of a statewide association representing environmental interests, appointed by the Speaker of the House; and
+
+(7) One member representing public utilities, appointed by the Governor; [PL 2011, c. 655, Pt. EE, §1 (AMD); PL 2011, c. 655, Pt. EE, §30 (AFF); PL 2011, c. 657, Pt. W, §5 (REV).]
+
+E. Two members of the private sector representing geographic information vendors, one member appointed by the President of the Senate and one member appointed by the Speaker of the House; and [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+F. One public member, appointed by the President of the Senate. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+The terms for the members appointed pursuant to paragraphs C, D, E and F are 3 years. A member who designates another person to serve on the geographic information board as that member's designee shall provide written notice to the geographic information board's staff of the name and title of the designee.
+
+[PL 2011, c. 655, Pt. EE, §1 (AMD); PL 2011, c. 655, Pt. EE, §30 (AFF); PL 2011, c. 657, Pt. W, §5 (REV).]
+
+3. Board chair. The geographic information board shall annually elect a chair from its membership at the first meeting in each year.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+4. Staff. Staff support to the geographic information board is provided by the Department of Administrative and Financial Services.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+5. Quorum; action. Eight members of the geographic information board constitute a quorum. The affirmative vote of 7 members is necessary for any action taken by the geographic information board. A vacancy in the membership of the geographic information board does not impair the right of a quorum to exercise all the powers and perform the duties of the geographic information board. The geographic information board may use video conferencing and other technologies to conduct its business but is not exempt from Title 1, chapter 13, subchapter 1.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+6. Meetings. The geographic information board shall meet at the call of the chair but not less than quarterly. Notice must be provided no less than 5 working days prior to the meeting. Notice may be in writing by facsimile or electronic transmission.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+7. Memorandum of understanding. Information to be provided by a nonstate data custodian or its designee to the Maine Library of Geographic Information is governed by a memorandum of understanding between the geographic information board or its designee and the nonstate data custodian or its designee.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+8. Data custodian responsibilities. Federal and nonstate data custodians may voluntarily contribute data to the Maine Library of Geographic Information, except that data developed with state funds must be submitted to the library. Data custodians or their designees are responsible for:
+
+A. Ensuring that the public information is accurate, complete and current through the creation of adequate procedures; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+B. Updating source data bases following verification of suggested corrections that users submit in accordance with geographic information board standards; [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+C. Complying with standards adopted by the geographic information board; and [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+D. Providing reasonable safeguards to protect confidentiality. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW). PL 2011, c. 655, Pt. EE, §1 (AMD). PL 2011, c. 655, Pt. EE, §30 (AFF). PL 2011, c. 657, Pt. W, §5 (REV).
+
+§2004. Liability
+
+The geographic information board and any of the parties submitting data to the Maine Library of Geographic Information for public use may not be held liable for any use of those data. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§2005. Copyrights and fees
+
+Copyright or licensing restrictions may not be fixed by the geographic information board or data custodians to the information made available through the Maine Library of Geographic Information. The geographic information board may set fees for electronic copies of library data that are no more than 3 times the actual cost of reproduction. Fee schedules must be set annually and made readily available to requestors. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+§2006. Geospatial data accounts
+
+1. Accounts established. There are established within the office separate accounts, referred to in this section as "the accounts," to be administered by the geographic information board.
+
+[PL 2013, c. 122, §1 (NEW).]
+
+2. Sources of funding. The following must be paid into the accounts:
+
+A. All money appropriated for inclusion in the accounts; [PL 2013, c. 122, §1 (NEW).]
+
+B. All interest earned from investments of the accounts; [PL 2013, c. 122, §1 (NEW).]
+
+C. Any money allocated from Other Special Revenue Funds accounts for the purpose of the accounts; [PL 2013, c. 122, §1 (NEW).]
+
+D. Proceeds from any bonds issued for the purpose of the accounts; and [PL 2013, c. 122, §1 (NEW).]
+
+E. Matching funds received from the Federal Government or other legal entity for geospatial data acquisition expenditures made from the accounts pursuant to subsection 4. [PL 2013, c. 122, §1 (NEW).]
+
+[PL 2013, c. 122, §1 (NEW).]
+
+3. Use of accounts. The purpose of the accounts is to continue projects developed by the geographic information board. The accounts must be used to provide and maintain to the extent practicable statewide GIS data sets necessary for the efficient delivery of state services and to conserve state expenditures through partnerships with other GIS stakeholders interested in acquiring the same data sets. The accounts may be used at the discretion of the geographic information board for acquiring geospatial data primarily including but not limited to the following data sets:
+
+A. An orthoimagery program. Imagery collected through this program must be from all areas of the State and be 4-band images that include the red, green, blue and near infrared bands; and [PL 2013, c. 122, §1 (NEW).]
+
+B. An elevation data set. A consistent statewide elevation data set must be collected using light detection and ranging technology or an equivalent method. [PL 2013, c. 122, §1 (NEW).]
+
+[PL 2013, c. 122, §1 (NEW).]
+
+4. Matching funds. State funds used to purchase geospatial data must be matched by funding from other sources at at least a one-to-one ratio.
+
+[PL 2015, c. 267, Pt. YYY, §2 (AMD).]
+
+5. Annual report. The Chief Information Officer shall submit a written report by January 15, 2014 and annually thereafter to the Governor and the Legislature on the accounts' balance and expenditures.
+
+[PL 2013, c. 122, §1 (NEW).]
+
+SECTION HISTORY
+
+PL 2013, c. 122, §1 (NEW). PL 2015, c. 267, Pt. YYY, §2 (AMD).
+
+SUBCHAPTER 5
+
+APPEALS PROCESS
+
+§2011. Appeals
+
+Any state agency or semiautonomous state agency disagreeing with an action or decision of the Chief Information Officer as it affects that agency may appeal the decision in accordance with the provisions of this section. [PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+1. Appeal. A state agency may appeal the decision or action of the Chief Information Officer to the commissioner.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+2. Appeal to Governor. In the event that an agency is aggrieved by the decision of the commissioner, the agency may appeal to the Governor to alter the decision or action, and the decision of the Governor is final.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+3. Written decisions. In responding to a state agency, the person or organization to whom the appeal has been made shall provide the decision in writing. If the decision fails to uphold the state agency appeal, the decision must contain the specific reasons for the decision.
+
+[PL 2005, c. 12, Pt. SS, §16 (NEW).]
+
+SECTION HISTORY
+
+PL 2005, c. 12, §SS16 (NEW).
+
+The State of Maine claims a copyright in its codified statutes. If you intend to republish this material, we require that you include the following disclaimer in your publication:
+
+All copyrights and other rights to statutory text are reserved by the State of Maine. The text included in this publication reflects changes made through the Second Regular Session of the 132nd Maine Legislature and is current through October 1, 2026 . The text is subject to change without notice. It is a version that has not been officially certified by the Secretary of State. Refer to the Maine Revised Statutes Annotated and supplements for certified text.
+
+The Office of the Revisor of Statutes also requests that you send us one copy of any statutory publication you may produce. Our goal is not to restrict publishing activity, but to keep track of who is publishing what, to identify any needless duplication and to preserve the State's copyright rights.
+
+PLEASE NOTE: The Revisor's Office cannot perform research for or provide legal advice or interpretation of Maine law to the public. If you need legal assistance, please contact a qualified attorney.

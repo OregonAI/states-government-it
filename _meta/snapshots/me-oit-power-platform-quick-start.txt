@@ -1,0 +1,50 @@
+                                            Power Platform Quick Start
+
+Power Platform in Government Community Cloud (GCC) means three products: Power Apps, Power Automate, and
+Power BI. This document will provide brief guidance for these products.
+       Here are the high-level use case suggestions:
+   • If it is for gluing together existing O365 products for internal users, then use Power Automate. For example:
+            o You can use Excel and Outlook connectors to build a flow to email someone when an Excel file (located
+                in OneDrive or SharePoint) is updated.
+            o Power Automate can incorporate a Microsoft Form to collect data from the public without extra
+                expense.
+            o Approval workflows can be built in Power Automate.
+   • If it is about collecting data from authenticated/verified external users, and/or if it is about creating logical
+       workflows, then use Power Apps.
+   • Power Apps forms can be used for data entry, data viewing, or data editing and are optimized for mobile
+       devices. Power Apps can be used on Android and iOS using the native Power App.
+   • Power Apps and Power Automate flows can be shared with individuals or groups of people.
+   • Power BI is a data analytics and graphical presentation tool.
+   • If the app is intended for anything other than personal use, the Department is recommended to create a
+       dedicated Departmental App Makers Active Directory Group. No matter which individual creates the app, they
+       will share ownership with this entire group. We are still obtaining clarification from Microsoft re: shared
+       connector accounts. Also, please note that just sharing app ownership does not actually share ownership of any
+       ancillary resource that the app may need to function.
+   • It is recommended that each version of a Power Automate & Power App that is active should be exported as a
+       package (as a backup) by the app maker. Each time the application changes, a new package should be exported
+       with the version specified in the package name (e.g. MyApplication_V1, MyApplication_V2). Ownership of the
+       app should be shared so more than one person can make changes.
+
+       Licensing:
+   •   Basic functionality of Power Automate and Power Apps are both available in the M365 G3 license (which is the
+       license most State of Maine employees have) at no extra expense.
+   •   Data collected from Power Automate and Power Apps can be stored in OneDrive, SharePoint for G3 license
+       holders, and a few other places. https://stateofmaine.sharepoint.com/sites/MaineIT-O365/SitePages/Power-
+       Apps-Data-Sources.aspx
+   •   Premium connectors in Power Automate (e.g. connectors to on-prem databases), require an elevated Per User
+       license and therefore an extra cost.
+   •   Dataverse (previously called Common Data Service) is only available at the elevated Per User license (at extra
+       cost). Dataverse is a default standard data structure for storing relational information.
+   •   Makers can create reports and dashboards in Power BI Desktop (if they install the desktop application), but the
+       reports and dashboards cannot be published and consumed by anyone that does not have a Power BI Pro
+       license, which is an extra cost. A “maker” can be an individual or group of licensed people who can develop an
+       application in this tenant.
+   •   Power BI Free is not available to government entities.
+   •   In order for an external user to have access to a Portal Power App, it is an extra expense. Contact MaineIT
+       Computing Infrastructure and Services (CIS) for this portal.
+
+   Initial Issue: 21 October 2021
+   Latest Revision: 21 October 2021
+   Point-of-Contact: PolicyTeam.OIT@Maine.Gov
+
+                                                     Page 1 of 1

@@ -1,0 +1,129 @@
+                                             C
+                                             Coom
+                                                mpplliiaannccee C
+                                                                Coom
+                                                                   mppoonneenntt
+
+                                                   D
+                                                   DEEFFIIN
+                                                          NIITTIIO
+                                                                 ONN
+Name                   Entity Authentication
+                       Entity Authentication is the process by which an agent in a distributed system
+Description            gains confidence in the identity of a communication partner.
+                       Ensure that only authenticated entities have the capability to be connected to an
+                       agency network.
+Rationale
+                       To address several threats, including but not limited to masquerade, password
+                       compromise, replay attacks and the signing of pre-defined data.
+                       •   A means to ensure users are who they say they are
+                       •   Verify the user who attempts to perform functions in a system is in fact the
+Benefits                   user who is authorized to do so
+                       •   Provides a measure of non-repudiation
+
+                                  A
+                                  ASSSSO
+                                       OCCIIA
+                                            ATTEED
+                                                 DAARRC
+                                                      CHHIITTEEC
+                                                               CTTU
+                                                                  URREE LLEEVVEELLSS
+List the Domain Name            Security
+List the Discipline Name        Technical Controls
+List the Technology Area Name   Identification and Authentication
+List Product Component Name
+                                       C
+                                       COOM
+                                          MPPLLIIA
+                                                 ANNC
+                                                    CEE C
+                                                        COOM
+                                                           MPPO
+                                                              ONNEEN
+                                                                   NTT TTYYPPEE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+                                              C
+                                              COOM
+                                                 MPPLLIIA
+                                                        ANNC
+                                                           CEE D
+                                                               DEETTA
+                                                                    AIILL
+                                User identification and authentication should have a unique identifier
+                                (user ID) for their personal and sole use so that activities can
+                                subsequently be traced to the responsible individual.
+
+                                User IDs and passwords should not be shared. (See Password Controls
+                                CC).
+
+State the Guideline, Standard      •     There are various authentication procedures, which can be used
+or Legislation                           to substantiate the claimed identity of a user.
+                                                o User IDs with passwords are a very common way to
+                                                   provide authentication
+                                                o The same can also be achieved with cryptographic
+                                                   means and authentication protocols
+                                                o Objects such as tokens or smart cards that users
+                                                   possess
+                                                o Biometric authentication technologies that use the
+
+                                                  unique characteristics or attributes of an individual
+                               A combination of technologies and mechanisms securely linked will
+                               result in stronger authentication
+Document Source Reference #
+                                             Standard Organization
+                               FIPS PUB 196                                       http://csrc.nist.gov/publication
+Name                                                               Website
+                                                                                  s/fips/fips196/fips196.pdf
+Contact Information
+                                                  Government Body
+                               National Institute of
+                               Standards and Technology
+                                                                                  http://csrc.nist.gov/
+Name                           (NIST), Computer                    Website
+                               Security Resource Center
+                               (CSRC)
+Contact Information            inquiries@nist.gov
+                                                    KKEEYYW
+                                                          WOORRD
+                                                               DSS
+List all Keywords              Password, user ID, identification, authorization, access.
+                                     C
+                                     COOM
+                                        MPPO
+                                           ONNEEN
+                                                NTT C
+                                                    CLLA
+                                                       ASSSSIIFFIIC
+                                                                  CAATTIIO
+                                                                         ONN
+Provide the Classification       Emerging                Current                Twilight         Sunset
+                                  Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                        Conditional Use Restrictions
+Document the Conditional Use
+Restrictions
+                                                  Migration Strategy
+Document the Migration
+Strategy
+                                            Impact Position Statement
+Document the Position
+Statement on Impact
+                                              C
+                                              CUURRRREEN
+                                                       NTT SSTTA
+                                                               ATTU
+                                                                  USS
+Provide the Current Status)      In Development          Under Review           Approved         Rejected
+                                                   A
+                                                   AUUD
+                                                      DIITT TTRRA
+                                                                AIILL
+Creation Date                  01/11/2007                   Date Accepted / Rejected       03/23/2007
+     Reason for Rejection
+Last Date Reviewed                                          Last Date Updated
+     Reason for Update

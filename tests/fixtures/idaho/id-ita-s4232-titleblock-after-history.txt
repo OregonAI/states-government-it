@@ -1,0 +1,17 @@
+
+   Guideline G105 (ITA Glossary of Terms)
+
+   07/01/2013 – Changed “ITRMC” to “ITA”.
+
+          Effective Date: May 1,2011
+
+Parcels Standard                                                                    3
+
+                                  STATE OF IDAHO
+
+                     Idaho Parcels Data Standard
+                               Part of the Parcels Theme
+
+                                         Version 2.3
+                                Effective November 20, 2024
+

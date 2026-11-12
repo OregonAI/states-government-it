@@ -1,0 +1,53 @@
+{
+  "agreement": 0.9836,
+  "dict_ratio": 0.9836,
+  "disagreements": [
+    {
+      "before": [
+        "and",
+        "declare",
+        "as",
+        "follows"
+      ],
+      "paddle": "1",
+      "tesseract": "I"
+    },
+    {
+      "before": [
+        "Boise",
+        "on",
+        "this",
+        "14"
+      ],
+      "paddle": "th",
+      "tesseract": ""
+    },
+    {
+      "before": [
+        "two",
+        "thousand",
+        "twenty",
+        "two"
+      ],
+      "paddle": "RLE 0200 GOOR AEY ETEE AE",
+      "tesseract": "B To aQ GOVERNOR LAWERENCE DENNEY SECRETARY OF STA"
+    }
+  ],
+  "engines": [
+    "tesseract (ocrmypdf)",
+    "paddleocr PP-OCRv6"
+  ],
+  "figure_agreement": 0.9091,
+  "figures": 10,
+  "forced_rotation": false,
+  "glued": 0,
+  "paddle_sha256": "e5c32ebac963b51b0be9fa439e8845bb6b93f6c5ee9eb74a7ead2c36b2c06483",
+  "pdf_sha256": "14e07275e67f03fded85c98834e3562ac2c35430a9117c1c4a5ff0244d929524",
+  "psm": null,
+  "text_sha256": "aa849c54e07f842a7d163cf33c9c68df20f541ea3df584a8e6b9b52e88c4ecdc",
+  "tools": {
+    "ocrmypdf": "15.2.0+dfsg1",
+    "tesseract": "tesseract 5.3.4"
+  },
+  "words": 427
+}

@@ -1,0 +1,373 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: delaware
+id: de-oth-psp-001
+title: Partner Services Policy
+doc_type: policy
+citation: DTI Enterprise Policy OTH-PSP-001
+authority_level: ''
+issuing_body: Delaware Department of Technology and Information (DTI)
+source_url: https://webfiles.dti.delaware.gov/pdfs/pp/Partner%20Services%20Policy.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: c807dd5e234cfb60c809cb8f3a7765b9ef41ee788682d74741c60eaa7be80143
+effective_date: '2026-09-24'
+source_version: Revision 1 (reviewed 9/24/2026)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Partner Services Policy (DTI Enterprise Policy OTH-PSP-001)
+
+## At a glance
+
+Item of the DTI Standards and Policies library, section 'Other'. Synopsis as printed: Establishes DTI’s framework for delivery of technology services to State Agencies
+
+## Full text
+
+                                                                           STATE OF DELAWARE
+                                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                        801 Silver Lake Blvd.
+                                                                       Dover, Delaware 19904
+
+      Doc Ref Number: OTH-PSP-001                                                                Revision Number:           1
+      Document Type: Enterprise Policy                                                                 Page: 1 of 7
+             Policy Title: Partner Services Policy
+
+                Synopsis: Establishes DTI’s framework for delivery of technology services to
+                                State Agencies
+               Authority: Title 29 Chapter 90C Delaware Code, §9004C – General Powers,
+                                duties and functions of DTI “2) Create, implement and enforce
+                                statewide and agency technology solutions, policies, standards and
+                                guidelines, including as recommended by the CIO”
+           Applicability:       This policy is applicable to all users of the State of Delaware
+                                communications and computing resources. The Department of
+                                Technology and Information (DTI) is an Executive Branch Agency and
+                                has no authority over the customers in Legislative and Judicial
+                                Branches, as well as Local Education Agencies, and other Federal and
+                                Local Government entities that use these resources. However, all
+                                users, including these entities, must agree to abide by all policies,
+                                standards promulgated by DTI as a condition of access and continued
+                                use of these resources.
+              Effective:        9/24/2026
+             Reviewed:          9/24/2026
+           Approved By:         Chief Information Officer
+               Sponsor:         Chief Administrative Officer
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                             1 of 7
+
+                                                                           STATE OF DELAWARE
+                                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                        801 Silver Lake Blvd.
+                                                                       Dover, Delaware 19904
+
+       Doc Ref Number: OTH-PSP-001                                                               Revision Number:           1
+        Document Type: Enterprise Policy                                                               Page: 2 of 7
+             Policy Title: Partner Services Policy
+
+     TABLE OF CONTENTS
+
+ Section                                                                                                                    Page
+
+ I.         POLICY                                                                                                              2
+
+ II.        DEFINITIONS                                                                                                         6
+
+ III.       DEVELOPMENT AND REVISION HISTORY                                                                                    6
+
+ IV.        APPROVAL SIGNATURE BLOCK                                                                                            7
+
+ V.         LISTING OF APPENDICES                                                                                               7
+
+ VI.        RELATED POLICIES AND STANDARDS                                                                                      7
+
+I.       POLICY
+
+EXECUTIVE SUMMARY
+The Department of Technology and Information (DTI) is tasked with delivering both statewide
+and agency technology solutions. This policy defines how DTI will engage with any given
+Partner Organization (“Partner”) in the course of delivering technology products and services.
+
+POLICY STATEMENT
+
+Term
+
+      1. This policy is effective upon signature of the Chief Information Officer. It will remain
+         in full force and effect unless revoked by DTI.
+
+      2. DTI will review this policy on an annual basis. Any suggestions for changes to this
+         policy may be submitted to dti_tasc@delaware.gov for consideration.
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                             2 of 7
+
+                                                                           STATE OF DELAWARE
+                                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                        801 Silver Lake Blvd.
+                                                                       Dover, Delaware 19904
+
+      Doc Ref Number: OTH-PSP-001                                                                Revision Number:           1
+      Document Type: Enterprise Policy                                                                 Page: 3 of 7
+             Policy Title: Partner Services Policy
+
+Enterprise Service Delivery
+
+    1. DTI maintains an active portfolio of products and services. Some are defined as
+       Enterprise Services and are designed to be the primary or sole statewide solution. This
+       portfolio is intended to be reviewed at least annually.
+
+    2. DTI will maintain a Service Catalog on the DTI website detailing products and services
+       available to Partners. Each product or service listing will include a brief description of
+       the item, instructions for ordering, any associated costs, a listing of Partner/DTI
+       responsibilities, and any associated Service Level Agreements.
+
+    3. Terms and details specific to each product and service will be set forth in a Terms of
+       Service (TOS). DTI cannot commence performance of service delivery until a fully
+       executed TOS is received to authorize the service. In the case of a conflict between
+       the TOS issued and this policy, this policy shall prevail.
+
+    4. For services delivered in a centralized statewide approach and not fully covered by
+       General Funds, DTI will recover costs from Partners based on consumption, actual
+       utilization, or an appropriate allocation of costs as determined by DTI. The cost for
+       each service will be reviewed annually by DTI and approved by the Director of the
+       Office of Management and Budget and the Controller General. Approved rate sheets
+       will be posted on the DTI website. 29 Del. C. § 9004C(10).
+
+    5. DTI, in its sole discretion, may enter into contracts with third party providers in the
+       course of providing technology products and services to Partner organizations. DTI
+       retains responsibility for oversight and accountability for the performance of any third-
+       party providers. 29 Del. C. § 9004C.
+
+    6. DTI maintains processes to address both change management and problem
+       management for service delivery. The goal of these processes is to minimize the risk
+       of business disruption for Partners.
+
+    7. To safeguard Delaware's crucial network infrastructure, DTI will institute a compulsory
+       four hour maintenance window each month to apply security patches to network
+       devices. The DTI Network Operations and Security teams will undertake the
+       responsibility of identifying, testing, and implementing patches during these scheduled
+       intervals. The designated 4-hour maintenance window is fixed for the second Thursday
+       of each month, occurring from 3:00 AM to 7:00 AM. DTI will give advance notice to
+       Partners via the DTI change management process if the specified monthly
+       maintenance window will be utilized. These maintenance windows aim to
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                             3 of 7
+
+                                                                           STATE OF DELAWARE
+                                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                        801 Silver Lake Blvd.
+                                                                       Dover, Delaware 19904
+
+      Doc Ref Number: OTH-PSP-001                                                                Revision Number:           1
+      Document Type: Enterprise Policy                                                                 Page: 4 of 7
+             Policy Title: Partner Services Policy
+
+         reduce security risks by ensuring networks maintain up-to-date and secure
+         configurations. Furthermore, DTI retains the authority to conduct emergency
+         maintenance as required to address zero-day cyber threats and mitigate critical
+         vulnerabilities. DTI will endeavor to provide Partners with as much advance notice as
+         feasible through the change management process and partner services outreach.
+
+Cost Recovery
+
+    1. Charges for products and services provided by DTI will be based on the then current
+       published rate schedule, or on a specific quotation provided in connection with a TOS.
+       The current rate schedule as published on the DTI website supersedes and replaces all
+       previous published rate schedules.
+
+    2. DTI may provide, upon Partner request, an estimate of cost for proposed products and
+       services. Specific agreements addressing costs, schedules, and other factors will be
+       described in the associated TOS. Partner is responsible for paying the agreed amount
+       set forth in the TOS.
+
+    3. DTI will invoice Partners monthly, detailing charges for services rendered during the
+       preceding month. Invoices will include the name of the service, the level of
+       consumption, and the applicable unit rate. Payment is due upon receipt of invoice by
+       Partner and becomes delinquent 30 calendar days thereafter.
+
+Partner Engagement
+
+    1. Each Partner organization will be assigned a DTI Business Relationship Manager. The
+       Business Relationship Manager serves as the primary point of contact for
+       communications between DTI and Partner organizations. 29 Del. C. § 9004C(24).
+
+    2. Business Relationship Managers are responsible for understanding the mission and
+       strategy of each assigned Partner, and making recommendations on how technology
+       can help in meeting stated objectives by connecting Partners to established Enterprise
+       Services, where possible. If no Enterprise Service is available, the Business
+       Relationship Manager will assist the Partner in identifying an acceptable solution in
+       accordance with all State policies, standards, and guidelines.
+
+    3. Each Partner will be provided with an annual technology portfolio review. The purpose
+       of this review will be to identify the current technology products and services being
+       delivered by DTI and make any necessary changes to future delivery. This review will
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                             4 of 7
+
+                                                                           STATE OF DELAWARE
+                                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                        801 Silver Lake Blvd.
+                                                                       Dover, Delaware 19904
+
+      Doc Ref Number: OTH-PSP-001                                                                Revision Number:           1
+      Document Type: Enterprise Policy                                                                 Page: 5 of 7
+             Policy Title: Partner Services Policy
+
+         be conducted in conjunction with the state budget cycle to assist agencies in planning
+         their technology spend.
+
+    4. DTI maintains an Information Technology (IT) Business Case process which helps to
+       build the justification for IT projects. Partners must submit a business case to DTI for
+       approval of any agency information technology initiative before work begins (this
+       includes work to prepare and publish an RFP). Business Relationship Managers are
+       responsible for working with Partners to coordinate submission of the Business Case
+       form.
+
+Disputes and Remedies
+
+    1. Partner will promptly notify DTI of disputes regarding invoices, or of services which
+       Partner believes do not conform with this policy or the TOS, within 30 calendar days
+       of receipt of an invoice or performance of services, whichever occurs later.
+
+    2. For any DTI-provided services which fail to conform to the specifications of this policy
+       or a TOS, and such failure is caused solely by DTI, no charge will be invoiced. If both
+       parties contribute to the issue, the parties agree to apportion between them the
+       damage attributable to the actions of each. Partner is solely responsible for any
+       damage caused in whole or in part by omissions of material information, as well as
+       inaccurate or inadequate data, programs, or software furnished by Partner to DTI.
+
+    3. For any equipment damaged by either party, that party will be obligated to pay for
+       repair or replacement of that equipment. If both parties are responsible, the parties
+       agree to apportion between them the damage attributable to the actions of each.
+
+    4. When a dispute arises concerning provision of IT goods or services, the Partner shall
+       contact their assigned Business Relationship Manager to first attempt to negotiate a
+       mutually satisfactory solution. In the event the dispute cannot be resolved between
+       the Partner and the Business Relationship Manager, the dispute may be escalated to
+       the Customer Engagement Manager and then the DTI Director of Strategic Planning. If
+       the dispute still cannot be resolved satisfactorily, it may be escalated to the DTI Chief
+       of Administration. The DTI Chief of Administration will work in good faith with Partner
+       leadership toward an equitable resolution for all. Both DTI and the Partner agree to
+       proceed diligently with the performance of services requested under any TOS while any
+       dispute is pending.
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                             5 of 7
+
+                                                                           STATE OF DELAWARE
+                                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                        801 Silver Lake Blvd.
+                                                                       Dover, Delaware 19904
+
+      Doc Ref Number: OTH-PSP-001                                                                Revision Number:           1
+        Document Type: Enterprise Policy                                                               Page: 6 of 7
+             Policy Title: Partner Services Policy
+
+   II.       DEFINITIONS
+
+   1.        Cost Recovery – The methodology by which DTI allocates costs incurred to deliver
+             on a particular service offering to Partners based on their consumption level of
+             each service.
+
+   2.        Enterprise Service – This is a standardized service, which includes business
+             applications, technologies, and telecommunications, that is available to Partners
+             for consumption. Some enterprise services are mandatory and other enterprise
+             services are optional, as noted in the Enterprise Services Policy.
+
+   3.        Terms of Service (TOS) – This document functions as an agreement between DTI
+             and a Partner Organization for DTI to deliver a specific product or service and for
+             Partner to consume such product or service. The TOS will include the expected
+             consumption level of the Partner, the rate to be used for cost recovery, and
+             responsibilities of each party for delivery. Each TOS must be approved by the
+             appropriate authorities from both DTI and the Partner Organization.
+
+   4.        Partner Organization – Entities that consume DTI products and/or services.
+             Partner Organizations can include executive, judicial, legislative, and K12
+             agencies.
+
+   5.        Service Catalog – Active portfolio of products and services available for delivery by
+             DTI. This is maintained on the DTI website.
+
+   III.      DEVELOPMENT AND REVISION HISTORY
+
+ Date                     Revision
+ 5/13/2024                Initial version
+ 11/4/2024                Rev 0 - Removed a reference to the Technology Investment Council
+ 9/24/2026                Rev 1 - Updated organizational titles, revised dispute escalation path,
+                          and changed the network patching maintenance window from quarterly
+                          to monthly
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                             6 of 7
+
+                                                                           STATE OF DELAWARE
+                                                        DEPARTMENT OF TECHNOLOGY AND INFORMATION
+                                                                        801 Silver Lake Blvd.
+                                                                       Dover, Delaware 19904
+
+       Doc Ref Number: OTH-PSP-001                                                               Revision Number:           1
+       Document Type: Enterprise Policy                                                                Page: 7 of 7
+             Policy Title: Partner Services Policy
+
+ IV. A PP ROVAL SI G N A T U R E B LOC K
+
+ On File
+
+ Robert Osmond
+
+ Name & Title:                                                                        Date
+
+ State Chief Information Officer                                              9/24/26
+
+  V.     L I S TI NG OF A P P E N D I C ES
+Change Management Procedure
+
+Information Technology (IT) Business Case Process
+
+Problem Management Process
+
+    VI. R E L A T E D P OLI C I ES AND S TANDARDS
+Enterprise Services Standard
+
+Enterprise Services Policy
+
+These policies are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                             7 of 7
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

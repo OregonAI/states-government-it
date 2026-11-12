@@ -1,0 +1,471 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:    S4259 – Data Standard for National Soil Survey Derived Data Layers
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   The standard described in this document falls entirely within the ITA Standard S4260
+   Soils Dataset Standard and the dataset described in this document is a subset of the
+   National Soil Survey database described in ITA Standard S4260 Soils Dataset
+   Standard. ITA Standard S4260 Soils Dataset Standard was approved by the IGC-EC
+   on 11/16/2017. While it is unusual to have a standard for a subset of data already
+   approved in an existing standard, the database described in ITA Standard S4260
+   Soils Dataset Standard is extensive and requires experience and manipulation
+   before being able to use.
+
+   Public surveys conducted with stakeholders with a business need for soil data in
+   2023 established the most used data table from the National Soil Surveys
+
+  comprehensive database. Based on the survey results this standard describes two
+  layers that captures the most requested data:
+
+     1. Depth to Restricted Layer
+     2. Farmland Classification
+
+  A statewide National Soil Survey Derived Data Layers and Farm Classification layer
+  are part of the Geosciences data theme and are a critical source of information for
+  natural resources, conservation, climatologists, agriculture, soil science,
+  engineering, and more.
+
+III. APPROVED STANDARD(S)
+
+  The standard described in this document falls completely under the ITA Standard
+  S4260 Soils Dataset Standard The standard for the Statewide National Soil Survey
+  Derived Data Layers and Farmland Classification layers is attached to this
+  document.
+
+IV. APPROVED PRODUCT(S)
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+  A statewide National Soil Survey Derived Data Layers dataset is a critical source of
+  information as stated under ‘II Rationale’ in this standard. This data standard
+  supports the use of the National Soil Survey Derived Data Layers and Farmland
+  Classification layers to be able to provide this data in a predictable format, improve
+  collaboration and encourage the use of this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+  Any GIS Software, either desktop or online, capable of ingesting and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+  Data will be shared in accordance with ITA Standard S4250 GIS Data Sharing
+  Standards.
+
+                                                                                           2
+
+VIII. PROCEDURE REFERENCE
+
+  The format, content and development of this standard adhere to ITA Policy P5030
+  Framework Standards Development, ITA Standard S4250 GIS Data Sharing
+  Standards and ITA Standard S4220 Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+  Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+  For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+  05/16/2024 – Standard Presented to the IGC-EC
+
+                                                                                    3
+
+                                  STATE OF IDAHO
+
+ Data Standard for National Soil Survey Derived Data
+                       Layers
+                            Part of the Geosciences Theme
+
+                                         Version 1
+                                  Effective May 16, 2024
+
+                  Developed by the Geosciences Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4064
+contact@its.idaho.gov
+
+                                                                         4
+
+CONTENTS
+1. Introduction to the National Soil Survey Derived Data Layers Data Standard ........... 6
+  1.1. Mission and Goals of the Standard............................................................................... 6
+  1.2. Relationship to Existing Standards .............................................................................. 6
+  1.3. Description of the Standard .......................................................................................... 6
+  1.4. Applicability and Intended Uses ................................................................................... 7
+  1.5. Standard Development Process..................................................................................... 7
+  1.6. Maintenance of the Standard ........................................................................................ 8
+2. Body of the Standard ............................................................................................................ 8
+  2.1. Scope and Content.......................................................................................................... 8
+  2.2. Need ................................................................................................................................. 8
+  2.3. Participation in the Standard Development ................................................................ 8
+  2.4. Integration with Other Standards ................................................................................ 9
+  2.5. Technical and Operation Context................................................................................. 9
+     2.5.1. Data Environment................................................................................................... 9
+     2.5.2. Reference Systems ................................................................................................... 9
+     2.5.3. Global Positioning Systems (GPS)....................................................................... 10
+     2.5.4. Interdependence of Themes ................................................................................. 10
+     2.5.5. Encoding ................................................................................................................ 10
+     2.5.6. Resolution .............................................................................................................. 10
+     2.5.7. Accuracy ................................................................................................................ 10
+     2.5.8. Edge Matching ...................................................................................................... 10
+     2.5.9. Unique Identifier ................................................................................................... 10
+     2.5.10.  Attributes ........................................................................................................... 11
+     2.5.11.  Stewardship........................................................................................................ 11
+     2.5.12.  Records Management and Archiving .............................................................. 11
+     2.5.13.  Metadata ............................................................................................................ 11
+3. Data Characteristics ........................................................................................................... 11
+  3.1. Minimum Graphic Data Elements.............................................................................. 11
+  3.2. Optional Graphic Data Elements................................................................................ 12
+  3.3. Standard Attribute Schema .........................................Error! Bookmark not defined.
+  3.4. Data Quality .................................................................................................................. 13
+Appendix A: References .............................................................................................................. 13
+Appendix B: Glossary .................................................................................................................. 13
+
+                                                                                                                                             5
+
+1. Introduction to the National Soil Survey Derived Data Layers Standard
+
+  The standard described in this document falls entirely within the ITA Standard S4260 Soils
+  Dataset Standard and the dataset described in this document is a subset of the National Soil
+  Survey database described therein. ITA Standard S4260 Soils Dataset Standard was approved
+  by the IGC-EC on 11/16/2017. While it is unusual to have a standard for a subset of data
+  already approved in an existing standard, the database described in ITA Standard S4260 Soils
+  Dataset Standard is extensive and requires experience and manipulation before being able to
+  use.
+
+  Public surveys conducted with stakeholders with a business need for soil data in 2023
+  established the most used data table from the National Soil Surveys comprehensive database.
+  Based on the survey results this standard describes two layers that captures the most
+  requested data:
+
+  1. Depth to Restricted Layer
+  2. Farmland Classification Layer
+
+  A statewide Depth to Restricted Layer and Farm Classification layer are part of the
+  Geosciences data theme and are a critical source of information for natural resources,
+  conservation, climatologists, agriculture, soil science, engineering, and more.
+
+  1.1. Mission and Goals of the Standard
+
+  The Data Standard for National Soil Survey Derived Data Layers supports two statewide data
+  layers that are consistent with applicable state and national standards. It establishes the
+  minimum attributes and geospatial database schema for the Soil Survey derived data layers.
+  The Standard will communicate with and may have similar attributes to other Idaho data
+  standards.
+
+  The National Soil Survey Derived Data Layers will be appropriately shared and beneficial to
+  all. The fields in the National Soil Survey Derived Data Layers Data Standard will be general
+  enough to incorporate basic information without requiring major changes in internal data
+  models. This standard allows for expansion to a more complex data structure and schema.
+
+  1.2. Relationship to Existing Standards
+
+  National Soil Survey Derived Data Layers Data Standard relates to existing standards as
+  follows:
+
+                                                                                              6
+
+   •    This standard describes a subset of the data in ITA Standard S4260 Soils Dataset
+        Standard.
+
+1.3. Description of the Standard
+
+This standard describes the vision and geospatial data structure of a National Soil Survey
+Derived Data Layers in the state of Idaho. This standard is devised to be:
+
+    •   Simple, easy to understand, and logical
+    •   Uniformly applicable, whenever possible
+    •   Flexible and capable of accommodating future expansions
+    •   Dynamic in terms of continuous review
+
+1.4. Applicability and Intended Uses
+
+This standard applies to the National Soil Survey element of the Geosciences theme of The
+Idaho Map (TIM) by describing frequently used subsets of data in the National Soil Survey.
+
+The datasets are intended for use in natural resources, conservation, climatologists,
+agriculture, soil science, engineering, and more.
+
+This standard does not consider data sharing agreements, contracts, transactions, privacy
+concerns, or any other issues relating to the acquisition and dissemination of National Soil
+Survey Derived Data Layers data.
+
+1.5. Standard Development Process
+
+The Geosciences Technical Working Group (TWG) is a voluntary group of private, city,
+county, tribal, state, and federal representatives.
+The Geosciences TWG determined that the complexity of the National Soil Survey, the
+database approved in 2017 by the IGC-EC to be the soil component of Idaho’s Spatial Data
+Infrastructure as described in ITA Standard S4260 Soils Dataset Standard, makes it too
+difficult to make this data available on a map, and Open Data site associated with The Idaho
+Map.
+Public surveys conducted with stakeholders with a business need for soil data in 2023
+established which data tables, and data views from the National Soil Surveys comprehensive
+database are most frequently used. Based on the survey the following two datasets are most
+used:
+   1.      Depth to Restricted Layer
+                                                                                               7
+
+      2.       Farmland Classification Layer
+
+   A first draft of this standards document was created using the automation tools developed by
+   the IGC-EC. This standard was then reviewed and edited by the members of the Geosciences
+   Technical Working Group.
+   After initial development the draft standard document was shared with the Idaho Geospatial
+   Council Executive Committee (IGC-EC) and the Idaho Geospatial Council (IGC) in
+   accordance with the review and approval process described in ITA Policy P5030 Standards
+   Development.
+
+   1.6. Maintenance of the Standard
+
+   This standard will be revised as needed and in accordance with the ITA Policy P5030
+   Standards Development.
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+
+   The scope of the National Soil Survey Derived Data Layers Standard is to describe two
+   statewide layers, one displaying Depth to Restricted Layer and the other displaying Farm
+   Classifications. All data is derived from the National Soil Survey as described in ITA
+   Standard S4260 Soils Dataset Standard.
+
+   2.2. Need
+
+   The National Soil Survey is a key dataset needed for natural resources, conservation,
+   climatologists, agriculture, soil science, engineering, and more. This standard provides easier
+   access to key data tables found in the National Soil Survey.
+
+   National Soil Survey data is needed because planning and analysis of soils data is necessary
+   for natural resource management, conservation, climatologists, agriculture, soil science,
+   engineering, and more.
+
+   2.3. Participation in the Standard Development
+
+   The development of the National Soil Survey Derived Data Layers Data Standard adheres to
+   the ITA Policy P5030 Standards Development. The Geosciences Technical Working Group
+                                                                                                  8
+
+tasked with developing this standard has invited input and comments from private, county,
+state, and federal organizations through Technical Working Group meetings, surveys and
+communications via email and information posted on https://gis.idaho.gov.
+
+As the standard is reviewed in accordance with ITS Policy P5030 requirements, there has
+been opportunity for broad participation and input by stakeholders in the development of this
+standard. The process will be equally broad for input on updates and enhancements to the
+standard. As with all Idaho standards, public review, and comments on the National Soil
+Survey Derived Data Layers Data Standard is encouraged.
+
+2.4. Integration with Other Standards
+
+The National Soil Survey Derived Data Layers Data Standard follows the same format as
+other Idaho geospatial data standards. The National Soil Survey Derived Data Layers
+standard may contain some of the same attributes as other standards and may adopt the field
+name, definition, and domain from the other standards to promote consistency. This standard
+is closely related to ITA Standard S4260 Soils Dataset Standard.
+
+2.5. Technical and Operation Context
+
+   2.5.1. Data Environment
+
+   The data environment is a digital vector polygon with a specific, standardized set of
+   attributes pertinent to the National Soil Survey Derived Data Layers. National Soil
+   Survey Derived Data Layers data shared under this standard must be in a format
+   supporting vector polygons.
+
+   2.5.2. Reference Systems
+
+   The National Soil Survey Derived Data Layers will be published in the WGS 1984 Web
+   Mercator coordinate system to increase interoperability with other datasets shared in a
+   web environment. Data is not required to be submitted in the Idaho Transverse Mercator
+   NAD83 (IDTM83) coordinate system but must have a defined coordinate system clearly
+   described in the metadata.
+
+                                                                                            9
+
+2.5.3. Global Positioning Systems (GPS)
+
+Some data provided might contain geometry from GPS methods, and the provided
+metadata should describe this, if applicable.
+
+2.5.4. Interdependence of Themes
+
+Not applicable
+
+2.5.5. Encoding
+
+When data is imported into and exported from the National Soil Survey Derived Data
+Layers, encoding will take place to convert data formats and attributes. Attributes,
+including those with coded values, are described in the metadata associated with the data
+layers.
+
+2.5.6. Resolution
+
+Vector data is derived by converting a raster with a cell size of 10 meters. Data for
+National Soil Survey of which the data described in this standard is a subset, is collected
+at scales ranging from 1:12,000 to 1:63,360. More details were gathered at a scale of
+1:12,000 than at a scale of 1:63,360.
+
+2.5.7. Accuracy
+
+Not applicable.
+
+2.5.8. Edge Matching
+
+Not applicable.
+
+2.5.9. Unique Identifier
+
+Id
+
+                                                                                          10
+
+      2.5.10. Attributes
+
+      Attributes for public and intergovernmental distribution are described in Section 3 of this
+      standard.
+
+      2.5.11. Stewardship
+
+      Perpetual maintenance and other aspects of lifecycle management are essential to
+      National Soil Survey Derived Data Layers. Data is maintained and updated by the
+      National Resources Conservation Service (NRCS). Annual exports, at the start of the
+      Federal Fiscal year in October, for both described data layers will be derived from the
+      National Soil Survey in cooperation with the Idaho State Soil Scientist housed at the
+      NRCS and hosted at the Data & Spatial Services Office within the Idaho Office of
+      Information Technology Services.
+
+      2.5.12. Records Management and Archiving
+
+      Records are managed and archived by the National Resources and Conservation Service
+      (NRCS). They are reviewed and updated annually at the start of the fiscal year in
+      October.
+
+      2.5.13. Metadata
+
+      The National Soil Survey Derived Data Layers metadata will describe the methods used
+      to update and aggregate the individual National Soil Survey Derived Data Layers
+      including data contributions, processes or crosswalks performed, definition of attributes,
+      and other required information. This metadata will conform to the metadata standards as
+      set out in ITA Standard S4220 Geospatial Metadata.
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+
+   The geometry of the features in National Soil Survey Derived Data Layers is vector
+   polygon.
+
+                                                                                                11
+
+  3.2. Optional Graphic Data Elements
+
+  Not applicable.
+
+  3.3. Standard Attribute Schema
+
+     3.3.1. Depth to Restricted Layer
+    Field Name        Data Type       Length         Description               Examples
+Shape                   Geometry
+                                                  Symbol that
+                                                  uniquely identifies
+                                                  a single occurrence
+                                                  of a particular type   Landcaster Co., NE is
+AREASYMBOL              Text         20           of area.               NE109
+                                                  Map unit key -
+                                                  Identifies the map
+                                                  unit in the soil
+MUKEY                   Text         30           survey.                2397025
+                                                  Depth to any
+                        Long                      restricted layer.
+DEP2ANYRES                                                               201
+
+        3.3.2. Farm Classification
+
+    Field Name           Data Type       Length      Description               Examples
+Shape                   Geometry
+                                                  Symbol that
+                                                  uniquely identifies
+                                                  a single occurrence
+                                                  of a particular type   Landcaster Co., NE is
+AREASYMBOL              Text         20           of area.               NE109
+                                                  Denotes the serial
+                                                  version of the
+                                                  spatial data for a
+SPATIALVER              Double                    soil survey area.      5
+                                                  Symbol used to
+                                                  identify the soil
+                                                  map unit in the soil
+MUSYM                   Text         6            survey.                464
+                                                  Map unit key -
+                                                  Identifies the map
+                                                  unit in the soil
+MUKEY                   Text         30           survey.                2397025
+
+                                                                                             12
+
+                                                      Identification as
+                                                      prime farmland,     Prime farmland if
+                                                      farmland of         protected from
+                                                      statewide           flooding or not
+                                                      importance, or      frequently flooded
+                                                      farmland of local   during the growing
+ FRMLNDCLS               Text           254           importance.         season
+
+   3.4. Data Quality
+
+   Data quality considerations for National Soil Survey Derived Data Layers include:
+        •   All National Soil Survey Derived Data Layers should have National Soil Survey
+            Derived Data Layers IDs.
+
+Appendix A: References
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Standards Development Policy. https://its.idaho.gov/psg/P5030.pdf
+
+Idaho Technology Authority (ITA). Standards S4000 Geographic Information Systems (GIS)
+Data, Category: S4220 Geospatial Metadata. https://its.idaho.gov/psg/S4220.pdf
+
+Idaho Technology Authority (ITA). Standards S4000 Geographic Information Systems (GIS)
+Data, Category: S4260 Soils Dataset. https://its.idaho.gov/psg/S4260.pdf
+
+Soil Survey Staff, Natural Resources Conservation Service, United States Department of
+Agriculture. Web Soil Survey. Available online at https://websoilsurvey.nrcs.usda.gov/.
+
+Appendix B: Glossary
+
+See ITA Guideline G105 - (ITA Glossary of Terms) for definitions.
+
+                                                                                               13

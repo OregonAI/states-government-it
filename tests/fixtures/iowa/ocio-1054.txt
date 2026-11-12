@@ -1,0 +1,60 @@
+                                                                                     STATE OF IOWA
+                                                                                     ​
+
+ K​IM R ​ YNOLDS, G
+      ​ E              ​ ​OVERNOR                                                                     R
+                                                                                                      ​ OBERT VON WOLFFRADT
+ A​DAM G    ​ EGG​,​ L
+          ​ R        ​ ​T. G ​ VERNOR
+                           ​ O                                                                      CHIEF INFORMATION OFFICER
+
+                                 Project Governance IT Governance Policy/Process/Standard
+                                 (“IT Governance Document” ​or ​“IT Governance Document”)
+
+         1.       Overview. ​The CIO and Office are charged with, among other things, facilitating the
+                  organization and management of investment in Information Technology Projects across State
+                  Government; reviewing, evaluating, and making recommendations as it relates to proposed
+                  Information Technology Projects and funding opportunities with the goal of reducing
+                  duplication, sharing resources, and ensuring success across the Enterprise; supporting the
+                  implementation of Project management best practices across State Government to support the
+                  success of Information Technology Projects; and assisting Participating Agencies with the
+                  reporting of Information Technology Project status and completion. To that end, this IT
+                  Governance Document establishes the Processes as to how and when Participating Agencies
+                  are to interact with the CIO and Office in its Project governance/oversight capacity, and the
+                  Standards by which the CIO and Office will make decisions about whether particular Projects
+                  should proceed and under what circumstances or on what conditions.
+
+         2.       Purpose. ​The purpose of this IT Governance Document is to clearly establish and effectuate
+                  the State’s Policy of carrying out Information Technology Projects in an organized manner
+                  designed to achieve desired, pre-defined Project outcomes, on Budget, consistent with the
+                  enterprise strategic plan, and subject to appropriate management/oversight by:
+                 2.1.        Clearly articulating the Processes as to how and when Participating Agencies are to
+                             interact with the CIO and Office in its Project governance/oversight capacity;
+                 2.2.        Establishing the Standards by which the CIO and Office will make decisions about
+                             whether particular Projects should proceed and under what circumstances or on what
+                             conditions.
+
+         3.       Scope/Application. ​This IT Governance Document applies to all Participating Agencies. This
+                  IT Governance Document also applies to the Projects & Investments Subcommittee, the TLG,
+                  the CIO, the Office, and all State Personnel to the extent any of the foregoing is involved in the
+                  administration of this IT Governance Document on behalf of the CIO and the Office.
+
+         4.       Definitions. ​Capitalized terms not defined herein shall have the same meaning as the
+                  corresponding defined term in the following sources, as may be amended from time to time, in
+                  the following priority order: Iowa Code Chapter 8B, Iowa Administrative Code Chapter 129; and
+                  the Information Technology Governance Document Taxonomy (​“Taxonomy”​). In addition to
+                  any other terms specifically defined herein, the following terms, primarily sourced from the
+                  Project Management Institute​ (​“PMI”​), are defined as follows:
+
+                 4.1.        “Approval to Plan” ​means a Justification Form that has been approved by the CIO.
+
+                 4.2.        “Approval to Proceed” ​means a Request to Proceed that has been approved by the
+                             CIO.
+
+HOOVER STATE OFFICE BUILDING, LEVEL B, 1305 E. WALNUT, DES MOINES, IOWA 50319     515.281.5503            ​CIO@IOWA.GOV
+                                                                    1
+
+              4.3.     “Information Technology Contract(s)” ​or “Contract(s)” has the same meaning as
+                       given it in the Taxonomy.
+
+              4.4.     “Information Technology Project(s)​,​” ​“IT Project(s)​,​” ​or ​“Project(s)” ​has the same

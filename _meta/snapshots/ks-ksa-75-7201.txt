@@ -1,0 +1,21 @@
+75-7201. Definitions. As used in K.S.A. 75-7201 through 75-7212, and amendments thereto:
+(a) "Business risk" means the overall level of risk determined by a business risk assessment that includes, but is not limited to, cost, information security and other elements as determined by the information technology executive council's policies or policies adopted by the judicial branch or the legislative coordinating council.
+(b) "Cumulative cost" means the total expenditures, from all sources, for any information technology project by one or more state agencies to meet project objectives from project start to project completion or the date and time the project is terminated if it is not completed.
+(c) "Executive agency" means any state agency in the executive branch of government, including the judicial council but not the elected office agencies.
+(d) "Information technology project" means an information technology effort by a state agency of defined and limited duration that implements, effects a change in or presents a risk to processes, services, security, systems, records, data, human resources or architecture.
+(e) "Information technology project change or overrun" means any change in:
+(1) Planned expenditures for an information technology project that would result in the total authorized cost of the project being increased above the currently authorized cost of such project by more than 10% of such currently authorized cost of such project or an established threshold within the information technology executive council's policies or policies adopted by the judicial branch or the legislative coordinating council;
+(2) the scope or project timeline of an information technology project, as such scope or timeline was presented to and reviewed by the joint committee or the chief information technology officer to whom the project was submitted pursuant to K.S.A. 75-7209, and amendments thereto, that is a change of more than 10% or a change that is significant as determined by the information technology executive council's policies or policies adopted by the judicial branch or the legislative coordinating council; or
+(3) the proposed use of any new or replacement information technology equipment or in the use of any existing information technology equipment that has been significantly upgraded.
+(f) "Joint committee" means the joint committee on information technology.
+(g) "Judicial agency" means any state agency in the judicial branch of government.
+(h) "Legislative agency" means any state agency in the legislative branch of government.
+(i) "Project" means a planned series of events or activities that is intended to accomplish a specified outcome in a specified time period, under consistent management direction within a state agency or shared among two or more state agencies, and that has an identifiable budget for anticipated expenses.
+(j) "Project completion" means the date and time when the head of a state agency having primary responsibility for an information technology project certifies that the improvement being produced or altered under the project is ready for operational use.
+(k) "Project start" means the date and time when a state agency begins a formal study of a business process or technology concept to assess the needs of the state agency, determines project feasibility or prepares an information technology project budget estimate under K.S.A. 75-7209, and amendments thereto.
+(l) "State agency" means any state office or officer, department, board, commission, institution or bureau, or any agency, division or unit thereof.
+History: L. 1998, ch. 182, § 1; L. 2023, ch. 75, § 4; L. 2024, ch. 95, § 16; July 1.
+Revisor's Note:
+CAUTION: Section was further amended by L. 2024, ch. 95, § 17, to be effective on July 1, 2026.
+Cross References to Related Sections:
+Security conditions of employment, persons in data, telecommunications and other security-sensitive facilities, 75-3707e.

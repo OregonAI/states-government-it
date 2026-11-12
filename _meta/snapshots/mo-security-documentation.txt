@@ -1,0 +1,74 @@
+                                                  TTeecchhnnoollooggyy A
+                                                                       Arreeaa
+
+                                                      D
+                                                      DEEFFIIN
+                                                             NIITTIIO
+                                                                    ONN
+Name                       Security Documentation
+                           Security Documentation is a comprehensive collection of information that
+Description                enables the setup and ongoing operation of information technology security.
+                           Security documentation provides evidence that security measures are planned
+Rationale                  and followed during the development, operation, maintenance and recovery of
+                           information systems.
+                           •   Defines ongoing security practices for information technology functions
+                           •   Defines roles and responsibilities
+Benefits                   •   Defines required security functions needed to support statues, laws and
+                               regulations.
+
+                                     A
+                                     ASSSSO
+                                          OCCIIA
+                                               ATTEED
+                                                    DAARRC
+                                                         CHHIITTEEC
+                                                                  CTTU
+                                                                     URREE LLEEVVEELLSS
+List the Domain Name             Security
+List the Discipline Name         Operational Controls
+                                       Associated Compliance Components
+List the Compliance
+                                 •    Minimum System Security Documentation
+Component Names
+                                         Associated Product Components
+List the Product Component
+Names
+                                          TTEEC
+                                              CHHN
+                                                 NOOLLO
+                                                      OGGYY A
+                                                            ARREEA
+                                                                 ADDEETTA
+                                                                        AIILL
+                                 NIST SP 800-18, Guide for Developing Security Plans for Information
+Supporting Documentation
+                                 Technology Systems
+Document Source Reference #      www.csrc.nist.gov/publications/nistpubs
+                                     Standard Organization / Government Body
+                                 National Institute of
+                                 Standards and Technology
+Name                             (NIST), Computer                   Website           http://csrc.nist.gov/
+                                 Security Resource Center
+                                 (CSRC)
+Contact Information              Inquiries@nist.gov
+                                                       KKEEYYW
+                                                             WOORRD
+                                                                  DSS
+                                 Integrity, availability, confidentiality, backup, contingency, procedure,
+List Keywords
+                                 policies, guideline, standard, change management, IT resources.
+                                                 C
+                                                 CUURRRREEN
+                                                          NTT SSTTA
+                                                                  ATTU
+                                                                     USS
+Provide the Current Status           In Development         Under Review             Approved       Rejected
+                                                      A
+                                                      AUUD
+                                                         DIITT TTRRA
+                                                                   AIILL
+Creation Date                    6/22/2006                       Date Accepted / Rejected       7/11/06
+     Reason for Rejection
+Last Date Reviewed                                               Last Date Updated
+
+Reason for Update

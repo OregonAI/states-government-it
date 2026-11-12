@@ -1,0 +1,100 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:      S4266 –Flood Hazard Layers Standard
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide National Flood Hazard Layer and data standard, which is part of the
+   Hazards data theme is a critical source of information for State officials (e.g.,
+   emergency management and water resources), tribal partners, community officials
+   (planners, GIS professionals, emergency managers, engineers), private entities
+   (engineers, surveyors, architects, real estate professionals, lending, and insurance
+   professionals), homeowners, renters, and business owners.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCTS(S)
+
+   Any GIS Software, either desktop or online, capable of ingesting and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+Flood Layers
+
+V. JUSTIFICATION
+       A statewide National Flood Hazard Layer dataset is a critical source of information,
+       as stated under ‘II Rationale’ in this standard. A data exchange standard supports
+       the use of the National Flood Hazard Layer to facility a predictable format, improve
+       collaboration and encourage the use of this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+       Any GIS Software, either desktop or online, capable of ingesting and displaying
+       Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII.     EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+       Data will be shared in accordance with Enterprise Standard S4250 – Enterprise
+       Geographic Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+       The format, content, and development of this standard adhere to ITA Policy P5030 -
+       Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+       Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+       Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+       For more information, contact the ITA Staff at (208) 605-4064.
+
+XI. REVISION HISTORY
+
+       07/24/2025 - Revised for ADA compliance
+
+       07/20/2023 – Standard Presented to the IGC-EC
+
+                                                                                              2
+
+                                  STATE OF IDAHO
+
+  Idaho National Flood Hazard Layers Data Exchange
+                      Standard
+                               Part of the Hazards Theme
+
+                                          Version 1
+                                   Effective July 20, 2023
+
+                    Developed by the Hazards Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4064
+contact@its.idaho.gov
+
+                                                                       3
+
+CONTENTS
+1. 6
+     1.1.   7

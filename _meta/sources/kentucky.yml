@@ -1,0 +1,1420 @@
+# Kentucky seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: the Commonwealth Office of Technology's site (technology.ky.gov:
+# Policies, Procedures, Forms, Executive Orders, Memos, KITS pages and every file they link), the General Assembly's
+# statute chapter pages and section PDFs and its administrative regulation pages (apps.legislature.ky.gov), the Governor's
+# site and the Secretary of State's Executive Journal page.
+sources:
+- id: ky-krs-369-117
+  sha256: "58a40d55fbe7fd95903e427c8594e2cb75f523d5efabbb4aecef81f67c39a4aa"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35216
+  format: pdf
+  citation: KRS 369.117
+  title: Creation and retention of electronic records by governmental agencies -- Conversion of written records by governmental agencies
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39128 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'Creation and retention of electronic records by governmental agencies and conversion of written records (as the caption states): the part of the Uniform Electronic Transactions Act that binds state agencies.'
+- id: ky-krs-369-118
+  sha256: "e43130cf5a30a49189c60f94cedc9674fa0716bf3ab1b54c917fd51590355b30"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35217
+  format: pdf
+  citation: KRS 369.118
+  title: Acceptance and distribution of electronic records by governmental agencies
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39128 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Acceptance and distribution of electronic records by governmental agencies (as the caption states); it has the Commonwealth Office of Technology adopt the standards.
+- id: ky-krs-369-119
+  sha256: "df9bf012267abba9d08b5a463a002c59fdda3ff4175aba4e7374c188cd94ce44"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=35218
+  format: pdf
+  citation: KRS 369.119
+  title: Interoperability
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - data
+  - governance
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=39128 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Lets the Commonwealth Office of Technology, which adopts standards under KRS 369.118(2)(a), promote consistency and interoperability with other governments' requirements.
+- id: ky-krs-1-020
+  sha256: "05da2e2ec9b8339a6e5b0c1718ab2e0a0f9d30003d3a62a76554a1c88454e134"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50299
+  format: pdf
+  citation: KRS 1.020
+  title: Kentucky State Plane Coordinate System
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37024 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'Adopts the Kentucky State Plane Coordinate System and, in subsection (2), charges the Commonwealth Office of Technology (under KRS 42.650, advised by the Geographic Information Advisory Council under KRS 42.740) with establishing and publishing its zones; the authority for 200 KAR 41:010. OWNER DECISION: see KRS 42.650.'
+- id: ky-krs-42-630
+  sha256: "53bd0167a2ea10b96c77c679dd93dcbe3a2be6b13615f4599d4a60bfa295d2fa"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=22078
+  format: pdf
+  citation: KRS 42.630
+  title: Legislative findings
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'The General Assembly''s findings on geographic information systems, calling for a uniform policy and coordinated approach to their use by state agencies; the findings section for KRS 42.650, 42.655 and 42.740 to 42.744. OWNER DECISION: see KRS 42.650.'
+- id: ky-krs-42-650
+  sha256: "da38344c944bd93db3f86d82ae89875a408f50f99c03b65cce197061e16e368b"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53176
+  format: pdf
+  citation: KRS 42.650
+  title: Division of Geographic Information Systems -- Powers and duties -- Authority for administrative regulations
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'Powers and duties of the Division of Geographic Information Systems (as the caption states). OWNER DECISION: geographic information systems are seeded as state data infrastructure of the Commonwealth Office of Technology; the owner may prefer them out of scope.'
+- id: ky-krs-42-655
+  sha256: "1bffa62a6dd751b7d01c7c9db1a4eef2dd388a2d90053e883145311c4d5e5de3"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53175
+  format: pdf
+  citation: KRS 42.655
+  title: Geographic information clearinghouse -- Availability to state agencies -- Administrative regulations
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'The geographic information clearinghouse and its availability to state agencies, with authority for administrative regulations (as the caption states). OWNER DECISION: see KRS 42.650.'
+- id: ky-krs-42-720
+  sha256: "f193833c62e612292dcb6036c7ab9ff3c808515de6724267d2fcb3d689ce3f82"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50006
+  format: pdf
+  citation: KRS 42.720
+  title: Legislative findings
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  - oversight
+  - data
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'The General Assembly''s findings for the Commonwealth Office of Technology (KRS 42.720 to 42.742): the executive director as the Commonwealth''s single point of contact for information technology, government-wide planning, investment, protection and direction of information resources, oversight of large statewide systems and projects, and privacy for citizens.'
+- id: ky-krs-42-722
+  sha256: "9fa12fb971d45f20d07f28497dfa530289aab7f6f752329d5f90fdd42ca33cf9"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55893
+  format: pdf
+  citation: KRS 42.722
+  title: Definitions for KRS 42.720 to 42.742
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Definitions for KRS 42.720 to 42.742, the statutes on the Commonwealth Office of Technology.
+- id: ky-krs-42-724
+  sha256: "7b0746c939f5bf256d61dfd5eb3b134e1991f29dd3185ee8cacda8d0622ceecd"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=51095
+  format: pdf
+  citation: KRS 42.724
+  title: Commonwealth Office of Technology
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'The enabling statute of the Commonwealth Office of Technology: creates it within the Finance and Administration Cabinet, headed by an executive director who is also the chief information officer, and lists its offices and divisions, including the Office of the Chief Information Security Officer.'
+- id: ky-krs-42-726
+  sha256: "6ba01bae163d4ef4ee07bd32637baa45c7a84fd315065e6a8b8113f17d6440ef"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56752
+  format: pdf
+  citation: KRS 42.726
+  title: Roles, duties, and permissible activities for Commonwealth Office of Technology -- Duties of Archives and Records Commission and Department for Libraries and Archives not affected -- Annual report concerning security breaches
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  - oversight
+  - cybersecurity
+  - data
+  - procurement
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'The roles and duties of the Commonwealth Office of Technology: lead organizational entity and single information technology authority for the executive branch, strategic directions, standards and enterprise architecture, technology infrastructure, review and approval of large or complex projects, a coordinated security framework for personal information, regulation authority, and the annual report on security breaches (as its caption states).'
+- id: ky-krs-42-728
+  sha256: "7dc1e3f2f2d92bed8178f37a137133686d3503abe7000f698f1aa751b7a22424"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=50545
+  format: pdf
+  citation: KRS 42.728
+  title: State agencies to assist Commonwealth Office of Technology -- Exceptions for judicial and legislative branches and retirement systems
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Requires organizational units and administrative bodies, and members of the postsecondary system, to assist the Commonwealth Office of Technology, and excludes the judicial and legislative branches and the retirement systems from its authority.
+- id: ky-krs-42-730
+  sha256: "0a48c3653859828b46c233e548bfc53d3321ae6308e71316830f36842a117b60"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=47712
+  format: pdf
+  citation: KRS 42.730
+  title: Executive director of Commonwealth Office of Technology -- Roles and duties
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  - oversight
+  - procurement
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'The executive director of the Commonwealth Office of Technology: principal adviser to the Governor on information technology policy, chief information officer for all executive branch agencies, and the duties of the office, including approving technology acquisition before any procurement.'
+- id: ky-krs-42-731
+  sha256: "da3f45a21cc8d48cb431143461588bc9b221e6b5585afa776a37f5049a095bc7"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=55895
+  format: pdf
+  citation: KRS 42.731
+  title: Duties of Artificial Intelligence Governance Committee -- Duties of Commonwealth Office of Technology regarding artificial intelligence systems -- Establishment of policies and operating standards on use of artificial intelligence by state agencies -- Report -- Administrative regulations
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - ai
+  - governance
+  - data
+  - oversight
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'The statute on state-agency use of artificial intelligence: the Commonwealth Office of Technology creates an Artificial Intelligence Governance Committee to govern use of AI by state departments, agencies and administrative bodies, keeps a registry of generative and high-risk AI systems, requires public disclosure of AI use in decisions about individuals, and directs administrative regulations (see the left_out record on the regulations).'
+- id: ky-krs-42-732
+  sha256: "9f98414eb7482aaf0de8287fd03e315840e7d7f6b75018ef989dcaab064a002d"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=56753
+  format: pdf
+  citation: KRS 42.732
+  title: Kentucky Information Technology Advisory Council -- Purposes -- Members
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Creates the Kentucky Information Technology Advisory Council to advise the executive director of the Commonwealth Office of Technology, and sets its members.
+- id: ky-krs-42-740
+  sha256: "3b8d45bd9d1f6d8d3f37f9d3a3323dbfe122805378f5e5018d45cbeb62ff990b"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=57639
+  format: pdf
+  citation: KRS 42.740
+  title: Geographic Information Advisory Council -- Purpose -- Members -- Conflicts of interest
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'Establishes the Geographic Information Advisory Council, attached to the Commonwealth Office of Technology, to advise its executive director on geographic information and geographic information systems. OWNER DECISION: see KRS 42.650.'
+- id: ky-krs-42-742
+  sha256: "b51fb2e7051ca2c9966732088938d2537e60fd89d215e75916bd8c05ca09e9f3"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53179
+  format: pdf
+  citation: KRS 42.742
+  title: Duties of Geographic Information Advisory Council
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'Duties of the Geographic Information Advisory Council (as the caption states). OWNER DECISION: see KRS 42.650.'
+- id: ky-krs-42-744
+  sha256: "6c189cf4b6cddff902c990270a1afaf09528a0891c2874d330fe8f71e7505d6c"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53180
+  format: pdf
+  citation: KRS 42.744
+  title: Addition of nonlicensed raster-based datasets of publicly funded Kentucky locations to the Geospatial Data Warehouse -- Exceptions -- Confidentiality
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - data
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'Requires entities that create or purchase aerial imagery, LiDAR and other raster datasets with public funds to give a copy to the Commonwealth Office of Technology''s Division of Geographic Information Systems for the secure Geospatial Data Warehouse. OWNER DECISION: see KRS 42.650.'
+- id: ky-krs-45-818
+  sha256: "63c2d0f0f0a87803263a6c9c7825b4d856a3c3445aaf9bd8920621469f1e6e1f"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=22319
+  format: pdf
+  citation: KRS 45.818
+  title: Status report on information technology systems
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - oversight
+  - funding
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37242 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Requires the executive director of the Commonwealth Office of Technology to give the Capital Projects and Bond Oversight Committee a quarterly status report on information technology systems not yet completed that the General Assembly authorized by line item. Seeded although it sits in the budget chapter (45) because the section is about information technology only.
+- id: ky-krs-61-9307
+  sha256: "07f660b1bbd715ace21d502e668d387730d841f195b9728c95c76fe85a8ff366"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=53466
+  format: pdf
+  citation: KRS 61.9307
+  title: Tik Tok application -- Prohibition on use on state-owned networks and devices by executive and legislative branch employees and contractors -- Exceptions
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - cybersecurity
+  - governance
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Bars executive branch employees, agencies and state contractors from using the TikTok application or website on state networks and state-issued devices, directs the Commonwealth Office of Technology to implement controls, and lists exceptions. The section also covers the legislative and judicial branches (subsections 4 to 6); it is seeded whole as published.
+- id: ky-krs-61-931
+  sha256: "2ef9d7b5b746ecfa9867a99f4e547f2da1dea43bb6ea372ef4734742ea9a4071"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=43575
+  format: pdf
+  citation: KRS 61.931
+  title: Definitions for KRS 61.931 to 61.934
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Definitions for KRS 61.931 to 61.934, the personal information security and breach law that binds the executive branch of state government (and local agencies).
+- id: ky-krs-61-932
+  sha256: "67679916e9f238efbbbe3334bf05814bbf464c183f9c78cb57f8a65058f67b1d"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=43576
+  format: pdf
+  citation: KRS 61.932
+  title: Personal information security and breach investigation procedures and practices for certain public agencies and nonaffiliated third parties
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Requires an agency (the executive branch among others) and its nonaffiliated third parties to implement reasonable security and breach investigation procedures and practices for personal information (as the caption states), and to notify under the process set out.
+- id: ky-krs-61-933
+  sha256: "868365d1102a451e10f0ed8da1d442f591d799b1bfc7c27aa141fccdd91f847f"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=43577
+  format: pdf
+  citation: KRS 61.933
+  title: Notification of personal information security breach -- Investigation -- Notice to affected individuals of result of investigation -- Personal information not subject to requirements -- Injunctive relief by Attorney General
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'Notification of a personal information security breach: investigation, and notice to affected individuals and to state officials, by agencies and nonaffiliated third parties (as the caption states).'
+- id: ky-krs-61-980
+  sha256: "3579e2f99d75f608255465cae9c80851dfa5eaa7d405c35ec5e8b861d01217d2"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=23111
+  format: pdf
+  citation: KRS 61.980
+  title: Definitions for KRS 61.980 to 61.988
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - digital-services
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Definitions for KRS 61.980 to 61.988, the access requirements for state information technology (access for individuals with disabilities).
+- id: ky-krs-61-982
+  sha256: "19edc931039ee000d7cb1336baecf5844c2780d76abd6b861c4c375803330835"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=23112
+  format: pdf
+  citation: KRS 61.982
+  title: Access requirements for state information technology equipment and software
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - digital-services
+  - procurement
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: Requires the head of each covered entity to ensure that information technology equipment and software give individuals with disabilities equivalent access and were bought under a contract with the technology access clause.
+- id: ky-krs-61-984
+  sha256: "fcd4375bd1c7bf2cbd6b4ebee0222c10862f79d12fddc7e9d7dcce592d495016"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=23113
+  format: pdf
+  citation: KRS 61.984
+  title: Procurement of information technology -- Technology access contract clause -- Alternative and nonvisual access standards
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - digital-services
+  - procurement
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: 'Procurement of information technology: the technology access contract clause and alternative and nonvisual access standards (as the caption states).'
+- id: ky-krs-61-986
+  sha256: "a1f6989050c92a670e53d83a2bfde3c2470ad6cc26d521838bd49ae56a73dff5"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=23114
+  format: pdf
+  citation: KRS 61.986
+  title: Exclusion of technology access clause -- Conditions -- Exempting from access requirements -- Compliance of existing equipment or software
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - digital-services
+  - procurement
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: When the technology access clause may be excluded, and how existing equipment or software is exempted or must comply (as the caption states).
+- id: ky-krs-61-988
+  sha256: "77cd639361a17c910ae96f941056c3fffdf9a1a417115062663b554e94b4882d"
+  url: https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=23115
+  format: pdf
+  citation: KRS 61.988
+  title: Action for injunctive relief for injury due to violation of KRS 61.980 to 61.988
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Kentucky General Assembly
+  tags:
+  - digital-services
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294 (the chapter page lists each section with its statute.aspx link)
+  why_relevant: An action for injunctive relief for injury due to a violation of KRS 61.980 to 61.988 (as the caption states).
+- id: ky-200-kar-1-016
+  sha256: "eb684745642e850aace43b77d945d7d25b9ad3c21c5fe7180230838160ac16d4"
+  url: https://apps.legislature.ky.gov/law/kar/downloads/docs/13519/document.engrossed.pdf
+  format: pdf
+  citation: 200 KAR 1:016
+  title: Data breach notification forms
+  doc_type: rule
+  jurisdiction: kentucky
+  issuing_body: Finance and Administration Cabinet, Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/kar/titles/200/001/016/ (the regulation page, status Current; its "Download PDF (.pdf)" link; the page is reached by the pattern /law/kar/titles/<title>/<chapter>, not from a link on titles.htm)
+  why_relevant: 'The only current regulation of the Commonwealth Office of Technology on the Title 200 chapter list: requires state agencies and nonaffiliated third parties to complete Finance Form FAC-001 (suspected and determined breach notification) and FAC-002 (delay notification record) under KRS 61.932 and 61.933. The two forms are incorporated by reference and are not part of this text. The page prints a seven-year expiration of 1/3/2030.'
+- id: ky-200-kar-41-010
+  sha256: "fe3ae5488eb73f13b5388b2b66fa78caa0cd42553b207c1a871083b2d36249d1"
+  url: https://apps.legislature.ky.gov/law/kar/downloads/docs/13777/document.engrossed.pdf
+  format: pdf
+  citation: 200 KAR 41:010
+  title: The Kentucky State Plane Coordinate System
+  doc_type: rule
+  jurisdiction: kentucky
+  issuing_body: Finance and Administration Cabinet, Commonwealth Office of Technology
+  tags:
+  - data
+  - cloud-resilience
+  recheck: monthly
+  found_via: https://apps.legislature.ky.gov/law/kar/titles/200/041 (the chapter page, status Current) and https://apps.legislature.ky.gov/law/kar/titles/200/041/010 (the regulation page; its Download PDF link; the page is reached by the pattern /law/kar/titles/<title>/<chapter>, not from a link on titles.htm)
+  why_relevant: 'An administrative regulation of the Division of Geographic Information Systems within the Commonwealth Office of Technology, promulgated under KRS 42.650(5) and 1.020(2): defines and sets the zones, datums and conversion constants of the Kentucky State Plane Coordinate System. Status Current. OWNER DECISION: see KRS 42.650; it is a geodetic mapping standard, and the owner may prefer it out of scope as a survey standard rather than state IT.'
+- id: ky-eo-2012-880
+  sha256: ''
+  url: https://technology.ky.gov/Executive%20Orders/Executive%20Order%202012-880.pdf
+  format: pdf
+  citation: Executive Order 2012-880
+  title: Regarding the Centralization of Information Technology Infrastructure Resources Across the Commonwealth
+  doc_type: executive_order
+  jurisdiction: kentucky
+  issuing_body: Governor of Kentucky
+  tags:
+  - governance
+  - cloud-resilience
+  - cybersecurity
+  recheck: monthly
+  found_via: https://technology.ky.gov/Pages/Executive-Orders.aspx (COT's own list; "Received and Filed" 10/23/2012)
+  why_relevant: 'Governor Beshear''s order of October 23, 2012, effective November 1, 2012, moving executive branch agencies from decentralized to centralized provision of information technology infrastructure services under the Commonwealth Office of Technology. It is an image-only scan. OWNER DECISION: its status today is not stated on the page that lists it; KRS 42.726 now gives the Office the infrastructure role by statute.'
+  stub: true
+  stub_reason: 'An image-only scan (6 pages, pdftotext finds no text on any page), so it needs the two-engine OCR procedure, and that procedure refused it on 2026-11-12: tesseract and PaddleOCR agree on the words but on only 89% of the 31 figures (the bar is 90%), so the numbers (dates, citations) are contested and the reading cannot be promoted. Becomes a document when a text copy is published or the scan is re-read by a better engine. Source: the file COT''s Executive Orders page links.'
+
+- id: ky-cio-050
+  sha256: "370994d289463a594888e299204d5de407e3940704e7169b76ae52e0f42553b9"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-050%20Enterprise%20Procurement%20of%20IT%20Assets%20Policy.pdf
+  format: pdf
+  citation: CIO-050
+  title: CIO-050 Enterprise Procurement of Information Technology Assets
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - procurement
+  recheck: monthly
+  identity_text: 'CIO-050: Enterprise Procurement of Information Technology'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-050 Enterprise Procurement of Information Technology Assets'' (type Policy): The policy''s Purpose section reads: ''The purpose of this policy is to describe responsibilities and processes regarding the procurement, ownership, and tracking of information technology (IT) assets.'''
+- id: ky-cio-051
+  sha256: "1529d5156c3bec54dd0f25323adf922e147d619a6400206e84628f00cfe01e65"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-051%20IT%20Information%20Technology%20Standards%20Policy.pdf
+  format: pdf
+  citation: CIO-051
+  title: CIO-051 IT Information Technology Standards Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 'CIO-051: Information Technology Standards'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-051 IT Information Technology Standards Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes the requirements for the development and maintenance of Kentucky Information Technology Standards (KITS). This policy also provides guidance in decision making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-058
+  sha256: "913964215a76d8f3a2c42694dfec0ca9d9e8832f7b038d0b0af7e402db84bad6"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-058%20Commonwealth%20Data%20Center%20IT%20Equipment%20Room%20Physical%20Access.pdf
+  format: pdf
+  citation: CIO-058
+  title: CIO-058 Commonwealth Data Center IT Equipment Room Physical Access
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 'CIO-058: Commonwealth Data Center IT Equipment Room Physical Access'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-058 Commonwealth Data Center IT Equipment Room Physical Access'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to physical access to the Commonwealth Data Center (CDC) and Commonwealth Alternate Data Center (ADC) information technology (IT) equipment rooms. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment. Specifically, the policy ensures physical access is reviewed and implemented in a rational and predictable manner to increase efficiency and minimize the impact of change-related incidents upon service quality.'''
+- id: ky-cio-059
+  sha256: "8f251781946041843db7cd66e51ae025926f026e826c3b5082aef0da74184783"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-059%20Equipment%20Installation%20and%20Removal%20at%20Commonwealth%20Data%20Centers.pdf
+  format: pdf
+  citation: CIO-059
+  title: CIO-059 Equipment Installation and Removal at Commonwealth Data Centers
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 'CIO-059: Equipment Installation and Removal at Commonwealth Data Centers'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-059 Equipment Installation and Removal at Commonwealth Data Centers'' (type Policy):'
+- id: ky-cio-060
+  sha256: "1948ee82aaffd3423438a51bcd009b4dc84ac4218154039fcd4f27297aba46b2"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-060%20Acceptable%20Use%20Policy.pdf
+  format: pdf
+  citation: CIO-060
+  title: CIO-060 Acceptable Use Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-060: Acceptable Use Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-060 Acceptable Use Policy'' (type Policy):'
+- id: ky-cio-061
+  sha256: "e17a799cd3e7f9be7df53cd9068e0ad1da895e07d417da93d830b52c556c1ec4"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-061%20Social%20Media%20Policy.pdf
+  format: pdf
+  citation: CIO-061
+  title: CIO-061 Social Media Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: 'CIO-061: Social Media Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-061 Social Media Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Commonwealth Office of Technology (COT) Enterprise requirements for Social Media use. The policy provides guidance in decision- making and practices that optimize resources, mitigate project risk, and maximize return on investments.'''
+- id: ky-cio-071
+  sha256: "f502ec523df6f5f8bb808f79744376d9f9abaecc010324e41dd0f50d5db8b3fd"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-071%20Wireless%20Voice%20and%20Data%20Services%20Policy.pdf
+  format: pdf
+  citation: CIO-071
+  title: CIO-071 Wireless Voice and Data Services Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: 'CIO-071: Wireless Voice and Data Services Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-071 Wireless Voice and Data Services Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Wireless Voice and Data Services. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-072
+  sha256: "d367da479df3fd64f692b4bb95aeb7ee1248be10980608c0c3529594043f5791"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-072%20IT%20Access%20Control%20and%20User%20Access%20Management%20Policy.pdf
+  format: pdf
+  citation: CIO-072
+  title: CIO-072 IT Access Control and User Access Management Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-072: IT Access Control and User Access Management Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-072 IT Access Control and User Access Management Policy'' (type Policy):'
+- id: ky-cio-073
+  sha256: "6018e963e669e689bea43a0ba1fc708f28d02835248973ececbeb2b02d48b0e4"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-073%20Anti-Virus%20Policy.pdf
+  format: pdf
+  citation: CIO-073
+  title: CIO-073 Anti-Virus Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-073: Anti-Virus Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-073 Anti-Virus Policy'' (type Policy): The policy''s Purpose section reads: ''This policy supports security best practices, standards, and guidelines that must be followed to protect Commonwealth-owned devices from malware.'''
+- id: ky-cio-074
+  sha256: "a731b5fa04c8d8e4a916e072e8cd0d922fdd03030f980ad818f4fcac2b0bd3f1"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-074%20Enterprise%20Network%20Security%20Architecture%20Policy.pdf
+  format: pdf
+  citation: CIO-074
+  title: CIO-074 Enterprise Network Security Architecture Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-74: Enterprise Network Security Architecture Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-074 Enterprise Network Security Architecture Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Network Security Architecture.'''
+- id: ky-cio-076
+  sha256: "762e82963f5ab729d99a141a1a4eca8a1395edc28ed935873e513d9dd6fbf190"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-076%20Firewall%20and%20VPN%20Administration%20Policy.pdf
+  format: pdf
+  citation: CIO-076
+  title: CIO-076 Firewall and VPN Administration Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-076: Firewall and Virtual Private Network Administration Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-076 Firewall and VPN Administration Policy'' (type Policy): The policy''s Purpose section reads: ''The integrity of the Commonwealth of Kentucky’s network must be protected to ensure uncompromised IT services for all connected agencies. The administration of firewalls and virtual private networks (VPN) are a primary component in securing the infrastructure and must conform to the specifications below.'''
+- id: ky-cio-078
+  sha256: "ed6b25497bf87223f53101c6e0ac5476c6de49c5f373bc0895ee177aa99f8b97"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-078%20Wireless%20LAN%20Policy.pdf
+  format: pdf
+  citation: CIO-078
+  title: CIO-078 Wireless LAN Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-078: Wireless LAN Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-078 Wireless LAN Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to the security and data integrity measures required for secure wireless Local Area Network installations within the state’s intranet zone to balance the interests of the various stakeholders and increase business value for all parties. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-084
+  sha256: "a6fd8ae3035dc4e434697d29b8ace27fc11773f946f0e6ff6dab245f4584d6b1"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-084%20E-mail%20Review%20Request.pdf
+  format: pdf
+  citation: CIO-084
+  title: CIO-084 E-mail Review Request Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  - data
+  recheck: monthly
+  identity_text: 'CIO-084: E-mail Review Request Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-084 E-mail Review Request Policy'' (type Policy): The policy''s Purpose section reads: ''The Commonwealth Office of Technology (COT), Office of the Chief Information Security Officer (CISO), is responsible for establishing procedures for agencies to follow when requesting a review of a staff member’s e-mail account.'''
+- id: ky-cio-085
+  sha256: "53ceef20a091c6006b802e4aebadc2ecdaa7227ad309fea2c5f1529757fae117"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-085%20Authorized%20Agency%20Contacts.pdf
+  format: pdf
+  citation: CIO-085
+  title: CIO-085 Authorized Agency Contacts
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: 'CIO-085: Authorized Agency Contacts Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-085 Authorized Agency Contacts'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Authorized Agency Contacts. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-090
+  sha256: "22b8f526673397023f882faa200491138c47c384601effc2301d72b98ff4379f"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-090%20Information%20Security%20Incident%20Response%20Policy.pdf
+  format: pdf
+  citation: CIO-090
+  title: CIO-090 Information Security Incident Response Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-090: Incident Response Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-090 Information Security Incident Response Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to the Commonwealth’s Information Security Incident Response program. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-091
+  sha256: "b78d1c1e2b964d698a72237df6258bb583fd5d9a50b704ceb3553dd5e8ac7b23"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-091%20Enterprise%20Information%20Security%20Program.pdf
+  format: pdf
+  citation: CIO-091
+  title: CIO-091 Enterprise Information Security Program Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-091: Enterprise Information Security Program Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-091 Enterprise Information Security Program Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes the Commonwealth’s Enterprise Information Security Program.'''
+- id: ky-cio-092
+  sha256: "292ce0a398fc7c5e77b64fd457e717da3083298cf578429850b9410ac8ca3efe"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-092%20Media%20Protection%20Policy.pdf
+  format: pdf
+  citation: CIO-092
+  title: CIO-092 Media Protection Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  - data
+  recheck: monthly
+  identity_text: 'CIO-092: Media Protection Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-092 Media Protection Policy'' (type Policy): The policy''s Purpose section reads: ''This policy ensures proper provisions are in place to protect information stored on media, both digital and non-digital, throughout the media’s useful life until its sanitization or destruction. This policy identifies the family of controls for Media Protection (MP) as defined in NIST Special Publication 800-53 Rev 5.'''
+- id: ky-cio-093
+  sha256: "5ddc013cf485a2348bee8af407e6c6f118ccf3c169e7ad8343833e70a2e8eaf2"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-093%20Risk%20Assessment%20Policy.pdf
+  format: pdf
+  citation: CIO-093
+  title: CIO-093 Risk Assessment Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-093: Risk Assessment Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-093 Risk Assessment Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Risk Assessment. The controls outlined below detail the measures that must be implemented to protect Commonwealth information technology systems from the likelihood of avoidable threat or risk events and the consequences thereof. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-101
+  sha256: "b7a95c1c5a60f0b976152b99d0362b8d51d40747581bf263f43219372fe3dcc4"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO%E2%80%93101%20Information%20Technology%20%28IT%29%20Change%20Management.pdf
+  format: pdf
+  citation: CIO-101
+  title: CIO-101 Information Technology (IT) Change Management
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - oversight
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 'CIO-101: Information Technology (IT) Change Management'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-101 Information Technology (IT) Change Management'' (type Policy): The policy''s Purpose section reads: ''This policy establishes the need for processes related to Information Technology (IT) Change Management. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-102
+  sha256: "011d9739e227c6cecc2516da252a12ebdeaf9d58ba22ac5998b3d299494cfcc2"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-102%20Technology%20Sunset%20Policy.pdf
+  format: pdf
+  citation: CIO-102
+  title: CIO-102 Technology Sunset Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - oversight
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 'CIO-102: Technology Sunset Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-102 Technology Sunset Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls addressing the sunsetting of technology. The controls provide guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investments.'''
+- id: ky-cio-103
+  sha256: "335cff0cf1a9efcfc0086402e58c5985d7e7e3196b9143c4438ea86f5f77847e"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-103%20Independent%20Verification%20and%20Validation%20Policy.pdf
+  format: pdf
+  citation: CIO-103
+  title: CIO-103 Independent Verification and Validation Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - oversight
+  recheck: monthly
+  identity_text: 'CIO-103: Independent Verification and Validation Policy (IV&V)'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-103 Independent Verification and Validation Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to the management of information technology (IT) projects within the executive branch of the Commonwealth. The controls provide guidance in decision-making and practices that optimize resources, mitigate project risk, and maximize return on investments.'''
+- id: ky-cio-104
+  sha256: "70888e32da181b3acde40cf0b5fdd1003aa80e7b91348727947d386f4667d7ec"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-104%20Configuration%20Management%20Policy.pdf
+  format: pdf
+  citation: CIO-104
+  title: CIO-104 Configuration Management Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 'CIO-104: Configuration Management Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-104 Configuration Management Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to configuration management. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-105
+  sha256: "71fced31101808dcbe3dd38ee1af657c0d6bfc90aa8676619e64d0adcf258803"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-105%20System%20and%20Information%20Integrity%20POLICY.pdf
+  format: pdf
+  citation: CIO-105
+  title: CIO-105 System and Information Integrity Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-105: System and Information Integrity Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-105 System and Information Integrity Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to system and information integrity. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-106
+  sha256: "6c6bc6fe5678804aa88770f7c667d59691e9cfa430f0368ddf98c88a9117684c"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-106%20Enterprise%20Privacy%20Policy.pdf
+  format: pdf
+  citation: CIO-106
+  title: CIO-106 Enterprise Privacy Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - data
+  recheck: monthly
+  identity_text: 'CIO-106: Enterprise Privacy Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-106 Enterprise Privacy Policy'' (type Policy): The policy''s Purpose section reads: ''This policy provides a structured set of principles for protecting privacy and serves as a roadmap for agencies to use in identifying and implementing privacy principles for the entire life cycle of Personal Information (PI), whether in paper or electronic form.'''
+- id: ky-cio-107
+  sha256: "7362da11489dc09830a01f11b9a8aeb08a9d4e81bd01d9a4a3ef4c0765879967"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-107%20Enterprise%20Managed%20Print%20Services%20Policy.pdf
+  format: pdf
+  citation: CIO-107
+  title: CIO-107 Enterprise Managed Print Services Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: 'CIO-107: Enterprise Managed Print Services Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-107 Enterprise Managed Print Services Policy'' (type Policy): The policy''s Purpose section reads: ''This policy provides a structured set of principles for Enterprise Managed Print Services (MPS). The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investments.'''
+- id: ky-cio-108
+  sha256: "f6802ac715b15919c2abbe2537f21d681a3e8aee5aea14756febffeba73e9f6d"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-108%20Proof%20of%20Concept%20and%20Pilot%20Policy%20Project.pdf
+  format: pdf
+  citation: CIO-108
+  title: CIO-108 Proof of Concept and Pilot Project Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - oversight
+  recheck: monthly
+  identity_text: 'CIO-108: Proof of Concept and Pilot Project Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-108 Proof of Concept and Pilot Project Policy'' (type Policy):'
+- id: ky-cio-110
+  sha256: "f0188ad4a027de7832727881ddb30a0ddba0c11cb6e095380cb6c36e00ac41d0"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-110%20Enterprise%20Data%20Management%20Policy.pdf
+  format: pdf
+  citation: CIO-110
+  title: CIO-110 Enterprise Data Management Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - data
+  recheck: monthly
+  identity_text: 'CIO-110: Enterprise Data Management Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-110 Enterprise Data Management Policy'' (type Policy): The policy''s Purpose section reads: ''This document establishes policies related to the management and sharing of the Commonwealth’s enterprise data resources. The policy provides guidance in decision- making and identifies best practices that encourage sharing, optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-111
+  sha256: "a3a83416e2a49d126320847ae85976d2e67875315319b4f9a3547103117582bf"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-111%20Software%20Development%20Life%20Cycle%20Policy.pdf
+  format: pdf
+  citation: CIO-111
+  title: CIO-111 Software Development Life Cycle Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - oversight
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 'CIO-111: Software Development Life Cycle Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-111 Software Development Life Cycle Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls addressing the approach to software development. The controls provide guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investments.'''
+- id: ky-cio-112
+  sha256: "9635700f5cceba7bab5688d3e4253a28a8fc86df9470261c88a8ad2726abeb54"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-112%20Security%20Planning%20Policy.pdf
+  format: pdf
+  citation: CIO-112
+  title: CIO-112 Security Planning Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-112: Security Planning Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-112 Security Planning Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to security planning. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-113
+  sha256: "8dc1c8f7246ccb9ea1bab02c65a71bfbf1ddbc87d6a0c2d56990e0ced3f6f09f"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-113%20Contingency%20Planning%20Policy.pdf
+  format: pdf
+  citation: CIO-113
+  title: CIO-113 Contingency Planning Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  recheck: monthly
+  identity_text: 'CIO-113: Contingency Planning Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-113 Contingency Planning Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Contingency Planning. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-114
+  sha256: "34816f22e1042fc02be25410b6b7ea040b2b37a8bd983086095f03ca465212cc"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-114%20System%20Maintenance%20Policy.pdf
+  format: pdf
+  citation: CIO-114
+  title: CIO-114 System Maintenance Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-114: System Maintenance Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-114 System Maintenance Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to maintenance of the Commonwealth of Kentucky’s information systems. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-115
+  sha256: "b0dd023d38043380ff4e20eda89db190ccbd207977376c4da0e5aaa1e5051815"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-115%20Physical%20and%20Environmental%20Protection.pdf
+  format: pdf
+  citation: CIO-115
+  title: CIO-115 Physical and Environmental Protection
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-115: Physical and Environmental Protection Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-115 Physical and Environmental Protection'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Physical and Environmental Protection. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-116
+  sha256: "2ef613bfc39570253dce1a74e15f9031fce6e9cefd408e22d96c4e0ede4bbe3d"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-116%20Personnel%20Security%20POLICY.pdf
+  format: pdf
+  citation: CIO-116
+  title: CIO-116 Personnel Security Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-116: Personnel Security Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-116 Personnel Security Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Personnel Security. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-117
+  sha256: "e8ee721ddc52dd159ad7044a23c2f4019452ae2cf6dca4cba8d3d2bbbbd839d0"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-117%20System%20and%20Services%20Acquisition.pdf
+  format: pdf
+  citation: CIO-117
+  title: CIO-117 System and Services Acquisition Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  identity_text: 'CIO-117: System and Services Acquisition Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-117 System and Services Acquisition Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to System and Services Acquisition. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-118
+  sha256: "d069f00d1cb311d6e14899d62b5fbc5dfe76819bc41631db802179f5f578fc8d"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-118%20System%20and%20Communications%20Protection.pdf
+  format: pdf
+  citation: CIO-118
+  title: CIO-118 System and Communications Protection
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-118: System and Communications Protection'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-118 System and Communications Protection'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to system and communications protection. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-119
+  sha256: "5076a3baeb608701981af1c818f17337b2210894852a23d59e90bceb5340cae5"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-119%20Audit%20and%20Accountability%20Policy.pdf
+  format: pdf
+  citation: CIO-119
+  title: CIO-119 Audit and Accountability Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-119: Audit and Accountability Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-119 Audit and Accountability Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to auditing and accountability. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-120
+  sha256: "bb99664db93c290f169662608fea694cd400171ec6908aa0b26c1f7092fca03a"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-120%20Security%20Assessment%20and%20Authorization%20Policy.pdf
+  format: pdf
+  citation: CIO-120
+  title: CIO-120 Security Assessment and Authorization Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-120: Security Assessment and Authorization Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-120 Security Assessment and Authorization Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to security assessment and authorization. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-121
+  sha256: "bff2b9292844c05fb55563dacba7a59e194f524cdc43f71eee251d6337ded68f"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-121%20Security%20Awareness%20and%20Training%20Policy.pdf
+  format: pdf
+  citation: CIO-121
+  title: CIO-121 Security Awareness and Training Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-121: Security Awareness and Training Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-121 Security Awareness and Training Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to security awareness and training. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-122
+  sha256: "f6e856f0a5b30a236c996659cf6876f601b5c863d8a606ddf03a2bd42efb9e33"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-122%20Enterprise%20Document%20Management%20Policy.pdf
+  format: pdf
+  citation: CIO-122
+  title: CIO-122 Enterprise Document Management Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - data
+  recheck: monthly
+  identity_text: 'CIO-122: Enterprise Document Management Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-122 Enterprise Document Management Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes a set of controls related to enterprise document management, including associated standards and supporting guidelines. The policy''s chief focus is the creation of executive branch agency-specific Document Management Plans. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-123
+  sha256: "58188a4bdbbcc15ed40bb0f1f84c0bc49cefa9559de3c1dfd8bb3342fcc27bc4"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-123%20Identification%20and%20Authentication%20Policy.pdf
+  format: pdf
+  citation: CIO-123
+  title: CIO-123 Identification and Authentication Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  - digital-services
+  recheck: monthly
+  identity_text: 'CIO-123: Identification and Authentication Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-123 Identification and Authentication Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to identification and authentication. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-124
+  sha256: "da998f12f0a7cd3f81ad4b656e5548fe93fd818291c117818d4bd0b66e7d1bfa"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-124%20Commonwealth%20Asset%20Warehouse%20Physical%20Access%20Policy.pdf
+  format: pdf
+  citation: CIO-124
+  title: CIO–124 Commonwealth Asset Warehouse Physical Access Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'CIO-124: Commonwealth Asset Warehouse Physical Access Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO–124 Commonwealth Asset Warehouse Physical Access Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to physical access to the Commonwealth Asset Warehouse. This policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment. Specifically, the policy ensures physical access is reviewed and implemented in a rational and predictable manner to increase efficiency and minimize the impact of change-related incidents upon service quality.'''
+- id: ky-cio-125
+  sha256: "2de2b5907087b5fdb7132a5dfc7add4ec758fef8cbba378e195a5fa2fbb4103a"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-125%20Supply%20Chain%20Risk%20Management%20Policy.pdf
+  format: pdf
+  citation: CIO-125
+  title: CIO-125 Supply Chain Risk Management Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  - procurement
+  recheck: monthly
+  identity_text: 'CIO-125: Supply Chain Risk Management Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-125 Supply Chain Risk Management Policy'' (type Policy): The policy''s Purpose section reads: ''This policy establishes controls related to Supply Chain Risk Management. The policy provides guidance in decision-making and practices that optimize resources, mitigate risk, and maximize return on investment.'''
+- id: ky-cio-126
+  sha256: "867c9beccf4d804840e2c2cc2101d8b56a71c4b7121f3aa7885ea28c099a2e97"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-126%20Artificial%20Intelligence%20Policy.pdf
+  format: pdf
+  citation: CIO-126
+  title: CIO-126 Artificial Intelligence Policy
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - ai
+  - data
+  - governance
+  recheck: monthly
+  identity_text: 'CIO-126: Artificial Intelligence Policy'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''CIO-126 Artificial Intelligence Policy'' (type Policy): The policy''s Purpose section reads: ''The purpose of this policy is to outline the acceptable uses of generative artificial intelligence (AI) for executive branch employees of the government of the Commonwealth of Kentucky. The policy is created to govern the approved uses of generative AI and protect the safety, privacy, and intellectual property rights of the data of the Commonwealth of Kentucky.'''
+- id: ky-ent-101
+  sha256: "3b441b7d0a3f47fa8196f551d763d7b20e431bf5abcc6681e21b4800ed034ed7"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-101%20Enterprise%20Data%20Classification%20Standard.pdf
+  format: pdf
+  citation: ENT-101
+  title: ENT-101 Enterprise Data Classification Standard
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - data
+  recheck: monthly
+  identity_text: 'ENT-101: Enterprise Data Classification Standard'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''ENT-101 Enterprise Data Classification Standard'' (type Standards):'
+- id: ky-ent-102
+  sha256: "17076fbf5505f9cb01647ff14e8b45030713e349841034564dcfdd39ed2d4aaa"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-102%20Enterprise%20Data%20Classification%20Process.pdf
+  format: pdf
+  citation: ENT-102
+  title: ENT-102 Enterprise Data Classification Process
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - data
+  recheck: monthly
+  identity_text: 'ENT-102: Enterprise Data Classification Process'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''ENT-102 Enterprise Data Classification Process'' (type Standards):'
+- id: ky-ent-103
+  sha256: "15abcc925e4a511790ebb34f588031b92d7e4b6efdcb245aa58f3a05c4f8c6d0"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-103%20Enterprise%20Digitization%20Standards.pdf
+  format: pdf
+  citation: ENT-103
+  title: ENT-103 Enterprise Digitization Standards
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - data
+  - digital-services
+  recheck: monthly
+  identity_text: 'ENT-103: Enterprise Digitization Standard'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''ENT-103 Enterprise Digitization Standards'' (type Standards):'
+- id: ky-ent-201
+  sha256: "b5396791620bf7fd602e38541fdcd75f399498389c6a035f66688941b1263442"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-201%20Enterprise%20Security%20Controls%20and%20Best%20Practices.pdf
+  format: pdf
+  citation: ENT-201
+  title: ENT-201 Enterprise Security Controls and Best Practices
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: 'ENT-201: Enterprise Security Controls and Best Practices'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''ENT-201 Enterprise Security Controls and Best Practices'' (type Standards):'
+- id: ky-ent-301
+  sha256: "d1bff66a72c41cfb0781dc69c6ef6eb864bd151b82c0a81fe9048b7f1569aaf7"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-301%20Acceptable%20Use%20and%20Social%20Media%20Guidelines.pdf
+  format: pdf
+  citation: ENT-301
+  title: ENT-301 Acceptable Use and Social Media Guidelines
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  identity_text: 'ENT-301: Enterprise Document Acceptable Use and Social Media Guidelines'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''ENT-301 Acceptable Use and Social Media Guidelines'' (type Standards):'
+- id: ky-ent-302
+  sha256: "af771d80d4e569c5d0fff6b4895cf21e30329c7d56bbf6a2d40f907779d8dc3d"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-302%20Enterprise%20Digitization%20Guidelines%20and%20Best%20Practices.pdf
+  format: pdf
+  citation: ENT-302
+  title: ENT-302 Enterprise Digitization Guidelines and Best Practices
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - data
+  recheck: monthly
+  identity_text: 'ENT-302: Enterprise Digitization Guidelines and Best Practices'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''ENT-302 Enterprise Digitization Guidelines and Best Practices'' (type Standards):'
+- id: ky-ent-303
+  sha256: "9cb31c10f05432e5aaaebebc21bdcfaaf9cecc48851b94e096b824018b574dda"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-303%20Enterprise%20Document%20Storage%20Guidelines%20and%20Best%20Practices.pdf
+  format: pdf
+  citation: ENT-303
+  title: ENT-303 Enterprise Document Storage Guidelines and Best Practices
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - data
+  recheck: monthly
+  identity_text: 'ENT-303: Enterprise Document Storage Guidelines and Best Practices'
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  why_relevant: 'Listed on COT''s Policies pageas ''ENT-303 Enterprise Document Storage Guidelines and Best Practices'' (type Standards): Sorry, there are no results matching your keyword or filters. Please try a different keyword or remove a filter. Main Content ​​​​​​​​​​​​​​​​​​​​​ Services Rates Policies Procedures Forms FAQs Here to Help Commonwealth Service Desk: (502) 564‑7576 Main Line: (502) 564‑1201 Send an Email Submit a Ticket KY Finance and Administration Cabinet Commonwealth Office of Technology 101 Cold Harbor Drive Frankfort, KY 40601 © 2026 Commonwealth of Kentucky. All Rights Reserved. <a href="https://'
+- id: ky-agency-incident-response-guidelines
+  sha256: "a48ffcc75e9a78158a0843917dbf5594de31e120825d3ff3c3cd68fd76d4a88f"
+  url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/Agency%20Incident%20Response%20Guidelines.pdf
+  format: pdf
+  citation: Agency Incident Response Guidelines
+  title: Agency Incident Response Guidelines
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  identity_text: Agency Incident Response Guidelines Commonwealth of Kentucky
+  found_via: https://technology.ky.gov/policies-and-procedures/Pages/procedures.aspx
+  why_relevant: 'Listed on COT''s Policies page (procedures page)as ''Agency Incident Response Guidelines'' (type Standards):'
+- id: ky-kits-library
+  sha256: "9c1de3b1e65bca2820ee41a5a797510a376e9b0dad3125a49913ce481fe5a18b"
+  url: https://technology.ky.gov/about-the-agency/Documents/KITS_Report.pdf
+  format: pdf
+  citation: KITS
+  title: Kentucky Information Technology Standards (KITS) library export
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  - cloud-resilience
+  recheck: monthly
+  identity_text: If you are unsure whether there is an existing standard that addresses your request
+  found_via: https://technology.ky.gov/about-the-agency/Pages/kits.aspx (the "KITS Library" link)
+  why_relevant: 'The statewide technology standards library, which COT''s KITS page says is a PDF export of the whole library, searchable for any product or technology: each row has an enterprise architecture standards code, category, the standard, its KITS category and hierarchy, a description and approved products. The file is titled ''KITS Export'' and prints its export date on each page. OWNER DECISION: a 55-page table, seeded as one standard because the official source serves the library only as this export; its text layout is the table as pdftotext prints it.'
+- id: ky-watch-cot-policies
+  sha256: ''
+  url: https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx
+  format: html
+  citation: 'COT page: Policies'
+  title: 'COT: Policies (index)'
+  doc_type: policy
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The statewide IT policy and standards library (50 rows on 2026-11-12: 43 CIO policies and 7 ENT standards). A policy added, replaced or removed raises a review-the-seed-list report.'
+- id: ky-watch-cot-procedures
+  sha256: ''
+  url: https://technology.ky.gov/policies-and-procedures/Pages/procedures.aspx
+  format: html
+  citation: 'COT page: Procedures'
+  title: 'COT: Procedures (index)'
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Procedures list of the library (2 rows on 2026-11-12: Agency Incident Response Guidelines and the Enterprise Identity Management User Manual).'
+- id: ky-watch-cot-executive-orders
+  sha256: ''
+  url: https://technology.ky.gov/Pages/Executive-Orders.aspx
+  format: html
+  citation: 'COT page: Executive Orders'
+  title: 'COT: Executive Orders (index)'
+  doc_type: executive_order
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: COT's list of executive orders (7 rows on 2026-11-12, 2005 to 2013).
+- id: ky-watch-cot-kits
+  sha256: ''
+  url: https://technology.ky.gov/about-the-agency/Pages/kits.aspx
+  format: html
+  citation: 'COT page: KITS'
+  title: 'COT: Kentucky Information Technology Standards (index)'
+  doc_type: standard
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The KITS page, which links the KITS library export that is seeded. A change in its text or links raises a report.
+- id: ky-watch-krs-42
+  sha256: ''
+  url: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37225
+  format: html
+  citation: KRS Chapter 42 (section list)
+  title: 'KRS Chapter 42, Finance and Administration Cabinet: section list'
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The chapter that holds the Commonwealth Office of Technology statutes (KRS 42.720 to 42.747). A section added, repealed or renumbered raises a report.
+- id: ky-watch-krs-61
+  sha256: ''
+  url: https://apps.legislature.ky.gov/law/statutes/chapter.aspx?id=37294
+  format: html
+  citation: KRS Chapter 61 (section list)
+  title: 'KRS Chapter 61, General Provisions as to Offices and Officers: section list'
+  doc_type: statute
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - cybersecurity
+  recheck: monthly
+  watch_only: true
+  why_relevant: The chapter that holds the personal information security law (KRS 61.931 to 61.934), the TikTok bar (61.9307) and the technology access law (61.980 to 61.988).
+- id: ky-watch-kar-200-1
+  sha256: ''
+  url: https://apps.legislature.ky.gov/law/kar/titles/200/001
+  format: html
+  citation: 200 KAR Chapter 1 (regulation list)
+  title: '200 KAR Chapter 1, General Administration: regulation list'
+  doc_type: rule
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The chapter that holds the Commonwealth Office of Technology regulation 200 KAR 1:016. A regulation added, expired or repealed raises a report.
+- id: ky-watch-kar-200
+  sha256: ''
+  url: https://apps.legislature.ky.gov/law/kar/titles/200
+  format: html
+  citation: 200 KAR (chapter list)
+  title: 'Title 200, Finance and Administration Cabinet: chapter list'
+  doc_type: rule
+  jurisdiction: kentucky
+  issuing_body: Commonwealth Office of Technology
+  tags:
+  - governance
+  recheck: monthly
+  watch_only: true
+  why_relevant: The chapter list of the cabinet that houses the Commonwealth Office of Technology (chapters 001 to 041 on 2026-11-12). A new chapter, such as one for technology or artificial intelligence regulations, raises a report.
+left_out:
+- text: |-
+    ---- Kentucky: found and left out (each was seen on an official page on 2026-11-12 and read through the Fetcher; the reason is recorded here)
+- text: |-
+    COT Policies page (https://technology.ky.gov/policies-and-procedures/Pages/policies.aspx), reconciled row by row: 50 rows (43 CIO policies, type Policy; 7 ENT items, type Standards), all 50 seeded as documents. Procedures page: 2 rows, one seeded (the Agency Incident Response Guidelines) and one left out (the Enterprise Identity Management User Manual, see the record on it). The page lists every row in its HTML (no paging, filters or script-loaded rows). Titles differ from the printed ones in places (the index calls CIO-090 'Information Security Incident Response Policy', the file prints 'Incident Response Policy'; CIO-074 prints 'CIO-74'); each entry's identity_text is the phrase its file prints. OWNER DECISION, recorded for review: CIO-071 (Wireless Voice and Data Services), CIO-078 (Wireless LAN) and CIO-107 (Managed Print Services) are seeded because they govern executive branch use of state devices and networks, not telecom service; ENT-102, ENT-103, ENT-301, ENT-302 and ENT-303 are guidelines or processes that the index types as Standards and are seeded as the index types them.
+- text: |-
+    Enterprise Identity Management User Manual (https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/EIM%20User%20Guide.pdf; the procedures page lists it as 'Enterprise Identity Management User Manual', type Standards; the file prints 'Enterprise Identity Management User Guide, Version 4.0'): left out. It is a user guide for the EIM portal, a table of contents of how-to sections ('Section 2: How EIM works' and others), not an instrument; the playbook leaves out forms, templates and similar items. OWNER DECISION: it was first seeded because the index types it Standards, and can be seeded if the owner reads it as COT guidance.
+- text: |-
+    COT Forms page (https://technology.ky.gov/policies-and-procedures/Pages/forms.aspx): 18 file links, all left out. They are forms or form instructions, not instruments: the Acknowledgement of Internet and Electronic Mail Acceptable Use Policy (.doc), New Technology SPR1 Request Form (.docx), Task Order Agreement COT-F010 (.docx) and its instructions (PDF), Acknowledgement of Confidentiality Agreement COT-F011 (.docx), Acknowledgment of Responsibility COT-F015 (.doc), Server Request Form COT-F045 (.xlsx), Data Center Equipment Installation Removal Request Form COT-F059 (.docx), Production Print Service COT-F070 (.docx), Record of IT Equipment Sanitization COT-F108 (.doc), Procurement Request COT-F180 (.doc) and its instructions (.doc), Staff Service Request Form COT-F181 (.doc) with its instructions (PDF), Staff Service Request EZ Form COT-F181EZ (.doc) with its instructions (PDF), Forensic Investigations Request form COT-F182 (.docx), Paging Service COT-F205 (.doc). The legacy .doc files could not be read in any case.
+- text: |-
+    COT Executive Orders page (https://technology.ky.gov/Pages/Executive-Orders.aspx), 7 rows, all scans with no text layer. One is a stub (2012-880, the two OCR engines disagree on the figures). Left out: Executive Order 2013-403 (June 14, 2013), 2010-436 (June 16, 2010), 2008-506 (June 6, 2008), 2007-502 (June 21, 2007), 2006-684 (June 19, 2006) and 2005-562 (June 16, 2005), each titled 'Relating to the Reorganization of the Finance and Administration Cabinet' (2005-562: of the Commonwealth's Office of Technology). They are organization charts for the Office under the reorganization power: the text of 2006-684 says 2005-562 'was not ratified by the General Assembly', 2007-502 says the same of 2006-379, 2006-683 and 2006-684, and 2010-436 says the same of 2009-772 and 2009-363, so each is replaced by the next; the Office's offices and divisions are now set by KRS 42.724 (amended 2014 and 2021), and KRS 12.028 as amended in 2021 requires General Assembly approval of reorganization plans. OWNER DECISION: whether 2008-506, 2010-436 and 2013-403 are in force cannot be read from the official page; they are left out as superseded organization charts and can be seeded if the owner reads them as in force.
+- text: |-
+    Governor's executive orders (all governors): no complete list of record could be read through the Fetcher. The Governor's site (governor.ky.gov) has no executive order list page (https://governor.ky.gov/executive-orders and /news/executive-orders answer 404; its news page loads its items by script; /attachments answers HTTP 401). The Secretary of State's Executive Journal (https://web.sos.ky.gov/execjournal/jrnl.aspx) is an ASP.NET search form (view-state fields, results returned to a form post), which the Fetcher, a GET client, cannot drive. So 'no executive order on state IT, cybersecurity, data or AI found' is stated only for COT's own list, which was read in full. A press report (not bytes from the state) says Executive Order 2026-494 (August 6, 2026) concerns the impact of private data centers on utility rates and the environment: it binds the Public Service Commission and the Energy and Environment Cabinet and is out of scope in any case (private-sector data centers). Needed for a complete answer: a way to read the Executive Journal (an owner decision on form posts) or a list from the Governor's office.
+- text: |-
+    COT pages read and holding no instrument: the home page, Memos (https://technology.ky.gov/Pages/Memos.aspx; prints only the headings 'Agency Contact' and 'Memorandum' and no list), the Office of the Chief Information Security Officer page (prose about its branches), Strategic and Capital IT Planning (prose and a link to Capital IT projects, a list of projects not an instrument), History. The Programs page (https://technology.ky.gov/Pages/Programs.aspx) answered HTTP 401 and was not read.
+- text: |-
+    KITS (https://technology.ky.gov/about-the-agency/Pages/kits.aspx): the library export is seeded as one standard (OWNER DECISION, see its entry). The page also links https://technology.ky.gov/about-the-agency/Pages/kits2.aspx (the KITS procedures and the request for a revision), read and holding no instrument beyond a contact line; the 'EAS' codes inside the export are rows of the one table, not separate files.
+- text: |-
+    Statutes, KRS chapter 42 (section list read in full, 184 rows): seeded 42.630 (the General Assembly's findings on geographic information systems), 42.720, 42.722, 42.724, 42.726, 42.728, 42.730, 42.731, 42.732, 42.650, 42.655, 42.740, 42.742, 42.744. Left out: 42.734, 42.736 and 42.738 (the Kentucky Wireless Interoperability Executive Committee and the statewide public safety interoperability plan: public safety radio, which domain.yml scopes out as telecom and 911); 42.746 (a statewide planning and mapping system for public buildings for emergency responders: emergency response); 42.747 (the Blockchain Technology Working Group, attached to COT, to study blockchain for critical infrastructure such as the electric grid and water supply: a study of utilities, not government IT; OWNER DECISION); 42.032 (a web site of executive branch expenditure records: budget transparency).
+- text: |-
+    Statutes, KRS chapter 1 (Boundaries; section list read in full, 6 rows): seeded 1.020 (the Kentucky State Plane Coordinate System, which charges the Commonwealth Office of Technology with the zones and is the authority cited by 200 KAR 41:010; OWNER DECISION, see KRS 42.650). Left out: 1.010 (a statement of the General Assembly's intent that 1.020 not displace metes and bounds or the public land system: land description, not IT, though it is the intent section for 1.020; can be seeded with it); 1.100, 1.200, 1.300 and 1.400 (the state's boundaries with other states).
+- text: |-
+    Statutes, KRS chapter 45 (budget): seeded 45.818 only. Left out: 45.750 to 45.810 (capital construction and the Capital Projects and Bond Oversight Committee, read 45.760 and 45.763 in full and neither mentions information technology; 45.763 is about real property and equipment financing), and the rest of the chapter, per the playbook rule on non-IT sections of budget law. KRS chapter 45A (Model Procurement Code, section list read in full): no section about information technology found by its catchlines; left out.
+- text: |-
+    Statutes, KRS chapter 61: seeded 61.931, 61.932, 61.933, 61.9307, 61.980, 61.982, 61.984, 61.986 and 61.988. Left out: 61.934 (the same duty for the legislative and judicial branches, out of scope in domain.yml); 61.9305 (a working group on facial recognition technology and use policies for law enforcement agencies: law-enforcement technology, out of scope); 61.990 (a general penalty section for the chapter); the Open Records Act (61.870 to 61.884: public records access, not IT). KRS 61.931 to 61.933 define 'agency' to include local governments as well as the executive branch; they are seeded whole as published.
+- text: |-
+    Statutes, KRS chapter 369 (Information Technology): seeded 369.117, 369.118 and 369.119, the Uniform Electronic Transactions Act sections that bind governmental agencies. Left out: 369.101 to 369.116 and 369.120 (the Act's rules for private electronic transactions and signatures) and 369.130 to 369.139 (digital assets and wallets, regulating private persons). KRS chapter 171 (State Archives and Records, 171.420 to 171.740): records retention and management, not IT; KRS chapter 12 (administrative organization) and 15: nothing found on IT or AI by catchline.
+- text: |-
+    Statutes on artificial intelligence: KRS 42.731 (2025 Ky. Acts ch. 66, Senate Bill 4) is the one found that binds state agencies. A press report (not bytes from the state) says House Bills 455 and 641 of the 2026 session concern AI in therapy and mental health chatbots and are not enacted as far as found; they are private-party rules in any case. The section lists read are the chapter pages for 12, 15, 42, 45, 45A, 61, 171 and 369; the other chapters were not read.
+- text: |-
+    Administrative regulations, https://apps.legislature.ky.gov/law/kar/titles.htm (136 titles read as a list) and Title 200 (chapters 001 to 041 read as a list; chapter 001 read as a list of regulations; chapter 041, Geographic Information Systems, read as a list of one regulation, 41:010, status Current, and that regulation read in full): seeded 200 KAR 1:016 and 200 KAR 41:010. Left out: 200 KAR 1:015 (Data Breach Notification Forms, status Expired, replaced by 1:016); 200 KAR 1:010 and 1:011 (repealed and inactive); 200 KAR 1:020 (access to public records: not IT). Title 14, Kentucky Information Systems Commission, status Expired. No regulation of the Commonwealth Office of Technology on artificial intelligence was found in Title 200, although KRS 42.731 directs them (the Title 200 chapter list names no technology chapter; chapter 041, titled 'Geographic Information Systems', is COT's geographic information chapter and lists one regulation, 41:010); the watch page on the Title 200 chapter list is there to catch one. Titles 725 (Libraries and Archives), 101 (Personnel) and others were not read chapter by chapter.
+- text: |-
+    OWNER DECISION, copyright: Kentucky asserts copyright in its statutes (issue #31). The text of KRS sections, regulations, policies and orders is mirrored as published; the repo should not go public before the owner decides.
+- text: |-
+    Method notes: the Kentucky Administrative Regulations HTML page of a regulation prints both the current text and tracked changes; the regulation is seeded from the PDF its 'Download PDF' link serves (the file's name carries an internal document number, 13519, which changes when the regulation is amended). The title page URL pattern /law/kar/titles/200 was used where the titles page's relative links (href='200') answer 404; the same page also answers at /law/kar/TITLE200.HTM. KRS section files are one-page PDFs reached from the chapter page's own links; the file for each section prints its own Effective and History lines.

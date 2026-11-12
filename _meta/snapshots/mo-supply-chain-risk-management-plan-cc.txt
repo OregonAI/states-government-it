@@ -1,0 +1,89 @@
+                                   Compliance Component
+
+                                                       DEFINITION
+Name                   Supply Chain Risk Management Plan
+                       Supply chain risk management plans are strategies to determine responses to various
+Description
+                       issues that could arise in the supply chain if they were to occur
+                       The dependence on products, systems, and services from external providers, as well as the
+                       nature of the relationships with those providers, present an increasing level of risk to the
+                       State. Threat actions that may increase security or privacy risks include unauthorized
+Rationale
+                       production, the insertion or use of counterfeits, tampering, theft, insertion of malicious
+                       software and hardware, and poor manufacturing and development practices in the supply
+                       chain.
+                           • Planning ahead can help mitigate risk if there were to be an incident in the supply
+                               chain.
+Benefits
+                           • Helps protect against issues that may arise with third party vendors.
+                           • Keep better track of procurement
+
+                                        ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name         Security
+Specify the Discipline Name     Management
+Specify the Technology Area
+                                Supply Chain Risk Management
+Name
+
+                                            COMPLIANCE COMPONENT TYPE
+Document the Compliance
+Component Type
+Component Sub-type
+
+                                                COMPLIANCE DETAIL
+                                Supply chain risks can be endemic or systemic within a system element or
+                                   component, a system, or the State in general. Where feasible, the agency
+                                   shall:
+                                    •      Develop a plan for managing supply chain risks associated with the
+                                           research and development, design, manufacturing, acquisition, delivery,
+                                           integration, operations and maintenance, and disposal of Agency systems,
+                                           system components or system services.
+State the Guideline, Standard       •      Review and update the supply chain risk management plan as required, to
+or Legislation                             address threat, organizational, or environmental changes.
+                                    •      Protect the supply chain risk management plan from unauthorized
+                                           disclosure and modification.
+                                    •      Establish a supply chain risk management team consisting of information
+                                           technology, security, privacy, legal, and procurement personnel who lead
+                                           and support acquisition and procurement activities.
+
+                              Managing supply chain risk is a complex, multifaceted undertaking that requires a
+                                 coordinated effort to build trust relationships and communicate with internal
+                                 and external stakeholders. Supply chain risk management (SCRM) activities
+                                 include:
+                                   •     Identifying and assessing risks
+                                   •     Determining appropriate risk response actions
+                                   •     Developing SCRM plans to document response actions
+                                   •     Monitoring performance against plans
+
+                              The SCRM plan (at the system-level) is implementation specific, providing policy
+                                 implementation, requirements, constraints, and implications.
+
+                              NIST SP 800-53, Rev. 5, Security and Privacy Controls for Information Systems
+Document Source Reference #
+                              and Organizations, SR-2 – Supply Chain Risk Management Plan (Sep. 2020)
+                                                Compliance Sources
+                                                                                 Security and Privacy Controls for
+Name                                                              Website        Information Systems and
+                                                                                 Organizations (nist.gov)
+Contact Information
+Name                                                              Website
+Contact Information
+
+Name                                                              Website
+Contact Information
+
+                                                     KEYWORDS
+List Keywords                 Supply Chain Risk Management, Plan, Third-Party Vendor
+
+                                           COMPONENT CLASSIFICATION
+Provide the Classification       Emerging                   Current                    Twilight          Sunset
+     Sunset Date
+
+                                                  CURRENT STATUS
+Provide the Current Status       In Development              Under Review              Approved          Rejected
+
+                                                     AUDIT TRAIL
+Creation Date                 08/21/2024                    Date Approved / Rejected     10/03/2024
+     Reason for Rejection
+Last Date Reviewed            10/03/2024                    Last Date Updated            10/03/2024
+     Reason for Update        Vitality

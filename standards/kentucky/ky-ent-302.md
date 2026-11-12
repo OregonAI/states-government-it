@@ -1,0 +1,628 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: kentucky
+id: ky-ent-302
+title: ENT-302 Enterprise Digitization Guidelines and Best Practices
+doc_type: standard
+citation: ENT-302
+authority_level: ''
+issuing_body: Commonwealth Office of Technology
+source_url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/ENT-302%20Enterprise%20Digitization%20Guidelines%20and%20Best%20Practices.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: af771d80d4e569c5d0fff6b4895cf21e30329c7d56bbf6a2d40f907779d8dc3d
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# ENT-302 Enterprise Digitization Guidelines and Best Practices (ENT-302)
+
+## At a glance
+
+Listed on COT's Policies pageas 'ENT-302 Enterprise Digitization Guidelines and Best Practices' (type Standards):
+
+## Full text
+
+                                                                                                                       ENT-302
+                                                                          Enterprise Digitization Guidelines and Best Practices
+
+ENT-302: Enterprise Digitization Guidelines and Best Practices
+Document Revision History
+
+  Version            Date                 Change Description/ Notes                                                                Author / Editor
+  1.0                11/21/2019           Creation and incorporation of digitization guidelines.                                   John Barnes
+  2.0                12/29/2021           Review and revision of digitization guidelines                                           Karen Chrisman
+  3.0                04/12/2024           Review and Revision                                                                      Jason Rowland
+  3.260713           07/13/2026           Reviewed but only technical formatting revisions                                         Jason Rowland
+
+Table of Contents
+Purpose of this Document .....................................................................................................................2
+Applicability ............................................................................................................................................2
+Definitions and Acronyms .....................................................................................................................2
+Agency Document Management Plan...................................................................................................2
+Agency Digitization (Scanning) Plan ....................................................................................................3
+Enterprise Digitization Guidelines ........................................................................................................4
+   1.      Business Assessment .......................................................... .................................................... 4
+                  Business Needs ................................................................................................................. 4
+                  Business Benefits ...............................................................................................................5
+                  Business Case .....................................................................................................................5
+   2.      Document Analysis and Cataloging ………...............................................................................6
+                  Document Inventory .......................................................................................................... 6
+                  Document Prioritization .................................................................................................... 6
+                  Document Indexing/Metadata ........................................................................................... 6
+   3.      Document Processing and Personnel ..................................................................................... 7
+                  Process Stages and Roles ................................................................................................ 7
+                  Human Resource Requirements........................................................................................ 8
+                  Service Provider Requirements..........................................................................................8
+   4.      Scanning Output Requirements..................................................................................................9
+                 Optical Character Recognition.............................................................................................9
+                 Output Format .......................................................................................................................9
+                 Image Quality........................................................................................................................10
+                 Scanner Configuration..........................................................................................................11
+   5.      Security Requirements (hard-copy and digital data) ..................................................................11
+   6.      Storage Repository Planning ....................................................................................................12
+   7.      Hard-copy Document Disposition.............................................................................................12
+Other Agency-Specific Topics                        ...........................................................................................................12
+Contact ...................................................................................................................................................12
+References .............................................................................................................................................12
+
+                                                                                             ENT-302
+                                                Enterprise Digitization Guidelines and Best Practices
+
+Purpose of this Document
+This document outlines the guidelines and best practices for digitizing documents in the executive
+branch agencies of the Commonwealth of Kentucky. It focuses on the agency Digitization Plan
+(alternatively, Scanning Plan) and its elements, in the context of the agency’s Document Management
+program.
+
+Applicability
+This document outlines guidelines and best practices for appropriate document handling and applies
+to all documents and systems under the authority of the Commonwealth of Kentucky. As the
+Commonwealth Office of Technology (COT) continues to modernize our document handling
+procedures and systems, we will update and develop this document to reflect any changes.
+
+Commonwealth agencies, users, and associated entities such as vendors shall adhere to the
+associated policy, standards, and guidelines published in the Commonwealth of Kentucky Enterprise
+IT Policies. Each version of this document supersedes the previous one. COT recommends reviewing
+this document for changes at least annually, or when beginning or changing digitization systems or
+processes.
+
+Definitions and Acronyms
+Digitization: The process of converting a hard-copy or non-digital record into digital format. This
+includes digitizing text, photographs, maps, microfilm, converting analog recordings to digital media,
+etc. Also known as digital imaging or scanning.
+Document Processing: The creation, handling, labeling, and modification of text documents, including
+indexing methods for text retrieval based on content.
+Document Validation: Periodic inspections of documents to ensure the agency is meeting document
+processing expectations.
+FTE: Full-Time Equivalent. A unit that indicates the workload of an employed person. For example, a
+staff member employed full-time would be one FTE, whereas a part-time staff member working half
+days would be 0.5 FTE.
+FTI: Federal Tax Information
+OCR: Optical Character Recognition. Software or features that convert character images into
+searchable text and can be used to harvest information or create search index fields.
+PHI: Protected Health Information
+PII: Personally Identifiable Information. Any data that could potentially identify a specific individual.
+PPI: Pixels per inch
+Public record or record: All books, papers, maps, photographs, cards, tapes, disks, diskettes,
+recordings, and other documentary materials, regardless of physical form or characteristics, which are
+prepared, owned, used, in the possession of, or retained by a public agency.
+
+Agency Document Management Plan
+Agency documents are an important resource for staff, citizens, and public officials. Agencies keep
+these documents in numerous formats including paper, imaged copies in various imaging systems,
+film reels, on-line computer systems, desktop hard drives, and optical media. These documents
+include timesheets, e-mails, correspondence, contracts, drawings, subdivision plans, reports, minutes,
+blueprints, digital photographs, videotapes, and recordings.
+
+                                                                                            ENT-302
+                                               Enterprise Digitization Guidelines and Best Practices
+
+The CIO-122 Enterprise Document Management Policy requires that executive branch agencies
+create a Document Management Plan that outlines an agency’s document management program,
+including security, handling, storing, preservation, and destruction of documents, in accordance with
+statutory requirements. The plan shall also address privacy, retention, open records, and business
+needs. These considerations apply as well in the design, development, and operation of IT systems
+for handling documents and public records.
+
+The Document Management Plan is a living (versioned) document used for ongoing agency analysis,
+planning, and decision-making, updated at least annually. Some examples of its uses:
+     As an agency road map to guide ‘rolling wave’ (short-term/long-term) program planning.
+     To document conclusions and rationales from various analyses (e.g., needs, feasibility, or cost-
+      benefit analyses) as reference points for downstream planning.
+     To provide a structure and format to guide the agency’s annual planning process. E.g., for
+      formulating and formally presenting alternative business cases to executive management
+      (e.g., for a program approach or a procurement).
+     As a communication tool to ensure that document management team members are well
+      informed and have a voice in the plan, thereby enlisting their buy-in and accountability.
+
+The plan shall address agency management of its entire inventory of documents. The primary focus
+of the plan is to determine whether to retain and store documents in their physical format, to digitize
+them, or to implement a hybrid solution (some portions in physical format, some portion digitized).
+Some agencies may not need to digitize all their documents. Some agencies may need or want to
+digitize documents but are not able to, owing to overriding business constraints. The plan should
+document the reasons for these decisions.
+
+Agency Digitization (Scanning) Plan
+If agencies determine the business need to digitize documents, ENT-103 Enterprise Digitization
+Standards require that they develop and document scanning policies and processes in an agency.
+Digitization Plan. (Digitization is often called “scanning;” so these terms may be used
+interchangeably in this document and the associated policy, standards, and guidelines.) The plan
+covers an agency’s digitization program effort at any given stage of its development, e.g., whether in
+its initial investigation stage (still considering its approach to scanning), or in a stage of mature
+scanning capability. For example:
+      Agencies considering scanning can establish and document the business need, feasibility,
+          justification, and roadmap to set up operations.
+      Agencies that already have scanning operations can validate and update their business needs,
+          documentation, processes, and practices, and can plan next steps.
+
+An agency’s Digitization (Scanning) Plan is an integral part of its Document Management Plan. Like
+the Document Management Plan, the Digitization Plan is a living (versioned) document used for
+ongoing, scanning-specific analysis, planning, and decision-making, updated at least annually. In
+addition to the general uses of the Document Management Plan described above, the agency
+Scanning Plan can be used:
+     To identify, document and evaluate alternative scanning solution scenarios.
+     To build a playbook leading to greater ‘paperless process’ capability.
+
+                                                                                            ENT-302
+                                               Enterprise Digitization Guidelines and Best Practices
+
+The Digitization Plan can serve as a template for a structured approach to guide periodic analysis and
+planning. It is a framework composed of seven core elements/factors that must be planned individually
+but have interdependencies. Consequently, they must be revisited as circumstances in an agency’s
+operations change; some elements may have more or less relevance or weight at different stages. At
+minimum, the Scanning Plan shall include the following elements:
+    1. Business Assessment
+    2. Document Analysis and Cataloging
+    3. Document Processing and Personnel
+    4. Scanning Output Requirements
+    5. Security Requirements (hard copy and digital data)
+    6. Storage Repository Planning 7. Hard-copy Document Disposition.
+
+The Digitization Guidelines map directly to this outline of planning elements. Agencies may include
+other topics in their plan as well. E.g., agency-specific scanning policies, processes, or practices.
+
+Enterprise Digitization Guidelines
+The following sections provide guidance and best practices related to the seven digitization planning
+elements. When an agency is conducting the actual planning process (initially or during an annual
+review/update), the interdependencies between these elements may require an iterative approach –
+working back and forth between some of them, perhaps adjusting one in light of a change to another.
+
+1. Business Assessment
+If an agency determines to pursue or continue scanning operations, they also need to identify the best
+approach to accomplish their business and scanning goals. Some agencies may choose to perform
+the scanning operations themselves. Other agencies may choose to use a vendor to perform those
+operations. Still other agencies may choose a hybrid form; for example, using a vendor to scan
+backlog information, while agency staff scan incoming and day-to-day documents.
+
+Business Needs
+Agencies may want or need to digitize their documents to improve their operations and to meet their
+responsibilities to the citizens and customers. Agencies should consider at least the following factors
+to determine the needs, benefits, feasibility, and efficacy of a digitization program initiation or
+improvement effort.
+ Public records retention requirements
+  Digitization and automation elements of an agency’s Document Management Plan can greatly
+  enhance an agency’s ability to meet statutory and business requirements related to retention,
+  preservation, and destruction of agency information. Whether or not an agency uses hard-copy
+  or digital documents, COT recommends each agency review their particular retention schedule
+  on a regular basis to determine whether all existing series (record categories) still apply and
+  meet business needs, any new series may be applicable, or retention guidance is needed.
+  Agencies should coordinate with their records retention officers and Kentucky Department for
+  Libraries and Archives (KDLA) to maintain or establish accurate and useful retention schedules.
+
+                                                                                           ENT-302
+                                              Enterprise Digitization Guidelines and Best Practices
+
+   When considering or establishing a scanning operation in particular, an agency’s document
+   retention periods can be a deciding factor. For example, when documents’ retention periods
+   expire within a relatively short period (e.g., less than 6 months), and depending on their origin
+   and use, the agency may decide not to scan. It may be more cost-effective to simply retain the
+   physical copies until the retention period expires, and then destroy them, rather than incurring
+   the costs of document preparation (‘prep’), processing, storage, and associated personnel
+   resources. Conversely, digitization of documents allows agencies to organize and index their
+   documents with information to support their records management and retention efforts –
+   providing automated processing, improved search capabilities, notifications of expiration,
+   destruction, etc. It is a matter of weighing costs versus capabilities.
+ Open records requests
+  Agencies should consider scanning documents if they receive frequent open records requests.
+  That way they can automate the process of scanning the originals, providing digitized copies for
+  open records requests, and maintaining consistent, redacted versions. This in turn reduces errors
+  and frees up resources from repetitious document handling, while still providing transparency and
+  oversight.
+ Document condition.
+  If an agency has documents that are in poor or worsening physical condition, and the documents
+  need to be retained for a long time or permanently, agencies should digitize them. This will reduce
+  handling of the physical documents while still providing access to the necessary content for
+  business needs.
+ Statutory reasons for digitization
+  Agencies may need to scan documents to meet specific statutory requirements or to improve their
+  responsiveness to federal, state, and local compliance requirements.
+
+Business Benefits
+Agencies should consider the business benefits of digitized documents, enabling them to:
+      improve their business processes (more paperless processes)
+      increase process automation and workflow.
+      address access control to the newly available business data.
+      create opportunities to develop and exploit their business intelligence.
+      be more responsive to requests for business information.
+      share the same documents with multiple users simultaneously.
+      allow greater collaboration.
+      provide documents in a more accessible format (e.g., readers for the visually impaired)
+      access documents in difficult-to-access formats (e.g., large maps or microfilm)
+      access high volumes of records frequently.
+      tailor document security.
+      reduce physical storage requirements.
+
+Business Case
+As part of their business case, agencies should consider and document any operational factors that
+could impact digitalization planning directly or indirectly. For example:
+
+                                                                                            ENT-302
+                                               Enterprise Digitization Guidelines and Best Practices
+
+     Critical to any Digitization Plan is the identification and management of available resources.
+      This includes financial resources, available personnel, hardware/software tools, etc. Agencies
+      should identify the funding needs and available funding.
+     The assessment of current operations should include business and workplace changes that
+      have already been or are in the process of being planned (e.g., building moves, reduction in
+      available office space, funding, or personnel, etc.).
+
+The business case is a documented value proposition providing justification for undertaking or further
+developing a digitization program. It summarizes the rewards, costs, and risks of alternative options
+(including not taking action), and the rationale for the preferred solution. A value proposition is the
+total of benefits that the agency and its customers can expect to receive.
+
+The agency's digitization planning team should evaluate each of the planning elements with the goal
+of formulating a solution that provides the best balance of attainable accomplishments (maintenance,
+development, or both) for scheduling in the first or next year’s phase of the program. I.e., the big
+picture of how all the puzzle pieces can best fit together. In short, what the new or next digitization
+operations plan will look like. By its nature, this is an iterative process.
+
+2. Document Analysis and Cataloging
+Document Inventory
+Once an agency identifies their business needs that support a scanning initiative, agencies shall
+conduct a document inventory. Agencies at a minimum should:
+    Identify and categorize the various document types in use (e.g., permits, licenses, maps,
+       unique formats such as microfilm or green cards)
+    Identify the appropriate retention schedule series and, when feasible, associate the agency’s
+       documents with them
+    Estimate the volume of documents in each category.
+    Identify the physical location of the documents (whether local, stored at KDLA, or in other
+       storage locations)
+    Identify backlog documents versus new or day-to-day incoming scan requirements. Agencies
+       should document their inventory findings in the Digitization Plan.
+
+Document Prioritization
+After agencies consider their inventory, they should document how they intend to prioritize documents
+for digitization. They may organize documents by type, case, permit, or other logical configurations.
+They also should document how they will prioritize any backlog versus new or day-forward scanning
+needs, ad hoc requests, re-scans, document sets with elevated priorities, and so on.
+
+Document Indexing/Metadata
+For effective, efficient, and accurate retrieval of digitized content, agencies should use indexing (or
+metadata) associated with scanned documents. According to ENT-103 Enterprise Digitization
+Standards, agencies shall use indexing or a similar method to maintain metadata about scanned
+documents. While COT does not require agencies to replace or overhaul their existing processes,
+they shall incorporate document indexing when upgrading or replacing software used in their scanning
+program.
+
+                                                                                             ENT-302
+                                                Enterprise Digitization Guidelines and Best Practices
+
+Agencies may index their content during the capture process or during post-processing. COT
+recommends documenting the indexing requirements in their agency’s scanning process for training,
+historical, and compliance purposes. Indexing shall include at least the date of the document’s origin.
+Indexing should also include dates of any image edits, and other agency-specific information that
+supports the agency’s business needs (for example, permit numbers, licenses, or case numbers).
+
+3. Document Processing and Personnel
+Process Stages and Roles
+Agencies should formalize and document their scanning process. The process steps should cover
+staff retrieval, handling, and preparation of documents for scanning, scanning operations,
+maintenance operations, post-processing and quality control of digital images, and final document
+handling, storage, or disposition.
+
+Depending on resource availability, time constraints, and other factors, some agencies may be able to
+dedicate different staff members to separate roles or functions. Agencies with more limited resources
+may have staff members serve in multiple roles. The Digitization Plan should reflect how the agency
+assigns staff to basic roles, such as document handling, document preparation, scanning, post-
+processing, and quality control. Agencies should also identify the appropriate authority or job title for
+specific operations, e.g., agencies may assign document preparation to temporary staff. COT
+recommends that a supervisor or higher conducts the document validation portion of scanning
+processes. As a minimum the agency shall ensure that a Commonwealth staff member conducts the
+document validations.
+
+ Document handling: Depending on factors such as storage location, available resources, staff
+  skillsets, etc., agencies may need to assign staff to perform document handling. For example, in
+  cases involving retrieval of documents from off-site storage (or in sensitive or access-controlled
+  areas, for example) and delivering them to the agency’s scanning location. When the documents
+  are easily accessible and collocated, agencies may include this role with others, such as the
+  document preparation role.
+
+ Document preparation: Staff in this role are responsible for preparing sets of documents for
+  input to the scanning operator. Agencies will determine and document the ‘doc prep’ standards
+  and processes to cover such issues as:
+  • Removing staples, bindings, paper clips, etc. so that scanners can process each page 
+      Determining the order of pages, document types, and how to organize them for the agency’s
+      digital needs.
+    •   Addressing how to handle notes (“sticky notes”) when they are attached to document pages.
+    •   Flattening or straightening documents, and repairing documents if torn or otherwise damaged
+    •   Handling sensitive, protected, or confidential information
+    •   Creating and inserting barcoded index sheets, if necessary or desired.
+
+ Scanning: The scanning role will be responsible for taking the retrieved and prepared documents
+  and physically scanning the documents. Scanners will ensure that hardware and software settings
+  adhere to the defined image standards depending on the document type. This role may also be
+  responsible for routine maintenance, preliminary quality control, progress, or issues reports, etc.
+
+                                                                                             ENT-302
+                                                Enterprise Digitization Guidelines and Best Practices
+
+    As with other roles, depending on the agency’s needs and available resources, staff members
+    may share one or more roles.
+
+ Post-processing: This role is responsible for ensuring the scanned images meet image
+  requirements and quality standards. This may require post-processing to convert documents to
+  OCR, or adjusting images for brightness and contrast, image skew, speckling, or other stated
+  requirements. These are discussed later in this document.
+
+ Quality control/document validation: Agencies shall incorporate quality control and document
+  validation steps into their scanning processes to ensure the integrity, reliability, and utility of the
+  scanned documents for agency use. Agencies may use quality enhancement tools to ensure the
+  quality of the images and incorporate periodic reviews of scanned images to ensure that
+  documents are complete, legible, useable, and meet the agency’s statutory and business
+  requirements. Agencies shall incorporate processes that identify and remediate discrepancies
+  when scanning errors occur. Agencies shall document their quality control and document validation
+  analysis and processes in the Digitization Plan.
+
+Human Resource Requirements
+Agencies should identify and document the available personnel, expertise, job titles that perform
+functions in the digitization process, scheduling requirements, supporting guidance, etc. Agencies
+may identify these resources in detail, though COT discourages labeling particular individuals.
+Instead, use job titles or similar descriptions, such as “32 FTEs per day” or “Four state employees, two
+contractors, and one temp staff member per day.”
+
+As agencies’ resources, requirements, volume, etc. may differ, agencies will need to analyze the
+optimal solution for their needs. As an example, for agencies with high-volume scanning and sufficient
+resources, it may be most efficient to allocate multiple FTEs to the document preparation task
+supporting one FTE scanner position. Agencies should consider scanner throughput, maintenance
+tasks, training, leave, etc., in determining the appropriate level of resources to accomplish their
+scanning goals.
+
+Service Provider Requirements
+After inventorying and analyzing their document management needs, agencies may opt to start or
+continue scanning operations themselves, or they may choose to use an approved service provider
+(vendor) to conduct the scanning operations in accordance with state contracts and COT guidance.
+When agencies use a vendor for their scanning, they should establish requirements, including the
+following as a minimum:
+      Receipts for transfers of documents and files  Output format
+      Timeframe for processing (“turnaround” criteria)
+      Prioritization or expediting of documents (exceptions/change requests)
+      Security and handling of documents and stored/transmitted images  Temporary and
+        permanent storage of documents  Reporting, to include:
+            o Boxes or documents processed
+            o Date of pickup o Date of return
+            o non-routine issues in processing
+
+                                                                                             ENT-302
+                                                Enterprise Digitization Guidelines and Best Practices
+
+            o Items lost or damaged by the vendor
+            o other agency requests for information
+       Electronic file delivery requirements
+       Discrepancy mitigation and escalation procedures
+       Rework for failing document validation, file corruption, or transport issues.
+       Explicit requirements regarding compensation for loss of documents or a failure of the
+        processing.
+
+Agencies should be responsible for the document preparation before scanning. However, if not
+feasible, agencies shall communicate the explicit requirements for how the vendor should prepare
+documents for scanning.
+
+Agencies shall ensure agency staff perform data validation to ensure the digital documents meet their
+business requirements as stated in their contract and statement of work with the vendor.
+
+4. Scanning Output Requirements
+A significant concern when scanning agency documents is the resulting image quality and format.
+Agencies should use COT guidance and standards, and common industry standards, when identifying
+their requirements. The primary goal for scanning should be to create images that fairly, completely,
+and accurately portray the original documents. There should be images for all the source documents;
+and the resulting images should meet the agency’s business and statutory needs and requirements.
+
+Guidance on key quality and format issues includes:
+
+Optical Character Recognition (OCR)
+Agencies may want or need to use OCR or similar technologies for various reasons. They may want
+to collect content from documents to create indexing taxonomy, maximize search and retrieval tools,
+incorporate the collected data as business intelligence for decision-making, or recognize trends in their
+business areas. OCR does add some overhead to digitization processes, so agencies should evaluate
+the benefit of OCR compared to the additional requirements and determine the feasibility of including
+OCR. Where feasible, agencies should consider using OCR if it supports their business needs and if
+resources and business processes allow.
+
+Agencies shall document in the Digitization Plan which class of documents, if any, they intend to scan
+using OCR. Not all document classes may need to be scanned using OCR techniques, so the Plan
+should outline which classes do require OCR and the reasoning why. Agencies may also include a
+description for the classes of documents not requiring OCR and the reasoning why not. This
+information can be used for historical and training purposes and can provide insight into the agency’s
+document review.
+
+Output Format
+Agencies must identify the appropriate output format for the digitized document. The most common
+formats include PDF, TIFF, JPG, and PNG. COT does not require agencies to replace or overhaul
+their existing processes and outputs with these formats. However, agencies shall incorporate these
+format standards in future planning. For specialized scanning applications, hardware, formats, or
+needs, absent COT standards or guidance, agencies shall adopt broadly accepted industry standards.
+
+                                                                                            ENT-302
+                                               Enterprise Digitization Guidelines and Best Practices
+
+Some background and guidance on common formats include:
+
+ PDF (Portable Document Format)
+  Agencies shall use the PDF format for documents that are primarily textual in nature or that require
+  image-over-text content indexing (e.g., OCR). PDFs are a commonly used and easily read file
+  type; the PDF format is ideal for text documents, forms, and images containing text. Agencies can
+  use specific scanning features or post-processing on PDF documents for OCR, making the
+  documents searchable and editable. Where feasible, agencies should try to scan using multipage
+  PDFs rather than single-page PDFs.
+
+   For documents requiring long-term preservation according to statutory or business needs,
+   agencies shall use the PDF/A format or other KDLA-approved format that allows portraying
+   electronic documents in a manner that preserves their visual appearance over time, independent
+   of the tools and systems used for creating, storing, or rendering the files.
+
+ TIFF, TIF (Tagged Image File Format)
+  Agencies shall use the TIFF format for low-volume, stand-alone document scanning where the
+  TIFF file can be passed on (manually or via automated workflow) to Enterprise Capture software
+  for additional processing, such as OCR, image enhancement, conversion to PDF/A, etc. TIFFs
+  handle images and data within a single file, saving text as a representation rather than as content
+  of the document. TIFFs hold a great deal of information, so a downside of the format is large file
+  size, which will affect storage and retrieval operations, increasing the costs. However, TIFFs are
+  often needed for detailed scanning efforts, for example when scanning geographic maps.
+
+ JPEG (Joint Photographic Experts Group)
+  Agencies shall use the JPEG (or JPG) format for non-textual documents that are primarily
+  graphical in nature (e.g., maps, photos, etc.) and do not require extensive detail or editing. The
+  JPEG format is useful for images and compressing large files to a small size. This will speed up
+  retrieval operations and reduce storage costs, though generally the image quality is less than
+  found in a TIFF file.
+
+ Other special use formats
+  Agencies may save documents and images in other formats if those formats better suit agency
+  requirements. These may include PNG (Portable Network Graphics Format), a format like JPG
+  format in that they are useful for digitizing images, or GIF (Graphics Interchange Format) which
+  also saves images digitally, like JPG and PNG technology. However, GIFs are typically larger,
+  therefore creating similar issues to TIFF technology with storage size and retrieval.
+
+   Agencies may also scan to Microsoft Office formats (e.g., DOCX or XLSX) if additional processing
+   or data manipulation is needed post-scanning. Agencies shall include the appropriate formats and
+   requirements in the agency Scanning Plan.
+
+Image Quality
+As part of their Scanning Plan, agencies shall identify, document, and implement appropriate image
+quality controls. Agencies should consider image quality standards that meet statutory and business
+needs, and should include at least:
+
+                                                                                             ENT-302
+                                                Enterprise Digitization Guidelines and Best Practices
+
+ Color: When scanning documents, agencies must determine whether to scan in color, grayscale,
+  or monochrome. Agencies may have requirements or desires to scan using these options, and
+  the choices may change depending on the document type. While color may provide some clarity
+  to certain documents, there can be some overhead costs in processing and storage. Agencies
+  should consider using the appropriate color setting according to statutory requirements and
+  agency business needs to ensure accurate and fair representation of their source documents.
+  Agencies shall document this information in their Digitization Plans.
+
+ Resolution: Agencies should check their various document types to determine the quality of their
+  source documents and the legibility of the content, to identify the appropriate settings for their
+  scanning resolution. For fair-to-good quality originals, COT recommends scanning documents at
+  a minimum of 300 dpi. For poorer-quality originals, COT recommends scanning at a minimum of
+  400 dpi. Various document types, such as maps or highly technical text documents, may require
+  agencies to scan at even higher resolutions to achieve the desired resolution for image
+  manipulation or use. Agencies shall document their resolution requirements and supporting
+  analysis in their Digitization Plans.
+
+ Additional factors: There are many other scanning factors and configurations to consider when
+  establishing scanning standards and processes. These include skew, speckle, and
+  contrast/brightness standards, for example. Agencies should configure their scanners and
+  processes to address these factors, with the intent to identify the optimal settings to meet statutory
+  and agency requirements in representing original documents accurately in digitized forms.
+  Agencies shall document these settings in their agency processes, and COT recommends
+  including this information in their Digitization Plans.
+
+Scanner Configuration
+For agency-led scanning, agencies must identify and document their output requirements (such as
+output format, resolution, etc.). This information can be used to configure the scanners and the
+capture software to ensure the scanning process meets the agency’s requirements. Agencies shall
+document their hardware and software configurations in their digitization processes and should
+document high-level analysis and configurations in the agency’s Digitization Plan.
+
+5. Security Requirements (hard-copy and digital data)
+Agencies are responsible for adhering to COT information security policies as well as federal, state,
+agency, and local security requirements. Agencies should evaluate their document security for both
+physical and digital security. Some security considerations that agencies shall document in their
+Digitization Plan include:
+     Documents that contain confidential information, such as PII, PHI, FTI, or Criminal Justice
+       information. These documents should be protected accordingly. Agencies should identify this
+       confidential information during the document Inventory phase, as it may support or justify the
+       digitization efforts if appropriate storage and access controls are not available.
+
+     Existing physical security and controls. This includes ensuring that documents are kept in
+       secure cabinets or rooms, have appropriate access controls and logs, etc. This also includes
+       appropriate security of documents during transportation, such as between buildings, agencies, or
+       other similar entities, or between the agency and the vendor performing the scanning. Agencies
+
+                                                                                              ENT-302
+                                                 Enterprise Digitization Guidelines and Best Practices
+
+        may include other pertinent information such as environmental protection controls (e.g., inadequate
+        fire suppression).
+
+     Existing or planned security for information systems, processing, and storage. This includes
+        identity and access management controls, encryption in transit or at rest (if appropriate), auditing
+        requirements, etc.
+
+6. Storage Repository Planning
+Scanning documents requires storing the digitized files in the appropriate storage repositories. Scanning
+processes may require some temporary storage of files and will certainly require a permanent storage
+repository as well. Agencies shall identify and document the appropriate storage repositories. For more
+guidance on the appropriate, COT-approved repositories, see ENT-303 Enterprise Document Storage
+Guidelines and Best Practice. Agencies shall establish appropriate security and access controls for both
+temporary and permanent storage of those documents.
+
+COT recommends agencies work with COT to select and organize their document repositories for optimal
+security, retrieval, retention policies, and other document management issues. Agencies shall document
+their document storage planning in their Digitization Plans.
+
+7. Hard-copy Document Disposition
+Agencies shall identify and document how they will dispose of the original hard-copy documents after
+scanning. Agencies must adhere to statutory requirements, COT and agency policies, KDLA records
+retention requirements, open records, and litigation hold requirements. Disposition options may include:
+     Destruction
+     Return to local storage.
+     Archive with KDLA
+     Another agency provided guidance and requirements.
+
+Other Agency-Specific Topics
+The topics above are the minimum plan elements. Agencies may include additional topics. E.g., agency
+scanning policies, processes, or practices.
+
+Contact
+For more information about digitization guidelines and best practices, please contact COT’s Enterprise
+Content Management Services (ECM) Team, or the Commonwealth Service Desk by email (“Assign ticket
+to COT’s ECM Services Team”) or phone (502) 564-7576 or (800) 372-7434.
+
+References
+Helpful references can be found on the Enterprise IT Policies webpage.
+
+ Commonwealth of Kentucky                              Commonwealth Office of Technology
+ Privacy and Audit Support Branch                      500 Mero St
+ Enterprise Guidelines                                 Frankfort KY 40601
+ Version 3.260713                                      7-13-2026
+
+                                                  *END*
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

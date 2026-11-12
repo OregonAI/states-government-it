@@ -1,0 +1,199 @@
+                                      Data Classification Guidelines
+
+Document No: CDO-004
+Published: August 28, 2025
+Issued by: Chief Data Officer
+
+1.0. Purpose
+The purpose of the Data Classification Guidelines is to establish common guidelines for data
+classification based on its sensitivity to ensure consistent practices across State of Hawaii agencies.
+Adherence to these guidelines enhances data security, ensures data privacy protection, and
+facilitates compliance with regulatory requirements throughout the State.
+
+2.0. Authority
+Hawaii Revised Statutes (HRS) section §27-44, 1 established within the Office of Enterprise Technology
+                                                   0F
+
+Services, Department of Accounting and General Services, under the authority of the Chief
+Information Officer, the Chief Data Officer to develop, implement, and manage statewide data
+policies, procedures, standards, and guidelines. HRS section 27-44 also established a Data Task Force
+to assist the Chief Data Officer in developing the State’s data policies, procedures, and standards.
+
+3.0 Scope
+
+          3.1. State Agencies
+
+          The Data Classification Guidelines apply to all State agencies.
+
+          The Data Classification Guidelines provide high level guidelines on data classification. Each
+          agency shall develop additional policies and guidelines as necessary according to relevant
+          federal and state laws and regulations, both at the data set level and at individual field level,
+          to ensure compliance with its operations. When a conflict exists between the Data
+          Classification Guidelines and an agency’s policy, the more restrictive policy will take
+          precedence.
+
+1
+    HRS § 27-44. https://www.capitol.hawaii.gov/hrscurrent/Vol01_Ch0001-0042F/HRS0027/HRS_0027-0044.htm.
+
+                                                        Page 1 of 5
+
+           3.2. Definitions
+           Data Classification refers to the assignment of a level of sensitivity to data that results in the
+           specification of controls for each tier of classification. Tiers are assigned according to
+           predefined categories as data are created, amended, enhanced, stored, or transmitted. 2              1F
+
+           3.3. Covered Use
+
+           The Data Classification Guidelines apply to all data sets handled by state agencies. This
+           includes, but is not limited to systems in the cloud, on premises, and on local drives.
+
+4.0. Information Statement
+Data classification is conducted at the field or field value level, as required by relevant laws and
+regulations. This means that each piece of data is assessed and categorized based on its sensitivity. If
+a data set is fully open to the public, detailed classification may not be necessary.
+
+Classifying data at a granular level is essential for responsible data management. It allows agencies to
+safeguard individual privacy while promoting transparency, thereby building public trust and
+advancing the State's open data initiatives.
+
+Each agency is responsible for classifying its data into one of the recommended tiers as follows:
+    Public: Public refers to data intended for unrestricted access and dissemination.
+
+          Controlled: Controlled refers to data used for an agency only. It may be shared between
+           agencies or organizations under the terms of a written memorandum of agreement or
+           contract.
+
+          Protected: Protected refers to data that, while not as sensitive as classified data, requires
+           protection from unauthorized access or disclosure to prevent potential harm or loss.
+
+          Classified: Classified refers to highly confidential data that requires restricted access and
+           strong protection.
+
+When sharing data between different agencies within the State, a data sharing agreement is required
+unless it is public data. Data must be protected according to the data handling requirements as
+specified in table 1 below.
+
+2
+    Information Systems Audit and Control Association (ISACA) Glossary. https://www.isaca.org/resources/glossary.
+
+                                                       Page 2 of 5
+
+Table 1. Data Handling Requirements
+
+       Tiers        Sensitivity        Storage               Transmission             Access
+
+  Public           Insignificant   Standard storage Standard transmission       Openly accessible
+                                                     methods (e.g., HTTP)
+  Controlled      Low              Access-           Secure transmission        Authentication and
+                                   controlled        methods                    authorization
+                                   storage                                      required
+  Protected        Moderate        Encrypted at rest Secure methods (e.g.,      Role-based access
+                                   and in transit    VPN, SFTP, TLS) with       control with
+                                                     additional encryption      granular
+                                                     layers                     permissions and
+                                                                                multi-factor
+                                                                                authentication
+  Classified      High             High-assurance      Strongest secure         Access limited to
+                                   security storage    methods (e.g.,           authorized
+                                   (e.g., hardware     dedicated encrypted      personnel only
+                                   security            channels, zero-
+                                   modules)            knowledge proofs)
+
+5.0 Compliance
+The Data Classification Guidelines shall take effect upon publication. Compliance is strongly
+recommended.
+
+6.0 Contact Information
+Submit all inquiries and requests for future enhancements to the Chief Data Officer, Office of
+Enterprise Technology Services, Department of Accounting and General Services, at
+data@hawaii.gov.
+
+7.0. Definitions of Key Terms
+All terms shall have the meanings found in the Data & AI Glossary (under Glossaries at
+https://data.hawaii.gov/).
+
+      Data Asset: Data Asset refers to any data entity that is comprised of data. For example, a
+       database is a data asset that is comprised of data records. A data asset may be a system or
+
+                                               Page 3 of 5
+
+          application output file, database, document, or web page. 3           2F
+
+         Sensitivity: Sensitivity refers to the potential harm that could result from unauthorized
+          access, disclosure, modification, or destruction of information. 4         3F
+
+         Transmission: Transmission refers to the movement of information across a communication
+          channel. 5
+                   4F
+
+8.0 Revision History
+    Date                                          Descrip on of Change
+    July 22, 2024                                 Reviewed and approved by Data Task Force
+    August 27, 2025                               Reviewed and approved by AG/OIMT
+    October 13, 2025                              Revised
+    October 14, 2025                              Reviewed and approved by AG/OIMT
+
+9. Related Documents
+[1] General Services Administration, Protecting PII - Privacy Act, U.S.
+https://www.gsa.gov/reference/gsa-privacy-program/rules-and-policies-protecting-pii-privacy-act.
+
+[2] Office of Information Policy U.S. Department of Justice. Freedom of Information Act (FOIA), 5
+U.S.C. § 552. https://www.justice.gov/oip/freedom-information-act-5-usc-552.
+
+[3] National Institute of Standards and Technology (NIST) Special Publication 800-30 (Rev. 1): Risk
+Management Framework for Information Systems and Organizations.
+https://www.nist.gov/privacy-framework/nist-sp-800-30.
+
+[4] Privacy Act of 1974, 5 U.S.C. 552a. https://www.govinfo.gov/content/pkg/USCODE-2018-
+title5/pdf/USCODE-2018-title5-partI-chap5-subchapII-sec552a.pdf.
+
+[5] Children’s Online Privacy Protection Act (COPPA) — PII of children under 13.
+https://uscode.house.gov/view.xhtml?req=granuleid%3AUSC-prelim-title15-
+section6501&edition=prelim.
+
+[6] Payment Card Industry Data Security Standard (PCI DSS) v 3.2.
+https://www.pcisecuritystandards.org/document_library/?category=pcidss&document=pci_dss.
+
+[7] Nacha Operating Rules. ACH payment. https://www.nacha.org/newrules.
+
+3
+  National Institute of Standards and Technology Glossary: https://csrc.nist.gov/glossary/term/data_asset
+4
+  National Institute of Standards and Technology Glossary: https://csrc.nist.gov/glossary/term/sensitive
+5
+  National Institute of Standards and Technology Glossary: https://csrc.nist.gov/glossary/term/transmission.
+
+                                                       Page 4 of 5
+
+[8] Internal Revenue Service Tax Information Security Guidelines for Federal, State and Local
+Agencies. https://www.irs.gov/privacy-disclosure/safeguards-program.
+
+[9] Health Insurance Portability and Accountability Act of 1996 (HIPAA).
+https://aspe.hhs.gov/reports/health-insurance-portability-accountability-act-1996.
+
+[10] Privacy of Medicaid Data Records, the Code of Federal Regulations (at 45 CFR 95.621).
+https://www.hhs.gov/guidance/document/privacy-medicaid-data-records.
+
+[11] Medicaid Information Technology Architecture (MITA) 3.0.
+https://www.medicaid.gov/medicaid/data-systems/medicaid-information-technology-
+architecture/medicaid-information-technology-architecture-framework/index.html.
+
+[12] Criminal Justice Information Services (CJIS) Security Policy. https://le.fbi.gov/cjis-division/cjis-
+security-policy-resource-center.
+
+[13] Family Educational Rights and Privacy Act (FERPA).
+https://www2.ed.gov/policy/gen/guid/fpco/ferpa/index.html.
+
+[14] Hawaii State DOT, Motor Vehicle Driver’s License and related offices.
+https://hidot.hawaii.gov/highways/files/2018/02/Privacy_Policy_Stmnt_mvso-12-12-2017.pdf.
+
+[15] Driver's Privacy Protection Act (DPPA) H.R.3365 — 103rd Congress (1993-1994).
+https://www.law.cornell.edu/uscode/text/18/2721.
+
+[16] Critical Infrastructure Information, 6 USC CHAPTER 1, SUBCHAPTER XVIII, Part B
+https://www.cisa.gov/sites/default/files/publications/CII-Act.pdf.
+
+[17] International Organization for Standardization (ISO) 27001: Information security management
+systems. https://www.iso.org/standard/27001: https://www.iso.org/standard/27001.
+
+                                                Page 5 of 5

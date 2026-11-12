@@ -1,0 +1,23 @@
+TITLE 67
+STATE GOVERNMENT AND STATE AFFAIRS
+CHAPTER 8
+EXECUTIVE AND ADMINISTRATIVE OFFICERS — GOVERNOR AND LIEUTENANT-GOVERNOR
+67-833. GENERAL POWERS AND DUTIES OF THE AUTHORITY. The authority shall:
+(1) Review and evaluate the information technology and telecommunications systems presently in use by state agencies;
+(2) Prepare statewide short-range and long-range information technology and telecommunications systems plans to meet the needs of state agencies;
+(3) Within the context of its strategic plans, establish statewide information technology and telecommunications policies, standards, guidelines, conventions and comprehensive risk assessment criteria that will assure uniformity and compatibility of such systems within state agencies;
+(4) Recommend and coordinate the use and application of state agencies’ information technology and telecommunications resources;
+(5) Review and approve large-scale information technology and telecommunications projects for state agencies including, but not limited to, risk assessment methodologies used by state agencies using authority risk assessment criteria;
+(6) Review state agencies’ compliance with statewide information technology and telecommunications systems plans;
+(7) Recommend cost-efficient procedures for state agencies’ acquisition and procurement of information technology and telecommunications systems;
+(8) Upon request, provide technical expertise to state government and any other governmental entity;
+(9) Maintain a continuous and comprehensive inventory of information technology and telecommunications systems within state agencies;
+(10) In accordance with statutes governing the availability or confidentiality of public records and information, establish guidelines for the accessing of public information by the public;
+(11) On an annual basis, publish a report of the activities of the authority for the governor and the legislature;
+(12) Recommend the enactment or promulgation of any statutes or rules necessary to carry out the statewide information technology and telecommunications systems plans;
+(13) Enter into contracts for professional services and assistance not otherwise available in state government;
+(14) Encourage and promote cooperative information technology efforts and activities between the state, local government, private enterprise and the public;
+(15) Encourage and support education and training opportunities relating to information technology and telecommunications; and
+(16) Appoint subcommittees, delegate responsibilities and perform any additional functions consistent with the purpose of this act which are necessary and appropriate for the proper conduct of the authority.
+History:
+[67-833, added 2018, ch. 258, sec. 8, p. 613.]

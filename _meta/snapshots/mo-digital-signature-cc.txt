@@ -1,0 +1,97 @@
+                                     COMPLIANCE COMPONENT
+
+                                                       DEFINITION
+Name                  Digital Signature
+                      The digital signature is based on Public Key Infrastructure (PKI) and is a result of a cryptographic
+                      operation that guarantees signer authenticity, data integrity and non-repudiation of signed documents.
+Description           The digital signature cannot be copied, tampered or altered. In addition, because they are based on
+                      standard PKI technology, digital signatures made w ithin one application can be validated by others
+                      using the same applications.
+                      The purpose of a digital signature is to provide a means for an entity to bind its identity to
+Rationale
+                      data, and to detect unauthorized modifications to data.
+                      • Digital signatures eliminate the need for transmitting passwords for authentication,
+                          which reduces the threat of their compromise
+                      • Using a private key to generate digital signatures for authentication prevents an attacker
+                          from using the same information to masquerade as another entity and authenticate
+                          repeatedly.
+Benefits
+                      • Digital signatures provide security for electronic mail, electronic funds transfer (EFT),
+                          electronic data interchange (EDI), software distribution, data storage, and other
+                          applications that require data integrity assurance and data origin authentication.
+                      • Digital signatures provide a cost savings by eliminating the need to print and store hard
+                          copies.
+
+                                       ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name         Security
+Specify the Discipline Name     Technical Controls
+Specify the Technology Area
+                                Cryptography
+Name
+Specify the Product
+Component Name
+
+                                           COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+
+                                                 COMPLIANCE DETAIL
+                                •  There are three algorithms suitable for digital signature generation and
+                                   verification:
+                                        o Digital Signature Algorithm (DSA)
+                                        o Rivest-Shamir-Adleman, a reversible Digital Signature Algorithm
+State the Guideline, Standard                (RSA)
+or Legislation                          o Elliptic Curve Digital Signature Algorithm (ECDSA)
+                                • Digital signatures require a Public Key Infrastructure (PKI)
+                                • Users must guard against the unauthorized acquisition of their private keys,
+                                   because the security of a digital signature system is dependent on maintaining
+                                   the confidentiality of users' private keys
+                                NIST SP 800-135 Rev. 1, Recommendation for Existing
+Document Source Reference #
+                                Application-Specific Key Derivation Functions
+
+                                                 Compliance Sources
+                                National Institute of                             www.csrc.nist.gov/publications/
+                                Standards and Technology                          fips/index.html
+Name                            (NIST), Computer                   Website        http://csrc.nist.gov/publications/nistp
+                                Security Resource Center                          ubs/800-135-rev1/sp800-135-
+                                (CSRC)                                            rev1.pdf
+Contact Information             inquiries@nist.gov
+Name                                                               Website
+Contact Information
+
+                                                        KEYWORDS
+                                Public key, private key, PKI, DSA, RSA, ECDSA, authenticate, integrity, electronic
+List Keywords
+                                funds transfer (EFT), electronic data interchange (EDI), Cryptography
+
+                                             COMPONENT CLASSIFICATION
+Provide the Classification          Emerging                  Current                    Twilight           Sunset
+     Sunset Date
+
+                                           COMPONENT SUB-CLASSIFICATION
+Sub-Classification           Date                         Additional Sub-Classification Information
+    Technology Watch
+    Variance
+    Conditional Use
+
+                                     Rationale for Component Classification
+Document the Rationale for
+Component Classification
+                                                     Migration Strategy
+Document the Migration
+Strategy
+                                               Impact Position Statement
+Document the Position
+Statement on Impact
+
+                                                     CURRENT STATUS
+Provide the Current Status          In Development            Under Review               Approved          Rejected
+
+                                                        AUDIT TRAIL
+Creation Date                   04/13/2004                    Date Approved / Rejected     04/13/2004
+     Reason for Rejection
+Last Date Reviewed              02/26/2015                    Last Date Updated            7/15/2015
+     Reason for Update          Vitality

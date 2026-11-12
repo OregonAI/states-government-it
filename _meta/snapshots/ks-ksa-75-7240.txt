@@ -1,0 +1,19 @@
+75-7240. (a) The executive branch agency heads shall:
+(1) Be responsible for security of all data and information technology resources under such agency’s purview, irrespective of the location of the data or resources;
+(2) designate an information security officer to administer the agency’s information security program that reports directly to executive leadership;
+(3) participate in CISO-sponsored statewide cybersecurity program initiatives and services;
+(4) continuously work toward improving cybersecurity maturity consistent with statewide standards and expectations adopted by the executive CISO pursuant to K.S.A. 75-7238, and amendments thereto;
+(5) prior to acquiring any cybersecurity-related product, service or platform that may materially affect state systems, data or cybersecurity risks, consult with the executive CISO and obtain a written certificate from the executive CISO that such acquisition does not create a cybersecurity risk; and
+(6) ensure that if an agency owns, licenses or maintains computerized data that includes personal information, confidential information or information, the disclosure of which is regulated by law, such agency shall, in the event of a breach or suspected breach of system security or an unauthorized exposure of that information:
+(A) Comply with the notification requirements set out in K.S.A. 50-7a01 et seq., and amendments thereto, and applicable federal laws and rules and regulations, to the same extent as a person who conducts business in this state; and
+(B) not later than 12 hours after the discovery of the breach, suspected breach or unauthorized exposure, notify:
+(i) The CISO; and
+(ii) if the breach, suspected breach or unauthorized exposure involves election data, the secretary of state.
+(b) The director or head of each state agency shall:
+(1) Participate in annual agency leadership training to ensure understanding of:
+(A) The potential impact of common types of cyberattacks and data breaches on the agency’s operations and assets;
+(B) how cyberattacks and data breaches on the agency’s operations and assets may impact the operations and assets of other governmental entities on the state enterprise network;
+(C) how cyberattacks and data breaches occur; and
+(D) steps to be undertaken by the executive director or agency head and agency employees to protect their information and information systems; and
+(2) coordinate with the executive CISO to implement the security standard described in K.S.A. 75-7238, and amendments thereto.
+[2026 Session Laws of Kansas, chapter 53, House Bill No. 2574, section 15. Approved April 6, 2026.]

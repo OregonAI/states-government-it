@@ -1,0 +1,45 @@
+                    FINANCE AND ADMINISTRATION CABINET
+                        Commonwealth Office of Technology
+                          (Amended at ARRS Committee)
+200 KAR 1:016. Data breach notification forms.
+   RELATES TO: KRS 61.931, 61.932, 61.933
+   STATUTORY AUTHORITY: KRS 42.726(3)(b), 61.932(2)(b)2., 61.933
+   NECESSITY, FUNCTION, AND CONFORMITY: KRS 42.726(3)(b) authorizes the
+Finance and Administration Cabinet, Commonwealth Office of Technology (COT) to
+promulgate administrative regulations relating to COT's duties. KRS 61.933 specifically
+authorizes COT to promulgate administrative regulations prescribing the notification form
+to be used by state agencies and nonaffiliated third parties when they suspect or have
+determined that a breach of personal information has occurred with respect to personal
+information that the state agency or nonaffiliated third party maintains or otherwise
+possesses on behalf of another agency. KRS 61.932(2)(b)2. specifically authorizes COT to
+promulgate administrative regulations prescribing the form to be used if a law enforcement
+agency has requested a delay in notification of a security breach to allow for investigation
+of the breach. This administrative regulation establishes the data breach notification forms.
+Section 1. Administrative – Required Forms.
+  (1) Finance Form FAC-001, Suspected and Determined Breach Notification Form, or a
+  form substantially similar thereto, shall be completed by a state agency or nonaffiliated
+  third party to provide written notification of a suspected or determined security breach of
+  personal information collected, maintained, or stored by the agency or nonaffiliated third
+  party.
+  (2) Finance Form FAC-002, Delay Notification Record, or a form substantially similar
+  thereto, shall be completed by a state agency or nonaffiliated third party if the notification
+  of a suspected or determined breach of personal information collected, maintained, or
+  stored by the agency or nonaffiliated third party has been delayed pursuant to a request
+  from a law enforcement agency or with the approval of the Office of the Attorney
+  General. All documentation related to the delay shall be attached to the form.
+Section 2. Incorporation by Reference.
+  (1) The following material is incorporated by reference:
+     (a) "Finance Form FAC-001, Suspected and Determined Breach Notification Form",
+     September 13, 2022; and
+     (b) "Finance Form FAC-002, Delay Notification Record", September 13, 2022.
+  (2) This material may be inspected, copied, or obtained, subject to applicable copyright
+  law, at the Commonwealth Office of Technology, 101 Cold Harbor Drive, Frankfort,
+  Kentucky 40601, Monday through Friday, 8 a.m. to 5 p.m., and on the Finance and
+  Administration       Cabinet's     Web       site,    https://finance.ky.gov/office-of-the-
+  secretary/Pages/finance-forms.aspx.
+(49 Ky.R. 190, 758; eff. 1-3-2023.)
+  FILED WITH LRC: September 13, 2022
+  CONTACT PERSON: Robin Goodlett, Administrative Specialist III, Office of General
+Counsel, Finance and Administration Cabinet, 200 Mero Street, 5th Floor, Frankfort,
+Kentucky 40622, phone (502) 564-6660, fax (502) 564-9875, email
+RobinM.Goodlett@ky.gov.

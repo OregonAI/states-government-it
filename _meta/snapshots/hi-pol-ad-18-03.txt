@@ -1,0 +1,139 @@
+                                EXECUTIVE CHAM BERS
+                                        HONOLULU
+
+DAVID Y. IGE
+ GOVERNOR
+
+                                  September 25, 2018
+
+ADMINISTRATIVE DIRECTIVE NO. 18-03
+
+TO:            All Executive Branch Department Heads
+
+FROM:          David Y. Ige
+               Governor
+
+SUBJECT:       Program Governance and Independent Verification and Validation
+               Requirements for Enterprise IT Projects
+
+PURPOSE
+
+The purpose of this Administrative Directive is to update and clarify the mandatory
+governance process for Executive Branch enterprise information technology (IT)
+programs and projects ensuring they achieve intended objectives and provide maximum
+return on investment for the people of Hawai`i. Through this IT governance process, we
+will continue to make reforms that maximize the effective use of IT resources, increase
+efficiency, reduce waste, and improve transparency and accountability. Effective
+immediately, Administrative Directive No. 11-02, dated September 29, 2011, and No.
+15-02, dated December 10, 2015, are rescinded.
+
+DIRECTIVE
+
+1. Pursuant to section 27-43, Hawai‘i Revised Statutes (HRS), the Office of Enterprise
+   Technology Services (ETS) is headed by the Chief Information Officer (CIO) to
+   organize, manage, and oversee statewide IT governance. To implement this
+   requirement, all IT projects that meet any of the following criteria must adhere to the
+   program governance process described in this memorandum, effective immediately:
+
+    a. IT projects or contracts valued at $1,000,000 or more, inclusive of the value for
+       options to extend and all other provisions of the contract;
+    b. IT projects or contracts which require CIO oversight, as required by an Act of the
+       legislature or the Governor; or
+
+Administrative Directive No.18-03
+September 25, 2018
+Page 2
+
+   c. IT projects or contracts identified by the CIO, typically those that will leverage
+      business and operational efficiencies and benefits for multiple departments or
+      agencies.
+
+2. The program governance process for enterprise IT projects consists of project phase
+   review gates to ensure project execution and associated expenditures are
+   sufficiently evaluated and receive approval by the appropriate governing body as
+   referenced below.
+
+   a. IT Roadmapping Phase: Departments must develop and maintain their multi-
+      year IT Roadmaps, which identify all existing and planned expenditures for IT
+      projects, operations and maintenance, hardware, software, infrastructure, and
+      services in support of Department and Administration priorities. Departments will
+      meet with the CIO and ETS’ IT Governance staff on a monthly basis to review
+      and validate their IT Roadmaps.
+
+   b. Budgeting Phase: As part of the State’s Executive Branch annual budget
+      preparation process, the Department of Budget and Finance (B&F) will send ETS
+      all Department IT budget requests for review. ETS’ IT Governance staff will
+      review and analyze the requests, validating each against the Department IT
+      Roadmaps. The CIO will then recommend to BUF which requests merit
+      consideration for inclusion into the proposed budget.
+
+   c. Initiating Phase: All requested funds for the project or initiative must be secured
+      by and available to the Department prior to starting this phase. Departments
+      must submit notification of project or investment initiation requests via the
+      ETS205 request to spend form with supporting documentation. ETS’ IT
+      Governance staff will analyze the request and meet with the CIO to review and
+      recommend whether the request can proceed to the Planning phase.
+
+   d. Planning Phase: The Project Advisory Council (PAC) will review and approve
+      the project before it proceeds to the Procurement phase. Departments will
+      present their requests to the PAC, which generally meets once a month. The
+      PAC voting members are the CIO, the Department of Accounting and General
+      Services (DAGS) Comptroller, the Director of Finance (B&F), and the Director of
+      Human Resources Development (DHRD). Information to be presented includes
+      (but is not limited to) return on investment, alternatives considered, total
+      estimated costs, business justification, project requirements, phases,
+      deliverables, funding mechanism, personnel impact, procurement method,
+      contract management approach, and schedule.
+
+   e. Procurement Phase: Requests for proposals, quotes, or bids and the
+      corresponding statements of work must be reviewed and approved by the CIO
+      before being released as final. After a vendor has been selected, best and final
+      contract versions must be reviewed and approved by the CIO before final
+
+Administrative Directive No.18-03
+September 25, 2018
+Page 3
+
+      execution. This is to ensure solicitation and contract documents are appropriately
+      aligned with the project objectives for project success, and appropriate
+      safeguards are in place to protect state interests.
+
+   f. Contract and Operations Phase: Within 30 days of the notice to proceed date,
+      project implementation schedules and supporting documentation must be
+      reviewed by the ETS IT Governance staff. Thereafter, departments shall submit
+      quarterly status updates to ETS to monitor progress and ensure production
+      readiness.
+
+   Note: This process does not negate but rather is intended to complement
+   departments/agencies’ continued compliance with Annual Budget Execution policy,
+   which remains in effect for all new or operational and maintenance type IT
+   investments.
+
+3. Pursuant to section 27-43.6, HRS, the CIO shall have full discretion in identifying the
+   projects of the executive branch, including those of the Department of Education,
+   that will be subject to independent verification and validation (IV&V) where the IT
+   project meets any of the following criteria:
+
+   a. accomplishes critical state and/or department priorities;
+   b. has statutory, regulatory, or judicial mandates;
+   c. is highly complex, broad in functionality, require significant organizational change
+      management, or support a large stakeholder base;
+   d. has histories of difficult and challenging system implementations; and/or
+   e. is a new implementation, replacement, or complete system redesign.
+
+   Departments, except for the University of Hawai‘i System, are responsible for
+   funding IV&V services. ETS is responsible for procuring, administering, managing,
+   and providing governance over the IV&V services. When an IT project has been
+   identified for IV&V, the CIO will contact the sponsoring department or agency and
+   communicate expectations for procurement, management, oversight, and reporting
+   of the IV&V. Once the IV&V commences, all reports, including drafts, must be
+   submitted to the CIO at the same time they are submitted to the sponsoring
+   department or agency to preserve the integrity of the process.
+
+The CIO and ETS will direct and coordinate these processes with each of your
+departments on my behalf. Your cooperation and support in complying with the
+provisions of this Administrative Directive are greatly appreciated.
+
+                                                Oct 1, 2018
+David Y. Ige                                    Date
+Governor, State of Hawai`i

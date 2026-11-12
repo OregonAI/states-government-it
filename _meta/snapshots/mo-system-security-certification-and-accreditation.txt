@@ -1,0 +1,44 @@
+                                             TECHNOLOGY AREA
+
+                                                         DEFINITION
+Name                       System Security Certification and Accreditation
+                           System Security Certification is a technical evaluation that determines if all security
+                           requirements are met, including all applicable federal, state and agency policies,
+                           regulations, and standards. The certification process precedes the accreditation process.
+
+Description                System Security Accreditation is the authorization and approval, granted to an IT resource
+                           (systems and applications) to operate in a production environment. Through System
+                           Security Accreditation, the security of a resource is analyzed and submitted for approval
+                           to the appropriate senior management official.
+                           System Security Certification and Accreditation helps to safeguard sensitive IT resources
+Rationale                  that require protection for confidentiality, integrity or availability.
+                           •   System Security Certification ensures that the resource security safeguards are
+                               appropriate
+Benefits                   •   System Security Accreditation provides the approving authority a clear understanding
+                               of the resource’s operational readiness
+                           •   Establishes complete, reliable, and trustworthy IT resources
+
+                                         ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name           Security
+Specify the Discipline Name       Management Controls
+
+                                                         KEYWORDS
+List Keywords
+
+                                       ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance
+                                  •    System Security Certification and Accreditation Process
+Component Names
+
+                                         ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                                       CURRENT STATUS
+Provide the Current Status            In Development         Under Review           Approved            Rejected
+
+                                                         AUDIT TRAIL
+Creation Date                     06/08/06                      Date Approved / Rejected   07/28/2021
+    Reason for Rejection
+Last Date Reviewed                07/13/2021                    Last Date Updated
+    Reason for Update             Vitality

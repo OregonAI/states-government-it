@@ -1,0 +1,524 @@
+# Arizona seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-11 through the toolkit Fetcher: the Legislature's Arizona Revised Statutes (the index of all 49 titles and
+# every section seeded), the Governor's executive order list (all five pages) and order pages, and the Cloudflare-challenged
+# agency and Secretary of State hosts (measured, see the stubs and left_out).
+sources:
+
+  # ---- Statutes: one static page per section on the Legislature's own host (www.azleg.gov/ars/<title>/<nnnnn>.htm)
+  - id: az-ars-18-101
+    sha256: "22d5eeca1d2a05400b6593846d8ee845b2a5093c8c912bebf6668ac22abbabcd"
+    url: "https://www.azleg.gov/ars/18/00101.htm"
+    format: html
+    citation: "A.R.S. 18-101"
+    title: 18-101 - Definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: 'Definitions for the government information technology chapter: budget unit, committee, department (the department of administration), director, disaster recovery and information technology.'
+
+  - id: az-ars-18-102
+    sha256: "832121e386dcb7a957c70c190b35d6c4790fb8c915c0e3ad39ff8fa2ff90a246"
+    url: "https://www.azleg.gov/ars/18/00102.htm"
+    format: html
+    citation: "A.R.S. 18-102"
+    title: 18-102 - Government information technology
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Makes the department of administration responsible for government information technology functions as prescribed in chapter 1.
+
+  - id: az-ars-18-103
+    sha256: "ddb2e69864a0e71a3880ee09b62e38be7417f0f78d586fbccd4d802d98077d64"
+    url: "https://www.azleg.gov/ars/18/00103.htm"
+    format: html
+    citation: "A.R.S. 18-103"
+    title: 18-103 - Powers and duties of director
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: The director's duties for government information technology, starting with appointing a chief information officer for information technology; sets minimum qualifications and staffing for the department's information technology positions.
+
+  - id: az-ars-18-104
+    sha256: "d7a82a65210456c0cfa4594b4245f18838d96c172dc061d0c676bc9f1016ae90"
+    url: "https://www.azleg.gov/ars/18/00104.htm"
+    format: html
+    citation: "A.R.S. 18-104"
+    title: 18-104 - Powers and duties of the department; violation; classification
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance, oversight, cybersecurity, data, cloud-resilience]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: 'The enabling statute for the Department of Administration''s statewide information technology role: the statewide information technology plan and standards, approval or rejection of budget unit plans and projects by cost threshold (referral to the information technology authorization committee above $1,000,000, independent third-party review above $5,000,000), monitoring and suspension of failing projects, the statewide data strategic plan, disaster recovery, the enterprise-level infrastructure (with the statewide information security and privacy office managing its security aspects) and strategies to protect the infrastructure and data.'
+
+  - id: az-ars-18-106
+    sha256: "bcdc688ef59f9dc5cb67b1bb76536583140dff94556fc8649028558ffe291eca"
+    url: "https://www.azleg.gov/ars/18/00106.htm"
+    format: html
+    citation: "A.R.S. 18-106"
+    title: 18-106 - Electronic and digital signatures; exemptions; definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [digital-services]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: The department's duty to adopt policies or rules on electronic and digital signatures for all state agencies, boards and commissions, and the effect and requirements of an electronic signature on documents filed with or by them.
+
+  - id: az-ars-18-121
+    sha256: "62391378df12443fe8668efb98b87db244fbe200b7f7c0e0b054bc986957b09e"
+    url: "https://www.azleg.gov/ars/18/00121.htm"
+    format: html
+    citation: "A.R.S. 18-121"
+    title: 18-121 - Information technology authorization committee; members; terms; duties; compensation; definition
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance, oversight]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: 'Establishes the information technology authorization committee (its members include the statewide chief information security officer) and its duties: review of statewide standards and the plan, and approval or disapproval of information technology projects over $1,000,000.'
+
+  - id: az-ars-18-131
+    sha256: "dafab99177605e710a843858ee6561e94b03e307d2c8d40ad34c42cb3aee4a8c"
+    url: "https://www.azleg.gov/ars/18/00131.htm"
+    format: html
+    citation: "A.R.S. 18-131"
+    title: 18-131 - Definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [digital-services]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Definitions for the article on alternative access to electronic or information technology (disability, electronic or information technology).
+
+  - id: az-ars-18-132
+    sha256: "913450b5ab6d6e14f30cdc52d9efc367a258b3cf5a5b7f7b3dbca094115d7b79"
+    url: "https://www.azleg.gov/ars/18/00132.htm"
+    format: html
+    citation: "A.R.S. 18-132"
+    title: 18-132 - Alternative methods of access to electronic or information technology; complaint procedure; rules
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [digital-services, procurement]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Requires a budget unit developing, procuring, maintaining or using electronic or information technology with state monies to provide comparable access for individuals with disabilities under the section 508 standards, extends this to its vendors, and has the department establish a complaint procedure and adopt rules.
+
+  - id: az-ars-18-201
+    sha256: "013fc98d000dc8bb9a87ecccd5d51936201bddaafa62c63a4dd6f8f966afb34a"
+    url: "https://www.azleg.gov/ars/18/00201.htm"
+    format: html
+    citation: "A.R.S. 18-201"
+    title: 18-201 - Definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [digital-services, data]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: 'Definitions for the article titled Acceptable Use Policy: agency, agency web site and privacy policy statement.'
+
+  - id: az-ars-18-202
+    sha256: "1e6309d76578f597c55fd03d1e732bd73362f39ac5753103bf94a22d48bde0c2"
+    url: "https://www.azleg.gov/ars/18/00202.htm"
+    format: html
+    citation: "A.R.S. 18-202"
+    title: 18-202 - Obligations of state agencies obtaining information on line
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [data, digital-services]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Requires an agency web site provided by the state to carry a privacy policy statement describing the agency's information practices (what the site provides, what information it obtains, how it is used and disclosed).
+
+  - id: az-ars-18-203
+    sha256: "066a9af1b2d532e7739adb54656953c3df03fb7b569d6f62365c558cb574c210"
+    url: "https://www.azleg.gov/ars/18/00203.htm"
+    format: html
+    citation: "A.R.S. 18-203"
+    title: 18-203 - Agency reports; availability on line
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [digital-services]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Requires an agency that maintains a web site to post its annual reports there and limits printed distribution.
+
+  - id: az-ars-18-401
+    sha256: "b8b3c7cdd319f2e4016921985ae41336a4d410c41aa49c01de80f829f031a535"
+    url: "https://www.azleg.gov/ars/18/00401.htm"
+    format: html
+    citation: "A.R.S. 18-401"
+    title: 18-401 - Information technology fund
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [funding]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Establishes the information technology fund for the department and the committee and the pro rata share of the cost of information technology services that state agencies, budget units and the legislative and judicial branches contribute.
+
+  - id: az-ars-18-421
+    sha256: "696f144b996727c8c0d12f50960c9ae0f391d6de384779f8f66360a986c0699d"
+    url: "https://www.azleg.gov/ars/18/00421.htm"
+    format: html
+    citation: "A.R.S. 18-421"
+    title: 18-421 - State web portal fund; exemption
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [funding, digital-services]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Establishes the state web portal fund, administered by the department, and what it consists of (including web portal usage fees).
+
+  - id: az-ars-18-422
+    sha256: "4e3915d70b560fddfbbf05bd7fae70d707b883f379a47e46ac2fe436ed65d40c"
+    url: "https://www.azleg.gov/ars/18/00422.htm"
+    format: html
+    citation: "A.R.S. 18-422"
+    title: 18-422 - State agencies; third-party electronic service provider authorization; definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [digital-services]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Lets a state agency authorize a third-party electronic service provider by written agreement, selected by competitive bid, to provide electronic transmission services.
+
+  - id: az-ars-18-521
+    sha256: "167c45a5a20ed085a3827b1b1f119a1f9bd8fd9cb05dc0c4da9a7a2bcc652212"
+    url: "https://www.azleg.gov/ars/18/00521.htm"
+    format: html
+    citation: "A.R.S. 18-521"
+    title: 18-521 - Definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [data, cybersecurity]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Definitions for the article on government anti-identification procedures; a governmental agency includes state agencies, counties, cities and towns and other political subdivisions.
+
+  - id: az-ars-18-522
+    sha256: "0428869dbdfd31a5b8573628a1c0adfcb602775369550f67312f5ff33d04dac0"
+    url: "https://www.azleg.gov/ars/18/00522.htm"
+    format: html
+    citation: "A.R.S. 18-522"
+    title: 18-522 - Anti-identification procedures
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [data, cybersecurity]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Requires a governmental agency to establish commercially reasonable procedures so that entity identifying information or personal identifying information it collects is secure and cannot be accessed unless authorized by law.
+
+  - id: az-ars-18-551
+    sha256: "b9f792f27f8b5f8d49480e6200ae406e67dd2749be4d6cd0b05c341926ecac36"
+    url: "https://www.azleg.gov/ars/18/00551.htm"
+    format: html
+    citation: "A.R.S. 18-551"
+    title: 18-551 - Definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [cybersecurity, data]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: Definitions for the data security breach article (breach, security incident and others). Its definition of person includes a government or governmental subdivision or agency, so the article binds state agencies; section 41-4281 takes its definitions of breach and security incident from here.
+
+  - id: az-ars-18-552
+    sha256: "b72de5622bb964f19fb961d9e2ac8912f21eaa3d72dde4a24402eebf5bc8e15f"
+    url: "https://www.azleg.gov/ars/18/00552.htm"
+    format: html
+    citation: "A.R.S. 18-552"
+    title: 18-552 - Notification of security system breaches; requirements; enforcement; confidentiality; civil penalty; preemption; exceptions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [cybersecurity, data]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=18"
+    why_relevant: 'The security system breach notification statute: the duty of a person (defined in 18-551 to include a government or governmental subdivision or agency) to investigate and notify affected individuals, the attorney general and consumer reporting agencies, with enforcement and civil penalty.'
+
+  - id: az-ars-41-4252
+    sha256: "b01954d6a4b7d6a4b9f5bfb5afc06a0df2236cb048fc2d22b12563881b92737d"
+    url: "https://www.azleg.gov/ars/41/04252.htm"
+    format: html
+    citation: "A.R.S. 41-4252"
+    title: 41-4252 - Arizona department of homeland security; director; deputy director; assistant directors; divisions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance, cybersecurity]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=41"
+    why_relevant: Establishes the Arizona department of homeland security and its director, who appoints a statewide chief information security officer; the director may be qualified by cybersecurity background.
+
+  - id: az-ars-41-4254
+    sha256: "6d9e55ccfa42410fe32dffa6c462b0e9ba73a7a886e146d50d7eff292cfea906"
+    url: "https://www.azleg.gov/ars/41/04254.htm"
+    format: html
+    citation: "A.R.S. 41-4254"
+    title: 41-4254 - Department duties
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=41"
+    why_relevant: The department of homeland security's duties, the first of which is to formulate policies, plans and programs to prevent and respond to acts of terrorism, cybersecurity threats and other critical hazards.
+
+  - id: az-ars-41-4281
+    sha256: "9832a4ed863ea9143c204986d4d3fad2230bf670f50cdbc86078d2c4a1f137b9"
+    url: "https://www.azleg.gov/ars/41/04281.htm"
+    format: html
+    citation: "A.R.S. 41-4281"
+    title: 41-4281 - Definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=41"
+    why_relevant: Definitions for the statewide information security and privacy office article, taking breach, budget unit, information technology and security incident from sections 18-551 and 18-101.
+
+  - id: az-ars-41-4282
+    sha256: "0d670f2023558c8aa79aa08acf9b83bde9b8f4bb3f98eaa29b30fd82218c7e8d"
+    url: "https://www.azleg.gov/ars/41/04282.htm"
+    format: html
+    citation: "A.R.S. 41-4282"
+    title: 41-4282 - Statewide information security and privacy office; duties; suspension of budget unit's information infrastructure
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=41"
+    why_relevant: 'Establishes the statewide information security and privacy office in the department of homeland security as the strategic planning, facilitation and coordination office for information security in the state: statewide security policies, compliance reviews of each budget unit, the state security operations center, and the power to temporarily suspend operation of information infrastructure to stop the spread of a breach.'
+
+  - id: az-ars-41-710
+    sha256: "a6a63024c044b2f59ffe796a366f22acd1e58e730fd3a6a8a9421b6619be2881"
+    url: "https://www.azleg.gov/ars/41/00710.htm"
+    format: html
+    citation: "A.R.S. 41-710"
+    title: 41-710 - Information technology personnel; criminal history records; definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance, cybersecurity]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=41"
+    why_relevant: Requires applicants for and incumbents of information technology positions in the department of administration to be fingerprinted for a criminal records check.
+
+  - id: az-ars-41-711
+    sha256: "49180216b637c7cda80f3c178355bbcc928f7b77e187f8b3e3052c93936e59c2"
+    url: "https://www.azleg.gov/ars/41/00711.htm"
+    format: html
+    citation: "A.R.S. 41-711"
+    title: 41-711 - Establishment of automation operation center; fund; report
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [cloud-resilience, funding]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=41"
+    why_relevant: Lets the department of administration establish an automation operation center for state government and establishes the automation operations fund and its annual report.
+
+  - id: az-ars-41-714
+    sha256: "760ebd4bb621783789ae8c2458883269fd4f56054892d3dc8780ffa3d56f6c67"
+    url: "https://www.azleg.gov/ars/41/00714.htm"
+    format: html
+    citation: "A.R.S. 41-714"
+    title: 41-714 - Automation projects fund; subaccounts; exemption; annual report; purpose; joint legislative budget committee review
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [funding, oversight]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=41"
+    why_relevant: Establishes the automation projects fund with a subaccount for each agency's automation and information technology projects, and joint legislative budget committee review of the expenditure plan.
+
+  - id: az-ars-38-448
+    sha256: "2872310500a5a8fa605043d81bb55f7ff2f3c5818297ba04feefffd33a23ae5b"
+    url: "https://www.azleg.gov/ars/38/00448.htm"
+    format: html
+    citation: "A.R.S. 38-448"
+    title: 38-448 - State employees; access to internet pornography prohibited; cause for dismissal; definitions
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=38"
+    why_relevant: Prohibits an agency employee from knowingly using agency owned or leased computer equipment to access, download, print or store pornographic files or services, with cause for dismissal.
+
+  - id: az-ars-26-183
+    sha256: "68a754adbfd3707e384ee1f2c56684492c1e7649c8f609db1a08f10d2e5551b7"
+    url: "https://www.azleg.gov/ars/26/00183.htm"
+    format: html
+    citation: "A.R.S. 26-183"
+    title: 26-183 - National guard cyber-attack prevention, response and support activities; cyber response revolving fund; purpose; exemption
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=26"
+    why_relevant: Authorizes the Arizona national guard to engage in cyber-attack prevention, response and support activities for the state and political subdivisions and establishes the national guard cyber response revolving fund.
+
+  - id: az-ars-44-7041
+    sha256: "c1f66a6307df29e4e605735c09d1cc1634efcc3cc20ccc3993873725274b58ae"
+    url: "https://www.azleg.gov/ars/44/07041.htm"
+    format: html
+    citation: "A.R.S. 44-7041"
+    title: 44-7041 - Creation; retention; conversion of written records
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [data, digital-services]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=44"
+    why_relevant: 'Under the Uniform Electronic Transactions Act''s governmental electronic records article: each governmental agency decides whether to create and retain electronic records; state agencies must comply with the standards the department of administration adopts under title 18, chapter 1.'
+
+  - id: az-ars-44-7042
+    sha256: "ee40258c14932f569486dbc01070f195e67cb4ee5df33271937a160934fbb0bf"
+    url: "https://www.azleg.gov/ars/44/07042.htm"
+    format: html
+    citation: "A.R.S. 44-7042"
+    title: 44-7042 - Sending and accepting electronic records; exemption
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [digital-services]
+    recheck: monthly
+    found_via: "https://www.azleg.gov/arsDetail?title=44"
+    why_relevant: State agencies must accept electronic records and signatures and comply with the department of administration's standards and policies under title 18, chapter 1; other governmental agencies decide for themselves.
+
+  # ---- Executive order: the Governor's own order page (born-digital HTML; the PDF beside it is an image-only scan)
+  - id: az-eo-2023-10
+    sha256: "877f95497568a1edc6ccef600bfa81a60b4a67d5f199afa32f22feeeeb1f17af"
+    url: "https://azgovernor.gov/office-arizona-governor/executive-order/executive-order-2023-10"
+    format: html
+    citation: "Executive Order 2023-10"
+    title: "Protecting the State's Cybersecurity Interests"
+    doc_type: executive_order
+    jurisdiction: arizona
+    issuing_body: Office of the Governor
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    found_via: "https://azgovernor.gov/executive-orders (the Governor's list, page 1 to 5; the order's own page)"
+    why_relevant: "Governor Hobbs' April 4, 2023 order: all state agencies remove TikTok from state-owned and state-leased information technology and from personal devices used for state work, the Department of Administration and the Department of Homeland Security jointly plan the prohibition of download and access, and report each December 1 on other applications that may need to be restricted, with an exception request process. The text is the order page's HTML (the page prints the order through section 9 but not the signature and seal block). The page's PDF (https://azgovernor.gov/sites/default/files/eo_2023-10_protecting_the_states_cybersecurity_interests.pdf) is an image-only scan (no text layer) and was read by OCR in the first pass; the page was preferred because OCR left visible misreadings. The order is not among those repealed by Executive Orders 2023-21 or 2025-11 (the repealed lists were read)."
+
+  # ---- Index pages, watched
+  - id: az-watch-ars-title-18
+    sha256: ""
+    url: "https://www.azleg.gov/arsDetail?title=18"
+    format: html
+    citation: "Arizona Legislature page: A.R.S. Title 18, Information Technology"
+    title: "A.R.S. Title 18 - Information Technology (section index)"
+    doc_type: statute
+    jurisdiction: arizona
+    issuing_body: Arizona Legislature
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Legislature's list of every section of Title 18 (chapters 1 to 7). Where a new section in the government information technology chapters would appear."
+  - id: az-watch-governor-eo-list
+    sha256: ""
+    url: "https://azgovernor.gov/executive-orders"
+    format: html
+    citation: "Governor's page: Executive Orders"
+    title: "Governor of Arizona: Executive Orders (list)"
+    doc_type: executive_order
+    jurisdiction: arizona
+    issuing_body: Office of the Governor
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "Lists the executive orders of Governor Hobbs, newest first, five pages (2023-01 to 2026-03 at the first reading); where a new order on state IT, cybersecurity, data or AI would appear."
+
+  # ---- Stubs: the agencies' own hosts answer the Fetcher with a Cloudflare managed challenge
+  - id: az-aset-policy-library
+    sha256: ""
+    url: "https://aset.az.gov/policies-standards-and-procedures"
+    format: html
+    citation: "Arizona Department of Administration (ASET): statewide IT policy library"
+    title: "Arizona Department of Administration (ASET): statewide IT policy library (index URL from discovery; page unreadable)"
+    doc_type: policy
+    jurisdiction: arizona
+    issuing_body: "Arizona Department of Administration, Arizona Strategic Enterprise Technology (ASET)"
+    tags: [governance, cybersecurity, ai]
+    recheck: monthly
+    stub: true
+    stub_reason: "The statewide IT policy, standards and procedures library could not be read, so no row of it is seeded. Measured 2026-11-11 through the toolkit Fetcher (make_fetcher, curl_on_challenge on, toolkit v1.37.1): HTTP 403, 'Cloudflare managed challenge', for this url, for the same page on aset.azdoa.gov, for a policy PDF under aset.az.gov/sites/default/files and one under aset.azdoa.gov/sites/default/files, and for the home pages aset.az.gov, azdoa.gov and doa.az.gov. The challenge is recorded as it is; no other client, internal feed or endpoint was tried. The entry's url comes from web-search results (discovery only) and its title is neutral because no page wording was read; neither is from fetched bytes, which is why it is a stub and not a watch page: a monthly drift run could not read it either."
+    found_via: "web search (discovery only; page unreadable through the Fetcher)"
+    why_relevant: "The state's policy library: the Statewide IT policies, standards and procedures (PSPs) the State Chief Information Officer issues under A.R.S. 18-104, including the generative AI policy. Most of this domain would be here."
+  - id: az-dohs-security-psp-library
+    sha256: ""
+    url: "https://azdohs.gov/information-security-policies-standards-and-procedures"
+    format: html
+    citation: "Arizona Department of Homeland Security: statewide information security policies, standards and procedures"
+    title: "Arizona Department of Homeland Security: statewide information security policy library under A.R.S. 41-4282 (index URL from discovery; page unreadable)"
+    doc_type: policy
+    jurisdiction: arizona
+    issuing_body: "Arizona Department of Homeland Security, Statewide Information Security and Privacy Office"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "The statewide information security policy library (the P8000 series of policies, standards and procedures issued by the Department of Homeland Security's statewide information security and privacy office under A.R.S. 41-4282) could not be read, so no row of it is seeded. Measured through the toolkit Fetcher (make_fetcher, curl transport on, toolkit v1.37.1): HTTP 403, 'Cloudflare managed challenge', for this url, for the same page on www.azdohsgrants.az.gov, and for the home page azdohs.gov (all three re-measured in this pass). The challenge is recorded as it is; no other client, internal feed or endpoint was tried. The url and the library's description come from discovery (web search and the statute 41-4282, not from a page of the library), not from fetched bytes; the title is neutral for that reason. Not confirmed in bytes."
+    found_via: "web search (discovery only; page unreadable through the Fetcher)"
+    why_relevant: "The state's information security policies, standards and procedures: the security half of the statewide IT policy domain, a second official listing beside the Department of Administration's library."
+  - id: az-aac-code-toc
+    sha256: ""
+    url: "https://apps.azsos.gov/public_services/CodeTOC.htm"
+    format: html
+    citation: "Arizona Administrative Code: table of contents"
+    title: "Arizona Administrative Code (Secretary of State): Table of Contents"
+    doc_type: rule
+    jurisdiction: arizona
+    issuing_body: "Arizona Secretary of State"
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "The Arizona Administrative Code could not be read, so no rule is seeded. Measured 2026-11-11 through the toolkit Fetcher (make_fetcher, curl transport on, toolkit v1.37.1): HTTP 403, 'Cloudflare managed challenge', for this url (the lead in issue #25) and for https://azsos.gov/rules and https://azsos.gov/rules/arizona-administrative-code. The challenge is recorded as it is. Which rule chapters the Department of Administration or the Department of Homeland Security hold on information technology is therefore unconfirmed in bytes and none is named here."
+    found_via: "issue #25 lead; confirmed to answer HTTP 403 (challenge)"
+    why_relevant: "The official table of contents of the Administrative Code, where the information technology rules of the Department of Administration (A.R.S. 18-104(A)(12), 18-132(C)) would be found."
+
+left_out:
+- text: '---- Arizona: found and left out (each reason is recorded here; items marked "named only in web search" were not seen in fetched bytes and are not verified)'
+- text: |-
+    Statutes: the index of every title of the Arizona Revised Statutes (titles 1 to 49, 49 pages) was read through the Fetcher and every section caption was searched for artificial intelligence, automated decision, algorithm, machine learning, generative, synthetic, deepfake, cyber, information security, information technology, data governance, breach, digital, website, privacy. NO STATUTE ON STATE-AGENCY USE OF AI WAS FOUND in the compilation as it stands (the Legislature's notice says it includes the 57th Legislature, 2nd Regular Session revisions). Two 2026 bills named only in web search, not verified: HB 2592 and HB 2311. Neither appears in the compilation, and bills not enacted are out of scope. The only AI captions found were private-law: A.R.S. 16-1023 and 16-1024 (digital impersonation and deepfakes of candidates; election law, out of scope).
+- text: |-
+    Statutes not seeded, read at their section pages:
+     - Title 18, chapter 3 (18-301 to 18-305): reporting by local governments and the state to the Department of Administration. 18-302 (web portal of local governments) and 18-303 (local expenditure reports) concern local government (out of scope); 18-304 (debt reporting) is budget law; 18-305 (state agencies may submit statutorily required reports electronically and must post them on the agency website) is a reporting rule, left out while 18-203, which the article titled Acceptable Use Policy holds, is seeded. OWNER DECISION on 18-305.
+     - 18-402 (statewide e-rate program fund): broadband and telecommunications for schools and libraries (out of scope: broadband). 18-441 (secretary of state data processing acquisition fund), 18-443 (secretary of state electronic database system for financial disclosures and lobbyist reporting) and 18-444 (financial disclosure statements): a single office's recording fee fund, a disclosure database and a disclosure duty; borderline, OWNER DECISION on 18-441 and 18-443.
+     - 18-501 to 18-504 (computer spyware), 18-541 to 18-544 (internet representations), 18-601 to 18-611 (property technology sandbox) and 18-701 (internet pornography age verification, a duty on websites): bind private persons, out of scope.
+     - 41-4251 (definitions), 41-4253 (department employees) and 41-4255 (annual homeland security allocation report): not about information security.
+     - 41-712 and 41-713 (telecommunications program office and fund): telecommunications is out of scope in domain.yml.
+     - 41-1969 (information technology personnel and employees with access to federal tax information, Department of Economic Security) and 36-113 (fingerprint clearance, information technology positions, Department of Health Services): agency-specific personnel clearance rules, left out while 41-710 (the Department of Administration's own) is seeded. OWNER DECISION.
+     - 41-622 (risk management revolving fund, which includes the cyber risk insurance fund): insurance and budget law. 41-2673 and the online bidding article (41-2661 and following) were seen in the index and not read: e-procurement and procurement code sections (non-IT chapters, OWNER DECISION on section slicing as for the other states).
+     - Records law: 41-151.* (state library, archives and public records, including 41-151.12 to 41-151.16 records management and 41-151.22 privacy of library user records), 39-101 and 39-121 and following (public records). General records and public information law, not IT-specific; 44-7041 and 44-7042 (which cite them) are seeded. OWNER DECISION on whether the records-management sections that cover electronic records enter.
+     - 41-1802 and 41-1803 (critical infrastructure information system, Department of Public Safety), 41-5504 to 41-5508 (Uniform Electronic Legal Material Act), 44-7001 and following (the rest of the Uniform Electronic Transactions Act: transactions between persons), 44-7601, 44-1373 (private-sector personal identifying information), 15-1045 and 15-1046 (pupil data privacy: K-12 edtech, out of scope), 16-625 (ballots: election systems, out of scope), 40-360.33 (one-call notification center data security: a utility service).
+     - 26-183 is seeded; the rest of Title 26 was not examined beyond its captions.
+- text: |-
+    Executive orders: the Governor's list (https://azgovernor.gov/executive-orders, pages 0 to 4 hold 50 orders, page 5 is empty) lists only Governor Hobbs' orders, 2023-01 to 2026-03; no filter for other governors was found on the page, and earlier governors' orders were not listed or read. One is seeded (2023-10). Read on their order pages and left out as not about state information technology: 2024-05 (continuity of operations and continuity of government planning: DEMA leads agency continuity plans; a general emergency order), 2025-14 (grants the Department of Homeland Security authority to receive criminal history record information on its own employees and applicants; personnel; it cites A.R.S. 41-4254), 2026-02 (state employees may not use nonpublic information for personal profit; ethics), 2023-21 and 2025-11 (repealers of earlier orders; 2023-21 repeals 2004-23, 2016-01, 2016-05, 2016-06, 2017-01, 2018-04, 2020-31, 2020-34, 2020-60, 2021-02, 2021-17, 2021-18, 2022-01 and 2022-03 (read by OCR of its scan, discovery only) and 2025-11 repeals 2011-08, 2013-02 and 2024-01 (read in page text); neither repeals 2023-10). Every other title on the list was read and is not about state IT, cybersecurity, data or AI. OWNER DECISION: earlier governors' orders still in force on state IT (the list does not show them); a reviewer with the Governor's archive can add them.
+- text: |-
+    Policy libraries (ASET and the Department of Homeland Security's information security library) and Administrative Code: unreadable (see the three stubs). Policies named only in web-search results, NOT in any byte fetched and therefore not seeded and not verified: P1000, P2000 and 2000PR (names only: a statewide IT governance policy, a generative AI policy and a companion procedure; named only in web search, not verified), and a P8000 series of information security policies (recorded as the stub az-dohs-security-psp-library). A reviewer able to read the ASET and Department of Homeland Security sites should reconcile the library row by row; zero rows could be reconciled in this run because the index could not be read. The statewide AI instrument most likely to exist is P2000 and its existence is unverified. OWNER DECISION on whether to add it as a stub of its own.

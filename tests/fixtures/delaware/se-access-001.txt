@@ -1,0 +1,206 @@
+                                                                    DELAWARE STATE-WIDE INFORMATION
+                                                       TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+             Standard ID:       SE-ACCESS-001
+
+                      Title:    Building Access Security Standard
+
+      Revision Number:          6
+
+                  Domain:       Security
+
+               Discipline:      Physical access
+
+                Effective:      11/17/2009
+               Reviewed:        7/20/2022
+             Approved by:       Chief Information Officer
+                 Sponsor:       Chief Security Officer
+
+I.      Authority, Applicability and Purpose
+       A. Authority: Title 29 Chapter 90C Delaware Code, §9004C – General Powers, duties and
+          functions of DTI “2) Create, implement and enforce statewide and agency technology solutions,
+          policies, standards and guidelines, including as recommended by the CIO”
+       B. Applicability: Applies to all State of Delaware communications and computing resources. DTI is
+          an Executive Branch Agency and has no authority over the customers in Legislative and Judicial
+          Branches, as well as Local Education Agencies, and other Federal and Local Government
+          entities that use these resources. However, all users, including these entities, must agree to
+          abide by all policies, standards promulgated by DTI as a condition of funding, and continued use
+          of these resources.
+       C. Purpose: The purpose of this standard is to establish consistency in both the quality and the
+          security of building access controls for State of Delaware facilities except school districts and
+          correctional/security facilities. It will meet the needs of the Division of Capitol Police regarding
+          building access, occupant identification and emergency access.
+
+II.          Scope
+        A.     Audience: This document is intended for IT personnel in State facilities, except school districts,
+               who are responsible implementing security mechanisms for buildings.
+        B.     Applicability: This standard will cover all State facilities except school districts and
+               correctional/security facilities.
+
+     These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+       Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+                                questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            Page 1 of 5
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+       C.    Areas Covered: This standard will address the type of cards to be used for secure access to
+             State facilities except school districts and correctional/security facilities. Also, it will address the
+             type of building security management system to be deployed in State facilities except school
+             districts and correctional/security facilities.
+       D.    Environments: With the exception of school districts and correctional/security facilities,
+             building access controls will be deployed in all State facilities that require restricted or managed
+             access.
+
+III.        Process
+       A.    Adoption: These standards have been adopted by the Department of Technology and
+             Information (DTI) through the Technology and Architecture Standards Committee (TASC) and
+             are applicable to all Information Technology use throughout the State of Delaware.
+       B.    Revision: Technology is constantly evolving; therefore the standards will need to be regularly
+             reviewed. It is the intent of the TASC to review each standard annually. The TASC is open to
+             suggestions and comments from knowledgeable individuals within the state, although we ask
+             that they be channeled through your Information Resource Manager (IRM).
+       C.    Contractors: Contractors or other third parties are required to comply with these standards
+             when proposing technology solutions to DTI or other state entities. Failure to do so could result
+             in rejection of the proposed technology solution. For further guidance, or to seek review of a
+             component that is not rated below, contact the TASC at dti_tasc@delaware.gov.
+       D.    Implementation responsibility: DTI and/or the organization’s technical staff will implement
+             this standard during the course of normal business activities, including business case review,
+             architectural review, project execution and the design, development, or support of systems.
+       E.    Enforcement: DTI will enforce this standard during the course of normal business activities,
+             including business case and architectural review of proposed projects and during the design,
+             development, or support of systems. This standard may also be enforced by others during the
+             course of their normal business activities, including audits and design reviews.
+       F.    Contact us: Any questions or comments should be directed to dti_tasc@delaware.gov.
+
+IV.         Definitions/Declarations
+       A. Definitions
+             1.   Contactless card: A smart card that uses radio frequencies to exchange information.
+                  Unlike a contact card, it needs no physical contact to be read by readers or terminals.
+                  Containing an embedded integrated circuit known as a "contactless chip," the card needs
+                  only to be waved near a reader to record transactions or to identify the user. Contactless-
+                  card systems are either passive, with the readers generating the frequency, or active, in
+                  which the card activates the reader.1
+
+1 Gartner, Inc -- http://www.gartner.com/6_help/glossary/GlossaryMain.jsp
+
+  These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+    Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+                             questions or comments should be directed to dti_tasc@delaware.gov.
+                                                         Page 2 of 5
+
+                                                                DELAWARE STATE-WIDE INFORMATION
+                                                   TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+            2.   Corporate 1000 Program: The Corporate 1000 Program card numbering scheme allows
+                 for a card format that is developed specifically for each individual end-user customer. Card
+                 numbers are tracked in the manufacturing process to ensure that card numbers are not
+                 duplicated.
+
+       B. Declarations
+            1.   Must support a 13.56Mhz contactless card
+            2.   Must be a part of the Corporate 1000 Program.
+
+V.        Definition of Ratings
+                           COMPONENT RATING                                                    USAGE NOTES
+
+     STANDARD – DTI offers internal support and/or has arranged for                      These components can be
+     external vendor support as well (where applicable). DTI believes the                used without explicit DTI
+     component is robust and solidly positioned in its product life cycle.               approval for both new
+                                                                                         projects and enhancement
+                                                                                         of existing systems.
+
+     DECLINING – Deprecated - DTI considers the component to be a                        Via the State’s waiver
+     likely candidate to have support discontinued in the near future. A                 process, these components
+     deprecated element is one becoming invalid or obsolete.                             must be explicitly approved
+                                                                                         by DTI for all projects. They
+                                                                                         must not be used for minor
+                                                                                         enhancement and system
+                                                                                         maintenance without explicit
+                                                                                         DTI approval via the State’s
+                                                                                         waiver process.
+
+     DISALLOWED – DTI declares the component to be unacceptable for                      No waiver requests for new
+     use and will actively intervene to disallow its use when discovered.                solutions with this component
+                                                                                         rating will be considered.
+
+            Missing Components – No conclusions should be inferred if a specific component is not listed.
+            Instead, contact the TASC to obtain further information.
+
+VI.       Component Assessments
+
+ These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+   Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+                            questions or comments should be directed to dti_tasc@delaware.gov.
+                                                        Page 3 of 5
+
+                                                               DELAWARE STATE-WIDE INFORMATION
+                                                  TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+                   Component                       Rating                               Comments
+           Building Access Security
+           Card
+              HID Proximity 125kHz               Disallowed       Acceptable only for organizations with existing
+                                                                  readers that accept ONLY HID Proximity 125kHz
+                                                                  cards. Agencies must take initiative to replace
+                                                                  these cards as they are a security risk. Time is of
+                                                                  the essence. 125KHz technology is being phased
+                                                                  out. Must be a part of the Corporate 1000
+                                                                  program.
+              iCLASS® 13.56MHz                    Standard        iCLASS technology only or multi-technology form
+                                                                  factor with HID 125kHz proximity. Multi-
+                                                                  technology cards should be used for organizations
+                                                                  that still have 125kHz card readers. This enables
+                                                                  future migrations to the more secure iCLASS
+                                                                  readers without needing to re-purchase
+                                                                  cards/credentials. New installations must include
+                                                                  encryption from the access card to the card
+                                                                  reader, the hardware control panel and finally the
+                                                                  server. Must be a part of the Corporate 1000
+                                                                  program.
+            Any card NOT purchased               Disallowed       Cards purchased through the State of Delaware
+              through the State of                                Corporate 1000 program ensure no duplication of
+            Delaware Corporate 1000                               credentials.
+                    program
+
+           Combination Physical and
+           Logical Access Cards
+
+              Crescendo                           Standard        To be used when a single card for logical and
+                                                                  physical access is required. Must be a part of
+                                                                  the Corporate 1000 program.
+           Card Readers
+
+              iCLASS SE or                        Standard        Must be compatible with the existing cards. SE
+              MultiCLASS SE                                       readers can be field upgraded to support future
+                                                                  SEOS technology while still backwards
+                                                                  compatible.
+              Proximity 125KHz                   Disallowed       Phasing out 125KHz cards
+
+           Building Security
+           Management System
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+  Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+                           questions or comments should be directed to dti_tasc@delaware.gov.
+                                                       Page 4 of 5
+
+                                                                DELAWARE STATE-WIDE INFORMATION
+                                                   TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+               Pro-Watch®                          Standard        Authorized Pro-Watch® vendors in Delaware can
+                                                                   be found on this website by searching for contract
+                                                                   number GSS19599-BLDG_SECURE
+
+VII. Development and Revision History
+    Date                    Revision
+    9/29/2019               Rev 5 – Current version
+    7/20/2022               Rev 6 – Updated card technologies as needed
+    11/1/2024               Rev 6 - Removed references to the Technology Investment Council and added a
+                            clarification in the Process section
+
+ These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+   Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+                            questions or comments should be directed to dti_tasc@delaware.gov.
+                                                        Page 5 of 5

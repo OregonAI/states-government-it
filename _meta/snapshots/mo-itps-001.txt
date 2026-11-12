@@ -1,0 +1,68 @@
+                                    STATE OF MISSOURI
+                                  ADMINISTRATIVE POLICY
+
+     POLICY TITLE:                                AUTHORIZED BY:
+     Laptop Encryption                            Tim Robyn
+                                                  Acting Chief Information Officer
+     POLICY : ITPS - 001                          PAGE: Page 1 of 2
+     ISSUED: 10/27/2008                           REVISED: 10/5/2012
+     Category:                                    Originating Unit:
+     Information Technology Security              OA ITSD ISMO
+
+ I. General StatemenW
+         The purpose of this policy is to establish the proper deployment of whole disk
+         encryption on state owned laptop and other portable computers. Unauthorized access
+         to or release of information from such a device would place the citizens of the state at
+         undo risk or cause embarrassment to the State of Missouri.
+
+II. Background
+         Portable computers have become useful tools to meet the business needs of the State
+         of Missouri. However, these devices are especially susceptible to loss, theft, and the
+         distribution of malicious software because they are easily portable and can be used in
+         a variety of environments. Therefore, it is necessary to address data encryption to
+         protect state information resources that reside on these portable devices.
+
+III. Applicability
+         Given the difficulty in determining what information contained on a computer system
+         has the potential to damage the state, all information must be protected until
+         specifically determined otherwise. Examples of information that may be exploited
+         include personal identifiable data or the process utilized to connect to the state
+         network. Add the mobile aspect of a portable computer and the risk for exposure
+         dramatically increases. Given the inherent vulnerability of portable computers, it is
+         mandatory that all state owned portable computers employ encryption, except as
+         otherwise provided for in this policy.
+
+IV. Responsibility
+         Agencies shall:
+            • Report lost or stolen portable computers to the appropriate authorities
+               including the department director, the agency IT director and law enforcement
+               if deemed necessary by the department.
+
+                                STATE OF MISSOURI
+                              ADMINISTRATIVE POLICY
+
+ POLICY TITLE:                                AUTHORIZED BY:
+ Laptop Encryption                            Tim Robyn
+                                              Acting Chief Information Officer
+ POLICY : ITPS - 001                          PAGE: Page 2 of 2
+ ISSUED: 10/27/2008                           REVISED: 10/5/2012
+ Category:                                    Originating Unit:
+ Information Technology Security              OA ITSD ISMO
+
+           •   Assure portable computers are available to receive license synchronization at
+               least once every 30 days. This is also recommended to facilitate current
+               security fixes, patches, and anti-virus updates.
+           •   Educate users on the need to avoid leaving portable computers unsecured. If
+               they must be left in a vehicle, they should be locked in the trunk.
+           •   Educate all users on the importance of data security; especially those utilizing
+               a mobile computing environment.
+
+       Information Technology Staff Members shall:
+           • Deploy the encryption software in accordance with the manufacturer’s
+              recommendations and the agency’s information technology deployment
+              procedures.
+
+V. Compliance
+       All personnel assigned state owned laptop or other portable computers are required to
+       comply with this policy. When portable computers are decommissioned the encryption
+       license will be removed and made available for use on another system.

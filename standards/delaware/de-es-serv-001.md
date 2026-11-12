@@ -1,0 +1,358 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: delaware
+id: de-es-serv-001
+title: Enterprise Services
+doc_type: standard
+citation: DTI Standard ID ES-SERV-001
+authority_level: ''
+issuing_body: Delaware Department of Technology and Information (DTI)
+source_url: https://webfiles.dti.delaware.gov/pdfs/pp/Enterprise%20Services%20Standard.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 100d69f63771b4f65c3d144437cbeb69306be119c91ba9e2e36f16913ba94ed6
+effective_date: '2020-02-14'
+source_version: Revision 3 (reviewed 2/26/2024)
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Enterprise Services (DTI Standard ID ES-SERV-001)
+
+## At a glance
+
+Item of the DTI Standards and Policies library, section 'Application': a standard of the Delaware State-Wide Information Technology and Architecture Standards (Domain: Services; Discipline: Solution Portfolio).
+
+## Full text
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+            Standard ID:     ES-SERV-001
+
+                   Title:    Enterprise Services
+
+     Revision Number:        3
+
+               Domain:       Services
+
+             Discipline:     Solution Portfolio
+
+              Effective:     2/14/2020
+              Reviewed:      2/26/2024
+        Approved By:         Chief Information Officer
+               Sponsor:      Chief Technology Officer
+
+I.     Authority, Applicability and Purpose
+      A. Authority: – Title 29 Chapter 90C Delaware Code, §9004C – General Powers, duties and
+         functions of DTI “2) Create, implement and enforce statewide and agency technology solutions,
+         policies, standards and guidelines, including as recommended by the CIO”.
+      B. Applicability: Applies to all State of Delaware communications and computing resources. DTI is
+         an Executive Branch Agency and has no authority over the customers in Legislative and Judicial
+         Branches, as well as Local Education Agencies, and other Federal and Local Government
+         entities that use these resources. However, all users, including these entities, must agree to
+         abide by all policies, standards promulgated by DTI as a condition of funding, access and
+         continued use of these resources.
+      C. Purpose: In order to provide efficient, automated processes in State government, it is critical to
+         have shared services that enable citizens and State users to access and analyze information and
+         services. Robust and reliable access to common solutions is key to delivering government
+         services.
+
+II. Scope
+       A.    Audience: This standard is intended for business and IT personnel.
+       B.    Areas Covered: This document includes all of the solutions where it is required to use a
+             common solution across all State organizations.
+       C.    Environments: NA
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            1 of 8
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+III. Process
+     A.    Adoption: These standards have been adopted by the Department of Technology and
+           Information (DTI) through the Technology and Architecture Standards Committee (TASC) and
+           are applicable to all Information Technology use throughout the state of Delaware.
+     B.    Revision: Technology is constantly evolving; therefore the standards will need to be regularly
+           reviewed. It is the intent of the TASC to review this standard annually. The TASC is open to
+           suggestions and comments from knowledgeable individuals within the state, although we ask
+           that they be channeled through your Information Resource Manager (IRM).
+     C.    Contractors: Contractors or other third parties are required to comply with these standards
+           when proposing technology solutions to DTI or other state entities. Failure to do so could result
+           in rejection of the proposed technology solution. For further guidance, or to seek review of a
+           component that is not rated below, contact the TASC at dti_tasc@delaware.gov.
+     D.    Implementation responsibility: DTI and/or the organization’s technical staff will implement
+           these best practices during the course of normal business activities, including business case
+           review, architectural review, project execution and the design, development, or support of
+           systems.
+     E.    Enforcement: DTI will enforce these best practices during the course of normal business
+           activities, including business case and architectural review of proposed projects and during the
+           design, development, or support of systems. These best practices may also be enforced by
+           others during the course of their normal business activities, including audits and design reviews.
+     F.    Contact us: Any questions, comments, or to request a copy of the detailed list of specific
+           services, please email dti_tasc@delaware.gov.
+
+IV. Definitions/Declarations
+     A.    Definitions
+           1.    Configuration – This involves using a feature within the standard deployment of a solution
+                 such as establishing security roles for a user and building email templates.
+           2.    Customization – This involves altering the behavior of the standard deployment of a
+                 solution thru custom coding. Typically, a customization will impact the updates/upgrades
+                 of the solution.
+     B.    Declarations – N/A
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            2 of 8
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+V. Definitions of Ratings
+                          COMPONENT RATING                                                     USAGE NOTES
+
+ STANDARD – DTI offers internal support and/or has arranged for                          These components can be
+ external vendor support as well (where applicable). DTI believes the                    used without explicit DTI
+ component is robust and solidly positioned in its product life cycle.                   approval for both new
+                                                                                         projects and enhancement
+                                                                                         of existing systems.
+
+ DECLINING – Deprecated - DTI considers the component to be a                            Via the State’s waiver
+ likely candidate to have support discontinued in the near future. A                     process, these components
+ deprecated element is one becoming invalid or obsolete.                                 must be explicitly approved
+                                                                                         by DTI for all projects. They
+                                                                                         must not be used for minor
+                                                                                         enhancement and system
+                                                                                         maintenance without explicit
+                                                                                         DTI approval via the State’s
+                                                                                         waiver process.
+
+ DISALLOWED – DTI declares the component to be unacceptable for                          No waiver requests for new
+ use and will actively intervene to disallow its use when discovered.                    solutions with this component
+                                                                                         rating will be considered.
+
+     A.    Missing Components – No conclusions should be inferred if a specific component is not listed.
+           Instead, contact the TASC to obtain further information.
+
+VI. Component Assessments
+                Component/Service                              Rating              Usage                 Comments
+
+ Collaboration - Email & Productivity
+       Conferencing Services                               Standard          Mandatory             Conferencing
+                                                                                                   Services
+       Email and Collaboration Services                    Standard          Mandatory             Office 365 GCC G3
+                                                                                                   or G1 Plan. Includes
+                                                                                                   Secure Email
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            3 of 8
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+              Component/Service                               Rating             Usage                   Comments
+         State Directory                                   Standard          Mandatory             List of State users
+         K12 Directory                                     Standard          Optional              List of K12 users
+       Enterprise Fax Service                              Standard          Mandatory             Enterprise Fax
+                                                                                                   Service for Users
+       Power Automate and Power Apps                       Standard          Optional              Creation of
+                                                                                                   automated
+                                                                                                   workflows,
+                                                                                                   synchronize files,
+                                                                                                   notifications.
+ Enterprise Desktop LAN (EDL)
+       Enterprise Desktop LAN Support                      Standard          Optional              Enterprise Desktop
+                                                                                                   LAN Support
+ Enterprise Voice
+       Voice and Data Services                             Standard          Optional              Voice and Data
+                                                                                                   Services for the
+                                                                                                   State’s telephony
+                                                                                                   infrastructure
+ Network & Connectivity
+    Cell Booster Services                                  Standard          Mandatory             Cell Booster
+                                                                                                   Services
+    Wide Area Network Services                             Standard          Mandatory             Wide Area Network
+                                                                                                   (WAN) Service
+          Domain Name Service (Internet)                   Standard          Mandatory             Resolves names to
+                                                                                                   IP Addresses
+          K12 DNS (Intranet)                               Standard          Optional              Resolves names to
+                                                                                                   IP Addresses
+          State DNS (Intranet)                             Standard          Mandatory             Resolves names to
+                                                                                                   IP Addresses
+          Wide Area Network (Commodity                     Standard          Mandatory             Network
+         Internet)                                                                                 connections such as
+                                                                                                   circuits
+          Internet (Service Provider)                      Standard          Mandatory
+          Certificate Authority                            Standard          Mandatory –           Security certificates
+                                                                             internal
+                                                                             certificates
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            4 of 8
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+                Component/Service                              Rating             Usage                  Comments
+                                                                             Optional –
+                                                                             external
+                                                                             certificates
+          Content Filtering                                Standard          Mandatory             Filtering internet
+                                                                                                   access. Does not
+                                                                                                   include K-12.
+    Secure Remote Access (SSL-VPN)                         Standard          Mandatory             Secure Remote
+                                                                                                   Access (SSL-VPN)
+    Wireless Services                                      Standard          Mandatory             Wireless Services
+    Global Server Load Balancing                           Standard          Optional              Load balancing
+                                                                                                   and/or health
+                                                                                                   checking DNS
+                                                                                                   answers across
+                                                                                                   multiple servers/ip
+                                                                                                   addresses
+ Security Suite
+   Business Continuity Consulting                          Standard          Optional              Business Continuity
+                                                                                                   Consulting
+    Disaster Recovery                                      Standard          Optional              Disaster Recovery
+    Firewall Management                                    Standard          Mandatory             Firewall
+                                                                                                   Management
+    Endpoint Detection and Response                        Standard          Mandatory             Securing Endpoint
+   Services                                                                                        Devices
+    Identity & Access Management (IAM)                     Standard          Mandatory             State IAM solution.
+                                                                                                   End-to-End User
+                                                                                                   Lifecycle
+                                                                                                   Management.
+                                                                                                   Onboarding Web
+                                                                                                   Applications to
+                                                                                                   State IAM Solution
+   Privileged Access Management (PAM)                      Standard          Mandatory
+   Security Information and Event                          Standard          Mandatory             Logging and
+   Management (SIEM) Services                                                                      Security Information
+                                                                                                   and Event
+                                                                                                   Management
+    Web Access Firewall Management (WAF)                   Standard          Mandatory             Application
+                                                                                                   protection
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            5 of 8
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+            Component/Service                                 Rating             Usage                 Comments
+    Vendor Hosted Web Shielding Services                   Standard          Optional              Securing vendor
+                                                                                                   hosted applications
+    Vulnerability Management Services                      Standard          Mandatory             Software patch
+                                                                                                   management
+                                                                                                   including
+                                                                                                   discover/identifying,
+                                                                                                   assess/classifying,
+                                                                                                   prioritizing,
+                                                                                                   remediating, and
+                                                                                                   mitigating software
+                                                                                                   vulnerabilities in
+                                                                                                   Software.
+ Enterprise Service Desk
+    Enterprise Service Desk                                Standard          Optional              Reporting and
+                                                                                                   resolution of IT
+                                                                                                   incidents, service
+                                                                                                   requests and
+                                                                                                   general IT inquiries
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            6 of 8
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+           Component/Service                                 Rating               Usage                   Description
+ Time and attendance tracking                            Standard              Mandatory             Contractors are
+                                                                                                     not included.
+                                                                                                     Does not include
+                                                                                                     K12.
+ Enterprise Resource Planning (ERP)                      Standard              Mandatory             Human Resources,
+                                                                                                     Financial, Benefits,
+                                                                                                     Pensions
+ Recruitment                                             Standard              Mandatory             Job Openings
+ Delaware Learning Center                                Standard              Mandatory             This is a Learning
+                                                                                                     Management
+                                                                                                     System. Tracking
+                                                                                                     contractor training
+                                                                                                     is billable.
+ Open data                                               Standard              Mandatory             Sharing, viewing
+                                                                                                     and analyzing data
+                                                                                                     sets
+ Enterprise GIS (FirstMap)                               Standard              Mandatory             Sharing, viewing,
+                                                                                                     and analyzing data
+                                                                                                     that have a
+                                                                                                     location
+ Server Hosting                                          Standard              Optional              Provides computer
+                                                                                                     resources to
+                                                                                                     applications. Does
+                                                                                                     not include K-12.
+ Notifications                                           Standard              Mandatory             Delaware
+                                                                                                     Notification
+                                                                                                     Service
+
+VII. Development and Revision History
+     Date                    Revision
+     2/14/2020               Rev 0 – Initial version
+     6/7/2022                Rev 1 – SEUS
+     8/19/2022               Rev 1 – Clarified that email and secure email are mandatory services
+     2/26/2024               Rev 2 – Updated to reflect the new SEUS structures
+     11/4/2024               Rev 2 - Removed a reference to the Technology Investment Council
+     5/14/2025               Rev 3 – Added PAM service
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            7 of 8
+
+                                                                 DELAWARE STATE-WIDE INFORMATION
+                                                    TECHNOLOGY AND ARCHITECTURE STANDARDS
+
+VIII. Approval Signature Block
+
+ Name & Title:                                                                Date:
+
+                                                                              Oct 9, 2025
+
+ State Chief Information Officer
+
+These standards are adopted by the Department of Technology and Information (DTI), through the Technology and Architecture
+Standards Committee (TASC), and are applicable to all Information Technology use throughout the State of Delaware. Any
+questions or comments should be directed to dti_tasc@delaware.gov.
+                                                            8 of 8
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

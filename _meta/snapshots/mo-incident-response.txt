@@ -1,0 +1,66 @@
+                                             Technology Area
+
+                                                       DEFINITION
+ Name                  Incident Response
+                       Incident Response is an organized approach to addressing and managing the aftermath of
+ Description           a security incident. The goal is to handle the situation in a way that reduces damage,
+                       recovery time and cost.
+ Rationale             Provides a consistent approach to handling security incidents.
+                           •   More rapid detection of incidents
+                           •   Minimizes loss and destruction
+ Benefits
+                           •   Mitigates exploited weaknesses
+                           •   Restores IT services
+
+                                           ASSOCIATED ARCHITECTURE LEVELS
+ Specify the Domain Name        Security
+ Specify the Discipline
+                                Operational Controls
+ Name
+
+                                       ASSOCIATED COMPLIANCE COMPONENTS
+ List the Compliance                   Incident Reporting Procedures
+ Component Names                       Incident Risk Level Assessment and Countermeasures
+
+                                        ASSOCIATED PRODUCT COMPONENTS
+ List the Product Component
+ Names
+
+                                             TECHNOLOGY AREA DETAIL
+                                NIST Special Publication: SP-800-61r2 Computer Security Incident Handling
+                                   Guide
+ Supporting Documentation
+
+ Document Source
+                                https://nvlpubs.nist.gov/nistpubs/specialpublications/nist.sp.800-61r2.pdf
+ Reference #
+
+                                                 Compliance Sources
+
+ Name                           NIST                               Website     http://www.nist.gov/
+
+                                National Institute of Standards and Technology
+ Contact Information
+                                (301) 975-NIST
+ Name                                                              Website
+ Contact Information
+Name                                                                Website
+Contact Information
+
+                                                    KEYWORDS
+                             Incident reporting; intrusion detection; exposure; vulnerability; attack; incident
+List Keywords                impacts; defense; threat; risk; alerts; countermeasure; communication; denial of
+                             service; malware; breach
+
+                                           COMPONENT CLASSIFICATION
+Provide the Classification      Emerging                 Current                    Twilight          Sunset
+     Sunset Date
+
+                                                 CURRENT STATUS
+Provide the Current Status      In Development            Under Review              Approved         Rejected
+
+                                                   AUDIT TRAIL
+Creation Date                12-19-2002                  Date Approved / Rejected     7/17/2018
+
+Last Date Reviewed           07/17/2018                  Last Date Updated            7/17/2018
+     Reason for Update

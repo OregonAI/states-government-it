@@ -1,0 +1,658 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4245
+title: S4245 – Idaho Trails Data Exchange
+doc_type: standard
+citation: ITA Standard S4245
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/S4245.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 2cd574975e8b6f4910d715ab1cde467e6d60ae5d3dcd0d732561d0045d53f2e3
+effective_date: '2021-03-18'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). Pages 16 of the PDF have no text layer (figures, blank pages or scanned forms) and add no
+  text here.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4245 – Idaho Trails Data Exchange (ITA Standard S4245)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4245 establishes protocols for the Idaho Trails Data Exchange, ensuring accurate, consistent, and accessible trail data for state agencies and the public." The last page of the PDF (16) is blank (checked by rendering it), so it is listed as no_text_pages.
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:    S4245 – Idaho Trails Data Exchange Standard
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Trail layer and data standard, which is part of the Transportation data
+   theme is a critical source of information for Recreation, Tourism and more. Many
+   private sector and local, state, and federal government agencies have business
+   needs for a Trails Framework. Standardized Trails data supports those groups by
+   facilitating integration and sharing of up-to-date Trail data and enhances the
+   dissemination and use of Trail information. This standard does not instruct how Trail
+   databases are designed for internal use.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCT(S)
+
+  Any GIS Software, either desktop or online, capable of consuming and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+  A statewide Trail dataset is a critical source of information as stated under ‘II
+  Rationale’ in this standard. A data exchange standard supports the use of the Trail
+  data to facilitate a predictable format, improve collaboration and encourage use of
+  this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+  Any GIS Software, either desktop or online, capable of consuming and displaying
+  Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+  Data will be shared in accordance with ITA Standard S4250 – Geographic
+  Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+  The format, content and development of this standard adhere to ITA Policy P5030 -
+  Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+  Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+  Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+  For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+  05/16/2024 – Revised Standard Presented to the IGC-EC
+   Effective Date: 03/18/2021
+                                                                                        2
+
+                                  STATE OF IDAHO
+
+              Idaho Trails Data Exchange Standard
+                           Part of the Transportation Theme
+
+                                        Version 2
+                                       May 16, 2024
+
+                 Developed by the Transportation Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4000
+contact@its.idaho.gov
+
+                                                                           3
+
+CONTENTS
+1. Introduction to the Trail Data Exchange Standard........................................................... 5
+  1.1. Mission and Goals of the Standard............................................................................... 5
+  1.2. Relationship to Existing Standards .............................................................................. 5
+  1.3. Description of the Standard .......................................................................................... 5
+  1.4. Applicability and Intended Uses ................................................................................... 6
+  1.5. Standard Development Process..................................................................................... 6
+  1.6. Maintenance of the Standard ........................................................................................ 6
+2. Body of the Standard ............................................................................................................ 6
+  2.1. Scope and Content.......................................................................................................... 6
+  2.2. Need ................................................................................................................................. 6
+  2.3. Participation in the Standard Development ................................................................ 7
+  2.4. Integration with Other Standards ................................................................................ 7
+  2.5. Technical and Operation Context................................................................................. 7
+     2.5.1. Data Environment................................................................................................... 7
+     2.5.2. Reference Systems ................................................................................................... 7
+     2.5.3. Global Positioning Systems (GPS)......................................................................... 7
+     2.5.4. Interdependence of Themes ................................................................................... 8
+     2.5.5. Encoding .................................................................................................................. 8
+     2.5.6. Resolution ................................................................................................................ 8
+     2.5.7. Accuracy .................................................................................................................. 8
+     2.5.8. Edge Matching ........................................................................................................ 8
+     2.5.9. Unique Identifier ..................................................................................................... 8
+     2.5.10.  Attributes ............................................................................................................. 8
+     2.5.11.  Stewardship.......................................................................................................... 9
+     2.5.12.  Records Management and Archiving ................................................................ 9
+     2.5.13.  Metadata .............................................................................................................. 9
+3. Data Characteristics ............................................................................................................. 9
+  3.1. Minimum Graphic Data Elements................................................................................ 9
+  3.2. Optional Graphic Data Elements.................................................................................. 9
+  3.3. Standard Arrtibute Schema ........................................................................................ 10
+  3.4. Data Quality .................................................................................................................. 14
+Appendix A: References .............................................................................................................. 15
+Appendix B: Glossary .................................................................................................................. 15
+
+                                                                                                                                             4
+
+1. Introduction to the Trail Data Exchange Standard
+
+  A statewide Trail data layer is a critical source of information for recreation, tourism and
+  more. Many private sector and local, state, and federal government agencies have business
+  needs for a Trails Framework.
+
+  A Trail Standard is intended to facilitate integration and sharing of up-to-date Trail data and
+  enhance the dissemination and use of Trail information. This standard does not instruct how
+  Trail databases are designed for internal use.
+
+  This standard was developed by the Idaho Department of Parks and Recreation in
+  collaboration with the Chair of the IGC-EC. This standard will be reviewed on a regular basis
+  and updated as needed.
+
+  1.1. Mission and Goals of the Standard
+
+  The Trail Standard supports a statewide dataset that is consistent with applicable state and
+  national standards. It establishes the minimum attributes and geospatial database schema for
+  the Trail Framework. The Standard will communicate with and may have similar attributes to
+  other Idaho Framework data standards. It encourages all Idaho-based agencies with
+  geospatial Trail data to contribute to Trail Framework.
+
+  The Trail Framework will be appropriately shared and beneficial to all. The fields in the Trail
+  Data Exchange Standard will be general enough to incorporate basic information without
+  requiring major changes in internal data models. This standard allows for expansion to a
+  more complex data structure and schema.
+
+  1.2. Relationship to Existing Standards
+
+  This Trail Exchange Standard relates to existing standards as follows:
+     • Federal Geographic Data Committee (FGDC) Data Accuracy Standards
+
+  1.3. Description of the Standard
+  This standard describes the vision and geospatial data structure of a Trail Framework in the
+  state of Idaho. This standard is devised to be:
+       • Simple, easy to understand, and logical.
+       • Uniformly applicable, whenever possible
+       • Flexible and capable of accommodating future expansions
+       • Dynamic in terms of continuous review
+
+                                                                                                    5
+
+   1.4. Applicability and Intended Uses
+
+   This standard applies to the Trail element of the Transportation theme of The Idaho Map
+   (TIM).
+   When implemented this standard will enable access and exchange of the data. A predictable
+   standard will support data collaboration, improve data collaboration, help identify and report
+   errors and allow agencies to incorporate this data into their own data products.
+   This standard does not consider data sharing agreements, contracts, transactions, privacy
+   concerns, or any other issues relating to the acquisition and dissemination of Trail data.
+
+   1.5. Standard Development Process
+
+   The Trail Workgroup, a subgroup of the Transportation Framework TWG, is a voluntary
+   group of private, city, county, tribal, state, and federal representatives. In 2020 the Trail Lead
+   at the Idaho Department of Parks and Recreation used Survey123 developed by the IGC-EC
+   to develop the first draft of this standard. This standard was then reviewed and edited by the
+   Authoritative source of the Trails data in Idaho, i.e. the GIS Analyst at the Idaho Department
+   of Parks and Recreation.
+   After initial development the draft standard document was shared with the Idaho Geospatial
+   Council Executive Committee (IGC-EC) and the Idaho Geospatial Council (IGC) in
+   accordance with the review and approval process described in ITA Policy P5030 Framework
+   Standards Development.
+
+   1.6. Maintenance of the Standard
+
+   This standard will be revised on an annual basis and in accordance with the ITA Policy
+   P5030 Framework Standards Development.
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+
+   The scope of the Trail Data Exchange Standard is to describe a statewide layer which
+   identifies the physical locations and attributes of Trails in Idaho.
+
+   2.2. Need
+
+   Trails are a key dataset needed for a statewide Trail data layer and is a critical source of
+   information for Recreation, Tourism and more. Many private sector and local, state, and
+   federal government agencies have business needs for a Trails Framework. This standard
+                                                                                                    6
+
+provides the foundation to aggregate Trail data for centralized access and stewardship
+information.
+
+2.3. Participation in the Standard Development
+
+The development of the Trail Data Exchange Standard adheres to the ITA Policy P5030 -
+Framework Standards Development. As the standard is reviewed in accordance with ITA
+Policy P5030 requirements, there will be opportunity for broad participation and input by
+stakeholders in the development of this standard. The process will be equally broad for input
+on updates and enhancements to the standard. As with all Idaho Framework standards, public
+review and comments on the Trail Data Exchange Standard is encouraged.
+
+2.4. Integration with Other Standards
+
+The Trail Data Exchange Standard follows the same format as other Idaho geospatial
+framework data standards. The Trail standard may contain some of the same attributes as
+other framework standards and may adopt the field name, definition, and domain from the
+other standards to promote consistency.
+
+2.5. Technical and Operation Context
+
+   2.5.1. Data Environment
+
+   The data environment is a digital Map/App with a specific, standardized set of attributes
+   pertinent to the Trail Framework. Trail data shared under this standard must be in a
+   format supporting digital Map/App.
+
+   2.5.2. Reference Systems
+
+   The Trail Framework will be published in the Idaho Transverse Mercator (IDTM)
+   NAD83 coordinate system, which is the State of Idaho’s single zone coordinate system.
+   Data is not required to be submitted in the ITDM coordinate system but must have a
+   defined coordinate system clearly described in the metadata.
+
+   2.5.3. Global Positioning Systems (GPS)
+
+   Some data provided might contain geometry from GPS methods, and the provided
+   metadata should describe this, if applicable. Some data provided might contain geometry
+   from GPS methods, and the provided metadata should describe this, if applicable.
+   However, geometry from a GPS is not required to meet this standard.
+                                                                                               7
+
+2.5.4. Interdependence of Themes
+
+Trail geometry may coincide with other framework data, such as roads. Currently there is
+no enforcement of coincidence or topology relationships between Trail Framework and
+other Idaho Framework elements.
+
+2.5.5. Encoding
+
+When data is imported into and exported from the Trail Framework, encoding will take
+place to convert data formats and attributes.
+
+2.5.6. Resolution
+
+No specific requirements for resolution are specified in this standard. Resolution will be
+documented in the metadata.
+
+2.5.7. Accuracy
+
+It is essential that all aspects of the data be completely documented. Spatial products
+which conform to the National Standard for Spatial Data Accuracy should be used for
+source material in digital data capture if available and appropriate.
+
+2.5.8. Edge Matching
+
+No edge matching is required between jurisdictions, or between this and other framework
+layers.
+
+2.5.9. Unique Identifier
+
+The unique identifier is the OBJECTID in combination of the name of the layer.
+
+2.5.10. Attributes
+
+                                                                                             8
+
+       Attributes for public and intergovernmental distribution are described in Section 3 of this
+       standard.
+
+       2.5.11. Stewardship
+
+       Perpetual maintenance and other aspects of lifecycle management are essential to Trail
+       Framework. Details of stewards, their roles and responsibilities, and processes are set
+       forth, or are being planned to be set forth in a Trail Framework Stewardship Plan and
+       related documents.
+
+       2.5.12. Records Management and Archiving
+
+       The dataset is published to ArcGIS Online at Idaho Recreation Trails
+       The application designed to display Trail data is located at Idaho Trails
+
+       2.5.13. Metadata
+
+       The Trail Framework metadata will describe the methods used to update and aggregate
+       the individual Trail data contributions, processes or crosswalks performed, definition of
+       attributes, and other required information. This metadata will conform to the metadata
+       standards as set out in ITA Standard S4220 - Geospatial Metadata.
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+
+        The geometry of the features in Trail Framework is digital Map/App
+
+   3.2. Optional Graphic Data Elements
+
+   Not applicable.
+
+   3.3. Standard Attribute Schema
+
+The trails data is organized as a collection of the following datasets:
+
+3.3.1: Points of Interest (Point Layer)
+                                                                                                   9
+
+Field Name                            Data
+                     Alias                        Length        Description                     Examples
+                                      Type
+                                                              System
+OBJECTID       OBJECTID               Object ID               Generated ID             25
+                                                              Name of the trail
+                                                              connected to the
+SITE_NAME      Site Name              Text        50          trailhead                Bear Basin, Hard Creek
+SITE_TYPE      Site Type              Text        30          Type of Marker           Trailhead
+                                                              Area
+                                                              Information,             “GeoPDF Map of south
+                                                              Reference                section of Murphy Subregion
+NARRATIVE      Narrative              Text        200         Documents                Travel Management Area”
+                                                              Information              https://www.fs.usda.gov/recar
+                                                              about trail or trail     ea/nezperceclearwater/recarea
+URL_1          Information            Text        200         location                 /?recid=16488
+                                                              Additional
+URL_2                                                         information about
+                                                              trail or trail           https://eplanning.blm.gov/epl
+               More Information       Text        200         location                 anning-ui/project/73196/510
+
+3.3.2: Emergency Closures (Line)
+
+      Field Name                     Alias         Data Type        Length           Description         Examples
+                                                                                     System
+OBJECTID                     OBJECTID             Object ID                          Generated ID      25
+                                                                                     Identification
+                                                                                     number for
+                                                                                     individual
+                                                                                     route,
+                                                                                     populated
+                                                                                     when only a
+                                                                                     single route is
+                                                                                     covered by a
+ID                           ID                   Text            30                 Closure Order     7868
+                                                                                     Name
+                                                                                     assigned to the
+                                                                                     emergency
+NAME                         Name                 Text            40                 closure           Buttars Springs
+                                                                                     Length of
+                                                                                     route closure
+MILES                        Miles                Double                             in miles          21.54
+                                                                                     Land
+                                                                                     Management
+JURISDICTION                 Jurisdiction         Text            40                 Agency            Forest Service
+OFFICE                                                                               Management        Minidoka
+                             Route Manager        Text            50                 Agency Office     Ranger District
+
+                                                                                                            10
+
+     PHONE                                                               Phone number
+                                                                         of responsible
+                                  Phone                Text    15        agency.              (208)-678-0430
+     DATE_ORDER_SIGNED  Date Order Signed              Text    50
+     DATE_ORDER_EXPIRES Date Order Expires             Text    50
+     DATESTART                                                           Same as Date
+                                                                         Signed unless
+                                                                         defined
+                                                                         differently in a
+                                  Start Date           Text    50        Closure Order        1/1/2024
+     DATEEND                                                             Same as Date
+                                                                         Expires unless
+                                                                         defined
+                                                                         differently in a     12/31/2024;
+                                  End Date             Text    50        Closure Order        Indefinite
+     NARRATIVE                                                           Details of
+                                  Narrative            Text    255       Closure Order
+     URL_1                                                               Linked
+                                                                         information
+                                                                         about
+                                                                         emergency
+                                  Information          Text    200       closure
+     URL_2                                                               Additional
+                                                                         linked
+                                                                         information
+                                  Additional                             about route
+                                  Information          Text    200       closure
+
+     3.3.3: Idaho Routes (Line)
+
+        Field Name                   Alias         Data Type    Length     Description          Examples
+                                                                         System Generated
+OBJECTID                      OBJECTID          Object ID                ID                     25
+                                                                         USFS-                  NFST;
+SYSTEM_TYPE                   System Type       Text            4        jurisdiction-only      NFSR
+                                                                         Identification
+                                                                         associated with
+ID                            Route ID          Text            20       the route or trail     568
+                                                                                                Trail
+NAME                          Route Name        Text            40                              Creek
+                                                                         Length of the
+MILES                         Route Miles       Float                    Trail in Miles         21.54
+                                                                         Number
+                                                                         associated with
+                                                                         route type and
+                                                                         assigned map
+SYMBOL                        Route Type        Double                   symbology              7
+                                                                         Management             Forest
+JURISDICTION                  Jurisdiction      Text            40       Agency                 Service
+                                                                                                11
+
+                                                                       Minidoka
+                                                Office of Agency       Ranger
+OFFICE            Route Manager    Text   50    responsible            District
+                                                Phone number of
+                                                agency office
+                                                responsible (null
+                                                when defined by
+                                                spatial
+                                                concurrence of
+                                                USFS or BLM            (208)-878-
+PHONE             Manager Phone    Text   15    Districts)             9327
+                                                Unique
+                                                information
+                                                specific to route
+NARRATIVE         Narrative        Text   200   or trail
+                                                Link address for
+                                                unique
+                                                information
+                                                specific to route
+URL_1             Information      Text   200   or trail
+                                                Secondary link
+                                                address for unique
+                                                information
+                                                specific to route
+URL_2             More Information Text   200   or trail
+                                                Null unless less-
+                                                than-year-long
+                                                access is
+                                                designated by
+                                                land manager for       (If not
+                                                trails restricted to   null)
+                  Seasonal Non-                 non-motorized          “04/01-
+SEASON_NONMOTOR   Motorized        Text   25    uses                   12/31”
+                                                Null unless less-
+                                                than-year-long
+                                                access is
+                                                designated by
+                                                land manager for       (If not
+                                                roads legal for        null)
+                                                access for up to       “04/01-
+SEASON_AUTO       Seasonal Auto    Text   25    automobile use         12/31”
+                                                Null unless less-
+                                                than-year-long
+                                                access is
+                                                designated by
+                                                land manager for
+                                                high-clearance
+                                                routes legal for       (If not
+                                                access typically       null)
+                  Seasonal High                 up to full-size        “04/01-
+SEASON_JEEP       Clearance        Text   25    4WD vehicles           12/31”
+                                                                       12
+
+                                                                            Null unless less-
+                                                                            than-year-long
+                                                                            access is
+                                                                            designated by
+                                                                            land manager, for
+                                                                            routes or trails
+                                                                            with motorized
+                                                                            use restricted to
+                                                                            use by specially-
+                                                                            designated types
+                                                                            of OHVs,
+                                                                            typically limited
+                                                                            to utility-type
+                                                                            vehicles (UTVs)         (If not
+                              Seasonal Special                              and technical           null)
+                              Vehicle                                       4WD vehicles            “04/01-
+SEASON_UTV                    Designation         Text             25       such as jeeps           12/31”
+                                                                            Null unless less-
+                                                                            than-year-long
+                                                                            access is
+                                                                            designated by
+                                                                            land manager, for
+                                                                            trails with
+                                                                            motorized use
+                                                                            restricted to use
+                                                                            by OHVs no              (If not
+                                                                            wider than 50           null)
+                              Seasonal 50 Inch                              inches, typically       “04/01-
+SEASON_ATV                    & Under             Text             25       ATVs                    12/31”
+SEASON_MOTORCYCLE                                                           Null unless less-
+                                                                            than-year-long
+                                                                            access is
+                                                                            designated by
+                                                                            land manager, for
+                                                                            trails with
+                                                                            motorized use
+                                                                            restriction limited     (If not
+                                                                            to use by               null)
+                              Seasonal                                      motorcycles and         “04/01-
+                              Motorcycle          Text             25       motorbikes              12/31”
+
+     3.3.4 Area Restrictions (polygon)
+
+        Field Name                 Alias          Data Type   Length     Description              Examples
+OBJECTID                      OBJECTID           Object ID              System            13
+                                                                        Generated ID
+Restricted_Area_Name          Restricted Area    Text         80        Name defined      Grimes Cr-Clear
+                              Name                                      by land manager   Cr Area Closure
+Restricted_Area_Type          Restricted Area    Text         80        Type of           Human Exclusion
+                              Type                                      restriction of
+                                                                        exclusion
+                                                                                                    13
+
+Date_Order_Signed                Date Order       Text            50
+                                 Signed
+Date_Order_Expires               Date Order       Text            50
+                                 Expires
+Date_Start                       Date Start       Text            50        Same as Date
+                                                                            Signed unless
+                                                                            defined
+                                                                            differently in a
+                                                                            Closure Order       1/1/2024
+Date_End                         Date End         Text            50        Same as Date
+                                                                            Expires unless
+                                                                            defined
+                                                                            differently in a    12/31/2024;
+                                                                            Closure Order       Indefinite
+JURISDICTION                     Jurisdiction     Text            40        Management
+                                                                            Agency              Forest Service
+OFFICE                           Land Manager     Text            50        Office of
+                                                                            Agency              Minidoka Ranger
+                                                                            responsible         District
+OFFICE_PHONE                     Manager Phone    Text            15        Phone number
+                                                                            of agency office
+                                                                            responsible         (208)-878-9327
+Narrative                        Narrative        Text            255       Unique textual
+                                                                            information
+                                                                            specific to
+                                                                            closure or
+                                                                            restriction
+URL_1                            Information      Text            150       Link address for    https://closures.gov
+                                                                            unique
+                                                                            information
+                                                                            specific to route
+                                                                            or trail
+URL_2                            More             String          150       Secondary link
+                                 Information                                address for
+                                                                            unique
+                                                                            information
+                                                                            specific to route
+                                                                            or trail
+Acres                            Acres            Double                    Area of polygon     1,234
+                                                                            in US survey
+                                                                            acres
+
+            3.4. Data Quality
+
+            Data quality considerations for Trails include:
+            a. Inclusion of a trail name, if such a name exists.
+            b. The trail should identify which uses the trail is open to (i.e. OHV 50” or under,
+            motorcycle, jeep, Special vehicle designation (typically UTV and technical 4WD), and non-
+            motorized/non-mechanized.
+                                                                                                        14
+
+   c. All trails also need Jurisdiction and Office which identify the land management agency
+   and subordinate district or authority if applicable in charge of trail management.
+
+Appendix A: References
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/P5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/S4220.pdf
+
+Appendix B: Glossary
+
+See ITA Guideline G105 - (ITA Glossary of Terms) for definitions.
+
+                                                                                               15
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). Pages 16 of the PDF have no text layer (figures, blank pages or scanned forms) and add no text here.

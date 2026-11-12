@@ -1,0 +1,109 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maine
+id: me-eo-ai-task-force-2024-12
+title: An Order Establishing the Maine Artificial Intelligence Task Force
+doc_type: executive_order
+citation: Order of December 20, 2024 (FY 24/25)
+authority_level: ''
+issuing_body: Office of the Governor
+source_url: https://www.maine.gov/governor/mills/index.php/official_documents/executive-orders/2024-12-order-establishing-maine-artificial-intelligence-task
+source_format: html
+retrieved: '2026-11-12'
+source_sha256: 45df890f320474cb85fbd1bf77df1336f43bf46397be3e7dd5e0e941f2b17dd5
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: 'Text taken from the page on maine.gov (a Drupal site run by the issuing office): the
+  page''s heading, then everything up to the site footer, one line per paragraph, heading, list item and
+  table row. The site header, menus, images (a signature or letterhead image is not text), social-media
+  links and footer were removed, as were the targets of links. Items of a numbered list are numbered 1.,
+  2., ... within their list (nested lists indented two spaces), as a browser numbers a plain ordered list;
+  the page sets no other numbering style. Bullets are written as a bullet character. The page prints no
+  revision history.'
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- governance
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# An Order Establishing the Maine Artificial Intelligence Task Force (Order of December 20, 2024 (FY 24/25))
+
+## At a glance
+
+Creates the Maine AI Task Force, charged with recommending how to prepare the economy and workforce, how to protect residents from harmful uses of AI, and the most promising uses of AI by State agencies, quasi-State agencies and other public entities; the Chief Information Officer and the OIT AI Center of Excellence sit on its Technical Advisory Committee and OIT staffs it. Directed to report by October 31, 2025; the order has no end date. The only Governor's order found on AI. OWNER DECISION: the order creates a study body whose report is delivered, so whether it is still 'in force' is a judgment (it was not rescinded in the list read).
+
+## Full text
+
+An Order Establishing the Maine Artificial Intelligence Task Force
+FY 24/25
+WHEREAS, the recent proliferation of technologies that rely on artificial intelligence (AI) has significant policy implications for Maine’s people, economy, and workforce;
+WHEREAS, AI’s potential positive impacts could include creation of new jobs and businesses, gains in productivity and efficiency, and reduced barriers to entry in some technical fields;
+WHEREAS, up to a fifth of American jobs are considered “highly exposed” to AI – jobs for which AI could present both opportunities to increase performance and risks of displacement or other negative impacts;
+WHEREAS, both established businesses and a growing community of startups in Maine have already begun to adopt AI-based technologies into their core business practices;
+WHEREAS, AI relies on collecting and interpretating large amounts of data from end users, which makes it susceptible to reinforcing biases, removing transparency from decision-making, and misusing private consumer information;
+WHEREAS, at least 26 other states have established or are in the process of developing task forces or similar bodies to study policy issues related to AI;
+WHEREAS, Maine’s Office of Information Technology has already taken steps to analyze risk for state infrastructure and has begun to develop capabilities to support state agency usage of AI tools;
+WHEREAS, private industry, academia, and local and state government entities can collaboratively support and reinforce long-term AI policy strategies that leave Maine communities with less risk and better prepared for the future;
+NOW THEREFORE, I, Janet T. Mills, Governor of the State of Maine, pursuant to authority conferred by Me. Const. Art. V, Pt. 1, §§ 1 & 12, do hereby Order the following:
+1. Task Force Established; Purpose
+  1. The Maine Artificial Intelligence Task Force (“Task Force”) is hereby established.
+  2. The purpose of the Task Force is to investigate the implications of recent and anticipated advances in the field of AI for the State of Maine and make recommendations to:
+    1. Prepare Maine’s economy and workforce for the opportunities and risks likely to result from advances in AI;
+    2. Protect Maine residents from potentially harmful uses of AI technologies, such as safeguarding consumer data privacy, mitigating bias in datasets, and mandating disclosure around AI utilization;
+    3. Explore the most promising uses for State agencies, quasi-State agencies, and other public entities such as municipalities to deploy AI technologies to address capacity gaps and improve service delivery to the populations they serve.
+2. Membership, Chairs, and Advisory Committee
+  1. The Task Force shall consist of the following members:
+    1. The Commissioner of the Department of Labor or their designee;
+    2. The Commissioner of the Department of Economic and Community Development or their designee;
+    3. The Commissioner of the Department of Administrative and Financial Services designee;
+    4. The Commissioner of the Department of Education or their designee;
+    5. The Commissioner of the Department of Health and Human Services or their designee;
+    6. The Chancellor of the University of Maine System or their designee;
+    7. The President of the Maine Community College System or their designee;
+    8. The Director of Governor’s Office of Policy Innovation and the Future or their designee;
+    9. The Director of the Maine Technology Institute or their designee;
+    10. Two members of the Senate appointed by the President of the Senate, including one member from each of the two parties holding the largest number of seats in the Legislature;
+    11. Two members of the House of the Representatives appointed by the Speaker of the House, including one member from each of the two parties holding the largest number of seats in the Legislature;
+    12. A municipal leader;
+    13. A representative of Maine workers;
+    14. A representative from a civil rights advocacy organization;
+    15. A representative from a consumer protection organization;
+    16. A representative from a large employer or industry group;
+    17. A representative from a small or medium business;
+    18. A representative from Maine’s entrepreneurship community;
+    19. A leader from a Maine health care organization.
+  2. A Technical Advisory Committee shall inform the Task Force’s work. The Technical Advisory Committee shall consist of the following members:
+    1. The Director of the Governor’s Energy Office or their designee;
+    2. The President of the Maine Connectivity Authority or their designee;
+    3. The Maine Attorney General or their designee;
+    4. The Maine Chief Information Officer;
+    5. The Director of the Maine Office of Information Technology AI Center of Excellence;
+    6. Two subject matter experts in AI technologies;
+    7. A subject matter expert in legal issues presented by AI;
+    8. A subject matter expert in Maine workforce data;
+    9. A subject matter expert in financial markets.
+  3. The Governor shall designate two members to serve as Co-Chairs of the Task Force and, unless otherwise indicated, shall appoint the members of the Task Force and Technical Advisory Committee identified in Sections II(A)&(B). The Co-chairs may, in their discretion, appoint additional experts to the Technical Advisory Committee.
+3. Funding and Staffing
+  1. The Governor’s Office of Policy Innovation and the Future and the Office of Information Technology shall provide such staff as may be necessary to fulfill the Task Force’s charge within existing resources and may seek staffing and financial support from other state agencies and private entities to accomplish the goals and work of the Task Force. Members of the Task Force and Technical Advisory Committee shall serve without compensation.
+4. Proceedings, Records, and Report
+  1. The Co-Chairs will preside at, set the agenda for, and schedule Task Force meetings. To the extent practical the Commission should conduct its work in a manner that is open and accessible to the public. Records, proceedings and deliberations of the Commission are not subject to the requirements of 1 M.R.S. c. 13, in accordance with sections 402(2)(F), (3)(J) and § 403(6) of that Chapter. The Commission may conduct its work through subcommittees, which may include non-Task Force members in advisory roles.
+  2. The Task Force shall issue a public report of its findings to the Governor and the State Legislature no later than October 31, 2025.
+Janet T. Mills
+Governor
+
+## Curator notes
+
+Text taken from the page on maine.gov (a Drupal site run by the issuing office): the page's heading, then everything up to the site footer, one line per paragraph, heading, list item and table row. The site header, menus, images (a signature or letterhead image is not text), social-media links and footer were removed, as were the targets of links. Items of a numbered list are numbered 1., 2., ... within their list (nested lists indented two spaces), as a browser numbers a plain ordered list; the page sets no other numbering style. Bullets are written as a bullet character. The page prints no revision history.

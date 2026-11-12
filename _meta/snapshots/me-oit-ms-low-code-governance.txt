@@ -1,0 +1,361 @@
+                                Maine State Government
+                      Dept. of Administrative & Financial Services
+                        Office of Information Technology (OIT)
+
+                            Microsoft Low-Code Governance
+1.0.   Purpose
+1.1.   This document captures the guidance details for the State of Maine Executive
+       Branch with respect to three Microsoft low-code platforms: Power Automate1
+       (previously known as Flow), Power Applications,2 and Dynamics 365.3 The intent is
+       to help both the agencies and OIT to create and maintain Microsoft low-code
+       applications in a sustainable way by complying with industry best practices.
+
+2.0.   Governance Framework
+2.1.   Governance Committee
+       2.1.1. The Maine State Executive Branch has created a Microsoft Low-code
+              Platform Governance Committee to oversee the utilization of the Microsoft
+              low-code platforms within the Maine State Executive Branch. The following
+              persons/roles/designates are members of this committee:
+               2.1.1.1. OIT Enterprise Architect (Committee Chair);
+               2.1.1.2. OIT Director, Computing Infrastructure & Services;
+               2.1.1.3. OIT Executive Director, Enterprise Shared Services;
+               2.1.1.4. Any OIT Application Director with investment in the Microsoft low-
+                        code platforms; and
+               2.1.1.5. Representation from each of the stakeholder Departments that are
+                        either already invested, or seriously considering investing, in the
+                        Microsoft low-code platforms. It may be important to have these
+                        Department representatives be familiar with these tools.
+
+2.2.   Governance Framework
+       2.2.1. The State of Maine instance of all of these Microsoft low-code platforms are
+              hosted in the Microsoft Government Community Cloud. This provides various
+              built-in integrations with the Office 365 ecosystem, such as interface with the
+              enterprise Active Directory.
+
+1 https://powerautomate.microsoft.com/en-us/
+2 https://powerapps.microsoft.com/en-us/
+3 https://dynamics.microsoft.com/en-us/
+
+                                           Page 1 of 8
+
+                                    Microsoft Low-Code Governance
+
+           2.2.2. The Governance Framework defines four color-coded tiers of applications
+                  created in these Microsoft low-code platforms. (This model was adapted
+                  from a Gartner paper.)
+                              Black - Created and maintained by OIT
+                              Red - Oversight by OIT
+                              Yellow - Co-supported with other agency makers & super users
+                              Green - Self-sustaining for individual agency makers
+Business Criticality
+
+                       Enterprise
+
+                       Department
+
+                       Workgroup
+
+                       Individual
+
+                                        Create,
+                                         Read,                                      Complex
+                                                        Linear     Automated
+                                        Update,                                    Application
+                                                       (Simple)     Business
+                                          and                                          or
+                                                       Workflow     Process
+                                        Delete                                     Automation
+                                        (CRUD)
+
+                                          Low <- Application Complexity -> High
+
+           2.2.3. The matrix above is intended to help make decisions about how complex and
+                  critical an application is. If the application is a simple
+                  create/read/update/delete files or records without much logic, it is likely
+                  low complexity. But as logic, branches, approvals, formulas, and filters are
+                  added to the application, it becomes more complex. If the application breaks
+                  and the agency has an easy workaround that can be implemented without a
+                  big inconvenience, it is likely lower criticality. But if the application breaks
+                  and agency cannot move forward at all, or can move forward with great
+                  difficulty, it is likely high criticality. OIT oversees red applications, and
+                  maintains black applications, because these are deemed so important that
+                  they cannot break without immediate OIT support.
+
+                                                  Page 2 of 8
+
+                             Microsoft Low-Code Governance
+
+2.3.   Use Cases for the Three Products
+       2.3.1. Some suggested high-level uses for the three products are provided below.
+              This is not an exhaustive guidance. Agencies are strongly urged to discuss
+              their business use cases with the OIT Applications Director for further
+              guidance that is more tailored to their business use cases.
+              2.3.1.1. If it is about gluing together existing O365 products for internal
+                       users, then use Power Automate (Flow). Examples:
+                       2.3.1.1.1. Email someone when an Excel file (located in OneDrive
+                                   and/or SharePoint) is updated.
+                       2.3.1.1.2. Incorporate a Microsoft Form to collect data from the
+                                   public without extra expense.
+                       2.3.1.1.3. Document-based approval workflows, as long as all the
+                                   documents are located in OneDrive and/or SharePoint.
+              2.3.1.2. If it is about collecting data from authenticated/verified users,
+                       and/or about creating logical workflows, then use Power
+                       Applications. Examples:
+                       2.3.1.2.1. Power Applications forms can be used for data entry, data
+                                    viewing, or data editing.
+                       2.3.1.2.2. Power Applications can be used on Android and iOS using
+                                    the native Power Applications mobile app.
+                       2.3.1.2.3. In order to utilize Power Applications for external users, a
+                                    Portal add-on is needed at an additional cost.
+              2.3.1.3. If it is about taking advantage of pre-built, sophisticated applications
+                       that are model Power Applications under the cover, then use
+                       Dynamics 365. Presuming the agency business case mostly aligns
+                       with the pre-built offering, then there could be a significant cost
+                       advantage to starting from the pre-built package, as opposed to
+                       building a Power Application from scratch. Examples:
+                       2.3.1.3.1. Customer Relationship Management
+                       2.3.1.3.2. Case Management
+                       2.3.1.3.3. Supply Chain Management
+
+       2.3.2. The following questions must be answered when an application enters the
+              Red and Black categories:
+              2.3.2.1. Name of the requesting agency?
+              2.3.2.2. Name of the desired product (Power Automate, Power Applications
+                       (Flow), Dynamics 365)?
+              2.3.2.3. How will the application be identified (naming convention defined
+                       below)?
+              2.3.2.4. Briefly, what does the application do?
+              2.3.2.5. Who is the maker of this application?
+              2.3.2.6. Does the agency already have an existing environment of the
+                       Microsoft low-code platform?
+
+                                            Page 3 of 8
+
+                              Microsoft Low-Code Governance
+
+               2.3.2.7. Will the application transact in any data classified at Traffic Light
+                         Protocol (TLP): Amber, or TLP: Red, as defined in the Data
+                         Classification Policy?4
+               2.3.2.8. How many internal (State of Maine) users are projected to consume
+                         this application? Do they already have a dedicated Active Directory
+                         Group? If not, suggest a name for creating such a Group.
+               2.3.2.9. Does this application require the external web portal for
+                         consumption by external (non-State of Maine) users?
+               2.3.2.10. Does this application require Connectors? Does this App require
+                         Premium Connectors?5
+               2.3.2.11. Does the application require an App Maker Account (i.e., an account
+                         different from a personal Office 365 account)?
+               2.3.2.12. What is the business criticality level of this application? (Low if the
+                         cessation of the functioning of this app still enables the agency to
+                         conduct its essential business; High if the cessation of the
+                         functioning of this app prevents the agency from conducting its
+                         essential business.)
+               2.3.2.13. Who supports this Application? Makers? Other Power Users? OIT?
+               2.3.2.14. Is there any history of prior requests (approved/denied) by the
+                         Microsoft Low-code Platform Governance Committee?
+               2.3.2.15. Has this application already been approved by the Microsoft Low-
+                         code Platform Governance Committee?
+
+3.0.   Infrastructure
+3.1.   Basic functionality of Power Automate (Flow) and Power Applications are both
+       available in the G3 license (which is the license most State of Maine employees have)
+       at no extra expense. By default, G3 license holders have access to the default
+       environment and default connectors. Premium licenses are Microsoft Per User
+       licenses that grant users access to premium connectors and the Dataverse. A Per
+       User license allows that user unrestricted access to any application in any
+       environment. However, if a business unit chooses to just license a user one
+       application at a time, a Per App license might make more economical sense. For
+       Portal applications, both anonymous and authenticated external users require
+       additional licensing. For further details, please refer to the OIT Service Catalog,
+       and/or consult with the OIT Microsoft Low-code Platform Licensing Lead.
+
+3.2.   Data collected through Power Automate (Flow) and Power Applications is permitted
+       to be stored in many destinations. However, the most obvious candidates are
+       OneDrive and SharePoint.
+
+3.3.   A Connector is a wrapper around an application programming interface (API) that
+       allows the underlying service to talk to a Microsoft low-code platform. It provides a
+       way for users to leverage a set of pre-built actions and triggers to build their
+
+4 https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/DataClassificationPolicy.pdf
+5 https://powerautomate.microsoft.com/en-us/connectors/
+
+                                             Page 4 of 8
+
+                            Microsoft Low-Code Governance
+
+       applications. Some connectors are an interface to an external service, i.e., a service
+       that is external to the State of Maine Office 365. Microsoft maintains a rich catalog6
+       of connectors. Premium connectors are those that require an extra fee beyond the
+       baseline G3 license. The premium connectors are identified with the diamond icon
+       in the catalog. One of the most important premium connectors is the interface to on-
+       prem data sources.
+
+3.4.   Dataverse7 (previously called Common Data Service) consumption is only available
+       with an elevated Per User license, for the maker and user (at extra cost). Dataverse
+       is the default standard data structure for storing relational information. The reason
+       to use the Dataverse is that it provides the data structures for commonly used
+       objects, such as address, phone number, account, calendar, etc. Utilizing such pre-
+       built objects can save development time. Another reason to use Dataverse is for
+       storing complex relational data and any backend data of a model application.
+
+4.0.   Application Development and Management Practices
+4.1.   If the application is intended for anything other than personal use, especially, for
+       Green and Yellow applications, it is recommended that a Department create a
+       dedicated Departmental App Makers Active Directory Group. No matter which
+       individual creates the application, they will share ownership with this entire group.
+       Also, please note that just sharing application ownership does not actually share
+       ownership of any ancillary resource that the application may need to function.
+
+4.2.   In the interest of business continuity, it is recommended that each version of an
+       active application should be exported as a package (as a backup), and its ownership
+       should be shared.
+
+4.3.   Canvas v. Model-Driven Applications
+       4.3.1. In general, Microsoft low-code applications fall under two categories:8
+              Canvas and Model-driven. A Canvas application is built around the user
+              experience, whereas, a Model-driven application is built around a preset data
+              model. In general terms, Canvas applications may be easier to build from
+              scratch, but may run into challenge scaling up later. Whereas, Model-driven
+              applications face a higher challenge in building from scratch, while facing an
+              easier path scaling up.
+
+4.4.   Life-Cycle Management
+       4.4.1. A default environment is automatically created when a tenant is initially set
+              up, which is available for all makers in that tenant. This default environment
+              is meant to store only applications that are used only by individuals for
+              personal productivity applications – not for business critical applications.
+
+6 https://docs.microsoft.com/en-us/connectors/connector-reference/
+7 https://docs.microsoft.com/en-us/power-apps/maker/data-platform/data-platform-intro
+8 https://docs.microsoft.com/en-us/power-apps/maker/
+
+                                           Page 5 of 8
+
+                              Microsoft Low-Code Governance
+
+       4.4.2. None of the Microsoft Low-code platform products comes with a built-in, life-
+              cycle manager for promoting applications from lower environments into
+              production. Therefore, lower environments must be simulated through
+              standalone instances, with explicit naming conventions. By default, the
+              standalone name for the application signifies the production instance,
+              whereas the lower environments are identified by suffixes. Thus, “HRMS
+              Dev”, “HRMS Test”, and “HRMS Staging” are lower environments; whereas,
+              the unqualified “HRMS” is the production application. The same naming
+              convention applies to Portal applications as well.
+
+       4.4.3. Even for applications in the Green and Yellow categories, those deemed
+              business-critical by the agency should have at least two Instances:
+              production and non-production. For any application in the Red and Black
+              categories, two environments constitute the minimum requirement.
+
+       4.4.4. Microsoft provides detailed Life-cycle Management Best Practices9 that are
+              strongly recommended. This is especially critical in migrating applications
+              through their development and deployment lifecycle.
+
+       4.4.5. Each environment can be pegged to one or more Active Directory groups,
+              subjected to its own data loss prevention policies, as well as permission to
+              premium connectors. The Microsoft Low-code Platform Governance
+              Committee will meet monthly to review the new connectors added to the
+              tenant and determine if they should be allowed by tenant users or not. The
+              data loss prevention policies will be adjusted to reflect that determination.
+
+       4.4.6. Besides the default Active Directory group(s) associated with the
+              environment, and the application, the application administrator may also
+              handcraft authorizations (i.e., rights and privileges) amongst the entire State
+              of Maine Active Directory population.
+
+       4.4.7. Applications in the Red and Black categories must have an independent entry
+              in the Applications Inventory10 (intranet only). Please contact the relevant
+              OIT Application Director for guidance.
+
+       4.4.8. Applications in the Red and Black categories are required to complete the
+              OIT Application Deployment Certification Policy11 prior to being deployed
+              into production. Deployment certification helps ensure that applications are
+              secure, accessible, and compliant with all information technology policies.
+              The time required to complete the deployment certification process is
+              variable based on application complexity. For accessibility and security
+
+9 https://docs.microsoft.com/en-us/power-platform/alm/basics-alm
+10 https://portal.lb.state.me.us/appinv/appinvgui.app_inventory.menu
+11 https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-
+
+files/ApplicationDeploymentCertification.pdf
+
+                                               Page 6 of 8
+
+                              Microsoft Low-Code Governance
+
+              testing, the target service level agreement is two (2) weeks. Please contact
+              the relevant OIT Application Director for further guidance.
+
+4.5.   Power Platform Administration Roles
+       4.5.1. In general, Microsoft provides two kinds of Administration roles:
+              4.5.1.1. Tenant-wide Admin Roles:12 These roles are reserved for OIT
+                       personnel.
+              4.5.1.2. Environment-specific Admin Roles:13 These roles may be delegated
+                       to Agency makers on a case-by-case basis.
+
+4.6.   Dynamics 365
+       4.6.1. Due to their intrinsic complexity, all Dynamics 365 applications belong to
+              either Red, or Black, categories. This does not apply to a (legacy) Dynamics
+              365 environment that does not actually host a Dynamics 365 application. Any
+              use of Dynamics 365 always involves licenses beyond the baseline Office 365
+              subscription.
+
+4.7.   Support and Troubleshooting
+       4.7.1. When reporting or troubleshooting application problems, makers and users
+              should follow the escalation path as outlined in the accompanying document
+              Escalation Path for Power Platform.14
+
+       4.7.2. The Microsoft Low-code Platform Governance Committee is committed to
+              identifying new Power Platform “champions” and include them in the State of
+              Maine Microsoft365 Champions team to help support other app makers
+              across the State of Maine.
+
+5.0.   Document Information
+5.1.   Initial Issue Date: August 21, 2021
+5.2.   Latest Revision Date: December 27, 2023
+5.3.   Point of Contact: PolicyTeam.OIT@Maine.Gov
+5.4.   Approved By: Chief Information Officer, OIT
+5.5.   Legal Citation: Title 5, Chapter 163: Office of Information Technology15
+5.6.   Waiver: Waiver Policy16
+5.7.   FOAA: FOAA Policy17
+5.8.   Distribution: Internet18
+
+12 https://docs.microsoft.com/en-us/power-platform/admin/use-service-admin-role-manage-
+
+tenant
+13 https://docs.microsoft.com/en-us/power-platform/admin/database-security
+14 https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-
+
+files/PowerPlatformEscalationPath.pdf
+15 https://legislature.maine.gov/statutes/5/title5ch163sec0.html
+16 https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/waiver.pdf
+17 https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/FOAAPolicy.pdf
+18 https://www.maine.gov/oit/policies-standards
+
+                                             Page 7 of 8
+
+                            Microsoft Low-Code Governance
+
+6.0.   Definitions
+6.1.   Dataverse: A Microsoft solution that allows users to store and manage data used by
+       business applications. Data within Dataverse is stored within a set of tables. App
+       makers can then use Power Applications to build applications that use this data.
+
+6.2.   Connector: A proxy or a wrapper around an API that allows the underlying service
+       to talk to Microsoft Power Automate, Microsoft Power Applications, and Azure Logic
+       Apps. It provides a way for users to connect their accounts and leverage a set of
+       prebuilt actions and triggers to build their apps and workflows.
+
+6.3.   Low-Code Platform: A platform that provides a development environment used to
+       create applications through a graphical user interface.
+
+7.0.   Abbreviations
+7.1.   API: Application Programming Interface
+7.2.   CRUD: Create, Read, Update, and Delete
+7.3.   OIT: Office of Information Technology
+7.4.   TLP: Traffic Light Protocol
+
+                                          Page 8 of 8

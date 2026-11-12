@@ -1,0 +1,165 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: kentucky
+id: ky-cio-092
+title: CIO-092 Media Protection Policy
+doc_type: policy
+citation: CIO-092
+authority_level: ''
+issuing_body: Commonwealth Office of Technology
+source_url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-092%20Media%20Protection%20Policy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 292ce0a398fc7c5e77b64fd457e717da3083298cf578429850b9410ac8ca3efe
+effective_date: '2013-10-07'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# CIO-092 Media Protection Policy (CIO-092)
+
+## At a glance
+
+Listed on COT's Policies pageas 'CIO-092 Media Protection Policy' (type Policy): The policy's Purpose section reads: 'This policy ensures proper provisions are in place to protect information stored on media, both digital and non-digital, throughout the media’s useful life until its sanitization or destruction. This policy identifies the family of controls for Media Protection (MP) as defined in NIST Special Publication 800-53 Rev 5.'
+
+## Full text
+
+  COMMONWEALTH OFFICE OF TECHNOLOGY                                            Page 1 of 3
+  Office of the Chief Information Officer Enterprise Policy (CIO)
+  CIO–092: Media Protection Policy
+                                         REVISED: 01/12/2017             REVIEWED: 09/01/2021
+  EFFECTIVE DATE: 10/07/2013
+                                         11/09/2023, 10/13/2025          11/09/2023, 10/13/2025
+
+ I.    PURPOSE
+
+       This policy ensures proper provisions are in place to protect information stored on media,
+       both digital and non-digital, throughout the media’s useful life until its sanitization or
+       destruction. This policy identifies the family of controls for Media Protection (MP) as defined
+       in NIST Special Publication 800-53 Rev 5.
+
+II.    DEFINITIONS
+
+       “Digital Media” – means portable, removable storage media or device used to store
+       information. (ex. diskettes, magnetic tapes, desktops, laptops, hard drives, read-only
+       memory, compact disks, network equipment).
+
+       “Non-digital Media” – means hard copy or physical representation of information. (ex. paper
+       copies, printouts, printer ribbons, drums, microfilm, platens).
+
+III.   POLICY
+
+       The controls outlined in the following sections detail the measures that should be
+       implemented to protect information that is stored on media based on the classification of
+       the information and regulatory requirements for Federal, State, and Agency. See Enterprise
+       Standard 4080: Data Classification Standard for more information.
+
+       Marking: Media shall be marked in accordance with regulatory requirements.
+
+       Transporting: During transport, media shall be protected and controlled outside of secured
+       areas and activities associated with transport of such media restricted to authorized
+       personnel. Tracking methods shall be developed and deployed to ensure media reaches its
+       intended destination. If sensitive information is transmitted via e-mail or other electronic
+       means, it must be sent using approved encryption mechanisms. Please see Kentucky
+       Information Technology Standards, for information concerning these requirements.
+
+       Storage: Media shall be physically controlled and securely stored in a manner that ensures
+       that the media cannot be accessed by unauthorized individuals. This may require storing
+       media in locked containers such as cabinets, drawers, rooms, or similar locations if
+       unauthorized individuals have unescorted access to areas where sensitive information is
+       stored.
+
+       Encryption: Information stored on digital media shall comply with regulatory
+       requirements. See Kentucky Information Technology Standard, for enterprise standard
+       requirements.
+
+COMMONWEALTH OFFICE OF TECHNOLOGY                                        Page 2 of 3
+Office of the Chief Information Officer Enterprise Policy (CIO)
+CIO–092: Media Protection Policy
+                                     REVISED: 01/12/2017           REVIEWED: 09/01/2021
+EFFECTIVE DATE: 10/07/2013
+                                     11/09/2023, 10/13/2025        11/09/2023, 10/13/2025
+
+    Retention: A media retention schedule shall be defined for all media in accordance
+    with regulatory requirements. Agencies shall reference the Kentucky Department for
+    Libraries and Archives (KDLA) State Government Records Retention Schedules.
+
+    Access Control: Only authorized individuals are permitted access to media containing State
+    information. In addition to controlling physical access, user authentication will provide
+    audit access information. Any access must also comply with any applicable regulatory
+    requirements. Non-digital media should be hidden from the view of individuals that do not
+    have authorization to access the information contained on or within the media.
+
+    Sanitization: Media must be sanitized in accordance with the requirements defined in
+    National Institute of Standards and Technology (NIST) Special Publication (SP) 800-88
+    Rev 2, Guidelines for Media Sanitization (or its successor). Additionally, to ensure
+    compliance with using approved devices, Agencies shall also consult the National Security
+    Agency (NSA) Central Security Services’ Media Destruction Guidance.
+
+    Certification of Sanitization: The sanitizing process shall be documented within ServiceNow
+    with an Asset Disposal Request. This information must be maintained as outlined by the
+    KDLA record retention schedule.
+
+  COMMONWEALTH OFFICE OF TECHNOLOGY                                           Page 3 of 3
+  Office of the Chief Information Officer Enterprise Policy (CIO)
+  CIO–092: Media Protection Policy
+                                        REVISED: 01/12/2017            REVIEWED: 09/01/2021
+  EFFECTIVE DATE: 10/07/2013
+                                        11/09/2023, 10/13/2025         11/09/2023, 10/13/2025
+
+      Sanitization of Portable, Removable Storage Devices Prior to First Use: Portable,
+      removable storage devices (e.g., thumb drives, flash drives, external storage devices) can
+      be the source of malicious code insertions into information systems. These devices are
+      obtained from numerous sources and can contain malicious code that can be readily
+      transferred to an information system through Universal Serial Bus (USB) ports or other ports
+      of entry. For these reasons, sanitization of these devices is required prior to their initial
+      use. Agencies shall develop procedures to support this requirement.
+
+      Logging and Accountability: Media must be logged throughout the media lifecycle,
+      including creation, movement, and destruction, in accordance with applicable regulatory
+      requirements. This media must be physically inventoried and accounted for at a
+      predetermined interval as defined within applicable regulatory requirements.
+
+IV.   CORRECTIVE OR DISCIPLINARY ACTION
+
+      Each agency shall ensure that all relevant staff within their organizational authority are
+      aware of and comply with this policy. The agency is responsible for enforcing it.
+      Unauthorized and/or neglectful actions regarding this policy may result in disciplinary action
+      up to and including dismissal. COT may require additional service charges for remediation
+      efforts due to non-compliance with this policy.
+
+V.    APPLICABILITY
+
+      All executive branch agencies and non-executive branch agencies using COT-managed
+      infrastructure or services shall adhere to this policy. This includes employees, contractors,
+      consultants, temporaries, volunteers, and other workers within state government.
+      Organizations may modify this policy to fulfill their responsibilities but must obtain approval
+      through an exception request. Staff should refer to their internal policy that may have
+      additional information or clarification.
+
+VI.   REFERENCES
+
+      Helpful references can be found on the Enterprise IT Policies webpage.
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

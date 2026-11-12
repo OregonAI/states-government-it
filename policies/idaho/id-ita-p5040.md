@@ -1,0 +1,191 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-p5040
+title: P5040 – Use of Social Networking Sites
+doc_type: policy
+citation: ITA Policy P5040
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/p5040.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 8a7b08e7618927ff176b1ee960106fd3b308325330a2358807e1dc995ee8f8fe
+effective_date: '2014-04-24'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# P5040 – Use of Social Networking Sites (ITA Policy P5040)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '5000 - Information and Data, Policies', a policy. The library's own summary: "ITA Policy P5040 provides guidelines for the use of social networking sites by state agencies, ensuring secure, consistent, and effective communication."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE POLICY – P5000 INFORMATION AND DATA
+
+Category: P5040 – USE OF SOCIAL NETWORKING SITES
+
+CONTENTS:
+I.   Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI Procedure Reference
+VII. Contact Information
+     Revision History
+
+I.   AUTHORITY
+
+     Authority: Idaho Code § 67-833
+
+     Idaho statute states in part "the Idaho Technology Authority shall:
+
+        Within the context of its strategic plans, establish statewide information technology
+        and telecommunications policies, standards, guidelines, conventions and
+        comprehensive risk assessment criteria that will assure uniformity and compatibility of
+        such systems within state agencies;"
+
+II. ABSTRACT
+
+     Social Networking Sites (SNSs) have changed the way citizens interact with information, and
+     how they expect to interact with government. The power of social media, if properly managed,
+     can have a tremendously positive effect on the way the government interacts with the public,
+     interacts with its employees, and conducts its own business.
+
+     The universal impact of social software is generally recognized; however, there are significant
+     challenges for government agencies to fully embrace and use these tools. Among these are
+     security, privacy, training, records management, consistency, and general guidance on how and
+     when to implement or utilize such tools.
+
+     Guidance in the utilization of social software and SNS will result in a more consistent application
+     and use of these tools.
+
+III. DEFINITIONS
+
+     Social Networking Site – Websites that have been created to encourage users to join one or
+     more networks and to allow the member-users to share ideas, activities, events, and interests
+     within their individual networks.
+
+P5040 – Use of Social Networking Sites                                                       Page 1 of 3
+
+   Though not all the following are purely Social Networking, they do have some elements of a
+   social structure and are made up of individuals who form a type of interdependency, such as
+   friendship or professional contacts or knowledge.
+
+   •   Blogs (Many examples)
+   •   Pure Social Networking (Facebook, Myspace, Classmates)
+   •   Professional Networking (LinkedIn, Spoke)
+   •   Social Bookmarking (Digg, del.icio.us)
+   •   Microblogging (Twitter, Yammer)
+   •   Instant Messaging (AIM, Yahoo! Messenger)
+   •   Photo Sharing (Flickr, Picasa)
+   •   Video Sharing (YouTube, Google Video, JibJab)
+   •   Wikis (Wikipedia, Intellipedia)
+
+   Social Networking Applications and Services – Websites, and downloadable applications that
+   encompass technologies allowing individuals to interactively participate, and share information
+   with other individuals, and to create collaborative networks and collections of information based
+   on mutual personal or professional interests.
+
+IV. POLICY
+
+For immediate implementation.
+Establish Agency Policies
+
+Each agency should establish clear guidance and procedures for posting information using Social
+Networking Services (SNS) technologies. Refer to ITA Guideline G330 (Best Practices for Utilizing
+Social Networking Services).
+
+Agencies must be aware of official postings to their official SNSs by regularly monitoring content and
+comments received for appropriateness and to ensure employees using Web 2.0 technologies are
+following the State and Agency Policies.
+
+Agencies and those responsible for posting content must be aware of and obey copyright laws.
+
+In order to make the most of SNSs and for business purposes, ensure all postings, photos, and
+videos are of good quality and value to the user.
+
+All planning and implementation should be consistent with existing state and agency policies and
+comply with any applicable laws, regulations, codes, or requirements.
+
+Agencies should be aware and plan for the increased bandwidth required for SNS technologies
+before committing to these technologies, this being especially true of technologies using video.
+
+Records Management
+
+Internet-based capabilities used to transact business are subject to state and agency records
+retention and records management policies. All State agencies that use the internet must be aware
+that the State agency is responsible both for content that it creates and for content that it allows to
+be posted on a State site, just as it would be for more “traditional” content.
+
+P5040 – Use of Social Networking Sites                                                      Page 2 of 3
+
+Security
+
+The Security concerns of SNSs are explained in ITA Guideline G330. Agencies must weigh the
+security risks of using official SNSs sites or groups for business purposes and/or allowing employee
+use of SNSs at work against the business benefits.
+
+V. EXEMPTION PROCESS
+
+Refer to ITA Policy P1010 (IT Policies, Standards, and Guidelines Framework).
+
+VI. PROCEDURE REFERENCE
+
+Employees should refer to the ITA and Agency policies related to Employee Computer Use, Internet
+Use and Email Use. The policies in part state:
+
+Employee Usage of Internet and Privacy expectations:
+P1050 – IV – 1. Internet access is considered State property and the agency has the right to monitor
+the use of such property at any time. Therefore, users should not have any expectation of privacy as
+to their Internet usage via State computers and networks.
+
+P1050 – IV – 2. Employees may occasionally use the Internet for individual, non-political purposes
+on their personal time.
+
+P1060 – IV – 6. Users may not load or download entertainment software and games, or play games
+from any source on State owned or leased personal computers.
+
+VII. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   05/30/19 – Revised to update guideline link in Section IV.
+
+   07/01/18 – Updated Idaho statute references.
+
+   07/22/14 – Updated Section I. Authority to be consistent with Idaho statute.
+
+       Effective Date: April 24, 2014
+
+P5040 – Use of Social Networking Sites                                                   Page 3 of 3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,169 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: kentucky
+id: ky-cio-060
+title: CIO-060 Acceptable Use Policy
+doc_type: policy
+citation: CIO-060
+authority_level: ''
+issuing_body: Commonwealth Office of Technology
+source_url: https://technology.ky.gov/policies-and-procedures/PoliciesProcedures/CIO-060%20Acceptable%20Use%20Policy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 1948ee82aaffd3423438a51bcd009b4dc84ac4218154039fcd4f27297aba46b2
+effective_date: '1996-05-15'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- governance
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# CIO-060 Acceptable Use Policy (CIO-060)
+
+## At a glance
+
+Listed on COT's Policies pageas 'CIO-060 Acceptable Use Policy' (type Policy):
+
+## Full text
+
+ COMMONWEALTH OFFICE OF TECHNOLOGY                                            Page 1 of 3
+ Office of the Chief Information Officer Enterprise Policy (CIO)
+ CIO–060: Acceptable Use Policy
+ EFFECTIVE DATE: 5/15/1996              REVISED: 01/11/2023             REVIEWED: 03/03/2025
+
+ I.    POLICY STATEMENT
+
+       This policy establishes controls related to acceptable use of enterprise IT resources. The
+       policy provides guidance in decision-making and practices that optimize resources, mitigate
+       risk, and maximize return on investment.
+
+ II.   DEFINITIONS
+
+       “State IT Resources” – means services, assets, and access that include but are not
+       limited to e-mail, network access, internet access, text messaging, wireless devices,
+       voicemail, software, and devices such as phones, mobile phones, desktops, tablets,
+       monitors, storage (like network drives, USB, and external hard drives), scanners,
+       printers, plotters, projectors, servers, routers, and switches.
+
+III.   POLICY
+
+       The Commonwealth Office of Technology (COT) provides state IT services, assets, and
+       access to staff, visitors, vendors, and the public. These services, assets, and access
+       (collectively known as IT resources) are under COT’s authority, and all users of state IT
+       resources shall comply with all enterprise and agency policies.
+
+       Staff in the Executive Branch agencies shall read and acknowledge their responsibility for
+       appropriate use of state IT resources. Users of state IT resources shall protect the
+       resources and associated content appropriately.
+
+       Staff shall have no expectation of privacy associated with the information they publish, store,
+       or access using Commonwealth resources. Staff shall report to their supervisor or agency
+       IT coordinator immediately of any loss, abuse, or suspected abuse of state IT resources.
+       Tools are available to monitor the use of state IT resources, and management may review
+       potential abuse claims or inappropriate conduct. Staff members shall use state IT resources
+       to accomplish their job responsibilities. Staff may also use state IT resources to maintain
+       and develop professional skills. Incidental personal use is permissible, though not
+       encouraged, and shall:
+
+       •   Be infrequent, brief, ethical, and responsible.
+       •   Have no negative impact on the staff member’s overall productivity.
+       •   Not interfere with the normal operations of the agency or work unit.
+       •   Not compromise the agency or the Commonwealth in any manner.
+       •   Not cause any additional expense to the Commonwealth or the agency.
+
+       Staff shall reimburse the state for printers/copiers, personal telephone or mobile phone use
+       on agency devices.
+
+                                             Page 1 of 3
+
+ COMMONWEALTH OFFICE OF TECHNOLOGY                                          Page 2 of 3
+ Office of the Chief Information Officer Enterprise Policy (CIO)
+ CIO–060: Acceptable Use Policy
+ EFFECTIVE DATE: 5/15/1996             REVISED: 01/11/2023            REVIEWED: 03/03/2025
+
+      COT must approve any commercial use of Internet connections by agencies for which the
+      agency receives compensation. State agencies should avoid endorsing or promoting a
+      specific product or company on agency websites; however, the placement of
+      acknowledgements, accessibility, and certifications is acceptable.
+
+IV.   UNACCEPTABLE USES
+
+      Agencies and staff shall not use state IT resources to:
+
+      •   Engage in inappropriate or unprofessional conduct;
+      •   Engage in unapproved activities that may cause congestion or disruption of networks or
+          systems;
+      •   Use an application or otherwise access the Social Media site owned by the Chinese
+          company ByteDance Limited or its successors commonly known as “Tik Tok,” other than
+          for a law enforcement purpose;
+      •   Access for personal use or operate personal Social Media accounts on state IT
+          resources, including, but not limited to, state-owned mobile devices such cellular phones
+          or tablets, and state-owned desktop or laptop computers;
+      •   Connect unauthorized personal or state devices to the state network;
+      •   Falsify state resources or content;
+      •   Solicit money for religious or political causes or for illegal purposes.
+
+      Staff shall not use any IT device (e.g., mobile phone or laptop), whether state-owned or
+      personal, while operating a government vehicle.
+
+      Staff may need to be exempt from some of these prohibitions in the course of completing
+      their job requirements and for legitimate state government business. Agencies requesting
+      an exemption from or an exception to any parts of this policy shall submit an exception
+      request to COT’s Office of IT Architecture and Governance (OITAG) via the Commonwealth
+      Service Desk. COT will pass any costs resulting from the exemptions or exceptions to this
+      policy to those agencies.
+
+      This policy is subject to all terms and provisions of the ENT-301 Acceptable Use and Social
+      Media Guidelines, all of which are, by this reference, made a part of and incorporated in this
+      policy.
+
+V.    COMPLIANCE AND DISCIPLINARY ACTION
+
+      Each agency must ensure that staff within their organizational authority are made aware of
+      and comply with this policy. The agency is responsible for enforcing it. Failure to comply
+      with this policy may result in disciplinary action up to and including dismissal. COT may
+      require additional service charges for remediation efforts due to non-compliance with this
+      policy.
+
+                                            Page 2 of 3
+
+  COMMONWEALTH OFFICE OF TECHNOLOGY                                           Page 3 of 3
+  Office of the Chief Information Officer Enterprise Policy (CIO)
+  CIO–060: Acceptable Use Policy
+  EFFECTIVE DATE: 5/15/1996             REVISED: 01/11/2023             REVIEWED: 03/03/2025
+
+VI.    APPLICABILITY
+
+       All executive branch agencies and non-executive branch agencies using COT-managed
+       infrastructure or services shall adhere to this policy. This includes employees, contractors,
+       consultants, temporaries, volunteers, and other workers within state government.
+       Organizations may modify this policy to fulfill their responsibilities but must obtain approval
+       through an exception request. Staff should refer to their internal policy, which may have
+       additional information or clarification.
+
+VII.   REFERENCES:
+
+       Helpful references can be found on the Enterprise IT Policies webpage.
+
+                                             Page 3 of 3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,122 @@
+                                       COMPLIANCE COMPONENT
+
+                                                        DEFINITION
+Name                  System Security Certification and Accreditation Process
+
+                      Security certification is a comprehensive assessment of the management, operational, and
+                      technical security controls in an information system, to determine the extent to which the
+                      controls are implemented correctly, operating as intended, and producing the desired
+                      outcome with respect to meeting the security requirements for the system.
+
+                      The security certification requirements specific to a system will be provided by the entity
+                      requiring the certification such as the Federal Government or grantors.
+Description
+                      The certification itself is generally performed by a third party or as directed by the requesting
+                      authority.
+
+                      System Accreditation is the final step in the process to protect information technology
+                      resources. By accrediting an information system, an agency officially accepts responsibility
+                      for the security of the system and is accountable for any adverse impacts to the agency if a
+                      breach of security occurs.
+                      To document that the system has the required degree of protection for confidentiality,
+Rationale             integrity or availability as set forth by an agency or regulating body.
+                      •       System Certification demonstrates that the security safeguards are adequate and
+                              appropriate for the system or application
+
+                      •       System Accreditation provides the approving official with a clear understanding of a
+Benefits                      system’s security readiness or a list of any deficiencies discovered
+
+                      •       Promotes more consistent, comparable, and repeatable assessments of security
+                              controls in information systems
+
+                                         ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name            Security
+Specify the Discipline Name        Management Controls
+Specify the Technology Area
+                                   System Security Certification and Accreditation
+Name
+Specify the Product
+Component Name
+
+                                              COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                   Guideline
+Component Type
+Component Sub-type
+
+                                                COMPLIANCE DETAIL
+                                The following are generally required for the certification and accreditation process:
+                                •   Assessments, at least annually, of risk in accordance with policies and
+                                    procedures that ensure information security is addressed throughout the life
+                                    cycle of each information system
+                                •   Plans for providing adequate information security for networks, facilities,
+                                    information systems, or groups of information systems, as appropriate
+                                •   Security awareness training to inform system users of the information security
+                                    risks associated with their activities and their responsibilities in complying with
+State the Guideline, Standard       agency policies and procedures
+or Legislation                  •   Periodic testing and evaluation of the effectiveness of information security
+                                    policies, procedures, practices, and security controls as set forth by the
+                                    requesting authority
+                                •   A process to address any deficiencies in the information security policies,
+                                    procedures, and practices of the agency
+                                •   Procedures for detecting, reporting, and responding to security incidents
+                                •   Plans and procedures to ensure continuity of operations for information
+                                    systems that support the operations and assets of the agency
+
+Document Source Reference #
+
+                                                Compliance Sources
+                                NIST SP 800-18, Guide for
+                                Developing Security Plans for
+                                Information Technology
+                                Systems, NIST SP 800-37,
+                                Guide for the Security
+                                Certification and Accreditation                  www.csrc.nist.gov/publications/nistp
+Name                                                              Website
+                                of Federal Information                           ubs
+                                Systems, NIST SP 800-53,
+                                Security and Privacy Controls
+                                for Information Systems and
+                                Organizations.
+
+Contact Information
+                                National Institute of
+                                Standards and Technology
+Name                                                              Website        http://csrc.nist.gov/
+                                (NIST), Computer Security
+                                Resource Center (CSRC)
+Contact Information             inquiries@nist.gov
+
+                                                     KEYWORDS
+List Keywords
+
+                                           COMPONENT CLASSIFICATION
+Provide the Classification          Emerging                Current                  Twilight              Sunset
+     Sunset Date
+
+                                           COMPONENT SUB-CLASSIFICATION
+ Sub-Classification          Date                          Additional Sub-Classification Information
+    Technology Watch
+    Variance
+    Conditional Use
+
+                                      Rationale for Component Classification
+Document the Rationale for
+Component Classification
+
+                                                     Migration Strategy
+Document the Migration
+Strategy
+
+                                              Impact Position Statement
+Document the Position
+Statement on Impact
+
+                                                     CURRENT STATUS
+Provide the Current Status          In Development            Under Review               Approved       Rejected
+
+                                                       AUDIT TRAIL
+Creation Date                   09/06/07                      Date Approved / Rejected     07/28/2021
+    Reason for Rejection
+Last Date Reviewed              07/13/2021                    Last Date Updated
+    Reason for Update           Vitality

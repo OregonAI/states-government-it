@@ -1,0 +1,493 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4229
+title: S4229 – Idaho Airports Data Layer
+doc_type: standard
+citation: ITA Standard S4229
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/s4229.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 5cbf86430cb2f50a8da38830fafacec1335160e093c954ceca62b889c5e08237
+effective_date: '2023-07-20'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4229 – Idaho Airports Data Layer (ITA Standard S4229)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4229 defines the data layer for Idaho airports, ensuring accurate and consistent airport information for state agencies."
+
+## Full text
+
+Idaho Technology Authority (ITA)
+
+ENTERPRISE STANDARDS – S4000 – INFORMATION AND DATA
+
+Category:    S4229 – Idaho Airports Data Layer
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+XI. Additional Information (if any)
+      Revision History
+
+I. DEFINITION
+
+   See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+II. RATIONALE
+
+   A statewide Airport layer is a critical source of information for resource land
+   management, community and economic development needs, infrastructure
+   maintenance, research and analysis, homeland security, business development,
+   public safety, and more. Many private sector and local, state, and federal
+   government agencies have business needs for the Airport Framework Dataset.
+
+III. APPROVED STANDARD(S)
+
+   See Attachment
+
+IV. APPROVED PRODUCTS(S)
+
+   Any GIS Software, either desktop or online, capable of ingesting and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+V. JUSTIFICATION
+
+   A statewide Airport dataset is a critical source of information as stated under ‘II
+   Rationale’ in this standard. A data exchange standard supports the use of the Airport
+   Layer to facilitate a predictable format, improve collaboration and encourage use of
+   this dataset.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   Any GIS Software, either desktop or online, capable of ingesting and displaying
+   Open Geospatial Consortium (OGC) Web Map Standard (WMS) services.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   Data will be shared in accordance with ITA Standard S4250 –Geographic
+   Information System (GIS) Data Sharing Standards.
+
+VIII. PROCEDURE REFERENCE
+
+   The format, content, and development of this standard adhere to ITA Policy P5030 -
+   Framework Standards, ITA Standard S4250 - Data Sharing Standards and ITA
+   Standard S4220 - Geospatial Metadata.
+
+IX. REVIEW CYCLE
+
+   Review will occur at least annually.
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   07/20/2023 – Standard Presented to the IGC-EC
+
+Airports Standard                                                                      2
+
+                                    STATE OF IDAHO
+
+                       Idaho Airports Data Standard
+                             Part of the Transportation Theme
+
+                                           Version 1
+                                    Effective July 20, 2023
+
+                    Developed by the Transportation Technical Working Group
+
+Contact
+ITA Staff
+Office of Information Technology Services
+(208) 605-4064
+contact@its.idaho.gov
+
+Airports Standard                                                             3
+
+CONTENTS
+1. Introduction to the Airport Data Standard ........................................................................ 5
+  1.1. Mission and Goals of the Standard............................................................................... 5
+  1.2. Relationship to Existing Standards .............................................................................. 5
+  1.3. Description of the Standard .......................................................................................... 5
+  1.4. Applicability and Intended Uses ................................................................................... 6
+  1.5. Standard Development Process..................................................................................... 6
+  1.6. Maintenance of the Standard ........................................................................................ 7
+2. Body of the Standard ............................................................................................................ 7
+  2.1. Scope and Content .......................................................................................................... 7
+  2.2. Need ................................................................................................................................. 7
+  2.3. Participation in the Standard Development ................................................................ 7
+  2.4. Integration with Other Standards ................................................................................ 7
+  2.5. Technical and Operation Context ................................................................................. 8
+     2.5.1. Data Environment................................................................................................... 8
+     2.5.2. Reference Systems................................................................................................... 8
+     2.5.3. Global Positioning Systems (GPS)......................................................................... 8
+     2.5.4. Interdependence of Themes ................................................................................... 8
+     2.5.5. Encoding .................................................................................................................. 9
+     2.5.6. Resolution ................................................................................................................ 9
+     2.5.7. Accuracy .................................................................................................................. 9
+     2.5.8. Edge Matching ........................................................................................................ 9
+     2.5.9. Unique Identifier ..................................................................................................... 9
+     2.5.10.  Attributes ............................................................................................................. 9
+     2.5.11.  Stewardship........................................................................................................ 10
+     2.5.12.  Records Management and Archiving .............................................................. 10
+     2.5.13.  Metadata ............................................................................................................ 10
+3. Data Characteristics ........................................................................................................... 10
+  3.1. Minimum Graphic Data Elements.............................................................................. 10
+  3.2. Optional Graphic Data Elements................................................................................ 10
+  3.3. Standard Attribute Schema......................................................................................... 11
+  3.4. Data Quality .................................................................................................................. 11
+Appendix A: References .............................................................................................................. 12
+Appendix B: Glossary .................................................................................................................. 12
+
+Airports Standard                                                                                                                            4
+
+1. Introduction to the Airport Data Standard
+
+   A statewide Airport layer is a critical source of information for resource land management,
+   community and economic development needs, infrastructure maintenance, research and
+   analysis, homeland security, business development, public safety, and more. Many private
+   sector and local, state, and federal government agencies have business needs for the Airport
+   Framework Dataset.
+
+   An Airport Standard is intended to facilitate integration and sharing of up-to-date spatial
+   information about airports in Idaho and enhance the dissemination and use of airport
+   information. This standard does not instruct on how airport databases are designed for
+   internal use.
+
+   This standard was developed by the Transportation Technical Working Group (TWG), a
+   subgroup of the Idaho Geospatial Council – Executive Committee (IGC-EC). This standard
+   will be reviewed on an annual basis and updated as needed.
+
+   1.1. Mission and Goals of the Standard
+
+   The Airport Standard supports a statewide dataset that is consistent with applicable state and
+   national standards. It establishes the minimum attributes and geospatial database schema for
+   the Airport Framework. The Standard will communicate with, and may have similar
+   attributes to, other Idaho Framework data standards. It encourages all Idaho-based agencies
+   with geospatial Airport data to contribute to the Airport Framework.
+
+   The Airport Framework will be appropriately shared and beneficial to all. The fields in the
+   Airport Data Exchange Standard will be general enough to incorporate basic information
+   without requiring major changes in internal data models. This standard allows for expansion
+   to a more complex data structure and schema.
+
+   1.2. Relationship to Existing Standards
+
+   This Airport Exchange Standard relates to existing standards as follows:
+
+       •   Federal Geographic Data Committee (FGDC) Data Accuracy Standards
+
+       •   FAA AC 150/5300-16 “General Guidance and Specifications for Aeronautical
+           Surveys: Establishment of Geodetic Control and Submission to the National Geodetic
+           Survey” (AC16)
+
+Airports Standard                                                                                 5
+
+       •    FAA AC 150/5300-17 “Standards for Using Remote Sensing Technologies in Airport
+            Surveys” (AC17)
+
+       •    FAA AC 150/5300-18 “General Guidance and Specification for Aeronautical
+            Surveys: Airport Survey Data Collection and Geographic Information System
+            Standards” (AC18)
+
+   1.3. Description of the Standard
+
+   This standard describes the vision and geospatial data structure of an Airport Framework in
+   the state of Idaho. This standard is devised to be:
+
+        •   Simple, easy to understand, and logical
+        •   Uniformly applicable, whenever possible
+        •   Flexible and capable of accommodating future expansions
+        •   Dynamic in terms of continuous review
+
+   1.4. Applicability and Intended Uses
+
+   This standard applies to the Airport element of the Transportation theme of The Idaho Map
+   (TIM).
+
+   When implemented, it will enable access to geometry and attribute information about Idaho
+   Airports. It will increase interoperability between automated geographic information systems
+   and enable sharing and efficient transfer of information for aggregation. Further, it will
+   encourage partnerships between government, the private sector, and the public to avoid
+   duplication of effort and ensure effective management of information resources. It will help
+   improve Airport data quality as errors are identified and resolved.
+
+   This standard does not consider data sharing agreements, contracts, transactions, privacy
+   concerns, or any other issues relating to the acquisition and dissemination of Airport data.
+
+   1.5. Standard Development Process
+
+   The Airport Workgroup, a subgroup of the Transportation TWG, is a voluntary group of
+   private, city, county, tribal, state, and federal representatives. In 2022 the Airport Lead began
+   developing the standard for the Airport Framework using the standard development
+   automation tools developed by the IGC-EC to generate the first draft of the Standard. This
+   standard was then reviewed and edited by the members of the Transportation Technical
+Airports Standard                                                                                  6
+
+   Working Group.
+    After initial development the draft standard document was shared with the IGC-EC and
+    IGC in accordance with the review and approval process described in ITA Policy P5030 -
+    Framework Standards Development.
+
+   1.6. Maintenance of the Standard
+
+   This standard will be revised on an annual basis and in accordance with the ITA Framework
+   Standards Development Policy (P5030).
+
+2. Body of the Standard
+
+   2.1. Scope and Content
+
+   The scope of the Airport Data Exchange Standard is to describe a statewide layer which
+   identifies the physical locations and attributes of Airports in Idaho.
+
+   2.2. Need
+
+   Airports are a key dataset needed for resource land management, community and economic
+   development needs, infrastructure maintenance, research and analysis, homeland security,
+   tourism, business development and public safety. This standard provides the foundation to
+   aggregate Airport data for centralized access and stewardship information.
+
+   2.3. Participation in the Standard Development
+
+   The development of the Airport Data Standard adheres to ITA Policy P5030 - Framework
+   Standards Development. The Transportation Technical Working Group tasked with
+   developing this standard represents private, county, state, and federal organizations. As the
+   standard is reviewed in accordance with Policy P5030 requirements, there will be
+   opportunity for broad participation and input by stakeholders. The process will be equally
+   broad for input on updates and enhancements to the standard. As with all Idaho Framework
+   standards, public review and comment on the Airport Data Standard is encouraged.
+
+   2.4. Integration with Other Standards
+
+Airports Standard                                                                                  7
+
+   The Airport Data Exchange Standard follows the same format as other Idaho geospatial
+   framework data standards. The Airport standard may contain some of the same attributes as
+   other framework standards and may adopt the field name, definition, and domain from the
+   other standards to promote consistency.
+
+   Inclusion of Federal Information Processing Standards (FIPS) codes will allow this standard
+   to be integrated with other standards that includes such codes, for example the Parcel Data
+   Exchange standard. Future standards, such as for Counties, Census delineations and others
+   will also include FIPS codes.
+
+   2.5. Technical and Operation Context
+
+       2.5.1. Data Environment
+
+       The data environment is a digital vector point with a specific, standardized set of
+       attributes pertinent to the Airport Framework. Airport data shared under this standard
+       must be in a format supporting vector point.
+
+       2.5.2. Reference Systems
+
+       The Airport Framework will be published in the Idaho Transverse Mercator (IDTM)
+       NAD83 coordinate system, which is the State of Idaho’s single zone coordinate system.
+       Data is not required to be submitted in the ITDM coordinate system but must have a
+       defined coordinate system clearly described in the metadata.
+
+       2.5.3. Global Positioning Systems (GPS)
+
+       Some data provided might contain geometry from GPS methods, and the provided
+       metadata should describe this, if applicable. However, geometry from a GPS is not
+       required to meet this standard.
+
+       2.5.4. Interdependence of Themes
+
+       Airport geometry may be coincident with other framework data, such as parcels,
+       runways. Currently there is no enforcement of coincidence or topology relationships
+       between Airport Framework and other Idaho Framework elements.
+
+Airports Standard                                                                                8
+
+       2.5.5. Encoding
+
+       When data is imported into and exported from the Airport Framework, encoding will take
+       place to convert data formats and attributes.
+
+       2.5.6. Resolution
+
+       No specific requirements for resolution are specified in this standard. Resolution will be
+       documented in the metadata.
+
+       2.5.7. Accuracy
+
+       Each feature class in this standard specifies a required accuracy level. The accuracies
+       indicated represent maximum horizontal distance the feature should be from the actual
+       physical location of the object it represents in the real world, or absolute horizontal
+       positional accuracy. Accuracies are indicated at the 95% confidence level, meaning that
+       statistically 95% of the features within the feature class shall be at or better than the
+       accuracy indicated. The FGDC Data Accuracy Standards describe how to confirm and
+       the report that features meet this accuracy level.
+
+       2.5.8. Edge Matching
+
+       No edge matching is required between jurisdictions, or between this and other framework
+       layers
+
+       2.5.9. Unique Identifier
+
+       All Airports should have a Federal Aviation Administration airport FAA Code which is a
+       unique combination of three letters and numbers to identify an airport.
+
+       2.5.10. Attributes
+
+       Attributes for public and intergovernmental distribution are described in Section 3 of this
+       standard.
+
+Airports Standard                                                                                   9
+
+       2.5.11. Stewardship
+
+       Perpetual maintenance and other aspects of lifecycle management are essential to Airport
+       Framework. Details of stewards, their roles and responsibilities, and processes are set
+       forth in an Airport Framework Stewardship Plan and related documents.
+
+       2.5.12. Records Management and Archiving
+
+       Internal web service maintenance
+
+       2.5.13. Metadata
+
+       The Airport Framework metadata will describe the methods used to update and aggregate
+       the individual Airport data contributions, processes or crosswalks performed, definition
+       of attributes, and other required information. This metadata will conform to the metadata
+       standards as set out in ITA Standard S4220 – Geospatial Metadata
+
+3. Data Characteristics
+
+   3.1. Minimum Graphic Data Elements
+
+   The geometry of the features in Airport Framework is vector point
+
+   3.2. Optional Graphic Data Elements
+
+   Not applicable.
+
+Airports Standard                                                                            10
+
+       3.3. Standard Attribute Schema
+
+                                                      Data
+       Field Name                  Alias                       Length                Description
+                                                      Type
+FAA                      FAA Code                      Text      3      The unique identifier for each airport
+IATA                     IATA Code                     Text      3
+
+AirfieldName             Airfield Name                 Text      50     Name of the Airfield
+
+OperationalStatus        Airport Operational Status    Text      20     Airport Operational Status
+                         Runway Surface Type
+RunwaySurfaceTypeList    List                          Text      20     Runway Surface Type List
+
+RunwayDesignationList    Runway Designator List        Text      20     Runway Designator List
+                         Runway Length List
+RunwayLengthList         (Feet)                        Text      20     Runway Length List (Feet)
+CityServed               City Served                   Text      20
+                                                                        Elevation above mean sea level in
+AirportElevation         AD Elevation                 Double            feet.
+                                                                        Latitude, or Northing expressed in
+CoordX                   Northing in IDTM83           Double            the Idaho Transverse Mercator 83
+                                                                        Longitude, or Easting expressed in
+CoordY                   Easting in IDTM83            Double            the Idaho Transverse Mercator 83
+     Latitude_DD         Latitude                     Double            Latitude in Decimal Degrees
+Longitude_DD             Longitude                    Double            Longitude in Decimal Degrees
+CityName                 City Name                     Text     255     City Name
+CityFIPS                 City FIPS Code                Text     255     City Census FIPS Code
+CountyName               County Name                   Text     255     County Name
+CountyFIPS               County FIPS Code              Text     255     County Census FIPS Code
+                                                                        Unique identifier to tie airport back
+FAA_OpenDataGUID         FAA Open Data GUID                             to FAA airport and runway datasets
+
+       3.4. Data Quality
+
+       Data quality considerations for the Airports dataset include:
+       •   All Airports should have a Federal Aviation Administration airport code which is a
+           unique combination of three letters and numbers to identify an airport.
+       •   All data must be edited and collected utilizing the Idaho Department of Transportation
+           data and applications.
+       •   All data must be collected and edited in ways that conform to the standards set out in:
+               o FAA AC 150/5300-16B “General Guidance and Specifications for Aeronautical
+                   Surveys: Establishment of Geodetic Control and Submission to the National
+                   Geodetic Survey” (AC16).
+
+ Airports Standard                                                                                              11
+
+          o FAA AC 150/5300-17 “Standards for Using Remote Sensing Technologies in
+            Airport Surveys” (AC17).
+          o Federal Aviation Administration (FAA). FAA AC 150/5300-18B “General
+            Guidance and Specification for Aeronautical Surveys: Airport Survey Data
+            Collection and Geographic Information System Standards” (AC18)
+
+Appendix A: References
+
+Idaho Technology Authority (ITA). Information and Data Policy P5000, Category: P5030
+Framework Standards Development Policy. https://ita.idaho.gov/psg/p5030.pdf
+
+Idaho Technology Authority (ITA). Enterprise Standards S4000 Geographic Information
+Systems (GIS) Data, Category: S4220 Geospatial Metadata. https://ita.idaho.gov/psg/s4220.pdf
+
+Federal Aviation Administration (FAA). FAA AC 150/5300-16B “General Guidance and
+Specifications for Aeronautical Surveys: Establishment of Geodetic Control and Submission to
+the National Geodetic Survey” (AC16).
+https://www.faa.gov/airports/resources/advisory_circulars/index.cfm/go/document.current/docu
+mentNumber/150_5300-16
+
+Federal Aviation Administration (FAA). FAA AC 150/5300-17 “Standards for Using Remote
+Sensing Technologies in Airport Surveys” (AC17).
+https://www.faa.gov/airports/resources/advisory_circulars/index.cfm/go/document.current/docu
+mentNumber/150_5300-17
+
+Federal Aviation Administration (FAA). FAA AC 150/5300-18B “General Guidance and
+Specification for Aeronautical Surveys: Airport Survey Data Collection and Geographic
+Information System Standards” (AC18)
+https://www.faa.gov/regulations_policies/advisory_circulars/index.cfm/go/document.information
+/documentid/74204
+
+Federal Geographic Data Committee (FGDC). FGDC Data Accuracy Standards.
+https://www.fgdc.gov/standards/projects/accuracy
+
+Appendix B: Glossary
+
+See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+Airports Standard                                                                          12
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

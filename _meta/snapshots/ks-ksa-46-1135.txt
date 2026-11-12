@@ -1,0 +1,15 @@
+46-1135. (a) The legislative division of post audit shall conduct information technology audits as directed by the legislative post audit committee. Audit work performed under this section may include:
+(1) Assessment of security practices of information technology systems maintained or administered by any state agency or any entity subject to audit under the provisions of K.S.A. 46-1114(c), and amendments thereto; and
+(2) continuous audits of ongoing information technology projects by any state agency or any entity subject to audit under the provisions of K.S.A. 46-1114(c), and amendments thereto, including systems development and implementation.
+(b) Written reports on the results of such auditing shall be furnished to:
+(1) The entity which is being audited;
+(2) the chief information technology officer and chief information security officer of the branch of government that the entity being audited is a part of;
+(3) (A) the governor, if the entity being audited is an executive branch entity;
+(B) the legislative coordinating council, if the entity being audited is a legislative entity; or
+(C) the chief justice of the Kansas supreme court, if the entity being audited is a judicial entity;
+(4) the legislative post audit committee;
+(5) the joint committee on information technology; and
+(6) such other persons or agencies as may be required by law or by the specifications of the audit or as otherwise directed by the legislative post audit committee.
+(c) The provisions of K.S.A. 46-1106(e), and amendments thereto, shall apply to any audit or audit work conducted pursuant to this section.
+(d) This section shall be a part of and supplemental to the legislative post audit act.
+[2026 Session Laws of Kansas, chapter 153, House Substitute for Senate Bill No. 51, section 2. Approved April 27, 2026.]

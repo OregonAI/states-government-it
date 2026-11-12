@@ -1,0 +1,167 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s2510
+title: S2510 – Network Operating System
+doc_type: standard
+citation: ITA Standard S2510
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/s2510.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 9d8b1e3a9cf3ce4cfd22614cead4d5a44eb570e3900e392ebb70172c31013db9
+effective_date: '2001-10-17'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S2510 – Network Operating System (ITA Standard S2510)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '2500 - Software - Server, Standards', a standard. The library's own summary: "ITA Standard S2510 mandates the security and operational requirements for network operating systems to ensure reliability and protection."
+
+## Full text
+
+Idaho Technology (ITA)
+
+ENTERPRISE STANDARDS – S2500 SOFTWARE – SERVER
+
+Category:    S2510 – NETWORK OPERATING SYSTEM
+
+CONTENTS:
+I.    Definition
+II. Rationale
+III. Approved Standard(s)
+IV. Approved Product(s)
+V. Justification
+VI. Technical and Implementation Considerations
+VII. Emerging Trends and Architectural Directions
+VIII. Procedure Reference
+IX. Review Cycle
+X. Contact Information
+      Revision History
+
+I. DEFINITION
+
+   The network operating system is the master software that controls all internal operations
+   on a network server. This includes communicating with other networked servers and
+   clients, managing security authorizations, reading and writing from memory and storage
+   devices, transferring information to attached printers, and accepting management
+   commands input from a keyboard and mouse.
+
+II. RATIONALE
+
+   Support of network operating systems constitutes a significant portion of Idaho’s cost for
+   supporting its technology infrastructure. The more network operating systems supported,
+   the higher the State’s costs for technology infrastructure support. Standardizing on fewer
+   network operating systems greatly simplifies technical support requirements and
+   contributes directly to significantly lower support expenses.
+
+III. APPROVED STANDARD(S)
+
+   There is no technical standard.
+
+IV. APPROVED PRODUCT(S)
+
+   1. Microsoft Windows Server vendor supported versions.
+
+   2. Unix/Linux vendor supported versions.
+
+S2510 – Network Operating System                                                  Page 1 of 3
+
+V. JUSTIFICATION
+
+   The Unix/Linux operating systems have proven themselves capable of supporting large-
+   scale, high-volume client/server applications. They provide scalable, stable, high-
+   performance environments that are able to support mission-critical business
+   applications.
+
+   While Microsoft Windows Server operating systems are proprietary, they are
+   predominate in the Intel server operating system market and State installations. They
+   have become de facto standards.
+
+VI. TECHNICAL AND IMPLEMENTATION CONSIDERATIONS
+
+   The Microsoft Windows Server operating systems are recommended for small-to-
+   medium sized departmental applications, database, file, and print servers. The
+   Unix/Linux operating systems are recommended for large-scale database, file, Internet
+   and gateway servers.
+
+VII. EMERGING TRENDS AND ARCHITECTURAL DIRECTIONS
+
+   Linux has been deemed an acceptable operating system to use as a state standard for
+   business and is currently being used by numerous agencies.
+
+   Agencies should begin to review and plan for later, supported versions of Windows
+   Server which are currently available as well as planning for Operating Systems that will
+   be End of Life in the future. This planning process should include comprehensive
+   application testing, image building and pilot deployments.
+
+VIII. PROCEDURE REFERENCE
+
+   Policy for Patching and Vulnerability Management are detailed in ITA Information
+   Technology P4520 – Patching & Vulnerability Management
+
+IX. REVIEW CYCLE
+
+   Six (6) Months
+
+X. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+REVISION HISTORY
+
+   08/19/2014 – Removed references to any approved operating system as long as the OS
+                is vendor supported and must be patched and updated regularly. Added
+                Linux as an acceptable OS to use
+
+S2510 – Network Operating System                                                  Page 2 of 3
+
+   07/01/13 – Changed “ITRMC” to “ITA”.
+
+    6/16/09 – Added Approved Standard(s), and Procedure Reference to this standard;
+             changed the layout and deleted Timeline
+
+     3/7/07 – Revised to note information on Microsoft Longhorn and the anticipated
+             release of Windows Server 2003, Service Pack 2. Agencies encouraged to
+             migrate from any existing systems still using Windows 2000 Server.
+
+ 12/13/05 – Revised to note that Microsoft has ended mainstream support of Windows
+            2000 Server. Administrative corrections were made to product names, i.e.
+            “Windows Server 2000” is properly titled “Windows 2000 Server” and to move
+            the Unix operating system to a separate line from Windows Server 2003.
+
+   8/25/04 – Revised to remove Windows NT Server from list of approved standards, to
+             prevent installing Windows Server 2000 onto new computers, and to
+             recommend transitioning existing servers to the Windows Server 2003
+             operating system. Minor changes were made throughout the document to
+             reflect the new standard and to update emerging trends.
+
+             Effective Date:       October 17, 2001
+
+S2510 – Network Operating System                                              Page 3 of 3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

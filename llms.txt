@@ -1,6 +1,6 @@
 # State Government IT Governance
 
-> Non-authoritative, AI-friendly reference for how state governments regulate their own information technology, including government use of AI (states: California, Colorado, Florida, Maryland, Massachusetts, Minnesota, New Jersey, New York, North Carolina, Oregon, Pennsylvania, Texas, Virginia, Washington).
+> Non-authoritative, AI-friendly reference for how state governments regulate their own information technology, including government use of AI (states: Alaska, Arizona, California, Colorado, Delaware, Florida, Hawaii, Idaho, Iowa, Kansas, Kentucky, Louisiana, Maine, Maryland, Massachusetts, Michigan, Minnesota, Missouri, New Jersey, New York, North Carolina, Oregon, Pennsylvania, Texas, Virginia, Washington).
 > Full verbatim text of each instrument is included in-repo. An instrument that is
 > not public, or whose official source refuses a fetch, is a stub with its citation and link.
 > Always verify against the authoritative source linked in each document.

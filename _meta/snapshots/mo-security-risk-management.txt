@@ -1,0 +1,51 @@
+                                           TECHNOLOGY AREA
+
+                                                       DEFINITION
+Name                     Security Risk Management
+                         Security Risk Management is a four-step process of framing, assessing, responding to
+                         and monitoring risk. This allows agency managers to balance the operational and
+                         economic costs of protective measures and achieve gains in mission capability by
+                         protecting the agency systems and data that support their mission.
+                         Risk framing establishes the context and provides a common perspective on how
+                         organizations manage risk.
+                         Risk assessment includes identification and evaluation of risks, risk impacts, and
+                         recommendations for risk-reducing measures.
+Description
+                         Risk response provides a consistent, agency-wide, response to risk in accordance with
+                         their risk framework.
+                         Risk monitoring is maintaining ongoing awareness of the agencies’ risk environment, risk
+                         management program, and associated activities to support risk decisions.
+                         Risk management is ongoing and evolving, which emphasizes the need for continuing risk
+                         evaluations and assessments. The system owner determines whether the remaining risk
+                         is at an acceptable level or whether additional security controls should be implemented.
+                         Security Risk Management ensures that appropriate, cost-effective safeguards are
+Rationale                incorporated into existing and new installations of agency systems.
+                         Security Risk Management helps to ensure the balance of risks, vulnerabilities, threats,
+Benefits                 countermeasures, and available resources to achieve an acceptable risk level based on
+                         the sensitivity or criticality of the individual systems.
+
+                                       ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name         Security
+Specify the Discipline Name     Management Controls
+
+                                                       KEYWORDS
+List Keywords                   Framework, Assessment, Response, Monitor
+
+                                     ASSOCIATED COMPLIANCE COMPONENTS
+                                •    Risk Framing
+List the Compliance             •    Risk Assessment
+Component Names                 •    Risk Response
+                                •    Risk Monitor
+
+                                       ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                                     CURRENT STATUS
+Provide the Current Status          In Development         Under Review         Approved            Rejected
+
+                                        AUDIT TRAIL
+Creation Date              09/29/05            Date Approved / Rejected   10/31/2023
+    Reason for Rejection
+Last Date Reviewed         08/03/2023          Last Date Updated          10/31/2023
+    Reason for Update      Vitality

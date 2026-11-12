@@ -1,0 +1,11 @@
+TITLE 67
+STATE GOVERNMENT AND STATE AFFAIRS
+CHAPTER 8
+EXECUTIVE AND ADMINISTRATIVE OFFICERS — GOVERNOR AND LIEUTENANT-GOVERNOR
+67-834. DEFINITIONS. As used in sections 67-835, 67-836 and 67-837, Idaho Code:
+(1) "Geographic information" means data and datasets containing location information including, but not limited to, remotely sensed imagery, global positioning systems files, geospatially referenced computer-aided design files, digital cartographic products, spatially enabled databases, and geospatial datasets locating and describing features and their attributes on, above or under the earth.
+(2) "Geographic information systems" or "GIS" means an information system capable of capturing, integrating, storing, editing, analyzing, managing, sharing, and displaying geographic information. A GIS involves computer hardware, software, networks and applications, as well as the people to operate, develop, administer and use them.
+(3) "Metadata" means a description of the quality, currency, attributes, methods and other salient aspects of geographic and tabular information.
+(4) "State agency" means all state agencies or departments, boards, commissions, councils and institutions of higher education but shall not include the elected constitutional officers and their staffs, the legislature and its staffs or the judiciary.
+History:
+[67-834, added 2018, ch. 258, sec. 9, p. 614.]

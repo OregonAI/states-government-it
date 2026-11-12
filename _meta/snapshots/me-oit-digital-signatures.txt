@@ -1,0 +1,14 @@
+Digital Signatures
+For state agencies: All state agencies must consult with the Chief Information Officer before contracting with an approved digital signature vendor. User education is a critical component for ensuring the viability of digital signatures and the integrity of digital signatures rests upon the confidentiality of authentication credentials.
+For digital signature vendors: To become an approved vendor, the product must meet the following criteria.
+1. It must be based upon the X.509 Public Key Infrastructure;
+2. It must provide seamless integration with the PDF document format;
+3. It must provide seamless integration with Microsoft Active Directory;
+4. The interface to the Signer must be either web-based or a free download;
+5. The data center must be certified as either "SSAE 16 Type II (American Institute of Certified Public Accounts)" or "FedRAMP compliant Cloud Service Provider (Federal General Services Administration)".
+6. All transmission between the Signer's device and the data center must be encrypted to the AES-256 (National Institute of Standards and Technology) strength; and
+7. The Verification and Tamper-Resistance elements must be embedded within the document, as well as stored in the data center
+Any vendor seeking approval must complete and submit the Request for Product Acceptance (PDF) .
+• Digital Signature Rule
+• Approved Products: Adobe Sign, DocuSign, PandaDoc, and RightSignature and JotForm Enterprise
+• For the Executive Branch, the CIO has limited the Digital Signature portfolio to Adobe Sign, DocuSign, and Jotform Enterprise.

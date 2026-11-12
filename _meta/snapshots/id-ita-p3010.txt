@@ -1,0 +1,81 @@
+Idaho Technology Authority (ITA)
+
+ENTERPRISE POLICY – P3000 TELECOMMUNICATIONS POLICIES
+
+Category: P3010 – TELECOMMUNICATIONS EQUIPMENT, LOCAL AND LONG
+DISTANCE SERVICES
+
+CONTENTS:
+I.    Authority
+II. Abstract
+III. Definitions
+IV. Policy
+V. Exemption Process
+VI. Procedure Reference
+VII. Contact Information
+VIII. Intent
+      Revision History
+
+I. AUTHORITY
+
+   Authority: Idaho Code § 67-831 through § 67-833
+
+II. ABSTRACT
+
+   The State of Idaho must continually embrace up-to-date telecommunication practices
+   and technology to receive maximum benefit and affordability of services. Statewide
+   contracts for telecommunication systems, as well as local and long-distance services are
+   centrally maintained and represent considerable savings when utilized across State
+   agencies.
+
+III. DEFINITIONS
+
+   There are no definitions for this policy.
+
+IV. POLICY
+
+   State agencies are required to use the Office of Information Technology Services (ITS)’s
+   central statewide system, contracts and services as well as local and long-distance
+   service contracts for voice and other telecommunication services. State agencies shall
+   share systems and services whenever determined feasible and cost effective by the
+   Office of Information Technology Services (ITS) in conjunction with ITA.
+
+   The Office of Information Technology Services (ITS) shall assign a SME to review and
+   approve the purchase of telecommunications equipment.
+
+P3010 – Telecommunication Switching and Long-Distance Services                   Page 1 of 2
+
+V. EXEMPTION PROCESS
+
+   Refer to ITA Policy P1010 (Information Technology Policies, Standards, and Guidelines
+   Framework).
+
+VI. PROCEDURE REFERENCE
+
+   There are no procedure references for this policy.
+
+VII. CONTACT INFORMATION
+
+   For more information, contact the ITA Staff at (208) 605-4064.
+
+VIII. INTENT
+
+   The Office of Information Technology Services (ITS) shall coordinate and manage:
+
+   1. Purchase and Installation of telecommunications systems and services;
+   2. Manage move/add/changes to telecommunications systems for all agencies and
+      institutions statewide.
+
+REVISION HISTORY
+
+07/01/18 –     Updated Idaho statute references; changed “Department of Administration” to
+               “Office of Information Technology Services (ITS)”
+
+07/01/13 –     Changed “ITRMC” to “ITA”.
+
+06/16/09 –     Added Definitions, Exemption Process, Procedure Reference and Revision
+               History to this policy, changed the layout and deleted Timeline.
+
+             Date Established:    April 1997
+
+P3010 – Telecommunication Switching and Long-Distance Services                  Page 2 of 2

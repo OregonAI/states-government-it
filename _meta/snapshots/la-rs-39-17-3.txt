@@ -1,0 +1,4 @@
+RS 39:17.3
+§17.3. Fee
+The fee to install the application to display a digitized credential shall not exceed six dollars per credential.
+Acts 2019, No. 220, §1, eff. June 11, 2019.

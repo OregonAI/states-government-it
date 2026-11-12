@@ -1,0 +1,198 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: missouri
+id: mo-information-security-policy-cc
+title: Information Security Policy
+doc_type: standard
+citation: 'Security Domain Compliance Component: Information Security Policy'
+authority_level: ''
+issuing_body: Office of Administration, Information Technology Services Division
+source_url: https://itsd.oa.mo.gov/sites/g/files/zuston256/files/media/pdf/2025/04/CC-Information-Security-Policy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: da51c108bad4b914b8c724696a1f641fa8aefebfe5162a7142e0191da0a18382
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Information Security Policy (Security Domain Compliance Component: Information Security Policy)
+
+## At a glance
+
+Row 'Information Security Policy' of the Security Domain's Approved Standards page (https://itsd.oa.mo.gov/it-governance/enterprise-architecture/security-domain/approved-standards-security-domain), the statewide IT security standards library of ITSD's enterprise architecture. Its viewer page is https://itsd.oa.mo.gov/media/pdf/information-security-policy-cc; the PDF address is the file that viewer page embeds. A 'Compliance Component' document of the Security Domain framework. Printed status (read by rendering the PDF page, because the check boxes are drawn marks with no text layer) is classification Current and status Under Review, not Approved, with Date Approved / Rejected 02/13/2025. OWNER DECISION, see left_out. The index lists it under Approved Standards; it is kept as a document on the index label as the status of record, and the owner may treat it as an under-review revision instead.
+
+## Full text
+
+                                      Compliance Component
+
+                                                         DEFINITION
+Name                   Information Security Policy
+                       Information Security Policy is defined as an aggregate of directives, regulations, rules, and
+Description            practices as approved by senior management that prescribes how an organization
+                       manages, protects, and distributes agency information.
+Rationale              To provide support and direction from management for information security.
+                              •   Enhances the agency’s overall security posture.
+Benefits
+                              •   Better prepares the agency for audit and compliance requirements.
+
+                                           ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name           Security
+Specify the Discipline Name       Management Controls
+Specify the Technology Area
+                                  Information Security Policy
+Name
+
+                                             COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                  Guideline
+Component Type
+Component Sub-type
+
+                                                  COMPLIANCE DETAIL
+                                  An Information Security Policy document must be approved by management,
+                                  published and communicated in a form that is relevant, accessible and
+                                  understandable to the intended reader. It should state management’s commitment
+                                  and establish the agency’s approach to managing information security.
+
+                                  At a minimum, the following guidance must be included:
+                                       •     A statement of management’s intent, which supports the goals and
+                                             principles of information security.
+                                       •     A definition of information security, overall objectives and scope, and the
+State the Guideline, Standard                importance of security as an enabling mechanism for information sharing.
+or Legislation
+                                       •     A brief explanation of the security policies, principles, standards and
+                                             compliance requirements of particular importance to the agency, for
+                                             example:
+                                                     o Compliance with legislative and contractual requirements
+                                                     o Security education requirements
+                                                     o Prevention and detection of malicious software
+                                                     o Business continuity management
+                                                     o Consequences of security policy violations
+                                       •     The general and specific responsibilities of agency personnel with regards
+                                             to information security management, including reporting security incidents
+
+    •    References to documentation which support the policy, such as detailed
+         security procedures for specific information systems or security rules.
+
+This policy must have an owner who is responsible for its maintenance and review
+according to a defined review process. That process must ensure that a review
+takes place in response to any significant changes, such as:
+    •    Security incidents
+    •    Newly discovered vulnerabilities
+    •    Changes to the organizational or technical infrastructure
+
+There should also be scheduled, periodic reviews of the following:
+    •    The policy’s effectiveness, demonstrated by the nature, number and
+         impact of recorded security incidents and compliance with industry
+         security standards.
+    •    Cost and impact of controls on business efficiency
+    •    Effects of changes to technology
+
+Agencies should have the following three different types of policies: Program,
+Issue-Specific and System-Specific
+
+Program policies should:
+    •    Create and define a computer security program.
+    •    Be clear as to which resources are covered, including facilities, hardware,
+         software, information, and personnel.
+    •    Set agency strategic directions, which include defining the goals of the
+         program. For instance, in an agency responsible for maintaining large
+         mission critical databases, reduction in errors, unauthorized access, data
+         loss, data corruption, and system/data recovery would be specifically
+         stressed.
+    •    Assign responsibility for implementing the security program. In most
+         agencies, this will be assigned to security personnel.
+    •    Address compliance issues, including detailing responsibilities and
+         establishing specified penalties and disciplinary actions.
+
+Issue-Specific policies should:
+    •    Address specific topics of current relevance and concern to the agency.
+         Management may find it appropriate, for example, to issue a policy on
+         how the agency will approach e-mail privacy or Internet connectivity.
+    •    Be updated as needed, such as to keep up with the appropriate use of
+         cutting-edge technology whose security vulnerabilities are still largely
+         unknown.
+    •    Contain an issue statement/purpose clause, which includes the agency's
+         position statement, applicability, roles and responsibilities, compliance,
+         and point of contact.
+
+System-Specific policies should:
+
+                                   •   Focus on decisions taken by agency management to protect a particular
+                                       system, such as acceptable use of workstations, defining the extent to
+                                       which individuals will be held accountable for their actions on the system.
+                                   •   Vary from system to system. Each system should have defined security
+                                       objectives based on the system's operational requirements, environment,
+                                       and the agency management's acceptance of risk.
+                                   •   Be expressed as rules: who (by job category, organizational placement,
+                                       or name) can do what (e.g., modify, delete) to which specific classes and
+                                       records of data, and under what conditions.
+
+                              All three types of policy should be:
+                                   •   Supplemented. Standards, guidelines, and procedures offer users,
+                                       managers, and others a clearer approach to implementing policy and
+                                       meeting agency goals.
+                                   •   Visible. Visibility aids implementation of policy by helping to ensure policy
+                                       is fully communicated throughout the agency. Standards, guidelines, and
+                                       procedures should be disseminated throughout an agency via handbooks,
+                                       regulations, or manuals (paper or electronic).
+                                   •   Supported by Management. Without management support, any policy will
+                                       become ineffective.
+                                   •   Consistent. Other directives, laws, organizational culture, guidelines,
+                                       procedures, and agency’s mission should be considered.
+
+                              This document shall be reviewed annually or as needed.
+
+                              NIST SP 800-12 Rev.1, An Introduction to Information Security (June 2017)
+Document Source Reference #
+
+                                              Compliance Sources
+                              National Institute of
+                              Standards and Technology
+Name                                                            Website       https://csrc.nist.gov/
+                              (NIST), Computer Security
+                              Resource Center (CSRC)
+Contact Information           inquiries@nist.gov
+Name                                                            Website
+Contact Information
+
+                                                    KEYWORDS
+                              Management directives, management practices, management principles, security
+List Keywords                 rules, program policies, issue policies, system policies, compliance, risk
+                              assessment.
+
+                                         COMPONENT CLASSIFICATION
+Provide the Classification       Emerging                 Current                Twilight              Sunset
+     Sunset Date
+
+                                                  CURRENT STATUS
+Provide the Current Status       In Development            Under Review           Approved             Rejected
+
+                                        AUDIT TRAIL
+Creation Date              2/22/2007         Date Approved / Rejected   02/13/2025
+    Reason for Rejection
+Last Date Reviewed         01/28/2025        Last Date Updated          02/13/2025
+    Reason for Update      Vitality
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

@@ -1,0 +1,203 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: maine
+id: me-oit-cots-cloud
+title: COTS-Cloud Policy
+doc_type: policy
+citation: MaineIT COTS-Cloud Policy
+authority_level: ''
+issuing_body: Maine Office of Information Technology (MaineIT), Department of Administrative and Financial
+  Services
+source_url: https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/COTSCloudPolicy.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: b3c3715188479efeefbd7c7ddda1a35a86fb1761cd928d8797e159bf8810c02d
+effective_date: null
+source_version: 'Latest Revision Date: 1 July 2019'
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+- procurement
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# COTS-Cloud Policy (MaineIT COTS-Cloud Policy)
+
+## At a glance
+
+OIT's decision sequence for the acquisition and hosting of new and replacement information assets: minimizing total cost of ownership by leveraging existing assets and using commercial off-the-shelf products and the commercial public cloud where appropriate.
+
+## Full text
+
+                                 Maine State Government
+                       Dept. of Administrative & Financial Services
+                         Office of Information Technology (OIT)
+
+                                    COTS-Cloud Policy
+1.0.   Statement
+1.1.   The Office of Information Technology (OIT) is committed to minimizing the Total
+       Cost of Ownership (TCO) for Information Assets across the enterprise. This includes
+       leveraging existing Information Assets, where possible, to satisfy the business needs
+       of multiple parties. It also includes strategically utilizing Commercial Off-The-Shelf
+       (COTS) Information Assets, and the Commercial Public Cloud, where appropriate.
+       This policy outlines the decision sequence for the acquisition and hosting of
+       new/replacement Information Assets.
+
+2.0.   Definitions
+2.1.   Account Manager: Agency information technology customer liaison.
+
+2.2.   Application Director: Senior Manager within OIT responsible for delivery of
+       application services to the Agencies.
+
+2.3.   Information Assets: The full spectrum of all I.T. products, including business
+       applications, system software, development tools, utilities, appliances, etc.
+
+2.4.   Infrastructure as a Service (IaaS): Computing infrastructure (e.g., Processor,
+       Storage, Operating System, etc.) consumed from the Public Cloud.
+
+2.5.   OIT Hosting: Full-service, horizontal infrastructure platforms (e.g., Oracle
+       database, Microsoft SQL database, Oracle Fusion Java Middleware, Microsoft
+       Internet Information Services, VMWare ESxi, etc.) provided by OIT. The
+       implementation of OIT Hosting is between two OIT divisions.
+
+2.6.   OIT Housing: Equipment that resides in an OIT data center, where OIT provides the
+       physical security, uninterrupted electricity, climate control, rack space, Internet
+       connectivity and network segmentation. The OIT Housing Vendor provides all other
+       requirements.
+
+2.7.   Platform as a Service (PaaS): Development and/or Deployment framework
+       consumed from the Public Cloud.
+
+                                          Page 1 of 4
+
+                                     COTS-Cloud Policy
+
+2.8.   Software as a Service (SaaS): End-user Information Asset consumed from the Public
+       Cloud.
+
+3.0.   Applicability
+3.1.   This policy applies to:
+       3.1.1. All State of Maine personnel, both employees and contractors;
+       3.1.2. Executive Branch Information Assets, irrespective of hosting location; and
+       3.1.3. Information Assets from other Maine State Government branches that use
+              the State network.
+
+4.0.   Responsibilities
+4.1.   The Application Directors, the Account Managers, the Computing Infrastructure &
+       Services Division, the Enterprise Data Service Division, the Enterprise Architect,
+       and the Agency Business Partners collaborate toward satisfying this policy.
+
+5.0.   Directives
+5.1.   This section is about the product acquisition and can be summarized as Reuse-Buy-
+       Build.
+
+       5.1.1. The decision sequence for new/replacement Information Asset:
+              5.1.1.1. Leverage current Information Asset for reuse
+              5.1.1.2. Commercial Off the Shelf (COTS) Information Asset (highly-
+                       configurable)
+              5.1.1.3. Custom developed Information Asset (OIT-Created)
+
+       5.1.2 The best value from a sunk investment is to reuse it to the maximum extent
+             possible. Therefore, leveraging existing Information Assets is the first option.
+
+       5.1.3. Since Agency business partners have distinct business requirements, reuse
+              of an existing Information Asset may not always be practical. When new
+              Information Assets are necessary, consider COTS first. It is critical to select a
+              COTS product that can be configured to meet business requirements, so that
+              product customization may be reduced to the absolute minimum.
+
+       5.1.3. Only if COTS is not viable, then in-house custom development may be
+              considered. There must be compelling technical and/or business reasons to
+              choose custom development.
+
+5.2.   Only after the product acquisition decision is made, the hosting decision is
+       undertaken. This could be either Remote Hosting (Public Cloud or OIT Housing), or
+       OIT Hosting.
+
+5.3.   The Hosting-Customization Policy 1 identifies the applicable policies for each hosting
+
+1
+ https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/hosting-customization-
+policy.pdf
+                                         Page 2 of 4
+
+                                       COTS-Cloud Policy
+
+       and customization scenario.
+
+5.4.   The Hosting and Housing Policy 2 identifies the differences between OIT Hosting and
+       OIT Housing.
+
+5.5.   For both COTS and Custom products, the hosting decision should carefully consider
+       all three options: Public Cloud, OIT Housing, and OIT Hosting. Each option must be
+       evaluated, and the final decision made based upon the combined score of TCO,
+       functionality/usability, and Cybersecurity.
+
+5.6.   Here are some of the considerations in evaluating the TCO amongst Public Cloud, OIT
+       Housing, and OIT Hosting.
+
+       The Public Cloud is more likely to yield economies-of-scale, expense pegged to actual
+       usage, as opposed to the peak provisioning, and reduced initial capital outlay.
+       However, the Public Cloud also creates other challenges, such as regulatory
+       compliance, network latency, and integration with the on-premises ecosystem.
+
+       OIT Hosting offers the tightest possible integration with the on-premises
+       ecosystem, and minimizes network latency.
+
+       If, on the other hand, a willing vendor is available to assist in Housing of an
+       Information Asset within an OIT data center, that could potentially offer a best-of-
+       both-worlds solution.
+
+5.7.   Irrespective of the hosting option, Data remains a strategic asset for the State, and
+       the State retains sovereign ownership of its own data at all times. For Public Cloud
+       hosting, at the end of the engagement, the vendor must return back the State data
+       at a mutually agreed-upon format. Also, while OIT handles the technical details,
+       the Agency business units remain the fiduciary stewards of their data.
+
+5.8.   To the extent the Public Cloud is chosen, the order of preference is as follows:
+       5.8.1. Public Cloud Software as a Service (SaaS)
+       5.8.2. Public Cloud Platform as a Service (PaaS)
+       5.8.3. Public Cloud Infrastructure as a Service (IaaS)
+
+       This sequence reflects both the order of implementation difficulty, as well as the
+       distribution of Cybersecurity liability.
+
+6.0.   Document Information
+6.1.   Initial Issue Date: 3 February 2010
+6.2.   Latest Revision Date: 1 July 2019
+6.3.   Point of Contact: PolicyTeam.OIT@Maine.Gov
+
+2
+ https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/hosting-housing-
+policy.pdf
+                                            Page 3 of 4
+
+                                     COTS-Cloud Policy
+
+6.4.   Approved By: Chief Information Officer, OIT
+6.5.   Legal Citation: Title 5, Chapter 163: Office of Information Technology 3
+6.6.   Waiver Process: Waiver Policy 4
+
+3 https://legislature.maine.gov/statutes/5/title5ch163sec0.html
+4 https://www.maine.gov/oit/sites/maine.gov.oit/files/inline-files/waiver.pdf
+
+                                         Page 4 of 4
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

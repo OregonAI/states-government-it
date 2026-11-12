@@ -1,0 +1,161 @@
+                                     COMPLIANCE COMPONENT
+
+                                                       DEFINITION
+Name                   Physical and Environmental Protection Controls
+                       Physical and Environmental Protection Controls refer to measures taken to protect systems,
+Description            buildings, and related supporting infrastructure against threats associated with their physical
+                       environment.
+                       Physical and Environmental Protection Controls are needed to protect the facility that
+Rationale              houses system resources, the system resources themselves, and the facilities used to
+                       support their operation.
+                       Helps prevent:
+                           • Interruptions in information technology services
+                           • Physical damage
+Benefits
+                           • Loss of control over system integrity
+                           • Theft
+                           • Unauthorized access to, or disclosure of, information
+
+                                       ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name         Security
+Specify the Discipline Name     Operational Controls
+Specify the Technology Area
+                                Physical Security
+Name
+Specify the Product
+Component Name
+
+                                           COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                Guideline
+Component Type
+Component Sub-type
+
+                                                COMPLIANCE DETAIL
+
+                                An agency’s physical and environmental protection controls should address all of
+                                the following topics:
+
+                                    1) Physical and Environmental Protection Policy and Procedures - This
+                                       control addresses the establishment of physical and environmental policy
+                                       and procedures for the agency.
+                                    2) Physical Access Authorizations - Develops, approves, maintains and
+State the Guideline, Standard
+                                       reviews a list of individuals with authorized access to the facility where the
+or Legislation
+                                       information system resides.
+                                    3) Physical Access Control – The enforcement of physical access
+                                       authorizations.
+                                    4) Access Control for Transmission Medium - Physical security safeguards
+                                       applied to information system distribution and transmission lines that help
+                                       to prevent accidental damage, disruption, and physical tampering. These
+                                       safeguards include: (i) locked wiring closets; (ii) disconnected or locked
+                                       spare jacks; and/or (iii) protection of cabling by conduit or cable trays.
+
+5) Access Control for Output Devices - The agency should control physical
+    access to information system output devices to prevent unauthorized
+    individuals from obtaining the output.
+6) Monitoring Physical Access – The agency should monitor physical access,
+    reviews physical access logs, and coordinates results of reviews and
+    investigations for the facility where the information system resides.
+7) Visitor Access Records – The agency should maintain and review visitor
+    access records.
+8) Power Equipment and Cabling - The agency should protect power
+    equipment and power cabling for the information system from damage and
+    destruction.
+9) Emergency Shutoff – The agency should provide the capability of shutting
+    off power to the information system, place emergency shutoff switches or
+    devices to facilitate safe and easy access for personnel, and protect
+    emergency power shutoff capability from unauthorized activation.
+10) Emergency Power - The agency should provide a short-term
+    uninterruptible power supply to facilitate an orderly shutdown of the
+    information system or a transition of the information system to long-term
+    alternate power in the event of a primary power source loss.
+11) Emergency Lighting – The agency should employ and maintain automatic
+    emergency lighting for the information system that activates in the event of
+    a power outage or disruption, which covers emergency exits and
+    evacuation routes within the facility.
+12) Fire Protection - The agency should employ and maintain fire suppression
+    and detection devices/systems for the information system that are
+    supported by an independent energy source.
+13) Environmental Controls – The agency should maintain and monitor
+    temperature and humidity controls within the facility where the information
+    system resides.
+14) Water Damage Protection - The agency should protect the information
+    system from damage resulting from water leakage by providing master
+    shutoff or isolation valves that are accessible, work properly, and are
+    known to key personnel.
+15) Delivery and Removal - The agency should authorize, monitor, and control
+    any information system components entering and exiting the facility, and
+    maintains records of those items.
+16) Alternate Work Site – The agency should apply appropriate security
+    controls at alternate work sites. These alternative work sites should also
+    provide a means for employees to communicate with information security
+    personnel in case of security incidents or problems.
+17) Location of Information System Components - The agency should position
+    information system components within the facility to minimize potential
+    damage from physical and environmental hazards and to minimize the
+    opportunity for unauthorized access.
+18) Information Leakage - The agency should protect the information system
+    from information leakage due to electromagnetic signals emanations.
+19) Asset Monitoring and Tracking – The agency should employ asset location
+    technologies to track and monitor the location and movement of assets.
+20) Electromagnetic Pulse Protection – The agency should protect against
+    electromagnetic pulse damage for state systems.
+21) Component Marking – the agency should mark state systems indicating
+    the impact level or classification level of the information permitted to be
+    processed, stored, or transmitted by the system.
+22) Facility Location – the agency should plan the location or site of the facility
+    where the system resides considering physical and environmental
+    hazards; and For existing facilities, consider the physical and
+    environmental hazards in the organizational risk management strategy.
+
+                                NIST (SP) 800-53 Rev. 5, Security and Privacy Controls for Federal Information
+                                Systems and Organizations - PE: Physical and Environmental Protection
+Document Source Reference #
+                                (Nov 2023)
+
+                                                 Compliance Sources
+                                National Institute of
+                                Standards and Technology                           PE: Physical and Environmental
+Name                                                                Website
+                                (NIST), Computer Security                          Protection - CSF Tools
+                                Resource Center (CSRC)
+Contact Information             inquiries@nist.gov
+Name                                                                Website
+Contact Information
+
+                                                        KEYWORDS
+                                Storage, power, utilities, fire, flood, natural disaster, generator, UPS, keycard,
+List Keywords
+                                Sonitrol, biometric, access control.
+
+                                            COMPONENT CLASSIFICATION
+Provide the Classification          Emerging                  Current                    Twilight          Sunset
+     Sunset Date
+
+                                         COMPONENT SUB-CLASSIFICATION
+ Sub-Classification          Date                          Additional Sub-Classification Information
+    Technology Watch
+    Variance
+    Conditional Use
+
+                                      Rationale for Component Classification
+Document the Rationale for
+Component Classification
+
+                                                     Migration Strategy
+Document the Migration
+Strategy
+                                               Impact Position Statement
+Document the Position
+Statement on Impact
+
+                                                     CURRENT STATUS
+Provide the Current Status          In Development            Under Review               Approved         Rejected
+
+                                                       AUDIT TRAIL
+Creation Date                   03/01/2007                    Date Approved / Rejected     12/18/2025
+     Reason for Rejection
+Last Date Reviewed              12/17/2025                    Last Date Updated            12/18/2025
+     Reason for Update

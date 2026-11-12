@@ -1,0 +1,9 @@
+TITLE 67
+STATE GOVERNMENT AND STATE AFFAIRS
+CHAPTER 8
+EXECUTIVE AND ADMINISTRATIVE OFFICERS — GOVERNOR AND LIEUTENANT-GOVERNOR
+67-836. AGENCIES TO PROVIDE RECORDS AND DATA. (1) Every state agency shall, no later than January 15, 2009, provide records in an electronic format acceptable to the department of administration of all interests in any real property owned, used or granted by it including, without limitation, records of ownership, leases, encumbrances, easements, rights-of-way leases or any other interest in real property. On and after July 1, 2018, and on a regular and continuous basis thereafter, every state agency shall update such records and provide any new records to the office of information technology services. Metadata will accompany all state agency records.
+(2) For the purposes of this section, the Idaho transportation department shall provide highway right-of-way records from January 1, 2002, forward, augmented thereafter each time real property owned by the state of Idaho is affected as part of the Idaho transportation department’s regular course of business.
+(3) For the purposes of this section, state agencies shall provide only records and geographic information that are subject to disclosure under chapter 1, title 74, Idaho Code, or that the agency has determined to disclose as a public record.
+History:
+[67-836, added 2018, ch. 258, sec. 11, p. 614.]

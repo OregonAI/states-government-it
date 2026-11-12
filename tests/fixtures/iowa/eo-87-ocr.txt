@@ -1,0 +1,108 @@
+Sie :
+ecutive Department
+IN THE NAME AND BY THE AUTHORITY OF THE STATE OF lOWA
+EXECUTIVE ORDER NUMBER EIGHTY-SEVEN
+
+WHEREAS, All aspects of Iowa’s economy are becoming increasingly more reliant on
+technology, which exposes our computer networks and information systems to the
+risk of cyberattacks; and
+
+WHEREAS, the advance of information technology has transformed the Iowa and national
+economies in positive ways and plays a critical role in how the State of Iowa
+delivers services to its citizens; and
+
+WHEREAS, the State of Iowa should take additional action to secure computer networks and
+information systems and improve the State’s ability to respond to significant
+cyberattacks that would adversely affect the State’s ability to deliver critical
+services, expose its confidential data to breach, or otherwise threaten the state’s
+critical infrastructure; and
+
+WHEREAS, the State of Iowa should continue to develop strategies and protections to
+eliminate the impact of cyber disruptions and to prepare a coordinated response
+plan in the event of a significant cyberattack in order to improve the resiliency of
+government, private sector operations, and mitigate the consequences of a cyber
+incident within our State.
+
+NOW, THEREFORE, I, Terry E. Branstad, Governor of the State of Iowa, declare
+cybersecurity a top priority for this administration and the State of Iowa should protect its
+citizens and economy against cyberattacks. I hereby order and direct that:
+
+1. The Office of the Chief Information Officer (OCIO), in coordination with the
+Iowa Homeland Security and Emergency Management Department, Iowa
+Communications Network, Iowa National Guard, Department of Public Safety,
+and other state agencies and stakeholders, shall draft and submit a State of Iowa
+Cybersecurity Strategy to the Office of the Governor detailing steps the State of
+Iowa should take to foster the overall resiliency of State of Iowa’s operations in
+response to a cyberattack. The Strategy shall be submitted to the Office of the
+Governor no later than July 1, 2016. The Strategy shall:
+
+i. Address high risk cybersecurity areas for the State’s critical infrastructure
+and develop plans to better identify, protect, detect, respond, and recover
+from significant cyber incidents;
+
+ii. Establish a process to regularly assess cybersecurity infrastructure and
+activities within the State;
+
+iii. Provide recommendations related to securing networks, systems, and data,
+including interoperability, standardized plans and procedures, and
+evolving threats and best practices to prevent the unauthorized access,
+theft, alteration, or destructions of data held by the State of Iowa;
+
+iv. Implement cybersecurity awareness training for State government;
+
+v. Identify opportunities to educate the public on ways to prevent
+cybersecurity attacks and protect the public’s personal information;
+
+vi. Collaborate with the private sector and educational institutions to
+implement cybersecurity best practices;
+
+vii. Recommend Science, Technology, Engineering, and Math (STEM)
+educational and training programs for K-12 and higher educational
+programs in order to foster an improved cybersecurity workforce pipeline;
+
+viii. Establish data breach reporting and notification requirements; and
+
+COURTESY STATE LIBRARY OF IOWA
+ATTEST:
+
+ix. Reach other goals and objectives as requested by the Office of the
+Governor.
+
+. The Iowa Homeland Security and Emergency Management Department shall
+
+update the State’s Emergency Response Plan to deal with the physical
+consequences of a significant cyberattack against the State’s critical
+infrastructure.
+
+. This Order shall apply prospectively as of the date of the signing of this Order.
+
+This Order shall be interpreted in accordance with all applicable laws. It is not
+intended to supersede any law or collective bargaining agreement.
+
+. If any provision of this Order, or the application of such provision to any person
+
+or circumstance, is held to be invalid, the remaining provisions, as applied to any
+person or circumstance, shall not be affected thereby.
+
+. This Order is not intended to, and does not, create any right or benefit, substantive
+
+or procedural, enforceable at law or in equity, by any party against the State of
+Iowa, its Departments, Agencies, or Political Subdivisions, or its officers,
+employees, or agents, or any other person.
+
+IN TESTIMONY WHEREOF, I HAVE
+HEREUNTO SUBSCRIBED MY NAME
+AND CAUSED THE GREAT SEAL OF
+IOWA TO BE AFFIXED. DONE AT DES
+MOINES THIS 21ST DAY OF
+DECEMBER, IN THE YEAR OF OUR
+LORD TWO THOUSAND FIFTEEN.
+
+TERRY E. BRANSTAD
+GOVERNOR
+
+PAUL D. PATE
+SECRETARY OF STATE
+
+COURTESY STATE LIBRARY OF IOWA
+

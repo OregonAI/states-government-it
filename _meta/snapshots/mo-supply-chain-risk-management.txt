@@ -1,0 +1,73 @@
+                                             Technology Area
+
+                                                       DEFINITION
+Name                  Supply Chain Risk Management
+                      A systematic process for managing cyber supply chain risk exposures, threats, and
+Description           vulnerabilities throughout the supply chain and developing risk response strategies to the
+                      risks presented by the supplier, the supplied products and services, or the supply chain.
+                      To successfully address evolving cybersecurity risks throughout the supply chain,
+                      enterprises need to engage multiple internal processes and capabilities, communicate and
+Rationale             collaborate across enterprise levels and mission areas, and ensure that all individuals within
+                      the enterprise understand their role in managing cybersecurity risks throughout the supply
+                      chain.
+                           • Helps to develop strategies for communicating, implementing and monitoring the
+                               effectiveness of supply chain cybersecurity controls and practices.
+Benefits
+                           • Improves management of cybersecurity risks throughout the supply chain.
+                           • Protects against risk from third party vendors.
+
+                                          ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name        Security
+Specify the Discipline
+                               Management Controls
+Name
+
+                                    ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance            •   Supply Chain Risk Management Plan
+Component Names                •   Supply Chain Risk Management Acquisition
+
+                                       ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                        TECHNOLOGY AREA DETAIL
+                               NIST Special Publication (SP) 800-53, Rev. 5, Security and Privacy Controls for
+                                  Information Systems and Organizations (Sep 2020)
+
+Supporting Documentation       NIST Special Publication (SP) 800-161, Rev. 1, Cybersecurity Supply Chain Risk
+                                  Management Practices for Systems and Organizations (May 2022)
+
+                                   •      Security and Privacy Controls for Information Systems and Organizations
+Document Source                           (nist.gov)
+Reference #                        •      Cybersecurity Supply Chain Risk Management Practices for Systems and
+                                          Organizations (nist.gov)
+                                                  Compliance Sources
+                               National Institute of
+                               Standards and Technology
+Name                                                             Website       http://csrc.nist.gov/
+                               (NIST), Computer Security
+                               Resource Center (CSRC)
+Contact Information
+
+Name                                                         Website
+Contact Information
+
+Name                                                             Website
+
+Contact Information
+
+                                                  KEYWORDS
+List Keywords                Supply Chain Risk Management, Plan, Acquisition, Third Party, Vendor
+
+                                          COMPONENT CLASSIFICATION
+Provide the Classification     Emerging                Current                    Twilight          Sunset
+     Sunset Date
+
+                                                CURRENT STATUS
+Provide the Current Status     In Development           Under Review              Approved       Rejected
+
+                                                  AUDIT TRAIL
+Creation Date                10/03/2024                Date Approved / Rejected     10/03/2024
+     Reason for Rejection
+Last Date Reviewed           10/03/2024                Last Date Updated
+     Reason for Update

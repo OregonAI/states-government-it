@@ -1,0 +1,81 @@
+                                                  TTeecchhnnoollooggyy A
+                                                                       Arreeaa
+
+                                                     D
+                                                     DEEFFIIN
+                                                            NIITTIIO
+                                                                   ONN
+Name                       Logical Access Controls
+                           Logical access controls are protection mechanisms that limit users' access to
+                           information and restrict their forms of access on the system to only what is
+                           appropriate for them. Logical access controls are typically a system of
+Description
+                           measures and procedures, both within an organization and in the software
+                           products used, aimed at protecting computer resources (data, programs and
+                           terminals) against unauthorized access attempts.
+                           Logical Access Control policies and procedures provide assurance that access
+Rationale                  to operating systems, programs, and data is limited to properly authorized
+                           individuals.
+                           • Preventing intruders from entering state of Missouri systems
+Benefits
+                           • Constraining the authorized users to their legitimate purposes
+                                     A
+                                     ASSSSO
+                                          OCCIIA
+                                               ATTEED
+                                                    DAARRC
+                                                         CHHIITTEEC
+                                                                  CTTU
+                                                                     URREE LLEEVVEELLSS
+List the Domain Name             Security
+List the Discipline Name         Technical Controls
+                                       Associated Compliance Components
+                                 •    Logon Banners
+List the Compliance
+                                 •    Date/Time Controls
+Component Names
+                                 •    Inactivity Controls
+                                         Associated Product Components
+List the Product Component
+Names
+                                          TTEEC
+                                              CHHN
+                                                 NOOLLO
+                                                      OGGYY A
+                                                            ARREEA
+                                                                 ADDEETTA
+                                                                        AIILL
+                                 NIST SP 800-18, Guide for Developing Security Plans for Information
+Supporting Documentation
+                                 Technology Systems
+Document Source Reference #      www.csrc.nist.gov/publications/nistpubs
+                                     Standard Organization / Government Body
+                                 National Institute of
+                                 Standards and Technology
+Name                             (NIST), Computer                  Website        http://csrc.nist.gov/
+                                 Security Resource Center
+                                 (CSRC)
+Contact Information              inquiries@nist.gov
+                                 National Security Agency                         http://nsa2.www.conxion.com/i
+Name                             (NSA), Security                   Website        ndex.html
+                                 Recommendation Guides
+Contact Information              W2KGuides@nsa.gov
+                                                      KKEEYYW
+                                                            WOORRD
+                                                                 DSS
+List Keywords                    Misuse, entry, least privilege, create, read, write, update, delete
+
+                                           C
+                                           CUURRRREEN
+                                                    NTT SSTTA
+                                                            ATTU
+                                                               USS
+Provide the Current Status     In Development         Under Review             Approved       Rejected
+                                                A
+                                                AUUD
+                                                   DIITT TTRRA
+                                                             AIILL
+Creation Date                3/6/2003                      Date Accepted / Rejected       03/24/2003
+    Reason for Rejection
+Last Date Reviewed                                         Last Date Updated
+    Reason for Update

@@ -1,0 +1,85 @@
+                                                  TTeecchhnnoollooggyy A
+                                                                       Arreeaa
+
+                                                     D
+                                                     DEEFFIIN
+                                                            NIITTIIO
+                                                                   ONN
+Name                       Intrusion Detection Systems (IDS)
+                           Intrusion Detection is the process of monitoring the events occurring in a
+                           computer system or network and analyzing them for signs of intrusions,
+                           defined as attempts to compromise the confidentiality, integrity, availability,
+Description
+                           or to bypass the security mechanisms of a computer or network. Intrusion
+                           Detection Systems (IDS) are software or hardware products that automate
+                           this monitoring and analysis process.
+                           Intrusion detection allows State of Missouri organizations to protect their
+                           systems from the threats that come with increasing network connectivity and
+Rationale                  reliance on information systems. Given the level and nature of modern
+                           network security threats, the question for security professionals should not be
+                           whether to use IDS, but which IDS features and capabilities to use.
+                           • IDS prevents problem behaviors by increasing the perceived risk of
+                               discovery and punishment for those who would attack or otherwise abuse
+                               a system.
+                           •   IDS detects attacks and other security violations that are not prevented by
+Benefits                       other security measures.
+                           •   An IDS can act as a quality control for security design and administration.
+                           •   IDS provides useful information about intrusions that do take place,
+                               allowing improved diagnosis, recovery, correction of causative factors, and
+                               data for potential prosecution.
+                                     A
+                                     ASSSSO
+                                          OCCIIA
+                                               ATTEED
+                                                    DAARRC
+                                                         CHHIITTEEC
+                                                                  CTTU
+                                                                     URREE LLEEVVEELLSS
+List the Domain Name             Security
+List the Discipline Name         Technical Controls
+                                       Associated Compliance Components
+                                 •    Host-Based IDS
+List the Compliance
+                                 •    Network-Based IDS
+Component Names
+                                 •    Application-Based IDS
+                                         Associated Product Components
+List the Product Component
+Names
+                                          TTEEC
+                                              CHHN
+                                                 NOOLLO
+                                                      OGGYY A
+                                                            ARREEA
+                                                                 ADDEETTA
+                                                                        AIILL
+Supporting Documentation         NIST SP 800-31 Intrusion Detection Systems (IDS)
+Document Source Reference #      www.csrc.nist.gov/publications/nistpubs
+                                     Standard Organization / Government Body
+                                 National Institute of
+                                 Standards and Technology
+Name                             (NIST), Computer                  Website        http://csrc.nist.gov/
+                                 Security Resource Center
+                                 (CSRC)
+
+Contact Information          inquiries@nist.gov
+                                                 KKEEYYW
+                                                       WOORRD
+                                                            DSS
+                             Honey Pot, intrusion, cracker, buffer overflows, passwords, sniffing,
+List Keywords                exploit, denial-of-service, Java, ActiveX, SMURF, DNS, probes, logging,
+                             auditing, monitoring, anomaly, patterns, exploits, misuse
+                                           C
+                                           CUURRRREEN
+                                                    NTT SSTTA
+                                                            ATTU
+                                                               USS
+Provide the Current Status     In Development         Under Review             Approved       Rejected
+                                                A
+                                                AUUD
+                                                   DIITT TTRRA
+                                                             AIILL
+Creation Date                3/27/2003                     Date Accepted / Rejected       05/14/2003
+    Reason for Rejection
+Last Date Reviewed                                         Last Date Updated
+    Reason for Update

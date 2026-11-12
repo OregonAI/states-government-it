@@ -1,0 +1,815 @@
+# Kansas seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# slice: {article: N} is the section of the 2026 Act (the seed-list check allows only article and part): "Sec. N." of the
+# session law the url serves. A new section is {article: New Section 1, part: <K.S.A. number from the Composite Listing>}.
+# Discovery 2026-11-12 through the toolkit Fetcher (crawler User-Agent): the Revisor of Statutes (ksrevisor.gov, one page per
+# section), the Secretary of State's regulations pages, the Department of Administration (admin.ks.gov). The policy library
+# (ebit.ks.gov) and the Governor's site refuse the Fetcher (HTTP 403): see the stubs and left_out. The statute pages were read
+# from the chapter contents pages (ksa_ch16, ch45, ch46, ch50, ch74, ch75) row by row.
+sources:
+- id: ks-ksa-75-4701
+  sha256: "bdb5d9f63be170ff6ce1998528008b6a5173b056516413aba162b6fc5469a680"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0001.html
+  format: html
+  citation: K.S.A. 75-4701
+  title: Office of information technology services; executive chief information technology officer; director and deputy directors; duties; former division and office abolished
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance]
+  recheck: monthly
+  why_relevant: 'Establishes the Office of Information Technology Services (OITS) and its head, the executive chief information technology officer (CITO): the central IT agency of the executive branch.'
+- id: ks-ksa-75-4703
+  sha256: "3166d0cbbab265c3365131e3484cb0f1ffd9037b9052d7c3359ad7fab7c53eaf"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0003.html
+  format: html
+  citation: K.S.A. 75-4703
+  title: Rules and regulations concerning rates and charges; priorities for services, standards for data submission and security
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance, funding]
+  recheck: monthly
+  why_relevant: Lets the executive CITO adopt rules on OITS rates and charges to state agencies, priorities for services, and standards for data submission and security.
+- id: ks-ksa-75-4704
+  sha256: "db2f29fe3b7f6212c76a37bb52c6502fdf73cd74fc440558f27239867970f173"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html
+  slice: {article: "3"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-4704 as Am, SB 51 sec. 3, SL ch. 153, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 3 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html'
+  format: html
+  citation: K.S.A. 75-4704
+  title: Data processing services for state agencies; charges, collection and disposition
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance, funding]
+  recheck: monthly
+  why_relevant: Directs OITS to provide data processing and application hosting services to state agencies and to charge for them under the cost system the CITO sets.
+- id: ks-ksa-75-4704a
+  sha256: "f8a5dacd8eb023a212ab78826fb6e4b8332aeac1c5fd89ebe88794da6de870bb"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0004a.html
+  format: html
+  citation: K.S.A. 75-4704a
+  title: Transfers to and expenditures from information technology reserve fund; determination of amounts transferred, basis; effect on expenditure limitations
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [funding]
+  recheck: monthly
+  why_relevant: Sets how amounts are transferred to the information technology reserve fund from the information technology fund (depreciation and obsolescence of OITS equipment and programs).
+- id: ks-ksa-75-4704b
+  sha256: "f29fc04ffb57db43d19f5509041e3d0b5a5585a2ecdb80f244d3635edfed4c03"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0004b.html
+  format: html
+  citation: K.S.A. 75-4704b
+  title: Multiple year appropriations and contracts
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [funding]
+  recheck: monthly
+  why_relevant: Authorizes appropriations for OITS capital outlay and multiple-year lease or acquisition contracts by the executive CITO.
+- id: ks-ksa-75-4705
+  sha256: "db2f29fe3b7f6212c76a37bb52c6502fdf73cd74fc440558f27239867970f173"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html
+  slice: {article: "4"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-4705 as Am, SB 51 sec. 4, SL ch. 153, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 4 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html'
+  format: html
+  citation: K.S.A. 75-4705
+  title: Central processing of data by computer for all state agencies, exceptions; preparation of data for processing; support services; section inapplicable to state universities
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance, cloud-resilience]
+  recheck: monthly
+  why_relevant: Requires central computer processing for all state divisions, departments and agencies to be performed by OITS (with exceptions it lists), and sets support services; it does not apply to state universities.
+- id: ks-ksa-75-4707
+  sha256: "835395fb77c8eb565ace28d405a51be4d7bd487def0a4acb24df03e027e86670"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0007.html
+  format: html
+  citation: K.S.A. 75-4707
+  title: Contracts for information processing equipment
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [procurement, funding]
+  recheck: monthly
+  why_relevant: Lets state agencies with leased information processing equipment contract for purchase-and-lease-back with non-state funds, subject to the IT project requirements of K.S.A. 75-7209.
+- id: ks-ksa-75-4712
+  sha256: "7c07ad1bd940901cef093bf6d3f1bd619249ea928c90223dc30074afc49b2fed"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0012.html
+  format: html
+  citation: K.S.A. 75-4712
+  title: Adoption of rules and regulations by executive chief information technology officer
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance]
+  recheck: monthly
+  why_relevant: Requires the executive CITO to adopt rules for state agencies' acquisition, retention and use of telecommunications services.
+- id: ks-ksa-75-4715
+  sha256: "0764b2625b5b4af11aa76c7dae094eb3a2dbc6d97c769231a99ee1fa305c65cc"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0015.html
+  format: html
+  citation: K.S.A. 75-4715
+  title: Information technology fund; creation; authorized expenditures; prior fund abolished, transfer of assets and liabilities
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [funding]
+  recheck: monthly
+  why_relevant: Creates the information technology fund in the state treasury and its authorized expenditures, approved by the executive CITO.
+- id: ks-ksa-75-4716
+  sha256: "56d4e4806d16ed5158f847499415e2b735e60d94538adb2c5c18e2cfe327b52d"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0016.html
+  format: html
+  citation: K.S.A. 75-4716
+  title: Information technology reserve fund; creation; authorized expenditures; prior fund abolished, transfer of assets and liabilities
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [funding]
+  recheck: monthly
+  why_relevant: Creates the information technology reserve fund in the state treasury and its authorized expenditures, approved by the executive CITO.
+- id: ks-ksa-75-4718
+  sha256: "6306d7eff5e498983f59e5e4174a12fdafe74f35bceda37feaa6f8f53a918c84"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0018.html
+  format: html
+  citation: K.S.A. 75-4718
+  title: Executive chief information technology officer; rules and regulations; office of information technology services
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance]
+  recheck: monthly
+  why_relevant: Sets how the executive CITO proposes OITS rules (submitted to the governor), the subjects they may cover and the appeal of OITS decisions.
+- id: ks-ksa-75-4719
+  sha256: "830b113ef447e530fae66c437ca8684e53f58e3b12392f81b6315e251b874d4b"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0019.html
+  format: html
+  citation: K.S.A. 75-4719
+  title: Office of information technology services; separate state agency
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance, funding]
+  recheck: monthly
+  why_relevant: Makes OITS a separate state agency for the governor's budget report and legislative budget measures.
+- id: ks-ksa-75-4720
+  sha256: "c02a7ed3f7f7ca8aaa0f4cc2be7e91ce89dd73c47a0a43db2d01e92069336d3e"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_047_0020.html
+  format: html
+  citation: K.S.A. 75-4720
+  title: Artificial intelligence platforms of concern; prohibited access by state-issued electronic devices; exceptions; definitions
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [ai, cybersecurity]
+  recheck: monthly
+  why_relevant: 'The Kansas statute on state agency use of AI (2025 HB 2313): bars use of an artificial intelligence platform of concern (DeepSeek and models controlled by a country of concern) on any state-owned or employee-issued device and any state-operated network, requires agencies to delete accounts with such a platform, and exempts law enforcement and cybersecurity investigations.'
+- id: ks-ksa-75-7201
+  sha256: "282de581530186f84121fcb53d05d0ef5df9ae804f08752150e04c11bfeddf98"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0001.html
+  format: html
+  citation: K.S.A. 75-7201
+  title: Definitions
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance, oversight]
+  recheck: monthly
+  curator_note: 'The Revisor''s page for this section prints ''CAUTION: Section was further amended by L. 2024, ch. 95, § 17, to be effective on July 1, 2026.'' That delayed version was repealed before it took effect by L. 2026, ch. 53, § 18 (House Bill No. 2574; the 2026 Composite Listing, K.S.A. Order, August 13, 2026, Table One, row 75-7201 (Supp.) Rep, 2574 sec. 18, SL ch. 53, comment ''As amended by § 17, Ch. 95 of the 2024 Session Laws of Kansas'', 7/1/2026; Table Three row ''Am 291 sec. 17 SL ch. 95, 53, § 18''). The text printed here is therefore the text in force; the caution line is kept as the page prints it.'
+  why_relevant: 'Definitions for the information technology governance act (K.S.A. 75-7201 to 75-7212): business risk, executive agency, information technology project, project change or overrun, and state agency.'
+- id: ks-ksa-75-7202
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "8"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7202 (Supp.) as Am, HB 2574 sec. 8, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 8 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-7202
+  title: Information technology executive council; membership and organization; payment of certain expenses for attendance at meetings
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance]
+  recheck: monthly
+  why_relevant: 'Establishes the Information Technology Executive Council (ITEC), its membership and organization: the body that adopts the statewide IT policies and standards.'
+- id: ks-ksa-75-7203
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "9"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7203 (Supp.) as Am, HB 2574 sec. 9, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 9 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-7203
+  title: Powers and duties of council
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance, data, cloud-resilience]
+  recheck: monthly
+  why_relevant: 'The powers and duties of ITEC: it adopts IT resource policies, procedures and project management methodologies, the IT architecture, data management standards and the strategic IT plan for executive branch agencies.'
+- id: ks-ksa-75-7204
+  sha256: "9f3ae9b54e8afcf0b8f3b987f5b5e1add896df866c7df19afd22e258fa07270e"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0004.html
+  format: html
+  citation: K.S.A. 75-7204
+  title: Chief information technology architect; duties
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance, cloud-resilience]
+  recheck: monthly
+  why_relevant: Establishes the chief information technology architect within OITS and sets the architect's duties.
+- id: ks-ksa-75-7205
+  sha256: "db2f29fe3b7f6212c76a37bb52c6502fdf73cd74fc440558f27239867970f173"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html
+  slice: {article: "7"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7205 (Supp.) as Am, SB 51 sec. 7, SL ch. 153, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 7 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html'
+  format: html
+  citation: K.S.A. 75-7205
+  title: Executive chief information technology officer; duties
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance]
+  recheck: monthly
+  why_relevant: Establishes the executive branch chief information technology officer (appointed by the governor) and sets the CITO's duties.
+- id: ks-ksa-75-7209
+  sha256: "3ad88456e24ad33b8059934590f9f2c5c9bc03fbdc1220e5e07d10f4c6131ef0"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0009.html
+  format: html
+  citation: K.S.A. 75-7209
+  title: Information technology projects; required information technology project documentation; procedures; projects with significant business risk
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [oversight]
+  recheck: monthly
+  curator_note: 'The Revisor''s page for this section prints a CAUTION line that points to a version amended by L. 2024, ch. 95, § 29. That delayed version was repealed before it took effect by L. 2026, ch. 53, § 18 (House Bill No. 2574; the 2026 Composite Listing, K.S.A. Order, August 13, 2026, Table One, row 75-7209 (Supp.) Rep, 2574 sec. 18, SL ch. 53, 7/1/2026). The text printed here is therefore the text in force; the caution line is kept as the page prints it.'
+  why_relevant: Requires an agency proposing an information technology project to submit project documentation (financial plan, business risk assessment) to its branch's CITO, and sets review, approval and reporting of projects with significant business risk.
+- id: ks-ksa-75-7210
+  sha256: "62874438b88976961057b53cf6838388c6a414afbf44394a98500070b17c4572"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0010.html
+  format: html
+  citation: K.S.A. 75-7210
+  title: Reports to legislative branch on information technology projects
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: Requires the three branch CITOs to report IT project budget estimates, three-year plans and architecture deviations to the joint committee on information technology by November 1 each year.
+- id: ks-ksa-75-7211
+  sha256: "47bc48909cabcc2eff3889a4c97fb8e2f8d2b795d50e91b27a26f8cf08d8247b"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0011.html
+  format: html
+  citation: K.S.A. 75-7211
+  title: Legislative oversight of information technology projects
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'Gives the joint committee on information technology oversight of state agency IT projects: progress reports and proposed expenditures from the branch CITOs.'
+- id: ks-ksa-75-7236
+  sha256: "7bb624bf3889af8b17ced28611e2efbad26ff7ec6c5fef27e734816139be9ef0"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0036.html
+  format: html
+  citation: K.S.A. 75-7236
+  title: Kansas cybersecurity act
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: Short title of the Kansas cybersecurity act (K.S.A. 75-7236 to 75-7243).
+- id: ks-ksa-75-7237
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "12"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7237 (Supp.) as Am, HB 2574 sec. 12, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 12 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-7237
+  title: Definitions
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: Definitions for the Kansas cybersecurity act (act, breach of security, and the other terms the act uses).
+- id: ks-ksa-75-7238
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "13"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7238 (Supp.) as Am, HB 2574 sec. 13, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 13 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-7238
+  title: Executive branch chief information security officer; duties
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: 'Establishes the executive branch chief information security officer (CISO), who reports to the executive CITO, and sets the CISO''s duties: security standards and policies, confidentiality, availability and integrity, and a centralized cybersecurity protocol.'
+- id: ks-ksa-75-7239
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "14"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7239 (Supp.) as Am, HB 2574 sec. 14, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 14 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-7239
+  title: Kansas information security office; establishment and administration; separate state agency; powers and duties; confidentiality of certain audits conducted by the office; creation of information technology security fund
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: Establishes the Kansas Information Security Office (KISO) as a separate state agency, its powers and duties, the confidentiality of its audits, and the information technology security fund.
+- id: ks-ksa-75-7240
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "15"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7240 (Supp.) as Am, HB 2574 sec. 15, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 15 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-7240
+  title: Executive branch agency heads; responsibilities related to security of data and information technology resources; confidentiality of reports; training; breach of system security
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: 'Makes each executive branch agency head responsible for the security of the agency''s data and IT resources: security programs, reports, training and the response to a breach of system security.'
+- id: ks-ksa-75-7241
+  sha256: "95bc10c1b3064ce00f5cebe63bc521259d27c5f6fd8c62ac575a314f76cb6541"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0041.html
+  format: html
+  citation: K.S.A. 75-7241
+  title: Fingerprinting; criminal history record check; certain employees or contractors
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: Requires an executive branch agency head to have each employee (including a contractor) whose duties include collecting, maintaining or accessing personal information fingerprinted and run through a state and national criminal history record check at least every five years.
+- id: ks-ksa-75-7242
+  sha256: "df5240a15a8a51425c98ae9ec5576c55e690302b8d49f86956d5e5129353de32"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0042.html
+  format: html
+  citation: K.S.A. 75-7242
+  title: Confidentiality of information collected that places the organization at risk; exceptions
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity, data]
+  recheck: monthly
+  why_relevant: Makes confidential the information collected to carry out the Kansas cybersecurity act, with its exceptions.
+- id: ks-ksa-75-7243
+  sha256: "71bdc1067f1ab356810240928541988b11dc8a69e4488f537ba3e3e905a65e94"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0043.html
+  format: html
+  citation: K.S.A. 75-7243
+  title: Cybersecurity service costs; special assessments and fees; rules and regulations
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity, funding]
+  recheck: monthly
+  why_relevant: Lets executive branch agencies pay for cybersecurity services from existing budgets or grants, and sets special assessments and fees and the rulemaking for them.
+- id: ks-ksa-75-7244
+  sha256: "5c53170ba9443c8b08b112cdb7db5dcb30503e5cb27de76f1d5f44f437382a05"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0044.html
+  format: html
+  citation: K.S.A. 75-7244
+  title: Significant cybersecurity incidents affecting public entities; notification to Kansas information security office; confidentiality of information
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: Requires any public entity to notify the Kansas Information Security Office within 12 hours after discovering a significant cybersecurity incident, and a government contractor within 72 hours of reasonably believing one occurred (as the section details), and makes the information confidential.
+- id: ks-ksa-75-7245
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "16"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7245 (Supp.) as Am, HB 2574 sec. 16, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 16 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-7245
+  title: Cybersecurity services; administration by chief information technology officer and chief information security officer of each branch; plans and project costs for certain information technology projects presented to the legislature
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity, oversight]
+  recheck: monthly
+  why_relevant: From July 1, 2027 puts all cybersecurity services of each branch under that branch's CITO and CISO (cybersecurity employees of the legislative and executive branches work at the CITO's direction), with the ITEC integration plan and the reporting of certain IT project plans and costs to the legislature.
+- id: ks-ksa-75-7246
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "17"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7246 (Supp.) as Am, HB 2574 sec. 17, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 17 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-7246
+  title: Noncompliance with cybersecurity requirements by state agencies; penalty
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity, oversight]
+  recheck: monthly
+  why_relevant: 'Penalty for state agency noncompliance with the cybersecurity act: from July 1, 2028 the director of the budget determines compliance each year and certifies an amount equal to 5% of the agency''s state general fund and special revenue fund appropriations.'
+- id: ks-ksa-75-7247
+  sha256: "db2f29fe3b7f6212c76a37bb52c6502fdf73cd74fc440558f27239867970f173"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html
+  format: html
+  slice: {article: New Section 1, part: 75-7247}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-7247 (Supp.) as New, SB 51 sec. 1, SL ch. 153, effective 7/1/2026. The Revisor has no section page yet: https://www.ksrevisor.gov/statutes/chapters/ch75/075_072_0047.html (the address built from the pattern of 75-7246) answered HTTP 404 on 2026-11-12, and the chapter 75 contents page does not list the section. The text is New Section 1 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html. The session law prints no K.S.A. number or caption; the number is the Composite Listing''s, the title is the Act''s own words ''services provided by the chief information technology officer''.'
+  citation: K.S.A. 75-7247
+  title: Services provided by the chief information technology officer
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [governance, cloud-resilience]
+  recheck: monthly
+  why_relevant: Lets the executive chief information technology officer enter into agreements to extend the use of state information technology or cybersecurity services to any governmental unit (state agency, taxing subdivision, municipality) or to a hospital or nonprofit corporation performing a state function. New in 2026 (L. 2026, ch. 153, § 1).
+- id: ks-ksa-75-413
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "4"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-413 (Supp.) as Am, HB 2574 sec. 4, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 4 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-413
+  title: Assistants and employees; chief information security officer; cybersecurity standards
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: Requires the secretary of state (an elected-office agency outside the executive branch CISO's reach) to appoint a chief information security officer and to set cybersecurity standards.
+- id: ks-ksa-75-623
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "5"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-623 (Supp.) as Am, HB 2574 sec. 5, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 5 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-623
+  title: Assistants and employees; chief information security officer; cybersecurity standards
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: Requires the state treasurer to appoint a chief information security officer and to set cybersecurity standards.
+- id: ks-ksa-75-710
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "6"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-710 (Supp.) as Am, HB 2574 sec. 6, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 6 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-710
+  title: Assistants and employees; chief information security officer; powers and duties; cybersecurity standards
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: Requires the attorney general to appoint a chief information security officer, and sets the CISO's powers and duties and the office's cybersecurity standards.
+- id: ks-ksa-75-711
+  sha256: "aad874bd70124c6dbfa33d25adaa897f997a247820f72517d8d4ac3bb14e9ee5"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html
+  slice: {article: "7"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 75-711 (Supp.) as Am, HB 2574 sec. 7, SL ch. 53, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 7 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-53-HB-2574.html'
+  format: html
+  citation: K.S.A. 75-711
+  title: Kansas bureau of investigation; establishment; director and other personnel; chief information security officer; cybersecurity standards
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity]
+  recheck: monthly
+  why_relevant: 'Establishes the Kansas Bureau of Investigation and requires it to have a chief information security officer and cybersecurity standards. The page serves the whole section: the bureau''s non-IT provisions ride along.'
+- id: ks-ksa-75-3707e
+  sha256: "6f0d8f29402fddb9fbdb33942e4e4338f87c87ca4f884261bd659d1e59730f46"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch75/075_037_0007e.html
+  format: html
+  citation: K.S.A. 75-3707e
+  title: Security conditions of employment, persons with access to data, telecommunications or other security-sensitive areas; fingerprinting
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  why_relevant: Requires fingerprinting of sensitive employees of the Department of Administration or OITS with unescorted access to a state-operated or contracted data center or other security-sensitive area, to protect state information security and privacy.
+- id: ks-ksa-50-7a01
+  sha256: "c58b439c264ea13301ddfa401b69cf9012dbebda060afab3baa459064fb45ca0"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch50/050_007a_0001.html
+  format: html
+  citation: K.S.A. 50-7a01
+  title: Consumer information; security breach; definitions
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, cybersecurity]
+  recheck: monthly
+  why_relevant: Definitions for the security breach notice statute (K.S.A. 50-7a01 and 50-7a02), whose duty reaches 'a government, governmental subdivision or agency that owns or licenses computerized data'.
+- id: ks-ksa-50-7a02
+  sha256: "0413d8dd0ade3524efa93b98b6fe87e7c1c78591b7aa97cc32bd09348a7698cd"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch50/050_007a_0002.html
+  format: html
+  citation: K.S.A. 50-7a02
+  title: Security breach; requirements
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, cybersecurity]
+  recheck: monthly
+  why_relevant: 'Requires a person doing business in the state, or a government, governmental subdivision or agency that owns or licenses computerized data holding personal information, to investigate a breach of the security of the system and notify affected Kansas residents. It binds private persons too: those provisions ride along (OWNER DECISION, see left_out).'
+- id: ks-ksa-16-1605
+  sha256: "0a3b04c805775d70e729ffb62587816e09271f6878ada3980b833d4a43700165"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch16/016_016_0005.html
+  format: html
+  citation: K.S.A. 16-1605
+  title: Use of electronic records and electronic signatures; state agency written standards governing use of electronic signatures; rules and regulations governing use of digital signatures by state agencies
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [digital-services, governance]
+  recheck: monthly
+  why_relevant: 'Part of the Kansas uniform electronic transactions act: lets a governmental agency decide whether and how it uses electronic records and signatures, and requires state agencies to adopt written standards for electronic signatures. The rest of the act (private transactions) is a separate section.'
+- id: ks-ksa-45-501
+  sha256: "d28ac5f3920d93532900c19b3f75dfb4f75139f57e5793655a1c1b4cdb0c2229"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch45/045_005_0001.html
+  format: html
+  citation: K.S.A. 45-501
+  title: Records made on electronically-accessed media; authorization; conditions and procedures, application; notice to state records board
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, cloud-resilience]
+  recheck: monthly
+  why_relevant: Lets a state or local agency make required records on computer disk, tape or other electronic media, subject to preservation, availability, security and notice to the state records board.
+- id: ks-ksa-46-2102
+  sha256: "b15561091b603783deb2f490e417223b8e314ab8ac35a2d2ed2adabaa4895951"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch46/046_021_0002.html
+  format: html
+  citation: K.S.A. 46-2102
+  title: Joint committee on information technology; powers and duties; annual report
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [oversight]
+  recheck: monthly
+  why_relevant: 'The legislature''s joint committee on information technology: it studies state agencies'' IT, reviews their IT project budget estimates and three-year plans and advises on projects with significant business risk. The obligated party is the committee (a legislative body that oversees executive IT): OWNER DECISION on inclusion.'
+- id: ks-ksa-45-414
+  sha256: "cb729a02613e3ed1368817b2c82467415841102bd282b7a691a4ab0d9d2fe035"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch45/045_004_0014.html
+  format: html
+  citation: K.S.A. 45-414
+  title: State archivist; duties; recommendations; certification by electronic signature; fees
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, cloud-resilience]
+  recheck: monthly
+  why_relevant: Directs the state archivist to prepare, for approval by the state records board, recommendations on preservation processes that maintain the authenticity of electronic government records, and gives records certified with the archivist's electronic signature the force of the original.
+- id: ks-ksa-46-1135
+  sha256: "db2f29fe3b7f6212c76a37bb52c6502fdf73cd74fc440558f27239867970f173"
+  url: https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html
+  slice: {article: "2"}
+  found_via: 'The 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, August 13, 2026; https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, Table One) lists 46-1135 as Am, SB 51 sec. 2, SL ch. 153, effective 7/1/2026. The Revisor section page (https://www.ksrevisor.gov/statutes/chapters/...) still printed the K.S.A. 2025 Supp. text on 2026-11-12. The text is section 2 of the Secretary of State session law https://www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html'
+  format: html
+  citation: K.S.A. 46-1135
+  title: Information technology audits
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [oversight, cybersecurity]
+  recheck: monthly
+  why_relevant: 'Authorizes the legislative division of post audit to conduct information technology audits, including assessment of the security practices of IT systems of any state agency and continuous audits of ongoing state agency IT projects. The obligated party is the audit division, not the agencies: OWNER DECISION on inclusion.'
+- id: ks-ksa-74-9301
+  sha256: "0d6307a6a1d1fa323aa80f28e98e8bf295000a45fe3bb8581c83b1842a71f4a8"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_093_0001.html
+  format: html
+  citation: K.S.A. 74-9301
+  title: Information network of Kansas, Inc.; definitions
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [digital-services]
+  recheck: monthly
+  why_relevant: Definitions for the Information Network of Kansas act (INK, the state's electronic access provider for public information).
+- id: ks-ksa-74-9302
+  sha256: "df4f2c261ff46f7a29cd619ca4f857cd4175b99a125e6818514c4d6143854532"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_093_0002.html
+  format: html
+  citation: K.S.A. 74-9302
+  title: Same; purpose and duties
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [digital-services]
+  recheck: monthly
+  why_relevant: 'Purpose and duties of INK: electronic access for the public to agency information and services.'
+- id: ks-ksa-74-9304
+  sha256: "64477ba2f26cc8328b2e9efd7210f579ae1c9c9a42248cd750189209bdefe61f"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_093_0004.html
+  format: html
+  citation: K.S.A. 74-9304
+  title: Same; duties and responsibilities; state agencies to cooperate and provide services and information; services and information to be provided pursuant to contract; agency may recover actual cost incurred
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [digital-services, governance]
+  recheck: monthly
+  why_relevant: Sets INK's duties (advising the secretary of administration, OITS and agencies on providing state data to citizens and businesses; charges to subscribers) and the duty of state agencies to cooperate and provide services and information by contract.
+- id: ks-ksa-74-9306
+  sha256: "2f832be8006a75c92af18e84093e7ef0f5770de902cee2c80ee7f6491a2f3de6"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_093_0006.html
+  format: html
+  citation: K.S.A. 74-9306
+  title: Same; office of information technology services to provide staff and other assistance requested; cost of assistance
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [digital-services, governance]
+  recheck: monthly
+  why_relevant: Requires OITS to provide INK with staff and other assistance on request.
+- id: ks-ksa-74-99f03
+  sha256: "24fe8bcf56ba68898bfde2bc380156fa624944a9c788ce0b54d4463eb8591a3a"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_099f_0003.html
+  format: html
+  citation: K.S.A. 74-99f03
+  title: Definitions
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data]
+  recheck: monthly
+  why_relevant: Definitions for the Kansas one map act (geographic information systems policy board, state GIS officer).
+- id: ks-ksa-74-99f04
+  sha256: "f667903cd79b7f844c3367cd705c9f36a30fb260fef0f80a50ad9322cf3a6edd"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_099f_0004.html
+  format: html
+  citation: K.S.A. 74-99f04
+  title: Geographic information systems policy board; composition
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, governance]
+  recheck: monthly
+  why_relevant: Establishes the Kansas geographic information systems policy board within OITS and its composition.
+- id: ks-ksa-74-99f05
+  sha256: "dffbd18e088484330bc89d2ce4f0a521c300f7dbb20669d122ef88eb2d5e888c"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_099f_0005.html
+  format: html
+  citation: K.S.A. 74-99f05
+  title: Geographic information systems policy board; duties
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, governance]
+  recheck: monthly
+  why_relevant: 'Sets the duties of the GIS policy board: partnerships, secure data sharing at all levels of government, review of GIS programs and investments, and promotion of GIS technologies.'
+- id: ks-ksa-74-99f06
+  sha256: "bb5ac718f91b847c06b6bce87766d0a7ffbe267e553e5f8ed90eda693af64af8"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_099f_0006.html
+  format: html
+  citation: K.S.A. 74-99f06
+  title: State geographic information systems officer; powers and duties
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, governance]
+  recheck: monthly
+  why_relevant: Establishes the state geographic information systems officer and sets the officer's powers and duties.
+- id: ks-ksa-74-99f07
+  sha256: "ee97b4cb022638bd2d19dba4ff66149c3881222a29757d11993c2f5e0bd30b90"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_099f_0007.html
+  format: html
+  citation: K.S.A. 74-99f07
+  title: Geographic information systems; state policy coordination
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, governance]
+  recheck: monthly
+  why_relevant: Requires all state departments, agencies, commissions and boards to cooperate with the GIS policy board on state GIS policy.
+- id: ks-ksa-74-99f08
+  sha256: "d60c60d2290ebfbf1e3eeb5cdcfbad5cd15190ee85d1713572ca6a3e09f658f5"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_099f_0008.html
+  format: html
+  citation: K.S.A. 74-99f08
+  title: Geographic information systems; funding and data access
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, funding]
+  recheck: monthly
+  why_relevant: Continues funding for the Kansas data access and support center through OITS.
+- id: ks-ksa-74-99f09
+  sha256: "bd5930e32ec508cd200561727eb422fc5a85df44262d8008059ea52cd044bbe2"
+  url: https://www.ksrevisor.gov/statutes/chapters/ch74/074_099f_0009.html
+  format: html
+  citation: K.S.A. 74-99f09
+  title: Geographic information systems; agency coordination
+  doc_type: statute
+  jurisdiction: kansas
+  issuing_body: Kansas Legislature
+  tags: [data, governance]
+  recheck: monthly
+  why_relevant: Directs that the state GIS officer be supported by other OITS offices for coordination, standards development and workshops on GIS use.
+- id: ks-itec-policies-library
+  url: https://www.ebit.ks.gov/resources/governance/it-executive-council/itec-policies-standards
+  format: html
+  citation: ITEC Policies
+  title: ITEC Policies
+  doc_type: policy
+  jurisdiction: kansas
+  issuing_body: Information Technology Executive Council (ITEC)
+  tags: [governance, cybersecurity]
+  recheck: monthly
+  stub: true
+  stub_reason: 'The official host refuses the toolkit Fetcher, measured 2026-11-12: ebit.ks.gov and www.ebit.ks.gov answered HTTP 403 for the home page, for this library page (both hosts) and for a policy file (/home/showpublisheddocument/1427/638688052504300000). The page, its rows and every policy in it are therefore unread: the library''s size is unknown. The address is the one the Department of Administration''s IT Security page (https://admin.ks.gov/offices/systems-management/it-security, fetched 2026-11-12) links as ''ITEC Policies''. No other client or route was tried. Becomes a watch page and a set of documents when the State serves the crawler User-Agent.'
+  why_relevant: The statewide IT policy and standards library of the Information Technology Executive Council, which K.S.A. 75-7203 empowers to adopt IT resource policies, standards and an architecture for executive branch agencies. The Department of Administration's IT Security page says it follows the KISO and ITEC policies.
+- id: ks-itec-1210
+  url: https://www.ebit.ks.gov/resources/governance/it-executive-council/itec-policies-standards/1210-information-and-communication-technology-accessibility-standards
+  format: html
+  citation: ITEC 1210
+  title: Information and Communication Technology Accessibility Standards
+  doc_type: standard
+  jurisdiction: kansas
+  issuing_body: Information Technology Executive Council (ITEC)
+  tags: [digital-services]
+  recheck: monthly
+  stub: true
+  stub_reason: 'The official host refuses the toolkit Fetcher: ebit.ks.gov answers HTTP 403 (measured 2026-11-12, see ks-itec-policies-library). The number and the title are read from this address, which every page of admin.ks.gov (fetched 2026-11-12) links in its footer as ''Accessibility Policy''; the title is the address''s own words, not a printed title, and the instrument''s text, status and version are unread.'
+  why_relevant: The statewide ICT accessibility standard that the Department of Administration's own footer names as its accessibility policy.
+- id: ks-watch-ksa-composite
+  url: https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf
+  format: pdf
+  citation: 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order)
+  title: 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order)
+  doc_type: statute
+  jurisdiction: kansas
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Revisor''s list, dated August 13, 2026, of every statute the 2026 Legislature added, amended or repealed, with effective dates. It is the watch page for session-law amendments: the chapter contents pages and section pages lag a session (the 2026 amendments of 16 seeded sections, effective 7/1/2026, were not on them), so the contents-page watch entries below cannot show them until the Revisor republishes.'
+- id: ks-watch-ksa-ch75
+  url: https://www.ksrevisor.gov/statutes/ksa_ch75.html
+  format: html
+  citation: K.S.A. chapter 75 contents
+  title: 'Kansas Statutes Annotated, Chapter 75: State Departments; Public Officers and Employees (contents)'
+  doc_type: statute
+  jurisdiction: kansas
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The Revisor''s contents page for chapter 75 (3,039 section links on 2026-11-12): it lists article 47 (OITS) and article 72 (information technology, cybersecurity) and shows a new, renumbered or repealed section in them.'
+- id: ks-watch-ksa-ch74
+  url: https://www.ksrevisor.gov/statutes/ksa_ch74.html
+  format: html
+  citation: K.S.A. chapter 74 contents
+  title: 'Kansas Statutes Annotated, Chapter 74: State Boards, Commissions and Authorities (contents)'
+  doc_type: statute
+  jurisdiction: kansas
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The Revisor's contents page for chapter 74, which holds the Information Network of Kansas act (article 93) and the Kansas one map act (article 99f).
+
+left_out:
+- text: '---- Kansas: found and left out (each was read on an official page on 2026-11-12 unless it says otherwise; the reason is recorded here)'
+- text: |-
+    ITEC policy and standards library (the statewide IT policy library) and the Kansas Information Security Office (KISO) pages: NOT READ. Every request to ebit.ks.gov and www.ebit.ks.gov through the Fetcher answered HTTP 403 on 2026-11-12 (home page, the ITEC policies page, a showpublisheddocument policy file), so no row of the library was read, no policy was counted and every 'none found' claim for it is withheld. The Fetcher's crawler User-Agent is the only client used; no other route was tried. Named in bytes this run did fetch (the Department of Administration's IT Security page, admin.ks.gov/offices/systems-management/it-security, 'a selection of ITEC policies'): four list items, copied as the page prints them: 'ITEC 1200 Acceptable Internet Use'; 'ITEC 7046-P, 7230a (Section 8) Security Awareness Training'; 'ITEC 7230a (Section 9) Authentication, Accounts, Authorization & Passwords'; 'ITEC 7230a (Section 10) Systems changes, protections, data'. The page gives no address for them; they are not seeded. The Department's pages also point to https://ebit.ks.gov/kiso/home, https://ebit.ks.gov/itec/home, https://ebit.ks.gov/kiso/resources/laws-statutes and https://www.ebit.ks.gov/resources/statutes (same host, same refusal). Web search results (discovery only, nothing from them is in this repo) name other ITEC numbers (3000-P, 4010, 4020, 7000-P, 7230) and a pending ITEC 8000 data series and generative-AI policy: none confirmed in fetched bytes. OWNER DECISION: have the State allow the crawler User-Agent on ebit.ks.gov, or decide how this library is to be read. Two stubs record it (ks-itec-policies-library, ks-itec-1210).
+- text: |-
+    Governor's executive orders: NOT READ. governor.kansas.gov answered HTTP 403 (home page, /executive-orders/, and www.governor.kansas.gov), so no executive order list was read and no order is seeded. A web search (discovery only) reports that the Governor directed executive branch agencies in August 2023 to adopt a generative AI policy written by OITS; whether that is an executive order or an OITS policy memo, its number and whether it is in force were not confirmed in bytes. Nothing was seeded from it.
+- text: |-
+    Kansas Administrative Regulations (rules): no rule seeded. https://rules.ks.gov/ answers HTTP 200 with a 749-byte script shell ('Kansas SOS', an empty root div and two JavaScript bundles): the rule text is drawn by script and no data route that a visitor's links point to was found (the issue says to expect this). The Secretary of State's K.A.R. page (sos.ks.gov/publications/pubs_kar.aspx) links only to rules.ks.gov for current regulations; its 'Regulation Resources' page offers 2022 volume PDFs, which are not the current regulations and were not fetched. No K.A.R. section of the IT agency was seen, so none is named; K.S.A. 75-4703, 75-4712, 75-4718 and 75-7203 authorize OITS and ITEC to adopt rules and K.S.A. 75-7243 authorizes rules on cybersecurity service costs. The Secretary of State's regulation modernization page says its new regulation system 'go[es] live May 2026'.
+- text: |-
+    https://www.da.ks.gov/ and https://da.ks.gov/ (the Department of Administration's older host): the Fetcher refused the TLS connection, 'TLS chain incomplete (server omits its intermediate)', and names a reviewed chain supplement at _meta/tls-chain/da.ks.gov.pem as the remedy. That folder is a shared file area, so no supplement was added in this state's branch (see shared_changes_needed in the PR body). admin.ks.gov, the Department's current host, answered and was used for discovery only.
+- text: |-
+    Statute sections read and left out, with the reason (K.S.A. article 47 of chapter 75, article 72, and the sections found by caption in chapters 16, 45, 46, 50, 74 and 75; the chapter contents pages were read row by row for the words technology, computer, cyber, artificial, electronic, privacy, digital, internet, network, accessib, website, data, information system and security, and the article 47 and 72 rows in full):
+     - Repealed or reserved, the page prints only a history line or 'Reserved': 75-4701a, 75-4702a, 75-4702d, 75-4706, 75-4708, 75-4711, 75-4740, 75-4741 through 75-4743, 75-4744, 75-7213 through 75-7220, 75-7228, 75-7229 through 75-7235. The chapter 75 contents page marks 75-4701a to 75-4702d (other than 75-4702b, 75-4702c, 75-4702e), 75-4706, 75-4708, 75-4711 and 75-4740 to 75-4744 as Repealed.
+     - 75-4702 (transfer of the 1972 director's powers to the executive CITO), 75-4702b, 75-4702c and 75-4702e (1984 transition of positions, property and legal actions to the new division) and 75-7212 (abolition of KIRC and the chief information architect and transfers): transition provisions whose work was done, not directives on current IT.
+     - Telecommunications: 75-4709, 75-4710, 75-4713, 75-4714, 75-4717 (OITS telecommunications services, the negotiating committee, fees, definitions). Domain.yml puts broadband, 911 and telecom out of scope. 75-4712 (the CITO's rulemaking for telecommunications services for state agencies) is seeded because it is the OITS rulemaking authority.
+     - Judicial and legislative branch IT, out of scope under domain.yml: 75-7206 (judicial CITO), 75-7206a (judicial branch CISO), 75-7207 and 75-7208 (legislative CITO), 75-7208a (legislative branch CISO), 46-1501 to 46-1503 (the legislature's information system, by caption). OWNER DECISION: these sit in the same article as the executive provisions and state the CISO structure the cybersecurity act relies on.
+     - KAN-ED (broadband for schools, libraries and hospitals, Board of Regents): 75-7221 through 75-7227. Broadband is out of scope.
+     - 75-3739a (reverse auction in the general procurement code), 75-444 (the Secretary of State's technology communication fee fund): not IT governance of the state (procurement method; a fee fund for business filings). Section-level slicing of procurement law is the owner's open decision (playbook).
+     - 74-72,123 (Kansas taxpayer transparency act: the searchable website of state spending): a transparency-reporting duty, borderline, OWNER DECISION.
+     - 74-99f01 (short title) and 74-99f02 (purpose) of the Kansas one map act, and 74-9303, 74-9305, 74-9307, 74-9308, 74-9309 of the Information Network of Kansas act (the corporation's board, manager, financing, deposits and citation): the act's organization and finance, not directives on state IT. The other sections of both acts are seeded; whether GIS and the INK portal are 'IT as a government function' is an OWNER DECISION.
+     - 75-2589 (Kansas children's internet protection act: public libraries and school districts) and the other chapter 75 and chapter 74 sections that matched a keyword only: 75-3707e is seeded; those on retirement systems, gaming machines, data centers sales-tax exemptions, health data registries, criminal justice information, technology grants and the Kansas technology enterprise corporation are not state IT governance.
+     - Other laws that may bind state agencies and were not read in full: the Kansas open records act and the records-retention law (chapter 45, public records) beyond 45-414 and 45-501; the Kansas computer crimes statute (crime, out of scope).
+- text: |-
+    Breach statute: K.S.A. 50-7a01 and 50-7a02 are seeded because 50-7a02(a) binds 'a government, governmental subdivision or agency that owns or licenses computerized data that includes personal information'. They bind private persons that conduct business in Kansas as well, and those provisions ride along (the page serves the whole section). OWNER DECISION on the ride-along text, as for other states.
+- text: |-
+    AI instruments: the only AI statute found is K.S.A. 75-4720 (2025 HB 2313), seeded. The caption lists of chapters 16, 45, 46, 50, 74 and 75 hold no other caption with 'artificial'. Other chapters' captions were not read, so no 'none found' is claimed for them. No executive order or policy on AI could be read (see above).
+- text: |-
+    The Revisor's section pages lag the 2026 session, and how that was handled. The Revisor's 2026 Composite Listing of New, Amended and Repealed Statutes (K.S.A. Order, dated August 13, 2026, https://www.ksrevisor.gov/rpts/2026NewAmendsAndRepealsKSAOrder.pdf, fetched 2026-11-12; the page of every section links it as '2026 Composite List By KSA') was read row by row, all four tables, for chapters 16, 20, 45, 46, 50, 74 and 75 and every seeded citation was looked up in it. Sixteen seeded sections are listed as amended (Am) effective 7/1/2026 while the Revisor's section pages still printed the K.S.A. 2025 Supp. text: 46-1135, 75-4704, 75-4705 and 75-7205 (House Substitute for Senate Bill 51, L. 2026 ch. 153, §§ 2, 3, 4 and 7, approved April 27, 2026) and 75-413, 75-623, 75-710, 75-711, 75-7202, 75-7203, 75-7237, 75-7238, 75-7239, 75-7240, 75-7245 and 75-7246 (House Bill 2574, L. 2026 ch. 53, §§ 4 to 9 and 12 to 17, approved April 6, 2026). For these the document text is the section cut from the Secretary of State's session-law page (www.sos.ks.gov/publications/sessionlaws/2026/Chapter-153-SB-51.html and Chapter-53-HB-2574.html) with the struck text dropped and the new text kept, because the Revisor's printed text is not the law in force; each document says so and cites the Act. The Act prints no caption, so the title is the Revisor's caption. When the Revisor republishes, these entries should go back to the Revisor's section page (the watch entry for the Composite Listing shows when). The same Act (SB 51, § 1, 'New Section 1') adds K.S.A. 75-7247, which the Revisor has not published (its section page, built from the 75-7246 pattern, answers 404) and the chapter 75 contents page does not list; it is seeded from the session law with the number the Composite Listing gives (Table One: New, SB 51, § 1, ch. 153).
+- text: |-
+    The 'CAUTION' lines on K.S.A. 75-7201 and 75-7209: the Revisor's pages print that a section 'was further amended by L. 2024, ch. 95' to take effect July 1, 2026. Those delayed 2024 versions were repealed before they took effect by L. 2026, ch. 53, § 18 (House Bill 2574, § 18 names K.S.A. 75-7203, 75-7205, 75-7201, 75-7202, 75-7206, 75-7208, 75-7209, 75-7237, 75-7238, 75-7239 and 75-7240 'as amended by' chapter 95 of the 2024 Session Laws); the Composite Listing shows each as 'Rep' (Table One, comment 'As amended by § N, Ch. 95 of the 2024 Session Laws of Kansas') and Table Three lists the 2024 amendments with '53, § 18'. So 75-7201 and 75-7209 stand as printed and the caution lines point to versions that never took effect; both documents carry a curator note saying so and keep the caution line as the page prints it. The same repeal removed the delayed versions of 75-7206 and 75-7208 (judicial and legislative branch, left out above).
+- text: |-
+    2026 new and amended sections found in the Composite Listing and left out:
+     - K.S.A. 46-4201 (Supp.), New, HB 2574 § 1, L. 2026 ch. 53, effective 7/1/2026: 'There is hereby established the legislative branch information technology oversight council.' (the Act prints no caption). A legislative-branch body that sets standards and policies for legislative branch IT: out of scope under domain.yml (legislative branch), with 75-7207, 75-7208 and 75-7208a. OWNER DECISION with the other legislative and judicial branch provisions above.
+     - K.S.A. 20-174 (Supp.), New, HB 2574 § 2, L. 2026 ch. 53, effective 7/1/2026: 'There is hereby established the judicial branch technology oversight council.' (no caption in the Act). A judicial-branch body, out of scope under domain.yml. OWNER DECISION, as above. The Revisor's address built from the pattern, https://www.ksrevisor.gov/statutes/chapters/ch20/020_001_0074.html, answers with a page that prints '20-174. Reserved.' (fetched 2026-11-12), so the new section is not yet published there.
+     - K.S.A. 75-7206a and 75-7208a (the judicial and legislative branch chief information security officers, amended by HB 2574 §§ 10 and 11) and 75-4709 and 75-4714 (OITS telecommunications services, amended by SB 51 §§ 5 and 6): already left out above; the 2026 amendment does not change that.
+     - Other new 2026 sections in the Composite Listing for chapters 16, 20, 45, 46, 50, 74 and 75 whose session-law title was read in this run (through www.sos.ks.gov/publications/sessionlaws/2026/): 75-795 (HB 2347, crimes), 46-162 and 46-163 (HB 2332, legislative seals), 75-796 (HB 2537, sexual extortion), 46-4101 (SB 325, vehicle services modernization task force), 75-7f01 to 75-7f08 (HB 2700, Kansas digital right-to-repair act, a private-sector duty), 75-659 (SB 232, born to invest act), 74-99g01 to 74-99g08 (HB 2466, Kansas sports authority act), 50-1401 to 50-1404 (HB 2518, consumer legal funding), 75-797 and 75-4384 (Senate Sub. for HB 2372, law enforcement), 50-6,151 to 50-6,156 (SB 375, proxy advisors), 75-658 (SB 361, scholarship tax credit), 75-5097 to 75-50,100 (HB 2647, a Kansas department of transportation conduit system for fiber optic broadband, out of scope as broadband), 75-52,174 (Sub. for HB 2099, conveyance of state real property), 75-53,106 (Sub. for HB 2004, information exchange on public assistance fraud investigations, not IT governance). The remaining 2026 new and amended sections in those chapters were matched by number against the seeded and the left-out sections and against articles 47 and 72 of chapter 75 only; their Acts were not read, so no 'none found' is claimed for them.
+- text: |-
+    OWNER DECISION, section-level inclusion of non-IT chapters: these sections were seeded whole, and the page serves the whole section, so text outside the state-IT scope rides along. K.S.A. 75-413, 75-623, 75-710 and 75-711 are mainly about appointing assistants and clerks of the Secretary of State, the State Treasurer and the Attorney General and the Kansas bureau of investigation (75-711 also establishes the KBI); a chief information security officer subsection rides along in each, and it is the reason for inclusion (the Act that amended them in 2026, HB 2574, concerns branch and agency information technology). K.S.A. 45-414 (state archivist duties, fees) and 45-501 (records on electronic media) are records-management sections of which the electronic-record parts are the reason for inclusion. K.S.A. 16-1605 sits in the uniform electronic transactions act, whose other sections bind private transactions. K.S.A. 46-2102 (joint committee on information technology) and 46-1135 (post audit IT audits) sit in legislative chapters and bind legislative bodies, as their why_relevant says. The playbook leaves section-level slicing of non-IT chapters to the owner: say whether to keep these whole, slice them, or move them to left out.

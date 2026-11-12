@@ -1,0 +1,42 @@
+                                           TECHNOLOGY AREA
+
+                                                       DEFINITION
+Name                     Production, Input and Output Controls
+                         Production, input and output controls are the security procedures in place that support the
+                         operations of the information technology system. Some examples are: user support;
+Description              procedures to ensure unauthorized individuals cannot read, copy, alter, or steal printed or
+                         electronic information; internal and external labeling of media; and procedures for
+                         restricting access to output products.
+                         Agencies need a strong, disciplined, clearly defined approach to production, input and
+Rationale                output controls. This helps assure the confidentiality, availability and integrity of the data
+                         maintained by those systems.
+                         • Provides a point of contact
+                         • Assists with the security of sensitive and mission-critical application systems of
+Benefits
+                             agencies
+                         • Reduces the possibility of system information corruption
+
+                                       ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name         Security
+Specify the Discipline Name     Operational Controls
+
+                                                       KEYWORDS
+List Keywords                   Help Desk, record calls, trouble tickets, resolution, historic information
+
+                                     ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance
+                                User Support
+Component Names
+
+                                       ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                                     CURRENT STATUS
+Provide the Current Status          In Development          Under Review            Approved            Rejected
+
+                                                       AUDIT TRAIL
+Creation Date                   09/06/2007                      Date Approved / Rejected   10/16/07
+    Reason for Rejection
+Last Date Reviewed                                              Last Date Updated
+    Reason for Update

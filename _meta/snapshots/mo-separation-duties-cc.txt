@@ -1,0 +1,93 @@
+                                           COMPLIANCE COMPONENT
+
+                                                           DEFINITION
+Name                   Separation of Duties
+                       Separation of Duties refers to dividing roles and responsibilities to minimize the possibility
+Description
+                       that a single individual can cause a security breach.
+                       Establishes division of responsibilities and separates duties of individuals as necessary to
+Rationale              minimize security-related risk. Malicious collusion between two or more authorized
+                       individuals is much less likely than one person engaging alone in inappropriate behavior.
+                       • Having different staff engaged within an end-to-end process is a common, sensible
+                            business practice that ensures consistent and successful execution of the process.
+                       •      Separation of duties helps to reduce fraud and malicious damage, because any user
+                              attempting to engage in such activities would be forced to collude with at least one other
+Benefits                      user.
+                       •      Separation of duties also reduces errors, because a second operator will often catch
+                              mistakes made or missed by the first.
+
+                                           ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name            Security
+Specify the Discipline Name        Management Controls
+Specify the Technology Area
+                                   Personnel Security
+Name
+Specify the Product
+Component Name
+
+                                               COMPLIANCE COMPONENT TYPE
+Document the Compliance
+                                   Guideline
+Component Type
+Component Sub-type
+
+                                                   COMPLIANCE DETAIL
+                                   Separation of duties minimizes the ability of individuals from having the information
+                                   system access necessary to perform malicious activity without collusion. Examples
+                                   of separation of duties include:
+
+                                       •      Agency critical functions are divided among different individuals or roles.
+
+State the Guideline, Standard          •      Distinct information system support functions and mission critical functions
+or Legislation                                are divided among different individuals or roles.
+
+                                       •      Different individuals perform information system functions, examples:
+                                                   o Development
+                                                   o Testing
+                                                   o Administration (e.g. database, systems, network, etc.)
+                                                   o Physical security
+
+                                             o     IT Security
+                                             o     Provisioning
+                                             o     System Log Management
+
+                              •    In situations where the agency cannot support the differentiation of roles or a
+                                   single individual performs all roles within the agency, the agency shall employ
+                                   appropriate compensating controls (e.g., providing increased personnel
+                                   security and auditing measures).
+
+Document Source Reference #   NIST Special Publications: 800-53 Rev. 5 and 800-12 Rev. 1
+
+                                                 Compliance Sources
+                              NIST SP800-53 Rev. 5 -
+                              Recommended Security
+                                                                                 nvlpubs.nist.gov/nistpubs/SpecialPu
+Name                          Controls for Federal                Website
+                                                                                 blications/NIST.SP.800-53r5.pdf
+                              Information Systems and
+                              Organizations
+Contact Information
+                              NIST SP800-12 Rev. 1 An                            An Introduction to Information Security
+                              Introduction to Computer                           (nist.gov)
+Name                                                              Website
+                              Security: The NIST
+                              Handbook.
+Contact Information
+
+                                                      KEYWORDS
+                              Management, administration, policy, procedures, planning, staffing, critical tasks,
+List Keywords
+                              sensitive, data, collusion, responsibility, duties, fraud, data breach
+
+                                          COMPONENT CLASSIFICATION
+Provide the Classification        Emerging                  Current                    Twilight                Sunset
+     Sunset Date
+
+                                                   CURRENT STATUS
+Provide the Current Status        In Development            Under Review               Approved               Rejected
+
+                                                      AUDIT TRAIL
+Creation Date                 05/25/06                      Date Approved / Rejected     12/18/2025
+     Reason for Rejection
+Last Date Reviewed            12/17/2025                    Last Date Updated            12/18/2025
+     Reason for Update        Vitality

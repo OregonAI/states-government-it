@@ -1,0 +1,91 @@
+                                                   TTeecchhnnoollooggyy A
+                                                                        Arreeaa
+
+                                                      D
+                                                      DEEFFIIN
+                                                             NIITTIIO
+                                                                    ONN
+Name                       Personnel Security
+                           A broad range of security issues that relates to how individuals, within an
+                           organization, interact with computer systems and the access and authorities
+                           they need to perform their duties. Personnel Security issues include, but are
+                           not limited to, pre-employment background screening, documentation of job
+Description
+                           responsibilities, separation of duties, use of individualized user IDs and
+                           personal passwords, use of confidentiality agreements, and documented
+                           processes for the establishing, issuing and closing of user accounts.
+
+                           Documented policies and procedures are needed to prevent, limit and deter
+Rationale                  authorized users from unauthorized access and/or actions.
+
+                           •   Improves the agencies ability to protect the confidentiality, integrity and
+Benefits
+                               availability of the system
+                                      A
+                                      ASSSSO
+                                           OCCIIA
+                                                ATTEED
+                                                     DAARRC
+                                                          CHHIITTEEC
+                                                                   CTTU
+                                                                      URREE LLEEVVEELLSS
+List the Domain Name              Security
+List the Discipline Name          Management Controls
+                                        Associated Compliance Components
+                                  •    Agency Security Roles and Responsibilities
+                                  •    Background Screening
+List the Compliance
+                                  •    Separation of Duties
+Component Names
+                                  •    Maintaining User Accounts
+                                  •    Disciplinary Actions
+                                          Associated Product Components
+List the Product Component
+Names
+                                           TTEEC
+                                               CHHN
+                                                  NOOLLO
+                                                       OGGYY A
+                                                             ARREEA
+                                                                  ADDEETTA
+                                                                         AIILL
+                                 NIST SP 800-18, Guide for Developing Security Plans for Information
+Supporting Documentation
+                                 Technology Systems
+Document Source Reference #      www.csrc.nist.gov/publications/nistpubs
+                                      Standard Organization / Government Body
+                                 National Institute of
+                                 Standards and Technology
+Name                             (NIST), Computer                   Website        http://csrc.nist.gov/
+                                 Security Resource Center
+                                 (CSRC)
+Contact Information              inquiries@nist.gov
+
+Name                                                                Website
+
+Contact Information
+
+                                                 KKEEYYW
+                                                       WOORRD
+                                                            DSS
+                             Criminal, traffic, credit, fingerprints, investigations, personnel,
+                             separation of duties, access control, felony, misdemeanor, candidate,
+                             employee, violation, discipline, penalty, penalties, responsibilities,
+List Keywords                compliance, liability, enforcement, privileges, audit, user ID, user name,
+                             account name, password, authentication, authorization, permissions,
+                             tracking, active directory, RACF, ADS, idle, orphaned, inactive,
+                             management, administration, policy, procedures, planning, staffing
+                                           C
+                                           CUURRRREEN
+                                                    NTT SSTTA
+                                                            ATTU
+                                                               USS
+Provide the Current Status     In Development         Under Review             Approved       Rejected
+                                                A
+                                                AUUD
+                                                   DIITT TTRRA
+                                                             AIILL
+Creation Date                04/13/06                      Date Accepted / Rejected       06/13/06
+    Reason for Rejection
+Last Date Reviewed                                         Last Date Updated
+    Reason for Update

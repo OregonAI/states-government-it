@@ -1,0 +1,69 @@
+                                    TECHNOLOGY AREA
+
+                                                    DEFINITION
+Name                Security Awareness Training
+                    Security Awareness Training is the basic understanding of the need for
+Description         information security and user actions to maintain security and to respond to
+                    suspected security incidents.
+                    Security Awareness Training teaches employees how to protect information technology
+                    systems and agency data. Additionally, Security Awareness Training develops skills and
+Rationale
+                    knowledge enabling employees to perform their jobs more securely and build in-depth
+                    knowledge.
+                        • Improves security posture of the enterprise
+Benefits
+                        • Facilitates the implementation of appropriate security policies and procedures
+
+                                     ASSOCIATED ARCHITECTURE LEVELS
+Specify the Domain Name      Security
+Specify the Discipline
+                             Operational Controls
+Name
+
+                                  ASSOCIATED COMPLIANCE COMPONENTS
+List the Compliance          Cyber Security User Awareness
+Component Names              Cyber Security Technical Training
+
+                                    ASSOCIATED PRODUCT COMPONENTS
+List the Product Component
+Names
+
+                                       TECHNOLOGY AREA DETAIL
+                             NIST SP800-16 Revision 1 draft 3, A Role-Based Model for Federal
+                                   Information Technology/Cybersecurity Training
+                             NIST SP800-50, Building an IT Security Awareness and Training
+Supporting Documentation           Program
+                             NIST SP800-53, Security and Privacy Controls for Federal
+                                   Information Systems and Organizations
+
+Document Source
+                             www.csrc.nist.gov/publications/nistpubs
+Reference #
+                                             Compliance Sources
+                             National Institute of
+                             Standards and Technology
+Name                                                        Website       http://csrc.nist.gov/
+                             (NIST), Computer Security
+                             Resource Center (CSRC)
+Contact Information          inquiries@nist.gov
+Name                                                        Website
+Contact Information
+
+Name                                                               Website
+Contact Information
+
+                                                    KEYWORDS
+ List Keywords                training, awareness, phishing, security, incidents
+
+                                            COMPONENT CLASSIFICATION
+ Provide the Classification      Emerging                Current                     Twilight       Sunset
+       Sunset Date
+
+                                                  CURRENT STATUS
+ Provide the Current Status      In Development            Under Review               Approved      Rejected
+
+                                                    AUDIT TRAIL
+ Creation Date                03/01/2007                  Date Approved / Rejected     05/16/2019
+       Reason for Rejection
+ Last Date Reviewed           05/09/2019                  Last Date Updated            05/09/2019
+       Reason for Update      Vitality

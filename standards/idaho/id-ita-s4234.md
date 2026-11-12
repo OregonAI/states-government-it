@@ -1,0 +1,643 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: idaho
+id: id-ita-s4234
+title: S4234 – Control Point Standard
+doc_type: standard
+citation: ITA Standard S4234
+authority_level: ''
+issuing_body: Idaho Technology Authority (ITA)
+source_url: https://ita.idaho.gov/wp-content/uploads/2025/07/s4234-ADA.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: caf735146e8e77d13e7e3b97dfe1117a06bc678f3fbf81da2b22ecefc317fdd6
+effective_date: '2016-09-15'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# S4234 – Control Point Standard (ITA Standard S4234)
+
+## At a glance
+
+Item of the ITA statewide policies, standards and guidelines library (ita.idaho.gov/policies), category '4000 - Information and Data, Standards', a standard. The library's own summary: "ITA Standard S4234 defines control points for state infrastructure, ensuring precise management and coordination of resources."
+
+## Full text
+
+                                           STATE OF IDAHO
+
+                                     Control Point Standard
+                                 For the Geodetic Control Framework Theme
+
+                                                  Version 1.0
+                                         Effective September 15, 2016
+
+ Revision History
+ 7/24/25 - Revised for ADA compliance
+ 5/6/19 - Removed individual definitions from the Glossary and replaced with reference to
+ ITA Guideline G105 (ITA Glossary of Terms)
+ Established by ITA September 15, 2016
+ First Draft May 26, 2016
+
+ Contact
+
+ Idaho State University
+ 208.282.2757
+ giscenter@isu.edu
+
+Control Point Standard ver.1.0                                                       1|Page
+
+Contents
+ 1. Introduction to the Standard ................................................................................................... 3
+ 1.1.   Mission and Goals of the Standard ...................................................................................... 3
+ 1.2.   Relationship to Existing Standards ...................................................................................... 3
+ 1.3.   Description of the Standard ................................................................................................. 4
+ 1.4.   Applicability and Intended Uses.......................................................................................... 4
+ 1.5.   Standard Development Process............................................................................................ 5
+ 2. Body of the Standard................................................................................................................ 5
+ 2.1.   Scope and Content ............................................................................................................... 5
+ 2.2.   Need..................................................................................................................................... 5
+ 2.3.   Participation in the Standard Development.......................................................................... 5
+ 2.4.   Integration with Other Standards ......................................................................................... 5
+ 2.5.   Technical and Operational Context...................................................................................... 5
+ 2.5.1. Data Environment .............................................................................................................. 6
+ 2.5.2. Reference Systems .............................................................................................................. 6
+ 2.5.3. Global Navigation Satellite Systems (GNSS) ................................................................... 6
+ 2.5.4. Accuracy ............................................................................................................................. 6
+ 2.5.5. Local Construction Control............................................................................................... 6
+ 2.5.6. Attributes............................................................................................................................. 6
+ 2.5.7. Stewardship ........................................................................................................................ 6
+ 3. Data Characteristics ................................................................................................................. 7
+ 3.1.   Minimum Attributes for Control Point Database ................................................................ 7
+ 3.2.   Additional Attributes for Control Point Database ............................................................... 9
+ Appendix A: Accuracy Statistics for Geospatial Data according to NSSDA............................. 11
+ Appendix B: Relationship between NSSDA and ASPRS Accuracy Standards........................ 12
+ Appendix C: References ................................................................................................................ 13
+ Appendix D: Glossary................................................................................................................... 14
+ Appendix E: Acronyms................................................................................................................. 15
+
+Control Point Standard ver.1.0                                                                                                 2|Page
+
+    1. Introduction to the Standard
+     A statewide Geodetic Control Framework is a critical source of information for all geospatial
+     professionals including both the geographic information systems (GIS) community and
+     professional land surveyors (PLS).
+
+     This Control Point standard is intended to improve both horizontal and vertical positional
+     accuracy of Idaho’s geospatial data using established control points that tie together the
+     National Spatial Reference System (NSRS), public land survey system (PLSS), and other
+     geographic features/markers to precise coordinates on the earth. Through the use of the
+     resulting control point database both the horizontal and vertical positional accuracy of
+     numerous geospatial datasets (e.g., parcels and roads) can be improved. This standard will also
+     facilitate sharing of current control point data and access to these data by the broader
+     geospatial community. This standard is not a tutorial and does not instruct on how the control
+     point database is to be used.
+
+     This standard was developed based on the Federal Geographic Data Committee (FGDC)
+     Geospatial Positioning Accuracy Standards. The standard was reviewed by the Idaho Geodetic
+     Control Technical Work Group (GC TWG) for The Idaho Map (TIM) and will be updated as
+     needed.
+
+     1.1. Mission and Goals of the Standard
+     The purpose of this data standard is to specify a common method for identifying and recording
+     control point features for application in Idaho by mapping professionals, land surveyors and
+     engineers, and GIS professionals. Since it is based on national models, the geospatial data
+     maintained according to this standard can be exchanged with entities in other states and the
+     federal government.
+
+     This control point standard supports a statewide infrastructure that is consistent with applicable
+     state and national standards. It establishes minimum horizontal and vertical accuracies
+     following existing Federal standards. This standard communicates with and may have similar
+     attributes to other Idaho Framework data standards. Furthermore, this standard encourages all
+     Idaho agencies with geospatial data to contribute to Idaho’s spatial data infrastructure.
+
+     1.2. Relationship to Existing Standards
+     This standard follows FGDC guidelines for geospatial positional accuracy reporting:
+        “Horizontal: The reporting standard in the horizontal component is the radius of a circle of
+        uncertainty, such that the true or theoretical location of the point falls within that circle 95-
+        percent of the time.
+        Vertical: the reporting standard in the vertical component is a linear uncertainty value, such
+        that the true or theoretical location of the point falls within +/- of that linear uncertainty value
+        of 95-percent of the time.
+        Coordinate values should be based on National datums. If coordinate values are not
+        referenced to the National datum but their relationship to the national datum is known,
+        identify the datum and its relationship to a National datum.”
+     When providing geodetic point coordinates, the FGDC recommends inclusion of a statement
+     that these data meet a particular accuracy standard for both local accuracy and network
+     accuracy. Local accuracy is a value that represents uncertainty at the 95-percent confidence
+Control Point Standard ver.1.0                                                                3|Page
+
+     level in the coordinates of the control point relative to the coordinates of other directly
+     connected or adjacent control points. The reported local accuracy is an approximate average of
+     the individual local accuracy values between this control point and other observed control points
+     used to establish the coordinates of the control point.
+
+     FGDC defines network accuracy as a value that represents the uncertainly in the coordinates of
+     the control point with respect to the geodetic datum (and not adjacent control points) at the 95-
+     percent confidence level. Network accuracy for the National Spatial Reference System (NSRS)
+     is determined using geodetic values from Continuously Operating Reference Stations (CORS)
+     recognized by National Geodetic Survey (NGS).
+
+     The FGDC also developed the National Standard for Spatial Data Accuracy (NSSDA) by
+     defining a statistically-based testing methodology for estimating the positional accuracy of
+     geospatial data. The NSSDA applies to fully georeferenced maps and digital geospatial data, in
+     either raster or vector format, derived from sources such as aerial photography, satellite imagery,
+     and ground surveys. NSSDA uses root-mean-square error (RMSE) to estimate and report
+     positional accuracy. RMSE is the square root of the average of the set of squared differences
+     between dataset coordinate values and coordinate values from an independent source of higher
+     accuracy for identical points. RMSE accuracy statistics and user guidelines are given in
+     Appendix A.
+
+     The accuracy of spatial data can be reported in various ways; 1) local or network accuracy
+     expressed as a measurement relative to a 95-percent confidence interval for control points
+     (FGDC), and 2) RMSE (NSSDA) for mapping data. NSSDA overrides the accuracy measures
+     based on map scale or contour interval such as that used by the American Society for
+     Photogrammetry and Remote Sensing (ASPRS) (cf., Accuracy Standards for Large-Scale
+     Maps). To assist the geospatial professional, a cross-reference between NSSDA and the ASPRS
+     standard is given in Appendix B to ensure users can assess positional accuracy of spatial data.
+
+     1.3. Description of the Standard
+     This standard includes the elements necessary to accurately identify geospatial features which
+     will act as control points for other geospatial datasets. In addition, this standard describes the
+     data structure for control points in the state of Idaho. This standard is designed to be:
+          • Simple, easy to understand, and logical
+          • Uniformly applicable, whenever possible
+          • Flexible and capable of accommodating future expansions
+          • Dynamic in terms of continuous review
+
+     1.4. Applicability and Intended Uses
+     This standard can be applied to all control point data in Idaho and the digital representation of
+     these geospatial features. When implemented, it will enable access to both the geometry and
+     attribution information describing Idaho’s control points to support both mapping and
+     surveying activities. It will increase interoperability between geographic information systems
+     (GIS) and enable sharing and efficient transfer of information for aggregation. Further, this
+     standard will encourage partnerships between government, private sector, and the public in
+     order to avoid duplication of effort and ensure effective management of information
+
+Control Point Standard ver.1.0                                                             4|Page
+
+     resources. Finally, this Control Point standard will help improve cartographic and engineering
+     data quality as errors will be more easily identified and resolved1.
+
+     1.5. Standard Development Process
+     The National Standard for geospatial positional accuracy was adopted by the Federal
+     Geographic Data Committee in 1998 to support the needs of the geospatial community relative
+     to understanding and documenting accuracy of horizontal and vertical coordinate values for
+     geodetic control points as well as to support positional accuracy for mapping, surveying, and
+     engineering programs. The Idaho Geodetic Control Technical Working Group (GC-TWG) was
+     formed in 2011 following an FGDC CAP grant (Multi-State Planning and Implementation of
+     Geodetic Control Framework Components). The GC-TWG began development of the Control
+     Point Standard in November 2015.
+
+    2. Body of the Standard
+     2.1. Scope and Content
+     The scope of the Control Point Standard is to improve the relative and absolute horizontal and
+     vertical positional accuracy of geospatial data for the State of Idaho. This will be accomplished
+     through the development and use of control points which will act as absolute references for
+     cadastral fabric, right-of-ways, aerial imagery, LiDAR data collection, or other GIS data layers
+     that identify the physical location of surface features in Idaho.
+
+     2.2. Need
+     The Control Point Standard is a key standard for city and county GIS managers, land
+     managers, community and business development, infrastructure management, and research.
+     This standard provides an elemental foundation for not only the consistent depiction of
+     mapping and engineering features, but information describing those features as well as
+     centralized access to existing control points and their stewardship.
+
+     2.3. Participation in the Standard Development
+     The development of the Control Point Standard adheres to FGDC Standards. This standard
+     will be reviewed in accordance with technology updates and the requirements of the
+     geospatial community. Broad participation and input by stakeholders in the development of
+     this standard is encouraged. The process will be equally broad for input regarding updates and
+     enhancements to the standard. As with all Idaho Framework standards, public review and
+     comments on the Control Point Standard is encouraged.
+
+     2.4. Integration with Other Standards
+     The Control Point Standard follows the same format as other Idaho geospatial framework data
+     standards. The standard may contain some of the same attributes as other framework
+     standards and may adopt field names, definitions, and domains from other standards to
+     promote consistency.
+
+     2.5. Technical and Operational Context
+     1
+      This standard does not consider data sharing agreements, contracts, transactions, privacy concerns, or
+     any other issues related to the acquisition and dissemination of Geodetic Control Point data.
+
+Control Point Standard ver.1.0                                                                  5|Page
+
+         2.5.1. Data Environment
+         The data environment is a digital model, containing vector point features with a specific,
+         standardized set of attributes pertinent to the geodetic control point framework. Control
+         point data shared under this standard must follow this format2.
+
+         2.5.2. Reference Systems
+         Control points will be published in Idaho Transverse Mercator (IDTM), North American
+         Datum of 1983 (NAD 83) as the horizontal datum and North American Vertical Datum of
+         1988 (NAVD 88) as the vertical datum. IDTM is the State of Idaho’s single-zone
+         coordinate system. Data is not required to be submitted in the ITDM spatial reference
+         system but must have a defined coordinate system clearly described in the metadata.
+
+         2.5.3. Global Navigation Satellite Systems (GNSS)
+         Much of the geospatial control point data will contain geometry developed from Global
+         Navigation Satellite Systems (GNSS; e.g., GPS, Glonass, and Galileo) methods, and the
+         provided metadata will describe this, where applicable. Where GNSS is used, it is
+         important that the most current geoid model be used for all surveys involving GNSS, and
+         that attribution of those points correctly describes the geoid model and epoch used.
+         Geometry from GNSS is not required to meet this standard.
+
+         2.5.4. Accuracy
+         Accuracy is the measure of the degree of uncertainty relative to the position of a control
+         point. The Idaho control point standard requires +/-10 cm horizontal accuracy, and +/-20
+         cm vertical accuracy following the FGDC definition of network accuracy. Control points
+         not meeting this accuracy standard may be submitted and included in the control point
+         database, and will be identified accordingly in the Accuracy Assessment field (cf. table 1).
+
+         2.5.5. Local Construction Control
+         All control points must be referenced to the National Spatial Coordinate System and have a
+         fully defined spatial reference system. Local coordinates will not be accepted as control
+         points.
+
+        2.5.6. Attributes
+        Required and optional attributes for all control points are described in Section 3 of this
+       standard.
+
+         2.5.7. Stewardship
+         Perpetual maintenance and other aspects of lifecycle management are essential to Idaho’s
+         spatial data infrastructure. The GIS Training and Research Center at Idaho State
+         University currently hosts and maintains the Multi-State Control Point Database (MCPD)
+         which contains control points submitted by professional land surveyors. These points are
+         typically collected during cadastral boundary and construction surveys, and later submitted
+2
+ To assist in the preparation of control points, a spreadsheet template has been developed by the GC-TWG
+and is available from http://giscenter.isu.edu/research/Techpg/GC/
+Control Point Standard ver.1.0                                                                  6|Page
+
+         to the MCPD. The Geodetic Coordinator/Geodetic Advisor for Idaho, or his/her delegate
+         shall act as the data steward for the current MCPD. The data steward will review all
+         control points submitted for inclusion in the MCPD relative to this standard, and work
+         with the submitter to resolve all issues prior to upload and inclusion of each control point
+         into the MCPD. The MCPD, until made obsolete by later standards, shall be the
+         authoritative source for control points in the state of Idaho.
+
+         In the event that a national control point database is created, the control points within the
+         MCPD shall be exported for inclusion in the national database. Currently, the MCPD shall
+         be considered the authoritative source for control points in Idaho.
+
+ 3. Data Characteristics
+     3.1. Minimum Attributes for Control Point Database
+         The following attributes are required to be met for point data to be considered a control
+         point and included in the control point database:
+
+         3.1.1. Lineage, or data source must be specified. This is the surveyor name and surveyor
+                ID
+         3.1.2. The horizontal coordinate attribute values must be reported in latitude and longitude
+                (optional easting/northing values along with a full spatial reference system
+                description (WKID or EPSG code) may be included using the AltNORTHING and
+                AltEASTING fields).
+         3.1.3. Positional accuracy of +/-10 cm (horizontal) and +-/20 cm (vertical) is expected but
+                not required for database submittal. All points meeting this accuracy will be noted in
+                the AccuracyAssesment field.
+         3.1.4. Spatial reference system shall be clearly identified (datum, projection, and
+                coordinate unit of measure). WKID or EPSG code may be used.
+         3.1.5. For temporal consistency, date of data collection as well as the datum and epoch
+                needs to be specified.
+
+    The following attributes are required for control points to be added to the Multi-State Control
+    Point Database (MCPD).
+
+Table 1. Required documentation fields for Idaho control points
+     Field Name          Data     Lengt               Description                          Examples
+                         Type       h
+ ControlPoint_ID         String    68     Point Identifier for Survey Controls    ID****
+
+ ProviderID              String    25     Surveyor License Number                 ID****
+
+ SurveyorProjectID       String    68     Unique Identifier for Submitted         ID****-SPT-**
+                                          Project
+ DateEntered             Date             The day the data was collected in the   11/7/2013 1:46:34 PM
+                                          field.
+ DateUpdated             Date             The Day the data was updated in         11/7/2013 1:46:47 PM
+                                          MCPD database.
+
+Control Point Standard ver.1.0                                                                7|Page
+
+ Latitude               Double    Northing Y-Coordinate value, ,         42.85504314
+                                  expressed in decimal degrees with
+                                  sufficient number of decimal digits
+                                  to support the horizontal positional
+                                  accuracy estimation
+ Longitude              Double    Easting X-Coordinate value,            -112.42319923
+                                  expressed in decimal degrees with
+                                  sufficient number of decimal digits
+                                  to support the horizontal positional
+                                  accuracy estimation
+ Horizontal             Double    Estimated network accuracy for the     0.01 (meters)
+ Accuracy                         horizontal coordinates.
+ HDatum                  Short    Horizontal Datum. For example,         NAD83(CORS96)
+                        Integer   specify North American Datum 1983
+                                  (NAD83) with Adjustment Epoch
+                                  such as, NAD83 (2011) or NAD83
+                                  (2007), NAD83(CORS96).
+ HUnits                  Short    Horizontal Units in Geographic or      US Survey Feet
+                        Integer   Projected Coordinates Units.
+ HMethod                 Short    Specify the method used to create      OPUS
+                        Integer   horizontal coordinate.
+ HAccuracyUnits          Short    Horizontal Accuracy Units. Specify     US Survey Feet
+                        Integer   the unit for horizontal accuracy
+ CoordSys               Short     Reference System that is used to       GRS80
+                        Integer   define the point
+ CoordSysRealizati      Short     Adjustment Epoch such as, NAD83        NAD83(2011)
+ onEpoch                Integer   (2011) or NAD83 (2007),
+                                  NAD83(CORS96).
+ Vertical               Double                                           5951.917
+                                  Elevation or Orthometric Height
+ Coordinate
+ VUnits                 Short     Vertical Units. Specify units of the   US Survey Feet
+                        Integer   vertical coordinate.
+ VDatum                 Short     Vertical Datum. US vertical datum      NAVD88
+                        Integer   for elevation. North America
+                                  Vertical Datum of 1988 (NAVD 88).
+ VMethod                Short     Vertical Method. Select the method     GPS and Geoid Model
+                        Integer   used to generate the vertical          2003
+                                  coordinate.
+ VerticalAccuracy       Double    Estimated network accuracy for the     0.15 (meters)
+                                  vertical coordinate
+ VAccuracyUnits         Short     Vertical Accuracy Units. Specify       US Survey Feet
+                        Integer   units of the vertical accuracy.
+                                  International Feet, US Survey Feet
+                                  or Meter
+ AccuracyAssesme        Short     Results of evaluation by the data      Both horizontal and
+ nt                     Integer   steward describing if the point        vertical accuracy
+                                  satisfied minimum horizontal and       requirements met
+                                  vertical accuracy
+
+Control Point Standard ver.1.0                                                           8|Page
+
+    The data steward will evaluate all control points submitted for inclusion to the control point
+    database and determine if each control point satisfies the horizontal (+/- 10 cm) and vertical
+    accuracy (+/- 20 cm) requirement within 95-percent confidence intervals. The results of the
+    evaluation will indicate whether the point satisfied “horizontal accuracy only”, “vertical
+    accuracy only”, “both horizontal and vertical accuracy requirements were met”, or “horizontal
+    and vertical accuracy requirements were not met”.
+
+     3.2. Additional Attributes for Control Point Database
+    The following attributes exist in the current MCPD and are considered optional.
+
+Table 2. Additional/optional documentation fields for Idaho control points
+     Field Name             Data     Leng                Description                    Examples
+                            Type      th
+MCPD_ID                    Integer     4    Unique ID for the Point
+GCDBPOINTID                 Text      25    The full unique GCDB ID for the      ID080160S0430E0_5405
+                                            point.                               00
+GCDB_PtLab                   Text     10    GCDB 6 digit code point label.       540500
+PT_Name                     String    50    Surveyor's name for the Point        Q 49 RESET 1935
+DataID                      Short                                                CPP
+                                            Dataset ID
+                           Integer
+HAccuracyConv               Short           Horizontal Accuracy Convention.      Network Horizontal
+                           Integer          Network horizontal accuracy is       Accuracy
+                                            expected
+VAccuracyConv               Short           Vertical Accuracy Convention.        Network Vertical
+                           Integer          Network vertical accuracy is         Accuracy
+                                            expected
+ALTNORTHING               Double      8     Alternate northwards coordinate in   132027.880
+                                            the point positioning
+ALTEASTING                Double      8     Alternate eastwards coordinate in    179034.079
+                                            point positioning
+Alt_Coord_System            Short           Reference System that is used to     Idaho State Plane East
+                           Integer          define the point such as UTM         US Feet
+Alt_Coord_System_z          Short           Universal Transverse Mercator        Idaho State Plane East
+one                        Integer          (UTM) Zones for Idaho
+Alt_Coord_System_           Text      10    WKID or EPSG code
+Code
+AltHorizontal             Double      8     Relative accuracy of alternate       0.1
+accuracy                                    horizontal coordinate
+AltHUnits                  Short            Alt Horizontal Units. Units of       Decimal Degrees
+                          Integer           alternate horizontal coordinates.
+AltHAccUnits               Short      5     Alt Horizontal Accuracy Units        US Survey Feet
+                          Integer
+Field ScaleFactor         Double      8     Ground Scale Factor. Surveyor's
+                                            Project Scale Factor
+STATE                      String     2                                          ID
+
+Control Point Standard ver.1.0                                                              9|Page
+
+COUNTY                     String    25                                            BEAR LAKE
+
+T                           Short          Township                                16
+                           Integer
+TDir                        Short          Locates the township North or South     S
+                           Integer         in relation with a PLSS baseline
+R                           Short     5    Name of the Range in which the          43
+                           Integer         monument falls. If more than one,
+                                           enter the Range that was the focus of
+                                           the survey, or the lowest number
+                                           Range, Enter only one Range
+                                           number.
+RDir                        Short     3    Locates the Range East or West in       E
+                           Integer         relation with the PLSS meridian
+S                           Short          Section in which the monument falls.    27
+                           Integer         If more than one, enter the Section
+                                           that was the focus of the survey, or
+                                           the LOWEST number Section. Enter
+                                           only one section number.
+Corner                      Short          PLSS Corner                             Yes
+                           Integer
+MonDesc                     String   125   A description of the physical           BRCAPF
+                                           monument
+Meridian                    Short          Public Land (USPLS) meridian            Boise
+                           Integer
+PtType                      Short          Type that this point represents.        Horizontal and Vertical
+                           Integer                                                 Control Station
+MonType                     Short          Type of material of which the           Rebar
+                           Integer         monument is constructed.
+Cap                         Short          Monumentation Cap Type. Select the Brass Cap
+                           Integer         type of cap that is on the monument.
+ControlPt Status            Short          Describes the condition at which     Public
+                           Integer         point was found. This includes the
+                                           existing condition or the point is
+                                           missing/not found.
+CornerDes                  String    20    Corner Designation. Specifying what
+                                                                                N 1/4
+                                           is the corner
+
+HorizontalAccuracy         Boolea    Y/N   Results of evaluation by the data
+Assessment                   n             steward describing if the point         horizontal accuracy
+                                           satisfied minimum horizontal            requirements met
+                                           accuracy
+VerticalAccuracyAss        Boolea    Y/N   Results of evaluation by the data
+                                                                                   vertical accuracy
+essment                      n             steward describing if the point
+                                                                                   requirements met
+                                           satisfied minimum vertical accuracy
+
+Control Point Standard ver.1.0                                                               10 | P a g e
+
+Appendix A: Accuracy Statistics for Geospatial Data according to NSSDA
+    1. Determine Horizontal Accuracy
+       The test involves 20 check points distributed to reflect the area of interest, and the accuracy
+       is reported at the 95% confidence level which allows one point (5%) to fail accuracy
+       threshold given in the product specifications.
+
+        Let:
+                     ∑(x
+         RMSEx = sqrt[                 data,i    − xcheck ,i ) 2 / n]
+         RMSE = sqrt[∑ ( y
+                  y                    data,i    − ycheck ,i ) 2 / n]
+        Where xdata,i y data,i are the coordinates of the i th check point in the dataset,
+         xcheck ,i , ycheck ,i    are the coordinates of the i th check point in the independent source of
+        higher accuracy,
+        n is the number of check points tested,
+        i is the integer ranging from 1 to n .
+
+        Horizontal error at point i is defined as, sqrt[( xdata,i − xcheck ,i ) 2 + ( y data,i − ycheck ,i ) 2 ] .
+        Horizontal RMSE is,
+         RMSEr = sqrt[       ∑ ((x      data,i   − xcheck ,i ) 2 + ( y data,i − ycheck ,i ) 2 ) / n]
+                      = sqrt[ RMSEx + RMSEy ]
+                                          2                 2
+
+        When RMSE in both X- and Y-coordinates are equal, horizontal radial accuracy at the 95-
+        percent confidence level was established as,
+        Accuracy r = 1.7308 * RMSE r .
+
+        When RMSE in both X- and Y-coordinates are not equal, horizontal radial accuracy at the
+        95-percent confidence level was established as,
+        Accuracy r = 2.4477 * 0.5 * ( RMSEx + RMSEy ) .
+
+    2. Determine Vertical Accuracy
+       Let:
+         RMSEz = sqrt[           ∑(z   data,i − z check ,i )
+                                                               2
+                                                                   / n]
+        Where zdata,i are the coordinates of the i th check point in the dataset,
+        z check ,i are the coordinates of the i th check point in the independent source of higher
+        accuracy,
+        n is the number of check points tested,
+        i is the integer ranging from 1 to n .
+        Vertical accuracy at the 95-percent confidence level, Accuracy z = 1.9600 * RMSE z .
+
+Control Point Standard ver.1.0                                                                               11 | P a g e
+
+ Appendix B: Relationship between NSSDA and ASPRS Accuracy Standards
+
+    1. Horizontal Accuracy
+       ASPRS horizontal map accuracy is evaluated by the RMSE for the x-component and y-
+       component individually, and positional accuracy is reported at ground scale.
+       Assuming RMSEx = RMSEy , the x- and y-component can be estimated according to NSSDA:
+         RMSEx = RMSEy = Accuracyr / 2.4477
+        The limiting RMSE for Class 1 map is shown in the table B1.
+
+        Table B1. ASPRS Accuracy Standards for Large-Scale Maps Class 1 horizontal (x or y) limiting RMSE
+        for various map scales at ground scale
+
+                           Planimetric Accuracy Limiting    Typical Map Scale
+                                  RMSE (meters)
+                                       0.0125                      1:50
+                                        0.025                      1:100
+                                        0.050                      1:200
+                                        0.125                      1:500
+                                        0.25                      1:1,000
+                                        0.50                      1:2,000
+                                        1.00                      1:4,000
+                                        1.25                      1:5,000
+                                        2.50                     1:10,000
+                                        5.00                     1:20,000
+
+    2. Vertical Accuracy
+       ASPRS vertical map accuracy is evaluated as the RMSE in terms of project’s elevation
+       datum for well-defined points only. For class 1 maps, the limiting RMSE is set at 1/3 of the
+       contour interval.
+       The vertical error component can be estimated according to NSSDA:
+         RMSE z = Accuracy z / 1.9600
+
+ The ASPRS horizontal and vertical accuracy standards are both relaxed by factors of 2 and 3 for
+ class 2 and class 3 maps, respectively.
+
+Control Point Standard ver.1.0                                                             12 | P a g e
+
+ Appendix C: References
+ American Society for Photogrammetry and Remote Sensing (ASPRS) Specifications and Standards
+ Committee, 1990, ASPRS Accuracy Standards for Large-Scale Maps: Photogrammetric
+ Engineering and Remote Sensing, v. 56, no. 7, p. 1068-1070.
+ Internet. http://www.asprs.org/a/society/committees/standards/1990_jul_1068-1070.pdf
+
+ Cadastral Survey, 2009, Standards for the Positional Accuracy of Cadastral Surveys When Using
+ Global Navigation Satellite Systems. Bureau of Land Management, Department of the Interior
+ Internet. http://nationalmap.gov/standards/pdf/NHDH0799.PDF
+
+ Federal Geographic Data Committee, 1998, Content Standards for Digital Geospatial Metadata
+ (version 2.0), FGDC-STD-001-1998: Washington, D.C.
+ Internet. https://www.fgdc.gov/standards/projects/FGDC-standards-
+ projects/accuracy/part1/chapter1
+
+ Federal Geographic Data Committee, 1998, Part 1, Reporting Methodology, Geospatial Positioning
+ Accuracy Standards, FGDC-STD-007.1-1998: Washington, D.C.
+ Internet. https://www.fgdc.gov/standards/projects/FGDC-standards-
+ projects/accuracy/part1/chapter1
+
+ Federal Geographic Data Committee, 1998, Part 2, Standards for Geodetic Networks, Geospatial
+ Positioning Accuracy Standards, FGDC-STD-007.2-1998: Washington, D.C.
+ Internet. https://www.fgdc.gov/standards/projects/FGDC-standards-
+ projects/accuracy/part2/chapter2
+
+ Federal Geographic Data Committee, 1998 Part 3, National Standard for Spatial Data Accuracy,
+ Geospatial Positioning Accuracy Standards, FGDC-STD-007.3-1998: Washington, D.C.
+ Internet. https://www.fgdc.gov/standards/projects/FGDC-standards-projects/accuracy/part3/chapter3
+
+Control Point Standard ver.1.0                                                        13 | P a g e
+
+ Appendix D: Glossary
+
+ See ITA Guideline G105 (ITA Glossary of Terms) for definitions.
+
+Control Point Standard ver.1.0                                     14 | P a g e
+
+Appendix E: Acronyms
+
+ASPRS: American Society for Photogrammetry and Remote Sensing
+BLM: Bureau of Land Management
+FGDC: Federal Geographic Data Committee
+FGCS: Federal Geodetic Control Subcommittee
+GC-TWG: Idaho Geodetic Committee-Technical Working Group
+GNSS: Global Navigation Satellite System
+IDTM83: The Idaho coordinate system of 1983, single zone as described in 55-1705 (4) Idaho Code
+IGC: Idaho Geospatial Council
+IGC-EC: Idaho Geospatial Council Executive Committee
+ITA: Idaho Technology Authority
+MCPD: Multi-state Control Point Database
+NGS: National Geodetic Survey
+NSRS: National Spatial Reference System
+NSSDA: National Standard for Spatial Data Accuracy
+P5030: Idaho Technology Authority Framework Standards Development Policy 5030
+PLS: Professional Land Surveyor
+PLSS: Public Land Survey System
+S4220: Idaho Technology Authority Geospatial Metadata Standard 4220
+SDI: Spatial Data Infrastructure
+TIM: The Idaho Map
+USDA: United States Department of Agriculture – Forest Service
+USDI: United States Department of the Interior – Bureau of Land Management
+USFS: United States Forest Service
+
+Control Point Standard ver.1.0                                                   15 | P a g e
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
