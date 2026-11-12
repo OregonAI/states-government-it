@@ -53,10 +53,14 @@ content_roots:                       # where document files live (document/hybri
   #     procedures: procedure
 
 plugins:
+  # Vector search over the prebuilt embeddings artifact, shared with every other corpus
+  # (corpus_toolkit.semantic.search). `_meta/embeddings/` is gitignored: it needs a GPU to build and
+  # platform-deploy bind-mounts it at runtime. If the mount is missing the server does not fail:
+  # available() returns False and search_corpus serves keyword-only, silently, which is why the
+  # compose healthcheck asserts the artifact rather than trusting a green container.
+  semantic_search_module: "corpus_toolkit.semantic.search"
   # citation_module: "src.citation_schemes"    # calls mcp.framework.register_scheme()
   # snapshot_slice_module: "src.slicing:slice" # (doc_id, snapshot_id, raw_text) -> str
-  # semantic_search_module: "src.semantic_search"  # module exposing available() -> bool
-  #                                                # and rank(query, want) -> [doc_id]
   # issuing_body_registry: "_meta/catalog/issuing-bodies.yml"
   # issuing_body_registry_key: "entries"       # the TOP-LEVEL KEY inside that file.
   #                                            # Defaults to "entries"; if your registry

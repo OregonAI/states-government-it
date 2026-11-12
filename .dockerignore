@@ -17,9 +17,11 @@
 #     only resolve the `snapshot_dir` PATH (config.py) and never open a file in it.
 #     The readers are hash_snapshot(), grounding, validate/{provenance,extraction} and
 #     sources/*: ingest and CI only.
-#   * _meta/corpus.yml declares no plugins.citation_module, snapshot_slice_module,
-#     semantic_search_module or tools_module, so no src/ file is imported by the server.
-#     src/ is the ingester, which reads snapshots offline.
+#   * _meta/corpus.yml declares no plugins.citation_module, snapshot_slice_module or
+#     tools_module, so no src/ file is imported by the server (src/ is the ingester, which
+#     reads snapshots offline). Its one plugin, semantic_search_module, is the toolkit's own
+#     corpus_toolkit.semantic.search, which reads only _meta/embeddings (no `snapshot` anywhere
+#     under corpus_toolkit/semantic/).
 #   * tests/test_image.py rebuilds the image's context from this file, with no snapshots, and
 #     runs the framework over it.
 # Re-run that test if corpus.yml ever gains a plugin line.

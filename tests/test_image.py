@@ -123,3 +123,11 @@ def test_server_answers_from_the_image_context_alone(image_tree):
     doc = fw.get_document(hits[0]["id"], part="auto")
     assert doc and not doc.get("error"), doc
     assert fw.corpus_overview()
+
+
+def test_semantic_search_is_switched_on():
+    """platform-deploy mounts the vectors and its healthcheck asserts the artifact is there, but
+    the server reads them only if corpus.yml names the shared semantic module. Without the line
+    the mount is dead weight: search stays keyword-only and nothing says so."""
+    cfg = config_mod.load(ROOT / "_meta" / "corpus.yml")
+    assert cfg.semantic_search_module == "corpus_toolkit.semantic.search"
