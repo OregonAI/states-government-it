@@ -1,0 +1,192 @@
+# South Dakota seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: the Legislature's statute API (chapter pages 1, 1-13, 1-27, 1-33,
+# 5, 5-18A, 5-18D, 22-40 and the sections of 1-13, 1-33, 5-18A and 22-40 named below), its rules API and sitemaps
+# (Rules.xml, Rules.1.xml, Statutes.xml, Statutes.1.xml), rules.sd.gov, the Secretary of State's executive-order page
+# (sdsos.gov) and every order PDF named below, the Bureau of Information and Technology and Bureau of Human Resources
+# and Administration portal pages (sd.gov), and the Legislative Research Council's issue memorandum on AI in government.
+sources:
+
+- id: sd-sdcl-1-33-bit
+  sha256: "b2db500cf84ea370a013d0753a7e4fb5be029dca3960d0803d276ccffe668f9e"
+  url: https://sdlegislature.gov/api/Statutes/1-33.html#1-33-31
+  format: json
+  citation: SDCL 1-33-31, 1-33-33, 1-33-37 to 1-33-51, 1-33-53 to 1-33-55, 1-33-63 to 1-33-65
+  title: Department of Executive Management, Bureau of Information and Technology (sections of SDCL chapter 1-33)
+  doc_type: statute
+  jurisdiction: south-dakota
+  issuing_body: South Dakota Legislature
+  tags: [governance, oversight, procurement, funding, cybersecurity]
+  recheck: monthly
+  sections: ["1-33-31", "1-33-33", "1-33-37", "1-33-38", "1-33-39", "1-33-40", "1-33-41", "1-33-42", "1-33-43", "1-33-44", "1-33-45", "1-33-46", "1-33-47", "1-33-48", "1-33-49", "1-33-50", "1-33-51", "1-33-53", "1-33-54", "1-33-55", "1-33-63", "1-33-64", "1-33-65"]
+  found_via: https://sdlegislature.gov/api/Statutes/1-33.html (the chapter's list of sections; each section page is https://sdlegislature.gov/api/Statutes/<section>.html)
+  why_relevant: 'The enabling statute for the Bureau of Information and Technology (formerly Information and Telecommunications; renamed by Executive Reorganization Order 2026-02, SL 2026, ch 1) and its commissioner: the Bureau created in the Department of Executive Management (1-33-37), the commissioner''s powers and duties and the commissioner''s appointment by the Governor (1-33-38, 1-33-39), the Bureau''s divisions and contracting (1-33-31, 1-33-40, 1-33-41), definitions (1-33-42), its functions including proposing operational technical standards for the state information systems (1-33-43), the Bureau''s approval of agency requests to acquire data processing, telecommunication and office equipment and services (1-33-44), the data processing service agency and agreements with political subdivisions (1-33-45), equipment funds and lease-purchase (1-33-47, 1-33-48), rulemaking and administrative charges (1-33-49, 1-33-64), the data processing internal service fund and its fee schedule (1-33-50, 1-33-51), leasing, maintenance and termination terms for data processing contracts (1-33-53 to 1-33-55), background investigation of information technology employees and contractors (1-33-63), and the Bureau''s arrangement of data processing, office systems and telecommunications for the Bureau of Human Resources and Administration''s contracts (1-33-65). Sections 1-33-31 and 1-33-33 name the Bureau and, as printed, the network it operates. Sections of the chapter that are repealed are not included; sections about educational telecommunications are left out (see left_out).'
+
+- id: sd-eo-2022-10
+  sha256: "0622bd49149406b0db715e3558a804e69db67260a0e5847a32ddaf0efd81a1b7"
+  url: https://sdsos.gov/general-information/executive-actions/executive-orders/assets/2022-10.PDF
+  format: pdf
+  citation: Executive Order 2022-10
+  title: Prohibition of the Use of TikTok Application on Government-Issued Devices
+  doc_type: executive_order
+  jurisdiction: south-dakota
+  issuing_body: Office of the Governor
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+  found_via: https://sdsos.gov/general-information/executive-actions/executive-orders/search/ (row 2022-10, filed 20221129; the link as the page prints it)
+  why_relevant: 'Governor Noem''s order that no state employee or agency may download or use the TikTok application or visit its website on government-issued devices, and that no person or entity contracting with the State may do so on state-owned or state-leased equipment. In force: it is on the Secretary of State''s list and is not among the orders rescinded by Executive Order 2025-08 (its list read in full by OCR, about 150 numbers; 2022-10 is not in it); Executive Order 2023-06 continues it.'
+
+- id: sd-eo-2023-06
+  sha256: "f17145103e675115802f2e8d9c08cef167e265629a467d840ac980eecc5a6f47"
+  url: https://sdsos.gov/general-information/executive-actions/executive-orders/assets/2023_Executive_Orders/2023-06.PDF
+  format: pdf
+  citation: Executive Order 2023-06
+  title: Banning Tencent for State Government
+  doc_type: executive_order
+  jurisdiction: south-dakota
+  issuing_body: Office of the Governor
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  ocr: true   # a scan with no text layer: read by the two-engine OCR procedure (src/ingest.py); the text is a machine reading
+  ocr_psm: 4
+  found_via: https://sdsos.gov/general-information/executive-actions/executive-orders/search/ (row 2023-06, filed 20230504; the link as the page prints it)
+  why_relevant: 'Governor Noem''s order barring state employees, agencies and state contractors from downloading or using any application or website owned or controlled by Tencent Holdings, including WeChat, on government devices or state-owned or state-leased equipment, and directing the Commissioner of the Bureau of Information and Telecommunications to designate other applications, websites and services detrimental to state security (consistent with Executive Order 2022-10) and to keep a public list of them. The Commissioner''s designations are the authority for later bans of other applications. In force: not among the orders rescinded by Executive Order 2025-08.'
+
+- id: sd-eo-2026-02
+  url: https://sdsos.gov/general-information/executive-actions/executive-orders/assets/2026%20Executive%20Orders/2026-02.pdf
+  format: pdf
+  citation: Executive Order 2026-02
+  title: Executive Reorganization Order 2026-02 (Rename BIT)
+  doc_type: executive_order
+  jurisdiction: south-dakota
+  issuing_body: Office of the Governor
+  tags: [governance]
+  recheck: monthly
+  stub: true
+  stub_reason: 'A scan with no text layer (3 pages). The two-engine OCR procedure refuses it: tesseract and PaddleOCR agree on the words but only 57% to 64% of the 190 to 243 figures (needs 90%) under page-segmentation modes 3, 4, 6, 11 and 1, because page 3 is a dense list of section numbers (Title 1: 1-13-1.1; 1-33-26 to 1-33-64 and so on) on a dark scan. The ingester will not promote a reading whose section numbers are contested. Retry when the Secretary of State serves a cleaner file or the owner approves a manual reading.'
+  found_via: https://sdsos.gov/general-information/executive-actions/executive-orders/search/ (row 2026-02 "Rename BIT", filed 20260113; the link as the page prints it, with its space written %20)
+  why_relevant: 'Governor Rhoden''s reorganization order, submitted to the Legislature on 13 January 2026 and effective ninety days after submission: transfers the functions and programs of the former Bureau of Information and Telecommunications and of its Commissioner to the Bureau of Information and Technology and the Commissioner of Information and Technology, and directs the Code Commission to make the name change in the listed sections of the Codified Laws (which is why the section pages of SDCL 1-33 cite SL 2026, ch 1 (Ex. Ord. 26-2)). The title is the Secretary of State list''s row title wrapped around the order''s own heading.'
+
+- id: sd-itsp-contractor-6-0
+  url: https://www.sd.gov/bit?id=kb_article_view&sysparm_article=KB0010792
+  format: html
+  citation: BIT Information Technology Security Policy (ITSP) - Contractor
+  title: Information Technology Security Policy (ITSP) - Contractor
+  doc_type: policy
+  jurisdiction: south-dakota
+  issuing_body: Bureau of Information and Technology
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  stub: true
+  stub_reason: 'The Bureau''s knowledge-base page serves a 950,996-byte shell whose title is the policy''s name and whose body is the word Loading: its text and attachment links are drawn by the portal''s script from endpoints this corpus may not call (no policy text and no link in the bytes). The same policy is public as a procurement attachment, https://bfm.sd.gov/solicitations/23RFP8794_ITSecPolicy.pdf (68 pages, cover "Contractor Version 6.0 March 2022", PDF dated 30 March 2026), but 67 of its 68 pages print the footer NOT FOR PUBLIC DISTRIBUTION (the cover has none; measured with pdftotext) and it is not the Bureau''s own page. Its currency is also unconfirmed: this is the March 2022 edition (footer 03/2022) while the client version is dated March 2026, so it may not be the current contractor edition (a web search, not confirmed in bytes, names a March 2024 contractor version). OWNER DECISION whether to mirror it, covering both the legend and the currency (it reads as text with pdftotext).'
+  found_via: web search for the Bureau's ITSP; the title is the page title in the bytes fetched
+  why_relevant: 'The Bureau''s statewide information technology security policy for contractors working on or with State IT resources: general policy, the Chief Information Security Officer, the Security Infrastructure and Security Operations Teams and the BIT Executive Working Group on Cyber Security, background checks, confidentiality, incident reporting and the platform security sections (per the contents of the bfm.sd.gov copy).'
+
+- id: sd-itsp-client-6-0
+  url: https://www.sd.gov/sys_attachment.do?sys_id=bf0ea0f39710c350b369b94de053af82
+  format: pdf
+  citation: BIT Information Technology Security Policy, Client Version 6.0 (March 2026)
+  title: Information Technology Security Policy, Client Version 6.0
+  doc_type: policy
+  jurisdiction: south-dakota
+  issuing_body: Bureau of Information and Technology
+  tags: [cybersecurity, governance]
+  recheck: monthly
+  stub: true
+  stub_reason: 'The file is served to the Fetcher (HTTP 200, a 113-page PDF with a text layer, PDF dated 23 April 2026) from sd.gov''s attachment path, but no page in the bytes fetched links to it (the Bureau''s portal pages are scripted shells), and every page prints the footer NOT FOR PUBLIC DISTRIBUTION (112 occurrences of the footer in 113 pages; cover "Client Version 6.0 March 2026", footer date 03/2025). OWNER DECISION whether the legend bars mirroring a file the State serves openly; if not, remove stub and stub_reason and run the ingester.'
+  found_via: web search; the URL was not on a page read through the Fetcher
+  why_relevant: 'The Bureau''s statewide information technology security policy for State employees and agencies (the client version of the policy whose contractor version is the entry above): general policy, the CISO and security teams, electronic monitoring, remote access, confidentiality, security awareness, regulated data, incident reporting, social media, and mainframe, server, network and data-center security sections.'
+
+- id: sd-bit-ai-guidance
+  url: https://www.sd.gov/bit?id=bit_standards_ai_guidance
+  format: html
+  citation: BIT Standards AI Guidance
+  title: BIT Standards AI Guidance
+  doc_type: standard
+  jurisdiction: south-dakota
+  issuing_body: Bureau of Information and Technology
+  tags: [ai, governance]
+  recheck: monthly
+  stub: true
+  stub_reason: 'The page exists (its title in the bytes is "BIT - Standards AI Guidance") but is the same scripted shell as every page of the Bureau''s portal: 950,832 bytes with no text of the guidance and no link to a document; the text is drawn from portal endpoints this corpus may not call.'
+  found_via: a third-party index of the State's generative-AI guidance named this URL; the page title is from the bytes fetched
+  why_relevant: The Bureau's guidance on artificial intelligence for state agencies, which a third-party index dates to 2024 and describes as guidelines for responsible use of AI-generated content (not confirmed in bytes).
+
+- id: sd-bhra-genai-acceptable-use
+  url: https://www.sd.gov/bhra?id=cs_kb_article_view&sysparm_article=KB0044679&sys_kb_id=21e2888497f90350b369b94de053af30&spa=1
+  format: html
+  citation: State of South Dakota Generative Artificial Intelligence Acceptable Use Policy
+  title: State of South Dakota Generative Artificial Intelligence Acceptable Use Policy
+  doc_type: policy
+  jurisdiction: south-dakota
+  issuing_body: Bureau of Human Resources and Administration
+  tags: [ai, governance]
+  recheck: monthly
+  stub: true
+  stub_reason: 'The portal page (title in the bytes "BHRA - Bureau of Human Resources and Administration - Statewide Policies") is a 968,188-byte scripted shell with no policy text; the policy''s title and this URL are from footnote 7 of the Legislative Research Council''s issue memorandum "Artificial Intelligence in Government" (https://mylrc.sdlegislature.gov/api/Documents/307445.pdf, read through the Fetcher), which also quotes it. The quotation is not the document.'
+  found_via: footnote 7 of https://mylrc.sdlegislature.gov/api/Documents/307445.pdf
+  why_relevant: 'The executive branch''s generative-AI policy as the Legislative Research Council''s memorandum describes it: an employee may use generative AI tools for work only with the approval of agency leadership, must review the output, and must follow the agency''s rules for sensitive or confidential data. It is a Bureau of Human Resources and Administration policy that governs state employees'' use of AI.'
+
+- id: sd-accessibility-policy
+  url: https://www.sd.gov/cs?id=kb_article_view&sysparm_article=KB0010219
+  format: html
+  citation: South Dakota Online Accessibility Policy
+  title: South Dakota Online Accessibility Policy
+  doc_type: policy
+  jurisdiction: south-dakota
+  issuing_body: State of South Dakota
+  tags: [digital-services, governance]
+  recheck: monthly
+  stub: true
+  stub_reason: 'The policy''s page is a 979,480-byte scripted portal shell (title in the bytes "CS Knowledge Article View - Citizen Services") with no policy text; the text is drawn by the portal''s script from endpoints this corpus may not call. The old address https://public.sd.gov/accpolicy.aspx (titled "Accessibility Policy - sd.gov", heading "South Dakota Online Accessibility Policy") prints only: "The accessibility policy for SD State Government has moved. Please visit" the KB0010219 URL.'
+  found_via: the redirect notice on https://public.sd.gov/accpolicy.aspx (the address http://sd.gov/accpolicy.aspx is linked from the footer of the Secretary of State's executive-order list page); the title is the heading of that notice
+  why_relevant: The accessibility policy for South Dakota State Government's online presence, a statewide digital-services policy binding state government web content (its text could not be read, so its terms are not described here).
+
+- id: sd-watch-sdcl-1-33
+  url: https://sdlegislature.gov/api/Statutes/1-33.html
+  format: html
+  citation: 'SDCL chapter 1-33 section list'
+  title: 'SDCL chapter 1-33, Department of Executive Management (section list)'
+  doc_type: statute
+  jurisdiction: south-dakota
+  issuing_body: South Dakota Legislature
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: The chapter's list of sections and captions (65 numbers, repealed ones printed as such). A section added to the Bureau of Information and Technology's part of the chapter, or a repeal, raises a review-the-seed-list report.
+
+- id: sd-watch-executive-orders
+  url: https://sdsos.gov/general-information/executive-actions/executive-orders/search/
+  format: html
+  citation: 'Secretary of State page: Executive Orders'
+  title: 'Secretary of State: Executive Orders (list, 2020 to 2026)'
+  doc_type: executive_order
+  jurisdiction: south-dakota
+  issuing_body: Secretary of State
+  tags: [governance]
+  recheck: monthly
+  watch_only: true
+  why_relevant: 'The list of the Governor''s executive orders by year (this read: 2026-01 to 2026-11 down to 2020-34), with the three sets of orders rescinded by Executive Order 2025-08. An order added or removed raises a review-the-seed-list report. The Governor''s own executive-orders page answered the Fetcher with an error page ("Oops! There seems to have been an error").'
+
+left_out:
+- text: |-
+    Bureau of Information and Technology policy and standards library: NOT ENUMERABLE, so the playbook's "every item in the statewide library" is not met. The Bureau's pages (https://www.sd.gov/bit, https://bit.sd.gov/, https://bit.sd.gov/bit?id=bit_policies_standards, https://www.sd.gov/bit?id=bit_policies, https://www.sd.gov/bit?id=bit_standards) were fetched. Each is a ServiceNow Service Portal shell of about 950,000 bytes whose body is the word Loading: no policy name, no document link and no attachment path (0 occurrences of "sys_attachment" in the bytes). Three of the five (bit_policies_standards, bit_policies, bit_standards) carry "Not Found" in their title. The list is drawn by the portal's script from the portal's own endpoints, which this corpus may not call, so no row of the library was read, and no watch entry is possible (the shell carries no list to hash). Items known only from other sources are the stubs above (ITSP contractor and client versions, the AI guidance page). The Bureau's list of banned applications that Executive Order 2023-06 orders to be kept public on the Bureau's website was not found for the same reason. NEEDS A DECISION: a documented list feed or static export from the Bureau, or an owner-approved route.
+- text: |-
+    Bureau of Human Resources and Administration "Statewide Policies" portal page (the page the AI acceptable-use stub points to): the same shell, title only. Its other statewide policies are human-resources policies and are outside the domain unless they govern IT or AI; none could be read.
+- text: |-
+    Administrative rules of the IT agency: none found. The Legislature's rules sitemap (https://sdlegislature.gov/Rules.xml, https://sdlegislature.gov/Rules.1.xml) lists 555 articles; the title indexes of Titles 1 to 8 and 10 (Governor, Attorney General, Auditor, School and Public Lands, Secretary of State, Treasurer, Legislature, the reserved Titles 8 and 9, Bureau of Human Resources and Administration) were read and none is the Bureau of Information and Technology's; rules.sd.gov's archive of rulemaking notices lists the Bureau with no notice (agencies with notices show a count). The statute directs the commissioner to make rules on administrative charges (SDCL 1-33-49, 1-33-64) and no rule was found to carry them. The title indexes of the later titles were not read (the API resolved those two-digit numbers to individual rules), so 'none found' covers what is listed here only. Article 1:15 (Telecommunications network, https://sdlegislature.gov/api/Rules/Rule/01:15.html) is left out: its board and site rules are for the rural development telecommunications network under repealed SDCL 1-33-36 (a telecommunications network, outside the domain).
+- text: |-
+    Statutes in chapter 1-33 not seeded: 1-33-57, 1-33-58 and 1-33-61 (the Office of Educational Telecommunications and its Board, chapter 13-47: broadcasting and telecommunications, outside the domain; 1-33-42 defines its terms for 1-33-37 to 1-33-61 and is seeded); 1-33-1 to 1-33-9.1 and their neighbours (Department and Bureau of Human Resources and Administration provisions, not IT); repealed or transferred sections (1-33-26, 1-33-30, 1-33-32, 1-33-35, 1-33-36, 1-33-52, 1-33-59 and others the chapter list prints as repealed). The seeded document is a list of sections, not the whole chapter, because the chapter mixes human-resources and educational-broadcasting sections with the Bureau's.
+- text: |-
+    SDCL chapter 1-13 (State communications system, https://sdlegislature.gov/api/Statutes/1-13.html): 1-13-1 (the Bureau operates a state communications system), 1-13-11, 1-13-16 and 1-13-17 (the Department of Public Safety's law-enforcement telecommunications and data network, its rules, and termination of service for a security or privacy risk) were read; they are radio, dispatch and law-enforcement telecommunications, outside the domain (telecom and law-enforcement technology). OWNER DECISION if 1-13-1 should be seeded alone.
+- text: |-
+    SDCL 5-18A-50 to 5-18A-53 (prohibited foreign contracts, enacted by 2023 SB 189; read): sections of the public-agency procurement chapter 5-18A, general to every contract and not about IT; left out pending the owner's decision on section-level slicing of non-IT chapters. The ban on information and communication technology from prohibited entities that Executive Order 2023-02 imposed was recited in the order that rescinded it as codified by SB 189; the enrolled bill read (https://mylrc.sdlegislature.gov/api/Documents/250985.pdf) amends only 5-18A-1 and adds the contract sections, and the technology ban was not found in the code sections read. Chapters 5-18A and 5-18D were searched on their section lists only (captions), not their text.
+- text: |-
+    SDCL 22-40-19 to 22-40-26 (data breach notification, sections 22-40-19, -20 and -21 read): binds an "information holder", defined as any person or business that conducts business in the state; not state agencies, and a private-sector law, outside the domain. SDCL chapter 1-27 (public records, section list read) is a general public-records chapter, not seeded; OWNER DECISION if its security-related exemptions should be.
+- text: |-
+    Artificial intelligence statutes: none binding state agencies was found. Read: the Legislative Research Council's issue memorandum on AI in government (https://mylrc.sdlegislature.gov/api/Documents/307445.pdf), which describes other states' laws and South Dakota's executive-branch policy and cites no South Dakota statute on agency AI use. Web search (not fetched, so not relied on) names a 2025 election-deepfake disclosure law and a 2026 deepfake sexual-image felony; both are private-conduct or crime laws and outside the domain (domain.yml: deepfakes and AI crimes, out). The Legislature's own search was not used (no documented public API for it), so 'none found' covers the sections and chapters named in this file.
+- text: |-
+    Executive orders read and left out. 2023-02 (Emergency Cybersecurity Declaration, https://sdsos.gov/general-information/executive-actions/executive-orders/assets/2023_Executive_Orders/2023-02.PDF): prohibited executive agencies from contracting with, or buying information and communication technology from, entities controlled from six named countries; rescinded effective 1 July 2023 by Executive Order 2023-10 (read), which says Senate Bill 189 codified it. 2023-10 itself (rescission of 2004-08 and 2023-02): a rescission, no continuing obligation. 2025-08 (Rescind Obsolete Executive Orders): its two pages read in full by OCR (a reading for discovery, not repo text): a list of about 150 order numbers and dates, none of them 2022-10, 2023-06 or 2026-02; its three sets of rescinded orders (https://sdsos.gov/general-information/executive-actions/executive-orders/assets/2025%20Executive%20Orders/2025-08%20EOs/EOSet1.pdf and Set2, Set3, 197, 176 and 105 pages of scans) were fetched but not read page by page, so an older order on IT could be in them and is unknown. 2024-01 (Bureau of Human Resources and Administration reorganization; only page 1 read) and 2021-03 (reorganization, not read beyond its title): human-resources reorganizations, left out; OWNER DECISION if the sections of 2024-01 that touch the Bureau of Information and Technology (the codified sections cite it) should be read. The other 2020 to 2026 orders on the Secretary of State's list are by title emergency, disaster, task-force, personnel and policy orders outside the domain (the list was read in full; no order beyond the titles was read). The list covers 2020 to 2026; orders before 2020 are not on it.
+- text: |-
+    Other leads, not read: South Dakota Board of Regents policies on information technology (public universities have their own regime; found by web search only); the Bureau's "Executive Working Group on Cyber Security" is described in the ITSP and no instrument creating it was found.
