@@ -1,0 +1,54 @@
+# What the MCP image does NOT need. Modelled on oregon-counties/.dockerignore (the sibling
+# whose raw sources are also committed), with the snapshot question re-answered for THIS corpus.
+#
+# `.git` IS NOT HERE AND MUST NOT BE. It is a RUNTIME dependency: the toolkit's FTS cache key
+# is `git rev-parse HEAD` plus a hash of `git status --porcelain`, and corpus_overview()
+# shells out to `git log -1`. Exclude it and repo_state() collapses to a constant, so content
+# changes stop invalidating the index -- silently, with everything still reporting healthy.
+
+# THE SNAPSHOTS ARE A CI ARTIFACT, NOT A RUNTIME ONE. 4,563 committed files, 713 MB (1,672
+# PDFs, 513 HTML, 2,281 extracted .txt, 38 docx, 54 json, 4 xml). The server never opens them.
+# Verified by reading the code, not assumed (federal-reference excluded its snapshots and its
+# citation module read one AT IMPORT, so the server died before answering a request):
+#
+#   * corpus_toolkit/mcp/ (framework, backends, server, responses, sdk) has no reference to
+#     snapshots at all, and the modules it imports at run time -- config, plugins, remote,
+#     repo's content_files/extract_fulltext/parse_frontmatter/repo_state, semantic.search --
+#     only resolve the `snapshot_dir` PATH (config.py) and never open a file in it.
+#     The readers are hash_snapshot(), grounding, validate/{provenance,extraction} and
+#     sources/*: ingest and CI only.
+#   * _meta/corpus.yml declares no plugins.citation_module, snapshot_slice_module or
+#     tools_module, so no src/ file is imported by the server (src/ is the ingester, which
+#     reads snapshots offline). Its one plugin, semantic_search_module, is the toolkit's own
+#     corpus_toolkit.semantic.search, which reads only _meta/embeddings (no `snapshot` anywhere
+#     under corpus_toolkit/semantic/).
+#   * tests/test_image.py rebuilds the image's context from this file, with no snapshots, and
+#     runs the framework over it.
+# Re-run that test if corpus.yml ever gains a plugin line.
+#
+# Consequence: `corpus-verify-provenance` cannot run INSIDE the container. It is a CI gate;
+# run it against a checkout.
+#
+# NOT free, and the image does not shrink as much as the line suggests: the shallow clone's
+# .git still holds every snapshot blob (479 MB packed, measured), because `.git` must stay.
+# This line removes the 713 MB WORKING-TREE copy: context 798 MB -> 85 MB excluding .git.
+_meta/snapshots/
+
+# Rebuilt on demand inside the image by the Dockerfile's ensure_index step. Copying a
+# host-built index in would ship one keyed to the host's repo state.
+_meta/.cache/
+
+# Mounted at runtime from the host, not copied. The artifact is built out of band on a GPU
+# machine and arrives by platform-deploy's reconcile loop; a git-clone build cannot see it
+# (it is untracked) and COPYing it would put the vectors in an image that reads a bind mount.
+_meta/embeddings/
+
+# Generated at deploy time by the pages workflow; never needed at runtime.
+site/
+
+# Never inputs to the server.
+.github/
+.obsidian/
+__pycache__/
+*.pyc
+.venv/

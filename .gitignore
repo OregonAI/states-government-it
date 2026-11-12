@@ -27,3 +27,10 @@ site/
 credentials.json
 
 .DS_Store
+
+# The semantic-search artifact (vectors.i8.npy, chunks.jsonl, meta.json). Built on a GPU machine
+# and bind-mounted read-only at /repo/_meta/embeddings by platform-deploy; never committed and
+# never baked. It must be ignored: populating the mount would otherwise add `?? _meta/embeddings/`
+# to `git status --porcelain`, which is half of the FTS cache key, so the index stamped at image
+# build would be judged stale and rebuilt on the first request (same rule as oregon-kpm).
+_meta/embeddings/
