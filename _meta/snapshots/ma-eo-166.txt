@@ -1,0 +1,21 @@
+Executive Order
+No. 166: Providing for the establishment of an electronic data processing center and planning unit in the Executive Office for Administration and Finance
+Date:
+08/10/1979
+Issuer:
+Edward J. King
+Mass Register:
+No. 171
+WHEREAS, the Governor's Management Task Force, established by my Executive Order No. 152 to conduct a detailed management survey of the administration of state government operations and services, has recommended that a new office be created which would improve the management and operations of EDP functions and planning; and
+WHEREAS, it is the policy of this administration to promote efficiency and cost-effectiveness in the administration of the public's business; and
+WHEREAS, the State Government has a special responsibility to ensure that in the performance of requisite services and functions, planning and oversight are employed to ensure that the public's funds are spent in a responsible manner; and
+WHEREAS, the Commonwealth expends significant sums each year in EDP-related procurements; and
+WHEREAS, I have determined that consolidation of the data-processing functions of the Administration and Finance Computer Services Center and the Department of Public Welfare Office of Management Services, would result in economy and efficiency in the delivery of data-processing services, and is consistent with the goals and policies set-out herein; and
+NOW, THEREFORE, I, Edward J. King, Governor of the Commonwealth of Massachusetts, acting under the authority vested in me by the Constitution and Statutes of the Commonwealth, do hereby adopt this order and direct that this order be recognized and complied with by the Executive Branch of the Government.
+I hereby direct the Commissioner of Administration, as my executive officer for administrative, policy and planning functions within the Executive Department, to establish, within the Executive Office for Administration and Finance, an administrative unit for the purpose of performing EDP policy-making and planning functions, and to manage and operate the data center which I hereby direct to be created from the consolidation of the Administration and Finance Computer Services Center and the Department of Public Welfare Office of Management Services.
+To facilitate the consolidation ordered above, I direct the Commissioner of the Executive Office for Administration and Finance, the Secretary of the Executive Office of Human Services, and the Commissioner of Public Welfare, to cooperate in the drafting of an interagency agreement, to be entered into without delay, accomplishing the above consolidation. The agreement shall include, but not be limited to, assignment of Department of Public Welfare personnel and appropriate re- sources to Administration and Finance; payroll and other record-keeping functions, and record- keeping functions necessary to ensure federal reimbursement.
+To ensure the continued satisfactory performance of necessary data processing services, the administrative unit established shall include provisions for a User's Advisory Group, to advise in the areas of operations priorities and policies; security; scheduling; and systems development priorities.
+Edward J. King
+Governor
+Michael Joseph Connolly
+Secretary of State

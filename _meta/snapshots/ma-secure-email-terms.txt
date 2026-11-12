@@ -1,0 +1,12 @@
+Secure Email Terms of Use
+Terms of use for the Commonwealth Secure Email System.
+Details
+Your use of your Commonwealth Secure Email System Password and ID constitutes consent to the following terms of use.
+The Commonwealth Secure Email System is for use by Commonwealth staff, contractors, and administrators who need to ensure specific messages they send are encrypted. It is not intended for use as a regular e-mail client.
+These Terms of Use should be read in accordance with the Enterprise Information Security Policies and Standards, which are applicable to use of the Commonwealth Secure Email System.
+Use of your Secure Email Password and ID is a privilege that can be revoked by the Commonwealth should you fail to comply with the following terms.
+Your Commonwealth Secure Email System Password and ID have been issued to you exclusively for the purpose of enabling you to access messages sent via the Commonwealth Secure Email system intended for you by the sender of message. If you have any reason to believe that the messages that you can access with your Password/ID were not intended for you personally, do not open them. Notify the Commonwealth immediately by contacting the EOTSS Service Desk at (844) 435-7629 and report that you have access to messages that were not intended for you.
+You are solely responsible for your Password/ID. If you misuse your Password/ID to gain access to messages that were not intended for you, the Commonwealth will revoke your Password/ID.
+You are also responsible for any access gained to emails or files using your Password/ID by anyone who gains access to the Commonwealth's Secure Email System as a result of your negligence in failing to safeguard your Password/ID. You must keep your Password/ID confidential, and not knowingly allow anyone else to use them for any reason. You must not record and store your Password/ID in a manner that makes them accessible to others.
+Should you determine that anyone else has obtained access to your Password/ID, you must immediately report such an event to the Commonwealth by emailing EOTSS-SOC@mass.gov.
+If you have any questions about these terms of use, please send them to massgov@service-now.com.

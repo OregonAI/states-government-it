@@ -1,0 +1,253 @@
+                           940 CMR: OFFICE OF THE ATTORNEY GENERAL
+
+940 CMR 11.00:           FAIR INFORMATION PRACTICES ACT
+
+Section
+
+11.01:    General Provisions
+11.02:    Meaning of Terms
+11.03:    Receipt, Collection, and Maintenance of Personal Data
+11.04:    Access to Personal Data by Persons Other than the Data Subject
+11.05:    Access to Personal Data by Data Subjects
+
+11.01: General Provisions
+
+              (1) Application. 940 CMR 11.00 shall apply to the Attorney General and the Department of
+              the Attorney General, the governmental entity created by M.G.L. c. 12, § 1 (collectively the
+              “AGO”).
+
+              (2) Scope. 940 CMR 11.00 shall govern the collection, maintenance, and dissemination of
+              personal data contained in the personal data systems of the AGO.
+
+              (3) Severability. If any section of 940 CMR 11.00 is finally determined to be unlawful or
+              invalid, the other sections shall continue in effect and shall be enforceable.
+
+11.02: Meaning of Terms
+
+              Consistent with the purposes of M.G.L. c. 66A and the definitions as set forth in M.G.L. c. 66A,
+              § 1, the following terms shall have the following additional meanings:
+
+              Compulsory Legal Process shall mean a demand for personal data that is issued by or through
+              a federal or state court or administrative agency or party to any such litigation, including through
+              summons; subpoena; discovery request; or other demand.
+
+              Criminal Offender Record Information (CORI) shall have the same meaning as set forth in
+              M.G.L. c. 6, § 167. Pursuant to the definition contained within M.G.L. c. 66A, § 1, CORI is not
+              “personal data”.
+
+              Data Subject shall have the same meaning as set forth in M.G.L. c. 66A, § 1. In addition,
+              “similar entities” excluded from 940 CMR 11.02: Data Subject shall include sole
+              proprietorships or other businesses, and not-for-profit or charitable entities.
+
+              Evaluative Information shall have the same meaning as set forth in M.G.L. c. 6, § 167. Pursuant
+              to the definition contained within M.G.L. c. 66A, § 1, evaluative information is not “personal
+              data”.
+
+              Intelligence Information shall have the same meaning as set forth in M.G.L. c. 6, § 167. Pursuant
+              to the definition contained within M.G.L. c. 66A, § 1, intelligence information is not “personal
+              data”.
+
+              Personal Data shall mean any information concerning an individual which, because of name,
+              identifying number, mark, description, or other such personal identifiers, can be readily
+              associated with a particular individual; provided that such information is not contained in a
+              public record, as defined in M.G.L. c. 4, § 7, clause Twenty-sixth. Personal data shall not
+              include the following:
+                  (a)    intelligence information, evaluative information, or criminal offender record
+                  information;
+                  (b) the government employees' or contractors' analysis of personal data (including mental
+                  impressions or opinions of, or conclusions, recommendations, or advice based on, or
+                  attorney-client privileged communications regarding, such personal data), where such
+                  analysis is not, or is not contained in, a public record;
+                  (c) information that is protected by statute and/or protective order; or
+                  (d) proprietary or financial records or data collected by the AGO from corporations,
+                  partnerships, sole proprietorships, trusts, or other business entities.
+
+6/19/26 (Effective 12/5/25) - corrected                                              940 CMR - 85
+(Mass. Register #1576, 06/19/2026)
+
+                         940 CMR: OFFICE OF THE ATTORNEY GENERAL
+
+11.03: Receipt, Collection, and Maintenance of Personal Data
+
+            (1) General Rules regarding Personal Data.
+               (a) The AGO shall not collect or maintain more personal data than is reasonably necessary
+               for the performance of its functions;
+               (b) The AGO shall take reasonable precautions to protect personal data from dangers of fire,
+               identity theft, theft, flood, natural disaster, or other physical threat;
+               (c) The AGO may receive, collect, and maintain personal data from other persons or
+               entities, including but not limited to agencies, public officials, and employees the AGO
+               represents in civil litigation; and
+               (d) The AGO may receive, collect, and maintain personal data from other persons or
+               entities, including but not limited to federal, state, or local governmental entities, including
+               the courts, for law enforcement purposes or other AGO functions, purposes, services, or
+               initiatives not specified above.
+
+            (2) Personnel Requirements.
+               (a) Training. The AGO shall inform all of its employees who have responsibilities or
+               functions involving the design, development, operation, or maintenance of a personal data
+               system, or the use of personal data therein, of the provisions of 940 CMR 11.00, the AGO
+               obligations regarding such data, and of the civil remedies available to individuals whose
+               rights under M.G.L. c. 66A are allegedly violated.
+               (b) Information Officer Designation. For each personal data system it maintains, the AGO
+               shall designate an Information Officer to serve as the responsible individual under M.G.L.
+               c. 66A, § 2(a). Such individual should be one with familiarity in the operation of the system
+               and have unlimited access to the data within. A single employee or designee may serve as
+               the Information Officer for more than one such system.
+               (c) Record of Access. The AGO shall maintain complete and accurate records which show
+               any access to or use of personal data the AGO holds; provided, however, that access or use
+               by employees within the AGO or its contractors need not be recorded. These records shall
+               include every disclosure of personal data, including the identity of all persons and
+               organizations to which such access or use has been granted. To the extent feasible, these
+               records shall be made part of the data to which they relate for all purposes under 940 CMR
+               11.00.
+               (d) Notice and Report to the Secretary of the Commonwealth. The AGO shall, upon the
+               establishment, termination, or substantial change in character of a personal data system, file
+               a report with the Secretary of the Commonwealth regarding each such personal data system,
+               as required by M.G.L. c. 30, § 63.
+               (e) Sanctions Against Employees. Any employee of the AGO found in violation of
+               940 CMR 11.00 shall be subject to reprimand, suspension, dismissal, or other disciplinary
+               actions consistent with the AGO Employee Manual and any applicable Collective Bargaining
+               Agreement that is in place, and may be denied future contact with personal data and removed
+               from holding responsibility relative to such data.
+
+11.04: Access to Personal Data by Persons Other than the Data Subject
+
+            (1) General Rules regarding Access to Personal Data.
+               (a) Access to Personal Data. Except as provided in 940 CMR 11.04, the AGO shall not
+               allow any other agency or individual not employed or contracted by the AGO to have access
+               to personal data unless such access is authorized by law, or is approved by the data subject
+               if the data subject is entitled to access under M.G.L. c. 66A, § 2(i) and 940 CMR 11.00.
+               (b) Response to Public Records Requests. Any information concerning an individual
+               which, because of name, identifying number, mark, description, or other such personal
+               identifiers, can be readily associated with a particular individual, that is contained in a public
+               record as defined by M.G.L. c. 4, § 7, clause Twenty-sixth, is not “personal data” and
+               therefore, public records containing such information may be disseminated to any person
+               making such request, provided that any personal information as defined by M.G.L. c. 93H
+               is redacted prior to dissemination. As illustration, and without limitation, the following
+               records received and maintained by the AGO may be considered “public records”.
+                    1. open meeting law complaints, excluding the complainant’s personal contact
+                    information such as their residential address, personal telephone and/or email address;
+
+6/19/26 (Effective 12/5/25) - corrected                                             940 CMR - 86
+
+                         940 CMR: OFFICE OF THE ATTORNEY GENERAL
+
+11.04: continued
+
+                    2. public records requests;
+                    3. responses to AGO solicitation for public comment; and
+                    4. records that have already been filed with, and are available to the public through, any
+                    state or federal court.
+
+            (2) Allowable Dissemination of Personal Data. Consistent with the purposes of M.G.L. c. 66A
+            and 940 CMR 11.00, the AGO may disseminate personal data to persons other than the data
+            subject as follows:
+                (a) The AGO may disseminate personal data if such dissemination is authorized in writing
+                by the data subject;
+                (b) The AGO may disseminate personal data in response to compulsory legal process,
+                provided that the procedures required by M.G.L. c. 66A, § 2(k) are followed;
+                (c) The AGO may disseminate personal data to another federal, state, or local governmental
+                entity for criminal or civil law enforcement purposes, including multi-state investigations,
+                provided the AGO and any such entity have an agreement or protective order in place to keep
+                the personal data confidential;
+                (d) The AGO may disseminate personal data where such dissemination is necessary to make
+                a good faith effort to settle a case in which the AGO is or represents a party in the course of
+                litigation, or to resolve, settle, or mediate a matter which would otherwise be necessary to
+                litigate, or which otherwise could not be resolved;
+                (e) The AGO may disseminate personal data to a national or multi-state public or private
+                entity that collects such data for statistical purposes, provided that the entity and the AGO
+                have an agreement in place that preserves the anonymity of the individuals to whom the
+                personal data relates;
+                (f) The AGO may disseminate personal data to the entity or individual that originally
+                provided the AGO with such data;
+                (g) The AGO may disseminate personal data for any other purpose not explicitly set forth
+                in M.G.L. c. 66A, § 2(c), provided that such dissemination is not inconsistent with the
+                purposes of M.G.L. c. 66A, i.e., the purpose(s) for which the information was originally
+                collected, and with other applicable laws;
+                (h) The AGO may disseminate personal data asrequired by an order of a court of competent
+                jurisdiction; and
+                (i) The AGO may disseminate personal data as required by Mass. R. Crim. P. 14.
+
+11.05: Access to Personal Data by Data Subjects
+
+            (1) General Rules Regarding Access to Personal Data.
+               (a) Data Subject Inquiry. The data subject may request, in writing, that the AGO perform
+               a search to locate the subject's own personal data held within the personal data systems
+               maintained by the AGO. Such search shall be considered compliant with M.G.L. c. 66A, § 2
+               if the name of the data subject is used to search for any such personal data within all personal
+               data systems.
+               (b) Request of Data Subject for Notification of Holding. Where required by law, the AGO
+               shall, within 20 days of receipt of a request, inform any data subject in writing whether the
+               AGO maintains any personal data concerning such individual within its personal data
+               systems.
+               (c) Notification of Denial of Access to Data. If access is denied, the AGO shall, within 20
+               days of receipt of a request, notify in writing a data subject of its denial of the request for
+               access.
+               (d) Right of Data Subject to Access. Where access is required by law, the AGO shall, in
+               a timely manner, grant a data subject access to the subject's own personal data within the
+               personal data systems maintained by the AGO to which the data subject is entitled in
+               accordance with 940 CMR 11.05.
+               (e) Modes of Access. The AGO may, at its discretion, provide a data subject with the
+               subject's own personal data by either creating a compilation of the data that is contained
+               within the personal data systems maintained by the AGO, or reproducing the records that
+               contain personal data.
+
+6/19/26 (Effective 12/5/25) - corrected                                            940 CMR - 87
+
+                        940 CMR: OFFICE OF THE ATTORNEY GENERAL
+
+11.05: continued
+
+              (f) Payment of Fees. The AGO may charge fees in accordance with 940 CMR 11.05 when
+              a data subject requests that a search for personal data be made, and for the inspection,
+              creation, or copying of any record containing the personal data to which access is granted,
+              according to the fee schedule set forth in 940 CMR 11.05(1)(g). The AGO may require
+              prepayment of fees or may waive such requirement.
+              (g) Fee Schedule. The AGO may charge the following fees for responding to a request
+              under M.G.L. c. 66A:
+                   1. The labor cost to search a system of records for personal data, and, if found, to
+                   remove third-party identifiers (redaction), if applicable, and to prepare the personal data,
+                   or the records containing the personal data, for inspection or photocopying will be $15.00
+                   per hour;
+                   2. The cost to provide a copy of the personal data, or the records containing personal
+                   data, will be $.25 per page, which may be adjusted from time to time according to the
+                   Consumer Price Index. Notice of any such adjustment will be provided to the requesting
+                   party before any copies are made;
+                   3. Where the records containing personal data cannot be simply photocopied or printed
+                   from a computer, the actual cost to reproduce the personal data may be assessed; and
+                   4. For requests entailing less than one hour of search and redaction time, and resulting
+                   in no more than 50 pages of records, a flat fee of $15.00 may be assessed; a flat fee of
+                   $15.00 may also be assessed for requests requiring the creation of a compilation in order
+                   to more efficiently provide the personal data to the data subject.
+              (h) Known Personal Data. A request by a data subject for a copy of the records containing
+              all of the subject's own personal data submitted to the AGO by the data subject, or a copy of
+              all records containing personal data already provided to the data subject by the AGO, shall
+              not be considered a request for personal data under M.G.L. c. 66A. The AGO, in its
+              discretion and in compliance with records retention policies, may copy or return such records
+              after receipt from the requester of a flat fee of $20.00.
+
+           (2) Objections by Data Subjects.
+              (a) A data subject who objects to the accuracy, completeness, pertinence, timeliness,
+              relevance, dissemination, or denial of access to the subject's own personal data that is
+              maintained in the personal data system(s) of the AGO, may, individually or through a duly
+              authorized representative, file an objection with the Information Officer Designee responsible
+              for the personal data system in question.
+              (b) The Information Officer Designee responsible for such personal data system shall,
+              within 30 days of the receipt of an objection:
+                  1. Investigate the validity of the objection; and
+                  2. If the objection is found to be meritorious after investigation, alter the contents of,
+                  or the methods for holding, or the dissemination or use of such personal data, or grant
+                  access to it; or
+                  3. If the objection is found to lack merit after investigation, provide the data subject the
+                  opportunity to have a statement reflecting the individual's views maintained and
+                  disseminated with the data in question; and
+                  4. Notify the data subject in writing of any AGO decision regarding the individual's
+                  objection.
+
+REGULATORY AUTHORITY
+
+                   940 CMR 11.00: M.G.L. c. 66A, § 3.
+
+(PAGES 89 THROUGH 92 ARE RESERVED FOR FUTURE USE.)
+
+12/5/25                                                                           940 CMR - 88

@@ -1,0 +1,34 @@
+Directive
+Administrative Directive 2021-2 Retirement of Windows 7 Operating System and Server Operating Systems Modernization
+Date:
+05/05/2021
+Organization:
+Executive Office of Technology Services and Security
+Referenced Sources:
+M.G.L. Ch. 7D Section 3
+Authority
+M.G.L. c. 7D, § 3:
+“(a) The [Executive Office of Technology Services and Security] shall have all powers necessary or convenient to carry out its duties including, but not limited to, the power to: …
+(vi) oversee and supervise the maintenance of information technology and the initiation of information technology updates or projects for state agencies;
+(vii) initiate procurements of information technology resources for state agencies and enter into agreements or contracts in connection with such procurement on behalf of a state agency or other political subdivision of the commonwealth;
+(viii) set policy regarding all procurements of information technology resources;
+(ix) review and approve the information technology budget requests of a state agency and IT spending priorities of executive offices and agencies within any executive office;
+(x) implement standards for product or service specifications, characteristics or performance requirements of IT resources that increase efficiency and improve security and identify opportunities for cost savings within state agencies based on such standardization; specifically, the office may implement the following: (a) the centralized acquisition and standardization of specifications for desktop computing equipment; (b) consolidation and centralized management of all network resources for the executive department; (c) the consolidation of information technology infrastructure; and (d) following consultation with the secretary of the executive office and the head of the agency or department within the executive offices, effectuate the centralization of other IT services and functions when centralization or standardization will promote greater security, improve service, or reduce costs; …
+(b) The office may issue administrative directives pursuant to the authority set forth in this chapter, which shall be binding on all executive department agencies and offices.”
+Definitions
+Chief Information Officer: or ''CIO'', the chief information officer of the Commonwealth.
+Information technology: or “IT”, hardware, software, telecommunications equipment and related services designed for the storage, manipulation, and retrieval of data by electronic or mechanical means including, but not limited to, personal computers, mainframes, wide and local area networks, servers, mobile or portable computers, peripheral equipment, telephones, wireless communications, handheld devices, cloud-based application and platform services, public safety radio services, facsimile machines, data centers, dedicated training facilities and switching facilities.
+Secretariat Chief Information Officer: or “SCIO”, the person responsible for technology services, security, and information technology in each executive office other than the Executive Office of Technology Services and Security, who reports to both the Secretary of Technology Services and Security and the Secretary of the Executive Office for whose technology services the SCIO is responsible.
+Single device: The end user computing device authorized by the Executive Office of Technology Services and Security (EOTSS).
+State agency: a legal entity of state government established by the general court as an agency, board, bureau, commission, council, department, office or division of the commonwealth with a specific mission and which is subject to the control of the governor or whose administration has been solely appointed by the governor.
+Retirement of Windows 7 Operating Systems
+No later than October 31, 2021, all Windows 7 devices will be removed from the Commonwealth’s fleet of computers and its network. State agencies that are still using Windows 7 devices must make immediate arrangements to remove them from their computing environment. There are no exceptions to this directive.
+EOTSS, in partnership with the Executive Office of Administration and Finance (A&F), has provided a funding mechanism under the Modern Workplace Program to replace all Windows 7 devices with the new EOTSS-approved standard single-device model. Please see AD 2021-1 for more information on the single-device standard.
+Server Operating Systems Modernization
+All state agencies operating unsupported server operating systems (operating systems that no longer receive critical security patches from the manufacturer) must provide, in writing, to the Chief Information Officer (CIO) a plan of action to retire these environments. This plan must detail the applications and systems to be migrated off these server environments as well as specific challenges and/or impacts to retiring these servers. Please include timelines, costs, and resources needed to meet this directive. All plans must be submitted to the CIO no later than July 31, 2021.
+The CIO and EOTSS leadership will work with all agencies to prioritize the retirement of these server environments as soon as possible to meet the October 31, 2021 deadline.
+Implementation
+Secretariat Chief Information Officers (SCIOs) for executive offices are responsible for policy compliance for their secretariats and agencies.
+Policy Change Control
+Version Number | Revised by | Effective date | Description of changes
+1.0.0 | Curtis Wood | 5/5/21 | First version of Retirement of Windows 7

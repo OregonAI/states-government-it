@@ -1,0 +1,817 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: massachusetts
+id: ma-is-015
+title: IS.015 Asset Management Standard
+doc_type: standard
+citation: IS.015
+authority_level: ''
+issuing_body: Executive Office of Technology Services and Security, Enterprise Risk Management Office
+source_url: https://www.mass.gov/doc/is015-asset-management-standard/download
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 9ec80f66e103f110cee5171df23b7d60ccec6d5c472bb7d4d245b40664fac962
+effective_date: '2018-10-15'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# IS.015 Asset Management Standard (IS.015)
+
+## At a glance
+
+One of the seventeen Enterprise Information Security Standards (IS.011 to IS.027) on EOTSS's Technology Standards and Guidelines page, which says executive branch agencies are required to conform to defined EOTSS policies and standards under Chapter 64 of the Acts of 2017. The page for the Asset Management Standard carries a summary and this PDF is the standard.
+
+## Full text
+
+               Commonwealth of Massachusetts
+               Executive Office of Technology Services and Security (EOTSS)
+               Enterprise Risk Management Office
+
+                          Asset Management Standard
+
+ Document Name: Asset Management Standard        Effective Date: October 15th, 2018
+ Document ID: IS.015                             Last Revised Date: March 11, 2025
+
+                                Table of Contents
+1.   PURPOSE                                                                          2
+2.   AUTHORITY                                                                        2
+3.   SCOPE                                                                            2
+4.   RESPONSIBILITY                                                                   2
+5.   COMPLIANCE                                                                       3
+6.   STANDARD STATEMENTS                                                              4
+7.   CONTROL MAPPING                                                              15
+8.   DOCUMENT CHANGE CONTROL                                                      17
+
+Asset Management                Page 1 of 17
+
+   1. PURPOSE
+      1.1.     The purpose of this standard is to document the requirements and key
+               information security considerations that will enable the ongoing
+               ownership and effective management of the Commonwealth’s
+               information assets.
+
+   2. AUTHORITY
+      2.1.     Pursuant to M.G.L. Ch. 7d, the Executive Office of Technology Services and
+               Security, (EOTSS), possess the authority to establish policies,
+               procedures, and objectives with respect to activities concerning
+               information technology. M.G.L. Ch. 7d provides in pertinent part:
+               “Notwithstanding any general or special law, rule, regulation, executive
+               order, policy or procedure to the contrary, all executive department
+               agencies shall, and other state agencies may, adhere to the policies,
+               procedures and objectives established by the executive office of
+               technology services and security with respect to activities concerning
+               information technology.”
+
+   3. SCOPE
+      3.1.     This document applies to the use of information, information systems,
+               assets, applications, and network resources used to conduct business
+               on behalf of the Commonwealth. The document applies to the Executive
+               Branch including all executive offices, boards, commissions, agencies,
+               departments, divisions, councils, and bureaus, hereinafter referred to as
+               Commonwealth Agencies and Offices. Other Commonwealth entities
+               that use or participate in services provided by the Executive Office of
+               Technology Services and Security, (EOTSS), by any form of contractual
+               arrangement, are required to comply with this document, as a condition
+               of use. Commonwealth Agencies and Offices are required to implement
+               procedures that ensure their personnel comply with the requirements
+               herein to safeguard information.
+
+   4. RESPONSIBILITY
+      4.1.     The Enterprise Risk Management Office is responsible for the development
+               and ongoing maintenance of this standard. The Enterprise Risk
+               Management Office is responsible for this standard and may enlist other
+               departments to assist in maintaining and monitoring compliance with this
+               standard. The owner of this document is the Commonwealth CISO, or his
+               or her designee. The document owner will review and update this
+               standard on an annual basis, or when significant policy or procedural
+
+Asset Management Standard        Page 2 of 17
+
+               changes necessitate an amendment. Questions regarding this document
+               must be submitted to the document owner by sending an email to
+               ERM@mass.gov.
+
+      4.2.     The Enterprise Risk Management Office is responsible for this standard
+               and may enlist other departments to assist in the monitoring and
+               maintenance of compliance with this standard.
+
+      4.3.     Additional information regarding this standard and its related policies
+               and          standards        may          be         found          at
+               https://www.mass.gov/cybersecurity/policies.
+
+      4.4.     In the event of any conflict between the provisions contained in this
+               standard and the provisions set forth in any of the Enterprise
+               Information Security Policies, the provisions in the Enterprise
+               Information Security Policies will govern.
+
+      4.5.     Definitions of terms in bold may be found in the IS.Glossary of Terms at
+               https://www.mass.gov/cybersecurity/policies.
+
+   5. COMPLIANCE
+      5.1.   Compliance with this document is mandatory for the Executive Branch and
+             all Commonwealth Agencies and Offices. Violations are subject to
+             disciplinary action in accordance with applicable employment and
+             collective bargaining agreements, up to and including the termination of
+             their employment and/or assignment with the Commonwealth.
+
+      5.2.   In the event any Commonwealth Agency or Office is unable to comply with
+             any of the requirements of this document, the agency or office must submit
+             an Information Security Policy Non-Compliance Report to the Enterprise
+             Risk      Management        Office   online      through       ServiceNow,
+             https://www.mass.gov.service-now.com).
+
+      5.3.   The Non-Compliance Report will:
+
+         5.3.1. Specifically state the reason/cause of the non-compliance
+
+         5.3.2. Identify and explain in detail the risks created due to the non-
+                compliance
+
+         5.3.3. Provide a detailed explanation of the controls the agency, or office will
+                implement to mitigate the risks to an acceptable level
+
+         5.3.4. Specify the time-frame required to implement the controls and mitigate
+                the identified risks. All Risk Mitigation Plans (RMP) will be for a limited
+                time.
+
+Asset Management Standard         Page 3 of 17
+
+           5.3.5. The names and contact information for both the risk owner and the
+                  control owner designated by the agency to accept and manage the risks
+                  associated with the non-compliance and implement the controls that
+                  will effectively mitigate the identified risks.
+
+6.     STANDARD STATEMENTS
+     6.1. Information Asset Management
+
+        6.3.1. All information assets will be accounted for and have an assigned
+               information owner.
+
+        6.3.2. Inventory of information assets
+
+           6.3.2.1.   Commonwealth Agencies and Offices will identify all information
+                      assets (i.e., physical, and logical) and document the importance of
+                      these assets.
+
+           6.3.2.2.   The asset inventory must include all information necessary in order to
+                      effectively manage the information asset throughout its life cycle from
+                      creation/receipt through disposal. At a minimum, the following
+                      attributes will be recorded (where applicable):
+
+              6.3.2.2.1. Information system type (e.g., server, router, computer,
+                         smartphone)
+
+              6.3.2.2.2. Manufacturer (e.g., Cisco, Dell, Apple)
+
+              6.3.2.2.3. Model and/or version number
+
+              6.3.2.2.4. Asset tag, serial number, or some other unique identifier
+
+              6.3.2.2.5. IP address (if applicable)
+
+              6.3.2.2.6. Information Owner (business and technical)
+
+              6.3.2.2.7. Classification level
+
+              6.3.2.2.8. Business criticality
+
+              6.3.2.2.9. Physical location (office building, room, city, and state) and details
+                         of the virtual environment (if applicable)
+
+              6.3.2.2.10. License information and details regarding ownership,
+                         expiration and maintenance (if applicable)
+
+              6.3.2.2.11. End-of-support/end-of-life       date    and    considerations    (if
+                         applicable)
+
+Asset Management Standard           Page 4 of 17
+
+      6.3.3. Ownership of information assets
+
+         6.3.3.1.   Information Owners will be identified for all information assets. The
+                    implementation of specific controls may be delegated by the
+                    Information Owner, as appropriate, but the owner remains
+                    responsible for the management and security of the information
+                    asset. Specifically, the Information Owner will:
+
+             6.3.3.1.1. Ensure that the information asset is accurately inventoried and
+                        classified.
+
+             6.3.3.1.2. Ensure that the information asset has appropriate access
+                        restrictions.
+
+             6.3.3.1.3. Perform periodic reviews of the information asset inventory, not
+                        less than annually, to ensure all assets are properly documented.
+
+             6.3.3.1.4. Perform periodic reviews to verify appropriate access; review
+                        frequency will be dictated by the application classification level.
+
+             6.3.3.1.5. Manage risk to the information asset, including mitigating the
+                        risks associated with operating at end-of-support/end-of-life (if
+                        applicable).
+
+      6.3.4. Acceptable use of assets
+
+         6.3.4.1. All Commonwealth Agencies and Offices with personnel who access
+                  information assets owned or managed by the Commonwealth must
+                  comply with the associated permissions and restrictions as
+                  documented in IS.002 Acceptable Use of Information Technology Policy.
+
+   6.2. Information Classification
+
+      6.2.1. The classification or sensitivity level of all information must be established to
+             ensure that appropriate measures are taken to protect the information
+             commensurate with its value to the organization and the legal restrictions on
+             its dissemination.
+
+      6.2.2. The Information Custodian is responsible for assigning the appropriate
+             classification level. The examples below are not exhaustive lists of all types of
+             information.
+
+      6.2.3. Determining appropriate classification may be based on a combination of
+             source and content (i.e., PII may be Restricted or Confidential depending on
+             source). When information meets criteria for multiple classifications, the
+             information will be classified at the highest level.
+
+Asset Management Standard          Page 5 of 17
+
+         6.2.3.1.   Restricted – Any confidential or personal information that
+                    is intended for a limited number of persons who possess the highest
+                    level of access control and security clearance, and who need the
+                    restricted information to perform their duties. Restricted
+                    information is intended for a very limited use and must not be
+                    disclosed except to those who have explicit authorization to view or use
+                    the data. Unauthorized disclosure of this information could have a
+                    serious adverse impact on the financial, legal, regulatory, or
+                    reputational impact on the Commonwealth, its constituents,
+                    customers, and business partners. (see IS.Glossary of Terms).
+
+         6.2.3.2.   Confidential — organization or customer information that if
+                    inappropriately accessed or disclosed could cause adverse financial,
+                    legal, regulatory, or reputational damage to the Commonwealth, its
+                    constituents, customers, and business partners. (see IS.Glossary of
+                    Terms). Except as required by law, confidential information must be
+                    access-restricted to a narrow subset of personnel who have a
+                    business need to access the information. Examples may include but
+                    are not limited to:
+
+            6.2.3.2.1. Personally identifiable information (PII)
+
+            6.2.3.2.2. Regulated information (Health Insurance Portability and
+                       Accountability Act (HIPAA), Payment Card Industry (PCI), Federal
+                       Tax Information (FTI) and other types of information)
+
+            6.2.3.2.3. Employee performance and appraisal documentation
+
+            6.2.3.2.4. Internal, external, and regulatory audit reports.
+
+            6.2.3.2.5. Information on the Commonwealth’s security posture (e.g.,
+                       firewall setting information, security configurations, vulnerability
+                       test reports, breach reports)
+
+            6.2.3.2.6. Passwords or any form of security key
+
+      6.2.4. General — information that has NOT been expressly authorized for
+             publication and/or public release but has not been classified as confidential
+             or restricted. The disclosure of General information is unlikely to have a
+             material financial, legal, regulatory, or reputational impact on the
+             Commonwealth, its constituents, customers, and business partners.
+             Examples may include but are not limited to:
+
+         6.2.4.1.   Organization charts and personnel directories
+
+         6.2.4.2.   Internal policies and documentation
+
+Asset Management Standard         Page 6 of 17
+
+         6.2.4.3.   Personnel awareness and training collateral
+
+      6.2.5. Published — information that has been expressly approved for public
+             release. Information can only be designated as Published by the authorized
+             personnel; each Secretariat is responsible for maintaining the list of
+             authorized personnel. Examples may include but are not limited to:
+
+         6.2.5.1.   Press releases
+
+         6.2.5.2.   Information on public facing websites (e.g., Mass.gov)
+
+         6.2.5.3.   Promotional materials for Commonwealth constituent services (e.g.,
+                    Medicaid enrollment)
+
+         6.2.5.4.   Advertising of open positions and roles
+
+   6.3. Information Labeling and Handling
+
+      6.3.1. Procedures for the handling and labeling of information, both in electronic
+             and physical formats, will be defined and maintained by each Secretariat and
+             will also comply with legal and regulatory obligations.
+
+      6.3.2. Data loss prevention (DLP) technologies approved or managed by the
+             Enterprise Security Office will be implemented to monitor data-at-rest, data-
+             in-transit, and data-in-use.
+
+      6.3.3. Information must be protected in line with its assigned level of classification.
+             Classification levels must be reviewed and updated at least annually.
+
+      6.3.4. Limit direct access to confidential customer information (e.g., SSN)
+             whenever possible. Access to information must be limited to those with a
+             need to know.
+
+      6.3.5. Use disclaimer statements when transferring information to internal and
+             external parties.
+
+      6.3.6. The sending of Commonwealth restricted or confidential information to
+             personal email addresses (e.g., Gmail or Yahoo Mail) is prohibited.
+
+      6.3.7. Use encryption to protect data at rest and in transit, commensurate to its
+             classification level (See Approved Cryptographic Techniques in IS.019
+             Cryptographic Management Standard).
+
+      6.3.8. Information available in a physical format (e.g., paper) will be labeled
+             accordingly.
+
+Asset Management Standard          Page 7 of 17
+
+      6.3.9. Protect media containing Commonwealth information against unauthorized
+             access, misuse, or corruption during transportation.
+
+         6.3.9.1.   Verify the identity of couriers.
+
+         6.3.9.2.   Use only authorized couriers to send confidential information.
+
+         6.3.9.3.   Refrain from marking exterior packaging of confidential information
+                    with the classification level. Package sufficiently to protect the
+                    contents from physical damage.
+
+         6.3.9.4.   Maintain an audit log of the content of the media, including the
+                    information protection applied and transportation logistics.
+
+      6.3.10. Commonwealth Agencies and Offices will by default, restrict removable
+             media use by personnel (see Endpoint Protection in IS.015 Asset
+             Management Standard). Removable media use will only be granted on an
+             exception basis when there is a compelling organizational need.
+
+   6.4. Information Disposal
+
+         6.4.1. Commonwealth Agencies and Offices will establish procedures for the
+                secure disposal and sanitization of media to minimize the risk of
+                restricted or confidential information leakage.
+
+         6.4.2. Information will be retained in accordance with applicable laws,
+                executive orders, directives, regulations, policies, standards, guidelines,
+                and operational requirements, including the Massachusetts Statewide
+                Records Retention Schedule.
+
+         6.4.3. Log the disposal of restricted and/or confidential information to
+                maintain an audit trail
+
+         6.4.4. Verify that the information assets containing any restricted and/or
+                confidential information have been removed or securely overwritten prior
+                to disposal or reuse.
+
+         6.4.5. Render media unusable (e.g., degaussing), unreadable or indecipherable
+                prior to disposal.
+
+         6.4.6. Use acceptable industry best practices and standards (e.g., 7-pass
+                overwrite) for information erasure to ensure information is
+                unrecoverable.
+
+Asset Management Standard          Page 8 of 17
+
+         6.4.7. Use a third-party service that specializes in information or media
+                disposal.
+
+         6.4.8. Identify and securely delete stored information that exceeds defined
+                retention periods on a quarterly basis.
+
+         6.4.9. Hard copies of information will only be generated when necessary.
+                Excess copies must be disposed of securely (e.g., shredding).
+
+         6.4.10. Regulatory compliance requirements may supersede this standard.
+
+         6.4.11. Obtain a disposal certificate or other written attestation from the third-
+                party confirming proper disposal.
+
+   6.5. Information Protection Requirements
+
+      6.5.1. The following table summarizes the information protection requirements for
+             Commonwealth information.
+
+         Security
+                         Published           General          Confidential & Restricted
+     Considerations
+    Impact of
+    unauthorized        No harm.       Limited harm.          Significant harm.
+    disclosure
+                                       Access normally
+                                       restricted to
+                                       employees and
+    Access                                                    Access granted only to
+                        None.          approved non-
+    restrictions                                              authorized individuals.
+                                       employees for
+                                       business purposes
+                                       only.
+                                                              Commonwealth-approved
+                                                              encryption required (see
+                        None                                  Approved Cryptographic
+    Encryption                         None required.
+                        required.                             Techniques in the
+                                                              Cryptographic
+                                                              Management Standard).
+                                       Information            Information classification
+    Physical labeling                  classification label   label must be visible.
+    (paper, magnetic                   must be visible.
+                        None
+    media,                             All magnetic media     All magnetic media assets
+                        required.
+    CD/DVD/USB, or                     assets must be sent    must be sent in lockable
+    tape label)                        in lockable            containers. The label
+                                       containers with a      should not be affixed to
+
+Asset Management Standard           Page 9 of 17
+
+                                     label affixed across    the outside of the shipping
+                                     the opening of the      container.
+                                     container.
+    Electronic                       E-mail: non-
+                                                             E-mail: information must
+    labeling (digital   None         disclosure
+                                                             be labeled and encrypted.
+    file, email, or     required.    disclaimer must be
+    webpage)                         visible.
+                                                             After applicable electronic
+                                                             disposal, secure onsite
+                                                             disposal using
+                                                             Commonwealth-approved
+                                                             methods.
+                                     After applicable
+                                     electronic disposal,
+                                                             Paper – Shred or use
+    Physical disposal                secure onsite or off-
+                        None                                 secure disposal bins.
+    (paper, tape, or                 site physical
+                        required.
+    hard drives)                     disposal using
+                                                             Electronic media — render
+                                     Commonwealth-
+                                                             unreadable or
+                                     approved methods.
+                                                             unrecoverable, depending
+                                                             on the use case.
+
+                                                             Disposal audit trail
+                                                             required.
+                                                             Removal of the directory
+    Electronic                       Removal of the          entry for the file. File
+                        None
+    disposal (Digital                directory entry for     space should be over-
+                        required.
+    file)                            the file.               written using best industry
+                                                             standards where possible.
+
+   6.6. Information System Classification
+
+      6.6.1. All information systems must be classified.
+
+      6.6.2. Information Owners are responsible for determining the information system
+             classification of their information systems.
+
+      6.6.3. The classification of an information system must be based on its most
+             critical component (e.g., where information is transmitted, processed, or
+             stored).
+
+      6.6.4. Commonwealth Agencies and Offices must conduct a business impact
+             analysis or a risk assessment to determine information system
+             classifications for their information assets.
+
+Asset Management Standard       Page 10 of 17
+
+      6.6.5. Information system classification must be reviewed at least annually and
+             whenever a significant system change occurs.
+
+      6.6.6. Classify all information systems as follows:
+
+           Classification
+                                                     Description
+              level(s)
+                                ● Information assets subject to legal and/or regulatory
+                                  requirements if breached (e.g., HIPAA, FTI, PII, PCI)
+                                ● Critical core network infrastructure, including
+                                  perimeter firewalls, routers, switches, domain name
+                                  server (DNS) and cloud services
+                                ● Systems that generate or manage in excess of $1m or
+                     Critical
+                                  more per annum for the Commonwealth (e.g., HIX,
+                                  MMIS)
+                                ● Systems involved in the transmission or processing of
+                                  financial information
+                                ● Restricted information
+
+                                ● High-value assets that store, process, or transmit
+                                  restricted and/or confidential information
+                                ● Core business support systems (e.g., email)
+                                ● Externally facing systems that process or handle
+                                  restricted and/or confidential information
+                      High      ● Systems that impact payroll or similar internal
+                                  processes
+                                ● End-of-life information systems no longer supported
+                                  by a vendor and without a risk exception on file
+                                ● Confidential information
+
+                                ● Non-core business support systems, including
+                                  externally facing systems that do not process
+                    Medium
+                                  restricted and/or confidential information
+                                ● Internal Use information
+                                ● Development, test and quality assurance
+                      Low         environments or user workstations
+                                ● Public information
+
+Asset Management Standard        Page 11 of 17
+
+   6.7. Endpoint Security
+
+      6.7.1. Commonwealth Agencies and Offices will implement endpoint security
+             controls to protect against malicious software, including viruses and
+             malware as follows:
+
+         6.7.1.1.   Implement antivirus solutions on all endpoints.
+
+         6.7.1.2.   Implement endpoint detection and response (EDR) solutions on high-
+                    risk information systems (including endpoints) that store restricted
+                    and/or confidential information and data.
+
+         6.7.1.3.   Configure antivirus and/or EDR solutions to detect, remove and
+                    protect against known types of malicious software.
+
+         6.7.1.4.   Configure antivirus and/or EDR solutions so that they cannot be
+                    circumvented, disabled, or removed from an endpoint by an end user.
+
+         6.7.1.5.   Update antivirus definitions in accordance with their severity rating
+                    (see IS.027 Vulnerability Management Standard). Signature definitions
+                    must be centrally managed and pushed to endpoints. End users must
+                    not be able to prevent updates to their Commonwealth-issued
+                    endpoint.
+
+         6.7.1.6.   Retain audit logs for antivirus and EDR solutions for at least one year
+                    with a minimum of three (3) months readily available for analysis (see
+                    IS.022 Logging and Event Monitoring Standard).
+
+         6.7.1.7.   Integrate antivirus and EDR solutions with the enterprise SIEM, where
+                    technically feasible.
+
+         6.7.1.8.   Full-disk encryption must be configured for all laptops. Desktops that
+                    store restricted and/or confidential information on a persistent basis
+                    must implement full-disk encryption.
+
+            6.7.1.8.1. Encryption keys must be centrally managed. Mechanisms to
+                       recover encryption keys in the case of loss will be available and
+                       tested.
+
+      6.7.2. Implement host-based firewall solutions for information systems with direct
+             connectivity to the Internet (e.g., laptops used by personnel at home or on
+             public Wi-Fi), which are used to access the organization’s network.
+
+      6.7.3. Implement host-based firewalls for end of life (EOL) information systems.
+
+      6.7.4. Implement host-based intrusion prevention systems (IPS) on high-risk
+             systems.
+
+Asset Management Standard        Page 12 of 17
+
+      6.7.5. Implement controls to protect endpoints from virus and malware that can
+             be introduced via removable media (e.g., USB storage media).
+
+         6.7.5.1.   Auto scan removable media for virus and malware prior to use.
+
+         6.7.5.2.   Disable functionality that allows auto-run upon insertion of removable
+                    media.
+
+         6.7.5.3.    Force encryption on removable media prior to allowing information
+                    transfer to and from the media.
+
+      6.7.6. Implement technical controls to restrict the installation of unauthorized
+             software on Commonwealth-owned or managed endpoints.
+
+      6.7.7. Restrict the use of local administrator privileges on endpoints.
+
+         6.7.7.1.   Individuals with a verified business need (e.g., help desk or designated
+                    security administrators) may, via their direct managers, submit an
+                    exception request as detailed above, to obtain local administrator
+                    privileges.
+
+         6.7.7.2.   An up-to-date inventory of users with persistent access to
+                    administrative privileges must be maintained and reported to the
+                    Commonwealth CISO or his or her designee, on a quarterly basis.
+
+      6.7.8. Perform a full antivirus and anti-malware scan on endpoints, at a minimum,
+             monthly.
+
+      6.7.9. Third parties that require a connection to the Commonwealth family of
+             networks must have up-to-date antivirus and anti-malware solutions
+             installed.
+
+      6.7.10. Ensure that Commonwealth-owned or managed devices do not leave the
+             United States.
+
+   6.8. Mobile Device Management
+
+      6.8.1. The Commonwealth will implement a mobile device management (MDM)
+             solution, approved, and maintained by the Enterprise Security Office, to
+             manage mobile devices in its environment.
+
+      6.8.2. The MDM solution will support, at a minimum, the following functionalities:
+
+         6.8.2.1.   Provide the highest coverage of mobile devices and operating systems
+
+         6.8.2.2.   Have the ability to remotely update firmware and applications on
+                    mobile devices.
+
+Asset Management Standard         Page 13 of 17
+
+         6.8.2.3.   Inventory management (i.e., self-enrollment, directory integration,
+                    enforcement of IS.002 Acceptable Use Policy, remote wipe, backup
+                    and restore)
+
+         6.8.2.4.   Device policy management (i.e., centralized enforcement of policy,
+                    group/location policies, compliance checks)
+
+         6.8.2.5.   Security management (i.e., information and device encryption,
+                    information segmentation, logging and monitoring, password/PIN
+                    management, jailbreak detection)
+
+         6.8.2.6.   Monitoring and reporting (i.e., configurable dashboard, device
+                    tracking, canned/custom reporting)
+
+      6.8.3. Controls will be implemented to prevent unauthorized disclosure of
+             information on mobile devices (e.g., mobile phones and tablets). At a
+             minimum, Commonwealth Agencies and Offices will adhere to the following:
+
+         6.8.3.1.   Users must obtain authorization to use a personal mobile device to
+                    directly access Commonwealth information.
+
+         6.8.3.2.   Users who choose to use their personal mobile device for
+                    Commonwealth business must sign an acknowledgement stating that
+                    they understand the risks of using their personal mobile device and
+                    stating that they are required to adhere to all Commonwealth policies
+                    and standards.
+
+         6.8.3.3.   Users who choose to use their personal mobile device for
+                    Commonwealth business must sign an acknowledgement stating that
+                    they understand and accept the risks associated with using a mobile
+                    device that is owned or managed by the Commonwealth, including
+                    inclusion in the mobile inventory, installation of an MDM solution,
+                    enforcement of password policy, authorization to review and retrieve
+                    phone information and remote wipe.
+
+      6.8.4. Create an inventory of all mobile devices (Commonwealth-owned and
+             personal) that connect to the Commonwealth family of networks. The
+             inventory must be reviewed at least annually and include ownership
+             information and device specifications (e.g., manufacturer, model, OS).
+
+      6.8.5. Personal mobile devices that directly connect to the Commonwealth family
+             of networks or that have direct access to Commonwealth’s confidential
+             information must connect via VPN and an inventory of devices authorized to
+             connect must be actively maintained (see Remote Access in IS.017
+             Communication and Network Security Standard, and Information Asset
+             Management in IS.015 Asset Management Standard).
+
+Asset Management Standard        Page 14 of 17
+
+      6.8.6. Commonwealth-owned information-at-rest on mobile devices must be
+             encrypted with an approved software encryption solution (see Approved
+             Cryptographic Techniques in IS.019 Cryptographic Management Standard).
+
+      6.8.7. Enforce password requirements for mobile devices through technical means
+             as outlined in Password Management in IS.014 Access Management
+             Standard.
+
+      6.8.8. Restrict mobile device users from making modifications of any kind to
+             Commonwealth-owned or installed hardware and software on the mobile
+             device.
+
+      6.8.9. Mobile devices, regardless of ownership, housing Commonwealth
+             information will be securely decommissioned, when no longer needed for
+             business or legal reasons.
+
+      6.8.10. Commonwealth Agencies and Offices must ensure mobile device users are
+             aware of the risks involved with mobile computing and the types of
+             information that can and cannot be stored on such devices, through regular
+             security awareness training.
+
+7.   CONTROL MAPPING
+                            NIST SP800-53 R4
+         Section                                    CIS 18 V8           NIST CSF
+                                   (1)
+6.1 Information Asset             CM-8                CSC 1             ID.AM-1
+Management                        CM-9                CSC 4              PR.IP-1
+                                  PM-5                CSC 1                 -
+                                  PL-4                  -                   -
+                                 CM-10                CSC 2             ID.AM-2
+                                 CM-11                CSC 2
+6.2 Information                   RA-2                CSC 3             ID.AM-5
+Classification
+                                  AC-22               CSC 14
+6.3 Information Labeling          AC-16                 -               PR.AC-4
+and Handling                      MP-1
+                                  MP-2                CSC 3             PR.PT-2
+                                  MP-3                  -                  -
+                                  SC-16                 -                  -
+6.4 Information Disposal          SI-12               CSC 3                -
+                                                                        PR.IP-6
+                                   MP-6               CSC 3             PR.DS-3
+6.5 Information
+Protection Requirements            AC-3               CSC 3             PR.AC-4
+
+Asset Management Standard       Page 15 of 17
+
+                                              -            -
+                             SC-28          CSC 3      PR.DS-1
+                             SI-12          CSC 3          -
+6.6 Information System        RA-2          CSC 3      ID.AM-5
+Classification
+6.7 Endpoint Security                         -        PR.DS-3
+                              SI-12         CSC 3         -
+                                              -           -
+                              MP-2          CSC 3
+                              MP-7          CSC 3
+                                              -        PR.AC-2
+                                              -        PR.AC-2
+                                              -        PR.AC-2
+                                              -            -
+                                              -            -
+                                              -         PR.IP-5
+                                              -        ID.GV-1
+                              AU-2          CSC 3      PR.PT-1
+                                                       PR.PT-1
+                                                       PR.DS-4
+                                                       PR.PT-1
+                                                       PR.PT-1
+                                                       PR.PT-1
+                                                       PR.PT-1
+                                                       PR.PT-1
+                                                       PR.PT-1
+                                                       PR.PT-1
+                              SI-4          CSC 1      ID.RA-1
+                                              -      DE.DP Family
+6.8 Mobile Device            CM-8           CSC 1      ID.AM-1
+Management                                    -        ID.GV-1
+                             AC-17          CSC 3      PR.AC-3
+                                                       PR.PT-4
+                             AC-19          CSC 4      PR.AC-3
+                              PL-4            -            -
+                              PS-6          CSC 13     PR.DS-5
+                                              -            -
+
+Asset Management Standard   Page 16 of 17
+
+8.     DOCUMENT CHANGE CONTROL
+ Version   Revised by         Effective    Description of changes
+ No.                          date
+ 0.9       Jim Cusson         10/01/2017            Corrections and formatting
+ 0.95      John Merto         12/22/2017                      Wording
+ 0.96      Sean Vinck           5/7/2018            Corrections and formatting
+ 0.97      Andrew Rudder       5/31/2018            Corrections and Formatting
+ 0.98      Anthony O’Neill    05/31/2018            Corrections and Formatting
+ 1.0       Dennis McDermitt     6/1/2018           Final Pre-publication Review
+ 1.0       Andrew Rudder       10/4/2018      Approved for Publication by: John Merto
+ 1.1       Megan Perkins       7/15/2020       Annual Review; Minor corrections and
+                                                             formatting
+ 1.2       Sean M. Hughes     11/04/2021                  Annual Review
+ 1.3       Sean M. Hughes     08/29/2022      Minor Updates to meet NIST 800-53R5;
+                                                           annual review
+ 1.4       Thomas McDermott   11/16/2023      Corrections, Formatting, Updating and
+                                                          Annual Review
+ 1.5       Anthony O’Neill    11/16/2023                    Final Review
+ 1.6       Thomas McDermott   11/18/2024        Corrections, Formatting and Annual
+                                                               Review
+ 1.6       Anthony O’Neill    11/18/2024                    Final Review
+ 1.7       Thomas McDermott     2/5/2025       Updates, Corrections and Formatting
+ 1.7       Miklos Lavicska     2/26/2025            Corrections and Formatting
+ 1.7       Anthony O’Neill     3/11/2025                    Final Review
+
+Asset Management Standard     Page 17 of 17
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

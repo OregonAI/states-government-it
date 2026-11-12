@@ -1,0 +1,27 @@
+Executive Order
+No. 286: Software Copyright Compliance
+Date:
+01/10/1990
+Issuer:
+Michael S. Dukakis
+Mass Register:
+No. 627
+WHEREAS, the software industry is a critical element of the Commonwealth's economy;
+WHEREAS, software piracy and copyright infringement represents a serious threat to the development of the Commonwealth's software industry;
+WHEREAS, the software industry's future success depends on its ability to prevent the unauthorized copying and use of licensed proprietary commercial software;
+WHEREAS, the Commonwealth of Massachusetts licenses many proprietary software products from a variety of companies for use by its employees;
+WHEREAS, the Commonwealth does not own this software or its related documentation, and unless specifically authorized in the license agreement which accompanies the software, does not have the right to reproduce it or use it on a computer network;
+WHEREAS, the Commonwealth is bound by the terms of these license restrictions and will abide by them;
+NOW, THEREFORE, I, Michael S. Dukakis, Governor of the Commonwealth of Massachusetts, by virtue of the authority vested in me as Supreme Executive Magistrate, do hereby order as follows:
+A Commonwealth agency using either standalone or networked personal computers or mainframe computer systems must hold a license for all proprietary software being used on the computer(s) or the computer network, unless such software is not licensed.
+Enforcement of copyright laws within state government shall be the responsibility of agency managers.
+The Bureau of Informational Technology Acquisitions within the Department of Procurement and General Services shall withhold approval of AF-29 requests from any agency using an unauthorized copy of software until the agency complies with the copyright laws. In addition, the Bureau of Informational Technology Acquisitions shall require all CPU purchases to include application software or otherwise to account for the source of such software.
+Any employee of the Commonwealth who engages in unauthorized copying or unauthorized use on a network of any software shall be subject to appropriate discipline by his or her agency manager.
+Any employee who learns of any misuse of software or unauthorized copying within state government shall notify his or her agency manager, who in turn shall notify the Bureau of Informational Technology Acquisitions.
+The Secretary of Administration and Finance, through the Office of Management Information Systems and the Department of Procurement and General Services shall establish procedures to implement the provisions of this executive order.
+This executive order shall be interpreted to be consistent with any applicable federal law, but, does not create any private right of action against the Commonwealth or any of its employees, agencies or officials.
+Given at the Executive Chamber in Boston this 10th day of January in the year of our Lord one thousand nine hundred and ninety, and of the Independence of the United States of America two hundred and fourteen
+Michael S. Dukakis, Governor
+The Commonwealth of Massachusetts
+Michael Joseph Connolly
+Secretary of the Commonwealth

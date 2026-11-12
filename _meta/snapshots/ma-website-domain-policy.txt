@@ -1,0 +1,130 @@
+Policy Advisory
+Website Domain Policy
+Date:
+07/30/2021
+Organization:
+Executive Office of Technology Services and Security
+Referenced Sources:
+M.G.L. Ch. 7D Section 2
+M.G.L. Ch. 7D Section 4C
+Version 1.3.0
+Purpose
+The Website Domain Policy explains how the executive branch of the Commonwealth of Massachusetts manages official government website domain names. (Website domain names are also known as web addresses, unique resource locators, or URLs). Specifically, it defines standards and processes relevant to Mass.gov, Massachusetts.gov, Ma.gov, State.ma.us, their subdomains (e.g. example.mass.gov), and any requests for new official government websites.
+The purpose of this policy is to:
+Uphold a high standard of quality for constituents’ experience interacting with the Commonwealth over the internet
+Build trust between constituents and the websites that provide government services
+Protect constituents from private websites masquerading as government websites for nefarious purposes
+Scope
+The policy applies to these organizations:
+All state agencies in the Executive Department
+All executive offices, boards, commissions, agencies, departments, divisions, councils, and bureaus
+Any government organization hosting web applications with the Executive Office of Technology Services and Security (EOTSS)
+Any government organization obtaining an official government web domain through EOTSS
+This policy applies to these domains:
+Mass.gov
+Massachusetts.gov
+Ma.gov
+State.ma.us
+Related subdomains (e.g. example.mass.gov)
+All domains owned and managed by EOTSS
+This policy applies to these usages and technologies:
+Websites and web applications (both referred to in this document as “websites”) accessible to the public on the internet
+Chatbots or digital assistants
+Application programming interfaces (APIs) accessible on the public internet
+Third-party websites used to conduct business on behalf of the Commonwealth
+Authority
+M.G.L. Ch. 7D Section 2 provides that:
+“Notwithstanding any general or special law, rule, regulation, executive order, policy or procedure to the contrary, all executive department agencies shall, and other state agencies may, adhere to the policies, procedures and objectives established by the executive office of technology services and security with respect to activities concerning information technology.”
+M.G.L. Ch. 7D Section 4C provides that:
+“The chief digital officer is directed to lead an effort to improve the public facing web presence and related services for executive department offices and agencies.”
+Responsibility for approvals, oversight, and updates
+The Chief Digital Officer (CDO) is responsible for approving requests for all public-facing websites, chatbots, and digital assistants.
+The CDO is also responsible for developing, maintaining and updating this policy. The CDO is responsible for monitoring compliance with this policy and may enlist other departments in the enforcement of this standard.
+Questions, comments, and proposed updates can be submitted to the CDO via this form.
+Enforcement
+Requests for new domain names will only be approved for web applications in compliance with this policy.
+Websites that do not stay in compliance with this policy may have their domain name revoked.
+Websites created before this policy are expected to come into compliance with this policy as they make new updates.
+DNS standards
+The Commonwealth’s Chief Information Security Officer (CISO) is responsible for the Commonwealth’s broader DNS standards applying to all government websites. All policies here comply with those standards and will be updated to continue to comply as those standards evolve.
+These are the key points of intersection, which website owners should consider when making plans to create and maintain new government websites:
+"Subdomains of Mass.gov will not be delegated. EOTSS will maintain control of DNS for the Mass.gov domain and subdomains."
+"Hosts must use EOTSS domain name servers."
+Here’s what all this means for non-technical business owners of new websites:
+You have to get your domain name through EOTSS. You can’t buy a domain name from GoDaddy.com, Google, Wix, or any other third party.
+Changes and updates to domain names must be made by EOTSS. You’ll have to do this by opening a ServiceNow ticket. You are not able to make these changes yourself.
+If you’re using a third-party service to send bulk emails, like Mailchimp or Send Grid, you’ll need to open a ServiceNow ticket to have EOTSS create the DNS records needed to verify you’re not a spammer. You can’t make these changes yourself.
+Compliance and exceptions
+Compliance with this document is mandatory for all state agencies in the Executive Department. Violation of this document may cause irreparable injury to the Commonwealth of Massachusetts. Violations are subject to disciplinary action in accordance to applicable employment and collective bargaining agreements, up to and including the termination of employment and/or assignment with the Commonwealth. Other consequences of violations may include the initiation of civil and/or criminal proceedings by the Commonwealth.
+Exceptions to any part of this document must be requested through this form and approved by the CDO.
+A policy exception may be granted only if the benefits of the exception outweigh the increased risks, as determined by the Commonwealth CDO, CISO, or appointed designee.
+Domains for government websites and email
+Mass.gov is the primary digital identity of the Commonwealth for public-facing government services. This means:
+Executive agencies must use only Mass.gov domains (e.g. mass.gov/example and example.mass.gov).
+It is highly discouraged to use any other domain (e.g. example.gov, example.org, example.com).
+Massachusetts.gov and ma.gov have been registered with EOTSS to protect the integrity of these names and avoid confusion.
+www.ma.gov and www.massachusetts.gov forward to www.mass.gov.
+The @mass.gov email address suffix is the standard for email addresses in the executive branch, supplanting @state.ma.us. Only EOTSS-supported email systems may use @mass.gov addresses.
+Mass.gov and its subdomains (e.g. example.mass.gov, another.example.mass.gov) are intended for websites that fit all the following descriptions:
+Official Massachusetts government websites
+Websites accessible over the public internet
+Websites that comply with policies established by the General Services Administration (GSA) for .gov domains
+Websites that comply with “Guidelines for constituent-facing websites”
+Mass.gov and its subdomains may not be used for:
+Enterprise services available only inside the state network
+Websites with non-government advertisements
+Websites with political or campaign information
+Websites involved in criminal activity
+Websites with obscene images, inappropriate sexually oriented material, or extremist material
+Websites with links to sites that violate content restrictions
+Domains for other .gov websites
+Top-level domains other than Mass.gov are only approved if the agency head and EOTSS explicitly determine another domain is necessary for the proper performance of an agency function.
+Domains with state.ma.us
+Legacy state.ma.us domains exist. To update these to a Mass.gov domain, the application must be brought into compliance with all guidelines applicable to Mass.gov domains. New subdomains of state.ma.us for executive branch agencies will only be created for exceptional circumstances.
+Domain not ending in .gov
+Government organizations are strongly discouraged from using domains that do not end in “.gov” because anyone can buy one. Private websites masquerade as government websites in order to steal personal information or trick constituents into paying unnecessary fees. This breeds distrust. To build constituents’ trust and to protect their privacy and security, the Commonwealth is moving away from privately procured domains and standardizing primarily on Mass.gov and secondarily on other .gov domains.
+This guidance is consistent with the federal government guidelines. The United States Web Design System encourages all federal government sites to include a standard government website banner, which educates constituents that "official government websites use .gov."
+Domain Naming Conventions
+Guiding principles
+People shouldn't have to understand the state bureaucracy to find what they're looking for.
+Put constituents first.
+Design for fast, easy, simple, intuitive, and consistent user experience.
+Use plain language whenever possible.
+Avoid acronyms.
+Conventions
+Describe the service or regulatory area, rather than the department providing the service. (For example: rideshare.mass.gov is better than eea.dpu.tnc.mass.gov; paidleave.mass.gov is preferable to dfml.mass.gov or pfml.mass.gov.)
+Use organization names or product names in the URL when the primary audience is government employees rather than constituents who do not work for the government. (For example: jira.mass.gov, mygiclink.mass.gov, hrcms.mass.gov).
+Guidelines for constituent-facing websites
+The guidelines below aim to ensure the entire Mass.gov ecosystem:
+Earns constituents’ trust and confidence
+Creates an inclusive, dignified, and efficient user experience
+Promotes consistency and simplicity
+Allows state entities to efficiently design, build, buy, launch, and maintain websites
+Presents a single face of government to constituents
+To the greatest extent possible any new website, web-based form, web-based application, or digital service will follow these guidelines:
+Be accessible to individuals with disabilities (WCAG 2.1 AA is a minimum standard);
+Include a link to an online information and services accessibility statement as described in the Enterprise Digital Accessibility Policy;
+All Commonwealth websites, web-based forms, web-based applications, and digital services must comply with the Enterprise Data Privacy Policy. Each entity creating or managing such a digital property is responsible for its own legal and regulatory compliance with respect to how they handle data.
+All public-facing Commonwealth websites must provide an accessible privacy notice that explains how user information is collected, used, shared, and protected, and outlines user rights and choices. It must be written in plain language and kept current to reflect any material changes in data practices. If a website collects personal information, requires login, or enables transactions, it must maintain its own privacy notice specific to that service. A website may only link to the Mass.gov privacy notice if the site is content-only and complies with the Mass.gov privacy notice, as approved by the Chief Digital Officer (CDO). However, agencies are strongly encouraged to maintain their own site-specific privacy notice.
+Be fully functional and usable on modern devices in supported browsers serving 2% or more traffic;
+Fail gracefully when viewed in browsers that are not supported anymore by notifying the user that their browser is out of date and recommending they use a newer browser (sites can use a third party tool like browser-update.org to meet this requirement);
+Provide service through a secure connection according to EOTSS’s Cryptographic Management Standard.
+Not overlap with or duplicate any other Mass.gov site, and, if applicable, ensure that legacy websites are reviewed, eliminated, and consolidated;
+This includes duplicating the content on, functionality, or purpose of www.Mass.gov itself. Informational content should live on www.Mass.gov and not on a separate website.
+Direct users to www.Mass.gov for supporting informational content;
+Apply the design guidelines defined by the Massachusetts Design System style guide;
+Follow the Massachusetts Design System component guidelines for styling, interaction design, responsive behavior, and implementation to the greatest extent possible;
+Ensure that constituent-facing content is written in plain language;
+Collect feedback from constituents and use it to continually improve your services;
+Collect and analyze web analytics data to learn more about how people are engaging with your experiences and plan for future improvements;
+Use a domain name consistent with domain naming conventions described in this policy.
+Search guidelines
+Search.mass.gov enables constituents to search all public-facing Massachusetts government websites. All government organizations in Massachusetts are encouraged to participate. All Mass.gov websites must participate. Making your site searchable is easy. Just create a ticket, and Massachusetts Digital Service will set up search.mass.gov to include your site's content in its search results.
+To enable rich search results, or to make your content appear on specific tabs in search.mass.gov, you can add metadata to your web content.
+Policy change control
+Version Number | Revised by | Effective date | Description of changes
+1.0.0 | Bryan Hirsch, Matt Moran, John Merto | 7/30/21 | First version of website domain policy
+1.1.0 | Devyn Paros, Matt Moran, Tony O'Neill | 1/19/23 | Minor revision to clarify that any new website, web-based form, web-based application, or digital service should not duplicate the content on, functionality, or purpose of www.Mass.gov itself.
+1.2.0 | Devyn Paros, Matt Moran, Tony O'Neill | 1/7/26 | Updated guidelines for constituent-facing sites for clarity and to include links to the new Massachusetts Design System and Constituent Experience Center of Excellence resources.
+1.3.0 | Devyn Paros, Matt Moran, Tony O'Neill | 5/12/26 | Update to reflect the name of the Digital Accessibility Policy and requirement for sites to create a site-specific Privacy Notice, adhering to the Enterprise Privacy Policy.
+(See "Digital Policy Version Numbers" for more information on version numbers.)

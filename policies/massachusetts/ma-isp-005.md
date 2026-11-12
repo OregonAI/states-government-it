@@ -1,0 +1,540 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: massachusetts
+id: ma-isp-005
+title: ISP.005 Incident Response Policy
+doc_type: policy
+citation: ISP.005
+authority_level: ''
+issuing_body: Executive Office of Technology Services and Security, Enterprise Risk Management Office
+source_url: https://www.mass.gov/doc/isp005-incident-response-policy/download
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 0f5843f8d84abe0534a6f0ec9157be0cb0073995099e9cc537f8e17514abb26d
+effective_date: '2025-01-01'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# ISP.005 Incident Response Policy (ISP.005)
+
+## At a glance
+
+One of the ten Enterprise Information Security Policies that EOTSS's Enterprise Risk Management Office writes for all Executive Department offices and agencies under G.L. c. 7D, section 2 (the handbook's table of contents lists ISP.001 to ISP.010). The page for the Incident Response Policy carries a summary and this PDF is the policy; the PDF prints its Document ID, effective date and last revised date.
+
+## Full text
+
+                    Commonwealth of Massachusetts
+                    Executive Office of Technology Services and Security
+                    Enterprise Risk Management Office
+
+                    Enterprise Incident Response Policy
+
+ Document Name: Incident Response Policy                                                   Effective Date: 1/1/2025
+
+ Document ID: ISP.005                                                              Last Revised Date: 3/28/2025
+
+Table of Contents
+1. Purpose .................................................................................................................. 2
+2. Authority ................................................................................................................ 2
+3. Scope ..................................................................................................................... 2
+4. Responsibilities ..................................................................................................... 2
+5. Compliance............................................................................................................ 3
+6. Requirements ......................................................................................................... 4
+7. Roles and Responsibilities ..................................................................................... 10
+8. Control Mapping.................................................................................................... 12
+9. Document Change Control ................................................................................... 12
+
+Enterprise Incident Response Policy                    Page 1 of 12
+
+1. Purpose
+  1.1.    The purpose of this policy is to establish the minimum security requirements that
+          must be implemented to protect the Commonwealth’s information assets in the
+          event of a cybersecurity incident, data breach, or other security compromise
+          of the Commonwealth’s information assets. This policy reinforces the
+          Commonwealth’s commitment to an effective cyber incident response program,
+          and outlines the framework, principles, and controls required to ensure
+          the protection of the Commonwealth’s information technology environment.
+
+2. Authority
+  2.1.    Pursuant to M.G.L. Ch. 7d, the Executive Office of Technology Services and
+          Security, (EOTSS), possess the authority to establish policies, procedures,
+          and objectives with respect to activities concerning information technology.
+          M.G.L. Ch. 7d provides in pertinent part: “Notwithstanding any general or
+          special law, rule, regulation, executive order, policy or procedure to the
+          contrary, all executive department agencies shall, and other state agencies
+          may, adhere to the policies, procedures and objectives established by the
+          executive office of technology services and security with respect to activities
+          concerning information technology.”
+
+3. Scope
+  3.1.    This document applies to the use of information, information systems,
+          assets, applications, and network resources used to conduct business on
+          behalf of the Commonwealth. The document applies to the Executive Branch
+          including all executive offices, boards, commissions, agencies, departments,
+          divisions, councils, and bureaus, hereinafter referred to as Commonwealth
+          Agencies and Offices. Other Commonwealth entities that use or participate in
+          services provided by the Executive Office of Technology Services and Security,
+          (EOTSS), by any form of contractual arrangement, are required to comply with
+          this document, as a condition of use. Commonwealth Agencies and Offices
+          are required to implement procedures that ensure their personnel comply
+          with the requirements herein to safeguard information.
+
+4. Responsibilities
+  4.1.    The Enterprise Risk Management Office is responsible for the development
+          and ongoing maintenance of this policy. The Enterprise Risk Management
+          Office is responsible for this policy and may enlist other departments
+          to assist in maintaining and monitoring compliance with this policy. The
+
+Enterprise Incident Response Policy     Page 2 of 12
+
+            owner of this document is the Commonwealth CISO, or his or her
+            designee. The document owner will review and update this policy on an
+            annual basis, or when significant policy or procedural changes necessitate an
+            amendment. Questions regarding this document must be submitted to the
+            document owner by sending an email to ERM@mass.gov.
+
+     4.2.   Additional information regarding this policy and its related policies and
+            standards may be found at https://www.mass.gov/cybersecurity/policies.
+
+     4.3.   In the event of any conflict between the provisions contained in this policy and the
+            provisions set forth in any of the Enterprise Information Security Standards, the
+            provisions in the Enterprise Information Security Policies will govern.
+
+     4.4.   Definitions of terms in bold may be found in the IS.Glossary of Terms at
+            https://www.mass.gov/cybersecurity/policies.
+
+5.     Compliance
+     5.1.   Compliance with this document is mandatory for the Executive Branch and all
+            Commonwealth Agencies and Offices. Violations are subject to disciplinary
+            action in accordance with applicable employment and collective bargaining
+            agreements, up to and including the termination of their employment and/or
+            assignment with the Commonwealth.
+
+     5.2.   In the event any Commonwealth Agency or Office is unable to comply with any of
+            the requirements of this document, the agency or office must submit an
+            Information Security Policy Non-Compliance Report to the Enterprise Risk
+            Management Office online through ServiceNow, https://www.mass.gov.service-
+            now.com).
+
+     5.3.   The Non-Compliance Report will:
+
+        5.3.1. Specifically state the reason/cause of the non-compliance.
+
+        5.3.2. Identify and explain in detail the risks created due to the non-compliance.
+
+        5.3.3. Provide a detailed explanation of the controls the agency, or office will
+               implement to mitigate the risks to an acceptable level.
+
+        5.3.4. Specify the time-frame required to implement the controls and mitigate the
+               identified risks. All Risk Mitigation Plans (RMP) will be for a limited time.
+
+        5.3.5. The names and contact information for both the risk owner and the control
+               owner designated by the agency to accept and manage the risks associated
+               with the non-compliance and implement the controls that will effectively
+               mitigate the identified risks.
+
+Enterprise Incident Response Policy        Page 3 of 12
+
+6. Requirements
+  6.3. Incident Response Plans
+      6.3.1. Commonwealth Agencies and Offices will establish an incident
+             response plan, (IRP), to effectively detect, respond and resolve incidents that
+             affect the security of the Commonwealth’s information assets.
+
+      6.3.2. Commonwealth Agencies and Offices will document, maintain, and
+             update incident response plans.
+
+      6.3.3. The incident response plan will be tested not less than annually.
+
+      6.3.4. Incident response plans should, at a minimum, include the following:
+
+          6.3.4.1.    Roles, responsibilities, communication and contact strategies in
+                      the event of a compromise, including notification of required
+                      internal and external stakeholders.
+
+          6.3.4.2.    Establishment of a Security Incident Response Team, (SIRT).
+
+          6.3.4.3.    Specific incident reporting procedures.
+
+          6.3.4.4.    Specific escalation response procedures.
+
+          6.3.4.5.    Reportable incident criteria.
+
+          6.3.4.6.    Execution of corrective actions and post-incident analysis.
+
+          6.3.4.7.    Establish criteria to activate business recovery and
+                      continuity processes.
+
+          6.3.4.8.    Data backup processes.
+
+          6.3.4.9.    Analysis of legal requirements for reporting compromises.
+
+          6.3.4.10. Reference or inclusion of incident response procedures from
+                    required external parties.
+
+  6.4. Incident Response Lifecycle
+      6.4.1. The incident lifecycle addresses the preparation, detection,
+             containment, eradication, and recovery phases of the incident response
+             process:
+
+          6.4.1.1.    Preparation: Commonwealth Agencies and Offices will prepare for
+                      incidents through the development of documented incident
+                      response plans and incident handling procedures. Incident
+                      response exercises, (tabletops), should be held on a regular basis,
+
+Enterprise Incident Response Policy      Page 4 of 12
+
+                      but not less than annually.
+
+          6.4.1.2.    Detection and Analysis: This phase consists of the identification of
+                      events through probable attack vectors, signs of incidents,
+                      detection sources such as Security Incident Event Management,
+                      (SIEMs), anti- virus, and logs, detailed incident analysis, incident
+                      documentation, incident prioritization, and incident notification.
+
+          6.4.1.3.    Containment, Eradication and Recovery: This phase consists of
+                      mitigating and limiting the scope of impact to systems and data
+                      through containment strategies, evidence gathering, identification
+                      of attackers, threat neutralization, and restoration of normal
+                      operations.
+
+          6.4.1.4.    Post Incident Activity: This phase consists of identifying and
+                      analyzing historical information, development of lessons learned
+                      reports, analysis of incident information, and retention of evidence
+                      for investigations and legal requirements and identifying lessons
+                      learned.
+
+  6.5. Incident Identification
+      6.5.1. A security incident is defined as any event which has the potential or has
+             already resulted in the unauthorized acquisition, misappropriation, use or
+             manipulation of information that compromises the confidentiality,
+             integrity, or availability of the Commonwealth’s information assets.
+             Examples include, but are not limited to:
+
+          6.5.1.1.    Unauthorized and illegal disclosure, destruction and/or alteration of
+                      files, Commonwealth IT systems and information, including
+                      confidential information.
+
+          6.5.1.2.    Unauthorized use of a Commonwealth IT system for the
+                      transmission, processing, or storage of information.
+
+          6.5.1.3.    Changes to system hardware, firmware or software characteristics
+                      intentionally concealed from the IT Information Owner and made
+                      without their knowledge or consent.
+
+          6.5.1.4.    Detection of malware or malicious code (viruses, worms, etc.).
+
+          6.5.1.5.    Unauthorized probes, scans, or sniffers on the Commonwealth’s
+                      internal network.
+
+          6.5.1.6.    Denial of Service (DOS) or Distributed Denial of Service (DDOS)
+                      attacks.
+
+          6.5.1.7.    Harassment and threats conducted via Commonwealth email
+
+Enterprise Incident Response Policy      Page 5 of 12
+
+                      resources.
+
+          6.5.1.8.    Web page defacement, unauthorized use of system privileges and
+                      attempts (either failed or successful) to gain unauthorized access
+                      to a system or its information.
+
+          6.5.1.9.    Legal or regulatory violations involving Commonwealth information
+                      assets.
+
+          6.5.1.10. Violation of the Commonwealth’s information security policies.
+
+          6.5.1.11. Cyber-stalking, identity theft or child pornography.
+
+          6.5.1.12. Unauthorized physical access to a secure area (e.g., data centers).
+
+  6.6. Incident Reporting and Escalation
+      6.6.1. Commonwealth Agencies and Offices must establish, document, and
+             distribute security incident response and escalation procedures to
+             ensure timely and effective handling of incidents, and to limit further damage
+             to the Commonwealth's information assets. Procedures will include:
+
+          6.6.1.1.    Identification of the cause of the incident.
+
+          6.6.1.2.    Execution of corrective actions.
+
+          6.6.1.3.    Post-incident analysis.
+
+          6.6.1.4.    Communication strategy.
+
+      6.6.2. Information security incident reporting and escalation.
+
+          6.6.2.1.    Security incidents, whether potential or actual, will be reported
+                      immediately to agency management, the agency SIRT team, the
+                      agency helpdesk, and/or the EOTSS Security Operations Center
+                      (SOC). More information on Security Incident reporting
+                      procedures may be found in the EOTSS or Secretariat Security
+                      Incident Response Plans.
+
+          6.6.2.2.    All Commonwealth personnel are required to fully cooperate with
+                      the SIRT team and the EOTSS SOC. All Commonwealth personnel
+                      will provide accurate and timely information. All Commonwealth
+                      Agencies and Offices must ensure that all personnel are available
+                      to the SIRT team and/or EOTSS SOC when needed.
+
+          6.6.2.3.    As the first line of defense, Commonwealth Agencies and Offices
+                      must ensure that personnel are responsible for reporting
+                      suspicious activities.
+
+Enterprise Incident Response Policy      Page 6 of 12
+
+      6.6.3. Management reporting and escalation.
+
+          6.6.3.1.    The SIRT team will notify EOTSS’ SOC about security incidents
+                      that have an impact rating of “high.” The report will include, but is not
+                      limited to the following (as applicable):
+
+              6.6.3.1.1. Date and time incident detected.
+
+              6.6.3.1.2. Date and time incident reported to supervisor(s) and/or
+                         upper management.
+
+              6.6.3.1.3. Name(s) and contact information of the person(s) who
+                         discovered the incident.
+
+              6.6.3.1.4. Dated and time of notification.
+
+              6.6.3.1.5. Type of incident detected.
+
+              6.6.3.1.6. Description of the incident.
+
+              6.6.3.1.7. Incident response status.
+
+              6.6.3.1.8. Location of the incident.
+
+              6.6.3.1.9. Affected systems and user groups.
+
+              6.6.3.1.10 Recovery time expectations.
+
+              6.6.3.1.10. Internal and external stakeholders contacts that must be
+                          notified.
+              6.6.3.1.11. Identification, containment and eradication measures.
+
+              6.6.3.1.12. Evidence collected.
+
+              6.6.3.1.13. Pending actions (if any).
+
+Enterprise Incident Response Policy       Page 7 of 12
+
+      6.6.4. Information security incident response times will comply with the
+             following impact rating table:
+
+ Impact            Characteristics             Response     Notification Level   Post- incident
+                                                  time1                           report req.
+
+             Threat to human safety.
+              Adverse impact on a
+              “Critical” or “High” risk
+              rated information                             Security
+              asset, including                              Operations Center
+   High       infrastructure,                               (SOC),
+                                               Immediate                            Yes
+              applications, and                             Commonwealth CIO,
+              services.                                     CISO and agency
+              Financial or legal                            heads
+              liability equal to $1
+              million and above to the
+              Commonwealth.
+              Potential compromise
+              of information
+              classified as restricted,
+              or confidential
+              information, including
+              PII and other regulated
+              information.
+
+              Adverse impact on a
+              “Medium” risk rated
+              information asset,
+                                                            Commonwealth
+              including
+ Medium                                          4 hours    CISO, agency heads      Yes
+              infrastructure,
+              applications, and
+              services.
+              Financial or legal liability
+              between $100,000 and
+              $1 million.
+              Potential compromise of
+              information not
+              intended for public
+              disclosure.
+
+Enterprise Incident Response Policy          Page 8 of 12
+
+                     Adverse impact on a                                                                          No, unless
+                                                                                                Technical
+                     “Low” risk rated                                                                              decided
+                                                                              Next             support for
+                     information asset,                                                                        otherwise by the
+      Low                                                                   business            impacted
+                     including                                                                                  IR Coordinator
+                                                                              day          information asset
+                     infrastructure,
+                     applications, and
+                     services.
+                     Financial or legal liability
+                     of less than
+                     $100,000.
+
+1 Note: This is not resolution time but the start time of the incident response process.
+
+          6.6.5. Communication protocols
+
+                6.6.5.1. All information pertaining to an incident investigation will be handled
+                         with discretion and disclosed only on a need-to-know basis.
+
+                6.6.5.2. Incident reports will be categorized as confidential at the discretion of
+                         the Commonwealth CISO, or his or her designee, and the Enterprise
+                         Security Office.
+
+                6.6.5.3. The Commonwealth CISO, or his or her designee, will be designated
+                         the owner for all incident investigation related documentation.
+
+6.7. Security Incident Response and Investigation
+          6.7.1. When a security event is identified, the Enterprise Security Office, and
+                 relevant stakeholders, will take all necessary measures in order to
+                 minimize the risk to the Commonwealth and to limit further damage to the
+                 Commonwealth's information assets.
+
+          6.7.2. The SIRT team will:
+
+                6.7.2.1.           Investigate and confirm the validity of the reported incident.
+
+                6.7.2.2.           Contain and minimize the impact of the incident.
+
+                6.7.2.3.           Determine the root cause of the incident, including motive and type
+                                   of attack.
+
+                6.7.2.4.           Document the facts of the incident and gather system events
+                                   and/or audit records.
+
+Enterprise Incident Response Policy                                    Page 9 of 12
+
+          6.7.2.5.    Determine the scope, severity, impact, and nature of the incident.
+
+          6.7.2.6.    Remove or quarantine the affected asset from all Commonwealth
+                      networks as soon as possible, where technically feasible.
+
+          6.7.2.7.    Determine response and recovery timelines.
+
+          6.7.2.8.    The SIRT team will consult with EOTSS Legal and follow
+                      applicable chain of custody requirements for all incidents which
+                      may have potential legal implications.
+
+          6.7.2.9.    Collect and preserve all relevant evidence of the incident in
+                      whichever form it exists (digital, physical, original, or copied)
+                      Evidence will be collected and preserved in a manner that is
+                      consistent with legal and record retention requirements.
+
+7. Roles and Responsibilities
+        Role                                        Responsibility
+EOTSS Secretary           The person responsible for the management, implementation,
+and                       security and usability of information, technologies, processes,
+Commonwealth              and users within the Commonwealth’s IT environment. The
+Chief Information         Commonwealth CIO has authority over all activities concerning
+Officer (CIO)             information technology by all Commonwealth Agencies and
+                          Offices.
+Commonwealth              The person responsible to ensure compliance with this policy
+Chief Information         across all Commonwealth Agencies and Offices and Agencies.
+Security Officer          The CISO/CRO leads the ERM Office and is responsible for
+(CISO)/Chief Risk         aligning security initiatives with enterprise programs and
+Officer (CRO)             business objectives. The CISO/CRO ensures that the
+                          Commonwealth’s information assets are securely protected.
+
+Enterprise Risk           The office within EOTSS responsible for risk strategy,
+Management                identification, assessment, analysis, monitoring, reporting and
+Office (ERM)              mitigation. Under the direction of the Commonwealth
+                          CISO/CRO, ERM establishes the Commonwealth’s information
+                          security policies, standards, guidelines and directives to create
+                          an effective risk governance program that determines
+                          acceptable levels of risk tolerance and implements
+                          cybersecurity best practices to mitigate operational,
+                          reputational, security and financial risk.
+
+Enterprise Incident Response Policy       Page 10 of 12
+
+Chief Technology          The person responsible for the management, implementation,
+Officer (CTO)             security and internal operations of the entire information
+                          technology department. The CTO identifies weaknesses and
+                          vulnerabilities within the Commonwealth’s IT environment and
+                          implements controls to protect information assets and reduce
+                          risks. The CTO leads technological advancements, determines
+                          technology strategy, drives research and develops technology
+                          initiatives.
+
+Security Operations       The office within EOTSS responsible for monitoring and
+Center (SOC)              analyzing the state's security posture, and for detecting,
+                          analyzing and responding to cybersecurity incidents. The SOC
+                          coordinates with municipal, state, and federal agencies, as well
+                          as other stakeholders, in the event of a cybersecurity incident.
+                          The SOC is also responsible for communicating any high or
+                          critical situations to leadership, and for sharing information and
+                          resources as needed, to mitigate the effect of an incident.
+
+Security Incident         The team responsible to prepare for, respond to, mitigate and
+Response Team             recover from cybersecurity incidents. The SIRT will receive,
+(SIRT)                    review and investigate cybersecurity related incident reports
+                          and activity. They are responsible to protect the confidentiality,
+                          integrity and availability (CIA) of the Commonwealth’s IT
+                          environment.
+
+Commonwealth              Commonwealth Agencies and Offices are responsible to adhere
+Agencies and              to this policy and to comply with the requirements in this
+Offices                   document in addition to any supporting documentation issued
+                          by the Secretary of EOTSS/Commonwealth CIO, the
+                          Commonwealth CISO/CRO, and/or the ERM office.
+
+Enterprise Incident Response Policy       Page 11 of 12
+
+8. Control Mapping
+       Section       NIST SP 800-53       CIS 18                     NIST CSF
+      Incident       IR-2, IR-2, IR-3,   17.1, 17.2,      RC.RP, RC.CO, RS.CO, PR.PS-04,
+     Response        IR-4, IR-6, IR-8    17.3, 17.4,        DE.AE, RS.MA, RS.AN, RS.CO,
+                                         17.5, 17.6,           RS.MI, RC.RP, RC.CO,
+                                         17.7, 17.8,
+                                            17.9
+
+9.     Document Change Control
+ Version              Revised By           Effective              Description of Changes
+  No.                                        Date
+ 1.0             Thomas E. McDermott       7/9/2024       Initial Draft
+ 1.1             Miklos Lavicska           8/2/2024       Corrections and Formatting
+ 1.2             Thomas E. McDermott      12/23/2024      Revisions, Corrections, and
+                                                          Formatting
+ 1.3             Anthony J. O’Neill        1/1/2025       Final Review
+ 1.4             Thomas E. McDermott       3/28/2025      Updates, Corrections and
+                                                          Formatting
+ 1.4             Miklos Lavicska           4/18/2025      Corrections and Formatting
+ 1.4             Anthony J. O’Neill        4/24/2025      Final Review
+
+Enterprise Incident Response Policy       Page 12 of 12
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

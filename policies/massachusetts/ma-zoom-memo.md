@@ -1,0 +1,140 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: massachusetts
+id: ma-zoom-memo
+title: Acceptable Use of Zoom and other Collaboration Tools
+doc_type: policy
+citation: Memorandum of August 26, 2021 (Acceptable Use of Zoom and other Remote Collaboration and Conferencing
+  Tools)
+authority_level: ''
+issuing_body: Executive Office of Technology Services and Security
+source_url: https://www.mass.gov/doc/acceptable-use-of-zoom-and-other-collaboration-tools/download
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 849e86e474bce1b694cc0b1341e3b0e235f9704130ff1baa8c464c9368c8e9b2
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Acceptable Use of Zoom and other Collaboration Tools (Memorandum of August 26, 2021 (Acceptable Use of Zoom and other Remote Collaboration and Conferencing Tools))
+
+## At a glance
+
+The Secretary/CIO's memorandum to Secretariat Chief Information Officers clarifying the EOTSS policy on acceptable use of Zoom, GoToMeeting and similar tools (Microsoft Teams is the enterprise standard; others where Teams cannot meet a need). It is a memo, seeded because the collection lists it as an EOTSS policy.
+
+## Full text
+
+CHARLES D. BAKER                                                                                CURTIS M. WOOD
+Governor                                                                                           Secretary/CIO
+
+KARYN E. POLITO
+Lieutenant Governor
+
+Memorandum
+
+To:     Secretariat Chief Information Officers
+CC:     Chiefs of Staff and Assistant Secretary/ CHRO Jeff McCue
+From:   Curtis M. Wood, Secretary, Executive Office of Technology Services & Security
+Date:   August 26, 2021
+RE:     Acceptable Use of Zoom and other Remote Collaboration and Conferencing Tools
+
+Purpose
+The purpose of this memorandum is to clarify the EOTSS policy on the acceptable use of Zoom, GoToMeeting, and
+similar videoconferencing and remote collaboration tools.
+
+Microsoft Teams as the Enterprise Standard
+EOTSS has established Microsoft Teams as the enterprise standard for the Executive Branch Agency business
+collaboration software platform. This application is part of the Microsoft Office 365 product suite and is included
+in the cost of the Microsoft licensing agreement. The cost for this feature is already accounted for in EOTSS
+bundled Microsoft chargebacks to agencies.
+
+While Microsoft Teams has been established as the standard business collaboration tool, EOTSS issued guidance
+last year allowing for the use of other tools – such as Zoom and GoToMeeting – if an agency felt they best meet
+their business needs or the needs of their employees and constituents.
+
+However, as outlined below, EOTSS does require that agencies follow specific procurement, security, and support
+protocols in acquiring and using videoconferencing and office collaboration tools other than Microsoft Teams.
+
+Acceptable Use of Zoom, GoToMeeting, and Similar Tools
+With the exception of Zoom (see “Enterprise Zoom Licenses” below), agencies seeking to use these other
+platforms are responsible for acquiring these services via the appropriate Network Services, Communications
+Services and Related Equipment and/or IT Software and Services contracts established by the Operational
+Services Division (OSD). Free or “freemium” versions of these applications are prohibited.
+
+It is the responsibility of the agency to ensure that any product used for these purposes meets the standards set
+forth in the EOTSS Enterprise Information Security Policies and Standards, and that all security features are
+enabled during deployment. Agencies should also follow safe virtual meeting best practices as outlined by the
+EOTSS Enterprise Security Office.
+
+Additionally, agencies should review Massachusetts Office on Disability (MOD) Guidance relative to providing
+accessible virtual meetings and presentations for employees and constituents. Further MOD guidance and
+publications can be found here.
+
+Enterprise Zoom Licenses
+Secretariats can now allocate Zoom licenses at their discretion through the Zoom administrative portal. Each
+secretariat must identify at least two (2) Zoom administrators. EOTSS will assign those users as administrators in
+the Zoom portal, where they will be able to assign Zoom licenses to their end users.
+
+Each secretariat will receive twenty-five (25) Zoom licenses, to be shared across their organization. Secretariats
+will NOT be given more than twenty-five (25) Zoom licenses - the intent is to treat these as shared accounts across
+your organization.
+
+When to use Teams vs. Zoom
+
+                        Teams                                                        Zoom
+     •   For one-to-one or group collaboration                 •    To hold virtual office hours
+     •   When access to sensitive data during the              •    To poll participants
+         audio/video conference is required                    •    When there are accessibility needs
+                                                               •    To assign participants to breakout rooms
+                                                               •    To record a meeting without using the cloud
+                                                               •    To share or publish a recording for public
+                                                                    viewing
+
+     ✓ Preferred choice for: Security concerns,                ✓ Preferred choice for: Accessibility needs,
+       internal collaboration                                    external collaboration
+
+IT Support for Applications other than Microsoft Teams
+GoToMeeting and similar videoconferencing and remote collaboration tools are business applications not
+currently supported by EOTSS deskside support, the Help Desk, or the CommonHelp IT Service Desk. Our staff are
+not trained to install these applications, set up meetings, or troubleshoot issues that may arise during their daily
+use. Similarly, while EOTSS is providing Zoom licenses to secretariats, we do not support the actual use of the
+application, nor are we trained to set up or troubleshoot Zoom or Zoom meetings.
+
+Therefore, non-Microsoft collaboration tools must be supported by the respective agency. It is highly
+recommended that agencies work directly with the product vendor or reseller when acquiring these tools to
+obtain sufficient service agreements and support documentation as to how to set up and manage these
+collaboration platforms.
+
+Questions?
+If you have any questions on the acceptable use of Zoom, GoToMeeting, and similar videoconferencing and
+remote collaboration tools, please contact the EOTSS Chief Service Officer at donald.chamberlain@mass.gov.
+
+                                                                                                                     2
+
+###
+
+      3
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

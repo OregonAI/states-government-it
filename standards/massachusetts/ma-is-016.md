@@ -1,0 +1,385 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: massachusetts
+id: ma-is-016
+title: IS.016 Business Continuity and Disaster Recovery Standard
+doc_type: standard
+citation: IS.016
+authority_level: ''
+issuing_body: Executive Office of Technology Services and Security, Enterprise Risk Management Office
+source_url: https://www.mass.gov/doc/is016-business-continuity-and-disaster-recovery-standard/download
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: ebc004572d6b43b461ec8978278918a679ea8369431b0d76af7bd5881cba6561
+effective_date: '2018-10-15'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# IS.016 Business Continuity and Disaster Recovery Standard (IS.016)
+
+## At a glance
+
+One of the seventeen Enterprise Information Security Standards (IS.011 to IS.027) on EOTSS's Technology Standards and Guidelines page, which says executive branch agencies are required to conform to defined EOTSS policies and standards under Chapter 64 of the Acts of 2017. The page for the Business Continuity and Disaster Recovery Standard carries a summary and this PDF is the standard.
+
+## Full text
+
+                   Commonwealth of Massachusetts
+                   Executive Office of Technology Services and Security (EOTSS)
+                   Enterprise Risk Management Office
+
+                 Business Continuity and Disaster Recovery Standard
+
+ Document Name: Business Continuity and Disaster                             Effective Date: October 15th, 2018
+ Recovery Standard                                                           Last Revised Date: March 7, 2025
+ Document ID: IS.016
+
+                                                Table of Contents
+    1. Purpose ............................................................................................................. 2
+    2. Authority ............................................................................................................ 2
+    3. Scope ................................................................................................................ 2
+    4. Responsibility..................................................................................................... 2
+    5. Compliance ....................................................................................................... 3
+    6. Standard Statements .......................................................................................... 4
+    7. Control Mapping ................................................................................................. 7
+    8. Document Change Control.................................................................................. 8
+
+Business Continuity and Disaster Recovery        Page 1 of 8
+
+1. PURPOSE
+    1.1.    The purpose of this standard is to establish procedures for the continuation of
+            critical business processes in the event of any organizational or information
+            technology (“IT”) infrastructure failure and define the related controls and
+            acceptable practices needed for disaster recovery and business continuity.
+
+2. AUTHORITY
+    2.1.    Pursuant to M.G.L. Ch. 7d, the Executive Office of Technology Services and
+            Security, (EOTSS), possess the authority to establish policies, procedures, and
+            objectives with respect to activities concerning information technology. M.G.L.
+            Ch. 7d provides in pertinent part: “Notwithstanding any general or special law,
+            rule, regulation, executive order, policy or procedure to the contrary, all executive
+            department agencies shall, and other state agencies may, adhere to the policies,
+            procedures and objectives established by the executive office of technology
+            services and security with respect to activities concerning information
+            technology.”
+
+3. SCOPE
+    3.1.    This document applies to the use of information, information systems, assets,
+            applications, and network resources used to conduct business on behalf of the
+            Commonwealth. The document applies to the Executive Branch including all
+            executive offices, boards, commissions, agencies, departments, divisions,
+            councils, and bureaus, hereinafter referred to as Commonwealth Agencies and
+            Offices. Other Commonwealth entities that use or participate in services
+            provided by the Executive Office of Technology Services and Security, (EOTSS), by
+            any form of contractual arrangement, are required to comply with this document,
+            as a condition of use. Commonwealth Agencies and Offices are required to
+            implement procedures that ensure their personnel comply with the
+            requirements herein to safeguard information.
+
+4. RESPONSIBILITY
+    4.1.    The Enterprise Risk Management Office is responsible for the development and
+            ongoing maintenance of this standard. The Enterprise Risk Management Office is
+            responsible for this standard and may enlist other departments to assist in
+            maintaining and monitoring compliance with this standard. The owner of this
+            document is the Commonwealth CISO, or his or her designee. The document
+            owner will review and update this standard on an annual basis, or when
+            significant policy or procedural changes necessitate an amendment. Questions
+
+Business Continuity and Disaster Recovery   Page 2 of 8
+
+            regarding this document must be submitted to the document owner by sending
+            an email to ERM@mass.gov.
+
+    4.2.    Additional information regarding this standard and its related policies and
+            standards may be found at https://www.mass.gov/cybersecurity/policies.
+
+    4.3.    In the event of any conflict between the provisions contained in this standard and
+            the provisions set forth in any of the Enterprise Information Security Policies, the
+            provisions in the Enterprise Information Security Policies will govern.
+
+    4.4.    Definitions of terms in bold may be found in the IS.Glossary of Terms at
+            https://www.mass.gov/cybersecurity/policies.
+
+5. COMPLIANCE
+    5.1.    Compliance with this document is mandatory for the Executive Branch and all
+            Commonwealth Agencies and Offices. Violations are subject to disciplinary
+            action in accordance with applicable employment and collective bargaining
+            agreements, up to and including the termination of their employment and/or
+            assignment with the Commonwealth.
+
+    5.2.    In the event any Commonwealth Agency or Office is unable to comply with any
+            of the requirements of this document, the agency or office must submit an
+            Information Security Policy Non-Compliance Report to the Enterprise Risk
+            Management          Office       online        through         ServiceNow,
+            https://www.mass.gov.service-now.com).
+
+    5.3.    The Non-Compliance Report will:
+
+        5.3.1. Specifically state the reason/cause of the non-compliance
+
+        5.3.2. Identify and explain in detail the risks created due to the non-compliance
+
+        5.3.3. Provide a detailed explanation of the controls the agency, or office will
+               implement to mitigate the risks to an acceptable level
+
+        5.3.4. Specify the time-frame required to implement the controls and mitigate the
+               identified risks. All Risk Mitigation Plans (RMP) will be for a limited time.
+
+        5.3.5. The names and contact information for both the risk owner and the control
+               owner designated by the agency to accept and manage the risks associated
+               with the non-compliance and implement the controls that will effectively
+               mitigate the identified risks.
+
+Business Continuity and Disaster Recovery   Page 3 of 8
+
+6. STANDARD STATEMENTS
+    6.1.    Business Continuity Management
+
+        6.1.1. Commonwealth Agencies and Offices must establish a Business Continuity
+               Program.
+
+        6.1.2. Commonwealth Agencies and Offices must develop and maintain
+               processes for business continuity, as follows:
+
+            6.1.2.1.     Identify a Business Continuity Lead that will have primary
+                         responsibilities for the Business Continuity Program, including plan
+                         development, plan testing and program sustainment.
+
+            6.1.2.2.     Perform a risk assessment of critical information assets: Establish
+                         controls to identify, contain and mitigate the risks associated with the
+                         loss or disruption of critical business processes and information
+                         assets (see IS.021 Information Security Risk Management Standard for
+                         additional detail on risk assessments).
+
+            6.1.2.3.     Conduct business impact analysis (BIA): Commonwealth Agencies
+                         and Offices must leverage IS.004 Asset Management Policy when
+                         applicable, to perform a BIA to identify critical business processes,
+                         information assets, customers, third parties, technical and non-
+                         technical dependencies, and recovery timelines and to assess the
+                         impact a disruption would have on the organizational processes,
+                         systems, and operations.
+
+                 6.1.2.3.1. The BIA must be updated whenever a major organizational change
+                            occurs or at least annually, whichever comes first.
+
+            6.1.2.4.     Develop business continuity plans (BCP): Commonwealth Agencies
+                         and Offices will develop BCPs for critical business processes based on
+                         prioritization of likely disruptive events in light of their probability,
+                         severity and consequences for information security identified through
+                         the BIA and risk assessment processes.
+
+                 6.1.2.4.1. BCPs will address both manual and automated processes used by
+                            the agency and document minimum operating requirements to
+                            resume critical functions/applications in an appropriate period of
+                            time.
+
+                 6.1.2.4.2. The primary responsibility for developing, maintaining, and testing
+                            organizational and functional BCPs will reside with the Business
+                            Continuity Lead.
+
+Business Continuity and Disaster Recovery   Page 4 of 8
+
+                     6.1.2.4.2.1.     Roles and responsibilities of BCP stakeholders will be
+                                      clearly defined and communicated.
+
+                     6.1.2.4.2.2.     Point(s) of contact should be identified from the customer
+                                      side for any incident or crisis communication via call,
+                                      messaging and/or email. The contact details of the points of
+                                      contact should be validated and updated at least annually.
+
+                 6.1.2.4.3. BCPs must be updated whenever a major organizational change
+                            occurs or at least annually, whichever comes first.
+
+                 6.1.2.4.4. BCPs will be developed as follows:
+
+                     6.1.1.4.4.1      Identify essential mission and business functions and a plan
+                                      for maintaining these functions in the event of system or
+                                      environment compromise, disruption, or failure.
+
+                     6.1.1.4.4.2      Create and implement adequate business recovery and risk
+                                      mitigation strategies, including the definition of acceptable
+                                      recovery time frames.
+
+                     6.1.1.4.4.3      Clearly state the conditions required for activating BCPs to
+                                      minimize the cost associated with unnecessary use.
+
+                     6.1.1.4.4.4      Define fallback and resumption emergency procedures to
+                                      allow for temporary measures and full resumption as
+                                      required. Ensure that confidential information is protected
+                                      while operating in emergency mode.
+
+                     6.1.1.4.4.5      Assess BCP impact on              external    organizational
+                                      dependencies and contracts.
+
+                     6.1.1.4.4.6      Develop public relations strategy to ensure effective and
+                                      timely communication with relevant stakeholders.
+
+                 6.1.1.4.5 Business Continuity Lead will schedule and conduct an annual
+                           BCP test for BCP users consistent with assigned responsibilities.
+
+                 6.1.1.4.6 Business Continuity Lead will schedule and evaluate BCP testing
+                           procedures to ensure that they are practical and realistic.
+
+                     6.1.1.4.6.1      Perform annual tests of the BCPs to identify incorrect
+                                      assumptions, oversights, and account for updates to
+                                      equipment or personnel changes. Test results will be
+                                      reported to senior management, the Commonwealth
+                                      CISO, or his or her designee, and the Security Office.
+
+Business Continuity and Disaster Recovery   Page 5 of 8
+
+                     6.1.1.4.6.2      All relevant stakeholders associated with BCP procedures
+                                      will participate in annual testing. A debrief session to
+                                      evaluate test results and to discuss lessons learned should
+                                      be conducted following the test.
+
+                     6.1.1.4.6.3      If significant changes are implemented to BCPs, testing
+                                      cadence must be reevaluated and executed.
+
+        6.1.3. Information Owner will develop backup standard operating procedures that
+               are aligned with IS.023 Operations Management Standard and specifically
+               Data Backup and Restoration in IS.023 Operations Management Standard, to
+               ensure that copies of critical data are retrievable.
+
+    6.2.    Disaster Recovery Management
+
+        6.2.1. Commonwealth Agencies and Offices must ensure that Disaster Recovery
+               (DR) procedures will be initiated when the appropriate personnel have
+               determined that the ability to recover critical information assets will likely
+               exceed the established recovery time and/or recovery point objectives.
+
+        6.2.2. Adequate backup facilities should be provided such that all essential
+               information assets can be recovered following a disaster.
+
+        6.2.3. Commonwealth Agencies and Offices must develop and maintain processes
+               for disaster recovery plans at both onsite primary Commonwealth locations
+               and at alternate offsite locations.
+
+        6.2.4. DR plans must include step-by-step emergency procedures, including:
+
+            6.2.4.1.     Identify relevant stakeholders (primary and secondary) and establish
+                         a call tree.
+
+            6.2.4.2.     Conduct a damage assessment of the impacted IT infrastructure and
+                         applications.
+
+            6.2.4.3.     Establish procedures that allow facility access (e.g.,
+                         recovery/secondary site) in support of the restoration of lost data in the
+                         event of an emergency.
+
+            6.2.4.4.     Recover critical agency services and information assets based on
+                         recovery priorities as established during the BIA.
+
+            6.2.4.5.     Provide interim means for performing critical business processes at or
+                         above the minimum service level defined in the BCP and within the
+                         tolerable length of time.
+
+Business Continuity and Disaster Recovery   Page 6 of 8
+
+            6.2.4.6.     Restore service at the original site of impact and migrate from the
+                         alternate locations to the original site without unacceptable
+                         interruption or degradation in service.
+
+        6.2.5. Commonwealth Agencies and Offices must ensure that DR plans will be
+               tested annually. The test may consist of structured walk-through exercises or
+               actual execution of the plan at an appropriate alternate site. The results will
+               be documented, reported and reviewed with senior management, the
+               Commonwealth CISO, or his or her designee, and the Security Office.
+
+            6.2.5.1.     Detailed test plans must be developed with clear test scope, purpose,
+                         and objectives, as well as identifying the personnel involved and the
+                         timeframe necessary for the test. Measurement criteria must be
+                         included.
+
+            6.2.5.2.     Information security aspects (e.g., data protection) of the test plan
+                         will be reviewed and approved by the Security Office.
+
+            6.2.5.3.     All critical processes and applications/systems for contingency,
+                         recovery, automatic fail-over, manual fail-over and replacement of
+                         failed components will be tested:
+
+                 6.2.5.3.1. Annually under normal operating conditions. The assessment may
+                            include announced or unannounced events.
+
+                 6.2.5.3.2. Whenever significant technological, organizational, or business
+                            changes occur.
+
+        6.2.6. Commonwealth Agencies and Offices must ensure that DR personnel will
+               keep a current copy of the DR plan documentation at the designated primary
+               and alternate locations.
+
+        6.2.7. Commonwealth Agencies and Offices must ensure that approval to distribute
+               the DR plan is the responsibility of the designated DR Lead.
+
+        6.2.8. Systematic version control to manage the DR plan will be implemented to
+               maintain accuracy. Outdated versions of the DR plan will be retired.
+
+7. CONTROL MAPPING
+       Section               NIST SP800-53 R5             CIS 18 v6          NIST CSF
+ 6.1 Business                      AU-7                    CSC 8              PR.PT-1
+ Continuity                        AU-9                    CSC 8              PR.PT-1
+ Management                        IR-4                    CSC 17           DE.AE-family
+                                   CP-1                       -               ID.GV-1
+                                   CP-2                       -               ID.AM-5
+
+Business Continuity and Disaster Recovery   Page 7 of 8
+
+                                     CP-3                    -                         -
+                                     CP-4                  CSC 17                   PR.IP-4
+ 6.2 Disaster                        CP-1                    -                     ID.GV-1
+ Recovery                            CP-2                    -                     ID.AM-5
+ Management                          CP-4                  CSC 17                   PR.IP-4
+                                     CP-6                  CSC 11                   PR.IP-4
+                                     CP-7                    -                         -
+                                     PE-17                   -                         -
+                                     CP-10                 CSC 11                  RS.RP-1
+
+8. DOCUMENT CHANGE CONTROL
+ Version       Revised by                   Effective     Description of changes
+ No.                                        date
+ 0.90          Jim Cusson                   10/01/2017         Corrections and formatting.
+ 0.92          John Merto                   01/02/2018           Corrections, Formatting
+ 0.95          Sean Vinck                     5/7/2018          Corrections and Formatting
+ 0.96          Andrew Rudder                 5/31/2018          Corrections and Formatting
+ 0.98          Anthony O’Neill              05/31/2018          Corrections and Formatting
+ 1.0           Dennis McDermitt             06/01/2018            Pre-Publication Review
+ 1.0           Andrew Rudder                 10/4/2018    Approved for Publication by: John Merto
+ 1.1           Megan Perkins                 7/15/2020     Annual Review; Minor corrections and
+                                                                        formatting
+ 1.2           Sean M. Hughes                11/04/2021               Annual Review
+ 1.3           Sean M. Hughes                08/29/2022   Updates for NIST 800-53R5 and annual
+                                                                          review
+ 1.4           Thomas McDermott              11/16/2023   Corrections, Formatting, Updating and
+                                                                      Annual Review
+ 1.4           Anthony O’Neill               11/16/2023                Final Review
+ 1.5           Thomas McDermott              11/22/2024     Corrections, Formatting and Annual
+                                                                          Review
+ 1.5           Anthony O’Neill               11/22/2024                Final Review
+ 1.6           Thomas McDermott                2/6/2025    Updates, Corrections and Formatting
+ 1.6           Miklos Lavicska                2/25/2025         Corrections and Formatting
+ 1.6           Anthony O’Neill                 3/7/2025                Final Review
+
+Business Continuity and Disaster Recovery   Page 8 of 8
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
