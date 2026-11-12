@@ -1,0 +1,51 @@
+Montana Code Annotated 2025
+TITLE 18. PUBLIC CONTRACTS
+CHAPTER 5. SPECIAL PURCHASING CONDITIONS
+Part 6. Nonvisual Access Technology Procurement
+
+18-5-601. Findings -- policy. (1) The legislature finds that:
+(a) the advent of the information age throughout the United States and around the world has resulted in lasting changes in information technology;
+(b) the use of interactive visual display terminals by the state is becoming a widespread means of access for public employees and the public to obtain information available electronically, but nonvisual access, whether by speech, Braille, or other appropriate means, has not been systematically incorporated into the procurement process for new information technology;
+(c) presentation of electronic data solely in a visual format is a barrier to access by individuals who are blind or visually impaired, preventing them from participating on equal terms in crucial areas of life, such as education and employment;
+(d) alternatives, including both software and hardware adaptations, have been created so that interactive control of computers and the use of the information presented are possible by both visual and nonvisual means;
+(e) the goals of the state in obtaining and deploying new forms of technology properly include universal access so that segments of society with particular needs, including individuals who are unable to use visual displays, will not be left out of the information age; and
+(f) although access to programs, technology, and information is provided for under other state and federal law and, in many instances, compels the installation and availability of nonvisual technology adaptations, access to information technology is most effectively accomplished at the point of procurement, ensuring that funds are expended on information technology designed to be readily adaptable for nonvisual access.
+(2) It is the policy of this state that all state programs and activities be conducted in accordance with the following principles:
+(a) Individuals who are blind or visually impaired have the right to full participation in the life of the state, including the use of information technology that is provided by the state for use by employees, program participants, and the public.
+(b) Technology purchased in whole or in part with funds provided by the state that is to be used for the creation, storage, retrieval, or dissemination of information and that is intended for use by employees, program participants, and the public must be accessible to and usable by individuals who are blind or visually impaired.
+History: En. Sec. 1, Ch. 429, L. 2001.
+
+18-5-602. Definitions. As used in this part, unless the context requires otherwise, the following definitions apply:
+(1) "Access" means the ability to receive, use, and manipulate data and operate controls included in information technology.
+(2) "Blind or visually impaired" means an individual who has:
+(a) a visual acuity of 20/200 or less in the better eye with correcting lenses or has a limited field of vision so that the widest diameter of the visual field subtends an angle no greater than 20 degrees;
+(b) a medically indicated expectation of visual deterioration; or
+(c) a medically diagnosed limitation in visual functioning that restricts the individual's ability to read and write standard print at levels expected of individuals of comparable ability.
+(3) "Information technology" means all electronic information processing hardware and software, including telecommunications.
+(4) "Nonvisual" means synthesized speech, Braille, and other output methods not requiring sight.
+(5) "Readily adaptable" means that all critical components of information may be rendered by the information technology in equivalent nonvisual formats and that the installation or operation of software or hardware adaptations for speech, Braille, or other nonvisual formats do not require extraordinary alterations to the information technology.
+(6) "State agency" means a department, board, commission, office, bureau, institution, university system entity, or unit of state government recognized in the state budget.
+(7) "Telecommunications" means the transmission of information, images, pictures, voice, or data by radio, video, or other electronic or impulse means.
+(8) "Undue burden" means compliance may be accomplished only by incurring an undue financial or administrative burden or by fundamentally altering a program or activity.
+History: En. Sec. 2, Ch. 429, L. 2001.
+
+18-5-603. Nonvisual access ensured. When information technology equipment and software are procured for use by employees, program participants, or members of the public, the state agency head shall ensure that the equipment or software:
+(1) provides blind or visually impaired individuals with access, including interactive use of the equipment and services, that is equivalent to that provided to individuals who are not blind or visually impaired;
+(2) is designed to present information, including prompts used for interactive communications, in formats intended for both visual and nonvisual use; and
+(3) has been purchased under a contract that includes the technology access clause required by 18-5-604.
+History: En. Sec. 3, Ch. 429, L. 2001.
+
+18-5-604. Procurement requirements. (1) The technology access clause, referred to in 18-5-603(3), must be developed by the department of administration and must require compliance with nonvisual access standards developed by the state. The access clause and the nondiscrimination language required in 49-3-207 must be inserted in all contracts for the procurement of information technology by, or for the use of, state agencies.
+(2) The nonvisual access standards developed pursuant to subsection (1) must include specifications that are necessary to fulfill the assurances contained in 18-5-603 and must include the following minimum specifications:
+(a) Effective, interactive control and use of the technology, including the operating system, applications programs, and format of the data presented, are readily adaptable to nonvisual means.
+(b) The technology equipped for nonvisual access must be compatible with information technology used by other individuals with whom the blind or visually impaired individual may interact or exchange electronic information.
+(c) Nonvisual access technology must be integrated into networks used to share communications among employees, program participants, and the public.
+(d) The technology for nonvisual access must have the capability of providing equivalent access by nonvisual means to telecommunications or other interconnected network services used by persons who are not blind or visually impaired.
+History: En. Sec. 4, Ch. 429, L. 2001.
+
+18-5-605. Implementation. (1) For the purposes of ensuring the effective phasing in of nonvisual access technology procurement, the head of any state agency may not approve exclusion of the technology access clause required by 18-5-604 from any contract with respect to the compatibility of standard operating systems and software with nonvisual access software and peripheral devices or with respect to the initial design, development, and installation of information systems, including the design and procurement of interactive equipment and software.
+(2) This section does not require the installation of software or peripheral devices used for nonvisual access when the information technology is being used by individuals who are not blind or visually impaired.
+(3) Notwithstanding subsection (2), the applications programs and underlying operating systems, including the format of the data, used for the manipulation and presentation of information must permit the installation and effective use of nonvisual access software and peripheral devices.
+(4) Compliance with this part with regard to information technology purchased prior to July 1, 2001, must be achieved at the time of procurement of an upgrade or replacement of existing equipment or software.
+(5) A state agency may be exempted from the provisions of this part if the state agency makes a good faith determination that compliance would result in an undue burden.
+History: En. Sec. 5, Ch. 429, L. 2001; amd. Sec. 40, Ch. 2, L. 2009.

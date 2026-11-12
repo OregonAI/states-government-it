@@ -1,0 +1,141 @@
+                           Information Technology Board (ITB)
+                                 Operating Procedures
+1.       Roles and Responsibilities (2-17-505, MCA and 2-17-513, MCA)
+         Information technology is an essential component in enabling the Governor’s initiatives
+         and must serve citizens in a secure, efficient, and effective manner. The board shall
+         guide state and local government in the development and deployment of
+         intergovernmental information technology resources.
+
+         The board provides a collaborative forum to draft legislation recommendations for the
+         Governor and Legislature regarding information technology statute’s, policies, and other
+         legislation. These proposed changes will ensure the efficiency and effectiveness of
+         information technology at an enterprise level for state and local government.
+
+         It is essential the board study the past, present, and future information technology needs
+         to guarantee emerging technology aids in the development of enterprise information
+         technology purchases. An essential role of the board is to advise the Department of
+         Administration (DOA) on statewide information technology standards, policies, major
+         information technology budget requests, and rates.
+
+         The board is the central coordination point to identify, evaluate, and prioritize
+         departmental and interagency electronic government services. This level of effort will
+         ensure the appropriate creation, management, and administration of electronic
+         government services and information.
+
+2.       Membership (2-15-1021, MCA)
+         Board members are appointed by the Governor in January of every odd-numbered year.
+         Appointees to the Board shall be senior policy officials such as department directors,
+         legislators, and agency Chief Information Officers (CIOs). Members of the Board and
+         their designated alternates should be senior managers, not technical staff.
+
+         The Board will consist of 18 members:
+
+             • Director of DOA
+             • State CIO, who serves as the Chair
+             • Director of the Office of Budget and Program Planning (OBPP)
+             • Three members who are directors of state agencies, appointed by the Governor
+             • Two Local Government Representatives, appointed by the Governor
+             • One member representing the public service commission, appointed by the Public
+               Service Commission
+             • One Private Sector Representative, appointed by the Governor
+             • One member of the House of Representatives, appointed by the Speaker of the
+               House
+             • One member of the Senate, appointed by the President of the Senate
+             • One Legislative Branch Representative, appointed by the Legislative Branch
+ITB Operating Procedures
+Effective Date:
+Page 1 of 3
+
+                 Information Technology Planning Council
+               • One Judicial Branch Representative, appointed by the Chief Justice of the
+                 Supreme Court
+               • One K-12 Education Representative, appointed by the Superintendent of Public
+                 Instruction
+               • The Attorney General or their designee
+               • The Secretary of State or their designee
+               • The State Auditor or their designee
+
+         Appointments must be made without regard to political affiliation and exclusively for the
+         management of the information technology resources used by the state.
+
+         A vacancy occurring on the Board must be filled by the appointing authority in the same
+         manner as the original appointment.
+
+         In the event of delayed reappointment, current appointees will continue in their positions
+         until reappointments occur.
+
+3.       Voting and Participation
+         Members are strongly encouraged to attend all meetings. An alternate may be
+         designated to represent members on the occasion that they are unable to attend. The
+         designated alternate may vote on behalf of the member.
+
+         The Board shall function in an advisory capacity (2-15-1021, MCA and 2-15-102, MCA).
+         A majority of the membership of the Board constitutes a quorum to do business (2-15-
+         122, MCA). Each member of the Board has one vote.
+
+4.       Meetings
+         The Board shall meet on a quarterly basis or as determined by the Chair. The Chair may
+         call a special meeting of the Board.
+
+        4.1.     Meeting Notices (ARM 2.2.102)
+                 The State CIO Support Staff shall use best efforts to post meeting notices a week
+                 ahead of time. Meetings shall be posted a minimum of 72 hours in advance.
+                 Meeting notices shall follow the open meeting rules, Mont. Code Ann. Title 2,
+                 Chapter 3, Part 2 and ARM 2.2.102.
+                 All Board meeting materials will be distributed via the ITB Website
+                 https://sitsd.mt.gov/Governance/Boards-Councils/IT-Board/.
+
+        4.2.     Communications
+                 The Board shall communicate through the Chair. Members are encouraged to
+                 contact the Chair with suggested agenda items. Official correspondence will be
+                 distributed at the discretion of the Chair.
+
+ITB Operating Procedures
+Effective Date:
+Page 2 of 3
+
+        4.3.     Public Participation
+                 Members of the public are encouraged to attend and to participate in the
+                 Information Technology Board meetings. The agenda must include an agenda
+                 item allowing public comment for any item on the agenda and for any item that is
+                 not on the agenda of the meeting and that is within the jurisdiction of the agency
+                 conducting the meeting. Public comment must be incorporated into the official
+                 minutes of the meeting.
+                 Members of the public may submit written public comment
+                 to CIOSupportStaff@mt.gov or by fax at (406) 444-2701.
+
+5.       The State Information Technology Services Division (SITSD) Participation
+         The State CIO Support Staff will provide the following administrative support to the
+         Board:
+
+               • Assisting in creation of meeting agenda
+               • Organizing meeting dates
+               • Coordinating meeting rooms
+               • Facilitating meetings
+               • Drafting minutes
+               • Distributing correspondence
+               • Responding to the ad-hoc needs of the Board
+               • Provide technical resources for assigned subcommittees, as requested by the
+                 Chair
+               • Assuring approval of the Operating Procedures after appointment of the Board in
+                 each odd-numbered year.
+
+6.       Operating Procedures
+         The Operating Procedures will be reviewed and approved in the first meeting of the newly
+         appointed members after January of each odd-numbered year.
+
+7.       Expense Reimbursement
+         Mileage, meals, and lodging expenses will be reimbursed according to Section’s 2-15-
+         124, MCA and 5-2-302, MCA.
+
+History
+Approved: January 29, 2026. Changed the chair to the State CIO.
+
+Approved: December 14, 2023. Added information on meeting notices and public participation.
+Reformatted and rearranged previous version. Added history section,
+
+Approved: December 16, 2021
+
+ITB Operating Procedures
+Effective Date:
+Page 3 of 3
