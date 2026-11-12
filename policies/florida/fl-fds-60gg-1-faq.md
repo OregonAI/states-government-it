@@ -1,0 +1,230 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: florida
+id: fl-fds-60gg-1-faq
+title: Rule Chapter 60GG-1 F.A.C. Frequently Asked Questions
+doc_type: policy
+citation: Rule Chapter 60GG-1, F.A.C. FAQ
+authority_level: ''
+issuing_body: Department of Management Services, Florida Digital Service
+source_url: https://www.digital.fl.gov/content/download/465034/file/FLDS%202026%20Rule%2060GG-1%20FAQ.pdf
+source_format: pdf
+retrieved: '2026-11-11'
+source_sha256: 75b1d767e97f5936f9a87262749880199a4cee82ffe0caf864aef00560a8c363
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- oversight
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Rule Chapter 60GG-1 F.A.C. Frequently Asked Questions (Rule Chapter 60GG-1, F.A.C. FAQ)
+
+## At a glance
+
+The Florida Digital Service's guidance to state and Cabinet agencies ('Enterprise Agencies') on the requirements of rule chapter 60GG-1, F.A.C. (IT project management and oversight): which projects are excluded, the operations-and-maintenance threshold, and how the rule applies. Listed on the Project Oversight Resources page as 'Rule Chapter 60GG-1 F.A.C. Frequently Asked Questions'. Guidance, not the rule itself: OWNER DECISION whether guidance belongs (see left_out).
+
+## Full text
+
+                                                                   Rule Chapter 60GG-1, F.A.C. FAQ
+
+Rule Chapter 60GG-1, F.A.C. Frequently
+Asked Questions
+Purpose
+
+In accordance with sections 282.0051(1)(c–d) and (m), Florida Statute (F.S.), the Florida Digital
+Service (FLDS) is responsible for establishing project management and oversight standards,
+performing project management oversight, and reporting on high-risk State and Cabinet agency
+Information Technology (IT) Projects. Section (s.) 282.0051(6), F.S. establishes FLDS’ rulemaking
+authority.
+This Frequently Asked Questions (FAQ) document is intended to provide clear and consistent
+guidance to common questions asked by State and Cabinet Agencies (collectively, “Enterprise
+Agencies”) regarding the requirements established in Rule Chapter 60GG-1, Florida Administrative
+Code (F.A.C.).
+
+Rule
+
+1.     What types of IT Projects are excluded from Rule Chapter 60GG-1, F.A.C. requirements?
+
+       Projects that do not meet the statutory definitions of both "Information Technology" and
+       "Project" under s. 282.0041, F.S., are not subject to Rule Chapter 60GG-1, F.A.C.
+
+       All IT Projects that meet those statutory definitions are subject to the requirements of the
+       rule. Rule Chapter 60GG-1, F.A.C., establishes a Risk-based approach to project
+       governance based on the nature, size, and Risk of the project.
+
+       Information Technology Projects that also meet the definition of an Operations and
+       Maintenance (O&M) activity are subject only to the requirements of Rule 60GG-1.002(6),
+       F.A.C., provided they satisfy all of the following criteria:
+
+       •   The Total Project Cost is less than $500,000;
+       •   The total estimated effort is less than 320 hours; and
+       •   The project is expected to be completed in less than 60 days.
+
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov            1
+
+                                                                     Rule Chapter 60GG-1, F.A.C. FAQ
+
+       O&M projects that exceed any of the thresholds above must comply with the
+       requirements of Rule 60GG-1.002(2) through (5), F.A.C.
+
+       IT projects that meet the statutory criteria for IT Project Oversight under s. 282.0051, F.S.,
+       must comply with Rule 60GG-1.003, F.A.C.
+
+       Enterprise Agencies that are unsure if Rule Chapter 60GG-1, F.A.C., applies to a particular
+       initiative should contact FLDS for assistance in determining the applicable requirements.
+
+2.     Can Enterprise Agencies tailor project management documentation for smaller or low-
+       Risk projects?
+
+       Project management documentation can be scaled based on project size, budget, Scope,
+       complexity, methodology, and Risk, provided the Enterprise Agency continues to meet
+       applicable Rule Chapter 60GG-1, F.A.C. requirements.
+
+3.     What are the required documents that Enterprise Agencies must maintain for projects?
+
+       Enterprise Agencies must maintain the documentation required by Rule Chapter 60GG-1,
+       F.A.C. The specific documentation will vary based on project size, Scope, complexity,
+       methodology, and applicable rule requirements.
+
+4.     How is Total Project Cost defined?
+
+       Total Project Cost is the estimated cost of the entire IT Project from initiation through
+       closing, not just the current phase, contract, fiscal year, or appropriation. Total Project
+       Cost includes all anticipated expenditures and financial obligations needed to deliver the
+       project.
+
+       The estimated Total Project Cost is used to determine whether a project meets the
+       statutory threshold for Project Oversight under s. 282.0051, F.S. Oversight is triggered
+       when the project's estimated total cost exceeds the statutory threshold, even if the
+       project has not received all funding or costs will be incurred over multiple fiscal years.
+
+       For example, if an Enterprise Agency plans to implement a new system over three years
+       with an estimated total cost of $25 million, the project's total cost is $25 million, not just
+       the amount appropriated or expected to be spent during the first year. The project is
+       subject to oversight because the Total Project Cost exceeds the statutory threshold.
+
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov                2
+
+                                                                   Rule Chapter 60GG-1, F.A.C. FAQ
+
+FLDS Oversight and Governance
+
+5.     Which Enterprise Agency meetings should include FLDS?
+
+       Enterprise Agencies should invite FLDS to attend project status and governance meetings
+       where project progress, changes, Risks, action items, Issues, decisions, and lessons
+       learned (CRAIDL or RAID) are discussed.
+
+       Examples include:
+
+       •   Status meetings: daily standups, weekly or biweekly meetings, monthly status
+           meetings, etc.
+       •   Independent Verification and Validation (IV&V) meetings: weekly, monthly, and
+           quarterly
+       •   Executive steering committee or project leadership team meetings
+       •   CRAIDL or RAID meetings, change control boards, or any other meetings to discuss
+           changes, Risks, action items, Issues, decisions, and lessons learned
+       •   Continuing oversight meetings pursuant to s. 287.057(26), F.S.
+
+       The FLDS oversight team attends as silent observers and does not participate in technical
+       or development meetings. However, technical advisement is available on request.
+
+6.     How does FLDS assess the Enterprise Agencies’ project level of Risk?
+
+       FLDS assesses project Risk using information provided by the Enterprise Agency,
+       including required project management documentation, status reporting, Risk and Issue
+       information, governance activities, project performance metrics, and other oversight
+       processes established under Rule 60GG-1.003, F.A.C. Additionally, FLDS considers internal
+       oversight metrics and Risk indicators when evaluating overall project health.
+
+7.     When does FLDS consider oversight complete for a project?
+
+       FLDS considers project oversight complete after reviewing and accepting the final closing
+       package.
+
+Operations and Maintenance
+
+8.     What are the requirements for O&M projects falling below the thresholds identified in
+       subsection (6) of Rule 60GG-1.002, F.A.C.?
+
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov        3
+
+                                                                   Rule Chapter 60GG-1, F.A.C. FAQ
+
+       Projects that fall below the thresholds identified in Rule 60GG-1.002, F.A.C. are not subject
+       to subsections (2) through (5) of Rule 60GG-1.002, F.A.C. Instead, Enterprise Agencies must
+       create and maintain an O&M Plan and manage the project in accordance with that plan.
+
+       An O&M project must comply with the requirements of Rule 60GG-1.002(2) through (5),
+       F.A.C., if the project exceeds any one of the thresholds identified in Rule 60GG-1.002(6),
+       F.A.C.
+
+Plan of Action and Milestones
+
+9.     What are the requirements for O&M projects falling below the thresholds identified in
+       subsection (6) of Rule 60GG-1.002, F.A.C.?
+
+       In accordance with Rule 60GG-1.004, F.A.C., Enterprise Agencies should document
+       compliance challenges, associated Risks, and remediation activities through a Plan of
+       Action and Milestones (POA&M) and coordinate with FLDS as appropriate. A template for
+       a POA&M is available on the FLDS website and can be submitted through the Project
+       Oversight Portal on the FLDS Gateway.
+
+10.    If an Enterprise Agency has submitted a POA&M, how will the agency know when they are
+       determined to be in compliance with the rules?
+
+       Submission of a POA&M does not mean an IT Project is compliant with Rule 60GG-1, F.A.C.
+       Rather, the POA&M documents how an Enterprise Agency will achieve compliance when
+       immediate compliance is not feasible because of operational challenges or significant
+       project Risks.
+
+       FLDS will work collaboratively with the Enterprise Agency throughout the POA&M process
+       to monitor progress, provide guidance, and verify that the identified corrective actions
+       have been completed. An IT Project is considered compliant when the outstanding
+       deficiencies identified in the POA&M have been satisfactorily addressed. Until that time,
+       the project remains subject to the POA&M process and will continue to be identified as
+       having an active POA&M in FLDS's quarterly reporting.
+
+Resources and Support
+
+11.    Will FLDS provide new and updated templates that align with the new rule?
+
+       FLDS will update templates and continue to provide new templates to align with the Rule
+       Chapter 60GG-1, F.A.C. requirements.
+
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov            4
+
+                                                                   Rule Chapter 60GG-1, F.A.C. FAQ
+
+12.    When should an Enterprise Agency or project team submit a Legislative Budget Request
+       to FLDS for review?
+
+       Enterprise Agencies should submit Legislative Budget Requests to allow adequate time
+       for FLDS review and feedback before submission to the Office of Policy and Budget.
+13.    What is the process for contacting the Project Management and Oversight Office with
+       questions?
+       Enterprise Agencies can contact the FLDS Project Management and Oversight Office at
+       PMO@digital.fl.gov.
+
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov        5
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

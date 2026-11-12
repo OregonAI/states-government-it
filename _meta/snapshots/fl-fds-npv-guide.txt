@@ -1,0 +1,361 @@
+                                                                        NPV Portfolio Prioritization
+
+Using Net Present Value to
+Prioritize State Information
+Technology Projects
+A practical guide for comparing state IT investments when funding and resources are limited.
+
+This guide answers two related questions: How should Net Present Value (NPV) be calculated for
+state IT project analysis, and how should agencies compare projects consistently when only one
+or a few can be funded?
+
+Applicability. This guide does not determine whether a Schedule IV-B is required. Agencies must
+follow the current annual Legislative Budget Request (LBR) instructions. For the current budget
+cycle, a Schedule IV-B is generally required for an IT funding request with a total estimated
+project cost of $1 million or more, subject to the exceptions listed in those instructions. Section
+216.023(4)(a)10, Florida Statutes, imposes additional governance/policy information
+requirements for IT projects exceeding $10 million.
+
+Calculate Net Present Value Consistently
+
+Illustrative NPV concept: NPV = Σ [(Benefitsₜ - Costsₜ) ÷ (1 + r)ᵗ]. This simplified formula explains
+the concept of NPV; it is not a substitute for the Schedule IV-B Appendix A Cost Benefit Analysis
+(CBA) workbook.
+
+Discount Rate
+
+For a Schedule IV-B, complete and submit the current Appendix A CBA workbook and use its
+prescribed calculations and fiscal-year cost-of-capital assumptions. For analyses outside
+Schedule IV-B, use an agency-approved financial policy and consistent timing and rate
+
+                                                                                                        1
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
+
+                                                                         NPV Portfolio Prioritization
+
+conventions; obtain finance approval if no rate is prescribed. Any teaching or sensitivity-test rate
+(for example, 3%) must be labeled illustrative; it is not an FLDS or statewide standard.
+
+Apply NPV Consistently                                Interpret the Result Carefully
+
+1. Use comparable alternatives. Include the
+                                                      Positive NPV: the initiative creates net financial
+current-state or do-minimum option, a common
+                                                      value compared with the baseline under the stated
+decision date, analysis horizon, and timing
+                                                      assumptions.
+convention.
+
+2. Estimate incremental cash flows. Include
+implementation, staffing, integration, training,
+operations, licenses, transition, and
+decommissioning. For non-Schedule IV-B analysis,
+include residual value only when supported by         Higher NPV: generally, favors one financially
+agency financial policy; Schedule IV-B users should   comparable discretionary project over another,
+follow the workbook's prescribed categories. For      but it does not establish the full public-sector
+portfolio decision analysis, do not let sunk costs    priority.
+drive the go-forward decision. For Schedule IV-B
+reporting, include current and previous project-
+related costs as required by the current Appendix A
+workbook.
+
+3. Separate financial and public value. Monetize
+                                                      Mandatory projects may have a negative NPV.
+only defensible cash impacts. Report service,
+                                                      Confirm the mandate and compare compliant
+compliance, safety, access, capacity, and risk
+                                                      alternatives to select the least-cost, best-value
+reduction separately unless a validated monetary
+                                                      path.
+method exists.
+
+4. Use consistent assumptions. Apply the same
+rate, inflation basis, benefit timing, and cost
+                                                      Governance also considers strategic alignment,
+classifications. Distinguish cash savings, cost
+                                                      public value, security, compliance, urgency,
+avoidance, and released capacity. For Schedule IV-
+                                                      dependencies, readiness, affordability, delivery
+B, cost avoidance is treated as an intangible
+                                                      risk, and available resources.
+benefit and should not be entered in Appendix A
+as a tangible benefit.
+
+                                                                                                           2
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
+
+                                                                           NPV Portfolio Prioritization
+
+ Apply NPV Consistently                                Interpret the Result Carefully
+
+ 5. Test uncertainty and refresh. Run base,
+                                                       Finance validates monetary assumptions; the
+ optimistic, and pessimistic cases. Stress schedule,
+                                                       business owner owns the benefits; the project
+ adoption, volume, benefit timing, and discount
+                                                       manager maintains traceability and updates the
+ rate; update the analysis when assumptions
+                                                       analysis.
+ materially change.
+
+Key principle: NPV is one decision input, not the sole approval test for a public-sector investment.
+
+A Balanced Portfolio Selection Method
+
+Use the same documented process for every project so the decision is consistent, transparent,
+and auditable.
+
+1.      Gate mandatory projects. Identify statutory, regulatory, security, legislative, and critical
+        operational work first and treat the mandate as a gating factor. Confirm the legal
+        deadline, minimum compliant scope, consequences of noncompliance, available
+        funding, and feasible alternatives. A mandate does not eliminate affordability,
+        procurement, risk, or feasibility analysis.
+
+2.      Score discretionary projects. Use approved criteria and weights to compare strategic
+        alignment, expected benefits and public value, risk reduction, customer impact, technical
+        debt, delivery confidence, urgency, and organizational readiness.
+
+3.      Evaluate financial measures separately. For Schedule IV-B projects, use the Appendix A
+        outputs: Return on Investment (ROI), Payback Period, Breakeven Fiscal Year, Net Present
+        Value (NPV), and Internal Rate of Return (IRR). Benefit-Cost Ratio (BCR) may be used as a
+        supplemental measure, but it is not an Appendix A output. Consider financial results
+        alongside - not inside - the non-financial weighted score to avoid double-counting
+        financial value.
+
+                                                                                                          3
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
+
+                                                                        NPV Portfolio Prioritization
+
+Illustrative Non-Financial Weighted Scoring Model
+
+ Criterion                                                                           Weight
+
+ Strategic alignment                                                                 25%
+
+ Benefits and public value                                                           20%
+
+ Risk reduction                                                                      15%
+
+ Urgency and organizational readiness                                                15%
+
+ Customer or service impact                                                          10%
+
+ Technical debt reduction                                                            10%
+
+ Delivery confidence                                                                 5%
+
+Weighted score = Σ [(rating ÷ 5) × weight]. Use the 1-5 evidence-based portfolio rating scale
+described in this guide. When weights are entered as percentage points (for example, 25 rather
+than 0.25), the maximum total score is 100. A rating of 4 on a 25% criterion contributes 20 points:
+(4 ÷ 5) × 25 = 20.
+
+Important: This illustrative model intentionally excludes financial measures, so they are not
+counted twice. This scoring model is recommended portfolio-management guidance and is not
+prescribed by Florida statute, Rule Chapter 60GG-1, or Schedule IV-B. Agencies should tailor the
+non-financial criteria and weights to statutory responsibilities, strategic priorities, risk tolerance,
+and governance requirements.
+
+Applying the 1-5 Portfolio Rating Scale
+
+The rating scale is intended to reduce guesswork and make scoring repeatable. Assign the rating
+that best matches the documented evidence for each criterion; do not score based on
+preference, advocacy, or an unsupported expectation of future performance.
+
+                                                                                                          4
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
+
+                                                                        NPV Portfolio Prioritization
+
+Scale interpretation: These anchors assess the relative value and impact of proposed projects on
+a consistent 1-5 scale. They are intended for portfolio prioritization and should not be interpreted
+as an organizational maturity assessment.
+
+Rating       Anchor                    Evidence-based guidance
+
+                                       Little demonstrated value or alignment. Evidence is weak or
+1            Minimal
+                                       missing; major assumptions or gaps remain.
+
+                                       Some value or alignment is evident, but it is uneven or
+2            Emerging
+                                       assumption dependent. Evidence is incomplete.
+
+                                       Clear value or alignment is supported by reasonable evidence.
+3            Moderate
+                                       Key assumptions are credible and gaps are manageable.
+
+                                       Strong value or alignment is supported by specific, credible
+4            Significant
+                                       evidence. Risks are understood and only minor gaps remain.
+
+                                       Exceptional value or alignment is supported by compelling, well-
+5            Transformational
+                                       validated evidence and measurable outcomes.
+
+Rating Guidance
+
+    •    Use criterion-specific evidence. Strategic alignment may rely on approved plans or
+         mandates; benefits and public value should rely on measurable outcomes. For Schedule
+         IV-B projects, focus the benefits/public value score on benefits not already monetized in
+         Appendix A, or document how overlap is prevented. Risk reduction should rely on
+         identified risks and expected exposure reduction; customer impact should rely on service
+         data or user research; urgency, readiness, and delivery confidence should rely on
+         documented deadlines, dependencies, capacity, and implementation evidence.
+
+    •    Rate the current proposal, not the hoped-for future state. If evidence is not yet available,
+         score conservatively and document what would be needed to justify a higher rating.
+
+    •    Use the same anchors for every project in the same decision cycle. Do not change the
+         meaning of a 3 or 4 from one project to another.
+
+                                                                                                          5
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
+
+                                                                          NPV Portfolio Prioritization
+
+   •   Require a short evidence citation or rationale for every rating. Where reviewers disagree,
+       discuss the evidence and record the final rationale rather than averaging unsupported
+       opinions.
+
+   •   Calibrate before formal scoring. Reviewers should jointly score one or two sample
+       projects first, so they apply the anchors consistently.
+
+Using the Results to Make the Decision
+
+Financial measures help explain value, while governance determines the best overall public
+investment.
+
+What Each Financial Measure Tells You                  When Scores Are Close
+
+• NPV: present-day value of project benefits less
+costs over the project lifecycle.
+                                                       • Compare the strength of sensitivity results and
+• Schedule IV-B ROI: dollar difference between Net
+                                                       the reliability of benefit assumptions.
+Tangible Benefits and Project Cost.
+                                                       • Consider feasibility: implementation risk,
+• IRR: project rate of return; the discount rate at
+                                                       dependencies, resource capacity, procurement
+which NPV equals zero.
+                                                       timing, and organizational readiness.
+• Payback / Breakeven: time and fiscal year in
+                                                       • Document the rationale. No single financial
+which project costs are recovered.
+                                                       measure should determine the public-sector
+• BCR (supplemental): present value of benefits        investment decision.
+divided by present value of costs; not an Appendix
+A output.
+
+Illustrative Three-Project Decision
+
+(Figures are examples only.)
+
+Initiative             Portfolio gate        NPV      ROI     Score     Decision context
+
+Enterprise
+                                                                        Highest NPV; significant funding
+Resource Planning      Discretionary         $18M     50%       78
+                                                                        and resource demand.
+upgrade
+
+                                                                                                           6
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
+
+                                                                       NPV Portfolio Prioritization
+
+Initiative           Portfolio gate      NPV       ROI      Score    Decision context
+
+Cybersecurity                                               Not      Advance required scope; select
+                     Mandatory           $1M       25%
+remediation                                                scored    the least-cost compliant option.
+
+                                                                     Highest discretionary portfolio
+Public portal        Discretionary       $8M      267%        86     score and IRR; validate adoption
+                                                                     assumptions.
+
+Recommended approach: Identify mandatory work first and treat the mandate as a gating factor;
+assess the legal deadline, minimum compliant scope, consequences of noncompliance,
+available funding, and feasible alternatives. Rank discretionary projects with an approved non-
+financial weighted model, then combine the weighted score with Schedule IV-B financial outputs
+and feasibility constraints such as dependencies, affordability, and resource availability to
+support the final governance decision.
+
+How Do We Choose One Project When Funding Is Limited?
+
+When multiple discretionary projects compete for limited funding, do not select a project based
+solely on NPV, IRR, or another single financial measure. Apply the same documented evaluation
+method to each alternative so the decision is consistent, transparent, repeatable, and auditable.
+
+Recommended Decision Rule
+
+   1. Identify mandatory projects first. Statutory, regulatory, security, legislative, or critical
+       operational requirements should be addressed before discretionary projects.
+   2. Calculate financial value consistently. For Schedule IV-B projects, use the current
+       Appendix A CBA workbook to calculate ROI, Payback Period, Breakeven Fiscal Year, NPV,
+       and IRR using the workbook's prescribed assumptions. BCR may be used as a
+       supplemental measure but is not an Appendix A output.
+   3. Score non-financial value. Evaluate strategic alignment, benefits and public value, risk
+       reduction, customer/service impact, technical debt, delivery confidence, urgency, and
+       organizational readiness using the approved scoring criteria and evidence.
+
+                                                                                                        7
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
+
+                                                                       NPV Portfolio Prioritization
+
+    4. Apply an approved non-financial weighted scoring model. Use the 1-5 evidence-based
+        portfolio rating scale and predetermined weights. Require a documented rationale for
+        each rating and retain the scoring record.
+    5. Use financial measures as separate decision inputs, not the sole decision rule. A project
+        with the highest IRR may not create the greatest NPV, while a project with the highest NPV
+        may not provide the greatest overall public value.
+    6. Document the decision. Record assumptions, Appendix A financial results, scoring criteria
+        and weights, evidence supporting ratings, feasibility and risk considerations, resource
+        constraints, approvals, and the rationale for selecting the project.
+
+Bottom line: The decision question is not simply “Which project has the highest financial return?”
+It is “Which feasible project provides the greatest overall value to the organization and the public,
+based on consistently applied financial and non-financial criteria?”
+
+Minimum Decision Record
+
+    •   Alternatives and baseline; cash-flow sources and classifications; current Appendix A CBA
+        outputs (Schedule IV-B ROI, Payback Period, Breakeven Fiscal Year, NPV, and IRR); cost-of-
+        capital assumptions; sensitivity results; and supplemental BCR if used.
+
+    •   Scoring criteria, weights, 1-5 portfolio ratings, supporting evidence, reviewer/approval
+        record, and any scoring calibration notes.
+
+    •   Selection rationale, conditions, dependencies, resource constraints, and accountable
+        benefit owner.
+
+Three-Project Example: If You Can Fund Only One
+
+Use the same analysis for all three projects. The highest IRR does not automatically win; compare
+present-value financial results alongside the approved non-financial portfolio score and
+feasibility.
+
+Example: Project A has a $10M NPV and 100% IRR; Project B has a $3M NPV and 150% IRR; Project
+C has a $10M NPV and 50% IRR. IRR alone would favor B, while NPV alone would show A and C as
+financially stronger in present-value dollars. The weighted non-financial score and governance
+
+                                                                                                      8
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
+
+                                                                    NPV Portfolio Prioritization
+
+criteria help determine which project provides the best overall value. For Schedule IV-B projects,
+use the Appendix A workbook's calculated outputs.
+
+Key References
+
+Section 216.023 and section 282.0051, Florida Statutes; Rule Chapter 60GG-1, Florida
+Administrative Code; Guidelines for Preparing the Schedule IV-B for Information Technology
+Projects; current Schedule IV-B Appendix A Cost Benefit Analysis workbook; Project Management
+Institute (PMI), A Guide to the Project Management Body of Knowledge (PMBOK® Guide), Eighth
+Edition; PMI Standard for Portfolio Management, Fourth Edition; and PMI Benefits Realization
+Management. Confirm current budget instructions and agency finance policy before use.
+
+                                                                                                     9
+Florida Digital Service 2555 Shumard Oak Blvd • Tallahassee, FL 32399 www.digital.fl.gov
