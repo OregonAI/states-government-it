@@ -1,0 +1,148 @@
+                   Division of Enterprise Technology
+                         Strategy and Services
+
+Enterprise Technology Strategy and Services Policy 09-01
+Cell Phone and Mobile Broadband Devices
+Last Revision: 4/21/2025                                                                    doa.entsec@doit.ri.gov
+
+1. Purpose
+
+Identify the process and procedures for the procurement and support of cellular telephones and mobile
+broadband devices (commonly referred to as air cards or hotspots).
+2. Applicability
+
+This policy is applicable to all State of Rhode Island Executive Branch Departments1 (including agencies,
+boards, and commissions), and their employees (including permanent, non-permanent, full-time, and part-
+time) and interns, consultants, contractors, vendors, contracted individuals, and any entity having access
+to state information systems and data, whether operated or maintained by the state or on behalf of the
+state. For this policy, the term "agency" is used to refer to any department, agency, division, or unit of the
+Executive branch of the State of Rhode Island.
+    a. Unless otherwise specifically provided, the Telecommunications Section of the Division
+       of Enterprise Technology Strategy and Services (ETSS) is responsible for the procurement,
+       deployment, installation, synchronization, trouble resolution, and repair of all cellular
+       telephones and mobile broadband devices as well as the training necessary to utilize the
+       device.
+    b. Only state procured and issued devices will be supported by ETSS.
+    c. State issued cellular phones are not to be used as a replacement for a personal cellular
+       phone. Further guidance is provided in this policy regarding reimbursement procedures.
+       In accordance with Accounts and Control Policy A-69 (State-Issued Cellular Phones and
+       other Mobile Devices), incidental and infrequent use for personal reasons is allowed
+       provided specific requirements are met (see section 6, Personal Use, below).
+3. Assignment
+    a. The assignment of cellular telephones and mobile broadband devices will be based upon
+       the functional requirements of an individual's position and shall be limited to the
+       following areas as determined and authorized by the funding agency:
+            i.    Crisis Management
+           ii.    Emergency Management
+          iii.    Productivity Requirements
+          iv.     Communications
+
+1
+  State of Rhode Island Executive Branch Departments does not include the University of Rhode Island, the State Colleges,
+the General Treasurer, the Attorney General, or the Secretary of State.
+
+   b. All requests for the assignment of mobile broadband devices must be submitted in
+      writing. The request form can be found at ETSS Telecommunications Request Form.
+      The user should state reasons why each assignment is necessary and must be approved by
+      both the requesting agency or department designee and agency Chief Financial Officer
+      (CFO) and submitted to the ETSS service desk for processing.
+   c. No individual shall be issued more than one (1) cellular telephone without a written
+      request for exception submitted to the ETSS Chief Digital Officer (CDO) by the agency
+      leadership designee and agency CFO.
+4. Service and Support
+   a. All requests for procurement, installation, synchronization, trouble resolution, repair or
+      training for cellular phones must be submitted to the ETSS Service Desk. The service
+      desk can be reached via the ETSS IT Service Desk portal: Service Portal - Enterprise
+      Technology Strategy & Services.
+   b. In accordance with the Master Price Agreement (MPA) for Cellular Telephone Services
+      that has been approved by the Division of Purchases, only ETSS Telecommunications
+      staff (Telecom staff) are authorized to deal directly with the vendors.
+   c. Individuals are not authorized to bring their cellular telephone to any vendor service
+      center for any reason without the prior approval of Telecomm staff.
+   d. All cellular telephones and mobile broadband devices issued to employees are state
+      property and as such must be returned to the ETSS Telecommunications team when no
+      longer needed by the individual to whom it was assigned.
+   e. Transfer of state issued cell phone numbers to a private phone is not authorized and will
+      not be approved in any instance.
+   f. The downloading and installation of third-party applications, e.g., Instant Messaging,
+      Facebook, X (Formerly Twitter), Weather Bug etc., is not authorized and may be remotely
+      removed upon detection. The setup of third party or personal accounts on state issued
+      devices is not authorized. These will be removed when detected.
+5. Security
+   a. According to the rules and policies established by ETSS, applicable security settings will
+      be configured at the time of issuance. Maintaining the security settings of all cellular
+      telephones and mobile broadband devices is mandatory.
+   b. All users are required to password protect their devices with a password consisting of at
+      least 6 alphanumeric characters. Users are not authorized to turn off the password.
+   c. All state issued mobile broadband devices, commonly referred to as hotspot devices, will
+      be configured with WPA2 security at a minimum with an appropriate password to prevent
+      unauthorized access.
+6. Personal Use
+   a. State issued cellular telephones are issued to individuals to permit them to perform the
+      assigned duties in the most efficient manner.
+   b. State issued cellular phones are not to be used as a replacement for a personal cellular
+      phone. However, in accordance with Accounts and Control Policy A-69 (State-Issued Cellular
+      Phones and other Mobile Devices) , incidental and infrequent use for personal reasons is
+      allowed if the use is:
+
+                                              Page 2
+
+           i.   Infrequent, appropriate and short in duration
+         ii.    Such that it does not involve added cost to the agency
+         iii.   Such that it does not interfere with work
+         iv.    In compliance with State Network Device Security Policy10-04
+
+7. ETSS Procedure
+   a. When the Telecomm Request Form is submitted to ETSS, the Telecomm staff will begin
+      the procurement process.
+   b. When the device is received, Telecom staff will contact the user to either pick up the
+      device or plan to meet with the individual to perform the setup and/or configuration
+      needed.
+   c. All requests for repair or other types of support must also be submitted to the ETSS
+      Service Desk.
+   d. No one other than Telecom staff is authorized to provide any support for devices without the
+      expressed approval of Telecom staff.
+   e. Damaged or broken devices must be returned to the ETSS Telecommunications team, who will
+      determine if the device can be repaired or will require replacement.
+   f.   Prior to disposal of any device, all memory will be erased by the Telecom staff to ensure that any
+        sensitive information is removed.
+   g. For device upgrade requests, the user must enter a ticket into ETSS Service Desk Portal to request
+      the upgrade. Telecomm verifies whether the device is eligible for upgrade and, if yes, sends the
+      user a cost approval form which must be signed off by the agency CFO. The user then signs and
+      sends the form back to Telecomm for processing.
+   h. If a device is lost or stolen, the user should immediately contact Telecomm via email to the
+      Service Desk (ent.servicedesk@ri.gov) to open the ticket to investigate.
+   i. For device deactivation, a ticket should be opened with the service desk at
+      ent.servicedesk@ri.gov requesting deactivation.
+   j. For overseas travel requests, the user must open a Service Desk Ticket, search for
+      “International” in the search box, select “ETSS Overseas / Out of Country Travel Request
+      Form” from the search results, then complete and submit the required forms no less than 2
+      weeks prior to traveling to ensure equipment configurations or requisition requirements
+      can be met.
+
+8. Approval / Review Signatures:
+                          Digitally signed by Osiris
+
+   Osiris Gonzalez Gonzalez
+                   Date: 2025.04.21 10:42:26
+   ________________________________
+                       -04'00'
+
+   Deputy Chief of Infrastructure
+                     Digitally signed by Nathan
+
+   Nathan Loura Loura
+                Date: 2025.04.21
+  ___________________________
+                   10:54:32 -04'00'
+
+  Chief Information Security Officer
+                     Digitally signed by Brian
+
+   Brian Tardiff Tardiff
+                 Date: 2025.04.21
+   ___________________________
+                    11:22:03 -04'00'
+
+   Chief Digital Officer
+                                                       Page 3
