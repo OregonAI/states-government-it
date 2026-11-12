@@ -1,0 +1,53 @@
+                         State of Alaska Remote Access Options
+                                     Update 3/11/2022
+
+ The State of Alaska provides several methods for employees to remotely access
+ productivity programs and line of business applications. A Virtual Private Network
+ (VPN) connection provides the most functionality for remote workers with the highest
+ level of security.
+
+ Please be aware: According to Information Security Policies, ISP-172 and ISP-175,
+ VPNs are only authorized for connection with State of Alaska issued computers.
+ Personal devices are not authorized to connect to the State of Alaska network (LAN/WAN)
+ with VPN.
+__________________________________________________________________________
+
+   •   Virtual Private Network (VPN) – A virtual private network (VPN) creates an encrypted
+       connection to the State of Alaska network over a less secure network, such as the
+       public internet.
+            a. Provides access to internal only applications and network drives
+            b. Requires State of Alaska laptop
+            c. Requires VPN permissions and client software installed
+            d. Requires home Internet speeds of at least 5Mbps
+
+There are other work-from-home options that may be adequate for certain job roles.
+
+ Authorized options for remote access without a VPN:
+
+    1. Email from smart phone, tablet, or personal computer web browser without VPN.
+         a. Go to https://outlook.office365.com and login with email credentials.
+
+    2. Office Online provides web browser access to Word, Excel, PowerPoint from a
+       personal computer without a VPN.
+           a. www.office.com, login with email credentials.
+              Save work files to One Drive for access in Office Online
+
+    3. SharePoint access to internal sites from a phone, tablet, or personal computer
+       web browser without VPN.
+          a. https://stateofalaska.sharepoint.com, login with email credentials.
+
+    4. Microsoft Teams provides access to chat, calendar, file sharing, edit Word/
+       Excel/PowerPoint, audio & video conference, and desktop sharing without VPN.
+
+           a. Can also be run from a smart phone and tablet app (located in your device app
+              store) or installing the client on a State of Alaska issued computer or personal
+              computer. Does not require local administrator rights to install client.
+
+           b. Requires a copy of your work files. Best to copy files into a Teams site in
+              advance. Or save work files to OneDrive.
+
+           c. To request a new Teams site, visit https://aws.state.ak.us/msteams/
+
+    5. Citrix Servers
+
+    6. Conference Bridges, WebEx and smart phones can be used for conference calls.

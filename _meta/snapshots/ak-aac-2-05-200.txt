@@ -1,0 +1,101 @@
+2 AAC 05.200. Establishment of department's electronic signature verification system.
+2 AAC 05.200 - 2 AAC 05.290 establishes the department's electronic signature verification system.
+
+2 AAC 05.210. Verification of electronic signatures.
+The department will act as a certifying authority for an electronic signature if
+(1) at least one of the parties to the transaction requiring the action is a state agency that has elected to use the department's system established in 2 AAC 05.200 - 2 AAC 05.290; and
+(2) the individual whose electronic signature is to be verified has completed the enrollment, validation, and verification processes described in 2 AAC 05.220 and 2 AAC 05.230.
+
+2 AAC 05.220. Enrollment in the department's electronic signature verification system.
+(a) An individual who wishes to have the department verify that individual's electronic signature must enroll in the department's system.
+(b) To be eligible for enrollment in the department's system, an individual must have
+(1) received a permanent fund dividend in the year before the year of enrollment; and
+(2) one of the following documents that is valid and issued by this state:
+(A) a driver's license;
+(B) an identification card.
+(c) An individual enrolls in the department's system by
+(1) providing the 10 characters that constitute the DLN number that appears on the Form 1099 pertaining to the preceding year's permanent fund dividend that was issued to that individual;
+(2) providing the number on the license or card described in (b)(2) of this section;
+(3) choosing a user name that is unique to the individual; and
+(4) specifying a password; to enroll, the individual must enter the password twice in the system.
+(d) If an individual enrolling under the procedures of (c) of this section chooses a user name or password that has already been taken, the department will notify the individual to select a substitute user name or password for the system using the procedures set out in (c)(3) and (4) of this section.
+(e) After an individual has successfully completed the procedures of (c) of this section, the department's system will assign the individual an identification alphanumeric code and allow the individual to proceed to the validation process described in 2 AAC 05.230.
+
+2 AAC 05.230. Validation process; verification.
+(a) The validation process applies to an individual who has successfully completed the enrollment procedures in 2 AAC 05.220 and voluntarily supplies information to the department's system required in (b) of this section.
+(b) An individual described in (a) of this section shall, upon request supply the following information to the department:
+(1) the individual's date of birth;
+(2) the individual's state of birth, if one of the United States, or country of birth, if a foreign nation; and
+(3) as indicated on the individual's license or card described in 2 AAC 05.220(b)(2),
+(A) the individual's weight and height; and
+(B) the issue date of that license or card.
+(c) The department's system will verify whether the information supplied under (b) of this section matches the corresponding information maintained in the permanent fund dividend division's and the division of motor vehicles' databases.
+(d) The department's system will mark the individual's supplied information as verified only if the validation of the individual's supplied information is made under (c) of this section. The department will notify the individual of the successful verification under this subsection.
+(e) If the individual's supplied information is not verified under (c) of this section, the department's system will reject the information as not verified, and notify the individual.
+
+2 AAC 05.240. Signature ceremony.
+(a) Upon notification of successful verification under 2 AAC 05.230, an individual may electronically sign a document as described in this section in the course of doing business with a state agency that has elected to use the department's system.
+(b) When an individual initiates an electronic signature in the course of doing business with a state agency that has elected to use the department's system, the department must ensure that the system will indicate to the individual that
+(1) a signature is taking place;
+(2) by completing the signing ceremony, the individual operating the computer input device
+(A) intends to be bound by and authenticate the electronic record, and to attest the statements contained within the electronic record;
+(B) that the individual is the same individual identified by the department's system; and
+(3) submitting another individual's electronic signature or attesting to false statements in an electronic record
+(A) is a false statement that is punishable as unsworn falsification under AS 11.56.210;
+(B) is an offering of a false instrument for recording that is punishable under AS 11.46.550; and
+(C) may constitute
+(i) other crimes, such as perjury, theft, attempted theft, criminal mischief, forgery, criminal impersonation, scheme to defraud or criminal use of a computer; or
+(ii) other criminal offenses under state, municipal, or federal law.
+(c) After successful completion of the requirements of (b) of this section, an individual must electronically reenter the individual's password assigned under 2 AAC 05.220.
+(d) An individual completes the signature ceremony by electronically confirming the individual's awareness that
+(1) a signature is taking place;
+(2) the individual operating the computer input device
+(A) intends to be bound by and authenticate the electronic record and to attest the statements contained within the electronic record;
+(B) the individual is the same individual identified by the department's system; and
+(3) submitting another individual's electronic signature or attesting to false statements in an electronic record
+(A) is an unsworn falsification under AS 11.56.210;
+(B) is an offering of a false instrument for recording that is punishable under AS 11.46.550; and
+(C) may constitute
+(i) other crimes, such as perjury, theft, attempted theft, criminal mischief, forgery, criminal impersonation, scheme to defraud, or criminal use of a computer; or
+(ii) other criminal offenses under state, municipal, or federal law.
+(e) Upon receipt of the individual's confirmation of the information specified in (c) and (d) of this section, the department's system will validate the individual's identity by verifying the individual's password specified under 2 AAC 05.220(c)(4).
+(f) Upon a successful verification of the individual's password, the department's system will
+(1) create a tamper-evident hash of the signed data, the individual's electronic signature verification system's identifier, the appropriate state agency's electronic signature verification system's identifier, and a stamp showing the time and date of the signature; and
+(2) digitally sign the hash with the department's system server certificate.
+(g) Upon an unsuccessful verification of the individual's password, the department's system will advise the appropriate state agency of an incorrect password input that prevents electronic signature of the document.
+(h) In this section, "statement" has the meaning given in AS 11.56.240.
+
+2 AAC 05.250. Transmittal of data to coordinating state agency.
+Upon an individual's completion of the signature ceremony described in 2 AAC 05.240, the department's system will transmit to the appropriate state agency its verification of that individual's electronic signature and a confirmation code that will allow subsequent retrieval of an electronic certified copy of the original signed document.
+
+2 AAC 05.260. Storage and confidentiality of data pertaining to electronic signatures.
+(a) At the conclusion of each signature ceremony described in 2 AAC 05.240, the department will store the tamper-evident hash described in 2 AAC 05.240(f) and a read-only copy of the data in the online form at the time of signature, so that the contents of the document each individual has electronically signed can be perpetually verified as to that individual.
+(b) To the extent allowed by law, the department will preserve the confidentiality of all stored data that pertains to electronic signatures. If the department receives a public records request, under AS 40.25.100 - 40.25.220, or other similar request to inspect any record pertaining to an electronic signature, the department will refer that request to the appropriate state agency for disposition.
+
+2 AAC 05.290. Definitions.
+In 2 AAC 05.200 - 2 AAC 05.290, unless the context indicates otherwise,
+(1) "asymmetric cryptosystem" means a system that generates and employs a secure key pair, consisting of a private key for creating a digital signature, and a public key to verify a digital signature;
+(2) "certified copy of the original" means a copy of the original data, the department's system's identifier of the signer, the appropriate state agency's electronic signature verification system's identifier, and the time and date of the signature, all confirmed by re-computing the hash and comparing the result to the hash digitally signed by the department's system;
+(3) deleted;
+(4) "department" means the Department of Administration;
+(5) "digitally signed" means a transformation of a message using an asymmetric cryptosystem and a hash function that enables an individual having the initial message and the signer's public key to accurately determine
+(A) whether the transformation was created using the private key that corresponds to the signer's public key; and
+(B) whether the initial message has been altered since the transformation was made;
+(6) "electronic signature" has the meaning given in AS 09.80.190;
+(7) "hash" means a small mathematical summary or digest of an original clear-text data file or message that is performed for the purpose of ensuring data integrity through the detection of changes to data caused by tampering;
+(8) "hash function" means an algorithm that takes as input an original message and produces a fixed-length summary of that message that is unique to the original message within an acceptable range of certainty;
+(9) "identifier" means a unique alphanumeric code that is assigned by the electronic signature verification system to each object named by the system;
+(10) "key" means a password needed to decipher encrypted data;
+(11) "message" means a sequence of characters used to convey information or data;
+(12) "permanent fund dividend" has the meaning given in AS 43.23.295;
+(13) "read-only" means information that is electronically arranged so that it may be read but not changed in any way;
+(14) "record" has the meaning given in AS 09.80.190;
+(15) "server certificate" means a unique data string that
+(A) identifies the certifying authority issuing it;
+(B) names or identifies the department's system's server;
+(C) contains the department's system's public key;
+(D) identifies the certificate's operational period; and
+(E) is digitally signed by the certifying authority issuing it;
+(16) "state agency" has the meaning given in AS 44.62.640;
+(17) "system" means the department's electronic signature verification system established in 2 AAC 05.200 - 2 AAC 05.290;
+(18) "user name" means a word or phrase by which an individual is known to the department's system for the purpose of the department's verifying that individual's electronic signature.

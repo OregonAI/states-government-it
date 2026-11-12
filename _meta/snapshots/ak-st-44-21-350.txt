@@ -1,0 +1,21 @@
+Sec. 44.21.350. Powers and duties.
+(a) The commissioner shall
+(1) establish guidelines and prepare a state short-range and long-range information systems plan to meet state needs;
+
+(2) in accordance with the state information systems plan, establish guidelines and direct state agencies to prepare agency information systems plans;
+
+(3) in accordance with statutes governing the availability and confidentiality of information, establish guidelines for the accessing of information by the public.
+
+(b) In addition to the commissioner's duties under (a) of this section, the commissioner may establish information-related policies and engage in information-related activities the commissioner considers necessary or appropriate.
+
+(c) This section does not grant the commissioner responsibility for broadcast programming content. Program design, production, and use are the responsibility of the program-sponsoring agency or other entity.
+
+(d) This section does not prohibit a state agency from developing information systems that are inconsistent with the guidelines established in (a) of this section if the commissioner gives written authorization for the user agency to engage in the independent design, development, management, or operation. The commissioner may authorize independent development only upon a showing of necessity. A description of authorization under this subsection shall be included in the annual report required under this section. Written authorization under this subsection is not required for intra-agency use of microcomputers.
+
+(e) A state agency, including an agency authorized to develop an independent system under (d) of this section, shall coordinate the design, development, management, and operation of its information systems with the commissioner.
+
+Sec. 44.21.390. Definitions.
+In AS 44.21.350 — 44.21.390,
+(1) “commissioner” means the commissioner of administration;
+
+(2) “state agencies” means all departments, divisions, and offices in the executive branch of state government; it does not mean the Alaska Railroad Corporation, the University of Alaska, or an agency of the judicial or legislative branches of government.
