@@ -1,0 +1,11 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-501. System security; approved hardware and software; documentation.
+    (1) Only Office of the CIO approved hardware or software is permitted within the state’s
+information technology infrastructure.
+    (2) All authorized hardware and software shall be inventoried and documented. Results shall
+be secured in an auditable fashion.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-501.pdf

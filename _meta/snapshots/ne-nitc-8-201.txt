@@ -1,0 +1,18 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-201. Acceptable use.
+    Subject to additional requirements contained in state law, the following are the policies and
+provisions governing the acceptable use of information technology resources in state
+government: (1) section 7-101 is the acceptable use policy for the state network; (2) Neb. Rev.
+Stat. § 49-14,101.01 establishes certain statutorily prohibited uses of public resources; and (3)
+the following additional requirements established by this section: (a) all state electronic business
+must be conducted on approved IT devices; (b) accessing or attempting to access HIGH
+IMPACT or MODERATE IMPACT information for other than a required business “need to
+know” is prohibited; and (c) misrepresenting yourself as another individual or organization is
+prohibited.
+    Use of state information technology resources may be monitored to verify compliance with
+this policy.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-201.pdf

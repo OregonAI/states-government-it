@@ -1,0 +1,21 @@
+                                                           Nebraska Information Technology Commission
+                                                                      Technical Standards and Guidelines
+
+8-405. Wireless networks.
+    Advances in wireless technology and pervasive devices create opportunities for new and
+innovative business solutions. However, security risks, if not addressed correctly, could expose
+state information systems to a loss of service or compromise of sensitive information. Everything
+transmitted over radio waves (wireless devices) can be intercepted. This represents a potential
+security issue.
+     The following are wireless network requirements:
+    (1) Agencies shall take appropriate steps, including the implementation of encryption, user
+authentication, and virus protection measures, to mitigate risks to the security of state data and
+information systems associated with the use of wireless network access technologies;
+   (2) No wireless network or wireless access point will be installed without the written
+approval of the Office of the CIO; and
+   (3) All wireless networks will be inspected annually by the state information security officer
+and agency information security officer to ensure proper security protocols are in place and
+operational.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-405.pdf

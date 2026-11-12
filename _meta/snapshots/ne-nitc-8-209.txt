@@ -1,0 +1,14 @@
+                                                                   Nebraska Information Technology Commission
+                                                                              Technical Standards and Guidelines
+
+8-209. Agency security planning and reporting.
+   Pursuant to the terms of certain federal data exchange agreements, state agencies may be
+required to maintain the following documentation:
+     (1) Information security strategic plan (section 8-210);
+     (2) System security plan (section 8-211); and
+     (3) Other information security documentation not covered by this section.
+   For agencies not subject to federal data exchange agreements, these planning documents are
+considered guidelines and recommended as best practice.
+--
+     History: Adopted on July 12, 2017. Amended on July 8, 2021.
+     URL: https://nitc.nebraska.gov/standards/8-209.pdf

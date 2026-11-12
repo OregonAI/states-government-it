@@ -1,0 +1,27 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-902. Data classification categories.
+    Data owned, used, created or maintained by the state is classified into the following four
+categories:
+HIGH IMPACT
+     This classification level is for data that may only be accessed by a limited number of
+     authorized staff on a strict “need to know” basis. This data includes, but is not limited to
+     federal tax information, Social Security Administration data, protected health information,
+     criminal justice information, and payment card information. This data shall have the strictest
+     controls in place.
+MODERATE IMPACT
+     This classification level is for data relating to the nature, location, or function of
+     cybersecurity infrastructure, network architecture, system controls, and personally
+     identifiable information. This data shall be tightly controlled, ensuring proper safeguards are
+     in place.
+LOW IMPACT
+     This classification level is for data that is public in nature but may require authorization to
+     share. This data requires a minimal level of security and would not have a significant impact
+     in the event of data disclosure.
+NO IMPACT
+     This classification level is for public information and requires minimal level of protection
+     and can be handled in the public domain.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-902.pdf

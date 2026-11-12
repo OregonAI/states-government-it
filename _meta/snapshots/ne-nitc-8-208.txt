@@ -1,0 +1,12 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-208. External service providers.
+    All external service providers with access to HIGH IMPACT or MODERATE IMPACT
+information must have a written agreement that includes the minimum security requirements
+necessary for the protection of this information. The state information security officer may
+inspect these external service provider arrangements to ensure compliance with state policies and
+requirements.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-208.pdf

@@ -1,0 +1,14 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+4-203. Security statement.
+   The following security statement will be posted on a website policies page linked directly
+from the Nebraska state government home page:
+     "The State of Nebraska is committed to ensuring the integrity and security of the information
+     and systems it maintains. The State has taken steps designed to safeguard its
+     telecommunications and computing infrastructure to prevent unauthorized access to internal
+     systems and confidential information. If you have any knowledge of a security breach or
+     potential security breach, please contact us at 402-471-4636 or cio.help@nebraska.gov.”
+--
+     History: Adopted on June 14, 2005. Amended on July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/4-203.pdf

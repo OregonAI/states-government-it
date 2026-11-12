@@ -1,0 +1,18 @@
+                                                                                Nebraska Information Technology Commission
+                                                                                           Technical Standards and Guidelines
+
+7-104. Web domain name standard.
+    (1) The approved domain names for Nebraska state government websites are “nebraska.gov”
+and “ne.gov.” The Chief Information Officer may approve other domain names using the .gov
+top level domain.
+    (2) The domain “state.ne.us” is a supported legacy domain that may serve content but should
+not be publicly promoted.
+   (3) Domain names using top level domains other than those listed in subsections (1) and (2)
+may be registered and serve content but must not be publicly promoted.
+   (4) All state government websites using the .gov domain must comply with federal .gov
+domain requirements (https://home.dotgov.gov/registration/requirements/).
+    (5) All domain name registrations, purchases, and renewals must be made by the Office of
+the CIO.
+--
+     History: Adopted on April 19, 2013. Amended on October 28, 2014; July 12, 2018; and March 10, 2022.
+     URL: https://nitc.nebraska.gov/standards/7-104.pdf

@@ -1,0 +1,16 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-502. Minimum user account configuration.
+    (1) User accounts must be provisioned with the minimum necessary access required to
+perform duties. Accounts must not be shared, and users must guard their credentials.
+     (2) User accounts must be provisioned to use OCIO-approved multi-factor authentication.
+    (3) Administrator level access is privileged and must be restricted to authorized IT personnel
+only. All privileged access accounts are subject to additional security, including multi-factor
+authentication, and enhanced auditing and logging of activity.
+    (4) Local accounts must be disabled unless required for business purposes, and in those
+cases, use of these accounts must be approved, tightly controlled, and monitored. All use of local
+accounts are required to be associated with an individual user.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-502.pdf

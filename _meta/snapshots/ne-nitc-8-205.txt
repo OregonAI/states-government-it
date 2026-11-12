@@ -1,0 +1,10 @@
+                                                                               Nebraska Information Technology Commission
+                                                                                          Technical Standards and Guidelines
+
+8-205. Portable storage devices.
+   (1) HIGH IMPACT or MODERATE IMPACT data must not be stored on portable storage
+devices unless it has been encrypted using OCIO-approved technology.
+     (2) Portable storage devices must not be left in a vehicle unattended.
+--
+     History: Adopted on July 12, 2017. Amended on November 10, 2022 and July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-205.pdf

@@ -1,0 +1,9 @@
+                                                                                Nebraska Information Technology Commission
+                                                                                           Technical Standards and Guidelines
+
+7-102. DNS forwarding standard.
+    All outbound internet DNS traffic must be forwarded through the state’s internal DNS
+servers.
+--
+     History: Adopted on June 27, 2007. Amended on March 4, 2008, and July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/7-102.pdf

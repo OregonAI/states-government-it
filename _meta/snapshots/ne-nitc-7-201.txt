@@ -1,0 +1,42 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+7-201. Network Nebraska; network edge device standard.
+   (1) Purpose. The purpose of this standard is to set minimum standards and specifications for
+network edge devices that would perform the routing and switching functions of voice, video,
+and data across the network and assure that packets would get to their correct destination while
+maintaining the appropriate quality of service (QoS).
+   (2) Technical Standards. Agencies and other entities electing to connect to Network
+Nebraska for purposes of transmitting data across the state shall comply with this standard.
+    (a) Network edge device specifications for new purchases: (1) QoS capabilities; (2)
+sufficient ports for desired network design; (3) security and/or firewall features; (4) routing
+and/or routing protocol; (5) traffic shaping and rate limiting; (6) VLAN (802.1q) support; (7)
+secure remote management (SSH); (8) hardware based encryption acceleration; (9) performance
+to meet anticipated usage demand; (10) compatibility with central site router features; and (11)
+IPv6 capable. Option include: a Layer 3 router for basic site deployment; an enhanced Layer 3
+router for larger site deployment or higher performance; or a Layer 3 switch/firewall
+combination.
+    (b) Network edge device specifications for existing equipment: (1) QoS capabilities; (2)
+sufficient ports for desired network design; (3) security and/or firewall features; (4) routing
+and/or routing protocol; (5) traffic shaping and rate limiting; (6) VLAN (802.1q) support; (7)
+secure remote management (SSH); (8) hardware based encryption acceleration; (9) performance
+to meet anticipated usage demand; (10) compatibility with central site router features; and (11)
+IPv6 capable.
+   (3) Responsibilities.
+    (a) Network Nebraska Operational Entities. The Collaborative Aggregation Partnership,
+composed of the University of Nebraska Computer Services Network, the Office of the CIO, and
+Nebraska Educational Telecommunications, will be responsible for sharing the responsibilities of
+the network operations portion of Network Nebraska. The responsibility for identification and
+mitigation of non-compliant entities with respect to this standard resides with the Collaborative
+Aggregation Partnership.
+   (b) Education-Related Political Subdivisions. An education-related political subdivision shall
+provide notice in writing, as required by guidelines established by the University of Nebraska
+and the Chief Information Officer for participation in Network Nebraska, to the distance
+education director of the Educational Service Unit Coordinating Council, the University of
+Nebraska, and the Chief Information Officer prior to the use of any new or additional equipment
+
+that will impact the use of Network Nebraska by such education-related political subdivision or
+other education-related political subdivisions. [Neb. Rev. Stat. § 86-520.01]
+--
+     History: Adopted on July 12, 2006. Amended on March 4, 2008; November 15, 2011; and July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/7-201.pdf

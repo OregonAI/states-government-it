@@ -1,0 +1,106 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nebraska
+id: ne-nitc-8-609
+title: 8-609. Artificial intelligence policy.
+doc_type: policy
+citation: NITC Technical Standards and Guidelines 8-609
+authority_level: ''
+issuing_body: Nebraska Information Technology Commission
+source_url: https://nitc.nebraska.gov/docs/8-609.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 3ea183a748a2f045cad3e0020ebf0f33663d6e8f8ed691dfb1833d465afc7e1d
+effective_date: null
+source_version: History through November 8, 2024
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). source_version is the latest date on the section's History line (adoption, renumbering or
+  amendment); the section prints no separate effective date, so effective_date stays empty.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- ai
+- cybersecurity
+- data
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# 8-609. Artificial intelligence policy. (NITC Technical Standards and Guidelines 8-609)
+
+## At a glance
+
+The state agency AI policy: for AI systems owned, used or managed by the State of Nebraska, requires consultation with the Office of the CIO, privacy and risk assessments, bars public AI with HIGH or MODERATE IMPACT data, and sets ethics, transparency and approval rules. Adopted by the NITC under 86-516; applies to state agencies, boards and commissions (1-102).
+
+## Full text
+
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-609. Artificial intelligence policy.
+    Artificial intelligence (“AI”) is the development of information processing systems capable
+of generating output that simulates functions commonly associated with human intelligence. AI
+is available in a variety of types and categories, including standalone systems (e.g., OpenAI –
+ChatGPT, and DALL-E), integrated as features within search engines (e.g., Microsoft Bing and
+Google Gemini), and embedded in other software tools (e.g., Adobe AI Assistant and Microsoft
+Copilot).
+   For AI systems owned, used, or managed by the State of Nebraska the following standards
+and guidelines apply:
+    (1) Security and Risk Management. (a) Agencies utilizing AI shall consult with Office of the
+CIO’s Security Risk Mitigation and Compliance team (“RMC”) regarding system development
+and operations; (b) agencies must conduct privacy impact assessments, third-party and security
+risk assessments regularly to ensure that security, safety, confidentiality, civil liberties, civil
+rights, and privacy are protected while continuing to promote and empower the use of AI to
+benefit the State of Nebraska and its residents; (c) agencies shall not utilize public AI with data
+classified as HIGH IMPACT or MODERATE IMPACT, nor LOW IMPACT data that contains
+personal data elements. LOW IMPACT or NO IMPACT data is permitted for use with public AI;
+(d) the Office of the CIO shall establish appropriate controls and risk mitigations to identify and
+mitigate risks and ensure the use of AI does not compromise the safety or integrity of agency
+data and systems; (e) the Office of the CIO shall provide general AI training; (f) agencies shall
+provide role-based training to team members for specific and unique AI used for their business
+purposes in advance of production implementation; and (g) the following are approval
+requirements for the use of AI: (i) the Office of the CIO must review and approve all AI for use
+with HIGH IMPACT or MODERATE IMPACT data, or LOW IMPACT data that contains
+personal data elements; (ii) agencies may request an evaluation of new AI by the Office of the
+CIO; and (iii) AI used by agencies may only be trained or retrained on agency data in
+combination with LOW IMPACT or NO IMPACT data.
+   (2) Ethics, Fairness, and Bias. (a) AI generated output must be ethical, fair, and unbiased to
+support practices that neither discriminate nor negatively impact a specific group of people.
+    (3) Privacy. (a) Agencies use of AI must comply with applicable data protection and privacy
+laws, regulations, and guidelines; (b) agency, constituent, and regulated data must be collected,
+stored, used, and distributed securely and confidentially, with explicit consent obtained where
+required; (c) in consultation with the Office of the CIO agencies shall design and implement data
+privacy procedures for specific AI being used; and (d) agencies shall evaluate privacy
+compliance of AI periodically where appropriate.
+
+    (4) Validity and Reliability. (a) AI must be verifiably reliable and valid; (b) predictive AI
+must be identified as data supported projections; and (c) agencies shall verify the validity and
+reliability of AI.
+    (5) Transparency. (a) Agencies shall be transparent about AI use and error rates, biases,
+outputs, data set transformations and substitutions; (b) agencies shall disclose where constituents
+are interacting with AI, the outcome and impact, if applicable, and the business purposes where
+AI is used; and (c) agencies shall ensure all systems and processes employing AI for decision-
+making or output generation are clearly marked to enhance transparency and accountability.
+    (6) Accountability. (a) Agencies must ensure AI used within systems is securely developed
+in accordance with NITC standards and guidelines, assessed for risk and biases, as well as
+reviewed periodically; and (b) agencies must ensure AI is used responsibly, operating as
+intended, and compliant with applicable laws, regulations, policies, procedures, standards,
+guidelines, and best practices.
+--
+     History: Adopted on November 8, 2024.
+     URL: https://nitc.nebraska.gov/standards/8-609.pdf
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the latest date on the section's History line (adoption, renumbering or amendment); the section prints no separate effective date, so effective_date stays empty.

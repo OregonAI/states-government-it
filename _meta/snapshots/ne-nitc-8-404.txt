@@ -1,0 +1,22 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-404. External connections.
+   Direct connections between the state network and external networks must be implemented in
+accordance with these policies and standards:
+    (1) Connections will be allowed only when external networks have been reviewed and found
+to have acceptable security controls and procedures, or appropriate security measures have been
+implemented to protect state resources. A risk analysis should be performed to ensure that the
+connection to the external network would not compromise the state network. Additional controls,
+such as the establishment of firewalls and a DMZ may be implemented between any third party
+and the state. All external connections will be reviewed on an annual basis;
+    (2) External network and workstation connections to the state network must have an agency
+sponsor and a business need for the network connection. The external network equipment must
+also conform to the state's security policies and standards, and be approved by the Office of the
+CIO; and
+    (3) Any connection between agency firewalls over public networks that involves sensitive
+information must use encryption to ensure the confidentiality and integrity of the data passing
+over the external network.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-404.pdf

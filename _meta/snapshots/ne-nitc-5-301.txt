@@ -1,0 +1,12 @@
+                                                                              Nebraska Information Technology Commission
+                                                                                         Technical Standards and Guidelines
+
+5-301. Internet fax standard for state agencies.
+   All state government agencies, except higher education entities, shall use the OCIO Internet
+Fax System provided by the Office of the CIO for computer-based fax services, including
+desktop and application-based faxing.
+    This standard does not apply to the use of stand-alone fax machines connected directly to a
+telephone line.
+--
+     History: Adopted on September 30, 2003. Amended on November 30, 2009, and July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/5-301.pdf

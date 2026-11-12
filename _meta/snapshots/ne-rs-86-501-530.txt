@@ -1,0 +1,199 @@
+86-501. Act, how cited.
+Sections 86-501 to 86-530 shall be known and may be cited as the Information Technology Infrastructure Act.
+Source: Laws 1996, LB 1190, § 1; Laws 2000, LB 1349, § 3; R.S.Supp.,2000, § 81-1190; Laws 2002, LB 1105, § 271; Laws 2008, LB823, § 1; Laws 2010, LB1071, § 37.
+
+86-502. Definitions, where found.
+For purposes of the Information Technology Infrastructure Act, the definitions found in sections 86-503 to 86-510 apply.
+Source: Laws 1996, LB 1190, § 2; Laws 2000, LB 1349, § 4; R.S.Supp.,2000, § 81-1191; Laws 2002, LB 1105, § 272; Laws 2026, LB905, § 60.
+Operative Date: July 1, 2026
+
+86-503. Commission, defined.
+Commission means the Nebraska Information Technology Commission.
+Source: Laws 1998, LB 924, § 4; R.S.1943, (1999), § 86-1504; Laws 2002, LB 1105, § 273.
+
+86-504. Department, defined.
+Department means the Department of Administrative Services.
+Source: Laws 2002, LB 1105, § 274.
+
+86-505. Enterprise, defined.
+Enterprise means one or more departments, offices, boards, bureaus, commissions, or institutions of the state for which money is to be appropriated for communications or data processing services, equipment, or facilities, including all executive, legislative, and judicial departments, the Nebraska state colleges, the University of Nebraska, and all other state institutions and entities.
+Source: Laws 2002, LB 1105, § 275; Laws 2010, LB1071, § 38.
+
+86-506. Enterprise project, defined.
+Enterprise project means an endeavor undertaken by an enterprise over a fixed period of time using information technology, which would have a significant effect on a core business function or which affects multiple government programs, agencies, or institutions. Enterprise project includes all aspects of planning, design, implementation, project management, and training relating to the endeavor.
+Source: Laws 2002, LB 1105, § 276; Laws 2008, LB823, § 2; Laws 2010, LB1071, § 39.
+
+86-507. Information technology, defined.
+Information technology means computing and telecommunications systems and their supporting infrastructure and interconnectivity used to acquire, transport, process, analyze, store, and disseminate information electronically.
+Source: Laws 2002, LB 1105, § 277.
+
+86-508. Information technology clearinghouse, defined.
+Information technology clearinghouse means a service to provide convenient access for the commission and general public to information about best technology practices, referrals for technical assistance, and other information related to the Information Technology Infrastructure Act.
+Source: Laws 2002, LB 1105, § 278.
+
+86-509. Information technology infrastructure, defined.
+Information technology infrastructure means the basic facilities, services, and installations needed for the functioning of information technology.
+Source: Laws 2002, LB 1105, § 279.
+
+86-510. Statewide technology plan, defined.
+Statewide technology plan means the plan developed by the commission pursuant to section 86-516.
+Source: Laws 2002, LB 1105, § 280.
+
+86-511. Repealed. Laws 2026, LB905, § 69.
+Operative Date: July 1, 2026
+
+86-512. Legislative intent.
+Nebraskans, and others throughout the world, have become part of the information age, in which information is a primary element of economic, social, and cultural growth. The ability to move information quickly and accurately through electronic means is critical to the success of education, business, agriculture, health care, government, libraries, communities, and other areas of interest in a global society. A statewide vision and strategy is needed to ensure coordinated development of the telecommunications infrastructure necessary for Nebraska to keep pace worldwide and collaboration among entities within the state and with other states.
+Source: Laws 1998, LB 924, § 1; R.S.1943, (1999), § 86-1501; Laws 2002, LB 1105, § 282.
+
+86-513. Legislative findings and intent.
+(1) The Legislature finds that appropriations for information technology continue to increase. Advances in information technology have the potential to improve government efficiency, broaden educational opportunities, and enhance services to Nebraska communities and citizens. To assure the most cost-effective use of state appropriations:
+(a) Responsibility should be assigned for developing a statewide vision and strategic plan to guide investments in information technology;
+(b) Organizational and technical support for technology budget decisions should be improved and integrated;
+(c) A clearinghouse should be formed for technical support and best practices information; and
+(d) Responsibility should be assigned to an office within state government for improving the planning, budgeting, and management of state government's information resources.
+(2) It is the intent of the State of Nebraska to support the development of a unified statewide telecommunications infrastructure. The statewide telecommunications infrastructure will be scalable, reliable, and efficient. It is further the intent of the Legislature that the provisions of sections 86-512 to 86-524 serve to coordinate the state's investments in information technology in an efficient and expeditious manner. The provisions are not intended to impede the rapid deployment of appropriate technology or establish cumbersome regulations or bureaucracy.
+Source: Laws 1998, LB 924, § 2; R.S.1943, (1999), § 86-1502; Laws 2002, LB 1105, § 283.
+
+86-514. University of Nebraska; Legislature; exemptions.
+(1) The Legislature finds that the University of Nebraska, as the state's only public university, has unique needs and requirements in the area of information technology relating to the university's academic research mission. Accordingly, the Legislature intends that sections 86-512 to 86-524 shall not limit the authority of the Board of Regents of the University of Nebraska to make decisions about policies, purchases, and uses of information technology related to its academic research mission. For purposes of this section, academic research mission means those specific activities or programs of the university which are undertaken as a part of sponsored or grant-supported activities, organized research projects, or other similar activities intended to produce one or more research outcomes and conducted by employees of the university or other entities, including, but not limited to, research divisions, bureaus, institutes, and experimental stations. Academic research mission does not include the administrative activities of the university, instruction of students, or services provided by the university to communities when not conducted in the context of research outcomes.
+(2) The Legislature finds that, as a separate branch of government, the Legislature must perform its functions independently of other branches. Accordingly, the Legislature shall not be limited by the provisions and requirements of sections 86-512 to 86-524. However the Legislature reserves the right to use the resources established by such sections.
+Source: Laws 1998, LB 924, § 3; R.S.1943, (1999), § 86-1503; Laws 2002, LB 1105, § 284.
+
+86-515. Nebraska Information Technology Commission; created; members; expenses; executive director.
+(1) The Nebraska Information Technology Commission is created. The commission shall consist of (a) one member representing elementary and secondary education, (b) one member representing postsecondary education, (c) the Governor or his or her designee, (d) one member representing communities, and (e) five members representing the general public who have experience in developing strategic plans and making high-level business decisions. Of the members representing the general public, the principal business or occupation of at least one such member shall be agriculture. A member of the Transportation and Telecommunications Committee of the Legislature shall be appointed by the Executive Board of the Legislative Council to serve as an ex officio, nonvoting member of the commission. The Executive Board shall make the initial appointment of such member after January 5, 2011, and shall appoint a member every two years after the initial appointment. At any time that there is not a member of the Educational Service Unit Coordinating Council serving on the Nebraska Information Technology Commission or any working groups established pursuant to sections 86-512 to 86-524 that establish, coordinate, or prioritize needs for education, the Governor shall appoint to the commission one member who serves on the Educational Service Unit Coordinating Council.
+(2) The Governor or a designee of the Governor shall serve as chairperson of the commission.
+(3) The members of the commission other than the legislative member shall be appointed by the Governor with the approval of a majority of the Legislature. Members of the commission shall serve for terms of four years, except that two members initially appointed to represent the general public shall be appointed for a term of two years and any member appointed to represent the Educational Service Unit Coordinating Council shall be appointed for a term of one year. Members shall be limited to two consecutive terms. The Governor or his or her designee shall serve on the commission for his or her term. The legislative member of the commission shall serve until he or she is reappointed or a successor is appointed. Each member shall serve until the appointment and qualification of his or her successor. In case of a vacancy occurring prior to the expiration of the term of a member, the appointment shall be made only for the remainder of the term.
+(4) Members shall be reimbursed for expenses as provided in sections 81-1174 to 81-1177.
+(5) The commission may employ or designate an executive director to provide administrative and operational support for the commission. The Department of Administrative Services and Nebraska Educational Telecommunications Commission shall assist with administrative and operational support for the Nebraska Information Technology Commission as necessary to carry out its duties.
+Source: Laws 1998, LB 924, § 5; R.S.1943, (1999), § 86-1505; Laws 2002, LB 1105, § 285; Laws 2006, LB 1208, § 27; Laws 2007, LB603, § 32; Laws 2010, LB787, § 1; Laws 2020, LB381, § 142; Laws 2024, LB1031, § 5; Laws 2026, LB905, § 61.
+Operative Date: July 1, 2026
+
+86-516. Commission; duties.
+The commission shall:
+(1) Annually by July 1, adopt policies and procedures used to develop, review, and annually update a statewide technology plan;
+(2) Create an information technology clearinghouse to identify and share best practices and new developments, as well as identify existing problems and deficiencies;
+(3) Review and adopt policies to provide incentives for investments in information technology infrastructure services;
+(4) Determine a broad strategy and objectives for developing and sustaining information technology development in Nebraska, including long-range funding strategies, research and development investment, support and maintenance requirements, and system usage and assessment guidelines;
+(5) Adopt guidelines regarding project planning and management and administrative and technical review procedures involving state-owned or state-supported technology and infrastructure. Governmental entities, state agencies, and noneducation political subdivisions shall submit all projects which use any combination of general funds, federal funds, or cash funds for information technology purposes to the process established by sections 86-512 to 86-524. The commission may adopt policies that establish the format and minimum requirements for project submissions. The commission may monitor the progress of any such project and may require progress reports;
+(6) Adopt minimum technical standards, guidelines, and architectures. Such standards and guidelines shall not unnecessarily restrict the use of new technologies or prevent commercial competition, including competition with Network Nebraska;
+(7) Establish ad hoc technical advisory groups to study and make recommendations on specific topics, including workgroups to establish, coordinate, and prioritize needs for education, local communities, intergovernmental data communications, and state agencies;
+(8) By November 15 of each even-numbered year, make recommendations on technology investments to the Governor and the Legislature, including a prioritized list of projects. The recommendations submitted to the Legislature shall be submitted electronically;
+(9) Approve grants from the Community Technology Fund and Government Technology Collaboration Fund;
+(10) Adopt schedules and procedures for reporting needs, priorities, and recommended projects;
+(11) Assist the Chief Information Officer in developing and maintaining Network Nebraska pursuant to section 86-5,100; and
+(12) Determine the format that state agencies, boards, and commissions shall use to report their information technology plans under section 86-524.01. The commission shall include an analysis of such plans in the statewide technology plan.
+Source: Laws 1998, LB 924, § 6; Laws 1999, LB 446, § 12; R.S.1943, (1999), § 86-1506; Laws 2002, LB 1105, § 286; Laws 2005, LB 343, § 9; Laws 2006, LB 1208, § 28; Laws 2008, LB823, § 3; Laws 2010, LB1071, § 40; Laws 2012, LB782, § 244; Laws 2025, LB346, § 66; Laws 2026, LB905, § 62.
+Operative Date: July 1, 2026
+
+86-517. Commission; implementation goals.
+The commission shall implement sections 86-512 to 86-524 in accordance with the policy objectives described in sections 86-512, 86-513, and 86-516 and with the following goals:
+(1) Expanding access to lifelong educational and training opportunities so that Nebraska's citizens and work force can function in the emerging information society;
+(2) Stimulating and supporting information-based economic development that improves economic opportunity; and
+(3) Expanding citizen access to government information.
+Source: Laws 1998, LB 924, § 7; R.S.1943, (1999), § 86-1507; Laws 2002, LB 1105, § 287.
+
+86-518. Progress report.
+By November 15 of each even-numbered year, the Nebraska Information Technology Commission shall submit a progress report to the Governor and Legislature. The report submitted to the Legislature shall be submitted electronically.
+Source: Laws 1998, LB 924, § 8; R.S.1943, (1999), § 86-1508; Laws 2002, LB 1105, § 288; Laws 2012, LB782, § 245.
+
+86-519. Office of Chief Information Officer; created.
+The office of Chief Information Officer is created. The Chief Information Officer shall be appointed by and serve at the pleasure of the Governor with the approval of a majority of the Legislature. For administrative and budgetary purposes, the office of Chief Information Officer shall be located in the Department of Administrative Services which shall provide necessary support services for the office. All administrative and budgetary decisions for the office shall be made by the Chief Information Officer.
+Source: Laws 1998, LB 924, § 9; R.S.1943, (1999), § 86-1509; Laws 2002, LB 1105, § 289; Laws 2006, LB 921, § 15.
+
+86-520. Chief Information Officer; duties.
+The Chief Information Officer shall:
+(1) Maintain, in cooperation with the Department of Administrative Services, an inventory of noneducation state government technology assets, including hardware, applications, and databases;
+(2) Recommend policies and guidelines for acceptable and cost-effective use of information technology in noneducation state government;
+(3) Advise the Governor and Legislature on policy issues affecting noneducation state government related to information technology;
+(4) Coordinate efforts among other noneducation state government technology agencies and coordinating bodies;
+(5) Implement a strategic, tactical, and project planning process for noneducation state government information technology that is linked to the budget process;
+(6) Assist the budget division of the Department of Administrative Services and Legislative Fiscal Analyst in evaluating technology-related budget requests;
+(7) Work with each governmental department and noneducation state agency to evaluate and act upon opportunities to more efficiently and effectively deliver government services through the use of information technology;
+(8) Recommend to the Governor and Legislature methods for improving the organization and management of data by noneducation agencies to achieve the goals of making information sharable and reusable, eliminating redundancy of data and programs, improving the quality and usefulness of data, and improving access to data, and implement such recommendations as the Governor or Legislature may direct;
+(9) Monitor the status of major noneducation state government technology projects;
+(10) Establish and maintain Network Nebraska pursuant to section 86-5,100;
+(11) Apply in aggregate for reimbursements from the federal Universal Service Fund pursuant to section 254 of the Telecommunications Act of 1996, 47 U.S.C. 254, as such section existed on January 1, 2006, on behalf of school districts requesting to be included in such aggregated application;
+(12) Administer such funds as may be appropriated to the Chief Information Officer by the Legislature;
+(13) Monitor the status of information technology projects that are enterprise projects;
+(14) Collect information from state agencies, boards, and commissions as provided in section 86-524.01; and
+(15) Complete other tasks as assigned by the Governor.
+Source: Laws 1998, LB 924, § 10; R.S.1943, (1999), § 86-1510; Laws 2002, LB 1105, § 290; Laws 2006, LB 1208, § 29; Laws 2008, LB823, § 4; Laws 2010, LB1071, § 41.
+
+86-520.01. Information technology purchases; standards; use of Network Nebraska; notice required; when.
+Information technology purchases made with state funds or local tax receipts by education-related political subdivisions shall meet or exceed any applicable technical standards established by the commission. The Chief Information Officer may bid for such equipment and allow education-related political subdivisions to participate in leasing or purchasing contracts. An education-related political subdivision shall provide notice in writing, if required by guidelines established by the University of Nebraska and the Chief Information Officer for participation in Network Nebraska, to the distance education director of the Educational Service Unit Coordinating Council, the University of Nebraska, and the Chief Information Officer prior to the use of any new or additional equipment that will impact the use of Network Nebraska by such education-related political subdivision or other education-related political subdivisions.
+Source: Laws 2010, LB1071, § 42.
+
+86-521. Repealed. Laws 2026, LB905, § 69.
+Operative Date: July 1, 2026
+
+86-522. Community Technology Fund; created; use; investment.
+The Community Technology Fund is created. The fund shall be granted to public entities or for the public entity's share of public-private partnerships by the commission. The fund shall be used to provide incentives for collaborative community and regional approaches toward more effective and efficient use of technology to meet the needs of citizens, political subdivisions, and other entities as determined by the commission. The fund shall be administered by the office of Chief Information Officer. Any money in the fund available for investment shall be invested by the state investment officer pursuant to the Nebraska Capital Expansion Act and the Nebraska State Funds Investment Act.
+Source: Laws 1998, LB 924, § 12; R.S.1943, (1999), § 86-1512; Laws 2002, LB 1105, § 292; Laws 2006, LB 921, § 17; Laws 2026, LB905, § 63.
+Operative Date: July 1, 2026
+Cross References
+Nebraska Capital Expansion Act, see section 72-1269.
+Nebraska State Funds Investment Act, see section 72-1260.
+
+86-523. Government Technology Collaboration Fund; created; use; investment.
+The Government Technology Collaboration Fund is created. The fund shall be granted by the commission. The fund shall be used to provide incentives for collaborative technology projects and programs by state agencies, boards, and commissions and to assist in meeting the technology needs of small agencies as determined by the commission. The fund shall be administered by the office of Chief Information Officer. Any money in the fund available for investment shall be invested by the state investment officer pursuant to the Nebraska Capital Expansion Act and the Nebraska State Funds Investment Act.
+Source: Laws 1998, LB 924, § 13; R.S.1943, (1999), § 86-1513; Laws 2002, LB 1105, § 293; Laws 2006, LB 921, § 18; Laws 2026, LB905, § 64.
+Operative Date: July 1, 2026
+Cross References
+Nebraska Capital Expansion Act, see section 72-1269.
+Nebraska State Funds Investment Act, see section 72-1260.
+
+86-524. Legislative review.
+(1) The Appropriations Committee and the Transportation Committee of the Legislature shall jointly review sections 86-512 to 86-524 before January 1, 2001, and every two years thereafter. The Executive Board of the Legislative Council shall designate staff with appropriate technical experience to provide the staff support for the review. The committees shall establish criteria to be used for the review in accordance with the following policy objectives. It shall be the policy of the state to:
+(a) Use information technology in education, communities, including health care and economic development, and every level of government service to improve economic opportunities and quality of life for all Nebraskans regardless of location or income;
+(b) Stimulate the demand to encourage and enable long-term infrastructure innovation and improvement; and
+(c) Organize technology planning in new ways to aggregate demand, reduce costs, and create support networks; encourage collaboration between communities of interest; and encourage competition among technology and service providers.
+(2) In the review, the committees shall determine the extent to which:
+(a) The vision has been realized and short-term and long-term strategies have been articulated and employed;
+(b) The statewide technology plan and other activities of the commission have improved coordination and assisted policymakers;
+(c) An information technology clearinghouse has been established, maintained, and utilized of Nebraska's information technology infrastructure and of activities taking place in the state involving information technology, and the information flow between and among individuals and organizations has been facilitated as a result of the information technology clearinghouse;
+(d) Policies, standards, guidelines, and architectures have been developed and observed;
+(e) Recommendations made by the commission to the Governor and Legislature have assisted policy and funding decisions;
+(f) Input and involvement of all interested parties has been encouraged and facilitated; and
+(g) Long-term infrastructure innovation, improvement, and coordination has been planned for, facilitated, and achieved with minimal barriers and impediments.
+Source: Laws 1998, LB 924, § 14; R.S.1943, (1999), § 86-1514; Laws 2002, LB 1105, § 294.
+
+86-524.01. Information technology plan; report required.
+On or before September 15 of each even-numbered year, all state agencies, boards, and commissions shall report to the Chief Information Officer, in a format determined by the commission, an information technology plan that includes an accounting of all technology assets, including planned acquisitions and upgrades.
+Source: Laws 2008, LB823, § 6.
+
+86-525. Enterprise project; legislative findings.
+In addition to the findings in section 86-513, the Legislature also finds that:
+(1) The effective, efficient, and cost-effective operation of state government requires that information be considered and managed as a strategic resource;
+(2) Information technologies present numerous opportunities to more effectively manage the information necessary for state government operations;
+(3) Information technologies are changing and advancing at a very rapid rate, increasing the computing power available to individual users;
+(4) The commission should have the responsibility to establish goals, guidelines, and priorities for information technology infrastructure; and
+(5) Periodic investments in the information technology infrastructure are required to develop and maintain the foundation for the effective use of information technologies throughout state government.
+Source: Laws 1996, LB 1190, § 3; Laws 2000, LB 1349, § 5; R.S.Supp.,2000, § 81-1192; Laws 2002, LB 1105, § 295.
+
+86-526. Enterprise project; designation.
+The commission shall determine which proposed information technology projects are enterprise projects. The commission shall create policies and procedures for the designation of such projects. The commission shall evaluate designated enterprise project plans as authorized in section 86-528.
+Source: Laws 1996, LB 1190, § 5; Laws 2000, LB 1349, § 6; R.S.Supp.,2000, § 81-1194; Laws 2002, LB 1105, § 296; Laws 2008, LB823, § 7.
+
+86-527. Information Technology Infrastructure Fund; created; use; investment.
+The Information Technology Infrastructure Fund is hereby created. The fund shall contain gifts, grants, and such other money as is appropriated or transferred by the Legislature. The fund shall be used to attain the goals and priorities identified in the statewide technology plan. The fund shall be administered by the office of Chief Information Officer. Expenditures shall be made from the fund to finance the operations of the Information Technology Infrastructure Act in accordance with the appropriations made by the Legislature. Transfers from the fund to the General Fund may be made at the direction of the Legislature. Any money in the Information Technology Infrastructure Fund available for investment shall be invested by the state investment officer pursuant to the Nebraska Capital Expansion Act and the Nebraska State Funds Investment Act.
+Source: Laws 1996, LB 1190, § 6; Laws 1998, LB 924, § 42; Laws 2000, LB 1349, § 7; R.S.Supp.,2000, § 81-1195; Laws 2002, LB 1105, § 297; Laws 2002, Second Spec. Sess., LB 1, § 10; Laws 2003, LB 408, § 7; Laws 2006, LB 921, § 19; Laws 2008, LB823, § 8; Laws 2021, LB509, § 23.
+Cross References
+Nebraska Capital Expansion Act, see section 72-1269.
+Nebraska State Funds Investment Act, see section 72-1260.
+
+86-528. Enterprise project; funding.
+(1) The Legislature may allocate money from the Information Technology Infrastructure Fund for enterprise projects. The Legislature may recognize multiple-year commitments for large projects, subject to available appropriations, including remaining obligations for the century date change project managed by the department.
+(2) No contract or expenditure for the implementation of an enterprise project may be initiated unless the commission has approved a project plan. The project plan shall include, but not be limited to, the objectives, scope, and justification of the project; detailed specifications and analyses that guide the project from beginning to conclusion; technical requirements; and project management. The commission may request clarification, require changes, or provide conditional approval of a project plan. In its review, the commission shall determine whether the objectives, scope, timeframe, and budget of the project are consistent with the proposal authorized by the Legislature in its allocation from the fund.
+(3) The commission may also evaluate whether the project plan is consistent with the statewide technology plan and the commission's technical standards and guidelines.
+Source: Laws 2000, LB 1349, § 8; R.S.Supp.,2000, § 81-1196.01; Laws 2002, LB 1105, § 298; Laws 2008, LB823, § 9.
+
+86-529. Enterprise project; commission; duties.
+To implement enterprise projects pursuant to sections 86-525 to 86-530, the commission shall:
+(1) Develop procedures and issue guidelines regarding the review, approval, and monitoring of enterprise projects; and
+(2) Coordinate with the Chief Information Officer to monitor the status of enterprise projects, including a complete accounting of all project costs by fund source.
+Source: Laws 1996, LB 1190, § 10; Laws 1998, LB 924, § 43; Laws 2000, LB 1349, § 9; R.S.Supp.,2000, § 81-1199; Laws 2002, LB 1105, § 299; Laws 2008, LB823, § 10.
+
+86-530. Enterprise project; report.
+The Chief Information Officer shall report annually to the Governor and the Appropriations Committee of the Legislature on the status of enterprise projects. The report submitted to the committee shall be submitted electronically.
+Source: Laws 1996, LB 1190, § 13; Laws 2000, LB 1349, § 10; R.S.Supp.,2000, § 81-11,102; Laws 2002, LB 1105, § 300; Laws 2008, LB823, § 11; Laws 2012, LB782, § 246.

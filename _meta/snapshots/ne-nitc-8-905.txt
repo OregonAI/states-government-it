@@ -1,0 +1,21 @@
+                                                           Nebraska Information Technology Commission
+                                                                      Technical Standards and Guidelines
+
+8-905. Data sharing.
+    It is critical that agencies that share information and systems learn as much as possible about
+the risks associated with the planned or current interconnection and the security controls that
+they can implement to mitigate those risks. It also is critical that they establish formally
+documented agreements regarding the management, operation and use of interconnections, as
+required. The agreement should be reviewed and approved by appropriate senior staff from each
+organization.
+    All agencies that share connectivity and information between the agency and the Office of
+the CIO are required to have a security program that meets this policy. The agency information
+security officer shall develop a system security plan that must be approved by the state
+information security officer. All agencies shall perform a security control assessment that
+identifies the adequacy of security controls and precautions for protecting state information. If
+the agency performs this assessment independent of the state information security officer, an
+approved and signed interconnection system agreement that describes the security controls and
+plans will be in place to protect state information.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-905.pdf

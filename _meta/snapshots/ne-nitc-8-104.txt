@@ -1,0 +1,13 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+8-104. Policy exception process.
+    This policy establishes the controls and activities necessary to appropriately protect
+information and information technology resources. While every exception to a policy or standard
+weakens the protection for state IT resources and underlying data, it is recognized that at times
+business requirements dictate a need for temporary policy exceptions. In the event an agency
+believes it needs an exception to this policy, the agency may request an exemption by following
+the procedure outlined in section 1-103.
+--
+     History: Adopted on July 12, 2017.
+     URL: https://nitc.nebraska.gov/standards/8-104.pdf

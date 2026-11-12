@@ -1,0 +1,1498 @@
+# Nebraska seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Discovery 2026-11-12 through the toolkit Fetcher: the Legislature's statute pages (browse-statutes, chapter indexes, the print-friendly
+# chapter pages), the NITC Standards and Guidelines index and all 122 files it links, the Governor's executive-order index (309 order rows, 304 linked,
+# all governors) and the orders read, the NITC legal and commission pages, the OCIO site (cio.nebraska.gov), rules.nebraska.gov.
+# Statute entries are slices of the Legislature's whole-chapter page: `slice: {article: <first section>, part: <last section>}` (the seed
+# check allows only these two keys; here they are the first and last section number, inclusive). A drift run reports any change on the
+# chapter page against every slice of it: chapter 86 also holds telecommunications law, so such a report is not necessarily an IT change.
+sources:
+  - id: ne-rs-86-501-530
+    sha256: "3e5e2201afbd7c4d8e1fae1e31f0a0b8299005cb92136197a423551b2da2ce0d"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=86"
+    format: html
+    citation: "Neb. Rev. Stat. sections 86-501 to 86-530"
+    title: "Information Technology Infrastructure Act, Neb. Rev. Stat. 86-501 to 86-530"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, oversight, procurement, funding, cloud-resilience]
+    slice: {article: "86-501", part: "86-530"}
+    recheck: monthly
+    why_relevant: "The enabling statute for the Nebraska Information Technology Commission (86-515, 86-516: statewide technology plan, minimum technical standards, guidelines and architectures), the Office of Chief Information Officer (86-519) and the Chief Information Officer (86-520, 86-520.01 IT purchase standards), with the Community Technology and Government Technology Collaboration funds, legislative review, the agency IT plan report (86-524.01) and enterprise projects. 86-511 and 86-521 print as repealed by Laws 2026, LB905 and stay in the slice as printed."
+  - id: ne-rs-86-550-568
+    sha256: "3e5e2201afbd7c4d8e1fae1e31f0a0b8299005cb92136197a423551b2da2ce0d"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=86"
+    format: html
+    citation: "Neb. Rev. Stat. sections 86-550 to 86-568"
+    title: "Intergovernmental Data Services Program Act, Neb. Rev. Stat. 86-550 to 86-568"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, data, cloud-resilience]
+    slice: {article: "86-550", part: "86-568"}
+    recheck: monthly
+    why_relevant: "The intergovernmental data services program run by the Office of Chief Information Officer: the system through which state agencies and local governments share applications and data, the officer and division duties, budget, rules and the revolving fund. 86-553 and 86-566 print as repealed and stay as printed."
+  - id: ne-rs-86-569-573
+    sha256: "3e5e2201afbd7c4d8e1fae1e31f0a0b8299005cb92136197a423551b2da2ce0d"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=86"
+    format: html
+    citation: "Neb. Rev. Stat. sections 86-569 to 86-573"
+    title: "Geographic Information Systems Council, Neb. Rev. Stat. 86-569 to 86-573"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, data]
+    slice: {article: "86-569", part: "86-573"}
+    recheck: monthly
+    why_relevant: "Creates the Geographic Information Systems Council, which sets guidelines and policies for statewide GIS operations and data and advises the Chief Information Officer on information technology policy; the NITC GIS standards (chapter 3) rest on it."
+  - id: ne-rs-86-5-100
+    sha256: "3e5e2201afbd7c4d8e1fae1e31f0a0b8299005cb92136197a423551b2da2ce0d"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=86"
+    format: html
+    citation: "Neb. Rev. Stat. section 86-5,100"
+    title: "Network Nebraska, Neb. Rev. Stat. 86-5,100"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [governance, cloud-resilience, funding]
+    slice: {article: "86-5,100", part: "86-5,100"}
+    recheck: monthly
+    why_relevant: "The Chief Information Officer develops and maintains Network Nebraska, the statewide network for state agencies, local governments and educational entities, aggregates agency demand and sets its cost structure. The section sits in the chapter 86 run of telecommunications sections; only this section of the run is the state network."
+  - id: ne-rs-86-611
+    sha256: "3e5e2201afbd7c4d8e1fae1e31f0a0b8299005cb92136197a423551b2da2ce0d"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=86"
+    format: html
+    citation: "Neb. Rev. Stat. section 86-611"
+    title: "Digital and electronic signatures and electronic communications authorized, Neb. Rev. Stat. 86-611"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [digital-services, cybersecurity]
+    slice: {article: "86-611", part: "86-611"}
+    recheck: monthly
+    why_relevant: "A state agency or political subdivision may accept a digital or electronic signature and an electronic communication (subsection 3); the Secretary of State adopts the rules, which must require an audit trail and security related to the risk of fraud or misuse (subsection 4). The rest of the Uniform Electronic Transactions Act (86-612 to 86-643) is left out (see left_out)."
+  - id: ne-rs-86-644
+    sha256: "3e5e2201afbd7c4d8e1fae1e31f0a0b8299005cb92136197a423551b2da2ce0d"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=86"
+    format: html
+    citation: "Neb. Rev. Stat. section 86-644"
+    title: "Electronic postmark; use by state agency, Neb. Rev. Stat. 86-644"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [digital-services, data]
+    slice: {article: "86-644", part: "86-644"}
+    recheck: monthly
+    why_relevant: "Lets a state agency use the email address of a person it regulates or does business with, and accept a U.S. Postal Service electronic postmark in lieu of certified mail where the sender and receiver consent: how state agencies communicate electronically."
+  - id: ne-rs-87-801-808
+    sha256: "aa843343b7752d1a84e71f023b36d94d3d687ffd9218684fbeba89fea6ddaffc"
+    url: "https://nebraskalegislature.gov/laws/display-chapters.php?chapter=87"
+    format: html
+    citation: "Neb. Rev. Stat. sections 87-801 to 87-808"
+    title: "Financial Data Protection and Consumer Notification of Data Security Breach Act of 2006, Neb. Rev. Stat. 87-801 to 87-808"
+    doc_type: statute
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Legislature"
+    tags: [data, cybersecurity]
+    slice: {article: "87-801", part: "87-808"}
+    recheck: monthly
+    why_relevant: "The data breach statute. It is included because it binds state agencies: 87-802 defines \"commercial entity\" to include a \"government, governmental subdivision, agency, or instrumentality\", so an agency that owns or licenses computerized personal information must investigate a breach, notify residents and the Attorney General (87-803) and keep reasonable security procedures (87-808). It also binds private entities; the whole act rides along."
+  - id: ne-eo-25-04
+    sha256: "65d441a72616796d8b741223af52a6e1922677a70786f77e6da593563803b122"
+    url: "http://govdocs.nebraska.gov/docs/pilot/pubs/eofiles/25-04.pdf"
+    format: pdf
+    citation: "Executive Order No. 25-04"
+    title: "Banning the Use or Download of Applications, Software, and Platforms Created or Owned by China-based Companies or Companies Affiliated with the Chinese Communist Party"
+    doc_type: executive_order
+    jurisdiction: nebraska
+    issuing_body: "Office of the Governor"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    found_via: "Executive Orders index on govdocs.nebraska.gov (row 25-04, filed 03/05/25); the link on the index is eofiles/25-04.pdf"
+    why_relevant: "Directs the Office of the Chief Information Officer to investigate and prevent the download and use of applications, software and platforms of China-based companies on state-owned or operated devices, networks and infrastructure. Dated March 5, 2025 (Governor Jim Pillen); no later order on the index rescinds it."
+  - id: ne-eo-96-1
+    sha256: ""
+    url: "http://govdocs.nebraska.gov/docs/pilot/pubs/eofiles/96-1.pdf"
+    format: pdf
+    citation: "Executive Order No. 96-1"
+    title: "Create Information Resources Cabinet"
+    doc_type: executive_order
+    jurisdiction: nebraska
+    issuing_body: "Office of the Governor"
+    tags: [governance]
+    recheck: monthly
+    stub: true
+    stub_reason: "The text exists only as a 3-page scan (Adobe Acrobat 6.0 Paper Capture, 298,295 bytes fetched 2026-11-12 through the Fetcher from govdocs.nebraska.gov, the host the Governor's index links; the older host www.nlc.state.ne.us does not resolve). Its text layer is garbled recognition output (for example 'govermwnt', 'te~~~lo users g y', 'Secretary of State' beside 'I v day of January'), so it cannot be mirrored as text. The shared OCR procedure was tried (seeded with ocr: true) and refused: ocrmypdf exited 8 because the PDF is RC4-encrypted with owner restrictions (pdfinfo: 'Encrypted: yes (print:yes copy:yes change:no addNotes:no algorithm:RC4)'), and stripping that encryption is not something the procedure does. Not decrypted by hand. In force: the Governor's order list (309 order rows read) shows no order rescinding it; whether the Cabinet still meets was not found."
+    found_via: "Executive Orders index on govdocs.nebraska.gov (row 96-1, Jan. 10, 1996); the link on the index is eofiles/96-1.pdf"
+    why_relevant: "Creates the Information Resources Cabinet (Governor E. Benjamin Nelson) to set enterprise-wide information technology infrastructure goals and guidelines and to recommend technology investment allocations."
+  - id: ne-nitc-1-101
+    sha256: "9a7b91dfb3d465b87f81e4b0a7a8d4c0ebd951f5f0f42e556e5c91892683eafe"
+    url: "https://nitc.nebraska.gov/docs/1-101.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-101"
+    title: "1-101. Definitions."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [governance]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-101)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-101, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-1-102
+    sha256: "2a184c04e8a3b8077db6ebde0e0a41f931a9ca92ff55b2a2f4011d4173aa29c7"
+    url: "https://nitc.nebraska.gov/docs/1-102.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-102"
+    title: "1-102. Authority; applicability."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [governance]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-102)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-102, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-1-103
+    sha256: "3807a72038ab658109adfb32ddb566c5266b4ccb8b65dff8bdcec5be68d2536f"
+    url: "https://nitc.nebraska.gov/docs/1-103.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-103"
+    title: "1-103. Waiver policy."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [governance, oversight]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-103)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-103, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-1-201
+    sha256: "43c51ee4ab8a6335f509b3e207eac833e5f26950d735c414ad9458f7fbcf6a89"
+    url: "https://nitc.nebraska.gov/docs/1-201.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-201"
+    title: "1-201. Information technology plans."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [oversight]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-201)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-201, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-1-202
+    sha256: "954209f98d844908b975b1a3b38538814e15af584370d12225da490813224c01"
+    url: "https://nitc.nebraska.gov/docs/1-202.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-202"
+    title: "1-202. Project reviews; information technology projects submitted as part of the state biennial budget process."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [oversight, funding]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-202)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-202, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-1-203
+    sha256: "23e1104f4f6aca000e1b1026b5245926bdb124724096990b10cac27e0bd25e7c"
+    url: "https://nitc.nebraska.gov/docs/1-203.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-203"
+    title: "1-203. Project progress reports."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [oversight]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-203)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-203, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-1-204
+    sha256: "52ed40bf573a0e7be4c43cf0f862d577886a6aaaa0c4e425562feb524b7b3978"
+    url: "https://nitc.nebraska.gov/docs/1-204.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-204"
+    title: "1-204. Procurement review policy."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [procurement, oversight]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-204)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-204, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-1-205
+    sha256: "3ca393f33643e457efe2b24c3f1f4e8ca12a92463724cf9bf4dbbc12955e2d0b"
+    url: "https://nitc.nebraska.gov/docs/1-205.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-205"
+    title: "1-205. List of pre-approved items for purchase."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [procurement]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-205)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-205, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-1-206
+    sha256: "aa842d5297c268ed773ab7bf30de5257877cc3448858d67f0667265373e543b8"
+    url: "https://nitc.nebraska.gov/docs/1-206.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 1-206"
+    title: "1-206. Enterprise projects."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [oversight, funding]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 1-206)"
+    why_relevant: "NITC Technical Standards and Guidelines section 1-206, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-2-101
+    sha256: "9b780ec5a87e2231b3235e3cef2c730255f10098231076eabf6ae2b419b46d72"
+    url: "https://nitc.nebraska.gov/docs/2-101.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 2-101"
+    title: "2-101. Accessibility policy."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [digital-services]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 2-101)"
+    why_relevant: "NITC Technical Standards and Guidelines section 2-101, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-101
+    sha256: "ea796bbede12124316e594d8f5846690e8f8144b5392f6e32bd9478266d29518"
+    url: "https://nitc.nebraska.gov/docs/3-101.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-101"
+    title: "3-101. GIS software."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data, procurement]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-101)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-101, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-102
+    sha256: "607bbdf8c032c4ecf965fef6b6a95418ed5021c08978a87a37150e1dcb1a44f5"
+    url: "https://nitc.nebraska.gov/docs/3-102.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-102"
+    title: "3-102. NebraskaMAP portal."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data, digital-services]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-102)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-102, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-201
+    sha256: "8254352b5645899aa3df9be52a7681a823b8e8e3d88df7a4d81db575691c0019"
+    url: "https://nitc.nebraska.gov/docs/3-201.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-201"
+    title: "3-201. Geospatial metadata standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-201)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-201, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-202
+    sha256: "b3c06d800ba6b9cd66356d8798732bdcb920ecf3ee1a15ec83d639ae8829d2b3"
+    url: "https://nitc.nebraska.gov/docs/3-202.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-202"
+    title: "3-202. Land record information and mapping standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-202)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-202, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-203
+    sha256: "34fa3e39ea9d3d9196497befec101879d3d3eef9d98306372d0d05b4bec6a0f2"
+    url: "https://nitc.nebraska.gov/docs/3-203.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-203"
+    title: "3-203. Lidar standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-203)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-203, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-204
+    sha256: "325d1eed6be40e5b6bd1cd28e960c8f1e9a9a29ef782c18d604439125807cb28"
+    url: "https://nitc.nebraska.gov/docs/3-204.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-204"
+    title: "3-204. Imagery standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-204)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-204, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-205
+    sha256: "5aa2c7d2e3671eebb01e362e55cf313828828b178c34413443caa4a52a3d82f5"
+    url: "https://nitc.nebraska.gov/docs/3-205.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-205"
+    title: "3-205. Street centerlines."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-205)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-205, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-206
+    sha256: "a0fa351386903b71f5e2deede8d7470c6270acbd6820233e95bc8a884b7340d1"
+    url: "https://nitc.nebraska.gov/docs/3-206.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-206"
+    title: "3-206. Address points."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-206)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-206, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-3-301
+    sha256: "552e519d1f3f2a6610da5a6abeb4b46818e1a6aac761aef11c4e3e509579e331"
+    url: "https://nitc.nebraska.gov/docs/3-301.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 3-301"
+    title: "3-301. Nebraska Plane Coordinate System."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 3-301)"
+    why_relevant: "NITC Technical Standards and Guidelines section 3-301, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-4-201
+    sha256: "f98e47b1f83dd4fe50f2a7846642549fcf63b990466bb87c7665d0f4ee072b77"
+    url: "https://nitc.nebraska.gov/docs/4-201.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 4-201"
+    title: "4-201. State government web pages; footer guidelines."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [digital-services]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 4-201)"
+    why_relevant: "NITC Technical Standards and Guidelines section 4-201, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-4-202
+    sha256: "dfc598ae3aed2b170524ef1517d8e84673b4b2aa898d5de0536e0482f3c8f7fc"
+    url: "https://nitc.nebraska.gov/docs/4-202.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 4-202"
+    title: "4-202. Web cookie standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [digital-services, data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 4-202)"
+    why_relevant: "NITC Technical Standards and Guidelines section 4-202, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-4-203
+    sha256: "5dc233e66092e063eaa97211c615df010c626ae660b78afefdea721e89770710"
+    url: "https://nitc.nebraska.gov/docs/4-203.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 4-203"
+    title: "4-203. Security statement."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [digital-services, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 4-203)"
+    why_relevant: "NITC Technical Standards and Guidelines section 4-203, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-5-201
+    sha256: "8195bb53e8f6a5d365bfdb77b594095231d5279dd0136dd5acc28c00fb32edf9"
+    url: "https://nitc.nebraska.gov/docs/5-201.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 5-201"
+    title: "5-201. Email standard for state agencies."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 5-201)"
+    why_relevant: "NITC Technical Standards and Guidelines section 5-201, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-5-301
+    sha256: "032b7fc8c6a8572412ff77f00c3cb8ce10750faa8a713c3e0e4090b447f8a958"
+    url: "https://nitc.nebraska.gov/docs/5-301.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 5-301"
+    title: "5-301. Internet fax standard for state agencies."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 5-301)"
+    why_relevant: "NITC Technical Standards and Guidelines section 5-301, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-5-401
+    sha256: "3d844e6fb728429e3a872a92dde4d81afe93fd9fd031fce2b5e0e902fb138fb8"
+    url: "https://nitc.nebraska.gov/docs/5-401.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 5-401"
+    title: "5-401. Active Directory; user photographs."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience, data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 5-401)"
+    why_relevant: "NITC Technical Standards and Guidelines section 5-401, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-101
+    sha256: "5f8e1d80a6d9ee9b9cd6f7f88e9c4dd61630933884690926e269e5a54a47b57e"
+    url: "https://nitc.nebraska.gov/docs/7-101.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-101"
+    title: "7-101. State communications system; acceptable use policy."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-101)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-101, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-102
+    sha256: "a1762182e743554d3c2d45afc70f01643a3c9a773234e29d94b962cfe73522cd"
+    url: "https://nitc.nebraska.gov/docs/7-102.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-102"
+    title: "7-102. DNS forwarding standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-102)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-102, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-103
+    sha256: "33db658c8c54b26c22e42cff726e790d15be487530f7a3ea8b4e326db665b502"
+    url: "https://nitc.nebraska.gov/docs/7-103.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-103"
+    title: "7-103. SMTP routing standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-103)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-103, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-104
+    sha256: "4ea71c8c262038e332c4e1f4e2b92c06febd288adf3218a478fd57d5d75a23ed"
+    url: "https://nitc.nebraska.gov/docs/7-104.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-104"
+    title: "7-104. Web domain name standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience, digital-services]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-104)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-104, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-105
+    sha256: "daf4f63d31dbf1cda112ec37e5bf10e3cb646e908c4e599ab37a3baad45d8175"
+    url: "https://nitc.nebraska.gov/docs/7-105.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-105"
+    title: "7-105. Wireless local area network standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-105)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-105, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-106
+    sha256: "5c98d08bebc6432f3a3108b2e6eeab6af28c710756a9f631596bf0cd68a6e600"
+    url: "https://nitc.nebraska.gov/docs/7-106.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-106"
+    title: "7-106. Internet of Things (IoT) standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-106)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-106, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-201
+    sha256: "47a4e280255d23d03c9a5456c02c445d9f17d7fa8541cae4af6ed40d557cb560"
+    url: "https://nitc.nebraska.gov/docs/7-201.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-201"
+    title: "7-201. Network Nebraska; network edge device standard."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-201)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-201, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-202
+    sha256: "cd686016810fb6d4971c4472646e8f476fdd464990fb545ddbbb964fb96b753a"
+    url: "https://nitc.nebraska.gov/docs/7-202.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-202"
+    title: "7-202. Contracting guideline for an upgrade of distance learning services."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience, procurement]
+    identity_text: "7-202. Contracting guideline for upgrade of distance learning services."
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-202)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-202, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-203
+    sha256: "75fb6e76b720eb2e3c4f44fe0f60f967ec9258f00d25d82659f2b00e35b7d873"
+    url: "https://nitc.nebraska.gov/docs/7-203.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-203"
+    title: "7-203. IP communication protocol standard for synchronous distance learning and videoconferencing over Network Nebraska."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-203)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-203, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-204
+    sha256: "2dfc22866b1f6aedd1da228030f754693095352e4ab8d6965d95064f0c8a39b0"
+    url: "https://nitc.nebraska.gov/docs/7-204.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-204"
+    title: "7-204. Video and audio compression standard for synchronous distance learning and videoconferencing."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-204)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-204, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-7-205
+    sha256: "1d9e8b61137ff33bf2ba002a30e9845750ea46c4600a95777794a5e8675e1ebd"
+    url: "https://nitc.nebraska.gov/docs/7-205.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 7-205"
+    title: "7-205. Scheduling standard for synchronous distance learning and videoconferencing."
+    doc_type: standard
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 7-205)"
+    why_relevant: "NITC Technical Standards and Guidelines section 7-205, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-8-101
+    sha256: "e5975c31ce3c59975850a0aa3d6ec3fec066a4d791d561e7cbed5abed4f7b0f9"
+    url: "https://nitc.nebraska.gov/docs/8-101.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-101"
+    title: "8-101. Purpose."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-101)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-101, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-102
+    sha256: "e992d4b98cddbe159a238c1af54faed1e51a11f3690dc8326c71251013ed764b"
+    url: "https://nitc.nebraska.gov/docs/8-102.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-102"
+    title: "8-102. Scope."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-102)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-102, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-103
+    sha256: "537150eef62766530c46068da35c4474709ec160978fa30c22c46b3d0fc725cc"
+    url: "https://nitc.nebraska.gov/docs/8-103.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-103"
+    title: "8-103. Roles and responsibilities."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-103)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-103, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-104
+    sha256: "7ba9e432df8fa269fd0f1911183f66208cd18e86e4a65324e7ca8731cb4b6bcf"
+    url: "https://nitc.nebraska.gov/docs/8-104.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-104"
+    title: "8-104. Policy exception process."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, governance]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-104)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-104, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-201
+    sha256: "ab28e3ff264468fb75aae79c0302ef0c858acaf3bcc654b6f401791033d9f32d"
+    url: "https://nitc.nebraska.gov/docs/8-201.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-201"
+    title: "8-201. Acceptable use."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-201)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-201, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-202
+    sha256: "a9e0c6941cf4562f0720fde71ae7b612f3b85c8e76e1cadaa319cb13ecddc1b3"
+    url: "https://nitc.nebraska.gov/docs/8-202.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-202"
+    title: "8-202. Change control management."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-202)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-202, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-203
+    sha256: "892e150e3b25973b4e48ecaa0a0f7ec550993f09912bfc45c29f0e275b6c8dba"
+    url: "https://nitc.nebraska.gov/docs/8-203.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-203"
+    title: "8-203. Multi-function devices."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-203)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-203, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-204
+    sha256: "cf5cdbb529448cb6ac9da3d08c5b4453ec6a655899be329cb69631977df359e2"
+    url: "https://nitc.nebraska.gov/docs/8-204.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-204"
+    title: "8-204. Email."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-204)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-204, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-205
+    sha256: "7db3ab794e4ffbebf6e09512a94c67a736a54867d968f558a8910158ef73666d"
+    url: "https://nitc.nebraska.gov/docs/8-205.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-205"
+    title: "8-205. Portable storage devices."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-205)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-205, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-206
+    sha256: "e0a1a23ccb3469393b1a33e50efd7530ca56c42f15cf02b1c459e75d5febd525"
+    url: "https://nitc.nebraska.gov/docs/8-206.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-206"
+    title: "8-206. Facilities; physical security requirements."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-206)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-206, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-207
+    sha256: "9e1b0632a4bb498324e79a9e064df6c5bec6212dad902a95ea8a8fef8d70c361"
+    url: "https://nitc.nebraska.gov/docs/8-207.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-207"
+    title: "8-207. Facilities; identification badges; visitors."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-207)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-207, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-208
+    sha256: "da66d0dfc1dc94030a983801722f2b8e11697b179717f3dd4b69fb7844f18f28"
+    url: "https://nitc.nebraska.gov/docs/8-208.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-208"
+    title: "8-208. External service providers."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, procurement]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-208)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-208, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-209
+    sha256: "c4e4e04c930aa90887bbab64c394fe62cff45036e98ebe2dceca81a5ae638df0"
+    url: "https://nitc.nebraska.gov/docs/8-209.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-209"
+    title: "8-209. Agency security planning and reporting."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, oversight]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-209)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-209, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-210
+    sha256: "ca3647b95289ee99f93e304b8e8c1e9ade89763d81b9a979ce04b5cbbcebd45a"
+    url: "https://nitc.nebraska.gov/docs/8-210.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-210"
+    title: "8-210. Information security strategic plan."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, oversight]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-210)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-210, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-211
+    sha256: "c1c6c1b74ecaee3a2d8cd129baf06652a83ca19c8855f202c71fe2043cfaae44"
+    url: "https://nitc.nebraska.gov/docs/8-211.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-211"
+    title: "8-211. System security plan."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, oversight]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-211)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-211, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-213
+    sha256: "517b13baf8af30c1ce44bb0a7585b3919a557c3bbeac2b1f5646ef3034d7dd20"
+    url: "https://nitc.nebraska.gov/docs/8-213.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-213"
+    title: "8-213. International travel."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-213)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-213, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-301
+    sha256: "924b54628402ad8dc5c3a5a6f864db2f9281fa4fa991443782a5f7a7f4755bcc"
+    url: "https://nitc.nebraska.gov/docs/8-301.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-301"
+    title: "8-301. Remote access."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-301)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-301, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-302
+    sha256: "984eec29c22a1a221fad78062ff790efaff25007600b725df65c668569e01c79"
+    url: "https://nitc.nebraska.gov/docs/8-302.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-302"
+    title: "8-302. Passwords."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-302)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-302, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-302-1
+    sha256: "77e030ecd531aebe96db5abfd69aa605af0caeedf457c5af94a7d1547d5445fe"
+    url: "https://nitc.nebraska.gov/docs/8-302-1.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-302.1"
+    title: "8-302.1. Public accounts; passwords."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-302.1)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-302.1, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-303
+    sha256: "26a4bd047a6c878524d913b0a6eff8352a661774bce991b753e451ca1f5713a5"
+    url: "https://nitc.nebraska.gov/docs/8-303.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-303"
+    title: "8-303. Identification and authorization."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-303)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-303, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-304
+    sha256: "5d015ca39861132a6d53ee643ef7fbb504e827f1426fd8709a16f9044d301481"
+    url: "https://nitc.nebraska.gov/docs/8-304.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-304"
+    title: "8-304. Privileged access accounts."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-304)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-304, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-401
+    sha256: "b96475a02b611c7929dc1571799eba57d5defe5aa63d83abfa60c821f0bf7d5a"
+    url: "https://nitc.nebraska.gov/docs/8-401.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-401"
+    title: "8-401. Network documentation."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-401)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-401, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-402
+    sha256: "08a3257fd498f5aa229c518969bc771228b3a42da3c43584eb547b2a3aba7e0d"
+    url: "https://nitc.nebraska.gov/docs/8-402.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-402"
+    title: "8-402. Network transmission security."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-402)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-402, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-403
+    sha256: "e8d5c0066137450c41b37e9424b2a17326c3d1b86fb7822d2b95b1bacbafd663"
+    url: "https://nitc.nebraska.gov/docs/8-403.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-403"
+    title: "8-403. Network architecture requirements."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-403)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-403, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-404
+    sha256: "40e066119edcc0444617ec427308fd893730179e20512eaeb6df4c1687a9601e"
+    url: "https://nitc.nebraska.gov/docs/8-404.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-404"
+    title: "8-404. External connections."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-404)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-404, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-405
+    sha256: "5c2c10fc6ead595dcbd5a7bbccbae78dc0a3b2d236a382b004a544e4406c89ae"
+    url: "https://nitc.nebraska.gov/docs/8-405.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-405"
+    title: "8-405. Wireless networks."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-405)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-405, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-501
+    sha256: "1ec36ca137348798a2045fae9329bde02f8607080b20ffd9409a5066bfdb3272"
+    url: "https://nitc.nebraska.gov/docs/8-501.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-501"
+    title: "8-501. System security; approved hardware and software; documentation."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-501)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-501, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-502
+    sha256: "2bdc3e757cf448124df98631f6b37f711fc6462457a179d3d4413e00f487c459"
+    url: "https://nitc.nebraska.gov/docs/8-502.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-502"
+    title: "8-502. Minimum user account configuration."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-502)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-502, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-503
+    sha256: "f9835c3e69e41c3d48a93d37ea45646e3adb8e7b05fa39b48da01aa7cf64f277"
+    url: "https://nitc.nebraska.gov/docs/8-503.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-503"
+    title: "8-503. Minimum server configuration."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-503)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-503, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-504
+    sha256: "be78a1e506cf614027dd99d8298d9a21a96ad6605f317cf4e2e1186b31642cfd"
+    url: "https://nitc.nebraska.gov/docs/8-504.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-504"
+    title: "8-504. Minimum workstation configuration."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-504)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-504, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-506
+    sha256: "286913ef1731d79810b9439514cfea9c0374aed89de26ae88c0f9c8bb4ef4a91"
+    url: "https://nitc.nebraska.gov/docs/8-506.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-506"
+    title: "8-506. Minimum mobile device configuration."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-506)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-506, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-507
+    sha256: "1171930332cac41d6b2d973a97ddc86b0cc1dd5fb8e7ad25e4e9496c546278ba"
+    url: "https://nitc.nebraska.gov/docs/8-507.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-507"
+    title: "8-507. System maintenance."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-507)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-507, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-508
+    sha256: "d52e5650d52739c420994ea3626554c45e667677f66c1c5030703279b9297e99"
+    url: "https://nitc.nebraska.gov/docs/8-508.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-508"
+    title: "8-508. Kiosks and public access workstations."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-508)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-508, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-601
+    sha256: "5b0365f83343bf2ddf6c13b57d9b3ff48d0cb73b51f7c89d1a280955c7a131c4"
+    url: "https://nitc.nebraska.gov/docs/8-601.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-601"
+    title: "8-601. Application documentation."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-601)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-601, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-602
+    sha256: "fe4bfd4e69ce3d74f24eeea44a87856972eabe77e5fe79cda769a7792cc1be0c"
+    url: "https://nitc.nebraska.gov/docs/8-602.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-602"
+    title: "8-602. Application code."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-602)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-602, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-603
+    sha256: "8163c9054a9b871be60d804c4bbc624379293fda4783d8135ef2d3c890fcd9c8"
+    url: "https://nitc.nebraska.gov/docs/8-603.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-603"
+    title: "8-603. Separation of test and production environments."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-603)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-603, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-604
+    sha256: "fbf3fcf305c41ae4219af9f69173e99359356e8dfcb6cbc610a7a51031bd2f53"
+    url: "https://nitc.nebraska.gov/docs/8-604.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-604"
+    title: "8-604. Application development."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-604)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-604, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-605
+    sha256: "db3dd2fcbf3c55c5962b3409573ce2fb77821e35e90c0814f5898cd28cf0c841"
+    url: "https://nitc.nebraska.gov/docs/8-605.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-605"
+    title: "8-605. Web applications and services."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-605)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-605, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-606
+    sha256: "40d86c37b555862c69a9599eddda9a823e349e9c9c93895e13f4d9f6b918d4ce"
+    url: "https://nitc.nebraska.gov/docs/8-606.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-606"
+    title: "8-606. Staff use of cloud storage websites."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-606)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-606, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-607
+    sha256: "a04512b2a6e7fa3d5abe09472e67a6ea082f65bba0e053874b346811104f6805"
+    url: "https://nitc.nebraska.gov/docs/8-607.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-607"
+    title: "8-607. Cloud computing."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-607)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-607, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-608
+    sha256: "0f13beb1f56da7b47debe058c65ae9647eed097417668ea77cf4d50a8866a519"
+    url: "https://nitc.nebraska.gov/docs/8-608.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-608"
+    title: "8-608. Low-code/no-code and containerization development."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, cloud-resilience]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-608)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-608, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-609
+    sha256: "3ea183a748a2f045cad3e0020ebf0f33663d6e8f8ed691dfb1833d465afc7e1d"
+    url: "https://nitc.nebraska.gov/docs/8-609.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-609"
+    title: "8-609. Artificial intelligence policy."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [ai, cybersecurity, data]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-609)"
+    why_relevant: "The state agency AI policy: for AI systems owned, used or managed by the State of Nebraska, requires consultation with the Office of the CIO, privacy and risk assessments, bars public AI with HIGH or MODERATE IMPACT data, and sets ethics, transparency and approval rules. Adopted by the NITC under 86-516; applies to state agencies, boards and commissions (1-102)."
+  - id: ne-nitc-8-701
+    sha256: "c898be93cd9e77d84f6aa8d45aa228bb119f091c3d7c3152bae73f6a2b09f936"
+    url: "https://nitc.nebraska.gov/docs/8-701.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-701"
+    title: "8-701. Auditing and compliance; responsibilities; review."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-701)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-701, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-702
+    sha256: "911a9f5d307ffb15fa28759ce406acf3592456440ea8adf906f4d66c08f74aa5"
+    url: "https://nitc.nebraska.gov/docs/8-702.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-702"
+    title: "8-702. Awareness and training."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-702)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-702, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-703
+    sha256: "99e02279fe5d244054454386e7f5fe04bd198cbf8d6a028531b6ca5fa1e585a1"
+    url: "https://nitc.nebraska.gov/docs/8-703.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-703"
+    title: "8-703. Security reviews; risk management."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-703)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-703, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-704
+    sha256: "9b675e7c5f30bf0e130a074b30c8f8c268a76d326ab1592bedac1cb8e8e4827d"
+    url: "https://nitc.nebraska.gov/docs/8-704.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-704"
+    title: "8-704. Logging."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-704)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-704, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-705
+    sha256: "7eee6c68de0563fd66e1b057bd11f8149eb7893c030239c57fe9b2eb9d5bea73"
+    url: "https://nitc.nebraska.gov/docs/8-705.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-705"
+    title: "8-705. Logging; format, storage, and retention."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-705)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-705, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-706
+    sha256: "c49dc33890555cffc3c0c7aaea9511375f72e3e96e922561d98a0b66e79561c3"
+    url: "https://nitc.nebraska.gov/docs/8-706.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-706"
+    title: "8-706. Logging; auditable events."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-706)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-706, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-707
+    sha256: "b24dab55779b3d538d52856426660355c2a3d14fa5e9b3e4c781729914a27e9b"
+    url: "https://nitc.nebraska.gov/docs/8-707.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-707"
+    title: "8-707. Logging; audit log contents."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-707)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-707, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-708
+    sha256: "db364b92e16067699e2da09010e574b447a14eedd5cbaf40b4f19fb8d1e0ada9"
+    url: "https://nitc.nebraska.gov/docs/8-708.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-708"
+    title: "8-708. Logging; audit review, monitoring, findings and remediation."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-708)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-708, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-709
+    sha256: "dec067128a974ff1a38a39b74095c4c57a7cd4204d8c477958595d5f5c8a5924"
+    url: "https://nitc.nebraska.gov/docs/8-709.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-709"
+    title: "8-709. Logging; application logging review and monitoring."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-709)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-709, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-801
+    sha256: "a4cfd42497565ac7eadb268869b7a9eb68b3dd8ddc9350d741803f0a9b1be2c6"
+    url: "https://nitc.nebraska.gov/docs/8-801.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-801"
+    title: "8-801. Incident response."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-801)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-801, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-802
+    sha256: "2058ece5bfb2994fd256d8acbbff9ab771b24d6b6321da6c5938e451f29a175d"
+    url: "https://nitc.nebraska.gov/docs/8-802.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-802"
+    title: "8-802. Incident response plan."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-802)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-802, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-803
+    sha256: "38725e338970407fea597b3ea7b534c91dde309ca1c40cfb4ade6442127c5bc1"
+    url: "https://nitc.nebraska.gov/docs/8-803.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-803"
+    title: "8-803. Penetration testing."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-803)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-803, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-804
+    sha256: "404f6c9e98909d25cf58a02f1c7e95e68d0b12e33b186fa4c78889695906338e"
+    url: "https://nitc.nebraska.gov/docs/8-804.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-804"
+    title: "8-804. Vulnerability scanning."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-804)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-804, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-805
+    sha256: "dad28fe6731561602c6b292a33d5a5b5bccf1856738cf6d6c58653ae922bfe18"
+    url: "https://nitc.nebraska.gov/docs/8-805.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-805"
+    title: "8-805. Malicious software protection."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-805)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-805, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-806
+    sha256: "0036c230515b8edf38508b2cde5e26974c2deebd6b47a53cd10aa74a83cfb560"
+    url: "https://nitc.nebraska.gov/docs/8-806.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-806"
+    title: "8-806. Security deficiencies."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-806)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-806, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-807
+    sha256: "d628cbdd71f53d452b19ae80664c00561f23dad12db114064ad8209daa3c4078"
+    url: "https://nitc.nebraska.gov/docs/8-807.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-807"
+    title: "8-807. Third party cyber risk management."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, procurement]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-807)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-807, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-901
+    sha256: "6c21549ed939174853005a8ca3b60f6b51ddb863313703beea763029ff7dc2aa"
+    url: "https://nitc.nebraska.gov/docs/8-901.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-901"
+    title: "8-901. State data."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-901)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-901, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-902
+    sha256: "0b24d17128768386b6d512b54873e23c4ee30b177aa9ee15d25bf71b736dd7e7"
+    url: "https://nitc.nebraska.gov/docs/8-902.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-902"
+    title: "8-902. Data classification categories."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-902)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-902, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-903
+    sha256: "400038dd9a76d9802ef1f08c11ce451b831389c751e60b808fbe1e7b66b289de"
+    url: "https://nitc.nebraska.gov/docs/8-903.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-903"
+    title: "8-903. Data inventory."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-903)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-903, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-904
+    sha256: "93755bcd9894cdac668a3aff0fcc4952d670c8648dd319be3fb9bf86aa672234"
+    url: "https://nitc.nebraska.gov/docs/8-904.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-904"
+    title: "8-904. Data security control assessment."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-904)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-904, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-905
+    sha256: "1d493324719cf89e187734ef8eccac2512938ba077974703a8472072f6670ccf"
+    url: "https://nitc.nebraska.gov/docs/8-905.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-905"
+    title: "8-905. Data sharing."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-905)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-905, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nitc-8-906
+    sha256: "a1e7117f69d8b86430f5d401e3b3ae793b888f5954d1c080e6e745cbbabafca3"
+    url: "https://nitc.nebraska.gov/docs/8-906.pdf"
+    format: pdf
+    citation: "NITC Technical Standards and Guidelines 8-906"
+    title: "8-906. Data destruction."
+    doc_type: policy
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [data, cybersecurity]
+    recheck: monthly
+    found_via: "Standards and Guidelines index at nitc.nebraska.gov/standards/ (row 8-906)"
+    why_relevant: "NITC Technical Standards and Guidelines section 8-906, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102), in the Information Security Policy of chapter 8, whose scope is all IT systems for which the state has administrative responsibility (8-102)."
+  - id: ne-nac-209-1
+    sha256: ""
+    url: "https://rules.nebraska.gov/"
+    format: html
+    citation: "209 NAC 1"
+    title: "Title 209, Chapter 1. Records Relating to the Nature, Location, or Function of Cybersecurity"
+    doc_type: rule
+    jurisdiction: nebraska
+    issuing_body: "Nebraska Information Technology Commission"
+    tags: [cybersecurity, data]
+    recheck: monthly
+    stub: true
+    stub_reason: "The only official source of the codified rule is the Secretary of State's rules portal, https://rules.nebraska.gov/. The Fetcher got HTTP 200 and 803 bytes from it: an empty script shell (\"You need to enable JavaScript to run this app.\", one script bundle), no rule text, and the same 803 bytes from the static-looking paths tried under www.nebraska.gov/rules-and-regs/regsearch/. The text is reachable only through the portal's own JavaScript, which is not a page a visitor's link points to and is not called. The rule exists: the Commission's hearing notice (https://nitc.nebraska.gov/about/legal/docs/2025/notice-of-public-hearing-209-nac-1.pdf, read) proposes it as implementing Neb. Rev. Stat. 84-712.05(26), and the certificate of adoption in the July 11, 2025 meeting packet (https://nitc.nebraska.gov/commission/meetings/docs/2025/07-11-2025-docs.pdf, read) says the Commission adopted it on July 11, 2025. The NITC legal page (https://nitc.nebraska.gov/about/legal/) offers only the DRAFT (209-20nac-201-draft-2025-02-24.pdf, headed \"209 NAC 1 (DRAFT)\"), which is not the text of record, so it is not mirrored."
+    why_relevant: "The only administrative rule found for the Commission: it lists the categories of cybersecurity records a public entity may withhold under Neb. Rev. Stat. 84-712.05(26) (personnel, risk management, technical controls, monitoring logs, incident response and others)."
+  - id: ne-watch-nitc-standards
+    sha256: ""
+    url: "https://nitc.nebraska.gov/standards/"
+    format: html
+    citation: "NITC Standards and Guidelines index"
+    title: "NITC Technical Standards and Guidelines: the index of all chapters and sections (122 links on 2026-11-12)"
+    doc_type: policy
+    jurisdiction: nebraska
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The statewide IT policy and standards library; each in-force section is seeded, and the watch sees sections added, repealed or renumbered."
+  - id: ne-watch-governor-eo-index
+    sha256: ""
+    url: "http://govdocs.nebraska.gov/docs/pilot/pubs/eoindex.html"
+    format: html
+    citation: "Governor executive orders index"
+    title: "Nebraska Office of the Governor: Executive Orders (309 order rows, 304 with a file link, all governors, newest first, read 2026-11-12)"
+    doc_type: executive_order
+    jurisdiction: nebraska
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Governor's order list of all governors, linked from governor.nebraska.gov; the watch sees new orders."
+  - id: ne-watch-nitc-legal
+    sha256: ""
+    url: "https://nitc.nebraska.gov/about/legal/"
+    format: html
+    citation: "NITC legal page (rulemaking)"
+    title: "NITC: legal page (rulemaking notices and drafts, one chapter, 209 NAC 1, on 2026-11-12)"
+    doc_type: rule
+    jurisdiction: nebraska
+    tags: [governance]
+    recheck: monthly
+    watch_only: true
+    why_relevant: "The Commission's rulemaking page; the watch sees new notices, drafts and chapters."
+
+left_out:
+- text: "---- Nebraska: found and left out (each was seen on an official page on 2026-11-12 and read through the Fetcher; the reason is recorded here)"
+- text: |-
+    NITC Technical Standards and Guidelines library (https://nitc.nebraska.gov/standards/): the index lists 122 links and every row was reconciled. 100 are seeded (75 policy, 25 standard: chapters 1, 2 and 8 and any title naming a policy are policy; chapters 3, 4, 5 and 7 are standard). Left out:
+     - 10 sections the index lists as '[Repealed.]' or '[Superseded.]', not in force (each file read: 2-201 superseded, moved to the Department of Administrative Services' website in 2021; 4-101 repealed July 11, 2025; 4-204; 5-101, 5-102, 5-202, 5-203, 5-204; 8-212 repealed July 8, 2021; 8-505).
+     - 9 aggregate files that repeat the section files word for word: chapter-1-general-provisions.pdf, chapter-2-accessibilty.pdf, chapter-3-geographic-information-systems.pdf, chapter-4-e-government.pdf, chapter-5-state-government-entreprise-systems.pdf, chapter-6-reserved.pdf (a 'Reserved' page, the index lists it as Chapter 6), chapter-7-networks.pdf, chapter-8-information-security-policy.pdf, and standards-and-guidelines/docs/standards.pdf (the full 240-page compilation). The section files are the instruments; the index is watched.
+     - 1-RD-01 'Table: Statutory references; cross references' (a table of which section cites which statute; a reference table, not an instrument) and 1-RD-02 'Tables: Waivers' (4 pages, all images, no text layer: a record of waivers granted, not an instrument, and a scan).
+     - 7-RD-01 'Telecommunications facilities and services' (a 'resource document' that its own text calls guidance on office cabling and allocation of responsibility between lessor, lessee and tenant agency, with 'recommended requirements'): left out as guidance on building telecommunications wiring, OWNER DECISION.
+     - 3-201 and 3-202 and 3-204 are seeded as the PDFs print them (3-201's file is a cover page that says the section 'appears after this cover page in a legacy format'; the text seeded is what the file holds).
+     No second official listing of the Commission's policies was found: the OCIO site (https://cio.nebraska.gov/, pages home, about, news, contact read) carries no policy or standards library, and its about page says the Commission and the Office work together; the NITC home page lists four advisory groups (community, education, GIS, technical panel) and no other library.
+- text: |-
+    Statutes in chapter 86 left out (the sections of the chapter page, read in full as the chapter index and the chapter page): 86-101 to 86-166 and 86-201 to 86-299 and 86-2,100 to 86-2,117 (telecommunications regulation, telephone solicitation, pay-per-call, interception of communications, pen registers: telecom and law enforcement, out of scope), 86-574 to 86-598 (dark fiber and public-power retail telecommunications), 86-601 to 86-610 (telegraph companies), 86-612 to 86-643 (Uniform Electronic Transactions Act: it governs electronic records in private and government transactions alike; the sections that speak to state agencies are 86-611 and 86-644, seeded; OWNER DECISION on the rest), 86-701 to 86-711, 86-801 to 86-806, 86-901 to 86-905 (rights-of-way, wireless, prepaid surcharge), 86-1032 to 86-1086 (911 service, out of scope), 86-1201 to 86-1244 (small wireless facilities), 86-1301 to 86-1313, 86-5,102 to 86-5,109, 86-1401 to 86-1406, 86-1501 to 86-1507, 86-1601 to 86-1611 (broadband grants and deregulation, out of scope), 86-1701 to 86-1705 (social media platforms and minors: binds companies).
+     - 86-1801 to 86-1807, the Conversational Artificial Intelligence Safety Act (Laws 2026, LB525; the last section read prints 'Operative Date: July 1, 2027'): binds the 'operator' of a conversational AI service ('person' means a natural person or legal entity) toward minor account holders, enforced by the Attorney General. Not a law on state agencies' use of AI. Left out.
+- text: "Statute sections inside chapters that are not IT chapters, left out under the playbook rule pending the owner's decision on section-level slicing (OWNER DECISION for the whole line): Chapter 81 (State Administrative Departments): 81-1117 (information management services administrator), 81-1117.02 to 81-1117.04 (release of computer file data), 81-1120.01 to 81-1120.29 (the communications system and the division of communications of the Office of Chief Information Officer; 81-1120.03 creates the division); chapter 84 (Public Officers): 84-1201 to 84-1228 (the Records Management Act, including 84-1228 and 84-1229 on electronic records) and 84-712.05 (public records exceptions, whose subsection (26) covers records on the nature, location or function of cybersecurity and is the authority for 209 NAC 1). These sections were seen in the chapter indexes (browse-chapters.php?chapter=81, 84) and not read as text. NITC section 1-RD-01 cites 81-1117, 81-1120.17, 81-1120.20 and 84-1201 to 84-1228 as related statutes."
+- text: "Other statutes seen and left out: 79-1338 to 79-1342 (K-12 Education Cybersecurity Act: K-12 is out of scope); 87-1201 (liability of a private entity after a cybersecurity event: binds private entities); 81-6,127 and 81-6,128 (Health Information Technology Board: health, not state IT); 86-5,109 and the rest of the broadband acts. LB1096 (Laws 2026, approved April 16, 2026; the Governor's press release of July 25, 2026 and the enrolled bill were read): its section 6 bars a 'governmental entity' that owns, operates, manages or oversees critical infrastructure (the 911 system, a communication infrastructure system, a cybersecurity system, a high voltage electric grid, a hazardous waste treatment system, a water treatment facility) from knowingly entering a contract with a company that is a foreign principal if it would allow remote or direct access to or control of critical infrastructure. It is chiefly infrastructure law and its codified section number was not found in the chapter indexes read (chapters 3, 13, 18, 19, 23, 28, 32, 50, 60, 61, 71, 73, 79, 81, 84, 85, 86, 87); its amendments to 86-125 and 84-712.05 are in the chapter pages. OWNER DECISION whether it is in scope. No statute on state agencies' use of AI, and no statute for state agency cybersecurity programs, was found: the chapter 86 page, the chapter 84, 87 and 81 indexes were searched for 'artificial intelligence', 'cybersecurity', 'information security', 'automated' and 'algorithm'; the statewide AI and cybersecurity rules are the NITC policy sections 8-609 and chapter 8."
+- text: "Executive orders: the Governor's index (http://govdocs.nebraska.gov/docs/pilot/pubs/eoindex.html, linked from governor.nebraska.gov) lists 309 orders of all governors (311 table rows: one page-chrome row and one column-header row are not orders; 304 of the 309 carry a file link), and every one of the 309 order rows was read. One is seeded (25-04). Left out: 23-05 'Enhancing Broadband Security' (Feb. 22, 2023, read: bars broadband grant funding to providers using equipment on the FCC Covered List; broadband, out of scope, though its subject is cyber-security of networks; OWNER DECISION) and 23-02 'Enhancing Broadband Deployment Coordination' (read: creates the Office of the Broadband Coordinator; broadband); 26-17 'Responsible Administration of State Economic Development Incentives Under the ImagiNE Nebraska Act' and 26-22 (economic development, not state IT; the data-center content of 26-17 binds incentives, not agency IT); 26-24 'Enhancing Statewide Radio Systems for Public Safety' (public safety radio, out of scope); 97-7 'Create Nebraska Information Technology Commission' (Nov. 19, 1997): a scan (Adobe Paper Capture, 128,886 bytes fetched 2026-11-12 through the Fetcher from govdocs.nebraska.gov/docs/pilot/pubs/eofiles/97-7.pdf, garbled text layer, RC4-encrypted like 96-1 so the shared OCR procedure would refuse it); superseded: the Commission it created is now created by statute, Neb. Rev. Stat. 86-515 (seeded in ne-rs-86-501-530, whose text reads 'The Nebraska Information Technology Commission is created'), so the order is not an instrument in force. 96-1 'Create Information Resources Cabinet' (Jan. 10, 1996) is a stub (ne-eo-96-1: OCR refused, encrypted scan). The index shows no order rescinding 25-04. The other rows are emergency relief, burn bans, motor carrier waivers, bonds allocations, appointments and similar and were judged by title (none concerns state IT, data or AI)."
+- text: "Administrative rules: the Secretary of State's rules portal (rules.nebraska.gov) is a script shell (803 bytes, no text). 209 NAC 1 (Commission) is a stub. The Secretary of State's digital-signature rules that 86-611 calls for (found in search as Title 437, chapter 8, on a Justia page, which is not an official source) were not found on any official page and are not seeded; no other title of the Nebraska Administrative Code was found for the Office of the CIO or the Commission (the Commission's NITC legal page lists only 209 NAC 1). The NITC standards are adopted by the Commission as 'Technical Standards and Guidelines', not as rules."
+- text: "Not instruments: the Statewide Technology Plan (https://nitc.nebraska.gov/about/docs/2024/statewide-technology-plan.pdf, linked from the NITC about page; a plan), the draft fiscal impact statement and draft text of 209 NAC 1 on the NITC legal page, the Commission's meeting packets and agendas, and proposals and comment files for standards that are not adopted (search results pointed to such files under nitc.nebraska.gov/standards/comment/; the directory itself answers 404)."

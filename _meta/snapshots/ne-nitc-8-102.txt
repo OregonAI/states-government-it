@@ -1,0 +1,17 @@
+                                                                     Nebraska Information Technology Commission
+                                                                                Technical Standards and Guidelines
+
+8-102. Scope.
+    (1) This policy applies to all information technology systems for which the state has
+administrative responsibility, including systems managed or hosted by third parties on behalf of
+an agency. In the event an agency has developed policies or additional requirements for
+information security, the more restrictive policy will apply.
+    (2) Portions of this policy are based on the standards, guidelines, and best practices
+developed by the National Institute of Standards and Technology (NIST), including the NIST
+Cybersecurity Framework (https://www.nist.gov/cyberframework) and related publications
+(https://csrc.nist.gov/publications). Additional items contained in these NIST publications—that
+are not included in this policy—should be treated as guidance and best practices to be followed
+by agencies as appropriate.
+--
+     History: Adopted on July 12, 2017. Amended on March 12, 2020.
+     URL: https://nitc.nebraska.gov/standards/8-102.pdf

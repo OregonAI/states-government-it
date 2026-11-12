@@ -1,0 +1,57 @@
+                             STATE of NEBRASKA
+                                 OFFICE OF THE GOVERNOR
+
+                                        L IN C O L N
+
+                            EXECUTIVE ORDER NO. 25-04
+        Banning the Use or Download of Applications, Software, and Platforms Created or
+          Owned by China-based Companies or Companies Affiliated with the Chinese
+                                  Communist Party
+WHEREAS, China, under the control of the Chinese Communist Party, a foreign adversary,
+poses a risk to the security of the United States and the State of Nebraska;
+
+WHEREAS, China poses a comprehensive threat to national sovereignty—intellectually,
+militarily, and economically—through its aggressive actions, data exploitation, and attempts to
+undermine global security and stability.
+WHEREAS, China has aggressively threatened to seize Taiwan, an ally of the United States,
+flagrantly violating its sovereignty and international law;
+WHEREAS, China’s military actions in the Taiwan Strait and space destabilize the region and
+undermine global peace, democracy, and security.
+WHEREAS, the Chinese government has committed human rights violations against cultural
+minority groups in Xinjiang Uyghur Autonomous Region (Xinjiang);
+
+WHEREAS, Chinese law requires China-based companies share data with the Chinese
+Communist Party upon request; which could encompass personal information, intellectual
+property, and user location data;
+WHEREAS, applications, software, or platforms created or owned by China-based companies
+or companies affiliated with the Chinese Communist Party are capable of harvesting data from
+the devices of users, including confidential, private, or other sensitive data;
+
+WHEREAS, the use of such applications, software, or platforms on state-owned or operated
+devices and/or networks would compromise the security of Nebraska’s information infrastructure
+and information and data owned by the State of Nebraska;
+
+NOW, THEREFORE, I, Jim Pillen, Governor of the State of Nebraska, under and pursuant to
+the authority vested in the Governor by the Constitution and the laws of Nebraska, do hereby
+order and direct that, to the fullest extent permitted by law:
+       1. Nebraska’s Office of the Chief Information Officer shall investigate potential security
+          vulnerabilities of applications, software, and platforms created or owned by China­
+          based companies and companies affiliated with the Chinese Communist Party.
+
+       2. The Office of the Chief Information Officer shall report his findings to the Governor
+          and take all steps necessary to prevent the download and/or use of applications,
+          software, and platforms that are determined to be a security risk to state-owned or
+          operated devices, networks, and infrastructure.
+       3. The Office of the Chief Information Officer shall continue to investigate and monitor
+          potential security vulnerabilities and make recommendations to the Governor as
+          frequently as necessary.
+IN WITNESS THEREOF, I hereunto set my hand and cause the Seal of the State of Nebraska
+to be affixed this 5th day of March, 2025.
+
+                                                            J ii^ ^ e ^ G o v e m o r
+
+                                                            State of Nebraska
+
+                         H lW ^ O te s t:
+                                                             Robert B. Evnen, Secretary of State
+                                                             State of Nebraska

@@ -1,0 +1,18 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-906. Data destruction.
+    Agency data must be disposed of in accordance with the Records Management Act and any
+related records retention schedule. Disclosure of sensitive information through careless disposal
+or re-use of equipment presents a risk to the state. Formal procedures must be established to
+minimize this risk. Storage devices such as hard disk drives, paper or other storage media (e.g.,
+tape, diskette, CDs, DVDs, USB drives, cell phones, and memory sticks) regardless of physical
+form or format containing HIGH IMPACT or MODERATE IMPACT information must be
+physically destroyed or securely overwritten when the data contained on the device is to be
+disposed. These events should include certificates of destruction. State and agency asset
+management records must be updated to reflect the current location and status of physical assets
+(e.g., in service, returned to inventory, removed from inventory, destroyed) when any significant
+change occurs.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-906.pdf

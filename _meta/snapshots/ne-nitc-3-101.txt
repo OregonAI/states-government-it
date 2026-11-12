@@ -1,0 +1,10 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+3-101. GIS software.
+    State agencies shall coordinate all purchases of GIS software and software maintenance
+through the Office of the CIO. The Office of the CIO will provide guidance to agencies on GIS
+software that is compatible with the state’s enterprise GIS environment.
+--
+     History: Adopted on November 8, 2018.
+     URL: https://nitc.nebraska.gov/standards/3-101.pdf

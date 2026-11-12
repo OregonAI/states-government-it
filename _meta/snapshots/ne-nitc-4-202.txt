@@ -1,0 +1,20 @@
+                                                                     Nebraska Information Technology Commission
+                                                                                Technical Standards and Guidelines
+
+4-202. Web cookie standard.
+   The purpose of this standard is to establish guidance for the use of web cookies on websites,
+web pages, and web applications created by state agencies, boards and commissions.
+   (1) Nebraska.gov and state agencies may use cookies to store user information subject to the
+requirements of this section.
+    (a) Permanent Cookies. Permanent cookies: (1) must not contain personal identifying
+information (e.g. names, date of birth, social security number, hint answers); (2) may be used to
+save personalized web site settings (e.g. font size, color, text type); and (3) may include an
+expiration date if appropriate.
+   (b) Session Cookies. Session cookies: (1) must be erased when a user's web browser session
+ends or the user logs out of the application; and (2) must only be accessible to the specific
+application(s) in use.
+   (2) Any use of cookies can be made known to the user through the use of appropriate
+browser settings.
+--
+     History: Adopted on August 4, 2006. Amended on July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/4-202.pdf

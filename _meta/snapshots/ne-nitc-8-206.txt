@@ -1,0 +1,20 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-206. Facilities; physical security requirements.
+    Agencies must perform a periodic threat and risk assessment to determine the security risks
+to facilities that contain state information, and implement reasonable and appropriate physical
+security measures to prevent and detect unauthorized access, theft, damage or interference.
+     Based on the threat and risk assessment, a multi-layered physical security perimeter must be
+established in agency environments where information or information assets are stored or where
+operational data centers, network wiring closets, or telephony connection equipment exists, or
+where printers that print HIGH IMPACT or MODERATE IMPACT information are used, and
+any other location where information may be in use or stored, such as file cabinets, microfiche
+storage areas, etc. The security layers create a perimeter that would require multiple methods of
+access control to gain entry. These layers could be in the form of an entry point with card key
+access, a staffed reception area, a locked cabinet or office, or another physical barrier. HIGH
+IMPACT or MODERATE IMPACT information must maintain at least two barriers to access at
+all times.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-206.pdf

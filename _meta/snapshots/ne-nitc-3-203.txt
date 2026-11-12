@@ -1,0 +1,10 @@
+                                                                           Nebraska Information Technology Commission
+                                                                                      Technical Standards and Guidelines
+
+3-203. Lidar standard.
+    The commission adopts by reference the most recent version of the Lidar Base Specification
+(LBS) standards released by the U.S. Geological Survey (USGS) [https://www.usgs.gov/ngp-
+standards-and-specifications/lidar-base-specification-online] for elevation acquisition using lidar.
+--
+     History: Adopted on October 28, 2014. Amended on November 10, 2022.
+     URL: https://nitc.nebraska.gov/standards/3-203.pdf

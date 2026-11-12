@@ -1,0 +1,10 @@
+                                                                    Nebraska Information Technology Commission
+                                                                               Technical Standards and Guidelines
+
+8-903. Data inventory.
+    Each agency shall identify and classify all information according to this policy. Each agency
+shall maintain an inventory of where HIGH IMPACT and MODERATE IMPACT information
+reside, so those environments can be assessed for security adequacy.
+--
+     History: Adopted on July 12, 2017. Amended on July 14, 2023.
+     URL: https://nitc.nebraska.gov/standards/8-903.pdf

@@ -1,0 +1,11 @@
+                                                                               Nebraska Information Technology Commission
+                                                                                          Technical Standards and Guidelines
+
+4-201. State government web pages; footer guidelines.
+    The footer of each Nebraska state government web page should include the following: (1) a
+link to the Nebraska state government home page, http://www.nebraska.gov; and (2) a link to the
+Nebraska.gov website policies page, http://www.nebraska.gov/policies/; or a link to the agency’s
+website policies page; or both.
+--
+     History: Adopted on June 14, 2005. Amended on July 12, 2010; December 10, 2013; and November 9, 2017.
+     URL: https://nitc.nebraska.gov/standards/4-201.pdf

@@ -1,0 +1,43 @@
+                                                          Nebraska Information Technology Commission
+                                                                     Technical Standards and Guidelines
+
+2-101. Accessibility policy.
+    (1) Purpose. This policy contains scoping and technical requirements for information and
+communication technology (“ICT”) to ensure accessibility and usability by individuals with
+disabilities.
+    (2) Definitions. For the purpose of this section, terms defined in referenced documents and
+not defined in section 1-101 will have the meaning as defined in the referenced documents.
+   (3) Standards. (a) Revised 508 Standards. ICT that is procured, developed, maintained, or
+used by state agencies shall conform to the following standards: Revised 508 Standards, 36
+C.F.R. 1194 (2018) [https://www.govinfo.gov/content/pkg/CFR-2018-title36-vol3/xml/CFR-
+2018-title36-vol3-part1194.xml].
+    For the State of Nebraska, the Revised 508 Standards referenced in this subsection are
+revised as follows:
+   (i) In E103.4, replace the definition of “Existing ICT” with the following: “Existing ICT.
+ICT that has been procured, maintained or used on or before November 14, 2020.”;
+    (ii) In E202.2, replace the existing language with the following: “Legacy ICT. Any
+component or portion of existing ICT that complies with an earlier standard adopted by the
+commission, and that has not been altered on or after November 14, 2020, shall not be required
+to be modified to conform to the Revised 508 Standards.”;
+    (iii)In E202.3, replace the existing language with the following: “Public Safety Systems. The
+Revised 508 Standards do not apply to any ICT operated by state agencies as part of a public
+safety system.”;
+   (iv) In E202.4, replace the existing language with the following: “State Contracts. ICT
+acquired by a contractor incidental to a contract shall not be required to conform to the Revised
+508 Standards.”; and
+    (v) In E203.1, replace the existing language with the following: “General. Agencies shall
+ensure that all functionality of ICT is accessible to and usable by individuals with disabilities,
+either directly or by supporting the use of assistive technology, and shall comply with E203. In
+providing access to all functionality of ICT, agencies shall ensure the following: A. That state
+employees with disabilities have access to and use of information and data that is comparable to
+the access and use by state employees who are not individuals with disabilities; and B. That
+members of the public with disabilities who are seeking information or data from a state agency
+have access to and use of information and data that is comparable to that provided to members of
+the public who are not individuals with disabilities.”.
+
+    (b) Web and Mobile Accessibility. State agencies shall conform with the requirements
+contained in the following: 28 CFR Part 35 Subpart H—Web and Mobile Accessibility
+[https://www.ecfr.gov/current/title-28/chapter-I/part-35/subpart-H].
+--
+     History: Adopted on October 31, 2001. Amended on November 14, 2019, and July 11, 2025.
+     URL: https://nitc.nebraska.gov/standards/2-101.pdf

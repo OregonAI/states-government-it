@@ -1,0 +1,10 @@
+                                                                               Nebraska Information Technology Commission
+                                                                                          Technical Standards and Guidelines
+
+5-201. Email standard for state agencies.
+   All state government agencies, except higher education entities, shall use the email service
+provided by the Office of the CIO for their workers.
+--
+     History: Adopted on November 17, 1997 (by the Information Resources Cabinet). Amended on June 3, 2004; June 14, 2005; September
+              18, 2007; March 4, 2008; and July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/5-201.pdf

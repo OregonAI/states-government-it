@@ -1,0 +1,146 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nebraska
+id: ne-nitc-7-205
+title: 7-205. Scheduling standard for synchronous distance learning and videoconferencing.
+doc_type: standard
+citation: NITC Technical Standards and Guidelines 7-205
+authority_level: ''
+issuing_body: Nebraska Information Technology Commission
+source_url: https://nitc.nebraska.gov/docs/7-205.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 1d9e8b61137ff33bf2ba002a30e9845750ea46c4600a95777794a5e8675e1ebd
+effective_date: null
+source_version: History through July 12, 2018
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters). source_version is the latest date on the section's History line (adoption, renumbering or
+  amendment); the section prints no separate effective date, so effective_date stays empty.
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cloud-resilience
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# 7-205. Scheduling standard for synchronous distance learning and videoconferencing. (NITC Technical Standards and Guidelines 7-205)
+
+## At a glance
+
+NITC Technical Standards and Guidelines section 7-205, adopted by the Commission under Neb. Rev. Stat. 86-516 and applying to state agencies, boards and commissions (1-102).
+
+## Full text
+
+                                                           Nebraska Information Technology Commission
+                                                                      Technical Standards and Guidelines
+
+7-205. Scheduling standard for synchronous distance learning and videoconferencing.
+    (1) Purpose. The purpose of this standard is to establish and define the needs for scheduling
+to be addressed when purchasing and maintaining scheduling coordination systems. The
+objective of this standard is to enable all existing and future synchronous distance learning and
+videoconferencing facilities in Nebraska to achieve interoperability and maintain an acceptable
+scheduling of services through recurring and ad hoc event coordination.
+    (2) Standards. This subsection consists of a list of five components and accompanying
+features that must be available in any software system that is developed for use in scheduling of
+synchronous events using videoconferencing technology. It is the intent that any and all such
+scheduling systems defined by the specifications below be accessible either through the internet
+or within a defined intranet as decided upon by the system administrators. The following sections
+describe the various levels and types of scheduling or coordination that must be accommodated.
+    (a) Hardware Control Component. When attempting to link two or more sites electronically,
+a system must have the capability to coordinate the connectivity between/among the sites. This
+includes controlling the network and endpoint hardware and bandwidth necessary to cause a
+successful connection. A hardware control system must be able to control hardware in a network
+and be capable of linking into other systems listed in this standard to enable the following: (i)
+browser-based access; (ii) locate devices by IP address [both static and DHCP]; (iii) locate
+devices by MAC address; (iv) facilitate far-end control in endpoint devices with the capability;
+(v) display a call list that is understood by non-technical staff using plain English site
+descriptions; (vi) hardware and software systems must work such that the scheduling system is
+available for use at least 99.9% of the time; (vii) automatically accumulate log data that may be
+searched by system administrators using multiple search variables; (viii) maintain security in
+ways that can be defined by system administrators including providing an identity management
+system that allows for multiple levels of user access as defined by system administrators; and
+(ix) facilitate various types of events, such as broadcast to all, broadcast to some, 2-way point-to-
+point, and 2-way multipoint.
+    (b) Event Logging Component. A system coordinator must have the ability to track
+information about events. This may include knowing the number of people at a site, the minutes
+an event runs at any given site, or the number of events a specific organization schedules. An
+event logging system must be able to automatically store data and permit reporting and be
+capable of linking into other systems listed in this standard to include the following: (i) browser-
+based access; (ii) store data in an ODBC compliant relational database; (iii) provide fields for
+logging various pieces of information; (iv) permit system administrator defined fields [no fewer
+than 64]; and (v) local contact and facility arrangement information.
+
+    (c) Facilities Coordination Component. If an event will include locations for which more
+than one person/organization has responsibility, then some mechanism must exist for
+coordinating use of facilities. There may be technical or administrative limits as to the number or
+types of sites that can participate in any given event. This could be as simple as users
+coordinating times over the telephone or through email, but for some applications there may be a
+greater need for pre-scheduling and coordination among multiple administrators. A facilities
+coordination system shall enable access to facilities based on defined permissions, resolve
+conflicts based on pre-determined policies and be capable of linking into other systems listed in
+this standard to include the following: (i) browser-based access; (ii) system editable user access,
+including: (A) building level admin such that the facilities at a specific location can set policies
+for that site and permit use by others; (B) regional admin such that a group of facilities can set
+policies for all related sites and permit use by others; (C) sector admin such that groups of groups
+of facilities can set policies for all related sites and permit use by others; and (D) user account
+directory service with definable permissions for each account; (iii) facilities information to be
+posted, including: (A) identify technology available by site; (B) physical site location; and (C)
+local contact and facility arrangement information; and (iv) permit system administrator defined
+fields [no less than 64] that would provide for event information to be posted.
+    (d) People Coordination Component. If a specific location is to be used, this implies that
+operational support will be available to support the success of events. Since there will be a
+variety of site designs and equipment configurations, then there may be a variety of demands on
+staff time. Finally, there may be limitations as to the total number of participants allowed. A
+people coordination system must enable interaction of people based on policies set by system
+administrators and be capable of linking into other systems listed in this standard to include the
+following: (i) browser-based access; (ii) allow for multiple permission levels including: (A) view
+schedules, (B) request systems/facilities, and (C) approve systems/facilities use; (iii) provide
+information about instructor/facilitator and their availability; (iv) allow for predetermined
+maximum number of attendees; (v) track and display count of committed and remaining
+attendees; (vi) allow for predetermined maximum number of sites; and (vii) track and display
+count of committed and remaining sites.
+    (e) Event Clearinghouse Component. As system users see a need for pre-scheduled events
+coordinated among a large number of facilities and administrators, the concept of a virtual
+location for brokering of events becomes attractive. Such a clearinghouse should serve as a way
+that event coordinators might let others know the specifics of events they are planning [e.g., a
+certain class with a specific sort of content will be offered on a certain schedule for a certain
+period of time or a specific event will happen one time on a specific day at a specific time]. Such
+an event clearinghouse should also serve as a way for interested parties to find events that meet
+their specific needs [e.g., a school administrator has a certain number of students who need a
+specific class that is not offered locally]. Availability might also include information about
+participant or site number limitations [e.g., the total seats/sites in the class/event, the number
+
+requested/registered so far and the number remaining of the total]. An event clearinghouse
+system must enable online interaction for publishing of event information and be capable of
+linking into other systems listed in this standard to include the following: (i) browser-based
+access; (ii) posting of one-time single events; (iii) posting of sequenced or cyclical events; (iv)
+posting of costs to participate in an event; (v) permit system administrator defined fields [no less
+than 256]; (vi) provide for automated multiple time zone accommodation; (vii) use an ODBC
+compliant relational database; (viii) user defined search/reporting capability; and (ix) provide for
+automated email notification of site requests/confirmations.
+    (3) Applicability. This section applies to the purchase and maintenance of synchronous
+distance learning and videoconferencing software systems used by educational institutions. The
+governing board or chief administrative officer of each organization is responsible for selecting
+and using a synchronous distance learning and videoconferencing software system that is in
+compliance with these standards. It is the intent of the Technical Panel and Commission that the
+guidelines and policies for usage of such scheduling and clearinghouse systems be determined by
+the administrative entities that oversee such distance learning and videoconferencing.
+--
+     History: Adopted on September 9, 2004. Renumbered on July 12, 2018 (previously was § 7-403). Amended on July 12, 2018.
+     URL: https://nitc.nebraska.gov/standards/7-205.pdf
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters). source_version is the latest date on the section's History line (adoption, renumbering or amendment); the section prints no separate effective date, so effective_date stays empty.

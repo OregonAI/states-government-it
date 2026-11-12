@@ -1,0 +1,27 @@
+                                                           Nebraska Information Technology Commission
+                                                                      Technical Standards and Guidelines
+
+7-106. Internet of Things (IoT) standard.
+   This policy provides standards for Internet of Things (IoT) devices within the state network.
+IoT devices include but are not limited to door controls, cameras, and wireless sensors. While the
+benefits of IoT devices are numerous and compelling, it is important to remember that these
+devices have the potential to introduce significant threats and risks to the state network. IoT
+devices do not follow an international compatibility standard leaving them more exposed to
+vulnerabilities. The State of Nebraska must properly govern and manage deployment IoT
+devices.
+     The following are the minimum standards for IoT devices on the state network:
+   (1) IoT devices must be approved by the Office of the CIO prior to being put on the state
+network;
+     (2) IoT devices must be isolated from business operations on the state network;
+     (3) IoT devices must support either username/password or certificate-based authentication;
+     (4) IoT devices must support a minimum of TLS 1.2;
+     (5) IoT devices must have the ability to be managed at the enterprise level;
+     (6) IoT devices must allow for NTP and DNS to be set by administrators;
+     (7) IoT device access must be limited to only what is necessary;
+    (8) Network traffic for IoT devices should not be prioritized over normal business operations
+unless the IoT device impacts emergency services or public safety; and
+   (9) Wired connections for IoT devices are preferred over wireless connections when
+possible.
+--
+     History: Adopted on March 10, 2022.
+     URL: https://nitc.nebraska.gov/standards/7-106.pdf

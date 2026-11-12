@@ -1,0 +1,23 @@
+                                                                              Nebraska Information Technology Commission
+                                                                                         Technical Standards and Guidelines
+
+1-205. List of pre-approved items for purchase.
+   For the purpose of procurement reviews conducted pursuant to Neb. Rev. Stat. §§ 81-1117,
+81-1120.17, and 81-1120.20, the following items are pre-approved for purchase by an agency:
+     (1) cables for connecting computer components;
+     (2) KVM switches;
+     (3) microphones;
+     (4) speakers;
+     (5) smart board overlays;
+     (6) projectors;
+     (7) digital voice recorders;
+     (8) flash drives;
+   (9) logic boards and computers that are integral parts of equipment that serves a primary
+purpose other than information management, including digital cameras, lab equipment, and
+motor vehicles; and
+     (10) such other items as specified on the Office of the CIO website at: https://bit.ly/3yxkF5Y.
+--
+     History: Adopted on March 4, 2008. Amended and renumbered on July 12, 2018 (previously was § 1-204-Attachment A). Amended by the
+              Office of the CIO on May 13, 2008; November 30, 2009; February 14, 2012; May 13, 2014; September 13, 2018; January 31,
+              2019; August 5, 2021; and July 1, 2022.
+     URL: https://nitc.nebraska.gov/standards/1-205.pdf
