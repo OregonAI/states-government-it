@@ -1,0 +1,887 @@
+# Nevada seed list: every instrument this state's part of the corpus holds or knows about.
+# Key reference: _meta/sources/README.md. Rules: _meta/CLAUDE.md.
+# Issue #38. Discovery 2026-11-12 through the toolkit Fetcher: the Governor's Technology Office site (it.nv.gov: Governance,
+# Security Policies Standards & Procedures, ITAB, Organization, TIE, Service Desk, Services/Rates, Contact pages), the Legislative
+# Counsel Bureau's NRS table of titles and chapters (833 chapter pages, all fetched and searched) and NAC table of chapters (413
+# chapters listed; the IT agency's, NAC 242, and the others named in the left-out record read), the Governor's executive order
+# lists (gov.nv.gov, 2023 to 2026), the digital accessibility site (ada.nv.gov), and the State Administrative Manual page of the
+# Governor's Finance Office. Search engines were used for discovery only.
+sources:
+- id: nv-nrs-242
+  sha256: "c125fedc50cbcc4cd4c34be3dc66a384fc0bed862e02008c0eaba7af40a53dea"
+  url: https://www.leg.state.nv.us/NRS/NRS-242.html
+  format: html
+  citation: NRS ch. 242
+  title: CHAPTER 242 - INFORMATION SERVICES
+  doc_type: statute
+  issuing_body: Nevada Legislature; published by the Legislative Counsel Bureau
+  tags:
+  - governance
+  - oversight
+  - funding
+  - cybersecurity
+  - procurement
+  - data
+  why_relevant: 'The enabling statute for the Governor''s Technology Office and the State Chief Information Officer: definitions, the Office and the Chief''s powers and duties (242.101), regulations (242.111), policies, standards, guidelines and the biennial state plan for executive-branch information systems (242.115), the Security Operations Center (242.116 to 242.119), the Information Technology Advisory Board (242.122 to 242.124), the Office of Information Security and Cyber Defense (242.127 to 242.129: duties, statewide strategic plan, incident response teams and plans), services to agencies, breach investigation (242.183), the Fund for Information Services, appropriate-use policies (242.300) and the Cybersecurity Talent Pipeline Program (242.390). Repealed sections (242.013, 242.031, 242.045, 242.141) ride along as ''Repealed'' headings. The page prints its revision stamp ''[Rev. 4/15/2026 ...--2025]''.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-nrs-603a
+  sha256: "8b95afcc7467b7c9932a0c928b2f87c9c754ad18f7da4d36212deb7e062eaf97"
+  url: https://www.leg.state.nv.us/NRS/NRS-603A.html
+  format: html
+  citation: NRS ch. 603A
+  title: CHAPTER 603A - SECURITY AND PRIVACY OF PERSONAL INFORMATION
+  doc_type: statute
+  issuing_body: Nevada Legislature; published by the Legislative Counsel Bureau
+  tags:
+  - data
+  - cybersecurity
+  why_relevant: 'Binds state agencies as ''data collectors'' (603A.030 includes any governmental agency): destruction of records containing personal information (603A.200), security measures (603A.210, 603A.215), and notice of a breach of the security of the system (603A.220), with the remedies (603A.260 to 603A.290). Owner decision: the playbook says to take the whole chapter and record what rides along; the chapter''s other two parts bind private operators and regulated entities, not agencies: NRS 603A.300 to 603A.360 (notice of information collected on the Internet from consumers) and 603A.400 to the end (security and privacy of consumer health data).'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-nrs-233f
+  sha256: "f94a43bbd020a2cdf00babbf959b09f3cf6fdd8e2ea18d86b74d3b764a9ac85f"
+  url: https://www.leg.state.nv.us/NRS/NRS-233F.html
+  format: html
+  citation: NRS ch. 233F
+  title: CHAPTER 233F - STATE SYSTEM OF COMMUNICATIONS
+  doc_type: statute
+  issuing_body: Nevada Legislature; published by the Legislative Counsel Bureau
+  tags:
+  - governance
+  - cloud-resilience
+  why_relevant: 'The state''s own communications network run by the Chief of the Governor''s Technology Office: the Network Transport Services Unit and Unified Communications Unit, extension of the state communications system by an agency with the Chief''s approval (233F.117), agencies'' duty to give the Chief information and assistance (233F.150), and the Board''s advice. Owner decision: the domain excludes broadband, 911 and telecom in general; this chapter is the state agencies'' internal network, so it is seeded as IT infrastructure.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-nrs-239b
+  sha256: "9bae60669055eb5af9d11fe1bfc440cb23e0f93bbe5cc6f1b4d00e706086ae41"
+  url: https://www.leg.state.nv.us/NRS/NRS-239B.html
+  format: html
+  citation: NRS ch. 239B
+  title: CHAPTER 239B - DISCLOSURE OF PERSONAL INFORMATION TO GOVERNMENTAL AGENCIES
+  doc_type: statute
+  issuing_body: Nevada Legislature; published by the Legislative Counsel Bureau
+  tags:
+  - data
+  - digital-services
+  why_relevant: 'Rules for what personal information governmental agencies of the State and its subdivisions may collect, keep and publish: sexual orientation and gender identity information (239B.022 to 239B.026), race and ethnicity categories (239B.028), personal information in recorded and submitted documents (239B.030), databases of e-mail addresses and telephone numbers (239B.040) and personal information on agency websites (239B.050). Owner decision: a data chapter whose obligated parties include local governments and a few sections (FBI record requests, firefighter applicants) that are not IT; taken whole because the chapter is the unit the source serves.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-nac-242
+  sha256: "b8b6dedbfd38b6457f29af62326ea5ba73dd2cd3cb6e5d39b82fcfbbaf8a7508"
+  url: https://www.leg.state.nv.us/NAC/NAC-242.html
+  format: html
+  citation: NAC ch. 242
+  title: CHAPTER 242 - INFORMATION SERVICES
+  doc_type: rule
+  issuing_body: Governor's Technology Office (Chief Information Officer); published by the Legislative Counsel Bureau
+  tags:
+  - cybersecurity
+  - governance
+  why_relevant: 'The IT agency''s only administrative rule: NAC 242.110 adopts by reference the State Information Security Policies, Standards and Procedures in the form most recently published by the State Information Security Committee, binding every executive-branch agency that operates, manages or uses information technology and every employee, contractor or third party with access to state information, and sets the Chief''s review of each revision. It makes the security library seeded here binding. Issued under NRS 242.111; amended by R082-24 (9-16-24).'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-100
+  sha256: "8e2e23c3a16736e6c95dbf7a5c506e5e8fcf09bd3ab1e585370b1ce828d08891"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/FINAL_100_State_Security_Program_Policy.pdf
+  format: pdf
+  citation: State Information Security Program Policy 100
+  title: State Information Security Program Policy
+  doc_type: policy
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - governance
+  no_text_pages:
+  - 2
+  identity_text: State Information Security Program Policy
+  why_relevant: 'Listed on the Governor''s Technology Office page ''Security Policies, Standards & Procedures'' (https://it.nv.gov/governance/security-policies-standards--procedures/) as ''100 - State Information Security Program Policy - Effective 01/26/2023''. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. The umbrella of the state security program: scope and applicability to executive-branch agencies, roles (CIO, State CISO, agency heads and information security officers, the State Information Security Committee), and the policy requirements the numbered standards implement, built on the NIST SP 800 series and CIS Controls. 63 pages.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-2-03-01
+  sha256: "9aafc05392a1a259adc9390b042848b4f6b59e98853245d2a36a8343e0a805d5"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.2.03.01---state-security-committee-charter.pdf
+  format: pdf
+  citation: S.2.03.01
+  title: Information Security Committee Charter
+  doc_type: policy
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: S.2.03.01 Information Security Committee Charter
+  why_relevant: 'Listed on the Governor''s Technology Office page ''Security Policies, Standards & Procedures'' (https://it.nv.gov/governance/security-policies-standards--procedures/) as ''S.2.03.01 - State Security Committee Charter - Effective 12/31/2020''. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Charter of the State Information Security Committee: its mission as the advisory body that develops state-level information security policy and standards, its sponsor and chair, and its responsibilities.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-2-05-01
+  sha256: "19f203fd4dbfac80e7089878545a8075437b21aaa9b0665d8de2e74199f8a9e4"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.2.05.01---security-evaluations.pdf
+  format: pdf
+  citation: S.2.05.01
+  title: Information Security Evaluations
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - oversight
+  identity_text: S.2.05.01 Information Security Evaluations
+  why_relevant: 'Listed on the Governor''s Technology Office page ''Security Policies, Standards & Procedures'' (https://it.nv.gov/governance/security-policies-standards--procedures/) as ''S.2.05.01 - Security Evaluations - Effective 12/31/2020''. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum requirements for agency information security evaluations: initial, periodic, before substantive environment changes and after confirmed breaches, each documented.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-3-02-01
+  sha256: "29ac3a154607b42c46b80752ec4471a85d5110d35c813c1ae5ad531520676ea0"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.3.02.01---data-sensitivity.pdf
+  format: pdf
+  citation: S.3.02.01
+  title: Data Sensitivity
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - data
+  identity_text: S.3.02.01 Data Sensitivity
+  why_relevant: 'Listed on the Governor''s Technology Office page ''Security Policies, Standards & Procedures'' (https://it.nv.gov/governance/security-policies-standards--procedures/) as ''S.3.02.01 - Data Sensitivity - Effective 12/31/2020''. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum data-sensitivity requirements for state IT systems: agencies determine the sensitivity of information and plan its protection (encryption among the controls).'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-3-02-02
+  sha256: "513bb0921b31cdbe19b96f969aeaa975f71318b3ce36fa5fe3d65aa9ecb5dabd"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.3.02.02---information-security-policy-statement.pdf
+  format: pdf
+  citation: S.3.02.02
+  title: Information Security Policy Statement
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: S.3.02.02 Information Security Policy Statement
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.3.02.02 - Information Security Policy Statement - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Requires each agency to publish an information security statement of management direction, with its minimum contents.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-3-03-01
+  sha256: "631cb1ab970ff20f9c9cd7272876fb66f226d3cd8f0f284ec0d34b379fe84b3a"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.3.03.01---iso-roles--responsibilities.pdf
+  format: pdf
+  citation: S.3.03.01
+  title: Information Security Officer (ISO) Roles and Responsibilities
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - governance
+  identity_text: S.3.03.01 Information Security Officer (ISO)
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.3.03.01 - ISO Roles & Responsibilities - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Responsibilities of the agency-appointed Information Security Officer.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-3-04-01
+  sha256: "d6e02175d58e0fc721b6909da1c0c9c7e8c8800537683d511a6e055e5c73b13c"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/FINAL_S_3_04_01_J_Personnel_Security__004.pdf
+  format: pdf
+  citation: S.3.04.01
+  title: Personnel Security
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.3.04.01 Personnel Security
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.3.04.01 J Personnel Security (pdf) - Effective 09/13/2024'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum personnel security requirements for users of state information and IT. The index also lists the same standard as a Word file (left out as a duplicate format).
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-3-04-03
+  sha256: "f3f3309c9bc670c3ba7e5cede2f6d4f25ec4322cbca77c024da5c4ab6f535d21"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.3.04.03-d-social-media-for-business-use.pdf
+  format: pdf
+  citation: S.3.04.03
+  title: Social Media for Business Use
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - digital-services
+  identity_text: S.3.04.03 Social Media for Business Use
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.3.04.03 Social Media for Business Use - Effective 05/09/2024'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Security conditions for agency use of social media for business.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-3-07-01
+  sha256: "1fbeeda52e24a1ea0e90925eb60809521df0f3ed8ef4aa72f3fff6b5b330f056"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.3.07.01---information-security-risk-analysis.pdf
+  format: pdf
+  citation: S.3.07.01
+  title: Information Security Risk Analysis
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - oversight
+  identity_text: S.3.07.01 Information Security Risk Analysis
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.3.07.01 - Information Security Risk Analysis - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum information security risk analysis required to set the protection level of agency systems.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-3-09-01
+  sha256: "02a7931d45de04738f9da6a19bad9e6b56bef4dd12791c577e55fdc8a977f8bf"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.3.09.01-it-contingency-planning.pdf
+  format: pdf
+  citation: S.3.09.01
+  title: IT Contingency Planning
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  identity_text: S.3.09.01 IT Contingency Planning
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.3.09.01 IT Contingency Planning - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum IT contingency planning requirements for an agency's mission-critical systems.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-4-01-01
+  sha256: "eb80e71b143ea6d03e742754dd2c5012732dadd05d7ef7f92ecde5989762fe88"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.4.01.01---physical-security-and-environmental-controls.pdf
+  format: pdf
+  citation: S.4.01.01
+  title: Enterprise Physical Security and Environmental Controls
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.4.01.01 Enterprise Physical Security and
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.4.01.01 - Physical Security and Environmental Controls - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum physical and environmental controls for state information systems and facilities.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-4-02-02
+  sha256: "9440a04f63af9abb7f3555f95e1673e42495acf5ba756b6a2313d8b9e35b1ac1"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.4.02.02---mobile-dand-non-state-device-security-management.pdf
+  format: pdf
+  citation: S.4.02.02
+  title: Mobile and Non-State Device Security Management
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.4.02.02 Mobile and Non-State Device
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.4.02.02 - Mobile and Non-State Device Security Management - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Administrative and physical security for mobile devices and non-state devices that touch state information.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-4-02-03
+  sha256: "3bec3e5e1bf65269742066574fb6bac7da177f51567efe16c01583e58bc9c890"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s_4_02_03_multi_function_devices.pdf
+  format: pdf
+  citation: S.4.02.03
+  title: Multi-Function Devices (MFDs)
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.4.02.03 Multi-Function Devices (MFDs)
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.4.02.03 - Multi-Function Devices (MFDs) - Effective 07/13/2022'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Criteria and requirements for administering and maintaining multi-function devices.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-4-03-01
+  sha256: "d38c6e4a81612c061f58bfad84ef5b0d263fc0b51265e7235edba4aedda193ac"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.4.03.01---electronic-media-security.pdf
+  format: pdf
+  citation: S.4.03.01
+  title: Electronic Media Security
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - data
+  identity_text: S.4.03.01 Electronic Media Security
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.4.03.01 - Electronic Media Security - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Protection of state data on electronic media, media marking and disposal.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-4-07-01
+  sha256: "5c2992fa0480cd0d9e034e56d105bd019cd72d72f8d53e6cc3e52336cd29a336"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.4.07.01---security-for-system-development.pdf
+  format: pdf
+  citation: S.4.07.01
+  title: Security for Software Development
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.4.07.01 Security for Software Development
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.4.07.01 - Security for System Development - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum security controls for software development.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-4-08-02
+  sha256: "bf1aec42450e14d665ad34c266f4cb7ebdf16608a79d63b75d36259381721702"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.4.08.02---security-incident-management.pdf
+  format: pdf
+  citation: S.4.08.02
+  title: Information Security Incident Management
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.4.08.02 Information Security Incident Management
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.4.08.02 - Information Security Incident Management - Effective 10/26/2022'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Requirements that every information security incident be reported and handled.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-01-01
+  sha256: "bdcaea8c2eee4e533b4146785443117be81ca8482adc895afab62303e229e31b"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s-5-01-01-f-user-identification-and-authentication.pdf
+  format: pdf
+  citation: S.5.01.01
+  title: User Identification and Authentication
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - digital-services
+  identity_text: S.5.01.01 User Identification and Authentication
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.01.01 F User Identification and Authentication (Passwords) - Effective 05/08/2025'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum user identification and authorization (password) requirements for IT systems. Revision F; the index also lists the earlier revision E of this standard, which is left out as superseded.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-02-02
+  sha256: "00302952d0cfb14602c8787fc074f57b89db3e41e059dfc682b7266a8bcfedab"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/FINAL_S_5_02_02_Access_Controls_and_Auditing.pdf
+  format: pdf
+  citation: S.5.02.02
+  title: Access Controls and Audit Trails
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.5.02.02 Access Controls and Audit Trails
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.02.02 - Access Controls and Audit Trails - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. General requirements for access controls and audit trails on IT systems.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-04-01
+  sha256: "d9f401c26184908df5db5d3dbb06d67e8093b043daacdc195a3bff486a06a67e"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.5.04.01-border-security.pdf
+  format: pdf
+  citation: S.5.04.01
+  title: Border Security
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.5.04.01 Border Security
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.04.01 Border Security - Effective 07/13/2022'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Protection of agency internal networks with firewalls and intrusion prevention.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-04-02
+  sha256: "d4a19f238375e123783438eea9f43161b2c39824962975e9e332ab61c48e19fa"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.5.04.02-data-communication-and-remote-connections.pdf
+  format: pdf
+  citation: S.5.04.02
+  title: Data Communications and Remote Connections
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.5.04.02 Data Communications and
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.04.02 Data Communication and Remote Connections - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Security requirements for devices and methods that establish data communications and remote connections.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-04-03
+  sha256: "d86f9f38bbb0ef13cdf4822056fee62b3a6cf8f4ab256f39442bf886d63058b7"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/FINAL_S_5_04_03_Remote_Access.pdf
+  format: pdf
+  citation: S.5.04.03
+  title: Remote Access
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.5.04.03 Remote Access
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.04.03 - Remote Access - Effective 1, 2021'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum security for devices and methods used to connect remotely into the protected state network.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-04-04
+  sha256: "9f2fc830ce5b9e8c3735e6a0d09e3e9bd70e6ccd86666d220a193d4730d9921f"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/FINAL_S_5_04_04_Data_Security_Architecture.pdf
+  format: pdf
+  citation: S.5.04.04
+  title: Data Security Architecture
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - data
+  - cloud-resilience
+  identity_text: S.5.04.04 Data Security Architecture
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.04.04 - Data Security Architecture - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum security requirements for the architectural protection of IT applications, systems and data.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-06-01
+  sha256: "5bcc2a36a9f3c65fcb1837d7ffde3116917079e4c87b1ab61327ce88a715e657"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.5.06.01-h-cloud-services.pdf
+  format: pdf
+  citation: S.5.06.01
+  title: Cloud Services
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  identity_text: S.5.06.01 Cloud Services
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.06.01 H Cloud Services - Effective 05/09/2025'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Security requirements for agency use of cloud computing services.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-06-02
+  sha256: "2778089c12ac53440540dff041042b981f58f9c6617f7fdf2585c3315916e916"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.5.06.02---domain-name-system.pdf
+  format: pdf
+  citation: S.5.06.02
+  title: Domain Name System (DNS)
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  identity_text: S.5.06.02 Domain Name System (DNS)
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.06.02 - Domain Name System (DNS) - Effective 01/9/2023'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum requirements for state Domain Name System servers, services and settings.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-5-08-01
+  sha256: "0f3a3a6c16aa04055c9bc99ab857a5cd456ce17eb31f10b7bde8d669b9961e0c"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.5.08.01---wireless-network.pdf
+  format: pdf
+  citation: S.5.08.01
+  title: Wireless Networks
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.5.08.01 Wireless Networks
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.08.01 - Wireless Networks - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum basic security for IEEE 802.11x wireless devices and methods.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-02-01
+  sha256: "c9835eddd99760fe93cce70111cedd5d9354d4c5dfaa1dde2c43249dd3cd765d"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.-6.02.01---software-inventory-and-control.pdf
+  format: pdf
+  citation: S.6.02.01
+  title: Software Inventory and Control
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.6.02.01 Software Inventory and Control
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S. 6.02.01 - Software Inventory and Control - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Inventory and control of software assets (CIS Controls).
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-02-07
+  sha256: "14cf732397eb4a66ea58194dfa01652b56cd609afa390c66e0cf54970554d06d"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.02.07---technology-bans.pdf
+  format: pdf
+  citation: S.6.02.07
+  title: Technology Bans
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - procurement
+  identity_text: S.6.02.07 Technology Bans
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.02.07 - Technology Bans - Effective 04/06/2023'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Criteria and method for banning hardware, software, vendors and services from use in the state because of security concerns.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-02-07-a
+  sha256: "809957b5742dbf6b45696e934e9173bd29295dd51d8dd0d6c7176250de9b3cfd"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.02.07-a-rev-d-banned-technology-list.pdf
+  format: pdf
+  citation: S.6.02.07.A
+  title: Banned Technology List
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - procurement
+  identity_text: S.6.02.07.A Banned Technology List
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.02.07A rev D Banned Technology List - Effective 01/30/2025'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. The current list of technologies, vendors and services banned in the state; the list that S.6.02.07 maintains. The index prints the list's row twice for S.6.02.07 (the standard) and once for the list.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-03-01
+  sha256: "a362b473204a88ed2a4182c52a7a9827df8eeef33bbeedefbfcad31f6ba0e61c"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.03.01---software-patch-management.pdf
+  format: pdf
+  citation: S.6.03.01
+  title: Software Patch Management
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.6.03.01 Software Patch Management
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.03.01 - Software Patch Management - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum software patch management requirements for technology assets.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-03-02
+  sha256: "8c60526648853a0a34d4d9d750acd06bf85b69e1e3d87dd2daae5ef07aade4e6"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.03.02-vulnerability-management.pdf
+  format: pdf
+  citation: S.6.03.02
+  title: Vulnerability Management
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.6.03.02 Vulnerability Management
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.03.02 Vulnerability Management - Effective 09/01/2021'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum vulnerability management requirements for technology assets.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-05-01
+  sha256: "7be53cfb79a931628d913a0dda452040cf7f4c243d85081c043cbffab79ce4c8"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.05.01-secure-software-configuration.pdf
+  format: pdf
+  citation: S.6.05.01
+  title: Secure Software Configuration
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.6.05.01 Secure Software Configuration
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.05.01 Secure Software Configuration - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Secure configuration of devices, workstations and servers.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-08-01
+  sha256: "bfa32cbd4a7220bdff379434d73f8f2d925d451dcfc5bfbc76e8792f97881b7b"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.08.01-malware-defenses.pdf
+  format: pdf
+  citation: S.6.08.01
+  title: Malware Defenses
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.6.08.01 Malware Defenses
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.08.01 Malware Defenses - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Malware defense of technology assets (CIS Controls).
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-10-01
+  sha256: "07a68dfa3d9e21a5faa8c2d0a4b91d631a2976f4f6a0db2e0e2fac8fa093690d"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.10.01-backup-and-recovery-capabilities.pdf
+  format: pdf
+  citation: S.6.10.01
+  title: Backup and Recovery Capabilities
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - cloud-resilience
+  identity_text: S.6.10.01 Backup and Recovery Capabilities
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.10.01 Backup and Recovery Capabilities - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum data backup and recovery requirements for information systems.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-13-01
+  sha256: "087521d154ca6c7a4fa642a639830511b07e8218d59cd17927e84bd9682c560c"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.13.01-data-protection.pdf
+  format: pdf
+  citation: S.6.13.01
+  title: Data Protection
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  - data
+  identity_text: S.6.13.01 Data Protection
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.13.01 Data Protection - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Data protection requirements (CIS Controls).
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-15-01
+  sha256: "e918f76b7ab30698ccf9f3b982fc5da621ab3a454421df1d2e92c4b79253ca4c"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.15.01-wireless-access-control.pdf
+  format: pdf
+  citation: S.6.15.01
+  title: Wireless Access Control
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.6.15.01 Wireless Access Control
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.15.01 Wireless Access Control - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Wireless access control requirements (CIS Controls).
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-16-01
+  sha256: "e4434a5f5cf46a0827b2aba20a70a4d6c545d15e6622e5e411e9af5567d2c94f"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.16.01-account-monitoring-and-control.pdf
+  format: pdf
+  citation: S.6.16.01
+  title: Account Monitoring and Control
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.6.16.01 Account Monitoring and Control
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.16.01 Account Monitoring and Control - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Account monitoring and control requirements (CIS Controls).
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-sec-s-6-17-01
+  sha256: "7c7c43a46e3d4751b1a402b9fdcf32a80fe3505bc9a8923b5d7e5ddb4dc1ee6e"
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/s.6.17.01---information-security-awareness-and-training-program.pdf
+  format: pdf
+  citation: S.6.17.01
+  title: Information Security Awareness and Training Program
+  doc_type: standard
+  issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office (Office of Information Security and Cyber Defense)
+  tags:
+  - cybersecurity
+  identity_text: S.6.17.01 Information Security Awareness and
+  why_relevant: Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.6.17.01 - Information Security Awareness and Training Program - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. Minimum requirements for an information security awareness and training program.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-gto-data-classification
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/statewide-policy-for-data-classifications---signed_020220206-12.pdf
+  format: pdf
+  citation: Statewide Policy for Data Classification (SDGC-2026-001)
+  title: Statewide Policy for Data Classification
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - data
+  - governance
+  - cybersecurity
+  identity_text: Statewide Policy for Data
+  why_relevant: Listed first on the Governor's Technology Office Governance page ('Statewide Policy for Data Classification'). A four-tier data classification framework for all executive-branch information assets, with handling, protection and lifecycle requirements; 16 pages. A signed scan whose text layer is the publisher's machine reading.
+  stub: true
+  stub_reason: 'A scan whose only text layer is the publisher''s own reading (RICOH MP C6004ex scan read by Adobe Paper Capture with ClearScan); read 2026-11-12. ocrmypdf stops on it with PriorOcrFoundError (page already has text), so the two-engine OCR procedure cannot run, and the publisher''s layer is a machine reading with recognition errors in words and digits (measured in the pdftotext output of the five scan-layer files: for example ''Informatio11'', ''expe1tise'', ''qua1terly'', ''!TAB'', ''signat01'', ''sh·ategies''), so words, effective dates and figures cannot be verified. No text is committed. Reopens when src/ingest_ocr.py has an ocr mode that passes --force-ocr or --redo-ocr and the reading passes the two-engine bar, or when the owner accepts publisher-layer text.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-gto-ai-policy
+  url: https://it.nv.gov/uploadedFiles/itnewnvgov/content/Governance/Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada - CIO Signed.pdf
+  format: pdf
+  citation: Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch
+  title: Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - ai
+  - governance
+  identity_text: Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government
+  why_relevant: 'Listed on the Governor''s Technology Office Governance page. The state''s policy on government use of AI: definitions, six principles (fairness and equity, innovation, privacy, safety and security, validity and reliability, transparency and accountability), a governance structure around the State Technology Governance Committee, baseline standards for executive-branch agencies, and agency AI policies submitted to that committee each year. A signed scan whose text layer is the publisher''s machine reading. The same site also serves a draft of this policy (not seeded: not the signed text).'
+  stub: true
+  stub_reason: 'A scan whose only text layer is the publisher''s own reading (RICOH MP C6004ex scan read by Adobe Paper Capture with ClearScan); read 2026-11-12. ocrmypdf stops on it with PriorOcrFoundError (page already has text), so the two-engine OCR procedure cannot run, and the publisher''s layer is a machine reading with recognition errors in words and digits (measured in the pdftotext output of the five scan-layer files: for example ''Informatio11'', ''expe1tise'', ''qua1terly'', ''!TAB'', ''signat01'', ''sh·ategies''), so words, effective dates and figures cannot be verified. No text is committed. Reopens when src/ingest_ocr.py has an ocr mode that passes --force-ocr or --redo-ocr and the reading passes the two-engine bar, or when the owner accepts publisher-layer text.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-gto-website-domain-standard
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/executive-branch-website-and-domain-governance-standard.pdf
+  format: pdf
+  citation: Executive Branch Website and Domain Governance Standard (GTO-2026-003)
+  title: Executive Branch Website and Domain Governance Standard
+  doc_type: standard
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  - cybersecurity
+  - governance
+  stub: true
+  stub_reason: 'A scan with no text layer (pdffonts lists no fonts), read 2026-11-12 by the two-engine OCR procedure (tesseract through ocrmypdf, cross-checked by PaddleOCR) and NOT promoted: the engines agree on the words (0.96 to 0.99) but not on the figures, under the 90% bar in src/ingest_ocr.py. Figure agreement for the 6-page file: 88% of 64 figures with the default layout, 90% (just under) of 64 with page-segmentation mode 4 (the seed''s best), 89.6% of 62 with mode 6, 84% of 56 with mode 11. The contested figures are the page-number stamps in the page footer (tesseract misreads or drops them) and the signature block (tesseract reads the CIO''s signature and date as ''C 10 A Allo'' and ''99 acac'', paddle as ''CIO'' and ''2212026''). No text is committed, because a reading that fails the bar is not a transcription. Reopens when a reading passes the bar (a third engine as tiebreaker, or a text copy the owner supplies); the GTO site offers no Word or text version.'
+  why_relevant: 'Listed on the Governor''s Technology Office Governance page. A statewide approach to executive-branch public websites and domains: identifying official sites, security, accessibility and content governance, and the intake process for a new site. The PDF has no text layer (a scan).'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-gto-tie-policy
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/technology-investment-evaluation-tie-policy-2.pdf
+  format: pdf
+  citation: Technology Investment Evaluation (TIE) Policy (GTO-2026-A002)
+  title: Technology Investment Evaluation (TIE) Policy
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - oversight
+  - procurement
+  - governance
+  stub: true
+  stub_reason: 'A scan with no text layer (pdffonts lists no fonts), read 2026-11-12 by the two-engine OCR procedure (tesseract through ocrmypdf, cross-checked by PaddleOCR) and NOT promoted: the engines agree on the words (0.96 to 0.99) but not on the figures, under the 90% bar in src/ingest_ocr.py. Figure agreement for the 10-page file: 85.5% of 67 figures with the default layout and mode 3, 86.7% of 72 with mode 4, 89.7% of 74 with mode 6, 89.6% of 63 with mode 11. The contested figures are page-number stamps and the signature block (tesseract reads the CIO''s signed date as ''ClO WZ 4 32 Jo 0 ae'', paddle as ''CIO'' and ''4 22 2026''). No text is committed. Reopens when a reading passes the bar or the owner supplies a text copy; the GTO site offers no Word or text version.'
+  why_relevant: 'Listed on the Governor''s Technology Office Governance page. The statewide intake and evaluation of qualifying technology investments: when an agency must submit a TIE, how reviews are made and recorded, and how TIE records support procurement. The PDF has no text layer (a scan), read by the two-engine OCR procedure.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-gto-duplicate-spend
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/duplicate-spend-review-and-enterprise-transition-planning.pdf
+  format: pdf
+  citation: Duplicate Spend Review and Enterprise Transition Planning (GTO-2026-001)
+  title: Duplicate Spend Review and Enterprise Transition Planning
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - oversight
+  - procurement
+  stub: true
+  stub_reason: 'A scan with no text layer (pdffonts lists no fonts), read 2026-11-12 by the two-engine OCR procedure (tesseract through ocrmypdf, cross-checked by PaddleOCR) and NOT promoted: the engines agree on the words (0.96 to 0.99) but not on the figures, under the 90% bar in src/ingest_ocr.py. Figure agreement for the 5-page file: 84.7% of 40 figures with the default layout, mode 3 and mode 4, 85.4% of 44 with mode 6, 84.3% of 38 with mode 11 (the seed run with mode 4 read 85%). The contested figures are page-number stamps in the footer (tesseract drops or misreads them) and the signature block (tesseract reads the CIO''s signed date as ''ClO Aylin 1 30 9026'', paddle as ''CIO'' and ''4 20 3026''; the printed effective date is 4/22/2026). No text is committed. Reopens when a reading passes the bar or the owner supplies a text copy; the GTO site offers no Word or text version.'
+  why_relevant: Listed on the Governor's Technology Office Governance page. A GTO procedure for reviewing TIE submissions that overlap an existing or planned enterprise offering. It is headed 'GTO Procedure' and applies to GTO staff, but the library lists it as a policy. The PDF has no text layer (a scan), read by the two-engine OCR procedure.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-gto-large-it-projects
+  url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/statewide_policy_for_reporting_of_large_information_technology_projects2.pdf
+  format: pdf
+  citation: Statewide Policy for Reporting of Large Information Technology Projects (STGC-2025-002)
+  title: Statewide Policy for Reporting of Large Information Technology Projects
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - oversight
+  - governance
+  identity_text: Statewide Policy for Reporting of Large
+  why_relevant: Listed on the Governor's Technology Office Governance page. A uniform statewide framework for reporting and tracking executive-branch IT projects above $2,000,000 with statewide impact or high risk. A signed scan whose text layer is the publisher's machine reading. The IT Project Submission Update page links a second copy of the same policy under another path (identical text; left out as a duplicate).
+  stub: true
+  stub_reason: 'A scan whose only text layer is the publisher''s own reading (scan read by Adobe Paper Capture with ClearScan); read 2026-11-12. ocrmypdf stops on it with PriorOcrFoundError (page already has text), so the two-engine OCR procedure cannot run, and the publisher''s layer is a machine reading with recognition errors in words and digits (measured in the pdftotext output of the five scan-layer files: for example ''Informatio11'', ''expe1tise'', ''qua1terly'', ''!TAB'', ''signat01'', ''sh·ategies''), so words, effective dates and figures cannot be verified. No text is committed. Reopens when src/ingest_ocr.py has an ocr mode that passes --force-ocr or --redo-ocr and the reading passes the two-engine bar, or when the owner accepts publisher-layer text.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-gto-ai-guidelines-memo
+  sha256: "62691196c459120978e04c659ec3069c6358da8ec3ecee837fd201c2c7ddd1d0"
+  url: https://it.nv.gov/uploadedFiles/itnewnvgov/content/Governance/AI Guidelines.pdf
+  format: pdf
+  citation: Guidelines for the Use and Security of AI Tools (memo of November 15, 2023)
+  title: Guidelines for the Use and Security of AI Tools
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - ai
+  - cybersecurity
+  - data
+  identity_text: Guidelines for the Use and Security of AI Tools
+  why_relevant: 'Listed under ''Memorandums'' on the Governor''s Technology Office Governance page (11/15/2023). A memo from the State CIO to all agencies setting initial guidelines for AI tools: types of tools, caution with non-state-operated tools, data protection duties and security.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-itab-bylaws
+  url: https://it.nv.gov/uploadedFiles/itnewnvgov/content/Governance/ITAB/Signed ITAB By-Laws 2023.pdf
+  format: pdf
+  citation: Information Technology Advisory Board Bylaws (2023)
+  title: Information Technology Board Bylaws
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - governance
+  - oversight
+  identity_text: Information Technology Board Bylaws
+  why_relevant: 'Linked as ''ITAB Bylaws'' on the Information Technology Advisory Board page of the Governor''s Technology Office. Bylaws of the statutory board (NRS 242.122 to 242.124) that advises on state IT policies and plans: name, authority, membership, terms and meetings. A scan whose text layer is the publisher''s machine reading.'
+  stub: true
+  stub_reason: 'A scan whose only text layer is the publisher''s own reading (Xerox AltaLink C8130 scan read by Adobe Paper Capture); read 2026-11-12. ocrmypdf stops on it with PriorOcrFoundError (page already has text), so the two-engine OCR procedure cannot run, and the publisher''s layer is a machine reading with recognition errors in words and digits (measured in the pdftotext output of the five scan-layer files: for example ''Informatio11'', ''expe1tise'', ''qua1terly'', ''!TAB'', ''signat01'', ''sh·ategies''), so words, effective dates and figures cannot be verified. No text is committed. Reopens when src/ingest_ocr.py has an ocr mode that passes --force-ocr or --redo-ocr and the reading passes the two-engine bar, or when the owner accepts publisher-layer text.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-ada-technology-accessibility-guidelines
+  sha256: "d9ba2757b5be4b06e18f440208f0fc92cb449e29dd0779b30f4fd59d499258fe"
+  url: http://ada.nv.gov/uploadedFiles/adanewnvgov/content/Partners/Policies/ADA_WebsiteGuidelines_7-22-19.pdf
+  format: pdf
+  citation: ADA Technology Accessibility Guidelines (Control No. 101, Rev. 2.1)
+  title: ADA Technology Accessibility Guidelines
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  identity_text: ADA Technology Accessibility Guidelines
+  why_relevant: 'Linked as ''ADA Technology And Accessibility Guidelines'' in the footer of every Governor''s Technology Office and ADA site page. An Office of the CIO guideline that applies to all state entities: accessibility of websites, electronic documents, software and IT products (WCAG 2.1, Section 508). It prints its date as 22 July 19.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-ada-web-style-standard
+  sha256: "8030bb77275adaa7206d6732bb484181f54ed3965c34aa2f89b4a9393ea59c84"
+  url: http://ada.nv.gov/uploadedFiles/adanewnvgov/content/Resources/2019-05-01_WebStyleGuidelines.pdf
+  format: pdf
+  citation: Web Style Standard (Control No. 4.01, Rev. 1.1)
+  title: Web Style Standard
+  doc_type: standard
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  identity_text: Web Style Standard
+  why_relevant: Linked as 'Web Style Standards' in the footer of every Governor's Technology Office and ADA site page. An Office of the CIO standard for the design and presentation of executive-branch internet websites, including accessibility. It prints its date as 10February19.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-watch-gto-governance
+  url: https://it.nv.gov/governance/
+  format: html
+  citation: 'Governor''s Technology Office: Governance'
+  title: GTO Governance page (the statewide IT policy library and memorandums)
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: 'The statewide IT policy library index: NRS and NAC 242 links, ten policies and standards, the four memorandums, and links to the security library and the ITAB page (read 2026-11-12). A policy or memo added, replaced or removed raises a review-the-seed-list report.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-watch-gto-security-library
+  url: https://it.nv.gov/governance/security-policies-standards--procedures/
+  format: html
+  citation: 'Governor''s Technology Office: Security Policies, Standards & Procedures'
+  title: State information security policies, standards and procedures library
+  doc_type: standard
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - cybersecurity
+  watch_only: true
+  why_relevant: 'The index NAC 242.110 points to: 46 file links on 2026-11-12 (45 distinct): 37 seeded, 8 left out (6 forms and workbooks, a Word duplicate, a superseded revision). A new or replaced standard raises a report.'
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-watch-gto-itab
+  url: https://it.nv.gov/governance/itab/
+  format: html
+  citation: 'Governor''s Technology Office: ITAB'
+  title: Information Technology Advisory Board page
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - governance
+  - oversight
+  watch_only: true
+  why_relevant: Links the ITAB bylaws and NRS 242.124 and carries the board's meeting notices; a new bylaws revision raises a report.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-watch-gto-tie
+  url: https://it.nv.gov/tie/it-project-submission-update/
+  format: html
+  citation: 'Governor''s Technology Office: IT Project Submission Update'
+  title: IT Project Submission Update page (large IT project reporting)
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - oversight
+  watch_only: true
+  why_relevant: Links the Statewide Policy for Reporting of Large Information Technology Projects (a second copy of the seeded policy) and the IT project portfolio workbooks (not instruments). A different policy file here raises a report.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-watch-eo-index
+  url: https://gov.nv.gov/executive-actions/executive-orders/
+  format: html
+  citation: Governor's executive orders index
+  title: 'Governor of Nevada: Executive Orders'
+  doc_type: executive_order
+  issuing_body: Office of the Governor
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: Index of the Governor's executive orders by year (2023 to 2026 on 2026-11-12). No order on state IT, cybersecurity, data or AI is seeded (see the left-out record); a new year page or a new order title raises a report.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-watch-eo-2026
+  url: https://gov.nv.gov/executive-actions/executive-orders/2026-executive-orders/
+  format: html
+  citation: Governor's 2026 executive orders
+  title: 'Governor of Nevada: 2026 Executive Orders'
+  doc_type: executive_order
+  issuing_body: Office of the Governor
+  tags:
+  - governance
+  watch_only: true
+  why_relevant: The current year's list (EO 2026-001 to 2026-005 on 2026-11-12). A new order is reviewed for state IT, cybersecurity, data or AI content.
+  jurisdiction: nevada
+  recheck: monthly
+- id: nv-watch-ada-resources
+  url: https://ada.nv.gov/resources/
+  format: html
+  citation: Nevada digital accessibility resources
+  title: 'Nevada Digital Accessibility Website: Resources'
+  doc_type: policy
+  issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+  tags:
+  - digital-services
+  watch_only: true
+  why_relevant: Resources page of the state's digital accessibility team; the footer of every Governor's Technology Office and ADA page links the two seeded accessibility instruments. A new state accessibility policy or standard raises a report.
+  jurisdiction: nevada
+  recheck: monthly
+left_out:
+- text: '---- Nevada: found and left out (each was seen on an official page on 2026-11-12; the reason is recorded here). ''Owner decision'' marks a judgment call a reviewer should confirm. Every claim of ''none found'' names the list that was read.'
+- text: 'Central IT body: the Governor''s Technology Office (GTO, headed by the State Chief Information Officer) at it.nv.gov. NRS 242.017 defines the Chief as ''the Chief of the Governor''s Technology Office within the Office of the Governor''; older text in the policy PDFs still names the Department of Administration, Enterprise IT Services (EITS) and the Office of the Chief Information Officer (OCIO); NRS 242 sections repealed by chapter 294, Statutes of Nevada 2025, are the old Department, Division and Administrator definitions.'
+- text: 'Statutes seeded: NRS chapters 242 (the enabling statute and the cybersecurity duties of the Office of Information Security and Cyber Defense), 603A (breach and security duties of ''data collectors'', which include governmental agencies), 233F (the state communications system) and 239B (personal information held by agencies). All 833 NRS chapter pages in the LCB table of titles and chapters (https://www.leg.state.nv.us/NRS/, every page fetched 2026-11-12) were searched for ''artificial intelligence'', ''generative'', ''automated decision'', ''machine learning'', ''Chief Information Officer'', ''Governor''s Technology Office'', ''Security Operations Center'', ''information system'', ''information technology'' and ''cybersecurity''; the chapters below are what those searches and the chapter titles turned up.'
+- text: 'Statutes about AI: the only chapters that print ''artificial intelligence'' as a duty or prohibition are NRS 414.0305 and 414.099 (chapter 414, emergency management: an emergency management plan must provide that final decisions on emergency response planning and resource allocation are not made by artificial intelligence; binds state and local emergency management, in a non-IT chapter), NRS 391.297 (chapter 391, school personnel: the Department of Education''s policy on AI use by school counselors, psychologists and social workers; K-12), NRS 433.567 (chapter 433: duties of providers of AI systems that offer mental health care, with duties of the Division; private providers), NRS 629.610 (chapter 629: providers of mental and behavioral health care), NRS 704.1833 (chapter 704: public utilities), NRS 294A (campaign practices: synthetic media), NRS 200 (an AI-made child sexual image in a crime definition) and NRS 603A (the words ''machine learning'' inside a definition of consumer health data). Left out: they bind private persons, schools or health providers, or sit as single sections of non-IT chapters, which the playbook leaves out pending an owner decision on section-level slicing. OWNER DECISION: NRS 414.099 is the one Nevada statute that restricts AI in a state and local government function; seed it if section slices are approved. NRS 242 itself contains none of these words. A Route Fifty article (September 2026) reports a legislative proposal on AI use by state and local agencies; a proposal is not an enacted law and nothing was fetched from it.'
+- text: 'Statute chapters seen and left out as not about state IT: 205A (Technological Crime Advisory Board: law-enforcement and computer-crime policy), 239 (Public Records: not IT), 239C (Homeland Security: emergency planning; its ''information system'' definition concerns critical infrastructure), 333 (Purchasing: State: the procurement code; the playbook leaves procurement sections out pending an owner decision; it names the Chief of the GTO in two places), 353 (State Financial Administration), 603 (Computers: private persons), 719 (Electronic Transactions, a uniform act on private transactions; sections 719.340 to 719.360 bind governmental agencies on electronic records and signatures: single sections of a non-IT chapter, OWNER DECISION on section slices), 720 (Digital Signatures: licensing of certification authorities by the Secretary of State), 721 (Electronic Legal Material), 232 and 223 (department and Governor chapters: NRS 223.085 lets the Governor''s staff include ''Chief Information Officer of the State'', also single sections), 218G (Legislative Audits) and 480 (Public Safety: NRS 480.900 to 480.950, ''Security of Information Systems'' and the Nevada Office of Cyber Defense Coordination, is printed as ''Repealed'' under chapter 513, Statutes of Nevada 2025, page 3572; its functions moved into NRS 242.127 to 242.129).'
+- text: 'Statute chapters in the NRS table of titles and chapters that were not seeded (chapter pages fetched 2026-11-12): NRS 400 (P-20W Research Data System Advisory Committee: assists in the coordination and management of the statewide longitudinal data system administered by the Governor''s Office of Workforce Innovation, NRS 400.027 and 400.037; its members are the Chancellor of the Nevada System of Higher Education, the Superintendent of Public Instruction and the Director of the Department of Employment, Training and Rehabilitation; OWNER DECISION: data governance of a state data system, which may pass the inclusion test, or education data excluded as K-12 and higher education), NRS 239A (Disclosure of Financial Information to Governmental Agencies: privacy of financial-institution records, not state IT) and NRS 378 (State Library, Archives and Public Records: records management, not IT; the rule chapter NAC 378 is named below).'
+- text: 'Rules: NAC chapter 242 (Information Services) is the IT agency''s only chapter and holds the one section NAC 242.110, seeded. The NAC table of chapters (https://www.leg.state.nv.us/NAC/Chapters.html, 413 chapters, read 2026-11-12) names no other chapter of the Governor''s Technology Office. Left out: NAC chapter 480 (''Security of Information Systems'', Office of Cyber Defense Coordination, adopted 12-29-2020, page revised 5-22): it requires political subdivisions (local governments) to adopt, certify and report on cybersecurity incident response plans, so its obligated party is local government, which the domain excludes, and its authority (NRS 480.935 and 480.950) is the repealed text above; OWNER DECISION whether it is still in force and in scope. NAC 333 and 334 (purchasing), NAC 239 (Public Records), NAC 378 (State Library, Archives and Public Records) and NAC 720 (Digital Signatures: licensed certification authorities) are procurement, records or private-licensee rules and were not seeded.'
+- text: 'Executive orders: none seeded. Governor Lombardo''s lists for 2023, 2024, 2025 and 2026 (https://gov.nv.gov/executive-actions/executive-orders/ and its four year pages, read 2026-11-12) print EO 2023-001 to 2023-011, 2024-001 to 2024-007, 2025-001 to 2025-003 and 2026-001 to 2026-005 (as read from the page text: the 2024 page headings read ''Executive Order 2024-006'' and ''Executive Order 2024-007'', but their link titles read ''EO 2026-006'' and ''EO 2026-007'', numbers the page prints for the two hiring-criteria extensions that EO 2025-001 and EO 2025-002 cite as 2024-006 and 2024-007; the 2023, 2025 and 2026 pages also repeat the earlier hiring-criteria orders as references). None is on state IT, cybersecurity, data or AI. The closest: EO 2023-003 and EO 2023-008 (freezing and then lifting the regulatory process), EO 2026-003 (a review of existing regulations by all executive-branch agencies) and EO 2026-005 (''Order Establishing the Nevada Standard for Responsible Data Center Development'': private data centers, not state IT); EO 2023-010 and its extensions (hiring criteria). The site lists no orders of earlier governors, so orders of former governors that remain in force could not be checked on an official list; the old path /Newsroom/ExecOrders/ answered HTTP 404. Cybersecurity Awareness Month is a proclamation, not an order. OWNER DECISION: EO 2026-005 (data centers) is left out as private-sector energy and tax policy.'
+- text: 'Statewide IT policy library (https://it.nv.gov/governance/), row by row, 2026-11-12. Seeded as a document: the memorandum Guidelines for the Use and Security of AI Tools (11/15/2023). Stubs: Statewide Policy for Data Classification, Policy on the Responsible and Ethical Use of Artificial Intelligence in Nevada State Government Executive Branch and Statewide Policy for Reporting of Large Information Technology Projects (scans whose only text layer is the publisher''s reading, which ocrmypdf refuses with PriorOcrFoundError); Executive Branch Website and Domain Governance Standard, Technology Investment Evaluation (TIE) Policy, and Duplicate Spend Review and Enterprise Transition Planning (scans with no text layer that the OCR procedure could not promote). Left out: IT Strategy Development and Submission Policy (OCIO-2025-IT01): it prints ''Effective Date TBD'' in its own control block and its APPROVED BY block shows only ''Title CIO'', so it is not shown to be in force (it is also a scan whose only text layer is the copier''s reading, refused by ocrmypdf with PriorOcrFoundError); OWNER DECISION whether an instrument that prints no effective date is in force. NRS 242 and NAC 242 are the first two rows (seeded as statute and rule). The Security Policies, Standards & Procedures row is the security library (see below) and is watched. Left out: ''Nevada Tech Award Nomination Policy'' (control no. NTA-001, effective 7/22/2025: the rules of an awards program for state technology projects; it obligates no one to do anything with IT; OWNER DECISION), ''Nevada Technology Award Submission Instructions'' (how-to instructions, not an instrument), ''Helping You Register or Update Your Agency''s IT Projects'' (a how-to letter to agency leaders about the submission system, not an instrument; the policy it explains is seeded), and the memorandums ''Cyber Security Awareness Update - Email Spoofing 01/17/2024'', ''Cyber Security Awareness Month - Email Spoofing 10/16/2023'' (awareness advisories for staff, not instruments) and ''Guidance for Hosting Public Meeting 9/10/2024'' (a 48-page step-by-step tutorial in screenshots for Teams, Meet, Zoom and Webex, whose text layer holds little more than captions on 33 pages; OWNER DECISION whether a guidance tutorial belongs). The ''Meeting Calendar'' link (https://it.nv.gov/Governance/Meetings/) answered HTTP 404. The ITAB link under the old path (https://it.nv.gov/Governance/ITAB/Information_Technology_Advisory_Board_(ITAB)/) was read: an older ITAB page with the headings ITAB Members, ITAB Meetings and Materials and ITAB Bylaws and no document links; the current ITAB page is watched.'
+- text: 'Security library (https://it.nv.gov/governance/security-policies-standards--procedures/), 46 links, 45 distinct URLs, row by row: 37 seeded. Left out: six forms and workbooks (S.2.04.01.1F State Security PSP Exception Request Form, .docx; S.3.04.03 1F Social Media Exception Request Form, .pdf; S.3.04.04 1F Acceptable Use Agreement 4.16.24, .docx, a form each employee signs; S.4.02.02.1F Mobile and Non-State Device Agreement Form, .docx; S.4.08.02.1F Information Security Incident Report Form, .docx; S.5.06.01 1F Cloud Services Assessment Worksheet, .xlsx), the Word copy of S.3.04.01 Personnel Security (the same standard as the seeded PDF: duplicate format), and the earlier revision E of S.5.01.01 (the index lists revisions E and F, ''S.5.01.01 - User Identification and Authentication (Passwords)'' with no effective date and ''S.5.01.01 F ... Effective 05/08/2025''; the file of the first prints Revision E, effective 12/31/2020; F replaces it, so only F is in force). The row for S.6.02.07 Technology Bans appears twice with the same URL. The index''s date text for S.5.04.03 reads ''Effective 1, 2021''; the file prints 9/01/2021 (the seeded text is the file''s).'
+- text: 'Strategy and organization documents (not instruments): ''Statewide IT Strategy (FY23-FY27)'' (https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/Statewide-IT-Strategy-TheNevadaWay_2.pdf) and the visual version of it (.../documents/OCIO_VISUAL_-_IT_Strategy-ADA.pdf), both linked from the Organization page: strategy documents. The IT Project Portfolio and IT Project Portfolio Update workbooks (.xlsx) on the IT Project Submission Update page and the ADA site''s accessibility checklists (Word, Excel, PowerPoint, Acrobat, NVDA, web review): spreadsheets and checklists. The it.nv.gov Stateweb resources (Ektron web-editing guides): training material.'
+- text: 'Duplicate copy: https://it.nv.gov/uploadedFiles/itnewnvgov/content/Governance/Statewide Policy for Reporting of Large Information Technology Projects.pdf (linked from the IT Project Submission Update page) is a second file of the seeded STGC-2025-002 policy; pdftotext reads identical text from both files (the bytes differ). Not seeded twice. A draft of the AI policy (''...Executive Branch(draft).pdf'') appears in a search engine''s results on it.nv.gov; it is a draft, not the signed text seeded, and was not fetched.'
+- text: 'State Administrative Manual (SAM), Governor''s Finance Office, Budget Division (https://www.gfo.nv.gov/siteassets/documents/final-sam-07-14-2026.pdf, ''Revised July 14, 2026'', 157 pages, fetched 2026-11-12): the whole manual is finance and administration policy; its Chapter 1600 ''Information Technology'' (revised January 11, 2022; October 2, 2024) is on pages 93 to 98 and is the ''SAM Chapter 1600 - IT Project Approval'' that the large-IT-projects policy cites. Left out: a 157-page manual in which one 6-page chapter is IT, and the playbook leaves sections of non-IT sources out pending an owner decision on slicing. OWNER DECISION: seed SAM 1600 if page slicing of a PDF is approved (the shared to_text ignores a seed `slice` for PDFs).'
+- text: 'Digital accessibility: the ADA Technology Accessibility Guidelines (Control No. 101) and the Web Style Standard (Control No. 4.01) are Office of the CIO instruments hosted on ada.nv.gov and linked from every GTO page footer, not from the policy library; they are seeded because they bind all state entities on accessible IT and websites. Owner decision: both date from 2019 and print their own versions; no newer revision was found on the ADA site''s Resources or Digital Accessibility Statement pages. The Digital Accessibility Statement (https://ada.nv.gov/accessibility/digital-accessibility-statement/) is a statement of intent, not an instrument.'
+- text: 'Scan-layer PDFs: five PDFs are scans of signed paper originals whose only text layer is a machine reading made by Adobe Paper Capture or a copier (Producer ''Paper Capture Plug-in with ClearScan'', RICOH or Xerox): the data classification policy, the AI policy, the large-IT-projects policy, the ITAB bylaws (four stubs) and the IT strategy policy (left out above). The repo procedure for scans is the two-engine OCR; ocrmypdf stops on each with PriorOcrFoundError (page already has text) and the layer carries recognition errors in words and digits (''Informatio11'', ''Go1 1er11or'', ''expe1tise'', ''qua1terly'', ''!TAB'', ''sh·ategies''), so effective dates and figures read from it are unverifiable; none of the five is committed as text. Shared change that would fix it: an `ocr` mode in src/ingest_ocr.py that passes --force-ocr (or --redo-ocr) to ocrmypdf for a PDF whose layer is a recognised scan. OWNER DECISION (not this PR''s call): accept publisher-layer text, recorded in docs/spec.md, or wait for that mode. The three scans with no text layer at all (TIE Policy, Website and Domain Governance Standard, Duplicate Spend Review) were read by the two-engine OCR procedure and not promoted: they are stubs. In all three the contested figures are footer page numbers and the signature block, which are not the instrument''s text; a shared change that excluded footers and signature blocks from the figure score (or accepted the words-only agreement of 0.96 to 0.99 for a page-number footer) would let them in; that is a decision about the shared bar, not made here.'
+- text: 'Other files linked from the Governor''s Technology Office pages and not instruments (read 2026-11-12): the Services/Rates page''s current rate list (gto-rates-sheet-fy26-27-2.xlsx, a spreadsheet) and FY2022-2023 Service Level Agreement template (EITS_SLA-Template.docx, a template); the Service Desk page''s Office 365 password set-up instructions, VPN FAQs, computer imaging request instructions and form, email multi-factor authentication set-up documentation (how-to guides and a form) and a Word file named for the Mobile and Non-State Device Agreement Form (S.4.02.02.1F; not compared with the copy in the security library). The Mission Statement, Leadership Team, Client Services, Computing, DataComm, OISCD, Events and TIE pages link no further policy file.'

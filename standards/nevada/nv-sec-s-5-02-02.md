@@ -1,0 +1,173 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nevada
+id: nv-sec-s-5-02-02
+title: Access Controls and Audit Trails
+doc_type: standard
+citation: S.5.02.02
+authority_level: ''
+issuing_body: Nevada State Information Security Committee; published by the Governor's Technology Office
+  (Office of Information Security and Cyber Defense)
+source_url: https://it.nv.gov/siteassets/itnew.nv.gov/content/governance/security/FINAL_S_5_02_02_Access_Controls_and_Auditing.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 00302952d0cfb14602c8787fc074f57b89db3e41e059dfc682b7266a8bcfedab
+effective_date: '2020-12-31'
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- cybersecurity
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Access Controls and Audit Trails (S.5.02.02)
+
+## At a glance
+
+Listed on the Governor's Technology Office page 'Security Policies, Standards & Procedures' (https://it.nv.gov/governance/security-policies-standards--procedures/) as 'S.5.02.02 - Access Controls and Audit Trails - Effective 12/31/2020'. NAC 242.110 adopts the State Information Security Policies, Standards and Procedures by reference and binds every executive-branch agency, state employee and contractor with access to state information to them. General requirements for access controls and audit trails on IT systems.
+
+## Full text
+
+                                    State of Nevada
+                               Information Security Committee
+
+                                            Standard
+Document ID      Title                                            Revision      Effective Date      Page
+  S.5.02.02      Access Controls and Audit Trails                     F           12/31/2020        1 of 3
+
+1.0   PURPOSE
+      This standard establishes the minimum general requirements for Access Controls and Audit
+      Trails of Information Technology (IT) systems.
+
+2.0   SCOPE
+      This standard applies to all state agencies and authorized users meeting the criteria identified in
+      the State Information Security Program Policy, Section 1.2, Scope and Applicability.
+
+3.0   EFFECTIVE DATES
+      This standard becomes effective at the time of approval of the State Chief Information Officer
+      (CIO).
+
+4.0   RESPONSIBILITIES
+      The agency head and appointed Information Security Officer (ISO) have the responsibility to
+      ensure the implementation of and compliance with this standard.
+
+5.0   RELATED DOCUMENTS
+      State Information Security Program Policy, 100
+      Data Sensitivity, S.3.02.01
+
+6.0   STANDARD
+
+      6.1     User Access Controls
+              The following user access control requirements will apply:
+
+              A. All data shall be protected by access controls, comparable to the level of classification,
+                 to ensure that it is not improperly disclosed, modified, deleted, or rendered unavailable.
+              B. All agreements or contracts with individuals or groups, other than state employees,
+                 must identify the access requirements as part of the contract.
+              C. System managers shall reevaluate system access privileges granted to all users
+                 quarterly.
+              D. Access rights and privileges for every State system shall be reviewed in the event of a
+                 change of access, whether by termination of contract, termination of employment,
+                 revocation of rights, reassignment, or other separation from agency, department, or
+                 service.
+              E. Agencies that retain or have been given stewardship of data are responsible for
+                 determining who may have access to the data. Criteria shall be established in granting
+                 each user or class of user access to information/data.
+                  1. The criteria shall be based on the concept of least privilege. Least privilege is
+                     based on the user’s job function, the minimum set of privileges required to perform
+                     that function, and the need to have separation of duties.
+
+                                     State of Nevada
+                               Information Security Committee
+
+                                            Standard
+Document ID      Title                                            Revision      Effective Date       Page
+  S.5.02.02      Access Controls and Audit Trails                     F           12/31/2020         2 of 3
+
+                  2. The separation of duties shall be based on the sensitivity of the system or
+                     information accessed to prevent an individual from having all necessary authority
+                     or information access to allow fraudulent activity without collusion.
+
+              F. System managers must be able to produce a report of user IDs and access rights for
+                 their system upon demand, for the support of investigations and audits.
+
+      6.2     Technical Access Controls
+              Technical access controls are implemented at a technical resource level and exist
+              independent of individual user account(s).
+
+              A. Access to data considered sensitive or private, or mandated to be so, shall be
+                 controlled using technology resources, such as digital identity devices, encryption
+                 software, or evolving secure identity methods. It is the responsibility of the agency to
+                 research, classify, and protect the data accordingly, prior to allowing access to the
+                 data.
+              B. All systems must present a warning banner approved by the agency, that meets all
+                 governance requirements applicable to that agency.
+
+      6.3     Logging
+              A. Agencies shall assess appropriate logging levels for systems they are responsible for
+                 and document logging procedures for security purposes. Logging procedures will be
+                 reviewed at least annually.
+              B. All system and application logs shall be maintained in a form that cannot readily be
+                 viewed or altered by unauthorized persons.
+              C. Agencies must regularly analyze logs to identify unauthorized activity.
+              D. Any software required to read or generate reports from log files must be retained at
+                 least as long as the log files.
+
+      6.4     Audit Trails
+              A. All agencies must maintain a change control process for documenting system
+                 administrative changes or updates to production systems.
+              B. Audit trail information will be retained for an appropriate amount of time based on
+                 requirements applicable to the agency.
+
+7.0   DEFINITIONS
+      None
+
+8.0   RESOURCES
+      Center for Internet Security (CIS), CIS Controls v7.1 Guide
+
+                                      State of Nevada
+                                 Information Security Committee
+
+                                              Standard
+ Document ID       Title                                               Revision   Effective Date     Page
+   S.5.02.02       Access Controls and Audit Trails                       F        12/31/2020        3 of 3
+
+9.0       EXCEPTIONS
+          Requests for exception to the requirements of this Information Security Standard must be
+          documented, provided to the Office of Information Security (OIS), and approved by the State
+          Chief Information Security Officer (CISO).
+
+Approved By
+ Title                                                     Signature                       Approval Date
+ State Information Security Committee                      Approved by Committee                11/19/2020
+ State Chief Information Security Officer (CISO)           Signature on File                    11/24/2020
+ State Chief Information Officer (CIO)                     Signature on File                    11/30/2020
+
+Document History
+ Revision       Effective Date   Change
+      A             5/09/2002    Initial release
+      B             9/12/2002    Revision of Section 6.2
+      C             5/31/2012    Renumbering and minor revisions, replaces standard 4.60
+      D             7/25/2019    Review and updates for access and logging standards
+      E            12/26/2019    Renumbering (114 to S.5.02.02) and compliance to ADA standards
+      F            12/31/2020    Biennial review for alignment with the CIS Controls v7.1, Implementation
+                                 Group 1 (IG1)
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).

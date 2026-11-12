@@ -1,0 +1,443 @@
+---
+schema_version: 1
+corpus: states-government-it
+jurisdiction: nevada
+id: nv-ada-web-style-standard
+title: Web Style Standard
+doc_type: standard
+citation: Web Style Standard (Control No. 4.01, Rev. 1.1)
+authority_level: ''
+issuing_body: Governor's Technology Office (Office of the Chief Information Officer)
+source_url: http://ada.nv.gov/uploadedFiles/adanewnvgov/content/Resources/2019-05-01_WebStyleGuidelines.pdf
+source_format: pdf
+retrieved: '2026-11-12'
+source_sha256: 8030bb77275adaa7206d6732bb484181f54ed3965c34aa2f89b4a9393ea59c84
+effective_date: null
+source_version: ''
+status: current
+content_mode: verbatim
+conversion_notes: Text extracted with pdftotext -layout (page headers, footers and column layout kept
+  as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their
+  letters).
+last_verified: ''
+verified_by: ''
+maintainer: ''
+relationships:
+  implements: []
+  implemented_by: []
+  references_external: []
+  related: []
+  supersedes: []
+tags:
+- digital-services
+---
+
+> **NON-AUTHORITATIVE.** This is a convenience copy for machine reading. The official text is published at the source URL above. Verify at source before relying on it.
+
+# Web Style Standard (Web Style Standard (Control No. 4.01, Rev. 1.1))
+
+## At a glance
+
+Linked as 'Web Style Standards' in the footer of every Governor's Technology Office and ADA site page. An Office of the CIO standard for the design and presentation of executive-branch internet websites, including accessibility. It prints its date as 10February19.
+
+## Full text
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                          Standard
+ Control No               Rev.                           Title          Effective Date   Page
+ 4.01                     1.1                     Web Style Standard    10February19     1 of 10
+
+1.0       PURPOSE
+
+     This document defines the Nevada state standard for internet website design and
+     presentation. The intent is to allow Nevada state executive branch organizations to
+     develop sites that reflect their agency’s unique character while:
+
+                         •      Maximizing services to citizens
+                         •      Providing consistency among all state websites
+                         •      Minimizing barriers to accessibility
+                         •      Adhering to commonly accepted best practices and guidelines
+
+2.0       SCOPE
+     All Nevada state executive branch organizations must adhere to the standard in this
+     document to the extent of the Governor’s authority. This policy applies to all state
+     internet sites but does not apply to state intranet sites.
+
+3.0       EFFECTIVE DATES
+     The requirements of this policy are effective 90 days after sign-off by the Governor or
+     their designee.
+
+4.0       ROLES & RESPONSIBILITY
+          4.1        Website Design and Content
+     Executive branch organizations are responsible for the design and content of their
+     websites, including those developed and/or maintained by vendors, contractors or
+     other entities within the government of the State of Nevada.
+          4.2 Portal Design, Content and Review
+     The State Webmaster is responsible for developing a comprehensive portal strategy
+     and supporting policies and procedures for the State.
+
+                                                                 1
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date   Page
+ 4.01                     1.1                     Web Style Standard    10February19     2 of 10
+
+     The State Webmaster is responsible for periodically reviewing and approving
+     executive branch organizations websites prior to their release into production and
+     again at every major revision.
+
+5.0        STANDARD
+
+          5.1        Accessibility
+               The State of Nevada is committed to providing broad based access to state
+               websites. Every Executive Branch website must therefore be designed to
+               reasonably accommodate visitors with disabilities.
+          5.2        Minimum Requirements
+               All pages within an Executive Branch website must comply with the current
+               version of Priority 1 Guidelines established by the World Wide Web
+               Consortium’s Web Content Accessibility Guidelines (WCAG).
+               All state Web sites must meet or exceed Priority I requirements of the Web
+               Content Accessibility Guidelines conformance level A of WCAG 2.0 and
+               paragraph 1194.22 of Section 508 for accessibility by the disabled and must
+               meet or exceed the requirements outlined in the state accessibility statement. A
+               text-only version of the entire website is highly desirable.
+          5.3 Required Material
+
+                    5.3.1 Identification - The following information must be clearly stated on the
+                          homepage of all Executive Branch websites:
+                             • Name of the Nevada state executive branch organization
+                             • Mailing address
+
+                                                                 2
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date       Page
+ 4.01                     1.1                     Web Style Standard    10February19         3 of 10
+
+                                   •    Main reception or information phone number, fax number and
+                                        email address
+                                   •    Link to State of Nevada homepage http://www.nv.gov/
+                                   •    Seal of the State of Nevada
+
+                                Link to State of Nevada Web Privacy Policy. Any additional security
+                                and/or privacy disclaimers that are specific to the agency must also be
+                                posted on the agency’s homepage. All pages that collect personally
+                                identifiable data from visitors must include a link to the Privacy Policy.
+                                All pages within a site shall contain the following items and
+                                information:
+                                   •    Identification as a state site either using the state seal or text.
+                                   •    A link back to the agency’s home page.
+                                   •    Charter All Executive Branch websites should contain the charter
+                                        which allows the agency to operate as a government agency.
+                                        This should include:
+                                   •    Legislative document (NRS, Executive Order etc.) that allows the
+                                        agency to operate
+                                   •    Function the agency is responsible for
+                                   •    Who the agency reports to
+                                   •    Identification of entities that operate directly above and below
+                                        this one is desirable
+
+                    5.2.3 Forms
+                                   All forms shall be ADA compliant.
+
+                                                                 3
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date      Page
+ 4.01                     1.1                     Web Style Standard    10February19        4 of 10
+
+                    5.2.4 Sitemap
+
+                                   A sitemap in text format is required.
+
+          5.3 Prohibited Material
+
+                    5.3.1 Offensive Material
+
+                                        Web content shall respect the dignity of all people and shall not
+                                        contain offensive materials. Examples of such content could
+                                        include, but are not limited to, racist, sexist, threatening,
+                                        obscene or otherwise objectionable material that is visual,
+                                        textual or audible.
+
+                    5.3.2 Political or Religious Material
+
+                                        State websites shall not advocate, support or oppose any
+                                        political candidate, party or ballot measure at any level of
+                                        government. State websites shall not promote or discredit any
+                                        religious belief.
+
+                    5.3.3 Embedded Codes
+
+                                        State websites shall not contain codes, passwords, links or other
+                                        items and information which might allow unauthorized access to
+                                        the State of Nevada communications and/or computer facilities.
+
+                    5.3.4 Sensitive Information
+
+                                        State websites shall not contain information or details on an
+                                        agency’s critical infrastructure or other data that could provide
+                                        sensitive information that could be used by persons with a
+                                        criminal or terrorist intent. Critical infrastructure information
+                                        includes, but is not limited to:
+
+                                                                 4
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date     Page
+ 4.01                     1.1                     Web Style Standard    10February19       5 of 10
+
+                                        o Physical Infrastructure: location of sensitive buildings, floor
+                                          plans, environmental and physical security controls
+                                        o Communications Infrastructure: network diagrams, maps or
+                                          description of location of communications hubs, microwave
+                                          sites
+                                        o Critical Applications: Access procedures, passwords, specific
+                                          user manuals, code
+                                        o Documents: Emergency Response Plans, Disaster
+                                          Recovery/Business Resumption Plans, System backup
+                                          locations, Security Plans with specific procedures
+                    5.3.5 Advertising Advertisements, sponsorships or endorsements on state-
+                    controlled websites, regardless of where they are hosted, shall not be
+                    allowed, unless specifically authorized by the Office of the Governor.
+
+          6.0 Intellectual Property Compliance
+                    6.1 Although the content of Executive Branch websites is available to the
+                    public, certain information may be copyrighted, service marked or otherwise
+                    protected as the state agency’s intellectual property. All agency content is
+                    protected by federal copyright laws.
+                                Use of any intellectual property that was not created by Nevada state
+                                employees, or by contract for Nevada state use, must be in
+                                accordance with this policy, federal and state law. Appropriate credit or
+                                legal release from the content owner or copyright holder must be
+                                clearly visible. Examples of copyrighted content include news articles,
+                                graphics, photographs, copyrighted web page design, animation and
+                                sound, etc. For more information on copyrights visit the United States
+                                Copyright Office website.
+                    6.2 Links
+
+                                                                 5
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date     Page
+ 4.01                     1.1                     Web Style Standard    10February19       6 of 10
+
+                                External links (links to websites not hosted or supported by the State
+                                of Nevada) must meet the following criteria:
+                                   •    The site must be relevant and add value to the State site
+                                        containing the link
+                                   •    The site must not violate the Prohibited Material section of this
+                                        Policy
+                                The State of Nevada does not accept responsibility for the content of
+                                links from a state site and reserves the right to refuse or delete any
+                                link.
+                                Users should not be able to exit an interactive application or secure
+                                site using the “back” button or arrow. In this situation clicking on the
+                                “back” button or arrow should generate a security message asking the
+                                user to confirm that they really want to exit the application or secure
+                                site.
+
+                    6.3 Supported Technologies
+
+                                6.3.1 Browser
+                                        Every page must be successfully tested using the most recent
+                                        production release of Internet Explorer. Support for other
+                                        browsers is desirable but not required.
+
+                                6.3.2 Animation and Sound
+                                        Motion and sound should be used with extreme discretion and is
+                                        highly discouraged. Any motion or sound must be integral to the
+                                        content of the site. An option for the user to turn off motion and
+                                        sound must be clearly posted on the page where it is initiated.
+                                        Examples of motion include animated graphics, blinking text,
+                                        and scrolling banners.
+
+                                                                 6
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date      Page
+ 4.01                     1.1                     Web Style Standard    10February19        7 of 10
+
+                                6.3.3 Frames
+                                        The State of Nevada homepage may not be framed into an
+                                        agency web page. In general, frames are strongly discouraged
+                                        on state websites because:
+                                   •    People with cognitive disabilities and visual disabilities often have
+                                        difficulty interpreting pages built with frames
+                                   •    Frames are difficult to print
+                                   •    Most search engines do not index sites using frames
+
+                                6.3.4 Scripts & Components
+                                        Only validated and non-malicious scripts and components are
+                                        allowed.
+
+                                6.3.5 Specialized Technologies
+                                        Sites requiring specialized technologies (plug-ins) must supply a
+                                        link to acquire the technology, which must be acquirable at no
+                                        charge to the person browsing the site.
+
+                                        Graphic Image Files The three standard types of image files to
+                                        be used on Web pages are gifs, pngs and jpegs:
+                                   •    gif: This is a good format for images with solid flat colors or
+                                        sharp and distinctive edges, such as text and line art. The gif
+                                        format allows more control over each individual pixel. The gif
+                                        format can be made into a transparent version of the graphic.
+                                   •    png: PNG offers a variety of transparency options. With true
+                                        color and grayscale images either a single pixel value can be
+                                        declared as transparent or an alpha channel can be added.
+
+                                                                 7
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date     Page
+ 4.01                     1.1                     Web Style Standard    10February19      8 of 10
+
+                                   •    jpeg: This format is usually a better file format to be used for
+                                        photographs. The jpeg format gives better control over quality of
+                                        the photo in relationship to compression of the photo. Whether
+                                        you are using the gif format or the jpeg format, do not turn gif
+                                        files into jpegs or vice versa.
+
+                    6.4 Website Maintenance
+
+                                6.4.1 Content
+                                        Sites must be reviewed monthly (at a minimum) to ensure that
+                                        all content is current. Outdated announcements and information
+                                        that is obsolete not only provide visitors with incorrect
+                                        information, but they also reflect poorly on the executive branch
+                                        organization and the State.
+
+                                6.4.2 Links
+                                        The page owner must check the validity of all links, both internal
+                                        and external, monthly. Broken or outdated links must be
+                                        corrected or removed.
+
+7.0       Americans with Disabilities Act (ADA)
+     To ensure equal access to electronic information for users with disabilities, the
+     Nevada has established standards and guidelines to guarantee accessibility to users
+     with visual, physical, or developmental disabilities. Agency websites must comply
+     with the Electronic and Information Technology Accessibility Standards and related
+     Americans with Disabilities Act (ADA) requirements, reviewing all documents for
+     accessibility remediation. Refer to http://ada.nv.gov/ for specific guidance and
+     further resources.
+
+                                                                 8
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date   Page
+ 4.01                     1.1                     Web Style Standard    10February19     9 of 10
+
+8       RELATED INFORMATION AND DEFINITIONS
+
+        Base URL String - Also known as the root URL or Domain Name. The
+        nomenclature, which identifies the address of a web site. The base string means
+        the root URL. Example: www.microsoft.com is a root or base URL that takes a user
+        to the first page of Microsoft’s web site.
+
+        Executive Branch Organizations – Includes departments, divisions, agencies,
+        units, commissions, boards or institutions.
+        Home Page - The first page a user will encounter when visiting a web site for the
+        first time through the base URL string.
+        Internet – Worldwide network of networks and computers that are interconnected
+        to communicate with each other through web pages, e-mail and many other
+        services.
+        Links - Also known as hyper-links. Used to connect one web page to another web
+        page via some form of Hyper-Text Markup Language, whether graphical or text in
+        nature.
+        Intranet – An internal, restricted private network in which access is restricted to
+        those within a company or organization. Intranets provide many of the same
+        services as the Internet including websites and e-mail, but access is allowed only to
+        approve individuals within an organization.
+        URL – Universal Resource Locator
+        Validated script: Executable instructions that are virus free and have been testing
+        using several browsers.
+        Web Page – Any page located on a web site
+        Web Site - Public set of documents
+
+                                                                 9
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+                                                  State of Nevada
+                                         Office of the Chief Information Officer
+
+                                                        Standard
+
+ Control No               Rev.                           Title          Effective Date   Page
+ 4.01                     1.1                     Web Style Standard    10February19     10 of 10
+
+9       REFRENCES AND SOURCES
+
+        State Security Policies, Standards & Procedures and Enterprise Policy, Standards,
+        Procedures
+        World Wide Web Consortium (WC3) Accessibility Guidelines http://www.w3.org/TR/WAI-
+        WEBCONTENT
+        United States Copyright Office http://www.lcweb.loc.gov/copyright
+        United States Patent and Trademark Office http://www.uspto.gov/
+        State of Nevada Web Privacy Policy http://nv.gov/privacy-policy/
+
+        Yale University “Web Style Guide”
+        http://www.webstyleguide.com/index.html?/sites/site_design.html
+        Nielsen, Jakob “Writing for the Web” http://www.useit.com/papers/webwriting
+        Nielsen, Jakob “How Users Read on the Web” http://useit.com/alertbox/9710a.html
+        University of Washington “Design of Web Sites” http://staff.washington.edu/rells/design/
+        Jutta Degener’s. “Dangerous Words” http://www.quut.com/berlin/ht/writing/words.html
+        Strunk, William, and E.B. White. The Elements of Style. https://www.bartleby.com/141/
+        The Chicago Manual of Style: the Essential Guide for Writers, Editors, and
+        Publishers (14th Edition) https://www.chicagomanualofstyle.org/home.html
+        W3C Web Content Accessibility Guidelines 2.0 http://www.w3.org/TR/WCAG20/
+        W3C Web Accessibility Initiative Resources http://www.w3.org/WAI/Resources/
+        Federal Information Technology Accessibility Initiative http://www.section508.gov/
+
+10      CONTACT
+
+        Questions regarding this process may be directed to the State Web Development
+        Manager, Linda DeSantis, at Desantis@admin.nv.gov
+
+                                                                 10
+CIO/Correspondence/Web Style Guidelines.10.2.19
+
+## Curator notes
+
+Text extracted with pdftotext -layout (page headers, footers and column layout kept as extracted; form feeds and trailing spaces removed; ligature glyphs such as fi and fl written as their letters).
